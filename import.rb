@@ -8,7 +8,7 @@ j.each do |article|
   next if category.nil?
 
   category_path = category.downcase.tr(' ', '-')
-  file_path = "content/#{category_path}/#{article["slug"]}.markdown"
+  file_path = "content/articles/#{article["slug"]}.markdown"
   FileUtils.mkdir_p(File.dirname(file_path))
 
   title = article["title"].tr('"', '')
