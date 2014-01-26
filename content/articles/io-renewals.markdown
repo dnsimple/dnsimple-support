@@ -1,7 +1,6 @@
 ---
 title: .IO Renewals
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

@@ -1,7 +1,6 @@
 ---
 title: How do I prepare my domain to transfer out of GoDaddy?
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

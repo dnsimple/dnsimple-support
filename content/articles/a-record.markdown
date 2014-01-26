@@ -1,7 +1,6 @@
 ---
 title: What is an A record?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

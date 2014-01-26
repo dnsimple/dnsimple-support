@@ -1,7 +1,6 @@
 ---
 title: Requesting a Transfer Code
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

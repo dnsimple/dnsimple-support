@@ -1,7 +1,6 @@
 ---
 title: Resolution Status
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

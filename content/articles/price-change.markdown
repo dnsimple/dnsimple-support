@@ -1,7 +1,6 @@
 ---
 title: Price Change
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

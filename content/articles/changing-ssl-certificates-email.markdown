@@ -1,7 +1,6 @@
 ---
 title: Changing an SSL Certificate Approver Email
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

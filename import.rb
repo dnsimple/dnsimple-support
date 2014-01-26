@@ -16,7 +16,6 @@ j.each do |article|
 ---
 title: #{title}
 excerpt: 
-kind: article
 categories:
 - #{category}
 ---

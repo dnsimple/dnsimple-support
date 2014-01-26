@@ -100,14 +100,14 @@ module Categories
   def create_category_pages
     articles_by_category.each do |category, items|
       @items << Nanoc::Item.new(
-          "<%= render('category_index', :category => '#{category}') %>",
-          {
-              :title => "Articles in #{category}",
-              :h1 => "#{category} articles",
-              :items => items
-          },
-          url_for_category(category),
-          :binary => false
+        "<%= render('category_index', :category => '#{category}') %>",
+        {
+            :title => "Articles in #{category}",
+            :h1 => "#{category} articles",
+            :items => items
+        },
+        url_for_category(category),
+        :binary => false
       )
     end
   end

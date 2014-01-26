@@ -1,7 +1,6 @@
 ---
 title: Suspended Account
 excerpt: 
-kind: article
 categories:
 - Account
 ---

@@ -1,7 +1,6 @@
 ---
 title: DNSimple Prices
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

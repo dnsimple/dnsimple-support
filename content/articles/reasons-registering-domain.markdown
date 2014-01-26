@@ -1,7 +1,6 @@
 ---
 title: Why Should I Register my Domain Name with DNSimple?
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

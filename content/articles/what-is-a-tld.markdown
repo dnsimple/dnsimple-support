@@ -1,7 +1,6 @@
 ---
 title: What is a TLD?
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

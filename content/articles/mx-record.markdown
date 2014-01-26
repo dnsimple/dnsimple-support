@@ -1,7 +1,6 @@
 ---
 title: What is an MX record?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

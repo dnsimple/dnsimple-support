@@ -1,7 +1,6 @@
 ---
 title: Pointing a Domain to DNSimple
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

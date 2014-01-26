@@ -1,7 +1,6 @@
 ---
 title: DNSimple Services
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

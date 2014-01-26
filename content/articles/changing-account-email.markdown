@@ -1,7 +1,6 @@
 ---
 title: Changing Account Email
 excerpt: 
-kind: article
 categories:
 - Account
 ---

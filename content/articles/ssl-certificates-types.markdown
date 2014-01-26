@@ -1,7 +1,6 @@
 ---
 title: SSL Certificate Types
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

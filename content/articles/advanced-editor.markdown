@@ -1,7 +1,6 @@
 ---
 title: Advanced Record Editor
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

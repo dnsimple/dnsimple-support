@@ -1,7 +1,6 @@
 ---
 title: Securing your DNSimple Account
 excerpt: 
-kind: article
 categories:
 - Account
 ---

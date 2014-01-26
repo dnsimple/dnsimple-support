@@ -1,7 +1,6 @@
 ---
 title: Product Expiring Tomorrow Notification
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

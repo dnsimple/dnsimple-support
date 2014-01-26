@@ -1,7 +1,6 @@
 ---
 title: What is an URL record?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

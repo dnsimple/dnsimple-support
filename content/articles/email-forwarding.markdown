@@ -1,7 +1,6 @@
 ---
 title: Email Forwarding
 excerpt: 
-kind: article
 categories:
 - Emails
 ---

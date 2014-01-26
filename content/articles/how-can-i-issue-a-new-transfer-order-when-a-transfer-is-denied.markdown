@@ -1,7 +1,6 @@
 ---
 title: How can I issue a new transfer order when a transfer is denied?
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

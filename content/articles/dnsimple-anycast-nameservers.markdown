@@ -1,7 +1,6 @@
 ---
 title: DNSimple Anycast Name Servers
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

@@ -1,7 +1,6 @@
 ---
 title: .IT domain requirements
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

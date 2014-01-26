@@ -1,7 +1,6 @@
 ---
 title: Pointing the Domain Apex to Heroku
 excerpt: 
-kind: article
 categories:
 - Heroku and DNSimple
 ---

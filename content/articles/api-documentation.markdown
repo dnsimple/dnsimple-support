@@ -1,7 +1,6 @@
 ---
 title: API Documentation
 excerpt: 
-kind: article
 categories:
 - API
 ---

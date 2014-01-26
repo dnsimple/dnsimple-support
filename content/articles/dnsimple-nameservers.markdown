@@ -1,7 +1,6 @@
 ---
 title: DNSimple Name Servers
 excerpt: 
-kind: article
 categories:
 - Name Servers
 ---

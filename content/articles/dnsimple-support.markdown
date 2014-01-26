@@ -1,7 +1,6 @@
 ---
 title: Contacting DNSimple Support
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

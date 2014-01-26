@@ -1,7 +1,6 @@
 ---
 title: Pointing a Domain at Another Registrar to DNSimple
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

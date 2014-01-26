@@ -1,7 +1,6 @@
 ---
 title: Renewing an SSL Certificate
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

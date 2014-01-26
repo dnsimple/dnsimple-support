@@ -1,7 +1,6 @@
 ---
 title: Why Should I Host my DNS with DNSimple?
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

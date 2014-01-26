@@ -1,7 +1,6 @@
 ---
 title: Expiring Product Email Notifications
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

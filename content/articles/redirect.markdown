@@ -1,7 +1,6 @@
 ---
 title: Configuring a Redirect
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

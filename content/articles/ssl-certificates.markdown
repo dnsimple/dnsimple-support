@@ -1,7 +1,6 @@
 ---
 title: SSL Certificates
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

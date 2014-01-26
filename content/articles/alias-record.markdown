@@ -1,7 +1,6 @@
 ---
 title: What is an ALIAS record?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

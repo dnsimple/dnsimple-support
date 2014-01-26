@@ -1,7 +1,6 @@
 ---
 title: SSL Certificates Current Best Practices
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

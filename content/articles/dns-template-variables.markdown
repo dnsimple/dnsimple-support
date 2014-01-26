@@ -1,7 +1,6 @@
 ---
 title: DNS Template Variables
 excerpt: 
-kind: article
 categories:
 - Advanced DNS
 ---

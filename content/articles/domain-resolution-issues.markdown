@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting Domain Resolution Issues
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

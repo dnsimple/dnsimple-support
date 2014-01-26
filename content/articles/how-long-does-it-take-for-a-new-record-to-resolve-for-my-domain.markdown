@@ -1,7 +1,6 @@
 ---
 title: How long does it take for a new record to resolve for my domain?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

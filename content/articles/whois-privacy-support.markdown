@@ -1,7 +1,6 @@
 ---
 title: Whois Privacy Protection Support
 excerpt: 
-kind: article
 categories:
 - Whois Privacy
 ---

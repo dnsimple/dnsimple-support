@@ -1,7 +1,6 @@
 ---
 title: Common DNS Records
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

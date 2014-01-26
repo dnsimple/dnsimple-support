@@ -1,7 +1,6 @@
 ---
 title: Sandbox for Testing Calls to the API
 excerpt: 
-kind: article
 categories:
 - API
 ---

@@ -1,7 +1,6 @@
 ---
 title: Vanity Name Servers
 excerpt: 
-kind: article
 categories:
 - Advanced DNS
 ---

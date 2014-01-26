@@ -1,7 +1,6 @@
 ---
 title: What is Whois Privacy Protection?
 excerpt: 
-kind: article
 categories:
 - Whois Privacy
 ---

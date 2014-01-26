@@ -1,7 +1,6 @@
 ---
 title: Product Expiration Notification
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

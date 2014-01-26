@@ -1,7 +1,6 @@
 ---
 title: Where are your servers located?
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

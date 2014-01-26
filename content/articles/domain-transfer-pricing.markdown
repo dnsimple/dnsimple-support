@@ -1,7 +1,6 @@
 ---
 title: Domain Transfer Pricing
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

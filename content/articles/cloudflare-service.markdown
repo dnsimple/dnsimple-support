@@ -1,7 +1,6 @@
 ---
 title: CloudFlare
 excerpt: 
-kind: article
 categories:
 - Services
 ---

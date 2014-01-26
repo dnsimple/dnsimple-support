@@ -1,7 +1,6 @@
 ---
 title: Deleting a Domain
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

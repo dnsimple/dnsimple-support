@@ -1,7 +1,6 @@
 ---
 title: DNSSEC Support
 excerpt: 
-kind: article
 categories:
 - Advanced DNS
 ---

@@ -1,7 +1,6 @@
 ---
 title: Master/Slave DNS Support 
 excerpt: 
-kind: article
 categories:
 - Advanced DNS
 ---

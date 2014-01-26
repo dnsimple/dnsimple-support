@@ -1,7 +1,6 @@
 ---
 title: Purchasing an SSL Certificate
 excerpt: 
-kind: article
 categories:
 - SSL Certificates
 ---

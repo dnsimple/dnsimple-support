@@ -1,7 +1,6 @@
 ---
 title: Close Your Account
 excerpt: 
-kind: article
 categories:
 - Account
 ---

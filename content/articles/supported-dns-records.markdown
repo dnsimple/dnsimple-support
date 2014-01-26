@@ -1,7 +1,6 @@
 ---
 title: Supported DNS Record Types
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

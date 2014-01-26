@@ -1,7 +1,6 @@
 ---
 title: How do I change my name servers?
 excerpt: 
-kind: article
 categories:
 - Name Servers
 ---

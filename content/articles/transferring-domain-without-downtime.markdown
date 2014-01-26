@@ -1,7 +1,6 @@
 ---
 title: Transferring a Domain without Downtime
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

@@ -1,7 +1,6 @@
 ---
 title: Transferring a Domain to DNSimple
 excerpt: 
-kind: article
 categories:
 - Domain Transfers
 ---

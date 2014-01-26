@@ -1,7 +1,6 @@
 ---
 title: Account Activation
 excerpt: 
-kind: article
 categories:
 - Account
 ---

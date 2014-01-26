@@ -1,7 +1,6 @@
 ---
 title: Adding services
 excerpt: 
-kind: article
 categories:
 - Services
 ---

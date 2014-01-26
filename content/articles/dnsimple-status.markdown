@@ -1,7 +1,6 @@
 ---
 title: DNSimple Status Page
 excerpt: 
-kind: article
 categories:
 - DNSimple
 ---

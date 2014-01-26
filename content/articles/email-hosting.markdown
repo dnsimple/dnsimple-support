@@ -1,7 +1,6 @@
 ---
 title: Email Hosting Support
 excerpt: 
-kind: article
 categories:
 - Emails
 ---

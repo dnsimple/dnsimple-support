@@ -1,7 +1,6 @@
 ---
 title: .ES domain requirements
 excerpt: 
-kind: article
 categories:
 - Domains
 ---

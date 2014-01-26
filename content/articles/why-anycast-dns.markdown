@@ -1,7 +1,6 @@
 ---
 title: Why anycast DNS?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---

@@ -1,7 +1,6 @@
 ---
 title: What is a NS Record?
 excerpt: 
-kind: article
 categories:
 - DNS
 ---
