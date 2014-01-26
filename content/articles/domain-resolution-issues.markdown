@@ -33,13 +33,13 @@ If not, update the name server to [point to DNSimple](/articles/pointing-domain-
 
 You can use `dig` or any other DNS tool to get the name servers for the domain.
 
-```
+~~~
 $ dig NS example.com +short
 ns1.dnsimple.com.
 ns2.dnsimple.com.
 ns3.dnsimple.com.
 ns4.dnsimple.com.
-```
+~~~
 
 The order of the name servers is irrelevant.
 
@@ -50,9 +50,9 @@ The `+trace` option from `dig` shows exactly how the name is delegated.
 
 It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It's useful to debug delegation issues.
 
-```
+~~~
 $ dig NS example.com +trace
-```
+~~~
 
 The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers).
 
@@ -68,7 +68,7 @@ DNSimple provides four name servers. You should include all the name servers to 
 
 In some cases a misconfiguration may result in DNSimple name servers listed along with third party name servers.
 
-```
+~~~
 $ dig NS example.com +short
 ns1.dnsimple.com.
 ns2.dnsimple.com.
@@ -76,7 +76,7 @@ ns3.dnsimple.com.
 ns4.dnsimple.com.
 ns1.thirdparty.com.
 ns2.thirdparty.com.
-```
+~~~
 
 This configuration may lead to random DNS resolution issue, especially if you are using DNS custom features such as ALIAS or URL records and/or the two DNS services are not in sync. 
 
@@ -85,7 +85,7 @@ This configuration may lead to random DNS resolution issue, especially if you ar
 
 Use a WHOIS service to run a whois query for the domain. The majority of domain registries include the name server list in the WHOIS response.
 
-```
+~~~
 $ whois dnsimple.com
 
 Domain Name: DNSIMPLE.COM
@@ -100,7 +100,7 @@ Status: clientTransferProhibited
 Updated Date: 13-jun-2013
 Creation Date: 07-apr-2010
 Expiration Date: 07-apr-2018
-```
+~~~
 
 The name server should match DNSimple name servers and the response returned from `dig`. If not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple).
 

@@ -15,18 +15,18 @@ This means, for example, you cannot use the [URL record](/articles/url-record) t
 
 The following redirects can be configured.
 
-```text
+~~~text
 http://example.com => http://www.example.com
 http://example.com => https://www.example.com
-```
+~~~
 
 ## Not applicable redirects
 
 The following redirect cannot be configure and will result in a timeout.
 
-```text
+~~~text
 https://example.com => https://www.example.com
-```
+~~~
 
 ## Technical explanation
 

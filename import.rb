@@ -7,12 +7,15 @@ j.each do |article|
   category = article["category"]
   next if category.nil?
 
-  category_path = category.downcase.tr(' ', '-')
   file_path = "content/articles/#{article["slug"]}.markdown"
   FileUtils.mkdir_p(File.dirname(file_path))
 
   title = article["title"].tr('"', '')
-  content = <<-EOF
+
+  content = article["content"]
+  content.gsub!('```', '~~~')
+
+  body = <<-EOF
 ---
 title: #{title}
 excerpt: 
@@ -22,8 +25,8 @@ categories:
 
 # #{article["title"]}
 
-#{article["content"]}
+#{content}
   EOF
 
-  File.write(file_path, content)
+  File.write(file_path, body)
 end

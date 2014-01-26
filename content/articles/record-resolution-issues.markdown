@@ -23,7 +23,7 @@ Whenever you change a record, the old record value may live in your cache until 
 
 This is the result from a fresh `dig` query for the record `www.dnsimple.com`. Notice the `ANSWER` section.
 
-```
+~~~
 $ dig www.dnsimple.com
 
 ; <<>> DiG 9.8.3-P1 <<>> www.dnsimple.com
@@ -43,15 +43,15 @@ dnsimple.com.       600 IN  A   50.31.209.238
 ;; SERVER: 8.8.8.8#53(8.8.8.8)
 ;; WHEN: Fri Jul 19 15:15:39 2013
 ;; MSG SIZE  rcvd: 64
-```
+~~~
 
 This is the same query performed a few seconds later. Notice again the `ANSWER` section.
 
-```
+~~~
 ;; ANSWER SECTION:
 www.dnsimple.com.   3543    IN  CNAME   dnsimple.com.
 dnsimple.com.       543 IN  A   50.31.209.238
-```
+~~~
 
 In this case, `dig` is telling me I have to wait 3534 seconds (about an hour) before the cache for the record is expired. If I make a change now, it may not be visible from my local machine for an hour.
 
@@ -71,9 +71,9 @@ In most cases, you can bypass a propagation delay by passing a custom name serve
 
 The following command checks the DNS record against the `ns1.dnsimple.com` name server.
 
-```
+~~~
 $ dig www.dnsimple.com @ns1.dnsimple.com
-```
+~~~
 
 If the response is the one you expect, it means the record has been updated in our system but the changes still need propagate. In all likelihood, they will be visible after the TTL period.
 

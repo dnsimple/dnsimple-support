@@ -20,7 +20,7 @@ You can choose to purchase Whois Privacy Protection for any of your domains in T
 Here is an example of the the Whois data for a domain that has Whois Privacy Protection enabled:
 
 
-```text
+~~~text
 Domain name: dnsimple.net
 
 Registrant Contact:
@@ -54,4 +54,4 @@ Technical Contact:
    C/O dnsimple.net
    Bellevue, WA 98007
    US
-```
+~~~

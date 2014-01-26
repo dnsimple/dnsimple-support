@@ -11,13 +11,13 @@ DNSimple enables you to create templates for DNS records usable across any of yo
 
 To create a record that automatically fills in the domain name to which the template is applied use the variable:
 
-```text
+~~~text
 {{domain}}
-```
+~~~
 
 or the symbol
 
-```text
+~~~text
 @
-```
+~~~
 
