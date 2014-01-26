@@ -1,7 +1,7 @@
 <h1><%= @item[:h1] %></h1>
 
-<ul>
+<ul class="articles-list">
   <% @item[:items].each do |item| %>
-    <li><a href="<%= relative_path_to(item) %>"><%= item.attributes[:title] %></a></li>
+    <li class="articles-list-item"><a href="<%= relative_path_to(item) %>"><%= item.attributes[:title] %></a></li>
   <% end %>
 </ul>
