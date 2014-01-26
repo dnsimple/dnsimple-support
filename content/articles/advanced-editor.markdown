@@ -1,7 +1,9 @@
 ---
 title: Advanced Record Editor
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Advanced Record Editor

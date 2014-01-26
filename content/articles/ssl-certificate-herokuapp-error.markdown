@@ -1,7 +1,9 @@
 ---
 title: Troubleshooting SSL error for *.heroku.com or *. herokuapp.com
 excerpt: 
-category: Heroku and DNSimple
+kind: article
+categories:
+- Heroku and DNSimple
 ---
 
 # Troubleshooting SSL error for *.heroku.com or *. herokuapp.com

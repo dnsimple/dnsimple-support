@@ -1,7 +1,9 @@
 ---
 title: DNSimple Name Servers
 excerpt: 
-category: Name Servers
+kind: article
+categories:
+- Name Servers
 ---
 
 # DNSimple Name Servers

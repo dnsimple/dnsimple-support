@@ -1,7 +1,9 @@
 ---
 title: Changing an SSL Certificate Approver Email
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # Changing an SSL Certificate Approver Email

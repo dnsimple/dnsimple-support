@@ -1,7 +1,9 @@
 ---
 title: Vanity Name Servers
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # Vanity Name Servers

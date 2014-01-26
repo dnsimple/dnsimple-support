@@ -1,7 +1,9 @@
 ---
 title: DNSimple Prices
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # DNSimple Prices

@@ -1,7 +1,9 @@
 ---
 title: Moving domains between DNSimple accounts
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # Moving domains between DNSimple accounts

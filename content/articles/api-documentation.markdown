@@ -1,7 +1,9 @@
 ---
 title: API Documentation
 excerpt: 
-category: API
+kind: article
+categories:
+- API
 ---
 
 # API Documentation

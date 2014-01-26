@@ -1,7 +1,9 @@
 ---
 title: Using an SSL Certificate with Heroku
 excerpt: 
-category: Heroku and DNSimple
+kind: article
+categories:
+- Heroku and DNSimple
 ---
 
 # Using an SSL Certificate with Heroku

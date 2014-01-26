@@ -1,7 +1,9 @@
 ---
 title: .IO Renewals
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # .IO Renewals

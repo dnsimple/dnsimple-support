@@ -1,7 +1,9 @@
 ---
 title: Master/Slave DNS Support 
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # Master/Slave DNS Support 

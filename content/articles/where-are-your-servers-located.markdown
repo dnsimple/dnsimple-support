@@ -1,7 +1,9 @@
 ---
 title: Where are your servers located?
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # Where are your servers located?

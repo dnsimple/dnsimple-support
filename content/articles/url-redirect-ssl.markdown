@@ -1,7 +1,9 @@
 ---
 title: Can a URL record redirect requests over SSL?
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # Can a URL record redirect requests over SSL?

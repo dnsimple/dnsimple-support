@@ -1,7 +1,9 @@
 ---
 title: Domain Transfer Pricing
 excerpt: 
-category: Domain Transfers
+kind: article
+categories:
+- Domain Transfers
 ---
 
 # Domain Transfer Pricing

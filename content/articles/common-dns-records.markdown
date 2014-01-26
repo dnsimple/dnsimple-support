@@ -1,7 +1,9 @@
 ---
 title: Common DNS Records
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Common DNS Records

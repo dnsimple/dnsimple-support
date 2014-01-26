@@ -1,7 +1,9 @@
 ---
 title: CloudFlare
 excerpt: 
-category: Services
+kind: article
+categories:
+- Services
 ---
 
 # CloudFlare

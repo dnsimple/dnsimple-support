@@ -1,7 +1,9 @@
 ---
 title: Why Should I Host my DNS with DNSimple?
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # Why Should I Host my DNS with DNSimple?

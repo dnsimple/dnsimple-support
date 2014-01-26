@@ -1,7 +1,9 @@
 ---
 title: DNSimple Status Page
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # DNSimple Status Page

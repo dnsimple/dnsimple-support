@@ -1,7 +1,9 @@
 ---
 title: SSL Certificate Email Approval
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # SSL Certificate Email Approval

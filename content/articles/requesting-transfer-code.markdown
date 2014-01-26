@@ -1,7 +1,9 @@
 ---
 title: Requesting a Transfer Code
 excerpt: 
-category: Domain Transfers
+kind: article
+categories:
+- Domain Transfers
 ---
 
 # Requesting a Transfer Code

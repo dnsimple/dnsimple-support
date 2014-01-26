@@ -1,7 +1,9 @@
 ---
 title: Troubleshooting Domain Resolution Issues
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Troubleshooting Domain Resolution Issues

@@ -1,7 +1,9 @@
 ---
 title: DNS Template Variables
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # DNS Template Variables

@@ -1,7 +1,9 @@
 ---
 title: What is a SOA Record?
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # What is a SOA Record?

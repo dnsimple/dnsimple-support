@@ -1,7 +1,9 @@
 ---
 title: Deleting a Domain
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # Deleting a Domain

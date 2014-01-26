@@ -1,7 +1,9 @@
 ---
 title: What is a NS Record?
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # What is a NS Record?

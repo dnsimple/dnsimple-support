@@ -1,7 +1,9 @@
 ---
 title: What is a Certificate Authority?
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # What is a Certificate Authority?

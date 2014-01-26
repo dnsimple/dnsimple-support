@@ -1,7 +1,9 @@
 ---
 title: Pointing a Domain at Another Registrar to DNSimple
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Pointing a Domain at Another Registrar to DNSimple

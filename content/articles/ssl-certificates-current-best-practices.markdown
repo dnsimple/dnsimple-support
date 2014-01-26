@@ -1,7 +1,9 @@
 ---
 title: SSL Certificates Current Best Practices
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # SSL Certificates Current Best Practices

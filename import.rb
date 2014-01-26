@@ -16,7 +16,9 @@ j.each do |article|
 ---
 title: #{title}
 excerpt: 
-category: #{category}
+kind: article
+categories:
+- #{category}
 ---
 
 # #{article["title"]}

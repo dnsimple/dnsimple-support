@@ -1,7 +1,9 @@
 ---
 title: Configuring a Redirect
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # Configuring a Redirect

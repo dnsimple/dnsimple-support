@@ -1,7 +1,9 @@
 ---
 title: Resolution Status
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Resolution Status

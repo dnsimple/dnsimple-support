@@ -1,7 +1,9 @@
 ---
 title: Sharing Domain Management with Another User
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # Sharing Domain Management with Another User

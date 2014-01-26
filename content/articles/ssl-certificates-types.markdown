@@ -1,7 +1,9 @@
 ---
 title: SSL Certificate Types
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # SSL Certificate Types

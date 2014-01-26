@@ -1,7 +1,9 @@
 ---
 title: Securing your DNSimple Account
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Securing your DNSimple Account

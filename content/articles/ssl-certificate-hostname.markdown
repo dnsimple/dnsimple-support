@@ -1,7 +1,9 @@
 ---
 title: Choosing the SSL Certificate Hostname
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # Choosing the SSL Certificate Hostname

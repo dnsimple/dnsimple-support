@@ -1,7 +1,9 @@
 ---
 title: DNSSEC Support
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # DNSSEC Support

@@ -1,7 +1,9 @@
 ---
 title: Product Expiring Tomorrow Notification
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # "Product Expiring Tomorrow" Notification

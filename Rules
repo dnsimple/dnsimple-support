@@ -14,6 +14,10 @@
 #   because “*” matches zero or more characters.
 
 
+preprocess do
+  create_category_pages
+end
+
 compile '/assets/css/*/' do
   if item.identifier =~ %r{/_[^/]+/$}
     # don't compile partials

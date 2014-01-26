@@ -1,7 +1,9 @@
 ---
 title: Renewing an SSL Certificate
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # Renewing an SSL Certificate

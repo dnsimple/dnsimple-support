@@ -1,7 +1,9 @@
 ---
 title: Why anycast DNS?
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Why anycast DNS?

@@ -1,7 +1,9 @@
 ---
 title: Adding services
 excerpt: 
-category: Services
+kind: article
+categories:
+- Services
 ---
 
 # Adding services

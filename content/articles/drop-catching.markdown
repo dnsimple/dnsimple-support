@@ -1,7 +1,9 @@
 ---
 title: Can I use DNSimple for Drop-catching?
 excerpt: 
-category: API
+kind: article
+categories:
+- API
 ---
 
 # Can I use DNSimple for Drop-catching?

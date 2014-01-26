@@ -1,7 +1,9 @@
 ---
 title: Product Expiration Notification
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # "Product Expiration" Notification

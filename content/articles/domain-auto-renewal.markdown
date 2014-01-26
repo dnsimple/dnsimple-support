@@ -1,7 +1,9 @@
 ---
 title: What is Domain Auto-renewal?
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # What is Domain Auto-renewal?

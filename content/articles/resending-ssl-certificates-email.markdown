@@ -1,7 +1,9 @@
 ---
 title: Resending an SSL Certificate Approval Email
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # Resending an SSL Certificate Approval Email

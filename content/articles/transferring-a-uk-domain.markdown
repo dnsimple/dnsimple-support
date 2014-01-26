@@ -1,7 +1,9 @@
 ---
 title: Transferring a UK domain
 excerpt: 
-category: Domain Transfers
+kind: article
+categories:
+- Domain Transfers
 ---
 
 # Transferring a UK domain

@@ -1,7 +1,9 @@
 ---
 title: Suspended Account
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Suspended Account

@@ -1,7 +1,9 @@
 ---
 title: Contacting DNSimple Support
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # Contacting DNSimple Support

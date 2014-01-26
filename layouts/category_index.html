@@ -1,0 +1,7 @@
+<h1><%= @item[:h1] %></h1>
+
+<ul>
+  <% @item[:items].each do |item| %>
+    <li><a href="<%= relative_path_to(item) %>"><%= item.attributes[:title] %></a></li>
+  <% end %>
+</ul>

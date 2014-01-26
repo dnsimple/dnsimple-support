@@ -1,7 +1,9 @@
 ---
 title: Purchasing an SSL Certificate
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # Purchasing an SSL Certificate

@@ -1,7 +1,9 @@
 ---
 title: DNSimple Anycast Name Servers
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # DNSimple Anycast Name Servers

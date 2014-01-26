@@ -1,7 +1,9 @@
 ---
 title: Transferring a Domain to DNSimple
 excerpt: 
-category: Domain Transfers
+kind: article
+categories:
+- Domain Transfers
 ---
 
 # Transferring a Domain to DNSimple

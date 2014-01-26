@@ -1,7 +1,9 @@
 ---
 title: Account Creation
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Account Creation

@@ -1,7 +1,9 @@
 ---
 title: SSL Certificates
 excerpt: 
-category: SSL Certificates
+kind: article
+categories:
+- SSL Certificates
 ---
 
 # SSL Certificates

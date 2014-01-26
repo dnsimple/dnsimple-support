@@ -1,7 +1,9 @@
 ---
 title: Differences Between A, CNAME, ALIAS and URL Records
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Differences Between A, CNAME, ALIAS and URL Records

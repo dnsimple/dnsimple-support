@@ -1,7 +1,9 @@
 ---
 title: .IT domain requirements
 excerpt: 
-category: Domains
+kind: article
+categories:
+- Domains
 ---
 
 # .IT domain requirements

@@ -1,7 +1,9 @@
 ---
 title: Account Activation
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Account Activation

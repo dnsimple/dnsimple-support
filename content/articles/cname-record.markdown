@@ -1,7 +1,9 @@
 ---
 title: What is a CNAME record?
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # What is a CNAME record?

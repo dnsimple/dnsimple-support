@@ -1,7 +1,9 @@
 ---
 title: Yearly Billing
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Yearly Billing

@@ -1,7 +1,9 @@
 ---
 title: DNSimple Services
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # DNSimple Services

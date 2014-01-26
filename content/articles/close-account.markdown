@@ -1,7 +1,9 @@
 ---
 title: Close Your Account
 excerpt: 
-category: Account
+kind: article
+categories:
+- Account
 ---
 
 # Close Your Account

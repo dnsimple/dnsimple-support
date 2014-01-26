@@ -1,7 +1,9 @@
 ---
 title: What is a POOL record?
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # What is a POOL record?

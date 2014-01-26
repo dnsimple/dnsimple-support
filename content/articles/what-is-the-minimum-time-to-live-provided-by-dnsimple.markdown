@@ -1,7 +1,9 @@
 ---
 title: What is the minimum time-to-live provided by DNSimple?
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # What is the minimum time-to-live provided by DNSimple?

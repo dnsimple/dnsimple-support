@@ -1,7 +1,9 @@
 ---
 title: Secondary DNS Support
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # Secondary DNS Support

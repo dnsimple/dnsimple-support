@@ -1,7 +1,9 @@
 ---
 title: IPv6 Domain Resolution
 excerpt: 
-category: Advanced DNS
+kind: article
+categories:
+- Advanced DNS
 ---
 
 # IPv6 Domain Resolution

@@ -1,7 +1,9 @@
 ---
 title: Troubleshooting Record Resolution Issues
 excerpt: 
-category: DNS
+kind: article
+categories:
+- DNS
 ---
 
 # Troubleshooting Record Resolution Issues

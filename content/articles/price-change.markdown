@@ -1,7 +1,9 @@
 ---
 title: Price Change
 excerpt: 
-category: DNSimple
+kind: article
+categories:
+- DNSimple
 ---
 
 # Price Change

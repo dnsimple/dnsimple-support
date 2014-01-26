@@ -1,7 +1,9 @@
 ---
 title: Testing Forwarding
 excerpt: 
-category: Emails
+kind: article
+categories:
+- Emails
 ---
 
 # Testing Forwarding
