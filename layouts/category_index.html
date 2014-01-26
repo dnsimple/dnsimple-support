@@ -1,7 +1,7 @@
 <h1><%= @item[:h1] %></h1>
 
 <ul class="articles-list">
-  <% @item[:items].each do |item| %>
+  <% prioritize(:articles, @item[:items]).each do |item| %>
     <li class="articles-list-item"><a href="<%= relative_path_to(item) %>"><%= item.attributes[:title] %></a></li>
   <% end %>
 </ul>

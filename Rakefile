@@ -37,6 +37,23 @@ task :publish do
   end
 end
 
+task :environment do
+  require 'nanoc'
+end
+
+task :priorities => :environment do
+  require 'yaml'
+  require 'set'
+  @site = Nanoc::Site.new('.')
+  @site.load
+
+  priorities = Priorities.new
+  priorities.update(
+      'categories'  => @site.items.lazy.select { |item| item.identifier.start_with?("/categories/") }.map(&:identifier).to_a,
+      'articles'    => @site.items.lazy.select { |item| item.identifier.start_with?("/articles/") }.map(&:identifier).to_a,
+  )
+end
+
 
 class MessageGenerator
 
