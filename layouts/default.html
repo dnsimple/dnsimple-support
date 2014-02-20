@@ -17,8 +17,9 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
-  <!-- <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.js"></script> -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="/assets/js/script.js"></script>
 
   <%= render "analytics" %>
 </head>
@@ -30,10 +31,14 @@
       <a class="header-logo" href="/" title="DNSimple Help">
         <img src="/assets/images/dnsimple-logo.png" alt="DNSimple Help" />
       </a>
-      <!-- <ul class="nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="#">Link</a></li>
-      </ul> -->
+
+      <form action="https://www.google.com/search" id="search-form" class="header-search pull-right" method="get">
+        <input name="q" type="search" value="" class="form-control search-query" placeholder="Search">
+        <input name="qq" type="hidden" value="">
+        <button type="submit" class="btn btn-default">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
     <div>
   </header>
 

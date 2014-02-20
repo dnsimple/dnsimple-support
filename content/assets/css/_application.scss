@@ -2,6 +2,11 @@
 // Application Template
 // --------------------------------------------------
 
+// Increase top/bottom padding.
+.site-head {
+  padding: 15px 0;
+}
+
 .container {
   max-width: 970px !important;
 }
@@ -70,6 +75,12 @@ h2 {
   display: block;
   margin: 20px auto;
   max-width: 100%;
+}
+
+
+.header-search .search-query {
+  display: inline-block;
+  width: auto;
 }
 
 
