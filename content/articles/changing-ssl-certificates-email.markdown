@@ -15,5 +15,5 @@ Please note that [**it's not possible to change the approver email to an arbitra
 
 ##### To change the approval email
 
-1. [Contact us](/contact) to change the approver email. Make sure you provide the fully-qualified certificate name (eg. `www.example.com`, `*.example.com`) and the new approver email.
+1. [Contact us](https://dnsimple.com/contact) to change the approver email. Make sure you provide the fully-qualified certificate name (eg. `www.example.com`, `*.example.com`) and the new approver email.
 

@@ -111,5 +111,5 @@ If you recently updated the domain, see the section *Name server change propagat
 
 Please be sure to check the common issues in this checklist to narrow down the problem.
 
-If the problem is not in this list or you have any other questions, please [contact us](/contact).
+If the problem is not in this list or you have any other questions, please [contact us](https://dnsimple.com/contact).
 
