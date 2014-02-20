@@ -6,8 +6,8 @@ This is the DNSimple Help site built with [nanoc](http://nanoc.stoneship.org/).
 
 Ruby 1.9 is required to build the site, all the dependencies are managed using Bundler.
 
-    $ git clone https://github.com/aetrion/dnsimple-help.com.git dnsimple-help
-    $ cd dnsimple-help
+    $ git clone https://github.com/aetrion/dnsimple-support.git
+    $ cd dnsimple-support
     $ bundle
 
 For a list of `nanoc` commands type
