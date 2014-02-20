@@ -57,7 +57,7 @@ end
 
 class MessageGenerator
 
-  FLICKR_URL = 'http://api.flickr.com/services/feeds/groups_pool.gne?id=32584222@N00&lang=en-us&format=json&nojsoncallback=1'
+  FLICKR_URL = 'http://api.flickr.com/services/feeds/groups_pool.gne?id=88109984@N00&lang=en-us&format=json&nojsoncallback=1'
 
   def initialize
     require 'json'
