@@ -1,6 +1,6 @@
 # DNSimple Help Site
 
-This is the DNSimple Help site built with [nanoc](http://nanoc.stoneship.org/).
+This is the [DNSimple Help site](http://support.dnsimple.com) built with [nanoc](http://nanoc.stoneship.org/).
 
 ## Setup
 
