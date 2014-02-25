@@ -1,6 +1,6 @@
 ---
 title: GitHub Pages
-excerpt:
+excerpt: How to point your root or apex domain to GitHub Pages using DNSimple.
 categories:
 - Services
 ---
