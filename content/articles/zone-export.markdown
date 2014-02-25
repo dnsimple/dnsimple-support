@@ -13,7 +13,6 @@ For example, if you want to bulk migrate a domain zone to a secondary name serve
 
 The exported data follows the BIND zone file format.
 
-
 <div class="steps" markdown="1">
 ##### To export a domain zone file
 

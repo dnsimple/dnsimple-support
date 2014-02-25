@@ -9,6 +9,7 @@ categories:
 
 If you haven't received the SSL Certificate approval email, for example because the email configuration was incorrect at the time of the submission, you can request the email to be resent.
 
+<div class="steps" markdown="1">
 ##### To resend the approval email
 
 1.  Log into your DNSimple account.
@@ -27,3 +28,4 @@ If you haven't received the SSL Certificate approval email, for example because 
 
     ![](http://f.cl.ly/items/0E1F2F3w2X1R3x333t2t/dnsimple-ssl-resend-approval-rapidssl.png)
 
+</div>
