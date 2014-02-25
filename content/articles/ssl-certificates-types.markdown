@@ -28,7 +28,7 @@ If the certificate is valid and signed by a trusted authority, the browsers indi
 
 ![](http://f.cl.ly/items/0L1c3U0q450g2t1K3R18/dnsimple-ssltypes-https.png)
 
-**NOTE:** DNSimple currently provides both [single-name and wildcard](http://support.dnsimple.com/articles/ssl-certificates) domain-validated certificates.
+**NOTE:** DNSimple currently provides both [single-name and wildcard](/articles/ssl-certificates) domain-validated certificates.
 
 ### Organization Validated SSL Certificates
 
@@ -71,7 +71,7 @@ For example, if you purchase a certificate for `www.example.com` it will not sec
 
 On sole discretion of the certificate authority, if you purchase a single-name certificate for the www hostname (www.example.com) the certificate may also include the root domain.
 
-DNSimple currently provides [single-name certificates](http://support.dnsimple.com/articles/ssl-certificates).
+DNSimple currently provides [single-name certificates](/articles/ssl-certificates).
 
 ## Wildcard SSL Certificates
 
@@ -79,7 +79,7 @@ Single-name SSL certificates protects an unlimited number of subdomains of a sin
 
 For example, if you purchase a certificate for `*.example.com` if will secure `foo.example.com`, `bar.example.com`, etc. It will not secure `foo.else.example.com`.
 
-**NOTE:** DNSimple currently provides [wildcard certificates](http://support.dnsimple.com/articles/ssl-certificates).
+**NOTE:** DNSimple currently provides [wildcard certificates](/articles/ssl-certificates).
 
 ## Multi-Domain SSL Certificates
 

@@ -7,7 +7,7 @@ categories:
 
 # Resolution Status
 
-The resolution status component in the domain page shows if the domain is currently resolving with [DNSimple name servers](http://support.dnsimple.com/articles/dnsimple-nameservers).
+The resolution status component in the domain page shows if the domain is currently resolving with [DNSimple name servers](/articles/dnsimple-nameservers).
 
 The indicator is based on the [Is It DNSimple?](http://isitdnsimple.com/) service and displays real-time results. When you load the page, the indicator fetches the current name servers for the domains and compares them with DNSimple name servers.
 
@@ -37,5 +37,5 @@ If you registered the domain with us, we will set the name servers automatically
 
 ![](http://f.cl.ly/items/2z2c2g0a2T2D2S0e1s0v/resolution-status-notresolving-notmaintained.png)
 
-If the domain is registered with another registrar, the indicator will provide a link to the support page that tells you [how to point the domain to DNSimple at your current registrar](http://support.dnsimple.com/articles/delegating-dnsimple-hosted).
+If the domain is registered with another registrar, the indicator will provide a link to the support page that tells you [how to point the domain to DNSimple at your current registrar](/articles/delegating-dnsimple-hosted).
 

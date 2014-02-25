@@ -27,7 +27,7 @@ Some important rules to keep in mind:
 
 ## Which one to use
 
-Understanding the [difference between the `A` name and the `CNAME` records](http://support.dnsimple.com/articles/differences-a-cname-records) will help you to decide.
+Understanding the [difference between the `A` name and the `CNAME` records](/articles/differences-a-cname-records) will help you to decide.
 
 The general rule is:
 

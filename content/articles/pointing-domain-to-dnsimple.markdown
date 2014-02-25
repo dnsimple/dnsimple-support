@@ -17,7 +17,7 @@ If you transferred your domain to DNSimple or if you have previously used other 
 
 ## The domain is registered with another provider
 
-Follow these instructions to [delegate a domain registered with another registrar to DNSimple](http://support.dnsimple.com/articles/delegating-dnsimple-hosted).
+Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted).
 
 ## Name server propagation
 
