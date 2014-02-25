@@ -1,8 +1,8 @@
 ---
-title: GitHub Pages and DNSimple
+title: GitHub Pages
 excerpt:
 categories:
-- GitHub and DNSimple
+- Services
 ---
 
 
