@@ -1,6 +1,6 @@
 ---
 title: SSL Certificate Email Approval
-excerpt: 
+excerpt: The email approval is the most common domain validation method for a certificate and it is required for domain-validated certificates.
 categories:
 - SSL Certificates
 ---
@@ -35,5 +35,5 @@ The approval email *cannot be an arbitrary email* or any other email.
 
 ## Selecting an SSL Certificate Approver Email
 
-You [select the approver email](#) when you purchase the certificate. You can also [change the recipient](/articles/changing-ssl-certificates-email) or [resend the approval email](/articles/resending-ssl-certificates-email).
+You [select the approver email](/articles/selecting-ssl-certificates-email/) when you purchase the certificate. You can also [change the recipient](/articles/changing-ssl-certificates-email) or [resend the approval email](/articles/resending-ssl-certificates-email).
 

@@ -1,13 +1,13 @@
 ---
 title: Selecting an SSL Certificate Approver Email
-excerpt: 
+excerpt: How to select an approver email to approve an SSL certificate.
 categories:
 - SSL Certificates
 ---
 
 # Selecting an SSL Certificate Approver Email
 
-The [SSL certificate email approval](#) is required for domain-validated certificates.
+The [SSL certificate email approval](/articles/selecting-ssl-certificates-email/) is required for domain-validated certificates.
 
 You are asked to select an approver email immediately after you purchase a new certificate.
 
