@@ -4,6 +4,7 @@
 - /articles/account-securing/
 - /articles/account-suspended/
 - /articles/advanced-editor/
+- /articles/supported-dns-records/
 - /articles/common-dns-records/
 - /articles/a-record/
 - /articles/cname-record/
@@ -12,6 +13,9 @@
 - /articles/ns-record/
 - /articles/pool-record/
 - /articles/url-record/
+- /articles/soa-record/
+- /articles/differences-a-cname-records/
+- /articles/differences-between-a-cname-alias-url/
 - /articles/api-documentation/
 - /articles/close-account/
 - /articles/deleting-domain/
@@ -34,7 +38,6 @@
 - /articles/requesting-transfer-code/
 - /articles/sandbox/
 - /articles/sharing-domain/
-- /articles/soa-record/
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
 - /articles/ssl-certificates-email-approval/
@@ -45,7 +48,6 @@
 - /articles/selecting-ssl-certificates-email/
 - /articles/resending-ssl-certificates-email/
 - /articles/ssl-certificates-current-best-practices/
-- /articles/supported-dns-records/
 - /articles/testing-forwarding/
 - /articles/transferring-domain/
 - /articles/transferring-domain-without-downtime/
