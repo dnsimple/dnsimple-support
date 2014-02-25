@@ -27,5 +27,4 @@ If you haven't received the SSL Certificate approval email, for example because 
 1.  Click the link and follow the procedure described in the page. Depending on the certificate authority, you will either be able to resend the email directly from the interface or you will be asked to contact the [CA](/articles/what-is-a-certificate-authority) support team for additional assistance.
 
     ![](http://f.cl.ly/items/0E1F2F3w2X1R3x333t2t/dnsimple-ssl-resend-approval-rapidssl.png)
-
 </div>
