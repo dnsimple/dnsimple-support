@@ -26,6 +26,81 @@ h2 {
 }
 
 
+// Article
+// -------------------------
+// Styles for a single article entry.
+
+// .article img {
+#main img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+// .article .steps {
+#main .steps {
+  margin-top: 20px;
+
+  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  label {
+    font-weight: bold;
+    // reset margins
+    margin: 0;
+  }
+
+  h5:before {
+    font-family: FontAwesome;
+    content: "\f0a4";
+    margin-right: 5px;
+  }
+}
+
+
+// Header
+// -------------------------
+
+.header-search .search-query {
+  display: inline-block;
+  width: auto;
+}
+
+
+// Main
+// -------------------------
+
+// Make the first title of the page more prominent.
+#main > h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  // .page-header
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+// Sidebar
+// -------------------------
+
+#sidebar {
+  margin-top: 20px;
+}
+
+#sidebar .sidebar-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+// Sidebar Navigation
+// -------------------------
+
 // Restore custom sidebar navigation style
 .nav-list {
   margin-right: 0;
@@ -57,41 +132,6 @@ h2 {
 .nav-list li.active a {
   color: #cc8b00;
   border-left: 5px solid #cc8b00;
-}
-
-
-// Make the first title of the page more prominent.
-#main > h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-  // .page-header
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
-}
-
-// Center-align images and display them as block by default.
-#main img {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-}
-
-
-.header-search .search-query {
-  display: inline-block;
-  width: auto;
-}
-
-
-#sidebar {
-  margin-top: 20px;
-}
-.sidebar-title {
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
 }
 
 
