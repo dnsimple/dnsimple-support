@@ -16,6 +16,7 @@
 - /articles/soa-record/
 - /articles/differences-a-cname-records/
 - /articles/differences-between-a-cname-alias-url/
+- /articles/anycast/
 - /articles/api-documentation/
 - /articles/close-account/
 - /articles/deleting-domain/
@@ -24,7 +25,6 @@
 - /articles/dnsimple-status/
 - /articles/dnsimple-support/
 - /articles/dnsimple-nameservers/
-- /articles/dnsimple-anycast-nameservers/
 - /articles/domain-resolution-issues/
 - /articles/record-resolution-issues/
 - /articles/domain-transfer-pricing/
