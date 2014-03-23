@@ -1,29 +1,44 @@
 ---
-title: Transferring a Domain to DNSimple
+title: Transfer a Domain to DNSimple
 excerpt: 
 categories:
 - Domain Transfers
 ---
 
-# Transferring a Domain to DNSimple
+# Transfer a Domain to DNSimple
 
-If you simply want to use DNSimple to host your DNS for a domain, then follow our instructions for switching to our name servers.
+If you simply want to use DNSimple to host your DNS for a domain, then [follow our instructions for switching to our name servers](http://support.dnsimple.com/articles/delegating-dnsimple-hosted/).
 
-If you want DNSimple to act as your domain registrar then the basic process is as follows:
+If you want DNSimple to act as your domain registrar then follow the following steps.
 
-- First make sure that you unlock your domain at its current registrar and get your domain authorization code. This code is often sent by your current registrar via email.
+### Before You Start
+
+- If you use your registrar's DNS services, set up your DNS with DNSimple (or another provider) and switch your name servers on the domain **before** you begin the transfer. This is very important to avoid the possibility of downtime.
+- A domain may only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
+- Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer the registrar may not block the transfer due to the expiration.
+
+### At Your Current Registrar
+
+- Unlock your domain.
+- Turn off whois privacy.
+- Get your domain authorization code. This code is often sent by your current registrar via email.
+- Make sure you can receive emails at the email address specified for the current registrant of the domain. You may want to [check out how the domain looks in the public whois](https://dnsimple.com/whois) to verify.
+
+### At DNSimple
+
 - Log into DNSimple and click on "Add a Domain"
 - Check the box that says "Register or transfer this domain"
 - You may also enable "Whois Privacy Protection" so that it is enabled immediately upon completion of the transfer by checking the "Enable WHOIS Privacy Protection" check box.
 - Press "Add Domain"
-- Select a registrant and fill in any extended attributes that are required.
+- Select a registrant, enter your authorization code if it is required, and fill in any extended attributes.
 - Press "Transfer Domain"
 
-Your domain transfer request will now be issued if there are no missing fields. You will receive an email requesting approval of the transfer. Follow the instructions in the email. Within 7 days your domain transfer request should complete.
+### What's Next?
 
-The authorization email comes from info@transfer-approval.com and will be sent to the administrative contact in your current public whois details. In order to receive the email you may have to turn off whois privacy at your current registrar. Many registrars will not properly deliver transfer authorization emails when whois privacy is enabled. 
+Your domain transfer request will now be issued if there are no missing fields. The current registrant receive an email from info@transfer-approval.com verifying that the transfer authorized. Follow the instructions in the email. Once you've authorized the transfer, you may have to wait up to 7 days your domain transfer to complete.
 
 We will only charge your credit card for the transfer once it has completed.
 
-You can go to your domain list at any time to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer requests.
+Transferred domains will be extended the minimum required extension period. For example, .com domains will always be extended 1 year when they are transferred.
 
+You can go to your domain list at any time to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer requests.
