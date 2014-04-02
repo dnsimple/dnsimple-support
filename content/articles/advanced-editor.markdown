@@ -1,6 +1,6 @@
 ---
 title: Record Editor
-excerpt:
+excerpt: The Record Editor gives you the ability to view, create and manage the DNS records for a domain.
 categories:
 - DNS
 ---
