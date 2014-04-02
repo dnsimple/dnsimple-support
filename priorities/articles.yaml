@@ -17,7 +17,6 @@
 - /articles/differences-a-cname-records/
 - /articles/differences-between-a-cname-alias-url/
 - /articles/anycast/
-- /articles/api-documentation/
 - /articles/close-account/
 - /articles/deleting-domain/
 - /articles/dnsimple-services/
@@ -30,13 +29,15 @@
 - /articles/domain-transfer-pricing/
 - /articles/email-forwarding/
 - /articles/email-hosting/
+- /articles/troubleshooting-email-forwarding-gmail/
+- /articles/api-documentation/
+- /articles/sandbox/
 - /articles/expiring-product-email-notifications/
 - /articles/product-expiration-notification/
 - /articles/product-expiring-tomorrow-notification/
 - /articles/moving-domain/
 - /articles/redirect/
 - /articles/requesting-transfer-code/
-- /articles/sandbox/
 - /articles/sharing-domain/
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
@@ -52,9 +53,7 @@
 - /articles/transferring-domain-without-downtime/
 - /articles/how-do-i-prepare-my-domain-to-transfer-out-of-godaddy/
 - /articles/transferring-a-uk-domain/
-- /articles/domain-transfer-pricing/
 - /articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
-- /articles/requesting-transfer-code/
 - /articles/vanity-nameservers/
 - /articles/yearly-billing/
 - /articles/where-are-your-servers-located/
