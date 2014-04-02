@@ -61,6 +61,6 @@ To modify a record, click on the edit icon at the end of the record row.
 
 To delete a record, click on the red cross icon at the end of the record row.
 
-**WARNING:** Please note that there is no confirmation and no undo, currently the only way to restore a deleted record is to create it again.
+<warning>Please note that there is no undo. The only way to restore a deleted record is to create it again.</warning>
 
 ![Delete Record](http://f.cl.ly/items/0D2R2a0l0b3Y1H3U3c0Y/dnsimple-record-delete.png)

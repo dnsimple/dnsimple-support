@@ -26,6 +26,44 @@ h2 {
 }
 
 
+// Markers
+// ---------------
+
+.marker {
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 3px solid #eee;
+}
+
+.marker :first-child {
+  margin-top: 0;
+}
+
+.marker p:last-child {
+  margin-bottom: 0;
+}
+
+.marker-note {
+  border-color: #ddd;
+  background-color: #fdf7f7;
+}
+
+.marker-info {
+  border-color: #5bc0de;
+  background-color: #f4f8fa;
+}
+
+.marker-warning {
+  border-color: #f0ad4e;
+  background-color: #fcf8f2;
+}
+
+.marker-danger {
+  border-color: #d9534f;
+  background-color: #fdf7f7;
+}
+
+
 // Article
 // -------------------------
 // Styles for a single article entry.
