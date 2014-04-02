@@ -1,31 +1,31 @@
 ---
-title: Advanced Record Editor
-excerpt: 
+title: Record Editor
+excerpt:
 categories:
 - DNS
 ---
 
-# Advanced Record Editor
+# Record Editor
 
-The **Advanced Editor** is the DNSimple DNS editor. The editor gives you the ability to view, create and manage the DNS records for a domain.
+The **Record Editor** is the DNSimple DNS editor. The editor gives you the ability to view, create and manage the DNS records for a domain.
 
-Any [supported DNS record type](/articles/supported-dns-records) can be managed from the advanced editor, except system records.
+Any [supported DNS record type](/articles/supported-dns-records) can be managed from the record editor, except system records.
 
-## Access the advanced editor
+## Access the record editor
 
-To access the advanced editor from the main domain list page, click on the grey gear icon at the end of the domain row.
+To access the record editor from the main domain list page, click on the grey gear icon at the end of the domain row.
 
-![Advanced Editor from the domain list](http://f.cl.ly/items/2D1k2P1V0H3L0c1x3j1e/dnsimple-editor-from-list.png)
+![Record Editor from the domain list](http://f.cl.ly/items/2D1k2P1V0H3L0c1x3j1e/dnsimple-editor-from-list.png)
 
 From the domain page, click on the *Advanced Editor* button at the top of the page.
 
-![Advanced Editor from the domain page](http://f.cl.ly/items/0H423p0w2S340P0K3D1H/dnsimple-editor-from-show.png)
+![Record Editor from the domain page](http://f.cl.ly/items/0H423p0w2S340P0K3D1H/dnsimple-editor-from-show.png)
 
 ## System records
 
-System Records are special DNS records created by DNSimple when you add a domain to your account. They are necessary to resolve your domain and cannot be edited from the advanced editor because they are managed by the DNSimple system.
+System Records are special DNS records created by DNSimple when you add a domain to your account. They are necessary to resolve your domain and cannot be edited from the record editor because they are managed by the DNSimple system.
 
-System Records are displayed in light grey in the advanced editor.
+System Records are displayed in light grey in the record editor.
 
 ![System Records](http://f.cl.ly/items/0F3x1q181e0g1U1e1a0y/dnsimple-system-records.png)
 
@@ -64,4 +64,3 @@ To delete a record, click on the red cross icon at the end of the record row.
 **WARNING:** Please note that there is no confirmation and no undo, currently the only way to restore a deleted record is to create it again.
 
 ![Delete Record](http://f.cl.ly/items/0D2R2a0l0b3Y1H3U3c0Y/dnsimple-record-delete.png)
-
