@@ -12,7 +12,7 @@ class PreprocessFilter < Nanoc3::Filter
 private
 
   def format_markers(content)
-    content.gsub!(REGEXP_MARKERS) { %(<div class="marker marker-#{$1}">#{$2}</div>) }
+    content.gsub!(REGEXP_MARKERS) { %(<div class="marker marker-#{$1}" markdown="1">#{$2}</div>) }
   end
 
 end
