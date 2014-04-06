@@ -7,7 +7,7 @@ categories:
 
 # Changing domain contacts
 
-*You will only be able make these changes if the domain is registered in DNSimple. If you are only hosting the domain with us you will have to transfer it in before being able to make them. Otherwise you will have to handle the contact in formation on your current registrar.*
+*You will only be able to make these changes if the domain is registered with DNSimple. If you are only hosting the domain with us you will have to transfer it in before being able to make them. Otherwise you will have to handle the contact in formation on your current registrar.*
 
 
 
@@ -27,13 +27,13 @@ On the right hand side of the page you will see several actions you can perform 
 
 ![Change domain contact](http://cl.ly/Uqnw/change-contact-3.jpg)
 
-Now you will see a list of all your existing contacts with the one that is currently assigned to the domain selected. All you need to do is choosing the contact that you want for your domain and saving the changes.
+Now you will see a list of all your existing contacts with the one that is currently assigned to the domain selected. All you need to do is choose the contact that you have just created and save the changes. We will update the data in the registry so the WHOIS of the domain reflects them.
 
 
 
 ## Changing an existing contact's data
 
-If you want to change part of an existing contact's data you will have to access the contact management page from the top menu. Once you are there all your existing contacts will be listed. Once you have found the one whose information you want to change click *Edit*:
+If you want to change part of an existing contact's data you will have to access the contact management page from the top menu. Once you are there all your existing contacts will be listed. Once you have located the one whose information you want to change click *Edit*:
 
 ![Edit contact data](http://cl.ly/Uqum/edit-existing-contact-1.jpg)
 
