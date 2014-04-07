@@ -13,7 +13,13 @@ All DNSimple SSL certificates are valid for one year from their purchase date. S
 
 When you renew a certificate, you will need to go through the [certificate approval process](/articles/ssl-certificates-email-approval) again since a new certificate will be issued. **If you don't approve the certificate, the renewal is not completed**.
 
-**IMPORTANT:** A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed.
+<note>
+#### Important
+
+A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
+
+There is no way to extend the expiration of an existing certificate.
+</note>
 
 You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
 
