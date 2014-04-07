@@ -7,9 +7,13 @@ categories:
 
 # Changing domain contacts
 
-*You will only be able to make these changes if the domain is registered with DNSimple. If you are only hosting the domain with us you will have to transfer it in before being able to make them. Otherwise you will have to handle the contact in formation at your current registrar.*
+You can change the contact associated to a domain registered with DNSimple at any time.
 
+<note>
+#### Domain Not Registered with DNSimple
 
+The following instructions apply only to a domain registered with DNSimple. If you are hosting the domain with us but the domain is registered elsewhere, you will have to transfer it or update the contact information at your current registrar.
+</note>
 
 ## Changing a domain's contact completely
 
