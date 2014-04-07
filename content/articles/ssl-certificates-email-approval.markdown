@@ -29,9 +29,13 @@ The approval email typically can be sent to the following addresses:
 
 where `example.com` is the domain you are purchasing a certificate for. 
 
-In certain cases, the approval email can be sent to a contact email address listed for the domain name in Whois. In this case, you may need to disable the Whois Privacy feature or any another privacy protection service until the order is approved.
+In certain cases, the approval email can be sent to a different contact email address if this is listed in the WHOIS information for the domain. **The approval email cannot be an arbitrary email** or any other email.
 
-The approval email *cannot be an arbitrary email* or any other email.
+<warning>
+#### Disable Whois Privacy Protection
+
+Whois Privacy Protection services are known to interfere with the delivery of the approval email. Disable the Whois Privacy feature or any another privacy protection service until the order is approved.
+</warning>
 
 ## Selecting an SSL Certificate Approver Email
 
