@@ -11,7 +11,7 @@ SSL (Secure Sockets Layer) is a security protocol designed to secure the communi
 
 An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 
-DNSimple offers two types of SSL certificates signed by globally recognized [certificate authorities (CAs)](/articles/what-is-a-certificate-authority).
+DNSimple offers [two types of SSL certificates](/articles/ssl-certificates-types/) signed by globally recognized [certificate authorities (CAs)](/articles/what-is-a-certificate-authority).
 
 
 ## Supported Certificate Types
