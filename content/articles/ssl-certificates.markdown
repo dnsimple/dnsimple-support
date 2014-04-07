@@ -11,7 +11,7 @@ SSL (Secure Sockets Layer) is a security protocol designed to secure the communi
 
 An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 
-DNSimple offers [two types of SSL certificates](/articles/ssl-certificates-types/) signed by globally recognized [certificate authorities (CAs)](/articles/what-is-a-certificate-authority).
+We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by globally recognized [certificate authorities (CAs)](/articles/what-is-a-certificate-authority).
 
 
 ## Supported Certificate Types
@@ -22,6 +22,12 @@ We currently provide:
 - Wildcard SSL certificates from Comodo
 
 All these certificates are domain-validated.
+
+<note>
+#### Organization Validated and Extended Validation certificates
+
+We currently don't provide organization-validated and extended-validation certificates.
+</note>
 
 ### Single-name SSL certificates from RapidSSL
 
@@ -34,8 +40,4 @@ This SSL certificate costs $20 per year and covers one host and the root domain 
 The Comodo Essential certificate is a domain-validated, wildcard certificate.
 
 This SSL certificate costs $100 per year and covers all single-level subdomains as well as the root domain.
-
-### Organization Validated and Extended Validation certificates
-
-We currently don't provide organization-validated and extended-validation certificates.
 
