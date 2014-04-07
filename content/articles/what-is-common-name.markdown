@@ -7,7 +7,7 @@ categories:
 
 # What is the Common Name?
 
-The Common Name (CN) is the fully qualified domain name associated with the certificate. It is typically composed by an host and a domain name it looks like (e.g. `www.example.com` or `example.com`).
+The **Common Name** (also **CN**) identifies the fully qualified domain name(s) associated with the certificate. It is typically composed by an host and a domain name it looks like (e.g. `www.example.com` or `example.com`).
 
 Depending on the [certificate type](/articles/ssl-certificates-types/), it can be one or more hostnames belonging to the same domain (e.g. `example.com`, `www.example.com`), a wildcard name (e.g. `*.example.com`) or a list of domains. In all cases, it don't include any protocol (e.g. http:// or https://), port number or pathname.
 
