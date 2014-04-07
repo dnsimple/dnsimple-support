@@ -1,6 +1,6 @@
 ---
 title: Resending an SSL Certificate Approval Email
-excerpt: 
+excerpt: If you haven't received the SSL Certificate approval email you can request the email to be resent.
 categories:
 - SSL Certificates
 ---
@@ -13,8 +13,8 @@ If you haven't received the SSL Certificate approval email, for example because 
 ##### To resend the approval email
 
 1.  Log into your DNSimple account.
-1.  Go to the *Domains* tab and select the relevant domain.
-1.  Scroll down to the *Active SSL Certificate* list and click on the certificate.
+1.  Go to the <label>Domains</label> tab and select the relevant domain.
+1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
     ![](http://f.cl.ly/items/1G3U1W1Z1q0v0n1P2y0H/dnsimple-ssl-pagelink-submitted.png)
 
