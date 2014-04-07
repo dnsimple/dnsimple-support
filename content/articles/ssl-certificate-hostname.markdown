@@ -1,6 +1,6 @@
 ---
 title: Choosing the SSL Certificate Hostname
-excerpt: 
+excerpt: Guidelines and information for selecting the SSL certificate hostname.
 categories:
 - SSL Certificates
 ---

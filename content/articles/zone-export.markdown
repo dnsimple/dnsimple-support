@@ -1,6 +1,6 @@
 ---
 title: Exporting a Domain Zone File
-excerpt: 
+excerpt: With the Zone export feature you can export all the DNS records for a domain in a zone file to use with a third-party system.
 categories:
 - DNS
 ---
