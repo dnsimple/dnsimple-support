@@ -35,15 +35,15 @@ Here's some questions you should be able to answer:
 
 - We [offer different type of certificates](/articles/ssl-certificates/). What certificate type do you want to purchase?
 - What is the [appropriate common name](/articles/ssl-certificate-hostname/) for your case?
-- Check the web server documentation to understand if you need a [custom CSR](http://localhost:3000/articles/what-is-csr/).
+- Check the web server documentation to understand if you need a [custom CSR](/articles/what-is-csr/).
 
 Feel free to [contact us](https://dnsimple.com/contact) if you can't find the answer to any of the questions above, or if you have any doubt.
 
 ## Purchasing the SSL certificate {#purchase}
 
-[Purchase](/articles/purchasing-ssl-certificates/) the desired SSL certificate from your DNSimple control panel. If the SSL certificate is expiring and it was previously purchase with us, you can [renew](/articles/renewing-ssl-certificates/) it and we will default some settings for you.
+[Purchase](/articles/purchasing-ssl-certificates/) the desired SSL certificate from your DNSimple control panel. If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificates/) it and we will default some settings for you.
 
-If you need to use a [custom CSR](http://localhost:3000/articles/what-is-csr/), generate it and paste it in the SSL certificate purchase form.
+If you need to use a [custom CSR](/articles/what-is-csr/), generate it and paste it in the SSL certificate purchase form.
 
 <warning>
 If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.
@@ -64,7 +64,7 @@ After submitting your request you will receive a message containing a link to va
 Click on the link to approve and issue the certificate.
 
 <note>
-[It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the CA for other reasons. If you feel its taking longer than expected please [contact us](http://dnsimple.com/contact) and we will investigate.
+[It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the CA for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
 </note>
 
 ## Installing the SSL certificate {#install}
