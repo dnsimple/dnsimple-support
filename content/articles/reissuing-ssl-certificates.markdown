@@ -76,3 +76,5 @@ In most cases, the reissue process gets stuck because the request is never appro
 ## Installing the SSL re-issued certificate
 
 Once the certificate re-issue is approved, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
+
+The old certificate will stay active until the expiration date.
