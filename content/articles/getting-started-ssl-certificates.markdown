@@ -7,6 +7,13 @@ categories:
 
 # Getting Started with SSL Certificates
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 An [SSL certificate](/articles/ssl-certificates/) is required to enable SSL on your site and build a secure connection between a browser and your server to encrypt sensitive information, such as credit card details or private data.
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the [certificate authority](/articles/what-is-a-certificate-authority/).
@@ -16,14 +23,6 @@ Getting a new SSL certificate is a multi-step process and involves several parti
 
 In general, issuing a new SSL certificate can take from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 </note>
-
-Here's a list of the main steps:
-
-1. [Review the SSL certificate requirements](#review)
-1. [Purchase the SSL certificate](#purchase)
-1. [Configure and submit the SSL certificate](#submit)
-1. [Approve the SSL certificate](#approve)
-1. [Install the SSL certificate](#install)
 
 ## Reviewing the SSL certificate requirements {#review}
 
