@@ -28,12 +28,12 @@ If the approver is not in this list or you need time to configure one of those e
 ##### To select an approver email for a previously purchased certificate
 
 1.  Log into your DNSimple account.
-1.  Go to the *Domains* tab and select the relevant domain.
-1.  Scroll down to the *Active SSL Certificate* list and click on the certificate.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
     
     ![](http://f.cl.ly/items/3C2J2Z2h1c1u1T2f2b2P/dnsimple-ssl-pagelink-purchased.png)
 
-1.  Click on *complete the setup process now*.
+1.  Click <label>complete the setup process now</label>.
 
     ![](http://f.cl.ly/items/3P3J1I2G0T2j283g0H2T/dnsimple-ssl-completesetup.png)
 
@@ -42,7 +42,7 @@ If the approver is not in this list or you need time to configure one of those e
     ![](http://f.cl.ly/items/2y2G0T1S3B3U1I013A2c/dnsimple-ssl-selectapprover.png)
     
 1.  Choose the email address you want to use by clicking on it.
-1.  Click *Send Approver Email* to configure and submit the certificate for validation.
+1.  Click <label>Send Approver Email</label> to configure and submit the certificate for validation.
 
 You can also [change the recipient](/articles/changing-ssl-certificates-email) or [resend the approval email](/articles/resending-ssl-certificates-email).
 </div>
