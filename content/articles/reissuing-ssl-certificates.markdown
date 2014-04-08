@@ -14,9 +14,9 @@ categories:
 
 ---
 
-Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new private key and CSR for an existing issued certificate.
+Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new private key and [CSR](/articles/what-is-csr/) for an existing issued certificate.
 
-Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the CA. The process results in a new SSL certificate being issued.
+Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the [certificate authority](/articles/what-is-a-certificate-authority). The process results in a new SSL certificate being issued.
 
 
 ## Why should I re-issue my certificate?

@@ -1,6 +1,6 @@
 ---
 title: Resending an SSL Certificate Approval Email
-excerpt: If you haven't received the SSL Certificate approval email you can request the email to be resent.
+excerpt: How to resend the SSL certificate approval email if you haven't received it.
 categories:
 - SSL Certificates
 ---

@@ -64,7 +64,7 @@ After submitting your request you will receive a message containing a link to va
 Click on the link to approve and issue the certificate.
 
 <note>
-[It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the CA for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
+[It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
 </note>
 
 ## Installing the SSL certificate {#install}
