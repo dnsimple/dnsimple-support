@@ -29,7 +29,7 @@ You may need to re-issue your certificate in one of the following cases:
 - You want to change any SSL certificate information
 
 <info>
-Re-issuing a certificate is not a fully automated process. Requests has to be manually handled by our support team and it may take a few days to complete the process. The existing certificate will continue to be valid during this time frame.
+Re-issuing a certificate is not a fully automated process. Requests have to be manually handled by our support team and it may take a few days to complete the process. The existing certificate will continue to be valid during this time frame.
 </info>
 
 ## Requesting an SSL certificate re-issue
@@ -47,7 +47,7 @@ Re-issuing a certificate is not a fully automated process. Requests has to be ma
 
     ![](http://cl.ly/image/0f1G080o0r1l/dnsimple-ssl-reissue-link.png)
 
-    If the link is not present, it means the certificate is in a status where the certificate can be reissued (e.g. a not issued or expired certificate).
+    If the link is not present, it means the certificate is in a status where the certificate can not be reissued (e.g. a not issued or expired certificate).
 
 1.  Click the link to access the "Reissue certificate" self-service section.
 
@@ -64,7 +64,7 @@ Once the certificate re-issue is requested, we will forward the information to t
 <warning>
 #### Remember to approve the certificate reissue!
 
-In most cases, the reissue process get stuck because the request is never approved by the owner. Please monitor the approval email inbox and make sure to **click on the link contained in the email sent from the Certificate Authority** in order to validate and approve the reissue.
+In most cases, the reissue process gets stuck because the request is never approved by the owner. Please monitor the approval email inbox and make sure to **click on the link contained in the email sent from the Certificate Authority** in order to validate and approve the reissue.
 </warning>
 
 ## Installing the SSL re-issued certificate
