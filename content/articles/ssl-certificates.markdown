@@ -21,7 +21,7 @@ We currently provide:
 - Single-name SSL certificates from RapidSSL
 - Wildcard SSL certificates from Comodo
 
-All these certificates are domain-validated.
+The above certificate types are are [domain-validated](/articles/ssl-certificates-email-approval).
 
 <note>
 #### Organization Validated and Extended Validation certificates
@@ -33,11 +33,11 @@ We currently don't provide organization-validated and extended-validation certif
 
 The RapidSSL certificate is a domain-validated, single-name certificate.
 
-This SSL certificate costs $20 per year and covers one host and the root domain in case of the www hostname.
+This SSL certificate costs $20 per year and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname/).
 
 ### Wildcard SSL certificates from Comodo
 
 The Comodo Essential certificate is a domain-validated, wildcard certificate.
 
-This SSL certificate costs $100 per year and covers all single-level subdomains as well as the root domain.
+This SSL certificate costs $100 per year and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
 
