@@ -7,11 +7,11 @@ categories:
 
 # SSL Certificate Email Approval
 
-The email approval is the most common domain validation method for a certificate. It is required for domain-validated certificates.
+An email approval process is the most common domain validation method for a certificate. It is required for domain-validated certificates.
 
-This step validates the domain is registered and someone with admin rights on the domain is aware of and approves the certificate request.
+This process validates the domain is registered and someone with administrator rights on the domain is aware of and approves the certificate request.
 
-The domain approval consists in three steps:
+The email approval process consists of three steps:
 
 1. When you purchase a certificate, you select an email recipient called approver email.
 1. The [Certificate Authority](/articles/what-is-a-certificate-authority) sends an approval email (also called DCV email) to the approver email with an unique link to approve the certificate and validate your domain ownership.
@@ -27,17 +27,17 @@ The approval email typically can be sent to the following addresses:
 - postmaster@example.com
 - webmaster@example.com
 
-where `example.com` is the domain you are purchasing a certificate for. 
+Where `example.com` is the domain for the certificate being purchased.
 
 In certain cases, the approval email can be sent to a different contact email address if this is listed in the WHOIS information for the domain. **The approval email cannot be an arbitrary email** or any other email.
 
 <warning>
 #### Disable Whois Privacy Protection
 
-Whois Privacy Protection services are known to interfere with the delivery of the approval email. Disable the Whois Privacy feature or any another privacy protection service until the order is approved.
+Whois Privacy Protection services are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the order is approved.
 </warning>
 
 ## Selecting an SSL Certificate Approver Email
 
-You [select the approver email](/articles/selecting-ssl-certificates-email/) when you purchase the certificate. You can also [change the recipient](/articles/changing-ssl-certificates-email) or [resend the approval email](/articles/resending-ssl-certificates-email).
+You [select the approver email](/articles/selecting-ssl-certificates-email/) when you purchase the certificate, which is based upon the contact information listed with your domain. You can also [change the recipient](/articles/changing-ssl-certificates-email) or [resend the approval email](/articles/resending-ssl-certificates-email) if needed.
 
