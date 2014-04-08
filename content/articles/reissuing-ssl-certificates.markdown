@@ -18,6 +18,12 @@ Re-issuing (also Re-Keying) an SSL certificate is the process of generating a ne
 
 Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the [certificate authority](/articles/what-is-a-certificate-authority). The process results in a new SSL certificate being issued.
 
+<note>
+#### How long does it take to re-issue an SSL certificate?
+
+In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
+</note>
+
 
 ## Why should I re-issue my certificate?
 
