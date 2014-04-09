@@ -82,7 +82,7 @@ The old certificate will stay active until the expiration date.
 
 ### Finding your private key {#private-key}
 
-Once you have received your certificate from the Certificate Authority go to your certificate page. From there click on the *Reissue status* link.
+Once you have received your certificate from the Certificate Authority, go to your certificate page and click <label>Reissue status</label>.
 
 ![reissue status](http://cl.ly/UuC6/private-key-0.jpg)
 
