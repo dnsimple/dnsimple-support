@@ -84,17 +84,17 @@ The old certificate will stay active until the expiration date.
 
 Once you have received your certificate from the Certificate Authority, go to your certificate page and click <label>Reissue status</label>.
 
-![reissue status](http://cl.ly/UuC6/private-key-0.jpg)
+![reissue status](http://cl.ly/UuES/private-key-0.jpg)
 
 If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
 
 When you receive your reissued certificate via email, **and only then**, go to the status page and click the confirmation button:
 
-![reissue confirmation](http://cl.ly/UuHi/private-key-1.jpg)
+![reissue confirmation](http://cl.ly/UvEI/private-key-1.jpg)
 
 At that point you will be taken back to the certificate page and you will be able to get your new private key:
 
-![reissue confirmation](http://cl.ly/UunF/private-key-2.jpg)
+![reissue confirmation](http://cl.ly/Uu8C/private-key-2.jpg)
 
 Your previous private key will be permanently removed at this point.
 
