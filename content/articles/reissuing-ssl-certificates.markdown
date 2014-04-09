@@ -80,7 +80,7 @@ Once the certificate re-issue is approved, the certificate authority will send y
 The old certificate will stay active until the expiration date.
 
 
-### <a name="private-key"></a>Finding your private key
+### Finding your private key {#private-key}
 
 Once you have received your certificate from the Certificate Authority go to your certificate page. From there click on the *Reissue status* link.
 
