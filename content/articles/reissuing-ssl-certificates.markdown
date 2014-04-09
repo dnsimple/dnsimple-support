@@ -78,3 +78,21 @@ In most cases, the reissue process gets stuck because the request is never appro
 Once the certificate re-issue is approved, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
 
 The old certificate will stay active until the expiration date.
+
+
+### <a name="private-key"></a>Finding your private key
+
+Once you have received your certificate from the Certificate Authority go to your certificate page. From there click on the *Reissue status* link.
+
+![reissue status](http://cl.ly/UuC6/private-key-0.jpg)
+
+If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
+
+When you receive your reissued certificate, **and only then** go to the status page and click the confirmation button:
+
+![reissue confirmation](http://cl.ly/UuHi/private-key-1.jpg)
+
+At that point you will be taken back to the certificate page and you will be able to get your public and private keys:
+
+![reissue confirmation](http://cl.ly/UunF/private-key-2.jpg)
+
