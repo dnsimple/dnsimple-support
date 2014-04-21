@@ -83,9 +83,9 @@ DNSimple currently provides [single-name certificates](/articles/ssl-certificate
 
 ## Wildcard SSL Certificates
 
-Single-name SSL certificates protects an unlimited number of subdomains of a single domain.
+Wildcard SSL certificates protect an unlimited number of subdomains for a single domain.
 
-For example, if you purchase a certificate for `*.example.com` if will secure `foo.example.com`, `bar.example.com`, etc. It will not secure `foo.else.example.com`.
+For example, if you purchase a certificate for `*.example.com` it will secure `foo.example.com`, `bar.example.com`, etc. However, it will not secure `foo.else.example.com`.
 
 <info>
 DNSimple currently provides [wildcard certificates](/articles/ssl-certificates).
@@ -93,12 +93,12 @@ DNSimple currently provides [wildcard certificates](/articles/ssl-certificates).
 
 ## Multi-Domain SSL Certificates
 
-Multi-domains SSL certificates protects different domains with a single certificate.
+Multi-domain SSL certificates protect different domains with a single certificate.
 
 You can normally secure a combination of different subdomains from different domains.
 
 <info>
-DNSimple currently doesn't provide multi-domain certificates.
+DNSimple does not currently provide multi-domain certificates.
 </info>
 
 
