@@ -19,4 +19,4 @@ This error occurs because you are pointing the DNS to the generic Heroku endpoin
 
 Do not try to point to `proxy.herokuapp.com` as this will not work with a custom domain and SSL.
 
-For more information visit this article about [using an SSL certificate with Heroku](http://support.dnsimple.biz/articles/ssl-certificate-with-heroku).
+For more information visit this article about [using an SSL certificate with Heroku](http://support.dnsimple.com/articles/ssl-certificate-with-heroku).
