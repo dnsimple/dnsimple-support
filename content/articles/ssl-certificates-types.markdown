@@ -106,5 +106,5 @@ DNSimple does not currently provide multi-domain certificates.
 
 It's important to remember that the validation level and the number of secured domains don't affect the security level offered by an SSL certificate.
 
-All certificates work with the following encryption principle.
+All certificates work following the same encryption principle.
 
