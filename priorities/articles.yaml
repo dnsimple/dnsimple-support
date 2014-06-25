@@ -27,6 +27,8 @@
 - /articles/domain-resolution-issues/
 - /articles/record-resolution-issues/
 - /articles/domain-transfer-pricing/
+- /articles/transferring-domain/
+- /articles/transferring-domain-without-downtime/
 - /articles/email-forwarding/
 - /articles/email-hosting/
 - /articles/troubleshooting-email-forwarding-gmail/
@@ -37,7 +39,6 @@
 - /articles/product-expiring-tomorrow-notification/
 - /articles/moving-domain/
 - /articles/redirect/
-- /articles/requesting-transfer-code/
 - /articles/sharing-domain/
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
@@ -50,11 +51,8 @@
 - /articles/changing-ssl-certificates-email/
 - /articles/selecting-ssl-certificates-email/
 - /articles/resending-ssl-certificates-email/
-- /articles/transferring-domain/
-- /articles/transferring-domain-without-downtime/
 - /articles/how-do-i-prepare-my-domain-to-transfer-out-of-godaddy/
 - /articles/transferring-a-uk-domain/
-- /articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
 - /articles/vanity-nameservers/
 - /articles/yearly-billing/
 - /articles/where-are-your-servers-located/
