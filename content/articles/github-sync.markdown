@@ -25,7 +25,7 @@ Each record object must have a `name`, `type`, `content` and `ttl`. MX and SRV r
 
 Here is an example of how the JSON should look:
 
-```
+~~~json
 {
   "name": "your-domain-name.com",
   "records": [
@@ -44,7 +44,7 @@ Here is an example of how the JSON should look:
     }
   ]
 }
-```
+~~~
 
 ## Linking
 
