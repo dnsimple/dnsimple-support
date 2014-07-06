@@ -5,7 +5,9 @@ categories:
 - Features
 ---
 
-** This is a beta feature! **
+<info>
+This is a beta feature!
+</info>
 
 # Sync Zones from Github
 
