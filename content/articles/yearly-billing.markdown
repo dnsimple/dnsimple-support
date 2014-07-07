@@ -1,6 +1,6 @@
 ---
 title: Yearly Billing
-excerpt: 
+excerpt: Information about DNSimple yearly billing benefits and how to activate it.
 categories:
 - Account
 ---
