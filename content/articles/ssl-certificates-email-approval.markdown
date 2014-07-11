@@ -19,6 +19,12 @@ The email approval process consists of three steps:
 
 ## Choosing the approval email
 
+<warning>
+#### Disable Whois Privacy Protection
+
+Whois Privacy Protection services are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
+</warning>
+
 The approval email typically can be sent to the following addresses:
 
 - admin@example.com
@@ -31,11 +37,6 @@ Where `example.com` is the domain for the certificate being purchased.
 
 In certain cases, the approval email can be sent to a different contact email address if this is listed in the WHOIS information for the domain. **The approval email cannot be an arbitrary email** or any other email.
 
-<warning>
-#### Disable Whois Privacy Protection
-
-Whois Privacy Protection services are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the order is approved.
-</warning>
 
 ## Selecting an SSL Certificate Approver Email
 
