@@ -35,7 +35,11 @@ The approval email typically can be sent to the following addresses:
 
 Where `example.com` is the domain for the certificate being purchased.
 
-**The approval email cannot be an arbitrary email** or any other email. In certain cases, the approval email can be sent to a different contact email address if this is listed in the WHOIS information for the domain.
+**The approval email cannot be an arbitrary email** or any other email. In certain cases, the approval email can be sent to a different email address if this is listed in the WHOIS information for the domain.
+
+<note>
+In order to select a specific email, the email MUST be visible in the public WHOIS details for the domain. Some registries, such as the .IO, do not disclose registrant email therefore it's not possible to select the registrant email for a certificate purchased for one of these TLDs.
+</note>
 
 ## Selecting an SSL Certificate Approver Email
 
