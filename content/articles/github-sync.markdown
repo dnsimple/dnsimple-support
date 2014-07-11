@@ -6,14 +6,12 @@ categories:
 ---
 
 <info>
-This is a beta feature!
+This article described a beta feature. The feature must be enabled on your account by request.
 </info>
 
 # Sync Zones from Github
 
 You can connect to Github and synchronize zone data from a Github repository into your DNSimple account.
-
-Note: This feature is beta and thus must be enabled on your account by request.
 
 ## Setting up your repository
 
