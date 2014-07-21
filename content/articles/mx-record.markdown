@@ -1,6 +1,6 @@
 ---
 title: What is an MX record?
-excerpt: 
+excerpt: MX Records tell email delivery agents where they should deliver your email.
 categories:
 - DNS
 ---
@@ -17,6 +17,6 @@ Google Apps provides a common example of using MX Records for email delivery. Wh
 - aspmx2.googlemail.com 10
 - aspmx3.googlemail.com 10
 
-Google provides you with 5 different servers that can except your email. Each MX record includes a priority value, which is a relative value compared to the other priorities of MX records for your domain. Addresses with lower values will be used first. Therefore, when a mail agent wants to deliver an email to you it would first attempt to deliver to `aspmx.l.google.com`. If that server cannot handle the delivery it would then move onto `alt1.aspmx.l.google.com`, and if that server cannot handle the delivery then it would move onto `alt2.aspmx.l.google.com`, and so on.
+Google provides you with 5 different servers that can accept your email. Each MX record includes a priority value, which is a relative value compared to the other priorities of MX records for your domain. Addresses with lower values will be used first. Therefore, when a mail agent wants to deliver an email to you it would first attempt to deliver to `aspmx.l.google.com`. If that server cannot handle the delivery it would then move onto `alt1.aspmx.l.google.com`, and if that server cannot handle the delivery then it would move onto `alt2.aspmx.l.google.com`, and so on.
 
 MX records make it easy to define what servers should handle email delivery and allows you to provide multiple servers for maximum redundancy and ensured delivery.
