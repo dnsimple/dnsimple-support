@@ -30,7 +30,7 @@ https://example.com => https://www.example.com
 
 ## Technical explanation
 
-URL forwarding is not really a DNS record type, rather it is produces an A record which points to an HTTP server. The HTTP server is then responsible for issuing the 301 redirect when it receives HTTP requests.
+URL forwarding is not really a DNS record type, rather it produces an A record which points to an HTTP server. The HTTP server is then responsible for issuing the 301 redirect when it receives HTTP requests.
 
 In order for an HTTP server to respond to SSL requests you would need to have your SSL certificate and private key on the server since it is the HTTP server that negotiates the SSL connection. It is impractical to have a shared URL forwarding server that would allow you to upload your SSL certificate and private key.
 
