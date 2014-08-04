@@ -7,7 +7,7 @@ categories:
 
 # Close Your Account
 
-Closing your account will permanently delete your DNSimple account and permantly delete all your domains, records and every information associated with.
+Closing your account will permanently delete your DNSimple account and permanently delete all your domains, records and every information associated with.
 
 <warning>
 Once your account is closed all your domains and records will be deleted. You will no longer be able to request transfer codes and unlock registered domains in order to transfer them to another registrar.
