@@ -12,3 +12,5 @@ In DNSimple you can share a domain with other users so that they can manage it. 
 Please see [this post](http://blog.dnsimple.com/2011/02/sharing-domain-management-responsibilities/) for a walk through of how sharing works.
 
 Currently you can only share DNS management responsibilities with others but you cannot give them privileges to add or modify domain registrations, transfers or SSL certificates.
+
+Note that if you are only working on shared domains, you do not need to activate your account. 
