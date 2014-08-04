@@ -1,11 +1,13 @@
 ---
 title: Close Your Account
-excerpt: These are the steps you need to follow in order to close your DNSimple account
+excerpt: How to permanently delete your DNSimple account.
 categories:
 - Account
 ---
 
 # Close Your Account
+
+Closing your account will permanently delete your DNSimple account and permantly delete all your domains, records and every information associated with.
 
 <warning>
 Once your account is closed all your domains and records will be deleted. You will no longer be able to request transfer codes and unlock registered domains in order to transfer them to another registrar.
@@ -16,13 +18,13 @@ To close your account, you will first need to [cancel your DNSimple subscription
 </info>
 
 <div class="steps" markdown="1">
-To delete your account and all the domains and records in it you just need to:
+To permanently delete your account, along with all your domains and records:
 
 1. Go to [your account page](https://dnsimple.com/account).
-1. Click on the *Account info* tab.
-1. Click on the red *Delete account* button at the bottom of the page:
+1. Click on the <label>Account info</label> tab.
+1. Click on the red <label>Delete account</label> button at the bottom of the page:
 
      ![Delete account](http://cl.ly/WsYp/close-account.jpg)
 
-   Remember that the *Delete account* button will only show up if you don't have an active DNSimple subscription.
+   Remember that the <label>Delete account</label> button will only show up if you don't have an active DNSimple subscription.
 </div>
