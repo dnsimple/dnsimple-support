@@ -16,14 +16,16 @@ You may resubscribe at any time and your domains will resolve again.
 All your domains and records will remain in your account. You will also be able to transfer your domains out of DNSimple.
 </info>
 
+<div class="steps" markdown="1">
 If you want to cancel your DNSimple subscription you will need to follow these steps:
 
 1. Log in to your DNSimple account.
-2. Go to [your account page](https://dnsimple.com/account).
-3. Click on the *Subscription info* tab.
-4. Click on the red *Cancel Subscription* button at the bottom of the page:
+1. Go to [your account page](https://dnsimple.com/account).
+1. Click on the *Subscription info* tab.
+1. Click on the red *Cancel Subscription* button at the bottom of the page:
 
      ![Cancel subscription](http://cl.ly/WsVi/unsubscribe.jpg)
 
 5. Confirm that you want to cancel your subscription by clicking on the *Yes, please cancel my subscription*  button.
+</div>
 
