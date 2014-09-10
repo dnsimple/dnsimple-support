@@ -11,15 +11,15 @@ SSL (Secure Sockets Layer) is a security protocol designed to secure the communi
 
 An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 
-We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by globally recognized [certificate authorities (CAs)](/articles/what-is-a-certificate-authority).
+We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
 
 
 ## Supported Certificate Types
 
 We currently provide:
 
-- Single-name SSL certificates from RapidSSL
-- Wildcard SSL certificates from Comodo
+- Single-name SSL certificates
+- Wildcard SSL certificates
 
 The above certificate types are are [domain-validated](/articles/ssl-certificates-email-approval).
 
@@ -29,15 +29,16 @@ The above certificate types are are [domain-validated](/articles/ssl-certificate
 We currently don't provide organization-validated and extended-validation certificates.
 </note>
 
-### Single-name SSL certificates from RapidSSL
+### Single-name SSL certificates
 
-The RapidSSL certificate is a domain-validated, single-name certificate.
+The single-name certificate is a domain-validated certificate. It costs $20 per year and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname/).
 
-This SSL certificate costs $20 per year and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname/).
+The name of the product is RapidSSL certificate.
 
-### Wildcard SSL certificates from Comodo
+### Wildcard SSL certificates
 
-The Comodo Essential certificate is a domain-validated, wildcard certificate.
+The wildcard certificate is a domain-validated certificate. It costs $100 per year and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
 
-This SSL certificate costs $100 per year and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
+The name of the product is Comodo EssentialSSL Wildcard certificate.
+
 
