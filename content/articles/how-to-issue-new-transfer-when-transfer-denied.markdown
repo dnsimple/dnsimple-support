@@ -2,7 +2,9 @@
 title: How can I issue a new transfer order when a transfer is denied?
 excerpt: 
 categories:
-- Domain Transfers
+  - Domain Transfers
+redirect_from:
+  - /how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
 ---
 
 # How can I issue a new transfer order when a transfer is denied?
