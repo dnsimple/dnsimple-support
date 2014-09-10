@@ -25,20 +25,24 @@ You may have more than 1 certificate for a host name at DNSimple at the same tim
 
 ## RapidSSL
 
-For single host SSL certificates issued by RapidSSL, if you renew prior to the current certificate's expiration date your new certificate expiration date will be extended as follows:
+For RapidSSL SSL certificates, if you renew prior to the current certificate expiration date, your new certificate expiration will be extended as follows:
 
-* 46 - 90 days before expiration date, extend 3 months
-* 16 - 45 days before expiration date, extend 2 months
-* 15 days or less before expiration date, extend 1 month
-* Up to 15 days after expiration date, extend 1 month
+- 46 - 90 days before expiration date, extend 3 months
+- 16 - 45 days before expiration date, extend 2 months
+- 15 days or less before expiration date, extend 1 month
+- Up to 15 days after expiration date, extend 1 month
 
-This extension will be from the new certificate's purchase date.
+This extension will be from the new certificate purchase date.
 
 ## Comodo
 
-Wildcard certificate will not be extended so you should purchase your new wildcard certificate close to your old certificate's expiration date, but with enough time for the certificate to be issued. 1 week before expiration should be sufficient.
+Comodo SSL certificate will not be extended, therefore you should purchase your new certificate close to your old certificate expiration date, but with enough time for the certificate to be issued.
+
+<note>
+We recommend to renew the certificate no late than 1 week before expiration.
+</note>
 
 ## Heroku
 
-If you are using your certificate on Heroku then you may find https://devcenter.heroku.com/articles/ssl-certificate-dnsimple helpful when preparing and deploying your newly issued certificate.
+If you are using your certificate on Heroku then you may find [this article](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) helpful when preparing and deploying your newly issued certificate.
 
