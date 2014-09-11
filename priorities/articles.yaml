@@ -43,6 +43,7 @@
 - /articles/sharing-domain/
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
+- /articles/sha-2-ssl-certificates/
 - /articles/ssl-certificates-email-approval/
 - /articles/getting-started-ssl-certificates/
 - /articles/ssl-certificate-hostname/
@@ -52,9 +53,6 @@
 - /articles/changing-ssl-certificates-email/
 - /articles/selecting-ssl-certificates-email/
 - /articles/resending-ssl-certificates-email/
-- /articles/how-do-i-prepare-my-domain-to-transfer-out-of-godaddy/
-- /articles/transferring-a-uk-domain/
-- /articles/vanity-nameservers/
 - /articles/yearly-billing/
 - /articles/where-are-your-servers-located/
 - /articles/price-change/
