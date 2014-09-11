@@ -23,6 +23,14 @@ There is no way to extend the expiration of an existing certificate.
 
 You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
 
+## Comodo
+
+Comodo SSL certificate will not be extended, therefore you should purchase your new certificate close to your old certificate expiration date, but with enough time for the certificate to be issued.
+
+<note>
+We recommend to renew the certificate no late than 1 week before expiration.
+</note>
+
 ## RapidSSL
 
 For RapidSSL SSL certificates, if you renew prior to the current certificate expiration date, your new certificate expiration will be extended as follows:
@@ -34,13 +42,10 @@ For RapidSSL SSL certificates, if you renew prior to the current certificate exp
 
 This extension will be from the new certificate purchase date.
 
-## Comodo
-
-Comodo SSL certificate will not be extended, therefore you should purchase your new certificate close to your old certificate expiration date, but with enough time for the certificate to be issued.
-
 <note>
-We recommend to renew the certificate no late than 1 week before expiration.
+We no longer sell RapidSSL certificates. If you purchased the renewal for a single-hostname certificate before September 11th, 2014 then you may be entitled for the extension. In this case, the extension will be granted automatically. [Contact us](https://dnsimple.com/contact) if you have any questions.
 </note>
+
 
 ## Heroku
 
