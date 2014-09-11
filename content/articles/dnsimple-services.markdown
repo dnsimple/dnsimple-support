@@ -11,7 +11,7 @@ DNSimple provides several services that every system connected to the Internet n
 
 ## DNS Hosting
 
-DNSimple DNS hosting is billed as a monthly service. We currently offer three pricing tiers:
+DNSimple DNS hosting is billed as a monthly service. We currently offer four pricing tiers:
 
 - **Bronze** $3/month for up to 2 managed domains 
 - **Silver** $8/month for up to 10 managed domains
@@ -28,7 +28,7 @@ As a DNSimple customer you do not need to use our domain registration services i
 
 SSL certificates are available in two flavors:
 
-- Standard single host SSL certificates from RapidSSL ($20 per year)
-- Wildcard certificates from Comodo ($100 per year)
+- Single-host SSL certificates ($20 per year)
+- Wildcard certificates ($100 per year)
 
 Learn more about [DNSimple certificates](/articles/ssl-certificates).
