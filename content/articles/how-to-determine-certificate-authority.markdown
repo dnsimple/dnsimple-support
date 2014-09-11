@@ -7,13 +7,13 @@ categories:
 
 # How do I determine the Certificate Authority that signed my SSL certificate?
 
-To determine the [Certificate Authority](/articles/what-is-a-certificate-authority/) that issued your a certificate, open the website in a browser and click on the certificate information.
+To determine the [Certificate Authority](/articles/what-is-a-certificate-authority/) that issued your certificate, open the website in a browser and click on the certificate information.
 
-The steps to view the certificate information depend on the browser. For instance, for Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
+The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
 
 ![](http://cl.ly/image/1C1V2K2c422C/dnsimple-certificate-determine-authority.png)
 
-Search for the issuer organization name. Please note that, in some cases, Certificate Authorities may delegate the sign process to subsidiary or acquired companies.
+Search for the issuer organization name. Please note that, in some cases, Certificate Authorities may delegate the signing process to subsidiaries or acquired companies.
 
 For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Comodo certificate authority. The authority name is clearly visible in the *Common Name* field.
 
