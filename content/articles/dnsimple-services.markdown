@@ -11,12 +11,7 @@ DNSimple provides several services that every system connected to the Internet n
 
 ## DNS Hosting
 
-DNSimple DNS hosting is billed as a monthly service. We currently offer four pricing tiers:
-
-- **Bronze** $3/month for up to 2 managed domains 
-- **Silver** $8/month for up to 10 managed domains
-- **Gold**: $18/month for up to 50 managed domains
-- **Platinum**: $50/month for up to 500 managed domains
+DNSimple DNS hosting is billed as a monthly service. Pricing is available on our [pricing page](https://dnsimple.com/pricing). If you sign up or upgrade to a yearly plan then you may also receive a discount on your total subscription price. 
 
 ## Domain Registration
 
