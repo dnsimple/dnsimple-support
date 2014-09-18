@@ -17,7 +17,7 @@ The exported data follows the BIND zone file format.
 ##### To export a domain zone file
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  On the right sidebar, under <label>Task</label>, click on the <label>Export Zone</label> link.
 
     ![Export Zone link](http://cl.ly/image/1H2F1o143D1q/dnsimple-zone-export.png)

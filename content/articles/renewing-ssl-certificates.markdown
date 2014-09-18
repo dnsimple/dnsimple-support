@@ -30,7 +30,7 @@ There is no way to extend the expiration of an existing certificate &mdash [Lear
 ##### To renew a certificate
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll to the certificate section and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
 
     ![Renew a Certificate](http://cl.ly/image/0w1o2i0k051B/dnsimple-certificate-renew.png)

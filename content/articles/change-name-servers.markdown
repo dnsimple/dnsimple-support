@@ -26,9 +26,9 @@ Pointing the name servers to another provider will cause the domain to resolve u
 ##### To point the name servers to another provider
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Manage](http://f.cl.ly/items/22072R2m1o2I3z0u0P0I/Image%202013.11.29%209%3A30%3A26%20AM.png)
+    ![Manage](http://cl.ly/image/3Y3p072N442K/dnsimple-domains-manage-link.png)
 
 1.  On the right <label>Registration Status</label> sidebar, click <label>Change Name Servers</label>.
 

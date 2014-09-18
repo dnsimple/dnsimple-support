@@ -28,7 +28,7 @@ If the approver is not in this list or you need time to configure one of those e
 ##### To select an approver email for a previously purchased certificate
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
     
     ![](http://f.cl.ly/items/3C2J2Z2h1c1u1T2f2b2P/dnsimple-ssl-pagelink-purchased.png)

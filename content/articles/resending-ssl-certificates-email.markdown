@@ -13,7 +13,7 @@ If you haven't received the SSL Certificate approval email, for example because 
 ##### To resend the approval email
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
     ![](http://f.cl.ly/items/1G3U1W1Z1q0v0n1P2y0H/dnsimple-ssl-pagelink-submitted.png)

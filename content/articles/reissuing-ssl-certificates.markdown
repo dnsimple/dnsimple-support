@@ -44,7 +44,7 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 ##### To start a new certificate re-issue request
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click <label>Manage</label>.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
     ![](http://cl.ly/image/0S24193M3q1z/dnsimple-domain-certificatelist-issued.png.png)
