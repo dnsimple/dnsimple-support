@@ -25,8 +25,61 @@ Because of that, domain name registrations at the second level in `.UK` name reg
 
 `.CO.UK` domain owners have the right to register the associated `.UK` domain within a 5 years period. If a `.UK` is registered and then cancelled prior to these 5 years, the initial owner will lose the right for its re-registration.
 
-## Transferring a .UK domain
+## Registering a .UK domain {#registering}
+
+Because of the [reservation policy](#policy-tld), registering a .UK domain requires some extra diligence. Assuming you have the right to register a `.UK` domain, you will need to use the same registration information (specifically the contact information) you used to register the corresponding `.CO.UK` or `.ORG.UK` domain.
+
+<warning>
+#### Important!
+
+Providing a different contact information will [cause the domain registration to fail](#error-no-order-identifier). To minimize the risk of registration errors, contact information must be identically equal, including registrant name, company name, email and phone numbers. Spaces, symbols or different string case (e.g. camelcase vs lowercase) may also cause the registration to fail.
+</warning>
+
+If the correspondong domain is registered with DNSimple, the `.UK` domain name registration may be slighly easier.
+
+### The corresponding domain is registered with DNSimple
+
+If the corrisponding domain is already registered with DNSimple, the `.UK` domain name registration is easier. In fact, in DNSimple you are required to associate each domain with a contact record. To register the `.UK` domain, simply associate the same contact (do not create a new one!) you already used for the previous domain registration, and we will send to the registry the same contact details.
+
+This will drastically reduce the risk that your `.UK` domain registration is rejected because of registrant validation errors. 
+
+### The corresponding domain is not registered with DNSimple
+
+If the corresponding domain is not registered with DNSimple, then you need to login into the control panel of your current registrar and copy/paste the current contact information into a new contact in DNSimple (or update the DNSimple contact you want to use).
+
+Use this contact when registering the new `.UK` domain.
+
+<note>
+#### Compare the contact information
+
+We noticed that several `.UK` domain name registrations failed because users manually entered their contact information into DNSimple, either assuming they remembered them or did not correctly copy the contact information from the existing 3rd level domain name.
+
+Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typo and spelling errors.
+</note>
+
+<info>
+#### Reusing an existing contact
+
+Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
+</info>
+
+## Transferring a .UK domain {#transferring}
 
 To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple you must provide your current registrar with our IPS tag after starting the transfer process. Our IPS tag is: `ENOM`.
 
 To transfer a UK domain out of DNSimple send an email to support@dnsimple.com with your new registrar's IPS tag.
+
+## Troubleshooting
+
+Here's a list of common TLD registration errors.
+
+##### Domain not registered, there was no order identifier {#error-no-order-identifier}
+
+This cryptic error (Yes, a better UI will be provided soon!) means that the domain registration was rejected by the registry.
+
+- **If you are registering a second-level `.UK` domain (e.g. example.uk)**, this is likely to be a result of the [reservation policy](#policy-tld). Please make sure that:
+  1. The `.UK` domain is not reserved
+  1. If the `.UK` domain is reserved, you need to be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
+  1. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#registering).
+
+- **If you are registered a third-level `.UK` domain (e.g. example.co.uk)**, [contact us](https://dnsimple.com/contact) and we will help you understanding the reason of the error.
