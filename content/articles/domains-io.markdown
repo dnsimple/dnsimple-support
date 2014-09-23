@@ -7,7 +7,7 @@ categories:
 
 # .IO Domain Names
 
-## Renewal
+## Renewing a .IO domain
 
 IO domains do not follow the same renewal procedures as normal TLDs like com, net and org. IO domains must have auto-renewal enabled to be renewed. IO domains may not be renewed manually at this time.
 
