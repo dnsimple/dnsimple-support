@@ -7,6 +7,13 @@ categories:
 
 # .IT Domain Names
 
+* TOC
+{:toc}
+
+---
+
+This article explains the requirements for .IT domain names.
+
 ## Requirements
 
 To register an .IT (Italy) domain you must meet one of the following criteria:

@@ -7,6 +7,13 @@ categories:
 
 # .IO Domain Names
 
+* TOC
+{:toc}
+
+---
+
+This article explains the requirements for .IO domain names.
+
 ## Renewing a .IO domain
 
 IO domains do not follow the same renewal procedures as normal TLDs like com, net and org. IO domains must have auto-renewal enabled to be renewed. IO domains may not be renewed manually at this time.

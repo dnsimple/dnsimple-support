@@ -7,6 +7,13 @@ categories:
 
 # .ES Domain Names
 
+* TOC
+{:toc}
+
+---
+
+This article explains the requirements for .ES domain names.
+
 ## Requirements
 
 Anyone may register a .ES domain, however you will need to provide additional information:

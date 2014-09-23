@@ -7,7 +7,14 @@ categories:
 
 # .UK Domain Names
 
-## .UK top-level registration policy
+* TOC
+{:toc}
+
+---
+
+This article explains the requirements for .UK domain names.
+
+## .UK top-level registration policy {#policy-tld}
 
 Domain registration directly at the `.UK` top-level domain was made available by Nominet on June 10th, 2014. Before that date it was only possible to register a `.UK` domain under one of the available suffixes (e.g. `.CO.UK`, `.ORG.UK`), not at the top level domain.
 
