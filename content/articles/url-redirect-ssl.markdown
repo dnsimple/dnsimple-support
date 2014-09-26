@@ -36,5 +36,5 @@ In order for an HTTP server to respond to SSL requests you would need to have yo
 
 ## Alternatives
 
-Instead of using URL forwarding you can use an ALIAS or A record pointing to your host and then handle a redirect in your HTTP server or inside your application.
+Instead of using URL forwarding you can use an ALIAS record, A record, or CNAME record pointing to your host and then handle a redirect in your HTTP server or inside your application.
 
