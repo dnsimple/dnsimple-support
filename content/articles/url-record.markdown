@@ -20,3 +20,7 @@ Enter the hostname you would like to redirect from, and the URL to redirect to.
 - `URL`: The HTTP or HTTPS URL to redirect to. It can be also be a subdirectory of a site or a single page.
 
 ![Create URL record](http://f.cl.ly/items/0T2X0w3c3N2S2A1k3v2T/dnsimple-url-record-create.png)
+
+## Redirecting over SSL
+
+Right now it is not possible for our redirection service to handle SSL requests for your domain names. Take a look at the article [Can a URL record redirect requests over SSL?](/articles/url-redirect-ssl) for additional information and an explanation of alternatives.
