@@ -1,11 +1,11 @@
 ---
-title: Transferring a Domain without Downtime
-excerpt: How to transfer a domain to DNSimple avoiding downtime.
+title: Move Your DNS Before Transferring to Avoid Downtime
+excerpt: How to prepare your DNS in DNSimple, to avoid downtime, before transferring your domain registration.
 categories:
 - Domain Transfers
 ---
 
-# Transferring a Domain without Downtime
+# Preparing DNS Before Transferring Into DNSimple
 
 ### Table of Contents {#toc}
 
