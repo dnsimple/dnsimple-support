@@ -7,9 +7,7 @@ categories:
 
 # Contacting DNSimple Support
 
-There are multiple ways to contact us:
+To contact us:
 
-- Email support@dnsimple.com
+- Email [support@dnsimple.com](mailto:support@dnsimple.com) - this is the best way to get assistance.
 - Send us a message to our [@dnsimple](https://twitter.com/dnsimple) account on Twitter.
-- If you are logged into your DNSimple account then click on the envelope on the bottom of any page to see your in-app customer support inbox.
-
