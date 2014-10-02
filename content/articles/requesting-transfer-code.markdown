@@ -7,16 +7,22 @@ categories:
 
 # Requesting a Transfer Code
 
-To request a transfer code to transfer a domain out of DNSimple, go to your domain's management page:
+The transfer code (also "Authorization Code", "Auth Code") is a code required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most of TLDs, including all the gTLDs such as `.COM`, `.NET`, `.ORG`.
 
-![Go to domain's manage page](http://cl.ly/VZlC/get-transfer-code1.jpg)
+<div class="steps" markdown="1">
+#### To request a transfer code
 
-Once there click on the **Transfer Out** link in the **Tasks** section:
+1.  Log into your DNSimple account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-![Find transfer out link](http://cl.ly/VayY/get-transfer-code2.jpg)
+    ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
 
-This will unlock the domain and email a transfer code to the domain registrant.
+1.  Go to the registration section and click <label>Transfer Out</label>
 
-If you have requested a domain transfer out and have not received a code then please contact support@dnsimple.com  and include your domain name in the email.
+    ![Transfer out link](http://cl.ly/image/2b1a1i10130N/dnsimple-domain-transfer-out.png)
 
-We'll be happy to look into it and figure out why the code has not yet arrived.
+    This will unlock the domain and email a transfer code to the domain registrant.
+</code>
+
+If you have requested a domain transfer out and have not received a code then please [contact us](https://dnsimple.com/contact) and include your domain name in the email. We'll be happy to look into it and figure out why the code has not yet arrived.
+
