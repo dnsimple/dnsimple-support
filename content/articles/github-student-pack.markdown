@@ -7,7 +7,7 @@ categories:
 
 # DNSimple and GitHub Student Developer Pack
 
-The [GitHub Student Developer Pack](https://education.github.com/pack) is a product bundle, created and promoted by GitHub, with some of partners and friends to give students free access to the best developer tools in one place. As part of this bundle, DNSimple is offering a **free Bronze hosted DNS plan** for two years (worth $120).
+The [GitHub Student Developer Pack][1] is a product bundle, created and promoted by GitHub, with some of partners and friends to give students free access to the best developer tools in one place. As part of this bundle, DNSimple is offering a **free Bronze hosted DNS plan** for two years (worth $120).
 
 ![DNSimple & GitHub Student Developer Pack](http://cl.ly/image/0d3v3S0k2x2r/dnsimple-github-student-pack.png)
 
