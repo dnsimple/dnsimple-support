@@ -31,5 +31,8 @@ Yes. Log in, come back to the DNSimple & GitHub Student Pack page and enter the 
 
 Yes. To activate your account you need to enter a credit or debit card. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations, SSL certificates and other related purchases are charged against your card on file.
 
+#### How can I check if the coupon was successfully applied?
+
+The coupon applies a credits to your account that will automatically used to renew the monthly subscription fee for the DNS service. To check if the coupon was successfully applied, go to [your account page](https://dnsimple.com/account), select the <label>Billing Info</label> tab and check the Current Balance. The amount should match $120, that is the credit applied to your account for this coupon.
 
   [1]: https://education.github.com/pack
