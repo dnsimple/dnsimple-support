@@ -21,7 +21,7 @@ When you enable email forwarding we will automatically add the various DNS recor
 
 To create an email forward you need to specify the **From** and **To** fields.
 
-The **From** field is used to match an email address to forward from. Enter either a specific name (such as "support") without the domain. 
+The **From** field is used to match an email address to forward from. Enter either a specific name (such as "support") without the domain.
 
 To create a catch-all address use a wildcard expression which is a period followed by an asterisk `(.*)`.
 

@@ -11,7 +11,7 @@ We currently support the following standard record types:
 
 - [A](/articles/a-record)
 - [CNAME](/articles/cname-record)
-- [MX](/articles/mx-record) 
+- [MX](/articles/mx-record)
 - [NS](/articles/ns-record)
 - TXT
 - SPF

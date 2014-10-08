@@ -15,18 +15,18 @@ This means, for example, you cannot use the [URL record](/articles/url-record) t
 
 The following redirects can be configured.
 
-~~~text
+```
 http://example.com => http://www.example.com
 http://example.com => https://www.example.com
-~~~
+```
 
 ## Not applicable redirects
 
 The following redirect cannot be configure and will result in a timeout.
 
-~~~text
+```
 https://example.com => https://www.example.com
-~~~
+```
 
 ## Technical explanation
 
@@ -37,4 +37,3 @@ In order for an HTTP server to respond to SSL requests you would need to have yo
 ## Alternatives
 
 Instead of using URL forwarding you can use an ALIAS record, A record, or CNAME record pointing to your host and then handle a redirect in your HTTP server or inside your application.
-
