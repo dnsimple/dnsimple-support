@@ -15,7 +15,7 @@ After unsubscribing you will no longer be charged a monthly/yearly fee and your 
 All your domains and records will remain in your account. You will also be able to transfer your domains out of DNSimple.
 </info>
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 To cancel your DNSimple subscription:
 
 1. Log in to your DNSimple account.

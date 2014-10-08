@@ -40,7 +40,7 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 
 ## Requesting an SSL certificate re-issue
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To start a new certificate re-issue request
 
 1.  Log into your DNSimple account.

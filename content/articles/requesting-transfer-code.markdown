@@ -9,7 +9,7 @@ categories:
 
 The transfer code (also "Authorization Code", "Auth Code") is a code required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most of TLDs, including all the gTLDs such as `.COM`, `.NET`, `.ORG`.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To request a transfer code
 
 1.  Log into your DNSimple account.

@@ -9,7 +9,7 @@ categories:
 
 Swithing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To switch the name servers to DNSimple
 
 1.  Log into your DNSimple account.

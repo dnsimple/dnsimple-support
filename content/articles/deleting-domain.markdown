@@ -11,7 +11,7 @@ categories:
 You should not delete an active domain registered or resolved with DNSimple.
 </warning>
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To delete a domain
 
 1.  Log into your DNSimple account.

@@ -7,7 +7,7 @@ categories:
 
 # Adding a Domain
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To add a domain
 
 1.  Log into your DNSimple account.

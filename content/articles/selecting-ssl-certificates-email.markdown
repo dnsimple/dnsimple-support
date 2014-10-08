@@ -11,7 +11,7 @@ The [SSL certificate email approval](/articles/ssl-certificates-email-approval/)
 
 You are asked to select an approver email immediately after you purchase a new certificate.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To select an approver email
 
 1.  Read the list of all available approver emails.
@@ -24,7 +24,7 @@ You are asked to select an approver email immediately after you purchase a new c
 
 If the approver is not in this list or you need time to configure one of those emails, you can also close this page and come back later.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To select an approver email for a previously purchased certificate
 
 1.  Log into your DNSimple account.

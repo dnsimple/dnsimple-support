@@ -9,7 +9,7 @@ categories:
 
 You can change the email associated to your account from the DNSimple account page.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To change the account email
 
 1.  Log into your DNSimple account.

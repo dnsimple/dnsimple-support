@@ -25,7 +25,7 @@ In order to avoid the possibility of a downtime, you should point the name serve
 
 ### Transferring the Domain
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To prepare the transfer
 
 At your current Registrar:
@@ -36,7 +36,7 @@ At your current Registrar:
 1. Make sure you can receive emails at the email address specified for the current registrant of the domain. You may want to [check out how the domain looks in the public whois](https://dnsimple.com/whois) to verify.
 </div>
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To start the transfer
 
 At DNSimple:

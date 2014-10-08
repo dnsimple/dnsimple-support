@@ -17,7 +17,7 @@ Once your account is closed all your domains and records will be deleted. You wi
 To close your account, you will first need to [cancel your DNSimple subscription](/articles/cancel-subscription).
 </info>
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 To permanently delete your account, along with all your domains and records:
 
 1. Go to [your account page](https://dnsimple.com/account).

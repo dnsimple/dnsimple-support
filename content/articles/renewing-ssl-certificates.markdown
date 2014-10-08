@@ -26,7 +26,7 @@ A renewal will not extend your existing certificate expiration date, it will res
 There is no way to extend the expiration of an existing certificate &mdash [Learn more](/articles/how-certificate-renewal-works/)
 </note>
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To renew a certificate
 
 1.  Log into your DNSimple account.

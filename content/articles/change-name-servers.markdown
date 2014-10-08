@@ -22,7 +22,7 @@ You can change the name servers of a domain registered with DNSimple from your d
 
 Pointing the name servers to another provider will cause the domain to resolve using the DNS records configured at the other DNS provider. The DNS records in your DNSimple account will be ignored.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To point the name servers to another provider
 
 1.  Log into your DNSimple account.

@@ -19,7 +19,7 @@ The following instructions apply only to a domain registered with DNSimple. If y
 
 If you want to assign a new contact to one of your domains, create the new contact record then associate the domain to the new contact.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To change the contact information
 
 1.  Log into your DNSimple account.
@@ -46,7 +46,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 
 If you want to change an existing contact information, simply update the contact details and we will immediately update the registry data and the WHOIS record with the new information.
 
-<div class="steps" markdown="1">
+<div class="section-steps" markdown="1">
 ##### To change the contact information
 
 1.  Log into your DNSimple account.
