@@ -27,9 +27,17 @@ No. This promotion is only available as part of the GitHub Student Pack.
 
 Yes. Log in, come back to the DNSimple & GitHub Student Pack page and enter the coupon code. The credit is automatically applied.
 
-#### Is a credit/debit card required to activate my account?
+#### Can I activate my account without entering a credit/debit card?
 
-Yes. To activate your account you need to enter a credit or debit card. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations, SSL certificates and other related purchases are charged against your card on file.
+No. To activate your account you need to enter a credit or debit card. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations, SSL certificates and other related purchases are charged against your card on file.
+
+#### Can I use the credit to register or transfer a domain?
+
+No. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations will be charged to your card on file [according to our TLD price list](https://dnsimple.com/tld-pricing).
+
+#### Can I use the credit to purchase an SSL certificate?
+
+No. Your GitHub Student Pack credit only applies towards your DNS service. SSL certificate purchases be charged to your card on file.
 
 #### How can I check if the coupon was successfully applied?
 
