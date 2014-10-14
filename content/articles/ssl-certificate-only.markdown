@@ -1,9 +1,11 @@
 ---
-title: SSL Certificates
+title: SSL Certificates without DNSimple DNS service
 excerpt: Purchase an SSL certificate without using DNSimple for DNS or domain registrations.
 categories:
 - SSL Certificates
 ---
+
+# Purchasing an SSL Certificate without DNSimple DNS service
 
 If you only want to purchase an SSL certificate from us, and your DNS and/or domain registrations are with another provider, you are free to do so.
 
