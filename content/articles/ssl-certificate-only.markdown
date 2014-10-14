@@ -1,0 +1,16 @@
+---
+title: SSL Certificates
+excerpt: Purchase an SSL certificate without using DNSimple for DNS or domain registrations.
+categories:
+- SSL Certificates
+---
+
+If you only want to purchase an SSL certificate from us, and your DNS and/or domain registrations are with another provider, you are free to do so.
+
+First, follow the [instructions for purchasing your certificate](http://support.dnsimple.com/articles/purchasing-ssl-certificates/).
+
+Once your certificate is issued, go to your Account page and unsubscribe. You must only do this *after* your certificate is fully issued.
+
+![](http://cl.ly/image/3X0r0p1b062C/Account%20Unsubscribe%20-%20DNSimple.jpg)
+
+Your user account will remain available and you will still receive notifications when your certificate nears expiration. You will need to re-activate your account in the future if you would like to purchase additional certificates with us. 
