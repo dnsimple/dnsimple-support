@@ -27,3 +27,8 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 
 Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
 </info>
+
+### How to set custom name servers at some common registrars
+
+- [GoDaddy](https://support.godaddy.com/help/article/664/setting-nameservers-for-your-domain-nameshttps://support.godaddy.com/help/article/664/setting-nameservers-for-your-domain-names#custom)
+- [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain)
