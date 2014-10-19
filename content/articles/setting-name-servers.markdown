@@ -1,11 +1,11 @@
 ---
-title: Changing a Domain Name Servers
+title: Setting the Name Servers for a Domain
 excerpt: 
 categories:
 - Name Servers
 ---
 
-# Changing a Domain Name Servers
+# Setting the Name Servers for a Domain Name
 
 ### Table of Contents {#toc}
 
@@ -14,11 +14,11 @@ categories:
 
 ---
 
-To change your name servers to another DNS provider, your domain must be registered with DNSimple. If that's not the case, use the control panel of your current domain registrar to update the name servers.
+To set the name servers, your domain must be registered with DNSimple. If that's not the case, use the control panel of your current domain registrar to update the name servers.
 
-You can change the name servers of a domain registered with DNSimple from your domain page.
+You can set the name servers of a domain registered with DNSimple from your domain page.
 
-## Pointing the name servers to another DNS provider
+## Pointing the name servers to another provider
 
 Pointing the name servers to another provider will cause the domain to resolve using the DNS records configured at the other DNS provider. The DNS records in your DNSimple account will be ignored.
 
