@@ -9,14 +9,18 @@ categories:
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-First, find the place on your domain registrar's web site where you can enter our name servers.
+<div class="section-steps" markdown="1">
+##### To change the name servers to DNSimple
 
-To switch to our DNS Anycast network, enter the [DNSimple name servers](/articles/dnsimple-nameservers):
+1.  Log into your registrar account.
+1.  Find the place on your domain registrar's web site where you can enter our name servers.
+1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers):
 
-- ns1.dnsimple.com
-- ns2.dnsimple.com
-- ns3.dnsimple.com
-- ns4.dnsimple.com
+    - ns1.dnsimple.com
+    - ns2.dnsimple.com
+    - ns3.dnsimple.com
+    - ns4.dnsimple.com
+</div>
 
 <info>
 #### Name server propagation
