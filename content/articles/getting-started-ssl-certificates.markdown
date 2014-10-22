@@ -16,7 +16,7 @@ categories:
 
 An [SSL certificate](/articles/ssl-certificates/) is required to enable SSL on your site and build a secure connection between a browser and your server to encrypt sensitive information, such as credit card details or private data.
 
-Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the [certificate authority](/articles/what-is-a-certificate-authority/).
+Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the [certificate authority](/articles/what-certificate-authority/).
 
 <note>
 #### How long does it take to issue an SSL certificate?
