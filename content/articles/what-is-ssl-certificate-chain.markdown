@@ -7,11 +7,11 @@ categories:
 
 # What is the SSL Certificate Chain?
 
-There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): root CAs and intermediate CAs. In order for an SSL certificate to be trusted, that certificate must have been **issued by a CA that is included in the trusted store of the device that is connecting**.
+There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. In order for an SSL certificate to be trusted, that certificate must have been **issued by a CA that is included in the trusted store of the device that is connecting**.
 
 If the certificate was not issued by a trusted CA, the connecting device (eg. a web browser) will then check to see if the certificate of the issuing CA was issued by a trusted CA, and so on until either a trusted CA is found (at which point a trusted, secure connection will be established) or no trusted CA can be found (at which point the device will usually display an error).
 
-The list of SSL certificates, from the root certificate to the end-user certificate, represents the **SSL certificate chain**.
+The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-root-certificate/) to the end-user certificate, represents the **SSL certificate chain**.
 
 ![A real SSL certificate chain](http://cl.ly/image/1v1s1J3B1m1S/dnsimple-ssl-chain-robowhois.png)
 
@@ -36,7 +36,7 @@ In our example, the SSL certificate chain is represented by 6 certificates:
 1. Intermediate Certificate 4 - Issued to: Intermediate Awesome CA Gamma; Issued By: The King of Awesomeness
 1. Root certificate - Issued by and to: The King of Awesomeness
 
-Certificate 1 is your **end-user certificate**, the one you purchase from the CA. The certificates from 2 to 5 are called **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is called **root certificate**.
+Certificate 1 is your **end-user certificate**, the one you purchase from the CA. The certificates from 2 to 5 are called **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is called [**root certificate**](/articles/what-is-ssl-root-certificate/).
 
 When you install your end-user certificate for `example.awesome`, you must bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate will not be trusted by some devices.
 
