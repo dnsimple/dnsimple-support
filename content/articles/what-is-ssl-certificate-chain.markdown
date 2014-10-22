@@ -36,7 +36,7 @@ In our example, the SSL certificate chain is represented by 6 certificates:
 1. Intermediate Certificate 4 - Issued to: Intermediate Awesome CA Gamma; Issued By: The King of Awesomeness
 1. Root certificate - Issued by and to: The King of Awesomeness
 
-The certificate 1 is your **end-user certificate**, the one you purchase from the CA. The certificates from 2 to 5 are called **intermediate certificates**. The certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is called **root certificate**.
+Certificate 1 is your **end-user certificate**, the one you purchase from the CA. The certificates from 2 to 5 are called **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is called **root certificate**.
 
 When you install your end-user certificate for `example.awesome`, you must bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate will not be trusted by some devices.
 
