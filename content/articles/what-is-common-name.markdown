@@ -1,6 +1,6 @@
 ---
 title: What is the Common Name?
-excerpt: A certificate authority (CA) is an entity that issues digital certificates.
+excerpt: The Common Name identifies the fully qualified domain name(s) associated with the certificate.
 categories:
 - SSL Certificates
 ---
