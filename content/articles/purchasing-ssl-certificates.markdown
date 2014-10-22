@@ -1,6 +1,6 @@
 ---
 title: Purchasing an SSL Certificate
-excerpt: 
+excerpt: How to purchase an SSL certificate for a domain.
 categories:
 - SSL Certificates
 ---
