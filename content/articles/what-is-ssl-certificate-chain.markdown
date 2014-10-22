@@ -21,10 +21,10 @@ Here's a practical example. Let's suppose that you purchase a certificate from t
 
 *Awesome Authority* is not a root certificate authority. In other words, its certificate is not directly embedded in your web browser and therefore it can't be explicitly trusted.
 
-- *Awesome Authority* utilizes a certificate issued by *Intermediate Awesome CA 1*.
-- *Intermediate Awesome CA 1* utilizes a certificate issued by *Intermediate Awesome CA 2*.
-- *Intermediate Awesome CA 2* utilizes a certificate issued by *Intermediate Awesome CA 3*.
-- *Intermediate Awesome CA 3* utilizes a certificate issued by *The King of Awesomeness*.
+- *Awesome Authority* utilizes a certificate issued by *Intermediate Awesome CA Alpha*.
+- *Intermediate Awesome CA Alpha* utilizes a certificate issued by *Intermediate Awesome CA Beta*.
+- *Intermediate Awesome CA Beta* utilizes a certificate issued by *Intermediate Awesome CA Gamma*.
+- *Intermediate Awesome CA Gamma* utilizes a certificate issued by *The King of Awesomeness*.
 - *The King of Awesomeness* is a Root CA. Its certificate is directly embedded in your web browser, therefore it can be explicitly trusted.
 
 In our example, the SSL certificate chain is represented by 6 certificates:
