@@ -13,6 +13,8 @@ If the certificate was not issued by a trusted CA, the connecting device (eg. a 
 
 The list of SSL certificates, from the root certificate to the end-user certificate, represents the **SSL certificate chain**.
 
+![A real SSL certificate chain](http://cl.ly/image/1v1s1J3B1m1S/dnsimple-ssl-chain-robowhois.png)
+
 ## Example of an SSL Certificate chain
 
 Here's a practical example. Let's suppose that you purchase a certificate from the *Awesome Authority* for the domain `example.awesome`.
