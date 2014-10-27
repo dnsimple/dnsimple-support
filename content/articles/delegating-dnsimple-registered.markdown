@@ -17,9 +17,9 @@ Swithing the name servers to DNSimple will cause the domain to resolve using the
 
     ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
 
-1.  Click on the <label>Learn how to switch to DNSimple name servers</label> link on the domain's management page.
+1.  Click on the <label>Switch to the DNSimple name servers</label> link on the domain's management page.
 
-    ![Change Name Servers link](http://cl.ly/image/0w1g251f2y2e/switch-to-dnsimple-nameservers.jpg)
+    ![Change Name Servers link](http://cl.ly/YDnv/switch-name-servers.png)
 
 </div>
 
