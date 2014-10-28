@@ -40,7 +40,7 @@ The purchase is the first step into getting an SSL certificate. It will create a
 1.  If the domain is already in your account, on the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll to the certificate section. Click <label>Buy an SSL Certificate</label> to start the order.
 
-    ![Purchasing a Certificate](http://cl.ly/image/0B0f0A2I0X2l/dnsimple-certificates-purchase-action.png)
+    ![Purchasing a Certificate](http://cl.ly/image/2c2L1L0u0X01/dnsimple-certificates-purchase-action.png)
 
 1.  Follow the instructions to purchase the certificate.
 
