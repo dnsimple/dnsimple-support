@@ -54,6 +54,6 @@ The purchase is the first step into getting an SSL certificate. It will create a
 
 </div>
 
-## Finalizing the SSL certificate renewal
+## Finalizing the SSL certificate purchase
 
 Once the order is submitted, you will have to go through the process if configuring, verifying and installing the certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
