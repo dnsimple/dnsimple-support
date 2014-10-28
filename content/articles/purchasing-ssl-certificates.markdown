@@ -7,14 +7,53 @@ categories:
 
 # Purchasing an SSL Certificate
 
-To purchase an SSL certificate first create and activate your DNSimple account. Next, add the second-level domain for your certificate. For example, if you would like to purchase www.example.com then add the domain example.com. You do not need to register or transfer the domain, simply add it to your account.
+### Table of Contents {#toc}
 
-Once you've added the domain, go to the domain's Manage page and click on the Buy an SSL Certificate link or button. Enter the host name for your certificate. You may want to enter a subdomain, such as www, or a wildcard such as *. Read more on [how to select a certificate host name](/articles/ssl-certificate-hostname) for details.
+* TOC
+{:toc}
 
-If you would like for us to generate your Private Key and Certificate Signing Request (CSR), then leave the "Generate a private key and certificate signing request for me" check box checked. If you would like to generate your own key and CSR then uncheck the box and paste in your CSR. If you generate your own CSR make sure that the private key is at least 2048 bytes in length and that the Common Name on the request matches the fully-qualified domain name you would like (as in, www.example.com).
+---
 
-Enter your contact details and press Purchase Certificate. On the next screen, select an approver email address which can receive email. An email will be sent to this address with instructions on how to approve the certificate request. Once the certificate request is approved it will be submitted to the [Certificate Authority](/articles/what-is-certificate-authority). If there are no issues with the certificate request then you should receive notification that your certificate is ready via email shortly thereafter.
+DNSimple provides an SSL certificate interface you can use to purchase a new SSL certificate.
 
-Please note that it may take up to 24 hours for some certificate requests to be processed depending on the number of requests currently queued at the Certificate Authority.
+All DNSimple SSL certificates are valid for one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
-If you are planning on using your certificate on Heroku then [read their instructions](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) for additional details.
+
+## Requirements
+
+To purchase an SSL certificate you need a DNSimple account. In order to finalize the purchase, our system requires the account to be subscribed to a DNSimple plan, however you can follow these instructions to [purchase the certificate only without DNSimple DNS service](http://support.dnsimple.com/articles/ssl-certificate-only/).
+
+**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar.
+
+
+## Purchasing an SSL certificate
+
+Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
+
+The purchase is the first step into getting an SSL certificate. It will create an SSL certificate order that represents a request of a certificate to the CA.
+
+<div class="section-steps" markdown="1">
+##### To purchase a certificate
+
+1.  Log into your DNSimple account.
+1.  If the domain is not already in your account, follow the instructions to [add a domain without transferring it](/articles/adding-domain/).
+1.  If the domain is already in your account, on the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  Scroll to the certificate section. Click <label>Buy an SSL Certificate</label> to start the order.
+
+    ![Purchasing a Certificate](http://cl.ly/image/0B0f0A2I0X2l/dnsimple-certificates-purchase-action.png)
+
+1.  Follow the instructions to purchase the certificate.
+
+    1.  [Read this article](/articles/ssl-certificate-hostname/) to determine the appropriate common name of your SSL certificate.
+    1.  Enter the certificate common name. Use an `*` to purchase a wildcard certificate.
+    1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
+    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
+    1.  Submit the order.
+
+    ![Purchase a Certificate](http://cl.ly/image/3a201x3L2L2w/dnsimple-certificate-purchase.png)
+
+</div>
+
+## Finalizing the SSL certificate renewal
+
+Once the order is submitted, you will have to go through the process if configuring, verifying and installing the certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).

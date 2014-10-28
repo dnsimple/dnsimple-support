@@ -16,9 +16,9 @@ categories:
 
 DNSimple provides an SSL certificate renewal interface you can use to purchase a renewal for an SSL certificate. Please note that [an SSL certificate renewal is effectively a new SSL certificate purchase](/articles/how-certificate-renewal-works/).
 
-All DNSimple SSL certificates, including renewals, are valid for one year from their purchase date. Sixty days before the certificate expires you will begin receiving renewal notices.
+All DNSimple SSL certificates, including renewals, are valid for one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
-## Renewing the SSL certificate
+## Renewing an SSL certificate
 
 <note>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
@@ -33,27 +33,28 @@ There is no way to extend the expiration of an existing certificate &mdash [Lear
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll to the certificate section and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
 
-    ![Renew a Certificate](http://cl.ly/image/0w1o2i0k051B/dnsimple-certificate-renew.png)
+    ![Renewing a Certificate](http://cl.ly/image/2a0n01333O03/dnsimple-certificates-renew-action.png)
 
     If you can't see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
 
 1.  Follow the instructions to purchase the certificate renewal.
 
-    1.  Check the certificate hostname matches the one you want to renew
-    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
-    1.  Submit the order
+    1.  Check the certificate [common name](/articles/what-is-common-name/) matches the one you want to renew.
+    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
+    1.  Submit the order.
 
     ![Renew a Certificate](http://cl.ly/image/010X2v1q1D3H/dnsimple-certificate-renewal.png)
 
-1.  Once the order is submitted, you will have to go through the same process for configuring, approving and installing the certificate as you would with any new SSL purchase. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
 </div>
 
 ## Finalizing the SSL certificate renewal
 
-When you renew a certificate, you will need to go through the [certificate approval process](/articles/ssl-certificates-email-approval) again since a new certificate will be issued.
+Once the order is submitted, you will have to go through the same process for configuring, verifying and installing the certificate as you would with any new SSL purchase. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+
+You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-approval) again, since a new certificate will be issued.
 
 <warning>
-**If you don't approve the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.
+**If you don't verify the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.
 </warning>
 
 You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
