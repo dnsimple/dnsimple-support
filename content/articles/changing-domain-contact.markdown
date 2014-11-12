@@ -33,9 +33,9 @@ If you want to assign a new contact to one of your domains, create the new conta
 
     ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
 
-1.  On the right sidebar, under <label>Task</label>, click on the <label>Change Contacts</label> link.
+1.  On the card displaying the registration status of your domain, click on the <label>Change Contacts</label> link.
 
-    ![Change domain contact](http://cl.ly/Uqnw/change-contact-3.jpg)
+    ![Change domain contact](http://cl.ly/image/0M0S3m0A383g/ChangeContacts.jpg)
 
 1.  You will see a list of all your existing contacts, with the one that is currently assigned to the domain selected. Choose the contact that you created before and save the changes. We will immediately update the registry data and the WHOIS record with the new information.
 </div>
