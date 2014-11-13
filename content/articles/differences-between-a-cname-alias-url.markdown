@@ -32,7 +32,7 @@ Understanding the [difference between the `A` name and the `CNAME` records](/art
 The general rule is:
 
 - use an `A` record if you manage what IP addresses are assigned to a particular machine or if the IP are fixed (this is the most common case)
-- use a `CNAME` record if you want to alias a name to another name, and you don't need (such as other records (such as `MX` records for emails) for the same name
+- use a `CNAME` record if you want to alias a name to another name, and you don't need other records (such as `MX` records for emails) for the same name
 - use an `ALIAS` record if you are trying to alias the root domain (apex zone) or if you need other records for the same name
 - use the `URL` record if you want the name to redirect (change address) instead of resolving to a destination.
 
