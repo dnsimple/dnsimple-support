@@ -1,11 +1,11 @@
 ---
-title: How to enable WHOIS privacy
+title: Enabling WHOIS Privacy for a Domain
 excerpt: How to enable WHOIS privacy for one of your domains.
 categories:
 - Whois Privacy
 ---
 
-# How to enable WHOIS privacy
+# Enabling WHOIS Privacy for a Domain
 
 If you want to know what WHOIS privacy is please checkout [this article](what-is-whois-privacy).
 
