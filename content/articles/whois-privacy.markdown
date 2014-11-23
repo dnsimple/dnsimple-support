@@ -1,21 +1,31 @@
 ---
-title: Enabling WHOIS Privacy for a Domain
-excerpt: How to enable WHOIS privacy for one of your domains.
+title: WHOIS Privacy Protection
+excerpt: How to enable and disable the WHOIS privacy for a domain.
 categories:
 - Whois Privacy
 ---
 
-# Enabling WHOIS Privacy for a Domain
+# Managing WHOIS Privacy for a Domain
 
-If you want to know what WHOIS privacy is please checkout [this article](/articles/what-is-whois-privacy).
+* TOC
+{:toc}
 
-<info>
-The WHOIS privacy service is only available for domains registered through DNSimple. For hosted domains you will need to contact your registrar to know how to enable it.
-</info>
+---
+
+The [WHOIS privacy protection service](/articles/what-is-whois-privacy) keeps your contact information private for a domain. This service replaces the public information that you provide with an anonymous proxy identity in the public WHOIS database.
+
+You can purchase the WHOIS privacy protection for any of your domains at any time, as long as the domain is registered with us and the TLD [supports the WHOIS privacy service](/articles/whois-privacy-support/).
 
 <info>
 The price for the WHOIS privacy service is **$8.00 per year and domain**.
 </info>
+
+
+## Enable WHOIS privacy
+
+You can enable the WHOIS privacy protection from your domain page or the domain list.
+
+When you enable the service the first time, the service cost will be charged on your account. You can then enable and disable the service at any time, with no additional cost, for one year.
 
 <div class="section-steps" markdown="1">
 ##### Enable WHOIS privacy from the domain list
@@ -31,7 +41,6 @@ The price for the WHOIS privacy service is **$8.00 per year and domain**.
     ![Purchase WHOIS Privacy Protection](http://cl.ly/image/2Z2B193y2F03/enable-whois-domain-list-2.jpg)
 
 </div>
-
 
 <div class="section-steps" markdown="1">
 ##### Enable WHOIS privacy from the domain page
@@ -51,3 +60,8 @@ The price for the WHOIS privacy service is **$8.00 per year and domain**.
     ![Purchase WHOIS Privacy Protection](http://cl.ly/image/2Z2B193y2F03/enable-whois-domain-list-2.jpg)
 
 </div>
+
+
+## Disable WHOIS privacy
+
+You can enable the WHOIS privacy protection from your domain page or the domain list.

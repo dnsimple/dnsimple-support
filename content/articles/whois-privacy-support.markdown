@@ -1,13 +1,13 @@
 ---
-title: Whois Privacy Protection Support
+title: WHOIS Privacy Support
 excerpt: 
 categories:
 - Whois Privacy
 ---
 
-# Whois Privacy Protection Support
+# WHOIS Privacy Support
 
-All of the generic top-level domains support Whois Privacy Protection:
+All of the generic top-level TLDs support WHOIS privacy protection:
 
 - com
 - net
@@ -20,7 +20,7 @@ All of the generic top-level domains support Whois Privacy Protection:
 - asia
 - mobi
 
-The following country code top-level domains support Whois Privacy Protection:
+The following country code top-level TLDs support WHOIS privacy protection:
 
 - cc
 - cm
