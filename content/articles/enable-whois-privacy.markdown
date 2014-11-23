@@ -7,7 +7,7 @@ categories:
 
 # Enabling WHOIS Privacy for a Domain
 
-If you want to know what WHOIS privacy is please checkout [this article](what-is-whois-privacy).
+If you want to know what WHOIS privacy is please checkout [this article](/articles/what-is-whois-privacy).
 
 <info>
 The WHOIS privacy service is only available for domains registered through DNSimple. For hosted domains you will need to contact your registrar to know how to enable it.
