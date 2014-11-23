@@ -1,7 +1,7 @@
 ---
 title: Moving domains between DNSimple accounts
-excerpt: 
-categories: How to use our Push feature to move a domain from one DNSimple account to another.
+excerpt: How to use our Push feature to move a domain from one DNSimple account to another.
+categories:
 - Domains
 ---
 
