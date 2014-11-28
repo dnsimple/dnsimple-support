@@ -40,6 +40,10 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 </div>
 
+<note>
+While this will change the NS records on your domain, our listing of records will continue to display the records our name servers would respond with, thus it will still show our NS records.
+</note>
+
 ## Pointing the name servers to DNSimple
 
 Pointing the name servers to DNSimple provider will cause the domain to resolve using the DNS records configured in your DNSimple account.
