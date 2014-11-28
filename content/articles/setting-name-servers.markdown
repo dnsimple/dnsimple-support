@@ -30,9 +30,9 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
 
-1.  On the right <label>Registration Status</label> sidebar, click <label>Change Name Servers</label>.
+1.  On the card showing *Registration Status* for the domain, click <label>Change name servers</label>.
 
-    ![Change Name Servers link](http://f.cl.ly/items/3i0Q3N3K1N1L1I3o011F/Image%202013.11.29%209%3A32%3A24%20AM.png)
+    ![Change Name Servers link](http://cl.ly/image/2I3o270A232Z/ChangeNameServers.jpg)
 
 1.  Enter the names of the name servers you would like to use and click "Change Name Servers" to complete the change.
 
