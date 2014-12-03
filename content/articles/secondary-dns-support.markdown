@@ -7,6 +7,4 @@ categories:
 
 # Secondary DNS Support
 
-DNSimple does not currently provide secondary DNS.
-
-If you are interested in having this functionality in a future version of DNSimple, please let us know by sending an email to [support@dnsimple.com](mailto:support@dnsimple.com).
+DNSimple does not currently provide secondary DNS, but it is among our top priorities. We do not presently have a timeline on when the feature will be available but are directing our focus on making this happen as soon as possible.
