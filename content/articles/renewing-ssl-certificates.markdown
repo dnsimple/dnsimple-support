@@ -23,7 +23,7 @@ All DNSimple SSL certificates, including renewals, are valid for one year from t
 <note>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 
-There is no way to extend the expiration of an existing certificate &mdash [Learn more](/articles/how-certificate-renewal-works/)
+There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works/)
 </note>
 
 <div class="section-steps" markdown="1">
