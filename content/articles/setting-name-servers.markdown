@@ -28,13 +28,17 @@ Pointing the name servers to another provider will cause the domain to resolve u
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
+    ![Domain Page link](http://cl.ly/image/363633260i2r/dnsimple-domains-domain-link.png)
 
-1.  On the card showing *Registration Status* for the domain, click <label>Change name servers</label>.
+1.  Switch to the <label>DNS</label> tab.
 
-    ![Change Name Servers link](http://cl.ly/image/2I3o270A232Z/ChangeNameServers.jpg)
+    ![Domain DNS tab link](http://cl.ly/image/041C3Q3s2k1S/dnsimple-domain-tab-dns-link.png)
 
-1.  Enter the names of the name servers you would like to use and click "Change Name Servers" to complete the change.
+1.  On the <label>Name severs</label> card, click <label>Change name servers</label>.
+
+    ![Change Name Servers link](http://cl.ly/image/0S0U3V0v2C05/dnsimple-domain-tab-change-nameserver-link.png)
+
+1.  Enter the names of the name servers you would like to use and click <label>Change Name Servers</label> to complete the change.
 
     ![Complete name server change](http://f.cl.ly/items/0R0Z1l3B1K34473a3I3P/Image%202013.11.29%209%3A33%3A23%20AM.png)
 
