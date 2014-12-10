@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     adsf (1.2.0)
       rack (>= 1.0.0)
@@ -9,7 +9,7 @@ GEM
     kramdown (1.4.0)
     mime-types (2.3)
     mini_portile (0.6.0)
-    nanoc (3.6.11)
+    nanoc (3.7.4)
       cri (~> 2.3)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
@@ -29,7 +29,7 @@ DEPENDENCIES
   adsf
   kramdown
   mime-types
-  nanoc (~> 3.6.0)
+  nanoc (~> 3.7.0)
   nokogiri
   pygments.rb
   sass
