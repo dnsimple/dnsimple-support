@@ -7,6 +7,8 @@ categories:
 
 # Managing WHOIS Privacy for a Domain
 
+### Table of Contents {#toc}
+
 * TOC
 {:toc}
 
