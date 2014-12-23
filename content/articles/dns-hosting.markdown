@@ -1,6 +1,6 @@
 ---
 title: DNS Hosting
-excerpt: Information about the sandbox enviroment available to test integration with DNSimple API.
+excerpt: DNSimple provides robust DNS hosting using a global Anycast network.
 categories:
 - DNS
 ---
