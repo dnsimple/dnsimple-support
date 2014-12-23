@@ -1,5 +1,5 @@
 ---
-title: Sandbox for Testing Calls to the API
+title: API Sandbox
 excerpt: Information about the sandbox enviroment available to test integration with DNSimple API.
 categories:
 - API
