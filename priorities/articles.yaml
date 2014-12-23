@@ -3,6 +3,7 @@
 - /articles/account-activation/
 - /articles/account-securing/
 - /articles/account-suspended/
+- /articles/dns-hosting/
 - /articles/advanced-editor/
 - /articles/supported-dns-records/
 - /articles/common-dns-records/
@@ -30,17 +31,6 @@
 - /articles/transferring-domain/
 - /articles/dnsimple-nameservers/
 - /articles/pointing-domain-to-dnsimple/
-- /articles/email-forwarding/
-- /articles/email-hosting/
-- /articles/troubleshooting-email-forwarding-gmail/
-- /articles/api-documentation/
-- /articles/sandbox/
-- /articles/expiring-product-email-notifications/
-- /articles/product-expiration-notification/
-- /articles/product-expiring-tomorrow-notification/
-- /articles/moving-domain/
-- /articles/redirect/
-- /articles/sharing-domain/
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
 - /articles/sha-2-ssl-certificates/
@@ -54,6 +44,6 @@
 - /articles/changing-ssl-certificates-email/
 - /articles/selecting-ssl-certificates-email/
 - /articles/resending-ssl-certificates-email/
-- /articles/yearly-billing/
-- /articles/where-are-your-servers-located/
-- /articles/price-change/
+- /articles/email-forwarding/
+- /articles/email-hosting/
+- /articles/api-documentation/

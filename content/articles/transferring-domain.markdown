@@ -7,11 +7,14 @@ categories:
 
 # Transferring a Domain to DNSimple
 
-If you want to use DNSimple to manage the DNS of an existing domain, you have two options:
+### Table of Contents {#toc}
 
-1. You can keep the domain registration at your current registrar and just transfer the DNS management to us. If you simply want to use DNSimple to host your DNS for a domain, then [follow our instructions for switching to our name servers](http://support.dnsimple.com/articles/delegating-dnsimple-hosted/).
+* TOC
+{:toc}
 
-2. You can transfer the domain registration and DNS management to us. If you want DNSimple to act as your domain registrar then follow the following steps.
+---
+
+Transferring a domain name to DNSimple is the process of moving your domain registration to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
 ### Before You Start
 
