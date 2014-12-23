@@ -15,13 +15,15 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 ### Before You Start
 
+<warning>
+In order to avoid the possibility of a downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
+</warning>
+
+### Caveats
+
 - A domain may only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
 - Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer the registrar may not block the transfer due to the expiration.
 - WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
-
-<warning>
-In order to avoid the possibility of a downtime, you should point the name servers for the domain to DNSimple (or another provider) before you begin the transfer. This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
-</warning>
 
 ### Transferring the Domain
 
