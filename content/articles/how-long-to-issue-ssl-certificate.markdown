@@ -7,7 +7,7 @@ categories:
 
 # How long does it take to issue an SSL certificate?
 
-The time required to issue a new [SSL certificate](/articles/ssl-certificates/) depends on many factors. The SSL certificate type, the validation process, and how quickly you respond with requested information from us or the [certificate authority](/articles/what-certificate-authority/) communications.
+The time required to issue a new [SSL certificate](/articles/ssl-certificates/) depends on many factors. The SSL certificate type, the validation process, and how quickly you respond with requested information from us or the [certificate authority](/articles/what-is-certificate-authority/) communications.
 
 In general, issuing a new domain-validated SSL certificate can take from a few minutes to a few hours, **after you [approve the SSL certificate](/articles/ssl-certificates-email-approval/)**.
 

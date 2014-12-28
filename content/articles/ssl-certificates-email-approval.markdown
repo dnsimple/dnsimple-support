@@ -14,7 +14,7 @@ This process validates the domain is registered and someone with administrator r
 The email approval process consists of three steps:
 
 1. When you purchase a certificate, you select an email recipient called approver email.
-1. The [Certificate Authority](/articles/what-is-certificate-authority) sends an approval email (also called DCV email) to the approver email with an unique link to approve the certificate and validate your domain ownership.
+1. The [Certificate Authority](/articles/what-is-certificate-authority/) sends an approval email (also called DCV email) to the approver email with an unique link to approve the certificate and validate your domain ownership.
 1. **You click on the link to validate and approve the certificate**. At this point, the certificate is validated and the authority will generate it.
 
 ## Choosing the approval email
