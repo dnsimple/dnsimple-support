@@ -7,7 +7,7 @@ categories:
 
 # Change Your Payment Details
 
-You can change the credit card you use to pay your DNSimple subscription, domain registrations and SSL certificates any time you want.
+You can change the credit card you use to pay your DNSimple subscription, domain registrations and SSL certificates at anytime.
 
 <div class="section-steps" markdown="1">
 To update your payment details:
