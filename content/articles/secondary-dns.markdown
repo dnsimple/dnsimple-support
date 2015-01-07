@@ -39,12 +39,12 @@ Once you have set up Secondary DNS, it may be necessary to tweak details about y
 
 ![Reconfigure Secondary DNS](http://cl.ly/image/1o2j3n2V3a0I/ReconfigureSecondaryDNS.jpg)
 
-From here you will see details regarding the current configuration. Click the **Edit configuration** link and submit the form once you have modified the values as needed.
+From here you will see details regarding the current configuration. Click the <label>Edit configuration</label> link and submit the form once you have modified the values as needed.
 
 ![Edit Secondary DNS Configuration](http://cl.ly/image/0w2Z1Q3a1T3T/EditSecondaryDNSConfiguration.jpg)
 
 ## Deleting Secondary DNS
 
-If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the **Delete secondary DNS configuration** button
+If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the <label>Delete secondary DNS configuration</label> button
 
 ![Delete Secondary DNS Configuration](http://cl.ly/image/3e0M2r1N1b3G/DeleteSecondaryDNSConfiguration.jpg)
