@@ -21,8 +21,8 @@ Any email forwards or extra domains (for Platinum accounts) will be billed immed
 
 ## How to switch to yearly billing
 
-To switch to yearly billing, [log into DNSimple](https://dnsimple.com/login) and go to [your account page](https://dnsimple.com/account). Go to the *Billing Details* tab. There you will see a button to Switch to Yearly Billing.
+To switch to yearly billing, [log into DNSimple](https://dnsimple.com/login) and go to [your account page](https://dnsimple.com/account). Go to the *Billing* tab. There you will see a button to Switch to Yearly Billing.
 
-![Switch to Yearly Billing](http://cl.ly/WRHg/switch-to-yearly-billing.jpg)
+![Switch to Yearly Billing](http://cl.ly/image/121G372o2F3k/SwitchToYearlyBilling.jpg)
 
 You can change back to monthly billing at any time and your account will be prorated for the time not yet used.
