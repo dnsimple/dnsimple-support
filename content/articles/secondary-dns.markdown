@@ -41,6 +41,7 @@ Remember that you will need to revert this step if you ever disable Secondary DN
 
 </warning>
 
+
 ## Enabling Secondary DNS
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
@@ -55,6 +56,14 @@ Once you submit the form with the proper details, you will be redirected to the 
 
 ![Updated DNS management page](http://cl.ly/image/0j2y0v3r0N0O/SecondaryDNSConfigured.jpg)
 
+<info>
+**What happens once Secondary DNS is enabled?**
+
+Once Secondary DNS has been correctly setup for a particular domain every zone change will be replicated on the Secondary DNS provider. All existing records will be copied over.Including not only standard records but also DNSimple custom records like `ALIAS` and `URL`. These will be resolved and the resulting value will be pushed to the secondary.
+
+Until Secondary DNS is disabled for a particular domain all record changes that you make on DNSimple will be synchronized to your Secondary DNS provider automatically.
+</info>
+
 ## Editing Secondary DNS
 
 Once you have set up Secondary DNS, it may be necessary to tweak details about your configuration. This is accomplished from the same link as initial setup.
@@ -65,11 +74,13 @@ From here you will see details regarding the current configuration. Click the <l
 
 ![Edit Secondary DNS Configuration](http://cl.ly/image/0w2Z1Q3a1T3T/EditSecondaryDNSConfiguration.jpg)
 
+
 ## Deleting Secondary DNS
 
 If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the <label>Delete secondary DNS configuration</label> button
 
 ![Delete Secondary DNS Configuration](http://cl.ly/image/3e0M2r1N1b3G/DeleteSecondaryDNSConfiguration.jpg)
+
 
 ## AXFR Name Server Details
 
