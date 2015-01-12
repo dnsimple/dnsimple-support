@@ -16,6 +16,8 @@ We have begun providing Secondary DNS support on a private beta testing basis. W
 * TOC
 {:toc}
 
+---
+
 Before setting up AXFR with our systems it will be necessary for you to choose, activate, and gather information for the secondary DNS provider you will be using. Once you have a secondary provider configured, you should continue with this guide.
 
 <warning>
