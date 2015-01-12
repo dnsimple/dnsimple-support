@@ -41,7 +41,7 @@ to
 Remember that you will need to revert this step if you ever disable Secondary DNS for your domain.
 
 
-## Enabling Secondary DNS
+## Enable Secondary DNS
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
@@ -63,7 +63,7 @@ Once Secondary DNS has been correctly setup for a particular domain every zone c
 Until Secondary DNS is disabled for a particular domain all record changes that you make on DNSimple will be synchronized to your Secondary DNS provider automatically.
 </info>
 
-## Editing Secondary DNS
+## Edit Secondary DNS Configuration
 
 Once you have set up Secondary DNS, it may be necessary to tweak details about your configuration. This is accomplished from the same link as initial setup.
 
@@ -74,7 +74,7 @@ From here you will see details regarding the current configuration. Click the <l
 ![Edit Secondary DNS Configuration](http://cl.ly/image/0w2Z1Q3a1T3T/EditSecondaryDNSConfiguration.jpg)
 
 
-## Deleting Secondary DNS
+## Disable Secondary DNS
 
 If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the <label>Delete secondary DNS configuration</label> button
 
