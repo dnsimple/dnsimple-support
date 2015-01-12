@@ -19,7 +19,7 @@ We have begun providing Secondary DNS support on a private beta testing basis. W
 Before setting up AXFR with our systems it will be necessary for you to choose, activate, and gather information for the secondary DNS provider you will be using. Once you have a secondary provider configured, you should continue with this guide.
 
 <warning>
-It is possible to configure Secondary DNS on all domains whether they delegate to us or not, but if you have pointed delegation elsewhere you will need to [point the domain to DNSimple](http://support.dnsimple.com/articles/pointing-domain-to-dnsimple/) before the configuration will take effect.
+It is possible to configure Secondary DNS on all domains whether they delegate to us or not, but if you have pointed delegation elsewhere you will need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/) before the configuration will take effect.
 
 Also, if you do not have your domain registered with us, you will need to update the delegation of your domain at your registrar to use the secondary name servers you have chosen. If you set up the secondary name servers `ns1.secondary.com` and `ns2.secondary.com` delegation at your registrar will need to change from:
 
