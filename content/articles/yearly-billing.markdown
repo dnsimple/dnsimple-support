@@ -12,7 +12,7 @@ By default, all accounts are billed monthly according to the plan you subscribed
 
 ## Yearly billing benefits
 
-When you make the switch, you will automatically be billed for a year's worth of service at your current plan type, minus the price of two months. The subscription will be automatically renewed once per year, at the date you switched to yearly billing. You can compare the yearly plans pricing on our [plan page](https://dnsimple.com/plans).
+When you make the switch, you will automatically be billed for a year's worth of service at your current plan type, minus the price of two months. The subscription will be automatically renewed once per year, at the date you switched to yearly billing. You can compare the yearly plans pricing on our [plan page](https://dnsimple.com/pricing).
 
 <info>
 Any email forwards or extra domains (for Platinum accounts) will be billed immediately for 1 year's worth of service.
