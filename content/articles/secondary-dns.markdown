@@ -7,10 +7,6 @@ categories:
 
 # Secondary DNS
 
-<info>
-We have begun providing Secondary DNS support on a private beta testing basis. We will be launching general availability shortly.
-</info>
-
 ### Table of Contents {#toc}
 
 * TOC
