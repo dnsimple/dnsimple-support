@@ -84,4 +84,4 @@ If you no longer wish to use Secondary DNS via AXFR, you can simply visit the co
 
 ## AXFR Name Server Details
 
-In order to setup your secondary provider, you will need to give them the server which will respond to AXFR queries. Some providers will ask for a host name while others will ask for an IP address. The host name will consistently remain **axfr.dnsimple.com**. Presently the IP address on that node is 50.31.225.90; however that value is subject to change.
+In order to setup your secondary provider, you will need to give them the server which will respond to AXFR queries. Some providers will ask for a host name while others will ask for an IP address. The host name will consistently remain **axfr.dnsimple.com**. Presently the IP address on that node is 50.31.225.92; however that value is subject to change.
