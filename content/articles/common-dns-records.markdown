@@ -7,7 +7,7 @@ categories:
 
 # Common DNS Records
 
-DNS is full of jargon - look, I can't even say the name without resorting to an acronym. The good news is that most domain names only need a few things to function correctly.
+DNS is full of jargon - look, I can't even say the name without resorting to an acronym (and [domain name service](https://dnsimple.com) isn't much better). The good news is that most domain names only need a few things to function correctly.
 
 First, if you are using any one of the services we support (like Google Apps, Heroku, Posterous, etc.) then you should just use our services feature to add the services you need to the domain. It's pretty simple: log in, go to the domain's manage page and click *Add Services to Domain*.
 

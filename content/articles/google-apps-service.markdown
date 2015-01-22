@@ -8,7 +8,7 @@ categories:
 
 # Enabling the Google Apps Service
 
-Google Apps for Businesses provides cloud-based email, calenders, and much more. With DNSimple you can set up the DNS records required by Google Apps using the one-click service we provide. 
+Google Apps for Businesses provides cloud-based email, calenders, and much more. With DNSimple's [DNS services](https://dnsimple.com) you can set up the DNS records required by Google Apps using the one-click service we provide. 
 
 
 ## Adding One-Click Service

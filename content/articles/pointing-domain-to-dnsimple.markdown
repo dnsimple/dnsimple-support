@@ -7,7 +7,7 @@ categories:
 
 # Pointing a Domain to DNSimple
 
-Pointing a domain name servers to DNSimple is required if you want to use DNSimple as DNS hosting provider. This task is also known as "delegating" a domain.
+Pointing a domain name servers to DNSimple is required if you want to use DNSimple as your [DNS hosting](https://dnsimple.com) provider. This task is also known as "delegating" a domain.
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
