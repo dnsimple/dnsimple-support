@@ -7,6 +7,13 @@ categories:
 
 # Changing domain contacts
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 You can change the contact associated to a domain registered with DNSimple at any time.
 
 <note>
@@ -57,3 +64,8 @@ If you want to change an existing contact information, simply update the contact
 1.  Update the information you want to change and confirm.
 
 </div>
+
+
+## Special WHOIS policies
+
+Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. Check [this article](/articles/changing-whois-contact) for a list of the most common registrar-specific policies.
