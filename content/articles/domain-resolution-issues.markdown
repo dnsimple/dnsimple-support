@@ -7,7 +7,7 @@ categories:
 
 # Troubleshooting Domain Resolution Issues
 
-In order to use DNSimple's managed DNS service your domain should resolve with DNSimple.
+In order to use DNSimple's managed [DNS services](https://dnsimple.com) your domain should resolve with DNSimple.
 
 You can check domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). Resolution status is also displayed on the domain page in your DNSimple account.
 

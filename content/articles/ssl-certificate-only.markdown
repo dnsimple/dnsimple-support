@@ -7,7 +7,7 @@ categories:
 
 # Purchasing an SSL Certificate without DNSimple DNS service
 
-If you only want to purchase an SSL certificate from us, and your DNS and/or domain registrations are with another provider, you are free to do so.
+If you do not use us for [domain name service](https://dnsimple.com) or domain registrations, it is still possible to purchase an SSL certificate from us.
 
 First, follow the [getting started guide](http://support.dnsimple.com/articles/getting-started-ssl-certificates) for purchasing and installing your certificate.
 

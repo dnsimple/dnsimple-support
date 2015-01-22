@@ -9,7 +9,7 @@ categories:
 
 `A`, `CNAME`, `ALIAS` and `URL` records are all possible solutions to point a host name (name hereafter) to your site. However, they have some small differences that affect how the client will reach your site.
 
-Before going further into the details, it's important to know that `A` and `CNAME` records are standard DNS records, whilst `ALIAS` and `URL` records are custom DNS records provided by DNSimple. Both of them are translated internally into `A` records to ensure compatibility with the DNS protocol.
+Before going further into the details, it's important to know that `A` and `CNAME` records are standard DNS records, whilst `ALIAS` and `URL` records are custom DNS records provided by DNSimple's [DNS hosting](https://dnsimple.com). Both of them are translated internally into `A` records to ensure compatibility with the DNS protocol.
 
 ## Understanding the differences
 
