@@ -31,4 +31,4 @@ The TRADE fee will be charged to the card associated to the domain account in DN
 
 The WHOIS changes for a .IO domain requires a manual push to the WHOIS registry.
 
-If you want to update the WHOIS information for a .CH domain, please make the aforementioned changes to the contact in DNSimple, and contact us with the name of the domain you want to update.
+If you want to update the WHOIS information for a .IO domain, please make the aforementioned changes to the contact in DNSimple, and contact us with the name of the domain you want to update.
