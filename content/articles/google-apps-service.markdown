@@ -38,3 +38,7 @@ You can also see the records that were added back on the domain's Services tab.
 ## Setting up At Google
 
 Make sure to verify your domain name once you have enabled the service. You can find out more about domain name verification with Google through their [support site](https://support.google.com/a/search?q=domain+verification).
+
+## Verifying MX Records
+
+Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) that will verify your DNS configuration and suggest improvements with links to support articles.
