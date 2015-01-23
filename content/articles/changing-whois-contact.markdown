@@ -7,6 +7,13 @@ categories:
 
 # Changing WHOIS information
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 To update the WHOIS contact associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#changing-an-existing-contact-information), or [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) if you want to completely replace the contact details.
 
 Upon the successful update of the domain contact, we will automatically update the registry data and the WHOIS record with the new contact information.
