@@ -14,7 +14,7 @@ categories:
 CloudFlare has two integration methods:
 
 - Change your name servers to those supplied by CloudFlare. This method is available if you create an account via their website. To use this method first configure your DNS at CloudFlare. Next, "Manage" your domain at DNSimple, follow "Change Name Servers", and enter CloudFlare supplied name servers.
-- Through third-party "Certified Hosting Provider Partners". In this case DNSimple manages automatic provisioning and configuration of your CloudFlare account and DNS template. This greatly simplifies CloudFlare integration for your domain plus you're able to continue using DNSimple features. "Manage" your domain, press the "One-Click Services" button near the top of the page, and "Add" CloudFlare.
+- Through third-party "Certified Hosting Provider Partners". In this case DNSimple manages automatic provisioning and configuration of your CloudFlare account and DNS template. This greatly simplifies CloudFlare integration for your domain and allows you to continue using DNSimple as your [DNS service provider](https://dnsimple.com/about). "Manage" your domain, press the "One-Click Services" button near the top of the page, and "Add" CloudFlare.
 
 ## DNS limitations
 
