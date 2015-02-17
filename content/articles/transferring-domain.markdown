@@ -83,7 +83,7 @@ To avoid unexpected downtime and confusion, we don't change the domain name serv
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click or [manually configure the name servers](/articles/setting-name-servers/).
 
 <info>
-Generally, we suggest to [your domain to our name server before the transfer](/articles/before-transferring-domain/), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
+Generally, we suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
 </info>
 
 ### Expiration extension
