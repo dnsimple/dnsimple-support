@@ -10,10 +10,7 @@ task :compile do
 end
 
 desc "Publish to support.dnsimple.com"
-task :publish do
-  FileUtils.rm_r('output') if File.exist?('output')
-  `nanoc compile`
-
+task :publish => :compile do
   ENV['GIT_DIR'] = File.expand_path(`git rev-parse --git-dir`.chomp)
   osha = `git rev-parse refs/remotes/origin/gh-pages`.chomp
   Dir.chdir('output') do
@@ -35,6 +32,11 @@ task :publish do
     `git update-ref refs/heads/gh-pages #{csha}`
     `git push origin gh-pages`
   end
+end
+
+desc "Publish to S3"
+task :'publish-s3' => :compile do
+  `s3_website push`
 end
 
 task :environment do

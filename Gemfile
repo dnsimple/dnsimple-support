@@ -5,6 +5,7 @@ gem 'kramdown'
 gem 'mime-types'
 gem 'nokogiri'
 gem 'pygments.rb'
+gem 's3_website'
 gem 'sass'
 gem 'systemu'
 
