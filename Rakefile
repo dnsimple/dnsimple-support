@@ -9,7 +9,7 @@ task :compile do
   `nanoc compile`
 end
 
-desc "Publish to support.dnsimple.com"
+desc "Publish to GitHub pages"
 task :publish => :compile do
   ENV['GIT_DIR'] = File.expand_path(`git rev-parse --git-dir`.chomp)
   osha = `git rev-parse refs/remotes/origin/gh-pages`.chomp
