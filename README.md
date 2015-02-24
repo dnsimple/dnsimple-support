@@ -27,12 +27,6 @@ For a list of `nanoc` commands type
 
 ## Deployment
 
-To publish the site to GitHub pages, run
-
-    $ rake publish
-
-The task compiles the site, commits it to the `gh-pages` branch and pushes the commit to GitHub.
-
 To publish the site to S3, thus allowing HTTPS:
 
 First, install Java (note on OS X I had to install the full JDK to get the command line `java`). Next, add a .env file with following:
@@ -42,4 +36,4 @@ First, install Java (note on OS X I had to install the full JDK to get the comma
 
 Finally, run:
 
-    $ rake publish-s3
+    $ rake publish
