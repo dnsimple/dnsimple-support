@@ -33,6 +33,13 @@ To publish the site to GitHub pages, run
 
 The task compiles the site, commits it to the `gh-pages` branch and pushes the commit to GitHub.
 
-To publish the site to S3, thus allowing HTTPS, you must first install Java (note on OS X I had to install the full JDK to get the command line `java`), then run
+To publish the site to S3, thus allowing HTTPS:
+
+First, install Java (note on OS X I had to install the full JDK to get the command line `java`). Next, add a .env file with following:
+
+    S3_ID=ACCESS_ID
+    S3_SECRET=ACCESS_KEY
+
+Finally, run:
 
     $ rake publish-s3
