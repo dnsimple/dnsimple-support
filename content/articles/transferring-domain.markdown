@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Transferring a domain name to DNSimple is the process of moving your domain registration to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
+Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tld-pricing) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
 ## Before You Start
 
