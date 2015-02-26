@@ -1,6 +1,5 @@
 ---
 title: Disabling Expiration Notifications
-excerpt: How to disable expiration notifications on a domain from your DNSimple account.
 categories:
 - Domains
 ---

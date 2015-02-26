@@ -1,6 +1,5 @@
 ---
 title: Adding a Domain
-excerpt: How to add a domain to your DNSimple account.
 categories:
 - Domains
 ---

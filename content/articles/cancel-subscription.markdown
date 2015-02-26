@@ -1,6 +1,5 @@
 ---
 title: Cancel your subscription
-excerpt: How to cancel your DNSimple subscription.
 categories:
 - Account
 ---

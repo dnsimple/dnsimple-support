@@ -1,6 +1,5 @@
 ---
 title: Anycast DNS
-excerpt: All domains at DNSimple are served through Anycast.
 categories:
 - DNS
 ---

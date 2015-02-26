@@ -1,6 +1,5 @@
 ---
 title: SHA-2 SSL Certificates
-excerpt: All DNSimple certificates are currently using the SHA-2 (SHA-256) hashing algorithm.
 categories:
 - SSL Certificates
 ---

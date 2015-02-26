@@ -1,6 +1,5 @@
 ---
 title: SSL Certificates
-excerpt: An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 categories:
 - SSL Certificates
 ---

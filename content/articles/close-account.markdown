@@ -1,6 +1,5 @@
 ---
 title: Close Your Account
-excerpt: How to permanently delete your DNSimple account.
 categories:
 - Account
 ---

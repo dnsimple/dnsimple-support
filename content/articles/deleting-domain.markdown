@@ -1,6 +1,5 @@
 ---
 title: Deleting a Domain
-excerpt: How to delete a domain from your DNSimple account.
 categories:
 - Domains
 ---

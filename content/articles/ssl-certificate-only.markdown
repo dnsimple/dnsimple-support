@@ -1,6 +1,5 @@
 ---
 title: Purchasing an SSL Certificates without DNS service
-excerpt: How to purchase an SSL certificate without using DNSimple for DNS or domain registrations.
 categories:
 - SSL Certificates
 ---

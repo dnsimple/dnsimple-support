@@ -1,6 +1,5 @@
 ---
 title: Changing Account Email
-excerpt: You can change the email associated to your account from the DNSimple account page.
 categories:
 - Account
 ---

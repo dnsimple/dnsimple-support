@@ -1,6 +1,5 @@
 ---
 title: What is an MX record?
-excerpt: MX Records tell email delivery agents where they should deliver your email.
 categories:
 - DNS
 ---

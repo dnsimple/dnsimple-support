@@ -1,6 +1,5 @@
 ---
 title: Selecting an SSL Certificate Approver Email
-excerpt: How to select an approver email to approve an SSL certificate.
 categories:
 - SSL Certificates
 ---
