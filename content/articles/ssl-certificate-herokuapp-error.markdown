@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting SSL error for *.heroku.com or *. herokuapp.com
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about a common error with SSL certificates on Heroku. Hosted DNS has never been this easy.
 categories:
 - Heroku and DNSimple
 ---

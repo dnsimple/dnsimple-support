@@ -1,6 +1,6 @@
 ---
 title: Can a URL record redirect requests over SSL?
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about our URL record and SSL. Hosted DNS has never been this easy.
 categories:
 - Advanced DNS
 ---

@@ -1,6 +1,6 @@
 ---
 title: Why Should I Host my DNS with DNSimple?
-excerpt: 
+excerpt: Why choose a DNS Host? Meet DNSimple and enjoy low cost hosted DNS services, an easy to use web interface, and a REST API for automation.
 categories:
 - DNSimple
 ---

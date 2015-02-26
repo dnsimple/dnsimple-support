@@ -1,6 +1,6 @@
 ---
 title: What is WHOIS Privacy Protection?
-excerpt: 
+excerpt: Welcome to DNSimple. This page describes what WHOIS privacy is. Hosted DNS has never been this easy.
 categories:
 - Whois Privacy
 ---

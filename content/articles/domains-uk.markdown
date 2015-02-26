@@ -1,6 +1,6 @@
 ---
 title: .UK Domains
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about .uk domain names. Hosted DNS has never been this easy.
 categories:
 - Domains
 ---

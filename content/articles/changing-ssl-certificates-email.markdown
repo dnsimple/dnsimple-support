@@ -1,6 +1,6 @@
 ---
 title: Changing an SSL Certificate Approver Email
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about how to change the approver email before your SSL certificate is issued. Hosted DNS has never been this easy.
 categories:
 - SSL Certificates
 ---

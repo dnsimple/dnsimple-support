@@ -1,6 +1,6 @@
 ---
 title: Why Should I Register my Domain Name with DNSimple?
-excerpt: 
+excerpt: Domain name services have never been this easy. Meet DNSimple and sign up today!
 categories:
 - DNSimple
 ---

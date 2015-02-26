@@ -1,6 +1,6 @@
 ---
 title: Account Creation
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about account creation. Hosted DNS has never been this easy.
 categories:
 - Account
 ---

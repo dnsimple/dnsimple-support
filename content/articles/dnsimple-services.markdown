@@ -1,6 +1,6 @@
 ---
 title: DNSimple Services
-excerpt: 
+excerpt: Welcome to DNSimple and experience a reliable DNS Hosting Service. Hosted DNS has never been this easy. Sign up today!
 categories:
 - DNSimple
 ---

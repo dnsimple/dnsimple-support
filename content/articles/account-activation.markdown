@@ -1,6 +1,6 @@
 ---
 title: Account Activation
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about account activation. Hosted DNS has never been this easy.
 categories:
 - Account
 ---

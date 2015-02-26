@@ -1,6 +1,6 @@
 ---
 title: How long does it take for a new record to resolve for my domain?
-excerpt: 
+excerpt: Welcome to DNSimple. This article is about how long it takes for a new record to resolve on a domain. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

@@ -1,6 +1,6 @@
 ---
 title: Renewing an SSL Certificate
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about renewing SSL certificates. Hosted DNS has never been this easy.
 categories:
 - SSL Certificates
 ---

@@ -1,6 +1,6 @@
 ---
 title: Pointing a Domain to DNSimple
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about pointing a domain to DNSimple. Hosted DNS has never been this easy.
 categories:
 - Name Servers
 ---

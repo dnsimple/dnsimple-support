@@ -1,6 +1,6 @@
 ---
 title: What is the SSL Certificate Chain?
-excerpt:
+excerpt: Welcome to DNSimple. This page explains the SSL certificate chain. Hosted DNS has never been this easy.
 categories:
 - SSL Certificates
 ---

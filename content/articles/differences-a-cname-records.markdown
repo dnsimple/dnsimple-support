@@ -1,6 +1,6 @@
 ---
 title: Differences between the A and CNAME records
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about the differences between A and CNAME records. Enjoy low cost hosted DNS and an easy to use web interface.
 categories:
 - DNS
 ---

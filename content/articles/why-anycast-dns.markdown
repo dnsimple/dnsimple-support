@@ -1,6 +1,6 @@
 ---
 title: Why anycast DNS?
-excerpt: 
+excerpt: Welcome to DNSimple. This support page explains why we use anycast DNS. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

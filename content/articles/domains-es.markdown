@@ -1,6 +1,6 @@
 ---
 title: .ES Domains
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about .es domains. Hosted DNS has never been this easy.
 categories:
 - Domains
 ---

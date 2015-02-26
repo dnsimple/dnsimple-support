@@ -1,6 +1,6 @@
 ---
 title: Domain Transfer Pricing
-excerpt: 
+excerpt: Welcome to DNSimple. This article is about domain transfer pricing. Hosted DNS has never been this easy.
 categories:
 - Domain Transfers
 ---

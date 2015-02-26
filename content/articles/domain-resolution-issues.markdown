@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Domain Resolution Issues
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about domain resolution issues. Enjoy low cost hosted DNS services, an easy to use web interface, and REST API.
 categories:
 - DNS
 ---

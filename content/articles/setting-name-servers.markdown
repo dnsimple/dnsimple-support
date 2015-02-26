@@ -1,6 +1,6 @@
 ---
 title: Setting the Name Servers for a Domain
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about setting the name servers for a domain. Hosted DNS has never been this easy.
 categories:
 - Name Servers
 ---

@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Record Resolution Issues
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about troubleshooting record resolution issues. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

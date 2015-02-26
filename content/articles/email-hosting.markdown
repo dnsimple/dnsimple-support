@@ -1,6 +1,6 @@
 ---
 title: Email Hosting Support
-excerpt: 
+excerpt: Welcome to DNSimple. This article is about email hosting. Hosted DNS has never been this easy.
 categories:
 - Emails
 ---

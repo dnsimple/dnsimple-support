@@ -1,6 +1,6 @@
 ---
 title: What is a Root Certificate?
-excerpt:
+excerpt: Welcome to DNSimple. This page describes what a root SSL certificate is. Hosted DNS has never been this easy.
 categories:
 - SSL Certificates
 ---

@@ -1,6 +1,6 @@
 ---
 title: What is Domain Auto-renewal?
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about domain auto-renewal. Hosted DNS has never been this easy.
 categories:
 - Domains
 ---

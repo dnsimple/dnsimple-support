@@ -1,6 +1,6 @@
 ---
 title: Differences between the A, CNAME, ALIAS and URL records
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about our differences between the A, CNAME, ALIAS, and URL records. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

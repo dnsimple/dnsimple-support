@@ -1,5 +1,6 @@
 ---
 title: DNSimple Help
+excerpt: Welcome to DNSimple Managed DNS. We aim to provide fast, reliable, secure, and stable service for a very competitive price.
 ---
 
 # DNSimple Help

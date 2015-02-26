@@ -1,6 +1,6 @@
 ---
 title: Supported DNS Record Types
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about our supported dns records. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

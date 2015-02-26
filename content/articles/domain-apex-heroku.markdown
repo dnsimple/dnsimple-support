@@ -1,6 +1,6 @@
 ---
 title: Pointing the Domain Apex to Heroku
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about pointing the domain apex at Heroku. Hosted DNS has never been this easy.
 categories:
 - Heroku and DNSimple
 ---

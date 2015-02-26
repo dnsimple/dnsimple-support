@@ -1,6 +1,6 @@
 ---
 title: What is a TLD?
-excerpt: 
+excerpt: Welcome to DNSimple, this page explains what TLD means. Enjoy low cost hosted DNS service, an easy to use web interface, and a REST API.
 categories:
 - Domains
 ---

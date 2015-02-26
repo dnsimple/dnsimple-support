@@ -1,6 +1,6 @@
 ---
 title: Delegating a Domain registered with DNSimple to DNSimple
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about delegating domains registered with DNSimple to DNSimple. Hosted DNS has never been this easy.
 categories:
 - Name Servers
 ---

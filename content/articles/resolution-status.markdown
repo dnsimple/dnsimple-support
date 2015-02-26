@@ -1,6 +1,6 @@
 ---
 title: Resolution Status
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about our resolution status indicator. Enjoy low cost hosted DNS services and an easy to use web interface.
 categories:
 - DNS
 ---

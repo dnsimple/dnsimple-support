@@ -1,6 +1,6 @@
 ---
 title: How do I prepare my domain to transfer out of GoDaddy?
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about how to prepare your domain to transfer out of GoDaddy. Hosted DNS has never been this easy.
 categories:
 - Domain Transfers
 ---

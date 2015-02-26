@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Email Forwarding with Gmail
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about troubleshooting email forwarding issues with Gmail. Hosted DNS has never been this easy.
 categories:
 - Emails
 ---

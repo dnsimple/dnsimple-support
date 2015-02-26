@@ -1,6 +1,6 @@
 ---
 title: Securing your DNSimple Account
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about securing your account. Hosted DNS has never been this easy.
 categories:
 - Account
 ---

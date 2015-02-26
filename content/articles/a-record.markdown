@@ -1,6 +1,6 @@
 ---
 title: What is an A record?
-excerpt: 
+excerpt: Welcome to DNSimple. This page explains the purpose of the A record. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---

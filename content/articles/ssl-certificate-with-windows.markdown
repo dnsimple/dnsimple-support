@@ -1,6 +1,6 @@
 ---
 title: Using an SSL Certificate with Windows
-excerpt: 
+excerpt: Welcome to DNSimple. This page explains how to use an SSL certificate with Windows. Hosted DNS has never been this easy.
 categories:
 - SSL Certificates
 ---

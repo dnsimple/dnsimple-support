@@ -1,6 +1,6 @@
 ---
 title: DNSimple Name Servers
-excerpt: 
+excerpt: DNSimple provides reliable domain name servers, an easy to use web interface, and a REST API for automation. Hosted DNS made easy.
 categories:
 - Name Servers
 ---

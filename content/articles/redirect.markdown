@@ -1,6 +1,6 @@
 ---
 title: Configuring a Redirect
-excerpt: 
+excerpt: Welcome to DNSimple. This page is about our redirects. Hosted DNS has never been this easy.
 categories:
 - Domains
 ---
