@@ -1,6 +1,6 @@
 ---
 title: Adding a Subdomain
-excerpt: How to add a subdomain to a domain hosted by DNSimple.
+excerpt: Welcome to DNSimple. This page is about adding a subdomain. Hosted DNS has never been this easy.
 categories:
 - Domains
 ---

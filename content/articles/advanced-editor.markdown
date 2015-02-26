@@ -1,6 +1,6 @@
 ---
 title: Record Editor
-excerpt: The Record Editor gives you the ability to view, create and manage the DNS records for a domain.
+excerpt: The Record Editor gives you the ability to view, create and manage the DNS records for a domain. Hosted DNS has never been this easy.
 categories:
 - DNS
 ---
