@@ -7,7 +7,7 @@ categories:
 
 # CloudFlare
 
-[CloudFlare](http://www.cloudflare.com/) is a service that offers protection and acceleration of your website by routing requests through their network.
+[CloudFlare](https://www.cloudflare.com/) is a service that offers protection and acceleration of your website by routing requests through their network.
 
 ## CloudFlare Integration
 

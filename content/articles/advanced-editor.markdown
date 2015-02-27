@@ -15,17 +15,17 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 
 To access the record editor from the main domain list page, click on the *records* button at the end of the domain row.
 
-![Record Editor from the domain list](http://cl.ly/image/2m143A0W3E1E/rec-editor-domain-list.png)
+![Record Editor from the domain list](/files/rec-editor-domain-list.png)
 
 From the domain page, navigate to the DNS tab and then click on the *manage records* link
 
-![Record Editor from the domain page](http://cl.ly/image/0F3f0f0F3q0G/rec-editor-dns-page.png)
+![Record Editor from the domain page](/files/rec-editor-dns-page.png)
 
 ## System records
 
 System Records are special DNS records created by DNSimple when you add a domain to your account. They are necessary to resolve your domain and cannot be edited from the record editor because they are managed by the DNSimple system.
 
-![System Records](http://cl.ly/image/3u0f1T1m0908/rec-editor-page.png)
+![System Records](/files/rec-editor-page.png)
 
 The system records include a [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple name servers.
 
@@ -33,11 +33,11 @@ The system records include a [SOA record](/articles/soa-record) and the [four na
 
 From the *Add a Record* menu select a DNS record type and click on the type to enter the new record page. DNSimple supports [several different DNS record types](/articles/supported-dns-records).
 
-![Select Record Type](http://cl.ly/image/202M2x3m3M1e/rec-editor-new-record.png)
+![Select Record Type](/files/rec-editor-new-record.png)
 
 The creation page varies depending on the record type you selected. In most cases, you will be asked to provide a **Name**, a content and a **TTL**.
 
-![New Record Page](http://cl.ly/image/0E3r3I171i3E/rec-editor-add-new-cname.png)
+![New Record Page](/files/rec-editor-add-new-cname.png)
 
 - `Name`: This is the record hostname. Leave it blank to configure a record for the root domain. Otherwise, just enter the subdomain part for a different hostname. You can also enter an `*` for a wildcard record.
 
@@ -51,7 +51,7 @@ Enter the required infomation and press *Add Record* to create the record.
 
 To modify a record, click on the edit icon at the end of the record row.
 
-![Update Record](http://cl.ly/image/2o2R000H2B0Q/rec-editor-edit.png)
+![Update Record](/files/rec-editor-edit.png)
 
 ## Delete a record
 
@@ -61,4 +61,4 @@ To delete a record, click on the red cross icon at the end of the record row.
 Please note that there is no undo. The only way to restore a deleted record is to create it again.
 </warning>
 
-![Delete Record](http://cl.ly/image/2r1s141e363o/rec-editor-delete.png)
+![Delete Record](/files/rec-editor-delete.png)

@@ -22,7 +22,7 @@ To cancel your DNSimple subscription:
 1. Click on the <label>Subscription info</label> tab.
 1. Click on the red <label>Cancel Subscription</label> button at the bottom of the page:
 
-     ![Cancel subscription](http://cl.ly/WsVi/unsubscribe.jpg)
+     ![Cancel subscription](/files/unsubscribe.jpg)
 
 5. Confirm that you want to cancel your subscription by clicking on the <label>Yes, please cancel my subscription</label> button.
 </div>

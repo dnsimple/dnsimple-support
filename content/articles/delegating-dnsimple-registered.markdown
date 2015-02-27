@@ -15,15 +15,15 @@ Swithing the name servers to DNSimple will cause the domain to resolve using the
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Domain Page link](http://cl.ly/image/363633260i2r/dnsimple-domains-domain-link.png)
+    ![Domain Page link](/files/dnsimple-domains-domain-link.png)
 
 1.  Switch to the <label>DNS</label> tab.
 
-    ![Domain DNS tab link](http://cl.ly/image/041C3Q3s2k1S/dnsimple-domain-tab-dns-link.png)
+    ![Domain DNS tab link](/files/dnsimple-domain-tab-dns-link.png)
 
 1.  On the <label>Name severs</label> card, click <label>Switch to the DNSimple name servers</label>.
 
-    ![Switch Name Servers link](http://cl.ly/image/3M1X3O0g1K1j/dnsimple-domain-tab-switch-nameserver-link.png)
+    ![Switch Name Servers link](/files/dnsimple-domain-tab-switch-nameserver-link.png)
 
 </div>
 
