@@ -33,7 +33,7 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll to the certificate section and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
 
-    ![Renewing a Certificate](http://cl.ly/image/2a0n01333O03/dnsimple-certificates-renew-action.png)
+    ![Renewing a Certificate](/files/dnsimple-certificates-renew-action.png)
 
     If you can't see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
 
@@ -43,7 +43,7 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
-    ![Renew a Certificate](http://cl.ly/image/010X2v1q1D3H/dnsimple-certificate-renewal.png)
+    ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
 
 </div>
 
