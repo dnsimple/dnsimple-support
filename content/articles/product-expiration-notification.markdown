@@ -9,7 +9,7 @@ categories:
 
 The **Product Expiration** email contains the list of products (purchased domains, certificates and whois privacies) expiring within 2 months, grouped by expiration range.
 
-![Email](http://f.cl.ly/items/0s0s093n1T2m3h3w3d0v/notifications-expiring.png)
+![Email](/files/notifications-expiring.png)
 
 There are four expiration ranges: in a day, within a week, a month and 2 months. These ranges cannot be customized.
 

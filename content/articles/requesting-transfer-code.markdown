@@ -14,11 +14,11 @@ The transfer code (also "Authorization Code", "Auth Code") is a code required to
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Domain Page link](http://cl.ly/image/3P2O3o2D0P15/dnsimple-domains-domain-link.png)
+    ![Domain Page link](/files/dnsimple-domains-domain-link.png)
 
 1.  Go to the registration section and click <label>Transfer Out</label>
 
-    ![Transfer out link](http://cl.ly/image/2b1a1i10130N/dnsimple-domain-transfer-out.png)
+    ![Transfer out link](/files/dnsimple-domain-transfer-out.png)
 
     This will unlock the domain and email a transfer code to the domain registrant.
 

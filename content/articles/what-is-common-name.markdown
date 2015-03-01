@@ -15,15 +15,15 @@ The certificate is valid only if the request hostname matches at least one of th
 <info>
 #### Wildcard or Single-Hostname?
 
-Read the article [Choosing the SSL Certificate Common Name](http://support.dnsimple.com/articles/ssl-certificate-hostname/) if you need help to determine the most appropriate common name for your certificate.
+Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-hostname/) if you need help to determine the most appropriate common name for your certificate.
 </info>
 
 Most web browsers displays a warning message when connecting to an address that does not match the common name in the certificate.
 
 ##### Example of host name mismatch error on Google Chrome
 
-![Example of host name mismatch error on Google Chrome](http://cl.ly/image/2e000A0t3e0K/dnsimple-certificate-mismatch-chrome.png)
+![Example of host name mismatch error on Google Chrome](/files/dnsimple-certificate-mismatch-chrome.png)
 
 ##### Example of host name mismatch error on Google Safari
 
-![Example of host name mismatch error on Google Safari](http://cl.ly/image/1U1N2y2i041F/dnsimple-certificate-mismatch-safari.png)
+![Example of host name mismatch error on Google Safari](/files/dnsimple-certificate-mismatch-safari.png)

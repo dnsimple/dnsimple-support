@@ -8,7 +8,7 @@ categories:
 
 You pointed your domain to Heroku, but when you access your domain you see the error page `No such app`.
 
-![Heroku No such app error](http://cl.ly/image/091O2N3R2O1N/dnsimple-heroku-nosuchapp.png)
+![Heroku No such app error](/files/dnsimple-heroku-nosuchapp.png)
 
 ~~~
 Heroku | No such app

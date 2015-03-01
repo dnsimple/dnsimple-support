@@ -19,7 +19,7 @@ Enter the hostname you would like to redirect from, and the URL to redirect to.
 
 - `URL`: The HTTP or HTTPS URL to redirect to. It can be also be a subdirectory of a site or a single page.
 
-![Create URL record](http://f.cl.ly/items/0T2X0w3c3N2S2A1k3v2T/dnsimple-url-record-create.png)
+![Create URL record](/files/dnsimple-url-record-create.png)
 
 ## Redirecting over SSL
 

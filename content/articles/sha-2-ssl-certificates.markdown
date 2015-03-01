@@ -29,7 +29,7 @@ Microsoft announced that on January 1, 2016, they would stop trusting code signi
 
 On September 5th, 2014, [Google announced plans for gradually sunsetting SHA-1](http://googleonlinesecurity.blogspot.it/2014/09/gradually-sunsetting-sha-1.html) and introduced visual messages in Google Chrome browser to highlight sites with end-entity certificates that expire between 1 January 2016 and 31 December 2016 and include a SHA-1 based signature as part of the certificate chain.
 
-[This announcement has brought renewed attention](http://blog.dnsimple.com/2014/09/sha-2-and-dnsimple/) to the subject of SSL certificates and their security.
+[This announcement has brought renewed attention](https://blog.dnsimple.com/2014/09/sha-2-and-dnsimple/) to the subject of SSL certificates and their security.
 
 ## How does this affect me?
 
