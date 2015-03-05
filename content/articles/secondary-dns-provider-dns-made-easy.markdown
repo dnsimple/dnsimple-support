@@ -11,7 +11,7 @@ For an overview of SecondaryDNS, have a look at [our introduction article](/arti
 
 You need an active account to configure secondary DNS with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS setup.
 
-From DNSimple, select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that DNSMadeEasy is expecting are already filled up for you.
+From DNSimple, select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that DNSMadeEasy is expecting are already filled in for you.
 
 ![DNSimple configuration with DNSMadeEasy](/assets/images/secondary-dns/dns-made-easy-enabling.png)
 
@@ -60,7 +60,7 @@ From your terminal, type the following `dig` command replacing `example.com` wit
 
 `$ dig @ns5.dnsmadeeasy.com example.com soa`
 
-The query should return all the DNSimple and DNSMadeEasy name servers in the `AUTHORITY SECTION`. 
+The query should return all the DNSimple and DNSMadeEasy name servers in the `AUTHORITY SECTION`.
 
 <pre>
 ; <<>> DiG 9.8.3-P1 <<>> @ns5.dnsmadeeasy.com example.com soa
