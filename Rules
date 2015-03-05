@@ -64,6 +64,10 @@ route '/assets/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
+route '/files/*/' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
 route '/CNAME/' do
   '/CNAME'
 end
