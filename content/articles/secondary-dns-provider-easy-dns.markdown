@@ -13,43 +13,43 @@ You need an active account to configure secondary DNS with **EasyDNS**. Every Ea
 
 From DNSimple, select **EasyDNS** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 
-![DNSimple configuration with EasyDNS](/assets/images/secondary-dns/easy-dns-enabling.png)
+![DNSimple configuration with EasyDNS](/files/easy-dns-enabling.png)
 
 A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/confirmation-message.png)
+![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
 Log into your **EasyDNS** account. The first thing we are going to do is add the domain.
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-add-domain.png)
+![DNSimple configuration is successful](/files/easy-dns-add-domain.png)
 
 Select the option *Get DNS* for the domain.
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-get-dns.png)
+![DNSimple configuration is successful](/files/easy-dns-get-dns.png)
 
 Go through the payment process. Any plan support secondary DNS. When you are finish, the domain is added and ready to be managed. Click on *manage*
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-ready-to-configure.png)
+![DNSimple configuration is successful](/files/easy-dns-ready-to-configure.png)
 
 From the *DNS settings* tab, we are going to tell EasyDNS the primary nameserver, in this case, us DNSimple. Click on *primary NS*
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-domain-admin.png)
+![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
 Now let's add the IP address that we have configured at DNSimple: `50.31.225.92`
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-adding-dnsimple-ip.png)
+![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
 
 And then confirm the changes
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-confirm.png)
+![DNSimple configuration is successful](/files/easy-dns-confirm.png)
 
 Note that it can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *Tools* tab and then *check* the zone file.
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-tools.png)
+![DNSimple configuration is successful](/files/easy-dns-tools.png)
 
 If everything is working correctly, you should see the DNSimple and EasyDNS nameservers.
 
-![DNSimple configuration is successful](/assets/images/secondary-dns/easy-dns-secondary-zone.png)
+![DNSimple configuration is successful](/files/easy-dns-secondary-zone.png)
 
 Another way to verify your configuration is by using `dig` and querying the EasyDNS name servers. Read more about `dig` in [our overview article](https://newsletter.dnsimple.com/how-to-dig/).
 
