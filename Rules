@@ -31,6 +31,10 @@ compile '/assets/*/' do
   # don't filter or layout
 end
 
+compile '/files/*/' do
+  # don't filter or layout
+end
+
 compile '/CNAME/' do
 end
 
