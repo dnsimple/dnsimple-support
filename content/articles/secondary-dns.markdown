@@ -16,7 +16,7 @@ categories:
 
 ## Getting started
 
-Before setting up Secondary DNS with our systems it will be necessary for you to choose, activate, and gather information for the secondary DNS provider you will be using. At this moment, we simplify this process by providing pre-configuration for 2 providers: DNSMadeEasy and EasyDNS. We plan to offer pre-configurations for other providers in the near future. Note that you can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you are going to use and have a made the necessary configuration on their side, you should continue with this guide.
+Before setting up Secondary DNS with our systems it will be necessary for you to choose, activate, and gather information for the secondary DNS provider you will be using. At this moment, we simplify this process by providing pre-configurations and step-by-step guide for 2 providers: [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy/) and [EasyDNS](/articles/secondary-dns-provider-easy-dns/). We plan to offer pre-configurations for other providers in the near future. Note that you can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you are going to use and have a made the necessary configuration on their side, you should continue with this guide.
 
 It is possible to configure Secondary DNS on all domains whether they delegate to us or not, but if you have pointed delegation elsewhere you will need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/) before the configuration will take effect.
 

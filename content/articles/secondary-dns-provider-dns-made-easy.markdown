@@ -9,9 +9,16 @@ categories:
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns/). 
 
-You need an active account to configure secondary DNS with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS setup.
+**Requirements**
 
-From DNSimple, select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that DNSMadeEasy is expecting are already filled in for you.
+* An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
+* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple/)
+
+Getting started with Secondary DNS is possible from the DNS section of the domain management page.
+
+![DNS management page](/files/setup-secondary-dns.jpg)
+
+Select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that DNSMadeEasy is expecting are already filled in for you.
 
 ![DNSimple configuration with DNSMadeEasy](/files/dns-made-easy-enabling.png)
 
@@ -30,11 +37,11 @@ Add a new IP set with the following values:
 
 ![DNSMadeEasy IP set](/files/dns-made-easy-ip-set.png)
 
-Now we are ready to add the domain. From the top navigation menu, select “DNS” and then “Secondary DNS”.
+Now we are ready to add the domain. From the top navigation menu, select *DNS* and then *Secondary DNS*.
 
 ![DNSMadeEasy secondary DNS menu](/files/dns-made-easy-menu.png)
 
-Click on “Add Secondary”
+Click on *Add Secondary*
 
 ![DNSMadeEasy adding secondary button](/files/dns-made-easy-secondary-click.png)
 

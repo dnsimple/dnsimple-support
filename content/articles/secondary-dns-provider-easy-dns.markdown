@@ -9,7 +9,14 @@ categories:
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns/).
 
-You need an active account to configure secondary DNS with **EasyDNS**. Every EasyDNS plan allows for secondary DNS setup.
+**Requirements**
+
+* An active account with **EasyDNS**. Every EasyDNS plan allows for secondary DNS Setup.
+* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple/)
+
+Getting started with Secondary DNS is possible from the DNS section of the domain management page.
+
+![DNS management page](/files/setup-secondary-dns.jpg)
 
 From DNSimple, select **EasyDNS** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 
