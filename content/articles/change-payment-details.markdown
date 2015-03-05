@@ -16,7 +16,7 @@ To update your payment details:
 1. Click on the <label>Subscription</label> tab.
 1. Click on the <label>Update Credit Card</label> button right below your credit card type:
 
-     ![Change payment details](http://cl.ly/image/1N130X130n47/update-credit-card-1.png)
+     ![Change payment details](/files/update-credit-card-1.png)
 
 1. Fill in your new credit card data and click on the <label>Update</label> button.
 </div>

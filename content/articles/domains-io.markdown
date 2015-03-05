@@ -22,11 +22,11 @@ The auto-renewal must be set 1 month before the domain will expire. **The best s
 
 You may always check if a domain is set up to auto-renew and turn auto-renewal on from your domain list. If auto-renewal is enabled you will see an icon like this next to the domain: 
 
-![](http://f.cl.ly/items/2B0R1q1f3k3O3M2G163w/Domains_-_DNSimple.png)
+![](/files/autorenew-1.png)
 
 If auto-renewal is not enabled, the icon will look like this:
 
-![](http://f.cl.ly/items/1h2J0U322V0M0k1m2J2x/Domains_-_DNSimple-2.png)
+![](/files/autorenew-2.png)
 
 <info>
 You may receive one or more emails from the .IO registry *after* your .IO domain has been submitted for auto-renewal but before the domain is renewed by the .IO registry. As long as you have received notification from us indicating your domain has been renewed, you do not need to worry about this email.

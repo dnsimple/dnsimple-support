@@ -33,7 +33,7 @@ Configure the DNS records for the domain. To do this you can either:
 
 1. Use the *Add Services to Domain* feature in the domain's management screen to add all of the DNS records for common services like Google Apps.
 1. Add the records one-by-one using the Advanced Editor.
-1. Add the records [using the API](http://developer.dnsimple.com/).
+1. Add the records [using the API](https://developer.dnsimple.com/).
 1. Bulk import the records using the *Zone Import* feature.
 
 

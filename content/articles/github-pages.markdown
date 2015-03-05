@@ -28,7 +28,7 @@ Finally, don't forget to complete the [final step](#one-final-step)
 
 Go to the advanced editor page for your domain to manage your DNS records. Click *Add a Record* and select the `ALIAS` record type.
 
-![Add a Record](http://f.cl.ly/items/3s2k3N2h1N0q182P1D1g/dnsimple-alias-record.png)
+![Add a Record](/files/dnsimple-alias-record-1.png)
 
 In the form enter the following settings:
 

@@ -13,7 +13,7 @@ Email forwarding can be enabled on a domain-by-domain basis. The cost is $2 per 
 
 To enable email forwarding visit a domain's manage page and follow the **Manage Email forwards** at the bottom of the page on the **Domain** tab.
 
-![Email forwarding](http://cl.ly/image/1L3h0r3L0r0z/email-forwarding.png)
+![Email forwarding](/files/email-forwarding.png)
 
 Create an email forward to enable the service.
 
@@ -23,7 +23,7 @@ When you enable email forwarding we will automatically add the various DNS recor
 
 To create an email forward you need to specify the **From** and **To** fields.
 
-![Email forwarding creation](http://cl.ly/image/2q180x0z4303/email-setup.png)
+![Email forwarding creation](/files/email-forwarding-setup.png)
 
 The **From** field is used to match an email address to forward from. Enter either a specific name (such as "support") without the domain.
 

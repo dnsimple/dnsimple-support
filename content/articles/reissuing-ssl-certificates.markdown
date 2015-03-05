@@ -46,17 +46,17 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
-    ![](http://cl.ly/image/0S24193M3q1z/dnsimple-domain-certificatelist-issued.png.png)
+    ![](/files/dnsimple-domain-certificatelist-issued.png)
 
 1.  At the page, on the status line, look for the link to reissue the certificate.
 
-    ![](http://cl.ly/image/0f1G080o0r1l/dnsimple-ssl-reissue-link.png)
+    ![](/files/dnsimple-ssl-reissue-link.png)
 
     If the link is not present, it means the certificate is in a status where the certificate can not be reissued (e.g. a not issued or expired certificate).
 
 1.  Click the link to access the "Reissue certificate" self-service section.
 
-    ![](http://cl.ly/image/423q2h1k0W1O/dnsimple-ssl-reissue-new.png)
+    ![](/files/dnsimple-ssl-reissue-new.png)
 
 1.  Check the certificate information and click <label>Reissue Certificate</label> to submit a new reissue request.
 
@@ -83,17 +83,17 @@ The old certificate will stay active until the expiration date.
 
 Once you have received your certificate from the Certificate Authority, go to your certificate page and click <label>Reissue status</label>.
 
-![reissue status](http://cl.ly/UuES/private-key-0.jpg)
+![reissue status](/files/private-key-0.jpg)
 
 If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
 
 When you receive your reissued certificate via email, **and only then**, go to the status page and click the confirmation button:
 
-![reissue confirmation](http://cl.ly/UvEI/private-key-1.jpg)
+![reissue confirmation](/files/private-key-1.jpg)
 
 At that point you will be taken back to the certificate page and you will be able to get your new private key:
 
-![reissue confirmation](http://cl.ly/Uu8C/private-key-2.jpg)
+![reissue confirmation](/files/private-key-2.jpg)
 
 Your previous private key will be permanently removed at this point.
 
