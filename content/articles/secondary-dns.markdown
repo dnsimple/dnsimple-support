@@ -43,23 +43,23 @@ Remember that you will need to revert this step if you ever disable Secondary DN
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
-![DNS management page](http://cl.ly/image/3r3d162n0W2A/SetUpSecondaryDNS.jpg)
+![DNS management page](/files/setup-secondary-dns.jpg)
 
 You will then be presented with a page where you can choose your secondary provider. If your provider is either DNSMadeEasy or EasyDNS, you are one click away from completing the configuration. Otherwise, select the custom option. You will then be presented with a page for providing the names for NS records as well as the IP addresses which should be allowed to have access for the zone transfer. These details should be retrieved from your secondary DNS provider.
 
-![Configure Secondary DNS Form](http://f.cl.ly/items/2g0U1n3l2q2f2s1K3126/secondary-dns-step-1.png)
+![Configure Secondary DNS Form](/files/secondary-dns-step-1.png)
 
 Selecting a pre-configuration will prepopulate the correct values for you. Just click on the "Enable" button at the bottom of the page.
 
-![Configuration with provider](http://f.cl.ly/items/1S170q0y2b1Q3Q103H0q/secondary-dns-provider-conf.png)
+![Configuration with provider](/files/secondary-dns-provider-conf.png)
 
 If you choose the custom option, you'll be prompted to enter the NS records as well as the IP address for the zone transfer.
 
-![Configuration with custom](http://f.cl.ly/items/18313G1o1u2Z3l0k2y3U/secondary-dns-custom-conf.png)
+![Configuration with custom](/files/secondary-dns-custom-conf.png)
 
 Once you submit the form with the proper details, you will be redirected to the domain management page with updated details.
 
-![Updated DNS management page](http://cl.ly/image/0j2y0v3r0N0O/SecondaryDNSConfigured.jpg)
+![Updated DNS management page](/files/secondary-dns-configured.jpg)
 
 ### Behind the Scenes
 
@@ -72,18 +72,18 @@ Until Secondary DNS is disabled for a particular domain all record changes that 
 
 Once you have set up Secondary DNS, it may be necessary to tweak details about your configuration. This is accomplished from the same link as initial setup.
 
-![Reconfigure Secondary DNS](http://cl.ly/image/1o2j3n2V3a0I/ReconfigureSecondaryDNS.jpg)
+![Reconfigure Secondary DNS](/files/reconfigure-secondary-dns.jpg)
 
 From here you will see details regarding the current configuration. Click the <label>Edit configuration</label> link and submit the form once you have modified the values as needed.
 
-![Edit Secondary DNS Configuration](http://f.cl.ly/items/2Z1g0k0L062w3z3A0z0z/secondary-dns-edit.png)
+![Edit Secondary DNS Configuration](/files/secondary-dns-edit.png)
 
 
 ## Disable Secondary DNS
 
 If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the <label>Delete secondary DNS configuration</label> button
 
-![Delete Secondary DNS Configuration](http://f.cl.ly/items/112S0U2g3n133X44141y/secondary-dns-delete.png)
+![Delete Secondary DNS Configuration](/files/secondary-dns-delete.png)
 
 
 ## AXFR Name Server Details

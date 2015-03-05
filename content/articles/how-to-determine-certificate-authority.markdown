@@ -10,7 +10,7 @@ To determine the [Certificate Authority](/articles/what-is-certificate-authority
 
 The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
 
-![](http://cl.ly/image/1C1V2K2c422C/dnsimple-certificate-determine-authority.png)
+![](/files/dnsimple-certificate-determine-authority.png)
 
 Search for the issuer organization name. Please note that, in some cases, Certificate Authorities may delegate the signing process to subsidiaries or acquired companies.
 

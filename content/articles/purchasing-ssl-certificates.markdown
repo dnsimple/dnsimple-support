@@ -20,7 +20,7 @@ All DNSimple SSL certificates are valid for one year from their issue date. Sixt
 
 ## Requirements
 
-To purchase an SSL certificate you need a DNSimple account. In order to finalize the purchase, our system requires the account to be subscribed to a DNSimple plan, however you can follow these instructions to [purchase the certificate only without DNSimple DNS service](http://support.dnsimple.com/articles/ssl-certificate-only/).
+To purchase an SSL certificate you need a DNSimple account. In order to finalize the purchase, our system requires the account to be subscribed to a DNSimple plan, however you can follow these instructions to [purchase the certificate only without DNSimple DNS service](/articles/ssl-certificate-only/).
 
 **You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar.
 
@@ -38,9 +38,6 @@ The purchase is the first step into getting an SSL certificate. It will create a
 1.  If the domain is not already in your account, follow the instructions to [add a domain without transferring it](/articles/adding-domain/).
 1.  If the domain is already in your account, on the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll to the certificate section. Click <label>Buy an SSL Certificate</label> to start the order.
-
-    ![Purchasing a Certificate](http://cl.ly/image/2c2L1L0u0X01/dnsimple-certificates-purchase-action.png)
-
 1.  Follow the instructions to purchase the certificate.
 
     1.  [Read this article](/articles/ssl-certificate-hostname/) to determine the appropriate common name of your SSL certificate.
@@ -49,7 +46,7 @@ The purchase is the first step into getting an SSL certificate. It will create a
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
     1.  Submit the order.
 
-    ![Purchase a Certificate](http://cl.ly/image/3a201x3L2L2w/dnsimple-certificate-purchase.png)
+    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
 </div>
 
