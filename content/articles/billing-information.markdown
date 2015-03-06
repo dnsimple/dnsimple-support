@@ -1,6 +1,6 @@
 ---
 title: Billing Information
-excerpt: What you need to know about the billing information displayed on every invoice
+excerpt: What you need to know about the billing information displayed on every invoice.
 categories:
 - Account
 ---
