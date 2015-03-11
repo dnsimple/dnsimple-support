@@ -19,9 +19,9 @@ Once the push is accepted, you will no longer be able to manage the domain.
 
 ## Initiate move
 
-To move a domain to another DNSimple account, go to the domain's management page, click on the Admin tab and then follow the "Transfer ownership" link.
+To move a domain to another DNSimple account, go to the domain's management page, click on the _Settings_ tab and then follow the "Transfer ownership" link.
 
-![](/files/transfer-ownership.jpg)
+![](/files/transfer-ownership.png)
 
 Enter a destination email address of another DNSimple account. Please be certain that the email address you enter matches the correct account. Once the domain is moved you will no longer be able to control this domain under your current account.
 
