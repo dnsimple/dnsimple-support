@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '~> 3.7.0'
+gem 'builder'
 gem 'kramdown'
 gem 'mime-types'
 gem 'nokogiri'
