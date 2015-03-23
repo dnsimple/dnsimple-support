@@ -1,5 +1,6 @@
 ---
 title: Changing Account Email
+excerpt: How to change the email associated to a DNSimple user.
 categories:
 - Account
 ---
