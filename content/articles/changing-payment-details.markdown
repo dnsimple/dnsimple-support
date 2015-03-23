@@ -1,16 +1,16 @@
 ---
-title: Change Payment Details
-excerpt: How to change your account's payment details
+title: Changing Payment Details
+excerpt: How to change a DNSimple account payment details.
 categories:
 - Account
 ---
 
-# Change Your Payment Details
+# Changing an Account Payment Details
 
-You can change the credit card you use to pay your DNSimple subscription, domain registrations and SSL certificates at anytime.
+You can change the credit card you use to pay your DNSimple subscription and other products at anytime.
 
 <div class="section-steps" markdown="1">
-To update your payment details:
+To update an account payment details:
 
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click on the <label>Subscription</label> tab.
