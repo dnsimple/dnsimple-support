@@ -1,5 +1,5 @@
 ---
-title: Billing Information
+title: Billing Settings
 excerpt: What you need to know about the billing information displayed on every invoice.
 categories:
 - Account
