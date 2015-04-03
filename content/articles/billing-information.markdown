@@ -19,7 +19,7 @@ categories:
 
 Until we are provided with further information our invoices will only reflect the email address of the DNSimple account the invoice was sent to. All invoices will be sent to your DNSimple account's email address.
 
-![Example Invoice Without Billing Information](/files/account-extra-billing-info-0.png)
+![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
 
 ## Billing Settings
@@ -37,7 +37,7 @@ If you don't provide a custom billing email address the one that was used to set
 
 Billing information will be displayed on invoices when provided instead of the billing email:
 
-![Example Invoice With Billing Information](/files/account-extra-billing-info-3.png)
+![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
 <warning>
 You can this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please write to [support@dnsimple.com](mailto:support@dnsimple.com)
@@ -52,12 +52,12 @@ To update your billing settings:
 1. Click on the <label>Billing</label> tab.
 1. Click on the <label>Billing Settings</label> link:
 
-     ![Change payment details](/files/account-extra-billing-info-1.png)
+     ![Change payment details](/files/account-billing-settings-1.png)
 
 1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit Billing Settings</label> button.
 1. Fill in the form to your needs and click on <label>Save</label> when you are done.
 
-     ![Change payment details](/files/account-extra-billing-info-2.png)
+     ![Change payment details](/files/account-billing-settings-2.png)
 </div>
 
 
