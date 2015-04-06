@@ -29,7 +29,7 @@ Until we are provided with further information our invoices will only reflect th
 The billing email will be displayed on invoices in absence of other billing information. It will also be the email address invoices will be delivered to.
 
 <info>
-If you don't provide a custom billing email address the one that was used to setup the DNSimple account will be considered to be also the billing address.
+If you provide a custom billing email address then it will be used for all invoices. Otherwise your DNSimple account's email address will be used.
 </info>
 
 
