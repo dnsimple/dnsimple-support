@@ -7,7 +7,7 @@ categories:
 
 # Adding a Subdomain
 
-A subdomain is, technically speaking, a DNS record for a hostname that belongs to your domain. In other words, to add a subdomain you simply need to create the DNS record corresponding to the subdomain.
+A subdomain is, technically speaking, a DNS record for a hostname that belongs to your domain. In other words, to add a subdomain you simply need to use our [DNS record editor](/articles/advanced-editor/) and create the DNS record corresponding to the subdomain.
 
 <div class="section-steps" markdown="1">
 ##### To add a subdomain
