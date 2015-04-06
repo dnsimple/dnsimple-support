@@ -56,7 +56,7 @@ The name of the product is Comodo EssentialSSL Wildcard certificate.
 
 You can purchase and manage SSL certificates from the your domain page. Go to the domain page and scroll down until you find the SSL certificate section.
 
-![SSL Certificate section]()
+![SSL Certificate section](/files/domain-certificates-section.png)
 
 If the domain is not in your DNSimple account because you just joined DNSimple or because it is registered elsewhere, it's not a problem: just [add the domain to your account](/articles/adding-domain/) and follow the same procedure.
 

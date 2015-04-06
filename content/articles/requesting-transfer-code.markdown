@@ -18,7 +18,7 @@ The transfer code (also "Authorization Code", "Auth Code") is a code required to
 
 1.  Go to the registration section and click <label>Transfer Out</label>
 
-    ![Transfer out link](/files/dnsimple-domain-transfer-out.png)
+    ![Transfer out link](/files/domain-transfer-out-action.png)
 
     This will unlock the domain and email a transfer code to the domain registrant.
 
