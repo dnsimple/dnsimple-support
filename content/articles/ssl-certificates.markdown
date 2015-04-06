@@ -17,6 +17,12 @@ SSL (Secure Sockets Layer) is a security protocol designed to secure the communi
 
 We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
 
+<info>
+#### Getting started with SSL certificates
+
+Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article that will guide you through the entire process.
+</info>
+
 
 ## Supported Certificate Types
 
@@ -44,12 +50,6 @@ The name of the product is RapidSSL certificate.
 The wildcard certificate is a domain-validated certificate. It costs $100 per year and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
 
 The name of the product is Comodo EssentialSSL Wildcard certificate.
-
-<info>
-#### Getting started with SSL certificates
-
-Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article that will guide you through the entire process.
-</info>
 
 
 ## Manage SSL certificates
