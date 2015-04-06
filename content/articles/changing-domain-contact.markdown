@@ -37,7 +37,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 1.  Now that you have a new contact, go to your domain page.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Domain Page link](/files/dnsimple-domains-domain-link.png)
+    ![Domain Page link](/files/domains-domain-link.png)
 
 1.  On the card displaying the registration status of your domain, click on the <label>Change Contacts</label> link.
 

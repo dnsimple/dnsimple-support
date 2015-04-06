@@ -28,7 +28,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
-    ![Domain Page link](/files/dnsimple-domains-domain-link.png)
+    ![Domain Page link](/files/domains-domain-link.png)
 
 1.  Switch to the <label>DNS</label> tab.
 
