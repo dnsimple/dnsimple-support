@@ -6,9 +6,14 @@ categories:
 
 # SSL Certificates
 
-SSL (Secure Sockets Layer) is a security protocol designed to secure the communication between a server and a client, for example a web server and a browser.
+### Table of Contents {#toc}
 
-An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
+* TOC
+{:toc}
+
+---
+
+SSL (Secure Sockets Layer) is a security protocol designed to secure the communication between a server and a client, for example a web server and a browser. An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 
 We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
 
@@ -40,4 +45,27 @@ The wildcard certificate is a domain-validated certificate. It costs $100 per ye
 
 The name of the product is Comodo EssentialSSL Wildcard certificate.
 
+<info>
+#### Getting started with SSL certificates
 
+Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article that will guide you through the entire process.
+</info>
+
+
+## Manage SSL certificates
+
+You can purchase and manage SSL certificates from the your domain page. Go to the domain page and scroll down until you find the SSL certificate section.
+
+![SSL Certificate section]()
+
+If the domain is not in your DNSimple account because you just joined DNSimple or because it is registered elsewhere, it's not a problem: just [add the domain to your account](/articles/adding-domain/) and follow the same procedure.
+
+<div class="section-steps" markdown="1">
+##### To go to the SSL certificate section
+
+1.  Log into your DNSimple account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  Scroll down the page until you see the <label>SSL certificates</label> section
+</div>
+
+From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates/), [renew an existing SSL certificate](/articles/renewing-ssl-certificates/) or view and install the SSL certificate.
