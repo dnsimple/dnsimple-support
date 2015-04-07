@@ -1,5 +1,6 @@
 ---
 title: Changing domain contacts
+excerpt: How to change or update the contact assigned to a domain or part of its data.
 categories:
 - Domains
 ---
@@ -48,7 +49,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 
 
 
-## Changing an existing contact information
+## Updating a domain contact
 
 If you want to change an existing contact information, simply update the contact details and we will immediately update the registry data and the WHOIS record with the new information.
 
