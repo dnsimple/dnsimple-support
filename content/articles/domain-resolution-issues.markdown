@@ -78,7 +78,7 @@ ns1.thirdparty.com.
 ns2.thirdparty.com.
 ~~~
 
-This configuration may lead to random DNS resolution issue, especially if you are using DNS custom features such as ALIAS or URL records and/or the two DNS services are not in sync. 
+This configuration may lead to random DNS resolution issue, especially if you are using DNS custom features such as ALIAS or URL records and/or the two DNS services are not in sync.
 
 
 ## Check name server list in the WHOIS response
