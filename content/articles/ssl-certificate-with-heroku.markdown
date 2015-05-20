@@ -1,5 +1,6 @@
 ---
 title: Using an SSL Certificate with Heroku
+excerpt: How to install on Heroku a certificate purchased with DNSimple.
 categories:
 - Heroku and DNSimple
 ---
