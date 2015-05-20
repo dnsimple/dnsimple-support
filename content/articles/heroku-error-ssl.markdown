@@ -13,16 +13,16 @@ This article describes somes of the most common errors you may experience when i
 
 You pointed your domain to Heroku to use an SSL certificate but you are receiving an error such as _Troubleshooting Heroku SSL errors_, _Invalid common name_ or _The certificate for this website is invalid_.
 
-This error occurs because you are pointing the DNS to the generic `herokuapp.com` Heroku endpoint. Instead you need to **use the [custom SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) they provide to you**, generally ending with ``herokussl.com`.
+This error occurs because you are pointing the DNS to the generic `herokuapp.com` Heroku endpoint. Instead you need to **use the [custom SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) they provide to you**, generally ending with `herokussl.com`.
 
-```
+~~~
 ➜  ~  dig www.awesomeexample.com
 
 ;; ANSWER SECTION:
 www.awesomeexample.com.   771 IN  CNAME   awesomeexample.herokuapp.com.
 awesomeexample.herokuapp.com. 300    IN  CNAME   us-east-1-a.route.herokuapp.com.
 us-east-1-a.route.herokuapp.com. 54 IN  A   50.16.244.117
-```
+~~~
 
 Do not try to point to `proxy.herokuapp.com` as this will not work with a custom domain and SSL.
 
@@ -36,9 +36,9 @@ Here's a few possible variants of the error message, depending on the browser yo
 
 > ### Your connection is not private
 > 
-> Attackers might be trying to steal your information from www.google.com (for example, passwords, messages, or credit cards). ` NET::ERR_CERT_COMMON_NAME_INVALID`
+> Attackers might be trying to steal your information from www.alpha.com (for example, passwords, messages, or credit cards). `NET::ERR_CERT_COMMON_NAME_INVALID`
 > 
-> This server could not prove that it is **alpha.com**; its security certificate is from **bravo.com**. This may be caused by a misconfiguration or an attacker intercepting your connection.
+> This server could not prove that it is **www.alpha.com**; its security certificate is from **www.bravo.com**. This may be caused by a misconfiguration or an attacker intercepting your connection.
 
 ![](/files/heroku-ssl-error-commonname-chrome.png)
 
