@@ -17,10 +17,13 @@ To cancel your DNSimple subscription:
 
 1. Log in to your DNSimple account.
 1. Go to [your account page](https://dnsimple.com/account).
-1. Click on the <label>Subscription info</label> tab.
-1. Click on the red <label>Cancel Subscription</label> button at the bottom of the page:
+1. Scroll down until you see the <label>Cancel subscription</label> card.
 
-     ![Cancel subscription](/files/unsubscribe.jpg)
+     ![Cancel subscription card](/files/cancel-subscription-1.jpg)
 
-5. Confirm that you want to cancel your subscription by clicking on the <label>Yes, please cancel my subscription</label> button.
+1. Click on the red <label>Cancel subscription</label> button.
+1. Confirm that you want to cancel your subscription by typing your account's email address:
+
+     ![Confirm unsubscribe](/files/cancel-subscription-2.jpg)
+
 </div>
