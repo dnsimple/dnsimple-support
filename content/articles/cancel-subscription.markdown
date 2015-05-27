@@ -6,8 +6,6 @@ categories:
 
 # Cancel your subscription
 
-Cancelling your subscription will unsubscribe your account from the recurring subscription plan, without deleting the plan.
-
 After unsubscribing you will no longer be charged a monthly/yearly fee and your domains will no longer resolve with us. You may resubscribe at any time and your domains will resolve again.
 
 <info>
