@@ -62,6 +62,26 @@ When you enable the service the first time, the service cost will be charged on 
 
 </div>
 
+## Renew WHOIS Privacy
+
+While we will send an email reminder when the Whois Privacy Protection on a domain is due to expire soon, it's possible to renew it manually before that notice is sent. You may do so as follows:
+
+<div class="section-steps" markdown="1">
+1.  Log into your DNSimple account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+
+    ![Domain Page Link](/files/enable-whois-domain-page.jpg)
+
+1. Locate the *WHOIS Privacy* card. It will display information about whether the service is enabled.
+
+    ![WHOIS Privacy card](/files/renew-whois-privacy-card.jpg)
+
+1. Click on the <label>Renew Whois Privacy</label> link and you will be taken to a new page with the service pricing and details.
+1. To renew the WHOIS privacy service click on the <label>Renew Whois Privacy for 1 Year</label> button
+
+    ![Whois Privacy renewal page](/files/renew-whois-privacy-page.jpg)
+
+</div>
 
 ## Disable WHOIS privacy
 
