@@ -1,6 +1,6 @@
 ---
 title: Manage members on an account
-excerpt: How to add and remove members on a DNSimple account
+excerpt: How to add and remove members on a DNSimple account.
 categories:
 - Account
 ---

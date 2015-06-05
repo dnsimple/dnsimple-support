@@ -1,6 +1,6 @@
 ---
 title: Switching Accounts
-excerpt: How to switch which account is active while using DNSimple
+excerpt: How to switch which account is active while using DNSimple.
 categories:
 - Account
 ---

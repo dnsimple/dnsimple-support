@@ -1,6 +1,6 @@
 ---
 title: Securing your DNSimple Account
-excerpt: How to secure your DNSimple account
+excerpt: How to secure your DNSimple account.
 categories:
 - Account
 ---

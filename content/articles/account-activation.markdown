@@ -1,6 +1,6 @@
 ---
 title: Account Activation
-excerpt: How to activate your DNSimple account
+excerpt: How to activate your DNSimple account.
 categories:
 - Account
 ---

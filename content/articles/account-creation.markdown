@@ -1,6 +1,6 @@
 ---
 title: Account Creation
-excerpt: How to set up a DNSimple account
+excerpt: How to set up a DNSimple account.
 categories:
 - Account
 ---

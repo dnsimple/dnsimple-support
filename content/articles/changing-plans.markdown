@@ -1,5 +1,6 @@
 ---
 title: Changing your subscription plan
+excerpt: How to change the subscribed plan for a DNSimple account.
 categories:
 - Account
 ---
