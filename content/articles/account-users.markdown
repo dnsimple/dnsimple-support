@@ -18,15 +18,15 @@ categories:
 In order to have multiple members on a single account, you must first [be subscribed to an eligible plan](https://dnsimple.com/pricing) for that account.
 </note>
 
-A DNSimple account can be associated to one or more users. When you add an user to an account, the new member will have full access rights on every resource attached to the account, including domains, contacts, SSL certificates, etc.
+A DNSimple account can be associated to one or more users. When you add a user to an account, the new member will have full access rights on every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
-The member will also have full-admin access to the account, including the ability to access and change billing information and account details. However, the user will retain his login credentials and 2-factor authentication configuration.
+The member will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain his login credentials and 2-factor authentication configuration.
 
 
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, you should visit the account page by clicking the name of the account in the dropdown menu.
+1. Once you've subscribed to an eligible plan, visit the account page by clicking the name of the account in the dropdown menu.
 
     ![Visit settings for selected account](/files/account-switcher-2.jpg)
 
@@ -42,7 +42,7 @@ The member will also have full-admin access to the account, including the abilit
 
     ![Add a new member form](/files/add-member-screen.jpg)
 
-1. Congratulations! You've added another member to your account!
+1. Congratulations, you've added another member to your account!
 
     ![Member added](/files/add-member-added-members-screen.jpg)
 
@@ -63,7 +63,7 @@ The member will also have full-admin access to the account, including the abilit
 
     ![Press the Remove button](/files/remove-member-button.jpg)
 
-1. The member should no longer show on the members tab once they have been removed from the account.
+1. The member should no longer show on the members tab once they are removed from the account.
 
     ![Member removed](/files/remove-member-removed.jpg)
 
