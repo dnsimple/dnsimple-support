@@ -22,7 +22,7 @@ DNSimple allows an user to be associated with multiple accounts. This may happen
 Managing multiple account is a flexible way to access different level of service and share domain management with other users.
 
 
-# Creating a separate account #{creating}
+## Creating a separate account #{creating}
 
 If you would like to add another account to your user profile, you should take the following steps.
 
