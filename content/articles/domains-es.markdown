@@ -16,7 +16,7 @@ This article explains the requirements for .ES domain names.
 
 ## Renewing a .ES domain
 
-ES domains do not follow the same renewal procedures as normal TLDs like .com, .net, and .org. ES domains must have auto-renewal enabled at least 30 days prior to expiration. This is because ES domains do not have a typical redemption period as other popular TLDs mentioned before, they begin the deletion process a few days before expiration.
+ES domains do not follow the same renewal procedures as TLDs like .com, .net, and .org. ES domains must have auto-renewal enabled at least 30 days prior to expiration. This is because ES domains do not have a typical redemption period as other popular TLDs mentioned before, they begin the deletion process a few days before expiration.
 
 If your domain is in this redemption period, it will need to be manually renewed by support for a substantial fee imposed by the registry. As soon as the expiration date happens and it is not renewed, the domain is immediately deleted and made available for registration again.
 
