@@ -3,6 +3,7 @@ title: Disabling Expiration Notifications
 categories:
 - Domains
 ---
+
 # Disabling Expiration Notifications
 
 Provided you have disabled auto-renewal on the domain you hope to let expire, you can simply click the <label>Disable Expiration Notifications</label> button which appears on the card showing registration status of your domain management page of non-auto-renewing domains.
