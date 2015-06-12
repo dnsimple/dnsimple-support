@@ -99,5 +99,6 @@ There are a few cases where you want to turn the DNS hosting off for a domain:
 
 When you disable a domain, the domain will not longer count against the number of active zones in your subscription fee. Therefore, if you have 20 domains in your account but only 15 have the DNS hosting feature enabled, we will only bill you for 15 domains.
 
+You can check the number of domains with active DNS hosting at any time in the account page.
 
-
+![](/files/account-domains-with-dns.png)
