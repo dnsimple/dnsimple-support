@@ -48,6 +48,10 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 
 You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
+<note>
+This feature is available to [all new plans](http://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/): Personal, Professional and Business. The feature is not available on older plans such as Bronze, Silver, Gold or Platinum.
+</note>
+
 <div class="section-steps" markdown="1">
 ##### To enable the DNS hosting
 
@@ -94,4 +98,6 @@ There are a few cases where you want to turn the DNS hosting off for a domain:
 - You wanted to register a domain with us, but you are not actively using the domain (e.g the domain is just reserved for future uses or parked)
 
 When you disable a domain, the domain will not longer count against the number of active zones in your subscription fee. Therefore, if you have 20 domains in your account but only 15 have the DNS hosting feature enabled, we will only bill you for 15 domains.
+
+
 
