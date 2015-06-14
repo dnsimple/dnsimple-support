@@ -23,7 +23,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 1.  **Keep the domain registration at your current registrar and just transfer the DNS management to us.**
 
-    If you simply want to use DNSimple to host your DNS for a domain, then follow these instructions to [point your doman to our name servers](/articles/delegating-dnsimple-hosted/).
+    If you simply want to use DNSimple to host your DNS for a domain, then follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
 
 1.  **Transfer the domain registration and DNS management to us.**
 
@@ -49,7 +49,7 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
 <note>
-This feature is available to [all new plans](http://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/): Personal, Professional and Business. The feature is not available on older plans such as Bronze, Silver, Gold or Platinum.
+This feature is available to [all new plans](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/): Personal, Professional and Business. The feature is not available on older plans such as Bronze, Silver, Gold or Platinum.
 </note>
 
 <div class="section-steps" markdown="1">
@@ -61,13 +61,13 @@ This feature is available to [all new plans](http://blog.dnsimple.com/2015/06/mu
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Search the <label>DNS Hosting</label> card and follow the instructions to Enable the DNS hosting.
+1.  Find the <label>DNS Hosting</label> card and follow the instructions to Enable the DNS hosting.
 
     ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
 
 </div>
 
-Each new domain added to an account has DNS hosting enabled by default, regardless you register/transfer the domain or you simply add it. 
+Each new domain added to an account has DNS hosting enabled by default, regardless if you register/transfer the domain or you simply add it.
 
 <div class="section-steps" markdown="1">
 ##### To disable the DNS hosting
@@ -78,24 +78,24 @@ Each new domain added to an account has DNS hosting enabled by default, regardle
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Search the <label>DNS Hosting</label> card and follow the instructions to Enable the DNS hosting.
+1.  Find the <label>DNS Hosting</label> card and follow the instructions to Disable the DNS hosting.
 
     ![Disable DNS hosting](/files/domain-dns-hosting-disable.png)
 
 </div>
 
-Disabling the DNS hosting for a domain will cause the domain to immediately stop resolving, regardless the domain is registered or just hosted with us.
+If a domain is delegated to our name servers, then disabling the DNS hosting for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
 If the domain is registered with us but delegated to another DNS provider, disabling the DNS hosting will not change the delegation. The domain will continue to resolve with the other DNS provider.
 
 
 ## Use cases
 
-There are a few cases where you want to turn the DNS hosting off for a domain:
+There are a few cases where you may want to turn the DNS hosting off for a domain:
 
-- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it is not resolving with DNSimople
+- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it is not resolving with DNSimple
 - You wanted to register a domain with us, but you will be using a different DNS hosting provider
-- You wanted to register a domain with us, but you are not actively using the domain (e.g the domain is just reserved for future uses or parked)
+- You wanted to register a domain with us, but you are not actively using the domain (e.g the domain is just reserved for future use or parked)
 
 When you disable a domain, the domain will not longer count against the number of active zones in your subscription fee. Therefore, if you have 20 domains in your account but only 15 have the DNS hosting feature enabled, we will only bill you for 15 domains.
 
