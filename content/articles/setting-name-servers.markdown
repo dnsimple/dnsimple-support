@@ -32,7 +32,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 1.  Switch to the <label>DNS</label> tab.
 
-    ![Domain DNS tab link](/files/dnsimple-domain-tab-dns-link.png)
+    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
 1.  On the <label>Name severs</label> card, click <label>Change name servers</label>.
 
