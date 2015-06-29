@@ -15,9 +15,12 @@ You should not delete an active domain registered or resolved with DNSimple.
 
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
-1.  On the tabs to the left, click <label>Admin</label>.
+1.  On the tabs to the left, click <label>Settings</label>.
+
     ![Admin tab](/files/admin-tab.jpg)
+
 1.  Scroll to the bottom of the page and click <label>Delete Domain</label>.
+
     ![Delete domain](/files/delete-domain.jpg)
 
 </div>
