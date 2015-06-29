@@ -9,7 +9,7 @@ categories:
 
 If you would like to use our name servers but have them appear as though they were your name servers you may use the vanity name server functionality to accomplish this.
 
-To request access to vanity name servers, please contact support@dnsimple.com.
+Vanity name servers are only available on [our business tier](https://dnsimple.com/pricing).
 
 Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers) for the IPv4 and IPv6 addresses required for your vanity name servers.
 
