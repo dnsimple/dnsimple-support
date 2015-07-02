@@ -1,10 +1,10 @@
 ---
-title: Close Your User Account
+title: Closing Your User Account
 categories:
 - Account
 ---
 
-# Close Your User Account
+# Closing Your User Account
 
 Closing your account will permanently delete your DNSimple user account and permanently delete all your domains, records and all associated information.
 
