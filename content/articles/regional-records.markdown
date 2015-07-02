@@ -1,3 +1,10 @@
+---
+title: Regional records
+excerpt: Select geographical regions where you want a record to appear.
+categories:
+- DNS
+---
+
 # Regional records
 
 Regional records lets you select geographical regions where you want a record to appear.
