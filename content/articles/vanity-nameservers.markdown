@@ -2,7 +2,7 @@
 title: Vanity Name Servers
 excerpt: 
 categories:
-- Advanced DNS
+- Name Servers
 ---
 
 # Vanity Name Servers
