@@ -1,13 +1,13 @@
 ---
 title: Account Security
-excerpt: Some simple rules to follow to help make your DNSimple account more secure.
+excerpt: Some simple rules to follow to make your DNSimple account more secure.
 categories:
 - Account
 ---
 
 # Securing your DNSimple Account
 
-Here are some simple rules to follow to help make your DNSimple account more secure:
+Here are some simple rules to follow to make your DNSimple account more secure:
 
 - Use a password for your account that includes letters, numbers and punctuation characters. You can even use multiple words and made up phrases.
 - Use a long password (16 characters or more).
