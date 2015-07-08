@@ -150,3 +150,9 @@ The migration is very straighforward. Go to your user page, scroll down until yo
 <note>
 The Authy authenticator app is currently designed to support both Authy and standard two-factor implementation. Therefore, if you want to keep using the Authy app, simply scan the barcode from the Authy app and use it to generate the verification code. Please note it will not be possible to use the previously configured Authy-based profile with the new two-factor system unless you scan the new barcode with the Authy app.
 </note>
+
+## Best Practices for Two-Factor Authentication
+
+For two-factor authentication to work properly, you must keep your token generator and your primary user credentials separate. This means, for example, that if you use your mobile device as your token generator then you should not have your primary user credentials on your mobile device, otherwise you lose the benefit of a true second factor in authentication.
+
+If you decide to use your mobile device as both your token generator and for accessing your DNSimple user account, then you still get the added benefit of a one-time password for log in should your credentials be compromised, but you will not benefit from true two-factor authentication. Ultimately it is up to you to decide what level of security is important for you and your accounts.
