@@ -9,4 +9,4 @@ categories:
 
 At the time being, **we don't support elliptic curve keys**. Therefore, if you submit a custom CSR signed with an ECC key it will be rejected by our CA with an error message mentioning the key is too short.
 
-We are aware of the advantages of ECC certificates and we don't exclude to support them in the future.
+We are aware of the advantages of ECC certificates and we hope to support them in the future.
