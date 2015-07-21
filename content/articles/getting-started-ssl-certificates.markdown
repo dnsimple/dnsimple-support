@@ -52,7 +52,7 @@ If you use a custom CSR, be sure you have stored the private key safely as it is
 [Select the SSL certificate email approver](/articles/selecting-ssl-certificates-email/) and submit your certificate for validation.
 
 <warning>
-The approver email must be a valid recipient, an email will be sent to validate the certificate. [Learn more about email validation](/articles/ssl-certificates-email-approval/).
+The approver email must be a valid recipient, an email will be sent to validate the certificate. [Learn more about email validation](/articles/ssl-certificates-email-validation/).
 </warning>
 
 ## Approving the SSL certificate {#approve}

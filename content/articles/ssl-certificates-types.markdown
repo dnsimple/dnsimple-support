@@ -19,7 +19,7 @@ The validation level determines the method adopted by the Certificate Authority 
 
 The Domain Validated SSL Certificate validates the domain is registered and someone with admin rights is aware of and approves the certificate request.
 
-The validation process is normally performed [via email](/articles/ssl-certificates-email-approval) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain.
+The validation process is normally performed [via email](/articles/ssl-certificates-email-validation) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain.
 
 The order normally takes from a few minutes to a few hours.
 

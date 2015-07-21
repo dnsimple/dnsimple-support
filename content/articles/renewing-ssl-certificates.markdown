@@ -51,7 +51,7 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 
 Once the order is submitted, you will have to go through the same process for configuring, verifying and installing the certificate as you would with any new SSL purchase. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
 
-You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-approval) again, since a new certificate will be issued.
+You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation) again, since a new certificate will be issued.
 
 <warning>
 **If you don't verify the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.

@@ -31,7 +31,7 @@ We currently provide:
 - Single-name SSL certificates
 - Wildcard SSL certificates
 
-The above certificate types are are [domain-validated](/articles/ssl-certificates-email-approval).
+The above certificate types are are [domain-validated](/articles/ssl-certificates-email-validation).
 
 <note>
 #### Organization Validated and Extended Validation certificates
