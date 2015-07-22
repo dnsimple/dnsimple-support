@@ -6,6 +6,7 @@ categories:
 redirect_from:
   - /articles/ssl-certificates-email-approval/
   - /articles/selecting-ssl-certificates-email/
+  - /articles/resending-ssl-certificates-email/
 ---
 
 # SSL Certificate Email-based Domain Validation
@@ -54,7 +55,7 @@ Alternatively, **the approval email can be sent to a different email address onl
 Some registries, such as the .IO, do not disclose registrant email therefore it's not possible to select the registrant email for a certificate purchased for one of these TLDs.
 </note>
 
-## Email validation and Whois Privacy {#whois-privacy}
+## Email validation and WHOIS privacy {#whois-privacy}
 
 <warning>
 [Whois Privacy Protection services](/articles/what-is-whois-privacy/) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
@@ -68,12 +69,12 @@ If the whois privacy is enabled for the domain associated with the certificate, 
 Once you disabled the whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information. [Contact us](https://dnsimple.com/contact) and provide the certificate name if you want to speed up the update.
 </note>
 
-## Select a Validation Email {#select-email}
+## Select a validation email {#select-email}
 
 You select the validation email when you purchase the certificate, which is based upon the constraints documented above.
 
 <div class="section-steps" markdown="1">
-##### To select an approver email
+##### To select a validation email
 
 1.  Read the list of all available approver emails.
 
@@ -86,7 +87,7 @@ You select the validation email when you purchase the certificate, which is base
 If the approver is not in this list or you need time to configure one of those emails, you can also close this page and come back later.
 
 <div class="section-steps" markdown="1">
-##### To select an approver email for a previously purchased certificate
+##### To select a validation email for a previously purchased certificate
 
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
@@ -104,4 +105,26 @@ If the approver is not in this list or you need time to configure one of those e
 
 1.  Choose the email address you want to use by clicking on it.
 1.  Click <label>Send Approver Email</label> to configure and submit the certificate for validation.
+</div>
+
+## Resend a validation email {#resend-email}
+
+If you haven't received the validation email, for example because the email configuration was incorrect at the time of the submission, you can request the email to be resent.
+
+<div class="section-steps" markdown="1">
+##### To resend the validation email
+
+1.  Log into your DNSimple account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
+
+    ![](/files/dnsimple-ssl-pagelink-submitted.png)
+
+1. At the page, on the status line, look for the link to resend the approval email.
+
+    ![](/files/dnsimple-ssl-resend-approval-link.png)
+
+    If the link is not present, it means the certificate is in a status where the email cannot be resent (e.g. a not submitted or expired certificate).
+
+1.  Click the link and follow the procedure described in the page.
 </div>
