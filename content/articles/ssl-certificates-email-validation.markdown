@@ -7,6 +7,7 @@ redirect_from:
   - /articles/ssl-certificates-email-approval/
   - /articles/selecting-ssl-certificates-email/
   - /articles/resending-ssl-certificates-email/
+  - /articles/changing-ssl-certificates-email/
 ---
 
 # SSL Certificate Email-based Domain Validation
