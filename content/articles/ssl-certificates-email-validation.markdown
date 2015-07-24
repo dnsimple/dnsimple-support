@@ -19,11 +19,11 @@ redirect_from:
 
 ---
 
-The **email-based certificate validation** is the most common certificate validation mechanism used by Certification Authorities in case of [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level).
+**Email-based certificate validation** is the most common certificate validation mechanism used by Certificate Authorities in case of [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level).
 
-The goal of the validation is to verify the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
+The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 
-The email validation is a mandatory step performed by the Certification Authority based only on publicly accessible information.
+The validation email is a mandatory step performed by the Certification Authority based only on publicly accessible information.
 
 ## The process
 
@@ -32,7 +32,7 @@ The email validation process consists of three steps:
 1. When you purchase a certificate, we show you a list of authoritative emails identified by the Certificate Authority for the domain associated with the certificate
 1. You select an email from the list.
 1. The [Certificate Authority](/articles/what-is-certificate-authority/) sends a verification email (also called DCV email) to the recipient with an unique link to approve the certificate and validate your domain ownership.
-1. **You click on the link to validate and approve the certificate**. At this point, the certificate authenticity is validated and the authority will generate it.
+1. **You click on the link to validate and approve the certificate**. At this point, the certificate's authenticity is validated and the authority will generate it.
 
 ## Email requirements {#requirements}
 
@@ -63,7 +63,7 @@ If the whois privacy is enabled for the domain associated with the certificate, 
 [Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
 
 <note>
-Once you disabled the whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information. [Contact us](https://dnsimple.com/contact) and provide the certificate name if you want to speed up the update.
+Once you disable whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information. [Contact us](https://dnsimple.com/contact) and provide the certificate name if you want to speed up the update.
 </note>
 
 ## Select the validation email address {#select-email}
