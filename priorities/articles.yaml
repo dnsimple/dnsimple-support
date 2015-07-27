@@ -37,15 +37,12 @@
 - /articles/ssl-certificates/
 - /articles/ssl-certificates-types/
 - /articles/sha-2-ssl-certificates/
-- /articles/ssl-certificates-email-approval/
+- /articles/ssl-certificates-email-validation/
 - /articles/getting-started-ssl-certificates/
 - /articles/ssl-certificate-hostname/
 - /articles/purchasing-ssl-certificates/
 - /articles/renewing-ssl-certificates/
 - /articles/reissuing-ssl-certificates/
-- /articles/changing-ssl-certificates-email/
-- /articles/selecting-ssl-certificates-email/
-- /articles/resending-ssl-certificates-email/
 - /articles/email-forwarding/
 - /articles/email-hosting/
 - /articles/api-documentation/

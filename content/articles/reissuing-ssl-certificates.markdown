@@ -64,7 +64,7 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 
 ## Approving the SSL certificate re-issue
 
-Once the certificate re-issue is requested, we will forward the information to the certificate authority. The certificate authority will then send you a link to [validate the certificate](/articles/ssl-certificates-email-approval/), as it happened for the original certificate purchase.
+Once the certificate re-issue is requested, we will forward the information to the certificate authority. The certificate authority will then send you a link to [validate the certificate](/articles/ssl-certificates-email-validation/), as it happened for the original certificate purchase.
 
 <warning>
 #### Remember to approve the certificate reissue!

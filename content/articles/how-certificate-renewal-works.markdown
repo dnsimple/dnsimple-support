@@ -14,7 +14,7 @@ However, to keep things simple, DNSimple provides a certificate renewal interfac
 We call it *renewal*, however an SSL certificate renewal is effectively a new SSL certificate purchase.
 
 <note>
-When you renew a certificate, you will need to go through the [certificate approval process](/articles/ssl-certificates-email-approval) again since a new certificate will be issued.
+When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation/) again since a new certificate will be issued.
 
 The brand new certificate must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 </note>
