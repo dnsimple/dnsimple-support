@@ -27,7 +27,7 @@ The validation email is a mandatory step performed by the Certification Authorit
 
 ## The process
 
-The email validation process consists of three steps:
+The email validation process consists of a few steps:
 
 1. When you purchase a certificate, we show you a list of authoritative emails identified by the Certificate Authority for the domain associated with the certificate
 1. You select an email from the list.
