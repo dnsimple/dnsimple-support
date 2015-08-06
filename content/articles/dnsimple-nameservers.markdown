@@ -45,7 +45,7 @@ If you need to provide the IP addresses to your current registrar you may use th
 </tr>
 <tr>
 <td>ns4.dnsimple.com</td>
-<td>50.31.243.53</td>
-<td>2620:111:8003::53</td>
+<td>162.159.27.4</td>
+<td>2400:cb00:2049:1::a29f:1b04</td>
 </tr>
 </table>
