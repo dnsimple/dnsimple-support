@@ -143,9 +143,7 @@ The Authy authentication workflow is quite standard and similar to any other tim
 - Authy doesn't expose the authentication secret publicly. There is no barcode to scan or secret code to copy, therefore it's only possible to generate a verification code using the Authy authenticator app or requesting a code via SMS.
 - Authy requires a mobile phone when activating the two-factor protection. The user is identified by the mobile phone.
 
-DNSimple will eventually discontinue the support for the Authy two-factor platform, therefore you are strongly encouraged to migrate your user profile from Authy to the new TOTP platform.
-
-The migration is very straighforward. Go to your user page, scroll down until you see the <label>Two-factor authentication</label> section and disable the existing Authy-based two-factor authentication. Once disabled, from the same section, follow the procedure to enable the two-factor authentication again. The system will automatically switch to the new TOTP implementation.
+DNSimple will eventually discontinue the support for the Authy two-factor platform, therefore the next time you log in, you will be prompted to migrate your two-factor authentication to our new system. Simply click the button at the bottom of the page when you next authenticate and follow the procedure presented to you for disabling Authy and enabling the new system.
 
 <note>
 The Authy authenticator app is currently designed to support both Authy and standard two-factor implementation. Therefore, if you want to keep using the Authy app, simply scan the barcode from the Authy app and use it to generate the verification code. Please note it will not be possible to use the previously configured Authy-based profile with the new two-factor system unless you scan the new barcode with the Authy app.
