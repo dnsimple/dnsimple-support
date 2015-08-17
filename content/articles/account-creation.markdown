@@ -24,4 +24,4 @@ You will not be able to register a new domain, nor will your domains resolve, un
 
 ## Existing user account
 
-DNSimple allows a user to manage multiple accounts. If you have already signed up for DNSimple, but would like to add another account to your user profile, [follow these steps](/articles/account-multi#creating).
+DNSimple allows a user to manage multiple accounts. If you have already signed up for DNSimple, but would like to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
