@@ -9,4 +9,4 @@ categories:
 
 No. It's currently not possible to upgrade a single-hostname SSL certificate to a wildcard certificate, even if they are issued by the same Certificate Authority.
 
-However, if the single-hostname SSL certificate was purchased within 30 days we can refund the order so that you will not have to pay for two different certificates.
+However, if you decide a wildcard SSL certificate better fits your needs within 30 days of purchasing a single-hostname SSL certificate, we can refund your initial order so you are only charged for the wildcard.
