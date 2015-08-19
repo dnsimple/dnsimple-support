@@ -41,15 +41,15 @@ We currently don't provide organization-validated and extended-validation certif
 
 ### Single-name SSL certificates
 
-The single-name certificate is a domain-validated certificate. It costs $20 per year and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname/).
+The single-name certificate is a **domain-validated certificate**. It costs **$20 per year** and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname/).
 
-The name of the product is RapidSSL certificate.
+The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL certificate.
 
 ### Wildcard SSL certificates
 
-The wildcard certificate is a domain-validated certificate. It costs $100 per year and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
+The wildcard certificate is a **domain-validated certificate**. It costs **$100 per year** and covers all [single-level subdomains](/articles/ssl-certificate-hostname/) as well as the root domain.
 
-The name of the product is Comodo EssentialSSL Wildcard certificate.
+The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL Wildcard certificate.
 
 
 ## Manage SSL certificates
