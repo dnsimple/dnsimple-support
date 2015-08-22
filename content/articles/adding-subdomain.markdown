@@ -1,6 +1,6 @@
 ---
 title: Adding a Subdomain
-excerpt: Welcome to DNSimple. This page is about adding a subdomain. Hosted DNS has never been this easy.
+excerpt: How to add a subdomain to a DNSimple account.
 categories:
 - Domains
 ---
@@ -21,12 +21,11 @@ A subdomain is, technically speaking, a DNS record for a hostname that belongs t
 1.  and click <label>Add or edit custom records</label> under the list of current records.
 
     ![Custom Records](/files/example-domain-dns.jpg)
-    
-    That will take you the advanced editor and you may add the records for the subdomain there. 
-    
+
+    That will take you the advanced editor and you may add the records for the subdomain there.
+
 1.  To add a subdomain, just fill in the subdomain in the Name field. For example, "www" would be the subdomain "www.example.com".
 
     ![Add Record](/files/add-a-record.jpg)
 
 </div>
-
