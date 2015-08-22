@@ -1,5 +1,6 @@
 ---
 title: Closing Your User Account
+excerpt: How to permanently close your DNSimple user account.
 categories:
 - Account
 ---
