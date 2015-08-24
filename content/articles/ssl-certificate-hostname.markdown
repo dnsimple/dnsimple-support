@@ -1,5 +1,6 @@
 ---
 title: Choosing the SSL Certificate Common Name
+excerpt: Guidelines and information for selecting the SSL certificate common name.
 categories:
 - SSL Certificates
 ---

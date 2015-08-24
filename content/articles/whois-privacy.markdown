@@ -1,5 +1,6 @@
 ---
 title: WHOIS Privacy Protection
+excerpt: How to enable and disable the WHOIS privacy for a domain.
 categories:
 - Whois Privacy
 ---

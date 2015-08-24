@@ -1,5 +1,6 @@
 ---
 title: How long does it take to issue an SSL certificate?
+excerpt: The time frame required to issue a new SSL certificate depends on many factors.
 categories:
 - SSL Certificates
 ---

@@ -1,5 +1,6 @@
 ---
 title: Re-issuing an SSL Certificate
+excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
 categories:
 - SSL Certificates
 ---
@@ -96,4 +97,3 @@ At that point you will be taken back to the certificate page and you will be abl
 ![reissue confirmation](/files/private-key-2.jpg)
 
 Your previous private key will be permanently removed at this point.
-

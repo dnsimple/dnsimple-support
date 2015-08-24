@@ -1,5 +1,6 @@
 ---
 title: How do I determine the Certificate Authority that signed my SSL certificate?
+excerpt: How to determine the Certificate Authority that signed an SSL certificate.
 categories:
 - SSL Certificates
 ---
