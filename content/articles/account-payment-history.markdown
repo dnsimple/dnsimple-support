@@ -14,7 +14,7 @@ categories:
 
 ---
 
-It is possible to view your payment history and retry failed invoices manually in DNSimple
+It is possible to view your payment history and retry failed invoices manually in DNSimple.
 
 ## View Account Payment History {#viewing}
 
@@ -29,6 +29,8 @@ It is possible to view your payment history and retry failed invoices manually i
 </div>
 
 ## Retry Failed Payments {#retrying}
+
+While our system occasionally retries failed invoices automatically, it may make sense for you to manually retry your own invoices. The steps are as follows.
 
 <div class="section-steps" markdown="1">
 ##### To retry a failed invoice
