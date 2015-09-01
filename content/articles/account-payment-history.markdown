@@ -50,7 +50,11 @@ While the invoice is in this state you won't be able to make other purchases. No
 
 Depending of your plan your subscription will be renewed every month or every year. When that happens we attempt to collect the payment and if it fails the invoice will be marked as `dunned`.
 
-A `dunned` invoice will be retried every day and you will get notified via email on every attempt. If we are unable to collect the payment after a certain period of time your account will be cancelled.
+A `dunned` invoice will be retried every day and you will get notified via email on every attempt.
+
+<warning>
+If we are unable to collect the payment after a certain period of time your account will be cancelled and all the domains within the account will stop resolving immediately.
+</warning>
 
 ### `needs_review` {#invoice-state-needs-review}
 
