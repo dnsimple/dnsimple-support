@@ -1,5 +1,6 @@
 ---
 title: SSL Certificates
+excerpt: Information about purchasing and managing an SSL certificate with DNSimple.
 categories:
 - SSL Certificates
 ---
