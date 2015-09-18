@@ -38,7 +38,7 @@ These are the steps required in order to successfully secure your website with a
 If you are looking to renew an existing certificate, read the renewing article. For more details about the configuration, approval and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article or follow the instructions on the site after you purchase the SSL certificate order.
 
 
-## Purchasing an SSL certificate #{order}
+## Purchasing an SSL certificate {#order}
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
 
