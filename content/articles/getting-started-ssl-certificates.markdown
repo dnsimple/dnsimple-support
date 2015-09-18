@@ -66,6 +66,7 @@ Click on the link to approve and issue the certificate.
 [It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
 </note>
 
+
 ## Downloading the SSL certificate {#download}
 
 Once the SSL certificate is issued, you will be able to download it from the certificate page in your DNSimple account, along with the primary key (if we created the CSR for you) and the intermediate SSL certificate bundle.
@@ -86,14 +87,17 @@ You may also receive an email from the certificate authority with the certificat
 </div>
 
 
-## Installing the SSL certificate #{install}
+## Installing the SSL certificate {#install}
 
-Install the certificate and private key on your server. Each software package (web, email server, etc.) may have a unique method to install them.
+To install the certificate click on the <label>install the SSL certificate</label> link on the certificate page and follow the instructions.
 
-Please see these certificate authority installation instructions for various packages:
+![Install SSL certificate](/files/ssl-certificate-install-link.png)
 
-- [RapidSSL](https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&id=SO16226&actp=LIST&viewlocale=en_US)
-- [Comodo](https://support.comodo.com/index.php?_m=knowledgebase&_a=view&parentcategoryid=95&pcid=1&nav=0,96,1)
+We provide step-by-step instructions for several web servers and services.
+
+![SSL certificate installation page](/files/ssl-certificate-installation-page.png)
+
+If the service or the web server you want to use is not listed in the page, simply click <label>other</label> to access the SSL certificate, intermediate chain and primary key files, and follow the service/software vendor instructions to install the certificate.
 
 You may also find the following guides useful:
 
