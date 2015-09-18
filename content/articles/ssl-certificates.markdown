@@ -57,7 +57,7 @@ The certificate is issued by Comodo, the name of the product is Comodo Essential
 
 You can purchase and manage SSL certificates from the your domain page. Go to the domain page and scroll down until you find the SSL certificate section.
 
-![SSL Certificate section](/files/domain-certificates-section.png)
+![SSL Certificate section](/files/domain-ssl-certificates-section.png)
 
 If the domain is not in your DNSimple account because you just joined DNSimple or because it is registered elsewhere, it's not a problem: just [add the domain to your account](/articles/adding-domain/) and follow the same procedure.
 
@@ -66,7 +66,7 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
-1.  Scroll down the page until you see the <label>SSL certificates</label> section
+1.  Scroll down the page until you see the <label>SSL certificates</label> section.
 </div>
 
 From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates/), [renew an existing SSL certificate](/articles/renewing-ssl-certificates/) or view and install the SSL certificate.
