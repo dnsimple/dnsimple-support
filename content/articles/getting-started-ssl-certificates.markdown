@@ -24,7 +24,7 @@ Getting a new SSL certificate is a multi-step process and involves several parti
 In general, issuing a new SSL certificate can take from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 </note>
 
-## Reviewing the SSL certificate requirements {#review}
+## SSL certificate requirements {#requirements}
 
 Before starting, take a moment to review how you will use the certificate and be sure to have access to the server configuration or a feature to install a custom certificate on your server.
 
