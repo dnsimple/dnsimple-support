@@ -1,6 +1,6 @@
 ---
 title: Renewing an SSL Certificate
-excerpt: Welcome to DNSimple. This page is about renewing SSL certificates. Hosted DNS has never been this easy.
+excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
 categories:
 - SSL Certificates
 ---
@@ -18,7 +18,18 @@ DNSimple provides an SSL certificate renewal interface you can use to purchase a
 
 All DNSimple SSL certificates, including renewals, are valid for one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
-## Renewing an SSL certificate
+
+# Steps
+
+These are the steps required in order to successfully renew an existing SSL certificate:
+
+1. [Purchase the SSL certificate renewal](#order)
+1. Configure and submit the new SSL certificate
+1. Validate and approve the new SSL certificate
+1. Download the new SSL certificate and **replace the existing certificate on the server**
+
+
+## Renewing an SSL certificate #{order}
 
 <note>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
@@ -47,9 +58,12 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 
 </div>
 
-## Finalizing the SSL certificate renewal
 
-Once the order is submitted, you will have to go through the same process for configuring, verifying and installing the certificate as you would with any new SSL purchase. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+## What's next?
+
+Once you purchased the certificate renewal, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
+
+These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
 
 You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation/) again, since a new certificate will be issued.
 
@@ -59,6 +73,7 @@ You will need to [verify the SSL certificate order](/articles/ssl-certificates-e
 
 You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
 
+
 ## Comodo certificates
 
 Comodo SSL certificate will not be extended, therefore you should purchase your new certificate close to your old certificate expiration date, but with enough time for the certificate to be issued.
@@ -66,6 +81,7 @@ Comodo SSL certificate will not be extended, therefore you should purchase your 
 <note>
 We recommend to renew the certificate no late than 1 week before expiration.
 </note>
+
 
 ## RapidSSL certificates
 
@@ -82,7 +98,7 @@ This extension will be from the new certificate purchase date.
 We no longer sell RapidSSL certificates. If you purchased the renewal for a single-hostname certificate before September 11th, 2014 then you may be entitled for the extension. In this case, the extension will be granted automatically. [Contact us](https://dnsimple.com/contact) if you have any questions.
 </note>
 
+
 ## Heroku
 
 If you are using your certificate on Heroku then you may find [this article](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) helpful when preparing and deploying your newly issued certificate.
-

@@ -1,6 +1,6 @@
 ---
 title: Purchasing an SSL Certificate
-excerpt: How to purchase an SSL certificate for a domain.
+excerpt: Instructions to purchase an SSL certificate for a domain with DNSimple.
 categories:
 - SSL Certificates
 ---
@@ -26,7 +26,19 @@ To purchase an SSL certificate you need a DNSimple account. In order to finalize
 **You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar.
 
 
-## Purchasing an SSL certificate
+# Steps
+
+These are the steps required in order to successfully secure your website with an SSL certificate:
+
+1. [Purchase the SSL certificate](#order)
+1. Configure and submit the SSL certificate
+1. Validate and approve the SSL certificate
+1. Download and install the SSL certificate
+
+If you are looking to renew an existing certificate, read the renewing article. For more details about the configuration, approval and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article or follow the instructions on the site after you purchase the SSL certificate order.
+
+
+## Purchasing an SSL certificate #{order}
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
 
@@ -51,6 +63,9 @@ The purchase is the first step into getting an SSL certificate. It will create a
 
 </div>
 
-## Finalizing the SSL certificate purchase
 
-Once the order is submitted, you will have to go through the process if configuring, verifying and installing the certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+## What's next?
+
+Once you purchased the certificate, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
+
+See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
