@@ -66,9 +66,27 @@ Click on the link to approve and issue the certificate.
 [It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
 </note>
 
-## Installing the SSL certificate {#install}
+## Downloading the SSL certificate {#download}
 
-Once the SSL certificate is issued, you will receive an email from the certificate authority with the certificate. You can also download it from your DNSimple control panel.
+Once the SSL certificate is issued, you will be able to download it from the certificate page in your DNSimple account, along with the primary key (if we created the CSR for you) and the intermediate SSL certificate bundle.
+
+![SSL certificate page](/files/ssl-certificate-page.png)
+
+You may also receive an email from the certificate authority with the certificate, however we suggest you to download the files from your DNSimple account as we provide some extra tools to easily package and convert your SSL certificate in a number of formats.
+
+<div class="section-steps" markdown="1">
+##### To go to the SSL certificate page
+
+1.  Log into your DNSimple account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  Scroll down the page until you see the <label>SSL certificates</label> section and click on the relevant certificate.
+
+    ![SSL certificate page link](/files/domain-view-ssl-certificate-link.png)
+
+</div>
+
+
+## Installing the SSL certificate #{install}
 
 Install the certificate and private key on your server. Each software package (web, email server, etc.) may have a unique method to install them.
 
