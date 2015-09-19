@@ -115,14 +115,14 @@ Before proceeding, **take a moment to read the information at the beginning of t
 
 Here's some possible solutions:
 
-1. Temporarily configure one of the email addresses in the list (either as a full mailbox or as an alias/forward to an existing mailbox). If the domain doesn't have any email service associated and you manage the DNS with us, you can use our [email forwarding](/articles/email-forwarding/) service to quickly create an email for `admin@example.com` and forward it to a personal or private email.
+1.  Temporarily configure one of the email addresses in the list (either as a full mailbox or as an alias/forward to an existing mailbox). If the domain doesn't have any email service associated and you manage the DNS with us, you can use our [email forwarding](/articles/email-forwarding/) service to quickly create an email for `admin@example.com` and forward it to a personal or private email.
 
-1. If the list contains an email address associated with a whois privacy service, temporarily [disable the whois privacy](#whois-privacy) to use the email address from the WHOIS.
+1.  If you want to use a different email address either from the same domain or a different one, check the [email requirements](#requirements) and update the WHOIS information of the domain to include the email address in at least one of the WHOIS contact (e.g. registrant/owner, technical contact or admin contact).
 
-1. If you want to use a different email address either from the same domain or a different one, check the [email requirements](#requirements) and update the WHOIS information of the domain to include the email address in at least one of the WHOIS contact (e.g. registrant/owner, technical contact or admin contact).
+    If the list contains an email address associated with a whois privacy service, temporarily [disable the whois privacy](#whois-privacy) to use the email address from the WHOIS.
 
     <note>
-    Some registries, such as the .IO, do not disclose registrant email therefore it's not possible to select the registrant email for a certificate purchased for one of these TLDs.
+    Some registries (such as the .IO, .UK, .BR) do not disclose registrant email therefore it's not possible to select the registrant email for a certificate purchased for one of these TLDs. In this case, you will have to use one of the other solutions above.
     </note>
 
 
