@@ -18,7 +18,6 @@ To switch to yearly billing, simply follow the steps described in [the article](
 
 When you make the switch, you will automatically be billed for the yearly plan price which already includes the two month discount. The subscription will be automatically renewed once per year, at the date you switched to a yearly plan. You can compare the yearly plans pricing on our [plan page](https://dnsimple.com/pricing).
 
-<info>
+<note>
 Any email forwards or extra zones will be billed immediately for 1 year's worth of service.
-</info>
-
+</note>

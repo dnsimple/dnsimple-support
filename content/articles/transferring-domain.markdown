@@ -62,9 +62,9 @@ Follow the instructions in the email. We cannot issue the transfer request to th
 
 Once you've authorized the transfer, you may have to **wait up to 7 days your domain transfer to complete.**
 
-<info>
+<callout>
 We will only charge your credit card for the transfer once it has completed.
-</info>
+</callout>
 
 ## Transfer status
 
@@ -82,9 +82,9 @@ To avoid unexpected downtime and confusion, we don't change the domain name serv
 
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click or [manually configure the name servers](/articles/setting-name-servers/).
 
-<info>
+<note>
 Generally, we suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
-</info>
+</note>
 
 ### Expiration extension
 

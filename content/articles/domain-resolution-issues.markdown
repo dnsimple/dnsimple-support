@@ -80,9 +80,9 @@ ns2.thirdparty.com.
 
 This configuration may lead to random DNS resolution issues, especially if you are using DNS custom features such as ALIAS or URL records and/or the two DNS services are not in sync.
 
-<info>
+<callout>
 When you have Secondary DNS enabled your domain **should not** be pointing only to DNSimple name servers: both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
-</info>
+</callout>
 
 
 ## Check name server list in the WHOIS response
@@ -116,4 +116,3 @@ If you recently updated the domain, see the section *Name server change propagat
 Please be sure to check the common issues in this checklist to narrow down the problem.
 
 If the problem is not in this list or you have any other questions, please [contact us](https://dnsimple.com/contact).
-

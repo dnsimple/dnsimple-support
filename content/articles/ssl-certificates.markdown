@@ -18,11 +18,11 @@ SSL (Secure Sockets Layer) is a security protocol designed to secure the communi
 
 We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
 
-<info>
+<note>
 #### Getting started with SSL certificates
 
 Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article that will guide you through the entire process.
-</info>
+</note>
 
 
 ## Supported Certificate Types

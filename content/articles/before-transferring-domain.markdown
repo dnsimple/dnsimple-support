@@ -20,7 +20,7 @@ Transferring domain names from one registrar to another is often something that 
 
 The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account and add the domain *without* transferring it.
 
-This will give you the chance to fully set up and test your DNS records *before* you move the domain. 
+This will give you the chance to fully set up and test your DNS records *before* you move the domain.
 
 <note>
 When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
@@ -80,12 +80,11 @@ Once the name servers are changed to DNSimple you will need to wait for the DNS 
 
 This means that name servers that are currently caching your domain's DNS records will need to be given time for their caches to clear and to begin reporting the records from DNSimple's name servers.
 
-<info>
+<note>
 It may take up to 24 hours for changes to propagate.
-</info>
+</note>
 
 
 ## Transferring the domain to DNSimple
 
 Once you're satisfied that the DNS setup is complete and DNSimple is providing DNS service for your domain then you may [begin the transfer process](/articles/transferring-domain/) without concern for downtime.
-

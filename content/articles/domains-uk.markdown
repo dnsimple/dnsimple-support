@@ -30,18 +30,16 @@ Because of that, domain name registrations at the second level in `.UK` name reg
 Because of the [reservation policy](#policy-tld), registering a .UK domain requires some extra diligence. Assuming you have the right to register a `.UK` domain, you will need to use the same registration information (specifically the contact information) you used to register the corresponding `.CO.UK` or `.ORG.UK` domain.
 
 <warning>
-#### Important!
-
 Providing a different contact information will [cause the domain registration to fail](#error-no-order-identifier). To minimize the risk of registration errors, contact information must be identical, including registrant name, company name, email and phone numbers. Spaces, symbols or different string case (e.g. camelcase vs lowercase) may also cause the registration to fail.
 </warning>
 
-If the correspondong domain is registered with DNSimple, the `.UK` domain name registration may be slighly easier.
+If the corresponding domain is registered with DNSimple, the `.UK` domain name registration may be slightly easier.
 
 ### The corresponding domain is registered with DNSimple
 
 If the corrisponding domain is already registered with DNSimple, the `.UK` domain name registration is easier. In fact, in DNSimple you are required to associate each domain with a contact record. To register the `.UK` domain, simply associate the same contact (do not create a new one!) you already used for the previous domain registration, and we will send to the registry the same contact details.
 
-This will drastically reduce the risk that your `.UK` domain registration is rejected because of registrant validation errors. 
+This will drastically reduce the risk that your `.UK` domain registration is rejected because of registrant validation errors.
 
 ### The corresponding domain is not registered with DNSimple
 
@@ -57,11 +55,9 @@ We noticed that several `.UK` domain name registrations failed because users man
 Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typos and spelling errors.
 </note>
 
-<info>
-#### Reusing an existing contact
-
+<callout>
 Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
-</info>
+</callout>
 
 ## Transferring a .UK domain {#transferring}
 

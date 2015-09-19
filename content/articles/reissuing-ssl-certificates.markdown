@@ -34,9 +34,9 @@ You may need to re-issue your certificate in one of the following cases:
 - You want to change the SSL certificate signature algorithm or encryption level
 - You want to change any SSL certificate information
 
-<info>
+<note>
 Re-issuing a certificate is not a fully automated process. Requests have to be manually handled by our support team and it may take a few days to complete the process. The existing certificate will continue to be valid during this time frame.
-</info>
+</note>
 
 ## Requesting an SSL certificate re-issue
 

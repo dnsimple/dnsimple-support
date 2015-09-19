@@ -34,9 +34,9 @@ If the certificate is valid and signed by a trusted authority, the browsers indi
 
 ![](/files/dnsimple-ssltypes-https.png)
 
-<info>
+<callout>
 DNSimple currently provides both [single-name and wildcard](/articles/ssl-certificates/) domain-validated certificates.
-</info>
+</callout>
 
 ### Organization Validated SSL Certificates
 
@@ -50,9 +50,9 @@ The Organization Validated SSL Certificates display the company information in t
 
 ![](/files/dnsimple-ssltypes-company.png)
 
-<info>
+<callout>
 DNSimple currently doesn't provide organization-validated certificates.
-</info>
+</callout>
 
 ### Extended Validation SSL Certificates
 
@@ -66,9 +66,9 @@ The Extended Validation SSL Certificates are generally identified with a green a
 
 ![](/files/dnsimple-ssltypes-greenbar.png)
 
-<info>
+<callout>
 DNSimple currently doesn't provide extended validation certificates.
-</info>
+</callout>
 
 
 ## SSL Certificates by Secured Domains
@@ -83,9 +83,9 @@ For example, if you purchase a certificate for `www.example.com` it will not sec
 
 On sole discretion of the certificate authority, if you purchase a single-name certificate for the www hostname (www.example.com) the certificate may also include the root domain.
 
-<info>
+<callout>
 DNSimple currently provides [single-name certificates](/articles/ssl-certificates/).
-</info>
+</callout>
 
 ### Wildcard SSL Certificates
 
@@ -93,9 +93,9 @@ Wildcard SSL certificates protect an unlimited number of subdomains for a single
 
 For example, if you purchase a certificate for `*.example.com` it will secure `foo.example.com`, `bar.example.com`, etc. However, it will not secure `foo.else.example.com`.
 
-<info>
+<callout>
 DNSimple currently provides [wildcard certificates](/articles/ssl-certificates/).
-</info>
+</callout>
 
 ### Multi-Domain SSL Certificates
 
@@ -103,9 +103,9 @@ Multi-domain SSL certificates protect different domains with a single certificat
 
 You can normally secure a combination of different subdomains from different domains.
 
-<info>
+<callout>
 DNSimple does not currently provide multi-domain certificates.
-</info>
+</callout>
 
 
 ## Security

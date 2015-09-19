@@ -60,9 +60,9 @@ If we are unable to collect the payment after a certain period of time your acco
 
 Sometimes an error occurs while collecting a payment and our system is not able to verify whether the invoice has been paid for or not. If this happens the invoice will be flagged for manual review by putting it in the `needs_review` state. A member of the DNSimple team will manually verify whether the payment was collected or not.
 
-<info>
+<note>
 If you have an invoice in this state for more than a day please [contact us](https://dnsimple.com/contact) so we can sort it out for you.
-</info>
+</note>
 
 ### `refunded` {#invoice-state-refunded}
 

@@ -12,11 +12,11 @@ Depending on the [certificate type](/articles/ssl-certificates-types/), it can b
 
 The certificate is valid only if the request hostname matches at least one of the certificate common names.
 
-<info>
+<note>
 #### Wildcard or Single-Hostname?
 
 Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-hostname/) if you need help to determine the most appropriate common name for your certificate.
-</info>
+</note>
 
 Most web browsers displays a warning message when connecting to an address that does not match the common name in the certificate.
 

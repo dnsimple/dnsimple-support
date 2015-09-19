@@ -28,9 +28,9 @@ Until we are provided with further information our invoices will only reflect th
 
 The billing email will be displayed on invoices in absence of other billing information. It will also be the email address invoices will be delivered to.
 
-<info>
+<callout>
 If you provide a custom billing email address then it will be used for all invoices. Otherwise your DNSimple account's email address will be used.
-</info>
+</callout>
 
 
 ### Billing information
@@ -62,4 +62,3 @@ To update your billing settings:
 
 
 All future invoices will display the information that you provided. If you provided a billing email address that will be the address invoices will be sent to.
-

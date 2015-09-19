@@ -18,9 +18,9 @@ The [WHOIS privacy protection service](/articles/what-is-whois-privacy/) keeps y
 
 You can purchase the WHOIS privacy protection for any of your domains at any time, as long as the domain is registered with us and the TLD [supports the WHOIS privacy service](/articles/whois-privacy-support/).
 
-<info>
+<note>
 The price for the WHOIS privacy service is **$8.00 per year and domain**.
-</info>
+</note>
 
 
 ## Enable WHOIS privacy
