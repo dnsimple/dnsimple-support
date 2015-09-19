@@ -68,7 +68,7 @@ Once you disable whois privacy it may take up to 24 hours for the email list to 
 
 ## Select the validation email address {#select-email}
 
-You select the validation email when you purchase the certificate, which is based upon the constraints documented above.
+You select the validation email when you purchase the certificate, which is based upon the constraints documented above. If the validation email you want to use is not included in this list, [read here how to select a different email](#select-email).
 
 <div class="section-steps" markdown="1">
 ##### To select a validation email
@@ -105,7 +105,7 @@ If the approver is not in this list or you need time to configure one of those e
 </div>
 
 
-## Select a different email address {#different-email}
+## Select a different validation email address {#different-email}
 
 If you want to submit your certificate to the Certificate Authority for approval but none of the provided email addresses are working, then you have a few options.
 
