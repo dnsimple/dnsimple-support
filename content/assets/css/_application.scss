@@ -44,24 +44,40 @@ h2 {
 }
 
 .marker-callout {
-  border-color: #ddd;
+  $color: #dddddd;
+  border-color: $color;
   background-color: #fdf7f7;
+  color: darken($color, 15%);
+
+  a {
+    text-decoration: underline;
+    color: darken($color, 15%);
+  }
 }
 
 .marker-note {
-  border-color: #5bc0de;
+  $color: #5bc0de;
+  border-color: $color;
   background-color: #f4f8fa;
+  color: darken($color, 15%);
+
+  a {
+    text-decoration: underline;
+    color: darken($color, 15%);
+  }
 }
 
 .marker-warning {
-  border-color: #f0ad4e;
+  $color: #f0ad4e;
+  border-color: $color;
   background-color: #fcf8f2;
-}
+  color: darken($color, 15%);
 
-// .marker-danger {
-//   border-color: #d9534f;
-//   background-color: #fdf7f7;
-// }
+  a {
+    text-decoration: underline;
+    color: darken($color, 15%);
+  }
+}
 
 
 // Article
