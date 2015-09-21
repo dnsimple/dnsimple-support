@@ -92,7 +92,7 @@ The verification code automatically expires every 30 seconds. Most authenticator
 When you enable two-factor authentication, a recovery code is created as a safeguard. The recovery code is used to disable two-factor authentication for a user account when you can't generate a token with the authenticator app, for example because you lost the device where the authenticator was installed.
 
 <warning>
-The recovery code **is the only way to recover access to your account** in case you can't generate a two-factor token. Therefore, make sure to store the recovery code in a safe and secure place.
+The recovery code **is the only way to recover access to your account** in case you can't generate a two-factor token. Therefore, make sure to store the recovery code in a safe and secure place. We cannot disable two-factor authentication without this recovery code!
 </warning>
 
 When you enter a valid recovery code, the two-factor protection will be immediately disabled. You will need to enable it again, with a new barcode and recovery code, to keep your account protected.
