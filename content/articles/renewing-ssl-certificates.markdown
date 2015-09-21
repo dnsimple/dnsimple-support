@@ -29,7 +29,7 @@ These are the steps required in order to successfully renew an existing SSL cert
 1. Download the new SSL certificate and **replace the existing certificate on the server**
 
 
-## Renewing an SSL certificate #{order}
+## Renewing an SSL certificate {#order}
 
 <note>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
@@ -51,6 +51,7 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 1.  Follow the instructions to purchase the certificate renewal.
 
     1.  Check the certificate [common name](/articles/what-is-common-name/) matches the one you want to renew.
+    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificate/) feature is only available to new plans.
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
