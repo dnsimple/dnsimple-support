@@ -1,5 +1,6 @@
 ---
 title: I'm a Platinum customer, what do the new plans mean for me?
+excerpt: Overview of the new plans compared to the legacy Platinum plan.
 categories:
 - Account
 ---

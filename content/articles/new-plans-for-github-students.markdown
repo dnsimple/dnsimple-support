@@ -1,5 +1,6 @@
 ---
 title: I signed up using the GitHub Student Pack, what do the new plans mean for me?
+excerpt: Overview of the new plans compared to the Github Student Pack plan.
 categories:
 - Account
 ---

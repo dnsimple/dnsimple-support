@@ -1,5 +1,6 @@
 ---
 title: I'm a Bronze customer, what do the new plans mean for me?
+excerpt: Overview of the new plans compared to the legacy Bronze plan.
 categories:
 - Account
 ---
