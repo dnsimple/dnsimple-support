@@ -1,5 +1,6 @@
 ---
 title: Synchronize Zones from GitHub
+excerpt: How to synchronize your zones from GitHub.
 categories:
 - Github and DNSimple
 ---

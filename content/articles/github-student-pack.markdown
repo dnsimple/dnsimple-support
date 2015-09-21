@@ -1,5 +1,6 @@
 ---
 title: GitHub Student Pack
+excerpt: Details of the DNSimple offering as part of the GitHub Student Developer pack.
 categories:
 - Github and DNSimple
 ---

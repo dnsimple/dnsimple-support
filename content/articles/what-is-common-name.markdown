@@ -1,5 +1,6 @@
 ---
 title: What is the Common Name?
+excerpt: The Common Name identifies the fully qualified domain name(s) associated with the certificate.
 categories:
 - SSL Certificates
 ---

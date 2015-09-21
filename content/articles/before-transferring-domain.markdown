@@ -1,5 +1,6 @@
 ---
 title: Preparing a Domain Transfer to Avoid Downtime
+excerpt: How to prepare your DNS in DNSimple, to avoid downtime, before transferring your domain registration.
 categories:
 - Domain Transfers
 ---

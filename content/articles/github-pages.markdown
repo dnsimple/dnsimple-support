@@ -1,9 +1,9 @@
 ---
 title: GitHub Pages
+excerpt: How to point your root or apex domain to host your site with GitHub Pages using DNSimple.
 categories:
 - Github and DNSimple
 ---
-
 
 # Pointing your apex domain to GitHub Pages
 
@@ -45,3 +45,4 @@ Setting up your domain on DNSimple is the first step. But you also have to let G
 Carefully read [how to setup a custom domain with GitHub Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-pages) and complete the steps required there to make your domain work correctly.
 
 Even if you are only pointing your domain apex to GitHub Pages using an `ALIAS` record you will need to [create a file](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-the-domain-in-your-repo) named `CNAME` that contains your domain.
+

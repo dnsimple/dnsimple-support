@@ -1,6 +1,7 @@
 ---
 title: Requesting a Transfer Code
-categories:
+excerpt: How to request a transfer code to move a domain from DNSimple to a different registrar.
+categorie:
 - Domain Transfers
 ---
 
