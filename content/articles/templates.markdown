@@ -30,7 +30,7 @@ Fill in the form for your template. In this example, we are going to create a te
 
 Now we have the basic information for the template, it is time to create the record for it. In this example, we are only creating one record, but there is no limit to the number of records that you can have on a template.
 
-We are using a special keyword `{{domain}}` that automatically fills in the domain name to which the template is applied.
+We are using a special keyword `{{domain}}` that automatically fills in the domain name to which the template is applied. The symbol `@` can also be used. It is equivalent to `{{domain}}`.
 
 ![Template new record](/files/template-new-record.png)
 
