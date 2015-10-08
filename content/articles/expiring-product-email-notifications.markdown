@@ -23,3 +23,7 @@ There are two types of expiring domain notifications:
 - [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - A final reminder containing the list of products expiring in less than 24 hours. Delivered once, the day before the expiration date.
 
 The notifications are delivered to the email address associated to your account.
+
+<note>
+ICANN also sends required notifications more frequently about domains registered with us. These notifications will be sent to the registrant email address for the domain.
+</note>
