@@ -61,6 +61,10 @@ Once you submit the form with the proper details, you will be redirected to the 
 
 ![Updated DNS management page](/files/secondary-dns-configured.jpg)
 
+<warning>
+If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. This means if you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
+</warning>
+
 ### Behind the Scenes
 
 Once Secondary DNS has been correctly setup for a particular domain every zone change will be replicated on the Secondary DNS provider. All existing records will be copied over.Including not only standard records but also DNSimple custom records like `ALIAS` and `URL`. These will be resolved and the resulting value will be pushed to the secondary.
