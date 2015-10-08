@@ -20,5 +20,5 @@ To activate your account:
 
 </div>
 
-Your account is now active. Any domains that you update to use our name servers will now resolve with the DNSimple system.
+Your account is now active. Any domains that you update to use our [name servers](/articles/dnsimple-nameservers/) will now resolve with the DNSimple system.
 

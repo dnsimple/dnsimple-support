@@ -32,6 +32,9 @@ h3 {
   font-size: 1em;
   font-weight: bold;
   padding-bottom: $base-unit / 2;
+  i {
+    padding-right: $base-unit / 4;
+  }
 }
 
 p {

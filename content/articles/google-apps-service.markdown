@@ -1,17 +1,24 @@
 ---
 title: Google Apps Service
-excerpt: How to set up your Google Apps DNS using DNSimple.
+excerpt: How to set up Google Apps DNS using DNSimple one-click service.
 categories:
-- DNS
+- Services
 ---
 
 
-# Enabling the Google Apps Service
+# Google Apps One-click Service
 
-Google Apps for Businesses provides cloud-based email, calenders, and much more. With DNSimple's [DNS services](https://dnsimple.com) you can set up the DNS records required by Google Apps using the one-click service we provide. 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+Google Apps for Businesses provides cloud-based email, calenders, and much more. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Google Apps using the one-click service we provide.
 
 
-## Adding One-Click Service
+## Enabling Google Apps service
 
 From the domain list, click on the domain name you want to update and then click on the Services tab.
 
@@ -35,10 +42,13 @@ You can also see the records that were added back on the domain's Services tab.
 
 ![Service Records](/files/services-after-added.jpg)
 
+
 ## Setting up At Google
 
 Make sure to verify your domain name once you have enabled the service. You can find out more about domain name verification with Google through their [support site](https://support.google.com/a/search?q=domain+verification).
 
+
 ## Verifying MX Records
 
 Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) that will verify your DNS configuration and suggest improvements with links to support articles.
+

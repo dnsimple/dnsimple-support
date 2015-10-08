@@ -29,28 +29,31 @@
 
   <header class="site-head">
     <div class="container">
-      <a class="header-logo" href="/" title="DNSimple Help">
-        <img src="/assets/images/dnsimple-logo.png" alt="DNSimple Help" />
-      </a>
-
-      <form action="https://www.google.com/search" id="search-form" class="header-search pull-right" method="get">
-        <input name="q" type="search" value="" class="form-control search-query" placeholder="Search">
-        <input name="qq" type="hidden" value="">
-        <button type="submit" class="btn btn-default">
-          <i class="fa fa-search"></i>
-        </button>
-      </form>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="/" title="DNSimple Help">
+            <img src="/assets/images/dnsimple-logo.png" class="site-logo" alt="DNSimple Help" />
+          </a>
+          <span class="site-label">Support</span>
+        </div>
+        <div class="col-md-6">
+          <%= render "input-search", placeholder: "Search..." %>
+        </div>
+        <div class="col-md-3">
+          <a href="https://dnsimple.com" class="site-link-to-app pull-right">DNSimple app</a>
+        </div>
+      </div>
     <div>
   </header>
 
   <div class="container">
     <div class="row">
-      <main id="main" class="col-md-9" role="main">
-        <%= yield %>
-      </main>
       <aside id="sidebar" class="col-md-3" role="sidebar">
         <%= render "sidebar" %>
       </aside>
+      <main id="main" class="col-md-9" role="main">
+        <%= yield %>
+      </main>
     </div>
   </div>
 
