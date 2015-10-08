@@ -53,6 +53,20 @@ h5 {
   font-weight: bold;
 }
 
+.site-link-to-app {
+  padding-top: $base-unit / 4;
+  color: $gray;
+  &:before {
+    margin-right: 10px;
+    content: "\f08e";
+    font-family: FontAwesome;
+  }
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
 // Footer
 // -------------------------
 
