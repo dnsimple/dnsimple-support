@@ -34,11 +34,17 @@ To create an email forward you need to specify the **From** and **To** fields.
 
 ![Email forwarding creation](/files/email-forwarding-setup.png)
 
-The **From** field is used to match an email address to forward from. Enter either a specific name (such as "support") without the domain.
-
-To create a catch-all address use a wildcard expression which is a period followed by an asterisk `(.*)`.
+The **From** field is used to match an email address to forward from. Enter either a specific name (such as `support`) without the domain.
 
 In the **To** field enter the email address you would like as the recipient of the email. You can use a Gmail address or any other email address.
+
+### Catch-all emails
+
+To create a catch-all address follow the instructions to create an email and enter the following wildcard expression in the **To** field:
+
+    (.*)
+
+The expression represents is a period followed by an asterisk. The parenthesis are required.
 
 
 <note>
