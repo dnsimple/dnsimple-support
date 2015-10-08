@@ -3,6 +3,8 @@ title: Do you support multi-year SSL certificates?
 excerpt: Information about purchasing a multi-year SSL certificate with DNSimple.
 categories:
 - SSL Certificates
+redirect_from:
+  - /articles/can-multi-year-ssl-certificate/
 ---
 
 # Can I purchase an SSL certificate for more than one year?
