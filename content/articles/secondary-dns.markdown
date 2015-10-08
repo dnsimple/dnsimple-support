@@ -1,6 +1,6 @@
 ---
 title: Secondary DNS
-excerpt:
+excerpt: This page provides information about secondary DNS configuration with DNSimple.
 categories:
 - Advanced DNS
 ---
