@@ -28,5 +28,9 @@ There are two types of expiring domain notifications:
 The notifications are delivered to the email address associated to your account.
 
 <note>
-ICANN also sends required notifications more frequently about domains registered with us. These notifications will be sent to the registrant email address for the domain.
+ICANN also sends required notifications more frequently about domains registered with us. These notifications will be sent to the registrant email address for the domain and cannot be disabled.
 </note>
+
+## Disabling Expiration Notifications
+
+We provide the ability to [disable expiration notifications on domains that are not set to auto-renew](/articles/disabling-expiration-notifications). At this time there is no way to disable other notifications.
