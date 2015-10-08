@@ -13,7 +13,7 @@ When you make a change to your registrant's email address or name, you will rece
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
-This email will be sent from a `@dnsimple.com` email address and will include a link similar to the following:
+This email will be sent from an `@dnsimple.com` email address and will include a link similar to the following:
 
 `http://raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
 
@@ -41,6 +41,6 @@ Note that if your domain is suspended it may take between 24 to 48 hours for the
 
 ## What happens if the registrant email address cannot receive email?
 
-You must be able to receive an email at the registrant email addressto complete the verification process. You may set up the email address with an email provider or you may use our email forwarding service. If you set up the email address after registration or changing your registrant details then you may need to resend the verification email. Please contact support@dnsimple.com to do so. Include the domain name that you need to verify in your email to support.
+You must be able to receive an email at the registrant email address to complete the verification process. You may set up the email address with an email provider or you may use our email forwarding service. If you set up the email address after registration or changing your registrant details then you may need to resend the verification email. Please contact support@dnsimple.com to do so. Include the domain name that you need to verify in your email to support.
 
 Want to more about the policy requiring domain validation? Visit the ICANN web site to read about the [ICANN Whois Accuracy](https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#whois-accuracy) program.
