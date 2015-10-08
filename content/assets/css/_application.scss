@@ -137,11 +137,6 @@ h2 {
   }
 }
 
-#main #toc {
-  font-size: 30px;
-}
-
-
 // Header
 // -------------------------
 
@@ -149,19 +144,6 @@ h2 {
   display: inline-block;
   width: auto;
 }
-
-
-// Main
-// -------------------------
-
-// Make the first title of the page more prominent.
-#main > h1 {
-  // .page-header
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
-}
-
 
 // Sidebar
 // -------------------------
