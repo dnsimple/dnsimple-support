@@ -3,6 +3,9 @@ title: Expiring Product Email Notifications
 excerpt: 
 categories:
 - DNSimple
+- Domains
+- SSL Certificates
+- Whois Privacy
 ---
 
 # Expiring Product Email Notifications
