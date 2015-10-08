@@ -29,17 +29,16 @@
 
   <header class="site-head">
     <div class="container">
-      <a class="header-logo" href="/" title="DNSimple Help">
-        <img src="/assets/images/dnsimple-logo.png" alt="DNSimple Help" />
-      </a>
-
-      <form action="https://www.google.com/search" class="js-search-form header-search pull-right" method="get">
-        <input name="q" type="search" value="" class="form-control search-query" placeholder="Search">
-        <input name="qq" type="hidden" value="">
-        <button type="submit" class="btn btn-default">
-          <i class="fa fa-search"></i>
-        </button>
-      </form>
+      <div class="row">
+        <div class="col-md-9">
+          <a href="/" title="DNSimple Help">
+            <img src="/assets/images/dnsimple-logo.png" alt="DNSimple Help" />
+          </a>
+        </div>
+        <div class="col-md-3">
+          <%= render "input-search", placeholder: "Search..." %>
+        </div>
+      </div>
     <div>
   </header>
 

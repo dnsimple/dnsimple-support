@@ -7,17 +7,7 @@ excerpt: Welcome to DNSimple Managed DNS. We aim to provide fast, reliable, secu
 
 <div class="row">
   <div class="col-lg-6">
-    <form action="https://www.google.com/search" class="js-search-form" method="get">
-      <div class="input-group">
-        <input type="search" name="q" value="" class="form-control search-query" placeholder="I need help with...">
-        <input name="qq" type="hidden" value="">
-        <span class="input-group-btn">
-          <button type="submit" class="btn btn-default btn-input-search">
-            <i class="fa fa-search"></i>
-          </button>
-        </span>
-      </div>
-    </form>
+    <%= render "input-search", placeholder: "I need help with..." %>
   </div>
 </div>
 
