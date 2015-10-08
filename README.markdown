@@ -4,7 +4,7 @@ This is the [DNSimple Help site](http://support.dnsimple.com) built with [nanoc]
 
 ## Setup
 
-Ruby 1.9 is required to build the site, all the dependencies are managed using Bundler.
+Ruby 1.9, or higher, is required to build the site. Dependencies are managed using Bundler.
 
     $ git clone https://github.com/aetrion/dnsimple-support.git
     $ cd dnsimple-support
