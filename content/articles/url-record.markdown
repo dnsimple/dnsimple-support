@@ -24,3 +24,7 @@ Enter the hostname you would like to redirect from, and the URL to redirect to.
 ## Redirecting over SSL
 
 Right now it is not possible for our redirection service to handle SSL requests for your domain names. Take a look at the article [Can a URL record redirect requests over SSL?](/articles/url-redirect-ssl) for additional information and an explanation of alternatives.
+
+## URL Rewrites
+
+Please note that URL rewrites can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs.
