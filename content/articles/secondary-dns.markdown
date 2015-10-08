@@ -93,3 +93,19 @@ If you no longer wish to use Secondary DNS via AXFR, you can simply visit the co
 ## AXFR Name Server Details
 
 In order to setup your secondary provider, you will need to give them the server which will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name while others will ask for an IP address. The host name will consistently remain **axfr.dnsimple.com**. Presently the IP address on that node is 50.31.225.92; however that value is subject to change.
+
+## Frequently Asked Questions
+
+<div class="section-faq" markdown="1">
+1.  #### How can I check that my secondary DNS configuration is correct?
+
+    If you are using one of the secondary DNS providers for which we provide prepared configuration, please [let us know](https://dnsimple.com/contact) if you experience trouble. Otherwise, you should be able to find the proper values with in your provider's documentation and should also be able to test the configuration on their end.
+
+1.  #### How can I test that secondary DNS is working?
+
+    Once you've added the proper configuration and verified with your secondary provider that they are able to make AXFR queries and receive zone transfers, you should be able to make a query to one or all of the secondary name servers with `dig` by pointing it at the secondary name servers. For example, if you wanted to check the resolution for `yourdomain.com` and had added `ns5.dnsmadeeasy.com` as a secondary DNS server, you could execute `dig @ns5.dnsmadeeasy.com yourdomain.com` to check the records you'd set with DNSimple on the apex domain. If there is any difference between the response and what you get from DNSimple, you've likely misconfigured something.
+
+1.  #### Is the order of the name servers relevant?
+
+    The order of name servers in your registrar, whois record, NS record set, or secondary DNS configuration does not matter at all. Resolvers will make requests against the name servers in your whois record by randomly selecting one or multiple name servers provided there and the order does not matter.
+</div>
