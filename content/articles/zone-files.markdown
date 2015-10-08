@@ -1,6 +1,6 @@
 ---
 title: Domain zone files
-excerpt: Welcome to DNSimple. This page is about zone files. Hosted DNS has never been this easy.
+excerpt: This article explains what is a DNS zone file and how to import and export zone text files in DNSimple.
 categories:
 - DNS
 ---
