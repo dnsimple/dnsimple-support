@@ -24,13 +24,13 @@ To create a new template, browse to `https://dnsimple.com/templates` or use the 
 
 ![Template main page](/files/template-main-page.png)
 
-Fill in the form for your template. In this example, we are going to create a template that can automate the create of a CNAME record to point to a specific address in Heroku.
+Fill in the form for your template. In this example,  you will create a template to automate the creation of a CNAME record pointing to a specific address in Heroku.
 
 ![Template new](/files/template-new.png)
 
-Now we have the basic information for the template, it is time to create the record for it. In this example, we are only creating one record, but there is no limit to the number of records that you can have on a template.
+Now that you have the basic information for the template, it is time to create the record for it. In this example, you are only creating one record, but there is no limit to the number of records that you can have on a template.
 
-We are using a special keyword `{{domain}}` that automatically fills in the domain name to which the template is applied. The symbol `@` can also be used. It is equivalent to `{{domain}}`.
+The keyword `{{domain}}` automatically fills in the domain name to which the template is applied. The symbol `@` can also be used as it is equivalent to `{{domain}}`.
 
 ![Template new record](/files/template-new-record.png)
 
@@ -40,12 +40,12 @@ Navigate to the [record editor](/articles/advanced-editor) and select "Template"
 
 ![Apply the template from the record editor](/files/template-apply-template.png)
 
-Then select the template that you wish to apply. In this example, we are going to apply the template that we just created above.
+Select the template that you wish to apply. In this example, you will apply the template that you just created above.
 
 ![Apply the template from the record editor](/files/template-select-template.png)
 
-If the template could be applied sucessfully, you should see the new record.
+If the template is applied sucessfully, you will see the new record.
 
 ![Apply the template from the record editor](/files/template-record-created.png)
 
-If the template could not be applied, it's possible that the content of the template conflicts with an existing record on your domain. For example, if our domain already had a "beta" CNAME record, the template could have not been applied. Templates do not override any existing DNS records on your domain.
+If the template is not be applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, ifyour domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.
