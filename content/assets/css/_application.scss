@@ -32,7 +32,6 @@ h2 {
 .marker {
   margin: 20px 0;
   padding: 15px;
-  border-left: 3px solid #eee;
 }
 
 .marker :first-child {
@@ -44,38 +43,59 @@ h2 {
 }
 
 .marker-callout {
-  $color: #dddddd;
-  border-color: $color;
-  background-color: #fdf7f7;
-  color: darken($color, 15%);
+  background: lighten($callout-color, 32%);
+  color: darken($callout-color, 15%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f06a";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($callout-color, 15%);
   }
 }
 
 .marker-note {
-  $color: #5bc0de;
-  border-color: $color;
-  background-color: #f4f8fa;
-  color: darken($color, 15%);
+  background: lighten($accent-color, 50%);
+  color: lighten($accent-color, 10%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f05a";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($accent-color, 15%);
   }
 }
 
 .marker-warning {
-  $color: #f0ad4e;
-  border-color: $color;
-  background-color: #fcf8f2;
-  color: darken($color, 15%);
+  background: lighten($warning-color, 32%);
+  color: darken($warning-color, 15%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f071";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($warning-color, 15%);
   }
 }
 
