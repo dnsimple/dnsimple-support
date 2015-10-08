@@ -24,3 +24,16 @@ Enter the hostname you would like to redirect from, and the URL to redirect to.
 ## Redirecting over SSL
 
 Right now it is not possible for our redirection service to handle SSL requests for your domain names. Take a look at the article [Can a URL record redirect requests over SSL?](/articles/url-redirect-ssl) for additional information and an explanation of alternatives.
+
+## URL to URL redirects
+
+URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs. 
+
+Example: foo.com/blog to bar.com/blog
+
+## Wildcard subdomain to URL redirects
+
+Is not possible to redirect wildcard subdomains to URLs
+
+Example: *.foo.com to bar.com/$1
+
