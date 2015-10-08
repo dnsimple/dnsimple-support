@@ -190,10 +190,9 @@ h2 {
 }
 .nav-list li a:hover,
 .nav-list li.active a {
-  color: #cc8b00;
-  border-left: 5px solid #cc8b00;
+  color: $accent-color;
+  border-left: 5px solid $accent-color;
 }
-
 
 .articles-list {
   list-style-type: none;
