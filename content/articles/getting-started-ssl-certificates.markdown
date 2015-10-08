@@ -36,7 +36,7 @@ Here's some questions you should be able to answer:
 - What is the [appropriate common name](/articles/ssl-certificate-hostname/) for your case?
 - Check the web server documentation to understand if you need a [custom CSR](/articles/what-is-csr/).
 
-**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. You can read the [purchase section](/articles/purchasing-ssl-certificates/) of our help page for more information.
+**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Read the [ordering section](/articles/purchasing-ssl-certificates#order) of the article explaing SSL purchasing for more information.
 
 Feel free to [contact us](https://dnsimple.com/contact) if you can't find the answer to any of the questions above, or if you have any doubt.
 
