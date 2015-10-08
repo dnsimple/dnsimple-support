@@ -40,5 +40,8 @@ To create a catch-all address use a wildcard expression which is a period follow
 
 In the **To** field enter the email address you would like as the recipient of the email. You can use a Gmail address or any other email address.
 
-**Note:** when you use email forwarding on a domain you cannot use any other email service providers (such as Google Apps).
+
+<note>
+When you use email forwarding on a domain you cannot use any other email service providers (such as Google Apps).
+</note>
 
