@@ -33,7 +33,7 @@ You can check our current status on the footer of any page. If you are looking f
 
 <h3><i class="fa fa-book"></i>Blog & newsletter</h3>
 
-Want to know amore about DNS? We have regular updates on DNS news, tools, and concepts, [on our blog](https://blog.dnsimple.com). Consider signing up for [our newsletter](https://newsletter.dnsimple.com) as well.
+Want to know more about DNS? We have regular updates on DNS news, tools, and concepts, [on our blog](https://blog.dnsimple.com). Consider signing up for [our newsletter](https://newsletter.dnsimple.com) as well.
 
 <h3><i class="fa fa-code"></i>Developer site</h3>
 
