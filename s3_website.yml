@@ -43,8 +43,8 @@ cloudfront_distribution_config:
 
 # concurrency_level: 5
 
-# redirects:
-#   index.php: /
+redirects:
+  articles/can-multi-year-ssl-certificate: /articles/can-multi-year-ssl-certificates/
 #   about.php: about.html
 #   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
 
