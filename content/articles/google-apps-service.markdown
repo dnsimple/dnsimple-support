@@ -5,7 +5,6 @@ categories:
 - Services
 ---
 
-
 # Google Apps One-click Service
 
 ### Table of Contents {#toc}
