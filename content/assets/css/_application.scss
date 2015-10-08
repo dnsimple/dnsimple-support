@@ -123,7 +123,7 @@ h2 {
   background: lighten($accent-color, 50%);
   color: lighten($accent-color, 10%);
 
-  p {
+  > p {
     &:first-child {
       &:before {
         margin-right: 10px;
