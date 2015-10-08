@@ -32,7 +32,6 @@ h2 {
 .marker {
   margin: 20px 0;
   padding: 15px;
-  border-left: 3px solid #eee;
 }
 
 .marker :first-child {
@@ -44,38 +43,59 @@ h2 {
 }
 
 .marker-callout {
-  $color: #dddddd;
-  border-color: $color;
-  background-color: #fdf7f7;
-  color: darken($color, 15%);
+  background: lighten($callout-color, 32%);
+  color: darken($callout-color, 15%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f06a";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($callout-color, 15%);
   }
 }
 
 .marker-note {
-  $color: #5bc0de;
-  border-color: $color;
-  background-color: #f4f8fa;
-  color: darken($color, 15%);
+  background: lighten($accent-color, 50%);
+  color: lighten($accent-color, 10%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f05a";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($accent-color, 15%);
   }
 }
 
 .marker-warning {
-  $color: #f0ad4e;
-  border-color: $color;
-  background-color: #fcf8f2;
-  color: darken($color, 15%);
+  background: lighten($warning-color, 32%);
+  color: darken($warning-color, 15%);
+  p {
+    &:first-child {
+      &:before {
+        margin-right: 10px;
+        content: "\f071";
+        font-family: FontAwesome;
+      }
+    }
+  }
 
   a {
     text-decoration: underline;
-    color: darken($color, 15%);
+    color: darken($warning-color, 15%);
   }
 }
 
@@ -137,11 +157,6 @@ h2 {
   }
 }
 
-#main #toc {
-  font-size: 30px;
-}
-
-
 // Header
 // -------------------------
 
@@ -149,21 +164,6 @@ h2 {
   display: inline-block;
   width: auto;
 }
-
-
-// Main
-// -------------------------
-
-// Make the first title of the page more prominent.
-#main > h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-  // .page-header
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
-}
-
 
 // Sidebar
 // -------------------------
@@ -175,8 +175,6 @@ h2 {
 #sidebar .sidebar-title {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
 }
 
 
@@ -212,10 +210,9 @@ h2 {
 }
 .nav-list li a:hover,
 .nav-list li.active a {
-  color: #cc8b00;
-  border-left: 5px solid #cc8b00;
+  color: $accent-color;
+  border-left: 5px solid $accent-color;
 }
-
 
 .articles-list {
   list-style-type: none;
