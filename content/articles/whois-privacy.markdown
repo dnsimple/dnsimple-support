@@ -86,4 +86,4 @@ While we will send an email reminder when the Whois Privacy Protection on a doma
 
 ## Disable WHOIS privacy
 
-You can enable the WHOIS privacy protection from your domain page or the domain list.
+You can disable WHOIS privacy protection from your domain page or the domain list.
