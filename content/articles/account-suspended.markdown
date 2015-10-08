@@ -9,7 +9,7 @@ categories:
 
 There are a variety of reasons your account may be suspended. These reasons include:
 
-- Non payment of your monthly or yearly subscription fee.
+- Non-payment of your monthly or yearly subscription fee.
 - Chargebacks issued against your account.
 - Fraudulent activity.
 - Repeated failure to pay outstanding invoices.
