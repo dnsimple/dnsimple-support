@@ -1,6 +1,6 @@
 ---
 title: Email Forwarding
-excerpt: Welcome to DNSimple. This page is about email forwarding. Hosted DNS has never been this easy.
+excerpt: This article explains the email forwarding service provided by DNSimple.
 categories:
 - Emails
 ---
