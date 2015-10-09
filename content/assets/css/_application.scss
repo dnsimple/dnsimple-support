@@ -120,8 +120,12 @@ h2 {
 .section-steps {
   margin-bottom: $base-unit;
   padding: $base-unit / 2;
-  background: lighten($accent-color, 50%);
-  color: lighten($accent-color, 10%);
+  border-top: 5px solid #eee;
+  border-bottom: 5px solid #eee;
+
+  a {
+    text-decoration: underline;
+  }
 
   > p {
     &:first-child {
