@@ -28,13 +28,13 @@ CloudFlare has two integration methods:
 
 Direct integration requires to change the name servers for your domain to point to CloudFlare name servers.
 
-If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers/). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to CloudFlare. In both cases, once the domain is pointint to CloudFlare, you will need to manage the DNS records in CloudFlare. Any DNS change in your account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
+If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers/). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to CloudFlare. In both cases, once the domain is pointing to CloudFlare, you will need to manage the DNS records in CloudFlare. Any DNS change in your DNSimple account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
 
-Furthermore, the direct integration doesn't allow to selectively delegate only certain DNS records to CloudFlare. If you want to use CloudFlare only for a specific DNS record (e.g. for the main website) and use DNSimple for all the other records (e.g. MX email configurations), then use the one-click DNSimple integration.
+Furthermore, the direct integration doesn't allow selectively delegating only certain DNS records to CloudFlare. If you want to use CloudFlare only for a specific DNS record (e.g. for the main website) and use DNSimple for all the other records (e.g. MX email configurations), then use the one-click DNSimple integration.
 
 ### DNSimple one-click integration
 
-DNSimple one-click integration allows you to use CloudFlare to proxy only a specific DNS record of a domain. This is the preferred option, for example, if you want to take advantage of CloudFlare CDN and protection for the main website, maintaining the other DNS records in DNSimple.
+DNSimple one-click integration allows you to use CloudFlare to proxy only a specific DNS record of a domain. This is the preferred option, for example, if you want to take advantage of CloudFlare's CDN and protection for the main website, maintaining the other DNS records in DNSimple.
 
 However, this approach has some limitations. For instance, CloudFlare doesn't allow to use the Universal SSL feature for domains or subdomains managed from a third-party provider. More information below.
 
@@ -51,7 +51,7 @@ DNSimple offers a virtual record type called an ALIAS record. This allows sites 
 
 ## Universal SSL limitations
 
-[CloudFlare Universal SSL](https://www.cloudflare.com/ssl) is currently made available only if you use Cloudflare directly (first integration method). It's not possible to use CloudFlare Universal SSL if you enable Cloudflare using DNSimple one-click service.
+[CloudFlare Universal SSL](https://www.cloudflare.com/ssl) is currently available only if you use Cloudflare directly (first integration method). It's not possible to use CloudFlare Universal SSL if you enable Cloudflare using DNSimple one-click service.
 
 
 ## Enabling CloudFlare service {#enable}
