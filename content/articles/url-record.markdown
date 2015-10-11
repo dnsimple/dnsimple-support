@@ -7,7 +7,7 @@ categories:
 
 # What is an URL record?
 
-The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to [redirect an hostname to another URL](/articles/redirect).
+The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to [redirect a hostname to another URL](/articles/redirect).
 
 ## Create an URL record
 
@@ -33,7 +33,7 @@ Example: foo.com/blog to bar.com/blog
 
 ## Wildcard subdomain to URL redirects
 
-Is not possible to redirect wildcard subdomains to URLs
+Is not possible to redirect wildcard subdomains to URLs.
 
 Example: *.foo.com to bar.com/$1
 
