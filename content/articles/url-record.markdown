@@ -33,7 +33,7 @@ Example: foo.com/blog to bar.com/blog
 
 ## Wildcard subdomain to URL redirects
 
-Is not possible to redirect wildcard subdomains to URLs
+Is not possible to redirect wildcard subdomains to URLs.
 
 Example: *.foo.com to bar.com/$1
 
