@@ -1,5 +1,5 @@
 ---
-title: "Auto-Renew Only" Domains
+title: '"Auto-Renew Only" Domains'
 excerpt: Certain domain names are auto-renew only and cannot be manually renewed.
 categories:
 - Domains
