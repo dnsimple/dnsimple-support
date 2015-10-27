@@ -1,0 +1,15 @@
+.resolving {
+  padding: $base-unit;
+  margin-bottom: $base-unit;
+}
+
+.resolving-light {
+  background: #eee;
+}
+
+.resolving-dark {
+  background: #000;
+  a {
+    color: #fff;
+  }
+}
