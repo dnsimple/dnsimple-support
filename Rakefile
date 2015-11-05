@@ -5,14 +5,14 @@ require 'fileutils'
 
 
 desc "Compile the site"
-task :compile => :search do
+task :compile do
   puts "Compiling site"
   FileUtils.rm_r('output') if File.exist?('output')
   `nanoc compile`
 end
 
 desc "Publish to S3"
-task :publish => :compile do
+task :publish => [:compile, :search] do
   puts "Publishing to S3"
   puts `s3_website push`
   puts "Published"
@@ -43,6 +43,7 @@ task :priorities => :environment do
 end
 
 task :search => :environment do
+  puts "creating search index"
   require 'json'
   @site = Nanoc::Site.new('.')
   @site.load
@@ -63,7 +64,7 @@ task :search => :environment do
   index_file = File.join(@site.config[:output_dir], "search.json")
 
   File.open(index_file, 'w') do |file|
-    file.write(JSON.pretty_generate(index))
+    file.write(JSON.generate(index))
   end
 
 end
