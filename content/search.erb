@@ -2,11 +2,12 @@
 title: Search results
 ---
 
-<h1>Search results for <span id="js-query"></span></h1>
+<h1>Search results for "<span id="js-query"></span>"</h1>
 <ul id="js-result-list">Loading results...</ul>
 
 <script type="text/javascript" charset="utf-8">
   var query = window.location.search.substring(3);
+  query= query.replace("+", " ")
 
   $resultList = $("#js-result-list");
   $("#js-query").text(query);
