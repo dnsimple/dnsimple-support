@@ -11,6 +11,6 @@ When a domain expires, it enters into a grace period. Most registry offer a non-
 
 After a domain has passed through any applicable expiration grace period, the domain may go into redemption status. "Redemption Grace Period" or RGP, is the grace period provided after the registrar has issued a delete request to the registry.
 
-Once the Registry deletes the domain, it becomes available for anyone to purchase as a new domain. It is available on a first-come first-served basis.
+Once the Registry deletes the domain, it becomes available for anyone to purchase as a new domain. It is available on a first-come first-serve basis.
 
 For the WHOIS privacy, there is also a grace period for it. Note that the contact info will be deleted along with the domain. 
