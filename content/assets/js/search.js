@@ -1,30 +1,44 @@
 (function($){
-  var query = window.location.search.substring(3);
-  query= query.replace("+", " ")
+
+  var parseQueryParams = function() {
+    return window.location.search.substring(3).replace("+", " ");
+  };
 
   $resultList = $("#js-result-list");
-  $("#js-query").text(query);
+  $("#js-query").text(parseQueryParams());
 
-  $.getJSON('/search.json', function (response) {
-    index = lunr(function(){
-      this.ref('id');
-      this.field('title', {boost: 10});
-      this.field('subtitle', {boost: 5});
-      this.field('body');
-    });
+  var titles = [];
+  var searchIndex = null;
 
-    titles = []
-    for (item of response) {
+  var index = lunr(function(){
+    this.ref('id');
+    this.field('title', {boost: 10});
+    this.field('subtitle', {boost: 5});
+    this.field('body');
+  });
+
+
+  var addSearchData = function(data) {
+    for (item of data) {
       index.add(item);
       titles[item.id] = item.title;
+
+      indexStringified = JSON.stringify(index.toJSON());
+      indexParsed = JSON.parse(indexStringified);
+      searchIndex = lunr.Index.load(indexParsed);
     }
+  }
 
-    indexStringified = JSON.stringify(index.toJSON());
-    indexParsed = JSON.parse(indexStringified);
-    newIndex = lunr.Index.load(indexParsed);
-    results = newIndex.search(query);
+  var search = function() {
+    return searchIndex.search(parseQueryParams());
+  }
 
+  var render = function(results) {
     $resultList.html("");
+
+    if (results.length == 0) {
+      $resultList.html("No results found");
+    }
 
     for (item of results) {
       var ref = item.ref;
@@ -35,6 +49,15 @@
       li.appendChild(a);
       $resultList.append(li);
     }
-  });
+
+  }
+
+  $.getJSON('/search.json')
+    .done(function(data) {
+      addSearchData(data);
+      render(search());
+    })
+    .fail(function() {
+    });
 
 })(jQuery);
