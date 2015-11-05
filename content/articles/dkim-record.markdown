@@ -55,4 +55,8 @@ If no result is returned then verify that you added the TXT record with the corr
 
 ## Verifying Your DKIM with an Online Tool
 
-You may also want to verify your DKIM with an online tool, like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool will verify that you have SPF and DKIM records. In the DKIM selector field, you just need to add the first part from the subdomain your DKIM is under. For example, if my DKIM is at google._domainkey.aetrion.com, then the DKIM selector is "google".
+You may also want to verify your DKIM with an online tool, like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool will verify that you have SPF and DKIM records. In the DKIM selector field, you just need to add the first part from the subdomain your DKIM is under. For example, if my DKIM is at `google.\_domainkey.aetrion.com`, then the DKIM selector is "google".
+
+## Technical Details
+
+If you would like to read more about the technical details of DKIM, head over to [DKIM.org](http://www.dkim.org/).
