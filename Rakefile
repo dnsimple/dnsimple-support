@@ -5,7 +5,7 @@ require 'fileutils'
 
 
 desc "Compile the site"
-task :compile do
+task :compile => :search do
   puts "Compiling site"
   FileUtils.rm_r('output') if File.exist?('output')
   `nanoc compile`
@@ -40,5 +40,31 @@ task :priorities => :environment do
       'categories'  => @site.items.lazy.select { |item| item.identifier.start_with?("/categories/") }.map(&:identifier).to_a,
       'articles'    => @site.items.lazy.select { |item| item.identifier.start_with?("/articles/") }.map(&:identifier).to_a,
   )
+end
+
+task :search => :environment do
+  require 'json'
+  @site = Nanoc::Site.new('.')
+  @site.load
+
+  index = []
+
+  @site.items.each do |item|
+    if item.identifier.start_with?("/articles/")
+      item = {
+        id: item.identifier,
+        title: item.attributes[:title],
+        body: item.raw_content
+      }
+      index << item
+    end
+  end
+
+  index_file = File.join(@site.config[:output_dir], "search.json")
+
+  File.open(index_file, 'w') do |file|
+    file.write(JSON.pretty_generate(index))
+  end
+
 end
 
