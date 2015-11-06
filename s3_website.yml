@@ -7,9 +7,9 @@ s3_bucket: support.dnsimple.com
 
 site: output
 
-# max_age:
-#   "assets/*": 6000
-#   "*": 300
+max_age:
+  "assets/*": 86400
+  "*": 86400
 
 # gzip:
 #   - .html
