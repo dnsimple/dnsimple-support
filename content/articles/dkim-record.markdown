@@ -31,7 +31,7 @@ Your provider will also have given you a specific subdomain to use, usually some
 
 You will enter this subdomain in the "Name" field.
 
-Note that if your provider gives you a fully-qualified name that ends with your domain name you should NOT include your domain name in the "Name" field when you add the TXT record. For example, if you are given `pm.\_domainkey.yourdomain.com` then you will only enter `pm.\_domainkey` in the "Name" field.
+Note that if your provider gives you a fully-qualified name that ends with your domain name you should NOT include your domain name in the "Name" field when you add the TXT record. For example, if you are given `pm._domainkey.yourdomain.com` then you will only enter `pm._domainkey` in the "Name" field.
 
 ## What about Quotes and Slashes?
 
@@ -55,7 +55,7 @@ If no result is returned then verify that you added the TXT record with the corr
 
 ## Verifying Your DKIM with an Online Tool
 
-You may also want to verify your DKIM with an online tool, like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool will verify that you have SPF and DKIM records. In the DKIM selector field, you just need to add the first part from the subdomain your DKIM is under. For example, if my DKIM is at `google.\_domainkey.aetrion.com`, then the DKIM selector is "google".
+You may also want to verify your DKIM with an online tool, like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool will verify that you have SPF and DKIM records. In the DKIM selector field, you just need to add the first part from the subdomain your DKIM is under. For example, if my DKIM is at `google._domainkey.aetrion.com`, then the DKIM selector is "google".
 
 ## Technical Details
 
