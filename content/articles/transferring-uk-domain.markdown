@@ -47,7 +47,7 @@ We will only charge your credit card for the transfer once it has completed.
 
 ## Transfer status
 
-You can go to your domain list at any time to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer request.
+You can go to your domain list at any time to check on the status of pending transfers. Click on <label>transfer in process</label> to view detailed information about the transfer request.
 
 ## After the transfer
 
