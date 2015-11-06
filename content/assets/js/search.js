@@ -22,11 +22,10 @@
     for (item of data) {
       index.add(item);
       titles[item.id] = item.title;
-
-      indexStringified = JSON.stringify(index.toJSON());
-      indexParsed = JSON.parse(indexStringified);
-      searchIndex = lunr.Index.load(indexParsed);
     }
+    indexStringified = JSON.stringify(index.toJSON());
+    indexParsed = JSON.parse(indexStringified);
+    searchIndex = lunr.Index.load(indexParsed);
   }
 
   var search = function() {
@@ -58,6 +57,7 @@
       render(search());
     })
     .fail(function() {
+      $resultList.html("Sorry, the search is broken at this time. Please contact support.");
     });
 
 })(jQuery);
