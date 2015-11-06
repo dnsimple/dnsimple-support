@@ -19,7 +19,7 @@ UK and CO.UK domains have a slightly different transfer process than most other 
 ## Before You Start
 
 <warning>
-As with any domain transfer, in order to avoid the possibility of a downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
+As with any domain transfer, in order to avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
 </warning>
 
 <div class="section-steps" markdown="1">
