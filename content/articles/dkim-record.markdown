@@ -27,7 +27,7 @@ This should be inserted into a TXT record. You can do this by following the inst
 
 Your provider will also have given you a specific subdomain to use, usually something like this:
 
-   something.\_domainkey
+    something._domainkey
 
 You will enter this subdomain in the "Name" field.
 
@@ -45,7 +45,7 @@ The [dig](https://newsletter.dnsimple.com/how-to-dig/) tool is a good way to ver
 
 To verify the DKIM record, you will need to query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, I can get the TXT record using the following query:
 
-    dig +short google.\_domainkey.aetrion.com TXT
+    dig +short google._domainkey.aetrion.com TXT
 
 This will return a result like this:
 
