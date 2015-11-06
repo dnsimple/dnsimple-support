@@ -46,6 +46,10 @@ a {
   color: $accent-color;
 }
 
+pre {
+  margin-bottom: $base-unit;
+}
+
 .marker {
   p {
     padding-bottom: 0;

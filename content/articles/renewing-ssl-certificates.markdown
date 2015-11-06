@@ -62,7 +62,7 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 
 ## What's next?
 
-Once you purchased the certificate renewal, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
+Once you purchased the certificate renewal, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**. If we generated the CSR for you, each certificate has a different private key therefore you will also need to replace the private key.
 
 These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
 

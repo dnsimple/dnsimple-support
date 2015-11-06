@@ -30,8 +30,8 @@ If you need to provide the IP addresses to your current registrar you may use th
 </tr>
 <tr>
 <td>ns1.dnsimple.com</td>
-<td>198.241.10.53</td>
-<td>2620:111:8000::53</td>
+<td>162.159.24.4</td>
+<td>2400:cb00:2049:1::a29f:1804</td>
 </tr>
 <tr>
 <td>ns2.dnsimple.com</td>

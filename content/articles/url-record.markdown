@@ -1,15 +1,15 @@
 ---
-title: What is an URL record?
+title: What is a URL record?
 excerpt: Welcome to DNSimple. This article is about our URL record. Enjoy low cost hosted DNS services, an easy to use web interface, and REST API.
 categories:
 - DNS
 ---
 
-# What is an URL record?
+# What is a URL record?
 
 The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to [redirect a hostname to another URL](/articles/redirect).
 
-## Create an URL record
+## Create a URL record
 
 Go to the [advanced editor](/articles/advanced-editor) for your domain and select a URL record from the *Add Record* dropdown.
 
