@@ -47,12 +47,12 @@
 
   <div class="container">
     <div class="row">
-      <aside id="sidebar" class="col-md-3" role="sidebar">
-        <%= render "sidebar" %>
-      </aside>
-      <main id="main" class="col-md-9" role="main">
+      <main id="main" class="col-md-9 col-md-push-3" role="main">
         <%= yield %>
       </main>
+      <aside id="sidebar" class="col-md-3 col-md-pull-9" role="sidebar">
+        <%= render "sidebar" %>
+      </aside>
     </div>
   </div>
 
