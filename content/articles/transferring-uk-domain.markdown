@@ -31,7 +31,7 @@ At DNSimple:
 1. Select <label>transfer a domain</label>.
 1. Press <label>Transfer Domain</label>
 - Select a registrant and fill in any extended attributes.
-- Press "Transfer Domain"
+- Press <label>Transfer Domain</label>
 
 ## Approve the transfer
 
