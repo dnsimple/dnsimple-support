@@ -61,9 +61,9 @@ Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an e
 
 ## Transferring a .UK domain {#transferring}
 
-To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple you must provide your current registrar with our IPS tag after starting the transfer process. Our IPS tag is: `ENOM`.
+To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple, follow [these instructions](/articles/transferring-uk-domain/).
 
-To transfer a UK domain out of DNSimple send an email to support@dnsimple.com with your new registrar's IPS tag.
+To transfer a UK domain out of DNSimple, [contact support](https://dnsimple.com/contact) and provide your domain name and your new registrar's IPS tag.
 
 ## Troubleshooting
 
