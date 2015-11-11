@@ -29,7 +29,15 @@ Right now it is not possible for our redirection service to handle SSL requests 
 
 URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs. The following redirect will not work:
 
-    foo.com/blog to bar.com/blog
+The following redirect will not work:
+
+  foo.com/blog/ to bar.com/blog
+
+because DNS records cannot be added to URLs. However, this would work:
+
+  blog.foo.com to bar.com/blog
+
+since a URL record could be added to blog.foo.com.
 
 ## Wildcard URL redirects
 
@@ -39,7 +47,7 @@ You can configure a wildcard redirect using the same conventions of a DNS wildca
     *.foo.com to bar.com
     *.foo.com to bar.com/path
 
-    # Invalid redirects
+    # This will redirect to the hostname 
     *.foo.com to *.bar.com
 
 The wildcard pattern can only be on the left outermost level.
@@ -52,7 +60,7 @@ The wildcard pattern can only be on the left outermost level.
 
 ## Match-based URL redirects
 
-You currently cannot configure a redirect target that includes a back-reference (match) from the redirect source. For example, the following redirects will not work:
+You currently cannot configure a redirect target that includes a back-reference (match) from the redirect source. For example, the following redirects will not work as expected:
 
     *.foo.com to bar.com/$1
     *.foo.com to $1.bar.com
