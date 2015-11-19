@@ -28,6 +28,24 @@ module Categories
   #
   # :call-seq: has_category?(category, article) -> boolean
   def has_category?(category, article)
+    if article.identifier.include?("categories")
+      category_has_category(article, category)
+    else
+      article_has_category(article, category)
+    end
+  end
+
+  # Check if category page matches a category
+  #
+  # Returns boolean
+  def category_has_category(article, category)
+    /^#{article[:categories]}$/.match(category)
+  end
+
+  # Check if article page matches a category
+  #
+  # Returns boolean
+  def article_has_category(article, category)
     if article[:categories].nil?
       false
     else
@@ -104,7 +122,8 @@ module Categories
         {
             :title => "Articles in #{category}",
             :h1 => "#{category} articles",
-            :items => items
+            :items => items,
+            :categories => category
         },
         url_for_category(category),
         :binary => false
