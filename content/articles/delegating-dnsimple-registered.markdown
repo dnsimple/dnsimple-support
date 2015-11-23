@@ -21,7 +21,7 @@ Swithing the name servers to DNSimple will cause the domain to resolve using the
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  On the <label>Name severs</label> card, click <label>Switch to the DNSimple name servers</label>.
+1.  On the <label>Name servers</label> card, click <label>Switch to the DNSimple name servers</label>.
 
     ![Switch Name Servers link](/files/dnsimple-domain-tab-switch-nameserver-link.png)
 
