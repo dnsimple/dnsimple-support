@@ -26,7 +26,7 @@ The member will also have full-admin access to the account, including the abilit
 
 ## Creating a separate account for your client
 
-To add another account to your user profile, you should take the following steps.
+First, you must add another account to your user profile by taking the following steps.
 
 <div class="section-steps" markdown="1">
 1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the dropdown menu.
@@ -49,9 +49,9 @@ To add another account to your user profile, you should take the following steps
   
 ## Inviting your client to DNSimple
   
-  Before adding your client to the new account, she will need to be a __registered__ DNSimple user. 
+  Verify with your client that is a __registered__ DNSimple.
   
-  If needed, you can [point your customers to the signup page](https://dnsimple.com/signup).
+  If needed, [point your client to the signup page](https://dnsimple.com/signup).
   
   <note>It is not necessary that your client have an active subscription, just that they have already signed up for the service.</note>
   
