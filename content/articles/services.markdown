@@ -31,6 +31,10 @@ We currently support more than 30 services! Here are the most recognized ones:
 * Squarespace
 * Windows Azure
 
+<note>
+The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services/).
+</note>
+
 ## Adding a service
 
 To add a service, simply navigate to your domain, and on the services sidebar, select "Add or edit services"
