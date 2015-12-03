@@ -19,7 +19,7 @@ Transferring a domain name to DNSimple is the process of moving your [domain reg
 ## Before You Start
 
 <warning>
-In order to avoid the possibility of a downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
+In order to avoid the possibility of a downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain if you are changing DNS providers.
 </warning>
 
 ## Caveats
