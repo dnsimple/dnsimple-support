@@ -1,12 +1,14 @@
 ---
 title: DNSSEC Support
-excerpt: Currently DNSimple does not support the DNSSEC extensions for DNS records, we are examining the possibility of adding DNSSEC support in the future.
+excerpt: We currently support DS records for registered domains with DNS elsewhere, and we are examining the possibility of adding DNSSEC support to our authoritative name servers in the future.
 categories:
 - Advanced DNS
 ---
 
 # DNSSEC Support
 
-Currently DNSimple does not support the DNSSEC extensions for DNS records.
+We currently support adding DS records for DNSSEC-enabled zones hosted elsewhere. You may read more on our [blog post](https://blog.dnsimple.com/2015/11/ds-records-for-dnssec/) announcing support.
 
-We are examining the possibility of adding DNSSEC support in the future but do not currently have a specific timeline for when we would begin supporting it.
+We do not support the DNSSEC extensions for DNS zones in our authoritative name servers.
+
+We are planning on adding DNSSEC support in the future but do not currently have a specific timeline for when we would begin supporting it.
