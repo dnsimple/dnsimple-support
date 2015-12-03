@@ -3,7 +3,7 @@ title: Can I use DNSimple for Drop catching?
 excerpt: Information about DNSimple drop catching policy.
 categories:
 - DNSimple
-- Domain Registration
+- Domains
 - API
 ---
 
