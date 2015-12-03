@@ -55,7 +55,7 @@ First, you must add another account to your user profile by taking the following
   
   <note>It is not necessary that your client have an active subscription, just that they have already signed up for the service.</note>
   
-## Adding members to an account
+## Adding clients to the new account
 
 <div class="section-steps" markdown="1">
 1. Once you've subscribed the new account to an eligible plan, visit the account page by clicking the name of the account in the dropdown menu.
