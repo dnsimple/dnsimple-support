@@ -47,7 +47,7 @@ CloudFlare caches your site content at locations across the globe. It uses DNS t
 
 ## ALIAS record limitations
 
-DNSimple offers a virtual record type called an ALIAS record. This allows sites to work around a limitation of CNAME records at the domain apex by resolving to an A record at the name server. Because CloudFlare may use the name server physical location to determine how your request will be routed it would short circuit the utility of CloudFlare. As such we advise against using ALIAS records with CloudFlare.
+DNSimple offers a virtual record type called an ALIAS record. This allows sites to work around a limitation of CNAME records at the domain apex by resolving to an A record at the name server. Our ALIAS record cannot be used with the CloudFlare service at this time. If you need this functionality then you may either use another CDN provider, or you may use CloudFlare directly by creating an account with them and delegating your registered domain to their name servers.
 
 
 ## Universal SSL limitations
