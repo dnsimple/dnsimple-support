@@ -1,5 +1,5 @@
 ---
-title: CloudFlare DS Record
+title: Using CloudFlare DNSEC with DNSimple
 excerpt: How to set a DS record on registered domains for CloudFlare DNSSEC.
 categories:
 - CloudFlare and DNSimple
