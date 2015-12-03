@@ -1,5 +1,5 @@
 ---
-title: Adding services
+title: Services
 excerpt: 
 categories:
 - Services
