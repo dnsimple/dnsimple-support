@@ -16,6 +16,9 @@ categories:
 
 Transferring domain names from one registrar to another is often something that is done with great reluctance, if for no other reason than concerns of downtime. The following steps will hopefully help you avoid any downtime while transferring so that the process is as smooth and easy as possible.
 
+## Ensure the DS record is removed
+
+If you are currently using DNSSEC, then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring to our name servers.
 
 ## Adding the domain to DNSimple
 

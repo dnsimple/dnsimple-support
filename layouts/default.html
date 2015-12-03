@@ -11,7 +11,7 @@
 
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
 
-  <link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css">
   <!--[if lt IE 9]>
@@ -19,8 +19,7 @@
   <![endif]-->
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.js"></script>
-  <script type="text/javascript" src="/assets/js/script.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.6.0/lunr.min.js"></script>
 
   <%= render "analytics" %>
 </head>
@@ -48,12 +47,12 @@
 
   <div class="container">
     <div class="row">
-      <aside id="sidebar" class="col-md-3" role="sidebar">
-        <%= render "sidebar" %>
-      </aside>
-      <main id="main" class="col-md-9" role="main">
+      <main id="main" class="col-md-9 col-md-push-3" role="main">
         <%= yield %>
       </main>
+      <aside id="sidebar" class="col-md-3 col-md-pull-9" role="sidebar">
+        <%= render "sidebar" %>
+      </aside>
     </div>
   </div>
 
