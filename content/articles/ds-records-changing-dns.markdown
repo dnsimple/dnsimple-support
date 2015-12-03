@@ -7,6 +7,8 @@ categories:
 - Advanced DNS
 ---
 
+# Managing DS Records When Changing DNS
+
 If you use DNSSEC, then when you switch from one DNS provider to another you must take precautions to ensure your DNS resolution continues during the transition.
 
 Your DS record is tied to the specific DNSSEC key that is used to sign your zone. If you move from a DNSSEC provider to a provider that does not support DNSSEC, then you must remove your DS record before switching.
