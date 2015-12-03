@@ -3,6 +3,7 @@ title: CloudFlare Service
 excerpt: How to setup Cloudflare DNS using DNSimple one-click service.
 categories:
 - Services
+- CloudFlare and DNSimple
 ---
 
 # CloudFlare
