@@ -70,12 +70,18 @@ task :search => :environment do
 end
 
 task :imgoptim do
-  puts "***"
-  puts "Optimizing images... Grab some popcorn, this might take a while!"
-  puts "***"
   require 'image_optim'
-  image_optim = ImageOptim.new(:pngout => false)
-  image_optim.optimize_images!(Dir['content/files/*.*']) do |file|
-    puts file
+
+  image_optim = ImageOptim.new(advpng: false,
+                               gifsicle: false,
+                               optipng: false,
+                               pngout: false,
+                               jhead: false,
+                               jpegrecompress: false,
+                               jpegtran: false,
+                               svgo: false)
+
+  image_optim.optimize_images!(Dir['output/files/*.*']) do |file|
+    puts "Compressing #{file}"
   end
 end
