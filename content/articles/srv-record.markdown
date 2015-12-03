@@ -7,11 +7,9 @@ categories:
 
 # What is a SRV Record?
 
-An SRV record defines a Service.
+SRV records are often used to help with service discovery. For example, SRV records are used in Internet Telephony for defining where a SIP service may be found.
 
 An SRV record typically defines a symbolic name and the transport protocol used as part of the domain name, and defines the priority, weight, port and target for the service in the record content.
-
-SRV records are often used to help with service discovery. For example, SRV records are used in Internet Telephony for defining where a SIP service may be found.
 
 Here is an example of two SRV records.
 
