@@ -23,7 +23,7 @@ All DNSimple SSL certificates are valid for one year from their issue date. Sixt
 
 To purchase an SSL certificate you need a DNSimple account. In order to finalize the purchase, our system requires the account to be subscribed to a DNSimple plan, however you can unsubscribe later on once the certificate is successfully purchased and issued.
 
-**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar.
+**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. However, a [paid account](http://support.dnsimple.com/articles/account-creation/) is required in order to buy it.
 
 Please be sure you comply with the all the [technical requirements](/articles/getting-started-ssl-certificates/#requirements) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) page before purchasing the certificate.
 
