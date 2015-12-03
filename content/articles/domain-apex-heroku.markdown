@@ -26,7 +26,9 @@ Once your apex domain is pointing to correct place you will have to configure th
 
 ## Using the Heroku one-click service
 
-You can only use the one-click service if you are not using SSL on your Heroku application. If you are please follow the instructions in [the next section](#point-using-alias).
+You will have to choose what one-click service to apply depending on whether your app uses SSL or not. If your app does use SSL you will have to use the `Heroku SSL` service. If your app does not use SSL you will have to go for the one named just `Heroku`.
+
+![Heroku services](/files/heroku-services.jpg)
 
 To apply the Heroku one-click service to your domain follow [these instructions](/article/adding-services/#adding-services).
 
