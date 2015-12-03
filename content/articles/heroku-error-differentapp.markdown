@@ -7,7 +7,7 @@ categories:
 
 # Troubleshooting Heroku shows different app error
 
-You pointed your domain to Heroku, but when you access your domain from the browser you see a differnt application than the one you expected.
+You pointed your domain to Heroku, but when you access your domain from the browser you see a different application than the one you expected.
 
 This error occurs when you point a custom domain to Heroku, but there is another app at Heroku with that domain name set up as a custom domain.
 
