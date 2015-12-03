@@ -55,9 +55,6 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 </div>
 
 
-## Setting up your custom domain at Heroku
+## Setting up your custom domain at Heroku {#set-up-domain-heroku}
 
 Once you have set up the domain using either the one-click service or adding an ALIAS record you will have to configure your custom domain at Heroku. Their support site has [a comprehensive article](https://devcenter.heroku.com/articles/custom-domains) on how to accomplish this.
-
-
-
