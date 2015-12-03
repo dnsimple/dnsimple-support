@@ -15,8 +15,17 @@ This error occurs when on DNSimple you point a domain to an Heroku application, 
 The error means that your DNS are correctly resolving to Heroku. Follow the instructions below to fix the error.
 </callout>
 
+This error occurs when on DNSimple you point a domain to an Heroku application, but on Heroku an application is already set up to use that custom domain.
 
-There are two possible scenarios:
+Here is an example that should help understanding what's going on:
+
+You have two Heroku applications: _green-turtle_ and _red-turtle_ with their corresponding Heroku hostnames `green-turtle.herokuapp.com` and `red-turtle.herokuapp.com`.
+
+You add the domain `awesome-turtles.com` in DNSimple and you point the CNAME `www.awesome-turtles.com` to `green-turtle.herokuapp.com`. However, in Heroku you associate the `www.awesome-turtles.com` custom domain to the application `red-turtle.herokuapp.com`.
+
+What will happen is that when someone visits `www.awesome-turtles.com`, Heroku will route the request to the _red-turtle_ app, and not _green-turtle_ as you would expect given your DNS settings.
+
+You can experience the same behaviour if the _red-turtle_ application belongs to someone else which leaves us with two possible scenarios:
 
 #### The application with the custom domain setup is yours
 
