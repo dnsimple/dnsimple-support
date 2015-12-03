@@ -9,7 +9,7 @@ categories:
 
 You pointed your domain to Heroku, but when you access your domain from the browser you see a different application than the one you expected.
 
-This error occurs when you point a custom domain to Heroku, but there is another app at Heroku with that domain name set up as a custom domain.
+This error occurs when on DNSimple you point a domain to an Heroku application, but on Heroku an application is already set up to use that custom domain.
 
 <callout>
 The error means that your DNS are correctly resolving to Heroku. Follow the instructions below to fix the error.
