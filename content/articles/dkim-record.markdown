@@ -3,7 +3,7 @@ title: DKIM records
 excerpt: This article explains how DKIM records work.
 categories:
 - DNS
-- Email
+- Emails
 ---
 
 # DKIM Records
