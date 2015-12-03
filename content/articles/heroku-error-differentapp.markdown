@@ -26,5 +26,4 @@ This is what is happening if you recognize the application displayed when you vi
 
 In this case you will have to contact [Heroku support](https://help.heroku.com/) and explain them your situation. They will ask you to verify the ownership of the domain. Once you do they will be able to remove the existing custom domain configuration so you can add it to your domain.
 
-The next step will be configuring your custom domain which you can do following the steps described [in this support article](/articles/domain-apex-heroku/).
-
+The next step will be configuring your custom domain which you can do following the steps described [in this support article](/articles/domain-apex-heroku/#set-up-domain-heroku).
