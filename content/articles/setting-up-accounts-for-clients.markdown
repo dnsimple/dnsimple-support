@@ -18,12 +18,11 @@ categories:
 In order to have multiple members on a single account, you must first [be subscribed to an eligible plan](https://dnsimple.com/pricing) for that account.
 </note>
 
-Creating a separate account is a flexible and secure way to share domain management with your clients.
+Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
 
-Keep in mind that when you add a user to an account, the new member will have full access rights on every resource attached to the account, including domains, contacts, SSL certificates, etc.
+Keep in mind that when you add your client as a user to an account, the new member will have full access rights on every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
 The member will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain his login credentials and 2-factor authentication configuration.
-
 
 ## Creating a separate account for your client
 
@@ -48,18 +47,18 @@ To add another account to your user profile, you should take the following steps
 
 </div>
   
-## Invite client to signup on DNSimple
+## Inviting your client to DNSimple
   
   Before adding your client to the new account, she will need to be a __registered__ DNSimple user. 
   
-  You can [point your customers to the signup page](https://dnsimple.com/signup).
+  If needed, you can [point your customers to the signup page](https://dnsimple.com/signup).
   
   <note>It is not necessary that your client have an active subscription, just that they have already signed up for the service.</note>
   
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, visit the account page by clicking the name of the account in the dropdown menu.
+1. Once you've subscribed the new account to an eligible plan, visit the account page by clicking the name of the account in the dropdown menu.
 
     ![Visit settings for selected account](/files/account-switcher-2.jpg)
 
@@ -71,11 +70,11 @@ To add another account to your user profile, you should take the following steps
 
     ![Add a new member](/files/add-member-link-members-screen.jpg)
 
-1. Enter the email address of your client associated with the DNSimple user. 
+1. Enter the email address of your client associated with their DNSimple user. 
 
     ![Add a new member form](/files/add-member-screen.jpg)
 
-1. Congratulations, you've added another member to your account!
+1. Congratulations, you've added your client to the new account!
 
     ![Member added](/files/add-member-added-members-screen.jpg)
 
