@@ -8,7 +8,7 @@ categories:
 
 When a domain expires it becomes inactive immediately and all the services attached to it cease to function. It is not possible to make any updates to the domain while it is expired. The domain will remain available for reactivation at your regular domain rate under your list of Expired Domains. 
 
-To reactivate an expired domain, please see the article, How to Renew Domains (including Bulk Renewal).
+To reactivate an expired domain, please [see the article on how to renew a domain](https://support.dnsimple.com/articles/renewing-domain/).
 
 Currently, Enom – our registrar - offers a non-guaranteed 29-day grace period for renewal for most TLDs. There is no guaranteed grace period. Once a domain expires, Enom may dispose of it at any time according to the registration agreement. After the grace period elapses, the domain may go into a redemption grace period.
 
