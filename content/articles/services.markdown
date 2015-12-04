@@ -21,9 +21,9 @@ Services are DNS snippets ready for you to use. Applying a service creates all t
 We currently support more than 30 services! Here are the most recognized ones:
 
 * Amazon Web Services
-* Cloudflare
+* [Cloudflare](/articles/cloudflare-service/)
 * GitHub pages
-* Google Apps
+* [Google Apps](/articles/google-apps-service/)
 * Heroku
 * Mailgun
 * Shopify
