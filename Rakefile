@@ -12,7 +12,7 @@ task :compile do
 end
 
 desc "Publish to S3"
-task :publish => [:compile, :search] do
+task :publish => [:compile, :search, :imgoptim] do
   puts "Publishing to S3"
   puts `s3_website push`
   puts "Published"
@@ -69,3 +69,19 @@ task :search => :environment do
 
 end
 
+task :imgoptim do
+  require 'image_optim'
+
+  image_optim = ImageOptim.new(advpng: false,
+                               gifsicle: false,
+                               optipng: false,
+                               pngout: false,
+                               jhead: false,
+                               jpegrecompress: false,
+                               jpegtran: false,
+                               svgo: false)
+
+  image_optim.optimize_images!(Dir['output/files/*.*']) do |file|
+    puts "Compressing #{file}"
+  end
+end
