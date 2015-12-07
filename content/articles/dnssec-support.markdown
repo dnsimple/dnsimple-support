@@ -7,7 +7,26 @@ categories:
 
 # DNSSEC Support
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+## DS Records
+
 We currently support adding DS records for DNSSEC-enabled zones hosted elsewhere. You may read more on our [blog post](https://blog.dnsimple.com/2015/11/ds-records-for-dnssec/) announcing support.
+
+We support adding DS records for the following TLDs:
+
+- com
+- net
+- info
+
+We will continue to add additional TLD support over time.
+
+## DNSSEC Extensions for DNS Zones
 
 We do not support the DNSSEC extensions for DNS zones in our authoritative name servers.
 
