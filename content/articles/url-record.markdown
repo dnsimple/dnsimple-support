@@ -56,7 +56,7 @@ The wildcard pattern can only be on the left outermost level.
     *.foo.com to bar.com
 
     # Invalid redirects
-    foo.*.com to bar.com
+    foo.*.bar.com to baz.com
 
 ## Match-based URL redirects
 
