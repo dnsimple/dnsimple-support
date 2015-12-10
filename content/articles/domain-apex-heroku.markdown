@@ -30,7 +30,7 @@ You will have to choose what one-click service to apply depending on whether you
 
 ![Heroku services](/files/heroku-services.jpg)
 
-To apply the Heroku one-click service to your domain follow [these instructions](/article/adding-services/#adding-services).
+To apply the Heroku one-click service to your domain follow [these instructions](/articles/services/#adding-a-service).
 
 ## Adding an ALIAS record {#point-using-alias}
 
