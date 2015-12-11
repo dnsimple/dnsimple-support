@@ -26,22 +26,22 @@ Once the delegation is changed, you may start the process of enabling DNSSEC.
 
 The first step is to enable DNSSEC at CloudFlare:
 
-![Enable DNSSEC at Cloudflare](/files/2015/cloudflare-dnssec-step1.png)
+![Enable DNSSEC at Cloudflare](/files/cloudflare-dnssec-step1.png)
 
 ## Copy the DS Record
 
 Once it is enabled, you will see information about the DS record. We have two ways to enter the information, either field-by-field entry or quick entry, which allows you to paste the entire record into a single field. For CloudFlare, just click the full DS record and it will be copied to your clipboard.
 
-![Copy DS Information](/files/2015/cloudflare-dnssec-step2.png)
+![Copy DS Information](/files/cloudflare-dnssec-step2.png)
 
 ## Configure Your DS Record
 
 Log into to your DNSimple account and go to the domain's management page. At the bottom of the Domain tab you will see a card for enabling DS records. Click Configure DS Record.
 
-![Enable DS in DNSimple](/files/2015/dnssec-ds-record-1.png)
+![Enable DS in DNSimple](/files/dnssec-ds-record-1.png)
 
 Finally, either enter the details for the DS record in using the field-by-field method, or click on the Quick Entry tab and paste the entire record in.
 
-![Enter the DS Information](/files/2015/dnssec-ds-record-2.png)
+![Enter the DS Information](/files/dnssec-ds-record-2.png)
 
 If your domain's registry supports DNSSEC, the DS record will now be enabled.
