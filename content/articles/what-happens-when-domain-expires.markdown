@@ -3,7 +3,6 @@ title: Whois Privacy may cause transfer approval emails to not be delivered
 excerpt: Whois Privacy services often do not properly deliver transfer approval emails, and thus should be disabled before requesting a transfer.
 categories:
  - Domains
- - Domain Registration
 ---
 
 When a domain expires it becomes inactive immediately and all the services attached to it cease to function. It is not possible to make any updates to the domain while it is expired. The domain will remain available for reactivation at your regular domain rate under your list of Expired Domains. 
