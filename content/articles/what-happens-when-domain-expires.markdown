@@ -27,6 +27,10 @@ Redemption grace period is the grace period provided after the registrar has iss
 
 Domains in our system can go into either Redemption Grace Period or Extended Redemption Grace Period.
 
+<note>
+When a domain is in the redemption status, the registrar will apply a mandatory fee on top of the standard renewal price. The final renewal price will be the standard renewal fee plus the redemption fee. To renew a domain in redemption status, please contact us.
+</note>
+
 "Pending Delete" refers to the 5-day time frame after redemption. During this time the registry holds the domain and it cannot be recovered. Once the Registry deletes the domain, it becomes available for anyone to purchase as a new domain. It is available on a first-come first-served basis.
 
 ## Not-ICANN TLDs
