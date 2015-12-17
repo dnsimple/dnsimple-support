@@ -12,7 +12,7 @@ task :compile do
 end
 
 desc "Publish to S3"
-task :publish => [:compile, :search, :imgoptim] do
+task :publish => [:compile, :search] do
   puts "Publishing to S3"
   puts `s3_website push`
   puts "Published"
@@ -69,6 +69,7 @@ task :search => :environment do
 
 end
 
+desc "Optimizes the image size in /files"
 task :imgoptim do
   require 'image_optim'
 
