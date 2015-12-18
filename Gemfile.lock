@@ -46,7 +46,7 @@ GEM
     rack (1.5.2)
     rake (10.4.2)
     ruby-progressbar (1.7.5)
-    s3_website (2.8.3)
+    s3_website (2.12.2)
       colored (= 1.2)
       configure-s3-website (= 1.7.1)
       dotenv (~> 1.0)
