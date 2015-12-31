@@ -82,7 +82,11 @@ task :imgoptim do
                                jpegtran: false,
                                svgo: false)
 
-  image_optim.optimize_images!(Dir['output/files/*.*']) do |file|
-    puts "Compressing #{file}"
+  puts "Searching for images to optimize..."
+  image_optim.optimize_images!(Dir['output/files/*.*']) do |unoptimized, optimized|
+    if optimized
+      puts "Optimized #{optimized}"
+    end
   end
+  puts "All images optimized!"
 end
