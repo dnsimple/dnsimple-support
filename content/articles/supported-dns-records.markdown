@@ -14,8 +14,8 @@ We currently support the following standard record types:
 - [MX](/articles/mx-record)
 - [NS](/articles/ns-record)
 - TXT
-- SPF
-- SRV
+- [SPF](/articles/spf-record)
+- [SRV](/articles/srv-record)
 - NAPTR
 - AAAA
 - HINFO
@@ -25,6 +25,6 @@ We also support several special record types:
 
 - [ALIAS](/articles/alias-record)
 - [URL](/articles/url-record)
-- POOL
+- [POOL](/articles/pool-record)
 
 Finally, we automatically add your [SOA](/articles/soa-record) record for you when you add a domain.
