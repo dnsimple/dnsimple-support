@@ -38,7 +38,9 @@ Following the version indicator are one or more terms. These define the rules fo
 - `ip6`
 - `exists`
 
+<info>
 The `ptr` type is also defined but should not be used.
+</info>
 
 There are currently two modifiers defined:
 
@@ -75,7 +77,11 @@ Note that we currently do not support modifiers in our SPF editing UI, but you m
 
 ## SPF Record Limitations
 
-Each fully-qualified name may have one SPF record, defined as a TXT record or as an SPF record type. Although the SPF record type is deprecated, it is still supported by DNSimple name servers at this time. In the future we may discontinue serving SPF records, so you should always have a TXT record whose content that is the same as the record using the SPF type.
+**Each fully-qualified name may have at maximum one SPF record**, defined as a TXT record or as an SPF record type.
+
+<warning>
+Although the SPF record type is deprecated, it is still supported by DNSimple name servers at this time. In the future we may discontinue serving SPF records, so you should always have a TXT record whose content that is the same as the record using the SPF type.
+</warning>
 
 There are various limitations to the number of items and lookups permitted in an SPF record:
 
