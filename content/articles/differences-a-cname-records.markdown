@@ -13,7 +13,7 @@ The [`A` record](/articles/a-record) points a name to a specific IP. For example
 
     blog.dnsimple.com. A 185.31.17.133
 
-The [`CNAME` record](/articles/a-record) points a name to another name, instead of an IP. The CNAME source represents an alias for the target name and inherits its entire resolution chain. Let's take [our blog](https://blog.dnsimple.com/) as example.
+The [`CNAME` record](/articles/cname-record) points a name to another name, instead of an IP. The CNAME source represents an alias for the target name and inherits its entire resolution chain. Let's take [our blog](https://blog.dnsimple.com/) as example.
 
     blog.dnsimple.com.      CNAME	aetrion.github.io.
     aetrion.github.io.      CNAME	github.map.fastly.net.
