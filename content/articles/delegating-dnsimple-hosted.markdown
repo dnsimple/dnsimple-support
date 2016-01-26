@@ -30,5 +30,5 @@ Please note that it may take up to 24 hours for a name server change to propagat
 
 ### How to set custom name servers at some common registrars
 
-- [GoDaddy](https://support.godaddy.com/help/article/664/setting-nameservers-for-your-domain-nameshttps://support.godaddy.com/help/article/664/setting-nameservers-for-your-domain-names#custom)
+- [GoDaddy](https://uk.godaddy.com/help/set-custom-nameservers-for-domains-registered-with-us-12317)
 - [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain)
