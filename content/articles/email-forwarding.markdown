@@ -51,3 +51,9 @@ The expression represents is a period followed by an asterisk. The parenthesis a
 When you use email forwarding on a domain you cannot use any other email service providers (such as Google Apps).
 </note>
 
+## Deleting an email forward
+
+To remove an email forward from your domain, locate the email forwarding configuration that you wish to delete under the **Current Email Forwards** section, and click on **Delete**. The Email forwarding will be deleted immediately and you will no longer receive emails through this configuration.
+
+![Email forwarding creation](/files/email-forwarding-removal.png)
+
