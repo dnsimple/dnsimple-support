@@ -13,13 +13,13 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 
 ## Access the record editor
 
-To access the record editor from the main domain list page, click on the *records* button at the end of the domain row.
+To access the record editor from your dashboard, click on the *records* icon.
 
-![Record Editor from the domain list](/files/rec-editor-domain-list.png)
+![Record Editor from the domain list](/files/rec-editor-access.png)
 
-From the domain page, navigate to the DNS tab and then click on the *manage records* link
+To access the record editor from the domain page, click on the *records* icon.
 
-![Record Editor from the domain page](/files/rec-editor-dns-page.png)
+![Record Editor from the domain page](/files/rec-editor-domain-page.png)
 
 ## System records
 
@@ -55,7 +55,7 @@ To modify a record, click on the edit icon at the end of the record row.
 
 ## Delete a record
 
-To delete a record, click on the red cross icon at the end of the record row.
+To delete a record, click on the trash icon at the end of the record row.
 
 <warning>
 Please note that there is no undo. The only way to restore a deleted record is to create it again.
