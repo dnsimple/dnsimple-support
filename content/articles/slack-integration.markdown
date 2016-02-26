@@ -21,7 +21,7 @@ At the moment, you can register a domain and list the DNS records, the registran
 
 ## Installation 
 
-#### Step 1: Slack button
+#### Step 1: Add DNSimple to Slack
 
 <a href="https://slack.com/oauth/authorize?scope=commands&amp;client_id=22653018193.22657499029"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
 
@@ -36,22 +36,35 @@ At the moment, you can register a domain and list the DNS records, the registran
 #### Step 4: Select the DNSimple account you want to use.
 
 
-
-
 Start Slacking with the `/dnsimple` commands.
 
-## Commands
+## Domains commands
 
-#### Register a domain
+### register a domain
 
-- `/dnsimple register spa.pizza`
+`/dnsimple register spa.pizza`
 
-#### List DNS Record for a domain
+### list your domains
 
-- `/dnsimple record list howdns.works`
+`/dnsimple list domains`
 
-- Edit record
+## DNS Records commands
 
-#### List Registrant Contact
+### list a record
 
-- `/dnsimple contact list`
+`/dnsimple list record`
+
+### add a record 
+
+`/dnsimple ... `
+
+### delete a record
+
+`/dnsimple ... `
+
+### update a record
+
+`/dnsimple ... `
+
+
+
