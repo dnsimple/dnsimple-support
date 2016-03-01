@@ -50,7 +50,7 @@ If you need to use a [custom CSR](/articles/what-is-csr/), generate it and paste
 If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.
 </warning>
 
-## Configuring the SSL certificate {#submit}
+## Submitting the SSL certificate {#submit}
 
 [Select the SSL certificate validation email](/articles/ssl-certificates-email-validation/#select-email) and submit your certificate for validation.
 
