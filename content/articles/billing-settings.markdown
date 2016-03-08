@@ -54,7 +54,7 @@ To update your billing settings:
 
      ![Change payment details](/files/account-billing-settings-1.png)
 
-1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit Billing Settings</label> button.
+1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Add or edit extra invoice information</label> link.
 1. Fill in the form to your needs and click on <label>Save</label> when you are done.
 
      ![Change payment details](/files/account-billing-settings-2.png)
