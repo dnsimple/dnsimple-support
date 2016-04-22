@@ -57,7 +57,7 @@ The purchase is the first step into getting an SSL certificate. It will create a
     1.  [Read this article](/articles/ssl-certificate-hostname/) to determine the appropriate common name of your SSL certificate.
     1.  Enter the certificate common name. Use an `*` to purchase a wildcard certificate.
     1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
-    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificate/) feature is only available to new plans.
+    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates/) feature is only available to new plans.
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
     1.  Submit the order.
 
