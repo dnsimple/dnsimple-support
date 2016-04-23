@@ -11,6 +11,10 @@
   max-width: 970px !important;
 }
 
+.l-island {
+  padding: $base-unit 0;
+}
+
 // Reset Bootstrap style on <code> inside table.
 .table td code {
   padding: 0;
@@ -23,6 +27,12 @@
 h2 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.marker {
+  p {
+    padding-bottom: 0;
+  }
 }
 
 
@@ -109,6 +119,14 @@ h2 {
   display: block;
   margin: 20px auto;
   max-width: 100%;
+}
+
+#toc {
+  &:before {
+    margin-right: 10px;
+    content: "\f02e";
+    font-family: FontAwesome;
+  }
 }
 
 
