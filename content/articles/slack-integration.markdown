@@ -46,12 +46,19 @@ Start Slacking with the `/dnsimple` commands.
 Use `/dnsimple register` to register a domain. You can specify several options to tailor the registration to your needs.
 
 Registering `example.com`:
+
 ```/dnsimple register example.com registrant=1```
+
 Registering `example.com` without auto renewal:
+
 ```/dnsimple register example.com registrant=2 auto_renewal=false```
+
 Registering `example.com` enabling whois privacy:
+
 ```/dnsimple register example.com registrant=3 privacy=true```
+
 Mixing it all together:
+
 ```/dnsimple register example.com registrant=1 auto_renew=true privacy=true```
 
 Some things you should know:
@@ -72,21 +79,26 @@ We will only show information for the first 20 records. All `NS` and `SOA` recor
 Use `/dnsimple add record` to add a record to a domain. You will have to specify at least the `name`, `type` and `content` for the record.
 
 Adding an ALIAS record to `example.com`:
+
 ```/dnsimple add record example.com name=[] type=ALIAS content=example.provider.com```
 
 Adding a URL record to `example.com` for the `www` subdomain:
+
 ```/dnsimple add record example.com name=www type=url content=http://example.com```
 
 Adding a TXT record to `example.com` for the `_` subdomain:
+
 ```/dnsimple add record example.com name=_ type=TXT content=[record content with spaces]```
 
 Mixing it all together:
+
 ```/dnsimple add record example.com name=[] type=mx content=mxa.mailgun.com priority=10 ttl=600```
 
 Some things you should know:
+
 1. In order to create records in the apex you will have to pass in an empty name: `name=[]`
-2. White space is not allowed when providing record attributes: `name=foo` is valued but `name = foo` is not.
-3. If you have to provide a record attribute value that has white space use `[]` to wrap it: `content=[this is a content with spaces]`. Note that if you want to have any of `[` or `]` you will have to use the UI as there is no way to escape those characters.
+1. White space is not allowed when providing record attributes: `name=foo` is valued but `name = foo` is not.
+1. If you have to provide a record attribute value that has white space use `[]` to wrap it: `content=[this is a content with spaces]`. Note that if you want to have any of `[` or `]` you will have to use the UI as there is no way to escape those characters.
 
 ## Account commands
 
