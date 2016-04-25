@@ -14,7 +14,7 @@ You can change the credit card you use to pay your DNSimple subscription and oth
 
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click on <label>Billing</label>.
-1. Click on <label>Change Payment Details</label>.
+1. Click on <label>Update Credit card</label>.
 
      ![Change payment details](/files/account-billing-change-payment-link.png)
 

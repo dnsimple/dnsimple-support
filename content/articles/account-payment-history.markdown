@@ -23,7 +23,7 @@ It is possible to view your payment history and retry failed invoices manually i
 
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click on <label>Billing</label>.
-1. Click on <label>Payment History</label>.
+1. Click on <label>View invoice history</label>.
 
      ![Payment History Link](/files/account-billing-view-payment-history-link.png)
 </div>

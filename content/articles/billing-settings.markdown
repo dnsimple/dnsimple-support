@@ -40,7 +40,7 @@ Billing information will be displayed on invoices when provided instead of the b
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
 <warning>
-You can this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please write to [support@dnsimple.com](mailto:support@dnsimple.com)
+You can modify this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please write to [support@dnsimple.com](mailto:support@dnsimple.com)
 </warning>
 
 ### Changing your billing settings
@@ -54,7 +54,7 @@ To update your billing settings:
 
      ![Change payment details](/files/account-billing-settings-1.png)
 
-1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit Billing Settings</label> button.
+1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Add or edit extra invoice information</label> link.
 1. Fill in the form to your needs and click on <label>Save</label> when you are done.
 
      ![Change payment details](/files/account-billing-settings-2.png)

@@ -97,6 +97,10 @@ In order to setup your secondary provider, you will need to give them the server
 ## Frequently Asked Questions
 
 <div class="section-faq" markdown="1">
+1.  #### Can DNSimple serve as a secondary DNS provider?
+
+    No. At this time, DNSimple can serve only as the authoritative source for DNS but does offer the ability to have a secondary provider configured via AXFR.
+
 1.  #### How can I check that my secondary DNS configuration is correct?
 
     If you are using one of the secondary DNS providers for which we provide prepared configuration, please [let us know](https://dnsimple.com/contact) if you experience trouble. Otherwise, you should be able to find the proper values with in your provider's documentation and should also be able to test the configuration on their end.
