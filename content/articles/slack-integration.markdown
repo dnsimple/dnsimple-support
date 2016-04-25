@@ -73,10 +73,13 @@ Use `/dnsimple add record` to add a record to a domain. You will have to specify
 
 Adding an ALIAS record to `example.com`:
 ```/dnsimple add record example.com name=[] type=ALIAS content=example.provider.com```
+
 Adding a URL record to `example.com` for the `www` subdomain:
 ```/dnsimple add record example.com name=www type=url content=http://example.com```
+
 Adding a TXT record to `example.com` for the `_` subdomain:
 ```/dnsimple add record example.com name=_ type=TXT content=[record content with spaces]```
+
 Mixing it all together:
 ```/dnsimple add record example.com name=[] type=mx content=mxa.mailgun.com priority=10 ttl=600```
 
@@ -92,6 +95,7 @@ Some things you should know:
 `/dnsimple list contacts`
 
 We will only show information for the first 15 contacts. If you have more than those you should use the link to see them all in the app.
+
 You can use the contact number (under the `#` column) to reference contacts for other commands like the registrant when registering a domain.	
 
 ### list the domains in your account
