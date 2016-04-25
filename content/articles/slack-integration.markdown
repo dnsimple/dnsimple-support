@@ -16,14 +16,11 @@ categories:
 
 This integration with Slack allows DNSimple customers to register and manage domains in a Slack Channel. 
 
-At the moment, you can register a domain and list the DNS records, the registrant contact.  <!-- etc. -->
-
-
 ## Installation 
 
 ### Step 1: Add DNSimple to Slack
 
-<a href="https://slack.com/oauth/authorize?scope=commands&amp;client_id=22653018193.22657499029"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
+Visit [slack.dnsimple.com](http://slack.dnsimple.com) to add DNSimple to your Slack channel. 
 
 ### Step 2: Select a Slack team
 
@@ -40,31 +37,69 @@ Start Slacking with the `/dnsimple` commands.
 
 ## Domains commands
 
+### check if a domain is available
+
+`/dnsimple check example.com`
+
 ### register a domain
 
-`/dnsimple register spa.pizza`
+Use `/dnsimple register` to register a domain. You can specify several options to tailor the registration to your needs.
 
-### list your domains
+Registering `example.com`:
+```/dnsimple register example.com registrant=1```
+Registering `example.com` without auto renewal:
+```/dnsimple register example.com registrant=2 auto_renewal=false```
+Registering `example.com` enabling whois privacy:
+```/dnsimple register example.com registrant=3 privacy=true```
+Mixing it all together:
+```/dnsimple register example.com registrant=1 auto_renew=true privacy=true```
 
-`/dnsimple list domains`
+Some things you should know:
+1. You must specify a registrant. If you don't you will be prompted with a list of contacts to choose from.
+2. If `auto_renew` is not specified it defaults to `true`.
+3. If `privacy` is not specified it defaults to `false`.
 
 ## DNS Records commands
 
-### list a record
+### list the records of a domain
 
-`/dnsimple list record`
+`/dnsimple list record example.com`
 
-### add a record 
+We will only show information for the first 20 records. All `NS` and `SOA` records will be filtered out. If you have more than those you should use the link to see them all in the app.
 
-`/dnsimple ... `
+### add a record to a domain
 
-### delete a record
+Use `/dnsimple add record` to add a record to a domain. You will have to specify at least the `name`, `type` and `content` for the record.
 
-`/dnsimple ... `
+Adding an ALIAS record to `example.com`:
+```/dnsimple add record example.com name=[] type=ALIAS content=example.provider.com```
+Adding a URL record to `example.com` for the `www` subdomain:
+```/dnsimple add record example.com name=www type=url content=http://example.com```
+Adding a TXT record to `example.com` for the `_` subdomain:
+```/dnsimple add record example.com name=_ type=TXT content=[record content with spaces]```
+Mixing it all together:
+```/dnsimple add record example.com name=[] type=mx content=mxa.mailgun.com priority=10 ttl=600```
 
-### update a record
+Some things you should know:
+1. In order to create records in the apex you will have to pass in an empty name: `name=[]`
+2. White space is not allowed when providing record attributes: `name=foo` is valued but `name = foo` is not.
+3. If you have to provide a record attribute value that has white space use `[]` to wrap it: `content=[this is a content with spaces]`. Note that if you want to have any of `[` or `]` you will have to use the UI as there is no way to escape those characters.
 
-`/dnsimple ... `
+## Account commands
 
+### list the contacts in your account
 
+`/dnsimple list contacts`
 
+We will only show information for the first 15 contacts. If you have more than those you should use the link to see them all in the app.
+You can use the contact number (under the `#` column) to reference contacts for other commands like the registrant when registering a domain.	
+
+### list the domains in your account
+
+`/dnsimple list domains`
+
+We will only show information for the first 15 domains. If you have more than those you should use the link to see them all in the app.
+
+### show information for a single domain in your account
+
+`/dnsimple show domain howdns.works`
