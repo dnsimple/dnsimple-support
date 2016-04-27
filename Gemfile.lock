@@ -36,7 +36,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    nanoc (3.7.5)
+    nanoc (3.8.0)
       cri (~> 2.3)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -70,7 +70,7 @@ DEPENDENCIES
   mime-types
   minitest
   minitest-reporters
-  nanoc (~> 3.7.0)
+  nanoc (~> 3.8.0)
   nokogiri
   pygments.rb
   rake
