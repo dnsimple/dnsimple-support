@@ -4,9 +4,6 @@ sudo: false
 cache:
 - bundler
 
-before_install:
-  - bundle
-
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bundle exec rake publish
 
