@@ -16,7 +16,7 @@ To activate your account:
 
 1. Log in and click on <label>Activate your account</label>.
 1. Choose the plan with the features that best suit your needs and click on the <label>Select</label> button.
-1. Finally, enter your payment information and click <label>Start My Free Trial<label>.
+1. Finally, enter your payment information and click <label>Start My Free Trial</label>.
 
 </div>
 

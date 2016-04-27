@@ -49,17 +49,3 @@ a {
 pre {
   margin-bottom: $base-unit;
 }
-
-.marker {
-  p {
-    padding-bottom: 0;
-  }
-}
-
-#toc {
-  &:before {
-    margin-right: 10px;
-    content: "\f02e";
-    font-family: FontAwesome;
-  }
-}
