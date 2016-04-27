@@ -14,7 +14,7 @@ categories:
 
 ---
 
-This integration with Slack allows DNSimple customers to register and manage domains in a Slack Channel. 
+The Slack integration allows DNSimple customers to register and manage domains from their team's Slack Channel. The integration is available for Professional, Business and Reseller plans.
 
 ## Installation 
 
@@ -37,11 +37,11 @@ Start Slacking with the `/dnsimple` commands.
 
 ## Domains commands
 
-### check if a domain is available
+### Check if a domain is available
 
 `/dnsimple check example.com`
 
-### register a domain
+### Register a domain
 
 Use `/dnsimple register` to register a domain. You can specify several options to tailor the registration to your needs.
 
@@ -68,13 +68,13 @@ Some things you should know:
 
 ## DNS Records commands
 
-### list the records of a domain
+### List the records of a domain
 
 `/dnsimple list record example.com`
 
 We will only show information for the first 20 records. All `NS` and `SOA` records will be filtered out. If you have more than those you should use the link to see them all in the app.
 
-### add a record to a domain
+### Add a record to a domain
 
 Use `/dnsimple add record` to add a record to a domain. You will have to specify at least the `name`, `type` and `content` for the record.
 
@@ -102,7 +102,7 @@ Some things you should know:
 
 ## Account commands
 
-### list the contacts in your account
+### List the contacts in your account
 
 `/dnsimple list contacts`
 
@@ -110,12 +110,12 @@ We will only show information for the first 15 contacts. If you have more than t
 
 You can use the contact number (under the `#` column) to reference contacts for other commands like the registrant when registering a domain.	
 
-### list the domains in your account
+### List the domains in your account
 
 `/dnsimple list domains`
 
 We will only show information for the first 15 domains. If you have more than those you should use the link to see them all in the app.
 
-### show information for a single domain in your account
+### Show information for a single domain in your account
 
 `/dnsimple show domain howdns.works`
