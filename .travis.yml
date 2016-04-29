@@ -2,10 +2,10 @@ language: ruby
 
 sudo: false
 cache:
-- bundler
+  - bundler
 
 after_success:
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bundle exec rake publish
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bundle exec rake publish
 
 notifications:
   slack:
