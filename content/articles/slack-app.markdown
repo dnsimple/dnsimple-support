@@ -16,11 +16,11 @@ categories:
 
 The Slack app allows DNSimple customers to register and manage domains from their team's Slack Channel. The app is available for Professional, Business and Reseller plans.
 
-## Installation 
+## Installation
 
 ### Step 1: Add DNSimple to Slack
 
-Visit [slack.dnsimple.com](http://slack.dnsimple.com) to add DNSimple to your Slack channel. 
+Visit [slack.dnsimple.com](http://slack.dnsimple.com) to add DNSimple to your Slack channel.
 
 ### Step 2: Select a Slack team
 
@@ -108,7 +108,7 @@ Some things you should know:
 
 We will only show information for the first 15 contacts. If you have more than those you should use the link to see them all in the app.
 
-You can use the contact number (under the `#` column) to reference contacts for other commands like the registrant when registering a domain.	
+You can use the contact number (under the `#` column) to reference contacts for other commands like the registrant when registering a domain.
 
 ### List the domains in your account
 
