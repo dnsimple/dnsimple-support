@@ -1,5 +1,5 @@
 ---
-title: Slack Integration
+title: Slack App
 excerpt: How to set up the DNSimple Slack App.
 categories:
 - Slack and DNSimple
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-The Slack integration allows DNSimple customers to register and manage domains from their team's Slack Channel. The integration is available for Professional, Business and Reseller plans.
+The Slack app allows DNSimple customers to register and manage domains from their team's Slack Channel. The app is available for Professional, Business and Reseller plans.
 
 ## Installation 
 
