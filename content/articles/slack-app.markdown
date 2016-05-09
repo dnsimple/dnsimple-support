@@ -5,7 +5,7 @@ categories:
 - Slack and DNSimple
 ---
 
-# Slack Integration
+# Slack App
 
 ### Table of Contents {#toc}
 
