@@ -16,13 +16,7 @@ categories:
 
 An [SSL certificate](/articles/ssl-certificates/) is required to enable SSL on your site and build a secure connection between a browser and your server to encrypt sensitive information, such as credit card details or private data.
 
-Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the [certificate authority](/articles/what-is-certificate-authority/).
-
-<note>
-#### How long does it take to issue an SSL certificate?
-
-In general, issuing a new SSL certificate can take from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
-</note>
+Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the [certificate authority](/articles/what-is-certificate-authority/). For this reason, [this is not a real-time process](/articles/how-long-to-issue-ssl-certificate/).
 
 ## SSL certificate requirements {#requirements}
 

@@ -55,13 +55,12 @@ h2 {
 .marker-callout {
   background: lighten($callout-color, 32%);
   color: darken($callout-color, 15%);
-  p {
-    &:first-child {
-      &:before {
-        margin-right: 10px;
-        content: "\f06a";
-        font-family: FontAwesome;
-      }
+
+  & > :first-child {
+    &:before {
+      margin-right: 10px;
+      content: "\f06a";
+      font-family: FontAwesome;
     }
   }
 
@@ -74,13 +73,12 @@ h2 {
 .marker-note {
   background: lighten($accent-color, 50%);
   color: lighten($accent-color, 10%);
-  p {
-    &:first-child {
-      &:before {
-        margin-right: 10px;
-        content: "\f05a";
-        font-family: FontAwesome;
-      }
+
+  & > :first-child {
+    &:before {
+      margin-right: 10px;
+      content: "\f05a";
+      font-family: FontAwesome;
     }
   }
 
@@ -93,13 +91,12 @@ h2 {
 .marker-warning {
   background: lighten($warning-color, 32%);
   color: darken($warning-color, 15%);
-  p {
-    &:first-child {
-      &:before {
-        margin-right: 10px;
-        content: "\f071";
-        font-family: FontAwesome;
-      }
+
+  & > :first-child {
+    &:before {
+      margin-right: 10px;
+      content: "\f071";
+      font-family: FontAwesome;
     }
   }
 
@@ -180,6 +177,10 @@ h2 {
   }
 
   li {
+    margin-bottom: 15px;
+  }
+
+  h4 {
     margin-bottom: 20px;
   }
 
