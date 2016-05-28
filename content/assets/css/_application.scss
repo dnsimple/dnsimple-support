@@ -29,12 +29,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.marker {
-  p {
-    padding-bottom: 0;
-  }
-}
-
 
 // Markers
 // ---------------
@@ -48,7 +42,7 @@ h2 {
   margin-top: 0;
 }
 
-.marker p:last-child {
+.marker :last-child {
   margin-bottom: 0;
 }
 
@@ -107,6 +101,10 @@ h2 {
     text-decoration: underline;
     color: darken($warning-color, 15%);
   }
+}
+
+p + .marker {
+  margin-top: 0px;
 }
 
 
