@@ -13,7 +13,6 @@ gem 'image_optim'
 gem 'image_optim_pack'
 gem 'thin', require: false
 
-
 group :test do
   gem 'minitest'
   gem 'minitest-reporters'
