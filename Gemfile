@@ -11,7 +11,7 @@ gem 'sass'
 gem 'systemu'
 gem 'image_optim'
 gem 'image_optim_pack'
-
+gem 'thin', require: false
 
 group :test do
   gem 'minitest'
