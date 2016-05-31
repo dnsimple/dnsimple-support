@@ -23,7 +23,7 @@ categories:
 
 1.  #### I want to purchase an SSL certificate. What is the DNSimple subscription?
 
-    DNSimple is a subscription-based service. You need an active subscription in our to use our platform and domain services.p
+    DNSimple is a subscription-based service. You need an active subscription in our to use our platform and domain services.
 
     The subscription gives you access to both the included platform services (such as the API access and the DNS hosting), and the paid products (such as the domain registration, SSL certificates, email forwarding, etc.).
 
