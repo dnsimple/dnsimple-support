@@ -29,7 +29,7 @@ categories:
 
 1.  #### I want to purchase an SSL certificate. Do I need a subscription?
 
-    Yes. As explained in our previous FAQ, the SSL certificates are one of our paid products, provided as part of our subscription service.
+    Yes. As explained in the previous question, SSL certificates are one of our paid products, provided as part of our subscription service.
 
     In order to purchase an SSL certificate you need an active subscription at the time of the purchase. You are not required to have an active subscription to use or install the certificate on your domain/server, however please note that if you disable the subscription you will not receive any additional service for the domain or the certificate.
 
