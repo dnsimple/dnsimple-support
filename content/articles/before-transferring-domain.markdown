@@ -22,7 +22,7 @@ If you are currently using DNSSEC, then you must [remove the current DS record](
 
 ## Adding the domain to DNSimple
 
-The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account and add the domain *without* transferring it.
+The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account and [add the domain](/articles/adding-domain/) *without* transferring it.
 
 This will give you the chance to fully set up and test your DNS records *before* you move the domain.
 
