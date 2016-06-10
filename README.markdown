@@ -1,12 +1,12 @@
 # DNSimple Help Site
 
-This is the [DNSimple Help site](http://support.dnsimple.com) built with [nanoc](http://nanoc.stoneship.org/).
+This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc](http://nanoc.stoneship.org/).
 
 ## Setup
 
 Ruby 2, or higher, is required to build the site. Dependencies are managed using Bundler.
 
-    $ git clone https://github.com/aetrion/dnsimple-support.git
+    $ git clone https://github.com/dnsimple/dnsimple-support.git
     $ cd dnsimple-support
     $ bundle
 

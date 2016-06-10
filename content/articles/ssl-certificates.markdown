@@ -16,28 +16,26 @@ categories:
 
 SSL (Secure Sockets Layer) is a security protocol designed to secure the communication between a server and a client, for example a web server and a browser. An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
 
-We offer [two types of SSL certificates](/articles/ssl-certificates-types/) signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
+We offer different types of _domain-validated_ SSL certificates, signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities/).
 
-<note>
+<callout>
 #### Getting started with SSL certificates
 
 Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article that will guide you through the entire process.
-</note>
+</callout>
 
 
-## Supported Certificate Types
+## Certificate Types
 
-We currently provide:
+There are several types of SSL Certificates. They are generally classified by _validation type_ or _secured domains_. If you are not familiar with the differences, take a look at the [SSL certificate types](/articles/ssl-certificates-types/) article.
 
-- Single-name SSL certificates
-- Wildcard SSL certificates
+DNSimple currently provides the following [domain-validated](/articles/ssl-certificates-email-validation) certificates:
 
-The above certificate types are are [domain-validated](/articles/ssl-certificates-email-validation).
+- Single-name SSL certificates (issued by Comodo)
+- Wildcard SSL certificates (issued by Comodo)
 
 <note>
-#### Organization Validated and Extended Validation certificates
-
-We currently don't provide organization-validated and extended-validation certificates.
+We currently don't provide **organization-validated** or **extended-validation** certificates.
 </note>
 
 ### Single-name SSL certificates
