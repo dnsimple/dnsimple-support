@@ -2,7 +2,7 @@
 title: DNSSEC Support
 excerpt: We currently support DS records for registered domains with DNS elsewhere, and we are examining the possibility of adding DNSSEC support to our authoritative name servers in the future.
 categories:
-- Advanced DNS
+- DNS
 ---
 
 # DNSSEC Support

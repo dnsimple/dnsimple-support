@@ -2,7 +2,7 @@
 title: Do you support Reverse DNS (i.e. PTR records)?
 excerpt: 
 categories:
-- Advanced DNS
+- DNS
 ---
 
 # Do you support Reverse DNS (i.e. PTR records)?
