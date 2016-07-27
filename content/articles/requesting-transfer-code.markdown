@@ -13,7 +13,7 @@ The transfer code (also "Authorization Code", "Auth Code") is a code required to
 ##### To request a transfer code
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  Find your domain by searching, you can use the search bar on the dashboard, or the one located at the top of the page in the navbar, as illustrated below. Once you've found the domain you're looking for, click on it to go to the domain page.
 
     ![Domain Page link](/files/domains-domain-link.png)
 
