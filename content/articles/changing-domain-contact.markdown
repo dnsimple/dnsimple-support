@@ -30,7 +30,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 ##### To change the contact information
 
 1.  Log into your DNSimple account.
-1.  On the top-nav menu click the <label>Contacts</label> tab, then click <label>Add a Contact</label>.
+1.  On the top-nav menu click the <label>Contacts</label> tab, then click <label>New Contact</label>.
 
     ![Add contact](/files/change-contact-1.jpg)
 
