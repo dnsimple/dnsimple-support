@@ -76,8 +76,12 @@ module Categories
     category.downcase.tr(' ', '-')
   end
 
-  def url_for_category(category)
+  def category_identifier(category)
     "/categories/#{category_slug(category)}.html"
+  end
+
+  def url_for_category(category)
+    category_identifier(category).gsub(".html", "/")
   end
 
   def link_to_category(category, attributes = {})
@@ -109,7 +113,7 @@ module Categories
             h1: "#{category} articles",
             items: items,
         },
-        url_for_category(category),
+        category_identifier(category),
         :binary => false
       )
     end
