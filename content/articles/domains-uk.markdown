@@ -1,6 +1,6 @@
 ---
 title: .UK Domains
-excerpt: Welcome to DNSimple. This page is about .uk domain names. Hosted DNS has never been this easy.
+excerpt: This article explains the requirements for .UK domain names.
 categories:
 - Domains
 ---
@@ -25,7 +25,7 @@ Because of that, domain name registrations at the second level in `.UK` name reg
 
 `.CO.UK` domain owners have the right to register the associated `.UK` domain within a 5 years period. If a `.UK` is registered and then cancelled prior to these 5 years, the initial owner will lose the right for its re-registration.
 
-## Registering a .UK domain {#registering}
+## Registering a .UK domain {#register}
 
 Because of the [reservation policy](#policy-tld), registering a .UK domain requires some extra diligence. Assuming you have the right to register a `.UK` domain, you will need to use the same registration information (specifically the contact information) you used to register the corresponding `.CO.UK` or `.ORG.UK` domain.
 
@@ -59,11 +59,15 @@ Please make sure the information of the contact in DNSimple matches the informat
 Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
 </callout>
 
-## Transferring a .UK domain {#transferring}
+## Transferring a .UK domain to DNSimple {#transfer}
 
 To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple, follow [these instructions](/articles/transferring-uk-domain/).
 
-To transfer a UK domain out of DNSimple, [contact support](https://dnsimple.com/contact) and provide your domain name and your new registrar's IPS tag.
+## Transferring a .UK domain away from DNSimple {#transfer-away}
+
+To transfer a UK domain away from DNSimple, the procedure is similar to the [instructions to transfer in](/articles/transferring-uk-domain/), but you will need to get the IPS tag of the gaining registrar.
+
+Get the new registrar IPS tag, [contact support](https://dnsimple.com/contact) and provide your domain name and your new registrar's IPS tag.
 
 ## Updating the registrant name
 

@@ -1,6 +1,6 @@
 ---
 title: .IO Domains
-excerpt: Welcome to DNSimple. This page is about .io domains. Hosted DNS has never been this easy.
+excerpt: This article explains the requirements for .IO domain names.
 categories:
 - Domains
 ---

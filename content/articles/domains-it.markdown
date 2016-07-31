@@ -1,6 +1,6 @@
 ---
 title: .IT Domains
-excerpt: Welcome to DNSimple. This page is about .it domains. Hosted DNS has never been this easy.
+excerpt: This article explains the requirements for .IT domain names.
 categories:
 - Domains
 ---
