@@ -110,6 +110,7 @@ module Categories
         %Q{<%= render("/category_index.html", category: "#{category}") %>},
         {
             title: "Articles in #{category}",
+            excerpt: "List of articles in the category #{category}.",
             h1: "#{category} articles",
             items: items,
         },
