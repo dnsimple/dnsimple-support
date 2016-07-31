@@ -39,7 +39,9 @@ Verify that your client has __registered__ with DNSimple.
   
 If needed, [point your client to the signup page](https://dnsimple.com/signup).
   
-<note>It is not necessary that your client have an active subscription, just that they have already signed up for the service.</note>
+<note>
+It is not necessary that your client have an active subscription, just that they have already signed up for the service.
+</note>
   
 ## Adding clients to the new account
 

@@ -25,13 +25,12 @@ As with any domain transfer, in order to avoid the possibility of downtime, you 
 <div class="section-steps" markdown="1">
 ##### To start the transfer
 
-At DNSimple:
-
 1. Log into DNSimple and click on <label>Add a Domain</label>.
 1. Select <label>transfer a domain</label>.
 1. Press <label>Transfer Domain</label>
-- Select a registrant and fill in any extended attributes.
-- Press <label>Transfer Domain</label>
+1. Select a registrant and fill in any extended attributes.
+1. Press <label>Transfer Domain</label>
+</div>
 
 ## Approve the transfer
 
