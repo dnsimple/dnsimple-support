@@ -56,8 +56,7 @@ end
 task :search => :environment do
   puts "creating search index"
   require 'json'
-  @site = Nanoc::Site.new('.')
-  @site.load
+  @site = Nanoc::Int::SiteLoader.new.new_from_cwd
 
   index = []
 
@@ -66,13 +65,13 @@ task :search => :environment do
       item = {
         id: item.identifier,
         title: item.attributes[:title],
-        body: item.raw_content
+        body: item.content
       }
       index << item
     end
   end
 
-  index_file = File.join(@config[:output_dir], "search.json")
+  index_file = File.join(@site.config[:output_dir], "search.json")
 
   File.open(index_file, 'w') do |file|
     file.write(JSON.generate(index))
