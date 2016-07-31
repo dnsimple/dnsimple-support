@@ -28,7 +28,7 @@ module Categories
   #
   # :call-seq: has_category?(category, article) -> boolean
   def has_category?(category, article)
-    if article.identifier.include?("categories")
+    if article.identifier.to_s.include?("categories")
       category_has_category(article, category)
     else
       article_has_category(article, category)
