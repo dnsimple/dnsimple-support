@@ -1,4 +1,4 @@
-class PreprocessFilter < Nanoc3::Filter
+class PreprocessFilter < Nanoc::Filter
   identifier :preprocess
 
   REGEXP_MARKERS = /<(warning|note|callout)>(.*?)<\/\1>/m

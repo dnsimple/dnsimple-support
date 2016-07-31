@@ -21,7 +21,7 @@
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.6.0/lunr.min.js"></script>
 
-  <%= render "analytics" %>
+  <%= render "/analytics.*" %>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
           </a>
         </div>
         <div class="col-md-6">
-          <%= render "input-search", placeholder: "Search..." %>
+          <%= render "/input-search.*", placeholder: "Search..." %>
         </div>
         <div class="col-md-3">
           <a href="https://dnsimple.com/" class="site-link-to-app pull-right">DNSimple app</a>
@@ -50,7 +50,7 @@
         <%= yield %>
       </main>
       <aside id="sidebar" class="col-md-3 col-md-pull-9" role="sidebar">
-        <%= render "sidebar" %>
+        <%= render "/sidebar.*" %>
       </aside>
     </div>
   </div>

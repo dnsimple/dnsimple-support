@@ -2,6 +2,6 @@
 
 <ul class="articles-list">
   <% prioritize(:articles, @item[:items]).each do |item| %>
-    <li class="articles-list-item"><a href="<%= relative_path_to(item) %>"><%= item.attributes[:title] %></a></li>
+    <li class="articles-list-item"><a href="<%= relative_path_to(@items[item.identifier]) %>"><%= item.attributes[:title] %></a></li>
   <% end %>
 </ul>

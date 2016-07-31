@@ -1,8 +1,8 @@
-include Nanoc3::Helpers::Rendering
-include Nanoc3::Helpers::XMLSitemap
+include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::XMLSitemap
 
 def articles
-  @items.select { |item| item.identifier.start_with?("/article") }
+  @items.select { |item| item.identifier.to_s.start_with?("/article") }
 end
 
 def prioritize(what, items, &block)

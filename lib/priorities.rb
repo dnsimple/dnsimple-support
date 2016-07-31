@@ -16,7 +16,7 @@ class Priorities
 
   def sort(what, items)
     index = index_for(what.to_s)
-    items.sort_by { |item| index[block_given? ? yield(item) : item.identifier] || index.size }
+    items.sort_by { |item| index[block_given? ? yield(item) : item.identifier.to_s] || index.size }
   end
 
 

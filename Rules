@@ -18,8 +18,8 @@ preprocess do
   create_category_pages
 end
 
-compile '/assets/css/*/' do
-  if item.identifier =~ %r{/_[^/]+/$}
+compile '/assets/css/**/*' do
+  if item.identifier.to_s =~ %r{/_\w+\.scss$}
     # don't compile partials
   else
     filter :sass, :syntax => :scss, :style => :compressed
@@ -27,40 +27,34 @@ compile '/assets/css/*/' do
   end
 end
 
-compile '/assets/*/' do
-  # don't filter or layout
-end
-
-compile '/files/*/' do
-  # don't filter or layout
-end
-
-compile '/CNAME/' do
-end
-
-compile '/sitemap/' do
+compile '/sitemap.*' do
   filter :erb
 end
 
-compile '/robots/' do
+compile '/robots.*' do
   filter :erb
 end
 
-compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
-    filter :erb
-    filter :preprocess
-    filter :kramdown, toc_levels: [2]
-    filter :postprocess
-    filter :colorize_syntax, default_colorizer: :pygmentsrb
-    layout 'default'
-  end
+compile '/**/*.html' do
+  filter :erb
+  layout '/default.*'
+end
+
+compile '/**/*.markdown' do
+  filter :erb
+  filter :preprocess
+  filter :kramdown, toc_levels: [2]
+  filter :postprocess
+  filter :colorize_syntax, default_colorizer: :pygmentsrb
+  layout '/default.*'
+end
+
+compile '/**/*' do
+  write item.identifier.to_s
 end
 
 
-route '/assets/css/*/' do
+route '/assets/css/**/*' do
   if item.identifier =~ %r{/_[^/]+/$}
     # don't route partials
   else
@@ -68,35 +62,29 @@ route '/assets/css/*/' do
   end
 end
 
-route '/assets/*/' do
+route '/assets/**/*' do
   item.identifier.chop + '.' + item[:extension]
 end
 
-route '/files/*/' do
+route '/files/**/*' do
   item.identifier.chop + '.' + item[:extension]
 end
 
-route '/CNAME/' do
-  '/CNAME'
+route '/sitemap.*' do
+  item.identifier.without_ext
 end
 
-route '/sitemap/' do
-  item.identifier.chop + '.xml'
+route '/robots.*' do
+  item.identifier.without_ext
 end
 
-route '/robots/' do
-  item.identifier.chop + '.txt'
-end
-
-route '*' do
-  if item.binary?
-    # Write item with identifier /foo/ to /foo.ext
-    item.identifier.chop + '.' + item[:extension]
+route '/**/*.{html,markdown}' do
+  if item.identifier =~ '/index.*'
+    '/index.html'
   else
-    # Write item with identifier /foo/ to /foo/index.html
-    item.identifier + 'index.html'
+    item.identifier.without_ext + '/index.html'
   end
 end
 
 
-layout '*', :erb
+layout '/**/*', :erb

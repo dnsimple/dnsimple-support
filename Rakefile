@@ -44,13 +44,12 @@ end
 task :priorities => :environment do
   require 'yaml'
   require 'set'
-  @site = Nanoc::Site.new('.')
-  @site.load
+  @site = Nanoc::Int::SiteLoader.new.new_from_cwd
 
   priorities = Priorities.new
   priorities.update_all(
-      'categories'  => @site.items.lazy.select { |item| item.identifier.start_with?("/categories/") }.map(&:identifier).to_a,
-      'articles'    => @site.items.lazy.select { |item| item.identifier.start_with?("/articles/") }.map(&:identifier).to_a,
+      'categories'  => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/categories/") }.map { |item| item.identifier.to_s }.to_a,
+      'articles'    => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/articles/") }.map { |item| item.identifier.to_s }.to_a,
   )
 end
 
@@ -63,7 +62,7 @@ task :search => :environment do
   index = []
 
   @site.items.each do |item|
-    if item.identifier.start_with?("/articles/")
+    if item.identifier.to_s.start_with?("/articles/")
       item = {
         id: item.identifier,
         title: item.attributes[:title],
@@ -73,7 +72,7 @@ task :search => :environment do
     end
   end
 
-  index_file = File.join(@site.config[:output_dir], "search.json")
+  index_file = File.join(@config[:output_dir], "search.json")
 
   File.open(index_file, 'w') do |file|
     file.write(JSON.generate(index))
