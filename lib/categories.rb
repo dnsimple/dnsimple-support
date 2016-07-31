@@ -5,10 +5,6 @@ module Categories
 
   # Collect all categories from articles
   #
-  # :call-seq:
-  #   all_categories(array) -> array
-  #   all_categories(array, items) -> array
-  #
   # By default all items are scanned. Add a collection to limit the
   # items scanned. The items in the array are Nanoc::Items where the
   # +kind+ is +article+
@@ -55,10 +51,6 @@ module Categories
 
   # Find all articles with a specific category.
   #
-  # :call-seq:
-  #   articles_with_category(category) -> array
-  #   articles_with_category(category, items) -> array
-  #
   # By default all articles are checked. Pass in an array to limit the
   # search to a subset of articles.
   def articles_with_category(category, items = articles)
@@ -67,10 +59,6 @@ module Categories
   memoize :articles_with_category
 
   # Collect all articles and return them in sub-arrays by category.
-  #
-  # :call-seq:
-  #   articles_by_category -> [category, array]
-  #   articles_by_category(items) -> [category, array]
   #
   # By default all articles are checked. Pass in an array to limit the
   # search to a subset of articles.
@@ -89,7 +77,7 @@ module Categories
   end
 
   def url_for_category(category)
-    "/categories/#{category_slug(category)}/"
+    "/categories/#{category_slug(category)}.html"
   end
 
   def link_to_category(category, attributes = {})
@@ -97,9 +85,6 @@ module Categories
   end
 
   # Turn a collection of categories into HTML links.
-  #
-  # :call-seq:
-  #   link_categories(categories) -> array
   #
   # This is ugly, but better here then in the middle of a layout.
   def link_categories(categories)
@@ -118,12 +103,11 @@ module Categories
   def create_category_pages
     articles_by_category.each do |category, items|
       @items.create(
-        "<%= render('category_index', :category => '#{category}') %>",
+        %Q{<%= render("/category_index.html", category: "#{category}") %>},
         {
-            :title => "Articles in #{category}",
-            :h1 => "#{category} articles",
-            :items => items,
-            :categories => category
+            title: "Articles in #{category}",
+            h1: "#{category} articles",
+            items: items,
         },
         url_for_category(category),
         :binary => false

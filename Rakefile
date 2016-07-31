@@ -49,8 +49,8 @@ task :priorities => :environment do
 
   priorities = Priorities.new
   priorities.update_all(
-      'categories'  => @site.items.lazy.select { |item| item.identifier.start_with?("/categories/") }.map(&:identifier).to_a,
-      'articles'    => @site.items.lazy.select { |item| item.identifier.start_with?("/articles/") }.map(&:identifier).to_a,
+      'categories'  => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/categories/") }.map(&:identifier).to_a,
+      'articles'    => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/articles/") }.map(&:identifier).to_a,
   )
 end
 
@@ -63,7 +63,7 @@ task :search => :environment do
   index = []
 
   @site.items.each do |item|
-    if item.identifier.start_with?("/articles/")
+    if item.identifier.to_s.start_with?("/articles/")
       item = {
         id: item.identifier,
         title: item.attributes[:title],
