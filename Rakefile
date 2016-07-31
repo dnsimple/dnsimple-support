@@ -73,7 +73,7 @@ task :search => :environment do
     end
   end
 
-  index_file = File.join(@site.config[:output_dir], "search.json")
+  index_file = File.join(@config[:output_dir], "search.json")
 
   File.open(index_file, 'w') do |file|
     file.write(JSON.generate(index))

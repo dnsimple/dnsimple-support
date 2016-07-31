@@ -1,7 +1,7 @@
 include Nanoc::Helpers::LinkTo
 
 module Categories
-  extend Nanoc::Memoization
+  extend Nanoc::Int::Memoization
 
   # Collect all categories from articles
   #
@@ -117,7 +117,7 @@ module Categories
   # article is added to nanoc's +@items+ array for further processing.
   def create_category_pages
     articles_by_category.each do |category, items|
-      @items << Nanoc::Item.new(
+      @items.create(
         "<%= render('category_index', :category => '#{category}') %>",
         {
             :title => "Articles in #{category}",
