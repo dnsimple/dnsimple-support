@@ -44,13 +44,12 @@ end
 task :priorities => :environment do
   require 'yaml'
   require 'set'
-  @site = Nanoc::Site.new('.')
-  @site.load
+  @site = Nanoc::Int::SiteLoader.new.new_from_cwd
 
   priorities = Priorities.new
   priorities.update_all(
-      'categories'  => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/categories/") }.map(&:identifier).to_a,
-      'articles'    => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/articles/") }.map(&:identifier).to_a,
+      'categories'  => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/categories/") }.map { |item| item.identifier.to_s }.to_a,
+      'articles'    => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/articles/") }.map { |item| item.identifier.to_s }.to_a,
   )
 end
 
