@@ -21,5 +21,6 @@ end
 group :development do
   gem 'adsf'
   gem 's3_website'
+  gem 'guard-nanoc'
 end
 
