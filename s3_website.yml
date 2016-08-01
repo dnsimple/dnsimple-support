@@ -44,8 +44,11 @@ cloudfront_distribution_config:
 
 redirects:
   articles/can-multi-year-ssl-certificate: /articles/can-multi-year-ssl-certificates/
+  articles/can-multi-year-ssl-certificate/index.html: /articles/can-multi-year-ssl-certificates/
   articles/secondary-dns-support: /articles/secondary-dns/
+  articles/secondary-dns-support/index.html: /articles/secondary-dns/
   articles/advanced-editor: /articles/record-editor/
+  articles/advanced-editor/index.html: /articles/record-editor/
 #   about.php: about.html
 #   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
 
