@@ -1,6 +1,6 @@
 ---
 title: What is a URL record?
-excerpt: Welcome to DNSimple. This article is about our URL record. Enjoy low cost hosted DNS services, an easy to use web interface, and REST API.
+excerpt: What is an URL record and how to create URL records with DNSimple.
 categories:
 - DNS
 ---

@@ -1,6 +1,6 @@
 ---
 title: What is a NS Record?
-excerpt: Welcome to DNSimple. This page describes the NS record. Hosted DNS has never been this easy.
+excerpt: What is a NS record and how to create NS records with DNSimple.
 categories:
 - DNS
 ---

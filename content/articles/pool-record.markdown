@@ -1,6 +1,6 @@
 ---
 title: What is a POOL record?
-excerpt: Welcome to DNSimple. This page is about the POOL record. Hosted DNS has never been this easy.
+excerpt: What is an POOL record and how to create POOL records with DNSimple.
 categories:
 - DNS
 ---

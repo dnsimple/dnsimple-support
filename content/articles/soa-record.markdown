@@ -1,6 +1,6 @@
 ---
 title: What is a SOA Record?
-excerpt: Welcome to DNSimple. This page is about the SOA record. Hosted DNS has never been this easy.
+excerpt: What is a SOA record and how to create SOA records with DNSimple.
 categories:
 - DNS
 ---

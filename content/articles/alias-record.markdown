@@ -1,6 +1,6 @@
 ---
 title: What is an ALIAS record?
-excerpt: Welcome to DNSimple. This page is about our ALIAS record. Hosted DNS has never been this easy.
+excerpt: What is an ALIAS record and how to create ALIAS records with DNSimple.
 categories:
 - DNS
 ---

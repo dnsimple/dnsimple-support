@@ -1,6 +1,6 @@
 ---
 title: What is a CNAME record?
-excerpt: Welcome to DNSimple. This page describes the CNAME record. Hosted DNS has never been this easy.
+excerpt: What is a CNAME record and how to create CNAME records with DNSimple.
 categories:
 - DNS
 ---

@@ -1,6 +1,6 @@
 ---
 title: Do you have query limits or charged based on query volume?
-excerpt: Welcome to DNSimple. This page is about DNS query limits. Hosted DNS has never been this easy.
+excerpt: Currently we do not implement query limits nor do we charge based on query volume.
 categories:
 - DNSimple
 - DNS
