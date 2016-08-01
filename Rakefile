@@ -20,7 +20,7 @@ task :compile => [:clean] do
 end
 
 desc "Publish to S3"
-task :publish => [:compile, :search, :imgoptim] do
+task :publish => [:compile, :imgoptim] do
   puts "Publishing to S3"
   puts `s3_website push`
   puts "Published"
@@ -51,31 +51,6 @@ task :priorities => :environment do
       'categories'  => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/categories/") }.map { |item| item.identifier.to_s }.to_a,
       'articles'    => @site.items.lazy.select { |item| item.identifier.to_s.start_with?("/articles/") }.map { |item| item.identifier.to_s }.to_a,
   )
-end
-
-task :search => :environment do
-  puts "creating search index"
-  require 'json'
-  @site = Nanoc::Int::SiteLoader.new.new_from_cwd
-
-  index = []
-
-  @site.items.each do |item|
-    if item.identifier.to_s.start_with?("/articles/")
-      item = {
-        id: item.identifier,
-        title: item.attributes[:title],
-        body: item.content.string,
-      }
-      index << item
-    end
-  end
-
-  index_file = File.join(@site.config[:output_dir], "search.json")
-
-  File.open(index_file, 'w') do |file|
-    file.write(JSON.generate(index))
-  end
 end
 
 desc "Optimizes the image size in /files"

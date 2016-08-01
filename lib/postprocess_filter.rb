@@ -7,7 +7,7 @@ class PostprocessFilter < Nanoc::Filter
     content
   end
 
-private
+  private
 
   def format_table(content)
     content.gsub!(/<table>/, '<table class="table">')
