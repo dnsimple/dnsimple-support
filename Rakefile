@@ -65,7 +65,7 @@ task :search => :environment do
       item = {
         id: item.identifier,
         title: item.attributes[:title],
-        body: item.content
+        body: item.content.string,
       }
       index << item
     end
@@ -76,7 +76,6 @@ task :search => :environment do
   File.open(index_file, 'w') do |file|
     file.write(JSON.generate(index))
   end
-
 end
 
 desc "Optimizes the image size in /files"
