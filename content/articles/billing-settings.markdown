@@ -46,7 +46,7 @@ You can modify this information anytime and as many times as you need to. The ne
 ### Changing your billing settings
 
 <div class="section-steps" markdown="1">
-To update your billing settings:
+##### To update your billing settings:
 
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click on the <label>Billing</label> tab.
