@@ -7,6 +7,13 @@ categories:
 
 # What is a URL record?
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to redirect a host name to another URL using our [redirector](/articles/redirector).
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
@@ -19,7 +26,7 @@ For more information about the service, supported redirect types and limitations
 You can manage the URL records (redirects) for a domain from the [record editor](/articles/record-editor).
 
 <div class="section-steps" markdown="1">
-##### To create an URL record
+#### To create an URL record {#create}
 
 1.  In the record editor, click <label>Add</label> and select <label>URL</label> to add a new URL record.
 
@@ -42,27 +49,27 @@ You can manage the URL records (redirects) for a domain from the [record editor]
 </div>
 
 <div class="section-steps" markdown="1">
-##### To update an URL record
+#### To update an URL record {#update}
 
 1.  In the record editor, search the record and click on the Pencil icon to edit it.
 
-    ![](/files/record-url-create-item-edit.png)
+    ![](/files/record-url-item-edit.png)
 
 1.  Update the information and click <label>Update Record</label> the save the record.
 </div>
 
 <div class="section-steps" markdown="1">
-##### To delete an URL record
+#### To delete an URL record {#delete}
 
 1.  In the record editor, search the record and click on the Trash icon to delete it.
 
-    ![](/files/record-url-create-item-delete.png)
+    ![](/files/record-url-item-delete.png)
 
 1.  Confirm the dialog to delete the record.
 </div>
 
 
-### HTTPS redirects
+## HTTPS redirects
 
 The redirector doesn't support HTTPS, therefore you cannot redirect an HTTPS request.
 
