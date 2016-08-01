@@ -23,7 +23,7 @@ To transfer a domain to another registrar the standard procedure requires you to
 1. start the transfer at the gaining registrar
 1. approve the transfer request sent via email
 
-The first two steps are handled by DNSimple. The other steps are responsibility of the gaining registrar, and we are not able to provide support for them.
+The first two steps are handled at DNSimple. The other steps are the responsibility of the gaining registrar, and we are not able to provide support for them.
 
 The _Transfer Code_ (also called _Authorization Code_, _Auth Code_) is a code required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most of TLDs, including all the gTLDs such as `.COM`, `.NET`, `.ORG`. However, some TLDs have different transfer procedures:
 
