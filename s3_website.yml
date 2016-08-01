@@ -51,6 +51,8 @@ redirects:
   articles/advanced-editor/index.html: /articles/record-editor/
   articles/moving-domain: /articles/transferring-domain-between-accounts/
   articles/moving-domain/index.html: /articles/transferring-domain-between-accounts/
+  articles/url-redirect-ssl: /articles/redirector-https/
+  articles/url-redirect-ssl/index.html: /articles/redirector-https/
 #   about.php: about.html
 #   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
 

@@ -7,7 +7,12 @@ categories:
 
 # What is a URL record?
 
-The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to [redirect a hostname to another URL](/articles/redirect).
+The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to redirect a host name to another URL using our [redirector](/articles/redirector).
+
+This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
+
+For more information about the service, supported redirect types and limitations visit the [redirector](/articles/redirector) article.
+
 
 ## Create a URL record
 
@@ -21,47 +26,9 @@ Enter the hostname you would like to redirect from, and the URL to redirect to.
 
 ![Create URL record](/files/dnsimple-url-record-create.png)
 
-## Redirecting over SSL
 
-Right now it is not possible for our redirection service to handle SSL requests for your domain names. Take a look at the article [Can a URL record redirect requests over SSL?](/articles/url-redirect-ssl) for additional information and an explanation of alternatives.
+### HTTPS redirects
 
-## URL to URL redirects
+The redirector doesn't support HTTPS, therefore you cannot redirect an HTTPS request.
 
-URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs. The following redirect will not work:
-
-The following redirect will not work:
-
-  foo.com/blog/ to bar.com/blog
-
-because DNS records cannot be added to URLs. However, this would work:
-
-  blog.foo.com to bar.com/blog
-
-since a URL record could be added to blog.foo.com.
-
-## Wildcard URL redirects
-
-You can configure a wildcard redirect using the same conventions of a DNS wildcard record. However, the target cannot contain any wildcard reference.
-
-    # Valid redirects
-    *.foo.com to bar.com
-    *.foo.com to bar.com/path
-
-    # This will redirect to the hostname 
-    *.foo.com to *.bar.com
-
-The wildcard pattern can only be on the left outermost level.
-
-    # Valid redirects
-    *.foo.com to bar.com
-
-    # Invalid redirects
-    foo.*.bar.com to baz.com
-
-## Match-based URL redirects
-
-You currently cannot configure a redirect target that includes a back-reference (match) from the redirect source. For example, the following redirects will not work as expected:
-
-    *.foo.com to bar.com/$1
-    *.foo.com to $1.bar.com
-
+Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of possible of alternative solutions.
