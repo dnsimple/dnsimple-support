@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DNSimple provides an SSL certificate renewal interface you can use to purchase a renewal for an SSL certificate. Please note that [an SSL certificate renewal is effectively a new SSL certificate purchase](/articles/how-certificate-renewal-works/).
+DNSimple provides an SSL certificate renewal interface you can use to purchase a renewal for an SSL certificate. Please note that [an SSL certificate renewal is effectively a new SSL certificate purchase](/articles/how-certificate-renewal-works).
 
 All DNSimple SSL certificates, including renewals, are valid for one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
@@ -34,7 +34,7 @@ These are the steps required in order to successfully renew an existing SSL cert
 <note>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 
-There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works/)
+There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works)
 </note>
 
 <div class="section-steps" markdown="1">
@@ -50,9 +50,9 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 
 1.  Follow the instructions to purchase the certificate renewal.
 
-    1.  Check the certificate [common name](/articles/what-is-common-name/) matches the one you want to renew.
-    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates/) feature is only available to new plans.
-    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
+    1.  Check the certificate [common name](/articles/what-is-common-name) matches the one you want to renew.
+    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.
+    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
     ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
@@ -64,9 +64,9 @@ There is no way to extend the expiration of an existing certificate &mdash; [Lea
 
 Once you purchased the certificate renewal, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**. If we generated the CSR for you, each certificate has a different private key therefore you will also need to replace the private key.
 
-These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates).
 
-You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation/) again, since a new certificate will be issued.
+You will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation) again, since a new certificate will be issued.
 
 <warning>
 **If you don't verify the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.

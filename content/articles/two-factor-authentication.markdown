@@ -118,7 +118,7 @@ When you enter a valid recovery code, the two-factor protection will be immediat
 
 Two-factor protection is attached to a user profile, not to an account, exactly as your username and password credentials.
 
-If [an account has multiple users](/articles/account-users/), each member will need to enable two-factor authentication separately. If your user profile has access to more than one account, you need to enable two-factor only once.
+If [an account has multiple users](/articles/account-users), each member will need to enable two-factor authentication separately. If your user profile has access to more than one account, you need to enable two-factor only once.
 
 
 ## Authenticator applications {#authenticator}

@@ -11,7 +11,7 @@ The **URL** record is a [special DNSimple record](/articles/supported-dns-record
 
 ## Create a URL record
 
-Go to the [record editor](/articles/record-editor/) for your domain and select a URL record from the *Add Record* dropdown.
+Go to the [record editor](/articles/record-editor) for your domain and select a URL record from the *Add Record* dropdown.
 
 Enter the hostname you would like to redirect from, and the URL to redirect to.
 

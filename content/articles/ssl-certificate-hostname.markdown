@@ -7,7 +7,7 @@ categories:
 
 # Choosing the SSL Certificate Common Name
 
-An SSL certificate is required to be associated with one or more hostnames, called [**common name**](/articles/what-is-common-name/).
+An SSL certificate is required to be associated with one or more hostnames, called [**common name**](/articles/what-is-common-name).
 
 The common name determines which hostnames are covered by the certificate and must be selected at the time of the purchase. DNSimple provides both [single name and wildcard certificates](/articles/ssl-certificates).
 

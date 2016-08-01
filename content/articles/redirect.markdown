@@ -13,7 +13,7 @@ This feature can be used, for example, to redirect the www version of a domain t
 
 ## Configure a redirect
 
-Go to the [advanced editor](/articles/record-editor/) for your domain and select a `URL` record.
+Go to the [advanced editor](/articles/record-editor) for your domain and select a `URL` record.
 
 ## Redirect status code
 

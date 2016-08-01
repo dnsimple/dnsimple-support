@@ -18,11 +18,11 @@ Transferring domain names from one registrar to another is often something that 
 
 ## Ensure the DS record is removed
 
-If you are currently using DNSSEC, then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring to our name servers.
+If you are currently using DNSSEC, then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring to our name servers.
 
 ## Adding the domain to DNSimple
 
-The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account and [add the domain](/articles/adding-domain/) *without* transferring it.
+The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account and [add the domain](/articles/adding-domain) *without* transferring it.
 
 This will give you the chance to fully set up and test your DNS records *before* you move the domain.
 
@@ -74,7 +74,7 @@ $ dig @ns1.dnsimple.com www.example.com CNAME
 
 ## Pointing the domain to DNSimple
 
-After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted/) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
+After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
 
 <warning>
 This step is essential as it ensures that your DNS will continue operating during the transfer process.
@@ -91,4 +91,4 @@ It may take up to 24 hours for changes to propagate.
 
 ## Transferring the domain to DNSimple
 
-Once you're satisfied that the DNS setup is complete and DNSimple is providing DNS service for your domain then you may [begin the transfer process](/articles/transferring-domain/) without concern for downtime.
+Once you're satisfied that the DNS setup is complete and DNSimple is providing DNS service for your domain then you may [begin the transfer process](/articles/transferring-domain) without concern for downtime.

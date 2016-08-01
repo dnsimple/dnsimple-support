@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast/).
+DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).
 
 
 ## Using DNSimple as DNS hosting provider
@@ -23,11 +23,11 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 1.  **Keep the domain registration at your current registrar and just transfer the DNS management to us.**
 
-    If you simply want to use DNSimple to host your DNS for a domain, then follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
+    If you simply want to use DNSimple to host your DNS for a domain, then follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted).
 
 1.  **Transfer the domain registration and DNS management to us.**
 
-    If you want DNSimple to act as your domain registrar, then follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain/).
+    If you want DNSimple to act as your domain registrar, then follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain).
 
 If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tld-pricing) with us and subscribe to a DNS hosting plan to manage the domain with us.
 
@@ -36,12 +36,12 @@ In order to use our DNS hosting service the account must be subscribed to a vali
 
 ## Adding the domain
 
-In order to use our DNS hosting services you first need to [add the domain to a DNSimple account](/articles/adding-domain/). Depending on whether you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/transferring-domain/) the domain to us.
+In order to use our DNS hosting services you first need to [add the domain to a DNSimple account](/articles/adding-domain). Depending on whether you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/transferring-domain) the domain to us.
 
 
 ## Configuring the domain records
 
-You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor/). From the record editor you can create, delete and update the DNS records that represent the DNS zone of your domain.
+You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor you can create, delete and update the DNS records that represent the DNS zone of your domain.
 
 
 ## Enabling/disabling the DNS hosting for a domain

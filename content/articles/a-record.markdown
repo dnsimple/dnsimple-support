@@ -56,4 +56,4 @@ In DNSimple we represent A record with the following information:
 
 ## Managing A records
 
-You can create, update and delete A records for your domain using the [DNSimple record editor](/articles/record-editor/).
+You can create, update and delete A records for your domain using the [DNSimple record editor](/articles/record-editor).

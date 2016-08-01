@@ -7,7 +7,7 @@ categories:
 
 # How do I determine the Certificate Authority that signed my SSL certificate?
 
-To determine the [Certificate Authority](/articles/what-is-certificate-authority/) that issued your certificate, open the website in a browser and click on the certificate information.
+To determine the [Certificate Authority](/articles/what-is-certificate-authority) that issued your certificate, open the website in a browser and click on the certificate information.
 
 The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
 

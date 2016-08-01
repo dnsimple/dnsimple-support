@@ -112,7 +112,7 @@ If you recently updated the domain, see the section *Name server change propagat
 
 ## Ensure the DS record is removed
 
-If you switch DNS providers, and have DNSSEC enabled, then you must [remove the current DS record first](/articles/ds-records-changing-dns/).
+If you switch DNS providers, and have DNSSEC enabled, then you must [remove the current DS record first](/articles/ds-records-changing-dns).
 
 If you have transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 

@@ -19,7 +19,7 @@ Your domain apex is the second or third level domain provided to you by your dom
 To point your apex to Heroku you have 2 options:
 
 1. Use the Heroku one-click service.
-1. Manually add an [ALIAS record](/articles/alias-record/).
+1. Manually add an [ALIAS record](/articles/alias-record).
 
 
 Once your apex domain is pointing to correct place you will have to configure the custom domain at Heroku.
@@ -36,7 +36,7 @@ To apply the Heroku one-click service to your domain follow [these instructions]
 
 <warning>
 If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/ssl-certificate-
-herokuapp-error/) when accessing the HTTPS version of the site.
+herokuapp-error) when accessing the HTTPS version of the site.
 </warning>
 
 These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application:

@@ -7,12 +7,12 @@ categories:
 
 # Secondary DNS configuration with DNSMadeEasy
 
-For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns/). 
+For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns). 
 
 **Requirements**
 
 * An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
-* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple/)
+* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple)
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
