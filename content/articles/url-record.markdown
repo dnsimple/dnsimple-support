@@ -14,17 +14,52 @@ This feature can be used, for example, to redirect the www version of a domain t
 For more information about the service, supported redirect types and limitations visit the [redirector](/articles/redirector) article.
 
 
-## Create a URL record
+## Manage URL records
 
-Go to the [record editor](/articles/record-editor) for your domain and select a URL record from the *Add Record* dropdown.
+You can manage the URL records (redirects) for a domain from the [record editor](/articles/record-editor).
 
-Enter the hostname you would like to redirect from, and the URL to redirect to.
+<div class="section-steps" markdown="1">
+##### To create an URL record
 
-- `hostname`: The hostname is the name part of the non-HTTPS fully-qualified domain name you want to handle. For example, if you want to redirect `example.com` leave it blank. To redirect a subdomain such as `www.example.com`, enter only `www`.
+1.  In the record editor, click <label>Add</label> and select <label>URL</label> to add a new URL record.
 
-- `URL`: The HTTP or HTTPS URL to redirect to. It can be also be a subdirectory of a site or a single page.
+    ![](/files/record-url-create-select.png)
 
-![Create URL record](/files/dnsimple-url-record-create.png)
+1.  Enter the URL record information.
+
+    ![](/files/record-url-create-new.png)
+
+    - The _Name_ is the subdomain you want to redirect, without the domain name. For example, if you want to redirect `wwww.example.com` enter `www`. Leave it blank to redirect the root domain `example.com`.
+
+    - The _Destination URL_ is the URL where the domain will be redirected. It can be also be a subdirectory of a site or a single page.
+
+    Once ready, click <label>Add Record</label> to confirm and create the record.
+
+1.  The record is created and will be visible in the record list.
+
+    ![](/files/record-url-item.png)
+
+</div>
+
+<div class="section-steps" markdown="1">
+##### To update an URL record
+
+1.  In the record editor, search the record and click on the Pencil icon to edit it.
+
+    ![](/files/record-url-create-item-edit.png)
+
+1.  Update the information and click <label>Update Record</label> the save the record.
+</div>
+
+<div class="section-steps" markdown="1">
+##### To delete an URL record
+
+1.  In the record editor, search the record and click on the Trash icon to delete it.
+
+    ![](/files/record-url-create-item-delete.png)
+
+1.  Confirm the dialog to delete the record.
+</div>
 
 
 ### HTTPS redirects
