@@ -39,7 +39,7 @@ Start Slacking with the `/dnsimple` commands.
 
 ### Check if a domain is available
 
-`/dnsimple check example.com`
+    /dnsimple check example.com
 
 ### Register a domain
 
@@ -47,19 +47,19 @@ Use `/dnsimple register` to register a domain. You can specify several options t
 
 Registering `example.com`:
 
-```/dnsimple register example.com registrant=1```
+    /dnsimple register example.com registrant=1
 
 Registering `example.com` without auto renewal:
 
-```/dnsimple register example.com registrant=2 auto_renewal=false```
+    /dnsimple register example.com registrant=2 auto_renewal=false
 
 Registering `example.com` enabling whois privacy:
 
-```/dnsimple register example.com registrant=3 privacy=true```
+    /dnsimple register example.com registrant=3 privacy=true
 
 Mixing it all together:
 
-```/dnsimple register example.com registrant=1 auto_renew=true privacy=true```
+    /dnsimple register example.com registrant=1 auto_renew=true privacy=true
 
 Some things you should know:
 1. You must specify a registrant. If you don't you will be prompted with a list of contacts to choose from.
@@ -70,7 +70,7 @@ Some things you should know:
 
 ### List the records of a domain
 
-`/dnsimple list record example.com`
+    /dnsimple list record example.com
 
 We will only show information for the first 20 records. All `NS` and `SOA` records will be filtered out. If you have more than those you should use the link to see them all in the app.
 
@@ -80,19 +80,19 @@ Use `/dnsimple add record` to add a record to a domain. You will have to specify
 
 Adding an ALIAS record to `example.com`:
 
-```/dnsimple add record example.com name=[] type=ALIAS content=example.provider.com```
+    /dnsimple add record example.com name=[] type=ALIAS content=example.provider.com
 
 Adding a URL record to `example.com` for the `www` subdomain:
 
-```/dnsimple add record example.com name=www type=url content=http://example.com```
+    /dnsimple add record example.com name=www type=url content=http://example.com
 
 Adding a TXT record to `example.com` for the `_` subdomain:
 
-```/dnsimple add record example.com name=_ type=TXT content=[record content with spaces]```
+    /dnsimple add record example.com name=_ type=TXT content=[record content with spaces]
 
 Mixing it all together:
 
-```/dnsimple add record example.com name=[] type=mx content=mxa.mailgun.com priority=10 ttl=600```
+    /dnsimple add record example.com name=[] type=mx content=mxa.mailgun.com priority=10 ttl=600
 
 Some things you should know:
 
@@ -104,7 +104,7 @@ Some things you should know:
 
 ### List the contacts in your account
 
-`/dnsimple list contacts`
+    /dnsimple list contacts
 
 We will only show information for the first 15 contacts. If you have more than those you should use the link to see them all in the app.
 
@@ -112,10 +112,10 @@ You can use the contact number (under the `#` column) to reference contacts for 
 
 ### List the domains in your account
 
-`/dnsimple list domains`
+    /dnsimple list domains
 
 We will only show information for the first 15 domains. If you have more than those you should use the link to see them all in the app.
 
 ### Show information for a single domain in your account
 
-`/dnsimple show domain howdns.works`
+    /dnsimple show domain howdns.works

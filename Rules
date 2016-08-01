@@ -43,9 +43,9 @@ end
 compile '/**/*.markdown' do
   filter :erb
   filter :preprocess
-  filter :kramdown, toc_levels: [2]
+  filter :kramdown, toc_levels: [2], syntax_highlighter: nil, input: "GFM"
   filter :postprocess
-  filter :colorize_syntax, default_colorizer: :pygmentsrb
+  filter :colorize_syntax, default_colorizer: :rouge
   layout '/default.*'
 end
 
