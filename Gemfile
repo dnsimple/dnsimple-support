@@ -3,14 +3,14 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'nanoc', '~> 4.0'
 gem 'builder'
+gem 'image_optim'
+gem 'image_optim_pack'
 gem 'kramdown'
 gem 'mime-types'
 gem 'nokogiri'
-gem 'pygments.rb'
+gem 'rouge'
 gem 'sass'
 gem 'systemu'
-gem 'image_optim'
-gem 'image_optim_pack'
 gem 'thin', require: false
 
 group :test do

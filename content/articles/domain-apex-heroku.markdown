@@ -45,7 +45,7 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 ##### Creating an ALIAS for the apex domain
 
 1. Log into your DNSimple account.
-1. Follow [these instructions](/articles/advanced-editor/#access-the-record-editor) to edit your domain's records.
+1. Follow [these instructions](/articles/record-editor/#access-the-record-editor) to edit your domain's records.
 1. Click *Add a Record* and select the *ALIAS* record type.
   ![Add a Record](/files/add-alias-heroku-1.jpg)
 1. In the form enter the following settings:

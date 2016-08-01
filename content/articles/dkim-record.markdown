@@ -23,7 +23,7 @@ If you are given a string representing the DKIM, it will usually look something 
 
     k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
 
-This should be inserted into a TXT record. You can do this by following the instructions for [creating a record](http://support.dnsimple.com/articles/advanced-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given in the Content field.
+This should be inserted into a TXT record. You can do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given in the Content field.
 
 Your provider will also have given you a specific subdomain to use, usually something like this:
 
