@@ -1,6 +1,6 @@
 ---
 title: What is a SRV Record?
-excerpt: Welcome to DNSimple. This page is about the SRV record. Hosted DNS has never been this easy.
+excerpt: What is a SRV record and how to create SRV records with DNSimple.
 categories:
 - DNS
 ---

@@ -8,7 +8,7 @@ categories:
 
 # Whois Privacy and Domain Transfers
 
-When you [transfer a domain name from another registrar into DNSimple](/articles/transferring-domain/), we are required by ICANN to send a transfer verification email to the current registrant email address. If you start a domain transfer while having whois privacy enabled at your current domain registrar, there is a high probability that the transfer verification email will not be delivered.
+When you [transfer a domain name from another registrar into DNSimple](/articles/transferring-domain), we are required by ICANN to send a transfer verification email to the current registrant email address. If you start a domain transfer while having whois privacy enabled at your current domain registrar, there is a high probability that the transfer verification email will not be delivered.
 
 There are several reasons a whois privacy provider might not deliver domain transfer emails:
 

@@ -31,7 +31,7 @@ The email validation process consists of a few steps:
 
 1. When you purchase a certificate, we show you a list of authoritative emails identified by the Certificate Authority for the domain associated with the certificate
 1. You select an email from the list.
-1. The [Certificate Authority](/articles/what-is-certificate-authority/) sends a verification email (also called DCV email) to the recipient with an unique link to approve the certificate and validate your domain ownership.
+1. The [Certificate Authority](/articles/what-is-certificate-authority) sends a verification email (also called DCV email) to the recipient with an unique link to approve the certificate and validate your domain ownership.
 1. **You click on the link to validate and approve the certificate**. At this point, the certificate's authenticity is validated and the authority will generate it.
 
 ## Email requirements {#requirements}
@@ -55,7 +55,7 @@ Alternatively, **the approval email can be sent to a different email address onl
 ## Email validation and WHOIS privacy {#whois-privacy}
 
 <warning>
-[Whois Privacy Protection services](/articles/what-is-whois-privacy/) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
+[Whois Privacy Protection services](/articles/what-is-whois-privacy) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
 </warning>
 
 If the whois privacy is enabled for the domain associated with the certificate, the privacy email (e.g. `wqyygglqlt@whoisprivacyprotect.com`) will be included in the list of possible emails to be used. However, it's not guaranteed that the delivery will be successful and DNSimple has no control over the delivery of the validation email.
@@ -115,7 +115,7 @@ Before proceeding, **take a moment to read the information at the beginning of t
 
 Here's some possible solutions:
 
-1.  Temporarily configure one of the email addresses in the list (either as a full mailbox or as an alias/forward to an existing mailbox). If the domain doesn't have any email service associated and you manage the DNS with us, you can use our [email forwarding](/articles/email-forwarding/) service to quickly create an email for `admin@example.com` and forward it to a personal or private email.
+1.  Temporarily configure one of the email addresses in the list (either as a full mailbox or as an alias/forward to an existing mailbox). If the domain doesn't have any email service associated and you manage the DNS with us, you can use our [email forwarding](/articles/email-forwarding) service to quickly create an email for `admin@example.com` and forward it to a personal or private email.
 
 1.  If you want to use a different email address either from the same domain or a different one, check the [email requirements](#requirements) and update the WHOIS information of the domain to include the email address in at least one of the WHOIS contact (e.g. registrant/owner, technical contact or admin contact).
 

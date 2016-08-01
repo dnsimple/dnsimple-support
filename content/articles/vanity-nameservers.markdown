@@ -55,4 +55,4 @@ You will be presented with a page on which you may disable the vanity name serve
 
 ![Disable Vanity Name Servers](/files/vanity-name-servers-disable.png)
 
-Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you do not have the domain registered with us, you should [change the delegation with your registrar to our name servers](http://support.dnsimple.com/articles/delegating-dnsimple-hosted/).
+Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you do not have the domain registered with us, you should [change the delegation with your registrar to our name servers](http://support.dnsimple.com/articles/delegating-dnsimple-hosted).

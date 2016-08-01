@@ -26,7 +26,7 @@ The validation level determines the method adopted by the Certificate Authority 
 
 The Domain Validated SSL Certificate validates the domain is registered and someone with admin rights is aware of and approves the certificate request.
 
-The validation process is normally performed [via email](/articles/ssl-certificates-email-validation/) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain.
+The validation process is normally performed [via email](/articles/ssl-certificates-email-validation) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain.
 
 The order normally takes from a few minutes to a few hours.
 
@@ -35,7 +35,7 @@ If the certificate is valid and signed by a trusted authority, the browsers indi
 ![](/files/dnsimple-ssltypes-https.png)
 
 <callout>
-DNSimple currently provides both [single-name and wildcard](/articles/ssl-certificates/) domain-validated certificates.
+DNSimple currently provides both [single-name and wildcard](/articles/ssl-certificates) domain-validated certificates.
 </callout>
 
 ### Organization Validated SSL Certificates
@@ -84,7 +84,7 @@ For example, if you purchase a certificate for `www.example.com` it will not sec
 On sole discretion of the certificate authority, if you purchase a single-name certificate for the www hostname (www.example.com) the certificate may also include the root domain.
 
 <callout>
-DNSimple currently provides [single-name certificates](/articles/ssl-certificates/).
+DNSimple currently provides [single-name certificates](/articles/ssl-certificates).
 </callout>
 
 ### Wildcard SSL Certificates
@@ -94,7 +94,7 @@ Wildcard SSL certificates protect an unlimited number of subdomains for a single
 For example, if you purchase a certificate for `*.example.com` it will secure `foo.example.com`, `bar.example.com`, etc. However, it will not secure `foo.else.example.com`.
 
 <callout>
-DNSimple currently provides [wildcard certificates](/articles/ssl-certificates/).
+DNSimple currently provides [wildcard certificates](/articles/ssl-certificates).
 </callout>
 
 ### Multi-Domain SSL Certificates

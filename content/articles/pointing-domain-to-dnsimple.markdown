@@ -13,11 +13,11 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 
 ## Domain registered with DNSimple
 
-Follow these instructions to [delegate a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+Follow these instructions to [delegate a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered).
 
 ## Domain registered with another provider
 
-Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
+Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted).
 
 <note>
 #### Name server propagation

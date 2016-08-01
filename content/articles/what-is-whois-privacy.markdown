@@ -11,7 +11,7 @@ Most domain names registered through DNSimple, or any other domain registrar for
 
 This information is often displayed in the global Whois system (also known as WHOIS). Information displayed in the global WHOIS is public and can be viewed by anyone.
 
-If you would like to keep your contact information private for a domain then you may sign up for the [WHOIS privacy protection service](/articles/whois-privacy/).
+If you would like to keep your contact information private for a domain then you may sign up for the [WHOIS privacy protection service](/articles/whois-privacy).
 
 This service will replace the public information that you provide with an anonymous proxy identity in the public WHOIS database. This includes replacing your email address with a proxy email address and replacing your address and contact information with the information from an entity called "Whois Privacy Protection Service, Inc.".
 

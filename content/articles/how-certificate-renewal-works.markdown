@@ -14,12 +14,12 @@ However, to keep things simple, DNSimple provides a certificate renewal interfac
 We call it *renewal*, however an SSL certificate renewal is effectively a new SSL certificate purchase.
 
 <note>
-When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation/) again since a new certificate will be issued.
+When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation) again since a new certificate will be issued.
 
 The brand new certificate must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 </note>
 
-To renew your certificate follow the steps described in the [renewing an SSL certificate](/articles/renewing-ssl-certificates/) article. Remember to install the brand new certificate in place of the existing one.
+To renew your certificate follow the steps described in the [renewing an SSL certificate](/articles/renewing-ssl-certificates) article. Remember to install the brand new certificate in place of the existing one.
 
 <warning>
 If you don't approve the certificate, the renewal is not completed. If you don't replace the old certificate with the new one, the browsers will display a security warning when the old certificate expires.

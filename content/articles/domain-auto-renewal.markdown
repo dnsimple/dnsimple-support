@@ -26,6 +26,6 @@ If auto-renewal is not enabled, the icon will look like this:
 ![](/files/autorenew-2.png)
 
 <warning>
-Some TLDs are auto-renew only and cannot be manually renewed. Please read the [Auto-Renew Only](/articles/auto-renew-only-domains/) article and make sure to turn on auto-renewal feature when required to avoid losing a domain.
+Some TLDs are auto-renew only and cannot be manually renewed. Please read the [Auto-Renew Only](/articles/auto-renew-only-domains) article and make sure to turn on auto-renewal feature when required to avoid losing a domain.
 </warning>
 

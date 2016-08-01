@@ -52,4 +52,4 @@ While this will change the NS records on your domain, our listing of records wil
 
 Pointing the name servers to DNSimple provider will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-To change the name servers to DNSimple you can follow the steps in the previous section and use the DNSimple domains. However, we provide a more convenient one-click feature to [switch a DNSimple registered to DNSimple name servers](/articles/delegating-dnsimple-registered/).
+To change the name servers to DNSimple you can follow the steps in the previous section and use the DNSimple domains. However, we provide a more convenient one-click feature to [switch a DNSimple registered to DNSimple name servers](/articles/delegating-dnsimple-registered).

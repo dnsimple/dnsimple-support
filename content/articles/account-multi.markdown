@@ -16,7 +16,7 @@ categories:
 
 DNSimple allows a user to be associated with multiple accounts. This may happen in two cases:
 
-- The user is [added as a member to an existing account](/articles/account-users/)
+- The user is [added as a member to an existing account](/articles/account-users)
 - The user created a new account
 
 Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users.

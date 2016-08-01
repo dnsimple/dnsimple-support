@@ -7,7 +7,7 @@ categories:
 
 # "Auto-renew" only domains
 
-Certain domain names are **auto-renew only** and cannot be renewed manually. For these domains, it's important to have the [auto-renewal feature turned on](/articles/domain-auto-renewal/) at least 1 month prior to the expiration date.
+Certain domain names are **auto-renew only** and cannot be renewed manually. For these domains, it's important to have the [auto-renewal feature turned on](/articles/domain-auto-renewal) at least 1 month prior to the expiration date.
 
 <warning>
 Auto-renewals are automatically processed by the registrar at any time within the last 30 days before expiration. Enabling the auto-renew feature a few days or immediately before the expiration date is not enough to ensure the domain will be automatically renewed and **you risk losing your domain**. In most cases, the registrar will also require you to pay an extra fee to recover the domain from deletion.

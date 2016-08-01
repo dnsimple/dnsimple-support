@@ -29,7 +29,7 @@ CloudFlare has two integration methods:
 
 Direct integration requires to change the name servers for your domain to point to CloudFlare name servers.
 
-If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers/). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to CloudFlare. In both cases, once the domain is pointing to CloudFlare, you will need to manage the DNS records in CloudFlare. Any DNS change in your DNSimple account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
+If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to CloudFlare. In both cases, once the domain is pointing to CloudFlare, you will need to manage the DNS records in CloudFlare. Any DNS change in your DNSimple account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
 
 Furthermore, the direct integration doesn't allow selectively delegating only certain DNS records to CloudFlare. If you want to use CloudFlare only for a specific DNS record (e.g. for the main website) and use DNSimple for all the other records (e.g. MX email configurations), then use the one-click DNSimple integration.
 

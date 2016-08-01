@@ -61,11 +61,11 @@ Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an e
 
 ## Transferring a .UK domain to DNSimple {#transfer}
 
-To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple, follow [these instructions](/articles/transferring-uk-domain/).
+To transfer a UK domain (i.e. example.uk or example.co.uk) into DNSimple, follow [these instructions](/articles/transferring-uk-domain).
 
 ## Transferring a .UK domain away from DNSimple {#transfer-away}
 
-To transfer a UK domain away from DNSimple, the procedure is similar to the [instructions to transfer in](/articles/transferring-uk-domain/), but you will need to get the IPS tag of the gaining registrar.
+To transfer a UK domain away from DNSimple, the procedure is similar to the [instructions to transfer in](/articles/transferring-uk-domain), but you will need to get the IPS tag of the gaining registrar.
 
 Get the new registrar IPS tag, [contact support](https://dnsimple.com/contact) and provide your domain name and your new registrar's IPS tag.
 

@@ -18,6 +18,10 @@ preprocess do
   create_category_pages
 end
 
+postprocess do
+  create_search_index
+end
+
 compile '/assets/css/**/*' do
   if item.identifier.to_s =~ %r{/_\w+\.scss$}
     # don't compile partials

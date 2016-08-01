@@ -7,9 +7,9 @@ categories:
 
 # What is the Certificate Signing Request (CSR)?
 
-The **Certificate Signing Request** (also **CSR** or **certification request**) is a block of encrypted text that is sent to the [Certificate Authority](/articles/what-is-certificate-authority/) in order to apply for a certificate.
+The **Certificate Signing Request** (also **CSR** or **certification request**) is a block of encrypted text that is sent to the [Certificate Authority](/articles/what-is-certificate-authority) in order to apply for a certificate.
 
-The CSR contains information that will be included in your certificate, such as the [common name](/articles/what-is-common-name/) and the company/owner details. It also contains the public key that will be embedded in the certificate.
+The CSR contains information that will be included in your certificate, such as the [common name](/articles/what-is-common-name) and the company/owner details. It also contains the public key that will be embedded in the certificate.
 
 <callout>
 We automatically generate the CSR for you using the information from the contact associated with the certificate along with an unique public/private encryption key pair. This works for the majority of cases, including hosting platforms such as Heroku or Amazon.

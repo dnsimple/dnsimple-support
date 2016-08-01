@@ -1,6 +1,6 @@
 ---
 title: Supported DNS Record Types
-excerpt: Welcome to DNSimple. This page is about our supported dns records. Hosted DNS has never been this easy.
+excerpt: The list of DNS record types supported by DNSimple.
 categories:
 - DNS
 ---
@@ -10,6 +10,7 @@ categories:
 We currently support the following standard record types:
 
 - [A](/articles/a-record)
+- AAAA
 - [CNAME](/articles/cname-record)
 - [MX](/articles/mx-record)
 - [NS](/articles/ns-record)
@@ -17,7 +18,6 @@ We currently support the following standard record types:
 - [SPF](/articles/spf-record)
 - [SRV](/articles/srv-record)
 - NAPTR
-- AAAA
 - HINFO
 - SSHFP
 
