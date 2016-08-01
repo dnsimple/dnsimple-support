@@ -11,15 +11,15 @@ An **A record** maps a domain name to the IP address (IPv4) of the computer host
 
 The _A_ in A record stands for _Address_. Whenever you visit a web site, send an email, connect to Twitter or Facebook or do almost anything on the Internet, the address you enter is a series of words connected with dots.
 
-For example, to access the DNSimple website you enter `www.dnsimple.com` that is actually an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
+For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server there is an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
 
-A Records are the most simple type of DNS records, yet one of the primary records used in DNS servers.
+A Records are the simplest type of DNS records, yet one of the primary records used in DNS servers.
 
-You can actually do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally multiple names could point to the same address, in which case each would have it's own A record pointing to the same IP address.
+You can actually do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to the that same IP address.
 
-## Querying A record
+## Querying A records
 
-You can use `dig` to determine the A record associated to a domain name as it follows. The result is contained in the `ANSWER` section and it contains the FQDN, the remaining TTL and the IP address.
+You can use `dig` to determine the A record associated to a domain name. The result is contained in the `ANSWER` section and it contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
 
 ```
 $ dig A api.dnsimple.com
@@ -54,6 +54,6 @@ In DNSimple we represent A record with the following information:
 ![A record in the DNSimple record editor](/files/record-type-a.png)
 
 
-## Managing A record
+## Managing A records
 
 You can create, update and delete A records for your domain using the [DNSimple record editor](/articles/record-editor/).
