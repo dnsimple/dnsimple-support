@@ -41,7 +41,7 @@ In order to use our DNS hosting services you first need to [add the domain to a 
 
 ## Configuring the domain records
 
-You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/advanced-editor/). From the record editor you can create, delete and update the DNS records that represent the DNS zone of your domain.
+You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor/). From the record editor you can create, delete and update the DNS records that represent the DNS zone of your domain.
 
 
 ## Enabling/disabling the DNS hosting for a domain
