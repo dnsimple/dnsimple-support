@@ -1,13 +1,13 @@
 ---
 title: Troubleshooting Domain Resolution Issues
-excerpt: Welcome to DNSimple. This page is about domain resolution issues. Enjoy low cost hosted DNS services, an easy to use web interface, and REST API.
+excerpt: This article contains instructions to check and debug domain resolution issues.
 categories:
 - DNS
 ---
 
 # Troubleshooting Domain Resolution Issues
 
-In order to use DNSimple's managed [DNS services](https://dnsimple.com) your domain should resolve with DNSimple.
+In order to use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
 
 You can check domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). Resolution status is also displayed on the domain page in your DNSimple account.
 

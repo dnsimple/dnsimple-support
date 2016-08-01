@@ -1,13 +1,15 @@
 ---
 title: Troubleshooting Email Forwarding with Gmail
-excerpt: Welcome to DNSimple. This page is about troubleshooting email forwarding issues with Gmail. Hosted DNS has never been this easy.
+excerpt: This article contains instructions to check and debug email forwarding issues.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Forwarding with Gmail
+# Troubleshooting Email Forwarding
 
 Once email forwarding is configured for your domain you may wish to confirm it is working as expected by sending a test message.
+
+## Email Forwarding and GMail
 
 To properly test that email forwarding works with Gmail, please use an entirely separate account from the one that will receive forwarded messages.
 
