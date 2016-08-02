@@ -1,11 +1,11 @@
 ---
-title: Why Should I Register my Domain Name with DNSimple?
-excerpt: Domain name services have never been this easy. Meet DNSimple and sign up today!
+title: Why should I register my domain name with DNSimple?
+excerpt: We won't try to sell you a bunch of other services when you register your domain.
 categories:
 - DNSimple
 ---
 
-# Why Should I Register my Domain Name with DNSimple?
+# Why should I register my domain name with DNSimple?
 
 Domain registration with DNSimple is designed to be quick and easy with no up-selling or hassles.
 
@@ -20,5 +20,7 @@ Yes, it's really that easy. We won't try to sell you a bunch of other services w
 
 All domains registered with DNSimple automatically use DNSimple's name servers and hosted DNS, making the domain set up process very straightforward.
 
-**Note:** We do not currently offer domain registration as a stand-alone service. Our core business is hosted DNS and thus the registration requires the use of our hosted DNS service. We do provide hosted DNS without using our registration services.
+<note>
+We do not currently offer domain registration as a stand-alone service. Our core business [are domain services](/articles/dnsimple-services), hence the registration requires a subscription to one of our plans. We provide DNS hosting without using our registration services.
+</note>
 
