@@ -33,4 +33,4 @@ In order for an HTTP server to respond to HTTPS requests for your domain, the re
 
 ## Alternatives
 
-Instead of using URL record to redirect the request, you can use an ALIAS record, A record, or CNAME record to point both the redirecting domain and the target domain to your application, and then handle a redirect in your HTTP server or inside your application.
+Instead of using a URL record to redirect requests, you can use an ALIAS record, A record, or CNAME record to point both the redirecting domain and the target domain to your application, and then handle a redirect in your HTTP server or inside your application.
