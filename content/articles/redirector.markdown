@@ -39,11 +39,11 @@ URL to URL redirects can't be done with our URL record. Only domains or subdomai
 
 The following redirect will not work, because you cannot add DNS records to single URLs:
 
-  foo.com/blog/ to bar.com/blog
+    foo.com/blog/ to bar.com/blog
 
 However, this would work because you can add an URL record for blog.foo.com:
 
-  blog.foo.com to bar.com/blog
+    blog.foo.com to bar.com/blog
 
 
 ## Wildcard URL redirects
