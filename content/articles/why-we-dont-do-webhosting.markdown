@@ -1,5 +1,5 @@
 ---
-title: Why we don't offer web hosting services.
+title: Why we don't offer web hosting services
 excerpt: Welcome to DNSimple. This support page explains why we don't offer web hosting along our DNS hosting.
 categories:
 - DNSimple
