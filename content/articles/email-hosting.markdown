@@ -2,6 +2,7 @@
 title: Email Hosting Support
 excerpt: At this time, we focus primarily on domain management services and we don't provide email hosting. 
 categories:
+- DNSimple
 - Emails
 ---
 
