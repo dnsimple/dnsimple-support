@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Record Resolution Issues
-excerpt: Welcome to DNSimple. This page is about troubleshooting record resolution issues. Hosted DNS has never been this easy.
+excerpt: This article contains instructions to check and debug record resolution issues.
 categories:
 - DNS
 ---
@@ -12,7 +12,7 @@ Here's a checklist of common issues to help you in case a record is not resolvin
 
 ## Check domain resolution status
 
-In order to use our DNS services the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
+In order to use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
 
 
 ## Check you are using a fresh DNS cache

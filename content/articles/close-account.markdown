@@ -18,7 +18,7 @@ To close your user account, you will first need to [cancel your DNSimple subscri
 </note>
 
 <div class="section-steps" markdown="1">
-To permanently delete your user account, along with all your domains and records:
+##### To permanently delete your user account, along with all your domains and records:
 
 1. Go to [your user page](https://dnsimple.com/user):
 

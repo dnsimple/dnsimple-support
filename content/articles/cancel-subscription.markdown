@@ -14,7 +14,7 @@ All your domains and records will remain in your account. You will also be able 
 </note>
 
 <div class="section-steps" markdown="1">
-To cancel your DNSimple subscription:
+##### To cancel your DNSimple subscription:
 
 1. Log in to your DNSimple account.
 1. Go to [your account page](https://dnsimple.com/account).

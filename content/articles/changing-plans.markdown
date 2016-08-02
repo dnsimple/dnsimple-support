@@ -14,7 +14,7 @@ When you change your plan you will receive a proration discount corresponding to
 </warning>
 
 <div class="section-steps" markdown="1">
-To change your subscription plan:
+##### To change your subscription plan:
 
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click on the <label>Change plan</label> link:.

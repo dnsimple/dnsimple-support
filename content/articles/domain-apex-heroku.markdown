@@ -39,10 +39,10 @@ If you are using an SSL certificate, you must point the alias to the [Heroku SSL
 herokuapp-error) when accessing the HTTPS version of the site.
 </warning>
 
-These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application:
+These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application.
 
 <div class="section-steps" markdown="1">
-##### Creating an ALIAS for the apex domain
+##### To create an ALIAS for the apex domain
 
 1. Log into your DNSimple account.
 1. Follow [these instructions](/articles/record-editor/#access-the-record-editor) to edit your domain's records.
