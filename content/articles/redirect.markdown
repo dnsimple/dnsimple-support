@@ -1,27 +1,24 @@
 ---
 title: Configuring a Redirect
-excerpt: Welcome to DNSimple. This page is about our redirects. Hosted DNS has never been this easy.
+excerpt: DNSimple provides a special URL record you can use to redirect a hostname to another URL using our redirector service.
 categories:
 - Domains
 ---
 
 # Configuring a Redirect
 
-DNSimple provides a special [URL record](/articles/url-record) you can use to redirect an hostname to another URL.
+DNSimple provides a special [URL record](/articles/url-record) you can use to redirect a hostname to another URL using our [redirector](/articles/redirector).
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
+
 ## Configure a redirect
 
-Go to the [advanced editor](/articles/record-editor) for your domain and select a `URL` record.
+You can use the URL record to configure a redirect. Check the [URL record](/articles/url-record) and [redirector](/articles/redirector) articles for specific instructions on how to create the redirect.
 
-## Redirect status code
+The redirector is designed to use transpared 301 redirects redirects. We don't support masked redirects.
 
-The redirect sets a 301 status code. The code is not configurable and it's currently not possible to return a 302 temporary redirect using the URL record.
 
-## Caveats
+## Configure an HTTPS, or HTTP+HTTPS redirect
 
-[HTTP redirects will only work with non-SSL connections](/articles/url-redirect-ssl), you cannot redirect an HTTPs request to another URL.
-
-If you need to use SSL then you should point your domain to the server where the SSL certificate is installed and handle redirection internally in your application code.
-
+The DNSimple redirector [doesn't support HTTPS](/articles/redirector-https), therefore you cannot redirect an HTTPS request. Check the [redirector + HTTPS](/articles/redirector-https) article for possible alternatives.

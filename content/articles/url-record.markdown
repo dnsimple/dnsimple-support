@@ -7,61 +7,70 @@ categories:
 
 # What is a URL record?
 
-The **URL** record is a [special DNSimple record](/articles/supported-dns-records). The URL records can be used to [redirect a hostname to another URL](/articles/redirect).
+### Table of Contents {#toc}
 
-## Create a URL record
+* TOC
+{:toc}
 
-Go to the [record editor](/articles/record-editor) for your domain and select a URL record from the *Add Record* dropdown.
+---
 
-Enter the hostname you would like to redirect from, and the URL to redirect to.
+The **URL** record is a [special DNSimple record](/articles/supported-dns-records). URL records can be used to redirect a host name to another URL using our [redirector](/articles/redirector).
 
-- `hostname`: The hostname is the name part of the non-HTTPS fully-qualified domain name you want to handle. For example, if you want to redirect `example.com` leave it blank. To redirect a subdomain such as `www.example.com`, enter only `www`.
+This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
-- `URL`: The HTTP or HTTPS URL to redirect to. It can be also be a subdirectory of a site or a single page.
+For more information about the service, supported redirect types, and limitations visit the [redirector](/articles/redirector) article.
 
-![Create URL record](/files/dnsimple-url-record-create.png)
 
-## Redirecting over SSL
+## Manage URL records
 
-Right now it is not possible for our redirection service to handle SSL requests for your domain names. Take a look at the article [Can a URL record redirect requests over SSL?](/articles/url-redirect-ssl) for additional information and an explanation of alternatives.
+You can manage the URL records (redirects) for a domain from the [record editor](/articles/record-editor).
 
-## URL to URL redirects
+<div class="section-steps" markdown="1">
+#### To create an URL record {#create}
 
-URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs. The following redirect will not work:
+1.  In the record editor, click <label>Add</label> and select <label>URL</label> to add a new URL record.
 
-The following redirect will not work:
+    ![](/files/record-url-create-select.png)
 
-  foo.com/blog/ to bar.com/blog
+1.  Enter the URL record information.
 
-because DNS records cannot be added to URLs. However, this would work:
+    ![](/files/record-url-create-new.png)
 
-  blog.foo.com to bar.com/blog
+    - The _Name_ is the subdomain you want to redirect, without the domain name. For example, if you want to redirect `wwww.example.com` enter `www`. Leave it blank to redirect the root domain `example.com`.
 
-since a URL record could be added to blog.foo.com.
+    - The _Destination URL_ is the URL where the domain will be redirected. It can be also be a subdirectory of a site or a single page.
 
-## Wildcard URL redirects
+    Once ready, click <label>Add Record</label> to confirm and create the record.
 
-You can configure a wildcard redirect using the same conventions of a DNS wildcard record. However, the target cannot contain any wildcard reference.
+1.  The record is created and will be visible in the record list.
 
-    # Valid redirects
-    *.foo.com to bar.com
-    *.foo.com to bar.com/path
+    ![](/files/record-url-item.png)
 
-    # This will redirect to the hostname 
-    *.foo.com to *.bar.com
+</div>
 
-The wildcard pattern can only be on the left outermost level.
+<div class="section-steps" markdown="1">
+#### To update an URL record {#update}
 
-    # Valid redirects
-    *.foo.com to bar.com
+1.  In the record editor, search the record and click on the Pencil icon to edit it.
 
-    # Invalid redirects
-    foo.*.bar.com to baz.com
+    ![](/files/record-url-item-edit.png)
 
-## Match-based URL redirects
+1.  Update the information and click <label>Update Record</label> to save the record.
+</div>
 
-You currently cannot configure a redirect target that includes a back-reference (match) from the redirect source. For example, the following redirects will not work as expected:
+<div class="section-steps" markdown="1">
+#### To delete an URL record {#delete}
 
-    *.foo.com to bar.com/$1
-    *.foo.com to $1.bar.com
+1.  In the record editor, search the record and click on the Trash icon to delete it.
 
+    ![](/files/record-url-item-delete.png)
+
+1.  Confirm the dialog to delete the record.
+</div>
+
+
+## HTTPS redirects
+
+The redirector doesn't support HTTPS, therefore you cannot redirect an HTTPS request.
+
+Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of possible of alternative solutions.
