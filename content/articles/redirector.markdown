@@ -1,13 +1,13 @@
 ---
 title: DNSimple Redirector
-excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect an host name to another URL.
+excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
 categories:
 - Domains
 ---
 
 # Redirector
 
-The redirector is a special feature provided by DNSimple that you can use to redirect an host name to another URL.
+The redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
@@ -28,7 +28,7 @@ The redirector sets a 301 status code. The code is not configurable and it's cur
 
 The [redirector doesn't support HTTPS](/articles/redirector-https), therefore you cannot redirect an HTTPS request.
 
-In other words, it's not possible to use the URL record to redirect the www to the not-www version of your domain with HTTPS. You will be able to redirect `http://www.example.com`, but not `https://www.example.com`.
+In other words, it is not possible to use the URL record to redirect the www to the not-www version of your domain with HTTPS. You will be able to redirect `http://www.example.com`, but not `https://www.example.com`.
 
 Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of possible of alternative solutions.
 
