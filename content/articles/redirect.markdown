@@ -1,13 +1,13 @@
 ---
 title: Configuring a Redirect
-excerpt: DNSimple provides a special URL record you can use to redirect an hostname to another URL using our redirector service.
+excerpt: DNSimple provides a special URL record you can use to redirect a hostname to another URL using our redirector service.
 categories:
 - Domains
 ---
 
 # Configuring a Redirect
 
-DNSimple provides a special [URL record](/articles/url-record) you can use to redirect an hostname to another URL using our [redirector](/articles/redirector).
+DNSimple provides a special [URL record](/articles/url-record) you can use to redirect a hostname to another URL using our [redirector](/articles/redirector).
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
