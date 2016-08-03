@@ -17,6 +17,10 @@ categories:
 
 This article contains a list of the most common redirect scenarios for an application hosted on Heroku, along with some solutions for each scenario.
 
+<note>
+This article contains information about redirects and HTTPS. If you are not familiar about this topic, we encourage you to read [how redirects work with HTTPS](https://blog.dnsimple.com/2016/08/https-redirects/) before moving to the next section.
+</note>
+
 
 ## Redirect www to not-www (without HTTPS) {#redirect-nohttps}
 
