@@ -8,7 +8,7 @@ categories:
 # Can I purchase an SSL certificate for more than one year?
 
 <note>
-This article describes a feature that is only available to the [new plans](/articles/new-plans#new-plans-only).
+This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
 </note>
 
 Yes! It's possible to purchase a multi-year SSL certificate. You can select the number of years when [purchasing](/articles/purchasing-ssl-certificates) or [renewing](/articles/renewing-ssl-certificate) the SSL certificate.

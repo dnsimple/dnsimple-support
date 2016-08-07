@@ -8,7 +8,7 @@ categories:
 # Regional records
 
 <note>
-This article describes a feature that is only available to the following [new plans](/articles/new-plans): Professional and Business.
+This article describes a feature that is only available to the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
 </note>
 
 Regional records lets you select geographical regions where you want a record to appear.
