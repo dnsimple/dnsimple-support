@@ -46,11 +46,11 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 
 ## Enabling/disabling the DNS hosting for a domain
 
-You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
-
 <note>
-This feature is only available to the [new plans](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/): Personal, Professional and Business. The feature is not available on older plans such as Bronze, Silver, Gold or Platinum.
+This section describes a feature that is only available to the [new plans](/articles/new-plans#new-plans-only).
 </note>
+
+You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
 <div class="section-steps" markdown="1">
 ##### To enable the DNS hosting
