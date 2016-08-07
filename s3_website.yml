@@ -53,6 +53,8 @@ redirects:
   articles/moving-domain/index.html: /articles/transferring-domain-between-accounts/
   articles/url-redirect-ssl: /articles/redirector-https/
   articles/url-redirect-ssl/index.html: /articles/redirector-https/
+  articles/what-ssl-certificate-authorities: /articles/ssl-certificate-authorities/
+  articles/what-ssl-certificate-authorities/index.html: /articles/ssl-certificate-authorities/
 #   about.php: about.html
 #   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
 

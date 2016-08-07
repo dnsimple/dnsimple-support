@@ -1,6 +1,6 @@
 ---
 title: How do I determine the Certificate Authority that signed my SSL certificate?
-excerpt: How to determine the Certificate Authority that signed an SSL certificate.
+excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
 categories:
 - SSL Certificates
 ---
@@ -17,7 +17,4 @@ Search for the issuer organization name. Please note that, in some cases, Certif
 
 For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Comodo certificate authority. The authority name is clearly visible in the *Common Name* field.
 
-We currently offers SSL certificates signed by different certificate authorities:
-
-- [Comodo](http://www.comodo.com/): possible matches are `EssentialSSL`, `Comodo`
-- [RapidSSL](http://www.rapidssl.com/): possible matches are `RapidSSL`
+Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities).
