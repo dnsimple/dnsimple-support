@@ -2,7 +2,7 @@
 title: WordPress and DNSimple
 excerpt: How to use a WordPress blog with DNSimple.
 categories:
-- Services
+- Integrations
 ---
 
 # WordPress and DNSimple

@@ -2,7 +2,7 @@
 title: Slack App
 excerpt: How to set up the DNSimple Slack App.
 categories:
-- Slack and DNSimple
+- Integrations
 ---
 
 # Slack App
