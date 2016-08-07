@@ -1,11 +1,11 @@
 ---
-title: SSL Certificates
-excerpt: Information about purchasing and managing an SSL certificate with DNSimple.
+title: SSL/TLS Certificates
+excerpt: Information about purchasing and managing an SSL/TLS certificate with DNSimple.
 categories:
 - SSL Certificates
 ---
 
-# SSL Certificates
+# SSL/TLS Certificates
 
 ### Table of Contents {#toc}
 
@@ -14,9 +14,11 @@ categories:
 
 ---
 
-SSL (Secure Sockets Layer) is a security protocol designed to secure the communication between a server and a client, for example a web server and a browser. An SSL certificate is required to enable SSL on your site and use the HTTPS protocol.
+TLS (Transport Layer Security) and its predecessor, SSL (Secure Sockets Layer) are security protocols designed to secure the communication between a server and a client, for example a web server and a browser. Both protocols are frequently simply referred to as _SSL_.
 
-We offer different types of _domain-validated_ SSL certificates, signed by [globally recognized certificate authorities](/articles/what-ssl-certificate-authorities).
+A TLS/SSL certificate (simply called _SSL certificate_) is required to enable SSL/TLS on your site and serve your website using the secure HTTPS protocol.
+
+We offer different types of _domain-validated_ SSL certificates, signed by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
 <callout>
 #### Getting started with SSL certificates
@@ -25,30 +27,36 @@ Are you buying an SSL certificate for the first time? We assembled a [getting st
 </callout>
 
 
-## Certificate Types
+## SSL certificate types
 
 There are several types of SSL Certificates. They are generally classified by _validation type_ or _secured domains_. If you are not familiar with the differences, take a look at the [SSL certificate types](/articles/ssl-certificates-types) article.
 
 DNSimple currently provides the following [domain-validated](/articles/ssl-certificates-email-validation) certificates:
 
-- Single-name SSL certificates (issued by Comodo)
-- Wildcard SSL certificates (issued by Comodo)
+- Single-name SSL certificates
+- Wildcard SSL certificates
+
+All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
 <note>
-We currently don't provide **organization-validated** or **extended-validation** certificates.
+We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. If you need/want to purchase an EV certificate, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
 </note>
 
 ### Single-name SSL certificates
 
 The single-name certificate is a **domain-validated certificate**. It costs **$20 per year** and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname).
 
+<callout>
 The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL certificate.
+</callout>
 
 ### Wildcard SSL certificates
 
 The wildcard certificate is a **domain-validated certificate**. It costs **$100 per year** and covers all [single-level subdomains](/articles/ssl-certificate-hostname) as well as the root domain.
 
+<callout>
 The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL Wildcard certificate.
+</callout>
 
 
 ## Manage SSL certificates
@@ -68,3 +76,9 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 </div>
 
 From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates), [renew an existing SSL certificate](/articles/renewing-ssl-certificates) or view and install the SSL certificate.
+
+
+## SSL certficates FAQ
+
+The [SSL Certificate frequently asked questions](/articles/faq-ssl-certificates) page contains the most common questions about DNSimple SSL certificates.
+

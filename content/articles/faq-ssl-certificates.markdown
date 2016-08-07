@@ -53,12 +53,12 @@ categories:
 </div>
 
 
-## Types of Certificates
+## Certificate Types
 
 <div class="section-faq" markdown="1">
 1.  #### What type of SSL certificates does DNSimple provide?
 
-    We currently offer different types of _domain-validated_ SSL certificates, signed by globally recognized certificate authorities. We don't provide _organization-validated_ (OV) or _extended-validation_ (EV).
+    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 
     To learn more visit the [SSL Certificates](/articles/ssl-certificates) article.
 
@@ -66,7 +66,7 @@ categories:
 
     The green bar in the browser is displayed only if you purchase an _extended-validation_ (EV) certificate. We currently do not sell EV certificates.
 
-    We currently only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security. If you still need/want to purchase an EV certificate we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
+    We currently only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security. If you still need/want to purchase an EV certificate, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
 </div>
 
 

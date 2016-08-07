@@ -7,7 +7,7 @@ categories:
 
 # Certificate Authorities used by DNSimple
 
-We currently offers [SSL certificates](/articles/ssl-certificates) signed by different globally recognized [certificate authorities](/articles/what-is-certificate-authority):
+We currently provide [SSL certificates](/articles/ssl-certificates) signed by different globally recognized [certificate authorities](/articles/what-is-certificate-authority):
 
 - [Comodo](http://www.comodo.com/) for wildcard and single-name SSL certificates
 
