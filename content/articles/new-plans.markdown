@@ -1,6 +1,6 @@
 ---
 title: New plans and Legacy plans
-excerpt:
+excerpt: This article explains the main differences between the pre-2015 plan types and the new types.
 categories:
 - Account
 ---
