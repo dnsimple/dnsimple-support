@@ -7,9 +7,7 @@ categories:
 
 # DNSimple and GitHub Student Developer Pack
 
-The [GitHub Student Developer Pack][1] is a product bundle, created and promoted by GitHub, with some of partners and friends to give students free access to the best developer tools in one place. As part of this bundle, DNSimple is offering a **free Personal hosted DNS plan** for two years (worth $120).
-
-![DNSimple & GitHub Student Developer Pack](/files/dnsimple-github-student-pack.png)
+The [GitHub Student Developer Pack][1] is a product bundle, created and promoted by GitHub, with some of partners and friends to give students free access to the best developer tools in one place. As part of this bundle, DNSimple is offering a **free Personal hosted DNS plan** for one year (worth $60).
 
 This page describes the offer provided by DNSimple, as part of the GitHub Student Developer Pack. For general information about other partners, visit the [GitHub Student Developer Pack][1] page.
 
@@ -42,7 +40,7 @@ This page describes the offer provided by DNSimple, as part of the GitHub Studen
 
 1.  #### How can I check if the coupon was successfully applied?
 
-    The coupon applies a credits to your account that will automatically used to renew the monthly subscription fee for the DNS service. To check if the coupon was successfully applied, go to [your account page](https://dnsimple.com/account), select the <label>Billing Info</label> tab and check the Current Balance. The amount should match $120, that is the credit applied to your account for this coupon.
+    The coupon applies a credits to your account that will automatically used to renew the monthly subscription fee for the DNS service. To check if the coupon was successfully applied, go to [your account page](https://dnsimple.com/account), select the <label>Billing Info</label> tab and check the Current Balance. The amount should match $60, that is the credit applied to your account for this coupon.
 </div>
 
   [1]: https://education.github.com/pack
