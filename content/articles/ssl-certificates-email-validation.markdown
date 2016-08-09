@@ -80,7 +80,7 @@ Once you disable whois privacy it may take up to 24 hours for the email list to 
 
 ## Select the validation email address {#select-email}
 
-You select the validation email when you purchase the certificate, which is based upon the constraints documented above. If the validation email you want to use is not included in this list.
+You select the validation email when you purchase the certificate. You can use one of the emails available in the list displayed in the configuration page, selected by the Certificate Authority and based upon the constraints documented above. [What if the validation email you want to use is not included in this list?](/articles/how-to-different-ssl-domain-validation-email)
 
 <div class="section-steps" markdown="1">
 ##### To select a validation email
