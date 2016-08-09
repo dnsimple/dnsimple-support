@@ -14,7 +14,14 @@ categories:
 
 ---
 
-To update the WHOIS contact associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#changing-an-existing-contact-information), or [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) if you want to completely replace the contact details.
+This article explains how to update the public WHOIS information associated with your domain name registered with DNSimple.
+
+To check the existing public WHOIS record for a domain you can use our [WHOIS tool](https://dnsimple.com/whois).
+
+
+## Changing or updating WHOIS information
+
+To update the WHOIS information associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#changing-an-existing-contact-information), or [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) if you want to completely replace the contact details.
 
 Upon the successful update of the domain contact, we will automatically update the registry data and the WHOIS record with the new contact information.
 
