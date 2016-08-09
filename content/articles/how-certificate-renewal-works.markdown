@@ -1,6 +1,6 @@
 ---
 title: How does the Certificate Renewal work?
-excerpt: Welcome to DNSimple. This page is about how certificate renewal works. Hosted DNS has never been this easy.
+excerpt: DNSimple provides a certificate renewal interface that will drastically reduce the amount of time required to purchase a new certificate.
 categories:
 - SSL Certificates
 ---
