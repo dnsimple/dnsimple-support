@@ -7,16 +7,16 @@ categories:
 
 # SSL Certificate Types
 
-There are several types of SSL Certificates. This article quickly explains the differences between the various types you may want to use to secure a website.
-
-You can group SSL certificates by validation level or secured domains/hostnames.
-
 ### Table of Contents {#toc}
 
 * TOC
 {:toc}
 
 ---
+
+There are several types of SSL Certificates. This article quickly explains the differences between the various types you may want to use to secure a website.
+
+You can group SSL certificates by validation level or secured domains/hostnames.
 
 ## SSL Certificates by Validation Level
 

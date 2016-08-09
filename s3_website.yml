@@ -55,8 +55,10 @@ redirects:
   articles/url-redirect-ssl/index.html: /articles/redirector-https/
   articles/what-ssl-certificate-authorities: /articles/ssl-certificate-authorities/
   articles/what-ssl-certificate-authorities/index.html: /articles/ssl-certificate-authorities/
-#   about.php: about.html
-#   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
+  articles/renewing-ssl-certificates: /articles/renewing-ssl-certificate/
+  articles/renewing-ssl-certificates/index.html: /articles/renewing-ssl-certificate/
+  articles/reissuing-ssl-certificates: /articles/reissuing-ssl-certificate/
+  articles/reissuing-ssl-certificates/index.html: /articles/reissuing-ssl-certificate/
 
 # routing_rules:
 #   - condition:

@@ -19,7 +19,7 @@ When you renew a certificate, you will need to go through the [certificate domai
 The brand new certificate must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 </note>
 
-To renew your certificate follow the steps described in the [renewing an SSL certificate](/articles/renewing-ssl-certificates) article. Remember to install the brand new certificate in place of the existing one.
+To renew your certificate follow the steps described in the [renewing an SSL certificate](/articles/renewing-ssl-certificate) article. Remember to install the brand new certificate in place of the existing one.
 
 <warning>
 If you don't approve the certificate, the renewal is not completed. If you don't replace the old certificate with the new one, the browsers will display a security warning when the old certificate expires.

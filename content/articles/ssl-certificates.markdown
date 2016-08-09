@@ -27,14 +27,14 @@ Are you buying an SSL certificate for the first time? We assembled a [getting st
 </callout>
 
 
-## SSL certificate types
+## SSL certificate products
 
 There are several types of SSL Certificates. They are generally classified by _validation type_ or _secured domains_. If you are not familiar with the differences, take a look at the [SSL certificate types](/articles/ssl-certificates-types) article.
 
-DNSimple currently provides the following [domain-validated](/articles/ssl-certificates-email-validation) certificates:
+DNSimple currently provides the following [domain-validated](/articles/ssl-certificates-email-validation) certificates products:
 
-- Single-name SSL certificates
-- Wildcard SSL certificates
+- [Single-name SSL certificate](#traditional-singlename)
+- [Wildcard SSL certificate](#traditional-wildcard)
 
 All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
@@ -42,20 +42,20 @@ All SSL certificates are issued by globally recognized [certificate authorities]
 We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. If you need/want to purchase an EV certificate, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
 </note>
 
-### Single-name SSL certificates
+### Single-name SSL certificates {#traditional-singlename}
 
 The single-name certificate is a **domain-validated certificate**. It costs **$20 per year** and covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname).
 
 <callout>
-The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL certificate.
+The certificate is issued by Comodo, the name of the product name is _Comodo EssentialSSL_ certificate.
 </callout>
 
-### Wildcard SSL certificates
+### Wildcard SSL certificates {#traditional-wildcard}
 
 The wildcard certificate is a **domain-validated certificate**. It costs **$100 per year** and covers all [single-level subdomains](/articles/ssl-certificate-hostname) as well as the root domain.
 
 <callout>
-The certificate is issued by Comodo, the name of the product is Comodo EssentialSSL Wildcard certificate.
+The certificate is issued by Comodo, the name of the product is _Comodo EssentialSSL Wildcard_ certificate.
 </callout>
 
 
@@ -75,10 +75,9 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 1.  Scroll down the page until you see the <label>SSL certificates</label> section.
 </div>
 
-From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates), [renew an existing SSL certificate](/articles/renewing-ssl-certificates) or view and install the SSL certificate.
+From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates), [renew an existing SSL certificate](/articles/renewing-ssl-certificate) or view and install the SSL certificate.
 
 
-## SSL certficates FAQ
+## SSL certificate Frequently Asked Questions
 
 The [SSL Certificate frequently asked questions](/articles/faq-ssl-certificates) page contains the most common questions about DNSimple SSL certificates.
-

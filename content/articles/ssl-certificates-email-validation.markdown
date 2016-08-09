@@ -25,6 +25,7 @@ The goal of validation is to ensure the authenticity of a certificate order befo
 
 The validation email is a mandatory step performed by the Certification Authority based only on publicly accessible information.
 
+
 ## The process
 
 The email validation process consists of a few steps:
