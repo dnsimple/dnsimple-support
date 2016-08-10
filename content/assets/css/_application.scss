@@ -126,10 +126,9 @@ p + .marker {
 // Sections don't apply to the entire page, they are just part of the article.
 
 .section-steps {
-  margin-bottom: $base-unit;
+  margin: $base-unit 0;
   padding: $base-unit / 2;
-  border-top: 5px solid #eee;
-  border-bottom: 5px solid #eee;
+  border-left: 5px solid #eee;
 
   a {
     text-decoration: underline;
