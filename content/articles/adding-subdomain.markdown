@@ -18,13 +18,13 @@ A subdomain is, technically speaking, a DNS record for a hostname that belongs t
 
     ![DNS Tab](/files/example-domain-manage.jpg)
 
-1.  From there, simply click the green "Add" drop-down menu, and select the type of record you wish to create. A, ALIAS, and CNAME records will all create a new subdomain.
+1.  From there, simply click the green <label>Add</label> drop-down menu, and select the type of record you wish to create. [`A`, `ALIAS`, and `CNAME` records](/articles/differences-between-a-cname-alias-url) will all create a new subdomain.
 
     ![Custom Records](/files/example-domain-dns.jpg)
 
     That will take you the advanced editor and you may add the records for the subdomain there.
 
-1.  To add a subdomain, just fill in the subdomain in the Name field. For example, "www" would be the subdomain "www.example.com".
+1.  To add a subdomain, just fill in the subdomain in the Name field. For example, `www` would be the subdomain `www.example.com`.
 
     ![Add Record](/files/add-a-record.jpg)
 
