@@ -14,11 +14,11 @@ A subdomain is, technically speaking, a DNS record for a hostname that belongs t
 
 1.  Log into your DNSimple account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
-1.  Click on the <label>DNS</label> tab
+1.  Click on the <label>DNS</label> tab (or quickly jump to the DNS records for that domain by clicking the button in the top right).
 
     ![DNS Tab](/files/example-domain-manage.jpg)
 
-1.  and click <label>Add or edit custom records</label> under the list of current records.
+1.  From there, simply click the green "Add" drop-down menu, and select the type of record you wish to create. A, ALIAS, and CNAME records will all create a new subdomain.
 
     ![Custom Records](/files/example-domain-dns.jpg)
 
