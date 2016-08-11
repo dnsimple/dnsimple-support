@@ -1,22 +1,22 @@
 ---
 title: Contacting DNSimple Support
-excerpt: 
+excerpt: How to contact DNSimple in case of questions, issues or feedback.
 categories:
 - DNSimple
 ---
 
 # Contacting DNSimple Support
 
-The best way to get in touch is to either use our feedback form or send us an email:
+The best way to get in touch is to either use our contact form or send us an email:
 
-- Use the online [feedback form](https://dnsimple.com/feedback)
+- Use the online [contact form](https://dnsimple.com/contact)
 - [support@dnsimple.com](mailto:support@dnsimple.com)
 
 ## Priority support
 
 If you have a Business subscription, then you are entitled to priority support. Your support emails will go to a support queue dedicated to you and will be answered first before other support requests.
 
-Visit the [feedback form](https://dnsimple.com/feedback) while logged in, and accessing your business account, to send a priority support email.
+Visit the [contact form](https://dnsimple.com/contact) while logged in, and accessing your business account, to send a priority support email.
 
 ## Tips for getting a faster, more accurate response
 
