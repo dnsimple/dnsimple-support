@@ -18,6 +18,10 @@ This page describes the offer provided by DNSimple, as part of the GitHub Studen
 
     The GitHub Student Developer Pack is reserved to students aged 13+ and enrolled in degree or diploma granting course of study. For more information about eligibility and general details, visit [education.github.com/pack][1].
 
+1.  #### How can I apply the coupon to my account?
+
+    You can follow [these steps to apply your coupon](/articles/how-to-apply-github-student-pack).
+
 1.  #### Can I get the same DNSimple promotion without the GitHub Student Pack?
 
     No. This promotion is only available as part of the GitHub Student Pack.
