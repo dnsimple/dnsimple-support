@@ -7,7 +7,7 @@ categories:
 
 # What is Domain Auto-renewal?
 
-Enabling auto-renewal on a domain will cause that domain to be automatically renewed prior to the domain's expiration. Auto-renewal usually occurs within the last 30 days prior to the domain expiration date, and may vary from domain to domain.
+[Enabling auto-renewal](/articles/enabling-and-disabling-auto-renewal) on a domain will cause that domain to be automatically renewed prior to the domain's expiration. Auto-renewal usually occurs within the last 30 days prior to the domain expiration date, and may vary from domain to domain.
 
 You may enable auto-renewal when you first register a domain, or any time after the domain has been registered and before the last 30 days before the domain expires.
 
@@ -17,15 +17,4 @@ Auto-renewals are processed automatically within the last 30 days prior to the d
 We deliver auto-renewal and expiration starting from 2 months prior to the domain expiration date. Please update your auto-renewals preferences in time before reaching the 30-days zone.
 </note>
 
-You may always check if a domain is set up to auto-renew and turn auto-renewal on from your domain list. If auto-renewal is enabled you will see an icon like this next to the domain:
-
-![](/files/autorenew-1.png)
-
-If auto-renewal is not enabled, the icon will look like this:
-
-![](/files/autorenew-2.png)
-
-<warning>
-Some TLDs are auto-renew only and cannot be manually renewed. Please read the [Auto-Renew Only](/articles/auto-renew-only-domains) article and make sure to turn on auto-renewal feature when required to avoid losing a domain.
-</warning>
-
+If you need guidance on how to enable or disable auto-renewal, take a look at the support article for [enabling and disabling auto-renewal](/articles/enabling-and-disabling-auto-renewal).
