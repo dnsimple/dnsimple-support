@@ -14,8 +14,15 @@ categories:
 
 ---
 
-Email forwarding can be enabled on a domain-by-domain basis. The cost is $2 per month per domain for up to 1000 messages delivered.
+Email forwarding can be enabled on a domain-by-domain basis. The cost is $2 per month per domain. The number of messages per month is based on your subscription type:
 
+- Personal plans: up to 1,000 messages forwarded per month per domain.
+- Professional plans: up to 10,000 messages forwarded per month per domain.
+- Business plans: unlimited number of messages forwarded per month per domain.
+
+For reseller plans, please contact us for information about your limits.
+
+For any plan that is not covered above, the limit is 1,000 messages per month.
 
 ## Enabling email forwarding
 
