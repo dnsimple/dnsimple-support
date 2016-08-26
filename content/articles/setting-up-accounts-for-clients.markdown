@@ -31,7 +31,7 @@ Each customer must have a separate account, otherwise if you add more than one c
 
 ## Creating a separate account for your client
 
-First, you must add another account to your user profile by taking the (following steps](/articles/account-multi/#creating-a-separate-account).
+First, you must add another account to your user profile by taking the [following steps](/articles/account-multi/#creating-a-separate-account).
   
 ## Inviting your client to DNSimple
   
