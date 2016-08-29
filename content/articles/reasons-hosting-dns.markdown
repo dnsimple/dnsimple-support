@@ -9,7 +9,7 @@ categories:
 
 DNSimple is focused on one thing: making domain and DNS management simple and painless. 
 
-We provide a clean and easy-to-use web interface for domain registration and management as well as an iPhone application and an API.
+We provide a clean and easy-to-use web interface and API for domain registration and management.
 
 Our focus on DNS and domains allows us to continue to make improvements that are immediately useful to you, from improvements in our API to allow domain registration and transfers through automated means, to our web interface, which we continue to work on to make it easier and better for you.
 
