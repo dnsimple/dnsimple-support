@@ -31,7 +31,7 @@ Let's Encrypt is innovative certificate authority under several point of views. 
 
 As mentioned before, Let's Encrypt is quite different than most of the traditional certificate authorities. Here's a few relevant information that you may want to keep in mind, before requesting an SSL certificates.
 
-- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support OV or [EV certificates](/articles/can-ev-ssl-certificates/).
+- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support OV or EV certificates.
 - Wildcard names are not supported, Let's Encrypt SSL certificates can only include explicit names.
 - A single Let's Encrypt certificate can include up to 100 SAN names
 - Let's Encrypt certificates have fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, therefore it won't be possible to obtain 1-year or [multi-years](/articles/can-multi-year-ssl-certificates) SSL certificates.
@@ -56,6 +56,12 @@ As suggested by Let's Encrypt, the renewal will happen at any time after 60 days
 <note>
 Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, you are encouraged to use our [certificate API](/v2/domains/certificates/) to fetch the certificate and install it programmatically.
 </note>
+
+## Products
+
+Let's Encrypt currently provides only one single product. They only issue domain-validated, SAN certificates. Also note Let's Encrypt doesn't support wildcard certificates.
+
+DNSimple currently provides both single-name and multi-name (SAN) certificates via Let's Encrypt.
 
 ## Features
 
