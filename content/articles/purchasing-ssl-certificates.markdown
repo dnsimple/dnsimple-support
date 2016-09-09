@@ -54,7 +54,7 @@ The purchase is the first step into getting an SSL certificate. It will create a
 1.  Scroll to the certificate section. Click <label>Get an SSL Certificate</label> to start the order.
 1.  Follow the instructions to request the certificate.
 
-    1.  [Read this article](/articles/ssl-certificate-hostname) to determine the appropriate common name of your SSL certificate.
+    1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
     1.  Enter the certificate common name. Use an `*` to request a wildcard certificate.
     1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
     1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.

@@ -27,7 +27,7 @@ If you are not familiar with SSL certificates, you may want to learn more about 
 Here's some questions you should be able to answer:
 
 - We [offer different type of certificates](/articles/ssl-certificates). What certificate type do you want to purchase?
-- What is the [appropriate common name](/articles/ssl-certificate-hostname) for your case?
+- What is the [appropriate host name](/articles/ssl-certificate-names) for your case?
 - Check the web server documentation to understand if you need a [custom CSR](/articles/what-is-csr).
 
 **You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Read the [ordering section](/articles/purchasing-ssl-certificates#order) of the article explaing SSL purchasing for more information.

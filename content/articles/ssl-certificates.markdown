@@ -45,7 +45,7 @@ We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL
 
 ### Single-name SSL certificates {#single-name}
 
-The single-name certificate is a **domain-validated certificate** and it covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-hostname).
+The single-name certificate is a **domain-validated certificate** and it covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-names).
 
 We currently provide single-name certificates from two different certificate authorities.
 
@@ -59,7 +59,7 @@ The certificate is issued by **Let's Encrypt** and it's free of charge. However,
 
 ### Wildcard SSL certificates {#wildcard-name}
 
-The wildcard certificate is a **domain-validated certificate** and it covers all [single-level subdomains](/articles/ssl-certificate-hostname) as well as the root domain.
+The wildcard certificate is a **domain-validated certificate** and it covers all [single-level subdomains](/articles/ssl-certificate-names) as well as the root domain.
 
 The certificate is issued by Comodo and it costs **$100 per year**. The name of the product is _Comodo EssentialSSL Wildcard_ certificate.
 

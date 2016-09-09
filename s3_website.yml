@@ -59,6 +59,8 @@ redirects:
   articles/renewing-ssl-certificates/index.html: /articles/renewing-ssl-certificate/
   articles/reissuing-ssl-certificates: /articles/reissuing-ssl-certificate/
   articles/reissuing-ssl-certificates/index.html: /articles/reissuing-ssl-certificate/
+  articles/ssl-certificate-hostname: /articles/ssl-certificate-names/
+  articles/ssl-certificate-hostname/index.html: /articles/ssl-certificate-names/
 
 # routing_rules:
 #   - condition:

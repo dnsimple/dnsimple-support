@@ -13,7 +13,7 @@ The **Subject Alternative Name** (SAN) is an extension to the X.509 specificatio
 
 The X.509 specifications regulate the _Internet X.509 Public Key Infrastructure Certificate_, which includes the SSL certificates format. Originally, SSL certificates only allowed to specify a single host name in the certificate subject called [Common Name](/articles/what-is-common-name).
 
-The common name represents the fully qualified domain name that is covered by the SSL certificate. Trying to use the certificate for a website that doesn't match the common name will result in a security error, also known as _host name mismatch_ error. 
+The common name represents the host name that is covered by the SSL certificate. Trying to use the certificate for a website that doesn't match the common name will result in a security error, also known as _host name mismatch_ error. 
 
 Later after the original specificaton, it became clear that it would be helpful to have a single certificate to cover multiple host names. The most common example is the case of a single certificate that covers both the root domain and the www subdomain. In fact, it's very common to reuse the same SSL certificate for `example.com` and `www.example.com`.
 
