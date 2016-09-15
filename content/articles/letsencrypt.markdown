@@ -29,12 +29,12 @@ Let's Encrypt is an innovative certificate authority from several point of views
 
 ## Let's Encrypt highlights
 
-As mentioned before, Let's Encrypt is quite different than most traditional certificate authorities. Here's a few relevant pieces of information that you may want to keep in mind, before requesting one of their SSL certificates.
+As mentioned before, Let's Encrypt is quite different than most traditional certificate authorities. Here are a few relevant pieces of information that you may want to keep in mind, before requesting one of their SSL certificates:
 
 - Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support OV or EV certificates.
 - Wildcard names are not supported, Let's Encrypt SSL certificates can only include explicit names.
 - A single Let's Encrypt certificate can include up to 100 SAN names.
-- Let's Encrypt certificates have fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, therefore it won't be possible to obtain 1-year or [multi-years](/articles/can-multi-year-ssl-certificates) SSL certificates.
+- Let's Encrypt certificates have fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, therefore it won't be possible to obtain 1-year or [multi-year](/articles/can-multi-year-ssl-certificates) SSL certificates.
 - Although Let's Encrypt is a new authority, their SSL certificates are compatible with major browsers as their root certificate was cross-signed by an older certificate authority. For a complete list of supported platforms check out the [certificate compatibility](https://letsencrypt.org/docs/certificate-compatibility/) page.
 - Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation).
 - Let's Encrypt is currently [rate-limiting](https://letsencrypt.org/docs/rate-limits/) requests. Make sure to understand their limits before requesting a large number of certificates.
@@ -47,14 +47,14 @@ The DNSimple Let's Encrypt integration allows you to request an SSL certificate 
 In order to request an SSL certificate with Let's Encrypt, the domains **must be delegated and resolving with DNSimple**. The domain does not need to be registered with DNSimple.
 </note>
 
-The certificate validation is completely automated using the DNS challenge. Once issued, you will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/), and the certificate will be available for download from your DNSimple account.
+The certificate validation is completely automated using a DNS challenge. Once issued, you will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/), the certificate will then be available to download from your DNSimple account.
 
 The certificate expiration is 90 days. If auto-renewal is enabled, the certificate will be automatically renewed before the expiration. If a new validation is necessary, we will automatically re-validate the domain via DNS. Once renewed, you will receive an email and webhook notification.
 
-As suggested by Let's Encrypt, the renewal will happen at any time after 60 days (hence 30 days before expiration). 
+As suggested by Let's Encrypt, the renewal will happen at any time after 60 days (30 days before expiration). 
 
 <note>
-Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, you are encouraged to use our [certificate API](/v2/domains/certificates/) to fetch the certificate and install it programmatically.
+Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, we encourage you to use our [certificate API](/v2/domains/certificates/) to fetch the certificate and install it programmatically.
 </note>
 
 ## Products
@@ -65,13 +65,13 @@ DNSimple currently provides both single-name and multi-name (SAN) certificates v
 
 ## Features
 
-Let's Encrypt feature support varies based on your account subscription.
+Let's Encrypt feature support varies based on your DNSimple subscription plan.
 
-Also note that not all Let's Encrypt features are currently supported by DNSimple. Some features will be incrementally introduced in the future, others are not supported due to design decisions or limitations imposed by our system.
+Note that not all Let's Encrypt features are currently supported by DNSimple. Some features will be incrementally introduced in the future, others are not supported due to design decisions or limitations imposed by our system.
 
 - You can request as many certificate as you want, as long as you stay within Let's Encrypt request [rate-limiting](https://letsencrypt.org/docs/rate-limits/).
 - Depending on your plan, you can specify the hostname for the certificate, or it will be defaulted to www/root domain.
-- Depending on your plan, you can specify up to 100 extra hostnames for a single certificate. Please note that Let's Encrypt doesn't support wildcard certificates, and we currently only support subdomains (it's not possible to add names from different domains).
+- Depending on your plan, you can specify up to 100 extra hostnames for a single certificate. Remember that Let's Encrypt doesn't support wildcard certificates, and we currently only support subdomains (it's not possible to add names from different domains).
 
 ## Limitations
 
