@@ -11,7 +11,7 @@ The **Subject Alternative Name** (SAN) is an extension to the X.509 specificatio
 
 ## Background
 
-The X.509 specifications regulate the _Internet X.509 Public Key Infrastructure Certificate_, which includes the SSL certificates format. Originally, SSL certificates only allowed to specify a single host name in the certificate subject called [Common Name](/articles/what-is-common-name).
+The X.509 specifications regulate the _Internet X.509 Public Key Infrastructure Certificate_, which includes the SSL certificates format. Originally, SSL certificates only allowed the designation of a single host name in the certificate subject called [Common Name](/articles/what-is-common-name).
 
 The common name represents the host name that is covered by the SSL certificate. Trying to use the certificate for a website that doesn't match the common name will result in a security error, also known as _host name mismatch_ error. 
 
@@ -27,9 +27,9 @@ There is no specific limitation on the host names you can cover by a SAN extensi
 
 For example, it's common practice to disallow arbitrary wildcard names as SAN host names. This means SAN certificates generally support only an enumeration of names.
 
-It's also quite common to encounter a limit on the number of names per certificate. The common practice is to limit up to 100 names per certificate.  
+It's also quite common to encounter a limit on the number of names per certificate. The common practice is to set a limit of up to 100 names per certificate.  
 
-Finally, names are generally not required to belong to the same domain. In other words, it's perfectly fine for a certificate to cover a list of names like the following one:
+Finally, names are generally not required to belong to the same domain. In other words, it's perfectly fine for a certificate to cover a list of names like the following:
 
 ```
 example.com

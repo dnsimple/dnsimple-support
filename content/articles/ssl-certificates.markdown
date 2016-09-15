@@ -55,7 +55,7 @@ The certificate is issued by **Comodo** and it costs **$20 per year**. The name 
 
 ##### Let's Encrypt
 
-The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product not suitable to you. [Learn more](/articles/letsencrypt#products)
+The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt#products)
 
 ### Wildcard SSL certificates {#wildcard-name}
 
