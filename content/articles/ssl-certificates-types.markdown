@@ -67,7 +67,7 @@ The Extended Validation SSL Certificates are generally identified with a green a
 ![](/files/dnsimple-ssltypes-greenbar.png)
 
 <callout>
-DNSimple currently doesn't provide extended validation certificates. However, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
+DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates).
 </callout>
 
 
