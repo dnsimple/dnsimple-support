@@ -17,10 +17,10 @@ In other words, it's not possible to use the URL record to redirect the www to t
 This table shows a list of most common redirect options, and whether they are supported by the redirector:
 
 | Source | Target | Supported |
-|--------+--------+-----------| 
+|--------+--------+-----------|
 | http://example.com      | http://www.example.com  | YES | Redirect a host name to another URL
+| http://example.com      | https://example.com     | YES | Redirect a host name to the same host name, but HTTPS
 | http://example.com      | https://www.example.com | YES | Redirect a host name to another HTTPS URL
-| http://example.com      | https://www.example.com | NO  | Redirect a host name to the same host name, but HTTPS
 | https://example.com     | https://www.example.com | NO  | Redirect a host name via HTTPS
 
 
