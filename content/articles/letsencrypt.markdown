@@ -64,6 +64,10 @@ Although Let's Encrypt certificates can be installed manually, the entire proces
 
 Let's Encrypt currently provides only one product. They issue only domain-validated, SAN certificates. Let's Encrypt doesn't support wildcard certificates.
 
+<callout>
+If you are interested in a wildcard certificate, DNSimple [offers wildcard certificates](/articles/ssl-certificates/#standard-wildcard) using a different certificate authority.
+<callout>
+
 Single-name certificates can be considered a special type of multi-name certificates, with a single name associated with it. Therefore, Let's Encrypt offering is both a multi-name and single-name.
 
 <note>
