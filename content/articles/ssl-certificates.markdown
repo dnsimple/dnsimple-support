@@ -31,43 +31,39 @@ Are you buying an SSL certificate for the first time? We assembled a [getting st
 
 There are several types of SSL Certificates. They are generally classified by _validation type_ or _secured domains_. If you are not familiar with the differences, take a look at the [SSL certificate types](/articles/ssl-certificates-types) article.
 
-DNSimple currently provides the following [domain-validated](/articles/ssl-certificates-email-validation) certificates products:
+DNSimple currently provides the following certificates products:
 
-- [Single-name SSL certificate](#single-name)
-- [Wildcard SSL certificate](#wildcard-name)
-- [Let's Encrypt SSL certificate](#letsencrypt)
+1. [Standard Single-name SSL certificate](#standard-singlename)
+1. [Standard Wildcard SSL certificate](#standard-wildcard)
+1. [Let's Encrypt SSL certificate](#letsencrypt)
 
 All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
 <note>
-We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. If you need/want to purchase an EV certificate, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
+All certificates are [domain-validated](/articles/ssl-certificates-email-validation). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. If you need/want to purchase an EV certificate, we provide some recommendation at [this page](/articles/can-ev-ssl-certificates).
 </note>
 
-### Single-name SSL certificates {#single-name}
+### Standard Single-name SSL certificates {#standard-singlename}
 
-The single-name certificate is a **domain-validated certificate** and it covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-names).
-
-We currently provide single-name certificates from two different certificate authorities.
-
-##### Comodo
+The single-name certificate is a **single-name**, **domain-validated** certificate. It covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-names).
 
 The certificate is issued by **Comodo** and it costs **$20 per year**. The name of the product name is _Comodo EssentialSSL_ certificate.
 
-##### Let's Encrypt
+### Standard Wildcard SSL certificates {#standard-wildcard}
 
-The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product not suitable to you. [Learn more](/articles/letsencrypt#products)
+The wildcard certificate is a **wildcard-name**, **domain-validated** certificate. It covers all [single-level subdomains](/articles/ssl-certificate-names) as well as the root domain.
 
-### Wildcard SSL certificates {#wildcard-name}
-
-The wildcard certificate is a **domain-validated certificate** and it covers all [single-level subdomains](/articles/ssl-certificate-names) as well as the root domain.
-
-The certificate is issued by Comodo and it costs **$100 per year**. The name of the product is _Comodo EssentialSSL Wildcard_ certificate.
+The certificate is issued by **Comodo** and it costs **$100 per year**. The name of the product is _Comodo EssentialSSL Wildcard_ certificate.
 
 ### Let's Encrypt SAN SSL certificates {#letsencrypt}
 
-The Let's Encrypt (SAN) certificate is a **domain-validated certificate** and it covers all the domains explicitly specified in the certificate.
+The Let's Encrypt certificate is a **multi-name (SAN)**, **domain-validated certificate**. It covers all the host names explicitly specified in the certificate.
 
 The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product not suitable to you. [Learn more](/articles/letsencrypt#products)
+
+<note>
+The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to.
+</note>
 
 ## Manage SSL certificates
 
