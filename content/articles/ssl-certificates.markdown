@@ -65,6 +65,15 @@ The certificate is issued by **Let's Encrypt** and it's free of charge. However,
 The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to.
 </note>
 
+### What's a "Standard" Certificate Authority?
+
+You may have noticed we used the term _standard_ in our documentation when referring to some specific product types. Let's Encrypt has represented a big shift in the certificate authority field, in terms of offering, pricing, and automation. Traditionally, certificate authorities have been offering yearly certificates, they charged an issuance fee, and the domain validation was generally performed manually via email.
+
+With the term _Standard_ we refer to traditional certificate authorities. We expect the difference between traditional authorities and Let's Encrypt to be somehow reduced in the future. For example, some authorities are already working to expose a more automated validation flow.
+
+It's important to mention that there is nothing bad in being a "Standard" authority, nor in buying a "Standard" certificate. It's just a term we used at DNSimple to simplify the workflow.
+
+
 ## Manage SSL certificates
 
 You can purchase and manage SSL certificates from the your domain page. Go to the domain page and scroll down until you find the SSL certificate section.
