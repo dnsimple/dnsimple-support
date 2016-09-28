@@ -14,7 +14,7 @@ categories:
 
 ---
 
-An SSL certificate is required to be associated with one or more host names. Selecting the correct names is very important, because the certificate will be valid only if the request matches the host name (or host names) associated with the SSL certificate.
+An SSL certificate is must be associated with one or more host names. Selecting the correct names is very important, because the certificate will be valid only if the request matches the host name (or host names) associated with the SSL certificate.
 
 Moreover, it's not possible to change the name type of a certificate (e.g. switch from a single-name to a wildcard name) once the certificate has been issued.
 
@@ -26,11 +26,11 @@ You can associate the host names to an SSL certificate using two different attri
 - the [Common Name](/articles/what-is-common-name)
 - the [Subject Alternative Name](/articles/what-is-ssl-san) (SAN)
 
-The Common Name allows to specify one single entry (either a wildcard or single-name), whereas the SAN extension supports multiple entries. However, the SAN is only supported by certain [SSL certificate products](/articles/ssl-certificates).
+The Common Name allows specifying a single entry (either a wildcard or single-name), whereas the SAN extension supports multiple entries. However, the SAN is only supported by certain [SSL certificate products](/articles/ssl-certificates).
 
-At DNSimple we like to simplify your experience, therefore we hided the technical details and implementations behind a simple interface. We won't ask you to select when to use the Common Name or the SAN. Instead, whenever you are allowed to enter multiple names for an SSL certificate, you will be provided a field to enter the list of names.
+At DNSimple we like to simplify your experience, therefore we hid the technical details and implementation behind a simple interface. We won't ask you to select when to use the Common Name or the SAN. Instead, whenever you are allowed to enter multiple names for an SSL certificate, you will be provided a field to enter the list of names.
 
-Additionally, to simplify the interface, we will use the generic word host names (sometimes hostnames or domains) to represent the host names attached to a certificate, regardless they will be attached to the certificate via Common Name or SAN.
+Additionally, to simplify the interface, we will use the generic term "host names" (sometimes "hostnames" or "domains") to represent the host names attached to a certificate, regardless of whether they will be attached to the certificate via Common Name or SAN.
 
 
 ## Single-name vs Wildcard
@@ -43,7 +43,7 @@ The single name certificate is valid only for the hostname specified with the ce
 
 For example, if you purchase a certificate for the hostname `secure.example.com`, you can't use it for `www.example.com` or `example.com`. Any attempt to serve these hostnames with the certificate will result in a security warning in most browsers.
 
-The only exception is the root domain, in case you purchase a certificate for the www-hostname, as described below.
+The only exception is the root domain, if you purchase a certificate for the www-hostname, as described below.
 
 ### Wildcard SSL certificate
 

@@ -20,13 +20,13 @@ Getting a new SSL certificate is a multi-step process and involves several parti
 
 ## SSL certificate requirements {#requirements}
 
-Before starting, take a moment to review how you will use the certificate and be sure to have access to the server configuration or a feature to install a custom certificate on your server.
+Before starting, take a moment to review how you will use the certificate and be sure to have access to the server configuration, or a feature to install a custom certificate on your server.
 
 If you are not familiar with SSL certificates, you may want to learn more about the different [SSL certificate types](/articles/ssl-certificates-types).
 
-Here's some questions you should be able to answer:
+Here are some questions you should be able to answer:
 
-- We [offer different type of certificates](/articles/ssl-certificates). What certificate type do you want to purchase?
+- We [offer different types of certificates](/articles/ssl-certificates). Which type of certificate do you want to purchase?
 - What is the [appropriate host name](/articles/ssl-certificate-names) for your case?
 - Check the web server documentation to understand if you need a [custom CSR](/articles/what-is-csr).
 
@@ -93,7 +93,7 @@ We provide step-by-step instructions for several web servers and services.
 
 ![SSL certificate installation page](/files/ssl-certificate-installation-page.png)
 
-If the service or the web server you want to use is not listed in the page, simply click <label>other</label> to access the SSL certificate, intermediate chain and primary key files, and follow the service/software vendor instructions to install the certificate.
+If the service or the web server you want to use is not listed in the page, simply click <label>other</label> to access the SSL certificate, intermediate chain, and primary key files; then follow the service/software vendor instructions to install the certificate.
 
 You may also find the following guides useful:
 

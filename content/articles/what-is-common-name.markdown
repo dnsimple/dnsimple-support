@@ -9,7 +9,7 @@ categories:
 
 The **Common Name** (also **CN**) identifies the host name associated with the certificate, for example `www.example.com` or `example.com`.
 
-It consists of a single host name in case of a single-name certificate (e.g. `example.com`, `www.example.com`), or a wildcard name in case of a wildcard certificate (e.g. `*.example.com`). In all cases, it is not an URL and therefore it doesn't include any protocol (e.g. http:// or https://), port number or pathname.
+It consists of a single host name in case of a single-name certificate (e.g. `example.com`, `www.example.com`), or a wildcard name in case of a wildcard certificate (e.g. `*.example.com`). In all cases, it is not an URL and therefore it doesn't include any protocol (e.g. http:// or https://), port number, or pathname.
 
 <note>
 #### Single-name or Wildcard?
