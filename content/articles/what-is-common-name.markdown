@@ -7,19 +7,17 @@ categories:
 
 # What is the Common Name?
 
-The **Common Name** (also **CN**) identifies the fully qualified domain name(s) associated with the certificate. It is typically composed by an host and a domain name it looks like (e.g. `www.example.com` or `example.com`).
+The **Common Name** (also **CN**) identifies the host name associated with the certificate, for example `www.example.com` or `example.com`.
 
-Depending on the [certificate type](/articles/ssl-certificates-types), it can be one or more hostnames belonging to the same domain (e.g. `example.com`, `www.example.com`), a wildcard name (e.g. `*.example.com`) or a list of domains. In all cases, it don't include any protocol (e.g. http:// or https://), port number or pathname.
-
-The certificate is valid only if the request hostname matches at least one of the certificate common names.
+It consists of a single host name in case of a single-name certificate (e.g. `example.com`, `www.example.com`), or a wildcard name in case of a wildcard certificate (e.g. `*.example.com`). In all cases, it is not an URL and therefore it doesn't include any protocol (e.g. http:// or https://), port number, or pathname.
 
 <note>
-#### Wildcard or Single-Hostname?
+#### Single-name or Wildcard?
 
-Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-hostname) if you need help to determine the most appropriate common name for your certificate.
+Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-names) if you need help to determine the most appropriate host names for your certificate.
 </note>
 
-Most web browsers displays a warning message when connecting to an address that does not match the common name in the certificate.
+The common name represents the name protected by the SSL certificate. The certificate is valid only if the request hostname matches the certificate common name. Most web browsers displays a warning message when connecting to an address that does not match the common name in the certificate.
 
 ##### Example of host name mismatch error on Google Chrome
 
@@ -28,3 +26,9 @@ Most web browsers displays a warning message when connecting to an address that 
 ##### Example of host name mismatch error on Google Safari
 
 ![Example of host name mismatch error on Google Safari](/files/dnsimple-certificate-mismatch-safari.png)
+
+## Common name vs Subject Alternative Name
+
+The common name can only contain up to one entry: either a wildcard or a single name. It's not possible to specify a list of names covered by an SSL certificate in the common name field.
+
+The [SAN extension](/articles/what-is-ssl-san) was introduced to solve this limitation and allow to issue multi-domain SSL certificates. The SAN extension can be used to integrate or replace the common name, and it supports the ability to specify different domains protected by a single SSL certificate.

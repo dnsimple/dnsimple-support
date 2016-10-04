@@ -8,7 +8,7 @@ categories:
 # Sync Zones from Github
 
 <note>
-This article described a beta feature. The feature must be enabled on your account by request.
+This article describes a feature in private beta. Please contact support to join the beta and get access to the feature.
 </note>
 
 You can connect to Github and synchronize zone data from a Github repository into your DNSimple account.
