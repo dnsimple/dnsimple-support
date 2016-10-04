@@ -31,7 +31,7 @@ Are you buying an SSL certificate for the first time? We assembled a [getting st
 
 There are several types of SSL Certificates. They are generally classified by _validation type_ or _secured domains_. If you are not familiar with the differences, take a look at the [SSL certificate types](/articles/ssl-certificates-types) article.
 
-DNSimple currently provides the following certificates products:
+DNSimple currently provides the following certificate products:
 
 1. [Standard Single-name SSL certificate](#standard-singlename)
 1. [Standard Wildcard SSL certificate](#standard-wildcard)
