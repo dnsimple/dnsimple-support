@@ -66,7 +66,7 @@ Let's Encrypt currently provides only one product. They issue only domain-valida
 
 <callout>
 If you are interested in a wildcard certificate, DNSimple [offers wildcard certificates](/articles/ssl-certificates/#standard-wildcard) using a different certificate authority.
-<callout>
+</callout>
 
 Single-name certificates can be considered a special type of multi-name certificates, with a single name associated with it. Therefore, Let's Encrypt offering is both a multi-name and single-name.
 
@@ -84,6 +84,7 @@ Note that not all Let's Encrypt features are currently supported by DNSimple. So
 - You can request as many certificate as you want, as long as you stay within Let's Encrypt request [rate-limiting](https://letsencrypt.org/docs/rate-limits/).
 - Depending on your plan, you can specify the hostname for the certificate, or it will be defaulted to www/root domain.
 - Depending on your plan, you can specify up to 100 extra hostnames for a single certificate. Remember that Let's Encrypt doesn't support wildcard certificates, and we currently only support subdomains (it's not possible to add names from different domains).
+
 
 ## Limitations
 
