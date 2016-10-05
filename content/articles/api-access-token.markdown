@@ -29,7 +29,7 @@ Make sure to copy the text for the access token as it will only be shown once.
 
 ![Token Generated](/files/access-token-generated.png)
 
-With this access token you may now access the API using the HTTP header "Authorization: Bearer token", replacing "token" with the value taken from the page when the token is generated.
+With this access token you may now access the API using the HTTP header "Authorization: Bearer token", replacing "token" with the value taken from the page when the token is generated. If you'd like additional information on how to access the API with the newly generated token, please visit [the authentication section](https://developer.dnsimple.com/v2/#authentication) on the DNSimple Developer site.
 
 You can also remove a token at any time by using the "Remove token" button.
 
