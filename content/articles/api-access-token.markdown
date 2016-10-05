@@ -17,7 +17,11 @@ Once you are there click on the "Access tokens" link in the left menu.
 
 ![Access Tokens Link](/files/access-tokens-link.png)
 
-Here you can see all of your access tokens, add new access tokens and remove existing access tokens. Click on the "New access token" link to add a new access token.
+Here you can see all of your access tokens, add new access tokens and remove existing access tokens.
+
+## Generating an Access Token
+
+Click on the "New access token" link to add a new access token.
 
 ![New Access Token](/files/access-token-new.png)
 
@@ -30,6 +34,8 @@ Make sure to copy the text for the access token as it will only be shown once.
 ![Token Generated](/files/access-token-generated.png)
 
 With this access token you may now access the API using the HTTP header "Authorization: Bearer token", replacing "token" with the value taken from the page when the token is generated. If you'd like additional information on how to access the API with the newly generated token, please visit [the authentication section](https://developer.dnsimple.com/v2/#authentication) on the DNSimple Developer site.
+
+## Removing an Access Token
 
 You can also remove a token at any time by using the "Remove token" button.
 
