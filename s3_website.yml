@@ -59,8 +59,8 @@ redirects:
   articles/renewing-ssl-certificates/index.html: /articles/renewing-ssl-certificate/
   articles/reissuing-ssl-certificates: /articles/reissuing-ssl-certificate/
   articles/reissuing-ssl-certificates/index.html: /articles/reissuing-ssl-certificate/
-  articles/ssl-certificate-hostname: /articles/ssl-certificate-names/
-  articles/ssl-certificate-hostname/index.html: /articles/ssl-certificate-names/
+  articles/what-ssl-certificate-windows: /articles/ssl-certificate-with-microsoft-iis/
+  articles/what-ssl-certificate-windows/index.html: /articles/ssl-certificate-with-microsoft-iis/
 
 # routing_rules:
 #   - condition:
