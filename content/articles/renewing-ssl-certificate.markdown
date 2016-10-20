@@ -84,22 +84,6 @@ We recommend to renew the certificate no late than 1 week before expiration.
 </note>
 
 
-## RapidSSL certificates
-
-For RapidSSL SSL certificates, if you renew prior to the current certificate expiration date, your new certificate expiration will be extended as follows:
-
-- 46 - 90 days before expiration date, extend 3 months
-- 16 - 45 days before expiration date, extend 2 months
-- 15 days or less before expiration date, extend 1 month
-- Up to 15 days after expiration date, extend 1 month
-
-This extension will be from the new certificate purchase date.
-
-<note>
-We no longer sell RapidSSL certificates. If you purchased the renewal for a single-hostname certificate before September 11th, 2014 then you may be entitled for the extension. In this case, the extension will be granted automatically. [Contact us](https://dnsimple.com/contact) if you have any questions.
-</note>
-
-
 ## Heroku
 
 If you are using your certificate on Heroku then you may find [this article](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) helpful when preparing and deploying your newly issued certificate.
