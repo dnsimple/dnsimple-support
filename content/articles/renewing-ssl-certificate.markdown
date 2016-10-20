@@ -75,15 +75,14 @@ You will need to [verify the SSL certificate order](/articles/ssl-certificates-e
 You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
 
 
-## Comodo certificates
+## New certificate expiration
 
-Comodo SSL certificate will not be extended, therefore you should purchase your new certificate close to your old certificate expiration date, but with enough time for the certificate to be issued.
+### Standard certificates
 
-<note>
-We recommend to renew the certificate no late than 1 week before expiration.
-</note>
+If a certificate is renewed within 60 days from the expiration date, the expiration date of the renewed certificate will be calculated from the expiration of the existing certificate. Therefore, you will not lose any paid days from the previous certificate.
 
+We encourage you to plan the renewal of your certificate at least one week before the expiration, to avoid downtime or issues caused by possible renewal delays.
 
-## Heroku
+### Let's Encrypt certificates
 
-If you are using your certificate on Heroku then you may find [this article](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) helpful when preparing and deploying your newly issued certificate.
+The expiration of a Let's Encrypt certificate will be 90 days, from the issuance of the certificate, regardless it's a new purchase or a renewal.
