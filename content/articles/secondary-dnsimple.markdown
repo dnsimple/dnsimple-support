@@ -23,11 +23,11 @@ These are the steps required in order to setup zone redundancy with another DNS 
 - Go to the domain page and click on the DNS in the menu.
 - Under the name server section click on <label>configure secondary DNS</label>.
 
-  ![Change you Secondary DNS configuration](/files/secondary-dnsimple-slave-1.jpg)
+  ![Change you Secondary DNS configuration](/files/secondary-dnsimple-1.jpg)
 
 - Select <label>Custom</label> as your provider.
 - Enter the name servers of your primary DNS provider in the <label>Name servers</label> field. Do not enter any IP address to white-list as this is not needed.
 
-  ![Configure primary DNS provider name servers](/files/secondary-dnsimple-slave-2.jpg)
+  ![Configure primary DNS provider name servers](/files/secondary-dnsimple-2.jpg)
 
 - Click on <label>Enable</label>.
