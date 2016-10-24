@@ -1,13 +1,13 @@
 ---
-title: DNSimple as Secondary Slave
-excerpt: How to use DNSimple as Secondary Slave for your domain.
+title: Using DNSimple along other DNS providers
+excerpt: How to use DNSimple along with other DNS providers to implement zone redundancy.
 categories:
 - Secondary DNS
 ---
 
-# DNSimple as Secondary Slave
+# DNSimple as a Secondary DNS provider
 
-While DNSimple cannot be configured as secondary slave for your domain, this article explains how you can have zone redundancy for your domains.
+While DNSimple cannot be configured as Secondary slave for your domain, this article explains how you can have zone redundancy with other DNS providers.
 
 We currently do not implement zone transfers (AXFR) from another primary DNS provider. That means you will be responsible of keeping the zones in in sync between your primary and DNSimple. You can accomplish this in several ways:
 
@@ -18,9 +18,9 @@ We currently do not implement zone transfers (AXFR) from another primary DNS pro
 Once you are able to keep both zones in sync you will need to add the NS records corresponding to your primary DNS provider. You won't be able to do this using our [record editor](/articles/record-editor/) directly.
 
 
-## Configuring DNSimple as a slave
+## Configuring DNSimple along another DNS provider
 
-These are the steps required in order to setup DNSimple as a slave for your domain.
+These are the steps required in order to setup zone redundancy with another DNS provider:
 
 - If you don't have the domain in your DNSimple account, [add it with "use DNSimple services"](/articles/adding-domain/).
 - Go to the domain page and click on the DNS in the menu.
