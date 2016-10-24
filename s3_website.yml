@@ -61,6 +61,7 @@ redirects:
   articles/reissuing-ssl-certificates/index.html: /articles/reissuing-ssl-certificate/
   articles/ssl-certificate-hostname: /articles/ssl-certificate-names/
   articles/ssl-certificate-hostname/index.html: /articles/ssl-certificate-names/
+  articles/master-slave-support/index.html: /articles/secondary-dnsimple/
 
 # routing_rules:
 #   - condition:
