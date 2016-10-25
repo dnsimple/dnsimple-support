@@ -11,7 +11,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 **Requirements**
 
-* An active account with **Dyn**. Your secondary DNS Setup will vary depending on whether you use Dyn Standard or Dyn Managed DNS.
+* An active account with [Dyn](http://dyn.com/). Your secondary DNS Setup will vary depending on whether you use _Dyn Standard_ or _Dyn Managed DNS_ service.
 * Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple)
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
