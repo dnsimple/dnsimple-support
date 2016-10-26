@@ -51,7 +51,7 @@ When you install your end-user certificate for `example.awesome`, you must bundl
 
     The procedure to install the Intermediate SSL certificates depends on the web server and the environment where you install the certificate.
 
-    For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. Conversely, Nginx requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
+    For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. Conversely, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
 
     Follow the documentation of your web server to determine how to properly install your domain certificate and intermediate certificates.
 

@@ -14,7 +14,7 @@ categories:
 
 ---
 
-With DNSimple you can request an SSL certificates that you can install on [Microsoft IIS](http://www.iis.net/) on Windows to enable HTTPS for a site.
+With DNSimple you can request an SSL certificate that you can install on [Microsoft IIS](http://www.iis.net/) on Windows to enable HTTPS for a site.
 
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Microsoft Windows IIS.
 
