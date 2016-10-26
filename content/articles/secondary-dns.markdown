@@ -110,7 +110,7 @@ The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addr
 <div class="section-faq" markdown="1">
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
-    No. At this time, DNSimple can serve only as the authoritative source for DNS but does offer the ability to have a secondary provider configured via AXFR.
+    While DNSimple cannot synchronize zone changes from other name servers using AXFR, you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple).
 
 1.  #### How can I check that my secondary DNS configuration is correct?
 
