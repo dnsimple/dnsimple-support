@@ -1,11 +1,11 @@
 ---
-title: SSL Certificates with Azure
+title: SSL Certificates with Microsoft Azure
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure your Azure application.
 categories:
 - SSL Certificates
 ---
 
-# SSL Certificates and Azure
+# SSL Certificates and Microsoft Azure
 
 ### Table of Contents {#toc}
 
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-With DNSimple you can request an SSL certificate that you can install on [Azure](https://azure.microsoft.com/) to enable HTTPS on your Azure application. DNSimple also provides the [ALIAS feature](/articles/alias-record/) that is necessary if you want to point your root domain to Azure.
+With DNSimple you can request an SSL certificate that you can install on [Microsoft Azure](https://azure.microsoft.com/) to enable HTTPS on your Azure application. DNSimple also provides the [ALIAS feature](/articles/alias-record/) that is necessary if you want to point your root domain to Azure.
 
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure Azure to use the new SSL certificate with the appropriate domain.
 
