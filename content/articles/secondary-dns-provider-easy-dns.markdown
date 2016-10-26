@@ -2,7 +2,7 @@
 title: Secondary DNS with EasyDNS
 excerpt: Secondary DNS can be complicated to set up. We've simplified things with provider specific settings for EasyDNS.
 categories:
-- DNS
+- Secondary DNS
 ---
 
 # Secondary DNS configuration with EasyDNS

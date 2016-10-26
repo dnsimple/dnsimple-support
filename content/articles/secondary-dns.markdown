@@ -2,7 +2,7 @@
 title: Secondary DNS
 excerpt: This page provides information about secondary DNS configuration with DNSimple.
 categories:
-- DNS
+- Secondary DNS
 ---
 
 # Secondary DNS
@@ -67,7 +67,7 @@ If your domain is registered with us, we will replace whatever delegation you ha
 
 ### Behind the Scenes
 
-Once Secondary DNS has been correctly setup for a particular domain every zone change will be replicated on the Secondary DNS provider. All existing records will be copied over.Including not only standard records but also DNSimple custom records like `ALIAS` and `URL`. These will be resolved and the resulting value will be pushed to the secondary.
+Once Secondary DNS has been correctly setup for a particular domain every zone change will be replicated on the Secondary DNS provider. All existing records will be copied over. Including not only standard records but also DNSimple custom records like `ALIAS` and `URL`. These will be resolved and the resulting value will be pushed to the secondary.
 
 Until Secondary DNS is disabled for a particular domain all record changes that you make on DNSimple will be synchronized to your Secondary DNS provider automatically.
 
@@ -92,7 +92,9 @@ If you no longer wish to use Secondary DNS via AXFR, you can simply visit the co
 
 ## AXFR Name Server Details
 
-In order to setup your secondary provider, you will need to give them the server which will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name while others will ask for an IP address. The host name will consistently remain **axfr.dnsimple.com**. Presently the IP address on that node is 50.31.225.92; however that value is subject to change.
+In order to setup your secondary provider, you will need to give them the server which will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name while others will ask for an IP address.
+
+The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP address on that node is 50.31.225.92. Please prefer the host name whenever possible. If the IP address should change, we will inform you in advance using your account email.
 
 ## Frequently Asked Questions
 
