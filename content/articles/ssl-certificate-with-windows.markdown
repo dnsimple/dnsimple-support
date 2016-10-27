@@ -1,22 +1,37 @@
 ---
-title: Using an SSL Certificate with Windows
-excerpt: Welcome to DNSimple. This page explains how to use an SSL certificate with Windows. Hosted DNS has never been this easy.
+title: SSL Certificates with Windows
+excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
 categories:
 - SSL Certificates
 ---
 
-# Using an SSL Certificate with Windows
+# SSL Certificates and Windows
 
-If you purchase a single domain certificate through DNSimple and would like to install it on a Windows server, you will first need to convert the certificate to PFX format using OpenSSL.
+### Table of Contents {#toc}
 
-Open a console and run the following command:
+* TOC
+{:toc}
 
-```
-openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile CACert.crt
-```
+---
 
-Once you've done that, you should install the certificate per the [instructions on the Certificate Authority SSL support site:
+With DNSimple you can request an SSL certificate that you can install on Microsoft Windows to enable HTTPS for a site.
 
-- [Comodo instructions](https://support.comodo.com/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=1205&nav=0,96,1,95) for wildcard certificates
-- [RapidSSL instructions](https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&actp=CROSSLINK&id=SO22345) for single name certificate
 
+## Which server?
+
+Microsoft Windows is an operating system. In order to use the SSL certificate and enable HTTPS for a site, you will have to obtain the SSL certificate and install it on a web server.
+
+Microsoft Windows supports a large number of web servers. The most common are Microsoft IIS (available by default in most versions of Microsoft Windows), Apache, and NGINX.
+
+We provide specific articles to request and install the SSL on the following web servers:
+
+- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis)
+- [Apache](/articles/ssl-certificate-with-apache)
+- [NGINX](/articles/ssl-certificate-with-nginx)
+
+If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/purchasing-ssl-certificates) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
+
+If you are using Microsoft Windows as operating system, but you are installing the certificate on a cloud service, then you may be interested in one of the following articles:
+
+- [Heroku](/articles/ssl-certificate-with-heroku)
+- [Microsoft Azure](/articles/ssl-certificate-with-azure)
