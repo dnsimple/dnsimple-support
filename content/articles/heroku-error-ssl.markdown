@@ -13,7 +13,10 @@ This article describes somes of the most common errors you may experience when i
 
 You pointed your domain to Heroku to use an SSL certificate but you are receiving an error such as _Troubleshooting Heroku SSL errors_, _Invalid common name_ or _The certificate for this website is invalid_.
 
-This error occurs because you are pointing the DNS to the generic `herokuapp.com` Heroku endpoint. Instead you need to **use the [custom SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) they provide to you**, generally ending with `herokussl.com`.
+This error occurs because you are pointing the DNS to the generic `herokuapp.com` Heroku endpoint. Instead you need to **use the SSL host name provided you by Heroku**. The hostname generally ends with:
+
+- `herokudns.com` if you are using the [Heroku SSL](https://devcenter.heroku.com/articles/ssl) feature
+- `herokussl.com` if you are using the legacy [Heroku SSL Endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) feature
 
 ~~~
 ➜  ~  dig www.awesomeexample.com
