@@ -88,7 +88,7 @@ Once you have set up Secondary DNS, it may be necessary to tweak details about y
 
 ## Disable Secondary DNS
 
-If you no longer wish to use Secondary DNS via AXFR, you can simply choose the <label>Delete secondary DNS configuration</label> button
+If you no longer wish to use Secondary DNS via AXFR, you can simply click the <label>Delete secondary DNS configuration</label> button
 
 ![Delete Secondary DNS Configuration](/files/reconfigure-secondary-dns.png)
 
