@@ -21,13 +21,12 @@ These are the steps required in order to setup zone redundancy with another DNS 
 
 - If you don't have the domain in your DNSimple account, [add it with "use DNSimple services"](/articles/adding-domain/).
 - Go to the domain page and click on the DNS in the menu.
-- Under the name server section click on <label>configure secondary DNS</label>.
+- Under the Secondary DNS card, click on <label>Use DNSimple along another DNS provider</label>.
 
-  ![Change you Secondary DNS configuration](/files/secondary-dnsimple-1.jpg)
+  ![Change you Secondary DNS configuration](/files/secondary-dnsimple-1.png)
 
-- Select <label>Custom</label> as your provider.
-- Enter the name servers of your primary DNS provider in the <label>Name servers</label> field. Do not enter any IP address to white-list as this is not needed.
+- Enter the name servers of your primary DNS provider in the <label>Name servers</label> field.
 
-  ![Configure primary DNS provider name servers](/files/secondary-dnsimple-2.jpg)
+  ![Configure primary DNS provider name servers](/files/secondary-dnsimple-2.png)
 
-- Click on <label>Enable</label>.
+- Click on <label>Save</label>.

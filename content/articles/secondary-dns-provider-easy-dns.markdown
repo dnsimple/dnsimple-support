@@ -16,7 +16,7 @@ For an overview of SecondaryDNS, have a look at [our introduction article](/arti
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
-![DNS management page](/files/setup-secondary-dns.jpg)
+![DNS management page](/files/setup-secondary-dns.png)
 
 From DNSimple, select **EasyDNS** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 

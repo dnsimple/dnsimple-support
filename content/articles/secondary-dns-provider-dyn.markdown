@@ -16,7 +16,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
-![DNS management page](/files/setup-secondary-dns.jpg)
+![DNS management page](/files/setup-secondary-dns.png)
 
 ## Setting up for Dyn Standard
 
