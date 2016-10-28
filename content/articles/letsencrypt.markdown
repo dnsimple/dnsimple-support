@@ -1,6 +1,6 @@
 ---
 title: Let's Encrypt and DNSimple
-excerpt:
+excerpt: The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free, using the Let's Encrypt certification authority.
 categories:
 - SSL Certificates
 - Integrations
