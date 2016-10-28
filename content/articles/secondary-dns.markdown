@@ -51,9 +51,9 @@ Remember that you will need to revert this step if you ever disable Secondary DN
 
 Getting started with Secondary DNS is possible from the DNS section of the domain management page.
 
-![DNS management page](/files/setup-secondary-dns.jpg)
+![DNS management page](/files/setup-secondary-dns.png)
 
-You will then be presented with a page where you can choose your secondary provider. If your provider is either DNSMadeEasy or EasyDNS, you are one click away from completing the configuration. Otherwise, select the custom option. You will then be presented with a page for providing the names for NS records as well as the IP addresses which should be allowed to have access for the zone transfer. These details should be retrieved from your secondary DNS provider.
+You will then be presented with a page where you can choose your secondary provider. If your provider is either Dyn, DNSMadeEasy, or EasyDNS, you are one click away from completing the configuration. Otherwise, select the custom option. You will then be presented with a page for providing the names for NS records as well as the IP addresses which should be allowed to have access for the zone transfer. These details should be retrieved from your secondary DNS provider.
 
 ![Configure Secondary DNS Form](/files/secondary-dns-step-1.png)
 
@@ -84,18 +84,13 @@ Until Secondary DNS is disabled for a particular domain all record changes that 
 
 Once you have set up Secondary DNS, it may be necessary to tweak details about your configuration. This is accomplished from the same link as initial setup.
 
-![Reconfigure Secondary DNS](/files/reconfigure-secondary-dns.jpg)
-
-From here you will see details regarding the current configuration. Click the <label>Edit configuration</label> link and submit the form once you have modified the values as needed.
-
-![Edit Secondary DNS Configuration](/files/secondary-dns-edit.png)
-
+![Reconfigure Secondary DNS](/files/reconfigure-secondary-dns.png)
 
 ## Disable Secondary DNS
 
-If you no longer wish to use Secondary DNS via AXFR, you can simply visit the configuration page for Secondary DNS and choose the <label>Delete secondary DNS configuration</label> button
+If you no longer wish to use Secondary DNS via AXFR, you can simply choose the <label>Delete secondary DNS configuration</label> button
 
-![Delete Secondary DNS Configuration](/files/secondary-dns-delete.png)
+![Delete Secondary DNS Configuration](/files/reconfigure-secondary-dns.png)
 
 
 ## AXFR Name Server Details
