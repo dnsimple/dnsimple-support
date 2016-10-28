@@ -12,6 +12,10 @@ categories:
 This article describes a feature in private beta. Please contact support to join the beta and get access to the feature.
 </note>
 
+<note>
+This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
+</note>
+
 ### Table of Contents {#toc}
 
 * TOC
@@ -41,7 +45,7 @@ As mentioned before, Let's Encrypt is quite different than most traditional cert
 - Let's Encrypt is currently [rate-limiting](https://letsencrypt.org/docs/rate-limits/) requests. Make sure to understand their limits before requesting a large number of certificates.
 
 
-## Let's Encrypt and DNSimple
+## Integration
 
 The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free, using the Let's Encrypt certification authority.
 
@@ -75,7 +79,7 @@ The ability to customize the names associated with a Let's Encrypt certificate d
 </note>
 
 
-## Features
+## Plan-specific features
 
 Let's Encrypt feature support varies based on your DNSimple subscription plan.
 
