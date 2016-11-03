@@ -1,11 +1,11 @@
 ---
-title: Requesting a Comodo Certificate
-excerpt: How to get request a certificate from Comodo with DNSimple
+title: Ordering a Comodo Certificate
+excerpt: How to order a certificate from Comodo with DNSimple
 categories:
 - SSL Certificates
 ---
 
-# Requesting a Comodo Certificate
+# Ordering a Comodo Certificate
 
 ### Table of Contents {#toc}
 
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DNSimple provides an SSL certificate interface you can use to purchase a new SSL certificate.
+DNSimple provides an SSL certificate interface you can use to order a new SSL certificate.
 
 All traditional SSL certificates sold by DNSimple are valid for at least one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
@@ -31,7 +31,7 @@ Please be sure you comply with the all the [technical requirements](/articles/ge
 
 These are the steps required in order to successfully secure your website with an SSL certificate:
 
-1. [Purchase the SSL certificate](#order)
+1. [Order the SSL certificate](#order)
 1. Configure and submit the SSL certificate
 1. Validate and approve the SSL certificate
 1. Download and install the SSL certificate
@@ -39,24 +39,24 @@ These are the steps required in order to successfully secure your website with a
 If you are looking to renew an existing certificate, read the renewing article. For more details about the configuration, approval and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) article or follow the instructions on the site after you purchase the SSL certificate order.
 
 
-## Purchasing an SSL certificate {#order}
+## Ordering an SSL certificate {#order}
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates) to make sure you are familiar with the SSL certificate process.
 
-The purchase is the first step into getting an SSL certificate. It will create an SSL certificate order that represents a request of a certificate to the CA.
+The order is the first step into getting an SSL certificate. It will create an SSL certificate order that represents a request of a certificate to the CA.
 
 <div class="section-steps" markdown="1">
-##### To purchase a certificate
+##### To order a certificate
 
 1.  Log into your DNSimple account.
 1.  If the domain is not already in your account, follow the instructions to [add a domain without transferring it](/articles/adding-domain).
 1.  If the domain is already in your account, on the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Select the SSL Certificates tab and click <label>Get an SSL Certificate</label> to start the order.
 1.  Click <label>Continue</label> under the Comodo SSL option.
-1.  Follow the instructions to request the certificate.
+1.  Follow the instructions to order the certificate.
 
     1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
-    1.  Enter the certificate common name. Use an `*` to request a wildcard certificate.
+    1.  Enter the certificate common name. Use an `*` to order a wildcard certificate.
     1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
     1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
@@ -69,6 +69,6 @@ The purchase is the first step into getting an SSL certificate. It will create a
 
 ## What's next?
 
-Once you purchased the certificate, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
+Once you order the certificate, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
 
 See [getting started with SSL certificates](/articles/getting-started-ssl-certificates).
