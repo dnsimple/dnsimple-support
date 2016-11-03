@@ -1,6 +1,6 @@
 ---
 title: Getting Started with SSL Certificates
-excerpt: How to get started with a new SSL Certificate, from purchase to setup.
+excerpt: How to get started with a new SSL Certificate, from request to installation.
 categories:
 - SSL Certificates
 ---
@@ -26,7 +26,7 @@ If you are not familiar with SSL certificates, you may want to learn more about 
 
 In some limited instances, you may need to use a [custom CSR](/articles/what-is-csr) to acquire a new certificate. Check your web server's documentation to determine if you do.
 
-**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Read the [ordering section](/articles/purchasing-ssl-certificates#order) of the article explaing SSL purchasing for more information.
+**You are not required to transfer or host a domain with us to request an SSL certificate**. You can acquire a Comodo SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be requested only for domains resolving with us. Read the [ordering section](/articles/purchasing-ssl-certificates#order) of the article explaing SSL purchasing for more information.
 
 ## Choose the certificate product
 
