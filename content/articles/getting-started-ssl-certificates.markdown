@@ -26,7 +26,7 @@ If you are not familiar with SSL certificates, you may want to learn more about 
 
 In some limited instances, you may need to use a [custom CSR](/articles/what-is-csr) to acquire a new certificate. Check your web server's documentation to determine if you do.
 
-**You are not required to transfer or host a domain with us to request an SSL certificate**. You can acquire a Comodo SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be requested only for domains resolving with us. Read the [ordering section](/articles/purchasing-ssl-certificates#order) of the article explaing SSL purchasing for more information.
+**You are not required to transfer or host a domain with us to request an SSL certificate**. You can acquire a Comodo SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be requested only for domains resolving with us. More details are available [on the articles about requesting the two types of certificates](#requesting).
 
 ## Choose the certificate product
 
@@ -36,11 +36,16 @@ We [offer different types of certificates](/articles/ssl-certificates). You will
 
 Some types of certificates allow multiple names to be chosen for the certificate. Before requesting your certificate you will need to know what the [appropriate host name](/articles/ssl-certificate-names) is for your case.
 
-## Request the certificate
+## Request the certificate {#requesting}
 
-[Purchase](/articles/purchasing-ssl-certificates) the desired SSL certificate from your DNSimple control panel. If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificates) it and we will default some settings for you.
+Because acquiring a certificate is different between the Certificate Authorities we support, we have provided separate articles about these two:
 
-If you need to use a [custom CSR](/articles/what-is-csr), generate it and paste it in the SSL certificate purchase form.
+- [Requesting a Comodo certificate](/articles/requesting-comodo-certificate)
+- [Requesting a Let's Encrypt certificate](/articles/requesting-lets-encrypt-certificate)
+
+If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificates) it and we will default some settings for you.
+
+If you need to use a [custom CSR](/articles/what-is-csr), generate it and [request a Comodo certificate](/articles/requesting-comodo-certificate) where you can paste it in the SSL certificate purchase form.
 
 <warning>
 If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.

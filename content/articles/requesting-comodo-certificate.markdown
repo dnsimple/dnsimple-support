@@ -1,11 +1,11 @@
 ---
-title: Purchasing an SSL Certificate
-excerpt: Instructions to purchase an SSL certificate for a domain with DNSimple.
+title: Requesting a Comodo Certificate
+excerpt: How to get request a certificate from Comodo with DNSimple
 categories:
 - SSL Certificates
 ---
 
-# Purchasing an SSL Certificate
+# Requesting a Comodo Certificate
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 
 DNSimple provides an SSL certificate interface you can use to purchase a new SSL certificate.
 
-All DNSimple SSL certificates are valid for one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
+All traditional SSL certificates sold by DNSimple are valid for at least one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
 
 ## Purchase requirements
@@ -51,7 +51,8 @@ The purchase is the first step into getting an SSL certificate. It will create a
 1.  Log into your DNSimple account.
 1.  If the domain is not already in your account, follow the instructions to [add a domain without transferring it](/articles/adding-domain).
 1.  If the domain is already in your account, on the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
-1.  Scroll to the certificate section. Click <label>Get an SSL Certificate</label> to start the order.
+1.  Select the SSL Certificates tab and click <label>Get an SSL Certificate</label> to start the order.
+1.  Click <label>Continue</label> under the Comodo SSL option.
 1.  Follow the instructions to request the certificate.
 
     1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
