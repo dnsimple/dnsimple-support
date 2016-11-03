@@ -53,6 +53,14 @@ If you use a custom CSR, be sure you have stored the private key safely as it is
 
 ## Validate the certificate request
 
+### Let's Encrypt validation
+
+If you have ordered a Let's Encrypt certificate, the request will be automatically validated, provided your domain is resolving with us properly. If there is a delay of more than a 20 minutes from order to issuance, please contact us via our support channels to investigate any possible issues.
+
+### Comodo validation
+
+If you have ordered a Comodo certificate, you have a bit more work to do.
+
 [Select the SSL certificate validation email](/articles/ssl-certificates-email-validation/#select-email) and submit your certificate for validation.
 
 <warning>
