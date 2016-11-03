@@ -1,6 +1,6 @@
 ---
 title: Getting Started with SSL Certificates
-excerpt: How to get started with a new SSL Certificate, from request to installation.
+excerpt: How to get started with a new SSL Certificate, from order to installation.
 categories:
 - SSL Certificates
 ---
