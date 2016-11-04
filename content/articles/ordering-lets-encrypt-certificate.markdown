@@ -21,7 +21,7 @@ SSL certificates issued by Let's Encrypt are valid for 90 days from the issue da
 
 ## Order requirements
 
-To order an SSL certificate you need a DNSimple account. A subscription is necessary to keep the certificate renewed and the domain must be delegated to use due to the DNS challenge automatically configured and checked in our implementation. **It is not necessary to transfer registration to us, but the domain must be delegated to our name servers.**
+To order an SSL certificate you need a DNSimple account. A subscription is necessary to keep the certificate renewed and the domain must be delegated to use DNSimple's name servers due to the DNS challenge—which is automatically configured and checked in our implementation. **It is not necessary to transfer registration to us, but the domain must be delegated to our name servers.**
 
 # Steps
 
@@ -39,7 +39,7 @@ For more details about the configuration, approval and installation of the certi
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates) to make sure you are familiar with the SSL certificate process.
 
-The order is the first step into getting an SSL certificate. It will create an SSL certificate order (in the case of Let's Encrypt certificates for no charge) that represents a request of a certificate to the CA.
+The order is the first step into getting an SSL certificate. It will create an SSL certificate order (for no charge, in the case of Let's Encrypt certificates) that represents a request of a certificate to the CA.
 
 <div class="section-steps" markdown="1">
 ##### To order a certificate
