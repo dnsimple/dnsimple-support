@@ -19,13 +19,13 @@ DNSimple provides an SSL certificate interface you can use to order a new SSL ce
 All traditional SSL certificates sold by DNSimple are valid for at least one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
 
-## Purchase requirements
+## Before you start
 
-To purchase an SSL certificate you need a DNSimple account. In order to finalize the purchase, our system requires the account to be subscribed to a DNSimple plan, however you can unsubscribe later on once the certificate is successfully purchased and issued.
+To order an SSL certificate you need a DNSimple account. In order to finalize the order, the account [must be subscribed](/articles/account-activation) to a DNSimple plan, however you can unsubscribe later on once the certificate is successfully purchased and issued.
 
-**You are not required to transfer or host a domain with us to purchase an SSL certificate**. You can purchase an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. However, an [active account](/articles/account-activation) is required in order to buy it.
+You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase an SSL certificate**.
 
-Please be sure you comply with the all the [technical requirements](/articles/getting-started-ssl-certificates/#requirements) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) page before purchasing the certificate.
+Please be sure you comply with the all the [technical requirements](/articles/getting-started-ssl-certificates/#requirements) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) page before ordering the certificate.
 
 # Steps
 
