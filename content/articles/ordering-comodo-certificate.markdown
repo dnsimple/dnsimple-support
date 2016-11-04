@@ -27,7 +27,7 @@ To order an SSL certificate you need a DNSimple account. In order to finalize th
 You are not required to keep an active subscription to access the certificate, however some features such as certificate renewal or auto-renewal will not be available when you cancel your subscription.
 </note>
 
-You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase an SSL certificate**.
+You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase a Comodo SSL certificate**.
 
 Please be sure you comply with the all the [technical requirements](/articles/getting-started-ssl-certificates/#requirements) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) page before ordering the certificate.
 
@@ -73,6 +73,6 @@ The order is the first step into getting an SSL certificate. It will create an S
 
 ## What's next?
 
-Once you order the certificate, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**.
+Once you order the certificate, **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate**.
 
 See [getting started with SSL certificates](/articles/getting-started-ssl-certificates).
