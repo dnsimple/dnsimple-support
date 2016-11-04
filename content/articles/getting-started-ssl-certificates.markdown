@@ -5,7 +5,7 @@ categories:
 - SSL Certificates
 ---
 
-# Getting Started with SSL Certificates on DNSimple
+# Getting Started with SSL Certificates and DNSimple
 
 ### Table of Contents {#toc}
 
@@ -24,17 +24,17 @@ Before starting, take a moment to review how you will use the certificate and be
 
 If you are not familiar with SSL certificates, you may want to learn more about the different [SSL certificate types](/articles/ssl-certificates-types).
 
-In some limited instances, you may need to use a [custom CSR](/articles/what-is-csr) to acquire a new certificate. Check your web server's documentation to determine if you do.
+In some limited instances, you may need to use a custom [CSR](/articles/what-is-csr) to acquire a new certificate. Check your web server's documentation to determine if you do. DNSimple will generate one for you automatically if you do not provide a custom CSR, which is fine in most cases.
 
-**You are not required to transfer or host a domain with us to order an SSL certificate**. You can acquire a Comodo SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be ordered only for domains resolving with us. More details are available [on the articles about ordering the two types of certificates](#ordering).
+**You are not required to transfer or host a domain with us to order an SSL certificate**. You can acquire a Comodo SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be ordered only for domains resolving with DNSimple. More details are available [on the articles about ordering the two types of certificates](#ordering).
 
 ## Choose the certificate product
 
-We [offer different types of certificates](/articles/ssl-certificates). You will need to determine which version you would like to acquire.
+We [offer different types of certificates](/articles/ssl-certificates). You will need to determine which type you would like to acquire.
 
 ## Choose the certificate names
 
-Some types of certificates allow multiple names to be chosen for the certificate. Before ordering your certificate you will need to know what the [appropriate host name](/articles/ssl-certificate-names) is for your case.
+Some types of certificates allow multiple names to be chosen. Before ordering your certificate you will need to know what the [appropriate host name](/articles/ssl-certificate-names) is for your case.
 
 ## Ordering the certificate {#ordering}
 
