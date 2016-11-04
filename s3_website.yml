@@ -63,6 +63,8 @@ redirects:
   articles/ssl-certificate-hostname/index.html: /articles/ssl-certificate-names/
   articles/master-slave-support: /articles/secondary-dnsimple/
   articles/master-slave-support/index.html: /articles/secondary-dnsimple/
+  articles/purchasing-ssl-certificates: /articles/ordering-comodo-certificate/
+  articles/purchasing-ssl-certificates/index.html: /articles/ordering-comodo-certificate/
 
 # routing_rules:
 #   - condition:
