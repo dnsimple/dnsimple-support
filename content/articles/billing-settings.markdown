@@ -32,6 +32,10 @@ The billing email will be displayed on invoices in absence of other billing info
 If you provide a custom billing email address then it will be used for all invoices. Otherwise your DNSimple account's email address will be used.
 </callout>
 
+<note>
+You will only be able to customize your billing address if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
+</note>
+
 
 ### Billing information
 
