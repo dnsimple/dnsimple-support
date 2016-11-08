@@ -33,7 +33,7 @@ If you provide a custom billing email address then it will be used for all invoi
 </callout>
 
 <note>
-You will only be able to customize your billing address if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
+You will be able to customize your billing address only if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
 </note>
 
 
