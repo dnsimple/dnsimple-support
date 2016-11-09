@@ -103,3 +103,25 @@ Note that not all Let's Encrypt features are currently supported by DNSimple. So
 We currently don't support Let's Encrypt in our [sandbox environment](/articles/sandbox). We discourage the use of the production environment for heavy or automated testing purposes, as you may quickly hit Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
 
 If you have specific testing needs, you may want to consider using the Let's Encrypt [staging environment](https://letsencrypt.org/docs/staging-environment/) directly.
+
+
+## Order certificate
+
+To order a new certificate via Let's Encrypt using DNSimple, follow the instructions in the article [Ordering a Let's Encrypt SSL certificate](https://support.dnsimple.com/articles/ordering-lets-encrypt-certificate).
+
+If you already have a certificate and you want to renew it, follow the instructions for [Renewing an SSL certificate](https://support.dnsimple.com/articles/renewing-ssl-certificate/). We also support [auto-renewals for Let's Encrypt certificates](#auto-renewal).
+
+
+## Auto-renewal {#auto-renewal}
+
+DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-renewal feature is turned on, we will automatically renew the certificate before expiration.
+
+Once renewed, you will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/), the certificate will then be available to download from your DNSimple account.
+
+<callout>
+Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
+</callout>
+
+The feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate at any time from the SSL certificate page.
+
+![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
