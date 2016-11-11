@@ -64,11 +64,11 @@ As mentioned above, you will see a different form for ordering a Let's Encrypt c
 
 ![Let's Encrypt with SAN](/files/lets-encrypt-new-san.png)
 
-On a less advanced plans you will see the ability to provide only one name on your Let's Encrypt certificate:
+Other plans provide the ability to configure only one name on your Let's Encrypt certificate:
 
 ![Let's Encrypt with single name configuration](/files/lets-encrypt-new-names.png)
 
-On our simplest plans wer do not allow the configuration of a name, but instead configure the certificate to work only on the apex and www-subdomain of the zone:
+On some plans we do not allow the configuration of a name but instead configure the certificate to work only on the apex and www-subdomain of the zone:
 
 ![Let's Encrypt with fixed names](/files/lets-encrypt-new-fixed.png)
 
