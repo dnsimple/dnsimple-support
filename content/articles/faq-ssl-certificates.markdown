@@ -25,7 +25,7 @@ categories:
 
     DNSimple is a subscription-based service. You need an active subscription in our to use our platform and domain services.
 
-    The subscription gives you access to both the included platform services (such as the API access and the DNS hosting), and the paid products (such as the domain registration, SSL certificates, email forwarding, etc.).
+    The subscription gives you access to the included platform services (such as the API access and the DNS hosting), and the paid products (such as the domain registration, SSL certificates, email forwarding, etc.).
 
 1.  #### I want to purchase an SSL certificate. Do I need a subscription?
 
@@ -34,6 +34,14 @@ categories:
     In order to purchase an SSL certificate you need an active subscription at the time of the purchase. You are not required to have an active subscription to use or install the certificate on your domain/server, however please note that if you disable the subscription you will not receive any additional service for the domain or the certificate.
 
     You will also need a valid, active subscription when you renew the certificate, or if you want to reissue the certificate.
+
+1.  #### I just want to purchase an SSL certificate, why do I need a subscription?
+
+    As explained in the previous questions, we offer SSL certificate purchases as part of our subscription service.
+    
+    An SSL certificate is not a single-time purchase. You need to renew the certificate periodically, sometimes you need to rekey it or you find yourself having issues installing it, and you want to ask for some help. All these tasks are covered by our subscription service.
+    
+    Additionally, if you are requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we will use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we will [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
 </div>
 
 ## Domains and SSL certificates
