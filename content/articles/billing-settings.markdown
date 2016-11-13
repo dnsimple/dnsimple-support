@@ -44,7 +44,7 @@ Billing information will be displayed on invoices when provided instead of the b
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
 <warning>
-You can modify this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please write to [support@dnsimple.com](mailto:support@dnsimple.com)
+You can modify this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please [contact support](https://dnsimple.com/contact).
 </warning>
 
 ### Changing your billing settings
