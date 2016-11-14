@@ -66,6 +66,20 @@ The order is the first step into getting an SSL certificate. It will create an S
     1.  Submit the order.
 </div>
 
+### What this looks like
+
+As mentioned above, you will see a different form for ordering a Let's Encrypt certificate based on the plan to which you are subscribed. If you have full access to SAN certificate configuration, this is what you'll see:
+
+![Let's Encrypt with SAN](/files/lets-encrypt-new-san.png)
+
+Other plans provide the ability to configure only one name on your Let's Encrypt certificate:
+
+![Let's Encrypt with single name configuration](/files/lets-encrypt-new-names.png)
+
+On some plans we do not allow the configuration of a name but instead configure the certificate to work only on the apex and www-subdomain of the zone:
+
+![Let's Encrypt with fixed names](/files/lets-encrypt-new-fixed.png)
+
 
 ## What's next?
 
