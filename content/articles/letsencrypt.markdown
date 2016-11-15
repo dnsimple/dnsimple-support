@@ -9,7 +9,7 @@ categories:
 # Let's Encrypt and DNSimple
 
 <note>
-This article describes a feature in private beta. Please contact support to join the beta and get access to the feature.
+This article describes a feature in Public Beta.
 </note>
 
 <note>

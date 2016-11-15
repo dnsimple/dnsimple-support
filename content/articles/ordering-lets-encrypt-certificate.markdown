@@ -1,6 +1,6 @@
 ---
 title: Ordering a Let's Encrypt Certificate
-excerpt: How to get request a certificate from Let's Encrypt with DNSimple
+excerpt: How to order a Let's Encrypt certificate with DNSimple.
 categories:
 - SSL Certificates
 ---
@@ -8,7 +8,7 @@ categories:
 # Ordering a Let's Encrypt Certificate
 
 <note>
-This article describes a feature in private beta. Please contact support to join the beta and get access to the feature.
+This article describes a feature in Public Beta.
 </note>
 
 <note>
@@ -27,23 +27,14 @@ DNSimple provides an SSL certificate interface you can use to acquire a new SSL 
 SSL certificates issued by Let's Encrypt are valid for 90 days from the issue date. If you have selected auto-renewal for the certificate, we will begin retrying the renewal 30 days before the expiration date; otherwise, we will begin sending expiration notices at that point.
 
 
-## Order requirements
+## Before you start
 
 To order an SSL certificate you need a DNSimple account. A subscription is necessary to keep the certificate renewed and the domain must be delegated to use DNSimple's name servers due to the DNS challenge—which is automatically configured and checked in our implementation. **It is not necessary to transfer registration to us, but the domain must be delegated to our name servers.**
-
-# Steps
-
-These are the steps required in order to successfully secure your website with an SSL certificate:
-
-1. [Order the SSL certificate](#order)
-1. Configure and submit the SSL certificate
-1. Validate and approve the SSL certificate
-1. Download and install the SSL certificate
 
 For more details about the configuration, approval and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) article or follow the instructions on the site after you submit the SSL certificate order.
 
 
-## Ordering an SSL certificate {#order}
+## Order a Let's Encrypt SSL certificate {#order}
 
 Getting a new SSL certificate is a multi-step process and involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates) to make sure you are familiar with the SSL certificate process.
 
