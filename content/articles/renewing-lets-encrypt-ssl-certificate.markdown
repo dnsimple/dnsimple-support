@@ -9,7 +9,7 @@ categories:
 There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate) before continuing with this document.
 </note>
 
-All Let's Encrypt SSL certificates, including renewals, are valid for no more than 90 days from their issue date. Thirty days before the certificate expires you will begin receiving renewal notices. If you have not selected the auto-renewal option, these are the steps to renew your Let's Encrypt certificate:
+All Let's Encrypt SSL certificates, including renewals, are valid for no more than 90 days from their issue date. Thirty days before the certificate expires you will begin receiving renewal notices. If you have not selected the [auto-renewal option](/articles/letsencrypt#auto-renewal), these are the steps to manually renew your Let's Encrypt certificate:
 
 1. Order the SSL certificate renewal
 1. Configure and submit the new SSL certificate
