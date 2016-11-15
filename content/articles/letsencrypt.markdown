@@ -32,9 +32,25 @@ Let's Encrypt is an innovative certificate authority from several point of views
 - open: the source code of the Let's Encrypt certification authority is completely open source, and available in a [GitHub account](http://github.com/letsencrypt). This is by far the most unique characteristic of this CA.
 
 
+## Differences between Let's Encrypt and Standard SSL certificates
+
+The table below summarizes the most important differences between Let's Encrypt and Standard SSL certificates.
+
+|               | Let's Encrypt | Standard      |
+|---------------+---------------+---------------|
+| Certificate Expiration | 90 days | 1-3 years |
+| Single names | Supported | Supported |
+| Wildcard names | Not Supported | Supported |
+| Multi-domain (SAN) | Supported by default | Supported only by specific products |
+| Max SAN domains | 100 | Depends on the [CA](/articles/what-is-certificate-authority) and product |
+| [Validation type](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level) | DV only | DV, OV, EV |
+| Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority) and product |  
+| Limits | [Per-domain, Per-week limits](https://letsencrypt.org/docs/rate-limits/) | N/A |  
+
+
 ## Let's Encrypt highlights
 
-As mentioned before, Let's Encrypt is quite different than most traditional certificate authorities. Here are a few relevant pieces of information that you may want to keep in mind, before requesting one of their SSL certificates:
+As mentioned before, Let's Encrypt is quite different than most traditional certificate authorities. Here are a few relevant information and limitations that you may want to keep in mind, before requesting one of their SSL certificates:
 
 - Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support OV or EV certificates.
 - Wildcard names are not supported, Let's Encrypt SSL certificates can only include explicit names.
@@ -43,6 +59,8 @@ As mentioned before, Let's Encrypt is quite different than most traditional cert
 - Although Let's Encrypt is a new authority, their SSL certificates are compatible with major browsers as their root certificate was cross-signed by an older certificate authority. For a complete list of supported platforms check out the [certificate compatibility](https://letsencrypt.org/docs/certificate-compatibility/) page.
 - Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation).
 - Let's Encrypt is currently [rate-limiting](https://letsencrypt.org/docs/rate-limits/) requests. Make sure to understand their limits before requesting a large number of certificates.
+
+Please note that some Let's Encrypt features may not be currently supported by DNSimple. Check the [limitations](/articles/letsencrypt/#limitations) section to know more about which features are supported.
 
 
 ## Integration

@@ -65,7 +65,7 @@ The certificate is issued by **Let's Encrypt** and it's free of charge. However,
 The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to.
 </note>
 
-### What's a "Standard" Certificate Authority?
+### What's a "Standard" Certificate Authority? {#standard-certificate}
 
 You may have noticed we used the term _standard_ in our documentation when referring to some specific product types. Let's Encrypt has represented a big shift in the certificate authority field, in terms of offering, pricing, and automation. Traditionally, certificate authorities have been offering yearly certificates, they charged an issuance fee, and the domain validation was generally performed manually via email.
 
