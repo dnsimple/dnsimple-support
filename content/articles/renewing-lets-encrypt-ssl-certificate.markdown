@@ -5,6 +5,8 @@ categories:
 - SSL Certificates
 ---
 
+# Renewing a Let's Encrypt SSL Certificate
+
 <note>
 There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate) before continuing with this document.
 </note>
