@@ -32,6 +32,15 @@ another.domain.com
 
 DNSimple provides SAN SSL certificates issued by the [Let's Encrypt](/articles/letsencrypt) certification authority.
 
+But there is a limitation on general SAN rules described above.
+All the names must belong to the same domain:
+
+```
+example.com
+www.example.com
+mail.example.com
+foo.bar.example.com
+```
 
 ## Background
 
