@@ -26,7 +26,7 @@ For any plan that is not covered above, the limit is 1,000 messages per month.
 
 ## Enabling email forwarding
 
-To enable email forwarding visit a domain's manage page and follow the **Manage Email forwards** at the bottom of the page on the **Domain** tab.
+To enable email forwarding visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
 
 ![Email forwarding](/files/email-forwarding.png)
 
