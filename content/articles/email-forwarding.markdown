@@ -45,6 +45,10 @@ The **From** field is used to match an email address to forward from. Enter eith
 
 In the **To** field enter the email address you would like as the recipient of the email. You can use a Gmail address or any other email address.
 
+<note>
+Email forwarding is not supported with International Domain Names (domains with non-standard characters) at this point in time.
+</note>
+
 ### Catch-all emails
 
 To create a catch-all address follow the instructions to create an email and enter the following wildcard expression in the **To** field:
