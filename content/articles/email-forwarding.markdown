@@ -45,10 +45,6 @@ The **From** field is used to match an email address to forward from. Enter eith
 
 In the **To** field enter the email address you would like as the recipient of the email. You can use a Gmail address or any other email address.
 
-<note>
-Email forwarding is not supported with International Domain Names (domains with non-standard characters) at this point in time.
-</note>
-
 ### Catch-all emails
 
 To create a catch-all address follow the instructions to create an email and enter the following wildcard expression in the **To** field:
@@ -68,3 +64,6 @@ To remove an email forward from your domain, locate the email forwarding configu
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
 
+## Internationalized Domain Names (IDN) support
+
+At this point in time, our email forwarding provider doesn't support International Domain Names (or domains with non-standard characters). Therefore, it's not possible to use as destination an email address with an IDN domain, nor configure email forwards for an IDN domain.
