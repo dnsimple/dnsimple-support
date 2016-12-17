@@ -64,3 +64,6 @@ To remove an email forward from your domain, locate the email forwarding configu
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
 
+## Internationalized Domain Names (IDN) support {#idna}
+
+At this point in time, our email forwarding provider doesn't support International Domain Names (or domains with non-standard characters). Therefore, it's not possible to use as destination an email address with an IDN domain, nor configure email forwards for an IDN domain.
