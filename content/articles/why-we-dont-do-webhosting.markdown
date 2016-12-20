@@ -7,7 +7,7 @@ categories:
 
 # Why we don't offer web hosting services
 
-Traditionally DNS registrars have been offering domains bundled with a hosting solution as part of a basic package. This usually translated into giving a few MegaBytes of disk space exposed by an HTTP server and accessible with a FTP client for the user. The idea behind was that the user could have her personal HTML static site.
+Traditionally, DNS registrars have offered domains bundled with a hosting solution as part of a basic package. This usually translates into giving a few MegaBytes of disk space exposed by an HTTP server and accessible with a FTP client for the user. The idea behind this was that the user could have their personal HTML static site bundled in with the registrar's offerings.
 
 This can cause confusion to people without deep understanding of these technologies. This article explains why DNSimple does not offer web hosting. Some of the reasons are:
 
