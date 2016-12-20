@@ -1,6 +1,6 @@
 ---
 title: DNSimple Services
-excerpt: DNSimple provides several services that every system connected to the Internet needs such as domain registration, hosted DNS, and SSL certificates.
+excerpt: DNSimple provides several services that every system connected to the internet needs—such as domain registration, hosted DNS, and SSL certificates.
 categories:
 - DNSimple
 ---
@@ -27,4 +27,3 @@ SSL certificates are available in two flavors:
 - Wildcard certificates ($100 per year)
 
 Learn more about [DNSimple certificates](/articles/ssl-certificates).
-

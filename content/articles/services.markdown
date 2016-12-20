@@ -1,6 +1,6 @@
 ---
 title: Services
-excerpt: Services are DNS snippets ready for you to use that you can enable in one click.
+excerpt: Services are DNS snippets ready for you to use in one click.
 categories:
 - Services
 ---
