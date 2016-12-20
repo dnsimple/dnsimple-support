@@ -1,6 +1,6 @@
 ---
 title: Common DNS Records
-excerpt: Welcome to DNSimple. This page is about common dns records. Hosted DNS has never been this easy.
+excerpt: Examples of most common DNS records you may want to configure for your domain.
 categories:
 - DNS
 ---

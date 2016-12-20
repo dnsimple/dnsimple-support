@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Email Forwarding with Gmail
-excerpt: This article contains instructions to check and debug email forwarding issues.
+excerpt: How to check and debug email forwarding issues.
 categories:
 - Emails
 ---

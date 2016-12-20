@@ -1,6 +1,6 @@
 ---
 title: Where are your servers located?
-excerpt:
+excerpt: Our Anycast network consists of 5 points-of-presence around the world.
 categories:
 - DNSimple
 ---
