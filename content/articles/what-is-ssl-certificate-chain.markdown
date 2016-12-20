@@ -1,6 +1,6 @@
 ---
 title: What is the SSL Certificate Chain?
-excerpt: The difference between the root certificate, intermediate certificates and server certificate.
+excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
 categories:
 - SSL Certificates
 ---
