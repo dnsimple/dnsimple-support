@@ -27,4 +27,3 @@ SSL certificates are available in two flavors:
 - Wildcard certificates ($100 per year)
 
 Learn more about [DNSimple certificates](/articles/ssl-certificates).
-
