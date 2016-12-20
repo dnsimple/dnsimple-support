@@ -49,12 +49,12 @@ These are the generic steps required in order to successfully secure your websit
 
 Because acquiring a certificate is different between the Certificate Authorities we support, we have provided separate articles about these two:
 
-- [Ordering a Standard certificate](/articles/ordering-comodo-certificate)
+- [Ordering a Standard certificate](/articles/ordering-standard-certificate)
 - [Ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate)
 
 If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificates) it and we will default some settings for you.
 
-If you need to use a [custom CSR](/articles/what-is-csr), generate it and [order a Standard certificate](/articles/ordering-comodo-certificate) where you can paste it in the SSL certificate purchase form.
+If you need to use a [custom CSR](/articles/what-is-csr), generate it and [order a Standard certificate](/articles/ordering-standard-certificate) where you can paste it in the SSL certificate purchase form.
 
 <warning>
 If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.

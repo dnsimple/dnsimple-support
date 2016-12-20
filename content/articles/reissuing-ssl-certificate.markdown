@@ -24,6 +24,11 @@ Re-issuing an SSL certificate involves creating a new private key along with a n
 In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate).
 </note>
 
+<warning>
+This document applies only to standard SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate) at this time.
+
+Please note that there are [rate limits](https://letsencrypt.org/docs/rate-limits/) in place with Let's Encrypt, so be sure to request a new certificate only when absolutely necessary or you may be unable to request other certificates.
+</warning>
 
 ## Why should I re-issue my certificate?
 

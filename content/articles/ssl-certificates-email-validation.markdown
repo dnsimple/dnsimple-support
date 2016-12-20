@@ -74,7 +74,7 @@ If the whois privacy is enabled for the domain associated with the certificate, 
 [Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
 
 <note>
-Once you disable whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information. You may have to wait 24 hours before the new email show up in the list and you can select it, or [contact us](https://dnsimple.com/contact) and provide the certificate name if you want to speed up the update.
+Once you disable whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
 </note>
 
 

@@ -26,7 +26,7 @@ For any plan that is not covered above, the limit is 1,000 messages per month.
 
 ## Enabling email forwarding
 
-To enable email forwarding visit a domain's manage page and follow the **Manage Email forwards** at the bottom of the page on the **Domain** tab.
+To enable email forwarding visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
 
 ![Email forwarding](/files/email-forwarding.png)
 
@@ -64,3 +64,6 @@ To remove an email forward from your domain, locate the email forwarding configu
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
 
+## Internationalized Domain Names (IDN) support {#idna}
+
+At this point in time, our email forwarding provider doesn't support International Domain Names (or domains with non-standard characters). Therefore, it's not possible to use as destination an email address with an IDN domain, nor configure email forwards for an IDN domain.

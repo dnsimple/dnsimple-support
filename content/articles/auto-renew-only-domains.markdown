@@ -24,6 +24,7 @@ The following TLDs are auto-renewal only:
 - `.CH`
 - `.DE`
 - `.ES`
+- `.EU`
 - `.FR`
 - `.IO`
 - `.IT`
