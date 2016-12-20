@@ -1,6 +1,6 @@
 ---
 title: Product Expiration Notification
-excerpt: The Product Expiration email contains the list of products expiring within 2 months, grouped by expiration range.
+excerpt: The Product Expiration email contains a list of products expiring within 2 months, grouped by expiration range.
 categories:
 - DNSimple
 ---
