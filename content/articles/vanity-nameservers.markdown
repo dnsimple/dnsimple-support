@@ -1,6 +1,6 @@
 ---
 title: Vanity Name Servers
-excerpt: This page explains how to enable and disable Vanity Name Servers in DNSimple.
+excerpt: How to enable and disable Vanity Name Servers in DNSimple.
 categories:
 - Name Servers
 - Domains

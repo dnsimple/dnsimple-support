@@ -1,6 +1,6 @@
 ---
 title: What is a TLD?
-excerpt: Welcome to DNSimple, this page explains what TLD means. Enjoy low cost hosted DNS service, an easy to use web interface, and a REST API.
+excerpt: The term top-level domain, or TLD, refers to the first part of every domain name.
 categories:
 - Domains
 ---

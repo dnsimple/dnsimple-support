@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting URL redirects
-excerpt: This article contains instructions to check and debug URL redirect issues.
+excerpt: How to check and debug URL redirect issues.
 categories:
 - Domains
 ---

@@ -1,13 +1,13 @@
 ---
 title: What is a Root Certificate?
-excerpt: Welcome to DNSimple. This page describes what a root SSL certificate is. Hosted DNS has never been this easy.
+excerpt: A Root SSL certificate is a certificate issued by a trusted certificate authority.
 categories:
 - SSL Certificates
 ---
 
 # What is a Root SSL Certificate?
 
-A **Root SSL certificate** is a certificate issued by a **trusted [certificate authority(CA)](/articles/what-is-certificate-authority)**.
+A **Root SSL certificate** is a certificate issued by a **trusted [certificate authority (CA)](/articles/what-is-certificate-authority)**.
 
 In the SSL ecosystem, anyone can generate a signing key and sign a new certificate with that signature. However, that certificate is not considered valid unless it has been directly or indirectly signed by a trusted CA.
 

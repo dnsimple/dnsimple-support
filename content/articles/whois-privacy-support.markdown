@@ -1,6 +1,6 @@
 ---
 title: WHOIS Privacy Support
-excerpt: Welcome to DNSimple. This page is about TLDs with WHOIS Privacy Support. Hosted DNS has never been this easy.
+excerpt: WHOIS privacy service TLD support.
 categories:
 - Whois Privacy
 ---

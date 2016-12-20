@@ -1,6 +1,6 @@
 ---
 title: IPv6 Domain Resolution
-excerpt: 
+excerpt: All DNSimple name servers have IPv6 addresses and respond to queries over IPv6.
 categories:
 - DNS
 ---

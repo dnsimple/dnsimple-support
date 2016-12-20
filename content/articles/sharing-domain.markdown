@@ -1,6 +1,6 @@
 ---
 title: Sharing Domain Management with Another User
-excerpt: Welcome to DNSimple. This page is about sharing the management of a domain. Hosted DNS has never been this easy.
+excerpt: With DNSimple you can share a domain with other users to share management.
 categories:
 - Domains
 ---

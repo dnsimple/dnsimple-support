@@ -1,6 +1,6 @@
 ---
 title: Why anycast DNS?
-excerpt: Welcome to DNSimple. This support page explains why we use anycast DNS. Hosted DNS has never been this easy.
+excerpt: Anycast offers several advantages over Unicast, resulting in lower latency and better traffic distribution.
 categories:
 - DNS
 ---
@@ -18,3 +18,4 @@ Packet latency is largely a function of geographic distance. With anycast we tel
 While lower latency is the primary benefit we also gain resilience at the same time. Instead of four name servers we now have forty. If any of these forty go offline they’re removed from the routing table and others automatically pick up the slack.
 
 Finally, DNSimple's ALIAS record type is a second-order DNS query. Since our anycast server is likely to be closer to the target geographic location an ALIAS record may resolve to a closer datacenter if your app is also geographically distributed.
+

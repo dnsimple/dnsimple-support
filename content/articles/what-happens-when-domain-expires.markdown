@@ -1,6 +1,6 @@
 ---
 title: What happens when a domain expires?
-excerpt: This article explains what happens when a domain expires, how to recover it and what are the fees.
+excerpt: What happens when a domain expires, how to recover it, and understanding the associated fees.
 categories:
  - Domains
 ---
@@ -32,7 +32,8 @@ After a domain has passed through any applicable expiration grace period, the do
 Redemption grace period is the grace period provided after the registrar has issued a delete request to the registry. Only the previous registrant can recover the domain during this time, and it must be retrieved through the previous registrar. The Redemption grace period is named differently for some TLDs; the .org equivalent, for example, is "Pending Delete - Restorable."
 
 Domains in our system can go into either Redemption Grace Period or Extended Redemption Grace Period.
-                                                                                                                                                                                           To renew a domain in redemption status, please contact us.
+
+To renew a domain in redemption status, please contact us.
 
 <note>
 When a domain is in the redemption status, the registrar will apply a mandatory fee on top of the standard renewal price. The final renewal price will be the standard renewal fee plus the redemption fee.

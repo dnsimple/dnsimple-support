@@ -1,6 +1,6 @@
 ---
 title: Suspended Account
-excerpt: Welcome to DNSimple. This page is about suspended accounts.
+excerpt: Reasons why your DNSimple account may be suspended.
 categories:
 - Account
 ---
