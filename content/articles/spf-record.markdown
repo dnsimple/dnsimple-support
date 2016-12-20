@@ -1,6 +1,6 @@
 ---
-title: What is an SPF Record and how is it used?
-excerpt: This article describes what an SPF record is and how it is used.
+title: What is an SPF record?
+excerpt: What is an SPF record and how the SPF record works.
 categories:
 - DNS
 ---
@@ -16,9 +16,10 @@ categories:
 
 ## What is an SPF Record?
 
-An SPF record is a Sender Policy Framework record and is used to indicate to mail exchanges which hosts are authorized to send mail for a domain . It is defined in [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt) and clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
+An SPF record is a Sender Policy Framework record and is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. It is defined in [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt) and clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
 
-## SPF Record Format
+
+## SPF record format
 
 SPF records are typically defined using the TXT record type. There is also an SPF record type, however it is deprecated and thus you should always have at least the TXT record definition present, even if you use the SPF type.
 
@@ -47,6 +48,7 @@ There are currently two modifiers defined:
 - `redirect`
 - `exp`
 
+
 ## SPF Mechanisms
 
 The following mechanisms define what IP addresses are allowed to send mail from the domain:
@@ -65,6 +67,7 @@ The `all` mechanism matches any address. This is usually used as the last mechan
 
 All mechanisms may specify qualifiers for how to handle a match. As previously mentioned, the default handling rule is pass, which is the same as the `+` qualifier. Other qualifiers that may be specified include `-` for fail, `~` for soft fail, and `?` for neutral. If a mechanism matches and specifies `-` (fail) then
 
+
 ## SPF Modifiers
 
 Modifiers are name/value pairs (separated by an `=` sign) that provide additional information. Modifiers should appear at the end of the SPF record. A modifier may not appear more than once and unrecognized modifiers are ignored.
@@ -74,6 +77,7 @@ The `redirect` modifier is used to point to another SPF record to use for proces
 The `exp` modifier is used to provide an explanation in case of a `-` (fail) qualifier is present on a mechanism that is matched.
 
 Note that we currently do not support modifiers in our SPF editing UI, but you may always add them if you are managing your SPF TXT record directly.
+
 
 ## SPF Record Limitations
 
@@ -88,6 +92,7 @@ There are various limitations to the number of items and lookups permitted in an
 - SPF records may have more than 10 mechanisms that require DNS lookups. These are the `include`, `a`, `mx`, `ptr`, and `exists` mechanisms.
 - When evaluating the `mx` mechanism, the number of MX records queried is included in the overall limit of DNS lookups. Additionally, each `mx` mechanism must not result in querying more than 10 address records.
 - The `ptr` mechanism is also included in the overall limit and each `ptr` must not result in querying more than 10 address records.
+
 
 ## Tips for SPF Records
 

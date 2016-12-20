@@ -1,11 +1,20 @@
 ---
-title: What is a SRV Record?
-excerpt: What is a SRV record and how to create SRV records with DNSimple.
+title: What is an SRV Record?
+excerpt: What is an SRV record and how to add an SRV record in DNSimple.
 categories:
 - DNS
 ---
 
-# What is a SRV Record?
+# SRV Records
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+## What is an SRV Record?
 
 SRV records are often used to help with service discovery. For example, SRV records are used in Internet Telephony for defining where a SIP service may be found.
 
@@ -22,7 +31,8 @@ The content of the SRV record defines a priority of 10 for both records. The fir
 
 The final two values in the record define the port and hostname to connect to for accessing the service.
 
-## Adding an SRV Record
+
+## Add an SRV record
 
 To add an SRV record in DNSimple, you might fill in the new SRV record form like this:
 
@@ -30,4 +40,4 @@ To add an SRV record in DNSimple, you might fill in the new SRV record form like
 
 This would result in an SRV record like this:
 
-   _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
+    _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
