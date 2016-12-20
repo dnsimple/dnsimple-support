@@ -1,6 +1,6 @@
 ---
 title: Pointing a Domain to DNSimple
-excerpt: How to point a domain to DNSimple name servers.
+excerpt: How to point a domain to DNSimple's name servers.
 categories:
 - Name Servers
 ---
