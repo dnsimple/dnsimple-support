@@ -5,7 +5,7 @@ categories:
 - DNS
 ---
 
-# Dynamic DNS with DNSimple
+# Dynamic DNS
 
 Dynamic DNS (DDNS or DynDNS) is a method of automatically updating a your domain records whenever your IP Address changes. On a small scale level this is a popular way of allowing you to serve traffic from your home network or any other device connected to the internet with DHCP. This is done by either configuring your router to make the appropiate API calls or running a script on a machine.
 
