@@ -18,12 +18,15 @@ For a list of `nanoc` commands type
 
 `nanoc` ships with an autocompiler that automatically compiles changed files on every HTTP request.
 
-    $ nanoc aco
+    $ bundle exec nanoc live
 
-    Running on http://0.0.0.0:3000/
-    [2012-09-26 15:07:52] INFO  WEBrick 1.3.1
-    [2012-09-26 15:07:52] INFO  ruby 1.9.2 (2012-04-20) [x86_64-darwin12.1.0]
-    [2012-09-26 15:07:52] INFO  WEBrick::HTTPServer#start: pid=23121 port=3000
+    Loading site… done
+    Thin web server (v1.7.0 codename Dunder Mifflin)
+    Maximum connections set to 1024
+    Listening on 0.0.0.0:3000, CTRL+C to stop
+
+    14:26:35 - INFO - Compilation succeeded.
+    14:26:35 - INFO - Guard is now watching at '~/projects/dnsimple-support'
 
 ## Deployment
 
