@@ -67,6 +67,8 @@ redirects:
   articles/purchasing-ssl-certificates/index.html: /articles/ordering-standard-certificate/
   articles/ordering-comodo-certificate: /articles/ordering-standard-certificate/
   articles/ordering-comodo-certificate/index.html: /articles/ordering-standard-certificate/
+  articles/enabling-and-disabling-auto-renewal: /articles/domain-auto-renewal/
+  articles/enabling-and-disabling-auto-renewal/index.html: /articles/domain-auto-renewal/
 
 # routing_rules:
 #   - condition:
