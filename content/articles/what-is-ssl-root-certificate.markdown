@@ -17,4 +17,4 @@ The SSL ecosystem is based on a model of trust relationship, also called "chain 
 
 ![A real SSL certificate chain](/files/dnsimple-ssl-chain-robowhois.png)
 
-The list of trusted CAs is of critical importance, because it determine the entire level of securit of a system.
+The list of trusted CAs is of critical importance, because it determines the entire level of security of a system.
