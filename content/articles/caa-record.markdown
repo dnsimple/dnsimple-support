@@ -25,43 +25,6 @@ CAA records can set policy for the entire domain, or for specific hostnames. CAA
 The DNS CAA record is specified by [RFC 6844](https://tools.ietf.org/html/rfc6844).
 
 
-## Querying CAA records
-
-The CAA record is a relatively new resource record (RR), therefore not all tools already support it. A notable example is `dig`, that currently doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig` you must specify the RR type (257) directly.
-
-```
-$ dig google.com type257
-
-; <<>> DiG 9.8.3-P1 <<>> google.com type257
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64266
-;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
-;; QUESTION SECTION:
-;google.com.            IN  TYPE257
-
-;; ANSWER SECTION:
-google.com.     86399   IN  TYPE257 \# 19 0005697373756573796D616E7465632E636F6D
-
-;; Query time: 51 msec
-;; SERVER: 8.8.8.8#53(8.8.8.8)
-;; WHEN: Thu Dec 29 21:07:18 2016
-;; MSG SIZE  rcvd: 59
-```
-
-`dig` also doesn't support CAA inheritance, and the output of the query is the binary-encoded record.
-
-In order to test the development of our CAA implementation, at DNSimple we developed a simple utility called [`dnscaa`](https://github.com/weppos/dnscaa). It's a Go package that allows you to fetch CAA records, and it comes with a handy CLI.
-
-```
-$ digcaa google.com
-
-1 records found
-google.com. 86399   IN  CAA 0 issue "symantec.com"
-```
-
-
 ## CAA record format
 
 The CAA record is represented by the following elements:
@@ -115,3 +78,40 @@ As mentioned before, the records are inherited by child hostnames. Let's have a 
     beta.example.com.   CAA 0 issue "comodo.com"
 
 In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, in this case only Let's Encrypt will be allowed to issue for `foo.example.com`.
+
+
+## Querying CAA records
+
+The CAA record is a relatively new resource record (RR), therefore not all tools already support it. A notable example is `dig`, that currently doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig` you must specify the RR type (257) directly.
+
+```
+$ dig google.com type257
+
+; <<>> DiG 9.8.3-P1 <<>> google.com type257
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64266
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;google.com.            IN  TYPE257
+
+;; ANSWER SECTION:
+google.com.     86399   IN  TYPE257 \# 19 0005697373756573796D616E7465632E636F6D
+
+;; Query time: 51 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Dec 29 21:07:18 2016
+;; MSG SIZE  rcvd: 59
+```
+
+`dig` also doesn't support CAA inheritance, and the output of the query is the binary-encoded record.
+
+In order to test the development of our CAA implementation, at DNSimple we developed a simple utility called [`dnscaa`](https://github.com/weppos/dnscaa). It's a Go package that allows you to fetch CAA records, and it comes with a handy CLI.
+
+```
+$ digcaa google.com
+
+1 records found
+google.com. 86399   IN  CAA 0 issue "symantec.com"
+```
