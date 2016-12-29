@@ -13,7 +13,7 @@ In order to build a DNSimple addon, you need to create a new OAuth Application.
 
 Log into your account and navigate to your account page by clicking the drop-down in the top right portion of the navbar.
 
-Once you are there, click on the "Applications" link in the sidebar.
+Once you are there, click on the <label>Applications</label> link in the sidebar.
 
 ![Applications Link](/files/applications-link.png)
 
@@ -23,11 +23,11 @@ Here you can see all of your authorized applications, and the applications that 
 
 ## Generating an OAuth Application
 
-Click on the "Developer applications" tab, then on the "New application" link.
+Click on the <label>Developer applications</label> tab, then on the <label>New application</label> link.
 
 ![New Application Link](/files/new-application-link.png)
 
-Fill out the form with the "Application Name", "Homepage URL", and "Authorization Callback URL" information—then click on the "Add application" button.
+Fill out the form with the _Application Name_, _Homepage URL_, and _Authorization Callback URL_ information—then click on the <label>Add application</label> button.
 
 ![New Application Form](/files/new-application-form.png)
 
@@ -37,7 +37,7 @@ In the next screen you will see important information like "Client ID" and "Clie
 
 ## Deleting an OAuth Application
 
-From the application's page click on "Delete Application" and follow the instructions.
+From the application's page click on <label>Delete Application</label> and follow the instructions.
 
 ![Delete Application Link](/files/delete-application-link.png)
 
