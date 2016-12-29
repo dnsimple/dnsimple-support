@@ -1,11 +1,11 @@
 ---
 title: What is a URL record?
-excerpt: What is an URL record and how to create URL records with DNSimple.
+excerpt: What is an URL record and how to add an URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# What is a URL record?
+# URL records?
 
 ### Table of Contents {#toc}
 
@@ -13,6 +13,8 @@ categories:
 {:toc}
 
 ---
+
+## What is a URL record?
 
 The **URL** record is a [special DNSimple record](/articles/supported-dns-records). URL records can be used to redirect a host name to another URL using our [redirector](/articles/redirector).
 
@@ -26,7 +28,7 @@ For more information about the service, supported redirect types, and limitation
 You can manage the URL records (redirects) for a domain from the [record editor](/articles/record-editor).
 
 <div class="section-steps" markdown="1">
-#### To create an URL record {#create}
+#### To add an URL record {#create}
 
 1.  In the record editor, click <label>Add</label> and select <label>URL</label> to add a new URL record.
 
@@ -59,7 +61,7 @@ You can manage the URL records (redirects) for a domain from the [record editor]
 </div>
 
 <div class="section-steps" markdown="1">
-#### To delete an URL record {#delete}
+#### To remove an URL record {#delete}
 
 1.  In the record editor, search the record and click on the Trash icon to delete it.
 

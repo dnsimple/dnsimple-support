@@ -1,11 +1,20 @@
 ---
 title: What is an A record?
-excerpt: What is an A record and how to create A records with DNSimple.
+excerpt: What is an A record and how to add an A record in DNSimple.
 categories:
 - DNS
 ---
 
-# What is an A record?
+# A Records
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+## What is an A record?
 
 An **A record** maps a domain name to the IP address (IPv4) of the computer hosting the domain. Simply put, an A record is used to find the IP address of a computer connected to the internet from a name.
 
@@ -16,6 +25,7 @@ For example, to access the DNSimple website you enter `www.dnsimple.com`. At our
 A Records are the simplest type of DNS records, yet one of the primary records used in DNS servers.
 
 You can actually do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to the that same IP address.
+
 
 ## Querying A records
 
@@ -42,7 +52,7 @@ api.dnsimple.com.	59	IN	A	208.93.64.253
 ;; MSG SIZE  rcvd: 50
 ```
 
-## A record structure
+## A record format
 
 In DNSimple we represent A record with the following information:
 
@@ -54,6 +64,6 @@ In DNSimple we represent A record with the following information:
 ![A record in the DNSimple record editor](/files/record-type-a.png)
 
 
-## Managing A records
+## Add an A record
 
 You can create, update and delete A records for your domain using the [DNSimple record editor](/articles/record-editor).

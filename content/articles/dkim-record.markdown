@@ -1,6 +1,6 @@
 ---
-title: DKIM records
-excerpt: This article explains how DKIM records work.
+title: What is a DKIM record?
+excerpt: What is a DKIM record and how the DKIM record works.
 categories:
 - DNS
 - Emails
@@ -8,12 +8,15 @@ categories:
 
 # DKIM Records
 
+### Table of Contents {#toc}
+
 * TOC
 {:toc}
 
 ---
 
 DKIM stands for DomainKeys Identified Email and provides a way to validate that an organization delivering an email has the right to do so.
+
 
 ## Setting up DKIM
 
@@ -33,11 +36,13 @@ You will enter this subdomain in the "Name" field.
 
 Note that if your provider gives you a fully-qualified name that ends with your domain name you should NOT include your domain name in the "Name" field when you add the TXT record. For example, if you are given `pm._domainkey.yourdomain.com` then you will only enter `pm._domainkey` in the "Name" field.
 
-## What about Quotes and Slashes?
+
+## Quotes and Slashes?
 
 If your provider gave you the DKIM record and it included double quotes around the record, or backslashes before semi-colons in the record, you may safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
 
 Note that sometimes there will be forward slashes, or other unusual characters, in the DKIM record. You should not modify those. If you have any questions or concerns, feel free to [contact support](https://dnsimple.com/contact).
+
 
 ## Verifying Your DKIM with dig
 
@@ -53,9 +58,11 @@ This will return a result like this:
 
 If no result is returned then verify that you added the TXT record with the correct subdomain. Remember that the "Name" field in DNSimple should not include your domain name, otherwise you'd create a record at `subdomain.yourdomain.com.yourdomain.com`.
 
+
 ## Verifying Your DKIM with an Online Tool
 
 You may also want to verify your DKIM with an online tool, like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool will verify that you have SPF and DKIM records. In the DKIM selector field, you just need to add the first part from the subdomain your DKIM is under. For example, if my DKIM is at `google._domainkey.aetrion.com`, then the DKIM selector is "google".
+
 
 ## Technical Details
 
