@@ -37,9 +37,9 @@ To change the privacy level for your .IO domain you need the domain AuthCode. [C
 The AuthCode will be sent to the email associated with the domain registration, **not** to the domain associated with your account. If you want to use a different email, you will have to [change the contact for the domain](/articles/changing-domain-contact/).
 </note>
 
-Once you received the AuthCode, go to the [registry privacy setting](https://www.nic.io/privacy.xzx) page. Enter the domain name, the AuthCode you received via email, select the privacy level and confirm.
+Once you receive the AuthCode, go to the [registry privacy setting](https://www.nic.io/privacy.xzx) page. Enter the domain name, the AuthCode you received via email, select the privacy level and confirm.
 
-The changes will be reflected immediately, you can check which information are disclosed by using our [WHOIS tool](https://dnsimple.com/whois).
+The changes will be reflected immediately. You can check which information are disclosed by using our [WHOIS tool](https://dnsimple.com/whois).
 
 
 ## Renewing a .IO domain
