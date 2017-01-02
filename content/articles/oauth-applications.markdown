@@ -9,6 +9,8 @@ categories:
 
 In order to build a DNSimple addon, you need to create a new OAuth Application.
 
+An OAuth Application lets external addons to request authorization for a DNSimple account and to interact with our platform on user's behalf.
+
 ## Getting to the OAuth Applications page
 
 Log into your account and navigate to your account page by clicking the drop-down in the top right portion of the navbar.
