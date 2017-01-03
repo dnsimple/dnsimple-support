@@ -1,6 +1,6 @@
 ---
 title: What is an A record?
-excerpt: What is an A record and how to add an A record in DNSimple.
+excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
 categories:
 - DNS
 ---
@@ -56,10 +56,10 @@ api.dnsimple.com.	59	IN	A	208.93.64.253
 
 In DNSimple we represent A record with the following information:
 
-|-----------+-----|
-| Name      | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
-| TTL       | The time-to-leave in seconds. This is the amount of time the record is allowed to be cached by a resolver. |
-| Address   | The IPv4 address the A record points to. |
+|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
+| Name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
+| TTL     | The time-to-leave in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                 |
+| Address | The IPv4 address the A record points to.                                                                                                   |
 
 ![A record in the DNSimple record editor](/files/record-type-a.png)
 

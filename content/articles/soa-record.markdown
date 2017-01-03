@@ -1,5 +1,5 @@
 ---
-title: What is a SOA Record?
+title: What is a SOA record?
 excerpt: What is a SOA record and how to add a SOA records in DNSimple.
 categories:
 - DNS
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-## What is a SOA Record?
+## What is a SOA record?
 
 An SOA record is a Start of Authority. Every domain must have a Start of Authority record at the cutover point where the domain is delegated from its parent domain. For example if the domain mycompany.com is delegated to DNSimple [name servers](/articles/dnsimple-nameservers/), we must include an SOA record for the name mycompany.com in our authoritative DNS records. We add this record automatically for every domain that is added to DNSimple and we show this record to you as a System Record in your domain's Manage page.
 

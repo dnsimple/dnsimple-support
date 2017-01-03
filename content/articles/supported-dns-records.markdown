@@ -1,6 +1,6 @@
 ---
 title: Supported DNS Record Types
-excerpt: The list of DNS record types supported by DNSimple.
+excerpt: The list of DNS record types (RR) supported by DNSimple.
 categories:
 - DNS
 ---
@@ -11,6 +11,7 @@ We currently support the following standard record types:
 
 - [A](/articles/a-record)
 - AAAA
+- [CAA](/articles/caa-record)
 - [CNAME](/articles/cname-record)
 - [MX](/articles/mx-record)
 - [NS](/articles/ns-record)
