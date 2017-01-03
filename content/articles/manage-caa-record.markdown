@@ -16,17 +16,17 @@ categories:
 
 You can manage [CAA records](/articles/caa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this sections assumes you are familiar with the [CAA record format](/articles/caa-record#caa-record-format) and usage.
+The instructions in this article assumes you are familiar with the [CAA record format](/articles/caa-record#caa-record-format) and usage.
 
 
 ## Standard mode vs Custom mode
 
 The DNSimple interface allows you to manage CAA records using two different modes:
 
-- the standard mode provides a pre-populated interface to help you entering the appropriate values for the CAA record. <label>Provider</label> allows you to create a CAA record to whitelist a certificate authority. <label>Reports</label> allows you to create a CAA record to specify the email for reporting policy violations.
+- the standard mode provides a pre-populated interface to help enter the appropriate values for the CAA record. <label>Provider</label> allows you to create a CAA record to whitelist a certificate authority. <label>Reports</label> allows you to create a CAA record to specify the email for reporting policy violations.
 - the custom mode (<label>Custom</label>) allows you to modify the CAA record tag/value values directly.
 
-We currently don't support the ability to specify via interface the destructured CAA record value representation, in other words you cannot enter the following text:
+We currently do not support the ability to specify via interface the destructured CAA record value representation; in other words you cannot enter the following text:
 
     0 issue "letsencrypt.com"
 
