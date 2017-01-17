@@ -11,7 +11,7 @@ We currently support the following standard record types:
 
 - [A](/articles/a-record)
 - AAAA
-- [CAA](/articles/caa-record)
+- [CAA](/articles/caa-record) (see note below)
 - [CNAME](/articles/cname-record)
 - [MX](/articles/mx-record)
 - [NS](/articles/ns-record)
@@ -29,3 +29,7 @@ We also support several special record types:
 - [POOL](/articles/pool-record)
 
 Finally, we automatically add your [SOA](/articles/soa-record) record for you when you add a domain.
+
+<note>
+CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We currently do not support transferring CAA records to secondary name servers.
+</note>
