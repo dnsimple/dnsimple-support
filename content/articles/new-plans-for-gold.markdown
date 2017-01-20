@@ -7,7 +7,7 @@ categories:
 
 # I'm a Gold customer, what do the new plans mean for me?
 
-As an existing Gold customer, you do not need to make any changes today. You can continue using your current plan until at least the end of June, 2016.
+As an existing Gold customer, you do not need to make any changes today. You can continue using your current plan, however you will not have access to new features in DNSimple as they are released.
 
 If you are managing a personal portfolio of domains then you may be able to save money on your monthly DNS subscription charges by switching to the new Personal plan. The Personal plan is $5 per month for up to 5 domains and then $0.50 per domain per month thereafter. Thus, if you have 11 domains, you could save $8 off your monthly bill by switching to the Personal plan. If you have 20 domains, you could save $0.50 each month.
 
