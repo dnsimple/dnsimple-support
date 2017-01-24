@@ -1,11 +1,11 @@
 ---
 title: Activity Tracking
-excerpt: How to manage the users on a DNSimple account.
+excerpt: How to track events with activity tracking
 categories:
 - Account
 ---
 
-# Managing account users
+# Activity Tracking
 
 ### Table of Contents {#toc}
 
@@ -15,14 +15,14 @@ categories:
 ---
 
 <note>
-Personal plan subscribers have access to all events that occurred during the last 30 days. A [Professional and Business subscription](https://dnsimple.com/pricing) is required to view the full history.
+Audit history is available only for [new plans](https://support.dnsimple.com/articles/new-plans/#newer-plans-some). Full audit history is available for Professional and Business plans whereas Personal plans audit history is limited to 30 days.
 </note>
 
 Activity tracking provides an overview of all past changes for a specific domain or for an account as a whole.
 
 ## Activity tracking at the domain level
 
-Domain level activity tracking can be found under the domain page.
+Domain level activity tracking can be found under the domain’s manage page.
 
 ![Activity Tracking at domain level](/files/activity-tracking-1.png)
 ![Activity Tracking at domain level](/files/activity-tracking-2.png)
@@ -37,7 +37,7 @@ Account level activity tracking can be found under the account page.
 ## Events filter
 
 <note>
-A [Professional and Business subscription](https://dnsimple.com/pricing) is required to use event filters.
+Full audit history is available only on certain plans ([Professional and Business](https://support.dnsimple.com/articles/new-plans/#newer-plans-some)).
 </note>
 
 You can select the exact event types that you want to see and the time frame for when they happened. Along the particular event you will see:
