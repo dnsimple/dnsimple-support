@@ -20,6 +20,6 @@ Have the prior registrant opt-out the 60-day lock (if this option is offered by 
 Because policies may vary by registrar, please review a registrar's policy before making a change to registrant information or transferring to another registrar.
 ```
 
-As we do not have the ability to opt-out currently we highly recommend that if you plan on transfering your domain you should make sure to wait until it has been transferred to update the contact information.
+As we do not have the ability to opt-out currently we highly recommend that if you plan on transfering your domain you should make sure to wait until it is transferred to update the contact information.
 
 [ICANN]: https://www.icann.org/resources/pages/ownership-2013-05-03-en
