@@ -17,7 +17,7 @@ categories:
 ## Before you start
 
 <warning>
-If you have changed the contact information within the last 60 days you cannot transfer the domain. Please see [this article](/articles/60-day-lock-after-change-of-registrant)for more info.
+If you have changed the contact information within the last 60 days you cannot transfer the domain. Please see [this article](/articles/60-day-lock-after-change-of-registrant) for more info.
 </warning>
 
 To transfer a domain to another registrar the standard procedure requires you to:
