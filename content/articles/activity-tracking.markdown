@@ -3,6 +3,7 @@ title: Activity Tracking
 excerpt: How to review the list of events for an account or domain using our with audit log feature.
 categories:
 - Account
+- Domains
 ---
 
 # Activity Tracking
