@@ -48,9 +48,11 @@ The following redirect will not work, because you cannot add DNS records to sing
 
     foo.com/blog/ to bar.com/blog
 
-However, this would work because you can add an URL record for blog.foo.com:
+This would work because you can add an URL record for blog.foo.com:
 
     blog.foo.com to bar.com/blog
+
+However, any URL passed by the user will be passed to the resulting domain. So if you set up a redirect from blog.foo.com to myfooblog.com then when the user goes to blog.foo.com/awesome_article they will be redirected to myfooblog.com/awesome_article.
 
 
 ## Wildcard URL redirects
