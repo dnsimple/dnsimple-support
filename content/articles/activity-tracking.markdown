@@ -1,6 +1,6 @@
 ---
 title: Activity Tracking
-excerpt: How to track events with activity tracking
+excerpt: How to review the list of events for an account or domain using our with audit log feature.
 categories:
 - Account
 ---
