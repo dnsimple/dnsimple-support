@@ -14,7 +14,7 @@ categories:
 
 ---
 
-The redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
+The URL redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
