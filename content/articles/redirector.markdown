@@ -44,7 +44,7 @@ Take a look at the article [redirector and HTTPS](/articles/redirector-https) fo
 
 URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs.
 
-The following redirect will not work, because you cannot add DNS records to single URLs:
+The following redirect will not work, because you cannot add a url to the name part of the URL record.
 
     foo.com/blog/ to bar.com/blog
 
@@ -63,7 +63,7 @@ You can configure a wildcard redirect using the same conventions of a DNS wildca
     *.foo.com to bar.com
     *.foo.com to bar.com/path
 
-    # This will redirect to the hostname 
+    # This will redirect to the hostname
     *.foo.com to *.bar.com
 
 The wildcard pattern can only be on the left outermost level.
