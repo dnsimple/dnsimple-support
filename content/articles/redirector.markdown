@@ -1,6 +1,6 @@
 ---
 title: DNSimple Redirector
-excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
+excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect HTTP requests sent to a host name to a different URL.
 categories:
 - Domains
 ---
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-The redirector is a special feature provided by DNSimple that you can use to redirect a host name to another URL.
+The redirector is a special feature provided by DNSimple that you can use to redirect HTTP requests sent to a host name to a different URL.
 
 This feature can be used, for example, to redirect the www version of a domain the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
 
@@ -44,13 +44,15 @@ Take a look at the article [redirector and HTTPS](/articles/redirector-https) fo
 
 URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs.
 
-The following redirect will not work, because you cannot add DNS records to single URLs:
+The following redirect will not work, because you cannot add a url to the name part of the URL record.
 
     foo.com/blog/ to bar.com/blog
 
-However, this would work because you can add an URL record for blog.foo.com:
+This would work because you can add an URL record for blog.foo.com:
 
     blog.foo.com to bar.com/blog
+
+Note that any path or query information passed by the user will be passed to the resulting URL. So if you set up a redirect from blog.foo.com to myfooblog.com then when the user goes to blog.foo.com/awesome_article they will be redirected to myfooblog.com/awesome_article.
 
 
 ## Wildcard URL redirects
@@ -61,7 +63,7 @@ You can configure a wildcard redirect using the same conventions of a DNS wildca
     *.foo.com to bar.com
     *.foo.com to bar.com/path
 
-    # This will redirect to the hostname 
+    # This will redirect to the hostname
     *.foo.com to *.bar.com
 
 The wildcard pattern can only be on the left outermost level.
