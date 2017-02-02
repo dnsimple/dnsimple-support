@@ -1,6 +1,6 @@
 ---
 title: Premium Domains
-excerpt: This page explains the concept of premium domains and provides help on how to register one with us.
+excerpt: In the new gTLDs domain space, a premium domain is a domain that has been considered of special value by a registrar.
 categories:
 - Domains
 ---
