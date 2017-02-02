@@ -5,7 +5,7 @@ categories:
 - Domains
 ---
 
-# DNSSEC Support
+# Premium Domains
 
 ### Table of Contents {#toc}
 
