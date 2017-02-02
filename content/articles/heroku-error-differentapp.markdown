@@ -30,6 +30,8 @@ You can experience the same behaviour if the `red-turtle` application belongs to
 1. The application with the custom domain setup is yours
 2. The application with the custom domain setup belongs to someone else
 
+**Note:** Heroku endpoints can be either `myapp.herokuapp.com` or `myapp.herokudns.com`. You should use `myapp.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains) and `myapp.herokuapp.com`if not.
+
 ## Solution
 
 ### The application with the custom domain setup is yours
