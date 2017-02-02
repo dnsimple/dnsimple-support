@@ -92,12 +92,12 @@ In order to redirect using HTTPS, you need to have a certificate that covers bot
 
 1.  Go to the record editor and two DNS records, one for each host name, **pointing to the Heroku SSL endpoint**:
 
-    - Add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `encrypted-application.herokudns.com`
-    - Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `encrypted-application.herokudns.com`
+    - Add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `example.com.herokudns.com`
+    - Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `www.example.com.herokudns.com`
 
 1.  In your application, intercept the incoming request. If the request host is not the canonical one, redirect the request to the canonical domain. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 
-##### For Heroku SSL endpoint
+##### For Heroku SSL endpoint (legacy)
 
 1.  Add both host names to the Heroku application:
 
@@ -140,7 +140,7 @@ In this case, [you cannot use our redirector service](/articles/redirector-https
 
 1.  In your application, intercept the incoming request. If the request comes from HTTP, redirect the request to the same domain replacing HTTP with HTTPS. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 
-##### For Heroku SSL endpoint
+##### For Heroku SSL endpoint (legacy)
 
 1.  Add the host names to the Heroku application:
 
