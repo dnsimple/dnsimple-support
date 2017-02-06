@@ -19,7 +19,7 @@ This email will be sent from the address `DNSimple <donotreply@name-services.com
 
 Click the link to verify the registrant email address.
 
-The link must be to `http://raa.name-servers.com` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
+The link must be to `http://raa.name-services.com` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
 
 ## What happens when a domain is suspended?
 
