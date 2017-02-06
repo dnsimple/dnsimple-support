@@ -13,7 +13,7 @@ When you make a change to your registrant's email address or name, you will rece
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
-This email will be sent from an `@dnsimple.com` email address and will include a link similar to the following:
+This email will be sent from the address `DNSimple <donotreply@name-services.com>` and will include a link similar to the following:
 
 `http://raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
 
