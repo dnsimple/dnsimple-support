@@ -22,7 +22,7 @@ A premium domain is a domain that has been considered of special value by a regi
 
 Premium domains appeal to specific businesses or groups of people providing them very with useful, specific domain names for their activities. Other times they are just popular keywords or a very well known combination of name and domain. Registrars also consider every two or three leter new gTLDs as premium, there is value on being very short.
 
-All of this is better illustrated with an example: Paris is worldwide known as the city of love, the domain created as a combination of paris and love therefore paris.love is a very attractive one for marketeers, business in the city or even the city itself.
+All of this is better illustrated with an example: Paris is worldwide known as the city of love, the domain created as a combination of paris and love therefore the domain `paris.love` is a very attractive one for marketeers, business in the city or even the city itself and may be flagged by the registry as premium domain.
 
 ## How can I register or transfer a Premium Domain with DNSimple?
 
