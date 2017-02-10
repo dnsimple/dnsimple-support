@@ -20,7 +20,7 @@ A premium domain is a domain that is priced differently by a registrar and gener
 
 ## What makes a Premium Domain valuable
 
-Premium domains appeal to specific businesses or groups of people providing them with useful, specific domain names for their activities. Other times they are just popular keywords or a very well known combination of a name and domain. Some registries and registrars also consider two or three letter domains to be more valuable and therefore will be higher priced.
+Premium domains appeal to specific businesses or groups of people providing them with useful, specific domain names for their activities. Other times they are just popular keywords or a very well known combination of a name and domain. Some registries or registrars also consider two or three letter domains to be more valuable and therefore will be higher priced.
 
 Here is an example: Paris is known as the city of love. The domain created as a combination of these could be `paris.love` and would be a very attractive name for marketing companies or businesses. The `.love` registry therefore may impose a higher fee for this rare and beautiful combination and the registrar may optionally add to this price to make it more expensive than a typical `.love` domain registration.
 
@@ -32,6 +32,6 @@ When going through our domain registration process, if you try to register what 
 
 ## What about renewals?
 
-Renewing a premium domain can vary in in cost. It could be the same as a typical renewal or as much as a new registration. The pricing for this is up to the registry and registrar and out of our control.
+Renewing a premium domain can vary in in cost. It could be the same as a typical renewal or as much as a new registration. The minimum pricing for this is determined by the registry.
 
 If you have any other questions about premium domains [you can contact us](https://dnsimple.com/contact).
