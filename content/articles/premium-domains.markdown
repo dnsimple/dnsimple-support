@@ -28,7 +28,7 @@ Here is an example: Paris is known as the city of love. The domain created as a 
 
 When going through our domain registration process, if you try to register what is flagged as a premium pricing domain you will see an alert which will indicate the new price versus the typical price for that given domain. The alert will look like the screenshot below.
 
-![Premium Domain Alert](/content/files/premium-domain-alert.png)
+![Premium Domain Alert](/files/premium-domain-alert.png)
 
 ## What about renewals?
 
