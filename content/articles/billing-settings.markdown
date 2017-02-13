@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Until we are provided with further information our invoices will only reflect the email address of the DNSimple account that you signed up with. And all invoices will be sent to that email address.
+Until we are provided with further information our invoices will only reflect the email address of your DNSimple account. If you have more than one account, all invoices will be sent to the corresponding email address for the account.
 
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
