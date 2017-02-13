@@ -14,32 +14,29 @@ categories:
 
 ---
 
-
-## Invoices without custom billing information
-
-Until we are provided with further information our invoices will only reflect the email address of the DNSimple account the invoice was sent to. All invoices will be sent to your DNSimple account's email address.
+Until we are provided with further information our invoices will only reflect the email address of your DNSimple account. If you have more than one account, all invoices will be sent to the corresponding email address for the account.
 
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
+## Delivering your invoices to a different email address
 
-## Billing Settings
+It is possible to deliver your invoices to a different email address that the one that you use to manage your domains.
 
-### Billing email
+<div class="section-steps" markdown="1">
+##### To update your billing settings:
 
-The billing email will be displayed on invoices in absence of other billing information. It will also be the email address invoices will be delivered to.
-
-<callout>
-If you provide a custom billing email address then it will be used for all invoices. Otherwise your DNSimple account's email address will be used.
-</callout>
+1. Go to [your account page](https://dnsimple.com/account).
+1. Click on the <label>Billing</label> tab.
+1. Click on the <label>Billing Settings</label> link under the subscription section.
+</div>
 
 <note>
-You will be able to customize your billing address only if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
+You will be able to customize your billing email only if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
 </note>
 
+## Customize billing information
 
-### Billing information
-
-Billing information will be displayed on invoices when provided instead of the billing email:
+It is possible to replace the billing email with custom information on all your invoices:
 
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
@@ -65,4 +62,4 @@ You can modify this information anytime and as many times as you need to. The ne
 </div>
 
 
-All future invoices will display the information that you provided. If you provided a billing email address that will be the address invoices will be sent to.
+All future invoices will display the information that you provided.
