@@ -38,9 +38,9 @@ categories:
 1.  #### I just want to purchase an SSL certificate, why do I need a subscription?
 
     As explained in the previous questions, we offer SSL certificate purchases as part of our subscription service.
-    
+
     An SSL certificate is not a single-time purchase. You need to renew the certificate periodically, sometimes you need to rekey it or you find yourself having issues installing it, and you want to ask for some help. All these tasks are covered by our subscription service.
-    
+
     Additionally, if you are requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we will use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we will [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
 </div>
 
@@ -55,9 +55,15 @@ categories:
 
 1.  #### Do I need to host the domain with DNSimple to purchase an SSL certificate?
 
-    No. You can purchase an SSL certificate for a domain that is not hosted with us. However you will need to add the domain to your account in order to be able to request the certificate. You also need a valid, active subscription.
+    Not for Codomo certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However you will need to add the domain to your account in order to be able to request the certificate. You also need a valid, active subscription.
 
     Just follow the general instruction explained in the [Getting Started](/articles/getting-started-ssl-certificates) guide. When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
+
+    If you are getting a free [Let's Encrypt certificate](https://support.dnsimple.com/articles/letsencrypt/) you will need to have the domain hosted with us in order for us to set up the required records for domain-based validation.
+
+1. #### How do CAA records affect purchasing SSL certificates?
+
+    If you have [CAA Records](https://support.dnsimple.com/articles/caa-record/) already set up, or you wish to use them you will need to make sure to add the appropiate record for Codomo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](https://support.dnsimple.com/articles/caa-record/#caa-record-usage) for more details.
 </div>
 
 
