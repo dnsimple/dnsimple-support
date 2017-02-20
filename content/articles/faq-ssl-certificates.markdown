@@ -90,4 +90,8 @@ categories:
 1.  #### How long does it take to issue an SSL certificate?
 
     In general, issuing a new SSL certificate can take from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate).
+
+1.  #### Does renewing a certificate update the one I have installed?
+
+    No. After renewing or purchasing a new certificate you will need to install the updated files on your server(s). It is possible to automate this using [webhooks and our api](https://developer.dnsimple.com) but we do not have access to your systems to update your certificates for you.
 </div>
