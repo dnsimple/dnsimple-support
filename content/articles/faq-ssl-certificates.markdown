@@ -63,7 +63,7 @@ categories:
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
-    If you have [CAA Records](https://support.dnsimple.com/articles/caa-record/) already set up, or you wish to use them you will need to make sure to add the appropiate record for Codomo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](https://support.dnsimple.com/articles/caa-record/#caa-record-usage) for more details.
+    If you have [CAA Records](https://support.dnsimple.com/articles/caa-record/) already set up, or you wish to use them, you will need to make sure to add the appropiate record for Codomo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](https://support.dnsimple.com/articles/caa-record/#caa-record-usage) for more details.
 </div>
 
 
