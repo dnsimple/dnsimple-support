@@ -59,11 +59,11 @@ categories:
 
     Just follow the general instruction explained in the [Getting Started](/articles/getting-started-ssl-certificates) guide. When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
-    If you are getting a free [Let's Encrypt certificate](https://support.dnsimple.com/articles/letsencrypt/) you will need to have the domain hosted with us in order for us to set up the required records for domain-based validation.
+    If you are getting a free [Let's Encrypt certificate](/articles/letsencrypt) you will need to have the domain hosted with us in order for us to set up the required records for domain-based validation.
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
-    If you have [CAA Records](https://support.dnsimple.com/articles/caa-record/) already set up, or you wish to use them, you will need to make sure to add the appropiate record for Codomo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](https://support.dnsimple.com/articles/caa-record/#caa-record-usage) for more details.
+    If you have [CAA Records](/articles/caa-record) already set up, or you wish to use them, you will need to make sure to add the appropiate record for Codomo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record#caa-record-usage) for more details.
 </div>
 
 
