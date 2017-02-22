@@ -55,7 +55,7 @@ categories:
 
 1.  #### Do I need to host the domain with DNSimple to purchase an SSL certificate?
 
-    Not for Codomo certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However you will need to add the domain to your account in order to be able to request the certificate. You also need a valid, active subscription.
+    Not for Standard certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However you will need to add the domain to your account in order to be able to request the certificate. You also need a valid, active subscription.
 
     Just follow the general instruction explained in the [Getting Started](/articles/getting-started-ssl-certificates) guide. When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
