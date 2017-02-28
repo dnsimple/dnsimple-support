@@ -7,6 +7,14 @@ categories:
 
 # DNSSEC
 
+<note>
+This article describes a feature in Public Beta.
+</note>
+
+<note>
+This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
+</note>
+
 ### Table of Contents {#toc}
 
 * TOC
