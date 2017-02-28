@@ -16,7 +16,7 @@ categories:
 
 The [WHOIS privacy protection service](/articles/what-is-whois-privacy) keeps your contact information private for a domain. This service replaces the public information that you provide with an anonymous proxy identity in the public WHOIS database.
 
-You can purchase the WHOIS privacy protection for any of your domains at any time, as long as the domain is registered with us and the TLD [supports the WHOIS privacy service](/articles/whois-privacy-support).
+You can purchase the WHOIS privacy protection for any of your domains at any time, as long as the domain is registered with us and the TLD supports the WHOIS privacy service. You can check if a TLD supports WHOIS privacy from the [list of supported TLDs](https://dnsimple.com/tld-pricing).
 
 <note>
 The price for the WHOIS privacy service is **$8.00 per year and domain**.
