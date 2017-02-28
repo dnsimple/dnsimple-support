@@ -69,6 +69,8 @@ redirects:
   articles/ordering-comodo-certificate/index.html: /articles/ordering-standard-certificate/
   articles/enabling-and-disabling-auto-renewal: /articles/domain-auto-renewal/
   articles/enabling-and-disabling-auto-renewal/index.html: /articles/domain-auto-renewal/
+  articles/dnssec-support: /articles/dnssec/
+  articles/dnssec-support/index.html: /articles/dnssec/
 
 # routing_rules:
 #   - condition:
