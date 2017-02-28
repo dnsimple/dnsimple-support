@@ -14,6 +14,8 @@ categories:
 
 ---
 
+DNSSEC provides a way to cryptographically build a chain of trust from the root name servers all the way through to authoritative name servers. Authenticating resolvers may then verify this chain of trust to ensure the DNS results were not tampered with while in transit.
+
 ## DNSSEC Scenarios
 
 We currently support DNSSEC in the following ways:
