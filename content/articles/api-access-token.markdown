@@ -7,6 +7,13 @@ categories:
 
 # API Access Token
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 If you would like to access the [DNSimple API](https://developer.dnsimple.com/) v2 you will need an access token.
 
 One option for getting an access token is to use OAuth, however if you want a simple token you can use with your account directly, without needing to perform the OAuth dance, then you can generate an access token through the DNSimple web site.
