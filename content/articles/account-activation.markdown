@@ -19,5 +19,9 @@ Activation is easy and includes a free 30 day trial. You can cancel at any time 
 1. Enter your payment information and click <label>Start My Free Trial</label>.
 </div>
 
+<note>
+If you are resubscribing to DNSimple, you won't have a second 30 day Trial Period. Your credit card will be billed immediately.
+</note>
+
 Your account is now active. Any domains that you update to use our [name servers](/articles/dnsimple-nameservers) will now resolve with the DNSimple system.
 
