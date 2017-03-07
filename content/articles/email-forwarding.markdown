@@ -47,7 +47,7 @@ In the **To** field enter the email address you would like as the recipient of t
 
 ### Catch-all emails
 
-To create a catch-all address follow the instructions to create an email and enter the following wildcard expression in the **To** field:
+To create a catch-all address follow the instructions to create an email and enter the following wildcard expression in the **From** field:
 
     (.*)
 
