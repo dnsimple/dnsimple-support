@@ -1,11 +1,11 @@
 ---
-title: Changing your subscription plan
+title: Changing Subscription Plan
 excerpt: How to change the subscribed plan for a DNSimple account.
 categories:
 - Account
 ---
 
-# Change your subscription plan
+# Change Subscription Plan
 
 As a DNSimple customer you may require of features that you don't have access to from your current plan. Here is what you should do to subscribe to a different plan.
 
