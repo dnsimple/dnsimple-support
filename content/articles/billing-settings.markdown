@@ -18,21 +18,34 @@ Until we are provided with further information our invoices will only reflect th
 
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
-## Delivering your invoices to a different email address
+
+## Change the billing email
 
 It is possible to deliver your invoices to a different email address that the one that you use to manage your domains.
 
 <div class="section-steps" markdown="1">
-##### To update your billing settings:
+##### To change the billing email:
 
-1. Go to [your account page](https://dnsimple.com/account).
-1. Click on the <label>Billing</label> tab.
-1. Click on the <label>Billing Settings</label> link under the subscription section.
+1. Log into your DNSimple account.
+1. [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
+1. Switch to the <label>Billing</label> tab.
+
+    ![Account Billing tab](/files/account-billing-tab.png)
+
+1. Click on the <label>Edit billing details</label> link.
+
+    ![Change billing settings](/files/account-billing-settings-edit.png)
+
+1. Update the email and click on <label>Save</label> when you are done.
+
+    ![Change billing email](/files/account-billing-email-update.png)
+
 </div>
 
 <note>
 You will be able to customize your billing email only if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
 </note>
+
 
 ## Customize billing information
 
@@ -49,16 +62,20 @@ You can modify this information anytime and as many times as you need to. The ne
 <div class="section-steps" markdown="1">
 ##### To update your billing settings:
 
-1. Go to [your account page](https://dnsimple.com/account).
-1. Click on the <label>Billing</label> tab.
-1. Click on the <label>Billing Settings</label> link:
+1. Log into your DNSimple account.
+1. [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
+1. Switch to the <label>Billing</label> tab.
 
-     ![Change payment details](/files/account-billing-settings-1.png)
+    ![Account Billing tab](/files/account-billing-tab.png)
+
+1. Click on the <label>Edit billing details</label> link.
+
+    ![Change billing settings](/files/account-billing-settings-edit.png)
 
 1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit billing details</label> link.
 1. Fill in the form to your needs and click on <label>Save</label> when you are done.
 
-     ![Change payment details](/files/account-billing-settings-2.png)
+    ![Change payment details](/files/account-billing-settings-update.png)
 </div>
 
 
