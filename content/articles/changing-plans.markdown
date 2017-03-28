@@ -14,7 +14,7 @@ When you change your plan you will receive a proration discount corresponding to
 </warning>
 
 <div class="section-steps" markdown="1">
-##### To change your subscription plan:
+##### To change your subscription plan
 
 1. Log into your DNSimple account.
 1. [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
@@ -24,7 +24,7 @@ When you change your plan you will receive a proration discount corresponding to
 
 1. Click on the <label>Change plan</label> link.
 
-    ![Change plan](/files/account-change-plan.png)
+    ![Change plan](/files/account-billing-change-plan-link.png)
 
 1. Check out the features that each plan includes and click on the <label>Select plan</label> button of the plan that better suits your needs:
 

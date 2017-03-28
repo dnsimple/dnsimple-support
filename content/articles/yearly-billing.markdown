@@ -23,7 +23,7 @@ Even if you initially subscribe to one of our monthly plans you can switch to on
 
 1. Click on the <label>Switch to yearly billing</label> link:
 
-    ![Change billing period](/files/account-switch-billing-period-yearly.png)
+    ![Change billing period](/files/account-billing-period-switch-yearly-link.png)
 
 1. Confirm the plan.
 

@@ -24,7 +24,7 @@ Until we are provided with further information our invoices will only reflect th
 It is possible to deliver your invoices to a different email address that the one that you use to manage your domains.
 
 <div class="section-steps" markdown="1">
-##### To change the billing email:
+##### To change the billing email
 
 1. Log into your DNSimple account.
 1. [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
@@ -34,7 +34,7 @@ It is possible to deliver your invoices to a different email address that the on
 
 1. Click on the <label>Edit billing details</label> link.
 
-    ![Change billing settings](/files/account-billing-settings-edit.png)
+    ![Change billing settings](/files/account-billing-settings-link.png)
 
 1. Update the email and click on <label>Save</label> when you are done.
 
@@ -60,7 +60,7 @@ You can modify this information anytime and as many times as you need to. The ne
 ### Changing your billing settings
 
 <div class="section-steps" markdown="1">
-##### To update your billing settings:
+##### To update your billing settings
 
 1. Log into your DNSimple account.
 1. [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
@@ -70,7 +70,7 @@ You can modify this information anytime and as many times as you need to. The ne
 
 1. Click on the <label>Edit billing details</label> link.
 
-    ![Change billing settings](/files/account-billing-settings-edit.png)
+    ![Change billing settings](/files/account-billing-settings-link.png)
 
 1. You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit billing details</label> link.
 1. Fill in the form to your needs and click on <label>Save</label> when you are done.
