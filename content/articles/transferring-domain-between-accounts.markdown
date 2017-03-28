@@ -6,7 +6,7 @@ categories:
 - Domain Transfers
 ---
 
-# Transfering a domain to another DNSimple account
+# Transferring a domain to another DNSimple account
 
 * TOC
 {:toc}
