@@ -7,7 +7,11 @@ categories:
 
 # How to apply your Student Pack Coupon
 
-We're really happy to [participate in the GitHub Student Pack program][1]. Here's a few steps for how you can get your credit applied to your account!
+<warning>
+DNSimple is no longer participating in the [GitHub Student Pack program][1]. Only existing coupons are accepted at this time.
+</warning>
+
+Here's a few steps on how to apply an existing coupon to your account.
 
 <div class="section-steps" markdown="1">
 #### Applying your GitHub Student Pack Coupon on DNSimple
