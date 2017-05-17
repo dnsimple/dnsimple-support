@@ -7,9 +7,9 @@ categories:
 
 # How to apply your Student Pack Coupon
 
-<warning>
+<note>
 DNSimple is no longer participating in the [GitHub Student Pack program][1]. Only existing coupons are accepted at this time.
-</warning>
+</note>
 
 Here's a few steps on how to apply an existing coupon to your account.
 
