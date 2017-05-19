@@ -38,7 +38,7 @@ It is possible to deliver your invoices to a different email address that the on
 
 1. Update the email and click on <label>Save</label> when you are done.
 
-    ![Change billing email](/files/account-billing-email-update.png)
+    ![Change billing email](/files/account-edit-billing-email-update.png)
 
 </div>
 
