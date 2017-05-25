@@ -16,7 +16,7 @@ This feature can be used, for example, to redirect the www version of a domain t
 
 You can use the URL record to configure a redirect. Check the [URL record](/articles/url-record) and [redirector](/articles/redirector) articles for specific instructions on how to create the redirect.
 
-The redirector is designed to use transparent 301 redirects redirects. We do not support masked redirects at this time.
+The redirector is designed to use transparent 301 redirects. We do not support masked redirects at this time.
 
 
 ## Configure an HTTPS, or HTTP+HTTPS redirect
