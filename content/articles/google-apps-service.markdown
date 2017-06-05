@@ -19,27 +19,19 @@ Google Apps for Businesses provides cloud-based email, calenders, and much more.
 
 ## Enabling Google Apps service
 
-From the domain list, click on the domain name you want to update and then click on the Services tab.
+From the domain list, click on the domain name you want to update and then click on the DNS tab.
 
-![Services](/files/domain.jpg)
+![Services](/files/services-dns-page.png)
 
-Click on the *Add or Edit Services* link.
+Then scroll down to locate the One Click Services section, and select "Manage services".
 
-![Add or Edit Services](/files/one-click-services.jpg)
+![Service section](/files/services-card.png)
 
-Alternatively you can click on the *Services* button directly from the domain list.
+Select the "Productivity" tab and scroll down the page until you find the Google Apps service. Click on the *Add* button.
 
-Scroll down the page until you find the Google Apps service. Click on the *Add* button.
+![Add Service](/files/services-google-apps.png)
 
-![Add Service](/files/services-add.jpg)
-
-Now the service is added. You can remove it any time by coming back to this page and clicking *Remove* next to the service.
-
-![Remove Service](/files/services-added.jpg)
-
-You can also see the records that were added back on the domain's Services tab.
-
-![Service Records](/files/services-after-added.jpg)
+Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 
 ## Setting up At Google
