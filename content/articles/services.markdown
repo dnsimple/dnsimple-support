@@ -37,21 +37,30 @@ The service directory is open-source. [Learn how to propose or contribute new se
 
 ## Adding a service
 
-To add a service, simply navigate to your domain, and on the services sidebar, select "Add or edit services"
+To add a service, simply navigate to your domain, and on the services sidebar, select "DNS".
 
-![Service page](/files/services-page.png)
+![Domain DNS page](/files/services-dns-page.png)
+
+Then scroll down to locate the One Click Services section, and select "Manage services".
+
+![Service section](/files/services-card.png)
 
 Then choose the service that you want to add.
 
 ![Service list](/files/services-list.png)
 
+
 ## Removing services
 
-To remove a service, simply navigate to your domain, and on the services sidebar, select "Add or edit services"
+To remove a service, simply navigate to your domain, and on the services sidebar, select "DNS".
 
-![Service page](/files/services-page.png)
+![Domain DNS page](/files/services-dns-page.png)
 
-Find the service from the list that you want to remove and click "Remove service"
+Then scroll down to locate the One Click Services section, and select "Manage services".
+
+![Service section](/files/services-card.png)
+
+Find the service from the list of "Applied one-click services" that you want to remove and select "Remove".
 
 ![Service list remove](/files/services-list-remove.png)
 
