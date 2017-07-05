@@ -17,7 +17,7 @@ Certain domain names are [auto-renew only](/articles/domain-auto-renewal) and ca
 
 ## ICANN TLDs
 
-## Grace period
+### Grace period
 
 After a domain expires, it enters a grace period. In this period, the domain is disabled but it's still possible to renew it from the DNSimple account at no extra cost.
 
