@@ -50,8 +50,6 @@ If you would like to add another account to your user profile, you should take t
 
 Switching account context is very simple. Select the account you'd like to use from the dropdown menu.
 
-  ![Switch account](/files/account-switcher-1.jpg)
+  ![Switch account](/files/account-switcher.jpg)
 
-Once you've done that you can verify that your active account has changed by clicking the dropdown menu again.
-
-  ![Switched account](/files/account-switcher-2.jpg)
+The new selected account name will appear on the top navigation bar, next to the avatar for your user.

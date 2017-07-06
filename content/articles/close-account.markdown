@@ -22,7 +22,7 @@ To close your user account, you will first need to [cancel your DNSimple subscri
 
 1. Go to [your user page](https://dnsimple.com/user):
 
-    ![Navigate to user settings page](/files/user-nav.png)
+    ![Navigate to user settings page](/files/access-user-settings.jpg)
 
 1. Click on the red <label>Close account</label> button at the bottom of the page:
 

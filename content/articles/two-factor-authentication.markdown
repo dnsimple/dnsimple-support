@@ -33,7 +33,7 @@ When you enable two-factor authentication on a user account, all currently logge
 1.  Log into your DNSimple account.
 1.  Go to your [user page](https://dnsimple.com/user), by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/user-menu.png)
+    ![Settings menu](/files/access-user-settings.jpg)
 
 1.  Scroll down until you see the <label>Two-factor authentication</label> section and follow <label>Enable 2FA</label> to start the wizard to enable the feature.
 
@@ -62,7 +62,7 @@ When you enable two-factor authentication on a user account, all currently logge
 1.  Log into your DNSimple account.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/user-menu.png)
+    ![Settings menu](/files/access-user-settings.jpg)
 
 1.  Scroll down until you see the <label>Two-factor authentication</label> section and follow <label>Disable 2FA</label> to go to the confirmation page.
 
