@@ -17,25 +17,17 @@ The best solution is to always have auto-renewal enabled. We notify you 2 months
 
 The following TLDs are auto-renewal only:
 
-- `.AC`
-- `.AT`
-- `.AU`
-- `.BE`
-- `.CH`
-- `.DE`
-- `.ES`
-- `.EU`
-- `.FR`
-- `.IO`
-- `.IT`
-- `.JOBS`
-- `.JP`
-- `.LI`
-- `.NL`
-- `.PE`
-- `.PL`
-- `.SG`
-- `.SH`
-- `.TK`
-- `.TM`
-
+- [`AC`](https://dnsimple.com/tlds/ac-domains)
+- [`AT`](https://dnsimple.com/tlds/at-domains)
+- [`BE`](https://dnsimple.com/tlds/be-domains)
+- [`CH`](https://dnsimple.com/tlds/ch-domains)
+- [`DE`](https://dnsimple.com/tlds/de-domains)
+- [`FR`](https://dnsimple.com/tlds/fr-domains)
+- [`IO`](https://dnsimple.com/tlds/io-domains)
+- [`IT`](https://dnsimple.com/tlds/it-domains)
+- [`JOBS`](https://dnsimple.com/tlds/jobs-domains)
+- [`JP`](https://dnsimple.com/tlds/jp-domains)
+- [`LI`](https://dnsimple.com/tlds/li-domains)
+- [`NL`](https://dnsimple.com/tlds/nl-domains)
+- [`SH`](https://dnsimple.com/tlds/sh-domains)
+- [`TM`](https://dnsimple.com/tlds/tm-domains)
