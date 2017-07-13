@@ -78,7 +78,7 @@ The certificate expiration is 90 days. If auto-renewal is enabled, the certifica
 As suggested by Let's Encrypt, the renewal will happen at any time after 60 days (30 days before expiration).
 
 <callout>
-Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, we encourage you to use our [certificate API](/v2/domains/certificates/) to fetch the certificate and install it programmatically.
+Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, we encourage you to use our [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
 </callout>
 
 
