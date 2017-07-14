@@ -1,9 +1,11 @@
 ---
-title: Using CloudFlare DNSEC with DNSimple
+title: Using CloudFlare DNSSEC with DNSimple
 excerpt: How to set a DS record on registered domains for CloudFlare DNSSEC.
 categories:
 - CloudFlare and DNSimple
 ---
+
+# Using CloudFlare DNSSEC with DNSimple
 
 ### Table of Contents {#toc}
 
