@@ -24,6 +24,14 @@ For reseller plans, please contact us for information about your limits.
 
 For any plan that is not covered above, the limit is 1,000 messages per month.
 
+In addition to message limits, there is also a limit to the number of individual email forwards any particular domain may have, as follows:
+
+- Personal plans: up to 10 email forwards per domain.
+- Professional plans: up to 25 email forwards per domain.
+- Business plans: up to 100 email forwards per domain.
+
+If you need additional email forwards per domain, please contact us to discuss your needs.
+
 ## Enabling email forwarding
 
 To enable email forwarding visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
