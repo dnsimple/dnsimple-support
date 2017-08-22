@@ -54,7 +54,7 @@ If your domain is registered with DNSimple, and using our name servers, then the
 
 If your domain is registered with us but delegated elsewhere, then you will need to provide the DS record information from your DNS provider.
 
-If your domain is hosted with us but registered elsewhere, then you will need to provide the DS record we give you once your zone is signed. You will also need to update your DS record once every 90 days as we automatically rotate both zone signing keys and key signing keys.
+If your domain is hosted with us but registered elsewhere, then you will need to provide the DS record we give you once your zone is signed to your domain registrar. You will also need to update your DS record with your domain registrar once every 90 days as we automatically rotate both zone signing keys and key signing keys.
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
 
