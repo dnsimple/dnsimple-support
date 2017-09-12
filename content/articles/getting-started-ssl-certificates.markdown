@@ -26,7 +26,7 @@ If you are not familiar with SSL certificates, you may want to learn more about 
 
 In some limited instances, you may need to use a custom [CSR](/articles/what-is-csr) to acquire a new certificate. Check your web server's documentation to determine if you do. DNSimple will generate one for you automatically if you do not provide a custom CSR, which is fine in most cases.
 
-**You are not required to transfer or host a domain with us to order an SSL certificate**. You can acquire a Standard SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be ordered only for domains resolving with DNSimple. More details are available [on the articles about ordering the two types of certificates](#ordering).
+**You are not required to transfer or host a domain with us to order an SSL certificate**. You can acquire a Standard SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. Let's Encrypt certificates can be ordered only for domains resolving with DNSimple. More details are available [on the articles about ordering the two types of certificates](#order).
 
 ## Choose the certificate product
 
