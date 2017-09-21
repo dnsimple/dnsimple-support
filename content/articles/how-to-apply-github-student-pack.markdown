@@ -2,7 +2,7 @@
 title: Applying the GitHub Student Pack
 excerpt: A step by step guide to getting the credit provided by the GitHub Student Pack
 categories:
-- Github and DNSimple
+- GitHub and DNSimple
 ---
 
 # How to apply your Student Pack Coupon
