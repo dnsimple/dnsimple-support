@@ -23,11 +23,11 @@ The link must be to `http://raa.name-services.com` - if you receive a verificati
 
 ## Resend verification email
 
-If you are having trouble finding the email verification in your inbox, you will need to resend it. Navigate to your domain page and locate the ICANN pending verification warning at the top of the page. Then click on "Send ICANN RAA verification email"
+If you are having trouble finding the email verification in your inbox, you may want to resend it. Navigate to your domain page and locate the ICANN pending verification warning at the top of the page. Then click on "Send ICANN RAA verification email"
 
 ![ICANN resend email verification](/files/raa-resend-email-verification.png)
 
-Once you have acted on the verification email, the warning above should not appear. If it does, it's because our system hasn't refreshed the latest status yet. You can manually force a refresh by clicking on the "Refresh" button.
+Once you have acted on the verification email, the warning above should not appear. If it does, it may be because our system hasn't refreshed the latest status yet. You can manually force a refresh by clicking on the "Refresh" button.
 
 ## What happens when a domain is suspended?
 
