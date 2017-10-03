@@ -27,6 +27,18 @@ For a list of `nanoc` commands type
 
     14:26:35 - INFO - Compilation succeeded.
     14:26:35 - INFO - Guard is now watching at '~/projects/dnsimple-support'
+    
+### Managing categories
+
+You can add/remove/edit categories by editing the file `priorities/categories.yaml`.
+
+Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes
+
+### Sorting articles
+
+You can edit the order in which the articles appear in a category page by editing the file `priorities/articles.yaml`
+
+Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes.
 
 ## Deployment
 
