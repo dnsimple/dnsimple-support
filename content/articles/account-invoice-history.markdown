@@ -1,11 +1,11 @@
 ---
-title: Account Payment History
-excerpt: How to inspect the payment and invoice history on your account
+title: Account Invoice History
+excerpt: Using the payment history on your account and understanding the states of the listed invoices.
 categories:
 - Account
 ---
 
-# Account Payment History
+# Account Invoice History
 
 ### Table of Contents {#toc}
 
@@ -16,19 +16,20 @@ categories:
 
 It is possible to view your payment history and retry failed invoices manually in DNSimple.
 
-## View Account Payment History {#viewing}
+## View Account Invoice History {#viewing}
 
 <div class="section-steps" markdown="1">
-##### To view account payment history
+##### To view account's invoice history
 
-1. Go to [your account page](https://dnsimple.com/account).
-1. Click on <label>Billing</label>.
-1. Click on <label>View invoice history</label>.
-
-     ![Payment History Link](/files/account-billing-view-payment-history-link.png)
+1. On the top right menu, choose the account that you want to see the invoice history for and click on the cog.
+     ![Invoice History Link](/files/account-settings-access.jpg)
+1. On the account's settings page, click on <label>Billing</label> on the left menu.
+     ![Invoice History Link](/files/account-billing-tab.png)
+1. Scroll down to the <label>Invoices</label> section and click on <label>View invoice history</label>.
+     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
 
-## Payment states
+## Payment States
 
 Your invoices may be in certain state depending on different circumstances. While what these states mean may be obvious some times it is worth a short explanation:
 
@@ -80,8 +81,8 @@ While our system occasionally retries failed invoices automatically, it may make
 <div class="section-steps" markdown="1">
 ##### To retry a failed invoice
 
-1. View your [account payment history](#viewing).
-1. Locate failed invoices in your payment history. They will be highlighted in red.
+1. Access your [account's invoice history](#viewing).
+1. Locate failed invoices in your history. They will be highlighted in red.
 1. Click the retry button on your failed invoice.
 
     ![Retry Button](/files/account-billing-retry-button.png)
