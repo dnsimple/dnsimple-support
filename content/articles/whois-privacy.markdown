@@ -5,7 +5,7 @@ categories:
 - Whois Privacy
 ---
 
-# Managing WHOIS Privacy for a Domain
+# Domain WHOIS Privacy Protection
 
 ### Table of Contents {#toc}
 
