@@ -29,7 +29,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
     If you want DNSimple to act as your domain registrar, then follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain).
 
-If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tld-pricing) with us and subscribe to a DNS hosting plan to manage the domain with us.
+If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tlds) with us and subscribe to a DNS hosting plan to manage the domain with us.
 
 In order to use our DNS hosting service the account must be subscribed to a valid plan. Each plan provides different level of services and comes with a number of DNS zones (domains) included in the subscription fee. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 

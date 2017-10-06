@@ -15,7 +15,7 @@ DNSimple DNS hosting is billed as a monthly service. Pricing is available on our
 
 ## Domain Registration
 
-DNSimple domain registrations and transfers are billed on a yearly basis. Pricing varies depending on the domain name. For more information view the [domain pricing list](https://dnsimple.com/tld-pricing).
+DNSimple domain registrations and transfers are billed on a yearly basis. Pricing varies depending on the domain name. For more information view the [domain pricing list](https://dnsimple.com/tlds).
 
 As a DNSimple customer you do not need to use our domain registration services in order to take advantage of our hosted DNS. If you want to use another registrar you may do so and just change your name servers to our name servers for domains that you want us to provide hosted DNS for.
 

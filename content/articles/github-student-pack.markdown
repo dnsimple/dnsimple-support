@@ -40,7 +40,7 @@ This page describes the offer provided by DNSimple, as part of the GitHub Studen
 
 1.  #### Can I use the credit to register or transfer a domain?
 
-    No. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations will be charged to your card on file [according to our TLD price list](https://dnsimple.com/tld-pricing).
+    No. Your GitHub Student Pack credit only applies towards your DNS service. Domain registrations will be charged to your card on file [according to our TLD price list](https://dnsimple.com/tlds).
 
 1.  #### Can I use the credit to purchase an SSL certificate?
 

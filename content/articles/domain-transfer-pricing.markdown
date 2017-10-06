@@ -7,13 +7,13 @@ categories:
 
 # Domain Transfer Pricing
 
-Exactly like domain registration, domain transfer price varies depending on the TLD you want to transfer. For the full list visit the the [DNSimple domain pricing](https://dnsimple.com/tld-pricing) page.
+Exactly like domain registration, domain transfer price varies depending on the TLD you want to transfer. For the full list visit the the [DNSimple domain pricing](https://dnsimple.com/tlds) page.
 
 We only support domain transfer for the TLDs included in that list. Please note that if you see `N/A` in the transfer column for a TLD it means we currently don't support inbound transfers for that specific TLD, although we may support new registrations.
 
 ## Domain transfer costs
 
-When you transfer a domain, we charge a [transfer fee](https://dnsimple.com/tld-pricing) and extend your domain for 1 year from the current expiration date. The extension of the domain is required by ICANN whenever a domain is transferred.
+When you transfer a domain, we charge a [transfer fee](https://dnsimple.com/tlds) and extend your domain for 1 year from the current expiration date. The extension of the domain is required by ICANN whenever a domain is transferred.
 
 The transfer fee covers the cost of transferring the domain to us and the domain extension. The extension is applied to the current expiration date so that you do not lose any registration time that you have already paid for.
 
