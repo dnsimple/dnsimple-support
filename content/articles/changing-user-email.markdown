@@ -12,7 +12,7 @@ You can change the email associated with your user profile from the DNSimple acc
 <div class="section-steps" markdown="1">
 ##### To change the user email
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>Settings</label> link under your user menu.
 
     ![Settings menu](/files/access-user-settings.jpg)

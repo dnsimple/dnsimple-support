@@ -35,8 +35,9 @@ By default, newly registered domains are set to auto-renew, but if you have turn
 <div class="section-steps" markdown="1">
 ##### To enable auto-renewal for a domain
 
-1.  Log into your DNSimple account.
-1.  Find the domain on your dashboard and click on it to access the domain settings page. Alternatively, you can use the search located in the navbar.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Check the <label>Auto-renew this domain before it expires</label> checkbox on the "Registration" status card
 
     ![Auto-renewal checkbox](/files/enable-auto-renewal.png)
@@ -55,8 +56,9 @@ If you would like to turn off auto-renewal for a domain, you should follow these
 <div class="section-steps" markdown="1">
 ##### To disable auto-renewal for a domain
 
-1.  Log into your DNSimple account.
-1.  Find the domain on your dashboard and click on it to access the domain settings page. Alternatively, you can use the search located in the navbar.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain 
 1.  Uncheck the <label>Auto-renew this domain before it expires</label> checkbox on the registration status card
 
     ![Auto-renewal checkbox](/files/disable-auto-renewal.png)

@@ -10,7 +10,8 @@ categories:
 <div class="section-steps" markdown="1">
 ##### To register a new domain
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab
 1.  Click <label>Register a Domain</label>.
 1.  Fill out the domain name.

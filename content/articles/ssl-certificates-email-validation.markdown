@@ -98,7 +98,8 @@ If the approver is not in this list or you need time to configure one of those e
 <div class="section-steps" markdown="1">
 ##### To select a validation email for a previously purchased certificate
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
@@ -138,7 +139,8 @@ If you haven't received the validation email, for example because the email conf
 <div class="section-steps" markdown="1">
 ##### To resend the validation email
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 

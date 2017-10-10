@@ -32,7 +32,8 @@ When you enable the service the first time, the service cost will be charged on 
 <div class="section-steps" markdown="1">
 ##### Enable WHOIS privacy from the domain list {#enable-whois-domain-list}
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the button with the *shield* icon. That button will indicate whether the WHOIS privacy protection service is enabled for the domain:
 
     ![Domain Page WHOIS Button](/files/enable-whois-domain-list-1.jpg)
@@ -47,7 +48,8 @@ When you enable the service the first time, the service cost will be charged on 
 <div class="section-steps" markdown="1">
 ##### Enable WHOIS privacy from the domain page {#enable-whois-domain-page}
 
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
     ![Domain Page Link](/files/enable-whois-domain-page.jpg)
@@ -68,7 +70,8 @@ When you enable the service the first time, the service cost will be charged on 
 While we will send an email reminder when the Whois Privacy Protection on a domain is due to expire soon, it's possible to renew it manually before that notice is sent. You may do so as follows:
 
 <div class="section-steps" markdown="1">
-1.  Log into your DNSimple account.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
     ![Domain Page Link](/files/enable-whois-domain-page.jpg)

@@ -30,16 +30,17 @@ Importing a zone file won't delete or replace the existing domain's records.
 <div class="section-steps" markdown="1">
 ##### How to import records from zone file
 
-1. Log into your DNSimple account.
-1. On the top menu click on the <label>Domains</label> tab.
-1. Locate the relevant domain and click on the name to access the domain page.
-1. Go to the settings section by clicking the <label>Settings</label> link on the left.
-1. Click on the <label>Import from a zone file</label> link inside the zones card.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  On the top menu click on the <label>Domains</label> tab.
+1.  Locate the relevant domain and click on the name to access the domain page.
+1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
+1.  Click on the <label>Import from a zone file</label> link inside the zones card.
 
     ![Import zone link](/files/import-zone.jpg)
 
-1. Paste the content of zone file into the text area and click <label>Import Zone</label>.
-1. The results of the import will be displayed including any errors that may have occurred.
+1.  Paste the content of zone file into the text area and click <label>Import Zone</label>.
+1.  The results of the import will be displayed including any errors that may have occurred.
 
     ![Zone file import results](/files/zone-import-results.png)
 
@@ -59,15 +60,16 @@ The non-standard records like [ALIAS](/articles/alias-record) and [POOL](/articl
 <div class="section-steps" markdown="1">
 ##### How to export your domain's records to a zone file
 
-1. Log into your DNSimple account.
-1. On the top menu click on the <label>Domains</label> tab.
-1. Locate the relevant domain and click on the name to access the domain page.
-1. Go to the settings section by clicking the <label>Settings</label> link on the left.
-1. Click on the <label>Export to a zone file</label> link inside the zones card.
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  On the top menu click on the <label>Domains</label> tab.
+1.  Locate the relevant domain and click on the name to access the domain page.
+1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
+1.  Click on the <label>Export to a zone file</label> link inside the zones card.
 
     ![Export zone link](/files/export-zone.png)
 
-1. The link will open a text file. Save the file to your computer.
+1.  The link will open a text file. Save the file to your computer.
 
     ![Zone file](/files/dnsimple-zone-file.png)
 

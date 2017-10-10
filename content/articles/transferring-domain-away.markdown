@@ -43,10 +43,9 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
 <div class="section-steps" markdown="1">
 ##### To prepare the domain for transfer out
 
-1.  Log into your DNSimple account.
-1.  Find your domain by searching, you can use the search bar on the dashboard, or the one located at the top of the page in the navbar, as illustrated below. Once you've found the domain you're looking for, click on it to go to the domain page.
-
-    ![Domain Page link](/files/domains-domain-link.png)
+1.  Log into DNSimple with your user credentials.
+1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 
 1.  Go to the registration section and click <label>Transfer Out</label>
 
