@@ -34,7 +34,7 @@ When you enable the service the first time, the service cost will be charged on 
 
 1.  Log into DNSimple with your user credentials.
 1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the button with the _shield_ icon. That button will indicate whether the WHOIS Privacy protection service is enabled for the domain:
+1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That button will indicate whether the WHOIS Privacy protection service is enabled for the domain:
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
@@ -89,7 +89,7 @@ Once you disable the WHOIS Privacy protection the contact details of your domain
 
 1.  Log into DNSimple with your user credentials.
 1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the button with the _shield_ icon. That button will indicate whether the WHOIS Privacy protection service is enabled for the domain:
+1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That button will indicate whether the WHOIS Privacy protection service is enabled for the domain:
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
