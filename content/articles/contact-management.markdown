@@ -36,7 +36,7 @@ If a contact is associated with a domain, updating that contact updates all the 
 
 If you wish to update a specific domain only, you can either [replace the contact entirely](/article/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact) like we just mentioned to make that change.
 
-### Contact lock
+### Domain registrant change and ICANN transfer lock
 
 If the contact is associated with multiple domains, we'll notify you of which domains could potentially be locked for 60 days due to the new [ICANN policies](/articles/icann-60-day-lock-registrant-change/).
 
