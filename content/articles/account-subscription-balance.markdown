@@ -21,7 +21,7 @@ The account page has a full section dedicated to relevant information about your
   The current balance of your account. This number can be:
   - _Zero_. Indicating that your account is up to date.
   - _Balance due_. Indicating that we couldn't get the payment for your latest subscription renewal fee.
-  - _Credit_. Indicating that next payments will be deducted from this amount. You will also see what you can use your credit for: only subscription fees or all types of payments. If no explanation is present you can use the credit for all your transactions.
+  - _Credit_. Indicating that future payments may be deducted from this amount. You will also see what you can use your credit for: only subscription fees or all types of payments. If no explanation is present you can use the credit for all your transactions.
 
 
 <div class="section-steps" markdown="1">
