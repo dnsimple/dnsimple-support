@@ -55,15 +55,9 @@ Getting started with Secondary DNS is possible from the DNS section of the domai
 
 You will then be presented with a page where you can choose your secondary provider. If your provider is either Dyn, DNSMadeEasy, or EasyDNS, you are one click away from completing the configuration. Otherwise, select the custom option. You will then be presented with a page for providing the names for NS records as well as the IP addresses which should be allowed to have access for the zone transfer. These details should be retrieved from your secondary DNS provider.
 
-![Configure Secondary DNS Form](/files/secondary-dns-step-1.png)
-
 Selecting a pre-configuration will prepopulate the correct values for you. Just click on the "Enable" button at the bottom of the page.
 
-![Configuration with provider](/files/secondary-dns-provider-conf.png)
-
 If you choose the custom option, you'll be prompted to enter the NS records as well as the IP address for the zone transfer.
-
-![Configuration with custom](/files/secondary-dns-custom-conf.png)
 
 Once you submit the form with the proper details, you will be redirected to the domain management page with updated details.
 
