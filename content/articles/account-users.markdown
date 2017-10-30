@@ -40,7 +40,7 @@ The member will also have full-admin access to the account, including the abilit
 
 1. Enter the email address of a __registered__ DNSimple customer. It is not necessary that this person have an active subscription, just that they have already signed up for the service.
 
-    ![Add a new member form](/files/add-member-screen.jpg)
+    ![Add a new member form](/files/add-member-screen.png)
 
 1. Congratulations, you've added another member to your account!
 
