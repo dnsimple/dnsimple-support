@@ -27,5 +27,5 @@ A subdomain is, technically speaking, a DNS record for a hostname that belongs t
 
 1.  To add a subdomain, just fill in the subdomain in the Name field. For example, `www` would be the subdomain `www.example.com`.
 
-    ![Add Record](/files/add-a-record.jpg)
+    ![Add Record](/files/add-a-record.png)
 </div>
