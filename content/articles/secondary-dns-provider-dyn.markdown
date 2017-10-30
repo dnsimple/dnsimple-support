@@ -26,8 +26,6 @@ You may also want to wait an hour or two before enabling your secondary DNS in D
 
 From DNSimple, select **Dyn Standard** as the provider and click *Enable* at the bottom of the form. The IP addresses that Dyn is expecting are already filled in for you, but you will need to fill in the name servers using the name server names Dyn provided to you when you enabled Secondary DNS on their side.
 
-![DNSimple configuration with Dyn Standard](/files/dyn-standard-enabling.png)
-
 A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
@@ -41,8 +39,6 @@ First you will need to set up secondary DNS at Dyn. Instructions for setting up 
 You may also want to wait an hour or two before enabling your secondary DNS in DNSimple as this will give Dyn time to deploy the configuration for secondary DNS on our side.
 
 From DNSimple, select **Dyn Managed** as the provider and click *Enable* at the bottom of the form. The IP addresses that Dyn is expecting are already filled in for you, but you will need to fill in the name servers using the name server names Dyn provided to you when you enabled Secondary DNS on their side.
-
-![DNSimple configuration with Dyn Managed](/files/dyn-managed-enabling.png)
 
 A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
 
