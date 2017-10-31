@@ -52,7 +52,7 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 
 1.  In the form enter the following settings:
     
-    ![Alias Settings](/files/add-alias-heroku-2.jpg)
+    ![Alias Settings](/files/add-alias-heroku-2.png)
 
     - <label>Name</label>: leave it blank as we want to create an `ALIAS` for the apex domain.
     - <label>Alias for</label>: enter your Heroku endpoint URL. If you are **not** using SSL the endpoint it will look like `myapp.herokuapp.com`. If you are using SSL the endpoint it will look like `myapp.herokussl.com`

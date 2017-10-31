@@ -23,7 +23,7 @@ You can change the email associated with your user profile from the DNSimple acc
 
 1.  Enter your current password and the new email address and press <label>Save</label>.
 
-    ![Enter email address](/files/account-change-email-2.jpg)
+    ![Enter email address](/files/account-change-email-2.png)
 
 1.  If the update is successful, you'll be redirected to the account page. Make sure the account correctly displays the new address.
 

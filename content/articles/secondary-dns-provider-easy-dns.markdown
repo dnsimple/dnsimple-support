@@ -20,8 +20,6 @@ Getting started with Secondary DNS is possible from the DNS section of the domai
 
 From DNSimple, select **EasyDNS** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 
-![DNSimple configuration with EasyDNS](/files/easy-dns-enabling.png)
-
 A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)

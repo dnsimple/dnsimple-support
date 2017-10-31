@@ -21,7 +21,7 @@ By default, newly registered domains are set to auto-renew, but if you have turn
 
 1.  Choose the term for which you'd like to renew the domain and whether you'd like to renew Whois Privacy Protection (if enabled and available) and click the <label>Renew Domain</label> button
 
-    ![Renew domain form](/files/renew-domain-form.jpg)
+    ![Renew domain form](/files/renew-domain-form.png)
 
 1.  Enjoy using your renewed domain!
 </div>
