@@ -80,6 +80,10 @@ After you have verified all of your records, you should [point the domain to DNS
 This step is essential as it ensures that your DNS will continue operating during the transfer process.
 </warning>
 
+<warning>
+If you're using a SSL certificate provided by your current DNS hosting, please check if you need to [purchase](/articles/purchasing-ssl-certificates) and [install](/articles/installing-ssl-certificate/) a new certificate on your server.
+</warning>
+
 Once the name servers are changed to DNSimple you will need to wait for the DNS information to propagate.
 
 This means that name servers that are currently caching your domain's DNS records will need to be given time for their caches to clear and to begin reporting the records from DNSimple's name servers.
