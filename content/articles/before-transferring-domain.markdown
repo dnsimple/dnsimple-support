@@ -81,7 +81,7 @@ This step is essential as it ensures that your DNS will continue operating durin
 </warning>
 
 <warning>
-If you're using a SSL certificate provided by your current DNS hosting, please check if you need to [purchase](/articles/purchasing-ssl-certificates) and [install](/articles/installing-ssl-certificate/) a new certificate on your server.
+If you're using an SSL certificate provided by your current DNS hosting, please check if you need to [purchase](/articles/purchasing-ssl-certificates) and [install](/articles/installing-ssl-certificate/) a new certificate on your server.
 </warning>
 
 Once the name servers are changed to DNSimple you will need to wait for the DNS information to propagate.
