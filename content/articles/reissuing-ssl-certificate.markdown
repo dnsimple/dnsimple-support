@@ -88,18 +88,20 @@ The old certificate will stay active until the expiration date.
 
 ### Finding your private key {#private-key}
 
-Once you have received your certificate from the Certificate Authority, go to your certificate page and click <label>Reissue status</label>.
+Once you have received your certificate from the Certificate Authority, go to your certificate page and click <label>View reissue status</label>.
 
-![reissue status](/files/private-key-0.jpg)
+![reissue status](/files/ssl-certificate-reissue-link.png)
 
 If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
 
 When you receive your reissued certificate via email, **and only then**, go to the status page and click the confirmation button:
 
-![reissue confirmation](/files/private-key-1.jpg)
+![reissue confirmation](/files/ssl-certificate-reissue-confirm.png)
 
 At that point you will be taken back to the certificate page and you will be able to get your new private key:
 
-![reissue confirmation](/files/private-key-2.jpg)
+![reissue confirmation](/files/ssl-certificate-reissue-alert.png)
 
-Your previous private key will be permanently removed at this point.
+Your previous private key will be permanently removed at this point. You can now install the certificate following the install steps.
+
+![reissue install](/files/ssl-certificate-reissue-install.png)
