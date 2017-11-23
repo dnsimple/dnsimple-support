@@ -34,17 +34,17 @@ The member will also have full-admin access to the account, including the abilit
 
     ![Select the members tab](/files/add-member-account-link.jpg)
 
-1. Click the <label>Add a new member</label> link.
+1. Click the <label>Invite new user</label> link.
 
-    ![Add a new member](/files/add-member-link-members-screen.jpg)
+    ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of a __registered__ DNSimple customer. It is not necessary that this person have an active subscription, just that they have already signed up for the service.
+1. Enter the email address of of the user that you wish to invite. It doesn't matter if they have a DNSimple account or not. They will receive an email inviting them to join the account. 
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. Congratulations, you've added another member to your account!
+1. Until the user accepts the invitation, it will appear in the pending invitation section. If something is wrong with the invite, you can resend it to the user (they receive another email), or remove it. Removing it will cancel the invitation immediately and the user will no longer be able to accept it.
 
-    ![Member added](/files/add-member-added-members-screen.jpg)
+    ![Pending invitations](/files/add-member-pending-invitations.png)
 
 </div>
 
@@ -61,10 +61,10 @@ The member will also have full-admin access to the account, including the abilit
 
 1. Click the <label>Remove</label> button for the member you'd like to remove from the account and confirm that you'd like to remove this member.
 
-    ![Press the Remove button](/files/remove-member-button.jpg)
+    ![Press the Remove button](/files/add-member-remove.png)
 
 1. The member should no longer show on the members tab once they are removed from the account.
 
-    ![Member removed](/files/remove-member-removed.jpg)
+    ![Member removed](/files/add-member-member-removed.png)
 
 </div>
