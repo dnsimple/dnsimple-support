@@ -56,7 +56,7 @@ At DNSimple:
 
 ## Approve the transfer
 
-Your domain transfer request will now be issued if there are no missing fields. For most domain extensions, the current registrant will receive an email from `info@transfer-approval.com` to authorize the transfer.
+Your domain transfer request will now be issued if there are no missing fields. For most domain extensions, the current registrant will receive an email from `donotreply@name-services.com` to authorize the transfer.
 
 Follow the instructions in the email. We cannot issue the transfer request to the registry without approval of this email.
 
