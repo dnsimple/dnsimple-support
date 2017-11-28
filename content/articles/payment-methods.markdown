@@ -7,7 +7,7 @@ categories:
 
 # Payment Methods
 
-DNSimple only supports two payment methods:
+DNSimple supports two payment methods:
 
 ## Credit card
 
@@ -15,12 +15,15 @@ DNSimple only supports two payment methods:
 DNSimple doesn't store credit card information. We use a PCI-compliant billing provider to process and store all payment data.
 </note>
 
-When you subscribe to DNSimple you will be required to provide a credit card. This card will be used to collect the payment for the subscription fees and all the purchases that you make in DNSimple. These purchases include:
+When you subscribe to DNSimple you will be required to provide a credit card. This card will be used to collect the payment for the subscription fees and all the purchases that you make in DNSimple. These purchases may include:
+
 - Domain registrations
 - Domain renewals
 - Domain transfers
+- Whois privacy
 - Comodo single-name SSL certificates
 - Comodo wildcard certificates
+- Email forwarding
 
 
 ## Wire transfer
