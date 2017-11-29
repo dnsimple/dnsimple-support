@@ -15,7 +15,7 @@ DNSimple supports two payment methods:
 DNSimple doesn't store card information. We use a PCI-compliant billing provider to process and store all payment data.
 </note>
 
-When you subscribe to DNSimple you will be required to provide a credit or debit card. This card will be used to collect the payment for the subscription fees and all the purchases that you make in DNSimple. These purchases may include:
+When you subscribe to DNSimple you will be required to provide a credit or debit card. This card will be used to collect the payment for the subscription fees and all the purchases that you make. These purchases may include:
 
 - Domain registrations
 - Domain renewals
