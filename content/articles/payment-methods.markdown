@@ -23,7 +23,6 @@ When you subscribe to DNSimple you will be required to provide a credit or debit
 - Whois privacy
 - Comodo single-name SSL certificates
 - Comodo wildcard certificates
-- Email forwarding
 
 
 ## ACH or Wire transfer
