@@ -25,7 +25,7 @@ Here you can see all of your authorized applications, and the applications that 
 
 ## Generating an OAuth Application
 
-Click on the <label>Developer applications</label> tab, then on the <label>New application</label> link.
+On the <label>Developer applications</label> card, click the <label>New application</label> link.
 
 ![New Application Link](/files/new-application-link.png)
 
