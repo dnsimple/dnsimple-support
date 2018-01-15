@@ -32,7 +32,7 @@ We currently support DNSSEC in the following ways:
 - If your domain is registered through DNSimple but host your DNS with another authoritative DNS provider, then you may add DS records for DNSSEC-enabled zones.
 - If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, then you may sign zones in our name servers, but you will be required to handle the creation and rotation of DS records.
 
-We do not support DNSSEC for zones using secondary DNS at this time.
+We do not support DNSSEC for zones using our outbound secondary DNS feature at this time.
 
 ## Managing DNSSEC
 
@@ -72,7 +72,7 @@ Click on the Delete DNSSEC Configuration button to remove the zone signing and t
 
 ## Key Rotation
 
-DNSimple currently rotates both key signing keys and zone signing keys every 90 days.
+DNSimple currently rotates both key signing keys and zone signing keys every 90 days. You cannot disable auto-rotation, it is manditory.
 
 As stated above, if your domain is both registered with us and uses our authoritative name servers, then we will handle rotation of keys automatically. If not, then you will receive an email notification whenever key rotation starts, with the new DS record, which you will need add through your domain registrar.
 
