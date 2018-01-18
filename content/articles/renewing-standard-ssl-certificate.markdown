@@ -34,7 +34,7 @@ These are the steps to renew your standard certificate:
 1.  Follow the instructions to purchase the certificate renewal.
 
     1.  Check the certificate [common name](/articles/what-is-common-name) matches the one you want to renew.
-    1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.
+    1.  Change the number of years if you want to purchase a certificate for more than 1 year. **The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.**
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
