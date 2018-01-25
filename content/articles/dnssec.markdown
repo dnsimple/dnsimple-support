@@ -72,7 +72,7 @@ Click on the Delete DNSSEC Configuration button to remove the zone signing and t
 
 ## Key Rotation
 
-DNSimple currently rotates both key signing keys and zone signing keys every 90 days. You cannot disable auto-rotation, it is manditory.
+DNSimple currently rotates both key signing keys and zone signing keys every 90 days. You cannot disable auto-rotation, it is mandatory.
 
 As stated above, if your domain is both registered with us and uses our authoritative name servers, then we will handle rotation of keys automatically. If not, then you will receive an email notification whenever key rotation starts, with the new DS record, which you will need add through your domain registrar.
 
