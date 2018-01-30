@@ -1,11 +1,11 @@
 ---
-title: Cancel your subscription
+title: Unsubscribe
 excerpt: How to cancel the recurring subscription for a DNSimple account.
 categories:
 - Account
 ---
 
-# Cancel your subscription
+# Unsubscribe
 
 After unsubscribing you will no longer be charged a monthly/yearly fee and your domains will no longer resolve with us. You may resubscribe at any time and your domains will resolve again.
 
@@ -14,7 +14,7 @@ All your domains and records will remain in your account. You will also be able 
 </note>
 
 <div class="section-steps" markdown="1">
-##### To cancel your DNSimple subscription:
+##### To unsubscribe your DNSimple plan:
 
 1.  Log into DNSimple with your user credentials.
 1.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
@@ -22,12 +22,12 @@ All your domains and records will remain in your account. You will also be able 
 
     ![Account Billing tab](/files/account-billing-tab.png)
 
-1.  Scroll down until you see the <label>Cancel subscription</label> section.
+1.  Scroll down until you see the <label>Unsubscribe</label> section.
 
-    ![Cancel subscription section](/files/account-unsubscribe.png)
+    ![Unsubscribe section](/files/account-unsubscribe.png)
 
-1.  Click on the red <label>Cancel subscription</label> button.
-1.  Confirm that you want to cancel your subscription by typing your account's email address:
+1.  Click on the <label>Unsubscribe</label> button.
+1.  Confirm that you want to unsubscribe by typing your account's email address:
 
     ![Account unsubscribe confirmation](/files/account-unsubscribe-confirmation.png)
 

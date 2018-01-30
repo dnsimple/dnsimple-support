@@ -14,7 +14,7 @@ Once your account is closed all your domains and records will be deleted. You wi
 </warning>
 
 <note>
-To close your user account, you will first need to [cancel your DNSimple subscription](/articles/cancel-subscription).
+To close your user account, you will first need to [unsubscribe from your plan at DNSimple](/articles/cancel-subscription).
 </note>
 
 <div class="section-steps" markdown="1">

@@ -7,7 +7,7 @@ categories:
 
 # Reactivate your subscription
 
-When you [cancel your subscription](/articles/cancel-subscription) all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any point in time.
+When you [unsubscribe](/articles/cancel-subscription) all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any point in time.
 
 <note>
 If you were subscribed to a [Legacy Plan](/articles/new-plans#legacy-plans) you will have to choose one of our [new feature-based plans](/articles/new-plans/#newer-plans) during the reactivation process.

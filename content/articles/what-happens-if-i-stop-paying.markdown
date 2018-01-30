@@ -7,7 +7,7 @@ categories:
 
 # What happens if I stop paying for my DNSimple subscription?
 
-After a certain period of time, an account is cancelled after payment cannot be collected. What happens in this case depends on the current configuration of your delegation. 
+After a certain period of time, an account is cancelled if payment cannot be collected. What happens in this case depends on the current configuration of your delegation. 
 
 If you are pointing to DNSimple's nameservers and your account closes, **your domain will no longer resolve, and will become unreachable** (You would get a 'SERVFAIL' or 'NXDOMAIN' DNS error code as a response in this case). 
 
