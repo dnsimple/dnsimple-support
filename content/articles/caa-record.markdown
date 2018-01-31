@@ -82,7 +82,7 @@ In the example above, Let's Encrypt is the default CA for the example.com domain
 
 ## Comodo Wildcard Certificates
 
-Customers who purchase a Comodo wildcard certificate from us will need to make sure they have an `issue` and `issuewild` CAA record because they add an additional single-name to the certificate to cover the non-wildcard name. For example, buying a certficiate for `*.example.com` will issue a certificate with both `example.com` and `*.example.com` in the certificate names. This means you will need to configure your CAA records like so:
+Customers who purchase a Comodo wildcard certificate from us will need to make sure they have an `issue` and `issuewild` CAA record because they add an additional single-name to the certificate to cover the non-wildcard name. For example, buying a certificate for `*.example.com` will issue a certificate with both `example.com` and `*.example.com` in the certificate names. This means you will need to configure your CAA records like so:
 
     example.com.  CAA 0 issue "comodoca.com"
     example.com.  CAA 0 issuewild "comodoca.com"
