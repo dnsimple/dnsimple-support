@@ -62,7 +62,7 @@ The Let's Encrypt certificate is a **multi-name (SAN)**, **domain-validated cert
 The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt#products)
 
 <note>
-The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to.
+The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all options.
 </note>
 
 ### What's a "Standard" Certificate Authority? {#standard-certificate}

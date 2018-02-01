@@ -93,7 +93,7 @@ If you are interested in a wildcard certificate, DNSimple [offers wildcard certi
 Single-name certificates can be considered a special type of multi-name certificates, with a single name associated with it. Therefore, Let's Encrypt offering is both a multi-name and single-name.
 
 <note>
-The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to.
+The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all options.
 </note>
 
 
@@ -104,7 +104,7 @@ Let's Encrypt feature support varies based on your DNSimple subscription plan.
 Note that not all Let's Encrypt features are currently supported by DNSimple. Some features will be incrementally introduced in the future, while others are not supported due to design decisions or limitations imposed by our system.
 
 - You can request as many certificates as you want, as long as you stay within Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
-- Depending on your plan, you can specify the hostname for the certificate, or it will be defaulted to www/root domain.
+- Depending on your plan, you can specify the hostname for the certificate, or it will be defaulted to www/root domain. Please see [plans and pricing page](https://dnsimple.com/pricing) to view all options and change your plan if needed.
 - Depending on your plan, you can specify up to 100 extra hostnames for a single certificate. Remember that Let's Encrypt doesn't support wildcard certificates, and we currently only support subdomains (it's not possible to add names from different domains).
 
 
