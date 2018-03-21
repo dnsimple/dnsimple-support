@@ -28,7 +28,7 @@ Please note that the table only reflects the status of the current DNSimple offe
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|
-Certificate Expiration | 90 days | 1-3 years
+Certificate Expiration | 90 days | Multi-year
 Single names | Supported | Supported
 Custom Single names | Supported (on certain plans) | Supported
 Wildcard names | Not Supported (by CA) | Supported
