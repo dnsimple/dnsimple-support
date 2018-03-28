@@ -52,9 +52,9 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
 
 It's not required to purchase or transfer the domain to WordPress. Likewise, it's not required to change the name servers to WordPress.
 
-<info>
+<note>
 WordPress.com also provides instruction to [use a domain you own with WordPress](https://en.support.wordpress.com/map-existing-domain/). We suggest to not follow this approach as it will require to delegate your entire domain to WordPress and you will not be able to use any other service provided by DNSimple. Instead, follow the instructions above to create the necessary records.
-</info>
+</note>
 
 
 ## Self-hosted WordPress

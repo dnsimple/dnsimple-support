@@ -31,9 +31,9 @@ We currently support more than 30 services! Here are the most recognized ones:
 * Squarespace
 * Windows Azure
 
-<note>
+<callout>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
-</note>
+</callout>
 
 ## Adding a service
 

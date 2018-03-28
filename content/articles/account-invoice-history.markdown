@@ -93,6 +93,6 @@ While our system occasionally retries failed invoices automatically, it may make
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
 
-<note>
+<callout>
 It is possible the retry will not succeed or the invoice will enter a "Needs Review" state. If you have repeated trouble retrying an invoice or have an invoice enter the "Needs Review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
-</note>
+</callout>

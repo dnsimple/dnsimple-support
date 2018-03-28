@@ -77,6 +77,6 @@ On some plans we do not allow the configuration of a name but instead configure 
 
 Once you order the certificate, we will configure the necessary DNS records and check that they are resolving properly before having Let's Encrypt check the DNS challenge. Once the challenge is verified, the certificate will be issued and you can download and install the certificate on your server.
 
-<note>
+<callout>
 Due to the short expiration cycle of Let's Encrypt certificates, it is recommended to automate as much of the installation process as possible. You can consult our [developer documentation on SSL Certificates](https://developer.dnsimple.com/v2/certificates/) for more information on how to accomplish this via our API.
-</note>
+</callout>

@@ -145,9 +145,9 @@ The Authy authentication workflow is quite standard and similar to any other tim
 
 DNSimple will eventually discontinue the support for the Authy two-factor platform, therefore the next time you log in, you will be prompted to migrate your two-factor authentication to our new system. Simply click the button at the bottom of the page when you next authenticate and follow the procedure presented to you for disabling Authy and enabling the new system.
 
-<note>
+<callout>
 The Authy authenticator app is currently designed to support both Authy and standard two-factor implementation. Therefore, if you want to keep using the Authy app, simply scan the barcode from the Authy app and use it to generate the verification code. Please note it will not be possible to use the previously configured Authy-based profile with the new two-factor system unless you scan the new barcode with the Authy app.
-</note>
+</callout>
 
 ## Best Practices for Two-Factor Authentication
 

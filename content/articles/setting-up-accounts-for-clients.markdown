@@ -34,15 +34,15 @@ Each customer must have a separate account, otherwise if you add more than one c
 First, you must add another account to your user profile by taking the [following steps](/articles/account-multi/#creating-a-separate-account).
   
 ## Inviting your client to DNSimple
-  
+
 Verify that your client has __registered__ with DNSimple.
-  
+
 If needed, [point your client to the signup page](https://dnsimple.com/signup).
-  
-<note>
+
+<callout>
 It is not necessary that your client have an active subscription, just that they have already signed up for the service.
-</note>
-  
+</callout>
+
 ## Adding clients to the new account
 
 Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/account-users/#adding-members-to-an-account).

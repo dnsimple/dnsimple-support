@@ -73,9 +73,9 @@ If the whois privacy is enabled for the domain associated with the certificate, 
 
 [Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
 
-<note>
+<callout>
 Once you disable whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
-</note>
+</callout>
 
 
 ## Select the validation email address {#select-email}

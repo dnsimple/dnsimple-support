@@ -24,9 +24,9 @@ API v2 offers 2 types of tokens: account tokens and user tokens.
 
 The user token gives you access to any resource associated to any account the user has access to. Conversely, an account token gives you access only to the resources connected to that account.
 
-<note>
+<callout>
 We recommend to use account tokens, unless your application needs multi-account access via single token.
-</note>
+</callout>
 
 ## Getting to the Account Access Token page
 

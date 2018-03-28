@@ -39,9 +39,9 @@ Following the version indicator are one or more terms. These define the rules fo
 - `ip6`
 - `exists`
 
-<info>
+<note>
 The `ptr` type is also defined but should not be used.
-</info>
+</note>
 
 There are currently two modifiers defined:
 

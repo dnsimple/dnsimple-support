@@ -22,9 +22,9 @@ In this article we'll use the term _standard_ as described in our [TLS/SSL certi
 
 The table below summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates. These differences may help you to decide which certificate you need.
 
-<note>
-Please note that the table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but currently not supported by DNSimple.
-</note>
+<callout>
+The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but currently not supported by DNSimple.
+</callout>
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|

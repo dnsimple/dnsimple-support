@@ -84,9 +84,9 @@ Once the name servers are changed to DNSimple you will need to wait for the DNS 
 
 This means that name servers that are currently caching your domain's DNS records will need to be given time for their caches to clear and to begin reporting the records from DNSimple's name servers.
 
-<note>
+<callout>
 It may take up to 24 hours for changes to propagate.
-</note>
+</callout>
 
 
 ## Transferring the domain to DNSimple
