@@ -53,7 +53,7 @@ The order is the first step into getting an SSL certificate. It will create an S
 
     1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
     1.  For different plans, the names available will differ. If you have the ability to select alternate names for your certificate, do so. Otherwise, continue to the next step.
-    1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
+    1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR). We will generate a private key that is used for your CSR. Make sure to read our [private key policy](https://dnsimple.com/private-key-policy) before you order your certificate.
     1.  Select whether you would like to automatically renew the certificate. If you do so, the certificate will be renewed 30 days prior to expiration as recommended by Let's Encrypt.
     1.  Submit the order.
 </div>
