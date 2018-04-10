@@ -57,7 +57,7 @@ The order is the first step into getting an SSL certificate. It will create an S
     1.  Enter the certificate common name. Use an `*` to order a wildcard certificate.
     1.  Select a Contact from your contact list. The contact information will be used to generate the certificate request (CSR).
     1.  Change the number of years if you want to purchase a certificate for more than 1 year. The [multi-year SSL certificate](/articles/can-multi-year-ssl-certificates) feature is only available to new plans.
-    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it)
+    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it). Make sure to read our [private key policy](https://dnsimple.com/private-key-policy).
     1.  Submit the order.
 
     ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
