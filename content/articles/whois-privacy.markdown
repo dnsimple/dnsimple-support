@@ -19,7 +19,7 @@ The [WHOIS Privacy protection service](/articles/what-is-whois-privacy) keeps yo
 You can purchase the WHOIS Privacy protection for any of your domains at any time, as long as the domain is registered with us and the TLD supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
 
 <callout>
-For [the new plans](/articles/new-plans) the price for the WHOIS Privacy service starts from **$2/year per domain** and it is based on the currently subscribed plan. For all the [legacy plans](/articles/new-plans/#newer-plans-vs-legacy-plans) the price hasn't changed and it is $8/year per domain.
+For [the new plans](/articles/new-plans) the price for the WHOIS Privacy service starts from **$3/year per domain** and it is based on the currently subscribed plan. For all the [legacy plans](/articles/new-plans/#newer-plans-vs-legacy-plans) the price hasn't changed and it is $8/year per domain.
 </callout>
 
 
