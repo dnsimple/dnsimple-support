@@ -26,9 +26,9 @@ The member will also have full-admin access to the account, including the abilit
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, visit the account page by clicking the name of the account in the dropdown menu.
+1. Once you've subscribed to an eligible plan, visit the account page by clicking the name of the account in the menu.
 
-    ![Visit settings for selected account](/files/account-switcher-2.jpg)
+    ![Visit settings for selected account](/files/account-switcher.jpg)
 
 1. From the main account settings screen, select the <label>Members</label> tab.
 
@@ -51,9 +51,9 @@ The member will also have full-admin access to the account, including the abilit
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you have an account with multiple members, but you want to remove one, you should switch to the account and then visit the settings for it from the dropdown menu.
+1. If you have an account with multiple members, but you want to remove one, you should switch to the account and then visit the settings for it from the menu.
 
-    ![Visit settings for selected account](/files/account-switcher-2.jpg)
+    ![Visit settings for selected account](/files/account-switcher.jpg)
 
 1. From the main account settings screen, select the <label>Members</label> tab.
 
