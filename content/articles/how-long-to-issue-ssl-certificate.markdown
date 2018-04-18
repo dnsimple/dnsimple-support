@@ -16,7 +16,7 @@ For standard [single-name](/articles/ssl-certificates#standard-singlename) and [
 Occasionally, the issuance may take longer and require up to several days. This is the case when some issue occurs during the issuance or validation. Common issues are:
 
 - misconfiguration of the domain
-- CAA records preventing the validation and issuance
+- [CAA records](/articles/caa-record) preventing the validation and issuance
 - issues in the email approval
 
 <warning>
@@ -32,5 +32,5 @@ For [Let's Encrypt](/articles/ssl-certificates#letsencrypt) certificates the iss
 If the order is taking longer, it is generally because of a possible issuance problem such as:
 
 - misconfiguration of the domain
-- misconfiguration of DNSSEC for the domain
-- CAA records preventing the issuance
+- misconfiguration of [DNSSEC](/articles/dnssec/#troubleshooting-dnssec-configurations) for the domain
+- [CAA records](/articles/caa-record) preventing the issuance
