@@ -29,7 +29,7 @@ In most cases, the purchase process can get stuck because the certificate is nev
 
 For [Let's Encrypt](/articles/ssl-certificates#letsencrypt) certificates the issuance is generally between 30 minutes and 1 hour.
 
-If the order is taking longer, it is generally a synthom or some issuance issue such as:
+If the order is taking longer, it is generally because of a possible issuance problem such as:
 
 - misconfiguration of the domain
 - misconfiguration of DNSSEC for the domain
