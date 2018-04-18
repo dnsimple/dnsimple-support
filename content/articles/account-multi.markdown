@@ -27,7 +27,7 @@ Managing multiple accounts is a flexible way to access different levels of servi
 If you would like to add another account to your user profile, you should take the following steps.
 
 <div class="section-steps" markdown="1">
-1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the dropdown menu.
+1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the menu.
 
     ![Settings link](/files/access-user-settings.jpg)
 
@@ -48,7 +48,7 @@ If you would like to add another account to your user profile, you should take t
 
 ## Switching active accounts
 
-Switching account context is very simple. Select the account you'd like to use from the dropdown menu.
+Switching account context is very simple. Select the account you'd like to use from the menu.
 
   ![Switch account](/files/account-switcher.jpg)
 
