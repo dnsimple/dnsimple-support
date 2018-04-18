@@ -49,6 +49,6 @@ SSL certificates are available in three flavors:
 
 - Single-host SSL certificates ($20 per year)
 - Wildcard certificates ($100 per year)
-- Let’s Encrypt SSL certificates 
+- Let's Encrypt SSL certificates 
 
 Learn more about [DNSimple certificates](/articles/ssl-certificates).
