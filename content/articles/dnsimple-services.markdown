@@ -21,13 +21,14 @@ As a DNSimple customer you do not need to use our domain registration services i
 
 ## Powerful Automation API
 
-With the DNSimple REST API you can register domain names and administrate them directly from your own scripts. We have a repositoray filled with examples so you can get up and running right away. Some of the things you can do with our API include:
+With the DNSimple REST API you can register domain names and administrate them directly from your own scripts. We have a [repository filled with API examples](https://github.com/dnsimple/dnsimple-api-examples) so you can get up and running right away. Some of the things you can do with our API include:
 
 - Check domain availability
 - Register and renew domains
 - Transfer domains
 - Buy SSL certificates
-- List and Manage Records 
+- List and Manage Records
+- Register to events using [webhooks](https://dnsimple.com/webhooks) to receive notification of changes
 
 Read up on our [API features and abilities](https://dnsimple.com/api).
 
