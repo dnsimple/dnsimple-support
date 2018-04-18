@@ -45,7 +45,7 @@ See a complete list of our [One Click Services](https://dnsimple.com/services).
 
 ## SSL Certificates
 
-SSL certificates are available in two flavors:
+SSL certificates are available in three flavors:
 
 - Single-host SSL certificates ($20 per year)
 - Wildcard certificates ($100 per year)
