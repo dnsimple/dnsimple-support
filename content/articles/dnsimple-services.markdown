@@ -1,6 +1,6 @@
 ---
 title: DNSimple Services
-excerpt: DNSimple provides services every system connected to the internet needs-such as hosted DNS, domain registration, automation API, and SSL certificates.
+excerpt: DNSimple provides several services that every system connected to the internet needs—such as hosted DNS, domain registration, a powerful automation API, One Click DNS Services, and SSL certificates.
 categories:
 - DNSimple
 ---
