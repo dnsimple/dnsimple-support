@@ -48,7 +48,7 @@ When a domain is in the redemption status, the registrar will apply a mandatory 
 TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc. may not follow the rules mentioned above. Specifically, they may or may not provide a grace period and a redemption period, and if they do the length of the period may be different.
 
 <note>
-Examples of non-ICANN TLDs having different rules would be the `.ES` and `.FR` ccTLDs which have domain specific deletion dates. `.ES` has a deletion day of -12, and `.FR` has a deletion day of -10. This means that unless the domain is auto-renewed in advance, the domain is deleted from the registry respectively 12 days before the effective expiration (for `.ES`), and 10 days before the expiration (for `.FR`). There is no grace period for these domains.
+Note: ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
 </note>
 
 Moreover, some TLDs have no additional periods after the expiration and they are immediately deleted.
