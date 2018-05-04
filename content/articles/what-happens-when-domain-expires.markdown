@@ -43,10 +43,12 @@ When a domain is in the redemption status, the registrar will apply a mandatory 
 
 "Pending Delete" refers to the 5-day time frame after redemption. During this time the registry holds the domain and it cannot be recovered. Once the Registry deletes the domain, it becomes available for anyone to purchase as a new domain. It is available on a first-come first-served basis.
 
-## Not-ICANN TLDs
+## Non-ICANN TLDs
 
 TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc. may not follow the rules mentioned above. Specifically, they may or may not provide a grace period and a redemption period, and if they do the length of the period may be different.
 
+<note>
+Note: ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
+</note>
+
 Moreover, some TLDs have no additional periods after the expiration and they are immediately deleted.
-
-
