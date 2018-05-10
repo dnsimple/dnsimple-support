@@ -1,5 +1,5 @@
 ---
-title: Add, Update, and Remove a CAA records
+title: Add, Update, and Remove CAA records
 excerpt: Instructions to add, update, and remove a CAA record in DNSimple.
 categories:
 - DNS
@@ -20,11 +20,12 @@ This article describes a feature that is only available to the [new plans](/arti
 
 You can manage [CAA records](/articles/caa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assumes you are familiar with the [CAA record format](/articles/caa-record#caa-record-format) and usage.
+The instructions in this article assumes you are familiar with the [CAA record format](/articles/caa-record#record-format) and usage.
 
 <note>
 CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We currently do not support transferring CAA records to secondary name servers.
 </note>
+
 
 ## Standard mode vs Custom mode
 
@@ -35,7 +36,9 @@ The DNSimple interface allows you to manage CAA records using two different mode
 
 We currently do not support the ability to specify via interface the destructured CAA record value representation; in other words you cannot enter the following text:
 
-    0 issue "letsencrypt.com"
+```
+0 issue "letsencrypt.com"
+```
 
 
 ## Add a CAA record
@@ -53,13 +56,13 @@ We currently do not support the ability to specify via interface the destructure
 
     ![](/files/record-caa-create-new.png)
 
-    - The _Name_ is the subdomain you want to create the record for, without the domain name. For example, if you want to represent `wwww.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
-    - The _Provider_ is the Certificate Authority you want to allow.
-    - The _Certificate type_ is the type you want to allow.
+    - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
+    - _Provider_: the Certificate Authority you want to allow.
+    - _Certificate type_: the type you want to allow.
 
     As any other DNS record, you can configure:
 
-    - The _TTL_ is the record time-to-live.
+    - _TTL_: the record time-to-live.
 
     Once ready, click <label>Add Record</label> to confirm and create the record.
 
@@ -75,7 +78,7 @@ We currently do not support the ability to specify via interface the destructure
 <div class="section-steps" markdown="1">
 #### To update a CAA record
 
-1.  In the record editor, search the record and click on the Pencil icon to edit it.
+1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-caa-item-edit.png)
 
@@ -88,9 +91,9 @@ We currently do not support the ability to specify via interface the destructure
 <div class="section-steps" markdown="1">
 #### To remove a CAA record
 
-1.  In the record editor, search the record and click on the Trash icon to delete it.
+1.  In the record editor, search the record and click on the _trash_ icon to delete it.
 
-    ![](/files/record-url-item-delete.png)
+    ![](/files/record-caa-item-delete.png)
 
 1.  Confirm the dialog to delete the record.
 </div>
