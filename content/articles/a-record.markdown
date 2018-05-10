@@ -26,6 +26,31 @@ A Records are the simplest type of DNS records, yet one of the primary records u
 
 You can actually do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
 
+The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
+
+
+## A record format {#record-format}
+
+The structure of an A record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed by one single element:
+
+|:--------|:-------------------------------------------------------|
+| address | A 32 bit Internet address representing an IPv4 address |
+
+Hosts that have multiple Internet addresses will have multiple A records.
+
+The canonical representation is:
+
+```
+A <address>
+```
+
+In DNSimple, the A record is represented by the following customizable elements:
+
+|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
+| name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
+| TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
+| address | The IPv4 address the A record points to.                                                                                                   |
+
 
 ## Querying A records
 
@@ -52,18 +77,7 @@ api.dnsimple.com.	59	IN	A	208.93.64.253
 ;; MSG SIZE  rcvd: 50
 ```
 
-## A record format
 
-In DNSimple we represent A record with the following information:
+## Manage A records
 
-|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| Name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
-| TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
-| Address | The IPv4 address the A record points to.                                                                                                   |
-
-![A record in the DNSimple record editor](/files/record-type-a.png)
-
-
-## Add an A record
-
-You can create, update and delete A records for your domain using the [DNSimple record editor](/articles/record-editor).
+From the DNSimple record editor you can [add, remove, and update A records](/articles/manage-a-record).
