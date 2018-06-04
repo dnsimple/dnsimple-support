@@ -60,8 +60,9 @@ The approval email typically can be sent to the following addresses, called admi
 
 Where `example.com` is the domain for the certificate being purchased.
 
-Alternatively, **the approval email can be sent to a different email address only if this is listed in the WHOIS information for the domain**. In fact, this is the only way for the Certificate Authority to determine if an email is officially associated with a domain.
+## Email validation and GDPR
 
+Due to the new privacy rules enacted by GDPR, you can no longer use a custom email address listed in your WHOIS data as it is masked out for privacy. You will have to select from the provided list above to send the validation email.
 
 ## Email validation and WHOIS privacy {#whois-privacy}
 
