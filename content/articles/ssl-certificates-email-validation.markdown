@@ -62,7 +62,7 @@ Where `example.com` is the domain for the certificate being purchased.
 
 ## Email validation and GDPR
 
-Due to the new privacy rules enacted by GDPR, you can no longer use a custom email address listed in your WHOIS data as it is masked out for privacy. You will have to select from the provided list above to send the validation email.
+Due to the new privacy rules enacted by [GDPR](https://medium.com/@GDPR_alliance/the-general-data-protection-regulation-gdpr-in-a-nutshell-2f02290dbd0d) on May 25th 2018, you can no longer use a custom email address listed in your WHOIS data as it is masked out for privacy. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate. You will have to select from the provided list above to send the validation email instead.
 
 ## Email validation and WHOIS privacy {#whois-privacy}
 
