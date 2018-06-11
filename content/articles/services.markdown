@@ -18,18 +18,44 @@ categories:
 
 Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
 
-We currently support more than 30 services! Here are the most recognized ones:
+We currently support more than 30 services! 
+Here they are in alphabetical order:
 
 * Amazon Web Services
+* Atmail
+* Blackbell
+* Blogger
 * [Cloudflare](/articles/cloudflare-service)
+* Divio
+* Fanout
+* Fastly
+* Fastmail
+* Format
+* Geniuslink
 * GitHub pages
 * [Google Apps](/articles/google-apps-service)
 * Heroku
+* Jimdo
+* Kickofflabs
+* Launchrock
 * Mailgun
+* Netlify
+* Office365
+* Paperplane
+* Pobox
+* Rackspace email
 * Shopify
-* Wordpress
+* Simplybuilt
 * Squarespace
+* Supadupa
+* Surge
+* Tender support
+* Tumblr
+* URL forwarding
+* Webflow
+* Weebly
 * Windows Azure
+* Wordpress
 
 <callout>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
