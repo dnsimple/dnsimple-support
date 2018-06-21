@@ -123,7 +123,7 @@ If the approver is not in this list or you need time to configure one of those e
 
 If you selected an incorrect email recipient, you can request the email to be changed as long as the email address meets the [requirements](#requirements) described above.
 
-The certificate must be in the submitted state. If instead you still need to submit the certificate and the email address you want to use doesn't snow up in the list, then follow the instructions to [select a different email](#different-email).
+The certificate must be in the submitted state. If instead you still need to submit the certificate and the email address you want to use doesn't snow up in the list, then follow the instructions to [select a different email](#select-email).
 
 <div class="section-steps" markdown="1">
 ##### To change the approval email
