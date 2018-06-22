@@ -42,3 +42,7 @@ postmaster@your-domain
 Some email services let you create an alias email address, so you don't have to monitor an extra inbox just for this.
 
 - If your domain is not configured to receive email, you can use our [email forwarding feature](/articles/email-forwarding/) and delete the forward once the certificate is issued.
+
+## Domain transfer validation
+
+Some domain registrar require an extra step before initiating a transfer. They send an email to validate the ownership of the domain to the available WHOIS email address. Since the WHOIS email is now masked, you need to work with the new registrar to find an alternative to the email validation.
