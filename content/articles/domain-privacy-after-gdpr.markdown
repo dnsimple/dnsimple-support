@@ -1,6 +1,6 @@
 ---
 title: Domain privacy after GDPR
-excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
+excerpt: GDPR impacts available WHOIS information. Learn about the consequences of this law that came into effect on May 25th 2018.
 categories:
 - Whois Privacy
 ---
