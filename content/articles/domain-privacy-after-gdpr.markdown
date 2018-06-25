@@ -25,7 +25,7 @@ WHOIS queries are useful to identify ownership of a domain. However, spammers ta
 
 ## WHOIS after GDPR
 
-With GDPR, starting on May 25th 2018, even if you opted out of WHOIS privacy, your information is protected. This is great to avoid spam, but it can make other tasks harder since a WHOIS query can no longer identify you as the owner of a domain.
+With GDPR, starting on May 25th 2018, even if you opted out of WHOIS privacy, your information is protected on certain country-code TLDs. For example, a .FR domain is protected by GDPR, but a .US domain is not. WHOIS privacy is great to avoid spam, but it can make other tasks harder since a WHOIS query can no longer identify you as the owner of a domain.
 
 ## Certificate validation
 
