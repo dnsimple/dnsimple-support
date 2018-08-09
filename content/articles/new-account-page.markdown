@@ -105,5 +105,7 @@ Webhooks allow any application that can listen to HTTPS POSTs to receive notific
 
 Post announcements in your team's Slack channel. Listen for auto-renewal events and automatically handle billing your customers for those renewals. These are just a few examples of how you can use Webhooks to create better integrations with DNSimple and make your domains simpler to operate and grow.
 
+[Webhooks developer documentation](https://developer.dnsimple.com/v2/webhooks/)
+
 ![Webhooks](/files/new-account-webhooks.png)
 
