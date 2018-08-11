@@ -14,4 +14,4 @@ Our Anycast network consists of 6 points-of-presence around the world:
 * Washington DC, US
 * Amsterdam, Netherlands
 * Tokyo, Japan
-- Sydney, Australia
+* Sydney, Australia
