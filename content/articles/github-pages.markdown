@@ -8,6 +8,13 @@ categories:
 
 # Pointing your apex domain to GitHub Pages
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Your domain apex is the second or third level domain provided to you by your domain registrar. For example, dnsimple.com is the root domain for DNSimple.
 
 To point your root domain to your GitHub Pages you have two options:
