@@ -1,11 +1,11 @@
 ---
-title: Services
+title: One-click Services
 excerpt: Services are DNS snippets ready for you to use in one click.
 categories:
 - Services
 ---
 
-# Services
+# One-click Services
 
 ### Table of Contents {#toc}
 
@@ -61,6 +61,7 @@ Here they are in alphabetical order:
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
 </callout>
 
+
 ## Adding a service
 
 To add a service, simply navigate to your domain, and on the services sidebar, select "DNS".
@@ -90,3 +91,9 @@ Find the service from the list of "Applied one-click services" that you want to 
 
 ![Service list remove](/files/services-list-remove.png)
 
+
+## Contributing a new service
+
+Services are defined in an open-source repository on GitHub. This project may be forked and updated by you to add a new service. Once you have added the files required for your service, issue a pull request so we can review it and deploy it.
+
+Please visit https://github.com/dnsimple/dnsimple-services for full instructions.
