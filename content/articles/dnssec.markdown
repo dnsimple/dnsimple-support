@@ -76,7 +76,11 @@ DNSimple currently rotates both key signing keys and zone signing keys every 90 
 
 As stated above, if your domain is both registered with us and uses our authoritative name servers, then we will handle rotation of keys automatically. If not, then you will receive an email notification whenever key rotation starts, with the new DS record, which you will need add through your domain registrar.
 
-Warning: please consider carefully whether you are able and willing to rotate DS records at your registrar if your domain is not registered with DNSimple. It is essential that DS records are updated whenever DNSSEC keys are rotated in your DNSimple zone. If you do not update your DS record when your keys change, then your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
+<warning>
+#### Failure to update the DS record at your registrar will result in downtime
+
+Please consider carefully whether you are able and willing to rotate DS records at your registrar if your domain is not registered with DNSimple. It is essential that DS records are updated whenever DNSSEC keys are rotated in your DNSimple zone. If you do not update your DS record when your keys change, then your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
+</warning>
 
 ## Troubleshooting DNSSEC configurations
 
