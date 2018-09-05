@@ -1,7 +1,7 @@
 (function($){
 
   var parseQueryParams = function() {
-    return window.location.search.substring(3).replace(/\+/g, " ");
+    return decodeURIComponent(window.location.search.substring(3).replace(/\+/g, " "));
   };
 
   $resultList = $("#js-result-list");
