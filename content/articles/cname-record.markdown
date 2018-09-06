@@ -32,3 +32,5 @@ For example, if the domain were `example.com` and you wanted `www.example.com` t
 To understand the error, it is important to understand that a CNAME points a whole subdomain to another name in the domain name system. If you have another record on that subdomain you can't add a CNAME, as that CNAME would render the other records useless. Let's look at an example:
 
 Let's assume there is an MX record on email.example.com and now you try to add a CNAME on that exact subdomain (email.example.com) that would produce that error because there is already that MX record.
+
+You can achive a similar behavior as a CNAME with a ALIAS record, so if you want a sub-domain always resolve to the IP address of another domain, you can use a ALIAS record pointing to that domain.
