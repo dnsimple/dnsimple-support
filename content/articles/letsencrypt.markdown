@@ -23,13 +23,13 @@ This article describes a feature that is only available to the [new plans](/arti
 
 ---
 
-[Let's Encrypt](https://letsencrypt.org/) is a new [certificate authority](/articles/what-is-certificate-authority) that joined the scenes in late 2015, and became an official member of the CA/B forum in 2016.
+[Let's Encrypt](https://letsencrypt.org/) is a new [certificate authority](/articles/what-is-certificate-authority) that joined the scenes in late 2015 and became an official member of the CA/B forum in 2016.
 
 Let's Encrypt is an innovative certificate authority from several point of views. The 3 most distinguishing characteristics, as listed on their homepage are _free_, _automated_, and _open_.
 
-- free: Let's Encrypt SSL certificates are free; they don't charge per certificate
-- automated: Let's Encrypt issuance process is fully automated. They developed a new issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) that is designed to be fully automated, with no manual intervention
-- open: the source code of the Let's Encrypt certification authority is completely open source, and available in a [GitHub account](https://github.com/letsencrypt). This is by far the most unique characteristic of this CA.
+- free: Let's Encrypt SSL certificates are free; they don't charge per certificate.
+- automated: Let's Encrypt issuance process is fully automated; they developed a new issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) that is designed to be fully automated, with no manual intervention.
+- open: the source code of the Let's Encrypt certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt). This is by far the most unique characteristic of this CA.
 
 
 ## Differences between Let's Encrypt and Standard SSL certificates
@@ -50,12 +50,12 @@ The table below summarizes the most important differences between Let's Encrypt 
 
 ## Let's Encrypt highlights
 
-Let's Encrypt is quite different than most traditional certificate authorities. Here are a few relevant notes and limitations that you may want to keep in mind, before requesting one of their SSL certificates:
+Let's Encrypt is quite different than most traditional certificate authorities. Here are a few relevant notes and limitations that you may want to keep in mind before requesting one of their SSL certificates:
 
 - Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support OV or EV certificates.
 - Let's Encrypt supports both single-name and wildcard names.
-- A single Let's Encrypt certificate can include up to 100 SAN names, names can be an enumeration of either single-name, wildcard names or both.
-- Let's Encrypt certificates have fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, therefore it won't be possible to obtain 1-year or [multi-year](/articles/can-multi-year-ssl-certificates) SSL certificates.
+- A single Let's Encrypt certificate can include up to 100 SAN names; names can be an enumeration of either single-name, wildcard names or both.
+- Let's Encrypt certificates have a fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, therefore it won't be possible to obtain 1-year or [multi-year](/articles/can-multi-year-ssl-certificates) SSL certificates.
 - Although Let's Encrypt is a new authority, their SSL certificates are [compatible with major browsers](https://letsencrypt.org/docs/certificate-compatibility/) and [trusted by all major root programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html).
 - Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They do not support traditional [email-based validation](/articles/ssl-certificates-email-validation).
 - Let's Encrypt is currently [rate-limiting](https://letsencrypt.org/docs/rate-limits/) requests. Make sure to understand their limits before requesting a large number of certificates.
@@ -84,7 +84,7 @@ Although Let's Encrypt certificates can be installed manually, the entire proces
 
 ## Products
 
-Let's Encrypt currently provides only one type of certificate: they issue only domain-validated, SAN certificates and the support both single-name and wildcard names.
+Let's Encrypt currently provides only one type of certificate; they issue only domain-validated, SAN certificates and support both single-name and wildcard names.
 
 Single-name certificates can be considered a special type of multi-name certificates, with a single name associated with it. Therefore, Let's Encrypt offering is both a multi-name and single-name.
 
@@ -101,7 +101,7 @@ Note that not all Let's Encrypt features are currently supported by DNSimple. So
 - We do not currently support the ability to include names from different domains in the same certificate SAN. Instead, we only support same-domain names (subdomains).
 - We do not currently support custom CSR or private key while requesting a new certificate. The CSR will be generated by DNSimple, based on the domains specified in the certificate order.
 - We do not currently support Let's Encrypt wildcard certificates. We are currently investigating the changes required to support this feature.
-- In order to use our Let's Encryot integration, the domain must be resolving with us as we will automatically create the DNS records required for the validation.
+- In order to use our Let's Encrypt integration, the domain must be resolving with us, as we will automatically create the DNS records required for the validation.
 
 <callout>
 If you are interested in a wildcard certificate, DNSimple [offers wildcard certificates](/articles/ssl-certificates/#standard-wildcard) using a different certificate authority.
