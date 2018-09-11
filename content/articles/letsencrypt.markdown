@@ -115,7 +115,6 @@ Let's Encrypt feature support varies based on your [DNSimple subscription plan](
 - You can request as many certificates as you want, as long as you stay within Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
 - Depending on your plan, you will be able to specify your custom subdomains, or it will be defaulted to www/root domain. Please view [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with subdomains.
 - Depending on your plan, you can customize the certificate SAN with up to 100 extra names for a single certificate. Please view [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with SAN.
-- Remember that Let's Encrypt doesn't support wildcard certificates, and we currently only support subdomains (it's not possible to add names from different domains).
 
 
 ## Testing
