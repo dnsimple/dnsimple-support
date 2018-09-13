@@ -7,6 +7,13 @@ categories:
 
 # Subscription Renewals
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Depending on the billing cycle of the plan you are subscribed to your subscription will be renewed monthly or yearly. The payment for the renewal will be charged to the credit card on file. The amount will depend on 3 factors:
 - The plan you are subscribed to.
 - The number of extra domains you have in your account.
@@ -38,7 +45,7 @@ If you know that you won't be able to provide a valid credit card number before 
 </note>
 
 
-### What happens if my subscription is canceled
+## What happens if my subscription is canceled
 
 When your account is canceled because of too many failed renewal attempts you will receive a notification:
 
