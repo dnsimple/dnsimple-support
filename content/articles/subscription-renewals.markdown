@@ -14,7 +14,10 @@ categories:
 
 ---
 
-Depending on the billing cycle of the plan you signed up for your subscription will be renewed either monthly or yearly. The payment for the renewal will be charged to the credit card on file. The amount will depend on 3 things:
+Depending on the billing cycle of the plan you signed up for your subscription will be renewed either monthly or yearly. The payment for the renewal will be charged to the card on file or, in case you have an a subscription credit, deducted from from the credit balance.
+
+The amount to be charged depends on:
+
 - The price of the plan you are subscribed to.
 - The number of extra domains you have in your account.
 - The number of domains that have email forwards configured.
@@ -32,7 +35,7 @@ When the renewal of your subscription is successfully processed we will send you
 
 When your subscription renewal payment fails you will receive a dunned invoice and an email that will include details about the failure.
 
-If this happens please don't panic: your account will not be canceled and your domains will continue to resolve. We are well aware that credit cards expire and wallets are lost. That's why we give our customers plenty of time to resolve their payment issues. Since the first failed payment attempt **you have 20 days to settle your balance**.
+If this happens please don't panic: your account will not be canceled and your domains will continue to resolve. We are well aware that credit cards expire and wallets are lost. That's why we give our customers plenty of time to resolve their payment issues. Since the first failed payment attempt **you have 20 days to finalize the payment**.
 
 **Our system will try to renew the subscription and collect the payment daily** during that period. You will be notified about the outcome of these attempts.
 
@@ -41,7 +44,7 @@ You won't be able to manually retry the payments for subscription renewal fees. 
 </note>
 
 <note>
-If you know that you won't be able to provide a valid credit card number before your subscription gets canceled, please contact us on [support@dnsimple.com](mailto:support@dnsimple.com).
+If you know that you won't be able to provide a valid card number before your subscription gets canceled, [please contact us](https://dnsimple.com/contact).
 </note>
 
 
