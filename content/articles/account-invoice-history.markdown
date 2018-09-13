@@ -21,15 +21,11 @@ It is possible to view your payment history and retry failed invoices manually i
 <div class="section-steps" markdown="1">
 ##### To view account's invoice history
 
-1. On the top right menu, choose the account that you want to see the invoice history for and click on the cog.
+1. On the top right menu, choose the account that you want to see the invoice history for.
 
     ![Account settings link](/files/account-settings-access.jpg)
 
-1. On the account's settings page, click on <label>Billing</label> on the left menu.
-
-    ![Billing tab](/files/account-billing-tab.png)
-
-1. Scroll down to the <label>Invoices</label> section and click on <label>View invoice history</label>.
+1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking on the last invoice section.
 
     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
