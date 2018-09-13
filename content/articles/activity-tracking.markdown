@@ -30,7 +30,7 @@ Domain level activity tracking can be found under the domain’s manage page.
 
 ## Activity tracking at the account level
 
-Account level activity tracking can be found under the account page.
+Account level activity tracking can be found under the account page. Scroll down to the activity section.
 
 ![Activity Tracking at account level](/files/activity-tracking-3.png)
 ![Activity Tracking at account level](/files/activity-tracking-4.png)
