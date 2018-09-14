@@ -39,9 +39,9 @@ If you would like to add another account to your user profile, you should take t
 
     ![Add New Account form](/files/add-new-account-form.png)
 
-1. Once you've submitted the new account form, the account is created and you are free to activate it by clicking the <label>Select a plan</label>. You may also configure other parts of your account from the top navigation menu before activating your account.
+1. Once you've submitted the new account form, the account is created and you are free to activate it by clicking the <label>Select plan</label>. You may also configure other parts of your account from the top navigation menu before activating your account.
 
-    ![Add New Account details](/files/add-new-account-details.jpg)
+    ![Add New Account details](/files/add-new-account-details.png)
 
 </div>
 

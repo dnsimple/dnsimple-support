@@ -18,11 +18,8 @@ All your domains and records will remain in your account. You will also be able 
 
 1.  Log into DNSimple with your user credentials.
 1.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
-1.  Switch to the <label>Billing</label> tab.
 
-    ![Account Billing tab](/files/account-billing-tab.png)
-
-1.  Scroll down until you see the <label>Unsubscribe</label> section.
+1.  Scroll down to the end of the page to find the <label>Unsubscribe</label> section.
 
     ![Unsubscribe section](/files/account-unsubscribe.png)
 

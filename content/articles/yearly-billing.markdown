@@ -17,11 +17,7 @@ Even if you initially subscribe to one of our monthly plans you can switch to on
 
 1.  Log into DNSimple with your user credentials.
 1.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
-1.  Switch to the <label>Billing</label> tab.
-
-    ![Account Billing tab](/files/account-billing-tab.png)
-
-1.  Click on the <label>Switch to yearly billing</label> link:
+1.  Click on the <label>Change</label> link on your plan section.
 
     ![Change billing period](/files/account-billing-period-switch-yearly-link.png)
 

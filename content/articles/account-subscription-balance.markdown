@@ -17,7 +17,7 @@ The account page has a full section dedicated to relevant information about your
 
   It is broken up by the 3 different components that you may be charged for: _plan price_, _extra zones_ and _email forwards_.
 
-- **Current balance**
+- **Subscription balance**
   The current balance of your account. This number can be:
   - _Zero_. Indicating that your account is up to date.
   - _Balance due_. Indicating that we couldn't get the payment for your latest subscription renewal fee.
@@ -33,9 +33,9 @@ The account page has a full section dedicated to relevant information about your
 
     ![User Settings Account Selection](/files/user-account-selection.jpg)
 
-1.  Switch to the <label>Billing</label> tab.
+1.  On the account page, your account's balance will be visible at the top of the page.
 
-    ![Account Billing Tab](/files/account-balance.jpg)
+    ![Account Billing section](/files/account-balance.png)
 
 </div>
 
