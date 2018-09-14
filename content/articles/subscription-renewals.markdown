@@ -28,7 +28,7 @@ If you want to know the exact amount you will be charged in your next renewal, a
 
 ## What happens when my subscription is renewed
 
-When the renewal of your subscription is successfully processed, we will send you an invoice, and the service will be extended for the duration of your plan's billing cycle: either 1 month or 1 year.
+When your subscription renewal is successfully processed, we will send you an invoice, and the service will be extended for the duration of your plan's billing cycle: either 1 month or 1 year.
 
 
 ## What happens when the payment for the renewal fails
