@@ -33,7 +33,7 @@ When your subscription renewal is successfully processed, we will send you an in
 
 ## What happens when the payment for the renewal fails
 
-If your subscription renewal payment fails, you will receive a dunned invoice and an email includes details about the failure.
+If your subscription renewal payment fails, you will receive a [dunned invoice](/articles/account-invoice-history/#invoice-state-dunned) and an email includes details about the failure.
 
 If this happens, please don't panic. Your account will not be canceled, and your domains will continue to resolve. We are well aware that credit cards expire and wallets get lost; that's why we give our customers plenty of time to resolve their payment issues. From the first failed payment attempt **you have 20 days to finalize the payment**.
 
