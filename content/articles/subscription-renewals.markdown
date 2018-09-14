@@ -23,7 +23,7 @@ The amount to be charged depends on:
 - The number of domains that have email forwards configured.
 
 <note>
-If you want to know the exact amount you will be charged in your next renewal and when your subscription is due to renew, you can find this information on [the account page](/articles/new-account-page/#plan-breakdown).
+If you want to know the exact amount you will be charged in your next renewal, and when your subscription is due to renew, you can find this information on [the account page](/articles/new-account-page/#plan-breakdown).
 </note>
 
 ## What happens when my subscription is renewed
@@ -50,6 +50,6 @@ If you know that you won't be able to provide a valid card number before your su
 
 ## What happens if my subscription is canceled
 
-When your subscription is canceled because of too many failed renewal attempts you will be immediately notified by email, and the services DNSimple provides will stop. [This support article](/articles/what-happens-if-i-stop-paying) explains what you can expect in this situation.
+When your subscription is canceled because of too many failed renewal attempts, you will be immediately notified by email, and the services DNSimple provides will stop. [This support article](/articles/what-happens-if-i-stop-paying) explains what you can expect in this situation.
 
-Keep in mind that even if your subscription is canceled you will allways be able to [reactivate it](/articles/reactivate-subscription).
+Keep in mind even if your subscription is canceled, you will always be able to [reactivate it](/articles/reactivate-subscription).
