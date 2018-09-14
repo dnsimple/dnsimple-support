@@ -19,7 +19,7 @@ Depending on the billing cycle of the plan for which you signed up, your subscri
 The amount to be charged depends on:
 
 - The price of the plan you are subscribed to;
-- The number of extra domains you have in your account; and,
+- The number of extra domains you have in your account; and
 - The number of domains that have email forwards configured.
 
 <note>
