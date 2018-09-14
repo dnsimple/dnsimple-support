@@ -35,7 +35,7 @@ When the renewal of your subscription is successfully processed, we will send yo
 
 If your subscription renewal payment fails, you will receive a dunned invoice and an email that will include details about the failure.
 
-If this happens please don't panic: your account will not be canceled; and, your domains will continue to resolve. We are well aware that credit cards expire and wallets are lost; that's why we give our customers plenty of time to resolve their payment issues. Since the first failed payment attempt **you have 20 days to finalize the payment**.
+If this happens please don't panic: your account will not be canceled, and your domains will continue to resolve. We are well aware that credit cards expire and wallets are lost; that's why we give our customers plenty of time to resolve their payment issues. Since the first failed payment attempt **you have 20 days to finalize the payment**.
 
 **Our system will try to renew the subscription and collect the payment daily** during that period. You will be notified about the outcome of these attempts.
 
