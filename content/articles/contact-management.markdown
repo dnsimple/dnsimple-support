@@ -36,12 +36,6 @@ If a contact is associated with a domain, updating that contact updates all the 
 
 If you wish to update a specific domain only, you can either [replace the contact entirely](/article/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact) like we just mentioned to make that change.
 
-### Domain registrant change and ICANN transfer lock
-
-If the contact is associated with multiple domains, we'll notify you of which domains could potentially be locked for 60 days due to the new [ICANN policies](/articles/icann-60-day-lock-registrant-change/).
-
-![locked domains](/files/contact-lock.png)
-
 ### Deleting a contact
 
 If a contact is associated with at least one domain or SSL certificate, this contact cannot be deleted. You would need to remove all associated domains or SSL certificates with the contact before being able to delete it.
