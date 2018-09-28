@@ -14,7 +14,7 @@ categories:
 
 ---
 
-UK and CO.UK domains have a slightly different transfer process than most other domain registrations. This document explains some of those differences.
+UK and CO.UK domains have a different transfer process than most other domain registrations. This document explains some of those differences.
 
 ## Before you start
 
@@ -66,8 +66,6 @@ Generally, we suggest pointing [your domain to our name servers before the trans
 
 ### Expiration extension
 
-UK and CO.UK domains will be extended the minimum required extension period of 2 years once they are successfully transferred.
-
-The price of this extension is included in the transfer fee.
+UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years. The price of this extension is included in the transfer fee.
 
 
