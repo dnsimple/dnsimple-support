@@ -1,0 +1,70 @@
+---
+title: Search, but instantly!
+---
+
+<style>
+.aa-input {
+  padding: 4px 6px;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+}
+
+.algolia-autocomplete {
+  width: 100%;
+}
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 100%;
+}
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-top: none;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #B2D7FF;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+</style>
+
+<h2 style="padding-top: 30px;">👋 Hello, this is autocomplete for this support site</h2>
+<p>This search is powered by <a href="https://www.algolia.com/">Algolia</a>. They provide super fast searching.</p>
+<p>I uploaded manually our <code>search.json</code> and created an index to search on article title and body. This could eventually replace the search on the navigation bar.</p>
+
+<input id="search-input" name="contacts" type="text" placeholder='Search by name' />
+
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+
+<!-- Initialize autocomplete menu -->
+<script>
+var client = algoliasearch('VGU6IK1V9Q', '01d3d978d5919e60a0ebf825f6ced843');
+var index = client.initIndex('test_support');
+
+autocomplete('#search-input', { hint: false }, [
+  {
+    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+    displayKey: 'name',
+    templates: {
+      suggestion: function(suggestion) {
+        var index = suggestion._highlightResult.body.value.search(suggestion._highlightResult.body.matchedWords[0]);
+        var body = suggestion._highlightResult.body.value.substring(index - 10, index + 40);
+        return "<span>" + suggestion._highlightResult.title.value + "</span>" +
+          "<span style='font-size: 12px; display: block;'>" + body + "...</span>";
+      }
+    }
+  }
+]).on('autocomplete:selected', function(event, suggestion, dataset) {
+  window.location.href = suggestion.id;
+});
+</script>
