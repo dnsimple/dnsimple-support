@@ -66,6 +66,6 @@ Generally, we suggest pointing [your domain to our name servers before the trans
 
 ### Expiration extension
 
-UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years. The price of this extension is included in the transfer fee.
+UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your co.uk domain has 3 months or more remaining, then no extension will take place automatically. 
 
 
