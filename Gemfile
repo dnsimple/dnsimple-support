@@ -9,7 +9,7 @@ gem 'kramdown'
 gem 'mime-types'
 gem 'nokogiri'
 gem 'rouge'
-gem 'sass'
+gem 'sassc'
 gem 'systemu'
 gem 'thin', require: false
 
