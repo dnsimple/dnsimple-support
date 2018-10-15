@@ -11,13 +11,13 @@ DNSimple provides essential services for every Internet-connected system: domain
 
 ## DNS Hosting
 
-We bill our DNS hosting as a monthly service. If you sign up for or upgrade to a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
+We bill DNS hosting as a monthly service. If you sign up for or upgrade to a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
 
 ## Domain Registration
 
 We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the domain name. For more information, view the [domain pricing list](https://dnsimple.com/tlds).
 
-As a DNSimple customer you do not need to use our domain registration services in order to take advantage of our hosted DNS. If you want to use another registrar you may do so and just change your name servers to our name servers for domains that you want us to provide hosted DNS for.
+Want to use our DNS hosting, but not registration? You're welcome to use another registrar and simply change your name servers to our name servers. DNSimple customers don't need to use our domain registration services to take advantage of our hosted DNS.
 
 ## Powerful Automation API
 
