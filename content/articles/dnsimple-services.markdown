@@ -17,7 +17,7 @@ We bill DNS hosting as a monthly service. If you sign up for or upgrade to a yea
 
 We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the domain name. For more information, view the [domain pricing list](https://dnsimple.com/tlds).
 
-Want to use our DNS hosting, but not registration? You're welcome to use another registrar and simply change your name servers to our name servers. DNSimple customers don't need to use our domain registration services to take advantage of our hosted DNS.
+Want to use our DNS hosting, but not registration? You're welcome to use another registrar and simply change your name servers to our name servers. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
 
 ## Powerful Automation API
 
