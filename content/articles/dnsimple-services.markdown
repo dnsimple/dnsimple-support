@@ -21,7 +21,7 @@ Want to use our DNS hosting, but not registration? You're welcome to use another
 
 ## Powerful Automation API
 
-With the DNSimple REST API you can register domain names and administrate them directly from your own scripts. We have a [repository filled with API examples](https://github.com/dnsimple/dnsimple-api-examples) so you can get up and running right away. Some things you can do with our API include:
+With the DNSimple REST API you can register domain names and administrate them directly from your own scripts. We have a [repository filled with API examples](https://github.com/dnsimple/dnsimple-api-examples) so you can get up and running. Some things you can do with our API include:
 
 - Check domain availability
 - Register and renew domains
