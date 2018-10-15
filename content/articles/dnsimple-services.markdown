@@ -54,4 +54,4 @@ We provide three types of SSL Certificates:
 - Wildcard certificates ($100 per year)
 - Let's Encrypt SSL certificates 
 
-Learn more about [DNSimple certificates](/articles/ssl-certificates).
+Learn more about DNSimple certificates [here](/articles/ssl-certificates).
