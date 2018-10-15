@@ -20,7 +20,8 @@ To send a priority support email, fill out the [contact form](https://dnsimple.c
 
 ## Get a faster, more accurate response
 
-- Be sure to include your account email address if you are sending the email from a different email address than your account.
+- Send requests using the email associated with your account. 
+- If you send us an email from an address not associated with your account, include your account email address in the message.
 - Include the domain name(s) you're inquiring about.
 - Include the full domain name when inquiring about a certificate.
 - When reporting an error, include the steps you took prior to receiving the error message.
