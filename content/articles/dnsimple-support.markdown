@@ -14,7 +14,7 @@ Get in touch:
 
 ## Priority support
 
-If you have a Business subscription, you can count on prompt responses with priority support and a dedicated queue. 
+If you have a Business subscription, you have priority support and a dedicated queue for faster responses. 
 
 To send a priority support email, fill out the [contact form](https://dnsimple.com/contact) while logged in to your business account.
 
@@ -27,7 +27,7 @@ To send a priority support email, fill out the [contact form](https://dnsimple.c
 
 ## Typical response times 
 
-Monday - Friday: You should receive a response to any support request within 24 hours; it's often sooner. 
+Monday - Friday: You should receive a response within 24 hours - but it's often sooner. 
 
 Response times may be slower on weekends.
 
