@@ -60,9 +60,6 @@ The approval email typically can be sent to the following addresses, called admi
 
 Where `example.com` is the domain for the certificate being purchased.
 
-## Email validation and GDPR
-
-Due to the new privacy rules enacted by [GDPR](https://medium.com/@GDPR_alliance/the-general-data-protection-regulation-gdpr-in-a-nutshell-2f02290dbd0d) on May 25th 2018, you can no longer use a custom email address listed in your WHOIS data as it is masked out for privacy. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate. You will have to select from the provided list above to send the validation email instead.
 
 ## Email validation and WHOIS privacy {#whois-privacy}
 
@@ -79,6 +76,13 @@ Once you disable Whois Privacy it may take up to 24 hours for the email list to 
 </callout>
 
 
+## Email validation and GDPR {#gdpr}
+
+Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
+
+As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate. You will have to use one of the administrative emails provided by the Certification Authority.
+
+
 ## Select the validation email address {#select-email}
 
 You select the validation email when you purchase the certificate. You can use one of the emails available in the list displayed in the configuration page, selected by the Certificate Authority and based upon the constraints documented above. [What if the validation email you want to use is not included in this list?](/articles/how-to-different-ssl-domain-validation-email)
@@ -90,8 +94,8 @@ You select the validation email when you purchase the certificate. You can use o
 
     ![](/files/dnsimple-ssl-selectapprover.png)
 
-1.  Choose the email address you want to use by clicking on it.
-1.  Click *Send Approver Email* to configure and submit the certificate for validation.
+2.  Choose the email address you want to use by clicking on it.
+3.  Click *Send Approver Email* to configure and submit the certificate for validation.
 </div>
 
 If the approver is not in this list or you need time to configure one of those emails, you can also close this page and come back later.
