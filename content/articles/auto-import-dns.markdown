@@ -9,7 +9,7 @@ categories:
 
 Auto-importing DNS records can help you reduce downtime on your domain transfer or when hosting the DNS for your domain with us.
 
-Instead of entering manually DNS records or importing them in BIND format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
+Instead of entering manually DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
 
 We currently can import the following DNS record types:
 - A
