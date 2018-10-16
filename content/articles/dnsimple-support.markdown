@@ -38,4 +38,4 @@ We do not offer phone support.
 
 ## Twitter
 
-If you'd like to chat, say thanks, or share the love, give us a shout @dnsimple (https://twitter.com/dnsimple) on Twitter. We'd love to hear from you. 
+If you'd like to chat, say thanks, or share the love, give us a shout [@dnsimple](https://twitter.com/dnsimple) on Twitter. We'd love to hear from you. 
