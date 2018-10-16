@@ -18,7 +18,7 @@ If you have a Business subscription, you have priority support and a dedicated q
 
 To send a priority support email, fill out the [contact form](https://dnsimple.com/contact) while logged in to your business account.
 
-## Get a faster, more accurate response
+## Get faster, more accurate responses
 
 - Send requests using the email associated with your account. 
 - If you send us an email from an address not associated with your account, mention your account email address in the message.
@@ -38,4 +38,4 @@ We do not offer phone support.
 
 ## Twitter
 
-If you'd like to chat, say thanks, or share the love, feel free to mention our account on Twitter: [@dnsimple](https://twitter.com/dnsimple).
+If you'd like to chat, say thanks, or share the love, give us a shout @dnsimple (https://twitter.com/dnsimple) on Twitter. We'd love to hear from you. 
