@@ -7,7 +7,7 @@ categories:
 - API
 ---
 
-# What is drop catching?
+## What is drop catching?
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Domain_drop_catching):
 
@@ -17,7 +17,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Domain_drop_catching):
 
 No, you may not use DNSimple for drop catching domains.
 
-## Why do you not allow drop catching?
+## Why don't you allow drop catching?
 
 Our upstream domain registration provider limits the number of checks we are allowed to execute. If you attempt to engage in drop catching, this will impact all of our customers. 
 
