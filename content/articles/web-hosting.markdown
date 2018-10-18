@@ -8,9 +8,9 @@ categories:
 
 # Web Hosting Support
 
-At this time, we focus primarily on [domain management services](/articles/dnsimple-services), and we don't provide web hosting.
+We focus primarily on [domain management services](/articles/dnsimple-services), so we don't provide web hosting.
 
-If you are looking to transfer your domain and your registrar currently provides web hosting then you have a few options:
+If you want to transfer your domain, and your registrar currently provides web hosting, these are your options:
 
 1. Use a _platform as a service_ provider such as [Heroku](https://heroku.com/), [Azure](https://azure.microsoft.com/en-us/) or [Google Platform](https://cloud.google.com/)
 1. Use a cloud provider such as [Amazon EBS](https://aws.amazon.com/ebs/) or [DigitalOcean](https://www.digitalocean.com/)
@@ -18,4 +18,4 @@ If you are looking to transfer your domain and your registrar currently provides
 
 ## FTP credentials
 
-Because we don't host your application or files directly, we can't provide any FTP credential. Please refer to your application hosting provider to get information on how to access your content.
+Because we don't host your application or files directly, we can't provide any FTP credentials. Please refer to your application hosting provider for information on how to access your content.
