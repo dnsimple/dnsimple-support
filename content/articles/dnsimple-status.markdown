@@ -7,7 +7,7 @@ categories:
 
 # DNSimple Status Page
 
-We make our current system status, as well as our uptime history, available at [dnsimplestatus.com](http://dnsimplestatus.com).
+View our current system status and uptime history at [dnsimplestatus.com](http://dnsimplestatus.com).
 
 We strive to always have at least one name server responding to queries at all times.
 
