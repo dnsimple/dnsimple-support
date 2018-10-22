@@ -15,4 +15,3 @@ This can cause confusion to people without deep understanding of these technolog
 - Today the web is way more diverse and complex. There is a myriad of technologies available for creating websites. These technologies use several pieces of software to work, database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than some Megabytes of hard disk.
 - There is a lot of more useful websites for someone who needs a personal site.
 - The hosting service could only catter to a tiny fraction of our users that still make their HTML static websites.
-
