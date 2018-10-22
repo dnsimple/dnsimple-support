@@ -11,7 +11,7 @@ Domain registration with DNSimple is as easy as it gets. And there's no complica
 
 We make domain registration effortless:
 
-- Enter a name and verify that it's available.
+- Enter a name and verify it's available.
 - Select a registrant from your contacts or add a new contact.
 - For domains that require extended attributes (like .ca and .us), fill in the required fields.
 - Register the domain.
