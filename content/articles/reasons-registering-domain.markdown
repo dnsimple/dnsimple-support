@@ -7,20 +7,18 @@ categories:
 
 # Why should I register my domain name with DNSimple?
 
-Domain registration with DNSimple is designed to be quick and easy with no up-selling or hassles.
+Domain registration with DNSimple is as easy as it gets. And there's no complicated pricing or convoluted contracts.  
 
-Domain registration is a simple process:
+We make domain registration effortless:
 
-- Enter a name and verify that it is available.
+- Enter a name and verify it's available.
 - Select a registrant from your contacts or add a new contact.
 - For domains that require extended attributes (like .ca and .us), fill in the required fields.
 - Register the domain.
 
-Yes, it's really that easy. We won't try to sell you a bunch of other services when you register your domain.
+We keep things straightforward. All domains registered with DNSimple automatically use DNSimple’s name servers and hosted DNS. And we'll never sell you anything you don't need. 
 
-All domains registered with DNSimple automatically use DNSimple's name servers and hosted DNS, making the domain set up process very straightforward.
 
 <callout>
-We do not currently offer domain registration as a stand-alone service. Our core business are [domain services](/articles/dnsimple-services), hence the registration requires a subscription to one of our plans. We provide DNS hosting without using our registration services.
-</callout>
+We currently don't offer domain registration as a stand-alone service. Since [domain services](/articles/dnsimple-services) are our core business, DNSimple registration requires a subscription. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.</callout>
 
