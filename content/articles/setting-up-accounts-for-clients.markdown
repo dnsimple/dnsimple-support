@@ -22,7 +22,7 @@ Creating a separate account is a flexible and secure way for agencies and freela
 
 Keep in mind that when you add your client as a user to an account, the new member will have full access rights on every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
-The member will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain his login credentials and 2-factor authentication configuration.
+The member will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain their login credentials and 2-factor authentication configuration.
 
 <warning>
 Each customer must have a separate account, otherwise if you add more than one customer to the same account each customer will be able to manage other customers' domains.
