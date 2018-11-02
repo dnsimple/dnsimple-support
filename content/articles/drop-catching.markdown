@@ -19,7 +19,7 @@ No, you may not use DNSimple for drop catching domains.
 
 ## Why don't you allow drop catching?
 
-Our upstream domain registration provider limits the number of checks we are allowed to execute. If you attempt to engage in drop catching, this will impact all of our customers. 
+Our upstream domain registration providers limit the number of checks we're allowed to execute. Attempts to engage in drop catching impact all our customers. 
 
 ## What happens if I try to drop catch?
 
