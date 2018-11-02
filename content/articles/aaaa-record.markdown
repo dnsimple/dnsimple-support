@@ -18,7 +18,7 @@ categories:
 
 An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. Simply put, an AAAA record is used to find the IP address of a computer connected to the internet from a name.
 
-The _AAAA_ record is concettually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
+The AAAA record is concettually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
 
 AAAA records are [less common than A records](/articles/common-dns-records), however their popularity is raising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support) and can be queries either via IPv4 or IPv6.
 

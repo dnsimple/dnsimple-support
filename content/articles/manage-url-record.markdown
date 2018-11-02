@@ -33,7 +33,7 @@ The instructions in this article assumes you are familiar with the [URL record f
     ![](/files/record-url-create-new.png)
 
     - _Name_: the subdomain you want to redirect, without the domain name. For example, if you want to redirect `www.example.com` enter `www`. Leave it blank to redirect the root domain `example.com`.
-    - _Content_: the redirect target URL. It must be an URL (e.g. `https://foo.bar.com`). It can also contain a path, query and any other standard URL components (e.g. http://foo.bar.com/path/to/site?redir=1).
+    - _Content_: the redirect target URL. It must be an URL (e.g. `https://foo.bar.com`). It can also contain a path, query and any other standard URL components (e.g. `http://foo.bar.com/path/to/site?redir=1`).
 
     As any other DNS record, you can configure:
 
