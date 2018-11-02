@@ -16,13 +16,15 @@ Auto-importing DNS records can help you reduce downtime on your domain transfer 
 Instead of entering manually DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
 
 We currently can import the following DNS record types:
-- A
-- AAAA
-- CNAME
-- MX
+
+- [A](/articles/a-record)
+- [AAAA](/articles/aaaa-record)
+- [CNAME](/articles/cname-record)
+- [MX](/articles/mx-record)
 - TXT
 
 We prompt you to auto-import DNS records when:
+
 - A domain transfer is about to start
 - Adding a domain for DNS management
 
@@ -32,7 +34,7 @@ You can also auto-import the zone for your domain at any time by clicking on <la
 
 We scan the existing records for your domain and let you import them all at once.
 
-We automatically look for the most common subdomains like "www", "blog", and "email", but you can add custom subdomains at the bottom of the form.
+We automatically look for the most common subdomains like `www`, `blog`, and `email`, but you can add custom subdomains at the bottom of the form.
 
 ![Overview](/files/auto-import-dns-overview.png)
 
