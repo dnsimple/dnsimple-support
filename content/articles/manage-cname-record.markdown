@@ -22,7 +22,7 @@ The instructions in this article assumes you are familiar with the [CNAME record
 ## Add a CNAME record
 
 <div class="section-steps" markdown="1">
-#### To add an CNAME record
+#### To add a CNAME record
 
 1.  In the record editor, click <label>Add</label> and select <label>CNAME</label> to add a new CNAME record.
 
@@ -51,7 +51,7 @@ The instructions in this article assumes you are familiar with the [CNAME record
 ## Update a CNAME record
 
 <div class="section-steps" markdown="1">
-#### To update an CNAME record
+#### To update a CNAME record
 
 1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
 
@@ -64,7 +64,7 @@ The instructions in this article assumes you are familiar with the [CNAME record
 ## Remove a CNAME record
 
 <div class="section-steps" markdown="1">
-#### To remove an CNAME record
+#### To remove a CNAME record
 
 1.  In the record editor, search the record and click on the _trash_ icon to delete it.
 

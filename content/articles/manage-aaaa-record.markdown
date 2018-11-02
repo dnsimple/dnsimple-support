@@ -16,7 +16,7 @@ categories:
 
 You can manage [AAAA records](/articles/aaaa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assumes you are familiar with the [AAAA record format](/articles/a-record#record-format) and usage.
+The instructions in this article assumes you are familiar with the [AAAA record format](/articles/aaaa-record#record-format) and usage.
 
 
 ## Add an AAAA record
