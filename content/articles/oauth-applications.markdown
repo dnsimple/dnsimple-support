@@ -15,17 +15,15 @@ An OAuth Application lets external addons to request authorization for a DNSimpl
 
 Log into your account and navigate to your account page by clicking the drop-down in the top right portion of the navbar.
 
-Once you are there, click on the <label>Applications</label> link in the sidebar.
+Once you are there, click on the <label>Automation</label> link in the sidebar.
 
-![Applications Link](/files/applications-link.png)
-
-Here you can see all of your authorized applications, and the applications that you're developing.
+Scroll down to see all of your authorized applications, and the applications that you're developing.
 
 ![Applications Page](/files/applications.png)
 
 ## Generating an OAuth Application
 
-On the <label>Developer applications</label> card, click the <label>New application</label> link.
+From the <label>Developer applications</label> section, click the <label>New</label> link.
 
 ![New Application Link](/files/new-application-link.png)
 
@@ -40,7 +38,3 @@ In the next screen you will see important information like "Client ID" and "Clie
 ## Deleting an OAuth Application
 
 From the application's page click on <label>Delete Application</label> and follow the instructions.
-
-![Delete Application Link](/files/delete-application-link.png)
-
-![Delete Application](/files/delete-application.png)

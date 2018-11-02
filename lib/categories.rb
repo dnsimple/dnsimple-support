@@ -1,7 +1,7 @@
 include Nanoc::Helpers::LinkTo
 
 module Categories
-  extend Nanoc::Int::Memoization
+  DDMemoize.activate(self)
 
   # Collect all categories from articles
   #

@@ -89,7 +89,7 @@ Although the SPF record type is deprecated, it is still supported by DNSimple na
 
 There are various limitations to the number of items and lookups permitted in an SPF record:
 
-- SPF records may have more than 10 mechanisms that require DNS lookups. These are the `include`, `a`, `mx`, `ptr`, and `exists` mechanisms.
+- SPF records may not have more than 10 mechanisms that require DNS lookups. These are the `include`, `a`, `mx`, `ptr`, and `exists` mechanisms.
 - When evaluating the `mx` mechanism, the number of MX records queried is included in the overall limit of DNS lookups. Additionally, each `mx` mechanism must not result in querying more than 10 address records.
 - The `ptr` mechanism is also included in the overall limit and each `ptr` must not result in querying more than 10 address records.
 

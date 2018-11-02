@@ -23,7 +23,7 @@ In order to issue an SSL certificate, the [Certificate Authority](/articles/what
 
 The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 
-**Email-based domain validation** is the most common certificate validation mechanism for [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level). The certificate authority compiles a list of **public emails** associated with the domain, using common administrative emails (e.g. `admin` or `webmaster`), in combination with the public whois data for the domain.
+**Email-based domain validation** is the most common certificate validation mechanism for [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level). The certificate authority compiles a list of **public emails** associated with the domain, using common administrative emails (e.g. `admin` or `webmaster`), in combination with the public WHOIS data for the domain.
 
 The domain validation is a mandatory step, the Certificate Authority will not issue the certificate if the order has not been validated.
 
@@ -38,8 +38,8 @@ The email validation process consists of a few steps:
 
 1. When you purchase a certificate, we show you a list of authoritative emails identified by the Certificate Authority for the domain associated with the certificate
 1. You select an email from the list.
-1. The Certificate Authority sends a verification email (also called DCV email) to the recipient with an unique link to approve the certificate and validate your domain ownership.
-1. **You click on the link to validate and approve the certificate**. At this point, the certificate's authenticity is validated and the authority will generate it.
+1. The Certificate Authority sends a verification email (also called DCV email) to the recipient with a unique link to approve the certificate and validate your domain ownership.
+1. **You click on the link to validate and approve the certificate**. At this point the certificate's authenticity is validated and the authority will generate it.
 
 
 ## Email requirements {#requirements}
@@ -47,7 +47,7 @@ The email validation process consists of a few steps:
 **The approval email cannot be an arbitrary email** such as a customer-provided email or the email in your DNSimple account.
 
 <callout>
-Remember: the goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and inequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
+Remember: the goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
 </callout>
 
 The approval email typically can be sent to the following addresses, called administrative emails:
@@ -60,8 +60,6 @@ The approval email typically can be sent to the following addresses, called admi
 
 Where `example.com` is the domain for the certificate being purchased.
 
-Alternatively, **the approval email can be sent to a different email address only if this is listed in the WHOIS information for the domain**. In fact, this is the only way for the Certificate Authority to determine if an email is officially associated with a domain.
-
 
 ## Email validation and WHOIS privacy {#whois-privacy}
 
@@ -69,13 +67,20 @@ Alternatively, **the approval email can be sent to a different email address onl
 [Whois Privacy Protection services](/articles/what-is-whois-privacy) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
 </warning>
 
-If the whois privacy is enabled for the domain associated with the certificate, the privacy email (e.g. `wqyygglqlt@whoisprivacyprotect.com`) will be included in the list of possible emails to be used. However, it's not guaranteed that the delivery will be successful and DNSimple has no control over the delivery of the validation email.
+If the Whois Privacy is enabled for the domain associated with the certificate, the privacy email (e.g. `wqyygglqlt@whoisprivacyprotect.com`) will be included in the list of possible emails to be used. However, it's not guaranteed that the delivery will be successful and DNSimple has no control over the delivery of the validation email.
 
 [Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
 
 <callout>
-Once you disable whois privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
+Once you disable Whois Privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
 </callout>
+
+
+## Email validation and GDPR {#gdpr}
+
+Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
+
+As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate. You will have to use one of the administrative emails provided by the Certification Authority.
 
 
 ## Select the validation email address {#select-email}
@@ -89,8 +94,8 @@ You select the validation email when you purchase the certificate. You can use o
 
     ![](/files/dnsimple-ssl-selectapprover.png)
 
-1.  Choose the email address you want to use by clicking on it.
-1.  Click *Send Approver Email* to configure and submit the certificate for validation.
+2.  Choose the email address you want to use by clicking on it.
+3.  Click *Send Approver Email* to configure and submit the certificate for validation.
 </div>
 
 If the approver is not in this list or you need time to configure one of those emails, you can also close this page and come back later.
@@ -122,13 +127,13 @@ If the approver is not in this list or you need time to configure one of those e
 
 If you selected an incorrect email recipient, you can request the email to be changed as long as the email address meets the [requirements](#requirements) described above.
 
-The certificate must be in the submitted state. If instead you still need to submit the certificate and the email address you want to use doesn't snow up in the list, then follow the instructions to [select a different email](#different-email).
+The certificate must be in the submitted state. If instead you still need to submit the certificate and the email address you want to use doesn't snow up in the list, then follow the instructions to [select a different email](#select-email).
 
 <div class="section-steps" markdown="1">
 ##### To change the approval email
 1. [**Read the requirements for the email address**](#requirements) and make sure the recipient you want to use follow these rules.
 
-1. [Contact us](https://dnsimple.com/contact) to change the approver email. Make sure you provide the fully-qualified certificate name (eg. `www.example.com`, `*.example.com`) and the new email address to use.
+1. [Contact us](https://dnsimple.com/contact) to change the approver email. Make sure you provide the fully-qualified certificate name (e.g. `www.example.com`, `*.example.com`) and the new email address to use.
 </div>
 
 

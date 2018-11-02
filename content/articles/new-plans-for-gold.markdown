@@ -9,7 +9,7 @@ categories:
 
 As an existing Gold customer you will not have access to new features in DNSimple as they are released. If you are an individual, you may want to consider switching to the Personal plan. If you run or manage domains on behalf of a business you may want to consider upgrading to either the Professional or Business plan.
 
-New plans includes several new features, such as:
+New plans include several new features, such as:
 
 - [Let's Encrypt integration](/articles/letsencrypt/)
 - [CAA records](/articles/manage-caa-record/)

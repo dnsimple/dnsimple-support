@@ -39,7 +39,7 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
 
     -   **If you want to point the root domain `awesome-blog.com`**
 
-        Add an [ALIAS record](/articles/alias-record) to point `awesome-blog.com.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
+        Add an [ALIAS record](/articles/alias-record) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
     -   **If you want to point a subdomain (e.g. `www.awesome-blog.com`)**
     

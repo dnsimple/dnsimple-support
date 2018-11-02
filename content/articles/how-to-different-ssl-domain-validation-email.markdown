@@ -61,10 +61,12 @@ If you want to submit your certificate to the Certificate Authority for approval
     Some registries (such as the .IO, .UK, .BR) do not disclose registrant email therefore it's not possible to select the registrant email for a certificate purchased for one of these TLDs. In this case, you will have to use one of the other solutions above.
     </note>
 
-1.  If you want to use a different email address either from the same domain or a different one, and update the WHOIS record for the domain to include the email address in at least one of the WHOIS contact (e.g. registrant/owner, technical contact or admin contact).
+1.  If you want to use a different email address either from the same domain or a different one, update the WHOIS record for the domain to include the email address in at least one of the WHOIS contact (e.g. registrant/owner, technical contact or admin contact). Once updated, [run a WHOIS query for the domain](https://dnsimple.com/whois) and make sure the email is visible in the WHOIS record. If it's not, then you cannot use that email.
 
-    If the domain is registered with DNSimple, follow these instructions to [update the WHOIS information](/articles/changing-whois-contact) for a domain.
+    <warning>
+    #### Email validation and GDPR
 
-    <note>
-    Once you change the WHOIS record it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information. You may have to wait 24 hours before the new email show up in the list and [you can select it(/articles/ssl-certificates-email-validation/#select-email), or [contact us](https://dnsimple.com/contact) and provide the certificate name if you want to speed up the update.
-    </note>
+    Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
+
+    As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate if the registrar/registry doesn't disclose the contact information.
+    </warning>

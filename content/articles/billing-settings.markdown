@@ -28,11 +28,7 @@ It is possible to deliver your invoices to a different email address that the on
 
 1.  Log into DNSimple with your user credentials.
 1.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
-1.  Switch to the <label>Billing</label> tab.
-
-    ![Account Billing tab](/files/account-billing-tab.png)
-
-1.  Click on the <label>Edit billing details</label> link.
+1.  Scroll down to the invoices section. Click on the <label>Edit</label> link.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
@@ -64,15 +60,11 @@ You can modify this information anytime and as many times as you need to. The ne
 
 1.  Log into DNSimple with your user credentials.
 1.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
-1.  Switch to the <label>Billing</label> tab.
-
-    ![Account Billing tab](/files/account-billing-tab.png)
-
-1.  Click on the <label>Edit billing details</label> link.
+1.  Scroll down to the invoices section. Click on the <label>Edit</label> link.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
-1.  You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit billing details</label> link.
+1.  You will see your current billing information (it will be empty if it's the first time you are editing it). Go on and click on the <label>Edit</label> link.
 1.  Fill in the form to your needs and click on <label>Save</label> when you are done.
 
     ![Change payment details](/files/account-billing-settings-update.png)
