@@ -13,6 +13,7 @@
 - "/articles/supported-dns-records.markdown"
 - "/articles/common-dns-records.markdown"
 - "/articles/a-record.markdown"
+- "/articles/aaaa-record.markdown"
 - "/articles/alias-record.markdown"
 - "/articles/caa-record.markdown"
 - "/articles/cname-record.markdown"
