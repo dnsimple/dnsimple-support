@@ -1,11 +1,11 @@
 ---
-title: Add, Update, and Remove CNAME records
+title: Managing CNAME records
 excerpt: Instructions to add, update, and remove an CNAME record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage CNAME records
+# Managing CNAME records
 
 ### Table of Contents {#toc}
 
@@ -72,3 +72,14 @@ The instructions in this article assumes you are familiar with the [CNAME record
 
 1.  Confirm the dialog to delete the record.
 </div>
+
+
+## Common CNAME errors
+
+### Cannot add a new record where a CNAME exists
+
+To understand the error, it is important to understand that a CNAME points a whole subdomain to another name in the domain name system. If you have another record on that subdomain you can't add a CNAME, as that CNAME would render the other records useless. Let's look at an example:
+
+Let's assume there is an MX record on email.example.com, and now you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain (email.example.com) and render the MX record useless, leading to a lot of potential confusion when email stops. To counter this potential confusion, the domain name system does not allow other records alongside a CNAME.
+
+You can achive a similar behavior as a CNAME with a ALIAS record. Thus, if you want a sub-domain always resolve to the IP address of another domain, you can use a ALIAS record pointing to that domain. You should only do this if you absolutely need it as the ALIAS record does have a small amount of additional overhead when compared to A and CNAME records.

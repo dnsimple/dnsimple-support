@@ -21,16 +21,6 @@ categories:
 For example, if you have a server where you keep all of your documents online, it might normally be accessed through `docs.example.com`. You may also want to access it through `documents.example.com`. One way to make this possible is to add a CNAME record that points `documents.example.com` to `docs.example.com`. When someone visits `documents.example.com` they will see the exact same content as `docs.example.com`.
 
 
-## Add a CNAME record
+## Manage CNAME records
 
-To use CNAME records, select CNAME from the *Add Record* drop down in the advanced editor. Then enter the hostname you would like to alias from and the fully-qualified domain name you would like to alias to. You may also enter `@` in the Alias for field to represent the domain itself.
-
-For example, if the domain were `example.com` and you wanted `www.example.com` to point to `example.com` you could put `www` in the name field and `@` in the alias for field.
-
-### Error: "Cannot add a new record where a CNAME exists"
-
-To understand the error, it is important to understand that a CNAME points a whole subdomain to another name in the domain name system. If you have another record on that subdomain you can't add a CNAME, as that CNAME would render the other records useless. Let's look at an example:
-
-Let's assume there is an MX record on email.example.com, and now you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain (email.example.com) and render the MX record useless, leading to a lot of potential confusion when email stops. To counter this potential confusion, the domain name system does not allow other records alongside a CNAME.
-
-You can achive a similar behavior as a CNAME with a ALIAS record. Thus, if you want a sub-domain always resolve to the IP address of another domain, you can use a ALIAS record pointing to that domain. You should only do this if you absolutely need it as the ALIAS record does have a small amount of additional overhead when compared to A and CNAME records.
+From the DNSimple record editor you can [add, remove, and update CNAME records](/articles/manage-cname-record).
