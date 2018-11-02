@@ -1,11 +1,11 @@
 ---
 title: Add, Update, and Remove CNAME records
-excerpt: Instructions to add, update, and remove an CNAME record in DNSimple.
+excerpt: Instructions to add, update, and remove an URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage CNAME records
+# Manage URL records
 
 ### Table of Contents {#toc}
 

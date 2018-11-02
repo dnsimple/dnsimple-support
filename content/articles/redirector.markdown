@@ -23,17 +23,17 @@ This feature can be used, for example, to redirect the www version of a domain t
 
 To configure a redirect you use the special [URL record](/articles/url-record), available in the [record editor](/articles/record-editor).
 
-The article [URL record](/articles/url-record) contains specific information on how to create and manage URL records.
+[This article](/articles/manage-url-record) contains specific information on how to add, update, and remove an URL record in DNSimple.
 
 
-### Redirect status code
+## Redirect status code
 
 The redirector sets a 301 status code. The code is not configurable and it's currently not possible to return a 302 temporary redirect using the URL record.
 
 
-### HTTPS redirects
+## HTTPS redirects
 
-The [redirector doesn't support HTTPS](/articles/redirector-https), therefore you cannot redirect an HTTPS request.
+The [redirector doesn't currently support HTTPS](/articles/redirector-https), therefore you cannot redirect an HTTPS request.
 
 In other words, it is not possible to use the URL record to redirect the www to the not-www version of your domain with HTTPS. You will be able to redirect `http://www.example.com`, but not `https://www.example.com`.
 
