@@ -1,11 +1,11 @@
 ---
-title: Add, Update, and Remove AAAA records
+title: Managing AAAA records
 excerpt: Instructions to add, update, and remove an AAAA record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage AAAA records
+# Managing AAAA records
 
 ### Table of Contents {#toc}
 

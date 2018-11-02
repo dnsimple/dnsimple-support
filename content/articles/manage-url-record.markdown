@@ -1,11 +1,11 @@
 ---
-title: Add, Update, and Remove CNAME records
+title: Managing URL records
 excerpt: Instructions to add, update, and remove an URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage URL records
+# Managing URL records
 
 ### Table of Contents {#toc}
 
@@ -28,7 +28,7 @@ The instructions in this article assumes you are familiar with the [URL record f
 
     ![](/files/record-url-create-select.png)
 
-1.  Enter the CNAME record information.
+1.  Enter the URL record information.
 
     ![](/files/record-url-create-new.png)
 
@@ -41,7 +41,7 @@ The instructions in this article assumes you are familiar with the [URL record f
 
     Once ready, click <label>Add Record</label> to confirm and create the record.
 
-2.  The record is created and will be visible in the record list.
+1.  The record is created and will be visible in the record list.
 
     ![](/files/record-url-item.png)
 

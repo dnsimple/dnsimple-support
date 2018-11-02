@@ -1,11 +1,11 @@
 ---
-title: Add, Update, and Remove CAA records
+title: Managing CAA records
 excerpt: Instructions to add, update, and remove a CAA record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage CAA records
+# Managing CAA records
 
 ### Table of Contents {#toc}
 

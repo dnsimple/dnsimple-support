@@ -1,11 +1,11 @@
 ---
-title: Add, Update, and Remove A records
+title: Managing A records
 excerpt: Instructions to add, update, and remove an A record in DNSimple.
 categories:
 - DNS
 ---
 
-# Manage A records
+# Managing A records
 
 ### Table of Contents {#toc}
 
