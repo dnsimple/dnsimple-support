@@ -52,14 +52,14 @@ The RFC currently defines 3 available tags:
 In DNSimple, the CAA record is represented by the following customizable elements:
 
 |:------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| name  | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
+| Name  | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
 | TTL   | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
-| tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
-| value | The value associated with the tag.                                                                                                         |
+| Tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
+| Value | The value associated with the tag.                                                                                                         |
 
-<info>
+<callout>
 We currently don't allow to configure the bit flag.
-</info>
+</callout>
 
 
 ## CAA record usage

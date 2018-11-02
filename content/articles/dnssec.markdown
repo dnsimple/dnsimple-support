@@ -32,9 +32,9 @@ We currently support DNSSEC in the following ways:
 - If your domain is registered through DNSimple but host your DNS with another authoritative DNS provider, then you may add DS records for DNSSEC-enabled zones.
 - If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, then you may sign zones in our name servers, but you will be required to handle the creation and rotation of DS records.
 
-<info>
+<warning>
 We do not support DNSSEC for zones using our outbound secondary DNS feature at this time.
-</info>
+</warning>
 
 ## Managing DNSSEC
 

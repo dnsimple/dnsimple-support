@@ -47,9 +47,9 @@ where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804
 In DNSimple, the AAAA record is represented by the following customizable elements:
 
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
+| Name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
-| address | The IPv6 address the AAAA record points to.                                                                                                |
+| Address | The IPv6 address the AAAA record points to.                                                                                                |
 
 
 ## Querying AAAA records
