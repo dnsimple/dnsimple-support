@@ -41,7 +41,7 @@ The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 ## CNAME record format {#record-format}
 
-The structure of an A record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed by one single element:
+The structure of an A record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
 
 |:------------|:----------------------------------------------------------------------------|
 | domain-name | A domain name which specifies the canonical or primary name for the record. |
