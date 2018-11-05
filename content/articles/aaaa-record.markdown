@@ -1,5 +1,5 @@
 ---
-title: What is an AAAA Record?
+title: What is an AAAA record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:
 - DNS
