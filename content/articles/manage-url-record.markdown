@@ -1,6 +1,6 @@
 ---
 title: Managing URL records
-excerpt: Instructions to add, update, and remove an URL record in DNSimple.
+excerpt: Instructions to add, update, and remove a URL record in DNSimple.
 categories:
 - DNS
 ---
