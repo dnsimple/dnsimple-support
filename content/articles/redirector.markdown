@@ -37,18 +37,18 @@ The [redirector doesn't support HTTPS](/articles/redirector-https), so you can't
 
 In other words, it's not possible to use the URL record to redirect the www to the non-www version of your domain with HTTPS. You can redirect `http://www.example.com`, but not `https://www.example.com`.
 
-Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of possible of alternative solutions.
+Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of alternative solutions.
 
 
 ## URL to URL redirects
 
 URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs.
 
-The following redirect will not work, because you can't add a url to the name part of the URL record.
+The following redirect will not work, because you can't add a URL to the name part of the URL record.
 
     foo.com/blog/ to bar.com/blog
 
-This would work, because you can add an URL record for blog.foo.com:
+This would work, because you can add a URL record for blog.foo.com:
 
     blog.foo.com to bar.com/blog
 
@@ -57,7 +57,7 @@ Note that any path or query information passed by the user is passed to the resu
 
 ## Wildcard URL redirects
 
-You can configure a wildcard redirect using the same conventions of a DNS wildcard record. However, the target can't contain any wildcard reference.
+You can configure a wildcard redirect using the same conventions of a DNS wildcard record. However, the target can't contain any wildcard references.
 
     # Valid redirects
     *.foo.com to bar.com
