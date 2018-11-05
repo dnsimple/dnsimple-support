@@ -47,7 +47,7 @@ The RFC currently defines 3 available tags:
 
 - `issue`: explicity authorizes a single certificate authority to issue a certificate (any type) for the hostname.
 - `issuewild`: explicity authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the hostname.
-- `iodef`: specifies an URL to which a certificate authority may report policy violations.
+- `iodef`: specifies a URL to which a certificate authority may report policy violations.
 
 In DNSimple, the CAA record is represented by the following customizable elements:
 
@@ -58,13 +58,13 @@ In DNSimple, the CAA record is represented by the following customizable element
 | Value | The value associated with the tag.                                                                                                         |
 
 <callout>
-We currently don't allow configuration of the bit flag.
+We don't allow configuration of the bit flag.
 </callout>
 
 
 ## CAA record usage
 
-As explained in the format section, each CAA record contain only one tag-value pair. The tag must be one of the currently available tags. For example, if we want to limit the issuance of SSL certificates for `example.com` to the Let's Encrypt certificate authority, we should add the following CAA record:
+As explained in the format section, each CAA record contains only one tag-value pair. The tag must be one of the available tags. For example, if we want to limit the issuance of SSL certificates for `example.com` to the Let's Encrypt certificate authority, we should add the following CAA record:
 
 ```
 example.com.  CAA 0 issue "letsencrypt.org"
@@ -77,7 +77,7 @@ example.com.  CAA 0 issue "comodoca.com"
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-If we want to allow Let's Encrypt and Comodo only for wildcard, then we can use the `issuewild`:
+If we want to allow Let's Encrypt and Comodo only for wildcard, then we can use `issuewild`:
 
 ```
 example.com.  CAA 0 issue "letsencrypt.org"
@@ -86,7 +86,7 @@ example.com.  CAA 0 issuewild "comodoca.com"
 
 Note that the presence of issuewild overrides the `issue`. Therefore, Let's Encrypt _is not allowed_ to issue wildcard certificates (regardless of the fact that they don't support this type of certificate).
 
-Finally, to get notified of policy violations, you can add a record with the `iodef` tag, containing the email address to notify:
+Finally, to be notified of policy violations, you can add a record with the `iodef` tag that contains the email address to notify:
 
 ```
 example.com.  CAA 0 iodef "mailto:example@example.com"
@@ -117,7 +117,7 @@ The above rules apply to subdomain wildcard certificates as well.
 
 ## Querying CAA records
 
-The CAA record is a relatively new resource record (RR), and not all tools already support it. A notable example is `dig`; it currently doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig` you must specify the RR type (257) directly.
+The CAA record is a relatively new resource record (RR), and not all tools support it. A notable example is `dig`; it doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig` you must specify the RR type (257) directly.
 
 ```
 $ dig google.com type257
