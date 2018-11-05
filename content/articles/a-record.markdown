@@ -18,9 +18,9 @@ categories:
 
 An **A record** maps a domain name to the IP address (Version 4) of the computer hosting the domain. Simply put, an A record is used to find the IP address of a computer connected to the internet from a name.
 
-The _A_ in A record stands for _Address_. Whenever you visit a web site, send an email, connect to Twitter or Facebook or do almost anything on the Internet, the address you enter is a series of words connected with dots.
+The _A_ in A record stands for _Address_. Whenever you visit a web site, send an email, connect to Twitter or Facebook, or do almost anything on the Internet, the address you enter is a series of words connected with dots.
 
-For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server there is an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
+For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server there's an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
 
 A Records are the simplest type of DNS records, yet one of the primary records used in DNS servers.
 
@@ -49,14 +49,14 @@ where `<address>` is an IPv4 address and looks like `162.159.24.4`.
 In DNSimple, the A record is represented by the following customizable elements:
 
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| Name    | The host name for the record, without the domain name. This is generally referred as "subdomain". We automatically append the domain name. |
+| Name    | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Address | The IPv4 address the A record points to.                                                                                                   |
 
 
 ## Querying A records
 
-You can use `dig` to determine the A record associated to a domain name. The result is contained in the `ANSWER` section and it contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
+You can use `dig` to determine the A record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
 
 ```
 $ dig A api.dnsimple.com
