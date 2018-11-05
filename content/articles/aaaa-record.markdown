@@ -1,5 +1,5 @@
 ---
-title: What is an AAAA record?
+title: What is an AAAA Record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:
 - DNS
@@ -18,9 +18,9 @@ categories:
 
 An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. Simply put, an AAAA record is used to find the IP address of a computer connected to the internet from a name.
 
-The AAAA record is concettually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
+The AAAA record is conceptually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
 
-AAAA records are [less common than A records](/articles/common-dns-records), however their popularity is raising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support) and can be queries either via IPv4 or IPv6.
+AAAA records are [less common than A records](/articles/common-dns-records), however their popularity is rising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support) and can be queried via either IPv4 or IPv6.
 
 As for the A records, you can use multiple AAAA records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own AAAA record pointing to that same IP address.
 
@@ -29,7 +29,7 @@ The DNS A record is specified by [RFC 3596](https://tools.ietf.org/html/rfc3596)
 
 ## AAAA record format {#record-format}
 
-The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed by one single element:
+The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
 
 |:--------|:--------------------------------------------------------|
 | address | A 128 bit Internet address representing an IPv6 address |
@@ -54,7 +54,7 @@ In DNSimple, the AAAA record is represented by the following customizable elemen
 
 ## Querying AAAA records
 
-You can use `dig` to determine the AAAA record associated to a domain name. The result is contained in the `ANSWER` section and it contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
+You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the `ANSWER` section.  It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
 
 ```
 $ dig AAAA ns1.dnsimple.com
