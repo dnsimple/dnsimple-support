@@ -20,7 +20,7 @@ This article describes a feature that is only available to the [new plans](/arti
 
 You can manage [CAA records](/articles/caa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assume you are familiar with the [CAA record format](/articles/caa-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [CAA record format](/articles/caa-record#record-format) and usage.
 
 <note>
 CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We do not support transferring CAA records to secondary name servers.
