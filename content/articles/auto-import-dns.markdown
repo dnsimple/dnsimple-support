@@ -8,14 +8,14 @@ categories:
 # Auto-importing DNS records
 
 <note>
-This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
+This article describes a feature that's only available with [new plans](/articles/new-plans#newer-plans-only).
 </note>
 
-Auto-importing DNS records can help you reduce downtime on your domain transfer or when hosting the DNS for your domain with us.
+Auto-importing DNS records can help you reduce downtime on your domain transfer, or when hosting the DNS for your domain with us.
 
-Instead of entering manually DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
+Instead of manually entering DNS records, or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
 
-We currently can import the following DNS record types:
+We can import the following DNS record types:
 
 - [A](/articles/a-record)
 - [AAAA](/articles/aaaa-record)
@@ -46,5 +46,5 @@ If auto-importing a record conflicts with an existing one on your domain, we ask
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
-Once you have made a selection, click on <label>Import DNS records</label> to add them all to your domain zone.
+Once you've made a selection, click on <label>Import DNS records</label> to add them all to your domain zone.
 
