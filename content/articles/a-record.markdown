@@ -24,7 +24,7 @@ For example, to access the DNSimple website you enter `www.dnsimple.com`. At our
 
 A Records are the simplest type of DNS records, yet one of the primary records used in DNS servers.
 
-You can actually do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
+You can do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
 
@@ -82,4 +82,4 @@ api.dnsimple.com.	59	IN	A	208.93.64.253
 
 ## Manage A records
 
-From the DNSimple record editor you can [add, remove, and update A records](/articles/manage-a-record).
+From the DNSimple record editor, you can [add, remove, and update A records](/articles/manage-a-record).
