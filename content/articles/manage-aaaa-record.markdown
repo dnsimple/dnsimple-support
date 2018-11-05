@@ -39,7 +39,7 @@ The instructions in this article assume you are familiar with the [AAAA record f
 
     - _TTL_: the record time-to-live.
 
-    Once ready, click <label>Add Record</label> to confirm and create the record.
+    Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
 1.  The record is created and will be visible in the record list.
 
