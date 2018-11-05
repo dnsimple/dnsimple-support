@@ -84,7 +84,7 @@ example.com.  CAA 0 issue "letsencrypt.org"
 example.com.  CAA 0 issuewild "comodoca.com"
 ```
 
-Note that the presence of issuewild will override the `issue`. Therefore, Let's Encrypt _is not allowed_ to issue wildcard certificates (regardless of the fact that they don't support this type of certificate).
+Note that the presence of issuewild overrides the `issue`. Therefore, Let's Encrypt _is not allowed_ to issue wildcard certificates (regardless of the fact that they don't support this type of certificate).
 
 Finally, to get notified of policy violations, you can add a record with the `iodef` tag, containing the email address to notify:
 
