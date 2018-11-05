@@ -16,13 +16,13 @@ categories:
 
 You can manage [URL records](/articles/url-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assume you are familiar with the [URL record format](/articles/url-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [URL record format](/articles/url-record#record-format) and usage.
 
 
-## Add an URL record
+## Add a URL record
 
 <div class="section-steps" markdown="1">
-#### To add an URL record
+#### To add a URL record
 
 1.  In the record editor, click <label>Add</label> and select <label>URL</label> to add a new URL record.
 
@@ -48,10 +48,10 @@ The instructions in this article assume you are familiar with the [URL record fo
 </div>
 
 
-## Update an URL record
+## Update a URL record
 
 <div class="section-steps" markdown="1">
-#### To update an URL record
+#### To update a URL record
 
 1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
 
@@ -61,10 +61,10 @@ The instructions in this article assume you are familiar with the [URL record fo
 </div>
 
 
-## Remove an URL record
+## Remove a URL record
 
 <div class="section-steps" markdown="1">
-#### To remove an URL record
+#### To remove a URL record
 
 1.  In the record editor, search the record and click on the _trash_ icon to delete it.
 
