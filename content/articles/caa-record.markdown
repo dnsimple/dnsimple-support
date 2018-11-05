@@ -37,7 +37,7 @@ The structure of a CAA record follows the standard top-level format definition d
 
 The CAA record consists of a flags byte and a tag-value pair referred to as a 'property'. Multiple properties may be associated with the same domain name by publishing multiple CAA RRs at that domain name.
 
-The canonical representation is:f
+The canonical representation is:
 
 ```
 CAA <flags> <tag> <value>
