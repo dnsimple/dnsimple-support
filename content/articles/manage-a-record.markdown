@@ -16,7 +16,7 @@ categories:
 
 You can manage [A records](/articles/a-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assume you are familiar with the [A record format](/articles/a-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [A record format](/articles/a-record#record-format) and usage.
 
 
 ## Add an A record
