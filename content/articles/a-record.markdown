@@ -36,7 +36,7 @@ The structure of an A record follows the standard top-level format definition de
 |:--------|:-------------------------------------------------------|
 | address | A 32 bit Internet address representing an IPv4 address |
 
-Hosts that have multiple Internet addresses will have multiple A records.
+Hosts that have multiple Internet addresses have multiple A records.
 
 The canonical representation is:
 
