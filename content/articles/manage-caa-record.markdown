@@ -20,10 +20,10 @@ This article describes a feature that is only available to the [new plans](/arti
 
 You can manage [CAA records](/articles/caa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assumes you are familiar with the [CAA record format](/articles/caa-record#record-format) and usage.
+The instructions in this article assume you are familiar with the [CAA record format](/articles/caa-record#record-format) and usage.
 
 <note>
-CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We currently do not support transferring CAA records to secondary name servers.
+CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We do not support transferring CAA records to secondary name servers.
 </note>
 
 
@@ -34,7 +34,7 @@ The DNSimple interface allows you to manage CAA records using two different mode
 - the standard mode provides a pre-populated interface to help enter the appropriate values for the CAA record. <label>Provider</label> allows you to create a CAA record to whitelist a certificate authority. <label>Reports</label> allows you to create a CAA record to specify the email for reporting policy violations.
 - the custom mode (<label>Custom</label>) allows you to modify the CAA record tag/value values directly.
 
-We currently do not support the ability to specify via interface the destructured CAA record value representation; in other words you cannot enter the following text:
+We do not support the ability to specify via interface the destructured CAA record value representation. In other words, you cannot enter the following text:
 
 ```
 0 issue "letsencrypt.com"
@@ -60,13 +60,13 @@ We currently do not support the ability to specify via interface the destructure
     - _Provider_: the Certificate Authority you want to allow.
     - _Certificate type_: the type you want to allow.
 
-    As any other DNS record, you can configure:
+    As with any other DNS record, you can configure:
 
     - _TTL_: the record time-to-live.
 
-    Once ready, click <label>Add Record</label> to confirm and create the record.
+    Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
-1.  The record is created and will be visible in the record list.
+1.  The record is created and visible in the record list.
 
     ![](/files/record-caa-item.png)
 
