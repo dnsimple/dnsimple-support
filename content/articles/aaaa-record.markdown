@@ -34,7 +34,7 @@ The structure of an AAAA record follows the standard top-level format definition
 |:--------|:--------------------------------------------------------|
 | address | A 128 bit Internet address representing an IPv6 address |
 
-Hosts that have multiple Internet addresses will have multiple A records.
+Hosts that have multiple Internet addresses have multiple A records.
 
 The canonical representation is:
 
