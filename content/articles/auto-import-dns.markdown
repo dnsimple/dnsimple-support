@@ -34,7 +34,7 @@ You can also auto-import the zone for your domain at any time by clicking on <la
 
 We scan the existing records for your domain and let you import them all at once.
 
-We automatically look for the most common subdomains like `www`, `blog`, and `email`, but you can add custom subdomains at the bottom of the form.
+We automatically look for the most common subdomains like `www`, `blog`, and `email`. You can add custom subdomains at the bottom of the form.
 
 ![Overview](/files/auto-import-dns-overview.png)
 
