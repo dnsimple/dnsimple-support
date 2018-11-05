@@ -16,7 +16,7 @@ categories:
 
 You can manage [A records](/articles/a-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 
-The instructions in this article assumes you are familiar with the [A record format](/articles/a-record#record-format) and usage.
+The instructions in this article assume you are familiar with the [A record format](/articles/a-record#record-format) and usage.
 
 
 ## Add an A record
@@ -35,13 +35,13 @@ The instructions in this article assumes you are familiar with the [A record for
     - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
     - _IP Address_: the IPv4 address the record will resolve to.
 
-    As any other DNS record, you can configure:
+    As with any other DNS record, you can configure:
 
     - _TTL_: the record time-to-live.
 
     Once ready, click <label>Add Record</label> to confirm and create the record.
 
-1.  The record is created and will be visible in the record list.
+1.  The record is created and visible in the record list.
 
     ![](/files/record-a-item.png)
 
