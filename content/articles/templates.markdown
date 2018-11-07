@@ -12,11 +12,12 @@ categories:
 * TOC
 {:toc}
 
-## What are templates?
+---
 
 Templates are reusable groups of DNS records that can be applied to any of your domains. They speed up the entry of DNS records and reduce possible mistakes like typos and other errors.
 
 You can access your templates at any time for the top navigation bar, next to your domains and contacts.
+
 
 ## Creating a template
 
@@ -37,6 +38,7 @@ Now that you have the basic information for the template, it is time to create t
 The keyword `{{domain}}` automatically fills in the domain name to which the template is applied. The symbol `@` can also be used as it is equivalent to `{{domain}}`.
 
 ![Template new record](/files/template-new-record.png)
+
 
 ## Applying a template
 
