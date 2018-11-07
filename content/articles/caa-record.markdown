@@ -57,9 +57,9 @@ In DNSimple, the CAA record is represented by the following customizable element
 | Tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
 | Value | The value associated with the tag.                                                                                                         |
 
-<callout>
+<info>
 We don't allow configuration of the bit flag.
-</callout>
+</info>
 
 
 ## CAA record usage

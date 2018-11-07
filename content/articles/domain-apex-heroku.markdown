@@ -61,7 +61,9 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 
 </div>
 
-**Note:** Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains) and `myapp.herokuapp.com`if not.
+<info>
+Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains) and `myapp.herokuapp.com`if not.
+</info>
 
 
 ## Setting up your custom domain at Heroku {#set-up-domain-heroku}

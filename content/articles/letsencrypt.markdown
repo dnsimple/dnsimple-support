@@ -8,13 +8,13 @@ categories:
 
 # Let's Encrypt and DNSimple
 
-<note>
+<info>
 This article describes a feature in Public Beta.
-</note>
+</info>
 
-<note>
+<info>
 This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
-</note>
+</info>
 
 ### Table of Contents {#toc}
 
@@ -77,9 +77,9 @@ The certificate expiration is 90 days. If auto-renewal is enabled, the certifica
 
 As suggested by Let's Encrypt, the renewal will happen at any time after 60 days (30 days before expiration).
 
-<callout>
+<tip>
 Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. Therefore, we encourage you to use our [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
-</callout>
+</tip>
 
 
 ## Products
@@ -88,9 +88,9 @@ Let's Encrypt currently provides only one type of certificate; they issue only d
 
 Single-name certificates can be considered a special type of multi-name certificates, with a single name associated with it. Therefore, Let's Encrypt offering is both a multi-name and single-name.
 
-<note>
+<info>
 The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you are subscribed to. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all options.
-</note>
+</info>
 
 
 ## DNSimple Limitations
@@ -103,9 +103,9 @@ Note that not all Let's Encrypt features are currently supported by DNSimple. So
 - We do not currently support Let's Encrypt wildcard certificates. We are currently investigating the changes required to support this feature.
 - In order to use our Let's Encrypt integration, the domain must be resolving with us, as we will automatically create the DNS records required for the validation.
 
-<callout>
+<tip>
 If you are interested in a wildcard certificate, DNSimple [offers wildcard certificates](/articles/ssl-certificates/#standard-wildcard) using a different certificate authority.
-</callout>
+</tip>
 
 
 ## DNSimple plan-specific features
@@ -137,9 +137,9 @@ DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-re
 
 Once renewed, you will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/), the certificate will then be available to download from your DNSimple account.
 
-<callout>
+<info>
 Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
-</callout>
+</info>
 
 The feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate at any time from the SSL certificate page.
 

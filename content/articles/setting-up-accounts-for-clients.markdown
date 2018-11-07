@@ -14,9 +14,9 @@ categories:
 
 ---
 
-<note>
-In order to have multiple members on a single account, you must first [be subscribed to an eligible plan](https://dnsimple.com/pricing) for that account.
-</note>
+<info>
+This article describes a feature that is only available to the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
+</info>
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
 
@@ -39,9 +39,9 @@ Verify that your client has __registered__ with DNSimple.
 
 If needed, [point your client to the signup page](https://dnsimple.com/signup).
 
-<callout>
+<info>
 It is not necessary that your client have an active subscription, just that they have already signed up for the service.
-</callout>
+</info>
 
 ## Adding clients to the new account
 

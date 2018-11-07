@@ -17,16 +17,16 @@ categories:
 
 This article contains a list of the most common redirect scenarios for an application hosted on Heroku, along with some solutions for each scenario.
 
-<callout>
+<note>
 This article contains information about redirects and HTTPS. If you are not familiar about this topic, we encourage you to read [how redirects work with HTTPS](https://blog.dnsimple.com/2016/08/https-redirects/) before moving to the next section.
-</callout>
+</note>
 
 
 ## Redirect www to not-www (without HTTPS) {#redirect-nohttps}
 
-<warning>
+<note>
 If your application is using HTTPS, check the section [redirect www to not-www with HTTPS](#redirect-https).
-</warning>
+</note>
 
 In this scenario you have an application hosted on Heroku configured with a custom domain (e.g. `example.com`). You want to redirect the www version (`www.example.com`) to the same Heroku application (or vice-versa). **The application is not using HTTPS**.
 
@@ -73,9 +73,9 @@ In this scenario you have an application hosted on Heroku, configured with a cus
 
 In this case, [you cannot use our redirector service](/articles/redirector-https). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
 
-<warning>
+<note>
 In order to redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-host name/) with the same certificate.
-</warning>
+</note>
 
 <div class="section-steps" markdown="1">
 ##### To handle the redirect at Heroku {#redirect-https-application}

@@ -35,9 +35,9 @@ Domains in our system can go into either Redemption Grace Period or Extended Red
 
 To renew a domain in redemption status, please contact us.
 
-<note>
+<warning>
 When a domain is in the redemption status, the registrar will apply a mandatory fee on top of the standard renewal price. The final renewal price will be the standard renewal fee plus the redemption fee.
-</note>
+</warning>
 
 ### Deletion period
 
@@ -47,8 +47,8 @@ When a domain is in the redemption status, the registrar will apply a mandatory 
 
 TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc. may not follow the rules mentioned above. Specifically, they may or may not provide a grace period and a redemption period, and if they do the length of the period may be different.
 
-<note>
-Note: ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
-</note>
+<warning>
+ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
+</warning>
 
 Moreover, some TLDs have no additional periods after the expiration and they are immediately deleted.

@@ -18,11 +18,11 @@ DNSimple provides an SSL certificate renewal interface you can use to purchase a
 
 ## Renewing an SSL certificate {#order}
 
-<callout>
+<info>
 A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
 
 There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works)
-</callout>
+</info>
 
 Our [SSL certificate products](/articles/ssl-certificates#ssl-certificate-products) fall into two major classes for how renewals work:
 

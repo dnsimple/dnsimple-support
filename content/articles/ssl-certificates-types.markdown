@@ -34,9 +34,9 @@ If the certificate is valid and signed by a trusted authority, the browsers indi
 
 ![](/files/dnsimple-ssltypes-https.png)
 
-<callout>
+<info>
 DNSimple provides both [single-name and wildcard](/articles/ssl-certificates) domain-validated certificates.
-</callout>
+</info>
 
 ### Organization Validated SSL Certificates
 
@@ -50,9 +50,9 @@ The Organization Validated SSL Certificates display the company information in t
 
 ![](/files/dnsimple-ssltypes-company.png)
 
-<callout>
+<info>
 DNSimple currently doesn't provide organization-validated certificates.
-</callout>
+</info>
 
 ### Extended Validation SSL Certificates
 
@@ -66,9 +66,9 @@ The Extended Validation SSL Certificates are generally identified with a green a
 
 ![](/files/dnsimple-ssltypes-greenbar.png)
 
-<callout>
+<info>
 DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates).
-</callout>
+</info>
 
 
 ## SSL Certificates by Secured Domains
@@ -83,9 +83,9 @@ For example, if you purchase a certificate for `www.example.com` it will not sec
 
 On sole discretion of the certificate authority, if you purchase a single-name certificate for the www hostname (www.example.com) the certificate may also include the root domain.
 
-<callout>
+<info>
 DNSimple provides [single-name certificates](/articles/ssl-certificates).
-</callout>
+</info>
 
 ### Wildcard SSL Certificates
 
@@ -93,9 +93,9 @@ Wildcard SSL certificates protect an unlimited number of subdomains for a single
 
 For example, if you purchase a certificate for `*.example.com` it will secure `foo.example.com`, `bar.example.com`, etc. However, it will not secure `foo.else.example.com`.
 
-<callout>
+<info>
 DNSimple provides [wildcard certificates](/articles/ssl-certificates).
-</callout>
+</info>
 
 ### Multi-Domain SSL Certificates
 
@@ -103,9 +103,9 @@ Multi-domain SSL certificates protect different domains with a single certificat
 
 You can generally secure a combination of different host names, from the same or different domains.
 
-<callout>
+<info>
 DNSimple provides [multi-domain SAN certificates](/articles/ssl-certificates).
-</callout>
+</info>
 
 
 ## Security

@@ -61,7 +61,6 @@ To create a catch-all address follow the instructions to create an email and ent
 
 The expression represents is a period followed by an asterisk. The parenthesis are required.
 
-
 <note>
 When you use email forwarding on a domain you cannot use any other email service providers (such as Google Apps).
 </note>

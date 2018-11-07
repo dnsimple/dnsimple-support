@@ -25,6 +25,6 @@ This article explains the requirements for .IO domain names.
 When new `.IO` domains are registered with DNSimple we default to auto-renewing the domain in order to avoid issues. **Please do not disable auto-renewal on `.IO` domains unless you are absolutely sure you do not want the domain renewed**.
 </warning>
 
-<note>
+<info>
 You may receive one or more emails from the `.IO` registry *after* your .IO domain has been submitted for auto-renewal but before the domain is renewed by the `.IO` registry. As long as you have received notification from us indicating your domain has been renewed, you do not need to worry about this email.
-</note>
+</info>

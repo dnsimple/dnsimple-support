@@ -55,9 +55,9 @@ We noticed that several `.UK` domain name registrations failed because users man
 Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typos and spelling errors.
 </note>
 
-<callout>
+<tip>
 Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
-</callout>
+</tip>
 
 ## Transferring a .UK domain to DNSimple {#transfer}
 

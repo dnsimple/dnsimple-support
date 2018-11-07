@@ -18,7 +18,9 @@ categories:
 
 If you would like to use CloudFlare's DNSSEC with a domain registered through DNSimple, you may follow these instructions to set your DS record at the domain registry.
 
-Note that not all TLDs support DNSSEC at this time. If you receive an error while enabling your DS record, please [contact support](https://dnsimple.com/contact).
+<info>
+Not all TLDs support DNSSEC at this time. If you receive an error while enabling your DS record, please [contact support](https://dnsimple.com/contact).
+</info>
 
 ## Enable DNSSEC at Cloudflare
 

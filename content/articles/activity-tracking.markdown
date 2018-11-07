@@ -15,9 +15,9 @@ categories:
 
 ---
 
-<note>
+<info>
 Audit history is available only for [new plans](https://support.dnsimple.com/articles/new-plans/#newer-plans-some). Full audit history is available for Professional and Business plans whereas Personal plans audit history is limited to 30 days.
-</note>
+</info>
 
 Activity tracking provides an overview of all past changes for a specific domain or for an account as a whole.
 
@@ -37,9 +37,9 @@ Account level activity tracking can be found under the account page. Scroll down
 
 ## Events filter
 
-<note>
+<info>
 Full audit history is available only on certain plans ([Professional and Business](https://support.dnsimple.com/articles/new-plans/#newer-plans-some)).
-</note>
+</info>
 
 You can select the exact event types that you want to see and the time frame for when they happened. Along the particular event you will see:
 

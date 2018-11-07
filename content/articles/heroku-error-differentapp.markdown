@@ -11,9 +11,9 @@ You pointed your domain to Heroku, but when you access your domain from the brow
 
 This error occurs when you point a domain on DNSimple to an Heroku application, but on Heroku an application is already set up to use that custom domain.
 
-<callout>
+<info>
 The error means that your DNS is correctly resolving to Heroku. Follow the instructions below to fix the error.
-</callout>
+</info>
 
 ## Diagnosing
 
@@ -30,7 +30,9 @@ You can experience the same behaviour if the `red-turtle` application belongs to
 1. The application with the custom domain setup is yours
 2. The application with the custom domain setup belongs to someone else
 
-**Note:** Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains) and `myapp.herokuapp.com` if not.
+<info>
+Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains) and `myapp.herokuapp.com` if not.
+</info>
 
 ## Solution
 

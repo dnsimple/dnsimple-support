@@ -45,9 +45,9 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 </div>
 
-<note>
+<info>
 While this will change the NS records on your domain, our listing of records will continue to display the records our name servers would respond with, thus it will still show our NS records.
-</note>
+</info>
 
 ## Pointing the name servers to DNSimple
 

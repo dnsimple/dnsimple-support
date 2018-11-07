@@ -25,9 +25,9 @@ A common example is when you have both `example.com` and `www.example.com` point
 
 As a result, `example.com` points to the server IP address, and `www.example.com` points to the same address via `example.com`. Should the IP address change, you only need to update it in one place: just edit the A record for `example.com`, and `www.example.com` automatically inherits the changes.
 
-<warning>
+<note>
 A CNAME record must always point to another domain name, never directly to an IP address.
-</warning>
+</note>
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
 

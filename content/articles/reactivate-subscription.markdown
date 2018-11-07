@@ -9,13 +9,13 @@ categories:
 
 When you [unsubscribe](/articles/cancel-subscription) all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any point in time.
 
-<callout>
-If you were subscribed to a [Legacy Plan](/articles/new-plans#legacy-plans) you will have to choose one of our [new feature-based plans](/articles/new-plans/#newer-plans) during the reactivation process.
-</callout>
-
 <note>
-If you subscribed to DNSimple in the past you already enjoyed our 1 month trial. **Reactivating your subscription will not grant you another 30 day trial**.
+If you were subscribed to a [Legacy Plan](/articles/new-plans#legacy-plans) you will have to choose one of our [new feature-based plans](/articles/new-plans/#newer-plans) during the reactivation process.
 </note>
+
+<warning>
+If you subscribed to DNSimple in the past you already enjoyed our 1 month trial. **Reactivating your subscription will not grant you another 30 day trial**.
+</warning>
 
 
 <div class="section-steps" markdown="1">

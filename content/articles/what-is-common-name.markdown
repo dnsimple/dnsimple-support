@@ -11,11 +11,11 @@ The **Common Name** (also **CN**) identifies the host name associated with the c
 
 It consists of a single host name in case of a single-name certificate (e.g. `example.com`, `www.example.com`), or a wildcard name in case of a wildcard certificate (e.g. `*.example.com`). In all cases, it is not an URL and therefore it doesn't include any protocol (e.g. http:// or https://), port number, or pathname.
 
-<callout>
+<tip>
 #### Single-name or Wildcard?
 
 Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-names) if you need help to determine the most appropriate host names for your certificate.
-</callout>
+</tip>
 
 The common name represents the name protected by the SSL certificate. The certificate is valid only if the request hostname matches the certificate common name. Most web browsers displays a warning message when connecting to an address that does not match the common name in the certificate.
 
