@@ -1,6 +1,6 @@
 ---
 title: How to use templates
-excerpt: How to use templates to facilitate the entry of DNS records
+excerpt: How to use templates to facilitate the entry of DNS records.
 categories:
 - Templates
 ---
