@@ -52,4 +52,4 @@ If the template is applied sucessfully, you will see the new record.
 
 ![Apply the template from the record editor](/files/template-record-created.png)
 
-If the template is not be applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, if your domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.
+If the template is not being applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, if your domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.
