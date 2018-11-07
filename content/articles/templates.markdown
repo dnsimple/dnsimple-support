@@ -20,11 +20,11 @@ You can access your templates at any time for the top navigation bar, next to yo
 
 ## Creating a template
 
-To create a new template use the "Templates" link on the top navigation bar. 
+To create a new template use the <label>Templates</label> link on the top navigation bar.
+
 ![Template tab](/files/templates-tab.png)
 
-
-Click on "New Template"
+Click on <label>New Template</label>.
 
 ![Template main page](/files/template-main-page.png)
 
