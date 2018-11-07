@@ -44,13 +44,13 @@ In order to use our DNS hosting services you first need to [add the domain to a 
 You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor you can create, delete and update the DNS records that represent the DNS zone of your domain.
 
 
-## Enabling/disabling the DNS hosting for a domain
+## Enable DNS hosting
 
 <note>
 This section describes a feature that is only available to the [new plans](/articles/new-plans/#newer-plans-only).
 </note>
 
-You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
+You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
 <div class="section-steps" markdown="1">
 ##### To enable the DNS hosting
@@ -70,12 +70,17 @@ You can enable/disable the DNS hosting service for a previously disabled domain 
 
 Each new domain added to an account has DNS hosting enabled by default, regardless if you register/transfer the domain or you simply add it.
 
+
+## Disable DNS hosting
+
+You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
+
 <div class="section-steps" markdown="1">
 ##### To disable the DNS hosting
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  If you have multiple accounts, select your account in the navigation bar.
+1.  Click the <label>Domains</label> tab, and locate the relevant domain name to access the domain page.
 1.  Switch to the <label>DNS</label> tab.
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
