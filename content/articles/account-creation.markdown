@@ -16,12 +16,13 @@ categories:
 
 ## New user account
 
-To sign up for an account go to the [DNSimple website](https://dnsimple.com) and click on *Get Started Now*. Fill out the details and press *Sign up*.
+To sign up for an account, go to the [DNSimple website](https://dnsimple.com) and click <label>Sign up</label> or <label>Create an account now</label>. Fill in your details, and select <label>Join DNSimple</label>.
 
-You now have a DNSimple account and can begin adding domain names and records.
+That's it! You now have a DNSimple account. 
 
-You will not be able to register a new domain, nor will your domains resolve, until you activate your account by providing your payment details. You may, however, try out the site and see how to manage domains without activating your account.
+Feel free to explore and see how to manage domains without activating your account.
+Provide payment details to activate your account and start registering domains and adding records. 
 
 ## Adding additional accounts
 
-DNSimple allows a user to manage multiple accounts. If you have already signed up for DNSimple, but would like to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
+DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
