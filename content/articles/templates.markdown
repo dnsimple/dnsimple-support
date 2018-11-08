@@ -1,6 +1,6 @@
 ---
 title: How to use templates
-excerpt: How to use templates to facilitate the entry of DNS records
+excerpt: How to use templates to facilitate the entry of DNS records.
 categories:
 - Templates
 ---
@@ -12,15 +12,20 @@ categories:
 * TOC
 {:toc}
 
-## What are templates?
+---
 
 Templates are reusable groups of DNS records that can be applied to any of your domains. They speed up the entry of DNS records and reduce possible mistakes like typos and other errors.
 
 You can access your templates at any time for the top navigation bar, next to your domains and contacts.
 
+
 ## Creating a template
 
-To create a new template, browse to `https://dnsimple.com/templates` or use the "templates" link on the top navigation bar. Click on "New Template"
+To create a new template use the <label>Templates</label> link on the top navigation bar.
+
+![Template tab](/files/templates-tab.png)
+
+Click on <label>New Template</label>.
 
 ![Template main page](/files/template-main-page.png)
 
@@ -33,6 +38,7 @@ Now that you have the basic information for the template, it is time to create t
 The keyword `{{domain}}` automatically fills in the domain name to which the template is applied. The symbol `@` can also be used as it is equivalent to `{{domain}}`.
 
 ![Template new record](/files/template-new-record.png)
+
 
 ## Applying a template
 
@@ -48,4 +54,4 @@ If the template is applied sucessfully, you will see the new record.
 
 ![Apply the template from the record editor](/files/template-record-created.png)
 
-If the template is not be applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, ifyour domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.
+If the template is not being applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, if your domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.

@@ -74,7 +74,7 @@ In this scenario you have an application hosted on Heroku, configured with a cus
 In this case, [you cannot use our redirector service](/articles/redirector-https). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
 
 <note>
-In order to redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-host name/) with the same certificate.
+In order to redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-names) with the same certificate.
 </note>
 
 <div class="section-steps" markdown="1">
