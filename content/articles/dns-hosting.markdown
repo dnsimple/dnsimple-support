@@ -56,7 +56,7 @@ You can enable the DNS hosting service for a previously disabled domain from the
 ##### To enable the DNS hosting
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
+1.  If you have multiple accounts, select your account in the navigation bar.
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Switch to the <label>DNS</label> tab.
 
@@ -72,8 +72,6 @@ Each new domain added to an account has DNS hosting enabled by default, regardle
 
 
 ## Disable DNS hosting
-
-You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
 <div class="section-steps" markdown="1">
 ##### To disable the DNS hosting
