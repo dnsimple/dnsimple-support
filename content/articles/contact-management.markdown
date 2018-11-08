@@ -34,7 +34,7 @@ You can also create a new contact at any time through the contact page.
 
 If a contact is associated with a domain, updating that contact updates all the contact information associated with these domains. You don't need to individually update these domains if they point to the same contact.
 
-If you wish to update a specific domain only, you can either [replace the contact entirely](/article/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact) like we just mentioned to make that change.
+If you wish to update a specific domain only, you can either [replace the contact entirely](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact) like we just mentioned to make that change.
 
 ### Deleting a contact
 
