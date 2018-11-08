@@ -45,7 +45,9 @@ Additionally, a message will appear indicating that your domain is suspended:
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
-Note that if your domain is suspended it may take between 24 to 48 hours for the suspension to be removed once you have verified the registrant email address.
+<note>
+If your domain was suspended, it may take between 24 to 48 hours for the suspension to be removed once you have verified the registrant email address.
+</note>
 
 ## What happens if the registrant email address cannot receive email?
 

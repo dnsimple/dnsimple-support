@@ -18,9 +18,9 @@ With DNSimple you can request an SSL certificate that you can install on [Micros
 
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Microsoft Windows IIS.
 
-<callout>
+<tip>
 Before you start, please take a moment to review [information and prices](/articles/ssl-certificates) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates).
-</callout>
+</tip>
 
 
 ## Obtain the SSL certificate

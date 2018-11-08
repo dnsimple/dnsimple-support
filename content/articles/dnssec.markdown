@@ -7,13 +7,13 @@ categories:
 
 # DNSSEC
 
-<note>
+<info>
 This article describes a feature in Public Beta.
-</note>
+</info>
 
-<note>
+<info>
 This article describes a feature that is only available with [new plans](/articles/new-plans#newer-plans-only).
-</note>
+</info>
 
 ### Table of Contents {#toc}
 
@@ -32,9 +32,9 @@ We support DNSSEC in the following ways:
 - If your domain is registered through DNSimple but you host your DNS with another authoritative DNS provider, then you may add DS records for DNSSEC-enabled zones.
 - If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, then you may sign zones in our name servers, but you're required to handle the creation and rotation of DS records.
 
-<warning>
+<note>
 We do not support DNSSEC for zones using our outbound secondary DNS feature.
-</warning>
+</note>
 
 ## Managing DNSSEC
 

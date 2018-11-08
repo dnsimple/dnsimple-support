@@ -25,6 +25,6 @@ Extra Accounts created have their own email address that can be changed ad-hoc. 
 
 </div>
 
-<warning>
+<info>
 If the <label>Account email</label> input field is missing under <label>Edit account</label> then this is a Primary account attached to your user. You will need to [update your user email to change this addreess](/articles/changing-user-email/)
-</warning>
+</info>

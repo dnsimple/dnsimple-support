@@ -46,9 +46,9 @@ The email validation process consists of a few steps:
 
 **The approval email cannot be an arbitrary email** such as a customer-provided email or the email in your DNSimple account.
 
-<callout>
-Remember: the goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
-</callout>
+<note>
+The goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
+</note>
 
 The approval email typically can be sent to the following addresses, called administrative emails:
 
@@ -71,9 +71,9 @@ If the Whois Privacy is enabled for the domain associated with the certificate, 
 
 [Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
 
-<callout>
+<info>
 Once you disable Whois Privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
-</callout>
+</info>
 
 
 ## Email validation and GDPR {#gdpr}

@@ -9,9 +9,9 @@ categories:
 
 After unsubscribing you will no longer be charged a monthly/yearly fee and your domains will no longer resolve with us. You may resubscribe at any time and your domains will resolve again.
 
-<callout>
+<info>
 All your domains and records will remain in your account.
-</callout>
+</info>
 
 <div class="section-steps" markdown="1">
 ##### To unsubscribe your DNSimple plan:

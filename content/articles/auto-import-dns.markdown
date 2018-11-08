@@ -7,9 +7,9 @@ categories:
 
 # Auto-importing DNS records
 
-<note>
+<info>
 This article describes a feature that's only available with [new plans](/articles/new-plans#newer-plans-only).
-</note>
+</info>
 
 Auto-importing DNS records can help you reduce downtime on your domain transfer, or when hosting the DNS for your domain with us.
 

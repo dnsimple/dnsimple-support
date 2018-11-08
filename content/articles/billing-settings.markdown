@@ -38,9 +38,9 @@ It is possible to deliver your invoices to a different email address that the on
 
 </div>
 
-<note>
+<info>
 You will be able to customize your billing email only if you are subscribed to one of the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
-</note>
+</info>
 
 
 ## Customize billing information
@@ -49,9 +49,9 @@ It is possible to replace the billing email with custom information on all your 
 
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
-<warning>
+<info>
 You can modify this information anytime and as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice please [contact support](https://dnsimple.com/contact).
-</warning>
+</info>
 
 ### Changing your billing settings
 

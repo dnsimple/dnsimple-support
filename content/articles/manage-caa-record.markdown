@@ -14,9 +14,9 @@ categories:
 
 ---
 
-<note>
+<info>
 This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
-</note>
+</info>
 
 You can manage [CAA records](/articles/caa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
 

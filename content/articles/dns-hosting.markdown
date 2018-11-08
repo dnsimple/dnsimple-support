@@ -46,9 +46,9 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 
 ## Enabling/disabling the DNS hosting for a domain
 
-<note>
+<info>
 This section describes a feature that is only available to the [new plans](/articles/new-plans/#newer-plans-only).
-</note>
+</info>
 
 You can enable/disable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 

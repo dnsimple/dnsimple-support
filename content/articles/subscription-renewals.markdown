@@ -22,9 +22,9 @@ The amount to be charged depends on:
 - The number of extra domains you have in your account; and
 - The number of domains that have email forwards configured.
 
-<note>
+<tip>
 If you want to know the exact amount you will be charged in your next renewal, and when your subscription is due to renew, you can find this information on [the account page](/articles/new-account-page/#plan-breakdown).
-</note>
+</tip>
 
 ## What happens when my subscription is renewed
 
@@ -39,9 +39,9 @@ If this happens, please don't panic. Your account will not be canceled, and your
 
 **Our system will try to renew the subscription and collect the payment daily** during that period. You will be notified about the outcome of these attempts.
 
-<note>
+<info>
 You won't be able to manually retry the payments for subscription renewal fees. You will have to wait for our system to automatically do that for you.
-</note>
+</info>
 
 <note>
 If you know that you won't be able to provide a valid card number before your subscription gets canceled, [please contact us](https://dnsimple.com/contact).

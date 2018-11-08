@@ -40,9 +40,9 @@ Request the change of the IPS TAG to `ENOM` (this is case-sensitive, so make sur
 
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
 
-<callout>
+<info>
 We will only charge your credit card for the transfer once it has completed.
-</callout>
+</info>
 
 ## Transfer status
 
@@ -60,9 +60,9 @@ To avoid unexpected downtime and confusion, we don't change the domain name serv
 
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click or [manually configure the name servers](/articles/setting-name-servers).
 
-<note>
+<warning>
 Generally, we suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
-</note>
+</warning>
 
 ### Expiration extension
 

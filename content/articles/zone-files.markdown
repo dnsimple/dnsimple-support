@@ -53,9 +53,9 @@ You can export your domain's records into a [zone file](#whats-a-zone-file).
 
 The resulting zone file will allow you to copy over all the domain's records to a third-party system. You can also keep the zone file as a backup of your domain's records.
 
-<warning>
+<info>
 The non-standard records like [ALIAS](/articles/alias-record) and [POOL](/articles/pool-record) will be commented out in the resulting file.
-</warning>
+</info>
 
 <div class="section-steps" markdown="1">
 ##### How to export your domain's records to a zone file

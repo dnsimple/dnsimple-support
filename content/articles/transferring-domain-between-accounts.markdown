@@ -15,9 +15,9 @@ categories:
 
 You can transfer (_move_) a domain between DNSimple accounts at any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account, once the move is accepted. Moving a domain to another account will also transfer all the associated resources, such as DNS records, SSL certificates and email forwards.
 
-<note>
+<warning>
 Once the move is accepted, you will no longer be able to manage the domain.
-</note>
+</warning>
 
 ## Initiate move
 
@@ -43,6 +43,6 @@ Click the <label>Accept</label> button where you will be prompted to assign an e
 
 To reject a move, simply click the <label>Decline</label> button on the list of pending pushes and confirm that you really want to decline the push.
 
-<note>
+<info>
 If you decline a move request, the domain will remain in the posession of the original owner.
-</note>
+</info>

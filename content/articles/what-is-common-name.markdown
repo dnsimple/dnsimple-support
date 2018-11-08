@@ -27,11 +27,11 @@ The common name is not a URL. It doesn't include any protocol (e.g. http:// or h
 
 It must precisely match the server name where the certificate is installed. If the certificate is issued for a subdomain, it should be the full subdomain. For instance, for the `www` and `api` subdomains of `example.com`, the common name will be `www.example.com` or `api.example.com`, and not `example.com`.
 
-<callout>
+<tip>
 #### Single-name or Wildcard?
 
 Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-names) for help determining the appropriate host names for your certificate.
-</callout>
+</tip>
 
 ##### Example of host name mismatch error on Google Chrome
 

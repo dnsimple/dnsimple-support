@@ -15,9 +15,9 @@ If you would like to keep your contact information private for a domain then you
 
 This service will replace the public information that you provide with an anonymous proxy identity in the public WHOIS database. This includes replacing your email address with a proxy email address and replacing your address and contact information with the information from an entity called "Whois Privacy Protection Service, Inc.".
 
-<note>
+<info>
 The WHOIS privacy protection service is not provided directly by DNSimple, nor we are associated with the company Whois Privacy Protection Service, Inc.
-</note>
+</info>
 
 Here is an example of the the WHOIS data for a domain that has WHOIS Privacy Protection enabled:
 

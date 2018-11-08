@@ -72,17 +72,17 @@ If you have ordered a Standard certificate, you have a bit more work to do.
 
 [Select the SSL certificate validation email](/articles/ssl-certificates-email-validation/#select-email) and submit your certificate for validation.
 
-<warning>
+<note>
 The validation email must be a valid recipient, an email will be sent to validate the certificate. [Learn more about email validation](/articles/ssl-certificates-email-validation).
-</warning>
+</note>
 
 After submitting your request you will receive a message containing a link to validate your identity and domain ownership at the email address you selected. Be sure to check your junk folder in case it was inadvertently routed there.
 
 Click on the link to approve and issue the certificate.
 
-<note>
+<info>
 [It may take some time](/articles/how-long-to-issue-ssl-certificate) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
-</note>
+</info>
 
 ## Install the certificate {#install}
 

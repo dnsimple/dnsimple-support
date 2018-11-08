@@ -15,6 +15,6 @@ This is one of the most common uses of DNSimple [API](https://dnsimple.com/api).
 
 For details on all the functionality of our API and different tools to set up basic Dynamic IP with our API check out [the tools page on our developer site](https://developer.dnsimple.com/tools/).
 
-<note>
+<info>
 We currently do not support the dyndns API. This is what most routers use when they talk about DDNS.
-</note>
+</info>

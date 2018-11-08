@@ -18,9 +18,9 @@ This article explains how to update the public WHOIS information associated with
 
 To check the existing public WHOIS record for a domain you can use our [WHOIS tool](https://dnsimple.com/whois).
 
-<note>
+<info>
 You cannot currently change the Registrant, Administrative, and Technical record separately in our system. When you change the contact of a domain, our system will automatically attempt to update Registrant, Technical and Admin contacts together.
-</note>
+</info>
 
 ## Changing or updating WHOIS information
 

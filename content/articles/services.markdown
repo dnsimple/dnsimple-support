@@ -57,9 +57,9 @@ Here they are in alphabetical order:
 * Windows Azure
 * Wordpress
 
-<callout>
+<info>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
-</callout>
+</info>
 
 
 ## Adding a service

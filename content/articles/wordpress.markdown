@@ -20,9 +20,9 @@ There are two versions of WordPress:
 
 ## Hosted WordPress
 
-<note>
+<tip>
 This is the recommended way to use WordPress with DNSimple, as you will not need any web hosting service. Your WordPress instance will be hosted and managed by WordPress.com.
-</note>
+</tip>
 
 [WordPress.com](https://wordpress.com/) is the popular version of the WordPress platform hosted by Automattic, the creators of WordPress.
 

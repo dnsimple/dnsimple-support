@@ -19,6 +19,6 @@ We make domain registration effortless:
 We keep things straightforward. All domains registered with DNSimple automatically use DNSimple’s name servers and hosted DNS. And we'll never sell you anything you don't need. 
 
 
-<callout>
+<info>
 We currently don't offer domain registration as a stand-alone service. Since [domain services](/articles/dnsimple-services) are our core business, DNSimple registration requires a subscription. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
-</callout>
+</info>

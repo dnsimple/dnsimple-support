@@ -13,9 +13,9 @@ Once email forwarding is configured for your domain you may wish to confirm it i
 
 To properly test that email forwarding works with Gmail, please use an entirely separate account from the one that will receive forwarded messages.
 
-<warning>
+<note>
 #### Test emails not appearing in Gmail
 
 Google silently ignores messages it determines were sent and received from the same account. This will occur even if the message is forwarded through another address.
-</warning>
+</note>
 
