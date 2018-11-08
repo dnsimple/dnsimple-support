@@ -5,7 +5,7 @@ is_hidden: true
 
 # Page Not Found
 
-It looks like you've stumbled accross a URL that no longer works. Here are some things you can do:
+Looks like you've stumbled accross a URL that no longer works. Here are some things you can do:
 
 * Search for articles above, or click on one of the topics to the left.
 * Contact us at [support@dnsimple.com](mailto:support@dnsimple.com) and let us know there's a broken link. We'll get it fixed for you.
