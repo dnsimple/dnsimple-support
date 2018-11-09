@@ -19,7 +19,7 @@ The **Record Editor** is the DNSimple DNS editor. The editor gives you the abili
 Any [supported DNS record type](/articles/supported-dns-records) can be managed from the record editor, except system records.
 
 
-## Access the record editor
+## Locating the record editor
 
 To access the record editor from your dashboard, click on the records icon.
 
@@ -38,7 +38,7 @@ System Records are special DNS records created by DNSimple when you add a domain
 
 The system records include a [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple name servers.
 
-## Add a record
+## Adding a record
 
 From the <label>Add a Record</label> menu select a DNS record type and click on the type to enter the new record page. DNSimple supports [several different DNS record types](/articles/supported-dns-records).
 
@@ -61,14 +61,14 @@ Enter the required infomation and press <label>Add Record</label> to create the 
 - [URL records](/articles/manage-url-record)
 
 
-## Edit a record
+## Updating a record
 
 To modify a record, click on the edit icon at the end of the record row.
 
 ![Update Record](/files/rec-editor-edit.png)
 
 
-## Delete a record
+## Deleting a record
 
 To delete a record, click on the trash icon at the end of the record row.
 
