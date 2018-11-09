@@ -194,6 +194,9 @@ p + .marker {
   display: inline-block;
   width: auto;
 }
+input.form-control.search-query {
+  box-shadow: $shadow-inner;
+}
 
 // Sidebar
 // -------------------------
