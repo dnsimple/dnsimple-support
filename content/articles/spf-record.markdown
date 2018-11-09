@@ -67,7 +67,14 @@ The `include` mechanism allows you to authorize hosts outside of your administra
 
 The `all` mechanism matches any address. This is usually used as the last mechanism which defines how to handle any sender IP that did not match the previous mechanisms.
 
-All mechanisms may specify qualifiers for how to handle a match. As previously mentioned, the default handling rule is pass, which is the same as the `+` qualifier. Other qualifiers that may be specified include `-` for fail, `~` for soft fail, and `?` for neutral. If a mechanism matches and specifies `-` (fail) then
+All mechanisms may specify qualifiers for how to handle a match:
+
+- `+` for pass
+- `-` for fail
+- `~` for soft fail
+- `?` for neutral
+
+As previously mentioned, the default handling rule is pass, which is the same as the `+` qualifier.
 
 
 ## SPF Modifiers
