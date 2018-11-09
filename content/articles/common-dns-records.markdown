@@ -7,16 +7,14 @@ categories:
 
 # Common DNS Records
 
-DNS is full of jargon - look, I can't even say the name without resorting to an acronym (and [domain name service](https://dnsimple.com) isn't much better). The good news is that most domain names only need a few things to function correctly.
+### Table of Contents {#toc}
 
-First, if you are using any one of the services we support (like Google Apps, Heroku, Posterous, etc.) then you should just use our services feature to add the services you need to the domain. It's pretty simple: log in, go to the domain's manage page and click *Add Services to Domain*.
+* TOC
+{:toc}
 
-In addition most domains will likely want to lead visitors to a web site. Your hosting company will often provide you with 1 or more IP addresses for your web site. These will be something like `34.23.149.20`.
+---
 
-To point your domain to an IP address like this add an [A record](/articles/a-record). Leave the Name field blank and fill in the Address field with the address provided by your hosting company. If you host with someone like Heroku or Amazon AWS, where they provide you a hostname instead of an IP address, then you can use the [DNSimple ALIAS record](/articles/alias-record) to point `yourdomain.com` to the hostname.
+The Domain Name System (DNS) is composed by more than 30 different record types (technically called resource records): [A](/articles/a-record), [AAAA](/articles/aaaa-record), [CNAME](/articles/cname-record), [MX](/articles/mx-record), [CAA](/articles/caa-record), etc. Some record types are very common, others less relevant, and others deprecated or replaced.
 
-You may also want to have `www.yourdomain.com` point to `yourdomain.com`.
-
-1. Create a [CNAME record](/articles/cname-record) with the name `www` and with value `yourdomain.com`.
-2. Create an URL forwarding record pointing the name `www` to `http://yourdomain.com` which will cause the URL visitors see to switch `www.yourdomain.com` to `yourdomain.com`.
+[DNSimple supports the most common and traditional record types](/articles/supported-dns-records), as well some newer types introduced to provide innovative services. In this article we'll look at the most common record types, as well the most common DNS records you are likely need for your domain to work properly.
 
