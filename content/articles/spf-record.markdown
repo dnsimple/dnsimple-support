@@ -25,7 +25,9 @@ SPF records are typically defined using the TXT record type. There is also an SP
 
 SPF records are defined as a single string of text. Here is an example record:
 
-   v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
+```
+v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
+```
 
 The SPF record always starts with the `v=` element. This indicates the SPF version that is used. Right now the version should always be `spf1` as this is the most common version of SPF that is understood by mail exchanges.
 
