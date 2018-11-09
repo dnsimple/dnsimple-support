@@ -26,7 +26,7 @@ The most common DNS record types are:
 | Type | Description |
 |------|-------------|
 | [`A` record](/articles/a-record) | The most popular type, you use the A record to create a DNS record that points to an IPv4 address. It allows you to use memonic names, such as `www.example.com`, in place of IP addresses, like `127.0.0.1`. |
-| [`CNAME` record](/articles/a-record) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations, or to simplify the maintenance of multiple records connected to the same IP address. In the last few years its use has increased, since it's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
+| [`CNAME` record](/articles/a-record) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations, or to simplify the maintenance of multiple records connected to the same IP address. Its use has increased in the last few years, since it's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
 | [`MX` record](/articles/mx-record) | This record is used to identify the servers mail should be delivered to for a domain. You need to have these records configured in order to receive emails. |
 | [`TXT` record](/articles/txt-record) | This record allows domain administrators to insert any text content into DNS records. These records are used for various purposes. One common example is ownership validation: To prove you own the domain, a provider may require you to add a TXT record with a particular value to your domain. |
 | [`NS` record](/articles/ns-record) | This record is used to delegate a subzone to a set of name servers. It's common, because these are the types of records you need to modify when you want to delegate a domain to a DNS provider. Each domain must have a minimum of 1 NS record. The average number is 3-4. |
@@ -47,7 +47,7 @@ This article assumes `example.com` is your domain name.
 
 Each domain needs to have a record for the root domain. Otherwise your domain won't resolve, and accessing the URL in the browser will return a resolution error.
 
-In most cases, this configuration is an A record pointing to the IP where your site is hosted. However, it can also be an ALIAS if your site is hosted elsewhere (this is common when you want to point your root domain to a cloud service, such as Heroku, Netlify, GitHub, etc.) or a URL record, if this domain needs to redirect elsewhere.
+In most cases, this configuration is an A record pointing to the IP where your site is hosted. However, it can also be an ALIAS if your site is hosted elsewhere (this is common when you want to point your root domain to a cloud service, such as Heroku, Netlify, GitHub, etc.), or a URL record if this domain needs to redirect elsewhere.
 
 <div class="section-steps" markdown="1">
 ##### To verify
@@ -87,7 +87,7 @@ Using an ALIAS record for the `www` subdomain is not incorrect, however it's gen
 ##### To verify
 
 1. Use `dig www.example.com` to check the presence of a www record.
-1. The answer should return at least one A record, or exactly one CNAME record as below:
+1. The answer should return at least one A record or exactly one CNAME record as below:
 
     ```
     dig www.dnsimple.com
@@ -107,7 +107,7 @@ Using an ALIAS record for the `www` subdomain is not incorrect, however it's gen
 
 ### 3. MX email records
 
-If you want to receive emails for your domain, you need to have at least one MX record pointing to your doamin mail server. For rendudancy, there are generally 2 or more MX records, each of them with a different content and priority.
+If you want to receive emails for your domain, you need to have at least one MX record pointing to your doamin mail server. For rendudancy, there are generally two or more MX records, each with a different content and priority.
 
 <div class="section-steps" markdown="1">
 ##### To verify
