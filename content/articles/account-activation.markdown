@@ -18,6 +18,7 @@ Activation is easy and includes a free 30 day trial. You can cancel at any time 
 1. Choose either <label>Individual</label> or <label>Business</label>, and click <label>Continue</label>.
 1. Decide which plan has the best features for your needs, and click <label>Begin 30 day trial</label>.
 1. Enter your payment information and click <label>Start my free trial</label>.
+</div>
 
 <note>
 If you're resubscribing to DNSimple, you won't have a new 30 day trial period. Your credit card will be billed immediately.
