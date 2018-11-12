@@ -64,6 +64,9 @@ h2 {
   background: $gray-200;
   border-radius: 0px;
   box-shadow: -6px 0 0 0 $gray-600;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+
   > p {
     padding: 1rem 1rem 1rem 2.5rem;
   }
@@ -78,24 +81,20 @@ h2 {
   }
 }
 
+.marker-info:before {
+  content: "\f05a";
+}
+
 .marker-tip {
-  box-shadow: -6px 0 0 0 $red;
+  box-shadow: -6px 0 0 0 $green;
 
   &:before {
     content: "\f00c";
   }
 }
 
-.marker-info {
-  box-shadow: -6px 0 0 0 $blue;
-
-  &:before {
-    content: "\f05a";
-  }
-}
-
 .marker-note {
-  box-shadow: -6px 0 0 0 $green;
+  box-shadow: -6px 0 0 0 $yellow;
 
   &:before {
     content: "\f071";
@@ -107,6 +106,7 @@ h2 {
 
   &:before {
     content: "\f06a";
+    color: $orange;
   }
 }
 
