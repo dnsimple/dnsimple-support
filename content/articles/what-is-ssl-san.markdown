@@ -7,11 +7,26 @@ categories:
 
 # What is the SSL Certificate Subject Alternative Name?
 
-The **Subject Alternative Name** (SAN) is an extension to the X.509 specification that allows to specify additional host names for a single SSL certificate.
+### Table of Contents {#toc}
 
-## What is a SAN certificate
+* TOC
+{:toc}
 
-In practice, when using the term SAN certificates, we are referring to an SSL certificate that has the ability to cover multiple host names (domains), also called [multi-domain SSL certificate](/articles/ssl-certificates-types/#multi-domain-ssl-certificates).
+---
+
+The **Subject Alternative Name** (SAN) is an extension to the X.509 specification that allows to specify additional host names for a single SSL certificate. The use of the SAN extension is currently a standard practice for SSL certificates, and it is on its way to [replace entirely the use of the common name](/articles/what-is-common-name/#common-name-vs-subject-alternative-name).
+
+## SAN certificates
+
+A **SAN certificate** is a term often used to refer to a multi-domain SSL certificate](/articles/ssl-certificates-types/#multi-domain-ssl-certificates), an SSL certificate with more than one name is associated using the SAN extension.
+
+There is a subtle difference though. When using the term multi-domain certificates, we are generally referring to an SSL certificate that has the ability to cover multiple host names (domains). If we use the term SAN certificates we are more probably referring to the fact a particular certificate that includes any name in the SAN extension.
+
+From the technical standpoint, every certificate issued today is effectively a SAN certificate as the CA/B forum requires the certification authority to add the content of the common name to the SAN as well. Therefore, even if the certificate covers a single name, it will stil use the SAN extension and include that single name in it.
+
+In practice, the terms SAN certificates and multi-domain certificates are used today as sinonimous, and generally to indicate a certificate product where the issuers can associate more than one domain by specify the content of the SAN (directly or indirectly). These certificates are often market as "special" and priced differently than standard certificates, as you are given the ability to associate more than one name.
+
+## SAN restrictions
 
 There is no specific limitation on the host names you can cover by a SAN extension, besides the requirement to be syntactically valid host names (further details are available in the [RFC](https://tools.ietf.org/html/rfc6818)). However, certificate authorities may impose further limitations on number or formats based on internal rules or business decisions.
 
@@ -28,12 +43,11 @@ foo.bar.hello.com
 another.domain.com
 ```
 
-## SAN Certificates and DNSimple
+## SAN certificates and DNSimple
 
 DNSimple provides SAN SSL certificates issued by the [Let's Encrypt](/articles/letsencrypt) certification authority.
 
-But there is a limitation on general SAN rules described above.
-All the names must belong to the same domain:
+For a current platform limitation, all the names must belong to the same domain:
 
 ```
 example.com
