@@ -28,53 +28,20 @@ h2 {
 // Markers
 // ---------------
 
-//@mixin marker($color, $background) {
-//  color: $gray-700;
-//  background: $background;
-//  border: $gray-300 1px solid;
-//  border-radius: 0px;
-//  box-shadow: -6px 0 0 0 $color;
-//  a {
-//    color: $black !important;
-//    text-decoration: underline;
-//  }
-//  > h4 {
-//    display: inline;
-//  }
-//  > p {
-//    padding-left: 2 * $base-unit;
-//    &:first-child {
-//      display: inline;
-//      padding-left: 0;
-//    }
-//  }
-//  &:before {
-//    font-size: 16px;
-//    display: block;
-//    float: left;
-//    padding-right: 1rem;
-//    font-family: FontAwesome;
-//    line-height: 140%;
-//    color: $gray-600;
-//  }
-//}
-
 .marker {
   color: $gray-700;
   background: $gray-200;
+  padding: 1rem 1rem 1rem 4rem;
   border-radius: 0px;
   box-shadow: -6px 0 0 0 $gray-600;
-  margin-left: 0.5rem;
-  margin-right: 2rem;
+  margin: 0 2rem 1rem 0.5rem;
 
-  > p {
-    padding: 1rem 1rem 1rem 2.5rem;
-  }
   &:before {
-    font-size: 16px;
     display: block;
     float: left;
-    padding: 1.2rem 1rem 1rem 1.5rem;
+    margin-left: -2.5rem;
+    padding-top: 1.2rem;
+    font-size: 16px;
     font-family: FontAwesome;
     line-height: 140%;
     color: $gray-600;
