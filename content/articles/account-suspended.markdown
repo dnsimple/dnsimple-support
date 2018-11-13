@@ -7,7 +7,7 @@ categories:
 
 # Suspended Account
 
-There are a variety of reasons your account may be suspended. These reasons include:
+There are a variety of reasons your account may be suspended, including:
 
 - Non-payment of your monthly or yearly subscription fee.
 - Chargebacks issued against your account.
@@ -17,6 +17,6 @@ There are a variety of reasons your account may be suspended. These reasons incl
 
 ## What to do if your account is suspended
 
-If you attempt to log in and you receive an error message indicating your account is suspended, please contact us directly at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) and we will help you get your account back in working order.
+If you attempt to log in and receive an error message indicating your account is suspended, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact). We'll help you get your account back in working order.
 
-If your email address is under a domain that is in the suspended account, please use an alternate email address to contact us so we may reply. You should include the email address for your account in the body of your support request.
+If your email address is under a domain in the suspended account, please use an alternate email address to contact us. Include the email address for your account in the body of your support request.

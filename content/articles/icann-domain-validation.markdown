@@ -13,13 +13,14 @@ When you make a change to your registrant's email address or name, you will rece
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
-This email will be sent from the address `DNSimple <donotreply@name-services.com>` and will include a link similar to the following:
-
-`http://raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
+This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <registrant-verification@ispapi.net>` and will include a link similar to the following:
+- `http://raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
+- `http://www.enom.com/raaverification/verification.aspx?VerificationCode=AAAAAAAA-1A11-11AA-1A1A-1111111111`
+- `http://registrant-email-verification-ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
 
 Click the link to verify the registrant email address.
 
-The link must be to `http://raa.name-services.com` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
+The link must be to `http://raa.name-services.com`, `http://www.enom.com`, or `http://registrant-email-verification-ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
 
 ## Resend verification email
 
