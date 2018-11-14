@@ -33,8 +33,8 @@ When you enable the service the first time, the service cost will be charged on 
 ##### Enable WHOIS Privacy from the domain list {#enable-whois-domain-list}
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That icon will indicate whether the WHOIS Privacy protection service is enabled for the domain:
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That icon will indicate whether the WHOIS Privacy protection service is enabled for the domain:
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
@@ -56,8 +56,8 @@ When you enable the service the first time, the service cost will be charged on 
 ##### Enable WHOIS Privacy from the domain page {#enable-whois-domain-page}
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the _Contact_ card. It will display information about whether the WHOIS Privacy service is enabled.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
@@ -88,8 +88,8 @@ Once you disable the WHOIS Privacy protection the contact details of your domain
 ##### Disable WHOIS Privacy from the domain list {#disable-whois-domain-list}
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That icon will indicate whether the WHOIS Privacy protection service is enabled for the domain:
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab. Locate the relevant domain and look for the _shield_ icon. That icon will indicate whether the WHOIS Privacy protection service is enabled for the domain:
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
@@ -107,8 +107,8 @@ Once you disable the WHOIS Privacy protection the contact details of your domain
 ##### Disable WHOIS Privacy from the domain page {#disable-whois-domain-page}
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the _Contact_ card. It will display information about whether the WHOIS Privacy service is enabled.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)
@@ -127,8 +127,8 @@ While we will send an email reminder when the WHOIS Privacy on a domain is due t
 
 <div class="section-steps" markdown="1">
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the _Contact_ card.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)

@@ -31,8 +31,8 @@ Importing a zone file won't delete or replace the existing domain's records.
 ##### How to import records from zone file
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top menu click on the <label>Domains</label> tab.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click on the <label>Domains</label> tab.
 1.  Locate the relevant domain and click on the name to access the domain page.
 1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
 1.  Click on the <label>Import from a zone file</label> link inside the zones card.
@@ -61,8 +61,8 @@ The non-standard records like [ALIAS](/articles/alias-record) and [POOL](/articl
 ##### How to export your domain's records to a zone file
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top menu click on the <label>Domains</label> tab.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click on the <label>Domains</label> tab.
 1.  Locate the relevant domain and click on the name to access the domain page.
 1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
 1.  Click on the <label>Export to a zone file</label> link inside the zones card.
