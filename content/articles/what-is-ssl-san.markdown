@@ -32,9 +32,9 @@ There's no specific limitation on the host names you can cover with a SAN extens
 
 For example, it's common practice to disallow arbitrary wildcard names as SAN host names. This means SAN certificates generally support only a specific list of names.
 
-It's also common to encounter a limit on the number of names per certificate. The common practice is to set a limit of up to 100 names per certificate.  
+It's also common to encounter a limit on the number of names per certificate, usually up to 100.  
 
-Finally, names are generally not required to belong to the same domain. It's perfectly fine for a certificate to cover a list of names like the following:
+Finally, names are generally not required to belong to the same domain. It's fine for a certificate to cover a list of names like this:
 
 ```
 example.com
@@ -47,7 +47,7 @@ another.domain.com
 
 DNSimple provides SAN SSL certificates issued by the [Let's Encrypt](/articles/letsencrypt) certification authority.
 
-For a current platform limitation, all the names must belong to the same domain:
+For current platform limitation, all the names must belong to the same domain:
 
 ```
 example.com
@@ -62,6 +62,6 @@ The X.509 specifications regulate the _Internet X.509 Public Key Infrastructure 
 
 The common name represents the host name that's covered by the SSL certificate. Trying to use the certificate for a website that doesn't match the common name will result in a security error, also known as _host name mismatch_ error. 
 
-After the original specificaton, it became clear that it would be helpful to have a single certificate to cover multiple host names. The most common example is the case of a single certificate that covers both the root domain and the www subdomain. In fact, it's very common to reuse the same SSL certificate for `example.com` and `www.example.com`.
+After the original specificaton, it became clear it would be helpful to have a single certificate to cover multiple host names. The most common example is a single certificate covering both the root domain and the www subdomain. In fact, it's common to reuse the same SSL certificate for `example.com` and `www.example.com`.
 
 The X.509 specification allows users to define extensions to be attached to a [Certificate Signing Request (CSR)](/articles/what-is-csr) and the final server certificate. Using the SAN extension, it's possible to specify several host names in the `subjectAltName` field of a certificate. Each of these names will be considered protected by the SSL certificate.
