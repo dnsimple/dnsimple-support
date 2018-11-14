@@ -24,15 +24,15 @@ There's a subtle difference though. When using the term 'multi-domain certificat
 
 From a technical standpoint, every certificate issued today is effectively a SAN certificate, as the CA/B forum requires the certification authority to add the content of the common name to the SAN as well. Even if the certificate covers a single name, it will still use the SAN extension and include that single name.
 
-In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where the issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often market as "special" and priced differently than standard certificates, as you can associate more than one name.
+In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often marketed as "special" and priced differently than standard certificates, because you can associate more than one name.
 
 ## SAN restrictions
 
-There's no specific limitation on the host names you can cover by a SAN extension, besides the requirement to be syntactically valid host names (further details are available in the [RFC](https://tools.ietf.org/html/rfc6818)). However, certificate authorities may impose further limitations on the number or formats based on internal rules or business decisions.
+There's no specific limitation on the host names you can cover with a SAN extension, besides the requirement to be syntactically valid host names (further details are available in the [RFC](https://tools.ietf.org/html/rfc6818)). However, certificate authorities may impose further limitations on the number or formats based on internal rules or business decisions.
 
 For example, it's common practice to disallow arbitrary wildcard names as SAN host names. This means SAN certificates generally support only a specific list of names.
 
-It's also quite common to encounter a limit on the number of names per certificate. The common practice is to set a limit of up to 100 names per certificate.  
+It's also common to encounter a limit on the number of names per certificate. The common practice is to set a limit of up to 100 names per certificate.  
 
 Finally, names are generally not required to belong to the same domain. It's perfectly fine for a certificate to cover a list of names like the following:
 
