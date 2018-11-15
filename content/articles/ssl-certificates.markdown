@@ -86,8 +86,8 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 ##### To go to the SSL certificate section
 
 1.  Log into DNSimple with your user credentials.
-1.  Click on your avatar on the top-right, and on the drop-down menu select the account.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  If you have more than one account, select the relevant one.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down the page until you see the <label>SSL certificates</label> section.
 </div>
 

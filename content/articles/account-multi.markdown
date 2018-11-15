@@ -52,4 +52,4 @@ Switching account context is very simple. Select the account you'd like to use f
 
   ![Switch account](/files/account-switcher.jpg)
 
-The new selected account name will appear on the top navigation bar, next to the avatar for your user.
+The new selected account name will appear on the navigation bar.
