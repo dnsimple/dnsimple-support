@@ -78,12 +78,11 @@ Newer plans no longer have domain limits. This means that even if you are a Pers
 
 Newer plans include 5 domains. For any extra domains we charge a small fee per domain, based on the plan. If you have a very large number of domains, you may consider one of our [reseller plans](https://dnsimple.com/reseller). Reseller plans have a higher monthly cost compared to standard plans, but they have a substantial discount on the price-per-domain.
 
-We also created 4 specific articles to clarify the difference between old plans and new plans:
+We also created specific articles to clarify the difference between old plans and new plans:
 
 - [I'm a Bronze customer](/articles/new-plans-for-bronze)
 - [I'm a Silver customer](/articles/new-plans-for-silver)
 - [I'm a Gold customer](/articles/new-plans-for-gold)
-- [I'm a Platinum customer](/articles/new-plans-for-platinum)
 
 
 ## Price differences
