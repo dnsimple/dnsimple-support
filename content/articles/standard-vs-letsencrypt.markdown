@@ -47,7 +47,7 @@ The following list of questions may help you to determine what is the best certi
 You want to secure a domain name. | **Let's Encrypt** or **Standard**
 You want to provide a custom CSR | **Standard**
 You want to use a custom private key. | **Standard**
-You want to use a wildcard name. | **Standard**
+You want to use a wildcard name. | **Let's Encrypt** or **Standard**
 You want a longer multi-year expiration. | **Standard**
 You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt**
 Your domain is resolving with DNSimple. | **Let's Encrypt** or **Standard**
