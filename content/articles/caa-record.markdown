@@ -1,5 +1,5 @@
 ---
-title: What is a CAA record?
+title: What's a CAA record?
 excerpt: A Certification Authority Authorization (CAA) record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.
 categories:
 - DNS
@@ -14,13 +14,13 @@ categories:
 
 ---
 
-## What is a CAA record?
+## What's a CAA record?
 
 A **Certification Authority Authorization (CAA) record** is used to specify which [certificate authorities (CAs)](/articles/what-is-certificate-authority/) are allowed to issue certificates for a domain.
 
-The purpose of the CAA record is to allow domain owners to declare which certificate authorities are allowed to issue a certificate for a domain. They also provide a means of indicating notification rules in case someone requests a certificate from an unauthorized certificate authority. If no CAA record is present, any CA is allowed to issue a certificate for the domain. If a CAA record is present, only the CAs listed in the record(s) are allowed to issue certificates for that hostname.
+The CAA record allows domain owners to declare which certificate authorities are allowed to issue a certificate for a domain. These records also provide a means of indicating notification rules in case someone requests a certificate from an unauthorized certificate authority. If no CAA record is present, any CA is allowed to issue a certificate for the domain. If a CAA record is present, only the CAs listed in the record(s) are allowed to issue certificates for that host name.
 
-CAA records can set policy for the entire domain, or for specific hostnames. CAA records are also inherited by subdomains. Therefore, a CAA record set on `example.com` also applies to any subdomain, such as `subdomain.example.com` (unless overridden). CAA records can control the issuance single-name certificates, wildcard certificates, or both.
+CAA records can set policy for the entire domain or for specific hostnames. CAA records are also inherited by subdomains. So a CAA record set on `example.com` also applies to any subdomain, such as `subdomain.example.com`, unless overridden. CAA records can control the issuance single-name certificates, wildcard certificates, or both.
 
 The DNS CAA record is specified by [RFC 6844](https://tools.ietf.org/html/rfc6844).
 
@@ -31,7 +31,7 @@ The structure of a CAA record follows the standard top-level format definition d
 
 |:------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | flag  | An unsigned integer between 0-255.                                                                                                           |
-|       | It is currently used to represent the _critical_ flag, that has a specific meaning per [RFC](https://tools.ietf.org/html/rfc6844#section-3). |
+|       | It's currently used to represent the _critical_ flag, that has a specific meaning per [RFC](https://tools.ietf.org/html/rfc6844#section-3). |
 | tag   | An ASCII string that represents the identifier of the property represented by the record.                                                    |
 | value | The value associated with the tag.                                                                                                           |
 
@@ -43,19 +43,19 @@ The canonical representation is:
 CAA <flags> <tag> <value>
 ```
 
-The RFC currently defines 3 available tags:
+The RFC currently defines three available tags:
 
 - `issue`: explicity authorizes a single certificate authority to issue a certificate (any type) for the hostname.
-- `issuewild`: explicity authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the hostname.
+- `issuewild`: explicity authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the host name.
 - `iodef`: specifies a URL to which a certificate authority may report policy violations.
 
 In DNSimple, the CAA record is represented by the following customizable elements:
 
 |:------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| Name  | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
+| Name  | The host name for the record, without the domain name. This is generally referred to as the "subdomain". We automatically append the domain name. |
 | TTL   | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
-| Value | The value associated with the tag.                                                                                                         |
+| Value | The value associated with the tag.|
 
 <info>
 We don't allow configuration of the bit flag.
@@ -70,7 +70,7 @@ As explained in the format section, each CAA record contains only one tag-value 
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-If we want to allow both Let's Encrypt and Comodo, we should add 2 CAA records, one for each CA:
+If we want to allow both Let's Encrypt and Comodo, we should add two CAA records, one for each CA:
 
 ```
 example.com.  CAA 0 issue "comodoca.com"
@@ -84,7 +84,7 @@ example.com.  CAA 0 issue "letsencrypt.org"
 example.com.  CAA 0 issuewild "comodoca.com"
 ```
 
-Note that the presence of issuewild overrides the `issue`. Therefore, Let's Encrypt _is not allowed_ to issue wildcard certificates (regardless of the fact that they don't support this type of certificate).
+Note that the presence of issuewild overrides the `issue`. Let's Encrypt _is not allowed_ to issue wildcard certificates (regardless of the fact that they don't support this type of certificate).
 
 Finally, to be notified of policy violations, you can add a record with the `iodef` tag that contains the email address to notify:
 
@@ -101,7 +101,7 @@ beta.example.com.   CAA 0 issue "letsencrypt.org"
 beta.example.com.   CAA 0 issue "comodoca.com"
 ```
 
-In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
+In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, only Let's Encrypt is allowed to issue for `foo.example.com`.
 
 <note>
 #### Comodo Wildcard Certificates
@@ -117,7 +117,7 @@ The above rules apply to subdomain wildcard certificates as well.
 
 ## Querying CAA records
 
-The CAA record is a relatively new resource record (RR), and not all tools support it. A notable example is `dig`; it doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig` you must specify the RR type (257) directly.
+The CAA record is a relatively new resource record (RR), and not all tools support it. A notable example is `dig`; it doesn't support the standard syntax for querying CAA records. In order to query the CAA record for a domain with `dig`, you must specify the RR type (257) directly.
 
 ```
 $ dig google.com type257
