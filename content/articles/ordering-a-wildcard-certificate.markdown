@@ -1,11 +1,11 @@
 ---
-title: Ordering a wildcard Certificate
-excerpt: How to obtain a wildcard certificate with DNSimple.
+title: Ordering a Wildcard SSL Certificate
+excerpt: How to order a wildcard SSL certificate with DNSimple.
 categories:
 - SSL Certificates
 ---
 
-# How to obtain a wildcard certificate?
+# Ordering a Standard SSL Certificate
 
 ### Table of Contents {#toc}
 
