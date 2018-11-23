@@ -16,7 +16,7 @@ categories:
 
 Wildcard certificates allow you to secure all subdomains of a domain with a single certificate. Wildcard certificates can make certificate management easier in some cases. We still recommend non-wildcard certificates for most use cases.
 
-Wildcard certificates are no different to standard certificates, they only contain an `*` as the subdomain, so please make sure to check out the article about [Ordering a Standard Certificate](/articles/ordering-standard-certificate/) too.
+Wildcard certificates are no different to single name certificates, they contain an `*` as the hostname.
 
 
 ## Let's Encrypt or Standard
