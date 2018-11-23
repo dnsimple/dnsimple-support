@@ -10,7 +10,7 @@ categories:
 We currently provide [SSL certificates](/articles/ssl-certificates) signed by different globally recognized [certificate authorities](/articles/what-is-certificate-authority):
 
 - [Comodo](https://www.comodo.com/) for wildcard and single-name SSL certificates
-- [Let's Encrypt](https://letsencrypt.org/) for wildcard, single-, and multi-name (SAN) SSL certificates
+- [Let's Encrypt](https://letsencrypt.org/) for single-name, wildcard, and multi-name (SAN) SSL certificates
 
 The following certificate authorities were also used in the past:
 
