@@ -30,7 +30,7 @@ The table only reflects the status of the current DNSimple offering. Some featur
 |---------------+---------------+---------------|
 Certificate Expiration | 90 days | Multi-year
 Single names | Supported | Supported
-Custom Single names | Supported (on certain plans) | Supported
+Custom names | Supported (on certain plans) | Supported
 Wildcard names | Supported (on certain plans) | Supported
 Same-domain multi-names (SAN) | Supported (on certain plans) | Not Supported
 Multi-domains (SAN) | Not Supported | Not Supported
