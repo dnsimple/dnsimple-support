@@ -21,7 +21,7 @@ Wildcard certificates are no different to standard certificates, they only conta
 
 ## Let's Encrypt or Standard
 
-Both providers support wildcard certificates Let's Encrypt and Comodo. Let's Encrypt certificates are free but are only valid for 60 days, Comodo certificates are valid for one year or longer but also cost $100 per wildcard certificate.
+Both providers support wildcard certificates. Let's Encrypt certificates are free but are only valid for a short period, Comodo certificates are valid for much longer but also come with a cost per wildcard certificate.
 
 You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
 
