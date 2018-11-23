@@ -68,7 +68,7 @@ The ability to customize the names associated with a Let's Encrypt certificate d
 
 ### Let's Encrypt Wildcard SSL certificates {#letsencrypt-wildcard}
 
-The Let's Encrypt wildcard certificate is a **wildcard-name**, **domain-validated certificate**. It covers all [single-level subdomains](/articles/ssl-certificate-names). It **does not** cover the root domain.
+The Let's Encrypt wildcard certificate is a **wildcard-name**, **domain-validated certificate**. It covers all [single-level subdomains](/articles/ssl-certificate-names) of a domain name. It **does not** cover the root domain.
 
 The certificate is issued by **Let's Encrypt** and it's free of charge. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt#products)
 
