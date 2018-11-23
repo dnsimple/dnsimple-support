@@ -52,6 +52,6 @@ We provide three types of SSL Certificates:
 
 - Single-host SSL certificates ($20 per year)
 - Wildcard certificates ($100 per year)
-- Let's Encrypt SSL certificates (Free)
+- Let's Encrypt SSL certificates (included in the subscription)
 
 Learn more about DNSimple certificates [here](/articles/ssl-certificates).
