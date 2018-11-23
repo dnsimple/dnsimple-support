@@ -33,14 +33,13 @@ Let's Encrypt wildcard certificates are only available on [specific plans](https
 
 To include any sub domain in a certificate you need to use an asterisk `*` as the subdomain.
 
-![Let's Encrypt Wildcard](/files/le-wildcard.png)
+### Let's Encrypt
 
-<info>
-Let's Encrypt certificates can cover multiple names, as well as multiple wilcard names like:
-  - *.member.example.com
-  - *.customer.example.com
-</info>
+Here's how to [order a wildcard for Let's Encrypt](/articles/ordering-lets-encrypt-certificate/).
 
+### Standard
+
+Here's how to [order a wildcard for Standard](/articles/ordering-standard-certificate/)
 
 ## Install the certificate
 
