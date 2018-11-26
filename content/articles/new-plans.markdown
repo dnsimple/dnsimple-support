@@ -5,7 +5,7 @@ categories:
 - Account
 ---
 
-# Plans and Legacy Plans
+# Current Plans and Legacy Plans
 
 ### Table of Contents {#toc}
 
@@ -65,7 +65,7 @@ If you're using a legacy plan, a yellow banner will  appear at the top of screen
 
 You can click on <label>learn more</label> to get additional information about current plans and how to upgrade.
 
-## Plans vs Legacy plans
+## Current Plans vs Legacy plans
 
 The main difference between legacy plans and current plans is the structure. With legacy plans, we charged you based on how many domains you had in your account. Now, [our plans](https://dnsimple.com/pricing) are based on the features you need. 
 
