@@ -1,6 +1,6 @@
 ---
-title: Switching to a current plan from Gold plan
-excerpt: Overview of the current plans compared to the legacy Gold plan.
+title: Switching to a newer plan from Gold plan
+excerpt: Overview of the newer plans compared to the legacy Gold plan.
 categories:
 - Account
 ---
