@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Wildcard certificates allow to secure an unlimited number of names that belong to a single subdomain level. Wildcard certificates can make certificate management easier in some cases. We still recommend non-wildcard certificates for most use cases.
+Wildcard certificates allow to secure an unlimited number of names that belong to a single subdomain level. Wildcard certificates can make certificate management easier in some cases. However, you should avoid them unless you have a specific need such as multi-tenant applications.
 
 Wildcard certificates are no different to single name certificates, they contain an `*` as the hostname.
 
