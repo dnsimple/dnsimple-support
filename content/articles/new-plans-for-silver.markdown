@@ -1,6 +1,6 @@
 ---
-title: Switching to a current plan from Silver plan
-excerpt: Overview of the current plans compared to the legacy Silver plan.
+title: Switching to a newer plan from Silver plan
+excerpt: Overview of the newer plans compared to the legacy Silver plan.
 categories:
 - Account
 ---
