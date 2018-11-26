@@ -1,6 +1,6 @@
 ---
-title: Switching to a current plan from Bronze plan
-excerpt: Overview of the current plans compared to the legacy Bronze plan.
+title: Switching to a newer plan from Bronze plan
+excerpt: Overview of the newer plans compared to the legacy Bronze plan.
 categories:
 - Account
 ---
