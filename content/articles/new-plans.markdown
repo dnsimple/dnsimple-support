@@ -14,7 +14,7 @@ categories:
 
 ---
 
-In June 2015 [we released one of our largest upgrade to our platform](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/), that introduced several new features  like multiple accounts, teams, and regional records. With the release of the multi-account feature, we also changed our plan structure.
+In June 2015 [we released one of our largest upgrades to our platform](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/) that introduced several new features, like multiple accounts, teams, and regional records. With the release of the multi-account feature, we also changed our plan structure.
 
 This article explains the main differences between the pre-2015 plans and current plans.
 
