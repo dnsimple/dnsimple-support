@@ -59,7 +59,7 @@ You can check your plan type from your account page. It's immediately visible on
 
 ![](/files/account-plan-info.png)
 
-If you're using a legacy plan, a yellow banner will  appear at the top of screen.
+If you're using a legacy plan, a yellow banner will appear at the top of the screen.
 
 ![](/files/account-plan-legacy.png)
 
