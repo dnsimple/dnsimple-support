@@ -9,13 +9,13 @@ categories:
 
 As an existing Silver customer you won't have access to new features in DNSimple as they're released. If you run or manage domains on behalf of a business, you should consider upgrading to either the Professional or Business plan. Individuals should consider switching to the Personal plan.
 
-Current plans include several features, such as:
+Newer plans include several features, such as:
 
 - [Let's Encrypt integration](/articles/letsencrypt/)
 - [CAA records](/articles/manage-caa-record/)
 - [DNSSEC](/articles/dnssec/)
 
-Current plans also benefit from [reduced whois privacy prices](https://blog.dnsimple.com/2017/10/whois-privacy-price-decrease/).
+Newer plans also benefit from [reduced whois privacy prices](https://blog.dnsimple.com/2017/10/whois-privacy-price-decrease/).
 
 The Personal plan is $5 per month for up to 5 domains and $0.50 per domain per month thereafter. If you're a Silver customer with 4 domains, switching to the Personal plan will save you $3 each month. If you're a Silver customer with 10 domains, you'll save $0.50 per month.
 
