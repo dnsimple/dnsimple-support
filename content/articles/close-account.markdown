@@ -7,14 +7,14 @@ categories:
 
 # Closing Your User Account
 
-Closing your account will permanently delete your DNSimple user account and permanently delete all your domains, records and all associated information.
+Closing your account permanently deletes your DNSimple user account, all your domains, records and associated information.
 
 <warning>
-Once your account is closed all your domains and records will be deleted. You will no longer be able to request transfer codes and unlock registered domains in order to transfer them to another registrar.
+Once your account is closed, all your domains and records will be deleted. You will no longer be able to request transfer codes or unlock registered domains to transfer them to another registrar.
 </warning>
 
 <note>
-To close your user account, you will first need to [unsubscribe from your plan at DNSimple](/articles/cancel-subscription).
+To close your user account, you'll first need to [unsubscribe from your plan at DNSimple](/articles/cancel-subscription).
 </note>
 
 <div class="section-steps" markdown="1">
