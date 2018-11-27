@@ -89,5 +89,5 @@ While our system occasionally retries failed invoices automatically, you may wan
 </div>
 
 <info>
-It's possible the retry will not succeed, or the invoice will enter a "needs review" state. If you have repeated trouble retrying an invoice, or have an invoice enter the "Needs Review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
+It's possible the retry won't succeed, or the invoice will enter a "needs review" state. If you have repeated trouble retrying an invoice, or have an invoice enter the "Needs Review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
 </info>
