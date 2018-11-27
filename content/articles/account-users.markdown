@@ -5,7 +5,7 @@ categories:
 - Account
 ---
 
-# Managing a shared account with other users
+# Managing team members sharing one account
 
 ### Table of Contents {#toc}
 
