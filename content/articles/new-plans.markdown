@@ -91,7 +91,7 @@ Over the last six years we've invested heavily in DDoS protection, Anycast DNS, 
 
 ## Features only on current plans {#newer-plans-only}
 
-Many features are only made available on [current plans](#newer-plans) -  Personal, Professional, Business, and Reseller plans
+Many features are only made available on [current plans](#newer-plans): Personal, Professional, Business, and Reseller plans.
 
 If you see a _newer plan warning_ banner at the top of a support article, it means your account must be subscribed to one of the current plans in order to use the feature. If you're using a legacy plan, such as Bronze, Silver, or Gold, you can upgrade to the appropriate plan, and the feature will immediately be available to you.
 
