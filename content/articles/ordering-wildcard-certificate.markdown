@@ -5,7 +5,7 @@ categories:
 - SSL Certificates
 ---
 
-# Ordering a Standard SSL Certificate
+# Ordering a Wildcard SSL Certificate
 
 ### Table of Contents {#toc}
 
