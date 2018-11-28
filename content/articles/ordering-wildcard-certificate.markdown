@@ -47,7 +47,7 @@ Here's how to [order a wildcard for Let's Encrypt](/articles/ordering-lets-encry
 
 ### Standard
 
-Here's how to [order a wildcard for Standard](/articles/ordering-standard-certificate/)
+Here's how to [order a wildcard for Standard](/articles/ordering-standard-certificate/).
 
 ## Install the certificate
 
