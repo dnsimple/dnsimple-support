@@ -18,6 +18,14 @@ Wildcard certificates allow you to secure an unlimited number of names belonging
 
 Wildcard certificates are no different from single name certificates. They contain an `*` as the hostname.
 
+```
+    APEX (root) Domain
+      _____|____
+     /          \
+   *.dnsimple.com
+   |
+wildcard
+```
 
 ## Let's Encrypt or Standard
 
