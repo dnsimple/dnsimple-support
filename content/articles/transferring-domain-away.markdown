@@ -16,6 +16,10 @@ categories:
 
 ## Before you start
 
+<warning>
+Once a domain transfer is started, you will not be able to change the name servers on the domain. If you want to change your name servers then you must change them before you request your transfer at your new domain registrar.
+</warning>
+
 To transfer a domain to another registrar the standard procedure requires you to:
 
 1. unlock the domain at DNSimple
