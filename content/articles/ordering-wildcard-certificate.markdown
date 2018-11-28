@@ -43,11 +43,29 @@ To include any subdomain in a certificate, you need to use an asterisk `*` as th
 
 ### Let's Encrypt
 
-Here's how to [order a wildcard for Let's Encrypt](/articles/ordering-lets-encrypt-certificate/).
+To order a Let's Encrypt wildcard certificate, follow the instructions to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+
+In the certificate form, when you are requested to enter the _name_, use the `*` char to represent the subdomain level you want to request the certificate for.
+
+For instance, to request a certificate for `*.example.com` just enter `*`. To request a certificate for `*.app.example.com` enter `*.app`.
+
+<info>
+If your plan supports multiple names (SAN), you can add more than one certificate name in the same certificate.
+</info>
+
 
 ### Standard
 
-Here's how to [order a wildcard for Standard](/articles/ordering-standard-certificate/).
+To order a Comodo wildcard certificate, follow the instructions to [order a Standard certificate](/articles/ordering-standard-certificate/).
+
+In the certificate form, when you are requested to enter the _common name_, use the `*` char to represent the subdomain level you want to request the certificate for.
+
+For instance, to request a certificate for `*.example.com` just enter `*`. To request a certificate for `*.app.example.com` enter `*.app`.
+
+<note>
+Standard wildcard certificates support only one wildcard per certificate.
+</note>
+
 
 ## Install the certificate
 
