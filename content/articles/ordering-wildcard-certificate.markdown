@@ -41,6 +41,8 @@ Let's Encrypt wildcard certificates are only available on [specific plans](https
 
 To include any subdomain in a certificate, you need to use an asterisk `*` as the subdomain.
 
+![Order overview for Let's Encrypt wildcard certificate](/files/lets-encrypt-wildcard-order.png)
+
 ### Let's Encrypt
 
 To order a Let's Encrypt wildcard certificate, follow the instructions to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
