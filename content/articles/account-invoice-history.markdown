@@ -68,7 +68,7 @@ If you have an invoice in this state for more than a day, please [contact us](ht
 
 ### `refunded` {#invoice-state-refunded}
 
-The payment for this invoice was collected and then money was returned to you for some reason. When this happens, we mark the corresponding invoice as `refunded`.
+The payment for this invoice was collected, and then money was returned to you for some reason. When this happens, we mark the corresponding invoice as `refunded`.
 
 ### `cancelled` {#invoice-state-cancelled}
 
@@ -89,5 +89,5 @@ While our system occasionally retries failed invoices automatically, you may wan
 </div>
 
 <info>
-It's possible the retry won't succeed, or the invoice will enter a "needs review" state. If you have repeated trouble retrying an invoice, or have an invoice enter the "Needs Review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
+It's possible the retry won't succeed, or the invoice will enter a "needs review" state. If you have repeated trouble retrying an invoice, or have an invoice enter the "needs review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
 </info>
