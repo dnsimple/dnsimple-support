@@ -14,11 +14,11 @@ categories:
 
 ---
 
-Depending on the billing cycle of the plan for which you signed up, your subscription will be renewed either monthly or yearly. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from from the credit balance.
+Depending on the billing cycle for your plan, your subscription will be renewed either monthly or yearly. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from from the credit balance.
 
 The amount to be charged depends on:
 
-- The price of the plan you are subscribed to;
+- The price of the plan you're subscribed to;
 - The number of extra domains you have in your account; and
 - The number of domains that have email forwards configured.
 
@@ -28,7 +28,7 @@ You can find the exact amount you'll be charged at your next renewal, and when y
 
 ## What happens when my subscription is renewed?
 
-When your subscription renewal is successfully processed, we'll send you an invoice, and the service will be extended for the duration of your plan's billing cycle: either one month or one year.
+When your subscription renewal is successfully processed, we'll send you an invoice, and the service will be extended for the duration of your plan's billing cycle: one month or one year.
 
 
 ## What happens when the payment for the renewal fails?
@@ -50,6 +50,6 @@ If you know you won't be able to provide a valid card number before your subscri
 
 ## What happens if my subscription is canceled?
 
-When your subscription is canceled because of too many failed renewal attempts, we'll immediately notify you by email, and the services DNSimple provides will stop. [This support article](/articles/what-happens-if-i-stop-paying) explains what you can expect in this situation.
+When your subscription is canceled because of too many failed renewal attempts, we'll immediately notify you by email, and the services DNSimple provides will stop. [This support article](/articles/what-happens-if-i-stop-paying) explains what to expect in this situation.
 
-Keep in mind even if your subscription is canceled, you can always [reactivate it](/articles/reactivate-subscription).
+Keep in mind, even if your subscription is canceled, you can always [reactivate it](/articles/reactivate-subscription).
