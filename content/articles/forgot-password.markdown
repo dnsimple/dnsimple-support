@@ -13,13 +13,13 @@ The first step to access your account after you've forgetten your password is to
 
 ![Login Screen Forgot Password Link](/files/login-forgot-password.png)
 
-On the next screen, enter the email address for your user account.
+On the next screen, enter the email address you used to sign up.
 
 ![Enter Your Email](/files/reset-password-email.png)
 
 ## Password reset link email
 
-If a user account with the email address exists, then an email is sent to that address. The email contains a link that you must click on to enter a new password.
+If a user with that email address exists, then an email is sent to that address. The email contains a link that you must click on to enter a new password.
 
 The email will arrive from support@dnsimple.com. In that email will be a link to https://dnsimple.com - either copy this link into your browser or click on the link if your email client automatically enables the link.
 

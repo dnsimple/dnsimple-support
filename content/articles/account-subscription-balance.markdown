@@ -28,11 +28,7 @@ The account page has a full section dedicated to relevant information about your
 ##### To check your account's balance
 
 1.  Log into DNSimple with your user credentials.
-1.  Go to your [user page](https://dnsimple.com/user).
-1.  Choose an account and click on it to enter the account page.
-
-    ![User Settings Account Selection](/files/user-account-selection.jpg)
-
+1.  Choose the account link from the top navigation header. If you have multiple accounts, select the account first, then click on account link.
 1.  On the account page, your account's balance will be visible at the top of the page.
 
     ![Account Billing section](/files/account-balance.png)
