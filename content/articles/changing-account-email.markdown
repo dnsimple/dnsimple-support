@@ -7,7 +7,7 @@ categories:
 
 # Changing Account Email
 
-When you initially create a user in our system, we create an account bound to that user. We call this the Primary Account, and the email address is the same as the user. If you change the email address for that user, the account email address will also be updated. That way customers with a single account only have to update their email in one place. Follow the instructions in [Changing User Email](/articles/changing-user-email/) if this is the case for you.
+When you initially sign up as a user in our system, we create an account bound to that user. We call this the Primary Account, and the email address is the same as the username. If you change the email address for that user, the account email address will also be updated. That way customers with a single account only have to update their email in one place. Follow the instructions in [Changing User Email](/articles/changing-user-email/) if this is the case for you.
 
 Extra accounts have their own email addresses that can be changed ad-hoc. Follow the following steps to change the email address:
 
