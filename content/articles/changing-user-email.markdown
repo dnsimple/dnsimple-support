@@ -27,8 +27,6 @@ You can change the email associated with your user profile from the DNSimple acc
 
 1.  If the update is successful, you'll be redirected to the account page. Make sure the account correctly displays the new address.
 
-    ![Check email address](/files/account-change-email-3.jpg)
-
 </div>
 
 If you have an extra account with a separate email address you can find the instructions for how to update it [here](/articles/changing-account-email/).
