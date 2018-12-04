@@ -33,7 +33,7 @@ If you would like to add another account to your user profile, you should take t
 
 1. Once there, you follow the <label>Add new account</label> link.
 
-    ![Add New Account link](/files/add-new-account-link.jpg)
+    ![Add New Account link](/files/add-new-account-link.png)
 
 1. At this point, you will be presented with a form where you should fill in with the details for your new account.
 
