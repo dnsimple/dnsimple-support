@@ -15,7 +15,7 @@ Extra Accounts created have their own email address that can be changed ad-hoc. 
 ##### To change your account email
 
 1. Go to [your account page](https://dnsimple.com/account).
-1. On the account name section, click on the <label>Edit</label> link:
+1. On the account name section, click the <label>Edit</label> link:
 
     ![Settings menu](/files/account-menu.png)
 
