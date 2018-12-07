@@ -59,6 +59,6 @@ All members will also have full-admin access to the account, including the abili
 
 1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove this member.
 
-1. The member should no longer show up on the members tab once you've removed them from the account.
+1. Once you've removed them from the account, the member should no longer show up on the members tab.
 
 </div>
