@@ -3,7 +3,6 @@ title: .IO Domains
 excerpt: This article explains the requirements for .IO domain names.
 categories:
 - Domains
-- Whois Privacy
 ---
 
 # .IO Domain Names
