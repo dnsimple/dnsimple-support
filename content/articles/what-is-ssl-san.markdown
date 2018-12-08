@@ -18,7 +18,7 @@ The **Subject Alternative Name** (SAN) is an extension to the X.509 specificatio
 
 ## SAN certificates
 
-A **SAN certificate** is a term often used to refer to a multi-domain SSL certificate](/articles/ssl-certificates-types/#multi-domain-ssl-certificates). An SSL certificate with more than one name is associated using the SAN extension.
+A **SAN certificate** is a term often used to refer to a [multi-domain SSL certificate](/articles/ssl-certificates-types/#multi-domain-ssl-certificates). An SSL certificate with more than one name is associated using the SAN extension.
 
 There's a subtle difference though. When using the term 'multi-domain certificates', we're generally referring to an SSL certificate that has the ability to cover multiple host names (domains). If we use the term 'SAN certificates', we're probably referring to a particular certificate that includes any name in the SAN extension.
 
