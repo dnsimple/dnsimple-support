@@ -16,7 +16,7 @@ categories:
 ---
 
 <info>
-Audit history is available only on [newer plans](https://support.dnsimple.com/articles/new-plans/#newer-plans-some). Full audit history is available for Professional and Business plans. Personal plans' audit history is limited to 30 days.
+Audit history is available only on [newer plans](https://support.dnsimple.com/articles/new-plans/#newer-plans-some). Full audit history is available for Professional and Business plans. Audit history for Personal plans is limited to 30 days.
 </info>
 
 Activity tracking provides an overview of all past changes for a specific domain or for an account as a whole.
