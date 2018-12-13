@@ -38,7 +38,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they are a DNSimple user or not. They'll receive an email inviting them to join the account. 
+1. Enter the email address of the user you want to invite. It doesn't matter if they're a DNSimple user or not. They'll receive an email inviting them to join the account. 
 
     ![Add a new member form](/files/add-member-screen.png)
 
