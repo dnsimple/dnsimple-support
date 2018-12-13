@@ -24,7 +24,7 @@ Managing multiple accounts is a flexible way to access different levels of servi
 
 ## Creating a separate account
 
-If you want to add another account to your user profile, you should do the following:
+If you want to add another account to your user profile:
 
 <div class="section-steps" markdown="1">
 1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the menu.
