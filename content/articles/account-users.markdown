@@ -26,7 +26,7 @@ All members will also have full-admin access to the account, including the abili
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, clicki the name of the account in the menu to visit the account page.
+1. Once you've subscribed to an eligible plan, click the name of the account in the menu to visit the account page.
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
