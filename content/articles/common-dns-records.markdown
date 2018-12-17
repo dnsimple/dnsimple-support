@@ -21,7 +21,7 @@ The Domain Name System (DNS) is composed of many different record types (or reso
 
 ## Common Record Types
 
-The most common DNS record types:
+These are the most common DNS record types:
 
 | Type | Description |
 |------|-------------|
