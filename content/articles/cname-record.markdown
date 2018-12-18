@@ -1,5 +1,5 @@
 ---
-title: What is a CNAME record?
+title: What's a CNAME record?
 excerpt: CNAME records can be used to alias one name to another.
 categories:
 - DNS
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-## What is a CNAME record?
+## What's a CNAME record?
 
 **CNAME records** can be used to alias one name to another. CNAME stands for Canonical Name. 
 
@@ -34,8 +34,8 @@ The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 ## Restrictions
 
-1. A CNAME record must always point to another domain name, and never directly to an IP address.
-2. A CNAME record cannot co-exist with another record for the same name. For instance, it's not possible to have both a CNAME and TXT record for `www.example.com`.
+1. A CNAME record must always point to another domain name and never directly to an IP address.
+2. A CNAME record cannot co-exist with another record for the same name. It's not possible to have both a CNAME and TXT record for `www.example.com`.
 3. A CNAME can point to another CNAME, although this configuration is generally not recommended for performance reasons. When applicable, the CNAME should point as closely as possible to the target name in order to avoid unnecessary performance overheads.
 
 
@@ -74,7 +74,7 @@ You can learn more by reading the [differences between the A, CNAME, ALIAS and U
 
 ## Querying CNAME records
 
-You can use `dig` to determine the CNAME record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the domain-name.
+You can use `dig` to determine the CNAME record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
 
 ```
 $ dig CNAME www.dnsimple.com
