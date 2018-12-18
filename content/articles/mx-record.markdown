@@ -9,7 +9,7 @@ categories:
 
 MX stands for Mail eXchange. MX Records tell email delivery agents where they should deliver your email. You can have many MX records for a domain. They provide a way to have redundancy and ensure email will always be delivered.
 
-Google Apps provides a common example of using MX Records for email delivery. When you create a Google Apps account and you want your email to be delivered to your Google Apps mail account, Google provides you with a set of MX records you need to add to DNSimple. Here are the default MX records Google suggests you add:
+Google Apps provides a common example of using MX Records for email delivery. When you create a Google Apps account and you want your email to be delivered to your Google Apps mail account, Google provides a set of MX records you need to add to DNSimple. Here are the default MX records Google suggests:
 
 - aspmx.l.google.com 1
 - alt1.aspmx.l.google.com 5
