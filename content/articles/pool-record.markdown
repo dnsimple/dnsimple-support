@@ -1,6 +1,6 @@
 ---
 title: What's a POOL record?
-excerpt: What a POOL record is and how to create POOL records with DNSimple.
+excerpt: What a POOL record is, and how to create POOL records with DNSimple.
 categories:
 - DNS
 ---
