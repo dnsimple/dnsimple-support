@@ -74,7 +74,7 @@ Each new domain added to an account has DNS hosting enabled by default, whether 
 ## Disabling DNS hosting
 
 <div class="section-steps" markdown="1">
-##### To disable the DNS hosting
+##### To disable DNS hosting
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have multiple accounts, select your account in the navigation bar.
@@ -83,20 +83,20 @@ Each new domain added to an account has DNS hosting enabled by default, whether 
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Find the <label>DNS Hosting</label> card and follow the instructions to disable the DNS hosting.
+1.  Find the <label>DNS Hosting</label> card and follow the instructions to disable DNS hosting.
 
     ![Disable DNS hosting](/files/domain-dns-hosting-disable.png)
 
 </div>
 
-If a domain is delegated to our name servers, disabling the DNS hosting for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
+If a domain is delegated to our name servers, disabling DNS hosting for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
-If the domain is registered with us but delegated to another DNS provider, disabling the DNS hosting won't change the delegation. The domain will continue to resolve with the other DNS provider.
+If the domain is registered with us but delegated to another DNS provider, disabling DNS hosting won't change the delegation. The domain will continue to resolve with the other DNS provider.
 
 
 ## Use cases
 
-There are a few cases where you may want to turn off the DNS hosting for a domain:
+There are a few cases where you may want to turn off DNS hosting for a domain:
 
 - You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it isn't resolving with DNSimple.
 - You wanted to register a domain with us, but you'll be using a different DNS hosting provider.
