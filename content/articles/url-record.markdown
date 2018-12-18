@@ -16,9 +16,9 @@ categories:
 
 ## What's a URL record?
 
-The **URL record** is a [special DNSimple record](/articles/supported-dns-records). URL records can be used to redirect a hostname to another URL using our [redirector](/articles/manage-url-record).
+The **URL record** is a [special DNSimple record](/articles/supported-dns-records). URL records redirect a hostname to another URL using our [redirector](/articles/manage-url-record).
 
-This feature can be used, for example, to redirect the `www.example.com` domain to `example.com`. Another use case is to redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
+For example, this feature can be used to redirect the `www.example.com` domain to `example.com`. It can also redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
 For more information about the service, supported redirect types, and limitations, visit the [redirector](/articles/redirector) article.
 
