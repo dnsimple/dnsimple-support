@@ -1,11 +1,11 @@
 ---
-title: What is a URL record?
-excerpt: What is an URL record and how to add an URL record in DNSimple.
+title: What's a URL Record?
+excerpt: What a URL record is, and how to add a URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# URL records?
+# What's a URL Record?
 
 ### Table of Contents {#toc}
 
@@ -14,11 +14,11 @@ categories:
 
 ---
 
-## What is a URL record?
+## What's a URL record?
 
 The **URL record** is a [special DNSimple record](/articles/supported-dns-records). URL records can be used to redirect a hostname to another URL using our [redirector](/articles/manage-url-record).
 
-This feature can be used, for example, to redirect the `www.example.com` domain to `example.com`. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
+This feature can be used, for example, to redirect the `www.example.com` domain to `example.com`. Another use case is to redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
 For more information about the service, supported redirect types, and limitations, visit the [redirector](/articles/redirector) article.
 
@@ -30,7 +30,7 @@ The URL record is a special record, and it's not defined by any RFC.
 In DNSimple, the URL record is represented by the following customizable elements:
 
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| name    | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
+| name    | The host name for the record without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | URL     | The redirect destination URL.                                                                                                              |
 
