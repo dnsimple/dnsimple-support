@@ -53,7 +53,7 @@ This section describes a feature only available on [newer plans](/articles/new-p
 You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
 
 <div class="section-steps" markdown="1">
-##### To enable the DNS hosting
+##### To enable DNS hosting
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have multiple accounts, select your account in the navigation bar.
@@ -62,7 +62,7 @@ You can enable the DNS hosting service for a previously disabled domain from the
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Find the <label>DNS Hosting</label> card, and follow the instructions to enable the DNS hosting.
+1.  Find the <label>DNS Hosting</label> card, and follow the instructions to enable DNS hosting.
 
     ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
 
