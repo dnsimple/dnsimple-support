@@ -48,7 +48,7 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 </div>
 
 
-## Update an AAAA record
+## Updating an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To update an AAAA record
