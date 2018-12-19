@@ -61,7 +61,7 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 </div>
 
 
-## Remove an AAAA record
+## Removing an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To remove an AAAA record
