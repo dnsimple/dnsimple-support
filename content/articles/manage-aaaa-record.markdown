@@ -1,11 +1,11 @@
 ---
-title: Managing AAAA records
+title: Managing AAAA Records
 excerpt: Instructions to add, update, and remove an AAAA record in DNSimple.
 categories:
 - DNS
 ---
 
-# Managing AAAA records
+# Managing AAAA Records
 
 ### Table of Contents {#toc}
 
@@ -19,7 +19,7 @@ You can manage [AAAA records](/articles/aaaa-record) in DNSimple using the [DNS 
 The instructions in this article assume you're familiar with the [AAAA record format](/articles/aaaa-record#record-format) and usage.
 
 
-## Add an AAAA record
+## Adding an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To add an AAAA record
@@ -48,12 +48,12 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 </div>
 
 
-## Update an AAAA record
+## Updating an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To update an AAAA record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-aaaa-item-edit.png)
 
@@ -61,12 +61,12 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 </div>
 
 
-## Remove an AAAA record
+## Removing an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To remove an AAAA record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-aaaa-item-delete.png)
 
