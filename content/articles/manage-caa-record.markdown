@@ -78,7 +78,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 <div class="section-steps" markdown="1">
 #### To update a CAA record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-caa-item-edit.png)
 
@@ -91,7 +91,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 <div class="section-steps" markdown="1">
 #### To remove a CAA record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-caa-item-delete.png)
 
