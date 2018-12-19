@@ -1,5 +1,5 @@
 ---
-title: What's an A record?
+title: What's an A Record?
 excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
 categories:
 - DNS
