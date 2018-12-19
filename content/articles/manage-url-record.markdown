@@ -1,11 +1,11 @@
 ---
-title: Managing URL records
+title: Managing URL Records
 excerpt: Instructions to add, update, and remove a URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# Managing URL records
+# Managing URL Records
 
 ### Table of Contents {#toc}
 
@@ -19,7 +19,7 @@ You can manage [URL records](/articles/url-record) in DNSimple using the [DNS re
 The instructions in this article assume you're familiar with the [URL record format](/articles/url-record#record-format) and usage.
 
 
-## Add a URL record
+## Adding a URL record
 
 <div class="section-steps" markdown="1">
 #### To add a URL record
@@ -48,12 +48,12 @@ The instructions in this article assume you're familiar with the [URL record for
 </div>
 
 
-## Update a URL record
+## Updating a URL record
 
 <div class="section-steps" markdown="1">
 #### To update a URL record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-url-item-edit.png)
 
@@ -61,12 +61,12 @@ The instructions in this article assume you're familiar with the [URL record for
 </div>
 
 
-## Remove a URL record
+## Removing a URL record
 
 <div class="section-steps" markdown="1">
 #### To remove a URL record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-url-item-delete.png)
 
