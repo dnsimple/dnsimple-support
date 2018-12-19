@@ -53,7 +53,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
 <div class="section-steps" markdown="1">
 #### To update a CNAME record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-cname-item-edit.png)
 
@@ -66,7 +66,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
 <div class="section-steps" markdown="1">
 #### To remove a CNAME record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-cname-item-delete.png)
 
