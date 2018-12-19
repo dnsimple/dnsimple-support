@@ -1,11 +1,11 @@
 ---
-title: Managing A records
+title: Managing A Records
 excerpt: Instructions to add, update, and remove an A record in DNSimple.
 categories:
 - DNS
 ---
 
-# Managing A records
+# Managing A Records
 
 ### Table of Contents {#toc}
 
@@ -19,7 +19,7 @@ You can manage [A records](/articles/a-record) in DNSimple using the [DNS record
 The instructions in this article assume you're familiar with the [A record format](/articles/a-record#record-format) and usage.
 
 
-## Add an A record
+## Adding an A record
 
 <div class="section-steps" markdown="1">
 #### To add an A record
@@ -48,12 +48,12 @@ The instructions in this article assume you're familiar with the [A record forma
 </div>
 
 
-## Update an A record
+## Updating an A record
 
 <div class="section-steps" markdown="1">
 #### To update an A record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-a-item-edit.png)
 
@@ -61,12 +61,12 @@ The instructions in this article assume you're familiar with the [A record forma
 </div>
 
 
-## Remove an A record
+## Removing an A record
 
 <div class="section-steps" markdown="1">
 #### To remove an A record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-a-item-delete.png)
 
