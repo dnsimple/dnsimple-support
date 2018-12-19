@@ -66,7 +66,7 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 <div class="section-steps" markdown="1">
 #### To remove an AAAA record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-aaaa-item-delete.png)
 
