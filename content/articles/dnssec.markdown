@@ -91,10 +91,6 @@ During the key rotation, both the old and new keys are attached to your zone for
 
 If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside of DNSimple. To do this you must use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. More information is available in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
 
-### Automating key rotation with other domain registrars
-
-Our system will deliver a webhook call when DNSSEC rotation is started and completed. You may 
-
 ## Troubleshooting DNSSEC configurations
 
 The following tools may be helpful in troubleshooting DNSSEC configuration issues:
