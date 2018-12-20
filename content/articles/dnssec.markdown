@@ -62,7 +62,7 @@ If your domain is hosted with us but registered elsewhere, then you need to prov
 
 ## Disable DNSSEC
 
-Warning: If your domain is registered with another domain registrar, then you should remove the DS record from that registrar *before* removing the zone signing from DNSimple.
+Warning: If your domain is registered with another domain registrar, then you must remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record first will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
 
 To disable DNSSEC, go to the DNSSEC tab for the domain, and click on the Configure DNSSEC link again.
 
@@ -77,15 +77,23 @@ Click on the Delete DNSSEC Configuration button to remove the zone signing and t
 DNSimple currently rotates both key signing keys and zone signing keys every 90 days. Auto-rotation is mandatory, and you cannot disable it.
 
 - If your domain is both registered with us and uses our authoritative name servers: we handle rotation of keys automatically.
-- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification whenever key rotation starts, with the new DS record, **and you'll need to rotate the DS records at your domain registrar within 3 days**.
+- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification whenever key rotation starts, with the new DS record, **and you'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 3 days**.
 
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
 
-Please consider carefully whether you are able and willing to rotate DS records at your registrar if your domain is not registered with DNSimple. It is essential that DS records are updated whenever DNSSEC keys are rotated in your DNSimple zone. If you do not update your DS record when your keys change, then your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
+Please consider carefully whether you are able and willing to rotate DS records at your registrar if your domain is not registered with DNSimple. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you do not update your DS record when your keys change, then your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
 </warning>
 
 During the key rotation, both the old and new keys are attached to your zone for 3 days (the duration of the key rotation period). At the end of the rotation period our system removes the old key, leaving only the new key in place.
+
+### Automating Key Rotation
+
+If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside of DNSimple. To do this you must use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. More information is available in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
+
+### Automating Key Rotation with Other Domain Registrars
+
+Our system will deliver a webhook call when DNSSEC rotation is started and completed. You may 
 
 ## Troubleshooting DNSSEC configurations
 
