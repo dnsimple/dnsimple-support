@@ -95,7 +95,7 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 ## DS records without a corresponding DNSKEY
 
-When a DS record is present at your domain registrar, but there is no corresponding DNSKEY in your zone, resolvers that are DNSSEC-aware will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, you must remove the DS record from your registrar. However, this won't immediately fix resolution for some clients, as they will see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, resolvers that are DNSSEC-aware will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, you must remove the DS record from your registrar. However, this won't immediately fix resolution for some clients, as they will see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
 
 ## Troubleshooting DNSSEC configurations
 
