@@ -93,6 +93,10 @@ During the key rotation, both the old and new keys are attached to your zone for
 
 If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside of DNSimple. To do this you must use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. More information is available in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
 
+## DS records without a corresponding DNSKEY
+
+When a DS record is present at your domain registrar but there is no corresponding DNSKEY in your zone, resolvers that are DNSSEC-aware will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue you must remove the DS record from your registrar, however this will not immediately fix resolution for some clients as they will see the cached DS record. Furthermore, DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+
 ## Troubleshooting DNSSEC configurations
 
 The following tools may be helpful in troubleshooting DNSSEC configuration issues:
