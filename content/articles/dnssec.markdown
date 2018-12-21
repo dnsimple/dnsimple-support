@@ -62,7 +62,9 @@ If your domain is hosted with us but registered elsewhere, then you need to prov
 
 ## Disabling DNSSEC
 
-Warning: If your domain is registered with another domain registrar, you must remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record first will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
+<warning>
+If your domain is registered with another domain registrar, you must remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record first will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
+</warning>
 
 To disable DNSSEC, go to the DNSSEC tab for the domain, and click on the Configure DNSSEC link again.
 
