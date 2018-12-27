@@ -1,5 +1,5 @@
 ---
-title: What is an A record?
+title: What's an A Record?
 excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
 categories:
 - DNS
@@ -14,17 +14,17 @@ categories:
 
 ---
 
-## What is an A record?
+## What's an A record?
 
-An **A record** maps a domain name to the IP address (Version 4) of the computer hosting the domain. Simply put, an A record is used to find the IP address of a computer connected to the internet from a name.
+An **A record** maps a domain name to the IP address (Version 4) of the computer hosting the domain. An A record is used to find the IP address of a computer connected to the internet from a name.
 
 The _A_ in A record stands for _Address_. Whenever you visit a web site, send an email, connect to Twitter or Facebook, or do almost anything on the Internet, the address you enter is a series of words connected with dots.
 
 For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server there's an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
 
-A Records are the simplest type of DNS records, yet one of the primary records used in DNS servers.
+A Records are the simplest type of DNS records, and one of the primary records used in DNS servers.
 
-You can do quite a bit more with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
+You can do a lot with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
 
@@ -56,7 +56,7 @@ In DNSimple, the A record is represented by the following customizable elements:
 
 ## Querying A records
 
-You can use `dig` to determine the A record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
+You can use `dig` to determine the A record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
 
 ```
 $ dig A api.dnsimple.com

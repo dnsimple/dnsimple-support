@@ -1,5 +1,5 @@
 ---
-title: What is an AAAA record?
+title: What's an AAAA record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:
 - DNS
@@ -14,15 +14,15 @@ categories:
 
 ---
 
-## What is an AAAA record?
+## What's an AAAA record?
 
-An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. Simply put, an AAAA record is used to find the IP address of a computer connected to the internet from a name.
+An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. An AAAA record is used to find the IP address of a computer connected to the internet from a name.
 
 The AAAA record is conceptually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
 
 AAAA records are [less common than A records](/articles/common-dns-records), however their popularity is rising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support) and can be queried via either IPv4 or IPv6.
 
-As for the A records, you can use multiple AAAA records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own AAAA record pointing to that same IP address.
+As with the A records, you can use multiple AAAA records for the same domain in order to provide redundancy. Multiple names could point to the same address, in which case each would have its own AAAA record pointing to that same IP address.
 
 The DNS A record is specified by [RFC 3596](https://tools.ietf.org/html/rfc3596).
 
@@ -47,14 +47,14 @@ where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804
 In DNSimple, the AAAA record is represented by the following customizable elements:
 
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| Name    | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
+| Name    | The host name for the record without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Address | The IPv6 address the AAAA record points to.                                                                                                |
 
 
 ## Querying AAAA records
 
-You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL) and the IP address.
+You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
 
 ```
 $ dig AAAA ns1.dnsimple.com
