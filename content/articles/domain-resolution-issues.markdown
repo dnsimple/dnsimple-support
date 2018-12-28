@@ -7,25 +7,25 @@ categories:
 
 # Troubleshooting Domain Resolution Issues
 
-In order to use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
+To use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
 
 You can check domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). Resolution status is also displayed on the domain page in your DNSimple account.
 
-Here's a checklist of common issues to help you in case a domain is not resolving correctly.
+This is a checklist of common issues to help you if domain is not resolving correctly.
 
 
 ## Name server propagation delay
 
-If you recently pointed the domain to DNSimple and the domain is still not resolving, please note that it may take up to 24 hours for a name server change to propagate.
+If you recently pointed the domain to DNSimple and the domain is still not resolving, it may take up to 24 hours for a name server change to propagate.
 
-You can check whether the update was successful by inspecting the WHOIS response for the domain as described in the section *Check name server list in the WHOIS response*.
+You can check if the update was successful by inspecting the WHOIS response for the domain as described in the section *Check name server list in the WHOIS response*.
 
 The WHOIS response is normally updated in a few minutes.
 
-If after 24 hours the domain is still not resolving, make sure the update was successfully confirmed by your current domain registrar and see the other sections in this page.
+If after 24 hours the domain still isn't resolving, make sure the update was successfully confirmed by your current domain registrar and see the other sections in this page.
 
 
-## Check the domain is using the DNSimple name servers
+## Check that the domain is using the DNSimple name servers
 
 Ensure the domain is using [DNSimple name servers](/articles/dnsimple-nameservers).
 
@@ -59,12 +59,12 @@ The delegated name servers should match [DNSimple name servers](/articles/dnsimp
 If not, update name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple). If you recently switched the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
 
 
-## Check the domain is using *all* DNSimple name servers
+## Check that the domain is using *all* DNSimple name servers
 
 DNSimple provides four name servers. You should include all the name servers to make sure DNS will resolve in case one name server temporarily unavailable for maintenance, etc.
 
 
-## Check the domain is using *only* DNSimple name servers
+## Check that the domain is using *only* DNSimple name servers
 
 In some cases a misconfiguration may result in DNSimple name servers listed along with third party name servers.
 
@@ -112,12 +112,12 @@ If you recently updated the domain, see the section *Name server change propagat
 
 ## Ensure the DS record is removed
 
-If you switch DNS providers, and have DNSSEC enabled, then you must [remove the current DS record first](/articles/ds-records-changing-dns).
+If you switched DNS providers, and have DNSSEC enabled, you must [remove the current DS record first](/articles/ds-records-changing-dns).
 
-If you have transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
+If you transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 
 ## Contact us
 
-Please be sure to check the common issues in this checklist to narrow down the problem.
+Check the common issues in this checklist to narrow down the problem.
 
-If the problem is not in this list or you have any other questions, please [contact us](https://dnsimple.com/contact).
+If the problem isn't in this list, or you have other questions, please [contact us](https://dnsimple.com/contact).
