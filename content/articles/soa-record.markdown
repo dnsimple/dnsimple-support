@@ -1,5 +1,5 @@
 ---
-title: What's an SOA record?
+title: What's an SOA Record?
 excerpt: What an SOA record is and how to add SOA records in DNSimple.
 categories:
 - DNS
