@@ -53,7 +53,7 @@ www.dnsimple.com.   3543    IN  CNAME   dnsimple.com.
 dnsimple.com.       543 IN  A   50.31.209.238
 ~~~
 
-`dig` is telling me I have to wait 3534 seconds (about an hour) before the cache for the record is expired. If I make a change now, it may not be visible from my local machine for an hour.
+`dig` says I have to wait 3534 seconds (about an hour) before the cache for the record is expired. If I make a change now, it may not be visible from my local machine for an hour.
 
 Make sure to clear the DNS cache before checking a record update. This may involve:
 
