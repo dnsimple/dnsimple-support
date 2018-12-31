@@ -1,5 +1,5 @@
 ---
-title: Managing CNAME records
+title: Managing CNAME Records
 excerpt: Instructions to add, update, and remove an CNAME record in DNSimple.
 categories:
 - DNS
