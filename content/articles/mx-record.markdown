@@ -1,11 +1,11 @@
 ---
-title: What's an MX record?
+title: What's an MX Record?
 excerpt: What an MX record is, and how to create MX records with DNSimple.
 categories:
 - DNS
 ---
 
-# What's an MX record?
+# What's an MX Record?
 
 MX stands for Mail eXchange. MX Records tell email delivery agents where they should deliver your email. You can have many MX records for a domain. They provide a way to have redundancy and ensure email will always be delivered.
 
