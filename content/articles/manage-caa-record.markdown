@@ -27,7 +27,7 @@ CAA records are only supported on the DNSimple primary name servers (ns1.dnsimpl
 </note>
 
 
-## Standard mode vs Custom mode
+## Standard mode vs custom mode
 
 The DNSimple interface allows you to manage CAA records using two different modes:
 
