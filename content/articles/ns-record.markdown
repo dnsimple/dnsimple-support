@@ -1,11 +1,11 @@
 ---
-title: What's an NS record?
+title: What's an NS Record?
 excerpt: What an NS record is, and how to create NS records with DNSimple.
 categories:
 - DNS
 ---
 
-# What's an NS record?
+# What's an NS Record?
 
 An NS record delegates a subdomain to a set of name servers. Whenever you delegate a domain to DNSimple, the TLD authorities place NS records for your domain in the TLD name servers pointing to us. For example, there are the following entries delegating dnsimple.com to our name servers in the .com name servers:
 
