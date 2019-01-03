@@ -18,4 +18,4 @@ DNSimple has servers in 6 locations around the world:
 - Tokyo, Japan
 - Sydney, Australia
 
-If you want know more about Anycast, [read this support article](/articles/why-anycast-dns).
+If you want to learn more about Anycast, [read this support article](/articles/why-anycast-dns).
