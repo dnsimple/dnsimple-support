@@ -1,13 +1,13 @@
 ---
-title: Differences Among A, CNAME, ALIAS and URL records
+title: Differences Among A, CNAME, ALIAS, and URL records
 excerpt: Understanding the differences between the A, CNAME, ALIAS, and URL records.
 categories:
 - DNS
 ---
 
-# Differences Among A, CNAME, ALIAS and URL records
+# Differences Among A, CNAME, ALIAS, and URL records
 
-`A`, `CNAME`, `ALIAS` and `URL` records are all possible solutions to point a host name ("name") to your site. However, they have small differences that affect how the client will reach your site.
+`A`, `CNAME`, `ALIAS`, and `URL` records are all possible solutions to point a host name ("name") to your site. However, they have small differences that affect how the client will reach your site.
 
 `A` and `CNAME` records are standard DNS records. `ALIAS` and `URL` records are custom DNS records provided by DNSimple's [DNS hosting](https://dnsimple.com). Both of them are translated internally into `A` records to ensure compatibility with the DNS protocol.
 
@@ -15,9 +15,9 @@ categories:
 
 These are the main differences:
 
-- The `A` record maps a name to one or more IP addresses, when the IP are known and stable.
+- The `A` record maps a name to one or more IP addresses when the IP are known and stable.
 - The `CNAME` record maps a name to another name. It should only be used when there are no other records on that name.
-- The `ALIAS` record maps a name to another name, but it can coexist with other records on that name.
+- The `ALIAS` record maps a name to another name, but can coexist with other records on that name.
 - The `URL` record redirects the name to the target name using the HTTP 301 status code.
 
 Important rules:
