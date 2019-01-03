@@ -78,10 +78,10 @@ ns1.thirdparty.com.
 ns2.thirdparty.com.
 ~~~
 
-This configuration may lead to random DNS resolution issues, especially if you're using DNS custom features like ALIAS or URL records, and/or the two DNS services are not in sync.
+This configuration may lead to random DNS resolution issues, especially if you're using DNS custom features like ALIAS or URL records, and/or the two DNS services aren't in sync.
 
 <note>
-When you have Secondary DNS enabled, your domain **should not** be pointing only to DNSimple name servers: both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
+When you have Secondary DNS enabled, your domain **should not** point only to DNSimple name servers: both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
 </note>
 
 
