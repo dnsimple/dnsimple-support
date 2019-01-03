@@ -84,6 +84,6 @@ If the query isn't returning the correct value, make sure the record update isn'
 
 When you change a record in our system, the changes are published almost immediately.
 
-In some cases, our update queue may take a little bit longer. Wait a couple minutes and check again.
+Our update queue may sometimes take a bit longer. Wait a couple minutes and check again.
 
 Follow our blog or Twitter account for updates. We publish status updates when there's a known issue with our update queue.
