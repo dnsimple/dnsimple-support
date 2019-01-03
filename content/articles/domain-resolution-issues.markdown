@@ -9,9 +9,9 @@ categories:
 
 To use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
 
-You can check domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). Resolution status is also displayed on the domain page in your DNSimple account.
+You can check the domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). The resolution status is also displayed on the domain page in your DNSimple account.
 
-This is a checklist of common issues to help you if domain is not resolving correctly.
+This is a checklist of common issues to help you if a domain is not resolving correctly.
 
 
 ## Name server propagation delay
