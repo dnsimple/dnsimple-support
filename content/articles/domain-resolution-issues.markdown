@@ -22,7 +22,7 @@ You can check if the update was successful by inspecting the WHOIS response for 
 
 The WHOIS response usually updates within a few minutes.
 
-If after 24 hours the domain still isn't resolving, make sure the update was successfully confirmed by your current domain registrar and see the other sections in this page.
+If after 24 hours the domain still isn't resolving, make sure the update was successfully confirmed by your current domain registrar, and see the other sections in this page.
 
 
 ## Check that the domain is using the DNSimple name servers
