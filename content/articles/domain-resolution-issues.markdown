@@ -7,25 +7,25 @@ categories:
 
 # Troubleshooting Domain Resolution Issues
 
-In order to use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
+To use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
 
-You can check domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). Resolution status is also displayed on the domain page in your DNSimple account.
+You can check the domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). The resolution status is also displayed on the domain page in your DNSimple account.
 
-Here's a checklist of common issues to help you in case a domain is not resolving correctly.
+The following is a checklist of common issues to help you if a domain isn't resolving correctly. 
 
 
 ## Name server propagation delay
 
-If you recently pointed the domain to DNSimple and the domain is still not resolving, please note that it may take up to 24 hours for a name server change to propagate.
+If you recently pointed the domain to DNSimple and the domain still isn't resolving, remember it may take up to 24 hours for a name server change to propagate.
 
-You can check whether the update was successful by inspecting the WHOIS response for the domain as described in the section *Check name server list in the WHOIS response*.
+You can check if the update was successful by inspecting the WHOIS response for the domain as described in the section *Check name server list in the WHOIS response*.
 
-The WHOIS response is normally updated in a few minutes.
+The WHOIS response usually updates within a few minutes.
 
-If after 24 hours the domain is still not resolving, make sure the update was successfully confirmed by your current domain registrar and see the other sections in this page.
+If after 24 hours the domain still isn't resolving, make sure the update was successfully confirmed by your current domain registrar, and see the other sections in this page.
 
 
-## Check the domain is using the DNSimple name servers
+## Check that the domain is using the DNSimple name servers
 
 Ensure the domain is using [DNSimple name servers](/articles/dnsimple-nameservers).
 
@@ -48,7 +48,7 @@ The order of the name servers is irrelevant.
 
 The `+trace` option from `dig` shows exactly how the name is delegated.
 
-It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It's useful to debug delegation issues.
+It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It's useful for debugging delegation issues.
 
 ~~~
 $ dig NS example.com +trace
@@ -56,17 +56,17 @@ $ dig NS example.com +trace
 
 The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers).
 
-If not, update name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple). If you recently switched the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
+If not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple). If you recently switched, the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
 
 
-## Check the domain is using *all* DNSimple name servers
+## Check that the domain is using *all* DNSimple name servers
 
-DNSimple provides four name servers. You should include all the name servers to make sure DNS will resolve in case one name server temporarily unavailable for maintenance, etc.
+DNSimple provides four name servers. You should include all the name servers to make sure DNS will resolve if one name server is temporarily unavailable due to maintenance, etc. 
 
 
-## Check the domain is using *only* DNSimple name servers
+## Check that the domain is using *only* DNSimple name servers
 
-In some cases a misconfiguration may result in DNSimple name servers listed along with third party name servers.
+In some cases, a misconfiguration may result in DNSimple name servers listed along with third party name servers.
 
 ~~~
 $ dig NS example.com +short
@@ -78,10 +78,10 @@ ns1.thirdparty.com.
 ns2.thirdparty.com.
 ~~~
 
-This configuration may lead to random DNS resolution issues, especially if you are using DNS custom features such as ALIAS or URL records and/or the two DNS services are not in sync.
+This configuration may lead to random DNS resolution issues, especially if you're using DNS custom features like ALIAS or URL records, and/or the two DNS services aren't in sync.
 
 <note>
-When you have Secondary DNS enabled your domain **should not** be pointing only to DNSimple name servers: both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
+When you have Secondary DNS enabled, your domain **should not** point only to DNSimple name servers: both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
 </note>
 
 
@@ -112,12 +112,10 @@ If you recently updated the domain, see the section *Name server change propagat
 
 ## Ensure the DS record is removed
 
-If you switch DNS providers, and have DNSSEC enabled, then you must [remove the current DS record first](/articles/ds-records-changing-dns).
+If you switched DNS providers and had DNSSEC enabled, you must [remove the previous DS record first](/articles/ds-records-changing-dns).
 
-If you have transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
+If you transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 
 ## Contact us
 
-Please be sure to check the common issues in this checklist to narrow down the problem.
-
-If the problem is not in this list or you have any other questions, please [contact us](https://dnsimple.com/contact).
+If the problem isn't in this list, or you have other questions, please [contact us](https://dnsimple.com/contact).
