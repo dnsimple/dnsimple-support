@@ -1,11 +1,11 @@
 ---
-title: Managing CNAME records
+title: Managing CNAME Records
 excerpt: Instructions to add, update, and remove an CNAME record in DNSimple.
 categories:
 - DNS
 ---
 
-# Managing CNAME records
+# Managing CNAME Records
 
 ### Table of Contents {#toc}
 
@@ -19,7 +19,7 @@ You can manage [CNAME records](/articles/cname-record) in DNSimple using the [DN
 The instructions in this article assume you're familiar with the [CNAME record format](/articles/cname-record#record-format) and usage.
 
 
-## Add a CNAME record
+## Adding a CNAME record
 
 <div class="section-steps" markdown="1">
 #### To add a CNAME record
@@ -48,12 +48,12 @@ The instructions in this article assume you're familiar with the [CNAME record f
 </div>
 
 
-## Update a CNAME record
+## Updating a CNAME record
 
 <div class="section-steps" markdown="1">
 #### To update a CNAME record
 
-1.  In the record editor, search the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
     ![](/files/record-cname-item-edit.png)
 
@@ -61,12 +61,12 @@ The instructions in this article assume you're familiar with the [CNAME record f
 </div>
 
 
-## Remove a CNAME record
+## Removing a CNAME record
 
 <div class="section-steps" markdown="1">
 #### To remove a CNAME record
 
-1.  In the record editor, search the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
     ![](/files/record-cname-item-delete.png)
 
@@ -78,8 +78,8 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 ### Cannot add a new record where a CNAME exists
 
-To understand the error, it's important to understand that a CNAME points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless. Let's look at an example:
+To understand the error, it's important to understand a CNAME points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless. Let's look at an example:
 
-Let's assume there's an MX record on email.example.com, and you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain (email.example.com) and render the MX record useless, leading to a lot of potential confusion when email stops. To counter this potential confusion, the domain name system does not allow other records alongside a CNAME.
+Let's assume there's an MX record on email.example.com, and you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain (email.example.com) and render the MX record useless, leading to a lot of potential confusion when email stops. To counter this potential confusion, the domain name system doesn't allow other records alongside a CNAME.
 
 You can achive a similar behavior as a CNAME with a ALIAS record. If you want a sub-domain to always resolve to the IP address of another domain, you can use a ALIAS record pointing to that domain. You should only do this if you absolutely need it, as the ALIAS record has a small amount of additional overhead when compared to A and CNAME records.
