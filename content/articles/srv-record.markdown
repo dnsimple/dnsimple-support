@@ -1,6 +1,6 @@
 ---
-title: What is an SRV Record?
-excerpt: What is an SRV record and how to add an SRV record in DNSimple.
+title: What's an SRV Record?
+excerpt: What an SRV record is, and how to add an SRV record in DNSimple.
 categories:
 - DNS
 ---
@@ -14,18 +14,18 @@ categories:
 
 ---
 
-## What is an SRV Record?
+## What's an SRV record?
 
-SRV records are often used to help with service discovery. For example, SRV records are used in Internet Telephony for defining where a SIP service may be found.
+SRV records help with service discovery. For example, SRV records are used in Internet Telephony to define where a SIP service may be found.
 
-An SRV record typically defines a symbolic name and the transport protocol used as part of the domain name, and defines the priority, weight, port and target for the service in the record content.
+An SRV record typically defines a symbolic name and the transport protocol used as part of the domain name. It defines the priority, weight, port, and target for the service in the record content.
 
-Here is an example of two SRV records.
+Here's an example of two SRV records.
 
     _sip._tcp.example.com.   3600 IN    SRV 10       60     5060 bigbox.example.com.
     _sip._tcp.example.com.   3600 IN    SRV 10       20     5060 smallbox1.example.com.
 
-From the name, `_sip` is the symbolic name for the service and `_tcp` is the transport protocol. Note that the symbolic name and transport always start with an underscore.
+From the name, `_sip` is the symbolic name for the service and `_tcp` is the transport protocol. The symbolic name and transport always start with an underscore.
 
 The content of the SRV record defines a priority of 10 for both records. The first record has a weight of 60 and the second a weight of 20. The priority and weight values can be used to encourage use of certain servers over others.
 
