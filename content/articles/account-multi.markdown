@@ -1,11 +1,11 @@
 ---
-title: Multiple-accounts per user
-excerpt: How to manage multiple accounts per DNSimple user and switch which account is active.
+title: Multiple Accounts Per User
+excerpt: How to manage multiple accounts per DNSimple user and switch active accounts. 
 categories:
 - Account
 ---
 
-# Managing multiple-accounts per user
+# Managing Multiple Accounts Per User
 
 ### Table of Contents {#toc}
 
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DNSimple allows a user to be associated with multiple accounts. This may happen in two cases:
+DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
 
 - The user is [added as a member to an existing account](/articles/account-users)
 - The user created a new account
@@ -24,22 +24,22 @@ Managing multiple accounts is a flexible way to access different levels of servi
 
 ## Creating a separate account
 
-If you would like to add another account to your user profile, you should take the following steps.
+If you want to add another account to your user profile:
 
 <div class="section-steps" markdown="1">
 1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the menu.
 
     ![Settings link](/files/access-user-settings.jpg)
 
-1. Once there, you follow the <label>Add new account</label> link.
+1. Once there, follow the <label>Add new account</label> link.
 
     ![Add New Account link](/files/add-new-account-link.png)
 
-1. At this point, you will be presented with a form where you should fill in with the details for your new account.
+1. You'll see a form you should fill in with the details for your new account.
 
     ![Add New Account form](/files/add-new-account-form.png)
 
-1. Once you've submitted the new account form, the account is created and you are free to activate it by clicking the <label>Select plan</label>. You may also configure other parts of your account from the top navigation menu before activating your account.
+1. Once you've submitted the new account form, the account is created. You can activate it by clicking the <label>Select plan</label>. You can configure other parts of your account from the top navigation menu before activating your account.
 
     ![Add New Account details](/files/add-new-account-details.png)
 
@@ -48,7 +48,7 @@ If you would like to add another account to your user profile, you should take t
 
 ## Switching active accounts
 
-Switching account context is very simple. Select the account you'd like to use from the menu.
+Switching account context is easy. Select the account you'd like to use from the menu:
 
   ![Switch account](/files/account-switcher.jpg)
 
