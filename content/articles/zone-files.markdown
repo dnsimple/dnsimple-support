@@ -1,22 +1,22 @@
 ---
-title: Domain zone files
-excerpt: This article explains what is a DNS zone file and how to import and export zone text files in DNSimple.
+title: Domain Zone Files
+excerpt: This article explains what a DNS zone file is, and how to import and export zone text files in DNSimple.
 categories:
 - DNS
 ---
 
-# Domain zone files
+# Domain Zone Files
 
 * TOC
 {:toc}
 
-## What's a zone file {#whats-a-zone-file}
+## What's a zone file {#whats-a-zone-file}?
 
 A [zone file](https://en.wikipedia.org/wiki/Zone_file) is a representation of your domain's zone in a text file. The text file follows the BIND format and includes information about all the records the domain has.
 
-You can use zone files to get a representation of all the records of a particular domain. You can use these files to accomplish different goals: for example you can bulk migrate a domain zone to a secondary name server on a third-party system or to create a backup of your domain records.
+You can use zone files to get a representation of all the records of a particular domain. You can use these files to accomplish various goals, like bulk migrating a domain zone to a secondary name server on a third-party system, or creating a backup of your domain records.
 
-Since zone files are a standard practice in the DNS industry you can also use zone files to get your domain working on DNSimple for the first time. You just have to get your domain's zone file from your current provider and import it.
+Zone files are a standard practice in the DNS industry, so you can also use zone files to get your domain working on DNSimple for the first time. You just have to get your domain's zone file from your current provider and import it.
 
 
 ## Importing records from a zone file
