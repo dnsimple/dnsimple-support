@@ -25,7 +25,7 @@ If you subscribed to DNSimple in the past, you've already enjoyed our 1 month tr
 1.  Go to [your dashboard](https://dnsimple.com/dashboard).
 1.  Locate the accounts section of your dashboard. Click the <label>Choose plan</label> link corresponding to the account you wish to reactivate.
     
-    ![Choose plan link](/files/account-dashboard-reactivation.jpg)
+    ![Choose plan link](/files/account-dashboard-reactivation.png)
 
 1.  Choose the plan that best suits your needs.
 1.  Enter your payment information and click <label>Create Subscription</label>.
