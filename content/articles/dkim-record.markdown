@@ -20,19 +20,19 @@ DKIM stands for DomainKeys Identified Email. It provides a way to validate that 
 
 ## Setting up DKIM
 
-DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/docs/Glossary/dkim.html), [Postmark](http://support.postmarkapp.com/customer/portal/articles/64739-what-is-dkim-), or [Google Apps](https://support.google.com/a/answer/174124?hl=en). The key will either be inserted directly into your zone as a TXT record, or it will be a CNAME pointing to the key in your provider's DNS.
+DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/docs/Glossary/dkim.html), [Postmark](http://support.postmarkapp.com/customer/portal/articles/64739-what-is-dkim-), or [Google Apps](https://support.google.com/a/answer/174124?hl=en). You'll either insert the key directly into your zone as a TXT record, or it will be a CNAME pointing to the key in your provider's DNS.
 
-If you're given a string representing the DKIM, it will usually look something like this:
+If you're given a string representing the DKIM, it usually looks something like this:
 
     k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
 
-This should be inserted into a TXT record. You can do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given in the Content field.
+Insert this into a TXT record. Do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
 
-Your provider will also give you a specific subdomain to use, usually something like this:
+Your provider will also give you a specific subdomain to use, usually something like:
 
     something._domainkey
 
-You will enter this subdomain in the "Name" field.
+Enter this subdomain in the "Name" field.
 
 If your provider gives you a fully-qualified name that ends with your domain name, DO NOT include your domain name in the "Name" field when you add the TXT record. If you're given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the "Name" field.
 
@@ -48,7 +48,7 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 
 The [dig](https://newsletter.dnsimple.com/how-to-dig/) tool is a good way to verify that your DKIM record is being returned correctly by our DNS servers.
 
-To verify the DKIM record, you will need to query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, I can get the TXT record using the following query:
+To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, you can get the TXT record using the following query:
 
     dig +short google._domainkey.aetrion.com TXT
 
@@ -61,7 +61,7 @@ If no result is returned, verify that you added the TXT record with the correct 
 
 ## Verifying your DKIM with an online tool
 
-You may also want to verify your DKIM with an online tool like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool verifies that you have SPF and DKIM records. In the DKIM selector field, just add the first part from the subdomain your DKIM is under. For example, if my DKIM is at `google._domainkey.aetrion.com`, then the DKIM selector is "google".
+Verify your DKIM with an online tool like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool verifies that you have SPF and DKIM records. In the DKIM selector field, just add the first part from the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.aetrion.com`, then the DKIM selector is "google".
 
 
 ## Technical details
