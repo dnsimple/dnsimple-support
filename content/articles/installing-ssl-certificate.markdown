@@ -27,8 +27,7 @@ We've created a certificate installation wizard which is accessible from the mai
 1.  On the header menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Select the SSL Certificates tab and click on the relevant certificate.
 
-    ![SSL certificate page link](/files/domain-view-ssl-certificate-link.png)
-
+    ![SSL certificate page link](/files/dnsimple-domain-certificates-list.png)
 </div>
 
 To install the certificate click on the <label>install the SSL certificate</label> link on the certificate page and follow the instructions.
