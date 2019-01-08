@@ -34,14 +34,14 @@ Your provider will also give you a specific subdomain to use, usually something 
 
 You will enter this subdomain in the "Name" field.
 
-If your provider gives you a fully-qualified name that ends with your domain name, you should NOT include your domain name in the "Name" field when you add the TXT record. For example, if you are given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the "Name" field.
+If your provider gives you a fully-qualified name that ends with your domain name, DO NOT include your domain name in the "Name" field when you add the TXT record. If you're given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the "Name" field.
 
 
 ## Quotes and slashes?
 
 If your provider gave you the DKIM record and it included double quotes around the record, or backslashes before semi-colons in the record, you may safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
 
-Note that sometimes there will be forward slashes, or other unusual characters, in the DKIM record. You should not modify those. If you have any questions or concerns, feel free to [contact support](https://dnsimple.com/contact).
+Sometimes there will be forward slashes or other unusual characters in the DKIM record. Don't modify those. If you have any questions or concerns, [contact support](https://dnsimple.com/contact).
 
 
 ## Verifying your DKIM with dig
