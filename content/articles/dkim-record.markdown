@@ -1,5 +1,5 @@
 ---
-title: What is a DKIM Record?
+title: What's a DKIM Record?
 excerpt: What a DKIM record is, and how DKIM records work.
 categories:
 - DNS
