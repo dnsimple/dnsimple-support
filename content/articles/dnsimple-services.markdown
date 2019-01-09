@@ -36,7 +36,7 @@ Read up on our [API features and abilities](https://dnsimple.com/api).
 
 One Click Services are ready-to-use DNS snippets. Applying a service creates all the DNS configurations necessary to configure your email and serve up your webpage.
 
-We currently offer: 
+We offer:
 
 - Hosting Services such as Surge, WordPress, Webflow, and more
 - Productivity Services including Google's G-Suite, Office 365, and KickoffLabs
@@ -52,6 +52,6 @@ We provide three types of SSL Certificates:
 
 - Single-host SSL certificates ($20 per year)
 - Wildcard certificates ($100 per year)
-- Let's Encrypt SSL certificates 
+- Let's Encrypt SSL certificates (included in the subscription)
 
 Learn more about DNSimple certificates [here](/articles/ssl-certificates).
