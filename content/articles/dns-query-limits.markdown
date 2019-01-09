@@ -1,13 +1,13 @@
 ---
-title: Do you have query limits or charged based on query volume?
-excerpt: Currently we do not implement query limits nor do we charge based on query volume.
+title: Do You Have Query Limits or Charge Based on Query Volume?
+excerpt: We don't implement query limits or charge based on query volume.
 categories:
 - DNSimple
 - DNS
 ---
 
-# Do you have query limits or charge based on query volume?
+# Do You Have Query Limits or Charge Based on Query Volume?
 
-Currently we do not implement query limits nor do we charge based on query volume.
+We don't implement query limits or charge based on query volume.
 
-We may implement query-based pricing in the future, but we'll make sure to give you plenty of notice in advance if we do.
+We might implement query-based pricing in the future. We'll give you plenty of advance notice if we do.
