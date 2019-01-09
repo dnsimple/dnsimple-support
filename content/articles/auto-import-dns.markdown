@@ -1,17 +1,17 @@
 ---
-title: Auto-importing DNS records
-excerpt: Avoid downtime when transferring or hosting your domain with us by auto-importing your DNS records
+title: Auto-Importing DNS Records
+excerpt: Auto-import your DNS records to avoid downtime when transferring or hosting your domain with us. 
 categories:
 - DNS
 ---
 
-# Auto-importing DNS records
+# Auto-Importing DNS Records
 
 <info>
-This article describes a feature that's only available with [new plans](/articles/new-plans#newer-plans-only).
+This article describes a feature only available on [newer plans](/articles/new-plans#newer-plans-only).
 </info>
 
-Auto-importing DNS records can help you reduce downtime on your domain transfer, or when hosting the DNS for your domain with us.
+Auto-importing DNS records helps reduce downtime on your domain transfer or when hosting the DNS for your domain with us.
 
 Instead of manually entering DNS records, or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
 
@@ -42,7 +42,7 @@ Once you have all the necessary records, click on <label>Import DNS records</lab
 
 ## Managing conflicts
 
-If auto-importing a record conflicts with an existing one on your domain, we ask you to confirm which record you'd like to keep. By default, we don't override the records on your domain, so you'll have to select the record that applies in your context.
+If auto-importing a record conflicts with an existing one on your domain, we ask you to confirm which record you'd like to keep. By default, we don't override the records on your domain. You'll have to select the record that applies in your context.
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
