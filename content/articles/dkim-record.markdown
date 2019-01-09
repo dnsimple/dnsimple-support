@@ -20,7 +20,7 @@ DKIM stands for DomainKeys Identified Email. It provides a way to validate that 
 
 ## Setting up DKIM
 
-DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/docs/Glossary/dkim.html), [Postmark](http://support.postmarkapp.com/customer/portal/articles/64739-what-is-dkim-), or [Google Apps](https://support.google.com/a/answer/174124?hl=en). You'll either insert the key directly into your zone as a TXT record, or it will be a CNAME pointing to the key in your provider's DNS.
+DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/docs/Glossary/dkim.html), [Postmark](http://support.postmarkapp.com/customer/portal/articles/64739-what-is-dkim-), or [Google Apps](https://support.google.com/a/answer/174124?hl=en). The key will either be inserted directly into your zone as a TXT record, or it will be a CNAME pointing to the key in your provider's DNS.
 
 If you're given a string representing the DKIM, it usually looks something like this:
 
