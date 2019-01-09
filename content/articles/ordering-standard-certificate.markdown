@@ -1,11 +1,11 @@
 ---
-title: Ordering a Standard Certificate
-excerpt: How to order a standard certificate from Comodo with DNSimple.
+title: Ordering a Standard SSL Certificate
+excerpt: How to order a standard SSL certificate with DNSimple.
 categories:
 - SSL Certificates
 ---
 
-# Ordering a Standard Certificate
+# Ordering a Standard SSL Certificate
 
 ### Table of Contents {#toc}
 
