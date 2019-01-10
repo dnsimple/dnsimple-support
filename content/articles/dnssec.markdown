@@ -38,13 +38,13 @@ We don't support DNSSEC for zones using our outbound secondary DNS feature.
 
 ## Managing DNSSEC
 
-DNSSEC is applied on a per-domain basis. You can manage DNSSEC by going to a domain's management page and using the DNSSEC tab.
+DNSSEC is applied on a per-domain basis. You can manage DNSSEC by using the DNSSEC tab on a domain's management page.
 
 ![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-tab.png)
 
 ## Enabling DNSSEC
 
-To enable DNSSEC, click on the "Configure DNSSEC" link once you're on the DNSSEC management page.
+To enable DNSSEC, click on the "Configure DNSSEC" link on the DNSSEC management page.
 
 ![Configure DNSSEC](/files/dnssec-configure.png)
 
