@@ -91,15 +91,15 @@ During the key rotation, old and new keys are attached to your zone for 3 days (
 
 ### Automating key rotation
 
-If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside DNSimple. To do this, you must use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. You can find more information in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
+If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside DNSimple. To do this, use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. You can find more information in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
 
 ## DS records without a corresponding DNSKEY
 
-When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, you must remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
 
 ## Troubleshooting DNSSEC configurations
 
-The following tools are helpful in troubleshooting DNSSEC configuration issues:
+These tools are helpful for troubleshooting DNSSEC configuration issues:
 
 - [Verisign DNSSEC Debugger](http://dnssec-debugger.verisignlabs.com/)
 - [DNSViz](http://dnsviz.net/)
