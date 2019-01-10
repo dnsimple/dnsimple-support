@@ -53,17 +53,17 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
-    ![](/files/dnsimple-domain-certificatelist-issued.png)
+    ![Locating your certificate](/files/dnsimple-domain-certificates-list.png)
 
 1.  At the page, on the status line, look for the link to reissue the certificate.
 
-    ![](/files/dnsimple-ssl-reissue-link.png)
+    ![Reissuing your certificate](/files/dnsimple-ssl-reissue-link.png)
 
     If the link is not present, it means the certificate is in a status where the certificate can not be reissued (e.g. a not issued or expired certificate).
 
 1.  Click the link to access the "Reissue certificate" self-service section.
 
-    ![](/files/dnsimple-ssl-reissue-new.png)
+    ![Submitting the certificate reissuance](/files/dnsimple-ssl-reissue-new.png)
 
 1.  Check the certificate information and click <label>Reissue Certificate</label> to submit a new reissue request.
 

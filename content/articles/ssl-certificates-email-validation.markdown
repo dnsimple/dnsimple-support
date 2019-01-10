@@ -108,7 +108,7 @@ If the approver is not in this list or you need time to configure one of those e
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
-    ![](/files/dnsimple-ssl-pagelink-purchased.png)
+    ![Locating your certificate](/files/.dnsimple-domain-certificates-list.png)
 
 1.  Click <label>complete the setup process now</label>.
 
@@ -149,11 +149,11 @@ If you haven't received the validation email, for example because the email conf
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
-    ![](/files/dnsimple-ssl-pagelink-submitted.png)
+    ![Locating your certificate](/files/dnsimple-domain-certificates-list.png)
 
 1. At the page, on the status line, look for the link to resend the approval email.
 
-    ![](/files/dnsimple-ssl-resend-approval-link.png)
+    ![Resending your approval email](/files/dnsimple-ssl-resend-approval-link.png)
 
     If the link is not present, it means the certificate is in a status where the email cannot be resent (e.g. a not submitted or expired certificate).
 
