@@ -28,7 +28,7 @@ This table shows a list of most common redirect options and whether they're supp
 
 URL forwarding isn't really a DNS record type. It produces an A record that points to an HTTP server. The HTTP server is responsible for issuing the 301 redirect when it receives HTTP requests.
 
-In order for an HTTP server to respond to HTTPS requests for your domain, the redirector would need to have your SSL certificate and private key installed on the redirector server since it is the HTTP server that negotiates the SSL connection. It is impractical to have a shared URL forwarding service that would allow you to upload your SSL certificate and private key.
+For an HTTP server to respond to HTTPS requests for your domain, the redirector would need to have your SSL certificate and private key installed on the redirector server, since it's the HTTP server that negotiates the SSL connection. It's impractical to have a shared URL forwarding service that would allow you to upload your SSL certificate and private key.
 
 
 ## Alternatives
