@@ -13,9 +13,9 @@ This article describes a feature only available on [newer plans](/articles/new-p
 
 Auto-importing DNS records helps reduce downtime on your domain transfer or when hosting the DNS for your domain with us.
 
-Instead of manually entering DNS records, or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
+Instead of manually entering DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format (not all domain providers let you export your records in this standard format), we scan existing records and import them for you.
 
-We can import the following DNS record types:
+We can import these DNS record types:
 
 - [A](/articles/a-record)
 - [AAAA](/articles/aaaa-record)
@@ -28,7 +28,7 @@ We prompt you to auto-import DNS records when:
 - A domain transfer is about to start
 - Adding a domain for DNS management
 
-You can also auto-import the zone for your domain at any time by clicking on <label>Auto-import DNS</label> from the record editor.
+Auto-import the zone for your domain any time by clicking on <label>Auto-import DNS</label> from the record editor.
 
 ## Overview
 
@@ -38,7 +38,7 @@ We automatically look for the most common subdomains like `www`, `blog`, and `em
 
 ![Overview](/files/auto-import-dns-overview.png)
 
-Once you have all the necessary records, click on <label>Import DNS records</label> to add them all to your domain zone.
+Once you have all the necessary records, click on <label>Import DNS records</label> to add them to your domain zone.
 
 ## Managing conflicts
 
@@ -46,5 +46,5 @@ If auto-importing a record conflicts with an existing one on your domain, we ask
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
-Once you've made a selection, click on <label>Import DNS records</label> to add them all to your domain zone.
+Once you've made a selection, click on <label>Import DNS records</label> to add them to your domain zone.
 
