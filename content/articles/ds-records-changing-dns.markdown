@@ -1,6 +1,6 @@
 ---
 title: Managing DS Records When Changing DNS
-excerpt: This article explains what to do if you use DNSSEC and change DNS services
+excerpt: This article explains what to do if you use DNSSEC and change DNS services.
 categories:
 - Domain Transfers
 - DNS
