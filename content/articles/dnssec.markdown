@@ -84,10 +84,10 @@ DNSimple rotates key signing keys and zone signing keys every 90 days. Auto-rota
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
 
-Please carefully consider whether you're able and willing to rotate DS records at your registrar if your domain is not registered with DNSimple. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don't update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
+If your domain isn't registered with DNSimple, carefully consider whether you're willing and able to rotate DS records at your registrar. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don't update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
 </warning>
 
-During the key rotation, old and new keys are attached to your zone for 3 days (the duration of the key rotation period). At the end of the rotation period our system removes the old key, leaving only the new key in place.
+During the key rotation, old and new keys are attached to your zone for 3 days (the duration of the key rotation period). At the end of the rotation period, our system removes the old key, leaving only the new key in place.
 
 ### Automating key rotation
 
@@ -95,13 +95,13 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 ## DS records without a corresponding DNSKEY
 
-When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, resolvers that are DNSSEC-aware will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, you must remove the DS record from your registrar. However, this won't immediately fix resolution for some clients, as they will see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain. To fix this issue, you must remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
 
 ## Troubleshooting DNSSEC configurations
 
-The following tools may be helpful in troubleshooting DNSSEC configuration issues:
+The following tools are helpful in troubleshooting DNSSEC configuration issues:
 
 - [Verisign DNSSEC Debugger](http://dnssec-debugger.verisignlabs.com/)
 - [DNSViz](http://dnsviz.net/)
 
-You may also [contact DNSimple support](https://dnsimple.com/contact) if you have additional questions.
+You can also [contact DNSimple support](https://dnsimple.com/contact) with additional questions.
