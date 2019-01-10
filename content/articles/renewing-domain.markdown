@@ -17,7 +17,7 @@ By default, newly registered domains are set to auto-renew, but if you have turn
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Select the <label>Renew domain</label> link from the registration status card
 
-    ![Renew domain link](/files/renew-domain.jpg)
+    ![Renew domain link](/files/renew-domain.png)
 
 1.  Choose the term for which you'd like to renew the domain and whether you'd like to renew Whois Privacy Protection (if enabled and available) and click the <label>Renew Domain</label> button
 

@@ -64,13 +64,9 @@ The service directory is open-source. [Learn how to propose or contribute new se
 
 ## Adding a service
 
-To add a service, simply navigate to your domain, and on the services sidebar, select "DNS".
+To add a service, simply navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Add".
 
-![Domain DNS page](/files/services-dns-page.png)
-
-Then scroll down to locate the One Click Services section, and select "Manage services".
-
-![Service section](/files/services-card.png)
+![Domain DNS page](/files/services-dns-page-add.png)
 
 Then choose the service that you want to add.
 
@@ -79,13 +75,9 @@ Then choose the service that you want to add.
 
 ## Removing services
 
-To remove a service, simply navigate to your domain, and on the services sidebar, select "DNS".
+To remove a service, simply navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Manage".
 
-![Domain DNS page](/files/services-dns-page.png)
-
-Then scroll down to locate the One Click Services section, and select "Manage services".
-
-![Service section](/files/services-card.png)
+![Domain DNS page](/files/services-dns-page-manage.png)
 
 Find the service from the list of "Applied one-click services" that you want to remove and select "Remove".
 
@@ -96,4 +88,4 @@ Find the service from the list of "Applied one-click services" that you want to 
 
 Services are defined in an open-source repository on GitHub. This project may be forked and updated by you to add a new service. Once you have added the files required for your service, issue a pull request so we can review it and deploy it.
 
-Please visit https://github.com/dnsimple/dnsimple-services for full instructions.
+Please visit [https://github.com/dnsimple/dnsimple-services](https://github.com/dnsimple/dnsimple-services) for full instructions.

@@ -131,7 +131,7 @@ While we will send an email reminder when the WHOIS Privacy on a domain is due t
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the _Contact_ card.
 
-    ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)
+    ![WHOIS Privacy card](/files/whoisprivacy-domain-card-renew.png)
 
 1. Click on the <label>Renew WHOIS Privacy</label> link and you will be taken to a confirmation page.
 1. To renew the WHOIS Privacy service click on the <label>Renew WHOIS Privacy for 1 Year</label> button
