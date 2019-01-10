@@ -28,9 +28,9 @@ DNSSEC provides a way to cryptographically build a chain of trust from the root 
 
 We support DNSSEC in the following ways:
 
-- If your domain is registered through DNSimple and you're using our authoritative name servers, you may sign zones, and insertion and rotation of your DS record is handled automatically.
-- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you may add DS records for DNSSEC-enabled zones.
-- If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you may sign zones in our name servers, but you're required to handle the creation and rotation of DS records.
+- If your domain is registered through DNSimple and you're using our authoritative name servers, you can sign zones, and insertion and rotation of your DS record is handled automatically.
+- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can add DS records for DNSSEC-enabled zones.
+- If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you can sign zones in our name servers, but you're required to handle the creation and rotation of DS records.
 
 <note>
 We don't support DNSSEC for zones using our outbound secondary DNS feature.
