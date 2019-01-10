@@ -43,7 +43,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 
 1.  On the card displaying the registration status of your domain, click on the <label>Change Contacts</label> link.
 
-    ![Change domain contact](/files/change-contacts.jpg)
+    ![Change domain contact](/files/change-contacts.png)
 
 1.  You will see a list of all your existing contacts, with the one that is currently assigned to the domain selected. Choose the contact that you created before and save the changes. We will immediately update the registry data and the WHOIS record with the new information.
 </div>

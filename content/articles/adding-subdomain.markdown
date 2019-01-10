@@ -16,9 +16,9 @@ A subdomain is, technically speaking, a DNS record for a hostname that belongs t
 1.  If you have more than one account, select the relevant one.
 1.  On the header, click the <label>Domains</label> tab.
 1.  Locate the relevant domain and click on the name to access the domain page.
-1.  Click on the <label>DNS</label> tab (or quickly jump to the DNS records for that domain by clicking the button in the top right).
+1.  Click on the <label>DNS</label> tab and scroll to the record card (or quickly jump to the DNS records for that domain by clicking the button in the top right).
 
-    ![DNS Tab](/files/example-domain-manage.jpg)
+    ![Access DNS records](/files/example-domain-manage.png)
 
 1.  From there, click the <label>Add record</label> drop-down button, and select the type of record you wish to create. [`A`, `ALIAS`, and `CNAME` records](/articles/differences-between-a-cname-alias-url) will all create a new subdomain.
 

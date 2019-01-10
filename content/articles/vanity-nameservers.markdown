@@ -25,9 +25,9 @@ It is possible to configure vanity name servers on a domain of yours in DNSimple
 Vanity name servers are only available on [our business tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you are not subscribed to one of these plans you will be prompted to upgrade your plan.
 </info>
 
-![Vanity Name Server card](/files/vanity-name-servers-card.png)
+![Vanity Name Server card](/files/vanity-name-servers-card-enable.png)
 
-If you would like to use the domain on which you are enabling vanity name servers for the name server names, just click the <label>Enable Vanity Name Servers</label> button and the proper records will be added to the domain automatically.
+If you would like to use the domain on which you are enabling vanity name servers for the name server names, just click the <label>Enable</label> link and the proper records will be added to the domain automatically.
 
 <note>
 If your domain is registered with us, we will also automatically add [glue records](https://howdns.works/ep7/). If you are only using our DNS services, you will need to request that your registrar add the glue records for you. The IPv4 and IPv6 addresses you need for these records are available in our document on the [DNSimple name servers](/articles/dnsimple-nameservers).
@@ -47,9 +47,9 @@ If your domain is registered with us, there is nothing left to do. If not, you s
 
 ## Disabling Vanity Name Servers
 
-If you'd like to disable vanity name servers which you'd previously configured, you should visit the <label>DNS</label> tab of the domain management page and click <label>Configure nameservers</label> on the <label>Vanity Nameservers</label> card.
+If you'd like to disable vanity name servers which you'd previously configured, you should visit the <label>DNS</label> tab of the domain management page and click <label>Disable</label> on the <label>Vanity Nameservers</label> card.
 
-![Vanity Name Servers card](/files/vanity-name-servers-card.png)
+![Vanity Name Servers card](/files/vanity-name-servers-card-disable.png)
 
 You will be presented with a page on which you may disable the vanity name servers. Click the <label>Disable Vanity Name Servers</label> button.
 

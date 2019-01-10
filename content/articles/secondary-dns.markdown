@@ -61,7 +61,7 @@ If you choose the custom option, you'll be prompted to enter the NS records as w
 
 Once you submit the form with the proper details, you will be redirected to the domain management page with updated details.
 
-![Updated DNS management page](/files/secondary-dns-configured.jpg)
+![Updated DNS management page](/files/secondary-dns-configured.png)
 
 <warning>
 If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. This means if you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
