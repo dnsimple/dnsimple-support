@@ -12,10 +12,10 @@ If you use DNSSEC, when you switch from one DNS provider to another you must tak
 
 Your DS record is tied to the specific DNSSEC key that's used to sign your zone. If you move from a DNSSEC provider to a provider that does not support DNSSEC, you must remove your DS record before switching.
 
-The same rule applies if you switch from one DNS provider with DNSSEC to another DNS provider with DNSSEC. You should remove your DS record first, transition to the new DNS provider, and have them provide you with the new DS record you can add to your domain's registry name servers.
+The same rule applies if you switch from one DNS provider with DNSSEC to another DNS provider with DNSSEC. You should remove your DS record first, transition to the new DNS provider, and have them provide you with the new DS record you to add to your domain's registry name servers.
 
 ## Removing your DS record in DNSimple
 
-If you're using DNSimple as your domain registrar and you've set up your DS record previously with us, you may remove the record by going to your domain's management page and using the Delete DS Record button at the bottom of the page.
+If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove the record by going to your domain's management page and using the Delete DS Record button at the bottom of the page.
 
 ![Delete DS Record](/files/dnsimple-ds-record.png)
