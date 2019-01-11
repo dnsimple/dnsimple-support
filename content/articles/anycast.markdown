@@ -7,9 +7,9 @@ categories:
 
 # DNSimple Anycast DNS Service
 
-All domains at DNSimple are served through Anycast. Simply use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
+All domains at DNSimple are served through Anycast. Use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
 
-DNSimple currently has servers in 6 locations around the world:
+DNSimple has servers in 6 locations around the world:
 
 - San Jose, CA, USA
 - Chicago, IL, USA
@@ -18,4 +18,4 @@ DNSimple currently has servers in 6 locations around the world:
 - Tokyo, Japan
 - Sydney, Australia
 
-If you would like to know more about Anycast, then [read this support article](/articles/why-anycast-dns).
+If you want to learn more about Anycast, [read this support article](/articles/why-anycast-dns).
