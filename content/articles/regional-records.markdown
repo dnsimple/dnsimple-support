@@ -1,19 +1,19 @@
 ---
-title: Regional records
+title: Regional Records
 excerpt: Select geographical regions where you want a record to appear.
 categories:
 - DNS
 ---
 
-# Regional records
+# Regional Records
 
 <info>
-This article describes a feature that is only available to the following [new plans](/articles/new-plans#newer-plans-some): Professional and Business.
+This article describes a feature only available on the following [newer plans](/articles/new-plans#newer-plans-some): Professional and Business.
 </info>
 
 Regional records lets you select geographical regions where you want a record to appear.
 
-We currently have 6 points of presence:
+We have 6 points of presence:
 
 * California, US
 * Illinois, US
