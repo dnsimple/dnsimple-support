@@ -7,17 +7,17 @@ categories:
 
 # DNSimple as a Secondary DNS provider
 
-While DNSimple cannot synchronize zone changes from other name servers using AXFR, you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. You will be responsible for keeping the zones in sync between other DNS providers and DNSimple. You can accomplish this in several ways:
+DNSimple can't synchronize zone changes from other name servers using AXFR, but you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. You're responsible for keeping the zones in sync between other DNS providers and DNSimple. There are several ways to do this:
 
 - [Adding the records](/articles/record-editor/) manually through our UI.
 - [Importing a zone file](/articles/zone-files/#importing-records-from-a-zone-file) from your primary provider.
 - [Using our API](https://developer.dnsimple.com/v2).
 
-Once you are able to keep both zones in sync you will need to add the NS records corresponding to your primary DNS provider. You won't be able to do this using our [record editor](/articles/record-editor/) directly. To do this you will need to use our Secondary DNS configuration feature.
+Once you can keep both zones in sync, add the NS records corresponding to your primary DNS provider. You can't do this using our [record editor](/articles/record-editor/) directly. You'll need to use our Secondary DNS configuration feature.
 
 ## Configuring DNSimple along another DNS provider
 
-These are the steps required in order to setup zone redundancy with another DNS provider:
+To setup zone redundancy with another DNS provider:
 
 - If you don't have the domain in your DNSimple account, [add it with "use DNSimple services"](/articles/adding-domain/).
 - Go to the domain page and click on the DNS in the menu.
