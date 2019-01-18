@@ -14,7 +14,7 @@ For an overview of SecondaryDNS, have a look at [our introduction article](/arti
 * An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
 * Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple)
 
-Getting started with Secondary DNS is possible from the DNS section of the domain management page.
+You can get started with Secondary DNS from the DNS section of the domain management page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
@@ -26,7 +26,7 @@ A confirmation message will tell you that Secondary DNS has been enabled from th
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log into your **DNSMadeEasy** account. The first thing we are going to do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced* and then, *Secondary IP Sets*.
+Log into your **DNSMadeEasy** account. The first thing you'll do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced* and then, *Secondary IP Sets*.
 
 ![Access the IP set menu from DNSMadeEasy](/files/dns-made-easy-ip-set-menu.png)
 
@@ -37,15 +37,15 @@ Add a new IP set with the following values:
 
 ![DNSMadeEasy IP set](/files/dns-made-easy-ip-set.png)
 
-Now we are ready to add the domain. From the top navigation menu, select *DNS* and then *Secondary DNS*.
+Now add the domain. From the top navigation menu, select *DNS* and then *Secondary DNS*.
 
 ![DNSMadeEasy secondary DNS menu](/files/dns-made-easy-menu.png)
 
-Click on *Add Secondary*
+Click on *Add Secondary*.
 
 ![DNSMadeEasy adding secondary button](/files/dns-made-easy-secondary-click.png)
 
-In the popup, type your domain name and select the IP set that we just created.
+In the popup, type your domain name and select the IP set you just created.
 
 ![DNSMadeEasy adding secondary configuration](/files/dns-made-easy-popup.png)
 
@@ -53,11 +53,11 @@ If the configuration is correct, a success message will appear and you’ll be t
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 
-At the bottom of the screen, you might see an error message stating that the zone is out of sync. You’ll might have to wait a few minutes for the zones to synchronize.
+At the bottom of the screen, you might see an error message that the zone is out of sync. You might have to wait a few minutes for the zones to synchronize.
 
 ![DNSMadeEasy configuration details not in sync](/files/dns-made-easy-sync.png)
 
-Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers. This means that you configuration is now working properly.
+Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers. This means your configuration is working properly.
 
 ![DNSMadeEasy configuration details working](/files/dns-made-easy-working.png)
 
