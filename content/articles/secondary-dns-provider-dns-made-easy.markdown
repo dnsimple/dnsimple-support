@@ -1,11 +1,11 @@
 ---
 title: Secondary DNS with DNSMadeEasy
-excerpt: Secondary DNS can be complicated to set up. We've simplified things with provider specific settings for DNSMadeEasy.
+excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for DNSMadeEasy.
 categories:
 - Secondary DNS
 ---
 
-# Secondary DNS configuration with DNSMadeEasy
+# Secondary DNS Configuration with DNSMadeEasy
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns). 
 
