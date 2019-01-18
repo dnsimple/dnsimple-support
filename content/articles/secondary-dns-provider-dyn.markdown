@@ -1,6 +1,6 @@
 ---
 title: Secondary DNS with Dyn
-excerpt: Secondary DNS can be complicated to set up. We've simplified things with provider specific settings for Dyn.
+excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
 categories:
 - Secondary DNS
 ---
