@@ -26,7 +26,7 @@ A confirmation message will tell you Secondary DNS has been enabled from the DNS
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log into your **DNSMadeEasy** account. The first thing you'll do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced* and then, *Secondary IP Sets*.
+Log into your **DNSMadeEasy** account. The first thing you'll do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced*, then *Secondary IP Sets*.
 
 ![Access the IP set menu from DNSMadeEasy](/files/dns-made-easy-ip-set-menu.png)
 
@@ -37,7 +37,7 @@ Add a new IP set with the following values:
 
 ![DNSMadeEasy IP set](/files/dns-made-easy-ip-set.png)
 
-Now add the domain. From the top navigation menu, select *DNS* and then *Secondary DNS*.
+Now add the domain. From the top navigation menu, select *DNS* then *Secondary DNS*.
 
 ![DNSMadeEasy secondary DNS menu](/files/dns-made-easy-menu.png)
 
