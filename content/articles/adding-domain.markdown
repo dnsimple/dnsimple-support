@@ -16,7 +16,7 @@ When adding a domain to your account, you can choose to register, transfer, or j
 1.  Select the relevant account.
 1.  On the header, click the <label>Domains</label> tab.
 1.  Click <label>Add Domain</label>.
-1.  Choose the flow that makes sense for your needs.
+1.  Choose the correct flow for your needs.
 </div>
 
 ![Adding a domain](/files/adding-a-domain.png)
