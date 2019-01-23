@@ -12,7 +12,7 @@ For an overview of SecondaryDNS, have a look at [our introduction article](/arti
 **Requirements**
 
 * An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
-* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple)
+* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple).
 
 You can get started with Secondary DNS from the DNS section of the domain management page.
 
