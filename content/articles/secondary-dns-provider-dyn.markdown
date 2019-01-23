@@ -34,13 +34,13 @@ Congratulations, your secondary DNS should now be set up with **Dyn Standard**.
 
 ## Setting up for Dyn Managed
 
-First, set up secondary DNS at Dyn. Instructions for setting up Secondary DNS using Dyn Managed DNS may be found on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/). When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
+First, set up secondary DNS at Dyn. You can find instructions on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/). When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
 
 You may also want to wait an hour or two before enabling your secondary DNS in DNSimple. This gives Dyn time to deploy the configuration for secondary DNS on our side.
 
-From DNSimple, select **Dyn Managed** as the provider and click *Enable* at the bottom of the form. The IP addresses that Dyn is expecting are already filled in for you, but you'll need to fill in the name servers using the name server names Dyn provided to you when you enabled Secondary DNS on their side.
+From DNSimple, select **Dyn Managed** as the provider and click *Enable* at the bottom of the form. The IP addresses Dyn is expecting are already filled in for you. You'll need to fill in the name servers using the name server names Dyn provided to you when you enabled Secondary DNS on their side.
 
-A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
+A confirmation message will tell you Secondary DNS has been enabled from the DNSimple side.
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
