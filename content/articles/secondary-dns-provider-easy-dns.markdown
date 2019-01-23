@@ -32,7 +32,7 @@ Select the option *Get DNS* for the domain.
 
 ![DNSimple configuration is successful](/files/easy-dns-get-dns.png)
 
-Go through the payment process. Any plan supports secondary DNS. When you're finished, the domain is added and ready to be managed. Click on *manage*
+Go through the payment process. Any plan supports secondary DNS. When you're finished, the domain is added and ready to be managed. Click on *manage*.
 
 ![DNSimple configuration is successful](/files/easy-dns-ready-to-configure.png)
 
@@ -40,15 +40,15 @@ From the *DNS settings* tab, you'll tell EasyDNS the primary nameserver, in this
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
-Now add the IP address that you configured at DNSimple: `50.31.225.92`
+Now add the IP address you configured at DNSimple: `50.31.225.92`
 
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
 
-And then confirm the changes.
+Then confirm the changes.
 
 ![DNSimple configuration is successful](/files/easy-dns-confirm.png)
 
-It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *Tools* tab and then *check* the zone file.
+It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *Tools* tab, then *check* the zone file.
 
 ![DNSimple configuration is successful](/files/easy-dns-tools.png)
 
