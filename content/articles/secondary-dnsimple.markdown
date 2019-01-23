@@ -17,7 +17,7 @@ Once you can keep both zones in sync, add the NS records corresponding to your p
 
 ## Configuring DNSimple along another DNS provider
 
-To setup zone redundancy with another DNS provider:
+To set up zone redundancy with another DNS provider:
 
 - If you don't have the domain in your DNSimple account, [add it with "use DNSimple services"](/articles/adding-domain/).
 - Go to the domain page and click on the DNS in the menu.
