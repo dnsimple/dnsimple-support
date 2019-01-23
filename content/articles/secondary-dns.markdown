@@ -24,9 +24,9 @@ We provide pre-configurations and step-by-step guides for 3 providers:
 - [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy)
 - [EasyDNS](/articles/secondary-dns-provider-easy-dns).
 
-You can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you are going to use and have made the necessary configuration on their side, continue with this guide.
+You can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you're going to use and have made the necessary configuration on their side, continue with this guide.
 
-It is possible to configure Secondary DNS on all domains whether they delegate to us or not, but if you have pointed delegation elsewhere you will need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple) before the configuration will take effect.
+You can configure Secondary DNS on all domains whether they delegate to us or not. But if you've pointed delegation elsewhere, you'll need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple) before the configuration will take effect.
 
 If you don't have your domain registered with us, update the delegation of your domain at your registrar to use the secondary name servers you have chosen. If you set up the secondary name servers `ns1.secondary.com` and `ns2.secondary.com`, delegation at your registrar will need to change from:
 
@@ -49,7 +49,7 @@ Revert this step if you ever disable Secondary DNS for your domain.
 
 ## Enable Secondary DNS
 
-Getting started with Secondary DNS is possible from the DNS section of the domain management page.
+You can get started with Secondary DNS from the DNS section of the domain management page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
@@ -100,11 +100,11 @@ The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addr
 
     Secondary DNS is when you use a special protocol called AXFR to automatically transfer your zones to a secondary DNS provider whenever they change. This allows you to use DNSimple's nameservers and another DNS provider's nameservers at the same time.
 
-    This allows you to have an active redundancy in your domain name resolution. If an issue were to come up with DNSimple, you would still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those nameservers may be used at any time by resolvers, not just when an issue arises resolving names through our nameservers.
+    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those nameservers may be used at any time by resolvers – not just when an issue arises resolving names through our nameservers.
 
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
-    DNSimple can't synchronize zone changes from other name servers using AXFR, but you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple).
+    DNSimple can't synchronize zone changes from other name servers using AXFR. But you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple).
 
 1.  #### How can I check that my secondary DNS configuration is correct?
 
@@ -112,7 +112,7 @@ The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addr
 
 1.  #### How can I test that secondary DNS is working?
 
-    Once you've added the proper configuration and verified with your secondary provider that they can make AXFR queries and receive zone transfers, you should be able to query one or all of the secondary name servers with `dig` by pointing it at the secondary name servers. If you wanted to check the resolution for `yourdomain.com`, and had added `ns5.dnsmadeeasy.com` as a secondary DNS server, you could execute `dig @ns5.dnsmadeeasy.com yourdomain.com` to check the records you set with DNSimple on the apex domain. If there's any difference between the response and what you get from DNSimple, you've likely misconfigured something.
+    Once you've added the proper configuration and verified with your secondary provider that they can make AXFR queries and receive zone transfers, you should be able to query one or all of the secondary name servers with `dig` by pointing it at the secondary name servers. If you wanted to check the resolution for `yourdomain.com`, and had added `ns5.dnsmadeeasy.com` as a secondary DNS server, you could execute `dig @ns5.dnsmadeeasy.com yourdomain.com` to check the records you set with DNSimple on the apex domain. If there's any difference between the response and what you get from DNSimple, something is likely misconfigured.
 
 1.  #### Is the order of the name servers relevant?
 
