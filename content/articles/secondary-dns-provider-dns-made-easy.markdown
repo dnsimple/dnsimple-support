@@ -18,11 +18,11 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-Select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that DNSMadeEasy is expecting are already filled in for you.
+Select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses DNSMadeEasy is expecting are already filled in for you.
 
 ![DNSimple configuration with DNSMadeEasy](/files/dns-made-easy-enabling.png)
 
-A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
+A confirmation message will tell you Secondary DNS has been enabled from the DNSimple side.
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
