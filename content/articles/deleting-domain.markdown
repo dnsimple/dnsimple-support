@@ -16,7 +16,7 @@ You should not delete an active domain registered or resolved with DNSimple.
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  On the tabs to the left, click <label>Settings</label>.
 
     ![Settings tab](/files/settings-tab.png)
