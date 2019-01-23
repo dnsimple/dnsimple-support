@@ -57,7 +57,7 @@ At the bottom of the screen, you might see an error message that the zone is out
 
 ![DNSMadeEasy configuration details not in sync](/files/dns-made-easy-sync.png)
 
-Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers. This means your configuration is working properly.
+Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers. 
 
 ![DNSMadeEasy configuration details working](/files/dns-made-easy-working.png)
 
