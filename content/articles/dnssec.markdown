@@ -97,9 +97,9 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 CDS and CDNSKEY are two record types that can be used to automatically provision and deprovision DS records at parent name servers. The parent name server provider must support CDS and/or CDNSKEY for these records to be used to automatically provision and deprovision DS records.
 
-CDS and CDNSKEY record types are automatically generated for all DNSimple zones signed after January 1st, 2019, as well as for all new DNSSEC DNSKEY records created after January 1st, 2019. CDS and CDNSKEY records are managed by DNSimple and are not meant to be added or removed manually.
+CDS and CDNSKEY record types are automatically generated for all DNSimple zones signed after January 1st, 2019, and for all new DNSSEC DNSKEY records created after January 1st, 2019. CDS and CDNSKEY records are managed by DNSimple. These records are not meant to be added or removed manually.
 
-Details about how CDS/CDNSKEY work may be found in [RFC 8078](https://tools.ietf.org/html/rfc8078).
+You can find details about how CDS/CDNSKEY work in [RFC 8078](https://tools.ietf.org/html/rfc8078).
 
 ## DS records without a corresponding DNSKEY
 
