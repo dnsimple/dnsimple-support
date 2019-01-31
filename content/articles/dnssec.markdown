@@ -79,7 +79,7 @@ Click on the Delete DNSSEC Configuration button to remove the zone signing and t
 DNSimple rotates key signing keys and zone signing keys every 90 days. Auto-rotation is mandatory. You can't disable it.
 
 - If your domain is registered with us and uses our authoritative name servers: we handle rotation of keys automatically.
-- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts, **and you'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 3 days**.
+- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts, **and you'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 7 days**.
 
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
@@ -87,7 +87,7 @@ DNSimple rotates key signing keys and zone signing keys every 90 days. Auto-rota
 If your domain isn't registered with DNSimple, carefully consider whether you're willing and able to rotate DS records at your registrar. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don't update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. This will result in failed DNS resolution for your domains.
 </warning>
 
-During the key rotation, old and new keys are attached to your zone for 3 days (the duration of the key rotation period). At the end of the rotation period, our system removes the old key, leaving only the new key in place.
+During the key rotation, old and new keys are attached to your zone for 7 days (the duration of the key rotation period). At the end of the rotation period, our system removes the old key, leaving only the new key in place.
 
 ### Automating key rotation
 
