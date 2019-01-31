@@ -14,6 +14,7 @@ Here is a basic guide.
 ## Pronouncing DNSimple
 
 The easiest way to visualize it is D-N-Simple.
+Here at DNSimple we love sharing, that's why DNS and Simple share the "S".
 
 The phonetic form is dee-en-sim-puhl.
 
