@@ -23,5 +23,5 @@ By default, newly registered domains are set to auto-renew. If you've turned off
 
     ![Renew domain form](/files/renew-domain-form.png)
 
-1.  Enjoy using your renewed domain!
+
 </div>
