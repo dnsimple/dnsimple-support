@@ -21,4 +21,4 @@ When adding a domain to your account, you can choose to register, transfer, or j
 
 ![Adding a domain](/files/adding-a-domain.png)
 
-You'll be prompted for the name of the domain you want to add to your account.
+You'll then be prompted for the name of the domain you want to add to your account.
