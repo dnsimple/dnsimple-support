@@ -13,7 +13,7 @@ When adding a domain to your account, you can choose to register, transfer, or j
 ##### To add a domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Select the relevant account.
+1.  If you have more than one account, select the relevant one.
 1.  On the header, click the <label>Domains</label> tab.
 1.  Click <label>Add Domain</label>.
 1.  Choose the correct flow for your needs.
