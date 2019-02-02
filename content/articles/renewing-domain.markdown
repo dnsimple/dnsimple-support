@@ -13,7 +13,7 @@ By default, newly registered domains are set to auto-renew. If you've turned off
 ##### To renew a domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Select the relevant account.
+1.  If you have more than one account, select the relevant one.
 1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Select the <label>Renew domain</label> link from the registration status card
 
