@@ -16,7 +16,7 @@ categories:
 
 ## What is a Premium Domain?
 
-A premium domain is priced differently by a registrar. It's generally found in the new gTLDs space. They're typically more expensive than a normal domain, with prices going into the thousands of dollars in some cases. An example of a gTLD is `.love` or `.ninja`.
+A premium domain is priced differently by a registrar, and is generally found in the new gTLDs space. They're typically more expensive than a normal domain, with prices going into the thousands of dollars in some cases. An example of a gTLD is `.love` or `.ninja`.
 
 ## What makes a Premium Domain valuable
 
