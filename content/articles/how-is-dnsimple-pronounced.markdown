@@ -20,3 +20,5 @@ The phonetic form is dee-en-sim-puhl.
 
 DNS-Simple is close but not correct.
 DNS-imple is right out.
+
+If you are still unsure how to pronounce it record yourself saying it out loud and give our support a try by sending along your recording to support@dnsimple.com. We will help you out with this and any other Domain Management Automation questions you might have.
