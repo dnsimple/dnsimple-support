@@ -7,7 +7,7 @@ categories:
 
 # The Name DNSimple
 
-Our goal has always been to simplify DNS, so DNSimple is a portmantou of the abbrevation for Domain Name System (DNS) and the English word Simple.
+Our goal has always been to simplify DNS, so DNSimple is a portmanteau of the abbrevation for Domain Name System (DNS) and the English word Simple.
 
 But pronoucing it isn't always simple.
 
