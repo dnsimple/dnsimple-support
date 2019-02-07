@@ -19,7 +19,7 @@ If you want to use our name servers but have them appear as though they were you
 
 ## Enabling Vanity Name Servers
 
-You can configure vanity name servers on a domain of yours in DNSimple by visiting the <label>DNS</label> tab on the domain's management page and clicking <label>Configure nameservers</label> on the <label>Vanity nameservers</label> card.
+You can configure vanity name servers on your domain(s) in DNSimple by visiting the <label>DNS</label> tab on the domain's management page and clicking <label>Configure nameservers</label> on the <label>Vanity nameservers</label> card.
 
 <info>
 Vanity name servers are only available on [our business tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
@@ -27,15 +27,15 @@ Vanity name servers are only available on [our business tier](https://dnsimple.c
 
 ![Vanity Name Server card](/files/vanity-name-servers-card-enable.png)
 
-To use the domain on which you are enabling vanity name servers for the name server names, click the <label>Enable</label> link and the proper records will be added to the domain automatically.
+To use the domain on which you're enabling vanity name servers for the name server names, click the <label>Enable</label> link and the proper records will be added to the domain automatically.
 
 <note>
-If your domain is registered with us, we will also automatically add [glue records](https://howdns.works/ep7/). If you are only using our DNS services, you will need to request that your registrar add the glue records for you. The IPv4 and IPv6 addresses you need for these records are available in our document on the [DNSimple name servers](/articles/dnsimple-nameservers).
+If your domain is registered with us, we'll also automatically add [glue records](https://howdns.works/ep7/). If you're only using our DNS services, you need to request that your registrar add the glue records for you. The IPv4 and IPv6 addresses you need for these records are available in our document on the [DNSimple name servers](/articles/dnsimple-nameservers).
 </note>
 
 ![Vanity Name Servers on same domain](/files/vanity-name-servers-same-domain.png)
 
-If you want to use another domain for the name server names on the domain for which you're configuring vanity name servers,  enter the fully qualified domain name (FQDN) for the name server names you want to use and click <label>Enable Vanity Name Servers</label>
+If you want to use another domain for the name server names on the domain for which you're configuring vanity name servers,  enter the fully qualified domain name (FQDN) for the name server names you want to use, and click <label>Enable Vanity Name Servers</label>
 
 <warning>
 Ensure the FQDNs you provide have the proper records configured on the other domain before attempting to delegate to them. If you do not, your domain will not resolve. Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers) for the IPv4 and IPv6 addresses required for your vanity name servers.
