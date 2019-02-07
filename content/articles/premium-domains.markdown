@@ -1,6 +1,6 @@
 ---
 title: Premium Domains
-excerpt: In the new gTLDs domain space, a premium domain is a domain that has been considered of special value by a registrar.
+excerpt: In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
 categories:
 - Domains
 ---
@@ -22,11 +22,11 @@ A premium domain is priced differently by a registrar, and is generally found in
 
 Premium domains appeal to specific businesses or groups of people, providing them with useful, specific domain names for their activities. Other times they're just popular keywords or a very well known combination of a name and domain. Some registries or registrars also consider two or three letter domains to be more valuable, so those may have a higher price.
 
-For example: Paris is known as the city of love. The domain created as a combination of these could be `paris.love` and would be a very attractive name for marketing companies or businesses. The `.love` registry therefore may impose a higher fee for this combination. The registrar may even add to this price to make it more expensive than a typical `.love` domain registration.
+For example: Paris is known as the city of love. The domain created as a combination of these could be `paris.love` and would be an attractive name for marketing companies or businesses. The `.love` registry may impose a higher fee for this combination. The registrar may even make it more expensive than a typical `.love` domain registration.
 
 ## How can I register or transfer a Premium Domain with DNSimple?
 
-When going through our domain registration process, if you try to register what is flagged as a premium pricing domain you'll see an alert indicating the new price versus the typical price for that given domain. The alert will look like the screenshot below:
+When going through our domain registration process, if you try to register a domain flagged as a premium pricing domain, you'll see an alert indicating the new price versus the typical price for that domain. The alert will look like this:
 
 ![Premium Domain Alert](/files/premium-domain-alert.png)
 
