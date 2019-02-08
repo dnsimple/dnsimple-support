@@ -16,7 +16,7 @@ categories:
 
 The redirector is a special feature provided by DNSimple that you can use to redirect HTTP requests sent to a host name to a different URL.
 
-This feature can be used, for example, to redirect the www version of a domain to the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain, without pointing it to any web hosting service.
+This feature can be used, for example, to redirect the www version of a domain to the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
 
 ## Configure a redirect
@@ -35,7 +35,7 @@ The redirector sets a 301 status code. The code is not configurable, and it's no
 
 The [redirector doesn't support HTTPS](/articles/redirector-https), so you can't redirect an HTTPS request.
 
-In other words, it's not possible to use the URL record to redirect the www to the non-www version of your domain with HTTPS. You can redirect `http://www.example.com`, but not `https://www.example.com`.
+It's not possible to use the URL record to redirect the www to the non-www version of your domain with HTTPS. You can redirect `http://www.example.com`, but not `https://www.example.com`.
 
 Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of alternative solutions.
 
@@ -52,7 +52,7 @@ This would work, because you can add a URL record for blog.foo.com:
 
     blog.foo.com to bar.com/blog
 
-Note that any path or query information passed by the user is passed to the resulting URL. If you set up a redirect from blog.foo.com to myfooblog.com, when the user goes to blog.foo.com/awesome_article they'll be redirected to myfooblog.com/awesome_article.
+Any path or query information passed by the user is passed to the resulting URL. If you set up a redirect from blog.foo.com to myfooblog.com, when the user goes to blog.foo.com/awesome_article they'll be redirected to myfooblog.com/awesome_article.
 
 
 ## Wildcard URL redirects
