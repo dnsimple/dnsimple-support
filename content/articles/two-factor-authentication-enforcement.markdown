@@ -1,0 +1,78 @@
+---
+title: Enforce Two-Factor Authentication for a shared Account
+excerpt: How to protect your shared DNSimple account using Two-Factor authentication enforcement.
+categories:
+- Account
+---
+
+# Enforce Two-Factor Authentication for a shared Account
+
+<info>
+This article describes a feature in Public Beta.
+</info>
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+DNSimple supports [Two-Factor authentication](/articles/two-factor-authentication/). This feature enforces that all users in our account must have Two-Factor authentication enabled.
+
+When you have added other users to your account with it is important to ensure the security of each account member. This is why this feature is available to all plans that have access to the teams feature.
+
+## Enabling Two-Factor authentication enforcement {#enable}
+
+You can enable Two-Factor authentication enforcement from your account members page.
+
+You can only enable Two-Factor authentication enforcement for your account, if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature.
+
+<div class="section-steps" markdown="1">
+##### To enable Two-Factor authentication enforcement
+
+1.  Log in to DNSimple with your user credentials.
+1.  Go to your account settings by selecting the <label>Settings</label> or <label>Account Settings</label> link from the navigation.
+
+    ![Settings menu](/files/account-settings-access.jpg)
+
+1.  Select <label>Team</label> from the menu on the left.
+1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. When all members of your Team have Two-Factor authentication enabled you will be able to enable this feature right away.
+
+    ![Two-Factor authentication enforcement](/files/account-2fa-enforcement.png)
+
+1.  If there are users in your account that does not have Two-Factor authentication enabled you will see a list of users that are not compliant, you can [remove the users](/articles/account-users/#removing-members-from-an-account) from the account in the section above.
+</div>
+
+
+## Disabling Two-Factor authentication enforcement {#disable}
+
+<div class="section-steps" markdown="1">
+##### To disable Two-Factor authentication
+
+1.  Log in to DNSimple with your user credentials.
+1.  Go to your account settings by selecting the <label>Settings</label> or <label>Account Settings</label> link from the navigation.
+
+    ![Settings menu](/files/account-settings-access.jpg)
+
+1.  Select <label>Team</label> from the menu on the left.
+1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. There is a link to <label>Disable</label> the feature.
+
+    ![Disable Two-Factor authentication enforcement](/files/account-disable-2fa-enforcement.png)
+</div>
+
+
+## Disabling Two-Factor authentication while in an enforced team
+
+When you are part of an Two-Factor enforcing team, you can still [disable Two-Factor authentication](http://localhost:3000/articles/two-factor-authentication/#disable) on your user.
+
+<warning>
+If you are disabling Two-Factor authentication you will be removed from all accounts that enforce Two-Factor authentication.
+</warning>
+
+
+## Inviting new people into an 2FA enforcing team
+
+There are no restrictions on inviting new people to your account when you have Two-Factor authentication enforcement enabled. If the user already has a DNSimple account they can't join the team when they don't have Two-Factor authentication enabled.
+
+When you invite users to join your account that do not have an DNSimple account, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
