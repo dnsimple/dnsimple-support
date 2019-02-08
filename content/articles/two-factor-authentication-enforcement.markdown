@@ -1,11 +1,11 @@
 ---
-title: Enforce Two-Factor Authentication for a shared Account
+title: Enforce Two-Factor Authentication for all members of an account
 excerpt: How to ensure an account is secured by enforcing all the members of an account to use two-factor authentication.
 categories:
 - Account
 ---
 
-# Enforce Two-Factor Authentication for a shared Account
+# Enforce Two-Factor Authentication for all members of an account
 
 <info>
 This article describes a feature in Public Beta.
