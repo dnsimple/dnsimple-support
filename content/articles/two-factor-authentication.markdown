@@ -89,7 +89,7 @@ The verification code automatically expires every 30 seconds. Most authenticator
 When you enable two-factor authentication, a recovery code is created as a safeguard. Use the recovery code to disable two-factor authentication when you can't generate a token with the authenticator app. For example, because you lost the device where the authenticator was installed.
 
 <warning>
-The recovery code **is the only way to recover access to your account** if you can't generate a two-factor token. Store the recovery code in a safe, secure place. We cannot disable two-factor authentication without this recovery code. 
+The recovery code **is the only way to recover access to your account** if you can't generate a two-factor token. Store the recovery code in a safe, secure place. We cannot disable two-factor authentication without this recovery code.
 </warning>
 
 When you enter a valid recovery code, two-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again with a new barcode and recovery code.
@@ -129,23 +129,8 @@ There lots of time-based two-factor authentication apps that generate verificati
 - [Microsoft Authenticator](http://www.windowsphone.com/en-us/store/app/authenticator/e7994dbc-2336-4950-91ba-ca22d653759b) for Windows Phone
 
 
-## Upgrading from Authy {#upgrade}
-
-DNSimple has [supported two-factor authentication since 2012](https://blog.dnsimple.com/2012/08/account-two-factor-authentication/). We based the original implementation on an external authentication platform called [Authy](https://www.authy.com/).
-
-The Authy authentication workflow is standard, and similar to other time-based two-factor authentication systems. However, there are a few differences compared to the current TOTP implementation:
-
-- Authy doesn't expose the authentication secret publicly. There's no barcode to scan or secret code to copy. It's only possible to generate a verification code by using the Authy authenticator app or requesting a code via SMS.
-- Authy requires a mobile phone when activating the two-factor protection. The user is identified by their mobile phone.
-
-DNSimple will eventually discontinue support for the Authy two-factor platform. The next time you log in, you'll be prompted to migrate your two-factor authentication to our new system. Click the button at the bottom of the page when you next authenticate, and follow the procedure for disabling Authy and enabling the new system.
-
-<info>
-The Authy authenticator app is designed to support both Authy and standard two-factor implementation. If you want to keep using the Authy app, scan the barcode from the Authy app and use it to generate the verification code. It won't be possible to use the previously configured Authy-based profile with the new two-factor system unless you scan the new barcode with the Authy app.
-</info>
-
 ## Best Practices for Two-Factor Authentication
 
-To benefit from true two-factor authentication, you must keep your token generator and your primary user credentials separate. For example, if you use your mobile device as your token generator, you shouldn't have your primary user credentials on your mobile device. 
+To benefit from true two-factor authentication, you must keep your token generator and your primary user credentials separate. For example, if you use your mobile device as your token generator, you shouldn't have your primary user credentials on your mobile device.
 
 If you decide to use your mobile device as both your token generator and for accessing DNSimple, you still get the added benefit of a one-time password for log in should your credentials be compromised, but you won't benefit from true two-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
