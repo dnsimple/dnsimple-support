@@ -18,7 +18,7 @@ This article describes a feature in Public Beta.
 
 ---
 
-DNSimple supports [Two-Factor authentication](/articles/two-factor-authentication/). This feature enforces that all users in our account must have Two-Factor authentication enabled.
+[Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce account members to use two-factor authentication by enabling the feature for the account.
 
 When you have added other users to your account with it is important to ensure the security of each account member. This is why this feature is available to all plans that have access to the teams feature.
 
