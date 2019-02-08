@@ -1,6 +1,6 @@
 ---
 title: Enforce Two-Factor Authentication for a shared Account
-excerpt: How to protect your shared DNSimple account using Two-Factor authentication enforcement.
+excerpt: How to ensure an account is secured by enforcing all the members of an account to use two-factor authentication.
 categories:
 - Account
 ---
