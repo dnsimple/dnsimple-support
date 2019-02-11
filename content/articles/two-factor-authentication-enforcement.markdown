@@ -64,7 +64,7 @@ You can only enable Two-Factor authentication enforcement an account if all user
 
 ## Disabling Two-Factor authentication while in an enforced team
 
-When you are part of an Two-Factor enforcing team, you can still [disable Two-Factor authentication](/articles/two-factor-authentication/#disable) on your user.
+If you're part of a team that enforces Two-Factor authentication, you can still [disable Two-Factor authentication](/articles/two-factor-authentication/#disable) on your personal account.
 
 <warning>
 If you are disabling Two-Factor authentication, you will be removed from all accounts that enforce Two-Factor authentication.
