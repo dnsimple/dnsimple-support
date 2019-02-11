@@ -73,6 +73,6 @@ If you are disabling Two-Factor authentication you will be removed from all acco
 
 ## Inviting new people into an 2FA enforcing team
 
-There are no restrictions on inviting new people to your account when you have Two-Factor authentication enforcement enabled. If the user already has a DNSimple account they can't join the team when they don't have Two-Factor authentication enabled.
+There are no restrictions on inviting new people to your account when you invite users to join your account that do not have an DNSimple account, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
 
-When you invite users to join your account that do not have an DNSimple account, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
+If the user already has a DNSimple account they can't join the team when they don't have Two-Factor authentication enabled.
