@@ -20,7 +20,7 @@ This article describes a feature in Public Beta.
 
 [Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce two-factor authentication for account members by enabling the feature on the account.
 
-When you have multiple users managing an account, it's vital to reduce the likelihood of a user credential being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
+When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
 
 ## Enabling Two-Factor authentication enforcement {#enable}
 
