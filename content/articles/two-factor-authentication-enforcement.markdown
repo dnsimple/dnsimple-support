@@ -5,7 +5,7 @@ categories:
 - Account
 ---
 
-# Enforce Two-Factor Authentication for all members of an account
+# Enforce Two-Factor Authentication For All Members of an Account
 
 <info>
 This article describes a feature in Public Beta.
@@ -20,13 +20,13 @@ This article describes a feature in Public Beta.
 
 [Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce two-factor authentication on account members by enabling the feature for the account.
 
-When you have multiple users managing an account, it's vitaly important to reduce at minimum the likelyhood of an user credential being compromised. This is why this feature is available to all accounts that has the ability to [manage members of an account](/articles/account-users/).
+When you have multiple users managing an account, it's vital to reduce at minimum the likelyhood of an user credential being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
 
 ## Enabling Two-Factor authentication enforcement {#enable}
 
 You can enable Two-Factor authentication enforcement from your account members page.
 
-You can only enable Two-Factor authentication enforcement an account if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature, then re-invite them, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
+You can only enable Two-Factor authentication enforcement an account if all users have Two-Factor authentication enabled. If they don't enable it, you have to remove them from the team to enable this feature, then re-invite them. They'll be asked to enable Two-Factor authentication after they sign up so they can join your account.
 
 <div class="section-steps" markdown="1">
 ##### To enable Two-Factor authentication enforcement
@@ -37,11 +37,11 @@ You can only enable Two-Factor authentication enforcement an account if all user
     ![Settings menu](/files/account-settings-access.jpg)
 
 1.  Select <label>Team</label> from the menu on the left.
-1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. When all members of your Team have Two-Factor authentication enabled you will be able to enable this feature right away.
+1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. When all members of your Team have Two-Factor authentication enabled, you can enable this feature right away.
 
     ![Two-Factor authentication enforcement](/files/account-2fa-enforcement.png)
 
-1.  If there are users in your account that does not have Two-Factor authentication enabled you will see a list of users that are not compliant, you can [remove the users](/articles/account-users/#removing-members-from-an-account) from the account in the section above.
+1.  If there are users in your account that don't have Two-Factor authentication enabled, you'll see a list of users that are non-compliant. You can [remove the users](/articles/account-users/#removing-members-from-an-account) from the account in the section above.
 </div>
 
 
@@ -56,7 +56,7 @@ You can only enable Two-Factor authentication enforcement an account if all user
     ![Settings menu](/files/account-settings-access.jpg)
 
 1.  Select <label>Team</label> from the menu on the left.
-1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. There is a link to <label>Disable</label> the feature.
+1.  Scroll down until you see the <label>Enforce two-factor authentication</label> section. There's a link to <label>Disable</label> the feature.
 
     ![Disable Two-Factor authentication enforcement](/files/account-disable-2fa-enforcement.png)
 </div>
@@ -67,12 +67,12 @@ You can only enable Two-Factor authentication enforcement an account if all user
 When you are part of an Two-Factor enforcing team, you can still [disable Two-Factor authentication](/articles/two-factor-authentication/#disable) on your user.
 
 <warning>
-If you are disabling Two-Factor authentication you will be removed from all accounts that enforce Two-Factor authentication.
+If you are disabling Two-Factor authentication, you will be removed from all accounts that enforce Two-Factor authentication.
 </warning>
 
 
 ## Inviting new people into an 2FA enforcing team
 
-There are no restrictions on inviting new people to your account when you invite users to join your account that do not have an DNSimple account, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
+There are no restrictions on inviting new people to your account. When you invite users to join your account that do not have an DNSimple account, they'll be asked to enable Two-Factor authentication after they sign up so they can join your account.
 
-If the user already has a DNSimple account they can't join the team when they don't have Two-Factor authentication enabled.
+If the user already has a DNSimple account, they can't join the team if they don't have Two-Factor authentication enabled.
