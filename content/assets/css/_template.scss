@@ -60,9 +60,7 @@ h5 {
   color: $gray-500;
   &:before {
     margin-right: 8px;
-    content: "\f35d";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    @include font-awesome("\f35d");
   }
   &:hover {
     text-decoration: none;
