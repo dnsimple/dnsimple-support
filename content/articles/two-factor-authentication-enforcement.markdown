@@ -20,13 +20,13 @@ This article describes a feature in Public Beta.
 
 [Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce two-factor authentication on account members by enabling the feature for the account.
 
-When you have added other users to your account, it is important to ensure the security of each user. This is why this feature is available to all plans that allow multi-users.
+When you have multiple users managing an account, it's vitaly important to reduce at minimum the likelyhood of an user credential being compromised. This is why this feature is available to all accounts that has the ability to [manage members of an account](/articles/account-users/).
 
 ## Enabling Two-Factor authentication enforcement {#enable}
 
 You can enable Two-Factor authentication enforcement from your account members page.
 
-You can only enable Two-Factor authentication enforcement an account only if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature, then re-invite them, they will be asked to enable Two-Factor authentication after they sign up so they can join your account..
+You can only enable Two-Factor authentication enforcement an account if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature, then re-invite them, they will be asked to enable Two-Factor authentication after they sign up so they can join your account..
 
 <div class="section-steps" markdown="1">
 ##### To enable Two-Factor authentication enforcement
