@@ -1,6 +1,6 @@
 ---
 title: Enforce Two-Factor Authentication for All Members of an Account
-excerpt: How to ensure an account is secured by enforcing all the members of an account to use Two-Factor authentication.
+excerpt: How to ensure an account is secured by requiring all members of an account to use Two-Factor authentication.
 categories:
 - Account
 ---
