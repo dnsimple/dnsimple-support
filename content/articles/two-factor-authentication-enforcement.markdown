@@ -20,7 +20,7 @@ This article describes a feature in Public Beta.
 
 [Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce account members to use two-factor authentication by enabling the feature for the account.
 
-When you have added other users to your account with it is important to ensure the security of each account member. This is why this feature is available to all plans that have access to the teams feature.
+When you have added other users to your account, it is important to ensure the security of each user. This is why this feature is available to all plans that have access to the multi-user feature.
 
 ## Enabling Two-Factor authentication enforcement {#enable}
 
