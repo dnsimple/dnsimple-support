@@ -26,7 +26,7 @@ When you have multiple users managing an account, it's vitaly important to reduc
 
 You can enable Two-Factor authentication enforcement from your account members page.
 
-You can only enable Two-Factor authentication enforcement an account if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature, then re-invite them, they will be asked to enable Two-Factor authentication after they sign up so they can join your account..
+You can only enable Two-Factor authentication enforcement an account if all users have Two-Factor authentication enabled. You either need to bug them to enable it or remove them from the team to enable this feature, then re-invite them, they will be asked to enable Two-Factor authentication after they sign up so they can join your account.
 
 <div class="section-steps" markdown="1">
 ##### To enable Two-Factor authentication enforcement
