@@ -1,6 +1,6 @@
 ---
 title: Web Hosting Support
-excerpt: At this time, we focus primarily on domain management services and we don't provide web hosting. 
+excerpt: We focus primarily on domain management services and we don't provide web hosting. 
 categories:
 - DNSimple
 - Domains
