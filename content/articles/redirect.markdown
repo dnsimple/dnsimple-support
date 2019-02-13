@@ -9,14 +9,14 @@ categories:
 
 DNSimple provides a special [URL record](/articles/url-record) you can use to redirect a hostname to another URL using our [redirector](/articles/redirector).
 
-This feature can be used, for example, to redirect the www version of a domain the non-www hostname. You can also redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
+This feature can be used to redirect the www version of a domain the non-www hostname. You can also redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
 
 ## Configure a redirect
 
 You can use the URL record to configure a redirect. Check the [URL record](/articles/url-record) and [redirector](/articles/redirector) articles for specific instructions on how to create the redirect.
 
-The redirector is designed to use transparent 301 redirects. We do not support masked redirects at this time.
+The redirector is designed to use transparent 301 redirects. We don't support masked redirects.
 
 
 ## Configure an HTTPS, or HTTP+HTTPS redirect
