@@ -101,12 +101,6 @@ CDS and CDNSKEY record types are automatically generated for all DNSimple zones 
 
 You can find details about how CDS/CDNSKEY work in [RFC 8078](https://tools.ietf.org/html/rfc8078).
 
-## DS records without a corresponding DNSKEY
-
-When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
-
-To fix this issue, remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
-
 ## Troubleshooting DNSSEC configurations
 
 These tools are helpful for troubleshooting DNSSEC configuration issues:
@@ -115,3 +109,9 @@ These tools are helpful for troubleshooting DNSSEC configuration issues:
 - [DNSViz](http://dnsviz.net/)
 
 You can also [contact DNSimple support](https://dnsimple.com/contact) with additional questions.
+
+### DS records without a corresponding DNSKEY
+
+When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
+
+To fix this issue, remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
