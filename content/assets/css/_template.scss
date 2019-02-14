@@ -59,9 +59,8 @@ h5 {
   padding-top: $base-unit / 4;
   color: $gray-500;
   &:before {
-    margin-right: 10px;
-    content: "\f08e";
-    font-family: FontAwesome;
+    margin-right: 8px;
+    @include font-awesome("\f35d");
   }
   &:hover {
     text-decoration: none;
