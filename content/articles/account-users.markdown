@@ -20,7 +20,7 @@ To have multiple users on one account, you must [be subscribed to an eligible pl
 
 A DNSimple account can be associated with one or more users. When you add a user to an account, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
-All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain their login credentials and Two-Factor authentication configuration.
+All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain their login credentials and two-factor authentication configuration.
 
 
 ## Adding members to an account
