@@ -22,7 +22,7 @@ This article contains information about redirects and HTTPS. If you aren't famil
 </note>
 
 
-## Redirect www to not-www (without HTTPS) {#redirect-nohttps}
+## Redirecting www to not-www (without HTTPS) {#redirect-nohttps}
 
 <note>
 If your application is using HTTPS, check the section [redirect www to not-www with HTTPS](#redirect-https).
@@ -67,7 +67,7 @@ Alternatively, you can point both the www and not www versions of the site to He
 </div>
 
 
-## Redirect www to not-www (with HTTPS) {#redirect-https}
+## Redirecting www to not-www (with HTTPS) {#redirect-https}
 
 In this scenario, you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the www version (`www.example.com`) to the same Heroku application (or vice-versa). **The application is also using HTTPS**.
 
