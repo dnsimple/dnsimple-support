@@ -30,7 +30,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
-1. From the main account settings screen, select the <label>Team</label> tab.
+1. From the main account settings screen, select the <label>Members</label> tab.
 
     ![Select the members tab](/files/add-member-account-link.png)
 
@@ -53,7 +53,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
-1. From the main account settings screen, select the <label>Team</label> tab.
+1. From the main account settings screen, select the <label>Members</label> tab.
 
     ![Select the members tab](/files/add-member-account-link.png)
 

@@ -36,7 +36,7 @@ You can only enable Two-Factor authentication enforcement on an account if all u
 
     ![Settings menu](/files/account-settings-access.jpg)
 
-1.  Select <label>Team</label> from the menu on the left.
+1.  Select <label>Members</label> from the menu on the left.
 1.  Scroll down until you see the <label>Enforce Two-Factor authentication</label> section. When all members of your Team have Two-Factor authentication enabled, you can use this feature.
 
     ![Two-Factor authentication enforcement](/files/account-2fa-enforcement.png)
@@ -55,7 +55,7 @@ You can only enable Two-Factor authentication enforcement on an account if all u
 
     ![Settings menu](/files/account-settings-access.jpg)
 
-1.  Select <label>Team</label> from the menu on the left.
+1.  Select <label>Members</label> from the menu on the left.
 1.  Scroll down until you see the <label>Enforce Two-Factor authentication</label> section. There's a link to <label>Disable</label> the feature.
 
     ![Disable Two-Factor authentication enforcement](/files/account-disable-2fa-enforcement.png)
