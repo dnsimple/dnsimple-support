@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting URL redirects
+title: Troubleshooting URL Redirects
 excerpt: How to check and debug URL redirect issues.
 categories:
 - Domains
@@ -17,12 +17,12 @@ categories:
 Here's a checklist of common issues to help you if a configured redirect is not redirecting correctly:
 
 
-## Check domain resolution status
+## Checking domain resolution status
 
 To use our [redirector service](/articles/redirector), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
 
 
-## Use cURL to test the redirect {#test}
+## Using cURL to test the redirect {#test}
 
 Sometimes the redirect is working correctly, but the browser cached the previous page and it's not showing the redirect. We highly recommend using an HTTP client and not a browser to test the redirect.
 
