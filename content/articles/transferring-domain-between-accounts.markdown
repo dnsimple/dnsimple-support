@@ -21,11 +21,11 @@ Once the move is accepted, you will no longer be able to manage the domain.
 
 ## Initiating a transfer
 
-To move a domain to another DNSimple account, go to the domain's management page, click on the _Settings_ tab and then follow the <label>Transfer ownership</label> link.
+To transfer a domain to another DNSimple account, go to the domain's management page, click on the _Settings_ tab and then follow the <label>Transfer ownership</label> link.
 
 ![](/files/transfer-ownership.png)
 
-Enter the destination email address of another DNSimple account. Make sure the email address you enter matches the correct account. Once the domain is moved, you will no longer be able to control this domain under your current account.
+Enter the destination email address of another DNSimple account. Make sure the email address you enter matches the correct account. Once the domain has been transferred, you will no longer be able to control this domain under your current account.
 
 ## Accepting a transfer
 
@@ -37,12 +37,12 @@ When you review your pending pushes, you'll see a list with the option to accept
 
 ![](/files/pending-pushes.jpg)
 
-Click the <label>Accept</label> button where you will be prompted to assign an existing contact to the domain or create a new one. After you have assigned a contact, the domain will be moved to your account and you'll be able to configure it as needed.
+Click the <label>Accept</label> button where you'll be prompted to assign an existing contact to the domain or create a new one. After you have assigned a contact, the domain will be transfered to your account and you'll be able to configure it as needed.
 
 ## Rejecting a transfer
 
-To reject a move, click the <label>Decline</label> button on the list of pending pushes and confirm that you want to decline the push.
+To reject a transfer, click the <label>Decline</label> button on the list of pending pushes and confirm that you want to decline the push.
 
 <info>
-If you decline a move request, the domain will remain in the posession of the original owner.
+If you decline a transfer request, the domain will remain in the posession of the original owner.
 </info>
