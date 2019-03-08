@@ -1,17 +1,17 @@
 ---
-title: Sharing Domain Management with Another User
-excerpt: With DNSimple you can share a domain with other users to share management.
+title: Sharing Domain Management with Other Users
+excerpt: With DNSimple, you can share a domain with other users to share management.
 categories:
 - Domains
 ---
 
 # Sharing Domain Management with Another User
 
-In DNSimple you can share a domain with other users so that they can manage it. For example, if you have a large organization you can share access to the domains with one or more users.
+In DNSimple, you can share a domain with other users so that they can manage it. For example, if you have a large organization, you can share access to the domains with one or more users.
 
 You can share DNS management responsibilities with others, but you can't give them privileges to add or modify domain registrations, transfers, or SSL certificates.
 
-Using sharing is easy. In your domain settings, click on the link "Share management" then "Share with another user"
+Sharing is easy. In your domain settings, click on the link "Share management", then "Share with another user".
 
 ![Share Management](/files/share-management-card.png)
 
