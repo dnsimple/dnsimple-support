@@ -19,14 +19,14 @@ The redirector is a special feature provided by DNSimple that you can use to red
 This feature can be used, for example, to redirect the www version of a domain to the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
 
-## Configure a redirect
+## Configuring a redirect
 
 To configure a redirect, use the special [URL record](/articles/url-record), available in the [record editor](/articles/record-editor).
 
 [This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a URL record in DNSimple.
 
 
-## Redirect status code
+## Redirecting status code
 
 The redirector sets a 301 status code. The code is not configurable, and it's not possible to return a 302 temporary redirect using the URL record.
 
