@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting URL redirects
+title: Troubleshooting URL Redirects
 excerpt: How to check and debug URL redirect issues.
 categories:
 - Domains
@@ -14,17 +14,17 @@ categories:
 
 ---
 
-Here's a checklist of common issues to help you in case a configured redirect is not redirecting correctly.
+Here's a checklist of common issues to help you if a configured redirect is not redirecting correctly:
 
 
-## Check domain resolution status
+## Checking domain resolution status
 
-In order to use our [redirector service](/articles/redirector), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
+To use our [redirector service](/articles/redirector), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
 
 
-## Use cURL to test the redirect {#test}
+## Using cURL to test the redirect {#test}
 
-Sometimes the redirect is working correctly, but the browser cached the previous page and it's not showing the redirect. We highly recommend to use an HTTP client and not a browser to test the redirect.
+Sometimes the redirect is working correctly, but the browser cached the previous page and it's not showing the redirect. We highly recommend using an HTTP client and not a browser to test the redirect.
 
 [`cURL`](https://curl.haxx.se/) is the most common HTTP client, and it's [available for a large number of operating systems](https://curl.haxx.se/download.html).
 
@@ -39,4 +39,4 @@ Date: Mon, 01 Aug 2016 20:24:42 GMT
 Content-Type: text/plain; charset=utf-8
 ```
 
-The response code should be 301, and it should contain the Location. We also include the `X-Redirector-Version` custom header to help you to determine if the redirect is sent from our redirector, or from some other system.
+The response code should be 301, and it should contain the Location. We also include the `X-Redirector-Version` custom header to help you determine if the redirect is sent from our redirector or from some other system.
