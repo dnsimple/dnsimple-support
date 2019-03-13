@@ -10,7 +10,7 @@ categories:
 * TOC
 {:toc}
 
-## What's a zone file {#whats-a-zone-file}?
+## What's a zone file? {#whats-a-zone-file}
 
 A [zone file](https://en.wikipedia.org/wiki/Zone_file) is a representation of your domain's zone in a text file. The text file follows the BIND format and includes information about all the records the domain has.
 
