@@ -31,6 +31,6 @@ The steps to view the certificate information depend on the browser. For instanc
 
 Search for the issuer organization name. Please note that, in some cases, Certificate Authorities may delegate the signing process to subsidiaries or acquired companies.
 
-For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Comodo certificate authority. The authority name is clearly visible in the *Common Name* field.
+For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Sectigo certificate authority. The authority name is clearly visible in the *Common Name* field.
 
 Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities).

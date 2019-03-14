@@ -21,8 +21,8 @@ When you subscribe to DNSimple you will be required to provide a credit or debit
 - Domain renewals
 - Domain transfers
 - Whois privacy
-- Comodo single-name SSL certificates
-- Comodo wildcard certificates
+- Sectigo single-name SSL certificates
+- Sectigo wildcard certificates
 
 
 ## ACH or Wire transfer

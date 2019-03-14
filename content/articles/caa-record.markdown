@@ -70,18 +70,18 @@ As explained in the format section, each CAA record contains only one tag-value 
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-If we want to allow both Let's Encrypt and Comodo, we should add 2 CAA records, one for each CA:
+If we want to allow both Let's Encrypt and Sectigo, we should add 2 CAA records, one for each CA:
 
 ```
-example.com.  CAA 0 issue "comodoca.com"
+example.com.  CAA 0 issue "sectigoca.com"
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-If we want to allow Let's Encrypt and Comodo only for wildcard, then we can use `issuewild`:
+If we want to allow Let's Encrypt and Sectigo only for wildcard, then we can use `issuewild`:
 
 ```
 example.com.  CAA 0 issue "letsencrypt.org"
-example.com.  CAA 0 issuewild "comodoca.com"
+example.com.  CAA 0 issuewild "sectigoca.com"
 ```
 
 Note that the presence of issuewild overrides the `issue`. Therefore, Let's Encrypt _is not allowed_ to issue wildcard certificates.
@@ -96,20 +96,20 @@ As mentioned before, the records are inherited by child hostnames. Let's look at
 
 ```
 example.com.        CAA 0 issue "letsencrypt.org"
-alpha.example.com.  CAA 0 issue "comodoca.com"
+alpha.example.com.  CAA 0 issue "sectigoca.com"
 beta.example.com.   CAA 0 issue "letsencrypt.org"
-beta.example.com.   CAA 0 issue "comodoca.com"
+beta.example.com.   CAA 0 issue "sectigoca.com"
 ```
 
-In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
+In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Sectigo can issue a certificate for `alpha.example.com`. Both Sectigo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
 
 <note>
-#### Comodo Wildcard Certificates
+#### Sectigo Wildcard Certificates
 
-Customers who purchase a Comodo wildcard certificate from us need to make sure they have an `issue` and `issuewild` CAA record, because they add an additional single-name to the certificate to cover the non-wildcard name. For example, buying a certificate for `*.example.com` issues a certificate with both `example.com` and `*.example.com` in the certificate names. This means you need to configure your CAA records like so:
+Customers who purchase a Sectigo wildcard certificate from us need to make sure they have an `issue` and `issuewild` CAA record, because they add an additional single-name to the certificate to cover the non-wildcard name. For example, buying a certificate for `*.example.com` issues a certificate with both `example.com` and `*.example.com` in the certificate names. This means you need to configure your CAA records like so:
 
-    example.com.  CAA 0 issue "comodoca.com"
-    example.com.  CAA 0 issuewild "comodoca.com"
+    example.com.  CAA 0 issue "sectigoca.com"
+    example.com.  CAA 0 issuewild "sectigoca.com"
 
 The above rules apply to subdomain wildcard certificates as well.
 </note>

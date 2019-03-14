@@ -29,7 +29,7 @@ wildcard
 
 ## Let's Encrypt or Standard
 
-Both providers support wildcard certificates. Let's Encrypt certificates are free, but are only valid for a short period. Comodo certificates are valid for much longer, but also come with a cost per wildcard certificate.
+Both providers support wildcard certificates. Let's Encrypt certificates are free, but are only valid for a short period. Sectigo certificates are valid for much longer, but also come with a cost per wildcard certificate.
 
 You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
 
@@ -58,7 +58,7 @@ If your plan supports multiple names (SAN), you can add more than one certificat
 
 ### Standard
 
-To order a Comodo wildcard certificate, follow the instructions to [order a Standard certificate](/articles/ordering-standard-certificate/).
+To order a Sectigo wildcard certificate, follow the instructions to [order a Standard certificate](/articles/ordering-standard-certificate/).
 
 When the certificate form requests the _common name_, use the `*` char to represent the subdomain level you want to request the certificate for.
 
