@@ -9,6 +9,8 @@ categories:
 
 The **Product Expiring Tomorrow** email contains the list of products (purchased domains, certificates and whois privacies) expiring within 24 hours.
 
+Emails about expiration products will be sent to your account email address. Changes in certificate [validation emails](/articles/ssl-certificates-email-validation/) or domain [contact](/articles/contact-management/) information won't affect your expiration notifications emails.
+
 This notification is an important reminder and gives you the latest chance to renew a domain in case you forgot about it for whatever reason.
 
 ![Email](/files/notifications-expiring-tomorrow.png)
