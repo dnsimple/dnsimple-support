@@ -33,11 +33,12 @@ The redirector sets a 301 status code. The code is not configurable, and it's no
 
 ## HTTPS redirects
 
-The [redirector doesn't support HTTPS](/articles/redirector-https), so you can't redirect an HTTPS request.
+The DNSimple redirector supports HTTPS redirects. In order to enable it, please:
 
-It's not possible to use the URL record to redirect the www to the non-www version of your domain with HTTPS. You can redirect `http://www.example.com`, but not `https://www.example.com`.
+  1. Add an [URL record](/articles/url-record) to your domain
+  1. Issue a [SSL Certificate](/articles/ssl-certificates) for the same domain
 
-Take a look at the article [redirector and HTTPS](/articles/redirector-https) for additional information and a list of alternative solutions.
+Incoming HTTPS requests will be handled automatically with that SSL certificate.
 
 
 ## URL to URL redirects

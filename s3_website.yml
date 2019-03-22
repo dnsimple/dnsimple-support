@@ -51,8 +51,10 @@ redirects:
   articles/advanced-editor/index.html: /articles/record-editor/
   articles/moving-domain: /articles/transferring-domain-between-accounts/
   articles/moving-domain/index.html: /articles/transferring-domain-between-accounts/
-  articles/url-redirect-ssl: /articles/redirector-https/
-  articles/url-redirect-ssl/index.html: /articles/redirector-https/
+  articles/url-redirect-ssl: /articles/redirector/
+  articles/url-redirect-ssl/index.html: /articles/redirector/
+  articles/redirector-https/: /articles/redirector/
+  articles/redirect/: /articles/redirector/
   articles/what-ssl-certificate-authorities: /articles/ssl-certificate-authorities/
   articles/what-ssl-certificate-authorities/index.html: /articles/ssl-certificate-authorities/
   articles/renewing-ssl-certificates: /articles/renewing-ssl-certificate/
