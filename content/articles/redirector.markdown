@@ -21,35 +21,46 @@ This feature can be used, for example, to redirect the www version of a domain t
 
 ## Configuring a redirect
 
-To configure a redirect, use the special [URL record](/articles/url-record), available in the [record editor](/articles/record-editor).
+To configure a redirect, use the special [`URL` record](/articles/url-record), available in the [record editor](/articles/record-editor).
 
-[This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a URL record in DNSimple.
+[This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a `URL` record in DNSimple.
+
+After adding an `URL` record, the following redirects will work instantaneously:
+
+```
+http://source.com => http://destination.com
+http://source.com => https://destination.com
+```
 
 
 ## Redirecting status code
 
-The redirector sets a 301 status code. The code is not configurable, and it's not possible to return a 302 temporary redirect using the URL record.
+The redirector sets a 301 status code. The code is not configurable, and it's not possible to return a 302 temporary redirect using the `URL` record.
 
 
 ## HTTPS redirects
 
 The DNSimple redirector supports HTTPS redirects. In order to enable it, please:
 
-  1. Add an [URL record](/articles/url-record) to your domain
+  1. Add an [`URL` record](/articles/url-record) to your domain
   1. Issue a [SSL Certificate](/articles/ssl-certificates) for the same domain
 
-Incoming HTTPS requests will be handled automatically with that SSL certificate.
+Incoming HTTPS requests will be handled automatically with that SSL certificate:
 
+```
+https://source.com => http://destination.com
+https://source.com => https://destination.com
+```
 
 ## URL to URL redirects
 
-URL to URL redirects can't be done with our URL record. Only domains or subdomains can be redirected to complete URLs.
+URL to URL redirects can't be done with our `URL` record. Only domains or subdomains can be redirected to complete URLs.
 
-The following redirect will not work, because you can't add a URL to the name part of the URL record.
+The following redirect will not work, because you can't add a URL to the name part of the `URL` record.
 
     foo.com/blog/ to bar.com/blog
 
-This would work, because you can add a URL record for blog.foo.com:
+This would work, because you can add a `URL` record for blog.foo.com:
 
     blog.foo.com to bar.com/blog
 
