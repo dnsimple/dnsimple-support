@@ -7,10 +7,6 @@ categories:
 
 # Enforce Two-Factor Authentication for All Members of an Account
 
-<info>
-This article describes a feature in Public Beta.
-</info>
-
 ### Table of Contents {#toc}
 
 * TOC
