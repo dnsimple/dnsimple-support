@@ -18,6 +18,8 @@ The redirector is a special feature provided by DNSimple that you can use to red
 
 This feature can be used, for example, to redirect the www version of a domain to the non-www hostname. Another use case is to redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
+Note that this feature can't be used to redirect from one protocol to another protocol on the same host name. For example, you can't use it to redirect from `http://example.com` to `https://example.com`. To perform a redirect from HTTP to HTTPS on the same host, you'll need to implement the redirection inside your application. 
+
 
 ## Configuring a redirect
 
