@@ -31,8 +31,6 @@ These are the most common DNS record types:
 | [`TXT` record](/articles/txt-record) | This record is used associate text with a domain. |
 | [`NS` record](/articles/ns-record) | This record is used to delegate a subzone to a set of name servers. It's common, because these are the types of records you need to modify when you want to delegate a domain to a DNS provider. |
 | [`SOA` record](/articles/soa-record) | This record stores important information about the DNS zone (your domain). It's common, because each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. For instance, DNSimple automatically manages the SOA records for all your domains. |
-| [`DKIM` record](/articles/dkim-record) | This records stores important information used in the validation of email in transit. |
-
 
 ## Common DNS records
 

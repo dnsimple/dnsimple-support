@@ -9,4 +9,10 @@ categories:
 
 A TXT record is a resource record used to provide the ability to associate text with a zone. This record allows domain administrators to insert any text content into DNS records. These records are used for various purposes. One example is ownership validation: To prove you own the domain, a provider may require you to add a TXT record with a particular value to your domain.
 
+Common use for TXT records:
+
+| Type | Description |
+|------|-------------|
+| [`DKIM` record](/articles/dkim-record) | This records stores important information used in the validation of email in transit. |
+
 TXT records have replaced SPF records.
