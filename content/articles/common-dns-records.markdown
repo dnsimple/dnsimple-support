@@ -16,7 +16,7 @@ categories:
 
 The Domain Name System (DNS) is composed of many different record types (or resource records): `A`, `AAAA`, `CNAME`, `MX`, `CAA`, etc. Some record types are common. Others are less relevant, deprecated, or replaced.
 
-[DNSimple supports common and traditional record types](/articles/supported-dns-records), and some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
+[DNSimple supports common and traditional record types](/articles/supported-dns-records), along with some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
 
 
 ## Common record types
@@ -28,15 +28,15 @@ These are the most common DNS record types:
 | [`A` record](/articles/a-record) | This is the most popular type. A records create a DNS record that points to an IPv4 address. It allows you to use memonic names, such as `www.example.com`, in place of IP addresses, like `127.0.0.1`. |
 | [`CNAME` record](/articles/cname-record) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations, or to simplify the maintenance of multiple records connected to the same IP address. Its use has increased in the last few years, since it's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
 | [`MX` record](/articles/mx-record) | This record is used to identify the servers mail should be delivered to for a domain. You need to have these records configured to receive emails. |
-| [`TXT` record](/articles/txt-record) | This record is used associate text with a domain. |
+| [`TXT` record](/articles/txt-record) | This record is used to associate text with a domain. |
 | [`NS` record](/articles/ns-record) | This record is used to delegate a subzone to a set of name servers. It's common, because these are the types of records you need to modify when you want to delegate a domain to a DNS provider. |
-| [`SOA` record](/articles/soa-record) | This record stores important information about the DNS zone (your domain). It's common, because each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. For instance, DNSimple automatically manages the SOA records for all your domains. |
+| [`SOA` record](/articles/soa-record) | This record stores important information about the DNS zone (your domain). It's common, because each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. DNSimple automatically manages the SOA records for all your domains. |
 
 ## Common DNS records
 
 Although each domain is unique, and will likely have a special DNS configuration, there's a basic set of DNS records that's common among the majority of domains.
 
-If you just purchased a domain, or are reviewing your domain's DNS configuration, compare the DNS records in your domain with the following to determine whether or not anything's missing:
+If you just purchased a domain or are reviewing your domain's DNS configuration, compare the DNS records in your domain with the following to determine whether or not anything's missing:
 
 <info>
 This article assumes `example.com` is your domain name.
@@ -46,7 +46,7 @@ This article assumes `example.com` is your domain name.
 
 Each domain needs to have a record for the root domain. Otherwise your domain won't resolve, and accessing the URL in the browser will return a resolution error.
 
-In most cases, this configuration is an A record pointing to the IP where your site is hosted. However, it can also be an ALIAS if your site is hosted elsewhere (this is common when you want to point your root domain to a cloud service, such as Heroku, Netlify, GitHub, etc.), or a URL record if this domain needs to redirect elsewhere.
+In most cases, this configuration is an A record pointing to the IP where your site is hosted. However, it can also be an ALIAS if your site is hosted elsewhere (this is common when you want to point your root domain to a cloud service, such as Heroku, Netlify, GitHub, etc.), or a URL record if the domain needs to redirect elsewhere.
 
 <div class="section-steps" markdown="1">
 ##### To verify
@@ -106,7 +106,7 @@ Using an ALIAS record for the `www` subdomain is not incorrect, however it's gen
 
 ### 3. MX email records
 
-If you want to receive emails for your domain, you need to have at least one MX record pointing to your doamin mail server. For rendudancy, there are generally two or more MX records, each with a different content and priority.
+If you want to receive emails for your domain, you need to have at least one MX record pointing to your doamin mail server. For rendudancy, there are generally two or more MX records, each with different content and priority.
 
 <div class="section-steps" markdown="1">
 ##### To verify
