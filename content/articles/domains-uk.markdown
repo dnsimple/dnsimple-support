@@ -75,14 +75,14 @@ It is possible to change most values in the Whois record for a UK domain, but th
 
 ## Troubleshooting
 
-Here's a list of common `.UK` registration errors.
+Here's a list of common `.UK` registration errors:
 
-##### Your request for domain 'example.uk' has failed because the 'account-name' for the registrant does not fully match any registrant which has rights for this domain {#account-name-registrant-no-rights}
+##### Your request for domain 'example.uk' has failed because the 'account-name' for the registrant does not fully match any registrant with rights to this domain {#account-name-registrant-no-rights}
 
 **If you are registering a second-level `.UK` domain (e.g. example.uk)**, this is likely to be a result of the [reservation policy](#policy-tld). Please make sure that:
 
 1. The `.UK` domain is not reserved
-2. If the `.UK` domain is reserved, you need to be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
+2. If the `.UK` domain is reserved, you must be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
 3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#registering).
 
-If you have any questions, [contact us](https://dnsimple.com/contact) and we will help you to register the domain.
+If you have any questions, [contact us](https://dnsimple.com/contact) and we will help you register the domain.
