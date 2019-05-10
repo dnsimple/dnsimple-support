@@ -13,6 +13,9 @@ Common use for TXT records:
 
 | Type | Description |
 |------|-------------|
-| [`DKIM` record](/articles/dkim-record) | This records stores important information used in the validation of email in transit. |
+| [`DKIM` records](/articles/dkim-record) | This records stores important information used in the validation of email in transit. |
+| DMARC records | Domain-based Message Authentication Reporting and Conformance records to midigate phishing and spoofing email attacks |
+| [`SPF` record](/articles/spf-record/) | This records is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. |
+| Site Verification Records | This record proves overship of a domain and can be used to associate services such as Microsoft 365 and G-Suite to a specific domain. |
 
 TXT records have replaced SPF records.
