@@ -43,7 +43,7 @@ The table below summarizes the most important differences between Let's Encrypt 
 | Wildcard names | Supported | Supported |
 | Multi-domain (via SAN) | Supported by default | Supported only by specific products |
 | Max SAN domains | 100 | Depends on the [CA](/articles/what-is-certificate-authority) and product |
-| [Validation type](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level) | DV only | DV, OV, EV |
+| [Validation type](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level) | <acronym title="Domain Validated">DV</acronym> only | <acronym title="Domain Validated">DV</acronym>, <acronym title="Organization Validated (not supported by DNSimple)">OV</acronym>, <acronym title="Extended Validation (not supported by DNSimple)">EV</acronym> |
 | Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority) and product |
 | Limits | [Per-domain, Per-week limits](https://letsencrypt.org/docs/rate-limits/) | N/A |
 
@@ -52,7 +52,7 @@ The table below summarizes the most important differences between Let's Encrypt 
 
 Let's Encrypt is different from most traditional certificate authorities. Here are a few relevant notes and limitations you may want to keep in mind before requesting one of their SSL certificates:
 
-- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There's no plan to support OV or EV certificates.
+- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There's no plan to support <acronym title="Organization Validated">OV</acronym> or <acronym title="Extended Validation">EV</acronym> certificates.
 - Let's Encrypt supports both single-name and wildcard names.
 - A single Let's Encrypt certificate can include up to 100 SAN names. Names can be single-name, wildcard names, or both.
 - Let's Encrypt certificates have a fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, so it's not possible to obtain 1-year or [multi-year](/articles/can-multi-year-ssl-certificates) SSL certificates.
