@@ -52,7 +52,7 @@ While the invoice is in this state, you won't be able to make other purchases. Y
 
 Depending on your plan, your subscription will renew every month or every year. When that happens, we attempt to collect the payment. If it fails, the invoice will be marked as `dunned`.
 
-A `dunned` invoice will be retried every day. We'll notify you via email on every attempt.
+A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 
 <warning>
 If we're unable to collect the payment after a certain period of time, your account will be cancelled. All the domains within the account will stop resolving immediately.
