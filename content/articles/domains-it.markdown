@@ -1,33 +1,33 @@
 ---
-title: .IT Domains
-excerpt: This article explains the requirements for .IT domain names.
+title: .it Domains
+excerpt: This article explains the requirements for .it domain names.
 categories:
 - Domains
 ---
 
-# .IT Domain Names
+# .it Domain Names
 
 * TOC
 {:toc}
 
 ---
 
-This article explains the requirements for .IT domain names.
+This article explains the requirements for .it domain names.
 
 ## Requirements
 
-To register an .IT (Italy) domain you must meet one of the following criteria:
+To register an .it (Italy) domain you must meet one of the following criteria:
 
-1. In possession of the citizenship or resident in a country belonging to the European Union (in the case of registration for natural persons).
+1. In possession of citizenship or residency in a country belonging to the European Union (in the case of registration for natural persons).
 1. Established in a country belonging to the European Union (in the case of registration for other organizations).
 
 Please make sure the Registrant contact you associate to the domain during the registration meets this requirement, otherwise the registration will be rejected by the registry.
 
-## Additional Information and Agreements
+## Additional information and agreements
 
 When registering an .it domain, you must provide more details about the domain registrant, as well as explicitly agreeing to additional agreements of the .it registry.
 
-### Taxpayer number for .IT domain registrations (registration code)
+### Taxpayer number for .it domain registrations (registration code)
 
 Italian and foreign natural persons – if the Registrant is an Italian natural person, it's their _Codice Fiscale_; for foreigners it must contain a document number.
 
