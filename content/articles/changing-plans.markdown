@@ -28,7 +28,7 @@ When you change your plan you will receive a proration discount corresponding to
 
 1.  Verify the charges that will make to your account. In order to complete the plan change simply click on the <label>Switch to plan</label> button:
 
-    ![Choose plan](/files/change-plan-3.jpg)
+    ![Choose plan](/files/change-plan-3.png)
 
 1.  Once the change is complete you will receive the corresponding invoice.
 </div>
