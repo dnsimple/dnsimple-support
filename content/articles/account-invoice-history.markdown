@@ -16,7 +16,7 @@ categories:
 
 You can view your payment history and manually retry failed invoices in DNSimple.
 
-## View account invoice history {#viewing}
+## Viewing account invoice history {#viewing}
 
 <div class="section-steps" markdown="1">
 ##### To view an account's invoice history
@@ -74,7 +74,7 @@ The payment for this invoice was collected, and then money was returned to you f
 
 An invoice in the `cancelled` state means you no longer have to pay it.
 
-## Retry failed payments {#retrying}
+## Retrying failed payments {#retrying}
 
 While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices. The steps are as follows:
 
