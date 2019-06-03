@@ -16,7 +16,7 @@ categories:
 
 You can view your payment history and manually retry failed invoices in DNSimple.
 
-## View account invoice history {#viewing}
+## Viewing account invoice history {#viewing}
 
 <div class="section-steps" markdown="1">
 ##### To view an account's invoice history
@@ -52,7 +52,7 @@ While the invoice is in this state, you won't be able to make other purchases. Y
 
 Depending on your plan, your subscription will renew every month or every year. When that happens, we attempt to collect the payment. If it fails, the invoice will be marked as `dunned`.
 
-A `dunned` invoice will be retried every day. We'll notify you via email on every attempt.
+A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 
 <warning>
 If we're unable to collect the payment after a certain period of time, your account will be cancelled. All the domains within the account will stop resolving immediately.
@@ -74,7 +74,7 @@ The payment for this invoice was collected, and then money was returned to you f
 
 An invoice in the `cancelled` state means you no longer have to pay it.
 
-## Retry failed payments {#retrying}
+## Retrying failed payments {#retrying}
 
 While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices. The steps are as follows:
 
