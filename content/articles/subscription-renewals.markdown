@@ -40,7 +40,7 @@ If this happens, please don't panic. Your account will not be canceled, and your
 **Our system will try to renew the subscription and collect the payment once a week** during that period. You will be notified about the outcome of these attempts.
 
 <info>
-You can manually retry the payments for subscription renewal fees. You can simply [retry the payment for the corresponding invoice](/articles/account-invoice-history#retrying).
+You can manually retry the payments for subscription renewal fees. This article shows you how to [retry the payment for the corresponding invoice](/articles/account-invoice-history#retrying).
 </info>
 
 <note>
