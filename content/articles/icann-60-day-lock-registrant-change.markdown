@@ -7,7 +7,7 @@ categories:
 
 # 60-Day Lock After Change of Registrant
 
-Due to [ICANN policies that went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en), making certain changes the registrant contact will lock the domain for 60 days. During that period, it will not be possible to transfer the domain to another registrar.
+For all domains under ICANN management, all [gTLDs](/articles/what-is-tld/) and potentially some [ccTLDs](/articles/what-is-tld/), a new [ICANN policies that went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en), making certain changes the registrant contact will lock the domain for 60 days. During that period, it will not be possible to transfer the domain to another registrar.
 
 > After 1 December 2016, registrars must impose a lock that will prevent any transfer to another registrar for sixty (60) days following a change to a registrant's information. Registrars may (but are not required to) allow registrants to opt out of the 60-day lock prior to the change of registrant request.
 >
