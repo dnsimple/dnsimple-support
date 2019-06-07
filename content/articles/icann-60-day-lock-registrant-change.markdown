@@ -1,13 +1,13 @@
 ---
 title: ICANN 60-Day Lock After Change of Registrant
-excerpt: After changing your registration info you cannot transfer your domain for sixty days.
+excerpt: After changing your registration info, you cannot transfer your domain for 60 days.
 categories:
 - Contacts
 ---
 
 # 60-Day Lock After Change of Registrant
 
-For all domains under registries under contract with ICANN, including all [gTLDs](/articles/what-is-tld/), [newGTLDs](/articles/what-is-tld/), and potentially some [ccTLDs](/articles/what-is-tld/), a new [ICANN policies that went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en), making certain changes the registrant contact will lock the domain for 60 days. During that period, it will not be possible to transfer the domain to another registrar.
+For all domains under registries contracted with ICANN, including all [gTLDs](/articles/what-is-tld/), [newGTLDs](/articles/what-is-tld/), and potentially some [ccTLDs](/articles/what-is-tld/), a new [ICANN policies went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en):
 
 > After 1 December 2016, registrars must impose a lock that will prevent any transfer to another registrar for sixty (60) days following a change to a registrant's information. Registrars may (but are not required to) allow registrants to opt out of the 60-day lock prior to the change of registrant request.
 >
@@ -18,4 +18,4 @@ For all domains under registries under contract with ICANN, including all [gTLDs
 >
 > Because policies may vary by registrar, please review a registrar's policy before making a change to registrant information or transferring to another registrar.
 
-At the time being, we don't support the ability to opt-out the 60-day lock, therefore we highly recommend that if you plan on transferring your domain you should make sure to wait until it is transferred to update the contact information.
+We don't support the ability to opt-out of the 60-day lock. We highly recommend that if you plan to transfer your domain, you wait to update the contact information until after it's transferred.
