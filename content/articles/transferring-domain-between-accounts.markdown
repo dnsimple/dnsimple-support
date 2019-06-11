@@ -8,7 +8,7 @@ categories:
 
 # Transferring a Domain to Another DNSimple Account
 
-This article discusses transferring domains to other DNSimple accounts (moving domains internally from one DNSimple account to another). This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/). 
+This article discusses how to move domains internally from one DNSimple account to another. This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/). 
 
 ---
 
