@@ -8,12 +8,14 @@ categories:
 
 # Transferring a Domain to Another DNSimple Account
 
+This article discusses transferring domains to other DNSimple accounts (moving domains internally from one DNSimple account to another). This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/). 
+
+---
+
 * TOC
 {:toc}
 
 ---
-
-In this article, we'll discuss transferring domains between DNSimple accounts. To do this, you'll move domains internally from one DNSimple account to another. This is different from transferring a domain out.  
 
 You can transfer a domain between DNSimple accounts any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account, once the move is accepted. Moving a domain to another account will also transfer all the associated resources, such as DNS records, SSL certificates, and email forwards.
 
