@@ -83,6 +83,6 @@ Here's a list of common `.UK` registration errors:
 
 1. The `.UK` domain is not reserved
 2. If the `.UK` domain is reserved, you must be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
-3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#registering).
+3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#register).
 
 If you have any questions, [contact us](https://dnsimple.com/contact) and we will help you register the domain.
