@@ -128,6 +128,9 @@ There lots of time-based two-factor authentication apps that generate verificati
 - [1password](https://agilebits.com/onepassword) for Mac, iOS devices, and Windows
 - [Microsoft Authenticator](http://www.windowsphone.com/en-us/store/app/authenticator/e7994dbc-2336-4950-91ba-ca22d653759b) for Windows Phone
 
+<warning>
+Note: 2FA must be online for it to sync and the code to generate
+</warning>
 
 ## Best Practices for Two-Factor Authentication
 
