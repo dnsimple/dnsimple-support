@@ -10,7 +10,8 @@ desc "Compile the site"
 task :compile => [:clean] do
   puts "Compiling site"
   Bundler.with_clean_env do
-    yarn = sh(*%w(yarn build))
+    yarn = sh(*%w(yarn))
+    build = sh(*%w(yarn build))
     compile = sh(*%w(bundle exec nanoc compile))
   end
 
@@ -19,7 +20,7 @@ task :compile => [:clean] do
   if $?.to_i == 0
     puts  "Compilation succeeded"
   else
-    abort "Compilation failed: #{$?.to_i}\n #{compile}\n #{yarn}\n"
+    abort "Compilation failed: #{$?.to_i}\n #{yarn}\n #{build}\n #{compile}\n"
   end
 end
 

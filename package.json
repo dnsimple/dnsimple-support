@@ -1,4 +1,7 @@
 {
+  "name": "dnsimple-support",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
     "concurrently": "^4.1.0",
     "jquery": "^3.4.1",
