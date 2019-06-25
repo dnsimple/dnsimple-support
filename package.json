@@ -11,7 +11,7 @@
     "webpack-cli": "^3.3.5"
   },
   "scripts": {
-    "live": "concurrently 'nanoc live' './node_modules/.bin/webpack --watch'",
+    "live": "concurrently 'bundle exec nanoc live' './node_modules/.bin/webpack --watch'",
     "build": "./node_modules/.bin/webpack"
   }
 }
