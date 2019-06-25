@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new CopyPlugin([
       { from: 'node_modules/@fortawesome/fontawesome-free/css/all.min.css', to: 'fontawesome/css/all.min.css' },
-      { from: 'node_modules/@fortawesome/fontawesome-free/webfonts', to: 'fontawesome/webfonts' },
+      { from: 'node_modules/@fortawesome/fontawesome-free/webfonts', to: 'fontawesome/webfonts', ignore: ['*.svg'] },
     ]),
   ],
 };
