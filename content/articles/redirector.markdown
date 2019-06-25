@@ -25,7 +25,7 @@ To configure a redirect, use the special [`URL` record](/articles/url-record), a
 
 [This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a `URL` record in DNSimple.
 
-After adding an `URL` record, the following redirects will work immediately:
+After adding a `URL` record, the following redirects will work immediately:
 
 ```
 http://source.com => http://destination.com
