@@ -4,3 +4,5 @@ tmp
 crash.log
 .env
 *.rdb
+node_modules
+content/dist
