@@ -1,5 +1,6 @@
 (function(){
 
+  // Decodes query parameter for search
   var parseQueryParams = function() {
     return decodeURIComponent(window.location.search.substring(3).replace(/\+/g, " "));
   };
@@ -7,9 +8,11 @@
   // Show query on page
   document.getElementById("js-query").innerText = parseQueryParams();
 
+  // Vars for Lunr article titles and search index
   var titles = [];
   var searchIndex = null;
 
+  // Initialize Lunr's Index
   var initIndex = function(data) {
     searchIndex = lunr(function(){
       this.ref('id');
@@ -24,10 +27,12 @@
     });
   }
 
+  // Search Lunr's index based on the query parameter
   var search = function() {
     return searchIndex.search(parseQueryParams());
   }
 
+  // Display results on page
   var render = function(results) {
     var el = document.getElementById("js-result-list");
     el.innerHTML = "";
@@ -45,23 +50,28 @@
       li.appendChild(a);
       el.append(li);
     }
-
   }
 
-  var request = new XMLHttpRequest();
-  request.open('GET', '/search.json', true);
-  request.onload = function() {
-    if (request.status >= 200 && request.status < 400) {
-      var data = JSON.parse(request.responseText);
-      initIndex(data);
-      render(search());
-    } else {
+  // Get the data to index from server
+  var retrieveData = function() {
+    var request = new XMLHttpRequest();
+    request.open('GET', '/search.json', true);
+    request.onload = function() {
+      if (request.status >= 200 && request.status < 400) {
+        var data = JSON.parse(request.responseText);
+        initIndex(data);
+        render(search());
+      } else {
+        document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
+      }
+    };
+    request.onerror = function() {
       document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
-    }
-  };
-  request.onerror = function() {
-    document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
-  };
-  request.send();
+    };
+    request.send();
+  }
+
+  // Search!
+  retrieveData();
 
 })();
