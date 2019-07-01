@@ -1,11 +1,11 @@
-(function($){
+(function(){
 
   var parseQueryParams = function() {
     return decodeURIComponent(window.location.search.substring(3).replace(/\+/g, " "));
   };
 
-  $resultList = $("#js-result-list");
-  $("#js-query").text(parseQueryParams());
+  // Show query on page
+  document.getElementById("js-query").innerText = parseQueryParams();
 
   var titles = [];
   var searchIndex = null;
@@ -29,10 +29,11 @@
   }
 
   var render = function(results) {
-    $resultList.html("");
+    var el = document.getElementById("js-result-list");
+    el.innerHTML = "";
 
     if (results.length == 0) {
-      $resultList.html("No results found");
+      el.innerHTML = "No results found";
     }
 
     for (item of results) {
@@ -42,18 +43,25 @@
       a.href = ref;
       a.innerHTML = titles[ref];
       li.appendChild(a);
-      $resultList.append(li);
+      el.append(li);
     }
 
   }
 
-  $.getJSON('/search.json')
-    .done(function(data) {
+  var request = new XMLHttpRequest();
+  request.open('GET', '/search.json', true);
+  request.onload = function() {
+    if (request.status >= 200 && request.status < 400) {
+      var data = JSON.parse(request.responseText);
       initIndex(data);
       render(search());
-    })
-    .fail(function() {
-      $resultList.html("Sorry, the search is broken at this time. Please contact support.");
-    });
+    } else {
+      document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
+    }
+  };
+  request.onerror = function() {
+    document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
+  };
+  request.send();
 
-})(jQuery);
+})();
