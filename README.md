@@ -4,12 +4,13 @@ This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc
 
 ## Setup
 
-Ruby 2, or higher, is required to build the site. Dependencies are managed using Bundler.
+Ruby 2, or higher, is required to build the site. Dependencies are managed using Bundler and Yarn.
 
 ```shell
 git clone git@github.com:dnsimple/dnsimple-support.git
 cd dnsimple-support
 bundle
+yarn
 ```
 
 For a list of `nanoc` commands type
@@ -20,10 +21,11 @@ nanoc --help
 
 ## Development
 
-`nanoc` ships with an autocompiler that automatically compiles changed files on every HTTP request.
+Use `yarn live` to concurrently compile JS and CSS dependencies along with running `nanoc live`.
+An autocompiler automatically compiles changed files on every HTTP request.
 
 ```shell
-bundle exec nanoc live
+yarn live
 
 Loading site… done
 Thin web server (v1.7.0 codename Dunder Mifflin)

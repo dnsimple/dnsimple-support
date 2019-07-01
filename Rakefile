@@ -10,14 +10,17 @@ desc "Compile the site"
 task :compile => [:clean] do
   puts "Compiling site"
   Bundler.with_clean_env do
-    out = sh(*%w(bundle exec nanoc compile))
+    yarn = sh(*%w(yarn))
+    build = sh(*%w(yarn build))
+    compile = sh(*%w(bundle exec nanoc compile))
   end
+
+  FileUtils.cp_r 'dist', 'output'
 
   if $?.to_i == 0
     puts  "Compilation succeeded"
   else
-    abort "Compilation failed: #{$?.to_i}\n" +
-          "#{out}\n"
+    abort "Compilation failed: #{$?.to_i}\n #{yarn}\n #{build}\n #{compile}\n"
   end
 end
 
@@ -31,6 +34,7 @@ end
 desc "Remove the compilation artifacts"
 task :clean do
   FileUtils.rm_r('output') if File.exist?('output')
+  FileUtils.rm_r('dist') if File.exist?('dist')
 end
 
 Rake::TestTask.new do |t|

@@ -1,0 +1,20 @@
+{
+  "name": "dnsimple-support",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lunr": "^2.3.6"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "scripts": {
+    "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
+    "build": "./node_modules/.bin/webpack"
+  }
+}

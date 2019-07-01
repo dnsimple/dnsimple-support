@@ -10,22 +10,18 @@
   var titles = [];
   var searchIndex = null;
 
-  var index = lunr(function(){
-    this.ref('id');
-    this.field('title', {boost: 10});
-    this.field('subtitle', {boost: 5});
-    this.field('body');
-  });
+  var initIndex = function(data) {
+    searchIndex = lunr(function(){
+      this.ref('id');
+      this.field('title', {boost: 10});
+      this.field('subtitle', {boost: 5});
+      this.field('body');
 
-
-  var addSearchData = function(data) {
-    for (item of data) {
-      index.add(item);
-      titles[item.id] = item.title;
-    }
-    indexStringified = JSON.stringify(index.toJSON());
-    indexParsed = JSON.parse(indexStringified);
-    searchIndex = lunr.Index.load(indexParsed);
+      for (item of data) {
+        this.add(item);
+        titles[item.id] = item.title;
+      }
+    });
   }
 
   var search = function() {
@@ -53,7 +49,7 @@
 
   $.getJSON('/search.json')
     .done(function(data) {
-      addSearchData(data);
+      initIndex(data);
       render(search());
     })
     .fail(function() {

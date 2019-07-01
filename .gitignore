@@ -1,6 +1,9 @@
-.sass-cache
-output
-tmp
-crash.log
-.env
-*.rdb
+/.sass-cache
+/output
+/tmp
+/node_modules
+/dist
+
+/crash.log
+/yarn-error.log
+/.env
