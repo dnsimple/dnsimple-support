@@ -18,20 +18,13 @@
   border: none;
 }
 
-// Increase bottom margin. It looks better.
-h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-
 // Markers
 // ---------------
 
 .marker {
   color: $gray-700;
   background: $gray-200;
-  padding: 1.5rem 1rem 0.2rem 4rem;
+  padding: 16px 10px 16px 40px;
   border-radius: 0px;
   box-shadow: -6px 0 0 0 $gray-600;
   margin: 0 2rem 1rem 0.5rem;
@@ -39,12 +32,14 @@ h2 {
   h4 {
     margin-top: 0px;
   }
+  p {
+    margin: 0;
+  }
 
   &:before {
     display: block;
     float: left;
-    margin-left: -2.5rem;
-    padding-top: 0.1rem;
+    margin-left: -25px;
     font-size: 16px;
     line-height: 140%;
     color: $gray-600;
@@ -209,6 +204,7 @@ input.form-control.search-query {
   padding-left: 15px;
   border-left: 5px solid #eee;
   color: #333;
+  text-decoration: none;
 }
 .nav-list ul li a {
   padding-left: 30px;

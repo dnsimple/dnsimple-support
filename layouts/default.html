@@ -22,18 +22,18 @@
   <header class="bg-white shadow-1">
     <div class="mw8 center ph2">
       <div class="flex justify-between pv2">
-        <div class="self-center w-60">
+        <div class="self-center w-60-ns w-100">
           <a href="/" title="DNSimple Help" class="dib self-center hover-td-none">
-            <img src="/assets/images/dnsimple-support.svg" class="v-mid" alt="DNSimple Help">
+            <img src="/assets/images/dnsimple-logo-support.svg" class="v-mid" alt="DNSimple Help">
           </a>
-          <form action="/search/" class="relative w-60 js-search-form dib pl3-ns pt2 pt0-ns" method="get">
+          <form action="/search/" class="relative w-100 w-70-ns js-search-form dib pl3-ns pt2 pt0-ns" method="get">
             <input type="search" name="q" value="" class="input-reset w-100 ba br-pill b--black-20 pv2 ph3" placeholder="Search...">
             <button type="submit" class="button-reset btn-input-search">
               <i class="fa fa-search"></i>
             </button>
           </form>
         </div>
-        <div class="self-center w-40 tr">
+        <div class="dn db-ns self-center w-40 tr">
           <a href="https://dnsimple.com/" class="link br2 ph4 pv2 dib white bg-blue hover-white b hover-td-none">Free Trial</a>
         </div>
       </div>
@@ -41,26 +41,26 @@
   </header>
 
   <div class="mw8 center ph2">
-    <div class="flex flex-wrap">
-      <aside id="sidebar" class="w-30" role="sidebar">
+    <div class="flex flex-wrap-reverse flex-wrap-ns">
+      <aside id="sidebar" class="w-100 w-30-ns" role="sidebar">
         <%= render "/sidebar.*" %>
       </aside>
-      <main id="main" class="w-70">
+      <main id="main" class="w100 w-70-ns">
         <%= yield %>
       </main>
     </div>
   </div>
 
-  <footer class="bg-navy bg-pipes pt5 pb6 mt6 white-80">
-    <div class="mw8 center">
+  <footer class="bg-navy bg-pipes pt5 pb5 mt6 white-80">
+    <div class="mw8 center ph2">
       <div class="flex flex-wrap justify-between">
-        <div>
+        <div class="w-100 w-70-ns tc tl-ns">
           <img src="/assets/images/dnsimple-footer.svg" alt="DNSimple Help">
           <h2 class="white ma0 pt2 pb3 b">Get Help From Developers</h2>
           <p class="measure">Everyone at DNSimple enjoys writing support docs.<br>We love answering your emails, too.</p>
           <a href="https://dnsimple.com/" class="link grow br2 ph4 pv3 mb2 dib white bg-blue hover-white b hover-td-none">Try us free for 30 days</a>
         </div>
-        <div>
+        <div class="w-100 w-30-ns tc tl-ns">
           <nav class="pt4">
             <a href="https://blog.dnsimple.com/" class="pb2 db link white-80 hover-white">Blog</a>
             <a href="https://dnsimple.com/contact" class="pb2 db link white-80 hover-white">Contact</a>
