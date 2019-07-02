@@ -42,12 +42,19 @@ h3 {
   }
 }
 
+h5 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
 p, pre {
   margin: 0 0 $base-unit/1.5 0;
 }
 
 a {
   color: $accent-color;
+  transition: all 0.2s ease;
 }
 
 hr {

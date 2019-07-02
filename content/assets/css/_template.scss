@@ -1,36 +1,9 @@
-//
-// Base Template
-// --------------------------------------------------
 * { box-sizing: border-box; }
 
-html {
-  background-color: #f2f2f2; // same as footer
-}
-
 body {
-  background-color: #fefefe; // site is using #fafafa
+  background: #fefefe;
 }
 
-a {
-  transition: all 0.2s ease;
-}
-
-// Reset Bootstrap rounded corners on <pre>.
-pre {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-
-// h5 is often used as an alternative for a **small title**
-h5 {
-  font-weight: bold;
-  font-size: 15px;
-}
-
-
-// Header
-// -------------------------
 .btn-input-search {
   position: absolute;
   right: 10px;

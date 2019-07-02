@@ -2,14 +2,6 @@
 // Application Template
 // --------------------------------------------------
 
-.container {
-  max-width: 970px !important;
-}
-
-.l-island {
-  padding: $base-unit 0;
-}
-
 // Reset Bootstrap style on <code> inside table.
 .table td code {
   padding: 0;
@@ -46,7 +38,7 @@
   }
 }
 
-.marker-info{
+.marker-info {
   &:before {
     @include font-awesome("\f05a");
   }
@@ -159,20 +151,8 @@
   }
 }
 
-// Header
-// -------------------------
-
-.header-search .search-query {
-  display: inline-block;
-  width: auto;
-}
-input.form-control.search-query {
-  box-shadow: $shadow-inner;
-}
-
 // Sidebar
 // -------------------------
-
 #sidebar {
   margin-top: 20px;
 }
