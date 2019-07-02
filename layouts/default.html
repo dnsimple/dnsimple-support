@@ -10,8 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico" />
-
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   <script type="text/javascript" src="/dist/main.js"></script>
 
@@ -21,46 +19,60 @@
 
 <body>
 
-  <header class="site-head">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <a href="/" title="DNSimple Help" class="site-logo">
-            <img src="/assets/images/dnsimple-logo-support.svg" alt="DNSimple Help">
-          </a>
+  <header class="bg-white shadow-1">
+    <div class="mw8 center ph2">
+      <div class="flex justify-between pv2">
+        <div class="self-center w-80-ns w-100">
+          <div class="flex-ns">
+            <a href="/" title="DNSimple Help" class="self-center">
+              <img src="/assets/images/dnsimple-logo-support.svg" class="v-mid" alt="DNSimple Help">
+            </a>
+            <form action="/search/" class="relative w-100 w-70-ns js-search-form pl3-ns pt2 pt0-ns" method="get">
+              <input type="search" name="q" value="" class="input-search input-reset outline-0 w-100 ba br-pill b--black-20 pv2 ph3" placeholder="Search...">
+              <button type="submit" class="button-reset pv2 mt2 mt0-ns btn-input-search">
+                <i class="fa fa-search v-mid"></i>
+              </button>
+            </form>
+          </div>
         </div>
-        <div class="col-md-6">
-          <%= render "/input-search.*", placeholder: "Search..." %>
-        </div>
-        <div class="col-md-3">
-          <a href="https://dnsimple.com/" class="site-link-to-app pull-right">DNSimple app</a>
+        <div class="dn db-ns self-center w-40 tr">
+          <a href="https://dnsimple.com/" class="link br2 ph4 pv2 dib white bg-blue hover-white b">Free Trial</a>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="container">
-    <div class="row">
-      <main id="main" class="col-md-9 col-md-push-3">
-        <%= yield %>
-      </main>
-      <aside id="sidebar" class="col-md-3 col-md-pull-9" role="sidebar">
+  <div class="mw8 center ph2">
+    <div class="flex flex-wrap-reverse flex-wrap-ns">
+      <aside id="sidebar" class="w-100 w-30-ns" role="sidebar">
         <%= render "/sidebar.*" %>
       </aside>
+      <main id="main" class="w100 w-70-ns">
+        <%= yield %>
+      </main>
     </div>
   </div>
 
-  <footer class="site-footer">
-    <div class="container">
-      <ul class="site-footer-links">
-        <li>&copy; <%= Time.now.year %> DNSimple Corporation</li>
-        <li><a href="https://dnsimple.com/">DNSimple</a></li>
-        <li><a href="https://dnsimple.com/about">About</a></li>
-        <li><a href="https://blog.dnsimple.com/">Blog</a></li>
-        <li><a href="https://developer.dnsimple.com/">API</a></li>
-        <li><a href="http://dnsimplestatus.com/">Status</a></li>
-        <li><a href="https://dnsimple.com/contact">Contact</a></li>
-      </ul>
+  <footer class="bg-navy bg-pipes pt5 pb5 mt6 white-80">
+    <div class="mw8 center ph2">
+      <div class="flex flex-wrap justify-between">
+        <div class="w-100 w-70-ns tc tl-ns">
+          <img src="/assets/images/dnsimple-footer.svg" alt="DNSimple Help">
+          <h2 class="white ma0 pt2 pb3 b">Get Help From Developers</h2>
+          <p class="measure">Everyone at DNSimple enjoys writing support docs.<br>We love answering your emails, too.</p>
+          <a href="https://dnsimple.com/" class="link grow br2 ph4 pv3 mb2 dib white bg-blue hover-white b">Try us free for 30 days</a>
+        </div>
+        <div class="w-100 w-30-ns tc tl-ns">
+          <nav>
+            <a href="https://dnsimple.com/" class="pb2 db link white-80 hover-white">DNSimple.com</a>
+            <a href="https://blog.dnsimple.com/" class="pb2 db link white-80 hover-white">Blog</a>
+            <a href="https://dnsimple.com/contact" class="pb2 db link white-80 hover-white">Contact</a>
+            <a href="http://dnsimplestatus.com/" class="pb2 db link white-80 hover-white">Status</a>
+            <a href="https://developer.dnsimple.com/" class="db link white-80 hover-white">API</a>
+          </nav>
+          <p class="white-50 pt4 f6">&copy; <%= Time.now.year %> DNSimple Corporation</p>
+        </div>
+      </div>
     </div>
   </footer>
 
