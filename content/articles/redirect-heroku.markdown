@@ -71,7 +71,7 @@ Alternatively, you can point both the www and not www versions of the site to He
 
 In this scenario, you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the www version (`www.example.com`) to the same Heroku application (or vice-versa). **The application is also using HTTPS**.
 
-In this case, [you cannot use our redirector service](/articles/redirector-https). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
+In this case, [you cannot use our redirector service](/articles/redirector). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
 
 <note>
 To redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-names) with the same certificate.
@@ -121,7 +121,7 @@ To redirect using HTTPS, you need to have a certificate that covers both the www
 
 In this scenario you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the HTTP version (`http://example.com`) to the same Heroku application under HTTPS (`https://example.com`).
 
-In this case, [you cannot use our redirector service](/articles/redirector-https) because it's not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
+In this case, [you cannot use our redirector service](/articles/redirector) because it's not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
 
 <div class="section-steps" markdown="1">
 ##### To handle the redirect at Heroku {#redirect-http2https-application}
