@@ -35,11 +35,13 @@ In this situation we recommend one of the following options:
 
 - If your domain is already configured to receive email, you need to create at least one of these following email addresses to prove ownership:
 
-admin@your-domain
-webmaster@your-domain
-postmaster@your-domain
+    ```
+    admin@your-domain
+    webmaster@your-domain
+    postmaster@your-domain
+    ```
 
-Some email services let you create an alias email address, so you don't have to monitor an extra inbox just for this.
+    Some email services let you create an alias email address, so you don't have to monitor an extra inbox just for this.
 
 - If your domain is not configured to receive email, you can use our [email forwarding feature](/articles/email-forwarding/) and delete the forward once the certificate is issued.
 
