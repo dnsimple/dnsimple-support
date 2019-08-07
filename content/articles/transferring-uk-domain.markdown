@@ -19,11 +19,11 @@ UK and CO.UK domains have a different transfer process than most other domain re
 ## Before you start
 
 <warning>
-As with any domain transfer, in order to avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
+As with any domain transfer, to avoid the possibility of downtime you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
 </warning>
 
 <div class="section-steps" markdown="1">
-##### To start the transfer
+##### Starting the transfer
 
 1. Log into DNSimple and click on <label>Add a Domain</label>.
 1. Select <label>transfer a domain</label>.
@@ -32,14 +32,14 @@ As with any domain transfer, in order to avoid the possibility of downtime, you 
 1. Press <label>Transfer Domain</label>
 </div>
 
-## Approve the transfer
+## Approving the transfer
 
 To complete the transfer of a UK or CO.UK domain, you must change the domain's IPS TAG at your current domain registrar. Your registrar may allow you to do this through their web site, or you may need to contact them via email or phone.
 
-Request the change of the IPS TAG according to this table (this is case-sensitive, so make sure it is in all capital letters):
+Request the change of the IPS TAG according to this table (this is case-sensitive, so make sure the IPS TAG is in all capital letters):
 
 
-|  TLD  | IPS Tag |
+|  TLD  | IPS TAG |
 |-------|-------|
 | .co.uk | `ENOM` |
 | .me.uk | `1API-DE` |
@@ -61,20 +61,20 @@ You can go to your domain list at any time to check on the status of pending tra
 
 ## After the transfer
 
-When the transfer is completed, you will receive a confirmation email from DNSimple. Congratulations! Your domain is now transferred to DNSimple and you can manage it from your DNSimple account.
+When the transfer has completed, you will receive an email from DNSimple confirming that your domain has been transferred to DNSimple. You can now manage your domain from your DNSimple account.
 
-### Change name servers
+### Changing name servers
 
-It's important to note that **we don't automatically point your domain to our name servers** when the transfer completes.
+**We don't automatically point your domain to our name servers** when the transfer completes.
 
 To avoid unexpected downtime and confusion, we don't change the domain name servers upon a successful transfer. When the domain is transferred to us, we will keep using the same name servers previously configured for the domain.
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click or [manually configure the name servers](/articles/setting-name-servers).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click, or [manually configure the name servers](/articles/setting-name-servers).
 
 <warning>
-Generally, we suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
+We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
 </warning>
 
 ### Expiration extension
 
-UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your co.uk domain has 3 months or more remaining, then no extension will take place automatically.
+UK and CO.UK domains may or may not be extended when they are successfully transferred. If your CO.UK domain has less than 3 months remaining before expiration, then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your CO.UK domain has 3 or more months remaining, then it will not be automatically extended. 
