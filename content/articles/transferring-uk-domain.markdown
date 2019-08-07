@@ -36,7 +36,18 @@ As with any domain transfer, in order to avoid the possibility of downtime, you 
 
 To complete the transfer of a UK or CO.UK domain, you must change the domain's IPS TAG at your current domain registrar. Your registrar may allow you to do this through their web site, or you may need to contact them via email or phone.
 
-Request the change of the IPS TAG to `ENOM` (this is case-sensitive, so make sure it is in all capital letters).
+Request the change of the IPS TAG according to this table (this is case-sensitive, so make sure it is in all capital letters):
+
+
+|  TLD  | IPS Tag |
+|-------|-------|
+| .co.uk | `ENOM` |
+| .me.uk | `1API-DE` |
+| .org.uk | `ENOM` |
+| .uk | `ENOM` |
+| .uk.com | `ENOM` |
+| .uk.net | `ENOM` |
+
 
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
 
@@ -66,6 +77,4 @@ Generally, we suggest pointing [your domain to our name servers before the trans
 
 ### Expiration extension
 
-UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your co.uk domain has 3 months or more remaining, then no extension will take place automatically. 
-
-
+UK and CO.UK domains may or may not be extended when they are successfully transferred. If your co.uk domain has less than 3 months remaining until it expires then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your co.uk domain has 3 months or more remaining, then no extension will take place automatically.
