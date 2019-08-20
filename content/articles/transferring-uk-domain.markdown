@@ -34,7 +34,7 @@ As with any domain transfer, to avoid the possibility of downtime you should [po
 
 ## Approving the transfer
 
-To complete the transfer of a UK or CO.UK domain, you must change the domain's IPS TAG at your current domain registrar. Your registrar may allow you to do this through their web site, or you may need to contact them via email or phone.
+To complete the transfer of a UK or CO.UK domain, you must change the domain's IPS TAG at your current domain registrar. Your registrar may allow you to do this through their website, or you may need to contact them via email or phone.
 
 Request the change of the IPS TAG to `1API-DE` (this is case-sensitive, so make sure the IPS TAG is in all capital letters).
 
@@ -66,4 +66,4 @@ We suggest pointing [your domain to our name servers before the transfer](/artic
 
 ### Expiration extension
 
-UK and CO.UK domains may or may not be extended when they are successfully transferred. If your CO.UK domain has less than 3 months remaining before expiration, then it will be extended by 2 years; the price of this extension is included in the transfer fee. If your CO.UK domain has 3 or more months remaining, then it will not be automatically extended.
+UK and CO.UK domains may or may not be extended when they are successfully transferred. If your CO.UK domain has less than 3 months remaining before expiration, then it will be extended by 2 years. The price of this extension is included in the transfer fee. If your CO.UK domain has 3 or more months remaining, then it will not be automatically extended.
