@@ -45,8 +45,6 @@ Request the change of the IPS TAG according to this table (this is case-sensitiv
 | .me.uk | `1API-DE` |
 | .org.uk | `1API-DE` |
 | .uk | `1API-DE` |
-| .uk.com | `1API-DE` |
-| .uk.net | `1API-DE` |
 
 
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
