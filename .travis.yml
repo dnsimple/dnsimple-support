@@ -1,6 +1,6 @@
 language: ruby
 
-jdk: oraclejdk8
+jdk: openjdk8
 
 cache:
   - bundler
