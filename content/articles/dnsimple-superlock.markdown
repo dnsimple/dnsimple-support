@@ -22,7 +22,7 @@ This article describes a feature that is only available to [new plans](/articles
 
 ---
 
-## What is SuperLock?
+# What is SuperLock?
 SuperLock is a mechanism to prevent individual users from performing destructive operations on a domain - like transferring the domain out. Without SuperLock, any user of an account effectively has admin power on any resource in the account. They could independently start a transfer out or push the domain into any other DNSimple account. That means a compromised user account can damage any resource inside the account.
 
 With SuperLock, you can protect any domain from unintentional transfers or moves to a different account.
@@ -34,7 +34,7 @@ This feature in Private Beta. Your account will need access granted via [support
 </info>
 
 <warning>
-Please read the process to [disable SuperLock](#disabling-the-superlock). Once SuperLock is enabled you cannot disable it by yourself.
+Please read the process to [disable SuperLock](#disabling-superlock). Once SuperLock is enabled you cannot disable it by yourself.
 </warning>
 
 
