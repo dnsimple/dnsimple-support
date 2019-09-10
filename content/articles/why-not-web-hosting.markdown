@@ -3,6 +3,8 @@ title: Why we don't offer web hosting services
 excerpt: Some reasons DNSimple doesn't offer web hosting services.
 categories:
 - DNSimple
+redirect_from:
+  - /articles/why-not-web-hosting/
 ---
 
 # Why we don't offer web hosting services

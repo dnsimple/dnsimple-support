@@ -4,7 +4,7 @@ excerpt: How to proceed in case a domain transfer was denied.
 categories:
   - Domain Transfers
 redirect_from:
-  - /how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
+  - /articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
 ---
 
 # How can I issue a new transfer order when a transfer is denied?
