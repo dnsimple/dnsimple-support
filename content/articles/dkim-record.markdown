@@ -24,13 +24,17 @@ DKIM requires the addition of public keys into your DNS zone. The key is often p
 
 If you're given a string representing the DKIM, it usually looks something like this:
 
-    k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
+```
+k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
+```
 
 Insert this into a TXT record. Do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
 
 Your provider will also give you a specific subdomain to use, usually something like:
 
-    something._domainkey
+```
+something._domainkey
+```
 
 Enter this subdomain in the "Name" field.
 
@@ -50,11 +54,16 @@ The [dig](/articles/how-dig/) tool is a good way to verify that your DKIM record
 
 To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, you can get the TXT record using the following query:
 
-    dig +short google._domainkey.aetrion.com TXT
+
+```
+dig +short google._domainkey.aetrion.com TXT
+```
 
 This will return a result like this:
 
-    "v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3QEKyU1fSma0axspqYK5iAj+54lsAg4qRRCnpKK68hawSd8zpsDz77ntGCR0X2mHVvkf0WEOIqaspaG/A5IGxieiWer+wBX8lW2tE4NHTE0PLhHqL0uD2sif2pKoPR3Wr6n/rbiihGYCIzvuY4/U5GigNUGls/QUbCPRyzho30wIDAQAB"
+```
+"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3QEKyU1fSma0axspqYK5iAj+54lsAg4qRRCnpKK68hawSd8zpsDz77ntGCR0X2mHVvkf0WEOIqaspaG/A5IGxieiWer+wBX8lW2tE4NHTE0PLhHqL0uD2sif2pKoPR3Wr6n/rbiihGYCIzvuY4/U5GigNUGls/QUbCPRyzho30wIDAQAB"
+```
 
 If no result is returned, verify that you added the TXT record with the correct subdomain. Remember the "Name" field in DNSimple should not include your domain name, otherwise you'd create a record at `subdomain.yourdomain.com.yourdomain.com`.
 
