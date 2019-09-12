@@ -7,7 +7,7 @@ categories:
 
 # Secondary DNS Configuration with DNSMadeEasy
 
-For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns). 
+For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns).
 
 **Requirements**
 
@@ -57,11 +57,11 @@ At the bottom of the screen, you might see an error message that the zone is out
 
 ![DNSMadeEasy configuration details not in sync](/files/dns-made-easy-sync.png)
 
-Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers. 
+Refresh the page after a few minutes. If the configuration is working properly, you should see a section showing you the health of the secondary name servers.
 
 ![DNSMadeEasy configuration details working](/files/dns-made-easy-working.png)
 
-Another way to verify your configuration is by using `dig` and querying one of the DNSMadeEasy name servers. Read more about `dig` in [our overview article](https://newsletter.dnsimple.com/how-to-dig/).
+Another way to verify your configuration is by using `dig` and querying one of the DNSMadeEasy name servers. Read more about `dig` in [our overview article](/articles/how-dig/).
 
 From your terminal, type the following `dig` command replacing `example.com` with your domain:
 

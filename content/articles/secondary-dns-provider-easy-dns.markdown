@@ -56,7 +56,7 @@ If everything is working correctly, you should see the DNSimple and EasyDNS name
 
 ![DNSimple configuration is successful](/files/easy-dns-secondary-zone.png)
 
-Another way to verify your configuration is by using `dig` and querying the EasyDNS name servers. Read more about `dig` in [our overview article](https://newsletter.dnsimple.com/how-to-dig/).
+Another way to verify your configuration is by using `dig` and querying the EasyDNS name servers. Read more about `dig` in [our overview article](/articles/how-dig/).
 
 From your terminal, type the following `dig` command replacing `example.com` with your domain:
 
