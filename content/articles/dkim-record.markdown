@@ -46,7 +46,7 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 
 ## Verifying your DKIM with dig
 
-The [dig](https://newsletter.dnsimple.com/how-to-dig/) tool is a good way to verify that your DKIM record is being returned correctly by our DNS servers.
+The [dig](/articles/how-dig/) tool is a good way to verify that your DKIM record is being returned correctly by our DNS servers.
 
 To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, you can get the TXT record using the following query:
 
