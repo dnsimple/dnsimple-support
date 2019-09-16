@@ -14,10 +14,10 @@ categories:
 
 ---
 
-This article describes the procedure to transfer a domain registered with DNSimple to another registrar. The term *gaining registrar* refers to the registrar where you want to transfer the domain to, the *losing registrar* is the current registrar for the domain, in this case DNSimple.
+This article describes the procedure to transfer a domain registered with DNSimple to another registrar. The term *gaining registrar* refers to the registrar where you want to transfer the domain, the *losing registrar* is the current registrar for the domain, in this case DNSimple.
 
 
-## Before you start
+## Before starting
 
 <warning>
 Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you must change them before requesting your transfer at your new domain registrar.
@@ -25,12 +25,12 @@ Once a domain transfer is started, you won't be able to change the name servers 
 
 To transfer a domain to another registrar, the standard procedure requires you to:
 
-1. Unlock the domain at DNSimple
-2. Request a transfer code from DNSimple
-3. Start the transfer at the gaining registrar
-4. Approve the transfer request
+1. Unlock the domain at DNSimple.
+2. Request a transfer code from DNSimple.
+3. Start the transfer at the gaining registrar.
+4. Approve the transfer request.
 
-The first two steps are handled at DNSimple. The other steps are the responsibility of the gaining registrar, and we are unable to provide support for them.
+The first two steps are handled at DNSimple. The other steps are the responsibility of the gaining registrar. We are unable to provide support for them.
 
 The _transfer code_ (also called _authorization code_, _auth code_, or _auth info_) is a code required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most TLDs, including all the gTLDs, such as `.COM`, `.NET`, and `.ORG`.
 
@@ -39,14 +39,14 @@ Some TLDs have different transfer procedures:
 - [.UK TLDs](/articles/domains-uk/#transfer-away)
 
 
-## 1. Unlock the domain and request transfer code
+## 1. Unlocking the domain and requesting a transfer code
 
 You can prepare your domain for transfer out in a single step. The action will unlock the domain and send you the transfer code via email if necessary.
 
 The transfer code is sent to the email listed as registrant (owner) for the domain. Before proceeding, [check the domain contact and update the email](/articles/changing-domain-contact/#updating-a-domain-contact) if it doesn't match an email you have access to.
 
 <div class="section-steps" markdown="1">
-##### To prepare the domain for transfer out
+##### Preparing the domain for transfer out
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
@@ -62,17 +62,17 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
 If you have requested a domain transfer out and have not received a transfer code, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. We'll be happy to look into it and figure out why the transfer code has not arrived.
 
 
-## 2. Start the transfer at the gaining registrar
+## 2. Starting the transfer at the gaining registrar
 
 Once you have the transfer code, you need to start the transfer at the gaining registrar. Requesting the transfer code will not automatically initiate a transfer out.
 
-Follow the gaining registrar instructions to start a transfer, and enther the transfer code when requested.
+Follow the gaining registrar's instructions to start a transfer, and enter the transfer code when requested.
 
-Please note that DNSimple has no visibility of this process, therefore you will need to contact the gaining registrar in case you need assistance.
+DNSimple does not have access to this process. Contact the gaining registrar if you need help with this step.
 
+ 
+## 3. Approving the transfer request
 
-## 3. Approve the transfer request
+Depending on the TLD, either the gaining registrar, the losing registrar, or both may send you an email to confirm the trasfer request. Verify the information in the request is correct (especially the name of the destination registrar), and confirm the request.
 
-Depending on the TLD, either the gaining registrar, the losing registrar or both may send you an email to confirm the trasfer request. Verify the information in the request are correct (especially the name of the destination registrar), and confirm the request.
-
-After the transfer at the new registrar is initiated, the transfer code is provided, the transfer will be initiated at the Registry level. DNSimple has 5 days to release your domain(s) as per [ICANN Transfer policy](https://www.icann.org/resources/pages/policy-2012-03-07-en). The transfer will automatically be approved at the end of this period.
+After the transfer at the new registrar is initiated and the transfer code is provided, the transfer will be initiated at the Registry level. DNSimple has 5 days to release your domain(s) as per [ICANN Transfer policy](https://www.icann.org/resources/pages/policy-2012-03-07-en). The transfer will automatically be approved at the end of this 5-day period.
