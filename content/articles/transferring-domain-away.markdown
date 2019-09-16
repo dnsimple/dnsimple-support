@@ -30,9 +30,9 @@ To transfer a domain to another registrar, the standard procedure requires you t
 3. Start the transfer at the gaining registrar.
 4. Approve the transfer request.
 
-The first two steps are handled at DNSimple. The other steps are the responsibility of the gaining registrar. We are unable to provide support for them.
+The first two steps are handled at DNSimple. The other steps are the responsibility of the gaining registrar. We are unable to provide support for those steps.
 
-The _transfer code_ (also called _authorization code_, _auth code_, or _auth info_) is a code required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most TLDs, including all the gTLDs, such as `.COM`, `.NET`, and `.ORG`.
+The _transfer code_ (also called _authorization code_, _auth code_, or _auth info_) is required to authorize the transfer of a domain name. The use of a transfer code is a common procedure for most TLDs – including all the gTLDs, such as `.COM`, `.NET`, and `.ORG`.
 
 Some TLDs have different transfer procedures:
 
@@ -41,7 +41,7 @@ Some TLDs have different transfer procedures:
 
 ## 1. Unlocking the domain and requesting a transfer code
 
-You can prepare your domain for transfer out in a single step. The action will unlock the domain and send you the transfer code via email if necessary.
+You can prepare your domain for transfer out in a single step. This action will unlock the domain and send you the transfer code via email if necessary.
 
 The transfer code is sent to the email listed as registrant (owner) for the domain. Before proceeding, [check the domain contact and update the email](/articles/changing-domain-contact/#updating-a-domain-contact) if it doesn't match an email you have access to.
 
@@ -73,6 +73,6 @@ DNSimple does not have access to this process. Contact the gaining registrar if 
  
 ## 3. Approving the transfer request
 
-Depending on the TLD, either the gaining registrar, the losing registrar, or both may send you an email to confirm the trasfer request. Verify the information in the request is correct (especially the name of the destination registrar), and confirm the request.
+Depending on the TLD, the gaining registrar, the losing registrar, or both may send you an email to confirm the transfer request. Verify that the information in the request is correct (especially the name of the gaining registrar), and confirm the request.
 
 After the transfer at the new registrar is initiated and the transfer code is provided, the transfer will be initiated at the Registry level. DNSimple has 5 days to release your domain(s) as per [ICANN Transfer policy](https://www.icann.org/resources/pages/policy-2012-03-07-en). The transfer will automatically be approved at the end of this 5-day period.
