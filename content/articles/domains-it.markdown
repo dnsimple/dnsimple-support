@@ -1,11 +1,11 @@
 ---
-title: .it Domains
+title: .IT Domains
 excerpt: This article explains the requirements for .it domain names.
 categories:
 - Domains
 ---
 
-# .it Domain Names
+# .IT Domain Names
 
 * TOC
 {:toc}
