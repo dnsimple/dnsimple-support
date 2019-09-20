@@ -16,7 +16,7 @@ This article explains the requirements and special procedures for .IT domain nam
 
 ## Requirements
 
-To register an .it (Italy) domain you must meet one of the following criteria:
+To register an .IT (Italy) domain you must meet one of the following criteria:
 
 1. In possession of citizenship or residency in a country belonging to the European Union (in the case of registration for natural persons).
 1. Established in a country belonging to the European Union (in the case of registration for other organizations).
@@ -25,9 +25,9 @@ Please make sure the Registrant contact you associate to the domain during the r
 
 ## Additional information and agreements
 
-When registering an .it domain, you must provide more details about the domain registrant, as well as explicitly agreeing to additional agreements of the .it registry.
+When registering an .IT domain, you must provide more details about the domain registrant, as well as explicitly agreeing to additional agreements of the .it registry.
 
-### Taxpayer number for .it domain registrations (registration code)
+### Taxpayer number for .IT domain registrations (registration code)
 
 Italian and foreign natural persons – if the Registrant is an Italian natural person, it's their _Codice Fiscale_; for foreigners it must contain a document number.
 
@@ -49,13 +49,16 @@ The Registrant of the domain name in question, declares under their own responsi
 - Release the Registry from any liability resulting from the assignment and use of the domain name by the natural person that has made the request;
 - Accept Italian jurisdiction and laws of the Italian State.
 
-### Sec. 5 - Consent to the processing of personal data for registration:
+### Sec. 5 - Consent to the processing of personal data for registration
+
 The interested party, after reading the above disclosure, gives consent to the processing of information required for registration, as defined in the above disclosure. Giving consent is optional, but if no consent is given, it will not be possible to finalize the registration, assignment and management of the domain name.
 
 ### Sec. 6 - Consent to the processing of personal data for diffusion and accessibility via the Internet
+
 The interested party, after reading the above disclosure, gives consent to the dissemination and accessibility via the Internet, as defined in the disclosure above. Giving consent is optional, but absence of consent does not allow the dissemination and accessibility of Internet data.
 
 ### Sec. 7 - Explicit Acceptance of the following points
+
 For explicit acceptance, the interested party declares that they:
 d) Are aware and agree that the registration and management of a domain name is subject to the "Rules of assignment and management of domain names in ccTLD.it" and "Regulations for the resolution of disputes in the ccTLD.it "and their subsequent amendments;
 e) Are aware and agree that in the case of erroneous or false declarations in this request, the Registry shall immediately revoke the domain name, or proceed with other legal actions. In such case the revocation shall not in any way give rise to claims against the Registry;
