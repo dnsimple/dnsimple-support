@@ -1,6 +1,6 @@
 ---
 title: .IO Domains
-excerpt: This article explains the requirements for .IO domain names.
+excerpt: This article explains the requirements and special procedures for .IO domain names.
 categories:
 - Domains
 ---
@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements for .IO domain names.
+This article explains the requirements and special procedures for .IO domain names.
 
 ## Renewing a .IO domain
 

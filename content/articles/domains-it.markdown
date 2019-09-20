@@ -1,6 +1,6 @@
 ---
 title: .IT Domains
-excerpt: This article explains the requirements for .it domain names.
+excerpt: This article explains the requirements and special procedures for .it domain names.
 categories:
 - Domains
 ---
@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements for .it domain names.
+This article explains the requirements and special procedures for .IT domain names.
 
 ## Requirements
 

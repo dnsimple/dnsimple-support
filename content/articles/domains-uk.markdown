@@ -1,6 +1,6 @@
 ---
 title: .UK Domains
-excerpt: This article explains the requirements for .UK domain names.
+excerpt: This article explains the requirements and special procedures for .UK domain names.
 categories:
 - Domains
 ---
@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements for .UK domain names.
+This article explains the requirements and special procedures for .UK domain names.
 
 ## .UK top-level registration policy {#policy-tld}
 

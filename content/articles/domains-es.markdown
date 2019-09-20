@@ -1,6 +1,6 @@
 ---
 title: .ES Domains
-excerpt: This article explains the requirements for .ES domain names.
+excerpt: This article explains the requirements and special procedures for .ES domain names.
 categories:
 - Domains
 ---
@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements for .ES domain names.
+This article explains the requirements and special procedures for .ES domain names.
 
 ## Renewing a .ES domain
 
