@@ -14,6 +14,7 @@ categories:
 
 This article explains the requirements and special procedures for .IT domain names.
 
+
 ## Requirements
 
 To register an .IT (Italy) domain you must meet one of the following criteria:
@@ -22,6 +23,7 @@ To register an .IT (Italy) domain you must meet one of the following criteria:
 1. Established in a country belonging to the European Union (in the case of registration for other organizations).
 
 Please make sure the Registrant contact you associate to the domain during the registration meets this requirement, otherwise the registration will be rejected by the registry.
+
 
 ## Additional information and agreements
 
