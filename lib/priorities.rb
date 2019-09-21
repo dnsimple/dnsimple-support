@@ -16,14 +16,27 @@ class Priorities
 
   def sort(what, items)
     index = index_for(what.to_s)
-    items.sort_by do |item|
-      # Get the identifier of the article.
-      # Then check if the identifier is in the priority index, in that case uses its position in the index.
-      # Otherwise compute the final position using the index size (the final position) + the name,
-      # that will guarantee the non-priority articles to be appended at the end, ordered by path alphabetically.
+
+    hash = {}
+    one = []
+    two = []
+
+    # Process all the items, extract identifiers
+    # Split into 2 groups: with priority, and without priority,
+    # then sort the first by priority, the second alphabetically.
+    items.each do |item|
       identifier = block_given? ? yield(item) : item.identifier.to_s
-      (index[identifier] || "#{index.size}-#{identifier}").to_s
+      hash[item] = identifier
+
+      if index[identifier]
+        one << item
+      else
+        two << item
+      end
     end
+
+    one.sort_by { |item| index[hash[item]] } + 
+    two.sort_by { |item| hash[item] }
   end
 
 
