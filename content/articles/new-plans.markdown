@@ -46,9 +46,8 @@ Current plans are:
 - Professional
 - Business
 
-We also have corresponding reseller plans:
+We also have reseller plans for customers that plan to manage 100 domains or more:
 
-- Basic Reseller
 - Expert Reseller
 - Master Reseller
 
