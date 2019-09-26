@@ -109,4 +109,4 @@ Since you may only have one SPF record per fully-qualified name, if you need to 
 
 SPF records are most often specified on your naked domain name. If you need to exceed the number of modifiers allowed in a single SPF record, you may need to send some of your messages from subdomains below your naked domain. For example, if a third-party SaaS sends mail on your behalf, you may need to send email from `something.yourdomain.com` for that provider. This is especially true if you have multiple SaaS providers that send email on your behalf.
 
-If you want to test your SPF records for compliance with the RFCs, you may want to use one of the tools [listed on the openspf.org website](http://www.openspf.org/Tools).
+If you want to test your SPF records for compliance with the RFCs, you may want to use [an online SPF testing tool](https://www.kitterman.com/spf/validate.html).
