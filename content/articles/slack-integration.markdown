@@ -20,7 +20,7 @@ The Slack app allows DNSimple customers to register and manage domains from thei
 
 ### Step 1: Add DNSimple to Slack
 
-Visit [slack.dnsimple.com](http://slack.dnsimple.com) to add DNSimple to your Slack channel.
+Visit [slack.dnsimple.com](https://slack.dnsimple.com) to add DNSimple to your Slack channel.
 
 ### Step 2: Select a Slack team
 
