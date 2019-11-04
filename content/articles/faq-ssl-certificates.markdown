@@ -42,6 +42,13 @@ categories:
     An SSL certificate is not a single-time purchase. You need to renew the certificate periodically, sometimes you need to rekey it or you find yourself having issues installing it, and you want to ask for some help. All these tasks are covered by our subscription service.
 
     Additionally, if you are requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we will use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we will [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
+
+1.  #### I'm unsubscribed/ing my account, will my current certificate keep valid?
+
+    Yes. As explained in the previous questions, you are not required to have an active subscription to use or install the certificate on your domain/server.
+
+    However please note that if you disable the subscription you will not receive any additional service for the domain or the certificate, like expiration warnings or the ability to renew or reissue it.
+
 </div>
 
 ## Domains and SSL certificates
