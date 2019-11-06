@@ -47,7 +47,7 @@ categories:
 
     Yes. You're not required to have an active subscription to use or install the certificate on your server.
 
-    If you disable the subscription, you won't receive any additional service for the domain or the certificate, like expiration warnings or the ability to renew or reissue it.
+    If you disable the subscription, you won't receive any additional services for the domain or the certificate, like expiration warnings or the ability to renew or reissue it.
 
 </div>
 
