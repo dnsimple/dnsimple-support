@@ -3,6 +3,7 @@ title: SSL Certificates Frequently Asked Questions
 excerpt: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
 categories:
 - SSL Certificates
+structured_data: true
 ---
 
 # SSL Certificate FAQ
@@ -31,7 +32,7 @@ categories:
 
     Yes. SSL certificates are one of our paid products, provided as part of our subscription service.
 
-   To purchase an SSL certificate, you need an active subscription at the time of the purchase. You're not required to have an active subscription to use or install the certificate on your server. If you disable the subscription, you won't receive any additional services for the domain or the certificate.
+    To purchase an SSL certificate, you need an active subscription at the time of the purchase. You're not required to have an active subscription to use or install the certificate on your server. If you disable the subscription, you won't receive any additional services for the domain or the certificate.
 
     You need a valid, active subscription when you renew the certificate or if you want to reissue the certificate.
 
