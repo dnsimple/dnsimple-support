@@ -51,6 +51,7 @@ compile '/**/*.markdown' do
   filter :postprocess
   filter :colorize_syntax, default_colorizer: :rouge
   layout '/default.*'
+  filter :add_structured_data_faq_google
 end
 
 compile '/**/*' do
