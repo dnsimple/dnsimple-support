@@ -9,7 +9,7 @@ require 'erb'
 # See `/articles/faq-ssl-certificates/` for an example.
 class AddStructuredDataFilter < Nanoc::Filter
 
-  identifier :add_structured_data_faq_google
+  identifier :add_structured_data
 
   def run(content, params={})
     if @item[:structured_data]
