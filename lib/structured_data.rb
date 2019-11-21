@@ -21,7 +21,6 @@ class AddStructuredDataFilter < Nanoc::Filter
   end
 
   def write_faqs(doc, faqs)
-    head = doc.at('head')
     template = ERB.new <<-eos
     <script type="application/ld+json">
     {
@@ -37,12 +36,13 @@ class AddStructuredDataFilter < Nanoc::Filter
               "text": "<%= faq[:answer] %>"
             }
           }
-          <%= index != faqs.size - 1 ? "," : "" %>
+          <%= add_comma_if_necessary(faqs, index) %>
         <% end %>
       ]
     }
     </script>
     eos
+    head = doc.at('head')
     head << template.result(binding)
   end
 
@@ -68,6 +68,12 @@ class AddStructuredDataFilter < Nanoc::Filter
 
   def enforce_single_quotes(string)
     string.gsub("\"", "'")
+  end
+
+  def add_comma_if_necessary(faqs, index)
+    unless index == faqs.size - 1
+      ","
+    end
   end
 
 end
