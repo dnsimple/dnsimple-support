@@ -11,7 +11,7 @@ class AddStructuredDataFilter < Nanoc::Filter
 
   identifier :add_structured_data
 
-  def run(content, params={})
+  def run(content, params = {})
     if @item[:structured_data]
       doc = Nokogiri::HTML(content)
       write_faqs(doc, collect_faqs(doc))
@@ -21,7 +21,7 @@ class AddStructuredDataFilter < Nanoc::Filter
   end
 
   def write_faqs(doc, faqs)
-    template = ERB.new <<-eos
+    template = ERB.new <<-EOS
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -41,7 +41,7 @@ class AddStructuredDataFilter < Nanoc::Filter
       ]
     }
     </script>
-    eos
+    EOS
     head = doc.at('head')
     head << template.result(binding)
   end
@@ -60,7 +60,7 @@ class AddStructuredDataFilter < Nanoc::Filter
 
   def transform_links(faq)
     faq.css('a').each do |a|
-      if a['href'].start_with? ("/")
+      if a['href'].start_with?("/")
         a['href'] = "https://support.dnsimple.com#{a['href']}"
       end
     end
@@ -71,7 +71,7 @@ class AddStructuredDataFilter < Nanoc::Filter
   end
 
   def add_comma_if_necessary(faqs, index)
-    unless index == faqs.size - 1
+    unless index == (faqs.size - 1)
       ","
     end
   end
