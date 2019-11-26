@@ -35,7 +35,7 @@ task :publish => [:compile, :imgoptim] do
   if publishing_result.include?("[info] Successfully pushed the website to")
     puts "Publishing succeeded"
   else
-    abort "Publishing failed"
+    abort "ERROR: Publishing failed"
   end
 end
 
