@@ -134,3 +134,23 @@ There lots of time-based two-factor authentication apps that generate verificati
 To benefit from true two-factor authentication, you must keep your token generator and your primary user credentials separate. For example, if you use your mobile device as your token generator, you shouldn't have your primary user credentials on your mobile device.
 
 If you decide to use your mobile device as both your token generator and for accessing DNSimple, you still get the added benefit of a one-time password for log in should your credentials be compromised, but you won't benefit from true two-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
+
+
+## Troubleshooting two-factor authentication {#troubleshooting}
+
+
+##### Ensuring your phone's date and time synchronized
+
+Authenticator app two-factor authentication codes are based on time and thus require the time on your phone to be in-sync with the official time. If your phone's time is out of sync, or if you have changed time zones, the best way to fix it is to change the time settings on your phone from "Manual" to "Automatic".
+
+- [This article from Apple's help centre will provide steps for iOS](https://support.apple.com/en-ie/HT203483).
+- Changing this setting on Android may vary, but a [general guide can be found here](https://squareup.com/help/us/en/article/5288-update-date-time-on-your-device).
+-  You can also try the [Time Sync feature if you use Google Authenticator for Android](https://support.google.com/accounts/answer/2653433?visit_id=636735803516007086-2349741641&p=timesync&rd=1).
+
+##### Generate a fresh authentication code
+
+Sometimes, a two-factor authentication code may not be accepted, despite entering it correctly. This most often occurs when the original token was close to expiration. Waiting for the token to refresh and entering the brand new token should resolve this.
+
+
+
+
