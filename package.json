@@ -6,7 +6,7 @@
     "lunr": "^2.3.6"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "^4.1.2",
     "@fortawesome/fontawesome-free": "^5.9.0",
     "copy-webpack-plugin": "^5.0.3",
     "tachyons": "^4.11.1",
