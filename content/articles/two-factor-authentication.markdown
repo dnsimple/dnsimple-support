@@ -144,7 +144,7 @@ Two-factor authentication codes are based on time and thus require the time on y
 
 - [This article from Apple's help centre will provide steps for iOS](https://support.apple.com/en-ie/HT203483).
 - Changing this setting on Android may vary, but a [general guide can be found here](https://squareup.com/help/us/en/article/5288-update-date-time-on-your-device).
--  You can also try the [Time Sync feature if you use Google Authenticator for Android](https://support.google.com/accounts/answer/2653433?visit_id=636735803516007086-2349741641&p=timesync&rd=1).
+-  You can also try the [Time Sync feature if you use Google Authenticator for Android](https://support.google.com/accounts/answer/2653433).
 
 #### Generate a fresh authentication code
 
