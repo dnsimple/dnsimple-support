@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "lunr": "^2.3.6"
+    "lunr": "^2.3.8"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
