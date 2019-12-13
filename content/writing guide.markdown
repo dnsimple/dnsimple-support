@@ -34,7 +34,7 @@
 **Adverbs**
 
 * Adverbs add length without contributing depth. 
-* 99% of the time you won’t need that adverb. “Interestingly”, “usually”, “generally”, “typically” are ones I see often, and most of the time they don’t need to be there. 
+* 99% of the time you won’t need that adverb. “Interestingly”, “usually”, “generally”, “typically” are used often, and most of the time they don’t need to be there. 
 * Very, really, a lot - these are unnecessary filler words. Try to avoid them in support writing. We want to keep things as clean and concise as possible. 
 
 **Avoid negative language**
