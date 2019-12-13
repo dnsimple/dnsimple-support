@@ -26,7 +26,14 @@
 
 **Punctuation**
 
-* There should be a period at the end of every line in a bulleted list. 
+* There should be a period at the end of every sentence line in a bulleted list. You don't need periods with lists made of  one/two-word items. 
+   * Example 1 (period needed): 
+       * 1. Log in to DNSimple. 
+       * 2. Go to the Domain page. 
+   * Example 2 (no punctuation required): 
+       * 1. DNS hosting
+       * 2. DDoS Defense 
+       * 3. One-click services
 * Use Oxford commas. 
 * If you're not sure about that semi-colon, avoid it. It's just as easy to write two separate sentences, so semi-colons are often unnecessary. 
 * Exclamation points are super fun... sparingly. Use them with discretion, and if you're not sure, don't use them at all. Support docs won't have much call for exclamation points. 
