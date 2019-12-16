@@ -95,7 +95,7 @@ The recovery code **is the only way to recover access to your account** if you c
 When you enter a valid recovery code, two-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again with a new barcode and recovery code.
 
 <div class="section-steps" markdown="1">
-##### To disable two-factor authentication using the recovery code
+##### Disabling two-factor authentication using the recovery code
 
 1.  Log in to DNSimple with your user credentials.
 
@@ -146,7 +146,7 @@ Two-factor authentication codes are based on time and thus require the time on y
 - Changing this setting on Android may vary, but a [general guide can be found here](https://squareup.com/help/us/en/article/5288-update-date-time-on-your-device).
 - You can also try the [Time Sync feature if you use Google Authenticator for Android](https://support.google.com/accounts/answer/2653433).
 
-#### Generate a fresh authentication code
+#### Using a freshly-generated authentication code
 
 Sometimes, a two-factor authentication code may not be accepted, despite entering it correctly. This most often occurs when the original token was close to expiration.
 
