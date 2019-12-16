@@ -26,9 +26,7 @@ end
 
 desc "Publish to S3"
 task :publish => [:compile, :imgoptim] do
-  puts "Publishing to S3"
-  puts `s3_website push`
-  puts "Published"
+  puts "Publishing to S3 is done from Travis"
 end
 
 desc "Remove the compilation artifacts"
