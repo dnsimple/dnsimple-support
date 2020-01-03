@@ -1,12 +1,10 @@
 language: ruby
 
-jdk: openjdk8
-
 cache:
   - bundler
 
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bundle exec rake publish
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bundle exec rake
 
 notifications:
   slack:
