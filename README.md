@@ -52,21 +52,4 @@ Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc 
 
 ## Deployment
 
-Each commit to master is [deployed automatically via Travis](https://blog.dnsimple.com/2016/04/publish-static-via-travis-to-cloudfront/).
-
-### Manual deployment
-
-To publish the site manually you will need Java (as the static deployer is written in Scala).
-
-Add a `.env` file with following variables, replacing `ACCESS_ID` and `ACCESS_KEY` with the real values.
-
-```
-S3_ID=ACCESS_ID
-S3_SECRET=ACCESS_KEY
-```
-
-Finally, run:
-
-```shell
-rake publish
-```
+Each commit to master is deployed automatically via Netlify through the dnsimple-deploy account.
