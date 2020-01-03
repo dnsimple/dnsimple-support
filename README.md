@@ -52,4 +52,4 @@ Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc 
 
 ## Deployment
 
-Each commit to master is deployed automatically via Netlify through the dnsimple-deploy account.
+Each commit to master is deployed automatically via Netlify.
