@@ -24,8 +24,10 @@ task :compile => [:clean] do
   end
 end
 
-desc "Publish"
+desc "Publish to S3"
 task :publish => [:compile, :imgoptim] do
+  puts "Publishing to S3"
+  puts `s3_website push`
   puts "Published"
 end
 
