@@ -16,6 +16,7 @@ task :compile => [:clean] do
   end
 
   FileUtils.cp_r 'dist', 'output'
+  FileUtils.cp_r '_redirects', 'output'
 
   if $?.to_i == 0
     puts  "Compilation succeeded"
