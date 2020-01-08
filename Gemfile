@@ -21,7 +21,6 @@ end
 
 group :development do
   gem 'adsf'
-  gem 's3_website'
 end
 
 group :nanoc do
