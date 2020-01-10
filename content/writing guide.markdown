@@ -26,7 +26,7 @@
 **Standardize capitalization**
 
 * Main titles should have all words capitalized. Descriptions should not. 
-* Headers (H2, H3) should have the first word capitalized. 
+* Subheaders (H2, H3) should have the first word capitalized. 
 
 **Punctuation**
 
