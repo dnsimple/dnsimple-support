@@ -18,8 +18,8 @@
    * Examples: 
       * Using 2FA 
       * Verifying NS Records 
-* Using “will” makes it sound like it'll happen in the future. If you're doing things now, say it.
-* Don’t use time-sensitive language.
+* Using "will" makes it sound like it'll happen in the future. If you're doing things now, say it.
+* Don't use time-sensitive language.
     * Examples: 'for now', 'currently', or 'for the time being'. 
     * The site is written in present tense and reflects what you're doing now, so this language is redundant and unnecessary. 
 
