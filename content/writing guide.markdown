@@ -13,7 +13,7 @@
 
 **Tense**
 
-* Always use present tense when applicable. It’s stronger.
+* Always use present tense when applicable. It's stronger.
 * Every sub-header (when possible) should use the present continuous form. 
    * Examples: 
       * Using 2FA 
@@ -30,7 +30,7 @@
 
 **Punctuation**
 
-* There should be a period at the end of every sentence line in a bulleted list. You don't need periods with lists made of  one/two-word items. 
+* There should be a period at the end of every sentence line in a bulleted list. You don't need periods with lists made of one/two-word items. 
    * Example 1 (period needed): 
        * 1. Log in to DNSimple. 
        * 2. Go to the Domain page. 
@@ -45,12 +45,12 @@
 **Adverbs**
 
 * Adverbs add length without contributing depth. 
-* 99% of the time you won’t need that adverb. “Interestingly”, “usually”, “generally”, “typically” are used often, and most of the time they don’t need to be there. 
+* 99% of the time you won't need that adverb. "Interestingly, "usually, "generally", "typically" are used often, and most of the time they don't need to be there. 
 * Very, really, a lot - these are unnecessary filler words. Try to avoid them in support writing. We want to keep things as clean and concise as possible. 
 
 **Avoid negative language**
 
-* Avoid words like “pain points” and “hassle”.
+* Avoid words like "pain points" and "hassle".
     * These words create visceral reactions in readers, and we don't want anyone associating DNSimple with pain or hassle, even if that's not what you're trying to say. 
 * Avoid saying things like 'We do all this for you'. This places a burden of gratitude on the client. They absolutely should appreciate the service, but you should never point that out. Just keep making it great, and you don't have to remind them how good you are. 
 
