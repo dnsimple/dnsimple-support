@@ -14,6 +14,9 @@
 **Tense**
 
 * Always use present tense when applicable. It's stronger.
+  * Examples: 
+    * *do* Each plan provides a different level of service.
+    * *don't* Each plan will provide a different level of service. 
 * Every sub-header (when possible) should use the present continuous form. 
    * Examples: 
       * Using 2FA 
