@@ -70,6 +70,10 @@ We will only charge your credit card for the transfer once it has completed.
 
 You can go to your domain list at any time to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer request.
 
+## Cancel the transfer
+
+If the domain is still in the transfer process, you can cancel the transfer at any time, and the domain won't be moved away from your current registrar. To do this, navigate to your domain, under the "Transferring" card, click "View status", then "Cancel transfer".
+
 ## After the transfer
 
 When the transfer is completed, you will receive a confirmation email from DNSimple. Congratulations! Your domain is now transferred to DNSimple and you can manage it from your DNSimple account.
