@@ -11,8 +11,6 @@
 /articles/can-multi-year-ssl-certificate                                  /articles/can-multi-year-ssl-certificates/
 /articles/can-multi-year-ssl-certificate/index.html                       /articles/can-multi-year-ssl-certificates/
 /articles/cname                                                           /articles/cname-record/
-/articles/cname-record/                                                   /articles/cname-record/
-/articles/cname-record/index.html                                         /articles/cname-record/
 /articles/cname/index.html                                                /articles/cname-record/
 /articles/contributing-services                                           /articles/services/
 /articles/contributing-services/index.html                                /articles/services/
@@ -49,10 +47,9 @@
 /articles/ordering-comodo-certificate/index.html                          /articles/ordering-standard-certificate/
 /articles/purchasing-ssl-certificates                                     /articles/ordering-standard-certificate/
 /articles/purchasing-ssl-certificates/index.html                          /articles/ordering-standard-certificate/
-/articles/redirect                                                        /articles/redirect-heroku/
-/articles/redirect/                                                       /articles/redirect-heroku/
+/articles/redirect                                                        /articles/redirector/
 /articles/redirect/                                                       /articles/redirector/
-/articles/redirect/index.html                                             /articles/redirect-heroku/
+/articles/redirect/index.html                                             /articles/redirector/
 /articles/redirector-https                                                /articles/redirector/
 /articles/redirector-https/                                               /articles/redirector/
 /articles/redirector-https/index.html                                     /articles/redirector/
@@ -81,7 +78,7 @@
 /articles/url-redirect-ssl/index.html                                     /articles/redirector/
 /articles/url/index.html                                                  /articles/url-record/
 /articles/what-is-common                                                  /articles/what-is-common-name/
-/articles/what-is-common index.html                                       /articles/what-is-common-name/
+/articles/what-is-common/index.html                                       /articles/what-is-common-name/
 /articles/what-is-ssl                                                     /articles/what-is-ssl-san/
 /articles/what-is-ssl-certificate-chain.html                              /articles/what-is-ssl-certificate-chain/
 /articles/what-is-ssl/index.html                                          /articles/what-is-ssl-san/
