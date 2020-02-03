@@ -16,22 +16,22 @@ categories:
 
 Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
-## Before you start
+## Before starting
 
 <warning>
-In order to avoid the possibility of a downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns) from your domain if you are changing DNS providers.
+To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns) from your domain if you are changing DNS providers.
 </warning>
 
 ## Caveats
 
 - A domain may only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
-- Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer the registrar may not block the transfer due to the expiration.
+- Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer, the registrar may not block the transfer due to the expiration.
 - WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
 
-## Initiate the transfer
+## Initiating the transfer
 
 <div class="section-steps" markdown="1">
-##### To prepare the transfer
+##### Preparing the transfer
 
 At your current Registrar:
 
@@ -42,7 +42,7 @@ At your current Registrar:
 </div>
 
 <div class="section-steps" markdown="1">
-##### To start the transfer
+##### Starting the transfer
 
 At DNSimple:
 
@@ -54,7 +54,7 @@ At DNSimple:
 - Press "Transfer Domain"
 </div>
 
-## Approve the transfer
+## Approving the transfer
 
 Your domain transfer request will now be issued if there are no missing fields. For most domain extensions, the current registrant will receive an email from `donotreply@name-services.com` to authorize the transfer.
 
@@ -68,17 +68,17 @@ We will only charge your credit card for the transfer once it has completed.
 
 ## Transfer status
 
-You can go to your domain list at any time to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer request.
+You can go to your domain list to check on the status of pending transfers. Click on "transfer in process" to view detailed information about the transfer request.
 
-## Cancel the transfer
+## Canceling the transfer
 
-If the domain is still in the transfer process, you can cancel the transfer at any time, and the domain won't be moved away from your current registrar. To do this, navigate to your domain, under the "Transferring" card, click "View status", then "Cancel transfer".
+If the domain is still in the transfer process, you can cancel the transfer, and the domain won't be moved away from your current registrar. To do this, navigate to your domain. Under the "Transferring" card, click "View status", then "Cancel transfer".
 
 ## After the transfer
 
 When the transfer is completed, you will receive a confirmation email from DNSimple. Congratulations! Your domain is now transferred to DNSimple and you can manage it from your DNSimple account.
 
-### Change name servers
+### Changing name servers
 
 It's important to note that **we don't automatically point your domain to our name servers** when the transfer completes.
 
@@ -87,7 +87,7 @@ To avoid unexpected downtime and confusion, we don't change the domain name serv
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click or [manually configure the name servers](/articles/setting-name-servers).
 
 <warning>
-Generally, we suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain), to avoid downtime during the transfer. In fact, some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
+We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
 </warning>
 
 ### Expiration extension
