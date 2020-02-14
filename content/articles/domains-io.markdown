@@ -15,7 +15,7 @@ categories:
 This article explains the requirements and special procedures for .IO domain names.
 
 
-## Renewing a .IO domain
+## Renewing
 
 `.IO` domains are **auto-renewal only** and cannot be renewed manually at this time. The [auto-renewal feature](/articles/domain-auto-renewal) must be set 1 month before the domain will expire as explained in the ["auto-renew only" article](/articles/auto-renew-only-domains).
 
