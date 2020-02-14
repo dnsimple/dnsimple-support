@@ -28,6 +28,8 @@ Anyone may register a .ES domain, however you will need to provide additional in
 
 ## Renewing
 
-ES domains do not follow the same renewal procedures as TLDs like .com, .net, and .org. ES domains must have auto-renewal enabled at least 30 days prior to expiration. This is because ES domains do not have a typical redemption period as other popular TLDs mentioned before, they begin the deletion process a few days before expiration.
+### Auto-renewal only {#auto-renewal-required}
 
-If your domain is in this redemption period, it will need to be manually renewed by support for a substantial fee imposed by the registry. As soon as the expiration date happens and it is not renewed, the domain is immediately deleted and made available for registration again.
+This TLD doesn't support manual renewals. In order to successfully renew the domain, the [auto-renewal feature](/articles/domain-auto-renewal) must be enabled at least 1 month before the domain will expire, as explained in the ["auto-renew only" article](/articles/auto-renew-only-domains).
+
+If auto-renewal is not enabled, the domain will be scheduled for removal **12 days before the expiration**, and the deactivation will take place by the registrar at any point during this period (even before the expiration date). It may be possible to recover the domain until the final deletion, but the registry will require the payment of a redemption fee.

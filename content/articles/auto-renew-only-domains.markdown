@@ -15,19 +15,4 @@ Auto-renewals are automatically processed by the registrar at any time within th
 
 The best solution is to always have auto-renewal enabled. We notify you 2 months before a domain is auto-renewed, so you have the opportunity to disable auto-renewal if you don't want to keep the domain.
 
-The following TLDs are auto-renewal only:
-
-- [`AC`](https://dnsimple.com/tlds/ac-domains)
-- [`AT`](https://dnsimple.com/tlds/at-domains)
-- [`BE`](https://dnsimple.com/tlds/be-domains)
-- [`CH`](https://dnsimple.com/tlds/ch-domains)
-- [`DE`](https://dnsimple.com/tlds/de-domains)
-- [`FR`](https://dnsimple.com/tlds/fr-domains)
-- [`IO`](https://dnsimple.com/tlds/io-domains)
-- [`IT`](https://dnsimple.com/tlds/it-domains)
-- [`JOBS`](https://dnsimple.com/tlds/jobs-domains)
-- [`JP`](https://dnsimple.com/tlds/jp-domains)
-- [`LI`](https://dnsimple.com/tlds/li-domains)
-- [`NL`](https://dnsimple.com/tlds/nl-domains)
-- [`SH`](https://dnsimple.com/tlds/sh-domains)
-- [`TM`](https://dnsimple.com/tlds/tm-domains)
+For further information, visit the [TLD-specific articles](/categories/domains/). If a domain requires auto-renewal, we will indicate it with a message in the renewal section of the domain, in your DNSimple account page.
