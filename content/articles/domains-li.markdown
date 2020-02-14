@@ -5,7 +5,7 @@ categories:
 - Domains
 ---
 
-# .CH Domain Names
+# .LI Domain Names
 
 * TOC
 {:toc}
