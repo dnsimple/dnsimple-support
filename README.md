@@ -6,20 +6,11 @@ This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc
 
 ## Setup
 
-Ruby 2, or higher, is required to build the site. Dependencies are managed using Bundler and Yarn.
-
-```shell
-git clone git@github.com:dnsimple/dnsimple-support.git
-cd dnsimple-support
-bundle
-yarn
-```
-
-For a list of `nanoc` commands type
-
-```shell
-nanoc --help
-```
+1. Clone this repository
+2. Run `asdf install`
+3. Run `bundle install`
+4. Run `yarn`
+5. Start your local instance with `yarn live`
 
 ## Development
 
