@@ -14,11 +14,6 @@ categories:
 
 This article explains the requirements and special procedures for .ES domain names.
 
-## Renewing a .ES domain
-
-ES domains do not follow the same renewal procedures as TLDs like .com, .net, and .org. ES domains must have auto-renewal enabled at least 30 days prior to expiration. This is because ES domains do not have a typical redemption period as other popular TLDs mentioned before, they begin the deletion process a few days before expiration.
-
-If your domain is in this redemption period, it will need to be manually renewed by support for a substantial fee imposed by the registry. As soon as the expiration date happens and it is not renewed, the domain is immediately deleted and made available for registration again.
 
 ## Requirements
 
@@ -29,3 +24,12 @@ Anyone may register a .ES domain, however you will need to provide additional in
   - Resident alien ID (NIE): Select this option if you can provide us your Spanish resident alien ID number;
   - Generic ID: Select this option if you do not have any of the above mentioned IDs, but can provide either your Passport number, any Foreign ID document number, Company Registration number, Driver’s License number, etc.
 1. Registrant ID Number: Depending upon the option you selected above, you need to provide that ID's number here.
+
+
+## Renewing
+
+### Auto-renewal only {#auto-renewal-required}
+
+This TLD doesn't support manual renewals. To successfully renew the domain, the [auto-renewal feature](/articles/domain-auto-renewal) must be enabled at least 1 month before the domain will expire, as explained in the ["auto-renew only" article](/articles/auto-renew-only-domains).
+
+If auto-renewal is not enabled, the domain will be scheduled for removal **12 days before the expiration**. The registrar can decativate it at any point during this period (even before the expiration date). It might be possible to recover the domain before final deletion, but the registry will charge a redemption fee.

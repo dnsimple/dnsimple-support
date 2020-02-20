@@ -1,18 +1,18 @@
 ---
-title: .CH Domains
-excerpt: This article explains the requirements and special procedures for .CH domain names.
+title: .LI Domains
+excerpt: This article explains the requirements and special procedures for .LI domain names.
 categories:
 - Domains
 ---
 
-# .CH Domain Names
+# .LI Domain Names
 
 * TOC
 {:toc}
 
 ---
 
-This article explains the requirements and special procedures for .CH domain names.
+This article explains the requirements and special procedures for .LI domain names.
 
 
 ## Renewing
