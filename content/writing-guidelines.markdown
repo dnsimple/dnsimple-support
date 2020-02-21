@@ -46,6 +46,18 @@
 * If you're not sure about that semi-colon, avoid it. It's just as easy to write two separate sentences, so semi-colons are often unnecessary. 
 * Exclamation points are super fun... sparingly. Use them with discretion, and if you're not sure, don't use them at all. Support docs won't have much call for exclamation points. 
 
+**Widgets** 
+
+* We often use Info, Tips, Notes, and Warnings in support docs. While we don't want to over-use these, they're helpful in many situations. 
+  * **Info**
+    * Use Info when you're adding extra information that's important for the reader to notice, but non-critical. Example: https://support.dnsimple.com/articles/expiring-product-email-notifications/
+  * **Tips**
+    * Use Tips to add recommendations to the article. These should be useful, but non-critical. Tips are things that make users' work easier. Example: https://support.dnsimple.com/articles/api-access-token/
+  * **Notes** 
+    * Notes are things the user must be aware of, actionable or not, but that won't damage, delete, or otherwise compromise their account. Example: https://support.dnsimple.com/articles/delegating-dnsimple-hosted/
+  * **Warnings** 
+    * Warnings are reserved for the most critical information. Use a warning widget if a user could do something damaging or permanent to their account. Example: https://support.dnsimple.com/articles/transferring-domain-away/
+
 **Adverbs**
 
 * Adverbs add length without contributing depth. 
