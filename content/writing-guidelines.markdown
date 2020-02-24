@@ -46,7 +46,7 @@
 * If you're not sure about that semi-colon, avoid it. It's just as easy to write two separate sentences, so semi-colons are often unnecessary. 
 * Exclamation points are super fun... sparingly. Use them with discretion, and if you're not sure, don't use them at all. Support docs won't have much call for exclamation points. 
 
-**Widgets** 
+**Markers** 
 
 * We often use Info, Tips, Notes, and Warnings in support docs. While we don't want to over-use these, they're helpful in many situations. 
   * **Info**
