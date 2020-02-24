@@ -44,7 +44,7 @@ Log into to your DNSimple account and go to the domain's management page. Click 
 
 ![Enable DS in DNSimple](/files/dnssec-ds-record-1.png)
 
-Finally, either enter the details for the DS record using the information provided by Cloudflare.
+Finally, enter the details for the DS record using the information provided by Cloudflare.
 
 ![Enter the DS Information](/files/dnssec-ds-record-2.png)
 
