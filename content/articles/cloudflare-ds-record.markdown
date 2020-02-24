@@ -40,11 +40,11 @@ Once it is enabled, you will see information about the DS record. We have two wa
 
 ## Configure Your DS Record
 
-Log into to your DNSimple account and go to the domain's management page. At the bottom of the Domain tab you will see a card for enabling DS records. Click Configure DS Record.
+Log into to your DNSimple account and go to the domain's management page. Click "Configure" on the DNSSEC tab.
 
 ![Enable DS in DNSimple](/files/dnssec-ds-record-1.png)
 
-Finally, either enter the details for the DS record in using the field-by-field method, or click on the Quick Entry tab and paste the entire record in.
+Finally, enter the details for the DS record using the information provided by Cloudflare.
 
 ![Enter the DS Information](/files/dnssec-ds-record-2.png)
 
