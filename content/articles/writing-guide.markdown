@@ -1,12 +1,12 @@
 ---
 title: Writing Guidelines
-excerpt: Guidelines & best practices for writing support docs 
+excerpt: Guidelines & best practices for writing support docs.
 categories:
 - Support
 - DNSimple
 ---
 
-**Support Writing Guidelines** 
+# Support Writing Guidelines
 
 ## Tone
 
