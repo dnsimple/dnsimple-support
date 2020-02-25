@@ -70,4 +70,8 @@
     * These words create visceral reactions in readers, and we don't want anyone associating DNSimple with pain or hassle, even if that's not what you're trying to say. 
 * Avoid saying things like 'We do all this for you'. This places a burden of gratitude on the client. They absolutely should appreciate the service, but you should never point that out. Just keep making it great, and you don't have to remind them how good you are. 
 
+## Don't use idioms 
+
+* Using idioms makes things difficult to translate. To make our writing as easy-to-understand and translation-friendly as possible, avoid using idioms in any support documents. 
+
 
