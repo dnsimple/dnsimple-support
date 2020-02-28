@@ -13,9 +13,14 @@ for (var i = articleFiles.length - 1; i >= 0; i--) {
     article = matter(article);
     article.data.url = BASE_URL + 'articles/' + articleFiles[i].replace('.markdown', '');
 
+    article.content = article.content.replace(/-\+-/g, '-|-');
+    article.content = article.content.replace(/### Table of Contents[^-]+---/im, '');
     article.content = marked(article.content, {
+        gfm: true,
+        headerIds: false,
         baseUrl: BASE_URL
     });
+    article.content = article.content.replace(/\{\#[^}]+\}/, '');
 
     articles.push(article);
 }

@@ -15,10 +15,10 @@
 
             _.elements.css = _.buildCSS();
             _.elements.wrapper = _.buildWrapper();
-            _.elements.search = _.buildSearch();
             _.elements.articles = _.buildArticles();
             _.elements.article = _.buildArticle();
             _.elements.prompt = _.buildPrompt();
+            _.elements.search = _.buildSearch();
 
             _.elements.wrapper.append( _.elements.css );
             _.elements.wrapper.append( _.elements.search );
@@ -57,7 +57,13 @@
             el.className = PREFIX + '-search';
 
             el.addEventListener('input', function() {
-                _.search(el.value.trim().toLowerCase());
+                _.search(el.value);
+            });
+
+            el.addEventListener('focus', function() {
+                _.elements.articles.style.display = 'block';
+                _.elements.article.style.display = 'none';
+                _.elements.prompt.style.display = 'none';
             });
 
             return el;
@@ -170,7 +176,8 @@
                 .${PREFIX} input {
                     position: fixed;
                     right: 0;
-                    width: ${width};
+                    width: 100%;
+                    max-width: ${width};
                     padding: ${padding};
                     outline: none;
                     font-size: inherit;
@@ -221,9 +228,13 @@
                 .${PREFIX} .${PREFIX}-article p,
                 .${PREFIX} .${PREFIX}-article ul,
                 .${PREFIX} .${PREFIX}-article ol,
+                .${PREFIX} .${PREFIX}-article table,
                 .${PREFIX} .${PREFIX}-article pre,
                 .${PREFIX} .${PREFIX}-article warning,
-                .${PREFIX} .${PREFIX}-article table {
+                .${PREFIX} .${PREFIX}-article note,
+                .${PREFIX} .${PREFIX}-article tip,
+                .${PREFIX} .${PREFIX}-article info,
+                .${PREFIX} .${PREFIX}-article .marker {
                     margin-bottom: ${padding};
                 }
 
@@ -233,17 +244,53 @@
                 }
 
                 .${PREFIX} .${PREFIX}-article warning,
-                .${PREFIX} .${PREFIX}-article pre {
+                .${PREFIX} .${PREFIX}-article note,
+                .${PREFIX} .${PREFIX}-article tip,
+                .${PREFIX} .${PREFIX}-article info,
+                .${PREFIX} .${PREFIX}-article .marker {
                     display: block;
-                    background: #eee;
-                    border-radius: 7px;
                     padding: ${padding};
                     overflow: auto;
+                    background: #f1f1f1;
                     -webkit-overflow-scrolling: touch;
                 }
 
-                .${PREFIX} .${PREFIX}-article warning {
-                    background: #FDED98;
+                .${PREFIX} .${PREFIX}-article table {
+                    border-collapse: collapse;
+                }
+
+                .${PREFIX} .${PREFIX}-article table td,
+                .${PREFIX} .${PREFIX}-article table th {
+                    padding: 6px;
+                    border-bottom: ${border};
+                }
+
+                .${PREFIX} .${PREFIX}-article table th {
+                    font-weight: bold;
+                }
+
+                .${PREFIX} .${PREFIX}-article pre {
+                    border-radius: 7px;
+                }
+
+                .${PREFIX} .${PREFIX}-article warning,
+                .${PREFIX} .${PREFIX}-article .marker-warning {
+                    box-shadow: -6px 0 0 0 #ff7f2a;
+                }
+
+                .${PREFIX} .${PREFIX}-article tip,
+                .${PREFIX} .${PREFIX}-article .marker-tip {
+                    box-shadow: -6px 0 0 0 #43a047;
+                }
+
+                .${PREFIX} .${PREFIX}-article note,
+                .${PREFIX} .${PREFIX}-article .marker-note {
+                    box-shadow: -6px 0 0 0 #f8c939;
+                }
+
+                .${PREFIX} .${PREFIX}-article info,
+                .${PREFIX} .${PREFIX}-article .marker-info {
+                    box-shadow: -6px 0 0 0 #7e7e7e;
                 }
 
                 .${PREFIX} .${PREFIX}-article h1 {
@@ -293,6 +340,8 @@
         },
 
         search(q) {
+            q = q.trim().toLowerCase();
+
             var _ = this,
                 results = _.articles.filter(function(article) {
                     var score = _.articleScore(article, q);
