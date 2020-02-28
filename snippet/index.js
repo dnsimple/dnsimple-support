@@ -13,6 +13,11 @@
             // _.articles = window.articles;
             _.articles = require('./data.json');
 
+            // _.ajax('https://support.dnsimple.com/search.json', function() {
+
+            // })
+
+            _.elements.script = document.querySelectorAll('[' + PREFIX + ']')[0];
             _.elements.css = _.buildCSS();
             _.elements.wrapper = _.buildWrapper();
             _.elements.articles = _.buildArticles();
@@ -25,6 +30,11 @@
             _.elements.wrapper.append( _.elements.prompt );
             _.elements.wrapper.append( _.elements.article );
             _.elements.wrapper.append( _.elements.articles );
+
+            if (_.elements.script) {
+                _.elements.search.value = _.elements.script.getAttribute(PREFIX);
+                _.search( _.elements.search.value );
+            }
 
             document.body.append(_.elements.wrapper);
         },
