@@ -1,7 +1,7 @@
 /.sass-cache
 /output
 /tmp
-/node_modules
+**/node_modules
 /dist
 
 /crash.log

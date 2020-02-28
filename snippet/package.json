@@ -1,0 +1,16 @@
+{
+  "name": "dnsimple-support-snippet",
+  "version": "0.0.1",
+  "description": "Support snippet for DNSimple.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DNSimple",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "marked": "^0.8.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
