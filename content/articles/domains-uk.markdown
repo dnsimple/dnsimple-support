@@ -66,7 +66,7 @@ Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an e
 ### Before you start
 
 <warning>
-It is important you follow these steps in strict order, other case, there is a risk of loosing your domains registration.
+It is important you follow these steps in strict order. Otherwise, there is a risk of losing your domain's registration.
 </warning>
 
 <warning>
