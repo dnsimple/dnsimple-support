@@ -61,6 +61,21 @@ Clear the DNS cache before checking a record update. This may involve:
 Alternatively, check the changes with a mobile device or another computer outside your local home or office network.
 
 
+## Check the record with +trace
+
+The `+trace` option from `dig` shows exactly how the name is delegated.
+
+It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It's useful for debugging delegation issues.
+
+~~~
+$ dig CNAME www.dnsimple.com +trace
+~~~
+
+In the resulting query chain, you should see [DNSimple name servers](/articles/dnsimple-nameservers) listed (if not, [point to DNSimple](/articles/pointing-domain-to-dnsimple)). From there, you can follow each "hop" along the way to the final returned record.
+
+If you recently made changes to your record, the update may still be in progress. See the *Check the record propagation delay* and *Check the record update delay* sections.
+
+
 ## Check the record propagation delay
 
 If you recently changed a record, it may take a while for the change to propagate. This is especially true if the record has been cached by your local ISP.
