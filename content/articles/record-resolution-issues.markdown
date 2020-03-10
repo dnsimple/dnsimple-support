@@ -69,9 +69,30 @@ It executes a recursive query against each of the name servers in the chain, sta
 
 ~~~
 $ dig CNAME www.dnsimple.com +trace
+
+;; global options: +cmd
+.           6438    IN  NS  k.root-servers.net.
+.           6438    IN  NS  l.root-servers.net.
+...
+;; Received 717 bytes from 1.1.1.1#53(1.1.1.1) in 42 ms
+
+com.            172800  IN  NS  j.gtld-servers.net.
+com.            172800  IN  NS  g.gtld-servers.net.
+...
+;; Received 1176 bytes from 199.9.14.201#53(b.root-servers.net) in 86 ms
+
+dnsimple.com.       172800  IN  NS  ns1.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns2.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns3.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns4.dnsimple.com.
+...
+;; Received 842 bytes from 192.33.14.30#53(b.gtld-servers.net) in 38 ms
+
+www.dnsimple.com.   3600    IN  CNAME   dnsimple.com.
+;; Received 59 bytes from 162.159.27.4#53(ns4.dnsimple.com) in 34 ms
 ~~~
 
-In the resulting query chain, you should see [DNSimple name servers](/articles/dnsimple-nameservers) listed (if not, [point to DNSimple](/articles/pointing-domain-to-dnsimple)). From there, you can follow each "hop" along the way to the final returned record.
+In the resulting query chain, you can see each hop to resolve the CNAME. First, the root name servers are queried. Then, the query is passed along to the ".com" name servers and then to [DNSimple's name servers](/articles/dnsimple-nameservers). Finally, DNSimple returns the CNAME record. If DNSimple's name servers are not present in this trace, you'll need to [point to DNSimple](/articles/pointing-domain-to-dnsimple).
 
 If you recently made changes to your record, the update may still be in progress. See the *Check the record propagation delay* and *Check the record update delay* sections.
 
