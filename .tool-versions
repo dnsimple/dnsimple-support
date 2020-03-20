@@ -1,2 +1,3 @@
+# Update .travis.yml if ruby version changes
 ruby 2.6.5
 nodejs 12.13.1
