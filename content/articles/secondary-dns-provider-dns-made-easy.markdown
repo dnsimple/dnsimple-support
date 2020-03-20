@@ -49,7 +49,7 @@ In the popup, type your domain name and select the IP set you just created.
 
 ![DNSMadeEasy adding secondary configuration](/files/dns-made-easy-popup.png)
 
-If the configuration is correct, a success message will appear and you’ll be taken to the detail page for you domain.
+If the configuration is correct, a success message will appear and you'll be taken to the detail page for you domain.
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 

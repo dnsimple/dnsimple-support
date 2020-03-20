@@ -23,7 +23,7 @@ Activity tracking provides an overview of all past changes for a specific domain
 
 ## Activity tracking at the domain level
 
-Domain level activity tracking can be found under the domain’s management page:
+Domain level activity tracking can be found under the domain's management page:
 
 ![Activity Tracking at domain level](/files/activity-tracking-1.png)
 ![Activity Tracking at domain level](/files/activity-tracking-2.png)

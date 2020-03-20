@@ -24,7 +24,7 @@ Not all TLDs support DNSSEC at this time. If you receive an error while enabling
 
 ## Enable DNSSEC at Cloudflare
 
-To use CloudFlare's DNSSEC, you will need to delegate your registered domain to CloudFlare's name servers. Prior to changing the delegation, you should set up all of the appropriate DNS records at CloudFlare. Once you've done that you may change the delegation by visiting the page to “Manage” your domain at DNSimple, follow “Change Name Servers”, and enter CloudFlare supplied name servers.
+To use CloudFlare's DNSSEC, you will need to delegate your registered domain to CloudFlare's name servers. Prior to changing the delegation, you should set up all of the appropriate DNS records at CloudFlare. Once you've done that you may change the delegation by visiting the page to "Manage" your domain at DNSimple, follow "Change Name Servers", and enter CloudFlare supplied name servers.
 
 Once the delegation is changed, you may start the process of enabling DNSSEC.
 
