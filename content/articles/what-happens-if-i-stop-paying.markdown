@@ -9,9 +9,9 @@ categories:
 
 After a certain period of time, an account is cancelled if payment cannot be collected. What happens in this case depends on the current configuration of your delegation. 
 
-If you are pointing to DNSimple's nameservers and your account closes, **your domain will no longer resolve, and will become unreachable** (You would get a 'SERVFAIL' or 'NXDOMAIN' DNS error code as a response in this case). 
+If you are pointing to DNSimple's name servers and your account closes, **your domain will no longer resolve, and will become unreachable** (You would get a 'SERVFAIL' or 'NXDOMAIN' DNS error code as a response in this case). 
 
-If you are not pointing to DNSimple's nameservers and your account closes, **your domain will resolve as long as the nameservers you are pointing to are valid**. 
+If you are not pointing to DNSimple's name servers and your account closes, **your domain will resolve as long as the name servers you are pointing to are valid**. 
 
 If you registered your domain with DNSimple and your account closes, the same logic from above applies. However, you'll still be able to manage your domain through our interface (you'll still be able to do things like update WHOIS contact information, alter domain delegation, etc). 
 
