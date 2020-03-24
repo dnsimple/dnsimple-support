@@ -18,13 +18,11 @@ Swithing the name servers to DNSimple will cause the domain to resolve using the
 
     ![Domain Page link](/files/domains-domain-link.png)
 
-1.  Switch to the <label>DNS</label> tab.
+1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
-    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
+    ![Domain Delegation card](/files/domain-delegation-card.png)
 
-1.  On the <label>Name servers</label> card, click <label>Switch to the DNSimple name servers</label>.
-
-    ![Switch Name Servers link](/files/dnsimple-domain-tab-switch-nameserver-link.png)
+1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers).
 
 </div>
 

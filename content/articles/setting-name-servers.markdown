@@ -31,13 +31,9 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Domain Page link](/files/domains-domain-link.png)
 
-1.  Switch to the <label>DNS</label> tab.
+1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
-    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
-
-1.  On the <label>Name severs</label> card, click <label>Change name servers</label>.
-
-    ![Change Name Servers link](/files/dnsimple-domain-tab-change-nameserver-link.png)
+    ![Domain Delegation card](/files/domain-delegation-card.png)
 
 1.  Enter the names of the name servers you would like to use and click <label>Change Name Servers</label> to complete the change.
 
