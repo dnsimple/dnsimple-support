@@ -10,7 +10,9 @@ categories:
 ## Tone
 
 * Straightforward and friendly. 
-* We want to be professional, and convey knowledge, but without alienating new users or those who aren't 100% familiar with the terms.
+* Be professional and convey knowledge without alienating new users or those who aren't 100% familiar with the terms. If you use an acronym, provide the full term in a paranthetical next to it after the first use. 
+  * Example: 
+    * We have over 300 TLDs (top-level domains) to choose from. New TLDs are added as they become available.  
 
 ## Use gender-neutral language
 
@@ -75,10 +77,10 @@ categories:
 
 * Avoid words like "pain points" and "hassle".
     * These words create visceral reactions in readers, and we don't want anyone associating DNSimple with pain or hassle, even if that's not what you're trying to say. 
-* Avoid saying things like 'We do all this for you'. This places a burden of gratitude on the client. They absolutely should appreciate the service, but you should never point that out. Just keep making it great, and you don't have to remind them how good you are. 
+* Avoid saying things like 'We do all this for you'. This places a burden of gratitude on the client. There's no need to point that out. 
 
 ## Don't use idioms 
 
-* Using idioms makes things difficult to translate. To make our writing as easy-to-understand and translation-friendly as possible, avoid using idioms in any support documents. 
+* Using idioms makes things difficult to translate. To make your writing as easy-to-understand and translation-friendly as possible, avoid using idioms in any support documents. 
 
 
