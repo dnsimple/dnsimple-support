@@ -43,7 +43,7 @@ The question section displays the DNS question that was sent: "I want A records 
 It also gives details about how long the query took, what server was used, when the query was sent, and the size of the DNS packet. 
 
 
-## Dig at a Nameserver
+## Dig at a Name server
 
 What else can you do with `dig`? The first example uses the name servers configured locally. In that example it's the Google public resolver at 8.8.8.8. You can also specify a name server:
 
