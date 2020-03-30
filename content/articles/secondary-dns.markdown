@@ -98,9 +98,9 @@ The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addr
 <div class="section-faq" markdown="1">
 1.  #### What is Secondary DNS and why do I want it?
 
-    Secondary DNS is when you use a special protocol called AXFR to automatically transfer your zones to a secondary DNS provider whenever they change. This allows you to use DNSimple's nameservers and another DNS provider's nameservers at the same time.
+    Secondary DNS is when you use a special protocol called AXFR to automatically transfer your zones to a secondary DNS provider whenever they change. This allows you to use DNSimple's name servers and another DNS provider's name servers at the same time.
 
-    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those nameservers may be used at any time by resolvers – not just when an issue arises resolving names through our nameservers.
+    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those name servers may be used at any time by resolvers – not just when an issue arises resolving names through our name servers.
 
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
