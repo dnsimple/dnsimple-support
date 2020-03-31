@@ -83,4 +83,22 @@ categories:
 
 * Using idioms makes things difficult to translate. To make your writing as easy-to-understand and translation-friendly as possible, avoid using idioms in any support documents. 
 
+## Formatting
 
+* Use [header formatting](https://www.markdownguide.org/basic-syntax/) to represent section headers. Don't use equivalent font formatting such as "bold" text to represent a header.
+* Separate the header from the text with one line. Some markdown parsers may otherwise not interpret the header correctly.
+
+  **Correct:**
+
+  ```markdown
+  ## This is a header
+  
+  This is the text after the header.
+  ```
+
+  **Incorrect:**
+
+  ```markdown
+  ## This is a header
+  This is the text after the header.
+  ```
