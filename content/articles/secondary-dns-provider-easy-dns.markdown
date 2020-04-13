@@ -12,7 +12,7 @@ For an overview of SecondaryDNS, have a look at [our introduction article](/arti
 **Requirements**
 
 * An active account with **EasyDNS**. Every EasyDNS plan allows for secondary DNS Setup.
-* Your domain [is pointing to the DNSimple nameservers](/articles/pointing-domain-to-dnsimple).
+* Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple).
 
 You can get started with Secondary DNS from the DNS section of the domain management page.
 
@@ -36,7 +36,7 @@ Go through the payment process. Any plan supports secondary DNS. When you're fin
 
 ![DNSimple configuration is successful](/files/easy-dns-ready-to-configure.png)
 
-From the *DNS settings* tab, you'll tell EasyDNS the primary nameserver, in this case it's DNSimple. Click on *primary NS*.
+From the *DNS settings* tab, you'll tell EasyDNS the primary name server, in this case it's DNSimple. Click on *primary NS*.
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
