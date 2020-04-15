@@ -95,7 +95,7 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 ### Manual key rotation
 
-If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain’s management page.
+If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain's management page.
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
 
