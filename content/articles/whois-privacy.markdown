@@ -140,7 +140,7 @@ While we will send an email reminder when the WHOIS Privacy on a domain is due t
 
 </div>
 
-## WHOIS Privacy and GDPR #{gdpr}
+## WHOIS Privacy and GDPR {#gdpr}
 
 For generic TLDs (gTLDs) like .com, .net, and .org, WHOIS privacy is not necessary at this time as it will be redacted through GDPR. This also applies to new TLDs (nTLDs) like .app, .dev, and others.
 
