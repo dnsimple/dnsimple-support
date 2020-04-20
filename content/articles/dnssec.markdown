@@ -44,7 +44,7 @@ DNSSEC is applied on a per-domain basis. You can manage DNSSEC by using the DNSS
 
 ## Enabling DNSSEC
 
-To enable DNSSEC, click on the "Configure DNSSEC" link on the DNSSEC management page.
+To enable DNSSEC, click on the "Configure" link on the DNSSEC management page.
 
 ![Configure DNSSEC](/files/dnssec-configure.png)
 
@@ -54,7 +54,7 @@ Click on the "Enable DNSSEC" button.
 
 If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is created in the appropriate domain registry.
 
-If your domain is registered with us but delegated elsewhere, you need to provide the DS record information from your DNS provider.
+If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
 
 If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
@@ -66,11 +66,11 @@ If your domain is hosted with us but registered elsewhere, you need to provide t
 If your domain is registered with another domain registrar, you must remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record first will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
 </warning>
 
-To disable DNSSEC, go to the DNSSEC tab for the domain, and click on the Configure DNSSEC link again.
+To disable DNSSEC, go to the DNSSEC tab for the domain, and find the "Disable DNSSEC" card.
 
 ![DNSSEC configured](/files/dnssec-configured.png)
 
-Click on the Delete DNSSEC Configuration button to remove the zone signing and the DS record if it is present.
+Click on the "Disable DNSSEC" button to remove the zone signing and the DS record if it is present.
 
 ![DNSSEC disable](/files/dnssec-disable.png)
 
@@ -92,6 +92,19 @@ During the key rotation, old and new keys are attached to your zone for 7 days (
 ### Automating key rotation
 
 If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside DNSimple. To do this, use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. You can find more information in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
+
+### Manual key rotation
+
+If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain's management page.
+
+![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
+
+Click on the "View Configuration" button.
+
+![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-tab.png)
+
+
+![DNSSEC Configuration](/files/dnssec-configuration.png)
 
 ## CDS/CDNSKEY
 
