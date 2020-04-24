@@ -8,10 +8,6 @@ categories:
 # DNSSEC
 
 <info>
-This article describes a feature in Public Beta.
-</info>
-
-<info>
 This article describes a feature only available on [newer plans](/articles/new-plans#newer-plans-only).
 </info>
 
