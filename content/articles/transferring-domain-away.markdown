@@ -70,9 +70,11 @@ Follow the gaining registrar's instructions to start a transfer, and enter the t
 
 DNSimple does not have access to this process. Contact the gaining registrar if you need help with this step.
 
- 
+
 ## 3. Approving the transfer request
 
 Depending on the TLD, the gaining registrar, the losing registrar, or both may send you an email to confirm the transfer request. Verify that the information in the request is correct (especially the name of the gaining registrar), and confirm the request.
 
-After the transfer at the new registrar is initiated and the transfer code is provided, the transfer will be initiated at the Registry level. DNSimple has 5 days to release your domain(s) as per [ICANN Transfer policy](https://www.icann.org/resources/pages/policy-2012-03-07-en). The transfer will automatically be approved at the end of this 5-day period.
+After the transfer at the new registrar is initiated, and the transfer code is provided, the transfer will be initiated at the Registry level. The registrar has 5 - 7 business days to release your domain(s). The transfer will automatically be approved at the end of this period. There's no way to speed up this process.
+
+Once the transfer is approved, the domain(s) will now be with your new registrar and no longer with DNSimple.
