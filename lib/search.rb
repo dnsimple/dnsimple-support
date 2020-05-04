@@ -10,8 +10,8 @@ module Search
         index << {
           id: item.path,
           title: item.attributes[:title],
-          body: strip_html(item.compiled_content),
           excerpt: item[:excerpt],
+          body: item.compiled_content,
         }
       end
     end
