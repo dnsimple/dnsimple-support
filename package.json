@@ -9,7 +9,7 @@
     "concurrently": "^5.0.2",
     "@fortawesome/fontawesome-free": "^5.13.0",
     "copy-webpack-plugin": "^5.0.3",
-    "tachyons": "^4.11.1",
+    "tachyons": "^4.12.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
