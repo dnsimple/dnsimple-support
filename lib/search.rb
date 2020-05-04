@@ -11,6 +11,7 @@ module Search
           id: item.path,
           title: item.attributes[:title],
           body: strip_html(item.compiled_content),
+          excerpt: item[:excerpt],
         }
       end
     end
