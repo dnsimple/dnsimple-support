@@ -11,6 +11,7 @@ module Search
           id: item.path,
           title: item.attributes[:title],
           excerpt: item[:excerpt],
+          categories: item[:categories],
           body: item.compiled_content,
         }
       end
