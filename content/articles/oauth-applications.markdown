@@ -20,27 +20,27 @@ If you only need basic access to the API, a regular [user or account token](/art
 
 ## What is OAuth?
 
-OAuth 2 is a protocol that lets external applications request authorization to private details in a user's DNSimple account without getting their password. This is preferred over Basic Authentication because tokens can be revoked by users at any time.
+OAuth 2 is a protocol that lets external applications request authorization to private details in a user's DNSimple account without getting their password. This is preferred over Basic Authentication, because tokens can be revoked by users at any time.
 
-Developers need to register their application before getting started. A registered OAuth application is assigned a unique client ID and client secret. The client secret should not be shared.
+Developers need to register their application before starting. A registered OAuth application is assigned a unique client ID and client secret. **The client secret should not be shared.**
 
 ## Creating a new OAuth application
 
-To generate an OAuth application log into your account and navigate to your account page.
+To generate an OAuth application, log in to your account, and navigate to your account page.
 
-Once you are there click on the <label>Automation</label> link in the left menu, then head to Developer Applications at the bottom of the screen.
+Once you're there, click on the <label>Automation</label> link in the left menu, then go to Developer Applications at the bottom of the screen.
 
 ![OAuth Tokens Location](/files/oauth-location.png)
 
-Your applications will be listed here. This also allows you to create a new application or remove an existing one.
+Your applications are listed here. This also lets you create a new application or remove an existing one.
 
-## Creating a new Developer Application
+## Creating a new developer application
 
 Click on the <label>New</label> link to add a new access token.
 
 ![New Access Token](/files/new-application.png)
 
-When you create a new application, you'll need to provide a few details including Application Name, a Homepage URL, and an Authorization Callback URL.
+When you create a new application, you'll need to provide a few details, including Application Name, a Homepage URL, and an Authorization Callback URL.
 
 <tip>
 Adding an application description is optional.
@@ -48,11 +48,11 @@ Adding an application description is optional.
 
 ![Application Details form](/files/app-details.png)
 
-When created, you'll then be taken to the page with your new application, showing your Client ID and Client Secret.
+When created, you'll be taken to the page with your new application, showing your Client ID and Client Secret.
 ![App created](files/app-created.png)
 
 <info>
-Both the Client ID and Client Secret are unique to your application, and the client secret should not be shared.
+Both the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
 </info>
 
 ## Revoking user tokens
@@ -61,7 +61,7 @@ You can revoke all user tokens for your application by clicking the 'Revoke' but
 
 ![Remove Token](/files/revoke-all-user-tokens.png)
 
-This cannot be undone, and all clients will lose access to your application.
+This cannot be undone. All clients will lose access to your application.
 
 ## Deleting an application
 
