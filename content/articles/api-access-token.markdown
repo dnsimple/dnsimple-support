@@ -16,7 +16,7 @@ categories:
 
 If you would like to access the [DNSimple API](https://developer.dnsimple.com/) v2 you will need an access token.
 
-This article covers generating account tokens and user tokens. If you want to create an application that requires access to DNSimple or let an external application request authorization to private details in a user’s DNSimple account without getting their password, you'll need an [OAuth Token](/articles/oauth-applications/) instead.
+This article covers generating account tokens and user tokens. If you want to create an application that requires access to DNSimple or let an external application request authorization to private details in a user's DNSimple account without getting their password, you'll need an [OAuth Token](/articles/oauth-applications/) instead.
 
 ## Account tokens vs User tokens
 

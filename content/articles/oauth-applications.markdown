@@ -14,13 +14,13 @@ categories:
 
 ---
 
-When creating an application that requires access to DNSimple or letting an external application request authorization to private details in a user’s DNSimple account without getting their password, you'll need an OAuth token.
+When creating an application that requires access to DNSimple or letting an external application request authorization to private details in a user's DNSimple account without getting their password, you'll need an OAuth token.
 
 If you only need basic access to the API, a regular [user or account token](/articles/api-access-token/) can be used instead.
 
 ## What is OAuth?
 
-OAuth 2 is a protocol that lets external applications request authorization to private details in a user’s DNSimple account without getting their password. This is preferred over Basic Authentication because tokens can be revoked by users at any time.
+OAuth 2 is a protocol that lets external applications request authorization to private details in a user's DNSimple account without getting their password. This is preferred over Basic Authentication because tokens can be revoked by users at any time.
 
 Developers need to register their application before getting started. A registered OAuth application is assigned a unique client ID and client secret. The client secret should not be shared.
 
