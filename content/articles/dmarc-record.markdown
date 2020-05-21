@@ -58,7 +58,7 @@ Sometimes there will be forward slashes or other unusual characters in the DMARC
 
 The [dig](/articles/how-dig/) tool is a good way to verify that your DMARC record is being returned correctly by our DNS servers.
 
-To verify the DMARC record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, you can get the TXT record using the following query:
+To verify the DMARC record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain hostname.com, you can get the TXT record using the following query:
 
 
 ```
