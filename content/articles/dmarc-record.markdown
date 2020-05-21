@@ -18,7 +18,7 @@ categories:
 DMARC stands for Domain-based Message Authentication, Reporting & Conformance. It's an email authentication, policy, and reporting protocol that builds upon SPF and DKIM protocols to help email receivers determine if the purported message aligns with what the receiver knows about the sender. This makes it easier to identify spam or phishing messages, and keep them out of inboxes.
 
 <info>
-It is important to note that DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. You <strong>must</strong> have at these records present for DMARC to work, since DMARC is built around them.
+It is important to note that DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. You <strong>must</strong> have these records present for DMARC to work, since DMARC is built around them.
 </info>
 
 
@@ -34,13 +34,13 @@ If you're given a string representing DMARC, it usually looks something like thi
 
 Insert this into a TXT record. Do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
 
-Your provider will also give you a specific subdomain to use, usually something like:
+Your provider will also give you a specific hostname to use, usually something like:
 
 ```
 _dmarc.hostname.com
 ```
 
-Enter this subdomain in the "Name" field.
+Enter the subdomain part of the hostname in the "Name" field. The subdomain is everything to the left of your domain name.
 
 <tip>
 Your subdomain should be `_dmarc.` The leading underbar character is required.
