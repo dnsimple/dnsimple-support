@@ -18,7 +18,7 @@ categories:
 DMARC stands for Domain-based Message Authentication, Reporting & Conformance. It's an email authentication, policy, and reporting protocol that builds upon SPF and DKIM protocols to help email receivers determine if the purported message aligns with what the receiver knows about the sender. This makes it easier to identify spam or phishing messages, and keep them out of inboxes.
 
 <info>
-It is important to note that DMARC works with [SPF](articles/spf-record) and [DKIM](articles/dkim-record) records. You <strong>must</strong> have at these records present for DMARC to work, since DMARC is built around them.
+It is important to note that DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. You <strong>must</strong> have at these records present for DMARC to work, since DMARC is built around them.
 </info>
 
 
