@@ -18,7 +18,7 @@ categories:
 DMARC stands for Domain-based Message Authentication, Reporting & Conformance. It's an email authentication, policy, and reporting protocol that builds upon SPF and DKIM protocols to help email receivers determine if the purported message aligns with what the receiver knows about the sender. This makes it easier to identify spam or phishing messages, and keep them out of inboxes.
 
 <info>
-It is important to note that DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. You <strong>must</strong> have these records present for DMARC to work, since DMARC is built around them.
+DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. <strong>You must have these records present for DMARC to work</strong>, since DMARC is built around them.
 </info>
 
 
@@ -32,7 +32,7 @@ If you're given a string representing DMARC, it usually looks something like thi
 "v=DMARC1;p=reject;pct=100;rua=mailto:postmaster@dmarcdomain.com"
 ```
 
-Insert this into a TXT record. Do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
+Insert this into a TXT record by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
 
 Your provider will also give you a specific hostname to use, usually something like:
 
@@ -49,7 +49,7 @@ Your subdomain should be `_dmarc.` The leading underbar character is required.
 
 ## Quotes and slashes?
 
-If your provider gave you the DMARC record and it included double quotes around the record, or backslashes before semi-colons in the record, you may safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
+If your provider gave you the DMARC record and it included double quotes around the record, or backslashes before semi-colons in the record, you can safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
 
 Sometimes there will be forward slashes or other unusual characters in the DMARC record. Don't modify those. If you have any questions or concerns, [contact support](https://dnsimple.com/contact).
 
