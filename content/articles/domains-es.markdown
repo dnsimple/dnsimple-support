@@ -26,7 +26,7 @@ Anyone may register a .ES domain, however you will need to provide additional in
 1. Registrant ID Number: Depending upon the option you selected above, you need to provide that ID's number here.
 
 
-## Renewing
+## Renewing a .ES domain {#renewing}
 
 ### Auto-renewal only {#auto-renewal-required}
 

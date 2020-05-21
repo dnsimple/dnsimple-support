@@ -15,7 +15,7 @@ categories:
 This article explains the requirements and special procedures for .LI domain names.
 
 
-## Renewing
+## Renewing a .LI domain {#renewing}
 
 ### Auto-renewal only {#auto-renewal-required}
 

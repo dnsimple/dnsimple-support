@@ -15,7 +15,7 @@ categories:
 This article explains the requirements and special procedures for .CH domain names.
 
 
-## Renewing
+## Renewing a .CH domain {#renewing}
 
 ### Auto-renewal only {#auto-renewal-required}
 

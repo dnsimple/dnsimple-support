@@ -25,7 +25,7 @@ Because of that, domain name registrations at the second level in `.UK` name reg
 
 `.CO.UK` domain owners have the right to register the associated `.UK` domain within a 5 years period. If a `.UK` is registered and then cancelled prior to these 5 years, the initial owner will lose the right for its re-registration.
 
-## Registering a .UK domain {#register}
+## Registering a .UK domain {#registering}
 
 Because of the [reservation policy](#policy-tld), registering a .UK domain requires some extra diligence. Assuming you have the right to register a `.UK` domain, you will need to use the same registration information (specifically the contact information) you used to register the corresponding `.CO.UK` or `.ORG.UK` domain.
 
@@ -59,7 +59,7 @@ Please make sure the information of the contact in DNSimple matches the informat
 Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
 </tip>
 
-## Transferring a .UK domain to DNSimple {#transfer}
+## Transferring a .UK domain to DNSimple {#transferring}
 
 `.UK` and `.CO.UK` domains have a different transfer process than most other domain registrations. These steps explains some of those differences.
 
@@ -118,7 +118,7 @@ You can now decide to [point the domain to DNSimple name servers](/articles/dele
 `.UK` and `.CO.UK` domains may or may not be extended when they are successfully transferred. If your `.CO.UK` domain has less than 3 months remaining before expiration, then it will be extended by 2 years. The price of this extension is included in the transfer fee. If your `.CO.UK` domain has 3 or more months remaining, then it will not be automatically extended.
 
 
-## Transferring a .UK domain away from DNSimple {#transfer-away}
+## Transferring a .UK domain away from DNSimple {#transferring-outgoing}
 
 To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [instructions to transfer in](#transfer), but you will need to get the IPS tag of the gaining registrar.
 

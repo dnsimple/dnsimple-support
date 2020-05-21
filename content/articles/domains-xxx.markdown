@@ -15,7 +15,7 @@ categories:
 This article explains the requirements and special procedures for .XXX domain names.
 
 
-## Registration
+## Registering a .XXX domain {#registering}
 
 In order for a .XXX domain to be activated by the .XXX registry and be allowed to resolve, you must register on [the ICM Registry](http://icmregistry.com/about/sponsored-community/) and receive the required .XXX Member Auth Token to activate your domain. The .XXX TLD requires a Member Auth Token to be provided in order to activate the domain.
 

@@ -25,7 +25,7 @@ To register an .IT (Italy) domain you must meet one of the following criteria:
 Please make sure the Registrant contact you associate to the domain during the registration meets this requirement, otherwise the registration will be rejected by the registry.
 
 
-## Registering
+## Registering a .IT domain {#registering}
 
 When registering an .IT domain, you must provide more details about the domain registrant, as well as explicitly agreeing to additional agreements of the .IT registry.
 
