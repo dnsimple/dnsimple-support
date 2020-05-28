@@ -26,9 +26,9 @@ Once your apex domain is pointing to correct place you will have to configure th
 
 ## Using the Heroku one-click service
 
-You will have to choose what one-click service to apply depending on whether your app uses SSL or not. If your app does use SSL you will have to use the `Heroku SSL` service. If your app does not use SSL you will have to go for the one named just `Heroku`.
+Our one-click service for Heroku is listed under the "Infrastructure" tab:
 
-![Heroku services](/files/heroku-services.jpg)
+![Heroku services](/files/heroku-service.png)
 
 To apply the Heroku one-click service to your domain follow [these instructions](/articles/services#adding-a-service).
 
@@ -46,11 +46,11 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 1.  Log into DNSimple with your user credentials.
 1.  Follow [these instructions](/articles/record-editor#access-the-record-editor) to edit your domain's records.
 1.  Click <label>Add a Record</label> and select the `ALIAS` record type.
-  
+
     ![Add a Record](/files/add-alias-heroku-1.jpg)
 
 1.  In the form enter the following settings:
-    
+
     ![Alias Settings](/files/add-alias-heroku-2.png)
 
     - <label>Name</label>: leave it blank as we want to create an `ALIAS` for the apex domain.
