@@ -16,13 +16,13 @@ categories:
 
 Your domain apex is the second or third level domain provided to you by your domain registrar. For example, `dnsimple.com` is the apex domain for DNSimple.
 
-To point your apex to Heroku you have 2 options:
+To point your apex to Heroku, you have 2 options:
 
 1. Use the Heroku one-click service.
 1. Manually add an [ALIAS record](/articles/alias-record).
 
 
-Once your apex domain is pointing to correct place you will have to configure the custom domain at Heroku.
+Once your apex domain is pointing to correct place, you will have to configure the custom domain at Heroku.
 
 ## Using the Heroku one-click service
 
