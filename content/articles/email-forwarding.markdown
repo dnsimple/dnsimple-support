@@ -32,7 +32,7 @@ In addition to message limits, there is also a limit to the number of individual
 - Professional plans: up to 25 email forwards per domain.
 - Business plans: up to 100 email forwards per domain.
 
-If you are on the Business plan and need additional email forwards per domain than provided, please contact us to discuss your needs.
+If you are on the Business plan and need more email forwards per domain than provided, please contact us to discuss your needs.
 
 ## Enabling email forwarding
 
