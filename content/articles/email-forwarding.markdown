@@ -32,7 +32,7 @@ In addition to message limits, there is also a limit to the number of individual
 - Professional plans: up to 25 email forwards per domain.
 - Business plans: up to 100 email forwards per domain.
 
-If you need additional email forwards per domain, please contact us to discuss your needs.
+If you are on the Business plan and need more email forwards per domain than provided, please contact us to discuss your needs.
 
 ## Enabling email forwarding
 
@@ -53,7 +53,7 @@ To create an email forward you need to specify the **From** and **To** fields.
 
 The **From** field is used to match an email address to forward from. Enter a specific name (such as `support`) without the domain.
 
-In the **To** field, enter the full email address that you want to forward the email to. 
+In the **To** field, enter the full email address that you want to forward the email to.
 
 ### Catch-all emails
 
