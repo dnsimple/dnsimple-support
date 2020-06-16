@@ -23,12 +23,12 @@ EDNS Client Subnet support is a mechanism defined in [RFC7871] (https://tools.ie
 
 Latency-sensitive services like Content Delivery Networks (CDNs) use this information to provide accurate geo-location aware responses when answering name lookups coming from the recursive resolvers based at your Internet Service Provider (ISP) or public resolvers as Google Public DNS (8.8.8.8) service. DNSimple implemented an RFC7871 compliant solution to support these types of DNS queries at our authoritative DNS servers for customers using ALIAS records.
 
-If your ALIAS records point to a Content Delivery Network (CDN), or other latency-sensitive service which supports ECS, our systems will pass this information along, returning the geo-location aware responses to the end users.
+If your ALIAS records point to a Content Delivery Network (CDN), or other latency-sensitive service which supports ECS, our systems will pass this information along, returning the geo-locatio-aware responses to the end users.
 
 
 ## How does it benefit me and my services?
 
-By having ECS enabled along the path of the DNS queries, your customers will be able to get the closest edge node provided by your Content Delivery Network of choice. In turn, this will reduce the average time required to load your web page in your customers' browser or improve the overall latency of the network services that you provide.
+By having ECS enabled along the path of the DNS queries, your customers will be able to get the closest edge node provided by your Content Delivery Network of choice. In turn, this will reduce the average time required to load your web page in your customers' browser, or improve the overall latency of the network services that you provide.
 
 
 ## Which plans support ECS?
@@ -38,8 +38,8 @@ We support this feature across all subscriptions.
 
 ## Which Content Delivery Networks (CDNs) do you support?
 
-We researched and tested the current ECS support amongst CDN providers, then picked only CDN providers that were able to confirm full compliance with the RFC7871 standard to make sure our customers are not affected by non-adherence to the above standard. Otherwise, this leads to suboptimal operations.
+We researched and tested the current ECS support among CDN providers. We chose only CDN providers that were able to confirm full compliance with the RFC7871 standard to make sure our customers are not affected by non-adherence to the above standard. Otherwise, this leads to suboptimal operations.
 
 We have enabled full ECS support for Netlify CDN, and plan to expand the service to more ECS compliant network services.
 
-Please contact us if you have an inquiry about specific CDNs.
+Please contact us if you have any questions about specific CDNs.
