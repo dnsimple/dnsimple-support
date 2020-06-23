@@ -2,7 +2,7 @@
 title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking.
 categories:
-- Domain
+- Domains
 ---
 
 # Domain Masking
