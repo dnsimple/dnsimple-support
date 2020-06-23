@@ -17,15 +17,15 @@ categories:
 
 Domain Masking (or URL Masking) is when you set up a website to display the content of another while hiding the destinations URL. For example, if you wanted to make the website `examplemail.com` show the content of `mail.example.com/email/login` without the user knowing they are accessing `mail.example.com`, you'd use Domain Masking. 
 
-This is often done with HTML iframes or setting up a proxy.
+This is often done with HTML iframes, or by setting up a proxy.
 
 ## Can DNSimple mask my domain for me?
 
-No. Modifying the URL is not a functionality of DNS. We have chosen not to develop a helper for this.
+No. URL modification is not a DNS functionality. We have chosen not to develop a helper for this.
 
 If you don't mind displaying the destination URL, you can set up a [`URL` Record](/articles/cname-record) to point to the destination.
 
-If you're in control of the destination website, you can set up an `ALIAS` or `CNAME` record to point to the destination, and configure the destination systems to redirect the correct page.
+If you control the destination website, you can set up an `ALIAS` or `CNAME` record to point to the destination, and configure the destination systems to redirect to the correct page.
 
 Adding both an `ALIAS`/`CNAME` and a `URL` record does not combine behaviors of the two. It will return both records to the user, creating an inconsistent and incorrect experience.
 
