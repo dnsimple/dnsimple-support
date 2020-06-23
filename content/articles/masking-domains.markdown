@@ -2,8 +2,7 @@
 title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking
 categories:
-- DNSimple
-- DNS
+- Domain
 ---
 
 # Domain Masking
