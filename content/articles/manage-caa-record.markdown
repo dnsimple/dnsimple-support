@@ -31,7 +31,7 @@ CAA records are only supported on the DNSimple primary name servers (ns1.dnsimpl
 
 The DNSimple interface allows you to manage CAA records using two different modes:
 
-- The standard mode provides a pre-populated interface to help enter the appropriate values for the CAA record. <label>Provider</label> allows you to create a CAA record to whitelist a certificate authority. <label>Reports</label> allows you to create a CAA record to specify the email for reporting policy violations.
+- The standard mode provides a pre-populated interface to help enter the appropriate values for the CAA record. <label>Provider</label> allows you to create a CAA record to allow a certificate authority. <label>Reports</label> allows you to create a CAA record to specify the email for reporting policy violations.
 - The custom mode (<label>Custom</label>) allows you to modify the CAA record tag/value values directly.
 
 We don't support the ability to specify via interface the destructured CAA record value representation. You can't enter the following text:
@@ -44,7 +44,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 ## Adding a CAA record
 
 <div class="section-steps" markdown="1">
-#### To add a CAA record to whitelist a Certificate Authority
+#### To add a CAA record to allow a Certificate Authority
 
 1.  In the record editor, click <label>Add</label> and select <label>CAA</label> to add a new CAA record.
 
