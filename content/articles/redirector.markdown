@@ -60,7 +60,7 @@ https://source.com => https://destination.com
 
 ## Path-scoped redirects
 
-Only bare domains or subdomains can be redirected, and they may be directed to an URL that does or does not specify a path. In other words, it's not possible to specify a path in the redirect source.
+Only bare domains or subdomains can be redirected, and they can be directed to a URL that either does or does not specify a path. It's not possible to specify a path in the redirect source.
 
 ```
 # Invalid
