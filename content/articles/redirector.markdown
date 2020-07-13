@@ -58,19 +58,20 @@ https://source.com => http://destination.com
 https://source.com => https://destination.com
 ```
 
-## URL to URL redirects
+## Path-scoped redirects
 
-URL to URL redirects can't be done with our `URL` record. Only domains or subdomains can be redirected to complete URLs.
+Only bare domains or subdomains can be redirected, and they may be directed to an URL that does or does not specify a path. In other words, it's not possible to specify a path in the redirect source.
 
-The following redirect will not work, because you can't add a URL to the name part of the `URL` record.
+```
+# Invalid
+foo.com/blog/   -> bar.com/blog
 
-    foo.com/blog/ to bar.com/blog
+# Valid
+foo.com         -> bar.com/blog
+blog.foo.com    -> bar.com/blog
+```
 
-This would work, because you can add a `URL` record for blog.foo.com:
-
-    blog.foo.com to bar.com/blog
-
-Any path or query information passed by the user is passed to the resulting URL. If you set up a redirect from blog.foo.com to myfooblog.com, when the user goes to blog.foo.com/awesome_article they'll be redirected to myfooblog.com/awesome_article.
+Any path or query information passed by the user is passed to the resulting URL. If you set up a redirect from `blog.example.com` to `example.com`, when the user goes to `blog.example.com/awesome_article` they'll be redirected to `example.com/awesome_article`.
 
 
 ## Wildcard URL redirects
