@@ -35,7 +35,7 @@ We support the following standard record types:
 - SSHFP
 - TXT
 
-We also created 3 special record types:
+We also created 3 proprietary record types:
 
 - [ALIAS](/articles/alias-record)
 - [URL](/articles/url-record)
