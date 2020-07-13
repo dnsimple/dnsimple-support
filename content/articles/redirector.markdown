@@ -27,7 +27,7 @@ HTTP redirects are available to all plans. HTTPS redirects are available only on
 
 ## Configuring a redirect
 
-To configure a redirect, use the special [`URL` record](/articles/url-record), available in the [record editor](/articles/record-editor).
+To configure a redirect, use the proprietary [`URL` record](/articles/url-record), available in the [record editor](/articles/record-editor).
 
 [This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a `URL` record in DNSimple.
 
