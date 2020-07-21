@@ -7,16 +7,16 @@ categories:
 
 # Secondary DNS
 
+<warning>
+  You cannot set up Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled, as they will not work in conjunction. Please ensure that you are not currently using DNSSEC, or have this feature disabled before using Secondary DNS.
+</warning>
+
 ### Table of Contents {#toc}
 
 * TOC
 {:toc}
 
 ---
-
-<warning>
-  You cannot set up Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled, as they will not work in conjunction. Please ensure that you are not currently using DNSSEC, or have this feature disabled before using Secondary DNS.
-</warning>
 
 ## Getting started
 
