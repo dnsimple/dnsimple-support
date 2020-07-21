@@ -52,11 +52,11 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 
 The [dig](/articles/how-dig/) tool is a good way to verify that your DKIM record is being returned correctly by our DNS servers.
 
-To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain aetrion.com, you can get the TXT record using the following query:
+To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain example.com, you can get the TXT record using the following query:
 
 
 ```
-dig +short google._domainkey.aetrion.com TXT
+dig +short google._domainkey.example.com TXT
 ```
 
 This will return a result like this:
@@ -70,7 +70,7 @@ If no result is returned, verify that you added the TXT record with the correct 
 
 ## Verifying your DKIM with an online tool
 
-Verify your DKIM with an online tool like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool verifies that you have SPF and DKIM records. In the DKIM selector field, just add the first part from the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.aetrion.com`, then the DKIM selector is "google".
+Verify your DKIM with an online tool like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool verifies that you have SPF and DKIM records. In the DKIM selector field, just add the first part from the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.example.com`, then the DKIM selector is "google".
 
 
 ## Technical details
