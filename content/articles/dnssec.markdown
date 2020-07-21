@@ -15,6 +15,10 @@ This article describes a feature in Public Beta.
 This article describes a feature only available on [newer plans](/articles/new-plans#newer-plans-only).
 </info>
 
+<warning>
+  You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns), as they will not work in conjunction. Please ensure that you are not currently using Secondary DNS, or have this feature disabled before using DNSSEC.
+</warning>
+
 ### Table of Contents {#toc}
 
 * TOC
