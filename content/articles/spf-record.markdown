@@ -15,7 +15,7 @@ categories:
 ---
 
 <note>
-Although the SPF record type is deprecated, it's still supported by DNSimple name servers. In the future we may discontinue serving SPF records, so you should **always** have a TXT record whose content is the same as the record using the SPF type.
+Although the SPF record type is deprecated, it's still supported by DNSimple name servers. We may discontinue serving SPF records in the future, so you should **always** have a TXT record whose content is the same as the record using the SPF type.
 </note>
 
 ## What's an SPF record?
@@ -33,7 +33,7 @@ SPF records are defined as a single string of text. Here's an example record:
 v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
 ```
 
-The SPF record always starts with the `v=` element. This indicates the SPF version that is used. Right now the version should always be `spf1` as this is the most common version of SPF that is understood by mail exchanges.
+The SPF record always starts with the `v=` element. This indicates the SPF version that is used. Right now, the version should always be `spf1` as this is the most common version of SPF that is understood by mail exchanges.
 
 One or more terms follow the version indicator. These define the rules for which hosts are allowed to send mail from the domain, or provide additional information for processing the SPF record. Terms are made up of mechanisms and modifiers. The following mechanisms are defined:
 
@@ -57,7 +57,7 @@ There are two modifiers defined:
 
 ## SPF mechanisms
 
-The following mechanisms define what IP addresses are allowed to send mail from the domain:
+The following mechanisms define which IP addresses are allowed to send mail from the domain:
 
 - `a`
 - `mx`
