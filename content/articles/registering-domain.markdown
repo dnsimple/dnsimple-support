@@ -7,25 +7,19 @@ categories:
 
 # Registering a Domain
 
+There are **two** reasons you will need to register a domain: when it is a new domain you have just purchased, or when you need to register a domain you’re already managing the DNS for.
+
+If applicable, we recommend opting for the “auto-renew” feature to avoid your domain expiring if you are looking to retain ownership.
+
 <div class="section-steps" markdown="1">
 ##### To register a new domain
 
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the top-nav menu click the <label>Domains</label> tab.
-1.  Click <label>Register a Domain</label>.
-1.  Fill out the domain name.
-1.  Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
-1.  Click <label>Register Domain</label>.
-1.  Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
-1.  Click <label>Register Domain</label>. You will be charged immediately for the registration.
-</div>
+1. Log in to DNSimple with your user credentials.
+1. Click Add Domain from your Dashboard and select the appropriate account if you have more than one.
+1. Fill out the domain name.
+1. Choose whether you’d like Whois Privacy Protection or auto-renewal on the domain (if applicable).
+1. Click Register Domain.
+1. Provide contact details for the registrant of the domain, or choose a contact from those you’ve already created.
+1. Click Register Domain. You will be charged immediately for the registration.
 
-<div class="section-steps" markdown="1">
-##### To register a domain you're already managing the DNS for
-
-1.  From your domain list, click the <label>Transfer</label> button, or choose <label>Register</label> from the domain management page.
-1.  Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
-1.  Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
-1.  Click <label>Register Domain</label>. You will be charged immediately for the registration.
 </div>

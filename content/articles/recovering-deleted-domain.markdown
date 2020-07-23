@@ -8,7 +8,7 @@ categories:
 # Recovering a Deleted Domain
 
 <warning>
-When recovering a domain, we won't be able to add back your DNS records. We recommend you keep a copy [of your zone file](/articles/zone-files/#exporting-records-to-a-zone-file) before deleting any domain from DNSimple.
+When recovering a domain, we won't be able to recover your DNS records. We recommend you keep a copy [of your zone file](/articles/zone-files/#exporting-records-to-a-zone-file) before deleting any domain from DNSimple.
 </warning>
 
 ## The domain was registered with DNSimple
@@ -35,4 +35,3 @@ Recovering a domain that is registered with an external registrar is as simple a
 1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Use domain services_.
 
 </div>
-
