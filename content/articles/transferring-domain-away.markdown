@@ -20,7 +20,7 @@ This article describes the procedure to transfer a domain registered with DNSimp
 ## Before starting
 
 <warning>
-Once a domain transfer is started, you won’t be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code, but once you provide the transfer code to the gaining registrar you will no longer be able to make adjustments.
+Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code, but once you provide the transfer code to the gaining registrar you will no longer be able to make adjustments.
 </warning>
 
 To transfer a domain to another registrar, the standard procedure requires you to:
@@ -58,10 +58,10 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
     This will unlock the domain and if applicable, email the transfer code to the domain registrant within 6 hours of requesting the code. Do not click more than once as it will slow down the delivery process. Please check your spam folder for the code, as it will sometimes mistakenly land there.
 </div>
 
-If you have requested a domain transfer out and have not received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. We do not have access to see the code, for security purposes, and will not be able to expedite the code’s delivery. If the allotted time has passed, you have verified the email address is correct, and the transfer code is not in your spam folder, we will be happy to look into it and figure out why the transfer code has not arrived.
+If you have requested a domain transfer out and have not received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. We do not have access to see the code, for security purposes, and will not be able to expedite the code's delivery. If the allotted time has passed, you have verified the email address is correct, and the transfer code is not in your spam folder, we will be happy to look into it and figure out why the transfer code has not arrived.
 
 <info>
-Note: Once this step is completed, so has DNSimple’s role in the transfer process. All questions after this point need to be directed to the gaining registrar.
+Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point need to be directed to the gaining registrar.
 </info>
 
 
@@ -78,7 +78,7 @@ DNSimple does not have access to this process. Contact the gaining registrar if 
 
 Depending on the TLD, the gaining registrar, the losing registrar, or both may send you an email to confirm the transfer request. Verify that the information in the request is correct (especially the name of the gaining registrar), and confirm the request.
 
-After the transfer at the new registrar is initiated, and the transfer code is provided, the transfer will be initiated at the Registry level. The registrar has 5 - 7 business days to release your domain(s). The transfer will automatically be approved at the end of this period. There’s no way to speed up this process.
+After the transfer at the new registrar is initiated, and the transfer code is provided, the transfer will be initiated at the Registry level. The registrar has 5 - 7 business days to release your domain(s). The transfer will automatically be approved at the end of this period. There's no way to speed up this process.
 
 Once the transfer is approved, the domain(s) will now be with your new registrar and no longer with DNSimple.
 

@@ -7,7 +7,7 @@ categories:
 
 # Adding a Domain
 
-When adding a domain to your account, you can choose to register a new domain, transfer an existing domain you own from another registrar, or just use our DNS service if the domain is already registered with another registrar and you’d like to keep it there.
+When adding a domain to your account, you can choose to register a new domain, transfer an existing domain you own from another registrar, or just use our DNS service if the domain is already registered with another registrar and you'd like to keep it there.
 
 <div class="section-steps" markdown="1">
 ##### To add a domain
