@@ -29,14 +29,14 @@ Auto-renewals are processed automatically within the final 30 days of registrati
 
 ## Enabling Auto-Renewal
 
-Newly registered domains are set to auto-renew by default, but if you've turned off auto-renewal and want to re-enable it for your domain, follow these steps:
+Newly registered domains are set to auto-renew by default. If you've turned off auto-renewal and want to re-enable it for your domain, follow these steps:
 
 <div class="section-steps" markdown="1">
 ##### To enable auto-renewal for a domain
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Check the <label>Auto-renew this domain before it expires</label> checkbox on the "Registration" status card
 
     ![Auto-renewal checkbox](/files/enable-auto-renewal.png)
