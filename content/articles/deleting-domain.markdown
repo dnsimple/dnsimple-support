@@ -35,7 +35,3 @@ If the domain is resolved with DNSimple, we will immediately stop resolving it, 
     ![Delete domain](/files/delete-domain.png)
 
 </div>
-
-When a domain is hosted, DNSimple will stop resolving DNS for the domain.
-
-If the domain is resolved with DNSimple, we will immediately stop resolving it, and the records will be removed according to their TTL.
