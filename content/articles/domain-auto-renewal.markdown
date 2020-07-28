@@ -14,7 +14,7 @@ categories:
 
 ---
 <warning>
-Auto-renewals begin the renewal process 30 days before the domain is set to expire. You cannot turn off the auto-renewal process during this time. We deliver auto-renewal and expiration notices starting 2 months prior to the domain's expiration date. Please update your auto-renewal preferences before it reaches the 30-days "zone".
+Auto-renewals begin the renewal process 30 days before the domain is set to expire. You cannot turn off the auto-renewal process during this time. We deliver auto-renewal and expiration notices starting 2 months prior to the domain's expiration date. Please update your auto-renewal preferences before it reaches the 30-day threshold.
 </warning>
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
@@ -57,7 +57,7 @@ If you want to turn off auto-renewal for a domain, follow these steps:
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain
+1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain
 1.  Uncheck the <label>Auto-renew this domain before it expires</label> checkbox on the registration status card
 
     ![Auto-renewal checkbox](/files/disable-auto-renewal.png)
