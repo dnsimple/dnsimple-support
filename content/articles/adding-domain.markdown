@@ -22,18 +22,16 @@ When adding a domain to your account, you can choose to register a new domain, t
 
 You'll then be prompted for the name of the domain you want to add to your account.
 
-If you are Registering a new domain, you will be prompted to complete the following after adding the domain name:
+When registering a new domain, after adding the domain name, you'll be prompted to complete the following:
 
 ![Registering a new domain](/files/registering-a-new-domain.png)
 
-Once complete, click to Register the domain in the bottom right corner.
+Once that's complete, click in the bottom right corner to register the domain.
 
-If you are Transferring a domain into DNSimple, you will need to complete the following to begin the transfer process:
+If you're transferring a domain into DNSimple, complete the following to initiate the transfer process:
 
 ![Transferring a domain](/files/transferring-a-domain.png)
 
-If you are using the DNS services available at DNSimple, but keeping the domain at your current registrar, you will add the domain name and then import the DNS records applicable by using the tool below:
+If you're using the DNS services available at DNSimple, but keeping the domain at your current registrar, add the domain name, then import the applicable DNS records by using the tool below:
 
 ![Zone transfer tool](/files/zone-import-tool.png)
-
-Regardless of which option you use, the steps outlined above will have successfully walked you through the process of adding a domain to DNSimple.
