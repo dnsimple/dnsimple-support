@@ -8,18 +8,16 @@ categories:
 # Deleting a Domain
 
 <warning>
-Please review these considerations before deleting a domain:
+Do not delete an active domain registered or resolved with DNSimple. Deleting a domain in your account **will not** remove or cancel your domain registration.
 
-You should not delete an active domain registered or resolved with DNSimple. Deleting a domain in your account **will not** remove or cancel your domain registration.
-
-Deleting a domain from your DNSimple account also removes all records of this domain. Once the domain has been deleted we will not be able to assist in recovering any of the records. They are deleted completely from our system.
+Deleting a domain from your DNSimple account removes all records of this domain. Once the domain has been deleted, we will not be able to assist in recovering any of the records. They are completely deleted from our system.
 </warning>
 
-If the domain is registered with DNSimple, deleting the domain from your account will not delete the domain registration in the registry. Once a domain is registered you can't remove ownership through registrar deletion. You have to wait for the domain to expire, or transfer to a new owner.
+If the domain is registered with DNSimple, deleting the domain from your account will not delete the domain registration in the registry. Once a domain is registered, you can't remove ownership through registrar deletion. You have to wait for the domain to expire, or transfer it to a new owner.
 
 When a domain is hosted, DNSimple will stop resolving DNS for the domain.
 
-If the domain is resolved with DNSimple, we will immediately stop resolving it, and the records will be removed according to their TTL.
+If the domain is resolved with DNSimple, we will immediately stop resolving it, and the records will be removed according to their TTL (Time To Live).
 
 
 <div class="section-steps" markdown="1">
