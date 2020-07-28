@@ -28,7 +28,7 @@ After adding the domain name, you'll be prompted to complete the following:
 
 ![Registering a new domain](/files/registering-a-new-domain.png)
 
-Once that's complete, click in the bottom right corner to register the domain.
+Once that's complete, click the button in the bottom right corner to register the domain.
 
 ### Transferring a domain into DNSimple
 
