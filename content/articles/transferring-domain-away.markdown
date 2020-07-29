@@ -26,8 +26,8 @@ Once a domain transfer is started, you won't be able to change the name servers 
 To transfer a domain to another registrar, the standard procedure requires you to:
 
 1. Unlock the domain & request the transfer code from losing registrar.
-3. Start the transfer at the gaining registrar.
-4. Approve the transfer request.
+2. Start the transfer at the gaining registrar.
+3. Approve the transfer request.
 
 The first step is handled at DNSimple in one click. The other steps are the responsibility of the gaining registrar. We are unable to provide support for those steps.
 
@@ -55,19 +55,19 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
 
     ![Transfer out link](/files/domain-transfer-out-action.png)
 
-    This will unlock the domain and if applicable, email the transfer code to the domain registrant within 6 hours of requesting the code. Do not click more than once as it will slow down the delivery process. Please check your spam folder for the code, as it will sometimes mistakenly land there.
+    This will unlock the domain and, if applicable, email the transfer code to the domain registrant within 6 hours of requesting the code. Do not click more than once - this slows down the delivery process. Check your spam folder for the code if you don't see it in your inbox.
 </div>
 
-If you have requested a domain transfer out and have not received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. We do not have access to see the code, for security purposes, and will not be able to expedite the code's delivery. If the allotted time has passed, you have verified the email address is correct, and the transfer code is not in your spam folder, we will be happy to look into it and figure out why the transfer code has not arrived.
+If you requested a domain transfer out and haven't received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. For security purposes, we don't have access to view the code, and won't be able to expedite the code's delivery. If the allotted time has passed, you've verified the email address is correct, and the transfer code isn't in your spam folder, we'll be happy to look into it and figure out why the transfer code hasn't arrived.
 
 <info>
-Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point need to be directed to the gaining registrar.
+Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point must be directed to the gaining registrar.
 </info>
 
 
 ## 2. Starting the transfer at the gaining registrar
 
-Once you have the transfer code, you need to start the transfer at the gaining registrar. **Requesting the transfer code will not automatically initiate a transfer out**.
+Once you have the transfer code, start the transfer at the gaining registrar. **Requesting the transfer code will not automatically initiate a transfer out**.
 
 Follow the gaining registrar's instructions to start a transfer, and enter the transfer code when requested.
 
@@ -83,5 +83,5 @@ After the transfer at the new registrar is initiated, and the transfer code is p
 Once the transfer is approved, the domain(s) will now be with your new registrar and no longer with DNSimple.
 
 <info>
-Note: If you are transferring your domain out of DNSimple and no longer require any of our additional services, your account will remain active until you unsubscribe your account. This will not happen automatically.
+Note: If you're transferring your domain out of DNSimple, and no longer require any of our additional services, your account will remain active until you unsubscribe. This will not happen automatically.
 </info>
