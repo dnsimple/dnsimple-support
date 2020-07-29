@@ -33,3 +33,4 @@ The SOA record includes the following details:
 - The negative result TTL (for example, how long a resolver should consider a negative result for a subdomain to be valid before retrying).
 
 You can't configure these values yourself. 
+
