@@ -1,3 +1,4 @@
+
 ---
 title: Activity Tracking
 excerpt: How to review the list of events for an account or domain using our audit log feature.
@@ -48,3 +49,4 @@ You can select the exact event types that you want to see and the time frame for
 - When the event took place.
 
 ![Toggle the events link](/files/activity-tracking-5.png)
+
