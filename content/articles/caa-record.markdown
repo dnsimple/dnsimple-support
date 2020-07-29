@@ -1,3 +1,4 @@
+
 ---
 title: What is a CAA record?
 excerpt: A Certification Authority Authorization (CAA) record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.
@@ -26,6 +27,7 @@ The DNS CAA record is specified by [RFC 6844](https://tools.ietf.org/html/rfc684
 
 
 ## CAA record format {#record-format}
+
 
 The structure of a CAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of the following elements:
 
