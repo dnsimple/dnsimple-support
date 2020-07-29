@@ -7,9 +7,9 @@ categories:
 
 # Registering a Domain
 
-There are **two** reasons you will need to register a domain: when it is a new domain you have just purchased, or when you need to register a domain you're already managing the DNS for.
+There are **two** reasons to register a domain with DNSimple: when it's a newly purchased domain, or to register a domain for which you're already managing the DNS.
 
-If applicable, we recommend opting for the "auto-renew" feature to avoid your domain expiring if you are looking to retain ownership.
+When applicable, we recommend opting for our "auto-renew" feature to avoid your domain expiring if you plan to retain ownership.
 
 <div class="section-steps" markdown="1">
 ##### To register a new domain
@@ -20,6 +20,6 @@ If applicable, we recommend opting for the "auto-renew" feature to avoid your do
 1. Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
 1. Click Register Domain.
 1. Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
-1. Click Register Domain. You will be charged immediately for the registration.
+1. Click Register Domain. You'll be charged immediately for the registration.
 
 </div>
