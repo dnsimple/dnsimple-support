@@ -19,7 +19,7 @@ This article discusses how to move domains internally from one DNSimple account 
 
 You can transfer a domain between DNSimple accounts any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account, once the move is accepted. Moving a domain to another account will also transfer all the associated resources, such as DNS records, SSL certificates, and email forwards.
 
-Working with a Reseller? Jump [here](#accepting-a-transfer) and follow the steps outlined to gain access to your account.
+Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer) to gain access to your account.
 
 <warning>
 Once the transfer is accepted, you will no longer be able to manage the domain.
