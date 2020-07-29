@@ -20,7 +20,7 @@ This article describes the procedure to transfer a domain registered with DNSimp
 ## Before starting
 
 <warning>
-Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code, but once you provide the transfer code to the gaining registrar you will no longer be able to make adjustments.
+Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code. Once you provide the transfer code to the gaining registrar, you cannot make adjustments.
 </warning>
 
 To transfer a domain to another registrar, the standard procedure requires you to:
