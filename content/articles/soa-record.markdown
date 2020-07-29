@@ -24,6 +24,8 @@ Here's a content example from an SOA record:
 
 The SOA record includes the following details:
 
+HELLO EDITS 
+
 - The primary name server for the domain, which is ns1.dnsimple.com or the first name server in the vanity name server list.
 - The responsible party for the domain: admin.dnsimple.com.
 - A timestamp that changes whenever you update your domain.
