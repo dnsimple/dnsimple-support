@@ -1,3 +1,4 @@
+
 ---
 title: What's a CNAME record?
 excerpt: CNAME records can be used to alias one name to another.
@@ -103,3 +104,4 @@ www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
 ## Manage CNAME records
 
 From the DNSimple record editor you can [add, remove, and update CNAME records](/articles/manage-cname-record).
+
