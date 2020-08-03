@@ -25,7 +25,7 @@ For example, to access the DNSimple website you enter `www.dnsimple.com`. At our
 
 A Records are the simplest type of DNS records, and one of the primary records used in DNS servers.
 
-You can do a lot with A records, including using multiple A records for the same domain in order to provide redundancy. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
+You can do a lot with A records, including using multiple A records for the same domain in order to provide redundancy and fallbacks. Additionally, multiple names could point to the same address, in which case each would have its own A record pointing to that same IP address.
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
 
