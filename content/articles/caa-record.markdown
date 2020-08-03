@@ -46,8 +46,8 @@ CAA <flags> <tag> <value>
 
 The RFC currently defines 3 available tags:
 
-- `issue`: explicity authorizes a single certificate authority to issue a certificate (any type) for the hostname.
-- `issuewild`: explicity authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the hostname.
+- `issue`: explicitly authorizes a single certificate authority to issue a certificate (any type) for the hostname.
+- `issuewild`: explicitly authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the hostname.
 - `iodef`: specifies a URL to which a certificate authority may report policy violations.
 
 In DNSimple, the CAA record is represented by the following customizable elements:
@@ -93,7 +93,7 @@ Finally, to be notified of policy violations, you can add a record with the `iod
 example.com.  CAA 0 iodef "mailto:example@example.com"
 ```
 
-As mentioned before, the records are inherited by child hostnames. Let's look at an example of subdomain configuration:
+The records are inherited by child hostnames, which are offshoots of the parent hostname. Let’s look at an example of subdomain configuration:
 
 ```
 example.com.        CAA 0 issue "letsencrypt.org"
