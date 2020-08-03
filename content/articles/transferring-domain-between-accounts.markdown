@@ -1,3 +1,4 @@
+
 ---
 title: Transferring a Domain to Another DNSimple Account
 excerpt: How to move a domain from one DNSimple account to another.
@@ -50,3 +51,4 @@ To reject a transfer, click the <label>Decline</label> button on the list of pen
 <info>
 If you decline a transfer request, the domain will remain in the posession of the original owner.
 </info>
+
