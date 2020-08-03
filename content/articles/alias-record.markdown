@@ -1,4 +1,5 @@
 ---
+
 title: What's an ALIAS record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
 categories:
@@ -30,4 +31,5 @@ If the resolution fails, for example due to a timeout, then the cached response 
 To support secondary DNS servers, especially ones that connect to us and pull zones using AXFR, we must resolve the ALIAS differently. Currently we resolve it as part of the secondary DNS setup process, then run a scheduled job to update the ALIAS record at secondary name servers by resolving them again, removing the old records, and writing the new records to our zone transfer database. We then send a NOTIFY message to the appropriate secondary name servers.
 
 When creating an ALIAS record you'll notice an additional TXT field is created. This field is optional and can be used for debugging.
+
 
