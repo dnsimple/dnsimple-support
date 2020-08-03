@@ -7,9 +7,9 @@ categories:
 
 # What is the SSL Certificate Chain?
 
-There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority): **root CAs** and **intermediate CAs**. In order for an SSL certificate to be trusted, that certificate must have been **issued by a CA that is included in the trusted store of the device that is connecting**.
+There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been **issued by a CA that's included in the trusted store of the device that's connecting**.
 
-If the certificate was not issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA, and continues until either a trusted CA is found (at which point a trusted, secure connection will be established) or no trusted CA can be found (at which point the device will usually display an error).
+If the certificate wasn't issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA. It continues checking until either a trusted CA is found (at which point a trusted, secure connection will be established), or no trusted CA can be found (at which point the device will usually display an error).
 
 The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-root-certificate) to the end-user certificate, represents the **SSL certificate chain**.
 
@@ -17,9 +17,9 @@ The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-
 
 ## Example of an SSL Certificate chain
 
-As an example, let's suppose that you purchase a certificate from the *Awesome Authority* for the domain `example.awesome`.
+As an example, suppose you purchase a certificate from the *Awesome Authority* for the domain `example.awesome`.
 
-*Awesome Authority* is not a root certificate authority. In other words, its certificate is not directly embedded in your web browser and therefore it can't be explicitly trusted.
+*Awesome Authority* is not a root certificate authority. In other words, its certificate is not directly embedded in your web browser, therefore it can't be explicitly trusted.
 
 - *Awesome Authority* utilizes a certificate issued by *Intermediate Awesome CA Alpha*.
 - *Intermediate Awesome CA Alpha* utilizes a certificate issued by *Intermediate Awesome CA Beta*.
@@ -36,9 +36,9 @@ In our example, the SSL certificate chain is represented by 6 certificates:
 1. Intermediate Certificate 4 - Issued to: Intermediate Awesome CA Gamma; Issued By: The King of Awesomeness
 1. Root certificate - Issued by and to: The King of Awesomeness
 
-Certificate 1 is your **end-user certificate**, the one you purchase from the CA. The certificates from 2 to 5 are called **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is called the [**root certificate**](/articles/what-is-ssl-root-certificate).
+Certificate 1, the one you purchase from the CA, is your **end-user certificate**. Certificates 2 to 5 are **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is the [**root certificate**](/articles/what-is-ssl-root-certificate).
 
-When you install your end-user certificate for `example.awesome`, you **must** bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate will not be trusted by some devices.
+When you install your end-user certificate for `example.awesome`, you **must** bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate won't be trusted by some devices.
 
 ## Frequently Asked Questions
 
@@ -53,19 +53,19 @@ When you install your end-user certificate for `example.awesome`, you **must** b
 
     For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. Conversely, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
 
-    We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you will be able to [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate) for your server.
+    We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you can [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate) for your server.
 
-    If your server is not on the wizard, you can still obtain the proper files through it and then follow the documentation of your web server to determine how to properly install your domain certificate and intermediate certificates.
+    If your server isn't on the wizard, you can still obtain the proper files through it, then follow your web server's documentation to determine how to properly install your domain certificate and intermediate certificates.
 
 1.  #### What happens if I don't install an Intermediate SSL certificate?
 
-    If you don't install one or more intermediate SSL certificate, you break the certificate chain. That means you create a gap between a specific (end-user or intermediate) certificate and its issuer. When a device cannot find a trusted issuer for a certificate, the certificate and the entire chain from the intermediate certificate down to the final cerficate can't be trusted.
+    If you don't install one or more intermediate SSL certificate, you break the certificate chain. That means you create a gap between a specific (end-user or intermediate) certificate and its issuer. When a device can't find a trusted issuer for a certificate, the certificate and the entire chain, from the intermediate certificate down to the final cerficate, can't be trusted.
 
-    As a result, your final certificate will not be trusted. Web browsers will display an "Invalid certificate" or "certificate not trusted" error.
+    As a result, your final certificate won't be trusted. Web browsers will display an "Invalid certificate" or "certificate not trusted" error.
 
 1.  #### How can I shorten the SSL certificate chain in my browser?
 
-    This is not possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority, in this way the chain will consist in just two certificates.
+    This isn't possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority, that way the chain will consist of just two certificates.
 
-    Root certificates are packaged with the browser software and the list cannot be altered if not from the browser maintainers.
+    Root certificates are packaged with the browser software. The list can't be altered if not from the browser maintainers.
 </div>
