@@ -18,7 +18,6 @@ The Domain Name System (DNS) is composed of many different record types (or reso
 
 [DNSimple supports common and traditional record types](/articles/supported-dns-records), along with some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
 
-
 ## Common record types
 
 These are the most common DNS record types:
@@ -31,6 +30,7 @@ These are the most common DNS record types:
 | [`TXT` record](/articles/txt-record) | This record is used to associate text with a domain. |
 | [`NS` record](/articles/ns-record) | This record is used to delegate a subzone to a set of name servers. These are the types of records you need to modify when you want to delegate a domain to a DNS provider. |
 | [`SOA` record](/articles/soa-record) | This record stores important information about the DNS zone (your domain). Each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. DNSimple automatically manages the SOA records for all your domains. |
+
 
 ## Common DNS records
 
