@@ -5,6 +5,7 @@ categories:
 - Domain Transfers
 ---
 
+
 # Transferring a domain away from DNSimple
 
 ### Table of Contents {#toc}
@@ -78,3 +79,4 @@ Depending on the TLD, the gaining registrar, the losing registrar, or both may s
 After the transfer at the new registrar is initiated, and the transfer code is provided, the transfer will be initiated at the Registry level. The registrar has 5 - 7 business days to release your domain(s). The transfer will automatically be approved at the end of this period. There's no way to speed up this process.
 
 Once the transfer is approved, the domain(s) will now be with your new registrar and no longer with DNSimple.
+
