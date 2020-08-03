@@ -75,7 +75,7 @@ You can learn more by reading the [differences between the A, CNAME, ALIAS and U
 
 ## Querying CNAME records
 
-You can use `dig` to determine the CNAME record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
+You can use `dig` in your terminal to determine the CNAME record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
 
 ```
 $ dig CNAME www.dnsimple.com
