@@ -1,4 +1,3 @@
-
 ---
 title: What is a CAA record?
 excerpt: A Certification Authority Authorization (CAA) record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.
@@ -93,7 +92,7 @@ Finally, to be notified of policy violations, you can add a record with the `iod
 example.com.  CAA 0 iodef "mailto:example@example.com"
 ```
 
-The records are inherited by child hostnames, which are offshoots of the parent hostname. Let’s look at an example of subdomain configuration:
+The records are inherited by child hostnames, which are offshoots of the parent hostname. Let's look at an example of subdomain configuration:
 
 ```
 example.com.        CAA 0 issue "letsencrypt.org"
@@ -156,4 +155,3 @@ google.com. 86399   IN  CAA 0 issue "symantec.com"
 ## Manage CAA records
 
 From the DNSimple record editor you can [add, remove, and update CAA records](/articles/manage-caa-record).
-
