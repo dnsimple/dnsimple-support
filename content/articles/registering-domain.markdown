@@ -12,7 +12,7 @@ There are **two** reasons to register a domain with DNSimple: when it's a newly 
 When applicable, we recommend opting for our "auto-renew" feature to avoid your domain expiring if you plan to retain ownership.
 
 <div class="section-steps" markdown="1">
-##### To register a new domain
+##### To register a domain
 
 1. Log in to DNSimple with your user credentials.
 1. Click Add Domain from your Dashboard and select the appropriate account if you have more than one.
