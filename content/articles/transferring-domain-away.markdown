@@ -21,7 +21,7 @@ This article describes the procedure to transfer a domain registered with DNSimp
 ## Before starting
 
 <warning>
-Once a domain transfer is started, you won’t be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code, but once you provide the transfer code to the gaining registrar you will no longer be able to make adjustments. 
+Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code, but once you provide the transfer code to the gaining registrar you will no longer be able to make adjustments. 
 </warning>
 
 To transfer a domain to another registrar, the standard procedure requires you to:
@@ -59,9 +59,9 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
     This will unlock the domain and email the transfer code to the domain registrant within 6 hours of requesting the code. Do not click more than once as it will slow down the delivery process. Please check your spam for the code as it will sometimes land in this folder..
 </div>
 
-If you have requested a domain transfer out and have not received a transfer code within the 6 hour period, please contact us and include your domain name in the email. We do not have access to see the code, for security purposes, and will not be able to expedite the code’s delivery. If the allotted time has passed, you have verified the email address is correct and it is not in your spam, we will be happy to look into it and figure out why the transfer code has not arrived.
+If you have requested a domain transfer out and have not received a transfer code within the 6 hour period, please contact us and include your domain name in the email. We do not have access to see the code, for security purposes, and will not be able to expedite the code's delivery. If the allotted time has passed, you have verified the email address is correct and it is not in your spam, we will be happy to look into it and figure out why the transfer code has not arrived.
 
-Note: Once this step is completed, so has DNSimple’s role in the transfer process. All questions after this point need to be directed to the gaining registrar. 
+Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point need to be directed to the gaining registrar. 
 
 
 ## 2. Starting the transfer at the gaining registrar
