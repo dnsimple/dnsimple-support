@@ -19,7 +19,7 @@ The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-
 
 As an example, suppose you purchase a certificate from the *Awesome Authority* for the domain `example.awesome`.
 
-*Awesome Authority* is not a root certificate authority. In other words, its certificate is not directly embedded in your web browser, therefore it can't be explicitly trusted.
+*Awesome Authority* isn't a root certificate authority. Its certificate isn't directly embedded in your web browser, so it can't be explicitly trusted.
 
 - *Awesome Authority* utilizes a certificate issued by *Intermediate Awesome CA Alpha*.
 - *Intermediate Awesome CA Alpha* utilizes a certificate issued by *Intermediate Awesome CA Beta*.
@@ -51,7 +51,7 @@ When you install your end-user certificate for `example.awesome`, you **must** b
 
     The procedure to install the Intermediate SSL certificates depends on the web server and the environment where you install the certificate.
 
-    For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. Conversely, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
+    For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. However, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
 
     We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you can [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate) for your server.
 
@@ -65,7 +65,7 @@ When you install your end-user certificate for `example.awesome`, you **must** b
 
 1.  #### How can I shorten the SSL certificate chain in my browser?
 
-    This isn't possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority, that way the chain will consist of just two certificates.
+    This isn't possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority – that way the chain will consist of just two certificates.
 
     Root certificates are packaged with the browser software. The list can only be altered by the browser maintainers.
 </div>
