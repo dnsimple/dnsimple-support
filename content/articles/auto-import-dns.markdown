@@ -9,13 +9,15 @@ categories:
 
 <info>
 Legacy Plans do not have access to this feature. To switch to one our current plans and unlock this tool click [here](/articles/changing-plans/).
-  //How do you feel about updating this since the "new" plan is over 5 years old?
 </info>
 
 Auto-importing DNS records helps reduce downtime on your domain transfer or when hosting the DNS for your domain with us.
 
-Instead of manually entering DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format, we scan existing records and import them for you. 
-Note: Not all domain providers let you export your records in this standard format
+Instead of manually entering DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format, we scan existing records and import them for you.
+
+<note>
+Not all domain providers let you export your records in this standard format.
+</note>
 
 We can import these DNS record types:
 
