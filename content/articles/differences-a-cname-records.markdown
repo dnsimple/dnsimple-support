@@ -7,7 +7,7 @@ categories:
 
 # Differences Between A and CNAME Records
 
-The `A` and `CNAME` records are the two common ways to map a host name ("name") to one or more IP address. There are important differences between these two records. 
+The `A` and `CNAME` records are the two common ways to map a host name ("name") to one or more IP addresses. There are important differences between these two records. 
 
 The [`A` record](/articles/a-record) points a name to a specific IP. If you want `blog.dnsimple.com` to point to the server `185.31.17.133` you'll configure:
 
