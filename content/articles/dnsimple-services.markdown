@@ -9,26 +9,26 @@ categories:
 
 DNSimple provides essential services for every Internet-connected system: domain registration, hosted DNS, a powerful automation API, One-Click DNS services, and SSL certificates.
 
-## DNS Hosting
+## DNS hosting
 
-We bill DNS hosting as a monthly service. If you sign up for or upgrade to a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
+We bill DNS hosting as a monthly subscription. If you sign up for, or upgrade to, a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
 
-## Domain Registration
+## Domain registration
 
 We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the domain name. For more information, view the [domain pricing list](https://dnsimple.com/tlds).
 
-Want to use our DNS hosting, but not registration? You're welcome to use another registrar and simply change your name servers to our name servers. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
+Want to use our DNS hosting, but not registration? You're welcome to use another registrar and change your name servers to our name servers. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
 
-## Powerful Automation API
+## Powerful automation API
 
-With the DNSimple REST API you can register domain names and administrate them directly from your own scripts. We have a [repository filled with API examples](https://github.com/dnsimple/dnsimple-api-examples) so you can get up and running. Some things you can do with our API include:
+With the DNSimple REST API, you can register domain names and administrate them directly from your own scripts. We have a [repository filled with API examples](https://github.com/dnsimple/dnsimple-api-examples), so you can get up and running. Some things you can do with our API include:
 
-- Check domain availability
-- Register and renew domains
-- Transfer domains
-- Buy SSL certificates
-- List and Manage Records
-- Register to events using [webhooks](https://dnsimple.com/webhooks) to receive notification of changes
+- Check domain availability.
+- Register and renew domains.
+- Transfer domains.
+- Buy SSL certificates.
+- List and Manage Records.
+- Register to events using [webhooks](https://dnsimple.com/webhooks) to receive notification of changes.
 
 Read up on our [API features and abilities](https://dnsimple.com/api).
 
@@ -38,11 +38,11 @@ One Click Services are ready-to-use DNS snippets. Applying a service creates all
 
 We offer:
 
-- Hosting Services such as Surge, WordPress, Webflow, and more
-- Productivity Services including Google's G-Suite, Office 365, and KickoffLabs
-- Infrastructure Services like Heroku
-- Email Services including Rackspace, Mailgun, and Fastmail
-- Ecommerce Services such as Shopify and Squarespace
+- Hosting services, like Surge, WordPress, Webflow, and more. 
+- Productivity services, including Google's G-Suite, Office 365, and KickoffLabs.
+- Infrastructure services like Heroku.
+- Email services, including Rackspace, Mailgun, and Fastmail.
+- Ecommerce services, like Shopify and Squarespace.
 
 See a complete list of our [One Click Services](https://dnsimple.com/services).
 
@@ -51,7 +51,7 @@ See a complete list of our [One Click Services](https://dnsimple.com/services).
 We provide three types of SSL Certificates:
 
 - Single-host SSL certificates ($20 per year)
-- Wildcard certificates ($100 per year)
+- Wildcard certificates (included in our higher tiered plans, or $100 per year)
 - Let's Encrypt SSL certificates (included in the subscription)
 
 Learn more about DNSimple certificates [here](/articles/ssl-certificates).
