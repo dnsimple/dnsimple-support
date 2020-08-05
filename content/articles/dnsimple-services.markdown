@@ -11,13 +11,13 @@ DNSimple provides essential services for every Internet-connected system: domain
 
 ## DNS Hosting
 
-We bill DNS hosting as a monthly service. If you sign up for or upgrade to a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
+We bill DNS hosting as a monthly subscription. If you sign up for, or upgrade to, a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
 
 ## Domain Registration
 
 We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the domain name. For more information, view the [domain pricing list](https://dnsimple.com/tlds).
 
-Want to use our DNS hosting, but not registration? You're welcome to use another registrar and simply change your name servers to our name servers. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
+Want to use our DNS hosting, but not registration? You're welcome to use another registrar and change your name servers to our name servers. DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
 
 ## Powerful Automation API
 
@@ -51,7 +51,7 @@ See a complete list of our [One Click Services](https://dnsimple.com/services).
 We provide three types of SSL Certificates:
 
 - Single-host SSL certificates ($20 per year)
-- Wildcard certificates ($100 per year)
+- Wildcard certificates (included in our higher tiered plans, or $100 per year)
 - Let's Encrypt SSL certificates (included in the subscription)
 
 Learn more about DNSimple certificates [here](/articles/ssl-certificates).
