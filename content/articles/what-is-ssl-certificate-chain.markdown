@@ -67,5 +67,5 @@ When you install your end-user certificate for `example.awesome`, you **must** b
 
     This isn't possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority, that way the chain will consist of just two certificates.
 
-    Root certificates are packaged with the browser software. The list can't be altered if not from the browser maintainers.
+    Root certificates are packaged with the browser software. The list can only be altered by the browser maintainers.
 </div>
