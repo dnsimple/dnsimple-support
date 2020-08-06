@@ -21,7 +21,7 @@ An **A record** maps a domain name to the IP address (Version 4) of the computer
 
 The _A_ in A record stands for _Address_. Whenever you visit a web site, send an email, connect to Twitter or Facebook, or do almost anything on the Internet, the address you enter is a series of words connected with dots.
 
-For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server there's an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
+For example, to access the DNSimple website you enter `www.dnsimple.com`. At our name server, there's an A record that points to the IP address `208.93.64.253`. This means that a request from your browser to `www.dnsimple.com` is directed to the server with IP address `208.93.64.253`.
 
 A Records are the simplest type of DNS records, and one of the primary records used in DNS servers.
 
@@ -32,7 +32,7 @@ The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 ## A record format {#record-format}
 
-The structure of an A record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
+The structure of an A record follows the standard top-level format definition defined in [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one element:
 
 |:--------|:-------------------------------------------------------|
 | address | A 32 bit Internet address representing an IPv4 address |
