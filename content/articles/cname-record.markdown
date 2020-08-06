@@ -27,14 +27,10 @@ A common example is when you have both `example.com` and `www.example.com` point
 As a result, `example.com` points to the server IP address, and `www.example.com` points to the same address via `example.com`. If the IP address changes, you only need to update it in one place: just edit the A record for `example.com`, and `www.example.com` automatically inherits the changes.
 
 <note>
-A CNAME record must always point to another domain name, never directly to an IP address.
+A CNAME record must always point to another domain name, never directly to an IP address. DNSimple's record editor will warn you if you try to point a CNAME record to an IP address. The sidebar to the right of editing the CNAME encourages you to visit the support article to learn the difference between A, CNAME, ALIAS, and URL records. It also warns you that CNAMEs must be unique to other records. 
 </note>
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
-
-<note>
-DNSimple's record editor will warn you if you try to point a CNAME record to an IP address. The sidebar to the right of editing the CNAME encourages you to visit the support article to learn the difference between A, CNAME, ALIAS, and URL records. It also warns you that CNAMEs must be unique to other records. 
-</note>
 
 ## Restrictions
 
