@@ -31,6 +31,7 @@ The DNS A record is specified by [RFC 3596](https://tools.ietf.org/html/rfc3596)
 
 The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
 
+| Element | Description |
 |:--------|:--------------------------------------------------------|
 | address | A 128 bit Internet address representing an IPv6 address |
 
@@ -46,6 +47,7 @@ where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804
 
 In DNSimple, the AAAA record is represented by the following customizable elements:
 
+| Element | Description |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | Name    | The host name for the record without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
