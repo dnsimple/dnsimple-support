@@ -1,5 +1,5 @@
 ---
-title: What is a CAA record?
+title: What's a CAA record?
 excerpt: A Certification Authority Authorization (CAA) record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.
 categories:
 - DNS
@@ -14,11 +14,11 @@ categories:
 
 ---
 
-## What is a CAA record?
+## What's a CAA record?
 
 A **Certification Authority Authorization (CAA) record** is used to specify which [certificate authorities (CAs)](/articles/what-is-certificate-authority/) are allowed to issue certificates for a domain.
 
-The purpose of the CAA record is to allow domain owners to declare which certificate authorities are allowed to issue a certificate for a domain. They also provide a means of indicating notification rules in case someone requests a certificate from an unauthorized certificate authority. If no CAA record is present, any CA is allowed to issue a certificate for the domain. If a CAA record is present, only the CAs listed in the record(s) are allowed to issue certificates for that hostname.
+CAA records allow domain owners to declare which certificate authorities are allowed to issue a certificate for a domain. They also provide a means of indicating notification rules in case someone requests a certificate from an unauthorized certificate authority. If no CAA record is present, any CA is allowed to issue a certificate for the domain. If a CAA record is present, only the CAs listed in the record(s) are allowed to issue certificates for that hostname.
 
 CAA records can set policy for the entire domain or for specific hostnames. CAA records are also inherited by subdomains. For example, a CAA record set on `example.com` also applies to any subdomain, like `subdomain.example.com` (unless overridden). CAA records can control the issuance of single-name certificates, wildcard certificates, or both.
 
@@ -101,7 +101,7 @@ beta.example.com.   CAA 0 issue "letsencrypt.org"
 beta.example.com.   CAA 0 issue "comodoca.com"
 ```
 
-In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there is a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
+In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there's a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
 
 <note>
 #### Comodo Wildcard Certificates
