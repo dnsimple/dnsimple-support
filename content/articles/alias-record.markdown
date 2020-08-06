@@ -19,7 +19,7 @@ categories:
 
 An **ALIAS** record is a virtual record type DNSimple created to provide [CNAME](/articles/cname-record)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
 
-For example, if your domain is example.com and you want it to point to a host name like `myapp.herokuapp.com`, you can't use a CNAME record, but you can use an ALIAS record. The ALIAS record will automatically resolve your domain to one or more A records at resolution time, and resolvers see your domain simply as if it had A records.
+For example, if your domain is example.com, and you want it to point to a host name like `myapp.herokuapp.com`, you can't use a CNAME record, but you can use an ALIAS record. The ALIAS record will automatically resolve your domain to one or more A records at resolution time, and resolvers see your domain as if it had A records.
 
 ## How ALIAS records work
 
