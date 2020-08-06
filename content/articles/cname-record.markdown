@@ -32,6 +32,9 @@ A CNAME record must always point to another domain name, never directly to an IP
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
 
+<note>
+DNSimple's record editor will warn you f you try to point a CNAME record to an IP address. The sidebar to the right of editing the CNAME encourages you to visit the support article to learn the difference between A, CNAME, ALIAS, and URL records. It also warns you that CNAMEs must be unique to other records. 
+</note>
 
 ## Restrictions
 
