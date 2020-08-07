@@ -38,7 +38,7 @@ The table below summarizes the most important differences between Let's Encrypt 
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|
-| Certificate Expiration | 90 days | Multi-year |
+| Certificate Expiration | 90 days | 1 year |
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
 | Multi-domain (via SAN) | Supported by default | Supported only by specific products |
