@@ -1,3 +1,4 @@
+
 ---
 title: What's a CNAME record?
 excerpt: CNAME records can be used to alias one name to another.
@@ -18,19 +19,18 @@ categories:
 
 **CNAME records** can be used to alias one name to another. CNAME stands for Canonical Name. 
 
-A common example is when you have both `example.com` and `www.example.com` pointing to the same application and hosted by the same server. In this case, to avoid maintaining two different records, it's common to create:
+A common example is when you have both `example.com` and `www.example.com` pointing to the same application and hosted by the same server. To avoid maintaining two different records, it's common to create:
 
 - An `A` record for `example.com` pointing to the server IP address
 - A `CNAME` record for `www.example.com` pointing to `example.com`
 
-As a result, `example.com` points to the server IP address, and `www.example.com` points to the same address via `example.com`. Should the IP address change, you only need to update it in one place: just edit the A record for `example.com`, and `www.example.com` automatically inherits the changes.
+As a result, `example.com` points to the server IP address, and `www.example.com` points to the same address via `example.com`. If the IP address changes, you only need to update it in one place: just edit the A record for `example.com`, and `www.example.com` automatically inherits the changes.
 
 <note>
-A CNAME record must always point to another domain name, never directly to an IP address.
+A CNAME record must always point to another domain name, never directly to an IP address. DNSimple's record editor will warn you if you try to point a CNAME record to an IP address. The sidebar to the right of editing the CNAME encourages you to visit the support article to learn the difference between A, CNAME, ALIAS, and URL records. It also warns you that CNAMEs must be unique to other records. 
 </note>
 
 The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035).
-
 
 ## Restrictions
 
@@ -68,15 +68,15 @@ In DNSimple, the CNAME record is represented by the following customizable eleme
 
 The CNAME record is sometimes improperly referred to as _redirect_, generally in the context of web (HTTP) redirects.
 
-There is no direct correlation between a CNAME and an HTTP redirect, nor does configuring CNAME automatically result in any HTTP redirect.
-In order to perform an HTTP redirect, the server responding to the HTTP request must be configured to return an appropriate HTTP response. This is not directly achievable using a CNAME.
+There's no direct correlation between a CNAME and an HTTP redirect, nor does configuring CNAME automatically result in any HTTP redirect.
+To perform an HTTP redirect, the server responding to the HTTP request must be configured to return an appropriate HTTP response. This is not directly achievable using a CNAME.
 
 You can learn more by reading the [differences between the A, CNAME, ALIAS and URL records](/articles/differences-between-a-cname-alias-url). DNSimple provides a special [URL record](/articles/url-record) that can be used to configure an HTTP redirect.
 
 
 ## Querying CNAME records
 
-You can use `dig` to determine the CNAME record associated to a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
+You can use `dig` in your terminal to determine the CNAME record associated to a domain name. The result contained in the `ANSWER` section has the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
 
 ```
 $ dig CNAME www.dnsimple.com
@@ -105,3 +105,4 @@ www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
 ## Manage CNAME records
 
 From the DNSimple record editor you can [add, remove, and update CNAME records](/articles/manage-cname-record).
+
