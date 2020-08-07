@@ -43,6 +43,7 @@ The DNS A record is specified by [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 The structure of an A record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
 
+| Element | Description |
 |:------------|:----------------------------------------------------------------------------|
 | domain-name | A domain name which specifies the canonical or primary name for the record. |
 
@@ -56,6 +57,7 @@ where `<domain-name>` is a fully-qualified domain name such as `example.com`.
 
 In DNSimple, the CNAME record is represented by the following customizable elements:
 
+| Element | Description |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | Name    | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
