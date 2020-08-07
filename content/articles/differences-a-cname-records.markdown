@@ -25,7 +25,7 @@ Let's use [our blog](https://blog.dnsimple.com/) as an example:
     aetrion.github.io.      CNAME   github.map.fastly.net.
     github.map.fastly.net.  A       185.31.17.133
 
-We use [GitHub Pages](http://pages.github.com/) and we set `blog.dnsimple.com` as a `CNAME` of `aetrion.github.io`, which is a `CNAME` of `github.map.fastly.net`, which is an `A` record pointing to `185.31.17.133`. This means `blog.dnsimple.com` resolves to `185.31.17.133`.
+We use [GitHub Pages](http://pages.github.com/), and we set `blog.dnsimple.com` as a `CNAME` of `aetrion.github.io`, which is a `CNAME` of `github.map.fastly.net`, which is an `A` record pointing to `185.31.17.133`. This means `blog.dnsimple.com` resolves to `185.31.17.133`.
 
 ## Which one to use
 
