@@ -11,7 +11,7 @@ categories:
 This article describes a feature that is only available to the [new plans](/articles/new-plans#newer-plans-only).
 </info>
 
-Yes – you can purchase a multi-year SSL certificate **until August 13, 2020 23:59 UTC** (see below for upcoming changes). You can select the number of years when [purchasing](/articles/ordering-standard-certificate) or [renewing](/articles/renewing-ssl-certificate) the SSL certificate.
+Yes – you can purchase a multi-year SSL certificate from now **until August 13, 2020 23:59 UTC** (see below for upcoming changes). You can select the number of years when [purchasing](/articles/ordering-standard-certificate) or [renewing](/articles/renewing-ssl-certificate) the SSL certificate.
 
 If you order a certificate for more than one year, the final price will be the certificate price multiplied by the number of years.
 
