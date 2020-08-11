@@ -19,7 +19,10 @@ Certain top level domains (TLDs) my be subject to the registrant meeting specifi
 
 ## Regulated TLDs
 
-For domain name registration in any "Regulated TLD", registrant must acknowledge and agree that the registration is subject to the following additional requirements: (a) comply with all applicable laws, including those that relate to privacy, data collection, consumer protection (including in relation to misleading and deceptive conduct), fair lending, debt collection, organic farming, disclosure of data, and financial disclosures; and (b) if the registrant collects and maintains sensitive health and financial data, they must implement reasonable and appropriate security measures commensurate with the offering of those services, as defined by applicable law.
+For domain name registration in any "Regulated TLD", registrant must acknowledge and agree that the registration is subject to the following additional requirements:
+
+- (a) comply with all applicable laws, including those that relate to privacy, data collection, consumer protection (including in relation to misleading and deceptive conduct), fair lending, debt collection, organic farming, disclosure of data, and financial disclosures; and 
+- (b) if the registrant collects and maintains sensitive health and financial data, they must implement reasonable and appropriate security measures commensurate with the offering of those services, as defined by applicable law.
 
 ## Regulated TLD List
 
@@ -27,7 +30,11 @@ For domain name registration in any "Regulated TLD", registrant must acknowledge
 
 ## Highly Regulated TLDs
 
-In addition to the requirements for Regulated TLDs, domain name registration in any "Highly-Regulated TLD" is subject to the following requirements: (a) registrant will provide administrative contact information, which must be kept up‐to‐date, for the notification of complaints or reports of registration abuse, as well as the contact details of the relevant regulatory or industry self‐regulatory bodies in their main place of business; (b) registrants represent that they possess any necessary authorizations, charters, licenses and/or other related credentials for participation in the sector associated with such Highly‐regulated TLD; and (c) registrants will report any material changes to the validity of registrant authorizations, charters, licenses and/or other related credentials for participation in the sector associated with the Highly‐regulated TLD to ensure you continue to conform to the appropriate regulations and licensing requirements and generally conduct the registrant's activities in the interests of the consumers they serve.
+In addition to the requirements for Regulated TLDs, domain name registration in any "Highly-Regulated TLD" is subject to the following requirements:
+
+- (a) registrant will provide administrative contact information, which must be kept up‐to‐date, for the notification of complaints or reports of registration abuse, as well as the contact details of the relevant regulatory or industry self‐regulatory bodies in their main place of business;
+- (b) registrants represent that they possess any necessary authorizations, charters, licenses and/or other related credentials for participation in the sector associated with such Highly‐regulated TLD; and
+- (c) registrants will report any material changes to the validity of registrant authorizations, charters, licenses and/or other related credentials for participation in the sector associated with the Highly‐regulated TLD to ensure you continue to conform to the appropriate regulations and licensing requirements and generally conduct the registrant's activities in the interests of the consumers they serve.
 
 ## Highly Regulated TLD List
 
