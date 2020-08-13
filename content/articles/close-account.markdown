@@ -7,7 +7,7 @@ categories:
 
 # Deleting Yourself as a User
 
-Deleting yourself as a user will permanently delete all your domains in all your accounts, records and all associated information.
+Deleting yourself as a user will permanently delete all of your domains in all of your accounts, records and all associated information.
 
 <warning>
 Once you delete yourself as a user, all your domains and records will be deleted. You'll no longer be able to request transfer codes or unlock registered domains to transfer them to another registrar.
