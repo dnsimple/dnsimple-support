@@ -9,7 +9,7 @@ categories:
 
 The **Product Expiration** email contains the list of products (purchased domains, certificates, and whois privacies) expiring within two months, grouped by expiration range.
 
-Emails about expirating products will be sent to the account email address. Changes in certificate [validation emails](/articles/ssl-certificates-email-validation/) or domain [contact](/articles/contact-management/) information won't affect your expiration notification emails.
+Emails about expiring products will be sent to the account email address. Changes in certificate [validation emails](/articles/ssl-certificates-email-validation/) or domain [contact](/articles/contact-management/) information won't affect your expiration notification emails.
 
 ![Email](/files/notifications-expiring.png)
 
