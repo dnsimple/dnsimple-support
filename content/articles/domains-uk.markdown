@@ -124,7 +124,11 @@ To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [
 
 ## Updating the registrant name
 
-It is possible to change most values in the Whois record for a UK domain, but the registrant name should generally be changed through Nominet's Online Services (Nominet is the Registry for UK domains). It is possible to [register for Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) with the email address you have in your registrant information and update the value for the registrant name with them. Of course, you may contact us with any questions about the process and we'll be happy to assist you in every way we can.
+A change of ownership (classified as a change in "Organization Name" for organizations, "First/Last Name" for individuals) **must** be changed through Nominet's Online Services (Nominet is the Registry for UK domains). You can [register for Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) using the email address listed as the domain's Contact in your DNSimple dashboard. For organizations, ensure the "Registrant" and "Trading As" names *both* match the contact's Organization Name from your DNSimple dashboard. 
+
+![Updating the registrant name](/files/uk-ownership.png)
+
+If you make this change at Nominet, please [contact us](https://dnsimple.com/contact) so we can synchronize the information in your DNSimple dashboard.
 
 ## Troubleshooting
 
