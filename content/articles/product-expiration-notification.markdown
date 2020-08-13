@@ -1,13 +1,13 @@
 ---
 title: Product Expiration Notification
-excerpt: The Product Expiration email contains a list of products expiring within 2 months, grouped by expiration range.
+excerpt: The Product Expiration email contains a list of products expiring within two months, grouped by expiration range.
 categories:
 - DNSimple
 ---
 
 # "Product Expiration" Notification
 
-The **Product Expiration** email contains the list of products (purchased domains, certificates, and whois privacies) expiring within 2 months, grouped by expiration range.
+The **Product Expiration** email contains the list of products (purchased domains, certificates, and whois privacies) expiring within two months, grouped by expiration range.
 
 Emails about expirating products will be sent to the account email address. Changes in certificate [validation emails](/articles/ssl-certificates-email-validation/) or domain [contact](/articles/contact-management/) information won't affect your expiration notification emails.
 
