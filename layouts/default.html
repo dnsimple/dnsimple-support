@@ -83,7 +83,7 @@
       .getElementById('main')
       .querySelectorAll('h2, h3')
       .forEach(function (heading) {
-        if (heading.id === 'toc') return;
+        if (!heading.id || heading.id === 'toc') return;
         const link = document.createElement('a');
         link.setAttribute('href', '#' + heading.id);
         link.className = 'f7 o-80 no-underline dib w2 ml1 ml0-ns nl4-ns fr fn-ns v-mid';
