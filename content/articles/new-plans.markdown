@@ -58,12 +58,6 @@ You can check your plan type from your account page. It's immediately visible on
 
 ![](/files/account-plan-info.png)
 
-If you're using a legacy plan, a yellow banner will appear at the top of the screen.
-
-![](/files/account-plan-legacy.png)
-
-You can click on <label>learn more</label> to get additional information about current plans and how to upgrade.
-
 ## Current plans vs Legacy plans
 
 The main difference between legacy plans and current plans is the structure. With legacy plans, we charged you based on how many domains you had in your account. Now, [our plans](https://dnsimple.com/pricing) are based on the features you need. 
@@ -86,13 +80,13 @@ In most cases, the price for current plans is similar to the price of second-gen
 
 Compared to first-generation legacy plans, some customers may notice a larger price increase (especially Gold v1). We introduced first-generation plans in 2010 when DNSimple's infrastructure was simpler and less expensive to maintain.
 
-Over the last six years we've invested heavily in DDoS protection, Anycast DNS, and additional infrastructure.  We continue working to provide advanced features, like easy-to-use SSL certificates and Secondary DNS. Our current plans improve the service for all our customers, and help DNSimple grow .
+Since then, we've invested heavily in DDoS protection, Anycast DNS, and additional infrastructure.  We continue working to provide advanced features, like easy-to-use SSL certificates and Secondary DNS. Our current plans improve the service for all our customers, and help DNSimple grow .
 
 ## Features only on current plans {#newer-plans-only}
 
-Many features are only made available on [current plans](#newer-plans): Personal, Professional, Business, and Reseller plans.
+All new features are only available on [current plans](#newer-plans): Personal, Professional, Business, and Reseller plans.
 
-If you see a _newer plan warning_ banner at the top of a support article, it means your account must be subscribed to one of the current plans in order to use the feature. If you're using a legacy plan, such as Bronze, Silver, or Gold, you can upgrade to the appropriate plan, and the feature will immediately be available to you.
+If you're using a legacy plan, such as Bronze, Silver, or Gold, you can upgrade to the appropriate plan, and the feature will immediately be available to you.
 
 ## Features only on certain tiers of current plans {#newer-plans-some}
 
