@@ -14,7 +14,7 @@ categories:
 
 ---
 
-In June 2015 [we released one of our largest upgrades to our platform](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/) that introduced several new features, like multiple accounts, teams, and regional records. With the release of the multi-account feature, we also changed our plan structure.
+In June 2015, [we released one of our largest upgrades to our platform](https://blog.dnsimple.com/2015/06/multiple-accounts-new-plans-and-new-features/), introducing several new features, like multiple accounts, teams, and regional records. With the release of the multi-account feature, we also changed our plan structure.
 
 This article explains the main differences between the pre-2015 plans and current plans.
 
@@ -46,7 +46,7 @@ Current plans are:
 - Professional
 - Business
 
-We also have reseller plans for customers that plan to manage 100 domains or more:
+We also have reseller plans for customers who manage 100 domains or more:
 
 - Expert Reseller
 - Master Reseller
@@ -54,13 +54,13 @@ We also have reseller plans for customers that plan to manage 100 domains or mor
 
 ## Identify the plan type
 
-You can check your plan type from your account page. It's immediately visible on the main account page – just select the account you want to check. 
+You can check your plan type from your account page:
 
 ![](/files/account-plan-info.png)
 
 ## Current plans vs Legacy plans
 
-The main difference between legacy plans and current plans is the structure. With legacy plans, we charged you based on how many domains you had in your account. Now, [our plans](https://dnsimple.com/pricing) are based on the features you need. 
+The main difference between legacy plans and current plans is the structure. With legacy plans, we charged based on how many domains were in your account. Now, [our plans](https://dnsimple.com/pricing) are based on the features you need. 
 
 The Personal plan is our most affordable offering, and includes the features necessary for a single person. The Professional and Business plans include features organizations commonly request, like multi-user accounts and the ability to configure different billing addresses.
 
@@ -68,7 +68,7 @@ Plans no longer have domain limits. So even if you have more domains than averag
 
 Each plan includes five domains. We charge a small fee per domain for extra domains, based on the plan. If you have a substantial number of domains, you should consider one of our [reseller plans](https://dnsimple.com/reseller). Reseller plans have a higher monthly cost compared to standard plans, but they have a larger discount on the price-per-domain.
 
-We've written a few articles to clarify the difference between old plans and current plans:
+We've written a few articles to clarify the differences between old plans and current plans:
 
 - [I'm a Bronze customer](/articles/new-plans-for-bronze)
 - [I'm a Silver customer](/articles/new-plans-for-silver)
@@ -76,17 +76,17 @@ We've written a few articles to clarify the difference between old plans and cur
 
 ## Price differences
 
-In most cases, the price for current plans is similar to the price of second-generation legacy plans. Depending on the number of domains in your account, current plans may even be less expensive.
+In most cases, the price for current plans is similar to the price of second-generation legacy plans. Depending on the number of domains in your account, current plans may even be more cost-effective.
 
-Compared to first-generation legacy plans, some customers may notice a larger price increase (especially Gold v1). We introduced first-generation plans in 2010 when DNSimple's infrastructure was simpler and less expensive to maintain.
+Compared to first-generation legacy plans, some customers may notice a larger price increase (especially Gold v1). We introduced first-generation plans in 2010, when DNSimple's infrastructure was simpler and cheaper to maintain.
 
-Since then, we've invested heavily in DDoS protection, Anycast DNS, and additional infrastructure.  We continue working to provide advanced features, like easy-to-use SSL certificates and Secondary DNS. Our current plans improve the service for all our customers, and help DNSimple grow .
+Since then, we've invested heavily in DDoS protection, Anycast DNS, and additional infrastructure. We continue working to provide advanced features, like easy-to-use SSL certificates and Secondary DNS. Our current plans improve the service for all our customers.
 
 ## Features only on current plans {#newer-plans-only}
 
-All new features are only available on [current plans](#newer-plans): Personal, Professional, Business, and Reseller plans.
+All new features are only available on [current plans](#newer-plans): Personal, Professional, Business, and Reseller.
 
-If you're using a legacy plan, such as Bronze, Silver, or Gold, you can upgrade to the appropriate plan, and the feature will immediately be available to you.
+If you're using a legacy plan, like Bronze, Silver, or Gold, you can upgrade to the appropriate plan, and the feature will immediately be available to you.
 
 ## Features only on certain tiers of current plans {#newer-plans-some}
 
@@ -96,4 +96,4 @@ If you see a _some-plans warning_ banner at the top of a support article, make s
 
 Some advanced features are only available in higher-tier plans. If you need the feature on a limited number of domains, you may want to [use multiple accounts to segment the business](https://blog.dnsimple.com/2015/12/using-accounts-to-segment-business/).
 
-For example, if you need [vanity name servers](/articles/vanity-nameservers) only on 3-4 domains, create a separate account with these domains, and subscribe  it to the Business plan. Leave the other domains on a lower plan, such as Professional, and you'll only pay the for the feature on domains where you actually use it.
+For example, if you have multiple domains, but only need [vanity name servers](/articles/vanity-nameservers) on a few of them, create a separate account with these domains, and subscribe it to the Business plan. Leave the other domains on a lower plan, such as Professional. You'll only pay the for the feature on domains where you actually use it.
