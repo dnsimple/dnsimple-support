@@ -5,7 +5,7 @@ categories:
 - Domains
 ---
 
-# Regulated and highly-regulated Top-Level Domains
+# Regulated and Highly-Regulated Top-Level Domains
 
 ### Table of Contents {#toc}
 
