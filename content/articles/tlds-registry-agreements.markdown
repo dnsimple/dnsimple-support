@@ -1,11 +1,11 @@
 ---
-title: Registry Agreements for Top Level Domains
+title: Registry Agreements for Top-Level Domains
 excerpt: Links to registry agreement pages for supported TLDs.
 categories:
 - Domains
 ---
 
-# Registry Agreements for Top Level Domains
+# Registry Agreements for Top-Level Domains
 
 ### Table of Contents {#toc}
 
