@@ -7,10 +7,10 @@ categories:
 
 # Change Subscription Plan
 
-As a DNSimple customer you may require of features that you don't have access to from your current plan. Here is what you should do to subscribe to a different plan.
+As a DNSimple customer you may require features that are not available on your current plan. These steps will walk you through changing to the most appropriate subscription to meet your current needs.
 
 <info>
-When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount doesn't consider extras like email forwards or extra zones which you will be billed for again as part of the plan change.
+When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount doesn't consider extras, like email forwards or extra zones, which you will be billed for again as part of the plan change.
 </info>
 
 <div class="section-steps" markdown="1">
