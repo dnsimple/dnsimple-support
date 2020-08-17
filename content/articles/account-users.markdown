@@ -1,11 +1,11 @@
 ---
-title: Multi-User Accounts
-excerpt: How to manage the users on a DNSimple account.
+title: Multi-Member Accounts
+excerpt: How to manage the members on a DNSimple account.
 categories:
 - Account
 ---
 
-# Managing Multiple Users on One Account
+# Managing Multiple Members on One Account
 
 ### Table of Contents {#toc}
 
@@ -15,12 +15,12 @@ categories:
 ---
 
 <info>
-To have multiple users on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
+To have multiple users, or members, on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
-A DNSimple account can be associated with one or more users. When you add a user to an account, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
+A DNSimple account can be associated with one or more members. When you add a member to an account, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
-All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The user will retain their login credentials and two-factor authentication configuration.
+All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The member will retain their login credentials and two-factor authentication configuration.
 
 
 ## Adding members to an account
@@ -38,11 +38,11 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they're a DNSimple user or not. They'll receive an email inviting them to join the account. 
+1. Enter the email address of the member you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join the account. 
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. the invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it, or remove it. Removing it will cancel the invitation immediately, and the user will no longer be able to accept it.
+1. The invitation will appear in the pending invitation section until the member accepts it. If there's something wrong with the invite, you can resend it, or remove it. Removing it will cancel the invitation immediately, and the member will no longer be able to accept it.
 
 </div>
 
