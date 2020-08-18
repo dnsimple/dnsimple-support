@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-To have multiple users, or members, on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
+To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
 A DNSimple account can be associated with one or more users. When you add someone to an account as a member, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
