@@ -49,7 +49,7 @@ All members will also have full-admin access to the account, including the abili
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you have an account with multiple members but want to remove one, you should switch to the account, and visit the settings from the menu.
+1. If you want to remove a member from your account, you should switch to the account, and visit the settings from the menu.
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
