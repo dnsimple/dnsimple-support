@@ -42,7 +42,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it, or remove it. Removing it will cancel the invitation immediately, and the user will no longer be able to accept it.
+1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it or remove it. Removing it will cancel the invitation immediately. The user will no longer be able to accept it.
 
 </div>
 
