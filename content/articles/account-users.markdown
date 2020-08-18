@@ -38,11 +38,11 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join the account. 
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. 
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it or remove it. Removing it will cancel the invitation immediately. The user will no longer be able to accept it.
+1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it or remove it. Removing it will cancel the invitation immediately. They'll no longer be able to accept it.
 
 </div>
 
@@ -59,6 +59,6 @@ All members will also have full-admin access to the account, including the abili
 
 1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them. 
 
-1. Once you've removed them from the account, the user should no longer show up on the members tab.
+1. Once you've removed them from the account, that user should no longer show up on the members tab.
 
 </div>
