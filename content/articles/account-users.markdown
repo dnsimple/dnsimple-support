@@ -1,6 +1,6 @@
 ---
-title: Multi-Member Accounts
-excerpt: How to manage the members on a DNSimple account.
+title: Multi-User Accounts
+excerpt: How to manage the members on a multi-user DNSimple account.
 categories:
 - Account
 ---
@@ -18,9 +18,9 @@ categories:
 To have multiple users, or members, on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
-A DNSimple account can be associated with one or more members. When you add a member to an account, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
+A DNSimple account can be associated with one or more users. When you add someone to an account as a member, they will have full access rights to every resource attached to the account, including domains, contacts, SSL certificates, etc.
 
-All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The member will retain their login credentials and two-factor authentication configuration.
+All members will also have full-admin access to the account, including the ability to access and change billing information and account details. The member will retain their unique login credentials and two-factor authentication configuration.
 
 
 ## Adding members to an account
@@ -38,18 +38,18 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the member you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join the account. 
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join the account. 
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. The invitation will appear in the pending invitation section until the member accepts it. If there's something wrong with the invite, you can resend it, or remove it. Removing it will cancel the invitation immediately, and the member will no longer be able to accept it.
+1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it, or remove it. Removing it will cancel the invitation immediately, and the user will no longer be able to accept it.
 
 </div>
 
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you have an account with multiple members, but want to remove one, you should switch to the account and visit the settings for it from the menu.
+1. If you have an account with multiple members but want to remove one, you should switch to the account, and visit the settings from the menu.
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
@@ -57,8 +57,8 @@ All members will also have full-admin access to the account, including the abili
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove this member.
+1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them. 
 
-1. Once you've removed them from the account, the member should no longer show up on the members tab.
+1. Once you've removed them from the account, the user should no longer show up on the members tab.
 
 </div>
