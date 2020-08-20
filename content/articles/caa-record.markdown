@@ -50,7 +50,7 @@ The RFC currently defines three available tags:
 - `issuewild`: explicitly authorizes a single certificate authority to issue a wildcard certificate (and only wildcard) for the hostname.
 - `iodef`: specifies a URL to which a certificate authority may report policy violations.
 
-Please, note that `issuewild` tags take precedence over `issue` tags when specified. This means that, once there is one CAA record with the `issuewild` tag in place, regardless of its value, wildcard certificate requests will be rejected unless there's a specific CAA record with the `issuewild` tag for that CA and the requested hostname.
+Please note that `issuewild` tags take precedence over `issue` tags when specified. This means that once there is one CAA record with the `issuewild` tag in place regardless of its value, wildcard certificate requests will be rejected unless there's a specific CAA record with the `issuewild` tag for that CA and the requested hostname.
 
 In DNSimple, the CAA record is represented by the following customizable elements:
 
