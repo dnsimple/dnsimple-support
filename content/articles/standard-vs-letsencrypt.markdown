@@ -28,7 +28,7 @@ The table only reflects the status of the current DNSimple offering. Some featur
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|
-Certificate Expiration | 90 days | Multi-year
+Certificate Expiration | 90 days | 1 year
 Single names | Supported | Supported
 Custom names | Supported (on certain plans) | Supported
 Wildcard names | Supported (on certain plans) | Supported
@@ -48,7 +48,7 @@ You want to secure a domain name. | **Let's Encrypt** or **Standard**
 You want to provide a custom CSR | **Standard**
 You want to use a custom private key. | **Standard**
 You want to use a wildcard name. | **Let's Encrypt** or **Standard**
-You want a longer multi-year expiration. | **Standard**
+You want a longer expiration. | **Standard**
 You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt**
 Your domain is resolving with DNSimple. | **Let's Encrypt** or **Standard**
 Your domain is NOT resolving with DNSimple. | **Standard**

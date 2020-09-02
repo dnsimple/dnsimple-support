@@ -55,7 +55,7 @@ Let's Encrypt is different from most traditional certificate authorities. Here a
 - Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There's no plan to support <acronym title="Organization Validated">OV</acronym> or <acronym title="Extended Validation">EV</acronym> certificates.
 - Let's Encrypt supports both single-name and wildcard names.
 - A single Let's Encrypt certificate can include up to 100 SAN names. Names can be single-name, wildcard names, or both.
-- Let's Encrypt certificates have a fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, so it's not possible to obtain 1-year or [multi-year](/articles/can-multi-year-ssl-certificates) SSL certificates.
+- Let's Encrypt certificates have a fixed expiration period of 90 days. It's not possible to request a certificate with a longer expiration, whereas most CAs will issue certificates valid for up to 1 year.
 - Although Let's Encrypt is a new authority, their SSL certificates are [compatible with major browsers](https://letsencrypt.org/docs/certificate-compatibility/) and [trusted by all major root programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html).
 - Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation).
 - Let's Encrypt [rate-limits](https://letsencrypt.org/docs/rate-limits/) requests. Make sure you understand their limits before requesting a large number of certificates.
