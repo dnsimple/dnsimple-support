@@ -7,6 +7,6 @@ categories:
 
 # Can I purchase an SSL certificate for more than one year?
 
-Since August 14, 2020, it's no longer possible to purchase certificates for a period longer than one year. [As explained in this article](https://blog.dnsimple.com/2020/08/ssl-certificates-1-year/), with the ballot SC31 the CA/B forum has effectively prohibited Certificate Authorities to issues certificates valid for more than 397 days, with effective date September 1, 2020.
+As of August 14, 2020, it's no longer possible to purchase certificates for a period of longer than one year. [As explained in this article](https://blog.dnsimple.com/2020/08/ssl-certificates-1-year/), with ballot SC31, the CA/B forum has effectively prohibited Certificate Authorities from issuing certificates that are valid for longer than 397 days, effective September 1, 2020.
 
-Please note that this is an industry-standard requirement, and applies to any certificate authority or reseller, and not just to DNSimple.
+This is an industry-standard requirement. It applies to any Certificate Authority or reseller, and not just to DNSimple.
