@@ -28,7 +28,7 @@ wildcard
 ```
 
 <warning>
-When ordering a wildcard SSL certificate, the wildcard (*) will _only_ secure subdomains. A wildcard certificate cannot secure the root (such as example.com). If you want to secure both the root domain and subdomains, you will also need to [order an additional certificate](articles/getting-started-ssl-certificates/).
+When ordering a wildcard SSL certificate, the wildcard (*) will _only_ secure subdomains. A wildcard certificate cannot secure the root (such as example.com). If you want to secure both the root domain and subdomains, you will need to [order an additional certificate](articles/getting-started-ssl-certificates/).
 </warning>
 
 ## Let's Encrypt or Standard
