@@ -1,77 +1,78 @@
-(function(){
+var articles = [];
+var MAX_RESULTS = 30;
+var MIN_SCORE = 15;
+var PUNCTUATION = /['";:.()?-]/g;
+var rootURL = "https://support.dnsimple.com";
 
-  // Decodes query parameter for search
-  var parseQueryParams = function() {
-    return decodeURIComponent(window.location.search.substring(3).replace(/\+/g, " "));
-  };
+var articleScore = function articleScore(article, q) {
+  if (!q) return 0;
+  var score = 0;
+  if (article.searchTitle.indexOf(q) !== -1) score += 75;
+  if (article.searchBody.indexOf(q) !== -1) score += 50;
+  var words = q.split(/\s+/).filter(function (str) {
+    return str.length > 1;
+  });
 
-  // Show query on page
-  document.getElementById("js-query").innerText = parseQueryParams();
+  for (var i = words.length - 1; i >= 0; i--) {
+    if (article.searchTitle.indexOf(words[i]) !== -1) score += 15;
+    if (article.searchBody.indexOf(words[i]) !== -1) score += 5;
+  }
 
-  // Vars for Lunr article titles and search index
-  var titles = [];
-  var searchIndex = null;
+  return score;
+};
 
-  // Initialize Lunr's Index
-  var initIndex = function(data) {
-    searchIndex = lunr(function(){
-      this.ref('id');
-      this.field('title', {boost: 10});
-      this.field('subtitle', {boost: 5});
-      this.field('body');
+var prepArticles = function prepArticles(articles) {
+  var article;
+  articles.forEach(function (article) {
+    article.searchTitle =
+      article.searchTitle ||
+      (article.title || "").toLowerCase().replace(PUNCTUATION, "");
+    article.searchBody =
+      article.searchBody ||
+      (article.body || "").toLowerCase().replace(PUNCTUATION, "");
+    article.body = fixRelativeImgSrcs(article.body);
+    article.categories = article.categories || [];
+  });
+  return articles;
+};
 
-      for (item of data) {
-        this.add(item);
-        titles[item.id] = item.title;
-      }
+var fixRelativeImgSrcs = function fixRelativeImgSrcs(str) {
+  return str.replace(
+    /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
+    'src="' + rootURL + '$1"'
+  );
+};
+
+var search = function search(q, options) {
+  if (!q) return [];
+  var category;
+  if (q[0] === "/")
+    return articles.filter(function (article) {
+      return article.id === q;
     });
+  else if (q.slice(0, 4) === "cat:") {
+    category = q.slice(4).trim();
+    q = category;
   }
+  q = q.toLowerCase().trim();
+  return articles
+    .filter(function (article) {
+      return !category || article.categories.indexOf(category) !== -1;
+    })
+    .filter(function (article) {
+      article.score = articleScore(article, q);
+      return article.score > MIN_SCORE;
+    })
+    .filter(function (article, index) {
+      return index <= MAX_RESULTS;
+    })
+    .sort(function (a, b) {
+      if (a.score > b.score) return -1;
+      if (a.score < b.score) return 1;
+      return 0;
+    });
+};
 
-  // Search Lunr's index based on the query parameter
-  var search = function() {
-    return searchIndex.search(parseQueryParams());
-  }
-
-  // Display results on page
-  var render = function(results) {
-    var el = document.getElementById("js-result-list");
-    el.innerHTML = "";
-
-    if (results.length == 0) {
-      el.innerHTML = "No results found";
-    }
-
-    for (item of results) {
-      var ref = item.ref;
-      var li = document.createElement("li");
-      var a = document.createElement("a");
-      a.href = ref;
-      a.innerHTML = titles[ref];
-      li.appendChild(a);
-      el.append(li);
-    }
-  }
-
-  // Get the data to index from server
-  var retrieveData = function() {
-    var request = new XMLHttpRequest();
-    request.open('GET', '/search.json', true);
-    request.onload = function() {
-      if (request.status >= 200 && request.status < 400) {
-        var data = JSON.parse(request.responseText);
-        initIndex(data);
-        render(search());
-      } else {
-        document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
-      }
-    };
-    request.onerror = function() {
-      document.getElementById("js-result-list").innerHTML = "Sorry, the search is broken at this time. Please contact support.";
-    };
-    request.send();
-  }
-
-  // Search!
-  retrieveData();
-
-})();
+prepArticles(articles);
+window.DNSimpleSupport = window.DNSimpleSupport || {};
+window.DNSimpleSupport.search = search;

@@ -30,7 +30,7 @@
               <img src="/assets/images/dnsimple-logo-support.svg" class="v-mid" alt="DNSimple Help">
             </a>
             <form action="/search/" class="relative w-100 w-70-ns js-search-form pl3-ns pt2 pt0-ns" method="get">
-              <input type="search" name="q" value="" class="input-search input-reset outline-0 w-100 ba br-pill b--black-20 pv2 ph3" placeholder="Search anything in our support docs">
+              <input type="search" name="q" value="" id="input-search" class="input-search input-reset outline-0 w-100 ba br-pill b--black-20 pv2 ph3" placeholder="Search anything in our support docs" autocomplete="off">
               <button type="submit" class="button-reset pv2 mt2 mt0-ns btn-input-search">
                 <i class="fa fa-search v-mid"></i>
               </button>
@@ -91,6 +91,9 @@
         heading.prepend(link);
       });
   </script>
+
+  <script src="/assets/js/search.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/assets/js/show-results.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
 </html>
