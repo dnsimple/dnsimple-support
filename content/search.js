@@ -57,19 +57,19 @@
     );
   };
 
-  var dictionaryTermMatches = function dictionaryTermMatches(q, key) {
-    var matches = key.indexOf(q) === 0,
-        firstSpace = key.indexOf(' '),
-        hasSpace = firstSpace !== -1;
+  var dictionaryTermMatches = function dictionaryTermMatches(q, term) {
+    var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0,
+        firstSpace = term.indexOf(' '),
+        termHasSpace = firstSpace !== -1;
 
-    return (!hasSpace && matches) || (hasSpace && matches && firstSpace < q.length);
+    return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
   }
 
   var applyDictionary = function applyDictionary(q) {
-    if (q.length > 3) {
-      for (var key in DICTIONARY) {
-        if (dictionaryTermMatches(q, key)) {
-          return DICTIONARY[key];
+    if (q.length >= 3) {
+      for (var term in DICTIONARY) {
+        if (dictionaryTermMatches(q, term)) {
+          return DICTIONARY[term];
         }
       }
     }
