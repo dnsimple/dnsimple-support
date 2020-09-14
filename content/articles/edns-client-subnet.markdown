@@ -19,7 +19,7 @@ This article explains what EDNS Client Subnet support is, and how it's configure
 
 ## How ECS Works:
 
-EDNS Client Subnet support is a mechanism defined in [RFC7871] (https://tools.ietf.org/html/rfc7871) for recursive resolvers to send partial client IP address information to authoritative DNS nameservers.
+EDNS Client Subnet support is a mechanism defined in [RFC7871](https://tools.ietf.org/html/rfc7871) for recursive resolvers to send partial client IP address information to authoritative DNS nameservers.
 
 Latency-sensitive services like Content Delivery Networks (CDNs) use this information to provide accurate geo-location aware responses when answering name lookups coming from the recursive resolvers based at your Internet Service Provider (ISP) or public resolvers as Google Public DNS (8.8.8.8) service. DNSimple implemented an RFC7871 compliant solution to support these types of DNS queries at our authoritative DNS servers for customers using ALIAS records.
 
