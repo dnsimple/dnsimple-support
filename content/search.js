@@ -1,4 +1,4 @@
-var articles = [];
+var ARTICLES = [];
 var DICTIONARY = {};
 var MAX_RESULTS = 30;
 var MIN_SCORE = 15;
@@ -37,12 +37,14 @@ var articleScore = function articleScore(article, q) {
 
 var prepArticles = function prepArticles(articles) {
   var article;
-  articles.forEach(function (article) {
+
+  ARTICLES.forEach(function (article) {
     article.searchTitle = article.searchTitle || (article.title || "").toLowerCase().replace(PUNCTUATION, "");
     article.searchBody = article.searchBody || (article.body || "").toLowerCase().replace(PUNCTUATION, "");
     article.body = fixRelativeImgSrcs(article.body);
     article.categories = article.categories || [];
   });
+
   return articles;
 };
 
@@ -94,7 +96,7 @@ var search = function search(q, options) {
 
   q = q.toLowerCase().trim();
 
-  return articles
+  return ARTICLES
     .filter(function (article) {
       return !category || article.categories.indexOf(category) !== -1;
     })
