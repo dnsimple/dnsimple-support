@@ -5,95 +5,89 @@
   var MIN_SCORE = 15;
   var PUNCTUATION = /['";:.()?-]/g;
   var WHITESPACE = /\s+/;
-  var rootURL = "https://support.dnsimple.com";
+  var rootURL = 'https://support.dnsimple.com';
 
-  var articleScore = function articleScore(article, q) {
+  var articleScore = function articleScore (article, q) {
     if (!q) return 0;
 
     var score = 0;
 
-    if (article.searchTitle.indexOf(q) !== -1) {
+    if (article.searchTitle.indexOf(q) !== -1)
       score += 75;
-    }
 
-    if (article.searchBody.indexOf(q) !== -1) {
+    if (article.searchBody.indexOf(q) !== -1)
       score += 50;
-    }
 
     var words = q.split(WHITESPACE).filter(function (str) {
       return str.length > 1;
     });
 
     for (var i = words.length - 1; i >= 0; i--) {
-      if (article.searchTitle.indexOf(words[i]) !== -1) {
+      if (article.searchTitle.indexOf(words[i]) !== -1)
         score += 15;
-      }
 
-      if (article.searchBody.indexOf(words[i]) !== -1) {
+      if (article.searchBody.indexOf(words[i]) !== -1)
         score += 5;
-      }
     }
 
     return score;
   };
 
-  var prepArticles = function prepArticles(articles) {
-    var article;
-
-    ARTICLES.forEach(function (article) {
-      article.searchTitle = article.searchTitle || (article.title || "").toLowerCase().replace(PUNCTUATION, "");
-      article.searchBody = article.searchBody || (article.body || "").toLowerCase().replace(PUNCTUATION, "");
-      article.body = fixRelativeImgSrcs(article.body);
+  var loadArticles = function loadArticles (articles) {
+    return articles.map(function (article) {
+      article.searchTitle = article.searchTitle || (article.title || '').toLowerCase().replace(PUNCTUATION, '');
+      article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
+      article.body = fixRelativeImgSrcs(article.body || '');
       article.categories = article.categories || [];
-    });
 
-    return articles;
+      return article;
+    });
   };
 
-  var fixRelativeImgSrcs = function fixRelativeImgSrcs(str) {
+  var fixRelativeImgSrcs = function fixRelativeImgSrcs (str) {
     return str.replace(
       /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
       'src="' + rootURL + '$1"'
     );
   };
 
-  var dictionaryTermMatches = function dictionaryTermMatches(q, term) {
-    var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0,
-        firstSpace = term.indexOf(' '),
-        termHasSpace = firstSpace !== -1;
+  var dictionaryTermMatches = function dictionaryTermMatches (q, term) {
+    var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0;
+    var firstSpace = term.indexOf(' ');
+    var termHasSpace = firstSpace !== -1;
 
     return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
-  }
+  };
 
-  var applyDictionary = function applyDictionary(q) {
-    if (q.length >= 3) {
-      for (var term in DICTIONARY) {
-        if (dictionaryTermMatches(q, term)) {
-          return DICTIONARY[term];
-        }
-      }
-    }
+  var applyDictionary = function applyDictionary (dictionary, q) {
+    if (q.length >= 3)
+      for (var term in dictionary)
+        if (dictionaryTermMatches(q, term))
+          return dictionary[term];
 
     return q;
   };
 
-  var search = function search(q, options) {
+  var search = function search (q, articles, dictionary) {
     q = (q || '').toLowerCase().trim();
-    q = applyDictionary(q);
+    q = applyDictionary(dictionary || DICTIONARY, q);
 
     if (!q) return [];
 
+    articles = (articles || ARTICLES);
+
     var category;
 
-    if (q.slice(0, 4) === "cat:") {
+    if (q.slice(0, 4) === 'cat:') {
       category = q.slice(4).trim();
       q = category;
+
+      return articles.filter(function (article) {
+        return !category || article.categories.indexOf(category) !== -1;
+      });
     }
 
-    return ARTICLES
-      .filter(function (article) {
-        return !category || article.categories.indexOf(category) !== -1;
-      })
+    return articles
       .filter(function (article) {
         article.score = articleScore(article, q);
         return article.score > MIN_SCORE;
@@ -108,8 +102,19 @@
       });
   };
 
-  prepArticles(ARTICLES);
+  if (typeof module === 'object' && typeof module.exports === 'object')
+    module.exports = {
+      search: search,
+      applyDictionary: applyDictionary,
+      articleScore: articleScore,
+      loadArticles: loadArticles,
+      fixRelativeImgSrcs: fixRelativeImgSrcs,
+      dictionaryTermMatches: dictionaryTermMatches
+    };
+  else {
+    window.DNSimpleSupport = window.DNSimpleSupport || {};
+    window.DNSimpleSupport.search = search;
 
-  window.DNSimpleSupport = window.DNSimpleSupport || {};
-  window.DNSimpleSupport.search = search;
+    loadArticles(ARTICLES);
+  }
 })();
