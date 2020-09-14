@@ -1,25 +1,24 @@
 (function () {
-  var $main = document.getElementById('main');
-  var $input = document.getElementById('input-search');
-
-  var parseQueryParams = function parseQueryParams () {
-    return decodeURIComponent(
-      window.location.search.substring(3).replace(/\+/g, ' ')
-    );
+  var parseQueryParams = function parseQueryParams (search) {
+    var match = search.match(/q=([^&=$]+)/g);
+    return match ? decodeURIComponent(match[0].split('=')[1]) : '';
   };
 
-  var search = function search (q) {
+  var search = function search ($input, q) {
     $input.value = q;
     return window.DNSimpleSupport.search(q);
   };
 
-  var showResults = function showResults (q) {
-    var results = search(q);
+  var showResults = function showResults ($main, $input, q) {
+    var results = search($input, q);
     var $results = document.createElement('div');
     var $h1 = document.createElement('h1');
     var $ul = document.createElement('ul');
+
     $h1.innerText = 'Search results';
-    if (q.length) $h1.innerText += ' for "' + q + '"';
+
+    if (q.length)
+      $h1.innerText += ' for "' + q + '"';
 
     if (results.length === 0) {
       var $li = document.createElement('li');
@@ -35,22 +34,32 @@
       $li.appendChild($a);
       $ul.append($li);
     });
+
     $results.appendChild($h1);
     $results.appendChild($ul);
+
     $main.innerHTML = '';
     $main.appendChild($results);
+
+    return $results;
   };
 
-  var q = parseQueryParams();
-  if (q.length) showResults(q);
+  if (typeof module === 'object' && typeof module.exports === 'object')
+    module.exports = {
+      parseQueryParams: parseQueryParams,
+      search: search,
+      showResults: showResults
+    };
+  else {
+    var $main = document.getElementById('main');
+    var $input = document.getElementById('input-search');
+    var q = parseQueryParams(window.location.search);
 
-  $input.oninput = function (e) {
-    return showResults($input.value);
-  };
+    if (q.length)
+      showResults($main, $input, q);
 
-  return {
-    parseQueryParams: parseQueryParams,
-    search: search,
-    showResults: showResults
-  };
+    $input.oninput = function (e) {
+      showResults($main, $input, $input.value);
+    };
+  }
 })();
