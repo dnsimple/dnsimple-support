@@ -27,7 +27,7 @@ task :compile => [:clean] do
 end
 
 desc "Publish"
-task :publish => [:test, :compile, :imgoptim] do
+task :publish => [:test, :compile] do
   puts "Published"
 end
 
