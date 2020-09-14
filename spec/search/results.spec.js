@@ -1,6 +1,6 @@
 const subject = require('../../content/search/results.js');
 
-describe('Search', () => {
+describe('Results', () => {
   describe('.parseQueryParams', () => {
     test('can be parsed', () => {
       const param = subject.parseQueryParams('?q=dns&another=param');
