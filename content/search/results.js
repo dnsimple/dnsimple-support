@@ -1,6 +1,6 @@
 (function () {
   var $main = document.getElementById("main");
-  var $input = document.getElementById("input-search"); // Decodes query parameter for search
+  var $input = document.getElementById("input-search");
 
   var parseQueryParams = function parseQueryParams() {
     return decodeURIComponent(
