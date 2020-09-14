@@ -3,6 +3,7 @@ var DICTIONARY = {};
 var MAX_RESULTS = 30;
 var MIN_SCORE = 15;
 var PUNCTUATION = /['";:.()?-]/g;
+var WHITESPACE = /\s+/;
 var rootURL = "https://support.dnsimple.com";
 
 var articleScore = function articleScore(article, q) {
@@ -18,7 +19,7 @@ var articleScore = function articleScore(article, q) {
     score += 50;
   }
 
-  var words = q.split(/\s+/).filter(function (str) {
+  var words = q.split(WHITESPACE).filter(function (str) {
     return str.length > 1;
   });
 
@@ -78,23 +79,17 @@ var applyDictionary = function applyDictionary(q) {
 };
 
 var search = function search(q, options) {
-  q = (q || '').trim();
+  q = (q || '').toLowerCase().trim();
   q = applyDictionary(q);
 
   if (!q) return [];
 
   var category;
 
-  if (q[0] === "/")
-    return articles.filter(function (article) {
-      return article.id === q;
-    });
-  else if (q.slice(0, 4) === "cat:") {
+  if (q.slice(0, 4) === "cat:") {
     category = q.slice(4).trim();
     q = category;
   }
-
-  q = q.toLowerCase().trim();
 
   return ARTICLES
     .filter(function (article) {
@@ -114,7 +109,7 @@ var search = function search(q, options) {
     });
 };
 
-prepArticles(articles);
+prepArticles(ARTICLES);
 
 window.DNSimpleSupport = window.DNSimpleSupport || {};
 window.DNSimpleSupport.search = search;
