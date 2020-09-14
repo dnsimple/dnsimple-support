@@ -3,7 +3,7 @@
   "close": "unsubscribe",
   "cancel": "unsubscribe",
   "delete account": "unsubscribe",
-  "letsencrypt": "Let's Encrypt",
+  "letsencrypt": "lets encrypt",
   "memberships": "share management",
   "two": "2fa"
 }
