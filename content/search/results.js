@@ -6,7 +6,7 @@
     return decodeURIComponent(
       window.location.search.substring(3).replace(/\+/g, " ")
     );
-  }; // Search based on a query parameter
+  };
 
   var search = function search(q) {
     $input.value = q;
