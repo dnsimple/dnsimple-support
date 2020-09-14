@@ -5,6 +5,8 @@ rvm:
 cache:
   - bundler
   - yarn
+  directories:
+    - node_modules
 
 install:
   - nvm install $(grep 'node' .tool-versions | cut -d ' ' -f2)
