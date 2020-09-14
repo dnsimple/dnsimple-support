@@ -38,12 +38,13 @@ module Search
     js_file = File.join(@config[:output_dir], "search.js")
     js_lines = File.open(js_file).readlines.map(&:chomp)
     js_lines[1] = "  var ARTICLES = #{json};"
-
-    dictionary_file = File.join(@config[:output_dir], "search/dictionary.json")
-    dictionary = File.open(dictionary_file).read.chomp
     js_lines[2] = "  var DICTIONARY = #{dictionary};"
-
     File.write(js_file, js_lines.join("\n"))
+  end
+
+  def dictionary
+    dictionary_file = File.join(@config[:output_dir], "search/dictionary.json")
+    File.open(dictionary_file).read.chomp
   end
 
 end
