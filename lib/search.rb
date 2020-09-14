@@ -44,7 +44,7 @@ module Search
 
   def dictionary
     dictionary_file = File.join(@config[:output_dir], "search/dictionary.json")
-    File.open(dictionary_file).read.chomp
+    File.open(dictionary_file).read.chomp.delete!("\n")
   end
 
 end
