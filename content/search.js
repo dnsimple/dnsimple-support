@@ -61,9 +61,7 @@ var dictionaryTermMatches = function dictionaryTermMatches(q, key) {
       firstSpace = key.indexOf(' '),
       hasSpace = firstSpace !== -1;
 
-  return
-    (!hasSpace && matches) ||
-    ( hasSpace && matches && firstSpace < q.length);
+  return (!hasSpace && matches) || (hasSpace && matches && firstSpace < q.length);
 }
 
 var applyDictionary = function applyDictionary(q) {
