@@ -3,9 +3,15 @@ const subject = require('../../content/search/results.js');
 describe('Results', () => {
   describe('.parseQueryParams', () => {
     test('can be parsed', () => {
-      const param = subject.parseQueryParams('?q=dns&another=param');
+      const param = subject.parseQueryParams('?q=a+record&another=param');
 
-      expect(param).toEqual('dns');
+      expect(param).toEqual('a record');
+    });
+
+    test('can be parsed with %20', () => {
+      const param = subject.parseQueryParams('?q=a%20record&another=param');
+
+      expect(param).toEqual('a record');
     });
 
     test('is empty without valid param', () => {

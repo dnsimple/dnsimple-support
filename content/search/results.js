@@ -1,7 +1,7 @@
 (function () {
   var parseQueryParams = function parseQueryParams (search) {
-    var match = search.match(/q=([^&=$]+)/g);
-    return match ? decodeURIComponent(match[0].split('=')[1]) : '';
+    var match = search.match(/q=([^&=]+)/g);
+    return match ? decodeURIComponent(match[0].split('=')[1]).replace('+', ' ') : '';
   };
 
   var search = function search ($input, q) {
