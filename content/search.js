@@ -1,4 +1,5 @@
 var articles = [];
+var DICTIONARY = {};
 var MAX_RESULTS = 30;
 var MIN_SCORE = 15;
 var PUNCTUATION = /['";:.()?-]/g;
@@ -52,7 +53,32 @@ var fixRelativeImgSrcs = function fixRelativeImgSrcs(str) {
   );
 };
 
+var dictionaryTermMatches = function dictionaryTermMatches(q, key) {
+  var matches = key.indexOf(q) === 0,
+      firstSpace = key.indexOf(' '),
+      hasSpace = firstSpace !== -1;
+
+  return
+    (!hasSpace && matches) ||
+    ( hasSpace && matches && firstSpace < q.length);
+}
+
+var applyDictionary = function applyDictionary(q) {
+  if (q.length > 3) {
+    for (var key in DICTIONARY) {
+      if (dictionaryTermMatches(q, key)) {
+        return DICTIONARY[key];
+      }
+    }
+  }
+
+  return q;
+};
+
 var search = function search(q, options) {
+  q = (q || '').trim();
+  q = applyDictionary(q);
+
   if (!q) return [];
 
   var category;
