@@ -37,7 +37,7 @@ module Search
   def write_js_file(json)
     js_file = File.join(@config[:output_dir], "search.js")
     js_lines = File.open(js_file).readlines.map(&:chomp)
-    js_lines[0] = "const articles = #{json};"
+    js_lines[0] = "var articles = #{json};"
     File.write(js_file, js_lines.join("\n"))
   end
 
