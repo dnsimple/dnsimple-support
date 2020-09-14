@@ -2,9 +2,7 @@
   "name": "dnsimple-support",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "lunr": "^2.3.9"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "concurrently": "^5.3.0",
