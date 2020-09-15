@@ -69,7 +69,7 @@
   };
 
   var search = function search (q, articles, dictionary) {
-    q = (q || '').toLowerCase().trim();
+    q = (q || '').toLowerCase().trim().replace(PUNCTUATION, '');
     q = applyDictionary(dictionary || DICTIONARY, q);
 
     if (!q) return [];
