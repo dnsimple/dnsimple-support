@@ -114,6 +114,7 @@
   else {
     window.DNSimpleSupport = window.DNSimpleSupport || {};
     window.DNSimpleSupport.search = search;
+    window.DNSimpleSupport.articles = ARTICLES;
 
     loadArticles(ARTICLES);
   }
