@@ -1,2 +1,4 @@
 /search.json
   Access-Control-Allow-Origin: *
+/search/index.js
+  Access-Control-Allow-Origin: *
