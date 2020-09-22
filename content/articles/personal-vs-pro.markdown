@@ -14,7 +14,7 @@ categories:
 
 ---
 
-This article describes the differences between the *Personal* plan and the *Professional* plan. Both plans will help you manage your domains. If you are a business owner or run an e-commerce website, the Professional plan will help you to reach your business goals by providing you with the best tools for security and domain management.
+This article describes the differences between the *Personal* plan and the *Professional* plan. Both plans will help you manage your domains. If you're a business owner or run an e-commerce website, the Professional plan will help you reach your business goals by providing you with the best tools for security and domain management.
 
 | | Personal | Professional |
 |---|:---:|:--:|
@@ -28,44 +28,44 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 ## Can I redirect for HTTPS?
 
-**Personal:** No. Redirect your users *only* using HTTP redirects.
+**Personal:** No - You can *only* redirect your users using HTTP redirects.
 
-**Professional:** Yes! Safely redirect all non-HTTPS traffic to a secured connection.
+**Professional:** Yes - Safely redirect all non-HTTPS traffic to a secured connection.
 
 ## Can I work with other people on my account?
 
-**Personal:** No! While it may be a clever trick, sharing login credentials is an unprofessional security risk.
+**Personal:** No - Sharing login credentials is unprofessional and a security risk.
 
-**Professional:** Yes! You will be able to invite others to help manage your domains. Also included is access to your full activity log, which provides 100% transparency into account and domain changes.
+**Professional:** Yes - You can invite others to help manage your domains. This also includes access to your full activity log, which provides 100% transparency into account and domain changes.
 
 ## Am I covered by an SLA?
 
-**Personal:** No, there is no SLA. 😟
+**Personal:** No - There is no SLA. 
 
-**Professional:** Yes! We have a 99% SLA on our Professional plan.
+**Professional:** Yes - We have a 99% SLA on our Professional plan.
 
 ## Are my customers protected when they visit my site?
 
-**Personal:** On our personal plan, we offer Let's Encrypt certificates, but Wildcards are not included.
+**Personal:** Limited - We offer Let's Encrypt certificates on the Personal plan. Wildcards are not included.
 
-**Professional:** Yes! You'll be saving time and money with our Wildcard Let's Encrypt certificates.
+**Professional:** Yes - Save time and money with our Wildcard Let's Encrypt certificates.
 
 ## How fast can I get help from the experts?
 
-**Personal:** A watching-paint-dry 24 hours.
+**Personal:** Recieve an answer in 24 hours. 
 
-**Professional:** Get *fast* help from developers.
+**Professional:** Get even *faster* help from developers with a < 24 hour response time.
 
 ## Can I customize my invoice email?
 
-**Personal:** No, invoices are only sent to the account owner.
+**Personal:** No – Invoices are only sent to the account owner.
 
-**Professional:** Yes! On our Professional plan, your invoices can be sent directly to your accountant, bookkeeper, or anyone else.
+**Professional:** Yes – Your invoices can be sent directly to your accountant, bookkeeper, or anyone else.
 
 ## Do I have access to the DNSimple Slack app?
 
-**Personal:** No! You're missing out on the easiest way to manage your domains.
+**Personal:** No – You're missing out on the easiest way to manage your domains.
 
-**Professional:** Yes! Using our Slack app, you can buy, connect, and operate your domains directly from your Slack channel.
+**Professional:** Yes – Using our Slack app, you can buy, connect, and operate your domains directly from your Slack channel.
 
-We know choosing a plan can be difficult. Don't hesitate to contact us at [support@dnsimple.com](mailto:support@dnsimple.com).
+For a comprehensive overview of DNSimple's plans, take a look at our [pricing page](https://dnsimple.com/pricing). If you'd like more help choosing a plan, contact us at [support@dnsimple.com](mailto:support@dnsimple.com).
