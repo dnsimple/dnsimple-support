@@ -67,3 +67,5 @@ This article describes the differences between the *Personal* plan and the *Prof
 **Personal:** No! You're missing out on the easiest way to manage your domains.
 
 **Professional:** Yes! Using our Slack app, you can buy, connect, and operate your domains directly from your Slack channel.
+
+We know choosing a plan can be difficult. Don't hesitate to contact us at [support@dnsimple.com](mailto:support@dnsimple.com).
