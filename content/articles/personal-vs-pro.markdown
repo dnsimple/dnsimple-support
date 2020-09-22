@@ -14,40 +14,45 @@ categories:
 
 ---
 
-This article describes both the *Personal* plan and the *Professional* plan, and the differences between each. Our Professional plan helps you to protect and secure your customers, your team, and your business.
+This article describes the differences between the *Personal* plan and the *Professional* plan. Both plans will help you manage your domains. If you are a business owner or run an e-commerce website, the Professional plan will help you to reach your business goals by providing you with the best tools for security and domain management.
+## Can I redirect for HTTPS?
+
+**Personal:** No. Redirect your users *only* using HTTP redirects.
+
+**Professional:** Yes! Safely redirect all non-HTTPS traffic to a secured connection.
 
 ## Can I work with other people on my account?
 
 **Personal:** No! While it may be a clever trick, sharing login credentials is an unprofessional security risk.
 
-**Professional:** Yes! You will be able to invite others to help manage your domains. Also included is your full activity log, which provides 100% transparency into account and domain changes.
+**Professional:** Yes! You will be able to invite others to help manage your domains. Also included is access to your full activity log, which provides 100% transparency into account and domain changes.
+
+## Am I covered by an SLA?
+
+**Personal:** No, there is no SLA. 😟
+
+**Professional:** Yes! We have a 99% SLA on our Professional plan.
 
 ## Are my customers protected when they visit my site?
 
-**Personal:** ¯\\_(ツ)_/¯
+**Personal:** On our personal plan, we offer Let's Encrypt certificates, but Wildcards are not included.
 
-**Professional:** Yes! You'll be saving time and money with our Wildcard Let's Encrypt certificates, as well as our HTTPS redirector (to forward all non-HTTPS traffic to a secured connection).
-
-## Can I customize my invoice email?
-
-**Personal:** Absolutely not! Your invoice is only sent to you.
-
-**Professional:** Yes! On our Professional plan, you can have your invoices sent directly to your accountant, bookkeeper, or anyone else.
+**Professional:** Yes! You'll be saving time and money with our Wildcard Let's Encrypt certificates.
 
 ## How fast can I get help from the experts?
 
 **Personal:** A watching-paint-dry 24 hours.
 
-**Professional:** Faster than 24 hours!
+**Professional:** Get *fast* help from developers.
+
+## Can I customize my invoice email?
+
+**Personal:** No, invoices are only sent to the account owner.
+
+**Professional:** Yes! On our Professional plan, your invoices can be sent directly to your accountant, bookkeeper, or anyone else.
 
 ## Do I have access to the DNSimple Slack app?
 
 **Personal:** No! You're missing out on the easiest way to manage your domains.
 
 **Professional:** Yes! Using our Slack app, you can buy, connect, and operate your domains directly from your Slack channel.
-
-## Am I covered by an SLA?
-
-**Personal:** No! Fingers crossed...
-
-**Professional:** Yes! We have a 99% SLA on our Professional plan.
