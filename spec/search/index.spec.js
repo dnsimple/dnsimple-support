@@ -1,4 +1,4 @@
-const subject = require('../../content/search/index.js');
+const subject = require('../../content/search.js');
 
 describe('Search', () => {
   describe('.articleScore', () => {

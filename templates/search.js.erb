@@ -1,6 +1,6 @@
 (function () {
-  var ARTICLES = []; // populated by search.rb
-  var DICTIONARY = {}; // populated by search.rb
+  var ARTICLES = <%= articles %>;
+  var DICTIONARY = <%= dictionary %>;
   var MAX_RESULTS = 30;
   var MIN_SCORE = 15;
   var PUNCTUATION = /['";:.()?-]/g;
