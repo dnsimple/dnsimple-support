@@ -52,7 +52,7 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 ## How fast can I get help from the experts?
 
-**Personal:** Recieve an answer in 24 hours. 
+**Personal:** Receive an answer in 24 hours. 
 
 **Professional:** Get even *faster* help from developers with a < 24 hour response time.
 
