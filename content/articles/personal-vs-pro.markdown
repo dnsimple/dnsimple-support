@@ -15,6 +15,17 @@ categories:
 ---
 
 This article describes the differences between the *Personal* plan and the *Professional* plan. Both plans will help you manage your domains. If you are a business owner or run an e-commerce website, the Professional plan will help you to reach your business goals by providing you with the best tools for security and domain management.
+
+| | Personal | Professional |
+|---|:---:|:--:|
+| Can I redirect for HTTPS? | × | ✓ |
+| Can I work with other people on my account? | × | ✓ |
+| Am I covered by an SLA? | × | 99% |
+| Are my customers protected when they visit my site? | × | ✓ |
+| Can I customize my invoice email? | × | ✓ |
+| Do I have access to the DNSimple Slack app? | × | ✓ |
+| How fast can I get help from the experts? | 24 hours | > 24 hours |
+
 ## Can I redirect for HTTPS?
 
 **Personal:** No. Redirect your users *only* using HTTP redirects.
