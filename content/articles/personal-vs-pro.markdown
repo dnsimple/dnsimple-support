@@ -1,11 +1,11 @@
 ---
-title: Differences between Personal Plan vs. Pro Plan
-excerpt: The differences between our Personal and Pro Plans and when you should upgrade.
+title: Differences between Personal Plans and Professional Plans
+excerpt: A look at our Personal vs. Professional plans and when you should upgrade.
 categories:
 - DNS
 ---
 
-# Differences between Personal Plan vs. Pro Plan
+# Differences between Personal Plans and Professional Plans
 
 ### Table of Contents {#toc}
 
