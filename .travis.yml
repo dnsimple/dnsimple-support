@@ -4,8 +4,20 @@ rvm:
 
 cache:
   - bundler
+  - yarn
+  directories:
+    - node_modules
+
+install:
+  - nvm install $(grep 'node' .tool-versions | cut -d ' ' -f2)
+  - npm i -g yarn
+  - yarn
 
 notifications:
   email: false
   slack:
     secure: YE9LirevstqJ9qglWo2C1IrFEObyThgS72ks0oikEyqKyx1UeEljX3OPX03k+fref/3Z2smtAMH2OgCaXi3cpLIDJI3J14EXOyzMHYz1ul1h52Qp5UrwbKIikD4Yi+RywVLGhLZMedKKI1D0MwcHlwSEuATyIJpZ7do28lEcuL0=
+
+script:
+  - yarn lint
+  - yarn test:unit
