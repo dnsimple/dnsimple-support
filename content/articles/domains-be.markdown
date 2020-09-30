@@ -16,9 +16,7 @@ This article explains the requirements and special procedures for .BE domain nam
 
 ## Changing the Contact for a .BE domain {#trade}
 
-Changing a contact requires an authorization code just like when you transfer the domain to another provider. This is a protective measure by the registry.
-
-You can request that an authorization code be sent via the following registry website: https://www.dnsbelgium.be/en/manage-domain-name/change-registrar
+Currently we do not support changing the registrant, please contact support@dnsimple.com for further assistance.
 
 ## Transferring a .BE domain {#transferring}
 
@@ -26,6 +24,6 @@ Unlike standard gTLD domains, .BE has some unique transfer rules. Please read th
 
 ### Authcode {#auth}
 
-As most TLD's .BE requires an authorization code to transfer a domain (but also for changing the contact). That auth code will be sent to the current registrant's e-mail adress.
+As most TLD's .BE requires an authorization code to transfer a domain (but also for changing the contact). That auth code will be sent to the current registrant's e-mail address when you start the transfer process within the domain details page.
 
-You can request that an authorization code be sent via the following registry website: https://www.dnsbelgium.be/en/manage-domain-name/change-registrar
+You can also request that an authorization code be sent via the following registry website: https://www.dnsbelgium.be/en/manage-domain-name/change-registrar
