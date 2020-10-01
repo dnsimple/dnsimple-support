@@ -16,7 +16,7 @@ This article explains the requirements and special procedures for .BE domain nam
 
 ## Changing the Contact for a .BE domain {#trade}
 
-We don't currently support changing the registrant. Please contact support@dnsimple.com for further assistance.
+We don't currently support changing the registrant. Please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) for further assistance.
 
 ## Transferring a .BE domain {#transferring}
 
