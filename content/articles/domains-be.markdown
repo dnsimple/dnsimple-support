@@ -24,6 +24,6 @@ Unlike standard gTLD domains, .BE has some unique transfer rules. Please read th
 
 ### Authcode {#auth}
 
-Like most TLDs, .BE requires an authorization code to transfer a domain (but also for changing the contact). That auth code will be sent to the current registrant's e-mail address when you start the transfer process within the domain details page.
+Like most TLDs, .BE requires an authorization code to transfer a domain or to change the contact. That auth code will be sent to the current registrant's e-mail address when you start the transfer process within the domain details page.
 
 You can also request that an authorization code be sent via the [registry website](https://www.dnsbelgium.be/en/manage-domain-name/change-registrar).
