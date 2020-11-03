@@ -24,8 +24,8 @@ To avoid the possibility of downtime, you should [point the name servers for the
 
 ## Caveats
 
-- A domain may only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
-- It can take up to seven (7) days for a transfer to complete depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain) for more information.
+- A domain can only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
+- It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain).
 - Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer, the registrar may not block the transfer due to the expiration.
 - WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
 
@@ -47,11 +47,11 @@ At your current Registrar:
 
 At DNSimple:
 
-1. Log into DNSimple and click on <label>Add a Domain</label>.
+1. Log in to DNSimple and click on <label>Add a Domain</label>.
 1. Select <label>transfer a domain</label>.
-1. You may also enable "Whois Privacy Protection" so that it is enabled immediately upon completion of the transfer by checking the "Enable WHOIS Privacy Protection" check box.
-1. Press <label>Transfer Domain</label>
-- Select a registrant, enter your authorization code if it is required, and fill in any extended attributes.
+1. You can also enable "Whois Privacy Protection" by checking the "Enable WHOIS Privacy Protection" check box, so it's enabled immediately upon completion of the transfer 
+1. Click <label>Transfer Domain</label>
+- Select a registrant, enter your authorization code if it's required, and fill in any extended attributes.
 - Press "Transfer Domain"
 </div>
 
@@ -61,7 +61,7 @@ Your domain transfer request will now be issued if there are no missing fields. 
 
 Follow the instructions in the email. We cannot issue the transfer request to the registry without approval of this email.
 
-Once you've authorized the transfer, you may have to **wait up to 7 days for your domain transfer to complete.**
+Once you've authorized the transfer, you may have to **wait up to seven days for your domain transfer to complete.**
 
 <info>
 We will only charge your credit card for the transfer once it has completed.
@@ -81,7 +81,7 @@ When the transfer is completed, you will receive a confirmation email from DNSim
 
 ### Changing name servers
 
-It's important to note that **we don't automatically point your domain to our name servers** when the transfer completes.
+**We don't automatically point your domain to our name servers** when the transfer completes.
 
 To avoid unexpected downtime and confusion, we don't change the domain name servers upon a successful transfer. When the domain is transferred to us, we will keep using the same name servers previously configured for the domain.
 
@@ -93,6 +93,6 @@ We suggest pointing [your domain to our name servers before the transfer](/artic
 
 ### Expiration extension
 
-Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended 1 year when they are transferred.
+Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended one year when they are transferred.
 
 The price of this extension is included in the transfer fee.
