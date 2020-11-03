@@ -61,7 +61,7 @@ Your domain transfer request will now be issued if there are no missing fields. 
 
 Follow the instructions in the email. We cannot issue the transfer request to the registry without approval of this email.
 
-Once you've authorized the transfer, you may have to **wait up to 5 days your domain transfer to complete.**
+Once you've authorized the transfer, you may have to **wait up to 7 days your domain transfer to complete.**
 
 <info>
 We will only charge your credit card for the transfer once it has completed.
