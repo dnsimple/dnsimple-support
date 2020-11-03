@@ -25,7 +25,7 @@ To avoid the possibility of downtime, you should [point the name servers for the
 ## Caveats
 
 - A domain may only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
-- It can take up to five (5) calendar days for a transfer to complete depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain) for more information.
+- It can take up to seven (7) days for a transfer to complete depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain) for more information.
 - Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer, the registrar may not block the transfer due to the expiration.
 - WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
 
