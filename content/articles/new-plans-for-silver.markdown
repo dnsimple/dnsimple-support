@@ -17,7 +17,7 @@ Newer plans include several features, such as:
 
 Newer plans also benefit from [reduced whois privacy prices](https://blog.dnsimple.com/2017/10/whois-privacy-price-decrease/).
 
-The Personal plan is $5 per month for up to 5 domains and $0.50 per domain per month thereafter. If you're a Silver customer with 4 domains, switching to the Personal plan will save you $2 each month.
+The Personal plan is $6 per month for up to 5 domains and $0.50 per domain per month thereafter. If you're a Silver customer with 4 domains, switching to the Personal plan will save you $2 each month.
 
 Professional and Business plans come with added benefits tailored to business customers. For example, the Team feature allows you to add team members to an account so they can control and manage all aspects of that account. You can also protect yourself with our SLA on the Professional and Business plans. 
 
