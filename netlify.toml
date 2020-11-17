@@ -1,3 +1,7 @@
+[build]
+  publish = "output"
+  command = "rake publish"
+
 [[headers]]
   for = "/*"
   [headers.values]

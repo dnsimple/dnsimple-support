@@ -4,10 +4,10 @@ require 'rake/testtask'
 require 'fileutils'
 require 'open3'
 
-task :default => [:test, :compile]
+task default: [:test]
 
 desc "Compile the site"
-task :compile => [:clean] do
+task compile: [:clean] do
   puts "Compiling site"
 
   stdout, stderr, status = Bundler.with_clean_env do
@@ -24,7 +24,7 @@ task :compile => [:clean] do
 end
 
 desc "Publish"
-task :publish => [:test, :compile] do
+task publish: [:test] do
   puts "Published"
 end
 
@@ -34,11 +34,27 @@ task :clean do
   FileUtils.rm_r('dist') if File.exist?('dist')
 end
 
-Rake::TestTask.new do |t|
-  t.libs << "_test"
-  t.test_files = FileList["_test/*_test.rb"]
-  t.verbose = true
+namespace :test do
+  Rake::TestTask.new(:ruby) do |t|
+    t.libs << "_test"
+    t.test_files = FileList["_test/*_test.rb"]
+    t.verbose = true
+  end
+
+  desc "Run YARN test"
+  task :yarn_test do
+    sh("yarn test")
+  end
+
+  desc "Run YARN tests"
+  task :yarn_lint do
+    sh("yarn lint")
+  end
+
+  task :all => [:ruby, :yarn_test, :yarn_lint]
 end
+
+task :test => [:compile, 'test:all']
 
 task :priorities do
   require 'nanoc'
