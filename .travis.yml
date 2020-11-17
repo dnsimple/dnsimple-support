@@ -12,11 +12,6 @@ cache:
   directories:
     - node_modules
 
-script:
-  - rake test
-  - yarn lint
-  - yarn test
-
 notifications:
   email: false
   slack:
