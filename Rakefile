@@ -39,7 +39,9 @@ end
 
 desc "Run the site"
 task :run do
-  sh("yarn live")
+  Bundler.with_clean_env do
+    sh("bundle exec nanoc live")
+  end
 end
 
 namespace :test do
