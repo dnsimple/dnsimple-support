@@ -3,8 +3,9 @@
 // search.js. As a result, we have to be creative here.
 
 const fs = require('fs');
-const subject = eval(
-  fs.readFileSync(__dirname + '/../../templates/search.js.erb')
+const path = require('path');
+const subject = eval( // eslint-disable-line no-eval
+  fs.readFileSync(path.join(__dirname, '/../../templates/search.js.erb'))
     .toString()
     .replace(/<%= articles %>/, '[]')
     .replace(/<%= dictionary %>/, '{}')
