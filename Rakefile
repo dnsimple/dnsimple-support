@@ -13,7 +13,7 @@ desc "Compile the site"
 task compile: [:clean] do
   puts "Compiling site"
 
-  stdout, stderr, status = Bundler.with_clean_env do
+  stdout, stderr, status = Bundler.with_unbundled_env do
     Open3.capture3("yarn && yarn build && bundle exec nanoc compile")
   end
   if status.success?
@@ -38,8 +38,8 @@ task publish: [:test] do
 end
 
 desc "Run the site"
-task :run do
-  Bundler.with_clean_env do
+task run: [:compile] do
+  Bundler.with_unbundled_env do
     sh("bundle exec nanoc live")
   end
 end
