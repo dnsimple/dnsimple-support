@@ -21,7 +21,6 @@ task :compile => [:clean] do
 
   FileUtils.cp_r 'dist', 'output'
   FileUtils.cp_r '_redirects', 'output'
-  FileUtils.cp_r '_headers', 'output'
 end
 
 desc "Publish"
