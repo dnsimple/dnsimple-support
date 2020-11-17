@@ -1,4 +1,14 @@
-const subject = require('../../content/search.js');
+// To save a network request on the support widget, we inject
+// the articles directly into the production version of
+// search.js. As a result, we have to be creative here.
+
+const fs = require('fs');
+const subject = eval(
+  fs.readFileSync(__dirname + '/../../templates/search.js.erb')
+    .toString()
+    .replace(/<%= articles %>/, '[]')
+    .replace(/<%= dictionary %>/, '{}')
+);
 
 describe('Search', () => {
   describe('.articleScore', () => {
