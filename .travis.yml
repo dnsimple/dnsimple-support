@@ -1,23 +1,23 @@
 language: ruby
+
 rvm:
-  - 2.6.5
+  - 2.7.0
+
+node_js:
+  - 12.13.1
 
 cache:
-  - bundler
-  - yarn
+  bundler: true
+  yarn: true
   directories:
     - node_modules
 
-install:
-  - nvm install $(grep 'node' .tool-versions | cut -d ' ' -f2)
-  - npm i -g yarn
-  - yarn
+script:
+  - rake test
+  - yarn lint
+  - yarn test
 
 notifications:
   email: false
   slack:
     secure: YE9LirevstqJ9qglWo2C1IrFEObyThgS72ks0oikEyqKyx1UeEljX3OPX03k+fref/3Z2smtAMH2OgCaXi3cpLIDJI3J14EXOyzMHYz1ul1h52Qp5UrwbKIikD4Yi+RywVLGhLZMedKKI1D0MwcHlwSEuATyIJpZ7do28lEcuL0=
-
-script:
-  - yarn lint
-  - yarn test:unit

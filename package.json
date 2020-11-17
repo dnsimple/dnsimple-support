@@ -23,7 +23,7 @@
     "lint": "eslint content spec --ext .js",
     "lint:fix": "eslint content spec --ext .js --fix",
     "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
-    "test:unit": "jest",
+    "test": "jest",
     "test:watch": "jest --watch"
   }
 }
