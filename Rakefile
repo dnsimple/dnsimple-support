@@ -4,6 +4,9 @@ require 'rake/testtask'
 require 'fileutils'
 require 'open3'
 
+PUBLISH_DIRECTORY = "output"
+BUILD_YARN_DIRECTORY = "dist"
+
 task default: [:test]
 
 desc "Compile the site"
@@ -19,8 +22,8 @@ task compile: [:clean] do
     abort "ERROR: Compilation failed (#{$?.to_i}\n#{stdout}\n#{stderr}"
   end
 
-  FileUtils.cp_r 'dist', 'output'
-  FileUtils.cp_r '_redirects', 'output'
+  FileUtils.cp_r BUILD_YARN_DIRECTORY, PUBLISH_DIRECTORY
+  FileUtils.cp_r '_redirects', PUBLISH_DIRECTORY
 end
 
 desc "Publish"
@@ -30,8 +33,8 @@ end
 
 desc "Remove the compilation artifacts"
 task :clean do
-  FileUtils.rm_r('output') if File.exist?('output')
-  FileUtils.rm_r('dist') if File.exist?('dist')
+  FileUtils.rm_r(PUBLISH_DIRECTORY) if File.exist?(PUBLISH_DIRECTORY)
+  FileUtils.rm_r(BUILD_YARN_DIRECTORY) if File.exist?(BUILD_YARN_DIRECTORY)
 end
 
 namespace :test do
@@ -54,7 +57,7 @@ namespace :test do
   task :all => [:ruby, :yarn_test, :yarn_lint]
 end
 
-task :test => [:compile, 'test:all']
+task :test => [:compile, "test:all"]
 
 task :priorities do
   require 'nanoc'

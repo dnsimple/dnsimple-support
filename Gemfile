@@ -10,7 +10,6 @@ gem 'nokogiri'
 gem 'rouge'
 gem 'sass'
 gem 'systemu'
-gem 'thin', require: false
 
 group :test do
   gem 'minitest'
