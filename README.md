@@ -12,21 +12,25 @@ This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc
 1. Run `bundle install`
 1. Start your local instance with `rake run`
 
+The site will be visible at [localhost:3000](http://localhost:3000).
+
+
 ## Development
 
-Use `rake run` to start the site.
+Use `rake run` to start the site. The server will automatically re-compiles changed files.
 
-A local server will start at http://localhost:3000/. The server will automatically re-compiles changed files.
 
 ## Deployment
 
 Each commit to master is deployed automatically via Netlify.
+
 
 ### Managing categories
 
 You can add/remove/edit categories by editing the file `priorities/categories.yaml`.
 
 Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes
+
 
 ### Sorting articles
 
