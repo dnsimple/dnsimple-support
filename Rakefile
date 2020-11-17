@@ -26,15 +26,20 @@ task compile: [:clean] do
   FileUtils.cp_r '_redirects', PUBLISH_DIRECTORY
 end
 
+desc "Remove the compilation artifacts"
+task :clean do
+  FileUtils.rm_r(PUBLISH_DIRECTORY) if File.exist?(PUBLISH_DIRECTORY)
+  FileUtils.rm_r(BUILD_YARN_DIRECTORY) if File.exist?(BUILD_YARN_DIRECTORY)
+end
+
 desc "Publish"
 task publish: [:test] do
   puts "Published"
 end
 
-desc "Remove the compilation artifacts"
-task :clean do
-  FileUtils.rm_r(PUBLISH_DIRECTORY) if File.exist?(PUBLISH_DIRECTORY)
-  FileUtils.rm_r(BUILD_YARN_DIRECTORY) if File.exist?(BUILD_YARN_DIRECTORY)
+desc "Run the site"
+task :run do
+  sh("yarn live")
 end
 
 namespace :test do
