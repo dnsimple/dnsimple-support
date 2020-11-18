@@ -123,7 +123,9 @@ Once you disable the WHOIS Privacy protection, the contact details of your domai
 
 ## Renew WHOIS Privacy {#renew}
 
-<info> There currently is no auto-renewal for WHOIS Privacy. It must be renewed manually. </info> 
+<info>
+There currently is no auto-renewal for WHOIS Privacy. It must be renewed manually.
+</info> 
 
 We'll send an email reminder when the WHOIS Privacy on a domain is due to expire, but you can renew it manually before that notice is sent:
 
