@@ -16,21 +16,28 @@
     var $ul = document.createElement('ul');
 
     $h1.innerText = 'Search results';
+    $ul.className = 'articles-list';
 
     if (q.length)
       $h1.innerText += ' for "' + q + '"';
 
     if (results.length === 0) {
       var $li = document.createElement('li');
+
       $li.innerText = 'No results found';
+      $li.className = 'articles-list-item';
+
       $ul.appendChild($li);
     }
 
     results.forEach(function (result) {
       var $li = document.createElement('li');
       var $a = document.createElement('a');
+
       $a.href = result.id;
       $a.innerHTML = result.title;
+      $li.className = 'articles-list-item';
+
       $li.appendChild($a);
       $ul.append($li);
     });
