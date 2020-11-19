@@ -48,8 +48,8 @@ compile '/**/*.markdown' do
   filter :erb
   filter :preprocess
   filter :kramdown, toc_levels: [2], syntax_highlighter: nil, input: "GFM"
-  filter :postprocess
   filter :colorize_syntax, default_colorizer: :rouge
+  filter :postprocess
   layout '/default.*'
   filter :add_structured_data
 end
