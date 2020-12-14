@@ -23,7 +23,7 @@ This article describes a feature only available on [current plans](/articles/new
 
 ---
 
-[Let's Encrypt](https://letsencrypt.org/) is an innovative [certificate authority](/articles/what-is-certificate-authority) (also called a CA) that joined the scene in late 2015. They became an official member of the CA/B forum in 2016.
+[Let's Encrypt](https://letsencrypt.org/) is an innovative [certificate authority](/articles/what-is-certificate-authority) (CA) that joined the scene in late 2015. They became an official member of the CA/B forum in 2016.
 
 Their three most distinguishing characteristics, as listed on their homepage, are _free_, _automated_, and _open_.
 
