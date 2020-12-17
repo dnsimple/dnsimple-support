@@ -50,6 +50,8 @@ You can replace the billing email with custom information on all your invoices:
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
 <info>
+You can customize your billing information only if you're subscribed to one of the following [plans](https://dnsimple.com/pricing): Professional or Business.    
+
 You can modify this information any time, as many times as you need to. The new billing information will only be used for future invoices. If you need to change the billing information of an existing invoice, please [contact support](https://dnsimple.com/contact).
 </info>
 
