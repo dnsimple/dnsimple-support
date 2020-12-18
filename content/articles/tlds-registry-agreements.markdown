@@ -123,6 +123,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .gallery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .games | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .garden | [https://mmx.co/policies](https://mmx.co/policies) |
+| .gay | [https://toplevel.design/policy](https://toplevel.design/policy) |
 | .gives | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .glass | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .global | [https://go.global/global-policies](https://go.global/global-policies) |

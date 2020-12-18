@@ -88,7 +88,7 @@ structured_data: true
 
     The green bar in the browser is displayed only if you purchase an _extended-validation_ (EV) certificate. We don't sell EV certificates.
 
-    We only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security. If you still need/want to purchase an EV certificate, we provide some recommendations on [this page](/articles/can-ev-ssl-certificates).
+    We only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security. 
 </div>
 
 

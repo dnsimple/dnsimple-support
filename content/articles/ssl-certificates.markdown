@@ -41,7 +41,7 @@ DNSimple provides the following certificate products:
 All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
 <info>
-All certificates are [domain-validated](/articles/ssl-certificates-email-validation). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. If you need/want to purchase an EV certificate, we provide a recommendation at [this page](/articles/can-ev-ssl-certificates).
+All certificates are [domain-validated](/articles/ssl-certificates-email-validation). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. 
 </info>
 
 ### Standard Single-name SSL certificates {#standard-singlename}

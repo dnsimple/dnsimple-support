@@ -1,0 +1,127 @@
+var ARTICLES = <%= articles %>;
+var DICTIONARY = <%= dictionary %>;
+var MAX_RESULTS = 30;
+var MIN_SCORE = 15;
+var PUNCTUATION = /['";.()?-]/g;
+var WHITESPACE = /\s+/;
+var rootURL = 'https://support.dnsimple.com';
+
+var articleScore = function articleScore (article, q) {
+  if (!q) return 0;
+
+  var score = 0;
+
+  if (article.searchTitle.indexOf(q) !== -1)
+    score += 75;
+
+  if (article.searchBody.indexOf(q) !== -1)
+    score += 50;
+
+  var words = q.split(WHITESPACE).filter(function (str) {
+    return str.length > 1;
+  });
+
+  for (var i = words.length - 1; i >= 0; i--) {
+    if (article.searchTitle.indexOf(words[i]) !== -1)
+      score += 15;
+
+    if (article.searchBody.indexOf(words[i]) !== -1)
+      score += 5;
+  }
+
+  return score;
+};
+
+var loadArticles = function loadArticles (articles) {
+  return articles.map(function (article) {
+    article.searchTitle = article.searchTitle || (article.title || '').toLowerCase().replace(PUNCTUATION, '');
+    article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
+    article.body = fixRelativeImgSrcs(article.body || '');
+    article.categories = article.categories || [];
+
+    return article;
+  });
+};
+
+var fixRelativeImgSrcs = function fixRelativeImgSrcs (str) {
+  return str.replace(
+    /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
+    'src="' + rootURL + '$1"'
+  );
+};
+
+var dictionaryTermMatches = function dictionaryTermMatches (q, term) {
+  var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0;
+  var firstSpace = term.indexOf(' ');
+  var termHasSpace = firstSpace !== -1;
+
+  return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
+};
+
+var applyDictionary = function applyDictionary (dictionary, q) {
+  if (q.length >= 3)
+    for (var term in dictionary)
+      if (dictionaryTermMatches(q, term))
+        return dictionary[term];
+
+  return q;
+};
+
+var search = function search (q, articles, dictionary) {
+  q = (q || '').toLowerCase().trim().replace(PUNCTUATION, '');
+  q = applyDictionary(dictionary || DICTIONARY, q);
+
+  if (!q) return [];
+
+  articles = (articles || ARTICLES);
+
+  var category;
+
+  if (q.slice(0, 4) === 'cat:') {
+    category = q.slice(4).trim();
+    q = category;
+
+    return articles
+      .filter(function (article) {
+        return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1
+      })
+      .sort(function (a, b) {
+        if (a.title > b.title) return 1;
+        if (a.title < b.title) return -1;
+        return 0;
+      });
+  }
+
+  return articles
+    .filter(function (article) {
+      article.score = articleScore(article, q);
+      return article.score > MIN_SCORE;
+    })
+    .filter(function (article, index) {
+      return index <= MAX_RESULTS;
+    })
+    .sort(function (a, b) {
+      if (a.score > b.score) return -1;
+      if (a.score < b.score) return 1;
+      return 0;
+    });
+};
+
+if (typeof module === 'object' && typeof module.exports === 'object')
+  module.exports = {
+    search: search,
+    applyDictionary: applyDictionary,
+    articleScore: articleScore,
+    loadArticles: loadArticles,
+    fixRelativeImgSrcs: fixRelativeImgSrcs,
+    dictionaryTermMatches: dictionaryTermMatches
+  };
+else {
+  (function () {
+    window.DNSimpleSupport = window.DNSimpleSupport || {};
+    window.DNSimpleSupport.search = search;
+    window.DNSimpleSupport.articles = ARTICLES;
+
+    loadArticles(ARTICLES);
+  })();
+}

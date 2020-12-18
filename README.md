@@ -2,32 +2,28 @@
 
 This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc](http://nanoc.stoneship.org/)
 
-[![Build Status](https://travis-ci.org/dnsimple/dnsimple-support.svg?branch=master)](https://travis-ci.org/dnsimple/dnsimple-support)
+[![Build Status](https://travis-ci.com/dnsimple/dnsimple-support.svg?branch=master)](https://travis-ci.com/dnsimple/dnsimple-support)
+
 
 ## Setup
 
 1. Clone this repository
-2. Run `asdf install`
-3. Run `bundle install`
-4. Run `yarn`
-5. Start your local instance with `yarn live`
+1. Run `asdf install`
+1. Run `bundle install`
+1. Start your local instance with `rake run`
+
+The site will be visible at [localhost:3000](http://localhost:3000).
+
 
 ## Development
 
-Use `yarn live` to concurrently compile JS and CSS dependencies along with running `nanoc live`.
-An autocompiler automatically compiles changed files on every HTTP request.
+Use `rake run` to start the site. The server will automatically re-compiles changed files.
 
-```shell
-yarn live
 
-Loading site… done
-Thin web server (v1.7.0 codename Dunder Mifflin)
-Maximum connections set to 1024
-Listening on 0.0.0.0:3000, CTRL+C to stop
+## Deployment
 
-14:26:35 - INFO - Compilation succeeded.
-14:26:35 - INFO - Guard is now watching at '~/projects/dnsimple-support'
-```
+Each commit to master is deployed automatically via Netlify.
+
 
 ### Managing categories
 
@@ -35,12 +31,9 @@ You can add/remove/edit categories by editing the file `priorities/categories.ya
 
 Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes
 
+
 ### Sorting articles
 
 You can edit the order in which the articles appear in a category page by editing the file `priorities/articles.yaml`
 
 Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes.
-
-## Deployment
-
-Each commit to master is deployed automatically via Netlify.

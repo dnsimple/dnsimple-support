@@ -27,6 +27,10 @@ Wildcard certificates are no different from single name certificates. They conta
 wildcard
 ```
 
+<warning>
+When ordering a Let's Encrypt wildcard SSL certificate, the wildcard (*) will _only_ secure subdomains. A wildcard certificate cannot secure the root (such as example.com). If you want to secure both the root domain and subdomains with Let's Encrypt, you will need to [order an additional certificate](articles/getting-started-ssl-certificates/).
+</warning>
+
 ## Let's Encrypt or Standard
 
 Both providers support wildcard certificates. Let's Encrypt certificates are free, but are only valid for a short period. Comodo certificates are valid for much longer, but also come with a cost per wildcard certificate.

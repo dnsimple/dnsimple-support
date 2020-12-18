@@ -2,19 +2,28 @@
   "name": "dnsimple-support",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "lunr": "^2.3.9"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "concurrently": "^5.3.0",
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "copy-webpack-plugin": "^5.0.3",
+    "copy-webpack-plugin": "^5.1.2",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "jest": "^26.6.3",
     "tachyons": "^4.12.0",
-    "webpack": "^4.44.1",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "lint": "eslint content spec --ext .js",
+    "lint:fix": "eslint content spec --ext .js --fix",
     "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
-    "build": "./node_modules/.bin/webpack"
+    "test": "jest",
+    "test:watch": "jest --watch"
   }
 }

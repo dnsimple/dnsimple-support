@@ -7,6 +7,7 @@ categories:
 
 # Do you support Extended Validation (EV) SSL certificates?
 
-You currently **cannot purchase EV certificates** through DNSimple. We are investigating adding support for EV SSL certificates in the future.
+You **cannot purchase EV certificates** through DNSimple. We will not be adding this certificate for purchase, because it cannot be fully automated.
 
-In the meantime, we recommend acquiring your EV certificate through [CertSimple](https://certsimple.com/).
+In terms of technical security, we recommend issuing a DV (domain0validated) certificate instead. These are less expensive than EV certificates and offer the same cryptographic level of security. 
+
