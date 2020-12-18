@@ -19,7 +19,7 @@ Until you provide us with further information, your invoices will reflect the em
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
 
-## Customize billing information
+## Customizing billing information
 
 You can replace the billing details with custom information on all your invoices:
 
@@ -50,7 +50,7 @@ You can modify this information any time, as many times as you need to. The new 
 
 All future invoices will display the information you provided.
 
-## Change the billing email
+## Changing the billing email
 
 We can deliver your invoices to a different email address from the one you use to manage your domains.
 
