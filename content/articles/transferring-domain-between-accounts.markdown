@@ -23,7 +23,7 @@ Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer)
 
 <warning>
 Once the transfer is accepted, you'll no longer be able to manage the domain.
-<br /<br />
+<br /><br />
 Transfers between DNSimple accounts are also subject to an [ICAAN-imposed lock after change of registrant](/articles/icann-60-day-lock-registrant-change/).
 </warning>
 
