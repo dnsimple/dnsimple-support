@@ -21,6 +21,9 @@ This article describes the procedure to transfer a domain registered with DNSimp
 
 <warning>
 Once a domain transfer is started, you won't be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code. Once you provide the transfer code to the gaining registrar, you cannot make adjustments.
+<br /><br />
+    
+If you've recently had a domain transferred to your DNSimple account from another, you won't be able to transfer the domain away for 60 days due to an [ICAAN-imposed lock after change of registrant](/articles/icann-60-day-lock-registrant-change/).
 </warning>
 
 To transfer a domain to another registrar, the standard procedure requires you to:
