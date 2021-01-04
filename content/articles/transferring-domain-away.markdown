@@ -58,6 +58,10 @@ The transfer code is sent to the email listed as registrant (owner) for the doma
     This will unlock the domain and, if applicable, email the transfer code to the domain registrant within 6 hours of requesting the code. Do not click more than once - this slows down the delivery process. Check your spam folder for the code if you don't see it in your inbox.
 </div>
 
+This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <support@dnsimple.com>`. Consider adding these email addresses to your trusted contacts to ensure optimal delivery.
+
+### Resending transfer code
+
 If you requested a domain transfer out and haven't received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. For security purposes, we don't have access to view the code, and won't be able to expedite the code's delivery. If the allotted time has passed, you've verified the email address is correct, and the transfer code isn't in your spam folder, we'll be happy to look into it and figure out why the transfer code hasn't arrived.
 
 <info>
