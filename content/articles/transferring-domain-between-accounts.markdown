@@ -23,6 +23,8 @@ Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer)
 
 <warning>
 Once the transfer is accepted, you'll no longer be able to manage the domain.
+<br /><br />
+When transferring a domain to another DNSimple account, the domain's registrant information will be updated to reflect the new account. This may result in the domain being [locked from further transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 </warning>
 
 ## Initiating a transfer
