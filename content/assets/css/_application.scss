@@ -25,6 +25,12 @@
     margin-top: 0px;
   }
 
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   &:before {
     display: block;
     float: left;
