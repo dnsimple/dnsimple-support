@@ -107,18 +107,6 @@ beta.example.com.   CAA 0 issue "comodoca.com"
 
 In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there's a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
 
-<note>
-#### Comodo Wildcard Certificates
-
-Customers who purchase a Comodo wildcard certificate from us need to make sure they have an `issue` and `issuewild` CAA record, because they add an additional single-name to the certificate to cover the non-wildcard name. For example, buying a certificate for `*.example.com` issues a certificate with both `example.com` and `*.example.com` in the certificate names. This means you need to configure your CAA records:
-
-    example.com.  CAA 0 issue "comodoca.com"
-    example.com.  CAA 0 issuewild "comodoca.com"
-
-The above rules also apply to subdomain wildcard certificates.
-</note>
-
-
 ## Querying CAA records
 
 The CAA record is a relatively new resource record (RR), and not all tools support it. A notable example is `dig` – it doesn't support the standard syntax for querying CAA records. To query the CAA record for a domain with `dig`, you must specify the RR type (257) directly.
