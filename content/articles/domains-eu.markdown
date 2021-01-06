@@ -22,6 +22,9 @@ This article explains the requirements and special procedures for .EU domain nam
 In order to register a .EU domain, you need to agree and be willing to be compliant with the additional terms and conditions for .EU:
 
 - Agree to the Registry Data Transfer Policy
+
+  ![Agree to the Registry Data Transfer Policy](/files/eu-domain-policy.png)
+
 - You must be one of the following:
   - An EU citizen, independently of their place of residence.
   - A natural person who is not an EU citizen and who is a resident of a Member State.
