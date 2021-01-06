@@ -77,7 +77,7 @@ example.com.  CAA 0 issue "letsencrypt.org"
 To allow both Let's Encrypt and Comodo, add 2 CAA records, one for each CA:
 
 ```
-example.com.  CAA 0 issue "comodoca.com"
+example.com.  CAA 0 issue "sectigo.com"
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
@@ -85,7 +85,7 @@ To allow Let's Encrypt and Comodo only for wildcard, use `issuewild`:
 
 ```
 example.com.  CAA 0 issue "letsencrypt.org"
-example.com.  CAA 0 issuewild "comodoca.com"
+example.com.  CAA 0 issuewild "sectigo.com"
 ```
 
 The presence of issuewild overrides the `issue`. Let's Encrypt _is not allowed_ to issue wildcard certificates.
@@ -100,9 +100,9 @@ The records are inherited by child hostnames, which are offshoots of the parent 
 
 ```
 example.com.        CAA 0 issue "letsencrypt.org"
-alpha.example.com.  CAA 0 issue "comodoca.com"
+alpha.example.com.  CAA 0 issue "sectigo.com"
 beta.example.com.   CAA 0 issue "letsencrypt.org"
-beta.example.com.   CAA 0 issue "comodoca.com"
+beta.example.com.   CAA 0 issue "sectigo.com"
 ```
 
 In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there's a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.

@@ -19,11 +19,11 @@ Occasionally, the issuance may take longer and require up to several days. This 
 - [CAA records](/articles/caa-record) preventing the validation and issuance
 - issues in the email approval
 
-<warning>
+<note>
 #### Remember to approve the certificate!
 
 In most cases, the purchase process can get stuck because the certificate is never approved by the owner. Once you submit the certificate, please monitor the approval email inbox and make sure to **click on the link contained in the email sent from the Certificate Authority** in order to validate and approve the certificate. Be sure to monitor your spam folder in case these emails are accidentally marked as spam.
-</warning>
+</note>
 
 <note>
 #### Sectigo Wildcard Certificates and CAA
