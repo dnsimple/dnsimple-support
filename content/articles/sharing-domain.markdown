@@ -20,3 +20,15 @@ Enter the user's email address and click "Share". If they already have an accoun
 Accounts that have access to a shared domain are limited as to what they can do with the domain. They can only add, edit, and remove records from the domain or add and remove services. They can't renew domains, change domain contact information, delete the domain, etc. The full list of restrictions appears on the page where you enter an email address to share access.
 
 If you're only working on shared domains, you don't need to activate your account.
+
+## Limitations
+
+Here are some things that users given shared management *will not* be able to do:
+
+- Users who you share with will not be able to transfer a domain in to or out of your account.
+- Users who you share with will not be able to renew a domain in your account.
+- Users who you share with will not be able to register or add a domain to your account.
+- Users who you share with will not be able to enable or disable auto-renewal for domains in your account.
+- Users who you share with will not be able to delete a domain from your account.
+- Users who you share with will not be able to access any domain other than the ones you give them permission to manage.
+- Users who you share with will not be able to share the domain with another user.
