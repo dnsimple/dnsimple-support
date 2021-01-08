@@ -102,3 +102,18 @@ categories:
   ## This is a header
   This is the text after the header.
   ```
+## Links
+
+* Use hyperlinks rather than raw links.
+
+  **Correct:**
+
+  ```
+  Check out [this article](https://support.dnsimple.com/articles/changing-plans/) for instructions to change your plan.
+  ```
+
+  **Incorrect:**
+
+  ```markdown
+  Check out this article for instructions to change your plan: https://support.dnsimple.com/articles/changing-plans/.
+  ```
