@@ -19,12 +19,24 @@ Occasionally, the issuance may take longer and require up to several days. This 
 - [CAA records](/articles/caa-record) preventing the validation and issuance
 - issues in the email approval
 
-<warning>
+<note>
 #### Remember to approve the certificate!
 
 In most cases, the purchase process can get stuck because the certificate is never approved by the owner. Once you submit the certificate, please monitor the approval email inbox and make sure to **click on the link contained in the email sent from the Certificate Authority** in order to validate and approve the certificate. Be sure to monitor your spam folder in case these emails are accidentally marked as spam.
-</warning>
+</note>
 
+<note>
+#### Sectigo Wildcard Certificates and CAA
+
+Customers who purchase a Sectigo wildcard certificate from us need to make sure they have both `issuewild` and `issue` [CAA records](/articles/caa-record), because they add an additional single-name to the certificate to cover the non-wildcard name.
+
+For example, buying a certificate for `*.example.com` issues a certificate with both `example.com` and `*.example.com` in the certificate names. This means you need to configure your CAA records:
+
+    example.com.  CAA 0 issue "sectigo.com"
+    example.com.  CAA 0 issuewild "sectigo.com"
+
+The above rules also apply to subdomain wildcard certificates.
+</note>
 ## Let's Encrypt certificates
 
 For [Let's Encrypt](/articles/ssl-certificates#letsencrypt) certificates the issuance is generally between 30 minutes and 1 hour.
