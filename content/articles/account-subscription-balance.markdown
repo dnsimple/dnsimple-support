@@ -42,4 +42,3 @@ The account page has a full section dedicated to relevant information about your
     ![Account Billing section](/files/account-balance.png)
 
 </div>
-
