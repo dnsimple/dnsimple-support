@@ -16,31 +16,27 @@ categories:
 
 You will receive invoices by email for various charges incurred throughout your billing cycle, like your DNSimple subscription renewal, domain registrations, certificates and other [one-time charges](#one-time-charges).
 
+## Explanation of your invoice
+
 Here is closer look at what your invoice means:
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
 
-1. We are DNSimple. We are focused on providing [effortless domain and DNS management](https://support.dnsimple.com/articles/dnsimple-services/).
-2. **Invoice Number**
-  - The unique number assigned to your invoice.
-3. **Invoice Date**
-  - The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15.
-4. **Terms**
-  - Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.
-5. **To**
-  - Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).
-6. **Your Order**
-  - This section gives an itemized listing of your [charges](#charge-types) (subscriptions or products) for the invoice.
-7. **Subtotal**
-  - The total amount for the invoice before any credits or discounts.
-8. **Credit**
-  - The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).
-9. **Total**
-  - The amount due for the invoice billing cycle.
+|    | **Name**           | **Description**                                                                                                                                                                       |
+|:--:|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. | **DNSimple**       | We are focused on providing [effortless domain and DNS management](https://support.dnsimple.com/articles/dnsimple-services/).                                                         |
+| 2. | **Invoice Number** | The unique number assigned to your invoice.                                                                                                                                           |
+| 3. | **Invoice Date**   | The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
+| 4. | **Terms**          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                              |
+| 5. | **To**             | Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).                                                                       |
+| 6. | **Your Order**     | This section gives an itemized listing of your [charges](#charge-types) (subscriptions or products) for the invoice.                                                                  |
+| 7. | **Subtotal**       | The total amount for the invoice before any credits or discounts.                                                                                                                     |
+| 8. | **Credit**         | The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).                                                                        |
+| 9. | **Total**          | The amount due for the invoice billing cycle.                                                                                                                                         |
 
 ## Charge types
 
-DNSimple has both recurring charges and one-time charges. One-time charges, such as the fees you pay for registering a domain or for purchasing a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. Such charges _can_ be recurring if you've enabled auto-renewal for the product.
+DNSimple has both recurring charges and one-time charges. One-time charges, such as the fees you pay for registering a domain or for purchasing a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. Such charges _can_ be recurring, such as if you've enabled auto-renewal for a domain.
 
 ### Recurring charges
 
