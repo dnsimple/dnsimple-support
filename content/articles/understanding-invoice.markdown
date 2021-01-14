@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Either monthly or annually (depending on the option you chose when you purchased your subscription), you'll receive an email that includes your invoice. [Learn how to find and view your invoice history](/articles/account-invoice-history/).
+Either monthly or yearly (depending on the option you chose when you purchased your subscription), you will receive an email that includes your invoice. You will also receive an invoice for [one-time charges](#one-time-charges) such as domain registrations. [Learn how to find and view your invoice history](/articles/account-invoice-history/).
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
 
@@ -24,12 +24,12 @@ The following table describes the fields you might see on your invoice.
 
 | Name           | Description                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Credit         | The amount of any credit deducted from your digital wallet.                                                                                                                             |
+| Credit         | The amount of any credit deducted from your [account credit](/articles/account-subscription-balance/).                                                                                                                             |
 | Invoice Date   | The date the invoice was created. The invoice date is the day of the start of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
 | Invoice Number | The unique number assigned to your invoice.                                                                                                                                             |
 | Subtotal       | The total amount for the invoice before any credits or discounts.                                                                                                                       |
 | Terms          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                                |
-| To             | Your company name and address. To update this information, see [Billing Settings](https://support.dnsimple.com/articles/billing-settings/).                                             |
+| To             | Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).                                             |
 | Total          | The amount due for the invoice Billing Period.                                                                                                                                          |
 | Your Order     | This section gives an itemized listing of your charges (subscriptions or products) for the invoice.                                                                                     |
 
@@ -40,13 +40,13 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ### Recurring charges
 
 - DNSimple subscription
-- Email Forwards
-- Extra Domain Zones
+- Email forwards
+- Extra domain zones
 
 ### One-time charges
 
 - Domain registrations, transfers, and renewals
-- Standard or Wildcard SSL Certificates
+- Standard or Wildcard SSL certificates
 - Whois Privacy
 
 ## Proration
@@ -54,3 +54,5 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ```
 I'm digging through the code trying to see how proration is calculated. Javier may be able to offer some color here.
 ```
+
+When you change your plan you’ll receive a proration discount corresponding to the remaining days in your current subscription plan. This discount doesn’t consider extras, like email forwards or extra zones, which you’ll be billed for again as part of the plan change.
