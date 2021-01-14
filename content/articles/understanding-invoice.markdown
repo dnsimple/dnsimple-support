@@ -24,7 +24,7 @@ The following table describes the fields you might see on your invoice.
 
 | Name           | Description                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Credit         | The amount of any credit deducted from your [account credit](/articles/account-subscription-balance/).                                                                                                                             |
+| Credit         | The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).                                                                                                                             |
 | Invoice Date   | The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
 | Invoice Number | The unique number assigned to your invoice.                                                                                                                                             |
 | Subtotal       | The total amount for the invoice before any credits or discounts.                                                                                                                       |
