@@ -25,12 +25,12 @@ The following table describes the fields you might see on your invoice.
 | Name           | Description                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Credit         | The amount of any credit deducted from your [account credit](/articles/account-subscription-balance/).                                                                                                                             |
-| Invoice Date   | The date the invoice was created. The invoice date is the day of the start of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
+| Invoice Date   | The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
 | Invoice Number | The unique number assigned to your invoice.                                                                                                                                             |
 | Subtotal       | The total amount for the invoice before any credits or discounts.                                                                                                                       |
 | Terms          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                                |
 | To             | Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).                                             |
-| Total          | The amount due for the invoice Billing Period.                                                                                                                                          |
+| Total          | The amount due for the invoice billing cycle.                                                                                                                                          |
 | Your Order     | This section gives an itemized listing of your charges (subscriptions or products) for the invoice.                                                                                     |
 
 ## Charge types
