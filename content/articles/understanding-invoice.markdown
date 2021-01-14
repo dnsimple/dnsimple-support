@@ -5,6 +5,8 @@ categories:
 - Account
 ---
 
+# Understanding Your Invoice
+
 Either monthly or annually (depending on the option you chose when you purchased your subscription), you'll receive an email that includes your invoice. [Learn how to find and view your invoice history](/articles/account-invoice-history/).
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
