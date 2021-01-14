@@ -14,24 +14,29 @@ categories:
 
 ---
 
-Either monthly or yearly (depending on the option you chose when you purchased your subscription), you will receive an email that includes your invoice. You will also receive an invoice for [one-time charges](#one-time-charges) such as domain registrations. [Learn how to find and view your invoice history](/articles/account-invoice-history/).
+You will receive invoices by email for various charges incurred throughout your billing cycle, like your DNSimple subscription renewal, domain registrations, certificates and other [one-time charges](#one-time-charges).
+
+Here is closer look at what your invoice means:
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
 
-## Invoice field glossary
-
-The following table describes the fields you might see on your invoice. 
-
-| Name           | Description                                                                                                                                                                             |
-|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Credit         | The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).                                                                                                                             |
-| Invoice Date   | The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
-| Invoice Number | The unique number assigned to your invoice.                                                                                                                                             |
-| Subtotal       | The total amount for the invoice before any credits or discounts.                                                                                                                       |
-| Terms          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                                |
-| To             | Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).                                             |
-| Total          | The amount due for the invoice billing cycle.                                                                                                                                          |
-| Your Order     | This section gives an itemized listing of your charges (subscriptions or products) for the invoice.                                                                                     |
+1. We are DNSimple. We are focused on providing [effortless domain and DNS management](https://support.dnsimple.com/articles/dnsimple-services/).
+2. **Invoice Number**
+  - The unique number assigned to your invoice.
+3. **Invoice Date**
+  - The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15.
+4. **Terms**
+  - Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.
+5. **To**
+  - Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).
+6. **Your Order**
+  - This section gives an itemized listing of your [charges](#charge-types) (subscriptions or products) for the invoice.
+7. **Subtotal**
+  - The total amount for the invoice before any credits or discounts.
+8. **Credit**
+  - The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).
+9. **Total**
+  - The amount due for the invoice billing cycle.
 
 ## Charge types
 
@@ -46,7 +51,7 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ### One-time charges
 
 <info>
-Domain renewal charges will be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
+Domain renewal charges can be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
 </info>
 
 - Domain registrations, transfers, and renewals
@@ -60,3 +65,9 @@ I'm digging through the code trying to see how proration is calculated. Javier m
 ```
 
 When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or extra zones, which you will be billed for again as part of the plan change.
+
+## Additional resources
+
+- domain renewal
+- certificates
+- [Learn how to find and view your [invoice history](/articles/account-invoice-history/).

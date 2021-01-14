@@ -21,7 +21,11 @@ Until you provide us with further information, your invoices will reflect the em
 
 ## Customizing billing information
 
-You can replace the billing details with custom information on all your invoices:
+You can replace the following billing details with custom information on all your invoices:
+
+- Company
+- Tax ID
+- Address
 
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
