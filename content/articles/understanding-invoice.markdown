@@ -55,4 +55,4 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 I'm digging through the code trying to see how proration is calculated. Javier may be able to offer some color here.
 ```
 
-When you change your plan you’ll receive a proration discount corresponding to the remaining days in your current subscription plan. This discount doesn’t consider extras, like email forwards or extra zones, which you’ll be billed for again as part of the plan change.
+When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or extra zones, which you will be billed for again as part of the plan change.
