@@ -45,6 +45,10 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 
 ### One-time charges
 
+<info>
+Domain renewal charges will be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
+</info>
+
 - Domain registrations, transfers, and renewals
 - Standard or Wildcard SSL certificates
 - Whois Privacy
