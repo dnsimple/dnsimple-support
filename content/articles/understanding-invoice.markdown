@@ -7,6 +7,13 @@ categories:
 
 # Understanding Your Invoice
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Either monthly or annually (depending on the option you chose when you purchased your subscription), you'll receive an email that includes your invoice. [Learn how to find and view your invoice history](/articles/account-invoice-history/).
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
@@ -39,7 +46,7 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ### One-time charges
 
 - Domain registrations, transfers, and renewals
-- Standard or Wildcard SSL Certificate
+- Standard or Wildcard SSL Certificates
 - Whois Privacy
 
 ## Proration
