@@ -41,3 +41,9 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 - Domain registrations, transfers, and renewals
 - Standard or Wildcard SSL Certificate
 - Whois Privacy
+
+## Proration
+
+```
+I'm digging through the code trying to see how proration is calculated. Javier may be able to offer some color here.
+```
