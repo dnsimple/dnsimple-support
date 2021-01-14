@@ -39,4 +39,5 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ### One-time charges
 
 - Domain registrations, transfers, and renewals
+- Standard or Wildcard SSL Certificate
 - Whois Privacy
