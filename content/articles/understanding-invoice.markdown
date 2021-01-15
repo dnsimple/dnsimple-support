@@ -16,6 +16,7 @@ categories:
 
 You will receive invoices by email for various charges incurred throughout your billing cycle, like your DNSimple subscription renewal, domain registrations, certificates and other [one-time charges](#one-time-charges).
 
+
 ## Explanation of your invoice
 
 Here is closer look at what your invoice means:
@@ -29,10 +30,11 @@ Here is closer look at what your invoice means:
 | 3. | **Invoice Date**   | The date the invoice was created. The invoice date is the day of the start of your billing cycle. For example, if your billing cycle is Jan 15 - Feb 14, your Invoice Date is Jan 15. |
 | 4. | **Terms**          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                              |
 | 5. | **To**             | Your company name and address. To update this information, see [Billing Settings](/articles/billing-settings/).                                                                       |
-| 6. | **Your Order**     | This section gives an itemized listing of your [charges](#charge-types) (subscriptions or products) for the invoice.                                                                  |
+| 6. | **Your Order**     | This section gives an itemized listing of your [charges](#charge-types) for the invoice billing cycle cycle.                                                                  |
 | 7. | **Subtotal**       | The total amount for the invoice before any credits or discounts.                                                                                                                     |
 | 8. | **Credit**         | The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).                                                                        |
 | 9. | **Total**          | The amount charged to your credit card for the invoice billing cycle.                                                                                                                                         |
+
 
 ## Charge types
 
@@ -41,14 +43,10 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 ### Recurring charges
 
 - DNSimple subscription
-- Email forwards
-- Extra domain zones
+- [Email forwards](/articles/email-forwarding/)
+- [Extra domain zones](/articles/dns-hosting#extra-zones/)
 
 ![Recurring charges](/files/recurring-charges.png)
-
-<info>
-Products such as extra domain zones will appear on your invoice as `<Plan>` `<Billing Cycle>` Extra Zone.
-</info>
 
 ### One-time charges
 
@@ -62,11 +60,13 @@ Domain registration charges can be recurring if you have enabled [auto-renewal](
 - Standard or Wildcard SSL certificates
 - Whois Privacy
 
+
 ## Proration
 
 When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or extra zones, which you will be billed for again as part of the plan change.
 
 ![Prorated invoice](/files/prorated-invoice.png)
+
 
 ## Additional resources
 
