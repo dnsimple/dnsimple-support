@@ -96,7 +96,7 @@ If the domain is registered with us but delegated to another DNS provider, disab
 
 ## Extra zones
 
-Each of [our plans](https://dnsimple.com/pricing) includes DNS management for five (5) domains/zones. Each extra domain in excess of this will incur an additional charge, depending on your plan:
+Each of [our plans](https://dnsimple.com/pricing) include DNS management for five (5) domains/zones. Each extra domain in excess of this will incur an additional charge, depending on your plan:
 
 - Personal plan ($0.50 per month)
 - Professional plan ($2.00 per month)
