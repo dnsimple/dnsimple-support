@@ -14,7 +14,7 @@ categories:
 
 ---
 
-You will receive invoices by email for various charges incurred throughout your billing cycle, like your DNSimple subscription renewal, domain registrations, certificates and other [one-time charges](#one-time-charges).
+You will receive invoices by email for various charges incurred throughout your billing cycle, like your DNSimple subscription renewal, domain registrations, certificates and other [purchases](#purchases).
 
 
 ## Explanation of your invoice
@@ -38,7 +38,7 @@ Here is closer look at what your invoice means:
 
 ## Charge types
 
-DNSimple has both recurring charges and one-time charges. One-time charges, such as the fees you pay for registering a domain or for purchasing a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. One-time charges _can_ be recurring, such as if you've enabled auto-renewal for a domain.
+DNSimple has both recurring charges and purchases. Purchases, such as the fees you pay for registering a domain or for buying a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. Purchases _can_ be recurring, such as if you've enabled auto-renewal for a domain.
 
 ### Recurring charges
 
@@ -48,7 +48,7 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 
 ![Recurring charges](/files/recurring-charges.png)
 
-### One-time charges
+### Purchases
 
 <info>
 Domain registration charges can be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
