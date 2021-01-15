@@ -94,6 +94,15 @@ If a domain is delegated to our name servers, disabling DNS hosting for a domain
 If the domain is registered with us but delegated to another DNS provider, disabling DNS hosting won't change the delegation. The domain will continue to resolve with the other DNS provider.
 
 
+## Extra zones
+
+Each of [our plans](https://dnsimple.com/pricing) includes DNS management for five (5) domains/zones. Each extra domain in excess of this will incur an additional charge, depending on your plan:
+
+- Personal plan ($0.50 per month)
+- Professional plan ($2.00 per month)
+- Business plan ($5.00 per month)
+
+
 ## Use cases
 
 There are a few cases where you may want to turn off DNS hosting for a domain:
