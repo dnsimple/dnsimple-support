@@ -44,7 +44,7 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 
 - DNSimple subscription
 - [Email forwards](/articles/email-forwarding/)
-- [Extra domain zones](/articles/dns-hosting#extra-zones/)
+- [Extra domain zones](/articles/dns-hosting/#extra-zones)
 
 ![Recurring charges](/files/recurring-charges.png)
 
