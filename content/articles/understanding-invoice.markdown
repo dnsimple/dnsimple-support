@@ -1,6 +1,6 @@
 ---
 title: Understanding Your DNSimple Invoice
-excerpt: A detailed explanation of DNsimple invoices.
+excerpt: A detailed explanation of DNSimple invoices.
 categories:
 - Account
 ---
