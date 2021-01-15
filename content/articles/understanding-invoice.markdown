@@ -32,7 +32,7 @@ Here is closer look at what your invoice means:
 | 6. | **Your Order**     | This section gives an itemized listing of your [charges](#charge-types) (subscriptions or products) for the invoice.                                                                  |
 | 7. | **Subtotal**       | The total amount for the invoice before any credits or discounts.                                                                                                                     |
 | 8. | **Credit**         | The amount of any credit deducted from your [account credit balance](/articles/account-subscription-balance/).                                                                        |
-| 9. | **Total**          | The amount due for the invoice billing cycle.                                                                                                                                         |
+| 9. | **Total**          | The amount charged to your credit card for the invoice billing cycle.                                                                                                                                         |
 
 ## Charge types
 
@@ -44,26 +44,30 @@ DNSimple has both recurring charges and one-time charges. One-time charges, such
 - Email forwards
 - Extra domain zones
 
+![Recurring charges](/files/recurring-charges.png)
+
+<info>
+Products such as extra domain zones will appear on your invoice as `<Plan>` `<Billing Cycle>` Extra Zone.
+</info>
+
 ### One-time charges
 
 <info>
-Domain renewal charges can be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
+Domain registration charges can be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).
 </info>
 
-- Domain registrations, transfers, and renewals
+- Domain registrations
+- Domain renewals
+- Domain transfers
 - Standard or Wildcard SSL certificates
 - Whois Privacy
 
 ## Proration
 
-```
-I'm digging through the code trying to see how proration is calculated. Javier may be able to offer some color here.
-```
-
 When you change your plan you will receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or extra zones, which you will be billed for again as part of the plan change.
+
+![Prorated invoice](/files/prorated-invoice.png)
 
 ## Additional resources
 
-- domain renewal
-- certificates
-- [Learn how to find and view your [invoice history](/articles/account-invoice-history/).
+- Learn how to find and view your [invoice history](/articles/account-invoice-history/).
