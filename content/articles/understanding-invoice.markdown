@@ -38,7 +38,7 @@ Here is closer look at what your invoice means:
 
 ## Charge types
 
-DNSimple has both recurring charges and one-time charges. One-time charges, such as the fees you pay for registering a domain or for purchasing a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. Such charges _can_ be recurring, such as if you've enabled auto-renewal for a domain.
+DNSimple has both recurring charges and one-time charges. One-time charges, such as the fees you pay for registering a domain or for purchasing a Standard or Wildcard SSL certificate, appear on a separate invoice than the fees for your subscription. One-time charges _can_ be recurring, such as if you've enabled auto-renewal for a domain.
 
 ### Recurring charges
 
