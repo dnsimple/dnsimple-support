@@ -38,7 +38,7 @@ Here's closer look at what your invoice means:
 
 ## Charge types
 
-DNSimple has both recurring charges and purchases. Purchases, such as the fees you pay for registering a domain or for buying a Standard or Wildcard SSL certificate, appear on a separate invoice from subscription fees. Purchases _can_ be recurring, for example, if you've enabled auto-renewal for a domain.
+DNSimple has both recurring charges and purchases. Purchases, such as the fees you pay for registering a domain or for buying a Standard or Wildcard SSL certificate, appear on a separate invoice from subscription fees. Purchases _can_ be recurring – for example, if you've enabled auto-renewal for a domain.
 
 ### Recurring charges
 
