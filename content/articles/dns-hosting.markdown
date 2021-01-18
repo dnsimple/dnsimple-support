@@ -47,7 +47,7 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 ## Enabling DNS hosting
 
 <info>
-This section describes a feature only available on [newer plans](/articles/new-plans/#newer-plans-only).
+This section describes a feature only available on [current plans](/articles/new-plans/#newer-plans-only).
 </info>
 
 You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
@@ -96,7 +96,7 @@ If the domain is registered with us but delegated to another DNS provider, disab
 
 ## Extra zones
 
-Each of [our plans](https://dnsimple.com/pricing) include DNS management for five (5) domains/zones. Each extra domain in excess of this will incur an additional charge, depending on your plan:
+Each of [our plans](https://dnsimple.com/pricing) include DNS management for five (5) domains/zones. Each domain in excess of this will incur an additional charge, depending on your plan:
 
 - Personal plan ($0.50 per month)
 - Professional plan ($2.00 per month)
