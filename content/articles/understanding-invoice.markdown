@@ -19,7 +19,7 @@ You'll receive invoices by email for various charges incurred throughout your bi
 
 ## Explanation of your invoice
 
-Here's closer look at what your invoice means:
+Here's a closer look at what your invoice means:
 
 ![DNSimple invoice](/files/dnsimple-invoice.png)
 
