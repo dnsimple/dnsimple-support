@@ -7,8 +7,12 @@ categories:
 
 # Protection Against DDoS Attacks
 
-We use Cloudflare's DNS Firewall for our DNS distributed denial-of-service (DDoS) defense layer. Cloudflare also provides application layer DDoS defense, but we don't offer that as we don't proxy for your application traffic—we focus on DNS as deliberate choice.
+We use Cloudflare's [DNS Firewall](https://www.cloudflare.com/dns/dns-firewall/) for our DNS distributed denial-of-service (DDoS) defense layer. This protection is enabled by default for all customers at no additional cost. 
+
+## How it works
+
+DNS queries for your name servers are sent to the nearest Cloudflare data center, where the legitimacy of the request is checked and malicious traffic blocked. If the correct DNS response is available in Cloudflare's cache, then the response is returned to the visitor. If the DNS response is not available in the cache, Cloudflare will query the name servers of the provider in the background to fetch and return the DNS response to the visitor.
  
-We recognize that relying on a single provider introduces a single point of failure, so we are working to introduce other defense partners in our infrastructure and ultimately want to give customers the choice to pick and choose from a mix of providers for maximum protection and redundancy.
- 
-Ultimately, this would provide greater redundancy compared to using a single provider alone because, in the event that Cloudflare's network goes down, the domains hosted on our system will be served by the additional provider. If this is something that you're interested in now, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact), to discuss technical requirements and pricing.
+## Future plans
+
+We are currently working to introduce alternative providers for zones where complete redundancy is critical. If this is something that you're interested in now, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact), to discuss technical requirements and pricing.
