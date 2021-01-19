@@ -47,7 +47,7 @@ You manage your domain DNS records (also called DNS zone) using the [DNS record 
 ## Enabling DNS hosting
 
 <info>
-This section describes a feature only available on [newer plans](/articles/new-plans/#newer-plans-only).
+This section describes a feature only available on [current plans](/articles/new-plans/#newer-plans-only).
 </info>
 
 You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
@@ -92,6 +92,15 @@ Each new domain added to an account has DNS hosting enabled by default, whether 
 If a domain is delegated to our name servers, disabling DNS hosting for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
 If the domain is registered with us but delegated to another DNS provider, disabling DNS hosting won't change the delegation. The domain will continue to resolve with the other DNS provider.
+
+
+## Extra zones
+
+Each of [our plans](https://dnsimple.com/pricing) include DNS management for five (5) domains/zones. Each domain in excess of this will incur an additional charge, depending on your plan:
+
+- Personal plan ($0.50 per month)
+- Professional plan ($2.00 per month)
+- Business plan ($5.00 per month)
 
 
 ## Use cases
