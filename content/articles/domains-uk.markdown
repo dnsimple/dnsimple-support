@@ -124,7 +124,7 @@ To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [
 
 ## Change of Registrant
 
-Any contact change that results in a change of registrant must be executed directly at Nominet, the .UK registry. A change of registrant occurs when you are modifying the *Organization Name* for organizations, *First/Last Name* for individuals.
+Any contact change that results in a change of registrant must be executed directly at Nominet, the .UK registry. A change of registrant occurs when you are modifying the *Organization Name* for organizations or *First/Last Name* for individuals.
 
 <div class="section-steps" markdown="1">
 ##### Updating the Registrant at Nominet
@@ -151,7 +151,7 @@ Any contact change that results in a change of registrant must be executed direc
 1. Once you completed and verified the change at Nominet, please [contact us](https://dnsimple.com/contact) so we can synchronize the information in your DNSimple dashboard.
 </div>
 
-If you have trouble logging in or following the process above, reach out to us and we'll be happy to assist you.
+If you have trouble logging in or following the process above, reach out to us, and we'll be happy to assist you.
 
 ## Troubleshooting
 
@@ -165,4 +165,4 @@ Here's a list of common `.UK` registration errors:
 2. If the `.UK` domain is reserved, you must be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
 3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#register).
 
-If you have any questions, [contact us](https://dnsimple.com/contact) and we will help you register the domain.
+If you have any questions, [contact us](https://dnsimple.com/contact), and we'll help you register the domain.
