@@ -122,13 +122,36 @@ You can now decide to [point the domain to DNSimple name servers](/articles/dele
 
 To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [instructions to transfer in](#transfer), but you will need to get the IPS tag of the gaining registrar.
 
-## Updating the registrant name
+## Change of Registrant
 
-A change of ownership (classified as a change in "Organization Name" for organizations, "First/Last Name" for individuals) **must** be changed through Nominet's Online Services (Nominet is the Registry for UK domains). You can [register for Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) using the email address listed as the domain's Contact in your DNSimple dashboard. For organizations, ensure the "Registrant" and "Trading As" names *both* match the contact's Organization Name from your DNSimple dashboard. 
+Any contact change that results in a change of registrant must be executed directly at Nominet, the .UK registry. A change of registrant occurs when you are modifying the *Organization Name* for organizations, *First/Last Name* for individuals.
 
-![Updating the registrant name](/files/uk-ownership.png)
+<div class="section-steps" markdown="1">
+##### Updating the Registrant at Nominet
 
-If you make this change at Nominet, please [contact us](https://dnsimple.com/contact) so we can synchronize the information in your DNSimple dashboard.
+1. [Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) using the email address listed as the domain's Contact in your DNSimple dashboard.
+
+   ![Nominet Online Services Login](/files/nominet-uk-1.png)
+
+1. Go to the <label>Domain Manager</label> section. You should find all your .UK domains listed there.
+1. Select the domain you want to update the registrant for. Clicking on the right arrow on the domain header will expand the details.
+
+   ![Domain Manager](/files/nominet-uk-2.png)
+
+1. Under the <label>Registrant</label> section, click <label>Edit</label> to modify the information.
+1. Edit the registrant details making sure they match exactly the information for the contact associated to the domain in your DNSimple account. Your contact is classified as organization is you specified an organization name, otherwise it's considered an individual.
+   1. For individuals, change Registrant to match exactly the First/Last Name in your DNSimple contact. Select an appropriate Registrant Type if applicable.
+   2. For organizations, change Registrant to match exatly the Organization Name in your DNSimple contact. Also make sure to fill out the Trading As with the exact same value. Finally, select an appropriate Registrant Type if applicable.
+
+   ![Enter Registrant](/files/nominet-uk-3.png)
+   ![Select Registrant Type](/files/nominet-uk-4.png)
+
+1. Click <label>Update Details</label> to save.
+1. To verify the changes are applied, go to our [WHOIS tool](https://dnsimple.com/whois) and query the WHOIS information for the domain. Verify the *Last updated* field has changed, and that the WHOIS response contains the updated information.
+1. Once you completed and verified the change at Nominet, please [contact us](https://dnsimple.com/contact) so we can synchronize the information in your DNSimple dashboard.
+</div>
+
+If you have trouble logging in or following the process above, reach out to us and we'll be happy to assist you.
 
 ## Troubleshooting
 
