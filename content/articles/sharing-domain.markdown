@@ -25,10 +25,10 @@ If you're only working on shared domains, you don't need to activate your accoun
 
 Users given shared management **will not** be able to:
 
-- transfer a domain in to or out of your account.
-- renew a domain in your account.
-- register or add a domain to your account.
-- enable or disable auto-renewal for domains in your account.
-- delete a domain from your account.
-- access any domain other than the ones you give them permission to manage.
-- share the domain with another user.
+- Transfer a domain in to or out of your account.
+- Renew a domain in your account.
+- Register or add a domain to your account.
+- Enable or disable auto-renewal for domains in your account.
+- Delete a domain from your account.
+- Access any domain other than the ones you give them permission to manage.
+- Share the domain with another user.
