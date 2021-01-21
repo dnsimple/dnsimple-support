@@ -7,12 +7,21 @@ categories:
 
 # Protection Against DDoS Attacks
 
-We use Cloudflare's [DNS Firewall](https://www.cloudflare.com/dns/dns-firewall/) for our DNS distributed denial-of-service (DDoS) defense layer. This protection is enabled by default for all customers at no additional cost. 
+## Understanding DNSimple DDoS Protection
 
-## How it works
+DNSimple provides defense against distributed denial-of-service (DDoS) attacks at DNS level. This protection is available to all customers at no additional cost and without any special configuration.
 
-DNS queries for your name servers are sent to the nearest Cloudflare data center, where the legitimacy of the request is checked and malicious traffic blocked. If the correct DNS response is available in Cloudflare's cache, then the response is returned to the visitor. If the DNS response is not available in the cache, Cloudflare will query the name servers of the provider in the background to fetch and return the DNS response to the visitor.
- 
-## Future plans
+DNSimple DDoS protection system works by actively analyzing the DNS queries sent to our [name servers](/articles/dnsimple-nameservers/), and taking action in case of malicious traffic.
 
-We are currently working to introduce alternative providers for zones where complete redundancy is critical. If this is something that you're interested in now, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact), to discuss technical requirements and pricing.
+## How does it work?
+
+When a DNS query is sent to one of our anycast name servers, the request is being routed via anycast to the nearest point-of-presence (POP) of our DDoS defense system using the BGP protocol. The DDoS system sits in front of all our name-servers, and continuously analyses incoming traffic in order to detect potential abuse patterns.
+
+Legitimate requests pass through the DDoS defense system and hits a first layer of caching. Cached requests are immediately returned for optimal results Non-blocked non-cached requests are forwarded to the nearest [data center around the world](/articles/anycast/) for processing. Once the query is processed by one of our name servers, the answer is returned to the client and cached if necessary.
+
+
+## Multi-provider protection
+
+DNSimple name servers and DDoS protection infrastructure are distributed in multiple locations around the world.
+
+We currently adopt a single DDoS protection provider, and we are working to introduce additional providers for zones where complete redundancy is critical. If this is something that you're interested in, please [contact us](https://dnsimple.com/contact) to discuss technical requirements and pricing.
