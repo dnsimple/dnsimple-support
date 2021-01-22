@@ -33,7 +33,7 @@ Here they are in alphabetical order:
 * Format
 * Geniuslink
 * [GitHub Pages](/articles/github-pages)
-* [Google Apps](/articles/google-apps-service)
+* [Google Workspace](/articles/google-workspace-service)
 * Heroku
 * Jimdo
 * Kickofflabs
