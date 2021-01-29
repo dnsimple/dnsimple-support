@@ -22,7 +22,7 @@ Use `rake run` to start the site. The server will automatically re-compiles chan
 
 ## Deployment
 
-Each commit to master is deployed automatically via Netlify.
+Each commit to main is deployed automatically via Netlify.
 
 
 ### Managing categories
