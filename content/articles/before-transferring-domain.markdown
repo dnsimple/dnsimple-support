@@ -18,7 +18,9 @@ Transferring domain names from one registrar to another is often something that 
 
 ## Ensure DS records are removed
 
-If you are currently using DNSSEC, then you must [enable it for the domain](/articles/dnssec/#enabling-dnssec) in DNSimple so that we sign the zone. Doing so will allow you to safely remove DS records from your current provider.
+If you are currently using DNSSEC, then you must [enable it for the domain](/articles/dnssec/#enabling-dnssec) in DNSimple so that we sign the zone too. 
+
+Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
 
 ## Adding the domain to DNSimple
 
