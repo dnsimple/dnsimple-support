@@ -97,6 +97,7 @@ Most transferred domains will be extended the minimum required extension period.
 
 The price of this extension is included in the transfer fee.
 
-### DS records
+### Ensure any DS records are removed
 
-Before delegating your domain to DNSimple make sure that you first [enable DNSSEC for the domain](/articles/dnssec/#enabling-dnssec) in order to safely remove the DS records from your current provider.
+If you are currently using DNSSEC, then you must [enable it for the domain](/articles/dnssec/#enabling-dnssec) in DNSimple so that we sign the zone too. 
+Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
