@@ -7,6 +7,16 @@ categories:
 
 # Getting Started With DNSimple
 
+
+## All plans
+
+
+### Account and billing
+
+- [Customize billing information](/articles/billing-settings/#customizing-billing-information)
+
+### DNS and Domains
+
 - [Add a domain](/articles/adding-domain/)
   - [Register a domain](/articles/registering-domain/)
   - [Transfer a domain](/articles/transferring-domain/)
@@ -16,7 +26,6 @@ categories:
   - [Connect to common services with one click](/articles/services/)
   - [A Records](/articles/a-record/)
   - [CNAME Records](/articles/cname-record/)
-- [Customize billing information](/articles/billing-settings/#customizing-billing-information)
 
 
 ## Professional Plan and higher
