@@ -18,7 +18,7 @@ Transferring domain names from one registrar to another is often something that 
 
 ## Ensure DNSSEC is disabled
 
-If you are currently using DNSSEC, then you must disable it before changing the name servers.
+If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
 
 Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
 
