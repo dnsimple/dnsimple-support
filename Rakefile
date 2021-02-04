@@ -61,10 +61,10 @@ namespace :test do
     sh("yarn lint")
   end
 
-  task :all => [:ruby, :yarn_test, :yarn_lint]
+  task all: [:ruby, :yarn_test, :yarn_lint]
 end
 
-task :test => [:compile, "test:all"]
+task test: [:compile, "test:all"]
 
 task :priorities do
   require 'nanoc'
