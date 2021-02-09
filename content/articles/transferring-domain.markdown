@@ -49,10 +49,10 @@ At DNSimple:
 
 1. Log in to DNSimple and click on <label>Add a Domain</label>.
 1. Select <label>transfer a domain</label>.
-1. You can also enable "Whois Privacy Protection" by checking the "Enable WHOIS Privacy Protection" check box, so it's enabled immediately upon completion of the transfer 
+1. You can also enable "Whois Privacy Protection" by checking the "Enable WHOIS Privacy Protection" check box, so it's enabled immediately upon completion of the transfer.
 1. Click <label>Transfer Domain</label>
 - Select a registrant, enter your authorization code if it's required, and fill in any extended attributes.
-- Press "Transfer Domain"
+- Press "Transfer Domain".
 </div>
 
 ## Approving the transfer
@@ -96,3 +96,9 @@ We suggest pointing [your domain to our name servers before the transfer](/artic
 Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended one year when they are transferred.
 
 The price of this extension is included in the transfer fee.
+
+### Ensure DNSSEC is disabled
+
+If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
+
+Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
