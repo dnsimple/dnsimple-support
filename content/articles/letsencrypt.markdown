@@ -29,7 +29,7 @@ Their three most distinguishing characteristics, as listed on their homepage, ar
 
 - Free: Let's Encrypt SSL certificates are free. They don't charge per certificate.
 - Automated: Let's Encrypt's issuance process is fully automated. They developed an issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) that's designed to be fully automated with no manual intervention.
-- Open: The source code of Let's Encrypt's certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt). 
+- Open: The source code of Let's Encrypt's certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt).
 
 ## Differences between Let's Encrypt and Standard SSL certificates
 
@@ -108,7 +108,7 @@ Let's Encrypt feature support varies based on your [DNSimple plan](https://dnsim
 - You can request as many certificates as you want as long as you stay within Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
 - Depending on your plan, you can specify your custom subdomains, or they'll default to www/root domain. View our [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with subdomains.
 - Depending on your plan, you can customize the certificate SAN with up to 100 extra names for a single certificate. View our [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with SAN.
- 
+
 
 ## Testing
 
@@ -134,6 +134,6 @@ Once renewed, you'll receive an email and [webhook notification](https://develop
 Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
 </info>
 
-This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate at any time from the SSL certificate page.
+This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.
 
 ![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
