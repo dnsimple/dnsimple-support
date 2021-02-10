@@ -134,6 +134,6 @@ Once renewed, you'll receive an email and [webhook notification](https://develop
 Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
 </info>
 
-This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. In order to use the feature the certificate must not be expired.
+This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.
 
 ![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
