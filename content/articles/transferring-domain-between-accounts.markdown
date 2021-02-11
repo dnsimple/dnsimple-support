@@ -35,6 +35,10 @@ To transfer a domain to another DNSimple account, go to the domain's management 
 
 Enter the destination email address of another DNSimple account. Make sure the email address you enter matches the correct account. Once the domain has been transferred, you won't be able to control this domain under your current account.
 
+<warning>
+Make sure to use the [account email address](/articles/changing-account-email/), rather than a [user email address](/articles/changing-user-email/). Otherwise, the push will not be successful.
+</warning>
+
 ## Accepting a transfer
 
 If another DNSimple account holder (or Reseller) attempts to push a domain into your account, you have to accept it before it will be added. You'll receive a notification on your domain list indicating the pending push.
