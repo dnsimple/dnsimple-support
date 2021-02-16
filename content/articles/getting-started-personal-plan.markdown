@@ -46,7 +46,7 @@ Read more: [Transferring a Domain to DNSimple](/articles/transferring-domain/).
 
 ### Step 2b: Register a new domain
 
-There are two reasons to register a domain with DNSimple: when it’s a newly purchased domain, or when you’re already managing the DNS for a domain.
+There are two reasons to register a domain with DNSimple: when it's a newly purchased domain, or when you're already managing the DNS for a domain.
 
 <info>
 Read more: [Registering a Domain](/articles/registering-domain/).
@@ -62,9 +62,9 @@ Read more: [Delegating a Domain registered with another Registrar to DNSimple](/
 
 ## Step 3: Configure DNS records for your domain
 
-Once your domains have been added, it’s important to configure DNS records for them. Doing so ensures that people can reach your web site, send you email, and so on.
+Once your domains have been added, it's important to configure DNS records for them. Doing so ensures that people can reach your web site, send you email, and so on.
 
-The two most common records you’re likely to configure are `A` and `CNAME` records. Follow the links below to read more about them.
+The two most common records you're likely to configure are `A` and `CNAME` records. Follow the links below to read more about them.
 
 - [A Records](/articles/a-record/)
 - [CNAME Records](/articles/cname-record/)
@@ -72,7 +72,7 @@ The two most common records you’re likely to configure are `A` and `CNAME` rec
 Alternatively, setup DNS records for common platforms such as Google Workspace, Shopify, or WordPress using our [one-click services](/articles/services/).
 
 <note>
-Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn’t delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won’t resolve.
+Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
 </note>
 
 ## Additional resources
