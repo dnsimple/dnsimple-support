@@ -30,11 +30,11 @@ Figuring out where to start with your new DNSimple subscription can be intimidat
 
 Transferring an existing domain into DNSimple, registering a new domain, or simply delegating your domain to us can be done painlessly by following these guides:
 
-- [Transfer an existing domain](#step-2a-transfer-an-existing-domain)
-- [Register a new domain](#step-2b-register-a-new-domain)
-- [Delegate your domain to DNSimple](#step-2c-delegate-your-domain-to-dnsimple)
+- [Transfer an existing domain](#transfer-an-existing-domain)
+- [Register a new domain](#register-a-new-domain)
+- [Delegate your domain to DNSimple](#delegate-your-domain-to-dnsimple)
 
-### Step 2a: Transfer an existing domain
+### Transfer an existing domain
 
 Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
@@ -44,7 +44,7 @@ Check out [this guide](https://dnsimple.com/how-to-transfer-without-downtime) on
 Read more: [Transferring a Domain to DNSimple](/articles/transferring-domain/).
 </info>
 
-### Step 2b: Register a new domain
+### Register a new domain
 
 There are two reasons to register a domain with DNSimple: when it's a newly purchased domain, or when you're already managing the DNS for a domain.
 
@@ -52,7 +52,7 @@ There are two reasons to register a domain with DNSimple: when it's a newly purc
 Read more: [Registering a Domain](/articles/registering-domain/).
 </info>
 
-### Step 2c: Delegate your domain to DNSimple
+### Delegate your domain to DNSimple
 
 Have you registered a domain elsewhere but want to manage the DNS records with DNSimple? Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
