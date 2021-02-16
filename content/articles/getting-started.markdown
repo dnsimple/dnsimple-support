@@ -7,13 +7,20 @@ categories:
 
 # Getting Started With DNSimple
 
-
 ## All plans
 
+### General
+
+- [DNSimple Services](/articles/dnsimple-services/)
+- [Why we don’t offer web hosting services](/articles/why-not-web-hosting/)
+- [Our Comics](https://dnsimple.com/comics)
 
 ### Account and billing
 
+- [Account Creation](/articles/account-creation/)
+- [Account Activation](/articles/account-activation/)
 - [Customize billing information](/articles/billing-settings/#customizing-billing-information)
+- [Understanding Your DNSimple Invoice](/articles/understanding-invoice/)
 
 ### DNS and Domains
 
@@ -26,6 +33,7 @@ categories:
   - [Connect to common services with one click](/articles/services/)
   - [A Records](/articles/a-record/)
   - [CNAME Records](/articles/cname-record/)
+- [Top-level domain catalog](https://dnsimple.com/tlds)
 
 
 ## Professional Plan and higher
