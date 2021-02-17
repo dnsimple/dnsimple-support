@@ -5,7 +5,7 @@ categories:
 - DNSimple
 ---
 
-# Getting Started With Your DNSimple Personal Plan
+# Getting Started With Your Personal Plan
 
 ### Table of Contents {#toc}
 
