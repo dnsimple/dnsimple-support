@@ -17,3 +17,8 @@
   for = "/search.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
