@@ -30,9 +30,9 @@ Figuring out where to start with your new DNSimple subscription can be intimidat
 
 Transferring an existing domain into DNSimple, registering a new domain, or simply delegating your domain to us can be done by following these guides:
 
-- [Transfer an existing domain](#transfer-an-existing-domain)
-- [Register a new domain](#register-a-new-domain)
-- [Delegate your domain to DNSimple](#delegate-your-domain-to-dnsimple)
+- [Transfer an existing domain](#transferring-an-existing-domain)
+- [Register a new domain](#registering-a-new-domain)
+- [Delegate your domain to DNSimple](#delegating-your-domain-to-dnsimple)
 
 ### Transferring an existing domain
 
