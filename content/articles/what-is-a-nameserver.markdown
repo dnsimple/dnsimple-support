@@ -7,10 +7,7 @@ categories:
 
 # What is a Name Server?
 
-In the simplest terms, name servers work as a directory that translates domain names (human
--readable words) into IP addresses (computer-readable numbers). With billions of websites out there, and more being created every day, we need name servers to make things easy to find across the Internet.
-
-Without name servers, you'd almost never find what you were looking for unless you knew the exact IP address. That's where a DNS service provider, like DNSimple, comes in.
+Name servers work as a directory that translates domain names into IP addresses. They make things easy to find across the Internet.
 
 When you type a domain name into the search bar of your browser (Chrome, Safari, etc.), the domain name hits the name server, which translates the domain name into the IP address so the browser can locate it. Once it's found the domain name in the name server, your web browser uses the IP address to connect to the server and load the site you request.
 
