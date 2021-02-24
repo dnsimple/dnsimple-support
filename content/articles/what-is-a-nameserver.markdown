@@ -1,11 +1,13 @@
 ---
-title: What is a name server?
-excerpt: An explanation of what name servers are and why they're important.
+title: Name Servers
+excerpt: An explanation of what name servers are, why they're important, and how to set them up.
 categories:
 - Name Servers
 ---
 
-# What is a name server?
+# Name Servers
+
+## What is a name server?
 
 In the simplest terms, name servers work as a directory that translates domain names (human
 -readable words) into IP addresses (computer-readable numbers). With billions of websites out there, and more being created every day, we need name servers to make things easy to find across the Internet.
