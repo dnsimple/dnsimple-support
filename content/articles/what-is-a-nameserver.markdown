@@ -23,30 +23,7 @@ When you type a domain name into the search bar of your browser (Chrome, Safari,
 
 For security purposes, we don't make these changes on your behalf. If you purchase your domain with a registrar like DNSimple and keep it there forever, you don't have to do anything with the name servers.
 
-If you transfer your domain to DNSimple to manage your DNS, you'll need to update the name servers. Luckily, the name servers are easy to change and easy to remember.
-
-<div class="section-steps" markdown="1">
-##### Changing the name servers to DNSimple
-
-1.  Log into DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
-
-    ![Domain Page link](/files/domains-domain-link.png)
-
-1.  On the Domain delegation card, click <label>Edit delegation</label>.
-
-    ![Domain Delegation card](/files/domain-delegation-card.png)
-
-1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers) then click <label>Change name servers</label>:
-  - ns1.dnsimple.com
-  - ns2.dnsimple.com
-  - ns3.dnsimple.com
-  - ns4.dnsimple.com
-
-    ![Change name servers](/files/change-name-servers.jpg)
-
-</div>
+If you transfer your domain to DNSimple to manage your DNS, you'll need to update the name servers. Luckily, the name servers are easy to change and easy to remember by following [these step-by-step instructions](/articles/delegating-dnsimple-registered/).
 
 <note>
 #### Check your name servers
