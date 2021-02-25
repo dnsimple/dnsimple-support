@@ -86,8 +86,8 @@
         if (!heading.id || heading.id === 'toc') return;
         const link = document.createElement('a');
         link.setAttribute('href', '#' + heading.id);
-        link.className = 'f7 o-80 no-underline dib w2 ml1 ml0-ns nl4-ns fr fn-ns v-mid';
-        link.innerHTML = '📎';
+        link.className = 'f6 link gray no-underline dib w2 pl2 ml1 ml0-ns nl4-ns fr fn-ns v-mid';
+        link.innerHTML = "<i class='fa fa-link'></i>";
         heading.prepend(link);
       });
   </script>
