@@ -11,7 +11,9 @@ Name servers work as a directory that translates domain names into IP addresses.
 
 When you type a domain name into the search bar of your browser (Chrome, Safari, etc.), the domain name hits the name server, which translates the domain name into the IP address so the browser can locate it. Once it's found the domain name in the name server, your web browser uses the IP address to connect to the server and load the site you request.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2WdF1zT01HY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<div class="aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <info>
 "Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
@@ -36,7 +38,7 @@ If you transfer your domain to DNSimple to manage your DNS, you'll need to updat
 
     ![Domain Delegation card](/files/domain-delegation-card.png)
 
-1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers) then click **Change name servers**:
+1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers) then click <label>Change name servers</label>:
   - ns1.dnsimple.com
   - ns2.dnsimple.com
   - ns3.dnsimple.com
