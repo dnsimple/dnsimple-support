@@ -85,6 +85,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .consulting | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .cool | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .credit | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .cz | https://www.nic.cz/page/314/rules-and-policies/ |
 | .dance | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .date | [http://nic.date/resources.html](http://nic.date/resources.html) |
 | .de | [https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/](https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/) |
