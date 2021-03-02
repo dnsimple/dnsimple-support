@@ -85,7 +85,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .consulting | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .cool | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .credit | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
-| .cz | https://www.nic.cz/page/314/rules-and-policies/ |
+| .cz | [https://www.nic.cz/page/314/rules-and-policies/](https://www.nic.cz/page/314/rules-and-policies/) |
 | .dance | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .date | [http://nic.date/resources.html](http://nic.date/resources.html) |
 | .de | [https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/](https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/) |
@@ -181,7 +181,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .mobi | [https://dotmobi.mobi/about/afilias-anti-abuse-policy](https://dotmobi.mobi/about/afilias-anti-abuse-policy) |
 | .moe | [https://nic.moe/en/legal/](https://nic.moe/en/legal/) |
 | .ms | [http://nic.ms/ms-policies](http://nic.ms/ms-policies) |
-| .mx | https://www.dominios.mx/mx-domain-name-general-policies/ |
+| .mx | [https://www.dominios.mx/mx-domain-name-general-policies/](https://www.dominios.mx/mx-domain-name-general-policies/) |
 | .name | [https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration](https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration) |
 | .net | [https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration](https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration) |
 | .network | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
