@@ -1,6 +1,6 @@
 ---
 title: Secondary DNS with EasyDNS
-excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for EasyDNS.
+excerpt: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 categories:
 - Secondary DNS
 ---
@@ -27,7 +27,7 @@ A confirmation message will tell you that Secondary DNS has been enabled from th
 Log into your **EasyDNS** account. The first thing you'll do is add the domain.
 
 <info>
-EasyDNS has both a tabbed and one page view. Your interface may look different depending on the layout you've selected though the instructions below are the same.
+EasyDNS has both a tabbed and one page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
 </info>
 
 ![DNSimple configuration is successful](/files/easy-dns-add-domain.png)
