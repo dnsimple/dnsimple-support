@@ -81,6 +81,7 @@ Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). I
 - [Email forwards](/articles/email-forwarding/)
 - [Whois Privacy](/articles/whois-privacy/)
 - [Learn how DNS and HTTPS work](https://dnsimple.com/comics)
+- [What happens if I stop paying for my DNSimple subscription?](/articles/what-happens-if-i-stop-paying/)
 
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/3eqEl6scOvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
