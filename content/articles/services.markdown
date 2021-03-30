@@ -18,44 +18,64 @@ categories:
 
 Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
 
-We currently support more than 30 services! 
-Here they are in alphabetical order:
+We currently support more than 30 services! Here they are in alphabetical order:
 
-* Amazon Web Services
-* Atmail
-* Blackbell
+
+### Blogging
+
 * Blogger
-* [Cloudflare](/articles/cloudflare-service)
-* Divio
-* Fanout
-* Fastly
-* Fastmail
-* Format
-* Geniuslink
-* [GitHub Pages](/articles/github-pages)
-* [Google Workspace](/articles/google-workspace-service)
-* Heroku
-* Jimdo
-* Kickofflabs
-* Launchrock
-* Mailgun
-* Netlify
-* Office365
-* Paperplane
-* Pobox
-* Rackspace email
-* Shopify
-* Simplybuilt
-* Squarespace
-* Supadupa
-* Surge
-* Tender support
 * Tumblr
-* URL forwarding
+
+### Ecommerce
+
+* Blackbell
+* Shopify
+* Supadupa
+* Squarespace
+
+### Email
+
+* Atmail
+* DMARC Reports by Postmark
+* Fastmail
+* Mailgun
+* Pobox
+* Postmark
+* Rackspace email
+
+### Hosting
+
+* Divio
+* Format
+* [GitHub Pages](/articles/github-pages)
+* Jimdo
+* Launchrock
+* Netlify
+* Platform.sh
+* Simplybuilt
+* Surge
 * Webflow
 * Weebly
-* Windows Azure
 * Wordpress
+
+### Infrastrucutre
+
+* Amazon Web Services
+* [Cloudflare](/articles/cloudflare-service)
+* Fanout
+* Fastly
+* Geniuslink
+* Gigalixir
+* Heroku
+* URL forwarding
+* Windows Azure
+
+### Productivity
+
+* [Google Workspace](/articles/google-workspace-service)
+* Kickofflabs
+* Office365
+* Tender support
 
 <info>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
