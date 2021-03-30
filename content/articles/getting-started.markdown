@@ -21,6 +21,7 @@ categories:
 - [Account Activation](/articles/account-activation/)
 - [Customize billing information](/articles/billing-settings/#customizing-billing-information)
 - [Understanding Your DNSimple Invoice](/articles/understanding-invoice/)
+- [What happens if I stop paying for my DNSimple subscription?](/articles/what-happens-if-i-stop-paying/)
 
 ### DNS and Domains
 
