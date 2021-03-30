@@ -23,7 +23,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 
 ### Blogging
 
-* Blogger
+* [Blogger](/articles/blogger-service)
 * Tumblr
 
 ### Ecommerce
