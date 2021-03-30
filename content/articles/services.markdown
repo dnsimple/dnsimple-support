@@ -24,7 +24,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 ### Blogging
 
 * [Blogger](/articles/blogger-service)
-* Tumblr
+* [Tumblr](/articles/tumblr-service)
 
 ### Ecommerce
 
