@@ -34,10 +34,10 @@ Importing a zone file won't delete or replace the existing domain's records.
 1.  Select the relevant account.
 1.  On the header, click on the <label>Domains</label> tab.
 1.  Locate the relevant domain, and click on the name to access the domain page.
-1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
-1.  Click on the <label>Import from a zone file</label> link inside the zones card.
+1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
+1.  Click on the <label>Import</label> link inside the zones card.
 
-    ![Import zone link](/files/import-zone.jpg)
+    ![Import zone link](/files/import-zone.png)
 
 1.  Paste the content from the zone file into the text area, and click <label>Import Zone</label>.
 1.  The results of the import will be displayed, including any errors that may have occurred.
@@ -64,8 +64,8 @@ Non-standard records, like [ALIAS](/articles/alias-record) and [POOL](/articles/
 1.  Select the relevant account.
 1.  On the header click on the <label>Domains</label> tab.
 1.  Locate the relevant domain, and click on the name to access the domain page.
-1.  Go to the settings section by clicking the <label>Settings</label> link on the left.
-1.  Click on the <label>Export to a zone file</label> link inside the zones card.
+1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
+1.  Click on the <label>Export</label> link inside the zones card.
 
     ![Export zone link](/files/export-zone.png)
 
