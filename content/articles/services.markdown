@@ -29,7 +29,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 ### Ecommerce
 
 * [Blackbell](/articles/blackbell-service)
-* Shopify
+* [Shopify](/articles/shopify-service)
 * Supadupa
 * Squarespace
 
