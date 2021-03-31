@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Create your own space with [Squarespace](http://www.squarespace.com). With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Google Workspace using the one-click service we provide.
+Create your own space with [Squarespace](http://www.squarespace.com). With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Squarespace using the one-click service we provide.
 
 
 ## Setting up at Squarespace
@@ -22,7 +22,7 @@ Create your own space with [Squarespace](http://www.squarespace.com). With DNSim
 Follow the steps to [enable the domain in your Squarespace Domains panel](https://support.squarespace.com/hc/en-us/articles/205812378).
 
 <info>
-Make sure to copy and paste the unique code under Host on the first line, as you'll need it when activating the service.
+Make sure to copy the unique code under Host on the first line of the DNS Settings, as you'll need it when activating the service.
 </info>
 
 

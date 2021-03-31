@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Use [Shopify](https://www.shopify.com) to create your online store. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Google Workspace using the one-click service we provide.
+Use [Shopify](https://www.shopify.com) to create your online store. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Shopify using the one-click service we provide.
 
 
 ## Enabling Shopify service

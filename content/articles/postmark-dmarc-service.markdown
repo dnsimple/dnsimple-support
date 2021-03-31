@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[DMARC Reports by Postmark](https://dmarc.postmarkapp.com) will process reports from major ISPs about your domain's DMARC alignment and turn them into beautiful, human-readable weekly email digests, absolutely free. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Google Workspace using the one-click service we provide.
+[DMARC Reports by Postmark](https://dmarc.postmarkapp.com) will process reports from major ISPs about your domain's DMARC alignment and turn them into beautiful, human-readable weekly email digests, absolutely free. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by DMARC Reports by Postmark using the one-click service we provide.
 
 
 ## Setting up at DMARC Reports by Postmark

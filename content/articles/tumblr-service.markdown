@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Share things you love with [Tumblr](https://www.tumblr.com/). With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Google Workspace using the one-click service we provide.
+Share things you love with [Tumblr](https://www.tumblr.com/). With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Tumblr using the one-click service we provide.
 
 
 ## Enabling Tumblr service
