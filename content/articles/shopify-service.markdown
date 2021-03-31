@@ -32,4 +32,4 @@ Now the service is added. You can remove it any time by following the steps on [
 
 ## Setting up at Shopify
 
-Follow the steps to [enable the subdomain in your Shopify store](https://help.shopify.com/en/manual/online-store/domains/add-a-domain/using-existing-domains/connecting-domains).
+Follow the steps to [enable the domain in your Shopify store](https://help.shopify.com/en/manual/online-store/domains/add-a-domain/using-existing-domains/connecting-domains).
