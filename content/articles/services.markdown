@@ -31,7 +31,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Blackbell](/articles/blackbell-service)
 * [Shopify](/articles/shopify-service)
 * [SupaDupa](/articles/supadupa-service)
-* Squarespace
+* [Squarespace](/articles/squarespace-service)
 
 ### Email
 
