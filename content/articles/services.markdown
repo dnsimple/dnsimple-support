@@ -36,7 +36,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 ### Email
 
 * [Atmail](/articles/atmail-service)
-* DMARC Reports by Postmark
+* [DMARC Reports by Postmark](/articles/postmark-dmarc-service)
 * Fastmail
 * Mailgun
 * Pobox
