@@ -52,8 +52,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Launchrock](/articles/launchrock-service)
 * [Netlify](/articles/netlify-service)
 * [Platform.sh](/articles/platformsh-service)
-* Simplybuilt
-* Surge
+* [Surge](/articles/surge-service)
 * Webflow
 * Weebly
 * Wordpress
