@@ -49,7 +49,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Format](/articles/format-service)
 * [GitHub Pages](/articles/github-pages)
 * [Jimdo](/articles/jimdo-service)
-* Launchrock
+* [Launchrock](/articles/launchrock-service)
 * Netlify
 * Platform.sh
 * Simplybuilt
