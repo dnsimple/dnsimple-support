@@ -51,7 +51,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Jimdo](/articles/jimdo-service)
 * [Launchrock](/articles/launchrock-service)
 * [Netlify](/articles/netlify-service)
-* Platform.sh
+* [Platform.sh](/articles/platformsh-service)
 * Simplybuilt
 * Surge
 * Webflow
