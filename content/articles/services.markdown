@@ -55,7 +55,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Surge](/articles/surge-service)
 * [Webflow](/articles/webflow-service)
 * [Weebly](/articles/weebly-service)
-* Wordpress
+* [Wordpress](/articles/wordpress-service)
 
 ### Infrastrucutre
 
