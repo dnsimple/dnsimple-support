@@ -40,7 +40,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Fastmail](/articles/fastmail-service)
 * [Mailgun](/articles/mailgun-service)
 * [Pobox](/articles/pobox-service)
-* Postmark
+* [Postmark](/articles/postmark-service)
 * Rackspace email
 
 ### Hosting
