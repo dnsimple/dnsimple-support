@@ -48,7 +48,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Divio Aldryn](/articles/aldryn-service)
 * [Format](/articles/format-service)
 * [GitHub Pages](/articles/github-pages)
-* Jimdo
+* [Jimdo](/articles/jimdo-service)
 * Launchrock
 * Netlify
 * Platform.sh
