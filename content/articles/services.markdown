@@ -41,11 +41,11 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Mailgun](/articles/mailgun-service)
 * [Pobox](/articles/pobox-service)
 * [Postmark](/articles/postmark-service)
-* Rackspace email
+* [Rackspace email](/articles/rackspace-email-service)
 
 ### Hosting
 
-* Divio
+* [Divio](/articles/aldryn-service)
 * Format
 * [GitHub Pages](/articles/github-pages)
 * Jimdo
