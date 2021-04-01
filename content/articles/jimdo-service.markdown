@@ -32,7 +32,7 @@ From the domain list, click on the domain name you want to update and then click
 
 ![Services](/files/services-dns-page-add.png)
 
-Select the "Email" tab and scroll down the page until you find the Jimdo service. Click on the *Add* button.
+Select the "Hosting" tab and scroll down the page until you find the Jimdo service. Click on the *Add* button.
 
 ![Add Service](/files/services-jimdo.png)
 
