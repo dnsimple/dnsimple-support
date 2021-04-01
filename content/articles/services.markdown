@@ -54,7 +54,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Platform.sh](/articles/platformsh-service)
 * [Surge](/articles/surge-service)
 * [Webflow](/articles/webflow-service)
-* Weebly
+* [Weebly](/articles/weebly-service)
 * Wordpress
 
 ### Infrastrucutre
