@@ -53,7 +53,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Netlify](/articles/netlify-service)
 * [Platform.sh](/articles/platformsh-service)
 * [Surge](/articles/surge-service)
-* Webflow
+* [Webflow](/articles/webflow-service)
 * Weebly
 * Wordpress
 
