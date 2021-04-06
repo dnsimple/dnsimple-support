@@ -57,7 +57,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Weebly](/articles/weebly-service)
 * [Wordpress](/articles/wordpress-service)
 
-### Infrastrucutre
+### Infrastructure
 
 * Amazon Web Services
 * [Cloudflare](/articles/cloudflare-service)

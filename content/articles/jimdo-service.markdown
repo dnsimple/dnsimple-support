@@ -36,4 +36,6 @@ Select the "Hosting" tab and scroll down the page until you find the Jimdo servi
 
 ![Add Service](/files/services-jimdo.png)
 
+Enter the Jimdo Site Name, then click on the *Complete Jimdo Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).

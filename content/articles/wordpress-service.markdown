@@ -27,6 +27,8 @@ Select the "Hosting" tab and scroll down the page until you find the WordPress s
 
 ![Add Service](/files/services-wordpress.png)
 
+Enter your WordPress.com subdomain, then click on the *Complete WordPress Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 

@@ -36,4 +36,6 @@ Select the "Ecommerce" tab and scroll down the page until you find the Squarespa
 
 ![Add Service](/files/services-squarespace.png)
 
+Enter your unique verification code (found under the column Host in Squarespace), then click on the *Complete Squarespace Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).

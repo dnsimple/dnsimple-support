@@ -32,4 +32,6 @@ Select the "Hosting" tab and scroll down the page until you find the Platform.sh
 
 ![Add Service](/files/services-platformsh.png)
 
+Enter the Platform.sh master domain, then click on the *Complete Platform.sh Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).

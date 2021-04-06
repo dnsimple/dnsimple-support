@@ -27,11 +27,9 @@ Select the "Email" tab and scroll down the page until you find the Atmail servic
 
 ![Add Service](/files/services-atmail.png)
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
+Enter your Atmail account username, then click on the *Complete Atmail Setup* button.
 
-<info>
-You will be prompted for your Atmail account username when activating this service.
-</info>
+Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 
 ## Setting up at Atmail

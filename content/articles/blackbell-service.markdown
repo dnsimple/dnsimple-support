@@ -27,9 +27,9 @@ Select the "Ecommerce" tab and scroll down the page until you find the Blackbell
 
 ![Add Service](/files/services-blackbell.png)
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
+Enter a subdomain (`CNAME`), then click on the *Complete Blackbell Setup* button.
 
-You'll be prompted to specify a subdomain (`CNAME`) upon activating this service.
+Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 
 ## Setting up at Blackbell

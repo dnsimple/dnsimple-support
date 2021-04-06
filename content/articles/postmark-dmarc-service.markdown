@@ -36,6 +36,8 @@ Select the "Email" tab and scroll down the page until you find the DMARC Reports
 
 ![Add Service](/files/services-postmark-dmarc.png)
 
+Enter the DMARC Value, then click on the *Complete DMARC Reports by Postmark Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 

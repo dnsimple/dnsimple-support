@@ -27,6 +27,8 @@ Select the "Hosting" tab and scroll down the page until you find the Format serv
 
 ![Add Service](/files/services-format.png)
 
+Enter the Format Address, then click on the *Complete Format Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 

@@ -32,4 +32,6 @@ Select the "Hosting" tab and scroll down the page until you find the Netlify ser
 
 ![Add Service](/files/services-netlify.png)
 
+Enter the Netlify Site Name, then click on the *Complete Netlify Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).

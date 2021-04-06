@@ -37,4 +37,6 @@ Select the "Hosting" tab and scroll down the page until you find the Divio Aldry
 
 ![Add Service](/files/services-aldryn.png)
 
+Enter the Aldryn Project Domain, then click on the *Complete Divio Aldryn Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).

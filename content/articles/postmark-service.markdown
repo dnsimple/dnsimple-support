@@ -32,6 +32,8 @@ Select the "Email" tab and scroll down the page until you find the Postmark serv
 
 ![Add Service](/files/services-postmark.png)
 
+Enter the DKIM Hostname, DKIM Value, and Inbound Subdomain, then click on the *Complete Postmark Setup* button.
+
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
 ## Verifying MX Records
