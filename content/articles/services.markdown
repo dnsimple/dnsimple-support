@@ -59,7 +59,9 @@ We currently support more than 30 services! Here they are in alphabetical order:
 
 ### Infrastructure
 
-* Amazon Web Services
+* [AWS Elastic Beanstalk](/articles/amazon-elasticbeanstalk-service)
+* AWS Lightsail
+* AWS S3
 * [Cloudflare](/articles/cloudflare-service)
 * Fanout
 * Fastly
