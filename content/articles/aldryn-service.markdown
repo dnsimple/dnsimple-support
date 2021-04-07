@@ -14,26 +14,26 @@ categories:
 
 ---
 
-Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Divio Aldryn using the one-click service we provide.
+Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Divio Aldryn.
 
 
 ## Setting up at Divio Aldryn
 
-To setup DNS for your custom domain complete the following steps:
+To set up DNS for your custom domain, complete the following steps:
 
-1. Head over to [control.aldryn.com](https://control.aldryn.com) and navigate to the dashboard of your project.
+1. Head over to [control.aldryn.com](https://control.aldryn.com), and navigate to the dashboard of your project.
 2. Navigate to the **Domain Settings** section.
 3. Add your custom domains (e.g *mysite.com* and *www.mysite.com*) by clicking the **Add Domain** button.
-4. Make note of the value of **Aldryn Project Domain** as you'll need to provide it when activating the service.
+4. Make note of the value of **Aldryn Project Domain**. You'll need to provide it when activating the service.
 
 
 ## Enabling Divio Aldryn service
 
-From the domain list, click on the domain name you want to update and then click on the DNS tab. Then scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
 
 ![Services](/files/services-dns-page-add.png)
 
-Select the "Hosting" tab and scroll down the page until you find the Divio Aldryn service. Click on the *Add* button.
+Select the "Hosting" tab, and scroll down the page until you find the Divio Aldryn service. Click on the *Add* button.
 
 ![Add Service](/files/services-aldryn.png)
 
