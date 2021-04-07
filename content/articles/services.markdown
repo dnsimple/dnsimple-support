@@ -74,7 +74,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 ### Productivity
 
 * [Google Workspace](/articles/google-workspace-service)
-* Kickofflabs
+* [KickOffLabs](/articles/kickofflabs-service)
 * Office365
 * Tender support
 
