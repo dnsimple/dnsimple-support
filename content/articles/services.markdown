@@ -66,7 +66,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Fanout](/articles/fanout-service)
 * [Fastly](/articles/fastly-service)
 * [Geniuslink](/articles/geniuslink-service)
-* Gigalixir
+* [Gigalixir](/articles/gigalixir-service)
 * Heroku
 * URL forwarding
 * Windows Azure
