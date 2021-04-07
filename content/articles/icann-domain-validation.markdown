@@ -21,7 +21,7 @@ This email will be sent from the addresses `DNSimple <donotreply@name-services.c
 
 Click the link to verify the registrant email address.
 
-The link must be to `http://raa.name-services.com`, `http://www.enom.com`, or `http://registrant-email-verification-ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
+The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-verification-ispapi.net`, or `registrant-email-verification.ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
 
 ## Resend verification email
 
