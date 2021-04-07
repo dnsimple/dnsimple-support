@@ -63,8 +63,8 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [AWS Lightsail](/articles/amazon-lightsail-service)
 * [AWS S3](/articles/amazon-s3-service)
 * [Cloudflare](/articles/cloudflare-service)
-* Fanout
-* Fastly
+* [Fanout](/articles/fanout-service)
+* [Fastly](/articles/fastly-service)
 * Geniuslink
 * Gigalixir
 * Heroku
