@@ -75,8 +75,8 @@ We currently support more than 30 services! Here they are in alphabetical order:
 
 * [Google Workspace](/articles/google-workspace-service)
 * [KickOffLabs](/articles/kickofflabs-service)
-* Office365
-* Tender support
+* [Office365](/articles/office-365-service)
+* [Tender support](/articles/tender-service)
 
 <info>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
