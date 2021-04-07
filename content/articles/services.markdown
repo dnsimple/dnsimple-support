@@ -67,8 +67,8 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Fastly](/articles/fastly-service)
 * [Geniuslink](/articles/geniuslink-service)
 * [Gigalixir](/articles/gigalixir-service)
-* Heroku
-* URL forwarding
+* [Heroku](/articles/heroku-service)
+* [URL forwarding](/articles/urlforward-service)
 * Windows Azure
 
 ### Productivity
