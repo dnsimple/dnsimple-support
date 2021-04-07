@@ -27,7 +27,7 @@ Select the "Infrastructure" tab and scroll down the page until you find the Giga
 
 ![Add Service](/files/services-gigalixir.png)
 
-Enter your Gigalixir Apex and WWW App Name Realm ID, then click on the *Complete Gigalixir Setup* button.
+Enter your Gigalixir Apex and WWW App Names, then click on the *Complete Gigalixir Setup* button.
 
 Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
 
