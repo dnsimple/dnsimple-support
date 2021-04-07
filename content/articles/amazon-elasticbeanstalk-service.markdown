@@ -29,4 +29,4 @@ Select the "Infrastructure" tab, and scroll down the page until you find the AWS
 
 Enter your Elastic Beanstalk subdomain, then click on the *Complete AWS Elastic Beanstalk Setup* button.
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
+Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
