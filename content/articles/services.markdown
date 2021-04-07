@@ -69,7 +69,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Gigalixir](/articles/gigalixir-service)
 * [Heroku](/articles/heroku-service)
 * [URL forwarding](/articles/urlforward-service)
-* Windows Azure
+* [Windows Azure](/articles/windows-azure-service)
 
 ### Productivity
 
