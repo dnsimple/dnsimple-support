@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Aldryn Cloud is Divio’s platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Divio Aldryn using the one-click service we provide.
+Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Divio Aldryn using the one-click service we provide.
 
 
 ## Setting up at Divio Aldryn
