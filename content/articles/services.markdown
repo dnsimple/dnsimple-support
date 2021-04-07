@@ -65,7 +65,7 @@ We currently support more than 30 services! Here they are in alphabetical order:
 * [Cloudflare](/articles/cloudflare-service)
 * [Fanout](/articles/fanout-service)
 * [Fastly](/articles/fastly-service)
-* Geniuslink
+* [Geniuslink](/articles/geniuslink-service)
 * Gigalixir
 * Heroku
 * URL forwarding
