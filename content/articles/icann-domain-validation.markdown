@@ -9,7 +9,11 @@ categories:
 
 ICANN, the organization that oversees domain name registrations for most top-level domains, requires validation of your registrant email address whenever a new domain is registered, or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
 
-When you make a change to your registrant's email address or name, you will receive an email similar to the following:
+When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that will tell you whether the change locks any of your domains for transfer and that you may have to verify the change by email.
+
+![Contact change confirmation](/files/contact-change.png)
+
+You may receive an email similar to the following:
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
