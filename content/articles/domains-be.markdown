@@ -16,7 +16,7 @@ This article explains the requirements and special procedures for .BE domain nam
 
 ## Changing the Contact for a .BE domain {#trade}
 
-Changing the registrant requires a `TRADE` operation with the registry and the payment of an additional fee. Please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) for further assistance.
+Changing the registrant requires payment of an additional fee as per registry rules. Please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) for further assistance.
 
 ## Transferring a .BE domain {#transferring}
 
