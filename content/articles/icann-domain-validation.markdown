@@ -9,18 +9,23 @@ categories:
 
 ICANN, the organization that oversees domain name registrations for most top-level domains, requires validation of your registrant email address whenever a new domain is registered, or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
 
-When you make a change to your registrant's email address or name, you will receive an email similar to the following:
+When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email.
+
+![Contact change confirmation](/files/contact-change.png)
+
+You may receive an email similar to the following:
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
 This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <registrant-verification@ispapi.net>` and will include a link similar to the following:
-- `http://raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
-- `http://www.enom.com/raaverification/verification.aspx?VerificationCode=AAAAAAAA-1A11-11AA-1A1A-1111111111`
-- `http://registrant-email-verification-ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
+- `raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
+- `www.enom.com/raaverification/verification.aspx?VerificationCode=AAAAAAAA-1A11-11AA-1A1A-1111111111`
+- `registrant-email-verification-ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
+- `registrant-email-verification.ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
 
 Click the link to verify the registrant email address.
 
-The link must be to `http://raa.name-services.com`, `http://www.enom.com`, or `http://registrant-email-verification-ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
+The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-verification-ispapi.net`, or `registrant-email-verification.ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
 
 ## Resend verification email
 
