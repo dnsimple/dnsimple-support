@@ -16,7 +16,7 @@ This article explains the requirements and special procedures for .BE domain nam
 
 ## Changing the Contact for a .BE domain {#trade}
 
-We don't currently support changing the registrant. Please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) for further assistance.
+Changing the registrant requires a `TRADE` operation with the registry and the payment of an additional fee. Please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact) for further assistance.
 
 ## Transferring a .BE domain {#transferring}
 
@@ -27,3 +27,7 @@ Unlike standard gTLD domains, .BE has some unique transfer rules. Please read th
 Like most TLDs, .BE requires an authorization code to transfer a domain or to change the contact. That auth code will be sent to the current registrant's e-mail address when you start the transfer process within the domain details page.
 
 You can also request that an authorization code be sent via the [registry website](https://www.dnsbelgium.be/en/manage-domain-name/change-registrar).
+
+## DNSSEC
+
+We do not support [DNSSEC](/articles/dnssec/) for .BE domain names at this time.
