@@ -18,8 +18,7 @@ categories:
 
 Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
 
-We currently support more than 30 services. Here they are in alphabetical order:
-
+We currently support more than 30 services:
 
 ### Blogging
 
