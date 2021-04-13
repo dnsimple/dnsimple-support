@@ -18,7 +18,7 @@ categories:
 
 Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
 
-We currently support more than 30 services! Here they are in alphabetical order:
+We currently support more than 30 services. Here they are in alphabetical order:
 
 
 ### Blogging
@@ -85,28 +85,28 @@ The service directory is open-source. [Learn how to propose or contribute new se
 
 ## Adding a service
 
-To add a service, simply navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Add".
+To add a service, navigate to your domain. On the services sidebar, select "DNS". Scroll down to locate the One Click Services section, and select "Add".
 
 ![Domain DNS page](/files/services-dns-page-add.png)
 
-Then choose the service that you want to add.
+Choose the service that you want to add.
 
 ![Service list](/files/services-list.png)
 
 
 ## Removing services
 
-To remove a service, simply navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Manage".
+To remove a service, navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Manage".
 
 ![Domain DNS page](/files/services-dns-page-manage.png)
 
-Find the service from the list of "Applied one-click services" that you want to remove and select "Remove".
+Find the service from the list of "Applied one-click services" that you want to remove, and select "Remove".
 
 ![Service list remove](/files/services-list-remove.png)
 
 
 ## Contributing a new service
 
-Services are defined in an open-source repository on GitHub. This project may be forked and updated by you to add a new service. Once you have added the files required for your service, issue a pull request so we can review it and deploy it.
+Services are defined in an open-source repository on GitHub. This project may be forked and updated by you to add a new service. Once you've added the files required for your service, issue a pull request so we can review and deploy it.
 
 Please visit [https://github.com/dnsimple/dnsimple-services](https://github.com/dnsimple/dnsimple-services) for full instructions.
