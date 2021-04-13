@@ -1,6 +1,6 @@
 ---
 title: Fastly Service
-excerpt: How to set up Fastly DNS using DNSimple one-click service.
+excerpt: How to set up Fastly DNS using DNSimple's one-click service.
 categories:
 - Services
 ---
@@ -14,16 +14,16 @@ categories:
 
 ---
 
-[Fastly](http://www.fastly.com) is a CDN (Content Delivery Network). With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by Fastly using the one-click service we provide.
+[Fastly](http://www.fastly.com) is a CDN (Content Delivery Network). With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Fastly.
 
-
+ 
 ## Enabling Fastly service
 
-From the domain list, click on the domain name you want to update and then click on the DNS tab. Then scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
 
 ![Services](/files/services-dns-page-add.png)
 
-Select the "Infrastructure" tab and scroll down the page until you find the Fastly service. Click on the *Add* button.
+Select the "Infrastructure" tab, and scroll down the page until you find the Fastly service. Click on the *Add* button.
 
 ![Add Service](/files/services-fastly.png)
 
