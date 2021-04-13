@@ -1,6 +1,6 @@
 ---
 title: LaunchRock Service
-excerpt: How to set up LaunchRock DNS using DNSimple one-click service.
+excerpt: How to set up LaunchRock DNS using DNSimple's one-click service.
 categories:
 - Services
 ---
@@ -14,20 +14,20 @@ categories:
 
 ---
 
-[LaunchRock](https://www.launchrock.com) helps you set up a "Launching Soon" page in minutes. Collect interest, increase sharing and build your audience. With DNSimple one-click [DNS services](/categories/services/) you can set up the DNS records required by LaunchRock using the one-click service we provide.
+[LaunchRock](https://www.launchrock.com) helps you set up a "Launching Soon" page in minutes. Collect interest, increase sharing and build your audience. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by LaunchRock.
 
 
 ## Enabling LaunchRock service
 
-From the domain list, click on the domain name you want to update and then click on the DNS tab. Then scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
 
 ![Services](/files/services-dns-page-add.png)
 
-Select the "Hosting" tab and scroll down the page until you find the LaunchRock service. Click on the *Add* button.
+Select the "Hosting" tab, and scroll down the page until you find the LaunchRock service. Click on the *Add* button.
 
 ![Add Service](/files/services-launchrock.png)
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
+Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 
 ## Setting up at LaunchRock
