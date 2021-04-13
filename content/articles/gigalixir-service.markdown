@@ -19,7 +19,7 @@ categories:
 
 ## Enabling Gigalixir service
 
-From the domain list, click on the domain name you want to update, and then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
 
 ![Services](/files/services-dns-page-add.png)
 
