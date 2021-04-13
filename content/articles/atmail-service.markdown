@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Atmail](http://atmail.com/) provides messaging solutions for ISPs, enterprise and small business. Email server, webmail and calendar deployed on-premise or in the cloud. With DNSimple's one-click [DNS services](/categories/services/) you can set up the DNS records required by Atmail.
+[Atmail](http://atmail.com/) provides messaging solutions for ISPs, enterprise and small business. Email server, webmail and calendar deployed on-premise or in the cloud. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Atmail.
 
 
 ## Enabling Atmail service
