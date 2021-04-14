@@ -1,5 +1,5 @@
 ---
-title: Secondary DNS
+title: Add a secondary DNS server to DNSimple
 excerpt: This page provides information about secondary DNS configuration with DNSimple.
 categories:
 - Secondary DNS
