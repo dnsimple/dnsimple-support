@@ -17,7 +17,9 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 ---
 
 <warning>
-  You cannot set up Secondary DNS if you have DNSSEC enabled at your primary DNS server, as we do not import external RRSIG records. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  Don't add DNSimple as a secondary DNS server to domains with DNSSEC as we do not import external RRSIG records which will produce resolution failures in DNSSEC aware resolutors.
+
+  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
 </warning>
 
 #### Requirements
