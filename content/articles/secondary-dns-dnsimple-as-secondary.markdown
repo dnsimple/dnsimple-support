@@ -40,7 +40,7 @@ Proceed to add a secondary zone entering the domain name for which you want to s
 
 #### Adding a Primary Server
 
-In case you haven't already added your primary servers IP, you can do so by filling out the form with an alias name, the IP of the primary DNS server from which to carry out zone transfers via AXFR, and the port which is usually 53.
+Primary Server entries can be reused across all the secondary zones you set up. In case you need to add a new entry, fill in the form with an alias name, and the IP address and port number provided by your primary DNS service provider.
 
 ![Primary Server form](/files/primary-server-form.png)
 
