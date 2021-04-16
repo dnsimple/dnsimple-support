@@ -62,8 +62,6 @@ At this point, we will try to carry out the first zone transfer to sync up your 
 If it has been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider, allowing us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server, allowing again for 10 minutes for the initial zone transfer to occur. If still experiencing problems, please [contact support](https://dnsimple.com/contact).
 </info>
 
-We will perform new zone transfers every time your primary DNS service provider notifies us about changes to the domain's zone.
-
 #### Configuring DNSimple as secondary at the Primary DNS provider
 
 There are two requirements to ensure DNSimple is both able to sync the zone via zone transfers (AXFR) and serve incoming traffic.
