@@ -44,21 +44,25 @@ Primary Server entries can be reused across all the secondary zones you set up. 
 
 ![Primary Server form](/files/primary-server-form.png)
 
-#### Adding a primary server to a secondary zone
+#### Linking a Secondary Zone to a Primary Server
 
-Open the secondary zone, by clicking on the zone name and proceed to select "Link primary server".
+Linking a Secondary Zone to a Primary Server will enable zone transfers (AXFR) that will keep your domain at DNSimple in sync with your primary DNS service provider.
+
+Open the secondary zone by clicking on the zone name and proceed to select "Link primary server".
 
 ![Secondary Zone view](/files/secondary-zone-view.png)
 
-Proceed to select the primary servers you wish to pull the zone file from, via zone transfers (AXFR).
+Proceed to select the primary server you wish to pull the zone file from. You can choose more than one Primary Server.
 
 ![Link Secondary Zone to Primary Server](/files/link-secondary-zone-to-primary.png)
 
-At this point, we will try to carry out a zone transfer via AXFR. This could take a moment, especially if you have just added our AXFR clients IP in your primary DNS provider.
+At this point, we will try to carry out the first zone transfer to sync up your zone with new DNS records. This could take a moment, especially if you have just added our AXFR clients IP in your primary DNS provider.
 
 <info>
-If it has been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider, allowing us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server, allowing again for 10 minutes for the intial zone transfer to occur. If still experiencing problems, please [contact support](https://dnsimple.com/contact).
+If it has been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider, allowing us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server, allowing again for 10 minutes for the initial zone transfer to occur. If still experiencing problems, please [contact support](https://dnsimple.com/contact).
 </info>
+
+We will perform new zone transfers every time your primary DNS service provider notifies us about changes to the domain's zone.
 
 #### Configuring DNSimple as secondary at the Primary DNS provider
 
