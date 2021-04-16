@@ -5,7 +5,7 @@ categories:
 - Secondary DNS
 ---
 
-# Secondary DNS Configuration with Dyn Standard or Dyn Managed
+# Add Dyn as a secondary DNS server
 
 For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
 

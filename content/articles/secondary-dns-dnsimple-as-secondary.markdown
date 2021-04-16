@@ -5,7 +5,7 @@ categories:
 - Secondary DNS
 ---
 
-# Configure DNSimple as a Secondary DNS provider
+# Add DNSimple as a secondary DNS server
 
 For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
 

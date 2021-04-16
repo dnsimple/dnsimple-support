@@ -5,7 +5,7 @@ categories:
 - Secondary DNS
 ---
 
-# Secondary DNS Configuration with EasyDNS
+# Add EasyDNS as a secondary DNS server
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns).
 

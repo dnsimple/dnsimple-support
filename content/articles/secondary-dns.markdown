@@ -5,7 +5,7 @@ categories:
 - Secondary DNS
 ---
 
-# Secondary DNS
+# Add a secondary DNS server to DNSimple
 
 ### Table of Contents {#toc}
 
