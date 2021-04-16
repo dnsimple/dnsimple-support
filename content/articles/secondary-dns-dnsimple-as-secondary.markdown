@@ -30,7 +30,7 @@ Adding DNSimple as a Secondary DNS provider is only available on [Professional a
 
 #### Adding a Secondary Zone
 
-Create a secondary zone by heading to the account dashboard and selecting the Secondary Zone tab.
+Create a secondary zone by heading to the account dashboard and selecting the Secondary Zones tab.
 
 ![Seconary DNS tab](/files/secondary-dns-tab.png)
 
