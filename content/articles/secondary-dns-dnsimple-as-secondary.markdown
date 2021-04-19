@@ -24,9 +24,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 #### Requirements
 
-<info>
-Adding DNSimple as a Secondary DNS provider is only available on [Professional and Business tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
-</info>
+Adding DNSimple as a Secondary DNS provider is available for an additional fee on the [Professional tier, Business tier](https://dnsimple.com/pricing), and [Master reseller](https://dnsimple.com/reseller) plans. If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
 
 #### Adding a Secondary Zone
 
