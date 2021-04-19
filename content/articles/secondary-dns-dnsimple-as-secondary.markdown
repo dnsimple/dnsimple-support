@@ -64,19 +64,23 @@ If it has been more then 10 minutes since you configured DNSimple as secondary D
 
 There are two requirements to ensure DNSimple is both able to sync the zone via zone transfers (AXFR) and serve incoming traffic.
 
-Ensure that our AXFR client's IP is in the Access-control list (ACL) at your primary DNS provider.
+1. Add the IP addresses at your primary DNS provider
+  
+   Ensure that our AXFR client's IP is in the Access-control list (ACL) at your primary DNS provider.
 
-**AXFR client IP**:
-  - *Production:* `3.12.234.2`
-  - *Sandbox:* `3.142.158.214`
+   **AXFR client IP**:
+    - *Production:* `3.12.234.2`
+    - *Sandbox:* `3.142.158.214`
 
-Ensure that some of [our name servers](/articles/dnsimple-nameservers/) are added to the domain's delegation at your registrar.
+2. Add as many of our name servers at your primary DNS provider.
+  
+   Ensure that some of [our name servers](/articles/dnsimple-nameservers/) are added to the domain's delegation at your registrar.
 
-Example of how name server may look like:
+   Example of how name server may look like:
 
-  - `ns1.primary.com`
-  - `ns2.primary.com`
-  - `ns3.primary.com`
-  - `ns4.primary.com`
-  - `ns1.dnsimple.com`
-  - `ns2.dnsimple.com`
+   - `ns1.primary.com`
+   - `ns2.primary.com`
+   - `ns3.primary.com`
+   - `ns4.primary.com`
+   - `ns1.dnsimple.com`
+   - `ns2.dnsimple.com`
