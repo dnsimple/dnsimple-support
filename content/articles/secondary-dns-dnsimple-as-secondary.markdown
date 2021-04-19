@@ -22,13 +22,11 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
   Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
 </warning>
 
-#### Requirements
+## Requirements
 
-<info>
-Adding DNSimple as a Secondary DNS provider is only available on [Professional and Business tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
-</info>
+Adding DNSimple as a Secondary DNS provider is available for an additional fee on the [Professional tier, Business tier](https://dnsimple.com/pricing), and [Master reseller](https://dnsimple.com/reseller) plans. If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
 
-#### Adding a Secondary Zone
+## Adding a Secondary Zone
 
 Create a secondary zone by heading to the account dashboard and selecting the Secondary Zones tab.
 
@@ -38,13 +36,13 @@ Proceed to add a secondary zone entering the domain name for which you want to s
 
 ![Secondary Zone form](/files/secondary-zone-form.png)
 
-#### Adding a Primary Server
+## Adding a Primary Server
 
 Primary Server entries can be reused across all the secondary zones you set up. In case you need to add a new entry, fill in the form with an alias name, and the IP address and port number provided by your primary DNS service provider.
 
 ![Primary Server form](/files/primary-server-form.png)
 
-#### Linking a Secondary Zone to a Primary Server
+## Linking a Secondary Zone to a Primary Server
 
 Linking a Secondary Zone to a Primary Server will enable zone transfers (AXFR) that will keep your domain at DNSimple in sync with your primary DNS service provider.
 
@@ -62,23 +60,28 @@ At this point, we will try to carry out the first zone transfer to sync up your 
 If it has been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider, allowing us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server, allowing again for 10 minutes for the initial zone transfer to occur. If still experiencing problems, please [contact support](https://dnsimple.com/contact).
 </info>
 
-#### Configuring DNSimple as secondary at the Primary DNS provider
+## Configuring DNSimple as secondary at the Primary DNS provider
 
 There are two requirements to ensure DNSimple is both able to sync the zone via zone transfers (AXFR) and serve incoming traffic.
 
+### 1. Add the IP addresses at your primary DNS provider
+
 Ensure that our AXFR client's IP is in the Access-control list (ACL) at your primary DNS provider.
 
-**AXFR client IP**:
-  - *Production:* `3.12.234.2`
-  - *Sandbox:* `3.142.158.214`
+These are our AXFR client IPs:
+- Production: `3.12.234.2`
+- Sandbox: `3.142.158.214`
+
+
+### 2. Add as many of our name servers at your primary DNS provider.
 
 Ensure that some of [our name servers](/articles/dnsimple-nameservers/) are added to the domain's delegation at your registrar.
 
 Example of how name server may look like:
 
-  - `ns1.primary.com`
-  - `ns2.primary.com`
-  - `ns3.primary.com`
-  - `ns4.primary.com`
-  - `ns1.dnsimple.com`
-  - `ns2.dnsimple.com`
+- `ns1.primary.com`
+- `ns2.primary.com`
+- `ns3.primary.com`
+- `ns4.primary.com`
+- `ns1.dnsimple.com`
+- `ns2.dnsimple.com`
