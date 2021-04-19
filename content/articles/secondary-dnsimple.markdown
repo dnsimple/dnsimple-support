@@ -20,7 +20,7 @@ You can combine our secondary DNS feature with our API or UI to have zone redund
 
 This diagram shows how zone changes are propagated to both DNS service providers:
 
-<img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" width="300"/>
+<img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" />
 
 ## Configuring DNSimple along another DNS provider
 
