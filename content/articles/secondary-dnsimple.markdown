@@ -1,11 +1,11 @@
 ---
-title: Using DNSimple along other DNS providers
-excerpt: How to use DNSimple along with other DNS providers
+title: Using DNSimple alongside other DNS providers
+excerpt: How to use DNSimple along with other DNS providers.
 categories:
 - Secondary DNS
 ---
 
-# Using DNSimple along other DNS providers
+# Using DNSimple alongside other DNS providers
 
 <warning>
   If you want to set up automatic zone transfers (AXFR) between DNSimple and another DNS service provider, head to the [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) and [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) articles
