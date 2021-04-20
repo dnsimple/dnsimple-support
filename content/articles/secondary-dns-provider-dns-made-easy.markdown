@@ -18,7 +18,7 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-Select **DNSMadeEasy** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses DNSMadeEasy is expecting are already filled in for you.
+Select **DNSMadeEasy** as the provider. Click *Enable* at the bottom of the form. The name servers and IP addresses DNSMadeEasy is expecting are already filled in for you.
 
 ![DNSimple configuration with DNSMadeEasy](/files/dns-made-easy-enabling.png)
 
@@ -45,11 +45,11 @@ Click on *Add Secondary*.
 
 ![DNSMadeEasy adding secondary button](/files/dns-made-easy-secondary-click.png)
 
-In the popup, type your domain name and select the IP set you just created.
+In the popup, type your domain name, and select the IP set you just created.
 
 ![DNSMadeEasy adding secondary configuration](/files/dns-made-easy-popup.png)
 
-If the configuration is correct, a success message will appear and you'll be taken to the detail page for you domain.
+If the configuration is correct, a success message will appear. You'll be taken to the detail page for your domain.
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 
@@ -63,7 +63,7 @@ Refresh the page after a few minutes. If the configuration is working properly, 
 
 Another way to verify your configuration is by using `dig` and querying one of the DNSMadeEasy name servers. Read more about `dig` in [our overview article](/articles/how-dig/).
 
-From your terminal, type the following `dig` command replacing `example.com` with your domain:
+From your terminal, type the following `dig` command, replacing `example.com` with your domain:
 
 `$ dig @ns5.dnsmadeeasy.com example.com soa`
 
