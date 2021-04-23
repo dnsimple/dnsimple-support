@@ -54,6 +54,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .bz | [https://nic.bz/policy-general.php](https://nic.bz/policy-general.php) |
 | .ca | [https://www.cira.ca/legal-policy-and-compliance](https://www.cira.ca/legal-policy-and-compliance) |
 | .cafe | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .camera | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .camp | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .capital | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .cards | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
