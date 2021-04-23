@@ -130,7 +130,8 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .gives | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .glass | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .global | [https://go.global/global-policies](https://go.global/global-policies) |
-| .gripe | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .parts | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .graphics | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .gs | [https://cocca.org.nz/](https://cocca.org.nz/) |
 | .guide | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .guru | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
