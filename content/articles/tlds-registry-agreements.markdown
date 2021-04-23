@@ -176,6 +176,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .lol | [https://uniregistry.link/registry-policies/](https://uniregistry.link/registry-policies/) |
 | .london | [https://mmx.co/policies](https://mmx.co/policies) |
 | .love | [http://get.love/wp-content/uploads/2020/02/Policies-dotlove-06-Feb-2020.pdf](http://get.love/wp-content/uploads/2020/02/Policies-dotlove-06-Feb-2020.pdf) |
+| .ltd | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .market | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .marketing | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .me | [https://domain.me/policies/](https://domain.me/policies/) |
