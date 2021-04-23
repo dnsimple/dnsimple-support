@@ -201,6 +201,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .org | [https://thenew.org/org-people/about-pir/policies/](https://thenew.org/org-people/about-pir/policies/) |
 | .page | [https://www.registry.google/policies/registration/page/#!/](https://www.registry.google/policies/registration/page/#!/) |
 | .paris | [http://bienvenue.paris/registry-policies-paris/](http://bienvenue.paris/registry-policies-paris/) |
+| .parts | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .party | [http://nic.party/resources.html](http://nic.party/resources.html) |
 | .pe | [https://punto.pe/policy.php](https://punto.pe/policy.php) |
 | .photo | [https://uniregistry.link/registry-policies/](https://uniregistry.link/registry-policies/) |
