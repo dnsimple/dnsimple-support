@@ -103,6 +103,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .engineer | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .engineering | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .enterprises | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .equipment | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .es | [https://www.dominios.es/dominios/en/todo-lo-que-necesitas-saber/normativa](https://www.dominios.es/dominios/en/todo-lo-que-necesitas-saber/normativa) |
 | .eu | [https://eurid.eu/en/other-infomation/document-repository/](https://eurid.eu/en/other-infomation/document-repository/) |
 | .events | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
