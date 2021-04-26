@@ -7,7 +7,7 @@ categories:
 
 # Delegating a Domain registered with DNSimple to DNSimple
 
-Swithing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+Switching the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
 <div class="section-steps" markdown="1">
 ##### Changing the name servers to DNSimple
@@ -35,5 +35,5 @@ Swithing the name servers to DNSimple will cause the domain to resolve using the
 <note>
 #### Name server propagation
 
-Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
+It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
 </note>
