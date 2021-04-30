@@ -26,14 +26,14 @@ Extra accounts have their own email addresses that can be changed ad-hoc.
 
     ![Settings menu](/files/account-menu.png)
 
-1. Change the email and press <label>Update Account</label>
+1. Change the email and press <label>Update Account</label>.
 
     ![Email link](/files/account-email.png)
 
 </div>
 
 <info>
-If the <label>Account email</label> input field is missing under <label>Edit account</label>, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](#changing-the-user-email)
+If the <label>Account email</label> input field is missing under <label>Edit account</label>, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](#changing-the-user-email).
 </info>
 
 You can change the email associated with your user profile from the DNSimple account page.
