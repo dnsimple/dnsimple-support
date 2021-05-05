@@ -1,11 +1,11 @@
 ---
-title: Secondary DNS with Dyn
+title: Add Dyn as a secondary DNS server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
 categories:
 - Secondary DNS
 ---
 
-# Secondary DNS Configuration with Dyn Standard or Dyn Managed
+# Add Dyn as a secondary DNS server
 
 For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
 

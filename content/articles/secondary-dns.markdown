@@ -1,11 +1,11 @@
 ---
-title: Secondary DNS
+title: Add a secondary DNS server to DNSimple
 excerpt: This page provides information about secondary DNS configuration with DNSimple.
 categories:
 - Secondary DNS
 ---
 
-# Secondary DNS
+# Add a secondary DNS server to DNSimple
 
 ### Table of Contents {#toc}
 
@@ -15,7 +15,7 @@ categories:
 ---
 
 <warning>
-  You cannot set up Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled, as they will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  You cannot set up Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
 </warning>
 
 ## Getting started
@@ -28,7 +28,7 @@ We provide pre-configurations and step-by-step guides for 3 providers:
 - [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy)
 - [EasyDNS](/articles/secondary-dns-provider-easy-dns).
 
-You can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you're going to use and have made the necessary configuration on their side, continue with this guide.
+You can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you're going to use, and have made the necessary configuration on their side, continue with this guide.
 
 You can configure Secondary DNS on all domains whether they delegate to us or not. But if you've pointed delegation elsewhere, you'll need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple) before the configuration will take effect.
 

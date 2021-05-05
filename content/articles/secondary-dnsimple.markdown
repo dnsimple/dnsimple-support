@@ -1,26 +1,33 @@
 ---
-title: Using DNSimple along other DNS providers
-excerpt: How to use DNSimple along with other DNS providers to implement zone redundancy.
+title: Using DNSimple alongside other DNS providers
+excerpt: How to use DNSimple along with other DNS providers.
 categories:
 - Secondary DNS
 ---
 
-# DNSimple as a Secondary DNS provider
+# Using DNSimple alongside other DNS providers
 
-DNSimple can't synchronize zone changes from other name servers using AXFR, but you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. You're responsible for keeping the zones in sync between other DNS providers and DNSimple. There are several ways to do this:
+<warning>
+  If you want to set up automatic zone transfers (AXFR) between DNSimple and another DNS service provider, head to the [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) and [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) articles
+</warning>
+
+You can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. You're responsible for keeping the zones in sync between other DNS providers and DNSimple. There are several ways to do this:
 
 - [Adding the records](/articles/record-editor/) manually through our UI.
 - [Importing a zone file](/articles/zone-files/#importing-records-from-a-zone-file) from your primary provider.
 - [Using our API](https://developer.dnsimple.com/v2).
+- Use "infrastructure as code" tools such as [Terraform](https://registry.terraform.io/providers/dnsimple/dnsimple/latest/docs), [OctoDNS](https://github.com/octodns/octodns), and [DNSControl](https://github.com/StackExchange/dnscontrol)
 
-Once you can keep both zones in sync, add the NS records corresponding to your primary DNS provider. You can't do this using our [record editor](/articles/record-editor/) directly. You'll need to use our Secondary DNS configuration feature.
+This diagram shows how zone changes are propagated to both DNS service providers:
+
+<img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" />
 
 ## Configuring DNSimple along another DNS provider
 
 To set up zone redundancy with another DNS provider:
 
 - If you don't have the domain in your DNSimple account, [add it with "use DNSimple services"](/articles/adding-domain/).
-- Go to the domain page and click on the DNS in the menu.
+- Go to the domain page, and click on the DNS in the menu.
 - Under the Secondary DNS card, click on <label>Use DNSimple along another DNS provider</label>.
 
   ![Change you Secondary DNS configuration](/files/secondary-dnsimple-1.png)

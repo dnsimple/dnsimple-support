@@ -1,11 +1,11 @@
 ---
-title: Secondary DNS with EasyDNS
+title: Add EasyDNS as a secondary DNS server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 categories:
 - Secondary DNS
 ---
 
-# Secondary DNS Configuration with EasyDNS
+# Add EasyDNS as a secondary DNS server
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns).
 
@@ -18,7 +18,7 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-From DNSimple, select **EasyDNS** as the provider and click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
+From DNSimple, select **EasyDNS** as the provider. Click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 
 A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
 
@@ -27,7 +27,7 @@ A confirmation message will tell you that Secondary DNS has been enabled from th
 Log into your **EasyDNS** account. The first thing you'll do is add the domain.
 
 <info>
-EasyDNS has both a tabbed and one page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
+EasyDNS has both a tabbed and one-page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
 </info>
 
 ![DNSimple configuration is successful](/files/easy-dns-add-domain.png)
@@ -40,7 +40,7 @@ Go through the payment process. Any plan supports secondary DNS. When you're fin
 
 ![DNSimple configuration is successful](/files/easy-dns-ready-to-configure.png)
 
-From the *DNS settings* tab, you'll tell EasyDNS the primary name server, in this case it's DNSimple. Click on *primary NS*.
+From the *DNS settings* tab, you'll tell EasyDNS the primary name server. In this case, it's DNSimple. Click on *primary NS*.
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
