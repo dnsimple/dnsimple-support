@@ -1,6 +1,6 @@
 ---
 title: Web Hosting Support
-excerpt: We focus primarily on domain management services and we don't provide web hosting. 
+excerpt: We focus primarily on domain management services and we don't provide web hosting.
 categories:
 - DNSimple
 - Domains
@@ -29,3 +29,8 @@ Here's some reasons why we decided to not offer web hosting:
 - We focus on offering the best domain management platform by enabling our customers to set up and connect their domains to popular services that already exist, rather than trying to create our own top-to-bottom solution.
 - The web is diverse and complex, and there are myriad technologies available for creating websites. These require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few Megabytes of hard disk.
 - There are many useful websites for people who need personal sites.
+
+
+## Identifying your web host
+
+You can determine your web host using a tool such as [Hosting Checker](https://hostingchecker.com).
