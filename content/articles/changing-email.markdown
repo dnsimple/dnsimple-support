@@ -20,6 +20,10 @@ When you initially sign up as a user in our system, we create an account bound t
 
 Extra accounts have their own email addresses that can be changed ad-hoc.
 
+<warning>
+System limitations do not currently allow Primary Accounts to be deleted.
+</warning>
+
 ## Changing the account email
 
 <div class="section-steps" markdown="1">
