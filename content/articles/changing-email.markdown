@@ -61,7 +61,3 @@ You can change the email associated with your user profile from the DNSimple acc
 </div>
 
 If you have an extra account with a separate email address, you can find the instructions for how to update it [here](#changing-the-account-email).
-
-## Transferring account ownership
-
-Generally, you'll transfer account ownership by [changing the user email](https://support.dnsimple.com/articles/changing-user-email/) to that of the individual who's taking over the account, who then [requests a password reset](https://support.dnsimple.com/articles/forgot-password/). If you run into any issues with this, please [reach out to us](https://dnsimple.com/contact) so that we can help further.
