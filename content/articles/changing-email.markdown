@@ -14,6 +14,8 @@ categories:
 
 ---
 
+## A note about accounts
+
 When you initially sign up as a user in our system, we create an account bound to that user. We call this the Primary Account, and the email address is the same as the username. If you change the email address for that user, the account email address will also be updated. That way customers with a single account only have to update their email in one place. Follow the instructions in [Changing User Email](#changing-the-user-email) if this is the case for you.
 
 Extra accounts have their own email addresses that can be changed ad-hoc.
@@ -26,14 +28,14 @@ Extra accounts have their own email addresses that can be changed ad-hoc.
 
     ![Settings menu](/files/account-menu.png)
 
-1. Change the email and press <label>Update Account</label>.
+1. Change the email and press <label>Update Account</label>
 
     ![Email link](/files/account-email.png)
 
 </div>
 
 <info>
-If the <label>Account email</label> input field is missing under <label>Edit account</label>, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](#changing-the-user-email).
+If the <label>Account email</label> input field is missing under <label>Edit account</label>, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](#changing-the-user-email)
 </info>
 
 You can change the email associated with your user profile from the DNSimple account page.
@@ -59,3 +61,7 @@ You can change the email associated with your user profile from the DNSimple acc
 </div>
 
 If you have an extra account with a separate email address, you can find the instructions for how to update it [here](#changing-the-account-email).
+
+## Transferring account ownership
+
+Generally, you'll transfer account ownership by [changing the user email](https://support.dnsimple.com/articles/changing-user-email/) to that of the individual who's taking over the account, who then [requests a password reset](https://support.dnsimple.com/articles/forgot-password/). If you run into any issues with this, please [reach out to us](https://dnsimple.com/contact) so that we can help further.
