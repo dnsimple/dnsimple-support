@@ -46,6 +46,10 @@ All members will also have full-admin access to the account, including the abili
 
 </div>
 
+<note>
+It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
+</note>
+
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
