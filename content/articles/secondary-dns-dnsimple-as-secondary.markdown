@@ -60,11 +60,7 @@ We'll try to carry out the first zone transfer to sync up your zone with new DNS
 If it's been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider. This allows us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server. Allow another 10 minutes for the initial zone transfer to occur. If there are still problems, please [contact support](https://dnsimple.com/contact).
 </info>
 
-## Configuring DNSimple as secondary at the Primary DNS provider
-
-There are two requirements to ensure DNSimple is both able to sync the zone via zone transfers (AXFR) and serve incoming traffic:
-
-### 1. Add the IP addresses at your primary DNS provider
+## Configuring AXFR at your Primary DNS provider
 
 Ensure that our AXFR client's IP is in the Access-Control List (ACL) at your primary DNS provider.
 
@@ -72,16 +68,33 @@ These are our AXFR client IPs:
 - Production: `3.12.234.2`
 - Sandbox: `3.142.158.214`
 
+## Ensuring the domain is delegated through both providers for greater redundancy
 
-### 2. Add our name servers at your primary DNS provider
+### 1. Update the NS record set at your Primary DNS provider
 
-Ensure that some of [our name servers](/articles/dnsimple-nameservers/) are added to the domain's delegation at your registrar.
+Ensure that some of [our name servers](/articles/dnsimple-nameservers/) are among the set of NS records present at the zone.
 
-Example of what the name server may look like:
+Example of what the set of NS records may look like:
 
+- `NS example.com ns1.primary.com`
+- `NS example.com ns2.primary.com`
+- `NS example.com ns3.primary.com`
+- `NS example.com ns1.dnsimple.com`
+- `NS example.com ns2.dnsimple.com`
+- `NS example.com ns3.dnsimple.com`
+
+### 2. Delegate the domain through both DNS providers at your domain's registrar
+
+The domain name's owner must update the delegation at the domain registrar with a mix of name servers from both your primary DNS provider [and DNSimple](/articles/dnsimple-nameservers/). The list of name servers should match those used for the NS record set (see previous step).
+
+Once this is in place, DNS queries for that domain will be randomly answered by any of the two providers, effectively achieving greater redundancy.
+
+Example of what the name servers may look like:
 - `ns1.primary.com`
 - `ns2.primary.com`
 - `ns3.primary.com`
-- `ns4.primary.com`
 - `ns1.dnsimple.com`
 - `ns2.dnsimple.com`
+- `ns3.dnsimple.com`
+
+
