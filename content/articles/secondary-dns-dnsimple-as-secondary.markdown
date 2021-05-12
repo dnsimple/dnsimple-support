@@ -68,7 +68,7 @@ These are our AXFR client IPs:
 - Production: `3.12.234.2`
 - Sandbox: `3.142.158.214`
 
-## Ensuring that the domain is delegated through both providers to achieve greater redundancy
+## Ensuring the domain is delegated through both providers for greater redundancy
 
 ### 1. Update the NS record set at your Primary DNS provider
 
