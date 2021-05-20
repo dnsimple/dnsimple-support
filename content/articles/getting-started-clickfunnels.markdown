@@ -81,7 +81,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We are going to make your t
     <warning>
     You will receive a verification email to the email address you used for the domain contact requesting you verify you made a change to the contact information. If you are moving your domain from ClickFunnels, you did make this change and you will want to verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it.
 
-    Ignoring this message will lead to a suspended website, meaning it won’t work. If this does happen, as soon as you verify it the suspension will be lifted.
+    Ignoring this message will lead to a suspended website, meaning it won't work. If this does happen, as soon as you verify it the suspension will be lifted.
 
     You will receive a confirmation email after you have verified letting you know the verification was successful. There is nothing you need to do with this email.
     </warning>
@@ -185,23 +185,23 @@ This is a feature you can take advantage of and have the DNS with another provid
 
 #### One Click Services
 
-This makes connecting your site to other popular services painless. It takes just [one click](/articles/services/) to connect them and we handle the record set up. I wouldn’t worry about this feature yet, but feel free to take a look at the options here and see if anything makes sense for you to connect to. Your site will function properly without using these features.
+This makes connecting your site to other popular services painless. It takes just [one click](/articles/services/) to connect them and we handle the record set up. I wouldn't worry about this feature yet, but feel free to take a look at the options here and see if anything makes sense for you to connect to. Your site will function properly without using these features.
 
 #### DNS Records
 
 This information transferred over from ClickFunnels. If you go to your site and all is functioning as it should you will not need to change anything. Leave everything as is.
 
-Reasons why you would update the DNS is if you have unsubscribed from ClickFunnels and are using another service to host the content of your site. The content and DNS management are two different things. The content is what your site looks like when you visit it, it’s the design and layout you created with services like ClickFunnels. The content is not managed with DNSimple, we just tell your site where to find it.
+Reasons why you would update the DNS is if you have unsubscribed from ClickFunnels and are using another service to host the content of your site. The content and DNS management are two different things. The content is what your site looks like when you visit it, it's the design and layout you created with services like ClickFunnels. The content is not managed with DNSimple, we just tell your site where to find it.
 
 Click **Manage** to look at the records and edit them.
 
-When you open up the DNS Record Management page you’ll probably see the following records:
+When you open up the DNS Record Management page you'll probably see the following records:
 
 - `ALIAS` - your domain name will be listed under **Name** and the **Content** is `target.clickfunnels.com`.
 - There will be 4 `NS` records. These are the name server records.
 - `SOA` - Also related to name servers and nothing you need to edit.
-- `TXT` - again you’ll see your domain name and `ALIAS` for `target.clickfunnels.com`.
-- `URL` - Here you’ll see your domain name with the `www` and `https://`.
+- `TXT` - again you'll see your domain name and `ALIAS` for `target.clickfunnels.com`.
+- `URL` - Here you'll see your domain name with the `www` and `https://`.
 
 <warning>
 If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work.
