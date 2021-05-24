@@ -1,6 +1,6 @@
 ---
-title: Getting Started With Your DNSimple Account After Transferring From ClickFunnels
-excerpt: A collection of articles to help you get started with your new DNSimple account quickly.
+title: DNSimple and ClickFunnels
+excerpt: Get started with your new DNSimple account quickly.
 categories:
 - DNSimple
 ---
@@ -30,7 +30,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We are going to make your t
 1. Add your credit card details then click <label>Start my free trial</label>.
 
     <info>
-    You can cancel at any time during your 30 day trial without being charged. If you choose to purchase products such as another domain or an SSL certificate during the free trial, your card will be charged. Read more about [account activation](/articles/account-activation/).
+    You can cancel at any time during your 30 day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, such as [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
     </info>
 </div>
 
@@ -91,20 +91,6 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We are going to make your t
 
 Congratulations! You're now the owner of the domain and are managing the DNS.
 
-### Other options when getting started with a new account
-
-#### Add a domain
-
-If you were purchasing a new domain or transferring a domain in from another provider, like GoDaddy, you would choose this. You are not transferring a domain in from ClickFunnels because they use DNSimple as their registrar already. You are moving your domain from ClickFunnels' DNSimple account into your DNSimple account.
-
-#### Request an SSL certificate
-
-If you need to purchase a certificate right away, you can choose this option. ClickFunnels includes a certificate to make your site secure with their services. We will go over Certificates shortly, this option isn't necessary right now.
-
-#### Explore the API
-
-The API is a great resource for those with a technical background to take advantage of automation. It may be something that you want to look into and explore. I will provide links to helpful articles explaining the API at the end of this document, you don't need to dive in just yet.
-
 ### Updating the registrant information
 
 Let's breakdown what information we're asking for:
@@ -119,6 +105,20 @@ Let's breakdown what information we're asking for:
 | Phone                  | Enter your complete phone number starting with the country code.                                                                                                                                                                                                            |
 | Fax                    | This is usually relevant for company registrations—we'll leave this blank as well.                                                                                                                                                                                           |
 | Address                | Enter your complete physical or postal address.                                                                                                                                                                                                                             |
+
+### Other options when getting started with a new account
+
+#### Add a domain
+
+If you were purchasing a new domain or transferring a domain in from another provider, like GoDaddy, you would choose this. You are not transferring a domain in from ClickFunnels because they use DNSimple as their registrar already. You are moving your domain from ClickFunnels' DNSimple account into your DNSimple account.
+
+#### Request an SSL certificate
+
+If you need to purchase a certificate right away, you can choose this option. ClickFunnels includes a certificate to make your site secure with their services. We will go over Certificates shortly, this option isn't necessary right now.
+
+#### Explore the API
+
+The API is a great resource for those with a technical background to take advantage of automation. It may be something that you want to look into and explore. I will provide links to helpful articles explaining the API at the end of this document, you don't need to dive in just yet.
 
 
 ## Step 4: Understanding the domain homepage
@@ -204,7 +204,7 @@ When you open up the DNS Record Management page you'll probably see the followin
 - `URL` - Here you'll see your domain name with the `www` and `https://`.
 
 <warning>
-If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work.
+If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work, though there is no reason to remove this record.
 </warning>
 
 If you go to your website and you are just seeing the ClickFunnels home page and not your site, you will need to reach out to ClickFunnels. More than likely, you did not change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to get it pointing to the right place.
