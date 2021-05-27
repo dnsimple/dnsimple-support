@@ -26,23 +26,23 @@ categories:
    ![Authorize your DNSimple account](/files/heroku-connector-authenticate-dnsimple.png)
    
 
-3. You will then need to authorize the connection to Heroku.  
+3. Authorize the connection to Heroku.  
 ![Authorize the connection to Heroku](/files/heroku-connector-connect-heroku.png)
    
 
-4. At the next step, you'll need to specify which Heroku app you want to connect to the domain, and the mounting point.
+4. Specify which Heroku app you want to connect to the domain and the mounting point.
    <info>
-   A mount point is the address where your Heroku app is served. If you would like to use the domain apex, e.g. `example.com`, then leave this blank.
+   A mount point is the address where your Heroku app is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
    </info>  
    ![Connect your domain to Heroku](/files/heroku-connector-connect-domain.png)
    
 
-5. In the final step, you will be asked to review the connection configuration, and ensure the information is correct by hitting "connect".   
+5. You will be asked to review the connection configuration, and ensure the information is correct, by hitting "connect".   
 ![Review configuration](/files/heroku-connector-confirm-config.png)
    
 ## After configuration
    
-After you click connect, your domain will be connected to Heroku. You can verify this by heading back to your domain's "connections" tab, and look for the green dot next to your domain. We'll also display information about the connection here.  
+After you click connect, your domain will be connected to Heroku. You can verify this by heading back to your domain's "connections" tab, and looking for the green dot next to your domain. We'll also display information about the connection here.  
 ![Domain successfully connected](/files/heroku-connector-domain-connected.png)  
-You can view the metadata of the connection, or disconnect the Heroku connector from your domain in this tab. If you need to establish additional Heroku apps for the domain, you can add another by clicking "add" and repeating the process.
+You can view the metadata of the connection, or disconnect the Heroku connector from your domain, in this tab. If you need to establish additional Heroku apps for the domain, click "add", and repeat the process.
    
