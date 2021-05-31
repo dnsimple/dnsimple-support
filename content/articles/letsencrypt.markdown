@@ -12,10 +12,6 @@ categories:
 This article describes a feature in Public Beta.
 </info>
 
-<info>
-This article describes a feature only available on [current plans](/articles/new-plans#newer-plans-only).
-</info>
-
 ### Table of Contents {#toc}
 
 * TOC

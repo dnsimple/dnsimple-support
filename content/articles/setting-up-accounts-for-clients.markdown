@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-This article describes a feature only available on the following [plans](/articles/new-plans#newer-plans-some): Professional and Business.
+This article describes a feature only available on the following plans: Professional and Business.
 </info>
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
@@ -32,7 +32,7 @@ Each customer must have a separate account. If you add more than one customer to
 ## Creating a separate account for your client
 
 You can add another account to your user profile by taking [these steps](/articles/account-multi/#creating-a-separate-account).
-  
+
 ## Inviting your client to DNSimple
 
 Verify your client has __registered__ with DNSimple.
@@ -46,5 +46,3 @@ Your client doesn't need to have an active subscription. They only need to be si
 ## Adding clients to the new account
 
 Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/account-users/#adding-members-to-an-account).
-  
-
