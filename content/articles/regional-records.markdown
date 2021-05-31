@@ -7,6 +7,10 @@ categories:
 
 # Regional Records
 
+<info>
+This article describes a feature only available on the following plans: Professional and Business.
+</info>
+
 Regional records lets you select geographical regions where you want a record to appear.
 
 We have 6 points of presence:
