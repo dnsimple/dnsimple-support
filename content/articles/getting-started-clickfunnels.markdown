@@ -14,23 +14,23 @@ categories:
 
 ---
 
-Welcome to [DNSimple](/articles/dnsimple-services/)! We are going to make your transition from ClickFunnels as simple as possible. [Simple](/articles/how-is-dnsimple-pronounced/) is in our name, and we're not going to let you down.
+Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible – after all, [Simple](/articles/how-is-dnsimple-pronounced/) is in our name.
 
 ## Step 1: Setting up a DNSimple account and trial
 
 <div class="section-steps" markdown="1">
-1. Go to [DNSimple.com](https://dnsimple.com). In the upper right corner of the screen, click the button that says <label>Get Started</label>.
-1. Complete the form using the **same email address that is associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
+1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click the <label>Get Started</label> button.
+1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
 1. Now choose a plan. Select <label>Continue</label> under <label>Individual</label>, then choose <label>Get Started</label> under <label>Personal</label> or <label>Professional</label>, depending on your needs.
 
     <tip>
-    [Learn the differences](/articles/personal-vs-pro/) between the Personal plan and the Professional plan.
+    [Learn the differences](/articles/personal-vs-pro/) between the Personal and Professional plans.
     </tip>
 
-1. Add your credit card details then click <label>Start my free trial</label>.
+1. Add your credit card details, then click <label>Start my free trial</label>.
 
     <info>
-    You can cancel at any time during your 30 day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, such as [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
+    You can cancel at any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
     </info>
 </div>
 
@@ -38,31 +38,31 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We are going to make your t
 ## Step 2: Asking ClickFunnels to move the domain to your DNSimple account
 
 <div class="section-steps" markdown="1">
-1. Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) using the email address associated with your ClickFunnels account. You can use the below template, replacing the placeholders with your information.
+1. Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) using the email address associated with your ClickFunnels account. You can use this template, replacing the placeholders with your information:
 
     > Hi there,
 
-    > I would like to move my domain(s) from ClickFunnels to my own DNSimple account.
+    > I would like to move my domain(s) from ClickFunnels to my DNSimple account.
 
-    > i. Confirm that you have made a paid DNSimple account
+    > i. Confirm that you created a paid DNSimple account.
 
     > YES
 
-    > ii. Provide the email address associated with your ClickFunnels and DNSimple accounts
+    > ii. Provide the email address associated with your ClickFunnels and DNSimple accounts.
 
     > `your email address`
 
-    > iii. Name of domain(s) you wish to transfer
+    > iii. Name of domain(s) you want to transfer.
 
     > `your domain(s)`
 
-    > iv. Verify the last 4 digits of the card we have on file for your ClickFunnels account
+    > iv. Verify the last 4 digits of the card we have on file for your ClickFunnels account.
 
     > `last 4 digits of your credit card`
 
     > Thanks!
 
-1. ClickFunnels will reply to your email once they have moved the domain into your account. You will also receive an email from us at DNSimple letting you know the domain is waiting for you.
+1. ClickFunnels will reply to your email once they have moved the domain into your account. You will also receive an email from DNSimple letting you know the domain is waiting for you.
 
   ![Email alerting you that a domain push is pending](/files/domain-push-email.png)
 </div>
