@@ -179,37 +179,41 @@ Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-dom
 
 ### DNS
 
-The DNS section of your domain will go through the records and other technical options you need to have your domain function properly. We will break down each section below.
+The DNS section of your domain includes the records and other technical options you need for your domain to function properly. We've broken down each section below.
 
 #### Secondary DNS
 
-This is a feature you can take advantage of and have the DNS with another provider should we face any downtime. It is not necessary to set up, but if you want to learn more about it, you can do so [here](/articles/secondary-dnsimple/).
+This is a feature you can take advantage of and have the DNS with another provider should we face any downtime. 
 
-#### One Click Services
+You're not required to use secondary DNS, and your site will function without it, but you can learn more [here](/articles/secondary-dnsimple/).
 
-This makes connecting your site to other popular services painless. It takes just [one click](/articles/services/) to connect them and we handle the record set up. I wouldn't worry about this feature yet, but feel free to take a look at the options here and see if anything makes sense for you to connect to. Your site will function properly without using these features.
+#### One-Click Services
+
+Our one-click services simplify connecting your site to other popular services. It takes just one click to connect them, and we handle the record set up. If you want to use these, take a look at [the options here](/articles/services/), and see if anything makes sense for you to connect to. 
+
+Your site will function properly without using these features.
 
 #### DNS records
 
-This information transferred over from ClickFunnels. If you go to your site and all is functioning as it should you will not need to change anything. Leave everything as is.
+This information transferred over from ClickFunnels. If your site is functioning as it should, you won't need to change anything here. Leave everything as-is.
 
-Reasons why you would update the DNS is if you have unsubscribed from ClickFunnels and are using another service to host the content of your site. The content and DNS management are two different things. The content is what your site looks like when you visit it, it's the design and layout you created with services like ClickFunnels. The content is not managed with DNSimple, we just tell your site where to find it.
+You'll want to update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. Content and DNS management are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
 Click **Manage** to look at the records and edit them.
 
-When you open up the DNS Record Management page you'll probably see the following records:
+When you open the DNS Record Management page, you'll probably see the following records:
 
-- `ALIAS` - your domain name will be listed under **Name** and the **Content** is `target.clickfunnels.com`.
-- There will be 4 `NS` records. These are the name server records.
-- `SOA` - Also related to name servers and nothing you need to edit.
-- `TXT` - again you'll see your domain name and `ALIAS` for `target.clickfunnels.com`.
-- `URL` - Here you'll see your domain name with the `www` and `https://`.
+- `ALIAS` - Your domain name will be listed under **Name**. The **Content** is `target.clickfunnels.com`.
+- `NS` –  These are the four name server records.
+- `SOA` - Also related to name servers. You don't need to edit these.
+- `TXT` - Your domain name and `ALIAS` for `target.clickfunnels.com`.
+- `URL` - Your domain name with `www` and `https://`.
 
 <warning>
-If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work, though there is no reason to remove this record.
+If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work, but there is no reason to remove this record.
 </warning>
 
-If you go to your website and you are just seeing the ClickFunnels home page and not your site, you will need to reach out to ClickFunnels. More than likely, you did not change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to get it pointing to the right place.
+If you go to your website, and you only see the ClickFunnels home page and not your site, reach out to ClickFunnels. It's likely you didn't change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to point it to the right place.
 
 ##### Understanding the Record Editor
 
