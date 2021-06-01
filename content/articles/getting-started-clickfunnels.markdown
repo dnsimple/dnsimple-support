@@ -21,7 +21,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click the <label>Get Started</label> button.
 1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
-1. Now choose a plan. Select <label>Continue</label> under <label>Individual</label>, then choose <label>Get Started</label> under <label>Personal</label> or <label>Professional</label>, depending on your needs.
+1. Choose a plan. Select <label>Continue</label> under <label>Individual</label>, then choose <label>Get Started</label> under <label>Personal</label> or <label>Professional</label>, depending on your needs.
 
     <tip>
     [Learn the differences](/articles/personal-vs-pro/) between the Personal and Professional plans.
@@ -30,7 +30,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Add your credit card details, then click <label>Start my free trial</label>.
 
     <info>
-    You can cancel at any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
+    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
     </info>
 </div>
 
@@ -62,7 +62,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > Thanks!
 
-1. ClickFunnels will reply to your email once they have moved the domain into your account. You will also receive an email from DNSimple letting you know the domain is waiting for you.
+1. ClickFunnels will reply to your email once they have moved the domain into your account. You'll also receive an email from DNSimple letting you know the domain is waiting for you.
 
   ![Email alerting you that a domain push is pending](/files/domain-push-email.png)
 </div>
@@ -71,31 +71,31 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 ## Step 3: Accepting the domain and getting it set up in DNSimple
 
 <div class="section-steps" markdown="1">
-1. [Log into DNSimple](https://dnsimple.com/login) where you'll see a <label>Get Started</label> screen. None of these options apply to what you're looking to do. Select <label>Skip this and go to the dashboard</label> found under the three boxes of options. Explore these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
-1. Welcome to the [Dashboard](https://dnsimple.com/dashboard)! This is the homepage of your DNSimple account. You'll see a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
-1. You will see <label>Push Requests</label> and your domain listed below. Click <label>Accept</label> to the right of the domain.
-1. Now that you have accepted the push of the domain, you need to change the Registrant information. This information states that you are the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
+1. [Log into DNSimple](https://dnsimple.com/login) where you'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll explore these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
+1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. You'll see a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
+1. You'll see <label>Push Requests</label> and your domain listed below. Click <label>Accept</label> to the right of the domain.
+1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
     <note>
     After the domain is pushed into your DNSimple account, you must also change the ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning that you have to keep your domain here at DNSimple for 60 days before you can transfer the domain elsewhere. Hopefully, you aren't looking to move it but if you are, we will discuss some options later in the article.
     </note>
 
     <warning>
-    You will receive a verification email to the email address you used for the domain contact requesting you verify you made a change to the contact information. If you are moving your domain from ClickFunnels, you did make this change and you will want to verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it.
+    You will receive a verification email to the email address you used for the domain contact requesting you verify you made a change to the contact information. If you are moving your domain from ClickFunnels, you did make this change and you will want to verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it. 
 
-    Ignoring this message will lead to a suspended website, meaning it won't work. If this does happen, as soon as you verify it the suspension will be lifted.
+    Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
 
-    You will receive a confirmation email after you have verified letting you know the verification was successful. There is nothing you need to do with this email.
+    You will receive a confirmation email after you have verified letting you know the verification was successful. You don't need to respond to this email.
     </warning>
 
-1. Click <label>Accept Push</label>. You will then be brought to the domain's page and you'll see a banner stating the domain has been successfully pushed to your account.
+1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account.
 </div>
 
 Congratulations! You're now the owner of the domain and are managing the DNS.
 
 ### Updating the registrant information
 
-Let's breakdown what information we're asking for:
+Let's break down the information we're asking for:
 
 | Name                   | Description                                                                                                                                                                                                                                                                 |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
