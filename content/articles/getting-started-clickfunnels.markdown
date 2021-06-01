@@ -99,37 +99,37 @@ Let's break down the information we're asking for:
 
 | Name                   | Description                                                                                                                                                                                                                                                                 |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Label                  | You can give contacts a unique label, which is helpful when managing multiple contacts. No need to worry about this now—let's leave this field blank.                                                                                                                       |
-| First Name / Last Name | Enter the first and last name of the person you want listed as the owner of the domain. In most cases, this person will be you.                                                                                                                                              |
-| Email                  | Make sure this is accurate. You're going to be sent emails verifying your information that you will be required to approve. If you enter your email address incorrectly, this email will not be delivered and you could face a suspension of your domain until it is fixed. |
-| Organization Name      | If the domain is to be registered for a company, you'll enter that here. For now, let's leave this blank.                                                                                                                                                                   |
-| Job Title              | As above, if the domain were being registered for a company, you'll enter your job title. Let's leave this blank too.                                                                                                                                                       |
-| Phone                  | Enter your complete phone number starting with the country code.                                                                                                                                                                                                            |
-| Fax                    | This is usually relevant for company registrations—we'll leave this blank as well.                                                                                                                                                                                           |
+| Label                  | You can give contacts a unique label. This is helpful when managing multiple contacts. For now, let's leave this field blank.                                                                                                                       |
+| First Name / Last Name | Enter the first and last name of the person you want listed as the domain's owner. In most cases, this person is you.                                                                                                                                              |
+| Email                  | Make sure this is accurate. You'll be sent emails verifying your information that you'll be required to approve. If you enter your email address incorrectly, this email will not be delivered, and your domaiain could be suspended until it's fixed. |
+| Organization Name      | If the domain is to be registered for a company, you'll enter that here. Let's leave this blank for now.                                                                                                                                                                   |
+| Job Title              | As above, if the domain were being registered for a company, you'll enter your job title. Let's leave this blank, too.                                                                                                                                                       |
+| Phone                  | Enter your complete phone number, starting with the country code.                                                                                                                                                                                                            |
+| Fax                    | This is usually relevant for company registrations — we'll leave this blank as well.                                                                                                                                                                                           |
 | Address                | Enter your complete physical or postal address.                                                                                                                                                                                                                             |
 
 ### Other options when getting started with a new account
 
-#### Add a domain
+#### Adding a domain
 
-If you were purchasing a new domain or transferring a domain in from another provider, like GoDaddy, you would choose this. You are not transferring a domain in from ClickFunnels because they use DNSimple as their registrar already. You are moving your domain from ClickFunnels' DNSimple account into your DNSimple account.
+If you were purchasing a new domain, or transferring a domain in from another provider, like GoDaddy, you'd choose this. You're not transferring a domain in from ClickFunnels, because they use DNSimple as their registrar already. You're moving your domain from ClickFunnels's DNSimple account into your DNSimple account.
 
-#### Request an SSL certificate
+#### Requesting an SSL certificate
 
-If you need to purchase a certificate right away, you can choose this option. ClickFunnels includes a certificate to make your site secure with their services. We will go over Certificates shortly, this option isn't necessary right now.
+If you need to purchase a certificate right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in ["What are certificates?"](#what-are-certificates-?).
 
-#### Explore the API
+#### Exploring the API
 
-The API is a great resource for those with a technical background to take advantage of automation. It may be something that you want to look into and explore. I will provide links to helpful articles explaining the API at the end of this document, you don't need to dive in just yet.
+The API is a great resource for those with technical backgrounds to take advantage of automation. You may want to look into it and explore more. You'll find several links to articles explaining the API at the end of this article.
 
 
 ## Step 4: Understanding the domain homepage
 
-Let's go through what you're seeing on the home page for the domain to make it a little less daunting.
+Let's explore the domain management options on your domain's home page.
 
 ### Domain Delegation
 
-What you see in this card are the name servers. Name servers work as a directory that translate domain names into IP addresses and are important because they make things easy to find across the Internet.
+What you see in this card are the name servers. Name servers work as a directory that translate domain names into IP addresses. They're important because they make things easy to find across the Internet.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -137,21 +137,21 @@ What you see in this card are the name servers. Name servers work as a directory
 
 You don't need to change the name servers when you move your domain from ClickFunnels.
 
-The only reason you would need to change the name servers is if you are looking to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or CloudFlare, and keep your registration with us.
+The only reason you would need to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or CloudFlare, and keep your registration with us.
 
 <info>
 Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates here in DNSimple, but you moved your delegation to CloudFlare, those changes will not be reflected on your site.
 </info>
 
 <warning>
-You must have an active subscription with the provider you're pointing the name servers to in order for your DNS to resolve. Read [what happens if you stop paying for your DNSimple subscription](/articles/what-happens-if-i-stop-paying/).
+You must have an active subscription with the provider you're pointing the name servers to for your DNS to resolve. Read [what happens if you stop paying for your DNSimple subscription](/articles/what-happens-if-i-stop-paying/).
 </warning>
 
 ### Registered
 
 #### Renew by date
 
-This is the date a year after you purchased your domain. You will own the domain until this date, even if you're not using it.
+This is the date a year after you purchased your domain. You'll own the domain until this date, even if you're not using it.
 
 To prevent the domain from going into the expiration process we recommend [turning on Auto Renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We will begin the renewal process a month before the domain expires ensuring everything is set and ready to go before your renewal date.
 
