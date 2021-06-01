@@ -19,7 +19,7 @@ The [WHOIS Privacy protection service](/articles/what-is-whois-privacy) keeps yo
 You can purchase WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
 
 <info>
-For [current plans](/articles/new-plans), the price for the WHOIS Privacy service starts at **$3/year per domain**, and is based on the currently subscribed plan. For all [legacy plans](/articles/new-plans/#newer-plans-vs-legacy-plans), the price hasn't changed, and is $8/year per domain.
+The price for the WHOIS Privacy service starts at **$3/year per domain**, and is based on the currently subscribed plan.
 </info>
 
 
@@ -125,7 +125,7 @@ Once you disable the WHOIS Privacy protection, the contact details of your domai
 
 <info>
 There currently is no auto-renewal for WHOIS Privacy. It must be renewed manually.
-</info> 
+</info>
 
 We'll send an email reminder when the WHOIS Privacy on a domain is due to expire, but you can renew it manually before that notice is sent:
 
