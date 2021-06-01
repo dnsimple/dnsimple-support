@@ -137,10 +137,10 @@ What you see in this card are the name servers. Name servers work as a directory
 
 You don't need to change the name servers when you move your domain from ClickFunnels.
 
-The only reason you would need to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or CloudFlare, and keep your registration with us.
+The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or CloudFlare, and keep your registration with us.
 
 <info>
-Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates here in DNSimple, but you moved your delegation to CloudFlare, those changes will not be reflected on your site.
+Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to CloudFlare, those changes will not be reflected on your site.
 </info>
 
 <warning>
@@ -151,31 +151,31 @@ You must have an active subscription with the provider you're pointing the name 
 
 #### Renew by date
 
-This is the date a year after you purchased your domain. You'll own the domain until this date, even if you're not using it.
+This is the date one year after you purchased your domain. You'll own the domain until this date, even if you're not using it.
 
-To prevent the domain from going into the expiration process we recommend [turning on Auto Renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We will begin the renewal process a month before the domain expires ensuring everything is set and ready to go before your renewal date.
+To prevent the domain from going into the expiration process, we recommend [turning on Auto Renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We'll begin the renewal process a month before the domain expires, ensuring everything is ready to go before your renewal date.
 
-If you forgot to turn on the Auto Renewal and you want to keep the domain, that's okay. There is a [lengthy expiration process](/articles/what-happens-when-domain-expires/) and time to get it back. If you wait too long and it's in the Redemption Period, there will be a penalty fee, typically $100, you'll be required to pay in addition to the standard renewal costs.
+If you forgot to turn on the Auto Renewal, and you want to keep the domain, there's a [lengthy expiration process](/articles/what-happens-when-domain-expires/) and time to get it back. If you wait too long, and it's in the Redemption Period, you'll be required to pay a penalty fee, typically $100, in addition to the standard renewal costs.
 
-Below the Renew by date you will see the option to turn on Auto Renew with what the standard registration costs.
+Below the renew by date, you'll see the option to turn on Auto Renew with the standard registration costs.
 
 #### Transfer this domain to another provider:
 
-If you are looking to move the domain to another provider, you will need to unlock the domain and request an authorization code. This is done with one click following these steps [here](/articles/transferring-domain-away/).
+If you want to move a domain to another provider, unlock the domain and request an authorization code. This is done with one click following these steps [here](/articles/transferring-domain-away/).
 
 <note>
-You will not be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60 day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/).
+You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/).
 </note>
 
 ### Contact
 
-This is the information you provided when you moved the domain over. This is the ownership contact information for Whois. You should not need to make any changes to this, unless you spot an error or your information changes.
+This is the information you provided when you moved the domain. This is the ownership contact information for Whois. You shouldn't need to make any changes to this unless you spot an error or your information changes.
 
-Under this, you'll see the option to [enable Whois Privacy](/articles/whois-privacy/). This is at to your discretion, but know that per GDPR common TLDs like `.COM` automatically redact the information in the Whois information. You can learn more about this [here](/articles/domain-privacy-after-gdpr/).
+You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in the WHOIS information. You can learn more about this [here](/articles/domain-privacy-after-gdpr/).
 
 ### Activity
 
-Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference. If you make a lot of changes, or want to look back on a change you made a while ago, you can select View to look it over.
+Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference. If you make a lot of changes, or want to look back on a change you made a while ago, select View to look it over.
 
 ### DNS
 
