@@ -14,11 +14,11 @@ categories:
 
 ---
 
-[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. With DNSimple's Heroku Connector, you can easily connect your domains to Heroku and set up the required DNS records.
+[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. With DNSimple's Heroku Connector, you can easily connect your domains to Heroku, and set up the required DNS records.
 
 ## Creating a connection
 
-1. Head into the "Connections" tab for the domain you want to connect to Heroku. From there, click the "Add" button next to the Heroku connector.  
+1. Head to the "Connections" tab for the domain you want to connect to Heroku. From there, click the "Add" button next to the Heroku connector.  
    ![Create a connection to Heroku](/files/heroku-connector-add-connector.png)
 
 
@@ -30,14 +30,14 @@ categories:
 ![Authorize your Heroku account](/files/heroku-connector-connect-heroku.png)
    
 
-4. Choose your Heroku app and the set its mounting point.
+4. Choose your Heroku app, and set its mounting point.
    <info>
    A mounting point is the address where your Heroku app is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
    </info>  
    ![Connect your domain to Heroku](/files/heroku-connector-connect-domain.png)
    
 
-5. You will be asked to review the connection configuration. To confirm the information is correct, click "connect".   
+5. You will be asked to review the connection configuration. To confirm the information is correct, click "Connect".   
 ![Review configuration](/files/heroku-connector-confirm-config.png)
    
 ## After configuration
