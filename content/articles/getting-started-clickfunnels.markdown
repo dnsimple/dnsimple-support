@@ -81,7 +81,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
     </note>
 
     <warning>
-    You will receive a verification email to the email address you used for the domain contact requesting you verify you made a change to the contact information. If you are moving your domain from ClickFunnels, you did make this change and you will want to verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it. 
+    You will receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you are moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it. 
 
     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
 
