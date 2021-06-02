@@ -120,12 +120,12 @@ If you need to purchase a certificate right away, choose this option. ClickFunne
 
 #### Exploring the API
 
-The API is a great resource for those with technical backgrounds to take advantage of automation. You may want to look into it and explore more. You'll find several links to articles explaining the API at the end of this article.
+The API is a great resource for those with technical backgrounds to take advantage of automation. If you want to learn more, you'll find several links to articles explaining the API at the end of this article.
 
 
 ## Step 4: Understanding the domain homepage
 
-Let's explore the domain management options on your domain's home page.
+Let's explore the domain management options on your domain's homepage.
 
 ### Domain Delegation
 
