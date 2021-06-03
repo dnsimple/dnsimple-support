@@ -159,7 +159,7 @@ If you forgot to turn on the Auto Renewal, didn't renew it yourself, and want to
 
 Below the renew by date, you'll see the option to turn on Auto Renew with the standard registration costs.
 
-#### Transfer this domain to another provider
+#### Transferring a domain to another provider
 
 If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
 
@@ -189,7 +189,7 @@ You're not required to use secondary DNS, and your site will function without it
 
 #### One-Click Services
 
-Our one-click services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. Take a look at [the options here](/articles/services/) to see if any of the services apply to your needs.
+Our One-Click Services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. Take a look at [the options here](/articles/services/) to see if any of the services apply to your needs.
 
 Your site will function properly without using these features.
 
@@ -229,7 +229,7 @@ They'll share the documentation, including the records and name servers you need
 We have a [Record Editor](/articles/record-editor/) that makes it easy to add records. Click **Manage** to open the editor.
 
 
-## Step 5: Understanding SSL certificates
+## Step 5: Understanding certificates
 
 ### What are certificates?
 
