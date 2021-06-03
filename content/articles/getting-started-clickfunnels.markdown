@@ -19,7 +19,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 ## Step 1: Setting up a DNSimple account and trial
 
 <div class="section-steps" markdown="1">
-1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click the <label>Get Started</label> button.
+1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
 1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
 1. Choose a plan. Select <label>Continue</label> under <label>Individual</label>, then choose <label>Get Started</label> under <label>Personal</label> or <label>Professional</label>, depending on your needs.
 
@@ -189,7 +189,7 @@ You're not required to use secondary DNS, and your site will function without it
 
 #### One-Click Services
 
-Our One-Click Services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. Take a look at [the options here](/articles/services/) to see if any of the services apply to your needs.
+Our One-Click Services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. Take a look at [the options](/articles/services/) to see if any of the services apply to your needs.
 
 Your site will function properly without using these features.
 
@@ -203,7 +203,7 @@ Click **Manage** to look at the records and edit them.
 
 When you open the DNS Record Management page, you'll probably see the following records:
 
-- [`ALIAS`](/articles/alias-record/) - Your domain name will be listed under **Name**. The **Content** is `target.clickfunnels.com`.
+- [`ALIAS`](/articles/alias-record/) - Your domain name is listed under **Name**. The **Content** is `target.clickfunnels.com`.
 - `NS` –  These are the four name server records.
 - [`SOA`](/articles/soa-record/) - Also related to name servers. You don't need to edit these.
 - [`TXT`](/articles/txt-record/) - Your domain name and `ALIAS` for `target.clickfunnels.com`.
