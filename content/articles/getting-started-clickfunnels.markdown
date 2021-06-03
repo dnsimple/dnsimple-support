@@ -88,7 +88,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
     You will receive a confirmation email after you have verified letting you know the verification was successful. You don't need to respond to this email.
     </warning>
 
-1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully [pushed to your account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
+1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account. Read more about [accepting a push](/articles/transferring-domain-between-accounts/#accepting-a-transfer) to your account.
 </div>
 
 Congratulations! You're now the owner of the domain and are managing the DNS.
