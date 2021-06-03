@@ -81,14 +81,14 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
     </note>
 
     <warning>
-    You will receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you are moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it. 
+    You will receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you are moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it.
 
     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
 
     You will receive a confirmation email after you have verified letting you know the verification was successful. You don't need to respond to this email.
     </warning>
 
-1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account.
+1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully [pushed to your account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
 </div>
 
 Congratulations! You're now the owner of the domain and are managing the DNS.
@@ -112,15 +112,15 @@ Let's break down the information we're asking for:
 
 #### Adding a domain
 
-If you were purchasing a new domain, or transferring a domain in from another provider, like GoDaddy, you'd choose this. You're not transferring a domain in from ClickFunnels, because they use DNSimple as their registrar already. You're moving your domain from ClickFunnels's DNSimple account into your DNSimple account.
+If you were [purchasing a new domain](/articles/adding-domain/#registering-a-new-domain), or [transferring a domain](/articles/adding-domain/#transferring-a-domain-into-dnsimple) in from another provider, like GoDaddy, you'd choose this. You're not transferring a domain in from ClickFunnels, because they use DNSimple as their registrar already. You're moving your domain from ClickFunnels's DNSimple account into your DNSimple account.
 
 #### Requesting an SSL certificate
 
-If you need to purchase a certificate right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in ["What are certificates?"](#what-are-certificates-?).
+If you need to [purchase a certificate](/articles/getting-started-ssl-certificates/) right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in ["What are certificates?"](#what-are-certificates-?).
 
 #### Exploring the API
 
-The API is a great resource for those with technical backgrounds to take advantage of automation. If you want to learn more, you'll find several links to articles explaining the API at the end of this article.
+The API is a great resource for those with technical backgrounds to take advantage of automation. If you want to learn more, check out our [API documentation](/articles/api-documentation/).
 
 
 ## Step 4: Understanding the domain homepage
@@ -129,7 +129,7 @@ Let's explore the domain management options on your domain's homepage.
 
 ### Domain Delegation
 
-What you see in this card are the name servers. Name servers work as a directory that translate domain names into IP addresses. They're important because they make things easy to find across the Internet.
+What you see in this card are the name servers. [Name servers](/articles/what-is-a-nameserver/) work as a directory that translate domain names into IP addresses. They're important because they make things easy to find across the Internet.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -169,7 +169,7 @@ You won't be able to transfer your domain for 60 days after accepting the push f
 
 ### Contact
 
-This is the information you provided when you moved the domain. This is the ownership contact information for Whois. You shouldn't need to make any changes to this unless you spot an error or your information changes.
+This is the information you provided when you moved the domain. This is the [ownership contact information](/articles/changing-domain-contact/) for Whois. You shouldn't need to make any changes to this unless you spot an error or your information changes.
 
 You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in the WHOIS information. You can learn more about this [here](/articles/domain-privacy-after-gdpr/).
 
@@ -183,13 +183,13 @@ The DNS section of your domain includes the records and other technical options 
 
 #### Secondary DNS
 
-This is a feature you can take advantage of and have the DNS with another provider should we face any downtime. 
+This is a feature you can take advantage of and have the DNS with another provider should we face any downtime.
 
 You're not required to use secondary DNS, and your site will function without it, but you can learn more [here](/articles/secondary-dnsimple/).
 
 #### One-Click Services
 
-Our one-click services simplify connecting your site to other popular services. It takes just one click to connect them, and we handle the record set up. If you want to use these, take a look at [the options here](/articles/services/), and see if anything makes sense for you to connect to. 
+Our one-click services simplify connecting your site to other popular services. It takes just one click to connect them, and we handle the record set up. If you want to use these, take a look at [the options here](/articles/services/), and see if anything makes sense for you to connect to.
 
 Your site will function properly without using these features.
 
@@ -197,17 +197,17 @@ Your site will function properly without using these features.
 
 This information transferred over from ClickFunnels. If your site is functioning as it should, you won't need to change anything here. Leave everything as-is.
 
-You'll want to update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. Content and DNS management are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
+You'll want to update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
 Click **Manage** to look at the records and edit them.
 
 When you open the DNS Record Management page, you'll probably see the following records:
 
-- `ALIAS` - Your domain name will be listed under **Name**. The **Content** is `target.clickfunnels.com`.
+- [`ALIAS`](/articles/alias-record/) - Your domain name will be listed under **Name**. The **Content** is `target.clickfunnels.com`.
 - `NS` –  These are the four name server records.
 - `SOA` - Also related to name servers. You don't need to edit these.
-- `TXT` - Your domain name and `ALIAS` for `target.clickfunnels.com`.
-- `URL` - Your domain name with `www` and `https://`.
+- [`TXT`](/articles/txt-record/) - Your domain name and `ALIAS` for `target.clickfunnels.com`.
+- [`URL`](/articles/url-record/) - Your domain name with `www` and `https://`.
 
 <warning>
 If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work, but there is no reason to remove this record.
@@ -226,7 +226,7 @@ I am using DNSimple to manage the DNS of my domain. I have recently created a si
 
 They'll share the documentation, including the records and name servers you need to change it to, or they'll respond directly with the records needed.
 
-We have a [Record Editor](/articles/record-editor/) that makes it easy to add recores. Click **Manage** to open the editor.
+We have a [Record Editor](/articles/record-editor/) that makes it easy to add records. Click **Manage** to open the editor.
 
 
 ## Step 5: Understanding certificates
