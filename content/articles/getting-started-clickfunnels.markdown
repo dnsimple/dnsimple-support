@@ -68,24 +68,24 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 </div>
 
 
-## Step 3: Accepting the domain and getting it set up in DNSimple
+## Step 3: Accepting and setting up the domain in DNSimple
 
 <div class="section-steps" markdown="1">
-1. [Log into DNSimple](https://dnsimple.com/login) where you'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll explore these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
-1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. You'll see a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
+1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
+1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. There's a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
 1. You'll see <label>Push Requests</label> and your domain listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
     <note>
-    After the domain is pushed into your DNSimple account, you must also change the ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning that you have to keep your domain here at DNSimple for 60 days before you can transfer the domain elsewhere. Hopefully, you aren't looking to move it but if you are, we will discuss some options later in the article.
+    After the domain is pushed into your DNSimple account, you must also change the ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning that you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
     </note>
 
     <warning>
-    You will receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you are moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. Sometimes it lands in spam, so be on the lookout for it.
+    You'll receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you're moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. If you don't see an email, make sure to check your spam folder.
 
     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
 
-    You will receive a confirmation email after you have verified letting you know the verification was successful. You don't need to respond to this email.
+    You will receive a confirmation email after you have verified letting you know it was successful. You don't need to respond to this email.
     </warning>
 
 1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account. Read more about [accepting a push](/articles/transferring-domain-between-accounts/#accepting-a-transfer) to your account.
@@ -102,13 +102,13 @@ Let's break down the information we're asking for:
 | Label                  | You can give contacts a unique label. This is helpful when managing multiple contacts. For now, let's leave this field blank.                                                                                                                       |
 | First Name / Last Name | Enter the first and last name of the person you want listed as the domain's owner. In most cases, this person is you.                                                                                                                                              |
 | Email                  | Make sure this is accurate. You'll be sent emails verifying your information that you'll be required to approve. If you enter your email address incorrectly, this email will not be delivered, and your domain could be suspended until it's fixed. |
-| Organization Name      | If the domain is to be registered for a company, you'll enter that here. Let's leave this blank for now.                                                                                                                                                                   |
-| Job Title              | As above, if the domain were being registered for a company, you'll enter your job title. Let's leave this blank, too.                                                                                                                                                       |
+| Organization Name      | If the domain is being registered for a company, you'll enter that here. Let's leave this blank for now.                                                                                                                                                                   |
+| Job Title              | If the domain is being registered for a company, you'll enter your job title. Let's leave this blank, too.                                                                                                                                                       |
 | Phone                  | Enter your complete phone number, starting with the country code.                                                                                                                                                                                                            |
 | Fax                    | This is usually relevant for company registrations — we'll leave this blank as well.                                                                                                                                                                                           |
 | Address                | Enter your complete physical or postal address.                                                                                                                                                                                                                             |
 
-### Other options when getting started with a new account
+### Other options when starting with a new account
 
 #### Adding a domain
 
@@ -129,7 +129,7 @@ Let's explore the domain management options on your domain's homepage.
 
 ### Domain Delegation
 
-What you see in this card are the name servers. [Name servers](/articles/what-is-a-nameserver/) work as a directory that translate domain names into IP addresses. They're important because they make things easy to find across the Internet.
+This card contains the name servers. [Name servers](/articles/what-is-a-nameserver/) work as a directory translating domain names into IP addresses. They make things easy to find across the Internet.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -159,9 +159,9 @@ If you forgot to turn on the Auto Renewal, and you want to keep the domain, ther
 
 Below the renew by date, you'll see the option to turn on Auto Renew with the standard registration costs.
 
-#### Transfer this domain to another provider:
+#### Transfer this domain to another provider
 
-If you want to move a domain to another provider, unlock the domain and request an authorization code. This is done with one click following these steps [here](/articles/transferring-domain-away/).
+If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click following these steps [here](/articles/transferring-domain-away/).
 
 <note>
 You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/).
@@ -169,13 +169,13 @@ You won't be able to transfer your domain for 60 days after accepting the push f
 
 ### Contact
 
-This is the information you provided when you moved the domain. This is the [ownership contact information](/articles/changing-domain-contact/) for Whois. You shouldn't need to make any changes to this unless you spot an error or your information changes.
+This is the information you provided when you moved the domain. This is the [ownership contact information](/articles/changing-domain-contact/) for WHOIS. You shouldn't need to make any changes to this unless there's an error, or your information changes.
 
-You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in the WHOIS information. You can learn more about this [here](/articles/domain-privacy-after-gdpr/).
+You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in WHOIS. You can learn more about this [here](/articles/domain-privacy-after-gdpr/).
 
 ### Activity
 
-Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference. If you make a lot of changes, or want to look back on a change you made a while ago, select View to look it over.
+Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference. If you make a lot of changes, or want to review past changes, select View.
 
 ### DNS
 
@@ -183,21 +183,21 @@ The DNS section of your domain includes the records and other technical options 
 
 #### Secondary DNS
 
-This is a feature you can take advantage of and have the DNS with another provider should we face any downtime.
+Deploying a secondary DNS provider that doesn't share the same infrastructure as your primary provider (DNSimple) means if your primary DNS provider temporarily goes down, your customers continue to have access to your site. You can take advantage of this feature, and have the DNS with another provider as a backup, in the unlikely event that we face downtime.
 
-You're not required to use secondary DNS, and your site will function without it, but you can learn more [here](/articles/secondary-dnsimple/).
+You're not required to use secondary DNS, and your site will function without it. You can learn more [here](/articles/secondary-dnsimple/).
 
 #### One-Click Services
 
-Our one-click services simplify connecting your site to other popular services. It takes just one click to connect them, and we handle the record set up. If you want to use these, take a look at [the options here](/articles/services/), and see if anything makes sense for you to connect to.
+Our one-click services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. If you want to use these, take a look at [the options here](/articles/services/), and see if any of the services apply to your needs.
 
 Your site will function properly without using these features.
 
 #### DNS records
 
-This information transferred over from ClickFunnels. If your site is functioning as it should, you won't need to change anything here. Leave everything as-is.
+This information transferred over from ClickFunnels. If your site is functioning correctly, you won't need to change anything here. Leave everything as-is.
 
-You'll want to update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
+You should update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
 Click **Manage** to look at the records and edit them.
 
@@ -205,24 +205,24 @@ When you open the DNS Record Management page, you'll probably see the following 
 
 - [`ALIAS`](/articles/alias-record/) - Your domain name will be listed under **Name**. The **Content** is `target.clickfunnels.com`.
 - `NS` –  These are the four name server records.
-- `SOA` - Also related to name servers. You don't need to edit these.
+- [`SOA`](/articles/soa-record/) - Also related to name servers. You don't need to edit these.
 - [`TXT`](/articles/txt-record/) - Your domain name and `ALIAS` for `target.clickfunnels.com`.
 - [`URL`](/articles/url-record/) - Your domain name with `www` and `https://`.
 
 <warning>
-If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record your site will still work, but there is no reason to remove this record.
+If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record, your site will still work, but there's no reason to remove this record.
 </warning>
 
 If you go to your website, and you only see the ClickFunnels home page and not your site, reach out to ClickFunnels. It's likely you didn't change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to point it to the right place.
 
 ##### Understanding the Record Editor
 
-If you're no longer using ClickFunnels and created a website with a service like Wix, point your site to the new service. You can do this one of two ways:  
+If you're no longer using ClickFunnels, and you created a website with a service like Wix, point your site to the new service. You can do this one of two ways:  
 Change the name servers to them, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels). Or they'll share the DNS records you need to add to DNSimple.
 
-We won't know what records are needed from the content host. You'll need to contact them, and ask them the following:
+We won't know what records are needed from the content host. You'll need to contact them, and request the following:
 
-I am using DNSimple to manage the DNS of my domain. I have recently created a site using your company. Please share with me the DNS records I need to add to DNSimple to have what I created shown on my website.
+I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
 
 They'll share the documentation, including the records and name servers you need to change it to, or they'll respond directly with the records needed.
 
@@ -233,20 +233,20 @@ We have a [Record Editor](/articles/record-editor/) that makes it easy to add re
 
 ### What are certificates?
 
-Certificates provide a level of security for your site, and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock icon to the left of the URL, and/or it could block the page and force visitors to accept the risk in visiting the site. Needless to say, certificates are important.
+Certificates provide a level of security for your site, and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock icon to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site. Needless to say, certificates are important.
 
 When you purchased your domain with ClickFunnels, they automatically secured it with a certificate. The certificate typically transfers with your domain, but certificates have a short lifespan and will expire. The certificate they use is only available on higher-tier DNSimple plans, so if you're on the Personal Plan, you can't renew the same certificate. However, there are many available certificates that can provide the security you need.
 
-Your certificate may be set to [automatically renew](/articles/letsencrypt/#auto-renewal). Disable this if it you want to prevent it trying to renew and sending you failed renewal emails.
+Your certificate may be set to [automatically renew](/articles/letsencrypt/#auto-renewal). Disable this if you want to prevent it from trying to renew and sending you failed renewal emails.
 
-When your certificate is about to expire, we'll send you an email with the subject line "Expiration Notification". Don't be startled by this, even if the certificate expires, your site will still function, and you'll still own it. Some certificates may be set to automatically renew. If your certificate is set to auto renew, and you haven't disabled it before the renewal, you'll receive emails that the renewal failed because you don't have access to the SAN feature (only available on our higher-tiered plans). You can ignore these messages – they only concern your certificate, and aren't connected to your domain ownership, renewal, or overall functionality.
+When your certificate is about to expire, we'll send you an email with the subject line "Expiration Notification". However, even if the certificate expires, your site will still function, and you'll still own it. Some certificates may be set to automatically renew. If your certificate is set to auto renew, and you haven't disabled it before the renewal, you'll receive emails that the renewal failed because you don't have access to the SAN feature (only available on our higher-tiered plans). You can ignore these messages – they only concern your certificate, and aren't connected to your domain ownership, renewal, or overall functionality.
 
 ### What certificates should I use?
 
-Let's Encrypt has a standard certificate to provide your site with the security it needs. They need to be renewed every 90 days. When you renew a certificate, you purchase a new one and install it as you did the previous certificate. Let's Encrypt certificates cover your sites when they are the standard format, like `www.dnsimple.com` or `dnsimple.com`.
+Let's Encrypt has a standard certificate to provide your site with the security it needs. They need to be renewed every 90 days. When you renew a certificate, you purchase a new one and install it like you did with the previous certificate. Let's Encrypt certificates cover your sites when they're the standard format, like `www.dnsimple.com` or `dnsimple.com`.
 
 Here's a walkthrough of [ordering the Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you'll need a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). You more than likely won't need this, but if you do, you'll need to upgrade to our Professional Plan (link to how to upgrade account) to access this feature.
+If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). If you need a Wildcard Certificate, you'll have to [upgrade to our Professional Plan](/articles/changing-plans/) to access this feature.
 
 ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but we can help you find out when it expires and answer any questions you may have.
