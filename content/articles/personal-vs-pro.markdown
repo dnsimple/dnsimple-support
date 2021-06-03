@@ -42,7 +42,7 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 **Personal:** No - You can *only* secure your root domain and `www` subdomain.
 
-**Professional:** Yes - Secure a combination of different host names, from the same or different domains.
+**Professional:** Yes - Secure a combination of different host names from the same or different domains.
 
 ## Can I work with other people on my account?
 
