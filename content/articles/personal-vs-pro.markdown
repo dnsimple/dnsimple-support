@@ -32,6 +32,18 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 **Professional:** Yes - Safely redirect all non-HTTPS traffic to a secured connection.
 
+## Can I secure my subdomains with a Let's Encrypt certificate?
+
+**Personal:** No - You can *only* secure your root domain and `www` subdomain.
+
+**Professional:** Yes - Secure any subdomain and wildcard.
+
+## Can I customize the certificate SAN with up to 100 extra names for a single certificate?
+
+**Personal:** No - You can *only* secure your root domain and `www` subdomain.
+
+**Professional:** Yes - Secure a combination of different host names, from the same or different domains.
+
 ## Can I work with other people on my account?
 
 **Personal:** No - Sharing login credentials is unprofessional and a security risk.
@@ -40,7 +52,7 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 ## Am I covered by an SLA?
 
-**Personal:** No - There is no SLA. 
+**Personal:** No - There is no SLA.
 
 **Professional:** Yes - We have a 99% SLA on our Professional plan.
 
@@ -52,7 +64,7 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 ## How fast can I get help from the experts?
 
-**Personal:** Receive an answer in 24 hours. 
+**Personal:** Receive an answer in 24 hours.
 
 **Professional:** Get even *faster* help from developers with a < 24 hour response time.
 
