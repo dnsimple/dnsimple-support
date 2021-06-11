@@ -14,15 +14,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 * TOC
 {:toc}
 
----
-
-<warning>
-  Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures in DNSSEC aware resolutors.
-
-  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
-</warning>
-
-## Video tour
+## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/NPlkDqLL2Vo" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,6 +24,13 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 ## Requirements
 
 Adding DNSimple as a Secondary DNS provider is available for an additional fee on the [Professional, Business](https://dnsimple.com/pricing), and [Master reseller](https://dnsimple.com/reseller) plans. If you aren't subscribed to one of these plans, and want to add DNSimple as secondary DNS, we'll prompt you to upgrade your plan.
+
+<warning>
+  Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures in DNSSEC aware resolutors.
+
+  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+</warning>
+
 
 ## Adding a Secondary Zone
 
