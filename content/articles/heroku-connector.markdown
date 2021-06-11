@@ -3,6 +3,7 @@ title: Heroku Connector
 excerpt: How to connect a Heroku app to your domain using DNSimple's Heroku Connector
 categories:
 - Services
+- Heroku and DNSimple
 ---
 
 # Heroku Connector
