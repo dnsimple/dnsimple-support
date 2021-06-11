@@ -16,6 +16,12 @@ categories:
 
 [Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. With DNSimple's Heroku Connector, you can easily connect your domains to Heroku, and set up the required DNS records.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/Z1I0L1aSIA8" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Creating a connection
 
 1. Head to the "Connections" tab for the domain you want to connect to Heroku. From there, click the "Add" button next to the Heroku connector.  
