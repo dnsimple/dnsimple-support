@@ -3,6 +3,7 @@ title: Heroku Connector
 excerpt: How to connect a Heroku app to your domain using DNSimple's Heroku Connector
 categories:
 - Services
+- Heroku and DNSimple
 ---
 
 # Heroku Connector
@@ -15,6 +16,12 @@ categories:
 ---
 
 [Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. With DNSimple's Heroku Connector, you can easily connect your domains to Heroku, and set up the required DNS records.
+
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/Z1I0L1aSIA8" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
 
 ## Creating a connection
 
