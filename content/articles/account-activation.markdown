@@ -7,9 +7,9 @@ categories:
 
 # Account Activation
 
-You must activate your DNSimple account to register or transfer domain names through DNSimple, or to provide DNS resolution. 
+You must activate your DNSimple account to register or transfer domain names through DNSimple, or to provide DNS resolution.
 
-Activation is easy and includes a free 30 day trial. You can cancel at any time during your 30 day trial without being charged.
+Activation is easy and includes a free 30 day trial. You can cancel at any time during your 30 day trial without being charged. During the course of your trial, you're free to [change the subscription plan](/articles/changing-plans/) in order to try different features.
 
 <div class="section-steps" markdown="1">
 ##### To activate your account
@@ -25,4 +25,3 @@ If you're resubscribing to DNSimple, you won't have a new 30 day trial period. Y
 </note>
 
 Your account is now active. Any domains you update to use our [name servers](/articles/dnsimple-nameservers) will now resolve with the DNSimple system.
-
