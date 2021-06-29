@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Figuring out where to start with your new DNSimple subscription can be intimidating. This guide will help you get started as quickly as possible.
+This guide will help you get started with your DNSimple Personal Plan as quickly as possible.
 
 <tip>
 [Learn the differences](/articles/personal-vs-pro/) between the Personal plan and the Professional plan.
@@ -22,13 +22,13 @@ Figuring out where to start with your new DNSimple subscription can be intimidat
 
 ## Step 1: Preparing your account
 
-1. [Account activation](/articles/account-activation/) is easy and includes a free 30 day trial. You can cancel at any time during your 30 day trial without being charged.
-2. Secure your account with [two-factor authentication](/articles/two-factor-authentication/). Two-factor authentication is a security measure that helps protect you from unwanted access to your account, and increases the security of your data.
+1. [Account activation](/articles/account-activation/) is easy and includes a free 30-day trial. You can cancel at any time during your 30-day trial without being charged. During the course of your trial, you're free to [change plans](/articles/changing-plans/) to try different features.
+2. Secure your account with [two-factor authentication](/articles/two-factor-authentication/). Two-factor authentication is a security measure that helps protect you from unwanted access to your account and increases the security of your data.
 3. Learn how to read and [understand your DNSimple invoice](/articles/understanding-invoice/).
 
 ## Step 2: Adding your domains
 
-Transferring an existing domain into DNSimple, registering a new domain, or simply delegating your domain to us can be done by following these guides:
+Transferring an existing domain into DNSimple, registering a new domain, or delegating your domain to us can be done by following these guides:
 
 - [Transfer an existing domain](#transferring-an-existing-domain)
 - [Register a new domain](#registering-a-new-domain)
@@ -36,7 +36,7 @@ Transferring an existing domain into DNSimple, registering a new domain, or simp
 
 ### Transferring an existing domain
 
-Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
+Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar. You'll be able to manage your entire domain configuration in your DNSimple account.
 
 Check out [this guide](https://dnsimple.com/how-to-transfer-without-downtime) on how to transfer your domain with no downtime.
 
@@ -62,7 +62,7 @@ Read more: [Delegating a Domain registered with another Registrar to DNSimple](/
 
 ## Step 3: Configuring DNS records for your domain
 
-Once your domains have been added, it's important to configure DNS records for them. Doing so ensures that people can reach your web site, send you email, and so on.
+Once your domains have been added, it's important to configure DNS records for them. This ensures people can reach your web site, send you email, and so on.
 
 The two most common records you're likely to configure are `A` and `CNAME` records. Follow the links below to read more about them.
 
@@ -72,7 +72,7 @@ The two most common records you're likely to configure are `A` and `CNAME` recor
 Alternatively, set up DNS records for common platforms such as Google Workspace, Shopify, or WordPress using our [one-click services](/articles/services/).
 
 <note>
-Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
+Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, [changes you make to DNS records](/articles/record-editor/) won't resolve.
 </note>
 
 ## Additional resources
