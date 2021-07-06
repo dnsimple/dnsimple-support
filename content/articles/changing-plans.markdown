@@ -22,13 +22,17 @@ When you change your plan you'll receive a proration discount corresponding to t
 
     ![Change plan](/files/account-billing-change-plan-link.png)
 
-1.  Explore the features for each plan, and click on the <label>Select plan</label> button of the plan that better suits your needs.
+1.  Identify the purpose of your subscription.
 
-    ![Choose plan](/files/change-plan-2.jpg)
+    ![Identify](/files/change-plan-2.png)
+
+1.  Explore the features for each plan, and click on the <label>Subscribe</label> button of the plan that better suits your needs.
+
+    ![Choose plan](/files/change-plan-4.png)
 
 1.  Verify the charges that will be made on your account. To complete the plan change, click the <label>Switch to plan</label> button.
 
-    ![Choose plan](/files/change-plan-3.png)
+    ![Verify charges](/files/change-plan-3.png)
 
 1.  Once the change is complete, you'll receive the corresponding invoice.
 </div>
