@@ -71,7 +71,7 @@ structured_data: true
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
-    If you have [CAA Records](/articles/caa-record) already set up, or you want to use them, you need to add the appropriate record for Comodo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record#caa-record-usage) for more details.
+    If you have [CAA Records](/articles/caa-record) already set up, or you want to use them, you need to add the appropriate record for Sectigo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record#caa-record-usage) for more details.
 </div>
 
 
@@ -88,7 +88,7 @@ structured_data: true
 
     The green bar in the browser is displayed only if you purchase an _extended-validation_ (EV) certificate. We don't sell EV certificates.
 
-    We only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security. 
+    We only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security.
 </div>
 
 

@@ -74,14 +74,14 @@ Each CAA record contains only one tag-value pair. The tag must be one of the ava
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-To allow both Let's Encrypt and Comodo, add 2 CAA records, one for each CA:
+To allow both Let's Encrypt and Sectigo, add 2 CAA records, one for each CA:
 
 ```
 example.com.  CAA 0 issue "sectigo.com"
 example.com.  CAA 0 issue "letsencrypt.org"
 ```
 
-To allow Let's Encrypt and Comodo only for wildcard, use `issuewild`:
+To allow Let's Encrypt and Sectigo only for wildcard, use `issuewild`:
 
 ```
 example.com.  CAA 0 issue "letsencrypt.org"
@@ -105,7 +105,7 @@ beta.example.com.   CAA 0 issue "letsencrypt.org"
 beta.example.com.   CAA 0 issue "sectigo.com"
 ```
 
-In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Comodo can issue a certificate for `alpha.example.com`. Both Comodo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there's a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
+In the example above, Let's Encrypt is the default CA for the example.com domain. However, only Sectigo can issue a certificate for `alpha.example.com`. Both Sectigo and Let's Encrypt can issue certificates for `beta.example.com`. And what about `foo.example.com`? Because no record exists for `foo.example.com`, but there's a record for `example.com`, in this case only Let's Encrypt is allowed to issue for `foo.example.com`.
 
 ## Querying CAA records
 
@@ -146,4 +146,4 @@ google.com. 86399   IN  CAA 0 issue "symantec.com"
 
 ## Manage CAA records
 
-From the DNSimple record editor you can [add, remove, and update CAA records](/articles/manage-caa-record). 
+From the DNSimple record editor you can [add, remove, and update CAA records](/articles/manage-caa-record).

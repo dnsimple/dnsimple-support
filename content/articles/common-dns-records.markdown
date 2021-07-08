@@ -142,8 +142,8 @@ It's advisable to [add a CAA record](/articles/caa-record) to the root domain to
     ;; ANSWER SECTION:
     dnsimple.com.		3599	IN	CAA	0 iodef "mailto:ops@dnsimple.com"
     dnsimple.com.		3599	IN	CAA	0 issue "amazonaws.com"
-    dnsimple.com.		3599	IN	CAA	0 issue "comodoca.com"
+    dnsimple.com.		3599	IN	CAA	0 issue "sectigo.com"
     dnsimple.com.		3599	IN	CAA	0 issue "letsencrypt.org"
-    dnsimple.com.		3599	IN	CAA	0 issuewild "comodoca.com"
+    dnsimple.com.		3599	IN	CAA	0 issuewild "sectigo.com"
     ```
 </div>
