@@ -29,7 +29,7 @@ With GDPR, starting on May 25th 2018, even if you opted out of WHOIS privacy, yo
 
 ## Certificate validation
 
-Requesting an SSL certificate is a common task that requires proof of ownership of a domain. Our SSL certificates from Comodo require an extra step to ensure the request is legitimate and comes from an authorized owner of the domain. Since the WHOIS public email address is now protected, there is no reliable way for Comodo to contact you to verify the ownership of your domain.
+Requesting an SSL certificate is a common task that requires proof of ownership of a domain. Our SSL certificates from Sectigo require an extra step to ensure the request is legitimate and comes from an authorized owner of the domain. Since the WHOIS public email address is now protected, there is no reliable way for Sectigo to contact you to verify the ownership of your domain.
 
 In this situation we recommend one of the following options:
 

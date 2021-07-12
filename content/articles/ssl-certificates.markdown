@@ -41,20 +41,20 @@ DNSimple provides the following certificate products:
 All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities).
 
 <info>
-All certificates are [domain-validated](/articles/ssl-certificates-email-validation). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates. 
+All certificates are [domain-validated](/articles/ssl-certificates-email-validation). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 </info>
 
 ### Standard Single-name SSL certificates {#standard-singlename}
 
 The single-name certificate is a **single-name**, **domain-validated** certificate. It covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-names).
 
-The certificate is issued by **Comodo** and it costs **$20 per year**. The product name is _Comodo EssentialSSL_ certificate.
+The certificate is issued by **Sectigo** and it costs **$20 per year**. The product name is _Sectigo EssentialSSL_ certificate.
 
 ### Standard Wildcard SSL certificates {#standard-wildcard}
 
 The wildcard certificate is a **wildcard-name**, **domain-validated** certificate. It covers all [single-level subdomains](/articles/ssl-certificate-names), as well as the root domain.
 
-The certificate is issued by **Comodo** and it costs **$100 per year**. The product name is _Comodo EssentialSSL Wildcard_ certificate.
+The certificate is issued by **Sectigo** and it costs **$100 per year**. The product name is _Sectigo EssentialSSL Wildcard_ certificate.
 
 ### Let's Encrypt SAN SSL certificates {#letsencrypt}
 

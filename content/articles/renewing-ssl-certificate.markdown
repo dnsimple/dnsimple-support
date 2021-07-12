@@ -37,7 +37,7 @@ Once you purchased the certificate renewal, **you will have to go through the st
 
 These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates).
 
-For a standard Comodo certificate, you will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation) again, since a new certificate will be issued.
+For a standard Sectigo certificate, you will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation) again, since a new certificate will be issued.
 
 <warning>
 **If you don't verify the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.

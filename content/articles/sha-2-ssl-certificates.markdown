@@ -36,9 +36,9 @@ On September 5th, 2014, [Google announced plans for gradually sunsetting SHA-1](
 
 We decided to provide this support page to educate our customers on the subject. However, you unlikely need to worry about the certificates purchased with DNSimple.
 
-DNSimple traditionally offered [Comodo and RapidSSL](/articles/what-ssl-certificate-authorities) certificates. On September 11th, 2014, we switched our system to offer Comodo certificates only.
+DNSimple traditionally offered [Sectigo and RapidSSL](/articles/what-ssl-certificate-authorities) certificates. On September 11th, 2014, we switched our system to offer Sectigo certificates only.
 
-Comodo has been using SHA-2 hash algorithm by default since August 2014.
+Sectigo has been using SHA-2 hash algorithm by default since August 2014.
 
 - Every wildcard certificate purchased from August/September 2014 and every certificate purchased from September 11th, 2014 is now hashed with SHA-2
 - RapidSSL single-name certificates purchased before September 11th, 2014 are hashed with SHA-1. However, since we didn't offer multi-year certificates, all these certificates will expire within September 2015, way within the beginning of the sunsetting phase starting on January 2016.
