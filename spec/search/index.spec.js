@@ -67,6 +67,14 @@ describe('Search', () => {
       close: 'unsubscribe'
     };
 
+    test('finds an article by a URL', () => {
+      const articles = subject.loadArticles([{ id: '/articles/my-article', title: 'My Article' }, { id: '/not-a-match' }]);
+      const results = subject.search('/articles/my-article', articles, {});
+
+      expect(results).toHaveLength(1);
+      expect(results[0].title).toContain('My Article');
+    });
+
     test('finds the best article', () => {
       const articles = subject.loadArticles([{ title: 'Unsubscribe Your Account' }]);
       const results = subject.search('clo', articles, dictionary);
