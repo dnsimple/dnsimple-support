@@ -69,6 +69,12 @@ var applyDictionary = function applyDictionary (dictionary, q) {
   return q;
 };
 
+var findByUrl = function findByUrl (url, articles) {
+  return articles.filter(function (article) {
+    return article.url === url
+  })
+}
+
 var findByCategory = function findByCategory (category, articles) {
   return articles
     .filter(function (article) {
@@ -100,6 +106,10 @@ var findByScore =function findByScore (q, articles) {
 var search = function search (q, articles, dictionary) {
   q = (q || '').toLowerCase().trim()
   articles = articles || ARTICLES;
+
+  if (q[0] === '/') {
+    return findByUrl(q, articles)
+  }
 
   if (q.slice(0, 4) === 'cat:') {
     return findByCategory(q.slice(4).trim(), articles)
