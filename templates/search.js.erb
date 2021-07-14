@@ -71,7 +71,7 @@ var applyDictionary = function applyDictionary (dictionary, q) {
 
 var findByUrl = function findByUrl (url, articles) {
   return articles.filter(function (article) {
-    return article.url === url;
+    return article.id === url;
   });
 };
 

@@ -68,7 +68,7 @@ describe('Search', () => {
     };
 
     test('finds an article by a URL', () => {
-      const articles = subject.loadArticles([{ url: '/articles/my-article', title: 'My Article' }, { url: '/not-a-match' }]);
+      const articles = subject.loadArticles([{ id: '/articles/my-article', title: 'My Article' }, { id: '/not-a-match' }]);
       const results = subject.search('/articles/my-article', articles, {});
 
       expect(results).toHaveLength(1);
