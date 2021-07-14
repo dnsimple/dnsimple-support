@@ -59,7 +59,7 @@ var dictionaryTermMatches = function dictionaryTermMatches (q, term) {
 };
 
 var applyDictionary = function applyDictionary (dictionary, q) {
-  q = q.replace(PUNCTUATION, '')
+  q = q.replace(PUNCTUATION, '');
 
   if (q.length >= 3)
     for (var term in dictionary)
@@ -71,23 +71,23 @@ var applyDictionary = function applyDictionary (dictionary, q) {
 
 var findByUrl = function findByUrl (url, articles) {
   return articles.filter(function (article) {
-    return article.url === url
-  })
-}
+    return article.url === url;
+  });
+};
 
 var findByCategory = function findByCategory (category, articles) {
   return articles
     .filter(function (article) {
-      return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1
+      return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1;
     })
     .sort(function (a, b) {
       if (a.title > b.title) return 1;
       if (a.title < b.title) return -1;
       return 0;
     });
-}
+};
 
-var findByScore =function findByScore (q, articles) {
+var findByScore = function findByScore (q, articles) {
   return articles
     .filter(function (article) {
       article.score = articleScore(article, q);
@@ -101,23 +101,21 @@ var findByScore =function findByScore (q, articles) {
       if (a.score < b.score) return 1;
       return 0;
     });
-}
+};
 
 var search = function search (q, articles, dictionary) {
-  q = (q || '').toLowerCase().trim()
+  q = (q || '').toLowerCase().trim();
   articles = articles || ARTICLES;
 
-  if (q[0] === '/') {
-    return findByUrl(q, articles)
-  }
+  if (q[0] === '/')
+    return findByUrl(q, articles);
 
-  if (q.slice(0, 4) === 'cat:') {
-    return findByCategory(q.slice(4).trim(), articles)
-  }
+  if (q.slice(0, 4) === 'cat:')
+    return findByCategory(q.slice(4).trim(), articles);
 
   q = applyDictionary(dictionary || DICTIONARY, q);
 
-  return findByScore(q, articles)
+  return findByScore(q, articles);
 };
 
 if (typeof module === 'object' && typeof module.exports === 'object')
@@ -129,7 +127,7 @@ if (typeof module === 'object' && typeof module.exports === 'object')
     fixRelativeImgSrcs: fixRelativeImgSrcs,
     dictionaryTermMatches: dictionaryTermMatches
   };
-else {
+else
   (function () {
     window.DNSimpleSupport = window.DNSimpleSupport || {};
     window.DNSimpleSupport.search = search;
@@ -137,4 +135,3 @@ else {
 
     loadArticles(ARTICLES);
   })();
-}
