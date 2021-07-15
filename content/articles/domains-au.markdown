@@ -18,15 +18,15 @@ This article explains the requirements and special procedures for `.AU` domain n
 
 All `.AU` domain names:
 
--  require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
+-  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
   - Australian Business Number
   - Australian Company Number
   - Trademark Number
-- require an Australian address.
-- must be an exact match, abbreviation, or acronym of the Registrant's name or otherwise closely and substantially connected to the Registrant.
+- Require an Australian address.
+- Must be an exact match, abbreviation, or acronym of the Registrant's name, or otherwise closely and substantially connected to the Registrant.
 
 <warning>
-The organization name has to match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
+The organization name must match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
 </warning>
 
 ## Secondary top level domain requirements
@@ -61,7 +61,7 @@ A valid Australian Business Number (ABN) is required to register a `.ORG.AU` dom
 
 ## Renewals
 
-`.AU` domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it will enter [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name is removed from the DNS and cannot be updated. This period lasts for 31 days; during this period, the domain name can be recovered for an additional fee.
+`.AU` domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be recovered for an additional fee.
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
@@ -69,6 +69,6 @@ If the domain name is not redeemed within 31 days, it will be removed from our s
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type* or *Eligibility ID number*.
 
-There is an additional fee to change the ownership of a `.AU` domain — this fee includes extension of the domain registration for one year.
+There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration.
 
-If you have would like to make such a change, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+If you want to make this change, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
