@@ -61,7 +61,7 @@ A valid Australian Business Number (ABN) is required to register a `.ORG.AU` dom
 
 ## Renewals
 
-`.AU` domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it will enter redemption. The domain name is removed from the DNS and cannot be updated. This period lasts for 31 days; during this period, the domain name can be recovered for an additional fee.
+`.AU` domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it will enter [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name is removed from the DNS and cannot be updated. This period lasts for 31 days; during this period, the domain name can be recovered for an additional fee.
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
