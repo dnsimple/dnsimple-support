@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for `.AU` domain names. DNSimple supports registration, renewal, and transfer of `.COM.AU`, `.ORG.AU`, and `.NET.AU` secondary top level domains.
+This article explains the requirements and special procedures for `.AU` domain names. DNSimple supports registration, renewal, and transfer of `.COM.AU`, `.ORG.AU`, and `.NET.AU` secondary top level domains (TLDs).
 
 ## General requirements
 
