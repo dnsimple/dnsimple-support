@@ -19,9 +19,9 @@ This article explains the requirements and special procedures for `.AU` domain n
 All `.AU` domain names:
 
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
-  - Australian Business Number
-  - Australian Company Number
-  - Trademark Number
+    - Australian Business Number
+    - Australian Company Number
+    - Trademark Number
 - Require an Australian address.
 - Must be an exact match, abbreviation, or acronym of the Registrant's name, or otherwise closely and substantially connected to the Registrant.
 
