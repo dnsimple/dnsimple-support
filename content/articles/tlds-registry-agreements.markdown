@@ -167,6 +167,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .law | [https://mmx.co/policies](https://mmx.co/policies) |
 | .lawyer | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .legal | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .lgbt | [https://get.lgbt/about/afilias-anti-abuse-policy](https://get.lgbt/about/afilias-anti-abuse-policy) |
 | .li | [https://www.nic.li/terms/](https://www.nic.li/terms/) |
 | .life | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .limited | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
