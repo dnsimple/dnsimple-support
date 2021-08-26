@@ -23,8 +23,6 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 ## Requirements
 
-Adding DNSimple as a Secondary DNS provider is available for an additional fee on the [Professional, Business](https://dnsimple.com/pricing), and [Master reseller](https://dnsimple.com/reseller) plans. If you aren't subscribed to one of these plans, and want to add DNSimple as secondary DNS, we'll prompt you to upgrade your plan.
-
 <warning>
   Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures in DNSSEC aware resolutors.
 
