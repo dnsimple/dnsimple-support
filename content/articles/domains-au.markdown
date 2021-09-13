@@ -73,6 +73,10 @@ On April 12, 2021 a new set of rules for the `.ORG.AU` secondary top level domai
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
+## Transfers
+
+`.AU` domains are not renewed for one year upon transfer. We do not charge for `.AU` transfers.
+
 ## Changes in ownership
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type* or *Eligibility ID number*.
