@@ -156,6 +156,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .info | [https://info.info/about/afilias-anti-abuse-policy](https://info.info/about/afilias-anti-abuse-policy) |
 | .ink | [https://toplevel.design/policy](https://toplevel.design/policy) |
 | .institute | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .international | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .investments | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .io | [https://www.nic.io/policy.htm](https://www.nic.io/policy.htm) |
 | .it | [https://www.nic.it/en/manage-your-it/legal](https://www.nic.it/en/manage-your-it/legal) |
