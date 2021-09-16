@@ -89,11 +89,9 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain's management page.
 
-![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
-
 Click on the "View Configuration" button.
 
-![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-tab.png)
+![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-configured.png)
 
 
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
