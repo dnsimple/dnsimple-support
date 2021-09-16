@@ -44,7 +44,7 @@ Click on the "Enable DNSSEC" button.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is created in the appropriate domain registry.
+If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is provisioned in the appropriate domain registry.
 
 If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
 
