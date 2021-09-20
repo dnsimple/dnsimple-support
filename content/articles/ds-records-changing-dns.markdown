@@ -4,6 +4,7 @@ excerpt: This article explains what to do if you use DNSSEC and change DNS servi
 categories:
 - Domain Transfers
 - DNS
+- DNSSEC
 ---
 
 # Managing DS Records When Changing DNS
