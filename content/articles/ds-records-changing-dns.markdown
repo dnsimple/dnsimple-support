@@ -17,6 +17,6 @@ The same rule applies if you switch from one DNS provider with DNSSEC to another
 
 ## Removing your DS record in DNSimple
 
-If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove the record by going to your domain's management page and using the Delete DS Record button at the bottom of the page.
+If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove the record by going to your domain's management page and using the Delete DS Record button at the top of the page.
 
-![Delete DS Record](/files/dnsimple-ds-record.png)
+![Delete DS Record](/files/delete-ds-record.png)
