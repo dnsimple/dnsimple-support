@@ -3,13 +3,10 @@ title: DNSSEC
 excerpt: DNSimple provides full support for DNSSEC in our authoritative name servers, including signing of zones registered outside DNSimple.
 categories:
 - DNS
+- DNSSEC
 ---
 
 # DNSSEC
-
-<info>
-This article describes a feature in Public Beta.
-</info>
 
 <warning>
   You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns), as they will not work in conjunction. Please ensure that you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns).
@@ -28,13 +25,9 @@ DNSSEC provides a way to cryptographically build a chain of trust from the root 
 
 We support DNSSEC in the following ways:
 
-- If your domain is registered through DNSimple, and you're using our authoritative name servers, you can sign zones, and insertion and rotation of your DS record is handled automatically.
-- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can add DS records for DNSSEC-enabled zones.
-- If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you can sign zones in our name servers, but you're required to handle the creation and rotation of DS records.
-
-<note>
-We don't support DNSSEC for zones using our outbound secondary DNS feature.
-</note>
+- If your domain is registered through DNSimple, and you're using our authoritative name servers, you can sign zones, and provision and rotation of your DS record is handled automatically.
+- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can manage the DS records for DNSSEC-enabled zones.
+- If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you can sign zones in our name servers, but you're required to provision and rotate DS records by yourself.
 
 ## Managing DNSSEC
 
@@ -52,7 +45,7 @@ Click on the "Enable DNSSEC" button.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is created in the appropriate domain registry.
+If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is provisioned in the appropriate domain registry.
 
 If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
 
@@ -97,11 +90,9 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain's management page.
 
-![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
-
 Click on the "View Configuration" button.
 
-![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-tab.png)
+![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-configured.png)
 
 
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
