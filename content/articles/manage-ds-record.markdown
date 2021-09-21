@@ -19,17 +19,19 @@ categories:
 
 To view and manage the delegation signer (DS) records for a domain, click on the DNSSEC tab on a domain's management page, then click on the <label>Manage</label> link in the DS Records section, to access the DS Records page.
 
-![](/files/ds-records-manage.png)
+![Manage DS Records link](/files/ds-records-manage.png)
 
 ## Listing DS records
 
 On the DS Records page, you will be able to see a list of the DS records currently configured for the domain.
 
-![](/files/ds-records-list.png)
+![List DS Records](/files/ds-records-list.png)
 
 ## Adding a DS record
 
 On the DS records page, click <label>Add DS record</label>.
+
+![Add DS Record](/files/ds-records-add-ds-record.png)
 
 The Add DS Record page will load. The form fields shown on the Add DS record page will differ based on whether the TLD of the domain supports the DS-Data interface or the KEY-Data interface.
 
@@ -37,11 +39,9 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
 #### To add a DS record using the DS-Data interface
 
-1.  On the DS records page, click <label>Add DS record</label>.
+1.  Enter the DS record information.
 
-2.  Enter the DS record information.
-
-    ![](/files/ds-records-add-ds-data.png)
+    ![Add DS Record with DS Data](/files/ds-records-add-ds-data.png)
 
     - _Algorithm_: the algorithm used to generate the signature.
 
@@ -53,7 +53,7 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
     Once you're ready, click <label>Add DS Record</label> to create the record.
 
-3.  The record is created and visible in the record list.
+2.  The record is created and visible in the record list.
 
 </div>
 
@@ -61,11 +61,9 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
 #### To add a DS record using the KEY-Data interface
 
-1.  On the DS records page, click <label>Add DS record</label>.
+1.  Enter the DS record information. The Flags and Protocol form fields will be pre-filled with the appropriate values.
 
-2.  Enter the DS record information. The Flags and Protocol fields are pre-filled with the appropriate fixed values.
-
-    ![](/files/ds-records-add-key-data.png)
+    ![Add DS Record with Key Data](/files/ds-records-add-key-data.png)
 
     - _Algorithm_: the algorithm used to generate the signature.
 
@@ -73,7 +71,7 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
     Once you're ready, click <label>Add DS Record</label> to create the record.
 
-3.  The record is created and visible in the record list.
+2.  The record is created and visible in the record list.
 
 </div>
 
@@ -84,9 +82,11 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
 1.  In the DS records page, search for the record and click on the _trash_ icon to delete it.
 
-    ![](/files/ds-records-delete.png)
+    ![Delete DS Record](/files/ds-records-delete.png)
 
 2.  Confirm the dialog to delete the record.
+
+    ![](/files/ds-records-delete-confirmation.png)
 
 3.  The record is deleted and no longer visible in the record list.
 </div>
