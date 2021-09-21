@@ -26,7 +26,7 @@ DNSSEC provides a way to cryptographically build a chain of trust from the root 
 We support DNSSEC in the following ways:
 
 - If your domain is registered through DNSimple, and you're using our authoritative name servers, you can sign zones, and provision and rotation of your DS record is handled automatically.
-- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can manage the DS records for DNSSEC-enabled zones.
+- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can [manage the DS records](/articles/manage-ds-record/) for DNSSEC-enabled zones.
 - If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you can sign zones in our name servers, but you're required to provision and rotate DS records by yourself.
 
 ## Managing DNSSEC
@@ -66,6 +66,10 @@ To disable DNSSEC, go to the DNSSEC tab for the domain, and find the "Disable DN
 Click on the "Disable DNSSEC" button to remove the zone signing and the DS record if it is present.
 
 ![DNSSEC disable](/files/dnssec-disable.png)
+
+## Managing DS records
+
+Details on how to add and remove DS records can be found in this [support article](/articles/manage-ds-record/).
 
 ## Key rotation
 
@@ -118,4 +122,4 @@ You can also [contact DNSimple support](https://dnsimple.com/contact) with addit
 
 When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
 
-To fix this issue, remove the DS record from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.

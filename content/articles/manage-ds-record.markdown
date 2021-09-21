@@ -2,6 +2,7 @@
 title: Managing DS Records
 excerpt: Instructions to add and remove an DS record in DNSimple.
 categories:
+- DNS
 - DNSSEC
 ---
 
