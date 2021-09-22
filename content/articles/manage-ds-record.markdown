@@ -17,13 +17,13 @@ categories:
 
 ## Locating the DS records page
 
-To view and manage the delegation signer (DS) records for a domain, click on the DNSSEC tab on a domain's management page, then click on the <label>Manage</label> link in the DS Records section, to access the DS Records page.
+To view and manage the delegation signer (DS) records for a domain, click on the DNSSEC tab on a domain's management page, then click on the <label>Manage</label> link in the DS Records section.
 
 ![Manage DS Records link](/files/ds-records-manage.png)
 
 ## Listing DS records
 
-On the DS Records page, you will be able to see a list of the DS records currently configured for the domain.
+On the DS Records page, you will be able to see a list of the DS records currently provisioned for the domain.
 
 ![List DS Records](/files/ds-records-list.png)
 
@@ -33,7 +33,7 @@ On the DS records page, click <label>Add DS record</label>.
 
 ![Add DS Record](/files/ds-records-add-ds-record.png)
 
-The Add DS Record page will load. The form fields shown on the Add DS record page will differ based on whether the TLD of the domain supports the DS-Data interface or the KEY-Data interface.
+The Add DS Record page will load. The form fields shown on the Add DS record page will differ based on whether the TLD of the domain requires them to be set up with the DS-Data interface or the KEY-Data interface.
 
 <div class="section-steps" markdown="1">
 
