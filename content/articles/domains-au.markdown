@@ -81,6 +81,15 @@ If the domain name is not redeemed within 31 days, it will be removed from our s
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type* or *Eligibility ID number*.
 
-There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration.
+There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration from the date where the change is completed.
 
 If you want to make this change, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+
+### Inactive or deregistered ABN/ACN
+
+In the instance your domain has an inactive, deregistered, or cancelled ABN/ACN/TN, the registry requires the following additional forms:
+
+- [Statutory Declaration](/files/victoria-stat-dec-template.doc)
+- [Transfer of Domain Name Chain of Title Form](/files/transfer-of-domain-name-chain-of-title.docx)
+
+Please complete them to the best of your abilities — if there are any concerns, please [contact the registry directly](https://www.auda.org.au/au-domain-names/general-enquiry-form).
