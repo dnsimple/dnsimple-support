@@ -138,6 +138,8 @@ To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [
 1. Click <label>Request Transfer Out</label>.
 
     This will unlock the domain and submit the request to the registry within 24 hours.
+
+1. You may need to let the gaining registrar know about the transfer so that they accept it.
 </div>
 
 ## Change of Registrant
