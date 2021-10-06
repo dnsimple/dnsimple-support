@@ -92,4 +92,4 @@ In the instance your domain has an inactive, deregistered, or cancelled ABN/ACN/
 - [Statutory Declaration](/files/victoria-stat-dec-template.doc)
 - [Transfer of Domain Name Chain of Title Form](/files/transfer-of-domain-name-chain-of-title.docx)
 
-Please complete them to the best of your abilities — if there are any concerns, please [contact the registry directly](https://www.auda.org.au/au-domain-names/general-enquiry-form).
+Please complete them to the best of your abilities — if you have any concerns, please [contact the registry directly](https://www.auda.org.au/au-domain-names/general-enquiry-form).
