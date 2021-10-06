@@ -81,7 +81,7 @@ If the domain name is not redeemed within 31 days, it will be removed from our s
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type* or *Eligibility ID number*.
 
-There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration from the date where the change is completed.
+There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration, effective from the date the change is completed.
 
 If you want to make this change, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
