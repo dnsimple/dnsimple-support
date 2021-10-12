@@ -122,6 +122,26 @@ You can now decide to [point the domain to DNSimple name servers](/articles/dele
 
 To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [instructions to transfer in](#transfer), but you will need to get the IPS tag of the gaining registrar.
 
+<div class="section-steps" markdown="1">
+#### Initiating the transfer
+
+1.  Go to the registration section and click <label>Transfer Out</label>.
+
+    ![Transfer out link](/files/domain-transfer-out-action.png)
+
+#### Approving the transfer
+
+1. Enter the IPS tag of the gaining registrar. **This is case-sensitive, so make sure the IPS TAG is in all capital letters.**
+
+    ![IPS Tag](/files/uk-domain-transfer-out-ips-tag.png)
+
+1. Click <label>Request Transfer Out</label>.
+
+    This will unlock the domain and submit the request to the registry within 24 hours.
+
+1. You may need to let the gaining registrar know about the transfer so that they accept it.
+</div>
+
 ## Change of Registrant
 
 Any contact change that results in a change of registrant must be executed directly at Nominet, the .UK registry. A change of registrant occurs when you are modifying the *Organization Name* for organizations or *First/Last Name* for individuals.
