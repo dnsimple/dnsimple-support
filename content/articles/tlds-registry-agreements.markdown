@@ -111,6 +111,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .events | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .exchange | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .expert | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .exposed | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .fail | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .family | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .fans | [http://nic.fans/en/h-col-104.html](http://nic.fans/en/h-col-104.html) |
