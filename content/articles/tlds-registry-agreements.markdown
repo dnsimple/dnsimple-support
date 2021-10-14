@@ -162,6 +162,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .io | [https://www.nic.io/policy.htm](https://www.nic.io/policy.htm) |
 | .it | [https://www.nic.it/en/manage-your-it/legal](https://www.nic.it/en/manage-your-it/legal) |
 | .jp | [https://jprs.co.jp/en/jpdomain.html](https://jprs.co.jp/en/jpdomain.html) |
+| .jewelry | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/)
 | .kitchen | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .kiwi | [https://hello.kiwi/policies](https://hello.kiwi/policies) |
 | .la | [https://www.la/policies](https://www.la/policies) |
