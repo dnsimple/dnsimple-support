@@ -92,6 +92,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .de | [https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/](https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/) |
 | .deals | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .dev | [https://www.registry.google/policies/registration/dev/#!/](https://www.registry.google/policies/registration/dev/#!/) |
+| .diamonds | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/)
 | .digital | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .direct | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .directory | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
