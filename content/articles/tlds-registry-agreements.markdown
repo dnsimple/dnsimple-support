@@ -245,6 +245,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .social | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .software | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .solutions | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .spa | | [https://www.nic.spa/doc/REGISTRATION%20POLICY.pdf](https://www.nic.spa/doc/REGISTRATION%20POLICY.pdf) |
 | .space | [https://radix.website/policies](https://radix.website/policies) |
 | .store | [https://radix.website/policies](https://radix.website/policies) |
 | .studio | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
