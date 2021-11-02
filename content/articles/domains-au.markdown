@@ -87,11 +87,11 @@ If you want to make this change, [contact us](https://dnsimple.com/contact), and
 
 ### Inactive or deregistered eligibility ID type
 
-In the instance your domain has an inactive or cancelled ABN/ACN, the registrant must reactivate the existing eligibility ID type number on record before the registration may be transferred or renewed.
+If your domain has an inactive or cancelled ABN/ACN, the registrant must reactivate the existing eligibility ID type number on record before the registration can be transferred or renewed.
 
-Where an Australian trademark number is no longer valid, the registration must provide alternative business information — either an ABN/ACN or a new trademark number — in order to maintain their eligibility to retain the registration.
+Where an Australian trademark number is no longer valid, the registration must provide alternative business information — either an ABN/ACN or a new trademark number — to maintain their eligibility to retain the registration.
 
-In the instance your domain has a deregistered ABN/ACN (where the legal entity has been reregistered or is deceased), the registry requires the following additional forms:
+If your domain has a deregistered ABN/ACN (where the legal entity has been reregistered or is deceased), the registry requires the following additional forms:
 
 - [Statutory Declaration](/files/victoria-stat-dec-template.doc)
 - [Transfer of Domain Name Chain of Title Form](/files/transfer-of-domain-name-chain-of-title.docx)
