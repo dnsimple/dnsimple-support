@@ -27,7 +27,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 1.  Log into DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
 
     ![Domain Page link](/files/domains-domain-link.png)
 
@@ -35,18 +35,18 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Domain Delegation card](/files/domain-delegation-card.png)
 
-1.  Enter the names of the name servers you would like to use and click <label>Change Name Servers</label> to complete the change.
+1.  Enter the names of the name servers you want to use, and click <label>Change Name Servers</label> to complete the change.
 
     ![Complete name server change](/files/complete-name-server-change.png)
 
 </div>
 
 <info>
-While this will change the NS records on your domain, our listing of records will continue to display the records our name servers would respond with, thus it will still show our NS records.
+While this will change the NS records on your domain, our listing of records will continue to display the records our name servers would respond with, so it will still show our NS records.
 </info>
 
 ## Pointing the name servers to DNSimple
 
 Pointing the name servers to DNSimple provider will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-To change the name servers to DNSimple you can follow the steps in the previous section and use the DNSimple domains. However, we provide a more convenient one-click feature to [switch a DNSimple registered to DNSimple name servers](/articles/delegating-dnsimple-registered).
+To change the name servers to DNSimple, follow the steps in the previous section, and use the [DNSimple name servers](/articles/dnsimple-nameservers).
