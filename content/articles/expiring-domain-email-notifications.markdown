@@ -13,7 +13,7 @@ You will receive an email similar to the following, up to three times:
 
 ![ICANN Domain Expiration Email](/files/icann-domain-expiration-email.png)
 
-This email will be sent from the addresses `<donotreply@name-services.com>`.
+This email will be sent from the address `<donotreply@name-services.com>`.
 
 If your [domain is set to auto-renew](/articles/domain-auto-renewal) you can safely disregard the notification.
 
