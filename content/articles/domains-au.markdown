@@ -89,9 +89,12 @@ If you want to make this change, [contact us](https://dnsimple.com/contact), and
 
 If your domain has an inactive or cancelled ABN/ACN, the registrant must reactivate the existing eligibility ID type number on record before the registration can be transferred or renewed.
 
+- [ABR: Cancel/re-apply for an ABN](https://www.abr.business.gov.au/ContactUs/Activate)
+- [ASIC: Reinstating a deregistered company](https://asic.gov.au/for-business/closing-your-company/reinstating-a-deregistered-company/)
+
 Where an Australian trademark number is no longer valid, the registration must provide alternative business information — either an ABN/ACN or a new trademark number — to maintain their eligibility to retain the registration.
 
-If your domain has a deregistered ABN/ACN (where the legal entity has been reregistered or is deceased), the registry requires the following additional forms:
+If your domain has a deregistered ABN/ACN (where the legal entity has been deregistered or is deceased), the registry requires the following additional forms:
 
 - [Statutory Declaration](/files/victoria-stat-dec-template.doc)
 - [Transfer of Domain Name Chain of Title Form](/files/transfer-of-domain-name-chain-of-title.docx)
