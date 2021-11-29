@@ -11,7 +11,7 @@ categories:
 ### Table of Contents {#toc}
 
 * TOC
-  {:toc}
+{:toc}
 
 ---
 
