@@ -15,7 +15,7 @@ categories:
 
 ---
 
-[Terraform](https://terraform.io) is an infrastructure as code (IoC) tool that allows you to build, change, and version
+[Terraform](https://terraform.io) is an Infrastructure as Code (IoC) tool that allows you to build, change, and version
 infrastructure safely and efficiently. With [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest),
 you can easily manage your DNS infrastructure and set up the required DNS records.
 
@@ -36,14 +36,14 @@ The DNSimple API v2 token must be provided in the token part of the provider's c
 Token. We recommend using the Account token. You can read our 
 [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token. 
 
-The **account** argument is the ID of the account associated with the token. For more information on obtaining your 
+The **account** argument is the account ID associated with the token. For more information on obtaining your 
 account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our 
 [developer documentation](http://developer.dnsimple.com).
 
 The **sandbox** argument tells the provider to use the sandbox environment. The token and account ID will vary 
 between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your 
-configuration dialed in before using it in the actual production environment. To learn more about the sandbox 
-environment, please refer to [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
+configuration dialed in before using it in the actual production environment. To learn more about our sandbox 
+environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
 
 The **prefetch** argument tells the provider if it should prefetch *ZoneRecords* when reading them. This is important when 
 you manage many domains, because you might risk reaching your rate limits for API usage. Only the token and account arguments are required.
