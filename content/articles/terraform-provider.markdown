@@ -39,10 +39,7 @@ The **account** argument is the account ID associated with the token. For more i
 account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our 
 [developer documentation](http://developer.dnsimple.com).
 
-The **sandbox** argument tells the provider to use the sandbox environment. The token and account ID will vary 
-between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your 
-configuration dialed in before using it in the actual production environment. To learn more about our sandbox 
-environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
+The **sandbox** argument tells the provider to use the sandbox environment. The token and account ID will vary between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your configuration dialed in before using it in the actual production environment. To learn more about our sandbox environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
 
 The **prefetch** argument tells the provider if it should prefetch *ZoneRecords* when reading them. This is important when 
 you manage many domains, because you might risk reaching your rate limits for API usage. Only the token and account arguments are required.
