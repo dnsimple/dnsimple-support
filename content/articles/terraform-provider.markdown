@@ -2,7 +2,6 @@
 title: Terraform Provider
 excerpt: How to use DNSimple's Terraform provider to manage your DNS
 categories:
-- Services
 - Terraform and DNSimple
 ---
 
