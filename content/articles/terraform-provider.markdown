@@ -20,7 +20,7 @@ you can easily manage your DNS infrastructure and set up the required DNS record
 
 ## Configuring the DNSimple provider
 
-```
+```ruby
 provider "dnsimple" {
     token    = "${var.dnsimple_token}"
     account  = "${var.dnsimple_account}"
@@ -46,7 +46,7 @@ you manage many domains, because you might risk reaching your rate limits for AP
 
 ## Creating a Domain
 
-```
+```ruby
 resource "dnsimple_domain" "dnsimple" {
     name = "dnsimple.com"
 }
@@ -58,7 +58,7 @@ domain is created for you.
 
 ## Email Forwards
 
-```
+```ruby
 resource "dnsimple_email_forward" "hello" {
     domain              = "https://example.com"
     alias_name          = "hello"
@@ -72,7 +72,7 @@ information about email forwards.
 
 ## Setting up a Let's Encrypt Certificate
 
-```
+```ruby
 resource "dnsimple_lets_encrypt_certificate" "my-certificate" {
     domain_id = "http://example.com"
     contact_id = "The contact id (found in your dnsimple admin)"
@@ -86,7 +86,7 @@ We'll take care of the rest. For more information, take a look at our [SSL Certi
 
 You can also use the *dnsimple_certificate* data source to download a certificate:
 
-```
+```ruby
 data "dnsimple_certificate" "my-certificate" {
     domain         = "http://exmple.com"
     certificate_id = "The contact id (found in your dnsimple admin)"
@@ -95,7 +95,7 @@ data "dnsimple_certificate" "my-certificate" {
 
 ## Setting up a zone record
 
-```
+```ruby
 resource "dnsimple_zone_record" "mailserver" {
     zone_name = "https://example.com"
     name = "mailserver"
