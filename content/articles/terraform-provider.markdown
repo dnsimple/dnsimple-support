@@ -108,13 +108,13 @@ resource "dnsimple_zone_record" "mailserver" {
 
 When setting up a record (an MX (mail exchange) record in this example), provide the following information:
 
-    –	The zone name this record is for
-    –	A name (for your own records)
-    –	The value of the record (for the MX record in the example, this is the address to the mail server.)
-    –	The type of record (MX in the example) – see [Supported Record Types](https://support.dnsimple.com/articles/supported-dns-records/) for a comprehensive list of the records we support.
-    –	The time to live (TTL) of the record
-    –	The priority
-    
-   
+- The zone name this record is for
+- A name (for your own records)
+- The value of the record (for the MX record in the example, this is the address to the mail server.)
+- The type of record (MX in the example) – see [Supported Record Types](https://support.dnsimple.com/articles/supported-dns-records/) for a comprehensive list of the records we support.
+- The time to live (TTL) of the record
+- The priority
+
 ## Ready to go
+
 You're now ready to get started with [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest). As always, if you have more questions, [get in touch](https://dnsimple.com/contact) - we're always happy to help. 
