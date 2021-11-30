@@ -115,6 +115,6 @@ When setting up a record (an MX (mail exchange) record in this example), provide
     –	The time to live (TTL) of the record
     –	The priority
     
- ## Ready to go
    
+## Ready to go
 You're now ready to get started with [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest). As always, if you have more questions, [get in touch](https://dnsimple.com/contact) - we're always happy to help. 
