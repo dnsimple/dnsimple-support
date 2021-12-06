@@ -31,18 +31,13 @@ provider "dnsimple" {
 
 To start using DNSimple's Terraform Provider, you'll have to configure it.
 
-The DNSimple API v2 token must be provided in the token part of the provider's configuration. You can use either a User or an Account 
-Token. We recommend using the Account token. You can read our 
-[API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token. 
+The DNSimple API v2 token must be provided in the token part of the provider's configuration. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token.
 
-The **account** argument is the account ID associated with the token. For more information on obtaining your 
-account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our 
-[developer documentation](http://developer.dnsimple.com).
+The **account** argument is the account ID associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](http://developer.dnsimple.com).
 
 The **sandbox** argument tells the provider to use the sandbox environment. The token and account ID will vary between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your configuration dialed in before using it in the actual production environment. To learn more about our sandbox environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
 
-The **prefetch** argument tells the provider if it should prefetch *ZoneRecords* when reading them. This is important when 
-you manage many domains, because you might risk reaching your rate limits for API usage. Only the token and account arguments are required.
+The **prefetch** argument tells the provider if it should prefetch *ZoneRecords* when reading them. This is important when you manage many domains, because you might risk reaching your rate limits for API usage. Only the token and account arguments are required.
 
 ## Creating a Domain
 
@@ -52,9 +47,7 @@ resource "dnsimple_domain" "dnsimple" {
 }
 ```
 
-To create a domain, you'll have to use the *dnsimple_domain* resource. After naming the resource and adding the domain
-name (using the name attribute), you're ready to go. Running the "terraform apply" command will make sure the 
-domain is created for you.
+To create a domain, you'll have to use the *dnsimple_domain* resource. After naming the resource and adding the domain name (using the name attribute), you're ready to go. Running the "terraform apply" command will make sure the domain is created for you.
 
 ## Email Forwards
 
@@ -66,9 +59,7 @@ resource "dnsimple_email_forward" "hello" {
 }
 ```
 
-To create an email forward, you'll need to provide the destination email for the domain for which you want to set up the email 
-forward. Our [Email Forwarding](https://support.dnsimple.com/articles/email-forwarding/) support article has more 
-information about email forwards.
+To create an email forward, you'll need to provide the destination email for the domain for which you want to set up the email forward. Our [Email Forwarding](https://support.dnsimple.com/articles/email-forwarding/) support article has more information about email forwards.
 
 ## Setting up a Let's Encrypt Certificate
 
@@ -81,8 +72,7 @@ resource "dnsimple_lets_encrypt_certificate" "my-certificate" {
 }
 ```
 
-To add a certificate to your domain, decide which domain the certificate is going to be for, and provide a contact for the certificate. 
-We'll take care of the rest. For more information, take a look at our [SSL Certificates Section](https://support.dnsimple.com/categories/ssl-certificates/).
+To add a certificate to your domain, decide which domain the certificate is going to be for, and provide a contact for the certificate. We'll take care of the rest. For more information, take a look at our [SSL Certificates Section](https://support.dnsimple.com/categories/ssl-certificates/).
 
 You can also use the *dnsimple_certificate* data source to download a certificate:
 
