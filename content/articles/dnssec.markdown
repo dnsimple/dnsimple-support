@@ -69,7 +69,8 @@ Click on the "Disable DNSSEC" button to remove the zone signing and the DS recor
 
 ## Managing DS records
 
-Details on how to add and remove DS records can be found in this [support article](/articles/manage-ds-record/).
+Depending on whether the TLD of the domain requires the DS records to be set up with the DS-Data interface or the KEY-Data interface you will be able to manage your
+records. For more details on how to add and remove DS records can be found in this [support article](/articles/manage-ds-record/).
 
 ## Key rotation
 
