@@ -38,7 +38,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. 
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you are subscribed to an [eligible plan](/articles/domain-access-control), you will be able to select the member's fine-grained permissions.
 
     ![Add a new member form](/files/add-member-screen.png)
 
@@ -66,3 +66,7 @@ It's not possible to add a user whose email address is the same as the account. 
 1. Once you've removed them from the account, that user should no longer show up on the members tab.
 
 </div>
+
+## Managing member access
+
+To share specific domains with each member, have a look at our [Domain Access Control](/articles/domain-access-control) feature.
