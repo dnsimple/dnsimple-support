@@ -38,7 +38,7 @@ All members will also have full-admin access to the account, including the abili
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you are subscribed to an [eligible plan](/articles/domain-access-control), you will be able to select the member's fine-grained permissions.
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/domain-access-control), you can select the member's fine-grained permissions.
 
     ![Add a new member form](/files/add-member-screen.png)
 
