@@ -33,7 +33,7 @@ Any team member may be granted "Full Access". This gives them access to all reso
 
 ### Limited Access
 
-A team member can be granted to specific domains by first setting their permission to "Limited Access". From there, you will be able to see a list of your account's domains, along with a control for selecting the role for the member on the domain. You can also enter part of a domain name and you will see only domains matching that search part, or you can enter a role name and you will see the domains where the team member has that role.
+A team member can be granted to specific domains by first setting their permission to "Limited Access". From there, you will be able to see a list of your account's domains, along with a control for setting them as a [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) for each domain in the account. You can also enter part of a domain name and you will see only domains matching that search part, or you can enter a role name and you will see the domains where the team member has that role.
 
 []
 
