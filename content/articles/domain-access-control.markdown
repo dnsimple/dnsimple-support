@@ -25,17 +25,19 @@ With the Domain Access Control feature, you can set the level of access for each
 
 To set a team member's role for multiple domains at once, you can go to the Account > Members page. From there, click on the Manage Access button to configure the team member's access. You'll have the option to give the team member [Full Access](#full-access) or [Limited Access](#limited-access). 
 
+![Account Member's Page](/files/domain-access-control-members-page.png)
+
 ### Full Access
 
 Any team member may be granted "Full Access". This gives them access to all resources inside an account including all domains, contacts, certificates, templates and billing.
 
-[]
+![Full Access](/files/domain-access-control-full-access.png)
 
 ### Limited Access
 
 A team member can be granted to specific domains by first setting their permission to "Limited Access". From there, you will be able to see a list of your account's domains, along with a control for setting them as a [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) for each domain in the account. You can also enter part of a domain name and you will see only domains matching that search part, or you can enter a role name and you will see the domains where the team member has that role.
 
-[]
+![Limited Access](/files/domain-access-control-limited-access.png)
 
 <info>
 If you specify "Limited Access" when inviting a team member, then the new team member will see the account, but will have not be able to access any domains until to you grant permission.
@@ -45,13 +47,15 @@ If you specify "Limited Access" when inviting a team member, then the new team m
 
 You can set up the Domain Access Control feature for any individual domain by going to the Example.com > Members page. There, you will see a list of all team members along with their current role and be able to update their access.
 
+![Domain's Member Page](/files/domain-access-control-domain-page.png)
+
 ### Domain Manager
 
 Domain Managers may access all functionality under a specific domain. In addition to managing the zone, Domain Managers may change registration details for a domain, including the domain's registrant and the name servers for the domain, create new certificates, and perform all of the other operations on a domain where access is permitted.
 
 A team member with the Domain Manager role can also disable DNS service for the domain completely and can set up Vanity Name Servers, if that feature is available on your account.
 
-[]
+![Domain Manager](/files/domain-access-control-domain-manager.png)
 
 ### Zone Operator
 
@@ -59,7 +63,7 @@ Team members with the Operator role for a domain may only access the DNS zone fo
 
 Team members with the Zone Operator role on a domain will be able to view and change one-click services used for a zone and can add or remove DNS records for the domain's zone. They can also import and export zone records for the zone.
 
-[]
+![Zone Operator](/files/domain-access-control-zone-operator.png)
 
 ## API Access
 
