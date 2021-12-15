@@ -7,6 +7,10 @@ categories:
 
 # Sharing Domain Management with Other Users
 
+<info>
+If you're looking for a fine-grained access setup for domains, check out [Domain Access Control](/articles/domain-access-control).
+</info>
+
 In DNSimple, you can share a domain with other users so they can manage it. That way, if you have a large organization, you can share access to the domains with one or more users.
 
 You can share DNS management responsibilities with others, but you can't give them privileges to add or modify domain registrations, transfers, or SSL certificates.
