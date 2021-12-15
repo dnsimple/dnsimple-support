@@ -13,6 +13,10 @@ As a DNSimple customer, you might require features that aren't available on your
 When you change your plan, you'll receive a prorated discount corresponding to the remaining days in your current subscription plan. This discount doesn't consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change.
 </info>
 
+<warning>
+When changing from a yearly plan to a monthly plan, you'll receive a [credit to your DNSimple account balance](/articles//account-subscription-balance).
+</warning>
+
 <div class="section-steps" markdown="1">
 ##### Changing your subscription plan
 
