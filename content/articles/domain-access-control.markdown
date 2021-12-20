@@ -24,7 +24,7 @@ With the Domain Access Control feature, you can set the level of access for each
 ## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/GlC2uvevIlc" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe src="https://www.youtube.com/embed/GlC2uvevIlc?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
 ## Setting access for a team member
