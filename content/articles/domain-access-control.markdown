@@ -15,11 +15,17 @@ categories:
 
 ---
 
+With the Domain Access Control feature, you can set the level of access for each team member in your account.
+
 <info>
 **Domain Access Control** is only available on [eligible plans](https://dnsimple.com/pricing).
 </info>
 
-With the Domain Access Control feature, you can set the level of access for each team member in your account.
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/GlC2uvevIlc" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
 
 ## Setting access for a team member
 
