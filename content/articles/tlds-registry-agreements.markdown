@@ -61,6 +61,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .care | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .careers | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .cash | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .catering | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .cc | [https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration](https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration) |
 | .center | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .ceo | [https://claim.ceo/terms/overview](https://claim.ceo/terms/overview) |
@@ -91,12 +92,16 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .date | [http://nic.date/resources.html](http://nic.date/resources.html) |
 | .de | [https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/](https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/) |
 | .deals | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .delivery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .dental | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .dentist | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .dev | [https://www.registry.google/policies/registration/dev/#!/](https://www.registry.google/policies/registration/dev/#!/) |
 | .diamonds | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/)
 | .digital | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .direct | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .directory | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
-| .dog | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .dentist | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .doctor | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .domains | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .earth | [https://domain.earth/legal/registration-terms-and-conditions/](https://domain.earth/legal/registration-terms-and-conditions/) |
 | .education | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
@@ -141,8 +146,10 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .guru | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .haus | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .health | [https://get.health/registration-policies](https://get.health/registration-policies) |
+| .healthcare | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .help | [https://uniregistry.link/registry-policies/](https://uniregistry.link/registry-policies/) |
 | .horse | [https://mmx.co/policies](https://mmx.co/policies) |
+| .hospital | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .host | [https://radix.website/policies](https://radix.website/policies) |
 | .hosting | [https://uniregistry.link/registry-policies/](https://uniregistry.link/registry-policies/) |
 | .house | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
@@ -226,10 +233,14 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .pro | [https://registry.pro/about/afilias-anti-abuse-policy](https://registry.pro/about/afilias-anti-abuse-policy) |
 | .pub | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .pw | [https://registry.pw/policies/](https://registry.pw/policies/) |
+| .recipes | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .rehab | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .report | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .rest | [https://www.register.rest/policies/](https://www.register.rest/policies/) |
+| .restaurant | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .review | [http://nic.review/resources.html](http://nic.review/resources.html) |
 | .reviews | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .rip | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .rocks | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .run | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .school | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
@@ -254,6 +265,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .studio | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .study | [http://nic.study/](http://nic.study/) |
 | .support | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .surgery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .sydney | []() |
 | .systems | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tc | [https://www.nic.tc/terms-and-conditions](https://www.nic.tc/terms-and-conditions) |
@@ -280,8 +292,10 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .uno | [https://radix.website/policies](https://radix.website/policies) |
 | .us | [https://www.about.us/policies](https://www.about.us/policies) |
 | .ventures | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .vet | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .vg | [https://nic.vg/terms.php](https://nic.vg/terms.php) |
 | .video | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .vin | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .vip | [https://mmx.co/policies](https://mmx.co/policies) |
 | .vision | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .vote | [https://get.vote/vote-anti-abuse-policy](https://get.vote/vote-anti-abuse-policy) |
@@ -290,6 +304,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .wedding | [https://mmx.co/policies](https://mmx.co/policies) |
 | .wiki | [https://toplevel.design/policy](https://toplevel.design/policy) |
 | .win | [http://nic.win/resources.html](http://nic.win/resources.html) |
+| .wine | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .work | [https://mmx.co/policies](https://mmx.co/policies) |
 | .works | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .world | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
