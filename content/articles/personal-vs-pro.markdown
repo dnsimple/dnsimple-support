@@ -48,7 +48,7 @@ This article describes the differences between the *Personal* plan and the *Prof
 
 **Personal:** No - Sharing login credentials is unprofessional and a security risk.
 
-**Professional:** Yes - You can invite others to help manage your domains. This also includes access to your full activity log, which provides 100% transparency into account and domain changes.
+**Professional:** Yes - You can invite others to help manage your domains. This also includes [fine-grained access setup for domains](/articles/domain-access-control), and access to your full activity log, which provides 100% transparency into account and domain changes.
 
 ## Am I covered by an SLA?
 
