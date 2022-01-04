@@ -112,6 +112,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .enterprises | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .equipment | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .es | [https://www.dominios.es/dominios/en/todo-lo-que-necesitas-saber/normativa](https://www.dominios.es/dominios/en/todo-lo-que-necesitas-saber/normativa) |
+| .estate | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .eu | [https://eurid.eu/en/other-infomation/document-repository/](https://eurid.eu/en/other-infomation/document-repository/) |
 | .events | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .exchange | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
