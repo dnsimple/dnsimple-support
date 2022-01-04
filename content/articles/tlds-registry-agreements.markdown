@@ -198,6 +198,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .menu | [http://nic.menu/#documents](http://nic.menu/#documents) |
 | .mobi | [https://dotmobi.mobi/about/afilias-anti-abuse-policy](https://dotmobi.mobi/about/afilias-anti-abuse-policy) |
 | .moe | [https://nic.moe/en/legal/](https://nic.moe/en/legal/) |
+| .money | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .ms | [http://nic.ms/ms-policies](http://nic.ms/ms-policies) |
 | .mx | [https://www.dominios.mx/mx-domain-name-general-policies/](https://www.dominios.mx/mx-domain-name-general-policies/) |
 | .name | [https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration](https://www.verisign.com/en_US/channel-resources/become-a-registrar/verisign-domain-registrar/index.xhtml?dmn=domain-registration) |
