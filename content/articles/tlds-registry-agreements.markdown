@@ -130,6 +130,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .fm | [https://get.fm/legal/terms-use/](https://get.fm/legal/terms-use/) |
 | .foundation | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .fr | [https://www.afnic.fr/en/resources/reference/registry-policies/](https://www.afnic.fr/en/resources/reference/registry-policies/) |
+| .fun | [https://radix.website/policies](https://radix.website/policies) |
 | .fund | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .fyi | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .gallery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
