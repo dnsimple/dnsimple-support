@@ -44,7 +44,7 @@ When changing from a yearly plan to a monthly plan, you'll receive a [credit to 
 When a plan change happens it may or may not be billed immediately:
 
 - If the plan change causes a [billing cycle](/articles/yearly-billing) change (monthly to yearly or yearly to monthly) it is billed immediately, updating the billing cycle.
-- If the plan change does _not_ change the billing cycle, it will be billed along the renewal of the plan, adhering to the existing billing cycle.
+- If the plan change does _not_ change the billing cycle, it will be billed along with the renewal of the plan, adhering to the existing billing cycle.
 </info>
 
 </div>
