@@ -69,11 +69,11 @@ When you change your plan, you'll receive a proration discount corresponding to 
 
 ### Difference between "Unused time" and "Remaining time"
 
-**Unused time** refers to the amount of time on the old plan that you paid for, but you are not going to use. **Remaining time** refers to the amount of time that you are going to be on the new plan until the next billing cycle starts.
+**Unused time** refers to the amount of time on the old plan that you paid for but aren't going to use. **Remaining time** refers to the amount of time that you're going to be on the new plan until the next billing cycle starts.
 
 Example:
 
-Your billing cycle starts on the 1st of the month. You are on the Personal monthly plan. On the 10th you switch to Professional:
+Your billing cycle starts on the 1st of the month. You're on the Personal monthly plan. On the 10th you switch to Professional:
 
 - You will be returned 20 days of unused time on the Personal plan.
 - You will be paying 20 days of remaining time on the Professional plan.
