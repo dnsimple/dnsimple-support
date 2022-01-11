@@ -10,11 +10,11 @@ categories:
 As a DNSimple customer, you might require features that aren't available on your current plan. This article discusses how to switch to the most appropriate subscription to meet your current needs.
 
 <info>
-When you change your plan, you'll receive a prorated discount corresponding to the remaining days in your current subscription plan. This discount doesn't consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change.
+When you change your plan, you'll receive a prorated discount corresponding to the remaining days in your current subscription plan. This discount doesn't consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
 </info>
 
 <warning>
-When changing from a yearly plan to a monthly plan, you'll receive a [credit to your DNSimple account balance](/articles//account-subscription-balance).
+When changing from a yearly plan to a monthly plan, you'll receive a [credit to your DNSimple account balance](/articles/account-subscription-balance).
 </warning>
 
 <div class="section-steps" markdown="1">
@@ -39,4 +39,12 @@ When changing from a yearly plan to a monthly plan, you'll receive a [credit to 
     ![Verify charges](/files/change-plan-3.png)
 
 1.  Once the change is complete, you'll receive the corresponding invoice.
+
+<info>
+When a plan change happens it may or may not be billed immediately:
+
+- If the plan change causes a [billing cycle](/articles/yearly-billing) change (monthly to yearly or yearly to monthly) it is billed immediately, updating the billing cycle.
+- If the plan change does _not_ change the billing cycle, it will be billed along the renewal of the plan, adhering to the existing billing cycle.
+</info>
+
 </div>
