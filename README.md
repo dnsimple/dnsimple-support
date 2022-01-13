@@ -44,3 +44,7 @@ Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc 
 When submitting a pull request, apply the label `articles` and set yourself as assignee. Select `@SarahCaminiti1` and `@deandre` for review and, if your PR makes more substantive changes to copy, select `@itsalyse` as well for copy editing.
 
 Once all approvals are given and the pipeline is green, merge the PR yourself and delete the source branch.
+
+### Support writing guidelines
+
+Reference our support writing guidelines, [here](https://support.dnsimple.com/articles/writing-guide/).
