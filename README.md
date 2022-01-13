@@ -37,3 +37,10 @@ Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc 
 You can edit the order in which the articles appear in a category page by editing the file `priorities/articles.yaml`
 
 Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes.
+
+
+## Contributing
+
+When submitting a pull request, apply the label `articles` and set yourself as assignee. Select `@SarahCaminiti1` and `@deandre` for review and, if your PR makes more substantive changes to copy, select `@itsalyse` as well for copy editing.
+
+Once all approvals are given and the pipeline is green, merge the PR yourself and delete the source branch.
