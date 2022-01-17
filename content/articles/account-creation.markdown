@@ -16,12 +16,12 @@ categories:
 
 ## New user
 
-To sign up, go to the [DNSimple website](https://dnsimple.com) and click <label>Sign up</label> or <label>Create an account now</label>. Fill in your details, and select <label>Join DNSimple</label>.
+To sign up, go to the [DNSimple website](https://dnsimple.com) and click <label>[Get Started](https://dnsimple.com/signup)</label> or <label>[Try free for 30 days](https://dnsimple.com/signup)</label>. Fill in your details, and select <label>Join DNSimple</label>.
 
-That's it! You're now a DNSimple user with one account. 
+That's it! You're now a DNSimple user with one account.
 
 Feel free to explore and see how to manage domains without activating your account.
-Provide payment details to activate your account and start registering domains and adding records. 
+Provide payment details to activate your account and start registering domains and adding records.
 
 ## Adding additional accounts
 
