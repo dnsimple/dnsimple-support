@@ -1,6 +1,6 @@
 ---
 title: DNSimple Name Servers
-excerpt: How to change your domain's name servers to DNSimple's name servers. 
+excerpt: How to change your domain's name servers to DNSimple's name servers.
 categories:
 - Name Servers
 ---
@@ -18,7 +18,7 @@ The DNSimple name servers are:
 
 If you registered your domain with DNSimple, your name servers will already be set to the DNSimple name servers. There's nothing else you need to do.
 
-If you transferred your domain into DNSimple from another registrar, and you're ready for us to start providing your DNS, you need to change your name severs to DNSimple. To do this, go to your domain page, and click <label>Switch to DNSimple Name Servers</label>. 
+If you transferred your domain into DNSimple from another registrar, and you're ready for us to start providing your DNS, you need to [change your name severs to DNSimple](/articles/delegating-dnsimple-registered/). 
 
 <note>
 We do not automatically change your name servers to ours during the transfer process.
