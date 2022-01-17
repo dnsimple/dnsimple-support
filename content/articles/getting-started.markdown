@@ -28,7 +28,7 @@ categories:
 - [Add a domain](/articles/adding-domain/)
   - [Register a domain](/articles/registering-domain/)
   - [Transfer a domain](/articles/transferring-domain/)
-    - [No downtime transfers](/articles/transferring-domain/)
+    - [No downtime transfers](https://dnsimple.com/how-to-transfer-without-downtime/)
   - [Host a domain](/articles/delegating-dnsimple-hosted/)
 - [Configure DNS records](/articles/supported-dns-records/)
   - [Connect to common services with one click](/articles/services/)
