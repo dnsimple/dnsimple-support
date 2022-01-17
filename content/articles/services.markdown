@@ -78,7 +78,7 @@ We currently support more than 30 services:
 * [Tender support](/articles/tender-service)
 
 <info>
-The service directory is open-source. [Learn how to propose or contribute new services](/articles/contributing-services).
+The service directory is open-source. [Learn how to propose or contribute new services](/articles/services/#contributing-a-new-service).
 </info>
 
 
