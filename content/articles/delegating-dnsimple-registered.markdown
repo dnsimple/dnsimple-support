@@ -20,7 +20,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
 1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
-    ![Domain Delegation card](/files/domain-delegation-card.png)
+    ![Domain Delegation card](/files/domain-delegation-card-2.png)
 
 1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers) then click <label>Change name servers</label>:
   - ns1.dnsimple.com
