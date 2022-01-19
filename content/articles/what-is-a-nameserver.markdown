@@ -29,6 +29,6 @@ If you transfer your domain to DNSimple to manage your DNS, you'll need to updat
 #### Check your name servers
 
 Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
-t
+
 If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.
 </note>
