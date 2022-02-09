@@ -5,6 +5,6 @@ categories:
 - API
 ---
 
-# API Documentation
+# API Rate Limit
 
 You can find more information about our API rate limit in our [Developer Documentation](https://developer.dnsimple.com/v2/#rate-limiting).
