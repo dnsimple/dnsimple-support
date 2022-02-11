@@ -18,6 +18,12 @@ categories:
 infrastructure safely and efficiently. With [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest),
 you can easily manage your DNS infrastructure and set up the required DNS records.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/cTWP1MWA-0c" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Configuring the DNSimple provider
 
 ```ruby
