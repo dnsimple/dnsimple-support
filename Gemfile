@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'nanoc', '~> 4.12'
+gem 'ddmemoize'
+gem 'puma'
 gem 'builder'
 gem 'kramdown'
 gem 'kramdown-parser-gfm'

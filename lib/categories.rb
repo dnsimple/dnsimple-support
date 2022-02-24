@@ -1,3 +1,4 @@
+require 'ddmemoize'
 include Nanoc::Helpers::LinkTo
 
 module Categories
