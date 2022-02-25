@@ -11,9 +11,9 @@ categories:
 There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate) before continuing with this document.
 </note>
 
-All standard DNSimple SSL certificates, including renewals, are valid for at least one year from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
+All standard DNSimple SSL certificates, including renewals, are valid for one year (397 days maximum) from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
 
-If a certificate is renewed within 60 days from the expiration date, the expiration date of the renewed certificate will be calculated from the expiration of the existing certificate. Therefore, you will not lose any paid days from the previous certificate.
+If a certificate is renewed within 60 days from the expiration date, the expiration date of the renewed certificate will be 12 months plus the remaining days left from the original certificate, subject to a 397 day maximum.
 
 We encourage you to plan the renewal of your certificate to occur at least one week before the expiration, to avoid downtime or issues caused by possible renewal delays.
 
