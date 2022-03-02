@@ -27,7 +27,7 @@ Renewal years are always added to the end of the current registration period (i.
 
 #### Transferring away expired domain
 
-ICANN’s rules and regulations permit expired domains to be transferred to another registrar, provided the domain is still in its [grace period](#grace-period). Transfers must complete before the domain falls into its [redemption period](#redemption-period).
+ICANN's rules and regulations permit expired domains to be transferred to another registrar, provided the domain is still in its [grace period](#grace-period). Transfers must complete before the domain falls into its [redemption period](#redemption-period).
 
 If you need to transfer an expired domain away, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact), and we'll help you through the process.
 
