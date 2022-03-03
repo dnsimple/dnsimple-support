@@ -21,7 +21,7 @@ Certain domain names are [auto-renew only](/articles/domain-auto-renewal) and ca
 
 After a domain expires, it enters a grace period. In this period, the domain is disabled but it's still possible to renew it from the DNSimple account at no extra cost.
 
-Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most TLDs. There is no guaranteed grace period. Once a domain expires, our registar partners may dispose of it at any time according to the registration agreement. After the grace period elapses, the domain may go into a redemption grace period.
+Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most TLDs. There is no guaranteed grace period. Once a domain expires, our registrar partners may dispose of it at any time according to the registration agreement. After the grace period elapses, the domain may go into a redemption grace period.
 
 Renewal years are always added to the end of the current registration period (i.e., the new expiration date is the same whether you renew two months early or the day before expiration), so you will never lose time on your domain by renewing early.
 
