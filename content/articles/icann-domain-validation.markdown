@@ -51,7 +51,7 @@ _or_
 - NS2.REGISTRANT-VERIFICATION.ISPAPI.NET
 - NS3.REGISTRANT-VERIFICATION.ISPAPI.NET
 
-Additionally, when visiting your web site, a message will appear instead indicating that your domain is suspended:
+Additionally, a message will appear on your website indicating that your domain is suspended:
 
 ![ICANN Verification Web](/files/icann-verification-web.png)
 
@@ -65,6 +65,6 @@ If your domain was suspended, it may take between 24 to 48 hours for the suspens
 
 ## What happens if the registrant email address cannot receive email?
 
-You must be able to receive an email at the registrant email address to complete the verification process. You may set up the email address with an email provider or you may use our email forwarding service. If you set up the email address after registration or changing your registrant details then you may need to resend the verification email. Please contact support@dnsimple.com to do so. Include the domain name that you need to verify in your email to support.
+You must be able to receive an email at the registrant email address to complete the verification process. You can set up the email address with an email provider or you can use our email forwarding service. If you set up the email address after registration or changing your registrant details, you may need to resend the verification email. Please contact support@dnsimple.com to do so. Include the domain name that you need to verify in your email to support.
 
 Want to more about the policy requiring domain validation? Visit the ICANN web site to read about the [ICANN Whois Accuracy](https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#whois-accuracy) program.
