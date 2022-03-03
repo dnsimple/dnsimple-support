@@ -37,7 +37,7 @@ Once you have acted on the verification email, the warning above should not appe
 
 ## What happens when a domain is suspended?
 
-If your domain is suspended, the name servers will be changed to the following:
+If your domain is suspended, the name servers will be changed to either of the following:
 
 - DNS1.NAME-SERVICES.COM
 - DNS2.NAME-SERVICES.COM
@@ -45,9 +45,17 @@ If your domain is suspended, the name servers will be changed to the following:
 - DNS4.NAME-SERVICES.COM
 - DNS5.NAME-SERVICES.COM
 
-Additionally, a message will appear indicating that your domain is suspended:
+_or_
+
+- NS1.REGISTRANT-VERIFICATION.ISPAPI.NET
+- NS2.REGISTRANT-VERIFICATION.ISPAPI.NET
+- NS3.REGISTRANT-VERIFICATION.ISPAPI.NET
+
+Additionally, when visiting your web site, a message will appear instead indicating that your domain is suspended:
 
 ![ICANN Verification Web](/files/icann-verification-web.png)
+
+![ICANN Verification Web](/files/icann-verification-web-2.png)
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
