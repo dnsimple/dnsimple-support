@@ -21,13 +21,13 @@ Certain domain names are [auto-renew only](/articles/domain-auto-renewal) and ca
 
 After a domain expires, it enters a grace period. In this period, the domain is disabled but it's still possible to renew it from the DNSimple account at no extra cost.
 
-Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most generic TLDs (gTLDs). There is no guaranteed grace period. Once a domain expires, our registrar partners may dispose of it at any time according to the registration agreement. After the grace period elapses, the domain may go into a redemption grace period.
+Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most generic top-level domains (gTLDs). There is no guaranteed grace period. Once a domain expires, our registrar partners may dispose of it at any time according to the registration agreement. After the grace period elapses, the domain may go into a redemption grace period.
 
 Renewal years are always added to the end of the current registration period (i.e., the new expiration date is the same whether you renew two months early or the day before expiration), so you will never lose time on your domain by renewing early.
 
 #### Transferring away expired domain
 
-ICANN's rules and regulations permit expired domains to be transferred to another registrar, provided the domain is still in its [grace period](#grace-period). Transfers must complete before the domain falls into its [redemption period](#redemption-period).
+ICANN's rules and regulations permit expired generic top-level domains to be transferred to another registrar, provided the domain is still in its [grace period](#grace-period). Transfers must complete before the domain falls into its [redemption period](#redemption-period).
 
 If you need to transfer an expired domain away, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact), and we'll help you through the process.
 
