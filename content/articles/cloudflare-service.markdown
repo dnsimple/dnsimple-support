@@ -57,7 +57,9 @@ DNSimple offers a virtual record type called an ALIAS record. This allows sites 
 
 ## Enabling CloudFlare service {#enable}
 
-From the domain page, switch to the <label>Services</label> tab and click to <label>Add or edit service</label>. Find the **CloudFlare** service, click to <label>Add</label> and follow the instructions
+<warning>
+The CloudFlare service is deprecated as of December 2021.
+</warning>
 
 
 ## Disabling ClouldFlare service {#disable}
@@ -65,5 +67,3 @@ From the domain page, switch to the <label>Services</label> tab and click to <la
 <warning>
 A known bug currently prevents the possibility to disable the CloudFlare service from the UI. Please [contact us](https://dnsimple.com/contact) if you want to disable the service.
 </warning>
-
-
