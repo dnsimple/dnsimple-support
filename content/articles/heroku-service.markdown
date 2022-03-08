@@ -7,6 +7,10 @@ categories:
 
 # Heroku One-click Service
 
+<note>
+This service is being deprecated. We recommend that you use the [Heroku Connector](/articles/heroku-connector) instead.
+</note>
+
 ### Table of Contents {#toc}
 
 * TOC
