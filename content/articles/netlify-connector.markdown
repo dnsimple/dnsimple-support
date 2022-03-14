@@ -50,5 +50,5 @@ In this tab, you can view the metadata of the connection, or disconnect the Netl
 
 ## Connection monitoring
 
-Connections are checked regularly to ensure the connection is still established. If the connection is broken, either by removing DNS records or by changing the Netlify configuration, an email is sent to the DNSimple account email. The email includes instructions for fixing the connection as well as a link to the page where the domain can be reconnected to the Netlify application.
+Connections are checked regularly to ensure the connection is still established. If the connection is broken, either from removing DNS records or changing the Netlify configuration, an email is sent to the DNSimple account email. The email includes instructions for fixing the connection as well as a link to the page where the domain can be reconnected to the Netlify application.
    
