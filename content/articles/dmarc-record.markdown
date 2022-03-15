@@ -43,7 +43,7 @@ _dmarc.hostname.com
 Enter the subdomain part of the hostname in the "Name" field. The subdomain is everything to the left of your domain name.
 
 <tip>
-Your subdomain should be `_dmarc.` The leading underbar character is required.
+Your subdomain should be `_dmarc`. The leading underscore character is required.
 </tip>
 
 
