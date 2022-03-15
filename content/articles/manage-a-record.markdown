@@ -33,6 +33,10 @@ The instructions in this article assume you're familiar with the [A record forma
     ![](/files/record-a-create-new.png)
 
     - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
+
+    <note>
+    Some providers may instruct you to name the record `@`. `@` denotes the current origin. In DNSimple, just leave it blank to represent the root domain `example.com`.
+    </note>
     - _IP Address_: the IPv4 address the record will resolve to.
 
     As with any other DNS record, you can configure:
