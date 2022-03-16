@@ -32,6 +32,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .army | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .asia | [https://www.asiaregistry.com/about-us/terms-and-conditions](https://www.asiaregistry.com/about-us/terms-and-conditions) |
 | .at | [https://www.nic.at/en/terms](https://www.nic.at/en/terms) |
+| .au | [https://www.auda.org.au/policies/](https://www.auda.org.au/policies/) |
 | .com.au | [https://www.auda.org.au/policies/](https://www.auda.org.au/policies/) |
 | .id.au | [https://www.auda.org.au/policies/](https://www.auda.org.au/policies/) |
 | .net.au | [https://www.auda.org.au/policies/](https://www.auda.org.au/policies/) |
