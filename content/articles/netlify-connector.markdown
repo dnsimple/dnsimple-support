@@ -16,6 +16,12 @@ categories:
 
 [Netlify](https://www.netlify.com) unites an entire ecosystem of modern tools and services into a single, simple workflow for building high performance sites and apps. With DNSimple's Netlify Connector, you can easily connect your domains to Netlify, and set up the required DNS records and Netlify configuration, without having to think about DNS.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/VnQq1uFO6l4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Creating a connection
 
 1. Head to the "Connections" tab for the domain you want to connect to Netlify. From there, click the "Add" button next to the Netlify connector.  
