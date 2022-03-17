@@ -12,11 +12,27 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for `.AU` domain names. DNSimple supports registration, renewal, and transfer of `.COM.AU`, `.ORG.AU`, and `.NET.AU` secondary top level domains (TLDs).
+This article explains the requirements and special procedures for `.AU` domain names. DNSimple supports registration, renewal, and transfer of `.COM.AU`, `.ORG.AU`, and `.NET.AU` third level domains.
 
-## General requirements
+## Second level domains
 
-All `.AU` domain names:
+auDA — the .AU registry — will open registrations at the `.AU` second level domain.
+
+From March 24, 2022, registrations will be available to anyone if no corresponding third level domain has ever been registered.
+
+Registrations that have a corresponding third level domain already registered (`.ASN.AU`, `.COM.AU`, `.ID.AU`, `.NET.AU`, `.ORG.AU`) will be grandfathered for a period of six months, entitling existing registrants of a third level name to apply for the second level name based on a two-tier priority system.
+
+![.AU Priority Registration Process](/files/au-priority-registration-process.png)
+
+To check your priority category or to see if there are other registrants eligible for the second level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
+
+If there is no existing priority claim, meaning no matching registrations in other third level domains we recommend registering a third level domain right away.
+
+## Third level domain requirements
+
+### General requirements
+
+All third level `.AU` domain names:
 
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
     - Australian Business Number
@@ -28,8 +44,6 @@ All `.AU` domain names:
 <warning>
 The organization name must match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
 </warning>
-
-## Secondary top level domain requirements
 
 ### `.COM.AU` and `.NET.AU`
 
@@ -45,7 +59,7 @@ To register a `.COM.AU` or `.NET.AU` domain name, registrants must be one of the
 - An Australian commercial statutory body.
 
 <info>
-On April 12, 2021 a new set of rules for the `.COM.AU` and `.NET.AU` secondary top level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
+On April 12, 2021 a new set of rules for the `.COM.AU` and `.NET.AU` third level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
 </info>
 
 ### `.ORG.AU`
@@ -64,7 +78,7 @@ A valid Australian Business Number (ABN) is required to register a `.ORG.AU` dom
 </warning>
 
 <info>
-On April 12, 2021 a new set of rules for the `.ORG.AU` secondary top level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
+On April 12, 2021 a new set of rules for the `.ORG.AU` third level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 </info>
 
 ## Renewals
