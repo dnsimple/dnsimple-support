@@ -28,6 +28,8 @@ To check your priority category or to see if there are other registrants eligibl
 
 If there is no existing priority claim, meaning no matching registrations in other third level domains we recommend registering a third level domain right away.
 
+Watch this support article and [our blog](https://blog.dnsimple.com/) as the implementation for this is underway. If you have any questions, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+
 ## Third level domain requirements
 
 ### General requirements
