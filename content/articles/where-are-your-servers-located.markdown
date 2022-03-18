@@ -9,6 +9,5 @@ categories:
 
 Our Anycast network consists of <%= POPS.count %> points-of-presence around the world:
 
-<% POPS.each do |server| %>
-* <%= server %>
+<% POPS.each do |server| %>* <%= server %>
 <% end %>
