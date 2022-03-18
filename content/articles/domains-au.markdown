@@ -30,7 +30,7 @@ If there is no existing priority claim, meaning no matching registrations in any
 
 ## Claiming a pre-existing domain
 
-If you have an existing third-level .au domain (.com.au, org.au, etc.) with us, and you want to register the corresponding .au name, we're planning to add support for this shortly after the start of the registration process.
+If you have an existing third-level .au domain (.com.au, org.au, etc.) with us, and you want to register the corresponding .au name, we're planning to add support for this shortly after the start of the pre-existing domain registration process.
 
 If you have an existing third-level .au domain (.com.au, org.au, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
