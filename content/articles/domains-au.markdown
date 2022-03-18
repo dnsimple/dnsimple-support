@@ -36,7 +36,7 @@ If you have such an existing third level .au domain (.com.au, org.au, etc.) but 
 
 Please rest assured that those claims are not resolved on a first-come-first-serve basis, but rather depending on how long you are holding that grandfathered name.
 
-Watch this support article and [our blog](https://blog.dnsimple.com/) as the implementation for this is underway. If you have any questions, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+We will expand this support article as the implementation for this is underway. If you have any questions, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
 ## Registration requirements
 
