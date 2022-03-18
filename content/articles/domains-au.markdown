@@ -14,7 +14,7 @@ categories:
 
 This article explains the requirements and special procedures for [.AU](https://dnsimple.com/tlds/au-domains) domain names. DNSimple supports registration, renewal, and transfer of [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third-level domains.
 
-## Second level domains
+## Second-level domains
 
 auDA — the .AU registry — will open registrations at the `.AU` second-level domain.
 
@@ -26,23 +26,23 @@ Registrations that have a corresponding third-level domain already registered (`
 
 To check your priority category, or to see if there are other registrants eligible for the second-level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
 
-If there is no existing priority claim, meaning no matching registrations in any third-level .au domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
+If there is no existing priority claim, meaning no matching registrations in any third-level .AU domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
 
 ## Claiming a pre-existing domain
 
-If you have an existing third-level .au domain (.com.au, org.au, etc.) with us, and you want to register the corresponding .au name, we're planning to add support for this shortly after the start of the priority registration process.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're planning to add support for this shortly after the start of the priority registration process.
 
-If you have an existing third-level .au domain (.com.au, org.au, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
-Those claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
+Note: those claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
 
-We will expand this support article as the implementation is underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
+We will expand this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
 
 ## Registration requirements
 
 ### General requirements
 
-All third level `.AU` domain names:
+All third-level `.AU` domain names:
 
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
     - Australian Business Number
@@ -69,7 +69,7 @@ To register a `.COM.AU` or `.NET.AU` domain name, registrants must be one of the
 - An Australian commercial statutory body.
 
 <info>
-On April 12, 2021 a new set of rules for the `.COM.AU` and `.NET.AU` third level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
+On April 12, 2021, a new set of rules for the `.COM.AU` and `.NET.AU` third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
 </info>
 
 ### `.ORG.AU`
@@ -88,7 +88,7 @@ A valid Australian Business Number (ABN) is required to register a `.ORG.AU` dom
 </warning>
 
 <info>
-On April 12, 2021, a new set of rules for the `.ORG.AU` third level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
+On April 12, 2021, a new set of rules for the `.ORG.AU` third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 </info>
 
 ## Renewals
