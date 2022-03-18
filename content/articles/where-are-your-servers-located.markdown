@@ -1,6 +1,6 @@
 ---
 title: Where are your servers located?
-excerpt: Our Anycast network consists of <%= servers.count %> points-of-presence around the world.
+excerpt: Our Anycast network consists of <%= POPS.count %> points-of-presence around the world.
 categories:
 - DNSimple
 ---
