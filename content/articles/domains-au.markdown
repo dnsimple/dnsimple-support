@@ -18,7 +18,7 @@ This article explains the requirements and special procedures for `.AU` domain n
 
 auDA — the .AU registry — will open registrations at the `.AU` second level domain.
 
-From March 24, 2022, registrations will be available to anyone if no corresponding third level domain has ever been registered.
+From March 24, 2022, registrations will be immediately available to any Australian if no corresponding third level domain has been registered. _The general registration requirements below still apply._
 
 Registrations that have a corresponding third level domain already registered (`.ASN.AU`, `.COM.AU`, `.ID.AU`, `.NET.AU`, `.ORG.AU`) will be grandfathered for a period of six months, entitling existing registrants of a third level name to apply for the second level name based on a two-tier priority system.
 
@@ -26,11 +26,19 @@ Registrations that have a corresponding third level domain already registered (`
 
 To check your priority category or to see if there are other registrants eligible for the second level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
 
-If there is no existing priority claim, meaning no matching registrations in other third level domains we recommend registering a third level domain right away.
+If there is no existing priority claim, meaning no matching registrations in any third level .au domain, you can register your domain right away, just as easy as [any other domain](/articles/registering-domain).
+
+## Claiming a grandfathered domain
+
+If you have an existing third level .au domain (.com.au, org.au, etc.) with us and you want to register the corresponding .au name, we are planning to add support for this shortly after the start of the grandfathered registration process.
+
+If you have such an existing third level .au domain (.com.au, org.au, etc.) but not registered with us, do not hesitate to [reach out to us](https://dnsimple.com/contact), and we will be more then happy to help.
+
+Please rest assured that those claims are not resolved on a first-come-first-serve basis, but rather depending on how long you are holding that grandfathered name.
 
 Watch this support article and [our blog](https://blog.dnsimple.com/) as the implementation for this is underway. If you have any questions, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
-## Third level domain requirements
+## Registration requirements
 
 ### General requirements
 
