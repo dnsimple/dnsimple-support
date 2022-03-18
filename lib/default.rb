@@ -8,3 +8,14 @@ end
 def prioritize(what, items, &block)
   Priorities.new.sort(what, items, &block)
 end
+
+POPS = [
+  'San Jose, CA, USA',
+  'Chicago, IL, USA',
+  'Ashburn, VA, USA',
+  'Amsterdam, Netherlands',
+  'Tokyo, Japan',
+  'Sydney, Australia',
+  'Paris, France',
+  'Frankfurt, Germany'
+].freeze
