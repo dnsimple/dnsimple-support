@@ -12,31 +12,31 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for [.AU](https://dnsimple.com/tlds/au-domains) domain names. DNSimple supports registration, renewal, and transfer of [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third level domains.
+This article explains the requirements and special procedures for [.AU](https://dnsimple.com/tlds/au-domains) domain names. DNSimple supports registration, renewal, and transfer of [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third-level domains.
 
 ## Second level domains
 
-auDA — the .AU registry — will open registrations at the `.AU` second level domain.
+auDA — the .AU registry — will open registrations at the `.AU` second-level domain.
 
-From March 24, 2022, registrations will be immediately available to any Australian if no corresponding third level domain has been registered. _The general registration requirements below still apply._
+From March 24, 2022, registrations will be immediately available to any Australian if no corresponding third-level domain has been registered. _The general registration requirements below still apply._
 
-Registrations that have a corresponding third level domain already registered (`.ASN.AU`, `.COM.AU`, `.ID.AU`, `.NET.AU`, `.ORG.AU`) will be grandfathered for a period of six months, entitling existing registrants of a third level name to apply for the second level name based on a two-tier priority system.
+Registrations that have a corresponding third-level domain already registered (`.ASN.AU`, `.COM.AU`, `.ID.AU`, `.NET.AU`, `.ORG.AU`) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
 
 ![.AU Priority Registration Process](/files/au-priority-registration-process.png)
 
-To check your priority category or to see if there are other registrants eligible for the second level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
+To check your priority category, or to see if there are other registrants eligible for the second-level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
 
-If there is no existing priority claim, meaning no matching registrations in any third level .au domain, you can register your domain right away, just as easy as [any other domain](/articles/registering-domain).
+If there is no existing priority claim, meaning no matching registrations in any third-level .au domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
 
-## Claiming a grandfathered domain
+## Claiming a pre-existing domain
 
-If you have an existing third level .au domain (.com.au, org.au, etc.) with us and you want to register the corresponding .au name, we are planning to add support for this shortly after the start of the grandfathered registration process.
+If you have an existing third-level .au domain (.com.au, org.au, etc.) with us, and you want to register the corresponding .au name, we're planning to add support for this shortly after the start of the registration process.
 
-If you have such an existing third level .au domain (.com.au, org.au, etc.) but not registered with us, do not hesitate to [reach out to us](https://dnsimple.com/contact), and we will be more then happy to help.
+If you have an existing third-level .au domain (.com.au, org.au, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
-Please rest assured that those claims are not resolved on a first-come-first-serve basis, but rather depending on how long you are holding that grandfathered name.
+Those claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
 
-We will expand this support article as the implementation for this is underway. If you have any questions, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+We will expand this support article as the implementation is underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
 
 ## Registration requirements
 
@@ -88,7 +88,7 @@ A valid Australian Business Number (ABN) is required to register a `.ORG.AU` dom
 </warning>
 
 <info>
-On April 12, 2021 a new set of rules for the `.ORG.AU` third level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
+On April 12, 2021, a new set of rules for the `.ORG.AU` third level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 </info>
 
 ## Renewals
@@ -103,7 +103,7 @@ If the domain name is not redeemed within 31 days, it will be removed from our s
 
 ## Changes in ownership
 
-Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type* or *Eligibility ID number*.
+Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type*, or *Eligibility ID number*.
 
 There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration, effective from the date the change is completed.
 
