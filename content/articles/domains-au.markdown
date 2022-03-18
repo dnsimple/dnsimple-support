@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for `.AU` domain names. DNSimple supports registration, renewal, and transfer of `.COM.AU`, `.ORG.AU`, and `.NET.AU` third level domains.
+This article explains the requirements and special procedures for [.AU](https://dnsimple.com/tlds/au-domains) domain names. DNSimple supports registration, renewal, and transfer of [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third level domains.
 
 ## Second level domains
 
