@@ -13,14 +13,10 @@ This article describes a feature only available on the following plans: Professi
 
 Regional records lets you select geographical regions where you want a record to appear.
 
-We have 6 points of presence:
+We have <%= POPS.count %> points of presence:
 
-* California, US
-* Illinois, US
-* Virginia, US
-* Amsterdam, NL
-* Tokyo, JP
-* Sydney, AU
+<% POPS.each do |server| %>* <%= server %>
+<% end %>
 
 When creating a new record, select the point of presence for this record. **If you don't select any, the record will appear in all of them.**
 
