@@ -18,7 +18,7 @@ This article explains the requirements and special procedures for [.AU](https://
 
 auDA — the .AU registry — will open registrations at the .AU second-level domain.
 
-From March 24, 2022, registrations will be immediately available to any Australian if no corresponding third-level domain has been registered. _The general registration requirements below still apply._
+From March 24, 2022, registrations will be immediately available to any registrant with an [Australian presence](https://www.auda.org.au/policy/au-domain-administration-rules-licensing#1-4) if no corresponding third-level domain has been registered.
 
 Registrations that have a corresponding third-level domain already registered (.ASN.AU, .COM.AU, .ID.AU, .NET.AU, .ORG.AU) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
 
