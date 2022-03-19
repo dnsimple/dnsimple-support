@@ -16,11 +16,11 @@ This article explains the requirements and special procedures for [.AU](https://
 
 ## Second-level domains
 
-auDA — the .AU registry — will open registrations at the `.AU` second-level domain.
+auDA — the .AU registry — will open registrations at the .AU second-level domain.
 
 From March 24, 2022, registrations will be immediately available to any Australian if no corresponding third-level domain has been registered. _The general registration requirements below still apply._
 
-Registrations that have a corresponding third-level domain already registered (`.ASN.AU`, `.COM.AU`, `.ID.AU`, `.NET.AU`, `.ORG.AU`) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
+Registrations that have a corresponding third-level domain already registered (.ASN.AU, .COM.AU, .ID.AU, .NET.AU, .ORG.AU) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
 
 ![.AU Priority Registration Process](/files/au-priority-registration-process.png)
 
@@ -42,7 +42,7 @@ We will expand this support article as the implementation gets underway. If you 
 
 ### General requirements
 
-All third-level `.AU` domain names:
+All third-level .AU domain names:
 
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
     - Australian Business Number
@@ -55,9 +55,9 @@ All third-level `.AU` domain names:
 The organization name must match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
 </warning>
 
-### `.COM.AU` and `.NET.AU`
+### .COM.AU and .NET.AU
 
-To register a `.COM.AU` or `.NET.AU` domain name, registrants must be one of the following:
+To register a .COM.AU or .NET.AU domain name, registrants must be one of the following:
 
 - An Australian registered company.
 - Trading under a registered business name in any Australian State or Territory.
@@ -69,12 +69,12 @@ To register a `.COM.AU` or `.NET.AU` domain name, registrants must be one of the
 - An Australian commercial statutory body.
 
 <info>
-On April 12, 2021, a new set of rules for the `.COM.AU` and `.NET.AU` third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
+On April 12, 2021, a new set of rules for the .COM.AU and .NET.AU third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
 </info>
 
-### `.ORG.AU`
+### .ORG.AU
 
-To register a `.ORG.AU` domain name, registrants must belong to one of the following:
+To register a .ORG.AU domain name, registrants must belong to one of the following:
 
 - An association incorporated in any Australian State or Territory.
 - A political party registered with the Australian Electoral Commission.
@@ -84,28 +84,28 @@ To register a `.ORG.AU` domain name, registrants must belong to one of the follo
 - A non-profit organization operating in Australia, as defined in the Registrant's constitution or other documents of incorporation.
 
 <warning>
-A valid Australian Business Number (ABN) is required to register a `.ORG.AU` domain name. Australian Company Numbers and Trademark Numbers are not acceptable.
+A valid Australian Business Number (ABN) is required to register a .ORG.AU domain name. Australian Company Numbers and Trademark Numbers are not acceptable.
 </warning>
 
 <info>
-On April 12, 2021, a new set of rules for the `.ORG.AU` third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
+On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 </info>
 
 ## Renewals
 
-`.AU` domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be recovered for an additional fee.
+.AU domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be recovered for an additional fee.
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
 ## Transfers
 
-`.AU` domains are not renewed for one year upon transfer. We do not charge for `.AU` transfers.
+.AU domains are not renewed for one year upon transfer. We do not charge for .AU transfers.
 
 ## Changes in ownership
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type*, or *Eligibility ID number*.
 
-There's an additional fee to change the ownership of a `.AU` domain — this fee includes a one-year extension of the domain registration, effective from the date the change is completed.
+There's an additional fee to change the ownership of a .AU domain — this fee includes a one-year extension of the domain registration, effective from the date the change is completed.
 
 If you want to make this change, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
