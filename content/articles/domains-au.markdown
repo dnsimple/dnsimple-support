@@ -42,6 +42,10 @@ We will expand this support article as the implementation gets underway. If you 
 
 ### General requirements
 
+All second-level .AU domain names:
+
+- Require an [Australian presence](https://www.auda.org.au/policy/au-domain-administration-rules-licensing#1-4).
+
 All third-level .AU domain names:
 
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
