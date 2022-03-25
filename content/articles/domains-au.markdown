@@ -32,7 +32,7 @@ If there is no existing priority claim, meaning no matching registrations in any
 
 If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) that's _not_ registered with us, registrations are [now available](/articles/registering-domain). You will need to obtain a [Priority Token](https://priority.auda.org.au/) from auDA.
 
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're planning to add support for this shortly after the start of the priority registration process. [Contact us](https://dnsimple.com/contact), and we'll be happy to help.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're currently working to add support for this. [Contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
 <note>
 Claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
