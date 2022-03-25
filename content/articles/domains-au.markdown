@@ -40,7 +40,7 @@ If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, 
 
 <info>
 We are expanding this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
-<info>
+</info>
 
 <div class="section-steps" markdown="1">
 #### Third-level domain is not registered with DNSimple
