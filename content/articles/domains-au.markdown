@@ -18,7 +18,7 @@ This article explains the requirements and special procedures for [.AU](https://
 
 auDA — the .AU registry — will open registrations at the .AU second-level domain.
 
-From March 24, 2022, registrations will be immediately available to any registrant with an [Australian presence](https://www.auda.org.au/policy/au-domain-administration-rules-licensing#1-4) if no corresponding third-level domain has been registered.
+From March 24, 2022, registrations will be immediately available to any registrant with an [Australian presence](#general-requirements) if no corresponding third-level domain has been registered.
 
 Registrations that have a corresponding third-level domain already registered (.ASN.AU, .COM.AU, .ID.AU, .NET.AU, .ORG.AU) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
 
@@ -28,13 +28,15 @@ To check your priority category, or to see if there are other registrants eligib
 
 If there is no existing priority claim, meaning no matching registrations in any third-level .AU domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
 
-## Claiming a pre-existing domain
+### Claiming a pre-existing domain
 
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're planning to add support for this shortly after the start of the priority registration process.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) that's _not_ registered with us, registrations are [now available](/articles/registering-domain). You will need to obtain a [Priority Token](https://priority.auda.org.au/) from auDA.
 
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're planning to add support for this shortly after the start of the priority registration process. [Contact us](https://dnsimple.com/contact), and we'll be happy to help.
 
-Note: those claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
+<note>
+Claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
+</note>
 
 We will expand this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
 
