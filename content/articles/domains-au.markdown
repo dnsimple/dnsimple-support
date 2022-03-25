@@ -34,6 +34,7 @@ If there is no existing priority claim, meaning no matching registrations in any
 Claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name. Read more about the [Priority Allocation Process](https://www.auda.org.au/au-domain-names/au-direct/priority-allocation-process).
 </note>
 
+<div class="section-steps" markdown="1">
 #### Third-level domain is registered with DNSimple
 
 If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're currently working to add support for this.
@@ -41,6 +42,7 @@ If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, 
 <info>
 We are expanding this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
 </info>
+</div>
 
 <div class="section-steps" markdown="1">
 #### Third-level domain is not registered with DNSimple
