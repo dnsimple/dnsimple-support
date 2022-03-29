@@ -47,8 +47,12 @@ We are expanding this support article as the implementation gets underway. If yo
 <div class="section-steps" markdown="1">
 #### Third-level domain is not registered with DNSimple
 
-1. Obtain a [Priority Token](https://priority.auda.org.au/) from auDA.
+1. Obtain a [Priority Token](https://priority.auda.org.au/) and Priority Contact ID from auDA.
 1. [Register](/articles/registering-domain) the domain name.
+
+<warning>
+On the registration page, be sure to enter both contact ID and token joined by a dash in the <label>.AU direct priority token</label> field, in the following format: `<Priority Contact ID>-<Priority Token>`. Example: `m00100000773031-Au2BG3NX%VKc1SWc`.
+</warning>
 </div>
 
 ## Registration requirements
