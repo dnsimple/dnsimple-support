@@ -12,13 +12,13 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for [.AU](https://dnsimple.com/tlds/au-domains) domain names. DNSimple supports registration, renewal, and transfer of [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third-level domains.
+This article explains the requirements and special procedures for .AU domain names. DNSimple supports registration, renewal, and transfer of [.AU](https://dnsimple.com/tlds/au-domains) second-level domains and [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third-level domains.
 
 ## Second-level domains
 
-auDA — the .AU registry — will open registrations at the .AU second-level domain.
+auDA — the .AU registry — has opened registrations at the .AU second-level domain.
 
-From March 24, 2022, registrations will be immediately available to any registrant with an [Australian presence](https://www.auda.org.au/policy/au-domain-administration-rules-licensing#1-4) if no corresponding third-level domain has been registered.
+As of March 24, 2022, registrations are immediately available to any registrant with an [Australian presence](/articles/domains-au/#general-requirements) if no corresponding third-level domain has been registered.
 
 Registrations that have a corresponding third-level domain already registered (.ASN.AU, .COM.AU, .ID.AU, .NET.AU, .ORG.AU) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
 
@@ -28,15 +28,32 @@ To check your priority category, or to see if there are other registrants eligib
 
 If there is no existing priority claim, meaning no matching registrations in any third-level .AU domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
 
-## Claiming a pre-existing domain
+### Claiming a pre-existing domain
 
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're planning to add support for this shortly after the start of the priority registration process.
+<note>
+Claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name. Read more about the [Priority Allocation Process](https://www.auda.org.au/au-domain-names/au-direct/priority-allocation-process).
+</note>
 
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) that's not registered with us, [contact us](https://dnsimple.com/contact), and we'll be happy to help.
+<div class="section-steps" markdown="1">
+#### Third-level domain is registered with DNSimple
 
-Note: those claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name.
+If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're currently working to add support for this.
 
-We will expand this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
+<info>
+We are expanding this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
+</info>
+</div>
+
+<div class="section-steps" markdown="1">
+#### Third-level domain is not registered with DNSimple
+
+1. Obtain a [Priority Token](https://priority.auda.org.au/) and Priority Contact ID from auDA.
+1. [Register](/articles/registering-domain) the domain name.
+
+<warning>
+On the registration page, be sure to enter both contact ID and token joined by a dash in the <label>.AU direct priority token</label> field, in the following format: `<Priority Contact ID>-<Priority Token>`. Example: `m00100000773031-Au2BG3NX%VKc1SWc`.
+</warning>
+</div>
 
 ## Registration requirements
 
