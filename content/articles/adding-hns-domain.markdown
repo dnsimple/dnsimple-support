@@ -44,6 +44,5 @@ Here is a list of known services which are not compatbile:
 * Email forwards
 * Some One-Click-Services
 * Netlify Connector
-* URL records pointing to other HNS domains
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
 </note>
