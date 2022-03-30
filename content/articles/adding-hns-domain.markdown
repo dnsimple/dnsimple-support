@@ -8,13 +8,13 @@ categories:
 # Adding a Handshake (HNS) Domain
 
 <note>
-DNSimple only supports the management of second level TLDs and above.
+DNSimple only supports the management of second-level TLDs and above.
 </note>
 
-To add an HNS domain and manage it's DNS records through DNSimple you have two options:
+To add an HNS domain and manage its DNS records through DNSimple you have two options:
 
-1. Register the domain with a registrar that sells second level HNS TLDs.
-2. Add DNSimple's NS records for the domain via your preffered method directly to the blockchain given you are the owner of the HNS TLD.
+1. Register the domain with a registrar that sells second-level HNS TLDs.
+2. Add DNSimple's NS records for the domain via your preferred method directly to the blockchain given you are the owner of the HNS TLD.
 
 For both options the process of adding the domain to DNSimple is the same.
 
@@ -38,7 +38,7 @@ Please note that handshake domains do not resolve in regular browsers by default
 
 DNSimple services are compatible with HNS domains, however, please note that some services are incompatible with HNS domains due to not being resolvable by conventional means.
 
-Here is a list of known services which are not compatbile:
+Here is a list of known services that are not compatible:
 
 * Certificates
 * Email forwards
