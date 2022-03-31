@@ -33,10 +33,13 @@ You'll then be prompted for the name of the domain you want to add to your accou
 After adding the domain to DNSimple you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
 </div>
 
-<note>
-Please note that handshake domains do not resolve in regular browsers by default and require additional setup.
+## Incompatible services
 
-DNSimple services are compatible with HNS domains, however, please note that some services are incompatible with HNS domains due to not being resolvable by conventional means.
+<warning>
+Please note that handshake domains do not resolve in regular browsers by default, and require additional setup.
+</note>
+
+DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains due to not being resolvable withouth a Handshake-aware resolver.
 
 Here is a list of known services that are not compatible:
 
@@ -45,4 +48,4 @@ Here is a list of known services that are not compatible:
 * Some One-Click-Services
 * Netlify Connector
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
-</note>
+
