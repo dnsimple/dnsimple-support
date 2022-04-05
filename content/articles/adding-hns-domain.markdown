@@ -37,7 +37,7 @@ After adding the domain to DNSimple you need to use the name servers from the [D
 
 <warning>
 Please note that handshake domains do not resolve in regular browsers by default, and require additional setup.
-</note>
+</warning>
 
 DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains due to not being resolvable withouth a Handshake-aware resolver.
 
