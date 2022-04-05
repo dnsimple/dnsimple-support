@@ -1,11 +1,18 @@
 ---
-title: Adding a Handshake (HNS) Domain
-excerpt: How to add a Handshake (HNS) domain to a DNSimple account.
+title: DNSimple and Handshake (HNS)
+excerpt: Learn more about how to use Handshake (HNS) domains with your DNSimple account.
 categories:
 - Domains
 ---
 
-# Adding a Handshake (HNS) Domain
+# DNSimple and Handshake (HNS)
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+## Adding a Handshake (HNS) Domain
 
 <note>
 DNSimple only supports the management of second-level TLDs and above.
