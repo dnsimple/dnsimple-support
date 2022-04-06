@@ -19,12 +19,12 @@ categories:
 ## Adding a Handshake (HNS) Domain
 
 <note>
-DNSimple only supports the management of second-level TLDs and above.
+DNSimple only supports the management of second-level Handshake domains. Currently, it is not possible to host a name directly registered in the Handshake blockchain (TLD).
 </note>
 
 To add an HNS domain and manage its DNS records through DNSimple you have two options:
 
-1. Register the domain with a registrar that sells second-level HNS TLDs.
+1. Register the domain with a registrar that sells second-level Handshake domains.
 2. Add DNSimple's NS records for the domain via your preferred method directly to the blockchain given you are the owner of the HNS TLD.
 
 For both options the process of adding the domain to DNSimple is the same.
