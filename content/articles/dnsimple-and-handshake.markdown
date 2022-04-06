@@ -1,6 +1,6 @@
 ---
 title: DNSimple and Handshake (HNS)
-excerpt: Learn more about how to use Handshake (HNS) domains with your DNSimple account.
+excerpt: How to use Handshake (HNS) domains with your DNSimple account.
 categories:
 - Domains
 ---
@@ -14,12 +14,12 @@ categories:
 
 ## What is Handshake?
 
-[Handshake](https://handshake.org/) is a decentralized, peer-to-peer permissionless naming protocol, where each peer in the network is validating and managing the root DNS naming zone. The aim of the project is to make any centralised governing bodies obsolete for both managing the DNS root zone and as a result needing a centralised Certificate Authority (CA).
+[Handshake](https://handshake.org/) is a decentralized, peer-to-peer, permissionless naming protocol. Each peer in the network validates and manages the root DNS naming zone. The aim of the project is to make any centralized governing bodies obsolete for both managing the DNS root zone and, as a result, needing a centralized Certificate Authority (CA).
 
 ## Adding a Handshake (HNS) Domain
 
 <note>
-DNSimple only supports the management of second-level Handshake domains. Currently, it is not possible to host a name directly registered in the Handshake blockchain (TLD).
+DNSimple only supports the management of second-level Handshake domains. Currently, you can't host a name directly registered in the Handshake blockchain (TLD).
 </note>
 
 To add an HNS domain and manage its DNS records through DNSimple you have two options:
@@ -30,7 +30,7 @@ To add an HNS domain and manage its DNS records through DNSimple you have two op
 For both options the process of adding the domain to DNSimple is the same.
 
 <div class="section-steps" markdown="1">
-##### To add a domain
+##### Adding a domain
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
@@ -41,22 +41,22 @@ For both options the process of adding the domain to DNSimple is the same.
 
 You'll then be prompted for the name of the domain you want to add to your account.
 
-After adding the domain to DNSimple you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
+After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
 </div>
 
 ## Incompatible services
 
 <warning>
-Please note that handshake domains do not resolve in regular browsers by default, and require additional setup.
+Handshake domains do not resolve in regular browsers by default. They require additional setup.
 </warning>
 
-DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains due to not being resolvable withouth a Handshake-aware resolver.
+DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains because they aren't resolvable without a Handshake-aware resolver.
 
-Here is a list of known services that are not compatible:
+These known services are not compatible:
 
 * Certificates
 * Email forwards
-* Some One-Click-Services
+* Some One-Click Services
 * Netlify Connector
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
 
