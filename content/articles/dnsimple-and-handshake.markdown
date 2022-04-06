@@ -12,6 +12,10 @@ categories:
 * TOC
 {:toc}
 
+## What is Handshake?
+
+Handshake is a decentralized, peer-to-peer permissionless naming protocol, where each peer in the network is validating and managing the root DNS naming zone. The aim of the project is to make any centralised governing bodies obsolete for both managing the DNS root zone and as a result needing a centralised Certificate Authority (CA).
+
 ## Adding a Handshake (HNS) Domain
 
 <note>
