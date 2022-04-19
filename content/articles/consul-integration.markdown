@@ -14,11 +14,11 @@ categories:
 
 ---
 
-[Consul](https://www.consul.io/) is a full-featured service mesh that enables service discovery, secure service communication, health check service monitoring, kv store, and built-in proxy. It also supports out-of-the-box distributed multi-region support. With [DNSimple's Consul NIA integration](https://registry.terraform.io/modules/dnsimple/cts/dnsimple/latest) you can automatically provision records that reflect your service mesh.
+[Consul](https://www.consul.io/) is a full-featured service mesh that enables service discovery, secure service communication, health check service monitoring, kv store, and built-in proxy. It also supports out-of-the-box distributed multi-region support. With [DNSimple's Consul NIA integration](https://registry.terraform.io/modules/dnsimple/cts/dnsimple/latest), you can automatically provision records that reflect your service mesh.
 
 ## Configuring the DNSimple Consul NIA Integration
 
-In your [Consul-Terraform-Sync](https://www.consul.io/docs/nia/tasks) configuration file define a task similar to the example given below.
+In your [Consul-Terraform-Sync](https://www.consul.io/docs/nia/tasks) configuration file, define a task similar to the example given below:
 
 ```ruby
 task {
@@ -33,12 +33,12 @@ task {
 }
 ```
 
-You need to pay special attention to the `condition` and `variable_files` fields.
+Pay special attention to the `condition` and `variable_files` fields.
 
 **condition** - specifies [services to trigger](https://www.consul.io/docs/nia/configuration#services-condition) the task
 **variable_files** - Specifies list of paths to Terraform variable definition files (.tfvars). This is where you need to specify the configuration variables for our [DNSimple Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest/docs).
 
-To ensure the task can create the records in your DNSimple account the following variables need to be set in your `.tfvars` file:
+To ensure the task can create the records in your DNSimple account, the following variables need to be set in your `.tfvars` file:
 
 **`dnsimple_token`**:`string` - (Required) The DNSimple API v2 token. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token.
 
