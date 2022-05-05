@@ -20,6 +20,11 @@ When applicable, we recommend opting for our "auto-renew" feature to avoid your 
 1. Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
 1. Click Register Domain.
 1. Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
-1. Click Register Domain. You'll be charged immediately for the registration.
+1. Click Register Domain.
+
+<info>
+The total registration price will be held on your card immediately. Your card will be charged once the registration completes.
+Should anything go wrong during the registration, funds will be released.
+</info>
 
 </div>
