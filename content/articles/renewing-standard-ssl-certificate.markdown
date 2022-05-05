@@ -39,6 +39,11 @@ These are the steps to renew your standard certificate:
 
     ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
 
+    <info>
+    The certificate renewal price will be held on your card immediately. Your card will be charged once the new certificate is issued.
+    Should anything go wrong during the issuance, funds will be released.
+    </info>
+
 </div>
 
 ## What's next?
