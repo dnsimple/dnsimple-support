@@ -51,8 +51,9 @@ When you enable the service for the first time, a service cost will be charged t
     ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
 
     <info>
-    The whois privacy price will be held on your card immediately. Your card will be charged once the whois privacy is enabled.
-    Should anything go wrong enabling whois privacy for your domain, funds will be released.
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy is enabled.
+    If whois privacy cannot be enabled on your domain, funds will be released.
     </info>
 
 </div>
@@ -78,8 +79,9 @@ When you enable the service for the first time, a service cost will be charged t
     ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
 
     <info>
-    The whois privacy price will be held on your card immediately. Your card will be charged once the whois privacy is enabled.
-    Should anything go wrong enabling whois privacy for your domain, funds will be released.
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy is enabled.
+    If whois privacy cannot be enabled on your domain, funds will be released.
     </info>
 
 </div>
@@ -153,8 +155,9 @@ We'll send an email reminder when the WHOIS Privacy on a domain is due to expire
     ![Renew WHOIS Privacy](/files/whoisprivacy-renew-page.png)
 
     <info>
-    The whois privacy price will be held on your card immediately. Your card will be charged once the whois privacy service is renewed.
-    Should anything go wrong renewing whois privacy for your domain, funds will be released.
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy service is renewed.
+    If whois privacy cannot be renewed for your domain, funds will be released.
     </info>
 
 </div>
