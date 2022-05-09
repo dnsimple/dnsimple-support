@@ -61,6 +61,12 @@ The order is the first step into getting an SSL certificate. It will create an S
 
     ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
+    <info>
+    The certificate price will be held on your card immediately.
+    Your card will be charged once the certificate is issued.
+    If the issuance fails, funds will be released.
+    </info>
+
 </div>
 
 

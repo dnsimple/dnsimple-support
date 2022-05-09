@@ -50,6 +50,12 @@ When you enable the service for the first time, a service cost will be charged t
 
     ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
 
+    <info>
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy is enabled.
+    If whois privacy cannot be enabled on your domain, funds will be released.
+    </info>
+
 </div>
 
 <div class="section-steps" markdown="1">
@@ -71,6 +77,12 @@ When you enable the service for the first time, a service cost will be charged t
     If this is the first time you're enabling the service for this domain, you'll need to purchase the service. The page will provide you with the purchase information. Click on <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
 
     ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
+
+    <info>
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy is enabled.
+    If whois privacy cannot be enabled on your domain, funds will be released.
+    </info>
 
 </div>
 
@@ -141,6 +153,12 @@ We'll send an email reminder when the WHOIS Privacy on a domain is due to expire
 1. To renew the WHOIS Privacy service, click on the <label>Renew WHOIS Privacy for 1 Year</label> button
 
     ![Renew WHOIS Privacy](/files/whoisprivacy-renew-page.png)
+
+    <info>
+    The whois privacy price will be held on your card immediately.
+    Your card will be charged once the whois privacy service is renewed.
+    If whois privacy cannot be renewed for your domain, funds will be released.
+    </info>
 
 </div>
 

@@ -23,5 +23,10 @@ By default, newly registered domains are set to auto-renew. If you've turned off
 
     ![Renew domain form](/files/renew-domain-form.png)
 
+<info>
+The total renewal price will be held on your card immediately.
+Your card will be charged once the renewal completes.
+If renewal fails, funds will be released.
+</info>
 
 </div>
