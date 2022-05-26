@@ -9,7 +9,7 @@ catagories:
 
 ## Get a reset password link via email
 
-The first step to access your account after you've forgetten your password is to get a password reset link. You can get a password resent link sent via email by first going to the login screen and clicking on the Forgot Password link:
+The first step to access your account after you've forgotten your password is to get a password reset link. Even if you initially [signed up via Google](/articles/google-identity-provider), you can still reset your password using this process. You can get a password resent link sent via email by first going to the login screen and clicking on the Forgot Password link:
 
 ![Login Screen Forgot Password Link](/files/login-forgot-password.png)
 
