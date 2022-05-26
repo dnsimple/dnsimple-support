@@ -20,7 +20,7 @@ To sign up, go to the [DNSimple website](https://dnsimple.com) and click <label>
 
 That's it! You're now a DNSimple user with one account.
 
-You can explore and learn how to manage domains in DNSimple without activating your account.
+You can explore how to manage domains in DNSimple without activating your account.
 Provide payment details to activate your account, start registering domains, and adding records.
 
 ## Adding additional accounts
