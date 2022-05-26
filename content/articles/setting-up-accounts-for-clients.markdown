@@ -37,7 +37,7 @@ You can add another account to your user profile by taking [these steps](/articl
 
 Verify your client has __registered__ with DNSimple.
 
-If needed, [point your client to the signup page](https://dnsimple.com/signup).
+If needed, [point your client to the signup page](https://dnsimple.com/signup). There, they can register using their email address, or via [Google as an identity provider](/articles/google-identity-provider).
 
 <info>
 Your client doesn't need to have an active subscription. They only need to be signed up for the service.
