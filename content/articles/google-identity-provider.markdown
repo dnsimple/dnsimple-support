@@ -60,3 +60,27 @@ If you run into a situation where the Google Workspace is no longer linked (eg. 
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
 </div>
 
+## Linking a Google account to your DNSimple user
+
+![Link a Google identity](/files/google-link-identity.png)
+
+<div class="section-steps" markdown="1">
+#### To link a Google identity
+
+1. Go to the <label>User Settings</label> page.
+1. In the <label>Identities</label> card, click <label>Add</label> next to the Google identity provider.
+1. Authenticate your Google account.
+1. You can now log in to DNSimple using the linked Google identity.
+</div>
+
+## Unlinking a Google account from your DNSimple user
+
+![Unlink a Google identity](/files/google-unlink-identity.png)
+
+<div class="section-steps" markdown="1">
+#### To unlink a Google identity
+
+1. Go to the <label>User Settings</label> page.
+1. In the <label>Identities</label> card, click <label>Revoke</label> next to the Google identity you wish to remove.
+1. The selected identity can no longer be used to log in to your DNSimple account.
+</div>
