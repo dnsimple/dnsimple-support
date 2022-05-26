@@ -41,7 +41,7 @@ Now, the team members can now easily log in with their Google identity. When a m
 #### To link a Google Workspace
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Clicking <label>Add</label> next to the Google SSO provider will take you to Google to authorize the Workspace.
+1. Clicking <label>Add</label> next to the Google SSO provider will take you to Google to authorize the Workspace. You will need to be logged-in to the Google Workspace as an administrator of the workspace.
 1. Google will show you what access DNSimple is requesting.
 1. Google SSO is enabled on the account.
 1. Repeat the process for each account where you want Google SSO enabled.
