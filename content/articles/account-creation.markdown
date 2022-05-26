@@ -26,3 +26,9 @@ Provide payment details to activate your account and start registering domains a
 ## Adding additional accounts
 
 DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
+
+## Signing up via Google
+
+We also offer the option for you to sign up for a DNSimple account [using Google as your identity provider](/articles/google-identity-provider). When you click "Sign up using Google," you'll be prompted to select your Google account. Next, you'll be returned to DNSimple logged in to your new DNSimple account.
+
+![Signing up via Google](/files/google-sso-social-signup.png)
