@@ -24,7 +24,7 @@ If a user with that email address exists, an email is sent to that address. The 
 The email will arrive from support@dnsimple.com. In that email will be a link to https://dnsimple.com - either copy this link into your browser, or click the link if your email client automatically enables it.
 
 <warning>
-Make sure the link is to https://dnsimple.com/. If the link is not to the dnsimple.com website, do not use the link. Contact [customer support]https://dnsimple.com/feedback)instead.
+Make sure the link is to https://dnsimple.com/. If the link is not to the dnsimple.com website, do not use the link. Contact [customer support](https://dnsimple.com/feedback)instead.
 </warning>
 
 ## Enter a new password
