@@ -20,9 +20,15 @@ To sign up, go to the [DNSimple website](https://dnsimple.com) and click <label>
 
 That's it! You're now a DNSimple user with one account.
 
-Feel free to explore and see how to manage domains without activating your account.
-Provide payment details to activate your account and start registering domains and adding records.
+You can explore how to manage domains in DNSimple without activating your account.
+Provide payment details to activate your account, start registering domains, and adding records.
 
 ## Adding additional accounts
 
-DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
+DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple, and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
+
+## Signing up via Google
+
+You can also sign up for a DNSimple account [using Google as your identity provider](/articles/google-identity-provider). When you click "Sign up using Google," you'll be prompted to select your Google account. You'll then be returned to DNSimple logged in to your new DNSimple account.
+
+![Signing up via Google](/files/google-sso-social-signup.png)
