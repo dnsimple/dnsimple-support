@@ -12,7 +12,7 @@ The **Certificate Signing Request** (also **CSR** or **certification request**) 
 The CSR contains information that will be included in your certificate, such as the [common name](/articles/what-is-common-name) and the company/owner details. It also contains the public key that will be embedded in the certificate.
 
 <info>
-We automatically generate the CSR for you using an unique public/private encryption key pair. This works for the majority of cases, including hosting platforms such as Heroku or Amazon.
+We automatically generate the CSR for you using a unique public/private encryption key pair. This works for the majority of cases, including hosting platforms such as Heroku or Amazon.
 
 The private key associated with the certificate will be available to download, once generated; from your certificate page.
 
