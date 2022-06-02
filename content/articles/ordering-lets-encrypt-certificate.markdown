@@ -53,6 +53,8 @@ The order is the first step into getting an SSL certificate. It will create an S
     1.  Submit the order.
 </div>
 
+Check out our [pricing page](https://dnsimple.com/pricing) to understand the limitations on your subscription plan regarding Let's Encrypt SSL certificates.
+
 ## What's next?
 
 Once you order the certificate, we will configure the necessary DNS records and check that they are resolving properly before having Let's Encrypt check the DNS challenge. Once the challenge is verified, the certificate will be issued and you can download and install the certificate on your server.
