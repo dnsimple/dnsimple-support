@@ -279,6 +279,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .tel | [https://www.do.tel/policies/](https://www.do.tel/policies/) |
 | .tips | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .today | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .toys | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tools | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .top | [http://www.nic.top/en/policy.asp](http://www.nic.top/en/policy.asp) |
 | .tours | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
