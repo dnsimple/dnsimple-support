@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Two-Factor authentication](/articles/two-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce Two-Factor authentication for account members by enabling the feature on the account.
+[Two-Factor authentication](/articles/multi-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce Two-Factor authentication for account members by enabling the feature on the account.
 
 When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
 
@@ -60,7 +60,7 @@ You can only enable Two-Factor authentication enforcement on an account if all u
 
 ## Disabling Two-Factor authentication while in an enforced team
 
-If you're part of a team that enforces Two-Factor authentication, you can still [disable Two-Factor authentication](/articles/two-factor-authentication/#disable) on your personal account.
+If you're part of a team that enforces Two-Factor authentication, you can still [disable Two-Factor authentication](/articles/multi-factor-authentication/#disable) on your personal account.
 
 <warning>
 If you disable Two-Factor authentication, you will be removed from all accounts that enforce Two-Factor authentication.
