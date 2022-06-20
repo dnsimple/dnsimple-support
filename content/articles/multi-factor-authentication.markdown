@@ -34,21 +34,25 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Settings menu](/files/access-user-settings.jpg)
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Follow <label>Enable 2FA</label> to start the wizard to enable the feature.
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on "Connect an authenticator app that generates verification codes."
 
-    ![Enable two-factor authentication](/files/user-2fa-enable-link.png)
+    ![Enable multi-factor authentication with authenticator](/files/user-mfa-enable-mfa-with-authenticator.png)
 
 1.  Scan the barcode using an [authenticator app](#authenticator). You can also manually enter the secret code in your authenticator app, just click on <label>Can't scan the barcode</label>, and type the code into your authenticator.
 
-    ![Two-factor barcode](/files/2fa-barcode.png)
+    ![Multi-factor barcode](/files/user-mfa-barcode.png)
 
 1.  Using the authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Next step</label> to confirm. If the verification code is correct, you'll be redirected to the next step, otherwise you'll be asked to enter a new verification code.
 
-1.  If this is the only two-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated. Copy and store the [recovery code](#recovery-code) in a safe place.
+1.  The setup process ends here if you have an alternative multi-factor authentication method already set up; however if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated. Copy and store the [recovery code](#recovery-code) in a safe place.
 
-    ![Two-factor recovery code](/files/2fa-recovery-code.png)
+    ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)      
 
-1.  Follow the instructions to complete the setup and activate two-factor authentication.
+1.  Follow the instructions to complete the setup and activate the multi-factor authentication method.
+
+    ![Multi-factor recovery code](/files/user-mfa-authenticator-confirm-recovery-code.png)
+
+</div>
 
 </div>
 
