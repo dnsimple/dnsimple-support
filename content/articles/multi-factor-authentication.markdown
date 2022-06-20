@@ -54,6 +54,40 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
 </div>
 
+<div class="section-steps" markdown="1">
+##### To enable multi-factor authentication using a security key
+
+1.  Log in to DNSimple with your user credentials.
+1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+
+    ![Settings menu](/files/access-user-settings.jpg)
+
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on "Connect a security key to your user." to connect a new security key to your user profile
+
+    ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
+
+1.  Enter a nickname to help you identify the security key that you are registering.
+
+    ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
+
+    However, if the is the first multi-factor authentication method you are setting up, the following screen will be shown instead, because a [recovery code](#recovery-code) will be generated. Copy and store the [recovery code](#recovery-code) in a safe place.
+
+    ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
+
+1.  Click on the "Register Key" button if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
+
+    However if this is the only multi-factor authentication method you have set up, you will see a "Continue" button instead of "Register Key". You will need to click on "Continue" to confirm the recovery code before you can complete the security key setup process.
+
+
+1.  Fill in the form with the recovery code and click the "Confirm recovery and register key" button. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it.
+
+    ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
+
+
+<note>
+Some security key types, like Touch ID on Mac, may be tied to a browser. For example, to use Touch ID on both Chrome and Safari browsers, you may need to register a Touch ID security key in Chrome and also in Safari.
+</note>
+
 </div>
 
 ## Disabling a multi-factor authentication method {#disable}
