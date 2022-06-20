@@ -52,22 +52,25 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
 </div>
 
+## Disabling a multi-factor authentication method {#disable}
 
-## Disabling two-factor authentication {#disable}
+You can remove an authenticator application or security keys that are associated with your user profile, if any. However, you must have at least one of them enabled at any time.
 
 <div class="section-steps" markdown="1">
-##### To disable two-factor authentication
+##### To disable an authenticator application
 
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
     ![Settings menu](/files/access-user-settings.jpg)
 
-1.  Scroll down until you see the <label>Two-factor authentication</label> section. Follow <label>Disable 2FA</label> to go to the confirmation page.
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Delete</label> button next to the displayed Authenticator app configuration to go on to the confirmation page.
 
-    ![Disable two-factor authentication](/files/user-2fa-disable-link.png)
+    ![Disable authenticator](/files/user-mfa-disable-authenticator.png)
 
-1.  Click <label>Disable</label> to confirm and disable two-factor authentication.
+1.  On the confirmation page, use the authenticator app to generate a new verification code, and enter your code. Click <label>Disable Two-Factor authentication</label> to confirm and disable two-factor authentication.
+
+    ![Confirm disabling of authenticator](/files/user-mfa-disable-authenticator-confirmation.png)
 </div>
 
 
