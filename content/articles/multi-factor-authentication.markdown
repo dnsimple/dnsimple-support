@@ -106,9 +106,26 @@ You can remove an authenticator application or security keys that are associated
 
     ![Disable authenticator](/files/user-mfa-disable-authenticator.png)
 
-1.  On the confirmation page, use the authenticator app to generate a new verification code, and enter your code. Click <label>Disable Two-Factor authentication</label> to confirm and disable two-factor authentication.
+1.  On the confirmation page, use the authenticator app to generate a new verification code, and enter your code. Click <label>Disable Two-Factor authentication</label> to confirm and disable multi-factor authentication via the authenticator application.
 
     ![Confirm disabling of authenticator](/files/user-mfa-disable-authenticator-confirmation.png)
+</div>
+
+<div class="section-steps" markdown="1">
+##### To disable a security key
+
+1.  Log in to DNSimple with your user credentials.
+1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+
+    ![Settings menu](/files/access-user-settings.jpg)
+
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Delete</label> button next to the security key you would like to disable, to go on to the confirmation page.
+
+    ![Disable security key](/files/user-mfa-delete-security-key.png)
+
+1.  On the confirmation page, click <label>Confirm deletion</label>. You will be prompted to activate the same security key, to confirm its deletion as a multi-factor authentication method.
+
+    ![Confirm disabling of security key](/files/user-mfa-delete-security-key-confirmation.png)
 </div>
 
 ## Logging in with multi-factor authentication {#login}
