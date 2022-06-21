@@ -183,15 +183,15 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 
 1.  Log in to DNSimple with your user credentials.
 
-1.  On the two-factor authentication page, follow <label>I can't use my authenticator app</label>.
+1.  On the multi-factor authentication page, click <label>Use recovery code</label>.
 
-    ![](/files/2fa-recovery-link.png)
+    ![](/files/user-mfa-login-recovery-code.png)
 
 1.  Enter the recovery code and confirm.
 
-    ![](/files/2fa-recovery.png)
+    ![](/files/user-mfa-disable-with-recovery-code.png)
 
-1.  If the recovery code is correct, the two-factor authentication protection will immediately be disabled for the account.
+1.  If the recovery code is correct, multi-factor authentication protection will immediately be disabled for the account.
 </div>
 
 
@@ -211,6 +211,11 @@ There are lots of time-based multi-factor authentication apps that generate veri
 - [Google Authenticator](https://support.google.com/accounts/answer/1066447) for Android, Blackberry, and iOS devices
 - [1password](https://agilebits.com/onepassword) for Mac, iOS devices, and Windows
 - [Microsoft Authenticator](http://www.windowsphone.com/en-us/store/app/authenticator/e7994dbc-2336-4950-91ba-ca22d653759b) for Windows Phone
+
+
+## Security keys {#security-keys}
+
+DNSimple's security key-based multi-factor authentication implementation is based on the [WebAuthn](https://www.w3.org/TR/webauthn-2/) API.
 
 
 ## Best Practices for Multi-Factor Authentication
