@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Multi-Factor authentication](/articles/multi-factor-authentication/) provides an extra level of security to protect your user credentials. You can enforce Multi-Factor authentication for account members by enabling the feature on the account.
+[Multi-Factor authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce Multi-Factor authentication for account members by enabling the feature on the account.
 
 When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
 
@@ -67,7 +67,7 @@ If you disable Multi-Factor authentication, you will be removed from all account
 </warning>
 
 
-## Inviting new people into an 2FA enforcing team
+## Inviting new people into an MFA enforcing team
 
 There are no restrictions on inviting new people to your account. When you invite users to join your account that don't have an DNSimple account, they'll be asked to enable Multi-Factor authentication after they sign up so they can join your account.
 
