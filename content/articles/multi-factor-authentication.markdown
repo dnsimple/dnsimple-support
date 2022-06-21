@@ -31,7 +31,7 @@ Before proceeding, make sure to install a one-time password authenticator applic
 When you enable multi-factor authentication for your user profile, you'll be logged out of all currently logged-in devices.
 
 <div class="section-steps" markdown="1">
-##### To enable multi-factor authentication with one-time passwords
+##### To enable multi-factor authentication with one-time password
 
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
@@ -187,11 +187,11 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 
 1.  Log in to DNSimple with your user credentials.
 
-1.  On the multi-factor authentication page, click <label>Use recovery code</label>.
+1.  On the 2-Step Verification page, click <label>Use recovery code</label>.
 
     ![](/files/user-mfa-login-recovery-code.png)
 
-1.  Enter the recovery code and confirm.
+1.  Enter the recovery code and click <label>Log in and disable all multi-factor authentications</label>.
 
     ![](/files/user-mfa-disable-with-recovery-code.png)
 
@@ -208,7 +208,7 @@ If [an account has multiple users](/articles/account-users), each member must en
 
 ## One-time password authenticator applications {#authenticator}
 
-DNSimple's one-time password-based multi-factor authentication implementation is based on [RFC6238](https://tools.ietf.org/html/rfc6238), also known as time-based one-time password (TOTP). Any authenticator application compatible with this specification can be used to generate a DNSimple multi-factor verification code.
+DNSimple's one-time password-based multi-factor authentication implementation is based on [RFC6238](https://tools.ietf.org/html/rfc6238), also known as time-based one-time password (TOTP). Any authenticator application compatible with this specification can be used to generate a DNSimple one-time password.
 
 There are lots of time-based authenticator apps that generate one-time password verification codes. Here are some we recommend:
 
@@ -221,14 +221,14 @@ There are lots of time-based authenticator apps that generate one-time password 
 
 DNSimple's security key-based multi-factor authentication implementation is based on the [WebAuthn](https://www.w3.org/TR/webauthn/) standard.
 
-Both platform, e.g. [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/mac), and cross-platform authenticators, e.g. [YubiKey](https://www.yubico.com/products/), which are compatible with WebAuthn are supported.
+Both platform authenticators, e.g. [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/mac), and cross-platform authenticators, e.g. [YubiKey](https://www.yubico.com/products/), which are compatible with WebAuthn are supported.
 
 
 ## Best Practices for Multi-Factor Authentication
 
 To benefit from true multi-factor authentication, you must keep your one-time password authenticator application or security key, and your primary user credentials separate. For example, if you use your mobile device as your one-time password authenticator, you shouldn't have your primary user credentials on your mobile device.
 
-If you decide to use your mobile device as both your one-time password authenticator and for accessing DNSimple, you still get the added benefit of a one-time password for log in should your credentials be compromised, but you won't benefit from true multi-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
+If you decide to use your mobile device as both your security key or one-time password authenticator and device for accessing DNSimple, you still get the added benefit of a second verification step for log in should your credentials be compromised, but you won't benefit from true multi-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
 
 
 ## Troubleshooting multi-factor authentication {#troubleshooting}
