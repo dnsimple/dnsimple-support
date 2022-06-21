@@ -78,12 +78,12 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
 
-1.  Click on the "Register Key" button that you will see if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
+1.  Click on the <label>Register Key</label> button that you will see if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
 
-    However if this is the only multi-factor authentication method you have set up, you will see a "Continue" button instead of "Register Key". You will need to click on "Continue" to confirm the recovery code before you can complete the security key setup process.
+    However if this is the only multi-factor authentication method you have set up, you will see a <label>Continue</label> button instead of <label>Register Key</label>. You will need to click on <label>Continue</label> to confirm the recovery code before you can complete the security key setup process.
 
 
-1.  Fill in the form with the recovery code and click the "Confirm recovery and register key" button. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it.
+1.  Fill in the form with the recovery code and click the <label>Confirm recovery and register key</label> button. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it.
 
     ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
 
@@ -142,7 +142,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 
 1.  If the credentials are correct, you'll see a 2-Step Verification window which may look different depending on whether you also have a security key enabled.
 
-    If you also have a security key enabled as a multi-factor authentication method, it will be the default authentication method displayed. Click "Use one-time password" to switch to using a one-time password for the second verification step.
+    If you also have a security key enabled as a multi-factor authentication method, it will be the default authentication method displayed. Click <label>Use one-time password</label> to switch to using a one-time password for the second verification step.
 
     ![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
 
@@ -167,7 +167,7 @@ The verification code automatically expires every 30 seconds. If the expiration 
 
     ![Multi-factor authentication](/files/mfa-login-security-key.png)
 
-1.  Click on "Log in", select the type of security key you will be activating, and activate the security key.
+1.  Click on <label>Log in</label>, select the type of security key you will be activating, and activate the security key.
 
 </div>
 
