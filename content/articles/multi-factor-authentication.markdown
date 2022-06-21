@@ -20,14 +20,18 @@ Multi-factor authentication is a security measure that helps protect you from un
 
 ## Enabling multi-factor authentication {#enable}
 
-You can enable multi-factor authentication from your user page, either by linking an [authenticator application](#authenticator) or a [security key](#security-keys) that is compatible with [WebAuthn](https://webauthn.guide/) to your user profile.
+DNSimple supports multi-factor authentication using the following methods as a second verification step:
+- Time-based one-time passwords
+- WebAuthn-compatible security keys
 
-Before proceeding, make sure to install an authenticator application if you will be using it for multi-factor authentication, as you'll need it to generate a verification code to complete the setup. Or, if you will be using a security key, please have it on-hand in order to complete the security key registration.
+You can enable multi-factor authentication from your user page, either by linking a [one-time password authenticator application](#authenticator) or a [security key](#security-keys) that is compatible with [WebAuthn](https://webauthn.guide/) to your user profile.
+
+Before proceeding, make sure to install a one-time password authenticator application if you will be using one-time passwords for multi-factor authentication, as you'll need it to generate a verification code to complete the setup. Or, if you will be using a security key, please have it on-hand in order to complete the security key registration.
 
 When you enable multi-factor authentication for your user profile, you'll be logged out of all currently logged-in devices.
 
 <div class="section-steps" markdown="1">
-##### To enable multi-factor authentication using an authenticator application
+##### To enable multi-factor authentication with one-time passwords
 
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
@@ -36,26 +40,26 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
 1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on "Connect an authenticator app that generates verification codes."
 
-    ![Enable multi-factor authentication with authenticator](/files/user-mfa-enable-mfa-with-authenticator.png)
+    ![Enable multi-factor authentication with one-time password](/files/user-mfa-enable-mfa-with-authenticator.png)
 
-1.  Scan the barcode using an [authenticator app](#authenticator). You can also manually enter the secret code in your authenticator app, just click on <label>Can't scan the barcode</label>, and type the code into your authenticator.
+1.  Scan the barcode using a [one-time password authenticator app](#authenticator). You can also manually enter the secret code in your authenticator app, just click on <label>Can't scan the barcode</label>, and type the code into your authenticator.
 
     ![Multi-factor barcode](/files/user-mfa-barcode.png)
 
-1.  Using the authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Next step</label> to confirm. If the verification code is correct, you'll be redirected to the next step, otherwise you'll be asked to enter a new verification code.
+1.  Using the one-time password authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Next step</label> to confirm. If the verification code is correct, you'll be redirected to the next step, otherwise you'll be asked to enter a new verification code.
 
-1.  The setup process ends here if you have an alternative multi-factor authentication method already set up; however if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated. Copy and store the [recovery code](#recovery-code) in a safe place.
+1.  The setup process ends here if you have an alternative multi-factor authentication method already set up; however if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated and you will need to confirm the recovery code. Copy and store the [recovery code](#recovery-code) in a safe place.
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)      
 
-1.  Follow the instructions to complete the setup and activate the multi-factor authentication method.
+1.  Follow the instructions to complete the setup and activate multi-factor authentication via one-time passwords.
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-confirm-recovery-code.png)
 
 </div>
 
 <div class="section-steps" markdown="1">
-##### To enable multi-factor authentication using a security key
+##### To enable multi-factor authentication with a security key
 
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
@@ -70,11 +74,11 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
 
-    However, if the is the first multi-factor authentication method you are setting up, the following screen will be shown instead, because a [recovery code](#recovery-code) will be generated. Copy and store the [recovery code](#recovery-code) in a safe place.
+    However, if the is the first multi-factor authentication method you are setting up, the following screen will be shown instead, because a [recovery code](#recovery-code) will be generated and you will need to confirm it. Copy and store the [recovery code](#recovery-code) in a safe place.
 
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
 
-1.  Click on the "Register Key" button if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
+1.  Click on the "Register Key" button that you will see if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you would like to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
 
     However if this is the only multi-factor authentication method you have set up, you will see a "Continue" button instead of "Register Key". You will need to click on "Continue" to confirm the recovery code before you can complete the security key setup process.
 
@@ -92,10 +96,10 @@ Some security key types, like Touch ID on Mac, may be tied to a browser. For exa
 
 ## Disabling a multi-factor authentication method {#disable}
 
-You can remove an authenticator application or security keys that are associated with your user profile, if any. However, you must have at least one of them enabled at any time.
+You can remove a one-time password authenticator application or security keys that are associated with your user profile, if any. However, you must have at least one of them enabled at any time.
 
 <div class="section-steps" markdown="1">
-##### To disable an authenticator application
+##### To disable a one-time password authenticator application
 
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
@@ -129,24 +133,24 @@ You can remove an authenticator application or security keys that are associated
 </div>
 
 ## Logging in with multi-factor authentication {#login}
-When multi-factor protection is enabled, you must perform a second verification step each time you log in with your email and password. The second verification step can be done with an authentication method you have enabled, such as an authenticator application or a security key. 
+When multi-factor protection is enabled, you must perform a second verification step each time you log in with your username and password. The second verification step can be done with an authentication method you have enabled, such as one-time passwords or security keys. 
 
 <div class="section-steps" markdown="1">
-##### Using an authenticator application
+##### Using a one-time password
 
-1.  Log in to DNSimple with your email address and password.
+1.  Log in to DNSimple with your username and password.
 
-1.  If the credentials are correct, you'll see a multi-factor authentication window which may look different depending on whether you also have a security key enabled.
+1.  If the credentials are correct, you'll see a 2-Step Verification window which may look different depending on whether you also have a security key enabled.
 
-    If you have both an authenticator application and a security key enabled as multi-factor authentication methods, click "Use one-time password" to use an authenticator application for the second verification step.
+    If you also have a security key enabled as a multi-factor authentication method, it will be the default authentication method displayed. Click "Use one-time password" to switch to using a one-time password for the second verification step.
 
     ![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
 
-    If you only have an authenticator application enabled, you will see the following multi-factor authentication window immediately:
+    If you do not have security keys enabled, you will see the following 2-Step Verification window immediately:
 
     ![Multi-factor authentication](/files/mfa-login-authenticator.png)
 
-1.  Use your authenticator app to generate a verification code, paste the verification code into the form and submit to complete the 2-step login verification process.
+1.  Use your one-time password authenticator app to generate a verification code, paste the verification code into the form and submit to complete the 2-step login verification process.
 
 <note>
 The verification code automatically expires every 30 seconds. If the expiration is close to five seconds or less, you should wait for the next verification code to limit the possibility of an authentication failure.
@@ -157,9 +161,9 @@ The verification code automatically expires every 30 seconds. If the expiration 
 <div class="section-steps" markdown="1">
 ##### Using a security key
 
-1.  Log in to DNSimple with your email address and password.
+1.  Log in to DNSimple with your username and password.
 
-1.  If the credentials are correct, you'll see a multi-factor authentication window. 
+1.  If the credentials are correct, you'll see a 2-Step Verification window. 
 
     ![Multi-factor authentication](/files/mfa-login-security-key.png)
 
@@ -170,13 +174,13 @@ The verification code automatically expires every 30 seconds. If the expiration 
 
 ## Recovery code {#recovery}
 
-When you enable multi-factor authentication, a recovery code is created as a safeguard. Use the recovery code to disable multi-factor authentication when you can't generate a token with the authenticator app or activate your registered security key. For example, because you lost the security key or the device where the authenticator was installed.
+When you enable your first multi-factor authentication method, a recovery code is created as a safeguard. Use the recovery code to disable multi-factor authentication when you can't generate a one-time password with your authenticator app or activate your registered security key. For example, because you lost the security key or the device where the authenticator was installed.
 
 <warning>
 The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a safe, secure place. We cannot disable multi-factor authentication without this recovery code.
 </warning>
 
-When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a authenticator application or security key to your user profile. A new recovery code will be generated for you then.
+When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated for you then.
 
 <div class="section-steps" markdown="1">
 ##### Disabling multi-factor authentication using the recovery code
@@ -202,11 +206,11 @@ Multi-factor protection is attached to a user profile, not an account, just like
 If [an account has multiple users](/articles/account-users), each member must enable multi-factor authentication separately. If your user profile has access to more than one account, you only need to enable multi-factor once.
 
 
-## Authenticator applications {#authenticator}
+## One-time password authenticator applications {#authenticator}
 
-DNSimple's authenticator application-based multi-factor authentication implementation is based on [RFC6238](https://tools.ietf.org/html/rfc6238), also known as time-based one-time password (TOTP). Any application compatible with this specification can be used to generate a DNSimple multi-factor verification code.
+DNSimple's one-time password-based multi-factor authentication implementation is based on [RFC6238](https://tools.ietf.org/html/rfc6238), also known as time-based one-time password (TOTP). Any authenticator application compatible with this specification can be used to generate a DNSimple multi-factor verification code.
 
-There are lots of time-based multi-factor authentication apps that generate verification codes. Here are some we recommend:
+There are lots of time-based authenticator apps that generate one-time password verification codes. Here are some we recommend:
 
 - [Google Authenticator](https://support.google.com/accounts/answer/1066447) for Android, Blackberry, and iOS devices
 - [1password](https://agilebits.com/onepassword) for Mac, iOS devices, and Windows
@@ -217,31 +221,31 @@ There are lots of time-based multi-factor authentication apps that generate veri
 
 DNSimple's security key-based multi-factor authentication implementation is based on the [WebAuthn](https://www.w3.org/TR/webauthn/) standard.
 
-Both platform, e.g. [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/mac), and cross-platform authenticators, e.g. [YubiKey](https://www.yubico.com/products/), compatible with WebAuthn are supported.
+Both platform, e.g. [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/mac), and cross-platform authenticators, e.g. [YubiKey](https://www.yubico.com/products/), which are compatible with WebAuthn are supported.
 
 
 ## Best Practices for Multi-Factor Authentication
 
-To benefit from true multi-factor authentication, you must keep your token generator or security key, and your primary user credentials separate. For example, if you use your mobile device as your token generator, you shouldn't have your primary user credentials on your mobile device.
+To benefit from true multi-factor authentication, you must keep your one-time password authenticator application or security key, and your primary user credentials separate. For example, if you use your mobile device as your one-time password authenticator, you shouldn't have your primary user credentials on your mobile device.
 
-If you decide to use your mobile device as both your token generator and for accessing DNSimple, you still get the added benefit of a one-time password for log in should your credentials be compromised, but you won't benefit from true multi-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
+If you decide to use your mobile device as both your one-time password authenticator and for accessing DNSimple, you still get the added benefit of a one-time password for log in should your credentials be compromised, but you won't benefit from true multi-factor authentication. It's up to you to decide what level of security is important for you and your accounts.
 
 
 ## Troubleshooting multi-factor authentication {#troubleshooting}
 
 #### Ensuring your phone's date and time synchronized
 
-One-time password authentication verification codes are based on time and thus require the time on your phone to be in-sync with the official time. Otherwise, your authenticator app will generate a mismatching code. If your phone's time is out of sync, or if you have changed time zones, the best way to fix it is to change the time settings on your phone from "Manual" to "Automatic".
+One-time password verification codes are based on time and thus require the time on your phone to be in-sync with the official time. Otherwise, your authenticator app will generate a mismatching code. If your phone's time is out of sync, or if you have changed time zones, the best way to fix it is to change the time settings on your phone from "Manual" to "Automatic".
 
 - [This article from Apple's help centre will provide steps for iOS](https://support.apple.com/en-ie/HT203483).
 - Changing this setting on Android may vary, but a [general guide can be found here](https://squareup.com/help/us/en/article/5288-update-date-time-on-your-device).
 - You can also try the [Time Sync feature if you use Google Authenticator for Android](https://support.google.com/accounts/answer/2653433).
 
-#### Using a freshly-generated authentication code
+#### Using a freshly-generated one-time password verification code
 
-Sometimes, a one-time password authentication verification code may not be accepted, despite entering it correctly. This most often occurs when the original token was close to expiration.
+Sometimes, a one-time password verification code may not be accepted, despite entering it correctly. This most often occurs when the original token was close to expiration.
 
-The verification code automatically expires every 30 seconds. Most authenticator apps display a count-down with the remaining time before expiration.
+The verification code automatically expires every 30 seconds. Most one-time password authenticator apps display a count-down with the remaining time before expiration.
 
 ![](/files/2fa-code-expiration.png)
 
