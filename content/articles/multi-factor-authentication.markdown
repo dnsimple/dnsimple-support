@@ -38,7 +38,7 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Settings menu](/files/access-user-settings.jpg)
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on "Connect an authenticator app that generates verification codes."
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on <label>Connect an authenticator app that generates verification codes</label>.
 
     ![Enable multi-factor authentication with one-time password](/files/user-mfa-enable-mfa-with-authenticator.png)
 
@@ -46,13 +46,13 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Multi-factor barcode](/files/user-mfa-barcode.png)
 
-1.  Using the one-time password authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Next step</label> to confirm. If the verification code is correct, you'll be redirected to the next step, otherwise you'll be asked to enter a new verification code.
+1.  Using the one-time password authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Continue</label> to confirm. If the verification code is correct, you'll be redirected to the next step, otherwise you'll be asked to enter a new verification code.
 
 1.  The setup process ends here if you have an alternative multi-factor authentication method already set up; however if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated and you will need to confirm the recovery code. Copy and store the [recovery code](#recovery-code) in a safe place.
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)      
 
-1.  Follow the instructions to complete the setup and activate multi-factor authentication via one-time passwords.
+1.  Follow the instructions to complete the setup and activate multi-factor authentication via one-time password.
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-confirm-recovery-code.png)
 
@@ -66,7 +66,7 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Settings menu](/files/access-user-settings.jpg)
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on "Connect a security key to your user." to connect a new security key to your user profile
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on <label>Connect a security key to your user</label> to connect a new security key to your user profile.
 
     ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
 
@@ -74,7 +74,7 @@ When you enable multi-factor authentication for your user profile, you'll be log
 
     ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
 
-    However, if the is the first multi-factor authentication method you are setting up, the following screen will be shown instead, because a [recovery code](#recovery-code) will be generated and you will need to confirm it. Copy and store the [recovery code](#recovery-code) in a safe place.
+    Note that if this is the first multi-factor authentication method you are setting up, the screen will look slightly different, as-below, because a [recovery code](#recovery-code) will be generated and you will need to confirm it. Copy and store the [recovery code](#recovery-code) in a safe place.
 
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
 
