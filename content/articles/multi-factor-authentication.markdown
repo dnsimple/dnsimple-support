@@ -20,7 +20,7 @@ Multi-factor authentication is a security measure that helps protect you from un
 
 ## Enabling multi-factor authentication {#enable}
 
-You can enable multi-factor authentication from your user page, either by linking an [authenticator application](#authenticator) or a security key that is compatible with [WebAuthn](https://webauthn.guide/) to your user profile.
+You can enable multi-factor authentication from your user page, either by linking an [authenticator application](#authenticator) or a [security key](#security-keys) that is compatible with [WebAuthn](https://webauthn.guide/) to your user profile.
 
 Before proceeding, make sure to install an authenticator application if you will be using it for multi-factor authentication, as you'll need it to generate a verification code to complete the setup. Or, if you will be using a security key, please have it on-hand in order to complete the security key registration.
 
@@ -215,7 +215,9 @@ There are lots of time-based multi-factor authentication apps that generate veri
 
 ## Security keys {#security-keys}
 
-DNSimple's security key-based multi-factor authentication implementation is based on the [WebAuthn](https://www.w3.org/TR/webauthn-2/) API.
+DNSimple's security key-based multi-factor authentication implementation is based on the [WebAuthn](https://www.w3.org/TR/webauthn/) standard.
+
+Both platform, e.g. [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/mac), and cross-platform authenticators, e.g. [YubiKey](https://www.yubico.com/products/), compatible with WebAuthn are supported.
 
 
 ## Best Practices for Multi-Factor Authentication
