@@ -111,36 +111,44 @@ You can remove an authenticator application or security keys that are associated
     ![Confirm disabling of authenticator](/files/user-mfa-disable-authenticator-confirmation.png)
 </div>
 
+## Logging in with multi-factor authentication {#login}
+When multi-factor protection is enabled, you must perform a second verification step each time you log in with your email and password. The second verification step can be done with an authentication method you have enabled, such as an authenticator application or a security key. 
 
-## Logging in with multi-factor authentication using an authenticator application {#login-using-authenticator}
+<div class="section-steps" markdown="1">
+##### Using an authenticator application
 
-When multi-factor protection is enabled, if you would like to use an authenticator application to complete the second verification step, you must enter a verification code each time you log in with your username and password. To log in, enter your username and password and confirm.
+1.  Log in to DNSimple with your email address and password.
 
-If the credentials are correct, you'll see a multi-factor authentication window which may look different depending on whether you also have a security key enabled.
+1.  If the credentials are correct, you'll see a multi-factor authentication window which may look different depending on whether you also have a security key enabled.
 
-If you have both an authenticator application and a security key enabled, click "Use one-time password" to use an authenticator application for the second verification step.
+    If you have both an authenticator application and a security key enabled as multi-factor authentication methods, click "Use one-time password" to use an authenticator application for the second verification step.
 
-![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
+    ![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
 
-If you only have an authenticator application enabled, you will see the following multi-factor authentication window immediately:
+    If you only have an authenticator application enabled, you will see the following multi-factor authentication window immediately:
 
-![Multi-factor authentication](/files/mfa-login-authenticator.png)
+    ![Multi-factor authentication](/files/mfa-login-authenticator.png)
 
-Use your authenticator app to generate a verification code, paste the verification code into the form and submit.
+1.  Use your authenticator app to generate a verification code, paste the verification code into the form and submit to complete the 2-step login verification process.
 
 <note>
 The verification code automatically expires every 30 seconds. If the expiration is close to five seconds or less, you should wait for the next verification code to limit the possibility of an authentication failure.
 </note>
 
-## Logging in with multi-factor authentication using a security key {#login-using-security-key}
+</div>
 
-When multi-factor protection is enabled, if you would like to use a security key to complete the second verification step, you will need to activate your security key each time you log in with your username and password. To log in, enter your username and password and confirm.
+<div class="section-steps" markdown="1">
+##### Using a security key
 
-If the credentials are correct, you'll see a multi-factor authentication window:
+1.  Log in to DNSimple with your email address and password.
 
-![Multi-factor authentication](/files/mfa-login-security-key.png)
+1.  If the credentials are correct, you'll see a multi-factor authentication window. 
 
-Click on "Log in", select the type of security key you will be activating, and activate the security key.
+    ![Multi-factor authentication](/files/mfa-login-security-key.png)
+
+1.  Click on "Log in", select the type of security key you will be activating, and activate the security key.
+
+</div>
 
 
 ## Recovery code {#recovery}
