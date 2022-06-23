@@ -94,7 +94,11 @@ If you don't want to use Secondary DNS via AXFR, you can click the <label>Delete
 
 To set up your secondary provider, give them the server that will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name, others will ask for an IP address.
 
-The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP address on that node is 50.31.225.92. Please prefer the host name whenever possible. If the IP address should change, we'll inform you in advance using your account email.
+The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addresses on that node are:
+- 50.31.225.92
+- 2001:1838:4000:402::a
+
+Please prefer the host name whenever possible. If any of these IP addresses should change, we'll inform you in advance using your account email.
 
 
 ## Frequently Asked Questions
