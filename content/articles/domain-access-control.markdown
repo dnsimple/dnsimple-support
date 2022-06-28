@@ -79,6 +79,6 @@ This is for user tokens only. Account tokens currently still have full access, s
 
 ## Conclusion
 
-With Domain Access Control you now have more control over who on your team can access and manage your organization's domains. You can ensure domain access is limited based on your needs. Combined with other DNSimple security features, like two-factor authentication and activity logging, your domains remain secure in your DNSimple account.
+With Domain Access Control you now have more control over who on your team can access and manage your organization's domains. You can ensure domain access is limited based on your needs. Combined with other DNSimple security features, like multi-factor authentication and activity logging, your domains remain secure in your DNSimple account.
 
 If you're interested in limiting access to other parts of your DNSimple accounts, please [reach out](https://dnsimple.com/contact), and let us know.

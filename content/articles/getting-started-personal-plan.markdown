@@ -23,7 +23,7 @@ This guide will help you get started with your DNSimple Personal Plan as quickly
 ## Step 1: Preparing your account
 
 1. [Account activation](/articles/account-activation/) is easy and includes a free 30-day trial. You can cancel at any time during your 30-day trial without being charged. During the course of your trial, you're free to [change plans](/articles/changing-plans/) to try different features.
-2. Secure your account with [two-factor authentication](/articles/two-factor-authentication/). Two-factor authentication is a security measure that helps protect you from unwanted access to your account and increases the security of your data.
+2. Secure your account with [multi-factor authentication](/articles/multi-factor-authentication/). Multi-factor authentication is a security measure that helps protect you from unwanted access to your account and increases the security of your data.
 3. Learn how to read and [understand your DNSimple invoice](/articles/understanding-invoice/).
 
 ## Step 2: Adding your domains
