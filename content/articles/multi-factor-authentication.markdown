@@ -174,7 +174,7 @@ The verification code automatically expires every 30 seconds. If the expiration 
 
 ## Recovery code {#recovery}
 
-When you enable your first MFA method, a recovery code is created as a safeguard. Use the recovery code to disable MFA when you can't generate a one-time password with your authenticator app or activate your registered security key. For example, because you lost the security key or the device where the authenticator was installed.
+When you enable your first MFA method, a recovery code is created as a safeguard. Use the recovery code to disable MFA when you can't generate a one-time password with your authenticator app or activate your registered security key, or when you can't disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed.
 
 <warning>
 The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a safe, secure place. **We cannot disable multi-factor authentication without this recovery code.**
@@ -182,8 +182,12 @@ The recovery code **is the only way to recover access to your account** if you c
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated for you then.
 
+<warning>
+**All security keys and any one-time password-based MFA methods configured will be removed when you disable MFA using your recovery code.**
+</warning>
+
 <div class="section-steps" markdown="1">
-##### Disabling multi-factor authentication using the recovery code
+##### Disabling multi-factor authentication during login using the recovery code
 
 1.  Log in to DNSimple with your user credentials.
 
@@ -198,6 +202,25 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
 
+You can also disable MFA by using your recovery code when you are not able to [remove](#disable) a one-time password-based or security-key based MFA method.
+
+<div class="section-steps" markdown="1">
+##### Disabling multi-factor authentication to remove a one-time password or security key MFA method
+
+1.  Log in to DNSimple
+
+1.  Follow the steps to [remove](#disable) a one-time password-based or security-key based MFA method.
+
+1.  Click on the link to <label>disable multi-factor authentication</label>.
+
+    ![](/files/user-mfa-disable-with-recovery-code-after-login.png)
+
+1.  Fill in the recovery code and click on <label>Reset all multi-factor methods</label>.
+
+    ![](/files/user-mfa-reset-all-mfa.png)
+
+1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
+</div>
 
 ## Multiple accounts
 
