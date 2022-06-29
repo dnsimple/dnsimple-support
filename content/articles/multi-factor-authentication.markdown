@@ -207,19 +207,43 @@ You can also disable MFA by using your recovery code when you are not able to [r
 <div class="section-steps" markdown="1">
 ##### Disabling multi-factor authentication to remove a one-time password or security key MFA method
 
-1.  Log in to DNSimple
+1.  Log in to DNSimple with your user credentials.
 
 1.  Follow the steps to [remove](#disable) a one-time password-based or security-key based MFA method.
 
 1.  Click on the link to <label>disable multi-factor authentication</label>.
 
-    ![](/files/user-mfa-disable-with-recovery-code-after-login.png)
+    ![Disable recovery code](/files/user-mfa-disable-with-recovery-code-after-login.png)
 
 1.  Fill in the recovery code and click on <label>Reset all multi-factor methods</label>.
 
-    ![](/files/user-mfa-reset-all-mfa.png)
+    ![Reset all MFA](/files/user-mfa-reset-all-mfa.png)
 
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
+</div>
+
+Recovery codes can be re-generated. When a recovery code is re-generated, any previously generated recovery codes will not be usable anymore for disabling MFA.
+
+<div class="section-steps" markdown="1">
+##### Re-generating a recovery code
+
+1.  Log in to DNSimple with your user credentials.
+
+1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+
+    ![Settings menu](/files/access-user-settings.jpg)
+
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Re-generate</label> button next to the existing recovery code, to go on to the confirmation page.
+
+    ![Regenerate recovery code](/files/user-mfa-regenerate-recovery-code.png)
+
+1.  Store your new recovery code in a safe place and click on <label>Next</label>.
+
+    ![Store recovery code](/files/user-mfa-regenerate-recovery-code-continue.png)
+
+1.  Fill in the recovery code and click on <label>Re-generate recovery code</label> to complete the recovery code re-generation.
+
+    ![Confirm recovery code](/files/user-mfa-regenerate-recovery-code-confirm.png)
 </div>
 
 ## Multiple accounts
