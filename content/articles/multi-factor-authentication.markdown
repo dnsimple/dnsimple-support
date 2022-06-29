@@ -211,7 +211,7 @@ You can also disable MFA by using your recovery code when you are not able to [r
 
 1.  Follow the steps to [remove](#disable) a one-time password-based or security-key based MFA method.
 
-1.  Click on the link to <label>disable multi-factor authentication</label>.
+1.  On the one-time password or security key removal confirmation page, click on the <label>disable multi-factor authentication</label> link.
 
     ![Disable recovery code](/files/user-mfa-disable-with-recovery-code-after-login.png)
 
@@ -233,11 +233,11 @@ Recovery codes can be re-generated. When a recovery code is re-generated, any pr
 
     ![Settings menu](/files/access-user-settings.jpg)
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Re-generate</label> button next to the existing recovery code, to go on to the confirmation page.
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Re-generate</label> button next to the existing recovery code.
 
     ![Regenerate recovery code](/files/user-mfa-regenerate-recovery-code.png)
 
-1.  Store your new recovery code in a safe place and click on <label>Next</label>.
+1.  You will see a new recovery code displayed. Store the new recovery code in a safe place and click on <label>Next</label> to confirm the re-generation of your recovery code.
 
     ![Store recovery code](/files/user-mfa-regenerate-recovery-code-continue.png)
 
