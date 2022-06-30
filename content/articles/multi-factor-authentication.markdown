@@ -183,7 +183,7 @@ The recovery code **is the only way to recover access to your account** if you c
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated for you then.
 
 <warning>
-**All security keys and any one-time password-based MFA methods configured will be removed when you disable MFA using your recovery code.**
+**All security keys and any one-time password-based MFA methods configured will be removed when you use your recovery code to disable MFA.**
 </warning>
 
 <div class="section-steps" markdown="1">
@@ -202,14 +202,14 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
 
-You can also disable MFA by using your recovery code when you are not able to [remove](#disable) a one-time password-based or security-key based MFA method.
+You can also use your recovery code to disable MFA when you can't [remove](#disable) a one-time password-based or security key-based MFA method.
 
 <div class="section-steps" markdown="1">
 ##### Disabling multi-factor authentication to remove a one-time password or security key MFA method
 
 1.  Log in to DNSimple with your user credentials.
 
-1.  Follow the steps to [remove](#disable) a one-time password-based or security-key based MFA method.
+1.  Follow the steps to [remove](#disable) a one-time password-based or security key-based MFA method.
 
 1.  On the one-time password or security key removal confirmation page, click on the <label>disable multi-factor authentication</label> link.
 
@@ -222,7 +222,7 @@ You can also disable MFA by using your recovery code when you are not able to [r
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
 
-Recovery codes can be re-generated. When a recovery code is re-generated, any previously generated recovery codes will not be usable anymore for disabling MFA.
+Recovery codes can be re-generated. When a recovery code is re-generated, you cannot use any previously-generated recovery codes to disable MFA.
 
 <div class="section-steps" markdown="1">
 ##### Re-generating a recovery code
