@@ -215,7 +215,7 @@ You can also use your recovery code to disable MFA when you can't [remove](#disa
 
     ![Disable recovery code](/files/user-mfa-disable-with-recovery-code-after-login.png)
 
-1.  Fill in the recovery code and click on <label>Reset all multi-factor methods</label>.
+1.  Fill in the recovery code, and click on <label>Reset all multi-factor methods</label>.
 
     ![Reset all MFA](/files/user-mfa-reset-all-mfa.png)
 
@@ -237,11 +237,11 @@ Recovery codes can be re-generated. When a recovery code is re-generated, you ca
 
     ![Regenerate recovery code](/files/user-mfa-regenerate-recovery-code.png)
 
-1.  You will see a new recovery code displayed. Store the new recovery code in a safe place and click on <label>Next</label> to confirm the re-generation of your recovery code.
+1.  You will see a new recovery code displayed. Store the new recovery code in a safe place, and click on <label>Next</label> to confirm the re-generation of your recovery code.
 
     ![Store recovery code](/files/user-mfa-regenerate-recovery-code-continue.png)
 
-1.  Fill in the recovery code and click on <label>Re-generate recovery code</label> to complete the recovery code re-generation.
+1.  Fill in the recovery code, and click on <label>Re-generate recovery code</label> to complete the recovery code re-generation.
 
     ![Confirm recovery code](/files/user-mfa-regenerate-recovery-code-confirm.png)
 </div>
