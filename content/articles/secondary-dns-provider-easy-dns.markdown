@@ -46,6 +46,10 @@ From the *DNS settings* tab, you'll tell EasyDNS the primary name server. In thi
 
 Now add the IP address you configured at DNSimple: `50.31.225.92`
 
+<info>
+  At the time of writing, **EasyDNS** only accepts IPv4 for Secondary DNS
+</info>
+
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
 
 Then confirm the changes.
