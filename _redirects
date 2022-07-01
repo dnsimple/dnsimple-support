@@ -73,6 +73,10 @@
 /articles/ssl-certificates-heroku/index.html                              /articles/ssl-certificate-with-heroku/
 /articles/transferring-domain-without-downtime                            https://dnsimple.com/how-to-transfer-without-downtime
 /articles/transferring-domain-without-downtime/index.html                 https://dnsimple.com/how-to-transfer-without-downtime
+/articles/two-factor-authentication                                       /articles/multi-factor-authentication/
+/articles/two-factor-authentication/index.html                            /articles/multi-factor-authentication/
+/articles/two-factor-authentication-enforcement                           /articles/multi-factor-authentication-enforcement/
+/articles/two-factor-authentication-enforcement/index.html                /articles/multi-factor-authentication-enforcement/
 /articles/url                                                             /articles/url-record/
 /articles/url-redirect-ssl                                                /articles/redirector/
 /articles/url-redirect-ssl/index.html                                     /articles/redirector/
