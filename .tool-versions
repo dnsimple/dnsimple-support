@@ -1,3 +1,4 @@
-# Update also: .travis.yml and .ruby-version for netlify
+# Update also: .ruby-version for netlify
+# Update: .github/workflows/*.yml
 nodejs 16.15.1
 ruby 3.0.4
