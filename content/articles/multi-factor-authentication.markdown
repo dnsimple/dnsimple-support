@@ -174,7 +174,7 @@ The verification code automatically expires every 30 seconds. If the expiration 
 
 ## Recovery code {#recovery}
 
-When you enable your first MFA method, a recovery code is created as a safeguard. Use the recovery code to disable MFA when you can't generate a one-time password with your authenticator app or activate your registered security key. For example, because you lost the security key or the device where the authenticator was installed.
+When you enable your first MFA method, a recovery code is created as a safeguard. Use the recovery code to disable MFA when you can't generate a one-time password with your authenticator app or activate your registered security key, or when you can't disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed.
 
 <warning>
 The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a safe, secure place. **We cannot disable multi-factor authentication without this recovery code.**
@@ -182,8 +182,12 @@ The recovery code **is the only way to recover access to your account** if you c
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated for you then.
 
+<warning>
+**All security keys and any one-time password-based MFA methods configured will be removed when you use your recovery code to disable MFA.**
+</warning>
+
 <div class="section-steps" markdown="1">
-##### Disabling multi-factor authentication using the recovery code
+##### Disabling multi-factor authentication during login using the recovery code
 
 1.  Log in to DNSimple with your user credentials.
 
@@ -198,6 +202,49 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
 
+You can also use your recovery code to disable MFA when you can't [remove](#disable) a one-time password-based or security key-based MFA method.
+
+<div class="section-steps" markdown="1">
+##### Disabling multi-factor authentication to remove a one-time password or security key MFA method
+
+1.  Log in to DNSimple with your user credentials.
+
+1.  Follow the steps to [remove](#disable) a one-time password-based or security key-based MFA method.
+
+1.  On the one-time password or security key removal confirmation page, click on the <label>disable multi-factor authentication</label> link.
+
+    ![Disable recovery code](/files/user-mfa-disable-with-recovery-code-after-login.png)
+
+1.  Fill in the recovery code, and click on <label>Reset all multi-factor methods</label>.
+
+    ![Reset all MFA](/files/user-mfa-reset-all-mfa.png)
+
+1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
+</div>
+
+Recovery codes can be re-generated. When a recovery code is re-generated, you cannot use any previously-generated recovery codes to disable MFA.
+
+<div class="section-steps" markdown="1">
+##### Re-generating a recovery code
+
+1.  Log in to DNSimple with your user credentials.
+
+1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+
+    ![Settings menu](/files/access-user-settings.jpg)
+
+1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Re-generate</label> button next to the existing recovery code.
+
+    ![Regenerate recovery code](/files/user-mfa-regenerate-recovery-code.png)
+
+1.  You will see a new recovery code displayed. Store the new recovery code in a safe place, and click on <label>Next</label> to confirm the re-generation of your recovery code.
+
+    ![Store recovery code](/files/user-mfa-regenerate-recovery-code-continue.png)
+
+1.  Fill in the recovery code, and click on <label>Re-generate recovery code</label> to complete the recovery code re-generation.
+
+    ![Confirm recovery code](/files/user-mfa-regenerate-recovery-code-confirm.png)
+</div>
 
 ## Multiple accounts
 
