@@ -2,7 +2,7 @@
 
 This is the [DNSimple Help site](https://support.dnsimple.com) built with [nanoc](http://nanoc.stoneship.org/)
 
-[![Build Status](https://travis-ci.com/dnsimple/dnsimple-support.svg?branch=main)](https://travis-ci.com/dnsimple/dnsimple-support)
+[![CI](https://github.com/dnsimple/dnsimple-support/actions/workflows/ci.yml/badge.svg)](https://github.com/dnsimple/dnsimple-support/actions/workflows/ci.yml)
 
 
 ## Setup
