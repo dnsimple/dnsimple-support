@@ -38,7 +38,7 @@ You will be asked for an URL. After you've entered the URL, click on <label>Add 
 
 ![Add the URL and save it](/files/webhooks-add-url.png)
 
-Finally you will be redirected to the Automation section again and the new webhook will appear on the list of all the webhooks.
+Finally you will be redirected to the Automation section again and the new webhook recipient will appear on the list of all the webhooks.
 
 ![Recipient added](/files/webhooks-recipient-added.png)
 
