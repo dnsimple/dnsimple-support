@@ -1,5 +1,5 @@
 ---
-title: Webhooks Documentation
+title: Webhooks and API events
 excerpt: This article describes the DNSimple API webhook service delivery and management.
 categories:
 - API
