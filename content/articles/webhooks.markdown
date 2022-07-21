@@ -1,6 +1,6 @@
 ---
 title: Webhooks Documentation
-excerpt: You can find our API documentation at the developer site.
+excerpt: This article describes the DNSimple API webhook service delivery and management.
 categories:
 - API
 ---
