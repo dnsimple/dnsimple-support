@@ -25,7 +25,7 @@ SSL certificates issued by Let's Encrypt are valid for 90 days from the issue da
 
 ## Before you start
 
-To order an SSL certificate you need a DNSimple account. A subscription is necessary to keep the certificate renewed and the domain must be delegated to use DNSimple's name servers due to the DNS challenge—which is automatically configured and checked in our implementation. **It is not necessary to transfer registration to us, but the domain must be delegated to our name servers.**
+To order an SSL certificate you need a DNSimple account. A subscription is necessary to keep the certificate renewed and the domain must be delegated to use DNSimple's name servers due to the DNS challenge—which is automatically configured and checked in our implementation. **It is not necessary to transfer registration to us, but the domain must be only delegated to our name servers.**
 
 For more details about the configuration, approval and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) article or follow the instructions on the site after you submit the SSL certificate order.
 
