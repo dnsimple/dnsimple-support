@@ -44,7 +44,7 @@ Finally you will be redirected to the Automation section again and the new webho
 
 ## Remove a recipient
 
-You can also remove a token at any time by using the <label>Delete</label> button.
+You can remove a recipient at any time by using the <label>Delete</label> button.
 
 ![Remove recipient](/files/webhooks-delete-recipient.png)
 
