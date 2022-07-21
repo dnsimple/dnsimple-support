@@ -18,7 +18,7 @@ DNSimple uses webhooks to deliver notification via HTTP regarding changes or eve
 
 For more technical information visit the [Webhook and Events section](https://developer.dnsimple.com/v2/webhooks/events/) in the API documentation.
 
-## Find a Webhook
+## Managing Webhook recipients
 
 To check your webhooks, log into your account and navigate to your account page.
 
