@@ -20,7 +20,7 @@ For more technical information visit the [Webhook and Events section](https://de
 
 ## Managing Webhook recipients
 
-To check your webhooks, log into your account and navigate to your account page.
+To check your webhook recipients, log into your account and navigate to your account page.
 
 Once you are there click on the <label>Automation</label> link in the left menu.
 
