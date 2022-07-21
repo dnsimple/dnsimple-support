@@ -5,7 +5,7 @@ categories:
 - API
 ---
 
-# Webhooks Documentation
+# Webhooks and API events
 
 ### Table of Contents {#toc}
 
