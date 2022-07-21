@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DNSimple uses Webhooks to send notification of the events that happens in your account via HTTP requests.
+DNSimple uses webhooks to deliver notification via HTTP regarding changes or events in your account.
 
 For more technical information visit the [Webhook and Events section](https://developer.dnsimple.com/v2/webhooks/events/) in the API documentation.
 
