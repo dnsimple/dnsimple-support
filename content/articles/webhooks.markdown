@@ -34,7 +34,7 @@ Click on the <label>New</label> link to add a new recipient.
 
 ![Add recipient](/files/webhooks-add-recipient.png)
 
-You'll be asked for an URL. After you've entered the URL, click on <label>Add Webhook</label> to add the recipient.
+You'll be asked for a URL. After you've entered the URL, click on <label>Add Webhook</label> to add the recipient.
 
 ![Add the URL and save it](/files/webhooks-add-url.png)
 
@@ -50,10 +50,10 @@ You can remove a recipient by using the <label>Delete</label> button.
 
 ## Clearing suppression
 
-Sometimes a webhook delivery fails. This may be due to a temporary error or more permanent problem. If an endpoint cannot be reached the delivery is retried, but if it keeps failing the recipient will be marked as *Suppressed* and no more events will be sent.
+Sometimes a webhook delivery fails. This may be due to a temporary error or more permanent problem. If an endpoint cannot be reached, the delivery is retried. If it keeps failing, the recipient will be marked as *Suppressed*, and no more events will be sent.
 
 When there are suppressed recipients, an alert message appears, and a red exclamation point next to a webhook indicates there's an issue and that the webhook is suppressed.
 
 ![Suppressed recipients](/files/webhooks-clear-suppression.png)
 
-Click on the <label>Clear Suppression</label> button to clear the suppresion allowing the recipient to rececive events again.
+Click on the <label>Clear Suppression</label> button to clear the suppresion and allow the recipient to rececive events again.
