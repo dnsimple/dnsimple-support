@@ -48,7 +48,7 @@ You can remove a recipient by using the <label>Delete</label> button.
 
 ![Remove recipient](/files/webhooks-delete-recipient.png)
 
-## Clear suppression
+## Clearing suppression
 
 Sometimes a webhook delivery fails. This may be due to a temporary error or more permanent problem. If an endpoint cannot be reached the delivery is retried, but if it keeps failing the recipient will be marked as *Suppressed* and no more events will be sent.
 
