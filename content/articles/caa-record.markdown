@@ -59,10 +59,10 @@ In DNSimple, the CAA record is represented by the following customizable element
 | Name  | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
 | TTL   | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
-| Value | The value associated with the tag.                                                                                                         |
+| Value | The value associated with the tag. Whitespaces are not allowed in this field. | 
 
 <info>
-We don't allow configuration of the bit flag.
+We don't allow configuration of the **bit** flag.
 </info>
 
 
