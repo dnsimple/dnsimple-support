@@ -67,10 +67,10 @@ Once you submit the form with the proper details, you'll be redirected to the do
 
 ![Updated DNS management page](/files/secondary-dns-configured.png)
 
-On the domain management page you may see a warning message under the Secondary DNS section to highlight potential issues with the Secondary DNS configuration, like:
-- The Secondary DNS configuration update is propagating to the primary name server
-- The configured secondary name servers are not all serving the same zone data as the primary, which could be due to propagation delays or an issue with the AXFR set up at the secondary DNS provider
-- The name server delegation you have set up at your registrar is missing one or more of the name servers specified in the Secondary DNS configuration
+On the domain management page you may see a warning message to highlight potential issues with the Secondary DNS configuration, like:
+- The Secondary DNS configuration update is still propagating to the primary name server.
+- The configured secondary name servers are not all serving the same zone data as the primary.  This could be due to propagation delays or an issue with the AXFR set up at the secondary DNS provider.
+- The name server delegation you have set up at your registrar is missing one or more of the name servers specified in the Secondary DNS configuration.
 
 ![Secondary DNS warning](/files/secondary-dns-warning.png)
 
@@ -86,15 +86,15 @@ Until Secondary DNS is disabled for a particular domain, all record changes you 
 
 ## Edit Secondary DNS Configuration
 
-Once you have set up Secondary DNS, you might need to tweak details about your configuration. Do this from the same link as the initial setup.
+Once you have set up Secondary DNS, you might need to tweak details about your configuration. Do this from the DNS section of the domain management page.
 
 ![Reconfigure Secondary DNS](/files/reconfigure-secondary-dns.png)
 
 ## Disable Secondary DNS
 
-If you don't want to use Secondary DNS via AXFR, you can click the <label>Delete secondary DNS configuration</label> button
+If you don't want to use Secondary DNS via AXFR, you can click the <label>Delete Secondary DNS</label> button
 
-![Delete Secondary DNS Configuration](/files/reconfigure-secondary-dns.png)
+![Delete Secondary DNS Configuration](/files/delete-secondary-dns.png)
 
 
 ## AXFR Name Server Details
