@@ -67,6 +67,13 @@ Once you submit the form with the proper details, you'll be redirected to the do
 
 ![Updated DNS management page](/files/secondary-dns-configured.png)
 
+On the domain management page you may see a warning message under the Secondary DNS section to highlight potential issues with the Secondary DNS configuration, like:
+- The Secondary DNS configuration update is propagating to the primary name server
+- The configured secondary name servers are not all serving the same zone data as the primary, which could be due to propagation delays or an issue with the AXFR set up at the secondary DNS provider
+- The name server delegation you have set up at your registrar is missing one or more of the name servers specified in the Secondary DNS configuration
+
+![Secondary DNS warning](/files/secondary-dns-warning.png)
+
 <warning>
 If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. If you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
 </warning>
