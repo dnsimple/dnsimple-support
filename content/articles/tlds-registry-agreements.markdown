@@ -139,6 +139,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .garden | [https://mmx.co/policies](https://mmx.co/policies) |
 | .gay | [https://toplevel.design/policy](https://toplevel.design/policy) |
 | .gives | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .gl | [https://nic.gl/terms/](https://nic.gl/terms/) |
 | .glass | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .global | [https://go.global/global-policies](https://go.global/global-policies) |
 | .parts | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
