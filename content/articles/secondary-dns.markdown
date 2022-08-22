@@ -67,6 +67,13 @@ Once you submit the form with the proper details, you'll be redirected to the do
 
 ![Updated DNS management page](/files/secondary-dns-configured.png)
 
+On the domain management page you may see a warning message to highlight potential issues with the Secondary DNS configuration, like:
+- The Secondary DNS configuration update is still propagating to the primary name server.
+- The configured secondary name servers are not all serving the same zone data as the primary. This could be due to propagation delays or an issue with the AXFR set up at the Secondary DNS provider.
+- The name server delegation you have set up at your registrar is missing one or more of the name servers specified in the Secondary DNS configuration.
+
+![Secondary DNS warning](/files/secondary-dns-warning.png)
+
 <warning>
 If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. If you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
 </warning>
@@ -79,20 +86,20 @@ Until Secondary DNS is disabled for a particular domain, all record changes you 
 
 ## Edit Secondary DNS Configuration
 
-Once you have set up Secondary DNS, you might need to tweak details about your configuration. Do this from the same link as the initial setup.
+Once you have set up Secondary DNS, you might need to tweak details about your configuration. Do this from the DNS section of the domain management page.
 
 ![Reconfigure Secondary DNS](/files/reconfigure-secondary-dns.png)
 
 ## Disable Secondary DNS
 
-If you don't want to use Secondary DNS via AXFR, you can click the <label>Delete secondary DNS configuration</label> button
+If you don't want to use Secondary DNS via AXFR, click the <label>Delete Secondary DNS</label> button
 
-![Delete Secondary DNS Configuration](/files/reconfigure-secondary-dns.png)
+![Delete Secondary DNS Configuration](/files/delete-secondary-dns.png)
 
 
 ## AXFR Name Server Details
 
-To set up your secondary provider, give them the server that will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name, others will ask for an IP address.
+To set up your secondary provider, give them the server that will respond to AXFR queries (also known as DNS zone transfer). Some providers will ask for a host name, and others will ask for an IP address.
 
 The host name for the DNSimple AXFR server is **axfr.dnsimple.com**. The IP addresses on that node are:
 - `50.31.225.92`

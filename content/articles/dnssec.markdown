@@ -45,7 +45,7 @@ Click on the "Enable DNSSEC" button.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record is provisioned in the appropriate domain registry.
+If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record will be provisioned in the appropriate domain registry.
 
 If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
 
@@ -53,10 +53,19 @@ If your domain is hosted with us but registered elsewhere, you need to provide t
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
 
+A warning message may be shown to highlight potential issues with DNSSEC enablement, such as:
+- The authoritative name servers for the zone are not all returning the same DNSKEY records.
+- The authoritiatve name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
+- The DS record has not yet been provisioned at the registrar.
+
+The warning does not necessarily mean that any action is needed on your part, because the issues may resolve on their own after changes from enabling DNSSEC have been propagated.
+
+![DNSSEC Enablement warning](/files/dnssec-enable-warning.png)
+
 ## Disabling DNSSEC
 
 <warning>
-If your domain is registered with another domain registrar, you must remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record first will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
+If your domain is registered with another domain registrar, you should ideally remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
 </warning>
 
 To disable DNSSEC, go to the DNSSEC tab for the domain, and find the "Disable DNSSEC" card.
@@ -66,6 +75,10 @@ To disable DNSSEC, go to the DNSSEC tab for the domain, and find the "Disable DN
 Click on the "Disable DNSSEC" button to remove the zone signing and the DS record if it is present.
 
 ![DNSSEC disable](/files/dnssec-disable.png)
+
+Note: When you click on the "Disable DNSSEC" button for a domain that is registered with another domain registrar, you will also see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
+
+![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
 
 ## Managing DS records
 
