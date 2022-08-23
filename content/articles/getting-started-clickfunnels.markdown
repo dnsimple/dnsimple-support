@@ -137,10 +137,10 @@ This card contains the name servers. [Name servers](/articles/what-is-a-nameserv
 
 You don't need to change the name servers when you move your domain from ClickFunnels.
 
-The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or CloudFlare, and keep your registration with us.
+The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or Cloudflare, and keep your registration with us.
 
 <info>
-Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to CloudFlare, those changes won't be reflected on your site.
+Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to Cloudflare, those changes won't be reflected on your site.
 </info>
 
 <warning>
