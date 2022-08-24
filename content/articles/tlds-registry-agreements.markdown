@@ -318,4 +318,5 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .wtf | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .xxx | [https://mmx.co/policies](https://mmx.co/policies) |
 | .xyz | [https://nic.xyz/downloads/XYZ-domain-name-policies.pdf?v=2.0](https://nic.xyz/downloads/XYZ-domain-name-policies.pdf?v=2.0) |
+| .za | [https://registry.net.za/content.php?gen=1&contentid=111&title=CO.ZA%20Published%20Policies%20and%20Procedures](https://registry.net.za/content.php?gen=1&contentid=111&title=CO.ZA%20Published%20Policies%20and%20Procedures) |
 | .zone | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
