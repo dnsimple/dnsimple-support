@@ -48,13 +48,13 @@ All certificates are [domain-validated](/articles/ssl-certificates-email-validat
 
 The single-name certificate is a **single-name**, **domain-validated** certificate. It covers one host and the root domain in case of the [www hostname](/articles/ssl-certificate-names).
 
-The certificate is issued by **Sectigo** and it costs **$20 per year**. The product name is _Sectigo EssentialSSL_ certificate.
+The certificate is issued by **Sectigo** and it costs **$20 per year**. The product name is _Sectigo PositiveSSL_ certificate.
 
 ### Standard Wildcard SSL certificates {#standard-wildcard}
 
 The wildcard certificate is a **wildcard-name**, **domain-validated** certificate. It covers all [single-level subdomains](/articles/ssl-certificate-names), as well as the root domain.
 
-The certificate is issued by **Sectigo** and it costs **$100 per year**. The product name is _Sectigo EssentialSSL Wildcard_ certificate.
+The certificate is issued by **Sectigo** and it costs **$100 per year**. The product name is _Sectigo PositiveSSL Wildcard_ certificate.
 
 ### Let's Encrypt SAN SSL certificates {#letsencrypt}
 
