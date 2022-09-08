@@ -20,7 +20,7 @@ categories:
 
 ## Cloudflare Integration
 
-Currently the only way to use Cloudflare services is by means of [direct integraiton](#direct-integration).
+You can use Cloudflare services with DNSimple via [direct integraiton](#direct-integration).
 
 ### Direct Integration
 
