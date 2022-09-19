@@ -29,7 +29,7 @@ As an example, suppose you purchase a certificate from the *Awesome Authority* f
 
 In our example, the SSL certificate chain is represented by 6 certificates:
 
-1. End-user Certificate - Issued to: example.com; Issued By: Awesome Authority
+1. End-user Certificate - Issued to: example.awesome; Issued By: Awesome Authority
 1. Intermediate Certificate 1 - Issued to: Awesome Authority; Issued By: Intermediate Awesome CA Alpha
 1. Intermediate Certificate 2 - Issued to: Intermediate Awesome CA Alpha; Issued By: Intermediate Awesome CA Beta
 1. Intermediate Certificate 3 - Issued to: Intermediate Awesome CA Beta; Issued By: Intermediate Awesome CA Gamma
