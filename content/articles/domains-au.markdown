@@ -35,16 +35,6 @@ Claims are not resolved on a first-come-first-serve basis – they depend on how
 </note>
 
 <div class="section-steps" markdown="1">
-#### Third-level domain is registered with DNSimple
-
-If you have an existing third-level .AU domain (.COM.AU, ORG.AU, etc.) with us, and you want to register the corresponding .AU name, we're currently working to add support for this.
-
-<info>
-We are expanding this support article as the implementation gets underway. If you have any questions in the meantime, feel free to [reach out](https://dnsimple.com/contact).
-</info>
-</div>
-
-<div class="section-steps" markdown="1">
 #### Third-level domain is not registered with DNSimple
 
 1. Obtain a [Priority Token](https://priority.auda.org.au/) and Priority Contact ID from auDA.
