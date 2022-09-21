@@ -14,37 +14,6 @@ categories:
 
 This article explains the requirements and special procedures for .AU domain names. DNSimple supports registration, renewal, and transfer of [.AU](https://dnsimple.com/tlds/au-domains) second-level domains and [.COM.AU](https://dnsimple.com/tlds/com-au-domains), [.ORG.AU](https://dnsimple.com/tlds/org-au-domains), and [.NET.AU](https://dnsimple.com/tlds/net-au-domains) third-level domains.
 
-## Second-level domains
-
-auDA — the .AU registry — has opened registrations at the .AU second-level domain.
-
-As of March 24, 2022, registrations are immediately available to any registrant with an [Australian presence](/articles/domains-au/#general-requirements) if no corresponding third-level domain has been registered.
-
-Registrations that have a corresponding third-level domain already registered (.ASN.AU, .COM.AU, .ID.AU, .NET.AU, .ORG.AU) will receive priority for a period of six months, entitling existing registrants of a third-level name to apply for the second-level name based on a two-tier priority system.
-
-![.AU Priority Registration Process](/files/au-priority-registration-process.png)
-
-To check your priority category, or to see if there are other registrants eligible for the second-level name you seek, you can use auDA's [Priority Status Tool](https://www.auda.org.au/tools/priority-status-tool).
-
-If there is no existing priority claim, meaning no matching registrations in any third-level .AU domain, you can register your domain right away, as with [any other domain](/articles/registering-domain).
-
-### Claiming a pre-existing domain
-
-<note>
-Claims are not resolved on a first-come-first-serve basis – they depend on how long you've been holding the pre-existing domain name. Read more about the [Priority Allocation Process](https://www.auda.org.au/au-domain-names/au-direct/priority-allocation-process).
-</note>
-
-<div class="section-steps" markdown="1">
-#### Third-level domain is not registered with DNSimple
-
-1. Obtain a [Priority Token](https://priority.auda.org.au/) and Priority Contact ID from auDA.
-1. [Register](/articles/registering-domain) the domain name.
-
-<warning>
-On the registration page, be sure to enter both contact ID and token joined by a dash in the <label>.AU direct priority token</label> field, in the following format: `<Priority Contact ID>-<Priority Token>`. Example: `m00100000773031-Au2BG3NX%VKc1SWc`.
-</warning>
-</div>
-
 ## Registration requirements
 
 ### General requirements
