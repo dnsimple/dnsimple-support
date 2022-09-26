@@ -202,18 +202,3 @@
   color: $accent-color;
   border-left: 5px solid $accent-color;
 }
-
-.articles-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.articles-list-item {
-  padding: 5px 0;
-
-  &:before {
-    margin-right: 10px;
-    color: #dddddd;
-    @include font-awesome("\f054");
-  }
-}
