@@ -27,3 +27,27 @@ body {
   background-repeat: repeat-x;
   background-size: 900px 10px;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.sidebar {
+  display: none;
+  z-index: 100;
+  background: white;
+}
+
+.is-active {
+  display: block;
+}
+
+@media (min-width: 1260px) {
+  .sidebar {
+    display: block;
+  }
+  #logo-nav, .sidebar-toggle {
+    display: none;
+  }
+}
