@@ -1,7 +1,5 @@
-<div class="sticky">
-  <ul class="pt2 pl0 list">
-  <% prioritize(:categories, all_categories) { |c| category_identifier(c) }.each do |category| %>
-    <li><%= link_to_category(category, class: "dib link pb1 black-60 hover-black underline-hover") %></li>
-  <% end %>
-  </ul>
-</div>
+<ul class="pt2 pl0 list">
+<% prioritize(:categories, all_categories) { |c| category_identifier(c) }.each do |category| %>
+  <li><%= link_to_category(category, class: "dib link pb1 black-60 hover-black underline-hover") %></li>
+<% end %>
+</ul>
