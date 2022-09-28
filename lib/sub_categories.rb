@@ -42,6 +42,6 @@ class SubCategories
 
   def file_path(what)
     file = what.split(" ").join("_").downcase
-    "priorities/#{file}.yaml".freeze
+    "categories/#{file}.yaml".freeze
   end
 end
