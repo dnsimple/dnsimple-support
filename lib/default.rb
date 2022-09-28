@@ -9,6 +9,10 @@ def prioritize(what, items, &block)
   Priorities.new.sort(what, items, &block)
 end
 
+def sub_categories(what, items, &block)
+  SubCategories.new.show(what, items, &block)
+end
+
 POPS = [
   'San Jose, CA, USA',
   'Chicago, IL, USA',
