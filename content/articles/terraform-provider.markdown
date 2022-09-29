@@ -2,7 +2,7 @@
 title: Terraform Provider
 excerpt: How to use DNSimple's Terraform provider to manage your DNS
 categories:
-- HashiCorp and DNSimple
+- Integrations
 ---
 
 # DNSimple Terraform Provider
@@ -113,4 +113,4 @@ When setting up a record (an MX (mail exchange) record in this example), provide
 
 ## Ready to go
 
-You're now ready to get started with [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest). As always, if you have more questions, [get in touch](https://dnsimple.com/contact) - we're always happy to help. 
+You're now ready to get started with [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest). As always, if you have more questions, [get in touch](https://dnsimple.com/contact) - we're always happy to help.

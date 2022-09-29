@@ -2,7 +2,7 @@
 title: Consul Integration
 excerpt: How to use DNSimple's Consul NIA Integration to automate DNS management via Network Infrastructure Automation (NIA)
 categories:
-- HashiCorp and DNSimple
+- Integrations
 ---
 
 # DNSimple Consul NIA Integration

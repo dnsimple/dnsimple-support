@@ -3,7 +3,7 @@ title: Redirecting www to Non-www Domain at Heroku
 excerpt: This article explains how to use DNSimple to redirect to an app hosted on Heroku with/without HTTPS.
 categories:
 - Domains
-- Heroku and DNSimple
+- Integrations
 ---
 
 # Redirecting www to Non-www Domain at Heroku
@@ -36,7 +36,7 @@ In this case, the simplest solution is to use our [redirector service](/articles
 ##### To handle the redirect using the redirector {#redirect-nohttps-redirector}
 
 1.  Go to the record editor and [add a URL record](/articles/url-record#create).
-    
+
     - Add the redirect subdomain in the _Name_ field.
     - Add the URL of the target domain in the _URL_ field.
 
@@ -131,7 +131,7 @@ In this case, [you cannot use our redirector service](/articles/redirector) beca
 
     - `$ heroku domains:add example.com`
 
-1.  [Order the SSL certificate](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) and [install it on Heroku](https://devcenter.heroku.com/articles/ssl). Heroku will provide you a specific SSL endpoint similar to `example.com.herokudns.com`. 
+1.  [Order the SSL certificate](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) and [install it on Heroku](https://devcenter.heroku.com/articles/ssl). Heroku will provide you a specific SSL endpoint similar to `example.com.herokudns.com`.
 
 1.  Go to the record editor and a DNS records for the host name, **pointing to the Heroku SSL endpoint**:
 
@@ -146,7 +146,7 @@ In this case, [you cannot use our redirector service](/articles/redirector) beca
 
     - `$ heroku domains:add example.com`
 
-1.  [Order the SSL certificate](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) and install it on Heroku. Heroku will provide you a specific SSL endpoint similar to `encrypted-application.herokussl.com`. 
+1.  [Order the SSL certificate](https://devcenter.heroku.com/articles/ssl-certificate-dnsimple) and install it on Heroku. Heroku will provide you a specific SSL endpoint similar to `encrypted-application.herokussl.com`.
 
 1.  Go to the record editor and a DNS records for the host name, **pointing to the Heroku SSL endpoint**:
 

@@ -1,2 +1,28 @@
 Apps:
 - "Slack App"
+
+Let's Encrypt:
+- "Let's Encrypt and DNSimple"
+
+Heroku:
+- "Pointing the Domain Apex to Heroku"
+- "Heroku Connector"
+- "Troubleshooting Heroku shows different app error"
+- "Troubleshooting Heroku \"No such app\" error"
+- "Troubleshooting Heroku SSL errors"
+- "Redirecting www to Non-www Domain at Heroku"
+- "SSL Certificates with Heroku"
+
+Cloudflare:
+- "Using Cloudflare DNSSEC with DNSimple"
+- "Cloudflare Service"
+
+HashiCorp:
+- "Consul Integration"
+- "Terraform Provider"
+
+GitHub:
+- "GitHub Pages"
+
+Wordpress:
+- "WordPress and DNSimple"

@@ -2,7 +2,7 @@
 title: Troubleshooting Heroku shows different app error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see a different application than the one you expected.
 categories:
-- Heroku and DNSimple
+- Integrations
 ---
 
 # Troubleshooting Heroku shows different app error
