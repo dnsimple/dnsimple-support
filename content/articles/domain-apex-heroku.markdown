@@ -2,7 +2,7 @@
 title: Pointing the Domain Apex to Heroku
 excerpt: How to point your domain to your Heroku application using DNSimple.
 categories:
-- Heroku and DNSimple
+- Integrations
 ---
 
 # Pointing the Domain Apex to Heroku
@@ -38,7 +38,7 @@ To apply the Heroku one-click service to your domain follow [these instructions]
 If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/heroku-error-ssl) when accessing the HTTPS version of the site.
 </warning>
 
-These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application: 
+These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application:
 
 <div class="section-steps" markdown="1">
 ##### To create an ALIAS for the apex domain

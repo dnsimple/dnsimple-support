@@ -1,0 +1,9 @@
+Configurations:
+- "Add a secondary DNS server to DNSimple"
+- "Add DNSimple as a secondary DNS server"
+- "Using DNSimple alongside other DNS providers"
+
+Integration with other DNS providers:
+- "Add DNSMadeEasy as a secondary DNS server"
+- "Add Dyn as a secondary DNS server"
+- "Add EasyDNS as a secondary DNS server"

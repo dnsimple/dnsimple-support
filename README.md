@@ -29,15 +29,13 @@ Each commit to main is deployed automatically via Netlify.
 
 You can add/remove/edit categories by editing the file `priorities/categories.yaml`.
 
-Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes
+Once you are done, run `rake run` to see your changes
 
+#### Sub-categories
 
-### Sorting articles
+You can group and order articles in sub-categories by editing the corresponding YAML file in the `categories` folder. Articles that are not added to a YAML file, will be automatically grouped in a "Other" sub-category.
 
-You can edit the order in which the articles appear in a category page by editing the file `priorities/articles.yaml`
-
-Once you are done, run `rake clean`, `rake compile` and `nanoc view` (or `nanoc live`) to see your changes.
-
+Once you are done, run `rake run` to see your changes.
 
 ## Contributing
 

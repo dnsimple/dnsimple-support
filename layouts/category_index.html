@@ -1,7 +1,10 @@
 <h1><%= @item[:h1] %></h1>
 
-<ul class="articles-list">
-  <% prioritize(:articles, @item[:items]).each do |item| %>
-    <li class="articles-list-item"><a href="<%= relative_path_to(@items[item.identifier]) %>"><%= item.attributes[:title] %></a></li>
-  <% end %>
-</ul>
+<% sub_categories(@category, @item[:items]).each do |section, articles| %>
+  <h2><%= section %></h2>
+  <ul>
+    <% articles.each do |article| %>
+      <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
+    <% end %>
+  </ul>
+<% end %>
