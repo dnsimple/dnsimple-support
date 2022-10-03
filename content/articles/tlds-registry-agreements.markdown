@@ -274,6 +274,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .surgery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .sydney | []() |
 | .systems | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .tax | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tc | [https://www.nic.tc/terms-and-conditions](https://www.nic.tc/terms-and-conditions) |
 | .team | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tech | [https://radix.website/policies](https://radix.website/policies) |
