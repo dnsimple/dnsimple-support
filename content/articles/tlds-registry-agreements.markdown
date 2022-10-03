@@ -166,6 +166,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .ind.in | [https://www.registry.in/policies](https://www.registry.in/policies) |
 | .net.in | [https://www.registry.in/policies](https://www.registry.in/policies) |
 | .org.in | [https://www.registry.in/policies](https://www.registry.in/policies) |
+| .inc | [https://www.get.inc/](https://www.get.inc/) |
 | .industries | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .info | [https://info.info/about/afilias-anti-abuse-policy](https://info.info/about/afilias-anti-abuse-policy) |
 | .ink | [https://toplevel.design/policy](https://toplevel.design/policy) |
