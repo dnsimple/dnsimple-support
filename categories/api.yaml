@@ -8,5 +8,6 @@ Webhooks:
 - "Webhooks and API events"
 
 Troubleshooting:
+- "API Errors"
 - "API Rate Limit"
 - "Can I use DNSimple for drop catching?"
