@@ -7,9 +7,11 @@ categories:
 
 # Record Notes
 
-The Record Notes feature allows you to associate a note with a DNS record, to help you remember the purpose of the record change.
+When creating, updating or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can optionally include a note to explain the purpose of the record change.
 
-When creating or updating a record from the [DNS record editor](/articles/record-editor), you can optionally include a note to explain the purpose of the record.
+## Creating a record note
+
+When you create or update a DNS record, you can fill in the _Notes_ field to note down the purpose of the record.
 
 ![Record notes](/files/record-notes.png)
 
@@ -38,6 +40,6 @@ When deleting a record, you can also include a note to help you remember the rea
 
 ## Viewing record notes in your audit history
 
-When you create, update or delete a record, and include a record note, the record note will be included together with the DNS record activity in your [audit history](/activity-tracking).
+When you create, update or delete a record, and include a record note, the record note will be included together with the DNS record activity in your [audit history](/articles/activity-tracking).
 
 ![Record note in audit history](/files/record-notes-activities.png)
