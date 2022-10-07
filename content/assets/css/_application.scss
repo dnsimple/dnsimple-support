@@ -5,7 +5,6 @@
 // Reset Bootstrap style on <code> inside table.
 .table td code {
   padding: 0;
-  color: #333;
   background-color: transparent;
   border: none;
 }
@@ -14,8 +13,8 @@
 // ---------------
 
 .marker {
-  color: $gray-700;
-  background: $gray-200;
+  color: var(--element1);
+  background: var(--surface2);
   padding: 16px 10px 16px 40px;
   border-radius: 0px;
   box-shadow: -6px 0 0 0 $gray-600;
@@ -42,8 +41,11 @@
 }
 
 .marker-info {
+  box-shadow: -6px 0 0 0 var(--blue);
+
   &:before {
     @include font-awesome("\f05a");
+    color: var(--blue);
   }
 }
 
@@ -60,15 +62,16 @@
 
   &:before {
     @include font-awesome("\f071");
+    color: $yellow;
   }
 }
 
 .marker-warning {
-  box-shadow: -6px 0 0 0 $orange;
+  box-shadow: -6px 0 0 0 var(--orange);
 
   &:before {
     @include font-awesome("\f06a");
-    color: $orange;
+    color: var(--orange);
   }
 }
 
@@ -101,7 +104,7 @@
 .section-steps {
   margin: $base-unit 0;
   padding: $base-unit / 2;
-  border-left: 5px solid #eee;
+  border-left: 5px solid var(--surface2);
 
   a {
     text-decoration: underline;
@@ -185,8 +188,6 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 15px;
-  border-left: 5px solid #eee;
-  color: #333;
   text-decoration: none;
 }
 .nav-list ul li a {
@@ -196,11 +197,6 @@
   padding: 0;
   margin-right: 0;
   margin-left: 0
-}
-.nav-list li a:hover,
-.nav-list li.active a {
-  color: $accent-color;
-  border-left: 5px solid $accent-color;
 }
 
 .articles-list {
@@ -213,7 +209,6 @@
 
   &:before {
     margin-right: 10px;
-    color: #dddddd;
     @include font-awesome("\f054");
   }
 }
