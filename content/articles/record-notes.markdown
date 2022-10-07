@@ -24,7 +24,7 @@ When you create or update a DNS record, you can fill in the _Notes_ field to not
 
 ## Viewing a record note
 
-When you update a record, you will be able to view the note that is associated with the record, if one exists.
+When you update a record, you will be able to view the note that is associated with the record, in the _Notes_ field, if one exists.
 
 ![Viewing record notes](/files/record-notes-edit.png)
 
@@ -44,6 +44,7 @@ When deleting a record, you can also include a note to help you remember the rea
 1.  In the popup, you can enter a note to help you remember the reason for the record deletion.
 
     ![Make a note for record deletion](/files/record-notes-deletion-note.png)
+</div>
 
 ## Viewing record notes in your audit history
 
