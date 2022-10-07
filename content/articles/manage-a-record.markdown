@@ -42,8 +42,8 @@ The instructions in this article assume you're familiar with the [A record forma
     As with any other DNS record, you can configure:
 
     - _TTL_: the record time-to-live.
-    - _Respond From Regions_: [Regional records](/articles/regional-records/)
-    - _Notes_: A note to be associated with the record, for remembering the purpose of the change.
+    - _Respond From Regions_: Configure [Regional records](/articles/regional-records/) if desired.
+    - _Notes_: Optionally include a [record note](/articles/record-notes/).
 
     Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
