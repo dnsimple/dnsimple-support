@@ -1,9 +1,5 @@
 * { box-sizing: border-box; }
 
-body {
-  background: #fefefe;
-}
-
 .input-search {
   &::-ms-clear {  display: none; width : 0; height: 0; }
   &::-ms-reveal {  display: none; width : 0; height: 0; }
