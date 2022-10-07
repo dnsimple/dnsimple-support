@@ -20,7 +20,7 @@
   --element2: hsl(var(--color),calc(var(--l) - 80%));
   --elementInverse: var(--background);
   --primary: hsl(2, 100%, 74%);
-  --secondary: hsl(220, 100%, 50%);
+  --secondary: hsl(235, 100%, 30%);
   --tertiary:  hsl(200, 50%, 60%);;
   --blue:  hsl(215, 100%, 50%);;
   --green:  hsl(100, 100%, 30%);;
@@ -40,7 +40,7 @@
   --element2: hsl(var(--color),calc(var(--l) + 80%));
   --elementInverse: var(--background);
   --primary: hsl(2, 100%, 74%);
-  --secondary: hsl(200, 100%, 50%);
+  --secondary: hsl(230, 100%, 84%);
   --tertiary:  hsl(200, 50%, 60%);;
   --blue:  hsl(215, 100%, 60%);;
   --green:  hsl(100, 100%, 40%);;
@@ -106,6 +106,10 @@ input {
   background: var(--surface1);
 }
 
+.surface1-color {
+  color: var(--surface1);
+}
+
 .marker {
   background: var(--surface1);
   color: var(--element1);
@@ -162,7 +166,6 @@ input {
 .sun-button {
   fill: hsl(var(--color),calc(var(--l) + 30%));
 }
-
 
 .card {
   background: var(--surface1);
