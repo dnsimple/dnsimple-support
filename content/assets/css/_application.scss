@@ -17,7 +17,7 @@
   background: var(--surface1);
   padding: 16px 10px 16px 40px;
   border-radius: 0px;
-  box-shadow: -6px 0 0 0 $gray-600;
+  box-shadow: -6px 0 0 0 var(--element2);
   margin: 0 2rem 1rem 0.5rem;
 
   h4 {
@@ -36,7 +36,7 @@
     margin-left: -25px;
     font-size: 16px;
     line-height: 140%;
-    color: $gray-600;
+    color: var(--element2);
   }
 }
 
@@ -59,11 +59,11 @@
 }
 
 .marker-note {
-  box-shadow: -6px 0 0 0 $yellow;
+  box-shadow: -6px 0 0 0 var(--yellow);
 
   &:before {
     @include font-awesome("\f071");
-    color: $yellow;
+    color: var(--yellow);
   }
 }
 

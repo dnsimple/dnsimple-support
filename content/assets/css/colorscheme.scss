@@ -21,11 +21,12 @@
   --elementInverse: var(--background);
   --primary: hsl(2, 100%, 74%);
   --secondary: hsl(235, 100%, 30%);
-  --tertiary:  hsl(200, 50%, 60%);;
-  --blue:  hsl(215, 100%, 50%);;
-  --green:  hsl(100, 100%, 30%);;
-  --gray:  hsl(50, 0%, 50%);;
-  --orange:  hsl(30, 100%, 50%);;
+  --tertiary: hsl(200, 50%, 60%);
+  --blue: hsl(215, 100%, 50%);
+  --green: hsl(100, 100%, 30%);
+  --gray: hsl(50, 0%, 50%);
+  --orange: hsl(30, 100%, 50%);
+  --yellow: hsl(47, 100%, 50%);
 }
 
 /* Dark Mode */
@@ -41,11 +42,12 @@
   --elementInverse: var(--background);
   --primary: hsl(2, 100%, 74%);
   --secondary: hsl(230, 100%, 84%);
-  --tertiary:  hsl(200, 50%, 60%);;
-  --blue:  hsl(215, 100%, 60%);;
-  --green:  hsl(100, 100%, 40%);;
-  --gray:  hsl(50, 0%, 70%);;
-  --orange:  hsl(30, 100%, 60%);;
+  --tertiary: hsl(200, 50%, 60%);
+  --blue: hsl(215, 100%, 60%);
+  --green: hsl(100, 100%, 40%);
+  --gray: hsl(50, 0%, 70%);
+  --orange: hsl(30, 100%, 60%);
+  --yellow: hsl(57, 100%, 50%);
 }
 
 body {
