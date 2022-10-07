@@ -2,18 +2,18 @@ main table {
     border-radius: 3px;
     width: 100%;
     border-collapse: collapse;
+    border: 1px solid var(--surface2);
 
     th, td {
         padding: 0.6rem 1.2rem;
     }
 
     th {
-        border-bottom: 2px solid $yellow;
         font-weight: bold;
-        background: $white;
+        background: var(--surface2);
     }
 
     tr:nth-child(2n + 1) {
-        background-color: #f1f1f1;
+        background: var(--surface1);
     }
 }

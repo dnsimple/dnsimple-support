@@ -14,7 +14,7 @@
 
 .marker {
   color: var(--element1);
-  background: var(--surface2);
+  background: var(--surface1);
   padding: 16px 10px 16px 40px;
   border-radius: 0px;
   box-shadow: -6px 0 0 0 $gray-600;
@@ -50,10 +50,11 @@
 }
 
 .marker-tip {
-  box-shadow: -6px 0 0 0 $green;
+  box-shadow: -6px 0 0 0 var(--green);
 
   &:before {
     @include font-awesome("\f00c");
+    color: var(--green);
   }
 }
 

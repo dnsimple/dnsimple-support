@@ -7,7 +7,7 @@ $font-family: -apple-system, BlinkMacSystemFont,
                'segoe ui', arial,
                sans-serif;
 
-$font-monospace: Menlo,Monaco,Consolas,"Courier New",monospace;
+$font-monospace: Menlo,Consolas,Monaco,"Courier New",monospace;
 
 body {
   font-family: $font-family;
@@ -67,15 +67,20 @@ code {
   padding: 2px 4px;
   font-size: 90%;
   border-radius: 4px;
+  font-family: $font-monospace;
 }
 
 pre {
   display: block;
   overflow: scroll;
   padding: 10px;
-  font-size: 80%;
+  font-size: 100%;
   font-family: $font-monospace;
   word-break: break-all;
   word-wrap: break-word;
   border-radius: 4px;
+  code {
+    padding: 0;
+    background: transparent;
+  }
 }

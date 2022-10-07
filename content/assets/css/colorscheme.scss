@@ -30,8 +30,8 @@
 
 /* Dark Mode */
 :root[color-mode="dark"] {
-  --color:247, 11%; // HSL hue, saturation
-  --l:10%;          // HSL lightness
+  --color:255, 21%; // HSL hue, saturation
+  --l:20%;          // HSL lightness
 
   --background: hsl(var(--color),var(--l));
   --surface1: hsl(var(--color),calc(var(--l) + 5%));
@@ -67,6 +67,9 @@ h1, h2, h3 {
 
 a {
   color: var(--secondary);
+  p {
+    color: var(--element1);
+  }
 }
 
 hr {
