@@ -7,6 +7,13 @@ categories:
 
 # Record Notes
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 When creating, updating or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can optionally include a note to explain the purpose of the record change.
 
 ## Creating a record note
