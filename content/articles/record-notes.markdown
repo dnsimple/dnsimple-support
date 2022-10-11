@@ -16,6 +16,12 @@ categories:
 
 When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can include a note to explain the purpose of the record change.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/9N6_c6giW48?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Creating a record note
 
 When you create or update a DNS record, you can fill in the _Notes_ field with the purpose of the record.
