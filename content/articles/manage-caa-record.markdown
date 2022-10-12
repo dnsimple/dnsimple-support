@@ -59,6 +59,8 @@ We don't support the ability to specify via interface the destructured CAA recor
     As with any other DNS record, you can configure:
 
     - _TTL_: the record time-to-live.
+    - _Respond From Regions_: Configure [Regional Records](/articles/regional-records/) if desired.
+    - _Notes_: Optionally include a [record note](/articles/record-notes/).
 
     Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
