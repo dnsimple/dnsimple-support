@@ -67,6 +67,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .center | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .ceo | [https://claim.ceo/terms/overview](https://claim.ceo/terms/overview) |
 | .ch | [https://www.nic.ch/terms/](https://www.nic.ch/terms/) |
+| .chat | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .church | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .city | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .claims | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
