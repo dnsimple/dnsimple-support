@@ -270,6 +270,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .spa | | [https://www.nic.spa/doc/REGISTRATION%20POLICY.pdf](https://www.nic.spa/doc/REGISTRATION%20POLICY.pdf) |
 | .space | [https://radix.website/policies](https://radix.website/policies) |
 | .store | [https://radix.website/policies](https://radix.website/policies) |
+| .stream | [http://nic.stream/](http://nic.stream/) |
 | .studio | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .study | [http://nic.study/](http://nic.study/) |
 | .support | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
