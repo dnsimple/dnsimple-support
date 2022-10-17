@@ -84,3 +84,6 @@ watcher:
   notify_on_compilation_failure: true
 
 base_url: https://support.dnsimple.com
+google_universal_analytics_id: "UA-17301867-5"
+google_optimize_id: "GTM-WRX44LG"
+google_analytics_4_id: "G-91JJ84XVXY"
