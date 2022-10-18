@@ -50,5 +50,5 @@ We support additional record types used behind the scenes to provide various DNS
 ## Limitations
 
 <note>
-CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com). We don't support transferring CAA records to secondary name servers.
+CAA records are only supported on the DNSimple primary name servers (ns1.dnsimple.com through ns4.dnsimple.com and ns4.dnsimple-edge.org). We don't support transferring CAA records to secondary name servers.
 </note>

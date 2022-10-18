@@ -20,6 +20,7 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
     - ns2.dnsimple.com
     - ns3.dnsimple.com
     - ns4.dnsimple.com
+    - ns4.dnsimple-edge.org
 </div>
 
 <note>
