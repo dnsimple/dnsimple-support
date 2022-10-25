@@ -9,7 +9,7 @@ catagories:
 
 ## Get a reset password link via email
 
-If you've forgotten your password, you'll need a password reset link to regain access to your account. Even if you initially [signed up via Google](/articles/google-identity-provider), you can still reset your password using this process. You can get a password resent link sent via email by going to the login screen and clicking the Forgot Password link.
+If you've forgotten your password, you'll need a password reset link to regain access to your account. You can get a password reset link sent via email by going to the login screen and clicking the Forgot Password link.
 
 ![Login Screen Forgot Password Link](/files/login-forgot-password.png)
 
