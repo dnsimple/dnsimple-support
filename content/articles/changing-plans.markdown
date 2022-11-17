@@ -13,7 +13,7 @@ There are two different kind of change plans based on how they are going to be b
 
 ## Pre-Renewal change plans
 
-These kind of changes are billed immediately and updates the [billing cycle](/articles/yearly-billing).
+These plan changes are billed immediately and update the [billing cycle](/articles/yearly-billing).
 
 In case there are remaining days in your current subscription plan, you will receive a prorated discount. This discount doesn't consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
 
