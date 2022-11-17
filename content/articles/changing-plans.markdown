@@ -9,7 +9,7 @@ categories:
 
 As a DNSimple customer, you might require features that aren't available on your current plan. This article discusses how to switch to the most appropriate subscription to meet your current needs.
 
-There are two different kind of change plans based on how they are going to be billed.
+There are two different types of plan changes based on when they are billed.
 
 ## Pre-Renewal change plans
 
