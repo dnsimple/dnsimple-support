@@ -21,7 +21,7 @@ You will receive credit for all the unused time of your current subscription pla
 
 These plan changes are billed at the end of your current billing cycle along with your subscription renewal.
 
-You can cancel a scheduled plan change in your account settings:
+You can cancel these plan changes in your account settings:
 
 ![Cancel plan change](/files/account-billing-cancel-plan-change.png)
 
