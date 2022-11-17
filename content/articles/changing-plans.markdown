@@ -15,7 +15,7 @@ There are two different types of plan changes based on when they are billed.
 
 These plan changes are billed immediately and update the [billing cycle](/articles/yearly-billing).
 
-In case there are remaining days in your current subscription plan, you will receive a prorated discount. This discount doesn't consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
+You will receive credit for all the unused time of your current subscription plan. This credit doesn't include extra items such as email forwards or extra zones. These will be billed again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
 
 ## On-Renewal change plans
 
