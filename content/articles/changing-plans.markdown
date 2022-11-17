@@ -19,7 +19,7 @@ In case there are remaining days in your current subscription plan, you will rec
 
 ## On-Renewal change plans
 
-These kind of changes are billed without changing the billing cyle. They will be billed along with the renewal of the plan, adhering to the existing billing cycle.
+These plan changes are billed at the end of your current billing cycle along with your subscription renewal.
 
 You can cancel a scheduled plan change in your account settings:
 
