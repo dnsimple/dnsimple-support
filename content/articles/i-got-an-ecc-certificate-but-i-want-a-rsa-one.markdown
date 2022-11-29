@@ -11,6 +11,10 @@ DNSimple provides SSL certificates using elliptic curve keys by default but ther
 
 The RSA signed certificates are available generating a custom Certificate Signing Request (CSR) and using it while ordering the SSL certificate. In this guide we will show you how to do this in three steps.
 
+## Before you start
+
+In this guide we are assuming you have OpenSSL installed in your system.  In case you don't have it available, you will need to install using your favourite package manager, from the [OpenSSL binaries](https://wiki.openssl.org/index.php/Binaries) or finding other alternatives to generate the RSA private key and the CSR.
+
 ## Generate a RSA private key
 
 First step is to generate a RSA private key that will be used in the next steps to sign the CSR.
