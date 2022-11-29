@@ -42,7 +42,7 @@ Have in mind what each parameter means:
 </info>
 
 ```bash
-$ openssl req -new -key KEY_FILE.pem -nodes -out CSR_FILE.pem -subj "/C=US/ST=FL/L=Melburne/O=dnsimple/CN=sep0901.jacegu.work"
+$ openssl req -new -key KEY_FILE.pem -nodes -out CSR_FILE.pem -subj "/C=US/ST=FL/L=Melbourne/O=dnsimple/CN=subdomain.example.com"
 ```
 
 ## Follow the regular process for ordering a Standard SSL Certificate
