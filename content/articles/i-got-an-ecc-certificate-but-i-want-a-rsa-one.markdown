@@ -49,6 +49,7 @@ $ openssl req -new -key KEY_FILE.pem -nodes -out CSR_FILE.pem -subj "/C=US/ST=FL
 
 Finally, last step is to follow the [regular process for reissuing a Standard SSL Certificate](/articles/reissuing-ssl-certificate/). Make sure:
 
+* The reason explains that you need a RSA based certificate
 * The checkbox `I want to provide a custom CSR` is checked
 * Copy the `CSR_FILE.pem` content into the text area
 
