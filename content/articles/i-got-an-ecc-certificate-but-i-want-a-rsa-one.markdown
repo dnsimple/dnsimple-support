@@ -13,7 +13,11 @@ The RSA signed certificates are available generating a custom Certificate Signin
 
 ## Before you start
 
-In this guide we are assuming you have OpenSSL installed in your system.  In case you don't have it available, you will need to install using your favourite package manager, from the [OpenSSL binaries](https://wiki.openssl.org/index.php/Binaries) or finding other alternatives to generate the RSA private key and the CSR.
+In this guide we are assuming you have OpenSSL installed in your system.  In case you don't have it available, you will need to install it:
+
+* Using your favourite package manager: [apt](https://packages.debian.org/bullseye/openssl), [rpm](https://packages.fedoraproject.org/pkgs/openssl/openssl/), [brew](https://formulae.brew.sh/formula/openssl@3), [nuget](https://www.nuget.org/packages/open_ssl), [chocolatey](https://community.chocolatey.org/packages/openssl) ...
+* Using the [OpenSSL binaries](https://wiki.openssl.org/index.php/Binaries)
+* Finding other alternatives to generate the RSA private key and the CSR.
 
 ## Generate a RSA private key
 
