@@ -1,5 +1,5 @@
 ---
-title: I got an ECC certificate but I want a RSA one
+title: I got an ECC-signed certificate but I want a RSA one
 excerpt: How to order a SSL Certificate using a RSA Signing Key.
 categories:
 - SSL Certificates
