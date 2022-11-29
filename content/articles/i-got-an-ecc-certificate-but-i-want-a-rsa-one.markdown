@@ -13,7 +13,7 @@ The RSA-signed certificates are available by generating a custom Certificate Sig
 
 ## Before starting
 
-In this guide, we assume you have OpenSSL installed in your system.  If you don't have it available, you will need to install it:
+In this guide, we assume you have OpenSSL installed in your system. If you don't have it available, you will need to install it:
 
 * Using your favorite package manager: [apt](https://packages.debian.org/bullseye/openssl), [dnf](https://packages.fedoraproject.org/pkgs/openssl/openssl/), [brew](https://formulae.brew.sh/formula/openssl@3), [nuget](https://www.nuget.org/packages/open_ssl), [chocolatey](https://community.chocolatey.org/packages/openssl), etc. 
 * Using the [OpenSSL binaries](https://wiki.openssl.org/index.php/Binaries).
@@ -32,7 +32,6 @@ $ openssl genrsa -out KEY_FILE.pem 2048
 Next, generate the CSR. In this example we'll use the `-subj` argument to the OpenSSL command. If you don't specify it, you'll be asked a few clarifying questions.
 
 <info>
-
 You'll see the following abbreviations: 
 
 * C is for Country
@@ -40,7 +39,6 @@ You'll see the following abbreviations:
 * L is for Location
 * O is for Organization
 * CN is for Common Name — this is especially important, as it must match the certificate CN.
-
 </info>
 
 ```bash
