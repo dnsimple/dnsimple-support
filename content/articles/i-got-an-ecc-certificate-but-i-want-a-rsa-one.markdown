@@ -1,15 +1,15 @@
 ---
 title: I got an ECC-signed certificate but I want a RSA one
-excerpt: How to order a SSL Certificate using a RSA Signing Key.
+excerpt: How to reissue a SSL Certificate using a RSA Signing Key.
 categories:
 - SSL Certificates
 ---
 
-# How to order a SSL Certificate using a RSA Signing Key?
+# How to reissue a SSL Certificate using a RSA Signing Key?
 
 DNSimple provides SSL certificates using elliptic curve keys by default but there are some situations or requirements where you still need to use RSA key as certificate signing key.
 
-The RSA-signed certificates are available generating a custom Certificate Signing Request (CSR) and using it while ordering the SSL certificate. In this guide we will show you how to do this in three steps.
+The RSA-signed certificates are available generating a custom Certificate Signing Request (CSR) and using it while reissuing the SSL certificate. In this guide we will show you how to do this in three steps.
 
 ## Before you start
 
@@ -45,13 +45,13 @@ Have in mind what each parameter means:
 $ openssl req -new -key KEY_FILE.pem -nodes -out CSR_FILE.pem -subj "/C=US/ST=FL/L=Melbourne/O=dnsimple/CN=subdomain.example.com"
 ```
 
-## Follow the regular process for ordering a Standard SSL Certificate
+## Follow the regular process for reissuing a Standard SSL Certificate
 
-Finally, last step is to follow the [regular process for ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/). Make sure:
+Finally, last step is to follow the [regular process for reissuing a Standard SSL Certificate](/articles/reissuing-ssl-certificate/). Make sure:
 
 * The checkbox `I want to provide a custom CSR` is checked
 * Copy the `CSR_FILE.pem` content into the text area
 
-![Providing a custom CSR](/files/provide-custom-csr.png)
+![Providing a custom CSR](/files/reissue-with-custom-csr.png)
 
-Once the certificate was ordered **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate.**
+Once the certificate was reissued **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate.**
