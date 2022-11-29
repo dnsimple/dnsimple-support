@@ -7,7 +7,7 @@ categories:
 
 # How to order a SSL Certificate using a RSA Signing Key?
 
-DNSimple provides SSL certificates using elliptic curve keys by default but there are some situations or requirements where you still need to use RSA keys to as certificate signing key.
+DNSimple provides SSL certificates using elliptic curve keys by default but there are some situations or requirements where you still need to use RSA key as certificate signing key.
 
 The RSA signed certificates are available generating a custom Certificate Signing Request (CSR) and using it while ordering the SSL certificate. In this guide we will show you how to do this in three steps.
 
