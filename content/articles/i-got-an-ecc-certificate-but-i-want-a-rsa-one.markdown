@@ -32,11 +32,15 @@ $ openssl genrsa -out KEY_FILE.pem 2048
 Next, generate the CSR. In this example we'll use the `-subj` argument to the OpenSSL command. If you don't specify it, you'll be asked a few clarifying questions.
 
 <info>
+
+You'll see the following abbreviations: 
+
 * C is for Country
 * ST is for State
 * L is for Location
 * O is for Organization
 * CN is for Common Name — this is especially important, as it must match the certificate CN.
+
 </info>
 
 ```bash
