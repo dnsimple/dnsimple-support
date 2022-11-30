@@ -38,6 +38,8 @@ You can manage your account's name server sets at any time from the Account > Na
 
 1. Click on <label>Save</label> to save the name server set.
 
+</div>
+
 ## Updating a Name Server Set
 
 <div class="section-steps" markdown="1">
@@ -55,6 +57,8 @@ You can manage your account's name server sets at any time from the Account > Na
 
     ![](/files/name-server-sets-edit-screen.png)
 
+</div>
+
 ## Deleting a Name Server Set
 
 <div class="section-steps" markdown="1">
@@ -71,3 +75,5 @@ You can manage your account's name server sets at any time from the Account > Na
 <info>
 Deleting a name server set will not affect any existing domain name server or NS record configurations that had included the name server set.
 </info>
+
+</div>
