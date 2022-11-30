@@ -9,15 +9,15 @@ categories:
 
 Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the name server configuration, and zone NS records of your domains. They speed up the entry of name server and NS records and reduce possible mistakes like typos and other errors. 
 
-<note>
+<info>
 Changes to a name server set's definition will not affect any existing domain name server or configurations that had included the name server set.
-</note>
+</info>
 
 ## Types of Name Server Sets
 
 There are 2 types of name server sets, system name server sets, which are pre-defined name server sets provided by DNSimple and which contain DNSimple's name servers, and account name server sets, which are private to an account.
 
-You can manage your account's Name Server Sets at any time from the Account > Name Server Sets page, if you have [Full Access](#full-access) to the account.
+You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [Full Access](/articles/domain-access-control#full-access) to the account.
 
 ## Creating a Name Server Set
 
@@ -68,6 +68,6 @@ You can manage your account's Name Server Sets at any time from the Account > Na
 
     ![](/files/name-server-sets-delete.png)
 
-<note>
+<info>
 Deleting a name server set will not affect any existing domain name server or NS record configurations that had included the name server set.
-</note>
+</info>
