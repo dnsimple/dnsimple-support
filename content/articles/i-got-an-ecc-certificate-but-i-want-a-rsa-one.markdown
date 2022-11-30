@@ -9,13 +9,13 @@ categories:
 
 DNSimple provides SSL certificates using elliptic curve keys by default, but there are some situations or requirements where you still need to use an RSA key as the certificate signing key.
 
-The RSA-signed certificates are available by generating a custom Certificate Signing Request (CSR) and using it while reissuing the SSL certificate. 
+The RSA-signed certificates are available by generating a custom Certificate Signing Request (CSR) and using it while reissuing the SSL certificate.
 
 ## Before starting
 
 In this guide, we assume you have OpenSSL installed in your system. If you don't have it available, you will need to install it:
 
-* Using your favorite package manager: [apt](https://packages.debian.org/bullseye/openssl), [dnf](https://packages.fedoraproject.org/pkgs/openssl/openssl/), [brew](https://formulae.brew.sh/formula/openssl@3), [nuget](https://www.nuget.org/packages/open_ssl), [chocolatey](https://community.chocolatey.org/packages/openssl), etc. 
+* Using your favorite package manager: [apt](https://packages.debian.org/bullseye/openssl), [dnf](https://packages.fedoraproject.org/pkgs/openssl/openssl/), [brew](https://formulae.brew.sh/formula/openssl@3), [nuget](https://www.nuget.org/packages/open_ssl), [chocolatey](https://community.chocolatey.org/packages/openssl), etc.
 * Using the [OpenSSL binaries](https://wiki.openssl.org/index.php/Binaries).
 * Finding other alternatives to generate the RSA private key and the CSR.
 
@@ -32,7 +32,7 @@ $ openssl genrsa -out KEY_FILE.pem 2048
 Next, generate the CSR. In this example we'll use the `-subj` argument to the OpenSSL command. If you don't specify it, you'll be asked a few clarifying questions.
 
 <info>
-You'll see the following abbreviations: 
+You'll see the following abbreviations:
 
 * C is for Country
 * ST is for State

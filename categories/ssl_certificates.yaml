@@ -26,7 +26,7 @@ Ordering:
 - "Renewing a standard SSL Certificate"
 - "How can I select a different SSL certificate domain validation email?"
 - "Choosing the SSL Certificate Names"
-- "I got an ECC-signed certificate but I want a RSA one"
+- "I got an ECC-signed certificate but want RSA"
 
 Installation:
 - "Installing an SSL Certificate"
