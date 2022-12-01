@@ -3,7 +3,6 @@ title: Zone NS Records
 excerpt: How to update NS records for the zone of a hosted domain
 categories:
 - DNS
-- Zones
 ---
 
 # Updating NS Records for the Zone of a Hosted Domain

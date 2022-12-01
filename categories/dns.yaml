@@ -43,7 +43,6 @@ Zones:
 - "Why DNSSEC and Secondary DNS may not work together"
 - "Do You Have Query Limits or Charge Based on Query Volume?"
 - "Protection Against DDoS Attacks"
-- "Zone NS Records"
 
 Troubleshooting:
 - "Troubleshooting Record Resolution Issues"
