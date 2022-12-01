@@ -19,9 +19,9 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 1. Scroll down to locate the Zone NS records section.
+1. Click on <label>Edit zone NS records</label>
 
     ![Zone NS records](/files/zone-ns-records.png)
-1. Click on <label>Edit zone NS records</label>
 1. Enter the hostnames of the name servers you would like to set for the NS records in the zone.
 
     ![Apply NS records](/files/zone-ns-records-update.png)
