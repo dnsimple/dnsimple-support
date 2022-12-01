@@ -1,5 +1,5 @@
 ---
-title: Updating NS Records for the zone of a hosted domain 
+title: Zone NS Records
 excerpt: How to update NS records for the zone of a hosted domain
 categories:
 - DNS
