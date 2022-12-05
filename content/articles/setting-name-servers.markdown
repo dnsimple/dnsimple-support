@@ -39,13 +39,13 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Complete name server change](/files/complete-name-server-change.png)
 
-</div>
-
 1. Alternatively, instead of manually keying in the name server names, you can also click on <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets), if you have a suitable one created in your account.
 
-    ![Add a name server set](/files/domain-delegation-name-server-set.png)
+    ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
 If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if "ns1.example.com" is being configured as a name server for the domain "example.com", and "ns1.example.com" has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve "ns1.example.com" to its associated IP address(es) will be created at the registry.
+
+</div>
 
 <info>
 DNSimple's listing of NS records for the domain will be updated accordingly to match the name server changes.
