@@ -43,7 +43,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if "ns1.example.com" is being configured as a name server for the domain "example.com", and "ns1.example.com" has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve "ns1.example.com" to its associated IP address(es) will be created at the registry.
+   If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if "ns1.example.com" is being configured as a name server for the domain "example.com", and "ns1.example.com" has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve "ns1.example.com" to its associated IP address(es) will be created at the registry.
 
 </div>
 
