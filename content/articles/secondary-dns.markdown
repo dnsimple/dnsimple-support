@@ -57,7 +57,7 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-You'll see a page where you can choose your secondary provider. If your provider is Dyn, DNSMadeEasy, or EasyDNS, you're one click away from completing the configuration. You can also apply name servers from a [name server set](/articles/name-server-sets), if you have one configured with your secondary provider's name servers. Otherwise, select the custom option to manually input the desired name server names. You'll see a page for providing the names for NS records and the IP addresses that should be allowed access for the zone transfer. Retrieve these details from your secondary DNS provider.
+You'll see a page where you can choose your secondary provider. If your provider is Dyn, DNSMadeEasy, or EasyDNS, you're one click away from completing the configuration. You can also apply name servers from a [name server set](/articles/name-server-sets) if you have one configured with your secondary provider's name servers. Otherwise, select the custom option to manually input the desired name server names. You'll see a page for providing the names for NS records and the IP addresses that should be allowed access for the zone transfer. Retrieve these details from your secondary DNS provider.
 
 Selecting a pre-configuration will prepopulate the correct values for you. Click on "Enable" at the bottom of the page.
 
@@ -65,7 +65,7 @@ If you choose the custom option, you'll be prompted to enter the NS records and 
 
 ![Custom input option](/files/secondary-dns-custom.png)
 
-If you choose the "Choose from Name Server Set" option, you'll be able to choose from the available name server sets in your account.
+If you choose the "Choose from Name Server Set" option, you can choose from the available name server sets in your account.
 
 ![Choose from name server set](/files/secondary-dns-name-server-set.png)
 
