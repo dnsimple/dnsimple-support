@@ -26,9 +26,9 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
   - ns1.dnsimple.com
   - ns2.dnsimple.com
   - ns3.dnsimple.com
-  - ns4.dnsimple.com
+  - ns4.dnsimple.com or ns4.dnsimple-edge.org
 
-    ![Change name servers](/files/change-name-servers.jpg)
+    ![Enter name servers](/files/complete-name-server-change.png)
 
 1. Alternatively, instead of manually keying in DNSimple's name servers, you can also click on <label>Add a name server set</label> and select a DNSimple system [name server set](/articles/name-server-sets) to add the DNSimple name servers.
 
