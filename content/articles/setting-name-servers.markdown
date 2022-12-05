@@ -39,7 +39,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1. Alternatively, instead of manually keying in the name server names, you can also click on <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets).
+1. Instead of manually keying in the name server names, you can also click on <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets).
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
@@ -50,7 +50,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 </div>
 
 <info>
-DNSimple's listing of NS records for the domain will be updated accordingly to match the name server changes.
+DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 </info>
 
 ## Pointing the name servers to DNSimple
