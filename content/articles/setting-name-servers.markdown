@@ -39,7 +39,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1. Alternatively, instead of manually keying in the name server names, you can also click on <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets), if you have a suitable one created in your account.
+1. Alternatively, instead of manually keying in the name server names, you can also click on <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets).
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 

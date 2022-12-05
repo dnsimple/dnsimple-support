@@ -1,6 +1,6 @@
 ---
 title: Zone NS Records
-excerpt: How to update NS records for the zone of a hosted domain
+excerpt: How to update zone NS records for a hosted domain
 categories:
 - DNS
 ---
@@ -34,5 +34,5 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 <info>
 #### Hosted domain must be delegated to DNSimple
 
-The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted)
+The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted).
 </info>

@@ -65,7 +65,7 @@ If you choose the custom option, you'll be prompted to enter the NS records and 
 
 ![Custom input option](/files/secondary-dns-custom.png)
 
-If you choose the "Choose from Name Server Set" option, you'll be prompted to choose from the available name server sets in your account.
+If you choose the "Choose from Name Server Set" option, you'll be able to choose from the available name server sets in your account.
 
 ![Choose from name server set](/files/secondary-dns-name-server-set.png)
 
