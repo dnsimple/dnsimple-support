@@ -40,7 +40,7 @@ Account name server sets are private to an account and may contain custom name s
 
     ![](/files/name-server-sets-add.png)
 
-1. Enter a unique label for the new name server set, and the hostname and optionally, glue IP(s), for each name server that you would like to be in the name server set.
+1. Enter a unique label for the new name server set, and the hostname and optionally, glue IP(s), for each name server that you would like to be in the name server set. Glue IP(s) are used only when changing [name server delegation](/articles/setting-name-servers) for domains registered with DNSimple.
 
     ![](/files/name-server-sets-new.png)
 
