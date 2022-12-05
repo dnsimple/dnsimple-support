@@ -15,7 +15,7 @@ Changes to a name server set's definition will not affect any existing domain na
 
 ## Types of Name Server Sets
 
-There are 2 types of name server sets, system name server sets, which are pre-defined name server sets provided by DNSimple and which contain DNSimple's name servers, and account name server sets, which are private to an account.
+There are 2 types of name server sets, system name server sets, which are pre-defined name server sets provided by DNSimple and which contain [DNSimple's name servers](/articles/dnsimple-nameservers), and account name server sets, which are private to an account and may contain custom name servers.
 
 You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [Full Access](/articles/domain-access-control#full-access) to the account.
 
