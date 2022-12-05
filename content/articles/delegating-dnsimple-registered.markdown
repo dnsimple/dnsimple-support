@@ -30,7 +30,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1. Alternatively, instead of manually keying in DNSimple's name servers, you can also click on <label>Add a name server set</label> and select a DNSimple system [name server set](/articles/name-server-sets) to add the DNSimple name servers.
+1. Alternatively, instead of manually keying in DNSimple's name servers, you can also click on <label>Add a name server set</label> and select a DNSimple system [name server set](/articles/name-server-sets#system-name-server-sets) to add the DNSimple name servers.
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 

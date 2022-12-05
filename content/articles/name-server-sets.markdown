@@ -15,11 +15,19 @@ Changes to a name server set's definition will not affect any existing domain na
 
 ## Types of Name Server Sets
 
-There are 2 types of name server sets, system name server sets, which are pre-defined name server sets provided by DNSimple and which contain [DNSimple's name servers](/articles/dnsimple-nameservers), and account name server sets, which are private to an account and may contain custom name servers.
+There are 2 types of name server sets:
+- System name server sets
+- Account name server sets
 
-You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [Full Access](/articles/domain-access-control#full-access) to the account.
+### System Name Server Sets {#system-name-server-sets}
 
-## Creating a Name Server Set
+System name server sets are pre-defined name server sets provided by DNSimple which cannot be modified. They contain [DNSimple name servers](/articles/dnsimple-nameservers).
+
+### Account Name Server Sets {#account-name-server-sets}
+
+Account name server sets are private to an account and may contain custom name servers. You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [Full Access](/articles/domain-access-control#full-access) to the account.
+
+## Creating an Account Name Server Set
 
 <div class="section-steps" markdown="1">
 #### To create a Name Server Set
@@ -40,7 +48,7 @@ You can manage your account's name server sets at any time from the Account > Na
 
 </div>
 
-## Updating a Name Server Set
+## Updating an Account Name Server Set
 
 <div class="section-steps" markdown="1">
 #### To update a Name Server Set
@@ -59,7 +67,7 @@ You can manage your account's name server sets at any time from the Account > Na
 
 </div>
 
-## Deleting a Name Server Set
+## Deleting an Account Name Server Set
 
 <div class="section-steps" markdown="1">
 #### To delete a Name Server Set
