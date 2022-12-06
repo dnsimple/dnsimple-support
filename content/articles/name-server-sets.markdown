@@ -21,7 +21,7 @@ There are two types of name server sets:
 
 ### System name server sets {#system-name-server-sets}
 
-System name server sets are pre-defined name server sets provided by DNSimple which cannot be modified. They contain [DNSimple name servers](/articles/dnsimple-nameservers). Unlike account name server sets, system name server sets are not listed on the Account > Name Server Sets page as they are system-defined and cannot be managed by users.
+System name server sets are pre-defined name server sets provided by DNSimple which cannot be modified. They contain [DNSimple name servers](/articles/dnsimple-nameservers). Unlike account name server sets, system name server sets are not listed on the Account > Name Server Sets page, as they are system-defined and cannot be managed by users.
 
 ### Account name server sets {#account-name-server-sets}
 
