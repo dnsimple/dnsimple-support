@@ -1,5 +1,5 @@
 ---
-title: Multi-User Accounts
+title: Managing Multiple Members on One Account
 excerpt: How to manage the members on a multi-user DNSimple account.
 categories:
 - Account
@@ -61,7 +61,7 @@ It's not possible to add a user whose email address is the same as the account. 
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them. 
+1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them.
 
 1. Once you've removed them from the account, that user should no longer show up on the members tab.
 
