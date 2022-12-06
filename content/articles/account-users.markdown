@@ -1,5 +1,5 @@
 ---
-title: Multi-User Accounts
+title: Managing Multiple members on one account
 excerpt: How to manage the members on a multi-user DNSimple account.
 categories:
 - Account
