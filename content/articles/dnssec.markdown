@@ -120,7 +120,6 @@ Click on the "View Configuration" button.
 
 ![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-configured.png)
 
-
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
 
 ## CDS/CDNSKEY
