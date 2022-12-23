@@ -58,8 +58,6 @@ Click on the "Enable DNSSEC" button.
 
 If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record will be provisioned in the appropriate domain registry.
 
-If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
-
 If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
