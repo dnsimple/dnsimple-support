@@ -9,7 +9,7 @@ categories:
 # DNSSEC
 
 <warning>
-  You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns), as they will not work in conjunction. Please ensure that you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns).
 </warning>
 
 ### Table of Contents {#toc}
@@ -56,7 +56,7 @@ Click on the "Enable DNSSEC" button.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record will be provisioned in the appropriate domain registry.
+If your domain is registered with DNSimple and using our name servers, the zone is signed, and the DS record will be provisioned in the appropriate domain registry.
 
 If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
