@@ -92,6 +92,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .cz | [https://www.nic.cz/page/314/rules-and-policies/](https://www.nic.cz/page/314/rules-and-policies/) |
 | .dance | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .date | [http://nic.date/resources.html](http://nic.date/resources.html) |
+| .day | [https://www.registry.google/policies/registration/day/](https://www.registry.google/policies/registration/day/) |
 | .de | [https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/](https://www.denic.de/en/domains/de-domains/domain-terms-and-conditions/) |
 | .deals | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .delivery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
