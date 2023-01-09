@@ -9,7 +9,7 @@ categories:
 # DNSSEC
 
 <warning>
-  You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns), as they will not work in conjunction. Please ensure that you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  You cannot enable DNSSEC if you have set up [Secondary DNS enabled](/articles/secondary-dns). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns).
 </warning>
 
 ### Table of Contents {#toc}
@@ -23,11 +23,22 @@ DNSSEC provides a way to cryptographically build a chain of trust from the root 
 
 ## DNSSEC scenarios
 
-We support DNSSEC in the following ways:
+There are a variety of scenarios that DNSimple facilitates to ensure that your zone is signed. Use the scenarios below to understand how to configure your domain/zone.
 
-- If your domain is registered through DNSimple, and you're using our authoritative name servers, you can sign zones, and provision and rotation of your DS record is handled automatically.
-- If your domain is registered through DNSimple, but you host your DNS with another authoritative DNS provider, you can [manage the DS records](/articles/manage-ds-record/) for DNSSEC-enabled zones.
-- If your domain DNS is hosted through DNSimple, but your domain is registered elsewhere, you can sign zones in our name servers, but you're required to provision and rotate DS records by yourself.
+### Scenario: Registered *&* DNS-hosted at DNSimple
+
+1. [Enable DNSSEC](#enabling-dnssec) for *automatic* zone signing, provisioning, and [key rotation](#key-rotation).
+
+### Scenario: Registered at DNSimple, but DNS-hosted elsewhere
+
+1. Set up DNSSEC through your DNS provider. 
+1. When you have the DNSSEC details, add them to your domain's registrar using our [DS management page](/articles/manage-ds-record/).
+
+### Scenario: Registered elsewhere, but DNS-hosted at DNSimple
+
+1. [Enable DNSSEC](#enabling-dnssec) to sign your zone. This initiates automatic [key rotation](#key-rotation). 
+1. After enabling, copy the DS record details over to your domain's registrar. 
+1. When the [key rotates](#key-rotation) every three months, we'll send you an email with the details, which you'll need to supply to your domain's registrar.
 
 ## Managing DNSSEC
 
@@ -45,9 +56,7 @@ Click on the "Enable DNSSEC" button.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed and the DS record will be provisioned in the appropriate domain registry.
-
-If your domain is registered with us but delegated elsewhere, you need to [provide the DS record](#manual-key-rotation) information from your DNS provider.
+If your domain is registered with DNSimple and using our name servers, the zone is signed, and the DS record will be provisioned in the appropriate domain registry.
 
 If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
@@ -110,7 +119,6 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 Click on the "View Configuration" button.
 
 ![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-configured.png)
-
 
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
 
