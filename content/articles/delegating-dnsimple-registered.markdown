@@ -22,13 +22,19 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Domain Delegation card](/files/domain-delegation-card-2.png)
 
-1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers) then click <label>Change name servers</label>:
+1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers)
   - ns1.dnsimple.com
   - ns2.dnsimple.com
   - ns3.dnsimple.com
-  - ns4.dnsimple.com
+  - ns4.dnsimple.com or ns4.dnsimple-edge.org
 
-    ![Change name servers](/files/change-name-servers.jpg)
+    ![Enter name servers](/files/complete-name-server-change.png)
+
+1. Alternatively, instead of manually keying in DNSimple's name servers, you can also click on <label>Add a name server set</label> and select a DNSimple system [name server set](/articles/name-server-sets#system-name-server-sets) to add the DNSimple name servers.
+
+    ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
+
+1. Click <label>Change name servers</label> to apply the delegation changes.
 
 </div>
 
