@@ -256,6 +256,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .science | [http://nic.science/resources.html](http://nic.science/resources.html) |
 | .scot | [https://dot.scot/help/](https://dot.scot/help/) |
 | .se | [https://internetstiftelsen.se/en/how-to-register-a-domain-name/terms-and-conditions-for-se-and-nu-domains/](https://internetstiftelsen.se/en/how-to-register-a-domain-name/terms-and-conditions-for-se-and-nu-domains/) |
+| .security | [https://nic.security/registry-policies](https://nic.security/registry-policies) |
 | .services | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .sexy | [https://uniregistry.link/registry-policies/](https://uniregistry.link/registry-policies/) |
 | .com.sg | [https://www.sgnic.sg/revised-policy-documents.html](https://www.sgnic.sg/revised-policy-documents.html) |
