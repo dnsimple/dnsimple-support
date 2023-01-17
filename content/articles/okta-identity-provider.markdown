@@ -26,9 +26,9 @@ In order to proceed with configuring login with SSO through Okta, you must:
 
 ## Supported Features
 
-- **IdP-initiated SSO**: This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
+- **IdP-initiated Single Sign-On (SSO)**: This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
 - **Import Users** & **Import Groups**: Manage who can access your DNSimple account via Okta
-- **SLO (Single Log Out)**: Users can log out of their DNSimple session by logging out of their Okta session.
+- **Single Log Out (SLO)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
 ## Configure Okta with DNSimple
 
