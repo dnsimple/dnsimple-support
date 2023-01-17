@@ -41,7 +41,6 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. Enter an Application Label in General Settings.
 1. Click Done.
 1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need it in the next step.
-1. Before leaving the Sign On tab, fill in the SubDomain field with the Cerby created workspace name, ensuring that all letters are lowercase and all spaces are replaced with dashes.
 
 ### Configure Okta for SSO in DNSimple
 
