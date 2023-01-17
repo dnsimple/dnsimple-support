@@ -20,33 +20,36 @@ Using Okta as an identity provider streamlines the login experience for you and 
 
 In order to proceed with configuring login with SSO through Okta, you must:
 
-- Have administrator access to an Okta tenant
+- Have administrator access to an Okta organization
 - Have administrator access to a DNSimple account
 - Have the Okta integration feature enabled on your DNSimple account
 
 ## Supported Features
 
 - **IdP-initiated SSO**: This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
-- **Import Users** & **Import Groups**: The members in your DNSimple account will stay in sync with the users that you add via the DNSimple Okta app.
+- **Import Users** & **Import Groups**: Manage who can access your DNSimple account via Okta
 - **SLO (Single Log Out)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
 ## Configure Okta with DNSimple
 
-...
+Follow the instructions below to connect DNSimple to your Okta organization.
 
 ### Add the DNSimple App to Okta
 
-![Linking an Okta Workspace](/files/okta-sso-enable.png)
-
-...
+1. Login to your organization's Okta marketplace.
+1. Search for DNSimple, and then click Add.
+1. Enter an Application Label in General Settings.
+1. Click Done.
+1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need it in the next step.
+1. Before leaving the Sign On tab, fill in the SubDomain field with the Cerby created workspace name, ensuring that all letters are lowercase and all spaces are replaced with dashes.
 
 ### Configure Okta for SSO in DNSimple
 
 To add SSO to your DNSimple account, send an email to support@dnsimple.com with the following information:
 
-- Client ID
-- Client Secret
-- Issuer URL
+- Okta Client ID (from the previous step)
+- Okta Client Secret (from the previous step)
+- Issuer URL (Okta Domain)
 - DNSimple Account ID
 
 Once we receive that info, we can enable the feature on your account and add the Okta configuration.
