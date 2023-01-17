@@ -71,7 +71,7 @@ Our integration works with groups! Leverage them to simplify your team access ma
 
 ### Access control
 
-Now, you can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For the full details, visit [Domain Access Control](/articles/domain-access-control/)
+Now, you can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For the full details, visit [Domain Access Control](/articles/domain-access-control/).
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
