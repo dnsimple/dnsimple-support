@@ -66,8 +66,12 @@ If the Okta app is no longer linked (e.g. the access token is revoked), you can 
 To give people or groups access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users or groups. Assigned users (or users via groups) will now be able to log into DNSimple via SSO.
 
 <info>
-Our integration works with groups! Leverage them to simplify your team access management.
+Our integration works with groups! Leverage them to simplify your team access management within Okta.
 </info>
+
+### Access control
+
+Now, you can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For the full details, visit [Domain Access Control](/articles/domain-access-control/)
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
