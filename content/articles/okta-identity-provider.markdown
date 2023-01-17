@@ -73,11 +73,5 @@ If you experience any issues or have any questions, please reach out at support@
 
 ## Remove the configuration
 
-![Unlink an Okta Workspace](/files/okta-sso-enabled.png)
-
-<div class="section-steps" markdown="1">
-#### To unlink Okta
-
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
-</div>
