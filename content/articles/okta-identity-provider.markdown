@@ -44,7 +44,7 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 
 ### Configure Okta for SSO in DNSimple
 
-To add SSO to your DNSimple account, send an email to support@dnsimple.com with the following information:
+To add SSO to your DNSimple account, send an email to support@dnsimple.com with the following information from the previous step:
 
 - Okta Client ID (from the previous step)
 - Okta Client Secret (from the previous step)
