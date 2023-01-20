@@ -48,6 +48,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .biz | [https://www.my.biz/policies/](https://www.my.biz/policies/) |
 | .black | [https://get.black/about/afilias-anti-abuse-policy](https://get.black/about/afilias-anti-abuse-policy) |
 | .blog | [https://my.blog/registry-policies-privacy/](https://my.blog/registry-policies-privacy/) |
+| .blue | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .build | [http://registrar.build/registry-policies/](http://registrar.build/registry-policies/) |
 | .builders | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .business | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
@@ -98,6 +99,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .delivery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .dental | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .dentist | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .design | [https://your.design/policies](https://your.design/policies) |
 | .dev | [https://www.registry.google/policies/registration/dev/#!/](https://www.registry.google/policies/registration/dev/#!/) |
 | .diamonds | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/)
 | .digital | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
@@ -202,6 +204,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .marketing | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .me | [https://domain.me/policies/](https://domain.me/policies/) |
 | .media | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .melbourne | [https://www.live.melbourne/terms-and-conditions/](https://www.live.melbourne/terms-and-conditions/)
 | .menu | [http://nic.menu/#documents](http://nic.menu/#documents) |
 | .mobi | [https://dotmobi.mobi/about/afilias-anti-abuse-policy](https://dotmobi.mobi/about/afilias-anti-abuse-policy) |
 | .moe | [https://nic.moe/en/legal/](https://nic.moe/en/legal/) |
@@ -243,6 +246,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .pub | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .pw | [https://registry.pw/policies/](https://registry.pw/policies/) |
 | .recipes | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
+| .red | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .rehab | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .report | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .rest | [https://www.register.rest/policies/](https://www.register.rest/policies/) |
@@ -277,7 +281,7 @@ Each TLD registry maintains its own policies that registrants must adhere to. Th
 | .study | [http://nic.study/](http://nic.study/) |
 | .support | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .surgery | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
-| .sydney | []() |
+| .sydney | [https://www.iconic.sydney/terms-and-conditions/](https://www.iconic.sydney/terms-and-conditions/) |
 | .systems | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tax | [https://donuts.domains/about/policies/](https://donuts.domains/about/policies/) |
 | .tc | [https://www.nic.tc/terms-and-conditions](https://www.nic.tc/terms-and-conditions) |
