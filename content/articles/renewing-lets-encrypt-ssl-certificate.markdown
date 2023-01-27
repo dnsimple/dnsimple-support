@@ -30,7 +30,7 @@ All Let's Encrypt SSL certificates, including renewals, are valid for no more th
     1.  Check the certificate [common name](/articles/what-is-common-name) matches the one you want to renew.
     1.  Check the certificate details are accurate.
     1.  Enable auto-renewal, if you want it to be auto-renewed before expiration.
-    1.  By default, the ECDSA signature algorithm is selected for you, but you can select RSA if your particular scenario requires it.
+    1.  By default ECDSA is selected for you but you can select RSA as the signature algorithm if your particular scenario requires it.
     1.  Submit the order.
 
 </div>
