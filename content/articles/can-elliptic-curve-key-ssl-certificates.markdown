@@ -7,7 +7,4 @@ categories:
 
 # Do you support Elliptic Curve Cryptography (ECC) SSL certificates?
 
-Yes. You **can purchase certificates with elliptic curve keys**. To purchase an ECC signed SSL certificate, submit a custom CSR request signed with an ECDSA private key. The curve function for the ECDSA key must be one of the following:
-
-* prime256v1
-* secp384r1
+Yes: all our SSL certificates are issued with ECC keys and signatures using the `prime256v1` curve by default.
