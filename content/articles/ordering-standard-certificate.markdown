@@ -55,16 +55,17 @@ The order is the first step into getting an SSL certificate. It will create an S
 
     1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
     1.  Enter the certificate common name. Use an `*` to order a wildcard certificate.
+    1.  By default ECDSA is selected for you but you can select RSA as the signature algorithm if your particular scenario requires it.
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it). Make sure to read our [private key policy](https://dnsimple.com/private-key-policy).
     1.  Submit the order.
 
-    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
+   ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
-    <info>
-    The certificate price will be held on your card immediately.
-    Your card will be charged once the certificate is issued.
-    If the issuance fails, funds will be released.
-    </info>
+   <info>
+   The certificate price will be held on your card immediately.
+   Your card will be charged once the certificate is issued.
+   If the issuance fails, funds will be released.
+   </info>
 
 </div>
 
