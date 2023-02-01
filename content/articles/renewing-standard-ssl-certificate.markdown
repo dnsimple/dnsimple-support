@@ -11,21 +11,21 @@ categories:
 There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate) before continuing with this document.
 </note>
 
-All standard DNSimple SSL certificates, including renewals, are valid for one year (397 days maximum) from their issue date. Sixty days before the certificate expires you will begin receiving renewal notices.
+All standard DNSimple SSL certificates, including renewals, are valid for one year (397 days maximum) from their issue date. Sixty days before the certificate expires, you will begin receiving renewal notices.
 
-If a certificate is renewed within 60 days from the expiration date, the expiration date of the renewed certificate will be 12 months plus the remaining days left from the original certificate, subject to a 397 day maximum.
+If a certificate is renewed within 60 days from the expiration date, the expiration date of the renewed certificate will be 12 months plus the remaining days left from the original certificate, subject to a 397-day maximum.
 
-We encourage you to plan the renewal of your certificate to occur at least one week before the expiration, to avoid downtime or issues caused by possible renewal delays.
+We encourage you to plan the renewal of your certificate to occur at least one week before the expiration to avoid downtime or issues caused by possible renewal delays.
 
 These are the steps to renew your standard certificate:
 
 <div class="section-steps" markdown="1">
-##### To renew a certificate
+##### Renewing a certificate
 
 1.  Log into DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
-1.  Scroll down to the <label>SSL certificates</label> section and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  Scroll down to the <label>SSL certificates</label> section, and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
 
     ![Renewing a Certificate](/files/certificates-renew-action.png)
 
@@ -34,7 +34,7 @@ These are the steps to renew your standard certificate:
 1.  Follow the instructions to purchase the certificate renewal.
 
     1.  Check the certificate [common name](/articles/what-is-common-name) matches the one you want to renew.
-    1.  By default ECDSA is selected for you but you can select RSA as the signature algorithm if your particular scenario requires it.
+    1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
     1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
@@ -48,7 +48,7 @@ These are the steps to renew your standard certificate:
 
 </div>
 
-## What's next?
+## Next steps
 
 Once you order the certificate, **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate**.
 
