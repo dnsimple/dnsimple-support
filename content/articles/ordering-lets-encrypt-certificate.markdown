@@ -50,7 +50,7 @@ The order is the first step in getting an SSL certificate. It will create an SSL
     1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
     1.  For different plans, the available names will differ. If you have the ability to select alternate names for your certificate, do so. Otherwise, continue to the next step.
     1.  Select whether you would like to automatically renew the certificate. If you do so, the certificate will be renewed 30 days prior to expiration as recommended by Let's Encrypt.
-    1.  ECDSA isselected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
+    1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
     1.  Submit the order.
 </div>
 
