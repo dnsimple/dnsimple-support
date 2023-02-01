@@ -11,15 +11,15 @@ DNSimple provides SSL certificates using elliptic curve keys by default, but the
 
 The following sections explain what you need to do to get your SSL certificates signed with RSA keys.
 
-## Let'sEncrypt certificates
+## Let's Encrypt certificates
 
-SSL certificates issued by Let'sEncrypt can't be reissued, which means that you will need to order a new certificate or manually renew an existing one. Please, follow these steps:
+SSL certificates issued by Let's Encrypt can't be reissued, which means that you will need to order a new certificate or manually renew an existing one. Please, follow these steps:
 
 1. Ensure auto-renewal is disabled on the certificate you want to replace.
 2. Renew the certificate if it's about to expire. Otherwise, order a new certificate.
   * Make sure you select the radio button for `RSA`
 
-Check out our guides about [ordering](http://localhost:3000/articles/renewing-lets-encrypt-ssl-certificate/) and [renewing](articles/ordering-lets-encrypt-certificate/) Let'sEncrypt certificates.
+Check out our guides about [ordering](http://localhost:3000/articles/renewing-lets-encrypt-ssl-certificate/) and [renewing](articles/ordering-lets-encrypt-certificate/) Let's Encrypt certificates.
 
 ## Sectigo certificates
 
