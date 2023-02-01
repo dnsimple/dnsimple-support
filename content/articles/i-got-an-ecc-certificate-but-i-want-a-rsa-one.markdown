@@ -13,7 +13,7 @@ The following sections explain what you need to do to get your SSL certificates 
 
 ## Let's Encrypt certificates
 
-SSL certificates issued by Let's Encrypt can't be reissued, which means that you will need to order a new certificate or manually renew an existing one. Please, follow these steps:
+SSL certificates issued by Let's Encrypt can't be reissued, which means that you will need to order a new certificate or manually renew an existing one. Follow these steps:
 
 1. Ensure auto-renewal is disabled on the certificate you want to replace.
 2. Renew the certificate if it's about to expire. Otherwise, order a new certificate.
