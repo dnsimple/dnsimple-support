@@ -34,13 +34,9 @@ You can cancel these plan changes in your account settings:
 
     ![Change plan](/files/account-billing-change-plan-link.png)
 
-1.  Identify the purpose of your subscription.
+1.  Explore the features for each plan. Click the <label>Select</label> button of the plan that better suits your needs.
 
     ![Identify](/files/change-plan-2.png)
-
-1.  Explore the features for each plan. Click the <label>Subscribe</label> button of the plan that better suits your needs.
-
-    ![Choose plan](/files/change-plan-4.png)
 
 1.  Verify the charges that will be made on your account. To complete the plan change, click <label>Switch to plan</label>.
 
