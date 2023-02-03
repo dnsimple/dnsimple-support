@@ -54,7 +54,7 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 
 ### Assign People or Groups
 
-To give people or groups access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users or groups. Assigned users (or users via groups) will now be able to log into DNSimple via SSO.
+To give people or groups access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users or groups. If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added. If an assigned user already exists, they will need to link their Okta user on the User Settings page within DNSimple.
 
 <info>
 Our integration works with groups! Leverage them to simplify your team access management within Okta.
