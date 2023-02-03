@@ -40,6 +40,7 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. Search for DNSimple, and then click Add.
 1. Enter an Application Label in General Settings.
 1. Click Done.
+1. Assign yourself to the application.
 1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need it in the next step.
 
 ### Configure Okta for SSO in DNSimple
