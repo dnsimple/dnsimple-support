@@ -52,6 +52,6 @@ You can cancel these plan changes in your account settings:
 
 ## Incompatible features
 
-When downgrading your account, you won't be able to use some features from the Business or Professional plans.
+When downgrading your account, you won't be able to use some features from the Professional plan.
 
 ![Incompatible Features](/files/account-billing-incompatible-features.png)

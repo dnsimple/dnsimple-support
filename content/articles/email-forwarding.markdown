@@ -20,7 +20,7 @@ The number of forwarded messages allowed per-month is based on your subscription
 
 - Personal plans: up to 1,000 messages forwarded per month per domain.
 - Professional plans: up to 10,000 messages forwarded per month per domain.
-- Business plans: unlimited number of messages forwarded per month per domain.
+- Enterprise plans: custom.
 
 For reseller plans, please contact us for information about your limits.
 
@@ -30,9 +30,7 @@ In addition to message limits, there is also a limit to the number of individual
 
 - Personal plans: up to 10 email forwards per domain.
 - Professional plans: up to 25 email forwards per domain.
-- Business plans: up to 100 email forwards per domain.
-
-If you are on the Business plan and need more email forwards per domain than provided, please contact us to discuss your needs.
+- Enterprise plans: custom. [Contact us for details](https://dnsimple.com/enterprise)
 
 ## Enabling email forwarding
 

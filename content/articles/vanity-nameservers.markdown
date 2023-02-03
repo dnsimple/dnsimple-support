@@ -22,7 +22,7 @@ If you want to use our name servers but have them appear as though they were you
 You can configure vanity name servers on your domain(s) in DNSimple by visiting the <label>DNS</label> tab on the domain's management page and clicking <label>Configure name servers</label> on the <label>Vanity name servers</label> card.
 
 <info>
-Vanity name servers are only available on [our business tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
+Vanity name servers are available as an option on [our Enterprise tier](https://dnsimple.com/pricing) or for [Master resellers](https://dnsimple.com/reseller). If you aren't subscribed to one of these plans, we'll prompt you to upgrade your plan.
 </info>
 
 ![Vanity Name Server card](/files/vanity-name-servers-card-enable.png)
