@@ -34,7 +34,7 @@ You can cancel these plan changes in your account settings:
 
     ![Change plan](/files/account-billing-change-plan-link.png)
 
-1.  Explore the features for each plan. Click the <label>Select</label> button of the plan that better suits your needs.
+1.  Explore the features for each plan. Click the <label>Select</label> button of the plan that best suits your needs.
 
     ![Identify](/files/change-plan-2.png)
 
