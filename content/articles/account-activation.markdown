@@ -15,7 +15,7 @@ Activation is easy and includes a free 30-day trial. You can cancel at any time 
 ##### To activate your account
 
 1. Decide which plan has the best features for your needs, and click <label>Begin 30 day trial</label>.
-1. Create your account.
+1. Create your account by entering your email address and a password.
 1. Enter your payment information and click <label>Start my free trial</label>.
 </div>
 
