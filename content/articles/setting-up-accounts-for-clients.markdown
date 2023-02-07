@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-This article describes a feature only available on the following plans: Professional and Business.
+This article describes a feature only available on the following plans: Professional and Enterprise.
 </info>
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.

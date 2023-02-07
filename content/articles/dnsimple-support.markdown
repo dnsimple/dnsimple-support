@@ -14,9 +14,9 @@ Get in touch:
 
 ## Priority support
 
-If you have a Business subscription, you have priority support and a dedicated queue for faster responses. 
+If you have a Enterprise subscription, you have priority support and a dedicated queue for faster responses.
 
-To send a priority support email, fill out the [contact form](https://dnsimple.com/contact) while logged in to your business account.
+To send a priority support email, fill out the [contact form](https://dnsimple.com/contact) while logged in to your account.
 
 ## Get faster, more accurate responses
 

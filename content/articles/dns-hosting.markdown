@@ -96,7 +96,7 @@ Each of [our plans](https://dnsimple.com/pricing) include DNS management for fiv
 
 - Personal plan ($0.50 per month)
 - Professional plan ($2.00 per month)
-- Business plan ($5.00 per month)
+- Enterprise plan (custom pricing)
 
 
 ## Use cases

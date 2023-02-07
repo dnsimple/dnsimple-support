@@ -27,9 +27,9 @@ When you subscribe to DNSimple you will be required to provide a credit or debit
 ## ACH or Wire transfer
 
 <info>
-This payment method is only available under the Business and Master Reseller subscription plans.
+This payment method is only available under the Enterprise plans.
 </info>
 
-Our [Business plan](https://dnsimple.com/pricing) and [Master Reseller plan](https://dnsimple.com/reseller) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to charge their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted, and all charges will be deducted from it.
+Our [Enterprise plan](https://dnsimple.com/enterprise) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to charge their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted, and all charges will be deducted from it.
 
 When the credit runs out, the card on file will be charged.

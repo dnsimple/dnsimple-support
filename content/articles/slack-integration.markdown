@@ -14,7 +14,7 @@ categories:
 
 ---
 
-The Slack app allows DNSimple customers to register and manage domains from their team's Slack Channel. The app is available for Professional, Business and Reseller plans.
+The Slack app allows DNSimple customers to register and manage domains from their team's Slack Channel. The app is available for Professional, Enterprise and Reseller plans.
 
 ## Installation
 
