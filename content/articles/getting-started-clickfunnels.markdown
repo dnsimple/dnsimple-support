@@ -56,9 +56,9 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > `your domain(s)`
 
-    > iv. Verify the last 4 digits of the card we have on file for your ClickFunnels account.
+    > iv. Verify the last 4 digits and the expiration date of the card we have on file for your ClickFunnels account.
 
-    > `last 4 digits of your credit card`
+    > `last 4 digits and expiration date of your credit card`
 
     > Thanks!
 
