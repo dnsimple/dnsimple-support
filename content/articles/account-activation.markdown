@@ -14,9 +14,9 @@ Activation is easy and includes a free 30-day trial. You can cancel at any time 
 <div class="section-steps" markdown="1">
 ##### To activate your account
 
-1. Decide which plan has the best features for your needs, and click <label>Begin 30 day trial</label>.
-1. Create your account by entering your email address and a password.
-1. Enter your payment information and click <label>Start my free trial</label>.
+1. Visit our [self-service sign up page](https://dnsimple.com/signup), select the plan meets your needs, and click <label>Try free for 30 days</label>. For organizations with custom requirements [contact our sales team](https://dnsimple.com/sales).
+1. Create your account by entering your email address and password and click "Join DNSimple". You can also sign up using your Google identity.
+1. Enter your payment information click <label>Start my free trial</label> to activate your account. We'll start responding to DNS queries immediately for any domains in your account.
 </div>
 
 <note>
