@@ -67,9 +67,9 @@ If you experience any issues or have any questions, please reach out at support@
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
 
-### Linking a DNSimple user to an Okta user
+## Linking a DNSimple user to an Okta user
 
-When a DNSimple user exists in a DNSimple account before _SSO_ is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple users. To link a DNSimple user to an Okta user:
+When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple users. To link a DNSimple user to an Okta user:
 
 1. Go to the User Settings page.
 1. In the Identities card, click <label>Add</label> next to the Okta identity provider.
