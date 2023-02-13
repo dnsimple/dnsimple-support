@@ -54,7 +54,7 @@ If the Okta app is no longer linked (e.g. the access token is revoked), you can 
 
 ### Assign People or Groups
 
-To give people access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users. If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added. If an assigned user already exists, they will need to link their Okta user on the User Settings page within DNSimple.
+To give people access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users. If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added. If an assigned user already exists, they will need to link their Okta identity on the User Settings page within DNSimple.
 
 ### Access control
 
@@ -67,9 +67,9 @@ If you experience any issues or have any questions, please reach out at support@
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
 
-## Linking a DNSimple user to an Okta user
+## Linking a DNSimple user to an Okta identity
 
-When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple users. To link a DNSimple user to an Okta user:
+When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple users. To link a DNSimple user to an Okta identity:
 
 1. Go to the User Settings page.
 1. In the Identities card, click <label>Add</label> next to the Okta identity provider.
