@@ -30,7 +30,15 @@ In order to proceed with configuring login with SSO through Okta, you must:
 - **Import Users**: Manage who can access your DNSimple account by assigning users to the Okta application
 - **Single Log Out (SLO)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
-## Link an Okta organization to a DNSimple account
+## Logging in via Okta
+
+You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
+
+Once a Okta organization is linked to a DNSimple account, any member of the Okta organization can request access to the DNSimple account. They can do so by attempting to log in via Okta using the respective Okta domain.
+
+Once they are granted access, they will be able to log in directly via Okta. If the user logs out of Okta, they will be logged out of DNSimple.
+
+## Linking an Okta organization to a DNSimple account
 
 Follow the instructions below to connect DNSimple to your Okta organization.
 
@@ -54,7 +62,13 @@ If the Okta app is no longer linked (e.g. the access token is revoked), you can 
 
 ### Assign People or Groups
 
-To give people access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users. If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added. If an assigned user already exists, they will need to link their Okta identity on the User Settings page within DNSimple.
+To give people access to DNSimple, click "Assignments" in under the configured DNSimple app in your Okta dashboard. Then, click "Assign" and select the appropriate users. 
+
+If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added.
+
+If an assigned user already exists, they will need to [link their DNSimple user to their Okta identity](#linking-a-dnsimple-user-to-an-okta-identity) on the User Settings page within DNSimple.
+
+The team members can now easily log in with their Okta identity. When you delete or suspend a team member from your company's Okta organization admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
 
 ### Access control
 
@@ -62,7 +76,7 @@ Now, you can set the level of DNSimple access for each member by visiting the Ac
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
-## Remove the configuration
+## Unlinking an Okta organization from a DNSimple account
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
@@ -75,5 +89,9 @@ When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they 
 1. In the Identities card, click <label>Add</label> next to the Okta identity provider.
 1. Authenticate your Okta account.
 1. You can now log in to DNSimple using the linked Okta identity.
-1. You can remove the link by clicking <label>Remove</label> on the User Settings page.
+
+## Unlinking a DNSimple user from an Okta identity
+
+1. Go to the User Settings page.
+1. In the Identities card, click <label>Remove</label> next to the linked identity.
 
