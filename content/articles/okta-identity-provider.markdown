@@ -30,7 +30,7 @@ In order to proceed with configuring login with SSO through Okta, you must:
 - **Import Users**: Manage who can access your DNSimple account by assigning users to the Okta application
 - **Single Log Out (SLO)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
-## Configure Okta with DNSimple
+## Link an Okta organization to a DNSimple account
 
 Follow the instructions below to connect DNSimple to your Okta organization.
 
@@ -43,7 +43,7 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. Assign yourself to the application.
 1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need it in the next step.
 
-### Configure Okta for SSO in DNSimple
+### Configure DNSimple for Okta SSO
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Authorize with Okta</label> to authorize the Workspace. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes.
