@@ -58,7 +58,9 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.
 
-If the Okta app is no longer linked (e.g. the access token is revoked), you can re-link the Okta application using the "Reauthorize with Okta" button.
+When configuring Okta SSO, DNSimple creates an event hook in the Okta organization to listen and react to membership changes. In the case that multiple configurations are made to the same Okta organization, only a single hook is created.
+
+If the Okta app is no longer linked (e.g. access token is revoked or event hook removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
 
 ### Assign People or Groups
 
@@ -66,7 +68,7 @@ To give people access to DNSimple, click "Assignments" in under the configured D
 
 If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them and the DNSimple account admin will receive a notification that they have been added.
 
-If an assigned user already exists, they will need to [link their DNSimple user to their Okta identity](#linking-a-dnsimple-user-to-an-okta-identity) on the User Settings page within DNSimple.
+If an assigned user already exists, they will need to [link their DNSimple user to their Okta identity](#linking-a-dnsimple-user-to-an-okta-identity) on the User Settings page within DNSimple before they can log in to DNSimple with their Okta identity.
 
 The team members can now easily log in with their Okta identity. When you delete or suspend a team member from your company's Okta organization admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
 
@@ -83,7 +85,7 @@ If you experience any issues or have any questions, please reach out at support@
 
 ## Linking a DNSimple user to an Okta identity
 
-When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple users. To link a DNSimple user to an Okta identity:
+When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. To link a DNSimple user to an Okta identity:
 
 1. Go to the User Settings page.
 1. In the Identities card, click <label>Add</label> next to the Okta identity provider.
