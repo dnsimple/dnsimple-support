@@ -58,7 +58,7 @@ Enter the required infomation and press <label>Add Record</label> to create the 
 
 Some DNS record types count with a special form that breaks up the record content's parts into separate fields. This forms provides enhanced error messages that will help address any issues with them.
 
-You can always switch back to the simple record editor using the tabs on top. This can be useful when trying to paste DNS record content provided by a third-party service provider.
+You can always switch back to the simple editor using the tabs on top. This can be useful when trying to paste DNS record content provided by a third-party service provider.
 
 ![Simple editor tab](/files/rec-editor-simple-editor-tab.png)
 
