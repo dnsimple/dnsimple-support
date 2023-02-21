@@ -56,7 +56,7 @@ Enter the required infomation and press <label>Add Record</label> to create the 
 
 ## Record fields editor
 
-Some DNS record types count with a special form that breaks the record content's parts into separate fields. This form provides enhanced error messages that will help address any issues with them.
+Some DNS record types count with a special form that breaks the record content's parts into separate fields. This form provides enhanced error messages to help address any issues.
 
 You can always switch back to the simple editor using the tabs on top. This can be useful when pasting DNS record content from a third-party service provider.
 
@@ -83,7 +83,7 @@ To modify a record, click on the edit icon at the end of the record row.
 To delete a record, click on the trash icon at the end of the record row.
 
 <warning>
-Please note that there's no undo. The only way to restore a deleted record is to create it again.
+Please note there's no undo. The only way to restore a deleted record is to create it again.
 </warning>
 
 ![Delete Record](/files/rec-editor-delete.png)
