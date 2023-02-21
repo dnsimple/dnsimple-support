@@ -44,7 +44,7 @@ From the <label>Add a Record</label> menu select a DNS record type, and click on
 
 ![Select Record Type](/files/rec-editor-new-record.png)
 
-## Simple record form
+## Simple editor
 
 In most cases, you'll be asked to provide a _Name_, a _TTL_, and the content for the record.
 
