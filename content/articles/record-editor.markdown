@@ -44,13 +44,23 @@ From the <label>Add a Record</label> menu select a DNS record type, and click on
 
 ![Select Record Type](/files/rec-editor-new-record.png)
 
-The creation page varies depending on the record type you selected. In most cases, you'll be asked to provide a _Name_, a _TTL_, and the data (or content) for the record.
+## Simple editor
+
+In most cases, you'll be asked to provide a _Name_, a _TTL_, and the content for the record.
 
 - _Name_: This is the record hostname. Leave it blank to configure a record for the root domain. Otherwise, enter the subdomain part for a different hostname. You can also enter an `*` for a wildcard record.
 
 - _TTL_: TTL stands for Time-to-Live. It determines how long a DNS lookup for that record can be cached. The default value is 1 hour (3600 seconds), but you can adjust it by selecting a different value from the select field.
 
 Enter the required infomation and press <label>Add Record</label> to create the record.
+
+## Record fields editor
+
+Some DNS record types count with a special form that breaks the record content's parts into separate fields. This form provides enhanced error messages to help address any issues.
+
+You can always switch back to the simple editor using the tabs on top. This can be useful when pasting DNS record content from a third-party service provider.
+
+![Simple editor tab](/files/rec-editor-simple-editor-tab.png)
 
 ### Specific record instructions
 
@@ -73,7 +83,7 @@ To modify a record, click on the edit icon at the end of the record row.
 To delete a record, click on the trash icon at the end of the record row.
 
 <warning>
-Please note that there's no undo. The only way to restore a deleted record is to create it again.
+Please note there's no undo. The only way to restore a deleted record is to create it again.
 </warning>
 
 ![Delete Record](/files/rec-editor-delete.png)
