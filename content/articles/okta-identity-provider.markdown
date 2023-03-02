@@ -66,10 +66,15 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 
 ![Okta client details](/files/okta-client-details.png)
 
-1. Click on the <label>Assignments<label> tab
+1. Click on the <label>Assignments<label> tab.
 1. From the <label>Assignments</label> page, you can assign users and groups from your Okta directory to this app integration, who should be allowed to sign into DNSimple via Okta as an identity provider.
 
 ![Assign users and groups](/files/okta-assignment.png)
+
+1. Click on the <label>Okta API Scopes</label> tab.
+1. Look for the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes and click on <label>Grant</label> for each of them.
+1. Verify that the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes have been granted.
+![Granted scopes](/files/okta-grant-scopes.png)
 
 ### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
