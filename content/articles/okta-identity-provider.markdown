@@ -61,7 +61,7 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 1. Take note of your Client ID, Client Secret, and Okta domain as you'll need them when [configuring DNSimple for Okta SSO](/articles/okta-identity-provider#configuring-dnsimple-for-okta-sso)
 ![Okta client details](/files/okta-client-details.png)
 1. Click on the <label>Assignments<label> tab.
-1. From the <label>Assignments</label> page, you can assign users and groups from your Okta directory to this app integration, who should be allowed to sign into DNSimple via Okta as an identity provider.
+1. From the <label>Assignments</label> page, you can assign users and groups from your Okta directory, who should be allowed to sign into DNSimple via Okta as an identity provider, to this app integration.
 ![Assign users and groups](/files/okta-assignment.png)
 1. Click on the <label>Okta API Scopes</label> tab.
 1. Look for the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes and click on <label>Grant</label> for each of them.
@@ -73,7 +73,7 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Authorize with Okta</label> to authorize the Workspace.
 1. Fill in the Okta domain, client ID and client secret, and then click <label>Link<label>. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. Your Okta user needs to already be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta, with an email address that matches your DNSimple user email address.
-![Link account to Okta](/files/okta-link-accounts.png)
+![Link account to Okta](/files/okta-link-account.png)
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.
 
