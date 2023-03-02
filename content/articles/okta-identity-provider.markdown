@@ -79,13 +79,17 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 ### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Authorize with Okta</label> to authorize the Workspace. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. In order to perform to the log in, you need to be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta, with an email address that matches your DNSimple user email address.
+1. Click <label>Authorize with Okta</label> to authorize the Workspace.
+1. Fill in the Okta domain, client ID and client secret, and then click <label>Link<label>. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. Your Okta user needs to already be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta, with an email address that matches your DNSimple user email address.
+![Link account to Okta](/files/okta-link-accounts.png)
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.
 
 When configuring Okta SSO, DNSimple creates an event hook in the Okta organization to listen and react to membership changes. In the case that multiple configurations are made to the same Okta organization, only a single hook is created.
 
 If the Okta app is no longer linked (e.g. access token is revoked or event hook removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
+
+![Reauthorize with Okta](/files/okta-reauthorize.png)
 
 ### Assigning People or Groups {#assigning-people-or-groups-in-okta}
 
