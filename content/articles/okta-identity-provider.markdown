@@ -42,19 +42,39 @@ Once they are granted access, they can log in directly via Okta. If the user log
 
 Follow the instructions below to connect DNSimple to your Okta organization.
 
-### Adding the DNSimple App to Okta
+### Adding the DNSimple App to Okta {#adding-the-dnsimple-app-to-okta}
 
-1. Log in to your organization's Okta marketplace.
-1. Search for DNSimple, and click Add.
-1. Enter an Application Label in General Settings.
-1. Click Done.
-1. Assign yourself to the application.
-1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need them in the next step.
+DNSimple's Okta app integration is pending review and hence is not yet available for installation via the [Okta Integration Network](https://www.okta.com/integrations/). For now, you can already use Okta as an Identity Provider by [creating your own custom Okta app integration](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_OIDC.htm) to work with DNSimple, by following the below steps.
 
-### Configuring DNSimple for Okta SSO
+1. Log in to your organization's Okta dashboard as an administrator.
+1. Go to the <label>Applications</label> page, then click Create App Integration.
+1. Select <label>OIDC - OpenID Connect</label> as the Sign-in method and <label>Web application</label> as the Application type.
+
+![Create App Integration](/files/okta-create-app-integration.png)
+
+1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
+1. Under <label>Grant type</label>, uncheck "Client Credentials" and keep "Authorization Code" as the only option checked.
+1. Under <label>Sign-in redirect URIs</label>, add the URIs "https://dnsimple.com/identity_providers/okta/callbacks/users/login", "https://dnsimple.com/identity_providers/okta/callbacks/accounts/link" and "https://dnsimple.com/identity_providers/okta/callbacks/users/link"
+1. Under <label>Sign-out redirect URIs<label>, add the URI "https://dnsimple.com"
+1. Under <label>Controlled access</label>, we recommend using "Skip group assignment for now"
+
+![Create App Integration form](/files/okta-create-app-integration-form.png)
+
+1. Click <label>Save<label>.
+1. You should be redirected to the viewing page for the newly created "DNSimple App Integration"
+1. Take note of your Client ID, Client Secret, and Okta domain as you'll need them when [configuring DNSimple for Okta SSO](/articles/okta-identity-provider#configuring-dnsimple-for-okta-sso)
+
+![Okta client details](/files/okta-client-details.png)
+
+1. Click on the <label>Assignments<label> tab
+1. From the <label>Assignments</label> page, you can assign users and groups from your Okta directory to this app integration, who should be allowed to sign into DNSimple via Okta as an identity provider.
+
+![Assign users and groups](/files/okta-assignment.png)
+
+### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Authorize with Okta</label> to authorize the Workspace. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes.
+1. Click <label>Authorize with Okta</label> to authorize the Workspace. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. In order to perform to the log in, you need to be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta, with an email address that matches your DNSimple user email address.
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.
 
@@ -62,7 +82,7 @@ When configuring Okta SSO, DNSimple creates an event hook in the Okta organizati
 
 If the Okta app is no longer linked (e.g. access token is revoked or event hook removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
 
-### Assigning People or Groups
+### Assigning People or Groups {#assigning-people-or-groups-in-okta}
 
 To give people access to DNSimple, click "Assignments" under the configured DNSimple app in your Okta dashboard. Click "Assign", and select the appropriate users. 
 
