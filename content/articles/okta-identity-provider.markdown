@@ -49,28 +49,20 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 1. Log in to your organization's Okta dashboard as an administrator.
 1. Go to the <label>Applications</label> page, then click Create App Integration.
 1. Select <label>OIDC - OpenID Connect</label> as the Sign-in method and <label>Web application</label> as the Application type.
-
 ![Create App Integration](/files/okta-create-app-integration.png)
-
 1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
 1. Under <label>Grant type</label>, uncheck "Client Credentials" and keep "Authorization Code" as the only option checked.
 1. Under <label>Sign-in redirect URIs</label>, add the URIs "https://dnsimple.com/identity_providers/okta/callbacks/users/login", "https://dnsimple.com/identity_providers/okta/callbacks/accounts/link" and "https://dnsimple.com/identity_providers/okta/callbacks/users/link"
 1. Under <label>Sign-out redirect URIs<label>, add the URI "https://dnsimple.com"
 1. Under <label>Controlled access</label>, we recommend using "Skip group assignment for now"
-
 ![Create App Integration form](/files/okta-create-app-integration-form.png)
-
 1. Click <label>Save<label>.
 1. You should be redirected to the viewing page for the newly created "DNSimple App Integration"
 1. Take note of your Client ID, Client Secret, and Okta domain as you'll need them when [configuring DNSimple for Okta SSO](/articles/okta-identity-provider#configuring-dnsimple-for-okta-sso)
-
 ![Okta client details](/files/okta-client-details.png)
-
 1. Click on the <label>Assignments<label> tab.
 1. From the <label>Assignments</label> page, you can assign users and groups from your Okta directory to this app integration, who should be allowed to sign into DNSimple via Okta as an identity provider.
-
 ![Assign users and groups](/files/okta-assignment.png)
-
 1. Click on the <label>Okta API Scopes</label> tab.
 1. Look for the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes and click on <label>Grant</label> for each of them.
 1. Verify that the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes have been granted.
