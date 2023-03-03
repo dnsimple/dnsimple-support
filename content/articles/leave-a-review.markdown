@@ -5,6 +5,8 @@ categories:
 - DNSimple
 ---
 
+# Leave a Review
+
 Do you have something you want to share about DNSimple? Do you want to shout our praises from a rooftop? Would you like to make sure others know what we're all about?
 
 Here at DNSimple, we love hearing what our users have to say! 
