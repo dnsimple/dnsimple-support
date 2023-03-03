@@ -52,7 +52,10 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 ![Create App Integration](/files/okta-create-app-integration.png)
 1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
 1. Under <label>Grant type</label>, uncheck "Client Credentials" and keep "Authorization Code" as the only option checked.
-1. Under <label>Sign-in redirect URIs</label>, add the URIs "https://dnsimple.com/identity_providers/okta/callbacks/users/login", "https://dnsimple.com/identity_providers/okta/callbacks/accounts/link" and "https://dnsimple.com/identity_providers/okta/callbacks/users/link"
+1. Under <label>Sign-in redirect URIs</label>, add the URIs:
+- https://dnsimple.com/identity_providers/okta/callbacks/users/login
+- https://dnsimple.com/identity_providers/okta/callbacks/accounts/link
+- https://dnsimple.com/identity_providers/okta/callbacks/users/link
 1. Under <label>Sign-out redirect URIs<label>, add the URI "https://dnsimple.com"
 1. Under <label>Controlled access</label>, we recommend using "Skip group assignment for now"
 ![Create App Integration form](/files/okta-create-app-integration-form.png)
