@@ -20,5 +20,5 @@ Feel free to click on the links below to access our pages from the following rev
 
 We appreciate your kind words and feedback. It truly helps make us better! 
 
-Have a concern or issue? [Contact us.](https://support.dnsimple.com/articles/dnsimple-support/)
+Have a concern or issue? [Contact us.](/articles/dnsimple-support/)
 
