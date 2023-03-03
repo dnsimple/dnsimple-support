@@ -57,7 +57,7 @@ DNSimple's Okta app integration is pending review and hence is not yet available
 - https://dnsimple.com/identity_providers/okta/callbacks/accounts/link
 - https://dnsimple.com/identity_providers/okta/callbacks/users/link
 1. Under <label>Sign-out redirect URIs<label>, add the URI "https://dnsimple.com"
-1. Under <label>Controlled access</label>, we recommend using "Skip group assignment for now"
+1. Under <label>Controlled access</label>, select "Skip group assignment for now"
 ![Create App Integration form](/files/okta-create-app-integration-form.png)
 1. Click <label>Save<label>.
 1. You should be redirected to the viewing page for the newly created "DNSimple App Integration"
