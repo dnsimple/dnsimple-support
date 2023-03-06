@@ -98,14 +98,14 @@ The team members can now easily log in with their Okta identity. When you delete
 
 ### Access control
 
-Now, you can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For the full details, visit [Domain Access Control](/articles/domain-access-control/).
+You can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For full details, visit [Domain Access Control](/articles/domain-access-control/).
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
 ## Unlinking an Okta organization from a DNSimple account
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
+1. Click <label>Revoke</label> next to the SSO Workspace you want to remove.
 
 ## Linking a DNSimple user to an Okta identity
 
