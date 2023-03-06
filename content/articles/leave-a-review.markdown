@@ -1,6 +1,6 @@
 ---
 title: Leave a Review
-excerpt: At DNSimple, we love hearing what our users have to say!
+excerpt: At DNSimple, we love hearing what our customers have to say!
 categories:
 - DNSimple
 ---
