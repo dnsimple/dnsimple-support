@@ -9,7 +9,7 @@ categories:
 
 Do you have something you want to share about DNSimple? Do you want to shout our praises from a rooftop? Would you like to make sure others know what we're all about?
 
-Here at DNSimple, we love hearing what our users have to say! 
+Here at DNSimple, we love hearing what our customers have to say! 
 
 Currently, we are gathering reviews from G2 and Trustpilot.
 
