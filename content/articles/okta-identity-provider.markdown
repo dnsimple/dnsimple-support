@@ -42,27 +42,51 @@ Once they are granted access, they can log in directly via Okta. If the user log
 
 Follow the instructions below to connect DNSimple to your Okta organization.
 
-### Adding the DNSimple App to Okta
+### Adding the DNSimple App to Okta {#adding-the-dnsimple-app-to-okta}
 
-1. Log in to your organization's Okta marketplace.
-1. Search for DNSimple, and click Add.
-1. Enter an Application Label in General Settings.
-1. Click Done.
-1. Assign yourself to the application.
-1. Take note of your Client ID, Client Secret, and Okta Domain as you'll need them in the next step.
+DNSimple's Okta app integration is pending review and not yet available for installation via the [Okta Integration Network](https://www.okta.com/integrations/). For now, you can use Okta as an Identity Provider by [creating your own custom Okta app integration](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_OIDC.htm) to work with DNSimple by following these steps:
 
-### Configuring DNSimple for Okta SSO
+1. Log in to your organization's Okta dashboard as an administrator.
+1. Go to the <label>Applications</label> page, then click Create App Integration.
+1. Select <label>OIDC - OpenID Connect</label> as the Sign-in method and <label>Web application</label> as the Application type.
+![Create App Integration](/files/okta-create-app-integration.png)
+1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
+1. Under <label>Grant type</label>, uncheck "Client Credentials" and keep "Authorization Code" as the only option checked.
+1. Under <label>Sign-in redirect URIs</label>, add the URIs:
+- https://dnsimple.com/identity_providers/okta/callbacks/users/login
+- https://dnsimple.com/identity_providers/okta/callbacks/accounts/link
+- https://dnsimple.com/identity_providers/okta/callbacks/users/link
+1. Under <label>Sign-out redirect URIs<label>, add the URI "https://dnsimple.com".
+1. Under <label>Controlled access</label>, select "Skip group assignment for now".
+![Create App Integration form](/files/okta-create-app-integration-form.png)
+1. Click <label>Save<label>.
+1. You should be redirected to the viewing page for the newly created "DNSimple App Integration".
+1. Note your Client ID, Client Secret, and Okta domain. You'll need them when [configuring DNSimple for Okta SSO](/articles/okta-identity-provider#configuring-dnsimple-for-okta-sso).
+![Okta client details](/files/okta-client-details.png)
+1. Click the <label>Assignments<label> tab.
+1. From the <label>Assignments</label> page, you can give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider.
+![Assign users and groups](/files/okta-assignment.png)
+1. Click the <label>Okta API Scopes</label> tab.
+1. Look for the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes, and click <label>Grant</label> for each of them.
+1. Verify the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes have been granted.
+![Granted scopes](/files/okta-grant-scopes.png)
+
+### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Authorize with Okta</label> to authorize the Workspace. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes.
+1. Click <label>Authorize with Okta</label> to authorize the Workspace.
+1. Fill in the Okta domain, client ID, and client secret, then click <label>Link<label>. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. Your Okta user needs to already be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta with an email address that matches your DNSimple user email address.
+![Link account to Okta](/files/okta-link-account.png)
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.
 
-When configuring Okta SSO, DNSimple creates an event hook in the Okta organization to listen and react to membership changes. In the case that multiple configurations are made to the same Okta organization, only a single hook is created.
+When configuring Okta SSO, DNSimple creates an event hook in the Okta organization to listen and react to membership changes. If multiple configurations are made to the same Okta organization, only a single hook is created.
 
 If the Okta app is no longer linked (e.g. access token is revoked or event hook removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
 
-### Assigning People or Groups
+![Reauthorize with Okta](/files/okta-reauthorize.png)
+
+### Assigning People or Groups {#assigning-people-or-groups-in-okta}
 
 To give people access to DNSimple, click "Assignments" under the configured DNSimple app in your Okta dashboard. Click "Assign", and select the appropriate users. 
 
@@ -74,14 +98,14 @@ The team members can now easily log in with their Okta identity. When you delete
 
 ### Access control
 
-Now, you can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For the full details, visit [Domain Access Control](/articles/domain-access-control/).
+You can set the level of DNSimple access for each member by visiting the Account > Members tab in your DNSimple account. For full details, visit [Domain Access Control](/articles/domain-access-control/).
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
 ## Unlinking an Okta organization from a DNSimple account
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
+1. Click <label>Revoke</label> next to the SSO Workspace you want to remove.
 
 ## Linking a DNSimple user to an Okta identity
 
