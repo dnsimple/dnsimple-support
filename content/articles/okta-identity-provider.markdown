@@ -30,6 +30,12 @@ To proceed with configuring login with SSO through Okta, you must:
 - **Import Users**: Manage who can access your DNSimple account by assigning users to the Okta application
 - **Single Log Out (SLO)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/XNJP2gwIIh4?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Logging in via Okta
 
 You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
