@@ -64,7 +64,7 @@ When you enable the service for the first time, a service cost will be charged t
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
 
-1.  To enable the WHOIS Privacy service, click the <label>Enable WHOIS Privacy on</label> link.
+1.  To enable the WHOIS Privacy service, click the <label>Enable WHOIS Privacy</label> link.
 
     If this is the first time you're enabling the service for this domain, you'll need to purchase the service. The page will provide you with the purchase information. Click <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
 
