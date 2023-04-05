@@ -38,13 +38,9 @@ When you enable the service for the first time, a service cost will be charged t
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
-1.  Click on the right arrow icon to open the domain feature menu, and click <label>Enable WHOIS Privacy</label>. You will be taken to a confirmation page.
+1.  Click on the right arrow icon to open the domain feature menu, to enable the WHOIS Privacy service, click on the <label>Enable WHOIS Privacy</label> link.
 
     ![Enable WHOIS Privacy](/files/whoisprivacy-domain-list-enable.png)
-
-1.  To enable the WHOIS Privacy service, click on the <label>Enable WHOIS Privacy</label> button.
-
-    ![Enable WHOIS Privacy](/files/whoisprivacy-enable-page.png)
 
     If this is the first time you are enabling the service for this domain, you will need to purchase the service. The page will provide you with the purchase information. Click on <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
 
@@ -68,11 +64,7 @@ When you enable the service for the first time, a service cost will be charged t
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
 
-1.  Click on the <label>Turn WHOIS Privacy on</label> button. This takes you to a confirmation page.
-
-1.  To enable the WHOIS Privacy service, click on the <label>Enable WHOIS Privacy</label> button.
-
-    ![Enable WHOIS Privacy](/files/whoisprivacy-enable-page.png)
+1.  To enable the WHOIS Privacy service, click on the <label>Turn WHOIS Privacy on</label> link.
 
     If this is the first time you're enabling the service for this domain, you'll need to purchase the service. The page will provide you with the purchase information. Click on <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
 
@@ -105,13 +97,9 @@ Once you disable the WHOIS Privacy protection, the contact details of your domai
 
     ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
 
-1.  Click on the right arrow icon to open the domain feature menu, and click <label>Disable WHOIS Privacy</label>. This takes you to a confirmation page.
+1.  Click on the right arrow icon to open the domain feature menu, to disable the WHOIS Privacy service click on the <label>Disable WHOIS Privacy</label> link.
 
     ![Disable WHOIS Privacy](/files/whoisprivacy-domain-list-disable.png)
-
-1.  To disable the WHOIS Privacy service click on the <label>Disable WHOIS Privacy</label> button.
-
-    ![Disable WHOIS Privacy](/files/whoisprivacy-disable-page.png)
 
 </div>
 
@@ -125,11 +113,7 @@ Once you disable the WHOIS Privacy protection, the contact details of your domai
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)
 
-1.  Click on the <label>Turn WHOIS Privacy off</label> link. This takes you to a confirmation page.
-
-1.  To disable the WHOIS Privacy service click on the <label>Disable WHOIS Privacy</label> button.
-
-    ![Disable WHOIS Privacy](/files/whoisprivacy-disable-page.png)
+1.  To disable the WHOIS Privacy service click on the <label>Turn WHOIS Privacy off</label> link.
 
 </div>
 
