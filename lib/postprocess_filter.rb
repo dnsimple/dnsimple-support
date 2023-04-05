@@ -4,6 +4,7 @@ class PostprocessFilter < Nanoc::Filter
   def run(content, params = {})
     content = content.dup
     format_table content
+    lazy_load_images content
     content
   end
 
@@ -11,6 +12,10 @@ class PostprocessFilter < Nanoc::Filter
 
   def format_table(content)
     content.gsub!(/<table>/, '<table class="table">')
+  end
+
+  def lazy_load_images(content)
+    content.gsub!(/<img\s+(.*?)>/, '<img \1 loading="lazy">')
   end
 
 end
