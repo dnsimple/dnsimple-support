@@ -72,12 +72,13 @@ code {
 
 pre {
   display: block;
-  overflow: scroll;
+  overflow-x: scroll;
   padding: 10px;
   font-size: 100%;
   font-family: $font-monospace;
   word-break: break-all;
   word-wrap: break-word;
+  white-space: pre-wrap;
   border-radius: 4px;
   code {
     padding: 0;
