@@ -51,10 +51,12 @@ Before proceeding, **read the [email requirements for domain validation](/articl
 
 If you want to submit your certificate to the Certificate Authority for approval, but none of the provided email addresses are working, you must temporarily configure one of the email addresses in the list (either as a full mailbox or as an alias/forward to an existing mailbox). If the domain doesn't have any email service associated, and you manage the DNS with us, you can use our [email forwarding](/articles/email-forwarding) service to quickly create an email for `admin@example.com` and forward it to a personal or private email.
 
-    <note>
-    #### Email validation and GDPR
+<note>
 
-    Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
+#### Email validation and GDPR
 
-    As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate if the registrar/registry doesn't disclose the contact information.
-    </note>
+Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
+
+As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate if the registrar/registry doesn't disclose the contact information.
+
+</note>
