@@ -23,7 +23,7 @@ The amount to be charged depends on:
 - The number of domains that have email forwards configured.
 
 <tip>
-You can find the exact amount you'll be charged at your next renewal, and when your subscription is due to renew, on [the account page](/articles/new-account-page/#plan-breakdown).
+You can find the exact amount you'll be charged at your next renewal, and when your subscription is due to renew, on [the account page](/articles/account-subscription-balance/).
 </tip>
 
 ## What happens when my subscription is renewed?
