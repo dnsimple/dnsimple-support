@@ -30,7 +30,7 @@ In addition to message limits, there is also a limit to the number of individual
 
 - Personal plans: up to 10 email forwards per domain.
 - Professional plans: up to 25 email forwards per domain.
-- Enterprise plans: custom. [Contact us for details](https://dnsimple.com/enterprise)
+- Enterprise plans: custom. [Contact us for details](https://dnsimple.com/sales)
 
 ## Enabling email forwarding
 
