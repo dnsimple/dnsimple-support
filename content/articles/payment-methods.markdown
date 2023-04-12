@@ -30,6 +30,6 @@ When you subscribe to DNSimple you will be required to provide a credit or debit
 This payment method is only available under the Enterprise plans.
 </info>
 
-Our [Enterprise plan](https://dnsimple.com/enterprise) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to charge their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted, and all charges will be deducted from it.
+Our [Enterprise plan](https://dnsimple.com/sales) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to charge their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted, and all charges will be deducted from it.
 
 When the credit runs out, the card on file will be charged.

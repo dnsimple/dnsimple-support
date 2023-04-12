@@ -44,5 +44,4 @@ Upon the successful update of the domain contact, we will automatically update t
 Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. The following is a list of the most common registrar-specific policies.
 </warning>
 
-- [.IO domains](/articles/domains-io/)
 - [.CH domains](/articles/domains-ch/)

@@ -7,7 +7,7 @@ categories:
 
 # I got an ECC-signed certificate but want RSA
 
-DNSimple provides SSL certificates using elliptic curve keys by default, but there are some situations or requirements where you still need to use an RSA key as the certificate signing key. 
+DNSimple provides SSL certificates using elliptic curve keys by default, but there are some situations or requirements where you still need to use an RSA key as the certificate signing key.
 
 The following sections explain what you need to do to get your SSL certificates signed with RSA keys.
 
@@ -19,7 +19,7 @@ SSL certificates issued by Let's Encrypt can't be reissued, which means that you
 2. Renew the certificate if it's about to expire. Otherwise, order a new certificate.
   * Make sure you select the radio button for `RSA`
 
-Check out our guides about [ordering](http://localhost:3000/articles/renewing-lets-encrypt-ssl-certificate/) and [renewing](articles/ordering-lets-encrypt-certificate/) Let's Encrypt certificates.
+Check out our guides about [ordering](/articles/ordering-lets-encrypt-certificate/) and [renewing](/articles/renewing-lets-encrypt-ssl-certificate/) Let's Encrypt certificates.
 
 ## Sectigo certificates
 
