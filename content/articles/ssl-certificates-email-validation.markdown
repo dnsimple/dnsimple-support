@@ -108,7 +108,7 @@ If the approver is not in this list or you need time to configure one of those e
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain and click on the name to access the domain page.
 1.  Scroll down to the <label>Active SSL Certificate</label> list and click on the certificate.
 
-    ![Locating your certificate](/files/.dnsimple-domain-certificates-list.png)
+    ![Locating your certificate](/files/dnsimple-domain-certificates-list.png)
 
 1.  Click <label>complete the setup process now</label>.
 

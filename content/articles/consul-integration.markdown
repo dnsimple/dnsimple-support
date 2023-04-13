@@ -43,7 +43,7 @@ To ensure the task can create the records in your DNSimple account, the followin
 **`dnsimple_token`**:`string` - (Required) The DNSimple API v2 token. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token.
 
 
-**`dnsimple_account`**:`string` - (Required) The ID of the account associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](http://developer.dnsimple.com).
+**`dnsimple_account`**:`string` - (Required) The ID of the account associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](https://developer.dnsimple.com).
 
 **`dnsimple_sandbox`**:`boolean` - (Optional) Set to `true` to connect to the [API sandbox environment](https://developer.dnsimple.com/sandbox/). The token and account ID will vary between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your configuration dialed in before using it in the actual production environment. To learn more about our sandbox environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
 

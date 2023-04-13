@@ -55,8 +55,6 @@ Additionally, a message will appear on your website indicating that your domain 
 
 ![ICANN Verification Web](/files/icann-verification-web.png)
 
-![ICANN Verification Web](/files/icann-verification-web-2.png)
-
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
 <note>
