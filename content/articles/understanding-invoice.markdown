@@ -58,7 +58,6 @@ Domain registration charges can be recurring if you've enabled [auto-renewal](/a
 - Domain renewals
 - Domain transfers
 - Standard or Wildcard SSL certificates
-- Whois Privacy
 
 
 ## Proration
