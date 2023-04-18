@@ -20,7 +20,6 @@ When you subscribe to DNSimple you will be required to provide a credit or debit
 - Domain registrations
 - Domain renewals
 - Domain transfers
-- Whois privacy
 - SSL certificates
 
 
