@@ -16,5 +16,5 @@ An account is cancelled if payment cannot be collected after a certain period of
 If you registered your domain with DNSimple, and your account closes or is unsubscribed, the same logic from either case above applies. However, you'll still be able to manage your domain (alter domain delegation, etc.) through our interface.
 
 <note>
-If the domain is registered, and you close your account or unsubscribe, your domain won't renew automatically even if it was set to autorenew and WHOIS privacy protection will be disabled.
+If the domain is registered, and you close your account or unsubscribe, your domain won't renew automatically even if it was set to autorenew, and WHOIS privacy protection will be disabled.
 </note>
