@@ -5,7 +5,6 @@ categories:
 - DNSimple
 - Domains
 - SSL Certificates
-- Whois Privacy
 ---
 
 # Expiring Product Email Notifications
@@ -16,7 +15,6 @@ We monitor the following products:
 
 - Purchased domains
 - Purchased certificates
-- Purchased whois privacies
 
 As soon as one of these products enters the 60-day expiration period, we start sending email notifications.
 

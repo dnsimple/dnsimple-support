@@ -29,7 +29,7 @@ The account page has a full section dedicated to relevant information about your
   If your account has credit, future payments may be deducted from this amount. Account credits fall into these two categories:
 
   - Credit for subscriptions: This credit is only used to cover subscription fees.
-  - Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, WHOIS privacies, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
+  - Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
 
 <div class="section-steps" markdown="1">
 ##### Checking your account balance
