@@ -16,18 +16,16 @@ categories:
 
 The [WHOIS Privacy protection service](/articles/what-is-whois-privacy) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public WHOIS database.
 
-You can purchase WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
+You can enable WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
 
-<info>
-The WHOIS Privacy service starts at **$3/year per domain** and is based on the currently subscribed plan.
-</info>
+<tip>
+The WHOIS Privacy service is now **free** for domains registered with us.
+</tip>
 
 
 ## Enabling WHOIS Privacy {#enable}
 
 You can enable WHOIS Privacy protection from your domain page or the domain list.
-
-When you enable the service for the first time, a service cost will be charged to your account. You can then enable or disable the service at any time, with no additional cost, for one year.
 
 <div class="section-steps" markdown="1">
 ##### Enabling WHOIS Privacy from the domain list {#enable-whois-domain-list}
@@ -42,16 +40,6 @@ When you enable the service for the first time, a service cost will be charged t
 
     ![Enable WHOIS Privacy](/files/whoisprivacy-domain-list-enable.png)
 
-    If this is the first time you're enabling the service for this domain, you'll need to purchase the service. The page will provide you with the purchase information. Click <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
-
-    ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
-
-    <info>
-    The WHOIS privacy price will be held on your card immediately.
-    Your card will be charged once WHOIS privacy is enabled.
-    If WHOIS privacy cannot be enabled on your domain, funds will be released.
-    </info>
-
 </div>
 
 <div class="section-steps" markdown="1">
@@ -65,16 +53,6 @@ When you enable the service for the first time, a service cost will be charged t
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
 
 1.  To enable the WHOIS Privacy service, click the <label>Enable WHOIS Privacy</label> link.
-
-    If this is the first time you're enabling the service for this domain, you'll need to purchase the service. The page will provide you with the purchase information. Click <label>Purchase WHOIS Privacy</label> to immediately purchase and enable the WHOIS Privacy service for the domain.
-
-    ![Purchase WHOIS Privacy](/files/whoisprivacy-purchase-page.png)
-
-    <info>
-    The WHOIS privacy price will be held on your card immediately.
-    Your card will be charged once WHOIS privacy is enabled.
-    If WHOIS privacy cannot be enabled on your domain, funds will be released.
-    </info>
 
 </div>
 
@@ -114,35 +92,6 @@ Once you disable WHOIS Privacy protection, the contact details of your domain wi
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)
 
 1.  To disable the WHOIS Privacy service, click the <label>Disable WHOIS Privacy</label> link.
-
-</div>
-
-## Renew WHOIS Privacy {#renew}
-
-<info>
-There's no auto-renewal for WHOIS Privacy. It must be renewed manually.
-</info>
-
-We'll send an email reminder when the WHOIS Privacy on a domain is due to expire, but you can renew it manually before that notice is sent:
-
-<div class="section-steps" markdown="1">
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain and click the name to access the domain page.
-1.  Scroll down to the _Contact_ card.
-
-    ![WHOIS Privacy card](/files/whoisprivacy-domain-card-renew.png)
-
-1. Click the <label>Renew WHOIS Privacy</label> link. You'll be taken to a confirmation page.
-1. To renew the WHOIS Privacy service, click the <label>Renew WHOIS Privacy for 1 Year</label> button
-
-    ![Renew WHOIS Privacy](/files/whoisprivacy-renew-page.png)
-
-    <info>
-    The WHOIS privacy price will be held on your card immediately.
-    Your card will be charged once the WHOIS privacy service is renewed.
-    If WHOIS privacy cannot be renewed for your domain, funds will be released.
-    </info>
 
 </div>
 
