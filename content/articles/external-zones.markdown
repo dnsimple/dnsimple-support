@@ -31,7 +31,12 @@ To proceed with linking [Amazon Route 53](https://aws.amazon.com/route53/) as an
 1. Under <label>Add an external DNS provider<label>, click on the link button for the external DNS provider that you would like to link to your DNSimple account.
 ![Link an external DNS provider](/files/account-external-provider-link.png)
 1. Fill in the necessary credentials for your account at the external DNS provider, as well as a nickname that will be used for identifying this provider.
-![Enter external DNS provider credentials](/files/account-external-provider-credentials.png)
-1. After successfully linking the external DNS provider, you will arrive back on the DNSimple External DNS Providers page with the external DNS provider linked to your account.
+![Enter external DNS provider credentials](/files/account-external-provider-link-credentials.png)
+1. After successfully linking the external DNS provider, you will arrive back on the DNSimple External DNS Providers page with the external DNS provider newly linked to your account, listed under "Linked providers".
 ![Account external providers list](/files/account-external-providers.png)
 
+## Unlinking an External DNS Provider from your account
+
+1. At DNSimple, go to the <label>Account</label> page, and click the <label>External DNS Providers</label> tab.
+1. Under <label>Linked providers<label>, click on the <label>Remove</label> button for the external DNS provider that you would like to unlink from your DNSimple account. This will remove the ability to view and manage zones and their DNS records at the linked provider via DNSimple.
+![Unlink an external DNS provider](/files/account-external-provider-unlink.png)
