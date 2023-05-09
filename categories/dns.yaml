@@ -35,6 +35,8 @@ Zones:
 - "Domain Zone Files"
 - "DNS Hosting"
 - "Dynamic DNS"
+- "External Zones"
+- "Managing External Zones"
 - "Reverse DNS Zones"
 - "Resolution Status"
 - "Auto-Importing DNS Records"
