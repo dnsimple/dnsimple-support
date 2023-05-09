@@ -37,6 +37,7 @@ Zones:
 - "Dynamic DNS"
 - "External Zones"
 - "Managing External Zones"
+- "Deployment Editor"
 - "Reverse DNS Zones"
 - "Resolution Status"
 - "Auto-Importing DNS Records"

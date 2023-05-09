@@ -22,9 +22,9 @@ From the Zones page, you can view your DNSimple zones alongside zones imported f
 
     ![Zones link menu](/files/zones-domains-link-menu.png)
 
-1.  On the <label>Zones</label> page, the zones in your DNSimple account as well as external zones imported from [external DNS providers](/articles/external-zones) will be listed. You can click on any linked zone to enter the [Deployment Editor](/articles/deployment-editor), to manage the zone's records.
+1.  On the <label>Zones</label> page, the zones in your DNSimple account as well as external zones imported from [external DNS providers](/articles/external-zones) will be listed. You can click on any linked zone to enter the [Deployment Editor](/articles/deployment-editor), to manage the zone's records. The labels under the Providers column indicate at which DNS provider(s) the zone can be managed.
 
-    ![Zones link menu](/files/zones-page.png)
+    ![Zones page](/files/zones-page.png)
 </div>
 
 ## Refreshing imported zones
