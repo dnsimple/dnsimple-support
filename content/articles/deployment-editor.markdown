@@ -7,7 +7,7 @@ categories:
 
 # Deployment Editor
 
-From the Deployment editor page, you can view the records for a zone, both at DNSimple and also [external DNS provider(s)](/articles/external-zones). The Deployment editor page groups records together, so that you can easily see which records are at which DNS provider(s).
+From the Deployment editor page, you can view the records for a zone, both at DNSimple and also [external DNS provider(s)](/articles/external-zones) and also sync them. The Deployment editor page groups records together, so that you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Zones page
@@ -34,4 +34,39 @@ From the Deployment editor page, you can view the records for a zone, both at DN
 On the Deployment editor page, you can easily see which records are present and at which DNS provider(s).
 
 ![Managing zone records in the deployment editor](/files/deployment-editor-manage-records.png)
+
+### Adding a zone record in the Deployment Editor
+
+In the deployment editor, you can add a zone record to one or more DNS providers that support the record type.
+
+<div class="section-steps" markdown="1">
+##### Adding a record in the Deployment Editor
+
+1.  From the [Deployment Editor](/articles/record-editor) page, click on the <label>Add record</label> button and choose the type of record you are adding.
+
+    ![Deployment Editor Add Record button](/files/deployment-editor-add-record-button.png)
+
+1.  Enter the required infomation and press <label>Add Record</label> to create the record. For each DNS provider that the record should be added to, ensure that the corresponding checkbox is checked.
+
+    ![Deployment Editor Add Record](/files/deployment-editor-add-record.png)
+
+<div class="section-steps" markdown="1">
+##### Quickly add a record from one DNS provider to another DNS provider
+
+1.  From the [Deployment Editor](/articles/record-editor) page, click on a record to see the expanded options. If a record exists at one DNS provider but not at another, you can quickly add it to the other DNS provider by clicking on the <label>Add</label> button.
+
+    ![Deployment Editor quick add of record](/files/deployment-editor-quick-add.png)
+
+### Updating a zone record in the Deployment Editor
+
+<div class="section-steps" markdown="1">
+##### Updating a record in the Deployment Editor
+
+1.  From the [Deployment Editor](/articles/record-editor) page, click on a record to see the expanded options, and then click on the edit icon to edit the record.
+
+    ![Deployment Editor Update Record button](/files/deployment-editor-edit-record-button.png)
+
+1.  Enter the required infomation and press <label>Update Record</label> to update the record. For each DNS provider that the record should be updated at, ensure that the corresponding checkbox is checked. For any selected DNS provider, if the record did not already exist there, it will be added to the provider.
+
+    ![Deployment Editor Update Record](/files/deployment-editor-edit-record.png)
 
