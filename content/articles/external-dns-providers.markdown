@@ -1,13 +1,13 @@
 ---
-title: External Zones
+title: External DNS Providers
 excerpt: Link an external DNS provider to your DNSimple account to manage zones at other authoritative DNS providers, all within DNSimple.
 categories:
 - DNS
 ---
 
-# External Zones
+# External DNS Providers
 
- DNSimple supports the ability to view and manage zones that are deployed in other DNS providers external to DNSimple. In DNSimple, we refer to such zones as ["External Zones"](/articles/managing-external-zones).
+ DNSimple supports the ability to view and manage zones that are deployed in other DNS providers external to DNSimple. In DNSimple, we refer to such providers as "external DNS providers", and zones as ["external zones"](/articles/managing-external-zones).
 
 ## Supported Features
 

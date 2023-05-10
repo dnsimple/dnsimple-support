@@ -35,7 +35,7 @@ Zones:
 - "Domain Zone Files"
 - "DNS Hosting"
 - "Dynamic DNS"
-- "External Zones"
+- "External DNS Providers"
 - "Managing External Zones"
 - "Deployment Editor"
 - "Reverse DNS Zones"
