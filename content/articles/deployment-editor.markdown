@@ -7,12 +7,12 @@ categories:
 
 # Deployment Editor
 
-From the Deployment editor page, you can view the records for a zone, both at DNSimple and also external DNS provider(s). The Deployment editor page groups records together, so that you can easily see which records are at which DNS provider(s).
+From the Deployment editor page, you can view the records for a zone, both at DNSimple and also [external DNS provider(s)](/articles/external-zones). The Deployment editor page groups records together, so that you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Zones page
 
-1.  From the [Record Editor](/articles/managing-external-zones) page, click on any zone to enter the Deployment Editor for that zone.
+1.  From the [Zones](/articles/managing-external-zones) page, click on any listed zone to enter the Deployment Editor for that zone.
 
     ![Zones page](/files/zones-page.png)
 </div>
@@ -24,14 +24,14 @@ From the Deployment editor page, you can view the records for a zone, both at DN
 
     ![Deployment Editor Link](/files/deployment-editor-from-record-editor.png)
 
-1.  In the popup menu, click on the <label>View as Deployment editor<label> link, in order to navigate to the <label>Deployment Editor</label> page.
+1.  In the popup menu, click on the <label>View as Deployment editor</label> link, in order to navigate to the <label>Deployment Editor</label> page.
 
     ![Deployment Editor](/files/deployment-editor-link-menu.png)
 </div>
 
 ## Managing zone records in the Deployment Editor
 
-On the Deployment editor page, you can easily see which records are present at which DNS provider.
+On the Deployment editor page, you can easily see which records are present and at which DNS provider(s).
 
 ![Managing zone records in the deployment editor](/files/deployment-editor-manage-records.png)
 
