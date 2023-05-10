@@ -37,7 +37,7 @@ On the Deployment editor page, you can easily see which records are present and 
 
 ### Adding a zone record in the Deployment Editor
 
-In the deployment editor, you can add a zone record to one or more DNS providers that support the record type.
+In the deployment editor, you can add a zone record to one or more DNS providers that support the [record type](/articles/external-dns-providers#supported-record-types).
 
 <div class="section-steps" markdown="1">
 ##### Adding a record
@@ -91,7 +91,7 @@ You can delete a zone record at one or more DNS providers from the Deployment Ed
     ![Deployment Editor Delete Record](/files/deployment-editor-delete-record.png)
 </div>
 
-## Syncing zone records between DNS providers
+## Syncing zone records between DNS providers {#record-syncing}
 
 You can sync zone records between DNS providers on the Deployment Editor page.
 
@@ -102,7 +102,7 @@ You can sync zone records between DNS providers on the Deployment Editor page.
 
     ![Deployment Editor Sync Records button](/files/deployment-editor-sync-button.png)
 
-1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone may be created, updated and deleted in order to make the records in the destination zone the same as those in the source zone. Note that only records of record types supported at both providers will be affected, and only record field information (for instance, record TTL)that is supported at DNSimple will be preserved.
+1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone may be created, updated and deleted in order to make the records in the destination zone the same as those in the source zone. Note that only records of [record types supported](/articles/external-dns-providers#supported-record-types) at both providers will be affected, and only record field information (for instance, record TTL) that is supported at DNSimple will be preserved.
 
     ![Deployment Editor Delete Record](/files/deployment-editor-sync-records.png)
 </div>
