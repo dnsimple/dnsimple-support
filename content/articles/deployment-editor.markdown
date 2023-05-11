@@ -91,6 +91,11 @@ You can delete a zone record at one or more DNS providers from the Deployment Ed
     ![Deployment Editor Delete Record](/files/deployment-editor-delete-record.png)
 </div>
 
+## Refreshing external zone records {#refreshing-external-zone-records}
+
+If you have made changes to your external zone records outside of DNSimple, you can refresh their state in
+DNSimple using the <label>Refresh records</label> button in the Deployment Editor.
+
 ## Syncing zone records between DNS providers {#record-syncing}
 
 You can sync zone records between DNS providers on the Deployment Editor page.

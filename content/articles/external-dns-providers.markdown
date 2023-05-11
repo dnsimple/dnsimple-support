@@ -44,10 +44,12 @@ The following Route 53 record types are supported for syncing and management at 
 - A
 - AAAA
 - CNAME
+- MX
 - NS
 - PTR
 - SOA
 - SPF
+- SRV
 - TXT
 
 ## Linking an External DNS Provider to your account
