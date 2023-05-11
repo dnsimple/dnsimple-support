@@ -59,7 +59,7 @@ The following Route 53 record types are supported for syncing and management at 
 ![Link an external DNS provider](/files/account-external-provider-link.png)
 1. Fill in the necessary credentials for your account at the external DNS provider, as well as a nickname that will be used for identifying this provider.
 ![Enter external DNS provider credentials](/files/account-external-provider-link-credentials.png)
-1. After successfully linking the external DNS provider, you will arrive back on the DNSimple External DNS Providers page with the external DNS provider newly linked to your account, listed under "Linked providers". You will be able to view the imported external zones from our [Zones](/articles/managing-external-zones) page, and manage and sync external zone records from the [Deployment Editor](/articles/deployment-editor).
+1. After successfully linking the external DNS provider, you will arrive back on the DNSimple External DNS Providers page with the external DNS provider newly linked to your account, listed under "Linked providers". You will be able to view the imported external zones from the [Zones](/articles/managing-external-zones) page, and manage and sync external zone records from the [Deployment Editor](/articles/deployment-editor).
 ![Account external providers list](/files/account-external-providers.png)
 
 ## Unlinking an External DNS Provider from your account

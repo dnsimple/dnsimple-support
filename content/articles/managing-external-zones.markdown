@@ -7,18 +7,18 @@ categories:
 
 # Managing External Zones
 
-From the Zones page, you can view your DNSimple zones alongside zones imported from [external DNS providers](/articles/external-dns-providers). Loading the Zones page also automatically imports new zones and their records from linked external DNS providers, if there are any.
+From the Zones page, you can view the refreshed state of your DNSimple zones alongside zones imported from [external DNS providers](/articles/external-dns-providers).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Zones page
 
 1.  On the top-nav menu, click the <label>Domains</label> tab.
 
-1.  Click on the menu icon next to the <label>Domains<label> heading.
+1.  Click on the menu icon next to the <label>Domains</label> heading.
 
     ![Zones link](/files/zones-domains-link.png)
 
-1.  In the popup menu, click on the <label>Zones<label> link, in order to navigate to the <label>Zones</label> page.
+1.  In the popup menu, click on the <label>Zones</label> link, in order to navigate to the <label>Zones</label> page.
 
     ![Zones link menu](/files/zones-domains-link-menu.png)
 
@@ -27,6 +27,6 @@ From the Zones page, you can view your DNSimple zones alongside zones imported f
     ![Zones page](/files/zones-page.png)
 </div>
 
-## Refreshing imported zones
+## Refreshing and importing external zones {#refreshing-and-importing-external-zones}
 
-Loading the Zones page automatically imports new zones and their records from linked external DNS providers, if there are any. The new zones and zone records will be fetched in the background upon page load, and the Zones page will be automatically updated to reflect them once ready.
+Loading the Zones page automatically [refreshes](/articles/deployment-editor#refreshing-external-zone-records) the current state of external zones, and imports new zones and their records from linked external DNS providers, if there are any. The new zones and zone records will be fetched in the background upon page load, and the Zones page will be automatically updated to reflect them once ready.
