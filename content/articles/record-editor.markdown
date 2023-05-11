@@ -52,8 +52,6 @@ In most cases, you'll be asked to provide a _Name_, a _TTL_, and the content for
 
 - _TTL_: TTL stands for Time-to-Live. It determines how long a DNS lookup for that record can be cached. The default value is 1 hour (3600 seconds), but you can adjust it by selecting a different value from the select field.
 
--
-
 Enter the required infomation and press <label>Add Record</label> to create the record.
 
 ## Record fields editor
