@@ -96,6 +96,8 @@ You can delete a zone record at one or more DNS providers from the Deployment Ed
 If you have made changes to your external zone records outside of DNSimple, you can refresh their state in
 DNSimple using the <label>Refresh records</label> button in the Deployment Editor.
 
+    ![Deployment Editor Refresh Records](/files/deployment-editor-refresh-records.png)
+
 Alternatively, you can refresh the state of all external zones in your DNSimple account by visiting the [Zones](/articles/managing-external-zones#refreshing-and-importing-external-zones) page.
 
 ## Syncing zone records between DNS providers {#record-syncing}
