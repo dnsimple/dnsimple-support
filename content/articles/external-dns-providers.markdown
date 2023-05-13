@@ -3,6 +3,7 @@ title: External DNS Providers
 excerpt: Link an external DNS provider to your DNSimple account to manage zones at other authoritative DNS providers, all within DNSimple.
 categories:
 - DNS
+- Integrations
 ---
 
 # External DNS Providers
