@@ -36,7 +36,7 @@ To link [Amazon Route 53](https://aws.amazon.com/route53/) as an external DNS pr
 ## Supported record types {#supported-record-types}
 
 Records of supported record types can be [synced](/articles/deployment-editor#record-syncing) from/to DNSimple to/from an external DNS provider.
-However, record fields not supported in DNSimple records will not be synced. Likewise, record fields, like [record notes](/articles/record-notes) and [regional record](/articles/regional-records) information, are only supported in DNSimple records. They will not be synced to the external DNS provider.
+However, record fields that are not supported by DNSimple, or the destination provider will be ignored. For example, record fields like [record notes](/articles/record-notes) and [regional record](/articles/regional-records) information are only supported in DNSimple records. They will not be synced to the external DNS provider.
 
 #### Supported Route 53 record types
 
