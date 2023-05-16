@@ -30,7 +30,14 @@ DNSimple supports [Amazon Route 53](https://aws.amazon.com/route53/) as an exter
 
 To link [Amazon Route 53](https://aws.amazon.com/route53/) as an external DNS provider, you need:
 
-- An [AWS access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) for an AWS user with permission to manage public hosted zones at Route 53.
+- An [AWS access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) for an AWS user with permission to manage public hosted zones at Route 53, including these permissions:
+  - route53:ListHostedZones
+  - route53:ListHostedZonesByName
+  - route53:CreateHostedZone
+  - route53:ListResourceRecordSets
+  - route53:ChangeResourceRecordSets
+  - route53:GetHostedZone
+  - route53:DeleteHostedZone
 - Administrator access to a DNSimple account
 
 ## Supported record types {#supported-record-types}
