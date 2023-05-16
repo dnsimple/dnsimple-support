@@ -40,9 +40,11 @@ To proceed with configuring login with SSO through Okta, you must:
 
 You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
 
-Once an Okta organization is linked to a DNSimple account, any member of the Okta organization can request access to the DNSimple account by attempting to log in via Okta using the respective Okta domain.
+Once an Okta organization is linked to a DNSimple account, any member of the Okta organization can log in to DNSimple using the "Sign in using Okta" and the respective Okta domain.
 
-Once they are granted access, they can log in directly via Okta. If the user logs out of Okta, they will be logged out of DNSimple.
+If they are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they are granted access, they can log in directly via Okta.
+
+If the user logs out of Okta, they will be logged out of DNSimple.
 
 ## Linking an Okta organization to a DNSimple account
 
