@@ -59,22 +59,10 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 DNSimple's Okta app integration is pending review and not yet available for installation via the [Okta Integration Network](https://www.okta.com/integrations/). For now, you can use Okta as an Identity Provider by [creating your own custom Okta app integration](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_OIDC.htm) to work with DNSimple by following these steps:
 
 1. Log in to your organization's Okta dashboard as an administrator.
-1. Go to the <label>Applications</label> page, then click Create App Integration.
-1. Select <label>OIDC - OpenID Connect</label> as the Sign-in method and <label>Web application</label> as the Application type.
+1. Go to the <label>Applications</label> page, then click <label>Browse App Catalog</label>.
+1. Search for <label>DNSimple</label> and click the <label>Add integration</label> button.
 ![Create App Integration](/files/okta-create-app-integration.png)
 1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
-1. Under <label>Grant type</label>, uncheck "Client Credentials" and keep "Authorization Code" as the only option checked.
-1. Under <label>Sign-in redirect URIs</label>, add the URIs:
-- https://dnsimple.com/identity_providers/okta/callbacks/users/login
-- https://dnsimple.com/identity_providers/okta/callbacks/accounts/link
-- https://dnsimple.com/identity_providers/okta/callbacks/users/link
-1. Under <label>Sign-out redirect URIs</label>, add the URI "https://dnsimple.com".
-1. Under <label>Controlled access</label>, select "Skip group assignment for now".
-![Create App Integration form](/files/okta-create-app-integration-form.png)
-1. Click <label>Save</label>.
-1. You should be redirected to the viewing page for the newly created "DNSimple App Integration".
-1. Note your Client ID, Client Secret, and Okta domain. You'll need them when [configuring DNSimple for Okta SSO](/articles/okta-identity-provider#configuring-dnsimple-for-okta-sso).
-![Okta client details](/files/okta-client-details.png)
 1. Click the <label>Assignments</label> tab.
 1. From the <label>Assignments</label> page, you can give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider.
 ![Assign users and groups](/files/okta-assignment.png)
