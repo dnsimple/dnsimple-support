@@ -61,7 +61,7 @@ DNSimple's Okta app integration is pending review and not yet available for inst
 1. Log in to your organization's Okta dashboard as an administrator.
 1. Go to the <label>Applications</label> page, then click <label>Browse App Catalog</label>.
 1. Search for <label>DNSimple</label> and click the <label>Add integration</label> button.
-![Create App Integration](/files/okta-create-app-integration.png)
+![Browse app catalog](/files/okta-browse-app-catalog.png)
 1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
 1. Click the <label>Assignments</label> tab.
 1. From the <label>Assignments</label> page, you can give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider.
