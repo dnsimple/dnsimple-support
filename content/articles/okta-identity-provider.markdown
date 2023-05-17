@@ -28,7 +28,6 @@ To proceed with configuring login with SSO through Okta, you must:
 
 - **SP-initiated Single Sign-On (SSO)**: This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
 - **Import Users**: Manage who can access your DNSimple account by assigning users to the Okta application
-- **Single Log Out (SLO)**: Users can log out of their DNSimple session by logging out of their Okta session.
 
 ## Video walk-through
 
@@ -55,8 +54,6 @@ If you log out of Okta, you will also be logged out of DNSimple.
 Follow the instructions below to connect DNSimple to your Okta organization.
 
 ### Adding the DNSimple App to Okta {#adding-the-dnsimple-app-to-okta}
-
-DNSimple's Okta app integration is pending review and not yet available for installation via the [Okta Integration Network](https://www.okta.com/integrations/). For now, you can use Okta as an Identity Provider by [creating your own custom Okta app integration](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_OIDC.htm) to work with DNSimple by following these steps:
 
 1. Log in to your organization's Okta dashboard as an administrator.
 1. Go to the <label>Applications</label> page, then click <label>Browse App Catalog</label>.
