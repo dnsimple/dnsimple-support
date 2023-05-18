@@ -66,11 +66,7 @@ Non-standard records, like [ALIAS](/articles/alias-record) and [POOL](/articles/
 1.  Locate the relevant domain, and click on the name to access the domain page.
 1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
 1.  Click on the <label>Export</label> link inside the zones card.
+1.  The link creates a text file that you can save on your computer.
 
     ![Export zone link](/files/export-zone.png)
-
-1.  The link will open a text file. Save the file to your computer.
-
-    ![Zone file](/files/dnsimple-zone-file.png)
-
 </div>
