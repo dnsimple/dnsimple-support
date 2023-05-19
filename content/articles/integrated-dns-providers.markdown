@@ -8,17 +8,17 @@ categories:
 
 # Integrated DNS Providers
 
-DNSimple supports the ability to view and manage zones that are deployed in other DNS providers external to DNSimple. DNSimple calls such providers "integrated DNS providers" and zones ["integrated zones"](/articles/managing-external-zones).
+DNSimple supports the ability to view and manage zones that are deployed in other DNS providers external to DNSimple. DNSimple calls such providers "integrated DNS providers" and zones ["integrated zones"](/articles/managing-integrated-zones).
 
 ## Supported Features
 
-- **Import integrated zones**: When you link an integrated DNS provider to your DNSimple account, all the zones hosted on that integrated DNS provider will be imported into DNSimple and listed on the [Zones](/articles/managing-external-zones) page.
+- **Import integrated zones**: When you link an integrated DNS provider to your DNSimple account, all the zones hosted on that integrated DNS provider will be imported into DNSimple and listed on the [Zones](/articles/managing-integrated-zones) page.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor). (Note: The list of supported record types differs based on the provider)
-- **2-way Syncing of Records**: Sync your integrated zone records from the integrated zone to DNSimple, or from DNSimple to the external zone, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
+- **2-way Syncing of Records**: Sync your integrated zone records from the integrated zone to DNSimple, or from DNSimple to the integrated zone, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
 ## Supported Integrated DNS Providers
 
-To manage [integrated zones](/articles/managing-external-zones) from DNSimple, you first have to link an integrated DNS provider to your DNSimple account.
+To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to link an integrated DNS provider to your DNSimple account.
 
 DNSimple supports the management of zones from the authoritative DNS providers listed below.
 
@@ -67,7 +67,7 @@ The following Route 53 record types are supported for syncing and management at 
 ![Link an integrated DNS provider](/files/account-external-provider-link.png)
 1. Fill in the necessary credentials for your account at the integrated DNS provider and a nickname to identify this provider.
 ![Enter integrated DNS provider credentials](/files/account-external-provider-link-credentials.png)
-1. After successfully linking the integrated DNS provider, you will arrive back on the DNSimple Integrated Providers page with the integrated DNS provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Zones](/articles/managing-external-zones) page, and manage and sync integrated zone records from the [Deployment Editor](/articles/deployment-editor).
+1. After successfully linking the integrated DNS provider, you will arrive back on the DNSimple Integrated Providers page with the integrated DNS provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Zones](/articles/managing-integrated-zones) page, and manage and sync integrated zone records from the [Deployment Editor](/articles/deployment-editor).
 ![Account integrated providers list](/files/account-external-providers.png)
 
 ## Unlinking an Integrated DNS Provider from your account

@@ -12,7 +12,7 @@ From the Deployment editor page, you can view the records for a zone at DNSimple
 <div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Zones page
 
-1.  From the [Zones](/articles/managing-external-zones) page, click any listed zone to enter the Deployment Editor for that zone.
+1.  From the [Zones](/articles/managing-integrated-zones) page, click any listed zone to enter the Deployment Editor for that zone.
 
     ![Zones page](/files/zones-page.png)
 </div>
@@ -97,7 +97,7 @@ If you have made changes to your integrated zone records outside of DNSimple, yo
 
    ![Deployment Editor Refresh Records](/files/deployment-editor-refresh-records.png)
 
-Alternatively, you can visit the [Zones](/articles/managing-external-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account. 
+Alternatively, you can visit the [Zones](/articles/managing-integrated-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account. 
 
 ## Syncing zone records between DNS providers {#record-syncing}
 
