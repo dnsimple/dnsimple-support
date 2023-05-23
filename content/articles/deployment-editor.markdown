@@ -1,18 +1,18 @@
 ---
 title: Deployment Editor
-excerpt: Manage and sync the DNS records of a zone at DNSimple and/or external DNS providers.
+excerpt: Manage and sync the DNS records of a zone at DNSimple and/or integrated DNS providers.
 categories:
 - DNS
 ---
 
 # Deployment Editor
 
-From the Deployment editor page, you can view the records for a zone at DNSimple and [external DNS providers](/articles/external-dns-providers) and sync them. The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
+From the Deployment editor page, you can view the records for a zone at DNSimple and [integrated DNS providers](/articles/integrated-dns-providers) and sync them. The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Zones page
 
-1.  From the [Zones](/articles/managing-external-zones) page, click any listed zone to enter the Deployment Editor for that zone.
+1.  From the [Zones](/articles/managing-integrated-zones) page, click any listed zone to enter the Deployment Editor for that zone.
 
     ![Zones page](/files/zones-page.png)
 </div>
@@ -37,7 +37,7 @@ On the Deployment editor page, you can see which records are present at which DN
 
 ### Adding a zone record in the Deployment Editor
 
-In the deployment editor, you can add a zone record to one or more DNS providers that support the [record type](/articles/external-dns-providers#supported-record-types).
+In the deployment editor, you can add a zone record to one or more DNS providers that support the [record type](/articles/integrated-dns-providers#supported-record-types).
 
 <div class="section-steps" markdown="1">
 ##### Adding a record
@@ -91,13 +91,13 @@ You can delete a zone record at one or more DNS providers from the Deployment Ed
     ![Deployment Editor Delete Record](/files/deployment-editor-delete-record.png)
 </div>
 
-## Refreshing external zone records {#refreshing-external-zone-records}
+## Refreshing integrated zone records {#refreshing-integrated-zone-records}
 
-If you have made changes to your external zone records outside of DNSimple, you can refresh their state in DNSimple using the <label>Refresh records</label> button in the Deployment Editor.
+If you have made changes to your integrated zone records outside of DNSimple, you can refresh their state in DNSimple using the <label>Refresh records</label> button in the Deployment Editor.
 
    ![Deployment Editor Refresh Records](/files/deployment-editor-refresh-records.png)
 
-Alternatively, you can visit the [Zones](/articles/managing-external-zones#refreshing-and-importing-external-zones) page to refresh the state of all external zones in your DNSimple account. 
+Alternatively, you can visit the [Zones](/articles/managing-integrated-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account. 
 
 ## Syncing zone records between DNS providers {#record-syncing}
 
@@ -110,7 +110,7 @@ You can sync zone records between DNS providers on the Deployment Editor page.
 
     ![Deployment Editor Sync Records button](/files/deployment-editor-sync-button.png)
 
-1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone can be created, updated, and deleted to make the records in the destination zone the same as those in the source zone. Note only records of [record types supported](/articles/external-dns-providers#supported-record-types) at both providers will be affected, and only record field information (e.g. record TTL)supported at DNSimple will be preserved.
+1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone can be created, updated, and deleted to make the records in the destination zone the same as those in the source zone. Note only records of [record types supported](/articles/integrated-dns-providers#supported-record-types) at both providers will be affected, and only record field information (e.g. record TTL)supported at DNSimple will be preserved.
 
     ![Deployment Editor Delete Record](/files/deployment-editor-sync-records.png)
 </div>

@@ -2,7 +2,7 @@ Apps:
 - "Slack App"
 
 Amazon Route 53:
-- "External DNS Providers"
+- "Integrated DNS Providers"
 
 Let's Encrypt:
 - "Let's Encrypt and DNSimple"
