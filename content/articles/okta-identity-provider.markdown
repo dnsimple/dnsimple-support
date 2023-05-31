@@ -40,7 +40,7 @@ To proceed with configuring login with SSO through Okta, you must:
 You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
 
 1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
-1. Click on the <label>Sign in using Okta</label> button.
+1. Click the <label>Sign in using Okta</label> button.
 1. Enter the company's Okta domain and click "Sign in".
 1. If you are prompted for your Okta username and password, enter them.
 1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
@@ -59,7 +59,6 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. Go to the <label>Applications</label> page, then click <label>Browse App Catalog</label>.
 1. Search for <label>DNSimple</label> and click the <label>Add integration</label> button.
 ![Browse app catalog](/files/okta-browse-app-catalog.png)
-1. Enter "DNSimple App Integration" or something appropriate for the <label>App integration name</label> field.
 1. Click the <label>Assignments</label> tab.
 1. From the <label>Assignments</label> page, you can give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider.
 ![Assign users and groups](/files/okta-assignment.png)
@@ -67,6 +66,8 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 1. Look for the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes, and click <label>Grant</label> for each of them.
 1. Verify the `okta.eventHooks.manage` and `okta.eventHooks.read` scopes have been granted.
 ![Granted scopes](/files/okta-grant-scopes.png)
+1. Click the <label>Sign On</label> tab. Note the client ID and client secret, as you will need them to configure DNSimple for Okta SSO.
+![Okta client credentials](/files/okta-client-credentials.png)
 
 ### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
@@ -86,6 +87,8 @@ If the Okta app is no longer linked (e.g. access token is revoked or event hook 
 ### Assigning People or Groups {#assigning-people-or-groups-in-okta}
 
 To give people access to DNSimple, click "Assignments" under the configured DNSimple app in your Okta dashboard. Click "Assign", and select the appropriate users.
+
+![Assign users and groups](/files/okta-assignment.png)
 
 If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them, and the DNSimple account admin will receive a notification that they have been added.
 
