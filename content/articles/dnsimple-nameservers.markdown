@@ -14,8 +14,7 @@ The DNSimple name servers are:
 - ns1.dnsimple.com
 - ns2.dnsimple.com
 - ns3.dnsimple.com
-- ns4.dnsimple.com
-- ns4.dnsimple-edge.org
+- ns4.dnsimple.com or ns4.dnsimple-edge.org
 
 If you registered your domain with DNSimple, your name servers will already be set to the DNSimple name servers. There's nothing else you need to do.
 
@@ -50,8 +49,8 @@ If you need to provide the IP addresses to your current registrar, use the follo
 </tr>
 <tr>
 <td>ns4.dnsimple.com</td>
-<td>162.159.27.4</td>
-<td>2400:cb00:2049:1::a29f:1b04</td>
+<td>199.247.155.53</td>
+<td>2620:111:8007::53</td>
 </tr>
 <tr>
 <td>ns4.dnsimple-edge.org</td>
