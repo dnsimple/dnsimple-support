@@ -5,7 +5,7 @@ categories:
 - Domain Transfers
 ---
 
-# Transferring a Domain to DNSimple
+# Transfer a Domain to DNSimple
 
 ### Table of Contents {#toc}
 
