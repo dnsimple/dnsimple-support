@@ -1,11 +1,11 @@
 ---
-title: Transferring a Domain to DNSimple
+title: Transfer a Domain to DNSimple
 excerpt: How to transfer your registered domain to DNSimple.
 categories:
 - Domain Transfers
 ---
 
-# Transferring a Domain to DNSimple
+# Transfer a Domain to DNSimple
 
 ### Table of Contents {#toc}
 
