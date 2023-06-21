@@ -16,15 +16,15 @@ categories:
 
 This article describes the differences between DNSimple plans. All plans will help you manage your domains. If you're a business owner or run an e-commerce website, the Teams plan will help you reach your business goals by providing you with the best tools for security and domain management.
 
-| | Solo | Teams |
-|---|:---:|:--:|
-| Can I redirect for HTTPS? | × | ✓ |
-| Can I work with other people on my account? | × | ✓ |
-| Am I covered by an SLA? | × | 99% |
-| Are my customers protected when they visit my site? | × | ✓ |
-| Can I customize my invoice email? | × | ✓ |
-| Do I have access to the DNSimple Slack app? | × | ✓ |
-| How fast can I get help from the experts? | 24 hours | > 24 hours |
+| | Solo | Teams | Enterprise |
+|---|:--:|:--:|:--:|
+| Can I redirect for HTTPS? | × | ✓ | [Contact sales](https://dnsimple.com/sales) |
+| Can I work with other people on my account? | × | ✓ | [Contact sales](https://dnsimple.com/sales) |
+| Am I covered by an SLA? | × | 99% | 100% |
+| Are my customers protected when they visit my site? | × | ✓ | [Contact sales](https://dnsimple.com/sales) |
+| Can I customize my invoice email? | × | ✓ | [Contact sales](https://dnsimple.com/sales) |
+| Do I have access to the DNSimple Slack app? | × | ✓ | [Contact sales](https://dnsimple.com/sales) |
+| How fast can I get help from the experts? | 24hrs | <24hrs | <1hr |
 
 ## Can I redirect for HTTPS?
 
