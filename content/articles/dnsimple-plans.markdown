@@ -50,6 +50,4 @@ Activates the following features:
 
 DNSimple's Enterprise plan provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
 
-
-
-
+Please [contact sales](https://dnsimple.com/sales) for more information.
