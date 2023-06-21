@@ -10,8 +10,8 @@ categories:
 ## All plans include
 
 - Register, transfer, and renew domains. [See TLD prices](https://dnsimple.com/tlds)
-- $2 per month per authoritative DNS zone with Anycast DNS and multi-layer DDoS defense.
-- $2 per month for domain email forwarding.
+- Primary or secondary DNS zones with Anycast DNS and multi-layer DDoS defense, billed monthly per zone.
+- Email forwarding, billed monthly per domain.
 
 ## Solo
 
@@ -21,7 +21,7 @@ DNSimple's Solo plan provides anyone with a domain management platform where the
 
 ## Teams
 
-$199 per month base subscription fee.
+Requires base monthly subscription fee.
 
 Activates the following features:
 - HTTPS URL redirects.
@@ -44,9 +44,9 @@ Activates the following features:
 - Single sign-on with Okta or Google Workspace
 - Vanity Name Servers.
 - High-volume zones.
-- Discounted domain registration, transfer, and renewal fees.
-- DNS zone discounts.
-- 100% SLA.
+- Discounted domain registration, transfer, and renewal fees for high-volume TLDs.
+- DNS zone discounts available.
+- 100% SLA available.
 
 DNSimple's Enterprise plan provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
 
