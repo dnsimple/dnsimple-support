@@ -25,7 +25,7 @@ $199 per month base subscription fee.
 
 Activates the following features:
 - HTTPS URL redirects.
-- Let’s Encrypt custom hostname certificates.
+- Let's Encrypt custom hostname certificates.
 - Wildcard certificates.
 - Specify different roles for your team members on a per-domain basis.
 - Regional and POOL records.
