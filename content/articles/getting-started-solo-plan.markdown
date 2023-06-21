@@ -1,11 +1,11 @@
 ---
-title: Getting Started With Your Personal Plan
-excerpt: A collection of articles to help you get started with your DNSimple Personal Plan quickly.
+title: Getting Started With Your Solo Plan
+excerpt: A collection of articles to help you get started with your DNSimple Solo Plan quickly.
 categories:
 - DNSimple
 ---
 
-# Getting Started With Your Personal Plan
+# Getting Started With Your Solo Plan
 
 ### Table of Contents {#toc}
 
@@ -14,10 +14,10 @@ categories:
 
 ---
 
-This guide will help you get started with your DNSimple Personal Plan as quickly as possible.
+This guide will help you get started with your DNSimple Solo Plan as quickly as possible.
 
 <tip>
-[Learn the differences](/articles/personal-vs-pro/) between the Personal plan and the Professional plan.
+[Learn the differences](/articles/Solo-vs-pro/) between the Solo plan and the Professional plan.
 </tip>
 
 ## Step 1: Preparing your account
