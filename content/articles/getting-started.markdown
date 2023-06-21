@@ -12,6 +12,7 @@ categories:
 ### General
 
 - [DNSimple Services](/articles/dnsimple-services/)
+- [DNSimple Plans](/articles/dnsimple-plans/)
 - [Why we don't offer web hosting services](/articles/why-not-web-hosting/)
 - [Our Comics](https://dnsimple.com/comics)
 
