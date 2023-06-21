@@ -20,11 +20,11 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
+1. Choose a plan that fits your needs.
 1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
-1. Choose a plan. Select <label>Continue</label> under <label>Individual</label>, then choose <label>Get Started</label> under <label>Personal</label> or <label>Professional</label>, depending on your needs.
 
     <tip>
-    [Learn the differences](/articles/personal-vs-pro/) between the Personal and Professional plans.
+    [Learn the differences](/articles/differences-between-dnsimple-plans/) between the DNSimple plans.
     </tip>
 
 1. Add your credit card details, then click <label>Start my free trial</label>.
@@ -217,7 +217,7 @@ If you go to your website, and you only see the ClickFunnels home page and not y
 
 ##### Understanding the Record Editor
 
-If you're no longer using ClickFunnels, and you created a website with a service like Wix, point your site to the new service. You can do this one of two ways:  
+If you're no longer using ClickFunnels, and you created a website with a service like Wix, point your site to the new service. You can do this one of two ways:
 Change the name servers to them, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels). Or they'll share the DNS records you need to add to DNSimple.
 
 We won't know what records are needed from the content host. You'll need to contact them, and request the following:
@@ -247,6 +247,6 @@ Let's Encrypt has a standard certificate to provide your site with the security 
 
 Here's a walkthrough of [ordering the Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). If you need a Wildcard Certificate, you'll have to [upgrade to our Professional Plan](/articles/changing-plans/) to access this feature.
+If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificate are available on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
 
 ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but we can help you find out when it expires and answer any questions you may have.

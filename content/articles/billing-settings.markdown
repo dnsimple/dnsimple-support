@@ -74,5 +74,5 @@ We can deliver your invoices to a different email address from the one you use t
 </div>
 
 <info>
-You can customize your billing email only if you're subscribed to one of the following [plans](https://dnsimple.com/pricing): Professional or Enterprise.
+Custom billing email is only available on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
 </info>

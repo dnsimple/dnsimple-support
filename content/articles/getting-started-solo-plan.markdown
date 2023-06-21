@@ -17,7 +17,7 @@ categories:
 This guide will help you get started with your DNSimple Solo Plan as quickly as possible.
 
 <tip>
-[Learn the differences](/articles/Solo-vs-pro/) between the Solo plan and the Professional plan.
+This guide only applies to Solo plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
 </tip>
 
 ## Step 1: Preparing your account
