@@ -1,11 +1,11 @@
 ---
-title: Differences between Solo Plans and Teams Plans
-excerpt: A look at our Solo vs. Teams plans and when you should upgrade.
+title: Differences between DNSimple Plans
+excerpt: A look at our plans and when you should upgrade.
 categories:
 - DNSimple
 ---
 
-# Differences between Solo and Teams Plans
+# Differences between DNSimple plans
 
 ### Table of Contents {#toc}
 
@@ -14,7 +14,7 @@ categories:
 
 ---
 
-This article describes the differences between the *Solo* plan and the *Teams* plan. Both plans will help you manage your domains. If you're a business owner or run an e-commerce website, the Teams plan will help you reach your business goals by providing you with the best tools for security and domain management.
+This article describes the differences between DNSimple plans. All plans will help you manage your domains. If you're a business owner or run an e-commerce website, the Teams plan will help you reach your business goals by providing you with the best tools for security and domain management.
 
 | | Solo | Teams |
 |---|:---:|:--:|
