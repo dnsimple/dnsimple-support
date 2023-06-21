@@ -46,7 +46,7 @@ This article describes the differences between the *Solo* plan and the *Teams* p
 
 ## Can I work with other people on my account?
 
-**Solo:** No - Sharing login credentials is unTeams and a security risk.
+**Solo:** No - Sharing login credentials is unprofessional and a security risk.
 
 **Teams:** Yes - You can invite others to help manage your domains. This also includes [fine-grained access setup for domains](/articles/domain-access-control), and access to your full activity log, which provides 100% transparency into account and domain changes.
 

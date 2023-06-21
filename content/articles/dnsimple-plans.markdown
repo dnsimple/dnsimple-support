@@ -39,7 +39,7 @@ DNSimple's Team plan provides startups and small engineering teams with all the 
 
 Custom subscription fee.
 
-- Activates the following features:
+Activates the following features:
 - Priority support
 - Single sign-on with Okta or Google Workspace
 - Vanity Name Servers.
