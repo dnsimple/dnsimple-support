@@ -2,10 +2,10 @@
 title: DNSimple plans
 excerpt: Understand what plan fits you best
 categories:
-- Account
+- DNSimple
 ---
 
-# Plans
+# DNSimple Plans
 
 ## All plans include
 

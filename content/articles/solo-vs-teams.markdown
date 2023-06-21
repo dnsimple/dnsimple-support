@@ -2,7 +2,7 @@
 title: Differences between Solo Plans and Teams Plans
 excerpt: A look at our Solo vs. Teams plans and when you should upgrade.
 categories:
-- Account
+- DNSimple
 ---
 
 # Differences between Solo and Teams Plans
