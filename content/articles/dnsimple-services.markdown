@@ -11,7 +11,7 @@ DNSimple provides essential services for every Internet-connected system: domain
 
 ## DNS hosting
 
-We bill DNS hosting as a monthly subscription. If you sign up for, or upgrade to, a yearly plan, you may receive a discount on your total subscription price. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
+We bill DNS hosting as on top of your subscription base fee. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
 
 ## Domain registration
 
@@ -38,7 +38,7 @@ One Click Services are ready-to-use DNS snippets. Applying a service creates all
 
 We offer:
 
-- Hosting services, like Surge, WordPress, Webflow, and more. 
+- Hosting services, like Surge, WordPress, Webflow, and more.
 - Productivity services, including Google's G-Suite, Office 365, and KickoffLabs.
 - Infrastructure services like Heroku.
 - Email services, including Rackspace, Mailgun, and Fastmail.
