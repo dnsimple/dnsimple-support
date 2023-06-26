@@ -15,7 +15,7 @@ There are two different types of plan changes based on when they are billed.
 
 These plan changes are billed immediately.
 
-You will receive credit for all the unused time of your current subscription plan. This credit doesn't include extra items like email forwards or extra zones. These will be billed again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
+You will receive credit for all the unused time of your current subscription plan. This credit doesn't include extra items like email forwards or active zones. These will be billed again as part of the plan change. Read more about [subscription proration](/articles/understanding-invoice).
 
 ## On-renewal change plans
 

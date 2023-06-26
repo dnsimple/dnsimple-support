@@ -15,7 +15,7 @@ The account page has a full section dedicated to relevant information about your
 - **Amount due**
   The total amount of the subscription renewal.
 
-  It's broken up into three different components that you may be charged for: _plan price_, _extra zones_ and _email forwards_.
+  It's broken up into three different components that you may be charged for: _plan price_, active zones_ and _email forwards_.
 
 - **Subscription balance**
   The current balance of your account. The amount can be:
