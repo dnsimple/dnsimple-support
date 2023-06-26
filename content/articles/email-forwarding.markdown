@@ -16,7 +16,7 @@ categories:
 
 Email forwarding is enabled and billed monthly on a per-domain basis.
 
-The number of forwarded messages and email forwards allowed per-month is based on your plan. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+The number of forwarded messages and email forwards allowed per-month is based on your plan. [See the difference between plans](/articles/dnsimple-plans/).
 
 ## Enabling email forwarding
 

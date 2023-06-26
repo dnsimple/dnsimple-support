@@ -16,7 +16,7 @@ categories:
 ---
 
 <info>
-Full audit history is available on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+Full audit history is available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 </info>
 
 Activity tracking provides an overview of all past changes for a specific domain or for an account as a whole.
@@ -38,7 +38,7 @@ Account-level activity tracking can be found under the account page. Scroll down
 ## Events filter
 
 <info>
-Full audit history is available only on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+Full audit history is available only on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 </info>
 
 You can select the exact event types you want to see and the time frame for when they happened. Along with the particular events, you'll see:

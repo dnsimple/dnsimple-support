@@ -8,7 +8,7 @@ categories:
 # Regional Records
 
 <info>
-This article describes a feature only available on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+This article describes a feature only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 </info>
 
 Regional records lets you select geographical regions where you want a record to appear.
@@ -20,6 +20,6 @@ We have <%= POPS.count %> points of presence:
 
 When creating a new record, select the point of presence for this record. **If you don't select any, the record will appear in all of them.**
 
-This feature is enabled by default on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+This feature is enabled by default on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 
 ![Regional record selection](/files/regional-records.png)

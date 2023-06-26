@@ -7,6 +7,8 @@ categories:
 
 # DNSimple Plans
 
+Please take a look at [the features listed for each plan on our pricing page](https://dnsimple.com/pricing#features).
+
 ## All plans include
 
 - Register, transfer, and renew domains. [See TLD prices](https://dnsimple.com/tlds)

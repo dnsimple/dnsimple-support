@@ -74,5 +74,5 @@ We can deliver your invoices to a different email address from the one you use t
 </div>
 
 <info>
-Custom billing email is only available on certain plans. [See the difference between plans](/articles/differences-between-dnsimple-plans/).
+Custom billing email is only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 </info>
