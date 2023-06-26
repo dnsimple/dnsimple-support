@@ -44,7 +44,7 @@ DNSimple has both recurring charges and purchases. Purchases, such as the fees y
 
 - DNSimple subscription
 - [Email forwards](/articles/email-forwarding/)
-- [Extra domain zones](/articles/dns-hosting/#extra-zones)
+- [Active Zones](/articles/dns-hosting)
 
 ![Recurring charges](/files/recurring-charges.png)
 
@@ -62,21 +62,9 @@ Domain registration charges can be recurring if you've enabled [auto-renewal](/a
 
 ## Proration
 
-When you change your plan, you'll receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or extra zones, which you'll be billed for again as part of the plan change.
+When you change your plan, you'll receive a proration discount corresponding to the remaining days in your current subscription plan. This discount does not consider extras, like email forwards or active zones, which you'll be billed for again as part of the plan change.
 
 ![Prorated invoice](/files/prorated-invoice.png)
-
-### Difference between "Unused time" and "Remaining time"
-
-**Unused time** refers to the amount of time on the old plan that you paid for but aren't going to use. **Remaining time** refers to the amount of time that you're going to be on the new plan until the next billing cycle starts.
-
-Example:
-
-Your billing cycle starts on the 1st of the month. You're on the Personal monthly plan. On the 10th you switch to Professional:
-
-- You will be returned 20 days of unused time on the Personal plan.
-- You will be paying 20 days of remaining time on the Professional plan.
-
 
 ## Additional resources
 
