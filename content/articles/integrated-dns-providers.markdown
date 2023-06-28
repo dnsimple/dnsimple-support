@@ -8,6 +8,13 @@ categories:
 
 # Integrated DNS Providers
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 DNSimple supports the ability to view and manage zones that are deployed in other DNS providers external to DNSimple. DNSimple calls such providers "integrated DNS providers" and zones ["integrated zones"](/articles/managing-integrated-zones).
 
 ## Video walk-through
