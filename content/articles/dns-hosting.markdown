@@ -92,7 +92,7 @@ If the domain is registered with us but delegated to another DNS provider, deact
 
 ## Use cases
 
-There are a few cases where you may want to deactivating a zone:
+There are a few cases where you may want to deactivate a zone:
 
 - You wanted to register a domain with us, but you'll be using a different DNS hosting provider.
 - You wanted to register a domain with us, but you aren't actively using the domain (e.g the domain is just reserved for future use or parked).

@@ -23,12 +23,12 @@ DNSimple's Solo plan provides anyone with a domain management platform where the
 
 ## Teams
 
-Requires base monthly subscription fee.
+Requires a base monthly subscription fee.
 
 Activates the following features:
 - HTTPS URL redirects.
 - Let's Encrypt custom hostname certificates.
-- Wildcard certificates.
+- Let's Encrypt wildcard certificates.
 - Specify different roles for your team members on a per-domain basis.
 - Regional and POOL records.
 - Google Workspace user provisioning.

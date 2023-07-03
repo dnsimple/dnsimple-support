@@ -11,7 +11,7 @@ DNSimple provides essential services for every Internet-connected system: domain
 
 ## DNS hosting
 
-We bill DNS hosting as on top of your subscription base fee. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
+Each DNS zone is billed separately from any base subscription fee. Pricing is available on our [pricing page](https://dnsimple.com/pricing).
 
 ## Domain registration
 
