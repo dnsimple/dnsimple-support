@@ -1,6 +1,6 @@
 ---
 title: DNSimple plans
-excerpt: Understand what plan fits you best
+excerpt: Understand which plan fits you best
 categories:
 - DNSimple
 ---
@@ -11,9 +11,9 @@ Please take a look at [the features listed for each plan on our pricing page](ht
 
 ## All plans include
 
-- Register, transfer, and renew domains. [See TLD prices](https://dnsimple.com/tlds)
-- Primary or secondary DNS zones with Anycast DNS and multi-layer DDoS defense, billed monthly per zone.
-- Email forwarding, billed monthly per domain.
+- Domain registration, transfer, and renewal — [see TLD prices](https://dnsimple.com/tlds)
+- Primary or secondary DNS zones with Anycast DNS and multi-layer DDoS defense, billed monthly per zone
+- Email forwarding, billed monthly per domain
 
 ## Solo
 
@@ -26,14 +26,14 @@ DNSimple's Solo plan provides anyone with a domain management platform where the
 Requires a base monthly subscription fee.
 
 Activates the following features:
-- HTTPS URL redirects.
-- Let's Encrypt custom hostname certificates.
-- Let's Encrypt wildcard certificates.
-- Specify different roles for your team members on a per-domain basis.
-- Regional and POOL records.
-- Google Workspace user provisioning.
-- Unlimited activity history.
-- 99% SLA.
+- HTTPS URL redirects
+- Let's Encrypt custom hostname certificates
+- Let's Encrypt wildcard certificates
+- Specify different roles for your team members on a per-domain basis
+- Regional and POOL records
+- Google Workspace user provisioning
+- Unlimited activity history
+- 99% SLA
 
 DNSimple's Team plan provides startups and small engineering teams with all the tools they need to buy, connect, and operate their domains and DNS across multiple providers.
 
@@ -44,12 +44,12 @@ Custom subscription fee.
 Activates the following features:
 - Priority support
 - Single sign-on with Okta or Google Workspace
-- Vanity Name Servers.
-- High-volume zones.
-- Discounted domain registration, transfer, and renewal fees for high-volume TLDs.
-- DNS zone discounts available.
-- 100% SLA available.
+- Vanity Name Servers
+- High-volume zones
+- Discounted domain registration, transfer, and renewal fees for high-volume TLDs
+- DNS zone discounts available
+- 100% SLA available
 
 DNSimple's Enterprise plan provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
 
-Please [contact sales](https://dnsimple.com/sales) for more information.
+Please [contact us](https://dnsimple.com/sales) for more information.
