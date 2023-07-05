@@ -7,7 +7,7 @@ categories:
 
 # DNSimple Plans
 
-Please take a look at [the features listed for each plan on our pricing page](https://dnsimple.com/pricing#features).
+You'll find all [the features listed for each plan on our pricing page](https://dnsimple.com/pricing#features).
 
 ## All plans include
 
