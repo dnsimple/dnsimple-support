@@ -8,7 +8,7 @@ categories:
 # Regional Records
 
 <info>
-This article describes a feature only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
+This article describes a feature only available on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
 Regional records lets you select geographical regions where you want a record to appear.
