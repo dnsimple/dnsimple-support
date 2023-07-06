@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Depending on the billing cycle for your plan, your subscription will be renewed either monthly or yearly. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from from the credit balance.
+Your subscription will be renewed each month. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from from the credit balance.
 
 The amount to be charged depends on:
 

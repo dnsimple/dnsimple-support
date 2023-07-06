@@ -12,6 +12,7 @@ categories:
 ### General
 
 - [DNSimple Services](/articles/dnsimple-services/)
+- [DNSimple Plans](/articles/dnsimple-plans/)
 - [Why we don't offer web hosting services](/articles/why-not-web-hosting/)
 - [Our Comics](https://dnsimple.com/comics)
 
@@ -37,7 +38,7 @@ categories:
 - [Top-level domain catalog](https://dnsimple.com/tlds)
 
 
-## Professional Plan and higher
+## Accounts with multiple members
 
 - [Add users to your account](/articles/account-users/)
 - [Enforce Multi-Factor Authentication for All Members of an Account](/articles/multi-factor-authentication-enforcement/)

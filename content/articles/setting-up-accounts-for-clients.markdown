@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-This article describes a feature only available on the following plans: Professional and Enterprise.
+This article describes a feature only available on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.

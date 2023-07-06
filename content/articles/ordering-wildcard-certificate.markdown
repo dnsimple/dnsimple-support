@@ -38,7 +38,7 @@ Both providers support wildcard certificates. Let's Encrypt certificates are fre
 You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
 
 <info>
-Let's Encrypt wildcard certificates are available only on the following [plans](https://dnsimple.com/pricing): Professional or Enterprise.
+Let's Encrypt wildcard certificates are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
 ## Use * for a wildcard certificate

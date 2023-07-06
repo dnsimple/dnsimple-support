@@ -14,7 +14,7 @@ categories:
 
 ---
 <info>
-**HTTP** redirects are available to all plans. **HTTPS** redirects are available only on the following [plans](https://dnsimple.com/pricing): Professional and Enterprise.
+**HTTP** redirects are available to all plans. **HTTPS** redirects are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
 The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.

@@ -14,23 +14,9 @@ categories:
 
 ---
 
-Email forwarding is enabled and billed on a per-domain basis. The cost is $2 per-domain per-month, which totals $24 per-domain per-year on a yearly subscription plan.
+Email forwarding is enabled and billed monthly on a per-domain basis.
 
-The number of forwarded messages allowed per-month is based on your subscription type:
-
-- Personal plans: up to 1,000 messages forwarded per month per domain.
-- Professional plans: up to 10,000 messages forwarded per month per domain.
-- Enterprise plans: custom.
-
-For reseller plans, please contact us for information about your limits.
-
-For any plan that is not covered above, the limit is 1,000 messages per month.
-
-In addition to message limits, there is also a limit to the number of individual email forwards any particular domain may have:
-
-- Personal plans: up to 10 email forwards per domain.
-- Professional plans: up to 25 email forwards per domain.
-- Enterprise plans: custom. [Contact us for details](https://dnsimple.com/sales)
+The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](/articles/dnsimple-plans/).
 
 ## Enabling email forwarding
 

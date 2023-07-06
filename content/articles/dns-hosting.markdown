@@ -44,12 +44,12 @@ To use our DNS hosting services, you need to [add the domain to a DNSimple accou
 You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
 
 
-## Enabling DNS hosting
+## Activating a DNS zone
 
-You can enable the DNS hosting service for a previously disabled domain from the domain DNS tab.
+You can activate the DNS hosting service for a domain from the domain DNS tab.
 
 <div class="section-steps" markdown="1">
-##### To enable DNS hosting
+##### To activate a DNS zone
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have multiple accounts, select your account in the navigation bar.
@@ -58,19 +58,19 @@ You can enable the DNS hosting service for a previously disabled domain from the
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Find the <label>DNS Hosting</label> card, and follow the instructions to enable DNS hosting.
+1.  Find the <label>DNS active zone</label> card, and follow the instructions to activate the zone.
 
     ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
 
 </div>
 
-Each new domain added to an account has DNS hosting enabled by default, whether you register/transfer the domain or simply add it.
+Each new domain or zone added to an account has the DNS zone inactive, whether you register/transfer the domain or simply add it.
 
 
-## Disabling DNS hosting
+## Deactivating a DNS zone
 
 <div class="section-steps" markdown="1">
-##### To disable DNS hosting
+##### To deactivate a DNS zone
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have multiple accounts, select your account in the navigation bar.
@@ -85,26 +85,15 @@ Each new domain added to an account has DNS hosting enabled by default, whether 
 
 </div>
 
-If a domain is delegated to our name servers, disabling DNS hosting for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
+If a domain is delegated to our name servers, deactivating a DNS zone for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
-If the domain is registered with us but delegated to another DNS provider, disabling DNS hosting won't change the delegation. The domain will continue to resolve with the other DNS provider.
-
-
-## Extra zones
-
-Each of [our plans](https://dnsimple.com/pricing) include DNS management for five (5) domains/zones. Each domain in excess of this will incur an additional charge, depending on your plan:
-
-- Personal plan ($0.50 per month)
-- Professional plan ($2.00 per month)
-- Enterprise plan (custom pricing)
+If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider.
 
 
 ## Use cases
 
-There are a few cases where you may want to turn off DNS hosting for a domain:
+There are a few cases where you may want to deactivate a zone:
 
-- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it isn't resolving with DNSimple.
 - You wanted to register a domain with us, but you'll be using a different DNS hosting provider.
 - You wanted to register a domain with us, but you aren't actively using the domain (e.g the domain is just reserved for future use or parked).
-
-When you disable a domain, the domain will no longer count against the number of active zones in your subscription fee. If you have 20 domains in your account, but only 15 have DNS hosting enabled, we'll only bill you for 15 domains.
+- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it isn't resolving with DNSimple.
