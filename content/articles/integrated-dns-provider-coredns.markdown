@@ -49,5 +49,5 @@ All DNSimple record types can be synced to CoreDNS:
 - URL
 
 <note>
-[Regional records](/articles/regional-records) are a custom DNSimple record feature and do not have an equivalent in CoreDNS. When synced from DNSimple to CoreDNS, you may specify one or more regions for an integrated zone in CoreDNS. More information about configuring zones with regional records can be found in the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) documentation.
+[Regional records](/articles/regional-records) are a custom DNSimple record feature and do not have an equivalent in CoreDNS. When synced from DNSimple to CoreDNS, you may specify one or more regions for an integrated zone in CoreDNS. More information about configuring zones with regional records can be found in the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple#regional-records) documentation.
 </note>
