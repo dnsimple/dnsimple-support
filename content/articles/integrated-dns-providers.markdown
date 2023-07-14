@@ -33,8 +33,8 @@ To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple,
 
 DNSimple supports zone integration with the providers listed below.
 
-[Amazon Route 53](/articles/integrated-dns-provider-amazon-route53)
-[CoreDNS](/articles/integrated-dns-provider-coredns)
+- [Amazon Route 53](/articles/integrated-dns-provider-amazon-route53)
+- [CoreDNS](/articles/integrated-dns-provider-coredns)
 
 ## Supported record types {#supported-record-types}
 
