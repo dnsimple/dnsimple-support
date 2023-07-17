@@ -26,9 +26,9 @@ One of the following:
 
 ## Supported Features
 
-- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances and verify the sync state with the [Deployment Editor](/articles/deployment-editor#record-syncing).
+- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
-The CoreDNS integrated provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other integrated DNS provider must first be synced to DNSimple before they will be aviailable to CoreDNS instances.
+The CoreDNS integrated provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other integrated DNS provider must first be synced to DNSimple before they will be available to CoreDNS instances.
 
 #### Supported record types
 
