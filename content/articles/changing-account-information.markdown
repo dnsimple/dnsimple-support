@@ -18,7 +18,7 @@ categories:
 
 To change your account email, follow the steps described in [Changing the account email](/articles/changing-email#changing-the-account-email) article.
 
-## Changing other data
+## Changing other account data
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
