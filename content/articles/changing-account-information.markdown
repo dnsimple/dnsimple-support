@@ -35,10 +35,10 @@ To change your account email, follow the steps described in [Changing the accoun
    </info>
 
    <info>
-   DNSimple needs this information to guarantee the security of your account, and in compliance with applicable laws and regulations.
+   DNSimple requests this information to guarantee the security of your account, and in compliance with applicable laws and regulations.
    </info>
 
-1. Once all the information has been updated press <label>Update Account</label> to save the changes.
+1. Once the information has been updated press <label>Update Account</label> to save the changes.
 
 </div>
 
