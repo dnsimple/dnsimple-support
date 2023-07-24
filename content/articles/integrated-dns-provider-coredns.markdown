@@ -31,7 +31,7 @@ DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns
 
 The CoreDNS integrated provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other integrated DNS provider must first be synced to DNSimple before they will be available to CoreDNS instances.
 
-#### Supported record types
+#### Supported Record Types
 
 All DNSimple record types can be synced to CoreDNS:
 
