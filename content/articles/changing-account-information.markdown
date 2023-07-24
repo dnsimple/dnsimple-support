@@ -16,7 +16,7 @@ categories:
 
 ## Changing account email
 
-To change your account email, follow the steps described in [Changing the account email](/articles/changing-email#changing-the-account-email) article.
+To change your account email, follow the steps described in the article [Changing the account email](/articles/changing-email#changing-the-account-email).
 
 ## Changing other account data
 
@@ -31,14 +31,14 @@ To change your account email, follow the steps described in [Changing the accoun
    ![Account information form](/files/account-information-form.png)
 
    <info>
-   If the <label>Account email</label> input field is missing, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](/articles/changing-email#changing-the-user-email).
+   If the <label>Account email</label> input field is missing, this is the Primary account attached to your user. You'll need to [update your user email to change this address](/articles/changing-email#changing-the-user-email).
    </info>
 
    <info>
-   DNSimple requests this information to guarantee the security of your account, and in compliance with applicable laws and regulations.
+   DNSimple requests this information, in compliance with applicable laws and regulations, to guarantee the security of your account.
    </info>
 
-1. Once the information has been updated press <label>Update Account</label> to save the changes.
+1. Once the information has been updated, click <label>Update Account</label> to save the changes.
 
 </div>
 
