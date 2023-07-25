@@ -37,8 +37,8 @@ DNSimple supports domain integration with the providers listed below.
 ![Link an integrated domain provider](/files/account-integrated-domain-provider-link.png)
 1. Fill in any necessary information and credentials for your account at the integrated domain provider.
 ![Enter integrated domain provider credentials](/files/account-integrated-domain-provider-link-credentials.png)
-1. After successfully linking the integrated domain provider, you will be redirected to the Domains page. You can then view the imported integrated domains from the Domains page, and click on an integrated domain to view its details.
-![Domains](/files/domains.png)
+1. After successfully linking the integrated domain provider, you will be redirected to the Domains page, where you can [manage your integrated domains](/articles/managing-integrated-domains).
+![Domains page](/files/domains.png)
 
 ## Unlinking an Integrated Domain Provider from your account
 
