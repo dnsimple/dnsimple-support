@@ -15,11 +15,28 @@ From the Domains page, you can view the refreshed state of your DNSimple domains
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
 1.  On the header, click on the <label>Domains</label> tab.
-1.  On the Domains page, you will be able to browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Provider" column. For instance, domains imported from GoDaddy would have a "GoDaddy" label under the "Provider column"
+1.  On the Domains page, you will be able to browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Provider" column. For instance, domains imported from GoDaddy would have a "GoDaddy" label under the "Provider column" You can click on any domain to visit its manage page.
 
     ![Integrated domains](/files/integrated-domains.png)
 </div>
 
-## Managing an integrated domain {#managing-an-integrated-domain}
+## Refreshing integrated domains {#refreshing-integrated-domains}
 
 Loading the Domains page automatically refreshes the current state of integrated domains and imports any new domains from linked integrated domain providers.
+
+
+## Managing an integrated domain {#managing-an-integrated-domain}
+
+You can manage an integrated domain by clicking on any integrated domain in the list of domains on the Domains page, to go to the domain's manage page.
+
+![Navigate to an integrated domain](/files/integrated-domain-manage.png)
+
+On the domain's manage page, you can view the details of an integrated domain, like its provider and expiry date.
+
+![Integrated domain](/files/integrated-domain.png).
+
+ On the domain's manage page, you can click on **Registration** on the sidebar, to view the domain's delegation and registration contact details.
+
+![Integrated domain registration details](/files/integrated-domain-registration-details.png).
+
+
