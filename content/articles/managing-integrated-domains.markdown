@@ -36,6 +36,14 @@ On the domain's manage page, you can view the details of an integrated domain, l
 
 ![Integrated domain](/files/integrated-domain.png)
 
- On the domain's manage page, you can click on **Registration** on the sidebar, to view the domain's delegation and registration contact details.
+On the domain's manage page, you can click on **Registration** on the sidebar, to view the domain's delegation and registration contact details.
 
 ![Integrated domain registration details](/files/integrated-domain-registration-details.png)
+
+DNSSEC information for an integrated domain can be retrieved by clicking on **DNSSEC** on the sidebar. You will be able to see if DNSSEC is enabled for the domain.
+
+![Integrated domain DNSSEC](/files/integrated-domain-dnssec.png)
+
+If DNSSEC is enabled for the domain, you will be able to view the DS records for the domain too.
+
+![Integrated domain DS records](/files/integrated-domain-ds-records.png)
