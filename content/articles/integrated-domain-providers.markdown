@@ -19,7 +19,8 @@ DNSimple supports the ability to manage domains that are registered with other d
 
 ## Supported Features
 
-- **View domain information**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domains page.
+- **Import integrated domains**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domains page.
+- **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also [transfer](/articles/domain-transfer) your domain to DNSimple easily.
 - **Domain expiration notices**: Get email notifications when your integrated domains are near expiry.
 
 ## Supported Integrated Domain Providers
@@ -28,7 +29,7 @@ To manage integrated domains from DNSimple, you first have to link an integrated
 
 DNSimple supports domain integration with the providers listed below.
 
-- [GoDaddy](https://www.godaddy.com)
+- [GoDaddy](/articles/godaddy-integrated-domain-provider)
 
 ## Linking an Integrated Domain Provider to your account
 
