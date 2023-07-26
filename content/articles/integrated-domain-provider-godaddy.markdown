@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com).
+DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers#link-integrated-domain-provider) your GoDaddy account as an [integrated domain provider](/articles/integrated-domain-providers) to DNSimple.
 
 ## Supported Features
 
@@ -28,4 +28,4 @@ DNSimple supports the ability to manage domains that are registered through [GoD
 To link [GoDaddy](https://www.godaddy.com) as an integrated domain provider, you need:
 
 - An [API key and API secret](https://developer.godaddy.com/keys) for the Production GoDaddy environment
-- The GoDaddy [customer number](https://godaddy.com/help/what-is-my-customer-number-20038) of your GoDaddy account
+- The [customer number](https://godaddy.com/help/what-is-my-customer-number-20038) of your GoDaddy account

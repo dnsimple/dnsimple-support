@@ -29,9 +29,9 @@ To manage integrated domains from DNSimple, you first have to link an integrated
 
 DNSimple supports domain integration with the providers listed below.
 
-- [GoDaddy](/articles/godaddy-integrated-domain-provider)
+- [GoDaddy](/articles/integrated-domain-provider-godaddy)
 
-## Linking an Integrated Domain Provider to your account
+## Linking an Integrated Domain Provider to your account {#linking-integrated-domain-provider}
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Integrated Providers</label> tab.
 1. Under <label>Add an integrated provider<label>, click the link button for the integrated domain provider you want to link to your DNSimple account.
