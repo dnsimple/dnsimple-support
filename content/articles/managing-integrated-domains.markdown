@@ -8,15 +8,15 @@ categories:
 
 # Managing Integrated Domains
 
-From the Domains page, you can view the refreshed state of your DNSimple domains, alongside domains from [integrated domain providers](/articles/integrated-domain-providers).
+From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [integrated domain providers](/articles/integrated-domain-providers).
 
 <div class="section-steps" markdown="1">
 ##### Viewing integrated domains from the Domains page
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
-1.  On the header, click on the <label>Domains</label> tab.
-1.  On the Domains page, you will be able to browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Provider" column. For instance, domains imported from GoDaddy would have a "GoDaddy" label under the "Provider column" You can click on any domain in the list to visit its manage page.
+1.  On the header, click the <label>Domains</label> tab.
+1.  On the Domains page, you can browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Provider" column. For example, domains imported from GoDaddy would have a "GoDaddy" label under the "Provider column". You can click on any domain in the list to visit its manage page.
 
     ![Integrated domains](/files/integrated-domains.png)
 </div>
@@ -28,7 +28,7 @@ Loading the Domains page automatically refreshes the current state of integrated
 
 ## Managing an integrated domain {#managing-an-integrated-domain}
 
-You can manage an integrated domain by clicking on any integrated domain in the list of domains on the Domains page, to go to the domain's manage page.
+Click any integrated domain in the list of domains on the Domains page to go to that domain's manage page.
 
 ![Navigate to an integrated domain](/files/integrated-domain-manage.png)
 
@@ -36,14 +36,14 @@ On the domain's manage page, you can view the details of an integrated domain, l
 
 ![Integrated domain](/files/integrated-domain.png)
 
-On the domain's manage page, you can click on **Registration** on the sidebar, to view the domain's delegation and registration contact details.
+On the domain's manage page, click **Registration** on the sidebar to view the domain's delegation and registration contact details.
 
 ![Integrated domain registration details](/files/integrated-domain-registration-details.png)
 
-DNSSEC information for an integrated domain can be retrieved by clicking on **DNSSEC** on the sidebar. You will be able to see if DNSSEC is enabled for the domain.
+DNSSEC information for an integrated domain can be retrieved by clicking **DNSSEC** on the sidebar. There, you can see if DNSSEC is enabled for the domain.
 
 ![Integrated domain DNSSEC](/files/integrated-domain-dnssec.png)
 
-If DNSSEC is enabled for the domain, you will be able to view the DS records for the domain too.
+If DNSSEC is enabled for the domain, you can also view its DS records.
 
 ![Integrated domain DS records](/files/integrated-domain-ds-records.png)
