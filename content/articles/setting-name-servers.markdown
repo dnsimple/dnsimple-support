@@ -31,6 +31,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Domain Page link](/files/domains-domain-link.png)
 
+1.  Click <label>Registration</label> on the left sidebar.
 1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
     ![Domain Delegation card](/files/domain-delegation-card.png)

@@ -18,6 +18,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Domain Page link](/files/domains-domain-link.png)
 
+1.  Click <label>Registration</label> on the left sidebar.
 1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
     ![Domain Delegation card](/files/domain-delegation-card-2.png)
