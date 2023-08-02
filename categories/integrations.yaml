@@ -1,8 +1,10 @@
 Apps:
 - "Slack App"
 
-Amazon Route 53:
-- "Integrated DNS Providers"
+Integrated DNS Providers:
+- "Integrated DNS Providers at DNSimple"
+- "Amazon Route 53"
+- "CoreDNS"
 
 Let's Encrypt:
 - "Let's Encrypt and DNSimple"

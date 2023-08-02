@@ -7,7 +7,7 @@ categories:
 
 # Deployment Editor
 
-From the Deployment editor page, you can view the records for a zone at DNSimple and [integrated DNS providers](/articles/integrated-dns-providers) and sync them. The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
+From the Deployment editor page, you can view the records and sync state for zones at DNSimple and any configured [integrated DNS providers](/articles/integrated-dns-providers). The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Zones page
