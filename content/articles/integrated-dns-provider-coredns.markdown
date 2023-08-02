@@ -17,6 +17,12 @@ categories:
 
 DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns.io/). The CoreDNS integrated provider is configured per zone and returns the current sync state for all zone records to the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
+## Video Walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/9yO2Oo_N1ms" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Prerequisites
 
 - CoreDNS binary compiled with the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) plugin
