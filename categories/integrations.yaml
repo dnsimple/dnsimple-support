@@ -1,6 +1,11 @@
 Apps:
 - "Slack App"
 
+Integrated Domain Providers:
+- "Integrated Domain Providers at DNSimple"
+- "Managing Integrated Domains"
+- "Integrated Domain Provider - GoDaddy"
+
 Integrated DNS Providers:
 - "Integrated DNS Providers at DNSimple"
 - "Amazon Route 53"
