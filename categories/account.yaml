@@ -14,16 +14,21 @@ Managing your account:
 - "Account Activation"
 - "Account Creation"
 - "Changing Email"
+- "Changing Account Information"
 - "Activity Tracking"
 - "Managing Multiple Members on One Account"
 - "Domain Access Control"
 - "Suspended Account"
-- "Google as an Identity Provider"
 - "Creating accounts for clients"
 - "Differences between Account Collaborator and Multi-User Accounts"
 - "Multiple Accounts Per User"
 - "Deleting yourself as a user"
 - "Transfer Account Ownership"
+
+Identity Providers:
+- "Google as an Identity Provider"
+- "Okta as an Identity Provider"
+
 
 Security:
 - "Account Security"

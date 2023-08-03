@@ -31,6 +31,7 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Domain Page link](/files/domains-domain-link.png)
 
+1.  Click <label>Registration</label> on the left sidebar.
 1.  On the Domain delegation card, click <label>Edit delegation</label>.
 
     ![Domain Delegation card](/files/domain-delegation-card.png)
@@ -66,3 +67,11 @@ If you are adding a name server that is a child of the domain, glue records are 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
+
+### What are glue records?
+
+DNS glue records are used when a domain name uses name servers that are children of the domain name itself.
+
+Let's say you own the domain name example.com that uses the name servers ns1.example.com and ns2.example.com. When a DNS resolver asks the TLD name server for example.com, it would respond with ns1.example.com and ns2.example.com, but we don't know which IP addresses these names correspond to. Without an IP address, the resolver can't establish a connection to the name server to ask for the IP address.
+
+To solve this problem, TLD domain name servers let you specify IP addresses for the name servers directly in the TLD name servers. When you ask a TLD name server for the name servers of example.com, you not only get back ns1.example.com and ns2.example.com, you also get A records for ns1.example.com and ns2.example.com as part of the response. DNS resolvers then know where to go for the rest of the details.
