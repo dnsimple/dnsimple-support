@@ -126,6 +126,6 @@ Once you have selected a contact, you will be taken to the main screen of the ex
 
 ### Transfer your domain
 
-The **Action Required** button will take you to the domain page in the extension. On the screen, you will see the current status of the domain and instructions for the next steps to transfer the domain. The extension will guide you through the entire process, from unlocking your domain to setting up the DNS records in DNSimple. Once you have completed all the steps, click **Begin Transfer** to initiate the transfer.
+The **Action Required** button will take you to the domain page in the extension. You will see the current status of the domain and instructions for the next steps to transfer the domain. The extension will guide you through the entire process, from unlocking your domain to setting up the DNS records in DNSimple. Once you have completed all the steps, click **Begin Transfer** to initiate the transfer.
 
 ![Screenshot: Chrome Extension Domain Page](/files/chrome-extension-domain-page.png)
