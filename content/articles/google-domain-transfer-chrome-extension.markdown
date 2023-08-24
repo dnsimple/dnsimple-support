@@ -26,7 +26,7 @@ In this support article, we guide you through the step-by-step process to instal
 
 Before proceeding with the installation, you'll need to download the extension ZIP file. The file is hosted on Google Drive for easy access.
 
-Click [here](https://link-to-file.com) to download the Domain Transfer to DNSimple Chrome Extension ZIP file.
+Click [here](https://drive.google.com/file/d/1HomqzFBmAGvvYgHvRJTqBxZ4T38gfYdO/view?usp=sharing) to download the Domain Transfer to DNSimple Chrome Extension ZIP file.
 
 ### Prerequisites
 
