@@ -22,7 +22,7 @@ To proceed with configuring login with SSO through Okta, you must:
 
 - Have administrator access to an Okta organization
 - Have administrator access to a DNSimple account
-- Have the Okta integration feature enabled on your DNSimple account
+- Be subscribed to a DNSimple plan that supports this feature. [See our pricing page for additional details](https://dnsimple.com/pricing).
 
 ## Supported Features
 
