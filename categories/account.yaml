@@ -16,14 +16,17 @@ Managing your account:
 - "Changing Email"
 - "Changing Account Information"
 - "Activity Tracking"
-- "Managing Multiple Members on One Account"
-- "Domain Access Control"
 - "Suspended Account"
-- "Creating accounts for clients"
-- "Differences between Account Collaborator and Multi-User Accounts"
 - "Multiple Accounts Per User"
 - "Deleting yourself as a user"
 - "Transfer Account Ownership"
+
+Account members:
+- "Domain Access Control"
+- "Managing seats"
+- "Managing Multiple Members on One Account"
+- "Creating accounts for clients"
+- "Differences between Account Collaborator and Multi-User Accounts"
 
 Identity Providers:
 - "Google as an Identity Provider"
