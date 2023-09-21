@@ -54,7 +54,7 @@ This section will prepare your AWS account for integrating with DNS, by setting 
 
 ## Creating a Route 53 zone
 
-To demonstrate the synchronisation, we'll create a Route 53 zone with some populated data, and then see how we can synchronise it with DNSimple.
+To demonstrate the synchronization, we'll create a Route 53 zone with some populated data, and then see how we can synchronize it with DNSimple.
 
 1. In the [AWS console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#CreateHostedZone), create a new hosted zone.
   - Enter the domain name.
@@ -81,7 +81,7 @@ Let's transfer our zones and records from Route 53 to DNSimple to show how easy 
 1. Select *Sync records*.
 1. Choose *Route53 - AWS* for *Source*.
 1. Choose *DNSimple* for *Destination*.
-1. Confirm the synchronisation.
+1. Confirm the synchronization.
 1. The records you entered previously in the AWS console for your Route 53 zone should now be the only records in your DNSimple zone, as shown.
 
 ## Update your zone
