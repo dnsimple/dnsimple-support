@@ -1,12 +1,12 @@
 ---
-title: AWS Route 53 integration demo
-excerpt: An introductory demo to integrating AWS Route 53 with DNSimple.
+title: Amazon Route 53 Integration Demo
+excerpt: An introductory demo to integrating Amazon Route 53 with DNSimple.
 categories:
 - DNS
 - Integrations
 ---
 
-# AWS Route 53 Integration Demo
+# Amazon Route 53 Integration Demo
 
 ### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ categories:
 
 DNSimple can act as the central control plane and source of truth for all of your DNS zones and records, providing an easy, scalable way to gain visibility and management of all your DNS requirements across many services at scale. Many customers and organisations use multiple DNS vendors and on-premise DNS solutions for security, availability, and redundancy. Our integrations feature makes this simple, allowing you to leverage DNSimple's user friendly and powerful interface in conjunction with your existing DNS infrastructure and setup, wherever it may be. Learn more on our [blog post](https://blog.dnsimple.com/2023/06/manage-aws-routes-in-dnsimple/).
 
-In this demo, we will demonstrate this power and flexibility by setting up an integration with AWS Route 53. You will need an AWS account with permissions to create new IAM users and policies, as well as Route 53 zones. Step-by-step instructions are provided in detail, and all will be done through UIs in the browser, so no APIs or CLIs are needed.
+In this demo, we will demonstrate this power and flexibility by setting up an integration with Amazon Route 53. You will need an AWS account with permissions to create new IAM users and policies, as well as Route 53 zones. Step-by-step instructions are provided in detail, and all will be done through UIs in the browser, so no APIs or CLIs are needed.
 
 ## Setting up AWS
 
@@ -97,9 +97,9 @@ Now that all our zones and records are in DNS, we can use DNSimple as our centra
 
 ## Synchronizing external changes
 
-You should manage your DNS records exclusively through the DNSimple app and your DNSimple zone, as your central control plane and source of truth. However, if you update your AWS Route 53 zone (accidentally or intentionally), you can reflect those changes back into your DNSimple zone to restore it as the central source.
+You should manage your DNS records exclusively through the DNSimple app and your DNSimple zone, as your central control plane and source of truth. However, if you update your Amazon Route 53 zone (accidentally or intentionally), you can reflect those changes back into your DNSimple zone to restore it as the central source.
 
-1. Using the [AWS console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#), In your AWS Route 53 zone, make some changes to the records.
+1. Using the [AWS console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#), In your Amazon Route 53 zone, make some changes to the records.
 1. Using the DNSimple app, go to your DNSimple zone, and select *Refresh records*.
 1. You should see those Route 53 zone changes now. To copy them over to your DNSimple zone as a one-off, follow the instructions under [**Sync DNS records from Route 53**](#sync-dns-records-from-route-53).
 
