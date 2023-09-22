@@ -17,7 +17,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 ## Solo
 
-No base subscription fee.
+No base subscription fee. You will be charged on a pay-as-you-go basis, with costs determined by the number of hosted zones and the volume of DNS queries each zone handles.
 
 DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.
 
