@@ -44,7 +44,7 @@ This shows all of your account access tokens and allows you to add new access to
 To generate an account access token with fine-grained permission scopes, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
-Click on the <label>New</label> link to add a new access token. If you already have existing access tokens, an <label>Add</label> link will be shown instead, and you can click on that to add a new access token.
+Click on the <label>Add</label> link to add a new access token.
 
 ![New Access Token](/files/access-token-new.png)
 
