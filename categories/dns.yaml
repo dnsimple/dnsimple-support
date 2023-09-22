@@ -44,7 +44,6 @@ Zones:
 - "Why Anycast DNS?"
 - "Anycast DNS"
 - "Why DNSSEC and Secondary DNS may not work together"
-- "Do You Have Query Limits or Charge Based on Query Volume?"
 - "Protection Against DDoS Attacks"
 
 Troubleshooting:
