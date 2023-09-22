@@ -45,6 +45,7 @@ DNSimple has both recurring charges and purchases. Purchases, such as the fees y
 - DNSimple subscription
 - [Email forwards](/articles/email-forwarding/)
 - [Active Zones](/articles/dns-hosting)
+- [Query Volume](/articles/dns-query-limits)
 
 ![Recurring charges](/files/recurring-charges.png)
 
