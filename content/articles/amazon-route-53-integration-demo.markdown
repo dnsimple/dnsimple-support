@@ -73,7 +73,7 @@ We need to prepare our DNSimple account and inform it of our AWS account to esta
 1. Provide the AWS credentials, and a nickname for the integration.
 1. You should now see your AWS hosted zones listed in your DNSimple account.
 
-## Sync DNS records from Route 53
+## Syncing DNS records from Route 53
 
 Let's transfer our zones and records from Route 53 to DNSimple to show how easy it is to get started quickly and set up DNSimple as your control plane.
 
@@ -84,7 +84,7 @@ Let's transfer our zones and records from Route 53 to DNSimple to show how easy 
 1. Confirm the synchronization.
 1. The records you entered previously in the AWS console for your Route 53 zone should now be the only records in your DNSimple zone, as shown.
 
-## Update your zone
+## Updating your zone
 
 Now that all our zones and records are in DNS, we can use DNSimple as our central control plane and source of truth for all our DNS management needs across all services. Let's see how we can do this, by making a change in the central control plane and having it propagate to Route 53 seamlessly.
 
