@@ -17,6 +17,12 @@ categories:
 
 DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers#linking-integrated-domain-provider) your GoDaddy account as an [integrated domain provider](/articles/integrated-domain-providers) to DNSimple.
 
+## Video Walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/8p7npbNN2x0" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Supported Features
 
 - **Import integrated domains**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domains page.
