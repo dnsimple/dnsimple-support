@@ -31,7 +31,7 @@ Activates the following features:
 - Let's Encrypt wildcard certificates
 - Specify different roles for your team members on a per-domain basis
 - Regional and POOL records
-- Google Workspace user provisioning
+- Google Workspace and Okta user provisioning
 - Unlimited activity history
 - 99% SLA
 
