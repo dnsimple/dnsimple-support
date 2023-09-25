@@ -1,6 +1,6 @@
 ---
 title: API Access Token
-excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a token with granular permissions.
+excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
 categories:
 - API
 ---
@@ -48,7 +48,7 @@ Click on the <label>Add</label> link to add a new access token.
 
 ![New Access Token](/files/access-token-new.png)
 
-When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you will also be able to choose the fine-grained permissions the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
+When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you will also be able to choose the permission scopes that the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
 
 ![Generate Token](/files/access-token-generate.png)
 
@@ -74,7 +74,7 @@ Copy the text for the access token – **it will only be shown once**.
 
 You can now access the API with this token using the HTTP header `Authorization: Bearer {TOKEN}`, replacing `{TOKEN}` with the value taken from the page when the token is generated. If you'd like additional information on how to access the API with the newly generated token, please visit [the authentication section](https://developer.dnsimple.com/v2/#authentication) on the DNSimple Developer site.
 
-## Viewing the permissions of a fine-grained access token
+## Viewing the permissions of a scoped access token
 
 Once an access token has been created, its permissions cannot be changed. However, you can still view the permissions it was created with.
 
