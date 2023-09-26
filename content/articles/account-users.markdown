@@ -32,7 +32,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Invite</label> link. If your account needs to allocate more seats before inviting a new member, the link will display "Add seats to invite new members". You'll be taken to increment the seats on the account before you send the invitation.
+1. Click the <label>Invite</label> link. If your account needs to allocate more seats before inviting a new member, the link will display "Add seats to invite new members". You'll be taken to add seats to the account before you can send the invitation.
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
