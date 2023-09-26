@@ -36,6 +36,10 @@ To decrease the number of seats, follow these steps:
 1. Choose the new seat quantity.
 1. If the new seat count is lower than your current member count, you'll need to remove excess members to match the new seat allocation. The page provides a list of members along with those who have been invited but haven't accepted the invitation.
 
+Below is an example of decreasing seats when the number of account members exceeds the newly selected seat count:
+
+![Decreasing seats when the number of account members exceeds the newly selected seat count](/files/decreasing-seats.png)
+
 ## Inviting new members
 
 To invite new members to your account, follow these steps:
@@ -46,6 +50,8 @@ To invite new members to your account, follow these steps:
 1. If additional seats are required for new members, you'll see a "Add seats to invite new members" button. Click it to allocate more seats.
 
 You can increase the seat count and invite members in one seamless process.
+
+![Increasing seats to invite new members](/files/adding-seats-when-inviting-new-members.png)
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 
