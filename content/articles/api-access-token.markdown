@@ -38,7 +38,7 @@ Once you are there click on the <label>Access Tokens</label> link in the left me
 
 This shows all of your account access tokens and allows you to add new access tokens, or remove existing access tokens.
 
-You can check see the last used date of an access token from the list of existing access tokens.
+You can see the last used date of an access token from the list of existing access tokens.
 
 ![Access Tokens Last Used Date](/files/access-tokens-last-used.png)
 
