@@ -45,7 +45,7 @@ You can see the last used date of an access token from the list of existing acce
 ## Generating an account access token
 
 <info>
-To generate an account access token with fine-grained permission scopes, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
+To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
 Click on the <label>Add</label> link to add a new access token.
@@ -58,7 +58,7 @@ When you create a new token, you need to give it a name you can remember. If you
 
 ### Selecting permission scopes
 
-Account access tokens can be restricted to access only certain resources, or certain groups of resources in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name, or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
+Scoped access tokens can be restricted to access only certain resources, or certain groups of resources in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name, or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
 
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
