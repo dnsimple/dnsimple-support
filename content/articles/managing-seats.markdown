@@ -5,7 +5,7 @@ categories:
 - Account
 ---
 
-# Managing seats
+# Managing Seats
 
 ### Table of Contents {#toc}
 
@@ -14,29 +14,29 @@ categories:
 
 ## Overview
 
-Seats and Team members are only available in our Teams or Enterprise plan. The Team plan includes an initial allocation of 3 seats at no additional cost. These seats allow you to have up to 3 members actively involved in domain management. Any team members beyond the initial 3 will incur extra costs. [See our pricing page for more details](https://dnsimple.com/pricing)
+Seats and Team members are only available in our Teams or Enterprise plans. The Team plan includes an initial allocation of three seats at no additional cost. These seats allow you to have up to three members actively involved in domain management. Any team members beyond the initial three will incur extra costs. [See our pricing page for more details](https://dnsimple.com/pricing).
 
-## Increasing the Number of Seats
+## Increasing the number of seats
 
 To increase the number of seats, follow these steps:
 
 1. Navigate to your account settings.
 1. Select the "Member and Seats" tab.
-1. Click on "Manage" within the "Seats" card.
+1. Click "Manage" within the "Seats" card.
 1. Choose the desired number of new seats.
 1. Click "Update seats" to save your changes.
 
-## Decreasing the Number of Seats
+## Decreasing the number of seats
 
 To decrease the number of seats, follow these steps:
 
 1. Access your account settings.
 1. Select the "Member and Seats" tab.
-1. Click on "Manage" within the "Seats" card.
+1. Click "Manage" within the "Seats" card.
 1. Choose the new seat quantity.
-1. If the new seat count is less than your current member count, you'll need to remove excess members to match the new seat allocation. The page provides a list of members along with those who have been invited but have not accepted the invitation.
+1. If the new seat count is lower than your current member count, you'll need to remove excess members to match the new seat allocation. The page provides a list of members along with those who have been invited but haven't accepted the invitation.
 
-## Inviting New Members
+## Inviting new members
 
 To invite new members to your account, follow these steps:
 
@@ -49,4 +49,4 @@ You can increase the seat count and invite members in one seamless process.
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 
-If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), seat allocation becomes automatic. Your seat count is managed based on your organization's configuration, alleviating the need for manual adjustments. Sit back and let the SSO integration take care of seat allocation.
+If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), seat allocation becomes automatic. Your seat count is managed based on your organization's configuration. The SSO integration takes care of seat allocation, alleviating the need for manual adjustments.
