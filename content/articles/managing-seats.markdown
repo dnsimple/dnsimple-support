@@ -14,7 +14,7 @@ categories:
 
 ## Overview
 
-Seats and Team members are only available in our Teams or Enterprise plans. The Teams plan includes an initial allocation of three seats at no additional cost. These seats allow you to have up to three members actively involved in domain management. Any team members beyond the initial three will incur extra costs. [See our pricing page for more details](https://dnsimple.com/pricing).
+Seats and Team members are only available in our Teams or Enterprise plans. The Teams plan includes three seats at no additional cost. These seats allow you to have up to three members actively involved in domain management. Any team members beyond the initial three will incur extra costs. [See our pricing page for more details](https://dnsimple.com/pricing).
 
 ## Increasing the number of seats
 
