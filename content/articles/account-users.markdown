@@ -51,7 +51,7 @@ It's not possible to add a user whose email address is the same as the account. 
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you want to remove a member from your account, you should switch to the account, and visit the settings from the menu.
+1. If you want to remove a member from your account, switch to the account, and visit the settings from the menu.
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
@@ -61,7 +61,7 @@ It's not possible to add a user whose email address is the same as the account. 
 
 1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them.
 
-1. Once you've removed them from the account, that user should no longer show up on the members tab. By removing a member from your account, you create an available seat that can be used to invite a new member. [Discover more about managing your seats](/articles/managing-seats).
+1. Once you've removed them from the account, that user will no longer show up on the members tab, and you have an available seat for a new member. [Discover more about managing your seats](/articles/managing-seats).
 
 </div>
 
