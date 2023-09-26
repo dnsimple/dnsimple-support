@@ -56,7 +56,7 @@ When you create a new token, you need to give it a name you can remember. If you
 
 ![Generate Token](/files/access-token-generate.png)
 
-### Selecting permission scopes
+### Selecting permission scopes {#scoped-access-tokens}
 
 Scoped access tokens can be restricted to access only certain resources, or certain groups of resources in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name, or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
 
