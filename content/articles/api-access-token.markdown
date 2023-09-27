@@ -52,7 +52,7 @@ Click on the <label>Add</label> link to add a new access token.
 
 ![New Access Token](/files/access-token-new.png)
 
-When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you will also be able to choose the permission scopes that the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
+When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you can choose the permission scopes the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
 
 ![Generate Token](/files/access-token-generate.png)
 
