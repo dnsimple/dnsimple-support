@@ -7,7 +7,7 @@ categories:
 
 # DNS query volume fees
 
-TLDR: We charge $0.10 per million queries per zone on Solo and Teams plans.
+TLDR: We charge $0.10 per million queries per zone on Solo and Teams plans. 
 
 ### Table of Contents {#toc}
 
@@ -18,11 +18,11 @@ TLDR: We charge $0.10 per million queries per zone on Solo and Teams plans.
 
 ## How we calculate fees
 
-- The price for 1 million queries per zone is $0.10
-- The DNS query volume fees are calculated summing this price every time the registered volume goes beyond an x million queries mark (starting at 0 queries):
-    - The fee for 1 query is $0.10
-    - The fee for 1M queries is $0.20
-    - The fee for 2M queries is $0.30
+- The price for up to, but not including, one million queries per zone is $0.10.
+- The DNS query volume fees are calculated at this price every time the registered volume goes beyond any given million-query mark (starting at 0 queries):
+    - The fee for 1 - 999,999 queries is $0.10
+    - The fee for 1M - 1,999,999 queries is $0.20
+    - The fee for 2M - 2,999,999 queries is $0.30
     - And so on.
 - We won't sum fractions of the price:
     - The fees for 1.5M queries is still $0.2.
