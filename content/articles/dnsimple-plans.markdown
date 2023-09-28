@@ -17,7 +17,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 ## Solo
 
-No base subscription fee.
+No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits).
 
 DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.
 
@@ -31,7 +31,7 @@ Activates the following features:
 - Let's Encrypt wildcard certificates
 - Specify different roles for your team members on a per-domain basis
 - Regional and POOL records
-- Google Workspace user provisioning
+- Google Workspace and Okta user provisioning
 - Unlimited activity history
 - 99% SLA
 
