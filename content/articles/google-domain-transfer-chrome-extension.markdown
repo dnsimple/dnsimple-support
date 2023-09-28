@@ -2,21 +2,21 @@
 title: Google Domain Transfer Chrome Extension
 excerpt: How to use DNSimple's Chrome Extension to transfer your domain to DNSimple from Google Domains
 categories:
-  - Integrations
+- Integrations
 ---
 
 # Google Domain Transfer Chrome Extension
 
 ### Table of Contents {#toc}
 
-- TOC
+* TOC
 {:toc}
 
 ---
 
 If you've decided to switch your domain management from [Google Domains](https://domains.google/) to DNSimple, our dedicated **Google Domain Transfer [Chrome Extension](https://developer.chrome.com/docs/extensions/)** will make your transition as smooth as possible.
 
-The Chrome Extension is engineered to streamline the entire domain transfer process, eliminating the need for manual data entry and minimizing room for errors. With a user-friendly interface, the extension walks you through each step of transferring your domain, ensuring you don't miss any critical configurations or settings so you won't experience any downtime during or after the transfer. From unlocking your domain at Google Domains to setting up DNS records in DNSimple, this tool aims to make the process quick, secure, and hassle-free.
+The Chrome Extension is engineered to streamline the entire domain transfer process, eliminating the need for manual data entry and minimizing room for errors. With a user-friendly interface, the extension walks you through each step of transferring your domain, ensuring you don't miss any critical configurations or settings so you won't experience any downtime during or after the  transfer. From unlocking your domain at Google Domains to setting up DNS records in DNSimple, this tool aims to make the process quick, secure, and hassle-free.
 
 In this support article, we guide you through the step-by-step process to install and use our Chrome Extension for transferring your domain from Google Domains to DNSimple.
 
@@ -31,7 +31,7 @@ Our Chrome extension has been published on the Chrome web store, and can be adde
 
 > Further instructions on managing your installed Chrome extensions can be [found here.](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
 
-## Installing from a Direct download
+### Download link
 
 Before proceeding with the installation, you'll need to download the extension ZIP file. The file is hosted on Google Drive for easy access.
 
@@ -49,19 +49,19 @@ Before starting the installation process, download the ZIP file containing the e
 
 2. **Open Chrome Extensions page**: Open Google Chrome and go to `chrome://extensions/`.
 
-   ![Screenshot: Chrome Extensions Page](/files/google-chrome-extensions-page.png)
+    ![Screenshot: Chrome Extensions Page](/files/google-chrome-extensions-page.png)
 
 3. **Enable developer mode**: Toggle the `Developer mode` switch on, located at the top-right corner of the Extensions page.
 
-   ![Screenshot: Enabling Developer Mode](/files/google-chrome-extensions-page-dev-mode.png)
+    ![Screenshot: Enabling Developer Mode](/files/google-chrome-extensions-page-dev-mode.png)
 
 4. **Load unpacked extension**: Click the `Load unpacked` button and navigate to the folder where you unzipped the extension files. Select the folder and click `Open`.
 
-   ![Screenshot: Loading Unpacked Extension](/files/google-chrome-load-unpacked-extension.png)
+    ![Screenshot: Loading Unpacked Extension](/files/google-chrome-load-unpacked-extension.png)
 
 5. **Verify installation**: You should now see the Domain Transfer to DNSimple extension icon next to your address bar.
 
-   ![Screenshot: Extension Installed](/files/google-chrome-extension-added.png)
+    ![Screenshot: Extension Installed](/files/google-chrome-extension-added.png)
 
 ---
 
@@ -71,19 +71,19 @@ Before starting the installation process, download the ZIP file containing the e
 
 2. **Navigate to extensions**: Open Brave and type `brave://extensions/` into the address bar.
 
-   ![Screenshot: Brave Extensions Page](/files/brave-extensions-page.png)
+    ![Screenshot: Brave Extensions Page](/files/brave-extensions-page.png)
 
 3. **Enable developer mode**: Toggle the `Developer mode` switch on, located at the top-right corner of the Extensions page.
 
-   ![Screenshot: Brave Enabling Developer Mode](/files/brave-extensions-page-dev-mode.png)
+    ![Screenshot: Brave Enabling Developer Mode](/files/brave-extensions-page-dev-mode.png)
 
 4. **Load unpacked extension**: Click the `Load unpacked` button and navigate to the folder where you unzipped the extension files. Select the folder and click `Open`.
 
-   ![Screenshot: Brave Loading Unpacked Extension](/files/brave-load-unpacked-extension.png)
+    ![Screenshot: Brave Loading Unpacked Extension](/files/brave-load-unpacked-extension.png)
 
 5. **Verify installation**: You should now see the Domain Transfer to DNSimple extension icon next to your address bar.
 
-   ![Screenshot: Extension Installed on Brave](/files/brave-extension-added.png)
+    ![Screenshot: Extension Installed on Brave](/files/brave-extension-added.png)
 
 ---
 
@@ -93,23 +93,23 @@ Before starting the installation process, download the ZIP file containing the e
 
 2. **Navigate to extensions**: Open Edge and type `edge://extensions/` into the address bar.
 
-   ![Screenshot: Edge Extensions Page](/files/edge-extensions-page.png)
+    ![Screenshot: Edge Extensions Page](/files/edge-extensions-page.png)
 
 3. **Allow extensions from other stores**: Click the `Allow extensions from other stores` button at the bottom-left corner of the Extensions page.
 
-   ![Screenshot: Edge Allow Extensions from Other Stores](/files/edge-extensions-allow-extensions-from-other-stores.png)
+    ![Screenshot: Edge Allow Extensions from Other Stores](/files/edge-extensions-allow-extensions-from-other-stores.png)
 
 4. **Enable developer mode**: Toggle the `Developer mode` switch on, located at the top-right corner of the Extensions page.
 
-   ![Screenshot: Edge Enabling Developer Mode](/files/edge-extensions-page-dev-mode.png)
+    ![Screenshot: Edge Enabling Developer Mode](/files/edge-extensions-page-dev-mode.png)
 
 5. **Load unpacked extension**: Click the `Load unpacked` button and navigate to the folder where you unzipped the extension files. Select the folder and click `Open`.
-
-   ![Screenshot: Edge Loading Unpacked Extension](/files/edge-load-unpacked-extension.png)
+   
+    ![Screenshot: Edge Loading Unpacked Extension](/files/edge-load-unpacked-extension.png)
 
 6. **Verify installation**: You should now see the Domain Transfer to DNSimple extension icon next to your address bar.
 
-   ![Screenshot: Extension Installed on Microsoft Edge](/files/edge-extension-added.png)
+     ![Screenshot: Extension Installed on Microsoft Edge](/files/edge-extension-added.png)
 
 ---
 
