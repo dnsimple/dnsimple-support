@@ -52,21 +52,21 @@ Click on the <label>Add</label> link to add a new access token.
 
 ![New Access Token](/files/access-token-new.png)
 
-When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you will also be able to choose the permission scopes that the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
+When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you can choose the permission scopes the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
 
 ![Generate Token](/files/access-token-generate.png)
 
 ### Selecting permission scopes {#scoped-access-tokens}
 
-Scoped access tokens can be restricted to access only certain resources, or certain groups of resources in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name, or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
+Scoped access tokens can be restricted to access only certain resources, or certain groups of resources, in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
 
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
-Certificates, domains, registrar and zones are resource types that allow restriction of access to specific resources. For instance, when configuring the token for access to zones, you can specify whether it should have access to all zones in the account, or only selected zones, as well as whether the type of access should be read-only or full (i.e. read and write)
+Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources. For instance, when configuring the token for access to zones, you can specify whether it should have access to all zones in the account, or only selected zones, as well as whether the type of access should be read-only or full (i.e. read and write).
 
 ![Selecting Zones](/files/scoped-account-token-select-zones.png)
 
-When you are done with your selections, click on <label>Generate token</label> to create the token.
+When you are finished with your selections, click on <label>Generate token</label> to create the token.
 
 ## Obtaining the generated access token
 
@@ -82,11 +82,11 @@ You can now access the API with this token using the HTTP header `Authorization:
 
 Once an access token has been created, its permissions cannot be changed. However, you can still view the permissions it was created with.
 
-To do so, click on the access token you wish to view, from the list of access tokens.
+To do so, click on the access token you want to view from the list of access tokens.
 
 ![View Token](/files/scoped-account-token-view.png)
 
-You will then be able to see what resources the token has access to.
+You can then see what resources the token has access to.
 
 ![Token Permissions](/files/scoped-account-token-permissions.png)
 
