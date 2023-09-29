@@ -32,7 +32,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Invite</label> link.
+1. Click the <label>Invite</label> link. If your account needs to allocate more seats before inviting a new member, the link will display "Add seats to invite new members". You'll be taken to add seats to the account before you can send the invitation.
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
@@ -51,7 +51,7 @@ It's not possible to add a user whose email address is the same as the account. 
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you want to remove a member from your account, you should switch to the account, and visit the settings from the menu.
+1. If you want to remove a member from your account, switch to the account, and visit the settings from the menu.
 
     ![Visit settings for selected account](/files/account-switcher.jpg)
 
@@ -61,7 +61,7 @@ It's not possible to add a user whose email address is the same as the account. 
 
 1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them.
 
-1. Once you've removed them from the account, that user should no longer show up on the members tab.
+1. Once you've removed them from the account, that user will no longer show up on the members tab, and you have an available seat for a new member. [Discover more about managing your seats](/articles/managing-seats).
 
 </div>
 
