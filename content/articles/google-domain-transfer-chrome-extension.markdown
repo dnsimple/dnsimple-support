@@ -20,7 +20,16 @@ The Chrome Extension is engineered to streamline the entire domain transfer proc
 
 In this support article, we guide you through the step-by-step process to install and use our Chrome Extension for transferring your domain from Google Domains to DNSimple.
 
-## Installing the Chrome Extension
+## Installing from the Chrome web store
+
+Our Chrome extension has been published on the Chrome web store, and can be added with one click there.
+
+1. Visit [our extension page](https://chrome.google.com/webstore/detail/dnsimple-google-domains-t/djohmnmeoijhlanmjplmmchneojogapn)
+2. Click on the blue _"Add to Chrome"_ button found at the far right of the top of the page.
+
+   ![Screenshot: Chrome web store](/files/google-webstore-ext-install.png)
+
+> Further instructions on managing your installed Chrome extensions can be [found here.](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
 
 ### Download link
 
