@@ -25,25 +25,25 @@ This section will prepare your AWS account for integrating with DNS, by setting 
 
 1. Create a new IAM policy using the [AWS console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/create?step=addPermissions) with the following JSON definition:
   ```json
-  {
-    "Version": "2012-10-17",
-    "Statement": [
-      {
-        "Sid": "",
-        "Effect": "Allow",
-        "Action": [
-          "route53:ChangeResourceRecordSets",
-          "route53:CreateHostedZone",
-          "route53:DeleteHostedZone",
-          "route53:GetHostedZone",
-          "route53:ListHostedZones",
-          "route53:ListHostedZonesByName",
-          "route53:ListResourceRecordSets"
-        ],
-        "Resource": "*"
-      }
-    ]
-  }
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "route53:ChangeResourceRecordSets",
+        "route53:CreateHostedZone",
+        "route53:DeleteHostedZone",
+        "route53:GetHostedZone",
+        "route53:ListHostedZones",
+        "route53:ListHostedZonesByName",
+        "route53:ListResourceRecordSets"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
   ```
 1. Create a new IAM user in the [AWS console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/create) for this integration, attaching the previously-created policy directly.
 1. In the *Security credentials* tab for the IAM user that has just been created:
