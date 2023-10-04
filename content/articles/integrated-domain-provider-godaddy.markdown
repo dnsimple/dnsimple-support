@@ -40,7 +40,7 @@ To link [GoDaddy](https://www.godaddy.com) as an integrated domain provider, you
 
 ## Invoice and billing
 
-For operations concerning the domain’s registration such as:
+For operations concerning the registration of your domain such as
 
 - registering the domain
 - renewing the domain
@@ -49,12 +49,12 @@ For operations concerning the domain’s registration such as:
 
 Your GoDaddy account will be charged. Please reach out to them if you have any billing or invoice concerns regarding these operations.
 
-For any other value-added services that DNSimple provides such as:
+For any other value-added services that DNSimple provides such as
 
-- Zone hosting
+- zone hosting
 - SSL certificates
-- Email forwarding
-- Integrations
-- One-click services
+- email forwarding
+- integrations
+- one-click-services
 
 Your DNSimple account will be charged. Please reach out to our customer support team if you have any concerns regarding these.
