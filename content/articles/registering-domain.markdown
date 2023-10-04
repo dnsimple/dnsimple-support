@@ -17,6 +17,7 @@ When applicable, we recommend opting for our "auto-renew" feature to avoid your 
 1. Log in to DNSimple with your user credentials.
 1. Click Add Domain from your Dashboard and select the appropriate account if you have more than one.
 1. Fill out the domain name.
+1. If you have linked an [integrated domain provider](/articles/integrated-domain-providers), you can choose to register your domain through them or through DNSimple.
 1. Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
 1. Click Register Domain.
 1. Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
