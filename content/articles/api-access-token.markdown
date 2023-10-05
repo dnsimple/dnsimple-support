@@ -18,6 +18,12 @@ If you want to access the [DNSimple API](https://developer.dnsimple.com/) v2, yo
 
 This article covers generating account tokens and user tokens. If you want to create an application that requires access to DNSimple, or let an external application request authorization to private details in a user's DNSimple account without getting their password, you'll need an [OAuth Token](/articles/oauth-applications/) instead.
 
+## Video walk-through
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe src="https://www.youtube.com/embed/oGBUQlbkyFM" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
 ## Account tokens vs User tokens
 
 API v2 offers 2 types of tokens: account tokens and user tokens.
