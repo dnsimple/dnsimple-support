@@ -61,7 +61,7 @@ If the domain is still in the transfer process, you can cancel the transfer, and
 
 ## After the transfer
 
-When the transfer is completed, you will receive a confirmation email from DNSimple. Congratulations! Your domain is now transferred to DNSimple and you can manage it from your DNSimple account.
+When the transfer is completed, you will receive a confirmation email from DNSimple. That means your domain is now transferred to DNSimple, and you can manage it from your DNSimple account.
 
 ### Changing name servers
 
@@ -69,7 +69,7 @@ When the transfer is completed, you will receive a confirmation email from DNSim
 
 To avoid unexpected downtime and confusion, we don't change the domain name servers upon a successful transfer. When the domain is transferred to us, we will keep using the same name servers previously configured for the domain.
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click or [manually configure the name servers](/articles/setting-name-servers).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click, or [manually configure the name servers](/articles/setting-name-servers).
 
 <warning>
 We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
@@ -81,7 +81,7 @@ Most transferred domains will be extended the minimum required extension period.
 
 The price of this extension is included in the transfer fee.
 
-### Ensure DNSSEC is disabled
+### Ensuring DNSSEC is disabled
 
 If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
 
