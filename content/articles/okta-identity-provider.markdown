@@ -20,8 +20,8 @@ Using Okta as an identity provider streamlines the login experience for you and 
 
 To proceed with configuring login with SSO through Okta, you must:
 
-- Have administrator access to an Okta organization
-- Have administrator access to a DNSimple account
+- Have administrator access to an Okta organization. This is required for us to be able to react to team member changes in your Okta account (eg. [`only super admins can view and configure event hooks`](https://help.okta.com/en-us/content/topics/automation-hooks/add-event-hooks.htm)).
+- Have administrator access to a DNSimple account.
 - Be subscribed to a DNSimple plan that supports this feature. [See our pricing page for additional details](https://dnsimple.com/pricing).
 
 ## Supported Features
