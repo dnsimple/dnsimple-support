@@ -38,9 +38,9 @@ If you need to provide the IP addresses to your current registrar, use the follo
 <td>2400:cb00:2049:1::a29f:1804</td>
 </tr>
 <tr>
-<td>ns2.dnsimple.com</td>
-<td>162.159.25.4</td>
-<td>2400:cb00:2049:1::a29f:1904</td>
+<td>ns2.dnsimple-edge.net</td>
+<td>199.247.153.53</td>
+<td>2620:111:8005::53</td>
 </tr>
 <tr>
 <td>ns3.dnsimple.com</td>
