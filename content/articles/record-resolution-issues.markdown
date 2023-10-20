@@ -82,9 +82,9 @@ com.            172800  IN  NS  g.gtld-servers.net.
 ;; Received 1176 bytes from 199.9.14.201#53(b.root-servers.net) in 86 ms
 
 dnsimple.com.       172800  IN  NS  ns1.dnsimple.com.
-dnsimple.com.       172800  IN  NS  ns2.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns2.dnsimple-edge.net.
 dnsimple.com.       172800  IN  NS  ns3.dnsimple.com.
-dnsimple.com.       172800  IN  NS  ns4.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns4.dnsimple-edge.org.
 ...
 ;; Received 842 bytes from 192.33.14.30#53(b.gtld-servers.net) in 38 ms
 

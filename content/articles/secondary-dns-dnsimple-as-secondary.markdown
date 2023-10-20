@@ -72,7 +72,7 @@ These are our AXFR client IPs:
 - Production
   - `3.12.234.2`
   - `2600:1f16:ae2:e900:f05c:9438:865f:64a0`
-- Sandbox 
+- Sandbox
   - `3.142.158.214`
   - `2600:1f16:ae2:e900:413:73dd:ebf2:2902`
 
@@ -88,7 +88,7 @@ Example of what the set of NS records may look like:
 - `NS example.com ns2.primary.com`
 - `NS example.com ns3.primary.com`
 - `NS example.com ns1.dnsimple.com`
-- `NS example.com ns2.dnsimple.com`
+- `NS example.com ns2.dnsimple-edge.net`
 - `NS example.com ns3.dnsimple.com`
 
 ### 2. Delegate the domain through both DNS providers at your domain's registrar
@@ -102,7 +102,7 @@ Example of what the name servers may look like:
 - `ns2.primary.com`
 - `ns3.primary.com`
 - `ns1.dnsimple.com`
-- `ns2.dnsimple.com`
+- `ns2.dnsimple-edge.net`
 - `ns3.dnsimple.com`
 
 
