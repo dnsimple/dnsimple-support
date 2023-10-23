@@ -56,7 +56,7 @@ If you need to provide the IP addresses to your current registrar, use the follo
 
 ## Legacy Name Servers
 
-We have some older name servers that we consider legacy. You can use them but it is recommended you use the more diverse names and TLDs.
+We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs.
 
 <table>
 <tr>
