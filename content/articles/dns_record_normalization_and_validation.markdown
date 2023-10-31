@@ -28,7 +28,7 @@ TXT records are used to provide the ability to associate text with a zone to mee
 
 Even though the relevant RFCs allow unwrapped values when they don't include whitespace characters, we enforce double quote `"` wrapped contents for better interoperability and to reduce the number of corner cases to consider.
 
-Since the content must be wrapped in double quotes `"`, any double quote `"` characters in it must be escaped with the `\"` sequence. Note that the backslash doesn't have a special meaning otherwise `\` and can be freely used.
+Since the content must be wrapped in double quotes `"`, any double quote `"` characters in it must be escaped with the `\"` sequence. Note that the backslash `\` character doesn't have a special meaning and can be freely used otherwise.
 
 **Wrapped text can't be longer than 255 characters**
 
