@@ -19,7 +19,7 @@ Normalization and validation varies depending on the DNS record type, and this a
 TXT records are used to provide the ability to associate text with a zone to meet a wide range of purposes. 
 
 <note>
-**TL;DR**: The content must be wrapped in `"`, and inner `"` must be escaped with `\"` (we will do it for you if needed). Text wrapped in `"` can't be longer than 255 (including the `"` characters), but you can concatenate all longer TXT records.
+**TL;DR**: The content must be wrapped in `"`, and inner `"` must be escaped with `\"` (we will do it for you if needed). Text wrapped in `"` can't be longer than 255 (including the `"` characters), but you can concatenate all for longer TXT records.
 </note>
 
 ### Validations
