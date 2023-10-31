@@ -18,7 +18,9 @@ Normalization and validation varies depending on the DNS record type, and this a
 
 TXT records are used to provide the ability to associate text with a zone to meet a wide range of purposes. 
 
-TL;DR: The content must be wrapped in `"`, and inner `"` must be escaped with `\"` (we will do it for you if needed). Text wrapped in `"` can't be longer than 255 (including the `"` characters), but you can concatenate all longer TXT records.
+<note>
+**TL;DR**: The content must be wrapped in `"`, and inner `"` must be escaped with `\"` (we will do it for you if needed). Text wrapped in `"` can't be longer than 255 (including the `"` characters), but you can concatenate all longer TXT records.
+</note>
 
 ### Validations
 
@@ -32,11 +34,13 @@ Since the content must be wrapped in double quotes `"`, any double quote `"` cha
 
 That's including the double quote `"` wrappers. However, many wrapped texts can be concatenated to achieve longer TXT records. No separator character is needed. 
 
-This is an example of a valid 410 characters long TXT record content:
+<info>
+Example of a valid 410 characters long TXT record content:
 
 ```
 "v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1vE7K6XAXKtID2wSBKpHW1cBCghiYvmry5vhYLySPltIpvYvzl5WGAgFTCcOF2QO8BLYvoihjr0oC84LjVt7xO3ZUaG3my3wWQcF0WObJwADl/GawBuum/4lcbJmlLHnqetfGR37WUG+t0NKK+Cz4xRkdtgYPZMYpmNirlhIwHWSNftqD6XI5DEA0LtwCb4gMa""hkWIKhTuukrVoYh58x7vI7g22AHheo+eypvcjx0SrQn9JnoVuL4mEin9FaSaLOGUah842fy3e21LOdB++yDxER4pha2hbpJHU5imcltOlsILPL1bvRlDaL9ZeN/Yjjyf3ZLEE0hgo94rrnXzM/QIDAQAB"
 ```
+</info>
 
 ### Normalizations
 
@@ -44,8 +48,11 @@ Our system will add the double quote `"` wrapper when you provide a TXT content 
 
 If the TXT content you provide is already wrapped in double quotes `"`, we won't perform any change on it and validations will be executed on it verbatim.
 
-Example: `foo bar` turns into `"foo bar"`
-Example: `foo "bar" baz` turns into `"foo \"bar\" baz"`
+<info>
+Examples:
+- `foo bar` turns into `"foo bar"`
+- `foo "bar" baz` turns into `"foo \"bar\" baz"`
+</info>
 
 #### References
 
@@ -55,7 +62,9 @@ The reference document for TXT record validations is the [RFC 1035](https://www.
 
 SPF records are used to indicate to mail exchanges which hosts are authorized to send mail for a domain. Read more about it at [our article about SPF records](/articles/spf-record/).
 
-TL;DR: Everything on [TXT records](#txt-records) apply to SPF records. On top of that, we will validate the directives and modifiers in the terms you provide.
+<note>
+**TL;DR**: Everything on [TXT records](#txt-records) apply to SPF records. On top of that, we will validate the directives and modifiers in the terms you provide.
+</note>
 
 ### Validations
 
@@ -87,7 +96,9 @@ Since SPF records are built on top of TXT records, all [TXT record normalization
 
 No extra normalizations are performed on top of that.
 
+<info>
 Example: `v=spf1 ~all` turns into `"v=spf1 ~all"`
+</info>
 
 ### References
 
@@ -112,15 +123,21 @@ The general format of a CAA record must follow the `<flag> <tag> <value>` patter
 
 - It must be either a domain name or a domain name followed by a `;` character and a list of `parameter`s separated by the `;` character.
 
-  Example: `0 issue "letsencrypt.com"`
+   <info>
+   Example: `0 issue "letsencrypt.com"`
+   </info>
 
 - Each parameter must follow the `key=value` pattern.
 
-  Example: `0 issue "letsencrypt.com;validationmethods=dns-01"`
+   <info>
+   Example: `0 issue "letsencrypt.com;validationmethods=dns-01"`
+   </info>
   
 - The domain name can also be left empty, which must be indicated providing just a `;` character
 
-  Example: `0 issue ";"`
+   <info>
+   Example: `0 issue ";"`
+   </info>
 
 #### `iodef` tag `value`
 
@@ -134,7 +151,9 @@ The general format of a CAA record must follow the `<flag> <tag> <value>` patter
 Our system will only normalize the `value` of the provided CAA record content as follows:
 - We will add the double quote `"` wrapper when you provide a `value` without it. While doing that, we will also escape any double quote `"` characters in the original `value`.
 
-  Example: `0 issue letsencrypt.org` turns into `0 issue "letsencrypt.org"`
+   <info>
+   Example: `0 issue sectigo.com` turns into `0 issue "sectigo.com"`
+   </info>
 
 - If the `value` you provide is already wrapped in double quotes `"`, we won't perform any change on it.
 
