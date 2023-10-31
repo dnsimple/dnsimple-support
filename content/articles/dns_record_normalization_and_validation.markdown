@@ -16,6 +16,8 @@ Normalization and validation varies depending on the DNS record type, and this a
 
 ## TXT records
 
+TXT records are used to provide the ability to associate text with a zone to meet a wide range of purposes. 
+
 TL;DR: The content must be wrapped in `"`, and inner `"` must be escaped with `\"` (we will do it for you if needed). Text wrapped in `"` can't be longer than 255 (including the `"` characters), but you can concatenate all longer TXT records.
 
 ### Validations
@@ -42,43 +44,16 @@ Our system will add the double quote `"` wrapper when you provide a TXT content 
 
 If the TXT content you provide is already wrapped in double quotes `"`, we won't perform any change on it and validations will be executed on it verbatim.
 
+Example: `foo bar` turns into `"foo bar"`
+Example: `foo "bar" baz` turns into `"foo \"bar\" baz"`
+
 #### References
 
-The reference document for TXT record validations is the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
-
-``` 
-
-3.3. Standard RRs
-
-                                      [...] <character-string> is a single
-   length octet followed by that number of characters.  <character-string>
-   is treated as binary information, and can be up to 256 characters in 
-   length (including the length octet).
-
-3.3.14. TXT RDATA format
-
-   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
-   /                   TXT-DATA                    /
-   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
-   
-   where:
-   
-   TXT-DATA        One or more <character-string>s.
-   
-   TXT RRs are used to hold descriptive text.  The semantics of the text
-   depends on the domain where it is found.
-
-5.1. Format
-
-   [...]
-   
-   <character-string> is expressed in one or two ways: as a contiguous set
-   of characters without interior spaces, or as a string beginning with a "
-   and ending with a ".  Inside a " delimited string any character can
-   occur, except for a " itself, which must be quoted using \ (back slash).
-```
+The reference document for TXT record validations is the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035), sections `3.3`, `3.3.14`, and `5.1`
 
 ## SPF records
+
+SPF records are used to indicate to mail exchanges which hosts are authorized to send mail for a domain. Read more about it at [our article about SPF records](/articles/spf-record/).
 
 TL;DR: Everything on [TXT records](#txt-records) apply to SPF records. On top of that, we will validate the directives and modifiers in the terms you provide.
 
@@ -112,107 +87,60 @@ Since SPF records are built on top of TXT records, all [TXT record normalization
 
 No extra normalizations are performed on top of that.
 
+Example: `v=spf1 ~all` turns into `"v=spf1 ~all"`
+
 ### References
 
-Even though SPF records are being officially replaced by TXT records, some providers still rely on them. To make the transition to TXT records as smooth as possible, the industry has decided to make it explicit and [RFC 7208](https://www.rfc-editor.org/rfc/rfc7208) would be the reference document in this case:
+Even though SPF records are being officially replaced by TXT records, some providers still rely on them. To make the transition to TXT records as smooth as possible, the industry has decided to make it explicit and [RFC 7208](https://www.rfc-editor.org/rfc/rfc7208) would be the reference document in this case (sections `3`, `3.1`, `4.6.1`, `4.6.2`, and `4.6.3`)
 
-```
-3.  SPF Records
+## CAA records
 
-   [...]
+CAA records are use to set restrictions to the SSL certificates that can be issued for domain names. Read more about it at [our article about CAA records](/articles/caa-record/).
 
-   The SPF record is expressed as a single string of text found in the
-   RDATA of a single DNS TXT resource record; [...]
-   
-3.1.  DNS Resource Records
+The general format of a CAA record must follow the `<flag> <tag> <value>` pattern. Some validations are general for any content but there are special validations based on the specific value of the `tag` part.
 
-   SPF records MUST be published as a DNS TXT (type 16) Resource Record
-   (RR) [RFC1035] only.  The character content of the record is encoded
-   as [US-ASCII].  Use of alternative DNS RR types was supported in
-   SPF's experimental phase but has been discontinued.
+### Validations
 
-   In 2003, when SPF was first being developed, the requirements for
-   assignment of a new DNS RR type were considerably more stringent than
-   they are now.  Additionally, support for easy deployment of new DNS
-   RR types was not widely deployed in DNS servers and provisioning
-   systems.  As a result, developers of SPF found it easier and more
-   practical to use the TXT RR type for SPF records.
-   
-4.6.1.  Term Evaluation
+- The `flag` must be a number between `0` and `255`, and `0` is the value normally used
+- The `tag` must be one of `issue`, `issuewild`, or `iodef`
+- The `value` part:
+  - It must be wrapped between double quotes `"` and be 255 characters long at most (including the double quotes `"`). 
+  - Any inner double quotes `"` must be escaped with the `\"` character sequence. 
+  - It must follow an extra set of rules based on the specific `tag` value, as follows
 
-   There are two types of terms: mechanisms (defined in Section 5) and
-   modifiers (defined in Section 6).  A record contains an ordered list
-   of these as specified in the following Augmented Backus-Naur Form
-   (ABNF).
+#### `issue` and `issuewild` tag `value`
 
-   terms            = *( 1*SP ( directive / modifier ) )
+- It must be either a domain name or a domain name followed by a `;` character and a list of `parameter`s separated by the `;` character.
 
-   directive        = [ qualifier ] mechanism
-   qualifier        = "+" / "-" / "?" / "~"
-   mechanism        = ( all / include
-                      / a / mx / ptr / ip4 / ip6 / exists )
-   modifier         = redirect / explanation / unknown-modifier
-   unknown-modifier = name "=" macro-string
-                      ; where name is not any known modifier
+  Example: `0 issue "letsencrypt.com"`
 
-   name             = ALPHA *( ALPHA / DIGIT / "-" / "_" / "." )
+- Each parameter must follow the `key=value` pattern.
 
-   Most mechanisms allow a ":" or "/" character after the name.
+  Example: `0 issue "letsencrypt.com;validationmethods=dns-01"`
+  
+- The domain name can also be left empty, which must be indicated providing just a `;` character
 
-   Modifiers always contain an equals ('=') character immediately after
-   the name, and before any ":" or "/" characters that might be part of
-   the macro-string.
+  Example: `0 issue ";"`
 
-   Terms that do not contain any of "=", ":", or "/" are mechanisms, as
-   defined in Section 5.
+#### `iodef` tag `value`
 
-   As per the definition of the ABNF notation in [RFC5234], mechanism
-   and modifier names are case-insensitive.
+- It must contain a URL
+- The provided URL must have one of the following schemes: `mailto`, `http`, or `https`
+- If the URL has the `mailto` scheme, then it must be conform to an email URL as in `mailto:admin@example.com`
+- If the URL has the `http` or `https` schemes, then it must be a valid HTTP/HTTPS URL as in `https://dnsimple.com/report_caa`
 
-4.6.2.  Mechanisms
+### Normalizations
 
-   Each mechanism is considered in turn from left to right.  If there
-   are no more mechanisms, the result is the default result as described
-   in Section 4.7.
+Our system will only normalize the `value` of the provided CAA record content as follows:
+- We will add the double quote `"` wrapper when you provide a `value` without it. While doing that, we will also escape any double quote `"` characters in the original `value`.
 
-   When a mechanism is evaluated, one of three things can happen: it can
-   match, not match, or return an exception.
+  Example: `0 issue letsencrypt.org` turns into `0 issue "letsencrypt.org"`
 
-   If it matches, processing ends and the qualifier value is returned as
-   the result of that record.  If it does not match, processing
-   continues with the next mechanism.  If it returns an exception,
-   mechanism processing ends and the exception value is returned.
+- If the `value` you provide is already wrapped in double quotes `"`, we won't perform any change on it.
 
-   The possible qualifiers, and the results they cause check_host() to
-   return, are as follows:
+### References
 
-      "+" pass
-      "-" fail
-      "~" softfail
-      "?" neutral
-
-   The qualifier is optional and defaults to "+".
-
-   When a mechanism matches and the qualifier is "-", then a "fail"
-   result is returned and the explanation string is computed as
-   described in Section 6.2.
-
-   The specific mechanisms are described in Section 5.
-
-4.6.3.  Modifiers
-
-   Modifiers are not mechanisms.  They do not return match or not-match.
-   Instead, they provide additional information.  Although modifiers do
-   not directly affect the evaluation of the record, the "redirect"
-   modifier has an effect after all the mechanisms have been evaluated.
-```
-
-
-
-
-
-
-
+The reference document for the CAA records is the [RFC 8659](https://www.rfc-editor.org/rfc/rfc8659.html), sections `4.1.1`, `4.2`, `4.3`, and `4.4`
 
 
 
