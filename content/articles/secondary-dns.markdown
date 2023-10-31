@@ -35,16 +35,16 @@ You can configure Secondary DNS on all domains whether they delegate to us or no
 If you don't have your domain registered with us, update the delegation of your domain at your registrar to use the secondary name servers you have chosen. If you set up the secondary name servers `ns1.secondary.com` and `ns2.secondary.com`, delegation at your registrar will need to change from:
 
 - `ns1.dnsimple.com`
-- `ns2.dnsimple.com`
+- `ns2.dnsimple-edge.net`
 - `ns3.dnsimple.com`
-- `ns4.dnsimple.com`
+- `ns4.dnsimple-edge.org`
 
 to
 
 - `ns1.dnsimple.com`
-- `ns2.dnsimple.com`
+- `ns2.dnsimple-edge.net`
 - `ns3.dnsimple.com`
-- `ns4.dnsimple.com`
+- `ns4.dnsimple-edge.org`
 - `ns1.secondary.com`
 - `ns2.secondary.com`
 

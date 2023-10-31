@@ -89,8 +89,8 @@ example.com. 3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1425558979 864
 
 ;; AUTHORITY SECTION:
 example.com. 3600  IN  NS  xfr0.easydns.com.
-example.com. 3600  IN  NS  ns4.dnsimple.com.
-example.com. 3600  IN  NS  ns2.dnsimple.com.
+example.com. 3600  IN  NS  ns4.dnsimple-edge.org.
+example.com. 3600  IN  NS  ns2.dnsimple-edge.net.
 example.com. 3600  IN  NS  ns1.dnsimple.com.
 example.com. 3600  IN  NS  ns3.dnsimple.com.
 

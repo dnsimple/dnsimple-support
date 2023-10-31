@@ -40,7 +40,7 @@ The output above shows lots of interesting details. Line one contains the versio
 
 The question section displays the DNS question that was sent: "I want A records for dnsimple.com". The Answer section shows what the name server responded with: "dnsimple.com has one A record with the content 50.31.213.210 and a time-to-live (TTL) of 59 seconds.
 
-It also gives details about how long the query took, what server was used, when the query was sent, and the size of the DNS packet. 
+It also gives details about how long the query took, what server was used, when the query was sent, and the size of the DNS packet.
 
 
 ## Dig at a name server
@@ -110,9 +110,9 @@ com.			172800	IN	NS	g.gtld-servers.net.
 ;; Received 490 bytes from 192.112.36.4#53(192.112.36.4) in 1849 ms
 
 dnsimple.com.		172800	IN	NS	ns1.dnsimple.com.
-dnsimple.com.		172800	IN	NS	ns2.dnsimple.com.
+dnsimple.com.		172800	IN	NS	ns2.dnsimple-edge.net.
 dnsimple.com.		172800	IN	NS	ns3.dnsimple.com.
-dnsimple.com.		172800	IN	NS	ns4.dnsimple.com.
+dnsimple.com.		172800	IN	NS	ns4.dnsimple-edge.org.
 ;; Received 278 bytes from 192.55.83.30#53(192.55.83.30) in 306 ms
 
 dnsimple.com.		60	IN	A	50.31.213.210

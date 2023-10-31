@@ -11,7 +11,7 @@ To use our [DNS hosting service](/articles/dns-hosting), the domain should resol
 
 You can check the domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). The resolution status is also displayed on the domain page in your DNSimple account.
 
-The following is a checklist of common issues to help you if a domain isn't resolving correctly. 
+The following is a checklist of common issues to help you if a domain isn't resolving correctly.
 
 
 ## Name server propagation delay
@@ -36,9 +36,9 @@ You can use `dig` or any other DNS tool to get the name servers for the domain.
 ~~~
 $ dig NS example.com +short
 ns1.dnsimple.com.
-ns2.dnsimple.com.
+ns2.dnsimple-edge.net.
 ns3.dnsimple.com.
-ns4.dnsimple.com.
+ns4.dnsimple-edge.org.
 ~~~
 
 The order of the name servers is irrelevant.
@@ -61,7 +61,7 @@ If not, update the name servers to [point to DNSimple](/articles/pointing-domain
 
 ## Check that the domain is using *all* DNSimple name servers
 
-DNSimple provides four name servers. You should include all the name servers to make sure DNS will resolve if one name server is temporarily unavailable due to maintenance, etc. 
+DNSimple provides four name servers. You should include all the name servers to make sure DNS will resolve if one name server is temporarily unavailable due to maintenance, etc.
 
 
 ## Check that the domain is using *only* DNSimple name servers
@@ -71,9 +71,9 @@ In some cases, a misconfiguration may result in DNSimple name servers listed alo
 ~~~
 $ dig NS example.com +short
 ns1.dnsimple.com.
-ns2.dnsimple.com.
+ns2.dnsimple-edge.net.
 ns3.dnsimple.com.
-ns4.dnsimple.com.
+ns4.dnsimple-edge.org.
 ns1.thirdparty.com.
 ns2.thirdparty.com.
 ~~~
@@ -97,9 +97,9 @@ Registrar: ENOM, INC.
 Whois Server: whois.enom.com
 Referral URL: http://www.enom.com
 Name Server: NS1.DNSIMPLE.COM
-Name Server: NS2.DNSIMPLE.COM
+Name Server: NS2.DNSIMPLE-EDGE.NET
 Name Server: NS3.DNSIMPLE.COM
-Name Server: NS4.DNSIMPLE.COM
+Name Server: NS4.DNSIMPLE-EDGE.ORG
 Status: clientTransferProhibited
 Updated Date: 13-jun-2013
 Creation Date: 07-apr-2010

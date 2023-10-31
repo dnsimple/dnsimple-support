@@ -89,12 +89,12 @@ The query should return all the DNSimple and DNSMadeEasy name servers in the `AU
 example.com.  3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1425544360 86400 7200 604800 300
 
 ;; AUTHORITY SECTION:
-example.com.  3600  IN  NS  ns2.dnsimple.com.
+example.com.  3600  IN  NS  ns2.dnsimple-edge.net.
 example.com.  3600  IN  NS  ns6.dnsmadeeasy.com.
 example.com.  3600  IN  NS  ns7.dnsmadeeasy.com.
 example.com.  3600  IN  NS  ns3.dnsimple.com.
 example.com.  3600  IN  NS  ns5.dnsmadeeasy.com.
-example.com.  3600  IN  NS  ns4.dnsimple.com.
+example.com.  3600  IN  NS  ns4.dnsimple-edge.org.
 example.com.  3600  IN  NS  ns1.dnsimple.com.
 
 ;; Query time: 55 msec

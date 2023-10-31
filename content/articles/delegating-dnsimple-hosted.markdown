@@ -17,7 +17,7 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers):
 
     - ns1.dnsimple.com
-    - ns2.dnsimple.com
+    - ns2.dnsimple-edge.net
     - ns3.dnsimple.com
     - ns4.dnsimple-edge.org
 </div>
