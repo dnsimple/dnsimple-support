@@ -40,13 +40,14 @@ Example of a valid 410 characters long TXT record content:
 ```
 "v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1vE7K6XAXKtID2wSBKpHW1cBCghiYvmry5vhYLySPltIpvYvzl5WGAgFTCcOF2QO8BLYvoihjr0oC84LjVt7xO3ZUaG3my3wWQcF0WObJwADl/GawBuum/4lcbJmlLHnqetfGR37WUG+t0NKK+Cz4xRkdtgYPZMYpmNirlhIwHWSNftqD6XI5DEA0LtwCb4gMa""hkWIKhTuukrVoYh58x7vI7g22AHheo+eypvcjx0SrQn9JnoVuL4mEin9FaSaLOGUah842fy3e21LOdB++yDxER4pha2hbpJHU5imcltOlsILPL1bvRlDaL9ZeN/Yjjyf3ZLEE0hgo94rrnXzM/QIDAQAB"
 ```
+(notice the `""` sequence in the middle of the content, marking the end of the first wrapped text and the start of the next")
 </info>
 
 ### Normalizations
 
 Our system will add the double quote `"` wrapper when you provide a TXT content without it. While doing that, we will also escape any double quote `"` characters in the original TXT content.
 
-If the TXT content you provide is already wrapped in double quotes `"`, we won't perform any change on it and validations will be executed on it verbatim.
+If the TXT content you provide is already wrapped in double quotes `"`, we won't perform any change on it.
 
 <info>
 Examples:
@@ -75,14 +76,14 @@ On top of that, we will validate the directives and modifiers you provide throug
 #### Directives
 
 - A `directive` can start with a qualifier character. The supported qualifiers are: `+`, `-`, `?`, and `~`
-- A `directive` is composed of a `mechanism` and and optional `value` (some `mechanism`s allow providing a value after a `:` character)
+- A `directive` is composed of a `mechanism` and an optional `value` (some `mechanism`s allow providing a value after a `:` character)
 - This is the list of allowed `mechanism`s and their expected `value`s if any: 
   - `all`
-  - `include`, `exists`. Expects a domain name as `value`
-  - `ip4`. Expects an IPv4 address as `value`
-  - `ip6`. Expects an IPv6 address as `value`
-  - `ptr`. Expects a domain name as `value`
-  - `a`, `mx`. Expects either a domain name or a CIDR as `value`
+  - `include`, `exists`. Expects a domain name as `value` as in `include:example.com`
+  - `ip4`. Expects an IPv4 address as `value` as in `ip4:1.2.3.4`
+  - `ip6`. Expects an IPv6 address as `value` as in `ip6:2001:DB8::CD30/96`
+  - `ptr`. Expects a domain name as `value` as in `ptr:example.com`
+  - `a`, `mx`. Expects either a domain name or a CIDR as `value` as in `a:example.com`
 
 #### Modifiers
 
@@ -115,13 +116,14 @@ The general format of a CAA record must follow the `<flag> <tag> <value>` patter
 - The `flag` must be a number between `0` and `255`, and `0` is the value normally used
 - The `tag` must be one of `issue`, `issuewild`, or `iodef`
 - The `value` part:
-  - It must be wrapped between double quotes `"` and be 255 characters long at most (including the double quotes `"`). 
+  - It must be wrapped between double quotes `"`.
+  - There are no length restrictions on this part.
   - Any inner double quotes `"` must be escaped with the `\"` character sequence. 
   - It must follow an extra set of rules based on the specific `tag` value, as follows
 
 #### `issue` and `issuewild` tag `value`
 
-- It must be either a domain name or a domain name followed by a `;` character and a list of `parameter`s separated by the `;` character.
+- It must contain either a domain name or a domain name followed by a `;` character and a list of `parameter`s separated by the `;` character.
 
    <info>
    Example: `0 issue "letsencrypt.com"`
@@ -148,7 +150,7 @@ The general format of a CAA record must follow the `<flag> <tag> <value>` patter
 
 ### Normalizations
 
-Our system will only normalize the `value` of the provided CAA record content as follows:
+Our system will only normalize the `value` part of the provided CAA record content as follows:
 - We will add the double quote `"` wrapper when you provide a `value` without it. While doing that, we will also escape any double quote `"` characters in the original `value`.
 
    <info>
