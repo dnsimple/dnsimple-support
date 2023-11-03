@@ -1,6 +1,6 @@
 ---
 title: What's a TXT Record?
-excerpt: What a TXT record is, and how to create NS records with DNSimple.
+excerpt: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
 categories:
 - DNS
 ---
@@ -11,11 +11,11 @@ A TXT record is a resource record used to provide the ability to associate text 
 
 Common uses for TXT records:
 
-| Type | Description |
-|------|-------------|
-| [`DKIM` records](/articles/dkim-record) | This record stores important information used in the validation of email in transit. |
-| DMARC records | Domain-based Message Authentication Reporting and Conformance records mitigate phishing and spoofing email attacks. |
-| [`SPF` record](/articles/spf-record/) | This record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. TXT records should be used instead of the special SPF record type. |
-| Site Verification Records | This record proves ownership of a domain and can be used to associate services such as Microsoft 365 and G-Suite to a specific domain. |
+| Type                                    | Description                                                                                                                                                                |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`DKIM` records](/articles/dkim-record) | This record stores important information used in the validation of email in transit.                                                                                       |
+| DMARC records                           | Domain-based Message Authentication Reporting and Conformance records mitigate phishing and spoofing email attacks.                                                        |
+| [`SPF` record](/articles/spf-record/)   | This record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. TXT records should be used instead of the special SPF record type. |
+| Site Verification Records               | This record proves ownership of a domain and can be used to associate services such as Microsoft 365 and G-Suite to a specific domain.                                     |
 
 TXT record content longer than 255 characters will automatically be broken into quoted strings of 255 characters maximum. If you have TXT record content that is longer than 255 characters, such as a DKIM value, our system will automatically handle those records; you do not need to break the record into quoted strings.
