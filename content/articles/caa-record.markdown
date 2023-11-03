@@ -30,11 +30,11 @@ The DNS CAA record is specified by [RFC 6844](https://tools.ietf.org/html/rfc684
 The structure of a CAA record follows the standard top-level format definition defined in [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of the following elements:
 
 | Element | Description |
-|:------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| flag  | An unsigned integer between 0-255.                                                                                                           |
-|       | It is currently used to represent the _critical_ flag, that has a specific meaning per [RFC](https://tools.ietf.org/html/rfc6844#section-3). |
-| tag   | An ASCII string that represents the identifier of the property represented by the record.                                                    |
-| value | The value associated with the tag.                                                                                                           |
+|:--------|:---------------------------------------------------------------------------------------------------------------------------------------------|
+| flags   | An unsigned integer between 0-255.                                                                                                           |
+|         | It is currently used to represent the _critical_ flag, that has a specific meaning per [RFC](https://tools.ietf.org/html/rfc6844#section-3). |
+| tag     | An ASCII string that represents the identifier of the property represented by the record.                                                    |
+| value   | The value associated with the tag.                                                                                                           |
 
 The CAA record consists of a flags byte and a tag-value pair referred to as a 'property'. Multiple properties may be associated with the same domain name by publishing multiple CAA RRs at that domain name.
 
@@ -51,20 +51,6 @@ The RFC currently defines three available tags:
 - `iodef`: specifies a URL to which a certificate authority may report policy violations.
 
 `issuewild` tags take precedence over `issue` tags when specified. Once there's one CAA record with the `issuewild` tag in place, regardless of its value, wildcard certificate requests will be rejected unless there's a specific CAA record with the `issuewild` tag for that CA and the requested hostname.
-
-In DNSimple, the CAA record is represented by the following customizable elements:
-
-| Element | Description |
-|:------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| Name  | The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
-| TTL   | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
-| Tag   | An ASCII string that represents the identifier of the property represented by the record.                                                  |
-| Value | The value associated with the tag. Whitespaces are not allowed in this field. | 
-
-<info>
-We don't allow configuration of the **bit** flag.
-</info>
-
 
 ## CAA record usage
 
