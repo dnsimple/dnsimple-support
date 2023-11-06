@@ -46,7 +46,7 @@ In this scenario, we will validate the syntax of the content you provide accordi
   - They can't be longer than 255 characters, including the wrapping double quotes
 
 <note>
-These text values are defined in RFC 1035 as `<character-string>`s, which allow values that don't include whitespace to be left unwrapped, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
+The RFC 1035 allows text that doesn't include whitespace to be left unwrapped, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
 </note>
 
 On top of that, we will also check the content you provide is at most 1000 characters in size.
