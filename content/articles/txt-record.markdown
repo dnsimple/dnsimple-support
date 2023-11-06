@@ -31,26 +31,13 @@ Common uses for TXT records:
 
 We consider two different validation scenarios:
 
-### When you provide a deserialized TXT record content
+### When you provide an unquoted value {#deserialized_content}
 
-We will consider this validation scenario when the TXT record content you provide is not wrapped in double quotes. This is the most common scenario.
+This is the most common scenario.
 
 In this scenario, there are few limitations on what you can do beyond a hard limit of 1000 characters for the serialized version of your content. See the next section to understand what we mean about the serialized version of the TXT record content.
 
-Here's an example of this using our API:
-
-```
-curl  -H 'Authorization: Bearer <token>' \
-      -H 'Accept: application/json' \
-      -H 'Content-Type: application/json' \
-      -X POST \
-      -d '{"name": "foo", "type": "TXT", "content": "v=spf1 ~all"}' \
-      https://api.dnsimple.com/v2/1010/zones/example.com/records
-```
-
-### When you provide a serialized TXT record RData
-
-We will consider this validation scenario when the TXT record content you provide is wrapped in double quotes.
+### When you provide a value wrapped in double quotes {#serialized_content}
 
 In this scenario, we will validate the syntax of the content you provide according to the rules described in the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
 - A TXT record's RData is composed of one or more `<character-string>` values that meet the following criteria:
@@ -64,13 +51,20 @@ The definition of `<character-string>` data type in the RFC 1035 allows values t
 
 On top of that, we will also check the content you provide is at most 1000 characters in size.
 
-## Normalization
+## Serialization
 
-Our system will store the serialized TXT record RData as the record's content. 
+Our system stores the serialized version of TXT records (we do that for all the DNS record types, actually), but we don't expect you to provide serialized TXT records to create or update them in our system because it can get complicated and error-prone very easily.
 
-This means the content you will get when querying our system will always be wrapped in double quotes, with all the inner double quotes in their escaped `\"` form, and split into 255 character-long chunks regardless of how you created it.
+Instead, you can provide values for your TXT records without wrapping them in double quotes, and we will take care of the rest. However, you will see that the value we create is slightly different than the one you provided:
+- It will be wrapped in double quotes
+- Any double quote character originally present will be escaped with the `\"` character sequence
+- Long TXTs will be broken down into 255 characters-long chunks wrapped in double quotes
 
-Let's imagine you created the following 2048 bit DKIM key:
+<note>
+If you provide TXT record content wrapped in double quotes, our system won't make any change to it and it will stored verbatim
+</note>
+
+Let's imagine you want to create the following 2048 bit DKIM key:
 ```
 v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1vE7K6XAXKtID2wSBKpHW1cBCghiYvmry5vhYLySPltIpvYvzl5WGAgFTCcOF2QO8BLYvoihjr0oC84LjVt7xO3ZUaG3my3wWQcF0WObJwADl/GawBuum/4lcbJmlLHnqetfGR37WUG+t0NKK+Cz4xRkdtgYPZMYpmNirlhIwHWSNftqD6XI5DEA0LtwCb4gMahkWIKhTuukrVoYh58x7vI7g22AHheo+eypvcjx0SrQn9JnoVuL4mEin9FaSaLOGUah842fy3e21LOdB++yDxER4pha2hbpJHU5imcltOlsILPL1bvRlDaL9ZeN/Yjjyf3ZLEE0hgo94rrnXzM/QIDAQAB
 ```
