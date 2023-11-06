@@ -61,7 +61,7 @@ Instead, you can provide values for your TXT records without wrapping them in do
 - Long TXTs will be broken down into 255 characters-long chunks wrapped in double quotes
 
 <note>
-If you provide TXT record content wrapped in double quotes, our system won't make any change to it and it will stored verbatim
+If you provide TXT record content wrapped in double quotes, our system won't make any change to it and it will store it verbatim
 </note>
 
 Let's imagine you want to create the following 2048 bit DKIM key:
