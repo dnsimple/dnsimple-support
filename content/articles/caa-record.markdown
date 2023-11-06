@@ -128,8 +128,3 @@ $ digcaa google.com
 1 records found
 google.com. 86399   IN  CAA 0 issue "symantec.com"
 ```
-
-
-## Manage CAA records
-
-From the DNSimple record editor you can [add, remove, and update CAA records](/articles/manage-caa-record).
