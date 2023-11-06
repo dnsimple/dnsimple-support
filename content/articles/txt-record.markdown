@@ -33,9 +33,9 @@ We consider two different validation scenarios:
 
 ### When you provide a deserialized TXT record content
 
-We will consider this validation scenario when the TXT record content you provide is not wrapped between double quotes. This is probably the most common scenario we have too.
+We will consider this validation scenario when the TXT record content you provide is not wrapped in double quotes. This is the most common scenario.
 
-On this scenario, there aren't many limitations on what you can do beyond a hard limit of 1000 characters for the serialized version of the content you provide. See the next section to understand what we mean about the serialized version of the TXT record content.
+In this scenario, there are few limitations on what you can do beyond a hard limit of 1000 characters for the serialized version of your content. See the next section to understand what we mean about the serialized version of the TXT record content.
 
 Here's an example of this using our API:
 
@@ -52,23 +52,23 @@ curl  -H 'Authorization: Bearer <token>' \
 
 We will consider this validation scenario when the TXT record content you provide is wrapped in double quotes.
 
-On this scenario, we will validate the syntax of the content you provide according to the rules described in the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
+In this scenario, we will validate the syntax of the content you provide according to the rules described in the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
 - A TXT record's RData is composed of one or more `<character-string>` values that meet the following criteria:
   - They must be wrapped in double quotes
   - Any double quote in them must be escaped with the sequence `\"`
-  - They can't be longer than 255 characters including the wrapping double quotes
+  - They can't be longer than 255 characters, including the wrapping double quotes
 
 <note>
-The definition of `<character-string>` data type in the RFC 1035 allows values that don't include whitespace to be left unwrapped in double quotes, but **we're enforcing the double quote wrapper** to simplifly handling of TXT records across our system.
+The definition of `<character-string>` data type in the RFC 1035 allows values that don't include whitespace to be left unwrapped in double quotes, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
 </note>
 
-On top of that, we will also check the content you provide doesn't exceed 1000 characters in size.
+On top of that, we will also check the content you provide is at most 1000 characters in size.
 
 ## Normalization
 
 Our system will store the serialized TXT record RData as the record's content. 
 
-This means that the content you will get when querying our system will always be wrapped in double quotes, with any inner double quote escaped, and split into 255 character-long chunks regardless of how you created it.
+This means the content you will get when querying our system will always be wrapped in double quotes, with all the inner double quotes in their escaped `\"` form, and split into 255 character-long chunks regardless of how you created it.
 
 Let's imagine you created the following 2048 bit DKIM key:
 ```
