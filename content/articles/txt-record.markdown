@@ -31,22 +31,22 @@ Common uses for TXT records:
 
 We consider two different validation scenarios:
 
-### When you provide an unquoted value {#deserialized_content}
+### When you provide an unquoted value (deserialized) {#deserialized_content}
 
 This is the most common scenario.
 
 In this scenario, there are few limitations on what you can do beyond a hard limit of 1000 characters for the serialized version of your content. See the next section to understand what we mean about the serialized version of the TXT record content.
 
-### When you provide a value wrapped in double quotes {#serialized_content}
+### When you provide a value wrapped in double quotes (serialized) {#serialized_content}
 
 In this scenario, we will validate the syntax of the content you provide according to the rules described in the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
-- A TXT record's RData is composed of one or more `<character-string>` values that meet the following criteria:
+- A TXT is composed of one or more plain text values that meet the following criteria:
   - They must be wrapped in double quotes
   - Any double quote in them must be escaped with the sequence `\"`
   - They can't be longer than 255 characters, including the wrapping double quotes
 
 <note>
-The definition of `<character-string>` data type in the RFC 1035 allows values that don't include whitespace to be left unwrapped in double quotes, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
+These text values are defined in RFC 1035 as `<character-string>`s, which allow values that don't include whitespace to be left unwrapped, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
 </note>
 
 On top of that, we will also check the content you provide is at most 1000 characters in size.
