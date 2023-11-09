@@ -108,7 +108,3 @@ There are various limitations on the number of items and lookups permitted in an
 - `modifier` terms follow a `key=value` pattern
 - A `modifier` key can be any valid text excluding the whitespace character
 - A `modifier` value is expected to be a domain name
-
-## Normalization
-
-Our system will normalize SPF records as explained in the [TXT record normalization section](/articles/txt-record/#normalization).

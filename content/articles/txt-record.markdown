@@ -43,7 +43,6 @@ In this scenario, we will validate the syntax of the content you provide accordi
 - A TXT is composed of one or more plain text values that meet the following criteria:
   - They must be wrapped in double quotes
   - Any double quote in them must be escaped with the sequence `\"`
-  - They can't be longer than 255 characters, including the wrapping double quotes
 
 <note>
 The RFC 1035 allows text that doesn't include whitespace to be left unwrapped, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
@@ -58,20 +57,44 @@ Our system stores the serialized version of TXT records (we do that for all the 
 Instead, you can provide values for your TXT records without wrapping them in double quotes, and we will take care of the rest. However, you will see that the value we create is slightly different than the one you provided:
 - It will be wrapped in double quotes
 - Any double quote character originally present will be escaped with the `\"` character sequence
-- Long TXTs will be broken down into 255 characters-long chunks wrapped in double quotes
+
+<info>
+If you provide TXT record wrapped in double quotes, our system won't make any change to it and it will store it verbatim
+</info>
+
+## Long TXT records
+
+According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently. 
 
 <note>
-If you provide TXT record content wrapped in double quotes, our system won't make any change to it and it will store it verbatim
+We don't require you to split long TXT records, nor we will store them in a split format
 </note>
 
-Let's imagine you want to create the following 2048 bit DKIM key:
+If you provide a long TXT record content wrapped in double quotes and split into chunks, we will store it as is but the existing chunks could be split further into smaller ones if the original chunks are too big. We do this to maximize our interoperability within Internet's DNS infrastructure by enforcing industry-standard formats.
+
+### Examples
+
+**Content with double quotes**
+
+I you provide us `some "quoted text" here`, we will store it as `"some \"quoted text\" here"`, and the DNS record will be resolved as:
 ```
-v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1vE7K6XAXKtID2wSBKpHW1cBCghiYvmry5vhYLySPltIpvYvzl5WGAgFTCcOF2QO8BLYvoihjr0oC84LjVt7xO3ZUaG3my3wWQcF0WObJwADl/GawBuum/4lcbJmlLHnqetfGR37WUG+t0NKK+Cz4xRkdtgYPZMYpmNirlhIwHWSNftqD6XI5DEA0LtwCb4gMahkWIKhTuukrVoYh58x7vI7g22AHheo+eypvcjx0SrQn9JnoVuL4mEin9FaSaLOGUah842fy3e21LOdB++yDxER4pha2hbpJHU5imcltOlsILPL1bvRlDaL9ZeN/Yjjyf3ZLEE0hgo94rrnXzM/QIDAQAB
+example.com. 3600 IN TXT "some \"quoted text\" here"
 ```
 
-After creating a TXT record with that content, this is what our system will output when querying the record:
+**Long 2048-bit DKIM public key**
 
+I you provide us:
 ```
-"v=DKIM1;t=s;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1vE7K6XAXKtID2wSBKpHW1cBCghiYvmry5vhYLySPltIpvYvzl5WGAgFTCcOF2QO8BLYvoihjr0oC84LjVt7xO3ZUaG3my3wWQcF0WObJwADl/GawBuum/4lcbJmlLHnqetfGR37WUG+t0NKK+Cz4xRkdtgYPZMYpmNirlhIwHWSNftqD6XI5DEA0LtwCb4gMa""hkWIKhTuukrVoYh58x7vI7g22AHheo+eypvcjx0SrQn9JnoVuL4mEin9FaSaLOGUah842fy3e21LOdB++yDxER4pha2hbpJHU5imcltOlsILPL1bvRlDaL9ZeN/Yjjyf3ZLEE0hgo94rrnXzM/QIDAQAB"
+v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bBy9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB
 ```
-(notice how the `""` sequence on the 4th line marks the end of the first 255 chars-long chunk and the start of the next chunk)
+
+We will store it as:
+```
+"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bBy9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB"
+```
+
+And the DNS record will be resolved as:
+```
+example.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bB" "y9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB"
+```
+(notice it is split into two chunks somewhere in the 4th line by the character sequence `" "`)

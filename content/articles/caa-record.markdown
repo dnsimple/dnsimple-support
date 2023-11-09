@@ -112,7 +112,3 @@ The reference document for the DNS CAA record is the [RFC 8659](https://www.rfc-
 - The provided URL must have one of the following schemes: `mailto`, `http`, or `https`
 - If the URL has the `mailto` scheme, then it must be conform to an email URL as in `mailto:admin@example.com`
 - If the URL has the `http` or `https` schemes, then it must be a valid HTTP/HTTPS URL as in `https://dnsimple.com/report_caa`
-
-## Normalization
-
-No normalization will be performed by our system when dealing with CAA records.
