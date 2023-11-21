@@ -24,5 +24,5 @@ group :development do
 end
 
 group :nanoc do
-  gem 'guard-nanoc'
+  gem 'nanoc-live'
 end
