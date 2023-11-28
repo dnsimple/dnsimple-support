@@ -56,22 +56,7 @@ If you need to provide the IP addresses to your current registrar, use the follo
 
 ## Legacy Name Servers
 
-We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs.
+We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs:
 
-<table>
-<tr>
-<th>Name</th>
-<th>IPv4 Address</th>
-<th>IPv6 Address</th>
-</tr>
-<tr>
-<td>ns2.dnsimple.com</td>
-<td>162.159.25.4</td>
-<td>2400:cb00:2049:1::a29f:1904</td>
-</tr>
-<tr>
-<td>ns4.dnsimple.com</td>
-<td>199.247.155.53</td>
-<td>2620:111:8007::53</td>
-</tr>
-</table>
+- ns2.dnsimple.com
+- ns4.dnsimple.com
