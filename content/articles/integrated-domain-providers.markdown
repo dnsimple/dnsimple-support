@@ -19,7 +19,7 @@ DNSimple supports the ability to manage domains that are registered with other d
 
 ## Supported Features
 
-- **Import integrated domains**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domains page.
+- **Import integrated domains**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domain Names page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, name servers from the DNSimple dashboard.
 - **Register domains via DNSimple**: Learn how to [register](/articles/registering-domain) a domain on your integrated provider via DNSimple.
 - **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain) your domains.
@@ -40,8 +40,8 @@ DNSimple supports domain integration with the providers listed below.
 ![Link an integrated domain provider](/files/account-integrated-domain-provider-link.png)
 1. Fill in any necessary information and credentials for your account at the integrated domain provider.
 ![Enter integrated domain provider credentials](/files/account-integrated-domain-provider-link-credentials.png)
-1. After successfully linking the integrated domain provider, you will be redirected to the Domains page, where you can [manage your integrated domains](/articles/managing-integrated-domains).
-![Domains page](/files/domains.png)
+1. After successfully linking the integrated domain provider, you will be redirected to the Domain Names page, where you can [manage your integrated domains](/articles/managing-integrated-domains).
+![Domain Names page](/files/domain-names.png)
 
 ## Unlinking an Integrated Domain Provider from your account
 
