@@ -25,29 +25,14 @@ The WHOIS Privacy service is now **free** for domains registered with us.
 
 ## Enabling WHOIS Privacy {#enable}
 
-You can enable WHOIS Privacy protection from your domain page or the domain list.
-
-<div class="section-steps" markdown="1">
-##### Enabling WHOIS Privacy from the domain list {#enable-whois-domain-list}
-
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domains</label> tab. Locate the relevant domain, and look for the _shield_ icon. That icon indicates if the WHOIS Privacy protection service is enabled for the domain:
-
-    ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
-
-1.  Click the right arrow icon to open the domain feature menu, then click the <label>Enable WHOIS Privacy</label> link.
-
-    ![Enable WHOIS Privacy](/files/whoisprivacy-domain-list-enable.png)
-
-</div>
+You can enable WHOIS Privacy protection from your domain page.
 
 <div class="section-steps" markdown="1">
 ##### Enabling WHOIS Privacy from the domain page {#enable-whois-domain-page}
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click the name to access the domain page.
+1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click the name to access the domain page.
 1.  Scroll down to the _Contact_ card. It will indicate if the WHOIS Privacy service is enabled.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
@@ -58,28 +43,13 @@ You can enable WHOIS Privacy protection from your domain page or the domain list
 
 ## Disabling WHOIS Privacy {#disable}
 
-You can disable WHOIS Privacy protection from your domain page or the domain list.
+You can disable WHOIS Privacy protection from your domain page.
 
 You can reactivate your domain's WHOIS Privacy protection any time until the protection service expires without paying for it again.
 
 <warning>
 Once you disable WHOIS Privacy protection, the contact details of your domain will be public.
 </warning>
-
-<div class="section-steps" markdown="1">
-##### Disabling WHOIS Privacy from the domain list {#disable-whois-domain-list}
-
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domains</label> tab. Locate the relevant domain, and look for the _shield_ icon. That icon will indicate if the WHOIS Privacy protection service is enabled for the domain:
-
-    ![Whois privacy in domain list](/files/whoisprivacy-domain-list.png)
-
-1.  Click the right arrow icon to open the domain feature menu, then click the <label>Disable WHOIS Privacy</label> link.
-
-    ![Disable WHOIS Privacy](/files/whoisprivacy-domain-list-disable.png)
-
-</div>
 
 <div class="section-steps" markdown="1">
 ##### Disable WHOIS Privacy from the domain page {#disable-whois-domain-page}
