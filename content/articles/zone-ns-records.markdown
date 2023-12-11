@@ -14,7 +14,7 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have multiple accounts, select your account in the navigation bar.
-1.  On the top-nav menu, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  On the top-nav menu, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Switch to the <label>DNS</label> tab.
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
