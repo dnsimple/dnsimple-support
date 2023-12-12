@@ -10,14 +10,6 @@ categories:
 From the Deployment editor page, you can view the records and sync state for zones at DNSimple and any configured [integrated DNS providers](/articles/integrated-dns-providers). The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
-##### Accessing the Deployment Editor from the Zones page
-
-1.  From the [Zones](/articles/managing-integrated-zones) page, click any listed zone to enter the Deployment Editor for that zone.
-
-    ![Zones page](/files/zones-page.png)
-</div>
-
-<div class="section-steps" markdown="1">
 ##### Accessing the Deployment Editor from the Record editor page
 
 1.  From the [Record Editor](/articles/record-editor) page, click the menu icon next to the <label>Record editor<label> heading.
@@ -97,7 +89,7 @@ If you have made changes to your integrated zone records outside of DNSimple, yo
 
    ![Deployment Editor Refresh Records](/files/deployment-editor-refresh-records.png)
 
-Alternatively, you can visit the [Zones](/articles/managing-integrated-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account. 
+Alternatively, you can visit the [Domain Names](/articles/managing-integrated-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account.
 
 ## Syncing zone records between DNS providers {#record-syncing}
 
