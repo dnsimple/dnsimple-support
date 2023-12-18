@@ -34,10 +34,10 @@ For both options, the process of adding the domain to DNSimple is the same.
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add Domain</label> from the Dashboard.
+1.  Click <label>Add</label> from the Dashboard.
   ![Adding a domain button](/files/add-a-domain.png)
-1.  Choose <label>Use DNSimple services</label> from the provided options.
-  ![Adding a domain](/files/adding-a-domain.png)
+1.  Choose <label>DNS zone</label> from the provided options.
+  ![Adding a domain](/files/add-button-dns-zone.png)
 
 You'll then be prompted for the name of the domain you want to add to your account.
 
