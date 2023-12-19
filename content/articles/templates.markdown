@@ -16,7 +16,7 @@ categories:
 
 Templates are reusable groups of DNS records that can be applied to any of your domains. They speed up the entry of DNS records and reduce possible mistakes like typos and other errors.
 
-You can access your templates at any time for the top navigation bar, next to your domains and contacts.
+You can access your templates at any time from the top navigation bar, next to your domains and contacts.
 
 
 ## Creating a template

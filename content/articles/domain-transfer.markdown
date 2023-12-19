@@ -47,8 +47,8 @@ At your current Registrar:
 
 At DNSimple:
 
-1. Log in to DNSimple and click on <label>Add a Domain</label>.
-1. Select <label>transfer a domain</label>.
+1. Log in to DNSimple and click on <label>Add</label> in the dashboard.
+1. Select <label>Transfer domain</label>.
 1. You can also enable "Whois Privacy Protection" by checking the "Enable WHOIS Privacy Protection" check box, so it's enabled immediately upon completion of the transfer.
 1. Click <label>Transfer Domain</label>
 - Select a registrant, enter your authorization code if it's required, and fill in any extended attributes.

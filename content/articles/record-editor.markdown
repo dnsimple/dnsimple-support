@@ -21,10 +21,6 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 
 ## Locating the record editor
 
-To access the record editor from your dashboard, click on the records icon.
-
-![Record Editor from the domain list](/files/rec-editor-access.png)
-
 To access the record editor from the domain page, click on the records icon.
 
 ![Record Editor from the domain page](/files/rec-editor-domain-page.png)

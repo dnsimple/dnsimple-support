@@ -15,20 +15,20 @@ From the Domains page, you can view the refreshed state of your DNSimple domains
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
-1.  On the header, click the <label>Domains</label> tab.
-1.  On the Domains page, you can browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Provider" column. For example, domains imported from GoDaddy would have a "GoDaddy" label under the "Provider column". You can click on any domain in the list to visit its manage page.
+1.  On the header, click the <label>Domain Names</label> tab.
+1.  On the Domain Names page, you can browse your integrated domains alongside DNSimple domains. Integrated domains are marked by a label under the "Domain Registration" column. For example, domains imported from GoDaddy would have a "GoDaddy" label under the "Domain Registration". You can click on any domain in the list to visit its manage page.
 
     ![Integrated domains](/files/integrated-domains.png)
 </div>
 
 ## Refreshing integrated domains {#refreshing-integrated-domains}
 
-Loading the Domains page automatically refreshes the current state of integrated domains and imports any new domains from linked integrated domain providers.
+Loading the Domain Names page automatically refreshes the current state of integrated domains and imports any new domains from linked integrated domain providers.
 
 
 ## Managing an integrated domain {#managing-an-integrated-domain}
 
-Click any integrated domain in the list of domains on the Domains page to go to that domain's manage page.
+Click any integrated domain in the list of domains on the Domain Names page to go to that domain's manage page.
 
 ![Navigate to an integrated domain](/files/integrated-domain-manage.png)
 

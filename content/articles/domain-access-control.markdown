@@ -29,7 +29,7 @@ With the Domain Access Control feature, you can set the level of access for each
 
 ## Setting access for a team member
 
-To set a team member's role for multiple domains at once, go to the Account > Members page. Click on the Manage Access button to configure the team member's access. You can give the team member [Full Access](#full-access) or [Limited Access](#limited-access). 
+To set a team member's role for multiple domains at once, go to the Account > Members page. Click on the Manage Access button to configure the team member's access. You can give the team member [Full Access](#full-access) or [Limited Access](#limited-access).
 
 ![Account Member's Page](/files/domain-access-control-members-page.png)
 
@@ -51,7 +51,7 @@ If you specify "Limited Access" when inviting a team member, the new team member
 
 ## Setting access for a domain
 
-You can set up the Domain Access Control feature for any individual domain by going to the Example.com > Members page. There, you'll see a list of all team members along with their current role and be able to update their access.
+You can set up the Domain Access Control feature for any individual domain by going to the Example.com > Access Control page. There, you'll see a list of all team members along with their current role and be able to update their access.
 
 ![Domain's Member Page](/files/domain-access-control-domain-page.png)
 

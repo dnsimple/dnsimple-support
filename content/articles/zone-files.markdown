@@ -32,7 +32,7 @@ Importing a zone file won't delete or replace the existing domain's records.
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
-1.  On the header, click on the <label>Domains</label> tab.
+1.  On the header, click on the <label>Domain Names</label> tab.
 1.  Locate the relevant domain, and click on the name to access the domain page.
 1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
 1.  Click on the <label>Import</label> link inside the zones card.
@@ -62,7 +62,7 @@ Non-standard records, like [ALIAS](/articles/alias-record) and [POOL](/articles/
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
-1.  On the header click on the <label>Domains</label> tab.
+1.  On the header click on the <label>Domain Names</label> tab.
 1.  Locate the relevant domain, and click on the name to access the domain page.
 1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
 1.  Click on the <label>Export</label> link inside the zones card. This creates a text file that you can save on your computer.

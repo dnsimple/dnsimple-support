@@ -37,7 +37,7 @@ If you want to assign a new contact to one of your domains, create the new conta
 
 1.  Fill in the form with the new contact information, and click <label>Add contact</label>.
 1.  Go to your domain page.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, then click the name to access the domain page.
+1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, then click the name to access the domain page.
 
     ![Domain Page link](/files/domains-domain-link.png)
 
