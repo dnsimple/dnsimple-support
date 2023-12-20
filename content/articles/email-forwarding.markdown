@@ -31,6 +31,15 @@ When you enable email forwarding, we will automatically add the various DNS reco
 
 ## Creating an email forward
 
+<div class="section-steps" markdown="1">
+##### Adding an email forward from the dashboard
+
+1.  Log in to DNSimple with your user credentials.
+1.  If you have more than one account, select the relevant one.
+1.  Click <label>Add</label> from the Dashboard and choose <label>Email forward</label> from the provided options.
+  ![Adding an email forward](/files/add-button-email-forward.png)
+</div>
+
 To create an email forward you need to specify the **From** and **To** fields.
 
 ![Email forwarding creation](/files/email-forwarding-setup.png)
@@ -38,6 +47,10 @@ To create an email forward you need to specify the **From** and **To** fields.
 The **From** field is used to match an email address to forward from. Enter a specific name (such as `support`) without the domain.
 
 In the **To** field, enter the full email address that you want to forward the email to.
+
+<info>
+  When adding an email forward from the dashboard, you will need to select the zone to apply it to in the **From** field. Note that only zones resolving through DNSimple will be included in the list.
+</info>
 
 ### Catch-all emails
 
