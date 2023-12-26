@@ -19,7 +19,7 @@ DNSimple supports the ability to synchronize, manage, and view zones that are de
 
 ## Supported Features
 
-- **Import integrated zones**: When you link an integrated DNS provider to your DNSimple account, zones hosted on that integrated DNS provider will be imported into DNSimple and listed on the [Zones](/articles/managing-integrated-zones) page.
+- **Import integrated zones**: When you link an integrated DNS provider to your DNSimple account, zones hosted on that integrated DNS provider will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
 - **Manage integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor).
 - **Sync integrated zone records**: Sync your zone records from the integrated zone to DNSimple, or from DNSimple to the integrated zone, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
@@ -49,7 +49,7 @@ However, record fields not supported by DNSimple or the destination provider may
 1. Fill in any required paramaters for the integrated DNS provider configuration.
 1. Fill in any necessary credentials for your account at the integrated DNS provider.
 ![Enter integrated DNS provider credentials](/files/account-external-provider-link-credentials.png)
-1. After successfully linking the integrated DNS provider, you will arrive back on the DNSimple Integrated Providers page with the integrated DNS provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Zones](/articles/managing-integrated-zones) page, and manage and sync integrated zone records from the [Deployment Editor](/articles/deployment-editor).
+1. After successfully linking the integrated DNS provider, you will arrive back on the DNSimple Integrated Providers page with the integrated DNS provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Domain Names](/articles/managing-integrated-zones) page, and manage and sync integrated zone records from the [Deployment Editor](/articles/deployment-editor).
 ![Account integrated providers list](/files/account-integrated-providers.png)
 
 ## Unlinking an Integrated DNS Provider from your account
