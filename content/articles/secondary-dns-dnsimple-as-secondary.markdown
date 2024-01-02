@@ -36,7 +36,7 @@ Create a secondary zone by heading to the account dashboard. Select the <label>D
 
 ![Seconary DNS tab](/files/domain-names-tab.png)
 
-Click the <label>Add new</label> button and choose <label>Secondary DNS zone (with DNSimple as follower)</label> from the provided options.
+Click the <label>Add new</label> button, and choose <label>Secondary DNS zone (with DNSimple as follower)</label> from the provided options.
 
 ![Add new Secondary DNS Zone](/files/add-new-button-secondary-dns-with-dnsimple-as-follower.png)
 
