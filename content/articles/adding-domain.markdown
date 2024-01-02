@@ -7,14 +7,14 @@ categories:
 
 # Adding a Domain
 
-When adding a domain to your account, you can choose to register a new domain, transfer an existing domain you own from another registrar, or create a DNS Zone to use our DNS service if you plan to keep your domain at your current registrar.
+When adding a domain to your account, you can register a new domain, transfer an existing domain you own from another registrar, or create a DNS Zone to use our DNS service if you plan to keep your domain at your current registrar.
 
 <div class="section-steps" markdown="1">
 ##### To add a domain
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add</label> from the Dashboard and choose the correct flow for your needs.
+1.  Click <label>Add</label> from the Dashboard, and choose the correct flow for your needs.
   ![Adding a domain button](/files/add-a-domain.png)
 </div>
 
