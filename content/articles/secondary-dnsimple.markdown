@@ -45,7 +45,7 @@ Alternatively, you can add a secondary DNS zone with manual replication from you
 
 1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add</label> from the Dashboard and choose <label>Secondary DNS zone (with manual replication)</label> from the provided options.
+1.  Click <label>Add</label> from the Dashboard, and choose <label>Secondary DNS zone (with manual replication)</label> from the provided options.
   ![Adding a secondary DNS zone with manual replication](/files/add-button-secondary-dns-manual-replication.png)
 1.  Enter the <label>Zone name</label> and <label>Name servers</label>.
 1.  Click <label>Save</label>.
