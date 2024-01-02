@@ -16,7 +16,7 @@ From the Domain Names page, you can view the refreshed state of your DNSimple zo
 
     ![Domain Names Tab](/files/domain-names-tab.png)
 
-1.  On the <label>Domain Names</label> page, the zones in your DNSimple account as well as zones from [integrated DNS providers](/articles/integrated-dns-providers) will be listed. You can click any linked zone to enter the [Deployment Editor](/articles/deployment-editor) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
+1.  On the <label>Domain Names</label> page, the zones in your DNSimple account and zones from [integrated DNS providers](/articles/integrated-dns-providers) will be listed. Click any linked zone to enter the [Deployment Editor](/articles/deployment-editor) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
 
     ![Domain Names Integrated Zones Table](/files/domain-names-integrated-zones.png)
 </div>
