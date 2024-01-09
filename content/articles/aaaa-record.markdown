@@ -54,6 +54,17 @@ In DNSimple, the AAAA record is represented by the following customizable elemen
 | Address | The IPv6 address the AAAA record points to.                                                                                                |
 
 
+## AAAA record normalization
+
+Because the same IPV6 address [can be represented in different ways](https://wikipedia.org/wiki/IPv6_address#Representation) DNSimple normalizes the IPV6 address to the canonical form, as described in [RFC 5952 section 4](https://www.rfc-editor.org/rfc/rfc5952.html#section-4).
+
+Some examples:
+- If you provide the IPv6 address `2001:0000:0000:00FE:0000:0000:0000:CDEF` we will store it as `2001:0:0:fe::cdef`.
+- If you provide the IPv6 address `2001:0db8::0001:0000` we will store it as `2001:db8::1:0`.
+- If you provide the IPv6 address `2001:db8:0:0:0:0:2:1` we will store it as `2001:db8::2:1`.
+- If you provide the IPv6 address `::ffff:c000:0280` we will store it as `::ffff:192.0.2.128`.
+
+
 ## Querying AAAA records
 
 You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
