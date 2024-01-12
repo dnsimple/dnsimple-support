@@ -32,9 +32,13 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 ## Adding a Secondary Zone
 
-Create a secondary zone by heading to the account dashboard. Select the Secondary Zones tab.
+Create a secondary zone by heading to the account dashboard. Select the <label>Domain Names</label> tab.
 
-![Seconary DNS tab](/files/secondary-dns-tab.png)
+![Seconary DNS tab](/files/domain-names-tab.png)
+
+Click the <label>Add new</label> button, and choose <label>Secondary DNS zone (with DNSimple as follower)</label> from the provided options.
+
+![Add new Secondary DNS Zone](/files/add-new-button-secondary-dns-with-dnsimple-as-follower.png)
 
 Enter the domain name for which you want to set DNsimple as secondary DNS provider.
 

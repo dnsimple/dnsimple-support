@@ -18,7 +18,7 @@ When you [delete a domain](/articles/deleting-domain) that you registered throug
 ##### To recover a registered domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Use domain services_.
+1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Add DNS zone_.
 1.  [Contact us](/articles/dnsimple-support) over support indicating that you want to recover a domain registered with DNSimple and what domain it is.
 
 </div>
@@ -32,6 +32,6 @@ To recover a domain that's registered with an external registrar, add the domain
 ##### To recover a hosted domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Use domain services_.
+1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Add DNS zone_.
 
 </div>

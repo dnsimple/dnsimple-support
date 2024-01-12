@@ -25,7 +25,7 @@ DNSimple supports the ability to view and manage zones that are deployed at [Ama
 
 ## Supported Features
 
-- **Import integrated zones**: When you link Route 53 to your DNSimple account, all the zones hosted on Route 53 will be imported into DNSimple and listed on the [Zones](/articles/managing-integrated-zones) page.
+- **Import integrated zones**: When you link Route 53 to your DNSimple account, all the zones hosted on Route 53 will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor). (See: The list of supported record types for Route 53)
 - **2-way Syncing of Records**: Sync your zone records from Route 53 to DNSimple, or from DNSimple to Route 53, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
