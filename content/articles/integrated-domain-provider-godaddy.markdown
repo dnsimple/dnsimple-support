@@ -37,6 +37,7 @@ To link [GoDaddy](https://www.godaddy.com) as an integrated domain provider, you
 
 - An [API key and API secret](https://developer.godaddy.com/keys) for the Production GoDaddy environment
 - The [customer number](https://godaddy.com/help/what-is-my-customer-number-20038) of your GoDaddy account
+- If you want to register domains, you will need a [Good as Gold account](https://godaddy.com/help/what-is-good-as-gold-3359) set up with GoDaddy
 
 ## Invoice and billing
 
