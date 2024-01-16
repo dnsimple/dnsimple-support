@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers#linking-integrated-domain-provider) your GoDaddy account as an [integrated domain provider](/articles/integrated-domain-providers) to DNSimple.
+DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers#linking-integrated-domain-provider) your GoDaddy account as an [Integrated Domain Provider](/articles/integrated-domain-providers) to DNSimple.
 
 ## Video Walk-through
 
@@ -25,7 +25,7 @@ DNSimple supports the ability to manage domains that are registered through [GoD
 
 ## Supported Features
 
-- **Import integrated domains**: When you link an integrated domain provider to your DNSimple account, domains registered via that integrated domain provider will be imported into DNSimple and listed on the Domains page.
+- **Import integrated domains**: When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domains page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, and name servers from the DNSimple dashboard.
 - **Register domains via DNSimple**: Learn how to [register](/articles/registering-domain) a domain on GoDaddy via DNSimple.
 - **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain) domains.
@@ -33,7 +33,7 @@ DNSimple supports the ability to manage domains that are registered through [GoD
 
 ## Prerequisites
 
-To link [GoDaddy](https://www.godaddy.com) as an integrated domain provider, you need:
+To link [GoDaddy](https://www.godaddy.com) as an Integrated Domain Provider, you need:
 
 - An [API key and API secret](https://developer.godaddy.com/keys) for the Production GoDaddy environment
 - The [customer number](https://godaddy.com/help/what-is-my-customer-number-20038) of your GoDaddy account
