@@ -54,7 +54,7 @@ In DNSimple, the AAAA record is represented by the following customizable elemen
 | Address | The IPv6 address the AAAA record points to.                                                                                                |
 
 
-## AAAA record normalization
+## Formatting
 
 Because the same IPV6 address [can be represented in different ways](https://wikipedia.org/wiki/IPv6_address#Representation), DNSimple normalizes the IPV6 address to the canonical form, as described in [RFC 5952 section 4](https://www.rfc-editor.org/rfc/rfc5952.html#section-4).
 
