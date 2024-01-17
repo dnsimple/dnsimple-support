@@ -50,7 +50,7 @@ The RFC 1035 allows text that doesn't include whitespace to be left unwrapped, b
 
 On top of that, we will also check the content you provide is at most 1000 characters in size.
 
-## Serialization
+## Formatting
 
 Our system stores the serialized version of TXT records (we do that for all the DNS record types, actually), but we don't expect you to provide serialized TXT records to create or update them in our system because it can get complicated and error-prone very easily.
 
