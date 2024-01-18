@@ -44,7 +44,7 @@ As many CAA records as needed can be created on the same name to describe any de
 
 CAA records with the `iodef` tag can be created to request CAs to report any policy violations through email or HTTP/HTTPS callback URLs. 
 
-## CAA record usage examples
+## CAA record examples {#record-examples}
 
 **Allow Let's Encrypt to issue on `example.com`**
 ```
