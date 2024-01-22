@@ -1,29 +1,29 @@
 ---
 title: Deployment Editor
-excerpt: Manage and sync the DNS records of a zone at DNSimple and/or integrated DNS providers.
+excerpt: Manage and sync the DNS records of a zone at DNSimple and/or Integrated DNS Providers.
 categories:
 - DNS
 ---
 
 # Deployment Editor
 
-From the Deployment editor page, you can view the records and sync state for zones at DNSimple and any configured [integrated DNS providers](/articles/integrated-dns-providers). The Deployment editor page groups records together so you can easily see which records are at which DNS provider(s).
+From the Deployment Editor page, you can view the records and sync state for zones at DNSimple and any configured [Integrated DNS Providers](/articles/integrated-dns-providers). The Deployment Editor page groups records together so you can easily see which records are at which DNS provider(s).
 
 <div class="section-steps" markdown="1">
-##### Accessing the Deployment Editor from the Record editor page
+##### Accessing the Deployment Editor from the Record Editor page
 
 1.  From the [Record Editor](/articles/record-editor) page, click the menu icon next to the <label>Record editor<label> heading.
 
     ![Deployment Editor Link](/files/deployment-editor-from-record-editor.png)
 
-1.  In the popup menu, click the <label>View as Deployment editor</label> link to navigate to the <label>Deployment Editor</label> page.
+1.  In the popup menu, click the <label>View as Deployment Editor</label> link to navigate to the <label>Deployment Editor</label> page.
 
     ![Deployment Editor](/files/deployment-editor-link-menu.png)
 </div>
 
 ## Managing zone records in the Deployment Editor
 
-On the Deployment editor page, you can see which records are present at which DNS provider(s).
+On the Deployment Editor page, you can see which records are present at which DNS provider(s).
 
 ![Managing zone records in the deployment editor](/files/deployment-editor-manage-records.png)
 
@@ -34,11 +34,11 @@ In the deployment editor, you can add a zone record to one or more DNS providers
 <div class="section-steps" markdown="1">
 ##### Adding a record
 
-1.  From the Deployment Editor page, click the <label>Add record</label> button and choose the type of record you're adding.
+1.  From the Deployment Editor page, click the <label>Add Record</label> button and choose the type of record you're adding.
 
     ![Deployment Editor Add Record button](/files/deployment-editor-add-record-button.png)
 
-1.  Enter the required infomation and press <label>Add Record</label> to create the record. For each DNS provider the record should be added to, ensure the corresponding checkbox is checked. Note the record note will only be saved if DNSimple is one of the selected providers.
+1.  Enter the required infomation, and press <label>Add Record</label> to create the record. For each DNS provider the record should be added to, ensure the corresponding checkbox is checked. Note the record note will only be saved if DNSimple is one of the selected providers.
 
     ![Deployment Editor Add Record](/files/deployment-editor-add-record.png)
 </div>
@@ -62,7 +62,7 @@ You can update a zone record at one or more DNS providers from the Deployment Ed
 
     ![Deployment Editor Update Record button](/files/deployment-editor-edit-record-button.png)
 
-1.  Enter the required infomation and press <label>Update Record</label> to update the record. For each DNS provider the record should be updated at, ensure the corresponding checkbox is checked. For any selected DNS provider, if the record didn't already exist there, it will be added to the provider.  Note the record note will only be saved if DNSimple is one of the selected providers.
+1.  Enter the required infomation, and press <label>Update Record</label> to update the record. For each DNS provider the record should be updated at, ensure the corresponding checkbox is checked. For any selected DNS provider, if the record didn't already exist there, it will be added to the provider.  Note the record note will only be saved if DNSimple is one of the selected providers.
 
     ![Deployment Editor Update Record](/files/deployment-editor-edit-record.png)
 </div>
