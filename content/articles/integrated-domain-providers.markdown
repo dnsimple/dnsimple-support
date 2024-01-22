@@ -17,7 +17,7 @@ categories:
 
 DNSimple supports the ability to manage domains that are registered with other domain providers external to DNSimple. DNSimple calls such providers "Integrated Domain Providers".
 
-## Supported Features
+## Supported features
 
 - **Import integrated domains**: When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domain Names page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, name servers from the DNSimple dashboard.
