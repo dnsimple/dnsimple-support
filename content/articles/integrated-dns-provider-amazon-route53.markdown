@@ -17,13 +17,13 @@ categories:
 
 DNSimple supports the ability to view and manage zones that are deployed at [Amazon Route 53](https://aws.amazon.com/route53/).
 
-## Video Walk-through
+## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/4LsTT0pgBaQ" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Supported Features
+## Supported features
 
 - **Import integrated zones**: When you link Route 53 to your DNSimple account, all the zones hosted on Route 53 will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor). (See: The list of supported record types for Route 53)
@@ -31,7 +31,7 @@ DNSimple supports the ability to view and manage zones that are deployed at [Ama
 
 ## Prerequisites
 
-To link [Amazon Route 53](https://aws.amazon.com/route53/) as an integrated DNS provider, you need:
+To link [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated DNS Provider, you need:
 
 - An [AWS access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) for an AWS user with permission to manage public hosted zones at Route 53, including these permissions:
   - route53:ListHostedZones
@@ -43,7 +43,7 @@ To link [Amazon Route 53](https://aws.amazon.com/route53/) as an integrated DNS 
   - route53:DeleteHostedZone
 - Administrator access to a DNSimple account
 
-## Supported Record Types
+## Supported record types
 
 The following Route 53 record types are supported for syncing and management at DNSimple:
 
