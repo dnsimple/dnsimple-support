@@ -18,7 +18,6 @@ When applicable, we recommend opting for our "auto-renew" feature to avoid your 
 1. Click Add from your Dashboard in the appropriate account's card if you have more than one.
 1. Click Register domain
 1. Fill out the domain name.
-1. If you have linked an [Integrated Domain Provider](/articles/integrated-domain-providers), you can choose to register your domain through them or through DNSimple.
 1. Choose whether you'd like Whois Privacy Protection or auto-renewal on the domain (if applicable).
 1. Click Register Domain.
 1. Provide contact details for the registrant of the domain, or choose a contact from those you've already created.
