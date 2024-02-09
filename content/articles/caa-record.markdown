@@ -35,8 +35,12 @@ See the [validations](#validation) section for more details about accepted value
 ## Policies restricting certificate issuance to specific types and CAs
 
 CAA records can control the issuance of single-name certificates, wildcard certificates, or both, though the `issue` and `issuewild` tags:
-- `issue` sets a policy for single-name certificate issuance.
-- `issuewild` sets a policy for wildcard and single-name certificate issuance and overrides any `issue` policy set on the same name.
+- `issue` sets a policy for for single-name **and** wildcard certificate issuance.
+- `issuewild` sets a policy for wildcard certificate issuance.
+
+<warning>
+When requesting a certificate for a wildcard domain name, an `issuewild` policy overrides any `issue` policies in the same name.
+</warning>
 
 As many CAA records as needed can be created on the same name to describe any desired set of restrictions for CAs.
 
@@ -65,9 +69,14 @@ example.com.  CAA 0 issue "letsencrypt.org"
 example.com.  CAA 0 issuewild "sectigo.com"
 ```
 
-<info>
-The presence of `issuewild` overrides any CAA record with the `issue` tag in the same name.
-</info>
+**Complex permissions for Let's Encrypt**
+
+```
+example.com.  CAA 0 issue "letsencrypt.org;validationmethods=dns-01"
+example.com.  CAA 0 issuewild "letsencrypt.org"
+```
+
+With this setup, Let's Encrypt can issue single-name certificates for example.com using the DNS validation method, while allowing any validation method for wildcard certificates.
 
 **Request notification of policy violations by email**
 ```
