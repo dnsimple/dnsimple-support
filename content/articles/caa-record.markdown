@@ -35,7 +35,7 @@ See the [validations](#validation) section for more details about accepted value
 ## Policies restricting certificate issuance to specific types and CAs
 
 CAA records can control the issuance of single-name certificates, wildcard certificates, or both, though the `issue` and `issuewild` tags:
-- `issue` sets a policy for for single-name **and** wildcard certificate issuance.
+- `issue` sets a policy for single-name **and** wildcard certificate issuance.
 - `issuewild` sets a policy for wildcard certificate issuance.
 
 <warning>
