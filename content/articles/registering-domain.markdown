@@ -11,6 +11,8 @@ There are **two** reasons to register a domain with DNSimple: when it's a newly 
 
 When applicable, we recommend opting for our "auto-renew" feature to avoid your domain expiring if you plan to retain ownership.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WqhV6OgSEtQ?si=bRK8Ap4GIXiuIdgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <div class="section-steps" markdown="1">
 ##### To register a domain
 
