@@ -44,7 +44,7 @@ compile '/**/*.html' do
   layout '/default.*'
 end
 
-compile '/**/*.markdown' do
+compile '/**/*.md' do
   filter :erb
   filter :preprocess
   filter :kramdown, toc_levels: [2], syntax_highlighter: nil, input: "GFM"
@@ -83,7 +83,7 @@ route '/robots.*' do
   item.identifier.without_ext
 end
 
-route '/**/*.{html,markdown}' do
+route '/**/*.{html,md}' do
   if item.identifier =~ '/index.*'
     '/index.html'
   else
