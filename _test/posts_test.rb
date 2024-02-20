@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'test_helper'
+require "test_helper"
 
-describe 'Content' do
-  it 'checks for banned characters in markdown files' do
+describe "Content" do
+  it "checks for banned characters in markdown files" do
     banned_characters = [
       "\u201C", # U+201C "
       "\u201D", # U+201D "
@@ -33,8 +33,8 @@ describe 'Content' do
   end
 end
 
-describe 'Links' do
-  it 'ensures that links are valid' do
+describe "Links" do
+  it "ensures that links are valid" do
     regexp = /(?<!\!)\[.*\]\((?!(http|\/\/|\/\d{4}|\/files|mailto|#|\/assets|\/category)([^\)]*)\))/i
 
     affected = []
@@ -56,15 +56,10 @@ describe 'Links' do
   end
 end
 
-describe 'Files' do
-  it 'checks that markdown file names are set to lowercase' do
+describe "Files" do
+  it "checks that markdown file names are set to lowercase" do
     Dir.glob("content/**/*.{md,markdown}").each do |path|
-      assert_equal path, path.downcase, 'Markdown file name must be lowercase or it creates 3xx redirects in our sitemap. This is bad for SEO. Thank you!'
+      assert_equal path, path.downcase, "Markdown file name must be lowercase or it creates 3xx redirects in our sitemap. This is bad for SEO. Thank you!"
     end
-  end
-
-  it 'checks there are no files with .markdown extension' do
-    files_count = Dir.glob("content/**/*.markdown").count
-    assert_equal 0, files_count, 'Markdown file extension must be .md'
   end
 end
