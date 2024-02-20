@@ -35,7 +35,7 @@ end
 
 describe "Links" do
   it "ensures that links are valid" do
-    regexp = /(?<!\!)\[.*\]\((?!(http|\/\/|\/\d{4}|\/files|mailto|#|\/assets|\/category)([^\)]*)\))/i
+    regexp = /(?<!\!)\[.*\]\((?!(http|\/articles|\/categories|\/files|#|mailto))[^\)]*\)/
 
     affected = []
 
