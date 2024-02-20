@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-describe 'Image sizes' do
+describe 'Images' do
   it 'checks that image sizes are not over 500 KB' do
     Dir.glob('content/files/**/*.{jpg,jpeg,png}').each do |file|
       size_kb = File.size(file) / 1000

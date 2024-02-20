@@ -21,5 +21,4 @@ describe 'Sub categories' do
 
     assert_equal result['Other'][0], fake_article
   end
-
 end
