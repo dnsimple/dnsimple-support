@@ -18,7 +18,7 @@ describe "Content" do
     regexp   = /[#{banned_characters.join}]/
     affected = []
 
-    Dir.glob("content/**/*.{md,markdown}").each do |path|
+    Dir.glob("content/**/*.md").each do |path|
       File.readlines(path).each do |line|
         affected << [path, line] if regexp.match(line)
       end
@@ -39,7 +39,7 @@ describe "Links" do
 
     affected = []
 
-    Dir.glob("content/**/*.{md,markdown}").each do |path|
+    Dir.glob("content/**/*.md").each do |path|
       next unless File.file?(path)
 
       File.readlines(path).each do |line|
@@ -58,8 +58,13 @@ end
 
 describe "Files" do
   it "checks that markdown file names are set to lowercase" do
-    Dir.glob("content/**/*.{md,markdown}").each do |path|
+    Dir.glob("content/**/*.md").each do |path|
       assert_equal path, path.downcase, "Markdown file name must be lowercase or it creates 3xx redirects in our sitemap. This is bad for SEO. Thank you!"
     end
+  end
+
+  it "checks there are no files with .markdown extension" do
+    files_count = Dir.glob("content/**/*.markdown").count
+    assert_equal 0, files_count, "Markdown file extension must be .md"
   end
 end
