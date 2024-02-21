@@ -1,6 +1,6 @@
 ---
-title: Getting Started - DNSimple Domain List
-excerpt: How to use the DNSimpel Domain List to manage your domains.
+title: Getting to know your DNSimple Domain List
+excerpt: How to use the DNSimple Domain List to manage your domains.
 categories:
 - DNSimple
 ---
