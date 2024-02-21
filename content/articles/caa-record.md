@@ -34,9 +34,11 @@ See the [validations](#validation) section for more details about accepted value
 
 ## Policies restricting certificate issuance to specific types and CAs
 
-CAA records can control the issuance of single-name certificates, wildcard certificates, or both, though the `issue` and `issuewild` tags:
-- `issue` sets a policy for single-name **and** wildcard certificate issuance.
-- `issuewild` sets a policy for wildcard certificate issuance.
+CAA records can control the issuance of domain name certificates as well S/MIME certificates, using the following tags:
+
+- `issue` sets a policy for domain single-name **and** TLS/SSL wildcard certificate issuance.
+- `issuewild` sets a policy for domain wildcard certificate issuance.
+- `issuemail` sets a policy for S/MIME certificate issuance (see [RFC 9495](https://datatracker.ietf.org/doc/rfc9495/)).
 
 <warning>
 When requesting a certificate for a wildcard domain name, an `issuewild` policy overrides any `issue` policies in the same name.
@@ -46,7 +48,7 @@ As many CAA records as needed can be created on the same name to describe any de
 
 ## Policy requesting notifications on policy violations
 
-CAA records with the `iodef` tag can be created to request CAs to report any policy violations through email or HTTP/HTTPS callback URLs. 
+CAA records with the `iodef` tag can be created to request CAs to report any policy violations through email or HTTP/HTTPS callback URLs.
 
 ## CAA record examples {#record-examples}
 
@@ -79,28 +81,43 @@ example.com.  CAA 0 issuewild "letsencrypt.org"
 With this setup, Let's Encrypt can issue single-name certificates for example.com using the DNS validation method, while allowing any validation method for wildcard certificates.
 
 **Request notification of policy violations by email**
+
 ```
 example.com.  CAA 0 iodef "mailto:example@example.com"
 ```
 
-**Disallow issuance of any certificates in a name**
+**Disallow issuance of domain name certificates in a name**
+
 ```
 example.com.  CAA 0 issue ";"
 ```
 
+**Disallow issuance of S/MIME certificates in a name**
+
+```
+example.com.  CAA 0 issuemail ";"
+```
+
+**Disallow issuance of any certificates in a name**
+
+```
+example.com.  CAA 0 issue ";"
+example.com.  CAA 0 issuemail ";"
+```
+
 ## Validation
 
-The reference document for the DNS CAA record is the [RFC 8659](https://www.rfc-editor.org/rfc/rfc8659.html).
+The reference document for the DNS CAA record are the [RFC 8659](https://datatracker.ietf.org/doc/html/rfc8659) for domain name certificates, and [RFC 9495](https://datatracker.ietf.org/doc/rfc9495/) for S/MIME certificates.
 
 - The `flag` must be a number between `0` and `255`, `0` being the most commonly used value.
-- The `tag` must be one of `issue`, `issuewild`, or `iodef`.
+- The `tag` must be one of `issue`, `issuewild`, `issuemail`, or `iodef`.
 - The `value` part:
     - It must be wrapped between double quotes `"`.
     - There are no length restrictions on this part.
     - Any inner double quotes `"` must be escaped with the `\"` character sequence.
     - Based on the specific `tag` value, it must follow the extra rules described below:
 
-#### `issue` and `issuewild` tag `value`
+#### `issue`, `issuewild`, `issuemail` tag value
 
 - It must contain a domain name.
 - The domain name can be followed by a list of parameters with the following pattern:
@@ -115,7 +132,7 @@ The reference document for the DNS CAA record is the [RFC 8659](https://www.rfc-
    0 issue ";"
    ```
 
-#### `iodef` tag `value`
+#### `iodef` tag value
 
 - It must contain a URL.
 - The provided URL must have one of the following schemes: `mailto`, `http`, or `https`.
