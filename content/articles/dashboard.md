@@ -10,33 +10,35 @@ categories:
 
 Your DNSimple Dashboard contains all of the important highlights for each of your DNSimple accounts: important messages, account overviews and account activity.
 
+![](/files/dashboard-account-cards.png)
+
 ## Important messages
 
 If you have important messages, they'll appear at the top of your dashboard, giving you full visibility of domains that have expired or need your attention.
 
-SCREENSHOT
+![](/files/dashboard-important-reminder.png)
 
 Under these messages, you'll find snapshots for every account you have access to as an authorized user. 
 
-SCREENSHOT
+![](/files/dashboard-account-card.png)
 
 If you have more than one account, or if you started to create a new account and haven't completed it yet, it will appear like this:
 
-SCREENSHOT
+![](/files/dashboard-multiple-account-card.png)
 
 ## Account overview
 
 Each account has its own corresponding square on the dashboard. You'll see the [name of the account](/articles/changing-account-information/#changing-other-account-data) in the upper left corner of the square and the [plan type](/articles/changing-account-information/#changing-other-account-data) this specific account is subscribed to. 
 
-SCREENSHOT
+![](/files/dashboard-account-name.png)
 
 To the right, you'll find an **Add** dropdown. This expands to a list of shortcuts, making it even easier to manage and add new domains quickly. If you select an option that is not available on your [current plan](/articles/dnsimple-plans), you will be directed to a page advising you of this after selecting the option.
 
-SCREENSHOT
+![](/files/dashboard-card-add-dropdown.png)
 
 Below, you'll see a breakdown of what is currently in each account.
 
-SCREENSHOT
+![](/files/dashboard-account-card-category.png)
 
 **Registered Domains** - the number of domains registered with DNSimple, or with an integrated provider. 
 **DNS Zones** - the number of [currently active](/articles/managing-integrated-zones/) domains. This includes zones resolving with DNSimple or with an Integrated Provider.  
@@ -54,8 +56,6 @@ As your account lists grow, you'll notice a "Search By Account Name" bar above t
 ### Latest activity
 
 The Latest activity section on your DNSimple Dashboard provides a view of activity across all accounts in which you're an authorized user.
-
-SCREENSHOT
 
 Similar to the activity view, the information displayed highlights the *Type, Event, Text, User, Date, and Account*. Each is linked to the individual event listed, so you can see information specific to an account without scrolling back up to the account card.
 To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#activity-tracking-at-the-account-level). From the individual account and domain activity views, you can filter based on events to easily find what you need. 

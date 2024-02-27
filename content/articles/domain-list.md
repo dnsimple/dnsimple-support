@@ -15,15 +15,13 @@ There are three ways to access the list of domain names within each account:
 
 Select Registered Domains or DNS Zones from the account you want to view in your DNSimple Dashboard.
 
-SCREENSHOT
+![](/files/domain-list-account-card-selection.png)
 
 Select the account from the top navigation bar.
 
-SCREENSHOT
-
 If you're already in the account but on another page, select Domain Names from the account navigation bar.
 
-SCREENSHOT
+![](/files/domain-list-domain-name-arrow.png)
 
 The account you're viewing is bolded so you can verify you're in the correct account. 
 
@@ -35,34 +33,32 @@ If you have more than 50, use the pagination under the domain list to view next 
 
 Each domain has an overview with the following information:
 
-SCREENSHOT
+![](/files/domain-list-headers.png)
 
 **Domain Name** - a clickable link to the domain-specific home page to view, edit and manage the DNS and Domain Management. 
 **Domain Registration** - state of the domain in DNSimple.
 **Transfer Domain** - indicates the domain is not registered with DNSimple or an Integrated Provider. Click the link attached to begin the transfer process.
 **Registered** - indicates the domain is registered with DNSimple or an Integrated Provider. Clicking Registered will take you directly to the domain's registration hub.
 
-If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/). 
-
-SCREENSHOT
+If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/).
 
 If the domain is registered with an Integrated Provider, that provider is also displayed.
 
-SCREENSHOT
+![](/files/domain-list-godaddy-autorenew.png)
 
 **DNS Zones** - indicates whether you have activated the zones and if the domain is resolving. Click the link attached to the zone status to navigate to the domain's DNS management page.
 
 If it's active and resolving with DNSimple, it will appear like this:
 
-SCREENSHOT
+![](/files/domain-list-active-zone.png)
 
 If it's active and resolving with an Integrated Provider, that provider will also be displayed.
 
-SCREENSHOT
+![](/files/domain-list-active-zone-route53.png)
 
 If the domain does not have the zones activated within your DNSimple account, it will show as Inactive.
 
-SCREENSHOT
+![](/files/domain-list-inactive-zone.png)
 
 Learn more about Active and Inactive Zones, and how to manage them [here](/articles/dns-hosting/).
 
@@ -70,11 +66,11 @@ Learn more about Active and Inactive Zones, and how to manage them [here](/artic
 
 If the domain has active certificates attached, they will be displayed, along with an identifier for the type of certificate issued. Clicking on the link takes you to the domain-specific Certificate page:
 
-SCREENSHOT
+![](/files/domain-list-one-certificate.png)
 
 If the domain is registered or resolving with DNSimple but does not have an active certificate, you can add one by clicking the link shown below:
 
-SCREENSHOT
+![](/files/domain-list-add-certificate.png)
 
 If the field is empty, the domain is registered elsewhere **and** resolving elsewhere. To learn more about certificates, visit [this guide](/articles/getting-started-ssl-certificates/).
 
@@ -84,11 +80,11 @@ If the field is empty, the domain is registered elsewhere **and** resolving else
 
 **Add new** - Above the Domain List view, you'll see an "Add new" dropdown
 
-SCREENSHOT
+![](/files/domain-list-add-new.png)
 
 Click this button, and the menu will provide you with easy access to the many ways to manage your domains in DNSimple. 
 
-SCREENSHOT
+![](/files/domain-list-add-new-dropdown.png)
 
 **Label domains** - at the bottom of your domain list, you'll see a button to add Labels. 
 
