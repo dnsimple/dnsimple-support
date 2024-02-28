@@ -65,7 +65,7 @@ If the domain does not have the zones activated within your DNSimple account, it
 
 ![](/files/domain-list-inactive-zone.png)
 
-Learn more about Active and Inactive Zones, and how to manage them [here](/articles/dns-hosting/).
+Learn more about Active and Inactive Zones and how to manage them [here](/articles/dns-hosting/).
 
 ### Certificates 
 
