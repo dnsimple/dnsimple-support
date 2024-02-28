@@ -5,6 +5,8 @@ categories:
 - DNSimple
 ---
 
+# Getting to Know Your DNSimple Domain List
+
 <iframe width="791" height="445" src="https://www.youtube.com/embed/PGa3Jk3nnGM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The DNSimple Domain List is your home base for all the domains in your account. You'll see domains registered with DNSimple, with our Integrated Providers, and domains registered elsewhere that point to our name servers or those of an Integrated Provider. 
