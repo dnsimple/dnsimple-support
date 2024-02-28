@@ -39,7 +39,7 @@ Below, you'll see a breakdown of what is currently in each account.
 
 ![](/files/dashboard-account-card-category.png)
 
-**Registered Domains** - the number of domains registered with DNSimple, or with an integrated provider. 
+**Registered Domains** - the number of domains registered with DNSimple, or with an Integrated Provider. 
 **DNS Zones** - the number of [currently active](/articles/managing-integrated-zones/) domains. This includes zones resolving with DNSimple or with an Integrated Provider.  
 **SSL Certificates** - the number of active certificates that are attached to active zones.
 **Contacts** - every [contact](/articles/contact-management/) you've created for this account. Contacts are required when you're registering or transferring a domain, or issuing an SSL certificate.  
@@ -50,13 +50,14 @@ Below all account cards you'll find **+ Add new account**. Select this to easily
 
 ## Managing domains across multiple accounts 
 
-As your account lists grow, you'll notice a "Search By Account Name" bar above the list of account cards. Just type in the name of the account you want to work with to easily find it.
+As your account lists grow, you'll notice a **Search By Account Name** bar above the list of account cards. Just type in the name of the account you want to work with to easily find it.
 
 ### Latest activity
 
-The Latest activity section on your DNSimple Dashboard provides a view of activity across all accounts in which you're an authorized user.
+The **Latest activity** section provides a view of activity across all accounts in which you're an authorized user.
 
 Similar to the activity view, the information displayed highlights the *Type, Event, Text, User, Date, and Account*. Each is linked to the individual event listed, so you can see information specific to an account without scrolling back up to the account card.
+
 To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#activity-tracking-at-the-account-level). From the individual account and domain activity views, you can filter based on events to easily find what you need. 
 
 ## A simple, comprehensive view
