@@ -60,7 +60,7 @@ Similar to the activity view, the information displayed highlights the *Type, Ev
 
 To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#activity-tracking-at-the-account-level). From the individual account and domain activity views, you can filter based on events to easily find what you need. 
 
-## A simple, comprehensive view
+## Have more questions? 
 
 The DNSimple Dashboard gives authorized users a comprehensive view of their DNSimple accounts. You can have accounts specific to your clients, customers, departments, or anything that makes sense to you. We value your time and want you to be able to access everything you need - simply.
 
