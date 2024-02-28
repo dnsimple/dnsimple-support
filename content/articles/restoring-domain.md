@@ -7,11 +7,12 @@ categories:
 
 # Restoring a Domain
 
-To reactivate your domain that has entered the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), it has to be restored. After completion, your domain's registration will be extended by the minimum renewal period (usually 1 year).
+To reactivate your domain that has entered the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), it has to be restored. This process takes up to a day to complete. We will send updates to your [account email](https://support.dnsimple.com/articles/changing-email/).
+
+Upon completion, your domain's registration will be automatically extended by the registry's minimum renewal period (usually 1 year).
 
 <warning>
-The registrar applies a mandatory restore fee.
-The final price of the restore will be the <strong>restore fee plus the standard renewal fee</strong>.
+The registrar applies a mandatory restore fee. The final price of the restore will be the restore fee plus the domain's renewal fee.
 </warning>
 
 ##### To restore a domain
@@ -31,3 +32,5 @@ The total restore price will be held on your card immediately.
 Your card will be charged once the restoration completes.
 If the restoration fails, funds will be released.
 </info>
+
+If you have any questions about the domain restoration process, [get in touch](https://dnsimple.com/feedback), and we'll be happy to help.
