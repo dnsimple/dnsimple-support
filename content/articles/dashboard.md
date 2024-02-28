@@ -39,10 +39,10 @@ Below, you'll see a breakdown of what is currently in each account.
 
 ![](/files/dashboard-account-card-category.png)
 
-**Registered Domains** - the number of domains registered with DNSimple, or with an Integrated Provider. 
-**DNS Zones** - the number of [currently active](/articles/managing-integrated-zones/) domains. This includes zones resolving with DNSimple or with an Integrated Provider.  
-**SSL Certificates** - the number of active certificates that are attached to active zones.
-**Contacts** - every [contact](/articles/contact-management/) you've created for this account. Contacts are required when you're registering or transferring a domain, or issuing an SSL certificate.  
+- **Registered Domains** - the number of domains registered with DNSimple, or with an Integrated Provider. 
+- **DNS Zones** - the number of [currently active](/articles/managing-integrated-zones/) domains. This includes zones resolving with DNSimple or with an Integrated Provider.  
+- **SSL Certificates** - the number of active certificates that are attached to active zones.
+- **Contacts** - every [contact](/articles/contact-management/) you've created for this account. Contacts are required when you're registering or transferring a domain, or issuing an SSL certificate.  
 
 ## Adding a new account 
 
