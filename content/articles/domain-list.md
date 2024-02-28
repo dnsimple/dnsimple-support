@@ -71,11 +71,11 @@ Learn more about Active and Inactive Zones, and how to manage them [here](/artic
 
 This section displays all certificates currently issued to domains registered with DNSimple or an Integrated Provider.
 
-If the domain has active certificates attached, they will be displayed, along with an identifier for the type of certificate issued. Clicking on the link takes you to the domain-specific Certificate page:
+If the domain has active certificates attached, they will be displayed, along with an identifier for the type of certificate issued. Clicking the link takes you to the domain-specific certificate page:
 
 ![](/files/domain-list-one-certificate.png)
 
-If the domain is registered or resolving with DNSimple but does not have an active certificate, you can add one by clicking the link shown below:
+If the domain is registered or resolving with DNSimple but does not have an active certificate, click the link shown below to add one:
 
 ![](/files/domain-list-add-certificate.png)
 
