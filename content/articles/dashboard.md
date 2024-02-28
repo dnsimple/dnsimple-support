@@ -1,5 +1,5 @@
 ---
-title: Getting to know your DNSimple Dashboard
+title: Getting to Know Your DNSimple Dashboard
 excerpt: How to use the DNSimple Dashboard to manage your domains.
 categories:
 - DNSimple
