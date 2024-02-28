@@ -5,6 +5,8 @@ categories:
 - DNSimple
 ---
 
+# Getting to Know Your DNSimple Dashboard
+
 <iframe width="791" height="445" src="https://www.youtube.com/embed/TAJ8R12hLrI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Your DNSimple Dashboard contains all of the important highlights for each of your DNSimple accounts: important messages, account overviews and account activity.
