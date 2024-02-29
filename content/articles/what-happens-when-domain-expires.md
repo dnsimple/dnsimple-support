@@ -43,11 +43,7 @@ A redemption grace period is provided after the registrar has issued a delete re
 
 Domains in our system can go into either Redemption Grace Period or Extended Redemption Grace Period.
 
-To renew a domain in redemption status, please contact us.
-
-<warning>
-When a domain is in the redemption status, the registrar will apply a mandatory fee on top of the standard renewal price. The final renewal price will be the standard renewal fee plus the redemption fee.
-</warning>
+To reactivate a domain in redemption status, please take a look at our [article on how to restore a domain](/articles/restoring-domain).
 
 ### Deletion period
 
