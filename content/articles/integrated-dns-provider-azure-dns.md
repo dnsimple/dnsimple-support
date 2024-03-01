@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to view and manage DNS zones that are deployed at [Azure DNS](https://azure.microsoft.com/en-us/products/dns).
+DNSimple supports the ability to view and manage public DNS zones that are deployed at [Azure DNS](https://azure.microsoft.com/en-us/products/dns).
 
 ## Supported features
 
