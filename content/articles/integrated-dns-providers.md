@@ -77,7 +77,7 @@ If you have an existing domain name in DNSimple, you can also add it to an Integ
 1.  If the Integrated DNS Provider is already linked to the DNSimple account, select the desired one (if there is more than one from the same provider type, e.g. Azure) and click <label>Add</label> to add the zone to the provider. For instance, if the provider is Azure, the zone will be added to Azure.
 
     ![Adding a Zone to an already linked DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
-1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input the necessary credentials to link it to the account before the zone can be added to the provider. The Integrated DNS Provider will be linked to the DNSimple account and the zone will then be added to the provider. Note: For [CoreDNS](/articles/integrated-dns-provider-coredns), the provider needs to already be [linked](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) to your DNSimple account.
+1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input any details that are necessary to link it to the account before the zone can be added to the provider. The Integrated DNS Provider will be linked to the DNSimple account and the zone will then be added to the provider.
 
     ![Adding a Zone to a DNS Provider that has not yet been linked](/files/dns-zone-providers-add-to-unlinked-provider.png)
 
