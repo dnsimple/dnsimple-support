@@ -32,10 +32,10 @@ Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-re
 
 To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers), you need:
 
-- [Azure Subscription Id](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-azure-subscription)
-- [Tenant Id](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant)
+- [Azure Subscription ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-azure-subscription)
+- [Tenant ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant)
 - [Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group) name
-- Client Id, i.e. the id of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
+- Client ID, i.e. the ID of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - [Client Secret](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app#add-a-client-secret) of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - Administrator access to a DNSimple account
 
