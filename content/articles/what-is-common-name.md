@@ -1,4 +1,5 @@
 ---
+meta: The SSL certificate Common Name identifies the hostname associated with the certificate.
 title: What is the SSL Certificate Common Name?
 excerpt: The SSL certificate Common Name identifies the hostname associated with the certificate.
 categories:

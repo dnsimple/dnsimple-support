@@ -1,4 +1,5 @@
 ---
+meta: Manage and sync the DNS records of a zone at DNSimple and/or Integrated DNS Providers.
 title: Deployment Editor
 excerpt: Manage and sync the DNS records of a zone at DNSimple and/or Integrated DNS Providers.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Link an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 title: Integrated DNS Providers at DNSimple
 excerpt: Link an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 categories:

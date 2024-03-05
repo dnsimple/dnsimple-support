@@ -1,4 +1,5 @@
 ---
+meta: How to change the information associated with a DNSimple account.
 title: Changing Account Information
 excerpt: How to change the information associated with a DNSimple account.
 categories:

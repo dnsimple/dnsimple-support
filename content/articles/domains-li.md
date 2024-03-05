@@ -1,4 +1,5 @@
 ---
+meta: This article explains the requirements and special procedures for .LI domain names.
 title: .LI Domains
 excerpt: This article explains the requirements and special procedures for .LI domain names.
 categories:

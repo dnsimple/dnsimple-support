@@ -1,4 +1,5 @@
 ---
+meta: Checking your account's subscription balance, credit, and next payment due.
 title: Account Balance
 excerpt: Checking your account's subscription balance, credit, and next payment due.
 categories:

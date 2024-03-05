@@ -1,4 +1,5 @@
 ---
+meta: You pointed your domain to Heroku, but when you access your domain you see the error page No such app.
 title: Troubleshooting Heroku "No such app" error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see the error page No such app.
 categories:

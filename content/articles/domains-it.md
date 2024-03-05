@@ -1,4 +1,5 @@
 ---
+meta: This article explains the requirements and special procedures for .it domain names.
 title: .IT Domains
 excerpt: This article explains the requirements and special procedures for .it domain names.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: This article explains how to use a different email for validating the SSL certificate.
 title: How can I select a different SSL certificate domain validation email?
 excerpt: This article explains how to use a different email for validating the SSL certificate.
 categories:

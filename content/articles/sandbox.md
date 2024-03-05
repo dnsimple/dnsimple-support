@@ -1,4 +1,5 @@
 ---
+meta: Information about the sandbox enviroment available to test integration with DNSimple API.
 title: API Sandbox
 excerpt: Information about the sandbox enviroment available to test integration with DNSimple API.
 categories:

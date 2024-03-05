@@ -1,4 +1,5 @@
 ---
+meta: How to set up Blackbell DNS using DNSimple's one-click service.
 title: Blackbell Service
 excerpt: How to set up Blackbell DNS using DNSimple's one-click service.
 categories:

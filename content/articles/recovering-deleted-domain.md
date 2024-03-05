@@ -1,4 +1,5 @@
 ---
+meta: How to recover a domain deleted from your DNSimple account.
 title: Recovering a Deleted Domain
 excerpt: How to recover a domain deleted from your DNSimple account.
 categories:

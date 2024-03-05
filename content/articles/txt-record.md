@@ -1,4 +1,5 @@
 ---
+meta: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
 title: What's a TXT Record?
 excerpt: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
 categories:

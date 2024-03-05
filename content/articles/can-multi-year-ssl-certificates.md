@@ -1,4 +1,5 @@
 ---
+meta: Information about purchasing a multi-year SSL certificate with DNSimple.
 title: Do you support multi-year SSL certificates?
 excerpt: Information about purchasing a multi-year SSL certificate with DNSimple.
 categories:

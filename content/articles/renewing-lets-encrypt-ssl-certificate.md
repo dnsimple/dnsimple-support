@@ -1,4 +1,5 @@
 ---
+meta: Instructions to renew a Let's Encrypt SSL certificate for a domain with DNSimple.
 title: Renewing a Let's Encrypt SSL Certificate
 excerpt: Instructions to renew a Let's Encrypt SSL certificate for a domain with DNSimple.
 categories:

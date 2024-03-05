@@ -1,4 +1,5 @@
 ---
+meta: How to use DNSimple along with other DNS providers.
 title: Using DNSimple alongside other DNS providers
 excerpt: How to use DNSimple along with other DNS providers.
 categories:

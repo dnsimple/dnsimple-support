@@ -1,4 +1,5 @@
 ---
+meta: GDPR impacts available WHOIS information. Learn about the consequences of this law that came into effect on May 25th 2018.
 title: Domain privacy after GDPR
 excerpt: GDPR impacts available WHOIS information. Learn about the consequences of this law that came into effect on May 25th 2018.
 categories:

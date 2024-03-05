@@ -1,4 +1,5 @@
 ---
+meta: The auto-renewal service reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration.
 title: Domain Auto-Renewal
 excerpt: The auto-renewal service reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration.
 categories:

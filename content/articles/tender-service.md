@@ -1,4 +1,5 @@
 ---
+meta: How to set up Tender DNS using DNSimple's one-click service.
 title: Tender Service
 excerpt: How to set up Tender DNS using DNSimple's one-click service.
 categories:

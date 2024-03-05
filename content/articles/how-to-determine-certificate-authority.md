@@ -1,4 +1,5 @@
 ---
+meta: Instructions to determine the Certificate Authority that signed an SSL certificate.
 title: How do I determine the Certificate Authority that signed my SSL certificate?
 excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
 categories:

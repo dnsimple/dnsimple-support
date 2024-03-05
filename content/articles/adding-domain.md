@@ -1,4 +1,5 @@
 ---
+meta: How to add a domain to a DNSimple account.
 title: Adding a Domain
 excerpt: How to add a domain to a DNSimple account.
 categories:

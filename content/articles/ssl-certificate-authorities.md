@@ -1,4 +1,5 @@
 ---
+meta: The list of Certificate Authorities used by DNSimple to sign SSL certificates.
 title: SSL Certificate Authorities used by DNSimple
 excerpt: The list of Certificate Authorities used by DNSimple to sign SSL certificates.
 categories:

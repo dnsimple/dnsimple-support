@@ -1,4 +1,5 @@
 ---
+meta: Explains how to create a new OAuth application for access to the API version 2.
 title: OAuth Applications
 excerpt: Explains how to create a new OAuth application for access to the API version 2.
 categories:

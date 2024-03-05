@@ -1,4 +1,5 @@
 ---
+meta: Instructions to add, update, and remove a URL record in DNSimple.
 title: Managing URL Records
 excerpt: Instructions to add, update, and remove a URL record in DNSimple.
 categories:

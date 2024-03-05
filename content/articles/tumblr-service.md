@@ -1,4 +1,5 @@
 ---
+meta: How to set up Tumblr DNS using DNSimple's one-click service.
 title: Tumblr Service
 excerpt: How to set up Tumblr DNS using DNSimple's one-click service.
 categories:

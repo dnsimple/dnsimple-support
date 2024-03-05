@@ -1,4 +1,5 @@
 ---
+meta: What a URL record is, and how to add a URL record in DNSimple.
 title: What's a URL Record?
 excerpt: What a URL record is, and how to add a URL record in DNSimple.
 categories:

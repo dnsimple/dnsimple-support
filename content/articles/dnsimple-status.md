@@ -1,4 +1,5 @@
 ---
+meta: We make our current system status, as well as our uptime history, available at dnsimplestatus.com.
 title: DNSimple Status Page
 excerpt: We make our current system status, as well as our uptime history, available at dnsimplestatus.com.
 categories:

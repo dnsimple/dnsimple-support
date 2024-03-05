@@ -1,4 +1,5 @@
 ---
+meta: How to set up Squarespace DNS using DNSimple's one-click service.
 title: Squarespace Service
 excerpt: How to set up Squarespace DNS using DNSimple's one-click service.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: We won't try to sell you a bunch of other services when you register your domain.
 title: Why should I register my domain name with DNSimple?
 excerpt: We won't try to sell you a bunch of other services when you register your domain.
 categories:

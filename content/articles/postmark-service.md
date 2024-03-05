@@ -1,4 +1,5 @@
 ---
+meta: How to set up Postmark DNS using DNSimple's one-click service.
 title: Postmark Service
 excerpt: How to set up Postmark DNS using DNSimple's one-click service.
 categories:

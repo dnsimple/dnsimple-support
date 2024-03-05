@@ -1,4 +1,5 @@
 ---
+meta: Certain domain names are auto-renew only and cannot be manually renewed.
 title: '"Auto-Renew Only" Domains'
 excerpt: Certain domain names are auto-renew only and cannot be manually renewed.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Services are DNS snippets ready for you to use in one click.
 title: One-click Services
 excerpt: Services are DNS snippets ready for you to use in one click.
 categories:

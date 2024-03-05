@@ -1,4 +1,5 @@
 ---
+meta: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
 title: SSL Certificates Frequently Asked Questions
 excerpt: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
 categories:

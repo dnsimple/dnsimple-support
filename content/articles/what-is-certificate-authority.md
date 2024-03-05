@@ -1,4 +1,5 @@
 ---
+meta: A certificate authority is a trusted entity that issues digital certificates.
 title: What is a Certificate Authority?
 excerpt: A certificate authority is a trusted entity that issues digital certificates.
 categories:

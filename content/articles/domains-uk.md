@@ -1,4 +1,5 @@
 ---
+meta: This article explains the requirements and special procedures for .UK domain names.
 title: .UK Domains
 excerpt: This article explains the requirements and special procedures for .UK domain names.
 categories:

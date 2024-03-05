@@ -1,4 +1,5 @@
 ---
+meta: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 title: Add EasyDNS as a secondary DNS server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 categories:

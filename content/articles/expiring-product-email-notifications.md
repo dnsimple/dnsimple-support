@@ -1,4 +1,5 @@
 ---
+meta: This page describes the types of email notifications you may receive about expring items purchased through DNSimple.
 title: Expiring Product Email Notifications
 excerpt: This page describes the types of email notifications you may receive about expring items purchased through DNSimple.
 categories:

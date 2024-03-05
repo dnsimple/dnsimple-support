@@ -1,4 +1,5 @@
 ---
+meta: How to use Handshake (HNS) domains with your DNSimple account.
 title: DNSimple and Handshake (HNS)
 excerpt: How to use Handshake (HNS) domains with your DNSimple account.
 categories:

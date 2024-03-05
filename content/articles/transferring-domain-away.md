@@ -1,4 +1,5 @@
 ---
+meta: How to request a transfer code and transfer a domain from DNSimple to a different registrar.
 title: Transferring a domain away from DNSimple
 excerpt: How to request a transfer code and transfer a domain from DNSimple to a different registrar.
 categories:

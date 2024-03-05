@@ -1,4 +1,5 @@
 ---
+meta: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
 title: API Access Token
 excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
 categories:

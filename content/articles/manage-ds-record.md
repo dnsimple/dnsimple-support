@@ -1,4 +1,5 @@
 ---
+meta: Instructions to add and remove an DS record in DNSimple.
 title: Managing DS Records
 excerpt: Instructions to add and remove an DS record in DNSimple.
 categories:

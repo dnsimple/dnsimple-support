@@ -1,4 +1,5 @@
 ---
+meta: What an NS record is, and how to create NS records with DNSimple.
 title: What's an NS Record?
 excerpt: What an NS record is, and how to create NS records with DNSimple.
 categories:

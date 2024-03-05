@@ -1,4 +1,5 @@
 ---
+meta: CNAME records can be used to alias one name to another.
 title: What's a CNAME record?
 excerpt: CNAME records can be used to alias one name to another.
 categories:
