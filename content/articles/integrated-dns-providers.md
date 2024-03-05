@@ -63,7 +63,7 @@ However, record fields not supported by DNSimple or the destination provider may
 
 ## Adding a zone to an Integrated DNS Provider {#adding-a-zone-to-an-integrated-dns-provider}
 
-If you have an existing domain name in DNSimple, you can also add it to an Integrated DNS provider from the DNS section of the domain management page. If the Integrated DNS provider has not yet been [linked](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) to your DNSimple account, you will be prompted to do so.
+If you have an existing domain name in DNSimple, you can also add it to an Integrated DNS Provider from the DNS section of the domain management page. If the Integrated DNS Provider has not yet been [linked](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) to your DNSimple account, you will be prompted to do so.
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
