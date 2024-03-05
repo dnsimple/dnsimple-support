@@ -77,14 +77,14 @@ If you have an existing domain name in DNSimple, you can also add it to an Integ
 1.  If the Integrated DNS Provider is already linked to the DNSimple account, select the desired one (if there is more than one from the same provider type, e.g. Azure), and click <label>Add</label> to add the zone to the provider. For instance, if the provider is Azure, the zone will be added to Azure.
 
     ![Adding a Zone to an already linked DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
-1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input any details that are necessary to link it to the account before the zone can be added to the provider. The Integrated DNS Provider will be linked to the DNSimple account, and the zone will then be added to the provider.
+1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input any necessary details to link it to the account before the zone can be added to the provider. The Integrated DNS Provider will be linked to the DNSimple account, and the zone will then be added to the provider.
 
     ![Adding a Zone to a DNS Provider that has not yet been linked](/files/dns-zone-providers-add-to-unlinked-provider.png)
 
 
 ## Deleting a zone from an Integrated DNS Provider {#deleting-a-zone-from-an-integrated-dns-provider}
 
-You can delete a zone that had previously been imported into DNSimple from an Integrated DNS Provider. This will retain the zone and its records at DNSimple, but delete the zone and all its records from the Integrated DNS Provider. In the case of [CoreDNS](/articles/integrated-dns-provider-coredns), it is the CoreDNS configuration for the zone that will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
+You can delete a zone previously imported from an Integrated DNS Provider into DNSimple. This will retain the zone and its records at DNSimple, but delete the zone and all its records from the Integrated DNS Provider. In the case of [CoreDNS](/articles/integrated-dns-provider-coredns), the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
