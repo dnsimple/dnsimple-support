@@ -1,4 +1,5 @@
 ---
+meta: Instructions to add, update, and remove an A record in DNSimple.
 title: Managing A Records
 excerpt: Instructions to add, update, and remove an A record in DNSimple.
 categories:

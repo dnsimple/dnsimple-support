@@ -1,4 +1,5 @@
 ---
+meta: All certificates purchased with DNSimple are currently signed with the SHA-2 hash algorithm.
 title: SHA-2 SSL Certificates
 excerpt: All certificates purchased with DNSimple are currently signed with the SHA-2 hash algorithm.
 categories:

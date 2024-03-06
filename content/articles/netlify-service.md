@@ -1,4 +1,5 @@
 ---
+meta: How to set up Netlify DNS using DNSimple's one-click service.
 title: Netlify Service
 excerpt: How to set up Netlify DNS using DNSimple's one-click service.
 categories:

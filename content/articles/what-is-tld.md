@@ -1,4 +1,5 @@
 ---
+meta: The term top-level domain, or TLD, refers to the first part of every domain name.
 title: What is a TLD?
 excerpt: The term top-level domain, or TLD, refers to the first part of every domain name.
 categories:

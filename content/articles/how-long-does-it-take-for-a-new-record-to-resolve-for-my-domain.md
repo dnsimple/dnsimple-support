@@ -1,4 +1,5 @@
 ---
+meta: If your account is active, records you add to a domain will be available within seconds.
 title: How Long Does It Take for a New Record to Resolve for My Domain?
 excerpt: If your account is active, records you add to a domain will be available within seconds.
 categories:

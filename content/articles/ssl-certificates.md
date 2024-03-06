@@ -1,4 +1,5 @@
 ---
+meta: Information about purchasing and managing an SSL/TLS certificate with DNSimple.
 title: SSL/TLS Certificates
 excerpt: Information about purchasing and managing an SSL/TLS certificate with DNSimple.
 categories:

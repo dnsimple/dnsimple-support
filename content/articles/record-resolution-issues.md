@@ -1,4 +1,5 @@
 ---
+meta: This article contains instructions to check and debug record resolution issues.
 title: Troubleshooting Record Resolution Issues
 excerpt: This article contains instructions to check and debug record resolution issues.
 categories:

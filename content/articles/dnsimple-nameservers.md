@@ -1,4 +1,5 @@
 ---
+meta: How to change your domain's name servers to DNSimple's name servers.
 title: DNSimple Name Servers
 excerpt: How to change your domain's name servers to DNSimple's name servers.
 categories:

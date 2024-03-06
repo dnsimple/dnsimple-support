@@ -1,4 +1,5 @@
 ---
+meta: How to change or update the contact assigned to a domain or part of its data.
 title: Changing domain contacts
 excerpt: How to change or update the contact assigned to a domain or part of its data.
 categories:

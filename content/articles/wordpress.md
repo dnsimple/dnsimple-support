@@ -1,4 +1,5 @@
 ---
+meta: How to use a WordPress blog with DNSimple.
 title: WordPress and DNSimple
 excerpt: How to use a WordPress blog with DNSimple.
 categories:

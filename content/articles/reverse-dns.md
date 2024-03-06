@@ -1,4 +1,5 @@
 ---
+meta: We support reverse DNS zones.
 title: Reverse DNS Zones
 excerpt: We support reverse DNS zones.
 categories:

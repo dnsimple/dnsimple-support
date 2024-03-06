@@ -1,4 +1,5 @@
 ---
+meta: How to contact DNSimple for questions, issues, or feedback.
 title: Contacting DNSimple Support
 excerpt: How to contact DNSimple for questions, issues, or feedback.
 categories:

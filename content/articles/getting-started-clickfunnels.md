@@ -1,4 +1,5 @@
 ---
+meta: Get started with your new DNSimple account quickly.
 title: DNSimple and ClickFunnels
 excerpt: Get started with your new DNSimple account quickly.
 categories:

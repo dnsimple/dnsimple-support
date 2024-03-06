@@ -1,4 +1,5 @@
 ---
+meta: How to set up Weebly DNS using DNSimple's one-click service.
 title: Weebly Service
 excerpt: How to set up Weebly DNS using DNSimple's one-click service.
 categories:

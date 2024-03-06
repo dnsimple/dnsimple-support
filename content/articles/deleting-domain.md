@@ -1,4 +1,5 @@
 ---
+meta: How to delete a domain from a DNSimple account.
 title: Deleting a Domain
 excerpt: How to delete a domain from a DNSimple account.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Information about upgrading a single-hostname SSL certificate to a wildcard SSL certificate.
 title: Can I upgrade a single-hostname SSL certificate to a wildcard SSL certificate?
 excerpt: Information about upgrading a single-hostname SSL certificate to a wildcard SSL certificate.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: A collection of articles to help you get started with DNSimple quickly.
 title: Getting Started
 excerpt: A collection of articles to help you get started with DNSimple quickly.
 categories:

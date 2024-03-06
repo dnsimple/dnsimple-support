@@ -1,4 +1,5 @@
 ---
+meta: Our Anycast network consists of <%= POPS.count %> points-of-presence around the world.
 title: Where are your servers located?
 excerpt: Our Anycast network consists of <%= POPS.count %> points-of-presence around the world.
 categories:

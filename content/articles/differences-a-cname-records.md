@@ -1,4 +1,5 @@
 ---
+meta: A and CNAME records are the two common ways to map a host name to an address. This article explains the differences between these two records.
 title: Differences Between A and CNAME records
 excerpt: A and CNAME records are the two common ways to map a host name to an address. This article explains the differences between these two records.
 categories:

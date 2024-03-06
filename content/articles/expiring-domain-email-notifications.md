@@ -1,4 +1,5 @@
 ---
+meta: This page describes the email notifications you will receive about expiring domains purchased through DNSimple.
 title: Expiring Domain Email Notifications
 excerpt: This page describes the email notifications you will receive about expiring domains purchased through DNSimple.
 categories:

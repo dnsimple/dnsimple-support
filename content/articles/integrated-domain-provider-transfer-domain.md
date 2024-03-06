@@ -1,4 +1,5 @@
 ---
+meta: How to transfer your integrated provider domain to DNSimple.
 title: Transfer an Integrated Provider Domain to DNSimple
 excerpt: How to transfer your integrated provider domain to DNSimple.
 categories:

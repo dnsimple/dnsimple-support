@@ -1,4 +1,5 @@
 ---
+meta: The Product Expiring Tomorrow email contains a list of domains expiring within 24 hours.
 title: Product Expiring Tomorrow Notification
 excerpt: The Product Expiring Tomorrow email contains a list of domains expiring within 24 hours.
 categories:

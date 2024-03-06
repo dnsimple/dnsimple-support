@@ -1,4 +1,5 @@
 ---
+meta: This article explains how to use the DNSimple SSL certificate installation wizard to install an SSL certificate in a few clicks on the most common web services and platforms.
 title: Installing an SSL Certificate
 excerpt: This article explains how to use the DNSimple SSL certificate installation wizard to install an SSL certificate in a few clicks on the most common web services and platforms.
 categories:

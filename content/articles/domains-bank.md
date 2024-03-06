@@ -1,4 +1,5 @@
 ---
+meta: This article explains the requirements and special procedures for .BANK domain names.
 title: .BANK Domains
 excerpt: This article explains the requirements and special procedures for .BANK domain names.
 categories:

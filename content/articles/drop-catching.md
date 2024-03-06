@@ -1,4 +1,5 @@
 ---
+meta: DNSimple's drop catching policy.
 title: Can I use DNSimple for drop catching?
 excerpt: DNSimple's drop catching policy.
 categories:

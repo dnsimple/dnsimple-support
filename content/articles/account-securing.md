@@ -1,4 +1,5 @@
 ---
+meta: Some simple ways to make your DNSimple account more secure.
 title: Account Security
 excerpt: Some simple ways to make your DNSimple account more secure.
 categories:

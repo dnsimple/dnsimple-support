@@ -1,4 +1,5 @@
 ---
+meta: Forgot your password? Use this guide to help reset your password so you can log in.
 title: Get Help if You Forgot Your Password
 excerpt: Forgot your password? Use this guide to help reset your password so you can log in.
 catagories:

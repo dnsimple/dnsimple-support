@@ -1,4 +1,5 @@
 ---
+meta: How to transfer ownership of the account to another DNSimple user.
 title: Transfer Account Ownership
 excerpt: How to transfer ownership of the account to another DNSimple user.
 categories:

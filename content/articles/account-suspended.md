@@ -1,4 +1,5 @@
 ---
+meta: Reasons why your DNSimple account may be suspended.
 title: Suspended Account
 excerpt: Reasons why your DNSimple account may be suspended.
 categories:

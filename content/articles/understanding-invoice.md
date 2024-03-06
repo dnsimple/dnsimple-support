@@ -1,4 +1,5 @@
 ---
+meta: A detailed explanation of DNSimple invoices.
 title: Understanding Your DNSimple Invoice
 excerpt: A detailed explanation of DNSimple invoices.
 categories:

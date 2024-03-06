@@ -1,4 +1,5 @@
 ---
+meta: How to configure templates with SRV records
 title: SRV records in templates
 excerpt: How to configure templates with SRV records
 categories:

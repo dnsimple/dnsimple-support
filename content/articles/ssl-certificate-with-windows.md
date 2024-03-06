@@ -1,4 +1,5 @@
 ---
+meta: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
 title: SSL Certificates with Windows
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
 categories:

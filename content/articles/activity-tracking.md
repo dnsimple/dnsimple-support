@@ -1,4 +1,5 @@
 ---
+meta: How to review the list of events for an account or domain using our audit log feature.
 title: Activity Tracking
 excerpt: How to review the list of events for an account or domain using our audit log feature.
 categories:

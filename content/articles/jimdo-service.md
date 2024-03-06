@@ -1,4 +1,5 @@
 ---
+meta: How to set up Jimdo DNS using DNSimple's one-click service.
 title: Jimdo Service
 excerpt: How to set up Jimdo DNS using DNSimple's one-click service.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Instructions to add, update, and remove an AAAA record in DNSimple.
 title: Managing AAAA Records
 excerpt: Instructions to add, update, and remove an AAAA record in DNSimple.
 categories:

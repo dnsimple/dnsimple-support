@@ -1,4 +1,5 @@
 ---
+meta: How to set a DS record on registered domains for Cloudflare DNSSEC.
 title: Using Cloudflare DNSSEC with DNSimple
 excerpt: How to set a DS record on registered domains for Cloudflare DNSSEC.
 categories:

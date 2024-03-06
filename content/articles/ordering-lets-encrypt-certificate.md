@@ -1,4 +1,5 @@
 ---
+meta: How to order a Let's Encrypt certificate with DNSimple.
 title: Ordering a Let's Encrypt Certificate
 excerpt: How to order a Let's Encrypt certificate with DNSimple.
 categories:

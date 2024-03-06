@@ -1,4 +1,5 @@
 ---
+meta: How to cancel the recurring subscription for a DNSimple account.
 title: Unsubscribe from your DNSimple plan
 excerpt: How to cancel the recurring subscription for a DNSimple account.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: DNSimple provides a certificate renewal interface that will drastically reduce the amount of time required to purchase a new certificate.
 title: How does an SSL Certificate Renewal work?
 excerpt: DNSimple provides a certificate renewal interface that will drastically reduce the amount of time required to purchase a new certificate.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Understand which plan fits you best
 title: DNSimple plans
 excerpt: Understand which plan fits you best
 categories:

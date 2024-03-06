@@ -1,4 +1,5 @@
 ---
+meta: How to set up the DNSimple Slack app.
 title: Slack App
 excerpt: How to set up the DNSimple Slack app.
 categories:

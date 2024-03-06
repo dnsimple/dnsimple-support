@@ -1,4 +1,5 @@
 ---
+meta: How to add a subdomain to a DNSimple account.
 title: Adding a Subdomain
 excerpt: How to add a subdomain to a DNSimple account.
 categories:

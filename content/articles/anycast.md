@@ -1,4 +1,5 @@
 ---
+meta: DNS zones at DNSimple are served through Anycast from 5 points of presence.
 title: Anycast DNS
 excerpt: DNS zones at DNSimple are served through Anycast from 5 points of presence.
 categories:

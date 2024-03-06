@@ -1,4 +1,5 @@
 ---
+meta: This support article explains what ICANN domain validation is and how to ensure that your domain name is not suspended by ICANN due to non-validation.
 title: ICANN domain validation requirements
 excerpt: This support article explains what ICANN domain validation is and how to ensure that your domain name is not suspended by ICANN due to non-validation.
 categories:

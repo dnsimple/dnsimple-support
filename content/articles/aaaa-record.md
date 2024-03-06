@@ -1,4 +1,5 @@
 ---
+meta: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 title: What's an AAAA record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:

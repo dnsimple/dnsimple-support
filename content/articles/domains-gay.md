@@ -1,4 +1,5 @@
 ---
+meta: This article explains the requirements and special procedures for .GAY domain names.
 title: .GAY Domains
 excerpt: This article explains the requirements and special procedures for .GAY domain names.
 categories:

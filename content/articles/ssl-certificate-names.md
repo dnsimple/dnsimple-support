@@ -1,4 +1,5 @@
 ---
+meta: Guidelines and information for selecting the SSL certificate host names.
 title: Choosing the SSL Certificate Names
 excerpt: Guidelines and information for selecting the SSL certificate host names.
 categories:

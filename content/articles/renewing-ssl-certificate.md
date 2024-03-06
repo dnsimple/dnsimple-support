@@ -1,4 +1,5 @@
 ---
+meta: Instructions to renew an SSL certificate for a domain with DNSimple.
 title: Renewing an SSL Certificate
 excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
 categories:

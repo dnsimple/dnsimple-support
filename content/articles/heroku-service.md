@@ -1,4 +1,5 @@
 ---
+meta: How to set up Heroku DNS using DNSimple's one-click service.
 title: Heroku Service
 excerpt: How to set up Heroku DNS using DNSimple's one-click service.
 categories:

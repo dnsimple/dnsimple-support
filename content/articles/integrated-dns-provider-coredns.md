@@ -1,4 +1,5 @@
 ---
+meta: Sync your zones managed at DNSimple to one or more CoreDNS instances.
 title: CoreDNS
 excerpt: Sync your zones managed at DNSimple to one or more CoreDNS instances.
 categories:

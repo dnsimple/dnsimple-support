@@ -1,4 +1,5 @@
 ---
+meta: This article explains what a DNS zone file is, and how to import and export zone text files in DNSimple.
 title: Domain Zone Files
 excerpt: This article explains what a DNS zone file is, and how to import and export zone text files in DNSimple.
 categories:

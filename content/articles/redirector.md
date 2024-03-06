@@ -1,4 +1,5 @@
 ---
+meta: The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 title: DNSimple Redirector
 excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 categories:

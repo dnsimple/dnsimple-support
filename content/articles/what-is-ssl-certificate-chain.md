@@ -1,4 +1,5 @@
 ---
+meta: The difference between the root certificate, intermediate certificates, and server certificate.
 title: What is the SSL Certificate Chain?
 excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
 categories:

@@ -1,4 +1,5 @@
 ---
+meta: Instructions to add, update, and remove a CAA record in DNSimple.
 title: Managing CAA Records
 excerpt: Instructions to add, update, and remove a CAA record in DNSimple.
 categories:

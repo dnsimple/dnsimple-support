@@ -1,4 +1,5 @@
 ---
+meta: The resolution status component in the domain page shows if the domain is currently resolving with DNSimple.
 title: Resolution Status
 excerpt: The resolution status component in the domain page shows if the domain is currently resolving with DNSimple.
 categories:

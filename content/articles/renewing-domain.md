@@ -1,4 +1,5 @@
 ---
+meta: How to renew a domain using your DNSimple account.
 title: Renewing a Domain
 excerpt: How to renew a domain using your DNSimple account.
 categories:

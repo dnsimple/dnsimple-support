@@ -1,4 +1,5 @@
 ---
+meta: The standard time-to-live (TTL) for records added to DNSimple is 1 hour, but you can set different values.
 title: What's the Minimum Time-To-Live Provided by DNSimple?
 excerpt: The standard time-to-live (TTL) for records added to DNSimple is 1 hour, but you can set different values.
 categories:
