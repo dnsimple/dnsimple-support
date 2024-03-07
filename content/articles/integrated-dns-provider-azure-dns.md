@@ -45,16 +45,16 @@ Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-re
 
 The following Azure DNS record types are supported for syncing and management at DNSimple:
 
-- A
-- AAAA
-- CNAME
-- MX
-- NS
+- [A](/articles/a-record)
+- [AAAA](/articles/aaaa-record)
+- [CNAME](/articles/cname-record)
+- [MX](/articles/mx-record)
+- [NS](/articles/ns-record)
 - PTR
-- SOA
-- SRV
-- TXT
-- URL
+- [SOA](/articles/soa-record)
+- [SRV](/articles/srv-record)
+- [TXT](/articles/txt-record)
+- [URL](/articles/url-record)
 
 <note>
 The NS record set at the zone apex level must contain the [Azure DNS name servers](https://learn.microsoft.com/en-us/azure/dns/dns-operations-recordsets-portal#modify-ns-records-at-the-zone-apex) assigned to the zone at the time of creation at Azure. 

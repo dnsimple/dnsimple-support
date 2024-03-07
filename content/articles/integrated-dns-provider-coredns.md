@@ -46,18 +46,18 @@ The CoreDNS Integrated Provider supports one-way syncing of zone records configu
 
 All DNSimple record types can be synced to CoreDNS:
 
-- A
-- AAAA
-- ALIAS
-- CNAME
+- [A](/articles/a-record)
+- [AAAA](/articles/aaaa-record)
+- [ALIAS](/articles/alias-record)
+- [CNAME](/articles/cname-record)
 - HINFO
-- MX
-- NS
-- POOL
+- [MX](/articles/mx-record)
+- [NS](/articles/ns-record)
+- [POOL](/articles/pool-record)
 - PTR
-- SOA
-- SPF
-- SRV
+- [SOA](/articles/soa-record)
+- [SPF](/articles/spf-record)
+- [SRV](/articles/srv-record)
 - SSHFP
-- TXT
-- URL
+- [TXT](/articles/txt-record)
+- [URL](/articles/url-record)
