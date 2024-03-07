@@ -63,5 +63,5 @@ DNSimple currently does not support adding other name servers to the set. The NS
 </note>
 
 <note>
-[URL records](/articles/url-record) are a custom DNSimple record type and do not have an equivalent in Azure DNS. When synced from DNSimple to Azure, a URL record will be translated into an A record that points to our [redirector](/articles/redirector).
+[URL records](/articles/url-record) are a custom DNSimple record type and do not have an equivalent in Azure DNS. When synced from DNSimple to Azure, a URL record will be represented in Azure as an A record that points to our [redirector](/articles/redirector).
 </note>

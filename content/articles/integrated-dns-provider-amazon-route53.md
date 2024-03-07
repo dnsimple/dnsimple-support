@@ -61,5 +61,5 @@ The following Route 53 record types are supported for syncing and management at 
 - [URL](/articles/url-record)
 
 <note>
-[URL records](/articles/url-record) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be translated into an A record that points to our [redirector](/articles/redirector).
+[URL records](/articles/url-record) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be represented in Route 53 as an A record that points to our [redirector](/articles/redirector).
 </note>
