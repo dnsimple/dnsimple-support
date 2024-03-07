@@ -33,7 +33,7 @@ The "Integrations" link in the navigation menu referenced in the video has been 
 - CoreDNS binary compiled with the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) plugin
   - [DNSimple CoreDNS Binary](https://github.com/dnsimple/coredns-dnsimple/releases)
   - [DNSimple CoreDNS Docker Container](https://hub.docker.com/r/dnsimple/coredns-dnsimple/tags)
-- Administrator access to a DNSimple account
+- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features
 

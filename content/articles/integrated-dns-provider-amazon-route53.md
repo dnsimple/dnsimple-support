@@ -35,7 +35,7 @@ To link [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated DNS 
   - route53:ChangeResourceRecordSets
   - route53:GetHostedZone
   - route53:DeleteHostedZone
-- Administrator access to a DNSimple account
+- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features
 
