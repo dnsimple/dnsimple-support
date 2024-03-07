@@ -40,7 +40,7 @@ To link [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated DNS 
 ## Supported features
 
 - **Import integrated zones**: When you link Route 53 to your DNSimple account, all the zones hosted on Route 53 will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
-- **Adding and deleting integrated zones**: When you link an Integrated DNS Provider to your DNSimple account, you can [add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) zones to/from the Integrated DNS Provider, from within DNSimple.
+- **Adding and deleting integrated zones**: [Add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) zones to/from the Integrated DNS Provider, from within DNSimple.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor). (See: The list of supported record types for Route 53)
 - **2-way Syncing of Records**: Sync your zone records from Route 53 to DNSimple, or from DNSimple to Route 53, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
 
