@@ -41,7 +41,7 @@ DNSimple supports zone integration with the providers listed below.
 ## Supported record types {#supported-record-types}
 
 Supported record types can be [synced](/articles/deployment-editor#record-syncing) from/to DNSimple to/from an Integrated DNS Provider.
-However, record fields not supported by DNSimple or the destination provider may be ignored. View the supported record types for [AWS Route 53](articles/integrated-dns-provider-amazon-route53/#supported-record-types), [CoreDNS](articles/integrated-dns-provider-coredns/#supported-features), and [Azure](/articles/integrated-dns-provider-azure-dns/#supported-record-types).
+However, record fields not supported by DNSimple or the destination provider may be ignored. View the supported record types for [AWS Route 53](/articles/integrated-dns-provider-amazon-route53/#supported-record-types), [CoreDNS](/articles/integrated-dns-provider-coredns/#supported-features), and [Azure](/articles/integrated-dns-provider-azure-dns/#supported-record-types).
 
 ## Linking an Integrated DNS Provider to your account {#linking-an-integrated-dns-provider}
 
