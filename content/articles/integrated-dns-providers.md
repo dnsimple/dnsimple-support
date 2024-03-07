@@ -28,7 +28,7 @@ DNSimple supports the ability to synchronize, manage, and view zones that are de
 The list of supported features and record types differs for each Integrated Provider. See the provider page for more information.
 </info>
 
-## Supported Integrated DNS Providers
+## Supported Integrated DNS Providers {#supported-integrated-dns-providers}
 
 To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to link an Integrated DNS Provider to your DNSimple account.
 
@@ -76,7 +76,7 @@ If you have an existing domain name in DNSimple, you can also add it to an Integ
 1.  If the Integrated DNS Provider is already linked to the DNSimple account, select the desired one (if there is more than one from the same provider type, e.g. Azure), and click <label>Add</label> to add the zone to the provider. For instance, if the provider is Azure, the zone will be added to Azure.
 
     ![Adding a Zone to an already linked DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
-1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input any necessary details to link it to the account before the zone can be added to the provider. The Integrated DNS Provider will be linked to the DNSimple account, and the zone will then be added to the provider.
+1.  If the Integrated DNS Provider is not already linked to the DNSimple account, you will have to input the prerequisite details to link it to the account before the zone can be added to the provider. The prerequisites for each Integrated DNS Provider can be found on each provider's support article [page](/articles/integrated-dns-providers#supported-integrated-dns-providers). The Integrated DNS Provider will be linked to the DNSimple account, and the zone will then be added to the provider.
 
     ![Adding a Zone to a DNS Provider that has not yet been linked](/files/dns-zone-providers-add-to-unlinked-provider.png)
 
