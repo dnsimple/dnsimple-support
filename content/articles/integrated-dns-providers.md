@@ -84,7 +84,7 @@ If you have an existing domain name in DNSimple, you can also add it to an Integ
 
 ## Deleting a zone from an Integrated DNS Provider {#deleting-a-zone-from-an-integrated-dns-provider}
 
-You can delete a zone previously imported from an Integrated DNS Provider into DNSimple. This will retain the zone and its records at DNSimple, but delete the zone and all its records from the Integrated DNS Provider. In the case of [CoreDNS](/articles/integrated-dns-provider-coredns), the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
+If you’ve imported a zone into DNSimple from an Integrated Provider, you can use the DNS Zone Providers card to delete the zone at the Provider. This retains the zone and its records at DNSimple, but deletes them from the provider. In the case of [CoreDNS](/articles/integrated-dns-provider-coredns), the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
 
 1.  Log in to DNSimple with your user credentials.
 1.  Select the relevant account.
