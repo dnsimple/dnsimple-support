@@ -65,11 +65,10 @@ However, record fields not supported by DNSimple or the destination provider may
 
 If you have an existing domain name in DNSimple, you can also add it to an Integrated DNS Provider from the DNS section of the domain management page. If the Integrated DNS Provider has not yet been [linked](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) to your DNSimple account, you will be prompted to do so.
 
-1.  Log in to DNSimple with your user credentials.
-1.  Select the relevant account.
-1.  On the header, click the <label>Domain Names</label> tab.
-1.  Locate the relevant domain, and click the name to access the domain page.
-1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
+1.  Click on the DNS tab on the domain’s management page.
+
+    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
+
 1.  Click the <label>Add</label> link corresponding to the desired Integrated DNS Provider inside the <label>DNS Zone Providers</label> card.
 
     ![Adding a Zone from DNS Zone Providers](/files/dns-zone-providers-add-zone.png)
@@ -86,11 +85,10 @@ If you have an existing domain name in DNSimple, you can also add it to an Integ
 
 If you've imported a zone into DNSimple from an Integrated Provider, you can use the DNS Zone Providers card to delete the zone at the Provider. This retains the zone and its records at DNSimple, but deletes them from the provider. In the case of [CoreDNS](/articles/integrated-dns-provider-coredns), the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
 
-1.  Log in to DNSimple with your user credentials.
-1.  Select the relevant account.
-1.  On the header, click on the <label>Domain Names</label> tab.
-1.  Locate the relevant domain, and click on the name to access the domain page.
-1.  Go to the DNS section by clicking the <label>DNS</label> link on the left.
+1.  Click on the DNS tab on the domain’s management page.
+
+    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
+
 1.  Click on the <label>Delete</label> link corresponding to the desired Integrated DNS Provider inside the <label>DNS Zone Providers</label> card.
 
     ![Deleting a Zone from the DNS Zone Providers card](/files/dns-zone-providers-delete.png)
