@@ -9,10 +9,6 @@ categories:
 
 # Let's Encrypt and DNSimple
 
-<info>
-This article describes a feature in Public Beta.
-</info>
-
 ### Table of Contents {#toc}
 
 * TOC

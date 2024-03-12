@@ -8,10 +8,6 @@ categories:
 
 # Ordering a Let's Encrypt Certificate
 
-<info>
-This article describes a feature in Public Beta.
-</info>
-
 ### Table of Contents {#toc}
 
 * TOC
