@@ -24,12 +24,17 @@ DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns
   <iframe src="https://www.youtube.com/embed/9yO2Oo_N1ms" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
+<info>
+The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [linking](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [remove](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
+</info>
+
+
 ## Prerequisites
 
 - CoreDNS binary compiled with the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) plugin
   - [DNSimple CoreDNS Binary](https://github.com/dnsimple/coredns-dnsimple/releases)
   - [DNSimple CoreDNS Docker Container](https://hub.docker.com/r/dnsimple/coredns-dnsimple/tags)
-- Administrator access to a DNSimple account
+- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features
 
@@ -42,18 +47,18 @@ The CoreDNS Integrated Provider supports one-way syncing of zone records configu
 
 All DNSimple record types can be synced to CoreDNS:
 
-- A
-- AAAA
-- ALIAS
-- CNAME
+- [A](/articles/a-record)
+- [AAAA](/articles/aaaa-record)
+- [ALIAS](/articles/alias-record)
+- [CNAME](/articles/cname-record)
 - HINFO
-- MX
-- NS
-- POOL
+- [MX](/articles/mx-record)
+- [NS](/articles/ns-record)
+- [POOL](/articles/pool-record)
 - PTR
-- SOA
-- SPF
-- SRV
+- [SOA](/articles/soa-record)
+- [SPF](/articles/spf-record)
+- [SRV](/articles/srv-record)
 - SSHFP
-- TXT
-- URL
+- [TXT](/articles/txt-record)
+- [URL](/articles/url-record)
