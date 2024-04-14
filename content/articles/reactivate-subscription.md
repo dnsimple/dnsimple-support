@@ -8,7 +8,7 @@ categories:
 
 # Reactivate your subscription
 
-When you [unsubscribe](/articles/cancel-subscription), all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time.
+When you [unsubscribe](/articles/cancel-subscription), all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time. After reactivating your subscription, all active zones or domains using our name servers in your account will begin to resolve. Registered domains set to auto-renew will do so again. This process takes 24 hours to complete, but domains should resolve earlier than that.
 
 <warning>
 If you subscribed to DNSimple in the past, you've already enjoyed our 1 month trial. **Reactivating your subscription will not grant you another 30 day trial**.
