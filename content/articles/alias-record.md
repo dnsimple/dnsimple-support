@@ -29,10 +29,10 @@ If the resolution succeeds, the handler extracts the `A` and `AAAA` records and 
 
 If the resolution fails, for example due to a timeout, then the cached response is returned, if one exists. We have the request timeout set to 500 milliseconds, which is considered low. In the future, we may lower it further. If there's no response in the cache, the request is retried again, up to the maximum number of retries. If the request ultimately fails, we return an empty result set.
 
-### Resolving ALIAS records with secondary DNS 
+### Resolving ALIAS records with secondary DNS
 
 To support [secondary DNS](/articles/secondary-dns/) servers, especially ones that connect to us and pull zones using `AXFR`, we must resolve the `ALIAS` differently. We resolve it as part of the secondary DNS setup process, then run a scheduled job to update the `ALIAS` record at secondary name servers by resolving them again, removing the old records, and writing the new records to our zone transfer database. We then send a [`NOTIFY`](https://tools.ietf.org/html/rfc1996) message to the appropriate secondary name servers, letting it know a change has been made.
 
 <note>
-When creating an `ALIAS` record you'll notice an additional `TXT` field is created. This field is optional and can be used for debugging.
+When creating an `ALIAS` record you'll notice an additional `TXT` field is created. This field is optional and can be used for debugging. This field is being [deprecated](https://blog.dnsimple.com/2024/04/deprecating-alternate-txt-for-alias/).
 </note>
