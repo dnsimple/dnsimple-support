@@ -31,7 +31,7 @@ To change the email address that receives these notifications, follow the instru
 
 ## What to do if your domain expires
 
-If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens when a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
+If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens When a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
 
 ## Disabling expiration notifications
 
