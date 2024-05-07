@@ -64,7 +64,7 @@ If you are not an authorized user on the account, please reach out to someone wh
 
 Absolutely! If you want to talk about your DNS and domain management needs, contact [Sales](https://dnsimple.com/sales), and we'll help you find the account that's right for you.
 
-If you have general questions about DNSimple, our products, and features, just fill out the 'Email Us' section on our contact page.
+If you have general questions about DNSimple, our products, and features, just fill out the 'Email Us' section on our [contact page](https://dnsimple.com/feedback).
 
 ## Can I call you?
 
