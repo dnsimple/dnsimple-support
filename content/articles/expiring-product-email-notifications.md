@@ -10,7 +10,7 @@ categories:
 
 # Expiring Product Email Notifications
 
-DNSimple monitors the expiration date of your purchased domains and certificates. We'll send weekly email notifications to the account owner when these products are 60 days from expiration. 
+DNSimple monitors the expiration date of your purchased domains and certificates. We'll send weekly email notifications to the account owner when these products are 60 days from expiration.
 
 There are two types of expiring domain notifications:
 
@@ -18,7 +18,6 @@ There are two types of expiring domain notifications:
 - [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
 
 <info>
-
 [ICANN](https://www.icann.org/en/resources/registrars/consensus-policies/errp) and our upstream provider will also notify you about the status of your domain via email. All notifications will be sent to the listed domain owner. These notifications cannot be disabled.
 </info>
 
@@ -40,4 +39,4 @@ Account owners can [disable expiration notifications](https://support.dnsimple.c
 
 ## Have more questions?
 
-If you have any questions about expiring products or notifications, [contact us](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions about expiring products or notifications, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
