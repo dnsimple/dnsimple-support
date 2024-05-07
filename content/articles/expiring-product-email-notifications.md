@@ -18,6 +18,7 @@ There are two types of expiring domain notifications:
 - [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
 
 <info>
+
 [ICANN](https://www.icann.org/en/resources/registrars/consensus-policies/errp) and our upstream provider will also notify you about the status of your domain via email. All notifications will be sent to the listed domain owner. These notifications cannot be disabled.
 </info>
 
@@ -25,13 +26,13 @@ There are two types of expiring domain notifications:
 
 We provide the ability to [disable expiration notifications on domains that are not set to auto-renew](/articles/disabling-expiration-notifications). At this time there is no way to disable other notifications.
 
-## Changing the contact 
+## Changing the contact
 
 To change the email address that receives these notifications, follow the instructions in [changing the account email](https://support.dnsimple.com/articles/changing-email/#changing-the-account-email).
 
 ## What to do if your domain expires
 
-If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens when a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it’s entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
+If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens when a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
 
 ## Disabling expiration notifications
 
