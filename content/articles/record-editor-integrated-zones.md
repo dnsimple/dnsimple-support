@@ -68,7 +68,7 @@ You can delete a zone record at one or more DNS providers from the Record Editor
 
 ## Importing integrated zone records {#importing-integrated-zone-records}
 
-If you have made changes to integrated zone records outside of DNSimple, you can import them to DNSimple using the <label>Import DNS records from integrated providers</label> button in the Record Editor, located under the <label>Import/Export</label> dropdown.
+If you have made changes to integrated zone records outside of DNSimple, you can import them to DNSimple using the <label>Import DNS records from Integrated Providers</label> button in the Record Editor, located under the <label>Import/Export</label> dropdown.
 
 ![Record Editor Import Integrated Records](/files/record-editor-integrated-zones-import-records.png)
 
