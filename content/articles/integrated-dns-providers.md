@@ -22,8 +22,8 @@ DNSimple supports the ability to synchronize, manage, and view zones that are de
 
 - **Import integrated zones**: When you link an Integrated DNS Provider to your DNSimple account, zones hosted on that Integrated DNS Provider will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
 - **Adding and removing integrated zones**: [Add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#removing-a-zone-from-an-integrated-dns-provider) zones to/from the Integrated DNS Provider, from within DNSimple.
-- **Manage integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Deployment Editor](/articles/deployment-editor).
-- **Sync integrated zone records**: Sync your zone records from the integrated zone to DNSimple, or from DNSimple to the integrated zone, with the [Deployment Editor](/articles/deployment-editor#record-syncing).
+- **Manage integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones).
+- **Sync integrated zone records**: Sync your zone records from the integrated zone to DNSimple, or from DNSimple to the integrated zone, with the [Record Editor](/articles/record-editor-integrated-zones#record-syncing).
 
 <info>
 The list of supported features and record types differs for each Integrated Provider. See the provider page for more information.
@@ -41,7 +41,7 @@ DNSimple supports zone integration with the providers listed below.
 
 ## Supported record types {#supported-record-types}
 
-Supported record types can be [synced](/articles/deployment-editor#record-syncing) from/to DNSimple to/from an Integrated DNS Provider.
+Supported record types can be [synced](/articles/record-editor-integrated-zones#record-syncing) from/to DNSimple to/from an Integrated DNS Provider.
 However, record fields not supported by DNSimple or the destination provider may be ignored. View the supported record types for [AWS Route 53](/articles/integrated-dns-provider-amazon-route53/#supported-record-types), [CoreDNS](/articles/integrated-dns-provider-coredns/#supported-features), and [Azure](/articles/integrated-dns-provider-azure-dns/#supported-record-types).
 
 ## Linking an Integrated DNS Provider to your account {#linking-an-integrated-dns-provider}
@@ -52,7 +52,7 @@ However, record fields not supported by DNSimple or the destination provider may
 1. Fill in any required paramaters for the Integrated DNS Provider configuration.
 1. Fill in any necessary credentials for your account at the Integrated DNS Provider.
 ![Enter Integrated DNS Provider credentials](/files/account-external-provider-link-credentials.png)
-1. After successfully linking the Integrated DNS Provider, you will arrive back on the DNSimple Integrated Providers page with the Integrated DNS Provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Domain Names](/articles/managing-integrated-zones) page, and manage and sync integrated zone records from the [Deployment Editor](/articles/deployment-editor).
+1. After successfully linking the Integrated DNS Provider, you will arrive back on the DNSimple Integrated Providers page with the Integrated DNS Provider newly linked to your account, listed under "Linked providers". You can view the imported integrated zones from the [Domain Names](/articles/managing-integrated-zones) page, and manage and sync integrated zone records from the [Record Editor](/articles/record-editor-integrated-zones).
 ![Account integrated providers list](/files/account-integrated-providers.png)
 
 ## Unlinking an Integrated DNS Provider from your account

@@ -17,11 +17,11 @@ From the Domain Names page, you can view the refreshed state of your DNSimple zo
 
     ![Domain Names Tab](/files/domain-names-tab.png)
 
-1.  On the <label>Domain Names</label> page, the zones in your DNSimple account and zones from [Integrated DNS Providers](/articles/integrated-dns-providers) will be listed. Click any linked zone to enter the [Deployment Editor](/articles/deployment-editor) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
+1.  On the <label>Domain Names</label> page, the zones in your DNSimple account and zones from [Integrated DNS Providers](/articles/integrated-dns-providers) will be listed. Click any linked zone to enter the [Record Editor](/articles/record-editor-integrated-zones) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
 
     ![Domain Names Integrated Zones Table](/files/domain-names-integrated-zones.png)
 </div>
 
 ## Refreshing and importing integrated zones {#refreshing-and-importing-integrated-zones}
 
-Loading the Domain Names page automatically [refreshes](/articles/deployment-editor#refreshing-integrated-zone-records) the current state of integrated zones and imports any new zones and their records from linked Integrated DNS Providers that support import. The new zones and zone records will be fetched in the background upon page load, and the Domain Names page will automatically update to reflect them once ready.
+Loading the Domain Names page automatically [refreshes](/articles/record-editor-integrated-zones#importing-integrated-zone-records) the current state of integrated zones and imports any new zones and their records from linked Integrated DNS Providers that support import. The new zones and zone records will be fetched in the background upon page load, and the Domain Names page will automatically update to reflect them once ready.
