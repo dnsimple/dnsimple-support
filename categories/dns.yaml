@@ -37,7 +37,7 @@ Zones:
 - "Dynamic DNS"
 - "Integrated DNS Providers at DNSimple"
 - "Managing Integrated Zones"
-- "Deployment Editor"
+- "Record Editor for Integrated Zones"
 - "Reverse DNS Zones"
 - "Resolution Status"
 - "Auto-Importing DNS Records"
