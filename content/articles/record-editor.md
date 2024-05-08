@@ -84,3 +84,7 @@ Please note there's no undo. The only way to restore a deleted record is to crea
 </warning>
 
 ![Delete Record](/files/rec-editor-delete.png)
+
+## Managing integrated zone records
+
+The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones) for more details.
