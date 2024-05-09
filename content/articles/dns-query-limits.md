@@ -21,9 +21,9 @@ DNS query volume fees are calculated at this price every time the registered vol
 
 ## Calculating your fees
 
-- 1 - 999,999 queries is $0.10;
-- 1M - 1,999,999 queries is $0.20;
-- 2M - 2,999,999 queries is $0.30;
+- 1 - 999,999 queries is $0.10
+- 1M - 1,999,999 queries is $0.20
+- 2M - 2,999,999 queries is $0.30
 
 And so on.
 
