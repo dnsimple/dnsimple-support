@@ -25,7 +25,7 @@ DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns
 </div>
 
 <info>
-The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [linking](/articles/integrated-dns-providers#linking-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [remove](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
+The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers#connecting-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
 </info>
 
 
