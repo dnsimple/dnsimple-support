@@ -31,7 +31,7 @@ The list of supported features and record types differs for each Integrated Prov
 
 ## Supported Integrated DNS Providers {#supported-integrated-dns-providers}
 
-To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to link an Integrated DNS Provider to your DNSimple account.
+To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to connect an Integrated DNS Provider to your DNSimple account.
 
 DNSimple supports zone integration with the providers listed below.
 
