@@ -1,6 +1,6 @@
 ---
 title: Azure DNS
-excerpt: Link your Azure account to manage Azure DNS zones at DNSimple.
+excerpt: Connect your Azure account to manage Azure DNS zones at DNSimple.
 categories:
 - DNS
 - Integrations
@@ -19,7 +19,7 @@ DNSimple supports the ability to view and manage public DNS zones that are deplo
 
 ## Prerequisites
 
-To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers), you need:
+To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers), you need:
 
 - [Azure Subscription ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-azure-subscription)
 - [Tenant ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant)
@@ -28,7 +28,7 @@ To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integ
 - [Client Secret](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app#add-a-client-secret) of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
-![Linking Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
+![Connecting Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
 
 ## Supported features
 

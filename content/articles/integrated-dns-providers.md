@@ -1,7 +1,7 @@
 ---
-meta: Link an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
+meta: Connect an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 title: Integrated DNS Providers at DNSimple
-excerpt: Link an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
+excerpt: Connect an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 categories:
 - DNS
 - Integrations
@@ -39,7 +39,7 @@ The list of supported features and record types differs for each Integrated Prov
 
 ## Supported Integrated DNS Providers {#supported-integrated-dns-providers}
 
-To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to link an Integrated DNS Provider to your DNSimple account.
+To manage [integrated zones](/articles/managing-integrated-zones) from DNSimple, you first have to connect an Integrated DNS Provider to your DNSimple account.
 
 DNSimple supports zone integration with the providers listed below. Click any of the links to view the setup guide for the provider.
 
@@ -56,7 +56,7 @@ However, record fields not supported by DNSimple or the destination provider may
 
 1. At DNSimple, go to the <label>Account</label> page, and click the <label>Integrated Providers</label> tab.
 1. Under <label>Connect an Integrated Provider<label>, click <label>Connect</label> for the Integrated DNS Provider you want to link to your DNSimple account.
-![Link an Integrated DNS Provider](/files/account-integrated-provider-link.png)
+![Connect an Integrated DNS Provider](/files/account-integrated-provider-link.png)
 1. Fill in any required parameters for the Integrated DNS Provider configuration.
 1. Fill in any necessary credentials for your account at the Integrated DNS Provider.
 ![Enter Integrated DNS Provider credentials](/files/account-external-provider-link-credentials.png)
@@ -111,13 +111,13 @@ If you have an existing domain in DNSimple, you can also add it to an Integrated
 
 1.  If the Integrated DNS Provider is already connected to the DNSimple account, select the desired one and click <label>Add</label> to add the zone to the provider.
 
-    ![Adding a Zone to an already linked DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
+    ![Adding a Zone to an already connected DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
 
     For example, if the provider is Azure, the zone will be created at Azure and imported into DNSimple. If the zone already exists at Azure, zone creation will be skipped, and the zone will be imported into DNSimple.
 
 1.  The Integrated DNS Provider must be connected to the DNSimple account before the zone can be added to the provider. Setup guides can be found in each provider's [support article](/articles/integrated-dns-providers#supported-integrated-dns-providers). Once the provider is connected, the zone will be added to the provider, or simply imported into DNSimple if the zone already existed at the provider.
 
-    ![Adding a Zone to a DNS Provider that has not yet been linked](/files/dns-zone-providers-add-to-unlinked-provider.png)
+    ![Adding a Zone to a DNS Provider that has not yet been connected](/files/dns-zone-providers-add-to-unlinked-provider.png)
 
 ## **Removing integrated zones from DNSimple** {#removing-integrated-zones-from-DNSimple}
 
