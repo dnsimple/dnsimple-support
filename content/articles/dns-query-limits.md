@@ -43,7 +43,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 ### How can I learn my zone volume if I'm planning to upgrade my plan?
 
-[Contact support](https://dnsimple.com/feedback), and we can give you your zones' query volume for the current billing period.
+[Contact support](/articles/dnsimple-support), and we can give you your zones' query volume for the current billing period.
 
 ### What is the average query volume a zone registers?
 
