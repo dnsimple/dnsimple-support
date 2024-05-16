@@ -23,7 +23,7 @@ There are two types of expiring domain notifications:
 
 ## Disabling expiration notifications
 
-We provide the ability to [disable expiration notifications on domains that are not set to auto-renew](/articles/disabling-expiration-notifications). At this time there is no way to disable other notifications.
+Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
 
 ## Changing the contact
 
@@ -32,10 +32,6 @@ To change the email address that receives these notifications, follow the instru
 ## What to do if your domain expires
 
 If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens When a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
-
-## Disabling expiration notifications
-
-Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
 
 ## Have more questions?
 
