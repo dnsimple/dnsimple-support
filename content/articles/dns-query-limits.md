@@ -47,7 +47,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 ### What is a DNS query? 
 
-A DNS query is a message a client sends to the DNS server to request information. Queries can come from browsers, email security verifications, and other automated processes.
+A DNS query is a message a client sends to the DNS server to request information. Queries are primarily used to find IP addresses associated with domain names. They can come from browsers, email security verifications, and other automated processes.
 
 ### What is the average query volume a zone registers?
 
