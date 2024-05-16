@@ -35,7 +35,7 @@ We won't charge fractions of the price. Any volume greater or equal to 1M and le
 
 ### What plans are affected by query volume fees?
 
-We currently charge query volume fees on Solo and Teams plans.
+We currently charge query volume fees on Solo and Teams plans. Enterprise plans have custom pricing.
 
 ### Where can I see my current query volume?
 
@@ -43,7 +43,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 ### How can I learn my zone volume if I'm planning to upgrade my plan?
 
-[Contact support](/articles/dnsimple-support), and we can give you your zones' query volume for the current billing period.
+[Contact support](/articles/dnsimple-support), and we can give you your zones' query volume for the current billing period. You can also use our pricing calculator (link) to get an estimate of your costs.
 
 ### What is a DNS query? 
 
