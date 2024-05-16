@@ -45,6 +45,10 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 [Contact support](/articles/dnsimple-support), and we can give you your zones' query volume for the current billing period.
 
+### What is a DNS query? 
+
+A DNS query is a message a client sends to the DNS server to request information. Queries can come from browsers, email security verifications, and other automated processes.
+
 ### What is the average query volume a zone registers?
 
 A typical zone will receive an average of 300K queries per month.
