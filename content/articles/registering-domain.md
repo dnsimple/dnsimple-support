@@ -35,3 +35,7 @@ If the registration fails, funds will be released.
 </info>
 
 </div>
+
+## Have more questions?
+
+If you have any questions about registering domains with DNSimple, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
