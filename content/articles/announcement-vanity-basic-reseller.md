@@ -55,7 +55,7 @@ Beginning June 30, 2024:
 
 #### For domains registered with DNSimple
 
-For all domains registered with DNSimple, we will automatically perform the necessary changes. The vanity name server feature will be shut down, and the delegation will be changed to DNSimple’s name servers.
+For all domains registered with DNSimple, we will automatically perform the necessary changes. The vanity name server feature will be shut down, and the delegation will be changed to DNSimple's name servers.
 
 #### For domains not registered with DNSimple
 
