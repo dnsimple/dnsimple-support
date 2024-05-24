@@ -1,6 +1,6 @@
 ---
 title: Vanity name servers on legacy Basic Resellers plans no longer supported
-excerpt: How to set a DS record on registered domains for Cloudflare DNSSEC.
+excerpt: DNSimple will no longer support vanity name servers for legacy Basic Reseller plans starting June 30, 2024. Affected customers will be notified via email.
 categories:
 ---
 
