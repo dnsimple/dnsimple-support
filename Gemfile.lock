@@ -128,7 +128,7 @@ GEM
     rbtree (0.4.6)
     ref (2.0.0)
     rexml (3.2.5)
-    rouge (4.2.0)
+    rouge (4.2.1)
     ruby-progressbar (1.13.0)
     sass-embedded (1.77.0)
       google-protobuf (>= 3.25, < 5.0)
