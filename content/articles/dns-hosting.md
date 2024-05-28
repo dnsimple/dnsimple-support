@@ -32,7 +32,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tlds) with us, and subscribe to a DNS hosting plan to manage the domain with us.
 
-To use our DNS hosting service, the account must be subscribed to a valid plan. Each plan provides different levels of services and has a specific number of DNS zones (domains) included in the subscription fee. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
+To use our DNS hosting service, the account must be subscribed to a valid plan. Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 
 
 ## Adding the domain
@@ -43,10 +43,10 @@ To use our DNS hosting services, you need to [add the domain to a DNSimple accou
 
 Once you've added your domain, you can configure the DNS records using the following options:
 
-- By [auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider:
+- By [auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider.
 - Configuring [two-way connectors](https://support.dnsimple.com/categories/connectors/). With two-way connections, both sides of the service are configured and monitored automatically.
 - Adding [one-click services](https://support.dnsimple.com/categories/services/). Our ready-to-use DNS snippets create the DNS configuration needed for web pages, email, and more.
-- Manually entering DNS records in the DNS record editor.
+- Manually entering DNS records in the DNS [record editor](https://support.dnsimple.com/articles/record-editor/).
 
 After configuring your records, you'll be prompted to activate the DNS zone, making it ready to receive traffic.
 
