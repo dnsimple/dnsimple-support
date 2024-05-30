@@ -39,12 +39,12 @@ To use our DNS hosting service, the account must be subscribed to a valid plan. 
 
 To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/transferring-domain) the domain to us.
 
-## Onboarding DNS records to your domain
+## Adding DNS records to your domain
 
 Once you've added your domain, you can configure the DNS records using the following options:
 
 - By [auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider.
-- Configuring [two-way connectors](https://support.dnsimple.com/categories/connectors/). With two-way connections, both sides of the service are configured and monitored automatically.
+- Configuring [connectors](https://support.dnsimple.com/categories/connectors/). With two-way connections, both sides of the service are configured and monitored automatically.
 - Adding [one-click services](https://support.dnsimple.com/categories/services/). Our ready-to-use DNS snippets create the DNS configuration needed for web pages, email, and more.
 - Manually entering DNS records in the DNS [record editor](https://support.dnsimple.com/articles/record-editor/).
 
