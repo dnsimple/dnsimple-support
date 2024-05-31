@@ -16,7 +16,7 @@ categories:
 
 ## 1. How to register or transfer a domain
 
-If you don’t own a domain name yet, you’ll need to register one before you can connect it to your website or email.
+If you don't own a domain name yet, you'll need to register one before you can connect it to your website or email.
 
 **Registering a domain with DNSimple**
 
@@ -35,6 +35,6 @@ Once your domain is ready to go, you can [transfer](https://support.dnsimple.com
 
 You also have the option to keep the domain registration at your current registrar and transfer only the DNS management to us — [Learn How](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/)
 
-## 2. How to view a domain’s transfer status
+## 2. How to view a domain's transfer status
 
-Once you’ve started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking “transfer in process”. Read more about the entire domain transfer process [here](https://support.dnsimple.com/articles/domain-transfer).
+Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking “transfer in process”. Read more about the entire domain transfer process [here](https://support.dnsimple.com/articles/domain-transfer).

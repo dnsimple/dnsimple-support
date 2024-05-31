@@ -13,4 +13,4 @@ Your dashboard and Domain List let you manage all of your domains across your ac
 
 The dashboard displays all of your accounts side-by-side. You can be a member of one or many accounts, managing your personal domains alongside company domains. Take a [video tour](https://www.youtube.com/watch?v=TAJ8R12hLrI&ab_channel=DNSimple) of the dashboard to see how it works.
 
-The next stop is your Domain List. Here, you’ll see the domains in your account, along with basic information for each, like if the domain is registered with DNSimple, has an active zone, certificates, and more. Learn more in our Domain List [video tour](https://www.youtube.com/watch?v=TAJ8R12hLrI&feature=youtu.be).
+The next stop is your Domain List. Here, you'll see the domains in your account, along with basic information for each, like if the domain is registered with DNSimple, has an active zone, certificates, and more. Learn more in our Domain List [video tour](https://www.youtube.com/watch?v=TAJ8R12hLrI&feature=youtu.be).
