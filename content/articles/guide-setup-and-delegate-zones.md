@@ -35,7 +35,7 @@ Adding a zone to DNSimple does not mean the domain will resolve through DNSimple
 
 **Adding a zone from your Domain List**
 
-You can also add a zone from your [Domain List](https://support.dnsimple.com/articles/domain-list/#add-new). Above the Domain List view, you'll see an “Add new” dropdown. From there, you can choose to add a DNS zone, a Secondary DNS zone, or a Reverse DNS zone.
+You can also add a zone from your [Domain List](https://support.dnsimple.com/articles/domain-list/#add-new). Above the Domain List view, you'll see an "Add new" dropdown. From there, you can choose to add a DNS zone, a Secondary DNS zone, or a Reverse DNS zone.
 
 ![screenshot: Add zone from domains](/files/add-zone-from-domains.png)
 

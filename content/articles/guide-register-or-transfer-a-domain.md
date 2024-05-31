@@ -37,4 +37,4 @@ You also have the option to keep the domain registration at your current registr
 
 ## 2. How to view a domain's transfer status
 
-Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking “transfer in process”. Read more about the entire domain transfer process [here](https://support.dnsimple.com/articles/domain-transfer).
+Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking "transfer in process". Read more about the entire domain transfer process [here](https://support.dnsimple.com/articles/domain-transfer).
