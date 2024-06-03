@@ -4,7 +4,7 @@ title: First Steps with your DNSimple account
 excerpt: A Quick Tour of Your Dashboard and Domain List
 categories:
 - DNSimple
-- Quick Start Guides
+- Guides
 ---
 
 # Guide: A Quick Tour of Your Dashboard and Domain List

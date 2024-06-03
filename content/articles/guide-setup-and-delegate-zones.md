@@ -4,9 +4,8 @@ title: Set Up Your First Zone and Delegate Zones to DNSimple
 excerpt: A guide for setting up your first zone with DNSimple
 categories:
 - DNSimple
-- Quick Start Guides
+- Guides
 ---
-
 
 # Guide: Set Up Your First Zone and Delegate Zones to DNSimple
 

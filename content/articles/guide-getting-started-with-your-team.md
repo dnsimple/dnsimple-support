@@ -4,7 +4,7 @@ title: First Steps guide to setting up your team
 excerpt: A Guide for setting up your team members with your account
 categories:
 - DNSimple
-- Quick Start Guides
+- Guides
 ---
 
 # Guide: Getting started with your team

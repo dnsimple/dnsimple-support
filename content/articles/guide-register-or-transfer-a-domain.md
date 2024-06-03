@@ -4,7 +4,7 @@ title: Transfer or Register Domains With DNSimple
 excerpt: How to register or transfer a domain with DNSimple
 categories:
 - DNSimple
-- Quick Start Guides
+- Guides
 ---
 
 # Guide: Register or Transfer a Domain With DNSimple
