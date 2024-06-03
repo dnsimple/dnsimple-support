@@ -21,7 +21,7 @@ There are several ways to add a zone to your DNSimple account. Let's look at the
 
 **Adding a zone from your dashboard**
 
-You'll see your accounts listed at the top of your [dashboard](https://support.dnsimple.com/articles/dashboard/). Click ‘Add' in the top right of the relevant account card, and choose the type of DNS zone from the dropdown menu.
+You'll see your accounts listed at the top of your [dashboard](https://support.dnsimple.com/articles/dashboard/). Click 'Add' in the top right of the relevant account card, and choose the type of DNS zone from the dropdown menu.
 
 ![screenshot: Add zone to your domain from dashboard](/files/add-zone-from-dashboard.png)
 
