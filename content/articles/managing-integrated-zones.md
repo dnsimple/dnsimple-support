@@ -26,4 +26,4 @@ From the Domain Names page, you can view the refreshed state of your DNSimple zo
 
 Loading the Domain Names page automatically [refreshes](/articles/record-editor-integrated-zones#importing-integrated-zone-records) the current state of integrated zones and their records from connected Integrated DNS Providers that support zone imports. The zones and zone records will be refreshed in the background upon page load, and the Domain Names page will automatically update to reflect them once ready.
 
-You can [manage the selection of zones to import](/articles/integrated-dns-providers##managing-integrated-zone-selection) from the Integrated Providers page.
+You can [manage the selection of zones to import](/articles/integrated-dns-providers#managing-integrated-zone-selection) from the Integrated Providers page.

@@ -10,7 +10,6 @@ gem 'kramdown-parser-gfm'
 gem 'mime-types'
 gem 'nokogiri'
 gem 'rouge'
-gem 'sass'
 gem 'systemu'
 
 group :test do
@@ -24,5 +23,6 @@ group :development do
 end
 
 group :nanoc do
+  gem 'nanoc-dart-sass'
   gem 'nanoc-live'
 end
