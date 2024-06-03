@@ -1,13 +1,13 @@
 ---
-meta: A Guide for getting started with your team on DNSimple
-title: First Steps guide to setting up your team
-excerpt: A Guide for setting up your team members with your account
+meta: A guide for getting started with your team on DNSimple
+title: First Steps Guide to Setting Up Your Team
+excerpt: A guide for setting up your team members with your account
 categories:
 - DNSimple
 - Guides
 ---
 
-# Guide: Getting started with your team
+# Guide: Getting Started With Your Team
 
 ### Table of Contents {#toc}
 
