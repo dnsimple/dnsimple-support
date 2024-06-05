@@ -21,7 +21,7 @@ If you don't own a domain name yet, you'll need to register one before you can c
 **Registering a domain with DNSimple**
 
 To register a domain to your account, follow the steps in [Registering a Domain](https://support.dnsimple.com/articles/registering-domain/).
-You can choose from over 500 top-level domains (TLDs) to register with DNSimple —  [find yours now](https://dnsimple.com/tlds).
+You can choose from over 500 top-level domains (TLDs) to register with DNSimple — [find yours now](https://dnsimple.com/tlds).
 
 If you already own a domain name and want to manage its registration through DNSimple, you'll need to transfer your domain from your current domain registrar.
 
