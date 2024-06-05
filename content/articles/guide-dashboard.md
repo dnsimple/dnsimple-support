@@ -1,6 +1,6 @@
 ---
 meta: A Quick Tour of Your Dashboard and Domain List
-title: First Steps with your DNSimple account
+title: First Steps with Your DNSimple Account
 excerpt: A Quick Tour of Your Dashboard and Domain List
 categories:
 - DNSimple
