@@ -72,3 +72,5 @@ If you've registered a domain with DNSimple but aren't yet using our name server
 **Domains at other registrars**
 
 If your domain is at another registrar, you can enter DNSimple's name servers in your account at that registrar. Just follow [these instructions](https://support.dnsimple.com/articles/delegating-dnsimple-hosted). Before you transfer a domain from another registrar, make sure it's prepared — [learn how](https://support.dnsimple.com/articles/before-transferring-domain/).
+
+If you have any questions about setting up or delegating zones, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
