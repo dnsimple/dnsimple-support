@@ -5,6 +5,7 @@ excerpt: We charge $0.10 per million queries per zone.
 categories:
 - DNSimple
 ---
+
 # DNS Query Volume Fees
 
 We charge $0.10 per million queries per zone on Solo and Teams plans.
