@@ -27,7 +27,7 @@ If you already own a domain name and want to manage its registration through DNS
 
 **Transferring your domain**
 
-Before you transfer a domain from another registrar, make sure to read our article on [how to prepare to transfer your domain.](https://support.dnsimple.com/articles/before-transferring-domain/)
+Before you transfer a domain from another registrar, make sure to read our article on [how to prepare to transfer your domain](https://support.dnsimple.com/articles/before-transferring-domain/).
 
 Once your domain is ready to go, you can [transfer](https://support.dnsimple.com/articles/domain-transfer/) it to DNSimple. We also help you [transfer without downtime](https://dnsimple.com/how-to-transfer-a-domain-without-downtime), ensuring your customers have continued access to your site.
 
