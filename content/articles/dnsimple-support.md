@@ -14,8 +14,6 @@ If you're already a DNSimple customer, the easiest way to contact us is within t
 
 Scroll to the bottom of your DNSimple app and click 'Contact Us'.
 
-SCREENSHOT
-
 You'll be sent to our contact page that has a fillable form. Complete that form to provide us with information to best help you with your question.
 
 The contact page is also a great place to find our [support documentation](https://support.dnsimple.com), [developer documentation](https://developer.dnsimple.com) and [status page](https://dnsimple.statuspage.io).
