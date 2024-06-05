@@ -5,7 +5,6 @@ excerpt: We charge $0.10 per million queries per zone.
 categories:
 - DNSimple
 ---
-
 # DNS Query Volume Fees
 
 We charge $0.10 per million queries per zone on Solo and Teams plans.
@@ -45,7 +44,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 [Contact support](/articles/dnsimple-support), and we can give you your zones' query volume for the current billing period. You can also use our [pricing calculator](https://dnsimple.com/pricing#pricing-calculator) to get an estimate of your costs.
 
-### What is a DNS query? 
+### What is a DNS query?
 
 A DNS query is a message a client sends to the DNS server to request information. Queries are primarily used to find IP addresses associated with domain names. They can come from browsers, email security verifications, and other automated processes.
 
