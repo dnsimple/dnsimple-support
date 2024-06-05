@@ -20,9 +20,9 @@ To get started with your team's DNSimple account, you should first verify that y
 
 If you're an administrator for your team, we recommend enabling MFA enforcement to ensure every team member has MFA set up before they can work with your domains and DNS.
 
-To set up MFA follow [this guide.](https://support.dnsimple.com/articles/multi-factor-authentication/#enable)
+To set up MFA, follow [this guide](https://support.dnsimple.com/articles/multi-factor-authentication/#enable).
 
-To enforce MFA for your team, follow [these steps](https://support.dnsimple.com/articles/multi-factor-authentication-enforcement/#enable)
+To enforce MFA for your team, follow [these steps](https://support.dnsimple.com/articles/multi-factor-authentication-enforcement/#enable).
 
 ## 2. How to verify domain access control
 
@@ -32,4 +32,4 @@ If you're an administrator for an account, our Domain Access Control [support ar
 
 ## 3. Learn more about managing zones, registering domains, and other DNSimple features
 
-Visit the [Get Started](https://support.dnsimple.com/articles/getting-started/) page on our support site for links to information and guides on everything you can do with your DNSimple account. If you have any questions, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+Visit the [Getting Started](https://support.dnsimple.com/articles/getting-started/) page on our support site for links to information and guides on everything you can do with your DNSimple account. If you have any questions, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
