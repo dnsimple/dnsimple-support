@@ -40,7 +40,7 @@ You can also add a zone from your [Domain List](https://support.dnsimple.com/art
 
 ## 2. How to add records to zones
 
-Once you've added your zone, the next step is to add DNS records to that zone. There are a number of ways to do this.
+Once you've added your zone, the next step is adding DNS records to that zone. There are a number of ways to do this.
 
 **Auto-importing records**
 
@@ -63,7 +63,7 @@ Manage a lot of zones? Learn how to create, update, and delete zone records in o
 
 ## 3. How to delegate your domain to DNSimple
 
-If you have a zone with some records in your DNSimple account, you're ready to delegate your domains to DNSimple or another registrar. Let's look at how that works and what to do if you're transferring a domain from another registrar. Click any of the links to learn more.
+If you have a zone with records in your DNSimple account, you're ready to delegate your domains to DNSimple or another registrar. Let's look at how that works and what to do if you're transferring a domain from another registrar. 
 
 **Domains registered with DNSimple**
 
@@ -71,5 +71,4 @@ If you've registered a domain with DNSimple but aren't yet using our name server
 
 **Domains at other registrars**
 
-If your domain is at another registrar, you can enter DNSimple's name servers in your account at that registrar. Just follow the instructions [here](https://support.dnsimple.com/articles/delegating-dnsimple-hosted). Before you transfer a domain from another registrar, make sure it's prepared — [ read more](https://support.dnsimple.com/articles/before-transferring-domain/).
-
+If your domain is at another registrar, you can enter DNSimple's name servers in your account at that registrar. Just follow [these instructions](https://support.dnsimple.com/articles/delegating-dnsimple-hosted). Before you transfer a domain from another registrar, make sure it's prepared — [learn how](https://support.dnsimple.com/articles/before-transferring-domain/).
