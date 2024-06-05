@@ -14,9 +14,9 @@ If you're already a DNSimple customer, the easiest way to contact us is within t
 
 Scroll to the bottom of your DNSimple app and click 'Contact Us'.
 
-SCREENSHOT 
+SCREENSHOT
 
-You'll be sent to our contact page that has a fillable form. Complete that form to provide us with information to best help you with your question. 
+You'll be sent to our contact page that has a fillable form. Complete that form to provide us with information to best help you with your question.
 
 The contact page is also a great place to find our [support documentation](https://support.dnsimple.com), [developer documentation](https://developer.dnsimple.com) and [status page](https://dnsimple.statuspage.io).
 
@@ -44,6 +44,8 @@ Enterprise clients receive priority support and have a dedicated queue for faste
 
 If you're an Enterprise customer and want to send a priority support email, fill out the contact form while logged in to your account.
 
+![screenshot: Contact Us Form](/files/contact-support.png)
+
 If you think an Enterprise plan might be a good fit for you, [contact sales](https://dnsimple.com/sales), and we'll get you set up.
 
 ## How can I contact DNSimple support if I'm not logged in?
@@ -52,7 +54,7 @@ Go to dnsimple.com/contact and fill out the form under Email Us. Be sure to use 
 
 Alternatively, you can email us at support@dnsimple.com at any time. Use the email associated with your DNSimple account.
 
-<Alert> 
+<Alert>
 You must be an authorized user on the account (meaning you have login access) to receive any account specific help. We cannot and will not share account information with an unauthorized user.
 </Alert>
 
