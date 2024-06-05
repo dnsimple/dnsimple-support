@@ -40,11 +40,11 @@ Response times may be slower on weekends or holidays. View our [Customer Support
 
 ## How do I get priority support?
 
-Clients with Enterprise subscriptions have priority support and a dedicated queue for faster responses. They are guaranteed to hear from us within an hour of receiving the initial request, provided the request is sent through their priority channel.
+Enterprise clients receive priority support and have a dedicated queue for faster responses. They are guaranteed to hear from us within an hour of receiving the initial request, provided the request is sent through their priority channel.
 
 If you're an Enterprise customer and want to send a priority support email, fill out the contact form while logged in to your account.
 
-If you think an Enterprise plan might be a good fit for you, [contact sales](https://dnsimple.com/sales), and we'll get you set up with what you need.
+If you think an Enterprise plan might be a good fit for you, [contact sales](https://dnsimple.com/sales), and we'll get you set up.
 
 ## How can I contact DNSimple support if I'm not logged in?
 
