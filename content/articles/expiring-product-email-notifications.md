@@ -10,26 +10,29 @@ categories:
 
 # Expiring Product Email Notifications
 
-DNSimple monitors the expiration date of your products and sends email notifications when they're at risk of expiring.
-
-We monitor the following products:
-
-- Purchased domains
-- Purchased certificates
-
-As soon as one of these products enters the 60-day expiration period, we start sending email notifications.
+DNSimple monitors the expiration date of your purchased domains and certificates. We'll send weekly email notifications to the account owner when these products are 60 days from expiration.
 
 There are two types of expiring domain notifications:
 
-- [Product Expiration](/articles/product-expiration-notification) - A digest email containing the list of products expiring within 2 months. It's delivered every week if you have products expiring.
-- [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - A final reminder containing the list of products expiring in less than 24 hours, delivered the day before the expiration date.
-
-The notifications are delivered to the email address associated with your account.
+- [Product Expiration](/articles/product-expiration-notification) - An email reminder with a list of products expiring within 2 months. This is delivered every week if you have products expiring within 60 days.
+- [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
 
 <info>
-ICANN also sends required notifications more frequently about domains registered with us. These notifications will be sent to the registrant email address for the domain and cannot be disabled.
+[ICANN](https://www.icann.org/en/resources/registrars/consensus-policies/errp) and our upstream provider will also notify you about the status of your domain via email. All notifications will be sent to the listed domain owner. These notifications cannot be disabled.
 </info>
 
-## Disabling Expiration Notifications
+## Disabling expiration notifications
 
-We provide the ability to [disable expiration notifications on domains that are not set to auto-renew](/articles/disabling-expiration-notifications). At this time there is no way to disable other notifications.
+Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
+
+## Changing the contact
+
+To change the email address that receives these notifications, follow the instructions in [changing the account email](https://support.dnsimple.com/articles/changing-email/#changing-the-account-email).
+
+## What to do if your domain expires
+
+If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens When a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
+
+## Have more questions?
+
+If you have any questions about expiring products or notifications, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
