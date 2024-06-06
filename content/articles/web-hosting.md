@@ -9,27 +9,30 @@ categories:
 
 # Web Hosting Support
 
-We focus primarily on [domain management services](/articles/dnsimple-services), so we don't provide web hosting.
+## Does DNSimple provide web hosting services?
 
-If you want to transfer your domain, and your registrar currently provides web hosting, these are your options:
+No, we don't. DNSimple focuses on simplifying your domain and DNS management. We offer a variety of features that let you set up and connect your domains to popular services that already exist, rather than trying to create our own solution. With DNSimple, you can have the best of both worlds, instead of mediocre products for each one.
 
-1. Use a _platform as a service_ provider such as [Heroku](https://heroku.com/), [Azure](https://azure.microsoft.com/en-us/) or [Google Platform](https://cloud.google.com/).
-1. Use a cloud provider such as [Amazon EBS](https://aws.amazon.com/ebs/) or [DigitalOcean](https://www.digitalocean.com/).
-1. If you want to host a static site, use a cloud hosting solution such as [Amazon S3](https://aws.amazon.com/s3/), [GitHub Pages](https://pages.github.com/) or [GitLab Pages](https://pages.gitlab.io/).
+Check out our [one-click services](https://dnsimple.com/benefits/integrations) page to view all the available integrations — including reliable web hosting services.
 
+## What is web hosting?
+
+Web hosts provide online services that let you publish your website or web application on the internet. When you use a web hosting service, you're paying for space on the web host's physical server. Whichever web host you choose stores all the files and data necessary for you to create and maintain a functioning website.
+
+## What's the difference between DNS and web hosting?
+
+A web host provides the online space in which your actual website is hosted, a DNS host is a network service that provides the authoritative nameserver for your domain's queries. Web hosts sometimes offer free DNS as part of their packages. But they are two completely different services, and jst because it's included doesn't mean it's the best option. A fast and reliable DNS hosting provider is crucial in today's digital climate. That's where DNSimple comes in.
+
+## Why doesn't DNSimple provide web hosting services?
+
+We focus on offering the best domain management platform by enabling our customers to set up and [connect their domains to services] (https://dnsimple.com/benefits/integrations) that already exist, rather than trying to create our own top-to-bottom solution.
+
+Technologies for creating websites require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few Megabytes of hard disk. This makes it more challenging to do both domain management and web hosting while maintaining the quality you expect from DNSimple.
 
 ## FTP credentials
 
 Because we don't host your application or files directly, we can't provide any FTP credentials. Please refer to your application hosting provider for information on how to access your content.
 
-
-## Why DNSimple doesn't provide web hosting services
-
-- We focus on offering the best domain management platform by enabling our customers to set up and connect their domains to popular services that already exist, rather than trying to create our own top-to-bottom solution.
-- The web is diverse and complex, and there are myriad technologies available for creating websites. These require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few Megabytes of hard disk.
-- There are many useful websites for people who need personal sites.
-
-
 ## Identifying your web host
 
-You can determine your web host using a tool like [Hosting Checker](https://hostingchecker.com).
+You can determine your web host using a tool like [Hosting Checker](https://hostingchecker.com/).
