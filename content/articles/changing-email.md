@@ -45,7 +45,7 @@ categories:
 
     ![Enter email address](/files/account-change-email-2.png)
 
-1.  If the update is successful, you'll be redirected to the account page. Make sure the account correctly displays the new address.
+1.  If the update is successful, you'll be redirected to the user page. Make sure it correctly displays the new address.
 
 </div>
 
