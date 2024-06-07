@@ -38,8 +38,8 @@ Each domain has an overview with the following information:
 
 ![](/files/domain-list-headers.png)
 
- ### Domain Name 
- A clickable link to the domain-specific home page to view, edit and manage the DNS and Domain Management. 
+### Domain Name
+A clickable link to the domain-specific home page to view, edit and manage the DNS and Domain Management.
 
 ### Domain Registration 
 The state of the domain in DNSimple.
