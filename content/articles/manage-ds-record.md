@@ -83,11 +83,11 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
 1.  In the DS records page, search for the record and click on the _trash_ icon to delete it.
 
-    ![Delete DS Record](/files/ds-records-delete.png)
+    ![screenshot: Delete DS Record](/files/ds-records-delete.png)
 
 2.  Confirm the dialog to delete the record.
 
-    ![](/files/ds-records-delete-confirmation.png)
+    ![screenshot: Showing confirmation prior to deleting DS record](/files/ds-records-delete-confirmation.png)
 
 3.  The record is deleted and no longer visible in the record list.
 </div>

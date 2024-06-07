@@ -27,11 +27,11 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 1.  In the record editor, click <label>Add</label> and select <label>CNAME</label> to add a new CNAME record.
 
-    ![](/files/record-cname-create-select.png)
+    ![screenshot: select add CNAME record](/files/record-cname-create-select.png)
 
 1.  Enter the CNAME record information.
 
-    ![](/files/record-cname-create-new.png)
+    ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
 
     - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
     - _Content_: the target host name this host will point to. It must be a host name (e.g. foo.bar.com) and not a URL (e.g. http://foo.bar.com or http://foo.bar.com/foo are invalid).
@@ -46,7 +46,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 1.  The record is created and visible in the record list.
 
-    ![](/files/record-cname-item.png)
+    ![screenshot: Showing a CNAME record](/files/record-cname-item.png)
 
 </div>
 
@@ -58,7 +58,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
-    ![](/files/record-cname-item-edit.png)
+    ![screenshot: Showing button to edit a CNAME record](/files/record-cname-item-edit.png)
 
 1.  Update the information and click <label>Update Record</label> to save the record.
 </div>
@@ -71,7 +71,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
-    ![](/files/record-cname-item-delete.png)
+    ![screenshot: Showing button to delete a CNAME record](/files/record-cname-item-delete.png)
 
 1.  Confirm the dialog to delete the record.
 </div>

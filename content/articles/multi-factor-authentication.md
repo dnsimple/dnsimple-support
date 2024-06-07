@@ -51,7 +51,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1.  The setup process ends here if you have an alternative MFA method already set up; however, if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. Copy and store the [recovery code](#recovery-code) in a safe place.
 
-    ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)      
+    ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
 
 1.  Follow the instructions to complete the setup and activate multi-factor authentication via one-time password.
 
@@ -134,7 +134,7 @@ You can remove a one-time password authenticator application or any security key
 </div>
 
 ## Logging in with multi-factor authentication {#login}
-When multi-factor protection is enabled, you must perform a second verification step each time you log in with your username and password. The second verification step can be done with an authentication method you have enabled, like one-time passwords or security keys. 
+When multi-factor protection is enabled, you must perform a second verification step each time you log in with your username and password. The second verification step can be done with an authentication method you have enabled, like one-time passwords or security keys.
 
 <div class="section-steps" markdown="1">
 ##### Using a one-time password
@@ -164,7 +164,7 @@ The verification code automatically expires every 30 seconds. If the expiration 
 
 1.  Log in to DNSimple with your username and password.
 
-1.  If the credentials are correct, you'll see a 2-Step Verification window. 
+1.  If the credentials are correct, you'll see a 2-Step Verification window.
 
     ![Multi-factor authentication](/files/mfa-login-security-key.png)
 
@@ -194,11 +194,11 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 
 1.  On the 2-Step Verification page, click <label>Use recovery code</label>.
 
-    ![](/files/user-mfa-login-recovery-code.png)
+    ![screenshot: Use recovery code for MFA](/files/user-mfa-login-recovery-code.png)
 
 1.  Enter the recovery code, and click <label>Log in and disable all multi-factor authentications</label>.
 
-    ![](/files/user-mfa-disable-with-recovery-code.png)
+    ![screenshot: Use recovery code disables MFA authentication](/files/user-mfa-disable-with-recovery-code.png)
 
 1.  If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
@@ -295,6 +295,6 @@ Sometimes, a one-time password verification code may not be accepted, despite en
 
 The verification code automatically expires every 30 seconds. Most one-time password authenticator apps display a count-down with the remaining time before expiration.
 
-![](/files/2fa-code-expiration.png)
+![screenshot: Display of countdown of 2fa code expiration](/files/2fa-code-expiration.png)
 
 If the expiration is close to five seconds or less, you should wait for the next verification code to limit the possibility of an authentication failure caused by time differences or connection latency.

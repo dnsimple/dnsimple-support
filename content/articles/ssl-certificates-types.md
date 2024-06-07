@@ -33,7 +33,7 @@ The order normally takes from a few minutes to a few hours.
 
 If the certificate is valid and signed by a trusted authority, the browsers indicate a successfully secured HTTPS connection.
 
-![](/files/dnsimple-ssltypes-https.png)
+![screenshot: Showing an accepted SSL certificate in a browser URL bar](/files/dnsimple-ssltypes-https.png)
 
 <info>
 DNSimple provides both [single-name and wildcard](/articles/ssl-certificates) domain-validated certificates.
@@ -49,7 +49,7 @@ The order can take from a few hours to a few days, due to the company validation
 
 The Organization Validated SSL Certificates display the company information in the certificate details.
 
-![](/files/dnsimple-ssltypes-company.png)
+![screenshot: Viewing information of an SSL company certificate](/files/dnsimple-ssltypes-company.png)
 
 <info>
 DNSimple currently doesn't provide organization-validated certificates.
@@ -65,7 +65,7 @@ The order can take from a few days to a few weeks, due to the extended validatio
 
 The Extended Validation SSL Certificates are generally identified with a green address bar in the browser containing the company name.
 
-![](/files/dnsimple-ssltypes-greenbar.png)
+![screenshot: Showing green url bar when a SSL certificate is present on a site](/files/dnsimple-ssltypes-greenbar.png)
 
 <info>
 DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates).
