@@ -27,11 +27,11 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  In the record editor, click <label>Add</label> and select <label>A</label> to add a new A record.
 
-    ![](/files/record-a-create-select.png)
+    ![screenshot: Showing select menu for choosing to create a new A record](/files/record-a-create-select.png)
 
 1.  Enter the A record information.
 
-    ![](/files/record-a-create-new.png)
+    ![screenshot: Showing form for creating an A record for a domain](/files/record-a-create-new.png)
 
     - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
 
@@ -50,7 +50,7 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  The record is created and visible in the record list.
 
-    ![](/files/record-a-item.png)
+    ![screenshot: Showing an A record for a domain](/files/record-a-item.png)
 
 </div>
 
@@ -62,7 +62,7 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
-    ![](/files/record-a-item-edit.png)
+    ![screenshot: Showing button for editing an A record from a domain](/files/record-a-item-edit.png)
 
 1.  Update the information and click <label>Update Record</label> to save the record.
 </div>
@@ -75,7 +75,7 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
-    ![](/files/record-a-item-delete.png)
+    ![screenshot: Showing button for deleting an A record from a domain](/files/record-a-item-delete.png)
 
 1.  Confirm the dialog to delete the record.
 </div>

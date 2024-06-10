@@ -93,7 +93,7 @@ You select the validation email when you purchase the certificate. You can use o
 
 1.  Read the list of all available approver emails.
 
-    ![](/files/dnsimple-ssl-selectapprover.png)
+    ![screenshot: Select email to receive SSL approval message](/files/dnsimple-ssl-selectapprover.png)
 
 2.  Choose the email address you want to use by clicking on it.
 3.  Click *Send Approver Email* to configure and submit the certificate for validation.
@@ -113,11 +113,11 @@ If the approver is not in this list or you need time to configure one of those e
 
 1.  Click <label>complete the setup process now</label>.
 
-    ![](/files/dnsimple-ssl-completesetup.png)
+    ![screenshot: Complete the SSL setup process](/files/dnsimple-ssl-completesetup.png)
 
 1.  Read the list of all available approver emails.
 
-    ![](/files/dnsimple-ssl-selectapprover.png)
+    ![screenshot: Select email address to approve the certificate](/files/dnsimple-ssl-selectapprover.png)
 
 1.  Choose the email address you want to use by clicking on it.
 1.  Click <label>Send Approver Email</label> to configure and submit the certificate for validation.
