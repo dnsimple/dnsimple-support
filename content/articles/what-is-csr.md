@@ -1,5 +1,4 @@
 ---
-meta: The Certificate Signing Request is a block of encrypted text that is sent to the Certificate Authority in order to apply for a certificate.
 title: What is the CSR?
 excerpt: The Certificate Signing Request is a block of encrypted text that is sent to the Certificate Authority in order to apply for a certificate.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: DNSimple offers multi-layered DDoS defense.
 title: Protection Against DDoS Attacks
 excerpt: DNSimple offers multi-layered DDoS defense.
 categories:

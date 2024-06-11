@@ -1,5 +1,4 @@
 ---
-meta: Manage and sync the DNS records of a zone at DNSimple and/or Integrated DNS Providers.
 title: Record Editor for Integrated Zones
 excerpt: Manage and sync the DNS records of a zone at DNSimple and/or Integrated DNS Providers.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to use DNSimple's Chrome Extension to transfer your domain to DNSimple from Google Domains
 title: Google Domain Transfer Chrome Extension
 excerpt: How to use DNSimple's Chrome Extension to transfer your domain to DNSimple from Google Domains
 categories:

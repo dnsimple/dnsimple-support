@@ -1,5 +1,4 @@
 ---
-meta: What ECS is and how it works.
 title: EDNS Client Subnet support for ALIAS records
 excerpt: What ECS is and how it works.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to set up Surge DNS using DNSimple's one-click service.
 title: Surge Service
 excerpt: How to set up Surge DNS using DNSimple's one-click service.
 categories:

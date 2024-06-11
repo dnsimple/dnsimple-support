@@ -1,5 +1,4 @@
 ---
-meta: An explanation of what name servers are, why they're important, and how to set them up.
 title: What is a name server?
 excerpt: An explanation of what name servers are, why they're important, and how to set them up.
 categories:

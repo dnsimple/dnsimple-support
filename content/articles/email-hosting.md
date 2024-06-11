@@ -1,5 +1,4 @@
 ---
-meta: We focus primarily on domain management services, so we don't provide email hosting.
 title: Email Hosting Support
 excerpt: We focus primarily on domain management services, so we don't provide email hosting.
 categories:

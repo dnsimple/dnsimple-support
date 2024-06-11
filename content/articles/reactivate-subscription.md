@@ -1,5 +1,4 @@
 ---
-meta: How to reactivate the subscription for a DNSimple account.
 title: Reactivate your subscription
 excerpt: How to reactivate the subscription for a DNSimple account.
 categories:

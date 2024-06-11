@@ -1,5 +1,4 @@
 ---
-meta: Some reasons DNSimple doesn't offer web hosting services.
 title: Why we don't offer web hosting services
 excerpt: Some reasons DNSimple doesn't offer web hosting services.
 categories:

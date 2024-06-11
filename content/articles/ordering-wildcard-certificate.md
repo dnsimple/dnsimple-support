@@ -1,5 +1,4 @@
 ---
-meta: How to order a wildcard SSL certificate with DNSimple.
 title: Ordering a Wildcard SSL Certificate
 excerpt: How to order a wildcard SSL certificate with DNSimple.
 categories:

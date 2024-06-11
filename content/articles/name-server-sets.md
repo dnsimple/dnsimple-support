@@ -1,5 +1,4 @@
 ---
-meta: How to use name server sets to facilitate the configuration of domain name servers and zone NS records.
 title: Name Server Sets
 excerpt: How to use name server sets to facilitate the configuration of domain name servers and zone NS records.
 categories:

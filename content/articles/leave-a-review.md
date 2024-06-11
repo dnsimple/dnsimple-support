@@ -1,5 +1,4 @@
 ---
-meta: At DNSimple, we love hearing what our customers have to say!
 title: Leave a Review
 excerpt: At DNSimple, we love hearing what our customers have to say!
 categories:

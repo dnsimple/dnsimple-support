@@ -1,5 +1,4 @@
 ---
-meta: How to connect a Heroku app to your domain using DNSimple's Heroku Connector
 title: Heroku Connector
 excerpt: How to connect a Heroku app to your domain using DNSimple's Heroku Connector
 categories:

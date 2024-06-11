@@ -1,5 +1,4 @@
 ---
-meta: The Record Editor gives you the ability to view, create, and manage the DNS records for a domain.
 title: Record Editor
 excerpt: The Record Editor gives you the ability to view, create, and manage the DNS records for a domain.
 categories:

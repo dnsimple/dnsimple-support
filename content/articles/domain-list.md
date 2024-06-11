@@ -1,5 +1,4 @@
 ---
-meta: How to use the DNSimple Domain List to manage your domains.
 title: Getting to Know Your DNSimple Domain List
 excerpt: How to use the DNSimple Domain List to manage your domains.
 categories:

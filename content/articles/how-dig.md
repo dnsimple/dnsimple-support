@@ -1,5 +1,4 @@
 ---
-meta: Instructions to determine the Certificate Authority that signed an SSL certificate.
 title: How to Use dig
 excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
 categories:

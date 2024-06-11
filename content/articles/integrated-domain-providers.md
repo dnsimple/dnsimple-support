@@ -1,5 +1,4 @@
 ---
-meta: Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
 title: Integrated Domain Providers at DNSimple
 excerpt: Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
 categories:

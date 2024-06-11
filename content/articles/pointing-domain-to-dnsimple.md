@@ -1,5 +1,4 @@
 ---
-meta: How to point a domain to DNSimple's name servers.
 title: Pointing a Domain to DNSimple
 excerpt: How to point a domain to DNSimple's name servers.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: After changing your registration info, you cannot transfer your domain for 60 days.
 title: ICANN 60-Day Lock After Change of Registrant
 excerpt: After changing your registration info, you cannot transfer your domain for 60 days.
 categories:

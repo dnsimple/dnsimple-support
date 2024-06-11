@@ -1,5 +1,4 @@
 ---
-meta: This article summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates.
 title: Standard vs Let's Encrypt SSL Certificates
 excerpt: This article summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: Examples of the most common DNS records to configure for your domain.
 title: Common DNS Records
 excerpt: Examples of the most common DNS records to configure for your domain.
 categories:

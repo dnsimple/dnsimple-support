@@ -1,5 +1,4 @@
 ---
-meta: How to register a domain with a DNSimple account.
 title: Registering a Domain
 excerpt: How to register a domain with a DNSimple account.
 categories:

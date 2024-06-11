@@ -1,5 +1,4 @@
 ---
-meta: Learn how to configure DNSimple as a secondary DNS provider.
 title: Add DNSimple as a secondary DNS server
 excerpt: Learn how to configure DNSimple as a secondary DNS provider.
 categories:

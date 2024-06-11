@@ -1,5 +1,4 @@
 ---
-meta: With DNSimple, you can share a domain with other users to share management.
 title: Sharing Domain Management with Other Users
 excerpt: With DNSimple, you can share a domain with other users to share management.
 categories:

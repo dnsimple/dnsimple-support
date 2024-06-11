@@ -1,5 +1,4 @@
 ---
-meta: You installed an SSL certificate on Heroku but it is not working properly.
 title: Troubleshooting Heroku SSL errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
 categories:

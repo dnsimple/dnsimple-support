@@ -1,5 +1,4 @@
 ---
-meta: We charge $0.10 per million queries per zone.
 title: DNS Query Volume Fees
 excerpt: We charge $0.10 per million queries per zone.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure your Azure application.
 title: SSL Certificates with Microsoft Azure
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure your Azure application.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
 title: Re-issuing an SSL Certificate
 excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
 categories:

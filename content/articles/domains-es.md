@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .ES domain names.
 title: .ES Domains
 excerpt: This article explains the requirements and special procedures for .ES domain names.
 categories:

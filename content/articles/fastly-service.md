@@ -1,5 +1,4 @@
 ---
-meta: How to set up Fastly DNS using DNSimple's one-click service.
 title: Fastly Service
 excerpt: How to set up Fastly DNS using DNSimple's one-click service.
 categories:

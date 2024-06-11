@@ -1,5 +1,4 @@
 ---
-meta: How to use DNSimple's Consul NIA Integration to automate DNS management via Network Infrastructure Automation (NIA)
 title: Consul Integration
 excerpt: How to use DNSimple's Consul NIA Integration to automate DNS management via Network Infrastructure Automation (NIA)
 categories:

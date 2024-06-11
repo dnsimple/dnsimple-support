@@ -1,5 +1,4 @@
 ---
-meta: If you would like to keep your contact information private for a domain then you may sign up for the WHOIS privacy service.
 title: What is WHOIS Privacy Service?
 excerpt: If you would like to keep your contact information private for a domain then you may sign up for the WHOIS privacy service.
 categories:

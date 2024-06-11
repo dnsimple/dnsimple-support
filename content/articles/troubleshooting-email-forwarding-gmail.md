@@ -1,5 +1,4 @@
 ---
-meta: How to check and debug email forwarding issues.
 title: Troubleshooting Email Forwarding with Gmail
 excerpt: How to check and debug email forwarding issues.
 categories:
