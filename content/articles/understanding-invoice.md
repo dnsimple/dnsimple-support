@@ -25,7 +25,7 @@ There are three types of invoices from DNSimple:
   - Solo — No base fee. Your hosted zones and query volume will show up here.
   - Teams — $29/month base fee
   - Enterprise — Custom pricing
-- Domain registrations, transfers, and renewal purchases
+- Domain registration, transfer, and renewal purchases
 - Certificate purchases
 
 Solo and Teams plan subscribers will see itemized billing for zones hosted on DNSimple and zone queries. Enterprise and higher plans receive custom billing rates.
@@ -53,7 +53,7 @@ Here's a closer look at what your invoice means:
 | 1. | Product Name | This section gives an itemized listing of your [charges](#charge-types) for the invoice billing cycle. Invoices for purchases and subscriptions are sent separately.|
 | 2. | Quantity | The quantity of each product you are being billed for. |
 | 3. | Amount | The cost of a single product. |
-| 4. | Discount | Any discounts that have been applied, per product, to your invoice |
+| 4. | Discount | Any discounts that have been applied, per product, to your invoice. |
 | 5. | Total | The total amount you will be charged per product. |
 | 6. | Grand Total | The total amount owed.|
 
