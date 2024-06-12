@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .DE domain names.
 title: .DE Domains
 excerpt: This article explains the requirements and special procedures for .DE domain names.
 categories:

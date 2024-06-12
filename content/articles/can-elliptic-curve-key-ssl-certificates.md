@@ -1,5 +1,4 @@
 ---
-meta: Information about Elliptic Curve Cryptography (ECC) SSL certificate support at DNSimple.
 title: Do you support Elliptic Curve Cryptography (ECC) SSL certificates?
 excerpt: Information about Elliptic Curve Cryptography (ECC) SSL certificate support at DNSimple.
 categories:

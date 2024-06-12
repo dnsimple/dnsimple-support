@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .DAY domain names.
 title: .DAY Domains
 excerpt: This article explains the requirements and special procedures for .DAY domain names.
 categories:

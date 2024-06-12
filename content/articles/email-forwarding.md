@@ -1,5 +1,4 @@
 ---
-meta: This article explains the email forwarding service provided by DNSimple.
 title: Email Forwarding
 excerpt: This article explains the email forwarding service provided by DNSimple.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to change a DNSimple account's payment details.
 title: Changing Payment Details
 excerpt: How to change a DNSimple account's payment details.
 categories:

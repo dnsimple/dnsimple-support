@@ -1,5 +1,4 @@
 ---
-meta: How to move a domain from one DNSimple account to another.
 title: Transferring a Domain to Another DNSimple Account
 excerpt: How to move a domain from one DNSimple account to another.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to set up Mailgun DNS using DNSimple's one-click service.
 title: Mailgun Service
 excerpt: How to set up Mailgun DNS using DNSimple's one-click service.
 categories:

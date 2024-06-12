@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .BE names.
 title: .BE Domains
 excerpt: This article explains the requirements and special procedures for .BE names.
 categories:

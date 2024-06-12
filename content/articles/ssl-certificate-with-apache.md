@@ -1,5 +1,4 @@
 ---
-meta: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Apache, and configure the Apache host.
 title: SSL Certificates with Apache
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Apache, and configure the Apache host.
 categories:

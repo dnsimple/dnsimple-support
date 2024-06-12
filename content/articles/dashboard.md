@@ -1,5 +1,4 @@
 ---
-meta: How to use the DNSimple Dashboard to manage your domains.
 title: Getting to Know Your DNSimple Dashboard
 excerpt: How to use the DNSimple Dashboard to manage your domains.
 categories:

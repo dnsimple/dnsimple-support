@@ -1,5 +1,4 @@
 ---
-meta: How to check and debug URL redirect issues.
 title: Troubleshooting URL Redirects
 excerpt: How to check and debug URL redirect issues.
 categories:

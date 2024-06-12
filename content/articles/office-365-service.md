@@ -1,5 +1,4 @@
 ---
-meta: How to set up Office 365 DNS using DNSimple's one-click service.
 title: Office 365 Service
 excerpt: How to set up Office 365 DNS using DNSimple's one-click service.
 categories:

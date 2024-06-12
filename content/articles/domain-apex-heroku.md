@@ -1,5 +1,4 @@
 ---
-meta: How to point your domain to your Heroku application using DNSimple.
 title: Pointing the Domain Apex to Heroku
 excerpt: How to point your domain to your Heroku application using DNSimple.
 categories:

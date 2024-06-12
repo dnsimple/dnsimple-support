@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .XXX domain names.
 title: .XXX Domains
 excerpt: This article explains the requirements and special procedures for .XXX domain names.
 categories:

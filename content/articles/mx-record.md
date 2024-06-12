@@ -1,5 +1,4 @@
 ---
-meta: What an MX record is, and how to create MX records with DNSimple.
 title: What's an MX Record?
 excerpt: What an MX record is, and how to create MX records with DNSimple.
 categories:

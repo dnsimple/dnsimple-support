@@ -1,5 +1,4 @@
 ---
-meta: How to ensure an account is secured by requiring all members of an account to use Multi-Factor Authentication.
 title: Enforce Multi-Factor Authentication for All Members of an Account
 excerpt: How to ensure an account is secured by requiring all members of an account to use Multi-Factor Authentication.
 categories:

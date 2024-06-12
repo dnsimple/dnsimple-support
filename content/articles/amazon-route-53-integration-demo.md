@@ -1,5 +1,4 @@
 ---
-meta: An introductory demo to integrating Amazon Route 53 with DNSimple.
 title: Amazon Route 53 Integration Demo
 excerpt: An introductory demo to integrating Amazon Route 53 with DNSimple.
 categories:

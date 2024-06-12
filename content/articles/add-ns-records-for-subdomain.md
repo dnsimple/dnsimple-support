@@ -1,5 +1,4 @@
 ---
-meta: How to delegate a subdomain from a domain registered to custom name servers.
 title: Adding NS Records for a Subdomain
 excerpt: How to delegate a subdomain from a domain registered to custom name servers.
 categories:

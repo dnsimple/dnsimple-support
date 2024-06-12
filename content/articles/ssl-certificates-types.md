@@ -1,5 +1,4 @@
 ---
-meta: This article quickly explains the differences between the various types you may want to use to secure a website.
 title: SSL Certificate Types
 excerpt: This article quickly explains the differences between the various types you may want to use to secure a website.
 categories:

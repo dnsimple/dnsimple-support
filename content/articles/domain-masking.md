@@ -1,5 +1,4 @@
 ---
-meta: Information on Domain Masking and URL Masking.
 title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking.
 categories:

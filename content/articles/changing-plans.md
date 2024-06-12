@@ -1,5 +1,4 @@
 ---
-meta: How to change the subscribed plan for a DNSimple account.
 title: Changing Subscription Plan
 excerpt: How to change the subscribed plan for a DNSimple account.
 categories:

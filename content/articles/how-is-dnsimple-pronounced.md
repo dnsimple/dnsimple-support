@@ -1,5 +1,4 @@
 ---
-meta: "It's not always obvious how to pronounce DNSimple. Here's a guide."
 title: How to pronounce DNSimple
 excerpt: "It's not always obvious how to pronounce DNSimple. Here's a guide."
 categories:

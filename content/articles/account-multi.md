@@ -1,5 +1,4 @@
 ---
-meta: How to manage multiple accounts per DNSimple user and switch active accounts. 
 title: Multiple Accounts Per User
 excerpt: How to manage multiple accounts per DNSimple user and switch active accounts. 
 categories:

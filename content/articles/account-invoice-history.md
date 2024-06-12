@@ -1,5 +1,4 @@
 ---
-meta: Using the payment history on your account and understanding the states of the listed invoices.
 title: Account Invoice History
 excerpt: Using the payment history on your account and understanding the states of the listed invoices.
 categories:

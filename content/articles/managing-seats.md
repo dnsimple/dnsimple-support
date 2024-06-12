@@ -1,5 +1,4 @@
 ---
-meta: Managing Seats and Members in Your Team Account.
 title: Managing seats
 excerpt: Managing Seats and Members in Your Team Account.
 categories:

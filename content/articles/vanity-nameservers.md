@@ -1,5 +1,4 @@
 ---
-meta: How to enable and disable Vanity Name Servers in DNSimple.
 title: Vanity Name Servers
 excerpt: How to enable and disable Vanity Name Servers in DNSimple.
 categories:

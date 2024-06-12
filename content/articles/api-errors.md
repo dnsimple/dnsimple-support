@@ -1,5 +1,4 @@
 ---
-meta: You can find more information about API errors in our developer site.
 title: API Errors
 excerpt: You can find more information about API errors in our developer site.
 categories:

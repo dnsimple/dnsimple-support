@@ -1,5 +1,4 @@
 ---
-meta: What an SRV record is, and how to add an SRV record in DNSimple.
 title: What's an SRV Record?
 excerpt: What an SRV record is, and how to add an SRV record in DNSimple.
 categories:

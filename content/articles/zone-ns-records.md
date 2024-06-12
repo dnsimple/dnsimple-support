@@ -1,5 +1,4 @@
 ---
-meta: How to update zone NS records for a hosted domain
 title: Zone NS Records
 excerpt: How to update zone NS records for a hosted domain
 categories:

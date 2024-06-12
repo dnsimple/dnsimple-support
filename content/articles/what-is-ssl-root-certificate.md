@@ -1,5 +1,4 @@
 ---
-meta: A Root SSL certificate is a certificate issued by a trusted certificate authority.
 title: What is a Root Certificate?
 excerpt: A Root SSL certificate is a certificate issued by a trusted certificate authority.
 categories:

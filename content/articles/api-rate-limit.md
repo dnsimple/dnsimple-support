@@ -1,5 +1,4 @@
 ---
-meta: You can find our API rate limit at the developer site.
 title: API Rate Limit
 excerpt: You can find our API rate limit at the developer site.
 categories:

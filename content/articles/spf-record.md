@@ -1,5 +1,4 @@
 ---
-meta: What an SPF record is, and how the SPF record works.
 title: What's an SPF Record?
 excerpt: What an SPF record is, and how the SPF record works.
 categories:

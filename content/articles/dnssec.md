@@ -1,5 +1,4 @@
 ---
-meta: DNSimple provides full support for DNSSEC in our authoritative name servers, including signing of zones registered outside DNSimple.
 title: DNSSEC
 excerpt: DNSimple provides full support for DNSSEC in our authoritative name servers, including signing of zones registered outside DNSimple.
 categories:

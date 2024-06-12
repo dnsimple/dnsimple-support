@@ -1,5 +1,4 @@
 ---
-meta: How to protect your DNSimple account using multi-factor authentication
 title: Multi-Factor Authentication
 excerpt: How to protect your DNSimple account using multi-factor authentication
 categories:

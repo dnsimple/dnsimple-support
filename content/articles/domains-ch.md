@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .CH domain names.
 title: .CH Domains
 excerpt: This article explains the requirements and special procedures for .CH domain names.
 categories:

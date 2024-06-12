@@ -1,5 +1,4 @@
 ---
-meta: How to order a standard SSL certificate with DNSimple.
 title: Ordering a Standard SSL Certificate
 excerpt: How to order a standard SSL certificate with DNSimple.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: The Product Expiration email contains a list of products expiring within two months, grouped by expiration range.
 title: Product Expiration Notification
 excerpt: The Product Expiration email contains a list of products expiring within two months, grouped by expiration range.
 categories:

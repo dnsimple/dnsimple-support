@@ -1,5 +1,4 @@
 ---
-meta: This article contains instructions to check and debug domain resolution issues.
 title: Troubleshooting Domain Resolution Issues
 excerpt: This article contains instructions to check and debug domain resolution issues.
 categories:

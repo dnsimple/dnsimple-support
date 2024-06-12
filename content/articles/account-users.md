@@ -1,5 +1,4 @@
 ---
-meta: How to manage the members on a multi-user DNSimple account.
 title: Managing Multiple Members on One Account
 excerpt: How to manage the members on a multi-user DNSimple account.
 categories:

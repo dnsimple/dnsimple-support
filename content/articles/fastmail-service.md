@@ -1,5 +1,4 @@
 ---
-meta: How to set up Fastmail DNS using DNSimple's one-click service.
 title: Fastmail Service
 excerpt: How to set up Fastmail DNS using DNSimple's one-click service.
 categories:

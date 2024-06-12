@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .AU domain names.
 title: .AU Domains
 excerpt: This article explains the requirements and special procedures for .AU domain names.
 categories:

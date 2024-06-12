@@ -1,5 +1,4 @@
 ---
-meta: Description of what happens if an account is unsubscribed.
 title: What happens if I stop paying for my DNSimple subscription?
 excerpt: Description of what happens if an account is unsubscribed.
 categories:

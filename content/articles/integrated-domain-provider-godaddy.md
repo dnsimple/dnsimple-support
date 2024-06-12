@@ -1,5 +1,4 @@
 ---
-meta: Link your GoDaddy account to manage domains at DNSimple.
 title: Integrated Domain Provider - GoDaddy
 excerpt: Link your GoDaddy account to manage domains at DNSimple.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: What a DMARC record is, and how DMARC records work.
 title: What's a DMARC record?
 excerpt: What a DMARC record is, and how DMARC records work.
 categories:

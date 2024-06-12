@@ -1,5 +1,4 @@
 ---
-meta: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
 title: Add Dyn as a secondary DNS server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
 categories:

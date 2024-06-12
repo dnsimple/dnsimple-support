@@ -1,5 +1,4 @@
 ---
-meta: How to change the email associated with a DNSimple account or user.
 title: Changing Email
 excerpt: How to change the email associated with a DNSimple account or user.
 categories:
