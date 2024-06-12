@@ -21,7 +21,11 @@ These purchases may include:
 
 We use a [PCI-compliant](https://stripe.com/guides/pci-compliance) billing provider to process and store all payment data.
 
-ACH or Wire transfer (only available on Enterprise plans)
+## ACH or wire transfer
+
+<info>
+Only available for Enterprise clients.
+</info>
 
 [Enterprise](https://dnsimple.com/sales) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to pay their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted to reflect the payment received, and all charges will be deducted from it. 
 
