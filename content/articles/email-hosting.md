@@ -11,7 +11,7 @@ categories:
 
 ## Does DNSimple provide email hosting?
 
-Our primary focus is domain management services, so we don't provide email hosting. We work to focus on your DNS and domain management and provide you with the best possible experience for those services.
+No. Our primary focus is domain management services, so we don't provide email hosting. We work to focus on your DNS and domain management and provide you with the best possible experience for those services.
 
 ## What is an email hosting service?
 
