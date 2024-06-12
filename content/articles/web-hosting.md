@@ -35,4 +35,4 @@ Because we don't host your application or files directly, we can't provide any F
 
 ## Identifying your web host
 
-You can determine your web host using a tool like [Hosting Checker](https://hostingchecker.com).
+You can determine your web host by using a tool like [Hosting Checker](https://hostingchecker.com).
