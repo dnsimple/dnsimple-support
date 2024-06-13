@@ -1,5 +1,4 @@
 ---
-meta: How to set up Divio Aldryn DNS using DNSimple's one-click service.
 title: Divio Aldryn Service
 excerpt: How to set up Divio Aldryn DNS using DNSimple's one-click service.
 categories:

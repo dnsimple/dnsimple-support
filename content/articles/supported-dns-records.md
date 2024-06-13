@@ -1,5 +1,4 @@
 ---
-meta: The list of DNS record types (RR) supported by DNSimple.
 title: Supported DNS Record Types
 excerpt: The list of DNS record types (RR) supported by DNSimple.
 categories:

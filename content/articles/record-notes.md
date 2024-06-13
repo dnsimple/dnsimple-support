@@ -1,5 +1,4 @@
 ---
-meta: Make notes on your records to remember the purpose of the change.
 title: Record Notes
 excerpt: Make notes on your records to remember the purpose of the change.
 categories:

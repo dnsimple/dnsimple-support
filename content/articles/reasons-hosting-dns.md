@@ -1,5 +1,4 @@
 ---
-meta: You should consider DNSimple for easy DNS management and expert support.
 title: Why should I host my DNS with DNSimple?
 excerpt: You should consider DNSimple for easy DNS management and expert support.
 categories:

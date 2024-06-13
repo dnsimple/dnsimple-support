@@ -1,5 +1,4 @@
 ---
-meta: Setting up simple Dynamic DNS with DNSimple.
 title: Dynamic DNS
 excerpt: Setting up simple Dynamic DNS with DNSimple.
 categories:

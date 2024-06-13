@@ -1,5 +1,4 @@
 ---
-meta: Information about regulated and highly-regulated TLDs.
 title: Regulated Top-Level Domains
 excerpt: Information about regulated and highly-regulated TLDs.
 categories:

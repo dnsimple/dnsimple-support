@@ -1,5 +1,4 @@
 ---
-meta: What to do when you need your SSL Certificate to be signed with an RSA key.
 title: I got an ECC-signed certificate but want RSA
 excerpt: What to do when you need your SSL Certificate to be signed with an RSA key.
 categories:

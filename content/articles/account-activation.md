@@ -1,5 +1,4 @@
 ---
-meta: How to activate your DNSimple account.
 title: Account Activation
 excerpt: How to activate your DNSimple account.
 categories:

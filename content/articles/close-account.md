@@ -1,5 +1,4 @@
 ---
-meta: How to permanently delete yourself as a DNSimple user.
 title: Deleting yourself as a user
 excerpt: How to permanently delete yourself as a DNSimple user.
 categories:

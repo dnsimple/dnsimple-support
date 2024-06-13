@@ -1,5 +1,4 @@
 ---
-meta: How to set up Gigalixir DNS using DNSimple's one-click service.
 title: Gigalixir Service
 excerpt: How to set up Gigalixir DNS using DNSimple's one-click service.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to set up Geniuslink DNS using DNSimple's one-click service.
 title: Geniuslink Service
 excerpt: How to set up Geniuslink DNS using DNSimple's one-click service.
 categories:

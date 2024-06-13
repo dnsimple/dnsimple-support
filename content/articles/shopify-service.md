@@ -1,5 +1,4 @@
 ---
-meta: How to set up Shopify DNS using DNSimple's one-click service.
 title: Shopify Service
 excerpt: How to set up Shopify DNS using DNSimple's one-click service.
 categories:

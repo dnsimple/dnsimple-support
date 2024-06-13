@@ -1,5 +1,4 @@
 ---
-meta: Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
 title: Integrated Domain Providers at DNSimple
 excerpt: Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
 categories:
@@ -22,7 +21,6 @@ DNSimple supports the ability to manage domains that are registered with other d
 
 - **Import integrated domains**: When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domain Names page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, name servers from the DNSimple dashboard.
-- **Register domains via DNSimple**: Learn how to [register](/articles/registering-domain) a domain on your Integrated Provider via DNSimple.
 - **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain) your domains.
 - **Domain expiration notices**: Get email notifications when your integrated domains are near expiry.
 

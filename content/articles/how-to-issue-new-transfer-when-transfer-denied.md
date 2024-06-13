@@ -1,5 +1,4 @@
 ---
-meta: How to proceed in case a domain transfer was denied.
 title: How can I issue a new transfer order when a transfer is denied?
 excerpt: How to proceed in case a domain transfer was denied.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Heroku, and configure your Heroku application.
 title: SSL Certificates with Heroku
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Heroku, and configure your Heroku application.
 categories:

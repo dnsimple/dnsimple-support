@@ -1,5 +1,4 @@
 ---
-meta: How to restore a domain with a DNSimple account.
 title: Restoring a Domain
 excerpt: How to restore a domain with a DNSimple account.
 categories:

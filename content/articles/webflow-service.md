@@ -1,5 +1,4 @@
 ---
-meta: How to set up Webflow DNS using DNSimple's one-click service.
 title: Webflow Service
 excerpt: How to set up Webflow DNS using DNSimple's one-click service.
 categories:

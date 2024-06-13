@@ -1,5 +1,4 @@
 ---
-meta: Payment methods supported by DNSimple.
 title: Payment methods
 excerpt: Payment methods supported by DNSimple.
 categories:

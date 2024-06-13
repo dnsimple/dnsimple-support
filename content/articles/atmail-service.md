@@ -1,5 +1,4 @@
 ---
-meta: How to set up Atmail DNS using DNSimple's one-click service.
 title: Atmail Service
 excerpt: How to set up Atmail DNS using DNSimple's one-click service.
 categories:

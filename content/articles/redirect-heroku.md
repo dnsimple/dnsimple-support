@@ -1,5 +1,4 @@
 ---
-meta: This article explains how to use DNSimple to redirect to an app hosted on Heroku with/without HTTPS.
 title: Redirecting www to Non-www Domain at Heroku
 excerpt: This article explains how to use DNSimple to redirect to an app hosted on Heroku with/without HTTPS.
 categories:

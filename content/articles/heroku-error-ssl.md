@@ -1,5 +1,4 @@
 ---
-meta: You installed an SSL certificate on Heroku but it is not working properly.
 title: Troubleshooting Heroku SSL errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
 categories:
@@ -42,7 +41,7 @@ Here's a few possible variants of the error message, depending on the browser yo
 >
 > This server could not prove that it is **www.alpha.com**; its security certificate is from **www.bravo.com**. This may be caused by a misconfiguration or an attacker intercepting your connection.
 
-![](/files/heroku-ssl-error-commonname-chrome.png)
+![screenshot: Showing SSL certificate error in Chrome](/files/heroku-ssl-error-commonname-chrome.png)
 
 **Google Chrome**
 
@@ -50,8 +49,8 @@ Here's a few possible variants of the error message, depending on the browser yo
 >
 > You attempted to reach example.com, but instead you actually reached a server identifying itself as *.herokuapp.com. This may be caused by a misconfiguration on the server or by something more serious. An attacker on your network could be trying to get you to visit a fake (and potentially harmful) version of example.com.
 
-![](/files/heroku-ssl-error-commonname-chrome2.png)
+![screenshot: Showing SSL certificate error in Chrome](/files/heroku-ssl-error-commonname-chrome2.png)
 
 **Safari**
 
-![](/files/heroku-ssl-error-commonname-safari.png)
+![screenshot: Showing SSL certificate error in Safari](/files/heroku-ssl-error-commonname-safari.png)

@@ -1,5 +1,4 @@
 ---
-meta: Protect your domain from accidental transfers with DNSimple SuperLock.
 title: DNSimple SuperLock
 excerpt: Protect your domain from accidental transfers with DNSimple SuperLock.
 categories:

@@ -1,5 +1,4 @@
 ---
-meta: How to use templates to facilitate the entry of DNS records.
 title: How to use templates
 excerpt: How to use templates to facilitate the entry of DNS records.
 categories:

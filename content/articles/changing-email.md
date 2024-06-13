@@ -1,5 +1,4 @@
 ---
-meta: How to change the email associated with a DNSimple account or user.
 title: Changing Email
 excerpt: How to change the email associated with a DNSimple account or user.
 categories:
@@ -15,16 +14,6 @@ categories:
 
 ---
 
-## A note about accounts
-
-When you initially sign up as a user in our system, we create an account bound to that user. We call this the Primary Account, and the email address is the same as the username. If you change the email address for that user, the account email address will also be updated. That way customers with a single account only have to update their email in one place. Follow the instructions in [Changing User Email](#changing-the-user-email) if this is the case for you.
-
-Extra accounts have their own email addresses that can be changed ad-hoc.
-
-<warning>
-System limitations do not currently allow Primary Accounts to be deleted.
-</warning>
-
 ## Changing the account email
 
 <div class="section-steps" markdown="1">
@@ -38,12 +27,6 @@ System limitations do not currently allow Primary Accounts to be deleted.
     ![Email link](/files/account-email.png)
 
 </div>
-
-<info>
-If the <label>Account email</label> input field is missing under <label>Edit account</label>, then this is the Primary account attached to your user. You'll need to [update your user email to change this address](#changing-the-user-email).
-</info>
-
-You can change the email associated with your user profile from the DNSimple account page.
 
 ## Changing the user email
 
@@ -61,7 +44,7 @@ You can change the email associated with your user profile from the DNSimple acc
 
     ![Enter email address](/files/account-change-email-2.png)
 
-1.  If the update is successful, you'll be redirected to the account page. Make sure the account correctly displays the new address.
+1.  If the update is successful, you'll be redirected to the user page. Make sure it correctly displays the new address.
 
 </div>
 

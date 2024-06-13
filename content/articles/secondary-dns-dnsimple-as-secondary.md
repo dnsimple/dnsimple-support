@@ -1,5 +1,4 @@
 ---
-meta: Learn how to configure DNSimple as a secondary DNS provider.
 title: Add DNSimple as a secondary DNS server
 excerpt: Learn how to configure DNSimple as a secondary DNS provider.
 categories:
@@ -77,9 +76,6 @@ These are our AXFR client IPs:
 - Production
   - `3.12.234.2`
   - `2600:1f16:ae2:e900:f05c:9438:865f:64a0`
-- Sandbox
-  - `3.142.158.214`
-  - `2600:1f16:ae2:e900:413:73dd:ebf2:2902`
 
 ## Ensuring the domain is delegated through both providers for greater redundancy
 

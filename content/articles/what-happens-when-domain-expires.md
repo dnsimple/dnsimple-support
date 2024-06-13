@@ -1,5 +1,4 @@
 ---
-meta: What happens when a domain expires, how to recover it, and understanding the associated fees.
 title: What Happens When a Domain Expires?
 excerpt: What happens when a domain expires, how to recover it, and understanding the associated fees.
 categories:

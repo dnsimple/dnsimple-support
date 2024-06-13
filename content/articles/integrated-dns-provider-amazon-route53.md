@@ -1,5 +1,4 @@
 ---
-meta: Connect your Amazon Route 53 account to manage zones at DNSimple.
 title: Amazon Route 53
 excerpt: Connect your Amazon Route 53 account to manage zones at DNSimple.
 categories:

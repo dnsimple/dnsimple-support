@@ -1,5 +1,4 @@
 ---
-meta: This article explains the requirements and special procedures for .XXX domain names.
 title: .XXX Domains
 excerpt: This article explains the requirements and special procedures for .XXX domain names.
 categories:
@@ -22,7 +21,7 @@ In order for a .XXX domain to be activated by the .XXX registry and be allowed t
 
 You can provide the token during the registration in the UI or as an extended attribute via API:
 
-![](/files/xxx-member-auth-token.png)
+![screenshot: Enter member authorization token](/files/xxx-member-auth-token.png)
 
 <strong>NOTE:</strong> Anyone can register non-resolving .XXX domains. Only individuals, business, entities, and organizations that:
 

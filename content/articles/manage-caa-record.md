@@ -1,5 +1,4 @@
 ---
-meta: Instructions to add, update, and remove a CAA record in DNSimple.
 title: Managing CAA Records
 excerpt: Instructions to add, update, and remove a CAA record in DNSimple.
 categories:
@@ -45,13 +44,13 @@ We don't support the ability to specify via interface the destructured CAA recor
 
 1.  In the record editor, click <label>Add</label> and select <label>CAA</label> to add a new CAA record.
 
-    ![](/files/record-caa-create-select.png)
+    ![screenshot: Showing selecting CAA from record type to add](/files/record-caa-create-select.png)
 
 1.  Select the <label>Provider</label> tab.
 
 1.  Enter the CAA record information.
 
-    ![](/files/record-caa-create-new.png)
+    ![screenshot: Showing create new CAA record form](/files/record-caa-create-new.png)
 
     - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
     - _Provider_: the Certificate Authority you want to allow.
@@ -67,7 +66,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 
 1.  The record is created and visible in the record list.
 
-    ![](/files/record-caa-item.png)
+    ![screenshot: Showing a CAA record](/files/record-caa-item.png)
 
 </div>
 
@@ -79,7 +78,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 
 1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
-    ![](/files/record-caa-item-edit.png)
+    ![screenshot: Showing button for edit CAA record](/files/record-caa-item-edit.png)
 
 1.  Update the information and click <label>Update Record</label> to save the record.
 </div>
@@ -92,7 +91,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 
 1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
-    ![](/files/record-caa-item-delete.png)
+    ![screenshot: showing delete button for CAA record](/files/record-caa-item-delete.png)
 
 1.  Confirm the dialog to delete the record.
 </div>

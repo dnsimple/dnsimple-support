@@ -1,5 +1,4 @@
 ---
-meta: How to enable and disable WHOIS Privacy for a domain.
 title: WHOIS Privacy Protection
 excerpt: How to enable and disable WHOIS Privacy for a domain.
 categories:

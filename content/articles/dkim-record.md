@@ -1,5 +1,4 @@
 ---
-meta: What a DKIM record is, and how DKIM records work.
 title: What's a DKIM Record?
 excerpt: What a DKIM record is, and how DKIM records work.
 categories:

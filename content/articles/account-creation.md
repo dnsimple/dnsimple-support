@@ -1,5 +1,4 @@
 ---
-meta: How to sign up for a DNSimple account or create a new account for an existing DNSimple user.
 title: Account Creation
 excerpt: How to sign up for a DNSimple account or create a new account for an existing DNSimple user.
 categories:

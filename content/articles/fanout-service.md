@@ -1,5 +1,4 @@
 ---
-meta: How to set up Fanout DNS using DNSimple's one-click service.
 title: Fanout Service
 excerpt: How to set up Fanout DNS using DNSimple's one-click service.
 categories:
