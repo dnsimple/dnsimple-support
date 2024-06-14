@@ -91,7 +91,7 @@ To manage the zone selection for an Integrated DNS Provider, follow these steps:
 
     ![View imported Integrated Zones](/files/account-integrated-provider-view-zones.png)
 
-1.  To add or remove zones, click "Add or remove integrated zones". You can then update the selection of integrated zones that should be imported into DNSimple.
+1.  To add or remove zones, click "Manage integrated zones". You can then update the selection of integrated zones that should be imported into DNSimple.
 
     ![Add or remove Integrated Zones](/files/account-integrated-provider-add-remove-zones.png)
 
