@@ -1,6 +1,6 @@
 ---
 title: Azure DNS
-excerpt: Link your Azure account to manage Azure DNS zones at DNSimple.
+excerpt: Connect your Azure account to manage Azure DNS zones at DNSimple.
 categories:
 - DNS
 - Integrations
@@ -19,7 +19,7 @@ DNSimple supports the ability to view and manage public DNS zones that are deplo
 
 ## Prerequisites
 
-To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers), you need:
+To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers), you need:
 
 - [Azure Subscription ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-azure-subscription)
 - [Tenant ID](https://learn.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-microsoft-entra-tenant)
@@ -28,7 +28,7 @@ To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integ
 - [Client Secret](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app#add-a-client-secret) of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
-![Linking Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
+![Connecting Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
 
 ## Supported features
 
@@ -36,8 +36,8 @@ To link [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integ
 Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#tags) and [metadata](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#metadata) will not be retained and will be <strong>lost</strong> when using this integration.
 </warning>
 
-- **Import integrated zones**: When you link Azure DNS to your DNSimple account, all the zones hosted on Azure will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
-- **Adding and deleting integrated zones**: [Add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) zones to/from the Integrated DNS Provider, from within DNSimple.
+- **Import integrated zones**: When you connect Azure DNS to your DNSimple account, you can [select](/articles/integrated-dns-providers#managing-integrated-zone-selection) the zones hosted on Azure that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones) page.
+- **Adding and removing integrated zones**: [Add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) zones to/from Azure, from within DNSimple. You can also [remove](/articles/integrated-dns-providers#removing-integrated-zones-from-DNSimple) an integrated zone from DNSimple while keeping it at Azure.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones). (See: [Supported record types for Azure DNS](/articles/integrated-dns-provider-azure-dns#supported-record-types))
 - **2-way Syncing of Records**: Sync your zone records from Azure to DNSimple, or from DNSimple to Azure, with the [Record Editor](/articles/record-editor-integrated-zones#record-syncing).
 
