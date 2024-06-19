@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'nanoc', '~> 4.12'
+gem 'nanoc', '~> 4.13'
 gem 'ddmemoize'
 gem 'puma'
 gem 'builder'
