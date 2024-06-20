@@ -16,7 +16,7 @@ categories:
 
 Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible – after all, [Simple](/articles/how-is-dnsimple-pronounced/) is in our name.
 
-## Step 1: Setting up a DNSimple account and trial
+## Step 1: Setting up your DNSimple account and free trial
 
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
 1. Enter your email address and password. Click Join.
