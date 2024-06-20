@@ -24,7 +24,7 @@ You can use DNSimple for Primary, [Secondary](/articles/secondary-dns/), and [Re
 
 ### What is a DNS zone?
 
-DNS zones can contain several [record types](articles/common-dns-records/) for mapping domain names to IP addresses or other information. They distribute the workload associated with a domain to prevent overloading specific servers or administrators, give organizations better control over managing DNS records and traffic distribution, and accelerate data retrieval and routing.
+DNS zones can contain several [record types](/articles/common-dns-records/) for mapping domain names to IP addresses or other information. They distribute the workload associated with a domain to prevent overloading specific servers or administrators, give organizations better control over managing DNS records and traffic distribution, and accelerate data retrieval and routing.
 
 ## Domain registration, transfer, and renewal
 
