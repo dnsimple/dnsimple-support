@@ -4,7 +4,6 @@ excerpt: "DNSimple provides essential services for every Internet-connected syst
 categories:
 - DNSimple
 ---
-
 # DNSimple Services
 
 DNSimple provides essential services for every Internet-connected system:
@@ -21,15 +20,15 @@ If you manage domains across different services, our [Domain Control Plane](http
 
 Each DNS zone is billed separately from any base subscription fee. Pricing is available on our pricing page.
 
-You can use DNSimple for Primary, [Secondary](/articles/secondary-dns/), and [Reverse](/articles/reverse-dns/) DNS. 
+You can use DNSimple for Primary, [Secondary](/articles/secondary-dns/), and [Reverse](/articles/reverse-dns/) DNS.
 
-### What is a DNS zone? 
+### What is a DNS zone?
 
 DNS zones can contain several [record types](articles/common-dns-records/) for mapping domain names to IP addresses or other information. They distribute the workload associated with a domain to prevent overloading specific servers or administrators, give organizations better control over managing DNS records and traffic distribution, and accelerate data retrieval and routing.
 
 ## Domain registration, transfer, and renewal
 
-We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the TLD (Top-Level Domain). For more information, view our [TLD price list](https://dnsimple.com/tlds). 
+We bill domain registrations and transfers on a yearly basis. Pricing varies depending on the TLD (Top-Level Domain). For more information, view our [TLD price list](https://dnsimple.com/tlds).
 
 We also support [domain transfers](/articles/domain-transfer/) to and from DNSimple and offer domain [auto-renewal](/articles/domain-auto-renewal/).
 
@@ -47,7 +46,7 @@ Some things you can do with our API include:
 - Buy SSL certificates.
 - List and Manage Records.
 - Register to events using [webhooks](https://dnsimple.com/webhooks) to receive notification of changes.
-- [Query DNS analytics data](https://developer.dnsimple.com/v2/dns-analytics/)
+- [Query DNS analytics data](https://developer.dnsimple.com/v2/dns-analytics/).
 
 Read more about our [API features and abilities](https://dnsimple.com/api).
 
