@@ -39,7 +39,9 @@ Once you are done, run `rake run` to see your changes.
 
 ## Contributing
 
-When submitting a pull request, apply the label `articles` and set yourself as assignee. Select `@SarahCaminiti1` and `@deandre` for review and, if your PR makes more substantive changes to copy, select `@itsalyse` as well for copy editing.
+Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassian.net/wiki/spaces/BIZOPS/pages/2615115803/Support+Article+Creation+and+Update+Procedure). Draft all new articles and any substantial updates in Google docs prior to creating a PR. 
+
+When submitting a pull request, apply the label `articles` and set yourself as assignee.
 
 Once all approvals are given and the pipeline is green, merge the PR yourself and delete the source branch.
 
