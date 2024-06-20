@@ -64,9 +64,9 @@ We offer:
 
 For a complete list of our One-click services and how to add them, (view this article)[/articles/services/].
 
-## SSL Certificates
+## SSL certificates
 
-We provide three types of SSL Certificates:
+We provide three types of SSL certificates:
 
 - Single-host SSL certificates
 - Wildcard certificates (included in the Teams plan and higher)
