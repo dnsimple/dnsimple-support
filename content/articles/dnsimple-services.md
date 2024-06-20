@@ -33,11 +33,11 @@ We bill domain registrations and transfers on a yearly basis. Pricing varies dep
 
 We also support [domain transfers](/articles/domain-transfer/) to and from DNSimple and offer domain [auto-renewal](/articles/domain-auto-renewal/).
 
-Want to use our DNS hosting, but not registration? You have the option to use another registrar and [change your name servers to our name servers](/articles/delegating-dnsimple-hosted/). DNSimple customers aren’t required to use our domain registration services to take advantage of our hosted DNS.
+Want to use our DNS hosting, but not registration? You have the option to use another registrar and [change your name servers to our name servers](/articles/delegating-dnsimple-hosted/). DNSimple customers aren't required to use our domain registration services to take advantage of our hosted DNS.
 
 ## Powerful automation API
 
-With DNSimple’s REST API, you can register domain names and administrate them directly from your own scripts. We have a repository [filled with API examples](https://github.com/dnsimple/dnsimple-api-examples), so you can get up and running.
+With DNSimple's REST API, you can register domain names and administrate them directly from your own scripts. We have a repository [filled with API examples](https://github.com/dnsimple/dnsimple-api-examples), so you can get up and running.
 
 Some things you can do with our API include:
 
@@ -71,7 +71,7 @@ We provide three types of SSL Certificates:
 
 - Single-host SSL certificates
 - Wildcard certificates (included in the Teams plan and higher)
-- Let’s Encrypt SSL certificates (included in all subscriptions)
+- Let's Encrypt SSL certificates (included in all subscriptions)
 
 [Learn more about DNSimple certificates](/articles/ssl-certificates).
 
