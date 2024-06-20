@@ -18,6 +18,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 ## Step 1: Setting up your DNSimple account and free trial
 
+<div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
 1. Enter your email address and password. Click Join.
 1. Fill out the form on the How Will You Use DNSimple page.
@@ -32,6 +33,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 ## Step 2: Asking ClickFunnels to move the domain to your DNSimple account
 
+<div class="section-steps" markdown="1">
 1. Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) using the email address associated with your ClickFunnels account. You can use this template, replacing the placeholders with your information:
 
     > Hi there,
@@ -64,6 +66,8 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 ## Step 3: Accepting and setting up the domain in DNSimple
 
+<div class="section-steps" markdown="1">
+    
 1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
 1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. There's a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
