@@ -73,9 +73,11 @@ If it's been more then 10 minutes since you configured DNSimple as secondary DNS
 Ensure that our AXFR client's IP is in the Access-Control List (ACL) at your primary DNS provider.
 
 These are our AXFR client IPs:
-- Production
-  - `3.12.234.2`
-  - `2600:1f16:ae2:e900:f05c:9438:865f:64a0`
+
+#### Production
+
+- `3.12.234.2`
+- `2600:1f16:ae2:e900:f05c:9438:865f:64a0`
 
 ## Ensuring the domain is delegated through both providers for greater redundancy
 
