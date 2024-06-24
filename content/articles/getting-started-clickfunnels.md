@@ -171,7 +171,7 @@ You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This 
 
 ### Activity
 
-Click your domain name, then <label> Overview </label> to locate the activity log. If you want to review past changes, select <label> View </label> in the Activity card. Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference.
+Click your domain name, then **Overview** to locate the activity log. If you want to review past changes, select **View** in the Activity card. Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference.
 
 ### DNS
 
@@ -231,11 +231,11 @@ We have a [Record Editor](/articles/record-editor/) that makes it easy to add re
 
 ### What are certificates?
 
-Certificates are important because they provide a level of security and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site.
+Certificates provide a level of security and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site.
 
 When you purchased your domain with ClickFunnels, they automatically secured it with a certificate. The certificate typically transfers with your domain, but certificates have a short lifespan and will expire. The certificate they use is only available on higher-tier DNSimple plans, so if you're on the Solo Plan, you can't renew the same certificate. However, there are many available certificates that can provide the security you need.
 
-Your certificate may be set to [automatically renew](/articles/letsencrypt/#auto-renewal). If your certificate is set to auto renew, and you don't disable it, you'll receive emails that the renewal failed because you don't have access to [the SAN feature](/articles/what-is-ssl-san/) (only available on our higher-tiered plans). You can ignore these messages – they only concern your certificate, and aren't connected to your domain ownership, renewal, or overall functionality. You can disable certificate auto renew to prevent it from trying to renew and sending you failed renewal emails.
+Your certificate may be set to [automatically renew](/articles/letsencrypt/#auto-renewal). If your certificate is set to auto renew, and you don't disable it, you'll receive emails that the renewal failed because you don't have access to [the SAN feature](/articles/what-is-ssl-san/) (only available on our higher-tier plans). You can ignore these messages – they only concern your certificate, and aren't connected to your domain ownership, renewal, or overall functionality. You can disable certificate auto renew to prevent it from trying to renew and sending you failed renewal emails.
 
 When your certificate is about to expire, we'll send you an email with the subject line "Expiration Notification". However, even if the certificate expires, your site will still function, and you'll still own it.
 
@@ -245,7 +245,7 @@ Let's Encrypt has a standard certificate to provide your site with the security 
 
 Here's a walkthrough of [ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificate are only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
+If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificates are only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 
 ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but if you [contact us](https://dnsimple.com/contact), we can help you find out when it expires and answer any questions you have.
 
