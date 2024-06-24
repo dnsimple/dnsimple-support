@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible – after all, [Simple](/articles/how-is-dnsimple-pronounced/) is in our name.
+Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible.
 
 ## Step 1: Setting up a DNSimple account and trial
 
@@ -67,7 +67,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 ## Step 3: Accepting and setting up the domain in DNSimple
 
 <div class="section-steps" markdown="1">
-1. [Log into DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
+1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
 1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. There's a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
@@ -112,7 +112,7 @@ If you were [purchasing a new domain](/articles/adding-domain/#registering-a-new
 
 #### Requesting an SSL certificate
 
-If you need to [purchase a certificate](/articles/getting-started-ssl-certificates/) right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in ["What are certificates?"](#what-are-certificates-?).
+If you need to [purchase a certificate](/articles/getting-started-ssl-certificates/) right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in [What are certificates?](#what-are-certificates-?).
 
 #### Exploring the API
 
@@ -123,9 +123,9 @@ The API is a great resource for those with technical backgrounds to take advanta
 
 Let's explore the domain management options on your domain's homepage.
 
-### Domain delegation
+### Delegation
 
-This card contains the name servers. [Name servers](/articles/what-is-a-nameserver/) work as a directory translating domain names into IP addresses. They make things easy to find across the Internet.
+You'll find your name servers listed under the <label>Registration</label> tab. [Name servers](/articles/what-is-a-nameserver/) work as a directory translating domain names into IP addresses. They make things easy to find across the Internet.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -147,31 +147,31 @@ You must have an active subscription with the provider you're pointing the name 
 
 #### Renew by date
 
-This is the date one year after you purchased your domain. You'll own the domain until this date, even if you're not using it.
+This is the date your domain expires. It includes your domain’s [redemption period](/articles/what-happens-when-domain-expires/#redemption-period). You'll own the domain until this date, even if you're not using it.
 
-To prevent the domain from going into the expiration process, we recommend [turning on Auto Renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We begin the renewal process a month before the domain expires, ensuring everything is ready to go before your renewal date.
+To prevent the domain from going into the expiration process, we recommend [turning on auto-renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We begin the renewal process a month before the domain expires, ensuring everything is ready to go before your renewal date.
 
-If you forgot to turn on the Auto Renewal, didn't renew it yourself, and want to keep the domain, there's a [lengthy expiration process](/articles/what-happens-when-domain-expires/) and time to get it back. If you wait too long, and it's in the Redemption Period, you'll be required to pay a penalty fee, typically $100, in addition to the standard renewal costs.
+If you forgot to turn on auto-renew, didn't manually renew it yourself, and want to keep the domain, there's a [lengthy expiration process](/articles/what-happens-when-domain-expires/) and time to get it back. If you wait too long, and it's in the redemption period, you'll be required to pay a penalty fee in addition to the standard renewal costs.
 
-Below the renew by date, you'll see the option to turn on Auto Renew with the standard registration costs.
+Below the renew by date, you'll see the option to turn on auto-renew with the standard registration costs.
 
 #### Transferring a domain to another provider
 
 If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
 
 <note>
-You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/).
+You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you’ll see the unlock date next to it. 
 </note>
 
 ### Contact
 
-This is the information you provided when you moved the domain, and the WHOIS [ownership contact information](/articles/changing-domain-contact/). You shouldn't need to make any changes to this unless there's an error, or your information changes.
+This is the information you provided when you moved the domain and the WHOIS [ownership contact information](/articles/changing-domain-contact/). You shouldn't need to make any changes to this unless there's an error, or your information changes.
 
 You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in WHOIS. You can learn more in [this article](/articles/domain-privacy-after-gdpr/).
 
 ### Activity
 
-Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference. If you make a lot of changes, or want to review past changes, select View.
+Click your domain name, then <label> Overview </label> to locate the activity log. If you want to review past changes, select <label> View </label> in the Activity card. Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference.
 
 ### DNS
 
@@ -181,11 +181,11 @@ The DNS section of your domain includes the records and other technical options 
 
 Deploying a secondary DNS provider that doesn't share the same infrastructure as your primary provider (DNSimple) means if your primary DNS provider temporarily goes down, your customers continue to have access to your site. You can take advantage of this feature, and have the DNS with another provider as a backup, in the unlikely event that we face downtime.
 
-You're not required to use secondary DNS, and your site will function without it. You can learn more [here](/articles/secondary-dnsimple/).
+You're not required to use secondary DNS, and your site will function without it. You can learn more [in this article](/articles/secondary-dnsimple/).
 
-#### One-Click Services
+#### One-click services
 
-Our One-Click Services simplify connecting your site to other popular services. You connect them with one click, and we handle the record set up. Take a look at [the options](/articles/services/) to see if any of the services apply to your needs.
+Our One-click services simplify connecting your site to other popular services. You connect them with one click, and we handle the record setup. Take a look at [the options](/articles/services/) to see if any of the services apply to your needs.
 
 Your site will function properly without using these features.
 
@@ -195,7 +195,7 @@ This information transferred over from ClickFunnels. If your site is functioning
 
 You should update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
-Click **Manage** to look at the records and edit them.
+Click <label> Manage </label> to view the records and edit them.
 
 When you open the DNS Record Management page, you'll probably see the following records:
 
@@ -213,12 +213,15 @@ If you go to your website, and you only see the ClickFunnels home page and not y
 
 ##### Understanding the Record Editor
 
-If you're no longer using ClickFunnels, and you created a website with a service like Wix, point your site to the new service. You can do this one of two ways:
-Change the name servers to them, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels). Or they'll share the DNS records you need to add to DNSimple.
+If you’re no longer using ClickFunnels, and you created a website with a web hosting service, like Wix, point your site to the new service. There are two ways to do this:
 
-We won't know what records are needed from the content host. You'll need to contact them, and request the following:
+ - Change the name servers to your new service, which allows them to manage your domain’s DNS (similar to how it was set up with ClickFunnels). 
+**OR**
+- Your new hosting service will share the DNS records you need to add to DNSimple.
+  
+We won’t know what records are needed from the content host. You’ll need to contact the host, and request them. You can use this template:
 
-I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
+> I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
 
 They'll share the documentation, including the records and name servers you need to change it to, or they'll respond directly with the records needed.
 
