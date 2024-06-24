@@ -20,17 +20,13 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
-1. Choose a plan that fits your needs.
-1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
-
-    <tip>
-    [Learn the differences](/articles/dnsimple-plans/) between the DNSimple plans.
-    </tip>
-
-1. Add your credit card details, then click <label>Start my free trial</label>.
+1. Enter your email address and password. Click <label>Join</label>.
+1. Fill out the form on the <label>How Will You Use DNSimple</label> page.
+1. Choose the plan that fits your needs. 
+1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
     <info>
-    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
+    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
     </info>
 </div>
 
