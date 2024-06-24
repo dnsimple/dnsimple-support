@@ -195,7 +195,7 @@ This information transferred over from ClickFunnels. If your site is functioning
 
 You should update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
-Click <label> Manage </label> to view the records and edit them.
+Click **Manage** to view the records and edit them.
 
 When you open the DNS Record Management page, you'll probably see the following records:
 
@@ -227,12 +227,11 @@ They'll share the documentation, including the records and name servers you need
 
 We have a [Record Editor](/articles/record-editor/) that makes it easy to add records. Click **Manage** to open the editor.
 
-
 ## Step 5: Understanding certificates
 
 ### What are certificates?
 
-Certificates are important because they provide a level of security, and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site.
+Certificates are important because they provide a level of security and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site.
 
 When you purchased your domain with ClickFunnels, they automatically secured it with a certificate. The certificate typically transfers with your domain, but certificates have a short lifespan and will expire. The certificate they use is only available on higher-tier DNSimple plans, so if you're on the Solo Plan, you can't renew the same certificate. However, there are many available certificates that can provide the security you need.
 
@@ -244,8 +243,12 @@ When your certificate is about to expire, we'll send you an email with the subje
 
 Let's Encrypt has a standard certificate to provide your site with the security it needs. They need to be renewed every 90 days. When you renew a certificate, you purchase a new one, and install it like you did with the previous certificate. Let's Encrypt certificates cover your sites when they're the standard format, like `www.dnsimple.com` or `dnsimple.com`.
 
-Here's a walkthrough of [ordering the Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+Here's a walkthrough of [ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificate are available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
+If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificate are only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
 
-ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but we can help you find out when it expires and answer any questions you may have.
+ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but if you [contact us](https://dnsimple.com/contact), we can help you find out when it expires and answer any questions you have.
+
+## Have more questions?
+
+If you have any questions about getting set up with DNSimple, the services we offer, or anything else about your domain and DNS management, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
