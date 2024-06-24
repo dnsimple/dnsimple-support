@@ -147,7 +147,7 @@ You must have an active subscription with the provider you're pointing the name 
 
 #### Renew by date
 
-This is the date your domain expires. It includes your domain’s [redemption period](/articles/what-happens-when-domain-expires/#redemption-period). You'll own the domain until this date, even if you're not using it.
+This is the date your domain expires. It includes your domain's [redemption period](/articles/what-happens-when-domain-expires/#redemption-period). You'll own the domain until this date, even if you're not using it.
 
 To prevent the domain from going into the expiration process, we recommend [turning on auto-renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We begin the renewal process a month before the domain expires, ensuring everything is ready to go before your renewal date.
 
@@ -160,7 +160,7 @@ Below the renew by date, you'll see the option to turn on auto-renew with the st
 If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
 
 <note>
-You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you’ll see the unlock date next to it. 
+You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it. 
 </note>
 
 ### Contact
@@ -213,13 +213,13 @@ If you go to your website, and you only see the ClickFunnels home page and not y
 
 ##### Understanding the Record Editor
 
-If you’re no longer using ClickFunnels, and you created a website with a web hosting service, like Wix, point your site to the new service. There are two ways to do this:
+If you're no longer using ClickFunnels, and you created a website with a web hosting service, like Wix, point your site to the new service. There are two ways to do this:
 
- - Change the name servers to your new service, which allows them to manage your domain’s DNS (similar to how it was set up with ClickFunnels). 
+ - Change the name servers to your new service, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels). 
 **OR**
 - Your new hosting service will share the DNS records you need to add to DNSimple.
   
-We won’t know what records are needed from the content host. You’ll need to contact the host, and request them. You can use this template:
+We won't know what records are needed from the content host. You'll need to contact the host, and request them. You can use this template:
 
 > I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
 
