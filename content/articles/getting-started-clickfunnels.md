@@ -16,17 +16,21 @@ categories:
 
 Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible – after all, [Simple](/articles/how-is-dnsimple-pronounced/) is in our name.
 
-## Step 1: Setting up your DNSimple account and free trial
+## Step 1: Setting up a DNSimple account and trial
 
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
-1. Enter your email address and password. Click Join.
-1. Fill out the form on the How Will You Use DNSimple page.
 1. Choose a plan that fits your needs.
-1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
+1. Complete the form using the **same email address associated with your ClickFunnels account**. Enter a password and confirm it. Click <label>Join DNSimple</label>.
+
+    <tip>
+    [Learn the differences](/articles/dnsimple-plans/) between the DNSimple plans.
+    </tip>
+
+1. Add your credit card details, then click <label>Start my free trial</label>.
 
     <info>
-    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. 
+    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
     </info>
 </div>
 
@@ -67,8 +71,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 ## Step 3: Accepting and setting up the domain in DNSimple
 
 <div class="section-steps" markdown="1">
-    
-1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
+1. [Log into DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
 1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. There's a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
