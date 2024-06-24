@@ -16,7 +16,7 @@ categories:
 
 Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible.
 
-## Step 1: Setting up a DNSimple account and trial
+## Step 1: Setting up your DNSimple account and free trial
 
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
@@ -73,7 +73,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
     <note>
-    After the domain is pushed into your DNSimple account, you must also change the ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
+    After the domain is pushed into your DNSimple account, you must also change ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
     </note>
 
     <warning>
