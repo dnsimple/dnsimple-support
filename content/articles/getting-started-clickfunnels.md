@@ -21,7 +21,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 <div class="section-steps" markdown="1">
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
 1. Enter your email address and password. Click <label>Join</label>.
-1. Fill out the form on the <label>How Will You Use DNSimple</label> page.
+1. Fill out the form on the <label>How will you use DNSimple?</label> page.
 1. Choose the plan that fits your needs. 
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
