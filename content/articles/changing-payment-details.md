@@ -21,7 +21,7 @@ Teams and higher plans have Domain Access Controls. Only those with a full-acces
 1. Find the card showing your credit card information, and click <label>Edit</label>.
 
    ![Change payment details](/files/account-billing-update-card-link.png)
-   
+
 1.  Fill in your new credit card data and click <label>Update</label>.
 1.  Once the card has successfully updated, you'll see the confirmation.
 

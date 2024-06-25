@@ -22,7 +22,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
 1. Enter your email address and password. Click <label>Join</label>.
 1. Fill out the form on the <label>How will you use DNSimple?</label> page.
-1. Choose the plan that fits your needs. 
+1. Choose the plan that fits your needs.
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
     <info>
@@ -160,7 +160,7 @@ Below the renew by date, you'll see the option to turn on auto-renew with the st
 If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
 
 <note>
-You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it. 
+You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it.
 </note>
 
 ### Contact
@@ -215,10 +215,10 @@ If you go to your website, and you only see the ClickFunnels home page and not y
 
 If you're no longer using ClickFunnels, and you created a website with a web hosting service, like Wix, point your site to the new service. There are two ways to do this:
 
- - Change the name servers to your new service, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels). 
+ - Change the name servers to your new service, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels).
 **OR**
 - Your new hosting service will share the DNS records you need to add to DNSimple.
-  
+
 We won't know what records are needed from the content host. You'll need to contact the host, and request them. You can use this template:
 
 > I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
