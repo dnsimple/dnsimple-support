@@ -44,12 +44,12 @@ If you need to change the billing information for an existing invoice, please [c
 
 1.  Log in to DNSimple with your user credentials.
 1.  [Locate the account](https://dnsimple.com/user) on the dashboard. Click on the account to enter the account page.
-1.  Scroll down to the invoices section. Click <label>Edit</label> at the bottom right of the section.
+1.  Scroll down to the invoices section. Click **Edit** at the bottom right of the section.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
-1.  You'll see your current billing information (it will be empty if this is the first time you're editing it). Click <label>Edit</label>.
-1.  Fill in the form, and click <label>Save</label> when you're finished.
+1.  You'll see your current billing information (it will be empty if this is the first time you're editing it). Click **Edit**.
+1.  Fill in the form, and click **Save** when you're finished.
 
     ![Change payment details](/files/account-billing-settings-update.png)
 </div>
@@ -74,11 +74,11 @@ Only account administrators can change the billing email address.
 ##### To change your billing email
 
 1.  [Locate the account](https://dnsimple.com/user) on your dashboard. Click on the account to enter the account page.
-1.  Scroll down to the invoices section. Click <label>Edit</label>.
+1.  Scroll down to the invoices section. Click **Edit**.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
-1.  Update the email, and click <label>Save</label> when you are finished.
+1.  Update the email, and click **Save** when you are finished.
 
     ![Change billing email](/files/account-edit-billing-email-update.png)
 
