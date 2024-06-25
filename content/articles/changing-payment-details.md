@@ -25,6 +25,8 @@ Teams and higher plans have Domain Access Controls. Only those with a full-acces
 1.  Fill in your new credit card data and click <label>Update</label>.
 1.  Once the card has successfully updated, you'll see the confirmation.
 
+![screenshot: card updated success message](/files/card-updated-msg.png)
+
 ## Have more questions?
 
 If you have any questions about changing your payment details, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
