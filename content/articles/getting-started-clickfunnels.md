@@ -195,7 +195,7 @@ This information transferred over from ClickFunnels. If your site is functioning
 
 You should update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
 
-Click **Manage** to view the records and edit them.
+Click **Manage** to view and edit the records.
 
 When you open the DNS Record Management page, you'll probably see the following records:
 
