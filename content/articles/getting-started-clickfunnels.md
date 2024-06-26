@@ -68,7 +68,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
 <div class="section-steps" markdown="1">
 1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
-1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. There's a box to the right that says <label>Alerts</label>. Click <label>View</label> to see your pending domain push and accept it.
+1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. You'll see alerts that need your attention at the top of your dashboard. Click <label>View</label> to see your pending domain push and accept it.
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
