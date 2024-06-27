@@ -7,17 +7,26 @@ categories:
 
 # Changing an Account's Payment Details
 
-You can change the credit card you use to pay for your DNSimple subscription and other products any time.
+Account owners and team members with full-access can change the credit card associated with the DNSimple account any time.
 
-<div class="section-steps" markdown="1">
-##### To update an account's payment details
+<info>
+Teams and higher plans have Domain Access Controls. Only those with a full-access seat will be able to update Billing information.
+</info>
 
-1.  Log in to DNSimple with your user credentials.
-1.  [Find the account](https://dnsimple.com/user) on the account list. Click on the account to enter the account page.
-1.  Scroll down to your credit card section. Click <label>Edit</label>.
+### To update an account's payment details
 
-     ![Change payment details](/files/account-billing-update-card-link.png)
+1. From the account dashboard, select the account you want to update the payment information for. This takes you to the domain list for the account.
+1. Select <label>Account</label> at the top right of the screen.
+1. Select <label>Billing and plans</label> from the left side bar.
+1. Find the card showing your credit card information, and click <label>Edit</label>.
 
-1.  Fill in your new credit card data and click the <label>Update</label> button.
-</div>
+   ![Change payment details](/files/account-billing-update-card-link.png)
 
+1.  Fill in your new credit card data and click <label>Update</label>.
+1.  Once the card has successfully updated, you'll see the confirmation.
+
+![screenshot: card updated success message](/files/card-updated-msg.png)
+
+## Have more questions?
+
+If you have any questions about changing your payment details, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
