@@ -19,7 +19,7 @@ To set up domain management sharing, go to your domain settings, click on the li
 
 ![Share Management](/files/share-management-card.png)
 
-Enter the user's email address and click "Share". If they already have an account with DNSimple, they will see an alert in their dashboard where they can "Accept" the invitation. 
+Enter the user's email address, and click "Share". If they already have an account with DNSimple, they will see an alert in their dashboard where they can "Accept" the invitation. 
 
 ![Dashboard shared domain alert](/files/shared-domain-dashboard-alert.png)
 
@@ -27,9 +27,9 @@ To accept the invitation, the user must choose which account they will see the d
 
 ![Accepting a shared domain](/files/shared-domain-accept.png)
 
-If they don't have an account, an invitation email will be sent indicating that a domain has been shared with them and that they can create an account to manage that domain.
+If they don't have an account, an invitation email will be sent indicating that a domain has been shared with them, and that they can create an account to manage that domain.
 
-Accounts that have access to a shared domain are limited as to what they can do with the domain. They can only add, edit, and remove records from the domain or add and remove services. They can't renew domains, change domain contact information, delete the domain, etc. The [full list of restrictions](#limitations) is available below.
+Accounts that have access to a shared domain are limited as to what they can do with the domain. They can only add, edit, and remove records from the domain, or add and remove services. They can't renew domains, change domain contact information, delete the domain, etc. The [full list of restrictions](#limitations) is available below.
 
 If you're only working on shared domains, you don't need to activate your account.
 
