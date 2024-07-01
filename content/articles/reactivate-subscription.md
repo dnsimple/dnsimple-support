@@ -1,24 +1,28 @@
 ---
-title: Reactivate your subscription
+title: Reactivate Your Subscription
 excerpt: How to reactivate the subscription for a DNSimple account.
 categories:
 - Account
 ---
 
-# Reactivate your subscription
+# Reactivate Your Subscription
 
 When you unsubscribe, or your account was closed due to non-payment(/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription, and start using DNSimple's services again at any time.
 
-When your account is deactivated, WHOIS privacy (link) and auto-renew (link) are disabled. If you want to use these features, you'll need to manually re-activate them.
+When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/) and [domain auto-renewal](/articles/domain-auto-renewal/) are immediately disabled. If you want to use these features, you'll need to manually re-activate them.
 
-<info>
-If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our available plans (link).
-</info>
+<warning>
+If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
+</warning>
 
 ## How to reactivate your subscription
 
+<info>
+If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our [available plans](https://dnsimple.com/pricing).
+</info>
+
 ### From the dashboard
-1.  Log into DNSimple with your user credentials.
+1.  Log in to DNSimple with your user credentials.
 1.  Go to [your dashboard](https://dnsimple.com/dashboard).
 1.  Locate the accounts section of your dashboard.
 1.  You'll see a card with your account name on it. Click **Select a plan** on this card.
@@ -43,6 +47,6 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 1. Choose the plan that fits your needs, and click **Get started**.
 1. Enter your payment information and click **Create Subscription**.
 
-<warning>
-If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
-</warning>
+## Have more questions?
+
+If you have any questions about our currently available subscription plans or reactivating your account, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
