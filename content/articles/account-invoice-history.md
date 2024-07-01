@@ -58,17 +58,9 @@ A `dunned` invoice will automatically be retried once per week for three weeks. 
 If we're unable to collect the payment after a certain period of time, your account will be cancelled. All the domains within the account will stop resolving immediately.
 </warning>
 
-### `needs_review` {#invoice-state-needs-review}
-
-Sometimes an error occurs while collecting a payment, and our system is not able to verify whether the invoice has been paid or not. If this happens, the invoice will be flagged for manual review, putting it in the `needs_review` state. A member of the DNSimple team will manually verify whether the payment was collected or not.
-
-<note>
-If you have an invoice in this state for more than a day, please [contact us](https://dnsimple.com/contact) so we can sort it out for you.
-</note>
-
 ### `refunded` {#invoice-state-refunded}
 
-The payment for this invoice was collected, and then money was returned to you for some reason. When this happens, we mark the corresponding invoice as `refunded`.
+The payment for this invoice was collected, and the payment was returned. When this happens, we mark the corresponding invoice as `refunded`.
 
 ### `cancelled` {#invoice-state-cancelled}
 
@@ -82,12 +74,8 @@ While our system occasionally retries failed invoices automatically, you may wan
 ##### To retry a failed invoice
 
 1. Access your [account's invoice history](#viewing).
-1. Locate failed invoices in your history. They're highlighted in red.
+1. Locate failed invoices in your history, highlighted in red.
 1. Click the retry button on your failed invoice.
 
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
-
-<info>
-It's possible the retry won't succeed, or the invoice will enter a "needs review" state. If you have repeated trouble retrying an invoice, or have an invoice enter the "needs review" state, please [contact us](https://dnsimple.com/contact) with details about the issue.
-</info>
