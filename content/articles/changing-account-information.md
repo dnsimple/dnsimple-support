@@ -31,10 +31,6 @@ To change your account email, follow the steps described in the article [Changin
    ![Account information form](/files/account-information-form.png)
 
    <info>
-   If the <label>Account email</label> input field is missing, this is the Primary account attached to your user. You'll need to [update your user email to change this address](/articles/changing-email#changing-the-user-email).
-   </info>
-
-   <info>
    DNSimple requests this information, in compliance with applicable laws and regulations, to guarantee the security of your account.
    </info>
 
