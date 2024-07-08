@@ -50,7 +50,8 @@ You want to use a custom private key. | **Standard**
 You want to use a wildcard name. | **Let's Encrypt** or **Standard**
 You want a longer expiration. | **Standard**
 You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt**
-Your domain is only resolving with DNSimple. | **Let's Encrypt** or **Standard**
+Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Standard**
+
 Your domain is resolving with both DNSimple and Secondary DNS. | **Standard**
 Your domain is NOT resolving with DNSimple. | **Standard**
 Your domain is NOT registered but resolving with DNSimple. | **Let's Encrypt** or **Standard**
