@@ -58,7 +58,7 @@ Some Let's Encrypt features may not be supported by DNSimple. Check the [limitat
 The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free using the Let's Encrypt certification authority.
 
 <note>
-To request an SSL certificate with Let's Encrypt, the domains **must be delegated and resolving only with DNSimple**. The domain doesn't need to be registered with DNSimple. This means it is not compatible with Secondary DNS.
+To request an SSL certificate with Let's Encrypt, the domains **must be delegated to and resolving only with DNSimple**. The domain doesn't need to be registered with DNSimple. This means it is not compatible with Secondary DNS.
 </note>
 
 The certificate validation is completely automated using a DNS challenge. Once issued, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
