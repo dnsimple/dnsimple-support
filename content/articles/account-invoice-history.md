@@ -14,16 +14,16 @@ categories:
 
 ---
 
-You can view your payment history and manually retry failed invoices in DNSimple.
+Account owners can view an account's payment history and manually retry failed invoices in DNSimple.
 
 ## Viewing account invoice history {#viewing}
 
 <div class="section-steps" markdown="1">
 ##### To view an account's invoice history
 
-1. On the top right menu, choose the account you want to see the invoice history for.
+1. On the dashboard, choose the account you want to see the invoice history for.
 
-    ![Account settings link](/files/account-settings-access.jpg)
+1. Click Account at the top right, then click the **Billings and plans** tab on the left side. 
 
 1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking on the last invoice section.
 
