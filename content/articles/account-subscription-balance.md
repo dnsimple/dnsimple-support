@@ -37,11 +37,10 @@ If your account has credit, future payments may be deducted from this amount. Ac
 - Credit for [purchases](/articles/understanding-invoice/#purchases): This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). If necessary, we will also use this credit to cover your subscription fees before charging your card on file.
 
 ### Credit card 
-This section contains the credit card on file for the account. Click Edit to make changes to the card. You can find more about changing your payment information in [this article](/articles/changing-payment-details/). 
-
+This section contains the credit card on file for the account. Click **Edit** to make changes to the card. You can find more about changing your payment information in [this article](/articles/changing-payment-details/).
+a
 ### Invoices 
 In this section, you can view and download all past invoices and make changes to the billing email for your account. For more information on invoices, see [Understanding Your Invoice](/articles/understanding-invoice/).
 
 ## Have more questions? 
-
 If you have any questions about your billing or account details, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
