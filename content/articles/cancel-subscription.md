@@ -7,10 +7,17 @@ categories:
 
 # Unsubscribe from your DNSimple plan
 
-After you unsubscribe from your DNSimple plan, we'll no longer charge your credit card, WHOIS privacy protection will be disabled, and your domains will no longer resolve with us. You may resubscribe at any time, and your domains will resolve again.
+If you no longer need DNSimple's services, you can unsubscribe at any time. 
+
+Once you unsubscribe, your card on file will no longer be charged the monthly subscription fee. 
+
+Apart from the subscription fee, the following will take effect immediately:
+- All domains pointing to our name servers will stop resolving — they will no longer function, and your site will be inaccessible to your users. 
+- WHOIS Privacy (link) will be disabled for all domains registered with DNSimple.
+- Any domain in your account that is registered will not renew.
 
 <info>
-All your domains and records will remain in your account.
+This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to reactivate (Link).
 </info>
 
 <div class="section-steps" markdown="1">
