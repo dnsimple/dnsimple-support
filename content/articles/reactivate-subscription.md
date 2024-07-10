@@ -7,7 +7,7 @@ categories:
 
 # Reactivate Your Subscription
 
-When you unsubscribe, or your account was closed due to non-payment(/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription, and start using DNSimple's services again at any time.
+When you unsubscribe, or your account was [closed due to non-payment](/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time.
 
 When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/) and [domain auto-renewal](/articles/domain-auto-renewal/) are immediately disabled. If you want to use these features, you'll need to manually re-activate them.
 
@@ -32,7 +32,7 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 
 ### From the Billings and plans page:
 1. Locate the accounts section of your [dashboard](https://dnsimple.com/dashboard).
-1. Click on the account you wish to reactivate, then select **Account** at the top right.
+1. Click on the account you want to reactivate, then select **Account** at the top right.
 1. Click the **Billing and plans** tab on the left side of the screen.
 1. You'll see a card with a **No plan selected** alert. Click **select plan** at the bottom of this card.
 **screenshot** 
