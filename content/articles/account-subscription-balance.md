@@ -12,31 +12,45 @@ The Account page, linked in the top right corner of the domain list, provides co
 <div class="section-steps" markdown="1">
 ##### Checking your account billing details
 
-1.  Choose the relevant account on your dashboard, then click **Account** at the top right.
-1. On the account page, you can find your account balance under the **Billings and plan**s tab on the left side of the screen. 
-
-    ![Account Billing section](/files/account-balance.png)
-
+1. Choose the relevant account on your dashboard, then click **Account** at the top right.
+1. On the account page, you can find your account balance under the **Billings and plan**s tab on the left side of the screen.
+   
 </div>
 
-- **Next payment**
-  When the next subscription fee will be charged to the credit card on file.
+On the **Billings and plans** page, you can view: 
 
-- **Amount due**
-  The total amount of the subscription renewal.
+**Estimated amount due**
 
-  It's broken up into three different components that you may be charged for: _plan price_, active zones_ and _email forwards_.
+The total estimated amount due and the date it will be charged to the card on file. Next to the balance, you'll see the date your next payment is due.
 
-- **Subscription balance**
-  The current balance of your account. The amount can be:
+This amount is broken up into:
+- DNS queries 
+- Subscription cost
+- Active zones
+- Extra seats (on the Teams plan and higher)
+- Email forwards
+- Account credits (when applicable)
 
-  - Zero: Indicating that your account is up to date.
-  - Balance due: Indicating that we didn't recieve or couldn't process the payment for your latest subscription renewal fee.
+**Plan usage**
 
-  Next to the balance, you'll find a estimated date for your next payment.
+View a breakdown of the DNS query volume fees by clicking **View** in the **Plan usage** section directly below the estimated costs. 
 
-- **Account credit**
-  If your account has credit, future payments may be deducted from this amount. Account credits fall into these two categories:
+**Account credit**
 
-  - Credit for subscriptions: This credit is only used to cover subscription fees.
-  - Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
+If your account has credit, future payments may be deducted from this amount. Account credits fall into two categories:
+
+- Credit for subscriptions: This credit is only used to cover subscription fees.
+
+- Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
+
+**Credit card** 
+
+This section contains the credit card on file for the account. Click Edit to make changes to the card. You can find more about changing your payment information in this article https://support.dnsimple.com/articles/changing-payment-details/
+
+**Invoices** 
+
+In this section, you can view and download all past invoices and make changes to the billing email for your account. For more information on invoices, see Understanding Your Invoice (link). 
+
+## Have more questions? 
+
+If you have any questions about your billing or account details, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
