@@ -17,9 +17,11 @@ The Account page, linked in the top right corner of the domain list, provides co
    
 </div>
 
+## Billing details 
+
 On the **Billings and plans** page, you can view: 
 
-**Estimated amount due**
+### Estimated amount due
 
 The total estimated amount due and the date it will be charged to the card on file. Next to the balance, you'll see the date your next payment is due.
 
@@ -31,11 +33,11 @@ This amount is broken up into:
 - Email forwards
 - Account credits (when applicable)
 
-**Plan usage**
+### Plan usage
 
 View a breakdown of the DNS query volume fees by clicking **View** in the **Plan usage** section directly below the estimated costs. 
 
-**Account credit**
+### Account credit
 
 If your account has credit, future payments may be deducted from this amount. Account credits fall into two categories:
 
@@ -43,11 +45,11 @@ If your account has credit, future payments may be deducted from this amount. Ac
 
 - Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
 
-**Credit card** 
+### Credit card 
 
 This section contains the credit card on file for the account. Click Edit to make changes to the card. You can find more about changing your payment information in this article https://support.dnsimple.com/articles/changing-payment-details/
 
-**Invoices** 
+### Invoices 
 
 In this section, you can view and download all past invoices and make changes to the billing email for your account. For more information on invoices, see Understanding Your Invoice (link). 
 
