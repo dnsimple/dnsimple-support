@@ -26,6 +26,8 @@ This amount is broken up into:
 - [Email forwards](/articles/email-forwarding/)
 - Account credits (when applicable)
 
+**SCREENSHOT**
+
 ### Plan usage
 View a breakdown of the DNS query volume fees by clicking **View** in the **Plan usage** section directly below the estimated costs. 
 
@@ -38,7 +40,7 @@ If your account has credit, future payments may be deducted from this amount. Ac
 
 ### Credit card 
 This section contains the credit card on file for the account. Click **Edit** to make changes to the card. You can find more about changing your payment information in [this article](/articles/changing-payment-details/).
-a
+
 ### Invoices 
 In this section, you can view and download all past invoices and make changes to the billing email for your account. For more information on invoices, see [Understanding Your Invoice](/articles/understanding-invoice/).
 
