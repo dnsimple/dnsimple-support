@@ -68,14 +68,14 @@ An invoice in the `canceled` state means you no longer have to pay it.
 
 ## Retrying failed payments {#retrying}
 
-While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices. The steps are as follows:
+While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices.
 
 <div class="section-steps" markdown="1">
 ##### To retry a failed invoice
 
 1. Access your [account's invoice history](#viewing).
 1. Locate failed invoices in your history, highlighted in red.
-1. Click the retry button on your failed invoice.
+1. Click the **retry** button on your failed invoice.
 
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
