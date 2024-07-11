@@ -52,7 +52,7 @@ You can cancel these plan changes in your account settings:
 
 ## Incompatible features
 
-When downgrading your account, you might not be able to use some features from your current plan. Common issues you may encounter are: [removing scoped access tokens] (/articles/api-access-token/#removing-an-account-access-token), [removing URL records for https redirects](/articles/manage-url-record/#removing-a-url-record), and [removing seats](/articles/managing-seats/#decreasing-the-number-of-seats), among others.
+When downgrading your account, you might not be able to use some features from your current plan. Common issues you may encounter are: [removing scoped access tokens](/articles/api-access-token/#removing-an-account-access-token), [removing URL records for https redirects](/articles/manage-url-record/#removing-a-url-record), and [removing seats](/articles/managing-seats/#decreasing-the-number-of-seats), among others.
 
 <div class="section-steps" markdown="1">
 To learn if any features you're using are incompatible with your plan change:
