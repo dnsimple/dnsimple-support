@@ -9,7 +9,7 @@ categories:
 The Account page, linked in the top right corner of the Domain List, provides comprehensive information about the account's billing and plan status. 
 
 ## Checking your account billing details
-1. Choose the relevant account on your dashboard, then click **Account** at the top right.
+1. Choose the relevant account in the top bar on your dashboard, then click **Account** at the top right.
 1. On the account page, you can find your account balance under the **Billings and plans** tab on the left side of the screen.
 
 ## Billing details breakdown
