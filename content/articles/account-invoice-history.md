@@ -36,7 +36,7 @@ Your invoices may be in certain states depending on different circumstances:
 
 ### `open` {#invoice-state-open}
 
-An invoice in an `open` state is being prepared by our system and is not ready for collection yet. It's unlikely that you'll see open invoices, as they only remain in this state for short periods of time.
+An invoice in an `open` state is being prepared and isn't ready for collection yet. It's unlikely that you'll see open invoices, as they only remain in this state for short periods of time.
 
 ### `collected` {#invoice-state-collected}
 
@@ -79,3 +79,7 @@ While our system occasionally retries failed invoices automatically, you may wan
 
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
+
+## Have more questions? 
+
+You can [contact our support team](https://dnsimple.com/feedback) any time with questions about your account invoice history — we're here to help. 
