@@ -36,15 +36,15 @@ You can cancel these plan changes in your account settings:
 
 1.  Log in to DNSimple with your user credentials.
 2.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
-3.  Click the <label>Change plan</label> link under your plan section.
+3.  Click the **Change plan** link under your plan section.
 
 **New screenshot** 
 
-4.  Explore the features for each plan. Click the <label>Select</label> button of the plan that best suits your needs.
+4.  Explore the features for each plan. Click the **Select** button on the plan that best suits your needs.
 
 **new screenshot** 
 
-5.  Verify the charges that will be made on your account. To complete the plan change, click <label>Confirm</label>.
+5.  Verify the charges that will be made on your account. To complete the plan change, click **Confirm**.
 
     ![Verify charges](/files/change-plan-3.png)
 
