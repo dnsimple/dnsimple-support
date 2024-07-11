@@ -25,7 +25,7 @@ Account owners can view an account's payment history and manually retry failed i
 
 1. Click **Account** at the top right, then click the **Billings and plans** tab on the left side. 
 
-1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking on the last invoice section.
+1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking **View** in the **Last Invoice** section.
 
     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
