@@ -37,7 +37,7 @@ This is not an account deletion. If you do not delete your domains from the acco
 
 </div>
 
-After typing your email address and clicking **Unsubscribe** you will be unsubscribed from your DNSimple account.
+After typing your email address and clicking **Unsubscribe**, you will be unsubscribed from your DNSimple account.
 
 ## Have more questions?
 
