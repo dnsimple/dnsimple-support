@@ -1,11 +1,11 @@
 ---
-title: Account Balance
+title: Understanding Your Account Balance and Billing Details
 excerpt: Checking your account's subscription balance, credit, and next payment due.
 categories:
 - Account
 ---
 
-# Account Balance
+# Understanding Your Account Balance and Billing Details
 The Account page, linked in the top right corner of the Domain List, provides comprehensive information about the account's billing and plan status. 
 
 ## Checking your account billing details
