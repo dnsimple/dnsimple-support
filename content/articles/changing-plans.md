@@ -38,11 +38,11 @@ You can cancel these plan changes in your account settings:
 2.  [Find the account](https://dnsimple.com/user) from the account list. Click on the account to enter the account page.
 3.  Click the **Change plan** link under your plan section.
 
-**New screenshot** 
+![Screenshot of how to change plan](/files/change-plan-screenshot.png)
 
 4.  Explore the features for each plan. Click the **Select** button on the plan that best suits your needs.
 
-**new screenshot** 
+![screenshot of selecting a plan](/files/select-plan-screenshot.png)
 
 5.  Verify the charges that will be made on your account. To complete the plan change, click **Confirm**.
 
@@ -61,11 +61,12 @@ To learn if any features you're using are incompatible with your plan change:
 1. Choose the relevant account and navigate to the Account page.
 1. Click **Billing and plans**, then **Change plan**.
 1. You'll be taken to a personalized version of the pricing page. Click **See incompatible features**.
-    
-**Screenshot** 
+
+![screenshot of incompatible features button](/files/incompatable-features-screenshot.png)
 
 The breakdown includes any incompatible features, along with specific information for each one:
-**Screenshot** 
+
+![screenshot of incompatible features list](/files/incompatable-features-list-screenshot.png)
 
 We'll also alert you to any incompatibility issues when you initiate your plan change:
 
