@@ -16,10 +16,12 @@ categories:
 ---
 
 <info>
-Full audit history is available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
+Full audit history is available on the Teams plan and higher. Accounts on the Solo plan can view activity from the past 30 days. [See the difference between plans](/articles/dnsimple-plans/).
 </info>
 
-Activity tracking provides an overview of all past changes for a specific domain or for an account as a whole.
+Activity tracking offers a comprehensive view of all changes made to a specific domain or across your entire account. It lets you manage your domain management and understand any modifications made over time. 
+
+Below, you'll find how to access and use activity tracking at both the domain and account levels, along with information on how to filter events to find exactly what you're looking for.
 
 ## Activity tracking at the domain level
 
@@ -48,3 +50,8 @@ You can select the exact event types you want to see and the time frame for when
 - When the event took place.
 
 ![Toggle the events link](/files/activity-tracking-5.png)
+
+## Have more questions? 
+
+If you have any questions about your activity tracking, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help. 
+
