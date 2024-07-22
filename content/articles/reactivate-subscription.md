@@ -43,7 +43,6 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 1. Log in to DNSimple with your user credentials.
 1. Go to your [dashboard](https://dnsimple.com/dashboard).
 1. If your account still has domains stored in it, you'll see an alert banner at the top of the screen. Click **Choose plan**.
-   **banner screenshot**
 1. Choose the plan that fits your needs, and click **Get started**.
 1. Enter your payment information and click **Create Subscription**.
 
