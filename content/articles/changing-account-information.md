@@ -22,7 +22,7 @@ When you sign up as a user in our system, we create an account bound to that use
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
-1. Click <label>Edit</label> at the bottom right of the <label>Account</label>card: 
+1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card: 
 
     ![Settings menu](/files/account-menu.png)
 
@@ -36,7 +36,7 @@ When you sign up as a user in our system, we create an account bound to that use
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
-1.  Click <label>Edit</label> at the bottom right of the <label>Account</label>card:
+1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 
     ![Access to the account information section](/files/account-edit.png)
 
