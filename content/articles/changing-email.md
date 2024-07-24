@@ -18,11 +18,11 @@ categories:
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
-1. On the account name section, click the <label>Edit</label> link:
+1. On the **Account** card, click <label>Edit</label>:
 
     ![Settings menu](/files/account-menu.png)
 
-1. Change the email and press <label>Update Account</label>.
+1. Change the email, and click <label>Update Account</label>.
 
     ![Email link](/files/account-email.png)
 
@@ -31,20 +31,20 @@ categories:
 ## Changing the user email
 
 <div class="section-steps" markdown="1">
-1.  Log in to DNSimple with your user credentials.
-1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>Settings</label> link under your user menu.
+1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User settings</label> link at the top right of the screen.
 
-    ![Settings menu](/files/access-user-settings.jpg)
+    **New screenshot** 
 
-1.  From the user page select the <label>Change Email Address</label> link.
+1.  In your user settings, select <label>Edit email</label>.
 
-    ![Email link](/files/user-email.png)
+    **New screenshot**
 
-1.  Enter your current password and the new email address and press <label>Save</label>.
+1.  Enter your current password and the new email address.
+1.  Confirm your new email, and click <label>Save</label>.
 
     ![Enter email address](/files/account-change-email-2.png)
 
-1.  If the update is successful, you'll be redirected to the user page. Make sure it correctly displays the new address.
+1.  If the update is successful, you'll be redirected to the **User Settings** page with a banner confirming the change. Your updated email address will be displayed under **User Settings**.
 
 </div>
 
