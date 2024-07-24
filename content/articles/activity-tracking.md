@@ -23,7 +23,7 @@ Activity history offers a comprehensive view of all changes made to a specific d
 
 Below, you'll find how to access and use activity tracking at both the domain and account levels, along with information on how to filter events to find exactly what you're looking for.
 
-## Activity tracking at the domain level
+## Domain activity tracking 
 
 Domain-level activity tracking can be found under the domain's management page. 
 
@@ -35,13 +35,13 @@ Click **View** on the **Activity** card to view a detailed log of changes to the
 
 **new screenshot for tracking details** 
 
-## Activity tracking at the account level
+## Account activity tracking
 
 Account-level activity tracking can be found under the account page. 
 
-In the top bar, click the name of the account you want to review. Click **_Account_** in the top right to access the **Overview** page. 
+In the top bar, click the name of the account you want to review, then click **_Account_** in the top right. 
 
-Click **View** on the **Activity** card to view a detailed log of changes within your account. This includes:
+Click **View** on the **Activity** card to view a detailed log of changes within your account, including:
 
 -Adjustments to account settings
 -Modifications affecting multiple domains
