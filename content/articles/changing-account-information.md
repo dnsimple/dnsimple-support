@@ -50,10 +50,10 @@ When you sign up as a user in our system, we create an account bound to that use
    DNSimple requests this information, in compliance with applicable laws and regulations, to guarantee the security of your account.
    </info>
 
-1. Once the information has been updated, click <label>Update Account</label> to save the changes. You'll see the changes reflected in the information in the **Account** card under the **General** tab on your Account page. 
+1. Once the information has been updated, click <label>Update Account</label> to save the changes. You'll see the changes reflected in the information in the **Account** card under the **General** tab on your Account page.
 
 </div>
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about how to update your email or other account information, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help. 
