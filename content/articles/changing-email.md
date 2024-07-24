@@ -49,3 +49,7 @@ categories:
 </div>
 
 If you have an extra account with a separate email address, you can find the instructions for how to update it [here](#changing-the-account-email).
+
+## Have more questions? 
+
+If you have more questions or need any assistance changing your account or user-specific email address, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 
