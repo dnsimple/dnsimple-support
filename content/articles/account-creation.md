@@ -16,7 +16,7 @@ categories:
 
 ## Creating a new account
 
-You can sign up and explore how to manage domains in DNSimple without activating your account. Once you click **Join DNSimple** your account will be created.
+You can sign up and explore how to manage domains in DNSimple without activating your account. Once you click **Join DNSimple**, your account will be created.
 
 You'll need to [choose a plan](https://dnsimple.com/pricing) and provide payment details to activate your account, register domains, and add records.
 
