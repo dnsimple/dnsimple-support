@@ -14,6 +14,10 @@ categories:
 
 ---
 
+<info>
+If you want to update both your account and user email to the same address, you’ll need to [update your user email](/articles/changing-email/#changing-the-user-email) first, then your account email. 
+</info>
+
 ## Changing the account email
 
 <div class="section-steps" markdown="1">
@@ -44,7 +48,7 @@ categories:
 
     ![Enter email address](/files/account-change-email-2.png)
 
-1.  If the update is successful, you'll be redirected to the **User Settings** page with a banner confirming the change. Your updated email address will be displayed under **User Settings**.
+1.  If the update is successful, you'll be redirected to the **User Settings** page with a banner confirming the change. Your updated email address will be displayed under **User Settings**. Please check to make sure the updated address is correct. 
 
 </div>
 
