@@ -18,13 +18,13 @@ categories:
 
 You can sign up and explore how to manage domains in DNSimple without activating your account. Once you click **Join DNSimple** your account will be created.
 
-You'll need to provide payment details to activate your account, start registering domains, and add records.
+You'll need to [choose a plan](https://dnsimple.com/pricing) and provide payment details to activate your account, register domains, and add records.
 
 **To sign up**:
-1. Go to [DNSimple](https://dnsimple.com/), and click [**Get Started**](https://dnsimple.com/signup) or **Try free for 30 days**.
-1. Fill in your details, and select **Join DNSimple**.
+1. Go to [DNSimple](https://dnsimple.com/), and click [**Get Started**](https://dnsimple.com/signup) or **Try free for 30 days**. Both links will take you to the signup page.
+1. Fill in your details, and select **Join DNSimple**. Your account has now been created. You can log in and explore the app before choosing a plan. 
 1. Fill out the **How Will You Use DNSimple?** form.
-1. You'll be taken to the plan selection page, but you don't need to choose a plan to create an account. When you're ready to activate your account, follow [these instructions](https://support.dnsimple.com/articles/account-activation/).
+1. You'll be taken to the plan selection page. You can choose a plan now, or explore the app and choose your plan later. When you're ready to activate your account, follow [these instructions](https://support.dnsimple.com/articles/account-activation/).
 
 ## Adding additional accounts
 
