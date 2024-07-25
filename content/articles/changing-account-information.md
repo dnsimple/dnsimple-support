@@ -26,9 +26,13 @@ categories:
 
     ![Email link](/files/account-email.png)
 
+You'll be redirected to the Account page, where you'll see the updated email address displayed on the **Account** card. Please ensure the address is correct.
+
 </div>
 
 ## Changing other account data
+
+You can also edit your account name, country of operation, and change your answers to any of the security screening questions. 
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
@@ -37,8 +41,6 @@ categories:
     ![Access to the account information section](/files/account-edit.png)
 
 1. Change or set the information according to your needs.
-
-   You can edit your account name, email, country of operation, and change your answers to any of the security screening questions. 
 
    ![Account information form](/files/account-information-form.png)
 
