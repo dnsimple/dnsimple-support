@@ -12,7 +12,7 @@ categories:
 
 ---
 
-This article explains the requirements and special procedures for .SG domain names.
+This article explains the requirements and special procedures for [.SG domain names](https://www.sgnic.sg/domain-registration/overview).
 
 ## Registration requirements for .SG domains
 Individuals and companies are allowed to register .SG domains.
