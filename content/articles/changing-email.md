@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-If you want to update both your account and user email to the same address, you’ll need to [update your user email](/articles/changing-email/#changing-the-user-email) first, then your account email. 
+If you want to update both your account and user email to the same address, you'll need to [update your user email](/articles/changing-email/#changing-the-user-email) first, then your account email. 
 </info>
 
 ## Changing the account email
