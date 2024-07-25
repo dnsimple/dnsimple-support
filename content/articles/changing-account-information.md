@@ -16,10 +16,6 @@ categories:
 
 ## Changing account email
 
-<info>
-When you sign up as a user in our system, we create an account bound to that user. This is the Primary Account, and the email address is the same as the username. If you change the email address on the Account page, the account email address will be updated. **If you are not the primary account holder, and want to change your user email, follow the instructions in [Changing the user email](/articles/changing-email/#changing-the-user-email).**
-</info>
-
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card: 
