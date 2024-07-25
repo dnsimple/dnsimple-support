@@ -34,3 +34,6 @@ During registration, you will be asked for the following:
  - Admin ID number
 
 Enter your **Company Registration Number** in both of these fields.
+
+## Have more questions? 
+If you have more questions or need any assistance registering your .SG or .COM.SG domain, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
