@@ -16,14 +16,14 @@ categories:
 
 DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
 
-- The user is [added as a member to an existing account](/articles/account-users)
-- The user creates another, separate account
+- The user is [added as a member to an existing account](/articles/account-users).
+- The user creates another account under their existing user profile. 
 
 Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you want to invite another user to manage domains on your account, [read this article](/articles/account-users/#adding-members-to-an-account), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
 
 ## Creating a separate account
 
-To create another account under your user profile:
+To create another account under your existing user profile:
 
 <div class="section-steps" markdown="1">
 1. Click <label>User settings</label> at the top right of the screen.
