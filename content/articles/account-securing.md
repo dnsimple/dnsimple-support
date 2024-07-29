@@ -7,6 +7,13 @@ categories:
 
 # Securing your DNSimple Account
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Domains are some of the most important assets for any organization, business, or personal project. We do everything we can to keep your domains and information secure, but there are steps you can take to further secure your DNSimple account. 
 
 <alert> 
