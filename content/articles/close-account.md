@@ -37,7 +37,7 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 
    **New screenshot**
 
-Once your account is successfully deleted, you'll be redirected to the DNSimple homepage, and will be unable to log in to DNSimple with your previous account information. 
+Once your account has successfully been deleted, you'll be redirected to the DNSimple homepage, and will be unable to log in to DNSimple with your previous account information. 
 </div>
 
 ## Deleting an account
