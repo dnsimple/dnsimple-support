@@ -7,7 +7,7 @@ categories:
 
 # Deleting Yourself as a User
 
-Deleting yourself as a user will permanently delete all your domains in all your accounts, records, and all associated information.
+Deleting yourself as a user will permanently delete all your domains in all your accounts, records, and all associated information. If you prefer to retain this information for future use at DNSimple, consider [unsubscribing](/articles/cancel-subscription/) instead. 
 
 <warning>
 Once you delete yourself as a user, all your domains and records will be deleted. You'll no longer be able to request transfer codes or unlock registered domains to transfer them to another registrar.
@@ -19,7 +19,7 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 <div class="section-steps" markdown="1">
 ##### To permanently delete yourself as a user, along with all your domains and records:
 
-1. [Unsubscribe your accounts from your plan(s) at DNSimple](/articles/cancel-subscription).
+1. [Unsubscribe your accounts from your plan at DNSimple](/articles/cancel-subscription).
 
 1. Go to [your User Settings page](https://dnsimple.com/user):
 
