@@ -34,6 +34,10 @@ To create another account under your existing user profile:
 
     ![Add New Account link](/files/add-new-account-link.png)
 
+1. Alternatively, you can click **+Add new account** from your dashboard to access the new account creation form.
+
+   **new screenshot** 
+
 1. Fill in the form with the details for your new account. Click <label>Create account</label>.
 
     **New screenshot** 
