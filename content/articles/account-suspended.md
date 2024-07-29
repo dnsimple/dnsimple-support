@@ -15,7 +15,7 @@ Common reasons include:
 - Chargebacks being issued against your account
 - Fraudulent activity
 - Repeated failure to pay outstanding invoices
-- Your account was identified as a root account causing service disruption for other customers
+- Identification of your account as a root cause of service disruption for other customers
 
 ## What to do if your account is suspended
 
