@@ -27,13 +27,15 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 
 1. Click <label>Delete user</label> at the bottom of the page:
 
-     ![Delete user](/files/delete-user.png)
+    **New screenshot**
 
    The <label>Delete user</label> button will only be available if you have no active DNSimple subscriptions.
 
 1. Include your feedback, or write anything you like in the provided field, then click **I understand the consequences, close this user and account**. The field cannot be left blank.
 
-Once your account is successfully deleted, you'll be redirected to the DNSimple homepage. You will be unable to login with your previous account information. 
+   **New screenshot**
+
+Once your account is successfully deleted, you'll be redirected to the DNSimple homepage, and will be unable to log in to DNSimple with your previous account information. 
 </div>
 
 ## Deleting an account
