@@ -44,7 +44,7 @@ To create another account under your user profile:
 
 </div>
 
-## Switching active accounts
+## Switching among accounts
 
 Select the account you want to view from the top bar of your dashboard, and you'll be taken to the Domain List for that account. 
 
