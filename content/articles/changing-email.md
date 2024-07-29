@@ -29,6 +29,8 @@ If you want to update both your account and user email to the same address, you'
 1. Change the email, and click <label>Update Account</label>.
 
     ![Email link](/files/account-email.png)
+   
+You'll be redirected to the Account page, where you'll see the updated email address displayed on the **Account** card. Please ensure the address is correct.
 
 </div>
 
