@@ -19,16 +19,25 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 <div class="section-steps" markdown="1">
 ##### To permanently delete yourself as a user, along with all your domains and records:
 
+1. [Unsubscribe your accounts from your plan(s) at DNSimple](/articles/cancel-subscription).
+
 1. Go to [your User Settings page](https://dnsimple.com/user):
 
-    ![Navigate to user settings page](/files/access-user-settings.jpg)
+    **New screenshot** 
 
-1. Click on the <label>Delete user</label> button at the bottom of the page:
+1. Click <label>Delete user</label> at the bottom of the page:
 
      ![Delete user](/files/delete-user.png)
 
-   The <label>Delete user</label> button will only show up if you have no active DNSimple subscriptions.
+   The <label>Delete user</label> button will only be available if you have no active DNSimple subscriptions.
+
+1. Include your feedback, or write anything you like in the provided field, then click **I understand the consequences, close this user and account**. The field cannot be left blank.
+
+Once your account is successfully deleted, you'll be redirected to the DNSimple homepage. You will be unable to login with your previous account information. 
 </div>
 
 ## Deleting an account
-It's not possible for a customer to independently delete an account that was created with the multi-account feature. If you want to delete one of your accounts, please [contact us](https://dnsimple.com/contact) so we can sort it out for you.
+Customers cannot independently delete an account that was created with the multi-account feature. If you want to delete one of the accounts associated with your user information, please [contact us](https://dnsimple.com/contact) with the name of the account, and we'll help you delete it.
+
+## Have more questions? 
+If you have any questions, or need assistance deleting your user information or an individual account, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
