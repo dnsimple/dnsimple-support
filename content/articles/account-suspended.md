@@ -12,7 +12,7 @@ In some cases, we may have to suspend your subscription.
 Common reasons include:
 
 - Non-payment of subscription fee
-- Chargebacks issued against your account
+- Chargebacks being issued against your account
 - Fraudulent activity
 - Repeated failure to pay outstanding invoices
 - Your account was identified as a root account causing service disruption for other customers
