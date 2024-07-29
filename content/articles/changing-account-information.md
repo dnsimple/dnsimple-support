@@ -16,6 +16,8 @@ categories:
 
 ## Changing account email
 
+You can update your account email address at any time. Changing your account email will **not** update your user email. To update your user email, follow [these instructions](/articles/changing-email/#changing-the-user-email).
+
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card: 
