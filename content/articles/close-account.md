@@ -1,5 +1,5 @@
 ---
-title: Deleting yourself as a user
+title: Deleting Yourself as a User
 excerpt: How to permanently delete yourself as a DNSimple user.
 categories:
 - Account
