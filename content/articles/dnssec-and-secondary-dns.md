@@ -11,4 +11,4 @@ All authoritative name servers MUST sign all record sets with all private keys t
 
 Note that in practice, it is possible to run multi-provider DNSSEC without sharing ZSK private key material, however it is not guaranteed to work due to the condition described above with resolvers getting the DNSKEY and the RRset + RRSIG from different authoritative name servers.
 
-You can read more information about multi-provider DNSSEC in [RFC 8901 here](https://datatracker.ietf.org/doc/html/rfc8901).
+You can read more about multi-provider DNSSEC in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
