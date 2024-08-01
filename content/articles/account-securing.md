@@ -41,4 +41,4 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 You'll find more information and resources for securing your domains on our [security page](https://dnsimple.com/benefits/security). You can also view our [security policies] (https://dnsimple.com/security) for more on how we handle specific issues.
 
 ## Have more questions?
-If you have any questions or want to know more about how to make your account as secure as possible, contact our support team, and we'll get you the information you need.
+If you have any questions or want to know more about how to make your account as secure as possible, [contact our support team](https://dnsimple.com/feedback), and we'll get you the information you need.
