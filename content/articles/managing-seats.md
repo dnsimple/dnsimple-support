@@ -21,7 +21,7 @@ Account seats for additional team members are only available on Teams or Enterpr
 To increase the number of seats, follow these steps:
 
 1. Navigate to your account settings.
-1. Select the **Member and Seats** tab.
+1. Select the **Member and seats** tab.
 1. Click **Manage** within the **Seats** card.
 1. Choose the desired number of new seats.
 1. Click **Update seats** to save your changes.
@@ -31,7 +31,7 @@ To increase the number of seats, follow these steps:
 To decrease the number of seats, follow these steps:
 
 1. Access your account settings.
-1. Select the **Member and Seats** tab.
+1. Select the **Member and seats** tab.
 1.  Click **Manage** within the **Seats** card.
 1. Choose the new seat quantity.
 1. If the new seat count is lower than your current member count, you'll need to remove excess members to match the new seat allocation. You'll also see a list of members, along with those who have been invited but haven't accepted the invitation.
@@ -45,8 +45,8 @@ Below is an example of decreasing seats when the number of account members excee
 To invite new members to your account, follow these steps:
 
 1. Access your account settings.
-1. Select the **Member and Seats** tab.
-1. Click **Invite new member** in the **Members** card.
+1. Select the **Member and seats** tab.
+1. Click **Invite** in the **Members** card.
 1. If additional seats are required for new members, you'll see an **Add seats to invite new members** button. Click it to allocate more seats.
 
 You can increase the seat count and invite members in one seamless process.
