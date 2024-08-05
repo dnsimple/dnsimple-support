@@ -20,7 +20,7 @@ You can update your account email address at any time. Changing your account ema
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
-1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card: 
+1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 
     ![Settings menu](/files/account-menu.png)
 
@@ -34,7 +34,7 @@ You'll be redirected to the Account page, where you'll see the updated email add
 
 ## Changing other account data
 
-You can also edit your account name, country of operation, and change your answers to any of the security screening questions. 
+You can also edit your account name, country of operation, and change your answers to any of the security screening questions.
 
 <div class="section-steps" markdown="1">
 1. Go to [your account page](https://dnsimple.com/account).
@@ -56,4 +56,4 @@ You can also edit your account name, country of operation, and change your answe
 
 ## Have more questions?
 
-If you have any questions about how to update your email or other account information, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions about how to update your email or other account information, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.

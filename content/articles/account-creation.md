@@ -24,7 +24,7 @@ You'll need to [choose a plan](https://dnsimple.com/pricing) and provide payment
 
 **To sign up**:
 1. Go to [DNSimple](https://dnsimple.com/), and click [**Get Started**](https://dnsimple.com/signup) or **Try free for 30 days**. Both links will take you to the signup page.
-1. Fill in your details, and select **Join DNSimple**. Your account has now been created. You can log in and explore the app before choosing a plan. 
+1. Fill in your details, and select **Join DNSimple**. Your account has now been created. You can log in and explore the app before choosing a plan.
 1. Fill out the **How Will You Use DNSimple?** form.
 1. You'll be taken to the plan selection page. You can choose a plan immediately, or wait and decide later. When you're ready to activate your account, follow [these instructions](https://support.dnsimple.com/articles/account-activation/).
 
@@ -38,6 +38,6 @@ You can also sign up for a DNSimple account [using Google as your identity provi
 
 ![Signing up via Google](/files/google-sso-social-signup.png)
 
-## Need more help? 
+## Need more help?
 
 If you need any assistance or have questions about signing up for DNSimple, [contact us](https://dnsimple.com/feedback), and we'll help you get started.
