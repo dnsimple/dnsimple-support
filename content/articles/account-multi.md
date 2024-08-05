@@ -1,6 +1,6 @@
 ---
 title: Multiple Accounts Per User
-excerpt: How to manage multiple accounts per DNSimple user and switch active accounts. 
+excerpt: How to manage multiple accounts per DNSimple user and switch active accounts.
 categories:
 - Account
 ---
@@ -17,7 +17,7 @@ categories:
 DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
 
 - The user is [added as a member to an existing account](/articles/account-users).
-- The user creates another account under their existing user profile. 
+- The user creates another account under their existing user profile.
 
 Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you want to invite another user to manage domains on your account, [read this article](/articles/account-users/#adding-members-to-an-account), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
 
@@ -28,7 +28,7 @@ To create another account under your existing user profile:
 <div class="section-steps" markdown="1">
 1. Click <label>User settings</label> at the top right of the screen.
 
-    **new screenshot** 
+    ![screenshot of user settings link in the main nav](/files/user-settings-menu.png)
 
 1. Scroll down to the **Accounts** card, and click <label>Add</label>.
 
@@ -36,28 +36,26 @@ To create another account under your existing user profile:
 
 1. Alternatively, you can click **+Add new account** from your dashboard to access the new account creation form.
 
-   **new screenshot** 
-
 1. Fill in the form with the details for your new account. Click <label>Create account</label>.
 
-    **New screenshot** 
+    ![screenshot of new account form](/files/new-account.png)
 
 1. Once you submit the form, the account will be created. Activate it by clicking **Select plan** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
 
-  **New screenshot** 
+    ![screenshot of choosing plan for account](/files/choose-plan.png)
 
 </div>
 
 ## Switching among accounts
 
-Select the account you want to view from the top bar of your dashboard, and you'll be taken to the Domain List for that account. 
+Select the account you want to view from the top bar of your dashboard, and you'll be taken to the Domain List for that account.
 
-**New screenshot** 
+![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
 
 From your Domain List, click **_Account_** in the top right to view details for the selected account.
 
-**new screenshot**
+![screenshot of account link in top nav](/files/account-nav-link.png)
 
-## Have more questions? 
+## Have more questions?
 
-If you have further questions about setting up a second account or managing multiple accounts under a single user name, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have further questions about setting up a second account or managing multiple accounts under a single user name, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
