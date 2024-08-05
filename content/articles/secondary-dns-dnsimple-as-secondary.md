@@ -24,9 +24,9 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 ## Requirements
 
 <warning>
-  Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures in DNSSEC aware resolutors.
+  Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures from DNSSEC aware resolvers.
 
-  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS.
 </warning>
 
 
@@ -34,7 +34,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 Create a secondary zone by heading to the account dashboard. Select the <label>Domain Names</label> tab.
 
-![Seconary DNS tab](/files/domain-names-tab.png)
+![Secondary DNS tab](/files/domain-names-tab.png)
 
 Click the <label>Add new</label> button, and choose <label>Secondary DNS zone (with DNSimple as follower)</label> from the provided options.
 
