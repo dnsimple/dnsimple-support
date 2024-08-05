@@ -23,8 +23,13 @@ To increase the number of seats, follow these steps:
 1. Navigate to your account settings.
 1. Select the **Member and seats** tab.
 1. Click **Manage** within the **Seats** card.
+
+    ![screenshot of manage seats link](/files/manage-seats.png)
+
 1. Choose the desired number of new seats.
 1. Click **Update seats** to save your changes.
+
+    ![screenshot of updating seats](/files/update-seats.png)
 
 ## Decreasing the number of seats
 
@@ -47,6 +52,9 @@ To invite new members to your account, follow these steps:
 1. Access your account settings.
 1. Select the **Member and seats** tab.
 1. Click **Invite** in the **Members** card.
+
+    ![screenshot invite team member](/files/invite-member.png)
+
 1. If additional seats are required for new members, you'll see an **Add seats to invite new members** button. Click it to allocate more seats.
 
 You can increase the seat count and invite members in one seamless process.
@@ -57,6 +65,6 @@ You can increase the seat count and invite members in one seamless process.
 
 If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), your seat count is managed based on your organization's configuration, and seat allocation becomes automatic.
 
-## Have more questions? 
+## Have more questions?
 
-If you have questions about managing seats or want to learn about upgrading to an account that offers seats, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have questions about managing seats or want to learn about upgrading to an account that offers seats, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
