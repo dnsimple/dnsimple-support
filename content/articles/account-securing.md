@@ -16,8 +16,8 @@ categories:
 
 Domains are some of the most important assets for any organization, business, or personal project. We do everything we can to keep your domains and information secure, but there are steps you can take to further secure your DNSimple account.
 
-<alert> 
-If you've noticed fraudulent activity, or suspect someone has taken over your account, contact security@dnsimple.com. 
+<alert>
+If you've noticed fraudulent activity, or suspect someone has taken over your account, contact <a href="mailto:support@dnsimple.com">support@dnsimple.com</a>.
 </alert>
 
 ## Password recommendations
@@ -31,7 +31,7 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 - If you're on the Teams or Enterprise plan, you can [add seats to your account](https://support.dnsimple.com/articles/account-users/), and use [Domain Access Control](https://support.dnsimple.com/articles/domain-access-control/) to allow other users to access your domains with fine-tuned permissions.
 - Only add authorized contacts to your account.
 
-## Authentication 
+## Authentication
 - We strongly recommend enabling [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) for an extra layer of security. MFA is available free for every subscription.
 - [Enforce MFA](/articles/multi-factor-authentication-enforcement/) for every team member managing domains on your account.
 - Download and secure your recovery codes.
