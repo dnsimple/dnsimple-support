@@ -1,6 +1,6 @@
 ---
 title: Multiple Accounts Per User
-excerpt: How to manage multiple accounts per DNSimple user and switch active accounts. 
+excerpt: How to manage multiple accounts per DNSimple user and switch active accounts.
 categories:
 - Account
 ---
@@ -16,40 +16,46 @@ categories:
 
 DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
 
-- The user is [added as a member to an existing account](/articles/account-users)
-- The user created a new account
+- The user is [added as a member to an existing account](/articles/account-users).
+- The user creates another account under their existing user profile.
 
-Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users.
-
+Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you want to invite another user to manage domains on your account, [read this article](/articles/account-users/#adding-members-to-an-account), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
 
 ## Creating a separate account
 
-If you want to add another account to your user profile:
+To create another account under your existing user profile:
 
 <div class="section-steps" markdown="1">
-1. Visit the settings for your user profile by clicking the <label>Settings</label> link in the menu.
+1. Click <label>User settings</label> at the top right of the screen.
 
-    ![Settings link](/files/access-user-settings.jpg)
+    ![screenshot of user settings link in the main nav](/files/user-settings-menu.png)
 
-1. Once there, follow the <label>Add new account</label> link.
+1. Scroll down to the **Accounts** card, and click <label>Add</label>.
 
     ![Add New Account link](/files/add-new-account-link.png)
 
-1. You'll see a form you should fill in with the details for your new account.
+1. Alternatively, you can click **+Add new account** from your dashboard to access the new account creation form.
 
-    ![Add New Account form](/files/add-new-account-form.png)
+1. Fill in the form with the details for your new account. Click <label>Create account</label>.
 
-1. Once you've submitted the new account form, the account is created. You can activate it by clicking the <label>Select plan</label>. You can configure other parts of your account from the top navigation menu before activating your account.
+    ![screenshot of new account form](/files/new-account.png)
 
-    ![Add New Account details](/files/add-new-account-details.png)
+1. Once you submit the form, the account will be created. Activate it by clicking **Select plan** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
+
+    ![screenshot of choosing plan for account](/files/choose-plan.png)
 
 </div>
 
+## Switching among accounts
 
-## Switching active accounts
+Select the account you want to view from the top bar of your dashboard, and you'll be taken to the Domain List for that account.
 
-Switching account context is easy. Select the account you'd like to use from the menu:
+![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
 
-  ![Switch account](/files/account-switcher.jpg)
+From your Domain List, click **_Account_** in the top right to view details for the selected account.
 
-The new selected account name will appear on the navigation bar.
+![screenshot of account link in top nav](/files/account-nav-link.png)
+
+## Have more questions?
+
+If you have further questions about setting up a second account or managing multiple accounts under a single user name, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

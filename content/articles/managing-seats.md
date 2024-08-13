@@ -14,27 +14,32 @@ categories:
 
 ## Overview
 
-Seats and Team members are only available in our Teams or Enterprise plans. The Teams plan includes one seat at no additional cost. This seat allows you to have one member actively involved in domain management. Any team members beyond the initial one will incur extra costs. [See our pricing page for more details](https://dnsimple.com/pricing).
+Account seats for additional team members are only available on Teams or Enterprise plans. The Teams plan includes one seat at no additional cost, allowing you to have one member actively involved in domain management. Any seats beyond the initial one will incur extra costs. Enterprise plans have custom pricing and seat numbers. [See our pricing page for more details](https://dnsimple.com/pricing).
 
 ## Increasing the number of seats
 
 To increase the number of seats, follow these steps:
 
 1. Navigate to your account settings.
-1. Select the "Member and Seats" tab.
-1. Click "Manage" within the "Seats" card.
+1. Select the **Member and seats** tab.
+1. Click **Manage** within the **Seats** card.
+
+    ![screenshot of manage seats link](/files/manage-seats.png)
+
 1. Choose the desired number of new seats.
-1. Click "Update seats" to save your changes.
+1. Click **Update seats** to save your changes.
+
+    ![screenshot of updating seats](/files/update-seats.png)
 
 ## Decreasing the number of seats
 
 To decrease the number of seats, follow these steps:
 
 1. Access your account settings.
-1. Select the "Member and Seats" tab.
-1. Click "Manage" within the "Seats" card.
+1. Select the **Member and seats** tab.
+1.  Click **Manage** within the **Seats** card.
 1. Choose the new seat quantity.
-1. If the new seat count is lower than your current member count, you'll need to remove excess members to match the new seat allocation. The page provides a list of members along with those who have been invited but haven't accepted the invitation.
+1. If the new seat count is lower than your current member count, you'll need to remove excess members to match the new seat allocation. You'll also see a list of members, along with those who have been invited but haven't accepted the invitation.
 
 Below is an example of decreasing seats when the number of account members exceeds the newly selected seat count:
 
@@ -45,9 +50,12 @@ Below is an example of decreasing seats when the number of account members excee
 To invite new members to your account, follow these steps:
 
 1. Access your account settings.
-1. Select the "Member and Seats" tab.
-1. Click on "Invite new member" in the "Members" card.
-1. If additional seats are required for new members, you'll see a "Add seats to invite new members" button. Click it to allocate more seats.
+1. Select the **Member and seats** tab.
+1. Click **Invite** in the **Members** card.
+
+    ![screenshot invite team member](/files/invite-member.png)
+
+1. If additional seats are required for new members, you'll see an **Add seats to invite new members** button. Click it to allocate more seats.
 
 You can increase the seat count and invite members in one seamless process.
 
@@ -55,4 +63,8 @@ You can increase the seat count and invite members in one seamless process.
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 
-If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), seat allocation becomes automatic. Your seat count is managed based on your organization's configuration. The SSO integration takes care of seat allocation, alleviating the need for manual adjustments.
+If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), your seat count is managed based on your organization's configuration, and seat allocation becomes automatic.
+
+## Have more questions?
+
+If you have questions about managing seats or want to learn about upgrading to an account that offers seats, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
