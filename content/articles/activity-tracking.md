@@ -33,8 +33,6 @@ Click **View** on the **Activity** card to view a detailed log of changes to the
 
 ![Activity Tracking at domain level](/files/activity-tracking-1.png)
 
-**new screenshot for tracking details**
-
 ## Account activity tracking
 
 Account-level activity tracking can be found under the account page.
