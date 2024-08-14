@@ -1,28 +1,51 @@
 ---
-title: Reactivate your subscription
+title: Reactivate Your Subscription
 excerpt: How to reactivate the subscription for a DNSimple account.
 categories:
 - Account
 ---
 
-# Reactivate your subscription
+# Reactivate Your Subscription
 
-When you [unsubscribe](/articles/cancel-subscription), all your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time. After reactivating your subscription, all active zones or domains using our name servers in your account will begin to resolve. Registered domains set to auto-renew will do so again. This process takes 24 hours to complete, but domains should resolve earlier than that.
+When you unsubscribe, or your account was [closed due to non-payment](/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time.
+
+When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/) and [domain auto-renewal](/articles/domain-auto-renewal/) are immediately disabled. If you want to use these features, you'll need to manually re-activate them.
 
 <warning>
-If you subscribed to DNSimple in the past, you've already enjoyed our 1 month trial. **Reactivating your subscription will not grant you another 30 day trial**.
+If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
 </warning>
 
+## How to reactivate your subscription
 
-<div class="section-steps" markdown="1">
-##### To reactivate your DNSimple subscription:
+<info>
+If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our [available plans](https://dnsimple.com/pricing).
+</info>
 
-1.  Log into DNSimple with your user credentials.
-1.  Go to [your dashboard](https://dnsimple.com/dashboard).
-1.  Locate the accounts section of your dashboard. Click the <label>Choose plan</label> link corresponding to the account you wish to reactivate.
+### From the dashboard
+1. Log in to DNSimple with your user credentials.
+1. Go to [your dashboard](https://dnsimple.com/dashboard).
+1. Locate the accounts section of your dashboard.
+1. You'll see a card with your account name on it. Click **Select a plan** on this card.
+    ![screenshot selecting a plan](/files/select-a-plan.png)
+1. Choose the plan that fits your needs, and click **Get started**.
+1. Enter your payment information and click **Create Subscription**.
 
-    ![Choose plan link](/files/account-dashboard-reactivation.png)
+### From the Billings and plans page:
+1. Locate the accounts section of your [dashboard](https://dnsimple.com/dashboard).
+1. Click on the account you want to reactivate, then select **Account** at the top right.
+1. Click the **Billing and plans** tab on the left side of the screen.
+1. You'll see a card with a **No plan selected** alert. Click **select plan** at the bottom of this card.
+    ![screenshot no plan selected](/files/no-plan-selected.png)
+1. Choose the plan that fits your needs, and click **Get started**.
+1. Enter your payment information and click **Create Subscription**.
 
-1.  Choose the plan that best suits your needs.
-1.  Enter your payment information and click <label>Create Subscription</label>.
-</div>
+### From the alert banner:
+1. Log in to DNSimple with your user credentials.
+1. Go to your [dashboard](https://dnsimple.com/dashboard).
+1. If your account still has domains stored in it, you'll see an alert banner at the top of the screen. Click **Choose plan**.
+1. Choose the plan that fits your needs, and click **Get started**.
+1. Enter your payment information and click **Create Subscription**.
+
+## Have more questions?
+
+If you have any questions about our currently available subscription plans or reactivating your account, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

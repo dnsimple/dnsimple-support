@@ -1,44 +1,48 @@
 ---
-title: Account Balance
+title: Understanding Your Account Balance and Billing Details
 excerpt: Checking your account's subscription balance, credit, and next payment due.
 categories:
 - Account
 ---
 
-# Account Balance
+# Understanding Your Account Balance and Billing Details
+The Account page, linked in the top right corner of the Domain List, provides comprehensive information about the account's billing and plan status.
 
-The account page has a full section dedicated to relevant information about your billing status. This information includes:
+## Checking your account billing details
+1. Choose the relevant account in the top bar on your dashboard, then click **Account** at the top right.
+1. On the account page, you can find your account balance under the **Billings and plans** tab on the left side of the screen.
 
-- **Next payment**
-  When the next subscription fee will be charged to the credit card on file.
+## Billing details breakdown
+On the **Billings and plans** page, you can view:
 
-- **Amount due**
-  The total amount of the subscription renewal.
+### Estimated amount due
+The total estimated amount due and the date it will be charged to the card on file. Next to the balance, you'll see the date your next payment is due.
 
-  It's broken up into three different components that you may be charged for: _plan price_, active zones_ and _email forwards_.
+This amount is broken up into:
+- [DNS queries](/articles/dns-query-limits/)
+- Subscription cost
+- Active zones
+- Extra [seats](/articles/managing-seats/) (on the Teams plan and higher)
+- [Email forwards](/articles/email-forwarding/)
+- Account credits (when applicable)
 
-- **Subscription balance**
-  The current balance of your account. The amount can be:
+![Screenshot of billing and plans settings](/files/billing-and-plans-screenshot.png)
 
-  - Zero: Indicating that your account is up to date.
-  - Balance due: Indicating that we didn't recieve or couldn't process the payment for your latest subscription renewal fee.
+### Plan usage
+View a breakdown of the DNS query volume fees by clicking **View** in the **Plan usage** section directly below the estimated costs.
 
-  Next to the balance, you'll find a estimated date for your next payment.
+### Account credit
+If your account has credit, future payments may be deducted from this amount. Account credits fall into two categories:
 
-- **Account credit**
-  If your account has credit, future payments may be deducted from this amount. Account credits fall into these two categories:
+- Credit for subscriptions: This credit is **only** used to cover subscription fees.
 
-  - Credit for subscriptions: This credit is only used to cover subscription fees.
-  - Credit for purchases: This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). We will also use this credit to cover your subscription fees before charging your card on file.
+- Credit for [purchases](/articles/understanding-invoice/#purchases): This credit is used when making purchases (register, renew and transfer domains, SSL certificates, etc.). If necessary, we will also use this credit to cover your subscription fees before charging your card on file.
 
-<div class="section-steps" markdown="1">
-##### Checking your account balance
+### Credit card
+This section contains the credit card on file for the account. Click **Edit** to make changes to the card. You can find more about changing your payment information in [this article](/articles/changing-payment-details/).
 
-1.  Log in to DNSimple with your user credentials.
-1.  Choose the account link from the top navigation header. If you have multiple accounts, select the account first, then click on account link.
-1.  On the account page, your account balance will be visible at the top of the page.
-1.  Under your account balance, you'll find your account credit – if you have any.
+### Invoices
+In this section, you can view and download all past invoices and make changes to the billing email for your account. For more information on invoices, see [Understanding Your Invoice](/articles/understanding-invoice/).
 
-    ![Account Billing section](/files/account-balance.png)
-
-</div>
+## Have more questions?
+If you have any questions about your billing or account details, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
