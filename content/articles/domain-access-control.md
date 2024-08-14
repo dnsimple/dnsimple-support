@@ -21,7 +21,7 @@ Domain Access Control is only available on eligible [plans](https://dnsimple.com
 
 The Domain Access Control feature lets you set the level of access for each team member in your account. Take control over who can access and manage your organization's domains, and ensure access is limited based on your needs.
 
-Combined with other DNSimple security features, like [multi-factor authentication (MFA)](articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), your domains are as secure as possible in your DNSimple account.
+Combined with other DNSimple security features, like [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), your domains are as secure as possible in your DNSimple account.
 
 ## Video walk-through
 
