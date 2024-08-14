@@ -7,7 +7,7 @@ categories:
 
 # Deleting Yourself as a User
 
-Deleting yourself as a user will permanently delete all your domains in all your accounts, records, and all associated information. If you prefer to retain this information for future use at DNSimple, consider [unsubscribing](/articles/cancel-subscription/) instead. 
+Deleting yourself as a user will permanently delete all your domains in all your accounts, records, and all associated information. If you prefer to retain this information for future use at DNSimple, consider [unsubscribing](/articles/cancel-subscription/) instead.
 
 <warning>
 Once you delete yourself as a user, all your domains and records will be deleted. You'll no longer be able to request transfer codes or unlock registered domains to transfer them to another registrar.
@@ -23,25 +23,25 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 
 1. Go to [your User Settings page](https://dnsimple.com/user):
 
-    **New screenshot** 
+    ![screenshot of user settings menu link](/files/user-settings-menu-item.png)
 
 1. Click <label>Delete user</label> at the bottom of the page:
 
-    **New screenshot**
+    ![screenshot of warning for deleting a user](/files/delete-user-warning.png)
 
    <info>
    The <label>Delete user</label> button will only be available if you have no active DNSimple subscriptions.
    </info>
-   
+
 1. Include your feedback, or write anything you like in the provided field, then click **I understand the consequences, close this user and account**. The field cannot be left blank.
 
-   **New screenshot**
+   ![screenshot of verifying canceling account](/files/verify-account-cancel.png)
 
-Once your account has successfully been deleted, you'll be redirected to the DNSimple homepage, and will be unable to log in to DNSimple with your previous account information. 
+Once your account has successfully been deleted, you'll be redirected to the DNSimple homepage, and will be unable to log in to DNSimple with your previous account information.
 </div>
 
 ## Deleting an account
 Customers cannot independently delete an account that was created with the multi-account feature. If you want to delete one of the accounts associated with your user information, please [contact us](https://dnsimple.com/contact) with the name of the account, and we'll help you delete it.
 
-## Have more questions? 
+## Have more questions?
 If you have any questions, or need assistance deleting your user information or an individual account, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
