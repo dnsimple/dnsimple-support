@@ -51,40 +51,66 @@ You can specify **Limited Access** when inviting a team member. The new team mem
 
 <!--- needs screenshot -->
 
-A team member can be granted access to specific domains by setting their permissions to **Limited Access**. From there, you'll see a list of your account's domains, along with a control to set them as a [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) for each domain in the account. You can also enter part of a domain name, and you'll only see domains matching that search part, or you can enter a role name to see the domains where the team member has that role.
+If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**.
 
-![Limited Access](/files/domain-access-control-limited-access.png)
+1. Click **Manage access** for the specific team member.
+1. Select **Limited Access**.
+1. You'll see a list of each domain in your account, along with dropdown menus with options for [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager).
+
+<!--- needs screenshot -->
+
+4. You can search for specific domains, or enter a role to view domains for which that team member has been assigned a role.
+
+<!--- needs screenshot -->
 
 ## Setting access for a domain
 
-You can set up the Domain Access Control feature for any individual domain by going to the Example.com > Access Control page. There, you'll see a list of all team members along with their current role and be able to update their access.
+<info>
+A team member must have limited access before you can fine-tune their access at the domain level.
+</info>
 
-![Domain's Member Page](/files/domain-access-control-domain-page.png)
+You can set up the Domain Access Control feature for any individual domain.
+
+1. Locate and click the domain you want to set access for in your Domain List.
+1. Choose the **Access control** tab at the bottom left.
+1. You'll see a list of all team members along with their current role. Use the drop down menu to update the type of access they have to each specific domain.
+
+<!--- needs screenshot -->
 
 ### Domain Manager
 
-Domain Managers can access all functionality under a specific domain. In addition to managing the zone, Domain Managers can change registration details for a domain – including the domain's registrant and the name servers for the domain, create new certificates, and perform all of the other operations on a domain where access is permitted.
+Domain Managers can access all functionality under a specific domain. In addition to managing the zone, Domain Managers can:
 
-A team member with the Domain Manager role can also disable DNS service for the domain completely and can set up Vanity Name Servers if that feature is available on your account.
+- Change registration details for a domain – including the registrant and name servers.
+- Create new certificates.
+- Perform all other operations on a domain where access is permitted.
+- Disable DNS service.
+- Set up Vanity Name Servers (if available on your account).
 
 ![Domain Manager](/files/domain-access-control-domain-manager.png)
 
 ### Zone Operator
 
-Team members with the Operator role for a domain only have access to the DNS zone for that domain. They can see and make changes to the DNS records in the zone using the DNS editor and one-click services.
+Team members with the Zone Operator role for a domain only have access to the DNS zone. They can:
 
-Team members with the Zone Operator role on a domain can view and change one-click services used for a zone and can add or remove DNS records for the domain's zone. They can also import and export zone records for the zone.
+- View and make changes to the DNS records in the zone using the Record Editor and One-click Services.
+- Import and export zone records for the zone.
 
 ![Zone Operator](/files/domain-access-control-zone-operator.png)
 
 ## API Access
 
-If a team member uses their user token to access a domain in an account, they'll have the same level of access as defined by their role. An Operator on a domain will be able to use their user token to manage a zone, but not other parts of the domain.
+If a team member accesses a domain in an account via their user token, they'll have the same level of access as defined by their role. A Zone Operator can use their user token to manage a zone, but not other parts of the domain.
 
-This is for user tokens only. Account tokens currently still have full access, similar to a team member with full account access.
+**This applies to user tokens only**. Account tokens have full access, similar to a team member with full account access.
+
+<info>
+[Learn the difference](/articles/api-access-token/#account-tokens-vs-user-tokens) between account tokens and user tokens.
+</info>
+
 
 ## Have more questions? 
 
-If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted. 
+If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted.
 
-Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you're interested in, and you may see it in a future feature release. 
+Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you're interested in, and you may see it in a future feature release.
