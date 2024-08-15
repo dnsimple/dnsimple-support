@@ -15,7 +15,7 @@ categories:
 ---
 
 <warning>
-  You cannot set up Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about why [here](/articles/dnssec-and-secondary-dns).
+  DNSimple does not support Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about the complexities of multi-signer DNSSEC models in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
 </warning>
 
 ## Getting started
