@@ -31,25 +31,29 @@ Combined with other DNSimple security features, like [multi-factor authenticatio
 
 ## Setting access for a team member
 
-To set a team member's role for multiple domains at once, go to the Account > Members page. Click on the Manage Access button to configure the team member's access. You can give the team member [Full Access](#full-access) or [Limited Access](#limited-access).
+To set a team member's role for multiple domains at once:
+
+1. Go to your Account page. 
+1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
+1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
 ![Account Member's Page](/files/domain-access-control-members-page.png)
 
 ### Full Access
 
-Any team member can be granted "Full Access". This gives them access to all resources inside an account – including all domains, contacts, certificates, templates, and billing.
+Any team member can be granted **Full Access**. This gives them access to all resources inside an account – including all domains, contacts, certificates, templates, and billing.
 
 ![Full Access](/files/domain-access-control-full-access.png)
 
 ### Limited Access
 
-A team member can be granted access to specific domains by first setting their permission to "Limited Access". From there, you'll see a list of your account's domains, along with a control to set them as a [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) for each domain in the account. You can also enter part of a domain name, and you'll only see domains matching that search part, or you can enter a role name to see the domains where the team member has that role.
+You can specify **Limited Access** when inviting a team member. The new team member will be able to join and see the account, but cannot access any domains until you grant permission.
+
+<!--- needs screenshot -->
+
+A team member can be granted access to specific domains by setting their permissions to **Limited Access**. From there, you'll see a list of your account's domains, along with a control to set them as a [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) for each domain in the account. You can also enter part of a domain name, and you'll only see domains matching that search part, or you can enter a role name to see the domains where the team member has that role.
 
 ![Limited Access](/files/domain-access-control-limited-access.png)
-
-<info>
-If you specify "Limited Access" when inviting a team member, the new team member will see the account, but won't be able to access any domains until you grant permission.
-</info>
 
 ## Setting access for a domain
 
@@ -83,4 +87,4 @@ This is for user tokens only. Account tokens currently still have full access, s
 
 If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted. 
 
-Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you’re interested in, and you may see it in a future feature release. 
+Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you're interested in, and you may see it in a future feature release. 
