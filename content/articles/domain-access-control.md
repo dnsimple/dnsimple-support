@@ -79,8 +79,8 @@ If a team member uses their user token to access a domain in an account, they'll
 
 This is for user tokens only. Account tokens currently still have full access, similar to a team member with full account access.
 
-## Conclusion
+## Have more questions? 
 
-With Domain Access Control you now have more control over who on your team can access and manage your organization's domains. You can ensure domain access is limited based on your needs. Combined with other DNSimple security features, like multi-factor authentication and activity logging, your domains remain secure in your DNSimple account.
+If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted. 
 
-If you're interested in limiting access to other parts of your DNSimple accounts, please [reach out](https://dnsimple.com/contact), and let us know.
+Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you’re interested in, and you may see it in a future feature release. 
