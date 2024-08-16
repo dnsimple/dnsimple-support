@@ -28,9 +28,9 @@ Benefits of Google Single Sign-On (SSO) include:
 
 Signing up for a DNSimple account using Google as your identity provider is straightforward. 
 
-1. Click “Sign up using Google,”
+1. Click **Sign up using Google**.
 1. Select your Google account. 
-1. You’ll be returned to DNSimple logged in to your new DNSimple account. We’ll use your Gmail address as both your user and account address.
+1. You'll be returned to DNSimple logged in to your new DNSimple account. We'll use your Gmail address as both your user and account address.
 
 ![Signing up to DNSimple via Google](/files/google-sso-social-signup.png)
 
