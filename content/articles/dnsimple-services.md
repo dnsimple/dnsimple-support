@@ -62,7 +62,7 @@ We offer:
 - Email services, including Rackspace, Mailgun, and Fastmail.
 - E-commerce services, like Shopify and Squarespace.
 
-For a complete list of our One-click services and how to add them, (view this article)[/articles/services/].
+For a complete list of our One-click services and how to add them, [view this article](/articles/services/).
 
 ## SSL certificates
 
