@@ -302,3 +302,7 @@ The verification code automatically expires every 30 seconds. Most one-time pass
 ![screenshot: Display of countdown of 2fa code expiration](/files/2fa-code-expiration.png)
 
 If the expiration is close to five seconds or less, you should wait for the next verification code to limit the possibility of an authentication failure caused by time differences or connection latency.
+
+## Need more help? 
+If you have any questions about MFA or need assistance setting it up, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+
