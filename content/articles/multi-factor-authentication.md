@@ -21,10 +21,8 @@ Multi-factor Authentication (MFA) is a security measure that helps protect you f
 ## Enabling multi-factor authentication {#enable}
 
 DNSimple supports MFA using the following methods as a second verification step:
-- Time-based one-time passwords
-- WebAuthn-compatible security keys
-
-You can enable MFA from your user page, either by linking a [one-time password authenticator application](#authenticator) or a [security key](#security-keys) that's compatible with [WebAuthn](https://webauthn.guide/) to your user profile.
+- Time-based [one-time password authenticator application](#authenticator) 
+- [WebAuthn](https://webauthn.guide/)-compatible security keys
 
 Make sure to install a one-time password authenticator application if you'll be using one-time passwords for multi-factor authentication. You'll need it to generate a verification code to complete the setup. Or, if you'll be using a security key, have it ready to complete the security key registration.
 
@@ -36,19 +34,24 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/access-user-settings.jpg)
+<!--- needs screenshot -->
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on <label>Connect an authenticator app that generates verification codes</label>.
+1.  In the <label>2-Step Verification</label> card, click <label>Add</label> next to "Connect an authenticator app that generates verification codes".
 
     ![Enable multi-factor authentication with one-time password](/files/user-mfa-enable-mfa-with-authenticator.png)
 
-1.  Scan the barcode using a [one-time password authenticator app](#authenticator). You can also manually enter the secret code in your authenticator app.  Just click on <label>Can't scan the barcode</label>, and type the code into your authenticator.
+1.  Scan the barcode using a [one-time password authenticator app](#authenticator). You can also manually enter the secret code by clicking <label>Can't scan the barcode?</label> and typing the code into your authenticator.
 
     ![Multi-factor barcode](/files/user-mfa-barcode.png)
 
-1.  Using the one-time password authenticator app, generate a verification code, enter the 6-digit verification code into the field, and press <label>Continue</label> to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise you'll be asked to enter a new verification code.
+1.  Using the one-time password authenticator app, generate a verification code.
+1.  Enter the 6-digit verification code into the field, and click <label>Continue</label> to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
 
-1.  The setup process ends here if you have an alternative MFA method already set up; however, if this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. Copy and store the [recovery code](#recovery-code) in a safe place.
+1.  The setup process ends here if you have an alternative MFA method already set up. 
+
+<note>
+If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. Copy and store the [recovery code](#recovery-code) in a safe place.
+</note>
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
 
@@ -64,9 +67,9 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/access-user-settings.jpg)
+<!--- needs screenshot -->
 
-1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on <label>Connect a security key to your user</label> to connect a new security key to your user profile.
+1.  In the <label>2-Step Verification</label> card, click <label>Add</label> next to "Connect a security key to your user" to connect a new security key to your user profile.
 
     ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
 
@@ -74,11 +77,13 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
     ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
 
-    If this is the first multi-factor authentication method you're setting up, the screen will look slightly different, as-below, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. Copy and store the [recovery code](#recovery-code) in a safe place.
+<note>
+If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. Copy and store the [recovery code](#recovery-code) in a safe place.
+</note>
 
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
 
-1.  Click on the <label>Register Key</label> button — you'll see this if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it. That will complete the security key setup process.
+1.  Click the <label>Register Key</label> button — you'll see this if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type and activate it to complete the security key setup process.
 
     However, if this is the only multi-factor authentication method you have set up, you'll see a <label>Continue</label> button instead of <label>Register Key</label>. Click on <label>Continue</label> to confirm the recovery code, then you can complete the security key setup process.
 
@@ -104,7 +109,7 @@ You can remove a one-time password authenticator application or any security key
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/access-user-settings.jpg)
+<!--- needs screenshot -->
 
 1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Delete</label> button next to the displayed Authenticator app configuration to go on to the confirmation page.
 
@@ -121,7 +126,7 @@ You can remove a one-time password authenticator application or any security key
 1.  Log in to DNSimple with your user credentials.
 1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
 
-    ![Settings menu](/files/access-user-settings.jpg)
+<!--- needs screenshot -->
 
 1.  Scroll down until you see the <label>2-Step Verification</label> section. Click on the <label>Delete</label> button next to the security key you would like to disable, to go on to the confirmation page.
 
