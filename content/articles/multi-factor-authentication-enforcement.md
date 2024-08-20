@@ -14,9 +14,9 @@ categories:
 
 ---
 
-[Multi-Factor Authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account.
+[Multi-Factor Authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account to ensure everyone on your team is using the best available security. 
 
-When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on all accounts that have the ability to [manage members of an account](/articles/account-users/).
+When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on the Teams plan and higher, with the ability to [manage members of an account](/articles/account-users/).
 
 ## Enabling multi-factor authentication enforcement {#enable}
 
