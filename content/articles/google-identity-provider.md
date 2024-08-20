@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Using Google as an identity provider streamlines the login experience for you and your team, and  centralizes your organization's identity security to help you manage risk at scale. 
+Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. 
 
 Benefits of Google Single Sign-On (SSO) include: 
 
@@ -26,7 +26,7 @@ Benefits of Google Single Sign-On (SSO) include:
 
 ## Registering a new DNSimple account via Google
 
-Signing up for a DNSimple account using Google as your identity provider is straightforward. 
+[Signing up](https://dnsimple.com/signup) for a DNSimple account using Google as your identity provider is straightforward. 
 
 1. Click **Sign up using Google**.
 1. Select your Google account. 
@@ -36,13 +36,19 @@ Signing up for a DNSimple account using Google as your identity provider is stra
 
 ## Logging in to DNSimple via Google
 
+### Before logging in 
+
 You'll need to [link a Google Workspace to your DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account) before your team members can log in via Google SSO. If you're using your personal Gmail account, you'll need to [link a Google account your DNSimple user](#linking-a-google-account-your-dnsimple-user) before you can log in via Google. 
+
+### Team member access
 
 [Once a Google Workspace is linked to a DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account), any member of the Google Workspace can request access to the DNSimple account. They can do so by attempting to log in via Google using the respective Workspace. 
 
 If this is the first time they're logging in, an email will be sent to the account owner indicating a new team member has signed in to the account. The new team member will not be able to see anything in the account until a team member with full access configures their [access roles](/articles/domain-access-control/).
 
-The team members can now easily log in with their Google identity. When you delete or suspend a team member from your company's Google Workspace admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
+### Suspended & deleted team members 
+
+When you delete or suspend a team member from your company's Google Workspace admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
 
 ## Linking a Google Workspace to a DNSimple account
 
@@ -58,7 +64,7 @@ The team members can now easily log in with their Google identity. When you dele
 1. Repeat the process for each account where you want Google SSO enabled.
 </div>
 
-If the Google Workspace is no longer linked (e.g. the access token is revoked), you can re-link the Workspace using the "Re-connect" button.
+If the Google Workspace is no longer linked (e.g. the access token is revoked), you can re-link the Workspace using the **Re-connect** button.
 
 ## Unlinking a Google Workspace from a DNSimple account
 
@@ -93,5 +99,12 @@ If the Google Workspace is no longer linked (e.g. the access token is revoked), 
 
 1. Go to the <label>User Settings</label> page.
 1. In the <label>Identities</label> card, click <label>Revoke</label> next to the Google identity you wish to remove.
-1. The selected identity can no longer be used to log in to your DNSimple account.
+1. The selected identity can no longer be used to log in to your DNSimple account. You'll see a banner confirming the provider has been unlinked. 
+
+<!--- needs screenshot -->
+
 </div>
+
+## Have more questions? 
+
+If you have any questions about using Google SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
