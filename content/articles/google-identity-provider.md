@@ -34,21 +34,18 @@ Benefits of Google Single Sign-On (SSO) include:
 
 ![Signing up to DNSimple via Google](/files/google-sso-social-signup.png)
 
-## Logging in to DNSimple via Google
+## Linking a Google account to your DNSimple user
 
-### Before logging in 
+![Link a Google identity](/files/google-link-identity.png)
 
-You'll need to [link a Google Workspace to your DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account) before your team members can log in via Google SSO. If you're using your personal Gmail account, you'll need to [link a Google account your DNSimple user](#linking-a-google-account-your-dnsimple-user) before you can log in via Google. 
+<div class="section-steps" markdown="1">
+#### To link a Google identity
 
-### Team member access
-
-[Once a Google Workspace is linked to a DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account), any member of the Google Workspace can request access to the DNSimple account. They can do so by attempting to log in via Google using the respective Workspace. 
-
-If this is the first time they're logging in, an email will be sent to the account owner indicating a new team member has signed in to the account. The new team member will not be able to see anything in the account until a team member with full access configures their [access roles](/articles/domain-access-control/).
-
-### Suspended & deleted team members 
-
-When you delete or suspend a team member from your company's Google Workspace admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
+1. Go to the <label>User Settings</label> page.
+1. In the <label>Identities</label> card, click <label>Add</label> next to the Google identity provider.
+1. Authenticate your Google account.
+1. You can now log in to DNSimple using the linked Google identity.
+</div>
 
 ## Linking a Google Workspace to a DNSimple account
 
@@ -66,6 +63,24 @@ When you delete or suspend a team member from your company's Google Workspace ad
 
 If the Google Workspace is no longer linked (e.g. the access token is revoked), you can re-link the Workspace using the **Re-connect** button.
 
+## Logging in to DNSimple via Google
+
+### Personal 
+
+If you did not sign up for DNSimple using Google, and you're using your personal Gmail account, you'll need to [link a Google account your DNSimple user](#linking-a-google-account-your-dnsimple-user) before you can log in via Google. Once your account is linked, you can use your Google account to log in from the the [login page](https://dnsimple.com/login).
+
+### Workspace
+
+You'll need to [link a Google Workspace to your DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account) before your team members can log in via Google SSO. 
+
+Once a Google Workspace is linked to a DNSimple account, any member of the Google Workspace can request access to the DNSimple account by attempting to log in via Google using the respective Workspace. 
+
+If this is the first time they're logging in, an email will be sent to the account owner indicating a new team member has signed in to the account. The new team member will not be able to see anything in the account until a team member with full access configures their [access roles](/articles/domain-access-control/).
+
+### Suspended & deleted team members 
+
+When you delete or suspend a team member from your company's Google Workspace admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
+
 ## Unlinking a Google Workspace from a DNSimple account
 
 <!--- needs screenshot -->
@@ -75,19 +90,6 @@ If the Google Workspace is no longer linked (e.g. the access token is revoked), 
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
-</div>
-
-## Linking a Google account to your DNSimple user
-
-![Link a Google identity](/files/google-link-identity.png)
-
-<div class="section-steps" markdown="1">
-#### To link a Google identity
-
-1. Go to the <label>User Settings</label> page.
-1. In the <label>Identities</label> card, click <label>Add</label> next to the Google identity provider.
-1. Authenticate your Google account.
-1. You can now log in to DNSimple using the linked Google identity.
 </div>
 
 ## Unlinking a Google account from your DNSimple user
