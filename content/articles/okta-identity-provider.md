@@ -20,13 +20,13 @@ Using Okta as an identity provider streamlines the login experience for you and 
 
 To proceed with configuring login with SSO through Okta, you must:
 
-- Have administrator access to an Okta organization. This is required for us to be able to react to team member changes in your Okta account (eg. [`only super admins can view and configure event hooks`](https://help.okta.com/en-us/content/topics/automation-hooks/add-event-hooks.htm)).
+- Have administrator access to an Okta organization. This is required for us to be able to react to team member changes in your Okta account (eg. [only super admins can view and configure event hooks](https://help.okta.com/en-us/content/topics/automation-hooks/add-event-hooks.htm)).
 - Have administrator access to a DNSimple account.
 - Be subscribed to a DNSimple plan that supports this feature. [See our pricing page for additional details](https://dnsimple.com/pricing).
 
 ## Supported Features
 
-- **SP-initiated Single Sign-On (SSO)**: This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
+- **SP-initiated Single Sign-On (SSO)**: Server-provider initiated. This authentication flow occurs when the user attempts to log in to DNSimple from Okta.
 - **Import Users**: Manage who can access your DNSimple account by assigning users to the Okta application
 
 ## Video walk-through
@@ -34,20 +34,6 @@ To proceed with configuring login with SSO through Okta, you must:
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe src="https://www.youtube.com/embed/XNJP2gwIIh4?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
-
-## Logging in via Okta
-
-You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
-
-1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
-1. Click the <label>Sign in using Okta</label> button.
-1. Enter the company's Okta domain and click "Sign in".
-1. If you are prompted for your Okta username and password, enter them.
-1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
-
-If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account's assets.
-
-If you log out of Okta, you will also be logged out of DNSimple.
 
 ## Linking an Okta organization to a DNSimple account
 
@@ -80,7 +66,7 @@ Follow the instructions below to connect DNSimple to your Okta organization.
 
 When configuring Okta SSO, DNSimple creates an event hook in the Okta organization to listen and react to membership changes. If multiple configurations are made to the same Okta organization, only a single hook is created.
 
-If the Okta app is no longer linked (e.g. access token is revoked or event hook removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
+If the Okta app is no longer linked (e.g. the access token is revoked or the event hook is removed), you can re-link the Okta application using the "Reauthorize with Okta" button.
 
 ![Reauthorize with Okta](/files/okta-reauthorize.png)
 
@@ -102,11 +88,6 @@ You can set the level of DNSimple access for each member by visiting the Account
 
 If you experience any issues or have any questions, please reach out at support@dnsimple.com.
 
-## Unlinking an Okta organization from a DNSimple account
-
-1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
-1. Click <label>Revoke</label> next to the SSO Workspace you want to remove.
-
 ## Linking a DNSimple user to an Okta identity
 
 When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. To link a DNSimple user to an Okta identity:
@@ -115,6 +96,25 @@ When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they 
 1. In the Identities card, click <label>Add</label> next to the Okta identity provider.
 1. Authenticate your Okta account.
 1. You can now log in to DNSimple using the linked Okta identity.
+
+## Logging in via Okta
+
+You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
+
+1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
+1. Click the <label>Sign in using Okta</label> button.
+1. Enter the company's Okta domain and click "Sign in".
+1. If you are prompted for your Okta username and password, enter them.
+1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
+
+If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account's assets.
+
+If you log out of Okta, you will also be logged out of DNSimple.
+
+## Unlinking an Okta organization from a DNSimple account
+
+1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
+1. Click <label>Revoke</label> next to the SSO Workspace you want to remove.
 
 ## Unlinking a DNSimple user from an Okta identity
 
