@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Multi-Factor Authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account to ensure everyone on your team is using the best available security. 
+[Multi-factor authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account to ensure everyone on your team is using the best available security. 
 
 When you have multiple users managing an account, it's vital to reduce the likelihood of a user's credentials being compromised. This feature is available on the Teams plan and higher, with the ability to [manage members of an account](/articles/account-users/).
 
@@ -27,7 +27,6 @@ You can only enable MFA enforcement on an account if all users have MFA enabled.
 <div class="section-steps" markdown="1">
 ##### To enable multi-factor authentication enforcement
 
-1.  Log in to DNSimple with your user credentials.
 1.  Go to your account settings by selecting the <label>Settings</label> or <label>Account Settings</label> link from the navigation.
 
     ![Settings menu](/files/account-settings-access.jpg)
@@ -46,8 +45,7 @@ You can only enable MFA enforcement on an account if all users have MFA enabled.
 <div class="section-steps" markdown="1">
 ##### To disable multi-factor authentication
 
-1.  Log in to DNSimple with your user credentials.
-1.  Go to your account settings by selecting the <label>Settings</label> or <label>Account Settings</label> link from the navigation.
+1.  Go to your account settings by selecting the relevant account, and clicking *Account*.
 
     ![Settings menu](/files/account-settings-access.jpg)
 
