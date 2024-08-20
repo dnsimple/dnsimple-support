@@ -141,7 +141,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 
 1.  Log in to DNSimple with your username and password.
 
-1.  If the credentials are correct, you'll see a 2-Step Verification window which may look different if you also have a security key enabled.
+1.  If the credentials are correct, you'll see a 2-Step Verification window. This may look different if you also have a security key enabled.
 
     If you have a security key enabled, it will be the default authentication method displayed. Click <label>Use one-time password</label> to switch to using a one-time password for the second verification step.
 
@@ -151,7 +151,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 
     ![Multi-factor authentication](/files/mfa-login-authenticator.png)
 
-1.  Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit to complete the 2-step login verification process.
+1.  Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
 
 <note>
 The verification code automatically expires every 30 seconds. If the expiration is five seconds or less, wait for the next verification code to limit the possibility of an authentication failure.
