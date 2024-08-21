@@ -52,7 +52,8 @@ You can enable multi-factor authentication enforcement from your Account page.
 1.  Select the <label>Members and seats</label> tab on the left.
 1.  Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. There's a link to <label>Disable</label> the feature.
 
-    ![Disable multi-factor authentication enforcement](/files/account-disable-2fa-enforcement.png)
+<!--- needs screenshot -->
+
 </div>
 
 ## Disabling MFA while on an enforced team
