@@ -14,7 +14,7 @@ categories:
 
 ---
 
-Using Okta as an identity provider streamlines the login experience for you and your team.
+Using Okta as an identity provider streamlines the login experience for you and your team and helps you manage risk at scale. You can read more about the benefits of using Okta SSO for DNSimple in [this post](https://blog.dnsimple.com/2023/03/introducing-okta-as-an-identity-provider/).
 
 ## Prerequisites
 
