@@ -121,3 +121,6 @@ If you log out of Okta, you will also be logged out of DNSimple.
 1. Go to the User Settings page.
 1. In the Identities card, click <label>Remove</label> next to the linked identity.
 
+## Have more questions? 
+
+If you have any questions about using Okta SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
