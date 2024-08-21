@@ -14,15 +14,7 @@ categories:
 
 ---
 
-Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. 
-
-Benefits of Google Single Sign-On (SSO) include: 
-
-- Anyone in your Google Workspace can request access to your DNSimple account. Account administrators with full access retain the right to approve or deny access to any Workspace team member. 
-- Suspended or deleted workspace members are automatically removed from linked DNSimple accounts. 
-- Simplified management of team members in your DNSimple account, while still providing strong access control.
-- Limited to users within your corporate domain, which helps protect important domain names and DNS configurations. 
-- SSO is integrated with [Domain Access Control](/articles/domain-access-control/), so you can manage access for each team member on a per-domain basis.
+Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. Read more about [the benefits of using Google Single Sign-On (SSO)](https://blog.dnsimple.com/2022/06/google-identity-provider/).  
 
 ## Registering a new DNSimple account via Google
 
