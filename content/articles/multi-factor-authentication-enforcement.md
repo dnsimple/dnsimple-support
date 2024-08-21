@@ -37,6 +37,8 @@ You can enable multi-factor authentication enforcement from your Account page.
 <!--- needs screenshot -->
 
 1.  If there are users in your account who don't have MFA enabled, you'll see a list of non-compliant users. You can [remove the users](/articles/account-users/#removing-members-from-an-account) from the account in the **Members** card.
+
+<!--- needs screenshot -->
 </div>
 
 
