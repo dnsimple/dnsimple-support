@@ -39,13 +39,13 @@ To set a team member's role for multiple domains at once:
 
 <!--- needs screenshot -->
 
-### Full Access
+### Full access
 
 Any team member can be granted **Full Access**. This gives them access to all resources inside an account – including all domains, contacts, certificates, templates, and billing.
 
 ![Full Access](/files/domain-access-control-full-access.png)
 
-### Limited Access
+### Limited access
 
 You can specify **Limited Access** when inviting a team member. The new team member will be able to join and see the account, but cannot access any domains until you grant permission.
 
@@ -98,7 +98,7 @@ Team members with the Zone Operator role for a domain only have access to the DN
 
 ![Zone Operator](/files/domain-access-control-zone-operator.png)
 
-## API Access
+## API access
 
 If a team member accesses a domain in an account via their user token, they'll have the same level of access as defined by their role. A Zone Operator can use their user token to manage a zone, but not other parts of the domain.
 
