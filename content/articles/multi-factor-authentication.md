@@ -31,8 +31,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 <div class="section-steps" markdown="1">
 ##### To enable multi-factor authentication with one-time password
 
-1.  Log in to DNSimple with your user credentials.
-1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
 <!--- needs screenshot -->
 
@@ -64,8 +63,7 @@ If this is the only multi-factor authentication method you have set up, a [recov
 <div class="section-steps" markdown="1">
 ##### To enable multi-factor authentication with a security key
 
-1.  Log in to DNSimple with your user credentials.
-1.  Go to your [user page](https://dnsimple.com/user) by selecting the <label>User Settings</label> link under your user menu.
+1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
 <!--- needs screenshot -->
 
@@ -171,7 +169,6 @@ The verification code automatically expires every 30 seconds. If the expiration 
 1.  Click <label>Log in</label>, select the type of security key you'll be activating, and activate the security key.
 
 </div>
-
 
 ## Recovery code {#recovery}
 
