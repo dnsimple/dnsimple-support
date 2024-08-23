@@ -37,9 +37,9 @@ To proceed with configuring login with SSO through Okta, you must:
 
 ## Linking an Okta organization to a DNSimple account
 
-You can also follow the instructions in [Okta's documentation ](https://help.okta.com/oie/en-us/content/topics/apps/apps-add-applications.htm) to connect DNSimple to your Okta organization. 
+You can also follow the instructions in [Okta's documentation ](https://help.okta.com/oie/en-us/content/topics/apps/apps-add-applications.htm) to connect DNSimple to your Okta organization.
 
-### Adding the DNSimple App to Okta {#adding-the-dnsimple-app-to-okta} 
+### Adding the DNSimple app to Okta {#adding-the-dnsimple-app-to-okta}
 
 These steps are performed in your Okta account.
 
@@ -71,7 +71,7 @@ If the Okta app is no longer linked (e.g. the access token is revoked or the eve
 
 ![Reauthorize with Okta](/files/okta-reauthorize.png)
 
-### Assigning People or Groups {#assigning-people-or-groups-in-okta}
+### Assigning people or groups {#assigning-people-or-groups-in-okta}
 
 To give people access to DNSimple, click "Assignments" under the configured DNSimple app in your Okta dashboard. Click "Assign", and select the appropriate users.
 
