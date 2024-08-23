@@ -47,9 +47,9 @@ These steps are performed in your Okta account.
 1. Go to the **Applications**page, then click **Browse App Catalog**.
 1. Search for **DNSimple** and click **Add Integration**.
 ![Browse app catalog](/files/okta-browse-app-catalog.png)
-1. Click the Assignments tab to give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider. Read more about [assignments in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-assign-applications.htm).
+1. Click the **Assignments** tab to give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider. Read more about [assignments in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-assign-applications.htm).
 ![Assign users and groups](/files/okta-assignment.png)
-1. Click the Okta API Scopes tab. Look for the okta.eventHooks.manage and okta.eventHooks.read scopes, and click Grant for each of them. Make sure to verify they've been granted. Read more about [configuring settings and API scopes in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-configure-settings.htm).
+1. Click the **Okta API Scopes** tab. Look for the okta.eventHooks.manage and okta.eventHooks.read scopes, and click **Grant** for each of them. Make sure to verify they've been granted. Read more about [configuring settings and API scopes in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-configure-settings.htm).
 ![Granted scopes](/files/okta-grant-scopes.png)
 1. Click the **Sign On** tab. **Note the client ID and client secret, as you will need them to configure DNSimple for Okta SSO**.
 ![Okta client credentials](/files/okta-client-credentials.png)
