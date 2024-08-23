@@ -47,7 +47,7 @@ These steps are performed in your Okta account.
 1. Go to the <label>Applications</label> page, then click <label>Browse App Catalog</label>.
 1. Search for <label>DNSimple</label> and click the <label>Add integration</label> button.
 ![Browse app catalog](/files/okta-browse-app-catalog.png)
-1.Click the Assignments tab to give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider. Read more about [assignments in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-assign-applications.htm).
+1. Click the Assignments tab to give users and groups from your Okta directory permission to sign in to DNSimple via Okta as an identity provider. Read more about [assignments in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-assign-applications.htm).
 ![Assign users and groups](/files/okta-assignment.png)
 1. Click the Okta API Scopes tab. Look for the okta.eventHooks.manage and okta.eventHooks.read scopes, and click Grant for each of them. Make sure to verify they've been granted. Read more about [configuring settings and API scopes in Okta ](https://help.okta.com/oie/en-us/content/topics/apps/apps-configure-settings.htm).
 ![Granted scopes](/files/okta-grant-scopes.png)
