@@ -75,7 +75,7 @@ When you delete or suspend a team member from your company's Google Workspace ad
 
 ## Unlinking a Google Workspace from a DNSimple account
 
-![screenshot: unlink Google identity provider](files/unlink-google-identity.png)
+![screenshot: unlink Google identity provider](/files/unlink-google-identity-provider.png)
 
 <div class="section-steps" markdown="1">
 #### To unlink a Google Workspace
@@ -86,7 +86,7 @@ When you delete or suspend a team member from your company's Google Workspace ad
 
 ## Unlinking a Google account from your DNSimple user
 
-![screenshot: identity provider list](/files/identity-provder-list.png)
+![screenshot: identity provider list](/files/identity-provider-list.png)
 
 <div class="section-steps" markdown="1">
 #### To unlink a Google identity
