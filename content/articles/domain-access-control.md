@@ -33,11 +33,11 @@ Combined with other DNSimple security features, like [multi-factor authenticatio
 
 To set a team member's role for multiple domains at once:
 
-1. Go to your Account page. 
+1. Go to your Account page.
 1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
 1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
-<!--- needs screenshot -->
+![screenshot: set team member access](/files/team-member-access.png)
 
 ### Full access
 
@@ -49,7 +49,7 @@ Any team member can be granted **Full Access**. This gives them access to all re
 
 You can specify **Limited Access** when inviting a team member. The new team member will be able to join and see the account, but cannot access any domains until you grant permission.
 
-<!--- needs screenshot -->
+![screenshot: invite a user with limited access](/files/invite-with-limited-access.png)
 
 If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**.
 
@@ -57,11 +57,11 @@ If you invited someone with full access and want to change it, team members can 
 1. Select **Limited Access**.
 1. You'll see a list of each domain in your account, along with dropdown menus with options for [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager).
 
-<!--- needs screenshot -->
+![screenshot: set team member as limited access](/files/limited-access-team-member.png)
 
 4. You can search for specific domains, or enter a role to view domains for which that team member has been assigned a role.
 
-<!--- needs screenshot -->
+![screenshot: assign roles per domain](/files/roles-per-domain.png)
 
 ## Setting access for a domain
 
@@ -75,7 +75,7 @@ You can set up the Domain Access Control feature for any individual domain.
 1. Choose the **Access control** tab at the bottom left.
 1. You'll see a list of all team members along with their current role. Use the drop down menu to update the type of access they have to each specific domain.
 
-<!--- needs screenshot -->
+![screenshot: roles per domain](/files/access-per-domain.png)
 
 ### Domain Manager
 
@@ -109,7 +109,7 @@ If a team member accesses a domain in an account via their user token, they'll h
 </info>
 
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted.
 

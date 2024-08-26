@@ -21,7 +21,7 @@ Multi-factor authentication (MFA) is a multi-step security measure that helps pr
 ## Enabling multi-factor authentication {#enable}
 
 DNSimple supports MFA using the following methods as a second verification step:
-- Time-based [one-time password authenticator application](#authenticator) 
+- Time-based [one-time password authenticator application](#authenticator)
 - [WebAuthn](https://webauthn.guide/)-compatible [security key](#security-keys)
 
 Make sure to install a one-time password authenticator application if you'll be using one-time passwords for multi-factor authentication. You'll need it to generate a verification code to complete the setup. Or, if you'll be using a security key, have it ready to complete the security key registration.
@@ -33,7 +33,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
-<!--- needs screenshot -->
+![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1.  In the <label>2-Step Verification</label> card, click <label>Add</label> next to "Connect an authenticator app that generates verification codes".
 
@@ -46,7 +46,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 1.  Using the one-time password authenticator app, generate a verification code.
 1.  Enter the 6-digit verification code into the field, and click <label>Continue</label> to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
 
-1.  The setup process ends here if you have an alternative MFA method already set up. 
+1.  The setup process ends here if you have an alternative MFA method already set up.
 
 <note>
 If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
@@ -65,7 +65,7 @@ If this is the only multi-factor authentication method you have set up, a [recov
 
 1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
-<!--- needs screenshot -->
+![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1.  In the <label>2-Step Verification</label> card, click <label>Add</label> next to "Connect a security key to your user" to connect a new security key to your user profile.
 
@@ -104,7 +104,7 @@ You can remove a one-time password authenticator application or any security key
 
 1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
-<!--- needs screenshot -->
+![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1.  In the <label>2-Step Verification</label> card, click <label>Delete</label> next to the displayed authenticator app configuration. This will take you to the confirmation page.
 
@@ -120,7 +120,7 @@ You can remove a one-time password authenticator application or any security key
 
 1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
-<!--- needs screenshot -->
+![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1.  In the <label>2-Step Verification</label> card, click <label>Delete</label> next to the security key you would like to disable. This will take you to the confirmation page.
 
@@ -225,7 +225,7 @@ Recovery codes can be regenerated. When a recovery code is regenerated, you cann
 
 1.  Go to your [user page](https://dnsimple.com/user) by selecting <label>User Settings</label> at the top right of the screen.
 
-<!--- needs screenshot -->
+![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1.  In the <label>2-Step Verification</label> card, click <label>Re-generate</label> next to the existing recovery code.
 
@@ -288,5 +288,5 @@ The verification code automatically expires every 30 seconds. Most one-time pass
 
 If the expiration is in five seconds or less, wait for the next verification code to limit the possibility of an authentication failure caused by time differences or connection latency.
 
-## Need more help? 
+## Need more help?
 If you have any questions about MFA or need assistance setting it up, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
