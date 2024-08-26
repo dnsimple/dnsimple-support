@@ -41,7 +41,7 @@ If you have affected domains, you have until September 30, 2024 to take action. 
 
 ### For domains registered with DNSimple
 
-For all domains registered with DNSimple, we will automatically perform the necessary changes. The vanity name server feature will be shut down, and the delegation will be changed to DNSimple’s name servers.
+For all domains registered with DNSimple, we will automatically perform the necessary changes. The vanity name server feature will be shut down, and the delegation will be changed to DNSimple's name servers.
 
 ## Access to vanity name servers
 
