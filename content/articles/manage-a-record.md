@@ -60,11 +60,11 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To update an A record
 
-1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
+1.  In the record editor, search for the record, and click the _pencil_ icon to edit it.
 
    <!--- needs screenshot -->
 
-1.  Update the information and click <label>Update Record</label> to save the record.
+1.  Update the information, and click <label>Update Record</label> to save the record.
 </div>
 
 
@@ -73,7 +73,7 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To remove an A record
 
-1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
+1.  In the record editor, search for the record, and click the _trash_ icon to delete it.
 
    <!--- needs screenshot -->
 
