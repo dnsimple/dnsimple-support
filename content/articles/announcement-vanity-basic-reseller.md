@@ -1,5 +1,5 @@
 ---
-title: Discontinuation of vanity name servers on legacy Basic Resellers plans
+title: Discontinuation of Vanity Name Servers on Legacy Basic Resellers Plans
 excerpt: DNSimple will no longer support vanity name servers for legacy Basic Reseller plans starting June 30, 2024. Affected customers will be notified via email.
 categories:
 ---
