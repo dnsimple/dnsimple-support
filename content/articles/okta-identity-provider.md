@@ -108,7 +108,7 @@ To link a DNSimple user to an Okta identity:
 You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
 
 1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
-1. Click the **Sign in using Okta** button.
+1. Click **Sign in using Okta**.
 1. Enter the company's Okta domain and click **Sign in**.
 1. If you are prompted for your Okta username and password, enter them.
 1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
@@ -124,7 +124,7 @@ If you log out of Okta, you will also be logged out of DNSimple.
 
 ## Unlinking a DNSimple user from an Okta identity
 
-1. Go to the User Settings page.
+1. Go to the **User Settings** page.
 1. In the Identities card, click **Remove** next to the linked identity.
 
 ## Have more questions? 
