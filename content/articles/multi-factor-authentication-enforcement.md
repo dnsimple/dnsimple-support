@@ -29,7 +29,7 @@ You can enable multi-factor authentication enforcement from your Account page.
 
 1.  Go to your account settings by selecting the relevant account and clicking *Account* at the top right of the dashboard.
 
-![screenshot: mfa settings for account](/files/mfa.png)
+![screenshot: account settings](/files/account-settings.png)
 
 1.  Select the <label>Members and seats</label> tab on the left.
 1.  Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. When all members of your Team have MFA enabled, you can use this feature.
