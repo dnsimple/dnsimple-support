@@ -1,10 +1,10 @@
 ---
-title: Discontinuation of grandfathered vanity name servers
+title: Discontinuation of Grandfathered Vanity Name Servers
 excerpt: DNSimple will no longer support vanity name servers for grandfathered domains starting September 30, 2024. Affected customers will be notified via email.
 categories:
 ---
 
-# Discontinuation of grandfathered Vanity name servers
+# Discontinuation of Grandfathered Vanity Name Servers
 
 <info>
 This article contains information that is only relevant to customers on certain plans. If you are impacted, you will receive an email from us asking you to take action.
