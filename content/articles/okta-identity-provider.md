@@ -92,8 +92,6 @@ The team members can now easily log in with their Okta identity. When you delete
 
 You can set the level of DNSimple access for each member under the **Members and seats** tab in your DNSimple Account settings. For full details, visit [Domain Access Control](/articles/domain-access-control/).
 
-If you experience any issues or have any questions, please reach out at support@dnsimple.com.
-
 ## Linking a DNSimple user to an Okta identity
 
 When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. This is done in your DNSimple user settings. 
