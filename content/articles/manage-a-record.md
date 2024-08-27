@@ -24,7 +24,7 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To add an A record
 
-1.  In the record editor, click <label>Add</label> and select <label>A</label> to add a new A record.
+1.  In the record editor, click <label>Add record</label> and select <label>A</label> from the dropdown menu to add a new A record.
 
     <!--- needs screenshot -->
 
