@@ -24,32 +24,33 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To add an A record
 
-1.  In the record editor, click <label>Add</label> and select <label>A</label> to add a new A record.
+1.  In the [record editor](/articles/record-editor/), click <label>Add</label> and select <label>A</label> to add a new A record.
 
-    ![screenshot: Showing select menu for choosing to create a new A record](/files/record-a-create-select.png)
+    <!--- needs screenshot -->
 
 1.  Enter the A record information.
 
     ![screenshot: Showing form for creating an A record for a domain](/files/record-a-create-new.png)
 
-    - _Name_: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
+    - **Name**: The subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
 
     <note>
-    Some providers may instruct you to name the record `@`. `@` denotes the current origin. In DNSimple, just leave it blank to represent the root domain `example.com`.
+    Some providers may instruct you to name the record `@` to denote the current origin. In DNSimple, leave it blank to represent the root domain `example.com`.
     </note>
-    - _IP Address_: the IPv4 address the record will resolve to.
+    
+    - **IP Address**: The IPv4 address the record will resolve to.
 
     As with any other DNS record, you can configure:
 
-    - _TTL_: the record time-to-live.
-    - _Respond From Regions_: Configure [Regional Records](/articles/regional-records/) if desired.
-    - _Notes_: Optionally include a [record note](/articles/record-notes/).
+    - **TTL**: The record time-to-live.
+    - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
+    - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
     Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
 1.  The record is created and visible in the record list.
 
-    ![screenshot: Showing an A record for a domain](/files/record-a-item.png)
+   <!--- needs screenshot -->
 
 </div>
 
@@ -61,7 +62,7 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
 
-    ![screenshot: Showing button for editing an A record from a domain](/files/record-a-item-edit.png)
+   <!--- needs screenshot -->
 
 1.  Update the information and click <label>Update Record</label> to save the record.
 </div>
@@ -74,7 +75,11 @@ The instructions in this article assume you're familiar with the [A record forma
 
 1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
 
-    ![screenshot: Showing button for deleting an A record from a domain](/files/record-a-item-delete.png)
+   <!--- needs screenshot -->
 
 1.  Confirm the dialog to delete the record.
 </div>
+
+## Need more help?
+
+If you have any questions or need assistance adding A records to your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
