@@ -1,5 +1,5 @@
 ---
-title: Vanity Name Servers on Legacy Basic Resellers Plans No Longer Supported
+title: Discontinuation of Vanity Name Servers on Legacy Basic Resellers Plans
 excerpt: DNSimple will no longer support vanity name servers for legacy Basic Reseller plans starting June 30, 2024. Affected customers will be notified via email.
 categories:
 ---
@@ -22,7 +22,7 @@ As part of our commitment to providing streamlined and reliable DNS management s
 
 The Basic Reseller plan has never included the vanity name servers feature by default. However, access was grandfathered in for some accounts when the plan was first introduced 10 years ago.
 
-The following IP addresses were primarily used by Basic Reseller accounts to configure vanity name servers, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](https://support.dnsimple.com/articles/dnsimple-nameservers/):
+The following IP addresses were primarily used by Basic Reseller accounts to configure vanity name servers, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](/articles/dnsimple-nameservers/):
 
 - 198.241.10.53
 - 198.241.11.53
