@@ -17,13 +17,13 @@ This article contains information that is only relevant to customers on certain 
 
 ---
 
-As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our name server infrastructure and discontinuing the use of vanity name servers for all plans on which the feature is not currently available. We will begin disabling the feature on September 30, 2024.
+As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our name server infrastructure and discontinuing the use of vanity name servers for all plans on which the feature is not currently available. We will begin disabling the feature on **September 30, 2024**.
 
 ## Who's impacted?
 
 Plans like Personal, Professional, Solo, and Teams have never included the vanity name servers feature by default. However, access was grandfathered in for some accounts.
 
-Accounts subscribed to the Personal, Professional, Solo, or Teams plan will be impacted if they have any domains using [vanity name servers](https://support.dnsimple.com/articles/vanity-nameservers/) to either provide or delegate to vanity name servers.
+Accounts subscribed to the Personal, Professional, Solo, or Teams plan will be impacted if they have any domains using [vanity name servers](/articles/vanity-nameservers/) to either provide or delegate to vanity name servers.
 
 ## What's changing and how it will impact your domains
 
@@ -45,4 +45,4 @@ For all domains registered with DNSimple, we will automatically perform the nece
 
 ## Access to vanity name servers
 
-If you are interested in retaining your vanity name servers, you can upgrade to a plan that includes this feature before September 30, 2024. Just contact us at <support@dnsimple.com>, and we will be happy to assist you with the necessary changes or answer any questions.
+If you are interested in retaining your vanity name servers, you can upgrade to a plan that includes this feature before September 30, 2024. Just contact us at support@dnsimple.com, and we will be happy to assist you with the necessary changes or answer any questions.
