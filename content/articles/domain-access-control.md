@@ -57,11 +57,11 @@ If you invited someone with full access and want to change it, team members can 
 1. Select **Limited Access**.
 1. You'll see a list of each domain in your account, along with dropdown menus with options for [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager).
 
-![screenshot: set team member as limited access](/files/limited-access-team-member.png)
+    ![screenshot: set team member as limited access](/files/limited-access-team-member.png)
 
 4. You can search for specific domains, or enter a role to view domains for which that team member has been assigned a role.
 
-![screenshot: assign roles per domain](/files/roles-per-domain.png)
+    ![screenshot: assign roles per domain](/files/roles-per-domain.png)
 
 ## Setting access for a domain
 
