@@ -14,6 +14,9 @@ var articleScore = function articleScore (article, q) {
   if (article.searchTitle.indexOf(q) !== -1)
     score += 75;
 
+  if (article.searchTitle === q)
+    score += 50;
+
   if (article.searchBody.indexOf(q) !== -1)
     score += 50;
 
