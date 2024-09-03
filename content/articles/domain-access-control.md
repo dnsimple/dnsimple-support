@@ -37,7 +37,7 @@ To set a team member's role for multiple domains at once:
 1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
 1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
-![screenshot: set team member access](/files/team-member-access.png)
+<!--- needs screenshot -->
 
 ### Full access
 
