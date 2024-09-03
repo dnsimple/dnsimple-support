@@ -14,6 +14,9 @@ var articleScore = function articleScore (article, q) {
   if (article.searchTitle.indexOf(q) !== -1)
     score += 75;
 
+  if (article.searchTitle === q)
+    score += 50;
+
   if (article.searchBody.indexOf(q) !== -1)
     score += 50;
 
@@ -93,13 +96,13 @@ var findByScore = function findByScore (q, articles) {
       article.score = articleScore(article, q);
       return article.score > MIN_SCORE;
     })
-    .filter(function (article, index) {
-      return index <= MAX_RESULTS;
-    })
     .sort(function (a, b) {
       if (a.score > b.score) return -1;
       if (a.score < b.score) return 1;
       return 0;
+    })
+    .filter(function (article, index) {
+      return index <= MAX_RESULTS;
     });
 };
 
