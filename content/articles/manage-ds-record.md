@@ -7,7 +7,7 @@ categories:
 ---
 
 # Managing DS Records
-
+ 
 ### Table of Contents {#toc}
 
 * TOC
@@ -15,9 +15,14 @@ categories:
 
 ---
 
+DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain.
+
 ## Locating the DS records page
 
-To view and manage the delegation signer (DS) records for a domain, click the DNSSEC tab on a domain's management page, then click <label>Manage</label> in the DS Records card.
+To view and manage the delegation signer (DS) records for a domain:
+
+1. In your Domain List, click the domain name to acccess the domain's management page.
+1. Click the **DNSSEC** tab on the left side, then click **Manage** in the **DS Records** card.
 
 <!--- needs screenshot -->
 
@@ -91,6 +96,6 @@ On the DS records page, click <label>Add DS record</label>.
 3.  The record is deleted and no longer visible in the record list.
 </div>
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions or need more help managing your DS records, just [contact support](https://dnsimple.com/feedback), and we'll assist you.
