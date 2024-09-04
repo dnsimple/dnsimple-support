@@ -1,6 +1,6 @@
 ---
 title: How to Use dig
-excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
+excerpt: Instructions on troubleshooting DNS issues using dig.
 categories:
 - DNS
 ---
