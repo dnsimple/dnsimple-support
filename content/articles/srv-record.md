@@ -16,11 +16,11 @@ categories:
 
 ## What Is an SRV Record?
 
-[SRV (Service) records](https://en.wikipedia.org/wiki/SRV_record) help with service discovery. For example, SRV records are used in Internet Telephony to define where a [SIP service](https://en.wikipedia.org/wiki/Session_Initiation_Protocol ) can be found.
+[SRV (Service) records](https://en.wikipedia.org/wiki/SRV_record) help with service discovery. For example, SRV records are used in Internet Telephony to define where a [SIP service](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) can be found.
 
 An SRV record typically defines a symbolic name and the transport protocol used as part of the domain name. It defines the priority, weight, port, and target for the service in the record content.
 
-Here's an example of two SRV records.
+Here's an example of two SRV records:
 
     _sip._tcp.example.com.   3600 IN    SRV 10       60     5060 bigbox.example.com.
     _sip._tcp.example.com.   3600 IN    SRV 10       20     5060 smallbox1.example.com.
@@ -40,7 +40,7 @@ To add an SRV record in DNSimple:
 
 <!--- needs screenshot -->
 
-1. Click **Add record** on the left side. Choose **SRV**, and fill out the form.
+1. Click **Add record** on the left side. Choose **SRV** from the dropdown menu, and fill out the form.
 1. Click **Add Record** at the bottom of the page to complete the process. You'll be returned to the Domain List with a banner indicating the record was successfully added. 
 
 This is an example SRV record form: 
