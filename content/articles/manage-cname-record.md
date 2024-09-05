@@ -56,7 +56,9 @@ A CNAME record points a whole subdomain to another name in the domain name syste
 
 For example:
 
-There's an MX record on email.example.com, and you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain (email.example.com), and render the MX record useless, which stops your email. To counter this potential error, the domain name system doesn't allow other records alongside a CNAME.
+> There's an MX record on email.example.com, and you try to add a CNAME on that exact subdomain (email.example.com). If you added the CNAME, it would override the subdomain
+> (email.example.com), and render the MX record useless, which stops your email. To counter this potential error, the domain name system doesn't allow other records alongside
+> a CNAME.
 
 You can achive similar behavior to CNAME records with an [ALIAS](/articles/alias-record/) record. If you want a sub-domain to always resolve to the IP address of another domain, you can use an ALIAS record pointing to that domain. You should only do this if you absolutely need it, as the ALIAS record has a small amount of additional overhead when compared to [A](/articles/a-record/) and CNAME records.
 
