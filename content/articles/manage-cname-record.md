@@ -31,8 +31,8 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
     ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
 
-    - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
-    - **Content**: the target host name this host will point to. It must be a host name (e.g. foo.bar.com) and not a URL (e.g. http://foo.bar.com or http://foo.bar.com/foo are invalid).
+    - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. This field cannot be left blank. 
+    - **Content**: the target host name this host will point to. It must be a host name (e.g. blog.dnsimple.com) and not a URL (e.g. http://blog.dnsimple.com or http://blog.dnsimple.com/foo are invalid).
 
     As with any other DNS record, you can configure:
 
@@ -40,7 +40,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    Click <label>Add Record</label> to confirm and create the record.
+    Click **Add Record** to confirm and create the record.
 
 1.  The record is created and visible in the record list.
 
