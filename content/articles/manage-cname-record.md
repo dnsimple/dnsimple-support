@@ -46,12 +46,10 @@ The instructions in this article assume you're familiar with the [CNAME record f
 
 <!--- needs screenshot -->
 
-</div>
-
-### Cannot add a new record where a CNAME exists
+</div> 
 
 <note>
-A CNAME record points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless. 
+**You cannot add a new record where a CNAME exists**. A CNAME record points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless. 
 </note>
 
 For example:
