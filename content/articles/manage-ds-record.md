@@ -85,7 +85,7 @@ On the DS records page, click <label>Add DS record</label>.
 <div class="section-steps" markdown="1">
 #### To remove a DS record
 
-1.  In the DS records page, search for the record and click on the _trash_ icon to delete it.
+1.  On the DS records page, search for the record, and click on the _trash_ icon to delete it.
 
     ![screenshot: Delete DS Record](/files/ds-records-delete.png)
 
