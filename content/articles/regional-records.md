@@ -8,10 +8,10 @@ categories:
 # Regional Records
 
 <info>
-This article describes a feature only available on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+This article describes a feature only available on the Teams plan and higher, where it's enabled by default. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
-Regional records lets you select geographical regions where you want a record to appear.
+Regional records let you select geographical regions where you want a record to appear.
 
 We have <%= POPS.count %> points of presence:
 
@@ -20,13 +20,9 @@ We have <%= POPS.count %> points of presence:
 
 When creating a new record, select the point of presence for this record. **If you don't select any, the record will appear in all of them.**
 
-This feature is enabled by default on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
-
 ![Regional record selection](/files/regional-records.png)
 
-<info>
-Usage note for regional records
-</info>
+## Regional record usage note
 
 Our regional records provide additional granularity for customers who want to tailor their DNS responses based on the DNS requests origination.
 
@@ -38,5 +34,5 @@ In certain cases, network topology and geographical proximity do not align perfe
 
 When using regional records, bear in mind that defining a record for specific POP, without adding the same regional record for a geographically-close POP, can cause failing DNS resolution due to the above factors.
 
-Please [contact us](https://dnsimple.com/feedback) with any questions about regional records usage.
-
+## Have more questions? 
+Just [contact us](https://dnsimple.com/feedback) with any questions about regional records usage, and we'll be happy to help. 
