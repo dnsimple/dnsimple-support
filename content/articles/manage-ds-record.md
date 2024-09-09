@@ -33,7 +33,7 @@ On the DS Records page, you will see a list of the DS records currently provisio
 ## Adding a DS record
 
 <info>
-The form fields shown on the Add DS record page will differ based on whether the TLD of the domain requires them to be set up with the DS-Data interface or the KEY-Data interface. This is automatically populated based on the TLD.
+The form fields shown on the **Add DS Record** page will differ based on whether the TLD of the domain requires them to be set up with the DS-Data interface or the KEY-Data interface. This is automatically populated based on the TLD.
 </info>
 
 On the DS records page, click <label>Add DS record</label>.
