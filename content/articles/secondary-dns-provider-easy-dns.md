@@ -44,7 +44,7 @@ From the *DNS settings* tab, you'll tell EasyDNS the primary name server. In thi
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
-Now add DNSimple's primary server IP address: `18.189.127.127`
+Now add the DNSimple primary server IP address `18.189.127.127` and confirm the changes.
 
 <info>
   At the time of writing, **EasyDNS** only accepts IPv4 for Secondary DNS
@@ -52,9 +52,7 @@ Now add DNSimple's primary server IP address: `18.189.127.127`
 
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
 
-Then confirm the changes.
-
-It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *DNS Settings* tab, then *check* the zone cache. The link shows you what EasyDNS is currently storing in its cache as your zone information. This should match what you see in your DNS settings within your Primary name server at DNSimple.
+It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *DNS Settings* tab, then *check* the zone cache. The link shows you what EasyDNS is currently storing in its cache as your zone information. This should match what you see in your DNS settings within the primary name server at DNSimple.
 
 ![DNSimple configuration is successful](/files/easy-dns-tools.png)
 
