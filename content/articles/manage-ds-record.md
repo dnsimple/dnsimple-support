@@ -7,7 +7,7 @@ categories:
 ---
 
 # Managing DS Records
-
+ 
 ### Table of Contents {#toc}
 
 * TOC
@@ -23,7 +23,8 @@ To view and manage the delegation signer (DS) records for a domain:
 
 1. In your Domain List, click the domain name to acccess the domain's management page.
 1. Click the **DNSSEC** tab on the left side, then click **Manage** in the **DS Records** card.
-  ![screenshot: manage ds records](/files/ds-records-manage.png)
+
+<!--- needs screenshot -->
 
 ## Listing DS records
 
@@ -37,26 +38,27 @@ The form fields shown on the **Add DS Record** page will differ based on whether
 
 On the DS records page, click <label>Add DS record</label>.
 
-![screenshot: adding a ds record](/files/ds-record-add.png)
+<!--- needs screenshot -->
 
 <div class="section-steps" markdown="1">
 
 #### To add a DS record using the DS-Data interface
 
-1. Enter the DS record information.
-  ![Add DS Record with DS Data](/files/ds-records-add-ds-data.png)
+1.  Enter the DS record information.
 
-  - **Algorithm**: the algorithm used to generate the signature.
+    ![Add DS Record with DS Data](/files/ds-records-add-ds-data.png)
 
-  - **Keytag**: a numerical value that identifies the referenced DNSKEY record.
+    - **Algorithm**: the algorithm used to generate the signature.
 
-  - **Digest Type**: the type of algorithm used to create the digest.
+    - **Keytag**: a numerical value that identifies the referenced DNSKEY record.
 
-  - **Digest**: the hash value of the DNSKEY record, in hexadecimal format.
+    - **Digest Type**: the type of algorithm used to create the digest.
 
-  Click <label>Add DS Record</label> to create the record.
+    - **Digest**: the hash value of the DNSKEY record, in hexadecimal format.
 
-2. The record is created and visible in the record list.
+    Click <label>Add DS Record</label> to create the record.
+
+2.  The record is created and visible in the record list.
 
 </div>
 
@@ -64,15 +66,17 @@ On the DS records page, click <label>Add DS record</label>.
 
 #### To add a DS record using the KEY-Data interface
 
-1. Enter the DS record information. The Flags and Protocol form fields will be pre-filled with the appropriate values.
-  ![Add DS Record with Key Data](/files/ds-records-add-key-data.png)
+1.  Enter the DS record information. The Flags and Protocol form fields will be pre-filled with the appropriate values.
 
-  - **Algorithm**: the algorithm used to generate the signature.
-  - **Public Key**: public key of the Key-signing key of your zone signing configuration.
+    ![Add DS Record with Key Data](/files/ds-records-add-key-data.png)
 
-  Click <label>Add DS Record</label> to create the record.
+    - **Algorithm**: the algorithm used to generate the signature.
 
-1.  The record is created and visible in the record list.
+    - **Public Key**: public key of the Key-signing key of your zone signing configuration.
+
+    Click <label>Add DS Record</label> to create the record.
+
+2.  The record is created and visible in the record list.
 
 </div>
 
