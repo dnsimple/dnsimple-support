@@ -35,15 +35,13 @@ The final two values in the record define the port and hostname to connect to fo
 
 To add an SRV record in DNSimple:
 
-1. On your Domain List, click the relevant domain. 
+1. On your Domain List, click the relevant domain.
 1. Click the **DNS** badge at the top right to access the [Record Editor](/articles/record-editor/).
-
-<!--- needs screenshot -->
-
+  ![DNS menu badge](/files/dns-menu-badge.png)
 1. Click **Add record** on the left side. Choose **SRV** from the dropdown menu, and fill out the form.
-1. Click **Add Record** at the bottom of the page to complete the process. You'll be returned to the Domain List with a banner indicating the record was successfully added. 
+1. Click **Add Record** at the bottom of the page to complete the process. You'll be returned to the Domain List with a banner indicating the record was successfully added.
 
-This is an example SRV record form: 
+This is an example SRV record form:
 
 ![Add SRV record](/files/srv-record.png)
 
@@ -51,6 +49,6 @@ The given example results in this SRV record:
 
     _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
 
-## Have more questions? 
+## Have more questions?
 
-You can [contact our support team](https://dnsimple.com/feedback) with any questions about adding SRV records, and we'll be happy to help. 
+You can [contact our support team](https://dnsimple.com/feedback) with any questions about adding SRV records, and we'll be happy to help.
