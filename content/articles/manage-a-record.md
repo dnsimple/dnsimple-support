@@ -24,12 +24,10 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To add an A record
 
-1.  In the record editor, click <label>Add record</label> and select <label>A</label> from the dropdown menu to add a new A record.
+1. In the record editor, click <label>Add record</label> and select <label>A</label> from the dropdown menu to add a new A record.
+    ![screenshot: select A record from record type](/files/select-a-record.png)
 
-    <!--- needs screenshot -->
-
-1.  Enter the A record information.
-
+1. Enter the A record information.
     ![screenshot: Showing form for creating an A record for a domain](/files/record-a-create-new.png)
 
     - **Name**: The subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
@@ -37,7 +35,7 @@ The instructions in this article assume you're familiar with the [A record forma
     <note>
     Some providers may instruct you to name the record `@` to denote the current origin. In DNSimple, leave it blank to represent the root domain `example.com`.
     </note>
-    
+
     - **IP Address**: The IPv4 address the record will resolve to.
 
     As with any other DNS record, you can configure:
@@ -48,9 +46,8 @@ The instructions in this article assume you're familiar with the [A record forma
 
     Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
-1.  The record is created and visible in the record list.
-
-   <!--- needs screenshot -->
+1. The record is created and visible in the record list.
+   ![screenshot: a record added](/files/a-record-created.png)
 
 </div>
 
@@ -60,11 +57,9 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To update an A record
 
-1.  In the record editor, search for the record, and click the _pencil_ icon to edit it.
-
-   <!--- needs screenshot -->
-
-1.  Update the information, and click <label>Update Record</label> to save the record.
+1. In the record editor, search for the record, and click the _pencil_ icon to edit it.
+  ![screenshot: edit an A record](/files/a-record-edit.png)
+1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
 
 
@@ -73,11 +68,9 @@ The instructions in this article assume you're familiar with the [A record forma
 <div class="section-steps" markdown="1">
 #### To remove an A record
 
-1.  In the record editor, search for the record, and click the _trash_ icon to delete it.
-
-   <!--- needs screenshot -->
-
-1.  Confirm the dialog to delete the record.
+1. In the record editor, search for the record, and click the _trash_ icon to delete it.
+  ![screenshot: delete A record](/files/a-record-delete.png)
+1. Confirm the dialog to delete the record.
 </div>
 
 ## Need more help?
