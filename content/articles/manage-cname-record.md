@@ -24,34 +24,30 @@ The instructions in this article assume you're familiar with the [CNAME record f
 #### To add a CNAME record
 
 1. In the record editor, click <label>Add record</label>, and select <label>CNAME</label> from the dropdown menu.
-
-<!--- needs screenshot -->
-
+  ![screenshot: add cname record](/files/cname-add-record.png)
 1. Enter the CNAME record information.
+  ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
 
-    ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
+  - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. This field cannot be left blank.
+  - **Content**: the target host name this host will point to. It must be a host name (e.g. blog.dnsimple.com) and not a URL (e.g. http://blog.dnsimple.com or http://blog.dnsimple.com/post are invalid).
 
-    - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. This field cannot be left blank. 
-    - **Content**: the target host name this host will point to. It must be a host name (e.g. blog.dnsimple.com) and not a URL (e.g. http://blog.dnsimple.com or http://blog.dnsimple.com/post are invalid).
+  As with any other DNS record, you can configure:
 
-    As with any other DNS record, you can configure:
+  - **TTL**: the record time-to-live.
+  - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
+  - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    - **TTL**: the record time-to-live.
-    - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
-    - **Notes**: Optionally include a [record note](/articles/record-notes/).
+  Click **Add Record** to confirm and create the record.
 
-    Click **Add Record** to confirm and create the record.
+1. The record is created and visible in the record list.
+  ![screenshot: new cname record shown](/files/cname-record-visible.png)
 
-1.  The record is created and visible in the record list.
+</div>
 
-<!--- needs screenshot -->
-
-</div> 
-
-### Attempting to add a new record where a CNAME exists 
+### Attempting to add a new record where a CNAME exists
 
 <note>
-**You cannot add a new record where a CNAME exists**. A CNAME record points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless. 
+**You cannot add a new record where a CNAME exists**. A CNAME record points a whole subdomain to another name in the domain name system. If you have another record on that subdomain, you can't add a CNAME, as that CNAME would render the other records useless.
 </note>
 
 For example:
@@ -65,11 +61,10 @@ You can achive similar behavior to CNAME records with an [ALIAS](/articles/alias
 <div class="section-steps" markdown="1">
 #### To update a CNAME record
 
-1.  In the record editor, search for the record and click on the _pencil_ icon to edit it.
+1. In the record editor, search for the record and click on the _pencil_ icon to edit it.
+  ![screenshot: edit cname record](/files/cname-record-edit.png)
 
-<!--- needs screenshot -->
-
-1.  Update the information and click <label>Update Record</label> to save the record.
+1. Update the information and click <label>Update Record</label> to save the record.
 </div>
 
 ## Removing a CNAME record
@@ -77,11 +72,10 @@ You can achive similar behavior to CNAME records with an [ALIAS](/articles/alias
 <div class="section-steps" markdown="1">
 #### To remove a CNAME record
 
-1.  In the record editor, search for the record and click on the _trash_ icon to delete it.
+1. In the record editor, search for the record and click on the _trash_ icon to delete it.
+  ![screenshot: delete cname record](/files/cname-record-delete.png)
 
-<!--- needs screenshot -->
-
-1.  Confirm the dialog to delete the record.
+1. Confirm the dialog to delete the record.
 </div>
 
 ## Have more questions?
