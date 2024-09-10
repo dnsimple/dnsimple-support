@@ -24,42 +24,35 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 <div class="section-steps" markdown="1">
 #### To add an AAAA record
 
-1.  In the record editor, click <label>Add record</label> and select <label>AAAA</label> from the dropdown menu to add a new AAAA record.
+1. In the record editor, click <label>Add record</label> and select <label>AAAA</label> from the dropdown menu to add a new AAAA record.
+  ![screenshot: add AAA record](/files/aaa-record-add.png)
+1. Enter the AAAA record information.
+  ![screenshot: Showing the form for creating a new AAAA record](/files/record-aaaa-create-new.png)
 
-   <!--- needs screenshot -->
+  - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
+  - **IP Address**: the IPv6 address the record will resolve to.
 
-1.  Enter the AAAA record information.
+  As with any other DNS record, you can configure:
 
-    ![screenshot: Showing the form for creating a new AAAA record](/files/record-aaaa-create-new.png)
+  - **TTL**: the record time-to-live.
+  - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
+  - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
-    - **IP Address**: the IPv6 address the record will resolve to.
+  Click <label>Add Record</label> to confirm and create the record.
 
-    As with any other DNS record, you can configure:
-
-    - **TTL**: the record time-to-live.
-    - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
-    - **Notes**: Optionally include a [record note](/articles/record-notes/).
-
-    Click <label>Add Record</label> to confirm and create the record.
-
-1.  The record is created and will be visible in the record list.
-
-<!--- needs screenshot -->
-
+1. The record is created and will be visible in the record list.
+  ![screenshot: AAA record created](/files/aaa-record-created.png)
 </div>
-
 
 ## Updating an AAAA record
 
 <div class="section-steps" markdown="1">
 #### To update an AAAA record
 
-1.  In the record editor, search for the record, and click the _pencil_ icon to edit it.
+1. In the record editor, search for the record, and click the _pencil_ icon to edit it.
+  ![screenshot: edit an AAA record](/files/aaa-record-edit.png)
 
-<!--- needs screenshot -->
-
-1.  Update the information, and click <label>Update Record</label> to save the record.
+1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
 
 
@@ -68,13 +61,11 @@ The instructions in this article assume you're familiar with the [AAAA record fo
 <div class="section-steps" markdown="1">
 #### To remove an AAAA record
 
-1.  In the record editor, search for the record, and click the _trash_ icon to delete it.
-
-<!--- needs screenshot -->
-
-1.  Confirm the dialog to delete the record.
+1. In the record editor, search for the record, and click the _trash_ icon to delete it.
+  ![screenshot: delete aaa record](/files/aaa-record-delete.png)
+1. Confirm the dialog to delete the record.
 </div>
 
-## Need more help? 
+## Need more help?
 
 If you have any questions or need assistance adding AAAA records to your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
