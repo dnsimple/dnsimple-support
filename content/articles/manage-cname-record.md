@@ -37,9 +37,9 @@ The instructions in this article assume you're familiar with the [CNAME record f
   - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
   - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-  Click **Add Record** to confirm and create the record.
+Click **Add Record** to confirm and create the record.
 
-1. The record is created and visible in the record list.
+The record is created and visible in the record list.
   ![screenshot: new cname record shown](/files/cname-record-visible.png)
 
 </div>
