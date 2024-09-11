@@ -44,7 +44,7 @@ The instructions in this article assume you're familiar with the [A record forma
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    Once you're ready, click <label>Add Record</label> to confirm and create the record.
+1. Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
 1. The record is created and visible in the record list.
    ![screenshot: a record added](/files/a-record-created.png)
