@@ -32,15 +32,15 @@ The instructions in this article assume you're familiar with the [AAAA record fo
   - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`.
   - **IP Address**: the IPv6 address the record will resolve to.
 
-  As with any other DNS record, you can configure:
+    As with any other DNS record, you can configure:
 
   - **TTL**: the record time-to-live.
   - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
   - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-  Click <label>Add Record</label> to confirm and create the record.
+Click <label>Add Record</label> to confirm and create the record.
 
-1. The record is created and will be visible in the record list.
+The record is created and will be visible in the record list.
   ![screenshot: AAA record created](/files/aaa-record-created.png)
 </div>
 
