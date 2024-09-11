@@ -15,25 +15,28 @@ categories:
 
 ---
 
+DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain.
+
 ## Locating the DS records page
 
-To view and manage the delegation signer (DS) records for a domain, click on the DNSSEC tab on a domain's management page, then click on the <label>Manage</label> link in the DS Records section.
+To view and manage the delegation signer (DS) records for a domain:
 
-![Manage DS Records link](/files/ds-records-manage.png)
+1. In your Domain List, click the domain name to acccess the domain's management page.
+1. Click the **DNSSEC** tab on the left side, then click **Manage** in the **DS Records** card.
+  ![screenshot: manage ds record](/files/ds-record-manage.png)
 
 ## Listing DS records
 
-On the DS Records page, you will be able to see a list of the DS records currently provisioned for the domain.
-
-![List DS Records](/files/ds-records-list.png)
+On the DS Records page, you will see a list of the DS records currently provisioned for the domain.
 
 ## Adding a DS record
 
+<info>
+The form fields shown on the **Add DS Record** page will differ based on whether the TLD of the domain requires them to be set up with the DS-Data interface or the KEY-Data interface. This is automatically populated based on the TLD.
+</info>
+
 On the DS records page, click <label>Add DS record</label>.
-
-![Add DS Record](/files/ds-records-add-ds-record.png)
-
-The Add DS Record page will load. The form fields shown on the Add DS record page will differ based on whether the TLD of the domain requires them to be set up with the DS-Data interface or the KEY-Data interface.
+![screenshot: add ds record](/files/ds-record-add.png)
 
 <div class="section-steps" markdown="1">
 
@@ -43,15 +46,15 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
     ![Add DS Record with DS Data](/files/ds-records-add-ds-data.png)
 
-    - _Algorithm_: the algorithm used to generate the signature.
+    - **Algorithm**: the algorithm used to generate the signature.
 
-    - _Keytag_: a numerical value that identifies the referenced DNSKEY record.
+    - **Keytag**: a numerical value that identifies the referenced DNSKEY record.
 
-    - _Digest Type_: the type of algorithm used to create the digest.
+    - **Digest Type**: the type of algorithm used to create the digest.
 
-    - _Digest_: the hash value of the DNSKEY record, in hexadecimal format.
+    - **Digest**: the hash value of the DNSKEY record, in hexadecimal format.
 
-    Once you're ready, click <label>Add DS Record</label> to create the record.
+    Click <label>Add DS Record</label> to create the record.
 
 2.  The record is created and visible in the record list.
 
@@ -65,11 +68,11 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
     ![Add DS Record with Key Data](/files/ds-records-add-key-data.png)
 
-    - _Algorithm_: the algorithm used to generate the signature.
+    - **Algorithm**: the algorithm used to generate the signature.
 
-    - _Public Key_: public key of the Key-signing key of your zone signing configuration.
+    - **Public Key**: public key of the Key-signing key of your zone signing configuration.
 
-    Once you're ready, click <label>Add DS Record</label> to create the record.
+    Click <label>Add DS Record</label> to create the record.
 
 2.  The record is created and visible in the record list.
 
@@ -78,9 +81,9 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 ## Removing a DS record
 
 <div class="section-steps" markdown="1">
-#### To remove an DS record
+#### To remove a DS record
 
-1.  In the DS records page, search for the record and click on the _trash_ icon to delete it.
+1.  On the DS records page, search for the record, and click on the _trash_ icon to delete it.
 
     ![screenshot: Delete DS Record](/files/ds-records-delete.png)
 
@@ -90,3 +93,7 @@ The Add DS Record page will load. The form fields shown on the Add DS record pag
 
 3.  The record is deleted and no longer visible in the record list.
 </div>
+
+## Have more questions?
+
+If you have any questions or need more help managing your DS records, just [contact support](https://dnsimple.com/feedback), and we'll assist you.
