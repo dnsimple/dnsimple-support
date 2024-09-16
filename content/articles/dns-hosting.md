@@ -31,7 +31,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tlds) with us, and subscribe to a DNS hosting plan to manage the domain with us.
 
-To use our DNS hosting service, the account must be subscribed to a valid plan. Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
+To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 
 ## Adding the domain
 
