@@ -66,7 +66,7 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  On the card <label>DNS zone is inactive</label> card, click **Activate zone**.
+1.  On the <label>DNS zone is inactive</label> card, click **Activate zone**.
 
 <!--- needs screenshot -->
 
