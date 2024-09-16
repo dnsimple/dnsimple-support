@@ -18,19 +18,18 @@ The **Record Editor** is the DNSimple DNS editor. The editor gives you the abili
 
 Any [supported DNS record type](/articles/supported-dns-records) can be managed from the record editor, except system records.
 
-
 ## Locating the record editor
 
-To access the record editor from the domain page, click on the records icon.
+1. Click the relevant domain name.
+1. Click the DNS badge in the top right.
 
-![Record Editor from the domain page](/files/rec-editor-domain-page.png)
-
+<!--- needs screenshot -->
 
 ## System records
 
 System Records are special DNS records created by DNSimple when you add a domain to your account. They're necessary to resolve your domain. They can't be edited from the record editor, because they're managed by the DNSimple system.
 
-![System Records](/files/rec-editor-page.png)
+<!--- needs screenshot -->
 
 The system records include a [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple name servers.
 
@@ -40,15 +39,19 @@ From the <label>Add a Record</label> menu select a DNS record type, and click on
 
 ![Select Record Type](/files/rec-editor-new-record.png)
 
+<Info>
+To make changes to records, you will need to have access to the account or have been given access to the specific domain. When adding a record, make sure the domain is delegating to us so the records propagate.
+</Info>
+
 ## Simple editor
 
 In most cases, you'll be asked to provide a _Name_, a _TTL_, and the content for the record.
 
-- _Name_: This is the record hostname. Leave it blank to configure a record for the root domain. Otherwise, enter the subdomain part for a different hostname. You can also enter an `*` for a wildcard record.
+- **Name**: This is the record hostname. Leave it blank to configure a record for the root domain. Otherwise, enter the subdomain part for a different hostname. You can also enter an `*` for a wildcard record.
 
-- _TTL_: TTL stands for Time-to-Live. It determines how long a DNS lookup for that record can be cached. The default value is 1 hour (3600 seconds), but you can adjust it by selecting a different value from the select field.
+- **TTL**: TTL stands for Time-to-Live. It determines how long a DNS lookup for that record can be cached. The default value is 1 hour (3600 seconds), but you can adjust it by selecting a different value from the select field.
 
-Enter the required infomation and press <label>Add Record</label> to create the record.
+Enter the required information, and click <label>Add Record</label> to create the record.
 
 ## Record fields editor
 
