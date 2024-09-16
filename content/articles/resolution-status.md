@@ -19,7 +19,7 @@ If you updated the name servers to another provider, those will appear as well.
 
 <!--- needs screenshot -->
 
-If you transferred the domain to us, we don't automatically switch your name servers. [Switch the name servers to us, once you're ready](/articles/delegating-dnsimple-registered/).
+If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
 ## Domains registered with another registrar
 
