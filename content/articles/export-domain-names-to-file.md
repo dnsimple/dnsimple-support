@@ -20,7 +20,7 @@ This article explains how to export your domain names into a .CSV list.
 
 1. Visit the Domain Names page for your account.
 1. Click **Export** in the top right.
-1. You should see a banner notification that your .CSV file is being generated and will be emailed to you when it’s ready (less than 5 minutes).
+1. You should see a banner notification that your .CSV file is being generated and will be emailed to you when it's ready (less than 5 minutes).
 
 
 ![screenshot: how to export your domain names list as a .csv file](/files/export-domain-names-to-file.png)
