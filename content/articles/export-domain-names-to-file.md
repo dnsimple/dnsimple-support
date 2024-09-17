@@ -57,4 +57,4 @@ We include domain registration and DNS zone details in the exported file:
 
 ## Have more questions? 
 
-If you have any questions or need any assistance exporting your domains, [contact support](https://dnsimple.com/feedback), and we’ll be happy to help. 
+If you have any questions or need any assistance exporting your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
