@@ -82,6 +82,9 @@ When you delete or suspend a team member from your company's Google Workspace ad
 
 1. Go to the <label>Account</label> page, and click the <label>Single Sign-On</label> tab.
 1. Click <label>Revoke</label> next to the SSO Workspace you wish to remove.
+
+![screenshot: unlink Google workspace success](/files/unlink-google-workspace-success.png)
+
 </div>
 
 ## Unlinking a Google account from your DNSimple user
@@ -94,8 +97,6 @@ When you delete or suspend a team member from your company's Google Workspace ad
 1. Go to the <label>User Settings</label> page.
 1. In the <label>Identities</label> card, click <label>Revoke</label> next to the Google identity you wish to remove.
 1. The selected identity can no longer be used to log in to your DNSimple account. You'll see a banner confirming the provider has been unlinked.
-
-![screenshot: remove Google identity success](/files/remove-google-identity-success.png)
 
 </div>
 
