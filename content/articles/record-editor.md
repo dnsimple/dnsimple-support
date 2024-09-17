@@ -14,7 +14,7 @@ categories:
 
 ---
 
-The **Record Editor** is the DNSimple DNS editor. The editor gives you the ability to view, create, and manage the DNS records for a domain.
+The record editor is DNSimple's DNS editor. It gives you the ability to view, create, and manage the DNS records for a domain.
 
 Any [supported DNS record type](/articles/supported-dns-records) can be managed from the record editor, except system records.
 
@@ -27,11 +27,11 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 
 ## System records
 
-System Records are special DNS records created by DNSimple when you add a domain to your account. They're necessary to resolve your domain. They can't be edited from the record editor, because they're managed by the DNSimple system.
+System records are special DNS records created by DNSimple when you add a domain to your account. They're necessary to resolve your domain. They can't be edited from the record editor, because they're managed by the DNSimple system.
 
 <!--- needs screenshot -->
 
-The system records include a [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple name servers.
+The system records include an [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple's name servers.
 
 ## Adding a record
 
@@ -45,7 +45,7 @@ To make changes to records, you will need to have access to the account or have 
 
 ## Simple editor
 
-In most cases, you'll be asked to provide a _Name_, a _TTL_, and the content for the record.
+In most cases, you'll be asked to provide a **Name**, a **TTL**, and the content for the record.
 
 - **Name**: This is the record hostname. Leave it blank to configure a record for the root domain. Otherwise, enter the subdomain part for a different hostname. You can also enter an `*` for a wildcard record.
 
@@ -59,7 +59,7 @@ Some DNS record types count with a special form that breaks the record content's
 
 You can always switch back to the simple editor using the tabs on top. This can be useful when pasting DNS record content from a third-party service provider.
 
-![Simple editor tab](/files/rec-editor-simple-editor-tab.png)
+<!--- needs screenshot -->
 
 ### Specific record instructions
 
@@ -74,7 +74,7 @@ You can always switch back to the simple editor using the tabs on top. This can 
 
 To modify a record, click on the edit icon at the end of the record row.
 
-![Update Record](/files/rec-editor-edit.png)
+<!--- needs screenshot -->
 
 
 ## Deleting a record
@@ -82,11 +82,15 @@ To modify a record, click on the edit icon at the end of the record row.
 To delete a record, click on the trash icon at the end of the record row.
 
 <warning>
-Please note there's no undo. The only way to restore a deleted record is to create it again.
+There is no way to undo deleting a record. The only way to restore a deleted record is to create it again.
 </warning>
 
-![Delete Record](/files/rec-editor-delete.png)
+<!--- needs screenshot -->
 
 ## Managing integrated zone records
 
 The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones) for more details.
+
+## Have more questions? 
+
+If you have any questions or need assistance with the record editor, reach out to [support](https://dnsimple.com/feedback), and we'll be happy to help. 
