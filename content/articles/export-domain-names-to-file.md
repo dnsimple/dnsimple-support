@@ -42,6 +42,7 @@ We include domain registration and DNS zone details in the exported file:
 | **expiration_date** | the date the domain expires |
 | **renew_by** | the date the domain must be renewed by |
 | **auto_renews** | whether the domain auto-renews |
+| **premium_domain** | whether the domain has premium pricing or not |
 | **renewal_price** | the domain renewal price |
 | **whois_privacy** | whether the registration has Whois privacy protection |
 | **dnssec** | whether DNSimple manages the DNSSEC configuration|
