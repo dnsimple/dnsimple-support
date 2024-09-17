@@ -16,12 +16,11 @@ categories:
 
 DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).
 
-
 ## Using DNSimple as a DNS hosting provider
 
 If you want to use DNSimple to manage the DNS of an existing domain, you have two options:
 
-1.  **Keep the domain registration at your current registrar and transfer the DNS management to us.**
+1.  **Keep the domain registration at your current registrar, and transfer the DNS management to us.**
 
     To use DNSimple to host your DNS for a domain, follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted).
 
@@ -41,7 +40,7 @@ To use our DNS hosting services, you need to [add the domain to a DNSimple accou
 
 Once you've added your domain, you can configure the DNS records using the following options:
 
-- By [auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider.
+- [Auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider.
 - Configuring [connectors](https://support.dnsimple.com/categories/connectors/). With two-way connections, both sides of the service are configured and monitored automatically.
 - Adding [one-click services](https://support.dnsimple.com/categories/services/). Our ready-to-use DNS snippets create the DNS configuration needed for web pages, email, and more.
 - Manually entering DNS records in the DNS [record editor](https://support.dnsimple.com/articles/record-editor/).
@@ -50,8 +49,7 @@ After configuring your records, you'll be prompted to activate the DNS zone, mak
 
 ## Configuring the domain records
 
-You manage your domain DNS records (also called DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
-
+You can manage your domain DNS records (also called a DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
 
 ## Activating a DNS zone
 
@@ -64,7 +62,7 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 1.  Click the relevant domain name to access the domain page.
 1.  On the left side, click the <label>DNS</label> tab.
 
-    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
+<!--- needs screenshot -->
 
 1.  On the <label>DNS zone is inactive</label> card, click **Activate zone**.
 
@@ -72,7 +70,7 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 
 </div>
 
-THe DNS zone is automatically inactive for each new domain or zone added to an account, whether you register/transfer the domain or simply add it.
+The DNS zone is automatically inactive for each new domain or zone added to an account, whether you register/transfer the domain or simply add it.
 
 ## Deactivating a DNS zone
 
@@ -83,7 +81,7 @@ THe DNS zone is automatically inactive for each new domain or zone added to an a
 1.  Click the relevant domain name to access the domain page.
 1.  On the left side, click the <label>DNS</label> tab.
 
-    ![Domain DNS tab link](/files/domain-tab-dns-link.png)
+<!--- needs screenshot -->
 
 1.  On the <label>DNS zone is active</label> card, click **Deactivate zone**.
 
@@ -93,8 +91,7 @@ THe DNS zone is automatically inactive for each new domain or zone added to an a
 
 If a domain is delegated to our name servers, deactivating a DNS zone for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
-If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider.
-
+If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider. 
 
 ## Use cases
 
@@ -106,4 +103,4 @@ There are a few cases where you may want to deactivate a zone:
 
 ## Have more questions? 
 
-If you have any questions or need assistance activating or deactivating a zone, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance activating or deactivating a DNS zone, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
