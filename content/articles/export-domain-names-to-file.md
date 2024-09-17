@@ -54,3 +54,7 @@ We include domain registration and DNS zone details in the exported file:
 | **zone_providers** | the integrated zone providers |
 | **certificates_count** | the number of related certificates |
 | **email_forwards_count** | the number of related email forwards |
+
+## Have more questions? 
+
+If you have any questions or need any assistance exporting your domains, [contact support](https://dnsimple.com/feedback), and we’ll be happy to help. 
