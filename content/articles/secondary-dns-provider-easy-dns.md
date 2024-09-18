@@ -1,30 +1,30 @@
 ---
-title: Add EasyDNS as a secondary DNS server
+title: Adding EasyDNS as a Secondary DNS Server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 categories:
 - Secondary DNS
 ---
 
-# Add EasyDNS as a secondary DNS server
+# Adding EasyDNS as a Secondary DNS Server
 
-For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns).
+For an overview of secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
 
 **Requirements**
 
 * An active account with **EasyDNS**. Every EasyDNS plan allows for secondary DNS Setup.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple).
 
-You can get started with Secondary DNS from the DNS section of the domain management page.
+You can get started with secondary DNS from the DNS section of the domain management page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
 From DNSimple, select **EasyDNS** as the provider. Click *Enable* at the bottom of the form. The name servers and IP addresses that EasyDNS is expecting are already filled in for you.
 
-A confirmation message will tell you that Secondary DNS has been enabled from the DNSimple side.
+A confirmation message will tell you that secondary DNS has been enabled from the DNSimple side.
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log into your **EasyDNS** account. The first thing you'll do is add the domain.
+Log in to your **EasyDNS** account. The first thing you'll do is add the domain.
 
 <info>
 EasyDNS has both a tabbed and one-page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
@@ -44,10 +44,10 @@ From the *DNS settings* tab, you'll tell EasyDNS the primary name server. In thi
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
-Now add the DNSimple primary server IP address `18.189.127.127` and confirm the changes.
+Now add the DNSimple primary server IP address `18.189.127.127`, and confirm the changes.
 
 <info>
-  At the time of writing, **EasyDNS** only accepts IPv4 for Secondary DNS
+  At the time of writing, **EasyDNS** only accepts IPv4 for secondary DNS
 </info>
 
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
@@ -99,4 +99,8 @@ xfr0.easydns.com. 300 IN  A 64.68.200.91
 ;; MSG SIZE  rcvd: 205
 </pre>
 
-Congratulations, your secondary DNS is now working with **EasyDNS**.
+Your secondary DNS is now working with **EasyDNS**.
+
+## Have more questions? 
+
+If you have any questions about adding EasyDNS as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
