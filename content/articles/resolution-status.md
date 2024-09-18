@@ -7,11 +7,15 @@ categories:
 
 # Resolution Status
 
-The resolution status shows the name servers currently configured at the registry. Name servers are responsible for answering DNS queries for your domain, and their status is important to your domain functioning properly.
+The resolution status shows the name servers currently configured at the registry. Name servers are responsible for answering DNS queries for your domain, and they're important to your domain functioning.
 
 ## Domains registered with DNSimple
 
-If you registered the domain with us, we'll set the name servers automatically to DNSimple. 
+If you registered the domain with us, we'll set the name servers automatically to DNSimple. To find this information: 
+
+1. Click the relevant domain in your Domain List. 
+2. Click the **Registration** tab on the left side.
+3. You'll see the name servers listed in the **Delegation** card. 
 
 <!--- needs screenshot -->
 
