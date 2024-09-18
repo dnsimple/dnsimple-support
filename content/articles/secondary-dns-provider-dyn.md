@@ -20,7 +20,14 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ## Setting up for Dyn Standard
 
-First, set up secondary DNS at Dyn. Instructions for setting up Secondary DNS using Dyn Standard may be found on the [Dyn help site](https://help.dyn.com/standard-dns/dyn-secondary-dns-information/). When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
+First, set up secondary DNS at Dyn. Instructions for setting up Secondary DNS using Dyn Standard may be found on the [Dyn help site](https://help.dyn.com/standard-dns/dyn-secondary-dns-information/).
+
+During setup, use the following address as the primary server to perform AXFR transfers:
+
+* Name: axfr.dnsimple.com
+* IP: 18.189.127.127
+
+When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
 
 You may also want to wait an hour or two before enabling your secondary DNS in DNSimple. This gives Dyn time to deploy the configuration for secondary DNS on our side.
 
@@ -34,7 +41,14 @@ Congratulations, your secondary DNS should now be set up with **Dyn Standard**.
 
 ## Setting up for Dyn Managed
 
-First, set up secondary DNS at Dyn. You can find instructions on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/). When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
+First, set up secondary DNS at Dyn. You can find instructions on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/).
+
+During setup, use the following address as the primary server to perform AXFR transfers:
+
+* Name: axfr.dnsimple.com
+* IP: 18.189.127.127
+
+When you set up your Secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
 
 You may also want to wait an hour or two before enabling your secondary DNS in DNSimple. This gives Dyn time to deploy the configuration for secondary DNS on our side.
 
