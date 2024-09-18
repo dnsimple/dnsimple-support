@@ -58,26 +58,28 @@ Click on the "Enable DNSSEC" button.
 
 If your domain is registered with DNSimple and using our name servers, the zone is signed, and the DS record will be provisioned in the appropriate domain registry.
 
-If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
+If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key-signing keys.
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
 
-A warning message may be shown to highlight potential issues with DNSSEC enablement, such as:
+A warning message may be shown to highlight potential issues with DNSSEC enablement, for example:
 - The authoritative name servers for the zone are not all returning the same DNSKEY records.
 - The authoritiatve name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
 - The DS record has not yet been provisioned at the registrar.
 
-The warning does not necessarily mean that any action is needed on your part, because the issues may resolve on their own after changes from enabling DNSSEC have been propagated.
+<info>
+The warning does not necessarily mean that any action is needed on your part. The issues may resolve on their own after changes from enabling DNSSEC have been propagated.
+</info> 
 
 ![DNSSEC Enablement warning](/files/dnssec-enable-warning.png)
 
 ## Disabling DNSSEC
 
 <warning>
-If your domain is registered with another domain registrar, you should ideally remove the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
+If your domain is registered with another domain registrar, we strongly recommend removing the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
 </warning>
 
-To disable DNSSEC, go to the DNSSEC tab for the domain, and find the "Disable DNSSEC" card.
+To disable DNSSEC, click the **DNSSEC** tab for the domain, and locate the **Disable DNSSEC** card.
 
 ![DNSSEC configured](/files/dnssec-configured.png)
 
@@ -130,6 +132,12 @@ CDS and CDNSKEY record types are automatically generated for all DNSimple zones 
 
 You can find details about how CDS/CDNSKEY work in [RFC 8078](https://tools.ietf.org/html/rfc8078).
 
+### DS records without a corresponding DNSKEY
+
+When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
+
+To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+
 ## Troubleshooting DNSSEC configurations
 
 These tools are helpful for troubleshooting DNSSEC configuration issues:
@@ -137,10 +145,4 @@ These tools are helpful for troubleshooting DNSSEC configuration issues:
 - [Verisign DNSSEC Debugger](http://dnssec-debugger.verisignlabs.com/)
 - [DNSViz](http://dnsviz.net/)
 
-You can also [contact DNSimple support](https://dnsimple.com/contact) with additional questions.
-
-### DS records without a corresponding DNSKEY
-
-When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
-
-To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+You can also [contact DNSimple support](https://dnsimple.com/contact) with any questions, and we'll be happy to help.
