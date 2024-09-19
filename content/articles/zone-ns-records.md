@@ -5,7 +5,7 @@ categories:
 - DNS
 ---
 
-# Updating NS Records for the Zone of a Hosted Domain
+# Updating Zone NS Records for a Hosted Domain
 
 You can configure [NS records](/articles/ns-record/) at the apex of a zone of a hosted domain. If you want to configure NS records for a subdomain, click [here](/articles/add-ns-records-for-subdomain/) instead.
 
