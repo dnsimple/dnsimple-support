@@ -19,22 +19,22 @@ categories:
 
 ---
 
-DNSSEC provides a way to cryptographically build a chain of trust from the root name servers to authoritative name servers. Authenticating resolvers may verify this chain of trust to ensure the DNS results weren't tampered with while in transit.
+DNSSEC provides a way to cryptographically build a chain of trust from the [root name servers](https://en.wikipedia.org/wiki/Root_name_server) to [authoritative name servers](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server). Authenticating resolvers may verify this chain of trust to ensure the DNS results weren't tampered with while in transit.
 
 ## DNSSEC scenarios
 
 There are a variety of scenarios that DNSimple facilitates to ensure that your zone is signed. Use the scenarios below to understand how to configure your domain/zone.
 
-### Scenario: Registered *&* DNS-hosted at DNSimple
+### Scenario 1: Registered *&* DNS-hosted at DNSimple
 
 1. [Enable DNSSEC](#enabling-dnssec) for *automatic* zone signing, provisioning, and [key rotation](#key-rotation).
 
-### Scenario: Registered at DNSimple, but DNS-hosted elsewhere
+### Scenario 2: Registered at DNSimple, but DNS-hosted elsewhere
 
 1. Set up DNSSEC through your DNS provider. 
 1. When you have the DNSSEC details, add them to your domain's registrar using our [DS management page](/articles/manage-ds-record/).
 
-### Scenario: Registered elsewhere, but DNS-hosted at DNSimple
+### Scenario 3: Registered elsewhere, but DNS-hosted at DNSimple
 
 1. [Enable DNSSEC](#enabling-dnssec) to sign your zone. This initiates automatic [key rotation](#key-rotation). 
 1. After enabling, copy the DS record details over to your domain's registrar. 
@@ -48,11 +48,11 @@ DNSSEC is applied on a per-domain basis. You can manage DNSSEC by using the DNSS
 
 ## Enabling DNSSEC
 
-To enable DNSSEC, click on the "Configure" link on the DNSSEC management page.
+To enable DNSSEC, click **Configure** on the DNSSEC management page.
 
 ![Configure DNSSEC](/files/dnssec-configure.png)
 
-Click on the "Enable DNSSEC" button.
+Click **Enable DNSSEC**.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
@@ -87,7 +87,9 @@ Click on the "Disable DNSSEC" button to remove the zone signing and the DS recor
 
 ![DNSSEC disable](/files/dnssec-disable.png)
 
-Note: When you click on the "Disable DNSSEC" button for a domain that is registered with another domain registrar, you will also see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
+<info>
+When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
+</info>
 
 ![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
 
@@ -100,7 +102,7 @@ Whether the TLD of the domain requires the DS records to be set up with the DS-D
 DNSimple rotates key signing keys and zone signing keys every 90 days. Auto-rotation is mandatory. You can't disable it.
 
 - If your domain is registered with us and uses our authoritative name servers: we handle rotation of keys automatically.
-- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts, **and you'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 7 days**.
+- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts. **You'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 7 days**.
 
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
