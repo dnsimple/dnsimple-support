@@ -44,7 +44,7 @@ There are a variety of scenarios that DNSimple facilitates to ensure that your z
 
 DNSSEC is applied on a per-domain basis. You can manage DNSSEC by using the DNSSEC tab on a domain's management page.
 
-![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-tab.png)
+<!--- needs screenshot -->
 
 ## Enabling DNSSEC
 
@@ -81,11 +81,9 @@ If your domain is registered with another domain registrar, we strongly recommen
 
 To disable DNSSEC, click the **DNSSEC** tab for the domain, and locate the **Disable DNSSEC** card.
 
-![DNSSEC configured](/files/dnssec-configured.png)
+<!--- needs screenshot -->
 
-Click on the "Disable DNSSEC" button to remove the zone signing and the DS record if it is present.
-
-![DNSSEC disable](/files/dnssec-disable.png)
+Click **Disable DNSSEC** to remove the zone signing and the DS record if it is present.
 
 <info>
 When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
