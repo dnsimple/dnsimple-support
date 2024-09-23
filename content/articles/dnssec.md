@@ -25,7 +25,7 @@ DNSSEC (Domain Name System Security Extensions) provides a way to cryptographica
 
 There are a variety of scenarios that DNSimple facilitates to ensure that your zone is signed. Use the scenarios below to understand how to configure your domain/zone.
 
-### Scenario 1: Registered *&* DNS-hosted at DNSimple
+### Scenario 1: Registered *and* DNS-hosted at DNSimple
 
 1. [Enable DNSSEC](#enabling-dnssec) for *automatic* zone signing, provisioning, and [key rotation](#key-rotation).
 
@@ -93,7 +93,7 @@ If your domain is registered with another domain registrar, we strongly recommen
 
 1. Choose the relevant domain in your Domain List.
 1. Click the **DNSSEC** tab on the left side.
-1. On the the **Disable DNSSEC** card, click **Disable DNSSEC** o remove the zone signing and the DS record if it is present.
+1. On the the **Disable DNSSEC** card, click **Disable DNSSEC** to remove the zone signing and the DS record if it is present.
 
 ![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
 
