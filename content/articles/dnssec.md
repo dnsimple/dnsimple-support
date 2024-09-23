@@ -19,7 +19,7 @@ categories:
 
 ---
 
-DNSSEC provides a way to cryptographically build a chain of trust from the [root name servers](https://en.wikipedia.org/wiki/Root_name_server) to [authoritative name servers](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server). Authenticating resolvers may verify this chain of trust to ensure the DNS results weren't tampered with while in transit.
+DNSSEC (Domain Name System Security Extensions) provides a way to cryptographically build a chain of trust from the [root name servers](https://en.wikipedia.org/wiki/Root_name_server) to [authoritative name servers](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server). Authenticating resolvers may verify this chain of trust to ensure the DNS results weren't tampered with while in transit. Check out our [comics](https://howdnssec.works/why-do-we-need-dnssec/) for a fun explanation of why we need DNSSEC.
 
 ## DNSSEC scenarios
 
@@ -42,27 +42,39 @@ There are a variety of scenarios that DNSimple facilitates to ensure that your z
 
 ## Managing DNSSEC
 
-DNSSEC is applied on a per-domain basis. You can manage DNSSEC by using the DNSSEC tab on a domain's management page.
+DNSSEC is applied on a per-domain basis. DNSSEC management options are under the DNSSEC tab on a domain's management page.
 
 <!--- needs screenshot -->
 
 ## Enabling DNSSEC
 
-To enable DNSSEC, click **Configure** on the DNSSEC management page.
+1. Choose the relevant domain from your Domain List.
+1. Click the DNSSEC tab on the left side.
+1. On the **Configure DNSSEC** card, click **Configure**.
 
 ![Configure DNSSEC](/files/dnssec-configure.png)
 
-Click **Enable DNSSEC**.
+1. Click **Enable DNSSEC**.
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-If your domain is registered with DNSimple and using our name servers, the zone is signed, and the DS record will be provisioned in the appropriate domain registry.
+### Domain is registered with DNSimple and using our name servers
 
-If your domain is hosted with us but registered elsewhere, you need to provide the DS record we give you once your zone is signed to your domain registrar. You also need to update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key-signing keys.
+The zone is signed, and the DS record will be provisioned in the appropriate domain registry.
+
+### Domain is hosted with DNSimple but registered elsewhere
+
+Provide the DS record we give you once your zone is signed to your domain registrar. 
+
+Update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
 ![DNSSEC DS record](/files/dnssec-configuration-dsrecord.png)
 
-A warning message may be shown to highlight potential issues with DNSSEC enablement, for example:
+### Common warnings
+
+A warning may be shown to highlight potential issues with DNSSEC enablement. 
+
+For example:
 - The authoritative name servers for the zone are not all returning the same DNSKEY records.
 - The authoritiatve name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
 - The DS record has not yet been provisioned at the registrar.
@@ -93,14 +105,14 @@ When you click **Disable DNSSEC** for a domain that is registered with another d
 
 ## Managing DS records
 
-Whether the TLD of the domain requires the DS records to be set up with the DS-Data interface or the KEY-Data interface, you'll be able to manage your records. More details on how to add and remove DS records can be found in this [support article](/articles/manage-ds-record/).
+You'll be able to manage your records whether the TLD requires the DS records to be set up with the DS-Data interface or the KEY-Data interface. Read more about [managing DS records](/articles/manage-ds-record/).
 
 ## Key rotation
 
 DNSimple rotates key signing keys and zone signing keys every 90 days. Auto-rotation is mandatory. You can't disable it.
 
-- If your domain is registered with us and uses our authoritative name servers: we handle rotation of keys automatically.
-- If your domain is NOT registered with us or DOES NOT uses our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts. **You'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 7 days**.
+- If your domain is registered with us and uses our authoritative name servers: we handle key rotation automatically.
+- If your domain is **not** registered with us or **does not** use our authoritative name servers: you'll receive an email notification with the new DS record whenever key rotation starts. **You'll need to rotate the DS records (remove the old record and add the new record) at your domain registrar within 7 days**.
 
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
