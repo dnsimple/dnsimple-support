@@ -38,6 +38,8 @@ When transferring a domain to another DNSimple account, the domain's registrant 
     <!--- needs screenshot -->
 
 1. Enter the destination email address of another DNSimple account.
+1. Click **Move domain**.
+1. A banner will appear confirming the request to push the domain. 
 
 <warning>
 Make sure to correctly enter the account email address. Once the domain has been transferred, you won't be able to control it under your current account.
