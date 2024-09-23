@@ -31,7 +31,7 @@ There are a variety of scenarios that DNSimple facilitates to ensure that your z
 
 ### Scenario 2: Registered at DNSimple, but DNS-hosted elsewhere
 
-1. Set up DNSSEC through your DNS provider. 
+1. Set up DNSSEC through your external DNS provider. 
 1. When you have the DNSSEC details, add them to your domain's registrar using our [DS management page](/articles/manage-ds-record/).
 
 ### Scenario 3: Registered elsewhere, but DNS-hosted at DNSimple
@@ -91,17 +91,15 @@ The warning does not necessarily mean that any action is needed on your part. Th
 If your domain is registered with another domain registrar, we strongly recommend removing the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
 </warning>
 
-To disable DNSSEC, click the **DNSSEC** tab for the domain, and locate the **Disable DNSSEC** card.
+1. Choose the relevant domain in your Domain List.
+1. Click the **DNSSEC** tab on the left side.
+1. On the the **Disable DNSSEC** card, click **Disable DNSSEC** o remove the zone signing and the DS record if it is present.
 
-<!--- needs screenshot -->
-
-Click **Disable DNSSEC** to remove the zone signing and the DS record if it is present.
+![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
 
 <info>
 When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
 </info>
-
-![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
 
 ## Managing DS records
 
