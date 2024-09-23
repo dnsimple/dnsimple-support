@@ -49,7 +49,7 @@ DNSSEC is applied on a per-domain basis. DNSSEC management options are under the
 ## Enabling DNSSEC
 
 1. Choose the relevant domain from your Domain List.
-1. Click the DNSSEC tab on the left side.
+1. Click the **DNSSEC** tab on the left side.
 1. On the **Configure DNSSEC** card, click **Configure**.
 
 ![Configure DNSSEC](/files/dnssec-configure.png)
@@ -58,11 +58,11 @@ DNSSEC is applied on a per-domain basis. DNSSEC management options are under the
 
 ![Enable DNSSEC](/files/dnssec-enable.png)
 
-### Domain is registered with DNSimple and using our name servers
+### The domain is registered with DNSimple and using our name servers
 
 The zone is signed, and the DS record will be provisioned in the appropriate domain registry.
 
-### Domain is hosted with DNSimple but registered elsewhere
+### The domain is hosted with DNSimple but registered elsewhere
 
 Provide the DS record we give you once your zone is signed to your domain registrar. 
 
