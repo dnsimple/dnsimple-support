@@ -31,6 +31,10 @@ When transferring a domain to another DNSimple account, the domain's registrant 
 
 ## Initiating a transfer
 
+<info>
+Once the domain is transferred, you can no longer control it under your current account.
+</info>
+
 1. Click on the relevant domain. 
 1. Click the **Settings** tab on the left side.
 1. In the **Share or transfer domain** card, click **Transfer**.
@@ -42,7 +46,7 @@ When transferring a domain to another DNSimple account, the domain's registrant 
 1. A banner will appear confirming the request to push the domain. 
 
 <warning>
-Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-account-email/), not a [user email address](/articles/changing-user-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance. Once the domain is transferred, you can no longer control it under your current account.
+Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-account-email/), not a [user email address](/articles/changing-user-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance. 
 </warning>
 
 ## Accepting a transfer
