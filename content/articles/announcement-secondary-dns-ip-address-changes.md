@@ -62,4 +62,4 @@ If you are using one of our pre-configured secondary DNS providers, review the s
 
 ## Have more questions?
 
-If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:support@dnsimple.com">support@dnsimple.com</a>.
+If you have any questions or need assistance, reach out to our [support team](https://dnsimple.com/feedback), and we'll be happy to help.
