@@ -42,8 +42,7 @@ When transferring a domain to another DNSimple account, the domain's registrant 
 1. A banner will appear confirming the request to push the domain. 
 
 <warning>
-Make sure to correctly enter the account email address. Once the domain has been transferred, you won't be able to control it under your current account.
-Use an [account email address](/articles/changing-account-email/), not a [user email address](/articles/changing-user-email/), otherwise the push will fail.
+Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-account-email/), not a [user email address](/articles/changing-user-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance. Once the domain is transferred, you can no longer control it under your current account.
 </warning>
 
 ## Accepting a transfer
