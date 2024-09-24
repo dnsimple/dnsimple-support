@@ -60,7 +60,6 @@ If you are using one of our pre-configured secondary DNS providers, review the s
 - [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy)
 - [EasyDNS](/articles/secondary-dns-provider-easy-dns)
 
-## We're here to help
+## Have more questions?
 
 If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:support@dnsimple.com">support@dnsimple.com</a>.
-
