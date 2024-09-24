@@ -19,7 +19,7 @@ This article contains information that is only relevant to customers with legacy
 
 As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our name server infrastructure and discontinuing the use of legacy IP addresses for all plans. We will begin disabling the IP addresses on [DATE].
 
-The following IP addresses were primarily used by Basic Reseller accounts to configure vanity name servers, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](/articles/dnsimple-nameservers/):
+The following IP addresses were used by our first generation network infrastructure, they have been superseeded in 2016, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](/articles/dnsimple-nameservers/):
 
 - 198.241.10.53
 - 198.241.11.53
