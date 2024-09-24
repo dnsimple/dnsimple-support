@@ -52,7 +52,7 @@ Now add the DNSimple primary server IP address `18.189.127.127`, and confirm the
 
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)
 
-It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *DNS Settings* tab, then *check* the zone cache. The link shows you what EasyDNS is currently storing in its cache as your zone information. This should match what you see in your DNS settings within the primary name server at DNSimple.
+It can take up to one hour for the first zone transfer. To check if your secondary is configured correctly, select the *DNS Settings* tab, then click on *zone cache*. The link shows you what EasyDNS is currently storing in its cache for your zone. This should match your DNS records at DNSimple for all supported record types.
 
 ![DNSimple configuration is successful](/files/easy-dns-tools.png)
 
@@ -101,6 +101,6 @@ xfr0.easydns.com. 300 IN  A 64.68.200.91
 
 Your secondary DNS is now working with **EasyDNS**.
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about adding EasyDNS as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
