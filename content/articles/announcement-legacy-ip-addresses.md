@@ -30,8 +30,6 @@ The following IP addresses were primarily used by Basic Reseller accounts to con
 - 2620:111:8002::53
 - 2620:111:8003::53
 
-These IPs were replaced in 2016 and have since been removed from our public documentation. However, they were kept active due to some domains still actively using them.
-
 As part of our recent [cahce edge improvements](https://blog.dnsimple.com/), the current DNSimple name servers and IP addresses are able to take advantage of enhanced caching mechanisms at the edge to reduce the authoritative origin query volume and reduce response times while also providing additional DDoS protection.
 
 ## Who's impacted?
