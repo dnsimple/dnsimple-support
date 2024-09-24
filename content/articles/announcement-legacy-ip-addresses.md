@@ -19,7 +19,7 @@ This article contains information that is only relevant to customers with legacy
 
 As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our name server infrastructure and discontinuing the use of legacy IP addresses for all plans. We will begin disabling the IP addresses on [DATE].
 
-The following IP addresses were used by our first generation network infrastructure, they have been superseeded in 2016, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](/articles/dnsimple-nameservers/):
+The following IP addresses were used by our first generation network infrastructure. They were superseded in 2016, and they are now officially deprecated in favor of the current [DNSimple name servers and IPs](/articles/dnsimple-nameservers/):
 
 - 198.241.10.53
 - 198.241.11.53
@@ -30,7 +30,7 @@ The following IP addresses were used by our first generation network infrastruct
 - 2620:111:8002::53
 - 2620:111:8003::53
 
-As part of our recent [cahce edge improvements](https://blog.dnsimple.com/), the current DNSimple name servers and IP addresses are able to take advantage of enhanced caching mechanisms at the edge to reduce the authoritative origin query volume and reduce response times while also providing additional DDoS protection.
+As part of our recent [cache edge improvements](https://blog.dnsimple.com/), the current DNSimple name servers and IP addresses are able to take advantage of enhanced caching mechanisms at the edge to reduce the authoritative origin query volume and response times while also providing additional DDoS protection.
 
 ## Who's impacted?
 
@@ -45,6 +45,10 @@ If you have affected domains, you have until [DATE], 2024 to take action. After 
 
 ## What do you need to do?
 
-* Review any domains you own, either at DNSimple or any third party registrar, and update/adequate any DNS records pointing to the deprecated IP addresses to use the current suggested list of IP addresses.
+* Review any domains you own, either at DNSimple or any third party registrar, and update/adequate any DNS records pointing to the deprecated IP addresses to use the current  list of suggested IP addresses.
 
 * For domains in your DNSimple account that are using vanity name servers but are not registered with DNSimple, change the delegation to the default DNSimple name servers at your current registrar, and disable the vanity name servers feature.
+
+## Have more questions?
+
+If you have any questions about this discontinuation or the action you need to take, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
