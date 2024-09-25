@@ -14,7 +14,9 @@ categories:
 
 ---
 
-DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).
+DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).     
+
+To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You     can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 
 ## Using DNSimple as a DNS hosting provider
 
@@ -28,9 +30,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
     If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain).
 
-If you don't have a domain yet, you can [register a domain](https://dnsimple.com/tlds) with us, and subscribe to a DNS hosting plan to manage the domain with us.
-
-To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
+    If you don't have a domain yet, you can [sign up](https://dnsimple.com/pricing) or log in to [register a domain](https://dnsimple.com/tlds), and activate the zone       to manage your DNS with us.
 
 ## Adding the domain
 
