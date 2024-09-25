@@ -21,7 +21,7 @@ As part of our commitment to providing streamlined and reliable DNS management s
 
 ## Who's impacted?
 
-Accounts subscribed to the Personal, Professional, Solo, or Teams plan will be impacted if they have any domains using [secondary DNS](/articles/secondary-dns/) to perform zone transfers from DNSimple to another secondary DNS provider or server.
+Accounts with any domains using [secondary DNS](/articles/secondary-dns/) to perform zone transfers from DNSimple to another secondary DNS provider or server will be required to update their zone configuration.
 
 ## What's changing and how it will impact your domains
 
