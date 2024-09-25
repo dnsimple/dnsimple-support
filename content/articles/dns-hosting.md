@@ -14,9 +14,9 @@ categories:
 
 ---
 
-DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).     
+DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).
 
-To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You     can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
+To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 
 ## Using DNSimple as a DNS hosting provider
 
@@ -91,7 +91,7 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 
 If a domain is delegated to our name servers, deactivating a DNS zone for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
 
-If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider. 
+If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider.
 
 ## Use cases
 
@@ -101,6 +101,6 @@ There are a few cases where you may want to deactivate a zone:
 - You wanted to register a domain with us, but you aren't actively using the domain (e.g the domain is just reserved for future use or parked).
 - You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it isn't resolving with DNSimple.
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions or need assistance activating or deactivating a DNS zone, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
