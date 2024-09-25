@@ -38,7 +38,7 @@ If you have affected domains, you have until [DATE], 2024 to take action. After 
 
 Review any domains you own with secondary DNS enabled, where DNSimple acts as the primary server used for outbound notifications and zone transfers.
 
-Update your secondary DNS provider or server configuration:
+Update your secondary DNS provider or server configuration as follows:
 
 1. Allow NOTIFY messages from the new and old IP addresses:
   - **IPv4:** 18.189.127.127, 50.31.225.92
@@ -51,7 +51,7 @@ Update your secondary DNS provider or server configuration:
   - **IPv4:** 50.31.225.92
 
 <info>
-Some secondary providers only support IPv4. In this case, you may omit the IPv6 address from the configuration if your provider only performs zone transfers over IPv4.
+If your provider only performs zone transfers over IPv4, you can omit the IPv6 address from the configuration.
 </info>
 
 If you are using one of our pre-configured secondary DNS providers, review the setup instructions:
