@@ -46,12 +46,12 @@ Once you have all the necessary records, click **Import DNS records** to add the
 
 ## Managing conflicts
 
-If auto-importing a record conflicts with an existing record on your domain, we ask you to confirm which record you'd like to keep. By default, we don't override the records on your domain. You'll have to select the record that applies in your context.
+If auto-importing a record conflicts with an existing record on your domain, we ask you to confirm which record you'd like to keep. By default, we don't override the records on your domain — you'll have to select the record that applies in your context.
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
 Once you've made a selection, click **Import DNS records** to add them to your domain zone.
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions or need assistance 
+If you have any questions about how to auto-import your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
