@@ -40,8 +40,8 @@ Review any domains you own with secondary DNS enabled, where DNSimple acts as th
 
 Update your secondary DNS provider or server configuration:
 
-1. Allow NOTIFY messages from the new IP addresses:
-  - **IPv4:** 18.189.127.127
+1. Allow NOTIFY messages from the new and old IP addresses:
+  - **IPv4:** 18.189.127.127, 50.31.225.92
   - **IPv6:** 2600:1f16:ae2:e902:6881:5f5e:c245:887e
 2. Update the primary server IP addresses or name:
   - **Name:** axfr.dnsimple.com
