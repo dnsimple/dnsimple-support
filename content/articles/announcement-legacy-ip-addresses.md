@@ -38,13 +38,11 @@ Accounts with records using the deprecated IP addresses will be impacted.
 
 ## What's changing and how it will impact your domains
 
-If you have affected domains, you have until [DATE], 2024 to take action. After that date:
-
-* Any requests sent to deprecated IP addresses will stop responding.
+If you have affected domains, you have until [DATE], 2024 to take action. After that date, any requests sent to deprecated IP addresses will stop responding.
 
 ## What do you need to do?
 
-* Review any domains you own, either at DNSimple or any third party registrar, and update/adequate any DNS records pointing to the deprecated IP addresses to use the current  list of suggested IP addresses.
+* Review any domains you own, either at DNSimple or any third-party registrar, and update/adequate any DNS records pointing to the deprecated IP addresses to use the current  list of suggested IP addresses.
 
 * For domains in your DNSimple account that are using vanity name servers but are not registered with DNSimple, change the delegation to the default DNSimple name servers at your current registrar, and disable the vanity name servers feature.
 
