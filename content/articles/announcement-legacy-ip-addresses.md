@@ -34,14 +34,13 @@ As part of our recent [cache edge improvements](https://blog.dnsimple.com/), the
 
 ## Who's impacted?
 
-Accounts subscribed to the Personal, Professional, Solo, or Teams plan will be impacted if they have any domains with records or vanity name servers using the deprecated IP addresses.
+Accounts with records using the deprecated IP addresses will be impacted.
 
 ## What's changing and how it will impact your domains
 
 If you have affected domains, you have until [DATE], 2024 to take action. After that date:
 
 * Any requests sent to deprecated IP addresses will stop responding.
-* Any vanity name servers configured with deprecated IP addresses will become obsolete.
 
 ## What do you need to do?
 
