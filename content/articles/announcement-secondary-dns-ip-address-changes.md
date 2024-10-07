@@ -1,6 +1,6 @@
 ---
 title: Secondary DNS IP Address Changes
-excerpt: DNSimple will be updating the IP addresses used for Secondary DNS outbound notifications and zone transfers. The current IPv4 address (50.31.225.92) will be retired beginning [DATE], 2024. Affected customers will be notified via email.
+excerpt: DNSimple will be updating the IP addresses used for Secondary DNS outbound notifications and zone transfers. The current IPv4 address (50.31.225.92) will be retired beginning November 20, 2024. Affected customers will be notified via email.
 categories:
 ---
 
@@ -17,7 +17,7 @@ This article contains information that is only relevant to customers with second
 
 ---
 
-As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our secondary DNS infrastructure and updating the primary server IP addresses used for outbound notifications and zone transfers. **The current IPv4 address (50.31.225.92) will be retired beginning [DATE], 2024.**
+As part of our commitment to providing streamlined and reliable DNS management services, we are modernizing our secondary DNS infrastructure and updating the primary server IP addresses used for outbound notifications and zone transfers. **The current IPv4 address (50.31.225.92) will be retired beginning November 20, 2024.**
 
 ## Who's impacted?
 
@@ -25,7 +25,7 @@ Accounts with any domains using [secondary DNS](/articles/secondary-dns/) to per
 
 ## What's changing and how it will impact your domains
 
-If you have affected domains, you have until [DATE], 2024 to take action. After that date:
+If you have affected domains, you have until November 20, 2024 to take action. After that date:
 
 * **axfr.dnsimple.com** will resolve to the following IP addresses:
   - **IPv4:** 18.189.127.127
@@ -47,7 +47,7 @@ Update your secondary DNS provider or server configuration as follows:
   - **Name:** axfr.dnsimple.com
   - **IPv4:** 18.189.127.127
   - **IPv6:** 2600:1f16:ae2:e902:6881:5f5e:c245:887e
-3. After [DATE], remove the old IP address from the NOTIFY allow list:
+3. After November 20, 2024 remove the old IP address from the NOTIFY allow list:
   - **IPv4:** 50.31.225.92
 
 <info>
