@@ -18,7 +18,7 @@ This article contains important information that is only relevant to customers w
 ---
 
 ## Who's impacted?
-This migration affects customers who have .AU domains registered in their account that have not yet been migrated to our new registrar partner. **You have until March 30, 2025 to complete the migration.** If you do not take action before this date, you risk losing access to your domains. You can [view](https://dnsimple.com/domain-migration-on-renewal) your impacted domains in the email notification or in your account.
+This migration affects customers who have .AU domains registered in their account that have not yet been migrated to our new registrar partner. **You have until March 30, 2025 to complete the migration.** If you do not take action before this date, you risk losing access to your domains. You can view your impacted domains in the email notification or [in your account](https://dnsimple.com/domain-migration-on-renewal).
 
 ## What's changing and how it will impact your domains
 As part of our efforts to enhance domain management services, we are transitioning all remaining .AU domains to a new registrar. 
