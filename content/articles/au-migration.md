@@ -17,10 +17,10 @@ This article contains important information that is only relevant to customers w
 
 ---
 
-## Who’s impacted?
+## Who's impacted?
 This migration affects customers who have .AU domains registered in their account that have not yet been migrated to our new registrar partner. **You have until March 30, 2025 to complete the migration.** If you do not take action before this date, you risk losing access to your domains. You can [view](https://dnsimple.com/domain-migration-on-renewal) your impacted domains in the email notification or in your account.
 
-## What’s changing and how it will impact your domains
+## What's changing and how it will impact your domains
 As part of our efforts to enhance domain management services, we are transitioning all remaining .AU domains to a new registrar. 
 
 ### After March 30, 2025:
@@ -31,7 +31,7 @@ As part of our efforts to enhance domain management services, we are transitioni
 To ensure a smooth migration and continued access to your domain(s), please follow these steps:
 
 1. Confirm the migration: Reply to the migration notification email you received, or email **support@dnsimple.com** to confirm that you want to proceed with the migration of your .AU domain(s). 
-    - After you contact us to confirm the migration, we will send the authorization code to the domain's registrant contact’s email address.
+    - After you contact us to confirm the migration, we will send the authorization code to the domain's registrant contact's email address.
 2. Forward the authorization code. 
     - Once you receive the code, forward the email containing the code to **registrar@dnsimple.com**, and let us know you have done so. This will allow us to initiate the transfer to the new registrar.
 3. Approve the transfer:
@@ -41,4 +41,4 @@ To ensure a smooth migration and continued access to your domain(s), please foll
 We will verify the receipt of the authorization code and notify you when the transfer has begun. The migration process takes up to 2 days after the transfer is approved. We will inform you once it is completed.
 
 ### Have more questions? 
-If you have any questions or need assistance during this process, contact us at **support@dnsimple.com**, and we’ll help ensure a smooth migration for your .AU domain(s).
+If you have any questions or need assistance during this process, contact us at **support@dnsimple.com**, and we'll help ensure a smooth migration for your .AU domain(s).
