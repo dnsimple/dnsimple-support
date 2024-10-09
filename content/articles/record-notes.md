@@ -29,7 +29,7 @@ When creating, updating, or deleting a DNS record from the [DNS record editor](/
 
    <!--- needs screenshot -->
    
-1. To add a note to an existing record, click the **Add Note** icon on the right side, and type your note.
+1. To add a note to an existing record, click the **Add Note** icon on the right side, and enter your note.
  
    <!--- needs screenshot -->
 
