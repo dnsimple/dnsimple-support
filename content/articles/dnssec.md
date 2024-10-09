@@ -72,11 +72,11 @@ Update your DS record with your domain registrar once every 90 days, as we autom
 
 ### Common warnings
 
-A warning may be shown to highlight potential issues with DNSSEC enablement. 
+A warning may be shown to highlight potential issues with enabling DNSSEC. 
 
 For example:
 - The authoritative name servers for the zone are not all returning the same DNSKEY records.
-- The authoritiatve name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
+- The authoritative name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
 - The DS record has not yet been provisioned at the registrar.
 
 <info>
