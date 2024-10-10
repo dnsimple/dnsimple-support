@@ -37,7 +37,7 @@ Log into your **DNSMadeEasy** account. The first thing you'll do is to create th
 Add a new IPv4 set with the following values:
 
 * Name: axfr.dnsimple.com
-* IPs: 50.31.225.92
+* IPs: `18.189.127.127`
 
 ![DNSMadeEasy IP set](/files/dns-made-easy-ip-set.png)
 
