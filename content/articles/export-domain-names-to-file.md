@@ -35,10 +35,11 @@ We include domain registration and DNS zone details in the exported file:
 
 | Attribute | Description |
 | --- | --- |
-| **domain_name** | name of the domain|
-| **labels** | labels that have been attached to the domain|
-| **registration_state** | the current registration state|
-| **registration_contact** | the current registration contact|
+| **domain_name** | name of the domain |
+| **labels** | labels that have been attached to the domain |
+| **tld** | the tld of the domain |
+| **registration_state** | the current registration state |
+| **registration_contact** | the current registration contact |
 | **expiration_date** | the date the domain expires |
 | **renew_by** | the date the domain must be renewed by |
 | **auto_renews** | whether the domain auto-renews |
