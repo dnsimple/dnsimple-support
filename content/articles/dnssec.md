@@ -56,7 +56,7 @@ DNSSEC is applied on a per-domain basis. DNSSEC management options are under the
 
 1. Click **Enable DNSSEC**.
 
-![Enable DNSSEC](/files/dnssec-enable.png)
+<!--- needs screenshot -->
 
 ### The domain is registered with DNSimple and using our name servers
 
@@ -85,22 +85,6 @@ The warning does not necessarily mean that any action is needed on your part. Th
 
 ![DNSSEC Enablement warning](/files/dnssec-enable-warning.png)
 
-## Disabling DNSSEC
-
-<warning>
-If your domain is registered with another domain registrar, we strongly recommend removing the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
-</warning>
-
-1. Choose the relevant domain in your Domain List.
-1. Click the **DNSSEC** tab on the left side.
-1. On the the **Disable DNSSEC** card, click **Disable DNSSEC** to remove the zone signing and the DS record if it is present.
-
-![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
-
-<info>
-When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
-</info>
-
 ## Managing DS records
 
 You'll be able to manage your records whether the TLD requires the DS records to be set up with the DS-Data interface or the KEY-Data interface. Read more about [managing DS records](/articles/manage-ds-record/).
@@ -122,15 +106,17 @@ During the key rotation, old and new keys are attached to your zone for 7 days (
 
 ### Automating key rotation
 
-If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside DNSimple. To do this, use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. You can find more information in [our developer documentation](https://developer.dnsimple.com/v2/webhooks/).
+If your domain registrar provides an API for managing DS records, you can automate rotation for domains registered outside DNSimple. To do this, use the `dnssec.rotation_start` and `dnssec.rotation_complete` webhook events. Read our developer documentation for more information on [our webhooks API](https://developer.dnsimple.com/v2/webhooks/).
 
 ### Manual key rotation
 
-If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. First, find the "DNSSEC Configuration" card on the DNSSEC tab of a domain's management page.
+If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. 
 
-Click on the "View Configuration" button.
+Locate the **DNSSEC Configuration** card under the **DNSSEC** tab of a domain's management page.
 
-![Access DNSSEC through the DNSSEC tab on your domain management page](/files/dnssec-configured.png)
+Click **View Configuration**.
+
+<!--- needs screenshot -->
 
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
 
@@ -140,17 +126,37 @@ CDS and CDNSKEY are two record types that can be used to automatically provision
 
 CDS and CDNSKEY record types are automatically generated for all DNSimple zones signed after January 1st, 2019, and for all new DNSSEC DNSKEY records created after January 1st, 2019. CDS and CDNSKEY records are managed by DNSimple. These records are not meant to be added or removed manually.
 
-You can find details about how CDS/CDNSKEY work in [RFC 8078](https://tools.ietf.org/html/rfc8078).
+You can find details about how CDS and CDNSKEY work in [RFC 8078](https://tools.ietf.org/html/rfc8078).
 
 ### DS records without a corresponding DNSKEY
 
 When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
 
-To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. This won't immediately fix resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. 
+
+<info>
+This won't immediately fix the resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
+</info>
+
+## Disabling DNSSEC
+
+<warning>
+If your domain is registered with another domain registrar, we strongly recommend removing the DS record from that registrar *before* removing the zone signing from DNSimple. Failure to remove the DS record within 48 hours of disabling DNSSEC will result in DNSSEC validation failures and will stop your domain from resolving with all DNSSEC-aware resolvers.
+</warning>
+
+1. Choose the relevant domain in your Domain List.
+1. Click the **DNSSEC** tab on the left side.
+1. On the the **Disable DNSSEC** card, click **Disable DNSSEC** to remove the zone signing and the DS record if it is present.
+
+![DNSSEC disable for hosted domains](/files/dnssec-disable-hosted.png)
+
+<info>
+When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
+</info>
 
 ## Troubleshooting DNSSEC configurations
 
-These tools are helpful for troubleshooting DNSSEC configuration issues:
+These tools can help you troubleshoot DNSSEC configuration issues:
 
 - [Verisign DNSSEC Debugger](http://dnssec-debugger.verisignlabs.com/)
 - [DNSViz](http://dnsviz.net/)
