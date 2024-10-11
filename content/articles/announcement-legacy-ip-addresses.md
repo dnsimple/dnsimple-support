@@ -30,7 +30,7 @@ The following IP addresses were used by our first generation network infrastruct
 - 2620:111:8002::53
 - 2620:111:8003::53
 
-As part of our recent [cache edge improvements](https://blog.dnsimple.com/), the current DNSimple name servers and IP addresses are able to take advantage of enhanced caching mechanisms at the edge to reduce the authoritative origin query volume and response times while also providing additional DDoS protection.
+As part of our recent [cache edge network expansion](https://blog.dnsimple.com/2024/10/expanding-cache-edge-network/), the current DNSimple name servers and IP addresses are able to take advantage of enhanced caching mechanisms at the edge to reduce the authoritative origin query volume and response times while also providing additional DDoS protection.
 
 ## Who's impacted?
 
