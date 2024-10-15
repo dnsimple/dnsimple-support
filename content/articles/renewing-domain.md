@@ -7,7 +7,7 @@ categories:
 
 # Renewing a Domain
 
-By default, newly registered domains are set to auto-renew. If auto-renewal is off, or you want to extend the duration of your domain registration, follow these steps:
+By default, newly registered domains are set to [auto-renew](/articles/domain-auto-renewal/). If auto-renewal is off, or you want to extend the duration of your domain registration, follow these steps:
 
 <div class="section-steps" markdown="1">
 ##### To renew a domain
