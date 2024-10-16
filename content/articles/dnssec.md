@@ -31,20 +31,20 @@ There are a variety of scenarios that DNSimple facilitates to ensure that your z
 
 ### Scenario 2: Registered at DNSimple, but DNS-hosted elsewhere
 
-1. Set up DNSSEC through your external DNS provider. 
+1. Set up DNSSEC through your external DNS provider.
 1. When you have the DNSSEC details, add them to your domain's registrar using our [DS management page](/articles/manage-ds-record/).
 
 ### Scenario 3: Registered elsewhere, but DNS-hosted at DNSimple
 
-1. [Enable DNSSEC](#enabling-dnssec) to sign your zone. This initiates automatic [key rotation](#key-rotation). 
-1. After enabling, copy the DS record details over to your domain's registrar. 
+1. [Enable DNSSEC](#enabling-dnssec) to sign your zone. This initiates automatic [key rotation](#key-rotation).
+1. After enabling, copy the DS record details over to your domain's registrar.
 1. When the [key rotates](#key-rotation) every three months, we'll send you an email with the details, which you'll need to supply to your domain's registrar.
 
 ## Managing DNSSEC
 
 DNSSEC is applied on a per-domain basis. DNSSEC management options are under the DNSSEC tab on a domain's management page.
 
-<!--- needs screenshot -->
+![screenshot: edit dnssec link](/files/edit-dnssec.png)
 
 ## Enabling DNSSEC
 
@@ -64,7 +64,7 @@ The zone is signed, and the DS record will be provisioned in the appropriate dom
 
 ### The domain is hosted with DNSimple but registered elsewhere
 
-Provide the DS record we give you once your zone is signed to your domain registrar. 
+Provide the DS record we give you once your zone is signed to your domain registrar.
 
 Update your DS record with your domain registrar once every 90 days, as we automatically rotate both zone signing keys and key signing keys.
 
@@ -72,7 +72,7 @@ Update your DS record with your domain registrar once every 90 days, as we autom
 
 ### Common warnings
 
-A warning may be shown to highlight potential issues with enabling DNSSEC. 
+A warning may be shown to highlight potential issues with enabling DNSSEC.
 
 For example:
 - The authoritative name servers for the zone are not all returning the same DNSKEY records.
@@ -81,7 +81,7 @@ For example:
 
 <info>
 The warning does not necessarily mean that any action is needed on your part. The issues may resolve on their own after changes from enabling DNSSEC have been propagated.
-</info> 
+</info>
 
 ![DNSSEC Enablement warning](/files/dnssec-enable-warning.png)
 
@@ -110,7 +110,7 @@ If your domain registrar provides an API for managing DS records, you can automa
 
 ### Manual key rotation
 
-If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration. 
+If your registrar requires the DNSKEY or other additional details, you can view your full DNSSEC configuration.
 
 Locate the **DNSSEC Configuration** card under the **DNSSEC** tab of a domain's management page.
 
@@ -132,7 +132,7 @@ You can find details about how CDS and CDNSKEY work in [RFC 8078](https://tools.
 
 When a DS record is present at your domain registrar, but there's no corresponding DNSKEY in your zone, DNSSEC-aware resolvers will fail to resolve your domain. For example, with Google Public DNS this will result in a SERVFAIL. Clients using a non-DNSSEC-aware resolver will still be able to resolve your domain.
 
-To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar. 
+To fix this issue, [remove the DS record](/articles/manage-ds-record/#removing-a-ds-record) from your registrar.
 
 <info>
 This won't immediately fix the resolution for some clients, as they'll see the cached DS record. DS record time-to-live values are set by domain registries and may be set to values of 12 hours or more.
