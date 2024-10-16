@@ -56,7 +56,7 @@ DNSSEC is applied on a per-domain basis. DNSSEC management options are under the
 
 1. Click **Enable DNSSEC**.
 
-<!--- needs screenshot -->
+![screenshot: enable dnssec](/files/dnssec-enable.png)
 
 ### The domain is registered with DNSimple and using our name servers
 
