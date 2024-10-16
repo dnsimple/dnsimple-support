@@ -114,9 +114,9 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 
 Locate the **DNSSEC Configuration** card under the **DNSSEC** tab of a domain's management page.
 
-Click **View Configuration**.
+![screenshot: dnssec configuration screen](/files/dnssec-config.png)
 
-<!--- needs screenshot -->
+Click **View Configuration**.
 
 ![DNSSEC Configuration](/files/dnssec-configuration.png)
 
