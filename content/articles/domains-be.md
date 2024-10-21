@@ -16,7 +16,7 @@ This article explains the requirements and special procedures for .BE domain nam
 
 ### Registration requirements for .BE domains
 
-To register a .BE domain, the registrant will receive a confirmation email from DNS Belgium. The registration will only be completed once the registrant confirms the email.
+To register a .BE domain, the registrant will receive a confirmation email from DNS Belgium. The registration will only be completed after the registrant confirms the email.
 
 ![screenshot: dnsbelgium verification](/files/domains-be.png)
 
