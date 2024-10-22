@@ -24,14 +24,14 @@ When creating, updating, or deleting a DNS record from the [DNS record editor](/
 
 ## Creating a record note
 
-1. Click the relevant domain in your Domain List. 
+1. Click the relevant domain in your Domain List.
 1. Click the DNS badge in the top right.
 
-   <!--- needs screenshot -->
-   
+![screenshot: dns badge navigation item](/files/dns-badge.png)
+
 1. To add a note to an existing record, click the **Add Note** icon on the right side, and enter your note.
- 
-   <!--- needs screenshot -->
+
+![screenshot: showing how to add a dns record note](/files/dns-record-note.png)
 
 1. To add a note when creating a record, click **Add Record**, create your record, and enter your note in the **Notes** field.
 
@@ -67,6 +67,6 @@ When you create, update, or delete a record, and add a record note, the note wil
 
 ![Record note in audit history](/files/record-notes-activities.png)
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions about record notes or how they work, [contact our support team](https://dnsimple.com/feedback), and we'll get you the answers you need. 
+If you have any questions about record notes or how they work, [contact our support team](https://dnsimple.com/feedback), and we'll get you the answers you need.
