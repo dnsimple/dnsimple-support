@@ -35,7 +35,7 @@ Newly registered domains are set to auto-renew by default. If you turned off aut
 ##### To enable auto-renewal for a domain
 
 1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click it to access the domain page.
 1.  Check the <label>Auto-renew this domain before it expires</label> checkbox on the "Registration" status card
 
 <!--- needs screenshot -->
@@ -55,8 +55,8 @@ To turn off auto-renewal for a domain, follow these steps:
 ##### To disable auto-renewal for a domain
 
 1.  If you have more than one account, select the relevant one.
-1.  On the top-nav menu click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain
-1.  Uncheck the <label>Auto-renew this domain before it expires</label> checkbox on the registration status card
+1.  On the top-nav menu click the <label>Domain Names</label> tab, locate the relevant domain, and click it to access the domain page.
+1.  Uncheck the <label>Auto-renew this domain before it expires</label> checkbox on the registration status card.
 
 <!--- needs screenshot -->
 
