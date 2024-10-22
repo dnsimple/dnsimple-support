@@ -1,7 +1,7 @@
 ---
 title: Domain Auto-Renewal
-excerpt: The auto-renewal service reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration.
-categories:
+excerpt: Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration.
+categoris:
 - Domains
 ---
 
@@ -21,13 +21,13 @@ Auto-renewal reduces the risk of a domain expiring by renewing the domain automa
 
 ## When does auto-renewal happen?
 
-Auto-renewal usually occurs within 30 days before the domain's expiration date. This timeline may vary for each domain.
+Auto-renewals are processed automatically and usually occur within 30 days before the domain's expiration date. This timeline may vary for each domain.
 
-You can enable auto-renewal when you first register a domain or any time after the domain has been registered. However, it cannot be turned on within 30 days of the expiration date.
-
-Auto-renewals are processed automatically within the final 30 days of registration. Enabling auto-renewal a few days before expiration is not enough to ensure the domain is automatically renewed – increasing the risk of losing the domain. Likewise, if you want to let a domain expire but you turn off auto-renewal a few days before the expiration, the domain may already be auto-renewed, and you will not be refunded for it.
+Auto-renewal cannot be turned on if the domain is within 30 days of expiration. Enabling auto-renewal a few days before expiration will **not** ensure the domain is automatically renewed – increasing the risk of losing the domain. Likewise, if you want to let a domain expire but turn off auto-renewal a few days before the expiration, the domain may already be auto-renewed, and you will not be refunded for it.
 
 ## Enabling Auto-Renewal
+
+You can enable auto-renewal when you first register a domain or any time after the domain has been registered. 
 
 Newly registered domains are set to auto-renew by default. If you turned off auto-renewal and want to re-enable it for your domain, follow these steps:
 
@@ -40,7 +40,7 @@ Newly registered domains are set to auto-renew by default. If you turned off aut
 
 <!--- needs screenshot -->
 
-1.  Auto-renewal is now enabled on your domain.
+Auto-renewal is now enabled on your domain.
 </div>
 
 ## Disabling auto-renewal
@@ -49,7 +49,7 @@ Newly registered domains are set to auto-renew by default. If you turned off aut
 [Some registries require that domains renew through auto-renewal](/articles/auto-renew-only-domains/). If you disable auto-renewal for a domain that requires auto-renewal to renew, you risk losing the domain.
 </warning>
 
-If you want to turn off auto-renewal for a domain, follow these steps:
+To turn off auto-renewal for a domain, follow these steps:
 
 <div class="section-steps" markdown="1">
 ##### To disable auto-renewal for a domain
@@ -60,7 +60,7 @@ If you want to turn off auto-renewal for a domain, follow these steps:
 
 <!--- needs screenshot -->
 
-1.  Auto-renewal is now disabled on your domain.
+Auto-renewal is now disabled on your domain.
 </div>
 
 ## Have more questions? 
