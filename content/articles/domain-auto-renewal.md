@@ -23,7 +23,7 @@ Auto-renewal reduces the risk of a domain expiring by renewing the domain automa
 
 Auto-renewals are processed automatically and usually occur within 30 days before the domain's expiration date. This timeline may vary for each domain.
 
-Auto-renewal cannot be turned on if the domain is within 30 days of expiration. Enabling auto-renewal a few days before expiration will **not** ensure the domain is automatically renewed – increasing the risk of losing the domain. Likewise, if you want to let a domain expire but turn off auto-renewal a few days before the expiration, the domain may already be auto-renewed, and you will not be refunded for it.
+Auto-renewal cannot be turned on if the domain is within 30 days of expiration. Enabling auto-renewal a few days before expiration will **not** ensure the domain is automatically renewed – increasing the risk of losing the domain. Likewise, if you want to let a domain expire and turn off auto-renewal within 30 days of expiration, the domain may already be auto-renewed, and you will not be refunded for it.
 
 ## Enabling Auto-Renewal
 
@@ -36,7 +36,7 @@ Newly registered domains are set to auto-renew by default. If you turned off aut
 
 1.  If you have more than one account, select the relevant one.
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click it to access the domain page.
-1.  Check the <label>Auto-renew this domain before it expires</label> checkbox on the "Registration" status card
+1.  Check the <label>Auto-renew this domain before it expires</label> checkbox on the "Registration" status card.
 
 <!--- needs screenshot -->
 
