@@ -21,7 +21,7 @@ Auto-renewal reduces the risk of a domain expiring by renewing the domain automa
 
 ## When does auto-renewal happen?
 
-Auto-renewals are processed automatically and usually occur within 30 days before the domain's expiration date. This timeline may vary for each domain.
+Auto-renewals are processed automatically and usually occur within 30 days before the domain's expiration date. The exact timeline may vary for each domain.
 
 Auto-renewal cannot be turned on if the domain is within 30 days of expiration. Enabling auto-renewal a few days before expiration will **not** ensure the domain is automatically renewed – increasing the risk of losing the domain. Likewise, if you want to let a domain expire and turn off auto-renewal within 30 days of expiration, the domain may already be auto-renewed, and you will not be refunded for it.
 
@@ -65,4 +65,4 @@ Auto-renewal is now disabled on your domain.
 
 ## Have more questions? 
 
-If you have any questions about or need assistance with auto renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help. 
+If you have any questions about or need assistance with auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help. 
