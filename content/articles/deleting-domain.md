@@ -29,7 +29,7 @@ If the domain is resolved with DNSimple, we will immediately stop resolving it, 
 
 <!--- needs screenshot -->
 
-1.  The last card on the page lets you delete the domain.
+1.  On the **Delete Domain** card, click **Delete Domain**.
 
     ![Delete domain](/files/delete-domain.png)
 
