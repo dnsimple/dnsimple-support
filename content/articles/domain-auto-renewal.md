@@ -14,7 +14,7 @@ categories:
 
 ---
 <warning>
-Auto-renewals begin the renewal process 30 days before the domain is set to expire. You cannot turn off the auto-renewal process during this time. We deliver auto-renewal and expiration notices starting two months before the domain's expiration date. Please update your auto-renewal preferences before it reaches the 30-day threshold.
+Auto-renewals begin 30 days before a domain is set to expire. The auto-renewal process cannot be stopped or prevented during this 30-day period. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date. Please update your preferences before the 30-day threshold.
 </warning>
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
