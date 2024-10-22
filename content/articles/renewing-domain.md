@@ -14,11 +14,11 @@ By default, newly registered domains are set to [auto-renew](/articles/domain-au
 
 1.  Select the relevant account from your dashboard. 
 1.  Locate the relevant domain in your Domain List. Click the domain name to access the domain page.
-1.  In the **Overview** tab, select **Renew domain** on the registration status card.
+1.  In the **Overview** tab, select **Renew domain** on the **Registration status** card.
 
     <!--- needs screenshot -->
 
-1.  Choose the term for which you'd like to renew the domain then click the <label>Renew Domain</label> button
+1.  Choose the number of years for which you'd like to renew the domain, then click <label>Renew Domain</label>.
 
     ![Renew domain form](/files/renew-domain-form.png)
 
