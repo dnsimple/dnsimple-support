@@ -1,7 +1,7 @@
 ---
 title: Domain Auto-Renewal
 excerpt: Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically within 30 days of expiration.
-categoris:
+categories:
 - Domains
 ---
 
