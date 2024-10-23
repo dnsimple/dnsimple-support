@@ -60,8 +60,12 @@ Additionally, a message will appear on your website indicating that your domain 
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
+However, if your domain is suspended, and you request a new verification email but do not receive it, this is likely because the email services associated with your domain have stopped working due to the suspension. To resolve this, [update the registrant contact information](https://support.dnsimple.com/articles/changing-domain-contact/) to an active email address. 
+
+Once the contact information has been updated and verified, a new verification email will be automatically sent. Click the link in that email to complete the validation process. After verifying the email, the domain suspension will be lifted.
+
 <note>
-If your domain was suspended, it may take between 24 to 48 hours for the suspension to be removed once you have verified the registrant email address.
+If your domain was suspended, it may take between 24 and 48 hours for the suspension to be removed after verification. This is due to DNS caching.
 </note>
 
 ## What happens if the registrant email address cannot receive email?
