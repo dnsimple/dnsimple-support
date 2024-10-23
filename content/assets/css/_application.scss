@@ -76,8 +76,6 @@
   }
 }
 
-
-
 // Article
 // -------------------------
 // Styles for a single article entry.
@@ -95,7 +93,6 @@
     @include font-awesome("\f02e");
   }
 }
-
 
 // Sections
 // -------------------------
@@ -169,7 +166,6 @@
   margin-bottom: 15px;
 }
 
-
 // Sidebar Navigation
 // -------------------------
 
@@ -197,7 +193,7 @@
 .nav-list li {
   padding: 0;
   margin-right: 0;
-  margin-left: 0
+  margin-left: 0;
 }
 
 .articles-list {
@@ -212,4 +208,10 @@
     margin-right: 10px;
     @include font-awesome("\f054");
   }
+}
+
+.global-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
