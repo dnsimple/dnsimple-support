@@ -1,6 +1,7 @@
 ---
 title: Account Activation
 excerpt: How to activate your DNSimple account.
+meta: Guide on how to activate your DNSimple account to register or transfer domain names through DNSimple, or to provide DNS resolution
 categories:
 - Account
 ---

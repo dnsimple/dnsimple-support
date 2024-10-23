@@ -1,6 +1,7 @@
 ---
 title: How to Use dig
 excerpt: Instructions on troubleshooting DNS issues using dig.
+meta: Learn how you can discover, pinpoint and resolve DNS issues by using dig and how to troubleshoot issues on DNS servers to resolve DNS errors.
 categories:
 - DNS
 ---

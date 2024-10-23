@@ -1,6 +1,7 @@
 ---
 title: Reverse DNS Zones
 excerpt: We support reverse DNS zones.
+meta: Article on how to set up Reverse DNS zone. Reverse lookup zone is an authoritative DNS zone that is used primarily to resolve IP addresses to network resource names.
 categories:
 - DNS
 ---
