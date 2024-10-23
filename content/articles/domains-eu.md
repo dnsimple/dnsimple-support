@@ -32,7 +32,7 @@ To register a .EU domain, you need to agree and be willing to comply with the ad
   
 If your residential address isn't based in the EU, you must select and self-declare your country of citizenship from the dropdown.
 
-![Register .EU domain](/files/register-eu-domain.png)
+<!--- needs screenshot -->
 
 ## Have more questions? 
 
