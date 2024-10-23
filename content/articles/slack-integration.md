@@ -1,6 +1,7 @@
 ---
 title: Slack App
 excerpt: How to set up the DNSimple Slack app.
+meta: Learn how to set up and use the Slack app to allow DNSimple customers to register and manage domains from their team’s Slack Channel.
 categories:
 - Integrations
 ---

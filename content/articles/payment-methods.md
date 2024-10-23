@@ -1,6 +1,7 @@
 ---
 title: Payment methods
 excerpt: Payment methods supported by DNSimple.
+meta: Article on all the different payment methods that are supported by DNSimple. See how we use a PCI-compliant billing provider to process and store all payment data.
 categories:
 - DNSimple
 ---
@@ -26,10 +27,10 @@ We use a [PCI-compliant](https://stripe.com/guides/pci-compliance) billing provi
 Only available for Enterprise clients.
 </info>
 
-[Enterprise](https://dnsimple.com/sales) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to pay their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted to reflect the payment received, and all charges will be deducted from it. 
+[Enterprise](https://dnsimple.com/sales) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to pay their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted to reflect the payment received, and all charges will be deducted from it.
 
 Enterprise plans are also required to have a credit or debit card on file as a backup payment method. If the account credit runs out, the card on file will be charged.
 
 ## Have more questions?
 
-If you have any questions about our payment methods, [contact support](/articles/dnsimple-support/) and we'll be happy to help. 
+If you have any questions about our payment methods, [contact support](/articles/dnsimple-support/) and we'll be happy to help.
