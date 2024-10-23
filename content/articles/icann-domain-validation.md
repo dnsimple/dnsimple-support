@@ -36,7 +36,7 @@ If it isn't there, resend the email by navigating to your domain page, and locat
 
 ![ICANN resend email verification](/files/raa-resend-email-verification.png)
 
-Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn’t refreshed the latest status yet. Click **Refresh** to manually force a refresh.
+Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
 ## What happens when a domain is suspended?
 
