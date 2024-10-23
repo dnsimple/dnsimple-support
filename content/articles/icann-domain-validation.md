@@ -1,23 +1,24 @@
 ---
-title: ICANN domain validation requirements
-excerpt: This support article explains what ICANN domain validation is and how to ensure that your domain name is not suspended by ICANN due to non-validation.
+title: ICANN Domain Validation Requirements
+excerpt: What ICANN domain validation is and how to ensure that your domain name is not suspended by ICANN due to non-validation.
 categories:
   - Domains
 ---
 
-# ICANN domain validation
+# ICANN Domain Validation Requriements
 
-ICANN, the organization that oversees domain name registrations for most top-level domains, requires validation of your registrant email address whenever a new domain is registered, or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
+ICANN, the organization that oversees domain name registrations for most top-level domains, [requires validation](https://www.icann.org/resources/pages/contact-verification-2013-05-03-en) of your registrant email address whenever a new domain is registered or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
 
-When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email.
+When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen. This screen notifies you if the registrant changes are going to trigger a 60-day lock by ICANN [link to that doc]. This screen will also tell you if you have to verify the registrant changes via the email address that is listed.
 
 ![Contact change confirmation](/files/contact-change.png)
 
-You may receive an email similar to the following:
+The email address listed as the domain contact may receive an email similar to this:
 
 ![ICANN Verification Email](/files/icann-verification-email.png)
 
-This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <registrant-verification@ispapi.net>` and will include a link similar to the following:
+This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <registrant-verification@ispapi.net>` and will include a link similar to these:
+
 - `raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
 - `www.enom.com/raaverification/verification.aspx?VerificationCode=AAAAAAAA-1A11-11AA-1A1A-1111111111`
 - `registrant-email-verification-ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
@@ -29,11 +30,13 @@ The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-v
 
 ## Resend verification email
 
-If you are having trouble finding the email verification in your inbox, you may want to resend it. Navigate to your domain page and locate the ICANN pending verification warning at the top of the page. Then click on "Send ICANN RAA verification email"
+If you are having trouble finding the email verification in your inbox, please remember to check your spam. 
+
+If it isn't there, resend the email by navigating to your domain page, and locating the ICANN pending verification warning at the top of the page. Click **Send ICANN RAA verification email**.
 
 ![ICANN resend email verification](/files/raa-resend-email-verification.png)
 
-Once you have acted on the verification email, the warning above should not appear. If it does, it may be because our system hasn't refreshed the latest status yet. You can manually force a refresh by clicking on the "Refresh" button.
+Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn’t refreshed the latest status yet. Click **Refresh** to manually force a refresh. 
 
 ## What happens when a domain is suspended?
 
@@ -63,6 +66,10 @@ If your domain was suspended, it may take between 24 to 48 hours for the suspens
 
 ## What happens if the registrant email address cannot receive email?
 
-You must be able to receive an email at the registrant email address to complete the verification process. You can set up the email address with an email provider or you can use our email forwarding service. If you set up the email address after registration or changing your registrant details, you may need to resend the verification email. Please contact support@dnsimple.com to do so. Include the domain name that you need to verify in your email to support.
+You must be able to receive an email at the registrant email address to complete the verification process. If you set up the email address after registration or changing your registrant details, contact support@dnsimple.com to resend the verification email. Be sure to include the domain name that you need to verify in your email to support.
 
-Want to more about the policy requiring domain validation? Visit the ICANN web site to read about the [ICANN Whois Accuracy](https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#whois-accuracy) program.
+## Have more questions? 
+
+If you need assistance or have any questions about ICANN domain validation, contact support, and we'll be happy to help. 
+
+Want to learn more about the policy requiring domain validation? Visit ICANN to read about the [ICANN Whois Accuracy](https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#whois-accuracy) program.
