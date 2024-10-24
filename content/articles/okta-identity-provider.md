@@ -80,7 +80,6 @@ If the Okta app is no longer linked (e.g. the access token is revoked or the eve
 To give people access to DNSimple, click **Assignments** under the configured DNSimple app in your Okta dashboard. Click **Assign**, and select the appropriate users.
 
 ![Assign users and groups](/files/okta-assignment.png)
-<!--- needs screenshot -->
 
 If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them, and the DNSimple account admin will receive a notification that they have been added.
 
@@ -94,7 +93,7 @@ You can set the level of DNSimple access for each member under the **Members and
 
 ## Linking a DNSimple user to an Okta identity
 
-When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. This is done in your DNSimple user settings. 
+When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. This is done in your DNSimple user settings.
 
 To link a DNSimple user to an Okta identity:
 
@@ -127,6 +126,6 @@ If you log out of Okta, you will also be logged out of DNSimple.
 1. Go to the **User Settings** page.
 1. In the Identities card, click **Remove** next to the linked identity.
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about using Okta SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
