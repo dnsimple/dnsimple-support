@@ -1,13 +1,13 @@
 ---
-title: '"Auto-Renew Only" Domains'
-excerpt: Certain domain names are auto-renew only and cannot be manually renewed.
+title: Auto-Renewal Required Domains
+excerpt: Certain domain names require auto-renew and cannot be manually renewed.
 categories:
 - Domains
 ---
 
-# Auto-Renew Only Domains
+# Auto-Renewal Required Domains
 
-Certain domain names are **auto-renew only** and cannot be renewed manually. For these domains, it's important to have the [auto-renewal feature](/articles/domain-auto-renewal) turned on at least one month before the expiration date.
+Certain domain names require auto-renewal and cannot be renewed manually. For these domains, it's important to have the [auto-renewal feature](/articles/domain-auto-renewal) turned on at least one month before the expiration date.
 
 <warning>
 Auto-renewals are automatically processed by the registrar within 30 days of expiration. Enabling auto-renew on a domain within 30 days of the expiration date will not ensure automatic renewal, and **you risk losing your domain**. If your domain enters the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), the registrar will likely charge a fee to recover it. Read more about [what happens when a domain expires](/articles/what-happens-when-domain-expires/). 
