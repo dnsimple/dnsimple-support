@@ -21,7 +21,7 @@ If you registered the domain with us, we'll set the name servers automatically t
 
 If you updated the name servers to another provider, those will appear as well.
 
-<!--- needs screenshot -->
+![list of external nameservers](/files/external-nameservers.png)
 
 If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 

@@ -23,13 +23,13 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 1. Click the relevant domain name.
 1. Click the DNS badge in the top right.
 
-<!--- needs screenshot -->
+![dns tab link](/files/dns-tab.png)
 
 ## System records
 
 System records are special DNS records created by DNSimple when you add a domain to your account. They're necessary to resolve your domain. They can't be edited from the record editor, because they're managed by the DNSimple system.
 
-<!--- needs screenshot -->
+![custom vs system record](/files/custom-vs-system-record.png)
 
 The system records include an [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple's name servers.
 

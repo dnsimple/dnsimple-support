@@ -62,11 +62,11 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 1.  Click the relevant domain name to access the domain page.
 1.  On the left side, click the <label>DNS</label> tab.
 
-<!--- needs screenshot -->
+![tab for link to dns settings](/files/dns-tab.png)
 
 1.  On the <label>DNS zone is inactive</label> card, click **Activate zone**.
 
-<!--- needs screenshot -->
+![activate dns zone](/files/inactive-zone.png)
 
 </div>
 
@@ -81,7 +81,7 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 1.  Click the relevant domain name to access the domain page.
 1.  On the left side, click the <label>DNS</label> tab.
 
-<!--- needs screenshot -->
+![tab for link to dns settings](/files/dns-tab.png)
 
 1.  On the <label>DNS zone is active</label> card, click **Deactivate zone**.
 
