@@ -59,7 +59,7 @@ Some DNS record types count with a special form that breaks the record content's
 
 You can always switch back to the simple editor using the tabs on top. This can be useful when pasting DNS record content from a third-party service provider.
 
-<!--- needs screenshot -->
+![switch to simple record editor](/files/switch-to-simple-editor.png)
 
 ### Specific record instructions
 
@@ -74,8 +74,7 @@ You can always switch back to the simple editor using the tabs on top. This can 
 
 To modify a record, click on the edit icon at the end of the record row.
 
-<!--- needs screenshot -->
-
+![modify a record](/files/modify-record.png)
 
 ## Deleting a record
 
@@ -85,12 +84,12 @@ To delete a record, click on the trash icon at the end of the record row.
 There is no way to undo deleting a record. The only way to restore a deleted record is to create it again.
 </warning>
 
-<!--- needs screenshot -->
+![delete record](/files/delete-record.png)
 
 ## Managing integrated zone records
 
 The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones) for more details.
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions or need assistance with the record editor, reach out to [support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions or need assistance with the record editor, reach out to [support](https://dnsimple.com/feedback), and we'll be happy to help.
