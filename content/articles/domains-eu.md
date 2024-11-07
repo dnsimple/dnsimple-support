@@ -29,11 +29,10 @@ To register a .EU domain, you need to agree and be willing to comply with the ad
   - A natural person who is not an EU citizen, and who is a resident of a Member State.
   - An undertaking that is established in the EU.
   - An organization that is established in the EU, without prejudice to the application of the national law.
-  
+
 If your residential address isn't based in the EU, you must select and self-declare your country of citizenship from the dropdown.
 
-<!--- needs screenshot -->
-
-## Have more questions? 
+![screenshot of declaring your country](/files/eu-declare-country.png)
+## Have more questions?
 
 If you have additional questions or need assistance registering your .EU domain, [contact our support team](https://dnsimple.com/feedback) — we're here to help.
