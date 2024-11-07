@@ -12,22 +12,21 @@ A subdomain is a DNS record for a hostname that belongs to your domain. To add a
 <div class="section-steps" markdown="1">
 ##### To add a subdomain
 
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domain Names</label> tab.
-1.  Locate the relevant domain, and click on the name to access the domain page.
-1.  Click the <label>DNS</label> tab, and scroll to the **DNS Records** card, or click the **DNS** badge at the top right to jump to the DNS records for that domain.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domain Names</label> tab.
+1. Locate the relevant domain, and click on the name to access the domain page.
+1. Click the <label>DNS</label> tab, and scroll to the **DNS Records** card, or click the **DNS** badge at the top right to jump to the DNS records for that domain.
+  ![dns badge to edit dns records](/files/dns-badge.png)
 
-<!--- needs screenshot -->
+1. Click <label>Add record</label>, and select the type of record you want to create. [`A`, `ALIAS`, and `CNAME` records](/articles/differences-between-a-cname-alias-url) will all create a new subdomain.
+   ![choose type of subdomain](/files/subdomain-choose-type.png)
 
-1.  Click <label>Add record</label>, and select the type of record you want to create. [`A`, `ALIAS`, and `CNAME` records](/articles/differences-between-a-cname-alias-url) will all create a new subdomain.
+    > Choose a record to open advanced editor where you can add the records for the subdomain.
 
-<!--- needs screenshot -->
+1. To add a subdomain, fill in the subdomain in the **Name** field. For example, `www` would be the subdomain `www.example.com`.
 
-    Choose a record to open advanced editor where you can add the records for the subdomain.
+   ![screenshot showing naming of the subdomain](/files/naming-subdomain.png)
 
-1.  To add a subdomain, fill in the subdomain in the **Name** field. For example, `www` would be the subdomain `www.example.com`.
-
-<!--- needs screenshot -->
 </div>
 
 ## Have more questions?
