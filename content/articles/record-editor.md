@@ -21,7 +21,7 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 ## Locating the record editor
 
 1. Click the relevant domain name.
-1. Click the DNS badge in the top right.
+1. Click the DNS tab on the left side.
     ![dns tab link](/files/dns-tab.png)
 
 ## System records
