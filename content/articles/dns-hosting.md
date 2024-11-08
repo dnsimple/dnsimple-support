@@ -58,15 +58,13 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 <div class="section-steps" markdown="1">
 ##### To activate a DNS zone
 
-1.  If you have multiple accounts, select the relevant account in the navigation bar.
-1.  Click the relevant domain name to access the domain page.
-1.  On the left side, click the <label>DNS</label> tab.
+1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. Click the relevant domain name to access the domain page.
+1. On the left side, click the <label>DNS</label> tab.
+    ![tab for link to dns settings](/files/dns-tab.png)
 
-![tab for link to dns settings](/files/dns-tab.png)
-
-1.  On the <label>DNS zone is inactive</label> card, click **Activate zone**.
-
-![activate dns zone](/files/inactive-zone.png)
+1. On the <label>DNS zone is inactive</label> card, click **Activate zone**.
+    ![activate dns zone](/files/inactive-zone.png)
 
 </div>
 
@@ -77,15 +75,13 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 <div class="section-steps" markdown="1">
 ##### To deactivate a DNS zone
 
-1.  If you have multiple accounts, select the relevant account in the navigation bar.
-1.  Click the relevant domain name to access the domain page.
-1.  On the left side, click the <label>DNS</label> tab.
+1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. Click the relevant domain name to access the domain page.
+1. On the left side, click the <label>DNS</label> tab.
+  ![tab for link to dns settings](/files/dns-tab.png)
 
-![tab for link to dns settings](/files/dns-tab.png)
-
-1.  On the <label>DNS zone is active</label> card, click **Deactivate zone**.
-
-    ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
+1. On the <label>DNS zone is active</label> card, click **Deactivate zone**.
+  ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
 
 </div>
 

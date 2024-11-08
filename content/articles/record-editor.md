@@ -22,8 +22,7 @@ Any [supported DNS record type](/articles/supported-dns-records) can be managed 
 
 1. Click the relevant domain name.
 1. Click the DNS badge in the top right.
-
-![dns tab link](/files/dns-tab.png)
+    ![dns tab link](/files/dns-tab.png)
 
 ## System records
 
