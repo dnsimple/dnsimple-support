@@ -26,13 +26,13 @@ This email will be sent from the addresses `DNSimple <donotreply@name-services.c
 
 Click the link to verify the registrant email address.
 
-The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-verification-ispapi.net`, or `registrant-email-verification.ispapi.net` - if you receive a verification email and this link is not in the email then please contact support@dnsimple.com, forwarding the email you received.
+The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-verification-ispapi.net`, or `registrant-email-verification.ispapi.net` - if you receive a verification email, and this link is not in the email, contact support@dnsimple.com, forwarding the email you received.
 
 ## Resend verification email
 
 If you are having trouble finding the email verification in your inbox, please remember to check your spam.
 
-If it isn't there, resend the email by navigating to your domain page, and locating the ICANN pending verification warning at the top of the page. Click **Send ICANN RAA verification email**.
+If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send ICANN RAA verification email**.
 
 ![ICANN resend email verification](/files/raa-resend-email-verification.png)
 
