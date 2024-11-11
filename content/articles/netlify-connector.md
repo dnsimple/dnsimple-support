@@ -25,7 +25,7 @@ categories:
 ## Creating a connection
 
 1. Choose the relevant domain from your Domain List.
-2. Click **Connections** the tab on the left side.
+2. Click the **Connections** tab on the left side.
 3. Under **Add Connection**, click **Add** in the **Netlify Connector** section.  
   <!--- needs screenshot -->
 
