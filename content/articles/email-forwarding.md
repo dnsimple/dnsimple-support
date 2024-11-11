@@ -34,7 +34,7 @@ When you enable email forwarding, we will automatically add the various DNS reco
 <div class="section-steps" markdown="1">
 ##### Adding an email forward from the dashboard
 
-  1.  If you have more than one account, select the relevant one.
+1.  If you have more than one account, select the relevant one.
 1.  Click <label>Add</label> from the Dashboard, and choose <label>Email forward</label> from the provided options.
   ![Adding an email forward](/files/add-button-email-forward.png)
 </div>
@@ -78,6 +78,6 @@ The Email forwarding will be deleted immediately, and you will no longer receive
 
 Our email forwarding provider doesn't support International Domain Names (or domains with non-standard characters). It's not possible to use an email address with an IDN domain as a destination or to configure email forwards for an IDN domain.
 
-## Have more questions? 
+## Have more questions?
 
 For additional questions, or if you need any assistance with email forwards, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help
