@@ -39,10 +39,10 @@ If you want to assign a new contact to one of your domains, create the new conta
 1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, then click the name to access the domain page.
 1.  On the domain details page, click the <label>Registration</label> link.
 1.  On the card displaying the contact information of your domain, click <label>Change Contact</label>.
+
+      <!--- needs screenshot -->
+    
 1.  You will see a list of all your existing contacts. The one currently assigned to the domain is automatically selected. By selecting a contact, you will see the chosen contact information with its extended attributes. Click <label>Next</label>.
-
-    <!--- needs screenshot -->
-
 1.  You will see a confirmation of the new contact information for the domain. You may see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). Click <label>Change contact</label> to confirm the change.
 
     <!--- needs screenshot -->
