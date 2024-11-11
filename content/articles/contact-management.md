@@ -1,11 +1,11 @@
 ---
-title: Managing your contacts
+title: Managing Your Contacts
 excerpt: This article explains how to manage your contacts for your domains and SSL certificates.
 categories:
 - Contacts
 ---
 
-# Managing your contacts
+# Managing Your Contacts
 
 * TOC
 {:toc}
