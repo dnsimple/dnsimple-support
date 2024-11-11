@@ -80,4 +80,4 @@ Our email forwarding provider doesn't support International Domain Names (or dom
 
 ## Have more questions?
 
-For additional questions, or if you need any assistance with email forwards, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help
+For additional questions, or if you need any assistance with email forwards, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
