@@ -20,14 +20,16 @@ The number of forwarded messages and email forwards allowed per month is based o
 
 ## Enabling email forwarding
 
-To enable email forwarding, visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
+To enable email forwarding, 
 
-![Email forwarding](/files/email-forwarding.png)
+1. Choose the relevant domain from your Domain List.
+2. Click the **Email Forwarding** tab menu on left side. 
 
-Create an email forward to enable the service.
+<!--- needs screenshot -->
+
+3. Create an email forward to enable the service.
 
 When you enable email forwarding, we will automatically add the various DNS records needed to support forwarding.
-
 
 ## Creating an email forward
 
