@@ -1,11 +1,11 @@
 ---
-title: Changing domain contacts
+title: Changing Domain Contacts
 excerpt: How to change or update the contact assigned to a domain or part of its data.
 categories:
 - Contacts
 ---
 
-# Changing domain contacts
+# Changing Domain Contacts
 
 ### Table of Contents {#toc}
 
