@@ -23,7 +23,7 @@ The number of forwarded messages and email forwards allowed per month is based o
 To enable email forwarding, 
 
 1. Choose the relevant domain from your Domain List.
-2. Click the **Email Forwarding** tab menu on left side. 
+2. Click the **Email Forwarding** tab on the left side. 
 
 <!--- needs screenshot -->
 
@@ -45,7 +45,7 @@ To create an email forward, specify the **From** and **To** fields.
 
 ![Email forwarding creation](/files/email-forwarding-setup.png)
 
-The **From** field is used to match an email address to forward from. Enter a specific name (like `support`) without the domain.
+The **From** field is used to match an email address to forward from. Enter a specific name (like `hello`) without the domain.
 
 In the **To** field, enter the full email address that you want to forward the email to.
 
@@ -74,7 +74,7 @@ To remove an email forward from your domain:
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
 
-The Email forwarding will be deleted immediately, and you will no longer receive emails through this configuration.
+The email forwarding will be deleted immediately, and you will no longer receive emails through this configuration.
 
 ## Internationalized Domain Names (IDN) support {#idna}
 
