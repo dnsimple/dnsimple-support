@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Domain Managers](https://support.dnsimple.com/articles/domain-access-control/#domain-manager) and anyone with [full access](https://support.dnsimple.com/articles/domain-access-control/#full-access) can change the contact associated to a domain registered with DNSimple at any time.
+For domains registered with DNSimple, [Domain Managers](https://support.dnsimple.com/articles/domain-access-control/#domain-manager) and anyone with [Full Access](https://support.dnsimple.com/articles/domain-access-control/#full-access) can change the contact associated with a domain at any time.
 
 <note>
 #### Domains not registered with DNSimple
@@ -22,12 +22,12 @@ categories:
 These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the is domain registered elsewhere, you will have to update the contact information at your current registrar, or transfer the domain to DNSimple.
 </note>
 
-## Replacing a domain contact
+## Assigning a new domain contact
 
-If you want to assign a new contact to one of your domains, create the new contact record, then associate the domain to the new contact.
+To assign a new contact to one of your domains, create the new contact record, then associate the domain to the new contact.
 
 <div class="section-steps" markdown="1">
-##### To change the contact information
+##### Adding and changing contact information
 
 1.  If you have more than one account, select the relevant one.
 1.  On the header, click the <label>Contacts</label> tab, then click <label>New Contact</label>.
@@ -51,24 +51,27 @@ If you want to assign a new contact to one of your domains, create the new conta
 
 ## Updating a domain contact
 
-You can update the contact details to change existing contact information. We will immediately update the registry data and the WHOIS record with the new information.
+You can update the contact details to change existing contact information. DNSimple will immediately update the registry data and the WHOIS record with the new information. 
 
 <div class="section-steps" markdown="1">
 ##### To change the contact information
 
-    1.  On the header, click the <label>Contacts</label> tab, locate the contact you want to change, and click <label>Edit</label>.
+    1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
 
         <!--- needs screenshot -->
 
-1.  Update the information you want to change and confirm.
-1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
+1.  Update the information and click <label>Update contact</label>.
+1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain. 
 
     ![Change contact confirmation](/files/contact-change-confirmation.png)
 
 </div>
 
-
 ## Monitoring a contact change
+
+<info>
+When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
+</info>
 
 Some TLDs require extra steps before authorizing a registrant change.
 
@@ -83,7 +86,7 @@ Some TLDs require extra steps before authorizing a registrant change.
 
 ## Special WHOIS policies
 
-Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. Check [this article](/articles/changing-whois-contact) for a list of the most common registrar-specific policies.
+Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. View [this article](/articles/changing-whois-contact) for a list of the most common registrar-specific policies.
 
 ## Have more questions? 
 
