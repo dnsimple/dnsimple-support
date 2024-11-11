@@ -20,8 +20,6 @@ The number of forwarded messages and email forwards allowed per month is based o
 
 ## Enabling email forwarding
 
-To enable email forwarding, 
-
 1. Choose the relevant domain from your Domain List.
 2. Click the **Email Forwarding** tab on the left side. 
 
@@ -29,7 +27,7 @@ To enable email forwarding,
 
 3. Create an email forward to enable the service.
 
-When you enable email forwarding, we will automatically add the various DNS records needed to support forwarding.
+When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
 
 ## Creating an email forward
 
@@ -45,7 +43,7 @@ To create an email forward, specify the **From** and **To** fields.
 
 ![Email forwarding creation](/files/email-forwarding-setup.png)
 
-The **From** field is used to match an email address to forward from. Enter a specific name (like `test`, as shown) without the domain.
+The **From** field is used to match an email address to forward from. Enter a specific name (e.g. `test`) without the domain.
 
 In the **To** field, enter the full email address that you want to forward the email to.
 
@@ -62,7 +60,7 @@ To create a catch-all address, follow the instructions to create an email, and e
 The expression is represented as a period followed by an asterisk. **The parenthesis are required**.
 
 <note>
-When you use email forwarding on a domain, you cannot use any other email service providers (like Google Apps).
+When you use email forwarding on a domain, you cannot use any other email service providers (e.g. Google Apps).
 </note>
 
 ## Deleting an email forward
