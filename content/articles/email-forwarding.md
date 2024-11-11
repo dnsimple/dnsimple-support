@@ -45,7 +45,7 @@ To create an email forward, specify the **From** and **To** fields.
 
 ![Email forwarding creation](/files/email-forwarding-setup.png)
 
-The **From** field is used to match an email address to forward from. Enter a specific name (like `hello`) without the domain.
+The **From** field is used to match an email address to forward from. Enter a specific name (like `test`, as shown) without the domain.
 
 In the **To** field, enter the full email address that you want to forward the email to.
 
