@@ -10,19 +10,19 @@ categories:
 * TOC
 {:toc}
 
-## The importance of a contact
+## Why domain contacts are important
 
-Contacts are more than just a detail when you register a new domain or purchase a new SSL certificate. This article explains why they're important and how you can manage them within DNSimple.
+Domain contacts are required for registering a new domain or purchasing a new SSL certificate.
 
-A contact must have correct, up-to-date information, because you might be contacted by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain.
+A contact must have correct, up-to-date information, as it may be used by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain. If the information is incorrect you  may not recieve the validation request. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance. 
 
-Use an email address that does not belong to the custom domain you're managing. If the domain becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications. This list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) has more ideas on how to avoid potential issues with your domains.
+Use an email address that does not belong to the custom domain you're managing (e.g. if you own `example.buisness`, don't use `Hello@example.business`). If the domain becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications. Read this list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) for more ways to avoid potential issues with your domains.
 
 Contacts are tied to your account. If you use multiple accounts, make sure you're under the correct account when looking for your contacts.
 
 ## Creating a new contact
 
-If your account does not have any contact when registering a domain or getting a new SSL certificate, you'll be prompted to create a contact during this flow. You'll only need to do this once. Once a contact is created, it's available for future operations.
+If your account does not have any contacts when registering a domain or ordering a new SSL certificate, you'll be prompted to create a one during this flow. Once a contact is created, it's available for future domain management operations.
 
 ![creating a contact during domain registration](/files/contact-creation.png)
 
