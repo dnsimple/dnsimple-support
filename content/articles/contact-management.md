@@ -22,7 +22,7 @@ Contacts are tied to your account. If you use multiple accounts, make sure you'r
 
 ## Creating a new contact
 
-If your account does not have any contacts when registering a domain or ordering a new SSL certificate, you'll be prompted to create a one during this flow. Once a contact is created, it's available for future domain management operations.
+If this is the first time you're registering a domain or ordering a new SSL certificate, and you haven't created any contacts yet, you'll be prompted to create one during this flow. Once a contact is created, it's available for future domain management operations.
 
 ![creating a contact during domain registration](/files/contact-creation.png)
 
@@ -32,9 +32,9 @@ You can also create a new contact at any time through the contact page.
 
 ## Updating contacts
 
-If a contact is associated with a domain, updating that contact updates all the contact information associated with these domains. You don't need to individually update these domains if they point to the same contact.
+If a contact is associated with a domain, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
 
-If you want to update a specific domain only, you can either [replace the contact entirely](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact).
+To update the contact for a specific domain, you'll need to [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
 <warning>
 Changing or updating your domain contact information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
