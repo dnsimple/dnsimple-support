@@ -76,7 +76,7 @@ The email forwarding will be deleted immediately, and you will no longer receive
 
 ## Internationalized Domain Names (IDN) support {#idna}
 
-Our email forwarding provider doesn't support International Domain Names (or domains with non-standard characters). It's not possible to use an email address with an IDN domain as a destination or to configure email forwards for an IDN domain.
+Our email forwarding provider does not support International Domain Names (domains with non-standard characters). You cannot use an email address with an IDN domain as a destination or to configure email forwards for an IDN domain.
 
 ## Have more questions?
 
