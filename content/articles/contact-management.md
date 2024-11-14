@@ -12,9 +12,9 @@ categories:
 
 ## Why domain contacts are important
 
-Domain contacts are required for registering a new domain or purchasing a new SSL certificate. They're associated with accounts, rather than individual users. 
+Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
 
-A contact must have correct, up-to-date information, as it may be used by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain. If the information is incorrect you  may not recieve the validation request. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance. 
+A contact must have correct, up-to-date information, as it may be used by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain. If the information is incorrect the contact  may not recieve the validation request. Failure to validate the registrant email address will result in suspension of the domain name after 15 days of non-compliance. 
 
 Use an email address that does not belong to the custom domain you're managing (e.g. if you own `example.buisness`, don't use `Hello@example.business`). If your email is tied to the domain, and it becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications. 
 
@@ -34,7 +34,7 @@ You can also create a new contact at any time through the **Contacts** page.
 
 If a contact is associated with multiple domains, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
 
-To update the contact for a specific domain, you'll need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
+To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
 <warning>
 Changing or updating your domain contact information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
@@ -44,7 +44,7 @@ Changing or updating your domain contact information may result in the domain be
 
 If a contact is associated with at least one domain or SSL certificate, this contact cannot be deleted. You must remove all associated domains or SSL certificates with the contact before you can delete it.
 
-In the screenshot below, the only contact without any association is the last one. If you can delete a contact, a "deletion" icon will appear next to it.
+If you can delete a contact, you will see a trash can icon next to their name. 
 
 ![contact deletion](/files/contact-delete.png)
 
