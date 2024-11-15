@@ -16,11 +16,11 @@ categories:
 
 For domains registered with DNSimple, [Domain Managers](https://support.dnsimple.com/articles/domain-access-control/#domain-manager) and anyone with [Full Access](https://support.dnsimple.com/articles/domain-access-control/#full-access) can change the contact associated with a domain at any time.
 
-<note>
+<info>
 #### Domains not registered with DNSimple
 
 These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the is domain registered elsewhere, you will have to update the contact information at your current registrar, or transfer the domain to DNSimple.
-</note>
+</info>
 
 ## Assigning a new domain contact
 
