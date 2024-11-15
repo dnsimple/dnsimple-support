@@ -37,7 +37,7 @@ To assign a new contact to one of your domains, create the new contact record, t
 1.  Fill in the form with the new contact information, and click <label>Add contact</label>.
 1.  Go to your domain page.
 1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, then click the name to access the domain page.
-1.  On the domain details page, click the <label>Registration</label> link.
+1.  On the domain details page, click the <label>Registration</label> tab on the left side.
 1.  On the card displaying the contact information of your domain, click <label>Change Contact</label>.
 
       <!--- needs screenshot -->
@@ -75,11 +75,11 @@ When a domain contact has been changed, you will receive a confirmation email fr
 
 Some TLDs require extra steps before authorizing a registrant change.
 
-1.  On the domain details page, click the <label>Registration</label> link.
+1.  On the domain details page, click the **Registration** tab on the left side.
 
     ![Domain registration details](/files/domain-registration-details.png)
 
-1.  If action is required, the card displaying the contact information of your domain will show a list of instructions that need to be completed for the registrant change to succeed. If you want to cancel the change, click <label>Cancel change</label>.
+1.  If action is required, the card displaying the contact information of your domain will show a list of instructions that need to be completed for the registrant change to succeed. If you want to cancel the change, click **Cancel change**.
 
     ![Contact change pending](/files/contact-change-monitor.png)
 
