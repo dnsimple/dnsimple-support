@@ -37,7 +37,7 @@ If a contact is associated with multiple domains, updating that contact also upd
 To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
 <warning>
-Changing or updating your domain contact information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
+When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 </warning>
 
 ### Deleting a contact
