@@ -10,7 +10,13 @@ categories:
 * TOC
 {:toc}
 
+<info>
+These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the is domain registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
+</info>
+
 ## Why domain contacts are important
+
+For domains registered with DNSimple, [Domain Managers](/articles/domain-access-control/#domain-manager) and anyone with [Full Access](/articles/domain-access-control/#full-access) can manage contacts associated with domains.
 
 Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
 
@@ -36,9 +42,9 @@ If a contact is associated with multiple domains, updating that contact also upd
 
 To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
-<warning>
+<info>
 When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-</warning>
+</info>
 
 ### Deleting a contact
 
