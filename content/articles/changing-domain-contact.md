@@ -56,7 +56,7 @@ You can update the contact details to change existing contact information. DNSim
 <div class="section-steps" markdown="1">
 ##### To change the contact information
 
-    1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
+1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
 
         <!--- needs screenshot -->
 
