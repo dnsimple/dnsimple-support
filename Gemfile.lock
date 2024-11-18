@@ -108,7 +108,7 @@ GEM
     parallel (1.25.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    pry (0.14.2)
+    pry (0.15.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
     psych (5.1.2)
@@ -166,7 +166,7 @@ DEPENDENCIES
   nanoc-dart-sass
   nanoc-live
   nokogiri
-  pry (~> 0.14.2)
+  pry (~> 0.15.0)
   puma
   rake
   rouge
