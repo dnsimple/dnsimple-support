@@ -23,11 +23,11 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Domain Delegation card](/files/domain-delegation-card-2.png)
 
-1. Click on the <label>Use DNSimple name servers</label> button to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers). 
+1. Click on <label>Use DNSimple name servers</label> to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers). 
 
     ![Use DNSimple name servers](/files/use-dnsimple-name-servers.png)
 
-1. Click on the <label>Use DNSimple name servers</label> button in the following confirmation dialog.
+1. Click on <label>Use DNSimple name servers</label> in the following confirmation dialog.
 
     ![Use DNSimple name servers confirmation](/files/use-dnsimple-name-servers-confirmation.png)
 
