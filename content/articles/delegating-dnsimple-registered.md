@@ -31,7 +31,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Use DNSimple name servers confirmation](/files/use-dnsimple-name-servers-confirmation.png)
 
-1. Alternatively, the [DNSimple name servers](/articles/dnsimple-nameservers) can also be keyed into the form manually.
+1. Alternatively, the [DNSimple name servers](/articles/dnsimple-nameservers) can also be keyed into the form manually
   - ns1.dnsimple.com
   - ns2.dnsimple-edge.net
   - ns3.dnsimple.com
