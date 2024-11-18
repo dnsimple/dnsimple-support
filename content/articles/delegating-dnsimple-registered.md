@@ -12,7 +12,6 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 <div class="section-steps" markdown="1">
 ##### Changing the name servers to DNSimple
 
-1.  Log into DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
 1.  On the header click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 
@@ -23,11 +22,11 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Domain Delegation card](/files/domain-delegation-card-2.png)
 
-1. Click on <label>Use DNSimple name servers</label> to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers). 
+1. Click <label>Use DNSimple name servers</label> to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers). 
 
     ![Use DNSimple name servers](/files/use-dnsimple-name-servers.png)
 
-1. Click on <label>Use DNSimple name servers</label> in the following confirmation dialog.
+1. Click <label>Use DNSimple name servers</label> in the following confirmation dialog:
 
     ![Use DNSimple name servers confirmation](/files/use-dnsimple-name-servers-confirmation.png)
 
@@ -48,3 +47,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
 It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
 </note>
+
+## Have more questions? 
+
+If you have any questions or need assistance delegating your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
