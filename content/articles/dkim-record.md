@@ -75,4 +75,4 @@ Verify your DKIM with an online tool like [this one](https://www.mail-tester.com
 
 ## Technical details
 
-If you want to read more about the technical details of DKIM, head over to [DKIM.org](http://www.dkim.org/).
+If you want to read more about the technical details of DKIM, head over to [DKIM.org](http://dkim.org/).
