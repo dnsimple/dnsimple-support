@@ -51,8 +51,7 @@ To assign a new contact to one of your domains, create the new contact record, t
 
 ## Updating a domain contact
 
-You can update the contact details to change existing contact information. DNSimple will immediately update the registry data and the WHOIS record with the new information. 
-
+You can update the contact details to change existing contact information. DNSimple will immediately update the registry data and the WHOIS record with the new information.
 <div class="section-steps" markdown="1">
 ##### To change the contact information
 
@@ -61,7 +60,7 @@ You can update the contact details to change existing contact information. DNSim
         <!--- needs screenshot -->
 
 1.  Update the information and click <label>Update contact</label>.
-1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain. 
+1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
 
     ![Change contact confirmation](/files/contact-change-confirmation.png)
 
