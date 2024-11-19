@@ -23,12 +23,12 @@ This diagram shows how zone changes are propagated to both DNS service providers
 <img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" />
 
 
-## Configuring DNSimple along another DNS provider (hosted domain)
+## Configuring DNSimple alongside another DNS provider (hosted domain)
 
 To set up zone redundancy with another DNS provider on your zone, follow the steps detailed in [Updating NS Records for the Zone of a Hosted Domain](/articles/zone-ns-records/).
 
 
-## Configuring DNSimple along another DNS provider (registered domain)
+## Configuring DNSimple alongside another DNS provider (registered domain)
 
 To set up zone redundancy with another DNS provider on your domain, follow the steps detailed in [Setting the Name Servers for a Domain Name](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
