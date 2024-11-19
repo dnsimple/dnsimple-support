@@ -32,4 +32,4 @@ Now the service is added. You can remove it any time by following the steps in [
 
 ## Setting up At KickOffLabs
 
-Follow the steps to [setup the custom domain in KickOffLabs](https://support.kickofflabs.com/account-settings/domain-management/general-domain-cname-settings).
+Follow the steps to [setup the custom domain in KickOffLabs](https://support.kickofflabs.com/knowledgebase/general-domain-cname-settings).
