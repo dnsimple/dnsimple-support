@@ -14,22 +14,26 @@ categories:
 
 ---
 
-[Weebly](http://www.weebly.com) gives millions of people a surprisingly easy and affordable way to create a site that is as unique as they are. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Weebly.
+[Weebly](http://www.weebly.com) gives millions of people a surprisingly easy and affordable way to create a site that is as unique as they are. 
 
+If you have accounts with DNSimple and Weebly, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Weebly.
 
 ## Enabling Weebly service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click the **DNS** tab on the left side. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+<!--- needs screenshot -->
 
-Select the "Hosting" tab, and scroll down the page until you find the Weebly service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down to the Weebly service. Click **Add**.
 
 ![Add Service](/files/services-Weebly.png)
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Weebly
 
 Follow the steps to [change the site address for your Weebly site](https://www.weebly.com/app/help/us/en/topics/how-to-use-a-domain-you-purchased-elsewhere).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
