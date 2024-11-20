@@ -11,7 +11,7 @@ categories:
 {:toc}
 
 <info>
-These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the is domain registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
+These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
 </info>
 
 ## Why domain contacts are important
