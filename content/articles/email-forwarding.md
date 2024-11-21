@@ -41,7 +41,7 @@ When you enable email forwarding, DNSimple will automatically add the various DN
 
 To create an email forward, specify the **From** and **To** fields.
 
-![Email forwarding creation](/files/email-forwarding-setup.png)
+<!--- needs screenshot -->
 
 The **From** field is used to match an email address to forward from. Enter a specific name (e.g. `test`) without the domain.
 
