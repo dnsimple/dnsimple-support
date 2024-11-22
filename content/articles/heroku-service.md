@@ -23,19 +23,23 @@ This service is being deprecated. We recommend that you use the [Heroku Connecto
 
 ## Enabling Heroku service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+From the domain list, click on the domain name you want to update, then click the **DNS** tab on the left side. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+<!--- needs screenshot -->
 
-Select the "Infrastructure" tab, and scroll down the page until you find the Heroku service. Click on the *Add* button.
+Select the **Infrastructure** tab, and scroll down to the Heroku service. Click **Add**.
 
 ![Add Service](/files/services-heroku.png)
 
-Enter your Heroku Apex and WWW App Names, then click on the *Complete Heroku Setup* button.
+Enter your Heroku Apex and WWW App Names, then click **Complete Heroku Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Heroku
 
 Follow the steps to [add the domain in your Heroku app](https://devcenter.heroku.com/articles/custom-domains).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+
