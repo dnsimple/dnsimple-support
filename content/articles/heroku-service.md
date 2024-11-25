@@ -23,15 +23,16 @@ This service is being deprecated. We recommend that you use the [Heroku Connecto
 
 ## Enabling Heroku service
 
-From the domain list, click on the domain name you want to update, then click the **DNS** tab on the left side. Scroll down to the **One-click services** card, and click **Add**.
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side. Scroll down to the **One-click services** card, and click **Add**.
 
 <!--- needs screenshot -->
 
-Select the **Infrastructure** tab, and scroll down to the Heroku service. Click **Add**.
+3. Select the **Infrastructure** tab, and scroll down to the Heroku service. Click **Add**.
 
 ![Add Service](/files/services-heroku.png)
 
-Enter your Heroku Apex and WWW App Names, then click **Complete Heroku Setup**.
+4. Enter your Heroku Apex and WWW App Names, then click **Complete Heroku Setup**.
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
