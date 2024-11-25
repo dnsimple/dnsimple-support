@@ -89,9 +89,7 @@ As with any domain transfer, to avoid the possibility of downtime you should [po
 To complete the transfer of a `.UK` or `.CO.UK` domain, you must change the domain's IPS TAG at your current domain registrar. Your registrar may allow you to do this through their website, or you may need to contact them via email or phone.
 
 
-For `.UK` domains, request the change of the IPS TAG to `KEY-SYSTEMS-DE`. **This is case-sensitive, so make sure the IPS TAG is in all capital letters.**
-
-For `.CO.UK` domains, request the change of the IPS TAG to `1API-DE`. **This is case-sensitive, so make sure the IPS TAG is in all capital letters.**
+Request the change of the IPS TAG to `KEY-SYSTEMS-DE`. **This is case-sensitive, so make sure the IPS TAG is in all capital letters.**
 
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
 </div>
