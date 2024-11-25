@@ -84,7 +84,6 @@ watcher:
   notify_on_compilation_failure: true
 
 base_url: https://support.dnsimple.com
-google_analytics_4_id: "G-91JJ84XVXY"
 
 environments:
   default:

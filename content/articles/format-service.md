@@ -34,4 +34,4 @@ Now the service is added. You can remove it any time by following the steps in [
 
 ## Setting up at Format
 
-Follow the steps to [connect the domain in your Format account](https://help.format.com/en/articles/2645459-connecting-a-custom-domain).
+Follow the steps to [connect the domain in your Format account](https://help.format.com/hc/en-us/articles/32334520052755-Connect-your-Domain-com-custom-domain-name).

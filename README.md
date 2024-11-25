@@ -39,7 +39,7 @@ Once you are done, run `rake run` to see your changes.
 
 ## Contributing
 
-Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassian.net/wiki/spaces/BIZOPS/pages/2615115803/Support+Article+Creation+and+Update+Procedure). Draft all new articles and any substantial updates in Google docs prior to creating a PR. 
+Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassian.net/wiki/spaces/BIZOPS/pages/2615115803/Support+Article+Creation+and+Update+Procedure). Draft all new articles and any substantial updates in Google docs prior to creating a PR.
 
 When submitting a pull request, apply the label `articles` and set yourself as assignee.
 

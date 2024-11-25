@@ -7,7 +7,7 @@ Registering, renewing:
 - "Deleting a Domain"
 - "Premium Domains"
 - "Adding a Domain"
-- "ICANN domain validation requirements"
+- "ICANN Domain Validation Requirements"
 
 Expiration:
 - "What Happens When a Domain Expires?"
@@ -21,6 +21,8 @@ Managing domains:
 - "Organizing and Labeling Domains"
 - "Sharing Domain Management with Other Users"
 - "Transferring a Domain to Another DNSimple Account"
+- "Exporting Domain Names to a .CSV File"
+- "Verifying Domain Resolution"
 - "Integrated Domain Providers at DNSimple"
 - "Integrated Domain Provider - GoDaddy"
 - "Managing Integrated Domains"
@@ -36,6 +38,7 @@ Top-level domains:
 - ".AU Domains"
 - ".BANK Domains"
 - ".BE Domains"
+- ".BERLIN Domains"
 - ".CA Domains"
 - ".CH Domains"
 - ".DE Domains"
