@@ -21,9 +21,8 @@ The number of forwarded messages and email forwards allowed per month is based o
 ## Enabling email forwarding
 
 1. Choose the relevant domain from your Domain List.
-2. Click the **Email Forwarding** tab on the left side. 
-
-<!--- needs screenshot -->
+2. Click the **Email Forwarding** tab on the left side.
+    ![screenshot of email forwarding tab](/files/forwarding-tab.png)
 
 3. Create an email forward to enable the service.
 
@@ -40,8 +39,7 @@ When you enable email forwarding, DNSimple will automatically add the various DN
 </div>
 
 To create an email forward, specify the **From** and **To** fields.
-
-<!--- needs screenshot -->
+![screenshot of new email forwarding](/files/new-email-forward.png)
 
 The **From** field is used to match an email address to forward from. Enter a specific name (e.g. `test`) without the domain.
 
@@ -65,10 +63,10 @@ When you use email forwarding on a domain, you cannot use any other email servic
 
 ## Deleting an email forward
 
-To remove an email forward from your domain: 
+To remove an email forward from your domain:
 
 1. Locate the email forwarding configuration that you want to delete under the **Current Email Forwards** section.
-2. Click **Delete**. 
+2. Click **Delete**.
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
 
