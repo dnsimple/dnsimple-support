@@ -16,7 +16,7 @@ categories:
 
 [Surge](http://surge.sh) is static web publishing for Front-End Developers – simple, single-command web publishing. Publish HTML, CSS, and JS for free, without leaving the command line.
 
-If you have accounts with DNSimple and Surge, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Surge.
+If you have accounts with DNSimple and Surge, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Surge.
 
 ## Enabling Surge service
 
@@ -34,4 +34,4 @@ The service has been added. You can remove it any time by following the steps in
 
 ## Have more questions? 
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

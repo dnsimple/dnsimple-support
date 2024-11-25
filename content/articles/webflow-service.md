@@ -16,7 +16,7 @@ categories:
 
 [Webflow](http://www.webflow.com) is a responsive web design tool, CMS, and hosting platform. 
 
-If you have accounts with DNSimple and Webflow, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Webflow.
+If you have accounts with DNSimple and Webflow, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Webflow.
 
 ## Setting up at Webflow
 
@@ -39,4 +39,4 @@ The service has been added. You can remove it any time by following the steps in
 
 ## Have more questions? 
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

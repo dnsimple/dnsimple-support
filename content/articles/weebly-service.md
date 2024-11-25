@@ -16,7 +16,7 @@ categories:
 
 [Weebly](http://www.weebly.com) gives millions of people a surprisingly easy and affordable way to create a site that is as unique as they are. 
 
-If you have accounts with DNSimple and Weebly, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Weebly.
+If you have accounts with DNSimple and Weebly, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Weebly.
 
 ## Enabling Weebly service
 
@@ -36,4 +36,4 @@ Follow the steps to [change the site address for your Weebly site](https://www.w
 
 ## Have more questions? 
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
