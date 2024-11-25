@@ -20,11 +20,13 @@ If you have accounts with DNSimple and Surge, you can use DNSimple's [One-click 
 
 ## Enabling Surge service
 
-From the domain list, click on the domain name you want to update, then click the **DNS** tab on the left side. Scroll down to the **One-click services** card, and click **Add**.
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
  <!--- needs screenshot -->
 
-Select the **Hosting** tab, and scroll down the page until you find the Surge service. Click **Add**.
+4. Select the **Hosting** tab, and scroll down the page until you find the Surge service. Click **Add**.
 
 ![Add Service](/files/services-surge.png)
 
