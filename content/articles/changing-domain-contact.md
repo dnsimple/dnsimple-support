@@ -53,7 +53,7 @@ You can update the contact details to change existing contact information. DNSim
 ##### To change the contact information
 
 1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
-    ![screenshot of editing domain contact](/files/registration-edit-contact.png)
+   <!--- needs screenshot -->
 
 1.  Update the information and click <label>Update contact</label>.
 1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
