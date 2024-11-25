@@ -18,7 +18,9 @@ This service is being deprecated. We recommend that you use the [Heroku Connecto
 
 ---
 
-[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Heroku.
+[Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. 
+
+If you use Heroku and have a DNSimple account, you can use our One-click [Services](/categories/services/) to set up the DNS records required by Heroku.
 
 
 ## Enabling Heroku service
@@ -42,5 +44,5 @@ Follow the steps to [add the domain in your Heroku app](https://devcenter.heroku
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
 
