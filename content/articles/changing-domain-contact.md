@@ -52,12 +52,10 @@ You can update the contact details to change existing contact information. DNSim
 <div class="section-steps" markdown="1">
 ##### To change the contact information
 
-1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
-   <!--- needs screenshot -->
-
-1.  Update the information and click <label>Update contact</label>.
-1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
-
+1. On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
+    ![screenshot of editing a domain contact](/files/edit-contact.png)
+1. Update the information and click <label>Update contact</label>.
+1. You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
     ![Change contact confirmation](/files/confirm-contact-change.png)
 
 </div>
