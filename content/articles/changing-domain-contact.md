@@ -29,24 +29,21 @@ To assign a new contact to one of your domains, create the new contact record, t
 <div class="section-steps" markdown="1">
 ##### Adding and changing contact information
 
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Contacts</label> tab, then click <label>New Contact</label>.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Contacts</label> tab, then click <label>New Contact</label>.
+    ![screenshot of adding a contact](/files/new-contacts.png)
 
-    <!--- needs screenshot -->
+1. Fill in the form with the new contact information, and click <label>Add contact</label>.
+1. Go to your domain page.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, then click the name to access the domain page.
+1. On the domain details page, click the <label>Registration</label> tab on the left side.
+1. On the card displaying the contact information of your domain, click <label>Change Contact</label>.
+    ![screenshot of changing contact](/files/registration-edit-contact.png)
 
-1.  Fill in the form with the new contact information, and click <label>Add contact</label>.
-1.  Go to your domain page.
-1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, then click the name to access the domain page.
-1.  On the domain details page, click the <label>Registration</label> tab on the left side.
-1.  On the card displaying the contact information of your domain, click <label>Change Contact</label>.
+1. You will see a list of all your existing contacts. The one currently assigned to the domain is automatically selected. By selecting a contact, you will see the chosen contact information with its extended attributes. Click <label>Next</label>.
+1. You will see a confirmation of the new contact information for the domain. You may see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). Click <label>Change contact</label> to confirm the change.
 
-      <!--- needs screenshot -->
-    
-1.  You will see a list of all your existing contacts. The one currently assigned to the domain is automatically selected. By selecting a contact, you will see the chosen contact information with its extended attributes. Click <label>Next</label>.
-1.  You will see a confirmation of the new contact information for the domain. You may see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). Click <label>Change contact</label> to confirm the change.
-
-    <!--- needs screenshot -->
-
+    ![screenshot of editing a contact](/files/confirm-contact-change.png)
 </div>
 
 ## Updating a domain contact
@@ -56,13 +53,12 @@ You can update the contact details to change existing contact information. DNSim
 ##### To change the contact information
 
 1.  On the header, click <label>Contacts</label>, locate the contact you want to change, and click <label>Edit</label>.
-
-        <!--- needs screenshot -->
+    ![screenshot of editing domain contact](/files/registration-edit-contact.png)
 
 1.  Update the information and click <label>Update contact</label>.
 1.  You will see your changes confirmed. If a contact validation is required, you will receive an email for each associated domain.
 
-    ![Change contact confirmation](/files/contact-change-confirmation.png)
+    ![Change contact confirmation](/files/confirm-contact-change.png)
 
 </div>
 
@@ -87,6 +83,6 @@ Some TLDs require extra steps before authorizing a registrant change.
 
 Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. View [this article](/articles/changing-whois-contact) for a list of the most common registrar-specific policies.
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about changing contacts for your domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

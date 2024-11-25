@@ -28,16 +28,13 @@ categories:
 1. Choose the relevant domain from your Domain List.
 2. Click the **Connections** tab on the left side.
 3. Under **Add Connection**, click **Add** in the **Heroku Connector** section.
-   
-  <!--- needs screenshot -->
+    ![screenshot of adding a connector](/files/add-connector.png)
 
 4. Authorize your DNSimple account to give the connector permission to access your domains and DNS records.
-   ![Authorize your DNSimple account](/files/heroku-connector-authenticate-dnsimple.png)
-
+    ![Authorize your DNSimple account](/files/heroku-connector-authenticate-dnsimple.png)
 
 5. Authorize your Heroku account to give the connector permission to access your Heroku apps.
-![Authorize your Heroku account](/files/heroku-connector-connect-heroku.png)
-
+    ![Authorize your Heroku account](/files/heroku-connector-connect-heroku.png)
 
 6. Choose your Heroku app, and set its mounting point.
    <info>
@@ -47,7 +44,7 @@ categories:
 
 
 6. You will be asked to review the connection configuration. To confirm the information is correct, click **Connect**.
-![Review configuration](/files/heroku-connector-confirm-config.png)
+    ![Review configuration](/files/heroku-connector-confirm-config.png)
 
 ## After configuration
 
