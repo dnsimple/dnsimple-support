@@ -28,7 +28,7 @@ This is the recommended way to use WordPress with DNSimple, as you will not need
 
 To use WordPress.com with DNSimple simply signup at [wordpress.com](https://wordpress.com/) and configure your blog.
 
-Once configured, follow the WordPress instructions to [map a domain to WordPress](https://en.support.wordpress.com/map-subdomain/).
+Once configured, follow the WordPress instructions to [map a domain to WordPress](https://wordpress.com/support/domains/connect-existing-domain).
 
 <div class="section-steps" markdown="1">
 ##### To map your domain to WordPress.com
@@ -42,7 +42,7 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
         Add an [ALIAS record](/articles/alias-record) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
     -   **If you want to point a subdomain (e.g. `www.awesome-blog.com`)**
-    
+
         Add a [CNAME record](/articles/cname-record) to point `www.awesome-blog.com` to WordPress. The _Name_ of the record is the subdomain (e.g. `www`) and the _Content_ field is the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
 1. Follow the WordPress.com instructions to [add a custom domain](https://en.support.wordpress.com/map-subdomain/) to your blog. Specifically, go to [Domains](https://wordpress.com/domains/) and add the domain or subdomain to your blog.
@@ -53,7 +53,7 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
 It's not required to purchase or transfer the domain to WordPress. Likewise, it's not required to change the name servers to WordPress.
 
 <note>
-WordPress.com also provides instruction to [use a domain you own with WordPress](https://en.support.wordpress.com/map-existing-domain/). We suggest to not follow this approach as it will require to delegate your entire domain to WordPress and you will not be able to use any other service provided by DNSimple. Instead, follow the instructions above to create the necessary records.
+WordPress.com also provides instruction to [use a domain you own with WordPress](https://wordpress.com/support/domains/connect-existing-domain/). We suggest to not follow this approach as it will require to delegate your entire domain to WordPress and you will not be able to use any other service provided by DNSimple. Instead, follow the instructions above to create the necessary records.
 </note>
 
 

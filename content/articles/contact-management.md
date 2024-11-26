@@ -1,49 +1,59 @@
 ---
-title: Managing your contacts
+title: Managing Your Contacts
 excerpt: This article explains how to manage your contacts for your domains and SSL certificates.
 categories:
 - Contacts
 ---
 
-# Managing your contacts
+# Managing Your Contacts
 
 * TOC
 {:toc}
 
-## The importance of a contact
+<info>
+These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
+</info>
 
-Contacts are more than just a detail when you register a new domain or purchase a new SSL certificate. This article explains why they're important and how you can manage them within DNSimple.
+## Why domain contacts are important
 
-A contact must have correct, up-to-date information, because you might be contacted by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain.
+For domains registered with DNSimple, [Domain Managers](/articles/domain-access-control/#domain-manager) and anyone with [Full Access](/articles/domain-access-control/#full-access) can manage contacts associated with domains.
 
-Use an email address that does not belong to the custom domain you're managing. If the domain becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications. This list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) has more ideas on how to avoid potential issues with your domains.
+Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
 
-Contacts are tied to your account. If you use multiple accounts, make sure you're under the correct account when looking for your contacts.
+A contact must have correct, up-to-date information, as it may be used by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain. If the information is incorrect the contact  may not recieve the validation request. Failure to validate the registrant email address will result in suspension of the domain name after 15 days of non-compliance. 
+
+Use an email address that does not belong to the custom domain you're managing (e.g. if you own `example.buisness`, don't use `Hello@example.business`). If your email is tied to the domain, and it becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications. 
+
+Read this list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) for more ways to avoid potential issues with your domains.
 
 ## Creating a new contact
 
-If your account does not have any contact when registering a domain or getting a new SSL certificate, you'll be prompted to create a contact during this flow. You'll only need to do this once. Once a contact is created, it's available for future operations.
+If this is the first time you're registering a domain or ordering a new SSL certificate, and you haven't created any contacts yet, you'll be prompted to create one during this flow. Once a contact is created, it's available for future domain management operations.
 
 ![creating a contact during domain registration](/files/contact-creation.png)
 
-You can also create a new contact at any time through the contact page.
+You can also create a new contact at any time through the **Contacts** page.
 
 ![creating a new contact](/files/change-contact-1.png)
 
 ## Updating contacts
 
-If a contact is associated with a domain, updating that contact updates all the contact information associated with these domains. You don't need to individually update these domains if they point to the same contact.
+If a contact is associated with multiple domains, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
 
-If you want to update a specific domain only, you can either [replace the contact entirely](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one, or [update the contact](/articles/changing-domain-contact/#updating-a-domain-contact).
+To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
-<warning>
-Changing or updating your domain contact information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-</warning>
+<info>
+When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
+</info>
 
 ### Deleting a contact
 
 If a contact is associated with at least one domain or SSL certificate, this contact cannot be deleted. You must remove all associated domains or SSL certificates with the contact before you can delete it.
 
-In the screenshot below, the only contact without any association is the last one. If you can delete a contact, a "deletion" icon will appear next to it.
+If you can delete a contact, you will see a trash can icon next to their name. 
 
 ![contact deletion](/files/contact-delete.png)
+
+## Have more questions?
+
+If you have any further questions or need assistance with your domain contacts, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.

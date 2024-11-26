@@ -8,10 +8,10 @@ categories:
 # Using DNSimple alongside other DNS providers
 
 <warning>
-  If you want to set up automatic zone transfers (AXFR) between DNSimple and another DNS service provider, head to the [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) and [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) articles
+  If you want to set up automatic zone transfers (AXFR) between DNSimple and another DNS service provider, head to the [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) and [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) articles.
 </warning>
 
-You can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. You're responsible for keeping the zones in sync between other DNS providers and DNSimple. There are several ways to do this:
+You can use our API or UI to have zone redundancy with other DNS providers. You're responsible for keeping the zones in sync between other DNS providers and DNSimple. There are several ways to do this:
 
 - [Adding the records](/articles/record-editor/) manually through our UI.
 - [Importing a zone file](/articles/zone-files/#importing-records-from-a-zone-file) from your primary provider.
@@ -22,31 +22,16 @@ This diagram shows how zone changes are propagated to both DNS service providers
 
 <img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" />
 
-## Configuring DNSimple along another DNS provider
 
-To set up zone redundancy with another DNS provider:
+## Configuring DNSimple alongside another DNS provider (hosted domain)
 
-- If you don't have the domain in your DNSimple account, [add it with "Add DNS zone"](/articles/adding-domain/).
-- Go to the domain page, and click on the DNS in the menu.
-- Under the Secondary DNS card, click on <label>Use DNSimple along another DNS provider</label>.
+To set up zone redundancy with another DNS provider on your zone, follow the steps detailed in [Updating NS Records for the Zone of a Hosted Domain](/articles/zone-ns-records/).
 
-  ![Change you Secondary DNS configuration](/files/secondary-dnsimple-1.png)
 
-- Enter the name servers of your primary DNS provider in the <label>Name servers</label> field.
+## Configuring DNSimple alongside another DNS provider (registered domain)
 
-  ![Configure primary DNS provider name servers](/files/secondary-dnsimple-2.png)
+To set up zone redundancy with another DNS provider on your domain, follow the steps detailed in [Setting the Name Servers for a Domain Name](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
-- Click on <label>Save</label>.
+## Have more questions? 
 
-<div class="section-steps" markdown="1">
-##### Adding a secondary DNS zone with manual replication from the dashboard
-
-Alternatively, you can add a secondary DNS zone with manual replication from your dashboard:
-
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add</label> from the Dashboard, and choose <label>Secondary DNS zone (with manual replication)</label> from the provided options.
-  ![Adding a secondary DNS zone with manual replication](/files/add-button-secondary-dns-manual-replication.png)
-1.  Enter the <label>Zone name</label> and <label>Name servers</label>.
-1.  Click <label>Save</label>.
-</div>
+If you have additional questions or need assistance setting up zone redundancy, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

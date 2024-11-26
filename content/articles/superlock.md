@@ -1,15 +1,17 @@
 ---
 title: DNSimple SuperLock
-excerpt: Protect your domain from accidental transfers with DNSimple SuperLock.
+excerpt: Protect your domain from accidental transfers with DNSimple SuperLock
 categories:
 - Domains
 ---
 
-# Protect your domain from accidental transfers with DNSimple SuperLock.
+# DNSimple SuperLock
 
 <info>
-This article describes a feature in Private Beta.
+This article describes a feature in private beta.
 </info>
+
+Protect your domains from accidental transfers with DNSimple SuperLock. 
 
 ### Table of Contents {#toc}
 
@@ -20,18 +22,18 @@ This article describes a feature in Private Beta.
 
 # What is SuperLock?
 
-SuperLock is a mechanism to prevent individual users from performing destructive operations on a domain - like transferring the domain out. Without SuperLock, any user of an account effectively has admin power on any resource in the account. They could independently start a transfer out or push the domain into any other DNSimple account. That means a compromised user account can damage any resource inside the account.
+SuperLock is a mechanism that prevents individual users from performing destructive operations on a domain - like transferring the domain out. Without SuperLock, any user of an account effectively has admin power on any resource in the account. They could independently start a transfer out or push the domain into another DNSimple account. That means a compromised user account can damage any resource inside the account.
 
 With SuperLock, you can protect any domain from unintentional transfers or moves to a different account.
 
 ## Enabling SuperLock
 
 <info>
-This feature in Private Beta. Your account will need access granted via [support@dnsimple.com](mailto:support@dnsimple.com) before you can proceed.
+This feature is in private beta. Your account will need access granted via [support@dnsimple.com](mailto:support@dnsimple.com).
 </info>
 
 <warning>
-Please read the process to [disable SuperLock](#disabling-superlock). Once SuperLock is enabled you cannot disable it by yourself.
+Please read the process to [disable SuperLock](#disabling-superlock). Once SuperLock is enabled, you cannot disable it by yourself.
 </warning>
 
 
