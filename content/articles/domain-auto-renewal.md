@@ -27,18 +27,17 @@ Auto-renewal cannot be turned on if the domain is within 30 days of expiration. 
 
 ## Enabling auto-renewal
 
-You can enable auto-renewal when you first register a domain or any time after the domain has been registered. 
+You can enable auto-renewal when you first register a domain or any time after the domain has been registered.
 
 Newly registered domains are set to auto-renew by default. If you turned off auto-renewal and want to re-enable it for your domain, follow these steps:
 
 <div class="section-steps" markdown="1">
 ##### To enable auto-renewal for a domain
 
-1.  If you have more than one account, select the relevant one.
-1.  On the header click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
-1.  In the **Overview** tab, check <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
-
-<!--- needs screenshot -->
+1. If you have more than one account, select the relevant one.
+1. On the header click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
+1. In the **Overview** tab, check <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
+    ![screenshot of option for autorenew of domain](/files/domain-autorenew.png)
 
 Auto-renewal is now enabled on your domain.
 </div>
@@ -54,15 +53,14 @@ To turn off auto-renewal for a domain, follow these steps:
 <div class="section-steps" markdown="1">
 ##### To disable auto-renewal for a domain
 
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
-1.  In the **Overview** tab, uncheck <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
-
-<!--- needs screenshot -->
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
+1. In the **Overview** tab, uncheck <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
+    ![](/files/disable-autorenew.png)
 
 Auto-renewal is now disabled on your domain.
 </div>
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions about or need assistance with auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help. 
+If you have any questions about or need assistance with auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.
