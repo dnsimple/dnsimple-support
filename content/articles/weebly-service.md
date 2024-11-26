@@ -16,7 +16,7 @@ categories:
 
 [Weebly](http://www.weebly.com) gives millions of people a surprisingly easy and affordable way to create a site that is as unique as they are. 
 
-If you have accounts with DNSimple and Weebly, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Weebly.
+If you have accounts with DNSimple and Weebly, and a website that's ready to publish, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Weebly.
 
 ## Enabling Weebly service
 
