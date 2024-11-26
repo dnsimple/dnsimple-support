@@ -20,8 +20,9 @@ If you have accounts with DNSimple and Webflow, you can use DNSimple's [One-clic
 
 ## Setting up at Webflow
 
-Follow the steps to [add the domain in your Webflow site](https://university.webflow.com/lesson/connect-a-custom-domain). Make note of the `A` and `CNAME` record values. You'll need to provide them when activating the service.
+Follow the steps to [connect a custom domain to your Webflow site](https://university.webflow.com/lesson/connect-a-custom-domain). 
 
+Note the `A` and `CNAME` record values. You'll need to provide them when activating the service in DNSimple.
 
 ## Enabling Webflow service
 
@@ -31,11 +32,13 @@ Follow the steps to [add the domain in your Webflow site](https://university.web
 
 <!--- needs screenshot -->
 
-4. Select the **Hosting** tab, and scroll down the page until you find the Webflow service. Click **Add**.
+4. Select the **Hosting** tab, and scroll to the Webflow service. Click **Add**.
 
 ![Add Service](/files/services-webflow.png)
 
 5. Enter the `A` and `CNAME` record values. Click **Complete Webflow Setup**.
+
+<!--- needs screenshot -->
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
