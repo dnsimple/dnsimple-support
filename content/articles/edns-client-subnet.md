@@ -1,6 +1,7 @@
 ---
 title: EDNS Client Subnet support for ALIAS records
 excerpt: What ECS is and how it works.
+meta: This article explains what EDNS Client Subnet (ECS) support is, how it is an option in the Extension Mechanisms for DNS, and how it's configured with an ALIAS record
 categories:
 - DNS
 ---
@@ -42,10 +43,10 @@ We researched and tested ECS support among CDN providers. We chose only CDN prov
 
 **List of supported CDN providers:**
 
-24/06/2020 - Netlify 
+24/06/2020 - Netlify
 
-01/09/2020 - BunnyCDN 
-[BunnyCDN](https://bunnycdn.com/) works to improve your user experience, SEO, conversions, revenue, security, and stability. They provide a fast global network and powerful features – so you can minimize latency and maximize performance. 
+01/09/2020 - BunnyCDN
+[BunnyCDN](https://bunnycdn.com/) works to improve your user experience, SEO, conversions, revenue, security, and stability. They provide a fast global network and powerful features – so you can minimize latency and maximize performance.
 
 If you operate a CDN, or use a CDN we don't support yet, please [contact us](https://dnsimple.com/contact) so we can determine compatibility.
 
