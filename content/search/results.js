@@ -79,8 +79,11 @@
       trackSearch(q);
     }
 
-    $input.addEventListener('input', debounce(function () {
+    $input.oninput = function (e) {
       showResults($main, $input, $input.value);
+    };
+
+    $input.addEventListener('input', debounce(function () {
       trackSearch($input.value);
     }, 300));
   }
