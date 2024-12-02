@@ -63,6 +63,10 @@
     };
   };
 
+  var trackSearch = function trackSearch (query) {
+    window.posthog.capture('support-search', { query: $input.value });
+  };
+
   if (typeof module === 'object' && typeof module.exports === 'object')
     module.exports = {
       parseQueryParams: parseQueryParams,
@@ -74,11 +78,14 @@
     var $input = document.getElementById('input-search');
     var q = parseQueryParams(window.location.search);
 
-    if (q.length)
+    if (q.length) {
       showResults($main, $input, q);
+      trackSearch(q);
+    }
 
     $input.addEventListener('input', debounce(function () {
       showResults($main, $input, $input.value);
+      trackSearch($input.value);
     }, 300));
   }
 })();
