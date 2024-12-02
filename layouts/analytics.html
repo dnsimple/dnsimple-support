@@ -10,4 +10,13 @@
     disable_session_recording: true
   })
 </script>
+<% else %>
+<script>
+  // Dummy PostHog client
+  const posthog = {};
+  posthog.init = function () {};
+  posthog.identify = function (arg) { console.log(`PostHog identify: ${arg}`); };
+  posthog.capture = function (event, data) { console.log(`PostHog capture - Event: ${event} - Data: ${JSON.stringify(data)}`); };
+  window.posthog = posthog;
+</script>
 <% end %>
