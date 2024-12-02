@@ -52,14 +52,10 @@
   };
 
   var debounce = function debounce (func, delay) {
-    var timeout;
-    return function () {
-      var context = this;
-      var args = arguments;
+    let timeout;
+    return function(...args) {
       clearTimeout(timeout);
-      timeout = setTimeout(function () {
-        func.call(context, args[0]);
-      }, delay);
+      timeout = setTimeout(() => func.apply(this, args), delay);
     };
   };
 
