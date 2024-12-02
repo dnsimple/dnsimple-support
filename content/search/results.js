@@ -51,6 +51,18 @@
     return $results;
   };
 
+  var debounce = function debounce (func, delay) {
+    var timeout;
+    return function () {
+      var context = this;
+      var args = arguments;
+      clearTimeout(timeout);
+      timeout = setTimeout(function () {
+        func.call(context, args[0]);
+      }, delay);
+    };
+  };
+
   if (typeof module === 'object' && typeof module.exports === 'object')
     module.exports = {
       parseQueryParams: parseQueryParams,
@@ -65,8 +77,8 @@
     if (q.length)
       showResults($main, $input, q);
 
-    $input.oninput = function (e) {
+    $input.addEventListener('input', debounce(function () {
       showResults($main, $input, $input.value);
-    };
+    }, 300));
   }
 })();
