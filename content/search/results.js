@@ -84,7 +84,8 @@
     };
 
     $input.addEventListener('input', debounce(function () {
-      trackSearch($input.value);
-    }, 300));
+      if ($input.value.trim().length > 0)
+        trackSearch($input.value);
+    }, 900));
   }
 })();
