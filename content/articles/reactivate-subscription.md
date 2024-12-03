@@ -9,7 +9,7 @@ categories:
 
 When you unsubscribe, or your account was [closed due to non-payment](/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time.
 
-When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/) and [domain auto-renewal](/articles/domain-auto-renewal/) are immediately disabled. If you want to use these features, you'll need to manually re-activate them.
+When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/), [domain auto-renewal](/articles/domain-auto-renewal/), and [email forwarding](/articles/email-forwarding/) are immediately disabled. If you want to use these features, you'll need to manually re-activate them.
 
 <warning>
 If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
