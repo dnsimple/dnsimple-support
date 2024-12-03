@@ -32,7 +32,7 @@ Now the service is added. You can remove it any time by following the steps on [
 
 ## Setting up at Pobox
 
-Follow the steps to [add the domain in your Pobox account](https://helpspot.pobox.com/index.php?pg=kb.page&id=44).
+Follow the steps to [add the domain in your Pobox account](https://www.fastmail.com/how-to/email-for-your-domain/).
 
 ## Verifying MX Records
 
