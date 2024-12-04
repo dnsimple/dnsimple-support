@@ -84,17 +84,19 @@ Copy the text for the access token – **it will only be shown once**.
 
 You can now access the API with this token using the HTTP header `Authorization: Bearer {TOKEN}`, replacing `{TOKEN}` with the value taken from the page when the token is generated. If you'd like additional information on how to access the API with the newly generated token, please visit [the authentication section](https://developer.dnsimple.com/v2/#authentication) on the DNSimple Developer site.
 
-## Viewing the permissions of a scoped access token
+## Viewing and editing the permissions of a scoped access token
 
-Once an access token has been created, its permissions cannot be changed. However, you can still view the permissions it was created with.
+After an access token has been created, you can view and edit the permissions it was created with.
 
-To do so, click on the access token you want to view from the list of access tokens.
+To do so, click on the <label>Edit</label> button corresponding to the access token you want to view, from the list of access tokens.
 
 ![View Token](/files/scoped-account-token-view.png)
 
-You can then see what resources the token has access to.
+You can then see what resources the token has access to, and make changes to the permissions if needed.
 
 ![Token Permissions](/files/scoped-account-token-permissions.png)
+
+When you are done editing the token permissions, click <label>Update token</label> to save the updated permissions to the token, or use the <label>Cancel</label> button to exit the page without making any changes to the token.
 
 ## Removing an account access token
 
