@@ -96,7 +96,7 @@ You can then see what resources the token has access to and make changes to the 
 
 ![Token Permissions](/files/scoped-account-token-permissions.png)
 
-When you are done editing the token permissions, click **Update token** to save the updated permissions to the token, or click <label>Cancel</label> to exit without making changes.
+When you are done editing the token permissions, click **Update token** to save the updated permissions to the token, or click **Cancel** to exit without making changes.
 
 ## Removing an account access token
 
