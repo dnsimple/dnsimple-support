@@ -88,15 +88,15 @@ You can now access the API with this token using the HTTP header `Authorization:
 
 After an access token has been created, you can view and edit the permissions it was created with.
 
-To do so, click on the <label>Edit</label> button corresponding to the access token you want to view, from the list of access tokens.
+From the list of access tokens, click <label>Edit</label> on the access token you want to view.
 
 ![View Token](/files/scoped-account-token-view.png)
 
-You can then see what resources the token has access to, and make changes to the permissions if needed.
+You can then see what resources the token has access to and make changes to the permissions if needed.
 
 ![Token Permissions](/files/scoped-account-token-permissions.png)
 
-When you are done editing the token permissions, click <label>Update token</label> to save the updated permissions to the token, or use the <label>Cancel</label> button to exit the page without making any changes to the token.
+When you are done editing the token permissions, click <label>Update token</label> to save the updated permissions to the token, or click <label>Cancel</label> to exit without making changes.
 
 ## Removing an account access token
 
