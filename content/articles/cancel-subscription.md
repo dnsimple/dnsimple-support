@@ -15,6 +15,7 @@ Apart from the subscription fee, the following will take effect immediately:
 - All domains pointing to our name servers will stop resolving — they will no longer function, and your site will be inaccessible to your users.
 - [WHOIS Privacy](/articles/whois-privacy/) will be disabled for all domains registered with DNSimple.
 - Any domain in your account that is registered will not renew.
+- [Email Forwarding](/articles/email-forwarding/) will stop working.
 
 <info>
 This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate](/articles/reactivate-subscription/).

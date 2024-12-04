@@ -20,6 +20,9 @@ The number of forwarded messages and email forwards allowed per month is based o
 
 ## Enabling email forwarding
 
+You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email forwarding.
+
+To enable email forwarding, visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
 1. Choose the relevant domain from your Domain List.
 2. Click the **Email Forwarding** tab on the left side.
     ![screenshot of email forwarding tab](/files/forwarding-tab.png)
