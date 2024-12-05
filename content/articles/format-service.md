@@ -19,19 +19,26 @@ categories:
 
 ## Enabling Format service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+<!--- needs screenshot -->
 
-Select the "Hosting" tab, and scroll down the page until you find the Format service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down the page until you find the Format service. Click **Add**.
 
 ![Add Service](/files/services-format.png)
 
-Enter the Format Address, then click on the *Complete Format Setup* button.
+Enter the Format Address, then click  **Complete Format Setup**.
+
+<!--- needs screenshot -->
 
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
 
 ## Setting up at Format
 
 Follow the steps to [connect the domain in your Format account](https://help.format.com/hc/en-us/articles/32334520052755-Connect-your-Domain-com-custom-domain-name).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
