@@ -26,7 +26,7 @@ If you have accounts with DNSimple and a portfolio in Format, you can use DNSimp
 
 <!--- needs screenshot -->
 
-Select the **Hosting** tab, and scroll down the page until you find the Format service. Click **Add**.
+Select the **Hosting** tab, and scroll down to the Format service. Click **Add**.
 
 ![Add Service](/files/services-format.png)
 
