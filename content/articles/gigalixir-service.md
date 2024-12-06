@@ -30,6 +30,8 @@ Select the **Infrastructure** tab, and scroll down to the Gigalixir service. Cli
 
 Enter your Gigalixir Apex and WWW App Names, then click **Complete Gigalixir Setup**.
 
+<!--- needs screenshot -->
+
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Gigalixir
