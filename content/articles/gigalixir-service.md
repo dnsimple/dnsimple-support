@@ -14,7 +14,8 @@ categories:
 
 ---
 
-[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Gigalixir.
+[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. If you have accounts with DNSimple and Gigalixir, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Giglixir. 
+
 
 
 ## Enabling Gigalixir service
