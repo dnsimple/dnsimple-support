@@ -16,7 +16,7 @@ categories:
 
 [Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large. 
 
-If you have accounts with DNSimple and a portfolio in Format, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Weebly. 
+If you have accounts with DNSimple and a portfolio in Format, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Format. 
 
 ## Enabling Format service
 
