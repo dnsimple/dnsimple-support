@@ -1,6 +1,6 @@
 ---
 title: Format Service
-excerpt: How to set up Format DNS using DNSimple's one-click service.
+excerpt: How to set up Format DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -16,7 +16,7 @@ categories:
 
 [Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large. 
 
-If you have an account with DNSimple and a portfolio in Format, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Format. 
+If you have an account with DNSimple and a portfolio in Format, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Format. 
 
 ## Enabling Format service
 
@@ -42,4 +42,4 @@ Follow the steps to [connect the domain in your Format account](https://help.for
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
