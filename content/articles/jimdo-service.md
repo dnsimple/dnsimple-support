@@ -16,7 +16,7 @@ categories:
 
 [Jimdo](https://www.jimdo.com) offers a website creator that anyone can use. In just a few minutes, and without any technical knowledge, anyone can create a place on the Internet – complete with online store, blog, photo galleries, YouTube videos, and much more. 
 
-If you have an account with DNSimple and a site ready to publish with Jimdo, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Jimdo. 
+If you have an account with DNSimple and a site ready to publish with Jimdo, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Jimdo. 
 
 <info>
 You need to have Jimdo Pro or Business to use your own domain.
@@ -43,4 +43,5 @@ Enter the Jimdo site name, then click **Complete Jimdo Setup**.
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Have more questions?
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
