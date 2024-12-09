@@ -14,7 +14,9 @@ categories:
 
 ---
 
-[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. If you have an account with DNSimple and an app deployed and running on Gigalixir, you can use DNSimple's [One-click services](/categories/services/) to set up the DNS records required by Giglixir. 
+[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. 
+
+If you have an account with DNSimple and an app deployed and running on Gigalixir, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Giglixir. 
 
 ## Enabling Gigalixir service
 
@@ -40,5 +42,5 @@ Follow the steps to [add the domain in your Gigalixir app](https://gigalixir.rea
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with our One-click services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
