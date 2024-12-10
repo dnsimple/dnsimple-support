@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-free": "^6.7.1",
     "concurrently": "^9.1.0",
     "copy-webpack-plugin": "^12.0.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.16.0",
     "eslint-config-standard": "^15.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-node": "^11.1.0",
