@@ -35,6 +35,11 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 - We strongly recommend enabling [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) for an extra layer of security. MFA is available free for every subscription.
 - [Enforce MFA](/articles/multi-factor-authentication-enforcement/) for every team member managing domains on your account.
 - Download and secure your recovery codes.
+- Accounts that don't have MFA enabled are required to change their password every three months. The new password cannot match any of the last five passwords used.
+
+## Forgotten password
+
+Learn how to request password reset [here](/articles/forgot-password).
 
 ## Further reading
 
