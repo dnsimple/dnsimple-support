@@ -228,7 +228,7 @@ DNSimple's one-time password-based MFA implementation is based on [RFC6238](http
 There are many time-based authenticator apps that generate one-time password verification codes. Here are some we recommend:
 
 - [Google Authenticator](https://support.google.com/accounts/answer/1066447) for Android, Blackberry, and iOS devices
-- [1password](https://agilebits.com/onepassword) for Mac, iOS devices, and Windows
+- [1Password](https://agilebits.com/onepassword) for Mac, iOS devices, and Windows
 - [Microsoft Authenticator](http://www.windowsphone.com/en-us/store/app/authenticator/e7994dbc-2336-4950-91ba-ca22d653759b) for Windows Phone
 
 ## Security keys {#security-keys}
