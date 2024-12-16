@@ -21,4 +21,4 @@ This article explains the requirements and special procedures for .SE domain nam
 To register a .SE domain, an ID number (e.g. civic registration number, company registration number, ID card/passport number, or the equivalent) is required by NIC-SE. For Swedish citizens, you can use the social security number (Personnummer).
 
 ### VAT ID
-To register a .SE domain, a VAT ID has to be stated for companies that are located inside the European Union but outside Sweden. This attribute is optional.
+To register a .SE domain, a VAT ID must be stated for companies located within the European Union but outside Sweden. This attribute is optional for companies operating within Sweden.
