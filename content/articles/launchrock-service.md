@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[LaunchRock](https://www.launchrock.com)helps you Build a beautiful marketing page in minutes and begin building your audience before your next big launch.
+[LaunchRock](https://www.launchrock.com) helps you build a beautiful marketing page in minutes and begin building your audience before your next big launch.
 
 If you have accounts with DNSimple and LaunchRock, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by LaunchRock. 
 
