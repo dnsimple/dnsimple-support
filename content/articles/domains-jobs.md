@@ -44,7 +44,7 @@ If the registry cannot verify your connection to the domain, they may request ad
 
 ## Important notes
 
-- **Generic nmes**: If you're registering a generic name (not a company name, brand name, or product name from your business), **contact the .JOBS registry directly using their online submission form** before applying via DNSimple. 
+- **Generic names**: If you're registering a generic name (not a company name, brand name, or product name from your business), **contact the .JOBS registry directly using their online submission form** before applying via DNSimple. 
 - **Pending status**: Applications can remain in "pending" status for up to 30 days. After this period, unapproved applications are automatically removed.
 
 ## Have more questions?
