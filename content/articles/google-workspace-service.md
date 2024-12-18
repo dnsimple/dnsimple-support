@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Google Workspace](https://workspace.google.com) provides cloud-based email, calenders, and much more. 
+[Google Workspace](https://workspace.google.com) provides cloud-based email, calendars, and much more. 
 
 If you have accounts with DNSimple and Google Workspace, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Google Workspace. 
 
