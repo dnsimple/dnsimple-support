@@ -38,7 +38,7 @@ Make sure to verify your domain name once you have enabled the service. You can 
 
 ## Verifying MX Records
 
-Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) that will verify your DNS configuration and suggest improvements with links to support articles.
+Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) that verifies your DNS configuration and suggests improvements with links to relevant support articles.
 
 ## Have more questions?
 
