@@ -7,7 +7,7 @@
               <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
             </div>
         </div>
-        <Prompt v-else :app="app"/>
+        <Prompt v-else-if="showPrompt" :app="app"/>
     </div>
 </template>
 
@@ -41,6 +41,9 @@ export default {
   props: {
     query: {
       default: ''
+    },
+    showPrompt: {
+      default: true
     }
   },
   data () {
