@@ -19,6 +19,10 @@ import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
 import Welcome from '../welcome/component.vue';
 
+import "./reset.scss"
+import "./variables.scss"
+import "./style.scss"
+
 const ANIMATION_TIMEOUT = 500;
 
 export default {
@@ -130,10 +134,4 @@ export default {
   }
 };
 </script>
-
-<style lang="sass">
-// @import "./reset.scss"
-// @import "./variables.scss"
-@import "./style.scss"
-</style>
 
