@@ -1,0 +1,21 @@
+// Derived from support.dnsimple.com/content/assets/css/_resolving
+
+#dnsimple-support {
+  .article {
+    .resolving {
+      padding: var(--dnsimple-support-widget-padding);
+      margin-bottom: var(--dnsimple-support-widget-padding);
+    }
+
+    .resolving-light {
+      background: #eee;
+    }
+
+    .resolving-dark {
+      background: #000;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
