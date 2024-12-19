@@ -1,9 +1,4 @@
 #dnsimple-support {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   font-size: var(--dnsimple-support-widget-rem);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
@@ -17,6 +12,11 @@
 
 #dnsimple-support {
     .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         max-width: 45rem;
         margin-top: 5vh;
         margin-left: auto;
