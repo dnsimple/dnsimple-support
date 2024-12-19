@@ -1,0 +1,22 @@
+.welcome {
+  text-align: center;
+  padding-top: $padding * 7;
+
+  h1 {
+    font-weight: bold;
+    color: $blue;
+    font-size: 160%;
+  }
+
+  p {
+    max-width: 70%;
+    margin: 0 auto;
+    color: $dark-gray;
+  }
+
+  .mascot {
+    bottom: 0;
+    max-width: 50%;
+    margin: 0 auto $padding * 5;
+  }
+}

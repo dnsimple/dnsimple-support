@@ -1,0 +1,33 @@
+@use "sass:math";
+
+$padding: 7px;
+
+.prompt {
+  position: fixed;
+  bottom: $padding;
+  right: $padding * 8; // Allow space for the notification bell
+  line-height: 1;
+
+  & > a {
+    position: relative;
+    background: $medium-gray;
+    color: $white;
+    display: inline-block;
+    border-radius: $padding * 6;
+    padding: $padding;
+
+    .text {
+      display: inline-block;
+      padding: math.div($padding, 1.25) $padding * 1.2;
+    }
+
+    .mascot {
+      float: left;
+
+      svg {
+        display: block;
+        width: $padding * 4;
+      }
+    }
+  }
+}

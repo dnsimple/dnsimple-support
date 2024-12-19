@@ -1,0 +1,42 @@
+@import './variables.scss';
+@import './reset.scss';
+
+#dnsimple-support {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 480px;
+  font-size: $rem;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6;
+  color: #222;
+  z-index: 999;
+
+  @media ($desktop-only) {
+    display: none;
+  }
+}
+
+
+#dnsimple-support {
+    @import '../article/style.scss';
+    @import '../articles/style.scss';
+    @import '../footer/style.scss';
+    @import '../header/style.scss';
+    @import '../prompt/style.scss';
+    @import '../welcome/style.scss';
+
+    .relative {
+      position: relative;
+      box-shadow: $box-shadow;
+    }
+
+    .route {
+      height: 475px;
+      border-left: 1px solid $line-color;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: $padding;
+      background: $white;
+    }
+}

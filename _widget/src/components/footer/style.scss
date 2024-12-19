@@ -1,0 +1,18 @@
+.footer {
+  margin-top: $padding;
+  padding: $padding * 2 $padding;
+  border: 1px solid $line-color;
+  border-radius: 4px;
+
+  .button {
+    float: right;
+    color: #333;
+    display: inline-block;
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: -6px;
+    margin-bottom: -10px;
+    border: 1px solid $line-color;
+  }
+}

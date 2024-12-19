@@ -1,0 +1,17 @@
+// Derived from support.dnsimple.com/content/assets/css/_resolving
+
+.resolving {
+  padding: $padding;
+  margin-bottom: $padding;
+}
+
+.resolving-light {
+  background: #eee;
+}
+
+.resolving-dark {
+  background: #000;
+  a {
+    color: #fff;
+  }
+}

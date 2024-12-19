@@ -1,0 +1,31 @@
+.articles {
+  margin-top: -$padding;
+
+  h3 {
+    color: $blue;
+    font-weight: bold;
+  }
+
+  mark {
+    background: #fff3b6;
+    padding: 2px 0;
+  }
+
+  li {
+    padding: $padding 0;
+    border-bottom: 1px solid $line-color;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 25vh 0;
+
+  img {
+    width: 8vh;
+  }
+}
