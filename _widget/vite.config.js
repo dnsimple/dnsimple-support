@@ -5,6 +5,9 @@ import includeCss from 'vite-plugin-css-injected-by-js';
 
 export default defineConfig({
   plugins: [vue(), includeCss()],
+  define: {
+    'process.env': {}
+  },
   build: {
     outDir: './output/support',
     lib: {
