@@ -1,32 +1,30 @@
-@use "sass:math";
+#dnsimple-support {
+  .prompt {
+    position: fixed;
+    bottom: var(--dnsimple-support-widget-prompt-padding);
+    right: calc(var(--dnsimple-support-widget-prompt-padding) * 8); // Allow space for the notification bell
+    line-height: 1;
 
-$padding: 7px;
-
-.prompt {
-  position: fixed;
-  bottom: $padding;
-  right: $padding * 8; // Allow space for the notification bell
-  line-height: 1;
-
-  & > a {
-    position: relative;
-    background: $medium-gray;
-    color: $white;
-    display: inline-block;
-    border-radius: $padding * 6;
-    padding: $padding;
-
-    .text {
+    & > a {
+      position: relative;
+      background: var(--dnsimple-support-widget-medium-gray);
+      color: var(--dnsimple-support-widget-white);
       display: inline-block;
-      padding: math.div($padding, 1.25) $padding * 1.2;
-    }
+      border-radius: calc(var(--dnsimple-support-widget-prompt-padding) * 6);
+      padding: var(--dnsimple-support-widget-prompt-padding);
 
-    .mascot {
-      float: left;
+      .text {
+        display: inline-block;
+        padding: calc(var(--dnsimple-support-widget-prompt-padding) / 1.25) calc(var(--dnsimple-support-widget-prompt-padding) * 1.2);
+      }
 
-      svg {
-        display: block;
-        width: $padding * 4;
+      .mascot {
+        float: left;
+
+        svg {
+          display: block;
+          width: calc(var(--dnsimple-support-widget-prompt-padding) * 4);
+        }
       }
     }
   }

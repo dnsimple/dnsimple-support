@@ -17,6 +17,8 @@
 <script>
 import { minimizeIcon } from '../../assets/svgs';
 
+import "./style.scss"
+
 export default {
   props: ['app'],
   data () {

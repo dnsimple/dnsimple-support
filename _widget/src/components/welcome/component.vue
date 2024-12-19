@@ -9,6 +9,8 @@
 <script>
 import { trustyIcon } from '../../assets/svgs';
 
+import "./style.scss"
+
 export default {
   props: ['app'],
   data () {
