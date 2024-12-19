@@ -27,7 +27,16 @@ All third-level .AU domain names:
 -  Require an Eligibility ID type and valid Eligibility ID number. Acceptable Eligibility ID types are:
     - Australian Business Number
     - Australian Company Number
+    - Australian Company Territory Business Number
+    - New South Wales Business Number
+    - Northern Territory Business Number
+    - Queensland Business Number
+    - South Australia Business Number
+    - Tasmania Business Number
+    - Victoria Business Number
+    - Western Australia Business Number
     - Trademark Number
+
 - Require an Australian address.
 - Must be an exact match, abbreviation, or acronym of the Registrant's name, or otherwise closely and substantially connected to the Registrant.
 
@@ -73,7 +82,7 @@ On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took ef
 
 ## Renewals
 
-.AU domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters [redemption](/articles/what-happens-when-domain-expires/#redemption-period). The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be [restored](/articles/restoring-domain) for an additional fee.
+.AU domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters the [redemption](/articles/what-happens-when-domain-expires/#redemption-period) period. The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be [restored](/articles/restoring-domain) for an additional fee.
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
@@ -91,7 +100,7 @@ If you want to make this change, [contact us](https://dnsimple.com/contact), and
 
 ### Inactive or deregistered eligibility ID type
 
-If your domain has an inactive or cancelled ABN/ACN, the registrant must reactivate the existing eligibility ID type number on record before the registration can be transferred or renewed.
+If your domain has an inactive or canceled ABN/ACN, the registrant must reactivate the existing eligibility ID type number on record before the registration can be transferred or renewed.
 
 - [ABR: Cancel/re-apply for an ABN](https://www.abr.business.gov.au/ContactUs/Activate)
 - [ASIC: Reinstating a deregistered company](https://asic.gov.au/for-business/closing-your-company/reinstating-a-deregistered-company/)
