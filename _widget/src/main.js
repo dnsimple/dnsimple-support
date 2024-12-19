@@ -9,5 +9,6 @@ const app = createApp(App, {
 $openers.forEach(($el) => {
   $el.addEventListener('click', () => {
     app.open();
+    app.focus();
   });
 });
