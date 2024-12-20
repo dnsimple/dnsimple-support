@@ -1,6 +1,6 @@
 ---
 title: Format Service
-excerpt: How to set up Format DNS using DNSimple's one-click service.
+excerpt: How to set up Format DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,30 @@ categories:
 
 ---
 
-[Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Format.
+[Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large.
 
+If you have an account with DNSimple and a portfolio in Format, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Format.
 
 ## Enabling Format service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
+![One click services](/files/one-click-services.png)
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Hosting" tab, and scroll down the page until you find the Format service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down to the Format service. Click **Add**.
 
 ![Add Service](/files/services-format.png)
 
-Enter the Format Address, then click on the *Complete Format Setup* button.
+Enter the Format Address, then click  **Complete Format Setup**.
+![setup format service](/files/format-service-setup.png)
 
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
 
 ## Setting up at Format
 
 Follow the steps to [connect the domain in your Format account](https://help.format.com/hc/en-us/articles/32334520052755-Connect-your-Domain-com-custom-domain-name).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
