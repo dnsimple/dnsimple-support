@@ -14,25 +14,23 @@ categories:
 
 ---
 
-[Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large. 
+[Format](https://www.format.com) is an online portfolio platform that provides complete freedom for professionally showcasing your work to clients, employers, patrons, and the world at large.
 
-If you have an account with DNSimple and a portfolio in Format, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Format. 
+If you have an account with DNSimple and a portfolio in Format, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Format.
 
 ## Enabling Format service
 
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
-
-<!--- needs screenshot -->
+![One click services](/files/one-click-services.png)
 
 Select the **Hosting** tab, and scroll down to the Format service. Click **Add**.
 
 ![Add Service](/files/services-format.png)
 
 Enter the Format Address, then click  **Complete Format Setup**.
-
-<!--- needs screenshot -->
+![setup format service](/files/format-service-setup.png)
 
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 

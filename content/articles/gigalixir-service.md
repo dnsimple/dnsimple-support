@@ -14,25 +14,22 @@ categories:
 
 ---
 
-[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. 
+[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service.
 
-If you have an account with DNSimple and an app deployed and running on Gigalixir, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Giglixir. 
+If you have an account with DNSimple and an app deployed and running on Gigalixir, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Giglixir.
 
 ## Enabling Gigalixir service
 
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
-    
- <!--- needs screenshot -->
+![add one click services](/files/one-click-services.png)
 
 Select the **Infrastructure** tab, and scroll down to the Gigalixir service. Click **Add**.
-
 ![Add Service](/files/services-gigalixir.png)
 
 Enter your Gigalixir Apex and WWW App Names, then click **Complete Gigalixir Setup**.
-
-<!--- needs screenshot -->
+![setup gigalixer service](/files/gigalixer-setup.png)
 
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 

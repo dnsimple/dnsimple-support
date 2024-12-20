@@ -14,9 +14,9 @@ categories:
 
 ---
 
-[Platform.sh](https://platform.sh/) is the idea-to-cloud application platform. 
+[Platform.sh](https://platform.sh/) is the idea-to-cloud application platform.
 
-If you have accounts with DNSimple and Platform.sh, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Platform.sh. 
+If you have accounts with DNSimple and Platform.sh, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Platform.sh.
 
 ## Setting up at Platform.sh
 
@@ -27,8 +27,7 @@ Follow the steps to [add the domain in your Platform.sh master environment](http
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
-
- <!--- needs screenshot -->
+![add one click services](/files/one-click-services.png)
 
 Select the **Hosting** tab, and scroll down to the Platform.sh service. Click **Add**.
 

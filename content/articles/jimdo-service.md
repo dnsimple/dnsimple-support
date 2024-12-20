@@ -14,9 +14,9 @@ categories:
 
 ---
 
-[Jimdo](https://www.jimdo.com) offers a website creator that anyone can use. In just a few minutes, and without any technical knowledge, anyone can create a place on the Internet – complete with online store, blog, photo galleries, YouTube videos, and much more. 
+[Jimdo](https://www.jimdo.com) offers a website creator that anyone can use. In just a few minutes, and without any technical knowledge, anyone can create a place on the Internet – complete with online store, blog, photo galleries, YouTube videos, and much more.
 
-If you have an account with DNSimple and a site ready to publish with Jimdo, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Jimdo. 
+If you have an account with DNSimple and a site ready to publish with Jimdo, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Jimdo.
 
 <info>
 You need to have Jimdo Pro or Business to use your own domain.
@@ -31,8 +31,7 @@ Follow the steps to [add the domain in your Jimdo account](https://help.jimdo.co
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
-
- <!--- needs screenshot -->
+![add one click services](/files/one-click-services.png)
 
 Select the **Hosting** tab, and scroll down to the Jimdo service. Click **Add**.
 
