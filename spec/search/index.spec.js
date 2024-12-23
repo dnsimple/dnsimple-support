@@ -4,7 +4,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const subject = eval( // eslint-disable-line no-eval
+const subject = eval(  
   fs.readFileSync(path.join(__dirname, '/../../templates/search.js.erb'))
     .toString()
     .replace(/<%= articles %>/, '[]')
