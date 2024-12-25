@@ -42,6 +42,11 @@ Once the email is verified, the warning should disappear. If it doesn't, it may 
 
 If your domain is suspended, the name servers will be changed to either of the following:
 
+- ns1.emailverification.info
+- ns2.emailverification.info
+
+_or_
+
 - DNS1.NAME-SERVICES.COM
 - DNS2.NAME-SERVICES.COM
 - DNS3.NAME-SERVICES.COM
@@ -60,7 +65,7 @@ Additionally, a message will appear on your website indicating that your domain 
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
-However, if your domain is suspended, and you request a new verification email but do not receive it, this is likely because the email services associated with your domain have stopped working due to the suspension. To resolve this, [update the registrant contact information](/articles/changing-domain-contact/) to an active email address. 
+However, if your domain is suspended, and you request a new verification email but do not receive it, this is likely because the email services associated with your domain have stopped working due to the suspension. To resolve this, [update the registrant contact information](/articles/changing-domain-contact/) to an active email address.
 
 Once the contact information has been updated and verified, a new verification email will be automatically sent. Click the link in that email to complete the validation process. After verifying the email, the domain suspension will be lifted.
 
