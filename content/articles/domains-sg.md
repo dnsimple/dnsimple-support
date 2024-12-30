@@ -18,11 +18,15 @@ This article explains the requirements and special procedures for [.SG domain na
 
 ### Registration Number
 
-For companies provide the company registration number or RCBID. For individuals, use the NRIC or passport number.
+For companies, provide the company registration number or RCBID. 
+
+For individuals, use the NRIC or passport number.
 
 ### Singpass ID
 
-If the registrant is an Individual, this number must be their "Singpass ID". In the case of a foreign organization, use the SGNICID.
+If the registrant is an individual, this number must be their Singpass ID. 
+
+If the registrant is a foreign organization, use the SGNICID.
 
 ## Registering a .COM.SG domains
 
