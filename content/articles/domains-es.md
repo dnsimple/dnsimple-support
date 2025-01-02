@@ -22,7 +22,7 @@ You will need to select an entity type from the provided options. If you choose 
 
 ### ID Number
 
-ID card or passport number of the admin (You may create contacts for Spanish citizens using their passport. In this case you should indicate “Others” as a type of Identification Document and include the passport number.)
+ID card or passport number of the admin (You may create contacts for Spanish citizens using their passport. In this case you should indicate "Others" as a type of Identification Document and include the passport number.)
 
 ### ID Type
 
