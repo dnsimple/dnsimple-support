@@ -1,6 +1,6 @@
 ---
 title: Fastmail Service
-excerpt: How to set up Fastmail DNS using DNSimple's one-click service.
+excerpt: How to set up Fastmail DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,21 +14,23 @@ categories:
 
 ---
 
-[Fastmail](https://www.fastmail.com) provides email, calendars and contacts done right. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Fastmail.
+[Fastmail](https://www.fastmail.com) provides email, calendars and contacts done right. 
 
+If you have accounts with DNSimple and Fastmail, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Fastmail. 
 
 ## Enabling Fastmail service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+<!--- needs screenshot -->
 
-Select the "Email" tab, and scroll down the page until you find the Fastmail service. Click on the *Add* button.
+Select the **Email** tab, and scroll down to the Fastmail service. Click **Add**.
 
 ![Add Service](/files/services-fastmail.png)
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services). 
 
 ## Setting up at Fastmail
 
@@ -37,3 +39,7 @@ Follow the steps to [add the domain in your Fastmail account](https://www.fastma
 ## Verifying MX Records
 
 Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) that will verify your DNS configuration and suggest improvements with links to support articles.
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
