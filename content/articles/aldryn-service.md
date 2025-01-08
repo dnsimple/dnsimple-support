@@ -14,8 +14,9 @@ categories:
 
 ---
 
-Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Divio Aldryn.
+Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. 
 
+If you have accounts with DNSimple and Divio Aldryn, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Divio Aldryn. 
 
 ## Setting up at Divio Aldryn
 
@@ -29,14 +30,20 @@ To set up DNS for your custom domain, complete the following steps:
 
 ## Enabling Divio Aldryn service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Hosting" tab, and scroll down the page until you find the Divio Aldryn service. Click on the *Add* button.
+ <!--- needs screenshot -->
+ 
+Select the **Hosting** tab, and scroll down to the Divio Aldryn service. Click **Add**.
 
 ![Add Service](/files/services-aldryn.png)
 
-Enter the Aldryn Project Domain, then click on the *Complete Divio Aldryn Setup* button.
+Enter the Aldryn Project Domain, then click **Complete Divio Aldryn Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services). 
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
