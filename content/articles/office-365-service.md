@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Office 365](https://products.office.com/en-au/business/office) keeps itself up to date, so you always have the latest features of Word, Excel, PowerPoint, and more. 
+[Office 365](https://products.office.com/en-au/business/office) keeps itself up to date, so you always have the latest features of Word, Excel, PowerPoint, and more.
 
 If you have accounts with DNSimple and Office 365, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Office 365.
 
@@ -27,12 +27,10 @@ Complete the setup of your custom domain with Microsoft, and make note of the pr
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
- <!--- needs screenshot -->
-
-Select the **Productivity** tab, and scroll down to the Office 365 service. Click **Add**.
-
-![Add Service](/files/services-office-365.png)
+1. Select the **Productivity** tab, and scroll down to the Office 365 service. Click **Add**.
+    ![Add Service](/files/services-office-365.png)
 
 Enter the provided TXT and MX records, then click **Complete Office 365 Setup**.
 

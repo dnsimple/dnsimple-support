@@ -14,21 +14,19 @@ categories:
 
 ---
 
-[Blogger](http://blogger.com/) is a free blogging service provided by Google. 
+[Blogger](http://blogger.com/) is a free blogging service provided by Google.
 
 If you have accounts with DNSimple and Blogger, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blogger. 
 
 ## Enabling Blogger service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click Services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click Services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
- <!--- needs screenshot -->
- 
-Select the **Blogging** tab, and scroll down to the Blogger service. Click **Add**.
-
-![Add Service](/files/services-blogger.png)
+1. Select the **Blogging** tab, and scroll down to the Blogger service. Click **Add**.
+    ![Add Service](/files/services-blogger.png)
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 

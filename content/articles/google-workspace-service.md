@@ -14,21 +14,19 @@ categories:
 
 ---
 
-[Google Workspace](https://workspace.google.com) provides cloud-based email, calendars, and much more. 
+[Google Workspace](https://workspace.google.com) provides cloud-based email, calendars, and much more.
 
-If you have accounts with DNSimple and Google Workspace, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Google Workspace. 
+If you have accounts with DNSimple and Google Workspace, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Google Workspace.
 
 ## Enabling Google Workspace service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
- <!--- needs screenshot -->
-
-Select the **Productivity** tab and scroll down to the Google Workspace service. Click **Add**.
-
-![Add Service](/files/services-google-apps.png)
+1. Select the **Productivity** tab and scroll down to the Google Workspace service. Click **Add**.
+    ![Add Service](/files/services-google-apps.png)
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 

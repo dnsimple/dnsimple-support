@@ -14,21 +14,19 @@ categories:
 
 ---
 
-[KickoffLabs](https://kickofflabs.com) helps you build viral landing pages and newsletters, and gain useful customer insights. 
+[KickoffLabs](https://kickofflabs.com) helps you build viral landing pages and newsletters, and gain useful customer insights.
 
-If you have accounts with DNSimple and KickoffLabs, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by KickoffLabs. 
+If you have accounts with DNSimple and KickoffLabs, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by KickoffLabs.
 
 ## Enabling KickoffLabs service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
- <!--- needs screenshot -->
-
-Select the **Productivity** tab, and scroll down to the KickOffLabs service. Click **Add**.
-
-![Add Service](/files/services-kickofflabs.png)
+1. Select the **Productivity** tab, and scroll down to the KickOffLabs service. Click **Add**.
+    ![Add Service](/files/services-kickofflabs.png)
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
