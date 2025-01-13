@@ -25,7 +25,7 @@ If you have accounts with DNSimple and Google Workspace, you can use DNSimple's 
 1. Scroll down to the **One-click services** card, and click **Add**.
     ![Add One Click Service](/files/add-one-click-service.png)
 
-1. Select the **Productivity** tab and scroll down to the Google Workspace service. Click **Add**.
+1. Select the **Productivity** tab, and scroll down to the Google Workspace service. Click **Add**.
     ![Add Service](/files/services-google-apps.png)
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
