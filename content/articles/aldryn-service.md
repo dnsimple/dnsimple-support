@@ -14,7 +14,6 @@ categories:
 
 ---
 
-
 Aldryn Cloud is Divio's platform for Web Professionals. It provides hosting of django CMS websites. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Divio Aldryn.
 
 ## Setting up at Divio Aldryn
@@ -29,14 +28,12 @@ To set up DNS for your custom domain, complete the following steps:
 
 ## Enabling Divio Aldryn service
 
-1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
 
- <!--- needs screenshot -->
+![Services](/files/services-dns-page-add.png)
+
+Select the "Hosting" tab, and scroll down the page until you find the Divio Aldryn service. Click on the *Add* button.
  
-Select the **Hosting** tab, and scroll down to the Divio Aldryn service. Click **Add**.
-
 ![Add Service](/files/services-aldryn.png)
 
 Enter the Aldryn Project Domain, then click **Complete Divio Aldryn Setup**.
