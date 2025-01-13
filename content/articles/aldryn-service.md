@@ -34,6 +34,7 @@ From the domain list, click on the domain name you want to update, then click on
 ![Services](/files/services-dns-page-add.png)
 
 Select the "Hosting" tab, and scroll down the page until you find the Divio Aldryn service. Click on the *Add* button.
+
 ![Add Service](/files/services-aldryn.png)
 
 Enter the Aldryn Project Domain, then click on the *Complete Divio Aldryn Setup* button.
