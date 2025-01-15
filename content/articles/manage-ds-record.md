@@ -23,7 +23,7 @@ To view and manage the delegation signer (DS) records for a domain:
 
 1. In your Domain List, click the domain name to acccess the domain's management page.
 1. Click the **DNSSEC** tab on the left side, then click **Manage** in the **DS Records** card.
-  ![screenshot: manage ds record](/files/ds-record-manage.png)
+  ![screenshot: manage ds record](/files/ds-records-manage.png)
 
 ## Listing DS records
 

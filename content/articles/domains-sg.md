@@ -14,26 +14,25 @@ categories:
 
 This article explains the requirements and special procedures for [.SG domain names](https://www.sgnic.sg/domain-registration/overview).
 
-## Registration requirements for .SG domains
-Individuals and companies are allowed to register .SG domains.
+## Registering a .SG domain
 
-During registration, you will be asked for the following:
- - Registrant ID number
- - Admin ID number
+### Registration Number
 
-If you are an individual registering a .SG domain, enter your **Singpass ID** in both of these fields.
+For companies, provide the company registration number or RCBID. 
 
-If you are a company registering a .SG domain, enter your **Company Registration Number** in the **Registrant ID number** field. In the **Admin ID number** field, enter your **CorpPass ID**.
+For individuals, use the NRIC or passport number.
 
+### Singpass ID
 
-## Registration requirements for .COM.SG domains
-Only companies are allowed to register a .COM.SG domain.
+If the registrant is an individual, this number must be their Singpass ID. 
 
-During registration, you will be asked for the following:
- - Registrant ID number
- - Admin ID number
+If the registrant is a foreign organization, use the SGNICID.
 
-Enter your **Company Registration Number** in both of these fields.
+## Registering a .COM.SG domains
 
-## Have more questions? 
+### Company Registration Number
+
+.COM.SG domains are only available for organizations.
+
+## Have more questions?
 If you have more questions or need any assistance registering your .SG or .COM.SG domain, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -1,11 +1,11 @@
 ---
-title: KickOffLabs Service
-excerpt: How to set up KickOffLabs DNS using DNSimple's one-click service.
+title: KickoffLabs Service
+excerpt: How to set up KickoffLabs DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
 
-# KickOffLabs One-click Service
+# KickoffLabs One-click Service
 
 ### Table of Contents {#toc}
 
@@ -14,22 +14,26 @@ categories:
 
 ---
 
-[KickOffLabs](https://kickofflabs.com) helps you build viral landing pages, newsletters, and useful customer insights. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by KickOffLabs.
+[KickoffLabs](https://kickofflabs.com) helps you build viral landing pages and newsletters, and gain useful customer insights.
 
+If you have accounts with DNSimple and KickoffLabs, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by KickoffLabs.
 
-## Enabling KickOffLabs service
+## Enabling KickoffLabs service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
-![Services](/files/services-dns-page-add.png)
+1. Select the **Productivity** tab, and scroll down to the KickOffLabs service. Click **Add**.
+    ![Add Service](/files/services-kickofflabs.png)
 
-Select the "Productivity" tab, and scroll down the page until you find the KickOffLabs service. Click on the *Add* button.
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-![Add Service](/files/services-kickofflabs.png)
+## Setting up At KickoffLabs
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+Follow the steps to [set up the custom domain in KickoffLabs](https://support.kickofflabs.com/documentation/landing-pages/custom-domains-overview).
 
+## Have more questions?
 
-## Setting up At KickOffLabs
-
-Follow the steps to [setup the custom domain in KickOffLabs](https://support.kickofflabs.com/account-settings/domain-management/general-domain-cname-settings).
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

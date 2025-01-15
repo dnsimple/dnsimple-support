@@ -51,6 +51,18 @@
     return $results;
   };
 
+  var debounce = function debounce (func, delay) {
+    let timeout;
+    return function (...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+  };
+
+  var trackSearch = function trackSearch (query) {
+    window.posthog.capture('support-search', { query: $input.value });
+  };
+
   if (typeof module === 'object' && typeof module.exports === 'object')
     module.exports = {
       parseQueryParams: parseQueryParams,
@@ -62,11 +74,18 @@
     var $input = document.getElementById('input-search');
     var q = parseQueryParams(window.location.search);
 
-    if (q.length)
+    if (q.length) {
       showResults($main, $input, q);
+      trackSearch(q);
+    }
 
     $input.oninput = function (e) {
       showResults($main, $input, $input.value);
     };
+
+    $input.addEventListener('input', debounce(function () {
+      if ($input.value.trim().length > 0)
+        trackSearch($input.value);
+    }, 900));
   }
 })();

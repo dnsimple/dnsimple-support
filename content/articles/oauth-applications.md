@@ -49,7 +49,7 @@ Adding an application description is optional.
 ![Application Details form](/files/app-details.png)
 
 When created, you'll be taken to the page with your new application, showing your Client ID and Client Secret.
-![App created](files/app-created.png)
+![App created](/files/app-created.png)
 
 <info>
 Both the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**

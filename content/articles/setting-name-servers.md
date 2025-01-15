@@ -59,6 +59,16 @@ Pointing the name servers to DNSimple provider will cause the domain to resolve 
 
 To change the name servers to DNSimple, follow the steps in [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered).
 
+## Reserved name servers {#reserved-name-servers}
+
+If you have [Secondary DNS](/articles/secondary-dns) or [Vanity Name Servers](/articles/vanity-nameservers) set up for your domain, the name servers belonging to the Secondary DNS or Vanity Name Servers configuration are considered "reserved", i.e. they cannot be edited or removed through the **Edit delegation** page.
+
+![Reserved name servers](/files/reserved-name-servers.png)
+
+To make changes to a reserved name server, click on the configuration icon next to it. You will be taken to the [Secondary DNS](/articles/secondary-dns) or [Vanity Name Servers](/articles/vanity-nameservers) configuration where you can make the necessary changes.
+
+![Edit reserved name servers through configuration](/files/reserved-name-servers-edit-configuration.png)
+
 ## Glue records
 
 If you are adding a name server that is a child of the domain, glue records are required. You will be prompted about the missing glue records upon clicking <label>Change Name Servers</label>. To add glue record, create a [name server set](/articles/name-server-sets/#creating-an-account-name-server-set), and click <label>Add a name server set</label> on the <label>Edit delegation</label> page to apply it.

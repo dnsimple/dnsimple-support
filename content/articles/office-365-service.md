@@ -1,6 +1,6 @@
 ---
 title: Office 365 Service
-excerpt: How to set up Office 365 DNS using DNSimple's one-click service.
+excerpt: How to set up Office 365 DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,28 @@ categories:
 
 ---
 
-[Office 365](https://products.office.com/en-au/business/office) keeps itself up to date, so you always have the latest features of Word, Excel, PowerPoint, and more. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Office 365.
+[Office 365](https://products.office.com/en-au/business/office) keeps itself up to date, so you always have the latest features of Word, Excel, PowerPoint, and more.
 
+If you have accounts with DNSimple and Office 365, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Office 365.
 
 ## Setting up at Office 365
 
-You must complete the setup of your custom domain with Microsoft, and make note of the provided TXT and MX records. You'll need them for the next step.
-
+Complete the setup of your custom domain with Microsoft, and make note of the provided TXT and MX records. You'll need them for the next step.
 
 ## Enabling Office 365 service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add One Click Service](/files/add-one-click-service.png)
 
-![Services](/files/services-dns-page-add.png)
+1. Select the **Productivity** tab, and scroll down to the Office 365 service. Click **Add**.
+    ![Add Service](/files/services-office-365.png)
 
-Select the "Productivity" tab, and scroll down the page until you find the Office 365 service. Click on the *Add* button.
+Enter the provided TXT and MX records, then click **Complete Office 365 Setup**.
 
-![Add Service](/files/services-office-365.png)
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-Enter the provided TXT and MX records, then click on the *Complete Office 365 Setup* button.
+## Have more questions?
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
