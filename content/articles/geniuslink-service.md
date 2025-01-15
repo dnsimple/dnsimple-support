@@ -14,22 +14,26 @@ categories:
 
 ---
 
-[Geniuslink](https://geni.us) is an intelligent link shortener. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Geniuslink.
+[Geniuslink](https://geni.us) is an intelligent link shortener.
 
+If you have accounts with DNSimple and Geniuslink, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Geniuslink.
 
 ## Enabling Geniuslink service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Then scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add one click service to domain](/files/add-one-click-service.png)
 
-![Services](/files/services-dns-page-add.png)
+1. Select the **Infrastructure** tab, and scroll down the page until you find the Geniuslink service. Click **Add**.
+    ![Add Service](/files/services-geniuslink.png)
 
-Select the "Infrastructure" tab, and scroll down the page until you find the Geniuslink service. Click on the *Add* button.
-
-![Add Service](/files/services-geniuslink.png)
-
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Geniuslink
 
 Follow the steps to [configure the domain in your Geniuslink account](https://intercom.geni.us/en/articles/1065227-custom-domains-add-on).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
