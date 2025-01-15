@@ -23,7 +23,7 @@ If you have accounts with DNSimple and Surge, you can use DNSimple's [One-click 
 1. From the domain list, click on the domain name you want to update.
 1. Click the **DNS** tab on the left side.
 1. Scroll down to the **One-click services** card, and click **Add**.
-    ![Add Service](/files/services-webflow.png)
+    ![Add one click service to domain](/files/add-one-click-service.png)
 
 1. Select the **Hosting** tab, and scroll down the page until you find the Surge service. Click **Add**.
     ![Add Service](/files/services-surge.png)
