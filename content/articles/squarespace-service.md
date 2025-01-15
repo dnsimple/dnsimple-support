@@ -32,7 +32,7 @@ Copy the unique code under **Host** on the first line of the DNS Settings. You'l
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
 
- ![Add one click service to domain](/files/add-one-click-service.png)
+![Add one click service to domain](/files/add-one-click-service.png)
 
 Select the **Ecommerce** tab, and scroll down to the Squarespace service. Click **Add**.
 
