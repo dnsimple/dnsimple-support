@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[Fastmail](https://www.fastmail.com) provides email, calendars and contacts done right. 
+[Fastmail](https://www.fastmail.com) provides email, calendars, and contacts done right. 
 
 If you have accounts with DNSimple and Fastmail, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Fastmail. 
 
