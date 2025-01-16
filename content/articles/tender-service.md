@@ -32,10 +32,10 @@ Select the **Productivity** tab, and scroll down to the Tender service. Click **
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services). 
 
-## Have more questions? 
-
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
 ## Setting up at Tender
 
 Follow the steps to [add the domain in Tender](https://help.tenderapp.com/kb/customizing-your-tender-site/using-a-custom-domain-with-tender).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
