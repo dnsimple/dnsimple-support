@@ -1,6 +1,6 @@
 ---
 title: AWS Elastic Beanstalk Service
-excerpt: How to set up AWS Elastic Beanstalk DNS using DNSimple's one-click service.
+excerpt: How to set up AWS Elastic Beanstalk DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,19 +14,26 @@ categories:
 
 ---
 
-[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is an easy way to quickly deploy and manage applications in the AWS cloud. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by AWS Elastic Beanstalk.
+[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is an easy way to quickly deploy and manage applications in the AWS cloud. 
 
+If you have accounts with DNSimple and AWS Elastic Beanstalk, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by AWS Elastic Beanstalk.
 
 ## Enabling AWS Elastic Beanstalk service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+ <!--- needs screenshot -->
 
-Select the "Infrastructure" tab, and scroll down the page until you find the AWS Elastic Beanstalk service. Click on the *Add* button.
+Select the **Infrastructure** tab, and scroll down to the AWS Elastic Beanstalk service. Click **Add**.
 
 ![Add Service](/files/services-amazon-elasticbeanstalk.png)
 
-Enter your Elastic Beanstalk subdomain, then click on the *Complete AWS Elastic Beanstalk Setup* button.
+Enter your Elastic Beanstalk subdomain, then click **Complete AWS Elastic Beanstalk Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
