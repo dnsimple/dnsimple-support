@@ -1,6 +1,6 @@
 ---
 title: Blackbell Service
-excerpt: How to set up Blackbell DNS using DNSimple's one-click service.
+excerpt: How to set up Blackbell DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,30 @@ categories:
 
 ---
 
-[Blackbell](https://www.Blackbell.com/) is the simplest way to sell services. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Blackbell.
+[Blackbell](https://www.Blackbell.com/) is the simplest way to sell services. 
 
+If you have accounts with DNSimple and Blackbell, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blackbell. 
 
 ## Enabling Blackbell service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Ecommerce" tab and scroll down the page until you find the Blackbell service. Click on the *Add* button.
+<!--- needs screenshot -->
+ 
+Select the **Ecommerce** tab, and scroll down the to the Blackbell service. Click **Add**.
 
 ![Add Service](/files/services-blackbell.png)
 
-Enter a subdomain (`CNAME`), then click on the *Complete Blackbell Setup* button.
+Enter a subdomain (`CNAME`), then click **Complete Blackbell Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Blackbell
 
 Follow the steps to [enable the subdomain in your Blackbell backoffice](https://intercom.help/blackbell/en/articles/437918-connect-your-blackbell-platform-to-an-existing-domain-name).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
