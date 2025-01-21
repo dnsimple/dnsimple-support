@@ -7,13 +7,6 @@ categories:
 
 # Pobox One-click Service
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 The Pobox One-click Service has been deprecated and is no longer available, as [Pobox is now part of Fastmail](https://www.fastmail.com/pobox/). You can use our [Fastmail One-click Service](/articles/fastmail-service/) to set up all the DNS records required by Fastmail.
 
 ## Have more questions? 
