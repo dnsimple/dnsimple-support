@@ -16,7 +16,7 @@ categories:
 
 [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is an easy way to quickly deploy and manage applications in the AWS cloud. 
 
-If you have accounts with DNSimple and AWS Elastic Beanstalk, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by AWS Elastic Beanstalk.
+If you have accounts with DNSimple and AWS, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by AWS Elastic Beanstalk.
 
 ## Enabling AWS Elastic Beanstalk service
 
