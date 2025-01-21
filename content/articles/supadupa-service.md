@@ -14,24 +14,32 @@ categories:
 
 ---
 
-[SupaDupa](http://supadupa.me) helps you set up your own professional online store without any of the skills or upfront commitments required when hiring a web agency to build one for you. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by SupaDupa.
+[SupaDupa](http://supadupa.me) helps you set up your own professional online store without any of the skills or upfront commitments required when hiring a web agency to build one for you. 
 
+If you have accounts with DNSimple and SupaDupa, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by SupaDupa. 
 
 ## Enabling SupaDupa service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+<!--- needs screenshot -->
 
-Select the "Ecommerce" tab, and scroll down the page until you find the SupaDupa service. Click on the *Add* button.
+Select the **Ecommerce** tab, and scroll down to the SupaDupa service. Click **Add**.
 
 ![Add Service](/files/services-supadupa.png)
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
+<info>
 Activating this service will configure DNS records where your main domain is your store. You must also [configure a URL redirect](/articles/redirector/) pointing `example.com` to `www.example.com` (replace `example.com` with your domain name).
-
+</info>
 
 ## Setting up at SupaDupa
 
 Follow the steps to [enable the domain in your SupaDupa shop](https://support.supadupa.me/en/articles/29502-other-domain-registrar).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
