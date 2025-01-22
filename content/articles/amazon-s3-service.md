@@ -1,6 +1,6 @@
 ---
 title: AWS S3 Service
-excerpt: How to set up AWS S3 DNS using DNSimple's one-click service.
+excerpt: How to set up AWS S3 DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
