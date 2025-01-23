@@ -1,6 +1,6 @@
 ---
 title: Fastly Service
-excerpt: How to set up Fastly DNS using DNSimple's one-click service.
+excerpt: How to set up Fastly DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,22 +14,28 @@ categories:
 
 ---
 
-[Fastly](http://www.fastly.com) is a CDN (Content Delivery Network). With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Fastly.
+[Fastly](http://www.fastly.com) is a CDN (Content Delivery Network). 
 
+If you have accounts with DNSimple and Fastly, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Fastly.
  
 ## Enabling Fastly service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+ <!--- needs screenshot -->
 
-Select the "Infrastructure" tab, and scroll down the page until you find the Fastly service. Click on the *Add* button.
+Select the **Infrastructure** tab, and scroll down to the Fastly service. Click **Add**.
 
 ![Add Service](/files/services-fastly.png)
 
-Now the service is added. You can remove it any time by following the steps on [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Fastly
 
 Follow the steps to [create the domain in your Fastly account](https://docs.fastly.com/en/guides/working-with-domains).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
