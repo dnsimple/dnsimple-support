@@ -84,9 +84,11 @@ The service directory is open-source. [Learn how to propose or contribute new se
 
 ## Adding a service
 
-To add a service, navigate to your domain. On the services sidebar, select "DNS". Scroll down to locate the One Click Services section, and select "Add".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
 
-![Domain DNS page](/files/services-dns-page-add.png)
+ <!--- needs screenshot -->
 
 Choose the service that you want to add.
 
@@ -95,17 +97,20 @@ Choose the service that you want to add.
 
 ## Removing services
 
-To remove a service, navigate to your domain, and on the services sidebar, select "DNS". Then scroll down to locate the One Click Services section, and select "Manage".
+To remove a service, navigate to your domain. On the services sidebar, click **DNS**. Scroll down to the One-click Services section, and click **Manage**.
 
 ![Domain DNS page](/files/services-dns-page-manage.png)
 
-Find the service from the list of "Applied one-click services" that you want to remove, and select "Remove".
+Find the service from the list of **Applied one-click services** that you want to remove, and click **Remove**.
 
 ![Service list remove](/files/services-list-remove.png)
 
-
 ## Contributing a new service
 
-Services are defined in an open-source repository on GitHub. This project may be forked and updated by you to add a new service. Once you've added the files required for your service, issue a pull request so we can review and deploy it.
+Services are defined in an open-source repository on GitHub. You can fork and update this project to add a new service. Once you've added the files required for your service, issue a pull request so we can review and deploy it.
 
-Please visit [https://github.com/dnsimple/dnsimple-services](https://github.com/dnsimple/dnsimple-services) for full instructions.
+Visit [our github repository](https://github.com/dnsimple/dnsimple-services) for full instructions.
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
