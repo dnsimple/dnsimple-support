@@ -1,6 +1,6 @@
 ---
 title: URL Forwarding Service
-excerpt: How to set up URL Forwarding DNS using DNSimple's one-click service.
+excerpt: How to set up URL Forwarding DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
