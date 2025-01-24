@@ -24,6 +24,7 @@
     "lint:fix": "eslint content spec --fix",
     "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
     "test": "jest",
+    "images:removeUnused": "node ./_scripts/remove-unused-images.mjs",
     "test:watch": "jest --watch"
   },
   "resolutions": {
