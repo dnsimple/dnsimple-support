@@ -14,11 +14,11 @@ categories:
 
 ---
 
-## What's an A record?
-
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe src="https://www.youtube.com/embed/nJ53QG-gq8o" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+## What's an A record?
 
 An **A record** maps a domain name to the IP address (Version 4) of the computer hosting the domain. An A record uses a domain name to find the IP address of a computer connected to the internet
 
