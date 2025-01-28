@@ -25,6 +25,6 @@
 </script>
 <% end %>
 
-<% if @config[:ahrefs_id] %>
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="<%= @config[:ahrefs_id] %>" async />
+<% if @config[:ahrefs_id] != "" %>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="<%= @config[:ahrefs_id] %>" async></script>
 <% end %>
