@@ -14,17 +14,17 @@ categories:
 
 ---
 
-[AWS Lightsail](https://aws.amazon.com/lightsail/) is an Amazon cloud service that offers bundles of cloud compute power and memory for new or less-experienced cloud users. 
+[AWS Lightsail](https://aws.amazon.com/lightsail/) is an Amazon cloud service that offers bundles of cloud compute power and memory for new or less-experienced cloud users.
 
 If you have accounts with DNSimple and AWS, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by AWS Lightsail.
 
 ## Enabling AWS Lightsail service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
 
- <!--- needs screenshot -->
+![add one click services](/files/one-click-services.png)
 
 Select the **Infrastructure** tab, and scroll down to the AWS Lightsail service. Click **Add**.
 
@@ -34,6 +34,6 @@ Enter your AWS Lightsail instance public static IP, then click **Complete AWS Li
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[AWS S3](http://aws.amazon.com/s3/) provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web. 
+[AWS S3](http://aws.amazon.com/s3/) provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web.
 
 If you have accounts with DNSimple and AWS, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by AWS S3.
 
@@ -22,10 +22,10 @@ If you have accounts with DNSimple and AWS, you can use DNSimple's [One-click Se
 ## Enabling AWS S3 service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
 
- <!--- needs screenshot -->
+![add one click services](/files/one-click-services.png)
 
 Select the **Infrastructure** tab, and scroll down to the AWS S3 service. Click **Add**.
 
@@ -35,6 +35,6 @@ Enter your AWS region, then click **Complete AWS S3 Setup**.
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

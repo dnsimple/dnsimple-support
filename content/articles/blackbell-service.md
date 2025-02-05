@@ -14,18 +14,18 @@ categories:
 
 ---
 
-[Blackbell](https://www.Blackbell.com/) is the simplest way to sell services. 
+[Blackbell](https://www.Blackbell.com/) is the simplest way to sell services.
 
-If you have accounts with DNSimple and Blackbell, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blackbell. 
+If you have accounts with DNSimple and Blackbell, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blackbell.
 
 ## Enabling Blackbell service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
 
-<!--- needs screenshot -->
- 
+![add one click services](/files/one-click-services.png)
+
 Select the **Ecommerce** tab, and scroll down the to the Blackbell service. Click **Add**.
 
 ![Add Service](/files/services-blackbell.png)
@@ -38,6 +38,6 @@ The service has been added. You can remove it any time by following the steps in
 
 Follow the steps to [enable the subdomain in your Blackbell backoffice](https://intercom.help/blackbell/en/articles/437918-connect-your-blackbell-platform-to-an-existing-domain-name).
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
