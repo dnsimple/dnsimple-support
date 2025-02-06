@@ -1,6 +1,6 @@
 ---
 title: Netlify Service
-excerpt: How to set up Netlify DNS using DNSimple's one-click service.
+excerpt: How to set up Netlify DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -18,24 +18,30 @@ This service is being deprecated. We recommend that you use the [Netlify Connect
 
 ---
 
-[Netlify](https://www.netlify.com/) builds, deploys, and hosts your static site and app. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Netlify.
+[Netlify](https://www.netlify.com/) builds, deploys, and hosts your static site and app.
 
+If you have accounts with DNSimple and Netlify, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Netlify.
 
 ## Setting up at Netlify
 
 Follow the steps to [add the domain in your Netlify site](https://docs.netlify.com/domains-https/custom-domains/).
 
-
 ## Enabling Netlify service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+![add one click services](/files/one-click-services.png)
 
-Select the "Hosting" tab, and scroll down the page until you find the Netlify service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down to the Netlify service. Click **Add**.
 
 ![Add Service](/files/services-netlify.png)
 
-Enter the Netlify Site Name, then click on the *Complete Netlify Setup* button.
+Enter the Netlify Site Name, then click **Complete Netlify Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
