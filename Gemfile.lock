@@ -103,13 +103,13 @@ GEM
       nanoc-cli (~> 4.11, >= 4.11.14)
       nanoc-core (~> 4.11, >= 4.11.14)
     nio4r (2.7.4)
-    nokogiri (1.17.2)
+    nokogiri (1.18.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     parallel (1.26.3)
     pastel (0.8.0)
       tty-color (~> 0.5)
-    pry (0.15.0)
+    pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (6.0.1)
@@ -164,7 +164,7 @@ DEPENDENCIES
   nanoc-dart-sass
   nanoc-live
   nokogiri
-  pry (~> 0.15.0)
+  pry (~> 0.15.2)
   puma
   rake
   rouge

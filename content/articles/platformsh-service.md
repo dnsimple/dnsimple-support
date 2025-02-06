@@ -1,6 +1,6 @@
 ---
 title: Platform.sh Service
-excerpt: How to set up Platform.sh DNS using DNSimple's one-click service.
+excerpt: How to set up Platform.sh DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,29 @@ categories:
 
 ---
 
-[Platform.sh](https://platform.sh/) is the idea-to-cloud application platform. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Platform.sh.
+[Platform.sh](https://platform.sh/) is the idea-to-cloud application platform.
 
+If you have accounts with DNSimple and Platform.sh, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Platform.sh.
 
 ## Setting up at Platform.sh
 
 Follow the steps to [add the domain in your Platform.sh master environment](https://docs.platform.sh/gettingstarted/next-steps/going-live/set-domain.html).
 
-
 ## Enabling Platform.sh service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
+![add one click services](/files/one-click-services.png)
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Hosting" tab, and scroll down the page until you find the Platform.sh service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down to the Platform.sh service. Click **Add**.
 
 ![Add Service](/files/services-platformsh.png)
 
-Enter the Platform.sh master domain, then click on the *Complete Platform.sh Setup* button.
+Enter the Platform.sh master domain, then click **Complete Platform.sh Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

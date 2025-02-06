@@ -1,6 +1,6 @@
 ---
 title: Gigalixir Service
-excerpt: How to set up Gigalixir DNS using DNSimple's one-click service.
+excerpt: How to set up Gigalixir DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,30 @@ categories:
 
 ---
 
-[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Gigalixir.
+[Gigalixir](https://www.gigalixir.com) is Elixir's Platform as a Service.
 
+If you have an account with DNSimple and an app deployed and running on Gigalixir, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Giglixir.
 
 ## Enabling Gigalixir service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+2. Click the **DNS** tab on the left side.
+3. Scroll down to the **One-click services** card, and click **Add**.
+![add one click services](/files/one-click-services.png)
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Infrastructure" tab, and scroll down the page until you find the Gigalixir service. Click on the *Add* button.
-
+Select the **Infrastructure** tab, and scroll down to the Gigalixir service. Click **Add**.
 ![Add Service](/files/services-gigalixir.png)
 
-Enter your Gigalixir Apex and WWW App Names, then click on the *Complete Gigalixir Setup* button.
+Enter your Gigalixir Apex and WWW App Names, then click **Complete Gigalixir Setup**.
+![setup gigalixer service](/files/gigalixer-setup.png)
 
 Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
 
 ## Setting up at Gigalixir
 
 Follow the steps to [add the domain in your Gigalixir app](https://gigalixir.readthedocs.io/en/latest/domain.html#custom-domains).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
