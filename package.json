@@ -34,7 +34,7 @@
     "build": "./node_modules/.bin/webpack && vite build ./_widget",
     "lint": "eslint _widget content spec",
     "lint:fix": "eslint _widget content spec --fix",
-    "support-widget": "vite serve ./_widget",
+    "widget": "vite serve ./_widget",
     "test": "jest",
     "test:watch": "jest --watch"
   },
