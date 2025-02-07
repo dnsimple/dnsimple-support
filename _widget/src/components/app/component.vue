@@ -2,7 +2,7 @@
     <div id="dnsimple-support">
         <div v-if="isOpen">
             <div class="overlay" @click="close"></div>
-            <div class="modal animated fadeInUp faster">
+            <div class="dnsimple-modal animated fadeInUp faster">
               <Header :app="app" ref="header"/>
               <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
             </div>
