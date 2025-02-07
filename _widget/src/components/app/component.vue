@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import { nextTick } from 'vue'
 import { urlMatchingDictionary } from './url-dictionary.js';
 
 import Footer from '../footer/component.vue';
@@ -107,10 +108,12 @@ export default {
     },
 
     focus () {
-      const $header = this.$refs.header;
+      nextTick(() => {
+        const $header = this.$refs.header;
 
-      if ($header !== null && $header !== undefined)
-        $header.$refs.input.focus();
+        if ($header !== null && $header !== undefined)
+          $header.$refs.input.focus();
+      })
     },
 
     close () {
