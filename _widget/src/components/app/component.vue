@@ -45,6 +45,10 @@ export default {
     },
     showPrompt: {
       default: true
+    },
+    currentSiteUrl: {
+      type: String,
+      default: ''
     }
   },
   data () {
@@ -59,7 +63,6 @@ export default {
       isOpen: false,
       isLoading: true,
       isFetched: false,
-      rootURL: 'https://support.dnsimple.com',
       history: []
     };
   },
@@ -76,7 +79,9 @@ export default {
 
   computed: {
     filteredArticles () {
-      return window.DNSimpleSupport.search(this.q);
+      const articles = window.DNSimpleSupport.search(this.q)
+      articles.forEach((a) => { a.source = 'https://support.dnsimple.com' })
+      return articles
     },
 
     noResults () {
@@ -122,19 +127,20 @@ export default {
     },
 
     fetchArticles (done) {
-      if (this.isFetched) return;
+      if (this.isFetched) return done();
 
       const script = document.createElement('script');
 
       this.isLoading = true;
 
       script.type = 'text/javascript';
-      script.src = `${this.rootURL}/search.js`;
+      script.src = `https://support.dnsimple.com/search.js`;
 
       script.onload = () => {
         setTimeout(() => {
           this.isFetched = true;
           this.isLoading = false;
+          done();
         }, 500);
       };
 
@@ -143,6 +149,10 @@ export default {
 
     setQ (q) {
       this.q = q;
+    },
+
+    getCurrentSiteUrl() {
+      return this.currentSiteUrl
     }
   }
 };

@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const app = createApp(App, {
-    showPrompt: $openers.length === 0
+    showPrompt: $openers.length === 0,
+    currentSiteUrl: document.querySelector('[data-dnsimple-current-site-url]')?.getAttribute('data-dnsimple-current-site-url') || ''
   }).mount($target);
 
   $openers.forEach(($el) => {

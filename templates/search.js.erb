@@ -41,6 +41,7 @@ var loadArticles = function loadArticles (articles) {
     article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
     article.body = fixRelativeImgSrcs(article.body || '');
     article.categories = article.categories || [];
+    article.source = 'https://support.dnsimple.com';
 
     return article;
   });
