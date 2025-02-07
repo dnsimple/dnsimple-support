@@ -9,7 +9,7 @@ categories:
 
 
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
-  <iframe src="https://www.youtube.com/embed/j8XxjL3hNYk?si=b097LEOyQwPptQxy" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/mn07RUxAJRA" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
