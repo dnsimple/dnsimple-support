@@ -79,9 +79,9 @@ export default {
 
   computed: {
     filteredArticles () {
-      const articles = window.DNSimpleSupport.search(this.q)
-      articles.forEach((a) => { a.source = 'https://support.dnsimple.com' })
-      return articles
+      const articles = window.DNSimpleSupport.search(this.q);
+      articles.forEach((a) => { a.source = 'https://support.dnsimple.com'; });
+      return articles;
     },
 
     noResults () {
@@ -152,7 +152,7 @@ export default {
     },
 
     getCurrentSiteUrl() {
-      return this.currentSiteUrl
+      return this.currentSiteUrl;
     }
   }
 };
