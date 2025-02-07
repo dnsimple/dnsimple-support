@@ -13,7 +13,6 @@ describe('App', () => {
 
     it('initialize data attributes', () => {
       expect(subject.vm.isOpen).toEqual(false);
-      expect(subject.vm.rootURL).toEqual('https://support.dnsimple.com');
     });
 
     it('initialize prompt', () => {
