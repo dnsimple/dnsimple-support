@@ -7,6 +7,12 @@ categories:
 
 # Differences Among A, CNAME, ALIAS, and URL records
 
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe src="https://www.youtube.com/embed/j8XxjL3hNYk?si=b097LEOyQwPptQxy" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
 `A`, `CNAME`, `ALIAS`, and `URL` records are all possible solutions to point a host name ("name") to your site. However, they have small differences that affect how the client reaches your site.
 
 `A` and `CNAME` records are standard DNS records. `ALIAS` and `URL` records are custom DNS records provided by DNSimple's [DNS hosting](https://dnsimple.com). Both of them are translated internally into `A` records to ensure compatibility with the DNS protocol.
@@ -29,7 +35,7 @@ Important rules:
 
 Understanding the [difference between `A` name and `CNAME` records](/articles/differences-a-cname-records) will help you decide.
 
-General rules: 
+General rules:
 
 - Use an `A` record if you manage which IP addresses are assigned to a particular machine, or if the IP are fixed (this is the most common case).
 - Use a `CNAME` record if you want to alias one name to another name, and you don't need other records (such as `MX` records for emails) for the same name.
