@@ -122,7 +122,7 @@ export default {
     },
 
     fetchArticles (done) {
-      if (this.isFetched) return
+      if (this.isFetched) return;
 
       const script = document.createElement('script');
 
@@ -133,7 +133,7 @@ export default {
 
       script.onload = () => {
         setTimeout(() => {
-          this.isFetched = true
+          this.isFetched = true;
           this.isLoading = false;
         }, 500);
       };
