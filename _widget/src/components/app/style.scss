@@ -1,5 +1,6 @@
 #dnsimple-support-widget {
   position: fixed;
+  z-index: 999;
   bottom: 0;
   right: 0;
   width: 480px;
@@ -14,6 +15,8 @@
 }
 
 #dnsimple-support {
+    z-index: 999;
+
     .modal {
         position: fixed;
         top: 0;
