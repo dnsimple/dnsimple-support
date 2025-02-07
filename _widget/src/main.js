@@ -10,14 +10,17 @@ if (!$target) {
   document.body.appendChild($target);
 }
 
-const $openers = [...document.querySelectorAll('[data-open-support-widget]')];
 const app = createApp(App, {
   showPrompt: $openers.length === 0
 }).mount($target);
 
-$openers.forEach(($el) => {
-  $el.addEventListener('click', () => {
-    app.open();
-    app.focus();
+document.addEventListener('DOMContentLoaded', () => {
+  const $openers = [...document.querySelectorAll('[data-open-support-widget]')];
+
+  $openers.forEach(($el) => {
+    $el.addEventListener('click', () => {
+      app.open();
+      app.focus();
+    });
   });
-});
+})
