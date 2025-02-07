@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import "./style.scss"
+import "./style.scss";
 
 export default {
   props: ['app']
