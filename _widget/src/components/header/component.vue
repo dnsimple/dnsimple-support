@@ -8,7 +8,6 @@
                 ref="input"
                 v-model="q"
                 placeholder='Try some keywords, like "alias" or "url redirect"'
-                data-cy='support-widget-input-search'
         />
     </div>
 </template>
