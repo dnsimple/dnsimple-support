@@ -9,7 +9,7 @@ export default defineConfig({
     'process.env': {}
   },
   build: {
-    outDir: '../dist',
+    outDir: '../output' ,
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
       name: 'Support Widget',
