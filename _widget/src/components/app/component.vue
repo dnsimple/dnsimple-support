@@ -58,6 +58,7 @@ export default {
       q: query,
       isOpen: false,
       isLoading: true,
+      isFetched: false,
       rootURL: 'https://support.dnsimple.com',
       history: []
     };
@@ -121,6 +122,8 @@ export default {
     },
 
     fetchArticles (done) {
+      if (this.isFetched) return
+
       const script = document.createElement('script');
 
       this.isLoading = true;
@@ -130,6 +133,7 @@ export default {
 
       script.onload = () => {
         setTimeout(() => {
+          this.isFetched = true
           this.isLoading = false;
         }, 500);
       };
