@@ -3,7 +3,6 @@
         <a href="javascript:;" @click="app.close" class="minimize">
             <div v-html="minimizeIcon"></div>
         </a>
-        <h1>DNSimple Support</h1>
         <input
                 type="text"
                 ref="input"
