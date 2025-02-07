@@ -9,11 +9,11 @@ export default defineConfig({
     'process.env': {}
   },
   build: {
-    outDir: './output/support',
+    outDir: '../output',
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
       name: 'Support Widget',
-      fileName: 'widget',
+      fileName: (format, entryName) => `widget.js`,
       formats: ['umd']
     },
     rollupOptions: {
