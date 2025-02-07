@@ -16,10 +16,10 @@
 import { backIcon } from '../../assets/svgs';
 import Footer from '../footer/component.vue';
 
-import "./style.scss"
-import "./resolving.scss"
-import "./syntax.scss"
-import "./tables.scss"
+import "./style.scss";
+import "./resolving.scss";
+import "./syntax.scss";
+import "./tables.scss";
 
 const NO_TRAILING_SLASH = /\/?$/;
 

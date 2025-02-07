@@ -22,9 +22,9 @@ import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
 import Welcome from '../welcome/component.vue';
 
-import "./variables.scss"
-import "./reset.scss"
-import "./style.scss"
+import "./variables.scss";
+import "./reset.scss";
+import "./style.scss";
 
 const ANIMATION_TIMEOUT = 500;
 

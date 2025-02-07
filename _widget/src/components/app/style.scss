@@ -1,4 +1,8 @@
-#dnsimple-support {
+#dnsimple-support-widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 480px;
   font-size: var(--dnsimple-support-widget-rem);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;

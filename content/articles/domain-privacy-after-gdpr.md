@@ -15,17 +15,21 @@ categories:
 ---
 
 
-This article explains how the GDPR (General Data Protection Regulation) law affects the information available about your domains after the law came into effect on May 25th 2018.
+This article explains how the GDPR (General Data Protection Regulation) law affects the information available about your domains after the law came into effect on May 25th, 2018.
 
 ## WHOIS privacy
 
 WHOIS is frequently used to fetch information about a domain. A WHOIS query usually returns information such as the person or organization that registered the domain, the expiration date, and the domain registrar.
 
-WHOIS queries are useful to identify ownership of a domain. However, spammers take advantage of this public information to call and spam you with text messages. This is why most domain registrar provide WHOIS privacy. With [WHOIS privacy](/articles/whois-privacy/), the information is masked by the registrar.
+WHOIS queries are useful to identify ownership of a domain. However, spammers take advantage of this public information to call and spam you with text and email messages. This is why most domain registrars provide WHOIS privacy. With [WHOIS privacy](/articles/whois-privacy/), the information is masked by the registrar.
 
 ## WHOIS after GDPR
 
-With GDPR, starting on May 25th 2018, even if you opted out of WHOIS privacy, your information is protected. This is great to avoid spam, but it can make other tasks harder since a WHOIS query can no longer identify you as the owner of a domain.
+With GDPR, even if you opt out of WHOIS privacy, your information is protected. This is great for avoiding spam, but it can make other tasks harder since a WHOIS query can no longer identify you as the owner of a domain.
+
+This can be disabled, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. When you opt-in to disclose WHOIS data you will receive an email from info@domain-contact.org. This email will provide you with a link to modify your registration data disclosure settings. Here you will be allowed to select which data to display.
+
+![GDPR disclosure link](/files/gdpr-disclosure.png)
 
 ## Certificate validation
 
@@ -33,7 +37,7 @@ Requesting an SSL certificate is a common task that requires proof of ownership 
 
 In this situation we recommend one of the following options:
 
-- If your domain is already configured to receive email, you need to create at least one of these following email addresses to prove ownership:
+- If your domain is already configured to receive email, you need to create at least one of the following email addresses to prove ownership:
 
     ```
     admin@your-domain
@@ -47,4 +51,4 @@ In this situation we recommend one of the following options:
 
 ## Domain transfer validation
 
-Some domain registrar require an extra step before initiating a transfer. They send an email to validate the ownership of the domain to the available WHOIS email address. Since the WHOIS email is now masked, you need to work with the new registrar to find an alternative to the email validation.
+Some domain registrars require an extra step before initiating a transfer. They send an email to validate the ownership of the domain to the available WHOIS email address. Since the WHOIS email is now masked, you need to work with the new registrar to find an alternative to the email validation.

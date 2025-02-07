@@ -128,7 +128,7 @@ Let's explore the domain management options on your domain's homepage.
 You'll find your name servers listed under the <label>Registration</label> tab. [Name servers](/articles/what-is-a-nameserver/) work as a directory translating domain names into IP addresses. They make things easy to find across the Internet.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelero    meter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 You don't need to change the name servers when you move your domain from ClickFunnels.

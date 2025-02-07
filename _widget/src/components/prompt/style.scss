@@ -1,8 +1,7 @@
 #dnsimple-support {
   .prompt {
-    position: fixed;
-    bottom: var(--dnsimple-support-widget-prompt-padding);
-    right: calc(var(--dnsimple-support-widget-prompt-padding) * 8); // Allow space for the notification bell
+    text-align: right;
+    padding: var(--dnsimple-support-widget-prompt-padding);
     line-height: 1;
 
     & > a {

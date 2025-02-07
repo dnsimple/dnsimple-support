@@ -33,7 +33,7 @@
 import Footer from '../footer/component.vue';
 import { spinnerIcon } from '../../assets/svgs';
 
-import "./style.scss"
+import "./style.scss";
 
 export default {
   props: {

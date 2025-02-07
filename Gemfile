@@ -19,7 +19,7 @@ end
 
 group :development do
   gem 'adsf'
-  gem 'pry', '~> 0.15.0'
+  gem 'pry', '~> 0.15.2'
 end
 
 group :nanoc do
