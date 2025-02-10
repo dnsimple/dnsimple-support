@@ -1,0 +1,33 @@
+#dnsimple-support {
+  .articles {
+    margin-top: -var(--dnsimple-support-widget-padding);
+
+    h3 {
+      color: var(--dnsimple-support-widget-blue);
+      font-weight: bold;
+    }
+
+    mark {
+      background: #fff3b6;
+      padding: 2px 0;
+    }
+
+    li {
+      padding: var(--dnsimple-support-widget-padding) 0;
+      border-bottom: 1px solid var(--dnsimple-support-widget-line-color);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  .loading {
+    text-align: center;
+    padding: 25vh 0;
+
+    img {
+      width: 8vh;
+    }
+  }
+}
