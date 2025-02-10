@@ -1,5 +1,5 @@
 <template>
-  <div class="route welcome">
+  <div class="route getting-started">
     <div v-html="trustyIcon" class="mascot"></div>
     <h1>Getting Started with DNSimple</h1>
 
