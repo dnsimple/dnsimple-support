@@ -17,7 +17,7 @@ const DICTIONARY = {
 };
 const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 30;
-const MIN_SCORE = 15;
+const MIN_SCORE = 55;
 const WHITESPACE = /\s+/;
 
 const articleScore = (article, q) => {
