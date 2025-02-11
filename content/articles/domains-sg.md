@@ -36,7 +36,8 @@ If the registrant is a foreign organization, use the SGNICID.
 
 ### Singpass ID
 
-This number is the administrative's contact Singpass ID. In case of a foreign organization use the SGNICID.
+This number is the administrative contact's Singpass ID. In the case of a foreign organization, use the SGNICID.
 
 ## Have more questions?
+
 If you have more questions or need any assistance registering your .SG or .COM.SG domain, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
