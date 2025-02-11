@@ -99,6 +99,18 @@
       }
     }
 
+    blockquote {
+      display: block;
+      padding: var(--dnsimple-support-widget-padding);
+      background: var(--dnsimple-support-widget-light-gray);
+      border-radius: 8px;
+      margin-bottom: var(--dnsimple-support-widget-padding);
+
+      *:last-child {
+        margin-bottom: 0;
+      }
+    }
+
     warning, .marker-warning {
       box-shadow: -6px 0 0 0 var(--dnsimple-support-widget-orange);
     }
