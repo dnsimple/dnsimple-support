@@ -21,7 +21,6 @@ import Header from '../header/component.vue';
 import Article from '../article/component.vue';
 import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
-import GettingStarted from '../getting-started/component.vue';
 
 import "./variables.scss";
 import "./reset.scss";
@@ -36,8 +35,7 @@ export default {
 
     Article,
     Articles,
-    Prompt,
-    GettingStarted
+    Prompt
   },
   props: {
     query: {
@@ -58,7 +56,7 @@ export default {
 
     return {
       app: this,
-      currentRoute: [query ? 'Articles' : 'GettingStarted'],
+      currentRoute: ['Articles'],
       q: query,
       isOpen: false,
       isLoading: true,
@@ -72,8 +70,9 @@ export default {
       if (val.length > 2) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
-      } else if (!val.length)
-        this.go('GettingStarted', undefined, true);
+      } else if (!val.length) {
+        this.go('Article', this.gettingStarted, true);
+      }
     }
   },
 
@@ -84,8 +83,8 @@ export default {
       return articles;
     },
 
-    noResults () {
-      return !this.q || !this.filteredArticles.length;
+    gettingStarted() {
+      return window.DNSimpleSupport.search('/articles/getting-started/')[0]
     }
   },
   methods: {
@@ -107,8 +106,10 @@ export default {
         this.fetchArticles(() => {
           if (this.filteredArticles.length === 1)
             this.go('Article', this.filteredArticles[0]);
-          else if (this.noResults)
+          else if (this.filteredArticles.length === 0) {
+            this.go('Article', this.gettingStarted, true);
             this.focus();
+          }
         });
       }, ANIMATION_TIMEOUT);
     },
@@ -153,6 +154,10 @@ export default {
 
     getCurrentSiteUrl() {
       return this.currentSiteUrl;
+    },
+
+    hasHistory() {
+      return this.history.length > 0
     }
   }
 };
