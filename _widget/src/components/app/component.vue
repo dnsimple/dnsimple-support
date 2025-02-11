@@ -17,7 +17,7 @@ import Header from '../header/component.vue';
 import Article from '../article/component.vue';
 import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
-import Welcome from '../welcome/component.vue';
+import GettingStarted from '../getting-started/component.vue';
 
 import "./variables.scss";
 import "./reset.scss";
@@ -33,7 +33,7 @@ export default {
     Article,
     Articles,
     Prompt,
-    Welcome
+    GettingStarted
   },
   props: {
     query: {
@@ -47,7 +47,7 @@ export default {
 
     return {
       app: this,
-      currentRoute: [query ? 'Articles' : 'Welcome'],
+      currentRoute: [query ? 'Articles' : 'GettingStarted'],
       q: query,
       isOpen: false,
       isLoading: true,
@@ -62,7 +62,7 @@ export default {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
       } else if (!val.length)
-        this.go('Welcome', undefined, true);
+        this.go('GettingStarted', undefined, true);
     }
   },
 
