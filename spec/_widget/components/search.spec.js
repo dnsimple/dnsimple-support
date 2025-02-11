@@ -19,13 +19,13 @@ describe('Search', () => {
 
   describe('.fixRelativeImgSrcs', () => {
     test('makes image sources absolute', () => {
-      const fixed = fixRelativeImgSrcs('this is my <img src="/img.png"> img.');
+      const fixed = fixRelativeImgSrcs('this is my <img src="/img.png"> img.', 'https://support.dnsimple.com');
 
       expect(fixed).toContain('support.dnsimple.com');
     });
 
     test('does not touch external images', () => {
-      const fixed = fixRelativeImgSrcs('this is my <img src="https://howhttps.works/"> img.');
+      const fixed = fixRelativeImgSrcs('this is my <img src="https://howhttps.works/"> img.', 'https://support.dnsimple.com');
 
       expect(fixed).not.toContain('support.dnsimple.com');
     });

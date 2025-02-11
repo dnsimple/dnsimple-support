@@ -19,7 +19,6 @@ const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 30;
 const MIN_SCORE = 15;
 const WHITESPACE = /\s+/;
-const rootURL = 'https://support.dnsimple.com';
 
 const articleScore = (article, q) => {
   if (!q) return 0;
@@ -54,7 +53,7 @@ const prepareArticles = (articles, source) => {
   return articles.map(function (article) {
     article.searchTitle = article.searchTitle || (article.title || '').toLowerCase().replace(PUNCTUATION, '');
     article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
-    article.body = fixRelativeImgSrcs(article.body || '');
+    article.body = fixRelativeImgSrcs(article.body || '', article.source);
     article.categories = article.categories || [];
     article.source = 'https://support.dnsimple.com';
 
@@ -62,10 +61,10 @@ const prepareArticles = (articles, source) => {
   });
 };
 
-const fixRelativeImgSrcs = (str) => {
+const fixRelativeImgSrcs = (str, source) => {
   return str.replace(
     /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
-    'src="' + rootURL + '$1"'
+    'src="' + source + '$1"'
   );
 };
 
