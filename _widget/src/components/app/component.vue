@@ -50,7 +50,7 @@ export default {
     fetch: {
       type: Function,
       default(url) {
-        return window.fetch(url).then((r) => r.json())
+        return window.fetch(url).then((r) => r.json());
       }
     }
   },
@@ -87,7 +87,7 @@ export default {
     },
 
     gettingStarted() {
-      return this.findArticle('/articles/getting-started/')
+      return this.findArticle('/articles/getting-started/');
     }
   },
 
@@ -106,17 +106,17 @@ export default {
     open () {
       this.isOpen = true;
 
-      return new Promise((resolve, _reject) => {
+      return new Promise((resolve) => {
         this.fetchArticles(() => {
-                if (this.filteredArticles.length === 1)
-                  this.go('Article', this.filteredArticles[0]);
-                else if (this.filteredArticles.length === 0) {
-                  this.go('Article', this.gettingStarted, true);
-                  this.focus();
-                }
+          if (this.filteredArticles.length === 1)
+            this.go('Article', this.filteredArticles[0]);
+          else if (this.filteredArticles.length === 0) {
+            this.go('Article', this.gettingStarted, true);
+            this.focus();
+          }
 
-                nextTick(resolve)
-              })
+          resolve();
+        });
       });
     },
 
@@ -146,7 +146,7 @@ export default {
           this.isLoading = false;
           done();
         })
-        .catch(console.error)
+        .catch(console.error);
     },
 
     findArticle(id) {

@@ -50,8 +50,8 @@ describe('App', () => {
   });
 
   describe('open', () => {
-    const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' }
-    const propsData = { fetch: () => Promise.resolve([gettingStarted]) }
+    const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+    const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
 
     it('opens the support widget', async () => {
       const subject = mount(App, { propsData });

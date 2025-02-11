@@ -10,7 +10,7 @@ describe('Article', () => {
         q: '',
         articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }],
         hasHistory() { return false; },
-        findArticle() { return article }
+        findArticle() { return article; }
       },
       article
     }
