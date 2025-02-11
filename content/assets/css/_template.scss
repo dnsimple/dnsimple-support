@@ -1,6 +1,9 @@
 * { box-sizing: border-box; }
 
 .input-search {
+  background: var(--elementInverse);
+  color: var(--gray);
+
   &::-ms-clear {  display: none; width : 0; height: 0; }
   &::-ms-reveal {  display: none; width : 0; height: 0; }
   &::-webkit-search-decoration,
@@ -15,6 +18,7 @@
   right: 10px;
   border: none;
   background: transparent;
+  color: var(--gray);
 }
 
 .bg-pipes {

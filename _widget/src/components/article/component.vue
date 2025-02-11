@@ -78,7 +78,7 @@ export default {
         return a.id === href;
       });
 
-      a.href = `${this.app.rootURL}${href}`;
+      a.href = `${this.article.source}${href}`;
       a.onclick = (event) => {
         event.stopImmediatePropagation();
         event.preventDefault();

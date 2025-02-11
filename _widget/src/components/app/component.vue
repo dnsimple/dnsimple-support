@@ -1,14 +1,18 @@
 <template>
     <div id="dnsimple-support">
-        <div v-if="isOpen" class="relative animated fadeInUp faster">
-            <Header :app="app" ref="header"/>
-            <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
+        <div v-if="isOpen">
+            <div class="overlay" @click="close"></div>
+            <div class="dnsimple-modal animated fadeInUp faster">
+              <Header :app="app" ref="header"/>
+              <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
+            </div>
         </div>
-        <Prompt v-else :app="app"/>
+        <Prompt v-else-if="showPrompt" :app="app"/>
     </div>
 </template>
 
 <script>
+import { nextTick } from 'vue';
 import { urlMatchingDictionary } from './url-dictionary.js';
 
 import Footer from '../footer/component.vue';
@@ -38,6 +42,13 @@ export default {
   props: {
     query: {
       default: ''
+    },
+    showPrompt: {
+      default: true
+    },
+    currentSiteUrl: {
+      type: String,
+      default: ''
     }
   },
   data () {
@@ -51,7 +62,7 @@ export default {
       q: query,
       isOpen: false,
       isLoading: true,
-      rootURL: 'https://support.dnsimple.com',
+      isFetched: false,
       history: []
     };
   },
@@ -68,7 +79,9 @@ export default {
 
   computed: {
     filteredArticles () {
-      return window.DNSimpleSupport.search(this.q);
+      const articles = window.DNSimpleSupport.search(this.q);
+      articles.forEach((a) => { a.source = 'https://support.dnsimple.com'; });
+      return articles;
     },
 
     noResults () {
@@ -101,10 +114,12 @@ export default {
     },
 
     focus () {
-      const $header = this.$refs.header;
+      nextTick(() => {
+        const $header = this.$refs.header;
 
-      if ($header !== null && $header !== undefined)
-        $header.$refs.input.focus();
+        if ($header !== null && $header !== undefined)
+          $header.$refs.input.focus();
+      });
     },
 
     close () {
@@ -112,16 +127,20 @@ export default {
     },
 
     fetchArticles (done) {
+      if (this.isFetched) return done();
+
       const script = document.createElement('script');
 
       this.isLoading = true;
 
       script.type = 'text/javascript';
-      script.src = `${this.rootURL}/search.js`;
+      script.src = `https://support.dnsimple.com/search.js`;
 
       script.onload = () => {
         setTimeout(() => {
+          this.isFetched = true;
           this.isLoading = false;
+          done();
         }, 500);
       };
 
@@ -130,6 +149,10 @@ export default {
 
     setQ (q) {
       this.q = q;
+    },
+
+    getCurrentSiteUrl() {
+      return this.currentSiteUrl;
     }
   }
 };

@@ -1,5 +1,6 @@
 #dnsimple-support-widget {
   position: fixed;
+  z-index: 999;
   bottom: 0;
   right: 0;
   width: 480px;
@@ -7,25 +8,47 @@
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
   color: #222;
-  z-index: 999;
-
-  @media (var(--dnsimple-support-widget-desktop-only)) {
-    display: none;
-  }
 }
 
 #dnsimple-support {
+    z-index: 999;
+
+    .dnsimple-modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 5vh;
+        z-index: 999;
+        max-width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .overlay {
+        position: fixed;
+        z-index: 998;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
     .relative {
       position: relative;
       box-shadow: var(--dnsimple-support-widget-box-shadow);
     }
 
     .route {
-      height: 475px;
-      border-left: 1px solid var(--dnsimple-support-widget-line-color);
+      border: 1px solid var(--dnsimple-support-widget-line-color);
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       padding: var(--dnsimple-support-widget-padding);
       background: var(--dnsimple-support-widget-white);
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      height: 75vh;
     }
 }

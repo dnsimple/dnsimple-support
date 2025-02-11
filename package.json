@@ -32,8 +32,8 @@
   "scripts": {
     "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
     "build": "./node_modules/.bin/webpack && vite build ./_widget",
-    "lint": "eslint _widget content spec",
-    "lint:fix": "eslint _widget content spec --fix",
+    "lint": "eslint _widget src spec",
+    "lint:fix": "eslint _widget src spec --fix",
     "widget": "vite serve ./_widget",
     "test": "jest",
     "test:watch": "jest --watch"

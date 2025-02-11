@@ -8,9 +8,15 @@
         <li v-for="article in app.filteredArticles" :key="article.id">
           <h3>
             <a
+              v-if="article.source === app.getCurrentSiteUrl()"
+              v-html="highlight(article.title, highlighter)"
+              :href="absoluteURL(article, article.id)"
+            ></a>
+            <a
+              v-else
               @click.prevent="app.go('Article', article)"
               v-html="highlight(article.title, highlighter)"
-              :href="absoluteURL(article.id)"
+              :href="absoluteURL(article, article.id)"
             ></a>
           </h3>
 
@@ -62,8 +68,8 @@ export default {
     }
   },
   methods: {
-    absoluteURL (path) {
-      return `${this.app.rootURL}${path}`;
+    absoluteURL (article, path) {
+      return `${article.source}${path}`;
     },
 
     highlight (str, highlighter) {

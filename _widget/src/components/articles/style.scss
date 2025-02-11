@@ -1,6 +1,6 @@
 #dnsimple-support {
   .articles {
-    margin-top: -var(--dnsimple-support-widget-padding);
+    margin-top: calc(var(--dnsimple-support-widget-padding) * -1);
 
     h3 {
       color: var(--dnsimple-support-widget-blue);
