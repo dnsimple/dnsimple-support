@@ -72,9 +72,9 @@ export default {
       if (val.length > 2) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
-      } else if (!val.length)
+      } else if (!val.length) 
         this.go('Article', this.gettingStarted, true);
-
+      
     }
   },
 
