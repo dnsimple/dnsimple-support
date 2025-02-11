@@ -1,11 +1,11 @@
 ---
-title: Webhooks and API events
+title: Webhooks and API Events
 excerpt: This article describes the DNSimple API webhook service delivery and management.
 categories:
 - API
 ---
 
-# Webhooks and API events
+# Webhooks and API Events
 
 ### Table of Contents {#toc}
 
@@ -22,17 +22,15 @@ For more technical information, visit the [Webhook and Events section](https://d
 
 To check your webhook recipients, log in to your account, and navigate to your account page.
 
-Click on the <label>Automation</label> link in the left menu.
-
-![Webhook listing](/files/webhooks-listing.png)
+Click the **Webhooks** tab on the left side.
 
 This shows all the URLs where DNSimple publishes the events that happen in your account.
 
 ## Adding a recipient
 
-Click on the <label>New</label> link to add a new recipient.
+Click **Add** to add a new recipient.
 
-![Add recipient](/files/webhooks-add-recipient.png)
+<!--- needs screenshot -->
 
 You'll be asked for a URL. After you've entered the URL, click on <label>Add Webhook</label> to add the recipient.
 
@@ -57,3 +55,7 @@ When there are suppressed recipients, an alert message appears, and a red exclam
 ![Suppressed recipients](/files/webhooks-clear-suppression.png)
 
 Click on the <label>Clear Suppression</label> button to clear the suppresion and allow the recipient to rececive events again.
+
+## Have more questions? 
+
+If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
