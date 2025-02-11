@@ -21,6 +21,7 @@ import Header from '../header/component.vue';
 import Article from '../article/component.vue';
 import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
+import { search, prepareArticles } from './search.js';
 
 import "./variables.scss";
 import "./reset.scss";
@@ -61,7 +62,8 @@ export default {
       isOpen: false,
       isLoading: true,
       isFetched: false,
-      history: []
+      history: [],
+      articles: []
     };
   },
 
@@ -70,21 +72,19 @@ export default {
       if (val.length > 2) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
-      } else if (!val.length) 
+      } else if (!val.length)
         this.go('Article', this.gettingStarted, true);
-      
+
     }
   },
 
   computed: {
     filteredArticles () {
-      const articles = window.DNSimpleSupport.search(this.q);
-      articles.forEach((a) => { a.source = 'https://support.dnsimple.com'; });
-      return articles;
+      return search(this.q, this.articles);
     },
 
     gettingStarted() {
-      return window.DNSimpleSupport.search('/articles/getting-started/')[0];
+      return this.articles.find((article) => article.id === '/articles/getting-started/');
     }
   },
   methods: {
@@ -130,22 +130,17 @@ export default {
     fetchArticles (done) {
       if (this.isFetched) return done();
 
-      const script = document.createElement('script');
+      const source = `https://support.dnsimple.com/search.json`;
 
-      this.isLoading = true;
-
-      script.type = 'text/javascript';
-      script.src = `https://support.dnsimple.com/search.js`;
-
-      script.onload = () => {
-        setTimeout(() => {
+      fetch(source)
+        .then((response) => response.json())
+        .then((articles) => {
+          prepareArticles(articles, source);
+          this.articles.push(...articles);
           this.isFetched = true;
           this.isLoading = false;
           done();
-        }, 500);
-      };
-
-      document.getElementsByTagName('head')[0].appendChild(script);
+        });
     },
 
     setQ (q) {
