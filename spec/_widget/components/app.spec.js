@@ -63,8 +63,8 @@ describe('App', () => {
       window.location = new URL('https://dnsimple.com/a/1/contacts/');
       const subject = mount(App);
       const expectedTitle = 'Example Title';
-      window.DNSimpleSupport = { search: jest.fn(() => [{ id: '/a', title: expectedTitle }]) };
 
+      subject.vm.articles = [{ id: '/a', title: expectedTitle }]
       subject.vm.isLoading = false; // To avoid the artificial loading delay
 
       await subject.vm.open();

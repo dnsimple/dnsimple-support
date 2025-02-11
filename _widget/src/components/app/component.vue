@@ -72,9 +72,9 @@ export default {
       if (val.length > 2) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
-      } else if (!val.length) 
+      } else if (!val.length)
         this.go('Article', this.gettingStarted, true);
-      
+
     }
   },
 
@@ -84,9 +84,10 @@ export default {
     },
 
     gettingStarted() {
-      return this.articles.find((article) => article.id === '/articles/getting-started/');
+      return this.findArticle('/articles/getting-started/')
     }
   },
+
   methods: {
     go (page, params, ignoreHistory) {
       if (!ignoreHistory)
@@ -141,6 +142,10 @@ export default {
           this.isLoading = false;
           done();
         });
+    },
+
+    findArticle(id) {
+      return this.articles.find((a) => a.id === id);
     },
 
     setQ (q) {

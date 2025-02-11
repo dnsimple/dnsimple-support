@@ -9,7 +9,8 @@ describe('Article', () => {
         track () {},
         q: '',
         articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }],
-        hasHistory() { return false; }
+        hasHistory() { return false; },
+        findArticle() { return article }
       },
       article
     }
@@ -34,7 +35,6 @@ describe('Article', () => {
   });
 
   describe('prepRelativeLink', () => {
-    window.DNSimpleSupport = { articles: [] };
     const a = { getAttribute () { return '/'; } };
 
     it('adds onclick', () => {

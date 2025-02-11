@@ -138,5 +138,8 @@ const search = (q, articles, dictionary = DICTIONARY) => {
 
 export {
   search,
-  prepareArticles
+  prepareArticles,
+  articleScore,
+  dictionaryTermMatches,
+  fixRelativeImgSrcs
 };
