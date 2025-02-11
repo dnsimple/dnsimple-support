@@ -27,8 +27,6 @@ import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
 
-const ANIMATION_TIMEOUT = 500;
-
 export default {
   components: {
     Footer,
@@ -48,6 +46,12 @@ export default {
     currentSiteUrl: {
       type: String,
       default: ''
+    },
+    fetch: {
+      type: Function,
+      default(url) {
+        return window.fetch(url).then((r) => r.json())
+      }
     }
   },
   data () {
@@ -74,7 +78,6 @@ export default {
           this.go('Articles', undefined, true);
       } else if (!val.length)
         this.go('Article', this.gettingStarted, true);
-
     }
   },
 
@@ -103,16 +106,18 @@ export default {
     open () {
       this.isOpen = true;
 
-      setTimeout(() => {
+      return new Promise((resolve, _reject) => {
         this.fetchArticles(() => {
-          if (this.filteredArticles.length === 1)
-            this.go('Article', this.filteredArticles[0]);
-          else if (this.filteredArticles.length === 0) {
-            this.go('Article', this.gettingStarted, true);
-            this.focus();
-          }
-        });
-      }, ANIMATION_TIMEOUT);
+                if (this.filteredArticles.length === 1)
+                  this.go('Article', this.filteredArticles[0]);
+                else if (this.filteredArticles.length === 0) {
+                  this.go('Article', this.gettingStarted, true);
+                  this.focus();
+                }
+
+                nextTick(resolve)
+              })
+      });
     },
 
     focus () {
@@ -133,15 +138,15 @@ export default {
 
       const source = `https://support.dnsimple.com/search.json`;
 
-      fetch(source)
-        .then((response) => response.json())
+      this.fetch(source)
         .then((articles) => {
           prepareArticles(articles, source);
           this.articles.push(...articles);
           this.isFetched = true;
           this.isLoading = false;
           done();
-        });
+        })
+        .catch(console.error)
     },
 
     findArticle(id) {

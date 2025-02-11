@@ -74,7 +74,7 @@ export default {
         .getAttribute('href')
         .replace(/#.*/, '')
         .replace(NO_TRAILING_SLASH, '/');
-      const article = this.app.findArticle(a.id);
+      const article = this.app.findArticle(href);
 
       a.href = `${this.article.source}${href}`;
       a.onclick = (event) => {
