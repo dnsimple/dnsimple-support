@@ -9,7 +9,7 @@ describe('Article', () => {
         track () {},
         q: '',
         articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }],
-        hasHistory() { return false }
+        hasHistory() { return false; }
       },
       article
     }

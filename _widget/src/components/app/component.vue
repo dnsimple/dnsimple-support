@@ -70,9 +70,9 @@ export default {
       if (val.length > 2) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
-      } else if (!val.length) {
+      } else if (!val.length) 
         this.go('Article', this.gettingStarted, true);
-      }
+      
     }
   },
 
@@ -84,7 +84,7 @@ export default {
     },
 
     gettingStarted() {
-      return window.DNSimpleSupport.search('/articles/getting-started/')[0]
+      return window.DNSimpleSupport.search('/articles/getting-started/')[0];
     }
   },
   methods: {
@@ -157,7 +157,7 @@ export default {
     },
 
     hasHistory() {
-      return this.history.length > 0
+      return this.history.length > 0;
     }
   }
 };

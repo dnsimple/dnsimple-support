@@ -81,7 +81,7 @@ describe('App', () => {
 
       expect(subject.vm.isOpen).toEqual(true);
       expect(subject.vm.$el.textContent).toContain('Getting started');
-    })
+    });
   });
 
   describe('close', () => {
