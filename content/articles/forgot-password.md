@@ -36,7 +36,7 @@ If you requested a password reset but have not received the email, follow these 
 - **Verify your email**: Double-check that you entered the correct email address associated with your DNSimple account.
 - **Alternative sign-in methods**: If your account is set up with Google or Okta single sign-on, use the corresponding method to log in instead of requesting a password reset.
 - **Check your Spam folder**: Check if the password reset email was filtered into the Spam or Junk folder.
-- **Account status**: If your domain or account is inactive, you might not receive reset emails. In this case, [reach out to our support team]((https://dnsimple.com/feedback) for assistance.
+- **Account status**: If your domain or account is inactive, you might not receive reset emails. In this case, [reach out to our support team](https://dnsimple.com/feedback) for assistance.
 
 ## Have more questions?
 
