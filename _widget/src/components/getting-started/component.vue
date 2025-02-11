@@ -1,6 +1,5 @@
 <template>
   <div class="route getting-started">
-    <div v-html="trustyIcon" class="mascot"></div>
     <h1>Getting Started with DNSimple</h1>
 
     <h2 id="all-plans">All plans</h2>
@@ -58,16 +57,9 @@
 </template>
 
 <script>
-import { trustyIcon } from '../../assets/svgs';
-
 import "./style.scss";
 
 export default {
   props: ['app'],
-  data () {
-    return {
-      trustyIcon
-    };
-  }
 };
 </script>
