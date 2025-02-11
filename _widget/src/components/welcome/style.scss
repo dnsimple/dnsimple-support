@@ -1,0 +1,24 @@
+#dnsimple-support {
+  .welcome {
+    text-align: center;
+    padding-top: calc(var(--dnsimple-support-widget-padding) * 7);
+
+    h1 {
+      font-weight: bold;
+      color: var(--dnsimple-support-widget-blue);
+      font-size: 160%;
+    }
+
+    p {
+      max-width: 70%;
+      margin: 0 auto;
+      color: var(--dnsimple-support-widget-dark-gray);
+    }
+
+    .mascot {
+      bottom: 0;
+      max-width: 50%;
+      margin: 0 auto calc(var(--dnsimple-support-widget-padding) * 5);
+    }
+  }
+}
