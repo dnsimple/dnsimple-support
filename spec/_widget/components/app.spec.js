@@ -71,6 +71,17 @@ describe('App', () => {
 
       expect(subject.vm.$el.textContent).toContain(expectedTitle);
     });
+
+    it('opens the getting started article', async () => {
+      window.DNSimpleSupport = { search: jest.fn(() => [{ id: '/articles/getting-started/', title: 'Getting started' }]) };
+      const subject = mount(App);
+      subject.vm.isLoading = false; // To avoid the artificial loading delay
+
+      await subject.vm.open();
+
+      expect(subject.vm.isOpen).toEqual(true);
+      expect(subject.vm.$el.textContent).toContain('Getting started');
+    });
   });
 
   describe('close', () => {

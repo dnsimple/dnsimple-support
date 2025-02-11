@@ -8,7 +8,8 @@ describe('Article', () => {
       app: {
         track () {},
         q: '',
-        articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }]
+        articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }],
+        hasHistory() { return false; }
       },
       article
     }

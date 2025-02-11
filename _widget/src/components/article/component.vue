@@ -1,6 +1,6 @@
 <template>
   <div class="route with-footer">
-    <a @click="app.back()" href="javascript:;" class="back">
+    <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
       <div v-html="backIcon"></div>
     </a>
 
