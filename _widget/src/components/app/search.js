@@ -14,11 +14,16 @@ const DICTIONARY = {
   "annual": "yearly",
   "remove": "delete",
   "delegate": "registrar point setting",
-  "payment": "invoice payment"
+  "payment": "invoice payment",
+  "transfer": "transfer dnsimple",
+  "nameservers": "name servers",
+  "domain": "register"
 };
 const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 7;
+const GOOD_SCORE = 10;
 const MIN_SCORE = 10;
+const LOWER_MIN_SCORE = 1;
 const WHITESPACE = /\s+/;
 
 const articleScore = (article, wordsRegex) => {
@@ -26,7 +31,7 @@ const articleScore = (article, wordsRegex) => {
 
   wordsRegex.forEach((wordRegex) => {
     score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
-    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 100;
+    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
   })
 
   return score;
@@ -109,12 +114,11 @@ const findByScore = (articles, words) => {
 
   var wordsRegex = words.map((w) => new RegExp(w, 'ig'))
 
-  return articles
-    .filter((article) => {
-      article.score = articleScore(article, wordsRegex);
-      return article.score > MIN_SCORE;
-    })
-    .sort((a, b) => {
+  articles.forEach((article) => {
+    article.score = articleScore(article, wordsRegex);
+  })
+
+  return articles.sort((a, b) => {
       if (a.score > b.score) return -1;
       if (a.score < b.score) return 1;
       return 0;
@@ -130,9 +134,17 @@ const search = (q, articles, dictionary = DICTIONARY) => {
     return findByCategory(q.slice(4).trim(), articles);
   else {
     q = applyDictionary(dictionary, q);
+
     let words = searchable(q + ' ').split(WHITESPACE)
-    return findByScore(articles, words)
-      .filter((a, index) => index < MAX_RESULTS);
+    let results = findByScore(articles, words);
+
+    if (results.filter((r) => r.score > GOOD_SCORE).length === 0) {
+      results = results.filter((a) => a.score > LOWER_MIN_SCORE)
+    } else {
+      results = results.filter((a) => a.score > MIN_SCORE)
+    }
+
+    return results.filter((a, index) => index < MAX_RESULTS);
   }
 };
 
