@@ -1,5 +1,14 @@
 import Search from '../../../_widget/src/components/app/search.js';
 import ARTICLES from '../../../output/search.json';
+import { trackSearch } from '../../../_widget/src/components/app/analytics.js';
+
+jest.mock('../../../_widget/src/components/app/analytics.js', () => ({
+  trackSearch: jest.fn(),
+}));
+
+beforeEach(() => {
+  jest.clearAllMocks();
+});
 
 describe('Search', () => {
   let subject;
@@ -25,6 +34,13 @@ describe('Search', () => {
 
     expect(article.title).toContain('Getting Started');
    });
+
+    test('calls trackSearch', () => {
+      const results = subject.query('pronounce');
+
+      expect(trackSearch).toHaveBeenCalledTimes(1);
+      expect(trackSearch).toHaveBeenCalledWith('pronounce', ['How to pronounce DNSimple']);
+    });
 
   describe('queries', () => {
     const queries = {

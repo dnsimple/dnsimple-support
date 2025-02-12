@@ -1,3 +1,5 @@
+import { trackSearch } from './analytics.js';
+
 const articleScore = (article, wordsRegex) => {
   let score = 0;
 
@@ -119,7 +121,9 @@ class Search {
   }
 
   query(q) {
-    q = (q || '').toLowerCase();
+    const original_q = q;
+
+    q = (q || '').toLowerCase().trim();
 
     if (q[0] === '/')
       return findByUrl(q, this.articles);
@@ -138,9 +142,16 @@ class Search {
      else
       results = results.filter((r) => r.score > MIN_SCORE);
 
-    return results
+    results = results
       .filter((r, index) => index < MAX_RESULTS)
       .map((r) => r.article);
+
+    if (original_q) {
+      const articleTitles = results.map((r) => r.title);
+      trackSearch(original_q, articleTitles);
+    }
+
+    return results;
   }
 }
 
