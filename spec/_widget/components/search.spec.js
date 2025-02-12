@@ -1,108 +1,157 @@
-import { search, prepareArticles } from '../../../_widget/src/components/app/search.js';
+import Search from '../../../_widget/src/components/app/search.js';
+import ARTICLES from '../../../output/search.json';
 
 describe('Search', () => {
-  it.todo('...');
-  // describe('.articleScore', () => {
-  //   test('can be calculated for a close match', () => {
-  //     const articles = prepareArticles([{ title: 'test' }]);
-  //     const score = articleScore(articles[0], 'test');
+  let subject;
 
-  //     expect(score).toBeGreaterThanOrEqual(90);
-  //   });
+  beforeEach(() => {
+    subject = new Search();
+    subject.addArticles(ARTICLES);
+  });
 
-  //   test('can be calculated for a non-match', () => {
-  //     const articles = prepareArticles([{ title: 'bad' }]);
-  //     const score = articleScore(articles[0], 'test');
+  it('can load articles', () => {
+    expect(subject.query('dns').length).toBeGreaterThan(0);
+  });
 
-  //     expect(score).toBeLessThanOrEqual(10);
-  //   });
-  // });
+  it('can find articles by category', () => {
+    const results = subject.query('cat:dns');
 
-  // describe('.fixRelativeImgSrcs', () => {
-  //   test('makes image sources absolute', () => {
-  //     const fixed = fixRelativeImgSrcs('this is my <img src="/img.png"> img.', 'https://support.dnsimple.com');
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].categories.map((c) => c.toLowerCase())).toContain('dns');
+  });
 
-  //     expect(fixed).toContain('support.dnsimple.com');
-  //   });
+  it('can find an article by a URL', () => {
+    const article = subject.findArticle('/articles/getting-started/');
 
-  //   test('does not touch external images', () => {
-  //     const fixed = fixRelativeImgSrcs('this is my <img src="https://howhttps.works/"> img.', 'https://support.dnsimple.com');
+    expect(article.title).toContain('Getting Started');
+   });
 
-  //     expect(fixed).not.toContain('support.dnsimple.com');
-  //   });
-  // });
+  describe('queries', () => {
+    const queries = {
+      'enable dnssec': {
+        'DNSSEC': 1,
+        'Why DNSSEC and Secondary DNS may not work together': 3
+        },
+      'creating alias record': {
+        'What\'s an ALIAS record?': 3,
+        'Record Editor': 7,
+        // 'Differences Among A, CNAME, ALIAS, and URL records': 3,
+        // 'Common DNS Records': 7
+        },
+      'alias record': {
+        'What\'s an ALIAS record?': 3,
+        'Record Editor': 7,
+        // 'Differences Among A, CNAME, ALIAS, and URL records': 7,
+        // 'Common DNS Records': 7
+        },
+      'request ssl certificate': {
+        "SSL/TLS Certificates": 3,
+        "SSL Certificate Types": 3
+        },
+      'auto-renew certificate': {
+          // "Renewing an SSL Certificate": 7,
+          "Renewing a standard SSL Certificate": 7,
+          "How does an SSL Certificate Renewal work?": 7,
+          "Renewing a Let's Encrypt SSL Certificate": 7,
+        },
+      'delegate name servers to another provider': {
+        'Setting the Name Servers for a Domain': 2,
+        'Pointing a Domain to DNSimple': 5,
+        'DNSimple Name Servers': 5,
+        'Delegating a Domain registered with another Registrar to DNSimple': 7
+        },
+      'create a record': {
+        "Managing A Records": 6
+        },
+      'retry payment': {
+        'Account Invoice History': 4,
+        'Changing Payment Details': 4,
+        'Payment methods': 4,
+        "Understanding Your DNSimple Invoice": 4
+        },
+      'domain host': {
+        "DNS Hosting": 5,
+        "Web Hosting Support": 5,
+        "Registering a Domain": 5,
+        "Email Hosting Support": 5,
+        "Why we don't offer web hosting services": 5
+        },
+      'add user': {
+          "Managing Multiple Members on One Account": 2
+        },
+      'access': {
+          'API Access Token': 2,
+          'Domain Access Control': 2
+        },
+      'dashboard': {
+          'Getting to Know Your DNSimple Dashboard': 1
+        },
+      'mx': {
+          'What\'s an MX Record?': 2,
+          // 'Common DNS Records': 4
+        },
+      'ddns': {
+          'Dynamic DNS': 1
+        },
+      'transfer': {
+          'Transfer a Domain to DNSimple': 3,
+          'Transferring a domain away from DNSimple': 3,
+          'Domain Transfer Pricing': 10,
+          // 'Transfer or Register Domains With DNSimple': 10,
+          // 'Preparing a Domain Transfer to Avoid Downtime': 10,
+          // 'Transferring a Domain to Another DNSimple Account': 10,
+          // 'Transfer Account Ownership': 10,
+          // 'Whois Privacy may cause transfer approval emails to not be delivered': 10
+        },
+      'certificates': {
+          'SSL/TLS Certificates': 7,
+          "SHA-2 SSL Certificates": 7,
+          "SSL Certificates with NGINX": 7,
+          "SSL Certificates with Apache": 7,
+          "SSL Certificates with Heroku": 7,
+          "SSL Certificates with Windows": 7,
+          "Getting Started with SSL Certificates": 7,
+          // 'SSL Certificates Frequently Asked Questions': 10,
+          // 'What is a Certificate Authority?': 10,
+          // 'What is the SSL Certificate Common Name?': 10,
+          // 'What is the CSR?': 10,
+          // 'What is the SSL Certificate Chain?': 10,
+          // 'What is a Root Certificate?': 10,
+          // 'What is the Subject Alternative Name (SAN)?': 10,
+          // 'How long does it take to issue an SSL certificate?': 10,
+          // 'How do I determine the Certificate Authority that signed my SSL certificate?': 10,
+          // 'How does an SSL Certificate Renewal work?': 10,
+          // 'SSL Certificate Authorities used by DNSimple': 10,
+          // 'Let\'s Encrypt': 10,
+          // 'Standard vs Let\'s Encrypt SSL Certificates': 10,
+          // 'Let\'s Encrypt and DNSimple': 10,
+          // 'Ordering a Let\'s Encrypt Certificate': 10,
+          // 'Renewing a Let\'s Encrypt SSL Certificate': 10,
+          // 'Ordering a Standard SSL Certificate': 10,
+          // 'Ordering a Wildcard SSL Certificate': 10,
+          // 'Re-issuing an SSL Certificate': 10,
+          // 'Renewing an SSL Certificate': 10,
+          // 'Renewing a standard SSL Certificate': 10,
+          // 'How can I select a different SSL certificate domain validation email?': 10,
+          // 'Choosing the SSL Certificate Names': 10,
+          // 'I got an ECC-signed certificate but want RSA': 10,
+          // 'Installing an SSL Certificate': 10,
+          // 'SSL Certificates with Microsoft Azure': 10,
+        }
+      };
 
-  // describe('.dictionaryTermMatches', () => {
-  //   test('for a perfect match', () => {
-  //     const q = dictionaryTermMatches('close', 'close');
+     for (const q in queries) {
+       const expectedArticles = queries[q] ;
 
-  //     expect(q).toBeTruthy();
-  //   });
+      it(`\`${q}\``, () => {
+        const results = subject.query(q);
 
-  //   test('for a partial match', () => {
-  //     const q = dictionaryTermMatches('clo', 'close');
+        for (const title in expectedArticles) {
+          const minimumRank = expectedArticles[title];
 
-  //     expect(q).toBeTruthy();
-  //   });
-
-  //   test('for an over-match', () => {
-  //     const q = dictionaryTermMatches('close my account', 'close');
-
-  //     expect(q).toBeTruthy();
-  //   });
-  // });
-
-  // describe('.search', () => {
-  //   const dictionary = {
-  //     close: 'unsubscribe'
-  //   };
-
-  //   test('finds an article by a URL', () => {
-  //     const articles = prepareArticles([{ id: '/articles/my-article', title: 'My Article' }, { id: '/not-a-match' }]);
-  //     const results = search('/articles/my-article', articles, {});
-
-  //     expect(results).toHaveLength(1);
-  //     expect(results[0].title).toContain('My Article');
-  //   });
-
-  //   test('finds the best article', () => {
-  //     const articles = prepareArticles([{ title: 'Unsubscribe Your Account' }]);
-  //     const results = search('clo', articles, dictionary);
-
-  //     expect(results).toHaveLength(1);
-  //     expect(results[0].title).toContain('Unsubscribe');
-  //   });
-
-  //   test('ignores irrelevant article', () => {
-  //     const articles = prepareArticles([{ title: 'Irrelevant' }]);
-  //     const results = search('clo', articles, dictionary);
-
-  //     expect(results).toHaveLength(0);
-  //   });
-
-  //   test('finds a category', () => {
-  //     const articles = prepareArticles([{ title: 'Categorized', categories: ['dns'] }, { title: 'Non-Categorized' }]);
-  //     const results = search('cat:dns', articles, dictionary);
-
-  //     expect(results).toHaveLength(1);
-  //     expect(results[0].title).toContain('Categorized');
-  //   });
-
-  //   test('applies the dictionary', () => {
-  //     const articles = prepareArticles([{ title: 'Unsubscribed' }, { title: 'Another Article' }]);
-  //     const results = search('close', articles, dictionary);
-
-  //     expect(results).toHaveLength(1);
-  //     expect(results[0].title).toContain('Unsubscribed');
-  //   });
-
-  //   test('ranks by score', () => {
-  //     const articles = prepareArticles([{ title: 'Unsubscribed' }, { title: 'Less Relevant', body: 'Unsubscribed' }, { title: 'Irrelevant' }]);
-  //     const results = search('close', articles, dictionary);
-
-  //     expect(results).toHaveLength(2);
-  //     expect(results[0].title).toContain('Unsubscribed');
-  //     expect(results[1].title).toContain('Less Relevant');
-  //   });
-  // });
+          expect(results.filter((_, i) => i < minimumRank).map((a) => a.title)).toContain(title);
+        }
+      });
+      }
+  });
 });
