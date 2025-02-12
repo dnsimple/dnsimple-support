@@ -55,14 +55,13 @@ export default {
     }
   },
   data () {
-    const query = this.query || urlMatchingDictionary(window.location.href);
-
     window.support = this;
 
     return {
       app: this,
       currentRoute: ['Articles'],
-      q: query,
+      initialQ: this.query || urlMatchingDictionary(window.location.href) || '/articles/getting-started/',
+      q: '',
       isOpen: false,
       isLoading: true,
       isFetched: false,
@@ -73,7 +72,7 @@ export default {
 
   watch: {
     q (val) {
-      if (val.length > 2) {
+      if (val.length > 1) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
       } else if (!val.length)
@@ -83,7 +82,7 @@ export default {
 
   computed: {
     filteredArticles () {
-      return search(this.q, this.articles);
+      return search(this.q || this.initialQ, this.articles);
     },
 
     gettingStarted() {
@@ -109,7 +108,7 @@ export default {
       return new Promise((resolve) => {
         this.fetchArticles(() => {
           if (this.filteredArticles.length === 1)
-            this.go('Article', this.filteredArticles[0]);
+            this.go('Article', this.filteredArticles[0], true);
           else if (this.filteredArticles.length === 0) {
             this.go('Article', this.gettingStarted, true);
             this.focus();
@@ -136,9 +135,9 @@ export default {
     fetchArticles (done) {
       if (this.isFetched) return done();
 
-      const source = `https://support.dnsimple.com/search.json`;
+      const source = 'https://support.dnsimple.com'
 
-      this.fetch(source)
+      this.fetch(`${source}/search.json`)
         .then((articles) => {
           prepareArticles(articles, source);
           this.articles.push(...articles);
