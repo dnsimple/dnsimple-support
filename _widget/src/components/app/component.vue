@@ -52,7 +52,7 @@ export default {
     },
     search: {
       type: Object,
-      default() { return new Search() }
+      default() { return new Search(); }
     }
   },
   data () {
@@ -138,7 +138,7 @@ export default {
 
       this.fetch(`${source}/search.json`)
         .then((articles) => {
-          this.addArticles(articles, source)
+          this.addArticles(articles, source);
           this.isFetched = true;
           this.isLoading = false;
           done();
@@ -147,7 +147,7 @@ export default {
     },
 
     query(q) {
-      return this.search.query(q)
+      return this.search.query(q);
     },
 
     findArticle(id) {

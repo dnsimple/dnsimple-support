@@ -53,7 +53,7 @@ const findByUrl = (url, articles) => {
 const findByCategory = (category, articles) => {
   return articles
     .filter((article) => {
-      return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1;
+      return !category || article.categories.map((c) => c.toLowerCase()).indexOf(category) !== -1;
     })
     .sort((a, b) => {
       if (a.title > b.title) return 1;
@@ -74,7 +74,7 @@ const resultsWithScore = (articles, words) => {
     return {
       score: articleScore(article, wordsRegex),
       article
-    }
+    };
   }).sort((a, b) => {
     if (a.score > b.score) return -1;
     if (a.score < b.score) return 1;
@@ -82,7 +82,7 @@ const resultsWithScore = (articles, words) => {
   });
 };
 
-import DICTIONARY from './dictionary.js'
+import DICTIONARY from './dictionary.js';
 
 const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 7;
@@ -93,8 +93,8 @@ const WHITESPACE = /\s+/;
 
 class Search {
   constructor(dictionary = DICTIONARY) {
-    this.articles = []
-    this.dictionary = DICTIONARY
+    this.articles = [];
+    this.dictionary = DICTIONARY;
   }
 
   addArticles(articles, source) {
@@ -106,12 +106,12 @@ class Search {
         body: fixRelativeImgSrcs(article.body || '', source),
         searchTitle: searchable((article.title || '') + ' '),
         searchBody: searchable((article.body || '') + ' '),
-        categories: article.categories,
+        categories: article.categories || [],
         source
       };
     });
 
-    this.articles.push(...preppedArticles)
+    this.articles.push(...preppedArticles);
   }
 
   findArticle(id) {
@@ -127,20 +127,21 @@ class Search {
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
 
+
     q = applyDictionary(this.dictionary, q);
 
     let words = searchable(q + ' ').split(WHITESPACE);
     let results = resultsWithScore(this.articles, words);
 
     if (results.filter((r) => r.score > GOOD_SCORE).length === 0)
-      results = results.filter((r) => r.score > LOWER_MIN_SCORE)
+      results = results.filter((r) => r.score > LOWER_MIN_SCORE);
      else
-      results = results.filter((r) => r.score > MIN_SCORE)
+      results = results.filter((r) => r.score > MIN_SCORE);
 
     return results
       .filter((r, index) => index < MAX_RESULTS)
-      .map((r) => r.article)
+      .map((r) => r.article);
   }
 }
 
-export default Search
+export default Search;
