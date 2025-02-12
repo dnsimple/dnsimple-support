@@ -74,9 +74,7 @@ export default {
         .getAttribute('href')
         .replace(/#.*/, '')
         .replace(NO_TRAILING_SLASH, '/');
-      const article = window.DNSimpleSupport.articles.find((a) => {
-        return a.id === href;
-      });
+      const article = this.app.findArticle(href);
 
       a.href = `${this.article.source}${href}`;
       a.onclick = (event) => {

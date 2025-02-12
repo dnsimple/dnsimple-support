@@ -1,12 +1,27 @@
-var ARTICLES = <%= articles %>;
-var DICTIONARY = <%= dictionary %>;
-var MAX_RESULTS = 30;
-var MIN_SCORE = 15;
-var PUNCTUATION = /['";.()?-]/g;
-var WHITESPACE = /\s+/;
-var rootURL = 'https://support.dnsimple.com';
+// Items are matched in the order
+// Dictionary only works with lowercase with no punctuation
 
-var articleScore = function articleScore (article, q) {
+const DICTIONARY = {
+  "user": "user settings",
+  "close": "unsubscribe",
+  "cancel": "unsubscribe",
+  "delete account": "unsubscribe",
+  "letsencrypt": "lets encrypt",
+  "membership": "share management",
+  "team": "member",
+  "annual": "yearly",
+  "remove": "deleting",
+  "delete": "deleting",
+  "editor": "record editor",
+  "record": "record editor"
+};
+const PUNCTUATION = /['";.()?-]/g;
+const MAX_RESULTS = 30;
+const MIN_SCORE = 15;
+const WHITESPACE = /\s+/;
+const rootURL = 'https://support.dnsimple.com';
+
+const articleScore = (article, q) => {
   if (!q) return 0;
 
   var score = 0;
@@ -35,26 +50,26 @@ var articleScore = function articleScore (article, q) {
   return score;
 };
 
-var loadArticles = function loadArticles (articles) {
+const prepareArticles = (articles, source) => {
   return articles.map(function (article) {
     article.searchTitle = article.searchTitle || (article.title || '').toLowerCase().replace(PUNCTUATION, '');
     article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
     article.body = fixRelativeImgSrcs(article.body || '');
     article.categories = article.categories || [];
-    article.source = 'https://support.dnsimple.com';
+    article.source = source;
 
     return article;
   });
 };
 
-var fixRelativeImgSrcs = function fixRelativeImgSrcs (str) {
+const fixRelativeImgSrcs = (str) => {
   return str.replace(
     /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
     'src="' + rootURL + '$1"'
   );
 };
 
-var dictionaryTermMatches = function dictionaryTermMatches (q, term) {
+const dictionaryTermMatches = (q, term) => {
   var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0;
   var firstSpace = term.indexOf(' ');
   var termHasSpace = firstSpace !== -1;
@@ -62,7 +77,7 @@ var dictionaryTermMatches = function dictionaryTermMatches (q, term) {
   return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
 };
 
-var applyDictionary = function applyDictionary (dictionary, q) {
+const applyDictionary = (dictionary, q) => {
   q = q.replace(PUNCTUATION, '');
 
   if (q.length >= 3)
@@ -73,13 +88,13 @@ var applyDictionary = function applyDictionary (dictionary, q) {
   return q;
 };
 
-var findByUrl = function findByUrl (url, articles) {
+const findByUrl = (url, articles) => {
   return articles.filter(function (article) {
     return article.id === url;
   });
 };
 
-var findByCategory = function findByCategory (category, articles) {
+const findByCategory = (category, articles) => {
   return articles
     .filter(function (article) {
       return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1;
@@ -91,7 +106,7 @@ var findByCategory = function findByCategory (category, articles) {
     });
 };
 
-var findByScore = function findByScore (q, articles) {
+const findByScore = (q, articles) => {
   return articles
     .filter(function (article) {
       article.score = articleScore(article, q);
@@ -107,9 +122,8 @@ var findByScore = function findByScore (q, articles) {
     });
 };
 
-var search = function search (q, articles, dictionary) {
+const search = (q, articles, dictionary = DICTIONARY) => {
   q = (q || '').toLowerCase().trim();
-  articles = articles || ARTICLES;
 
   if (q[0] === '/')
     return findByUrl(q, articles);
@@ -117,25 +131,15 @@ var search = function search (q, articles, dictionary) {
   if (q.slice(0, 4) === 'cat:')
     return findByCategory(q.slice(4).trim(), articles);
 
-  q = applyDictionary(dictionary || DICTIONARY, q);
+  q = applyDictionary(dictionary, q);
 
   return findByScore(q, articles);
 };
 
-if (typeof module === 'object' && typeof module.exports === 'object')
-  module.exports = {
-    search: search,
-    applyDictionary: applyDictionary,
-    articleScore: articleScore,
-    loadArticles: loadArticles,
-    fixRelativeImgSrcs: fixRelativeImgSrcs,
-    dictionaryTermMatches: dictionaryTermMatches
-  };
-else
-  (function () {
-    window.DNSimpleSupport = window.DNSimpleSupport || {};
-    window.DNSimpleSupport.search = search;
-    window.DNSimpleSupport.articles = ARTICLES;
-
-    loadArticles(ARTICLES);
-  })();
+export {
+  search,
+  prepareArticles,
+  articleScore,
+  dictionaryTermMatches,
+  fixRelativeImgSrcs
+};

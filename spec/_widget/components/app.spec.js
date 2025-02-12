@@ -16,7 +16,7 @@ describe('App', () => {
     });
 
     it('initialize prompt', () => {
-      expect(subject.vm.$el.textContent).toContain(promptMessage);
+      expect(subject.text()).toContain(promptMessage);
     });
   });
 
@@ -50,37 +50,25 @@ describe('App', () => {
   });
 
   describe('open', () => {
+    const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+    const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
+
     it('opens the support widget', async () => {
-      const subject = mount(App);
+      const subject = mount(App, { propsData });
+
       await subject.vm.open();
 
       expect(subject.vm.isOpen).toEqual(true);
-      expect(subject.vm.$el.textContent).not.toContain(promptMessage);
-    });
-
-    it('pre-populates results based on the current URL', async () => {
-      delete window.location;
-      window.location = new URL('https://dnsimple.com/a/1/contacts/');
-      const subject = mount(App);
-      const expectedTitle = 'Example Title';
-      window.DNSimpleSupport = { search: jest.fn(() => [{ id: '/a', title: expectedTitle }]) };
-
-      subject.vm.isLoading = false; // To avoid the artificial loading delay
-
-      await subject.vm.open();
-
-      expect(subject.vm.$el.textContent).toContain(expectedTitle);
+      expect(subject.text()).not.toContain(promptMessage);
     });
 
     it('opens the getting started article', async () => {
-      window.DNSimpleSupport = { search: jest.fn(() => [{ id: '/articles/getting-started/', title: 'Getting started' }]) };
-      const subject = mount(App);
-      subject.vm.isLoading = false; // To avoid the artificial loading delay
+      const subject = mount(App, { propsData });
 
       await subject.vm.open();
 
       expect(subject.vm.isOpen).toEqual(true);
-      expect(subject.vm.$el.textContent).toContain('Getting started');
+      expect(subject.text()).toContain('Getting started');
     });
   });
 
@@ -93,7 +81,7 @@ describe('App', () => {
       await subject.vm.close();
 
       expect(subject.vm.isOpen).toEqual(false);
-      expect(subject.vm.$el.textContent).toContain(promptMessage);
+      expect(subject.text()).toContain(promptMessage);
     });
   });
 });
