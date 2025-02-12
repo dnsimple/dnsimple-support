@@ -25,36 +25,6 @@ const articleScore = (article, wordsRegex) => {
   let score = 0;
 
   wordsRegex.forEach((wordRegex) => {
-    // if (article.searchTitle.indexOf('alias') !== -1) {
-    //   // console.log({
-    //   //   title: article.searchTitle,
-    //   //   wordRegex,
-    //   //   title: (article.searchTitle.match(wordRegex) || []).length * 100 / article.searchTitle.length,
-    //   //   body: (article.searchBody.match(wordRegex) || []).length * 10 / article.searchBody.length,
-    //   //   searchBody: article.searchBody
-    //   // })
-    // }
-
-    // if (article.id.indexOf('encrypt') !== -1) {
-    //   console.log({
-    //     wordRegex,
-    //     title: (article.searchTitle.match(wordRegex) || []).length,
-    //     body: (article.searchBody.match(wordRegex) || []).length,
-    //     searchTitle: (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 5000,
-    //     searchBody: (article.searchBody.match(wordRegex) || []).length / article.searchBody.length / 5 * 10,
-    //   })
-    // }
-
-    // if (article.id.indexOf('/articles/alias-record/') !== -1 || article.id.indexOf('/articles/record-editor/') !== -1) {
-    //   console.log({
-    //     id: article.id,
-    //     wordRegex,
-    //     score,
-    //     searchTitle: (article.searchTitle.match(wordRegex) || []).length,
-    //     searchBody: (article.searchBody.match(wordRegex) || []).length,
-    //   })
-    // }
-
     score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
     score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 100;
   })
