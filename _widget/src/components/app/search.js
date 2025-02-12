@@ -56,7 +56,7 @@ const prepareArticles = (articles, source) => {
     article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
     article.body = fixRelativeImgSrcs(article.body || '');
     article.categories = article.categories || [];
-    article.source = 'https://support.dnsimple.com';
+    article.source = source;
 
     return article;
   });
