@@ -106,11 +106,11 @@ const findByCategory = (category, articles) => {
 };
 
 const findByScore = (articles, words) => {
-  if (!words.length) return []
-
   if (words[words.length - 1].length <= 1) {
     words.pop()
   }
+
+  if (!words.length) return []
 
   var wordsRegex = words.map((w) => new RegExp(w, 'ig'))
 
