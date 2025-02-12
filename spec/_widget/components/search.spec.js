@@ -104,6 +104,15 @@ describe('Search', () => {
       expect(results[0].title).toContain('Unsubscribed');
     });
 
+    test('ranks by score', () => {
+      const articles = prepareArticles([{ title: 'Unsubscribed' }, { title: 'Less Relevant', body: 'Unsubscribed' }, { title: 'Irrelevant' }]);
+      const results = search('close', articles, dictionary);
+
+      expect(results).toHaveLength(2);
+      expect(results[0].title).toContain('Unsubscribed');
+      expect(results[1].title).toContain('Less Relevant');
+    });
+
     test('calls trackSearch', () => {
       const articles = prepareArticles([{ id: '/articles/my-article', title: 'My Article' }, { id: '/not-a-match' }]);
       const results = search('my', articles, {});
