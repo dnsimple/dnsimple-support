@@ -1,4 +1,13 @@
 import { search, prepareArticles, dictionaryTermMatches, articleScore, fixRelativeImgSrcs } from '../../../_widget/src/components/app/search.js';
+import { trackSearch } from '../../../_widget/src/components/app/analytics.js';
+
+jest.mock('../../../_widget/src/components/app/analytics.js', () => ({
+  trackSearch: jest.fn(),
+}));
+
+beforeEach(() => {
+  jest.clearAllMocks();
+});
 
 describe('Search', () => {
   describe('.articleScore', () => {
@@ -102,6 +111,14 @@ describe('Search', () => {
       expect(results).toHaveLength(2);
       expect(results[0].title).toContain('Unsubscribed');
       expect(results[1].title).toContain('Less Relevant');
+    });
+
+    test('calls trackSearch', () => {
+      const articles = prepareArticles([{ id: '/articles/my-article', title: 'My Article' }, { id: '/not-a-match' }]);
+      const results = search('my', articles, {});
+
+      expect(trackSearch).toHaveBeenCalledTimes(1);
+      expect(trackSearch).toHaveBeenCalledWith('my', ['My Article']);
     });
   });
 });

@@ -1,3 +1,5 @@
+import { trackSearch } from './analytics.js';
+
 // Items are matched in the order
 // Dictionary only works with lowercase with no punctuation
 
@@ -123,6 +125,8 @@ const findByScore = (q, articles) => {
 };
 
 const search = (q, articles, dictionary = DICTIONARY) => {
+  const original_q = q;
+
   q = (q || '').toLowerCase().trim();
 
   if (q[0] === '/')
@@ -133,7 +137,14 @@ const search = (q, articles, dictionary = DICTIONARY) => {
 
   q = applyDictionary(dictionary, q);
 
-  return findByScore(q, articles);
+  const results = findByScore(q, articles);
+
+  if (original_q) {
+    const articleTitles = results.map((r) => r.title);
+    trackSearch(original_q, articleTitles);
+  }
+
+  return results;
 };
 
 export {
