@@ -135,7 +135,7 @@ export default {
     fetchArticles (done) {
       if (this.isFetched) return done();
 
-      const source = 'https://support.dnsimple.com'
+      const source = 'https://support.dnsimple.com';
 
       this.fetch(`${source}/search.json`)
         .then((articles) => {

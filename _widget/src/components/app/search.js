@@ -32,7 +32,7 @@ const articleScore = (article, wordsRegex) => {
   wordsRegex.forEach((wordRegex) => {
     score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
     score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
-  })
+  });
 
   return score;
 };
@@ -49,13 +49,13 @@ const searchable = (str) => {
     .replace(/ies[\s|\.]/g, ' ')
     .replace(/al[\s|\.]/g, ' ')
     .replace(/ge[\s|\.]/g, 'g ')
-    .trim()
-}
+    .trim();
+};
 
 const prepareArticles = (articles, source) => {
   return articles.map((article) => {
-    article.searchTitle = article.searchTitle || searchable((article.title || '') + ' ')
-    article.searchBody = article.searchBody || searchable((article.body || '') + ' ')
+    article.searchTitle = article.searchTitle || searchable((article.title || '') + ' ');
+    article.searchBody = article.searchBody || searchable((article.body || '') + ' ');
     article.body = fixRelativeImgSrcs(article.body || '', source);
     article.categories = article.categories || [];
     article.source = source;
@@ -80,9 +80,9 @@ const dictionaryTermMatches = (q, term) => {
 };
 
 const applyDictionary = (dictionary, q) => {
-  for (const word in dictionary) {
-    q = q.replace(word, dictionary[word])
-  }
+  for (const word in dictionary) 
+    q = q.replace(word, dictionary[word]);
+  
 
   return q;
 };
@@ -106,23 +106,23 @@ const findByCategory = (category, articles) => {
 };
 
 const findByScore = (articles, words) => {
-  if (words[words.length - 1].length <= 1) {
-    words.pop()
-  }
+  if (words[words.length - 1].length <= 1) 
+    words.pop();
+  
 
-  if (!words.length) return []
+  if (!words.length) return [];
 
-  var wordsRegex = words.map((w) => new RegExp(w, 'ig'))
+  var wordsRegex = words.map((w) => new RegExp(w, 'ig'));
 
   articles.forEach((article) => {
     article.score = articleScore(article, wordsRegex);
-  })
+  });
 
   return articles.sort((a, b) => {
       if (a.score > b.score) return -1;
       if (a.score < b.score) return 1;
       return 0;
-    })
+    });
 };
 
 const search = (q, articles, dictionary = DICTIONARY) => {
@@ -135,14 +135,14 @@ const search = (q, articles, dictionary = DICTIONARY) => {
   else {
     q = applyDictionary(dictionary, q);
 
-    let words = searchable(q + ' ').split(WHITESPACE)
+    let words = searchable(q + ' ').split(WHITESPACE);
     let results = findByScore(articles, words);
 
-    if (results.filter((r) => r.score > GOOD_SCORE).length === 0) {
-      results = results.filter((a) => a.score > LOWER_MIN_SCORE)
-    } else {
-      results = results.filter((a) => a.score > MIN_SCORE)
-    }
+    if (results.filter((r) => r.score > GOOD_SCORE).length === 0) 
+      results = results.filter((a) => a.score > LOWER_MIN_SCORE);
+     else 
+      results = results.filter((a) => a.score > MIN_SCORE);
+    
 
     return results.filter((a, index) => index < MAX_RESULTS);
   }

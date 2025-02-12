@@ -1,7 +1,7 @@
 import { search, prepareArticles, dictionaryTermMatches, articleScore, fixRelativeImgSrcs } from '../../../_widget/src/components/app/search.js';
 
 describe('Search', () => {
-  it.todo('...')
+  it.todo('...');
   // describe('.articleScore', () => {
   //   test('can be calculated for a close match', () => {
   //     const articles = prepareArticles([{ title: 'test' }]);
