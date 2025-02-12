@@ -151,7 +151,7 @@ export default {
     },
 
     findArticle(id) {
-      return this.search.findById(id);
+      return this.search.findArticle(id);
     },
 
     addArticles(articles, source) {

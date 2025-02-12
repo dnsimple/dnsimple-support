@@ -114,7 +114,7 @@ class Search {
     this.articles.push(...preppedArticles)
   }
 
-  findById(id) {
+  findArticle(id) {
     return this.articles.find((a) => a.id === id);
   }
 
