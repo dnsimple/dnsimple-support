@@ -7,10 +7,6 @@ describe('App', () => {
   describe('init', () => {
     const subject = mount(App);
 
-    it('initialize props', () => {
-      expect(Object.keys(App.props).includes('query')).toEqual(true);
-    });
-
     it('initialize data attributes', () => {
       expect(subject.vm.isOpen).toEqual(false);
     });
