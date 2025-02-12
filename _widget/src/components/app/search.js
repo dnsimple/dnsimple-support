@@ -11,24 +11,34 @@ const articleScore = (article, wordsRegex) => {
   return score;
 };
 
+const HTML_REGEX = /<[^>]*>/g;
+const QUOTE_REGEX = /['"]/g;
+const NON_WORD_REGEX = /[^\w]+?/g;
+const ING_REGEX = /in?g?[\s|\.]/g;
+const ED_REGEX = /ed[\s|\.]/g;
+const IES_REGEX = /ies[\s|\.]/g;
+const AL_REGEX = /al[\s|\.]/g;
+const GE_REGEX = /ge[\s|\.]/g;
+
 const searchable = (str) => {
   return str
-    .replace(/<[^>]*>/g, ' ')
+    .replace(HTML_REGEX, ' ')
     .toLowerCase()
-    .replace(/['"]/g, '')
-    .replace(/[^\w]+?/g, ' ')
-    .replace(/in?g?[\s|\.]/g, ' ')
-    .replace(/ed[\s|\.]/g, ' ')
-    .replace(/ies[\s|\.]/g, ' ')
-    .replace(/ies[\s|\.]/g, ' ')
-    .replace(/al[\s|\.]/g, ' ')
-    .replace(/ge[\s|\.]/g, 'g ')
+    .replace(QUOTE_REGEX, '')
+    .replace(NON_WORD_REGEX, ' ')
+    .replace(ING_REGEX, ' ')
+    .replace(ED_REGEX, ' ')
+    .replace(IES_REGEX, ' ')
+    .replace(AL_REGEX, ' ')
+    .replace(GE_REGEX, 'g ')
     .trim();
 };
 
+const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
+
 const fixRelativeImgSrcs = (str, source) => {
   return str.replace(
-    /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
+    RELATIVE_IMG_REGEX,
     'src="' + source + '$1"'
   );
 };
