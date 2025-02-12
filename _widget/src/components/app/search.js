@@ -1,31 +1,3 @@
-// Items are matched in the order
-// Dictionary only works with lowercase with no punctuation
-
-const DICTIONARY = {
-  "add user": "member",
-  "remove user": "member",
-  "user": "user settings",
-  "close": "unsubscribe",
-  "cancel": "unsubscribe",
-  "delete account": "unsubscribe",
-  "letsencrypt": "lets encrypt",
-  "membership": "share management",
-  "team": "member",
-  "annual": "yearly",
-  "remove": "delete",
-  "delegate": "registrar point setting",
-  "payment": "invoice payment",
-  "transfer": "transfer dnsimple",
-  "nameservers": "name servers",
-  "domain": "register"
-};
-const PUNCTUATION = /['";.()?-]/g;
-const MAX_RESULTS = 7;
-const GOOD_SCORE = 10;
-const MIN_SCORE = 10;
-const LOWER_MIN_SCORE = 1;
-const WHITESPACE = /\s+/;
-
 const articleScore = (article, wordsRegex) => {
   let score = 0;
 
@@ -52,18 +24,6 @@ const searchable = (str) => {
     .trim();
 };
 
-const prepareArticles = (articles, source) => {
-  return articles.map((article) => {
-    article.searchTitle = article.searchTitle || searchable((article.title || '') + ' ');
-    article.searchBody = article.searchBody || searchable((article.body || '') + ' ');
-    article.body = fixRelativeImgSrcs(article.body || '', source);
-    article.categories = article.categories || [];
-    article.source = source;
-
-    return article;
-  });
-};
-
 const fixRelativeImgSrcs = (str, source) => {
   return str.replace(
     /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
@@ -83,14 +43,11 @@ const applyDictionary = (dictionary, q) => {
   for (const word in dictionary) 
     q = q.replace(word, dictionary[word]);
   
-
   return q;
 };
 
 const findByUrl = (url, articles) => {
-  return articles.filter((article) => {
-    return article.id === url;
-  });
+  return articles.filter((article) => article.id === url);
 };
 
 const findByCategory = (category, articles) => {
@@ -105,53 +62,85 @@ const findByCategory = (category, articles) => {
     });
 };
 
-const findByScore = (articles, words) => {
+const resultsWithScore = (articles, words) => {
   if (words[words.length - 1].length <= 1) 
     words.pop();
   
-
   if (!words.length) return [];
 
   var wordsRegex = words.map((w) => new RegExp(w, 'ig'));
 
-  articles.forEach((article) => {
-    article.score = articleScore(article, wordsRegex);
+  return articles.map((article) => {
+    return {
+      score: articleScore(article, wordsRegex),
+      article
+    }
+  }).sort((a, b) => {
+    if (a.score > b.score) return -1;
+    if (a.score < b.score) return 1;
+    return 0;
   });
-
-  return articles.sort((a, b) => {
-      if (a.score > b.score) return -1;
-      if (a.score < b.score) return 1;
-      return 0;
-    });
 };
 
-const search = (q, articles, dictionary = DICTIONARY) => {
-  q = (q || '').toLowerCase();
+import DICTIONARY from './dictionary.js'
 
-  if (q[0] === '/')
-    return findByUrl(q, articles);
-  else if (q.slice(0, 4) === 'cat:')
-    return findByCategory(q.slice(4).trim(), articles);
-  else {
-    q = applyDictionary(dictionary, q);
+const PUNCTUATION = /['";.()?-]/g;
+const MAX_RESULTS = 7;
+const GOOD_SCORE = 10;
+const MIN_SCORE = 10;
+const LOWER_MIN_SCORE = 1;
+const WHITESPACE = /\s+/;
+
+class Search {
+  constructor(dictionary = DICTIONARY) {
+    this.articles = []
+    this.dictionary = DICTIONARY
+  }
+
+  addArticles(articles, source) {
+    const preppedArticles = articles.map((article) => {
+      return {
+        id: article.id,
+        title: article.title,
+        excerpt: article.excerpt,
+        body: fixRelativeImgSrcs(article.body || '', source),
+        searchTitle: searchable((article.title || '') + ' '),
+        searchBody: searchable((article.body || '') + ' '),
+        categories: article.categories,
+        source
+      };
+    });
+
+    this.articles.push(...preppedArticles)
+  }
+
+  findById(id) {
+    return this.articles.find((a) => a.id === id);
+  }
+
+  query(q) {
+    q = (q || '').toLowerCase();
+
+    if (q[0] === '/')
+      return findByUrl(q, this.articles);
+
+    if (q.slice(0, 4) === 'cat:')
+      return findByCategory(q.slice(4).trim(), this.articles);
+
+    q = applyDictionary(this.dictionary, q);
 
     let words = searchable(q + ' ').split(WHITESPACE);
-    let results = findByScore(articles, words);
+    let results = resultsWithScore(this.articles, words);
 
-    if (results.filter((r) => r.score > GOOD_SCORE).length === 0) 
-      results = results.filter((a) => a.score > LOWER_MIN_SCORE);
-     else 
-      results = results.filter((a) => a.score > MIN_SCORE);
-    
+    if (results.filter((r) => r.score > GOOD_SCORE).length === 0)
+      results = results.filter((r) => r.score > LOWER_MIN_SCORE)
+     else
+      results = results.filter((r) => r.score > MIN_SCORE)
 
-    return results.filter((a, index) => index < MAX_RESULTS);
+    return results
+      .filter((r, index) => index < MAX_RESULTS)
+      .map((r) => r.article)
   }
-};
+}
 
-export {
-  search,
-  prepareArticles,
-  articleScore,
-  dictionaryTermMatches,
-  fixRelativeImgSrcs
-};
+export default Search

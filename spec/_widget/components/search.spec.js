@@ -1,4 +1,4 @@
-import { search, prepareArticles, dictionaryTermMatches, articleScore, fixRelativeImgSrcs } from '../../../_widget/src/components/app/search.js';
+import { search, prepareArticles } from '../../../_widget/src/components/app/search.js';
 
 describe('Search', () => {
   it.todo('...');
