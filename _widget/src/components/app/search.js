@@ -80,7 +80,7 @@ const resultsWithScore = (articles, words) => {
   
   if (!words.length) return [];
 
-  var wordsRegex = words.map((w) => new RegExp(w, 'ig'));
+  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}`, 'ig'));
 
   return articles.map((article) => {
     return {
