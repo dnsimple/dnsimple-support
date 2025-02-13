@@ -11,24 +11,26 @@
         </h4>
         <ul>
           <li v-for="article in articles" :key="article.id">
-            <h3>
-              <a
-                v-if="sourceUrl === app.getCurrentSiteUrl()"
-                v-html="highlight(article.title, highlighter)"
-                :href="absoluteURL(article, article.id)"
-              ></a>
-              <a
-                v-else
-                @click.prevent="app.go('Article', article)"
-                v-html="highlight(article.title, highlighter)"
-                :href="absoluteURL(article, article.id)"
-              ></a>
-            </h3>
+            <div :class="{ 'selected-article': isSelectedArticle(article) }">
+              <h3>
+                <a
+                  v-if="sourceUrl === app.getCurrentSiteUrl()"
+                  v-html="highlight(article.title, highlighter)"
+                  :href="absoluteURL(article, article.id)"
+                ></a>
+                <a
+                  v-else
+                  @click.prevent="app.go('Article', article)"
+                  v-html="highlight(article.title, highlighter)"
+                  :href="absoluteURL(article, article.id)"
+                ></a>
+              </h3>
 
-            <p
-              v-html="highlight(article.excerpt, highlighter)"
-              class="excerpt"
-            ></p>
+              <p
+                v-html="highlight(article.excerpt, highlighter)"
+                class="excerpt"
+              ></p>
+            </div>
           </li>
 
           <li v-if="!app.filteredArticles.length">
@@ -56,7 +58,7 @@ import "./style.scss";
 
 export default {
   props: {
-    app: Object
+    app: Object,
   },
   components: {
     Footer
@@ -64,7 +66,8 @@ export default {
   data () {
     return {
       spinnerIcon,
-      externalLink
+      externalLink,
+      selectedArticle: null,
     };
   },
   computed: {
@@ -91,6 +94,43 @@ export default {
       if (!this.app.q) return str;
 
       return (str || '').replace(highlighter, (match) => `<mark>${match}</mark>`);
+    },
+
+    isSelectedArticle (article) {
+      return this.selectedArticle &&
+        this.selectedArticle.sourceUrl === article.sourceUrl &&
+        this.selectedArticle.id === article.id;
+    },
+
+    selectNextArticle () {
+      const articles = Object.values(this.articlesBySource).flat();
+
+      if (!this.selectedArticle) return this.selectedArticle = articles[0];
+
+      const currentIndex = articles.findIndex(a => this.isSelectedArticle(a));
+      const nextArticle = articles[currentIndex + 1];
+
+      if (nextArticle) this.selectedArticle = nextArticle;
+    },
+
+    selectPrevArticle () {
+      const articles = Object.values(this.articlesBySource).flat();
+
+      if (!this.selectedArticle) return this.selectedArticle = articles[0];
+
+      const currentIndex = articles.findIndex(a => this.isSelectedArticle(a));
+      const prevArticle = articles[currentIndex - 1];
+
+      if (prevArticle) this.selectedArticle = prevArticle;
+    },
+
+    openSelectedArticle () {
+      if (!this.selectedArticle) return;
+
+      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl())
+        window.location.href = this.absoluteURL(this.selectedArticle, this.selectedArticle.id);
+      else
+        this.app.go('Article', this.selectedArticle);
     }
   }
 };

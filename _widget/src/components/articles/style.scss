@@ -16,6 +16,7 @@
       padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
       margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
       margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
+      margin-bottom: var(--dnsimple-support-widget-padding);
 
       .external-link {
         float: right;
@@ -35,6 +36,11 @@
 
       &:last-child {
         border-bottom: 0;
+      }
+
+      .selected-article {
+        background-color: var(--dnsimple-support-widget-light-gray);
+        outline: 10px solid var(--dnsimple-support-widget-light-gray);
       }
     }
   }

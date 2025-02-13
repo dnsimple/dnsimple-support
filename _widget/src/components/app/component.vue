@@ -4,7 +4,7 @@
             <div class="overlay" @click="close"></div>
             <div class="dnsimple-modal animated fadeInUp faster">
               <Header :app="app" ref="header"/>
-              <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
+              <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]" ref="body"></Component>
             </div>
         </div>
         <Prompt v-else-if="showPrompt" :app="app"/>
@@ -207,6 +207,30 @@ export default {
         this.focus();
       } else if (event.key === "Escape")
         this.close();
+      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          $body.selectNextArticle();
+        });
+      }
+      else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          $body.selectPrevArticle();
+        });
+      }
+      else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          $body.openSelectedArticle();
+        });
+      }
     }
   }
 };
