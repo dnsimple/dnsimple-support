@@ -4,6 +4,7 @@ const HTML_REGEX = /<[^>]*>/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
 const ING_REGEX = /ing[\s|\.]/g;
+const I_REGEX = /i[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
 const AL_REGEX = /al[\s|\.]/g;
@@ -18,6 +19,7 @@ const searchable = (str) => {
     .replace(ING_REGEX, ' ')
     .replace(ED_REGEX, ' ')
     .replace(IES_REGEX, ' ')
+    .replace(I_REGEX, ' ')
     .replace(AL_REGEX, ' ')
     .replace(GE_REGEX, 'g ')
     .trim();
