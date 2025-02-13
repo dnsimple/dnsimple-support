@@ -1,5 +1,12 @@
 import { mount } from '@vue/test-utils';
 import App from '../../../_widget/src/components/app/component.vue';
+import ARTICLES from '../../../output/search.json';
+
+const propsData = {
+  gettingStartedUrl: '/articles/getting-started/',
+  currentSiteUrl: 'https://support.dnsimple.com',
+  fetch: () => Promise.resolve(ARTICLES)
+};
 
 describe('App', () => {
   const promptMessage = 'Need Help?';
@@ -46,9 +53,6 @@ describe('App', () => {
   });
 
   describe('open', () => {
-    const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
-    const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
-
     it('opens the support widget', async () => {
       const subject = mount(App, { propsData });
 
@@ -64,7 +68,7 @@ describe('App', () => {
       await subject.vm.open();
 
       expect(subject.vm.isOpen).toEqual(true);
-      expect(subject.text()).toContain('Getting started');
+      expect(subject.text()).toContain('Getting Started');
     });
   });
 
@@ -82,23 +86,23 @@ describe('App', () => {
   });
 
   describe('highlighting', () => {
-    let subject
+    let subject;
 
     beforeEach(async () => {
       subject = mount(App, { propsData });
-      await subject.vm.open()
-    })
+      await subject.vm.open();
+    });
 
     it('highlights a word', async () => {
-      await subject.find('input').setValue('getting')
+      await subject.find('input').setValue('getting');
 
       expect(subject.html()).toContain('<mark>Getting</mark>');
     });
 
     it('highlights a word in a phrase', async () => {
-      await subject.find('input').setValue('ett')
+      await subject.find('input').setValue('ett');
 
       expect(subject.html()).toContain('G<mark>ett</mark>ing');
     });
-  })
+  });
 });
