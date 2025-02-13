@@ -1,5 +1,5 @@
 <template>
-  <div class="route with-footer">
+  <div v-if="article" class="route with-footer">
     <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
       <div v-html="backIcon"></div>
     </a>
@@ -86,9 +86,10 @@ export default {
         .getAttribute('href')
         .replace(/#.*/, '')
         .replace(NO_TRAILING_SLASH, '/');
-      const article = this.app.findArticle(href);
+      const url = `${this.article.sourceUrl}${href}`;
+      const article = this.app.findArticle(url);
 
-      a.href = `${this.article.sourceUrl}${href}`;
+      a.href = url;
       a.onclick = (event) => {
         event.stopImmediatePropagation();
         event.preventDefault();

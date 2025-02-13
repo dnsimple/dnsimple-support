@@ -46,7 +46,7 @@ export default {
     },
     gettingStartedUrl: {
       type: String,
-      default: '/articles/getting-started/'
+      default: 'https://support.dnsimple.com/articles/getting-started/'
     },
     fetch: {
       type: Function,
@@ -164,8 +164,8 @@ export default {
       return this.search.query(q);
     },
 
-    findArticle(id) {
-      return this.search.findArticle(id);
+    findArticle(url) {
+      return this.search.findArticle(url);
     },
 
     addArticles(articles, sourceUrl) {

@@ -59,7 +59,7 @@ const applyDictionary = (dictionary, q) => {
 };
 
 const findByUrl = (url, articles) => {
-  return articles.filter((article) => article.id === url);
+  return articles.filter((a) => `${a.sourceUrl}${a.id}` === url);
 };
 
 const findByCategory = (category, articles) => {
@@ -126,8 +126,8 @@ class Search {
     this.articles.push(...preppedArticles);
   }
 
-  findArticle(id) {
-    return this.articles.find((a) => a.id === id);
+  findArticle(url) {
+    return this.articles.find((a) => `${a.sourceUrl}${a.id}` === url);
   }
 
   query(q) {
@@ -135,12 +135,11 @@ class Search {
 
     q = (q || '').toLowerCase().trim();
 
-    if (q[0] === '/')
+    if (q.slice(0, 4) === 'http')
       return findByUrl(q, this.articles);
 
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
-
 
     q = applyDictionary(this.dictionary, q);
 

@@ -30,7 +30,7 @@ describe('Search', () => {
   });
 
   it('can find an article by a URL', () => {
-    const article = subject.findArticle('/articles/getting-started/');
+    const article = subject.findArticle('https://support.dnsimple.com/articles/getting-started/');
 
     expect(article.title).toContain('Getting Started');
   });
