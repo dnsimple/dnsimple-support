@@ -95,6 +95,10 @@ export default {
     document.addEventListener("keydown", this.handleKeydown);
   },
 
+  beforeUnmount () {
+    document.removeEventListener("keydown", this.handleKeydown);
+  },
+
   methods: {
     go (page, params, ignoreHistory) {
       if (!ignoreHistory)

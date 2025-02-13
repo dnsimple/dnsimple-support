@@ -85,7 +85,7 @@ describe('App', () => {
     });
   });
 
-  describe('handleKeydown', () => {
+  describe('keyboard shortcuts', () => {
     it('opens the support widget when command+K is pressed', async () => {
       const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
       const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
