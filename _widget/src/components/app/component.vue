@@ -62,8 +62,8 @@ export default {
       type: Array,
       default() {
         return [
-          'https://support.dnsimple.com',
-          'https://deploy-preview-760--dnsimple-developer.netlify.app'
+          { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+          { name: 'DNSimple Developer', url: 'https://deploy-preview-760--dnsimple-developer.netlify.app' }
         ];
       }
     }
@@ -103,7 +103,7 @@ export default {
     },
 
     isLoading() {
-      return this.sources.filter((s) => this.isFetched[s]).length < this.sources.length;
+      return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
     }
   },
 
@@ -125,7 +125,7 @@ export default {
       return Promise
         .all(
           // We catch the errors here so that the show can go on
-          this.sources.map((src) => this.fetchArticles(src).catch(() => {}))
+          this.sources.map((s) => this.fetchArticles(s.url).catch(() => {}))
         )
         .then(() => {
           if (this.filteredArticles.length === 1)
@@ -150,13 +150,13 @@ export default {
       this.isOpen = false;
     },
 
-    fetchArticles (source) {
-      if (this.isFetched[source]) return Promise.resolve();
+    fetchArticles (sourceUrl) {
+      if (this.isFetched[sourceUrl]) return Promise.resolve();
 
-      return this.fetch(`${source}/search.json`)
+      return this.fetch(`${sourceUrl}/search.json`)
         .then((articles) => {
-          this.addArticles(articles, source);
-          this.isFetched[source] = true;
+          this.addArticles(articles, sourceUrl);
+          this.isFetched[sourceUrl] = true;
         });
     },
 
@@ -168,8 +168,16 @@ export default {
       return this.search.findArticle(id);
     },
 
-    addArticles(articles, source) {
-      return this.search.addArticles(articles, source);
+    addArticles(articles, sourceUrl) {
+      return this.search.addArticles(articles, sourceUrl);
+    },
+
+    getSources() {
+      return this.sources;
+    },
+
+    getSourceName(url) {
+      return this.getSources().find((source) => source.url === url)?.name;
     },
 
     setQ (q) {
