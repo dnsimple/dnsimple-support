@@ -176,8 +176,8 @@ export default {
       return this.sources;
     },
 
-    getSourceName(url) {
-      return this.getSources().find((source) => source.url === url)?.name;
+    getSourceName(sourceUrl) {
+      return this.getSources().find((source) => source.url === sourceUrl)?.name;
     },
 
     setQ (q) {

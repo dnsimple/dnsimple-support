@@ -36,10 +36,10 @@ const searchable = (str) => {
 
 const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
 
-const fixRelativeImgSrcs = (str, source) => {
+const fixRelativeImgSrcs = (str, sourceUrl) => {
   return str.replace(
     RELATIVE_IMG_REGEX,
-    'src="' + source + '$1"'
+    'src="' + sourceUrl + '$1"'
   );
 };
 
@@ -109,17 +109,17 @@ class Search {
     this.dictionary = DICTIONARY;
   }
 
-  addArticles(articles, source) {
+  addArticles(articles, sourceUrl) {
     const preppedArticles = articles.map((article) => {
       return {
         id: article.id,
         title: article.title,
         excerpt: article.excerpt,
-        body: fixRelativeImgSrcs(article.body || '', source),
+        body: fixRelativeImgSrcs(article.body || '', sourceUrl),
         searchTitle: searchable((article.title || '') + ' '),
         searchBody: searchable((article.body || '') + ' '),
         categories: article.categories || [],
-        source
+        sourceUrl
       };
     });
 
