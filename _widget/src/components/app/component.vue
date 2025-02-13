@@ -92,18 +92,7 @@ export default {
   },
 
   mounted () {
-    document.addEventListener("keydown", (event) => {
-      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
-        event.preventDefault();
-        this.open();
-        this.focus();
-      }
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape")
-        this.close();
-    });
+    document.addEventListener("keydown", this.handleKeydown);
   },
 
   methods: {
@@ -178,6 +167,15 @@ export default {
 
     hasHistory() {
       return this.history.length > 0;
+    },
+
+    handleKeydown(event) {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+        this.open();
+        this.focus();
+      } else if (event.key === "Escape")
+        this.close();
     }
   }
 };
