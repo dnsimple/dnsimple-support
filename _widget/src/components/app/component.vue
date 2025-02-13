@@ -44,6 +44,10 @@ export default {
       type: String,
       default: ''
     },
+    gettingStartedUrl: {
+      type: String,
+      default: ''
+    },
     fetch: {
       type: Function,
       default(url) {
@@ -61,7 +65,7 @@ export default {
     return {
       app: this,
       currentRoute: ['Articles'],
-      initialQ: urlMatchingDictionary(window.location.href) || '/articles/getting-started/',
+      initialQ: urlMatchingDictionary(window.location.href) || this.gettingStartedUrl,
       q: '',
       isOpen: false,
       isLoading: true,
@@ -87,7 +91,7 @@ export default {
     },
 
     gettingStarted() {
-      return this.findArticle('/articles/getting-started/');
+      return this.findArticle(this.gettingStartedUrl);
     }
   },
 
