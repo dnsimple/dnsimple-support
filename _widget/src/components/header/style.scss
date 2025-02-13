@@ -40,6 +40,14 @@
   }
 
   .route {
+    & > .external-link {
+      color: var(--dnsimple-support-widget-medium-gray);
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      float: right;
+    }
+
     & > .back {
       position: absolute;
       top: 0;

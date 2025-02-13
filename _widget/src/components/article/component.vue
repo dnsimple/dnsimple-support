@@ -4,6 +4,8 @@
       <div v-html="backIcon"></div>
     </a>
 
+    <a :href="`${article.source}${article.id}`" v-html="externalLink" class="external-link"></a>
+
     <div class="article">
       <div v-html="article.body"></div>
     </div>
@@ -13,7 +15,7 @@
 </template>
 
 <script>
-import { backIcon } from '../../assets/svgs';
+import { backIcon, externalLink } from '../../assets/svgs';
 import Footer from '../footer/component.vue';
 
 import "./style.scss";
@@ -33,7 +35,8 @@ export default {
   },
   data () {
     return {
-      backIcon
+      backIcon,
+      externalLink
     };
   },
   watch: {
