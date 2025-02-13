@@ -46,7 +46,7 @@ export default {
     },
     gettingStartedUrl: {
       type: String,
-      default: ''
+      default: '/articles/getting-started/'
     },
     fetch: {
       type: Function,
