@@ -1,20 +1,11 @@
 import { trackSearch } from './analytics.js';
 
-const articleScore = (article, wordsRegex) => {
-  let score = 0;
-
-  wordsRegex.forEach((wordRegex) => {
-    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
-    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
-  });
-
-  return score;
-};
-
 const HTML_REGEX = /<[^>]*>/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
-const ING_REGEX = /in?g?[\s|\.]/g;
+const ING_REGEX = /ing[\s|\.]/g;
+const RRING_REGEX = /rring[\s|\.]/g;
+const I_REGEX = /i[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
 const AL_REGEX = /al[\s|\.]/g;
@@ -26,9 +17,11 @@ const searchable = (str) => {
     .toLowerCase()
     .replace(QUOTE_REGEX, '')
     .replace(NON_WORD_REGEX, ' ')
+    .replace(RRING_REGEX, 'r ')
     .replace(ING_REGEX, ' ')
     .replace(ED_REGEX, ' ')
     .replace(IES_REGEX, ' ')
+    .replace(I_REGEX, ' ')
     .replace(AL_REGEX, ' ')
     .replace(GE_REGEX, 'g ')
     .trim();
@@ -74,13 +67,24 @@ const findByCategory = (category, articles) => {
     });
 };
 
+const articleScore = (article, wordsRegex) => {
+  let score = 0;
+
+  wordsRegex.forEach((wordRegex) => {
+    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
+    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
+  });
+
+  return score;
+};
+
 const resultsWithScore = (articles, words) => {
   if (words[words.length - 1].length <= 1) 
     words.pop();
   
   if (!words.length) return [];
 
-  var wordsRegex = words.map((w) => new RegExp(w, 'ig'));
+  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}(s|\\s|$)`, 'ig'));
 
   return articles.map((article) => {
     return {
@@ -98,7 +102,7 @@ import DICTIONARY from './dictionary.js';
 
 const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 7;
-const GOOD_SCORE = 10;
+const GOOD_SCORE = 20;
 const MIN_SCORE = 10;
 const LOWER_MIN_SCORE = 1;
 const WHITESPACE = /\s+/;
