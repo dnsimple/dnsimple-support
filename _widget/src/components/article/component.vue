@@ -4,7 +4,7 @@
       <div v-html="backIcon"></div>
     </a>
 
-    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" class="external-link"></a>
+    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>

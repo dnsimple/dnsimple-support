@@ -7,6 +7,7 @@
       <div v-for="(articles, sourceUrl) in articlesBySource" :key="`${sourceUrl}-results`">
         <h4>
           {{ app.getSourceName(sourceUrl) }}
+          <a :href="sourceUrl" v-html="externalLink" target="_blank" class="external-link"></a>
         </h4>
         <ul>
           <li v-for="article in articles" :key="article.id">
@@ -49,7 +50,7 @@
 
 <script>
 import Footer from '../footer/component.vue';
-import { spinnerIcon } from '../../assets/svgs';
+import { spinnerIcon, externalLink } from '../../assets/svgs';
 
 import "./style.scss";
 
@@ -62,7 +63,8 @@ export default {
   },
   data () {
     return {
-      spinnerIcon
+      spinnerIcon,
+      externalLink
     };
   },
   computed: {
