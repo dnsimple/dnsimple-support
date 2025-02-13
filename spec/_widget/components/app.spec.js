@@ -99,10 +99,10 @@ describe('App', () => {
       expect(subject.html()).toContain('<mark>Getting</mark>');
     });
 
-    it('highlights a word in a phrase', async () => {
-      await subject.find('input').setValue('ett');
+    it('highlights part of a word', async () => {
+      await subject.find('input').setValue('Gett');
 
-      expect(subject.html()).toContain('G<mark>ett</mark>ing');
+      expect(subject.html()).toContain('<mark>Gett</mark>ing');
     });
   });
 
@@ -118,6 +118,40 @@ describe('App', () => {
       await subject.find('input').setValue('getting');
 
       expect(subject.find('h4').text()).toContain('DNSimple Support');
+    });
+  });
+
+  describe('keyboard shortcuts', () => {
+    it('opens the support widget when command+K is pressed', async () => {
+      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
+      const subject = mount(App, { propsData });
+
+      const event = new KeyboardEvent("keydown", { key: "k", metaKey: true });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(true);
+    });
+
+    it('opens the support widget when ctrl+K is pressed', async () => {
+      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
+      const subject = mount(App, { propsData });
+
+      const event = new KeyboardEvent("keydown", { key: "k", ctrlKey: true });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(true);
+    });
+
+    it('closes the support widget when Escape is pressed', async () => {
+      const subject = mount(App);
+      subject.vm.isOpen = true;
+
+      const event = new KeyboardEvent("keydown", { key: "Escape" });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(false);
     });
   });
 });
