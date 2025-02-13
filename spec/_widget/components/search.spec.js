@@ -172,12 +172,16 @@ describe('Search', () => {
 
           if (rankForArticle > 0 && rankForArticle < minimumRank) 
             console.warn(`Minimum rank for \`${title}\` for \`${q}\` can be reduced to ${rankForArticle}.`);
-          
 
           expect(resultTitles.filter((t, i) => i < minimumRank)).toContain(title);
           expect(rankForArticle).toBeLessThanOrEqual(minimumRank);
         });
-      
     }
+
+    it('limits results when good results are available', () => {
+      const results = subject.query('payment');
+
+      expect(results.length).toBeLessThanOrEqual(4);
+    });
   });
 });
