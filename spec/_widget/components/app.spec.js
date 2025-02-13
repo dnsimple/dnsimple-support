@@ -106,6 +106,22 @@ describe('App', () => {
     });
   });
 
+  describe('article links', () => {
+    let subject;
+
+    describe('when using the widget in the same site', () => {
+      beforeEach(async () => {
+        subject = mount(App, { propsData });
+        await subject.vm.open();
+        await subject.vm.go('Article', subject.vm.findArticle(subject.find('.articles li a').element.href), true);
+      });
+
+      it('does not open article links of the same site in the widget', () => {
+        expect(subject.find('.article a').element.onclick).toBeNull();
+      });
+    });
+  });
+
   describe('sources', () => {
     let subject;
 
