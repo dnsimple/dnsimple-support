@@ -2,15 +2,16 @@ import { mount } from '@vue/test-utils';
 import Article from '../../../_widget/src/components/article/component.vue';
 
 describe('Article', () => {
-  const article = { id: '1', title: 'Title One', body: 'Article One' };
+  const article = { id: '1', title: 'Title One', body: 'Article One', sourceUrl: 'https://support.dnsimple.com' };
   const subject = mount(Article, {
     propsData: {
       app: {
         track () {},
         q: '',
-        articles: [article, { id: '2', title: 'Title Two', body: 'Article Two' }],
+        articles: [article, { id: '2', title: 'Title Two', body: 'Article Two', sourceUrl: 'https://support.dnsimple.com' }],
         hasHistory() { return false; },
-        findArticle() { return article; }
+        findArticle() { return article; },
+        getCurrentSiteUrl() { return 'https://support.dnsimple.com'; }
       },
       article
     }
