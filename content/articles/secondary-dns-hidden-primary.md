@@ -26,7 +26,7 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 ## Prerequisites
 
-Before proceeding, make sure you’re familiar with setting up DNSimple as a secondary DNS provider by following [this guide](/articles/secondary-dns-dnsimple-as-secondary). This article expands on that setup by configuring a hidden primary.
+Before proceeding, make sure you're familiar with setting up DNSimple as a secondary DNS provider by following [this guide](/articles/secondary-dns-dnsimple-as-secondary). This article expands on that setup by configuring a hidden primary.
 
 In this setup, your primary DNS server is hidden from public queries, while DNSimple acts as the secondary DNS provider.
 
@@ -41,7 +41,7 @@ In this setup, your primary DNS server is hidden from public queries, while DNSi
 1. Ensure your primary DNS provider supports AXFR (zone transfers).
 2. Log in to your primary DNS provider
 3. Add your DNS records (A, MX, CNAME, TXT, etc...)
-4. Enable AXFR (Zone Transfers) and add DNSimple’s AXFR client IP addresses to the Allow-List:
+4. Enable AXFR (Zone Transfers) and add DNSimple's AXFR client IP addresses to the Allow-List:
 
 ```
 3.12.234.2
