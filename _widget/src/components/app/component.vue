@@ -99,6 +99,11 @@ export default {
         this.focus();
       }
     });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape")
+        this.close();
+    });
   },
 
   methods: {
