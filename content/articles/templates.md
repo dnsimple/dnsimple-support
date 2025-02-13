@@ -32,7 +32,13 @@ Fill in the form for your template. This example shows a template to automate th
 
 ![Template new](/files/template-new.png)
 
-Now that you have the basic information for the template, create the record for it. This example shows one record, but there is no limit to the number of records you can have on a template.
+Now that you have the basic information for the template, create the record for it. 
+
+<!--- needs screenshot -->
+
+<!--- needs screenshot -->
+
+The example below shows one record, but there is no limit to the number of records you can have on a template.
 
 The keyword `{{domain}}` automatically fills in the domain name to which the template is applied.
 
@@ -53,7 +59,7 @@ If the template is applied successfully, you will see the new record.
 
 ![Apply the template from the record editor](/files/template-record-created.png)
 
-If the template has not been applied, the content of the template might conflict with an existing record on your domain. For example, if your domain already has a "beta" CNAME record, the template will not apply.
+If the template has not been applied, it's possible the content of the template conflicts with an existing record on your domain. For example, if your domain already has a `beta` CNAME record, the template will not apply.
 
 ## Have more questions?
 
