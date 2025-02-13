@@ -44,6 +44,10 @@ describe('Search', () => {
 
   describe('queries', () => {
     const queries = {
+      'a record': {
+        'What\'s an A Record?': 3,
+        'Managing A Records': 4
+      },
       'enable dnssec': {
         'DNSSEC': 1,
         'Why DNSSEC and Secondary DNS may not work together': 3
@@ -71,7 +75,7 @@ describe('Search', () => {
         "Renewing a Let's Encrypt SSL Certificate": 7,
       },
       'delegate name servers to another provider': {
-        'Setting the Name Servers for a Domain': 2,
+        'Setting the Name Servers for a Domain': 3,
         'Pointing a Domain to DNSimple': 5,
         'DNSimple Name Servers': 5,
         'Delegating a Domain registered with another Registrar to DNSimple': 7
