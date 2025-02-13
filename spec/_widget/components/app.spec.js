@@ -84,4 +84,38 @@ describe('App', () => {
       expect(subject.text()).toContain(promptMessage);
     });
   });
+
+  describe('handleKeydown', () => {
+    it('opens the support widget when command+K is pressed', async () => {
+      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
+      const subject = mount(App, { propsData });
+
+      const event = new KeyboardEvent("keydown", { key: "k", metaKey: true });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(true);
+    });
+
+    it('opens the support widget when ctrl+K is pressed', async () => {
+      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
+      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
+      const subject = mount(App, { propsData });
+
+      const event = new KeyboardEvent("keydown", { key: "k", ctrlKey: true });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(true);
+    });
+
+    it('closes the support widget when Escape is pressed', async () => {
+      const subject = mount(App);
+      subject.vm.isOpen = true;
+
+      const event = new KeyboardEvent("keydown", { key: "Escape" });
+      await subject.vm.handleKeydown(event);
+
+      expect(subject.vm.isOpen).toEqual(false);
+    });
+  });
 });
