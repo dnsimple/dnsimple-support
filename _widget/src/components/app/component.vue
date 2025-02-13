@@ -91,6 +91,14 @@ export default {
     }
   },
 
+  mounted () {
+    document.addEventListener("keydown", this.handleKeydown);
+  },
+
+  beforeUnmount () {
+    document.removeEventListener("keydown", this.handleKeydown);
+  },
+
   methods: {
     go (page, params, ignoreHistory) {
       if (!ignoreHistory)
@@ -163,6 +171,15 @@ export default {
 
     hasHistory() {
       return this.history.length > 0;
+    },
+
+    handleKeydown(event) {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+        this.open();
+        this.focus();
+      } else if (event.key === "Escape")
+        this.close();
     }
   }
 };
