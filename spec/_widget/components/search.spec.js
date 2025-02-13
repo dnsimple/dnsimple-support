@@ -45,62 +45,62 @@ describe('Search', () => {
   describe('queries', () => {
     const queries = {
       'a record': {
-        'What\'s an A Record?': 3,
-        'Managing A Records': 4
+        'Managing A Records': 1,
+        'What\'s an A Record?': 2
       },
       'enable dnssec': {
         'DNSSEC': 1,
         'Why DNSSEC and Secondary DNS may not work together': 3
       },
       'creating alias record': {
-        'What\'s an ALIAS record?': 3,
-        'Record Editor': 7,
+        'What\'s an ALIAS record?': 1,
+        'Record Editor': 3,
         // 'Differences Among A, CNAME, ALIAS, and URL records': 3,
         // 'Common DNS Records': 7
       },
       'alias record': {
-        'What\'s an ALIAS record?': 3,
-        'Record Editor': 7,
+        'What\'s an ALIAS record?': 1,
+        'Record Editor': 3,
         // 'Differences Among A, CNAME, ALIAS, and URL records': 7,
         // 'Common DNS Records': 7
       },
       'request ssl certificate': {
-        "SSL/TLS Certificates": 3,
-        "SSL Certificate Types": 3
+        "SSL/TLS Certificates": 1,
+        "SSL Certificate Types": 2
       },
       'auto-renew certificate': {
-        // "Renewing an SSL Certificate": 7,
-        "Renewing a standard SSL Certificate": 7,
-        "How does an SSL Certificate Renewal work?": 7,
+        "Renewing an SSL Certificate": 2,
+        "Renewing a standard SSL Certificate": 6,
+        "How does an SSL Certificate Renewal work?": 5,
         "Renewing a Let's Encrypt SSL Certificate": 7,
       },
       'delegate name servers to another provider': {
         'Setting the Name Servers for a Domain': 3,
-        'Pointing a Domain to DNSimple': 5,
-        'DNSimple Name Servers': 5,
-        'Delegating a Domain registered with another Registrar to DNSimple': 7
+        'Pointing a Domain to DNSimple': 4,
+        'DNSimple Name Servers': 2,
+        'Delegating a Domain registered with another Registrar to DNSimple': 6
       },
       'create a record': {
-        "Managing A Records": 6
+        "Managing A Records": 1
       },
       'retry payment': {
-        'Account Invoice History': 4,
-        'Changing Payment Details': 4,
-        'Payment methods': 4,
+        'Account Invoice History': 2,
+        'Changing Payment Details': 3,
+        'Payment methods': 1,
         "Understanding Your DNSimple Invoice": 4
       },
       'domain host': {
-        "DNS Hosting": 5,
-        "Web Hosting Support": 5,
-        "Registering a Domain": 5,
-        "Email Hosting Support": 5,
+        "DNS Hosting": 1,
+        "Web Hosting Support": 2,
+        "Registering a Domain": 3,
+        "Email Hosting Support": 4,
         "Why we don't offer web hosting services": 5
       },
       'add user': {
-        "Managing Multiple Members on One Account": 2
+        "Managing Multiple Members on One Account": 1
       },
       'access': {
-        'API Access Token': 2,
+        'API Access Token': 1,
         'Domain Access Control': 2
       },
       'dashboard': {
@@ -114,9 +114,9 @@ describe('Search', () => {
         'Dynamic DNS': 1
       },
       'transfer': {
-        'Transfer a Domain to DNSimple': 3,
+        'Transfer a Domain to DNSimple': 1,
         'Transferring a domain away from DNSimple': 3,
-        'Domain Transfer Pricing': 10,
+        'Domain Transfer Pricing': 6,
         // 'Transfer or Register Domains With DNSimple': 10,
         // 'Preparing a Domain Transfer to Avoid Downtime': 10,
         // 'Transferring a Domain to Another DNSimple Account': 10,
@@ -124,12 +124,12 @@ describe('Search', () => {
         // 'Whois Privacy may cause transfer approval emails to not be delivered': 10
       },
       'certificates': {
-        'SSL/TLS Certificates': 7,
-        "SHA-2 SSL Certificates": 7,
-        "SSL Certificates with NGINX": 7,
-        "SSL Certificates with Apache": 7,
-        "SSL Certificates with Heroku": 7,
-        "SSL Certificates with Windows": 7,
+        'SSL/TLS Certificates': 1,
+        "SHA-2 SSL Certificates": 2,
+        "SSL Certificates with NGINX": 3,
+        "SSL Certificates with Apache": 4,
+        "SSL Certificates with Heroku": 5,
+        "SSL Certificates with Windows": 6,
         "Getting Started with SSL Certificates": 7,
         // 'SSL Certificates Frequently Asked Questions': 10,
         // 'What is a Certificate Authority?': 10,
@@ -163,15 +163,21 @@ describe('Search', () => {
     for (const q in queries) {
       const expectedArticles = queries[q];
 
-      it(`\`${q}\``, () => {
-        const results = subject.query(q);
-
-        for (const title in expectedArticles) {
+      for (const title in expectedArticles) 
+        it(`can find \`${title}\` for \`${q}\``, () => {
+          const results = subject.query(q);
           const minimumRank = expectedArticles[title];
+          const resultTitles = results.map((a) => a.title);
+          const rankForArticle = resultTitles.indexOf(title) + 1;
 
-          expect(results.filter((_, i) => i < minimumRank).map((a) => a.title)).toContain(title);
-        }
-      });
+          if (rankForArticle > 0 && rankForArticle < minimumRank) 
+            console.warn(`Minimum rank for \`${title}\` for \`${q}\` can be reduced to ${rankForArticle}.`);
+          
+
+          expect(resultTitles.filter((t, i) => i < minimumRank)).toContain(title);
+          expect(rankForArticle).toBeLessThanOrEqual(minimumRank);
+        });
+      
     }
   });
 });

@@ -4,6 +4,7 @@ const HTML_REGEX = /<[^>]*>/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
 const ING_REGEX = /ing[\s|\.]/g;
+const RRING_REGEX = /rring[\s|\.]/g;
 const I_REGEX = /i[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
@@ -16,6 +17,7 @@ const searchable = (str) => {
     .toLowerCase()
     .replace(QUOTE_REGEX, '')
     .replace(NON_WORD_REGEX, ' ')
+    .replace(RRING_REGEX, 'r ')
     .replace(ING_REGEX, ' ')
     .replace(ED_REGEX, ' ')
     .replace(IES_REGEX, ' ')
@@ -82,7 +84,7 @@ const resultsWithScore = (articles, words) => {
   
   if (!words.length) return [];
 
-  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}`, 'ig'));
+  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}(s|\\s|$)`, 'ig'));
 
   return articles.map((article) => {
     return {
