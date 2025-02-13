@@ -57,6 +57,15 @@ export default {
     search: {
       type: Object,
       default() { return new Search(); }
+    },
+    sources: {
+      type: Array,
+      default() {
+        return [
+          'https://support.dnsimple.com',
+          'https://deploy-preview-760--dnsimple-developer.netlify.app'
+        ];
+      }
     }
   },
   data () {
@@ -68,8 +77,7 @@ export default {
       initialQ: urlMatchingDictionary(window.location.href) || this.gettingStartedUrl,
       q: '',
       isOpen: false,
-      isLoading: true,
-      isFetched: false,
+      isFetched: {},
       history: [],
       articles: []
     };
@@ -92,6 +100,10 @@ export default {
 
     gettingStarted() {
       return this.findArticle(this.gettingStartedUrl);
+    },
+
+    isLoading() {
+      return this.sources.filter((s) => this.isFetched[s]).length < this.sources.length;
     }
   },
 
@@ -110,18 +122,19 @@ export default {
     open () {
       this.isOpen = true;
 
-      return new Promise((resolve) => {
-        this.fetchArticles('https://support.dnsimple.com', () => {
+      return Promise
+        .all(
+          // We catch the errors here so that the show can go on
+          this.sources.map((src) => this.fetchArticles(src).catch(() => {}))
+        )
+        .then(() => {
           if (this.filteredArticles.length === 1)
             this.go('Article', this.filteredArticles[0], true);
           else if (this.filteredArticles.length === 0) {
             this.go('Article', this.gettingStarted, true);
             this.focus();
           }
-
-          resolve();
         });
-      });
     },
 
     focus () {
@@ -137,17 +150,14 @@ export default {
       this.isOpen = false;
     },
 
-    fetchArticles (source, done) {
-      if (this.isFetched) return done();
+    fetchArticles (source) {
+      if (this.isFetched[source]) return Promise.resolve();
 
-      this.fetch(`${source}/search.json`)
+      return this.fetch(`${source}/search.json`)
         .then((articles) => {
           this.addArticles(articles, source);
-          this.isFetched = true;
-          this.isLoading = false;
-          done();
-        })
-        .catch(console.error);
+          this.isFetched[source] = true;
+        });
     },
 
     query(q) {
