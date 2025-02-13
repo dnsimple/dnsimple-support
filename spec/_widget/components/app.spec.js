@@ -105,4 +105,19 @@ describe('App', () => {
       expect(subject.html()).toContain('G<mark>ett</mark>ing');
     });
   });
+
+  describe('sources', () => {
+    let subject;
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+      await subject.vm.open();
+    });
+
+    it('groups the articles by source', async () => {
+      await subject.find('input').setValue('getting');
+
+      expect(subject.find('h4').text()).toContain('DNSimple Support');
+    });
+  });
 });

@@ -35,7 +35,7 @@ describe('Search', () => {
     expect(article.title).toContain('Getting Started');
   });
 
-  test('calls trackSearch', () => {
+  it('calls trackSearch', () => {
     subject.query('pronounce');
 
     expect(trackSearch).toHaveBeenCalledTimes(1);
