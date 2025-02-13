@@ -47,7 +47,7 @@ In this setup, your primary DNS server is hidden from public queries, while DNSi
 3.12.234.2
 2600:1f16:ae2:e900:f05c:9438:865f:64a0
 ```
-5. Ensure your NS records do NOT include the hidden primary to keep it private.
+Ensure your NS records do NOT include the hidden primary to keep it private.
 
 ## Step 2: Set Up DNSimple as secondary DNS
 
@@ -66,13 +66,22 @@ Do not list the hidden primary DNS server to keep it private.
 
 ## Step 4: Verify & test your setup
 
-1. The configuration might take between 10 to 30 minutes to take effect.
-2. Log in to DNSimple, verify that the records have been synchronized
+The configuration might take between 10 to 30 minutes to take effect.
+
+### Records have been synchronized in DNSimple
+Log in to DNSimple, verify that the records have been synchronized
 
 ![Secondary DNS record sync](/files/secondary-dns-record-sync.png)
 
-3. Public queries resolve through DNSimple: `dig @ns1.dnsimple.com example.com`
-4. Hidden primary name servers are **not** publicly exposed:
+### Public queries resolve through DNSimple
+
+Run the following `dig` command from your console:
+```
+dig @ns1.dnsimple.com example.com
+```
+### Hidden primary is not exposed
+
+Verify that the hidden primary name servers are **not** publicly exposed, by running:
 ```
 > whois example.com
 ...
