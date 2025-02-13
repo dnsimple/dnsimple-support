@@ -179,7 +179,7 @@ describe('Search', () => {
     }
 
     it('limits results when good results are available', () => {
-      const results = subject.query('payment');
+      const results = subject.query('alias');
 
       expect(results.length).toBeLessThanOrEqual(4);
     });

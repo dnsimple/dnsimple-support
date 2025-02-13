@@ -102,7 +102,7 @@ import DICTIONARY from './dictionary.js';
 
 const PUNCTUATION = /['";.()?-]/g;
 const MAX_RESULTS = 7;
-const GOOD_SCORE = 30;
+const GOOD_SCORE = 20;
 const MIN_SCORE = 10;
 const LOWER_MIN_SCORE = 1;
 const WHITESPACE = /\s+/;
