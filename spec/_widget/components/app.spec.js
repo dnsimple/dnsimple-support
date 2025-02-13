@@ -80,4 +80,25 @@ describe('App', () => {
       expect(subject.text()).toContain(promptMessage);
     });
   });
+
+  describe('highlighting', () => {
+    let subject
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+      await subject.vm.open()
+    })
+
+    it('highlights a word', async () => {
+      await subject.find('input').setValue('getting')
+
+      expect(subject.html()).toContain('<mark>Getting</mark>');
+    });
+
+    it('highlights a word in a phrase', async () => {
+      await subject.find('input').setValue('ett')
+
+      expect(subject.html()).toContain('G<mark>ett</mark>ing');
+    });
+  })
 });

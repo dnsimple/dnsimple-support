@@ -88,15 +88,9 @@ export default {
     },
 
     highlight (str, highlighter) {
-      str = str || '';
+      if (!this.app.q) return str
 
-      str = str.replace(highlighter, this.highlightWord);
-
-      return str;
-    },
-
-    highlightWord (a) {
-      return `<mark>${a}</mark>`;
+      return (str || '').replace(highlighter, (match) => `<mark>${match}</mark>`);
     }
   }
 };
