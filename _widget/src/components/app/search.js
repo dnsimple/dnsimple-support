@@ -79,12 +79,9 @@ const articleScore = (article, wordsRegex) => {
 };
 
 const resultsWithScore = (articles, words) => {
-  if (words[words.length - 1].length <= 1) 
-    words.pop();
-  
   if (!words.length) return [];
 
-  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}(s|\\s|$)`, 'ig'));
+  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}`, 'ig'));
 
   return articles.map((article) => {
     return {
@@ -147,7 +144,7 @@ class Search {
 
     q = applyDictionary(this.dictionary, q);
 
-    let words = searchable(q + ' ').split(WHITESPACE);
+    let words = searchable(` ${q} `).split(WHITESPACE);
     let results = resultsWithScore(this.articles, words);
 
     if (results.filter((r) => r.score > GOOD_SCORE).length === 0)
