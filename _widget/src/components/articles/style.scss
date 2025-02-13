@@ -7,6 +7,23 @@
       font-weight: bold;
     }
 
+    h4 {
+      background: var(--dnsimple-support-widget-light-gray);
+      color: var(--dnsimple-support-widget-dark-gray);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
+      margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
+      margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
+
+      .external-link {
+        float: right;
+        width: 1.1rem;
+        height: 1.1rem;
+      }
+    }
+
     mark {
       background: #fff3b6;
       padding: 2px 0;

@@ -29,10 +29,10 @@ const searchable = (str) => {
 
 const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
 
-const fixRelativeImgSrcs = (str, source) => {
+const fixRelativeImgSrcs = (str, sourceUrl) => {
   return str.replace(
     RELATIVE_IMG_REGEX,
-    'src="' + source + '$1"'
+    'src="' + sourceUrl + '$1"'
   );
 };
 
@@ -52,7 +52,7 @@ const applyDictionary = (dictionary, q) => {
 };
 
 const findByUrl = (url, articles) => {
-  return articles.filter((article) => article.id === url);
+  return articles.filter((a) => `${a.sourceUrl}${a.id}` === url);
 };
 
 const findByCategory = (category, articles) => {
@@ -113,25 +113,25 @@ class Search {
     this.dictionary = DICTIONARY;
   }
 
-  addArticles(articles, source) {
+  addArticles(articles, sourceUrl) {
     const preppedArticles = articles.map((article) => {
       return {
         id: article.id,
         title: article.title,
         excerpt: article.excerpt,
-        body: fixRelativeImgSrcs(article.body || '', source),
+        body: fixRelativeImgSrcs(article.body || '', sourceUrl),
         searchTitle: searchable((article.title || '') + ' '),
         searchBody: searchable((article.body || '') + ' '),
         categories: article.categories || [],
-        source
+        sourceUrl
       };
     });
 
     this.articles.push(...preppedArticles);
   }
 
-  findArticle(id) {
-    return this.articles.find((a) => a.id === id);
+  findArticle(url) {
+    return this.articles.find((a) => `${a.sourceUrl}${a.id}` === url);
   }
 
   query(q) {
@@ -139,12 +139,11 @@ class Search {
 
     q = (q || '').toLowerCase().trim();
 
-    if (q[0] === '/')
+    if (q.slice(0, 4) === 'http')
       return findByUrl(q, this.articles);
 
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
-
 
     q = applyDictionary(this.dictionary, q);
 

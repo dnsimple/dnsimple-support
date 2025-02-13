@@ -1,8 +1,10 @@
 <template>
-  <div class="route with-footer">
+  <div v-if="article" class="route with-footer">
     <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
       <div v-html="backIcon"></div>
     </a>
+
+    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>
@@ -13,7 +15,7 @@
 </template>
 
 <script>
-import { backIcon } from '../../assets/svgs';
+import { backIcon, externalLink } from '../../assets/svgs';
 import Footer from '../footer/component.vue';
 
 import "./style.scss";
@@ -33,7 +35,8 @@ export default {
   },
   data () {
     return {
-      backIcon
+      backIcon,
+      externalLink
     };
   },
   watch: {
@@ -51,7 +54,9 @@ export default {
 
         if (href[0] === '/')
           this.prepRelativeLink(a);
-        else if (href[0] !== '#' && href.indexOf('javascript') !== 0)
+        else if (href[0] === '#')
+          this.prepHashLink(a);
+        else if (href.indexOf('javascript') !== 0)
           this.prepAbsoluteLink(a);
       });
     },
@@ -69,14 +74,22 @@ export default {
       a.target = '_blank';
     },
 
+    prepHashLink (a) {
+      a.onclick = (event) => {
+        event.preventDefault();
+        document.getElementById(a.href.split('#')[1]).scrollIntoView();
+      };
+    },
+
     prepRelativeLink (a) {
       const href = a
         .getAttribute('href')
         .replace(/#.*/, '')
         .replace(NO_TRAILING_SLASH, '/');
-      const article = this.app.findArticle(href);
+      const url = `${this.article.sourceUrl}${href}`;
+      const article = this.app.findArticle(url);
 
-      a.href = `${this.article.source}${href}`;
+      a.href = url;
       a.onclick = (event) => {
         event.stopImmediatePropagation();
         event.preventDefault();

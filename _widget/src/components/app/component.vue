@@ -44,6 +44,10 @@ export default {
       type: String,
       default: ''
     },
+    gettingStartedUrl: {
+      type: String,
+      default: 'https://support.dnsimple.com/articles/getting-started/'
+    },
     fetch: {
       type: Function,
       default(url) {
@@ -53,6 +57,15 @@ export default {
     search: {
       type: Object,
       default() { return new Search(); }
+    },
+    sources: {
+      type: Array,
+      default() {
+        return [
+          { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+          { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+        ];
+      }
     }
   },
   data () {
@@ -61,11 +74,10 @@ export default {
     return {
       app: this,
       currentRoute: ['Articles'],
-      initialQ: urlMatchingDictionary(window.location.href) || '/articles/getting-started/',
+      initialQ: urlMatchingDictionary(window.location.href) || this.gettingStartedUrl,
       q: '',
       isOpen: false,
-      isLoading: true,
-      isFetched: false,
+      isFetched: {},
       history: [],
       articles: []
     };
@@ -87,7 +99,11 @@ export default {
     },
 
     gettingStarted() {
-      return this.findArticle('/articles/getting-started/');
+      return this.findArticle(this.gettingStartedUrl);
+    },
+
+    isLoading() {
+      return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
     }
   },
 
@@ -114,18 +130,19 @@ export default {
     open () {
       this.isOpen = true;
 
-      return new Promise((resolve) => {
-        this.fetchArticles('https://support.dnsimple.com', () => {
+      return Promise
+        .all(
+          // We catch the errors here so that the show can go on
+          this.sources.map((s) => this.fetchArticles(s.url).catch(() => {}))
+        )
+        .then(() => {
           if (this.filteredArticles.length === 1)
             this.go('Article', this.filteredArticles[0], true);
           else if (this.filteredArticles.length === 0) {
             this.go('Article', this.gettingStarted, true);
             this.focus();
           }
-
-          resolve();
         });
-      });
     },
 
     focus () {
@@ -141,29 +158,34 @@ export default {
       this.isOpen = false;
     },
 
-    fetchArticles (source, done) {
-      if (this.isFetched) return done();
+    fetchArticles (sourceUrl) {
+      if (this.isFetched[sourceUrl]) return Promise.resolve();
 
-      this.fetch(`${source}/search.json`)
+      return this.fetch(`${sourceUrl}/search.json`)
         .then((articles) => {
-          this.addArticles(articles, source);
-          this.isFetched = true;
-          this.isLoading = false;
-          done();
-        })
-        .catch(console.error);
+          this.addArticles(articles, sourceUrl);
+          this.isFetched[sourceUrl] = true;
+        });
     },
 
     query(q) {
       return this.search.query(q);
     },
 
-    findArticle(id) {
-      return this.search.findArticle(id);
+    findArticle(url) {
+      return this.search.findArticle(url);
     },
 
-    addArticles(articles, source) {
-      return this.search.addArticles(articles, source);
+    addArticles(articles, sourceUrl) {
+      return this.search.addArticles(articles, sourceUrl);
+    },
+
+    getSources() {
+      return this.sources;
+    },
+
+    getSourceName(sourceUrl) {
+      return this.getSources().find((source) => source.url === sourceUrl)?.name;
     },
 
     setQ (q) {

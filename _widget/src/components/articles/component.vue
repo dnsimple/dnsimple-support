@@ -4,32 +4,45 @@
       <div v-html="spinnerIcon"></div>
     </div>
     <div v-else class="articles">
-      <ul v-if="app.filteredArticles">
-        <li v-for="article in app.filteredArticles" :key="article.id">
-          <h3>
-            <a
-              v-if="article.source === app.getCurrentSiteUrl()"
-              v-html="highlight(article.title, highlighter)"
-              :href="absoluteURL(article, article.id)"
-            ></a>
-            <a
-              v-else
-              @click.prevent="app.go('Article', article)"
-              v-html="highlight(article.title, highlighter)"
-              :href="absoluteURL(article, article.id)"
-            ></a>
-          </h3>
+      <div v-for="(articles, sourceUrl) in articlesBySource" :key="`${sourceUrl}-results`">
+        <h4>
+          {{ app.getSourceName(sourceUrl) }}
+          <a :href="sourceUrl" v-html="externalLink" target="_blank" class="external-link"></a>
+        </h4>
+        <ul>
+          <li v-for="article in articles" :key="article.id">
+            <h3>
+              <a
+                v-if="sourceUrl === app.getCurrentSiteUrl()"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+              <a
+                v-else
+                @click.prevent="app.go('Article', article)"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+            </h3>
 
-          <p
-            v-html="highlight(article.excerpt, highlighter)"
-            class="excerpt"
-          ></p>
-        </li>
+            <p
+              v-html="highlight(article.excerpt, highlighter)"
+              class="excerpt"
+            ></p>
+          </li>
 
-        <li v-if="!app.filteredArticles.length">
+          <li v-if="!app.filteredArticles.length">
+            <p>We could not find any articles for: <strong>{{ app.q }}</strong></p>
+          </li>
+        </ul>
+      </div>
+
+      <ul v-if="!app.filteredArticles.length">
+        <li>
           <p>We could not find any articles for: <strong>{{ app.q }}</strong></p>
         </li>
       </ul>
+
       <Footer :app="app" />
     </div>
   </div>
@@ -37,7 +50,7 @@
 
 <script>
 import Footer from '../footer/component.vue';
-import { spinnerIcon } from '../../assets/svgs';
+import { spinnerIcon, externalLink } from '../../assets/svgs';
 
 import "./style.scss";
 
@@ -50,7 +63,8 @@ export default {
   },
   data () {
     return {
-      spinnerIcon
+      spinnerIcon,
+      externalLink
     };
   },
   computed: {
@@ -59,29 +73,24 @@ export default {
         (this.app.q || '')
           .trim()
           .split(/\s+/)
-          .filter((word) => {
-            return word.length > 1;
-          })
+          .filter((word) => word.length > 1)
           .join('|'),
         'gi'
       );
+    },
+    articlesBySource() {
+      return Object.groupBy(this.app.filteredArticles, (a) => a.sourceUrl);
     }
   },
   methods: {
     absoluteURL (article, path) {
-      return `${article.source}${path}`;
+      return `${article.sourceUrl}${path}`;
     },
 
     highlight (str, highlighter) {
-      str = str || '';
+      if (!this.app.q) return str;
 
-      str = str.replace(highlighter, this.highlightWord);
-
-      return str;
-    },
-
-    highlightWord (a) {
-      return `<mark>${a}</mark>`;
+      return (str || '').replace(highlighter, (match) => `<mark>${match}</mark>`);
     }
   }
 };

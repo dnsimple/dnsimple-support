@@ -1,5 +1,12 @@
 import { mount } from '@vue/test-utils';
 import App from '../../../_widget/src/components/app/component.vue';
+import ARTICLES from '../../../output/search.json';
+
+const propsData = {
+  gettingStartedUrl: '/articles/getting-started/',
+  currentSiteUrl: 'https://support.dnsimple.com',
+  fetch: () => Promise.resolve(ARTICLES)
+};
 
 describe('App', () => {
   const promptMessage = 'Need Help?';
@@ -46,9 +53,6 @@ describe('App', () => {
   });
 
   describe('open', () => {
-    const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
-    const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
-
     it('opens the support widget', async () => {
       const subject = mount(App, { propsData });
 
@@ -64,7 +68,7 @@ describe('App', () => {
       await subject.vm.open();
 
       expect(subject.vm.isOpen).toEqual(true);
-      expect(subject.text()).toContain('Getting started');
+      expect(subject.text()).toContain('Getting Started');
     });
   });
 
@@ -78,6 +82,42 @@ describe('App', () => {
 
       expect(subject.vm.isOpen).toEqual(false);
       expect(subject.text()).toContain(promptMessage);
+    });
+  });
+
+  describe('highlighting', () => {
+    let subject;
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+      await subject.vm.open();
+    });
+
+    it('highlights a word', async () => {
+      await subject.find('input').setValue('getting');
+
+      expect(subject.html()).toContain('<mark>Getting</mark>');
+    });
+
+    it('highlights part of a word', async () => {
+      await subject.find('input').setValue('Gett');
+
+      expect(subject.html()).toContain('<mark>Gett</mark>ing');
+    });
+  });
+
+  describe('sources', () => {
+    let subject;
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+      await subject.vm.open();
+    });
+
+    it('groups the articles by source', async () => {
+      await subject.find('input').setValue('getting');
+
+      expect(subject.find('h4').text()).toContain('DNSimple Support');
     });
   });
 

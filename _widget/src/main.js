@@ -14,7 +14,8 @@ if (!$target) {
 
 const app = createApp(App, {
   showPrompt: $openers.length === 0,
-  currentSiteUrl: document.querySelector('[data-dnsimple-current-site-url]')?.getAttribute('data-dnsimple-current-site-url') || ''
+  currentSiteUrl: document.querySelector('[data-dnsimple-current-site-url]')?.getAttribute('data-dnsimple-current-site-url') || '',
+  gettingStartedUrl: document.querySelector('[data-dnsimple-getting-started-url]')?.getAttribute('data-dnsimple-getting-started-url') || '/articles/getting-started/',
 }).mount($target);
 
 $openers.forEach(($el) => {

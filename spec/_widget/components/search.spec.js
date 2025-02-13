@@ -15,7 +15,7 @@ describe('Search', () => {
 
   beforeEach(() => {
     subject = new Search();
-    subject.addArticles(ARTICLES);
+    subject.addArticles(ARTICLES, 'https://support.dnsimple.com');
   });
 
   it('can load articles', () => {
@@ -30,12 +30,12 @@ describe('Search', () => {
   });
 
   it('can find an article by a URL', () => {
-    const article = subject.findArticle('/articles/getting-started/');
+    const article = subject.findArticle('https://support.dnsimple.com/articles/getting-started/');
 
     expect(article.title).toContain('Getting Started');
   });
 
-  test('calls trackSearch', () => {
+  it('calls trackSearch', () => {
     subject.query('pronounce');
 
     expect(trackSearch).toHaveBeenCalledTimes(1);
