@@ -1,16 +1,5 @@
 import { trackSearch } from './analytics.js';
 
-const articleScore = (article, wordsRegex) => {
-  let score = 0;
-
-  wordsRegex.forEach((wordRegex) => {
-    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
-    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
-  });
-
-  return score;
-};
-
 const HTML_REGEX = /<[^>]*>/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
@@ -72,6 +61,17 @@ const findByCategory = (category, articles) => {
       if (a.title < b.title) return -1;
       return 0;
     });
+};
+
+const articleScore = (article, wordsRegex) => {
+  let score = 0;
+
+  wordsRegex.forEach((wordRegex) => {
+    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
+    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
+  });
+
+  return score;
 };
 
 const resultsWithScore = (articles, words) => {
