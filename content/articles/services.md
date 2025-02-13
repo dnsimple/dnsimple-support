@@ -14,16 +14,15 @@ categories:
 
 ---
 
-## What are services
+## What are services?
 
-Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
+One-click Services are DNS snippets ready for you to use. Applying a service creates all the DNS configuration needed to serve your webpage or configure your email.
 
 We currently support more than 30 services:
 
 ### Blogging
 
 * [Blogger](/articles/blogger-service)
-* [Tumblr](/articles/tumblr-service)
 
 ### Ecommerce
 
@@ -81,29 +80,27 @@ We currently support more than 30 services:
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/services/#contributing-a-new-service).
 </info>
 
-
 ## Adding a service
 
 1. From the domain list, click on the domain name you want to update.
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
 
- <!--- needs screenshot -->
+<!--- needs screenshot -->
 
 Choose the service that you want to add.
 
-![Service list](/files/services-list.png)
-
+<!--- needs screenshot -->
 
 ## Removing services
 
 To remove a service, navigate to your domain. On the services sidebar, click **DNS**. Scroll down to the One-click Services section, and click **Manage**.
 
-![Domain DNS page](/files/services-dns-page-manage.png)
+<!--- needs screenshot -->
 
 Find the service from the list of **Applied one-click services** that you want to remove, and click **Remove**.
 
-![Service list remove](/files/services-list-remove.png)
+<!--- needs screenshot -->
 
 ## Contributing a new service
 
