@@ -15,7 +15,7 @@ describe('Search', () => {
 
   beforeEach(() => {
     subject = new Search();
-    subject.addArticles(ARTICLES);
+    subject.addArticles(ARTICLES, 'https://support.dnsimple.com');
   });
 
   it('can load articles', () => {
