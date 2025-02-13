@@ -3,7 +3,7 @@ import { trackSearch } from './analytics.js';
 const HTML_REGEX = /<[^>]*>/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
-const ING_REGEX = /in?g?[\s|\.]/g;
+const ING_REGEX = /ing[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
 const AL_REGEX = /al[\s|\.]/g;
