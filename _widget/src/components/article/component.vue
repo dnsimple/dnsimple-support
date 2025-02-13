@@ -54,7 +54,9 @@ export default {
 
         if (href[0] === '/')
           this.prepRelativeLink(a);
-        else if (href[0] !== '#' && href.indexOf('javascript') !== 0)
+        else if (href[0] === '#')
+          this.prepHashLink(a);
+        else if (href.indexOf('javascript') !== 0)
           this.prepAbsoluteLink(a);
       });
     },
@@ -70,6 +72,13 @@ export default {
 
     prepAbsoluteLink (a) {
       a.target = '_blank';
+    },
+
+    prepHashLink (a) {
+      a.onclick = (event) => {
+        event.preventDefault();
+        document.getElementById(a.href.split('#')[1]).scrollIntoView();
+      };
     },
 
     prepRelativeLink (a) {
