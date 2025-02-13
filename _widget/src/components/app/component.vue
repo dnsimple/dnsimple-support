@@ -63,7 +63,7 @@ export default {
       default() {
         return [
           { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
-          { name: 'DNSimple Developer', url: 'https://deploy-preview-760--dnsimple-developer.netlify.app' }
+          { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
         ];
       }
     }
