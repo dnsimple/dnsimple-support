@@ -91,6 +91,16 @@ export default {
     }
   },
 
+  mounted () {
+    document.addEventListener("keydown", (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+        this.open();
+        this.focus();
+      }
+    });
+  },
+
   methods: {
     go (page, params, ignoreHistory) {
       if (!ignoreHistory)
