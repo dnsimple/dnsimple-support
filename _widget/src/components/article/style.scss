@@ -73,6 +73,12 @@
       list-style: decimal;
     }
 
+    li {
+      *:last-child {
+        margin-bottom: 0;
+      }
+    }
+
     pre {
       display: block;
       overflow-x: scroll;

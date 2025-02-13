@@ -1,73 +1,38 @@
 import { trackSearch } from './analytics.js';
 
-// Items are matched in the order
-// Dictionary only works with lowercase with no punctuation
+const HTML_REGEX = /<[^>]*>/g;
+const QUOTE_REGEX = /['"]/g;
+const NON_WORD_REGEX = /[^\w]+?/g;
+const ING_REGEX = /ing[\s|\.]/g;
+const RRING_REGEX = /rring[\s|\.]/g;
+const I_REGEX = /i[\s|\.]/g;
+const ED_REGEX = /ed[\s|\.]/g;
+const IES_REGEX = /ies[\s|\.]/g;
+const AL_REGEX = /al[\s|\.]/g;
+const GE_REGEX = /ge[\s|\.]/g;
 
-const DICTIONARY = {
-  "user": "user settings",
-  "close": "unsubscribe",
-  "cancel": "unsubscribe",
-  "delete account": "unsubscribe",
-  "letsencrypt": "lets encrypt",
-  "membership": "share management",
-  "team": "member",
-  "annual": "yearly",
-  "remove": "deleting",
-  "delete": "deleting",
-  "editor": "record editor",
-  "record": "record editor"
-};
-const PUNCTUATION = /['";.()?-]/g;
-const MAX_RESULTS = 30;
-const MIN_SCORE = 15;
-const WHITESPACE = /\s+/;
-const rootURL = 'https://support.dnsimple.com';
-
-const articleScore = (article, q) => {
-  if (!q) return 0;
-
-  var score = 0;
-
-  if (article.searchTitle.indexOf(q) !== -1)
-    score += 75;
-
-  if (article.searchTitle === q)
-    score += 50;
-
-  if (article.searchBody.indexOf(q) !== -1)
-    score += 50;
-
-  var words = q.split(WHITESPACE).filter(function (str) {
-    return str.length > 1;
-  });
-
-  for (var i = words.length - 1; i >= 0; i--) {
-    if (article.searchTitle.indexOf(words[i]) !== -1)
-      score += 15;
-
-    if (article.searchBody.indexOf(words[i]) !== -1)
-      score += 5;
-  }
-
-  return score;
+const searchable = (str) => {
+  return str
+    .replace(HTML_REGEX, ' ')
+    .toLowerCase()
+    .replace(QUOTE_REGEX, '')
+    .replace(NON_WORD_REGEX, ' ')
+    .replace(RRING_REGEX, 'r ')
+    .replace(ING_REGEX, ' ')
+    .replace(ED_REGEX, ' ')
+    .replace(IES_REGEX, ' ')
+    .replace(I_REGEX, ' ')
+    .replace(AL_REGEX, ' ')
+    .replace(GE_REGEX, 'g ')
+    .trim();
 };
 
-const prepareArticles = (articles, source) => {
-  return articles.map(function (article) {
-    article.searchTitle = article.searchTitle || (article.title || '').toLowerCase().replace(PUNCTUATION, '');
-    article.searchBody = article.searchBody || (article.body || '').toLowerCase().replace(PUNCTUATION, '');
-    article.body = fixRelativeImgSrcs(article.body || '');
-    article.categories = article.categories || [];
-    article.source = 'https://support.dnsimple.com';
+const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
 
-    return article;
-  });
-};
-
-const fixRelativeImgSrcs = (str) => {
+const fixRelativeImgSrcs = (str, source) => {
   return str.replace(
-    /src=["']?(\/[^"'\s>]+)["'\s>]?/g,
-    'src="' + rootURL + '$1"'
+    RELATIVE_IMG_REGEX,
+    'src="' + source + '$1"'
   );
 };
 
@@ -80,77 +45,128 @@ const dictionaryTermMatches = (q, term) => {
 };
 
 const applyDictionary = (dictionary, q) => {
-  q = q.replace(PUNCTUATION, '');
-
-  if (q.length >= 3)
-    for (var term in dictionary)
-      if (dictionaryTermMatches(q, term))
-        return dictionary[term];
-
+  for (const word in dictionary) 
+    q = q.replace(word, dictionary[word]);
+  
   return q;
 };
 
 const findByUrl = (url, articles) => {
-  return articles.filter(function (article) {
-    return article.id === url;
-  });
+  return articles.filter((article) => article.id === url);
 };
 
 const findByCategory = (category, articles) => {
   return articles
-    .filter(function (article) {
-      return !category || article.categories.toString().toLowerCase().indexOf(category) !== -1;
+    .filter((article) => {
+      return !category || article.categories.map((c) => c.toLowerCase()).indexOf(category) !== -1;
     })
-    .sort(function (a, b) {
+    .sort((a, b) => {
       if (a.title > b.title) return 1;
       if (a.title < b.title) return -1;
       return 0;
     });
 };
 
-const findByScore = (q, articles) => {
-  return articles
-    .filter(function (article) {
-      article.score = articleScore(article, q);
-      return article.score > MIN_SCORE;
-    })
-    .sort(function (a, b) {
-      if (a.score > b.score) return -1;
-      if (a.score < b.score) return 1;
-      return 0;
-    })
-    .filter(function (article, index) {
-      return index <= MAX_RESULTS;
-    });
+const articleScore = (article, wordsRegex) => {
+  let score = 0;
+
+  wordsRegex.forEach((wordRegex) => {
+    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
+    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
+  });
+
+  return score;
 };
 
-const search = (q, articles, dictionary = DICTIONARY) => {
-  const original_q = q;
+const resultsWithScore = (articles, words) => {
+  if (words[words.length - 1].length <= 1) 
+    words.pop();
+  
+  if (!words.length) return [];
 
-  q = (q || '').toLowerCase().trim();
+  var wordsRegex = words.map((w) => new RegExp(`(^|\\s)${w}(s|\\s|$)`, 'ig'));
 
-  if (q[0] === '/')
-    return findByUrl(q, articles);
+  return articles.map((article) => {
+    return {
+      score: articleScore(article, wordsRegex),
+      article
+    };
+  }).sort((a, b) => {
+    if (a.score > b.score) return -1;
+    if (a.score < b.score) return 1;
+    return 0;
+  });
+};
 
-  if (q.slice(0, 4) === 'cat:')
-    return findByCategory(q.slice(4).trim(), articles);
+import DICTIONARY from './dictionary.js';
 
-  q = applyDictionary(dictionary, q);
+const PUNCTUATION = /['";.()?-]/g;
+const MAX_RESULTS = 7;
+const GOOD_SCORE = 20;
+const MIN_SCORE = 10;
+const LOWER_MIN_SCORE = 1;
+const WHITESPACE = /\s+/;
 
-  const results = findByScore(q, articles);
-
-  if (original_q) {
-    const articleTitles = results.map((r) => r.title);
-    trackSearch(original_q, articleTitles);
+class Search {
+  constructor(dictionary = DICTIONARY) {
+    this.articles = [];
+    this.dictionary = DICTIONARY;
   }
 
-  return results;
-};
+  addArticles(articles, source) {
+    const preppedArticles = articles.map((article) => {
+      return {
+        id: article.id,
+        title: article.title,
+        excerpt: article.excerpt,
+        body: fixRelativeImgSrcs(article.body || '', source),
+        searchTitle: searchable((article.title || '') + ' '),
+        searchBody: searchable((article.body || '') + ' '),
+        categories: article.categories || [],
+        source
+      };
+    });
 
-export {
-  search,
-  prepareArticles,
-  articleScore,
-  dictionaryTermMatches,
-  fixRelativeImgSrcs
-};
+    this.articles.push(...preppedArticles);
+  }
+
+  findArticle(id) {
+    return this.articles.find((a) => a.id === id);
+  }
+
+  query(q) {
+    const original_q = q;
+
+    q = (q || '').toLowerCase().trim();
+
+    if (q[0] === '/')
+      return findByUrl(q, this.articles);
+
+    if (q.slice(0, 4) === 'cat:')
+      return findByCategory(q.slice(4).trim(), this.articles);
+
+
+    q = applyDictionary(this.dictionary, q);
+
+    let words = searchable(q + ' ').split(WHITESPACE);
+    let results = resultsWithScore(this.articles, words);
+
+    if (results.filter((r) => r.score > GOOD_SCORE).length === 0)
+      results = results.filter((r) => r.score > LOWER_MIN_SCORE);
+     else
+      results = results.filter((r) => r.score > MIN_SCORE);
+
+    results = results
+      .filter((r, index) => index < MAX_RESULTS)
+      .map((r) => r.article);
+
+    if (original_q) {
+      const articleTitles = results.map((r) => r.title);
+      trackSearch(original_q, articleTitles);
+    }
+
+    return results;
+  }
+}
+
+export default Search;

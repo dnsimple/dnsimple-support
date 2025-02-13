@@ -21,7 +21,7 @@ import Header from '../header/component.vue';
 import Article from '../article/component.vue';
 import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
-import { search, prepareArticles } from './search.js';
+import Search from './search.js';
 
 import "./variables.scss";
 import "./reset.scss";
@@ -37,9 +37,6 @@ export default {
     Prompt
   },
   props: {
-    query: {
-      default: ''
-    },
     showPrompt: {
       default: true
     },
@@ -52,17 +49,20 @@ export default {
       default(url) {
         return window.fetch(url).then((r) => r.json());
       }
+    },
+    search: {
+      type: Object,
+      default() { return new Search(); }
     }
   },
   data () {
-    const query = this.query || urlMatchingDictionary(window.location.href);
-
     window.support = this;
 
     return {
       app: this,
       currentRoute: ['Articles'],
-      q: query,
+      initialQ: urlMatchingDictionary(window.location.href) || '/articles/getting-started/',
+      q: '',
       isOpen: false,
       isLoading: true,
       isFetched: false,
@@ -73,7 +73,7 @@ export default {
 
   watch: {
     q (val) {
-      if (val.length > 2) {
+      if (val.length > 1) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
       } else if (!val.length)
@@ -83,7 +83,7 @@ export default {
 
   computed: {
     filteredArticles () {
-      return search(this.q, this.articles);
+      return this.query(this.q || this.initialQ);
     },
 
     gettingStarted() {
@@ -115,9 +115,9 @@ export default {
       this.isOpen = true;
 
       return new Promise((resolve) => {
-        this.fetchArticles(() => {
+        this.fetchArticles('https://support.dnsimple.com', () => {
           if (this.filteredArticles.length === 1)
-            this.go('Article', this.filteredArticles[0]);
+            this.go('Article', this.filteredArticles[0], true);
           else if (this.filteredArticles.length === 0) {
             this.go('Article', this.gettingStarted, true);
             this.focus();
@@ -141,15 +141,12 @@ export default {
       this.isOpen = false;
     },
 
-    fetchArticles (done) {
+    fetchArticles (source, done) {
       if (this.isFetched) return done();
 
-      const source = `https://support.dnsimple.com/search.json`;
-
-      this.fetch(source)
+      this.fetch(`${source}/search.json`)
         .then((articles) => {
-          prepareArticles(articles, source);
-          this.articles.push(...articles);
+          this.addArticles(articles, source);
           this.isFetched = true;
           this.isLoading = false;
           done();
@@ -157,8 +154,16 @@ export default {
         .catch(console.error);
     },
 
+    query(q) {
+      return this.search.query(q);
+    },
+
     findArticle(id) {
-      return this.articles.find((a) => a.id === id);
+      return this.search.findArticle(id);
+    },
+
+    addArticles(articles, source) {
+      return this.search.addArticles(articles, source);
     },
 
     setQ (q) {
