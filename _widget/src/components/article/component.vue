@@ -4,7 +4,7 @@
       <div v-html="backIcon"></div>
     </a>
 
-    <a :href="`${article.source}${article.id}`" v-html="externalLink" class="external-link"></a>
+    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>
@@ -88,7 +88,7 @@ export default {
         .replace(NO_TRAILING_SLASH, '/');
       const article = this.app.findArticle(href);
 
-      a.href = `${this.article.source}${href}`;
+      a.href = `${this.article.sourceUrl}${href}`;
       a.onclick = (event) => {
         event.stopImmediatePropagation();
         event.preventDefault();

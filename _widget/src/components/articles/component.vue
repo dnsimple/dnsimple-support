@@ -71,24 +71,22 @@ export default {
         (this.app.q || '')
           .trim()
           .split(/\s+/)
-          .filter((word) => {
-            return word.length > 1;
-          })
+          .filter((word) => word.length > 1)
           .join('|'),
         'gi'
       );
     },
     articlesBySource() {
-      return Object.groupBy(this.app.filteredArticles, (a) => a.source);
+      return Object.groupBy(this.app.filteredArticles, (a) => a.sourceUrl);
     }
   },
   methods: {
     absoluteURL (article, path) {
-      return `${article.source}${path}`;
+      return `${article.sourceUrl}${path}`;
     },
 
     highlight (str, highlighter) {
-      if (!this.app.q) return str
+      if (!this.app.q) return str;
 
       return (str || '').replace(highlighter, (match) => `<mark>${match}</mark>`);
     }
