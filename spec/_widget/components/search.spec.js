@@ -55,14 +55,10 @@ describe('Search', () => {
       'creating alias record': {
         'What\'s an ALIAS record?': 1,
         'Record Editor': 3,
-        // 'Differences Among A, CNAME, ALIAS, and URL records': 3,
-        // 'Common DNS Records': 7
       },
       'alias record': {
         'What\'s an ALIAS record?': 1,
         'Record Editor': 3,
-        // 'Differences Among A, CNAME, ALIAS, and URL records': 7,
-        // 'Common DNS Records': 7
       },
       'request ssl certificate': {
         "SSL/TLS Certificates": 1,
@@ -109,7 +105,6 @@ describe('Search', () => {
       },
       'mx': {
         'What\'s an MX Record?': 2,
-        // 'Common DNS Records': 4
       },
       'ddns': {
         'Dynamic DNS': 1
@@ -117,12 +112,8 @@ describe('Search', () => {
       'transfer': {
         'Transfer a Domain to DNSimple': 1,
         'Transferring a domain away from DNSimple': 3,
+        'Transfer or Register Domains With DNSimple': 5,
         'Domain Transfer Pricing': 6,
-        // 'Transfer or Register Domains With DNSimple': 10,
-        // 'Preparing a Domain Transfer to Avoid Downtime': 10,
-        // 'Transferring a Domain to Another DNSimple Account': 10,
-        // 'Transfer Account Ownership': 10,
-        // 'Whois Privacy may cause transfer approval emails to not be delivered': 10
       },
       'certificates': {
         'SSL/TLS Certificates': 1,
@@ -131,33 +122,7 @@ describe('Search', () => {
         "SSL Certificates with Apache": 4,
         "SSL Certificates with Heroku": 5,
         "SSL Certificates with Windows": 6,
-        "Getting Started with SSL Certificates": 7,
-        // 'SSL Certificates Frequently Asked Questions': 10,
-        // 'What is a Certificate Authority?': 10,
-        // 'What is the SSL Certificate Common Name?': 10,
-        // 'What is the CSR?': 10,
-        // 'What is the SSL Certificate Chain?': 10,
-        // 'What is a Root Certificate?': 10,
-        // 'What is the Subject Alternative Name (SAN)?': 10,
-        // 'How long does it take to issue an SSL certificate?': 10,
-        // 'How do I determine the Certificate Authority that signed my SSL certificate?': 10,
-        // 'How does an SSL Certificate Renewal work?': 10,
-        // 'SSL Certificate Authorities used by DNSimple': 10,
-        // 'Let\'s Encrypt': 10,
-        // 'Standard vs Let\'s Encrypt SSL Certificates': 10,
-        // 'Let\'s Encrypt and DNSimple': 10,
-        // 'Ordering a Let\'s Encrypt Certificate': 10,
-        // 'Renewing a Let\'s Encrypt SSL Certificate': 10,
-        // 'Ordering a Standard SSL Certificate': 10,
-        // 'Ordering a Wildcard SSL Certificate': 10,
-        // 'Re-issuing an SSL Certificate': 10,
-        // 'Renewing an SSL Certificate': 10,
-        // 'Renewing a standard SSL Certificate': 10,
-        // 'How can I select a different SSL certificate domain validation email?': 10,
-        // 'Choosing the SSL Certificate Names': 10,
-        // 'I got an ECC-signed certificate but want RSA': 10,
-        // 'Installing an SSL Certificate': 10,
-        // 'SSL Certificates with Microsoft Azure': 10,
+        "Getting Started with SSL Certificates": 7
       }
     };
 
