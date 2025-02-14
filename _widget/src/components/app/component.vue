@@ -207,22 +207,26 @@ export default {
         this.focus();
       } else if (event.key === "Escape")
         this.close();
-      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles') {
-        event.preventDefault();
-
+      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles')
         nextTick(() => {
           const $body = this.$refs.body;
           $body.selectNextArticle();
-        });
-      }
-      else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles') {
-        event.preventDefault();
 
+          nextTick(() => {
+            const selectedDiv = document.querySelector('.selected-article');
+            selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
+          });
+        });
+      else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles')
         nextTick(() => {
           const $body = this.$refs.body;
           $body.selectPrevArticle();
+
+          nextTick(() => {
+            const selectedDiv = document.querySelector('.selected-article');
+            selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
+          });
         });
-      }
       else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
         event.preventDefault();
 
