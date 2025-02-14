@@ -177,8 +177,10 @@ export default {
       if (this.isFetched[sourceUrl]) return Promise.resolve();
 
       return this.fetch(`${sourceUrl}/search.json`)
-        .then((articles) => this.addArticles(articles, sourceUrl))
-        .finally(() => { this.isFetched[sourceUrl] = true; });
+        .then((articles) => {
+          this.addArticles(articles, sourceUrl);
+          this.isFetched[sourceUrl] = true;
+        });
     },
 
     query(q) {
