@@ -210,6 +210,8 @@ export default {
       else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles')
         nextTick(() => {
           const $body = this.$refs.body;
+          if (!$body) return;
+
           $body.selectNextArticle();
 
           nextTick(() => {
@@ -220,6 +222,8 @@ export default {
       else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles')
         nextTick(() => {
           const $body = this.$refs.body;
+          if (!$body) return;
+
           $body.selectPrevArticle();
 
           nextTick(() => {
@@ -232,6 +236,8 @@ export default {
 
         nextTick(() => {
           const $body = this.$refs.body;
+          if (!$body) return;
+
           $body.openSelectedArticle();
         });
       }
