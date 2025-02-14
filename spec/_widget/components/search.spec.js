@@ -123,6 +123,21 @@ describe('Search', () => {
         "SSL Certificates with Heroku": 5,
         "SSL Certificates with Windows": 6,
         "Getting Started with SSL Certificates": 7
+      },
+      'metrics': {
+        'DNS Query Volume Fees': 1
+      },
+      'stats': {
+        'DNS Query Volume Fees': 1
+      },
+      'observability': {
+        'DNS Query Volume Fees': 1
+      },
+      'queries': {
+        'DNS Query Volume Fees': 1
+      },
+      'analytics': {
+        'DNS Query Volume Fees': 1
       }
     };
 
