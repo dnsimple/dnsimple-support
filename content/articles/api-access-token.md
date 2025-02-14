@@ -14,9 +14,9 @@ categories:
 
 ---
 
-If you want to access the [DNSimple API](https://developer.dnsimple.com/) v2, you need an access token.
+To access the [DNSimple API](https://developer.dnsimple.com/) v2, you need an access token.
 
-This article covers generating account tokens and user tokens. If you want to create an application that requires access to DNSimple, or let an external application request authorization to private details in a user's DNSimple account without getting their password, you'll need an [OAuth Token](/articles/oauth-applications/) instead.
+To create an application that requires access to DNSimple, or let an external application request authorization to private details in a user's DNSimple account without a password, you need an [OAuth Token](/articles/oauth-applications/).
 
 ## Video walk-through
 
@@ -26,23 +26,22 @@ This article covers generating account tokens and user tokens. If you want to cr
 
 ## Account tokens vs User tokens
 
-API v2 offers 2 types of tokens: account tokens and user tokens.
+API v2 offers two types of tokens: Account and User.
 
-The user token gives you access to any resource associated to any account the user has access to. An account token gives you access only to the resources connected to that account.
+The User token gives you access to any resource associated with any account the user has access to. An Account token gives you access only to the resources connected to that account.
 
 <tip>
-We recommend using account tokens unless your application needs multi-account access via single token.
+We recommend using account tokens unless your application needs multi-account access via a single token.
 </tip>
 
 ## Getting to the account access token page
 
-To generate an account access token, log into your account and navigate to your account page.
+1. Navigate to your account page.
+2. Click the **Access Tokens** tab on the left side.
 
-Once you are there click on the <label>Access Tokens</label> link in the left menu.
+ <!--- needs screenshot -->
 
-![Access Tokens Link](/files/access-tokens-link.png)
-
-This shows all of your account access tokens and allows you to add new access tokens, or remove existing access tokens.
+This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
 
 You can see the last used date of an access token from the list of existing access tokens.
 
@@ -54,13 +53,15 @@ You can see the last used date of an access token from the list of existing acce
 To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
-Click on the <label>Add</label> link to add a new access token.
+Click **Add** to add a new access token.
 
-![New Access Token](/files/access-token-new.png)
+When you create a new token, give it a name you can remember. 
 
-When you create a new token, you need to give it a name you can remember. If you are [subscribed to an eligible plan](https://dnsimple.com/pricing), you can choose the permission scopes the token should have. Otherwise, the token will have full permissions to all resources in the account, and you can click on <label>Generate token</label> to create the token after giving it a name.
+If you are [subscribed to the Teams plan or higher](https://dnsimple.com/pricing), you can choose permission scopes for the token. If you are on the Solo plan, the token will have full permissions to all resources in the account. 
 
-![Generate Token](/files/access-token-generate.png)
+Click **Generate token** to create the token after giving it a name.
+
+ <!--- needs screenshot -->
 
 ### Selecting permission scopes {#scoped-access-tokens}
 
@@ -72,11 +73,11 @@ Certificates, domains, registrar, and zones are resource types that allow restri
 
 ![Selecting Zones](/files/scoped-account-token-select-zones.png)
 
-When you are finished with your selections, click on <label>Generate token</label> to create the token.
+When you are finished with your selections, click **Generate token** to create the token.
 
 ## Obtaining the generated access token
 
-After clicking on <label>Generate token</label>, the generated access token will be displayed on the screen.
+After clicking on **Generate token**, the generated access token will be displayed on the screen.
 
 Copy the text for the access token – **it will only be shown once**.
 
@@ -100,6 +101,10 @@ When you are done editing the token permissions, click **Update token** to save 
 
 ## Removing an account access token
 
-You can also remove a token at any time by using the <label>Delete</label> button.
+You can also remove a token at any time by clicking **Delete**.
 
 ![Remove Token](/files/access-token-remove.png)
+
+## Have more questions? 
+
+If you have additional questions or need any assistance with API access tokens, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

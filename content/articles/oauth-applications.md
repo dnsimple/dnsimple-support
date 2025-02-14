@@ -26,19 +26,16 @@ Developers need to register their application before starting. A registered OAut
 
 ## Creating a new OAuth application
 
-To generate an OAuth application, log in to your account, and navigate to your account page.
+1. Navigate to your account page.
+2. Click the **OAuth Applications** tab on the left side, then go to the **Developer applications** card.
 
-Once you're there, click on the <label>Automation</label> link in the left menu, then go to Developer Applications at the bottom of the screen.
+ <!--- needs screenshot -->
 
-![OAuth Tokens Location](/files/oauth-location.png)
-
-Your applications are listed here. This also lets you create a new application or remove an existing one.
+Your applications are listed here. You create a new application, edit existing applications, or remove them.
 
 ## Creating a new developer application
 
-Click on the <label>New</label> link to add a new access token.
-
-![New Access Token](/files/new-application.png)
+1. Click **Add** to add a new access token.
 
 When you create a new application, you'll need to provide a few details, including Application Name, a Homepage URL, and an Authorization Callback URL.
 
@@ -46,10 +43,11 @@ When you create a new application, you'll need to provide a few details, includi
 Adding an application description is optional.
 </tip>
 
-![Application Details form](/files/app-details.png)
+ <!--- needs screenshot -->
 
-When created, you'll be taken to the page with your new application, showing your Client ID and Client Secret.
-![App created](/files/app-created.png)
+After the app has successfully been created, you'll be taken to the page with your new application, showing your Client ID and Client Secret.
+
+ <!--- needs screenshot -->
 
 <info>
 Both the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
@@ -57,24 +55,29 @@ Both the Client ID and Client Secret are unique to your application, and **the c
 
 ## Revoking user tokens
 
-You can revoke all user tokens for your application by clicking the 'Revoke' button.
+You can revoke all user tokens for your application by clicking **Revoke**.
 
-![Remove Token](/files/revoke-all-user-tokens.png)
+ <!--- needs screenshot -->
 
+<warning>
 This cannot be undone. All clients will lose access to your application.
+</warning>
 
 ## Deleting an application
 
-To delete an application, click the 'Delete' button.
-
-![Delete Application](/files/delete-application.png)
-
 This action cannot be undone, and will permanently delete your application. Any clients using the application will no longer be able to access DNSimple.
 
+To delete an application, click **Delete**.
+
+ <!--- needs screenshot -->
+ 
 When deleting an application, you'll receive a warning prompt to ensure you want to continue.
 
-![Delete Application confirmation](/files/delete-application-confirm.png)
+ <!--- needs screenshot -->
 
 ## Interacting with the API through OAuth
 
-For more details and step-by-step instructions on how to interact with DNSimple's API through OAuth, check our our developer guide [here](https://developer.dnsimple.com/v2/oauth/#web-application-flow).
+For more details and step-by-step instructions on how to interact with DNSimple's API through OAuth, read [this developer guide](https://developer.dnsimple.com/v2/oauth/#web-application-flow).
+
+## Have more questions? 
+If you have additional questions or need any assistance with your OAuth Applications, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
