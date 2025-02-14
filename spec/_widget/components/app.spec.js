@@ -1,4 +1,5 @@
 import { mount } from '@vue/test-utils';
+import { nextTick } from "vue";
 import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
@@ -122,11 +123,13 @@ describe('App', () => {
   });
 
   describe('keyboard shortcuts', () => {
-    it('opens the support widget when command+K is pressed', async () => {
-      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
-      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
-      const subject = mount(App, { propsData });
+    let subject;
 
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+    });
+
+    it('opens the support widget when command+K is pressed', async () => {
       const event = new KeyboardEvent("keydown", { key: "k", metaKey: true });
       await subject.vm.handleKeydown(event);
 
@@ -134,10 +137,6 @@ describe('App', () => {
     });
 
     it('opens the support widget when ctrl+K is pressed', async () => {
-      const gettingStarted = { id: '/articles/getting-started/', title: 'Getting started', body: 'Getting started' };
-      const propsData = { fetch: () => Promise.resolve([gettingStarted]) };
-      const subject = mount(App, { propsData });
-
       const event = new KeyboardEvent("keydown", { key: "k", ctrlKey: true });
       await subject.vm.handleKeydown(event);
 
@@ -145,13 +144,47 @@ describe('App', () => {
     });
 
     it('closes the support widget when Escape is pressed', async () => {
-      const subject = mount(App);
-      subject.vm.isOpen = true;
+      await subject.vm.open();
 
       const event = new KeyboardEvent("keydown", { key: "Escape" });
       await subject.vm.handleKeydown(event);
 
       expect(subject.vm.isOpen).toEqual(false);
+    });
+
+    it('handles articles navigation', async () => {
+      const articles = [
+        { id: '/articles/first/', title: 'First', body: 'First', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/second/', title: 'Second', body: 'Second', sourceUrl: 'https://dnsimple.com' },
+      ];
+      subject = mount(App, { props: { ...propsData }, computed: { filteredArticles() { return articles; } } });
+      await subject.vm.open();
+
+      const down = new KeyboardEvent("keydown", { key: "ArrowDown" });
+      await subject.vm.handleKeydown(down);
+      await nextTick();
+
+      let selectedArticle = subject.get('.selected-article');
+      expect(selectedArticle.text()).toContain('First');
+
+      await subject.vm.handleKeydown(down);
+      await nextTick();
+
+      selectedArticle = subject.get('.selected-article');
+      expect(selectedArticle.text()).toContain('Second');
+
+      const up = new KeyboardEvent("keydown", { key: "ArrowUp" });
+      await subject.vm.handleKeydown(up);
+      await nextTick();
+
+      selectedArticle = subject.get('.selected-article');
+      expect(selectedArticle.text()).toContain('First');
+
+      const enter = new KeyboardEvent("keydown", { key: "Enter" });
+      await subject.vm.handleKeydown(enter);
+      await nextTick();
+
+      expect(subject.vm.currentRoute).toEqual(['Article', articles[0]]);
     });
   });
 });
