@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   verbose: true,
   testMatch: ['**/*.spec.js'],
   testEnvironment: 'jsdom',
