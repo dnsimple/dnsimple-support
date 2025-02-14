@@ -38,5 +38,8 @@
     "widget": "vite serve ./_widget",
     "test": "bundle exec rake compile && jest",
     "test:watch": "jest --watch"
+  },
+  "resolutions": {
+    "esbuild": "^0.25.0"
   }
 }
