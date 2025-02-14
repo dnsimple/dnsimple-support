@@ -1,10 +1,10 @@
 <template>
-  <div v-if="article" class="route with-footer">
+  <div class="route with-footer">
     <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
       <div v-html="backIcon"></div>
     </a>
 
-    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
+    <a v-if="article.sourceUrl" :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>

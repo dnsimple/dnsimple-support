@@ -4,7 +4,7 @@ import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
 const propsData = {
-  gettingStartedUrl: '/articles/getting-started/',
+  gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
   currentSiteUrl: 'https://support.dnsimple.com',
   fetch: () => Promise.resolve(ARTICLES)
 };
@@ -114,7 +114,6 @@ describe('App', () => {
       beforeEach(async () => {
         subject = mount(App, { propsData });
         await subject.vm.open();
-        await subject.vm.go('Article', subject.vm.findArticle(subject.find('.articles li a').element.href), true);
       });
 
       it('does not open article links of the same site in the widget', () => {
@@ -201,6 +200,19 @@ describe('App', () => {
       await nextTick();
 
       expect(subject.vm.currentRoute).toEqual(['Article', articles[0]]);
+    });
+  });
+
+  describe('when remote data cannot be loaded', () => {
+    let subject;
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData: { fetch: () => Promise.reject() } });
+      await subject.vm.open();
+    });
+
+    it ('shows an error message', () => {
+      expect(subject.text()).toContain('We couldn\'t load our support articles. Please try reloading the page.');
     });
   });
 });
