@@ -38,10 +38,5 @@
     "widget": "vite serve ./_widget",
     "test": "bundle exec rake compile && jest",
     "test:watch": "jest --watch"
-  },
-  "resolutions": {
-    "glob-parent": "^5.1.2",
-    "json-schema": "^0.4.0",
-    "serialize-javascript": "^3.1.0"
   }
 }
