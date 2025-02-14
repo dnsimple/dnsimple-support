@@ -17,5 +17,10 @@ export default {
   "payment": "invoice payment",
   "transfer": "transfer dnsimple",
   "nameservers": "name servers",
-  "domain": "register"
+  "domain": "register",
+  "metrics": "query volume analytics",
+  "stats": "query volume analytics",
+  "observability": "query volume analytics",
+  "queries": "query volume analytics",
+  "analytics": "query volume analytics"
 };

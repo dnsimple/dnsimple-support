@@ -158,7 +158,22 @@ describe('Search', () => {
         // 'I got an ECC-signed certificate but want RSA': 10,
         // 'Installing an SSL Certificate': 10,
         // 'SSL Certificates with Microsoft Azure': 10,
-      }
+      },
+      'metrics': {
+        'DNS Query Volume Fees': 1
+      },
+      'stats': {
+        'DNS Query Volume Fees': 1
+      },
+      'observability': {
+        'DNS Query Volume Fees': 1
+      },
+      'queries': {
+        'DNS Query Volume Fees': 1
+      },
+      'analytics': {
+        'DNS Query Volume Fees': 1
+      },
     };
 
     for (const q in queries) {
