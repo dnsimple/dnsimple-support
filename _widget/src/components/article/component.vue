@@ -51,12 +51,13 @@ export default {
     fixLinks () {
       [...this.$el.querySelectorAll('a')].forEach((a) => {
         const href = a.getAttribute('href');
+        const isSameSite = this.article.sourceUrl.indexOf(this.app.getCurrentSiteUrl()) === 0;
 
-        if (href[0] === '/')
+        if (href[0] === '/' && !isSameSite)
           this.prepRelativeLink(a);
         else if (href[0] === '#')
           this.prepHashLink(a);
-        else if (href.indexOf('javascript') !== 0)
+        else if (href.indexOf('javascript') !== 0 && (!isSameSite || href.startsWith('http')))
           this.prepAbsoluteLink(a);
       });
     },

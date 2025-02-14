@@ -45,8 +45,8 @@ describe('Search', () => {
   describe('queries', () => {
     const queries = {
       'a record': {
-        'Managing A Records': 1,
-        'What\'s an A Record?': 2
+        'Managing A Records': 4,
+        'What\'s an A Record?': 1
       },
       'enable dnssec': {
         'DNSSEC': 1,
@@ -70,18 +70,19 @@ describe('Search', () => {
       },
       'auto-renew certificate': {
         "Renewing an SSL Certificate": 2,
-        "Renewing a standard SSL Certificate": 6,
-        "How does an SSL Certificate Renewal work?": 5,
+        "Renewing a standard SSL Certificate": 5,
+        "How does an SSL Certificate Renewal work?": 6,
         "Renewing a Let's Encrypt SSL Certificate": 7,
       },
       'delegate name servers to another provider': {
         'Setting the Name Servers for a Domain': 3,
         'Pointing a Domain to DNSimple': 4,
         'DNSimple Name Servers': 2,
-        'Delegating a Domain registered with another Registrar to DNSimple': 6
+        'Delegating a Domain registered with another Registrar to DNSimple': 7
       },
       'create a record': {
-        "Managing A Records": 1
+        'What\'s an A Record?': 1,
+        "Managing A Records": 4
       },
       'retry payment': {
         'Account Invoice History': 2,
