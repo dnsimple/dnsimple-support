@@ -47,7 +47,7 @@ Enter the following settings:
 
 Now, [complete the setup](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-the-domain-in-your-repo) of your domain in your GitHub repo.
 
-## Set up your custom domain with GitHub
+## Setting up your custom domain with GitHub
 
 Read GitHub's guide on [how to setup a custom domain with GitHub Pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/), and complete the required steps to ensure your domain works correctly.
 
