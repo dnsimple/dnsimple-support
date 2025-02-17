@@ -84,9 +84,6 @@ export default {
         'gi'
       );
     },
-    articlesBySource() {
-      return Object.groupBy(this.app.filteredArticles, (a) => a.sourceUrl);
-    },
     articlesBySourceAndCategory() {
       return this.app.filteredArticles.reduce((result, article) => {
         const { sourceUrl, categories } = article;
@@ -122,7 +119,7 @@ export default {
     },
 
     selectNextArticle () {
-      const articles = Object.values(this.articlesBySource).flat();
+      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -133,7 +130,7 @@ export default {
     },
 
     selectPrevArticle () {
-      const articles = Object.values(this.articlesBySource).flat();
+      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
