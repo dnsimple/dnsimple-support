@@ -14,7 +14,7 @@ categories:
 
 ---
 
-To access the [DNSimple API](https://developer.dnsimple.com/) v2, you need an access token.
+To access the [DNSimple API](https://developer.dnsimple.com/), you need an access token.
 
 To create an application that requires access to DNSimple, or let an external application request authorization to private details in a user's DNSimple account without a password, you need an [OAuth Token](/articles/oauth-applications/).
 
@@ -24,11 +24,11 @@ To create an application that requires access to DNSimple, or let an external ap
   <iframe src="https://www.youtube.com/embed/oGBUQlbkyFM" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Account tokens vs User tokens
+## Account tokens vs user tokens
 
-API v2 offers two types of tokens: Account and User.
+The API offers two types of tokens: Account and user.
 
-The User token gives you access to any resource associated with any account the user has access to. An Account token gives you access only to the resources connected to that account.
+The user token gives you access to any resource associated with any account the user has access to. An account token gives you access only to the resources connected to that account.
 
 <tip>
 We recommend using account tokens unless your application needs multi-account access via a single token.
@@ -43,7 +43,7 @@ We recommend using account tokens unless your application needs multi-account ac
 
 This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
 
-You can see the last used date of an access token from the list of existing access tokens.
+You can find the last used date of an access token on the list of existing access tokens.
 
 ![Access Tokens Last Used Date](/files/access-tokens-last-used.png)
 
