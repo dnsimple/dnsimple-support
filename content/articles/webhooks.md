@@ -54,7 +54,7 @@ When there are suppressed recipients, an alert message appears. A red exclamatio
 
 ![Suppressed recipients](/files/webhooks-clear-suppression.png)
 
-Click **Clear Suppression** to clear the suppresion and allow the recipient to rececive events again.
+Click **Clear Suppression** to clear the suppression and allow the recipient to receive events again.
 
 ## Have more questions? 
 
