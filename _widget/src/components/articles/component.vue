@@ -87,7 +87,7 @@ export default {
     articlesBySourceAndCategory() {
       return this.app.filteredArticles.reduce((result, article) => {
         const { sourceUrl, categories } = article;
-        const category = categories[0];
+        const category = categories?.[0];
 
         if (!result[sourceUrl])
           result[sourceUrl] = {};
