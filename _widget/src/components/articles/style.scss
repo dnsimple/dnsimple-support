@@ -5,6 +5,10 @@
     h3 {
       color: var(--dnsimple-support-widget-blue);
       font-weight: bold;
+
+      &.category {
+        color: var(--dnsimple-support-widget-dark-gray);
+      }
     }
 
     h4 {
@@ -28,6 +32,12 @@
     mark {
       background: #fff3b6;
       padding: 2px 0;
+    }
+
+    ul {
+      > div {
+        margin-bottom: var(--dnsimple-support-widget-padding);
+      }
     }
 
     li {
