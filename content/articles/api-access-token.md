@@ -69,7 +69,9 @@ Scoped access tokens can be restricted to access only certain resources, or cert
 
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
-Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources. For instance, when configuring the token for access to zones, you can specify whether it should have access to all zones in the account, or only selected zones, as well as whether the type of access should be read-only or full (i.e. read and write).
+Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources. 
+
+For example, when configuring the token for access to zones, after choosing **Read only** or **Full access** from the dropdown, you can click **Change** to specify whether it should have access to all zones in the account or only selected zones.
 
 ![Selecting Zones](/files/scoped-account-token-select-zones.png)
 
@@ -101,7 +103,7 @@ When you are done editing the token permissions, click **Update token** to save 
 
 ## Removing an account access token
 
-You can also remove a token at any time by clicking **Delete**.
+You can remove a token by clicking the trash can **Delete** icon on the desired token.
 
 ![Remove Token](/files/access-token-remove.png)
 
