@@ -124,17 +124,28 @@ describe('App', () => {
   });
 
   describe('sources', () => {
-    let subject;
-
-    beforeEach(async () => {
-      subject = mount(App, { propsData });
-      await subject.vm.open();
-    });
-
     it('groups the articles by source', async () => {
+      const subject = mount(App, { propsData });
+      await subject.vm.open();
       await subject.find('input').setValue('getting');
 
       expect(subject.find('h4').text()).toContain('DNSimple Support');
+    });
+
+    it('prioritizes results from the current site', async () => {
+      const currentSiteUrl = 'https://developer.dnsimple.com';
+      const articles = [
+        { id: '/articles/foobar/', title: 'Foobar', body: 'Foobar', sourceUrl: 'https://support.dnsimple.com' },
+        { id: '/articles/foobaz/', title: 'Foobaz', body: 'Foobaz', sourceUrl: 'https://developer.dnsimple.com' },
+      ];
+      const subject = mount(App, { props: { ...propsData, currentSiteUrl }, computed: { filteredArticles() { return articles; } } });
+      await subject.vm.open();
+
+      await subject.find('input').setValue('fooba');
+
+      const sourceHeaders = subject.findAll('h4');
+      expect(sourceHeaders.at(0).text()).toContain('DNSimple Developer');
+      expect(sourceHeaders.at(1).text()).toContain('DNSimple Support');
     });
   });
 
