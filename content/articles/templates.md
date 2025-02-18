@@ -1,5 +1,5 @@
 ---
-title: How to use templates
+title: How to Use Templates
 excerpt: How to use templates to facilitate the entry of DNS records.
 categories:
 - Templates
@@ -18,31 +18,34 @@ Templates are reusable groups of DNS records that can be applied to any of your 
 
 You can access your templates at any time from the top navigation bar, next to your domains and contacts.
 
+<info>
+Templates do not override any existing DNS records on your domain.
+</info>
 
 ## Creating a template
 
-To create a new template use the <label>Templates</label> link on the top navigation bar.
+To create a new template, click **Templates** on the top navigation bar, then click **New template**.
+![screenshot of adding a new template](/files/template-list.png)
 
-![Template tab](/files/templates-tab.png)
 
-Click on <label>New Template</label>.
-
-![Template main page](/files/template-main-page.png)
-
-Fill in the form for your template. In this example,  you will create a template to automate the creation of a CNAME record pointing to a specific address in Heroku.
+Fill in the form for your template. This example shows a template to automate the creation of a CNAME record pointing to a specific address in Heroku.
 
 ![Template new](/files/template-new.png)
 
-Now that you have the basic information for the template, it is time to create the record for it. In this example, you are only creating one record, but there is no limit to the number of records that you can have on a template.
+Now that you have the basic information for the template, create the record for it.
+![screenshot of tooltip for managing a templates dns](/files/template-manage-dns.png)
+![screenshot of list of dns records for a template](/files/template-records.png)
 
-The keyword `{{domain}}` automatically fills in the domain name to which the template is applied. The symbol `@` can also be used as it is equivalent to `{{domain}}`.
+The example below shows one record, but there is no limit to the number of records you can have on a template.
+
+The keyword `{{domain}}` automatically fills in the domain name to which the template is applied.
 
 ![Template new record](/files/template-new-record.png)
 
 
 ## Applying a template
 
-Navigate to the [record editor](/articles/record-editor) and select "Template" from the dropdown.
+Navigate to the [record editor](/articles/record-editor) and select **Templates** from the dropdown.
 
 ![Apply the template from the record editor](/files/template-apply-template.png)
 
@@ -50,8 +53,12 @@ Select the template that you wish to apply. In this example, you will apply the 
 
 ![Apply the template from the record editor](/files/template-select-template.png)
 
-If the template is applied sucessfully, you will see the new record.
+If the template is applied successfully, you will see the new record.
 
 ![Apply the template from the record editor](/files/template-record-created.png)
 
-If the template is not being applied, it is possible that the content of the template conflicts with an existing record on your domain. For example, if your domain already has a "beta" CNAME record, the template will not apply. Templates do not override any existing DNS records on your domain.
+If the template has not been applied, it's possible the content of the template conflicts with an existing record on your domain. For example, if your domain already has a `beta` CNAME record, the template will not apply.
+
+## Have more questions?
+
+If you have additional questions or need any assistance creating or applying templates, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
