@@ -88,5 +88,7 @@ base_url: https://support.dnsimple.com
 environments:
   default:
     posthog_id: ""
-  production:
+    ahrefs_id: ""
+  production: 
+    ahrefs_id: "UtKH36Rl3tUpIyx+heMxjA"
     posthog_id: "phc_sEjNzo9c8KB8Njj2rXSGhjyyuShmO820Ii2DNYS3igL"

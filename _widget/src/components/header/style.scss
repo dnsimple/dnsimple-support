@@ -1,0 +1,72 @@
+#dnsimple-support {
+  .header {
+    background: var(--dnsimple-support-widget-dark-gray);
+    text-align: center;
+    padding: var(--dnsimple-support-widget-padding);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    .minimize {
+      color: var(--dnsimple-support-widget-white);
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 1;
+      padding: calc(var(--dnsimple-support-widget-padding) * 2) calc(var(--dnsimple-support-widget-padding) / 1.25);
+
+      svg {
+        width: calc(var(--dnsimple-support-widget-rem) * 1.25);
+        height: calc(var(--dnsimple-support-widget-rem) * 1.25);
+        color: var(--dnsimple-support-widget-white);
+        opacity: 0.5;
+      }
+
+      &:hover {
+        img {
+          opacity: 1.0;
+        }
+      }
+    }
+
+    input {
+        outline: none;
+        padding: 10px;
+        width: calc(100% - var(--dnsimple-support-widget-padding) * 4);
+        border: 0;
+        border-bottom: 1px solid #eee;
+        background: var(--dnsimple-support-widget-white);
+        border-radius: 4px;
+    }
+  }
+
+  .route {
+    & > .external-link {
+      color: var(--dnsimple-support-widget-medium-gray);
+      display: block;
+      width: 1.3rem;
+      height: 1.3rem;
+      float: right;
+    }
+
+    & > .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.6) calc(var(--dnsimple-support-widget-padding) / 2);
+      line-height: 1;
+
+      svg {
+        width: calc(var(--dnsimple-support-widget-rem) * 1.75);
+        height: calc(var(--dnsimple-support-widget-rem) * 1.75);
+        color: var(--dnsimple-support-widget-white);
+        opacity: 0.5;
+      }
+
+      &:hover {
+        img {
+          opacity: 1.0;
+        }
+      }
+    }
+  }
+}

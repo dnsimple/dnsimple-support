@@ -20,8 +20,7 @@ You can use our API or UI to have zone redundancy with other DNS providers. You'
 
 This diagram shows how zone changes are propagated to both DNS service providers:
 
-<img alt="Externally managed Secondary DNS diagram" src="/files/secondary_dns_externally_managed.jpg" />
-
+![Externally managed Secondary DNS diagram](/files/secondary_dns_externally_managed.jpg)
 
 ## Configuring DNSimple alongside another DNS provider (hosted domain)
 

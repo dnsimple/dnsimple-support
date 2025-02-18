@@ -1,0 +1,30 @@
+#dnsimple-support {
+  .prompt {
+    text-align: right;
+    padding: var(--dnsimple-support-widget-prompt-padding);
+    line-height: 1;
+
+    & > a {
+      position: relative;
+      background: var(--dnsimple-support-widget-medium-gray);
+      color: var(--dnsimple-support-widget-white);
+      display: inline-block;
+      border-radius: calc(var(--dnsimple-support-widget-prompt-padding) * 6);
+      padding: var(--dnsimple-support-widget-prompt-padding);
+
+      .text {
+        display: inline-block;
+        padding: calc(var(--dnsimple-support-widget-prompt-padding) / 1.25) calc(var(--dnsimple-support-widget-prompt-padding) * 1.2);
+      }
+
+      .mascot {
+        float: left;
+
+        svg {
+          display: block;
+          width: calc(var(--dnsimple-support-widget-prompt-padding) * 4);
+        }
+      }
+    }
+  }
+}
