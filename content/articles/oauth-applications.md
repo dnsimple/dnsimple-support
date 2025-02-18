@@ -34,7 +34,7 @@ Your applications are listed here. You create a new application, edit existing a
 
 ## Creating a new developer application
 
-1. Click **Add** to add a new access token.
+Click **Add** to add a new access token.
 
 When you create a new application, you'll need to provide a few details, including Application Name, a Homepage URL, and an Authorization Callback URL.
 
