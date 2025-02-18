@@ -9,11 +9,11 @@ catagories:
 
 ## Get a reset password link via email
 
-If you've forgotten your password, you'll need a password reset link to regain access to your account. 
+If you've forgotten your password, you'll need a password reset link to regain access to your account.
 
 Go to the login screen, and click **Forgot Password**.
 
-<!--- needs screenshot -->
+<!--- needs screenshot: https://drive.google.com/file/d/1t6uF4rcrR4QZ8Cb_9kG33hNlTTDG1ffL/view?usp=sharing -->
 
 On the next screen, enter the email address you used to sign up.
 
@@ -40,4 +40,4 @@ If you requested a password reset but have not received the email, follow these 
 
 ## Have more questions?
 
-If you have additional questions or need assistance resetting your password, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need assistance resetting your password, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

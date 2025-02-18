@@ -39,7 +39,7 @@ We recommend using account tokens unless your application needs multi-account ac
 1. Navigate to your account page.
 2. Click the **Access Tokens** tab on the left side.
 
- <!--- needs screenshot -->
+ <!--- https://drive.google.com/file/d/1eNjLWNrYkEzA2eToGsBEtXUvulzUiCgN/view?usp=sharing -->
 
 This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
 
@@ -55,13 +55,13 @@ To generate an account access token with fine-grained permission scopes, i.e. a 
 
 Click **Add** to add a new access token.
 
-When you create a new token, give it a name you can remember. 
+When you create a new token, give it a name you can remember.
 
-If you are [subscribed to the Teams plan or higher](https://dnsimple.com/pricing), you can choose permission scopes for the token. If you are on the Solo plan, the token will have full permissions to all resources in the account. 
+If you are [subscribed to the Teams plan or higher](https://dnsimple.com/pricing), you can choose permission scopes for the token. If you are on the Solo plan, the token will have full permissions to all resources in the account.
 
 Click **Generate token** to create the token after giving it a name.
 
- <!--- needs screenshot -->
+ <!--- https://drive.google.com/file/d/1IPkmyNb8EsmJJ2P2dO_UmOD1qR7YbGLq/view?usp=sharing -->
 
 ### Selecting permission scopes {#scoped-access-tokens}
 
@@ -69,7 +69,7 @@ Scoped access tokens can be restricted to access only certain resources, or cert
 
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
-Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources. 
+Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources.
 
 For example, when configuring the token for access to zones, after choosing **Read only** or **Full access** from the dropdown, you can click **Change** to specify whether it should have access to all zones in the account or only selected zones.
 
@@ -107,6 +107,6 @@ You can remove a token by clicking the trash can **Delete** icon on the desired 
 
 ![Remove Token](/files/access-token-remove.png)
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with API access tokens, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with API access tokens, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -26,17 +26,17 @@ Templates do not override any existing DNS records on your domain.
 
 To create a new template, click **Templates** on the top navigation bar, then click **New template**.
 
-<!--- needs screenshot -->
+<!--- needs screenshot: https://drive.google.com/file/d/1H1sNJ74tfzz7PzFyTXHlP7WtfbI-iLVv/view?usp=sharing -->
 
 Fill in the form for your template. This example shows a template to automate the creation of a CNAME record pointing to a specific address in Heroku.
 
 ![Template new](/files/template-new.png)
 
-Now that you have the basic information for the template, create the record for it. 
+Now that you have the basic information for the template, create the record for it.
 
-<!--- needs screenshot -->
+<!--- needs screenshot: https://drive.google.com/file/d/1-XGDHNYUjby2XRcE0G0o3U1ilGjEutIH/view?usp=sharing -->
 
-<!--- needs screenshot -->
+<!--- needs screenshot: https://drive.google.com/file/d/15Aas6RTRQPyn0jUTW06OF92bqMFSFl48/view?usp=sharing -->
 
 The example below shows one record, but there is no limit to the number of records you can have on a template.
 
@@ -63,4 +63,4 @@ If the template has not been applied, it's possible the content of the template 
 
 ## Have more questions?
 
-If you have additional questions or need any assistance creating or applying templates, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance creating or applying templates, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

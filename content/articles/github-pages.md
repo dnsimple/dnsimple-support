@@ -28,11 +28,11 @@ To point your root domain to your GitHub Pages you have two options:
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
 
-<!--- needs screenshot -->
+<!--- needs screenshot: https://drive.google.com/file/d/1RtGQ2mmwIaqZKNIu1_YcIWgfyIVdHofy/view?usp=sharing -->
 
 4. Select the **Hosting** tab, and scroll down the page until you find the GitHub Pages service. Click **Add**.
 
-The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).  
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Adding an ALIAS record
 
@@ -53,6 +53,6 @@ Read GitHub's guide on [how to setup a custom domain with GitHub Pages](https://
 
 Even if you are only pointing your domain apex to GitHub Pages using an `ALIAS` record, you will need to [add the custom domain to GitHub pages](https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/).
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

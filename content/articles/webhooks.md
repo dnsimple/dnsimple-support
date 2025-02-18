@@ -28,8 +28,8 @@ This displays all the URLs where DNSimple publishes the events that happen in yo
 ## Adding a recipient
 
 1. Click **Add** to add a new recipient.
-  
-   <!--- needs screenshot -->
+
+   <!--- needs screenshot: https://drive.google.com/file/d/15DKEwzdL37rRYCH29vdqfjYodqpIRtRS/view?usp=sharing -->
 
 2. Enter the URL.
 3. Click **Add Webhook** to add the recipient.
@@ -38,14 +38,14 @@ This displays all the URLs where DNSimple publishes the events that happen in yo
 
 You'll be redirected to the Webhooks section. The new webhook recipient will appear on the list of all webhooks.
 
-<!--- needs screenshot -->
- 
+<!--- needs screenshot: https://drive.google.com/file/d/1G1YC77BjM9UnpV0Lq7pDwAVI_1MShQ5k/view?usp=sharing -->
+
 ## Removing a recipient
 
 You can remove a recipient by clicking **Delete**.
 
-<!--- needs screenshot -->
- 
+<!--- needs screenshot: https://drive.google.com/file/d/1GTDCd2DQTl_fN4RBpBq27FbFefAOpHFU/view?usp=sharing -->
+
 ## Clearing suppression
 
 Sometimes a webhook delivery fails. If an endpoint cannot be reached, the delivery is retried. If it keeps failing, the recipient will be marked as *Suppressed*, and no more events will be sent.
@@ -56,6 +56,6 @@ When there are suppressed recipients, an alert message appears. A red exclamatio
 
 Click **Clear Suppression** to clear the suppression and allow the recipient to receive events again.
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

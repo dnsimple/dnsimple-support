@@ -86,21 +86,21 @@ The service directory is open-source. [Learn how to propose or contribute new se
 2. Click the **DNS** tab on the left side.
 3. Scroll down to the **One-click services** card, and click **Add**.
 
-<!--- needs screenshot -->
+<!--- https://drive.google.com/file/d/1RtGQ2mmwIaqZKNIu1_YcIWgfyIVdHofy/view?usp=sharing -->
 
 Choose the service that you want to add.
 
-<!--- needs screenshot -->
+<!--- https://drive.google.com/file/d/1HhPw08O5o0dSO0C63QAvogvxsydzBn5F/view?usp=sharing -->
 
 ## Removing services
 
 To remove a service, navigate to your domain. On the services sidebar, click **DNS**. Scroll down to the One-click Services section, and click **Manage**.
 
-<!--- needs screenshot -->
+<!--- https://drive.google.com/file/d/1sKcfEO8mmBS7Eim4O5ebyKEyKFXXyzYk/view?usp=sharing -->
 
 Find the service from the list of **Applied one-click services** that you want to remove, and click **Remove**.
 
-<!--- needs screenshot -->
+<!--- https://drive.google.com/file/d/1yHVKaCtTS5Wrx7Tnt6XgpE63hlVwFUUb/view?usp=sharing -->
 
 ## Contributing a new service
 
@@ -108,6 +108,6 @@ Services are defined in an open-source repository on GitHub. You can fork and up
 
 Visit [our github repository](https://github.com/dnsimple/dnsimple-services) for full instructions.
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
