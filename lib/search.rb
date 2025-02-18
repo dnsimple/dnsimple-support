@@ -7,7 +7,6 @@ module Search
   include Nanoc::Helpers::Text
 
   def create_search_index
-    write_js_file
     write_json_file
   end
 
@@ -16,15 +15,6 @@ module Search
   def write_json_file
     index_file = File.join(@config[:output_dir], 'search.json')
     File.write(index_file, articles_json)
-  end
-
-  def write_js_file
-    create_from_template(
-      'search.js.erb',
-      'search.js',
-      articles: articles_json,
-      dictionary: dictionary_json
-    )
   end
 
   def get_template_content(template_name, data = {})

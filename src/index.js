@@ -2,7 +2,7 @@ function toggleColorMode (e) {
   // Switch to Light Mode
   if (e.currentTarget.classList.contains("light--hidden")) {
     document.documentElement.setAttribute("color-mode", "light");
-    localStorage.setItem("color-mode", "light")
+    localStorage.setItem("color-mode", "light");
     return;
   }
 

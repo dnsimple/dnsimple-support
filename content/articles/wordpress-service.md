@@ -1,6 +1,6 @@
 ---
 title: WordPress Service
-excerpt: How to set up WordPress DNS using DNSimple's one-click service.
+excerpt: How to set up WordPress DNS using DNSimple's One-click Service.
 categories:
 - Services
 ---
@@ -14,24 +14,31 @@ categories:
 
 ---
 
-[WordPress](http://wordpress.com) lets you share with the world, your community, or your closest friends. With DNSimple's one-click [DNS services](/categories/services/) you can set up the DNS records required by WordPress.
+[WordPress](http://wordpress.com) lets you share with the world, your community, or your closest friends.
 
+If you have accounts with DNSimple and WordPress, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by WordPress.
 
 ## Enabling WordPress service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
 
-![Services](/files/services-dns-page-add.png)
+![add one click services](/files/one-click-services.png)
 
-Select the "Hosting" tab, and scroll down the page until you find the WordPress service. Click on the *Add* button.
+Select the **Hosting** tab, and scroll down to the WordPress service. Click **Add**.
 
 ![Add Service](/files/services-wordpress.png)
 
-Enter your WordPress.com subdomain, then click on the *Complete WordPress Setup* button.
+Enter your WordPress.com subdomain, then click **Complete WordPress Setup**.
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at WordPress
 
 Follow the steps to [map your domain to your WordPress site](https://wordpress.com/support/domains/map-existing-domain/).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+

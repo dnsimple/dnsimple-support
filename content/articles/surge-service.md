@@ -14,17 +14,22 @@ categories:
 
 ---
 
-[Surge](http://surge.sh) is static web publishing for Front-End Developers – simple, single-command web publishing. Publish HTML, CSS, and JS for free, without leaving the command line. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Surge.
+[Surge](http://surge.sh) is static web publishing for Front-End Developers – simple, single-command web publishing. Publish HTML, CSS, and JS for free, without leaving the command line.
 
+If you have accounts with DNSimple and Surge, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Surge.
 
 ## Enabling Surge service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![Add one click service to domain](/files/add-one-click-service.png)
 
-![Services](/files/services-dns-page-add.png)
+1. Select the **Hosting** tab, and scroll down the page until you find the Surge service. Click **Add**.
+    ![Add Service](/files/services-surge.png)
 
-Select the "Hosting" tab, and scroll down the page until you find the Surge service. Click on the *Add* button.
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-![Add Service](/files/services-surge.png)
+## Have more questions?
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
