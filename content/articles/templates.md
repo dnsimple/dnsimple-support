@@ -25,18 +25,16 @@ Templates do not override any existing DNS records on your domain.
 ## Creating a template
 
 To create a new template, click **Templates** on the top navigation bar, then click **New template**.
+![screenshot of adding a new template](/files/template-list.png)
 
-<!--- needs screenshot: https://drive.google.com/file/d/1H1sNJ74tfzz7PzFyTXHlP7WtfbI-iLVv/view?usp=sharing -->
 
 Fill in the form for your template. This example shows a template to automate the creation of a CNAME record pointing to a specific address in Heroku.
 
 ![Template new](/files/template-new.png)
 
 Now that you have the basic information for the template, create the record for it.
-
-<!--- needs screenshot: https://drive.google.com/file/d/1-XGDHNYUjby2XRcE0G0o3U1ilGjEutIH/view?usp=sharing -->
-
-<!--- needs screenshot: https://drive.google.com/file/d/15Aas6RTRQPyn0jUTW06OF92bqMFSFl48/view?usp=sharing -->
+![screenshot of tooltip for managing a templates dns](/files/template-manage-dns.png)
+![screenshot of list of dns records for a template](/files/template-records.png)
 
 The example below shows one record, but there is no limit to the number of records you can have on a template.
 
