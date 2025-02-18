@@ -14,9 +14,9 @@ categories:
 
 ---
 
-Create your own space with [Squarespace](http://www.squarespace.com). 
+Create your own space with [Squarespace](http://www.squarespace.com).
 
-If you have accounts with DNSimple and Squarespace, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Squarespace. 
+If you have accounts with DNSimple and Squarespace, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Squarespace.
 
 ## Setting up at Squarespace
 
@@ -29,10 +29,9 @@ Copy the unique code under **Host** on the first line of the DNS Settings. You'l
 ## Enabling Squarespace service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
-
- <!--- needs screenshot -->
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+![screenshot of link to one click services](/files/one-click-services.png)
 
 Select the **Ecommerce** tab, and scroll down to the Squarespace service. Click **Add**.
 
@@ -40,7 +39,7 @@ Select the **Ecommerce** tab, and scroll down to the Squarespace service. Click 
 
 Enter your unique verification code (found under **Host** in Squarespace), then click **Complete Squarespace Setup**.
 
-The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services). 
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Have more questions?
 
