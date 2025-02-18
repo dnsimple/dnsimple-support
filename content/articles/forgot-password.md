@@ -12,8 +12,7 @@ catagories:
 If you've forgotten your password, you'll need a password reset link to regain access to your account.
 
 Go to the login screen, and click **Forgot Password**.
-
-<!--- needs screenshot: https://drive.google.com/file/d/1t6uF4rcrR4QZ8Cb_9kG33hNlTTDG1ffL/view?usp=sharing -->
+![screenshot of forgot password link](/files/forgot-password-link.png)
 
 On the next screen, enter the email address you used to sign up.
 
