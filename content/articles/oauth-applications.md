@@ -27,9 +27,8 @@ Developers need to register their application before starting. A registered OAut
 ## Creating a new OAuth application
 
 1. Navigate to your account page.
-2. Click the **OAuth Applications** tab on the left side, then go to the **Developer applications** card.
-
- <!--- needs screenshot: https://drive.google.com/file/d/1IXkOZQiJ071ubfhscvGPD6sEwC1t8OSm/view?usp=sharing -->
+1. Click the **OAuth Applications** tab on the left side, then go to the **Developer applications** card.
+![screenshot of adding an oauth application](/files/oauth-app-add.png)
 
 Your applications are listed here. You create a new application, edit existing applications, or remove them.
 

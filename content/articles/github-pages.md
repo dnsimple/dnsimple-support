@@ -25,10 +25,9 @@ To point your root domain to your GitHub Pages you have two options:
 ## Using the One-click Service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
-
-<!--- needs screenshot: https://drive.google.com/file/d/1RtGQ2mmwIaqZKNIu1_YcIWgfyIVdHofy/view?usp=sharing -->
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+    ![screenshot of one click services link](/files/one-click-services.png)
 
 4. Select the **Hosting** tab, and scroll down the page until you find the GitHub Pages service. Click **Add**.
 
