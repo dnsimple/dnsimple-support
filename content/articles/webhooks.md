@@ -28,23 +28,18 @@ This displays all the URLs where DNSimple publishes the events that happen in yo
 ## Adding a recipient
 
 1. Click **Add** to add a new recipient.
-
-   <!--- needs screenshot: https://drive.google.com/file/d/15DKEwzdL37rRYCH29vdqfjYodqpIRtRS/view?usp=sharing -->
-
-2. Enter the URL.
-3. Click **Add Webhook** to add the recipient.
-
-![Add the URL and save it](/files/webhooks-add-url.png)
+    ![screenshot of link to manage webhooks](/files/webhooks-link.png)
+1. Enter the URL.
+1. Click **Add Webhook** to add the recipient.
+    ![Add the URL and save it](/files/webhooks-add-url.png)
 
 You'll be redirected to the Webhooks section. The new webhook recipient will appear on the list of all webhooks.
-
-<!--- needs screenshot: https://drive.google.com/file/d/1G1YC77BjM9UnpV0Lq7pDwAVI_1MShQ5k/view?usp=sharing -->
+![Screenshot of removing a webhook](/files/webhooks-list.png)
 
 ## Removing a recipient
 
 You can remove a recipient by clicking **Delete**.
-
-<!--- needs screenshot: https://drive.google.com/file/d/1GTDCd2DQTl_fN4RBpBq27FbFefAOpHFU/view?usp=sharing -->
+![delete a webhook](/files/webhook-delete.png)
 
 ## Clearing suppression
 

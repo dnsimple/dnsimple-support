@@ -1,7 +1,7 @@
 ---
 title: Forgot Password
 excerpt: Forgot your password? Use this guide to reset your password so you can log in.
-catagories:
+categories:
 - Account
 ---
 
