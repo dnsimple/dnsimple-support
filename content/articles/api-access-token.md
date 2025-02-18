@@ -37,9 +37,9 @@ We recommend using account tokens unless your application needs multi-account ac
 ## Getting to the account access token page
 
 1. Navigate to your account page.
-2. Click the **Access Tokens** tab on the left side.
+1. Click the **Access Tokens** tab on the left side.
 
- <!--- https://drive.google.com/file/d/1eNjLWNrYkEzA2eToGsBEtXUvulzUiCgN/view?usp=sharing -->
+![screenshot of account access tokens](/files/access-tokens.png)
 
 This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
 
@@ -60,8 +60,7 @@ When you create a new token, give it a name you can remember.
 If you are [subscribed to the Teams plan or higher](https://dnsimple.com/pricing), you can choose permission scopes for the token. If you are on the Solo plan, the token will have full permissions to all resources in the account.
 
 Click **Generate token** to create the token after giving it a name.
-
- <!--- https://drive.google.com/file/d/1IPkmyNb8EsmJJ2P2dO_UmOD1qR7YbGLq/view?usp=sharing -->
+![screenshot of creating a new access token](/files/access-tokens-new.png)
 
 ### Selecting permission scopes {#scoped-access-tokens}
 
