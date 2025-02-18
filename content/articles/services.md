@@ -83,24 +83,20 @@ The service directory is open-source. [Learn how to propose or contribute new se
 ## Adding a service
 
 1. From the domain list, click on the domain name you want to update.
-2. Click the **DNS** tab on the left side.
-3. Scroll down to the **One-click services** card, and click **Add**.
-
-<!--- https://drive.google.com/file/d/1RtGQ2mmwIaqZKNIu1_YcIWgfyIVdHofy/view?usp=sharing -->
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+![screenshot of adding one click services](/files/one-click-services.png)
 
 Choose the service that you want to add.
-
-<!--- https://drive.google.com/file/d/1HhPw08O5o0dSO0C63QAvogvxsydzBn5F/view?usp=sharing -->
+![screenshot showing list of one click services](/files/services-list.png)
 
 ## Removing services
 
 To remove a service, navigate to your domain. On the services sidebar, click **DNS**. Scroll down to the One-click Services section, and click **Manage**.
-
-<!--- https://drive.google.com/file/d/1sKcfEO8mmBS7Eim4O5ebyKEyKFXXyzYk/view?usp=sharing -->
+![screenshot of manage a service link](/files/services-manage.png)
 
 Find the service from the list of **Applied one-click services** that you want to remove, and click **Remove**.
-
-<!--- https://drive.google.com/file/d/1yHVKaCtTS5Wrx7Tnt6XgpE63hlVwFUUb/view?usp=sharing -->
+![screenshot of removing a service](/files/services-remove.png)
 
 ## Contributing a new service
 
