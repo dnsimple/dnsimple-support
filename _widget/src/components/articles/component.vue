@@ -36,15 +36,15 @@
             </li>
           </div>
 
-          <li v-if="!app.filteredArticles.length">
-            <p>We could not find any articles for: <strong>{{ app.q }}</strong></p>
+          <li v-if="!app.filteredArticles.length" class="pb0">
+            <p>We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
           </li>
         </ul>
       </div>
 
       <ul v-if="!app.filteredArticles.length">
-        <li>
-          <p>We could not find any articles for: <strong>{{ app.q }}</strong></p>
+        <li class="pb0">
+          <p>We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
         </li>
       </ul>
 
