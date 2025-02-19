@@ -4,7 +4,7 @@
       <div v-html="spinnerIcon"></div>
     </div>
 
-    <div v-else-if="showRecentlyVisitedArticles" class="articles">
+    <div v-else-if="app.showRecentlyVisitedArticles" class="articles">
       <h4>Recently Visited</h4>
       <ul>
         <li v-for="article in app.recentlyVisitedArticles" :key="article.id">
@@ -131,9 +131,6 @@ export default {
         return result;
       }, {});
     },
-    showRecentlyVisitedArticles() {
-      return this.app.showRecentlyVisited && this.app.recentlyVisitedArticles?.length > 0;
-    }
   },
   methods: {
     absoluteURL (article, path) {
@@ -153,7 +150,7 @@ export default {
     },
 
     selectNextArticle () {
-      const articles = this.showRecentlyVisitedArticles
+      const articles = this.app.showRecentlyVisitedArticles
         ? this.app.recentlyVisitedArticles
         : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
@@ -166,7 +163,7 @@ export default {
     },
 
     selectPrevArticle () {
-      const articles = this.showRecentlyVisitedArticles
+      const articles = this.app.showRecentlyVisitedArticles
         ? this.app.recentlyVisitedArticles
         : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 

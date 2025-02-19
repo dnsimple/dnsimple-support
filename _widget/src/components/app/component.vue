@@ -117,6 +117,10 @@ export default {
 
     recentlyVisitedArticles () {
       return JSON.parse(localStorage.getItem('recentlyVisited')) || [];
+    },
+
+    showRecentlyVisitedArticles () {
+      return this.showRecentlyVisited && this.recentlyVisitedArticles?.length > 0;
     }
   },
 
