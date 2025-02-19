@@ -27,6 +27,8 @@ import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
 
+const RECENTLY_VISITED_LIMIT = 10;
+
 export default {
   components: {
     Footer,
@@ -79,7 +81,7 @@ export default {
       isOpen: false,
       isFetched: {},
       history: [],
-      articles: []
+      articles: [],
     };
   },
 
@@ -121,6 +123,7 @@ export default {
         this.history.push(this.currentRoute);
 
       this.currentRoute = [page, params];
+      if (params) this.storeRecentlyVisited(params);
     },
 
     back () {
@@ -198,6 +201,17 @@ export default {
 
     hasHistory() {
       return this.history.length > 0;
+    },
+
+    storeRecentlyVisited(article) {
+      const recentlyVisited = JSON.parse(localStorage.getItem('recentlyVisited')) || [];
+      if (!recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`).includes(`${article.id}-${article.sourceUrl}`))
+        recentlyVisited.push(article);
+
+      if (recentlyVisited.length > RECENTLY_VISITED_LIMIT)
+        recentlyVisited.shift();
+
+      localStorage.setItem('recentlyVisited', JSON.stringify(recentlyVisited));
     },
 
     handleKeydown(event) {
