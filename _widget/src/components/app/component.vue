@@ -154,7 +154,9 @@ export default {
           this.sources.map((s) => this.fetchArticles(s.url).catch(() => {}))
         )
         .then(() => {
-          if (this.filteredArticles.length === 1)
+          if (this.showRecentlyVisitedArticles)
+            this.go('Articles', undefined, true);
+          else if (this.filteredArticles.length === 1)
             this.go('Article', this.filteredArticles[0], true);
           else if (this.filteredArticles.length === 0) {
             this.go('Article', this.gettingStarted, true);
