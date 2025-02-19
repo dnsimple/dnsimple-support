@@ -42,6 +42,14 @@ describe('Search', () => {
     expect(trackSearch).toHaveBeenCalledWith('pronounce', ['How to pronounce DNSimple']);
   });
 
+  it('can find results with a truncated query', () => {
+    const results1 = subject.query('hostin');
+    expect(results1.map((r) => r.title).slice(0, 3)).toContain('Web Hosting Support');
+
+    const results2 = subject.query('reg');
+    expect(results2.map((r) => r.title).slice(0, 3)).toContain('Registering a Domain');
+  });
+
   describe('queries', () => {
     const queries = {
       'a record': {
@@ -74,7 +82,7 @@ describe('Search', () => {
         'Setting the Name Servers for a Domain': 3,
         'Pointing a Domain to DNSimple': 4,
         'DNSimple Name Servers': 2,
-        'Delegating a Domain registered with another Registrar to DNSimple': 7
+        'Delegating a Domain registered with another Registrar to DNSimple': 6
       },
       'create a record': {
         'What\'s an A Record?': 1,
