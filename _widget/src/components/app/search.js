@@ -5,10 +5,10 @@ const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
 const ING_REGEX = /ing[\s|\.]/g;
 const RRING_REGEX = /rring[\s|\.]/g;
-const I_REGEX = /i[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
 const AL_REGEX = /al[\s|\.]/g;
+const TIN_REGEX = /tin[\s|\.]/g;
 const GE_REGEX = /ge[\s|\.]/g;
 
 const searchable = (str) => {
@@ -21,8 +21,8 @@ const searchable = (str) => {
     .replace(ING_REGEX, ' ')
     .replace(ED_REGEX, ' ')
     .replace(IES_REGEX, ' ')
-    .replace(I_REGEX, ' ')
     .replace(AL_REGEX, ' ')
+    .replace(TIN_REGEX, 't ')
     .replace(GE_REGEX, 'g ')
     .trim();
 };
@@ -59,12 +59,13 @@ const findByCategory = (category, articles) => {
     });
 };
 
+const MIN_ARTICLE_LENGTH = 750;
 const articleScore = (article, wordsRegex) => {
   let score = 0;
 
   wordsRegex.forEach((wordRegex) => {
     score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
-    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
+    score += (article.searchBody.match(wordRegex) || []).length / Math.max(MIN_ARTICLE_LENGTH, article.searchBody.length) * 750;
   });
 
   return score;
