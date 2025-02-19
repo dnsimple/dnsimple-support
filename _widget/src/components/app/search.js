@@ -36,14 +36,6 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
   );
 };
 
-const dictionaryTermMatches = (q, term) => {
-  var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0;
-  var firstSpace = term.indexOf(' ');
-  var termHasSpace = firstSpace !== -1;
-
-  return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
-};
-
 const applyDictionary = (dictionary, q) => {
   for (const word in dictionary) 
     q = q.replace(word, dictionary[word]);
