@@ -219,8 +219,14 @@ export default {
       if (/getting.*started/i.test(article.id)) return;
 
       const recentlyVisited = JSON.parse(localStorage.getItem('recentlyVisited')) || [];
-      if (!recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`).includes(`${article.id}-${article.sourceUrl}`))
+      const recentlyVisitedIdentifiers = recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`);
+      const articleIdentifier = `${article.id}-${article.sourceUrl}`;
+      if (!recentlyVisitedIdentifiers.includes(articleIdentifier))
         recentlyVisited.unshift(article);
+      else {
+        recentlyVisited.splice(recentlyVisitedIdentifiers.indexOf(articleIdentifier), 1);
+        recentlyVisited.unshift(article);
+      }
 
       if (recentlyVisited.length > RECENTLY_VISITED_LIMIT)
         recentlyVisited.pop();
