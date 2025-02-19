@@ -137,6 +137,21 @@ describe('App', () => {
     });
   });
 
+  describe('categories', () => {
+    let subject;
+
+    beforeEach(async () => {
+      subject = mount(App, { propsData });
+      await subject.vm.open();
+    });
+
+    it('groups the articles by category', async () => {
+      await subject.find('input').setValue('getting');
+
+      expect(subject.find('.category').text()).toContain('DNSimple');
+    });
+  });
+
   describe('keyboard shortcuts', () => {
     let subject;
 

@@ -2,6 +2,7 @@
   "name": "dnsimple-support",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "dependencies": {
     "vue": "^3.5.13"
   },
@@ -39,8 +40,6 @@
     "test:watch": "jest --watch"
   },
   "resolutions": {
-    "glob-parent": "^5.1.2",
-    "json-schema": "^0.4.0",
-    "serialize-javascript": "^3.1.0"
+    "esbuild": "^0.25.0"
   }
 }

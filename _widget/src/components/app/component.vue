@@ -218,11 +218,14 @@ export default {
     handleKeydown(event) {
       if ((event.metaKey || event.ctrlKey) && event.key === "k") {
         event.preventDefault();
+
         this.open();
         this.focus();
       } else if (event.key === "Escape")
         this.close();
-      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles')
+      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
         nextTick(() => {
           const $body = this.$refs.body;
           if (!$body) return;
@@ -234,7 +237,9 @@ export default {
             selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
           });
         });
-      else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles')
+      } else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
         nextTick(() => {
           const $body = this.$refs.body;
           if (!$body) return;
@@ -246,7 +251,7 @@ export default {
             selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
           });
         });
-      else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
+      } else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
         event.preventDefault();
 
         nextTick(() => {

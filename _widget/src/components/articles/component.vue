@@ -4,34 +4,37 @@
       <div v-html="spinnerIcon"></div>
     </div>
     <div v-else class="articles">
-      <div v-for="(articles, sourceUrl) in articlesBySource" :key="`${sourceUrl}-results`">
+      <div v-for="(articlesByCategory, sourceUrl) in articlesBySourceAndCategory" :key="`${sourceUrl}-results`">
         <h4>
           {{ app.getSourceName(sourceUrl) }}
           <a :href="sourceUrl" v-html="externalLink" target="_blank" class="external-link"></a>
         </h4>
         <ul>
-          <li v-for="article in articles" :key="article.id">
-            <div :class="{ 'selected-article': isSelectedArticle(article) }">
-              <h3>
-                <a
-                  v-if="sourceUrl === app.getCurrentSiteUrl()"
-                  v-html="highlight(article.title, highlighter)"
-                  :href="absoluteURL(article, article.id)"
-                ></a>
-                <a
-                  v-else
-                  @click.prevent="app.go('Article', article)"
-                  v-html="highlight(article.title, highlighter)"
-                  :href="absoluteURL(article, article.id)"
-                ></a>
-              </h3>
+          <div v-for="(articles, category) in articlesByCategory" :key="`${category}-articles`">
+            <h3 v-if="category !== 'undefined'" class="category">{{ category }}</h3>
+            <li v-for="article in articles" :key="article.id">
+              <div :class="{ 'selected-article': isSelectedArticle(article) }">
+                <h3>
+                  <a
+                    v-if="sourceUrl === app.getCurrentSiteUrl()"
+                    v-html="highlight(article.title, highlighter)"
+                    :href="absoluteURL(article, article.id)"
+                  ></a>
+                  <a
+                    v-else
+                    @click.prevent="app.go('Article', article)"
+                    v-html="highlight(article.title, highlighter)"
+                    :href="absoluteURL(article, article.id)"
+                  ></a>
+                </h3>
 
-              <p
-                v-html="highlight(article.excerpt, highlighter)"
-                class="excerpt"
-              ></p>
-            </div>
-          </li>
+                <p
+                  v-html="highlight(article.excerpt, highlighter)"
+                  class="excerpt"
+                ></p>
+              </div>
+            </li>
+          </div>
 
           <li v-if="!app.filteredArticles.length" class="pb0">
             <p>We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
@@ -81,8 +84,21 @@ export default {
         'gi'
       );
     },
-    articlesBySource() {
-      return Object.groupBy(this.app.filteredArticles, (a) => a.sourceUrl);
+    articlesBySourceAndCategory() {
+      return this.app.filteredArticles.reduce((result, article) => {
+        const { sourceUrl, categories } = article;
+        const category = categories?.[0];
+
+        if (!result[sourceUrl])
+          result[sourceUrl] = {};
+
+        if (!result[sourceUrl][category])
+          result[sourceUrl][category] = [];
+
+        result[sourceUrl][category].push(article);
+
+        return result;
+      }, {});
     }
   },
   methods: {
@@ -103,7 +119,7 @@ export default {
     },
 
     selectNextArticle () {
-      const articles = Object.values(this.articlesBySource).flat();
+      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -114,7 +130,7 @@ export default {
     },
 
     selectPrevArticle () {
-      const articles = Object.values(this.articlesBySource).flat();
+      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
