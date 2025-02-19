@@ -132,7 +132,7 @@ export default {
       }, {});
     },
     showRecentlyVisitedArticles() {
-      return this.app.showRecentlyVisited && this.app.recentlyVisitedArticles.length > 0;
+      return this.app.showRecentlyVisited && this.app.recentlyVisitedArticles?.length > 0;
     }
   },
   methods: {

@@ -134,7 +134,7 @@ export default {
         this.history.push(this.currentRoute);
 
       this.currentRoute = [page, params];
-      if (params) this.storeRecentlyVisited(params);
+      if (params && page === 'Article') this.storeRecentlyVisited(params);
     },
 
     back () {
