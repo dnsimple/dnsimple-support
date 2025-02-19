@@ -151,7 +151,9 @@ export default {
     },
 
     selectNextArticle () {
-      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      const articles = this.showRecentlyVisitedArticles
+        ? this.app.recentlyVisitedArticles
+        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -162,7 +164,9 @@ export default {
     },
 
     selectPrevArticle () {
-      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      const articles = this.showRecentlyVisitedArticles
+        ? this.app.recentlyVisitedArticles
+        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
