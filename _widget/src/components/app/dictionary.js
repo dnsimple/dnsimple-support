@@ -11,7 +11,6 @@ export default {
   "letsencrypt": "lets encrypt",
   "membership": "share management",
   "team": "member",
-  "annual": "yearly",
   "remove": "delete",
   "delegate": "registrar point setting",
   "payment": "invoice payment",
