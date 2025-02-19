@@ -12,6 +12,7 @@
             <h3>
               <a
                 v-if="article.sourceUrl === app.getCurrentSiteUrl()"
+                @click="app.storeRecentlyVisited(article)"
                 v-html="highlight(article.title, highlighter)"
                 :href="absoluteURL(article, article.id)"
               ></a>
@@ -46,6 +47,7 @@
                 <h3>
                   <a
                     v-if="sourceUrl === app.getCurrentSiteUrl()"
+                    @click="app.storeRecentlyVisited(article)"
                     v-html="highlight(article.title, highlighter)"
                     :href="absoluteURL(article, article.id)"
                   ></a>
@@ -179,9 +181,10 @@ export default {
     openSelectedArticle () {
       if (!this.selectedArticle) return;
 
-      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl())
+      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl()) {
+        this.app.storeRecentlyVisited(this.selectedArticle);
         window.location.href = this.absoluteURL(this.selectedArticle, this.selectedArticle.id);
-      else
+      } else
         this.app.go('Article', this.selectedArticle);
     }
   }
