@@ -3,6 +3,35 @@
     <div v-if="app.isLoading" class="loading">
       <div v-html="spinnerIcon"></div>
     </div>
+
+    <div v-else-if="showRecentlyVisitedArticles" class="articles">
+      <h4>Recently Visited</h4>
+      <ul>
+        <li v-for="article in app.recentlyVisitedArticles" :key="article.id">
+          <div :class="{ 'selected-article': isSelectedArticle(article) }">
+            <h3>
+              <a
+                v-if="article.sourceUrl === app.getCurrentSiteUrl()"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+              <a
+                v-else
+                @click.prevent="app.go('Article', article)"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+            </h3>
+
+            <p
+              v-html="highlight(article.excerpt, highlighter)"
+              class="excerpt"
+            ></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <div v-else class="articles">
       <div v-for="(articlesByCategory, sourceUrl) in articlesBySourceAndCategory" :key="`${sourceUrl}-results`">
         <h4>
@@ -99,6 +128,9 @@ export default {
 
         return result;
       }, {});
+    },
+    showRecentlyVisitedArticles() {
+      return this.app.showRecentlyVisited && this.app.recentlyVisitedArticles.length > 0;
     }
   },
   methods: {

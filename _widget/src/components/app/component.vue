@@ -82,16 +82,23 @@ export default {
       isFetched: {},
       history: [],
       articles: [],
+      showRecentlyVisited: true,
     };
   },
 
   watch: {
     q (val) {
+      this.showRecentlyVisited = false;
+
       if (val.length > 1) {
         if (this.currentRoute[0] !== 'Articles')
           this.go('Articles', undefined, true);
       } else if (!val.length)
-        this.go('Article', this.gettingStarted, true);
+        if (this.recentlyVisitedArticles.length > 0) {
+          this.showRecentlyVisited = true;
+          this.go('Articles', undefined, true);
+        } else
+          this.go('Article', this.gettingStarted, true);
     }
   },
 
@@ -106,6 +113,10 @@ export default {
 
     isLoading() {
       return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
+    },
+
+    recentlyVisitedArticles () {
+      return JSON.parse(localStorage.getItem('recentlyVisited')) || [];
     }
   },
 
@@ -204,6 +215,9 @@ export default {
     },
 
     storeRecentlyVisited(article) {
+      if (!(typeof article === "object" && article !== null && "id" in article && "sourceUrl" in article)) return;
+      if (/getting.*started/i.test(article.id)) return;
+
       const recentlyVisited = JSON.parse(localStorage.getItem('recentlyVisited')) || [];
       if (!recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`).includes(`${article.id}-${article.sourceUrl}`))
         recentlyVisited.push(article);
