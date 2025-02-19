@@ -14,7 +14,7 @@ categories:
 
 ---
 
-When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can include a note to provide context for the change. They can be used to explain why a record exists, add a comment to describe what it’s used for, or any other information that might be useful to you or your team.
+When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can include a note to provide context for the change. They can be used to explain why a record exists, add a comment to describe what it's used for, or any other information that might be useful to you or your team.
 
 ## Video walk-through
 
