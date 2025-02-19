@@ -159,12 +159,12 @@ describe('App', () => {
 
   describe('recently visited', () => {
     const article = ARTICLES[0];
-    const recentlyVisitedArticles = JSON.stringify([article]);
+    const recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
     let subject;
 
     beforeEach(async () => {
       localStorage.clear();
-      localStorage.setItem('recentlyVisited', recentlyVisitedArticles);
+      localStorage.setItem('recentlyVisitedUrls', recentlyVisitedUrls);
 
       subject = mount(App, { propsData });
       await subject.vm.open();

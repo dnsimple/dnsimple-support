@@ -27,6 +27,7 @@ import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
 
+const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
 const RECENTLY_VISITED_LIMIT = 10;
 
 export default {
@@ -115,8 +116,12 @@ export default {
       return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
     },
 
+    recentlyVisitedUrls () {
+      return JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+    },
+
     recentlyVisitedArticles () {
-      return JSON.parse(localStorage.getItem('recentlyVisited')) || [];
+      return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a);
     },
 
     showRecentlyVisitedArticles () {
@@ -138,7 +143,9 @@ export default {
         this.history.push(this.currentRoute);
 
       this.currentRoute = [page, params];
-      if (params && page === 'Article') this.storeRecentlyVisited(params);
+
+      if (params && params.id && params.sourceUrl && page === 'Article')
+        this.storeRecentlyVisited(this.getArticleUrl(params));
     },
 
     back () {
@@ -220,24 +227,25 @@ export default {
       return this.history.length > 0;
     },
 
-    storeRecentlyVisited(article) {
-      if (!(typeof article === "object" && article !== null && "id" in article && "sourceUrl" in article)) return;
-      if (/getting.*started/i.test(article.id)) return;
+    getArticleUrl(article) {
+      return `${article.sourceUrl}${article.id}`;
+    },
 
-      const recentlyVisited = JSON.parse(localStorage.getItem('recentlyVisited')) || [];
-      const recentlyVisitedIdentifiers = recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`);
-      const articleIdentifier = `${article.id}-${article.sourceUrl}`;
-      if (!recentlyVisitedIdentifiers.includes(articleIdentifier))
-        recentlyVisited.unshift(article);
+    storeRecentlyVisited(articleUrl) {
+      if (/getting.*started/i.test(articleUrl)) return;
+
+      const recentlyVisitedUrls = JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+      if (!recentlyVisitedUrls.includes(articleUrl))
+        recentlyVisitedUrls.unshift(articleUrl);
       else {
-        recentlyVisited.splice(recentlyVisitedIdentifiers.indexOf(articleIdentifier), 1);
-        recentlyVisited.unshift(article);
+        recentlyVisitedUrls.splice(recentlyVisitedUrls.indexOf(articleUrl), 1);
+        recentlyVisitedUrls.unshift(articleUrl);
       }
 
-      if (recentlyVisited.length > RECENTLY_VISITED_LIMIT)
-        recentlyVisited.pop();
+      if (recentlyVisitedUrls.length > RECENTLY_VISITED_LIMIT)
+        recentlyVisitedUrls.pop();
 
-      localStorage.setItem('recentlyVisited', JSON.stringify(recentlyVisited));
+      localStorage.setItem(RECENTLY_VISITED_KEY, JSON.stringify(recentlyVisitedUrls));
     },
 
     handleKeydown(event) {
