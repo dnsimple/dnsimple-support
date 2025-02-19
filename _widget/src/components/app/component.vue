@@ -220,10 +220,10 @@ export default {
 
       const recentlyVisited = JSON.parse(localStorage.getItem('recentlyVisited')) || [];
       if (!recentlyVisited.map(a => `${a.id}-${a.sourceUrl}`).includes(`${article.id}-${article.sourceUrl}`))
-        recentlyVisited.push(article);
+        recentlyVisited.unshift(article);
 
       if (recentlyVisited.length > RECENTLY_VISITED_LIMIT)
-        recentlyVisited.shift();
+        recentlyVisited.pop();
 
       localStorage.setItem('recentlyVisited', JSON.stringify(recentlyVisited));
     },
