@@ -50,6 +50,12 @@ describe('Search', () => {
     expect(results2.map((r) => r.title).slice(0, 3)).toContain('Registering a Domain');
   });
 
+  it('can find results with a truncated query from the dictionary', () => {
+    const results1 = subject.query('expi');
+
+    expect(results1.map((r) => r.title).slice(0, 2)).toContain('Product Expiration Notification');
+  });
+
   describe('queries', () => {
     const queries = {
       'a record': {
