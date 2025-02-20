@@ -5,10 +5,10 @@ const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
 const ING_REGEX = /ing[\s|\.]/g;
 const RRING_REGEX = /rring[\s|\.]/g;
-const I_REGEX = /i[\s|\.]/g;
 const ED_REGEX = /ed[\s|\.]/g;
 const IES_REGEX = /ies[\s|\.]/g;
 const AL_REGEX = /al[\s|\.]/g;
+const TIN_REGEX = /tin[\s|\.]/g;
 const GE_REGEX = /ge[\s|\.]/g;
 
 const searchable = (str) => {
@@ -21,8 +21,8 @@ const searchable = (str) => {
     .replace(ING_REGEX, ' ')
     .replace(ED_REGEX, ' ')
     .replace(IES_REGEX, ' ')
-    .replace(I_REGEX, ' ')
     .replace(AL_REGEX, ' ')
+    .replace(TIN_REGEX, 't ')
     .replace(GE_REGEX, 'g ')
     .trim();
 };
@@ -36,18 +36,13 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
   );
 };
 
-const dictionaryTermMatches = (q, term) => {
-  var matches = term.indexOf(q) === 0 || q.indexOf(term) === 0;
-  var firstSpace = term.indexOf(' ');
-  var termHasSpace = firstSpace !== -1;
+const applyDictionary = (q, dictionary) => {
+  const words = q.split(WHITESPACE);
 
-  return (!termHasSpace && matches) || (termHasSpace && matches && firstSpace < q.length);
-};
+  for (const replacement in dictionary)
+    if (q.indexOf(replacement) !== -1)
+      q = q.replace(replacement, dictionary[replacement]);
 
-const applyDictionary = (dictionary, q) => {
-  for (const word in dictionary) 
-    q = q.replace(word, dictionary[word]);
-  
   return q;
 };
 
@@ -67,12 +62,14 @@ const findByCategory = (category, articles) => {
     });
 };
 
+const MIN_ARTICLE_LENGTH = 750;
+const MIN_TITLE_LENGTH = 20;
 const articleScore = (article, wordsRegex) => {
   let score = 0;
 
   wordsRegex.forEach((wordRegex) => {
-    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
-    score += (article.searchBody.match(wordRegex) || []).length / article.searchBody.length * 750;
+    score += (article.searchTitle.match(wordRegex) || []).length / Math.max(MIN_TITLE_LENGTH, article.searchTitle.length) * 500;
+    score += (article.searchBody.match(wordRegex) || []).length / Math.max(MIN_ARTICLE_LENGTH, article.searchBody.length) * 750;
   });
 
   return score;
@@ -142,9 +139,8 @@ class Search {
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
 
-    q = applyDictionary(this.dictionary, q);
+    let words = applyDictionary(searchable(` ${q} `), this.dictionary).split(WHITESPACE);
 
-    let words = searchable(` ${q} `).split(WHITESPACE);
     let results = resultsWithScore(this.articles, words);
 
     if (results.filter((r) => r.score > GOOD_SCORE).length === 0)

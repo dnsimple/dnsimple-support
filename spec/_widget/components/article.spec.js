@@ -8,7 +8,6 @@ describe('Article', () => {
       app: {
         track () {},
         q: '',
-        articles: [article, { id: '2', title: 'Title Two', body: 'Article Two', sourceUrl: 'https://support.dnsimple.com' }],
         hasHistory() { return false; },
         findArticle() { return article; },
         getCurrentSiteUrl() { return 'https://support.dnsimple.com'; }
