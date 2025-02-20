@@ -1,5 +1,7 @@
-// Items are matched in the order
-// Dictionary only works with lowercase with no punctuation
+// The key on the left is the term the user is searching for.
+// The value on the right is the term we want to use for search purposes.
+// Items are matched in the order.
+// Dictionary only works with lowercase with no punctuation.
 
 export default {
   "add user": "multiple team",
@@ -12,7 +14,7 @@ export default {
   "membership": "share management",
   "team": "member",
   "remove": "delete",
-  "delegate": "registrar point setting",
+  "delegate": "delegate delegation another registrar point dnsimple",
   "payment": "invoice payment",
   "transfer": "transfer dnsimple",
   "nameservers": "name servers",
