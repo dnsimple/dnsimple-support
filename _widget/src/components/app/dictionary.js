@@ -2,8 +2,8 @@
 // Dictionary only works with lowercase with no punctuation
 
 export default {
-  "add user": "member",
-  "remove user": "member",
+  "add user": "multiple team",
+  "remove user": "multiple team",
   "user": "user settings",
   "close": "unsubscribe",
   "cancel": "unsubscribe",
@@ -16,10 +16,10 @@ export default {
   "payment": "invoice payment",
   "transfer": "transfer dnsimple",
   "nameservers": "name servers",
-  "domain": "register",
   "metrics": "query volume analytics",
   "stats": "query volume analytics",
   "observability": "query volume analytics",
+  "query": "query volume analytics",
   "queries": "query volume analytics",
   "analytics": "query volume analytics"
 };

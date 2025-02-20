@@ -36,10 +36,15 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
   );
 };
 
-const applyDictionary = (dictionary, q) => {
-  for (const word in dictionary) 
-    q = q.replace(word, dictionary[word]);
+const applyDictionary = (q, dictionary) => {
+  const words = q.split(WHITESPACE);
+
+  for (const replacement in dictionary) 
+    if (q.indexOf(replacement) !== -1) 
+      q = q.replace(replacement, dictionary[replacement]);
+    
   
+
   return q;
 };
 
@@ -136,9 +141,8 @@ class Search {
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
 
-    q = applyDictionary(this.dictionary, q);
+    let words = applyDictionary(searchable(` ${q} `), this.dictionary).split(WHITESPACE);
 
-    let words = searchable(` ${q} `).split(WHITESPACE);
     let results = resultsWithScore(this.articles, words);
 
     if (results.filter((r) => r.score > GOOD_SCORE).length === 0)

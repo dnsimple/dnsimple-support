@@ -79,8 +79,8 @@ describe('Search', () => {
         "Renewing a Let's Encrypt SSL Certificate": 6,
       },
       'delegate name servers to another provider': {
-        'Setting the Name Servers for a Domain': 3,
-        'Pointing a Domain to DNSimple': 4,
+        'Setting the Name Servers for a Domain': 4,
+        'Pointing a Domain to DNSimple': 3,
         'DNSimple Name Servers': 2,
         'Delegating a Domain registered with another Registrar to DNSimple': 5
       },
@@ -94,12 +94,11 @@ describe('Search', () => {
         'Payment methods': 2,
         "Understanding Your DNSimple Invoice": 4
       },
-      'domain host': {
+      'hosting': {
         "DNS Hosting": 3,
         "Web Hosting Support": 1,
-        "Registering a Domain": 2,
-        "Email Hosting Support": 4,
-        "Why we don't offer web hosting services": 5
+        "Email Hosting Support": 2,
+        "Why we don't offer web hosting services": 4
       },
       'add user': {
         "Managing Multiple Members on One Account": 1
@@ -156,7 +155,7 @@ describe('Search', () => {
         for (const title in expectedArticles) {
           const minimumRank = expectedArticles[title];
 
-          it(`returns \`${title}\` as result #${minimumRank} or better`, () => {
+          it(`returns \`${title}\` as result #${minimumRank}${minimumRank > 1 ? ' or better' : ''}`, () => {
             const results = subject.query(q);
             const resultTitles = results.map((a) => a.title);
             const rankForArticle = resultTitles.indexOf(title) + 1;
