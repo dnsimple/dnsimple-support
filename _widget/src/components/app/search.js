@@ -60,11 +60,12 @@ const findByCategory = (category, articles) => {
 };
 
 const MIN_ARTICLE_LENGTH = 750;
+const MIN_TITLE_LENGTH = 20;
 const articleScore = (article, wordsRegex) => {
   let score = 0;
 
   wordsRegex.forEach((wordRegex) => {
-    score += (article.searchTitle.match(wordRegex) || []).length / article.searchTitle.length * 500;
+    score += (article.searchTitle.match(wordRegex) || []).length / Math.max(MIN_TITLE_LENGTH, article.searchTitle.length) * 500;
     score += (article.searchBody.match(wordRegex) || []).length / Math.max(MIN_ARTICLE_LENGTH, article.searchBody.length) * 750;
   });
 
