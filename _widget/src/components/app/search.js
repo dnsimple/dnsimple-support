@@ -12,7 +12,7 @@ const AL_REGEX = /al[\s|\.]/g;
 const TIN_REGEX = /tin[\s|\.]/g;
 const GE_REGEX = /ge[\s|\.]/g;
 
-const searchable = (str, dictionary, isReverse = false) => {
+const searchable = (str, dictionary, wordContainsReplacement = false) => {
   return applyDictionary(
       str
         .toLowerCase()
@@ -30,7 +30,7 @@ const searchable = (str, dictionary, isReverse = false) => {
         .replace(WHITESPACE, ' ')
         .trim(),
       dictionary,
-      isReverse
+      wordContainsReplacement
     );
 };
 
@@ -43,11 +43,11 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
   );
 };
 
-const applyDictionary = (q, dictionary, isReverse = false) => {
+const applyDictionary = (q, dictionary, wordContainsReplacement = false) => {
   const words = q.split(WHITESPACE);
   const newQ = words.reduce((acc, word) => {
-    for (const replacement in dictionary) 
-      if (isReverse ? replacement.length > 1 && word.indexOf(replacement) !== -1 : word.length > 1 && replacement.indexOf(word) !== -1) {
+    for (const replacement in dictionary)
+      if (wordContainsReplacement ? replacement.length > 1 && word.indexOf(replacement) !== -1 : word.length > 1 && replacement.indexOf(word) !== -1) {
         acc.push(...dictionary[replacement].split(WHITESPACE));
 
         return acc;
