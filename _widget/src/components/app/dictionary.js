@@ -26,5 +26,6 @@ export default {
   "queries": "query volume analytics",
   "analytics": "query volume analytics",
   "expiry": "expiration",
-  "comment": "note"
+  "comment": "note",
+  "axfr": "secondary dns",
 };

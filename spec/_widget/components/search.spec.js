@@ -161,6 +161,15 @@ describe('Search', () => {
       'expiry': {
         'Product Expiration Notification': 1,
         'Disabling Expiration Notifications': 2,
+      },
+      'axfr': {
+        "Add a secondary DNS server to DNSimple": 1,
+        "Add DNSimple as a secondary DNS server": 2,
+        "Add DNSMadeEasy as a secondary DNS server": 3,
+        "Adding Dyn as a Secondary DNS Server": 4,
+        "Secondary DNS IP Address Changes": 5,
+        "Integrated DNS Providers at DNSimple": 6,
+        "Using DNSimple alongside other DNS providers": 7,
       }
     };
 
