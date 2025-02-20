@@ -47,12 +47,11 @@ const applyDictionary = (q, dictionary, isReverse = false) => {
   const words = q.split(WHITESPACE);
   const newQ = words.reduce((acc, word) => {
     for (const replacement in dictionary) 
-      if (isReverse ? word.indexOf(replacement) !== -1 : replacement.indexOf(word) !== -1) {
+      if (isReverse ? replacement.length > 1 && word.indexOf(replacement) !== -1 : word.length > 1 && replacement.indexOf(word) !== -1) {
         acc.push(...dictionary[replacement].split(WHITESPACE));
 
         return acc;
       }
-    
 
     acc.push(word);
 
@@ -155,7 +154,9 @@ class Search {
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
 
-    const words = searchable(` ${q} `, this.dictionary).split(WHITESPACE);
+    q = ` ${q} `;
+
+    const words = searchable(q, this.dictionary).split(WHITESPACE);
 
     let results = resultsWithScore(this.articles, words);
 

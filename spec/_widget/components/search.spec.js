@@ -59,11 +59,11 @@ describe('Search', () => {
   describe('queries', () => {
     const queries = {
       'what\'s a cname record': {
-        'What\'s a CNAME record?': 1
+        'What\'s a CNAME record?': 2
       },
       'a record': {
-        'Managing A Records': 2,
-        // 'What\'s an A Record?': 1
+        'Managing A Records': 5,
+        'What\'s an A Record?': 1
       },
       'enable dnssec': {
         'DNSSEC': 1,
@@ -71,7 +71,7 @@ describe('Search', () => {
       },
       'creating alias record': {
         'What\'s an ALIAS record?': 1,
-        'Record Editor': 6,
+        'Record Editor': 5,
       },
       'alias record': {
         'What\'s an ALIAS record?': 1,
@@ -94,8 +94,8 @@ describe('Search', () => {
         'Delegating a Domain registered with another Registrar to DNSimple': 5
       },
       'create a record': {
-        // 'What\'s an A Record?': 1,
-        "Managing A Records": 2
+        'What\'s an A Record?': 1,
+        "Managing A Records": 5
       },
       'retry payment': {
         'Account Invoice History': 3,

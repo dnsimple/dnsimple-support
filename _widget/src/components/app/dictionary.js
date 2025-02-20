@@ -6,6 +6,7 @@
 export default {
   "add user": "multiple team",
   "remove user": "multiple team",
+  "create": "manage",
   "user": "user settings",
   "close": "unsubscribe",
   "cancel": "unsubscribe",
