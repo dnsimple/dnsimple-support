@@ -21,5 +21,6 @@ export default {
   "observability": "query volume analytics",
   "query": "query volume analytics",
   "queries": "query volume analytics",
-  "analytics": "query volume analytics"
+  "analytics": "query volume analytics",
+  "expiry": "expiration"
 };

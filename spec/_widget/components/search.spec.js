@@ -145,6 +145,10 @@ describe('Search', () => {
       },
       'analytics': {
         'DNS Query Volume Fees': 1
+      },
+      'expiry': {
+        'Product Expiration Notification': 1,
+        'Disabling Expiration Notifications': 2,
       }
     };
 
