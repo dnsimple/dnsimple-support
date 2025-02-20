@@ -138,6 +138,9 @@ describe('Search', () => {
       },
       'analytics': {
         'DNS Query Volume Fees': 1
+      },
+      'comment': {
+        'Record Notes': 1
       }
     };
 

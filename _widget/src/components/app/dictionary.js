@@ -22,5 +22,6 @@ export default {
   "stats": "query volume analytics",
   "observability": "query volume analytics",
   "queries": "query volume analytics",
-  "analytics": "query volume analytics"
+  "analytics": "query volume analytics",
+  "comment": "note"
 };
