@@ -85,7 +85,7 @@ export default {
       );
     },
     articlesBySourceAndCategory() {
-      return this.app.filteredArticles.reduce((result, article) => {
+      const results = this.app.filteredArticles.reduce((result, article) => {
         const { sourceUrl, categories } = article;
         const category = categories?.[0];
 
@@ -99,6 +99,13 @@ export default {
 
         return result;
       }, {});
+
+      // prioritize results from the current site by ordering them at the top
+      const currentSiteUrl = this.app.getCurrentSiteUrl();
+      return {
+        ...(currentSiteUrl in results ? { [currentSiteUrl]: results[currentSiteUrl] } : {}),
+        ...results
+      };
     }
   },
   methods: {

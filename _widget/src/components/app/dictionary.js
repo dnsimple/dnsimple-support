@@ -22,5 +22,6 @@ export default {
   "query": "query volume analytics",
   "queries": "query volume analytics",
   "analytics": "query volume analytics",
-  "expiry": "expiration"
+  "expiry": "expiration",
+  "comment": "note"
 };
