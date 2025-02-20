@@ -12,7 +12,7 @@ const AL_REGEX = /al[\s|\.]/g;
 const TIN_REGEX = /tin[\s|\.]/g;
 const GE_REGEX = /ge[\s|\.]/g;
 
-const searchable = (str, dictionary, isReverse) => {
+const searchable = (str, dictionary, isReverse = false) => {
   return applyDictionary(
       str
         .toLowerCase()
