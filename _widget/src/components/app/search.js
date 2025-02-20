@@ -39,11 +39,9 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
 const applyDictionary = (q, dictionary) => {
   const words = q.split(WHITESPACE);
 
-  for (const replacement in dictionary) 
-    if (q.indexOf(replacement) !== -1) 
+  for (const replacement in dictionary)
+    if (q.indexOf(replacement) !== -1)
       q = q.replace(replacement, dictionary[replacement]);
-    
-  
 
   return q;
 };
