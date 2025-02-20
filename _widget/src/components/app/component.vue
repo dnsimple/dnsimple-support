@@ -149,13 +149,13 @@ export default {
     chooseRoute() {
       if (this.couldNotLoad)
         this.go('Article', this.errorArticle, true);
-       else if (this.filteredArticles.length === 0 && this.q.length === 0)
+      else if (this.filteredArticles.length === 0 && this.q.length === 0)
         this.go('Article', this.gettingStarted, true);
-       else if (this.filteredArticles.length === 0 && this.q.length > 0)
+      else if (this.filteredArticles.length === 0 && this.q.length > 0)
         this.go('Articles', undefined, true);
-       else if (this.filteredArticles.length === 1)
+      else if (this.filteredArticles.length === 1)
         this.go('Article', this.filteredArticles[0], true);
-       else if (this.currentRoute[0] !== 'Articles')
+      else if (this.currentRoute[0] !== 'Articles')
         this.go('Articles', undefined, true);
     },
 

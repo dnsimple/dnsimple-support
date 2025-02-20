@@ -1,6 +1,7 @@
 import { trackSearch } from './analytics.js';
 
 const HTML_REGEX = /<[^>]*>/g;
+const APOSTROPHE_REGEX = /'s[\s|\.]/g;
 const QUOTE_REGEX = /['"]/g;
 const NON_WORD_REGEX = /[^\w]+?/g;
 const ING_REGEX = /ing[\s|\.]/g;
@@ -16,6 +17,7 @@ const searchable = (str, dictionary, isReverse) => {
       str
         .toLowerCase()
         .replace(HTML_REGEX, ' ')
+        .replace(APOSTROPHE_REGEX, ' is ')
         .replace(QUOTE_REGEX, '')
         .replace(NON_WORD_REGEX, ' ')
         .replace(RRING_REGEX, 'r ')

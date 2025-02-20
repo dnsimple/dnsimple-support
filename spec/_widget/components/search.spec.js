@@ -58,6 +58,9 @@ describe('Search', () => {
 
   describe('queries', () => {
     const queries = {
+      'what\'s a cname record': {
+        'What\'s a CNAME record?': 1
+      },
       'a record': {
         'Managing A Records': 2,
         // 'What\'s an A Record?': 1
@@ -81,8 +84,8 @@ describe('Search', () => {
       'auto-renew certificate': {
         "Renewing an SSL Certificate": 2,
         "Renewing a standard SSL Certificate": 4,
-        "How does an SSL Certificate Renewal work?": 6,
-        "Renewing a Let's Encrypt SSL Certificate": 5,
+        "How does an SSL Certificate Renewal work?": 5,
+        "Renewing a Let's Encrypt SSL Certificate": 6,
       },
       'delegate name servers to another provider': {
         'Setting the Name Servers for a Domain': 4,
