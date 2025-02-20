@@ -20,7 +20,7 @@ def find_active_banner
   banners&.find { |banner| banner[:active] == true }
 end
 
-def as_markdown str
+def as_markdown(str)
   Kramdown::Document.new(str).to_html
 end
 
