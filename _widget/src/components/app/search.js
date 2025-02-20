@@ -11,20 +11,25 @@ const AL_REGEX = /al[\s|\.]/g;
 const TIN_REGEX = /tin[\s|\.]/g;
 const GE_REGEX = /ge[\s|\.]/g;
 
-const searchable = (str) => {
-  return str
-    .replace(HTML_REGEX, ' ')
-    .toLowerCase()
-    .replace(QUOTE_REGEX, '')
-    .replace(NON_WORD_REGEX, ' ')
-    .replace(RRING_REGEX, 'r ')
-    .replace(ING_REGEX, ' ')
-    .replace(ED_REGEX, ' ')
-    .replace(IES_REGEX, ' ')
-    .replace(AL_REGEX, ' ')
-    .replace(TIN_REGEX, 't ')
-    .replace(GE_REGEX, 'g ')
-    .trim();
+const searchable = (str, dictionary, isReverse) => {
+  return applyDictionary(
+      str
+        .toLowerCase()
+        .replace(HTML_REGEX, ' ')
+        .replace(QUOTE_REGEX, '')
+        .replace(NON_WORD_REGEX, ' ')
+        .replace(RRING_REGEX, 'r ')
+        .replace(ING_REGEX, ' ')
+        .replace(ED_REGEX, ' ')
+        .replace(IES_REGEX, ' ')
+        .replace(AL_REGEX, ' ')
+        .replace(GE_REGEX, 'g ')
+        .replace(TIN_REGEX, 't ')
+        .replace(WHITESPACE, ' ')
+        .trim(),
+      dictionary,
+      isReverse
+    );
 };
 
 const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
@@ -36,14 +41,23 @@ const fixRelativeImgSrcs = (str, sourceUrl) => {
   );
 };
 
-const applyDictionary = (q, dictionary) => {
+const applyDictionary = (q, dictionary, isReverse = false) => {
   const words = q.split(WHITESPACE);
+  const newQ = words.reduce((acc, word) => {
+    for (const replacement in dictionary) 
+      if (isReverse ? word.indexOf(replacement) !== -1 : replacement.indexOf(word) !== -1) {
+        acc.push(...dictionary[replacement].split(WHITESPACE));
 
-  for (const replacement in dictionary)
-    if (q.indexOf(replacement) !== -1)
-      q = q.replace(replacement, dictionary[replacement]);
+        return acc;
+      }
+    
 
-  return q;
+    acc.push(word);
+
+    return acc;
+  }, []).join(' ');
+
+  return newQ;
 };
 
 const findByUrl = (url, articles) => {
@@ -114,8 +128,8 @@ class Search {
         title: article.title,
         excerpt: article.excerpt,
         body: fixRelativeImgSrcs(article.body || '', sourceUrl),
-        searchTitle: searchable((article.title || '') + ' '),
-        searchBody: searchable((article.body || '') + ' '),
+        searchTitle: searchable((article.title || '') + ' ', this.dictionary, true),
+        searchBody: searchable((article.body || '') + ' ', this.dictionary, true),
         categories: article.categories || [],
         sourceUrl
       };
@@ -139,7 +153,7 @@ class Search {
     if (q.slice(0, 4) === 'cat:')
       return findByCategory(q.slice(4).trim(), this.articles);
 
-    let words = applyDictionary(searchable(` ${q} `), this.dictionary).split(WHITESPACE);
+    const words = searchable(` ${q} `, this.dictionary).split(WHITESPACE);
 
     let results = resultsWithScore(this.articles, words);
 
