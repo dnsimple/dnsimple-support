@@ -1,3 +1,5 @@
+require 'kramdown'
+
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::XMLSitemap
 
@@ -11,6 +13,15 @@ end
 
 def sub_categories(what, items, &block)
   SubCategories.new.show(what, items, &block)
+end
+
+def find_active_banner
+  banners = YAML.load(File.read('banners.yml'), symbolize_names: true)
+  banners.find { |banner| banner[:active] == true }
+end
+
+def as_markdown str
+  Kramdown::Document.new(str).to_html
 end
 
 POPS = [

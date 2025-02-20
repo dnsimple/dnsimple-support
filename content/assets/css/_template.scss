@@ -27,3 +27,10 @@
   background-repeat: repeat-x;
   background-size: 900px 10px;
 }
+
+#marketing-banner {
+  // to make markdown rendering stay inline with the emoji and the link
+  p {
+    display: inline;
+  }
+}
