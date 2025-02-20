@@ -17,7 +17,7 @@ end
 
 def find_active_banner
   banners = YAML.load(File.read('banners.yml'), symbolize_names: true)
-  banners.find { |banner| banner[:active] == true }
+  banners&.find { |banner| banner[:active] == true }
 end
 
 def as_markdown str
