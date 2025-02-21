@@ -1,26 +1,5 @@
-import { createApp } from 'vue';
-import App from './components/app/component.vue';
+import initialize from './initialize.js';
 
 const elementId = 'dnsimple-support-widget';
-const $openers = [...document.querySelectorAll('[data-dnsimple-open-support-widget]')];
 
-let $target = document.querySelector(`#${elementId}`);
-
-if (!$target) {
-  $target = document.createElement('div');
-  $target.id = elementId;
-  document.body.insertBefore($target, document.body.firstChild);
-}
-
-const app = createApp(App, {
-  showPrompt: $openers.length === 0,
-  currentSiteUrl: document.querySelector('[data-dnsimple-current-site-url]')?.getAttribute('data-dnsimple-current-site-url') || '',
-  gettingStartedUrl: document.querySelector('[data-dnsimple-getting-started-url]')?.getAttribute('data-dnsimple-getting-started-url') || '/articles/getting-started/',
-}).mount($target);
-
-$openers.forEach(($el) => {
-  $el.addEventListener('click', () => {
-    app.open();
-    app.focus();
-  });
-});
+initialize(elementId, global.document);
