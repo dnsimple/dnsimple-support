@@ -3,6 +3,36 @@
     <div v-if="app.isLoading" class="loading">
       <div v-html="spinnerIcon"></div>
     </div>
+
+    <div v-else-if="app.showRecentlyVisitedArticles" class="articles">
+      <h4>Recently Visited</h4>
+      <ul>
+        <li v-for="article in app.recentlyVisitedArticles" :key="article.id">
+          <div :class="{ 'selected-article': isSelectedArticle(article) }">
+            <h3>
+              <a
+                v-if="article.sourceUrl === app.getCurrentSiteUrl()"
+                @click="app.storeRecentlyVisited(app.getArticleUrl(article))"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+              <a
+                v-else
+                @click.prevent="app.go('Article', article)"
+                v-html="highlight(article.title, highlighter)"
+                :href="absoluteURL(article, article.id)"
+              ></a>
+            </h3>
+
+            <p
+              v-html="highlight(article.excerpt, highlighter)"
+              class="excerpt"
+            ></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <div v-else class="articles">
       <div v-for="(articlesByCategory, sourceUrl) in articlesBySourceAndCategory" :key="`${sourceUrl}-results`">
         <h4>
@@ -17,6 +47,7 @@
                 <h3>
                   <a
                     v-if="sourceUrl === app.getCurrentSiteUrl()"
+                    @click="app.storeRecentlyVisited(app.getArticleUrl(article))"
                     v-html="highlight(article.title, highlighter)"
                     :href="absoluteURL(article, article.id)"
                   ></a>
@@ -126,7 +157,9 @@ export default {
     },
 
     selectNextArticle () {
-      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      const articles = this.app.showRecentlyVisitedArticles
+        ? this.app.recentlyVisitedArticles
+        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -137,7 +170,9 @@ export default {
     },
 
     selectPrevArticle () {
-      const articles = Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      const articles = this.app.showRecentlyVisitedArticles
+        ? this.app.recentlyVisitedArticles
+        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -150,11 +185,12 @@ export default {
     openSelectedArticle () {
       if (!this.selectedArticle) return;
 
-      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl())
+      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl()) {
+        this.app.storeRecentlyVisited(this.app.getArticleUrl(this.selectedArticle));
         window.location.href = this.absoluteURL(this.selectedArticle, this.selectedArticle.id);
-      else
+      } else
         this.app.go('Article', this.selectedArticle);
-    }
+    },
   }
 };
 </script>

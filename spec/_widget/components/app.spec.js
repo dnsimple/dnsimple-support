@@ -25,7 +25,11 @@ describe('App', () => {
   });
 
   describe('go', () => {
-    const subject = mount(App);
+    let subject;
+
+    beforeEach(() => {
+      subject = mount(App, { propsData });
+    });
 
     it('visits a route with params', () => {
       const route = ['Article', { title: 'Title' }];
@@ -160,6 +164,41 @@ describe('App', () => {
       await subject.find('input').setValue('getting');
 
       expect(subject.find('.category').text()).toContain('DNSimple');
+    });
+  });
+
+  describe('recently visited', () => {
+    const article = ARTICLES[0];
+    const recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
+    let subject;
+
+    beforeEach(async () => {
+      localStorage.clear();
+      localStorage.setItem('recentlyVisitedUrls', recentlyVisitedUrls);
+
+      subject = mount(App, { propsData });
+      await subject.vm.open();
+    });
+
+    afterEach(() => {
+      localStorage.clear();
+    });
+
+    it('shows recently visited articles', async () => {
+      expect(subject.find('h4').text()).toContain('Recently Visited');
+      expect(subject.find('h3 > a').text()).toContain(article.title);
+    });
+
+    it('stores recently visited articles', async () => {
+      const recentArticle = ARTICLES[1];
+      await subject.find('input').setValue(recentArticle.title);
+
+      const articleLink = subject.find('h3 > a');
+      expect(articleLink.text()).toContain(recentArticle.title);
+
+      await articleLink.trigger('click');
+      expect(subject.vm.recentlyVisitedArticles[0].id).toEqual(recentArticle.id);
+      expect(subject.vm.recentlyVisitedArticles[1].id).toEqual(article.id);
     });
   });
 

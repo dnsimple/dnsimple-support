@@ -27,6 +27,9 @@ import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
 
+const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
+const RECENTLY_VISITED_LIMIT = 10;
+
 export default {
   components: {
     Footer,
@@ -79,7 +82,7 @@ export default {
       isOpen: false,
       isFetched: {},
       history: [],
-      articles: []
+      articles: [],
     };
   },
 
@@ -113,6 +116,18 @@ export default {
         title: 'Something went wrong',
         body: 'We couldn\'t load our support articles. Please try reloading the page.',
       };
+    },
+
+    recentlyVisitedUrls () {
+      return JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+    },
+
+    recentlyVisitedArticles () {
+      return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a);
+    },
+
+    showRecentlyVisitedArticles () {
+      return this.q.length === 0 && this.recentlyVisitedArticles?.length > 0;
     }
   },
 
@@ -130,6 +145,9 @@ export default {
         this.history.push(this.currentRoute);
 
       this.currentRoute = [page, params];
+
+      if (params && params.id && params.sourceUrl && page === 'Article')
+        this.storeRecentlyVisited(this.getArticleUrl(params));
     },
 
     back () {
@@ -150,13 +168,15 @@ export default {
     chooseRoute() {
       if (this.couldNotLoad)
         this.go('Article', this.errorArticle, true);
-       else if (this.filteredArticles.length === 0 && this.q.length === 0)
-        this.go('Article', this.gettingStarted, true);
-       else if (this.filteredArticles.length === 0 && this.q.length > 0)
+      else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
         this.go('Articles', undefined, true);
-       else if (this.filteredArticles.length === 1)
+      else if (this.filteredArticles.length === 0 && this.q.length === 0)
+        this.go('Article', this.gettingStarted, true);
+      else if (this.filteredArticles.length === 0 && this.q.length > 0)
+        this.go('Articles', undefined, true);
+      else if (this.filteredArticles.length === 1)
         this.go('Article', this.filteredArticles[0], true);
-       else if (this.currentRoute[0] !== 'Articles')
+      else if (this.currentRoute[0] !== 'Articles')
         this.go('Articles', undefined, true);
     },
 
@@ -213,6 +233,27 @@ export default {
 
     hasHistory() {
       return this.history.length > 0;
+    },
+
+    getArticleUrl(article) {
+      return `${article.sourceUrl}${article.id}`;
+    },
+
+    storeRecentlyVisited(articleUrl) {
+      if (/getting.*started/i.test(articleUrl)) return;
+
+      const recentlyVisitedUrls = JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+      if (!recentlyVisitedUrls.includes(articleUrl))
+        recentlyVisitedUrls.unshift(articleUrl);
+      else {
+        recentlyVisitedUrls.splice(recentlyVisitedUrls.indexOf(articleUrl), 1);
+        recentlyVisitedUrls.unshift(articleUrl);
+      }
+
+      if (recentlyVisitedUrls.length > RECENTLY_VISITED_LIMIT)
+        recentlyVisitedUrls.pop();
+
+      localStorage.setItem(RECENTLY_VISITED_KEY, JSON.stringify(recentlyVisitedUrls));
     },
 
     handleKeydown(event) {
