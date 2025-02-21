@@ -5,10 +5,6 @@ import ARTICLES from '../../../output/search.json';
 describe('Initialize', () => {
   let subject;
 
-  afterEach(() => {
-    // subject.unmount()
-  });
-
   describe('when the target div is already on the page', () => {
     it('mounts the app to the div', () => {
       document.body.innerHTML = `<div id="dnsimple-support-widget"></div>`;
@@ -76,4 +72,6 @@ describe('Initialize', () => {
       expect(document.body.innerHTML).toContain('Try some keywords');
     });
   });
+
+  // We should have some specs around the currentSiteUrl behaviour (eg. opening in the same tab if same site, etc)
 });
