@@ -97,7 +97,7 @@ export default {
     },
 
     gettingStarted() {
-      return this.findArticle(this.gettingStartedUrl);
+      return this.findArticle(this.getGettingStartedUrl());
     },
 
     isLoading() {
@@ -228,6 +228,10 @@ export default {
 
     getCurrentSiteUrl() {
       return this.currentSiteUrl;
+    },
+
+    getGettingStartedUrl() {
+      return this.gettingStartedUrl;
     },
 
     hasHistory() {
