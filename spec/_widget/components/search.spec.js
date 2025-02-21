@@ -42,10 +42,27 @@ describe('Search', () => {
     expect(trackSearch).toHaveBeenCalledWith('pronounce', ['How to pronounce DNSimple']);
   });
 
+  it('can find results with a truncated query', () => {
+    const results1 = subject.query('hostin');
+    expect(results1.map((r) => r.title).slice(0, 3)).toContain('Web Hosting Support');
+
+    const results2 = subject.query('reg');
+    expect(results2.map((r) => r.title).slice(0, 3)).toContain('Registering a Domain');
+  });
+
+  it('can find results with a truncated query from the dictionary', () => {
+    const results1 = subject.query('comme');
+
+    expect(results1.map((r) => r.title).slice(0, 2)).toContain('Record Notes');
+  });
+
   describe('queries', () => {
     const queries = {
+      'what\'s a cname record': {
+        'What\'s a CNAME record?': 2
+      },
       'a record': {
-        'Managing A Records': 4,
+        'Managing A Records': 5,
         'What\'s an A Record?': 1
       },
       'enable dnssec': {
@@ -54,11 +71,11 @@ describe('Search', () => {
       },
       'creating alias record': {
         'What\'s an ALIAS record?': 1,
-        'Record Editor': 3,
+        'Record Editor': 5,
       },
       'alias record': {
         'What\'s an ALIAS record?': 1,
-        'Record Editor': 3,
+        'Record Editor': 5,
       },
       'request ssl certificate': {
         "SSL/TLS Certificates": 1,
@@ -66,35 +83,34 @@ describe('Search', () => {
       },
       'auto-renew certificate': {
         "Renewing an SSL Certificate": 2,
-        "Renewing a standard SSL Certificate": 5,
-        "How does an SSL Certificate Renewal work?": 6,
-        "Renewing a Let's Encrypt SSL Certificate": 7,
+        "Renewing a standard SSL Certificate": 4,
+        "How does an SSL Certificate Renewal work?": 5,
+        "Renewing a Let's Encrypt SSL Certificate": 6,
       },
       'delegate name servers to another provider': {
-        'Setting the Name Servers for a Domain': 3,
-        'Pointing a Domain to DNSimple': 4,
-        'DNSimple Name Servers': 2,
-        'Delegating a Domain registered with another Registrar to DNSimple': 7
+        'Setting the Name Servers for a Domain': 4,
+        'Pointing a Domain to DNSimple': 3,
+        'DNSimple Name Servers': 1,
+        'Delegating a Domain registered with another Registrar to DNSimple': 5
       },
       'create a record': {
         'What\'s an A Record?': 1,
-        "Managing A Records": 4
+        "Managing A Records": 5
       },
       'retry payment': {
-        'Account Invoice History': 2,
-        'Changing Payment Details': 3,
+        'Account Invoice History': 3,
+        'Changing Payment Details': 2,
         'Payment methods': 1,
         "Understanding Your DNSimple Invoice": 4
       },
-      'domain host': {
-        "DNS Hosting": 1,
-        "Web Hosting Support": 2,
-        "Registering a Domain": 3,
-        "Email Hosting Support": 4,
-        "Why we don't offer web hosting services": 5
+      'hosting': {
+        "DNS Hosting": 3,
+        "Web Hosting Support": 1,
+        "Email Hosting Support": 2,
+        "Why we don't offer web hosting services": 4
       },
       'add user': {
-        "Managing Multiple Members on One Account": 1
+        "Managing Multiple Members on One Account": 2
       },
       'access': {
         'API Access Token': 1,
@@ -104,7 +120,7 @@ describe('Search', () => {
         'Getting to Know Your DNSimple Dashboard': 1
       },
       'mx': {
-        'What\'s an MX Record?': 2,
+        'What\'s an MX Record?': 1,
       },
       'ddns': {
         'Dynamic DNS': 1
@@ -112,8 +128,8 @@ describe('Search', () => {
       'transfer': {
         'Transfer a Domain to DNSimple': 1,
         'Transferring a domain away from DNSimple': 3,
-        'Transfer or Register Domains With DNSimple': 5,
-        'Domain Transfer Pricing': 6,
+        'Transfer or Register Domains With DNSimple': 4,
+        'Domain Transfer Pricing': 2,
       },
       'certificates': {
         'SSL/TLS Certificates': 1,
@@ -141,25 +157,42 @@ describe('Search', () => {
       },
       'comment': {
         'Record Notes': 1
+      },
+      'expiry': {
+        'Product Expiration Notification': 1,
+        'Disabling Expiration Notifications': 2,
+      },
+      'axfr': {
+        "Add a secondary DNS server to DNSimple": 1,
+        "Add DNSimple as a secondary DNS server": 2,
+        "Add DNSMadeEasy as a secondary DNS server": 3,
+        "Adding Dyn as a Secondary DNS Server": 4,
+        "Secondary DNS IP Address Changes": 5,
+        "Integrated DNS Providers at DNSimple": 6,
+        "Using DNSimple alongside other DNS providers": 7,
       }
     };
 
     for (const q in queries) {
       const expectedArticles = queries[q];
 
-      for (const title in expectedArticles) 
-        it(`can find \`${title}\` for \`${q}\``, () => {
-          const results = subject.query(q);
+      describe(`\`${q}\``, () => {
+        for (const title in expectedArticles) {
           const minimumRank = expectedArticles[title];
-          const resultTitles = results.map((a) => a.title);
-          const rankForArticle = resultTitles.indexOf(title) + 1;
 
-          if (rankForArticle > 0 && rankForArticle < minimumRank) 
-            console.warn(`Minimum rank for \`${title}\` for \`${q}\` can be reduced to ${rankForArticle}.`);
+          it(`returns \`${title}\` as result #${minimumRank}${minimumRank > 1 ? ' or better' : ''}`, () => {
+            const results = subject.query(q);
+            const resultTitles = results.map((a) => a.title);
+            const rankForArticle = resultTitles.indexOf(title) + 1;
 
-          expect(resultTitles.filter((t, i) => i < minimumRank)).toContain(title);
-          expect(rankForArticle).toBeLessThanOrEqual(minimumRank);
-        });
+            if (rankForArticle > 0 && rankForArticle < minimumRank)
+              console.warn(`Minimum rank for \`${title}\` for \`${q}\` can be reduced from ${minimumRank} to ${rankForArticle}.`);
+
+            expect(resultTitles).toContain(title);
+            expect(rankForArticle).toBeLessThanOrEqual(minimumRank);
+          });
+        }
+      });
     }
 
     it('limits results when good results are available', () => {

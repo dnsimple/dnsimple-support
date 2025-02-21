@@ -81,8 +81,7 @@ export default {
       q: '',
       isOpen: false,
       isFetched: {},
-      history: [],
-      articles: [],
+      history: []
     };
   },
 
