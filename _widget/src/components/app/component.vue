@@ -83,23 +83,12 @@ export default {
       isFetched: {},
       history: [],
       articles: [],
-      showRecentlyVisited: true,
     };
   },
 
   watch: {
-    q (val) {
-      this.showRecentlyVisited = false;
-
-      if (val.length > 1) {
-        if (this.currentRoute[0] !== 'Articles')
-          this.go('Articles', undefined, true);
-      } else if (!val.length)
-        if (this.recentlyVisitedArticles.length > 0) {
-          this.showRecentlyVisited = true;
-          this.go('Articles', undefined, true);
-        } else
-          this.go('Article', this.gettingStarted, true);
+    q () {
+      this.chooseRoute();
     }
   },
 
@@ -116,6 +105,19 @@ export default {
       return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
     },
 
+    couldNotLoad() {
+      return !this.gettingStarted;
+    },
+
+    errorArticle() {
+      return {
+        id: '' ,
+        sourceUrl: '',
+        title: 'Something went wrong',
+        body: 'We couldn\'t load our support articles. Please try reloading the page.',
+      };
+    },
+
     recentlyVisitedUrls () {
       return JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
     },
@@ -125,7 +127,7 @@ export default {
     },
 
     showRecentlyVisitedArticles () {
-      return this.showRecentlyVisited && this.recentlyVisitedArticles?.length > 0;
+      return this.q.length === 0 && this.recentlyVisitedArticles?.length > 0;
     }
   },
 
@@ -160,16 +162,22 @@ export default {
           // We catch the errors here so that the show can go on
           this.sources.map((s) => this.fetchArticles(s.url).catch(() => {}))
         )
-        .then(() => {
-          if (this.showRecentlyVisitedArticles)
-            this.go('Articles', undefined, true);
-          else if (this.filteredArticles.length === 1)
-            this.go('Article', this.filteredArticles[0], true);
-          else if (this.filteredArticles.length === 0) {
-            this.go('Article', this.gettingStarted, true);
-            this.focus();
-          }
-        });
+        .then(this.chooseRoute);
+    },
+
+    chooseRoute() {
+      if (this.couldNotLoad)
+        this.go('Article', this.errorArticle, true);
+      else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
+        this.go('Articles', undefined, true);
+      else if (this.filteredArticles.length === 0 && this.q.length === 0)
+        this.go('Article', this.gettingStarted, true);
+      else if (this.filteredArticles.length === 0 && this.q.length > 0)
+        this.go('Articles', undefined, true);
+      else if (this.filteredArticles.length === 1)
+        this.go('Article', this.filteredArticles[0], true);
+      else if (this.currentRoute[0] !== 'Articles')
+        this.go('Articles', undefined, true);
     },
 
     focus () {
