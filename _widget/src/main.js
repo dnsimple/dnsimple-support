@@ -2,4 +2,4 @@ import initialize from './initialize.js';
 
 const elementId = 'dnsimple-support-widget';
 
-initialize(elementId, global.document);
+initialize(document);
