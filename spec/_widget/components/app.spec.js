@@ -3,14 +3,19 @@ import { nextTick } from "vue";
 import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
-const propsData = {
-  gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
-  currentSiteUrl: 'https://support.dnsimple.com',
-  fetch: () => Promise.resolve(ARTICLES)
-};
-
 describe('App', () => {
   const promptMessage = 'Need Help?';
+
+  let propsData
+
+  beforeEach(() => {
+    propsData = {
+      gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
+      currentSiteUrl: 'https://support.dnsimple.com',
+      fetch: () => Promise.resolve(ARTICLES),
+      goExternal: jest.fn()
+    };
+  })
 
   describe('init', () => {
     const subject = mount(App);
@@ -169,10 +174,12 @@ describe('App', () => {
 
   describe('recently visited', () => {
     const article = ARTICLES[0];
-    const recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
+    let recentlyVisitedUrls
     let subject;
 
     beforeEach(async () => {
+      recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
+
       localStorage.clear();
       localStorage.setItem('recentlyVisitedUrls', recentlyVisitedUrls);
 

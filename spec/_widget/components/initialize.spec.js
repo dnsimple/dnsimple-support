@@ -4,6 +4,13 @@ import ARTICLES from '../../../output/search.json';
 
 describe('Initialize', () => {
   let subject;
+  let goExternal
+  let fetch
+
+  beforeEach(() => {
+    goExternal = jest.fn()
+    fetch = jest.fn(() => Promise.resolve(ARTICLES))
+  })
 
   describe('when the target div is already on the page', () => {
     it('mounts the app to the div', () => {
@@ -67,7 +74,7 @@ describe('Initialize', () => {
     });
 
     it('opens when clicking on the default opener', async () => {
-      await document.body.querySelector('a').click();
+      await document.body.querySelector('[aria-label="Open widget"]').click();
 
       expect(document.body.innerHTML).toContain('Try some keywords');
     });

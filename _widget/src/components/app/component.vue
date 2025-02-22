@@ -57,6 +57,12 @@ export default {
         return window.fetch(url).then((r) => r.json());
       }
     },
+    goExternal: {
+      type: Function,
+      default(url) {
+        window.location.href = url
+      }
+    },
     search: {
       type: Object,
       default() { return new Search(); }
@@ -139,14 +145,23 @@ export default {
   },
 
   methods: {
-    go (page, params, ignoreHistory) {
+    go (page, params, ignoreHistory = false) {
       if (!ignoreHistory)
         this.history.push(this.currentRoute);
 
-      this.currentRoute = [page, params];
+      if (params && params.id && page === 'Article' && params?.sourceUrl === this.app.getCurrentSiteUrl()) {
+        const url = this.getArticleUrl(params)
 
-      if (params && params.id && params.sourceUrl && page === 'Article')
-        this.storeRecentlyVisited(this.getArticleUrl(params));
+        if (!ignoreHistory) {
+          this.storeRecentlyVisited(url);
+
+          if (params.sourceUrl === this.app.getCurrentSiteUrl()) {
+            this.app.goExternal(url)
+          }
+        }
+      } else {
+        this.currentRoute = [page, params];
+      }
     },
 
     back () {
