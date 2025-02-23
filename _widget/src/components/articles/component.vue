@@ -11,6 +11,7 @@
           <div :class="{ 'selected-article': isSelectedArticle(article) }">
             <h3>
               <a
+                :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
                 @click="app.visit(app.getArticleUrl(article), $event)"
                 v-html="highlight(article.title, highlighter)"
                 :href="app.getArticleUrl(article)"
@@ -40,6 +41,7 @@
               <div :class="{ 'selected-article': isSelectedArticle(article) }">
                 <h3>
                   <a
+                    :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
                     @click="app.visit(app.getArticleUrl(article), $event)"
                     v-html="highlight(article.title, highlighter)"
                     :href="app.getArticleUrl(article)"
@@ -167,9 +169,9 @@ export default {
     },
 
     openSelectedArticle () {
-      if (!this.selectedArticle) return;
+      if (!this.$refs.selected || !this.$refs.selected[0]) return;
 
-      this.app.visit(this.app.getArticleUrl(this.selectedArticle));
+      this.$refs.selected[0].click();
     },
   }
 };

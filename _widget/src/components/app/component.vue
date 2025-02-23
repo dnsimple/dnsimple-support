@@ -171,9 +171,9 @@ export default {
     },
 
     _goToRoute (page, params, ignoreHistory = false) {
-      if (!ignoreHistory) 
+      if (!ignoreHistory)
         this.history.push(this.currentRoute);
-      
+
 
       this.currentRoute = [page, params];
     },
