@@ -7,17 +7,14 @@ describe('App', () => {
   const promptMessage = 'Need Help?';
 
   let propsData;
-  let goExternal;
 
   beforeEach(() => {
-    goExternal = jest.fn(() => e.preventDefault());
     localStorage.clear();
 
     propsData = {
       gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
       currentSiteUrl: 'https://support.dnsimple.com',
       fetch: () => Promise.resolve(ARTICLES),
-      goExternal
     };
   });
 
@@ -33,36 +30,31 @@ describe('App', () => {
     });
   });
 
-  describe('_goToRoute', () => {
+  describe('back', () => {
     let subject;
 
     beforeEach(() => {
-      subject = mount(App, { propsData });
+      subject = mount(App, {
+        propsData: Object.assign(
+          {},
+          propsData,
+          {
+            currentSiteUrl: "https://different-site.dnsimple.com" // Same-site never sees the back button
+          }
+        )
+      });
     });
 
-    it('visits a route with params', () => {
-      const route = ['Article', { title: 'Title' }];
+    it('visits the last route', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      expect(subject.text()).toContain('Our Comics');
 
-      subject.vm._goToRoute(route[0], route[1]);
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+      expect(subject.text()).not.toContain('Our Comics');
 
-      expect(subject.vm.history).toHaveLength(1);
-      expect(subject.vm.currentRoute).toEqual(route);
-    });
-  });
-
-  describe('back', () => {
-    const subject = mount(App);
-
-    it('visits the last route', () => {
-      const route1 = ['Article', { title: 'Title' }];
-      const route2 = ['Article', { title: 'Title #2' }];
-
-      subject.vm._goToRoute(route1[0], route1[1]);
-      subject.vm._goToRoute(route2[0], route2[1]);
-      subject.vm.back();
-
-      expect(subject.vm.history).toHaveLength(1);
-      expect(subject.vm.currentRoute).toEqual(route1);
+      await subject.find('[aria-label="Back"]').trigger('click');
+      expect(subject.text()).toContain('Our Comics');
     });
   });
 
@@ -296,8 +288,6 @@ describe('App', () => {
           {},
           propsData,
           {
-            currentSiteUrl: "https://support.dnsimple.com",
-            gettingStartedUrl: "https://support.dnsimple.com/articles/getting-started/",
             externalLinkProbe
           }
         )
@@ -333,7 +323,6 @@ describe('App', () => {
           propsData,
           {
             currentSiteUrl: "https://different-site.dnsimple.com",
-            gettingStartedUrl: "https://support.dnsimple.com/articles/getting-started/",
             externalLinkProbe
           }
         )
