@@ -41,11 +41,11 @@ export default {
   },
   watch: {
     'article' () {
-      return this.prepare();
+      this.prepare();
     }
   },
   mounted () {
-    return this.prepare();
+    this.prepare();
   },
   methods: {
     fixLinks () {

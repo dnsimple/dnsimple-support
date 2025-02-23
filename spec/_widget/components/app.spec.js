@@ -222,9 +222,9 @@ describe('App', () => {
 
     it('handles articles navigation', async () => {
       const articles = [
-        { id: '/articles/first/', title: 'First example', body: 'First', sourceUrl: 'https://dnsimple.com' },
-        { id: '/articles/second/', title: 'Second example', body: 'Second', sourceUrl: 'https://dnsimple.com' },
-        { id: '/articles/getting-started/', title: 'Getting Started', body: 'Getting started', sourceUrl: 'https://support.dnsimple.com' }
+        { id: '/articles/first/', title: 'First example', body: 'First article', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/second/', title: 'Second example', body: 'Second article', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/getting-started/', title: 'Getting Started', body: 'Getting started article', sourceUrl: 'https://support.dnsimple.com' }
       ];
       const props = Object.assign({}, propsData, {
         fetch: () => Promise.resolve(articles),
@@ -258,8 +258,7 @@ describe('App', () => {
       await subject.vm.handleKeydown(enter);
       await nextTick();
 
-      expect(subject.vm.currentRoute[0]).toEqual('Article');
-      expect(subject.vm.currentRoute[1].title).toEqual(articles[0].title);
+      expect(subject.text()).toContain(articles[0].body);
     });
   });
 
