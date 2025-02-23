@@ -7,7 +7,7 @@ describe('Initialize', () => {
   let fetch;
 
   beforeEach(() => {
-    goExternal = jest.fn((e) => e.preventDefault() && e.stopImmediatePropagation());
+    goExternal = jest.fn();
     fetch = jest.fn(() => Promise.resolve(ARTICLES));
   });
 
