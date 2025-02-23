@@ -154,9 +154,11 @@ export default {
       }
 
       if (article) {
-        this.storeRecentlyVisited(url);
+        const articleUrl = this.getArticleUrl(article);
 
-        if (!this.isSameSite(url)) {
+        this.storeRecentlyVisited(articleUrl);
+
+        if (!this.isSameSite(articleUrl)) {
           if (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
