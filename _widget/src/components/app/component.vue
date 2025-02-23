@@ -143,7 +143,7 @@ export default {
   },
 
   methods: {
-    visit (url, event = null) {
+    visitArticle (url, event = null) {
       const hasHash = url.indexOf('#') !== -1;
       const article = this.findArticle(url);
 

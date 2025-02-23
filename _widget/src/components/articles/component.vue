@@ -12,7 +12,7 @@
             <h3>
               <a
                 :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-                @click="app.visit(app.getArticleUrl(article), $event)"
+                @click="app.visitArticle(app.getArticleUrl(article), $event)"
                 v-html="highlight(article.title, highlighter)"
                 :href="app.getArticleUrl(article)"
                 :aria-label="`Visit ${article.title}`"
@@ -42,7 +42,7 @@
                 <h3>
                   <a
                     :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-                    @click="app.visit(app.getArticleUrl(article), $event)"
+                    @click="app.visitArticle(app.getArticleUrl(article), $event)"
                     v-html="highlight(article.title, highlighter)"
                     :href="app.getArticleUrl(article)"
                     :aria-label="`Visit ${article.title}`"

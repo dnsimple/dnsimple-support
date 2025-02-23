@@ -57,7 +57,7 @@ export default {
           a.setAttribute('href', url);
         }
 
-        a.addEventListener('click', (event) => this.app.visit(url, event));
+        a.addEventListener('click', (event) => this.app.visitArticle(url, event));
       });
     },
 
