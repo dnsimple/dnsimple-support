@@ -162,7 +162,9 @@ export default {
             event.stopImmediatePropagation();
           }
 
+          this.history.push(this.currentRoute);
           this._goToRoute('Article', article);
+
           return;
         }
       }
@@ -170,11 +172,7 @@ export default {
       this.externalLinkProbe(url);
     },
 
-    _goToRoute (page, params, ignoreHistory = false) {
-      if (!ignoreHistory)
-        this.history.push(this.currentRoute);
-
-
+    _goToRoute (page, params) {
       this.currentRoute = [page, params];
     },
 
@@ -195,17 +193,17 @@ export default {
 
     chooseRoute() {
       if (this.couldNotLoad)
-        this._goToRoute('Article', this.errorArticle, true);
+        this._goToRoute('Article', this.errorArticle);
       else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
-        this._goToRoute('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
       else if (this.filteredArticles.length === 0 && this.q.length === 0)
-        this._goToRoute('Article', this.gettingStarted, true);
+        this._goToRoute('Article', this.gettingStarted);
       else if (this.filteredArticles.length === 0 && this.q.length > 0)
-        this._goToRoute('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
       else if (this.filteredArticles.length === 1)
-        this._goToRoute('Article', this.filteredArticles[0], true);
+        this._goToRoute('Article', this.filteredArticles[0]);
       else if (this.currentRoute[0] !== 'Articles')
-        this._goToRoute('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
     },
 
     focus () {
