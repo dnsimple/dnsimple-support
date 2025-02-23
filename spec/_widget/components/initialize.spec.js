@@ -1,5 +1,4 @@
 import initialize from '../../../_widget/src/initialize.js';
-import { mount } from '@vue/test-utils';
 import ARTICLES from '../../../output/search.json';
 
 describe('Initialize', () => {
@@ -8,7 +7,7 @@ describe('Initialize', () => {
   let fetch
 
   beforeEach(() => {
-    goExternal = jest.fn()
+    goExternal = jest.fn((e) => e.preventDefault() && e.stopImmediatePropagation())
     fetch = jest.fn(() => Promise.resolve(ARTICLES))
   })
 
@@ -79,6 +78,4 @@ describe('Initialize', () => {
       expect(document.body.innerHTML).toContain('Try some keywords');
     });
   });
-
-  // We should have some specs around the currentSiteUrl behaviour (eg. opening in the same tab if same site, etc)
 });

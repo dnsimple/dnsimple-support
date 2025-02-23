@@ -41,24 +41,23 @@ export default {
   },
   watch: {
     'article' () {
-      this.prepare();
+      return this.prepare();
     }
   },
   mounted () {
-    this.prepare();
+    return this.prepare();
   },
   methods: {
     fixLinks () {
       [...this.$el.querySelectorAll('a')].forEach((a) => {
-        const href = a.getAttribute('href');
-        const isSameSite = this.article.sourceUrl.indexOf(this.app.getCurrentSiteUrl()) === 0;
+        let url = a.getAttribute('href')
 
-        if (href[0] === '/' && !isSameSite)
-          this.prepRelativeLink(a);
-        else if (href[0] === '#')
-          this.prepHashLink(a);
-        else if (href.indexOf('javascript') !== 0 && (!isSameSite || href.startsWith('http')))
-          this.prepAbsoluteLink(a);
+        if (url[0] === '/' || url[0] === '#') {
+          url = `${this.article.sourceUrl}${url}`
+          a.setAttribute('href', url);
+        }
+
+        a.addEventListener('click', (event) => this.app.visit(url, event))
       });
     },
 
@@ -71,37 +70,8 @@ export default {
       });
     },
 
-    prepAbsoluteLink (a) {
-      a.target = '_blank';
-    },
-
-    prepHashLink (a) {
-      a.onclick = (event) => {
-        event.preventDefault();
-        document.getElementById(a.href.split('#')[1]).scrollIntoView();
-      };
-    },
-
-    prepRelativeLink (a) {
-      const href = a
-        .getAttribute('href')
-        .replace(/#.*/, '')
-        .replace(NO_TRAILING_SLASH, '/');
-      const url = `${this.article.sourceUrl}${href}`;
-      const article = this.app.findArticle(url);
-
-      a.href = url;
-      a.onclick = (event) => {
-        event.stopImmediatePropagation();
-        event.preventDefault();
-
-        if (article)
-          this.app.go('Article', article);
-      };
-    },
-
     prepare () {
-      this.$nextTick(() => {
+      return this.$nextTick(() => {
         this.$el.scrollTop = 0;
         this.fixLinks();
         this.fixTables();

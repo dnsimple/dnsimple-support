@@ -11,9 +11,9 @@
           <div :class="{ 'selected-article': isSelectedArticle(article) }">
             <h3>
               <a
-                @click.prevent="app.go('Article', article)"
+                @click="app.visit(app.getArticleUrl(article), $event)"
                 v-html="highlight(article.title, highlighter)"
-                :href="absoluteURL(article, article.id)"
+                :href="app.getArticleUrl(article)"
                 :aria-label="`Visit ${article.title}`"
               ></a>
             </h3>
@@ -40,9 +40,9 @@
               <div :class="{ 'selected-article': isSelectedArticle(article) }">
                 <h3>
                   <a
-                    @click.prevent="app.go('Article', article)"
+                    @click="app.visit(app.getArticleUrl(article), $event)"
                     v-html="highlight(article.title, highlighter)"
-                    :href="absoluteURL(article, article.id)"
+                    :href="app.getArticleUrl(article)"
                     :aria-label="`Visit ${article.title}`"
                   ></a>
                 </h3>
@@ -128,10 +128,6 @@ export default {
     }
   },
   methods: {
-    absoluteURL (article, path) {
-      return `${article.sourceUrl}${path}`;
-    },
-
     highlight (str, highlighter) {
       if (!this.app.q) return str;
 
@@ -173,7 +169,7 @@ export default {
     openSelectedArticle () {
       if (!this.selectedArticle) return;
 
-      this.app.go('Article', this.selectedArticle);
+      this.app.visit(this.app.getArticleUrl(this.selectedArticle))
     },
   }
 };

@@ -57,11 +57,9 @@ export default {
         return window.fetch(url).then((r) => r.json());
       }
     },
-    goExternal: {
+    externalLinkProbe: {
       type: Function,
-      default(url) {
-        window.location.href = url
-      }
+      default: () => {}
     },
     search: {
       type: Object,
@@ -145,23 +143,39 @@ export default {
   },
 
   methods: {
-    go (page, params, ignoreHistory = false) {
-      if (!ignoreHistory)
-        this.history.push(this.currentRoute);
+    visit (url, event = null) {
+      const hasHash = url.indexOf('#') !== -1
+      const article = this.findArticle(url)
 
-      if (params && params.id && page === 'Article' && params?.sourceUrl === this.app.getCurrentSiteUrl()) {
-        const url = this.getArticleUrl(params)
-
-        if (!ignoreHistory) {
-          this.storeRecentlyVisited(url);
-
-          if (params.sourceUrl === this.app.getCurrentSiteUrl()) {
-            this.app.goExternal(url)
-          }
-        }
-      } else {
-        this.currentRoute = [page, params];
+      if (hasHash) {
+        event.preventDefault();
+        document.getElementById(url.split('#')[1]).scrollIntoView();
+        return
       }
+
+      if (article) {
+        this.storeRecentlyVisited(url);
+
+        if (!this.isSameSite(url)) {
+          if (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+
+          this._goToRoute('Article', article)
+          return
+        }
+      }
+
+      this.externalLinkProbe(url)
+    },
+
+    _goToRoute (page, params, ignoreHistory = false) {
+      if (!ignoreHistory) {
+        this.history.push(this.currentRoute);
+      }
+
+      this.currentRoute = [page, params];
     },
 
     back () {
@@ -181,17 +195,17 @@ export default {
 
     chooseRoute() {
       if (this.couldNotLoad)
-        this.go('Article', this.errorArticle, true);
+        this._goToRoute('Article', this.errorArticle, true);
       else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined, true);
       else if (this.filteredArticles.length === 0 && this.q.length === 0)
-        this.go('Article', this.gettingStarted, true);
+        this._goToRoute('Article', this.gettingStarted, true);
       else if (this.filteredArticles.length === 0 && this.q.length > 0)
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined, true);
       else if (this.filteredArticles.length === 1)
-        this.go('Article', this.filteredArticles[0], true);
+        this._goToRoute('Article', this.filteredArticles[0], true);
       else if (this.currentRoute[0] !== 'Articles')
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined, true);
     },
 
     focus () {
@@ -210,11 +224,14 @@ export default {
     fetchArticles (sourceUrl) {
       if (this.isFetched[sourceUrl]) return Promise.resolve();
 
-      return this.fetch(`${sourceUrl}/search.json`)
-        .then((articles) => {
-          this.addArticles(articles, sourceUrl);
-          this.isFetched[sourceUrl] = true;
-        });
+      return new Promise((resolve, reject) => {
+        this.fetch(`${sourceUrl}/search.json`)
+          .then((articles) => {
+            this.addArticles(articles, sourceUrl);
+            this.isFetched[sourceUrl] = true;
+            resolve()
+          }).catch(reject);
+      })
     },
 
     query(q) {
@@ -255,6 +272,10 @@ export default {
 
     getArticleUrl(article) {
       return `${article.sourceUrl}${article.id}`;
+    },
+
+    isSameSite(url) {
+      return url.indexOf(this.getCurrentSiteUrl()) === 0
     },
 
     storeRecentlyVisited(articleUrl) {
