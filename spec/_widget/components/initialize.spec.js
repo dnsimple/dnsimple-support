@@ -3,13 +3,13 @@ import ARTICLES from '../../../output/search.json';
 
 describe('Initialize', () => {
   let subject;
-  let goExternal
-  let fetch
+  let goExternal;
+  let fetch;
 
   beforeEach(() => {
-    goExternal = jest.fn((e) => e.preventDefault() && e.stopImmediatePropagation())
-    fetch = jest.fn(() => Promise.resolve(ARTICLES))
-  })
+    goExternal = jest.fn((e) => e.preventDefault() && e.stopImmediatePropagation());
+    fetch = jest.fn(() => Promise.resolve(ARTICLES));
+  });
 
   describe('when the target div is already on the page', () => {
     it('mounts the app to the div', () => {

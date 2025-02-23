@@ -169,7 +169,7 @@ export default {
     openSelectedArticle () {
       if (!this.selectedArticle) return;
 
-      this.app.visit(this.app.getArticleUrl(this.selectedArticle))
+      this.app.visit(this.app.getArticleUrl(this.selectedArticle));
     },
   }
 };

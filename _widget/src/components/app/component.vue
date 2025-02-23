@@ -144,13 +144,13 @@ export default {
 
   methods: {
     visit (url, event = null) {
-      const hasHash = url.indexOf('#') !== -1
-      const article = this.findArticle(url)
+      const hasHash = url.indexOf('#') !== -1;
+      const article = this.findArticle(url);
 
       if (hasHash) {
         event.preventDefault();
         document.getElementById(url.split('#')[1]).scrollIntoView();
-        return
+        return;
       }
 
       if (article) {
@@ -162,18 +162,18 @@ export default {
             event.stopImmediatePropagation();
           }
 
-          this._goToRoute('Article', article)
-          return
+          this._goToRoute('Article', article);
+          return;
         }
       }
 
-      this.externalLinkProbe(url)
+      this.externalLinkProbe(url);
     },
 
     _goToRoute (page, params, ignoreHistory = false) {
-      if (!ignoreHistory) {
+      if (!ignoreHistory) 
         this.history.push(this.currentRoute);
-      }
+      
 
       this.currentRoute = [page, params];
     },
@@ -229,9 +229,9 @@ export default {
           .then((articles) => {
             this.addArticles(articles, sourceUrl);
             this.isFetched[sourceUrl] = true;
-            resolve()
+            resolve();
           }).catch(reject);
-      })
+      });
     },
 
     query(q) {
@@ -275,7 +275,7 @@ export default {
     },
 
     isSameSite(url) {
-      return url.indexOf(this.getCurrentSiteUrl()) === 0
+      return url.indexOf(this.getCurrentSiteUrl()) === 0;
     },
 
     storeRecentlyVisited(articleUrl) {

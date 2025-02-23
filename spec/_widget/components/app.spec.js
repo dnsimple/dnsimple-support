@@ -6,11 +6,12 @@ import ARTICLES from '../../../output/search.json';
 describe('App', () => {
   const promptMessage = 'Need Help?';
 
-  let propsData
-  let goExternal
+  let propsData;
+  let goExternal;
 
   beforeEach(() => {
-    goExternal = jest.fn(() => e.preventDefault())
+    goExternal = jest.fn(() => e.preventDefault());
+    localStorage.clear();
 
     propsData = {
       gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
@@ -18,7 +19,7 @@ describe('App', () => {
       fetch: () => Promise.resolve(ARTICLES),
       goExternal
     };
-  })
+  });
 
   describe('init', () => {
     const subject = mount(App);
@@ -162,7 +163,7 @@ describe('App', () => {
 
   describe('recently visited', () => {
     const article = ARTICLES[0];
-    let recentlyVisitedUrls
+    let recentlyVisitedUrls;
     let subject;
 
     beforeEach(async () => {
@@ -236,7 +237,7 @@ describe('App', () => {
       const props = Object.assign({}, propsData, {
         fetch: () => Promise.resolve(articles),
         currentSiteUrl: 'https://other.dnsimple.com' // force the article to open in the widget
-      })
+      });
       subject = mount(App, { propsData: props });
       await subject.vm.open();
       await subject.vm.setQ('example');
@@ -284,11 +285,11 @@ describe('App', () => {
   });
 
   describe('when on the same-site', () => {
-    let subject
-    let externalLinkProbe
+    let subject;
+    let externalLinkProbe;
 
     beforeEach(() => {
-      externalLinkProbe = jest.fn()
+      externalLinkProbe = jest.fn();
 
       subject = mount(App, {
         propsData: Object.assign(
@@ -304,27 +305,27 @@ describe('App', () => {
     });
 
     it('opens search result links in a regular page', async () => {
-      await subject.find('[aria-label="Open widget"]').trigger('click')
-      await subject.find('[aria-label="Visit Getting Started"]').trigger('click')
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
 
-      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/getting-started/')
-    })
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/getting-started/');
+    });
 
     it('opens links in the body of the article in a regular page', async () => {
-      await subject.find('[aria-label="Open widget"]').trigger('click')
-      await subject.find('[aria-label="Visit Getting Started"]').trigger('click')
-      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click')
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
 
-      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/dnsimple-services/')
-    })
-  })
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/dnsimple-services/');
+    });
+  });
 
   describe('when on a different-site', () => {
-    let subject
-    let externalLinkProbe
+    let subject;
+    let externalLinkProbe;
 
     beforeEach(() => {
-      externalLinkProbe = jest.fn()
+      externalLinkProbe = jest.fn();
 
       subject = mount(App, {
         propsData: Object.assign(
@@ -340,22 +341,20 @@ describe('App', () => {
     });
 
     it('opens the search result links in the widget', async () => {
-      await subject.find('[aria-label="Open widget"]').trigger('click')
-      await subject.vm.setQ('dnssec')
-      await subject.find('[aria-label="Visit DNSSEC"]').trigger('click')
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
 
-      expect(subject.text()).toContain('provides a way to cryptographically build a chain of trust')
-      expect(externalLinkProbe).not.toHaveBeenCalled()
-    })
+      expect(externalLinkProbe).not.toHaveBeenCalled();
+      expect(subject.text()).toContain('Our Comics');
+    });
 
     it('opens links in the body of the article in the widget', async () => {
-      await subject.find('[aria-label="Open widget"]').trigger('click')
-      await subject.vm.setQ('dnssec')
-      await subject.find('[aria-label="Visit DNSSEC"]').trigger('click')
-      await subject.find('[href="https://support.dnsimple.com/articles/manage-ds-record/"]').element.dispatchEvent(new Event('click', { bubbles: true }));
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
 
-      expect(subject.text()).toContain('To add a DS record using the KEY-Data interface')
-      expect(externalLinkProbe).not.toHaveBeenCalled()
-    })
-  })
+      expect(externalLinkProbe).not.toHaveBeenCalled();
+      expect(subject.text()).toContain('DNSimple provides essential services for every Internet-connected system');
+    });
+  });
 });

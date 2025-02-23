@@ -50,14 +50,14 @@ export default {
   methods: {
     fixLinks () {
       [...this.$el.querySelectorAll('a')].forEach((a) => {
-        let url = a.getAttribute('href')
+        let url = a.getAttribute('href');
 
         if (url[0] === '/' || url[0] === '#') {
-          url = `${this.article.sourceUrl}${url}`
+          url = `${this.article.sourceUrl}${url}`;
           a.setAttribute('href', url);
         }
 
-        a.addEventListener('click', (event) => this.app.visit(url, event))
+        a.addEventListener('click', (event) => this.app.visit(url, event));
       });
     },
 
@@ -71,7 +71,7 @@ export default {
     },
 
     prepare () {
-      return this.$nextTick(() => {
+      this.$nextTick(() => {
         this.$el.scrollTop = 0;
         this.fixLinks();
         this.fixTables();
