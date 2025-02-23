@@ -4,7 +4,7 @@
       <div v-html="backIcon"></div>
     </a>
 
-    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
+    <a :href="`${app.getArticleUrl(article)}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>
@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     fixLinks () {
-      [...this.$el.querySelectorAll('a')].forEach((a) => {
+      [...this.$el.querySelectorAll('.article a')].forEach((a) => {
         let url = a.getAttribute('href');
 
         if (url[0] === '/' || url[0] === '#') {
