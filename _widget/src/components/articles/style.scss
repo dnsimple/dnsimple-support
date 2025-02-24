@@ -1,16 +1,14 @@
 #dnsimple-support {
   .articles {
     margin-top: calc(var(--dnsimple-support-widget-padding) * -1);
+    position: relative;
 
     h3 {
       color: var(--dnsimple-support-widget-blue);
       font-weight: bold;
-
-      &.category {
-        margin-top: var(--dnsimple-support-widget-padding);
-        color: var(--dnsimple-support-widget-dark-gray);
-        border-bottom: 2px solid var(--dnsimple-support-widget-light-gray);
-      }
+      position: sticky;
+      top: 2rem;
+      background: #fff;
     }
 
     h4 {
@@ -22,12 +20,31 @@
       padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
       margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
       margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
+      position: sticky;
+      top: calc(-1rem + 1px);
+      z-index: 999;
 
       .external-link {
         float: right;
         width: 1.1rem;
         height: 1.1rem;
       }
+    }
+
+    h5 {
+      color: var(--dnsimple-support-widget-blue);
+      font-weight: bold;
+      position: sticky;
+      top: calc(var(--dnsimple-support-widget-padding) + 5px);
+      background: #fff;
+      padding-top: var(--dnsimple-support-widget-padding);
+      color: var(--dnsimple-support-widget-dark-gray);
+      border-bottom: 2px solid var(--dnsimple-support-widget-light-gray);
+    }
+
+    h6 {
+      color: var(--dnsimple-support-widget-blue);
+      font-weight: bold;
     }
 
     mark {

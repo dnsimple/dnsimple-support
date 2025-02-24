@@ -38,10 +38,10 @@
         </h4>
         <ul>
           <div v-for="(articles, category) in articlesByCategory" :key="`${category}-articles`">
-            <h3 v-if="category !== 'undefined'" class="category">{{ category }}</h3>
+            <h5 v-if="category !== 'undefined'" class="category">{{ category }}</h5>
             <li v-for="article in articles" :key="article.id">
               <div :class="{ 'selected-article': isSelectedArticle(article) }">
-                <h3>
+                <h6>
                   <a
                     :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
                     @click="app.visitArticle(app.getArticleUrl(article), $event)"
@@ -49,7 +49,7 @@
                     :href="app.getArticleUrl(article)"
                     :aria-label="`Visit ${article.title}`"
                   ></a>
-                </h3>
+                </h6>
 
                 <p
                   v-html="highlight(article.excerpt, highlighter)"

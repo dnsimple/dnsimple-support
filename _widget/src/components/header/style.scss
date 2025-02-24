@@ -2,7 +2,7 @@
   .header {
     background: rgb(57, 50, 77);
     text-align: center;
-    padding: var(--dnsimple-support-widget-padding) calc(var(--dnsimple-support-widget-padding) * 1.2);
+    padding: calc(var(--dnsimple-support-widget-padding) * 1.2);
     border-top-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
     border-top-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
@@ -12,7 +12,7 @@
       top: 0;
       right: 0;
       line-height: 1;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.5) calc(var(--dnsimple-support-widget-padding) * 1.2);
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.7) calc(var(--dnsimple-support-widget-padding) * 1.2);
 
       svg {
         width: calc(var(--dnsimple-support-widget-rem) * 1.5);
@@ -51,7 +51,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.25) calc(var(--dnsimple-support-widget-padding));
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.4) calc(var(--dnsimple-support-widget-padding));
       line-height: 1;
 
       svg {
