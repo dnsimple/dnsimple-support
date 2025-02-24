@@ -1,6 +1,10 @@
 #dnsimple-support {
   .footer {
     margin-top: calc(var(--dnsimple-support-widget-padding) * 2);
+    margin-left: calc(var(--dnsimple-support-widget-padding) * -2);
+    margin-right: calc(var(--dnsimple-support-widget-padding) * -2);
+    margin-bottom: calc(var(--dnsimple-support-widget-padding) * -2);
+
     padding: calc(var(--dnsimple-support-widget-padding) * 2);
     background: var(--dnsimple-support-widget-light-gray);
     border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
