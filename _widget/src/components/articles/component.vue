@@ -11,16 +11,11 @@
           <div :class="{ 'selected-article': isSelectedArticle(article) }">
             <h3>
               <a
-                v-if="article.sourceUrl === app.getCurrentSiteUrl()"
-                @click="app.storeRecentlyVisited(app.getArticleUrl(article))"
+                :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+                @click="app.visitArticle(app.getArticleUrl(article), $event)"
                 v-html="highlight(article.title, highlighter)"
-                :href="absoluteURL(article, article.id)"
-              ></a>
-              <a
-                v-else
-                @click.prevent="app.go('Article', article)"
-                v-html="highlight(article.title, highlighter)"
-                :href="absoluteURL(article, article.id)"
+                :href="app.getArticleUrl(article)"
+                :aria-label="`Visit ${article.title}`"
               ></a>
             </h3>
 
@@ -46,16 +41,11 @@
               <div :class="{ 'selected-article': isSelectedArticle(article) }">
                 <h3>
                   <a
-                    v-if="sourceUrl === app.getCurrentSiteUrl()"
-                    @click="app.storeRecentlyVisited(app.getArticleUrl(article))"
+                    :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+                    @click="app.visitArticle(app.getArticleUrl(article), $event)"
                     v-html="highlight(article.title, highlighter)"
-                    :href="absoluteURL(article, article.id)"
-                  ></a>
-                  <a
-                    v-else
-                    @click.prevent="app.go('Article', article)"
-                    v-html="highlight(article.title, highlighter)"
-                    :href="absoluteURL(article, article.id)"
+                    :href="app.getArticleUrl(article)"
+                    :aria-label="`Visit ${article.title}`"
                   ></a>
                 </h3>
 
@@ -140,10 +130,6 @@ export default {
     }
   },
   methods: {
-    absoluteURL (article, path) {
-      return `${article.sourceUrl}${path}`;
-    },
-
     highlight (str, highlighter) {
       if (!this.app.q) return str;
 
@@ -183,13 +169,9 @@ export default {
     },
 
     openSelectedArticle () {
-      if (!this.selectedArticle) return;
+      if (!this.$refs.selected || !this.$refs.selected[0]) return;
 
-      if (this.selectedArticle.sourceUrl === this.app.getCurrentSiteUrl()) {
-        this.app.storeRecentlyVisited(this.app.getArticleUrl(this.selectedArticle));
-        window.location.href = this.absoluteURL(this.selectedArticle, this.selectedArticle.id);
-      } else
-        this.app.go('Article', this.selectedArticle);
+      this.$refs.selected[0].click();
     },
   }
 };

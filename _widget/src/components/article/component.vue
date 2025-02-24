@@ -1,10 +1,10 @@
 <template>
   <div class="route with-footer">
-    <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
+    <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back" aria-label="Back">
       <div v-html="backIcon"></div>
     </a>
 
-    <a :href="`${article.sourceUrl}${article.id}`" v-html="externalLink" target="_blank" class="external-link"></a>
+    <a :href="`${app.getArticleUrl(article)}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>
@@ -49,16 +49,15 @@ export default {
   },
   methods: {
     fixLinks () {
-      [...this.$el.querySelectorAll('a')].forEach((a) => {
-        const href = a.getAttribute('href');
-        const isSameSite = this.article.sourceUrl.indexOf(this.app.getCurrentSiteUrl()) === 0;
+      [...this.$el.querySelectorAll('.article a')].forEach((a) => {
+        let url = a.getAttribute('href');
 
-        if (href[0] === '/' && !isSameSite)
-          this.prepRelativeLink(a);
-        else if (href[0] === '#')
-          this.prepHashLink(a);
-        else if (href.indexOf('javascript') !== 0 && (!isSameSite || href.startsWith('http')))
-          this.prepAbsoluteLink(a);
+        if (url[0] === '/' || url[0] === '#') {
+          url = `${this.article.sourceUrl}${url}`;
+          a.setAttribute('href', url);
+        }
+
+        a.addEventListener('click', (event) => this.app.visitArticle(url, event));
       });
     },
 
@@ -69,35 +68,6 @@ export default {
         table.parentNode.insertBefore(wrapper, table);
         wrapper.appendChild(table);
       });
-    },
-
-    prepAbsoluteLink (a) {
-      a.target = '_blank';
-    },
-
-    prepHashLink (a) {
-      a.onclick = (event) => {
-        event.preventDefault();
-        document.getElementById(a.href.split('#')[1]).scrollIntoView();
-      };
-    },
-
-    prepRelativeLink (a) {
-      const href = a
-        .getAttribute('href')
-        .replace(/#.*/, '')
-        .replace(NO_TRAILING_SLASH, '/');
-      const url = `${this.article.sourceUrl}${href}`;
-      const article = this.app.findArticle(url);
-
-      a.href = url;
-      a.onclick = (event) => {
-        event.stopImmediatePropagation();
-        event.preventDefault();
-
-        if (article)
-          this.app.go('Article', article);
-      };
     },
 
     prepare () {

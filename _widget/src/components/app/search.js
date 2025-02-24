@@ -140,7 +140,8 @@ class Search {
   }
 
   findArticle(url) {
-    return this.articles.find((a) => `${a.sourceUrl}${a.id}` === url);
+    const urlWithoutTrailingSlash = url.replace(/\/$/, '');
+    return this.articles.find((a) => `${a.sourceUrl}${a.id}` === `${urlWithoutTrailingSlash}/`);
   }
 
   query(q) {

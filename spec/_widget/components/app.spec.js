@@ -3,14 +3,20 @@ import { nextTick } from "vue";
 import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
-const propsData = {
-  gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
-  currentSiteUrl: 'https://support.dnsimple.com',
-  fetch: () => Promise.resolve(ARTICLES)
-};
-
 describe('App', () => {
   const promptMessage = 'Need Help?';
+
+  let propsData;
+
+  beforeEach(() => {
+    localStorage.clear();
+
+    propsData = {
+      gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
+      currentSiteUrl: 'https://support.dnsimple.com',
+      fetch: () => Promise.resolve(ARTICLES),
+    };
+  });
 
   describe('init', () => {
     const subject = mount(App);
@@ -24,36 +30,31 @@ describe('App', () => {
     });
   });
 
-  describe('go', () => {
+  describe('back', () => {
     let subject;
 
     beforeEach(() => {
-      subject = mount(App, { propsData });
+      subject = mount(App, {
+        propsData: Object.assign(
+          {},
+          propsData,
+          {
+            currentSiteUrl: "https://different-site.dnsimple.com" // Same-site never sees the back button
+          }
+        )
+      });
     });
 
-    it('visits a route with params', () => {
-      const route = ['Article', { title: 'Title' }];
+    it('visits the last route', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      expect(subject.text()).toContain('Our Comics');
 
-      subject.vm.go(route[0], route[1]);
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+      expect(subject.text()).not.toContain('Our Comics');
 
-      expect(subject.vm.history).toHaveLength(1);
-      expect(subject.vm.currentRoute).toEqual(route);
-    });
-  });
-
-  describe('back', () => {
-    const subject = mount(App);
-
-    it('visits the last route', () => {
-      const route1 = ['Article', { title: 'Title' }];
-      const route2 = ['Article', { title: 'Title #2' }];
-
-      subject.vm.go(route1[0], route1[1]);
-      subject.vm.go(route2[0], route2[1]);
-      subject.vm.back();
-
-      expect(subject.vm.history).toHaveLength(1);
-      expect(subject.vm.currentRoute).toEqual(route1);
+      await subject.find('[aria-label="Back"]').trigger('click');
+      expect(subject.text()).toContain('Our Comics');
     });
   });
 
@@ -111,21 +112,6 @@ describe('App', () => {
     });
   });
 
-  describe('article links', () => {
-    let subject;
-
-    describe('when using the widget in the same site', () => {
-      beforeEach(async () => {
-        subject = mount(App, { propsData });
-        await subject.vm.open();
-      });
-
-      it('does not open article links of the same site in the widget', () => {
-        expect(subject.find('.article a').element.onclick).toBeNull();
-      });
-    });
-  });
-
   describe('sources', () => {
     it('groups the articles by source', async () => {
       const subject = mount(App, { propsData });
@@ -169,10 +155,12 @@ describe('App', () => {
 
   describe('recently visited', () => {
     const article = ARTICLES[0];
-    const recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
+    let recentlyVisitedUrls;
     let subject;
 
     beforeEach(async () => {
+      recentlyVisitedUrls = JSON.stringify([`${propsData.currentSiteUrl}${article.id}`]);
+
       localStorage.clear();
       localStorage.setItem('recentlyVisitedUrls', recentlyVisitedUrls);
 
@@ -234,11 +222,17 @@ describe('App', () => {
 
     it('handles articles navigation', async () => {
       const articles = [
-        { id: '/articles/first/', title: 'First', body: 'First', sourceUrl: 'https://dnsimple.com' },
-        { id: '/articles/second/', title: 'Second', body: 'Second', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/first/', title: 'First example', body: 'First article', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/second/', title: 'Second example', body: 'Second article', sourceUrl: 'https://dnsimple.com' },
+        { id: '/articles/getting-started/', title: 'Getting Started', body: 'Getting started article', sourceUrl: 'https://support.dnsimple.com' }
       ];
-      subject = mount(App, { props: { ...propsData }, computed: { filteredArticles() { return articles; } } });
+      const props = Object.assign({}, propsData, {
+        fetch: () => Promise.resolve(articles),
+        currentSiteUrl: 'https://other.dnsimple.com' // force the article to open in the widget
+      });
+      subject = mount(App, { propsData: props });
       await subject.vm.open();
+      await subject.vm.setQ('example');
 
       const down = new KeyboardEvent("keydown", { key: "ArrowDown" });
       await subject.vm.handleKeydown(down);
@@ -264,7 +258,7 @@ describe('App', () => {
       await subject.vm.handleKeydown(enter);
       await nextTick();
 
-      expect(subject.vm.currentRoute).toEqual(['Article', articles[0]]);
+      expect(subject.text()).toContain(articles[0].body);
     });
   });
 
@@ -278,6 +272,77 @@ describe('App', () => {
 
     it ('shows an error message', () => {
       expect(subject.text()).toContain('We couldn\'t load our support articles. Please try reloading the page.');
+    });
+  });
+
+  describe('when on the same-site', () => {
+    let subject;
+    let externalLinkProbe;
+
+    beforeEach(() => {
+      externalLinkProbe = jest.fn();
+
+      subject = mount(App, {
+        propsData: Object.assign(
+          {},
+          propsData,
+          {
+            externalLinkProbe
+          }
+        )
+      });
+    });
+
+    it('opens search result links in a regular page', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/getting-started/');
+    });
+
+    it('opens links in the body of the article in a regular page', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/dnsimple-services/');
+    });
+  });
+
+  describe('when on a different-site', () => {
+    let subject;
+    let externalLinkProbe;
+
+    beforeEach(() => {
+      externalLinkProbe = jest.fn();
+
+      subject = mount(App, {
+        propsData: Object.assign(
+          {},
+          propsData,
+          {
+            currentSiteUrl: "https://different-site.dnsimple.com",
+            externalLinkProbe
+          }
+        )
+      });
+    });
+
+    it('opens the search result links in the widget', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+
+      expect(externalLinkProbe).not.toHaveBeenCalled();
+      expect(subject.text()).toContain('Our Comics');
+    });
+
+    it('opens links in the body of the article in the widget', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+
+      expect(externalLinkProbe).not.toHaveBeenCalled();
+      expect(subject.text()).toContain('DNSimple provides essential services for every Internet-connected system');
     });
   });
 });

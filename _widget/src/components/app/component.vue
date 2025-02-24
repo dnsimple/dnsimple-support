@@ -57,6 +57,10 @@ export default {
         return window.fetch(url).then((r) => r.json());
       }
     },
+    externalLinkProbe: {
+      type: Function,
+      default: () => {}
+    },
     search: {
       type: Object,
       default() { return new Search(); }
@@ -97,7 +101,7 @@ export default {
     },
 
     gettingStarted() {
-      return this.findArticle(this.gettingStartedUrl);
+      return this.findArticle(this.getGettingStartedUrl());
     },
 
     isLoading() {
@@ -139,14 +143,39 @@ export default {
   },
 
   methods: {
-    go (page, params, ignoreHistory) {
-      if (!ignoreHistory)
-        this.history.push(this.currentRoute);
+    visitArticle (url, event = null) {
+      const hasHash = url.indexOf('#') !== -1;
+      const article = this.findArticle(url);
 
+      if (hasHash) {
+        event.preventDefault();
+        document.getElementById(url.split('#')[1]).scrollIntoView();
+        return;
+      }
+
+      if (article) {
+        const articleUrl = this.getArticleUrl(article);
+
+        this.storeRecentlyVisited(articleUrl);
+
+        if (!this.isSameSite(articleUrl)) {
+          if (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+
+          this.history.push(this.currentRoute);
+          this._goToRoute('Article', article);
+
+          return;
+        }
+      }
+
+      this.externalLinkProbe(url);
+    },
+
+    _goToRoute (page, params) {
       this.currentRoute = [page, params];
-
-      if (params && params.id && params.sourceUrl && page === 'Article')
-        this.storeRecentlyVisited(this.getArticleUrl(params));
     },
 
     back () {
@@ -166,17 +195,17 @@ export default {
 
     chooseRoute() {
       if (this.couldNotLoad)
-        this.go('Article', this.errorArticle, true);
+        this._goToRoute('Article', this.errorArticle);
       else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
       else if (this.filteredArticles.length === 0 && this.q.length === 0)
-        this.go('Article', this.gettingStarted, true);
+        this._goToRoute('Article', this.gettingStarted);
       else if (this.filteredArticles.length === 0 && this.q.length > 0)
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
       else if (this.filteredArticles.length === 1)
-        this.go('Article', this.filteredArticles[0], true);
+        this._goToRoute('Article', this.filteredArticles[0]);
       else if (this.currentRoute[0] !== 'Articles')
-        this.go('Articles', undefined, true);
+        this._goToRoute('Articles', undefined);
     },
 
     focus () {
@@ -195,11 +224,14 @@ export default {
     fetchArticles (sourceUrl) {
       if (this.isFetched[sourceUrl]) return Promise.resolve();
 
-      return this.fetch(`${sourceUrl}/search.json`)
-        .then((articles) => {
-          this.addArticles(articles, sourceUrl);
-          this.isFetched[sourceUrl] = true;
-        });
+      return new Promise((resolve, reject) => {
+        this.fetch(`${sourceUrl}/search.json`)
+          .then((articles) => {
+            this.addArticles(articles, sourceUrl);
+            this.isFetched[sourceUrl] = true;
+            resolve();
+          }).catch(reject);
+      });
     },
 
     query(q) {
@@ -230,12 +262,20 @@ export default {
       return this.currentSiteUrl;
     },
 
+    getGettingStartedUrl() {
+      return this.gettingStartedUrl;
+    },
+
     hasHistory() {
       return this.history.length > 0;
     },
 
     getArticleUrl(article) {
       return `${article.sourceUrl}${article.id}`;
+    },
+
+    isSameSite(url) {
+      return url.indexOf(this.getCurrentSiteUrl()) === 0;
     },
 
     storeRecentlyVisited(articleUrl) {
