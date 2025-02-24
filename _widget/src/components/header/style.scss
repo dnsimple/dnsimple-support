@@ -1,10 +1,10 @@
 #dnsimple-support {
   .header {
-    background: var(--dnsimple-support-widget-dark-gray);
+    background: rgb(57, 50, 77);
     text-align: center;
-    padding: var(--dnsimple-support-widget-padding);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    padding: var(--dnsimple-support-widget-padding) calc(var(--dnsimple-support-widget-padding) * 1.2);
+    border-top-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+    border-top-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
     .minimize {
       color: var(--dnsimple-support-widget-white);
@@ -12,11 +12,11 @@
       top: 0;
       right: 0;
       line-height: 1;
-      padding: calc(var(--dnsimple-support-widget-padding) * 2) calc(var(--dnsimple-support-widget-padding) / 1.25);
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.5) calc(var(--dnsimple-support-widget-padding) * 1.2);
 
       svg {
-        width: calc(var(--dnsimple-support-widget-rem) * 1.25);
-        height: calc(var(--dnsimple-support-widget-rem) * 1.25);
+        width: calc(var(--dnsimple-support-widget-rem) * 1.5);
+        height: calc(var(--dnsimple-support-widget-rem) * 1.5);
         color: var(--dnsimple-support-widget-white);
         opacity: 0.5;
       }
@@ -30,10 +30,9 @@
 
     input {
         outline: none;
-        padding: 10px;
-        width: calc(100% - var(--dnsimple-support-widget-padding) * 4);
+        padding: calc(var(--dnsimple-support-widget-padding) / 2);
+        width: calc(100% - var(--dnsimple-support-widget-padding) * 6);
         border: 0;
-        border-bottom: 1px solid #eee;
         background: var(--dnsimple-support-widget-white);
         border-radius: 4px;
     }
@@ -52,14 +51,13 @@
       position: absolute;
       top: 0;
       left: 0;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.6) calc(var(--dnsimple-support-widget-padding) / 2);
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.25) calc(var(--dnsimple-support-widget-padding));
       line-height: 1;
 
       svg {
-        width: calc(var(--dnsimple-support-widget-rem) * 1.75);
-        height: calc(var(--dnsimple-support-widget-rem) * 1.75);
+        width: calc(var(--dnsimple-support-widget-rem) * 2);
+        height: calc(var(--dnsimple-support-widget-rem) * 2);
         color: var(--dnsimple-support-widget-white);
-        opacity: 0.5;
       }
 
       &:hover {

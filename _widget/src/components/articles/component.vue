@@ -1,5 +1,7 @@
 <template>
   <div class="route with-footer">
+    <span v-html="trustyIcon" class="back" />
+
     <div v-if="app.isLoading" class="loading">
       <div v-html="spinnerIcon"></div>
     </div>
@@ -76,7 +78,7 @@
 
 <script>
 import Footer from '../footer/component.vue';
-import { spinnerIcon, externalLink } from '../../assets/svgs';
+import { spinnerIcon, externalLink, trustyIcon } from '../../assets/svgs';
 
 import "./style.scss";
 
@@ -91,6 +93,7 @@ export default {
     return {
       spinnerIcon,
       externalLink,
+      trustyIcon,
       selectedArticle: null,
     };
   },

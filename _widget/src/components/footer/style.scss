@@ -1,20 +1,19 @@
 #dnsimple-support {
   .footer {
-    margin-top: var(--dnsimple-support-widget-padding);
-    padding: calc(var(--dnsimple-support-widget-padding) * 2) var(--dnsimple-support-widget-padding);
-    border: 1px solid var(--dnsimple-support-widget-line-color);
-    border-radius: 4px;
+    margin-top: calc(var(--dnsimple-support-widget-padding) * 2);
+    padding: calc(var(--dnsimple-support-widget-padding) * 2);
+    background: var(--dnsimple-support-widget-light-gray);
+    border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
     .button {
       float: right;
-      color: #333;
+      color: #eee;
       display: inline-block;
-      background: #fff;
-      border-radius: 4px;
-      padding: 5px 10px;
+      background: var(--dnsimple-support-widget-blue);
+      border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+      padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
       margin-top: -6px;
       margin-bottom: -10px;
-      border: 1px solid var(--dnsimple-support-widget-line-color);
     }
   }
 }
