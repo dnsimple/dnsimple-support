@@ -1,5 +1,5 @@
 ---
-title: What Is WHOIS Privacy Service?
+title: What Is the WHOIS Privacy Service?
 excerpt: If you would like to keep your contact information private for a domain then you may sign up for the WHOIS privacy service.
 categories:
 - Whois Privacy
