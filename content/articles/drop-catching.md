@@ -1,5 +1,5 @@
 ---
-title: Can I use DNSimple for drop catching?
+title: Can I Use DNSimple for Drop Catching?
 excerpt: DNSimple's drop catching policy.
 categories:
 - DNSimple
