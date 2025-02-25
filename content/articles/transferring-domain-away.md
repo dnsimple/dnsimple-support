@@ -1,11 +1,11 @@
 ---
-title: Transferring a domain away from DNSimple
+title: Transferring a Domain Away from DNSimple
 excerpt: How to request a transfer code and transfer a domain from DNSimple to a different registrar.
 categories:
 - Domain Transfers
 ---
 
-# Transferring a domain away from DNSimple
+# Transferring a Domain Away from DNSimple
 
 ### Table of Contents {#toc}
 
