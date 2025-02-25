@@ -25,6 +25,7 @@
   --element1: hsl(var(--color),calc(var(--l) - 40%));
   --element2: #333;
   --element3: #fff;
+  --element4: var(--element1);
 
   // coral: hsl(2, 100%, 74%)
   @media (prefers-color-scheme: dark) {
@@ -42,5 +43,6 @@
     --element1: hsl(var(--color),calc(var(--l) + 80%));
     --element2: hsl(var(--color),calc(var(--l) + 50%));
     --element3: #fff;
+    --element4: #adbbff;
   }
 }
