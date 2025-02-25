@@ -1,11 +1,11 @@
 ---
-title: Troubleshooting Heroku shows different app error
+title: Troubleshooting Heroku Shows Different App Error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see a different application than the one you expected.
 categories:
 - Integrations
 ---
 
-# Troubleshooting Heroku shows different app error
+# Troubleshooting Heroku Shows Different App Error
 
 You pointed your domain to Heroku, but when you access your domain from the browser you see a different application than the one you expected.
 
