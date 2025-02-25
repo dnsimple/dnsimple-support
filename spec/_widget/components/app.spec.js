@@ -174,14 +174,14 @@ describe('App', () => {
 
     it('shows recently visited articles', async () => {
       expect(subject.find('h4').text()).toContain('Recently Visited');
-      expect(subject.find('h3 > a').text()).toContain(article.title);
+      expect(subject.find(`[aria-label="Visit ${article.title}"] > h6`).text()).toContain(article.title);
     });
 
     it('stores recently visited articles', async () => {
       const recentArticle = ARTICLES[1];
       await subject.find('input').setValue(recentArticle.title);
 
-      const articleLink = subject.find('h3 > a');
+      const articleLink = subject.find(`[aria-label="Visit ${recentArticle.title}"] > h6`);
       expect(articleLink.text()).toContain(recentArticle.title);
 
       await articleLink.trigger('click');
@@ -239,20 +239,20 @@ describe('App', () => {
       await nextTick();
 
       let selectedArticle = subject.get('.selected-article');
-      expect(selectedArticle.text()).toContain('First');
+      expect(selectedArticle.text()).toContain('First example');
 
       await subject.vm.handleKeydown(down);
       await nextTick();
 
       selectedArticle = subject.get('.selected-article');
-      expect(selectedArticle.text()).toContain('Second');
+      expect(selectedArticle.text()).toContain('Second example');
 
       const up = new KeyboardEvent("keydown", { key: "ArrowUp" });
       await subject.vm.handleKeydown(up);
       await nextTick();
 
       selectedArticle = subject.get('.selected-article');
-      expect(selectedArticle.text()).toContain('First');
+      expect(selectedArticle.text()).toContain('First example');
 
       const enter = new KeyboardEvent("keydown", { key: "Enter" });
       await subject.vm.handleKeydown(enter);
