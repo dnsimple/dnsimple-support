@@ -1,16 +1,4 @@
 #dnsimple-support-widget {
-  --color: 216, 86%;
-  --l: 78%;
-
-  --background: #fff;
-  --surface1: hsl(var(--color),calc(var(--l) - 40%));
-  --surface2: #eee;
-  --surface3: #ddd;
-  --surface4: hsl(var(--highlight-color),calc(var(--highlight-l) + 12%));
-  --element1: hsl(var(--color),calc(var(--l) - 40%));
-  --element2: #333;
-  --element3: #fff;
-
   --dnsimple-support-widget-medium-gray: #7e7e7e;
   --dnsimple-support-widget-yellow: #f8c939;
   --dnsimple-support-widget-orange: #ff7f2a;
@@ -22,14 +10,30 @@
   --dnsimple-support-widget-font-size-monospace: 13px;
   --dnsimple-support-widget-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   --dnsimple-support-widget-prompt-padding: calc(var(--dnsimple-support-widget-padding) / 2);
+
+  --color: 216, 86%;
+  --l: 78%;
+
   --highlight-color: 50, 100%;
   --highlight-l: 80%;
   --highlight: hsl(var(--highlight-color),var(--highlight-l));
+
+  --background: #fff;
+  --surface1: hsl(var(--color),calc(var(--l) - 40%));
+  --surface2: #eee;
+  --surface3: #ddd;
+  --surface4: hsl(var(--highlight-color),calc(var(--highlight-l) + 12%));
+  --element1: hsl(var(--color),calc(var(--l) - 40%));
+  --element2: #333;
+  --element3: #fff;
 
   // coral: hsl(2, 100%, 74%)
   @media (prefers-color-scheme: dark) {
     --color: 255, 21%;
     --l: 13%;
+
+    --highlight-color: 50, 40%;
+    --highlight-l: 20%;
 
     --background: hsl(var(--color),var(--l));
     --surface1: hsl(var(--color),calc(var(--l) + 5%));
@@ -39,7 +43,5 @@
     --element1: hsl(var(--color),calc(var(--l) + 80%));
     --element2: hsl(var(--color),calc(var(--l) + 50%));
     --element3: #fff;
-    --highlight-color: 50, 40%;
-    --highlight-l: 20%;
   }
 }
