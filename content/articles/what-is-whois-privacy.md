@@ -1,11 +1,11 @@
 ---
-title: What is WHOIS Privacy Service?
+title: What Is WHOIS Privacy Service?
 excerpt: If you would like to keep your contact information private for a domain then you may sign up for the WHOIS privacy service.
 categories:
 - Whois Privacy
 ---
 
-# What is the WHOIS Privacy Protection Service?
+# What Is the WHOIS Privacy Protection Service?
 
 Most domain names registered through DNSimple, or any other domain registrar for that matter, require the collection of essential contact information, such as the registrant's name, email address, mailing address, phone number, etc. This information is used in case a dispute arises about the domain name.
 
