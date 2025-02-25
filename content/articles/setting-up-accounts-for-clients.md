@@ -1,11 +1,11 @@
 ---
-title: Creating accounts for clients
+title: Creating Accounts for Clients
 excerpt: How to create and manage multiple accounts for clients.
 categories:
 - Account
 ---
 
-# Creating accounts for clients
+# Creating Accounts for Clients
 
 ### Table of Contents {#toc}
 
