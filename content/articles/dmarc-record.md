@@ -1,5 +1,5 @@
 ---
-title: What's a DMARC record?
+title: What Is a DMARC Record?
 excerpt: What a DMARC record is, and how DMARC records work.
 categories:
 - DNS
