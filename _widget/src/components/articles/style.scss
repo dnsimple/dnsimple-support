@@ -60,6 +60,9 @@
       a, .a-padding {
         display: block;
         padding: var(--dnsimple-support-widget-padding);
+        -webkit-transition: background-color 100ms linear;
+        -ms-transition: background-color 100ms linear;
+        transition: background-color 100ms linear;
       }
 
       &.selected-article a, a:hover {

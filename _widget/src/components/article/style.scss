@@ -143,6 +143,10 @@
       }
     }
 
+    iframe, img {
+      max-width: 100%;
+    }
+
     .aspect-ratio--16x9 {
       padding-bottom: 56.25%;
     }

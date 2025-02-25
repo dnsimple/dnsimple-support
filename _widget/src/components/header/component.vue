@@ -4,7 +4,7 @@
             <div v-html="minimizeIcon"></div>
         </a>
         <input
-                type="text"
+                type="search"
                 ref="input"
                 v-model="q"
                 placeholder='Try some keywords, like "alias" or "url redirect"'

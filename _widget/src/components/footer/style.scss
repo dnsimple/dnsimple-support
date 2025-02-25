@@ -1,23 +1,22 @@
 #dnsimple-support {
   .footer {
     margin-top: calc(var(--dnsimple-support-widget-padding) * 2);
-    margin-left: calc(var(--dnsimple-support-widget-padding) * -2);
-    margin-right: calc(var(--dnsimple-support-widget-padding) * -2);
+    margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
+    margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
     margin-bottom: calc(var(--dnsimple-support-widget-padding) * -2);
-
     padding: calc(var(--dnsimple-support-widget-padding) * 3);
     background: var(--surface2);
-    border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+    border-bottom-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+    border-bottom-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+    text-align: center;
 
     .button {
-      float: right;
-      color: var(--element3);
+      color: var(--background);
       display: inline-block;
       background: var(--element1);
       border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
       padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
-      margin-top: -6px;
-      margin-bottom: -10px;
+      margin-left: calc(var(--dnsimple-support-widget-padding) * 2);
     }
   }
 }
