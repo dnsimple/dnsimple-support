@@ -1,11 +1,11 @@
 ---
-title: What happens if I stop paying for my DNSimple subscription?
+title: What Happens if I Stop Paying for My DNSimple Subscription?
 excerpt: Description of what happens if an account is unsubscribed.
 categories:
 - Account
 ---
 
-# What happens if I stop paying for my DNSimple subscription?
+# What Happens if I Stop Paying for My DNSimple Subscription?
 
 An account is cancelled if payment cannot be collected after a certain period of time. What happens in this case depends on the current configuration of your delegation.
 
