@@ -1,11 +1,11 @@
 ---
-title: SRV records in templates
+title: SRV Records in Templates
 excerpt: How to configure templates with SRV records
 categories:
 - Templates
 ---
 
-# SRV records in Templates
+# SRV Records in Templates
 
 DNS templates do not display all the fields necessary for configuring SRV records. However this is possible by combining the data within the name and content fields.
 
