@@ -346,6 +346,10 @@ export default {
 
           $body.openSelectedArticle();
         });
+      } else if (event.key === "ArrowLeft" && this.currentRoute[0] === 'Article') {
+        event.preventDefault();
+
+        nextTick(() => this.back());
       }
     }
   }

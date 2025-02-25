@@ -257,8 +257,13 @@ describe('App', () => {
       const enter = new KeyboardEvent("keydown", { key: "Enter" });
       await subject.vm.handleKeydown(enter);
       await nextTick();
-
       expect(subject.text()).toContain(articles[0].body);
+
+      const back = new KeyboardEvent("keydown", { key: "ArrowLeft" });
+      await subject.vm.handleKeydown(back);
+      await nextTick();
+      expect(subject.text()).toContain('First example');
+      expect(subject.text()).toContain('Second example');
     });
   });
 
