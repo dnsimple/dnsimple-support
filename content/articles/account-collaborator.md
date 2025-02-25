@@ -1,5 +1,5 @@
 ---
-title: Differences between Account Collaborator and Multi-User Accounts
+title: Differences Between Account Collaborator and Multi-User Accounts
 excerpt: The differences between an Account Collaborator and Multi-User Accounts.
 categories:
 - Account
