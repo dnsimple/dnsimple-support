@@ -1,6 +1,6 @@
 ---
-title: Managing seats
-excerpt: Managing Seats and Members in Your Team Account.
+title: Managing Seats
+excerpt: Managing seats and members in your team account.
 categories:
 - Account
 ---
