@@ -1,11 +1,11 @@
 ---
-title: Delegating a Domain registered with DNSimple to DNSimple
+title: Delegating a Domain Registered with DNSimple to DNSimple
 excerpt: How to delegate a domain registered with DNSimple to DNSimple's name servers.
 categories:
 - Name Servers
 ---
 
-# Delegating a Domain registered with DNSimple to DNSimple
+# Delegating a Domain Registered with DNSimple to DNSimple
 
 Switching the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
