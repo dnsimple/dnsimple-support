@@ -2,7 +2,7 @@
   .articles {
     margin-top: calc(var(--dnsimple-support-widget-padding) * -1);
     position: relative;
-    min-height: 50vh;
+    min-height: 55vh;
 
     h3 {
       color: var(--element1);
@@ -29,16 +29,14 @@
     }
 
     h5 {
-      font-weight: bold;
       position: sticky;
       text-transform: uppercase;
       top: calc(var(--dnsimple-support-widget-padding) + 5px);
-      background: var(--background2);
+      background: var(--surface3);
       padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
       margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
       margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
       color: var(--element2);
-      // border-bottom: 2px solid var(--surface2);
       font-size: 0.8rem;
     }
 
@@ -57,15 +55,15 @@
     li {
       margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
       margin-right: calc(var(--dnsimple-support-widget-padding) * -1);
-      border-bottom: 1px solid var(--surface2);
+      border-bottom: 1px solid var(--surface3);
 
       a, .a-padding {
         display: block;
         padding: var(--dnsimple-support-widget-padding);
       }
 
-      &.selected-article a {
-        background-color: var(--surface2);
+      &.selected-article a, a:hover {
+        background-color: var(--surface4);
       }
     }
   }

@@ -7,7 +7,7 @@
     border-top-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
     .minimize {
-      color: var(--dnsimple-support-widget-white);
+      color: var(--element3);
       position: absolute;
       top: 0;
       right: 0;
@@ -17,7 +17,7 @@
       svg {
         width: calc(var(--dnsimple-support-widget-rem) * 1.5);
         height: calc(var(--dnsimple-support-widget-rem) * 1.5);
-        color: var(--dnsimple-support-widget-white);
+        color: var(--element3);
         opacity: 0.5;
       }
 
@@ -62,7 +62,7 @@
       svg {
         width: calc(var(--dnsimple-support-widget-rem) * 2);
         height: calc(var(--dnsimple-support-widget-rem) * 2);
-        color: var(--dnsimple-support-widget-white);
+        color: var(--element3);
       }
 
       &:hover {
