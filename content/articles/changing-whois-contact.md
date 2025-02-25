@@ -1,11 +1,11 @@
 ---
-title: Changing WHOIS information
+title: Changing WHOIS Information
 excerpt: How to change the contact information displayed in the WHOIS for a domain.
 categories:
 - Domains
 ---
 
-# Changing WHOIS information
+# Changing WHOIS Information
 
 ### Table of Contents {#toc}
 
