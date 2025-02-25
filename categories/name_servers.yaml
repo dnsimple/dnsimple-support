@@ -1,13 +1,13 @@
 Getting started:
-- "What is a name server?"
+- "What Is a Name Server?"
 - "DNSimple Name Servers"
 - "Name Server Sets"
 - "Vanity Name Servers"
 
 Setting Delegation:
 - "Pointing a Domain to DNSimple"
-- "Delegating a Domain registered with another Registrar to DNSimple"
-- "Delegating a Domain registered with DNSimple to DNSimple"
+- "Delegating a Domain Registered with Another Registrar to DNSimple"
+- "Delegating a Domain Registered with DNSimple to DNSimple"
 
 Configuring name servers:
 - "Adding NS Records for a Subdomain"
