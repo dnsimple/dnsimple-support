@@ -1,11 +1,11 @@
 ---
-title: Troubleshooting Heroku "No such app" error
+title: Troubleshooting Heroku "No such app" Error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see the error page No such app.
 categories:
 - Integrations
 ---
 
-# Troubleshooting Heroku "No such app" error
+# Troubleshooting Heroku "No such app" Error
 
 You pointed your domain to Heroku, but when you access your domain you see the error page `No such app`.
 
