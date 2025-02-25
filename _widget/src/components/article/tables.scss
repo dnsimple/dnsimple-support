@@ -9,7 +9,6 @@
             border-radius: 3px;
 
             table {
-                background: var(--dnsimple-support-widget-white);
                 width: 100%;
                 border-collapse: collapse;
 
@@ -18,13 +17,13 @@
                 }
 
                 th {
-                    border-bottom: 2px solid var(--dnsimple-support-widget-yellow);
+                    border-bottom: 2px solid var(--highlight);
                     font-weight: bold;
-                    background: var(--dnsimple-support-widget-white);
+                    background: var(--surface1);
                 }
 
                 tr:nth-child(2n + 1) {
-                    background-color: #f1f1f1;
+                    background: var(--surface2);
                 }
             }
         }

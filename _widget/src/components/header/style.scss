@@ -1,8 +1,8 @@
 #dnsimple-support {
   .header {
-    background: rgb(57, 50, 77);
+    background: var(--surface1);
     text-align: center;
-    padding: calc(var(--dnsimple-support-widget-padding) * 1.2);
+    padding: calc(var(--dnsimple-support-widget-padding) * 1.5);
     border-top-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
     border-top-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
@@ -12,7 +12,7 @@
       top: 0;
       right: 0;
       line-height: 1;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.7) calc(var(--dnsimple-support-widget-padding) * 1.2);
+      padding: calc(var(--dnsimple-support-widget-padding) * 2) calc(var(--dnsimple-support-widget-padding) * 1.2);
 
       svg {
         width: calc(var(--dnsimple-support-widget-rem) * 1.5);
@@ -30,17 +30,22 @@
 
     input {
         outline: none;
-        padding: calc(var(--dnsimple-support-widget-padding) / 2);
+        padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
         width: calc(100% - var(--dnsimple-support-widget-padding) * 6);
         border: 0;
-        background: var(--dnsimple-support-widget-white);
+        background: var(--background);
+        color: var(--element1);
         border-radius: 4px;
+
+        &::placeholder {
+          color: var(--element2);
+        }
     }
   }
 
   .route {
     & > .external-link {
-      color: var(--dnsimple-support-widget-medium-gray);
+      color: var(--element2);
       display: block;
       width: 1.3rem;
       height: 1.3rem;
@@ -51,7 +56,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.4) calc(var(--dnsimple-support-widget-padding));
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.75) calc(var(--dnsimple-support-widget-padding));
       line-height: 1;
 
       svg {

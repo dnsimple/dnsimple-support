@@ -1,18 +1,39 @@
-#dnsimple-support {
-  --dnsimple-support-widget-blue: #1A5EC6;
-  --dnsimple-support-widget-dark-gray: #333;
+#dnsimple-support-widget {
+  --color: 216, 86%;
+  --l: 78%;
+
+  --background: #fff;
+  --background2: #ddd;
+  --surface1: hsl(var(--color),calc(var(--l) - 40%));
+  --surface2: #eee;
+  --element1: hsl(var(--color),calc(var(--l) - 40%));
+  --element2: #333;
+
   --dnsimple-support-widget-medium-gray: #7e7e7e;
-  --dnsimple-support-widget-light-gray: #eaeaea;
   --dnsimple-support-widget-yellow: #f8c939;
   --dnsimple-support-widget-orange: #ff7f2a;
   --dnsimple-support-widget-green: #43a047;
   --dnsimple-support-widget-white: #fff;
   --dnsimple-support-widget-rem: 16px;
   --dnsimple-support-widget-padding: 15px;
-  --dnsimple-support-widget-line-color: #ddd;
   --dnsimple-support-widget-desktop-only: "max-width: 640px";
   --dnsimple-support-widget-font-monospace: Menlo,Monaco,Consolas,"Courier New",monospace;
   --dnsimple-support-widget-font-size-monospace: 13px;
   --dnsimple-support-widget-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  --dnsimple-support-widget-prompt-padding: 7px;
+  --dnsimple-support-widget-prompt-padding: calc(var(--dnsimple-support-widget-padding) / 2);
+  --highlight: #fff3b6;
+
+  // coral: hsl(2, 100%, 74%)
+  @media (prefers-color-scheme: dark) {
+    --color: 255, 21%;
+    --l: 13%;
+
+    --background: hsl(var(--color),var(--l));
+    --background2: hsl(var(--color),calc(var(--l) + 5%));
+    --surface1: var(--background2);
+    --surface2: hsl(var(--color),calc(var(--l) + 10%));
+    --element1: hsl(var(--color),calc(var(--l) + 80%));
+    --element2: hsl(var(--color),calc(var(--l) + 50%));
+    --highlight: #7f6c38;
+  }
 }

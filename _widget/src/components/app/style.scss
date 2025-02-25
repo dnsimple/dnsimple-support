@@ -7,7 +7,7 @@
   font-size: var(--dnsimple-support-widget-rem);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
-  color: #222;
+  color: var(--element2);
 }
 
 #dnsimple-support {
@@ -46,7 +46,7 @@
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       padding: var(--dnsimple-support-widget-padding);
-      background: var(--dnsimple-support-widget-white);
+      background: var(--background);
       border-bottom-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
       border-bottom-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
       height: 75vh;
