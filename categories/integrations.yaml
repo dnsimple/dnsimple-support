@@ -16,9 +16,9 @@ Let's Encrypt:
 Heroku:
 - "Pointing the Domain Apex to Heroku"
 - "Heroku Connector"
-- "Troubleshooting Heroku shows different app error"
-- "Troubleshooting Heroku \"No such app\" error"
-- "Troubleshooting Heroku SSL errors"
+- "Troubleshooting Heroku Shows Different App Error"
+- "Troubleshooting Heroku \"No such app\" Error"
+- "Troubleshooting Heroku SSL Errors"
 - "Redirecting www to Non-www Domain at Heroku"
 - "SSL Certificates with Heroku"
 
