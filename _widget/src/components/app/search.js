@@ -117,9 +117,10 @@ const LOWER_MIN_SCORE = 1;
 const WHITESPACE = /\s+/;
 
 class Search {
-  constructor(dictionary = DICTIONARY) {
+  constructor(dictionary = DICTIONARY, currentSiteUrl = '') {
     this.articles = [];
-    this.dictionary = DICTIONARY;
+    this.dictionary = dictionary;
+    this.currentSiteUrl = currentSiteUrl;
   }
 
   addArticles(articles, sourceUrl) {
