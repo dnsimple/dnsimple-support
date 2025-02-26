@@ -1,11 +1,11 @@
 ---
-title: Add DNSimple as a secondary DNS server
+title: Add DNSimple as a Secondary DNS Server
 excerpt: Learn how to configure DNSimple as a secondary DNS provider.
 categories:
 - Secondary DNS
 ---
 
-# Add DNSimple as a secondary DNS server
+# Add DNSimple as a Secondary DNS Server
 
 For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
 
