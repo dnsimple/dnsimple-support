@@ -1,5 +1,5 @@
 ---
-title: SSL Certificate email-based Domain Validation
+title: SSL Certificate Email-Based Domain Validation
 excerpt: The email-based domain validation is the most common domain ownership validation method for a certificate and it is required for domain-validated certificates.
 categories:
 - SSL Certificates
@@ -10,7 +10,7 @@ redirect_from:
   - /articles/changing-ssl-certificates-email/
 ---
 
-# SSL Certificate email-based Domain Validation
+# SSL Certificate Email-Based Domain Validation
 
 ### Table of Contents {#toc}
 
