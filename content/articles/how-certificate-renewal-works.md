@@ -1,11 +1,11 @@
 ---
-title: How does an SSL Certificate Renewal work?
+title: How Does an SSL Certificate Renewal Work?
 excerpt: DNSimple provides a certificate renewal interface that will drastically reduce the amount of time required to purchase a new certificate.
 categories:
 - SSL Certificates
 ---
 
-# How does an SSL Certificate Renewal work?
+# How Does an SSL Certificate Renewal Work?
 
 The SSL certificate lifecycle is different than a domain. Once an SSL certificate is requested and issued, there is no formal way to extend the expiration of the existing certificate.
 
