@@ -1,11 +1,11 @@
 ---
-title: What is a Certificate Authority?
+title: What Is a Certificate Authority?
 excerpt: A certificate authority is a trusted entity that issues digital certificates.
 categories:
 - SSL Certificates
 ---
 
-# What is a Certificate Authority?
+# What Is a Certificate Authority?
 
 A **Certificate Authority (CA)** (or **Certification Authority**) is an entity that issues digital certificates.
 
