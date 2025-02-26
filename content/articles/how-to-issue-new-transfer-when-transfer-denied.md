@@ -1,5 +1,5 @@
 ---
-title: How can I Issue a New Transfer Order When a Transfer Is Denied?
+title: How Can I Issue a New Transfer Order When a Transfer Is Denied?
 excerpt: How to proceed in case a domain transfer was denied.
 categories:
   - Domain Transfers
@@ -7,7 +7,7 @@ redirect_from:
   - /articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/
 ---
 
-# How can I Issue a New Transfer Order When a Transfer Is Denied?
+# How Can I Issue a New Transfer Order When a Transfer Is Denied?
 
 If you receive a message from your current registrar that a domain transfer was denied it is likely for one of the following reasons:
 
