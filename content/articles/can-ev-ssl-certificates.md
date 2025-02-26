@@ -1,11 +1,11 @@
 ---
-title: Do you support Extended Validation (EV) SSL certificates?
+title: Do You Support Extended Validation (EV) SSL Certificates?
 excerpt: Information about Extended Validation (EV) SSL certificate support at DNSimple.
 categories:
 - SSL Certificates
 ---
 
-# Do you support Extended Validation (EV) SSL certificates?
+# Do You Support Extended Validation (EV) SSL Certificates?
 
 You **cannot purchase EV certificates** through DNSimple. We will not be adding this certificate for purchase, because it cannot be fully automated.
 
