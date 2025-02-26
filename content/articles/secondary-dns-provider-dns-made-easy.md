@@ -1,11 +1,11 @@
 ---
-title: Add DNSMadeEasy as a secondary DNS server
+title: Add DNSMadeEasy as a Secondary DNS Server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for DNSMadeEasy.
 categories:
 - Secondary DNS
 ---
 
-# Add DNSMadeEasy as a secondary DNS server
+# Add DNSMadeEasy as a Secondary DNS Server
 
 For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns).
 
