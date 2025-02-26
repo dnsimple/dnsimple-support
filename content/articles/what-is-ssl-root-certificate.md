@@ -1,11 +1,11 @@
 ---
-title: What is a Root Certificate?
+title: What Is a Root Certificate?
 excerpt: A Root SSL certificate is a certificate issued by a trusted certificate authority.
 categories:
 - SSL Certificates
 ---
 
-# What is a Root SSL Certificate?
+# What Is a Root SSL Certificate?
 
 A **Root SSL certificate** is a certificate issued by a **trusted [certificate authority (CA)](/articles/what-is-certificate-authority)**.
 
