@@ -1,11 +1,11 @@
 ---
-title: Add a secondary DNS server to DNSimple
+title: Add a Secondary DNS Server to DNSimple
 excerpt: This page provides information about secondary DNS configuration with DNSimple.
 categories:
 - Secondary DNS
 ---
 
-# Add a secondary DNS server to DNSimple
+# Add a Secondary DNS Server to DNSimple
 
 ### Table of Contents {#toc}
 
