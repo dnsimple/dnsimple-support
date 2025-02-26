@@ -1,6 +1,7 @@
 #dnsimple-support {
   .article {
     position: relative;
+    min-height: calc(75vh - (var(--dnsimple-support-widget-padding) * 8.7));
 
     h1, h2, h3, h4, h5, h6, p, ul, ol, .table-wrapper, pre, warning, note, tip, info, .marker {
       margin-bottom: var(--dnsimple-support-widget-padding);
