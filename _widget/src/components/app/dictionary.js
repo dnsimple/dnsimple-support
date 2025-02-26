@@ -28,4 +28,5 @@ export default {
   "expiry": "expiration",
   "comment": "note",
   "axfr": "secondary dns",
+  "validation": "icann validation"
 };
