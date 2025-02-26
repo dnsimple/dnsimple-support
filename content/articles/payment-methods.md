@@ -31,6 +31,18 @@ Only available for Enterprise clients.
 
 Enterprise plans are also required to have a credit or debit card on file as a backup payment method. If the account credit runs out, the card on file will be charged.
 
+## Digital wallet
+
+<info>
+Only available for Enterprise clients.
+</info>
+
+Our [Enterprise plan](https://dnsimple.com/sales) customers can replenish a digital wallet for use on future purchases. We support ACH, wire transfer, and card payments to add funds to your digital wallet.  You’ll receive email notifications when you add funds to your digital wallet and when your funds are low.
+
+<info>
+Automatic wallet replenishment is not yet available. Adding funds to your wallet is done manually.
+</info>
+
 ## Have more questions?
 
 If you have any questions about our payment methods, [contact support](/articles/dnsimple-support/) and we'll be happy to help.
