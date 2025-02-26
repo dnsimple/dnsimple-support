@@ -135,12 +135,8 @@ export default {
         this.selectedArticle.id === article.id;
     },
 
-    selectFirstArticle() {
-      const articles = this.app.showRecentlyVisitedArticles
-        ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
-
-      this.selectedArticle = articles[0];
+    selectNoArticle() {
+      this.selectedArticle = null;
     },
 
     selectNextArticle () {

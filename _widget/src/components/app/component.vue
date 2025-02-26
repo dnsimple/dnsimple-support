@@ -93,8 +93,8 @@ export default {
     q () {
       this.chooseRoute();
 
-      if (typeof this.$refs.body?.selectFirstArticle === 'function') {
-        this.$refs.body.selectFirstArticle();
+      if (typeof this.$refs.body?.selectNoArticle === 'function') {
+        this.$refs.body.selectNoArticle();
         this.scrollToSelectedItem();
       }
     }
