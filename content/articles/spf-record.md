@@ -1,5 +1,5 @@
 ---
-title: What's an SPF Record?
+title: What Is an SPF Record?
 excerpt: What an SPF record is, and how the SPF record works.
 categories:
 - DNS
