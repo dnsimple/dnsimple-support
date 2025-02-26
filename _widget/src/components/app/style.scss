@@ -7,7 +7,7 @@
   font-size: var(--dnsimple-support-widget-rem);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
-  color: #222;
+  color: var(--element2);
 }
 
 #dnsimple-support {
@@ -24,6 +24,7 @@
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        border-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
     }
 
     .overlay {
@@ -33,22 +34,21 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0, 0, 0, 0.5);
+        background: var(--overlay);
     }
 
     .relative {
       position: relative;
-      box-shadow: var(--dnsimple-support-widget-box-shadow);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
     .route {
-      border: 1px solid var(--dnsimple-support-widget-line-color);
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       padding: var(--dnsimple-support-widget-padding);
-      background: var(--dnsimple-support-widget-white);
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
+      background: var(--background);
+      border-bottom-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+      border-bottom-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
       height: 75vh;
     }
 }

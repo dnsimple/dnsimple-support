@@ -1,5 +1,7 @@
 <template>
   <div class="route with-footer">
+    <span v-html="trustyIcon" class="back" />
+
     <div v-if="app.isLoading" class="loading">
       <div v-html="spinnerIcon"></div>
     </div>
@@ -7,23 +9,19 @@
     <div v-else-if="app.showRecentlyVisitedArticles" class="articles">
       <h4>Recently Visited</h4>
       <ul>
-        <li v-for="article in app.recentlyVisitedArticles" :key="article.id">
-          <div :class="{ 'selected-article': isSelectedArticle(article) }">
-            <h3>
-              <a
-                :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-                @click="app.visitArticle(app.getArticleUrl(article), $event)"
-                v-html="highlight(article.title, highlighter)"
-                :href="app.getArticleUrl(article)"
-                :aria-label="`Visit ${article.title}`"
-              ></a>
-            </h3>
-
+        <li v-for="article in app.recentlyVisitedArticles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
+          <a
+            :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+            @click="app.visitArticle(app.getArticleUrl(article), $event)"
+            :href="app.getArticleUrl(article)"
+            :aria-label="`Visit ${article.title}`"
+          >
+            <h6 v-html="highlight(article.title, highlighter)"></h6>
             <p
               v-html="highlight(article.excerpt, highlighter)"
               class="excerpt"
             ></p>
-          </div>
+          </a>
         </li>
       </ul>
     </div>
@@ -34,49 +32,43 @@
           {{ app.getSourceName(sourceUrl) }}
           <a :href="sourceUrl" v-html="externalLink" target="_blank" class="external-link"></a>
         </h4>
-        <ul>
-          <div v-for="(articles, category) in articlesByCategory" :key="`${category}-articles`">
-            <h3 v-if="category !== 'undefined'" class="category">{{ category }}</h3>
-            <li v-for="article in articles" :key="article.id">
-              <div :class="{ 'selected-article': isSelectedArticle(article) }">
-                <h3>
-                  <a
-                    :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-                    @click="app.visitArticle(app.getArticleUrl(article), $event)"
-                    v-html="highlight(article.title, highlighter)"
-                    :href="app.getArticleUrl(article)"
-                    :aria-label="`Visit ${article.title}`"
-                  ></a>
-                </h3>
 
+        <div v-for="(articles, category) in articlesByCategory" :key="`${category}-articles`">
+          <h5 v-if="category !== 'undefined'" class="category">{{ category }}</h5>
+
+          <ul>
+            <li v-for="article in articles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
+              <a
+                :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+                @click="app.visitArticle(app.getArticleUrl(article), $event)"
+                :href="app.getArticleUrl(article)"
+                :aria-label="`Visit ${article.title}`"
+              >
+                <h6 v-html="highlight(article.title, highlighter)"></h6>
                 <p
                   v-html="highlight(article.excerpt, highlighter)"
                   class="excerpt"
                 ></p>
-              </div>
+              </a>
             </li>
-          </div>
-
-          <li v-if="!app.filteredArticles.length" class="pb0">
-            <p>We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
-          </li>
-        </ul>
+          </ul>
+        </div>
       </div>
 
       <ul v-if="!app.filteredArticles.length">
         <li class="pb0">
-          <p>We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
+          <p class="a-padding">We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
         </li>
       </ul>
-
-      <Footer :app="app" />
     </div>
+
+    <Footer :app="app" />
   </div>
 </template>
 
 <script>
 import Footer from '../footer/component.vue';
-import { spinnerIcon, externalLink } from '../../assets/svgs';
+import { spinnerIcon, externalLink, trustyIcon } from '../../assets/svgs';
 
 import "./style.scss";
 
@@ -91,6 +83,7 @@ export default {
     return {
       spinnerIcon,
       externalLink,
+      trustyIcon,
       selectedArticle: null,
     };
   },
@@ -140,6 +133,14 @@ export default {
       return this.selectedArticle &&
         this.selectedArticle.sourceUrl === article.sourceUrl &&
         this.selectedArticle.id === article.id;
+    },
+
+    selectFirstArticle() {
+      const articles = this.app.showRecentlyVisitedArticles
+        ? this.app.recentlyVisitedArticles
+        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+
+      this.selectedArticle = articles[0];
     },
 
     selectNextArticle () {

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { backIcon, externalLink } from '../../assets/svgs';
+import { backIcon, externalLink, trustyIcon } from '../../assets/svgs';
 import Footer from '../footer/component.vue';
 
 import "./style.scss";
@@ -36,7 +36,8 @@ export default {
   data () {
     return {
       backIcon,
-      externalLink
+      externalLink,
+      trustyIcon
     };
   },
   watch: {

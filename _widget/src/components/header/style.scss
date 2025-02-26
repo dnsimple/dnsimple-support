@@ -1,23 +1,23 @@
 #dnsimple-support {
   .header {
-    background: var(--dnsimple-support-widget-dark-gray);
+    background: var(--surface1);
     text-align: center;
-    padding: var(--dnsimple-support-widget-padding);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    padding: calc(var(--dnsimple-support-widget-padding) * 1.5);
+    border-top-left-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
+    border-top-right-radius: calc(var(--dnsimple-support-widget-padding) / 1.5);
 
     .minimize {
-      color: var(--dnsimple-support-widget-white);
+      color: var(--element3);
       position: absolute;
       top: 0;
       right: 0;
       line-height: 1;
-      padding: calc(var(--dnsimple-support-widget-padding) * 2) calc(var(--dnsimple-support-widget-padding) / 1.25);
+      padding: calc(var(--dnsimple-support-widget-padding) * 2) calc(var(--dnsimple-support-widget-padding) * 1.2);
 
       svg {
-        width: calc(var(--dnsimple-support-widget-rem) * 1.25);
-        height: calc(var(--dnsimple-support-widget-rem) * 1.25);
-        color: var(--dnsimple-support-widget-white);
+        width: calc(var(--dnsimple-support-widget-rem) * 1.5);
+        height: calc(var(--dnsimple-support-widget-rem) * 1.5);
+        color: var(--element3);
         opacity: 0.5;
       }
 
@@ -30,18 +30,31 @@
 
     input {
         outline: none;
-        padding: 10px;
-        width: calc(100% - var(--dnsimple-support-widget-padding) * 4);
+        padding: calc(var(--dnsimple-support-widget-padding) / 2) var(--dnsimple-support-widget-padding);
+        width: calc(100% - var(--dnsimple-support-widget-padding) * 6);
         border: 0;
-        border-bottom: 1px solid #eee;
-        background: var(--dnsimple-support-widget-white);
+        background: var(--background);
+        color: var(--element1);
         border-radius: 4px;
+
+        &::placeholder {
+          color: var(--element2);
+        }
+
+        &::-webkit-search-cancel-button {
+          -webkit-appearance: none;
+          -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+          background-color: var(--element2);
+          background-size: calc(var(--dnsimple-support-widget-padding) * 1.25) calc(var(--dnsimple-support-widget-padding) * 1.25);
+          height: calc(var(--dnsimple-support-widget-padding) * 1.25);
+          width: calc(var(--dnsimple-support-widget-padding) * 1.25);
+        }
     }
   }
 
   .route {
     & > .external-link {
-      color: var(--dnsimple-support-widget-medium-gray);
+      color: var(--element2);
       display: block;
       width: 1.3rem;
       height: 1.3rem;
@@ -52,14 +65,13 @@
       position: absolute;
       top: 0;
       left: 0;
-      padding: calc(var(--dnsimple-support-widget-padding) * 1.6) calc(var(--dnsimple-support-widget-padding) / 2);
+      padding: calc(var(--dnsimple-support-widget-padding) * 1.75) calc(var(--dnsimple-support-widget-padding));
       line-height: 1;
 
       svg {
-        width: calc(var(--dnsimple-support-widget-rem) * 1.75);
-        height: calc(var(--dnsimple-support-widget-rem) * 1.75);
-        color: var(--dnsimple-support-widget-white);
-        opacity: 0.5;
+        width: calc(var(--dnsimple-support-widget-rem) * 2);
+        height: calc(var(--dnsimple-support-widget-rem) * 2);
+        color: var(--element3);
       }
 
       &:hover {

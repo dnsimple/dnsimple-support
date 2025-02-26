@@ -92,6 +92,11 @@ export default {
   watch: {
     q () {
       this.chooseRoute();
+
+      if (typeof this.$refs.body?.selectFirstArticle === 'function') {
+        this.$refs.body.selectFirstArticle();
+        this.scrollToSelectedItem();
+      }
     }
   },
 
@@ -188,9 +193,10 @@ export default {
       return Promise
         .all(
           // We catch the errors here so that the show can go on
-          this.sources.map((s) => this.fetchArticles(s.url).catch(() => {}))
+          this.sources.map((s) => this.fetchArticles(s.url))
         )
-        .then(this.chooseRoute);
+        .catch(() => {})
+        .finally(this.chooseRoute);
     },
 
     chooseRoute() {
@@ -295,6 +301,13 @@ export default {
       localStorage.setItem(RECENTLY_VISITED_KEY, JSON.stringify(recentlyVisitedUrls));
     },
 
+    scrollToSelectedItem() {
+      nextTick(() => {
+        const selectedDiv = document.querySelector('.selected-article');
+        selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
+      });
+    },
+
     handleKeydown(event) {
       if ((event.metaKey || event.ctrlKey) && event.key === "k") {
         event.preventDefault();
@@ -312,10 +325,7 @@ export default {
 
           $body.selectNextArticle();
 
-          nextTick(() => {
-            const selectedDiv = document.querySelector('.selected-article');
-            selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
-          });
+          this.scrollToSelectedItem();
         });
       } else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles') {
         event.preventDefault();
@@ -326,10 +336,7 @@ export default {
 
           $body.selectPrevArticle();
 
-          nextTick(() => {
-            const selectedDiv = document.querySelector('.selected-article');
-            selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
-          });
+          this.scrollToSelectedItem();
         });
       } else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
         event.preventDefault();
@@ -340,6 +347,10 @@ export default {
 
           $body.openSelectedArticle();
         });
+      } else if (event.key === "ArrowLeft" && this.currentRoute[0] === 'Article') {
+        event.preventDefault();
+
+        nextTick(() => this.back());
       }
     }
   }
