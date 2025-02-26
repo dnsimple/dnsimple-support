@@ -1,11 +1,11 @@
 ---
-title: Why should I register my domain name with DNSimple?
+title: Why Should I Register My Domain Name with DNSimple?
 excerpt: We won't try to sell you a bunch of other services when you register your domain.
 categories:
 - DNSimple
 ---
 
-# Why should I register my domain name with DNSimple?
+# Why Should I Register My Domain Name with DNSimple?
 
 Domain registration with DNSimple is as easy as it gets. And there's no complicated pricing or convoluted contracts.
 
