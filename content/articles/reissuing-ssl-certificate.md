@@ -1,11 +1,11 @@
 ---
-title: Re-issuing an SSL Certificate
+title: Re-Issuing an SSL Certificate
 excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
 categories:
 - SSL Certificates
 ---
 
-# Re-issuing an SSL Certificate
+# Re-Issuing an SSL Certificate
 
 ### Table of Contents {#toc}
 
