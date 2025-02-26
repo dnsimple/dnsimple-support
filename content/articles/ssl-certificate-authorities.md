@@ -1,11 +1,11 @@
 ---
-title: SSL Certificate Authorities used by DNSimple
+title: SSL Certificate Authorities Used by DNSimple
 excerpt: The list of Certificate Authorities used by DNSimple to sign SSL certificates.
 categories:
 - SSL Certificates
 ---
 
-# Certificate Authorities used by DNSimple
+# Certificate Authorities Used by DNSimple
 
 We provide [SSL certificates](/articles/ssl-certificates) signed by different globally recognized [certificate authorities](/articles/what-is-certificate-authority):
 
