@@ -58,7 +58,9 @@
       display: block;
       width: 1.3rem;
       height: 1.3rem;
-      float: right;
+      position: absolute;
+      right: var(--dnsimple-support-widget-padding);
+      z-index: 999;
     }
 
     & > .back {
