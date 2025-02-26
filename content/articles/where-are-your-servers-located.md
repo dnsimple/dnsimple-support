@@ -1,11 +1,11 @@
 ---
-title: Where are your servers located?
+title: Where Are Your Servers Located?
 excerpt: Our Anycast network consists of <%= POPS.count %> points-of-presence around the world.
 categories:
 - DNSimple
 ---
 
-# Where are your servers located?
+# Where Are Your Servers Located?
 
 Our Anycast network consists of <%= POPS.count %> points-of-presence around the world:
 
