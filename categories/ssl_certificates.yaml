@@ -44,5 +44,5 @@ SSL Certificate features:
 - "Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?"
 - "Do You Support Extended Validation (EV) SSL Certificates?"
 - "Do You Support Multi-Year SSL Certificates?"
-- "Can I Upgrade a Single-Hostname SSL Certificate to a wildcard SSL Certificate?"
+- "Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?"
 - "SHA-2 SSL Certificates"
