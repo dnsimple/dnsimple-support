@@ -1,5 +1,5 @@
 ---
-title: DNSimple plans
+title: DNSimple Plans
 excerpt: Understand which plan fits you best
 categories:
 - DNSimple
