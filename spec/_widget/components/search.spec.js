@@ -183,6 +183,9 @@ describe('Search', () => {
         "Secondary DNS IP Address Changes": 5,
         "Integrated DNS Providers at DNSimple": 6,
         "Using DNSimple alongside other DNS providers": 7,
+      },
+      'domain validation': {
+        'ICANN Domain Validation Requirements': 1
       }
     };
 
