@@ -40,7 +40,7 @@ Only available for Enterprise clients.
 Our [Enterprise plan](https://dnsimple.com/sales) customers can replenish a digital wallet for use on future purchases. We support ACH, wire transfer, and card payments to add funds to your digital wallet. You'll receive email notifications when you add funds to your digital wallet and when your funds are low.
 
 <info>
-Automatic wallet replenishment is not yet available. Adding funds to your wallet is done manually.
+Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
 </info>
 
 ## Have more questions?
