@@ -1,11 +1,11 @@
 ---
-title: What's a URL Record?
+title: What Is a URL Record?
 excerpt: What a URL record is, and how to add a URL record in DNSimple.
 categories:
 - DNS
 ---
 
-# What's a URL Record?
+# URL Records
 
 ### Table of Contents {#toc}
 
