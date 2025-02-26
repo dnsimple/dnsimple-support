@@ -27,32 +27,28 @@
     </div>
 
     <div v-else class="articles">
-      <div v-for="(articlesByCategory, sourceUrl) in articlesBySourceAndCategory" :key="`${sourceUrl}-results`">
+      <div v-for="(articles, sourceUrl) in articlesBySource" :key="`${sourceUrl}-results`">
         <h4>
           {{ app.getSourceName(sourceUrl) }}
           <a :href="sourceUrl" v-html="externalLink" target="_blank" class="external-link"></a>
         </h4>
 
-        <div v-for="(articles, category) in articlesByCategory" :key="`${category}-articles`">
-          <h5 v-if="category !== 'undefined'" class="category">{{ category }}</h5>
-
-          <ul>
-            <li v-for="article in articles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
-              <a
-                :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-                @click="app.visitArticle(app.getArticleUrl(article), $event)"
-                :href="app.getArticleUrl(article)"
-                :aria-label="`Visit ${article.title}`"
-              >
-                <h6 v-html="highlight(article.title, highlighter)"></h6>
-                <p
-                  v-html="highlight(article.excerpt, highlighter)"
-                  class="excerpt"
-                ></p>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li v-for="article in articles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
+            <a
+              :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+              @click="app.visitArticle(app.getArticleUrl(article), $event)"
+              :href="app.getArticleUrl(article)"
+              :aria-label="`Visit ${article.title}`"
+            >
+              <h6 v-html="highlight(article.title, highlighter)"></h6>
+              <p
+                v-html="highlight(article.excerpt, highlighter)"
+                class="excerpt"
+              ></p>
+            </a>
+          </li>
+        </ul>
       </div>
 
       <ul v-if="!app.filteredArticles.length">
@@ -98,18 +94,14 @@ export default {
         'gi'
       );
     },
-    articlesBySourceAndCategory() {
+    articlesBySource () {
       const results = this.app.filteredArticles.reduce((result, article) => {
-        const { sourceUrl, categories } = article;
-        const category = categories?.[0];
+        const { sourceUrl } = article;
 
         if (!result[sourceUrl])
-          result[sourceUrl] = {};
+          result[sourceUrl] = [];
 
-        if (!result[sourceUrl][category])
-          result[sourceUrl][category] = [];
-
-        result[sourceUrl][category].push(article);
+        result[sourceUrl].push(article);
 
         return result;
       }, {});
@@ -138,7 +130,7 @@ export default {
     selectFirstArticle() {
       const articles = this.app.showRecentlyVisitedArticles
         ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+        : Object.values(this.articlesBySource).map(a => Object.values(a)).flat(2);
 
       this.selectedArticle = articles[0];
     },
@@ -146,7 +138,7 @@ export default {
     selectNextArticle () {
       const articles = this.app.showRecentlyVisitedArticles
         ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+        : Object.values(this.articlesBySource).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
@@ -159,7 +151,7 @@ export default {
     selectPrevArticle () {
       const articles = this.app.showRecentlyVisitedArticles
         ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+        : Object.values(this.articlesBySource).map(a => Object.values(a)).flat(2);
 
       if (!this.selectedArticle) return this.selectedArticle = articles[0];
 
