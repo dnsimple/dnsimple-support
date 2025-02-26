@@ -1,5 +1,5 @@
 ---
-title: What's a CNAME record?
+title: What Is a CNAME Record?
 excerpt: CNAME records can be used to alias one name to another.
 categories:
 - DNS
