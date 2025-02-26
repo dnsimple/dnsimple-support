@@ -1,11 +1,11 @@
 ---
-title: What is the SSL Certificate Chain?
+title: What Is the SSL Certificate Chain?
 excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
 categories:
 - SSL Certificates
 ---
 
-# What is the SSL Certificate Chain?
+# What Is the SSL Certificate Chain?
 
 There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been **issued by a CA that's included in the trusted store of the device that's connecting**.
 
