@@ -1,11 +1,11 @@
 ---
-title: I got an ECC-signed certificate but want RSA
+title: I Got an ECC-Signed Certificate but Want RSA
 excerpt: What to do when you need your SSL Certificate to be signed with an RSA key.
 categories:
 - SSL Certificates
 ---
 
-# I got an ECC-signed certificate but want RSA
+# I Got an ECC-Signed Certificate but Want RSA
 
 DNSimple provides SSL certificates using elliptic curve keys by default, but there are some situations or requirements where you still need to use an RSA key as the certificate signing key.
 
