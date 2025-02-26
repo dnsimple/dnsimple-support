@@ -1,11 +1,11 @@
 ---
-title: Can I Upgrade a Single-Hostname SSL Certificate to a wildcard SSL Certificate?
+title: Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?
 excerpt: Information about upgrading a single-hostname SSL certificate to a wildcard SSL certificate.
 categories:
 - SSL Certificates
 ---
 
-# Can I Upgrade a Single-Hostname SSL Certificate to a wildcard SSL Certificate?
+# Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?
 
 No. It's currently not possible to upgrade a single-hostname SSL certificate to a wildcard certificate, even if they are issued by the same Certificate Authority.
 
