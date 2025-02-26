@@ -63,7 +63,7 @@ export default {
     },
     search: {
       type: Object,
-      default() { return new Search(); }
+      default(props) { return new Search(undefined, props.currentSiteUrl); }
     },
     sources: {
       type: Array,

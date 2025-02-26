@@ -117,9 +117,10 @@ const LOWER_MIN_SCORE = 1;
 const WHITESPACE = /\s+/;
 
 class Search {
-  constructor(dictionary = DICTIONARY) {
+  constructor(dictionary = DICTIONARY, currentSiteUrl = '') {
     this.articles = [];
-    this.dictionary = DICTIONARY;
+    this.dictionary = dictionary;
+    this.currentSiteUrl = currentSiteUrl;
   }
 
   addArticles(articles, sourceUrl) {
@@ -163,8 +164,12 @@ class Search {
 
     if (results.filter((r) => r.score > GOOD_SCORE).length === 0)
       results = results.filter((r) => r.score > LOWER_MIN_SCORE);
-     else
+    else
       results = results.filter((r) => r.score > MIN_SCORE);
+
+    const sameSiteResults = results.filter((r) => r.article.sourceUrl === this.currentSiteUrl);
+    const otherSiteResults = results.filter((r) => r.article.sourceUrl !== this.currentSiteUrl);
+    results = sameSiteResults.concat(otherSiteResults);
 
     results = results
       .filter((r, index) => index < MAX_RESULTS)
