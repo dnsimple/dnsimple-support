@@ -1,11 +1,11 @@
 ---
-title: Wallet replenishment
+title: Wallet Replenishment
 excerpt: How to add funds to your digital wallet
 categories:
 - Account
 ---
 
-# Wallet replenishment
+# Wallet Replenishment
 
 ### Table of Contents {#toc}
 
