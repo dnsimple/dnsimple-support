@@ -1,11 +1,11 @@
 ---
-title: What Is a TLD?
+title: What is a TLD?
 excerpt: The term top-level domain, or TLD, refers to the first part of every domain name.
 categories:
 - Domains
 ---
 
-# What Is a TLD?
+# What is a TLD?
 
 The term top-level domain, or TLD, refers to the first part of every domain name. For example, in the domain name `dnsimple.com` the TLD is `COM`.
 
