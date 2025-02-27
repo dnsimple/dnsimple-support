@@ -40,10 +40,10 @@ Automatic wallet replenishments are not yet available. You need to manually add 
 1. The funds are immediately added to your digital wallet, and you will receive a corresponding invoice.
 
 ### Payments by card
-1. Your card on file will be charged. You cannot currently add an alternate card for wallet replenishments.
+Your card on file will be charged. You cannot currently add an alternate card for wallet replenishments.
 
 ### Payments by wire
-1. All wire payments must be paid 30 days after receiving the invoice. To discuss different payment terms, please contact your account manager.
+All wire payments must be paid 30 days after receiving the invoice. To discuss different payment terms, please contact your account manager.
 
 ## Replenishment budget
 You can configure a monthly limit for wallet replenishment. 
