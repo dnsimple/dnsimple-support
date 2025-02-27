@@ -2,7 +2,7 @@
   .articles {
     margin-top: calc(var(--dnsimple-support-widget-padding) * -1);
     position: relative;
-    min-height: 56vh;
+    min-height: calc(75vh - (var(--dnsimple-support-widget-padding) * 8.75) + 1px);
 
     h3 {
       color: var(--element1);

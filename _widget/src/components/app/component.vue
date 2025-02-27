@@ -28,7 +28,7 @@ import "./reset.scss";
 import "./style.scss";
 
 const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
-const RECENTLY_VISITED_LIMIT = 10;
+const RECENTLY_VISITED_LIMIT = 6;
 
 export default {
   components: {
@@ -93,8 +93,8 @@ export default {
     q () {
       this.chooseRoute();
 
-      if (typeof this.$refs.body?.selectFirstArticle === 'function') {
-        this.$refs.body.selectFirstArticle();
+      if (typeof this.$refs.body?.selectNoArticle === 'function') {
+        this.$refs.body.selectNoArticle();
         this.scrollToSelectedItem();
       }
     }
@@ -131,7 +131,7 @@ export default {
     },
 
     recentlyVisitedArticles () {
-      return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a);
+      return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a).slice(0, RECENTLY_VISITED_LIMIT);
     },
 
     showRecentlyVisitedArticles () {
