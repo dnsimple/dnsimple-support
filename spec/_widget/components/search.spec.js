@@ -87,7 +87,7 @@ describe('Search', () => {
         'Record Editor': 5,
       },
       'alias record': {
-        'What\'s an ALIAS record?': 1,
+        'What Is an ALIAS Record?': 1,
         'Record Editor': 5,
       },
       'request ssl certificate': {
