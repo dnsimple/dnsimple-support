@@ -83,7 +83,7 @@ describe('Search', () => {
         'Why DNSSEC and Secondary DNS may not work together': 3
       },
       'creating alias record': {
-        'What\'s an ALIAS record?': 1,
+        'What Is an ALIAS Record?': 1,
         'Record Editor': 5,
       },
       'alias record': {
