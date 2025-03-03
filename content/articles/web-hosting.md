@@ -24,7 +24,7 @@ Web hosts sometimes offer free DNS as part of their packages, but they are two c
 
 ## Why doesn't DNSimple provide web hosting services?
 
-We focus on offering the best domain management platform by enabling our customers to set up and [connect their domains to services] (https://dnsimple.com/benefits/integrations) that already exist, rather than trying to create our own top-to-bottom solution.
+We focus on offering the best domain management platform by enabling our customers to set up and [connect their domains to services](https://dnsimple.com/benefits/integrations) that already exist, rather than trying to create our own top-to-bottom solution.
 
 Technologies for creating websites require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few Megabytes of hard disk. This makes it more challenging to do both domain management and web hosting while maintaining the quality you expect from DNSimple.
 
