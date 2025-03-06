@@ -91,6 +91,7 @@ export default {
 
   watch: {
     q () {
+      this.initialQ = '';
       this.chooseRoute();
 
       if (typeof this.$refs.body?.selectNoArticle === 'function') {
@@ -135,7 +136,7 @@ export default {
     },
 
     showRecentlyVisitedArticles () {
-      return this.q.length === 0 && this.recentlyVisitedArticles?.length > 0;
+      return this.q.length === 0 && this.filteredArticles.length === 0 && this.recentlyVisitedArticles?.length > 0;
     }
   },
 
@@ -149,7 +150,7 @@ export default {
 
   methods: {
     visitArticle (url, event = null) {
-      const hasHash = url.indexOf('#') !== -1;
+      const hasHash = url.indexOf('#') === 0;
       const article = this.findArticle(url);
 
       if (hasHash) {
