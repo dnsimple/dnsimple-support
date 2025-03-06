@@ -72,7 +72,7 @@ describe('Search', () => {
   describe('queries', () => {
     const queries = {
       'what\'s a cname record': {
-        'What\'s a CNAME record?': 2
+        'What\'s a CNAME record?': 3
       },
       'a record': {
         'Managing A Records': 5,
@@ -117,9 +117,9 @@ describe('Search', () => {
         "Understanding Your DNSimple Invoice": 4
       },
       'hosting': {
-        "DNS Hosting": 3,
         "Web Hosting Support": 1,
-        "Email Hosting Support": 2,
+        "DNS Hosting": 2,
+        "Email Hosting Support": 3,
         "Why we don't offer web hosting services": 4
       },
       'add user': {
@@ -185,6 +185,68 @@ describe('Search', () => {
       },
       'domain validation': {
         'ICANN Domain Validation Requirements': 1
+      },
+      'password reset': {
+        'Forgot Password': 1
+      },
+      'password recovery': {
+        'Forgot Password': 1
+      },
+      'email not working': {
+        'What\'s an MX Record?': 4,
+        'Email Hosting Support': 3
+      },
+      'domain registration': {
+        'Registering a Domain': 1
+      },
+      'domain name search': {
+        'Can I use DNSimple for drop catching?': 3
+      },
+      'dns records': {
+        'Common DNS Records': 1,
+      },
+      '2fa': {
+        "Enforce Multi-Factor Authentication for All Members of an Account": 1,
+        "First Steps Guide to Setting Up Your Team": 2,
+        "Multi-Factor Authentication": 3,
+      },
+      'dns management': {
+        'Record Editor': 1,
+        'Common DNS Records': 2
+      },
+      'domain parking': {
+        'DNS Hosting': 3
+      },
+      'dns propagation': {
+        'Troubleshooting Domain Resolution Issues': 2,
+        'Using DNSimple alongside other DNS providers': 5
+      },
+      'dnsimple pricing': {
+        'DNSimple plans': 2,
+        'Domain Transfer Pricing': 3
+      },
+      'change nameservers': {
+        'Setting the Name Servers for a Domain': 3,
+        'What is a name server?': 5
+      },
+      'domain expiration': {
+        'What Happens When a Domain Expires?': 7
+      },
+      'ipv6 dns': {
+        'IPv6 Domain Resolution': 1,
+        'What\'s an AAAA record?': 2
+      },
+      'email settings': {
+        'Email Hosting Support': 3,
+        'Troubleshooting Email Forwarding with Gmail': 7,
+        'What\'s an MX Record?': 4
+      },
+      'domain owner': {
+        'Changing Domain Contacts': 2,
+        'WHOIS Privacy Protection': 1
+      },
+      'login': {
+        'Getting Started': 1
       }
     };
 
