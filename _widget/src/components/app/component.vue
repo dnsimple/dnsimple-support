@@ -150,10 +150,10 @@ export default {
 
   methods: {
     visitArticle (url, event = null) {
-      const hasHash = url.indexOf('#') === 0;
+      const isHash = url.indexOf('#') === 0;
       const article = this.findArticle(url);
 
-      if (hasHash) {
+      if (isHash) {
         event.preventDefault();
         document.getElementById(url.split('#')[1]).scrollIntoView();
         return;
