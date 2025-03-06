@@ -172,8 +172,11 @@ describe('App', () => {
       localStorage.clear();
     });
 
-    it('shows recently visited articles', async () => {
+    it('shows recently visited articles when there is nothing else to display', async () => {
+      await subject.find('input').setValue('search');
+      await subject.find('input').setValue('');
       expect(subject.find('h4').text()).toContain('Recently Visited');
+
       expect(subject.find(`[aria-label="Visit ${article.title}"] > h6`).text()).toContain(article.title);
     });
 
