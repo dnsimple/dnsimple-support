@@ -81,7 +81,7 @@ export default {
     return {
       app: this,
       currentRoute: ['Articles'],
-      initialQ: urlMatchingDictionary(window.location.href) || this.gettingStartedUrl,
+      initialQ: urlMatchingDictionary(window.location.pathname + window.location.hash) || this.gettingStartedUrl,
       q: '',
       isOpen: false,
       isFetched: {},
