@@ -6,27 +6,7 @@
       <div v-html="spinnerIcon"></div>
     </div>
 
-    <div v-else-if="app.showRecentlyVisitedArticles" class="articles">
-      <h4>Recently Visited</h4>
-      <ul>
-        <li v-for="article in app.recentlyVisitedArticles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
-          <a
-            :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
-            @click="app.visitArticle(app.getArticleUrl(article), $event)"
-            :href="app.getArticleUrl(article)"
-            :aria-label="`Visit ${article.title}`"
-          >
-            <h6 v-html="highlight(article.title, highlighter)"></h6>
-            <p
-              v-html="highlight(article.excerpt, highlighter)"
-              class="excerpt"
-            ></p>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div v-else class="articles">
+    <div v-else-if="app.filteredArticles.length" class="articles">
       <div v-for="(articlesByCategory, sourceUrl) in articlesBySourceAndCategory" :key="`${sourceUrl}-results`">
         <h4>
           {{ app.getSourceName(sourceUrl) }}
@@ -54,8 +34,30 @@
           </ul>
         </div>
       </div>
+    </div>
 
-      <ul v-if="!app.filteredArticles.length">
+    <div v-else-if="app.hasRecentlyVisitedArticles && app.q.length === 0" class="articles">
+      <h4>Recently Visited</h4>
+      <ul>
+        <li v-for="article in app.recentlyVisitedArticles" :key="article.id" :class="{ 'selected-article': isSelectedArticle(article) }">
+          <a
+            :ref="isSelectedArticle(article) ? 'selected' : 'notSelected'"
+            @click="app.visitArticle(app.getArticleUrl(article), $event)"
+            :href="app.getArticleUrl(article)"
+            :aria-label="`Visit ${article.title}`"
+          >
+            <h6 v-html="highlight(article.title, highlighter)"></h6>
+            <p
+              v-html="highlight(article.excerpt, highlighter)"
+              class="excerpt"
+            ></p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div v-else class="articles">
+      <ul>
         <li class="pb0">
           <p class="a-padding">We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
         </li>
@@ -139,30 +141,44 @@ export default {
       this.selectedArticle = null;
     },
 
+    selectFirstArticle() {
+      const firstArticleTag = [...this.$el.querySelectorAll('li > a')][0];
+
+      if (firstArticleTag) 
+        this.selectedArticle = this.app.findArticle(firstArticleTag.href);
+      
+    },
+
     selectNextArticle () {
-      const articles = this.app.showRecentlyVisitedArticles
-        ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      if (!this.selectedArticle) {
+        this.selectFirstArticle();
 
-      if (!this.selectedArticle) return this.selectedArticle = articles[0];
+        return;
+      }
 
-      const currentIndex = articles.findIndex(a => this.isSelectedArticle(a));
-      const nextArticle = articles[currentIndex + 1];
+      const articles = [...this.$el.querySelectorAll('li > a')];
+      const currentIndex = articles.findIndex(a => this.isSelectedArticle(this.app.findArticle(a.href)));
+      const nextArticleTag = articles[currentIndex + 1];
 
-      if (nextArticle) this.selectedArticle = nextArticle;
+      if (nextArticleTag) 
+        this.selectedArticle = this.app.findArticle(nextArticleTag.href);
+      
     },
 
     selectPrevArticle () {
-      const articles = this.app.showRecentlyVisitedArticles
-        ? this.app.recentlyVisitedArticles
-        : Object.values(this.articlesBySourceAndCategory).map(a => Object.values(a)).flat(2);
+      if (!this.selectedArticle) {
+        this.selectFirstArticle();
 
-      if (!this.selectedArticle) return this.selectedArticle = articles[0];
+        return;
+      }
 
-      const currentIndex = articles.findIndex(a => this.isSelectedArticle(a));
-      const prevArticle = articles[currentIndex - 1];
+      const articles = [...this.$el.querySelectorAll('li > a')];
+      const currentIndex = articles.findIndex(a => this.isSelectedArticle(this.app.findArticle(a.href)));
+      const prevArticleTag = articles[currentIndex - 1];
 
-      if (prevArticle) this.selectedArticle = prevArticle;
+      if (prevArticleTag) 
+        this.selectedArticle = this.app.findArticle(prevArticleTag.href);
+      
     },
 
     openSelectedArticle () {

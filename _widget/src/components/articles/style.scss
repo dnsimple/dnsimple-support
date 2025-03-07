@@ -52,6 +52,10 @@
       border-radius: 3px;
     }
 
+    strong {
+      color: var(--element1);
+    }
+
     li {
       margin-left: calc(var(--dnsimple-support-widget-padding) * -1);
       margin-right: calc(var(--dnsimple-support-widget-padding) * -1);

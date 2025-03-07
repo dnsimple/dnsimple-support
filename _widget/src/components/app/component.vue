@@ -135,8 +135,8 @@ export default {
       return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a).slice(0, RECENTLY_VISITED_LIMIT);
     },
 
-    showRecentlyVisitedArticles () {
-      return this.q.length === 0 && this.initialQ.length === 0 && this.recentlyVisitedArticles?.length > 0;
+    hasRecentlyVisitedArticles () {
+      return this.recentlyVisitedArticles?.length > 0;
     }
   },
 
@@ -203,14 +203,16 @@ export default {
     chooseRoute() {
       if (this.couldNotLoad)
         this._goToRoute('Article', this.errorArticle);
-      else if (this.showRecentlyVisitedArticles)
+      else if (this.filteredArticles.length === 1)
+        this._goToRoute('Article', this.filteredArticles[0]);
+      else if (this.filteredArticles.length > 1)
+        this._goToRoute('Articles');
+      else if (this.q.length > 0)
+        this._goToRoute('Articles');
+      else if (this.hasRecentlyVisitedArticles)
         this._goToRoute('Articles');
       else if (this.filteredArticles.length === 0 && this.q.length === 0)
         this._goToRoute('Article', this.gettingStarted);
-      else if (this.filteredArticles.length === 0 && this.q.length > 0)
-        this._goToRoute('Articles');
-      else if (this.filteredArticles.length === 1)
-        this._goToRoute('Article', this.filteredArticles[0]);
       else if (this.currentRoute[0] !== 'Articles')
         this._goToRoute('Articles');
     },
