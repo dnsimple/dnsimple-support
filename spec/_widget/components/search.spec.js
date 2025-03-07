@@ -22,6 +22,10 @@ describe('Search', () => {
     expect(subject.query('dns').length).toBeGreaterThan(0);
   });
 
+  it('returns no articles if there is no query', () => {
+    expect(subject.query('').length).toEqual(0);
+  });
+
   it('can find articles by category', () => {
     const results = subject.query('cat:dns');
 

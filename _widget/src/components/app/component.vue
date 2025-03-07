@@ -81,7 +81,7 @@ export default {
     return {
       app: this,
       currentRoute: ['Articles'],
-      initialQ: urlMatchingDictionary(window.location.href) || this.gettingStartedUrl,
+      initialQ: urlMatchingDictionary(window.location.pathname + window.location.hash) || this.gettingStartedUrl,
       q: '',
       isOpen: false,
       isFetched: {},
@@ -91,6 +91,7 @@ export default {
 
   watch: {
     q () {
+      this.initialQ = '';
       this.chooseRoute();
 
       if (typeof this.$refs.body?.selectNoArticle === 'function') {
@@ -134,8 +135,8 @@ export default {
       return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a).slice(0, RECENTLY_VISITED_LIMIT);
     },
 
-    showRecentlyVisitedArticles () {
-      return this.q.length === 0 && this.recentlyVisitedArticles?.length > 0;
+    hasRecentlyVisitedArticles () {
+      return this.recentlyVisitedArticles?.length > 0;
     }
   },
 
@@ -149,10 +150,10 @@ export default {
 
   methods: {
     visitArticle (url, event = null) {
-      const hasHash = url.indexOf('#') !== -1;
+      const isHash = url.indexOf('#') === 0;
       const article = this.findArticle(url);
 
-      if (hasHash) {
+      if (isHash) {
         event.preventDefault();
         document.getElementById(url.split('#')[1]).scrollIntoView();
         return;
@@ -202,16 +203,18 @@ export default {
     chooseRoute() {
       if (this.couldNotLoad)
         this._goToRoute('Article', this.errorArticle);
-      else if (this.q.length === 0 && this.recentlyVisitedArticles?.length > 0)
-        this._goToRoute('Articles', undefined);
-      else if (this.filteredArticles.length === 0 && this.q.length === 0)
-        this._goToRoute('Article', this.gettingStarted);
-      else if (this.filteredArticles.length === 0 && this.q.length > 0)
-        this._goToRoute('Articles', undefined);
       else if (this.filteredArticles.length === 1)
         this._goToRoute('Article', this.filteredArticles[0]);
+      else if (this.filteredArticles.length > 1)
+        this._goToRoute('Articles');
+      else if (this.q.length > 0)
+        this._goToRoute('Articles');
+      else if (this.hasRecentlyVisitedArticles)
+        this._goToRoute('Articles');
+      else if (this.filteredArticles.length === 0 && this.q.length === 0)
+        this._goToRoute('Article', this.gettingStarted);
       else if (this.currentRoute[0] !== 'Articles')
-        this._goToRoute('Articles', undefined);
+        this._goToRoute('Articles');
     },
 
     focus () {

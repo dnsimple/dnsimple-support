@@ -150,6 +150,9 @@ class Search {
 
     q = (q || '').toLowerCase().trim();
 
+    if (q.length === 0)
+      return [];
+
     if (q.slice(0, 4) === 'http')
       return findByUrl(q, this.articles);
 
