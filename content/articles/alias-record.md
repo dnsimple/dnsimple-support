@@ -1,5 +1,5 @@
 ---
-title: What's an ALIAS record?
+title: What Is an ALIAS Record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
 categories:
 - DNS
