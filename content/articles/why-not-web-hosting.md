@@ -7,7 +7,7 @@ redirect_from:
   - /articles/why-not-web-hosting/
 ---
 
-# Why we don't offer web hosting services
+# Why We Don't Offer Web Hosting Services
 
 Domain registrars typically offer domains bundled with a hosting solution as part of a basic package. This gives the user a few megabytes of disk space exposed by an HTTP server and accessible with a FTP client. The idea behind this is that the user can have their personal HTML static site bundled with the registrar's offerings. However, this can confuse people who don't deeply understand these technologies. 
 
