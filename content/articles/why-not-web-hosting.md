@@ -13,7 +13,7 @@ Domain registrars typically offer domains bundled with a hosting solution as par
 
 **We don't offer web hosting because:**
 
-- We focus on offering the best domain and DNS management platform by enabling our customers to set up and connect their domains to popular services that already exist, rather than trying to create our own top-to-bottom solution.
+- We focus on offering the best domain and DNS management platform by enabling our customers to set up and connect their domains to services that already exist, rather than trying to create our own top-to-bottom solution. We offer mulitple One-click Services for popular [hosting services](/articles/services/#hosting) so you can set up all the required DNS records in a single click.
 - There are myriad technologies available for creating websites. These require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few megabytes of hard disk.
-- A hosting service would only cater to a tiny fraction of our users who still make HTML static websites. Instead, we offer mulitple One-click Services for popular [hosting services](/articles/services/#hosting) so you can set up all the required DNS records in a single click.
+- A hosting service would only cater to a tiny fraction of our users who still make HTML static websites.
    
