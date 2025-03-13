@@ -124,7 +124,7 @@ describe('Search', () => {
         "Web Hosting Support": 1,
         "DNS Hosting": 2,
         "Email Hosting Support": 3,
-        "Why we don't offer web hosting services": 4
+        "Why We Don't Offer Web Hosting Services": 4
       },
       'add user': {
         "Managing Multiple Members on One Account": 2
