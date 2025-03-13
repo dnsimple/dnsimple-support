@@ -1,6 +1,6 @@
 ---
 title: Leave a Review
-excerpt: We love hearing what our customers have to say
+excerpt: We love hearing what our customers have to say.
 categories:
 - DNSimple
 ---
@@ -13,7 +13,7 @@ We'd love to hear what you have to say.
 
 We're currently gathering reviews from [G2](https://www.g2.com/products/dnsimple/reviews), [Trustpilot](https://www.trustpilot.com/review/dnsimple.com), and [Product Hunt](https://www.producthunt.com/products/dnsimple).
 
-We always appreciate your feedback — it truly helps make us better. 
+We always appreciate your feedback — it truly helps make us better.
 
 ## Have questions?
 
