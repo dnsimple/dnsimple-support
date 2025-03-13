@@ -5,7 +5,7 @@ categories:
 - DNSimple
 ---
 
-# Why should I register my domain name with DNSimple?
+# Why Should I Register My Domain Name with DNSimple?
 
 Domain registration with DNSimple is as easy as it gets. And there's no complicated pricing or convoluted contracts.
 
