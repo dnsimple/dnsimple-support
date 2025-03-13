@@ -15,7 +15,7 @@ We currently don't offer domain registration as a stand-alone service. Since [do
 
 We make [domain registration](/articles/registering-domain/) effortless, and offer [over 500 TLDs](https://dnsimple.com/tlds).
 
-We also keep things straightforward. All domains registered with DNSimple automatically use DNSimple's name servers and hosted DNS. And we'll never sell you anything you don't need. 
+We also keep things straightforward. All domains registered with DNSimple automatically use DNSimple's name servers and [hosted DNS](https://dnsimple.com/products/dns-hosting). And we'll never sell you anything you don't need. 
 
 ## Have more questions? 
 
