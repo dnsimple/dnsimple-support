@@ -226,7 +226,7 @@ describe('Search', () => {
         'Using DNSimple alongside other DNS providers': 5
       },
       'dnsimple pricing': {
-        'DNSimple plans': 2,
+        'DNSimple Plans': 2,
         'Domain Transfer Pricing': 3
       },
       'change nameservers': {
