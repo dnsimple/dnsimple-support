@@ -11,9 +11,9 @@ Do you have something you want to share about DNSimple? Do you want to shout our
 
 We'd love to hear what you have to say.
 
-Currently, we are gathering reviews from [G2](https://www.g2.com/products/dnsimple/reviews), [Trustpilot](https://www.trustpilot.com/review/dnsimple.com), and [Product Hunt](https://www.producthunt.com/products/dnsimple).
+We're currently gathering reviews from [G2](https://www.g2.com/products/dnsimple/reviews), [Trustpilot](https://www.trustpilot.com/review/dnsimple.com), and [Product Hunt](https://www.producthunt.com/products/dnsimple).
 
-We appreciate your kind words and feedback. It truly helps make us better. 
+We always appreciate your feedback — it truly helps make us better. 
 
 ## Have questions?
 
