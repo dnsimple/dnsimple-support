@@ -14,6 +14,11 @@ categories:
 
 ---
 
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe src="https://www.youtube.com/embed/bifh31N2hFQ?si=uM3Z1oS1SqzQNLT4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 The Domain Name System (DNS) is composed of many different record types (or resource records): `A`, `AAAA`, `CNAME`, `MX`, `CAA`, etc. Some record types are common. Others are less relevant, deprecated, or replaced.
 
 [DNSimple supports common and traditional record types](/articles/supported-dns-records), along with some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
