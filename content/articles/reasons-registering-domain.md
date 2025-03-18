@@ -9,9 +9,7 @@ categories:
 
 Domain registration with DNSimple is as easy as it gets. And there's no complicated pricing or convoluted contracts.
 
-<info>
-We currently don't offer domain registration as a stand-alone service. Since [domain services](/articles/dnsimple-services) are our core business, DNSimple registration requires a [subscription.](https://dnsimple.com/pricing) DNSimple customers are not required to use our domain registration services to take advantage of our hosted DNS.
-</info>
+We currently don't offer domain registration as a stand-alone service. Since [domain services](/articles/dnsimple-services) are our core business, DNSimple registration requires a [subscription](https://dnsimple.com/pricing). DNSimple customers are not required to use our domain registration services to take advantage of our hosted DNS.
 
 We make [domain registration](/articles/registering-domain/) effortless, and offer [over 500 TLDs](https://dnsimple.com/tlds).
 
