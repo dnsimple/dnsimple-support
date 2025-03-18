@@ -79,7 +79,7 @@ Custom subscription fee.
 - Fast-tracked feature requests
 - A [digital wallet](/articles/wallet-replenishment/) for recurring payments
 - Multi-account management
-- Single sign-on with [Okta](/articles/okta-identity-provider/) or [Google Workspace](articles/google-identity-provider/)
+- Single sign-on with [Okta](/articles/okta-identity-provider/) or [Google Workspace](/articles/google-identity-provider/)
 - [Vanity name servers](/articles/vanity-nameservers/)
 - High-volume zones
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
