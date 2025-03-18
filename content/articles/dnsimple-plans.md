@@ -30,7 +30,7 @@ You can have a maximum of one user on the Solo plan. If more than one person nee
 
 - The ability to register, transfer, and renew domains
 - 100 DNS records per zone
-- Let's Encrypt SSL Certificates (Root & www only)
+- [Let's Encrypt SSL Certificates](/articles/ordering-lets-encrypt-certificate/) (Root & www only)
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
@@ -48,15 +48,15 @@ You can have a maximum of one user on the Solo plan. If more than one person nee
 
 DNSimple's Teams plan provides startups and small engineering teams with all the tools they need to buy, connect, and operate their domains and DNS across multiple providers.
 
-$29 base monthly subscription fee, includes one seat.
+$29 base monthly subscription fee, includes one seat with the ability to add more seats at a cost of $29/month each.
 
 **The Teams plan includes everything on the Solo plan, plus:** 
 
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
-- Let's Encrypt wildcard certificates
+- Let's Encrypt [wildcard certificates](/articles/ordering-wildcard-certificate/)
 - [Regional](/articles/regional-records/) and [POOL](/articles/pool-record/) records
-- Google Workspace and Okta user provisioning
+- [Google Workspace](/articles/google-identity-provider/) and [Okta](/articles/okta-identity-provider/) user provisioning
 - Unlimited [activity history](/articles/activity-tracking/)
 - [99% SLA](https://dnsimple.com/service-level-agreement)
 — [Reverse DNS](/articles/reverse-dns/)
@@ -70,11 +70,11 @@ $29 base monthly subscription fee, includes one seat.
 
 DNSimple's [Enterprise plan](https://dnsimple.com/enterprises) provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
 
-Custom subscription fee.
+Custom subscription fee with the number of seats to be determined by your needs.
 
 **The Enterprise plan includes everything on Teams and Solo, plus:** 
 
-- Priority support
+- [Priority support](/articles/dnsimple-support/#how-do-i-get-priority-support) with responses in one hour or less on buisness days
 - A dedicated account manager
 - Fast-tracked feature requests
 - A [digital wallet](/articles/wallet-replenishment/) for recurring payments
