@@ -96,7 +96,7 @@
 
     warning, note, tip, info, .marker, #markdown-toc {
       display: block;
-      padding: var(--dnsimple-support-widget-padding);
+      padding: 16px 10px 16px 40px;
       overflow: auto;
       background: var(--surface2);
       -webkit-overflow-scrolling: touch;
