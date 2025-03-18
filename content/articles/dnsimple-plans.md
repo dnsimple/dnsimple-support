@@ -16,7 +16,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 ## All plans include
 
-- The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds). *Domain cost not included in plan pricing*.
+- The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
 - Primary or secondary DNS zones with Anycast DNS and multi-layer DDoS defense, billed monthly per zone.
 - [Email forwarding](https://support.dnsimple.com/articles/email-forwarding/), billed monthly per domain.
 - DNSimple's [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) — view and manage domains and DNS across registrars and providers.
@@ -25,13 +25,15 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.  
 
-There is no base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits). 
-
 <info>
 You can have a maximum of one user on the Solo plan. If more than one person needs to access your domains, we recommend choosing the Teams plan.
 </info>
 
-**The Solo plan includes:** 
+### Cost 
+
+No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits). 
+
+### The Solo plan includes:
 
 - The ability to register, transfer, and renew domains
 - 100 DNS records per zone
@@ -44,18 +46,20 @@ You can have a maximum of one user on the Solo plan. If more than one person nee
 - [Alias records](/articles/alias-record/)
 - [Zone queries](/articles/dns-query-limits/) billed monthly at $0.10 per million queries per zone per month
 - [CAA Records](/articles/caa-record/)
-- WHOIS privacy services 
+- [WHOIS privacy services ](/articles/whois-privacy/)
 - [Activity logs](/articles/activity-tracking/) for the past 30 days
-- Webhooks
-- Standard-level support
+- [Webhooks](/articles/webhooks/)
+- Standard-level [support](/articles/dnsimple-support/) with responses within 24 hours on business days
   
 ## Teams
 
 DNSimple's Teams plan provides startups and small engineering teams with all the tools they need to buy, connect, and operate their domains and DNS across multiple providers.
 
+### Cost
+
 $29 base monthly subscription fee, includes one seat with the ability to add more seats at a cost of $29/month each.
 
-**The Teams plan includes everything on the Solo plan, plus:** 
+### The Teams plan includes everything on the Solo plan, plus:
 
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
@@ -75,9 +79,11 @@ $29 base monthly subscription fee, includes one seat with the ability to add mor
 
 DNSimple's [Enterprise plan](https://dnsimple.com/enterprises) provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
 
+### Cost 
+
 Custom subscription fee with the number of seats to be determined by your needs.
 
-**The Enterprise plan includes everything on Teams and Solo, plus:** 
+### The Enterprise plan includes everything on Teams and Solo, plus:
 
 - [Priority support](/articles/dnsimple-support/#how-do-i-get-priority-support) with responses in one hour or less on buisness days
 - A dedicated account manager
@@ -86,9 +92,8 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Multi-account management
 - Single sign-on with [Okta](/articles/okta-identity-provider/) or [Google Workspace](/articles/google-identity-provider/)
 - [Vanity name servers](/articles/vanity-nameservers/)
-- High-volume zones
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
-- DNS zone discounts available
+- DNS high-volume zone discounts
 - [100% SLA available](https://dnsimple.com/service-level-agreement)
 
 To explore your options for our Enterprise or Reseller plans, [contact us](https://dnsimple.com/sales) for more information.
