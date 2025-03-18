@@ -9,6 +9,11 @@ categories:
 
 You'll find all [the features listed for each plan on our pricing page](https://dnsimple.com/pricing#features). Use the pricing calculator on our [homepage](https://dnsimple.com) to estimate your costs before you subscribe. Click any of the links in this article to learn more about each feature.
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
 ## All plans include
 
 - The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds). *Domain cost not included in plan pricing*.
