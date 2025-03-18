@@ -57,7 +57,7 @@ DNSimple's Teams plan provides startups and small engineering teams with all the
 
 ### Cost
 
-$29 base monthly subscription fee, includes one seat with the ability to add more seats at a cost of $29/month each.
+$29 base monthly subscription fee — includes one seat with the ability to add more seats at a cost of $29/month each.
 
 ### The Teams plan includes everything on the Solo plan, plus:
 
@@ -68,16 +68,16 @@ $29 base monthly subscription fee, includes one seat with the ability to add mor
 - [Google Workspace](/articles/google-identity-provider/) and [Okta](/articles/okta-identity-provider/) user provisioning
 - Unlimited [activity history](/articles/activity-tracking/)
 - [99% SLA](https://dnsimple.com/service-level-agreement)
-— [Reverse DNS](/articles/reverse-dns/)
-— Enable [DNSimple as secondary DNS](/articles/secondary-dns-dnsimple-as-secondary/)
+- [Reverse DNS](/articles/reverse-dns/)
+- Enable [DNSimple as secondary DNS](/articles/secondary-dns-dnsimple-as-secondary/)
 - Scoped [API Access Tokens](/articles/api-access-token/)
-— [Domain Access Control](/articles/domain-access-control/) - specify different roles for your team members on a per-domain basis
+- [Domain Access Control](/articles/domain-access-control/) - specify different roles for your team members on a per-domain basis
 - Email forwarding billed monthly per domain at $2 for 10,000 messages/month
 - Specify a custom [invoice](/articles/understanding-invoice/) email
 
 ## Enterprise
 
-DNSimple's [Enterprise plan](https://dnsimple.com/enterprises) provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems.
+DNSimple's [Enterprise plan](https://dnsimple.com/enterprises) provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems. Get high performance, reliability, and security for your domain name systems with our enterprise-grade DNS management.
 
 ### Cost 
 
