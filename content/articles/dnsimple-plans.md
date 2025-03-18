@@ -14,10 +14,10 @@ You'll find all [the features listed for each plan on our pricing page](https://
 * TOC
 {:toc}
 
-## All plans include
+## Included on all plans 
 
 - The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
-- Primary or secondary DNS zones with Anycast DNS and multi-layer DDoS defense, billed monthly per zone.
+- Primary or secondary DNS zones with [Anycast DNS](/articles/why-anycast-dns/), [DNSSEC](/articles/dnssec/), and multi-layer [DDoS defense](/articles/protection-ddos/), billed monthly per zone.
 - [Email forwarding](https://support.dnsimple.com/articles/email-forwarding/), billed monthly per domain.
 - DNSimple's [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) — view and manage domains and DNS across registrars and providers.
 
