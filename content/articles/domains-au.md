@@ -90,6 +90,29 @@ If the domain name is not redeemed within 31 days, it will be removed from our s
 
 .AU domains are not renewed for one year upon transfer. We do not charge for .AU transfers.
 
+### Required Acknowledgment
+
+All AU domain transfers into DNSimple require your explicit acknowledgment before they can be completed.
+After initiating the transfer, you will receive the acknowledgement email within the same day. Once acknowledgment is completed, your transfer will take up to a week to complete. There are no further steps needed after acknowledging the transfer.
+
+<warning>
+All unacknowledged transfers will be canceled after 14 days.
+</warning>
+
+#### Acknowledgment Process
+
+##### Check your email
+An acknowledgment email will be sent to the domain registrant's email address <strong>(this may be different from your DNSimple account email)</strong>.
+
+If you do not have access to the registrant's email address, we recommend updating this first via the domain's current registrar. Otherwise, your transfer won't succeed.
+
+If you don't see the email, check your spam/junk folders.
+
+##### Complete the Process
+Click the link provided in the acknowledgment email to confirm and complete your transfer.
+
+If you don't receive the acknowledgement email, experience problems with the link, or need any help with your domain transfer, please [contact](https://dnsimple.com/contact) our support team.
+
 ## Changes in ownership
 
 Any contact change that results in a change of registrant must be executed manually. A change of registrant occurs when you are modifying the *Organization Name*, *First/Last Name*, *Eligibility ID type*, or *Eligibility ID number*.
