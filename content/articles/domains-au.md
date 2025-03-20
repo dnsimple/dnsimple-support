@@ -140,4 +140,4 @@ Please complete them to the best of your abilities — if you have any concerns,
 
 ## Have more questions? 
 
-If you have any questions about registering, transferring, or renewing your .AU domain, [contact us](https://dnsimple.com/feedback), and we’ll be happy to help. 
+If you have any questions about registering, transferring, or renewing your .AU domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 
