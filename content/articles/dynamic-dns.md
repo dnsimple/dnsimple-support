@@ -1,8 +1,9 @@
 ---
 title: Dynamic DNS
 excerpt: Setting up simple Dynamic DNS with DNSimple.
+meta: Easily configure Dynamic DNS with DNSimple to keep your domain updated with changing IP addresses, ensuring seamless access to your online services.
 categories:
-- DNS
+  - DNS
 ---
 
 # Dynamic DNS

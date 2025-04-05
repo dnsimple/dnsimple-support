@@ -1,16 +1,17 @@
 ---
 title: What Is an SRV Record?
 excerpt: What an SRV record is, and how to add an SRV record in DNSimple.
+meta: Learn how to efficiently set up and manage templates with SRV records in DNSimple, enhancing your domain management for better service discovery and reliability.
 categories:
-- DNS
+  - DNS
 ---
 
 # SRV Records
 
 ### Table of Contents {#toc}
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
 
@@ -37,7 +38,7 @@ To add an SRV record in DNSimple:
 
 1. On your Domain List, click the relevant domain.
 1. Click the **DNS** badge at the top right to access the [Record Editor](/articles/record-editor/).
-  ![DNS menu badge](/files/dns-menu-badge.png)
+   ![DNS menu badge](/files/dns-menu-badge.png)
 1. Click **Add record** on the left side. Choose **SRV** from the dropdown menu, and fill out the form.
 1. Click **Add Record** at the bottom of the page to complete the process. You'll be returned to the Domain List with a banner indicating the record was successfully added.
 
