@@ -1,16 +1,17 @@
 ---
 title: Understanding Your DNSimple Invoice
 excerpt: A detailed explanation of DNSimple invoices.
+meta: Discover everything you need to know about DNSimple invoices, including billing cycles, payment methods, and how to manage your account effectively.
 categories:
-- Account
+  - Account
 ---
 
 # Understanding Your Invoice
 
 ### Table of Contents {#toc}
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
 
@@ -37,24 +38,24 @@ Here's a closer look at what your invoice means:
 
 ![explanation of top of example invoice](/files/invoice-top.png)
 
-|   | **Name** | **Description** |
-|:--|:--|:--|
-| 1 | **Invoice Number** | The unique number assigned to your invoice. |
-| 2 | **Invoice Date** | The date the invoice was created. The invoice date is the first day of your billing cycle. For example, if your billing cycle is April 20 - May 20, your Invoice Date is April 20. |
-| 3 | **Terms** | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`. |
-| 4 | **Status** | Indicates whether or not your invoice has been paid.  |
-| 5 | **To** | Your company name and address. To update this information, see Billing Settings. |
+|     | **Name**           | **Description**                                                                                                                                                                    |
+| :-- | :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Invoice Number** | The unique number assigned to your invoice.                                                                                                                                        |
+| 2   | **Invoice Date**   | The date the invoice was created. The invoice date is the first day of your billing cycle. For example, if your billing cycle is April 20 - May 20, your Invoice Date is April 20. |
+| 3   | **Terms**          | Indicates whether your invoice is `Due Upon Receipt`, `Open`, or `Paid`.                                                                                                           |
+| 4   | **Status**         | Indicates whether or not your invoice has been paid.                                                                                                                               |
+| 5   | **To**             | Your company name and address. To update this information, see Billing Settings.                                                                                                   |
 
- ![explanation of line items in example invoice](/files/invoice-breakdown.png)
+![explanation of line items in example invoice](/files/invoice-breakdown.png)
 
-|    | **Name** | **Description** |
-|:---|:--|:--|
-| 1. | Product Name | This section gives an itemized listing of your [charges](#charge-types) for the invoice billing cycle. Invoices for purchases and subscriptions are sent separately.|
-| 2. | Quantity | The quantity of each product you are being billed for. |
-| 3. | Amount | The cost of a single product. |
-| 4. | Discount | Any discounts that have been applied, per product, to your invoice. |
-| 5. | Total | The total amount you will be charged per product. |
-| 6. | Grand Total | The total amount owed.|
+|     | **Name**     | **Description**                                                                                                                                                      |
+| :-- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.  | Product Name | This section gives an itemized listing of your [charges](#charge-types) for the invoice billing cycle. Invoices for purchases and subscriptions are sent separately. |
+| 2.  | Quantity     | The quantity of each product you are being billed for.                                                                                                               |
+| 3.  | Amount       | The cost of a single product.                                                                                                                                        |
+| 4.  | Discount     | Any discounts that have been applied, per product, to your invoice.                                                                                                  |
+| 5.  | Total        | The total amount you will be charged per product.                                                                                                                    |
+| 6.  | Grand Total  | The total amount owed.                                                                                                                                               |
 
 ## Charge types
 
@@ -96,4 +97,3 @@ If you **downgrade** your plan (e.g. moving from Teams to Solo), we do not grant
 ## Have more questions?
 
 If you have any questions about your invoice or charges, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
-

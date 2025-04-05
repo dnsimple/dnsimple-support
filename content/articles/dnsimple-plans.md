@@ -1,8 +1,9 @@
 ---
 title: DNSimple plans
 excerpt: Understand which plan fits you best
+meta: Explore DNSimple's flexible plans to find the perfect fit for your domain management needs, ensuring seamless DNS services and exceptional support.
 categories:
-- DNSimple
+  - DNSimple
 ---
 
 # DNSimple Plans
@@ -26,6 +27,7 @@ DNSimple's Solo plan provides anyone with a domain management platform where the
 Requires a base monthly subscription fee.
 
 Activates the following features:
+
 - HTTPS URL redirects
 - Let's Encrypt custom hostname certificates
 - Let's Encrypt wildcard certificates
@@ -42,6 +44,7 @@ DNSimple's Team plan provides startups and small engineering teams with all the 
 Custom subscription fee.
 
 Activates the following features:
+
 - Priority support
 - Single sign-on with Okta or Google Workspace
 - Vanity Name Servers

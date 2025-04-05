@@ -1,26 +1,25 @@
 ---
 title: Troubleshooting URL Redirects
 excerpt: How to check and debug URL redirect issues.
+meta: Learn how to effectively troubleshoot and resolve URL redirect issues with our comprehensive guide, ensuring your website redirects work seamlessly for users.
 categories:
-- Domains
+  - Domains
 ---
 
 # Troubleshooting URL Redirects
 
 ### Table of Contents {#toc}
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
 
 Here's a checklist of common issues to help you if a configured redirect is not redirecting correctly:
 
-
 ## Checking domain resolution status
 
 To use our [redirector service](/articles/redirector), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
-
 
 ## Using cURL to test the redirect {#test}
 
