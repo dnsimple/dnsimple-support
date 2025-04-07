@@ -1,8 +1,9 @@
 ---
 title: Troubleshooting Email Forwarding with Gmail
 excerpt: How to check and debug email forwarding issues.
+meta: Learn how to troubleshoot and resolve email forwarding issues with Gmail effectively. Follow our step-by-step guide for a seamless email experience.
 categories:
-- Emails
+  - Emails
 ---
 
 # Troubleshooting Email Forwarding
@@ -18,4 +19,3 @@ To properly test that email forwarding works with Gmail, please use an entirely 
 
 Google silently ignores messages it determines were sent and received from the same account. This will occur even if the message is forwarded through another address.
 </note>
-

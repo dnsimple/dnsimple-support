@@ -1,8 +1,9 @@
 ---
 title: Deleting a Domain
 excerpt: How to delete a domain from a DNSimple account.
+meta: Learn the simple steps to delete a domain from your DNSimple account. Follow our guide for a smooth and hassle-free domain removal process.
 categories:
-- Domains
+  - Domains
 ---
 
 # Deleting a Domain
@@ -19,17 +20,16 @@ When a domain is hosted, DNSimple will stop resolving DNS for the domain.
 
 If the domain is resolved with DNSimple, we will immediately stop resolving it, and the records will be removed according to their TTL (Time To Live).
 
-
 <div class="section-steps" markdown="1">
 ##### To delete a domain
 
 1. If you have more than one account, select the relevant one.
 1. On the header, click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
 1. On the tabs to the left, click <label>Settings</label>.
-    ![screenshot of deleting a domain](/files/domain-delete.png)
+   ![screenshot of deleting a domain](/files/domain-delete.png)
 
 1. On the **Delete Domain** card, click **Delete Domain**.
-    ![Delete domain](/files/delete-domain.png)
+   ![Delete domain](/files/delete-domain.png)
 
 </div>
 
