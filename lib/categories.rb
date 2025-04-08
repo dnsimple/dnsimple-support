@@ -1,4 +1,5 @@
 require 'ddmemoize'
+require 'yaml'
 include Nanoc::Helpers::LinkTo
 
 module Categories
@@ -72,6 +73,11 @@ module Categories
   end
   memoize :articles_by_category
 
+  def load_meta
+    meta = YAML.load_file("categories/meta.yaml", symbolize_names: true)
+  end
+  memoize :load_meta
+
 
   def category_slug(category)
     category.downcase.tr(' ', '-')
@@ -89,6 +95,11 @@ module Categories
     link_to(category, url_for_category(category), attributes)
   end
 
+  def meta_for_category(category)
+    meta = load_meta
+    key = category.split(" ").join("_").downcase.to_sym
+    meta[key]
+  end
   # Turn a collection of categories into HTML links.
   #
   # This is ugly, but better here then in the middle of a layout.
@@ -107,11 +118,12 @@ module Categories
   # article is added to nanoc's +@items+ array for further processing.
   def create_category_pages
     articles_by_category.each do |category, items|
+
       @items.create(
         %Q{<%= render("/category_index.html", category: "#{category}") %>},
         {
             title: "Articles in #{category}",
-            excerpt: "List of articles in the category #{category}.",
+            meta: meta_for_category(category) || "List of articles in the category #{category}.",
             h1: "#{category} articles",
             items: items,
         },

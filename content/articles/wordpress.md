@@ -1,6 +1,7 @@
 ---
 title: WordPress and DNSimple
 excerpt: How to use a WordPress blog with DNSimple.
+meta: Learn how to seamlessly integrate your WordPress blog with DNSimple, ensuring smooth domain management and optimal performance for your online presence.
 categories:
 - Integrations
 ---

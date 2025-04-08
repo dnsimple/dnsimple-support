@@ -1,6 +1,7 @@
 ---
 title: DNSimple Plans
 excerpt: Understand which plan fits your needs
+meta: Explore DNSimple's flexible plans to find the perfect fit for your domain management needs, ensuring seamless DNS services and exceptional support.
 categories:
 - DNSimple
 ---
@@ -14,7 +15,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 * TOC
 {:toc}
 
-## Included on all plans 
+## Included on all plans
 
 - The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
 - Primary or secondary DNS zones with [Anycast DNS](/articles/why-anycast-dns/), [DNSSEC](/articles/dnssec/), and multi-layer [DDoS defense](/articles/protection-ddos/), billed monthly per zone.
@@ -23,15 +24,15 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 ## Solo
 
-DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.  
+DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.
 
 <info>
 You can have a maximum of one user on the Solo plan. If more than one person needs to access your domains, we recommend choosing the Teams plan.
 </info>
 
-### Cost 
+### Cost
 
-No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits). 
+No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits).
 
 ### The Solo plan includes:
 
@@ -41,7 +42,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
-- Email forwarding, billed monthly per domain at $2 for 1,000 messages/month. 
+- Email forwarding, billed monthly per domain at $2 for 1,000 messages/month.
 - [One-click Services](/articles/services/)
 - [Alias records](/articles/alias-record/)
 - [Zone queries](/articles/dns-query-limits/) billed monthly at $0.10 per million queries per zone per month
@@ -50,7 +51,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 - [Activity logs](/articles/activity-tracking/) for the past 30 days
 - [Webhooks](/articles/webhooks/)
 - Standard-level [support](/articles/dnsimple-support/) with responses within 24 hours on business days
-  
+
 ## Teams
 
 DNSimple's Teams plan provides startups and small engineering teams with all the tools they need to buy, connect, and operate their domains and DNS across multiple providers.
@@ -79,7 +80,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 
 DNSimple's [Enterprise plan](https://dnsimple.com/enterprises) provides organizations of any size full control of their DNS, domains, and SSL certificates across cloud providers and into on-premise systems. Get high performance, reliability, and security for your domain name systems with our enterprise-grade DNS management.
 
-### Cost 
+### Cost
 
 Custom subscription fee with the number of seats to be determined by your needs.
 

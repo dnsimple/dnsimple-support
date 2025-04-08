@@ -1,6 +1,7 @@
 ---
 title: DNS Query Volume Fees
 excerpt: We charge $0.10 per million queries per zone.
+meta: Learn about DNS query limits and pricing at DNSimple. Understand the cost of $0.10 per million queries per zone to optimize your domain management.
 categories:
 - DNSimple
 ---

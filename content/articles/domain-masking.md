@@ -1,6 +1,7 @@
 ---
 title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking.
+meta: Learn about domain masking and URL masking, their benefits, and how to implement them effectively to enhance your online presence and protect your brand identity.
 categories:
 - Domains
 ---
@@ -14,7 +15,7 @@ categories:
 
 ## What is masking?
 
-Domain Masking (or URL Masking) is when you set up a website to display the content of another while hiding the destination's URL. For example, using Domain Masking makes the website `examplemail.com` show the content of `mail.example.com/email/login`, without the user knowing they're accessing `mail.example.com`. 
+Domain Masking (or URL Masking) is when you set up a website to display the content of another while hiding the destination's URL. For example, using Domain Masking makes the website `examplemail.com` show the content of `mail.example.com/email/login`, without the user knowing they're accessing `mail.example.com`.
 
 This is often done with HTML iframes, or by setting up a proxy.
 

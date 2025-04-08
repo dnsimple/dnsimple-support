@@ -1,6 +1,7 @@
 ---
 title: What Is an SRV Record?
 excerpt: What an SRV record is, and how to add an SRV record in DNSimple.
+meta: Learn how to efficiently set up and manage templates with SRV records in DNSimple, enhancing your domain management for better service discovery and reliability.
 categories:
 - DNS
 ---

@@ -1,6 +1,7 @@
 ---
 title: Digital Wallet Replenishment
 excerpt: How to add funds to your digital wallet
+meta: Learn how to easily add funds to your DNSimple digital wallet, ensuring seamless transactions and uninterrupted service for your domain management needs.
 categories:
 - Account
 ---
@@ -17,7 +18,7 @@ categories:
 [Enterprise customers](https://dnsimple.com/sales) can add funds to a digital wallet for use on future purchases, like domain registrations, domain renewals, domain transfers, and SSL certificates. We support ACH, wire transfer, and card payments to add funds to your digital wallet.
 
 <info>
-Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet. 
+Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
 </info>
 
 ## Adding funds to your wallet
@@ -28,7 +29,7 @@ Automatic wallet replenishments are not yet available. You need to manually add 
 
     ![Wallet card](/files/wallet-card.png)
 
-1. Fill in the replenishment amount, an optional purchase order ID, and a payment method (credit card or wire). 
+1. Fill in the replenishment amount, an optional purchase order ID, and a payment method (credit card or wire).
 1. Click **Proceed to confirmation**.
 
     ![Add funds form](/files/add-funds-form.png)
@@ -46,7 +47,7 @@ Your card on file will be charged. You cannot currently add an alternate card fo
 All wire payments must be paid 30 days after receiving the invoice. To discuss different payment terms, please contact your account manager.
 
 ## Replenishment budget
-You can configure a monthly limit for wallet replenishment. 
+You can configure a monthly limit for wallet replenishment.
 
 This limit cannot be exceeded. Once the limit is reached, all subsequent wallet replenishments will be denied. The cumulative total of replenishments is tracked throughout the month. At the start of each new month, this total resets, making the full budget allocation available again.
 

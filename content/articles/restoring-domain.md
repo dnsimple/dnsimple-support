@@ -1,6 +1,7 @@
 ---
 title: Restoring a Domain
 excerpt: How to restore a domain with a DNSimple account.
+meta: Easily restore your domain with DNSimple using our step-by-step guide. Get your domain back online quickly with our comprehensive support resources.
 categories:
 - Domains
 ---

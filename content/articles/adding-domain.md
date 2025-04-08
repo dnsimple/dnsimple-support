@@ -1,6 +1,7 @@
 ---
 title: Adding a Domain
 excerpt: How to add a domain to a DNSimple account.
+meta: Learn the step-by-step process to easily add a domain to your DNSimple account and manage your DNS settings with confidence and efficiency.
 categories:
 - Domains
 ---
@@ -31,7 +32,7 @@ Click **Register [domain name]** in the bottom right corner to register the doma
 
 To complete the transfer process, enter the auth code for transfer, select a domain contact, opt into WHOIS Privacy, delegate NS if wanted, and agree to the payment.
 
-If the transfer is successful, you'll see a **Pending** notification: 
+If the transfer is successful, you'll see a **Pending** notification:
 
 ![Transferring a domain](/files/transferring-a-domain.png)
 
@@ -41,6 +42,6 @@ If you're using the DNS services available at DNSimple, but keeping the domain a
 
 ![Zone transfer tool](/files/zone-import-tool.png).
 
-## Have more questions? 
+## Have more questions?
 
 If you have additional questions or need assistance adding domains to your DNSimple account, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

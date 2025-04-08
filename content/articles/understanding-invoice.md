@@ -1,6 +1,7 @@
 ---
 title: Understanding Your DNSimple Invoice
 excerpt: A detailed explanation of DNSimple invoices.
+meta: Discover everything you need to know about DNSimple invoices, including billing cycles, payment methods, and how to manage your account effectively.
 categories:
 - Account
 ---
