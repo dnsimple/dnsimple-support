@@ -1,9 +1,9 @@
 ---
-title: DNSimple plans
-meta: Explore DNSimple's flexible plans to find the perfect fit for your domain management needs, ensuring seamless DNS services and exceptional support.
+title: DNSimple Plans
 excerpt: Understand which plan fits your needs
+meta: Explore DNSimple's flexible plans to find the perfect fit for your domain management needs, ensuring seamless DNS services and exceptional support.
 categories:
-  - DNSimple
+- DNSimple
 ---
 
 # DNSimple Plans

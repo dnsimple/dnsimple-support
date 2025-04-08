@@ -3,15 +3,15 @@ title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking.
 meta: Learn about domain masking and URL masking, their benefits, and how to implement them effectively to enhance your online presence and protect your brand identity.
 categories:
-  - Domains
+- Domains
 ---
 
 # Domain Masking
 
 ### Table of Contents {#toc}
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## What is masking?
 

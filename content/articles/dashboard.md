@@ -3,7 +3,7 @@ title: Getting to Know Your DNSimple Dashboard
 excerpt: How to use the DNSimple Dashboard to manage your domains.
 meta: Explore the DNSimple dashboard with our comprehensive guide. Learn to navigate your domain list, manage settings, and optimize your online presence effortlessly.
 categories:
-  - DNSimple
+- DNSimple
 ---
 
 # Getting to Know Your DNSimple Dashboard
@@ -59,7 +59,7 @@ As your account lists grow, you'll notice a **Search By Account Name** bar above
 
 The **Latest activity** section provides a view of activity across all accounts in which you're an authorized user.
 
-Similar to the activity view, the information displayed highlights the _Type, Event, Text, User, Date, and Account_. Each is linked to the individual event listed, so you can see information specific to an account without scrolling back up to the account card.
+Similar to the activity view, the information displayed highlights the *Type, Event, Text, User, Date, and Account*. Each is linked to the individual event listed, so you can see information specific to an account without scrolling back up to the account card.
 
 To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#activity-tracking-at-the-account-level). From the individual account and domain activity views, you can filter based on events to easily find what you need.
 

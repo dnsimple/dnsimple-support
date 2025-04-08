@@ -3,9 +3,9 @@ title: Can I use DNSimple for drop catching?
 excerpt: DNSimple's drop catching policy.
 meta: Discover DNSimple's drop catching service, designed to help you secure valuable domain names as they become available. Learn more about our policy and process!
 categories:
-  - DNSimple
-  - Domains
-  - API
+- DNSimple
+- Domains
+- API
 ---
 
 ## What is drop catching?
