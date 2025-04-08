@@ -1,6 +1,7 @@
 ---
 title: Changing Payment Details
 excerpt: How to change a DNSimple account's payment details.
+meta: Easily update your DNSimple account's payment details with our step-by-step guide. Ensure your billing information is always current and secure.
 categories:
 - Account
 ---
