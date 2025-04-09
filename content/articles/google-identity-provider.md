@@ -1,6 +1,7 @@
 ---
 title: Google as an Identity Provider
 excerpt: How to use Google to create and log in to accounts.
+meta: Learn how to seamlessly use Google as your identity provider for account creation and login, enhancing security and simplifying user access with DNSimple.
 categories:
 - Account
 ---

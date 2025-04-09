@@ -1,6 +1,7 @@
 ---
 title: DNSimple and ClickFunnels
 excerpt: Get started with your new DNSimple account quickly.
+meta: Unlock the full potential of your DNSimple account with our comprehensive guide to integrating with your ClickFunnel account. Get started seamlessly today!
 categories:
 - DNSimple
 ---

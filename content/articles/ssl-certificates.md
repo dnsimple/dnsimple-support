@@ -1,6 +1,7 @@
 ---
 title: SSL/TLS Certificates
 excerpt: Information about purchasing and managing an SSL/TLS certificate with DNSimple.
+meta: Explore comprehensive articles on SSL certificates, covering installation, management, and best practices to secure your website and protect user data effectively.
 categories:
 - SSL Certificates
 ---

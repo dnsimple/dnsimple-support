@@ -1,6 +1,7 @@
 ---
 title: What's a DMARC record?
 excerpt: What a DMARC record is, and how DMARC records work.
+meta: Learn what DMARC records are, how they function, and how they can enhance your email security by preventing spoofing and phishing attacks effectively.
 categories:
 - DNS
 - Emails
