@@ -319,9 +319,7 @@ export default {
         this.focus();
       }
 
-      if (!this.isOpen) {
-        return;
-      }
+      if (!this.isOpen) return;
 
       if (event.key === "Escape")
         this.close();
