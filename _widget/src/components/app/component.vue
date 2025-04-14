@@ -317,7 +317,13 @@ export default {
 
         this.open();
         this.focus();
-      } else if (event.key === "Escape")
+      }
+
+      if (!this.isOpen) {
+        return;
+      }
+
+      if (event.key === "Escape")
         this.close();
       else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles') {
         event.preventDefault();
