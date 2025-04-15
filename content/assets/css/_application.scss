@@ -53,7 +53,7 @@
   box-shadow: -6px 0 0 0 var(--green);
 
   &:before {
-    @include font-awesome("\f00c");
+    @include font-awesome("\f0eb");
     color: var(--green);
   }
 }
