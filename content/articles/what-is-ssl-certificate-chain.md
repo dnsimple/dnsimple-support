@@ -1,6 +1,7 @@
 ---
 title: What is the SSL Certificate Chain?
 excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
+meta: Learn about SSL certificate chains, including the roles of root, intermediate, and server certificates, and how they work together to secure your website.
 categories:
 - SSL Certificates
 ---

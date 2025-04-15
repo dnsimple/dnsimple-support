@@ -1,6 +1,7 @@
 ---
 title: What's an MX Record?
 excerpt: What an MX record is, and how to create MX records with DNSimple.
+meta: Learn what MX records are and how to easily create and manage them with DNSimple to ensure proper email delivery for your domain. Get started today!
 categories:
 - DNS
 ---
