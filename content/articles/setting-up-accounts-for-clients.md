@@ -1,11 +1,11 @@
 ---
-title: Creating accounts for clients
+title: Creating Accounts for Clients
 excerpt: How to create and manage multiple accounts for clients.
 categories:
 - Account
 ---
 
-# Creating accounts for clients
+# Creating Accounts for Clients
 
 ### Table of Contents {#toc}
 
@@ -15,7 +15,7 @@ categories:
 ---
 
 <info>
-This article describes a feature only available on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+This article describes a feature only available on the Teams plan and higher. [See the differences between plans](/articles/dnsimple-plans/).
 </info>
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
@@ -45,4 +45,8 @@ Your client doesn't need to have an active subscription. They only need to be si
 
 ## Adding clients to the new account
 
-Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/account-users/#adding-members-to-an-account).
+Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/managing-seats/).
+
+## Have more questions? 
+
+If you have additional questions or need any assistance creating accounts for your clients, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
