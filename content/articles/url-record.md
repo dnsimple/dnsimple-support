@@ -1,6 +1,7 @@
 ---
 title: What's a URL Record?
 excerpt: What a URL record is, and how to add a URL record in DNSimple.
+meta: Learn what a URL record is and discover step-by-step instructions for adding one in DNSimple to effectively redirect your domain traffic.
 categories:
 - DNS
 ---

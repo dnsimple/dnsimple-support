@@ -1,6 +1,7 @@
 ---
 title: What's an NS Record?
 excerpt: What an NS record is, and how to create NS records with DNSimple.
+meta: Learn what NS records are, their importance in DNS management, and how to easily create and manage them using DNSimple's user-friendly platform.
 categories:
 - DNS
 ---
