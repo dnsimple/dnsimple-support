@@ -41,5 +41,6 @@ export default {
   "login": "get started general",
   "log in": "get started general",
   "pricing": "pricing plans subscription transfer",
-  "ipv6": "ipv6 address aaaa"
+  "ipv6": "ipv6 address aaaa",
+  "ptr": "reverse DNS",
 };
