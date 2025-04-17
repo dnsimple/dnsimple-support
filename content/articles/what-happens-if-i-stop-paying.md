@@ -1,6 +1,7 @@
 ---
 title: What happens if I stop paying for my DNSimple subscription?
 excerpt: Description of what happens if an account is unsubscribed.
+meta: Learn what happens to your DNSimple account and services if you stop paying. Understand the implications and steps to take for a smooth transition.
 categories:
 - Account
 ---

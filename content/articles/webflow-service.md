@@ -1,5 +1,6 @@
 ---
 title: Webflow Service
+meta: Easily point your domain to Webflow using DNSimple's one-click service. Follow our step-by-step guide to streamline your website setup and enhanced DNS performance.
 excerpt: How to set up Webflow DNS using DNSimple's one-click service.
 categories:
 - Services

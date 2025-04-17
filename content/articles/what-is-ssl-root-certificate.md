@@ -1,6 +1,7 @@
 ---
 title: What is a Root Certificate?
 excerpt: A Root SSL certificate is a certificate issued by a trusted certificate authority.
+meta: A Root SSL certificate is a certificate issued by a trusted certificate authority for enhanced online security
 categories:
 - SSL Certificates
 ---
@@ -17,4 +18,4 @@ The SSL ecosystem is based on a model of a trust relationship, also called the "
 
 ![A real SSL certificate chain](/files/dnsimple-ssl-chain.png)
 
-The list of trusted CAs is critical, because it determines the security level of an entire system. 
+The list of trusted CAs is critical, because it determines the security level of an entire system.

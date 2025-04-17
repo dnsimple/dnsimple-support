@@ -1,5 +1,6 @@
 ---
 title: Verifying Domain Resolution
+meta: Learn how to effectively verify your domain's resolution through various methods. Ensure your domain is correctly set up and accessible with this comprehensive guide.
 excerpt: This article explains the different ways you can verify that a domain is resolving.
 categories:
 - Domains
@@ -32,7 +33,7 @@ Your domain's DNS zone needs to be active for the domain to resolve and for your
 
 ## Domain is delegated elsewhere
 
-Your domain is not currently resolving using DNSimple name servers, so the DNS records in your DNSimple account will not have any effect. Please make the changes through your current DNS provider. 
+Your domain is not currently resolving using DNSimple name servers, so the DNS records in your DNSimple account will not have any effect. Please make the changes through your current DNS provider.
 
 If you want your domain to resolve with the DNS records in your DNSimple account, your domain needs to be delegated to [DNSimple's name servers](/articles/dnsimple-nameservers/). If your domain is registered at DNSimple, refer to our [guide](/articles/delegating-dnsimple-registered/) to learn how to delegate it to our name servers. If your domain is registered at another registrar, we have another [guide](/articles/delegating-dnsimple-hosted/) for that.
 
