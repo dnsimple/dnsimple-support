@@ -54,7 +54,7 @@ Below is an example of decreasing seats when the number of account members excee
 ### Removing a member from your account: 
 
 1. Click **Remove** for the member you want to remove, and confirm that you want to remove them.
-2. Once you’ve removed them from the account, that user will no longer show up on the **Members** card.
+2. Once you've removed them from the account, that user will no longer show up on the **Members** card.
 
 ## Inviting new members
 
