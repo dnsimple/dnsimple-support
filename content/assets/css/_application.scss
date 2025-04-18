@@ -33,9 +33,9 @@
   &:before {
     display: block;
     float: left;
-    margin-left: -25px;
-    font-size: 16px;
-    line-height: 140%;
+    margin-left: -30px;
+    font-size: 1.4rem;
+    line-height: 100%;
     color: var(--element2);
   }
 }
@@ -53,7 +53,7 @@
   box-shadow: -6px 0 0 0 var(--green);
 
   &:before {
-    @include font-awesome("\f00c");
+    @include font-awesome("\f0eb");
     color: var(--green);
   }
 }
@@ -62,7 +62,7 @@
   box-shadow: -6px 0 0 0 var(--yellow);
 
   &:before {
-    @include font-awesome("\f071");
+    @include font-awesome("\f249");
     color: var(--yellow);
   }
 }
@@ -71,7 +71,7 @@
   box-shadow: -6px 0 0 0 var(--orange);
 
   &:before {
-    @include font-awesome("\f06a");
+    @include font-awesome("\f071");
     color: var(--orange);
   }
 }
