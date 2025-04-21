@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Heroku shows different app error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see a different application than the one you expected.
+meta: Experiencing a different application when accessing your domain on Heroku? Discover the reasons behind this issue and learn how to resolve it effectively.
 categories:
 - Integrations
 ---

@@ -1,6 +1,7 @@
 ---
 title: Unsubscribe From Your DNSimple Plan
 excerpt: How to cancel the recurring subscription for a DNSimple account.
+meta: Easily cancel your DNSimple subscription with our step-by-step guide. Follow these simple instructions to manage your account and stop recurring charges today.
 categories:
 - Account
 ---
@@ -28,7 +29,7 @@ This is not an account deletion. If you do not delete your domains from the acco
 1. Click **Accounts** at the top right of the Domain List.
 1. On the left side of the screen, select the **Billings and plans** tab.
 1. Scroll down to the end of the page to find the Unsubscribe section.
-   
+
     ![Unsubscribe section](/files/account-unsubscribe.png)
 
 1.  Click the <label>Unsubscribe</label> button.

@@ -1,6 +1,7 @@
 ---
 title: Transfer Account Ownership
 excerpt: How to transfer ownership of the account to another DNSimple user.
+meta: Learn how to seamlessly transfer ownership of your DNSimple account to another user with our step-by-step guide, ensuring a smooth transition and secure management.
 categories:
 - Account
 ---
