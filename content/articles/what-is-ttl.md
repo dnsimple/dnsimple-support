@@ -20,7 +20,7 @@ categories:
   <iframe src="https://www.youtube.com/embed/lZXu5ymxeks" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-In DNS, resource records are held in cache on a resolver for an amount of time specified by time-to-live (TTL). This is a numeric value stored as a 32-bit signed integer and represents the amount of time in seconds that the record’s content can be considered valid.
+In DNS, resource records are held in cache on a resolver for an amount of time specified by time-to-live (TTL). This is a numeric value stored as a 32-bit signed integer and represents the amount of time in seconds that the record's content can be considered valid.
 
 ## Record Lifetime
 When a client tries to connect to a domain, the resolver contacts the authoritative DNS server and receives the resource record associated with the domain. The record is received, and a timestamp is recorded. Using the timestamp in conjunction with the TTL value of the record, an effective TTL value is calculated as follows:
@@ -36,7 +36,7 @@ The record is kept in cache on the resolver and is served to clients that reques
 In some setups, one resolver might get a record forwarded to it from another resolver. In this case, the TTL value that is forwarded is the current effective TTL, and not the initial TTL value.
 TTL in DNSimple
 
-DNSimple’s default TTL value is 1 hour, or 3600 seconds, but supports TTL values from 1 minute up to 3 days. When changes are anticipated, lowering a record’s TTL value helps it propagate faster but results in worse performance for clients. After changes are made, we recommend increasing the TTL back to at least 1 hour to ensure more efficient cache results.
+DNSimple's default TTL value is 1 hour, or 3600 seconds, but supports TTL values from 1 minute up to 3 days. When changes are anticipated, lowering a record’s TTL value helps it propagate faster but results in worse performance for clients. After changes are made, we recommend increasing the TTL back to at least 1 hour to ensure more efficient cache results.
 ![screenshot of configuring TTL for a DNS record](/files/ttl-configure.png)
 
 TTL values in DNSimple can be set up in the dashboard when you create a record:
