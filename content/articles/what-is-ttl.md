@@ -2,6 +2,8 @@
 title: What is Time-to-live
 excerpt: In DNS, resource records are held in cache on a resolver for an amount of time specified by time-to-live (TTL).
 meta: Learn what Time-to-live is TTL, and how to manage it in your DNSimple domain DNS settings to control caching of your DNS records lookup.
+categories:
+- DNS
 ---
 
 
