@@ -1,6 +1,7 @@
 ---
 title: What is a Certificate Authority?
 excerpt: A certificate authority is a trusted entity that issues digital certificates.
+meta: Discover what a certificate authority is and how it plays a crucial role in securing online communications by issuing trusted digital certificates for websites.
 categories:
 - SSL Certificates
 ---
@@ -15,4 +16,4 @@ In this model of trust relationships, a CA is a trusted third party that is trus
 
 In the context of a website, when we use the term digital certificate we often refer to SSL certificates. The CA is the authority responsible for issuing SSL certificates publicly trusted by web browsers.
 
-Anyone can issue SSL certificates, but those certificates would not be trusted automatically by web browsers. Certificates such as these are called _self-signed_. The CA has the responsibility to validate the entity behind an SSL certificate request and, upon successful validation, the ability to issue publicly trusted SSL certificates that will be accepted by web browsers. Essentially, the browser vendors rely on CAs to validate the entity behind a web site. 
+Anyone can issue SSL certificates, but those certificates would not be trusted automatically by web browsers. Certificates such as these are called _self-signed_. The CA has the responsibility to validate the entity behind an SSL certificate request and, upon successful validation, the ability to issue publicly trusted SSL certificates that will be accepted by web browsers. Essentially, the browser vendors rely on CAs to validate the entity behind a web site.
