@@ -7,6 +7,17 @@ meta: Learn what Time-to-live is TTL, and how to manage it in your DNSimple doma
 
 # What is Time-to-live?
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe src="https://www.youtube.com/embed/lZXu5ymxeks" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 In DNS, resource records are held in cache on a resolver for an amount of time specified by time-to-live (TTL). This is a numeric value stored as a 32-bit signed integer and represents the amount of time in seconds that the record’s content can be considered valid.
 
 ## Record Lifetime
