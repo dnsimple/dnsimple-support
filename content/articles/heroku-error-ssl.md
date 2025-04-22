@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Heroku SSL errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
+meta: Resolve SSL issues on Heroku with our comprehensive guide. Learn how to troubleshoot and ensure your SSL certificate is configured correctly for seamless security.
 categories:
 - Integrations
 ---

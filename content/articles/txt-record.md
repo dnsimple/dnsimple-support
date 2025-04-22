@@ -1,6 +1,7 @@
 ---
 title: What's a TXT Record?
 excerpt: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
+meta: Learn what TXT records are, how to create and manage them with DNSimple, and discover essential tips for optimizing your domain's DNS settings effectively.
 categories:
 - DNS
 ---
@@ -10,7 +11,7 @@ categories:
 ### Table of Contents {#toc}
 
 * TOC
-{:toc}  
+{:toc}
 
 ---
 
@@ -64,7 +65,7 @@ If you provide TXT record wrapped in double quotes, our system won't make any ch
 
 ## Long TXT records
 
-According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently. 
+According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently.
 
 <note>
 We don't require you to split long TXT records, nor we will store them in a split format
