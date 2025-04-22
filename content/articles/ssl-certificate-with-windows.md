@@ -1,6 +1,7 @@
 ---
 title: SSL Certificates with Windows
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
+meta: Learn how to efficiently obtain and install a new SSL certificate from DNSimple on your Windows server with our detailed step-by-step guide. Secure your site easily.
 categories:
 - SSL Certificates
 ---

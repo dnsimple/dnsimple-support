@@ -1,6 +1,7 @@
 ---
 title: How to Use Templates
 excerpt: How to use templates to facilitate the entry of DNS records.
+meta: Discover how to streamline your DNS record management with templates in DNSimple, making the process faster and more efficient for your domain configurations.
 categories:
 - Templates
 ---

@@ -1,6 +1,7 @@
 ---
 title: SSL Certificates with Microsoft Windows IIS
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Microsoft Windows IIS.
+meta: Learn how to easily obtain and install an SSL certificate from DNSimple on Microsoft IIS with our comprehensive step-by-step guide. Secure your site easily.
 categories:
 - SSL Certificates
 ---
