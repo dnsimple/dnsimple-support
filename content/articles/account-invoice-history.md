@@ -23,12 +23,20 @@ Account owners can view an account's payment history and manually retry failed i
 
 1. On the dashboard, choose the account you want to see the invoice history for.
 
-1. Click **Account** at the top right, then click the **Billings and plans** tab on the left side. 
+1. Click **Account** at the top right, then click the **Billings and plans** tab on the left side.
 
 1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking **View** in the **Last Invoice** section.
 
     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
+
+<info>
+Only available for Enterprise clients.
+</info>
+
+[Enterprise](https://dnsimple.com/sales) customers need quick, reliable access to invoices for auditing, reconciliation, and compliance. Our new filters make it easy to locate specific invoices by ID or content, helping teams save time and streamline financial workflows.
+
+![Enterprise Invoice Filter](/files/enterprise-invoice-filters.png)
 
 ## Payment states
 
@@ -55,7 +63,7 @@ Depending on your plan, your subscription will renew every month or every year. 
 A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 
 <warning>
-If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**. 
+If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**.
 </warning>
 
 ### `refunded` {#invoice-state-refunded}
@@ -80,6 +88,6 @@ While our system occasionally retries failed invoices automatically, you may wan
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
 
-## Have more questions? 
+## Have more questions?
 
-You can [contact our support team](https://dnsimple.com/feedback) any time with questions about your account invoice history — we're here to help. 
+You can [contact our support team](https://dnsimple.com/feedback) any time with questions about your account invoice history — we're here to help.
