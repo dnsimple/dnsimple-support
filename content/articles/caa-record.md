@@ -139,6 +139,10 @@ The reference document for the DNS CAA record are the [RFC 8659](https://datatra
 - If the URL has the `mailto` scheme, it must conform to an email URL, like `mailto:admin@example.com`.
 - If the URL has the `http` or `https` schemes, it must be a valid HTTP/HTTPS URL, like `https://dnsimple.com/report_caa`.
 
+#### `contactemail` tag value
+
+- It must be a valid email containing only ASCII characters.
+
 #### `contactphone` tag value
 
 - It must be a phone number in the [E.164 format](https://www.twilio.com/docs/glossary/what-e164). For example, `+14155552671`.
