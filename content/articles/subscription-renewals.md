@@ -1,6 +1,7 @@
 ---
 title: Subscription Renewals
 excerpt: How to find all the relevant information about subscription renewals, and how to handle failed subscription renewal payments.
+meta: Learn how to manage your subscription renewals effectively, find important information, and resolve any issues with failed payment attempts at DNSimple.
 categories:
 - Account
 ---

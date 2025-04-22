@@ -1,6 +1,7 @@
 ---
 title: Tender Service
 excerpt: How to set up Tender DNS using DNSimple's One-click Service.
+meta: Easily point your domain to Tender using DNSimple's One-click Service. Streamline your DNS management and enhance your online presence with our comprehensive guide.
 categories:
 - Services
 ---

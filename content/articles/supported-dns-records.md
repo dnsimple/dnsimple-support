@@ -1,6 +1,7 @@
 ---
 title: Supported DNS Record Types
 excerpt: The list of DNS record types (RR) supported by DNSimple.
+meta: Explore the comprehensive list of DNS record types supported by DNSimple, including A, AAAA, CNAME, MX, and more, to enhance your domain management experience.
 categories:
 - DNS
 ---

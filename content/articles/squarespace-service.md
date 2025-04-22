@@ -1,6 +1,7 @@
 ---
 title: Squarespace Service
 excerpt: How to set up Squarespace DNS using DNSimple's One-click Service.
+meta: Easily point your domain to Squarespace using DNSimple's One-click DNS Service. Follow our step-by-step guide for a seamless setup and enhance your website's performance.
 categories:
 - Services
 ---

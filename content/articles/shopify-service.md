@@ -1,6 +1,7 @@
 ---
 title: Shopify Service
 excerpt: How to set up Shopify DNS using DNSimple's one-click service.
+meta: Easily point your domain to your Shopify store with DNSimple's one-click DNS setup. Enhance your online presence and simplify your domain management.
 categories:
 - Services
 ---

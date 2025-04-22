@@ -1,6 +1,7 @@
 ---
 title: What's an SOA Record?
 excerpt: What an SOA record is and how to add SOA records in DNSimple.
+meta: Learn about SOA records, their importance in DNS management, and how to easily add and configure them in DNSimple for optimal domain performance.
 categories:
 - DNS
 ---
@@ -32,4 +33,4 @@ The SOA record includes the following details:
 - The upper limit in seconds before a zone is considered no longer authoritative.
 - The negative result TTL (for example, how long a resolver should consider a negative result for a subdomain to be valid before retrying).
 
-You can't configure these values yourself. 
+You can't configure these values yourself.

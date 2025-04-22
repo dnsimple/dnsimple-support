@@ -1,6 +1,7 @@
 ---
 title: How to pronounce DNSimple
-excerpt: "It's not always obvious how to pronounce DNSimple. Here's a guide."
+excerpt: It's not always obvious how to pronounce DNSimple. Here's a guide.
+meta: Discover the correct pronunciation of DNSimple with our easy-to-follow guide, ensuring you're always confident when discussing our services.
 categories:
 - DNSimple
 ---

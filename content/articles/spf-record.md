@@ -1,6 +1,7 @@
 ---
 title: What's an SPF Record?
 excerpt: What an SPF record is, and how the SPF record works.
+meta: Learn what an SPF record is and how it functions to protect your domain from email spoofing, ensuring your messages reach their intended recipients securely.
 categories:
 - DNS
 ---
@@ -20,7 +21,7 @@ Although the SPF record type is deprecated, it's still supported by DNSimple nam
 
 ## What's an SPF record?
 
-An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain. 
+An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain.
 
 ## SPF record format {#record-format}
 
