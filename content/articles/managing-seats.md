@@ -1,6 +1,6 @@
 ---
-title: Managing seats
-excerpt: Managing Seats and Members in Your Team Account.
+title: Managing Seats
+excerpt: Managing seats and members in your account.
 categories:
 - Account
 ---
@@ -14,7 +14,13 @@ categories:
 
 ## Overview
 
-Account seats for additional team members are only available on Teams or Enterprise plans. The Teams plan includes one seat at no additional cost, allowing you to have one member actively involved in domain management. Any seats beyond the initial one will incur extra costs. Enterprise plans have custom pricing and seat numbers. [See our pricing page for more details](https://dnsimple.com/pricing).
+<info>
+Account seats for additional team members are only available on Teams or Enterprise plans.
+</info>
+
+The Teams plan includes one seat at no additional cost, allowing you to have one member actively involved in domain management. Any seats beyond the initial one will incur extra costs. Enterprise plans have custom pricing and seat numbers. [See our pricing page for more details](https://dnsimple.com/pricing).
+
+A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their level of access to **full access** (access to all resources inside an account) or **limited access** (specific to each domain). The members will retain their unique login credentials and multi-factor authentication configuration.
 
 ## Increasing the number of seats
 
@@ -45,6 +51,11 @@ Below is an example of decreasing seats when the number of account members excee
 
 ![Decreasing seats when the number of account members exceeds the newly selected seat count](/files/decreasing-seats.png)
 
+### Removing a member from your account: 
+
+1. Click **Remove** for the member you want to remove, and confirm that you want to remove them.
+2. Once you've removed them from the account, that user will no longer show up on the **Members** card.
+
 ## Inviting new members
 
 To invite new members to your account, follow these steps:
@@ -60,6 +71,10 @@ To invite new members to your account, follow these steps:
 You can increase the seat count and invite members in one seamless process.
 
 ![Increasing seats to invite new members](/files/adding-seats-when-inviting-new-members.png)
+
+<info>
+You cannot add a user who has the same email address as the account email address. You must first change the account email address (we recommend a generic email address like admin@ or billing@) before you can that user.
+</info>
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 
