@@ -1,6 +1,6 @@
 ---
 title: What is DNS?
-excerpt: Domain Name System (DNS) is a system whose main goal is to resolve human-readable domain names to machine-readable IP addresses.
+excerpt: DNS resolves human-readable domain names to machine-readable IP addresses.
 categories:
 - DNS
 - Guides
@@ -27,7 +27,7 @@ Check out our web comic at [howdns.works](https://howdns.works) for a fun overvi
 
 ## Key DNS components
 
-- **DNS records:** These records are instructions living on DNS servers that provide important information about domains and hostnames that live on authoritative name servers. Different DNS record types serve specific purposes. Some common record types are: A records, AAAA records, CNAME records, MX records, TXT records, and NS records. Each type plays a vital role in directing internet traffic.
+- **DNS records:** These records are instructions living on DNS servers that provide important information about domains and hostnames that live on authoritative name servers. Different DNS record types serve specific purposes. Some common record types are: [A records](/articles/a-record/), [AAAA records](/articles/aaaa-record/), [CNAME records](/articles/cname-record/), [MX records](/articles/mx-record/), [TXT records](/articles/txt-record/), and [NS records](/articles/ns-record/). Each type plays a vital role in directing internet traffic.
 
 - **DNS resolver:** Also known as a recursive resolver, these are the first stop in the DNS query process. They look up the IP address for a client. DNS resolvers are essential for translating domain names into IP addresses.
 
@@ -52,6 +52,6 @@ The connections between a resolver and client are recursive queries--queries tha
 1. **Root server query:** The resolver begins by querying a root name server to find which TLD server is responsible for the .com domain.
 1. **TLD server query:** The resolver queries the .com TLD server, which returns the authoritative name server responsible for dnsimple.com.
 1. **Authoritative name server query:** The resolver queries the authoritative name server, which contains the resource records associated with the domain name dnsimple.com.
-1. **IP address returned:** Once the resolver gets the IP address back, it caches the record's information using the TTL value of the record and sends it to your device. DNS caching improves the efficiency of future DNS lookups.
+1. **IP address returned:** Once the resolver gets the IP address back, it caches the record's information using the [TTL](/articles/what-is-ttl/) value of the record and sends it to your device. DNS caching improves the efficiency of future DNS lookups.
 
 ![flow diagram of the DNS resolution process](/files/dns-resolution-steps.svg)
