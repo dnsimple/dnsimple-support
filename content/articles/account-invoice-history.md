@@ -42,9 +42,9 @@ Only available for Enterprise clients.
 
 Your invoices may be in certain states depending on different circumstances:
 
-### `open` {#invoice-state-open}
+### `finalized` {#invoice-state-finalized}
 
-An invoice in an `open` state is being prepared and isn't ready for collection yet. It's unlikely that you'll see open invoices, as they only remain in this state for short periods of time.
+An invoice marked as `finalized` has been generated and is ready for payment, but no collection attempts have been made yet. Because we process invoices immediately, you’ll rarely see invoices linger in this state—they almost always move on to either `collected` or `failed` within minutes.
 
 ### `collected` {#invoice-state-collected}
 
@@ -69,10 +69,6 @@ If we're unable to collect the payment after three weeks, your [account will be 
 ### `refunded` {#invoice-state-refunded}
 
 The payment for this invoice was collected and then returned. When this happens, we mark the corresponding invoice as `refunded`.
-
-### `canceled` {#invoice-state-canceled}
-
-An invoice in the `canceled` state means you no longer have to pay it.
 
 ## Retrying failed payments {#retrying}
 
