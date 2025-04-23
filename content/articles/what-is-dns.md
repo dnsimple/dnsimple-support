@@ -27,15 +27,15 @@ Check out our web comic at [howdns.works](https://howdns.works) for a fun overvi
 
 ## Key DNS components
 
-- DNS records: These records are instructions living on DNS servers that provide important information about domains and hostnames that live on authoritative name servers. Different DNS record types serve specific purposes. Some common record types are: A records, AAAA records, CNAME records, MX records, TXT records, and NS records. Each type plays a vital role in directing internet traffic.
+- **DNS records:** These records are instructions living on DNS servers that provide important information about domains and hostnames that live on authoritative name servers. Different DNS record types serve specific purposes. Some common record types are: A records, AAAA records, CNAME records, MX records, TXT records, and NS records. Each type plays a vital role in directing internet traffic.
 
-- DNS resolver: Also known as a recursive resolver, these are the first stop in the DNS query process. They look up the IP address for a client. DNS resolvers are essential for translating domain names into IP addresses.
+- **DNS resolver:** Also known as a recursive resolver, these are the first stop in the DNS query process. They look up the IP address for a client. DNS resolvers are essential for translating domain names into IP addresses.
 
-- Root name servers: They are at the top of the DNS hierarchy and are the next stop in the DNS resolution process. Root name servers find the specific top-level domain server a domain name is associated with. Root servers are fundamental to the DNS infrastructure.
+- **Root name servers:** They are at the top of the DNS hierarchy and are the next stop in the DNS resolution process. Root name servers find the specific top-level domain server a domain name is associated with. Root servers are fundamental to the DNS infrastructure.
 
-- TLD (top-level domain) servers: The third stop, these manage information for top-level domains like .com, .org, and .net. TLD servers provide information about authoritative name servers for specific domain names. A TLD server will point to the authoritative DNS server for a domain name.
+- **TLD (top-level domain) servers:** The third stop, these manage information for top-level domains like .com, .org, and .net. TLD servers provide information about authoritative name servers for specific domain names. A TLD server will point to the authoritative DNS server for a domain name.
 
-- Authoritative name servers: These servers hold the "official" DNS records for a domain. They are the final source of truth for IP addresses and will return them to the recursive resolver. Authoritative DNS servers are the ultimate source of DNS information.
+- **Authoritative name servers:** These servers hold the "official" DNS records for a domain. They are the final source of truth for IP addresses and will return them to the recursive resolver. Authoritative DNS servers are the ultimate source of DNS information.
 
 ![diagram of DNS component types](/files/dns-components.svg)
 
