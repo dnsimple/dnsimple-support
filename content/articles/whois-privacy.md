@@ -1,6 +1,7 @@
 ---
 title: WHOIS Privacy Protection
 excerpt: How to enable and disable WHOIS Privacy for a domain.
+meta: Learn how to easily enable and disable free WHOIS Privacy for your domain, protecting your personal information from public view and enhancing your online security.
 categories:
 - Whois Privacy
 ---

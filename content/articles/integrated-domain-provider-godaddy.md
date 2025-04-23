@@ -1,6 +1,7 @@
 ---
 title: Integrated Domain Provider - GoDaddy
 excerpt: Link your GoDaddy account to manage domains at DNSimple.
+meta: Easily link your GoDaddy account with DNSimple to streamline domain management, ensuring seamless updates and enhanced control over your online presence.
 categories:
 - Domains
 - Integrations
@@ -55,4 +56,4 @@ For any other value-added services that DNSimple provides, like:
 - Integrations
 - One-click-services
 
-Your DNSimple account will be charged. Please [reach out to our customer support team](https://dnsimple.com/feedback) with any concerns regarding these services. 
+Your DNSimple account will be charged. Please [reach out to our customer support team](https://dnsimple.com/feedback) with any concerns regarding these services.

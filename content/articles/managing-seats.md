@@ -1,6 +1,7 @@
 ---
 title: Managing Seats
 excerpt: Managing seats and members in your account.
+meta: Easily manage seats and team members in your DNSimple account. Learn how to add, remove, and adjust roles for a streamlined team collaboration experience.
 categories:
 - Account
 ---
@@ -51,7 +52,7 @@ Below is an example of decreasing seats when the number of account members excee
 
 ![Decreasing seats when the number of account members exceeds the newly selected seat count](/files/decreasing-seats.png)
 
-### Removing a member from your account: 
+### Removing a member from your account:
 
 1. Click **Remove** for the member you want to remove, and confirm that you want to remove them.
 2. Once you've removed them from the account, that user will no longer show up on the **Members** card.

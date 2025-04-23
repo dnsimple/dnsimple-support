@@ -1,7 +1,7 @@
 ---
 title: Getting to Know Your DNSimple Dashboard
 excerpt: How to use the DNSimple Dashboard to manage your domains.
-meta: Explore the DNSimple dashboard with our comprehensive guide. Learn to navigate your domain list, manage settings, and optimize your online presence effortlessly.
+meta: Explore the DNSimple dashboard with our comprehensive guide. Learn to navigate your domain list, manage settings, and optimize your domain management experience.
 categories:
 - DNSimple
 ---
