@@ -27,10 +27,10 @@ If you have not created your account yet, follow [these instructions](/articles/
 3. Enter your payment information, and click **Start my free trial** to activate your account. The card on file will not be charged until your free trial has ended.
 4. After confirming your payment information, you will see a **Get started** screen. Choose one of the provided options, or click **Skip to dashboard**.
    
-Your account is now active. Once you add domains and activate the zones, they will start responding to DNS queries immediately. Any domains registered elsewhere can be updated to use DNSimple’s name servers.
+Your account is now active. Once you add domains and activate the zones, they will start responding to DNS queries immediately. Any domains registered elsewhere can be updated to use DNSimple's name servers.
 
 For more details on getting started with your new DNSimple account, read our articles on [Getting to Know Your DNSimple Dashboard](/articles/dashboard/) and [Getting to Know Your Domain List](/articles/domain-list/).
 
 ## Have more questions?
 
-If you have any questions or need assistance activating your account, [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance activating your account, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
