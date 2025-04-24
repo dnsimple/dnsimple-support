@@ -127,7 +127,7 @@ describe('Search', () => {
         "Why We Don't Offer Web Hosting Services": 4
       },
       'add user': {
-        "Managing Seats": 2
+        "Managing Multiple Members on One Account": 2
       },
       'access': {
         'API Access Token': 1,
