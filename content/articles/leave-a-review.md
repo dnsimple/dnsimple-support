@@ -1,6 +1,7 @@
 ---
 title: Leave a Review
 excerpt: We love hearing what our customers have to say.
+meta: Share your experience with DNSimple! Your feedback helps us improve our services and better serve our customers. Leave a review and let your voice be heard.
 categories:
 - DNSimple
 ---

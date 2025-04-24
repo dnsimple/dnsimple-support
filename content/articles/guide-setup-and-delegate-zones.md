@@ -2,6 +2,7 @@
 meta: Set Up Your First Zone and Delegate Zones to DNSimple
 title: Set Up Your First Zone and Delegate Zones to DNSimple
 excerpt: A guide for setting up your first zone with DNSimple
+meta: Learn how to set up your first DNS zone and delegate it to DNSimple effectively. Follow our step-by-step guide for seamless DNS management.
 categories:
 - DNSimple
 - Guides
@@ -63,7 +64,7 @@ Manage a lot of zones? Learn how to create, update, and delete zone records in o
 
 ## 3. How to delegate your domain to DNSimple
 
-If you have a zone with records in your DNSimple account, you're ready to delegate your domains to DNSimple or another registrar. Let's look at how that works and what to do if you're transferring a domain from another registrar. 
+If you have a zone with records in your DNSimple account, you're ready to delegate your domains to DNSimple or another registrar. Let's look at how that works and what to do if you're transferring a domain from another registrar.
 
 **Domains registered with DNSimple**
 

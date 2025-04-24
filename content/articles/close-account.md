@@ -1,6 +1,7 @@
 ---
 title: Deleting Yourself as a User
 excerpt: How to permanently delete yourself as a DNSimple user.
+meta: Learn how to permanently close your DNSimple account with our step-by-step guide. Ensure your data is removed and your account is deleted securely.
 categories:
 - Account
 ---

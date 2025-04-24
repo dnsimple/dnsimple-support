@@ -1,6 +1,7 @@
 ---
 title: Ordering a Let's Encrypt Certificate
 excerpt: How to order a Let's Encrypt certificate with DNSimple.
+meta: Learn how to easily order a Let's Encrypt certificate with DNSimple to secure your website with free, automated SSL/TLS encryption for enhanced online safety.
 categories:
 - SSL Certificates
 ---

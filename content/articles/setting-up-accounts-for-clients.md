@@ -1,6 +1,7 @@
 ---
 title: Creating Accounts for Clients
 excerpt: How to create and manage multiple accounts for clients.
+meta: Learn how to efficiently set up and manage multiple client accounts in DNSimple, ensuring seamless organization and streamlined operations for your projects.
 categories:
 - Account
 ---
@@ -47,6 +48,6 @@ Your client doesn't need to have an active subscription. They only need to be si
 
 Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/managing-seats/).
 
-## Have more questions? 
+## Have more questions?
 
-If you have additional questions or need any assistance creating accounts for your clients, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance creating accounts for your clients, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

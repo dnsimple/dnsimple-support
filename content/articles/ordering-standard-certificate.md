@@ -1,6 +1,7 @@
 ---
 title: Ordering a Standard SSL Certificate
 excerpt: How to order a standard SSL certificate with DNSimple.
+meta: Learn how to easily order a standard SSL certificate with DNSimple. Secure your website and protect your data with our step-by-step guide.
 categories:
 - SSL Certificates
 ---
@@ -69,7 +70,7 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
 </div>
 
-## Next steps 
+## Next steps
 
 Once you order the certificate, **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate**.
 
