@@ -1,6 +1,7 @@
 ---
 title: Cloudflare Service
 excerpt: How to setup Cloudflare DNS using DNSimple one-click service.
+meta: Easily set up Cloudflare DNS with DNSimple using these instructions. Enhance your website's performance and security with our step-by-step guide.
 categories:
 - Services
 - Integrations

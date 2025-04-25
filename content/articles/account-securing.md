@@ -1,6 +1,7 @@
 ---
 title: Account Security
 excerpt: Some simple ways to make your DNSimple account more secure.
+meta: Enhance your DNSimple account security with essential tips and best practices to safeguard your information and protect against unauthorized access.
 categories:
 - Account
 ---

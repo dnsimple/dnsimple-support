@@ -1,6 +1,7 @@
 ---
 title: Managing Multiple Members on One Account
 excerpt: How to manage the members on a multi-user DNSimple account.
+meta: Learn how to effectively manage users on your multi-user DNSimple account, ensuring seamless collaboration and streamlined access to your DNS management.
 categories:
 - Account
 ---

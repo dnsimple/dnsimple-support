@@ -1,6 +1,7 @@
 ---
 title: Changing Subscription Plan
 excerpt: How to change the subscribed plan for a DNSimple account.
+meta: Easily update your DNSimple subscription plan with our step-by-step guide. Learn how to manage your account and choose the right plan for your needs.
 categories:
 - Account
 ---

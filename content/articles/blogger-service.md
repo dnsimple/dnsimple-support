@@ -1,6 +1,7 @@
 ---
 title: Blogger Service
 excerpt: How to set up Blogger DNS using DNSimple's One-click Service.
+meta: Easily set up Blogger DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your blogging experience and enhance your online presence.
 categories:
 - Services
 ---
@@ -16,7 +17,7 @@ categories:
 
 [Blogger](http://blogger.com/) is a free blogging service provided by Google.
 
-If you have accounts with DNSimple and Blogger, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blogger. 
+If you have accounts with DNSimple and Blogger, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Blogger.
 
 ## Enabling Blogger service
 
