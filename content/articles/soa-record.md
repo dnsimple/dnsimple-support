@@ -1,7 +1,7 @@
 ---
 title: What's an SOA Record?
 excerpt: What an SOA record is and how to add SOA records in DNSimple.
-meta: Learn about SOA records, their importance in DNS management, and how to easily add and configure them in DNSimple for optimal domain performance.
+meta: Learn about DNS SOA records, their importance in DNS management, and how to easily add and configure them in DNSimple for optimal domain performance.
 categories:
 - DNS
 ---
