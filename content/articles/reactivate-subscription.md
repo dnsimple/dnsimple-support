@@ -1,6 +1,7 @@
 ---
 title: Reactivate Your Subscription
 excerpt: How to reactivate the subscription for a DNSimple account.
+meta: Learn how to easily reactivate your DNSimple subscription with our step-by-step guide, ensuring uninterrupted access to your domain management features.
 categories:
 - Account
 ---
@@ -9,7 +10,7 @@ categories:
 
 When you unsubscribe, or your account was [closed due to non-payment](/articles/account-suspended/), all of your domains and records remain in your account. You can reactivate your subscription and start using DNSimple's services again at any time.
 
-When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/), [domain auto-renewal](/articles/domain-auto-renewal/), and [email forwarding](/articles/email-forwarding/) are immediately disabled. 
+When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/), [domain auto-renewal](/articles/domain-auto-renewal/), and [email forwarding](/articles/email-forwarding/) are immediately disabled.
 
 When you reactivate your account, all previous preferences will be reactivated, including WHOIS privacy, auto-renewal, and email forwarding.
 

@@ -1,6 +1,7 @@
 ---
 title: Why Should I Register My Domain Name with DNSimple?
 excerpt: We won't try to upsell you when you register your domain.
+meta: Discover the top reasons to choose DNSimple as an alternative to GoDaddy for your DNS hosting needs, including seamless management, reliable performance, and exceptional expert support.
 categories:
 - DNSimple
 ---
@@ -13,8 +14,8 @@ We currently don't offer domain registration as a stand-alone service. Since [do
 
 We make [domain registration](/articles/registering-domain/) effortless, and offer [over 500 TLDs](https://dnsimple.com/tlds).
 
-We also keep things straightforward. All domains registered with DNSimple automatically use DNSimple's name servers and [hosted DNS](https://dnsimple.com/products/dns-hosting). And we'll never sell you anything you don't need. 
+We also keep things straightforward. All domains registered with DNSimple automatically use DNSimple's name servers and [hosted DNS](https://dnsimple.com/products/dns-hosting). And we'll never sell you anything you don't need.
 
-## Have more questions? 
+## Have more questions?
 
 If you have any questions about domain registration or how to get set up with a DNSimple subscription, just [contact us](https://dnsimple.com/feedback) — we'd love to help.

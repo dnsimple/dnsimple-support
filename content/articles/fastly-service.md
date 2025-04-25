@@ -1,6 +1,7 @@
 ---
 title: Fastly Service
 excerpt: How to set up Fastly DNS using DNSimple's One-click Service.
+meta: Effortlessly set up Fastly DNS as your asset server with DNSimple's easy one-click service, optimizing your website's performance and reliability in no time.
 categories:
 - Services
 ---
