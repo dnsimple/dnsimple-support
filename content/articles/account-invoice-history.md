@@ -46,7 +46,7 @@ Your invoices may be in certain states depending on different circumstances:
 
 ### `finalized` {#invoice-state-finalized}
 
-A `finalized` invoice is ready for payment, but no collection attempts have been made yet. Because we usually process invoices immediately, you'll rarely see invoices linger in this state as they almost always move on to either `collected` or `failed` within minutes.
+A `finalized` invoice is ready for payment, but no collection attempts have been made. We usually process invoices immediately, so they rarely linger in this state as they typically move on to either `collected` or `failed` within minutes.
 
 ### `collected` {#invoice-state-collected}
 
