@@ -1,6 +1,7 @@
 ---
 title: Netlify Service
 excerpt: How to set up Netlify DNS using DNSimple's One-click Service.
+meta: Easily point your domain to Netlify using DNSimple's One-click DNS Service. Follow our step-by-step guide to streamline your domain management and enhance your website's performance.
 categories:
 - Services
 ---

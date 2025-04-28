@@ -1,6 +1,7 @@
 ---
 title: Managing Integrated Zones
 excerpt: We support managing zones at other authoritative DNS providers.
+meta: Easily manage integrated zones with DNSimple. Streamline your DNS management across multiple authoritative providers such as Route53, and CoreDNS.
 categories:
 - DNS
 ---

@@ -1,6 +1,7 @@
 ---
 title: LaunchRock Service
 excerpt: How to set up LaunchRock DNS using DNSimple's One-click Service.
+meta: Easily set up LaunchRock DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your launch and enhance your online presence.
 categories:
 - Services
 ---

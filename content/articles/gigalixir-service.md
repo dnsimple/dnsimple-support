@@ -1,6 +1,7 @@
 ---
 title: Gigalixir Service
 excerpt: How to set up Gigalixir DNS using DNSimple's One-click Service.
+meta: Easily point your domain to your app on Gigalixir using DNSimple's one-click DNS service. Streamline your deployment process and enhance your app's performance.
 categories:
 - Services
 ---
