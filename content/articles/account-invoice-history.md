@@ -30,11 +30,13 @@ Account owners can view an account's payment history and manually retry failed i
     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
 
+### Invoice filtering
+
 <info>
-Only available for Enterprise clients.
+Only available for [Enterprise](https://dnsimple.com/sales) clients.
 </info>
 
-[Enterprise](https://dnsimple.com/sales) customers need quick, reliable access to invoices for auditing, reconciliation, and compliance. Our new filters make it easy to locate specific invoices by ID or content, helping teams save time and streamline financial workflows.
+Invoice filters provide quick, reliable access to invoices for auditing, reconciliation, and compliance. They simplify locating specific invoices by ID or content, helping teams save time and streamline financial workflows.
 
 ![Enterprise Invoice Filter](/files/enterprise-invoice-filters.png)
 
