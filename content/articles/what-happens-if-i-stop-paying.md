@@ -23,7 +23,7 @@ An account is canceled if payment cannot be collected after 21 days. We will imm
 
 - If you are the billing contact but are not an authorized user, you must contact the authorized user to reactivate the subscription.
 - Ensure the card on file is not expired and has up-to-date billing information.
-- If you don't remember your log in details, click Forgot password on the login page and we will send a password reset to your email. 
+- If you don't remember your login details, click **Forgot password** on the login page, and we will send you a password reset email. 
 
 ## Reactivating your account
 
