@@ -1,6 +1,7 @@
 ---
 title: Regional Records
 excerpt: Select geographical regions where you want a record to appear.
+meta: Easily manage your DNS records by selecting specific geographical regions for their visibility, ensuring optimal performance and relevance for your audience.
 categories:
 - DNS
 ---
