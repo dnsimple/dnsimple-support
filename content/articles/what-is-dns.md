@@ -3,7 +3,6 @@ title: What is DNS?
 excerpt: DNS resolves human-readable domain names to machine-readable IP addresses.
 categories:
 - DNS
-- Guides
 ---
 
 # What is DNS?
