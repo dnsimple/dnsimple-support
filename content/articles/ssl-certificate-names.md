@@ -23,10 +23,10 @@ Moreover, it's not possible to change the name type of a certificate (e.g. switc
 
 You can associate the host names to an SSL certificate using two different attributes:
 
-- the [Common Name](/articles/what-is-common-name)
-- the [Subject Alternative Name](/articles/what-is-ssl-san) (SAN)
+- the [Common Name](/articles/what-is-common-name/)
+- the [Subject Alternative Name](/articles/what-is-ssl-san/) (SAN)
 
-The Common Name allows specifying a single entry (either a wildcard or single-name), whereas the SAN extension supports multiple entries. However, the SAN is only supported by certain [SSL certificate products](/articles/ssl-certificates).
+The Common Name allows specifying a single entry (either a wildcard or single-name), whereas the SAN extension supports multiple entries. However, the SAN is only supported by certain [SSL certificate products](/articles/ssl-certificates/).
 
 At DNSimple we like to simplify your experience, therefore we hid the technical details and implementation behind a simple interface. We won't ask you to select when to use the Common Name or the SAN. Instead, whenever you are allowed to enter multiple names for an SSL certificate, you will be provided a field to enter the list of names.
 

@@ -46,7 +46,7 @@ The keyword `{{domain}}` automatically fills in the domain name to which the tem
 
 ## Applying a template
 
-Navigate to the [record editor](/articles/record-editor) and select **Templates** from the dropdown.
+Navigate to the [record editor](/articles/record-editor/) and select **Templates** from the dropdown.
 
 ![Apply the template from the record editor](/files/template-apply-template.png)
 

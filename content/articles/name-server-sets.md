@@ -7,7 +7,7 @@ categories:
 
 # What Is A Name Server Set?
 
-Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers), [secondary DNS](/articles/secondary-dns) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors. 
+Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors. 
 
 <info>
 Changes to a name server set's definition will not affect any existing domain name server or configurations that had included the name server set.
@@ -46,7 +46,7 @@ Account name server sets are private to an account and can contain custom name s
 
     ![Adding a name server set](/files/name-server-sets-add.png)
 
-1. Enter a unique label for the new name server set, the hostname, and (optionally) glue IP(s) for each name server you want in the name server set. Glue IP(s) are used only when changing [name server delegation](/articles/setting-name-servers) for domains registered with DNSimple.
+1. Enter a unique label for the new name server set, the hostname, and (optionally) glue IP(s) for each name server you want in the name server set. Glue IP(s) are used only when changing [name server delegation](/articles/setting-name-servers/) for domains registered with DNSimple.
 
     ![New name server set](/files/name-server-sets-new.png)
 

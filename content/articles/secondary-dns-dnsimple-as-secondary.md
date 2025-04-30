@@ -8,7 +8,7 @@ categories:
 
 # Add DNSimple as a secondary DNS server
 
-For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns).
+For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns/).
 
 #### Table of contents {#toc}
 

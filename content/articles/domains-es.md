@@ -35,9 +35,9 @@ Provide any of the following identification details:
 
 ### Auto-renewal only {#auto-renewal-required}
 
-This TLD doesn't support manual renewals. To successfully renew the domain, the [auto-renewal feature](/articles/domain-auto-renewal) must be enabled at least 1 month before the domain will expire, as explained in the [Auto-Renewal Required Domains article](/articles/auto-renew-only-domains).
+This TLD doesn't support manual renewals. To successfully renew the domain, the [auto-renewal feature](/articles/domain-auto-renewal/) must be enabled at least 1 month before the domain will expire, as explained in the [Auto-Renewal Required Domains article](/articles/auto-renew-only-domains/).
 
-If auto-renewal is not enabled, the domain will be scheduled for removal **12 days before the expiration**. The registrar can deactivate it at any point during this period (even before the expiration date). You may be able to [restore](/articles/restoring-domain) the domain before final deletion, but the registry will charge a redemption fee.
+If auto-renewal is not enabled, the domain will be scheduled for removal **12 days before the expiration**. The registrar can deactivate it at any point during this period (even before the expiration date). You may be able to [restore](/articles/restoring-domain/) the domain before final deletion, but the registry will charge a redemption fee.
 
 ## Have more questions?
 

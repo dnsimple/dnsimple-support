@@ -26,9 +26,9 @@ This feature can't be used to redirect from one protocol to another protocol on 
 
 ## Configuring a redirect
 
-To configure a redirect, use the proprietary [`URL` record](/articles/url-record), available in the [record editor](/articles/record-editor).
+To configure a redirect, use the proprietary [`URL` record](/articles/url-record/), available in the [record editor](/articles/record-editor/).
 
-[This article](/articles/manage-url-record) contains specific information on how to add, update, and remove a `URL` record in DNSimple.
+[This article](/articles/manage-url-record/) contains specific information on how to add, update, and remove a `URL` record in DNSimple.
 
 After adding a `URL` record, the following redirects will work immediately:
 
@@ -47,8 +47,8 @@ The redirector sets a 301 status code. The code is not configurable, and it's no
 
 The DNSimple redirector supports HTTPS redirects. In order to enable it:
 
-  1. Add a [`URL` record](/articles/url-record) to your domain
-  1. Issue an [SSL Certificate](/articles/ssl-certificates) for the same domain
+  1. Add a [`URL` record](/articles/url-record/) to your domain
+  1. Issue an [SSL Certificate](/articles/ssl-certificates/) for the same domain
 
 Incoming HTTPS requests will be handled automatically with that SSL certificate:
 

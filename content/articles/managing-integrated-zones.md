@@ -8,7 +8,7 @@ categories:
 
 # Managing Integrated Zones
 
-From the Domain Names page, you can view the refreshed state of your DNSimple zones alongside zones from [Integrated DNS Providers](/articles/integrated-dns-providers).
+From the Domain Names page, you can view the refreshed state of your DNSimple zones alongside zones from [Integrated DNS Providers](/articles/integrated-dns-providers/).
 
 <div class="section-steps" markdown="1">
 ##### Accessing the Domain Names page
@@ -17,7 +17,7 @@ From the Domain Names page, you can view the refreshed state of your DNSimple zo
 
     ![Domain Names Tab](/files/domain-names-tab.png)
 
-1.  On the <label>Domain Names</label> page, the zones in your DNSimple account and zones from [Integrated DNS Providers](/articles/integrated-dns-providers) will be listed. Click any connected zone to enter the [Record Editor](/articles/record-editor-integrated-zones) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
+1.  On the <label>Domain Names</label> page, the zones in your DNSimple account and zones from [Integrated DNS Providers](/articles/integrated-dns-providers/) will be listed. Click any connected zone to enter the [Record Editor](/articles/record-editor-integrated-zones/) and manage the zone's records. The labels under the DNS Zones column indicate which DNS provider(s) the zone can be managed at.
 
     ![Domain Names Integrated Zones Table](/files/domain-names-integrated-zones.png)
 </div>

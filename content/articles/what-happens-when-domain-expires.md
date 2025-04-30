@@ -9,10 +9,10 @@ categories:
 
 When a domain expires it becomes inactive immediately and all the services attached to it cease to function. You can't make any updates to the domain while it is expired. The domain will remain available for reactivation at your regular domain rate under your list of Expired Domains.
 
-To reactivate an expired domain, take a look at our [article on how to renew a domain](/articles/renewing-domain).
+To reactivate an expired domain, take a look at our [article on how to renew a domain](/articles/renewing-domain/).
 
 <warning>
-Certain domain names are [auto-renew only](/articles/domain-auto-renewal) and cannot be renewed manually. For these domains there is no grace period. Once they've expired it's not possible to recover them.
+Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they've expired it's not possible to recover them.
 </warning>
 
 ## ICANN TLDs
@@ -43,7 +43,7 @@ A redemption grace period is provided after the registrar has issued a delete re
 
 Domains in our system can go into either Redemption Grace Period or Extended Redemption Grace Period.
 
-To reactivate a domain in redemption status, please take a look at our [article on how to restore a domain](/articles/restoring-domain).
+To reactivate a domain in redemption status, please take a look at our [article on how to restore a domain](/articles/restoring-domain/).
 
 ### Deletion period
 

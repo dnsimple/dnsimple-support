@@ -12,7 +12,7 @@ The following is checklist of common issues to help you if a record isn't resolv
 
 ## Check the domain resolution status
 
-To use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine if the domain is resolving with DNSimple.
+To use our [DNS hosting service](/articles/dns-hosting/), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues/) to determine if the domain is resolving with DNSimple.
 
 
 ## Check that you're using a fresh DNS cache
@@ -92,7 +92,7 @@ www.dnsimple.com.   3600    IN  CNAME   dnsimple.com.
 ;; Received 59 bytes from 162.159.27.4#53(ns4.dnsimple.com) in 34 ms
 ~~~
 
-In the resulting query chain, you can see each hop to resolve the CNAME. First, the root name servers are queried. Then, the query is passed along to the ".com" name servers and then to [DNSimple's name servers](/articles/dnsimple-nameservers). Finally, DNSimple returns the CNAME record. If DNSimple's name servers are not present in this trace, you'll need to [point to DNSimple](/articles/pointing-domain-to-dnsimple).
+In the resulting query chain, you can see each hop to resolve the CNAME. First, the root name servers are queried. Then, the query is passed along to the ".com" name servers and then to [DNSimple's name servers](/articles/dnsimple-nameservers). Finally, DNSimple returns the CNAME record. If DNSimple's name servers are not present in this trace, you'll need to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 If you recently made changes to your record, the update may still be in progress. See the *Check the record propagation delay* and *Check the record update delay* sections.
 

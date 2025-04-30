@@ -23,59 +23,59 @@ We currently support more than 30 services:
 
 ### Blogging
 
-* [Blogger](/articles/blogger-service)
+* [Blogger](/articles/blogger-service/)
 
 ### Ecommerce
 
-* [Blackbell](/articles/blackbell-service)
-* [Shopify](/articles/shopify-service)
-* [SupaDupa](/articles/supadupa-service)
-* [Squarespace](/articles/squarespace-service)
+* [Blackbell](/articles/blackbell-service/)
+* [Shopify](/articles/shopify-service/)
+* [SupaDupa](/articles/supadupa-service/)
+* [Squarespace](/articles/squarespace-service/)
 
 ### Email
 
-* [Atmail](/articles/atmail-service)
-* [DMARC Reports by Postmark](/articles/postmark-dmarc-service)
-* [Fastmail](/articles/fastmail-service)
-* [Mailgun](/articles/mailgun-service)
-* [Pobox](/articles/pobox-service)
-* [Postmark](/articles/postmark-service)
-* [Rackspace email](/articles/rackspace-email-service)
+* [Atmail](/articles/atmail-service/)
+* [DMARC Reports by Postmark](/articles/postmark-dmarc-service/)
+* [Fastmail](/articles/fastmail-service/)
+* [Mailgun](/articles/mailgun-service/)
+* [Pobox](/articles/pobox-service/)
+* [Postmark](/articles/postmark-service/)
+* [Rackspace email](/articles/rackspace-email-service/)
 
 ### Hosting
 
-* [Divio Aldryn](/articles/aldryn-service)
-* [Format](/articles/format-service)
-* [GitHub Pages](/articles/github-pages)
-* [Jimdo](/articles/jimdo-service)
-* [Launchrock](/articles/launchrock-service)
-* [Netlify](/articles/netlify-service)
-* [Platform.sh](/articles/platformsh-service)
-* [Surge](/articles/surge-service)
-* [Webflow](/articles/webflow-service)
-* [Weebly](/articles/weebly-service)
-* [Wordpress](/articles/wordpress-service)
+* [Divio Aldryn](/articles/aldryn-service/)
+* [Format](/articles/format-service/)
+* [GitHub Pages](/articles/github-pages/)
+* [Jimdo](/articles/jimdo-service/)
+* [Launchrock](/articles/launchrock-service/)
+* [Netlify](/articles/netlify-service/)
+* [Platform.sh](/articles/platformsh-service/)
+* [Surge](/articles/surge-service/)
+* [Webflow](/articles/webflow-service/)
+* [Weebly](/articles/weebly-service/)
+* [Wordpress](/articles/wordpress-service/)
 
 ### Infrastructure
 
-* [AWS Elastic Beanstalk](/articles/amazon-elasticbeanstalk-service)
-* [AWS Lightsail](/articles/amazon-lightsail-service)
-* [AWS S3](/articles/amazon-s3-service)
-* [Cloudflare](/articles/cloudflare-service)
-* [Fanout](/articles/fanout-service)
-* [Fastly](/articles/fastly-service)
-* [Geniuslink](/articles/geniuslink-service)
-* [Gigalixir](/articles/gigalixir-service)
-* [Heroku](/articles/heroku-service)
-* [URL forwarding](/articles/urlforward-service)
-* [Windows Azure](/articles/windows-azure-service)
+* [AWS Elastic Beanstalk](/articles/amazon-elasticbeanstalk-service/)
+* [AWS Lightsail](/articles/amazon-lightsail-service/)
+* [AWS S3](/articles/amazon-s3-service/)
+* [Cloudflare](/articles/cloudflare-service/)
+* [Fanout](/articles/fanout-service/)
+* [Fastly](/articles/fastly-service/)
+* [Geniuslink](/articles/geniuslink-service/)
+* [Gigalixir](/articles/gigalixir-service/)
+* [Heroku](/articles/heroku-service/)
+* [URL forwarding](/articles/urlforward-service/)
+* [Windows Azure](/articles/windows-azure-service/)
 
 ### Productivity
 
-* [Google Workspace](/articles/google-workspace-service)
-* [KickOffLabs](/articles/kickofflabs-service)
-* [Office365](/articles/office-365-service)
-* [Tender support](/articles/tender-service)
+* [Google Workspace](/articles/google-workspace-service/)
+* [KickOffLabs](/articles/kickofflabs-service/)
+* [Office365](/articles/office-365-service/)
+* [Tender support](/articles/tender-service/)
 
 <info>
 The service directory is open-source. [Learn how to propose or contribute new services](/articles/services/#contributing-a-new-service).

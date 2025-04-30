@@ -24,7 +24,7 @@ If you can't access your SSL certificate page, or you didn't request the certifi
 
 ## Generic procedure
 
-To determine the [Certificate Authority](/articles/what-is-certificate-authority) that issued your certificate, open the website in a browser and click on the certificate information.
+To determine the [Certificate Authority](/articles/what-is-certificate-authority/) that issued your certificate, open the website in a browser and click on the certificate information.
 
 The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
 
@@ -34,4 +34,4 @@ Search for the issuer organization name. Please note that, in some cases, Certif
 
 For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Sectigo certificate authority. The authority name is clearly visible in the *Common Name* field.
 
-Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities).
+Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities/).

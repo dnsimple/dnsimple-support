@@ -7,9 +7,9 @@ categories:
 
 # Expiring Domain Email Notifications
 
-ICANN, the organization that oversees domain name registrations for most top-level domains, requires notifications to be sent about domains registered with us that will expire soon. These notifications come directly from our upstream partners and are sent to the [registrant email address](/articles/contact-management) for the domain.
+ICANN, the organization that oversees domain name registrations for most top-level domains, requires notifications to be sent about domains registered with us that will expire soon. These notifications come directly from our upstream partners and are sent to the [registrant email address](/articles/contact-management/) for the domain.
 
-You may receive emails similar to the following, up to three times for each expiring domain – even if [domain auto-renewal](/articles/domain-auto-renewal) is enabled:
+You may receive emails similar to the following, up to three times for each expiring domain – even if [domain auto-renewal](/articles/domain-auto-renewal/) is enabled:
 
 ![Domain Expiration Email #1](/files/domain-expiration-email-1.png)
 

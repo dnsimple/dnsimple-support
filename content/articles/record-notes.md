@@ -15,7 +15,7 @@ categories:
 
 ---
 
-When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor), you can include a note to provide context for the change. They can be used to explain why a record exists, what it's used for, or any other information that might be useful to you or your team.
+When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor/), you can include a note to provide context for the change. They can be used to explain why a record exists, what it's used for, or any other information that might be useful to you or your team.
 
 ## Video walk-through
 
@@ -46,7 +46,7 @@ When deleting a record, you can also include a note to help you remember why you
 <div class="section-steps" markdown="1">
 ##### Creating a record deletion note
 
-1. Access the [record editor](/articles/record-editor) for the relevant domain.
+1. Access the [record editor](/articles/record-editor/) for the relevant domain.
 1. Click on the trash icon at the end of the record row to delete the record.
     ![Delete a record](/files/record-notes-delete.png)
 1. In the popup, you can enter a note to help you remember the reason for the record deletion.
@@ -55,7 +55,7 @@ When deleting a record, you can also include a note to help you remember why you
 
 ## Viewing record notes in your audit history
 
-When you create, update, or delete a record, and add a record note, the note will be included with the DNS record activity in your [audit history](/articles/activity-tracking).
+When you create, update, or delete a record, and add a record note, the note will be included with the DNS record activity in your [audit history](/articles/activity-tracking/).
 
 ![Record note in audit history](/files/record-notes-activities.png)
 

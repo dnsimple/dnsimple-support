@@ -40,7 +40,7 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 
 ## Forgotten password
 
-Learn how to request password reset [here](/articles/forgot-password).
+Learn how to request password reset [here](/articles/forgot-password/).
 
 ## Further reading
 

@@ -14,4 +14,4 @@ DNSimple has servers in <%= POPS.count %> locations around the world:
 <% POPS.each do |server| %>* <%= server %>
 <% end %>
 
-If you want to learn more about Anycast, [read this support article](/articles/why-anycast-dns).
+If you want to learn more about Anycast, [read this support article](/articles/why-anycast-dns/).

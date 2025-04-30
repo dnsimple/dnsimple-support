@@ -13,14 +13,14 @@ When recovering a domain, we won't be able to recover your DNS records. We recom
 </warning>
 
 ## The domain was registered with DNSimple
-When you [delete a domain](/articles/deleting-domain) that you registered through DNSimple from your account, the domain is still present in the registry (you can verify this by running [a WHOIS lookup](https://dnsimple.com/whois)). The domain will remain registered and belong to you until it expires and the registry deletes it.
+When you [delete a domain](/articles/deleting-domain/) that you registered through DNSimple from your account, the domain is still present in the registry (you can verify this by running [a WHOIS lookup](https://dnsimple.com/whois)). The domain will remain registered and belong to you until it expires and the registry deletes it.
 
 <div class="section-steps" markdown="1">
 ##### To recover a registered domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Add DNS zone_.
-1.  [Contact us](/articles/dnsimple-support) over support indicating that you want to recover a domain registered with DNSimple and what domain it is.
+1.  Follow the steps to [add a domain](/articles/adding-domain/) to your account, choosing _Add DNS zone_.
+1.  [Contact us](/articles/dnsimple-support/) over support indicating that you want to recover a domain registered with DNSimple and what domain it is.
 
 </div>
 
@@ -33,6 +33,6 @@ To recover a domain that's registered with an external registrar, add the domain
 ##### To recover a hosted domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow the steps to [add a domain](/articles/adding-domain) to your account, choosing _Add DNS zone_.
+1.  Follow the steps to [add a domain](/articles/adding-domain/) to your account, choosing _Add DNS zone_.
 
 </div>

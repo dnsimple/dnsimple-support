@@ -30,7 +30,7 @@ If your application is using HTTPS, check the section [redirect www to not-www w
 
 In this scenario you have an application hosted on Heroku configured with a custom domain (e.g. `example.com`). You want to redirect the www version (`www.example.com`) to the same Heroku application (or vice-versa). **The application is not using HTTPS**.
 
-In this case, the simplest solution is to use our [redirector service](/articles/redirector) to redirect `http://www.example.com` to `http://example.com`.
+In this case, the simplest solution is to use our [redirector service](/articles/redirector/) to redirect `http://www.example.com` to `http://example.com`.
 
 <div class="section-steps" markdown="1">
 ##### To handle the redirect using the redirector {#redirect-nohttps-redirector}
@@ -61,7 +61,7 @@ Alternatively, you can point both the www and not www versions of the site to He
 1.  Go to the record editor and add two DNS records, one for each host name, pointing to the Heroku endpoint. Assuming the Heroku endpoint for the application is `awesome-application.herokuapp.com`:
 
     - Add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the application endpoint `awesome-application.herokuapp.com`
-    - Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the application endpoint `awesome-application.herokuapp.com`
+    - Add a [CNAME record](/articles/cname-record/) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the application endpoint `awesome-application.herokuapp.com`
 
 1.  In your application, intercept the incoming request. If the request host is not the canonical one, redirect the request to the canonical domain. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 </div>
@@ -71,10 +71,10 @@ Alternatively, you can point both the www and not www versions of the site to He
 
 In this scenario, you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the www version (`www.example.com`) to the same Heroku application (or vice-versa). **The application is also using HTTPS**.
 
-In this case, [you cannot use our redirector service](/articles/redirector). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
+In this case, [you cannot use our redirector service](/articles/redirector/). The best strategy is to handle the redirect at application level using a certificate that covers both the www and not-www host names.
 
 <note>
-To redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-names) with the same certificate.
+To redirect using HTTPS, you need to have a certificate that covers both the www and not-www (root domain) host names. You can purchase a single-name certificate for `www` or a wildcard certificates for `*` [to cover the root domain](/articles/ssl-certificate-names/) with the same certificate.
 </note>
 
 <div class="section-steps" markdown="1">
@@ -93,7 +93,7 @@ To redirect using HTTPS, you need to have a certificate that covers both the www
 1.  Go to the record editor and two DNS records, one for each host name, **pointing to the Heroku SSL endpoint**:
 
     - Add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `example.com.herokudns.com`
-    - Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `www.example.com.herokudns.com`
+    - Add a [CNAME record](/articles/cname-record/) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `www.example.com.herokudns.com`
 
 1.  In your application, intercept the incoming request. If the request host is not the canonical one, redirect the request to the canonical domain. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 
@@ -111,7 +111,7 @@ To redirect using HTTPS, you need to have a certificate that covers both the www
 1.  Go to the record editor and two DNS records, one for each host name, **pointing to the Heroku SSL endpoint**:
 
     - Add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `encrypted-application.herokussl.com`
-    - Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `encrypted-application.herokussl.com`
+    - Add a [CNAME record](/articles/cname-record/) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `encrypted-application.herokussl.com`
 
 1.  In your application, intercept the incoming request. If the request host is not the canonical one, redirect the request to the canonical domain. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 </div>
@@ -121,7 +121,7 @@ To redirect using HTTPS, you need to have a certificate that covers both the www
 
 In this scenario you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the HTTP version (`http://example.com`) to the same Heroku application under HTTPS (`https://example.com`).
 
-In this case, [you cannot use our redirector service](/articles/redirector) because it's not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
+In this case, [you cannot use our redirector service](/articles/redirector/) because it's not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
 
 <div class="section-steps" markdown="1">
 ##### To handle the redirect at Heroku {#redirect-http2https-application}
@@ -136,7 +136,7 @@ In this case, [you cannot use our redirector service](/articles/redirector) beca
 1.  Go to the record editor and a DNS records for the host name, **pointing to the Heroku SSL endpoint**:
 
     - If the host name is the root domain (e.g. `example.com`): add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `example.com.herokudns.com`
-    - If the host name is a subdomain (e.g. `www.example.com`): Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `example.com.herokudns.com`
+    - If the host name is a subdomain (e.g. `www.example.com`): Add a [CNAME record](/articles/cname-record/) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `example.com.herokudns.com`
 
 1.  In your application, intercept the incoming request. If the request comes from HTTP, redirect the request to the same domain replacing HTTP with HTTPS. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 
@@ -151,7 +151,7 @@ In this case, [you cannot use our redirector service](/articles/redirector) beca
 1.  Go to the record editor and a DNS records for the host name, **pointing to the Heroku SSL endpoint**:
 
     - If the host name is the root domain (e.g. `example.com`): add an [ALIAS record](/articles/alias-record) to point `example.com` to Heroku. Leave the _Name_ of the record empty and set the _Content_ field to the SSL endpoint `encrypted-application.herokussl.com`
-    - If the host name is a subdomain (e.g. `www.example.com`): Add a [CNAME record](/articles/cname-record) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `encrypted-application.herokussl.com`
+    - If the host name is a subdomain (e.g. `www.example.com`): Add a [CNAME record](/articles/cname-record/) to point `www.example.com` to Heroku. The _Name_ of the record is `www` and the _Content_ field is the SSL endpoint `encrypted-application.herokussl.com`
 
 1.  In your application, intercept the incoming request. If the request comes from HTTP, redirect the request to the same domain replacing HTTP with HTTPS. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 </div>
