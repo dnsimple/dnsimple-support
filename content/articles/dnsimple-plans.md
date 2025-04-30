@@ -96,6 +96,8 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
 - DNS high-volume zone discounts
 - [100% SLA available](https://dnsimple.com/service-level-agreement)
+- Multiple payment methods
+- Advanced invoice search and filtering
 
 To explore your options for our Enterprise or Reseller plans, [contact us](https://dnsimple.com/sales) for more information.
 
