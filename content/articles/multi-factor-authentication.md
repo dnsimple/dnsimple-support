@@ -219,7 +219,7 @@ Recovery codes can be regenerated. When a recovery code is regenerated, you cann
 
 Multi-factor protection is attached to a user profile, not an account, just like your username and password credentials.
 
-If [an account has multiple users](/articles/account-users), each member must enable MFA separately. If your user profile has access to more than one account, you only need to enable MFA once.
+If [an account has multiple users](/articles/account-users/), each member must enable MFA separately. If your user profile has access to more than one account, you only need to enable MFA once.
 
 ## One-time password authenticator applications {#authenticator}
 

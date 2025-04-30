@@ -7,16 +7,16 @@ categories:
 
 # How long does it take to issue an SSL certificate?
 
-The time required to issue a new [SSL certificate](/articles/ssl-certificates) depends on many factors. The SSL certificate type, the validation process, and how quickly you respond with requested information from us or the [certificate authority](/articles/what-is-certificate-authority) communications.
+The time required to issue a new [SSL certificate](/articles/ssl-certificates/) depends on many factors. The SSL certificate type, the validation process, and how quickly you respond with requested information from us or the [certificate authority](/articles/what-is-certificate-authority/) communications.
 
 ## Standard certificates
 
-For standard [single-name](/articles/ssl-certificates#standard-singlename) and [wildcard](/articles/ssl-certificates#standard-wildcard) certificates, it can take from a minimum of one hour to several hours, **after you [approve the SSL certificate](/articles/ssl-certificates-email-validation)**.
+For standard [single-name](/articles/ssl-certificates#standard-singlename) and [wildcard](/articles/ssl-certificates#standard-wildcard) certificates, it can take from a minimum of one hour to several hours, **after you [approve the SSL certificate](/articles/ssl-certificates-email-validation/)**.
 
 Occasionally, the issuance may take longer and require up to several days. This is the case when some issue occurs during the issuance or validation. Common issues are:
 
 - misconfiguration of the domain
-- [CAA records](/articles/caa-record) preventing the validation and issuance
+- [CAA records](/articles/caa-record/) preventing the validation and issuance
 - issues in the email approval
 
 <note>
@@ -28,7 +28,7 @@ In most cases, the purchase process can get stuck because the certificate is nev
 <note>
 #### Sectigo Wildcard Certificates and CAA
 
-Customers who purchase a Sectigo wildcard certificate from us need to make sure they have both `issuewild` and `issue` [CAA records](/articles/caa-record), because they add an additional single-name to the certificate to cover the non-wildcard name.
+Customers who purchase a Sectigo wildcard certificate from us need to make sure they have both `issuewild` and `issue` [CAA records](/articles/caa-record/), because they add an additional single-name to the certificate to cover the non-wildcard name.
 
 For example, buying a certificate for `*.example.com` issues a certificate with both `example.com` and `*.example.com` in the certificate names. This means you need to configure your CAA records:
 
@@ -45,4 +45,4 @@ If the order is taking longer, it is generally because of a possible issuance pr
 
 - misconfiguration of the domain
 - misconfiguration of [DNSSEC](/articles/dnssec/#troubleshooting-dnssec-configurations) for the domain
-- [CAA records](/articles/caa-record) preventing the issuance
+- [CAA records](/articles/caa-record/) preventing the issuance

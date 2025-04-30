@@ -88,4 +88,4 @@ api.dnsimple.com.	59	IN	A	208.93.64.253
 
 ## Manage A records
 
-From the DNSimple record editor, you can [add, remove, and update A records](/articles/manage-a-record).
+From the DNSimple record editor, you can [add, remove, and update A records](/articles/manage-a-record/).

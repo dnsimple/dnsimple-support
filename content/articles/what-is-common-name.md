@@ -30,7 +30,7 @@ It must precisely match the server name where the certificate is installed. If t
 <tip>
 #### Single-name or Wildcard?
 
-Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-names) for help determining the appropriate host names for your certificate.
+Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certificate-names/) for help determining the appropriate host names for your certificate.
 </tip>
 
 ##### Example of host name mismatch error on Google Chrome
@@ -46,7 +46,7 @@ Read the article [Choosing the SSL Certificate Common Name](/articles/ssl-certif
 
 The common name can only contain up to one entry: either a wildcard or non-wildcard name. It's not possible to specify a list of names covered by an SSL certificate in the common name field.
 
-The [Subject Alternative Name extension](/articles/what-is-ssl-san) (also called Subject Alternate Name or SAN) was introduced to solve this limitation. The SAN allows issuance of multi-name SSL certificates.
+The [Subject Alternative Name extension](/articles/what-is-ssl-san/) (also called Subject Alternate Name or SAN) was introduced to solve this limitation. The SAN allows issuance of multi-name SSL certificates.
 
 The ability to directly specify the content of a certificate SAN depends on the Certificate Authority and the specific product. Most certificate authorities have historically marketed multi-domain SSL certificates as a separate product. They're generally charged at a higher rate than a standard single-name certificate.
 

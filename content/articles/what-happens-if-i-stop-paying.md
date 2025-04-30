@@ -27,7 +27,7 @@ An account is canceled if payment cannot be collected after 21 days. We will imm
 
 ## Reactivating your account
 
-You have the option to reactivate a canceled subscription. Just follow the steps outlined in [this article](/articles/reactivate-subscription).
+You have the option to reactivate a canceled subscription. Just follow the steps outlined in [this article](/articles/reactivate-subscription/).
 
 ## Have more questions?
 

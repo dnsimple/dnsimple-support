@@ -8,7 +8,7 @@ categories:
 # Renewing a standard SSL Certificate
 
 <note>
-There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate) before continuing with this document.
+There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate/) before continuing with this document.
 </note>
 
 All standard DNSimple SSL certificates, including renewals, are valid for one year (397 days maximum) from their issue date. Sixty days before the certificate expires, you will begin receiving renewal notices.
@@ -33,9 +33,9 @@ These are the steps to renew your standard certificate:
 
 1.  Follow the instructions to purchase the certificate renewal.
 
-    1.  Check the certificate [common name](/articles/what-is-common-name) matches the one you want to renew.
+    1.  Check the certificate [common name](/articles/what-is-common-name/) matches the one you want to renew.
     1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
-    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
+    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
     ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
@@ -52,4 +52,4 @@ These are the steps to renew your standard certificate:
 
 Once you order the certificate, **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate**.
 
-See [getting started with SSL certificates](/articles/getting-started-ssl-certificates).
+See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).

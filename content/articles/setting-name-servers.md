@@ -57,15 +57,15 @@ DNSimple's listing of NS records for the domain will be updated to match the nam
 
 Pointing the name servers to DNSimple provider will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-To change the name servers to DNSimple, follow the steps in [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered).
+To change the name servers to DNSimple, follow the steps in [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
 
 ## Reserved name servers {#reserved-name-servers}
 
-If you have [Secondary DNS](/articles/secondary-dns) or [Vanity Name Servers](/articles/vanity-nameservers) set up for your domain, the name servers belonging to the Secondary DNS or Vanity Name Servers configuration are considered "reserved", i.e. they cannot be edited or removed through the **Edit delegation** page.
+If you have [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/) set up for your domain, the name servers belonging to the Secondary DNS or Vanity Name Servers configuration are considered "reserved", i.e. they cannot be edited or removed through the **Edit delegation** page.
 
 ![Reserved name servers](/files/reserved-name-servers.png)
 
-To make changes to a reserved name server, click on the configuration icon next to it. You will be taken to the [Secondary DNS](/articles/secondary-dns) or [Vanity Name Servers](/articles/vanity-nameservers) configuration where you can make the necessary changes.
+To make changes to a reserved name server, click on the configuration icon next to it. You will be taken to the [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/) configuration where you can make the necessary changes.
 
 ![Edit reserved name servers through configuration](/files/reserved-name-servers-edit-configuration.png)
 

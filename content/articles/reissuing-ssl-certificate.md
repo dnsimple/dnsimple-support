@@ -14,18 +14,18 @@ categories:
 
 ---
 
-Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new private key and [CSR](/articles/what-is-csr) for an existing issued certificate.
+Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new private key and [CSR](/articles/what-is-csr/) for an existing issued certificate.
 
-Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the [certificate authority](/articles/what-is-certificate-authority). The process results in a new SSL certificate being issued.
+Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the [certificate authority](/articles/what-is-certificate-authority/). The process results in a new SSL certificate being issued.
 
 <info>
 #### How long does it take to re-issue an SSL certificate?
 
-In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate).
+In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 </info>
 
 <note>
-This document applies only to standard SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate) at this time.
+This document applies only to standard SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) at this time.
 
 Please note that there are [rate limits](https://letsencrypt.org/docs/rate-limits/) in place with Let's Encrypt, so be sure to request a new certificate only when absolutely necessary or you may be unable to request other certificates.
 </note>
@@ -69,7 +69,7 @@ Re-issuing a certificate is not a fully automated process. Requests have to be m
 
 ## Approving the SSL certificate re-issue
 
-Once the certificate re-issue is requested, we will forward the information to the certificate authority. The certificate authority will then send you a link to [validate the certificate](/articles/ssl-certificates-email-validation), as it happened for the original certificate purchase.
+Once the certificate re-issue is requested, we will forward the information to the certificate authority. The certificate authority will then send you a link to [validate the certificate](/articles/ssl-certificates-email-validation/), as it happened for the original certificate purchase.
 
 <warning>
 #### Remember to approve the certificate reissue!

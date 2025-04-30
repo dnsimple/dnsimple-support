@@ -6,7 +6,7 @@ categories:
 ---
 # Record Editor for Integrated Zones
 
-From the [Record Editor](/articles/record-editor) page, you can view the records and sync state for zones at DNSimple and any configured [Integrated DNS Providers](/articles/integrated-dns-providers).
+From the [Record Editor](/articles/record-editor/) page, you can view the records and sync state for zones at DNSimple and any configured [Integrated DNS Providers](/articles/integrated-dns-providers/).
 
 ## Managing integrated zone records in the Record Editor
 

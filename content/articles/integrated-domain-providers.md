@@ -21,7 +21,7 @@ DNSimple supports the ability to manage domains that are registered with other d
 
 - **Import integrated domains**: When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domain Names page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, name servers from the DNSimple dashboard.
-- **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain) your domains.
+- **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain/) your domains.
 - **Domain expiration notices**: Get email notifications when your integrated domains are near expiry.
 
 ## Supported Integrated Domain Providers
@@ -30,7 +30,7 @@ To manage integrated domains from DNSimple, you first have to link an Integrated
 
 DNSimple supports domain integration with the providers listed below.
 
-- [GoDaddy](/articles/integrated-domain-provider-godaddy)
+- [GoDaddy](/articles/integrated-domain-provider-godaddy/)
 
 ## Linking an Integrated Domain Provider to your account {#linking-integrated-domain-provider}
 
@@ -39,7 +39,7 @@ DNSimple supports domain integration with the providers listed below.
 ![Link an Integrated Domain Provider](/files/account-integrated-domain-provider-link.png)
 1. Fill in any necessary information and credentials for your account at the Integrated Domain Provider.
 ![Enter Integrated Domain Provider credentials](/files/account-integrated-domain-provider-link-credentials.png)
-1. After successfully linking the Integrated Domain Provider, you will be redirected to the Domain Names page, where you can [manage your integrated domains](/articles/managing-integrated-domains).
+1. After successfully linking the Integrated Domain Provider, you will be redirected to the Domain Names page, where you can [manage your integrated domains](/articles/managing-integrated-domains/).
 ![Domain Names page](/files/domain-names.png)
 
 ## Unlinking an Integrated Domain Provider from your account

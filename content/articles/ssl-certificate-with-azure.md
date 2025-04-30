@@ -19,12 +19,12 @@ With DNSimple you can request an SSL certificate that you can install on [Micros
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure Azure to use the new SSL certificate with the appropriate domain.
 
 <tip>
-Before you start, please take a moment to review [information and prices](/articles/ssl-certificates) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates).
+Before you start, please take a moment to review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 </tip>
 
 ## Obtain the SSL certificate
 
-We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
+We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
 
 ## Install the SSL certificate on Microsoft Azure
 
