@@ -1,6 +1,7 @@
 ---
 title: DNS Hosting
 excerpt: DNSimple provides robust DNS hosting using a global Anycast network.
+meta: DNSimple provides robust DNS hosting using a global Anycast network. Experience reliable DNS hosting for fast, secure domain resolution and exceptional uptime.
 categories:
 - DNS
 ---

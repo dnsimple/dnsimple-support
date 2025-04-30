@@ -1,6 +1,7 @@
 ---
 title: What's an ALIAS record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
+meta: What an ALIAS record is, and how to add an ALIAS record in DNSimple. Discover how to easily add to enhance your domain's DNS management and improve website performance.
 categories:
 - DNS
 ---

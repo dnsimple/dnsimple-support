@@ -1,6 +1,7 @@
 ---
 title: AWS Lightsail Service
 excerpt: How to set up AWS Lightsail DNS using DNSimple's One-click Service.
+meta: Learn how to effortlessly configure AWS Lightsail DNS with DNSimple's One-click Service, streamlining your domain management and enhancing your online presence.
 categories:
 - Services
 ---
