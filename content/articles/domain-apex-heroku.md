@@ -1,6 +1,7 @@
 ---
 title: Pointing the Domain Apex to Heroku
 excerpt: How to point your domain to your Heroku application using DNSimple.
+meta: Learn how to easily connect your domain apex to a Heroku application using DNSimple, ensuring seamless access and optimal performance for your website.
 categories:
 - Integrations
 ---

@@ -1,6 +1,7 @@
 ---
 title: Changing Email
 excerpt: How to change the email associated with a DNSimple account or user.
+meta: Learn how to easily change the email address linked to your DNSimple account or user profile with our step-by-step guide for a seamless update process.
 categories:
 - Account
 ---

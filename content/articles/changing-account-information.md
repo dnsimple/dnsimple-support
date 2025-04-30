@@ -1,6 +1,7 @@
 ---
 title: Changing Account Information
 excerpt: How to change the information associated with a DNSimple account.
+meta: Learn how to easily update your DNSimple account information, including email, password, and billing details, to ensure your account stays secure and up-to-date.
 categories:
 - Account
 ---

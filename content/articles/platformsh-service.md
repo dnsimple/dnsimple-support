@@ -1,6 +1,7 @@
 ---
 title: Platform.sh Service
 excerpt: How to set up Platform.sh DNS using DNSimple's One-click Service.
+meta: Easily set up Platform.sh DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your DNS management and enhance your workflow.
 categories:
 - Services
 ---
