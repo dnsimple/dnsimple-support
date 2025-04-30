@@ -1,6 +1,7 @@
 ---
 title: Record Notes
 excerpt: Make notes on your records to remember the purpose of the change.
+meta: Easily add notes to your DNS records in DNSimple to keep track of changes and their purposes, ensuring better management and organization of your domain settings.
 categories:
 - DNS
 ---

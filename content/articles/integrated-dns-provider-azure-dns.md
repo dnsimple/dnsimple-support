@@ -1,6 +1,7 @@
 ---
 title: Azure DNS
 excerpt: Connect your Azure account to manage Azure DNS zones at DNSimple.
+meta: Seamlessly integrate your Azure account with DNSimple to efficiently manage Azure DNS zones, enhancing your domain management experience with powerful tools.
 categories:
 - DNS
 - Integrations

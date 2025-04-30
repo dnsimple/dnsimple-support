@@ -1,6 +1,7 @@
 ---
 title: Amazon Route 53 Integration Demo
 excerpt: An introductory demo to integrating Amazon Route 53 with DNSimple.
+meta: Discover how to seamlessly integrate Amazon Route 53 with DNSimple in this comprehensive demo, enhancing your domain management and DNS capabilities effortlessly.
 categories:
 - DNS
 - Integrations

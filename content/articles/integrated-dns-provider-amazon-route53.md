@@ -1,6 +1,7 @@
 ---
 title: Amazon Route 53
 excerpt: Connect your Amazon Route 53 account to manage zones at DNSimple.
+meta: Easily integrate your Amazon Route 53 account with DNSimple to streamline your DNS management, making zone control more efficient than ever.
 categories:
 - DNS
 - Integrations
