@@ -1,6 +1,7 @@
 ---
 title: Multi-Factor Authentication
 excerpt: How to protect your DNSimple account using multi-factor authentication
+meta: Enhance your DNSimple account security with multi-factor authentication. Learn how to set it up and protect your valuable data from unauthorized access.
 categories:
 - Account
 ---

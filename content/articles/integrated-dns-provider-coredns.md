@@ -1,6 +1,7 @@
 ---
 title: CoreDNS
 excerpt: Sync your zones managed at DNSimple to one or more CoreDNS instances.
+meta: Easily sync your DNSimple-managed zones with multiple CoreDNS instances, streamlining your DNS management for enhanced performance and reliability.
 categories:
 - DNS
 - Integrations

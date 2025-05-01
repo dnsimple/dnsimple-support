@@ -1,6 +1,7 @@
 ---
 title: Renewing an SSL Certificate
 excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
+meta: Easily renew your SSL certificate for your domain with DNSimple. Follow our step-by-step guide to ensure your website remains secure and trusted.
 categories:
 - SSL Certificates
 ---
