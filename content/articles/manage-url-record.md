@@ -17,7 +17,7 @@ categories:
 
 You can manage [URL records](/articles/url-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [URL record format](/articles/url-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [URL record format](/articles/url-record/#record-format) and usage.
 
 
 ## Adding a URL record

@@ -8,7 +8,7 @@ categories:
 
 ## What Happens if I Stop Paying for My DNSimple Subscription?
 
-In the event of a failed renewal payment, our system will attempt to collect payment from the card on file once per week for 21 days. We will notify the email associated with your account as to whether the attempt has failed or succeeded. Payments for renewal fees can also be manually retried — [learn how](/articles/account-invoice-history#retrying).
+In the event of a failed renewal payment, our system will attempt to collect payment from the card on file once per week for 21 days. We will notify the email associated with your account as to whether the attempt has failed or succeeded. Payments for renewal fees can also be manually retried — [learn how](/articles/account-invoice-history/#retrying).
 
 An account is canceled if payment cannot be collected after 21 days. We will immediately notify you by email, and all services provided by DNSimple will stop.
 

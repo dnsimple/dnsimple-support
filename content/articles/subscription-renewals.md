@@ -41,7 +41,7 @@ Your account **will not** immediately be canceled, and your domains will continu
 
 From the date of the first failed payment attempt, you will have **21 days** to fix the issue and finalize the payment. 
 
-Our system will attempt to collect payment once a week during this period, and we will notify the email associated with your account whether the attempt has failed or succeeded. You can also manually retry payments for renewal fees —- [learn how](/articles/account-invoice-history#retrying).
+Our system will attempt to collect payment once a week during this period, and we will notify the email associated with your account whether the attempt has failed or succeeded. You can also manually retry payments for renewal fees —- [learn how](/articles/account-invoice-history/#retrying).
 
 If you know you cannot provide a valid card number before your subscription is canceled, please [contact us](https://dnsimple.com/contact).
 

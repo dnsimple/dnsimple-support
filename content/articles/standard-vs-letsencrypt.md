@@ -16,7 +16,7 @@ categories:
 ---
 
 <info>
-In this article we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates#standard-certificate).
+In this article we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
 </info>
 
 ## Comparison Let's Encrypt vs Standard SSL certificates

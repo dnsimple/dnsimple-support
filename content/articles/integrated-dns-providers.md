@@ -27,7 +27,7 @@ Integrated DNS Providers can be linked with your DNSimple account, allowing you 
 
 ## Supported features
 
-- **Import integrated zones**: When you connect an Integrated DNS Provider to your DNSimple account, you can [select](/articles/integrated-dns-providers#managing-integrated-zone-selection) the zones hosted on that Integrated DNS Provider that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
+- **Import integrated zones**: When you connect an Integrated DNS Provider to your DNSimple account, you can [select](/articles/integrated-dns-providers/#managing-integrated-zone-selection) the zones hosted on that Integrated DNS Provider that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
 - **Adding and removing integrated zones**: [Add](/articles/integrated-dns-providers/#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers/#deleting-a-zone-from-an-integrated-dns-provider) zones to/from the Integrated DNS Provider from within DNSimple. You can also [remove](/articles/integrated-dns-providers/#removing-integrated-zones-from-DNSimple) an integrated zone from DNSimple while keeping it at the Integrated DNS Provider.
 - **Manage integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/).
 - **Sync integrated zone records**: Sync your zone records from the integrated zone to DNSimple, or from DNSimple to the integrated zone, with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
@@ -77,7 +77,7 @@ After connecting an Integrated DNS Provider to your DNSimple account, you can vi
 
 When you add a zone, it will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
 
-When you remove a zone, it will remain both in DNSimple and at the provider. Removal will not delete the zone or its records. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone on the provider's end via DNSimple.
+When you remove a zone, it will remain both in DNSimple and at the provider. Removal will not delete the zone or its records. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone on the provider's end via DNSimple.
 
 To manage the zone selection for an Integrated DNS Provider, follow these steps:
 
@@ -99,7 +99,7 @@ To manage the zone selection for an Integrated DNS Provider, follow these steps:
 
 ## Adding a zone to an Integrated DNS Provider {#adding-a-zone-to-an-integrated-dns-provider}
 
-If you have an existing domain in DNSimple, you can also add it to an Integrated DNS Provider from the DNS section of the domain management page. If the Integrated DNS Provider is not [connected](/articles/integrated-dns-providers#connecting-an-integrated-dns-provider) to your DNSimple account, you will be prompted to connect it.
+If you have an existing domain in DNSimple, you can also add it to an Integrated DNS Provider from the DNS section of the domain management page. If the Integrated DNS Provider is not [connected](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider) to your DNSimple account, you will be prompted to connect it.
 
 1.  Click the **DNS** tab on the domain's management page.
 
@@ -121,7 +121,7 @@ If you have an existing domain in DNSimple, you can also add it to an Integrated
 
 ## Removing integrated zones from DNSimple {#removing-integrated-zones-from-DNSimple}
 
-If you've imported a zone into DNSimple from an Integrated DNS Provider, you can use the DNS Zone Providers card to remove the zone from DNSimple without deleting it. This retains the zone and its records at both DNSimple and at the Integrated DNS Provider. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone hosted by the provider via DNSimple.
+If you've imported a zone into DNSimple from an Integrated DNS Provider, you can use the DNS Zone Providers card to remove the zone from DNSimple without deleting it. This retains the zone and its records at both DNSimple and at the Integrated DNS Provider. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone hosted by the provider via DNSimple.
 
 1.  Click the **DNS** tab on the domain's management page.
 

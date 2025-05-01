@@ -71,7 +71,7 @@ structured_data: true
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
-    If you have [CAA Records](/articles/caa-record/) already set up, or you want to use them, you need to add the appropriate record for Sectigo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record#caa-record-usage) for more details.
+    If you have [CAA Records](/articles/caa-record/) already set up, or you want to use them, you need to add the appropriate record for Sectigo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record/#caa-record-usage) for more details.
 </div>
 
 
