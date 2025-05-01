@@ -34,7 +34,7 @@ Each account has its own corresponding square on the dashboard. You'll see the [
 
 ![screenshot: Showing dashboard account card](/files/dashboard-account-name.png)
 
-To the right, you'll find an **Add** dropdown. This expands to a list of shortcuts, making it even easier to manage and add new domains quickly. If you select an option that is not available on your [current plan](/articles/dnsimple-plans), you will be directed to a page advising you of this after selecting the option.
+To the right, you'll find an **Add** dropdown. This expands to a list of shortcuts, making it even easier to manage and add new domains quickly. If you select an option that is not available on your [current plan](/articles/dnsimple-plans/), you will be directed to a page advising you of this after selecting the option.
 
 ![screenshot: Showing options for adding domains](/files/dashboard-account-card-add-dropdown.png)
 

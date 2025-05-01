@@ -9,7 +9,7 @@ categories:
 
 # Managing Integrated Domains
 
-From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [Integrated Domain Providers](/articles/integrated-domain-providers).
+From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [Integrated Domain Providers](/articles/integrated-domain-providers/).
 
 <div class="section-steps" markdown="1">
 ##### Viewing integrated domains from the Domains page

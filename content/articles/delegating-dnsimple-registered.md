@@ -45,7 +45,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 <note>
 #### Name server propagation
 
-It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
+It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 </note>
 
 ## Have more questions? 

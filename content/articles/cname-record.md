@@ -71,7 +71,7 @@ The CNAME record is sometimes improperly referred to as _redirect_, generally in
 There's no direct correlation between a CNAME and an HTTP redirect, nor does configuring CNAME automatically result in any HTTP redirect.
 To perform an HTTP redirect, the server responding to the HTTP request must be configured to return an appropriate HTTP response. This is not directly achievable using a CNAME.
 
-You can learn more by reading the [differences between the A, CNAME, ALIAS and URL records](/articles/differences-between-a-cname-alias-url). DNSimple provides a special [URL record](/articles/url-record) that can be used to configure an HTTP redirect.
+You can learn more by reading the [differences between the A, CNAME, ALIAS and URL records](/articles/differences-between-a-cname-alias-url/). DNSimple provides a special [URL record](/articles/url-record/) that can be used to configure an HTTP redirect.
 
 
 ## Querying CNAME records
@@ -104,5 +104,5 @@ www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
 
 ## Manage CNAME records
 
-From the DNSimple record editor you can [add, remove, and update CNAME records](/articles/manage-cname-record).
+From the DNSimple record editor you can [add, remove, and update CNAME records](/articles/manage-cname-record/).
 

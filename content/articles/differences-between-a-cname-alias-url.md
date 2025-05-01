@@ -33,7 +33,7 @@ Important rules:
 
 ## Which one to use
 
-Understanding the [difference between `A` name and `CNAME` records](/articles/differences-a-cname-records) will help you decide.
+Understanding the [difference between `A` name and `CNAME` records](/articles/differences-a-cname-records/) will help you decide.
 
 General rules:
 

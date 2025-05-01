@@ -15,7 +15,7 @@ categories:
 
 ---
 
-[Let's Encrypt](https://letsencrypt.org/) is an innovative [certificate authority](/articles/what-is-certificate-authority) (CA) that joined the scene in late 2015. They became an official member of the CA/B forum in 2016.
+[Let's Encrypt](https://letsencrypt.org/) is an innovative [certificate authority](/articles/what-is-certificate-authority/) (CA) that joined the scene in late 2015. They became an official member of the CA/B forum in 2016.
 
 Their three most distinguishing characteristics, as listed on their homepage, are _free_, _automated_, and _open_.
 
@@ -33,9 +33,9 @@ This table summarizes the most important differences between Let's Encrypt and S
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
 | Multi-domain (via SAN) | Supported by default | Supported only by specific products |
-| Max SAN domains | 100 | Depends on the [CA](/articles/what-is-certificate-authority) and product |
+| Max SAN domains | 100 | Depends on the [CA](/articles/what-is-certificate-authority/) and product |
 | [Validation type](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level) | <acronym title="Domain Validated">DV</acronym> only | <acronym title="Domain Validated">DV</acronym>, <acronym title="Organization Validated (not supported by DNSimple)">OV</acronym>, <acronym title="Extended Validation (not supported by DNSimple)">EV</acronym> |
-| Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority) and product |
+| Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority/) and product |
 | Limits | [Per-domain, Per-week limits](https://letsencrypt.org/docs/rate-limits/) | N/A |
 
 
@@ -48,7 +48,7 @@ Let's Encrypt is different from most traditional CAs. Here are a few notes and l
 - A single Let's Encrypt certificate can include up to 100 SAN names. Names can be single-name, wildcard names, or both.
 - Let's Encrypt certificates have a fixed expiration period of 90 days. You can't request a certificate with a longer expiration, though most other CAs will issue certificates valid for up to one year.
 - Let's Encrypt's SSL certificates are [compatible with major browsers](https://letsencrypt.org/docs/certificate-compatibility/) and [trusted by all major root programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html).
-- Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation).
+- Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation/).
 - Let's Encrypt [rate-limits](https://letsencrypt.org/docs/rate-limits/) requests. Understand their limits before requesting a large number of certificates.
 
 Some Let's Encrypt features may not be supported by DNSimple. Check the [limitations](/articles/letsencrypt/#limitations) section to learn which features are supported.
@@ -104,14 +104,14 @@ Let's Encrypt feature support varies based on your [DNSimple plan](https://dnsim
 
 ## Testing
 
-We don't support Let's Encrypt in our [sandbox environment](/articles/sandbox). We discourage the use of the production environment for heavy or automated testing purposes, as you may quickly hit Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
+We don't support Let's Encrypt in our [sandbox environment](/articles/sandbox/). We discourage the use of the production environment for heavy or automated testing purposes, as you may quickly hit Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
 
 If you have specific testing needs, consider using the Let's Encrypt [staging environment](https://letsencrypt.org/docs/staging-environment/).
 
 
 ## Ordering a certificate
 
-To order a new certificate via Let's Encrypt using DNSimple, follow the instructions in the article [Ordering a Let's Encrypt SSL certificate](/articles/ordering-lets-encrypt-certificate).
+To order a new certificate via Let's Encrypt using DNSimple, follow the instructions in the article [Ordering a Let's Encrypt SSL certificate](/articles/ordering-lets-encrypt-certificate/).
 
 If you already have a certificate and you want to renew it, follow the instructions for [Renewing an SSL certificate](/articles/renewing-ssl-certificate/). We also support [auto-renewals for Let's Encrypt certificates](#auto-renewal).
 

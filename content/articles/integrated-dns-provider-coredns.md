@@ -37,7 +37,7 @@ The "Integrations" link in the navigation menu referenced in the video has been 
 
 ## Supported features
 
-- **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones).
+- **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/).
 - **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Record Editor](/articles/record-editor-integrated-zones#record-syncing).
 
 The CoreDNS Integrated Provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other Integrated DNS Provider must first be synced to DNSimple before they will be available to CoreDNS instances.
@@ -47,17 +47,17 @@ The CoreDNS Integrated Provider supports one-way syncing of zone records configu
 All DNSimple record types can be synced to CoreDNS:
 
 - [A](/articles/a-record)
-- [AAAA](/articles/aaaa-record)
+- [AAAA](/articles/aaaa-record/)
 - [ALIAS](/articles/alias-record)
-- [CNAME](/articles/cname-record)
+- [CNAME](/articles/cname-record/)
 - HINFO
-- [MX](/articles/mx-record)
-- [NS](/articles/ns-record)
-- [POOL](/articles/pool-record)
+- [MX](/articles/mx-record/)
+- [NS](/articles/ns-record/)
+- [POOL](/articles/pool-record/)
 - PTR
-- [SOA](/articles/soa-record)
-- [SPF](/articles/spf-record)
-- [SRV](/articles/srv-record)
+- [SOA](/articles/soa-record/)
+- [SPF](/articles/spf-record/)
+- [SRV](/articles/srv-record/)
 - SSHFP
-- [TXT](/articles/txt-record)
-- [URL](/articles/url-record)
+- [TXT](/articles/txt-record/)
+- [URL](/articles/url-record/)

@@ -119,7 +119,7 @@ Now that you've successfully installed the extension from a ZIP file, you can in
 
 ### Setup
 
-The first time you open the extension, you will be prompted to enter your DNSimple API token. This token is used to authenticate your DNSimple account and allows the extension to make changes to your account on your behalf. If you don't have an API token, create one by following the instructions in our [API Access Token support article](/articles/api-access-token).
+The first time you open the extension, you will be prompted to enter your DNSimple API token. This token is used to authenticate your DNSimple account and allows the extension to make changes to your account on your behalf. If you don't have an API token, create one by following the instructions in our [API Access Token support article](/articles/api-access-token/).
 
 ![Screenshot: Chrome Extension Setup API Access Token](/files/chrome-extension-setup-api-token.png)
 

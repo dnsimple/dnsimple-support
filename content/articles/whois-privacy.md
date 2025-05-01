@@ -15,7 +15,7 @@ categories:
 
 ---
 
-The [WHOIS Privacy protection service](/articles/what-is-whois-privacy) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public WHOIS database.
+The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public WHOIS database.
 
 You can enable WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
 

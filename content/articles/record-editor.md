@@ -16,7 +16,7 @@ categories:
 
 The record editor is DNSimple's DNS editor. It gives you the ability to view, create, and manage the DNS records for a domain.
 
-Any [supported DNS record type](/articles/supported-dns-records) can be managed from the record editor, except system records.
+Any [supported DNS record type](/articles/supported-dns-records/) can be managed from the record editor, except system records.
 
 ## Locating the record editor
 
@@ -30,11 +30,11 @@ System records are special DNS records created by DNSimple when you add a domain
 
 ![custom vs system record](/files/custom-vs-system-record.png)
 
-The system records include an [SOA record](/articles/soa-record) and the [four name servers](/articles/ns-record), as long as the domain is resolving with DNSimple's name servers.
+The system records include an [SOA record](/articles/soa-record/) and the [four name servers](/articles/ns-record/), as long as the domain is resolving with DNSimple's name servers.
 
 ## Adding a record
 
-From the <label>Add a Record</label> menu select a DNS record type, and click on the type to enter the new record page. DNSimple supports [several different DNS record types](/articles/supported-dns-records).
+From the <label>Add a Record</label> menu select a DNS record type, and click on the type to enter the new record page. DNSimple supports [several different DNS record types](/articles/supported-dns-records/).
 
 ![Select Record Type](/files/rec-editor-new-record.png)
 
@@ -62,11 +62,11 @@ You can always switch back to the simple editor using the tabs on top. This can 
 
 ### Specific record instructions
 
-- [A records](/articles/manage-a-record)
+- [A records](/articles/manage-a-record/)
 - [AAAA records](/articles/manage-aaaa-record)
-- [CAA records](/articles/manage-caa-record)
-- [CNAME records](/articles/manage-cname-record)
-- [URL records](/articles/manage-url-record)
+- [CAA records](/articles/manage-caa-record/)
+- [CNAME records](/articles/manage-cname-record/)
+- [URL records](/articles/manage-url-record/)
 
 
 ## Updating a record
@@ -87,7 +87,7 @@ There is no way to undo deleting a record. The only way to restore a deleted rec
 
 ## Managing integrated zone records
 
-The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones) for more details.
+The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones/) for more details.
 
 ## Have more questions?
 

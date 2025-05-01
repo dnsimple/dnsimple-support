@@ -32,7 +32,7 @@ You can have a maximum of one user on the Solo plan. If more than one person nee
 
 ### Cost
 
-No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits).
+No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits/).
 
 ### The Solo plan includes:
 
