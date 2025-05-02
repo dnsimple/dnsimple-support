@@ -31,7 +31,7 @@ Our one-click service for Heroku is listed under the "Infrastructure" tab:
 
 ![Heroku services](/files/heroku-service.png)
 
-To apply the Heroku one-click service to your domain follow [these instructions](/articles/services#adding-a-service).
+To apply the Heroku one-click service to your domain follow [these instructions](/articles/services/#adding-a-service).
 
 ## Adding an ALIAS record {#point-using-alias}
 
@@ -45,7 +45,7 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 ##### To create an ALIAS for the apex domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow [these instructions](/articles/record-editor#access-the-record-editor) to edit your domain's records.
+1.  Follow [these instructions](/articles/record-editor/#access-the-record-editor) to edit your domain's records.
 1.  Click <label>Add a Record</label>, and select the `ALIAS` record type.
 
     ![Add a Record](/files/add-alias-heroku-1.jpg)

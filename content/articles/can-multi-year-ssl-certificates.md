@@ -1,6 +1,7 @@
 ---
 title: Do you support multi-year SSL certificates?
 excerpt: Information about purchasing a multi-year SSL certificate with DNSimple.
+meta: Discover how to purchase multi-year SSL certificates with DNSimple, ensuring long-term security and peace of mind for your online presence.
 categories:
 - SSL Certificates
 ---

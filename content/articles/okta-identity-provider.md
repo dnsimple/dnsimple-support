@@ -65,7 +65,7 @@ These steps are performed in your DNSimple account.
 
 1. At DNSimple, go to the **Account** page, and click the **Single Sign-On** tab.
 1. Click **Authorize with Okta** to authorize the Workspace.
-1. Fill in the Okta domain, client ID, and client secret, then click **Link**. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. Your Okta user needs to already be [assigned to the DNSimple app integration](/articles/okta-identity-provider#assigning-people-or-groups-in-okta) in Okta with an email address that matches your DNSimple user email address.
+1. Fill in the Okta domain, client ID, and client secret, then click **Link**. You'll need to log in to the Okta Workspace with access to the `okta.eventHooks.manage`  and `okta.eventHooks.read` scopes. Your Okta user needs to already be [assigned to the DNSimple app integration](/articles/okta-identity-provider/#assigning-people-or-groups-in-okta) in Okta with an email address that matches your DNSimple user email address.
 ![Link account to Okta](/files/okta-link-account.png)
 1. After logging in via Okta, you will arrive back on the DNSimple Single Sign-On page with Okta SSO enabled for the account.
 1. Repeat the process for each account where you want Okta SSO enabled.

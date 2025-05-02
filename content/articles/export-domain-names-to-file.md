@@ -1,6 +1,7 @@
 ---
 title: Exporting Domain Names to a .CSV File
 excerpt: This article explains how to export domain names to a .CSV or .ZIP file.
+meta: Learn how to easily export your domain names to a .CSV or .ZIP file with our step-by-step guide, simplifying your domain management process.
 categories:
 - Domains
 ---
@@ -56,6 +57,6 @@ We include domain registration and DNS zone details in the exported file:
 | **certificates_count** | the number of related certificates |
 | **email_forwards_count** | the number of related email forwards |
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions or need any assistance exporting your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions or need any assistance exporting your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

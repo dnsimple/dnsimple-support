@@ -1,6 +1,7 @@
 ---
 title: Why Should I Register My Domain Name with DNSimple?
 excerpt: We won't try to upsell you when you register your domain.
+meta: Discover the top reasons to choose DNSimple for your DNS hosting needs, including seamless management, reliable performance, and exceptional expert support.
 meta: Discover the top reasons to choose DNSimple as an alternative to GoDaddy for your DNS hosting needs, including seamless management, reliable performance, and exceptional expert support.
 categories:
 - DNSimple

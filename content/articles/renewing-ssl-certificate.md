@@ -1,6 +1,7 @@
 ---
 title: Renewing an SSL Certificate
 excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
+meta: Easily renew your SSL certificate for your domain with DNSimple. Follow our step-by-step guide to ensure your website remains secure and trusted.
 categories:
 - SSL Certificates
 ---
@@ -24,7 +25,7 @@ A renewal will not extend your existing certificate expiration date, it will res
 There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works/)
 </info>
 
-Our [SSL certificate products](/articles/ssl-certificates#ssl-certificate-products) fall into two major classes for how renewals work:
+Our [SSL certificate products](/articles/ssl-certificates/#ssl-certificate-products) fall into two major classes for how renewals work:
 
 - [Standard certificate renewals](/articles/renewing-standard-ssl-certificate/)
 - [Let's Encrypt certificate renewals](/articles/renewing-lets-encrypt-ssl-certificate/)

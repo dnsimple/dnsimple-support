@@ -61,7 +61,7 @@ The certificate is issued by **Sectigo** and it costs **$100 per year**. The pro
 
 The Let's Encrypt certificate is a **multi-name (SAN)**, **domain-validated certificate**. It covers all the host names specified in the certificate.
 
-The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt#products)
+The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt/#products)
 
 <info>
 The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
@@ -71,7 +71,7 @@ The ability to customize the names associated with a Let's Encrypt certificate d
 
 The Let's Encrypt wildcard certificate is a **wildcard-name**, **domain-validated certificate**. It covers all [single-level subdomains](/articles/ssl-certificate-names/) of a domain name. It **does not** cover the root domain.
 
-The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt#products)
+The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt/#products)
 
 <info>
 Let's Encrypt wildcard certificates are only available on certain plans. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.

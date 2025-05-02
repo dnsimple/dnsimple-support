@@ -31,7 +31,7 @@ System name server sets are pre-defined name server sets provided by DNSimple wh
 
 ### Account name server sets {#account-name-server-sets}
 
-Account name server sets are private to an account and can contain custom name servers. You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [full access](/articles/domain-access-control#full-access) to the account.
+Account name server sets are private to an account and can contain custom name servers. You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [full access](/articles/domain-access-control/#full-access) to the account.
 
 ## Creating an account name server set
 

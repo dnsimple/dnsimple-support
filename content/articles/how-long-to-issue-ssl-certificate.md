@@ -11,7 +11,7 @@ The time required to issue a new [SSL certificate](/articles/ssl-certificates/) 
 
 ## Standard certificates
 
-For standard [single-name](/articles/ssl-certificates#standard-singlename) and [wildcard](/articles/ssl-certificates#standard-wildcard) certificates, it can take from a minimum of one hour to several hours, **after you [approve the SSL certificate](/articles/ssl-certificates-email-validation/)**.
+For standard [single-name](/articles/ssl-certificates/#standard-singlename) and [wildcard](/articles/ssl-certificates/#standard-wildcard) certificates, it can take from a minimum of one hour to several hours, **after you [approve the SSL certificate](/articles/ssl-certificates-email-validation/)**.
 
 Occasionally, the issuance may take longer and require up to several days. This is the case when some issue occurs during the issuance or validation. Common issues are:
 
@@ -39,7 +39,7 @@ The above rules also apply to subdomain wildcard certificates.
 </note>
 ## Let's Encrypt certificates
 
-For [Let's Encrypt](/articles/ssl-certificates#letsencrypt) certificates the issuance is generally between 30 minutes and 1 hour.
+For [Let's Encrypt](/articles/ssl-certificates/#letsencrypt) certificates the issuance is generally between 30 minutes and 1 hour.
 
 If the order is taking longer, it is generally because of a possible issuance problem such as:
 

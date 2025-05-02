@@ -38,11 +38,11 @@ To install the certificate click on the <label>install the SSL certificate</labe
 
 Many platforms and servers have specific information about installation in that wizard. Specific information is in these articles:
 
-- [Heroku](/articles/ssl-certificate-with-heroku#installation)
-- [Azure](/articles/ssl-certificate-with-azure#installation)
-- [NGINX](/articles/ssl-certificate-with-nginx#installation)
-- [Apache](/articles/ssl-certificate-with-apache#installation)
-- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis#installation)
+- [Heroku](/articles/ssl-certificate-with-heroku/#installation)
+- [Azure](/articles/ssl-certificate-with-azure/#installation)
+- [NGINX](/articles/ssl-certificate-with-nginx/#installation)
+- [Apache](/articles/ssl-certificate-with-apache/#installation)
+- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis/#installation)
 
 ## Generic installation instructions
 
