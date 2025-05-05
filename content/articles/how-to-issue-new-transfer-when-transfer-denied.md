@@ -1,6 +1,7 @@
 ---
 title: How can I issue a new transfer order when a transfer is denied?
 excerpt: How to proceed in case a domain transfer was denied.
+meta: Learn how to successfully initiate a new domain transfer after a denial, ensuring a smooth process and minimizing delays with expert tips from DNSimple.
 categories:
   - Domain Transfers
 redirect_from:

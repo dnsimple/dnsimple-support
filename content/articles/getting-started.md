@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 excerpt: A collection of articles to help you get started with DNSimple quickly.
+meta: Explore our comprehensive guide to getting started with DNSimple, featuring essential articles and resources to help you configure and manage your domain effortlessly.
 categories:
 - DNSimple
 ---
@@ -40,6 +41,6 @@ categories:
 
 ## Accounts with multiple members
 
-- [Add users to your account](/articles/account-users/)
+- [Add users to your account](/articles/managing-seats/)
 - [Enforce Multi-Factor Authentication for All Members of an Account](/articles/multi-factor-authentication-enforcement/)
 - [Change the email address that invoices are delivered to](/articles/billing-settings/#changing-the-billing-email)

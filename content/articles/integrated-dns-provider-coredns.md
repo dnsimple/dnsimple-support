@@ -1,6 +1,7 @@
 ---
 title: CoreDNS
 excerpt: Sync your zones managed at DNSimple to one or more CoreDNS instances.
+meta: Easily sync your DNSimple-managed zones with multiple CoreDNS instances, streamlining your DNS management for enhanced performance and reliability.
 categories:
 - DNS
 - Integrations
@@ -15,7 +16,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns.io/). The CoreDNS Integrated Provider is configured per zone and returns the current sync state for all zone records to the [Record Editor](/articles/record-editor-integrated-zones#record-syncing).
+DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns.io/). The CoreDNS Integrated Provider is configured per zone and returns the current sync state for all zone records to the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
 
 ## Video walk-through
 
@@ -24,7 +25,7 @@ DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns
 </div>
 
 <info>
-The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers#connecting-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
+The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers/#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers/#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
 </info>
 
 
@@ -37,8 +38,8 @@ The "Integrations" link in the navigation menu referenced in the video has been 
 
 ## Supported features
 
-- **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones).
-- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Record Editor](/articles/record-editor-integrated-zones#record-syncing).
+- **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/).
+- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
 
 The CoreDNS Integrated Provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other Integrated DNS Provider must first be synced to DNSimple before they will be available to CoreDNS instances.
 
@@ -47,18 +48,18 @@ The CoreDNS Integrated Provider supports one-way syncing of zone records configu
 All DNSimple record types can be synced to CoreDNS:
 
 - [A](/articles/a-record)
-- [AAAA](/articles/aaaa-record)
+- [AAAA](/articles/aaaa-record/)
 - [ALIAS](/articles/alias-record)
 - [CAA](/articles/caa-record)
 - [CNAME](/articles/cname-record)
 - HINFO
-- [MX](/articles/mx-record)
-- [NS](/articles/ns-record)
-- [POOL](/articles/pool-record)
+- [MX](/articles/mx-record/)
+- [NS](/articles/ns-record/)
+- [POOL](/articles/pool-record/)
 - PTR
-- [SOA](/articles/soa-record)
-- [SPF](/articles/spf-record)
-- [SRV](/articles/srv-record)
+- [SOA](/articles/soa-record/)
+- [SPF](/articles/spf-record/)
+- [SRV](/articles/srv-record/)
 - SSHFP
-- [TXT](/articles/txt-record)
-- [URL](/articles/url-record)
+- [TXT](/articles/txt-record/)
+- [URL](/articles/url-record/)

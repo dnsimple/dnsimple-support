@@ -1,6 +1,7 @@
 ---
 title: Rackspace Email Service
 excerpt: How to set up Rackspace Email DNS using DNSimple's One-click Service.
+meta: Easily set up Rackspace Email with DNSimple's One-click Service. Follow our comprehensive guide to configure your DNS settings and ensure seamless email functionality.
 categories:
 - Services
 ---

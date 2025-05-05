@@ -1,13 +1,14 @@
 ---
 title: Troubleshooting Domain Resolution Issues
 excerpt: This article contains instructions to check and debug domain resolution issues.
+meta: Explore this comprehensive guide to debug and resolve domain resolution issues effectively, ensuring your website is accessible and functioning properly.
 categories:
 - DNS
 ---
 
 # Troubleshooting Domain Resolution Issues
 
-To use our [DNS hosting service](/articles/dns-hosting), the domain should resolve with DNSimple.
+To use our [DNS hosting service](/articles/dns-hosting/), the domain should resolve with DNSimple.
 
 You can check the domain resolution status using [Is It DNSimple?](http://isitdnsimple.com/). The resolution status is also displayed on the domain page in your DNSimple account.
 
@@ -29,7 +30,7 @@ If after 24 hours the domain still isn't resolving, make sure the update was suc
 
 Ensure the domain is using [DNSimple name servers](/articles/dnsimple-nameservers).
 
-If not, update the name server to [point to DNSimple](/articles/pointing-domain-to-dnsimple).
+If not, update the name server to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 You can use `dig` or any other DNS tool to get the name servers for the domain.
 
@@ -56,7 +57,7 @@ $ dig NS example.com +trace
 
 The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers).
 
-If not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple). If you recently switched, the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
+If not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/). If you recently switched, the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
 
 
 ## Check that the domain is using *all* DNSimple name servers
@@ -106,13 +107,13 @@ Creation Date: 07-apr-2010
 Expiration Date: 07-apr-2018
 ~~~
 
-The name server should match DNSimple name servers and the response returned from `dig`. If not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple).
+The name server should match DNSimple name servers and the response returned from `dig`. If not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 If you recently updated the domain, see the section *Name server change propagation*.
 
 ## Ensure the DS record is removed
 
-If you switched DNS providers and had DNSSEC enabled, you must [remove the previous DS record first](/articles/ds-records-changing-dns).
+If you switched DNS providers and had DNSSEC enabled, you must [remove the previous DS record first](/articles/ds-records-changing-dns/).
 
 If you transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 

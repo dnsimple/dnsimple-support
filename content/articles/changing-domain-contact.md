@@ -79,7 +79,7 @@ Some TLDs require extra steps before authorizing a registrant change.
 
 ## Special WHOIS policies
 
-Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. View [this article](/articles/changing-whois-contact) for a list of the most common registrar-specific policies.
+Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. View [this article](/articles/changing-whois-contact/) for a list of the most common registrar-specific policies.
 
 ## Have more questions?
 

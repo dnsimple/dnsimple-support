@@ -1,6 +1,7 @@
 ---
 title: How to Use Templates
 excerpt: How to use templates to facilitate the entry of DNS records.
+meta: Discover how to streamline your DNS record management with templates in DNSimple, making the process faster and more efficient for your domain configurations.
 categories:
 - Templates
 ---
@@ -45,7 +46,7 @@ The keyword `{{domain}}` automatically fills in the domain name to which the tem
 
 ## Applying a template
 
-Navigate to the [record editor](/articles/record-editor) and select **Templates** from the dropdown.
+Navigate to the [record editor](/articles/record-editor/) and select **Templates** from the dropdown.
 
 ![Apply the template from the record editor](/files/template-apply-template.png)
 

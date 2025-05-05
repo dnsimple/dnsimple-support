@@ -1,6 +1,7 @@
 ---
 title: Ordering a Let's Encrypt Certificate
 excerpt: How to order a Let's Encrypt certificate with DNSimple.
+meta: Learn how to easily order a Let's Encrypt certificate with DNSimple to secure your website with free, automated SSL/TLS encryption for enhanced online safety.
 categories:
 - SSL Certificates
 ---
@@ -27,12 +28,12 @@ To order an SSL certificate, you need a DNSimple account. A subscription is nece
 It is not necessary to transfer registration to us, but the domain must be only delegated to our name servers.
 </note>
 
-For more details about the configuration, approval, and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates) article, or follow the instructions on the site after you submit the SSL certificate order.
+For more details about the configuration, approval, and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article, or follow the instructions on the site after you submit the SSL certificate order.
 
 
 ## Ordering a Let's Encrypt SSL certificate {#order}
 
-Getting a new SSL certificate is a multi-step process that involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates) to make sure you are familiar with the SSL certificate process.
+Getting a new SSL certificate is a multi-step process that involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
 
 The order is the first step in getting an SSL certificate. It will create an SSL certificate order (for no charge, in the case of Let's Encrypt certificates) that represents a request for a certificate to the CA.
 
@@ -41,13 +42,13 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
 1.  Log into DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
-1.  If the domain is not already in your account, follow the instructions to [add a domain for domain services](/articles/adding-domain), and add any records to it before [delegating to our name servers](/articles/delegating-dnsimple-hosted).
+1.  If the domain is not already in your account, follow the instructions to [add a domain for domain services](/articles/adding-domain/), and add any records to it before [delegating to our name servers](/articles/delegating-dnsimple-hosted).
 1.  If the domain is already in your account, on the top-nav menu, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Select the SSL Certificates tab, and click <label>Get an SSL Certificate</label> to start the order.
 1.  Click <label>Continue</label> under the Let's Encrypt option.
 1.  Follow the instructions to order the certificate.
 
-    1.  [Read this article](/articles/ssl-certificate-names) to determine the appropriate host name of your SSL certificate.
+    1.  [Read this article](/articles/ssl-certificate-names/) to determine the appropriate host name of your SSL certificate.
     1.  For different plans, the available names will differ. If you have the ability to select alternate names for your certificate, do so. Otherwise, continue to the next step.
     1.  Select whether you would like to automatically renew the certificate. If you do so, the certificate will be renewed 30 days prior to expiration as recommended by Let's Encrypt.
     1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.

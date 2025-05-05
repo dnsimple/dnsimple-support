@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Heroku SSL errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
+meta: Resolve SSL issues on Heroku with our comprehensive guide. Learn how to troubleshoot and ensure your SSL certificate is configured correctly for seamless security.
 categories:
 - Integrations
 ---
@@ -27,7 +28,7 @@ awesomeexample.herokuapp.com. 300    IN  CNAME   us-east-1-a.route.herokuapp.com
 us-east-1-a.route.herokuapp.com. 54 IN  A   50.16.244.117
 ~~~
 
-For more information about using DNSimple certificates with Heroku visit the [SSL Certificates for Heroku](/articles/ssl-certificates-heroku) article.
+For more information about using DNSimple certificates with Heroku visit the [SSL Certificates for Heroku](/articles/ssl-certificates-heroku/) article.
 
 ### Examples
 

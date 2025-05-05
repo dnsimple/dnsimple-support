@@ -1,6 +1,7 @@
 ---
 title: Google Workspace (formerly G Suite) Service
 excerpt: How to set up Google Workspace DNS using DNSimple one-click service.
+meta: Easily set up Google Workspace DNS with DNSimple's one-click service. Streamline your email and collaboration tools for a seamless online experience.
 categories:
 - Services
 ---

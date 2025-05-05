@@ -1,6 +1,7 @@
 ---
 title: Postmark Service
 excerpt: How to set up Postmark DNS using DNSimple's One-click Service.
+meta: Easily set up Postmark DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your email delivery and enhance your communication.
 categories:
 - Services
 ---

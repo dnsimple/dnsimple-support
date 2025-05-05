@@ -20,7 +20,7 @@ Here's a checklist of common issues to help you if a configured redirect is not 
 
 ## Checking domain resolution status
 
-To use our [redirector service](/articles/redirector), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues) to determine whether the domain is resolving with DNSimple.
+To use our [redirector service](/articles/redirector/), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues/) to determine whether the domain is resolving with DNSimple.
 
 
 ## Using cURL to test the redirect {#test}

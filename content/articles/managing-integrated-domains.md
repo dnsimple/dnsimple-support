@@ -1,6 +1,7 @@
 ---
 title: Managing Integrated Domains
 excerpt: We support managing domains at other domain providers.
+meta: Easily manage your integrated domains with DNSimple. Streamline your domain management across various providers such as GoDaddy, Namecheap, and PorkBun.
 categories:
 - Domains
 - Integrations
@@ -8,7 +9,7 @@ categories:
 
 # Managing Integrated Domains
 
-From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [Integrated Domain Providers](/articles/integrated-domain-providers).
+From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [Integrated Domain Providers](/articles/integrated-domain-providers/).
 
 <div class="section-steps" markdown="1">
 ##### Viewing integrated domains from the Domains page

@@ -1,5 +1,6 @@
 ---
 title: Web Hosting Support
+meta: We focus primarily on domain management services. We don't provide web hosting allthough connecting to hosting providers is made easy with our one-click services.
 excerpt: We focus primarily on domain management services. We don't provide web hosting.
 categories:
 - DNSimple

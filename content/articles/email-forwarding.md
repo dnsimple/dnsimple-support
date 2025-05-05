@@ -1,6 +1,7 @@
 ---
 title: Email Forwarding
 excerpt: This article explains the email forwarding service provided by DNSimple.
+meta: Learn how to set up and manage email forwarding with DNSimple, ensuring seamless communication by directing emails from one address to another effortlessly.
 categories:
 - Emails
 ---

@@ -7,12 +7,12 @@ categories:
 
 # Adding Dyn as a Secondary DNS Server
 
-For an overview of secondary DNS, read [our introduction article](/articles/secondary-dns).
+For an overview of secondary DNS, read [our introduction article](/articles/secondary-dns/).
 
 ## Requirements
 
 * An active account with [Dyn](http://dyn.com/). Your secondary DNS Setup will vary depending on whether you use _Dyn Standard_ or _Dyn Managed DNS_ service.
-* Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple).
+* Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
 You can get started with secondary DNS from the DNS section of the domain management page.
 

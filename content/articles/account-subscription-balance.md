@@ -1,6 +1,7 @@
 ---
 title: Understanding Your Account Balance and Billing Details
 excerpt: Checking your account's subscription balance, credit, and next payment due.
+meta: Easily check your DNSimple account's subscription balance, available credits, and upcoming payment due dates to manage your services effectively.
 categories:
 - Account
 ---

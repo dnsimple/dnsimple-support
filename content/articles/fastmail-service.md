@@ -1,6 +1,7 @@
 ---
 title: Fastmail Service
 excerpt: How to set up Fastmail DNS using DNSimple's One-click Service.
+meta: Easily set up Fastmail DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your email hosting and enhance your communication.
 categories:
 - Services
 ---

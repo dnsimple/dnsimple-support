@@ -1,6 +1,7 @@
 ---
 title: Multi-Factor Authentication
 excerpt: How to protect your DNSimple account using multi-factor authentication
+meta: Enhance your DNSimple account security with multi-factor authentication. Learn how to set it up and protect your valuable data from unauthorized access.
 categories:
 - Account
 ---
@@ -219,7 +220,7 @@ Recovery codes can be regenerated. When a recovery code is regenerated, you cann
 
 Multi-factor protection is attached to a user profile, not an account, just like your username and password credentials.
 
-If [an account has multiple users](/articles/account-users), each member must enable MFA separately. If your user profile has access to more than one account, you only need to enable MFA once.
+If [an account has multiple users](/articles/account-users/), each member must enable MFA separately. If your user profile has access to more than one account, you only need to enable MFA once.
 
 ## One-time password authenticator applications {#authenticator}
 

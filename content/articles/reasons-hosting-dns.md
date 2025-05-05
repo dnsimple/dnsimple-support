@@ -17,7 +17,7 @@ We have expert-level [customer support](https://support.dnsimple.com/articles/dn
 
 Choosing DNSimple gives you access to Anycast domain name service with globally distributed name servers for faster responses and increased reliability. You'll also have access to innovative records like [ALIAS](/articles/alias-record/), [URL](/articles/url-record/), and [POOL](/articles/pool-record/) for easier domain management, and simplified integration with many services.
 
-We take [security](/articles/account-securing/) seriously and ensure your domains are as safe as possible. We support [multiple users](/articles/account-users/) for Teams accounts, and allow you to control different levels of [domain access](/articles/domain-access-control/), so you can make sure the right people on your team have access to your domains.
+We take [security](/articles/account-securing/) seriously and ensure your domains are as safe as possible. We support [multiple users](/articles/managing-seats/) for Teams accounts, and allow you to control different levels of [domain access](/articles/domain-access-control/), so you can make sure the right people on your team have access to your domains.
 
 We also believe in choosing the best tooling to get the job done. With no vendor lock-in, you can point your name servers wherever you choose. If you want to keep your domain registered elsewhere, and just use our DNS resolver or [email forwarding](/articles/email-forwarding/), you can still use our name servers.
 

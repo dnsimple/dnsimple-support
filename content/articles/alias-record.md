@@ -1,6 +1,7 @@
 ---
 title: What's an ALIAS record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
+meta: What an ALIAS record is, and how to add an ALIAS record in DNSimple. Discover how to easily add to enhance your domain's DNS management and improve website performance.
 categories:
 - DNS
 ---
@@ -16,7 +17,7 @@ categories:
 
 ## What's an ALIAS record?
 
-An **ALIAS** record is a virtual record type DNSimple created to provide [`CNAME`](/articles/cname-record)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
+An **ALIAS** record is a virtual record type DNSimple created to provide [`CNAME`](/articles/cname-record/)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
 
 For example, if your domain is `example.com`, and you want it to point to a host name like `myapp.herokuapp.com`, you can't use a `CNAME` record, but you can use an `ALIAS` record. The `ALIAS` record will automatically resolve your domain to one or more `A` records at resolution time, and resolvers see your domain as if it had `A` records.
 

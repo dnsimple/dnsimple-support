@@ -1,6 +1,7 @@
 ---
 title: Ordering a Wildcard SSL Certificate
 excerpt: How to order a wildcard SSL certificate with DNSimple.
+meta: Learn how to easily order a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, enhancing your website's security and credibility.
 categories:
 - SSL Certificates
 ---

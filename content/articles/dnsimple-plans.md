@@ -32,7 +32,7 @@ You can have a maximum of one user on the Solo plan. If more than one person nee
 
 ### Cost
 
-No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits).
+No base subscription fee. You will be charged on a pay-as-you-go basis, with fees determined by the number of active zones and their [DNS query volume](/articles/dns-query-limits/).
 
 ### The Solo plan includes:
 
@@ -96,6 +96,8 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
 - DNS high-volume zone discounts
 - [100% SLA available](https://dnsimple.com/service-level-agreement)
+- Multiple payment methods
+- Advanced invoice search and filtering
 
 To explore your options for our Enterprise or Reseller plans, [contact us](https://dnsimple.com/sales) for more information.
 

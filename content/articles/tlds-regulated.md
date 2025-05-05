@@ -1,6 +1,7 @@
 ---
 title: Regulated Top-Level Domains
 excerpt: Information about regulated and highly-regulated TLDs.
+meta: Discover essential information about regulated and highly-regulated top-level domains (TLDs), including their requirements and implications for domain registration.
 categories:
 - Domains
 ---
@@ -20,7 +21,7 @@ Certain top-level domains (TLDs) my be subject to the registrant meeting specifi
 
 For domain name registration in any "Regulated TLD", registrant must acknowledge and agree that the registration is subject to the following additional requirements:
 
-- (a) Comply with all applicable laws, including those that relate to privacy, data collection, consumer protection (including in relation to misleading and deceptive conduct), fair lending, debt collection, organic farming, disclosure of data, and financial disclosures; and 
+- (a) Comply with all applicable laws, including those that relate to privacy, data collection, consumer protection (including in relation to misleading and deceptive conduct), fair lending, debt collection, organic farming, disclosure of data, and financial disclosures; and
 - (b) If the registrant collects and maintains sensitive health and financial data, they must implement reasonable and appropriate security measures commensurate with the offering of those services, as defined by applicable law.
 
 ## Regulated TLD List

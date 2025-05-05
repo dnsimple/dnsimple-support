@@ -1,54 +1,58 @@
+Introduction:
+  - What is DNS?
+  - What is Time-to-Live?
+  - What's an ALIAS record?
+  - What's a CNAME record?
+  - What's an A Record?
+  - What's an AAAA record?
+  - What's an MX Record?
+  - What's an NS Record?
+  - What's a DKIM Record?
+  - What's a DMARC record?
+  - What's a CAA record?
+  - What's a POOL Record?
+  - What's an SOA Record?
+  - What's an SPF Record?
+  - What Is an SRV Record?
+  - What's a TXT Record?
+  - What's a URL Record?
+
 Record types:
-- "What's an ALIAS record?"
-- "What's a CNAME record?"
-- "What's an A Record?"
-- "What's an AAAA record?"
-- "What's an MX Record?"
-- "What's an NS Record?"
-- "What's a DKIM Record?"
-- "What's a DMARC record?"
-- "What's a CAA record?"
-- "What's a POOL Record?"
-- "What's an SOA Record?"
-- "What's an SPF Record?"
-- "What Is an SRV Record?"
-- "What's a TXT Record?"
-- "What's a URL Record?"
-- "Differences Between A and CNAME records"
-- "Differences Among A, CNAME, ALIAS, and URL records"
-- "Common DNS Records"
+  - Differences Between A and CNAME records
+  - Differences Among A, CNAME, ALIAS, and URL records
+  - Common DNS Records
 
 Managing records:
-- "Managing A Records"
-- "Managing AAAA Records"
-- "Managing CAA Records"
-- "Managing CNAME Records"
-- "Managing DS Records"
-- "Managing URL Records"
-- "Record Editor"
-- "Record Notes"
-- "Regional Records"
-- "Managing DS Records When Changing DNS"
-- "Zone NS Records"
+  - Managing A Records
+  - Managing AAAA Records
+  - Managing CAA Records
+  - Managing CNAME Records
+  - Managing DS Records
+  - Managing URL Records
+  - Record Editor
+  - Record Notes
+  - Regional Records
+  - Managing DS Records When Changing DNS
+  - Zone NS Records
 
 Zones:
-- "DNS Hosting"
-- "Domain Zone Files"
-- "Dynamic DNS"
-- "Integrated DNS Providers at DNSimple"
-- "Managing Integrated Zones"
-- "Record Editor for Integrated Zones"
-- "Reverse DNS Zones"
-- "Resolution Status"
-- "Auto-Importing DNS Records"
-- "Why Anycast DNS?"
-- "Anycast DNS"
-- "Why DNSSEC and Secondary DNS may not work together"
-- "Protection Against DDoS Attacks"
+  - DNS Hosting
+  - Domain Zone Files
+  - Dynamic DNS
+  - Integrated DNS Providers at DNSimple
+  - Managing Integrated Zones
+  - Record Editor for Integrated Zones
+  - Reverse DNS Zones
+  - Resolution Status
+  - Auto-Importing DNS Records
+  - Why Anycast DNS?
+  - Anycast DNS
+  - Why DNSSEC and Secondary DNS may not work together
+  - Protection Against DDoS Attacks
 
 Troubleshooting:
-- "Troubleshooting Record Resolution Issues"
-- "Troubleshooting Domain Resolution Issues"
-- "How to Use dig"
-- "How Long Does It Take for a New Record to Resolve for My Domain?"
-- "What's the Minimum Time-To-Live Provided by DNSimple?"
+  - Troubleshooting Record Resolution Issues
+  - Troubleshooting Domain Resolution Issues
+  - How to Use dig
+  - How Long Does It Take for a New Record to Resolve for My Domain?
+  - What's the Minimum Time-To-Live Provided by DNSimple?

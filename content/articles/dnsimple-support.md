@@ -1,6 +1,7 @@
 ---
 title: Contacting DNSimple Support
 excerpt: How to contact DNSimple for questions, issues, or feedback.
+meta: Get in touch with DNSimple support for assistance with questions, issues, or feedback. Our experts are here to help you navigate your DNS needs effectively.
 categories:
 - DNSimple
 ---

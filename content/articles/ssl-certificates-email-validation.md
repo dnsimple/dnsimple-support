@@ -19,7 +19,7 @@ redirect_from:
 
 ---
 
-In order to issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
+In order to issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
 
 The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 
@@ -64,7 +64,7 @@ Where `example.com` is the domain for the certificate being purchased.
 ## Email validation and WHOIS privacy {#whois-privacy}
 
 <warning>
-[Whois Privacy Protection services](/articles/what-is-whois-privacy) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
+[Whois Privacy Protection services](/articles/what-is-whois-privacy/) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
 </warning>
 
 If the Whois Privacy is enabled for the domain associated with the certificate, the privacy email (e.g. `wqyygglqlt@whoisprivacyprotect.com`) will be included in the list of possible emails to be used. However, it's not guaranteed that the delivery will be successful and DNSimple has no control over the delivery of the validation email.
@@ -85,7 +85,7 @@ As a result, you can no longer use a custom email address listed in the WHOIS to
 
 ## Select the validation email address {#select-email}
 
-You select the validation email when you purchase the certificate. You can use one of the emails available in the list displayed in the configuration page, selected by the Certificate Authority and based upon the constraints documented above. [What if the validation email you want to use is not included in this list?](/articles/how-to-different-ssl-domain-validation-email)
+You select the validation email when you purchase the certificate. You can use one of the emails available in the list displayed in the configuration page, selected by the Certificate Authority and based upon the constraints documented above. [What if the validation email you want to use is not included in this list?](/articles/how-to-different-ssl-domain-validation-email/)
 
 <div class="section-steps" markdown="1">
 ##### To select a validation email

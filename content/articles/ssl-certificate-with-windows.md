@@ -1,6 +1,7 @@
 ---
 title: SSL Certificates with Windows
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
+meta: Learn how to efficiently obtain and install a new SSL certificate from DNSimple on your Windows server with our detailed step-by-step guide. Secure your site easily.
 categories:
 - SSL Certificates
 ---
@@ -25,13 +26,13 @@ Microsoft Windows supports a large number of web servers. The most common are Mi
 
 We provide specific articles to request and install the SSL on the following web servers:
 
-- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis)
-- [Apache](/articles/ssl-certificate-with-apache)
-- [NGINX](/articles/ssl-certificate-with-nginx)
+- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis/)
+- [Apache](/articles/ssl-certificate-with-apache/)
+- [NGINX](/articles/ssl-certificate-with-nginx/)
 
-If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/purchasing-ssl-certificates) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
+If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/purchasing-ssl-certificates/) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
 
 If you are using Microsoft Windows as operating system, but you are installing the certificate on a cloud service, then you may be interested in one of the following articles:
 
-- [Heroku](/articles/ssl-certificate-with-heroku)
-- [Microsoft Azure](/articles/ssl-certificate-with-azure)
+- [Heroku](/articles/ssl-certificate-with-heroku/)
+- [Microsoft Azure](/articles/ssl-certificate-with-azure/)

@@ -6,7 +6,7 @@ categories:
 ---
 # Record Editor for Integrated Zones
 
-From the [Record Editor](/articles/record-editor) page, you can view the records and sync state for zones at DNSimple and any configured [Integrated DNS Providers](/articles/integrated-dns-providers).
+From the [Record Editor](/articles/record-editor/) page, you can view the records and sync state for zones at DNSimple and any configured [Integrated DNS Providers](/articles/integrated-dns-providers/).
 
 ## Managing integrated zone records in the Record Editor
 
@@ -16,7 +16,7 @@ On the Record Editor page, you can see which records are present at which DNS pr
 
 ### Adding an integrated zone record in the Record Editor
 
-In the Record Editor, you can add a zone record to one or more DNS providers that support the [record type](/articles/integrated-dns-providers#supported-record-types).
+In the Record Editor, you can add a zone record to one or more DNS providers that support the [record type](/articles/integrated-dns-providers/#supported-record-types).
 
 <div class="section-steps" markdown="1">
 
@@ -71,7 +71,7 @@ If you have made changes to integrated zone records outside of DNSimple, you can
 
 ![Record Editor Import Integrated Records](/files/record-editor-integrated-zones-import-records.png)
 
-You can also visit the [Domain Names](/articles/managing-integrated-zones#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account.
+You can also visit the [Domain Names](/articles/managing-integrated-zones/#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account.
 
 ## Syncing integrated zone records between DNS providers {#record-syncing}
 
@@ -87,7 +87,7 @@ When your zone is out of sync across its DNS providers, a warning message will a
 
     ![Record Editor Sync Records button](/files/record-editor-integrated-zones-sync-button.png)
 
-1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone can be created, updated, and deleted to make the records in the destination zone match those in the source zone. Only [record types supported](/articles/integrated-dns-providers#supported-record-types) at both providers will be affected. Only record field information (e.g. record TTL) supported at DNSimple will be preserved.
+1.  In the popup, select the DNS provider that will be the source of the zone records and the destination DNS provider. Records in the destination zone can be created, updated, and deleted to make the records in the destination zone match those in the source zone. Only [record types supported](/articles/integrated-dns-providers/#supported-record-types) at both providers will be affected. Only record field information (e.g. record TTL) supported at DNSimple will be preserved.
 
     ![Record Editor Delete Integrated Record](/files/record-editor-integrated-zones-sync-records.png)
 </div>

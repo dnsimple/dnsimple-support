@@ -1,6 +1,7 @@
 ---
 title: SupaDupa Service
 excerpt: How to set up SupaDupa DNS using DNSimple's One-click Service.
+meta: Easily set up SupaDupa DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your DNS management and enhance your online presence.
 categories:
 - Services
 ---

@@ -72,7 +72,7 @@ We provide three types of SSL certificates:
 - Wildcard certificates (included in the Teams plan and higher)
 - Let's Encrypt SSL certificates (included in all subscriptions)
 
-[Learn more about DNSimple certificates](/articles/ssl-certificates).
+[Learn more about DNSimple certificates](/articles/ssl-certificates/).
 
 ## Have more questions?
 

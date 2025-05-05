@@ -1,6 +1,7 @@
 ---
 title: DMARC Reports by Postmark Service
 excerpt: How to set up DMARC Reports by Postmark DNS using DNSimple's one-click service.
+meta: Easily set up Postmark DNS with DNSimple's One-click Service. Follow our step-by-step guide to ensure seamless email delivery and reliable performance.
 categories:
 - Services
 ---

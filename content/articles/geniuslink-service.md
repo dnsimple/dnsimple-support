@@ -1,6 +1,7 @@
 ---
 title: Geniuslink Service
 excerpt: How to set up Geniuslink DNS using DNSimple's one-click service.
+meta: Easily set up Geniuslink DNS with DNSimple's one-click service. Streamline your link management and enhance your online presence effortlessly.
 categories:
 - Services
 ---

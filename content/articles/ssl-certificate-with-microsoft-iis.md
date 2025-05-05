@@ -1,6 +1,7 @@
 ---
 title: SSL Certificates with Microsoft Windows IIS
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Microsoft Windows IIS.
+meta: Learn how to easily obtain and install an SSL certificate from DNSimple on Microsoft IIS with our comprehensive step-by-step guide. Secure your site easily.
 categories:
 - SSL Certificates
 ---
@@ -19,13 +20,13 @@ With DNSimple you can request an SSL certificate that you can install on [Micros
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, download the `.PFX` bundle and install it on Microsoft Windows IIS.
 
 <tip>
-Before you start, please take a moment to review [information and prices](/articles/ssl-certificates) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates).
+Before you start, please take a moment to review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 </tip>
 
 
 ## Obtain the SSL certificate
 
-We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
+We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
 
 ## Install the SSL certificate on IIS
 

@@ -1,6 +1,7 @@
 ---
 title: API Documentation
 excerpt: You can find our API documentation at the developer site.
+meta: Explore comprehensive API documentation at DNSimple, designed to help developers seamlessly integrate and utilize our services for domain management and automation.
 categories:
 - API
 ---

@@ -1,5 +1,5 @@
 ---
-meta: A guide for getting started with your team on DNSimple
+meta: Discover how to effectively set up and manage your team on DNSimple with our comprehensive guide, designed to help you collaborate and streamline your workflow.
 title: First Steps Guide to Setting Up Your Team
 excerpt: A guide for setting up your team members with your account
 categories:

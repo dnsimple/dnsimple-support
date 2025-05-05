@@ -1,6 +1,7 @@
 ---
 title: Cloudflare Service
 excerpt: How to setup Cloudflare DNS using DNSimple one-click service.
+meta: Easily set up Cloudflare DNS with DNSimple using these instructions. Enhance your website's performance and security with our step-by-step guide.
 categories:
 - Services
 - Integrations
@@ -26,7 +27,7 @@ You can use Cloudflare services with DNSimple via [direct integraiton](#direct-i
 
 Direct integration requires to change the name servers for your domain to point to Cloudflare name servers.
 
-If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to Cloudflare. In both cases, once the domain is pointing to Cloudflare, you will need to manage the DNS records in Cloudflare. Any DNS change in your DNSimple account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
+If your domain is registered with DNSimple, follow these instructions to [configure the name servers for a domain](/articles/setting-name-servers/). If the domain is registered elsewhere, you will need to follow the instructions of your existing domain registrar to point the domain to Cloudflare. In both cases, once the domain is pointing to Cloudflare, you will need to manage the DNS records in Cloudflare. Any DNS change in your DNSimple account for that domain will no longer have any effect, including changing DNS records, enabling/disabling one-click services and enabling/disabling email forwards.
 
 Furthermore, the direct integration doesn't allow selectively delegating only certain DNS records to Cloudflare. If you want to use Cloudflare only for a specific DNS record (e.g. for the main website) and use DNSimple for all the other records (e.g. MX email configurations), then use the one-click DNSimple integration.
 

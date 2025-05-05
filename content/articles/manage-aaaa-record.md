@@ -1,6 +1,7 @@
 ---
 title: Managing AAAA Records
 excerpt: Instructions to add, update, and remove an AAAA record in DNSimple.
+meta: Learn how to easily manage your AAAA records in DNSimple with our step-by-step guide. Add, update, or remove records to optimize your domain's performance.
 categories:
 - DNS
 ---
@@ -14,9 +15,9 @@ categories:
 
 ---
 
-You can manage [AAAA records](/articles/aaaa-record) in DNSimple using the [DNS record editor](/articles/record-editor).
+You can manage [AAAA records](/articles/aaaa-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [AAAA record format](/articles/aaaa-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [AAAA record format](/articles/aaaa-record/#record-format) and usage.
 
 
 ## Adding an AAAA record
