@@ -36,7 +36,7 @@ On September 5th, 2014, [Google announced plans for gradually sunsetting SHA-1](
 
 We decided to provide this support page to educate our customers on the subject. However, you unlikely need to worry about the certificates purchased with DNSimple.
 
-DNSimple traditionally offered [Sectigo and RapidSSL](/articles/what-ssl-certificate-authorities/) certificates. On September 11th, 2014, we switched our system to offer Sectigo certificates only.
+DNSimple traditionally offered [Sectigo and RapidSSL](/articles/ssl-certificate-authorities/) certificates. On September 11th, 2014, we switched our system to offer Sectigo certificates only.
 
 Sectigo has been using SHA-2 hash algorithm by default since August 2014.
 

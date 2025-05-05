@@ -28,7 +28,7 @@ If after 24 hours the domain still isn't resolving, make sure the update was suc
 
 ## Check that the domain is using the DNSimple name servers
 
-Ensure the domain is using [DNSimple name servers](/articles/dnsimple-nameservers).
+Ensure the domain is using [DNSimple name servers](/articles/dnsimple-nameservers/).
 
 If not, update the name server to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
@@ -55,7 +55,7 @@ It executes a recursive query against each of the name servers in the chain, sta
 $ dig NS example.com +trace
 ~~~
 
-The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers).
+The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers/).
 
 If not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/). If you recently switched, the update may be in progress. See the sections *Check name server list in the WHOIS response* and *Check name server propagation delay*.
 

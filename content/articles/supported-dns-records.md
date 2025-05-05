@@ -38,7 +38,7 @@ We support the following standard record types:
 
 We also created 3 proprietary record types:
 
-- [ALIAS](/articles/alias-record)
+- [ALIAS](/articles/alias-record/)
 - [URL](/articles/url-record/)
 - [POOL](/articles/pool-record/)
 
@@ -51,5 +51,5 @@ We support additional record types used behind the scenes to provide various DNS
 ## Limitations
 
 <note>
-CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers). We don't support transferring CAA records to secondary name servers.
+CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
 </note>

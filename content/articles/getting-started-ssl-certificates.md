@@ -52,7 +52,7 @@ Because acquiring a certificate is different between the Certificate Authorities
 - [Ordering a Standard certificate](/articles/ordering-standard-certificate/)
 - [Ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/)
 
-If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificates/) it and we will default some settings for you.
+If the SSL certificate is expiring and it was previously purchased with us, you can [renew](/articles/renewing-ssl-certificate/) it and we will default some settings for you.
 
 If you need to use a [custom CSR](/articles/what-is-csr/), generate it and [order a Standard certificate](/articles/ordering-standard-certificate/) where you can paste it in the SSL certificate purchase form.
 

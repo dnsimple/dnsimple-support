@@ -29,13 +29,13 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 1.  **Transfer the domain registration and DNS management to us.**
 
-    If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain/).
+    If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/domain-transfer/).
 
     If you don't have a domain yet, you can [sign up](https://dnsimple.com/pricing) or log in to [register a domain](https://dnsimple.com/tlds), and activate the zone       to manage your DNS with us.
 
 ## Adding the domain
 
-To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain/). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/transferring-domain/) the domain to us.
+To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain/). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/domain-transfer/) the domain to us.
 
 ## Adding DNS records to your domain
 

@@ -20,7 +20,7 @@ Your domain apex is the second or third level domain provided to you by your dom
 To point your root domain to your GitHub Pages you have two options:
 
   1. Use the One-click Service that DNSimple provides.
-  2. Manually add an [ALIAS record](/articles/alias-record).
+  2. Manually add an [ALIAS record](/articles/alias-record/).
 
 ## Using the One-click Service
 

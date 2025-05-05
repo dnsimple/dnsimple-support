@@ -27,7 +27,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
     <info>
-    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/transferring-domain/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
+    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
     </info>
 </div>
 

@@ -39,11 +39,11 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1. Instead of manually entering the name server names, you can also click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets).
+1. Instead of manually entering the name server names, you can also click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets/).
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-   If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if `ns1.example.com` is being configured as a name server for the domain "example.com", and `ns1.example.com` has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve `ns1.example.com` to its associated IP address(es) will be created at the registry.
+   If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets/), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if `ns1.example.com` is being configured as a name server for the domain "example.com", and `ns1.example.com` has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve `ns1.example.com` to its associated IP address(es) will be created at the registry.
 
 1. Click <label>Change Name Servers</label> to apply the name server changes.
 
@@ -89,7 +89,7 @@ Let's say you own the domain name example.com that uses the name servers `ns1.ex
 
 To solve this problem, TLD domain name servers let you specify IP addresses for the name servers directly in the TLD name servers. When you ask a TLD name server for the name servers of example.com, you not only get back `ns1.example.com` and `ns2.example.com`, you also get A records for `ns1.example.com` and `ns2.example.com` as part of the response. DNS resolvers then know where to go for the rest of the details.
 
-## Have more questions? 
+## Have more questions?
 
 If you have further questions or need assistance setting up name servers for your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

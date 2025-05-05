@@ -93,4 +93,4 @@ It may take up to 24 hours for changes to propagate.
 
 ## Transferring the domain to DNSimple
 
-Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/transferring-domain/) without worrying about downtime.
+Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/domain-transfer/) without worrying about downtime.
