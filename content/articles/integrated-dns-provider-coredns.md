@@ -50,7 +50,8 @@ All DNSimple record types can be synced to CoreDNS:
 - [A](/articles/a-record)
 - [AAAA](/articles/aaaa-record/)
 - [ALIAS](/articles/alias-record)
-- [CNAME](/articles/cname-record/)
+- [CAA](/articles/caa-record)
+- [CNAME](/articles/cname-record)
 - HINFO
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)
