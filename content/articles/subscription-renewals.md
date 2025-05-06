@@ -37,9 +37,9 @@ You will receive an invoice when the renewal is successfully processed, and your
 
 If your renewal payment fails, you will receive a [dunned invoice](https://support.dnsimple.com/articles/account-invoice-history/#invoice-state-dunned), along with an email that details the failure and steps you can take to fix the issue(s).
 
-Your account **will not** immediately be canceled, and your domains will continue to resolve. 
+Your account **will not** immediately be canceled, and your domains will continue to resolve.
 
-From the date of the first failed payment attempt, you will have **21 days** to fix the issue and finalize the payment. 
+From the date of the first failed payment attempt, you will have **21 days** to fix the issue and finalize the payment.
 
 Our system will attempt to collect payment once a week during this period, and we will notify the email associated with your account whether the attempt has failed or succeeded. You can also manually retry payments for renewal fees —- [learn how](/articles/account-invoice-history/#retrying).
 
@@ -47,9 +47,9 @@ If you know you cannot provide a valid card number before your subscription is c
 
 ## What happens if my subscription is canceled?
 
-If your subscription is canceled because of too many failed renewal attempts, we will immediately notify you by email, and all services provided by DNSimple will stop. Learn more about [what happens if you stop paying for your subscription](https://support.dnsimple.com/articles/what-happens-if-i-stop-paying).
+If your subscription is canceled because of too many failed renewal attempts, we will immediately notify you by email, and all services provided by DNSimple will stop. Learn more about [what happens if you stop paying for your subscription](https://support.dnsimple.com/articles/what-happens-if-i-stop-paying/).
 
-You have the option to [reactivate a canceled subscription](https://support.dnsimple.com/articles/reactivate-subscription).
+You have the option to [reactivate a canceled subscription](https://support.dnsimple.com/articles/reactivate-subscription/).
 
 ## Have more questions?
 

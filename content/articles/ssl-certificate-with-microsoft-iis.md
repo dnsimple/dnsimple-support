@@ -26,7 +26,7 @@ Before you start, please take a moment to review [information and prices](/artic
 
 ## Obtain the SSL certificate
 
-We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
+We have prepared [a guide to purchasing an SSL certificate](/articles/ordering-standard-certificate/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
 
 ## Install the SSL certificate on IIS
 

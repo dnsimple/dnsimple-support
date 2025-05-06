@@ -92,7 +92,7 @@ www.dnsimple.com.   3600    IN  CNAME   dnsimple.com.
 ;; Received 59 bytes from 162.159.27.4#53(ns4.dnsimple.com) in 34 ms
 ~~~
 
-In the resulting query chain, you can see each hop to resolve the CNAME. First, the root name servers are queried. Then, the query is passed along to the ".com" name servers and then to [DNSimple's name servers](/articles/dnsimple-nameservers). Finally, DNSimple returns the CNAME record. If DNSimple's name servers are not present in this trace, you'll need to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
+In the resulting query chain, you can see each hop to resolve the CNAME. First, the root name servers are queried. Then, the query is passed along to the ".com" name servers and then to [DNSimple's name servers](/articles/dnsimple-nameservers/). Finally, DNSimple returns the CNAME record. If DNSimple's name servers are not present in this trace, you'll need to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 If you recently made changes to your record, the update may still be in progress. See the *Check the record propagation delay* and *Check the record update delay* sections.
 
@@ -111,7 +111,7 @@ $ dig www.dnsimple.com @ns1.dnsimple.com
 
 If you get the expected response, the record has been updated in our system, but the changes still need to propagate. They should be visible after the TTL period.
 
-You can check it against any of [DNSimple's name servers](/articles/dnsimple-nameservers).
+You can check it against any of [DNSimple's name servers](/articles/dnsimple-nameservers/).
 
 If the query isn't returning the correct value, make sure the record update isn't delayed. See the section *Check record update delay*.
 

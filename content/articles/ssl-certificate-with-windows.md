@@ -30,7 +30,7 @@ We provide specific articles to request and install the SSL on the following web
 - [Apache](/articles/ssl-certificate-with-apache/)
 - [NGINX](/articles/ssl-certificate-with-nginx/)
 
-If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/purchasing-ssl-certificates/) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
+If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/ordering-standard-certificate/) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
 
 If you are using Microsoft Windows as operating system, but you are installing the certificate on a cloud service, then you may be interested in one of the following articles:
 

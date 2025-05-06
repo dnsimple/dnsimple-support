@@ -29,7 +29,7 @@ categories:
 
 - [Add a domain](/articles/adding-domain/)
   - [Register a domain](/articles/registering-domain/)
-  - [Transfer a domain](/articles/transferring-domain/)
+  - [Transfer a domain](/articles/domain-transfer/)
     - [No downtime transfers](https://dnsimple.com/how-to-transfer-without-downtime/)
   - [Host a domain](/articles/delegating-dnsimple-hosted/)
 - [Configure DNS records](/articles/supported-dns-records/)

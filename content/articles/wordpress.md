@@ -40,7 +40,7 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
 
     -   **If you want to point the root domain `awesome-blog.com`**
 
-        Add an [ALIAS record](/articles/alias-record) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
+        Add an [ALIAS record](/articles/alias-record/) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
     -   **If you want to point a subdomain (e.g. `www.awesome-blog.com`)**
 
@@ -64,5 +64,5 @@ DNSimple [doesn't offer any web hosting service](/articles/web-hosting/), theref
 
 The web hosting service will provide you the specific instructions or server access to upload the WordPress files to the server, configure the database and install the platform.
 
-You can use DNSimple to point your own domain to the IP address provided you by the web hosting service. You will likely need to [create an A or CNAME DNS record](/articles/differences-a-cname-records/) using your domain [DNS record editor](https://support.dnsimple.com/articles/record-editor) to point the domain to your web hosting space and make your WordPress instance available to your users.
+You can use DNSimple to point your own domain to the IP address provided you by the web hosting service. You will likely need to [create an A or CNAME DNS record](/articles/differences-a-cname-records/) using your domain [DNS record editor](https://support.dnsimple.com/articles/record-editor/) to point the domain to your web hosting space and make your WordPress instance available to your users.
 

@@ -42,7 +42,7 @@ For both options, the process of adding the domain to DNSimple is the same.
 
 You'll then be prompted for the name of the domain you want to add to your account.
 
-After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
+After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers/) support article for your domain.
 </div>
 
 ## Incompatible services

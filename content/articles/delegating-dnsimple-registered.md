@@ -22,7 +22,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Domain Delegation card](/files/domain-delegation-card-2.png)
 
-1. Click <label>Use DNSimple name servers</label> to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers). 
+1. Click <label>Use DNSimple name servers</label> to replace the name servers in the form with [DNSimple name servers](/articles/dnsimple-nameservers/).
 
     ![Use DNSimple name servers](/files/use-dnsimple-name-servers.png)
 
@@ -30,7 +30,7 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 
     ![Use DNSimple name servers confirmation](/files/use-dnsimple-name-servers-confirmation.png)
 
-1. Alternatively, the [DNSimple name servers](/articles/dnsimple-nameservers) can be manually entered into the form.
+1. Alternatively, the [DNSimple name servers](/articles/dnsimple-nameservers/) can be manually entered into the form.
   - ns1.dnsimple.com
   - ns2.dnsimple-edge.net
   - ns3.dnsimple.com
@@ -48,6 +48,6 @@ Switching the name servers to DNSimple will cause the domain to resolve using th
 It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 </note>
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions or need assistance delegating your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions or need assistance delegating your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

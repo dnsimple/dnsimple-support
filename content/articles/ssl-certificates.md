@@ -39,7 +39,7 @@ DNSimple provides the following certificate products:
 1. [Let's Encrypt SSL certificate](#letsencrypt)
 1. [Let's Encrypt Wildcard SSL certificate](#letsencrypt-wildcard)
 
-All SSL certificates are issued by globally recognized [certificate authorities](/articles/what-ssl-certificate-authorities/).
+All SSL certificates are issued by globally recognized [certificate authorities](/articles/ssl-certificate-authorities/).
 
 <info>
 All certificates are [domain-validated](/articles/ssl-certificates-email-validation/). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
@@ -102,7 +102,7 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 1.  Scroll down the page until you see the <label>SSL certificates</label> section.
 </div>
 
-From the certificate section you can [purchase an new SSL certificate](/articles/purchasing-ssl-certificates/), [renew an existing SSL certificate](/articles/renewing-ssl-certificate/) or view and install the SSL certificate.
+From the certificate section you can [purchase an new SSL certificate](/articles/ordering-standard-certificate/), [renew an existing SSL certificate](/articles/renewing-ssl-certificate/) or view and install the SSL certificate.
 
 
 ## SSL certificate Frequently Asked Questions

@@ -7,7 +7,7 @@ categories:
 
 # What Is A Name Server Set?
 
-Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors. 
+Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors.
 
 <info>
 Changes to a name server set's definition will not affect any existing domain name server or configurations that had included the name server set.
@@ -27,7 +27,7 @@ There are two types of name server sets:
 
 ### System name server sets {#system-name-server-sets}
 
-System name server sets are pre-defined name server sets provided by DNSimple which cannot be modified. They contain [DNSimple name servers](/articles/dnsimple-nameservers). Unlike account name server sets, system name server sets are not listed on the Account > Name Server Sets page, as they are system-defined and cannot be managed by users.
+System name server sets are pre-defined name server sets provided by DNSimple which cannot be modified. They contain [DNSimple name servers](/articles/dnsimple-nameservers/). Unlike account name server sets, system name server sets are not listed on the Account > Name Server Sets page, as they are system-defined and cannot be managed by users.
 
 ### Account name server sets {#account-name-server-sets}
 
