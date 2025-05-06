@@ -1,5 +1,5 @@
 ---
-title: Multi-Account Management (Enterprise)
+title: Multi-Account Management for Enterprise Clients
 excerpt: How to manage multiple accounts under a single Enterprise contract
 categories:
 - Account
