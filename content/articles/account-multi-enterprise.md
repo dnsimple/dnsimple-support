@@ -1,6 +1,6 @@
 ---
 title: Multi-Account Management (Enterprise)
-excerpt: How to manage multiple accounts under a single Enterprise Contract
+excerpt: How to manage multiple accounts under a single Enterprise contract
 categories:
 - Account
 ---
@@ -12,15 +12,16 @@ categories:
 {:toc}
 
 ---
+<info>
 This feature is exclusively available to our [Enterprise](https://dnsimple.com/enterprises) customers. If you're interested in exploring our Enterprise options and the benefits of multi-account management, please [contact our sales team](https://dnsimple.com/sales).
-
+</info>
 
 Enterprise customers can manage multiple, separate DNSimple accounts under a single contract. This provides:
 
-* Enhanced control and organization for businesses with multiple entities requiring independent domain and DNS management
-* Improved account security
-* Simplified billing across your various business units
-* Administrators with access to all accounts within an Enterprise contract gain a centralized view of all associated accounts upon login.
+- Enhanced control and organization for businesses with multiple entities requiring independent domain and DNS management
+- Improved account security
+- Simplified billing across your various business units
+- Administrators with access to all accounts within an Enterprise contract gain a centralized view of all associated accounts upon login.
 
 ## Managing accounts within your contract
 
@@ -43,11 +44,15 @@ The **Contract** card provides a comprehensive overview of your multi-account se
 
 **Account Summary:**
 
-* **Account Name:** The individual name of the account.
-* **Domain Names:** The total count of domains currently managed within that account.
-* **Seats:** The number of users with access to that specific account.
+- **Account Name:** The individual name of the account.
+- **Domain Names:** The total count of domains currently managed within that account.
+- **Seats:** The number of users with access to that specific account.
 
 **Contract Totals:**
 
-* **Total Domain Names:** The number of domains across all accounts under the contract.
-* **Total Seats:** The number of members across all accounts within the contract.
+- **Total Domain Names:** The number of domains across all accounts under the contract.
+- **Total Seats:** The number of members across all accounts within the contract.
+
+## Have more questions?
+
+If you have additional questions or need any assistance with multi-account management, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
