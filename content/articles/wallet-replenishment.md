@@ -22,8 +22,8 @@ Automatic wallet replenishments are not yet available. You need to manually add 
 </info>
 
 ## Adding funds to your wallet
-1. From the account dashboard, select the account you want to update the payment information for. This takes you to the domain list for the account.
-1. Select **Account** at the top right of the screen.
+1. From the account switcher, select the account you want to update the payment information for. This takes you to the domain list for the account.
+1. Select **Account settings** from the account switcher at the top right of the screen.
 1. Select the **Billing and plans** tab on the left side.
 1. In the **Wallet** card, click **Add funds**.
 
