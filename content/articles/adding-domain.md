@@ -13,7 +13,7 @@ When adding a domain to your account, you can register a new domain, transfer an
 <div class="section-steps" markdown="1">
 ##### To add a domain
 
-1.  If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
+1.  If you have more than one account, select the relevant one from the account switcher at the top-right corner of the screen.
 1.  From the Domain Names page, click <label>Add new</label>, and choose the option that fits your needs.
   ![Adding a domain button](/files/add-a-domain.png)
 </div>

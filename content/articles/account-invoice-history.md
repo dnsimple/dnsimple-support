@@ -21,7 +21,7 @@ Account owners can view an account's payment history and manually retry failed i
 <div class="section-steps" markdown="1">
 ##### To view an account's invoice history
 
-1. Click the account switcher on the top right of the screen, then choose the account you want to see the invoice history for.
+1. Click the account switcher at the top-right corner of the screen, then choose the account you want to see the invoice history for.
 
     ![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
 

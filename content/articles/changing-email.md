@@ -38,7 +38,7 @@ You'll be redirected to the Account page, where you'll see the updated email add
 ## Changing the user email
 
 <div class="section-steps" markdown="1">
-1.  Go to your [user page](https://dnsimple.com/user) by clicking the account switcher at the top right of the screen, then select <label>User settings</label>.
+1.  Go to your [user page](https://dnsimple.com/user) by clicking the account switcher at the top-right corner of the screen, then select <label>User settings</label>.
 
     ![Screenshot of link to user settings](/files/user-settings-menu.png)
 

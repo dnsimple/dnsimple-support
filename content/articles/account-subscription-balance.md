@@ -7,7 +7,7 @@ categories:
 ---
 
 # Understanding Your Account Balance and Billing Details
-The Account page, linked for the selected account in the account switcher, provides comprehensive information about the account's billing and plan status.
+The Account page, linked under the selected account in the account switcher, provides comprehensive information about the account's billing and plan status.
 
 ## Checking your account billing details
 1. Choose the relevant account from the account switcher, then click **Account settings**.

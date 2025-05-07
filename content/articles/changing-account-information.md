@@ -20,7 +20,7 @@ categories:
 You can update your account email address at any time. Changing your account email will **not** update your user email. To update your user email, follow [these instructions](/articles/changing-email/#changing-the-user-email). If you want to update both your account and user email to the same address, you'll need to update your user email first, then your account email.
 
 <div class="section-steps" markdown="1">
-1. Select the relevant account from the account switcher in the top-right corner of the screen.
+1. Select the relevant account from the account switcher at the top-right corner of the screen.
 1. From the account switcher, click <label>Account settings</label>.
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 

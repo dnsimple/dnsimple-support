@@ -13,7 +13,7 @@ A subdomain is a DNS record for a hostname that belongs to your domain. To add a
 <div class="section-steps" markdown="1">
 ##### To add a subdomain
 
-1. If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
+1. If you have more than one account, select the relevant one from the account switcher at the top-right corner of the screen.
 1. On the header, click the <label>Domain Names</label> tab.
 1. Locate the relevant domain, and click on the name to access the domain page.
 1. Click the <label>DNS</label> tab, and scroll to the **DNS Records** card, or click the **DNS** badge at the top right to jump to the DNS records for that domain.
