@@ -52,7 +52,7 @@ Select the account you want to view from the account switcher, and you'll be tak
 
 ![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
 
-Once you've selected an account, open the account switcher again and click **_Account settings_** to view details for the selected account.
+Once you've selected an account, open the account switcher again, and click **_Account settings_** to view details for the selected account.
 
 ![screenshot of account link in top nav](/files/account-nav-link.png)
 
