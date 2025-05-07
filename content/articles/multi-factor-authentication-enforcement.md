@@ -27,7 +27,7 @@ You can enable multi-factor authentication enforcement from your Account page.
 <div class="section-steps" markdown="1">
 ##### To enable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account from the account switcher at the top right of the screen and clicking *Account settings*.
+1. Go to your account settings by selecting the relevant account from the account switcher at the top right of the screen and clicking **Account settings**.
   ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
@@ -44,7 +44,7 @@ You can enable multi-factor authentication enforcement from your Account page.
 <div class="section-steps" markdown="1">
 ##### To disable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account from the account switcher at the top right of the screen and clicking *Account settings*.
+1. Go to your account settings by selecting the relevant account from the account switcher at the top right of the screen and clicking **Account settings**.
   ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
