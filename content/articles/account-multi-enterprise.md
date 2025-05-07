@@ -29,6 +29,9 @@ The **Contract** card, which displays the list of associated accounts, is only v
 
 **To add or remove accounts from your Enterprise contract, please reach out directly to your DNSimple Account Manager.**
 
+
+![screenshot of multi account contact card](/files/multi-account-contact.png)
+
 ## Viewing accounts associated with your contract
 
 To access the list of accounts linked to your Enterprise contract:
@@ -42,17 +45,17 @@ The **Contract** card provides a comprehensive overview of your multi-account se
 **Company Name:** The name associated with the specific account.
 **Account Manager details:** Contact information for your DNSimple Account Manager.
 
-**Account Summary:**
+### Account Summary:
 
 - **Account Name:** The individual name of the account.
 - **Domain Names:** The total count of domains currently managed within that account.
 - **Seats:** The number of users with access to that specific account.
 
-**Contract Totals:**
+### Contract Totals:
 
 - **Total Domain Names:** The number of domains across all accounts under the contract.
 - **Total Seats:** The number of members across all accounts within the contract.
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with multi-account management, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with multi-account management, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
