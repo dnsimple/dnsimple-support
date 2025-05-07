@@ -18,8 +18,9 @@ The registrar applies a mandatory restore fee. The final price of the restore wi
 
 ##### To restore a domain
 
-1. Log in to DNSimple with your user credentials.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  Log in to DNSimple with your user credentials.
+1.  Select the relevant account from the account switcher in the top-right corner of the page.
+1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Select the <label>Restore domain</label> link from the registration status card.
 
     ![Restore domain link](/files/restore-domain.png)
