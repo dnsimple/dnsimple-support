@@ -34,7 +34,7 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 1. Enter your payment information and click **Create Subscription**.
 
 ### From the Billings and plans page:
-1. Click the account switcher at the top right of the screen.
+1. Click the account switcher at the top-right corner of the screen.
 1. Click on the account you want to reactivate, then select **Account settings**.
 1. Click the **Billing and plans** tab on the left side of the screen.
 1. You'll see a card with a **No plan selected** alert. Click **select plan** at the bottom of this card.

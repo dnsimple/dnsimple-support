@@ -39,7 +39,7 @@ You'll be redirected to the Account page, where you'll see the updated email add
 You can also edit your account name, country of operation, and change your answers to any of the security screening questions.
 
 <div class="section-steps" markdown="1">
-1. Select the relevant account from the account switcher in the top-right corner of the screen.
+1. Select the relevant account from the account switcher at the top-right corner of the screen.
 1. From the account switcher, click <label>Account settings</label>.
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 

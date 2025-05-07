@@ -54,7 +54,7 @@ However, record fields not supported by DNSimple or the destination provider may
 
 ## Connecting an Integrated DNS Provider to your account {#connecting-an-integrated-dns-provider}
 
-1. At DNSimple, select the relevant account from the account switcher in the top-right corner of the screen.
+1. At DNSimple, select the relevant account from the account switcher at the top-right corner of the screen.
 1. From the account switcher, click **Account settings**, then click the **Integrated Providers** tab.
 1. Under **Connect an Integrated Provider**, click **Connect** for the Integrated DNS Provider you want to link to your DNSimple account.
 ![Connect an Integrated DNS Provider](/files/account-integrated-provider-link.png)
@@ -67,7 +67,7 @@ However, record fields not supported by DNSimple or the destination provider may
 
 ## Disconnecting an Integrated DNS Provider from your account {#disconnecting-an-integrated-dns-provider}
 
-1. At DNSimple, select the relevant account from the account switcher in the top-right corner of the screen.
+1. At DNSimple, select the relevant account from the account switcher at the top-right corner of the screen.
 1. From the account switcher, click **Account settings**, then click the **Integrated Providers** tab.
 1. Under **Connected providers**, click **Disconnect** for the Integrated DNS Provider you want to disconnect from your DNSimple account. This will remove the ability to view and manage zones and their DNS records at the connected provider via DNSimple.
 ![Disconnect an Integrated DNS Provider](/files/account-integrated-provider-unlink.png)
@@ -83,7 +83,7 @@ When you remove a zone, it will remain both in DNSimple and at the provider. Rem
 
 To manage the zone selection for an Integrated DNS Provider, follow these steps:
 
-1. At DNSimple, select the relevant account from the account switcher in the top-right corner of the screen.
+1. At DNSimple, select the relevant account from the account switcher at the top-right corner of the screen.
 
 1. From the account switcher, click **Account settings**, then click the **Integrated Providers** tab.
 
