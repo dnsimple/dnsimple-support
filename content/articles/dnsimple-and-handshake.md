@@ -33,7 +33,6 @@ For both options, the process of adding the domain to DNSimple is the same.
 <div class="section-steps" markdown="1">
 ##### Adding a domain
 
-1.  Log in to DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
 1.  From the Domain Names page, click <label>Add new</label>.
   ![Adding a domain button](/files/add-a-domain.png)
