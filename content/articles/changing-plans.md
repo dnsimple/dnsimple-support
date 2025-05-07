@@ -35,22 +35,21 @@ You can cancel these plan changes in your account settings:
 
 ## Changing your subscription plan
 
-1.  Log in to DNSimple with your user credentials.
-2.  Select the relevant account from the account switcher in the top-right corner of the screen.
-3.  From the account switcher, click **Account settings** to enter the account page.
-4.  Click the **Change plan** link under your plan section.
+1.  Select the relevant account from the account switcher in the top-right corner of the screen.
+1.  From the account switcher, click **Account settings** to enter the account page.
+1.  Click the **Change plan** link under your plan section.
 
 ![Screenshot of how to change plan](/files/change-plan-screenshot.png)
 
-4.  Explore the features for each plan. Click the **Select** button on the plan that best suits your needs.
+1.  Explore the features for each plan. Click the **Select** button on the plan that best suits your needs.
 
 ![screenshot of selecting a plan](/files/select-plan-screenshot.png)
 
-5.  Verify the charges that will be made on your account. To complete the plan change, click **Confirm**.
+1.  Verify the charges that will be made on your account. To complete the plan change, click **Confirm**.
 
     ![Verify charges](/files/change-plan-3.png)
 
-6.  Once the change is complete, you'll receive the corresponding invoice.
+1.  Once the change is complete, you'll receive the corresponding invoice.
 
 ## Incompatible features
 
