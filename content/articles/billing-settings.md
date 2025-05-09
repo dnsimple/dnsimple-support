@@ -42,8 +42,8 @@ If you need to change the billing information for an existing invoice, please [c
 <div class="section-steps" markdown="1">
 ##### To update your billing settings
 
-1.  Log in to DNSimple with your user credentials.
-1.  [Locate the account](https://dnsimple.com/user) on the dashboard. Click on the account to enter the account page.
+1.  Select the relevant account from the account switcher at the top-right corner of the screen.
+1.  From the account switcher, click <label>Account settings</label>.
 1.  Scroll down to the invoices section. Click **Edit** at the bottom right of the section.
 
     ![Change billing settings](/files/account-billing-settings-link.png)

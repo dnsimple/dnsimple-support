@@ -24,7 +24,7 @@ To delete yourself as a user, you'll first need to [unsubscribe your accounts fr
 
 1. Go to [your User Settings page](https://dnsimple.com/user):
 
-    ![screenshot of user settings menu link](/files/user-settings-menu-item.png)
+    ![screenshot of user settings menu link](/files/user-settings-menu.png)
 
 1. Click <label>Delete user</label> at the bottom of the page:
 
