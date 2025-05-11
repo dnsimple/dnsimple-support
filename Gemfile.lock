@@ -165,7 +165,7 @@ DEPENDENCIES
   nanoc-live
   nokogiri
   pry (~> 0.15.2)
-  puma
+  puma (~> 6.6)
   rake
   rouge
   systemu
