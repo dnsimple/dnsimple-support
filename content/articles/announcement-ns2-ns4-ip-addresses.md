@@ -21,7 +21,7 @@ As part of our multi-year effort to modernize our DNS infrastructure and improve
 
 Following [the expansion of our cache edge infrastructure in 2024](https://blog.dnsimple.com/2024/10/expanding-cache-edge-network/), most domains have already transitioned to the new IP addresses. This announcement serves as final notice that the legacy IPs will be decommissioned on **June 15, 2025**.
 
-## What's Changing
+## What's changing
 
 The table below summarizes the IP addresses that will be deprecated, along with their replacements in the cache edge layer:
 
@@ -32,7 +32,7 @@ The table below summarizes the IP addresses that will be deprecated, along with 
 
 Domains still pointing to the deprecated IPs will **cease to resolve correctly after June 15, 2025**.
 
-## What You Need to Do
+## What you need to do
 
 If your domain configuration references any of the deprecated IPs directly, typically via [vanity name servers](https://support.dnsimple.com/articles/vanity-nameservers/) glue records or custom setups outside DNSimple, you must update your configuration to point to the replacement IPs listed above before **June 15, 2025**.
 
@@ -40,8 +40,8 @@ For most DNSimple customers, no manual action is required. Our systems automatic
 
 👉 [DNSimple Name Server Reference](https://support.dnsimple.com/articles/dnsimple-nameservers/)
 
-## Questions or Concerns?
+## Questions or concerns?
 
 If you have any questions or need help with the transition, don't hesitate to [reach out to our support team](https://support.dnsimple.com/).
 
-Thank you for being part of the DNSimple journey as we continue to invest in speed, resilience, and the future of DNS.
+Thank you for being part of DNSimple as we continue to invest in speed, resilience, and the future of DNS.
