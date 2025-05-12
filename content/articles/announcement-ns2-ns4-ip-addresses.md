@@ -34,7 +34,7 @@ Domains still pointing to the deprecated IPs will **cease to resolve correctly a
 
 ## What You Need to Do
 
-If your domain configuration references any of the deprecated IPs directly—typically via glue records or custom setups outside DNSimple—you must update your configuration to point to the replacement IPs listed above before **June 15, 2025**.
+If your domain configuration references any of the deprecated IPs directly, typically via [vanity name servers](https://support.dnsimple.com/articles/vanity-nameservers/) glue records or custom setups outside DNSimple, you must update your configuration to point to the replacement IPs listed above before **June 15, 2025**.
 
 For most DNSimple customers, no manual action is required. Our systems automatically handle the transition as long as you're using the correct name server hostnames. You can always refer to the latest list of official DNSimple name servers here:
 
