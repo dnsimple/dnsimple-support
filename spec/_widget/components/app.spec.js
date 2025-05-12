@@ -352,5 +352,15 @@ describe('App', () => {
       expect(externalLinkProbe).not.toHaveBeenCalled();
       expect(subject.text()).toContain('DNSimple provides essential services for every Internet-connected system');
     });
+
+    it('opens hash links in the widget', async () => {
+      await subject.find('[aria-label="Open widget"]').trigger('click');
+      await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-plans/"]').trigger('click');
+      await subject.find('[href$="#have-more-questions"]').trigger('click');
+
+      expect(externalLinkProbe).not.toHaveBeenCalled();
+      expect(subject.text()).toContain('Have more questions?');
+    });
   });
 });

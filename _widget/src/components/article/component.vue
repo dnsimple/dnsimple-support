@@ -53,7 +53,7 @@ export default {
       [...this.$el.querySelectorAll('.article a')].forEach((a) => {
         let url = a.getAttribute('href');
 
-        if (url[0] === '/' || url[0] === '#') {
+        if (url[0] === '/') {
           url = `${this.article.sourceUrl}${url}`;
           a.setAttribute('href', url);
         }
