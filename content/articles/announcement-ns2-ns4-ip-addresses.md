@@ -42,6 +42,6 @@ For most DNSimple customers, no manual action is required. Our systems automatic
 
 ## Questions or concerns?
 
-If you have any questions or need help with the transition, don't hesitate to [reach out to our support team](https://support.dnsimple.com/).
+If you have any questions or need help with the transition, don't hesitate to [reach out to our support team](https://dnsimple.com/contact).
 
 Thank you for being part of DNSimple as we continue to invest in speed, resilience, and the future of DNS.
