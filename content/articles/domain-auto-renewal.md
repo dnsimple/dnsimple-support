@@ -28,7 +28,9 @@ Your domain has two key dates related to its auto-renewal lifecycle: the expirat
 
 For some other TLDs (like .EU), domains are renewed before they expire, so the renew by date will be before the expiration date.
 
+<info>
 Refunds are not possible if a domain has already auto-renewed.
+</info>
 
 ### ICANN expiration warning
 
