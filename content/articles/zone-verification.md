@@ -3,6 +3,7 @@ title: Zone Verification
 excerpt: Zone Verification ensures that only the current owner of a domain can add and manage its DNS zone in DNSimple.
 categories: 
 - Account
+- DNS
 ---
 
 # Zone Verification
