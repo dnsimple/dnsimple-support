@@ -56,7 +56,7 @@ Auto-renewal is now enabled on your domain.
 ## Disabling auto-renewal
 
 <warning>
-Auto-renewal cannot be turned on if the auto-renewal has already started. If you need assistance stopping or preventing auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback).
+Auto-renewal cannot be turned off if the auto-renewal has already started. If you need assistance stopping or preventing auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback).
 </warning>
 
 <warning>
