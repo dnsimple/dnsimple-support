@@ -155,7 +155,7 @@ export default {
 
       if (isHash) {
         event.preventDefault();
-        document.getElementById(url.split('#')[1]).scrollIntoView();
+        document.getElementById(url.split('#')[1])?.scrollIntoView();
         return;
       }
 
