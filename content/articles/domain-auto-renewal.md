@@ -15,7 +15,7 @@ categories:
 
 ---
 <warning>
-Most auto-renewals will begin a few days before a domain expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date.
+Most auto-renewals will begin a few days before a domain's expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date.
 </warning>
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically days before expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
@@ -24,9 +24,9 @@ Auto-renewal reduces the risk of a domain expiring by renewing the domain automa
 
 Auto-renewals are processed automatically and usually occur days before the domain's expiration date. The exact timeline may vary for each domain.
 
-Your domain has two key dates related to its auto-renewal lifecycle: the expiration date and the renew by date. For most TLDs (like .COM, .NET, and .ORG), the renew by date falls after the expiration date. This means that even if the domain technically expires, it can still be renewed — and if auto-renewal is enabled, the renewal will happen automatically after expiration. During this time, the domain remains fully functional and continues to resolve normally. The domain is not at risk, and renewal will complete as scheduled by the renew by date.
+Your domain has two key dates related to its auto-renewal lifecycle: the expiration date and the renew by date. For most TLDs (like .COM, .NET, and .ORG), the renew by date falls after the expiration date. This means that even if the domain technically expires, it can still be renewed, and if auto-renewal is enabled, the renewal will happen automatically after expiration. During this time, the domain remains fully functional and continues to resolve normally. The domain is not at risk, and renewal will complete as scheduled by the renew by date.
 
-For some other TLDs (like .EU), however, domains are renewed before they expire, so the renew by date will be before the expiration date.
+For some other TLDs (like .EU), domains are renewed before they expire, so the renew by date will be before the expiration date.
 
 Refunds are not possible if a domain has already auto-renewed.
 
@@ -35,8 +35,6 @@ Refunds are not possible if a domain has already auto-renewed.
 ICANN domains where the renew by date falls after the expiration date will receive a notification email that may state the domain has expired. However, if your domain has auto-renewal enabled, there is no cause for concern — the domain will automatically renew as scheduled, and it will remain active and fully functional in the meantime.
 
 ![screenshot of ICANN 3rd expiration mail](/files/icann-3rd-expiration-mail.png)
-
-We understand this can be confusing and are actively working on ways to improve the experience.
 
 ## Enabling auto-renewal
 
