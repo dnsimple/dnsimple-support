@@ -24,7 +24,7 @@ Auto-renewal reduces the risk of a domain expiring by renewing the domain automa
 
 Auto-renewals are processed automatically and usually occur days before the domain's expiration date. The exact timeline may vary for each domain.
 
-Your domain has two key dates related to its auto-renewal lifecycle: the expiration date and the renew by date. For most TLDs (like .COM, .NET, and .ORG), the renew by date falls after the expiration date. This means that even if the domain technically expires, it can still be renewed, and if auto-renewal is enabled, the renewal will happen automatically after expiration. During this time, the domain remains fully functional and continues to resolve normally. The domain is not at risk, and renewal will complete as scheduled by the renew by date.
+Your domain has two key dates related to its auto-renewal lifecycle: the <strong>expiration date and the renew by date</strong>. For most TLDs (like .COM, .NET, and .ORG), the renew by date falls after the expiration date. This means that even if the domain is past it's expiration date, it can still be renewed, and if auto-renewal is enabled, the renewal will happen automatically on the renew by date. During this time, the domain remains fully functional and continues to resolve normally. The domain is not at risk, and renewal will complete as scheduled by the renew by date.
 
 For some other TLDs (like .EU), domains are renewed before they expire, so the renew by date will be before the expiration date.
 
