@@ -26,7 +26,7 @@ Managing multiple accounts is a flexible way to access different levels of servi
 To create another account under your existing user profile:
 
 <div class="section-steps" markdown="1">
-1. Click <label>User settings</label> at the top right of the screen.
+1. Click the account switcher at the top-right corner of the screen, then select <label>User settings</label>.
 
     ![screenshot of user settings link in the main nav](/files/user-settings-menu.png)
 
@@ -48,11 +48,11 @@ To create another account under your existing user profile:
 
 ## Switching among accounts
 
-Select the account you want to view from the top bar of your dashboard, and you'll be taken to the Domain List for that account.
+Select the account you want to view from the account switcher, and you'll be taken to the Domain List for that account.
 
 ![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
 
-From your Domain List, click **_Account_** in the top right to view details for the selected account.
+Once you've selected an account, open the account switcher again, and click **_Account settings_** to view details for the selected account.
 
 ![screenshot of account link in top nav](/files/account-nav-link.png)
 

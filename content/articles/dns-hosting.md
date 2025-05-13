@@ -59,7 +59,7 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 <div class="section-steps" markdown="1">
 ##### To activate a DNS zone
 
-1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. If you have multiple accounts, select the relevant account from the account switcher at the top-right corner of the screen.
 1. Click the relevant domain name to access the domain page.
 1. On the left side, click the <label>DNS</label> tab.
     ![tab for link to dns settings](/files/dns-tab.png)
@@ -76,7 +76,7 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 <div class="section-steps" markdown="1">
 ##### To deactivate a DNS zone
 
-1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. If you have multiple accounts, select the relevant account from the account switcher.
 1. Click the relevant domain name to access the domain page.
 1. On the left side, click the <label>DNS</label> tab.
   ![tab for link to dns settings](/files/dns-tab.png)
