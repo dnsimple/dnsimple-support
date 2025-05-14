@@ -58,5 +58,4 @@ If verification doesn't pass, the zone won't be added to your account.
 
 ## Need more help?
 
-If you have more questions or need assistance with zone verification, contact support, and we'll be happy to help.
-
+If you have more questions or need assistance with zone verification, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
