@@ -49,6 +49,7 @@ Zones:
   - Anycast DNS
   - Why DNSSEC and Secondary DNS may not work together
   - Protection Against DDoS Attacks
+  - Zone Verification
 
 Troubleshooting:
   - Troubleshooting Record Resolution Issues
