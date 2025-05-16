@@ -50,6 +50,10 @@ The DNSimple redirector supports HTTPS redirects. In order to enable it:
   1. Add a [`URL` record](/articles/url-record/) to your domain
   1. Issue an [SSL Certificate](/articles/ssl-certificates/) for the same domain
 
+<warning>
+Don't delete the private key of SSL certificates required for HTTPS redirects. If you delete the private key, the Redirector won't be able to support HTTPS redirects for the associated domain names.
+</warning>
+
 Incoming HTTPS requests will be handled automatically with that SSL certificate:
 
 ```
