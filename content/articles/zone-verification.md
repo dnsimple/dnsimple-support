@@ -16,7 +16,7 @@ categories:
 
 ## What is Zone Verification?
 
-Zone Verification is a security measure designed to ensure that only the current owner of a domain can add and manage its DNS zone in DNSimple, especially when the domain was previously associated with another DNSimple account.
+Zone Verification is a security measure designed to ensure that a DNS zone can only be added to DNSimple with the domain owner's (maybe registrant?) permission, especially when the domain was previously associated with another DNSimple account and still points at DNSimple.
 
 This added security layer helps protect your domain and online presence.
 
@@ -49,11 +49,9 @@ Each verification is unique. If you let one verification expire and start a new 
 
 ## Important
 
-The verification runs automatically, whether you're using the UI or the API. We regularly check if the domain is pointing to the verification name servers, but you can also trigger the check manually by clicking **Verify now** in the UI or resending the request through the API.
+The verification runs automatically, whether you're using the UI or the API. We regularly check if the domain is pointing to the verification name servers, but you can also trigger the check manually by clicking **Verify now** on your DNSimple domain page or resending the request through the API.
 
 Once the verification is successful, you will still need to complete the original step to add the [DNS zone](/articles/adding-domain/).
-
-If verification doesn't pass, the zone won't be added to your account.
 
 ## Need more help?
 
