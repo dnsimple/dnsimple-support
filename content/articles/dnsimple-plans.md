@@ -90,7 +90,7 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - A dedicated account manager
 - Fast-tracked feature requests
 - A [digital wallet](/articles/wallet-replenishment/) for recurring payments
-- Multi-account management
+- [Multi-account management](/articles/account-multi-enterprise/)
 - Single sign-on with [Okta](/articles/okta-identity-provider/) or [Google Workspace](/articles/google-identity-provider/)
 - [Vanity name servers](/articles/vanity-nameservers/)
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
@@ -99,7 +99,7 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Multiple payment methods
 - Advanced invoice search and filtering
 
-To explore your options for our Enterprise or Reseller plans, [contact us](https://dnsimple.com/sales) for more information.
+To explore your options for our Enterprise or [Reseller](https://dnsimple.com/resellers) plans, [contact us](https://dnsimple.com/sales) for more information.
 
 ## Have more questions?
 
