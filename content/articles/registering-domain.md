@@ -16,7 +16,7 @@ There are **two** reasons to register a domain with DNSimple:
 We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-auto-renewal/#enabling-auto-renewal) whenever possible to avoid your domain expiring. Learn more about [what happens when a domain expires](https://support.dnsimple.com/articles/what-happens-when-domain-expires/), and why you want to avoid it.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/WqhV6OgSEtQ?si=bRK8Ap4GIXiuIdgo" title="Registering a domain" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/WqhV6OgSEtQ?si=bRK8Ap4GIXiuIdgo" title="Registering a domain" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="section-steps" markdown="1">

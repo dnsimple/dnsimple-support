@@ -15,7 +15,7 @@ categories:
 ---
 
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
-  <iframe src="https://www.youtube.com/embed/nJ53QG-gq8o" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/nJ53QG-gq8o" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## What's an A record?
