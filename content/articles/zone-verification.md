@@ -37,7 +37,7 @@ If the domain is being added back to the **same** account it was last managed in
 
 1. Add your zone.
 1. We check which name servers your domain is currently using.
-1. If verification is needed, we generate two randomized verification name servers (e.g. `ns-random123.dnsimple-verify.com`) pointing to one of our IPs.
+1. If verification is needed, we generate two randomized verification name servers (e.g. `ns-random123.dnsimple-verify.com`).
 1. We'll ask you to add these verification name servers at your domain registrar (where you purchased your domain name).
 1. Once DNSimple detects the changes, you'll be notified by email and can proceed with adding the zone. This could take anywhere from a few minutes to a few hours.
 1. After you have added the zone to your DNSimple account, remember to remove the verification name server from the delegation at your domain registrar.
