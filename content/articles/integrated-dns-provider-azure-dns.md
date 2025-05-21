@@ -46,7 +46,7 @@ Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-re
 
 The following Azure DNS record types are supported for syncing and management at DNSimple:
 
-- [A](/articles/a-record)
+- [A](/articles/a-record/)
 - [AAAA](/articles/aaaa-record/)
 - [CNAME](/articles/cname-record/)
 - [MX](/articles/mx-record/)

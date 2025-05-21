@@ -25,7 +25,7 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 1.  **Keep the domain registration at your current registrar, and transfer the DNS management to us.**
 
-    To use DNSimple to host your DNS for a domain, follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted).
+    To use DNSimple to host your DNS for a domain, follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
 
 1.  **Transfer the domain registration and DNS management to us.**
 
