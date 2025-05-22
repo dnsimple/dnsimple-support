@@ -1,5 +1,5 @@
 ---
-title: Add Dnsimple as a Secondary DNS with a Hidden Primary
+title: Add DNSimple as a Secondary DNS with a Hidden Primary
 meta: Configure DNSimple as a secondary DNS provider keeping your primary nameservers hidden to enhance security.
 excerpt: Learn how to configure a hidden primary with DNSimple as a secondary DNS provider.
 categories:
