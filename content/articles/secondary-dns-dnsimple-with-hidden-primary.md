@@ -1,12 +1,12 @@
 ---
-title: Add DNSimple as a Secondary DNS with a Hidden Primary
+title: Add DNSimple as Secondary DNS with a Hidden Primary
 meta: Configure DNSimple as a secondary DNS provider keeping your primary name servers hidden to enhance security.
 excerpt: Learn how to configure a hidden primary with DNSimple as a secondary DNS provider.
 categories:
 - Secondary DNS
 ---
 
-# Add DNSimple as a Secondary DNS with a Hidden Primary
+# Add DNSimple as Secondary DNS with a Hidden Primary
 
 #### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ A hidden primary DNS setup allows you to keep your primary DNS server private wh
 
 Your primary name servers can be located behind firewalls, on internal networks, or on premises, allowing full control over zone management.
 
-This guide explains how to configure a hidden primary while leveraging DNSimple as your secondary DNS provider.
+This guide explains how to configure a hidden primary while leveraging DNSimple as your secondary DNS provider. Your primary DNS server is hidden from public queries, while DNSimple acts as the secondary DNS provider.
 
 ## Prerequisites
 
@@ -27,9 +27,7 @@ Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not i
 Ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS.
 </warning>
 
-Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup by configuring a hidden primary.
-
-In this setup, your primary DNS server is hidden from public queries, while DNSimple acts as the secondary DNS provider.
+Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
 
 ## Requirements
 
