@@ -1,7 +1,7 @@
 Configurations:
 - "Add a secondary DNS server to DNSimple"
 - "Add DNSimple as a secondary DNS server"
-- "Add DNSimple as a secondary DNS with a hidden primary"
+- "Add Dnsimple as a Secondary DNS with a Hidden Primary"
 - "Using DNSimple alongside other DNS providers"
 
 Integration with other DNS providers:
