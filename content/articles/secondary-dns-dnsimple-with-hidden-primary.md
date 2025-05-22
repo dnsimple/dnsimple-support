@@ -6,9 +6,9 @@ categories:
 - Secondary DNS
 ---
 
-# Add DNSimple as a Secondary DNS with a hidden primary
+# Add DNSimple as a Secondary DNS with a Hidden Primary
 
-#### Table of contents {#toc}
+#### Table of Contents {#toc}
 
 * TOC
 {:toc}
