@@ -184,7 +184,7 @@ describe('Search', () => {
         "Add DNSimple as a secondary DNS server": 2,
         "Add DNSMadeEasy as a secondary DNS server": 3,
         "Adding Dyn as a Secondary DNS Server": 4,
-        "Add DNSimple as a secondary DNS with a hidden primary": 5,
+        "Add DNSimple as a Secondary DNS with a Hidden Primary": 5,
         "Integrated DNS Providers at DNSimple": 6,
         "Using DNSimple alongside other DNS providers": 7,
       },
