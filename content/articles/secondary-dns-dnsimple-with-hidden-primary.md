@@ -22,9 +22,9 @@ This guide explains how to configure a hidden primary while leveraging DNSimple 
 ## Prerequisites
 
 <warning>
-Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures from DNSSEC aware resolvers.
+Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, and this will produce resolution failures from DNSSEC-aware resolvers.
 
-Ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS.
+Ensure that you are not currently using DNSSEC, or disable DNSSEC before using secondary DNS.
 </warning>
 
 Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
