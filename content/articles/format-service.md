@@ -1,6 +1,7 @@
 ---
 title: Format Service
 excerpt: How to set up Format DNS using DNSimple's One-click Service.
+meta: Learn how to easily set up Format DNS with DNSimple's One-click Service. Streamline your domain management and enhance your online presence effortlessly.
 categories:
 - Services
 ---

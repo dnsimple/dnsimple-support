@@ -1,5 +1,5 @@
 ---
-meta: Guide for registering or transferring domains on DNSimple
+meta: Discover the step-by-step guide for effortlessly registering or transferring your domain with DNSimple, ensuring a smooth and efficient process every time.
 title: Transfer or Register Domains With DNSimple
 excerpt: How to register or transfer a domain with DNSimple
 categories:
@@ -34,10 +34,10 @@ Once your domain is ready to go, you can [transfer](https://support.dnsimple.com
 
 **Transferring DNS management**
 
-You also have the option to keep the domain registration at your current registrar and transfer only the DNS management to us — [this article](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/) shows you how. 
+You also have the option to keep the domain registration at your current registrar and transfer only the DNS management to us — [this article](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/) shows you how.
 
 ## 2. How to view a domain's transfer status
 
-Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking "transfer in process". Read more about the entire [domain transfer process](https://support.dnsimple.com/articles/domain-transfer).
+Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking "transfer in process". Read more about the entire [domain transfer process](https://support.dnsimple.com/articles/domain-transfer/).
 
 If you have any questions about registering or transferring domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

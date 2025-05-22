@@ -8,7 +8,7 @@ categories:
 # Sharing Domain Management with Other Users
 
 <info>
-Starting July 2024, shared domains are being deprecated in favor of our [Domain Access Control](/articles/domain-access-control) feature. Check our [blog](https://blog.dnsimple.com) for the latest information.
+Shared domains are deprecated in favor of our [Domain Access Control](/articles/domain-access-control/) feature.
 </info>
 
 In DNSimple, you can share a domain with other users so they can manage it. That way, if you have a large organization, you can share access to the domains with one or more users.

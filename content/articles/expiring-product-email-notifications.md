@@ -13,8 +13,8 @@ DNSimple monitors the expiration date of your purchased domains and certificates
 
 There are two types of expiring domain notifications:
 
-- [Product Expiration](/articles/product-expiration-notification) - An email reminder with a list of products expiring within 2 months. This is delivered every week if you have products expiring within 60 days.
-- [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
+- [Product Expiration](/articles/product-expiration-notification/) - An email reminder with a list of products expiring within 2 months. This is delivered every week if you have products expiring within 60 days.
+- [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification/) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
 
 <info>
 [ICANN](https://www.icann.org/en/resources/registrars/consensus-policies/errp) and our upstream provider will also notify you about the status of your domain via email. All notifications will be sent to the listed domain owner. These notifications cannot be disabled.
@@ -22,7 +22,7 @@ There are two types of expiring domain notifications:
 
 ## Disabling expiration notifications
 
-Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
+Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications/) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
 
 ## Changing the contact
 

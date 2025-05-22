@@ -1,6 +1,7 @@
 ---
 title: DNSimple Name Servers
 excerpt: How to change your domain's name servers to DNSimple's name servers.
+meta: Learn how to easily update your domain's name servers to DNSimple's for improved performance and reliability. Follow our step-by-step guide for seamless changes.
 categories:
 - Name Servers
 ---

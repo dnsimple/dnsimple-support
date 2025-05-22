@@ -1,6 +1,7 @@
 ---
 title: Pointing the Domain Apex to Heroku
 excerpt: How to point your domain to your Heroku application using DNSimple.
+meta: Learn how to easily connect your domain apex to a Heroku application using DNSimple, ensuring seamless access and optimal performance for your website.
 categories:
 - Integrations
 ---
@@ -19,7 +20,7 @@ Your domain apex is the second or third level domain provided to you by your dom
 To point your apex to Heroku, you have 2 options:
 
 1. Use the Heroku one-click service.
-1. Manually add an [ALIAS record](/articles/alias-record).
+1. Manually add an [ALIAS record](/articles/alias-record/).
 
 
 Once your apex domain is pointing to correct place, you will have to configure the custom domain at Heroku.
@@ -30,12 +31,12 @@ Our one-click service for Heroku is listed under the "Infrastructure" tab:
 
 ![Heroku services](/files/heroku-service.png)
 
-To apply the Heroku one-click service to your domain follow [these instructions](/articles/services#adding-a-service).
+To apply the Heroku one-click service to your domain follow [these instructions](/articles/services/#adding-a-service).
 
 ## Adding an ALIAS record {#point-using-alias}
 
 <warning>
-If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/heroku-error-ssl) when accessing the HTTPS version of the site.
+If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/heroku-error-ssl/) when accessing the HTTPS version of the site.
 </warning>
 
 These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application:
@@ -44,7 +45,7 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 ##### To create an ALIAS for the apex domain
 
 1.  Log in to DNSimple with your user credentials.
-1.  Follow [these instructions](/articles/record-editor#access-the-record-editor) to edit your domain's records.
+1.  Follow [these instructions](/articles/record-editor/#access-the-record-editor) to edit your domain's records.
 1.  Click <label>Add a Record</label>, and select the `ALIAS` record type.
 
     ![Add a Record](/files/add-alias-heroku-1.jpg)

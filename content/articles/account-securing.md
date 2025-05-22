@@ -1,6 +1,7 @@
 ---
 title: Account Security
 excerpt: Some simple ways to make your DNSimple account more secure.
+meta: Enhance your DNSimple account security with essential tips and best practices to safeguard your information and protect against unauthorized access.
 categories:
 - Account
 ---
@@ -28,7 +29,7 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 
 ## Account sharing
 - Don't share your account login with others.
-- If you're on the Teams or Enterprise plan, you can [add seats to your account](https://support.dnsimple.com/articles/account-users/), and use [Domain Access Control](https://support.dnsimple.com/articles/domain-access-control/) to allow other users to access your domains with fine-tuned permissions.
+- If you're on the Teams or Enterprise plan, you can [add seats to your account](/articles/managing-seats/), and use [Domain Access Control](https://support.dnsimple.com/articles/domain-access-control/) to allow other users to access your domains with fine-tuned permissions.
 - Only add authorized contacts to your account.
 
 ## Authentication
@@ -39,11 +40,11 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 
 ## Forgotten password
 
-Learn how to request password reset [here](/articles/forgot-password).
+Learn how to request password reset [here](/articles/forgot-password/).
 
 ## Further reading
 
-You'll find more information and resources for securing your domains on our [security page](https://dnsimple.com/benefits/security). You can also view our [security policies] (https://dnsimple.com/security) for more on how we handle specific issues.
+You'll find more information and resources for securing your domains on our [security page](https://dnsimple.com/benefits/security). You can also view our [security policies](https://dnsimple.com/security) for more on how we handle specific issues.
 
 ## Have more questions?
 If you have any questions or want to know more about how to make your account as secure as possible, [contact our support team](https://dnsimple.com/feedback), and we'll get you the information you need.

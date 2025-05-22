@@ -4,7 +4,7 @@
             <div class="overlay" @click="close"></div>
             <div class="dnsimple-modal animated fadeInUp faster">
               <Header :app="app" ref="header"/>
-              <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]"></Component>
+              <Component :is="currentRoute[0]" :app="app" :article="currentRoute[1]" ref="body"></Component>
             </div>
         </div>
         <Prompt v-else-if="showPrompt" :app="app"/>
@@ -21,11 +21,14 @@ import Header from '../header/component.vue';
 import Article from '../article/component.vue';
 import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
-import { search, prepareArticles } from './search.js';
+import Search from './search.js';
 
 import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
+
+const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
+const RECENTLY_VISITED_LIMIT = 6;
 
 export default {
   components: {
@@ -37,9 +40,6 @@ export default {
     Prompt
   },
   props: {
-    query: {
-      default: ''
-    },
     showPrompt: {
       default: true
     },
@@ -47,55 +47,140 @@ export default {
       type: String,
       default: ''
     },
+    gettingStartedUrl: {
+      type: String,
+      default: 'https://support.dnsimple.com/articles/getting-started/'
+    },
     fetch: {
       type: Function,
       default(url) {
         return window.fetch(url).then((r) => r.json());
       }
+    },
+    externalLinkProbe: {
+      type: Function,
+      default: () => {}
+    },
+    search: {
+      type: Object,
+      default(props) { return new Search(undefined, props.currentSiteUrl); }
+    },
+    sources: {
+      type: Array,
+      default() {
+        return [
+          { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+          { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+        ];
+      }
     }
   },
   data () {
-    const query = this.query || urlMatchingDictionary(window.location.href);
-
     window.support = this;
 
     return {
       app: this,
       currentRoute: ['Articles'],
-      q: query,
+      initialQ: urlMatchingDictionary(window.location.pathname + window.location.hash) || this.gettingStartedUrl,
+      q: '',
       isOpen: false,
-      isLoading: true,
-      isFetched: false,
-      history: [],
-      articles: []
+      isFetched: {},
+      history: []
     };
   },
 
   watch: {
-    q (val) {
-      if (val.length > 2) {
-        if (this.currentRoute[0] !== 'Articles')
-          this.go('Articles', undefined, true);
-      } else if (!val.length)
-        this.go('Article', this.gettingStarted, true);
+    q () {
+      this.initialQ = '';
+      this.chooseRoute();
+
+      if (typeof this.$refs.body?.selectNoArticle === 'function') {
+        this.$refs.body.selectNoArticle();
+        this.scrollToSelectedItem();
+      }
     }
   },
 
   computed: {
     filteredArticles () {
-      return search(this.q, this.articles);
+      return this.query(this.q || this.initialQ);
     },
 
     gettingStarted() {
-      return this.findArticle('/articles/getting-started/');
+      return this.findArticle(this.getGettingStartedUrl());
+    },
+
+    isLoading() {
+      return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
+    },
+
+    couldNotLoad() {
+      return !this.gettingStarted;
+    },
+
+    errorArticle() {
+      return {
+        id: '' ,
+        sourceUrl: '',
+        title: 'Something went wrong',
+        body: 'We couldn\'t load our support articles. Please try reloading the page.',
+      };
+    },
+
+    recentlyVisitedUrls () {
+      return JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+    },
+
+    recentlyVisitedArticles () {
+      return this.recentlyVisitedUrls.map(url => this.findArticle(url)).filter(a => a).slice(0, RECENTLY_VISITED_LIMIT);
+    },
+
+    hasRecentlyVisitedArticles () {
+      return this.recentlyVisitedArticles?.length > 0;
     }
   },
 
-  methods: {
-    go (page, params, ignoreHistory) {
-      if (!ignoreHistory)
-        this.history.push(this.currentRoute);
+  mounted () {
+    document.addEventListener("keydown", this.handleKeydown);
+  },
 
+  beforeUnmount () {
+    document.removeEventListener("keydown", this.handleKeydown);
+  },
+
+  methods: {
+    visitArticle (url, event = null) {
+      const isHash = url.indexOf('#') === 0;
+      const article = this.findArticle(url);
+
+      if (isHash) {
+        event.preventDefault();
+        document.getElementById(url.split('#')[1])?.scrollIntoView();
+        return;
+      }
+
+      if (article) {
+        const articleUrl = this.getArticleUrl(article);
+
+        this.storeRecentlyVisited(articleUrl);
+
+        if (!this.isSameSite(articleUrl)) {
+          if (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+
+          this.history.push(this.currentRoute);
+          this._goToRoute('Article', article);
+
+          return;
+        }
+      }
+
+      this.externalLinkProbe(url);
+    },
+
+    _goToRoute (page, params) {
       this.currentRoute = [page, params];
     },
 
@@ -106,18 +191,30 @@ export default {
     open () {
       this.isOpen = true;
 
-      return new Promise((resolve) => {
-        this.fetchArticles(() => {
-          if (this.filteredArticles.length === 1)
-            this.go('Article', this.filteredArticles[0]);
-          else if (this.filteredArticles.length === 0) {
-            this.go('Article', this.gettingStarted, true);
-            this.focus();
-          }
+      return Promise
+        .all(
+          // We catch the errors here so that the show can go on
+          this.sources.map((s) => this.fetchArticles(s.url))
+        )
+        .catch(() => {})
+        .finally(this.chooseRoute);
+    },
 
-          resolve();
-        });
-      });
+    chooseRoute() {
+      if (this.couldNotLoad)
+        this._goToRoute('Article', this.errorArticle);
+      else if (this.filteredArticles.length === 1)
+        this._goToRoute('Article', this.filteredArticles[0]);
+      else if (this.filteredArticles.length > 1)
+        this._goToRoute('Articles');
+      else if (this.q.length > 0)
+        this._goToRoute('Articles');
+      else if (this.hasRecentlyVisitedArticles)
+        this._goToRoute('Articles');
+      else if (this.filteredArticles.length === 0 && this.q.length === 0)
+        this._goToRoute('Article', this.gettingStarted);
+      else if (this.currentRoute[0] !== 'Articles')
+        this._goToRoute('Articles');
     },
 
     focus () {
@@ -133,24 +230,37 @@ export default {
       this.isOpen = false;
     },
 
-    fetchArticles (done) {
-      if (this.isFetched) return done();
+    fetchArticles (sourceUrl) {
+      if (this.isFetched[sourceUrl]) return Promise.resolve();
 
-      const source = `https://support.dnsimple.com/search.json`;
-
-      this.fetch(source)
-        .then((articles) => {
-          prepareArticles(articles, source);
-          this.articles.push(...articles);
-          this.isFetched = true;
-          this.isLoading = false;
-          done();
-        })
-        .catch(console.error);
+      return new Promise((resolve, reject) => {
+        this.fetch(`${sourceUrl}/search.json`)
+          .then((articles) => {
+            this.addArticles(articles, sourceUrl);
+            this.isFetched[sourceUrl] = true;
+            resolve();
+          }).catch(reject);
+      });
     },
 
-    findArticle(id) {
-      return this.articles.find((a) => a.id === id);
+    query(q) {
+      return this.search.query(q);
+    },
+
+    findArticle(url) {
+      return this.search.findArticle(url);
+    },
+
+    addArticles(articles, sourceUrl) {
+      return this.search.addArticles(articles, sourceUrl);
+    },
+
+    getSources() {
+      return this.sources;
+    },
+
+    getSourceName(sourceUrl) {
+      return this.getSources().find((source) => source.url === sourceUrl)?.name;
     },
 
     setQ (q) {
@@ -161,8 +271,94 @@ export default {
       return this.currentSiteUrl;
     },
 
+    getGettingStartedUrl() {
+      return this.gettingStartedUrl;
+    },
+
     hasHistory() {
       return this.history.length > 0;
+    },
+
+    getArticleUrl(article) {
+      return `${article.sourceUrl}${article.id}`;
+    },
+
+    isSameSite(url) {
+      return url.indexOf(this.getCurrentSiteUrl()) === 0;
+    },
+
+    storeRecentlyVisited(articleUrl) {
+      if (/getting.*started/i.test(articleUrl)) return;
+
+      const recentlyVisitedUrls = JSON.parse(localStorage.getItem(RECENTLY_VISITED_KEY)) || [];
+      if (!recentlyVisitedUrls.includes(articleUrl))
+        recentlyVisitedUrls.unshift(articleUrl);
+      else {
+        recentlyVisitedUrls.splice(recentlyVisitedUrls.indexOf(articleUrl), 1);
+        recentlyVisitedUrls.unshift(articleUrl);
+      }
+
+      if (recentlyVisitedUrls.length > RECENTLY_VISITED_LIMIT)
+        recentlyVisitedUrls.pop();
+
+      localStorage.setItem(RECENTLY_VISITED_KEY, JSON.stringify(recentlyVisitedUrls));
+    },
+
+    scrollToSelectedItem() {
+      nextTick(() => {
+        const selectedDiv = document.querySelector('.selected-article');
+        selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
+      });
+    },
+
+    handleKeydown(event) {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+
+        this.open();
+        this.focus();
+      }
+
+      if (!this.isOpen) return;
+
+      if (event.key === "Escape")
+        this.close();
+      else if (event.key === "ArrowDown" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          if (!$body) return;
+
+          $body.selectNextArticle();
+
+          this.scrollToSelectedItem();
+        });
+      } else if (event.key === "ArrowUp" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          if (!$body) return;
+
+          $body.selectPrevArticle();
+
+          this.scrollToSelectedItem();
+        });
+      } else if (event.key === "Enter" && this.currentRoute[0] === 'Articles') {
+        event.preventDefault();
+
+        nextTick(() => {
+          const $body = this.$refs.body;
+          if (!$body) return;
+
+          $body.openSelectedArticle();
+        });
+      } else if (event.key === "ArrowLeft" && this.currentRoute[0] === 'Article') {
+        event.preventDefault();
+
+        nextTick(() => this.back());
+      }
     }
   }
 };

@@ -13,7 +13,7 @@ describe('Analytics', () => {
       global.window.posthog = { capture: jest.fn() };
     });
 
-    test('debounces the tracking event', () => {
+    it('debounces the tracking event', () => {
       trackSearch('query1', ['result1']);
       trackSearch('query2', ['result2']);
       trackSearch('query3', ['result3']);
@@ -29,7 +29,7 @@ describe('Analytics', () => {
     });
   });
 
-  test('should not throw an error if posthog is undefined', () => {
+  it('should not throw an error if posthog is undefined', () => {
     delete global.window.posthog;
 
     expect(() => {

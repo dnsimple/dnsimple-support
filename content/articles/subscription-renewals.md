@@ -1,6 +1,7 @@
 ---
 title: Subscription Renewals
 excerpt: How to find all the relevant information about subscription renewals, and how to handle failed subscription renewal payments.
+meta: Learn how to manage your subscription renewals effectively, find important information, and resolve any issues with failed payment attempts at DNSimple.
 categories:
 - Account
 ---
@@ -14,42 +15,42 @@ categories:
 
 ---
 
-Your subscription will be renewed each month. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from from the credit balance.
+DNSimple subscriptions renew each month. The payment for the renewal will be charged to the card on file or, if you have credit, deducted from the credit balance.
 
-The amount to be charged depends on:
+For Solo and Teams plans, the amount charged depends on:
 
-- The price of the plan you're subscribed to;
-- The number of extra domains you have in your account; and
-- The number of domains that have email forwards configured.
+- The base price of your subscription (Teams only)
+- The number of seats (Teams only)
+- The number of domains in your account with active zones
+- The query volume of your domains
+- The number of email forwards configured
 
-<tip>
-You can find the exact amount you'll be charged at your next renewal, and when your subscription is due to renew, on [the account page](/articles/account-subscription-balance/).
-</tip>
+Enterprise and Reseller clients have custom contracts based on their individual needs.
+
+You can view your next renewal date and your account balance on the account page.
 
 ## What happens when my subscription is renewed?
 
-When your subscription renewal is successfully processed, we'll send you an invoice, and the service will be extended for the duration of your plan's billing cycle: one month or one year.
+You will receive an invoice when the renewal is successfully processed, and your subscription will be extended for the duration of your plan's billing cycle. You can view your billing cycle dates on your invoice. For assistance reading your invoice, see [Understanding Your Invoice](/articles/understanding-invoice/) for more details.
 
+## What happens if a renewal payment fails?
 
-## What happens when the payment for the renewal fails?
+If your renewal payment fails, you will receive a [dunned invoice](https://support.dnsimple.com/articles/account-invoice-history/#invoice-state-dunned), along with an email that details the failure and steps you can take to fix the issue(s).
 
-If your subscription renewal payment fails, you'll receive a [dunned invoice](/articles/account-invoice-history/#invoice-state-dunned) and an email that includes details about the failure.
+Your account **will not** immediately be canceled, and your domains will continue to resolve.
 
-If this happens, please don't panic. Your account will not be canceled, and your domains will continue to resolve. We know that credit cards expire and wallets get lost. That's why we give our customers plenty of time to resolve their payment issues. From the first failed payment attempt **you have 21 days to finalize the payment**.
+From the date of the first failed payment attempt, you will have **21 days** to fix the issue and finalize the payment.
 
-**Our system will try to renew the subscription and collect the payment once a week** during that period. You will be notified about the outcome of these attempts.
+Our system will attempt to collect payment once a week during this period, and we will notify the email associated with your account whether the attempt has failed or succeeded. You can also manually retry payments for renewal fees —- [learn how](/articles/account-invoice-history/#retrying).
 
-<info>
-You can manually retry the payments for subscription renewal fees. This article shows you how to [retry the payment for the corresponding invoice](/articles/account-invoice-history#retrying).
-</info>
-
-<note>
-If you know you won't be able to provide a valid card number before your subscription gets canceled, [please contact us](https://dnsimple.com/contact).
-</note>
-
+If you know you cannot provide a valid card number before your subscription is canceled, please [contact us](https://dnsimple.com/contact).
 
 ## What happens if my subscription is canceled?
 
-When your subscription is canceled because of too many failed renewal attempts, we'll immediately notify you by email, and the services DNSimple provides will stop. [This support article](/articles/what-happens-if-i-stop-paying) explains what to expect in this situation.
+If your subscription is canceled because of too many failed renewal attempts, we will immediately notify you by email, and all services provided by DNSimple will stop. Learn more about [what happens if you stop paying for your subscription](https://support.dnsimple.com/articles/what-happens-if-i-stop-paying/).
 
-Keep in mind, even if your subscription is canceled, you can always [reactivate it](/articles/reactivate-subscription).
+You have the option to [reactivate a canceled subscription](https://support.dnsimple.com/articles/reactivate-subscription/).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with your subscription renewal, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

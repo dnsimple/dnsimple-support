@@ -1,6 +1,7 @@
 ---
 title: Using DNSimple alongside other DNS providers
 excerpt: How to use DNSimple along with other DNS providers.
+meta: Learn how to seamlessly integrate DNSimple as a secondary DNS provider, along with your primary DNS provider for enhanced domain redundancy.
 categories:
 - Secondary DNS
 ---
@@ -31,6 +32,6 @@ To set up zone redundancy with another DNS provider on your zone, follow the ste
 
 To set up zone redundancy with another DNS provider on your domain, follow the steps detailed in [Setting the Name Servers for a Domain Name](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
-## Have more questions? 
+## Have more questions?
 
 If you have additional questions or need assistance setting up zone redundancy, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

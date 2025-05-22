@@ -16,7 +16,7 @@ categories:
 
 [Multi-factor authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account to ensure everyone on your team is using the best available security.
 
-When you have multiple users managing an account, enforcing MFA is vital to reduce the likelihood of a user's credentials being compromised. This feature is available on the Teams plan and higher, with the ability to [manage members of an account](/articles/account-users/).
+When you have multiple users managing an account, enforcing MFA is vital to reduce the likelihood of a user's credentials being compromised. This feature is available on the Teams plan and higher, with the ability to [manage members of an account](/articles/managing-seats/).
 
 ## Enabling MFA enforcement {#enable}
 
@@ -27,8 +27,8 @@ You can enable multi-factor authentication enforcement from your Account page.
 <div class="section-steps" markdown="1">
 ##### To enable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account and clicking *Account* at the top right of the dashboard.
-  ![screenshot: account settings](/files/account-settings.png)
+1. Go to your account settings by selecting the relevant account from the account switcher at the top-right corner of the screen and clicking **Account settings**.
+  ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
 1. Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. When all members of your Team have MFA enabled, you can use this feature.
@@ -44,8 +44,8 @@ You can enable multi-factor authentication enforcement from your Account page.
 <div class="section-steps" markdown="1">
 ##### To disable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account and clicking *Account* at the top right of the dashboard.
-  ![screenshot: account settings](/files/account-settings.png)
+1. Go to your account settings by selecting the relevant account from the account switcher at the top-right corner of the screen and clicking **Account settings**.
+  ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
 1. Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. There's a link to <label>Disable</label> the feature.

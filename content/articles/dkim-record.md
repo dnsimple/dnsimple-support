@@ -1,6 +1,7 @@
 ---
 title: What's a DKIM Record?
 excerpt: What a DKIM record is, and how DKIM records work.
+meta: Learn about DKIM records, and their purpose in email authentication, by using a specially formatted DNS text record storing a public key.
 categories:
 - DNS
 - Emails

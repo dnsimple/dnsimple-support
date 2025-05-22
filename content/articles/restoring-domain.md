@@ -1,6 +1,7 @@
 ---
 title: Restoring a Domain
 excerpt: How to restore a domain with a DNSimple account.
+meta: Easily restore your domain with DNSimple using our step-by-step guide. Get your domain back online quickly with our comprehensive support resources.
 categories:
 - Domains
 ---
@@ -17,8 +18,8 @@ The registrar applies a mandatory restore fee. The final price of the restore wi
 
 ##### To restore a domain
 
-1. Log in to DNSimple with your user credentials.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1.  Select the relevant account from the account switcher at the top-right corner of the screen.
+1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1.  Select the <label>Restore domain</label> link from the registration status card.
 
     ![Restore domain link](/files/restore-domain.png)

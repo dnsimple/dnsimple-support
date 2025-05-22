@@ -1,6 +1,7 @@
 ---
 title: Managing A Records
 excerpt: Instructions to add, update, and remove an A record in DNSimple.
+meta: Learn how to efficiently manage your A records in DNSimple with our step-by-step guide. Add, update, or remove DNS records effortlessly for optimal domain performance.
 categories:
 - DNS
 ---
@@ -14,7 +15,7 @@ categories:
 
 ---
 
-You can manage [A records](/articles/a-record) in DNSimple using the [DNS record editor](/articles/record-editor).
+You can manage [A records](/articles/a-record) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
 The instructions in this article assume you're familiar with the [A record format](/articles/a-record#record-format) and usage.
 

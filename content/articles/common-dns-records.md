@@ -14,9 +14,14 @@ categories:
 
 ---
 
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe src="https://www.youtube.com/embed/bifh31N2hFQ?si=uM3Z1oS1SqzQNLT4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 The Domain Name System (DNS) is composed of many different record types (or resource records): `A`, `AAAA`, `CNAME`, `MX`, `CAA`, etc. Some record types are common. Others are less relevant, deprecated, or replaced.
 
-[DNSimple supports common and traditional record types](/articles/supported-dns-records), along with some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
+[DNSimple supports common and traditional record types](/articles/supported-dns-records/), along with some newer types introduced to provide innovative services. In this article, we'll look at the most common record types, and explore the most common DNS records you need for your domains to work.
 
 
 ## Common record types
@@ -26,11 +31,11 @@ These are the most common DNS record types:
 | Type | Description |
 |------|-------------|
 | [`A` record](/articles/a-record) | This is the most popular type. A records create a DNS record that points to an IPv4 address. It allows you to use memonic names, such as `www.example.com`, in place of IP addresses like `127.0.0.1`. |
-| [`CNAME` record](/articles/cname-record) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations. It also simplifies the maintenance of multiple records connected to the same IP address. It's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
-| [`MX` record](/articles/mx-record) | This record is used to identify the servers mail should be delivered to for a domain. You need to have these records configured to receive emails. |
-| [`TXT` record](/articles/txt-record) | This record is used to associate text with a domain. |
-| [`NS` record](/articles/ns-record) | This record is used to delegate a subzone to a set of name servers. These are the types of records you need to modify when you want to delegate a domain to a DNS provider. |
-| [`SOA` record](/articles/soa-record) | This record stores important information about the DNS zone (your domain). Each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. DNSimple automatically manages the SOA records for all your domains. |
+| [`CNAME` record](/articles/cname-record/) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations. It also simplifies the maintenance of multiple records connected to the same IP address. It's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
+| [`MX` record](/articles/mx-record/) | This record is used to identify the servers mail should be delivered to for a domain. You need to have these records configured to receive emails. |
+| [`TXT` record](/articles/txt-record/) | This record is used to associate text with a domain. |
+| [`NS` record](/articles/ns-record/) | This record is used to delegate a subzone to a set of name servers. These are the types of records you need to modify when you want to delegate a domain to a DNS provider. |
+| [`SOA` record](/articles/soa-record/) | This record stores important information about the DNS zone (your domain). Each zone must have an SOA record. However, it's unlikely you'll have to create a SOA record directly. DNSimple automatically manages the SOA records for all your domains. |
 
 ## Common DNS records
 
@@ -128,7 +133,7 @@ If you want to receive emails for your domain, you need to have at least one MX 
 
 ### 4. CAA record
 
-It's advisable to [add a CAA record](/articles/caa-record) to the root domain to specify which certificate authorities can issue a certificate for your domain.
+It's advisable to [add a CAA record](/articles/caa-record/) to the root domain to specify which certificate authorities can issue a certificate for your domain.
 
 <div class="section-steps" markdown="1">
 ##### To verify

@@ -1,6 +1,7 @@
 ---
 title: Transfer a Domain to DNSimple
 excerpt: How to transfer your registered domain to DNSimple.
+meta: Easily transfer your domain names to DNSimple with our step-by-step guide. Discover how to streamline the process while avoiding downtime.
 categories:
 - Domain Transfers
 ---
@@ -19,13 +20,13 @@ Transferring a domain name to DNSimple is the process of moving your [domain reg
 ## Before starting
 
 <warning>
-To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns) from your domain if you are changing DNS providers.
+To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain if you are changing DNS providers.
 </warning>
 
 ## Caveats
 
 - A domain can only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
-- It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain).
+- It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain/).
 - Most registrars will not allow an expired domain to be transferred. However, if the domain expires during the transfer, the registrar may not block the transfer due to the expiration.
 - WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
 
@@ -47,12 +48,12 @@ At your current Registrar:
 
 At DNSimple:
 
-1. Log in to DNSimple and click on <label>Add</label> in the dashboard.
+1. Click <label>Add</label> in the dashboard for the account you want the domain to be transferred to.
 1. Select <label>Transfer domain</label>.
-1. You can also enable "Whois Privacy Protection" by checking the "Enable WHOIS Privacy Protection" check box, so it's enabled immediately upon completion of the transfer.
+1. You can also enable WHOIS Privacy Protection by checking the **Enable WHOIS Privacy Protection** box, so it's enabled immediately upon completion of the transfer.
 1. Click <label>Transfer Domain</label>
 - Select a registrant, enter your authorization code if it's required, and fill in any extended attributes.
-- Press "Transfer Domain".
+- Click **Transfer Domain**.
 </div>
 
 ## Approving the transfer
@@ -87,10 +88,10 @@ When the transfer is completed, you will receive a confirmation email from DNSim
 
 To avoid unexpected downtime and confusion, we don't change the domain name servers upon a successful transfer. When the domain is transferred to us, we will keep using the same name servers previously configured for the domain.
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click or [manually configure the name servers](/articles/setting-name-servers).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click or [manually configure the name servers](/articles/setting-name-servers/).
 
 <warning>
-We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
+We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
 </warning>
 
 ### Expiration extension
@@ -103,4 +104,4 @@ The price of this extension is included in the transfer fee.
 
 If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
 
-Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
+Then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring your domain away from your current provider.

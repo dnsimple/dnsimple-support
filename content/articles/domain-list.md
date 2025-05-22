@@ -1,5 +1,6 @@
 ---
 title: Getting to Know Your DNSimple Domain List
+meta: Discover how to efficiently manage your domains with the DNSimple Domain List. Access, organize, and optimize your domain portfolio with ease and precision.
 excerpt: How to use the DNSimple Domain List to manage your domains.
 categories:
 - DNSimple

@@ -1,24 +1,19 @@
 * { box-sizing: border-box; }
 
-.input-search {
+#search {
   background: var(--elementInverse);
   color: var(--gray);
+  padding: 0.7rem;
 
-  &::-ms-clear {  display: none; width : 0; height: 0; }
-  &::-ms-reveal {  display: none; width : 0; height: 0; }
-  &::-webkit-search-decoration,
-  &::-webkit-search-cancel-button,
-  &::-webkit-search-results-button,
-  &::-webkit-search-results-decoration { display: none; }
-}
+  &:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+  }
 
-.btn-input-search {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  border: none;
-  background: transparent;
-  color: var(--gray);
+  .keyboard-shortcut {
+    background: var(--surface1);
+    padding: 0.15rem 0.25rem;
+  }
 }
 
 .bg-pipes {
@@ -26,4 +21,11 @@
   background-position: center top;
   background-repeat: repeat-x;
   background-size: 900px 10px;
+}
+
+#marketing-banner {
+  // to make markdown rendering stay inline with the emoji and the link
+  p {
+    display: inline;
+  }
 }

@@ -2,17 +2,21 @@
 title: What's an AAAA record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:
-- DNS
+  - DNS
 ---
 
 # AAAA Records
 
 ### Table of Contents {#toc}
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe src="https://www.youtube.com/embed/4SGgO5MSQLg?si=I5Hu7dj7-uuwA-xs" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## What's an AAAA record?
 
@@ -26,13 +30,12 @@ As with the A records, you can use multiple AAAA records for the same domain in 
 
 The DNS A record is specified by [RFC 3596](https://tools.ietf.org/html/rfc3596).
 
-
 ## AAAA record format {#record-format}
 
 The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
 
-| Element | Description |
-|:--------|:--------------------------------------------------------|
+| Element | Description                                             |
+| :------ | :------------------------------------------------------ |
 | address | A 128 bit Internet address representing an IPv6 address |
 
 Hosts that have multiple Internet addresses have multiple A records.
@@ -47,23 +50,22 @@ where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804
 
 In DNSimple, the AAAA record is represented by the following customizable elements:
 
-| Element | Description |
-|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
+| Element | Description                                                                                                                                  |
+| :------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | Name    | The host name for the record without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
-| TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
-| Address | The IPv6 address the AAAA record points to.                                                                                                |
-
+| TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                    |
+| Address | The IPv6 address the AAAA record points to.                                                                                                  |
 
 ## Formatting
 
 Because the same IPV6 address [can be represented in different ways](https://wikipedia.org/wiki/IPv6_address#Representation), DNSimple normalizes the IPV6 address to the canonical form, as described in [RFC 5952 section 4](https://www.rfc-editor.org/rfc/rfc5952.html#section-4).
 
 Some examples:
+
 - If you provide the IPv6 address `2001:0000:0000:00FE:0000:0000:0000:CDEF`, we will store it as `2001:0:0:fe::cdef`.
 - If you provide the IPv6 address `2001:0db8::0001:0000`, we will store it as `2001:db8::1:0`.
 - If you provide the IPv6 address `2001:db8:0:0:0:0:2:1`, we will store it as `2001:db8::2:1`.
 - If you provide the IPv6 address `::ffff:c000:0280`, we will store it as `::ffff:192.0.2.128`.
-
 
 ## Querying AAAA records
 
@@ -91,7 +93,6 @@ ns1.dnsimple.com.	1795	IN	AAAA	2400:cb00:2049:1::a29f:1804
 ;; WHEN: Fri Nov 02 19:20:40 CET 2018
 ;; MSG SIZE  rcvd: 73
 ```
-
 
 ## Manage AAAA records
 

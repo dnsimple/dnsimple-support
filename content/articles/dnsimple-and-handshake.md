@@ -1,6 +1,7 @@
 ---
 title: DNSimple and Handshake (HNS)
 excerpt: How to use Handshake (HNS) domains with your DNSimple account.
+meta: Learn how to seamlessly integrate Handshake (HNS) domains with your DNSimple account, enhancing your domain management experience with decentralized technology.
 categories:
 - Domains
 ---
@@ -32,16 +33,15 @@ For both options, the process of adding the domain to DNSimple is the same.
 <div class="section-steps" markdown="1">
 ##### Adding a domain
 
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add</label> from the Dashboard.
+1.  If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
+1.  From the Domain Names page, click <label>Add new</label>.
   ![Adding a domain button](/files/add-a-domain.png)
 1.  Choose <label>DNS zone</label> from the provided options.
   ![Adding a domain](/files/add-button-dns-zone.png)
 
 You'll then be prompted for the name of the domain you want to add to your account.
 
-After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers) support article for your domain.
+After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers/) support article for your domain.
 </div>
 
 ## Incompatible services

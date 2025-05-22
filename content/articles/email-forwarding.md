@@ -1,6 +1,7 @@
 ---
 title: Email Forwarding
 excerpt: This article explains the email forwarding service provided by DNSimple.
+meta: Learn how to set up and manage email forwarding with DNSimple, ensuring seamless communication by directing emails from one address to another effortlessly.
 categories:
 - Emails
 ---
@@ -23,11 +24,12 @@ The number of forwarded messages and email forwards allowed per month is based o
 You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email forwarding.
 
 To enable email forwarding, visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
-1. Choose the relevant domain from your Domain List.
-2. Click the **Email Forwarding** tab on the left side.
+1. If you have more than one account, select the relevant one from the account switcher at the top-right corner of the screen.
+2. Choose the relevant domain from your Domain List.
+3. Click the **Email Forwarding** tab on the left side.
     ![screenshot of email forwarding tab](/files/forwarding-tab.png)
 
-3. Create an email forward to enable the service.
+4. Create an email forward to enable the service.
 
 When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
 

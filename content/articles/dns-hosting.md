@@ -1,6 +1,7 @@
 ---
 title: DNS Hosting
 excerpt: DNSimple provides robust DNS hosting using a global Anycast network.
+meta: DNSimple provides robust DNS hosting using a global Anycast network. Experience reliable DNS hosting for fast, secure domain resolution and exceptional uptime.
 categories:
 - DNS
 ---
@@ -14,7 +15,7 @@ categories:
 
 ---
 
-DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast).
+DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast/).
 
 To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
 
@@ -28,13 +29,13 @@ If you want to use DNSimple to manage the DNS of an existing domain, you have tw
 
 1.  **Transfer the domain registration and DNS management to us.**
 
-    If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/transferring-domain).
+    If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/domain-transfer/).
 
     If you don't have a domain yet, you can [sign up](https://dnsimple.com/pricing) or log in to [register a domain](https://dnsimple.com/tlds), and activate the zone       to manage your DNS with us.
 
 ## Adding the domain
 
-To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/transferring-domain) the domain to us.
+To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain/). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/domain-transfer/) the domain to us.
 
 ## Adding DNS records to your domain
 
@@ -49,7 +50,7 @@ After configuring your records, you'll be prompted to activate the DNS zone, mak
 
 ## Configuring the domain records
 
-You can manage your domain DNS records (also called a DNS zone) using the [DNS record editor](/articles/record-editor). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
+You can manage your domain DNS records (also called a DNS zone) using the [DNS record editor](/articles/record-editor/). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
 
 ## Activating a DNS zone
 
@@ -58,7 +59,7 @@ You can activate the DNS hosting service for a domain from the domain DNS tab.
 <div class="section-steps" markdown="1">
 ##### To activate a DNS zone
 
-1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. If you have multiple accounts, select the relevant account from the account switcher at the top-right corner of the screen.
 1. Click the relevant domain name to access the domain page.
 1. On the left side, click the <label>DNS</label> tab.
     ![tab for link to dns settings](/files/dns-tab.png)
@@ -75,7 +76,7 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 <div class="section-steps" markdown="1">
 ##### To deactivate a DNS zone
 
-1. If you have multiple accounts, select the relevant account in the navigation bar.
+1. If you have multiple accounts, select the relevant account from the account switcher.
 1. Click the relevant domain name to access the domain page.
 1. On the left side, click the <label>DNS</label> tab.
   ![tab for link to dns settings](/files/dns-tab.png)

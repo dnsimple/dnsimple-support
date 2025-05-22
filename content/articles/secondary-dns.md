@@ -15,7 +15,7 @@ categories:
 ---
 
 <warning>
-  DNSimple does not support Secondary DNS if you have [DNSSEC](/articles/dnssec) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about the complexities of multi-signer DNSSEC models in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
+  DNSimple does not support Secondary DNS if you have [DNSSEC](/articles/dnssec/) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about the complexities of multi-signer DNSSEC models in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
 </warning>
 
 ## Getting started
@@ -24,13 +24,13 @@ Before setting up Secondary DNS with our systems, you need to choose, activate, 
 
 We provide pre-configurations and step-by-step guides for 3 providers:
 
-- [Dyn](/articles/secondary-dns-provider-dyn)
-- [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy)
-- [EasyDNS](/articles/secondary-dns-provider-easy-dns).
+- [Dyn](/articles/secondary-dns-provider-dyn/)
+- [DNSMadeEasy](/articles/secondary-dns-provider-dns-made-easy/)
+- [EasyDNS](/articles/secondary-dns-provider-easy-dns/).
 
 You can configure Secondary DNS with any provider by choosing the custom option. Once you know which provider you're going to use, and have made the necessary configuration on their side, continue with this guide.
 
-You can configure Secondary DNS on all domains whether they delegate to us or not. But if you've pointed delegation elsewhere, you'll need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple) before the configuration will take effect.
+You can configure Secondary DNS on all domains whether they delegate to us or not. But if you've pointed delegation elsewhere, you'll need to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/) before the configuration will take effect.
 
 If you don't have your domain registered with us, update the delegation of your domain at your registrar to use the secondary name servers you have chosen. If you set up the secondary name servers `ns1.secondary.com` and `ns2.secondary.com`, delegation at your registrar will need to change from:
 
@@ -57,7 +57,7 @@ You can get started with Secondary DNS from the DNS section of the domain manage
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-You'll see a page where you can choose your secondary provider. If your provider is Dyn, DNSMadeEasy, or EasyDNS, you're one click away from completing the configuration. You can also apply name servers from a [name server set](/articles/name-server-sets) if you have one configured with your secondary provider's name servers. Otherwise, select the custom option to manually input the desired name server names. You'll see a page for providing the names for NS records and the IP addresses that should be allowed access for the zone transfer. Retrieve these details from your secondary DNS provider.
+You'll see a page where you can choose your secondary provider. If your provider is Dyn, DNSMadeEasy, or EasyDNS, you're one click away from completing the configuration. You can also apply name servers from a [name server set](/articles/name-server-sets/) if you have one configured with your secondary provider's name servers. Otherwise, select the custom option to manually input the desired name server names. You'll see a page for providing the names for NS records and the IP addresses that should be allowed access for the zone transfer. Retrieve these details from your secondary DNS provider.
 
 Selecting a pre-configuration will prepopulate the correct values for you. Click on "Enable" at the bottom of the page.
 
@@ -140,7 +140,7 @@ Please prefer the host name whenever possible. If any of these IP addresses shou
 
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
-    DNSimple can't synchronize zone changes from other name servers using AXFR. But you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple).
+    DNSimple can't synchronize zone changes from other name servers using AXFR. But you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple/).
 
 1.  #### How can I check that my secondary DNS configuration is correct?
 

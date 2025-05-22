@@ -1,6 +1,7 @@
 ---
 title: SRV records in templates
 excerpt: How to configure templates with SRV records
+meta: Learn how to effectively configure templates with SRV records in DNSimple to streamline your DNS management and enhance your service reliability.
 categories:
 - Templates
 ---

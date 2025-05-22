@@ -70,7 +70,7 @@ It is important you follow these steps in strict order. Otherwise, there is a ri
 </warning>
 
 <warning>
-As with any domain transfer, to avoid the possibility of downtime you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
+As with any domain transfer, to avoid the possibility of downtime you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
 </warning>
 
 <div class="section-steps" markdown="1">
@@ -109,10 +109,10 @@ When the transfer has completed, you will receive an email from DNSimple confirm
 ### Changing name servers
 
 <warning>
-We don't automatically point your domain to our name servers when the transfer completes. We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
+We don't automatically point your domain to our name servers when the transfer completes. We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
 </warning>
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered) in one click, or [manually configure the name servers](/articles/setting-name-servers).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [manually configure the name servers](/articles/setting-name-servers/).
 
 ### Expiration extension
 

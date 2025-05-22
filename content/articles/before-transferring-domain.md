@@ -20,11 +20,11 @@ Transferring domain names from one registrar to another often causes concerns of
 
 If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
 
-Then you must [remove the current DS record](/articles/ds-records-changing-dns) before transferring your domain away from your current provider.
+Then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring your domain away from your current provider.
 
 ## Adding the domain to DNSimple
 
-The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account, and [add the domain](/articles/adding-domain) *without* transferring it.
+The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account, and [add the domain](/articles/adding-domain/) *without* transferring it.
 
 This gives you the chance to fully set up and test your DNS records *before* you move the domain.
 
@@ -93,4 +93,4 @@ It may take up to 24 hours for changes to propagate.
 
 ## Transferring the domain to DNSimple
 
-Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/transferring-domain) without worrying about downtime.
+Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/domain-transfer/) without worrying about downtime.

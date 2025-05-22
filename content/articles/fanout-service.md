@@ -1,6 +1,7 @@
 ---
 title: Fanout Service
 excerpt: How to set up Fanout DNS using DNSimple's One-click Service.
+meta: Easily set up Fanout DNS with DNSimple's One-click Service. Streamline your DNS management and enhance your domain's performance effortlessly.
 categories:
 - Services
 ---

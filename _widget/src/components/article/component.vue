@@ -1,8 +1,10 @@
 <template>
   <div class="route with-footer">
-    <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back">
+    <a v-if="app.hasHistory()" @click="app.back()" href="javascript:;" class="back" aria-label="Back">
       <div v-html="backIcon"></div>
     </a>
+
+    <a :href="`${app.getArticleUrl(article)}`" v-html="externalLink" target="_blank" class="external-link"></a>
 
     <div class="article">
       <div v-html="article.body"></div>
@@ -13,7 +15,7 @@
 </template>
 
 <script>
-import { backIcon } from '../../assets/svgs';
+import { backIcon, externalLink, trustyIcon } from '../../assets/svgs';
 import Footer from '../footer/component.vue';
 
 import "./style.scss";
@@ -33,7 +35,9 @@ export default {
   },
   data () {
     return {
-      backIcon
+      backIcon,
+      externalLink,
+      trustyIcon
     };
   },
   watch: {
@@ -46,13 +50,15 @@ export default {
   },
   methods: {
     fixLinks () {
-      [...this.$el.querySelectorAll('a')].forEach((a) => {
-        const href = a.getAttribute('href');
+      [...this.$el.querySelectorAll('.article a')].forEach((a) => {
+        let url = a.getAttribute('href');
 
-        if (href[0] === '/')
-          this.prepRelativeLink(a);
-        else if (href[0] !== '#' && href.indexOf('javascript') !== 0)
-          this.prepAbsoluteLink(a);
+        if (url[0] === '/') {
+          url = `${this.article.sourceUrl}${url}`;
+          a.setAttribute('href', url);
+        }
+
+        a.addEventListener('click', (event) => this.app.visitArticle(url, event));
       });
     },
 
@@ -63,27 +69,6 @@ export default {
         table.parentNode.insertBefore(wrapper, table);
         wrapper.appendChild(table);
       });
-    },
-
-    prepAbsoluteLink (a) {
-      a.target = '_blank';
-    },
-
-    prepRelativeLink (a) {
-      const href = a
-        .getAttribute('href')
-        .replace(/#.*/, '')
-        .replace(NO_TRAILING_SLASH, '/');
-      const article = this.app.findArticle(href);
-
-      a.href = `${this.article.source}${href}`;
-      a.onclick = (event) => {
-        event.stopImmediatePropagation();
-        event.preventDefault();
-
-        if (article)
-          this.app.go('Article', article);
-      };
     },
 
     prepare () {

@@ -34,7 +34,7 @@ DNSimple allows users to manage multiple accounts. If you've already signed up f
 
 ## Signing up via Google
 
-You can also sign up for a DNSimple account [using Google as your identity provider](/articles/google-identity-provider). Click **Sign up using Google**, and you'll be prompted to select your Google account. You'll then be returned to DNSimple already logged in to your new DNSimple account.
+You can also sign up for a DNSimple account [using Google as your identity provider](/articles/google-identity-provider/). Click **Sign up using Google**, and you'll be prompted to select your Google account. You'll then be returned to DNSimple already logged in to your new DNSimple account.
 
 ![Signing up via Google](/files/google-sso-social-signup.png)
 

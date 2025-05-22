@@ -1,6 +1,7 @@
 ---
 title: Tender Service
-excerpt: How to set up Tender DNS using DNSimple's one-click service.
+excerpt: How to set up Tender DNS using DNSimple's One-click Service.
+meta: Easily point your domain to Tender using DNSimple's One-click Service. Streamline your DNS management and enhance your online presence with our comprehensive guide.
 categories:
 - Services
 ---
@@ -14,22 +15,27 @@ categories:
 
 ---
 
-[Tender Support](https://tenderapp.com) organizes your customer care so you can focus on delivering the best service possible. With DNSimple's one-click [DNS services](/categories/services/), you can set up the DNS records required by Tender.
+[Tender Support](https://tenderapp.com) organizes your customer care so you can focus on delivering the best service possible.
 
+If you have accounts with DNSimple and Tender, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Tender.
 
 ## Enabling Tender service
 
-From the domain list, click on the domain name you want to update, then click on the DNS tab. Scroll down to locate the One Click Services section, and select "Manage services".
+1. From the domain list, click on the domain name you want to update.
+1. Click the **DNS** tab on the left side.
+1. Scroll down to the **One-click services** card, and click **Add**.
+![screenshot of link to one click services](/files/one-click-services.png)
 
-![Services](/files/services-dns-page-add.png)
-
-Select the "Productivity" tab, and scroll down the page until you find the Tender service. Click on the *Add* button.
+Select the **Productivity** tab, and scroll down to the Tender service. Click **Add**.
 
 ![Add Service](/files/services-tender.png)
 
-Now the service is added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
-
+The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
 ## Setting up at Tender
 
 Follow the steps to [add the domain in Tender](https://help.tenderapp.com/kb/customizing-your-tender-site/using-a-custom-domain-with-tender).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

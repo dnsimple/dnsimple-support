@@ -1,6 +1,7 @@
 ---
 title: WordPress Service
 excerpt: How to set up WordPress DNS using DNSimple's One-click Service.
+meta: Easily set up WordPress DNS with DNSimple's One-click Service. Streamline your website launch and enjoy hassle-free management for your domain.
 categories:
 - Services
 ---

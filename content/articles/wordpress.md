@@ -1,6 +1,7 @@
 ---
 title: WordPress and DNSimple
 excerpt: How to use a WordPress blog with DNSimple.
+meta: Learn how to seamlessly integrate your WordPress blog with DNSimple, ensuring smooth domain management and optimal performance for your online presence.
 categories:
 - Integrations
 ---
@@ -39,11 +40,11 @@ Once configured, follow the WordPress instructions to [map a domain to WordPress
 
     -   **If you want to point the root domain `awesome-blog.com`**
 
-        Add an [ALIAS record](/articles/alias-record) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
+        Add an [ALIAS record](/articles/alias-record/) to point `awesome-blog.com` to WordPress. Leave the _Name_ of the record empty and set the _Content_ field to the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
     -   **If you want to point a subdomain (e.g. `www.awesome-blog.com`)**
 
-        Add a [CNAME record](/articles/cname-record) to point `www.awesome-blog.com` to WordPress. The _Name_ of the record is the subdomain (e.g. `www`) and the _Content_ field is the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
+        Add a [CNAME record](/articles/cname-record/) to point `www.awesome-blog.com` to WordPress. The _Name_ of the record is the subdomain (e.g. `www`) and the _Content_ field is the WordPress endpoint (e.g. `awesome-blog.wordpress.com`)
 
 1. Follow the WordPress.com instructions to [add a custom domain](https://en.support.wordpress.com/map-subdomain/) to your blog. Specifically, go to [Domains](https://wordpress.com/domains/) and add the domain or subdomain to your blog.
 
@@ -59,9 +60,9 @@ WordPress.com also provides instruction to [use a domain you own with WordPress]
 
 ## Self-hosted WordPress
 
-DNSimple [doesn't offer any web hosting service](/articles/web-hosting), therefore if you want to download and install your own instance of WordPress, you will need to use a web hosting service.
+DNSimple [doesn't offer any web hosting service](/articles/web-hosting/), therefore if you want to download and install your own instance of WordPress, you will need to use a web hosting service.
 
 The web hosting service will provide you the specific instructions or server access to upload the WordPress files to the server, configure the database and install the platform.
 
-You can use DNSimple to point your own domain to the IP address provided you by the web hosting service. You will likely need to [create an A or CNAME DNS record](/articles/differences-a-cname-records) using your domain [DNS record editor](https://support.dnsimple.com/articles/record-editor) to point the domain to your web hosting space and make your WordPress instance available to your users.
+You can use DNSimple to point your own domain to the IP address provided you by the web hosting service. You will likely need to [create an A or CNAME DNS record](/articles/differences-a-cname-records/) using your domain [DNS record editor](https://support.dnsimple.com/articles/record-editor/) to point the domain to your web hosting space and make your WordPress instance available to your users.
 

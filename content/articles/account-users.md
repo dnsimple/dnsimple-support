@@ -1,6 +1,7 @@
 ---
 title: Managing Multiple Members on One Account
 excerpt: How to manage the members on a multi-user DNSimple account.
+meta: Learn how to effectively manage users on your multi-user DNSimple account, ensuring seamless collaboration and streamlined access to your DNS management.
 categories:
 - Account
 ---
@@ -18,15 +19,15 @@ categories:
 To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 </info>
 
-A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration.
+A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control/) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration.
 
 
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, click the name of the account in the menu to visit the account page.
+1. Once you've subscribed to an eligible plan, click the name of the account in the account switcher to visit the account page.
 
-    ![Visit settings for selected account](/files/account-switcher.jpg)
+    ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
 1. From the main account settings screen, select the <label>Members</label> tab.
 
@@ -36,7 +37,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/domain-access-control), you can select the member's fine-grained permissions.
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/domain-access-control/), you can select the member's fine-grained permissions.
 
     ![Add a new member form](/files/add-member-screen.png)
 
@@ -45,7 +46,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 </div>
 
 <note>
-It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
+It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email/#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
 </note>
 
 ## Removing members from an account
@@ -53,7 +54,7 @@ It's not possible to add a user whose email address is the same as the account. 
 <div class="section-steps" markdown="1">
 1. If you want to remove a member from your account, switch to the account, and visit the settings from the menu.
 
-    ![Visit settings for selected account](/files/account-switcher.jpg)
+    ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
 1. From the main account settings screen, select the <label>Members</label> tab.
 
@@ -61,10 +62,10 @@ It's not possible to add a user whose email address is the same as the account. 
 
 1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them.
 
-1. Once you've removed them from the account, that user will no longer show up on the members tab, and you have an available seat for a new member. [Discover more about managing your seats](/articles/managing-seats).
+1. Once you've removed them from the account, that user will no longer show up on the members tab, and you have an available seat for a new member. [Discover more about managing your seats](/articles/managing-seats/).
 
 </div>
 
 ## Managing member access
 
-To share specific domains with each member, have a look at our [Domain Access Control](/articles/domain-access-control) feature.
+To share specific domains with each member, have a look at our [Domain Access Control](/articles/domain-access-control/) feature.

@@ -14,9 +14,9 @@ categories:
 
 ---
 
-You can manage [CNAME records](/articles/cname-record) in DNSimple using the [DNS record editor](/articles/record-editor).
+You can manage [CNAME records](/articles/cname-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [CNAME record format](/articles/cname-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [CNAME record format](/articles/cname-record/#record-format) and usage.
 
 ## Adding a CNAME record
 

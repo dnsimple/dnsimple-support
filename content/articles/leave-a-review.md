@@ -1,6 +1,7 @@
 ---
 title: Leave a Review
-excerpt: At DNSimple, we love hearing what our customers have to say!
+excerpt: We love hearing what our customers have to say.
+meta: Share your experience with DNSimple! Your feedback helps us improve our services and better serve our customers. Leave a review and let your voice be heard.
 categories:
 - DNSimple
 ---
@@ -9,16 +10,12 @@ categories:
 
 Do you have something you want to share about DNSimple? Do you want to shout our praises from a rooftop? Would you like to make sure others know what we're all about?
 
-Here at DNSimple, we love hearing what our customers have to say! 
+We'd love to hear what you have to say.
 
-Currently, we are gathering reviews from G2 and Trustpilot.
+We're currently gathering reviews from [G2](https://www.g2.com/products/dnsimple/reviews), [Trustpilot](https://www.trustpilot.com/review/dnsimple.com), and [Product Hunt](https://www.producthunt.com/products/dnsimple).
 
-Feel free to click on the links below to access our pages from the following review sites:
+We always appreciate your feedback — it truly helps make us better.
 
-- [G2](https://www.g2.com/products/dnsimple/reviews)
-- [Trustpilot](https://www.trustpilot.com/review/dnsimple.com)
+## Have questions?
 
-We appreciate your kind words and feedback. It truly helps make us better! 
-
-Have a concern or issue? [Contact us.](/articles/dnsimple-support/)
-
+If you have any questions, concerns, or issues, just [contact us](/articles/dnsimple-support/), and we'll be happy to help.

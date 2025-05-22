@@ -22,9 +22,9 @@ Not all domain providers let you export your records in this standard format.
 We can import these DNS record types:
 
 - [A](/articles/a-record)
-- [AAAA](/articles/aaaa-record)
-- [CNAME](/articles/cname-record)
-- [MX](/articles/mx-record)
+- [AAAA](/articles/aaaa-record/)
+- [CNAME](/articles/cname-record/)
+- [MX](/articles/mx-record/)
 - [TXT](/articles/txt-record/)
 
 We prompt you to auto-import DNS records when:

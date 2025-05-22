@@ -21,22 +21,36 @@ Account owners can view an account's payment history and manually retry failed i
 <div class="section-steps" markdown="1">
 ##### To view an account's invoice history
 
-1. On the dashboard, choose the account you want to see the invoice history for.
+1. Click the account switcher at the top-right corner of the screen, then choose the account you want to see the invoice history for.
 
-1. Click **Account** at the top right, then click the **Billings and plans** tab on the left side. 
+    ![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
+
+1. From the account switcher, click the **Account settings** link.
+
+    ![screenshot of account link in top nav](/files/account-nav-link.png)
 
 1. Scroll down to the <label>Invoices</label> section and click on <label>View all</label>. You can also view your last invoice directly by clicking **View** in the **Last Invoice** section.
 
     ![Invoice History Link](/files/account-billing-view-invoice-history-link.png)
 </div>
 
+### Invoice filtering
+
+<info>
+Only available for [Enterprise](https://dnsimple.com/sales) clients.
+</info>
+
+Invoice filters provide quick, reliable access to invoices for auditing, reconciliation, and compliance. They simplify locating specific invoices by ID or content, helping teams save time and streamline financial workflows.
+
+![Enterprise Invoice Filter](/files/enterprise-invoice-filters.png)
+
 ## Payment states
 
 Your invoices may be in certain states depending on different circumstances:
 
-### `open` {#invoice-state-open}
+### `finalized` {#invoice-state-finalized}
 
-An invoice in an `open` state is being prepared and isn't ready for collection yet. It's unlikely that you'll see open invoices, as they only remain in this state for short periods of time.
+A `finalized` invoice is ready for payment, but no collection attempts have been made. We usually process invoices immediately, so they rarely linger in this state as they typically move on to either `collected` or `failed` within minutes.
 
 ### `collected` {#invoice-state-collected}
 
@@ -55,16 +69,12 @@ Depending on your plan, your subscription will renew every month or every year. 
 A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 
 <warning>
-If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**. 
+If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**.
 </warning>
 
 ### `refunded` {#invoice-state-refunded}
 
 The payment for this invoice was collected and then returned. When this happens, we mark the corresponding invoice as `refunded`.
-
-### `canceled` {#invoice-state-canceled}
-
-An invoice in the `canceled` state means you no longer have to pay it.
 
 ## Retrying failed payments {#retrying}
 
@@ -80,6 +90,6 @@ While our system occasionally retries failed invoices automatically, you may wan
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
 
-## Have more questions? 
+## Have more questions?
 
-You can [contact our support team](https://dnsimple.com/feedback) any time with questions about your account invoice history — we're here to help. 
+You can [contact our support team](https://dnsimple.com/feedback) any time with questions about your account invoice history — we're here to help.

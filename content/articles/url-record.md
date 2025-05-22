@@ -1,6 +1,7 @@
 ---
 title: What's a URL Record?
 excerpt: What a URL record is, and how to add a URL record in DNSimple.
+meta: Learn what a URL record is and discover step-by-step instructions for adding one in DNSimple to effectively redirect your domain traffic.
 categories:
 - DNS
 ---
@@ -16,11 +17,11 @@ categories:
 
 ## What's a URL record?
 
-The **URL record** is a [special DNSimple record](/articles/supported-dns-records). URL records redirect a hostname to another URL using our [redirector](/articles/manage-url-record).
+The **URL record** is a [special DNSimple record](/articles/supported-dns-records/). URL records redirect a hostname to another URL using our [redirector](/articles/manage-url-record/).
 
 For example, this feature can be used to redirect the `www.example.com` domain to `example.com`. It can also redirect a secondary domain you purchased to the main domain without pointing it to any web hosting service.
 
-For more information about the service, supported redirect types, and limitations, visit the [redirector](/articles/redirector) article.
+For more information about the service, supported redirect types, and limitations, visit the [redirector](/articles/redirector/) article.
 
 
 ## URL record format {#record-format}
@@ -37,9 +38,9 @@ In DNSimple, the URL record is represented by the following customizable element
 
 DNSimple exposes URL records as standard A and AAAA records. The canonical representation is the same for the A and AAAA records.
 
-When you create a URL record, we automatically configure a set of A and AAAA records to point the source hostname to an instance of our [redirector](/articles/redirector) service. When an HTTP client queries the hostname, our redirector service  serves an appropriate HTTP request to redirect the client to the target URL you configured in the record editor.
+When you create a URL record, we automatically configure a set of A and AAAA records to point the source hostname to an instance of our [redirector](/articles/redirector/) service. When an HTTP client queries the hostname, our redirector service  serves an appropriate HTTP request to redirect the client to the target URL you configured in the record editor.
 
 
 ## Manage URL records
 
-From the DNSimple record editor you can [add, remove, and update URL records](/articles/manage-url-record).
+From the DNSimple record editor you can [add, remove, and update URL records](/articles/manage-url-record/).

@@ -1,6 +1,7 @@
 ---
 title: What's a TXT Record?
 excerpt: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
+meta: Learn what TXT records are, how to create and manage them with DNSimple, and discover essential tips for optimizing your domain's DNS settings effectively.
 categories:
 - DNS
 ---
@@ -10,7 +11,7 @@ categories:
 ### Table of Contents {#toc}
 
 * TOC
-{:toc}  
+{:toc}
 
 ---
 
@@ -22,7 +23,7 @@ Common uses for TXT records:
 
 | Type                                    | Description                                                                                                                                                                |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`DKIM` records](/articles/dkim-record) | This record stores important information used in the validation of email in transit.                                                                                       |
+| [`DKIM` records](/articles/dkim-record/) | This record stores important information used in the validation of email in transit.                                                                                       |
 | DMARC records                           | Domain-based Message Authentication Reporting and Conformance records mitigate phishing and spoofing email attacks.                                                        |
 | [`SPF` record](/articles/spf-record/)   | This record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. TXT records should be used instead of the special SPF record type. |
 | Site Verification Records               | This record proves ownership of a domain and can be used to associate services such as Microsoft 365 and G-Suite to a specific domain.                                     |
@@ -64,7 +65,7 @@ If you provide TXT record wrapped in double quotes, our system won't make any ch
 
 ## Long TXT records
 
-According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently. 
+According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently.
 
 <note>
 We don't require you to split long TXT records, nor we will store them in a split format

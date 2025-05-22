@@ -20,7 +20,7 @@ structured_data: true
 <div class="section-faq" markdown="1">
 1.  #### What is the price of an SSL certificate?
 
-    The price depends on the certificate type. To learn more, visit [SSL Certificates](/articles/ssl-certificates).
+    The price depends on the certificate type. To learn more, visit [SSL Certificates](/articles/ssl-certificates/).
 
 1.  #### I want to purchase an SSL certificate. What is the DNSimple subscription?
 
@@ -59,19 +59,19 @@ structured_data: true
 
     No. You can purchase an SSL certificate for a domain that is not registered with us without transferring it to us. However, you need to add the domain to your account to request the certificate. You also need a valid, active subscription.
 
-    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates). When you're asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
+    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you're asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
 1.  #### Do I need to host the domain with DNSimple to purchase an SSL certificate?
 
     Not for Standard certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However, you need to add the domain to your account in order to be able to request the certificate. You also need a valid, active subscription.
 
-    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates). When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
+    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
-    If you're getting a free [Let's Encrypt certificate](/articles/letsencrypt), you must have the domain hosted with us so we can set up the required records for domain-based validation.
+    If you're getting a free [Let's Encrypt certificate](/articles/letsencrypt/), you must have the domain hosted with us so we can set up the required records for domain-based validation.
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
-    If you have [CAA Records](/articles/caa-record) already set up, or you want to use them, you need to add the appropriate record for Sectigo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record#caa-record-usage) for more details.
+    If you have [CAA Records](/articles/caa-record/) already set up, or you want to use them, you need to add the appropriate record for Sectigo or Let's Encrypt before you purchase the SSL certificate. Please see [this support document](/articles/caa-record/#caa-record-usage) for more details.
 </div>
 
 
@@ -80,9 +80,9 @@ structured_data: true
 <div class="section-faq" markdown="1">
 1.  #### What type of SSL certificates does DNSimple provide?
 
-    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
+    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates/), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority/). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 
-    To learn more, visit [SSL Certificates](/articles/ssl-certificates).
+    To learn more, visit [SSL Certificates](/articles/ssl-certificates/).
 
 1.  #### What certificates show the company name in the green bar near the padlock?
 
@@ -97,7 +97,7 @@ structured_data: true
 <div class="section-faq" markdown="1">
 1.  #### How long does it take to issue an SSL certificate?
 
-    Issuing a new SSL certificate can take anywhere from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate).
+    Issuing a new SSL certificate can take anywhere from a few minutes to a few hours. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 
 1.  #### Does renewing a certificate update the one I have installed?
 

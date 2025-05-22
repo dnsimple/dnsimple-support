@@ -1,6 +1,7 @@
 ---
 title: SSL Certificates with NGINX
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on NGINX, and configure the NGINX host.
+meta: Learn how to obtain an SSL certificate from DNSimple, install it on NGINX, and configure your NGINX host with our comprehensive step-by-step guide.
 categories:
 - SSL Certificates
 ---
@@ -19,13 +20,13 @@ With DNSimple you can request an SSL certificate that you can install on [NGINX]
 This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on NGINX, and configure the NGINX host.
 
 <tip>
-Before you start, please take a moment to review [information and prices](/articles/ssl-certificates) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates).
+Before you start, please take a moment to review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 </tip>
 
 
 ## Obtain the SSL certificate
 
-We have prepared [a guide to purchasing an SSL certificate](/articles/purchasing-ssl-certificates). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
+We have prepared [a guide to purchasing an SSL certificate](/articles/ordering-standard-certificate/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
 
 ## Install the SSL certificate on NGINX
 

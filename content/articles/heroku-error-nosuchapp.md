@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Heroku "No such app" error
 excerpt: You pointed your domain to Heroku, but when you access your domain you see the error page No such app.
+meta: No such app error after pointing your domain to Heroku? Learn how to troubleshoot and resolve this issue effectively with our guide.
 categories:
 - Integrations
 ---

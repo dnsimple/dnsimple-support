@@ -14,7 +14,7 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 
 1.  Log into your registrar account.
 1.  Find the place on your domain registrar's web site where you can enter our name servers.
-1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers):
+1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers/):
 
     - ns1.dnsimple.com
     - ns2.dnsimple-edge.net
@@ -25,7 +25,7 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 <note>
 #### Name server propagation
 
-Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues).
+Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 </note>
 
 ### How to set custom name servers at some common registrars

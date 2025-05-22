@@ -1,6 +1,7 @@
 ---
 title: Zone NS Records
 excerpt: How to update zone NS records for a hosted domain
+meta: Learn how to efficiently update Name Server records for your hosted domain in DNSimple, ensuring seamless domain management and optimal performance for your website.
 categories:
 - DNS
 ---
@@ -22,7 +23,7 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 1. Enter the hostnames of the name servers you want to set for the NS records in the zone.
     ![Apply NS records](/files/zone-ns-records-update.png)
 
-1. You can also add them from one or more [name server sets](/articles/name-server-sets) instead of typing in name server hostnames.
+1. You can also add them from one or more [name server sets](/articles/name-server-sets/) instead of typing in name server hostnames.
     ![Apply NS records from name server sets](/files/zone-ns-records-name-server-set.png)
 
 1. Click <label>Apply NS records</label> to apply the changes.

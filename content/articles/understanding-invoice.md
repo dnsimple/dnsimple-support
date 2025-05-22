@@ -1,6 +1,7 @@
 ---
 title: Understanding Your DNSimple Invoice
 excerpt: A detailed explanation of DNSimple invoices.
+meta: Discover everything you need to know about DNSimple invoices, including billing cycles, payment methods, and how to manage your account effectively.
 categories:
 - Account
 ---
@@ -64,8 +65,8 @@ DNSimple has both recurring charges and purchases. Purchases, like the fees you 
 
 - DNSimple subscription
 - [Email forwards](/articles/email-forwarding/)
-- [Active Zones](/articles/dns-hosting)
-- [Query Volume](/articles/dns-query-limits)
+- [Active Zones](/articles/dns-hosting/)
+- [Query Volume](/articles/dns-query-limits/)
 
 ![Recurring charges](/files/recurring-charges.png)
 

@@ -1,17 +1,18 @@
 ---
 title: What is the SSL Certificate Chain?
 excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
+meta: Learn about SSL certificate chains, including the roles of root, intermediate, and server certificates, and how they work together to secure your website.
 categories:
 - SSL Certificates
 ---
 
 # What is the SSL Certificate Chain?
 
-There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been **issued by a CA that's included in the trusted store of the device that's connecting**.
+There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been **issued by a CA that's included in the trusted store of the device that's connecting**.
 
 If the certificate wasn't issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA. It continues checking until either a trusted CA is found (at which point a trusted, secure connection will be established), or no trusted CA can be found (at which point the device will usually display an error).
 
-The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-root-certificate) to the end-user certificate, represents the **SSL certificate chain**.
+The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-root-certificate/) to the end-user certificate, represents the **SSL certificate chain**.
 
 ![A real SSL certificate chain](/files/dnsimple-ssl-chain.png)
 
@@ -36,7 +37,7 @@ In our example, the SSL certificate chain is represented by 6 certificates:
 1. Intermediate Certificate 4 - Issued to: Intermediate Awesome CA Gamma; Issued By: The King of Awesomeness
 1. Root certificate - Issued by and to: The King of Awesomeness
 
-Certificate 1, the one you purchase from the CA, is your **end-user certificate**. Certificates 2 to 5 are **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is the [**root certificate**](/articles/what-is-ssl-root-certificate).
+Certificate 1, the one you purchase from the CA, is your **end-user certificate**. Certificates 2 to 5 are **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is the [**root certificate**](/articles/what-is-ssl-root-certificate/).
 
 When you install your end-user certificate for `example.awesome`, you **must** bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate won't be trusted by some devices.
 
@@ -53,7 +54,7 @@ When you install your end-user certificate for `example.awesome`, you **must** b
 
     For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. However, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
 
-    We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you can [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate) for your server.
+    We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you can [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate/) for your server.
 
     If your server isn't on the wizard, you can still obtain the proper files through it, then follow your web server's documentation to determine how to properly install your domain certificate and intermediate certificates.
 

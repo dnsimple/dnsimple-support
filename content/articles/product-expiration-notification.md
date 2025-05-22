@@ -19,4 +19,4 @@ The expiring product notification system is designed to reduce the number of ema
 
 The notification is delivered as soon as one of your products enters the 60-day expiration period. We deliver, at most, one email each week with an overview of all your expiring products.
 
-This email is part of the [expiring product notification feature](/articles/expiring-product-email-notifications).
+This email is part of the [expiring product notification feature](/articles/expiring-product-email-notifications/).

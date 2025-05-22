@@ -1,6 +1,7 @@
 ---
 title: Changing Payment Details
 excerpt: How to change a DNSimple account's payment details.
+meta: Easily update your DNSimple account's payment details with our step-by-step guide. Ensure your billing information is always current and secure.
 categories:
 - Account
 ---
@@ -15,8 +16,8 @@ Teams and higher plans have Domain Access Controls. Only those with a full-acces
 
 ### To update an account's payment details
 
-1. From the account dashboard, select the account you want to update the payment information for. This takes you to the domain list for the account.
-1. Select <label>Account</label> at the top right of the screen.
+1. Select the account you want to update the payment information for from the account switcher at the top-right corner of the screen. This takes you to the domain list for the account.
+1. From the account switcher, click <label>Account settings</label>.
 1. Select <label>Billing and plans</label> from the left side bar.
 1. Find the card showing your credit card information, and click <label>Edit</label>.
 

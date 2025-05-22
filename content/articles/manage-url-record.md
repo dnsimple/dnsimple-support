@@ -1,6 +1,7 @@
 ---
 title: Managing URL Records
 excerpt: Instructions to add, update, and remove a URL record in DNSimple.
+meta: Learn how to easily manage your URL records in DNSimple with our step-by-step guide. Add, update, or remove records to optimize your domain's performance.
 categories:
 - DNS
 ---
@@ -14,9 +15,9 @@ categories:
 
 ---
 
-You can manage [URL records](/articles/url-record) in DNSimple using the [DNS record editor](/articles/record-editor).
+You can manage [URL records](/articles/url-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [URL record format](/articles/url-record#record-format) and usage.
+The instructions in this article assume you're familiar with the [URL record format](/articles/url-record/#record-format) and usage.
 
 
 ## Adding a URL record

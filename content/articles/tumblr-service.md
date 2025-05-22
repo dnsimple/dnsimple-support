@@ -1,6 +1,7 @@
 ---
 title: Tumblr Service
 excerpt: How to set up Tumblr DNS using DNSimple's One-click Service.
+meta: Easily point your domain toTumblr with DNSimple's One-click Service. Follow our step-by-step guide to streamline your Tumblr setup effortlessly.
 categories:
 - Services
 ---

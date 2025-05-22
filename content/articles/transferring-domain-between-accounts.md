@@ -1,6 +1,7 @@
 ---
 title: Transferring a Domain to Another DNSimple Account
 excerpt: How to move a domain from one DNSimple account to another.
+meta: Learn how to easily transfer your domain between DNSimple accounts with our step-by-step guide, ensuring a smooth transition and continued management of your domain.
 categories:
 - Domains
 - Domain Transfers
@@ -45,7 +46,7 @@ Once the domain is transferred, you can no longer control it under your current 
 1. A banner will appear confirming the request to push the domain.
 
 <warning>
-Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-account-email/), not a [user email address](/articles/changing-user-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
+Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-email/), not a [user email address](/articles/changing-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
 </warning>
 
 ## Accepting a transfer

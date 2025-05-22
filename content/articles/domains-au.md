@@ -82,13 +82,37 @@ On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took ef
 
 ## Renewals
 
-.AU domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters the [redemption](/articles/what-happens-when-domain-expires/#redemption-period) period. The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be [restored](/articles/restoring-domain) for an additional fee.
+.AU domains must be renewed no later than 10 days before the expiration date. Automatic and manual renewals are permitted as long as the domain is less than 90 days away from expiry. If the domain name is not renewed by the deadline, it enters the [redemption](/articles/what-happens-when-domain-expires/#redemption-period) period. The domain name will be removed from the DNS and cannot be updated. This period lasts for 31 days. During this period, the domain name can be [restored](/articles/restoring-domain/) for an additional fee.
 
 If the domain name is not redeemed within 31 days, it will be removed from our system and will no longer be recoverable. It will be purged by the registry during the next purge cycle.
 
 ## Transfers
 
 .AU domains are not renewed for one year upon transfer. We do not charge for .AU transfers.
+
+### Required acknowledgment
+
+All .AU domain transfers into DNSimple require your explicit acknowledgment before they can be completed.
+
+After initiating the transfer, you will receive the acknowledgement email within the same day. Once acknowledgment is completed, your transfer will take up to a week to complete. There are no further steps needed after acknowledging the transfer.
+
+<warning>
+All unacknowledged transfers will be canceled after 14 days.
+</warning>
+
+#### Acknowledgment process
+
+##### Check your email
+An acknowledgment email will be sent to the domain registrant's email address <strong>(this may be different from your DNSimple account email)</strong>.
+
+If you do not have access to the registrant's email address, we recommend updating this first via the domain's current registrar. Otherwise, your transfer won't succeed.
+
+If you don't see the email, check your spam/junk folders.
+
+##### Complete the process
+Click the link provided in the acknowledgment email to confirm and complete your transfer.
+
+If you don't receive the acknowledgement email, experience problems with the link, or need any help with your domain transfer, please [contact](https://dnsimple.com/contact) our support team.
 
 ## Changes in ownership
 
@@ -113,3 +137,7 @@ If your domain has a deregistered ABN/ACN (where the legal entity has been dereg
 - [Transfer of Domain Name Chain of Title Form](/files/transfer-of-domain-name-chain-of-title.docx)
 
 Please complete them to the best of your abilities — if you have any concerns, please [contact the registry directly](https://www.auda.org.au/au-domain-names/general-enquiry-form).
+
+## Have more questions? 
+
+If you have any questions about registering, transferring, or renewing your .AU domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 

@@ -1,6 +1,7 @@
 ---
 title: What's a DMARC record?
 excerpt: What a DMARC record is, and how DMARC records work.
+meta: Learn what DMARC records are, how they function, and how they can enhance your email security by preventing spoofing and phishing attacks effectively.
 categories:
 - DNS
 - Emails
@@ -18,7 +19,7 @@ categories:
 DMARC stands for Domain-based Message Authentication, Reporting & Conformance. It's an email authentication, policy, and reporting protocol that builds upon SPF and DKIM protocols to help email receivers determine if the purported message aligns with what the receiver knows about the sender. This makes it easier to identify spam or phishing messages, and keep them out of inboxes.
 
 <info>
-DMARC works with [SPF](/articles/spf-record) and [DKIM](/articles/dkim-record) records. <strong>You must have these records present for DMARC to work</strong>, since DMARC is built around them.
+DMARC works with [SPF](/articles/spf-record/) and [DKIM](/articles/dkim-record/) records. <strong>You must have these records present for DMARC to work</strong>, since DMARC is built around them.
 </info>
 
 

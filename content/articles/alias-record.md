@@ -1,6 +1,7 @@
 ---
 title: What's an ALIAS record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
+meta: What an ALIAS record is, and how to add an ALIAS record in DNSimple. Discover how to easily add to enhance your domain's DNS management and improve website performance.
 categories:
 - DNS
 ---
@@ -16,7 +17,7 @@ categories:
 
 ## What's an ALIAS record?
 
-An **ALIAS** record is a virtual record type DNSimple created to provide [`CNAME`](/articles/cname-record)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
+An **ALIAS** record is a virtual record type DNSimple created to provide [`CNAME`](/articles/cname-record/)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
 
 For example, if your domain is `example.com`, and you want it to point to a host name like `myapp.herokuapp.com`, you can't use a `CNAME` record, but you can use an `ALIAS` record. The `ALIAS` record will automatically resolve your domain to one or more `A` records at resolution time, and resolvers see your domain as if it had `A` records.
 
@@ -31,7 +32,3 @@ If the resolution fails, for example due to a timeout, then the cached response 
 ### Resolving ALIAS records with secondary DNS
 
 To support [secondary DNS](/articles/secondary-dns/) servers, especially ones that connect to us and pull zones using `AXFR`, we must resolve the `ALIAS` differently. We resolve it as part of the secondary DNS setup process, then run a scheduled job to update the `ALIAS` record at secondary name servers by resolving them again, removing the old records, and writing the new records to our zone transfer database. We then send a [`NOTIFY`](https://tools.ietf.org/html/rfc1996) message to the appropriate secondary name servers, letting it know a change has been made.
-
-<note>
-When creating an `ALIAS` record you'll notice an additional `TXT` field is created. This field is optional and can be used for debugging. This field is being [deprecated](https://blog.dnsimple.com/2024/04/deprecating-alternate-txt-for-alias/).
-</note>

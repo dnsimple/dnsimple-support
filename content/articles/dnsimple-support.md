@@ -1,6 +1,7 @@
 ---
 title: Contacting DNSimple Support
 excerpt: How to contact DNSimple for questions, issues, or feedback.
+meta: Get in touch with DNSimple support for assistance with questions, issues, or feedback. Our experts are here to help you navigate your DNS needs effectively.
 categories:
 - DNSimple
 ---
@@ -37,7 +38,7 @@ Response times may be slower on weekends or holidays. View our [Customer Support
 
 ## How do I get priority support?
 
-Enterprise clients receive priority support and have a dedicated queue for faster responses. They are guaranteed to hear from us within an hour of receiving the initial request, provided the request is sent through their priority channel.
+Enterprise clients receive priority support and have a dedicated queue for faster responses. They are guaranteed to hear from us within an hour of receiving the initial request, except for weekends and international bank holidays, provided the request is sent through their priority channel.
 
 If you're an Enterprise customer and want to send a priority support email, fill out the contact form while logged in to your account.
 
