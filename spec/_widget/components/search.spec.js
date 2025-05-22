@@ -184,8 +184,9 @@ describe('Search', () => {
         "Add DNSimple as a secondary DNS server": 2,
         "Add DNSMadeEasy as a secondary DNS server": 3,
         "Adding Dyn as a Secondary DNS Server": 4,
-        "Integrated DNS Providers at DNSimple": 5,
-        "Using DNSimple alongside other DNS providers": 6,
+        "Add DNSimple as a secondary DNS with a hidden primary": 5,
+        "Integrated DNS Providers at DNSimple": 6,
+        "Using DNSimple alongside other DNS providers": 7,
       },
       'domain validation': {
         'ICANN Domain Validation Requirements': 1
