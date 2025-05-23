@@ -6,7 +6,6 @@ const DICTIONARY = {
   "Let's Encrypt": /letsencrypt/,
   'Standard SSL Certificate': /standard/,
   'Reverse Zones': /zones/,
-  'share management': /memberships/,
   'Automation': /automation/,
   'User Settings': /user/,
   'DNSSEC': /dnssec/,
