@@ -22,7 +22,7 @@ you can easily manage your DNS infrastructure and set up the required DNS record
 ## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/cTWP1MWA-0c" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/cTWP1MWA-0c" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
 ## Configuring the DNSimple provider
