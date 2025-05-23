@@ -68,10 +68,10 @@ If you have a zone with records in your DNSimple account, you're ready to delega
 
 **Domains registered with DNSimple**
 
-If you've registered a domain with DNSimple but aren't yet using our name servers, you can manually add them, or select a DNSimple system [name server set](https://support.dnsimple.com/articles/name-server-sets#system-name-server-sets), and we'll add them for you. Learn more about delegating domains to DNSimple in [this article](https://support.dnsimple.com/articles/delegating-dnsimple-registered/).
+If you've registered a domain with DNSimple but aren't yet using our name servers, you can manually add them, or select a DNSimple system [name server set](https://support.dnsimple.com/articles/name-server-sets/#system-name-server-sets), and we'll add them for you. Learn more about delegating domains to DNSimple in [this article](https://support.dnsimple.com/articles/delegating-dnsimple-registered/).
 
 **Domains at other registrars**
 
-If your domain is at another registrar, you can enter DNSimple's name servers in your account at that registrar. Just follow [these instructions](https://support.dnsimple.com/articles/delegating-dnsimple-hosted). Before you transfer a domain from another registrar, make sure it's prepared — [learn how](https://support.dnsimple.com/articles/before-transferring-domain/).
+If your domain is at another registrar, you can enter DNSimple's name servers in your account at that registrar. Just follow [these instructions](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/). Before you transfer a domain from another registrar, make sure it's prepared — [learn how](https://support.dnsimple.com/articles/before-transferring-domain/).
 
 If you have any questions about setting up or delegating zones, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

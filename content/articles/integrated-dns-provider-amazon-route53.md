@@ -49,7 +49,7 @@ To connect [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated D
 
 The following Route 53 record types are supported for syncing and management at DNSimple:
 
-- [A](/articles/a-record)
+- [A](/articles/a-record/)
 - [AAAA](/articles/aaaa-record/)
 - [CNAME](/articles/cname-record/)
 - [MX](/articles/mx-record/)

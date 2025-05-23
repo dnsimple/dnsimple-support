@@ -47,11 +47,11 @@ The CoreDNS Integrated Provider supports one-way syncing of zone records configu
 
 All DNSimple record types can be synced to CoreDNS:
 
-- [A](/articles/a-record)
+- [A](/articles/a-record/)
 - [AAAA](/articles/aaaa-record/)
 - [ALIAS](/articles/alias-record/)
-- [CAA](/articles/caa-record)
-- [CNAME](/articles/cname-record)
+- [CAA](/articles/caa-record/)
+- [CNAME](/articles/cname-record/)
 - HINFO
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)

@@ -18,7 +18,7 @@ Follow these instructions to [delegate a domain registered with DNSimple to DNSi
 
 ## Domain registered with another provider
 
-Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted).
+Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
 <note>
 #### Name server propagation

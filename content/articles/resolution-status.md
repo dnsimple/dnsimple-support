@@ -27,7 +27,7 @@ If you transferred the domain to us, we don't automatically switch your name ser
 
 ## Domains registered with another registrar
 
-If the domain is registered with another registrar, and you're using DNSimple only for DNS hosting, we currently don't show the name servers for your domain. If you want to point the name servers to us, [follow these instructions](/articles/delegating-dnsimple-hosted).
+If the domain is registered with another registrar, and you're using DNSimple only for DNS hosting, we currently don't show the name servers for your domain. If you want to point the name servers to us, [follow these instructions](/articles/delegating-dnsimple-hosted/).
 
 ## Have more questions?
 

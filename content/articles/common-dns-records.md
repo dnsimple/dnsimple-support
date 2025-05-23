@@ -30,7 +30,7 @@ These are the most common DNS record types:
 
 | Type | Description |
 |------|-------------|
-| [`A` record](/articles/a-record) | This is the most popular type. A records create a DNS record that points to an IPv4 address. It allows you to use memonic names, such as `www.example.com`, in place of IP addresses like `127.0.0.1`. |
+| [`A` record](/articles/a-record/) | This is the most popular type. A records create a DNS record that points to an IPv4 address. It allows you to use memonic names, such as `www.example.com`, in place of IP addresses like `127.0.0.1`. |
 | [`CNAME` record](/articles/cname-record/) | This record works as an alias and maps one name to another. It's often used to reduce duplication in domain name configurations. It also simplifies the maintenance of multiple records connected to the same IP address. It's one of the common mechanisms that's been adopted by cloud services to provision customer-specific services. |
 | [`MX` record](/articles/mx-record/) | This record is used to identify the servers mail should be delivered to for a domain. You need to have these records configured to receive emails. |
 | [`TXT` record](/articles/txt-record/) | This record is used to associate text with a domain. |

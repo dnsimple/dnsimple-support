@@ -22,9 +22,9 @@ categories:
 
 An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. An AAAA record is used to find the IP address of a computer connected to the internet from a name.
 
-The AAAA record is conceptually similar to the [A record](/articles/a-record), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
+The AAAA record is conceptually similar to the [A record](/articles/a-record/), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
 
-AAAA records are [less common than A records](/articles/common-dns-records), however their popularity is rising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support) and can be queried via either IPv4 or IPv6.
+AAAA records are [less common than A records](/articles/common-dns-records/), however their popularity is rising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support/) and can be queried via either IPv4 or IPv6.
 
 As with the A records, you can use multiple AAAA records for the same domain in order to provide redundancy. Multiple names could point to the same address, in which case each would have its own AAAA record pointing to that same IP address.
 
@@ -96,4 +96,4 @@ ns1.dnsimple.com.	1795	IN	AAAA	2400:cb00:2049:1::a29f:1804
 
 ## Manage AAAA records
 
-From the DNSimple record editor you can [add, remove, and update AAAA records](/articles/manage-aaaa-record).
+From the DNSimple record editor you can [add, remove, and update AAAA records](/articles/manage-aaaa-record/).
