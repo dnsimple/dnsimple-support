@@ -21,7 +21,7 @@ DNSimple supports the ability to manage domains that are registered through [GoD
 ## Video Walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/8p7npbNN2x0" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/8p7npbNN2x0" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
 ## Supported Features

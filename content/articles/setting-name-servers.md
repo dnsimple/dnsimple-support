@@ -74,7 +74,7 @@ To make changes to a reserved name server, click on the configuration icon next 
 If you are adding a name server that is a child of the domain, glue records are required. You will be prompted about the missing glue records upon clicking <label>Change Name Servers</label>. To add glue record, create a [name server set](/articles/name-server-sets/#creating-an-account-name-server-set), and click <label>Add a name server set</label> on the <label>Edit delegation</label> page to apply it.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
 <info>
