@@ -51,7 +51,7 @@ Do not list the hidden primary DNS server to keep it private.
 
 ## Step 3: Configure your hidden primary DNS
 
-1. At your primary DNS provider, add your DNS records (A, MX, CNAME, TXT, etc...).
+1. At your primary DNS provider, add your DNS records (A, MX, CNAME, TXT, etc.).
 2. Enable AXFR (Zone Transfers), and add [DNSimple's AXFR client IP addresses to the Allow-List](https://support.dnsimple.com/articles/secondary-dns-dnsimple-as-secondary/#configuring-axfr-at-your-primary-dns-provider).
 3. Ensure your NS records do NOT include the hidden primary to keep it private.
 
