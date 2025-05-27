@@ -63,7 +63,7 @@ You can always switch back to the simple editor using the tabs on top. This can 
 ### Specific record instructions
 
 - [A records](/articles/manage-a-record/)
-- [AAAA records](/articles/manage-aaaa-record)
+- [AAAA records](/articles/manage-aaaa-record/)
 - [CAA records](/articles/manage-caa-record/)
 - [CNAME records](/articles/manage-cname-record/)
 - [URL records](/articles/manage-url-record/)

@@ -32,7 +32,7 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 <info>
 #### Hosted domain must be delegated to DNSimple
 
-The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted).
+The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/).
 </info>
 
 ## Have more questions?

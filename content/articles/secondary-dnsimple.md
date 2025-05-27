@@ -16,7 +16,7 @@ You can use our API or UI to have zone redundancy with other DNS providers. You'
 
 - [Adding the records](/articles/record-editor/) manually through our UI.
 - [Importing a zone file](/articles/zone-files/#importing-records-from-a-zone-file) from your primary provider.
-- [Using our API](https://developer.dnsimple.com/v2).
+- [Using our API](https://developer.dnsimple.com/v2/).
 - Use "infrastructure as code" tools such as [Terraform](https://registry.terraform.io/providers/dnsimple/dnsimple/latest/docs), [OctoDNS](https://github.com/octodns/octodns), and [DNSControl](https://github.com/StackExchange/dnscontrol)
 
 This diagram shows how zone changes are propagated to both DNS service providers:

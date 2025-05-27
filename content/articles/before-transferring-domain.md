@@ -76,7 +76,7 @@ $ dig @ns1.dnsimple.com www.example.com CNAME
 
 ## Pointing the domain to DNSimple
 
-After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
+After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted/) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
 
 <warning>
 This step is essential. It ensures your DNS will continue operating during the transfer process.

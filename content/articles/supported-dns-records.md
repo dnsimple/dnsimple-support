@@ -22,7 +22,7 @@ The Domain Name System (DNS) is composed of several record types called resource
 
 We support the following standard record types:
 
-- [A](/articles/a-record)
+- [A](/articles/a-record/)
 - AAAA
 - [CAA](/articles/caa-record/) (see note below)
 - [CNAME](/articles/cname-record/)

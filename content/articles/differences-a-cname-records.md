@@ -11,7 +11,7 @@ The `A` and `CNAME` records are the two common ways to map a host name ("name") 
 
 ## Understanding the differences
 
-The [`A` record](/articles/a-record) points a name to a specific IP. If you want `blog.dnsimple.com` to point to the server `185.31.17.133` you'll configure:
+The [`A` record](/articles/a-record/) points a name to a specific IP. If you want `blog.dnsimple.com` to point to the server `185.31.17.133` you'll configure:
 
     blog.dnsimple.com.     A        185.31.17.133
 
