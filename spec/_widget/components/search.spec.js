@@ -202,7 +202,7 @@ describe('Search', () => {
         'Forgot Password': 1
       },
       'email not working': {
-        'What\'s an MX Record?': 4,
+        'What\'s an MX Record?': 5,
         'Email Hosting Support': 3
       },
       'domain registration': {
@@ -232,7 +232,7 @@ describe('Search', () => {
       },
       'change nameservers': {
         'Setting the Name Servers for a Domain': 3,
-        'What is a name server?': 5
+        'What is a name server?': 4
       },
       'domain expiration': {
         'What Happens When a Domain Expires?': 6
