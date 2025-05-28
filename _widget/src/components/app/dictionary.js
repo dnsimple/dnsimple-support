@@ -6,6 +6,7 @@
 export default {
   "add user": "multiple team",
   "remove user": "multiple team",
+  "account": "account create",
   "create": "manage",
   "owner": "registrant contact whois privacy protection icann verification",
   "user": "user settings",

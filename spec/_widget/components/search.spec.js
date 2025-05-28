@@ -82,6 +82,10 @@ describe('Search', () => {
         'Managing A Records': 5,
         'What\'s an A Record?': 1
       },
+      'account management': {
+        'Account Creation': 1,
+        'Account Activation': 5
+      },
       'enable dnssec': {
         'DNSSEC': 1,
         'Why DNSSEC and Secondary DNS may not work together': 3
