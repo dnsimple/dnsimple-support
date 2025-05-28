@@ -82,7 +82,7 @@ describe('Search', () => {
         'Managing A Records': 5,
         'What\'s an A Record?': 1
       },
-      'account management': {
+      'manage account': {
         'Account Creation': 1,
         'Account Activation': 5
       },
