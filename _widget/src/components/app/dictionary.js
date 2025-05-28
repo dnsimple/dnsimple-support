@@ -31,7 +31,6 @@ export default {
   "expiry": "expiration",
   "expires": "expiration",
   "search": "dnsimple drop catch",
-  "management": "record editor",
   "comment": "note",
   "axfr": "secondary dns",
   "validation": "icann validation",
