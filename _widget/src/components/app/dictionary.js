@@ -14,7 +14,6 @@ export default {
   "cancel": "unsubscribe",
   "delete account": "unsubscribe",
   "letsencrypt": "lets encrypt",
-  "membership": "share management",
   "team": "member",
   "remove": "delete",
   "registration": "register",
