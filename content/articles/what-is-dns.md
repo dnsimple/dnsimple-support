@@ -36,13 +36,13 @@ Check out our web comic at [howdns.works](https://howdns.works) for a fun overvi
 
 - **Authoritative name servers:** These servers hold the "official" DNS records for a domain. They are the final source of truth for IP addresses and will return them to the recursive resolver. Authoritative DNS servers are the ultimate source of DNS information.
 
-![diagram of DNS component types](/files/dns-components.svg)
+![diagram of DNS component types](/files/dns-components.png)
 
 ## Iterative vs. recursive queries
 
 The connections between a resolver and client are recursive queries--queries that communicate with several DNS servers. Connections between root name, TLD, and authoritative DNS servers are typically iterative queries, which only query a single DNS server. Understanding the difference between iterative and recursive DNS queries is essential for comprehending DNS architecture.
 
-![Diagram of recursive vs iterative DNS queries](/files/dns-recursive-vs-iterative.svg)
+![Diagram of recursive vs iterative DNS queries](/files/dns-recursive-and-iterative.png)
 
 ## DNS resolution: step-by-step
 
@@ -53,4 +53,4 @@ The connections between a resolver and client are recursive queries--queries tha
 1. **Authoritative name server query:** The resolver queries the authoritative name server, which contains the resource records associated with the domain name dnsimple.com.
 1. **IP address returned:** Once the resolver gets the IP address back, it caches the record's information using the [TTL](/articles/what-is-ttl/) value of the record and sends it to your device. DNS caching improves the efficiency of future DNS lookups.
 
-![flow diagram of the DNS resolution process](/files/dns-resolution-steps.svg)
+![flow diagram of the DNS resolution process](/files/dns-resolution-steps.png)
