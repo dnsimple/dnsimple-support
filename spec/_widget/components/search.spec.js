@@ -82,6 +82,10 @@ describe('Search', () => {
         'Managing A Records': 5,
         'What\'s an A Record?': 1
       },
+      'manage account': {
+        'Account Creation': 1,
+        'Account Activation': 5
+      },
       'enable dnssec': {
         'DNSSEC': 1,
         'Why DNSSEC and Secondary DNS may not work together': 3
@@ -198,7 +202,7 @@ describe('Search', () => {
         'Forgot Password': 1
       },
       'email not working': {
-        'What\'s an MX Record?': 4,
+        'What\'s an MX Record?': 5,
         'Email Hosting Support': 3
       },
       'domain registration': {
@@ -215,16 +219,12 @@ describe('Search', () => {
         "First Steps Guide to Setting Up Your Team": 2,
         "Multi-Factor Authentication": 3,
       },
-      'dns management': {
-        'Record Editor': 1,
-        'Common DNS Records': 2
-      },
       'domain parking': {
-        'DNS Hosting': 3
+        'DNS Hosting': 2
       },
       'dns propagation': {
         'Troubleshooting Domain Resolution Issues': 2,
-        'Using DNSimple alongside other DNS providers': 5
+        'Using DNSimple alongside other DNS providers': 4
       },
       'dnsimple pricing': {
         'DNSimple Plans': 2,
@@ -232,19 +232,19 @@ describe('Search', () => {
       },
       'change nameservers': {
         'Setting the Name Servers for a Domain': 3,
-        'What is a name server?': 5
+        'What is a name server?': 4
       },
       'domain expiration': {
-        'What Happens When a Domain Expires?': 7
+        'What Happens When a Domain Expires?': 6
       },
       'ipv6 dns': {
         'IPv6 Domain Resolution': 1,
         'What\'s an AAAA record?': 2
       },
       'email settings': {
-        'Email Hosting Support': 3,
+        'Email Hosting Support': 4,
         'Troubleshooting Email Forwarding with Gmail': 7,
-        'What\'s an MX Record?': 4
+        'What\'s an MX Record?': 3
       },
       'domain owner': {
         'Changing Domain Contacts': 2,

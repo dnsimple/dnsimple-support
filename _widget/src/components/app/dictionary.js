@@ -6,6 +6,7 @@
 export default {
   "add user": "multiple team",
   "remove user": "multiple team",
+  "account": "account create",
   "create": "manage",
   "owner": "registrant contact whois privacy protection icann verification",
   "user": "user settings",
@@ -31,7 +32,6 @@ export default {
   "expiry": "expiration",
   "expires": "expiration",
   "search": "dnsimple drop catch",
-  "management": "record editor",
   "comment": "note",
   "axfr": "secondary dns",
   "validation": "icann validation",
