@@ -27,7 +27,7 @@ Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not i
 Ensure that you are not currently using DNSSEC, or disable DNSSEC before using secondary DNS.
 </warning>
 
-Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
+Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary/) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
 
 ## Requirements
 
@@ -38,12 +38,12 @@ Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secon
 ## Step 1: Set Up DNSimple as secondary DNS
 
 1. Navigate to the domain you want to configure.
-2. Configure the zone to as secondary DNS [this guide](/articles/secondary-dns-dnsimple-as-secondary).
+2. Configure the zone to as secondary DNS [this guide](/articles/secondary-dns-dnsimple-as-secondary/).
 
 ## Step 2: Update the delegation at your domain registrar
 
 1. Log in to your domain registrar.
-2. Update the delegation [using DNSimple's name servers](/articles/dnsimple-name servers).
+2. Update the delegation [using DNSimple's name servers](/articles/dnsimple-nameservers/).
 
 <note>
 Do not list the hidden primary DNS server to keep it private.
@@ -82,6 +82,6 @@ Name Server: ns2.dnsimple-edge.net
 Name Server: ns3.dnsimple.com
 Name Server: ns4.dnsimple-edge.org
 ```
-## Have more questions? 
+## Have more questions?
 
 If you have questions or need any assistance with your secondary DNS configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
