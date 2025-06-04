@@ -27,7 +27,7 @@ If you have accounts with DNSimple and Weebly, and a website that's ready to pub
     ![Add one click service to domain](/files/add-one-click-service.png)
 
 1. Select the **Hosting** tab, and scroll down to the Weebly service. Click **Add**.
-    ![Add Service](/files/services-Weebly.png)
+    ![Add Weebly Service](/files/services-weebly.png)
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
