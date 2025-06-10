@@ -22,7 +22,8 @@ If you want to update both your account and user email to the same address, you'
 ## Changing the account email
 
 <div class="section-steps" markdown="1">
-1. Go to [your account page](https://dnsimple.com/account).
+1. Use the account switcher at the top right of the page to select the appropriate account. 
+1. Click on **Account Settings**
 1. On the **Account** card, click <label>Edit</label>:
 
     ![Settings menu](/files/account-menu.png)
