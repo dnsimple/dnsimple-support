@@ -54,7 +54,11 @@ In the **To** field, enter the full email address that you want to forward the e
   When adding an email forward from the dashboard, select the zone to apply it to in the **From** field. Note that only zones resolving through DNSimple will be included in the list.
 </info>
 
-### Catch-all emails
+### Catch-all emails {#catch-all-emails}
+
+<info>
+Currently, emails addressed to non-catch-all email forwards created for the domain are also forwarded to the catch-all destination. We are removing this behavior in the near future to align with industry-standard expectations for catch-all email forwarding.
+</info>
 
 To create a catch-all address, follow the instructions to create an email, and enter the following wildcard expression in the **From** field:
 
