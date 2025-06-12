@@ -16,11 +16,11 @@
   <%= render "/analytics.*" %>
 
   <link rel="canonical" href="<%= @config[:base_url] %><%= @item.path %>" />
+  <script src="https://dnsimple.com/components/marketing.js"></script>
 </head>
 
 <body>
-
-  <%= render "/banner.*" %>
+  <dnsimple-marketing-banner max-width="1008" padding-left-small="10" padding-left="0"></dnsimple-marketing-banner>
 
   <header class="global-header pv2">
     <div class="mw8 center ph2">
@@ -82,6 +82,7 @@
   <div class="mw8 center ph2">
     <div class="flex flex-wrap-reverse flex-wrap-ns">
       <aside id="sidebar" class="w-100 w-30-ns" role="sidebar">
+        <dnsimple-marketing-hiring></dnsimple-marketing-hiring>
         <%= render "/sidebar.*" %>
       </aside>
       <main id="main" class="w100 w-70-ns pt3">
