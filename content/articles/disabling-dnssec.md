@@ -18,4 +18,4 @@ categories:
 6.  When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
 
 Have more questions?
-If you have any questions or need assistance disabling your DNSSEC, [contact support](https://dnsimple.com/contact), and we’ll be happy to help.
+If you have any questions or need assistance disabling your DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
