@@ -25,7 +25,7 @@ If you want to use Cloudflare's DNSSEC with a domain registered through DNSimple
 
 ### Enable DNSSEC at Cloudflare
 
-To use Cloudflare's DNSSEC, you will need to [delegate your registered domain to Cloudflare’s name servers in DNSimple](https://support.dnsimple.com/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider). To prevent downtime, make sure to set up all of the appropriate DNS records at Cloudflare before delegating the domain to them.
+To use Cloudflare's DNSSEC, you will need to [delegate your registered domain to Cloudflare's name servers in DNSimple](https://support.dnsimple.com/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider). To prevent downtime, make sure to set up all of the appropriate DNS records at Cloudflare before delegating the domain to them.
 
 Once the delegation is changed, you can start the process of enabling DNSSEC at Cloudflare.
 
