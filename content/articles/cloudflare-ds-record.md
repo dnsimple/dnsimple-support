@@ -37,7 +37,7 @@ Once DNSSEC is enabled at Cloudflare, you will see information about the DS reco
 
 We have field-by-field entry, so you will need to copy/paste or select the information from the drop-down menu for each field in DNSimple. Cloudflare will provide you with all of the necessary information.
 
-You can find out more about configuring your DS record in [Adding a DS Record](link).
+You can find out more about configuring your DS record in [Adding a DS Record].
 
 ---
 
