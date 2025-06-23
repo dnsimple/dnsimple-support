@@ -42,4 +42,4 @@ The warning does not necessarily mean that any action is needed on your part. Th
 </info>
 
 ## Have more questions?
-If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
