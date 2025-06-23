@@ -25,7 +25,7 @@ You cannot enable DNSSEC if you have set up Secondary DNS. They will not work in
 
 **If the domain is registered elsewhere but using DNSimple for DNS hosting:**
 * Once the zone is signed, a DS record will be generated.
-* You’ll need to manually copy and add this DS record to your domain registrar to complete the setup.
+* You'll need to manually copy and add this DS record to your domain registrar to complete the setup.
 * DNSSEC key rotation occurs every 90 days. You must update the DS record at your registrar as we automatically rotate both zone signing keys and key signing keys.
 
 ## Common warnings
@@ -40,4 +40,4 @@ The warning does not necessarily mean that any action is needed on your part. Th
 </info>
 
 ## Have more questions?
-If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
