@@ -166,17 +166,17 @@ This section details the most frequent problems identified by the tools and prov
 
 ## Contact DNSimple support
 
-If you've followed all the steps above, and your DNSSEC configuration still isn't validating, it's time to reach out to our [expert support team](dnsimple.com/contact) at DNSimple.
+If you've followed all the steps above, and your DNSSEC configuration still isn't validating, it's time to reach out to our [expert support team](https://www.dnsimple.com/contact) at DNSimple.
 
 Before contacting support, please gather the following information:
 
 * **Your domain name**: (e.g., `yourwebsite.com`)
-* **Description of the problem**: What exactly is failing? (e.g., "DNSSEC Analyzer shows 'DS record mismatch',” "My site isn't loading for users in Europe when DNSSEC is enabled").
+* **Description of the problem**: What exactly is failing? (e.g., "DNSSEC Analyzer shows 'DS record mismatch'," "My site isn't loading for users in Europe when DNSSEC is enabled").
 * **Tools used and their output**:
     * Screenshots from DNSSEC Analyzer and DNSViz are incredibly helpful.
     * The exact `dig +dnssec` output.
     * Any specific error messages you've encountered.
-* **Steps you've already taken**: (e.g., "I've verified DS records at my registrar multiple times,” "I've tried toggling DNSSEC off and on in DNSimple").
+* **Steps you've already taken**: (e.g., "I've verified DS records at my registrar multiple times," "I've tried toggling DNSSEC off and on in DNSimple").
 * **Time of observation**: When did you first notice the issue?
 
 Providing this information allows our support team to diagnose and resolve your DNSSEC issue much more quickly, getting your secure DNS up and running again.
