@@ -48,15 +48,19 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 3. Click the **DNSSEC** tab on the left side.
    ![screenshot: edit dnssec link](/files/dnssec-tab-location.png)
 4. In the **DNSSEC Configuration** card, click **View Configuration** to see your current DNSSEC details.
+   ![screenshot: showing dnssec key set](/files/dnssec-key-set.png)
 
 
-Next steps:
-Copy the DNSSEC details provided.
-Log in to your domain registrar’s management portal.
-Locate the section for managing DNSSEC or DS records.
-Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
+### Next steps:
+
+- Copy the DNSSEC details provided.
+- Log in to your domain registrar’s management portal.
+- Locate the section for managing DNSSEC or DS records.
+- Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
 
 If you're rotating keys, remember to remove any old DS records, and replace them with the new one from your DNSimple configuration.
-Have more questions? 
-If you have any questions or need assistance rotating DNSSEC keys, contact support (LINK), and we’ll be happy to help.
+
+## Have more questions? 
+
+If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we’ll be happy to help.
 
