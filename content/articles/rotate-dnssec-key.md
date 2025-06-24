@@ -18,7 +18,7 @@ You will need to manually rotate your DS record at your domain registrar.
 
 How it works:
 
-1. When key rotation starts, we’ll send you an email notification with the new DS record details.
+1. When key rotation starts, we'll send you an email notification with the new DS record details.
 2. You have 7 days to update the DS records at your registrar and from there you will need to:
     - Remove the old DS record.
     - Add the new DS record provided in the email.
@@ -28,7 +28,7 @@ How it works:
 <warning>
 #### Failure to update the DS record at your registrar will result in downtime
   
-If your domain isn’t registered with DNSimple, carefully consider whether you’re willing and able to rotate DS records at your registrar. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don’t update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google’s Public DNS. **This will result in failed DNS resolution for your domains.**
+If your domain isn't registered with DNSimple, carefully consider whether you're willing and able to rotate DS records at your registrar. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don't update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. **This will result in failed DNS resolution for your domains.**
 </warning>
 
 ## Automating key rotation
@@ -54,7 +54,7 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 ### Next steps:
 
 - Copy the DNSSEC details provided.
-- Log in to your domain registrar’s management portal.
+- Log in to your domain registrar's management portal.
 - Locate the section for managing DNSSEC or DS records.
 - Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
 
