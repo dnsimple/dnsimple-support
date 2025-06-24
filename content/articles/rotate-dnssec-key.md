@@ -46,9 +46,8 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 1. Use the **account switcher** at the top of the page to select the correct account.
 2. In the **Domain Names list**, click the name of the domain you want to check.
 3. Click the **DNSSEC** tab on the left side.
-   
-5. In the **DNSSEC Configuration** card, click **View Configuration** to see your current DNSSEC details.
-
+   ![screenshot: edit dnssec link](/files/dnssec-tab-location.png)
+4. In the **DNSSEC Configuration** card, click **View Configuration** to see your current DNSSEC details.
 
 
 Next steps:
