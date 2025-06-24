@@ -31,7 +31,7 @@ Once the delegation is changed, you can start the process of enabling DNSSEC at 
 
 You can learn how to enable DNSSEC in Cloudflare in their [documentation](https://developers.cloudflare.com/dns/dnssec/#enable-dnssec).
 
-## Configure Your DS Record
+## Configure your DS record
 
 Once DNSSEC is enabled at Cloudflare, you will see information about the DS record.
 
@@ -41,6 +41,6 @@ You can find out more about configuring your DS record in [Adding a DS Record].
 
 ---
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions or need assistance enabling DNSSEC at Cloudflare, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
