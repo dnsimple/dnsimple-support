@@ -62,5 +62,5 @@ If you're rotating keys, remember to remove any old DS records, and replace them
 
 ## Have more questions? 
 
-If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we’ll be happy to help.
+If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
 
