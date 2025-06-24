@@ -48,7 +48,7 @@ Several online tools can help you assess the health of your DNSSEC configuration
 
 ### DNSSEC Analyzer (by Verisign/ICANN):
 
-1.  Go to: `https://dnssec-analyzer.verisignlabs.com/`
+1.  Go to: https://dnssec-analyzer.verisignlabs.com/
 2.  Enter your domain name and press Enter.
 
 What to look for:
@@ -66,8 +66,8 @@ Common issues highlighted include:
 
 ### DNSViz:
 
-1.  Go to: `https://dnsviz.net/`
-2.  Enter your domain name, click "Analyze", then “Continue” if you have not analyzed your domain name before. Otherwise, click “Go.”
+1.  Go to: https://dnsviz.net/
+2.  Enter your domain name, click "Analyze", then "Continue" if you have not analyzed your domain name before. Otherwise, click "Go."
 
 What to look for: DNSViz provides a highly detailed visual representation of your DNSSEC chain of trust.
 
