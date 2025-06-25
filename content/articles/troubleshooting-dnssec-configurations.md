@@ -34,6 +34,7 @@ If DNSSEC is configured, you may still need to allow some time for the full sign
 
 <warning>
 **Warning**
+  
 A single character mismatch will break the chain of trust and prevent DNSSEC validation for your domain. This is a common point of failure, especially when setting up DNSSEC manually.
 </warning>
 
