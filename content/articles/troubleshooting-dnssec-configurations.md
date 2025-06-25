@@ -1,7 +1,8 @@
 ---
 title: Troubleshooting DNSSEC Configurations
 excerpt: A comprehensive guide to diagnosing and resolving common DNSSEC issues for your domain, including checks for DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 records. Learn how to use essential tools like DNSSEC Analyzer, DNSViz, and dig.
-categories: DNSSEC
+categories:
+  - DNSSEC
 ---
 
 # Troubleshooting DNSSEC Configurations
