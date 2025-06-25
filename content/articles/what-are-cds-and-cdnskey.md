@@ -39,17 +39,25 @@ This ensures your domain stays secure and resolvable during events like:
 ## How DNSimple uses CDS and CDNSKEY
 
 At DNSimple:
-CDS and CDNSKEY records are automatically generated for all DNSSEC-signed zones created or updated after January 1st, 2019.
 
+- CDS and CDNSKEY records are automatically generated for all DNSSEC-signed zones created or updated after January 1st, 2019.
 
-These records are managed by DNSimple. Users do not need to (and should not) manually add or remove them.
+- These records are managed by DNSimple. Users do not need to (and should not) manually add or remove them.
+  
+- If your domain registrar supports CDS/CDNSKEY automation, DS records at the parent will update automatically to reflect any DNSSEC changes made in DNSimple.
 
-
-If your domain registrar supports CDS/CDNSKEY automation, DS records at the parent will update automatically to reflect any DNSSEC changes made in DNSimple.
 However, not all registrars support this automation. In those cases, changes to your DNSSEC configuration may still require manual DS record updates at the registrar level.
-The role of DS records in DNSSEC validation
-The DS record links the parent and child zones in DNSSEC. If a DS record exists in the parent zone but the corresponding DNSKEY is missing in the child zone, DNS resolvers will not be able to verify your domain. This often results in errors like SERVFAIL.
+
+
+## The role of DS records in DNSSEC validation
+
+The **DS record** links the parent and child zones in DNSSEC. If a DS record exists in the parent zone but the corresponding DNSKEY is missing in the child zone, DNS resolvers will not be able to verify your domain. This often results in errors like `SERVFAIL`.
+
 This mismatch can happen, for example, if DNSSEC is disabled in the child zone, but the DS record remains in the parent.
+
 CDS and CDNSKEY help prevent this by ensuring that DS records are automatically removed when no longer needed, maintaining the integrity of the DNSSEC chain of trust.
-Have more questions? 
+
+
+Have more questions?
+
 If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
