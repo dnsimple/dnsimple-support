@@ -1,6 +1,6 @@
---
+---
 title: Rotate DNSSEC Keys
-excerpt:TBD
+excerpt:Guides DNSSEC key rotation for DNSimple users, detailing auto-rotation and essential manual steps to maintain domain security
 categories:
 - DNS
 - DNSSEC
