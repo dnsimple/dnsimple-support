@@ -12,7 +12,7 @@ You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-
 
 ## Enable DNSSEC
 1. Use the **account switcher** at the top of the page to select the appropriate account.
-1. From your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
+1. In your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
 1. Click the **DNSSEC** tab on the left side.
 1. On the **Configure DNSSEC** card, click **Configure**.
 1. Click **Enable DNSSEC** to start the configuration.
@@ -29,6 +29,7 @@ You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-
 
 ## Common warnings
 A warning may be shown to highlight potential issues with enabling DNSSEC.
+
 For example:
 - The authoritative name servers for the zone are not all returning the same DNSKEY records.
 - The authoritative name servers for the zone are not returning DNSKEY records that match up with the DS record or zone signing data.
