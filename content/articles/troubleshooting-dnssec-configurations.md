@@ -10,6 +10,7 @@ categories:
 ## Is DNSSEC active for your DNSimple domain?
 
 To check DNSimple's DNSSEC status:
+
 Select the correct account from the account switcher menu.
 
 There are two ways to check:
@@ -21,7 +22,7 @@ There are two ways to check:
 
 If DNSSEC is configured, you may still need to allow some time for the full signing process to complete (it may briefly show as "pending" before full activation).
 
-## Verify DS record at your registrar (if the domain is not registered with DNSimple):
+## Verify DS record at your registrar (if the domain is not registered with DNSimple)
 1. Log in to your domain registrar (where you registered your domain, e.g., GoDaddy, Namecheap, Google Domains, etc.).
 1. Navigate to the DNSSEC or Nameserver management section for your domain.
 1. Confirm that the `DS record(s) provided by DNSimple` have been correctly entered.
@@ -32,13 +33,14 @@ If DNSSEC is configured, you may still need to allow some time for the full sign
   - Digest
 
 <warning>
-  **Warning**: A single character mismatch will break the chain of trust and prevent DNSSEC validation for your domain. This is a common point of failure, especially when setting up DNSSEC manually.
+**Warning**
+A single character mismatch will break the chain of trust and prevent DNSSEC validation for your domain. This is a common point of failure, especially when setting up DNSSEC manually.
 </warning>
 
 ## Essential tools for diagnosing DNSSEC issues
 Several online tools can help you assess the health of your DNSSEC configuration. These are your first line of defense for troubleshooting DNSSEC problems.
 
-### DNSSEC Analyzer (by Verisign/ICANN):
+### DNSSEC Analyzer (by Verisign/ICANN)
 1. Go to: [https://dnssec-analyzer.verisignlabs.com/](https://dnssec-analyzer.verisignlabs.com/)
 1. Enter your domain name and press Enter.
 
@@ -76,7 +78,7 @@ You can check DNSSEC validation from your own command line using the `dig` utili
 Troubleshooting `dig` output: If the `AD` flag is missing, it confirms a problem.
 
 <info>
-**Important Note**: The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
+The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
 </info>
 
 ## Common DNSSEC configuration issues and their resolutions
