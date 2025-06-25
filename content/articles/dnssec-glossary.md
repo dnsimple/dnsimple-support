@@ -39,7 +39,7 @@ A DNSSEC Trust Anchor is a known, securely distributed public key that resolvers
 ## Record Types & Signing
 
 ### RRSet
-An RRSet (Resource Record Set) is a collection of DNS records in a zone that share the same name, type, and class. For example, the A records for “www.dnsimple.com” form an RRSet. DNSSEC treats each RRSet as a single cryptographic unit: the zone's private key signs the entire set, producing an RRSIG record. When resolvers query a signed zone, they fetch both the RRSet and its corresponding RRSIG to verify authenticity and integrity.
+An RRSet (Resource Record Set) is a collection of DNS records in a zone that share the same name, type, and class. For example, the A records for `www.dnsimple.com` form an RRSet. DNSSEC treats each RRSet as a single cryptographic unit: the zone's private key signs the entire set, producing an RRSIG record. When resolvers query a signed zone, they fetch both the RRSet and its corresponding RRSIG to verify authenticity and integrity.
 
 **Learn more:** 
 [RFC 4034 §2.1](https://datatracker.ietf.org/doc/html/rfc4034#page-4)
