@@ -20,12 +20,13 @@ categories:
 
 If you want to use Cloudflare's DNSSEC with a domain registered through DNSimple, follow these instructions to set your **DS record** at the domain registry.
 
-> [!INFO]
-> Not all TLDs support DNSSEC. If you receive an error while adding your DS record at DNSimple, please [contact our support team](https://dnsimple.com/contact).
+<info>
+Not all TLDs support DNSSEC. If you receive an error while adding your DS record at DNSimple, please [contact our support team](https://dnsimple.com/contact).
+</info>
 
 ## Enable DNSSEC at Cloudflare
 
-To use Cloudflare's DNSSEC, you will need to [delegate your registered domain to Cloudflare's name servers in DNSimple](https://support.dnsimple.com/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider). To prevent downtime, make sure to set up all of the appropriate DNS records at Cloudflare before delegating the domain to them.
+To use Cloudflare's DNSSEC, you will need to [delegate your registered domain to Cloudflare's name servers in DNSimple](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider). To prevent downtime, make sure to set up all of the appropriate DNS records at Cloudflare before delegating the domain to them.
 
 Once the delegation is changed, you can start the process of enabling DNSSEC at Cloudflare.
 
@@ -38,8 +39,6 @@ Once DNSSEC is enabled at Cloudflare, you will see information about the DS reco
 We have field-by-field entry, so you will need to copy/paste or select the information from the drop-down menu for each field in DNSimple. Cloudflare will provide you with all of the necessary information.
 
 You can find out more about configuring your DS record in [Adding a DS Record].
-
----
 
 ## Have more questions?
 
