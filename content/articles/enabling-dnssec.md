@@ -9,7 +9,7 @@ categories:
 
 ## Prerequisites
 
-You cannot enable DNSSEC if you have set up [Secondary DNS](https://support.dnsimple.com/articles/secondary-dns/). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](https://support.dnsimple.com/articles/dnssec-and-secondary-dns/).
+You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-dns/). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [here](/articles/dnssec-and-secondary-dns/).
 
 ## Enable DNSSEC
 
