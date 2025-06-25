@@ -2,25 +2,22 @@
 title: Enabling DNSSEC
 excerpt: Enable DNSSEC for your domain. Understand the prerequisites, follow the configuration steps, and know what to expect after activation.
 categories:
-- DNSSEC
+  - DNSSEC
 ---
 
 # Enabling DNSSEC
 
 ## Prerequisites
-
 You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-dns/). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [in this article](/articles/dnssec-and-secondary-dns/).
 
 ## Enable DNSSEC
-
-1.  Use the **account switcher** at the top of the page to select the appropriate account.
-1.  From your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
-1.  Click the **DNSSEC** tab on the left side.
-1.  On the **Configure DNSSEC** card, click **Configure**.
-1.  Click **Enable DNSSEC** to start the configuration.
+1. Use the **account switcher** at the top of the page to select the appropriate account.
+1. From your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
+1. Click the **DNSSEC** tab on the left side.
+1. On the **Configure DNSSEC** card, click **Configure**.
+1. Click **Enable DNSSEC** to start the configuration.
 
 ## What Happens Next?
-
 **If the domain is registered with DNSimple and using DNSimple name servers:**
 - The zone will be signed automatically.
 - The DS record will be provisioned directly at the registry. No additional action is needed.
