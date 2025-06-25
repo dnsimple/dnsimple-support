@@ -61,7 +61,7 @@ A DS (Delegation Signer) record is a DNSSEC resource record stored in a parent z
 
 **Learn more:** 
 [RFC 4034 §5](https://datatracker.ietf.org/doc/html/rfc4034#section-5)
-[Managing DS records at dnsimple.com](https://support.dnsimple.com/articles/manage-ds-record/)
+[Managing DS records at dnsimple.com](/articles/manage-ds-record/)
 
 ## Key Management
 
