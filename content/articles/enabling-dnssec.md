@@ -45,7 +45,7 @@ For example:
 The warning does not necessarily mean that any action is needed on your part. The issues may resolve on their own after changes from enabling DNSSEC have been propagated.
 </info>
 
-![screenshot of dnssec configured](/files/dnssec-configured.png)
+![screenshot of dnssec configured](/files/dnssec-configured-warning.png)
 
 ## Have more questions?
 If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
