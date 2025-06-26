@@ -1,9 +1,10 @@
 ---
- title: What is DNSSEC
+ title: What is DNSSEC?
  excerpt: Explains what DNSSEC is and why it matters.
+ meta: Learn how DNSSEC works and what happens when you enable DNSSEC on your domains.
  categories:
  - DNSSEC
- ---
+---
 
 # What is DNSSEC?
 
