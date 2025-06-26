@@ -88,7 +88,9 @@ describe('Search', () => {
       },
       'enable dnssec': {
         'DNSSEC': 2,
-        'Why DNSSEC and Secondary DNS may not work together': 4
+        'DNSSEC Glossary': 3,
+        'Using Cloudflare DNSSEC with DNSimple': 4,
+        'Why DNSSEC and Secondary DNS may not work together': 5,
       },
       'creating alias record': {
         'What\'s an ALIAS record?': 1,
