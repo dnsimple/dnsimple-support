@@ -12,10 +12,15 @@ You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-
 
 ## Enable DNSSEC
 1. Use the **account switcher** at the top of the page to select the appropriate account.
+  ![screenshot of switching accounts](/files/switch-account.png)
 1. In your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
+  ![screenshot of list of domain names](/files/dnssec-domain-names.png)
 1. Click the **DNSSEC** tab on the left side.
+  ![screenshot of dnssec in the navigation](/files/dnssec-menu.png)
 1. On the **Configure DNSSEC** card, click **Configure**.
+  ![screenshot of disabled dnssec for a domain](/files/dnssec-disabled.png)
 1. Click **Enable DNSSEC** to start the configuration.
+  ![screenshot of enabling dnssec for a domain](/files/dnssec-enable.png)
 
 ## What Happens Next?
 **If the domain is registered with DNSimple and using DNSimple name servers:**
@@ -26,6 +31,7 @@ You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-
 - Once the zone is signed, a DS record will be generated.
 - You'll need to manually copy and add this DS record to your domain registrar to complete the setup.
 - DNSSEC key rotation occurs every 90 days. You must update the DS record at your registrar as we automatically rotate both zone signing keys and key signing keys.
+![screenshot of dnssec keys](/files/dnssec-keys.png)
 
 ## Common warnings
 A warning may be shown to highlight potential issues with enabling DNSSEC.
@@ -38,6 +44,8 @@ For example:
 <info>
 The warning does not necessarily mean that any action is needed on your part. The issues may resolve on their own after changes from enabling DNSSEC have been propagated.
 </info>
+
+![screenshot of dnssec configured](/files/dnssec-configured-warning.png)
 
 ## Have more questions?
 If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
