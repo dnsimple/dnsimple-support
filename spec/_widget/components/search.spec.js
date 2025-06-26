@@ -87,10 +87,10 @@ describe('Search', () => {
         'Account Activation': 5
       },
       'enable dnssec': {
-        'DNSSEC': 1,
-        'DNSSEC Glossary': 2,
-        'Using Cloudflare DNSSEC with DNSimple': 3,
-        'Why DNSSEC and Secondary DNS may not work together': 4,
+        'DNSSEC': 2,
+        'DNSSEC Glossary': 3,
+        'Using Cloudflare DNSSEC with DNSimple': 4,
+        'Why DNSSEC and Secondary DNS may not work together': 5,
       },
       'creating alias record': {
         'What\'s an ALIAS record?': 1,
