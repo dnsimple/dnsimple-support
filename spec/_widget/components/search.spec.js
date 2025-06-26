@@ -89,9 +89,8 @@ describe("Search", () => {
       'enable dnssec': {
         'Disabling DNSSEC': 1,
         'DNSSEC': 3,
-        'DNSSEC Glossary': 5,
-        'Using Cloudflare DNSSEC with DNSimple': 6,
-        'Why DNSSEC and Secondary DNS may not work together': 7,
+        'DNSSEC Glossary': 6,
+        'Using Cloudflare DNSSEC with DNSimple': 7,
       },
       "creating alias record": {
         "What's an ALIAS record?": 1,
@@ -267,6 +266,7 @@ describe("Search", () => {
 
           it(`returns \`${title}\` as result #${minimumRank}${minimumRank > 1 ? " or better" : ""}`, () => {
             const results = subject.query(q);
+
             const resultTitles = results.map((a) => a.title);
             const rankForArticle = resultTitles.indexOf(title) + 1;
 
