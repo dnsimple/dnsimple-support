@@ -16,7 +16,7 @@ If your domain is registered with another registrar, you must remove the DS reco
 1.  From your **Domain Names** list, click the name of the domain you want to disable DNSSEC on.
 1.  Click the **DNSSEC** tab on the left side.
 1.  On the **Disable DNSSEC** card, click **Disable DNSSEC**.
-1   Enter the domain to verify, and click **Disable DNSSEC** again to remove the zone signing (and the DS record if it is present in DNSimple).
+1.  Enter the domain to verify, and click **Disable DNSSEC** again to remove the zone signing (and the DS record if it is present in DNSimple).
 1.  When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
 
 ## Have more questions?
