@@ -1,6 +1,6 @@
 ---
 title: Rotate DNSSEC Keys
-excerpt: Guides DNSSEC key rotation for DNSimple users, detailing auto-rotation and essential manual steps to maintain domain security
+excerpt: Guides DNSSEC key rotation for DNSimple users, detailing auto-rotation and essential manual steps to maintain domain security.
 categories:
 - DNS
 - DNSSEC
@@ -13,20 +13,21 @@ Here is what you need to do, depending on how your domain is set up.
 
 ## If your domain is registered with us and uses our authoritative name servers
 There is nothing you need to do. We handle the key rotation automatically for you.
-If your domain is not registered with us or does not use our authoritative name servers
+
+## If your domain is not registered with us or does not use our authoritative name servers
 You will need to manually rotate your DS record at your domain registrar.
 
-How it works:
+**How it works:**
 
 1. When key rotation starts, we'll send you an email notification with the new DS record details.
-1. You have 7 days to update the DS records at your registrar and from there you will need to:
+1. You have 7 days to update the DS records at your registrar. From there you will need to:
   - Remove the old DS record.
   - Add the new DS record provided in the email.
-1. During the key rotation,  both old and new keys are attached to your zone for 7 days (the duration of the key rotation period).
+1. During the key rotation, both old and new keys are attached to your zone for 7 days (the duration of the key rotation period).
 1. At the end of the rotation period, our system removes the old key, leaving only the new key in place.
 
 <warning>
-#### Failure to update the DS record at your registrar will result in downtime
+#### Failure to update the DS record at your registrar will result in downtime.
 If your domain isn't registered with DNSimple, carefully consider whether you're willing and able to rotate DS records at your registrar. DS records MUST be updated whenever DNSSEC keys are rotated in your DNSimple zone. If you don't update your DS record when your keys change, your domain will fail to resolve through resolvers that verify DNSSEC keys, including Google's Public DNS. **This will result in failed DNS resolution for your domains.**
 </warning>
 
