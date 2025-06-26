@@ -1,9 +1,9 @@
 ---
- title: What is DNSSEC
- excerpt: Explains what DNSSEC is and why it matters.
- categories:
- - DNSSEC
- ---
+title: What is DNSSEC
+excerpt: Explains what DNSSEC is and why it matters.
+categories:
+  - DNSSEC
+---
 
 # What is DNSSEC?
 
@@ -30,6 +30,6 @@ When DNSSEC is enabled for a domain, it adds an extra layer of information to DN
 1. When a resolver queries the domain, it checks the DNSKEY and DS records to verify that the signature is valid and trusted.
 1. If everything checks out, the resolver returns the DNS result to the user. If not, the result is rejected.
 
-## Have more questions? 
+## Have more questions?
 If you have any questions about DNSSEC
 
