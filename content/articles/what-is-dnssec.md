@@ -24,7 +24,7 @@ DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. 
 
 When DNSSEC is enabled for a domain, it adds an extra layer of information to DNS responses, allowing resolvers to verify that each answer is authentic.
 
-### Here's what happens behind the scenes:
+### What happens behind the scenes:
 1. The domain's DNS records are digitally signed. The signature is stored in an RRSIG record — this is like a private key that lets resolvers check the record's authenticity.
 1. The domain also publishes a DNSKEY record — this contains the public key that resolvers use to verify signatures (like a public lock that matches the private key used to sign the record).
 1. The parent zone (e.g., .com) publishes a DS record — this is a fingerprint of the DNSKEY, which connects the domain's key to the parent zone and helps build a chain of trust.
