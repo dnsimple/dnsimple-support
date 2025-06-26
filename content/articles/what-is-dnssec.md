@@ -32,5 +32,5 @@ When DNSSEC is enabled for a domain, it adds an extra layer of information to DN
 1. If everything checks out, the resolver returns the DNS result to the user. If not, the result is rejected.
 
 ## Have more questions? 
-If you have any questions about DNSSEC
+If you have any questions about DNSSEC and how it works to keep your DNS secure, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
