@@ -16,9 +16,12 @@ Select the correct account from the account switcher menu.
 There are two ways to check:
 
 1. **Domain Names List**: In your list of domains, look for a `DNSSEC` label on the domain. If present, it indicates DNSSEC is enabled.
+    ![dnssec enabled screenshot](/files/dnssec-renew.png)
 1. **DNSSEC card**: When you are on the domain page, click the `DNSSEC` tab on the left side. On this page, you can see if DNSSEC is configured.
-  > **Configured**:
-    **Disabled**:
+  - **Configured**:
+    ![dnssec configured screenshot](/files/dnssec-configured.png)
+  - **Disabled**:
+    ![dnssec disabled screenshot](/files/dnssec-disabled.png)
 
 If DNSSEC is configured, you may still need to allow some time for the full signing process to complete (it may briefly show as "pending" before full activation).
 
@@ -34,7 +37,7 @@ If DNSSEC is configured, you may still need to allow some time for the full sign
 
 <warning>
 **Warning**
-  
+
 A single character mismatch will break the chain of trust and prevent DNSSEC validation for your domain. This is a common point of failure, especially when setting up DNSSEC manually.
 </warning>
 
