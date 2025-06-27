@@ -175,7 +175,7 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
     ![Add Menu](/files/getting-started-dns-external-add-menu.png)
 
-2. Enter the domain name that you want to set up a DNS zone for. If your domain is under a different registrar, you will need to [add DNSimple name servers at your registrar](https://support.dnsimple.com/articles/delegating-dnsimple-hosted).
+2. Enter the domain name that you want to set up a DNS zone for. If your domain is under a different registrar, you will need to [add DNSimple name servers at your registrar](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/).
 
     ![Domain Name for Zone](/files/getting-started-dns-external-domain-form.png)
 
@@ -205,4 +205,4 @@ Now that you have successfully done some tasks in DNSimple, what's next? You can
 
 ### Have more questions? 
 
-If you have any questions or need assistance getting started with your DNSimple account, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
+If you have any questions or need assistance getting started with your DNSimple account, [contact support](https://dnsimple.com/contact/), and we'll be happy to help.
