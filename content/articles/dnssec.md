@@ -36,7 +36,7 @@ There are a variety of scenarios that DNSimple facilitates to ensure that your z
 
 ### Scenario 3: Registered elsewhere, but DNS-hosted at DNSimple
 
-1. [Enable DNSSEC](articles/enabling-dnssec/) to sign your zone. This initiates automatic [key rotation](/articles/rotate-dnssec-key/).
+1. [Enable DNSSEC](/articles/enabling-dnssec/) to sign your zone. This initiates automatic [key rotation](/articles/rotate-dnssec-key/).
 1. After enabling, copy the DS record details over to your domain's registrar.
 1. When the [key rotates](/articles/rotate-dnssec-key/) every three months, we'll send you an email with the details, which you'll need to supply to your domain's registrar.
 
