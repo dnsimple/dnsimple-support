@@ -1,12 +1,11 @@
 Getting started:
 - "DNSSEC"
 
-Explanation: 
+Explanation:
 - "What Is DNSSEC?"
 - "What Are CDS and CDNSKEY?"
-- "What Is DNSSEC?"
 
-How to: 
+How to:
 - "Enabling DNSSEC"
 - "Disabling DNSSEC"
 - "Rotate DNSSEC Keys"
@@ -14,6 +13,6 @@ How to:
 - "Managing DS Records"
 - "Managing DS Records When Changing DNS"
 - "Using Cloudflare DNSSEC with DNSimple"
-    
+
 Reference:
 - "DNSSEC Glossary"
