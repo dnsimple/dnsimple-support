@@ -13,6 +13,17 @@ categories:
 * TOC
 {:toc}
 
+Would you rather Watch? Try our videos:
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/ddvFzwebkhE?si=L1qvfgJXxVFg_9AU" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/73seK9zdrE4?si=ZLceNwaAwGMaGjDe" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/r1Nbh-D_8cg?si=fCV66iZFKe5IAGFq" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Introduction
 This how-to guide shows you how to accomplish basic tasks with DNSimple. Our services are streamlined and make managing your DNS, domains, and certificates straightforward with our simple interface and powerful tools. 
 
