@@ -27,7 +27,7 @@ Would you rather Watch? Try our videos:
 ## Introduction
 This how-to guide shows you how to accomplish basic tasks with DNSimple. Our services are streamlined and make managing your DNS, domains, and certificates straightforward with our simple interface and powerful tools. 
 
-We recommend having this guide open alongside your DNSimple account so you can follow along. When you've completed this, you will be able to register, transfer, and set up DNS for your domain. 
+We recommend having this guide open alongside your DNSimple account so you can follow along. When you've completed this, you will be able to register, transfer, and set up DNS for your domain. If you don't have an account, check out [our plans](https://support.dnsimple.com/articles/dnsimple-plans/) to register and follow along.
 
 Before you skip to a section, let's go over how to navigate the main interface of the dashboard. 
 
