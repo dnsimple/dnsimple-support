@@ -201,7 +201,7 @@ If you want to change or edit your DNS, navigate to the DNS tab under your domai
 
 ## What's next?
 
-Now that you have successfully done some tasks in DNSimple, what's next? You can [automate domain management or get analytics with our API](https://dnsimple.com/api). If you want to protect your site in the case of DNS servers going offline, [try setting up Secondary DNS](https://support.dnsimple.com/articles/secondary-dns/). To add secure connections between your domain and a client, [learn how an SSL Certificate makes that happen](https://support.dnsimple.com/articles/ssl-certificates/). Check out our [DNSimple Services](https://support.dnsimple.com/articles/dnsimple-services/) page for a full overview of everything we offer.
+Now that you have successfully done some tasks in DNSimple, what's next? You can [automate domain management or get analytics with our API](https://dnsimple.com/api). If you want to protect your site in the case of DNS servers going offline, [try setting up Secondary DNS](https://support.dnsimple.com/articles/secondary-dns/). To add secure connections between your domain and a client, [learn how an SSL Certificate makes that happen](https://support.dnsimple.com/articles/ssl-certificates/). Check out our [DNSimple Services](https://support.dnsimple.com/articles/dnsimple-services/) page for a full overview of everything we offer. Check out [Our Comics](https://dnsimple.com/comics/) to see how DNS and the surrounding technologies work.
 
 
 
