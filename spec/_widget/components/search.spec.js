@@ -87,8 +87,8 @@ describe("Search", () => {
         "Account Activation": 5,
       },
       'enable dnssec': {
-        'Disabling DNSSEC': 1,
-        'DNSSEC': 3,
+        'DNSSEC': 1,
+        'Disabling DNSSEC': 2,
         'DNSSEC Glossary': 6,
         'Using Cloudflare DNSSEC with DNSimple': 7,
       },
@@ -226,7 +226,7 @@ describe("Search", () => {
       },
       "dns propagation": {
         "Troubleshooting Domain Resolution Issues": 2,
-        "Using DNSimple alongside other DNS providers": 5,
+        "Using DNSimple alongside other DNS providers": 6,
       },
       "dnsimple pricing": {
         "DNSimple Plans": 2,
