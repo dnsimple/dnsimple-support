@@ -56,7 +56,7 @@ The most crucial Trust Anchor is the public Key Signing Key (KSK) for the DNS ro
     - **Verifying data**: Finally, your `example.com` zone uses its DNSKEY records to sign its regular DNS data (like A, MX, CNAME records) with RRSIG records. The resolver can now use your domain's validated DNSKEY to verify the RRSIGs on your data, ensuring its authenticity and integrity.
 
 ## Why the chain must remain unbroken
-If any link in this chain breaks — for example, if a DS record points to an incorrect DNSKEY, or if a signature is missing or invalid — DNSSEC-aware resolvers won’t be able to verify the data. They will consider it untrustworthy and won't provide it to the end-user. This can prevent them from reaching your website or service.
+If any link in this chain breaks — for example, if a DS record points to an incorrect DNSKEY, or if a signature is missing or invalid — DNSSEC-aware resolvers won't be able to verify the data. They will consider it untrustworthy and won't provide it to the end-user. This can prevent them from reaching your website or service.
 
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
