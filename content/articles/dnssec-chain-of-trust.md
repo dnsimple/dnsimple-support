@@ -3,8 +3,9 @@ title: The DNSSEC Chain of Trust
 excerpt: Explains the DNSSEC Chain of Trust.
 meta: Learn what the DNSSEC Chain of Trust is and why it's critical to DNSSEC.
 categories:
-  - DNSSEC
+- DNSSEC
 ---
+
 # The DNSSEC Chain of Trust
 The Chain of Trust is the fundamental mechanism that lets DNSSEC-aware resolvers verify the authenticity and integrity of DNS data cryptographically. It ensures the information they receive hasn't been tampered with and comes from a trusted, authoritative source.
 
