@@ -1,10 +1,10 @@
 ---
  title: What Are the Types of DNSSEC Keys?
  excerpt: Explains the types of DNSSEC keys and how they work.
- meta: Learn what zone signing keys and key signing keys are and why they are important to DNSSEC.
+ meta: Learn what zone signing keys and key signing keys are and why they are important to DNSSEC
  categories:
  - DNSSEC
- ---
+---
  
 # What Are the Types of DNSSEC Keys?
 When you enable DNSSEC, your domain is protected using two types of keys that work together to keep your DNS information trusted and secure.
