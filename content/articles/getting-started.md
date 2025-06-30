@@ -13,7 +13,7 @@ categories:
 * TOC
 {:toc}
 
-Would you rather Watch? Try our videos:
+Prefer to watch? Try our video tutorials:
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/ddvFzwebkhE?si=L1qvfgJXxVFg_9AU" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -183,9 +183,9 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
     ![Adding A Record](/files/getting-started-dns-external-add-record.png)
 
-    <info>
+    <tip>
     If you need more examples of records to add, try looking at [Common DNS Records](https://support.dnsimple.com/articles/common-dns-records/).
-    </info>
+    </tip>
 
 4. Once you are ready, click **Activate DNS zone**, then confirm the activation of your DNS zone on the next page.
 
@@ -193,9 +193,9 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
 You just added a DNS zone for your domain.
 
-<info>
+<tip>
 If you want to change or edit your DNS, navigate to the DNS tab under your domain's management page.
-</info>
+</tip>
 
 ![DNS Zone Management](/files/getting-started-dns-external-manage.png)
 
