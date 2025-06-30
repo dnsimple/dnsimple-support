@@ -75,7 +75,7 @@ You do not have to register your domain through DNSimple to use our services. [T
 
     ![Registration Form](/files/getting-started-register-form.png)
 
-You just registered your domain successfully! Congratulations!
+You just registered your domain successfully.
 
 ![Registration Confirmation](/files/getting-started-register-confirmation.png)
 
@@ -117,7 +117,7 @@ A domain transfer requires access to the registrar the domain is registered to i
 
     ![Transfer Confirmation](/files/getting-started-transfer-submitted.png)
 
-That's it —  you just transferred your domain to DNSimple. Congratulations!
+That's it —  you just transferred your domain to DNSimple.
 
 The transfer process will take anywhere from 5 to 7 days. During this time, you can check the status of it on your domain's management page. If your domain's name servers are pointed to ours or another DNS provider with records, your domain will continue to operate during this time.
 
@@ -163,7 +163,7 @@ If you have a domain registered through DNSimple, follow these steps to add DNS 
 
     ![Add A Record](/files/getting-started-dns-internal-a-record.png)
 
-You have successfully added DNS to your domain through DNSimple!!!
+You have successfully added DNS to your domain through DNSimple.
 
 You can continue to add more records based on your needs. If you aren't sure what that looks like, try seeing what [common DNS records are on many domains](https://support.dnsimple.com/articles/common-dns-records/) for inspiration.
 
@@ -183,19 +183,19 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
     ![Adding A Record](/files/getting-started-dns-external-add-record.png)
 
-    <tip>
+    <info>
     If you need more examples of records to add, try looking at [Common DNS Records](https://support.dnsimple.com/articles/common-dns-records/).
-    </tip>
+    </info>
 
 4. Once you are ready, click **Activate DNS zone**, then confirm the activation of your DNS zone on the next page.
 
     ![Activate Zone](/files/getting-started-dns-external-activate-zone.png)
 
-You just added a DNS zone for your domain! Congratulations!!!
+You just added a DNS zone for your domain.
 
-<tip>
+<info>
 If you want to change or edit your DNS, navigate to the DNS tab under your domain's management page.
-</tip>
+</info>
 
 ![DNS Zone Management](/files/getting-started-dns-external-manage.png)
 
@@ -203,8 +203,6 @@ If you want to change or edit your DNS, navigate to the DNS tab under your domai
 
 Now that you have successfully done some tasks in DNSimple, what's next? You can [automate domain management or get analytics with our API](https://dnsimple.com/api). If you want to protect your site in the case of DNS servers going offline, [try setting up Secondary DNS](https://support.dnsimple.com/articles/secondary-dns/). To add secure connections between your domain and a client, [learn how an SSL Certificate makes that happen](https://support.dnsimple.com/articles/ssl-certificates/). Check out our [DNSimple Services](https://support.dnsimple.com/articles/dnsimple-services/) page for a full overview of everything we offer. Check out [Our Comics](https://dnsimple.com/comics/) to see how DNS and the surrounding technologies work.
 
-
-
-### Have more questions? 
+## Have more questions?
 
 If you have any questions or need assistance getting started with your DNSimple account, [contact support](https://dnsimple.com/contact/), and we'll be happy to help.
