@@ -356,7 +356,7 @@ describe('App', () => {
     it('opens hash links in the widget', async () => {
       await subject.find('[aria-label="Open widget"]').trigger('click');
       await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
-      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-plans/"]').trigger('click');
+      await subject.find('[href="https://dnsimple.com/pricing/"]').trigger('click');
       await subject.find('[href$="#have-more-questions"]').trigger('click');
 
       expect(externalLinkProbe).not.toHaveBeenCalled();
