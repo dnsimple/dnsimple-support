@@ -25,4 +25,4 @@ It also connects your domain to the global DNSSEC chain of trust:
 - Once the resolver trusts your KSK, it can then trust your ZSK and, in turn, trust your DNS records.
 
 ## Have more questions?
-If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, contact our support team (link), and we'll be happy to help.
+If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
