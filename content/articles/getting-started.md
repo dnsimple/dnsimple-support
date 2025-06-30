@@ -156,7 +156,7 @@ If you have a domain registered through DNSimple, follow these steps to add DNS 
     ![Record Editor](/files/getting-started-dns-internal-record-editor.png)
 
     <tip>
-    An A Record maps your domain to the IPv4 address of your endpoint. It is required to resolve your domain to your site. [Learn more about A Records.](https://support.dnsimple.com/articles/a-record/)
+    An A Record maps your domain to the IPv4 address of your endpoint. It is required to resolve your domain to your site. [Learn more about A Records.](/articles/a-record/)
     </tip>
 
 5. Fill out the fields for your record type. When you are finished, click **Add Record**.
@@ -184,7 +184,7 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
     ![Adding A Record](/files/getting-started-dns-external-add-record.png)
 
     <tip>
-    If you need more examples of records to add, try looking at [Common DNS Records](https://support.dnsimple.com/articles/common-dns-records/).
+    If you need more examples of records to add, try looking at [Common DNS Records](/articles/common-dns-records/).
     </tip>
 
 4. Once you are ready, click **Activate DNS zone**, then confirm the activation of your DNS zone on the next page.
