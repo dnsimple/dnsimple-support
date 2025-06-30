@@ -18,10 +18,9 @@ By meticulously linking each level of the domain name hierarchy with digital sig
 Without a chain of trust, a DNSSEC-validating resolver wouldn't know where to begin trusting DNS data.
 
 ### The chain ensures:
-
-**Authenticity:** Each zone in the delegation chain uses its private key to sign its DNS data to provide proof of origin.
-**Integrity**: Data hasn't been altered in transit.
-**Verifiability:** Resolvers can validate the data they receive by verifying it against its expected authoritative origin.
+- **Authenticity:** Each zone in the delegation chain uses its private key to sign its DNS data to provide proof of origin.
+- **Integrity**: Data hasn't been altered in transit.
+- **Verifiability:** Resolvers can validate the data they receive by verifying it against its expected authoritative origin.
 
 ## How the Chain of Trust works
 The Chain of Trust operates through the interplay of two key DNSSEC record types: DNSKEY records and DS records, established with a Trust Anchor.
@@ -49,7 +48,9 @@ The most crucial Trust Anchor is the public Key Signing Key (KSK) for the DNS ro
 
 1. **Processing a DNSSEC-aware request (how a resolver verifies trust)**
 
-    When a DNSSEC-validating resolver receives a request for a domain, it uses this established chain of trust to verify the authenticity of the DNS data. The verification process flows as follows:
+    When a DNSSEC-validating resolver receives a request for a domain, it uses this established chain of trust to verify the authenticity of the DNS data.
+
+    The verification process flows as follows:
 
     - **Trusting the root:** A DNSSEC-validating resolver starts by implicitly trusting the root zone's Trust Anchor (a pre-configured cryptographic key).
     - **Verifying the TLD:** The resolver queries for the `.com` TLD's DNSKEY. Simultaneously, it fetches the DS record for .com from the root zone. The resolver uses the root's Trust Anchor to verify the root's signature on the `.com` DS record. This verified DS record then cryptographically points the resolver to the correct DNSKEY record for the `.com` zone.
