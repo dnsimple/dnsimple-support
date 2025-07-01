@@ -57,7 +57,7 @@ RRSIGs are fundamental to DNSSEC. They are essential for:
 **DNSSEC validation:** Enabling DNS resolvers to cryptographically verify the authenticity and integrity of DNS data.
 **Preventing attacks:** Helping to prevent malicious activities like DNS spoofing and cache poisoning.
 **DNS spoofing:** An attacker sends fake DNS responses to redirect users to malicious websites.
-**Cache poisoning:** A more specific form of spoofing where an attacker injects fraudulent data into a DNS resolver's cache. If a resolver's cache is "poisoned," it will provide the incorrect (malicious) IP address for a domain to all subsequent users who query that resolver, until the poisoned entry expires. RRSIGs ensure that resolvers only accept and cache genuinely signed data, making these types of attacks significantly harder to execute successfully.
+**Cache poisoning:** An attacker injects fraudulent data, "poison," into a DNS resolver's cache. A poisoned cache will provide the malicious IP address for a domain to all subsequent users who query that resolver, until the poisoned entry expires. RRSIGs ensure resolvers only accept and cache genuinely signed data, making these types of attacks significantly harder to execute.
 **Building trust:** Adding a critical layer of trust to the entire DNS lookup process.
 
 ## The relationship between RRSETs and RRSIGs
@@ -81,7 +81,8 @@ You could also see these records in other troubleshooting tools that provide det
 
 **Online DNS lookup tools:** Many websites offer DNS lookup services (e.g., DNSViz, intoDNS) that can show all record types, including RRSIGs, if DNSSEC is configured for a domain.
 **Programming libraries/scripts:** Developers writing code to interact with DNS often use libraries that can retrieve and parse RRSIG records for validation purposes.
-While the technical aspects of DNSSEC can be complex, DNSimple simplifies this by automating the generation and management of the necessary cryptographic keys and RRSIGs for your domains. 
+
+While the technical aspects of DNSSEC can be complex, DNSimple automates the generation and management of the necessary cryptographic keys and RRSIGs for your domains, simplifying the process. 
 
 For more in-depth troubleshooting steps and tools related to DNSSEC, read [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/).
 
