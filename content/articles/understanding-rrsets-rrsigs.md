@@ -1,6 +1,6 @@
 ---
 title: Understanding RRSETs and RRSIGs in DNSSEC
-excerpt: Explains how RRSETs and RRSIGs work
+excerpt: Explains how RRSETs and RRSIGs work.
 meta: Learn about RRSETs and RRSIGs, what they are, why they're important, and how they work.
 categories:
 - DNSSEC
