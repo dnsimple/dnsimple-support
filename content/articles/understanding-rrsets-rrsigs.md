@@ -15,7 +15,8 @@ RRSETs and RRSIGs are foundational elements in the security of modern DNS. RRSET
 ## What is an RRSET?
 
 An RRSET (Resource Record Set) is a collection of all DNS records that share the same name and type within a given DNS zone.
-For example, if your domain www.example.com needs to point to two different IP addresses for redundancy, you would have two separate A records:
+
+For example, if your domain `www.example.com` needs to point to two different IP addresses for redundancy, you would have two separate A records:
 - `www.example.com. IN A 192.0.2.1`
 - `www.example.com. IN A 192.0.2.2`
   
@@ -34,8 +35,8 @@ An RRSIG (Resource Record Signature) is a digital signature that authenticates a
 1. **Signing:** When DNSSEC is enabled for a domain, an RRSIG record is generated for each RRSET within that domain's zone. This signature is created using the zone's unique private signing key, typically the Zone Signing Key (ZSK).
 1. **Serving:** When a DNS resolver (like your internet service provider's DNS server) requests an RRSET (e.g., the A records for `www.example.com`), the authoritative DNS server sends back both the RRSET and its corresponding RRSIG record.
 1. **Verification:** The resolver then uses the domain's public cryptographic key, found in a DNSKEY record (obtained through the secure DNSSEC chain of trust), to verify the RRSIG.
-    - If the signature is valid, the resolver trusts that the RRSET is authentic and hasn't been tampered with.
-    - If the signature is invalid, the resolver will discard the data, preventing you from being directed to a potentially malicious location.
+    - If the signature is **valid**, the resolver trusts that the RRSET is authentic and hasn't been tampered with.
+    - If the signature is **invalid**, the resolver will discard the data, preventing you from being directed to a potentially malicious location.
 
 ## Key information in an RRSIG record
 
@@ -47,7 +48,7 @@ An RRSIG record includes specific details crucial for its verification:
 - **Signature inception & expiration:** The time window during which the signature is valid. Signatures are time-limited and regenerated periodically.
 - **Key tag:** A short identifier for the public key used to verify this signature.
 - **Signer's name:** The domain name of the zone that signed the RRSET (typically your domain).
-- **Signature:** The actual cryptographic signature data itself.
+- **Signature:** The actual cryptographic signature data.
 
 ## Why RRSIGs are important
 
@@ -55,8 +56,8 @@ RRSIGs are fundamental to DNSSEC. They are essential for:
 
 **DNSSEC validation:** Enabling DNS resolvers to cryptographically verify the authenticity and integrity of DNS data.
 **Preventing attacks:** Helping to prevent malicious activities like DNS spoofing and cache poisoning.
-**DNS spoofing:** An attack where an attacker sends fake DNS responses to redirect users to malicious websites.
-**Cache poisoning:** A more specific form of spoofing where an attacker injects fraudulent data into a DNS resolver's cache. If a resolver's cache is "poisoned", it will provide the incorrect (malicious) IP address for a domain to all subsequent users who query that resolver, until the poisoned entry expires. RRSIGs ensure that resolvers only accept and cache genuinely signed data, making these types of attacks significantly harder to execute successfully.
+**DNS spoofing:** An attacker sends fake DNS responses to redirect users to malicious websites.
+**Cache poisoning:** A more specific form of spoofing where an attacker injects fraudulent data into a DNS resolver's cache. If a resolver's cache is "poisoned," it will provide the incorrect (malicious) IP address for a domain to all subsequent users who query that resolver, until the poisoned entry expires. RRSIGs ensure that resolvers only accept and cache genuinely signed data, making these types of attacks significantly harder to execute successfully.
 **Building trust:** Adding a critical layer of trust to the entire DNS lookup process.
 
 ## The relationship between RRSETs and RRSIGs
