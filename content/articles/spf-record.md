@@ -16,7 +16,7 @@ categories:
 ---
 
 <note>
-  Effective August 9th 2025, legacy SPF records will no longer be supported. For more information, see our [announcement](blog-post-link).
+  Effective August 11th 2025, legacy SPF records will no longer be supported. For more information, see our [announcement](blog-post-link).
 
   This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
