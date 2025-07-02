@@ -25,9 +25,13 @@ DS records can only be manually added for domains not registered with DNSimple. 
 </note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
+   
 1. From your **Domain Names** list, click the domain name to access its management page.
+   
 1. Click the **DNSSEC** tab on the left.
+   
 1. Click **Manage** in the **DS Records** card.
+   
 1. On the **DS Records** page, click **Add DS Record**.
 
 The form fields that appear will depend on the domain's TLD. The system will show either the DS-Data or KEY-Data interface automatically.
@@ -73,9 +77,13 @@ You can only manually remove a DS record if it is not managed by DNSimple. If DN
 </note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
+   
 1. From your **Domain Names** list, click the domain name to access its management page.
+   
 1. Click the **DNSSEC** tab on the left.
+   
 1. Click **Manage** in the **DS Records** card.
+   
 1. On the **DS records** page, search for the record, and click the **trash** icon to delete it.
 
     ![screenshot: Delete DS Record](/files/ds-records-delete.png)
