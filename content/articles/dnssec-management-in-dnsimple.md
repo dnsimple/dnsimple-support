@@ -7,6 +7,11 @@ categories:
 
 # DNSSEC Management in DNSimple
 
+### Table of Contents {#toc}
+* TOC
+ {:toc}
+---
+
 DNSSEC is applied on a per-domain basis. 
 
  <!--- needs screenshot -->
