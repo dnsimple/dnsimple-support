@@ -33,7 +33,6 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 ![screenshot: add ds record](/files/ds-record-add.png)
 
 <div class="section-steps" markdown="1">
-    
 ### Adding a DS record using the DS-Data interface
 
 1.  Enter the DS record information.
