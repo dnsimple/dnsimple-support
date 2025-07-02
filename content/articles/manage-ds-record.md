@@ -73,7 +73,7 @@ You can only manually remove a DS record if it is not managed by DNSimple. If DN
 </note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
-1. From your **Domain Names **list, click the domain name to access its management page.
+1. From your **Domain Names** list, click the domain name to access its management page.
 1. Click the **DNSSEC** tab on the left.
 1. Click **Manage** in the **DS Records** card.
 1. On the **DS records** page, search for the record, and click the **trash** icon to delete it.
