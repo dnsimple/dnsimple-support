@@ -1,3 +1,10 @@
+---
+title: DNSSEC Management in DNSimple
+excerpt: An illustrated guide to DNSSEC managment in DNSimple.
+categories:
+- DNSSEC
+---
+
 # DNSSEC Management in DNSimple
 
 DNSSEC is applied on a per-domain basis. 
