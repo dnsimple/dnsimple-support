@@ -16,7 +16,7 @@ DNSSEC is applied on a per-domain basis.
 
  <!--- needs screenshot -->
  
-1. **DNSSEC**** tab - DNSSEC management options for the domain.
+1. **DNSSEC** tab - DNSSEC management options for the domain.
 1. **Configure** in **Configure DNSSEC** card - Configure DNSSEC for the domain. 
 1. **Manage** in the **DS Records** card - Manage the DS Records for the domain. 
 
