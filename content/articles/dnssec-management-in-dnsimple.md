@@ -24,7 +24,7 @@ DNSSEC is applied on a per-domain basis.
 
 <!--- needs screenshot -->
 
-View Configuration in DNSSEC Configured card - View the domain’s DNSSEC key set.
+View Configuration in DNSSEC Configured card - View the domain's DNSSEC key set.
 
 ## Manage DS records
 
@@ -86,4 +86,4 @@ Click the **trash can** icon to delete the DS record.
 1. **Disable DNSSEC** button - Disables DNSSEC on the domain. 
 
 ## Have more questions? 
-If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
