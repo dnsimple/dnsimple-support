@@ -30,23 +30,23 @@ When you enable the automatic renewal of your domains at DNSimple, our system wi
 
 Depending on the particular rules set by registries, your domains may fall into one of two scenarios:
 
-**The registry handles the auto-renewal**
+### The registry handles the auto-renewal
 Certain domain names require auto-renewal and cannot be renewed manually. For these domains, it's important to have the auto-renewal feature turned on.
 
-Here's what the domain auto-renewal process looks like when registries require domains to be auto-renewed on their end:
+**The domain auto-renewal process when registries require domains to be auto-renewed:**
 - Our system charges the domain's renewal fees days before the domain expires.
-- The registry will renew the domain, which could happen before or after the expiration date, our system will monitor and notify you upon successful renewal.
-  Your domain resolution services won't be interrupted during this period.
+- The registry will renew the domain. This could happen before or after the expiration date. Our system will monitor and notify you upon successful renewal.
+- Your domain resolution services won't be interrupted during this period.
 
-For registries that operate in this manner, auto-renewal may not be toggleable once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
+Auto-renewal may not be toggleable once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
 
-This scenario may cause concern, so we have enhanced our system to display all critical deadlines clearly and provide actionable information through the domain's lifecycle.
+Our system displays all critical deadlines clearly and provides actionable information through the domain's lifecycle.
 
-**DNSimple handles the auto-renewal**
+### DNSimple handles the auto-renewal
 
-Here's what the domain auto-renewal process looks like when our system can renew domains on your behalf:
+**The domain auto-renewal process when our system can renew domains on your behalf:**
 - Our system charges the domain's renewal fees days before the domain expiration date.
-- Our system renews the domain for another year and notifies of the successful renewal.
+- Our system renews the domain for another year and notifies you of the successful renewal.
 
 ## Enabling auto-renewal
 
