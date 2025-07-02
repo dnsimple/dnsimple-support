@@ -33,7 +33,8 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 ![screenshot: add ds record](/files/ds-record-add.png)
 
 <div class="section-steps" markdown="1">
-### Adding a DS record using the DS-Data interface
+
+#### Adding a DS record using the DS-Data interface
 
 1.  Enter the DS record information.
 
@@ -55,7 +56,7 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 <div class="section-steps" markdown="1">
 
-### Adding a DS record using the KEY-Data interface
+#### Adding a DS record using the KEY-Data interface
 
 1.  Enter the DS record information. The **Flags** and **Protocol** form fields will be pre-filled with the appropriate values.
 
@@ -75,7 +76,10 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 <div class="section-steps" markdown="1">
 
-Important: You can only manually remove a DS record if it is not managed by DNSimple. If DNSSEC is enabled and managed by DNSimple, the only way to remove the DS record is by disabling DNSSEC.
+<note>
+#### Important 
+You can only manually remove a DS record if it is not managed by DNSimple. If DNSSEC is enabled and managed by DNSimple, the only way to remove the DS record is by disabling DNSSEC.
+</note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 2. From your **Domain Names **list, click the domain name to access its management page.
