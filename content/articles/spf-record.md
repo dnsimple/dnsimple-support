@@ -16,12 +16,22 @@ categories:
 ---
 
 <note>
-Although the SPF record type is deprecated, it's still supported by DNSimple name servers. We will discontinue serving SPF records in the future, so we will create a TXT record with the same content for you.
+  Effective August 9th 2025, legacy SPF records will no longer be supported. For more information, see our [announcement](blog-post-link).
+
+  This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
 
 ## What's an SPF record?
 
-An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain.
+An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain. SPF records are specially formatted TXT records.
+
+## Creating an SPF record
+
+To create an SPF record:
+
+1. Select the TXT record type.
+2. Enter the name. Most of the time, this field is left blank since you will be usually sending emails from your apex domain.
+3. Enter the content. The SPF record follows a specific content formatting, which is described below.
 
 ## SPF record format {#record-format}
 
@@ -80,7 +90,7 @@ If you want to test your SPF records for compliance with the RFCs, you may want 
 
 ## Validation
 
-The reference document for the DNS CAA record is the  [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
+The reference document for the DNS SPF record is the  [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
 
 Since SPF records are built on top of TXT records, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
 
