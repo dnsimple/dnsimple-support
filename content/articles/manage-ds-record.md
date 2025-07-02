@@ -32,6 +32,8 @@ DS records can only be manually added for domains not registered with DNSimple. 
 The form fields that appear will depend on the domain's TLD. The system will show either the DS-Data or KEY-Data interface automatically.
 ![screenshot: add ds record](/files/ds-record-add.png)
 
+<div class="section-steps" markdown="1">
+    
 ### Adding a DS record using the DS-Data interface
 
 1.  Enter the DS record information.
