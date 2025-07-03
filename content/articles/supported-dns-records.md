@@ -15,11 +15,11 @@ categories:
 
 ---
 
-The Domain Name System (DNS) is composed of several DNS record types, called resource records (RR). DNSimple supports a wide range of these types, from the most common and traditional records to newer types introduced to provide innovative services like [DNS Certification Authority Authorization](/articles/caa-record/).
+The Domain Name System (DNS) is composed of several DNS record types, called resource records (RR). DNSimple supports a wide range of these types, from traditional and most common records to newer types introduced to provide innovative services like [DNS Certification Authority Authorization](/articles/caa-record/).
 
 ## DNS Record Types
 
-Here is a list of the standard DNS record types supported:
+The standard DNS record types supported:
 
 - [A](/articles/a-record/) (type 1)
 - [AAAA](/articles/aaaa-record/) (type 28)
@@ -35,7 +35,7 @@ Here is a list of the standard DNS record types supported:
 - SSHFP (type 44)
 - [TXT](/articles/txt-record/) (type 16)
 
-Additionally, we support the following proprietary DNS record types:
+We support the following proprietary DNS record types:
 
 - [ALIAS](/articles/alias-record/)
 - [URL](/articles/url-record/)
@@ -55,6 +55,6 @@ Some DNS records have their own semantics but are defined using existing record 
 
 ## Limitations
 
-- **CAA records and integrated providers**: CAA records are only supported on DNSimple and via Secondary DNS. They are not currently supported for transfer to integrated providers via the Control Plane.
+- **CAA records and integrated providers**: CAA records are only supported on DNSimple and via Secondary DNS. They are not currently supported for transfer to integrated providers via the Domain Control Plane.
 
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.
