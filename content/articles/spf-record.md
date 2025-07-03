@@ -16,14 +16,14 @@ categories:
 ---
 
 <note>
-  Effective August 11th 2025, legacy SPF records will no longer be supported. For more information, see our [announcement](blog-post-link).
+  Effective August 11th 2025, SPF records defined using the SPF RR (type 99) will no longer be supported. For more information, see our [announcement](blog-post-link).
 
   This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
 
 ## What's an SPF record?
 
-An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain. SPF records are specially formatted TXT records.
+The Sender Policy Framework (SPF) record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. SPF records are defined using the TXT record type.
 
 ## Creating an SPF record
 
