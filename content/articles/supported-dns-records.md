@@ -1,12 +1,12 @@
 ---
-title: Supported DNS Record Types
-excerpt: The list of DNS record types (RR) supported by DNSimple.
+title: Supported DNS Records and Record Types
+excerpt: The list of DNS record types (RR) and DNS records supported by DNSimple.
 meta: Explore the comprehensive list of DNS record types supported by DNSimple, including A, AAAA, CNAME, MX, and more, to enhance your domain management experience.
 categories:
 - DNS
 ---
 
-# Supported DNS Record Types
+# Supported DNS Records and Record Types
 
 ### Table of Contents {#toc}
 
@@ -15,16 +15,16 @@ categories:
 
 ---
 
-The Domain Name System (DNS) is composed of several record types called resource records. DNSimple supports most common and traditional record types, as well some newer types introduced to provide innovative services like [DNS Certification Authority Authorization](/articles/caa-record/).
+The Domain Name System (DNS) is composed of several DNS record types, called resource records (RR). DNSimple supports several types, from common and traditional record types, to some newer types introduced to provide innovative services like [DNS Certification Authority Authorization](/articles/caa-record/).
 
 
-## Supported Records
+## DNS Record Types
 
-We support the following standard record types:
+This is a list of the supported standard DNS record types:
 
 - [A](/articles/a-record/)
 - AAAA
-- [CAA](/articles/caa-record/) (see note below)
+- [CAA](/articles/caa-record/)
 - [CNAME](/articles/cname-record/)
 - HINFO
 - [MX](/articles/mx-record/)
@@ -36,7 +36,7 @@ We support the following standard record types:
 - SSHFP
 - TXT
 
-We also created 3 proprietary record types:
+In addition, we support the following proprietary DNS record types:
 
 - [ALIAS](/articles/alias-record/)
 - [URL](/articles/url-record/)
@@ -50,6 +50,4 @@ We support additional record types used behind the scenes to provide various DNS
 
 ## Limitations
 
-<note>
-CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
-</note>
+- **`CAA` records and integrated providers**: `CAA` records are only supported on DNSimple and via Secondary DNS. We currently don't support transferring `CAA` records to integrated providers via the Control Plane.
