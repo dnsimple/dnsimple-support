@@ -42,14 +42,20 @@ In addition, we support the following proprietary DNS record types:
 - [URL](/articles/url-record/)
 - [POOL](/articles/pool-record/)
 
-We support additional record types used behind the scenes to provide various DNS features:
+Additional record types are used behind the scenes to provide various DNS features:
 
-- We automatically create the [SOA](/articles/soa-record/) record for you when you add a domain.
-- We create `DS` and `DNSKEY` records when you [enable DNSSEC on a domain](/articles/dnssec/)
+- [SOA](/articles/soa-record/): We automatically create the SOA record for you when you add a domain.
+- DS, DNSKEY: We create DS and DNSKEY records when you [enable DNSSEC on a domain](/articles/dnssec/).
 
+## DNS Records
+
+Some DNS records have their own semantic, yet they are defined using existing record types. These are the DNS records we understand and validate:
+
+- SPF (defined as TXT type)
+- DKIM (defined as TXT type)
 
 ## Limitations
 
-- **`CAA` records and integrated providers**: `CAA` records are only supported on DNSimple and via Secondary DNS. We currently don't support transferring `CAA` records to integrated providers via the Control Plane.
+- **CAA records and integrated providers**: CAA records are only supported on DNSimple and via Secondary DNS. We currently don't support transferring CAA records to integrated providers via the Control Plane.
 
 For more information about specific DNS record types, click on the links above to view detailed articles about each record type and how to configure them in DNSimple.
