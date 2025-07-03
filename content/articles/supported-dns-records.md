@@ -21,19 +21,19 @@ The Domain Name System (DNS) is composed of several DNS record types, called res
 
 Here is a list of the standard DNS record types supported:
 
-- [A](/articles/a-record/)
-- [AAAA](/articles/aaaa-record/)
-- [CAA](/articles/caa-record/)
-- [CNAME](/articles/cname-record/)
-- HINFO
-- [MX](/articles/mx-record/)
-- NAPTR
-- [NS](/articles/ns-record/)
-- PTR
-- [SRV](/articles/srv-record/)
-- [SPF](/articles/spf-record/)
-- SSHFP
-- [TXT](/articles/txt-record/)
+- [A](/articles/a-record/) (type 1)
+- [AAAA](/articles/aaaa-record/) (type 28)
+- [CAA](/articles/caa-record/) (type 257)
+- [CNAME](/articles/cname-record/) (type 5)
+- HINFO (type 13)
+- [MX](/articles/mx-record/) (type 15)
+- NAPTR (type 35)
+- [NS](/articles/ns-record/) (type 2)
+- PTR (type 12)
+- [SRV](/articles/srv-record/) (type 33)
+- [SPF](/articles/spf-record/) (type 99)
+- SSHFP (type 44)
+- [TXT](/articles/txt-record/) (type 16)
 
 Additionally, we support the following proprietary DNS record types:
 
@@ -43,8 +43,8 @@ Additionally, we support the following proprietary DNS record types:
 
 Other record types are used behind the scenes to provide core DNS features:
 
-- [SOA](/articles/soa-record/): Automatically created when you add a domain.
-- DS, DNSKEY: Automatically created when you [enable DNSSEC on a domain](/articles/dnssec/).
+- [SOA](/articles/soa-record/) (type 6): Automatically created when you add a domain.
+- DS (type 43), DNSKEY (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/dnssec/).
 
 ## DNS Records
 
