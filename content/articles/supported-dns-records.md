@@ -1,12 +1,12 @@
 ---
-title: Supported DNS Records and Record Types
+title: Supported DNS Records and DNS Record Types
 excerpt: The list of DNS record types (RR) and DNS records supported by DNSimple.
 meta: Explore the comprehensive list of DNS record types supported by DNSimple, including A, AAAA, CNAME, MX, and more, to enhance your domain management experience.
 categories:
 - DNS
 ---
 
-# Supported DNS Records and Record Types
+# Supported DNS Records and DNS Record Types
 
 ### Table of Contents {#toc}
 
@@ -23,7 +23,7 @@ The Domain Name System (DNS) is composed of several DNS record types, called res
 This is a list of the supported standard DNS record types:
 
 - [A](/articles/a-record/)
-- AAAA
+- [AAAA](/articles/aaaa-record/)
 - [CAA](/articles/caa-record/)
 - [CNAME](/articles/cname-record/)
 - HINFO
@@ -34,7 +34,7 @@ This is a list of the supported standard DNS record types:
 - [SRV](/articles/srv-record/)
 - [SPF](/articles/spf-record/)
 - SSHFP
-- TXT
+- [TXT](/articles/txt-record/)
 
 In addition, we support the following proprietary DNS record types:
 
@@ -51,3 +51,5 @@ We support additional record types used behind the scenes to provide various DNS
 ## Limitations
 
 - **`CAA` records and integrated providers**: `CAA` records are only supported on DNSimple and via Secondary DNS. We currently don't support transferring `CAA` records to integrated providers via the Control Plane.
+
+For more information about specific DNS record types, click on the links above to view detailed articles about each record type and how to configure them in DNSimple.
