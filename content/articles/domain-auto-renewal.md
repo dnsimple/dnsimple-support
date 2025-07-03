@@ -19,7 +19,7 @@ Most auto-renewals will begin a few days before a domain's expiration date. We d
 </info>
 
 <warning>
-Refunds are not possible for domain auto-renewals.
+Refunds are not possible once the auto-renewal process has started.
 </warning>
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically days before expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
@@ -38,7 +38,7 @@ Certain domain names require auto-renewal and cannot be renewed manually. For th
 - The registry will renew the domain. This could happen before or after the expiration date. Our system will monitor and notify you upon successful renewal.
 - Your domain resolution services won't be interrupted during this period.
 
-Auto-renewal may not be toggleable once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
+Auto-renewal cannot be turned off once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
 
 Our system displays all critical deadlines clearly and provides actionable information through the domain's lifecycle.
 
