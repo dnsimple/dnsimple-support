@@ -27,11 +27,7 @@ An SPF record is a Sender Policy Framework record. It's used to indicate to mail
 
 ## Creating an SPF record
 
-To create an SPF record:
-
-1. Select the TXT record type.
-2. Enter the name. This field is usually left blank since emails are typically sent from your apex domain.
-3. Enter the content. The SPF record follows specific content formatting described below.
+To create an SPF record follow the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type. In the record content field, follow the SPF-specific formatting rules as described below.
 
 ## SPF record format {#record-format}
 
