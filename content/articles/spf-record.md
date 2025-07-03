@@ -27,7 +27,7 @@ The Sender Policy Framework (SPF) record is used to indicate to mail exchanges w
 
 ## Creating an SPF record
 
-To create an SPF record follow the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type. In the record content field, follow the SPF-specific formatting rules as described below.
+To create an SPF record, follow the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type. In the record content field, follow the SPF-specific formatting rules described below.
 
 ## SPF record format {#record-format}
 
