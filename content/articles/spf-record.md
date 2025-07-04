@@ -86,7 +86,7 @@ If you want to test your SPF records for compliance with the RFCs, you may want 
 
 ## Validation
 
-The reference document for the DNS SPF record is the  [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
+The reference document for the DNS SPF record is the  [RFC 4408](https://datatracker.ietf.org/doc/html/rfc4408), clarified by [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208).
 
 Since SPF records are built on top of TXT records, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
 
