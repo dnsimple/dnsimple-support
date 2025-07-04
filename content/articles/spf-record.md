@@ -16,7 +16,7 @@ categories:
 ---
 
 <note>
-  Effective August 11th 2025, legacy SPF records will no longer be supported. For more information, see our [announcement](blog-post-link).
+  Effective August 11th 2025, the SPF record type will no longer be supported. For more information, see our [announcement](blog-post-link).
 
   This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
@@ -86,9 +86,9 @@ If you want to test your SPF records for compliance with the RFCs, you may want 
 
 ## Validation
 
-The reference document for the DNS SPF record is the  [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
+The reference document for the DNS SPF record type is the [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
 
-Since SPF records are built on top of TXT records, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
+Since SPF records are built on top of the TXT record type, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
 
 **Each fully-qualified name may have at maximum one SPF record**.
 
