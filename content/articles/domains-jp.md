@@ -19,9 +19,9 @@ This article explains the requirements and special procedures for .JP domain nam
 
 ### Auto-renewal only {#auto-renewal-required}
 
-This TLD doesn't support manual renewals. To successfully renew the domain, [auto-renewal](/articles/domain-auto-renewal/) must be enabled at least 30 days before the domain's expiration date. For more information, view our [Auto-Renewal Required Domains article](/articles/auto-renew-only-domains/).
+This TLD doesn't support manual renewals. To successfully renew the domain, the auto-renewal feature must be enabled, as explained in the [Domain Auto-Renewal article](/articles/domain-auto-renewal/#when-does-auto-renewal-happen/).
 
-If auto-renewal is not enabled, the domain will be scheduled for removal **12 days prior to expiration**. The registrar can deactivate it at any point during this period (even before the expiration date). It is possible to [restore](/articles/restoring-domain/) the domain before final deletion, but the registry will charge a redemption fee.
+If auto-renewal is not enabled, the domain will be scheduled for removal **16 days before the expiration**. The registrar can deactivate it at any point during this period (even before the expiration date). You may be able to [restore](/articles/restoring-domain/) the domain before final deletion, but the registry will charge a redemption fee.
 
 ## Transferring a .JP domain away from DNSimple {#transfer-away}
 
