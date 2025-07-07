@@ -57,8 +57,9 @@ Here's how it works:
     - Fetches the DNSKEY from your domain zone
     - Compares the DS digest to your DNSKEY
 
-The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
-If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they don't match — for example, if you've rotated your KSK but haven't updated the DS record — resolvers won't trust your domain's DNSSEC signatures, and your domain may become unreachable.
+    The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
+
+    If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they don't match — for example, if you've rotated your KSK but haven't updated the DS record — resolvers won't trust your domain's DNSSEC signatures, and your domain may become unreachable.
 
 ## DS-data vs. KEY-data
 
@@ -90,7 +91,7 @@ The DNSKEY RDATA consists of:
 For example, a DNS query for DNSKEY records could provide an answer like this:
 
 ```
-dig DNSKEY howdnssec.works +short`
+dig DNSKEY howdnssec.works +short
 
 256 3 8 AwEAAb57dtsfnAQbw/s6/TB3AgUb9Hwx50jnwKupuG8DdsR4xVgBD2h4 XwZu4nqQdE2kGC/oUOXd1tnUsmeJVaYTo5VygpzjpXQFePfrheJl5fxT Yevq0oRHqNI50+HmUaGn2VDUu3qSEOhU2KGfYoKGMpUudvEb5TUIMuQ7 8QKjYkpZ
 257 3 8 AwEAAaOEmo0CkiSqMlFl9loKET/3zUFB9h/ZcBJ1JhAoiiqYGlGf4yxV kUHRz/oZqIyv4D1xzDhMtIMP0q0/hL/QoqProvfLGayY71MZaxAZuSyW vxe/ktpZdMA9a5crSGl41gde62ztbUiq6fJfpIzi4l6kWMwINB39egP2 H+PFfoiRW0JfqX4YEf6NNhyNcWPFlsvEFLcs3oc3fLQ2YBsQS40=
