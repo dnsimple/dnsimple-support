@@ -74,7 +74,8 @@ Here's how they work:
 
 ### KEY-data format
 
-The KEY-data format refers to the actual public key information stored in DNSKEY resource records, which forms the foundation of DNSSEC's cryptographic authentication system. 
+The KEY-data format refers to the actual public key information stored in DNSKEY resource records, which forms the foundation of DNSSEC's cryptographic authentication system.
+
 The DNSKEY RDATA consists of:
 
 **Flags**
@@ -100,8 +101,8 @@ dig DNSKEY howdnssec.works +short
 
 In this answer, we can see that the `howdnssec.works` zone has two DNSKEY records with the following RDATA:
 
-- KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO...BsQS40=`
-- ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5...QKjYkpZ`
+- KSK - **Flags**: 257, **Protocol**: 3, **Algorithm**: 8, **Public key**: `AwEAAaO...BsQS40=`
+- ZSK - **Flags**: 256, **Protocol**: 3, **Algorithm**: 8, **Public key**: `AwEAAb5...QKjYkpZ`
 
 ### DS-data format
 
@@ -130,7 +131,8 @@ dig DS howdnssec.works +short
 ```
 
 In this answer, we can see that the `howdnssec.works` zone has a DS record with the following RDATA:
-Key Tag: 48170, Algorithm: 8, Digest type: 2, Digest: `1D4DE33...BE678D4`
+
+**Key Tag**: 48170, **Algorithm**: 8, **Digest type**: 2, **Digest**: `1D4DE33...BE678D4`
 
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
