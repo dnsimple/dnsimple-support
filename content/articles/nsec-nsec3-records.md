@@ -1,6 +1,6 @@
 ---
 title: Understanding NSEC and NSEC3 Records
-excerpt: Explains how NSEC and NSEC3 Records.
+excerpt: Explains how NSEC and NSEC3 Records work.
 meta: Learn about NSEC and NSEC3 Records, what they are, why they're important, and how they work.
 categories:
 - DNSSEC
