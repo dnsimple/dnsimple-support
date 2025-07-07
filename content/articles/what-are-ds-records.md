@@ -48,7 +48,8 @@ Here's how it works:
 
 1. **Publish the DS record in the parent zone**
     The DS record is submitted to your domain registrar who publishes it through the domain registry (like .com, or .org).
-Once the DS record is live in the parent zone, it links your domain to the rest of the DNSSEC trust chain.
+
+    Once the DS record is live in the parent zone, it links your domain to the rest of the DNSSEC trust chain.
 
 1. **Resolver validates the Chain of Trust**
     When a DNSSEC-aware resolver queries your domain, it:
@@ -88,12 +89,14 @@ The DNSKEY RDATA consists of:
 
 For example, a DNS query for DNSKEY records could provide an answer like this:
 
-`dig DNSKEY howdnssec.works +short`
+```
+dig DNSKEY howdnssec.works +short`
 
-`256 3 8 AwEAAb57dtsfnAQbw/s6/TB3AgUb9Hwx50jnwKupuG8DdsR4xVgBD2h4 XwZu4nqQdE2kGC/oUOXd1tnUsmeJVaYTo5VygpzjpXQFePfrheJl5fxT Yevq0oRHqNI50+HmUaGn2VDUu3qSEOhU2KGfYoKGMpUudvEb5TUIMuQ7 8QKjYkpZ
-257 3 8 AwEAAaOEmo0CkiSqMlFl9loKET/3zUFB9h/ZcBJ1JhAoiiqYGlGf4yxV kUHRz/oZqIyv4D1xzDhMtIMP0q0/hL/QoqProvfLGayY71MZaxAZuSyW vxe/ktpZdMA9a5crSGl41gde62ztbUiq6fJfpIzi4l6kWMwINB39egP2 H+PFfoiRW0JfqX4YEf6NNhyNcWPFlsvEFLcs3oc3fLQ2YBsQS40=`
+256 3 8 AwEAAb57dtsfnAQbw/s6/TB3AgUb9Hwx50jnwKupuG8DdsR4xVgBD2h4 XwZu4nqQdE2kGC/oUOXd1tnUsmeJVaYTo5VygpzjpXQFePfrheJl5fxT Yevq0oRHqNI50+HmUaGn2VDUu3qSEOhU2KGfYoKGMpUudvEb5TUIMuQ7 8QKjYkpZ
+257 3 8 AwEAAaOEmo0CkiSqMlFl9loKET/3zUFB9h/ZcBJ1JhAoiiqYGlGf4yxV kUHRz/oZqIyv4D1xzDhMtIMP0q0/hL/QoqProvfLGayY71MZaxAZuSyW vxe/ktpZdMA9a5crSGl41gde62ztbUiq6fJfpIzi4l6kWMwINB39egP2 H+PFfoiRW0JfqX4YEf6NNhyNcWPFlsvEFLcs3oc3fLQ2YBsQS40=
+```
 
-In this answer, we can see that the howdnssec.works zone has two DNSKEY records with the following RDATA:
+In this answer, we can see that the `howdnssec.works` zone has two DNSKEY records with the following RDATA:
 KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO...BsQS40=`
 ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5...QKjYkpZ`
 
@@ -115,9 +118,11 @@ The DS-data format represents a cryptographic digest (hash) of a DNSKEY record, 
 
 If we check the DS record for the same domain, here's what we might see:
 
-`dig DS howdnssec.works +short`
+```
+dig DS howdnssec.works +short
 
-`48170 8 2 1D4DE33C436CE4DFB10315AC91E8A03D604AC649702D3C018A7B8A00 1BE678D4`
+48170 8 2 1D4DE33C436CE4DFB10315AC91E8A03D604AC649702D3C018A7B8A00 1BE678D4
+```
 
-In this answer, we can see that the howdnssec.works zone has a DS record with the following RDATA:
+In this answer, we can see that the `howdnssec.works` zone has a DS record with the following RDATA:
 Key Tag: 48170, Algorithm: 8, Digest type: 2, Digest: `1D4DE33...BE678D4`
