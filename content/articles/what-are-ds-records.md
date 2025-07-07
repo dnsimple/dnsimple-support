@@ -93,8 +93,8 @@ For example, a DNS query for DNSKEY records could provide an answer like this:
 257 3 8 AwEAAaOEmo0CkiSqMlFl9loKET/3zUFB9h/ZcBJ1JhAoiiqYGlGf4yxV kUHRz/oZqIyv4D1xzDhMtIMP0q0/hL/QoqProvfLGayY71MZaxAZuSyW vxe/ktpZdMA9a5crSGl41gde62ztbUiq6fJfpIzi4l6kWMwINB39egP2 H+PFfoiRW0JfqX4YEf6NNhyNcWPFlsvEFLcs3oc3fLQ2YBsQS40=`
 
 In this answer, we can see that the howdnssec.works zone has two DNSKEY records with the following RDATA:
-KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO…BsQS40=`
-ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5…QKjYkpZ`
+KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO...BsQS40=`
+ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5...QKjYkpZ`
 
 ### DS-data format
 
@@ -123,4 +123,4 @@ If we check the DS record for the same domain, here's what we might see:
 48170 8 2 1D4DE33C436CE4DFB10315AC91E8A03D604AC649702D3C018A7B8A00 1BE678D4`
 
 In this answer, we can see that the howdnssec.works zone has a DS record with the following RDATA:
-Key Tag: 48170, Algorithm: 8, Digest type: 2, Digest: `1D4DE33…BE678D4`
+Key Tag: 48170, Algorithm: 8, Digest type: 2, Digest: `1D4DE33...BE678D4`
