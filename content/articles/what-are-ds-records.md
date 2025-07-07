@@ -99,8 +99,9 @@ dig DNSKEY howdnssec.works +short
 ```
 
 In this answer, we can see that the `howdnssec.works` zone has two DNSKEY records with the following RDATA:
-KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO...BsQS40=`
-ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5...QKjYkpZ`
+
+- KSK - Flags: 257, Protocol: 3, Algorithm: 8, Public key: `AwEAAaO...BsQS40=`
+- ZSK - Flags: 256, Protocol: 3, Algorithm: 8, Public key: `AwEAAb5...QKjYkpZ`
 
 ### DS-data format
 
