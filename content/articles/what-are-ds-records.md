@@ -57,10 +57,9 @@ Here's how it works:
     - Fetches the DNSKEY from your domain zone
     - Compares the DS digest to your DNSKEY
 
+The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
 
-    The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
-
-    If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they don't match — for example, if you've rotated your KSK but haven't updated the DS record — resolvers won't trust your domain's DNSSEC signatures, and your domain may become unreachable.
+If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they don't match — for example, if you've rotated your KSK but haven't updated the DS record — resolvers won't trust your domain's DNSSEC signatures, and your domain may become unreachable.
 
 ## DS-data vs. KEY-data
 
