@@ -2,7 +2,7 @@
 title: What Are DS Records?
 excerpt: Learn what DS records are and why they matter for DNSSEC.
 categories:
-- DNS
+- DNSSEC
 ---
 
 # What are DS records?
@@ -56,6 +56,7 @@ Here's how it works:
     - Retrieves the DS record from the parent zone
     - Fetches the DNSKEY from your domain zone
     - Compares the DS digest to your DNSKEY
+
 
     The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
 
