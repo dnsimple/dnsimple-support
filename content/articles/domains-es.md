@@ -32,7 +32,7 @@ Provide any of the following identification details:
 - **Generic ID**: Select this option for passports, company registration numbers, and foreign documents.
 
 
-## Transferring a .ES domain #{transferring}
+## Transferring a .ES domain {#transferring}
 
 ### Required acknowledgment
 
