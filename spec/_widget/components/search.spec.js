@@ -90,7 +90,6 @@ describe("Search", () => {
         'DNSSEC': 1,
         'Disabling DNSSEC': 2,
         'DNSSEC Glossary': 6,
-        'Using Cloudflare DNSSEC with DNSimple': 7,
       },
       "creating alias record": {
         "What's an ALIAS record?": 1,
