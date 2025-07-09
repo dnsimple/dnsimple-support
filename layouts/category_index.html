@@ -4,7 +4,11 @@
   <h2><%= section %></h2>
   <ul>
     <% articles.each do |article| %>
-      <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
+      <% if article.instance_of?(String) %>
+        <!-- Article with title "<%= article %>" was not found when building the category page-->
+      <% else %>
+        <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
+      <% end %>
     <% end %>
   </ul>
 <% end %>

@@ -4,9 +4,9 @@ Getting started:
 Explanation:
   - "What Is DNSSEC?"
   - "The DNSSEC Chain of Trust"
-  - "What are DS Records?"
+  - "What Are DS Records?"
   - "DNSKEY Records Explained"
-  - "What Are The Types of DNSSEC Keys?"
+  - "What Are the Types of DNSSEC Keys?"
   - "Understanding RRSETs and RRSIGs in DNSSEC"
   - "Understanding NSEC and NSEC3 Records"
   - "What Are CDS and CDNSKEY?"
@@ -21,8 +21,5 @@ How to:
   - "Troubleshooting DNSSEC Configurations"
 
 Reference:
-  - "DNSSEC Management at DNSimple"
+  - "DNSSEC Management in DNSimple"
   - "DNSSEC Glossary"
-  - "What Is DNSSEC?"
-  - "What Are CDS and CDNSKEY?"
-  - "What Are DS Records?"
