@@ -49,5 +49,5 @@ Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
 Dive deeper into the specifics of DNSSEC with our comprehensive reference materials, including an overview of the settings and details available in your DNSimple account.
 
-- DNSSEC Management in DNSimple: A detailed look at the DNSSEC management interface within your DNSimple account, including available settings and information.
+- [DNSSEC Management in DNSimple](/articles/dnssec-management-in-dnsimple/): A detailed look at the DNSSEC management interface within your DNSimple account, including available settings and information.
 - [DNSSEC Glossary](/articles/dnssec-glossary/): Familiarize yourself with common terms and definitions related to DNSSEC.
