@@ -14,29 +14,39 @@ categories:
 {:toc}
 
 ---
-<warning>
+<info>
 Most auto-renewals will begin a few days before a domain's expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date, even if auto-renewal is turned on.
+</info>
+
+<warning>
+Refunds are not possible once the auto-renewal process has started.
 </warning>
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically days before expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
 
 ## When does auto-renewal happen?
 
-Auto-renewals are processed automatically and usually occur days before the domain's expiration date. The exact timeline may vary for each domain.
+When you enable the automatic renewal of your domains at DNSimple, our system will process them days before the domain's expiration date.
 
-Your domain has two key dates related to its auto-renewal lifecycle: the <strong>expiration date and the renew by date</strong>. For most TLDs (like .COM, .NET, and .ORG), the renew by date falls after the expiration date. This means that even if the domain is past it's expiration date, it can still be renewed, and if auto-renewal is enabled, the renewal will happen automatically on the renew by date. During this time, the domain remains fully functional and continues to resolve normally. The domain is not at risk, and renewal will complete as scheduled by the renew by date.
+Depending on the particular rules set by registries, your domains may fall into one of two scenarios:
 
-For some other TLDs (like .EU), domains are renewed before they expire, so the renew by date will be before the expiration date.
+### The registry handles the auto-renewal
+Certain domain names require auto-renewal and cannot be renewed manually. For these domains, it's important to have the auto-renewal feature turned on.
 
-<info>
-Refunds are not possible if a domain has already auto-renewed.
-</info>
+**The domain auto-renewal process when registries require domains to be auto-renewed:**
+- Our system charges the domain's renewal fees days before the domain expires.
+- The registry will renew the domain. This could happen before or after the expiration date. Our system will monitor and notify you upon successful renewal.
+- Your domain resolution services won't be interrupted during this period.
 
-### ICANN expiration warning
+Auto-renewal cannot be turned off once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
 
-ICANN domains where the renew by date falls after the expiration date will receive a notification email that may state the domain has expired. However, if your domain has auto-renewal enabled, there is no cause for concern — the domain will automatically renew as scheduled, and it will remain active and fully functional in the meantime.
+Our system displays all critical deadlines clearly and provides actionable information through the domain's lifecycle.
 
-![screenshot of ICANN 3rd expiration mail](/files/icann-3rd-expiration-mail.png)
+### DNSimple handles the auto-renewal
+
+**The domain auto-renewal process when our system can renew domains on your behalf:**
+- Our system charges the domain's renewal fees days before the domain expiration date.
+- Our system renews the domain for another year and notifies you of the successful renewal.
 
 ## Enabling auto-renewal
 
@@ -58,11 +68,7 @@ Auto-renewal is now enabled on your domain.
 ## Disabling auto-renewal
 
 <warning>
-Auto-renewal cannot be turned off if the auto-renewal has already started. If you need assistance stopping or preventing auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback).
-</warning>
-
-<warning>
-[Some registries require that domains renew through auto-renewal](/articles/auto-renew-only-domains/). If you disable auto-renewal for a domain that requires auto-renewal to renew, you risk losing the domain.
+Auto-renewal cannot be turned off if the auto-renewal is being processed.
 </warning>
 
 To turn off auto-renewal for a domain, follow these steps:
