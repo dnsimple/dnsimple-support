@@ -28,7 +28,7 @@ If you are new to DNSSEC, these articles will help you understand the fundamenta
 - Understanding NSEC and NSEC3 Records: Explore NSEC and NSEC3 records and how they help prevent zone walking.
 - [What Are CDS and CDNSKEY Records?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
 
-## Tutorials
+## How to manage DNSSEC
 
 Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively with these articles.
 
