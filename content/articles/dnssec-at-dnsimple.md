@@ -13,11 +13,11 @@ categories:
 {:toc}
 ---
 
-DNSSEC (Domain Name System Security Extensions) adds an essential layer of security to the DNS, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for both DS-data and KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
+DNSSEC (Domain Name System Security Extensions) adds an essential layer of security to DNS, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for DS-data **and** KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
 
 ## What is DNSSEC?
 
-If you are new to DNSSEC, these articles will help you understand the fundamentals:
+If you are new to DNSSEC, these articles will help you understand the fundamentals.
 
 - [What Is DNSSEC?](/articles/what-is-dnssec/) Learn what DNSSEC is and why it matters.
 - The DNSSEC Chain of Trust: Explore the concept of the Chain of Trust and how it ensures the validity of DNS data.
@@ -46,7 +46,7 @@ Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
 ## Reference articles
 
-Dive deeper into the specifics of DNSSEC with our comprehensive reference materials, including an overview of the settings and details available directly in your DNSimple account.
+Dive deeper into the specifics of DNSSEC with our comprehensive reference materials, including an overview of the settings and details available in your DNSimple account.
 
 - DNSSEC Management in DNSimple: A detailed look at the DNSSEC management interface within your DNSimple account, including available settings and information.
 - [DNSSEC Glossary](/articles/dnssec-glossary/): Familiarize yourself with common terms and definitions related to DNSSEC.
