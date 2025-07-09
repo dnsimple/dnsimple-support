@@ -31,28 +31,29 @@ Without a DS record in the parent zone, or if the DS record doesn't match your c
 
 ## How DS records establish trust
 
-Enabling DNSSEC involves a series of steps that lead to the creation and publication of a DS record. 
+Enabling DNSSEC involves a series of steps that lead to the creation and publication of a DS record.
 
 Here's how it works:
 
 1. **Generate DNSSEC keys**
-    When you enable DNSSEC on your domain, two key pairs are created:
-   
-   - **Key Signing Key (KSK):** Used to sign the DNSKEY record set
-   - **Zone Signing Key (ZSK):** Used to sign your actual DNS records (like A, MX, etc.)
+  When you enable DNSSEC on your domain, two key pairs are created:
+
+    - **Key Signing Key (KSK):** Used to sign the DNSKEY record set
+    - **Zone Signing Key (ZSK):** Used to sign your actual DNS records (like A, MX, etc.)
 
     Both keys are published as DNSKEY records, but the KSK is the one trusted by the parent zone.
 
 1. **Create the DS record**
-    A cryptographic digest (hash) is generated from your domain's KSK. This becomes the DS record. It includes details about the algorithm and digest type used, but it does not expose your full key.
+  A cryptographic digest (hash) is generated from your domain's KSK. This becomes the DS record. It includes details about the algorithm and digest type used, but it does not expose your full key.
 
 1. **Publish the DS record in the parent zone**
-    The DS record is submitted to your domain registrar who publishes it through the domain registry (like .com or .org).
+  The DS record is submitted to your domain registrar who publishes it through the domain registry (like .com or .org).
 
-    Once the DS record is live in the parent zone, it links your domain to the rest of the DNSSEC trust chain.
+  Once the DS record is live in the parent zone, it links your domain to the rest of the DNSSEC trust chain.
 
 1. **Resolver validates the Chain of Trust**
-    When a DNSSEC-aware resolver queries your domain, it:
+  When a DNSSEC-aware resolver queries your domain, it:
+
     - Retrieves the DS record from the parent zone
     - Fetches the DNSKEY from your domain zone
     - Compares the DS digest to your DNSKEY
@@ -64,7 +65,7 @@ If the created digest matches the DS record, the resolver trusts your DNSKEY and
 ## DS-data vs. KEY-data
 
 DNSKEY records contain a zone's public KSK and ZSK. DS records contain a digest of the public KSK. The contents of these records are stored in different formats:
-  
+
 - DNSKEY records store public keys in KEY-data format
 - DS records store public keys in DS-data format
 
@@ -79,16 +80,16 @@ The KEY-data format refers to the actual public key information stored in DNSKEY
 The DNSKEY RDATA consists of:
 
 **Flags**
-    Set to either **257** to indicate it's a Key-Signing Key, or **256** to indicate it's a Zone-Signing Key
+Set to either **257** to indicate it's a Key-Signing Key, or **256** to indicate it's a Zone-Signing Key
 
 **Protocol**
-    Always **3**, indicating DNSSEC.
+Always **3**, indicating DNSSEC.
 
 **Algorithm**
-    Indicates the cryptographic algorithm used to generate the key. In DNSimple, this is typically **8** (RSA/SHA-256).
+Indicates the cryptographic algorithm used to generate the key. In DNSimple, this is typically **8** (RSA/SHA-256).
 
 **Public Key**
-    The full public DNSKEY. This is used to derive the digest and validate signatures.
+The full public DNSKEY. This is used to derive the digest and validate signatures.
 
 For example, a DNS query for DNSKEY records could provide an answer like this:
 
@@ -106,21 +107,21 @@ In this answer, we can see that the `howdnssec.works` zone has two DNSKEY record
 
 ### DS-data format
 
-The DS-data format represents a cryptographic digest (hash) of a DNSKEY record, specifically designed to establish trust between parent and child zones in the DNS hierarchy. 
+The DS-data format represents a cryptographic digest (hash) of a DNSKEY record, specifically designed to establish trust between parent and child zones in the DNS hierarchy.
 
 The DS RDATA consists of:
 
 **Key Tag**
-    A short numeric identifier that helps locate the corresponding DNSKEY.
+A short numeric identifier that helps locate the corresponding DNSKEY.
 
 **Algorithm**
-    Indicates the cryptographic algorithm used to generate the key. In DNSimple, this is typically **8** (RSA/SHA-256).
+Indicates the cryptographic algorithm used to generate the key. In DNSimple, this is typically **8** (RSA/SHA-256).
 
 **Digest Type**
-    Specifies the hash algorithm used to generate the digest. Commonly **2** (SHA-256).
+Specifies the hash algorithm used to generate the digest. Commonly **2** (SHA-256).
 
 **Digest**
-    A hash (digest) of the public part of the KSK. This is what the parent zone publishes.
+A hash (digest) of the public part of the KSK. This is what the parent zone publishes.
 
 If we check the DS record for the same domain, here's what we might see:
 
