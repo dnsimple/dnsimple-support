@@ -1,8 +1,8 @@
 ---
-title: DNSSEC at DNSimple: Everything You Need to Know
+title: DNSSEC at DNSimple
 excerpt: Learn where to find everything you need to know about DNSSEC at DNSimple.
 categories:
-- Account
+- DNSSEC
 ---
 
 # DNSSEC at DNSimple: Everything You Need to Know
@@ -26,7 +26,7 @@ If you are new to DNSSEC, these articles will help you understand the fundamenta
 - What Are the Types of DNSSEC Keys?: Discover the different types of DNSSEC keys and their specific functions.
 - Understanding RRSETs and RRSIGs in DNSSEC: Learn about Resource Record Sets (RRSETs) and RRSIG (Resource Record Signature) records, which provide cryptographic proof of data integrity.
 - Understanding NSEC and NSEC3 Records: Explore NSEC and NSEC3 records and how they help prevent zone walking.
-- [What Are CDS and CDNSKEY Records?](https://support.dnsimple.com/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
+- [What Are CDS and CDNSKEY Records?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
 
 ## Tutorials
 
@@ -36,13 +36,13 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 - [Disabling DNSSEC](/articles/disabling-dnssec/):  A step-by-step guide to turning DNSSEC **off** for your domain.
 - [Managing DS Records](/articles/manage-ds-record/): Learn how to manually add or remove Delegation Signer (DS) records for your domain.
 - [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/): A guide to updating DS records when you migrate your DNS hosting to a different provider.
-- [Rotate DNSSEC Keys](https://support.dnsimple.com/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
+- [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
 
 ## Troubleshooting DNSSEC configurations
 
 Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
-- [Troubleshooting DNSSEC Configurations](https://support.dnsimple.com/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
+- [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
 
 ## Reference articles
 
