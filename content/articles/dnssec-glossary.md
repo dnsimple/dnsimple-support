@@ -20,12 +20,14 @@ DNSSEC (Domain Name System Security Extensions) is a suite of protocols that add
 
 **Learn more:**
 [RFC 9364](https://datatracker.ietf.org/doc/rfc9364/)
+[What is DNSSEC?](/articles/what-is-dnssec/)
 [HowDNSSEC.works](https://howdnssec.works/)
 
 ### Chain of Trust
 The DNSSEC chain of trust is a hierarchical validation process that starts at a trusted anchor (usually the root's public key) and follows a series of cryptographic signatures down to the queried domain. Each zone's DNSKEY set is signed by a parent zone's DS record, which itself is signed by its parent, and so on up to the root. By verifying each signature in turn, resolvers ensure that DNS data has not been tampered with.
 
 **Learn more:**
+[The DNSSEC Chain of Trust](/articles/dnssec-chain-of-trust/)
 [ICANN DNSSEC Intro](https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en#keys)
 [HowDNSSEC.works: Trust the Hierarchy](https://howdnssec.works/trust-the-hierarchy/)
 
@@ -34,6 +36,7 @@ A DNSSEC Trust Anchor is a known, securely distributed public key that resolvers
 
 **Learn more:**
 [RFC 9718](https://datatracker.ietf.org/doc/rfc9718/)
+[The Trust Anchor (The Root of Trust)](/articles/dnssec-chain-of-trust/#how-the-chain-of-trust-works)
 [IANA Trust Anchors](https://www.iana.org/dnssec/files)
 
 ## Record Types & Signing
@@ -43,47 +46,53 @@ An RRSet (Resource Record Set) is a collection of DNS records in a zone that sha
 
 **Learn more:**
 [RFC 4034 §2.1](https://datatracker.ietf.org/doc/html/rfc4034#page-4)
+[What is an RRSET?](/articles/understanding-rrsets-rrsigs/#what-is-an-rrset)
 
 ### RRSIG
 An RRSIG (Resource Record Signature) is a DNS record type used by DNSSEC to authenticate the integrity of an entire RRSet. When a zone is signed, the zone-signing key's private component cryptographically signs each group of same-type records, producing an RRSIG record. Resolvers retrieve both the RRSet and its RRSIG, then use the corresponding public key (from a DNSKEY record) to verify that the data has not been altered in transit.
 
 **Learn more:**
 [RFC 4034 §3](https://datatracker.ietf.org/doc/html/rfc4034#section-3)
+[What is an RRSIG?](/articles/understanding-rrsets-rrsigs/#what-is-an-rrsig)
 
 ### DNSKEY
 A DNSKEY record holds the public key used by DNSSEC to verify cryptographic signatures on DNS data. When a zone is signed, its private key signs each RRSet, producing corresponding RRSIG records. Resolvers fetch the DNSKEY public key and use it to decrypt the RRSIG's signature, confirming that the data has not been tampered with. By publishing and validating DNSKEY entries, DNSSEC ensures the authenticity and integrity of DNS responses.
 
 **Learn more:**
 [RFC 4034 §2](https://datatracker.ietf.org/doc/html/rfc4034#section-2)
+[DNSKEY Records Explained](/articles/dnskey-records-explained/)
 
 ### DS
 A DS (Delegation Signer) record is a DNSSEC resource record stored in a parent zone that contains a cryptographic hash of a child zone's DNSKEY. When a resolver follows the chain of trust, it retrieves the DS from the parent and compares it against the DNSKEY published in the child zone. If the hashes match, the resolver can trust the child's DNSKEY and continue verifying signatures down the hierarchy. DS records enable secure delegation by linking parent and child zones without exposing the child's public key directly.
 
 **Learn more:**
 [RFC 4034 §5](https://datatracker.ietf.org/doc/html/rfc4034#section-5)
-[Managing DS records at dnsimple.com](/articles/manage-ds-record/)
+[What are DS Records?](/articles/what-are-ds-records/)
 
 ## Key Management
 
 ### ZSK
-A ZSK (Zone-Signing Key) is a DNSSEC key pair used to sign all resource record sets (RRSets) within a specific DNS zone. The private component of the ZSK creates cryptographic signatures (RRSIG records) for each RRSet, while the corresponding public key is published in a DNSKEY record. When a resolver queries a signed zone, it fetches the RRSet, its RRSIG, and the ZSK's public DNSKEY to verify that the data has not been altered. ZSKs are designed for more frequent rotation than Key-Signing Keys (KSKs), balancing security and operational efficiency.
+A ZSK (Zone Signing Key) is a DNSSEC key pair used to sign all resource record sets (RRSets) within a specific DNS zone. The private component of the ZSK creates cryptographic signatures (RRSIG records) for each RRSet, while the corresponding public key is published in a DNSKEY record. When a resolver queries a signed zone, it fetches the RRSet, its RRSIG, and the ZSK's public DNSKEY to verify that the data has not been altered. ZSKs are designed for more frequent rotation than Key Signing Keys (KSKs), balancing security and operational efficiency.
 
 **Learn more:**
+[Zone Signing Key (ZSK)](/articles/types-of-dnssec-keys/#zone-signing-key-zsk)
 [nist.gov: ZSK](https://csrc.nist.gov/glossary/term/zone_signing_key)
 [HowDNSSEC.works: New records](https://howdnssec.works/new-records/)
 
 ### KSK
-A KSK (Key-Signing Key) is a DNSSEC key pair dedicated to signing the DNSKEY RRSet for a zone, rather than individual data records. Its private component creates RRSIG signatures over the entire set of DNSKEY records, while the public key is published alongside them. When a resolver validates DNSSEC, it first retrieves the KSK's public DNSKEY to verify those signatures, establishing trust before proceeding to verify zone data. KSKs typically rotate less frequently than Zone-Signing Keys (ZSKs), providing a stable trust anchor.
+A KSK (Key Signing Key) is a DNSSEC key pair dedicated to signing the DNSKEY RRSet for a zone, rather than individual data records. Its private component creates RRSIG signatures over the entire set of DNSKEY records, while the public key is published alongside them. When a resolver validates DNSSEC, it first retrieves the KSK's public DNSKEY to verify those signatures, establishing trust before proceeding to verify zone data. KSKs typically rotate less frequently than Zone-Signing Keys (ZSKs), providing a stable trust anchor.
 
 **Learn more:**
+[Key Signing Key (KSK)](https://support.dnsimple.com/articles/types-of-dnssec-keys/#key-signing-key-ksk)
 [nist.gov: KSK](https://csrc.nist.gov/glossary/term/key_signing_key)
 [HowDNSSEC.works: Key-Signing Who?](https://howdnssec.works/key-signing-who/)
 
 ### DNSSEC Key Rollover
-A DNSSEC key rollover is the process of replacing an existing cryptographic key (either a Zone-Signing Key or a Key-Signing Key) with a new one without interrupting the chain of trust. The steps typically include publishing both old and new public keys, updating DS records in the parent zone, and ensuring resolvers can validate signatures under both keys during the transition. Once the new key is trusted and in use, the old key is retired. Proper key rollovers prevent signature failures and maintain continuous DNSSEC protection.
+A DNSSEC key rollover is the process of replacing an existing cryptographic key (either a Zone Signing Key or a Key Signing Key) with a new one without interrupting the chain of trust. The steps typically include publishing both old and new public keys, updating DS records in the parent zone, and ensuring resolvers can validate signatures under both keys during the transition. Once the new key is trusted and in use, the old key is retired. Proper key rollovers prevent signature failures and maintain continuous DNSSEC protection.
 
 **Learn more:**
 [RFC 6781 §4.1](https://datatracker.ietf.org/doc/html/rfc6781#section-4.1)
+[Rotate DNSSEC Keys](/articles/rotate-dnssec-key/)
 [HowDNSSEC.works: Human DNS](https://howdnssec.works/human-dns/)
 
 ### Root Signing Key Ceremony
@@ -100,12 +109,14 @@ An NSEC (Next Secure) record is a DNSSEC resource record used to prove the non�
 
 **Learn more:**
 [RFC 4034 §4](https://datatracker.ietf.org/doc/html/rfc4034#section-4)
+[What is an NSEC Record?](/articles/nsec-nsec3-records/#what-is-an-nsec-record)
 
 ### NSEC3
 An NSEC3 (Next Secure Version 3) record is a DNSSEC resource record that proves the non‐existence of a queried name while preventing zone‐walking. Unlike NSEC, NSEC3 hashes domain names before constructing the chain of hashes. When a resolver queries a non‐existent record, the authoritative server returns an NSEC3 record that shows the closest existing hashed name and its hash range. Paired with an RRSIG signature, this securely authenticates denial of existence without revealing all zone names.
 
 **Learn more:**
 [RFC 5155 §3](https://datatracker.ietf.org/doc/html/rfc5155#section-3)
+[What is an NSEC3 Record?](/articles/nsec-nsec3-records/#what-is-an-nsec3-record)
 
 ## Extensions & Automation
 
@@ -120,9 +131,11 @@ CDS (Child DS) and CDNSKEY (Child DNSKEY) are DNSSEC resource record types that 
 
 **Learn more:**
 [RFC 7344 §3](https://datatracker.ietf.org/doc/html/rfc7344#section-3)
+[What are CDS and CDNSKEY?](/articles/what-are-cds-and-cdnskey/)
 
 ### DS Digest Algorithm
-A DNSSEC DS Digest Algorithm is the cryptographic hash function used to generate the digest value stored in a DS (Delegation Signer) record. When a child zone publishes its DNSKEY, the designated digest algorithm (e.g., SHA-1, SHA-256) processes the DNSKEY's public key data to produce a fixed-length hash. The parent zone stores this hash in its DS record. During validation, resolvers re-hash the child's DNSKEY using the same digest algorithm and compare it to the DS to confirm authenticity.
+A DNSSEC DS Digest Algorithm is the cryptographic hash function used to generate the digest value stored in a DS (Delegation Signer) record. When a child zone publishes its DNSKEY, the designated digest algorithm (e.g., SHA-1, SHA-256) processes the DNSKEY's public key data to produce a fixed-length hash. The parent zone stores this hash in its DS record. During validation, resolvers rehash the child's DNSKEY using the same digest algorithm and compare it to the DS to confirm authenticity.
 
 **Learn more:**
 [RFC 4034 §5.1](https://datatracker.ietf.org/doc/html/rfc4034#section-5.1)
+[DS Data Format](/articles/what-are-ds-records/#ds-data-format)
