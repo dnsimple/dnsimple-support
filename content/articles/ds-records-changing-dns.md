@@ -9,11 +9,11 @@ categories:
 
 # Managing DS Records When Changing DNS
 
-If you use DNSSEC, when you switch from one DNS provider to another you must take precautions to ensure your DNS resolution continues during the transition.
+If you use DNSSEC, when you switch from one DNS provider to another, you must take precautions to ensure your DNS resolution continues during the transition.
 
 ## Why this matters
 
-Your DS record links your domain to a specific DNSSEC key used to sign your zone. If you change DNS providers without updating or removing this record appropriately, your domain may become unreachable.
+Your [DS record](/articles/what-are-ds-records/) links your domain to a specific [DNSSEC key](/articles/types-of-dnssec-keys/) used to sign your zone. If you change DNS providers without updating or removing this record appropriately, your domain may become unreachable.
 
 ## What to do when changing DNS providers
 
