@@ -13,7 +13,7 @@ If your domain is registered with another registrar, you must remove the DS reco
 
 
 1. Select the correct account in the **account switcher** at the top right.
-  [screenshot of switching accounts](/files/switch-account.png)
+  ![screenshot of switching accounts](/files/switch-account.png)
 1. From your **Domain Names** list, click the name of the domain you want to disable DNSSEC on.
   ![screenshot of list of domain names](/files/dnssec-domain-names.png)
 1. Click the **DNSSEC** tab on the left side.
