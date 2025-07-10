@@ -25,9 +25,9 @@ If your domain is registered with another registrar, you must remove the DS reco
 1. When you click **Disable DNSSEC** for a domain that is registered with another domain registrar, you will see a reminder message to remove the DS record within 48 hours to prevent DNSSEC validation failures.
   ![screenshot of confirming disabling of external domain dnssec](/files/dnssec-disable-external.png)
 
-<note>
+<info>
   To learn how to disable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#disableDomainDnssec). 
-</note>
+</info>
   
 ## Have more questions?
 If you have any questions or need assistance disabling your DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
