@@ -8,7 +8,8 @@ categories:
 
 # Rotate DNSSEC Keys
 
-DNSimple automatically rotates key signing keys and zone signing keys every 90 days. Auto-rotation is mandatory. It cannot be disabled.
+DNSimple automatically rotates [key signing keys and zone signing keys](/articles/types-of-dnssec-keys/) every 90 days. Auto-rotation is mandatory. It cannot be disabled.
+
 Here is what you need to do, depending on how your domain is set up.
 
 ## If your domain is registered with us and uses our authoritative name servers
@@ -20,7 +21,7 @@ You will need to manually rotate your DS record at your domain registrar.
 **How it works:**
 
 1. When key rotation starts, we'll send you an email notification with the new DS record details.
-1. You have 7 days to update the DS records at your registrar. From there you will need to:
+1. You have 7 days to update the DS records at your registrar. From there, you will need to:
   - Remove the old DS record.
   - Add the new DS record provided in the email.
 1. During the key rotation, both old and new keys are attached to your zone for 7 days (the duration of the key rotation period).
@@ -55,7 +56,7 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 - Locate the section for managing DNSSEC or DS records.
 - Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
 
-If you're rotating keys, remember to remove any old DS records, and replace them with the new one from your DNSimple configuration.
+If you're rotating keys, remember to remove any old DS records and replace them with the new one from your DNSimple configuration.
 
 ## Have more questions?
 If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
