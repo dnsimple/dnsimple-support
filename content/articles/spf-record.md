@@ -16,7 +16,7 @@ categories:
 ---
 
 <note>
-  Effective August 11th 2025, SPF records defined using the SPF RR (type 99) will no longer be supported. For more information, see our [announcement](blog-post-link).
+  Effective August 11th 2025, SPF records defined using the SPF RR (type 99) will no longer be supported. For more information, see our [announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/).
 
   This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
