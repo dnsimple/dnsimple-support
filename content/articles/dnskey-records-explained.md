@@ -7,19 +7,19 @@ categories:
 ---
 # DNSKEY Records Explained
 
-In DNSSEC, DNSKEY records are fundamental. They hold the public keys that are used to verify the digital signatures (RRSIG records) of your domain's DNS data. This allows resolvers to confirm that the information they receive is authentic and hasn't been tampered with.
+In DNSSEC, DNSKEY records are fundamental. They hold the public keys that are used to verify the digital signatures [(RRSIG records)](/articles/understanding-rrsets-rrsigs/#what-is-an-rrsig) of your domain's DNS data. This allows resolvers to confirm that the information they receive is authentic and hasn't been tampered with.
 
-DNSKEY records are the cornerstone of trust in DNSSEC. Understanding the structure and function of DNSKEY records, especially the distinction between ZSKs and KSKs, is crucial for anyone working with or managing DNSSEC-secured domains. They're the foundation upon which the entire Chain of Trust is built.
+DNSKEY records are the cornerstone of trust in DNSSEC. Understanding the structure and function of DNSKEY records, especially the distinction between ZSKs and KSKs, is crucial for anyone working with or managing DNSSEC-secured domains. They're the foundation upon which the entire [Chain of Trust](/articles/dnssec-chain-of-trust/) is built.
 
 ## What is the purpose of a DNSKEY record?
 A DNSKEY record serves two critical functions:
 1. **Holding public keys:** It contains the public portion of the cryptographic key pairs used in DNSSEC. These public keys are essential for validating RRSIG records.
-1. **Establishing the Chain of Trust:** DNSKEY RRSet is signed, creating a Chain of Trust that extends from your domain to the internet's root zone.
+1. **Establishing the Chain of Trust:** DNSKEY RRSet is signed, creating a Chain of Trust that extends from your domain to the Internet's root zone.
 
 ## DNSKEY record structure
 A DNSKEY record contains several key pieces of information:
 
-- **Flags:** These numeric values indicate properties of the key, most notably whether it's a Zone Signing Key (ZSK) or a Key Signing Key (KSK).
+- **Flags:** These numeric values indicate properties of the key, most notably whether it's a [Zone Signing Key (ZSK) or a Key Signing Key (KSK)](/articles/types-of-dnssec-keys/).
     - A flag value of 256 indicates a ZSK.
     - A flag value of 257 indicates a KSK.
 - **Protocol: This field is always 3 for DNSSEC.**
@@ -29,7 +29,7 @@ A DNSKEY record contains several key pieces of information:
 ## ZSK vs. KSK in DNSKEY records
 A DNSKEY record can represent either a Zone Signing Key (ZSK) or a Key Signing Key (KSK). These keys have distinct roles, and this distinction is crucial to DNSSEC's operation.
 - **Zone Signing Key (ZSK):** ZSKs are used to sign the bulk of your domain's resource records (A, MX, CNAME, etc.). Because they sign frequently changing data, ZSKs can be rotated relatively often. The DNSKEY record for a ZSK has a flag value of 256.
-- **Key Signing Key (KSK):** KSKs have a higher level of trust. They're used to sign the DNSKEY record itself. This creates a "Chain of Trust." The public key hash of the KSK is published in a DS record at your parent zone (e.g., your registrar). This DS record is the crucial link that connects your domain's DNSSEC information to the parent zone, ultimately leading up to the internet's root. The DNSKEY record for a KSK has a flag value of 257.
+- **Key Signing Key (KSK):** KSKs have a higher level of trust. They're used to sign the DNSKEY record itself. This creates a "Chain of Trust." The public key hash of the KSK is published in a DS record at your parent zone (e.g., your registrar). This DS record is the crucial link that connects your domain's DNSSEC information to the parent zone, ultimately leading up to the Internet's root. The DNSKEY record for a KSK has a flag value of 257.
 
 ## How DNSKEY records enable validation
 Here's a simplified view of how DNSKEY records participate in the DNSSEC validation process:
