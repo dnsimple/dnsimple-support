@@ -23,13 +23,13 @@ You must remove your DS record before switching. Keeping it in place will cause 
 
 ### If you're moving to a provider that supports DNSSEC
 
-The same rule applies if you switch from one DNS provider with DNSSEC to another DNS provider with DNSSEC. You should [remove your DS record](/articles/manage-ds-record/#removing-a-ds-record) first, transition to the new DNS provider, and have them provide you with the new DS record you to add to your domain's registry name servers.
+The same rule applies if you switch from one DNS provider with DNSSEC to another DNS provider with DNSSEC. You should [remove your DS record](/articles/manage-ds-record/#removing-a-ds-record) first, transition to the new DNS provider, and have them provide you with the new DS record for you to add to your domain's registry name servers.
 
 For more information on adding and removing DS records, refer to this [support article](/articles/manage-ds-record/).
 
 ## Removing your DS record in DNSimple
 
-If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove it by following the steps in our [Managing DS Records article](/articles/manage-ds-record/).
+If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove it by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
 
 ## Have more questions?
 If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
