@@ -22,9 +22,9 @@ You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-
 1. Click **Enable DNSSEC** to start the configuration.
   ![screenshot of enabling dnssec for a domain](/files/dnssec-enable.png)
 
-<note>
+<info>
 To see how to enable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#enableDomainDnssec). 
-</note>
+</info>
 
 ## What Happens Next?
 **If the domain is registered with DNSimple and using DNSimple name servers:**
