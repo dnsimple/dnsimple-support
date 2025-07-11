@@ -44,7 +44,7 @@ We support the following proprietary DNS record types:
 Other record types are used behind the scenes to provide core DNS features:
 
 - [SOA](/articles/soa-record/) (type 6): Automatically created when you add a domain.
-- DS (type 43), DNSKEY (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/dnssec/).
+- DS (type 43), DNSKEY (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/enabling-dnssec/).
 
 ## DNS Records
 
