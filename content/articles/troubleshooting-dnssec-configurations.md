@@ -7,6 +7,12 @@ categories:
 
 # Troubleshooting DNSSEC Configurations
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+---
+
 ## Is DNSSEC active for your DNSimple domain?
 
 To check DNSimple's DNSSEC status:

@@ -15,11 +15,11 @@ The Zone Signing Key is used to sign your domain's DNS records, like A, MX, and 
 This allows DNS resolvers to check that your DNS information hasn't been tampered with and is coming from the correct source.
 
 ## Key Signing Key (KSK)
-The Key Signing Key signs your DNSKEY record, which contains the public part of both your ZSK and KSK.
+The Key Signing Key signs your [DNSKEY record](/articles/dnskey-records-explained/), which contains the public part of both your ZSK and KSK.
 
 This signature allows DNS resolvers to verify that the keys protecting your domain can be trusted.
 
-It also connects your domain to the global DNSSEC chain of trust:
+It also connects your domain to the global [DNSSEC chain of trust](/articles/dnssec-chain-of-trust/):
 - Your domain's parent zone (like .com, .org, etc.) stores a DS record that points to your KSK.
 - When a DNS resolver looks up your domain, it first checks this DS record to confirm it can trust your KSK.
 - Once the resolver trusts your KSK, it can then trust your ZSK and, in turn, trust your DNS records.

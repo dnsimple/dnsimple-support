@@ -18,7 +18,7 @@ categories:
 
 [Cloudflare](https://www.cloudflare.com/) is a service that offers protection and acceleration of your website by routing requests through its network.
 
-If you want to use Cloudflare's DNSSEC with a domain registered through DNSimple, follow these instructions to set your **DS record** at the domain registry.
+If you want to use Cloudflare's DNSSEC with a domain registered through DNSimple, follow these instructions to set your [DS record](/articles/what-are-ds-records/) at the domain registry.
 
 <info>
 Not all TLDs support DNSSEC. If you receive an error while adding your DS record at DNSimple, please [contact our support team](https://dnsimple.com/contact).

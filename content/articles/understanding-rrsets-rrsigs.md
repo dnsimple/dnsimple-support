@@ -32,9 +32,9 @@ An RRSIG (Resource Record Signature) is a digital signature that authenticates a
 
 ### How it works (basic)
 
-1. **Signing:** When DNSSEC is enabled for a domain, an RRSIG record is generated for each RRSET within that domain's zone. This signature is created using the zone's unique private signing key, typically the Zone Signing Key (ZSK).
+1. **Signing:** When DNSSEC is enabled for a domain, an RRSIG record is generated for each RRSET within that domain's zone. This signature is created using the zone's unique private signing key, typically the [Zone Signing Key (ZSK)](/articles/types-of-dnssec-keys/#zone-signing-key-zsk).
 1. **Serving:** When a DNS resolver (like your internet service provider's DNS server) requests an RRSET (e.g., the A records for `www.example.com`), the authoritative DNS server sends back both the RRSET and its corresponding RRSIG record.
-1. **Verification:** The resolver then uses the domain's public cryptographic key, found in a DNSKEY record (obtained through the secure DNSSEC chain of trust), to verify the RRSIG.
+1. **Verification:** The resolver then uses the domain's public cryptographic key, found in a [DNSKEY record](/articles/dnskey-records-explained/) (obtained through the secure [DNSSEC chain of trust](/articles/dnssec-chain-of-trust/)), to verify the RRSIG.
     - If the signature is **valid**, the resolver trusts that the RRSET is authentic and hasn't been tampered with.
     - If the signature is **invalid**, the resolver will discard the data, preventing you from being directed to a potentially malicious location.
 
@@ -44,7 +44,7 @@ An RRSIG record includes specific details crucial for its verification:
 
 - **Type covered:** The DNS record type of the RRSET being signed (e.g., A, MX, CNAME).
 - **Algorithm:** The cryptographic algorithm used for the signature (e.g., RSA/SHA-256).
-- **Original TTL:** The original Time To Live (TTL) value of the signed RRSET.
+- **Original TTL:** The original [Time To Live (TTL)](/articles/what-is-ttl/) value of the signed RRSET.
 - **Signature inception & expiration:** The time window during which the signature is valid. Signatures are time-limited and regenerated periodically.
 - **Key tag:** A short identifier for the public key used to verify this signature.
 - **Signer's name:** The domain name of the zone that signed the RRSET (typically your domain).

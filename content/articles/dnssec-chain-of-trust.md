@@ -23,16 +23,16 @@ Without a chain of trust, a DNSSEC-validating resolver wouldn't know where to be
 - **Verifiability:** Resolvers can validate the data they receive by verifying it against its expected authoritative origin.
 
 ## How the Chain of Trust works
-The Chain of Trust operates through the interplay of two key DNSSEC record types: DNSKEY records and DS records, established with a Trust Anchor.
+The Chain of Trust operates through the interplay of two key DNSSEC record types: [DNSKEY records](/articles/dnskey-records-explained/) and [DS records](/articles/what-are-ds-records/), established with a Trust Anchor.
 
 1. **The Trust Anchor (The Root of Trust)**
 
     The journey begins with a Trust Anchor, which is a public cryptographic key. A DNSSEC-validating resolver is pre-configured to implicitly trust this key.
-The most crucial Trust Anchor is the public Key Signing Key (KSK) for the DNS root zone ( . ). Most validating resolvers globally have this key built in. This Trust Anchor is the ultimate "point of known goodness" from which all other validations extend.
+The most crucial Trust Anchor is the public [Key Signing Key (KSK)](/articles/types-of-dnssec-keys/#key-signing-key-ksk) for the DNS root zone ( . ). Most validating resolvers globally have this key built in. This Trust Anchor is the ultimate "point of known goodness" from which all other validations extend.
 
 1. **Signing at each level (DNSKEY and RRSIG)**
 
-    Each DNSSEC-enabled zone (such as the root, a TLD, or your domain) has its public key stored in DNSKEY records. The corresponding private key is used to generate RRSIG records, which are cryptographic signatures over the zone's data (specifically, its RRSETs, or resource record sets).
+    Each DNSSEC-enabled zone (such as the root, a TLD, or your domain) has its public key stored in [DNSKEY records](/articles/dnskey-records-explained/). The corresponding private key is used to generate [RRSIG records](/articles/understanding-rrsets-rrsigs/#what-is-an-rrsig), which are cryptographic signatures over the zone's data (specifically, its [RRSETs](/articles/understanding-rrsets-rrsigs/#what-is-an-rrset), or resource record sets).
 
 1. **Delegating trust down the hierarchy (DS records)**
 
