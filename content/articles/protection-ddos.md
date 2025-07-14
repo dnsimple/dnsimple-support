@@ -24,4 +24,4 @@ Legitimate requests pass through the DDoS defense system and hit a first layer o
 
 DNSimple's name servers and DDoS protection infrastructure are distributed in multiple locations around the world.
 
-We currently adopt a two DDoS protection providers, and we're always working to introduce additional providers for zones where complete redundancy is critical. If this is something you're interested in, please [contact us](https://dnsimple.com/contact) to discuss technical requirements and pricing.
+We currently adopt a multiple DDoS protection providers setup, and we're always working to introduce additional providers for zones where complete redundancy is critical. If this is something you're interested in, please [contact us](https://dnsimple.com/contact) to discuss technical requirements and pricing.
