@@ -90,7 +90,6 @@ describe("Search", () => {
         'DNSSEC': 1,
         'Disabling DNSSEC': 2,
         'DNSSEC Glossary': 6,
-        'Using Cloudflare DNSSEC with DNSimple': 7,
       },
       "creating alias record": {
         "What's an ALIAS record?": 1,
@@ -190,9 +189,8 @@ describe("Search", () => {
         "Add DNSimple as a secondary DNS server": 2,
         "Add DNSMadeEasy as a secondary DNS server": 3,
         "Adding Dyn as a Secondary DNS Server": 4,
-        "Add DNSimple as Secondary DNS with a Hidden Primary": 5,
-        "Integrated DNS Providers at DNSimple": 6,
-        "Using DNSimple alongside other DNS providers": 7,
+        "Add DNSimple as Secondary DNS with a Hidden Primary": 6,
+        "Integrated DNS Providers at DNSimple": 7
       },
       "domain validation": {
         "ICANN Domain Validation Requirements": 1,
@@ -225,8 +223,8 @@ describe("Search", () => {
         "DNS Hosting": 2,
       },
       "dns propagation": {
-        "Troubleshooting Domain Resolution Issues": 2,
-        "Using DNSimple alongside other DNS providers": 6,
+        "Troubleshooting Domain Resolution Issues": 3,
+        "Using DNSimple alongside other DNS providers": 7,
       },
       "dnsimple pricing": {
         "DNSimple Plans": 2,
@@ -241,7 +239,7 @@ describe("Search", () => {
       },
       "ipv6 dns": {
         "IPv6 Domain Resolution": 1,
-        "What's an AAAA record?": 2,
+        "What's an AAAA record?": 3,
       },
       "email settings": {
         "Email Hosting Support": 4,

@@ -16,12 +16,18 @@ categories:
 ---
 
 <note>
-Although the SPF record type is deprecated, it's still supported by DNSimple name servers. We will discontinue serving SPF records in the future, so we will create a TXT record with the same content for you.
+  Effective August 11th 2025, SPF records defined using the SPF RR (type 99) will no longer be supported. For more information, see our [announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/).
+
+  This documentation has been updated to include the current recommended practices for SPF record management.
 </note>
 
 ## What's an SPF record?
 
-An SPF record is a Sender Policy Framework record. It's used to indicate to mail exchanges which hosts are authorized to send mail for a domain.
+The Sender Policy Framework (SPF) record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. SPF records are defined using the TXT record type.
+
+## Creating an SPF record
+
+To create an SPF record, follow the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type. In the record content field, follow the SPF-specific formatting rules described below.
 
 ## SPF record format {#record-format}
 
@@ -80,9 +86,9 @@ If you want to test your SPF records for compliance with the RFCs, you may want 
 
 ## Validation
 
-The reference document for the DNS CAA record is the  [RFC 4408](https://www.ietf.org/rfc/rfc4408.txt), clarified by [RFC 7208](https://www.ietf.org/rfc/rfc7208.txt).
+The reference document for the DNS SPF record type is the [RFC 4408](https://datatracker.ietf.org/doc/html/rfc4408), clarified by [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208).
 
-Since SPF records are built on top of TXT records, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
+Since SPF records are built on top of the TXT record type, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
 
 **Each fully-qualified name may have at maximum one SPF record**.
 

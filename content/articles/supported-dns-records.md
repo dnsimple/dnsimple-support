@@ -44,7 +44,7 @@ We support the following proprietary DNS record types:
 Other record types are used behind the scenes to provide core DNS features:
 
 - [SOA](/articles/soa-record/) (type 6): Automatically created when you add a domain.
-- DS (type 43), DNSKEY (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/dnssec/).
+- DS (type 43), DNSKEY (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/enabling-dnssec/).
 
 ## DNS Records
 
@@ -55,6 +55,6 @@ Some DNS records have their own semantics but are defined using existing record 
 
 ## Limitations
 
-- **CAA records and integrated providers**: CAA records are only supported on DNSimple and via Secondary DNS. They are not currently supported for transfer to integrated providers via the Domain Control Plane.
-
+- **CAA records and integrated providers**: CAA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
+  
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.
