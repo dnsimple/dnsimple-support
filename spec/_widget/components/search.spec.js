@@ -87,7 +87,7 @@ describe("Search", () => {
         "Account Activation": 5,
       },
       'enable dnssec': {
-        'DNSSEC': 1,
+        'DNSSEC at DNSimple': 1,
         'Disabling DNSSEC': 2,
         'DNSSEC Glossary': 6,
       },
@@ -185,12 +185,12 @@ describe("Search", () => {
         "Disabling Expiration Notifications": 2,
       },
       axfr: {
-        "Add a secondary DNS server to DNSimple": 1,
-        "Add DNSimple as a secondary DNS server": 2,
-        "Add DNSMadeEasy as a secondary DNS server": 3,
-        "Adding Dyn as a Secondary DNS Server": 4,
-        "Add DNSimple as Secondary DNS with a Hidden Primary": 6,
-        "Integrated DNS Providers at DNSimple": 7
+        "DNSSEC at DNSimple": 1,
+        "Add a secondary DNS server to DNSimple": 2,
+        "Add DNSimple as a secondary DNS server": 3,
+        "Add DNSMadeEasy as a secondary DNS server": 4,
+        "Adding Dyn as a Secondary DNS Server": 5,
+        "Add DNSimple as Secondary DNS with a Hidden Primary": 7,
       },
       "domain validation": {
         "ICANN Domain Validation Requirements": 1,
@@ -212,7 +212,7 @@ describe("Search", () => {
         "Can I use DNSimple for drop catching?": 3,
       },
       "dns records": {
-        "Common DNS Records": 1,
+        "Common DNS Records": 2,
       },
       "2fa": {
         "Enforce Multi-Factor Authentication for All Members of an Account": 1,
@@ -223,7 +223,7 @@ describe("Search", () => {
         "DNS Hosting": 2,
       },
       "dns propagation": {
-        "Troubleshooting Domain Resolution Issues": 3,
+        "Troubleshooting Domain Resolution Issues": 4,
         "Using DNSimple alongside other DNS providers": 7,
       },
       "dnsimple pricing": {
@@ -238,8 +238,8 @@ describe("Search", () => {
         "What Happens When a Domain Expires?": 6,
       },
       "ipv6 dns": {
-        "IPv6 Domain Resolution": 1,
-        "What's an AAAA record?": 3,
+        "IPv6 Domain Resolution": 2,
+        "What's an AAAA record?": 4,
       },
       "email settings": {
         "Email Hosting Support": 4,
