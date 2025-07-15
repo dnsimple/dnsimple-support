@@ -57,7 +57,7 @@ In the **To** field, enter the full email address that you want to forward the e
 ### Catch-all emails {#catch-all-emails}
 
 <info>
-When you have a catch-all email forward, it only applies to emails sent to addresses that don’t already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all won’t apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
+When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
 </info>
 
 To create a catch-all address, follow the instructions to create an email, and enter the following wildcard expression in the **From** field:
