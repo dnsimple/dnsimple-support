@@ -1,51 +1,53 @@
 ---
-title: DNSSEC
-excerpt: DNSimple provides full support for DNSSEC in our authoritative name servers, including signing of zones registered outside DNSimple.
+title: DNSSEC at DNSimple
+excerpt: Learn where to find everything you need to know about DNSSEC at DNSimple.
 categories:
-- DNS
 - DNSSEC
 ---
 
-# DNSSEC
-
-<warning>
-  DNSimple does not support [Secondary DNS](/articles/secondary-dns/) if you have DNSSEC enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about the complexities of multi-signer DNSSEC models in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
-</warning>
+# DNSSEC at DNSimple: Everything You Need to Know
 
 ### Table of Contents {#toc}
 
 * TOC
 {:toc}
-
 ---
 
-DNSSEC (Domain Name System Security Extensions) provides a way to cryptographically build a chain of trust from the [root name servers](https://en.wikipedia.org/wiki/Root_name_server) to [authoritative name servers](https://en.wikipedia.org/wiki/Name_server#Authoritative_name_server). Authenticating resolvers may verify this chain of trust to ensure the DNS results weren't tampered with while in transit. Check out our [comics](https://howdnssec.works/why-do-we-need-dnssec/) for a fun explanation of why we need DNSSEC.
+DNSSEC (Domain Name System Security Extensions) adds an essential layer of security to DNS, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for DS-data **and** KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
 
-## DNSSEC scenarios
+## What is DNSSEC?
 
-There are a variety of scenarios that DNSimple facilitates to ensure that your zone is signed. Use the scenarios below to understand how to configure your domain/zone.
+If you are new to DNSSEC, these articles will help you understand the fundamentals.
 
-### Scenario 1: Registered *and* DNS-hosted at DNSimple
+- [What Is DNSSEC?](/articles/what-is-dnssec/) Learn what DNSSEC is and why it matters.
+- [The DNSSEC Chain of Trust](/articles/dnssec-chain-of-trust/): Explore the concept of the Chain of Trust and how it ensures the validity of DNS data.
+- [What Are DS Records?](/articles/what-are-ds-records/): Understand the role of Delegation Signer (DS) records in linking a child zone to its parent in the DNSSEC chain.
+- [DNSKEY Records Explained](/articles/dnskey-records-explained/): Dive into DNSKEY records, which contain the public keys used to verify DNSSEC signatures.
+- [What Are the Types of DNSSEC Keys?](/articles/types-of-dnssec-keys/): Discover the different types of DNSSEC keys and their specific functions.
+- [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/): Learn about Resource Record Sets (RRSETs) and RRSIG (Resource Record Signature) records, which provide cryptographic proof of data integrity.
+- [Understanding NSEC and NSEC3 Records](/articles/nsec-nsec3-records/): Explore NSEC and NSEC3 records and how they help prevent zone walking.
+- [What Are CDS and CDNSKEY Records?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
 
-1. [Enable DNSSEC](/articles/enabling-dnssec/) for *automatic* zone signing, provisioning, and [key rotation](/articles/rotate-dnssec-key/).
+## How to manage DNSSEC
 
-### Scenario 2: Registered at DNSimple, but DNS-hosted elsewhere
+Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively with these articles.
 
-1. Set up DNSSEC through your external DNS provider.
-1. When you have the DNSSEC details, add them to your domain's registrar using our [DS management page](/articles/manage-ds-record/).
+- [Enabling DNSSEC](/articles/enabling-dnssec/): A step-by-step guide to turning DNSSEC **on** for your domain.
+- [Disabling DNSSEC](/articles/disabling-dnssec/):  A step-by-step guide to turning DNSSEC **off** for your domain.
+- [Adding and Removing DS Records](/articles/manage-ds-record/): Learn how to manually add or remove Delegation Signer (DS) records for your domain.
+- [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/): A guide to updating DS records when you migrate your DNS hosting to a different provider.
+- [Using Cloudflare DNSSEC with DNSimple](/articles/cloudflare-ds-record/): Using Cloudflare DNSSEC when your domain is with DNSimple.
+- [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
 
-### Scenario 3: Registered elsewhere, but DNS-hosted at DNSimple
+## Troubleshooting DNSSEC configurations
 
-1. [Enable DNSSEC](/articles/enabling-dnssec/) to sign your zone. This initiates automatic [key rotation](/articles/rotate-dnssec-key/).
-1. After enabling, copy the DS record details over to your domain's registrar.
-1. When the [key rotates](/articles/rotate-dnssec-key/) every three months, we'll send you an email with the details, which you'll need to supply to your domain's registrar.
+Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
-## Managing DNSSEC
+- [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
 
-DNSSEC is applied on a per-domain basis. DNSSEC management options are under the DNSSEC tab on a domain's management page.
+## Reference articles
 
-![screenshot: edit dnssec link](/files/edit-dnssec.png)
+Dive deeper into the specifics of DNSSEC with our comprehensive reference materials, including an overview of the settings and details available in your DNSimple account.
 
-## Managing DS records
-
-You'll be able to manage your records whether the TLD requires the DS records to be set up with the DS-Data interface or the KEY-Data interface. Read more about [managing DS records](/articles/manage-ds-record/).
+- [DNSSEC Management in DNSimple](/articles/dnssec-management-in-dnsimple/): A detailed look at the DNSSEC management interface within your DNSimple account, including available settings and information.
+- [DNSSEC Glossary](/articles/dnssec-glossary/): Familiarize yourself with common terms and definitions related to DNSSEC.
