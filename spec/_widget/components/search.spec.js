@@ -2,8 +2,6 @@ import Search from "../../../_widget/src/components/app/search.js";
 import ARTICLES from "../../../output/search.json";
 import { trackSearch } from "../../../_widget/src/components/app/analytics.js";
 
-import fs from "fs";
-
 jest.mock("../../../_widget/src/components/app/analytics.js", () => ({
   trackSearch: jest.fn(),
 }));
