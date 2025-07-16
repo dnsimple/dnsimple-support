@@ -40,4 +40,4 @@ DNSimple implements the following security requirements:
 
 ### Security reference
 
-For further reading about .BANK security requirements, the .BANK registry provides a comprehensive [Technical Guide to Security Requirements](https://go.ftld.com/full-documentation).
+For further reading about .BANK security requirements, the .BANK registry provides a comprehensive [Technical Guide to Security Requirements](https://ftld.com/security/).
