@@ -15,7 +15,7 @@ This automation significantly reduces the need for manual intervention during DN
 
 ## Why are these records useful?
 
-Without CDS or CDNSKEY, updating your DS records usually means doing everything by hand. You need to sign in to your registrar's dashboard, find the right settings, and copy long strings of DNSSEC data from your DNS provider to the registrar. It's not only a slow process, but it's also easy to make mistakes.
+Without CDS or CDNSKEY, updating your DS records usually means doing everything by hand. You need to sign in to your registrar's dashboard, find the right settings, and copy long strings of DNSSEC data from your DNS provider to the registrar. It's not only a slow process, it's also easy to make mistakes.
 
 If something goes wrong, like entering the wrong data or forgetting to update the DS record after a key change, your domain may stop resolving for people using DNSSEC-aware resolvers. Some users might still reach your site, but others will see errors, which can be confusing and damaging.
 
