@@ -117,7 +117,7 @@ describe("Search", () => {
       },
       "create a record": {
         "What's an A Record?": 1,
-        "Managing A Records": 5,
+        "Managing A Records": 6,
       },
       "retry payment": {
         "Account Invoice History": 3,

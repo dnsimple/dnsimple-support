@@ -7,7 +7,7 @@ categories:
 
 # What Are CDS and CDNSKEY?
 
-CDS (Child Delegation Signer) and CDNSKEY (Child DNS Public Key) are special DNS record types that facilitate the automated management of DNSSEC delegation. They enable child zones (your domain's DNS) to signal their parent zones (typically registries like .com or .org) about changes in DNSSEC-related records, specifically the DS (Delegation Signer) record. 
+CDS (Child Delegation Signer) and CDNSKEY (Child DNS Public Key) are special DNS record types that facilitate the automated management of DNSSEC delegation. They enable child zones (your domain's DNS) to signal their parent zones (typically registries like .com or .org) about changes in DNSSEC-related records, specifically the [DS (Delegation Signer) record](/articles/what-are-ds-records/). 
 
 CDS and CDNSKEY records reduce the need for manual changes and help prevent issues that can make your domain unreachable. At DNSimple, these records are managed automatically, making DNSSEC easier and safer to use.
 
@@ -32,9 +32,9 @@ If a parent zone supports CDS and/or CDNSKEY scanning:
 
 This ensures your domain stays secure and resolvable during events like:
 
-- Enabling or disabling DNSSEC
-- DNSSEC key rotation
-- DNS provider migration
+- [Enabling](/articles/enabling-dnssec/) or [disabling](/articles/disabling-dnssec/) DNSSEC
+- [DNSSEC key rotation](/articles/rotate-dnssec-key/)
+- [DNS provider migration](/articles/ds-records-changing-dns/)
 
 ## How DNSimple uses CDS and CDNSKEY
 

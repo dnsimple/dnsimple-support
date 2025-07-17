@@ -9,7 +9,7 @@ categories:
 
 A Delegation Signer (DS) record is a critical DNSSEC record that connects your domain's cryptographic identity to the global DNS system. It acts as a trusted reference from your parent zone (like .com or .org) to your domain's Key Signing Key (KSK) by containing a cryptographic digest (hash) of that key.
 
-This digest enables DNS resolvers to verify the authenticity and integrity of your DNSKEY without requiring access to the key itself. The DS record extends DNSSEC's chain of trust by letting the parent zone "vouch" for your domain's keys.
+This digest enables DNS resolvers to verify the authenticity and integrity of your [DNSKEY](/articles/dnskey-records-explained/) without requiring access to the key itself. The DS record extends DNSSEC's [chain of trust](/articles/dnssec-chain-of-trust/) by letting the parent zone "vouch" for your domain's keys.
 
 ## The DNS hierarchy
 
@@ -19,11 +19,11 @@ To understand DS records, it's important to understand how the DNS system is str
 - Below that are top-level domains (TLDs) like .com, .net, or .org, known as parent zones.
 - Below that are your domains, like `example.com`, referred to as child zones.
 
-In a DNSSEC-enabled setup, each layer can validate the one below it. The DS record allows the parent zone to securely delegate trust to your domain by linking to your domain's DNSSEC keys.
+In a DNSSEC-enabled setup, each layer can validate the one below it. The DS record allows the parent zone to securely delegate trust to your domain by linking to your domain's [DNSSEC keys](/articles/types-of-dnssec-keys/).
 
 ## Why DS records matter
 
-When DNSSEC is enabled for your domain, DNS resolvers can verify that your DNS records haven't been forged or modified. This is possible, because your records are cryptographically signed using private keys, and the corresponding public key (your KSK) is published in your domain via DNSKEY records.
+When DNSSEC is enabled for your domain, DNS resolvers can verify that your DNS records haven't been forged or modified. This is possible because your records are cryptographically signed using private keys, and the corresponding public key (your KSK) is published in your domain via DNSKEY records.
 
 But publishing a DNSKEY alone isn't enough. For DNS resolvers to trust your DNSKEY, they need a verified reference to it from the parent zone. That's the role of the DS record.
 
