@@ -56,7 +56,7 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 - Locate the section for managing DNSSEC or DS records.
 - Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
 
-If you're rotating keys, remember to remove any old DS records and replace them with the new one from your DNSimple configuration.
+If you're rotating keys, remember to remove any old DS records, and replace them with the new one from your DNSimple configuration.
 
 ## Have more questions?
 If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
