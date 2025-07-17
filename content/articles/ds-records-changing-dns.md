@@ -29,7 +29,7 @@ For more information on adding and removing DS records, refer to this [support a
 
 ## Removing your DS record in DNSimple
 
-If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove it by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
+If you're using DNSimple as your domain registrar and have previously set up your DS record with us, you can remove it by following the steps in our [Managing DS Records article](/articles/manage-ds-record/).
 
 ## Have more questions?
 If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
