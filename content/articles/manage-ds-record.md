@@ -7,7 +7,7 @@ categories:
 - DNSSEC
 ---
 
-# Managing DS Records
+# Adding and Removing DS Records
 
 ### Table of Contents {#toc}
 
@@ -69,6 +69,10 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1. The record is created and visible in the record list.
 
+<info>
+To add a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#createDomainDelegationSignerRecord).
+</info>
+
 ## Removing a DS record
 
 <note>
@@ -93,6 +97,10 @@ You can only manually remove a DS record if it is not managed by DNSimple. If DN
     ![screenshot: Showing confirmation prior to deleting DS record](/files/ds-records-delete-confirmation.png)
 
 1.  The record is deleted and no longer visible in the record list.
+
+<info>
+To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
+</info>
 
 ## Have more questions?
 
