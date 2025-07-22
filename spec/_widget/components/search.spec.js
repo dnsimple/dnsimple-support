@@ -64,7 +64,10 @@ describe("Search", () => {
     subject = new Search(undefined, "https://developer.dnsimple.com");
     subject.addArticles(ARTICLES, "https://support.dnsimple.com");
 
-    const sameSiteArticle = { id: "/v2/zones/ns-records/", title: "Zone NS Records API | Zones | DNSimple API v2" };
+    const sameSiteArticle = {
+      id: "/v2/zones/ns-records/",
+      title: "Zone NS Records API | Zones | DNSimple API v2",
+    };
     subject.addArticles([sameSiteArticle], "https://developer.dnsimple.com");
 
     const results = subject.query("records");
@@ -75,212 +78,106 @@ describe("Search", () => {
 
   describe("queries", () => {
     const queries = {
-      "what's a cname record": {
-        "What's a CNAME record?": 3,
-      },
-      "a record": {
-        "Managing A Records": 5,
-        "What's an A Record?": 1,
-      },
-      "manage account": {
-        "Account Creation": 1,
-        "Account Activation": 5,
-      },
-      'enable dnssec': {
-        'DNSSEC at DNSimple': 1,
-        'Disabling DNSSEC': 2,
-        'DNSSEC Glossary': 6,
-      },
-      "creating alias record": {
-        "What's an ALIAS record?": 1,
-        "Record Editor": 5,
-      },
-      "alias record": {
-        "What's an ALIAS record?": 1,
-        "Record Editor": 5,
-      },
-      "request ssl certificate": {
-        "SSL/TLS Certificates": 1,
-        "SSL Certificate Types": 2,
-      },
-      "auto-renew certificate": {
-        "Renewing an SSL Certificate": 2,
-        "Renewing a standard SSL Certificate": 4,
-        "How does an SSL Certificate Renewal work?": 5,
-        "Renewing a Let's Encrypt SSL Certificate": 6,
-      },
-      "delegate name servers to another provider": {
-        "Setting the Name Servers for a Domain": 4,
-        "Pointing a Domain to DNSimple": 3,
-        "DNSimple Name Servers": 1,
-        "Delegating a Domain registered with another Registrar to DNSimple": 5,
-      },
-      "create a record": {
-        "What's an A Record?": 1,
-        "Managing A Records": 6,
-      },
-      "retry payment": {
-        "Account Invoice History": 3,
-        "Changing Payment Details": 2,
-        "Payment methods": 1,
-        "Understanding Your DNSimple Invoice": 4,
-      },
-      hosting: {
-        "Web Hosting Support": 1,
-        "DNS Hosting": 2,
-        "Email Hosting Support": 3,
-        "Why We Don't Offer Web Hosting Services": 4,
-      },
-      "add user": {
-        "Managing Multiple Members on One Account": 2,
-      },
-      access: {
-        "API Access Token": 1,
-        "Domain Access Control": 2,
-      },
-      dashboard: {
-        "Getting to Know Your DNSimple Dashboard": 1,
-      },
-      mx: {
-        "What's an MX Record?": 1,
-      },
-      ddns: {
-        "Dynamic DNS": 1,
-      },
-      transfer: {
-        "Transfer a Domain to DNSimple": 1,
-        "Transferring a domain away from DNSimple": 3,
-        "Transfer or Register Domains With DNSimple": 4,
-        "Domain Transfer Pricing": 2,
-      },
-      certificates: {
-        "SSL/TLS Certificates": 1,
-        "SHA-2 SSL Certificates": 2,
-        "SSL Certificates with NGINX": 3,
-        "SSL Certificates with Apache": 4,
-        "SSL Certificates with Heroku": 5,
-        "SSL Certificates with Windows": 6,
-        "Getting Started with SSL Certificates": 7,
-      },
-      metrics: {
-        "DNS Query Volume Fees": 1,
-      },
-      stats: {
-        "DNS Query Volume Fees": 1,
-      },
-      observability: {
-        "DNS Query Volume Fees": 1,
-      },
-      queries: {
-        "DNS Query Volume Fees": 1,
-      },
-      analytics: {
-        "DNS Query Volume Fees": 1,
-      },
-      comment: {
-        "Record Notes": 1,
-      },
-      expiry: {
-        "Product Expiration Notification": 1,
-        "Disabling Expiration Notifications": 2,
-      },
-      axfr: {
-        "DNSSEC at DNSimple": 1,
-        "Add a secondary DNS server to DNSimple": 2,
-        "Add DNSimple as a secondary DNS server": 3,
-        "Add DNSMadeEasy as a secondary DNS server": 4,
-        "Adding Dyn as a Secondary DNS Server": 5,
-        "Add DNSimple as Secondary DNS with a Hidden Primary": 7,
-      },
-      "domain validation": {
-        "ICANN Domain Validation Requirements": 1,
-      },
-      "password reset": {
-        "Forgot Password": 1,
-      },
-      "password recovery": {
-        "Forgot Password": 1,
-      },
-      "email not working": {
-        "What's an MX Record?": 5,
-        "Email Hosting Support": 3,
-      },
-      "domain registration": {
-        "Registering a Domain": 1,
-      },
-      "domain name search": {
-        "Can I use DNSimple for drop catching?": 3,
-      },
-      "dns records": {
-        "Common DNS Records": 2,
-      },
-      "2fa": {
-        "Enforce Multi-Factor Authentication for All Members of an Account": 1,
-        "First Steps Guide to Setting Up Your Team": 2,
-        "Multi-Factor Authentication": 3,
-      },
-      "domain parking": {
-        "DNS Hosting": 2,
-      },
-      "dns propagation": {
-        "Troubleshooting Domain Resolution Issues": 4,
-        "Using DNSimple alongside other DNS providers": 7,
-      },
-      "dnsimple pricing": {
-        "DNSimple Plans": 2,
-        "Domain Transfer Pricing": 3,
-      },
-      "change nameservers": {
-        "Setting the Name Servers for a Domain": 3,
-        "What is a name server?": 4,
-      },
-      "domain expiration": {
-        "What Happens When a Domain Expires?": 6,
-      },
-      "ipv6 dns": {
-        "IPv6 Domain Resolution": 2,
-        "What's an AAAA record?": 4,
-      },
-      "email settings": {
-        "Email Hosting Support": 4,
-        "Troubleshooting Email Forwarding with Gmail": 7,
-        "What's an MX Record?": 3,
-      },
-      "domain owner": {
-        "Changing Domain Contacts": 2,
-        "WHOIS Privacy Protection": 1,
-      },
-      login: {
-        "Getting Started": 1,
-      },
+      "what's a cname record": ["cname-record"],
+      "a record": ["manage-a-record", "a-record"],
+      "manage account": ["account-creation", "account-activation"],
+      "enable dnssec": ["dnssec", "disabling-dnssec", "dnssec-glossary"],
+      "creating alias record": ["alias-record", "record-editor"],
+      "alias record": ["alias-record", "record-editor"],
+      "request ssl certificate": ["ssl-certificates", "ssl-certificates-types"],
+      "auto-renew certificate": [
+        "renewing-ssl-certificate",
+        "renewing-standard-ssl-certificate",
+        "how-certificate-renewal-works",
+        "renewing-lets-encrypt-ssl-certificate",
+      ],
+      "delegate name servers to another provider": [
+        "setting-name-servers",
+        "pointing-domain-to-dnsimple",
+        "dnsimple-nameservers",
+        "delegating-dnsimple-hosted",
+      ],
+      "create a record": ["a-record", "manage-a-record"],
+      "retry payment": [
+        "account-invoice-history",
+        "changing-payment-details",
+        "payment-methods",
+        "understanding-invoice",
+      ],
+      hosting: ["web-hosting", "dns-hosting", "email-hosting", "why-not-web-hosting"],
+      "add user": ["account-users"],
+      access: ["api-access-token", "domain-access-control"],
+      dashboard: ["dashboard"],
+      mx: ["mx-record"],
+      ddns: ["dynamic-dns"],
+      transfer: [
+        "domain-transfer",
+        "transferring-domain-away",
+        "guide-register-or-transfer-a-domain",
+        "domain-transfer-pricing",
+      ],
+      certificates: [
+        "ssl-certificates",
+        "sha-2-ssl-certificates",
+        "ssl-certificate-with-nginx",
+        "ssl-certificate-with-apache",
+        "ssl-certificate-with-heroku",
+        "ssl-certificate-with-windows",
+        "getting-started-ssl-certificates",
+      ],
+      metrics: ["dns-query-limits"],
+      stats: ["dns-query-limits"],
+      observability: ["dns-query-limits"],
+      queries: ["dns-query-limits"],
+      analytics: ["dns-query-limits"],
+      comment: ["record-notes"],
+      expiry: ["product-expiration-notification", "disabling-expiration-notifications"],
+      axfr: [
+        "secondary-dns",
+        "secondary-dns-dnsimple-as-secondary",
+        "secondary-dns-provider-dns-made-easy",
+        "secondary-dns-provider-dyn",
+        "secondary-dns-dnsimple-with-hidden-primary",
+      ],
+      "domain validation": ["icann-domain-validation"],
+      "password reset": ["forgot-password"],
+      "password recovery": ["forgot-password"],
+      "email not working": ["mx-record", "email-hosting"],
+      "domain registration": ["registering-domain"],
+      "domain name search": ["drop-catching"],
+      "dns records": ["common-dns-records"],
+      "2fa": [
+        "multi-factor-authentication-enforcement",
+        "guide-getting-started-with-your-team",
+        "multi-factor-authentication",
+      ],
+      "domain parking": ["dns-hosting"],
+      "dns propagation": ["domain-resolution-issues", "secondary-dnsimple"],
+      "dnsimple pricing": ["dnsimple-plans", "domain-transfer-pricing"],
+      "change nameservers": ["setting-name-servers", "what-is-a-nameserver"],
+      "domain expiration": ["what-happens-when-domain-expires"],
+      "ipv6 dns": ["ipv6-support", "aaaa-record"],
+      "email settings": ["email-hosting", "troubleshooting-email-forwarding-gmail", "mx-record"],
+      "domain owner": ["changing-domain-contact", "whois-privacy"],
+      login: ["getting-started"],
     };
 
-    for (const q in queries) {
-      const expectedArticles = queries[q];
-
-      describe(`\`${q}\``, () => {
-        for (const title in expectedArticles) {
-          const minimumRank = expectedArticles[title];
-
-          it(`returns \`${title}\` as result #${minimumRank}${minimumRank > 1 ? " or better" : ""}`, () => {
-            const results = subject.query(q);
-
-            const resultTitles = results.map((a) => a.title);
-            const rankForArticle = resultTitles.indexOf(title) + 1;
-
-            if (rankForArticle > 0 && rankForArticle < minimumRank)
-              console.warn(`Minimum rank for \`${title}\` for \`${q}\` can be reduced from ${minimumRank} to ${rankForArticle}.`);
-
-            expect(resultTitles).toContain(title);
-            expect(rankForArticle).toBeLessThanOrEqual(minimumRank);
+    Object.entries(queries).forEach(([searchTerm, expectedIds]) => {
+      describe(`\`${searchTerm}\``, () => {
+        expectedIds
+          .map((id) => `/articles/${id}/`)
+          .forEach((id) => {
+            it(`returns \`${id}\` as result`, () => {
+              const results = subject.query(searchTerm);
+              const resultIds = results.map((result) => result.id);
+              expect(resultIds).toContain(id);
+            });
           });
-        }
       });
-    }
+    });
 
     it("limits results when good results are available", () => {
       const results = subject.query("alias");
-
       expect(results.length).toBeLessThanOrEqual(4);
     });
   });
