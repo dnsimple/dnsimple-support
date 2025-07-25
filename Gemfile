@@ -1,28 +1,28 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'nanoc', '~> 4.13'
-gem 'builder'
-gem 'ddmemoize'
-gem 'kramdown'
-gem 'kramdown-parser-gfm'
-gem 'mime-types'
-gem 'nokogiri'
-gem 'puma', '~> 6.6'
-gem 'rouge'
-gem 'systemu'
+gem "rake"
+gem "nanoc", "~> 4.13"
+gem "builder"
+gem "ddmemoize"
+gem "kramdown"
+gem "kramdown-parser-gfm"
+gem "mime-types"
+gem "nokogiri"
+gem "puma", "~> 6.6"
+gem "rouge"
+gem "systemu"
 
 group :test do
-  gem 'minitest'
-  gem 'minitest-reporters'
+  gem "minitest"
+  gem "minitest-reporters"
 end
 
 group :development do
-  gem 'adsf'
-  gem 'pry', '~> 0.15.2'
+  gem "adsf"
+  gem "pry", "~> 0.15.2"
 end
 
 group :nanoc do
-  gem 'nanoc-dart-sass'
-  gem 'nanoc-live'
+  gem "nanoc-dart-sass"
+  gem "nanoc-live"
 end
