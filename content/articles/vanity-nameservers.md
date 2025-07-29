@@ -57,3 +57,7 @@ You'll see a page where you can disable the vanity name servers. Click the <labe
 ![Disable Vanity Name Servers](/files/vanity-name-servers-disable.png)
 
 Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don't have the domain registered with us, you should [change the delegation with your registrar to our name servers](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/).
+
+<note>
+If your domain is registered with us, we'll also automatically remove the related [glue records](https://howdns.works/ep7/), assuming they are for the same domain name. If you're only using our DNS services, you need to request that your registrar remove the glue records for you.
+</note>
