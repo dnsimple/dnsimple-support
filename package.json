@@ -37,8 +37,7 @@
     "lint:fix": "eslint _widget src spec --fix",
     "widget": "vite serve ./_widget",
     "test": "bundle exec rake compile && jest",
-    "test:watch": "jest --watch",
-    "search:preview": "bundle exec rake compile && node ./scripts/preview-search-results.js"
+    "test:watch": "jest --watch"
   },
   "resolutions": {
     "esbuild": "^0.25.0"
