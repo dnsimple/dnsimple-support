@@ -1,6 +1,7 @@
 ---
 title: DNSSEC Glossary
 excerpt: Defines terms related to DNSSEC.
+meta: Explore our comprehensive DNSSEC glossary, featuring essential definitions and terms to enhance your understanding of DNS security and its critical components.
 categories:
 - DNSSEC
 ---

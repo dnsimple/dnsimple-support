@@ -1,6 +1,7 @@
 ---
 title: Why Should I Host My DNS with DNSimple?
 excerpt: You should consider DNSimple for easy DNS management and expert support.
+meta: Discover the top reasons to host your DNS with DNSimple, where seamless management, expert support, and reliable performance come together for your online success.
 categories:
 - DNSimple
 ---

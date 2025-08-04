@@ -1,7 +1,7 @@
 ---
 title: The DNSSEC Chain of Trust
 excerpt: Explains the DNSSEC Chain of Trust.
-meta: Learn what the DNSSEC Chain of Trust is and why it's critical to DNSSEC.
+meta: Discover the DNSSEC Chain of Trust, its vital role in securing DNS, and how it protects your domain from attacks. Understand its importance for online safety.
 categories:
 - DNSSEC
 ---
