@@ -1,6 +1,7 @@
 ---
 title: Choosing the SSL Certificate Names
 excerpt: Guidelines and information for selecting the SSL certificate host names.
+meta: Discover essential guidelines for selecting the right SSL certificate host names to ensure your website's security and trustworthiness with DNSimple's expert insights.
 categories:
 - SSL Certificates
 ---

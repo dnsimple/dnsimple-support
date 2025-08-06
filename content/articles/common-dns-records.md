@@ -1,6 +1,7 @@
 ---
 title: Common DNS Records
 excerpt: Examples of the most common DNS records to configure for your domain.
+meta: Discover essential DNS record types for your domain, including A, CNAME, MX, and TXT records. Learn how to configure them effectively for optimal performance.
 categories:
 - DNS
 ---

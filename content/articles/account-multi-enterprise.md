@@ -1,6 +1,7 @@
 ---
 title: Multi-Account Management for Enterprise Clients
 excerpt: How to manage multiple accounts under a single Enterprise contract
+meta: Learn how to efficiently manage multiple accounts under a single Enterprise contract with DNSimple, ensuring streamlined organization and optimal performance.
 categories:
 - Account
 ---
