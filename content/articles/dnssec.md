@@ -5,7 +5,7 @@ categories:
 - DNSSEC
 ---
 
-# DNSSEC at DNSimple: Everything You Need to Know
+# DNS Security Extensions (DNSSEC) at DNSimple 
 
 ### Table of Contents {#toc}
 
@@ -13,7 +13,7 @@ categories:
 {:toc}
 ---
 
-DNSSEC (Domain Name System Security Extensions) adds an essential layer of security to DNS, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for DS-data **and** KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
+DNSSEC (Domain Name System Security Extensions) is an essential DNS security tool, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for DS-data **and** KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
 
 ## What is DNSSEC?
 
