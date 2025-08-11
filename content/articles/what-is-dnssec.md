@@ -24,7 +24,7 @@ Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://how
 
 Although DNS is a fundamental part of the Internet's infrastructure, it lacks built-in security to verify that the information it returns is authentic or unchanged. This makes it possible for attackers to manipulate DNS responses and redirect users without them ever knowing.
 
-DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. It ensures that what you receive genuinely comes from the correct source and hasn't been altered in transit.
+DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. It ensures that what you receive genuinely comes from the correct source and hasn't been altered in transit. If you want to use secure DNS, we recommend [enabling DNSSEC](/articles/enabling-dnssec/).
 
 ## How does DNSSEC work?
 
