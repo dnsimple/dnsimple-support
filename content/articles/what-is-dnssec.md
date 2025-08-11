@@ -18,7 +18,7 @@ DNSSEC stands for Domain Name System Security Extensions. It's part of DNS secur
 
 Without DNSSEC, attackers can exploit vulnerabilities in DNS to redirect users to malicious sites, even if everything looks normal. With DNSSEC, DNS resolvers can perform authentication to confirm the integrity of DNS records using cryptographic signatures.
 
-Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://howdnssec.works) for a fun explanation.
+Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://howdnssec.works) for a fun explanation, and get answers to your burning questions on what DNS security is and how DNSSEC helps ensure DNS protection. 
 
 ## Why DNSSEC is a good DNS security tool
 
