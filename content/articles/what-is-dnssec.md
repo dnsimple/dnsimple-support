@@ -14,7 +14,7 @@ categories:
 
 ## The meaning of DNSSEC
 
-DNSSEC stands for Domain Name System Security Extensions. adds a layer of security to DNS by allowing DNS records to be digitally signed. This helps ensure that the responses users receive from a DNS lookup are authentic and haven't been tampered with along the way.
+DNSSEC stands for Domain Name System Security Extensions. It's part of DNS security best practices, because it adds a layer of security to DNS by allowing DNS records to be digitally signed. This helps ensure that the responses users receive from a DNS lookup are authentic and haven't been tampered with along the way.
 
 Without DNSSEC, attackers can exploit vulnerabilities in DNS to redirect users to malicious sites, even if everything looks normal. With DNSSEC, DNS resolvers can perform authentication to confirm the integrity of DNS records using cryptographic signatures.
 
