@@ -1,6 +1,6 @@
 ---
-title: What Is DNSSEC?
-excerpt: Explains what DNSSEC is and why it matters.
+title: What Is DNSSEC (Domain Name System Security Extensions)?
+excerpt: Explains what DNSSEC is and why it matters for your domain security.
 meta: Learn how DNSSEC works and what happens when you enable DNSSEC on your domains.
 categories:
   - DNSSEC
@@ -12,17 +12,19 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/7JWpgka8zBQ" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-DNSSEC (Domain Name System Security Extensions) adds a layer of security to DNS by allowing DNS records to be digitally signed. This helps ensure that the responses users receive from a DNS lookup are authentic and haven't been tampered with along the way.
+## The meaning of DNSSEC
+
+DNSSEC stands for Domain Name System Security Extensions. It's part of DNS security best practices, because it adds a layer of security to DNS by allowing DNS records to be digitally signed. This helps ensure that the responses users receive from a DNS lookup are authentic and haven't been tampered with along the way.
 
 Without DNSSEC, attackers can exploit vulnerabilities in DNS to redirect users to malicious sites, even if everything looks normal. With DNSSEC, DNS resolvers can perform authentication to confirm the integrity of DNS records using cryptographic signatures.
 
-Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://howdnssec.works) for a fun explanation.
+Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://howdnssec.works) for a fun explanation, and get answers to your burning questions on what DNS security is and how DNSSEC helps ensure DNS protection. 
 
-## Why DNSSEC matters
+## Why DNSSEC is a good DNS security tool
 
 Although DNS is a fundamental part of the Internet's infrastructure, it lacks built-in security to verify that the information it returns is authentic or unchanged. This makes it possible for attackers to manipulate DNS responses and redirect users without them ever knowing.
 
-DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. It ensures that what you receive genuinely comes from the correct source and hasn't been altered in transit.
+DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. It ensures that what you receive genuinely comes from the correct source and hasn't been altered in transit. If you want to use secure DNS, we recommend [enabling DNSSEC](/articles/enabling-dnssec/).
 
 ## How does DNSSEC work?
 

@@ -1,29 +1,29 @@
 ---
 title: The DNSSEC Chain of Trust
-excerpt: Explains the DNSSEC Chain of Trust.
-meta: Discover the DNSSEC Chain of Trust, its vital role in securing DNS, and how it protects your domain from attacks. Understand its importance for online safety.
+excerpt: Explains the DNSSEC chain of trust.
+meta: Discover the DNSSEC chain of trust, its vital role in securing DNS, and how it protects your domain from attacks. Understand its importance for online safety.
 categories:
 - DNSSEC
 ---
 
 # The DNSSEC Chain of Trust
-The Chain of Trust is the fundamental mechanism that lets DNSSEC-aware resolvers verify the authenticity and integrity of DNS data cryptographically. It ensures the information they receive hasn't been tampered with and comes from a trusted, authoritative source.
+The chain of trust is the fundamental mechanism that lets DNSSEC-aware resolvers verify the authenticity and integrity of DNS data cryptographically. It ensures the information they receive hasn't been tampered with and comes from a trusted, authoritative source.
 
-## What is the DNSSEC Chain of Trust?
-The DNSSEC Chain of Trust is a cryptographic pathway that follows the hierarchical structure of the Internet's DNS. It's a series of digital signatures that link each level of the DNS system, from the root zone down to Top-Level Domains (TLDs) and individual domains, through all the steps in between.
+## What is the DNSSEC chain of trust?
+The DNSSEC chain of trust is a cryptographic pathway that follows the hierarchical structure of the Internet's DNS. It's a series of digital signatures that link each level of the DNS system, from the root zone down to Top-Level Domains (TLDs) and individual domains, through all the steps in between.
 
 By meticulously linking each level of the domain name hierarchy with digital signatures, it provides a verifiable path from a universally trusted anchor all the way down to your individual domain's records. This creates an unbroken chain of cryptographic verification essential for preventing DNS tampering, ensuring data integrity, and building trust in the internet's naming system.
 
-## Why is a Chain of Trust needed?
-Without a chain of trust, a DNSSEC-validating resolver wouldn't know where to begin trusting DNS data.
+## Why is a chain of trust needed?
+The chain of trust is essential to your domain name security with DNSSEC. Without a chain of trust, a DNSSEC-validating resolver wouldn't know where to begin trusting DNS data.
 
 ### The chain ensures:
 - **Authenticity:** Each zone in the delegation chain uses its private key to sign its DNS data to provide proof of origin.
 - **Integrity**: Data hasn't been altered in transit.
 - **Verifiability:** Resolvers can validate the data they receive by verifying it against its expected authoritative origin.
 
-## How the Chain of Trust works
-The Chain of Trust operates through the interplay of two key DNSSEC record types: [DNSKEY records](/articles/dnskey-records-explained/) and [DS records](/articles/what-are-ds-records/), established with a Trust Anchor.
+## How the chain of trust works
+The chain of trust operates through the interplay of two key DNSSEC record types: [DNSKEY records](/articles/dnskey-records-explained/) and [DS records](/articles/what-are-ds-records/), established with a Trust Anchor.
 
 1. **The Trust Anchor (The Root of Trust)**
 

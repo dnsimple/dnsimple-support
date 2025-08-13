@@ -5,7 +5,7 @@ categories:
 - DNSSEC
 ---
 
-# DNSSEC at DNSimple: Everything You Need to Know
+# DNS Security Extensions (DNSSEC) at DNSimple 
 
 ### Table of Contents {#toc}
 
