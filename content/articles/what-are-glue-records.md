@@ -24,7 +24,7 @@ Glue records are a special type of DNS record that play an important role in the
 
 Let's say you register `example.com` and want to use `ns1.example.com` and `ns2.example.com` as its authoritative name servers (these are often called vanity name servers). When someone tries to find `example.com`, their DNS resolver needs to know the IP address of `ns1.example.com`. But how can it find the IP address of `ns1.example.com` if `ns1.example.com` is supposed to tell it where `example.com` is? It creates a circular dependency.
 
-Glue records break this circle.
+Glue records break this loop.
 
 ## How glue records work: the role of the parent zone
 
