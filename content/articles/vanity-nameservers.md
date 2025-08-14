@@ -43,7 +43,7 @@ You'll see two options:
 
 Click **Configure** to set up the domain as the provider of vanity name servers.
 
-If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add glue records (LINK).  
+If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add [glue records](/articles/what-are-glue-records) 
 
 If the domain is registered elsewhere, and you're only using our DNS services, you need to request that your registrar add the glue records for you. You can find the IPv4 and IPv6 addresses for these records in our article on the [DNSimple name servers](/articles/dnsimple-nameservers/).
 
