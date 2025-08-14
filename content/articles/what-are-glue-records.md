@@ -1,9 +1,10 @@
 ---
 title: What Are Glue Records?
-excerpt: Learn what glue records are and why they matter for DNSSEC.
-meta: Discover the importance of glue records in DNSSEC, how they enhance security, and their role in establishing trust for your domain's DNS management.
+excerpt: Learn what glue records are and why they matter.
+meta: Discover the importance of glue records and how they solve a fundamental problem in DNS.
 categories:
-- DNSSEC
+- DNS
+- Name Servers
 ---
 
 # What Are Glue Records?
@@ -27,9 +28,9 @@ Glue records break this circle.
 
 ## How glue records work: the role of the parent zone
 
-Glue records are published not within your domain's own DNS zone, but by the parent zone (typically the Top-Level Domain, or TLD registry like .com, .org, etc.) and/or your domain registrar.
+Glue records are published not within your domain's own DNS zone, but by the parent zone (typically the Top-Level Domain, or TLD registry like .COM, .ORG, etc.) and/or your domain registrar.
 
-When you register a domain and specify name servers that are subdomains of your own domain (e.g., ns1.yourdomain.com), you also provide the IP addresses for those name servers to your registrar. Your registrar then communicates these IP addresses to the TLD registry. The TLD registry then publishes these IP addresses as glue records alongside the NS records that delegate your domain.
+When you register a domain and specify name servers that are subdomains of your own domain (e.g., `ns1.yourdomain.com`), you also provide the IP addresses for those name servers to your registrar. Your registrar then communicates these IP addresses to the TLD registry. The TLD registry then publishes these IP addresses as glue records alongside the NS records that delegate your domain.
 
 **The process:**
 1. A DNS resolver wants to find `www.yourdomain.com`.
@@ -61,4 +62,4 @@ For step-by-step instructions on how to set up vanity name servers for your doma
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your glue records or vanity name servers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
