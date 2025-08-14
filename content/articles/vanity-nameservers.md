@@ -49,7 +49,7 @@ If the domain is registered elsewhere, and you're only using our DNS services, y
 
 To use the domain on which you're enabling vanity name servers for the name server names, click **Enable**. The proper records will be added to the domain automatically.
 
-![Vanity Name Servers on same domain](/files/vanity-name-servers-enable.png)
+![Vanity Name Servers on same domain](/files/vanity-name-servers-card-enable.png)
 
 ![Vanity Name Servers confirmation of enable](/files/vanity-name-servers-confirm-enabled.png)
 
