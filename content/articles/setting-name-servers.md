@@ -81,7 +81,7 @@ If you are adding a name server that is a child of the domain, glue records are 
 The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
 </info>
 
-For more information on glue records and how they work, you can read What Are Glue Records?(LINK)
+For more information on glue records and how they work, see What Are Glue Records?(LINK)
 
 ## Have more questions?
 
