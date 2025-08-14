@@ -37,7 +37,7 @@ You'll see two options:
 
 **Delegate** – Use an existing vanity name server configuration.
 
-![Vanity Name Server card](/files/vanity-name-servers-card-enable.png)
+![Vanity Name Server card](/files/vanity-name-servers-card.png)
 
 ### Using the same domain
 
@@ -49,7 +49,9 @@ If the domain is registered elsewhere, and you're only using our DNS services, y
 
 To use the domain on which you're enabling vanity name servers for the name server names, click **Enable**. The proper records will be added to the domain automatically.
 
-![Vanity Name Servers on same domain](/files/vanity-name-servers-same-domain.png)
+![Vanity Name Servers on same domain](/files/vanity-name-servers-enable.png)
+
+![Vanity Name Servers confirmation of enable](/files/vanity-name-servers-confirm-enabled.png)
 
 ### Using another domain
 
@@ -59,7 +61,8 @@ If you want to use another domain for the name server names on the domain for wh
 Ensure the FQDNs you provide have the proper records configured on the other domain before attempting to delegate to them. If you do not, your domain will not resolve. Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers/) for the IPv4 and IPv6 addresses required for your vanity name servers.
 </warning>
 
-![Vanity Name Servers with another domain](/files/vanity-name-servers-other-domain.png)
+![Vanity Name Servers using other domain](/files/vanity-name-servers-other-domain.png)
+
 
 If your domain is registered with DNSimple, we'll take care of the delegation automatically. If your domain is registered elsewhere, you'll need to update the name server delegation at your registrar to point to the vanity name servers you just configured.
 
@@ -77,17 +80,21 @@ To do this:
 
 If your domain is registered with us, the delegation will be handled automatically. If it's registered elsewhere, you'll need to update the name servers at your current registrar to match the ones you entered.
 
+![Delegate Vanity Name Servers](/files/vanity-name-servers-delegate.png)
+
 ## Disabling Vanity Name Servers
 
 To disable vanity name servers that you've previously configured, visit the **DNS** tab of the domain management page, and click **Stop delegation** on the **Vanity name servers** card.
 
-![Vanity Name Servers card](/files/vanity-name-servers-card-disable.png)
+![Vanity Name Servers Stop Delegation option](/files/vanity-name-servers-stop-delegation.png)
 
 Once no zones are delegated to the vanity name servers, click **Disable**.
 
-![Disable Vanity Name Servers](/files/vanity-name-servers-disable.png)
+![Disable Vanity Name Servers](/files/vanity-name-servers-disable-card.png)
 
 Clicking **Disable** will populate a confirmation:
+
+![Disable Vanity Name Servers Confirmation](/files/vanity-name-servers-disable.png)
 
 >Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don't have the domain registered with us, you should change the delegation with your registrar to our name servers.
 
