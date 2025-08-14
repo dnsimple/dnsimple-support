@@ -1,7 +1,7 @@
 ---
-title: Vanity Name Servers
-excerpt: How to enable and disable Vanity Name Servers in DNSimple.
-meta: Learn how to easily enable and disable Vanity Name Servers in DNSimple to enhance your brand's online presence and improve your domain management experience.
+title: Managing Vanity Name Servers
+excerpt: How to enable and disable vanity name servers in DNSimple.
+meta: Learn how to easily enable and disable vanity name servers in DNSimple to enhance your brand's online presence and improve your domain management experience.
 categories:
 - Name Servers
 - Domains
