@@ -54,7 +54,7 @@ Both configuration and delegation are necessary to fully utilize vanity name ser
 
 For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article [Managing Vanity Name Servers](/articles/vanity-nameservers/).
 
-To understand more about the critical role of glue records in this process, see our [What Are Glue Records?](/articles/what-are-glue-records) article.
+To understand more about the critical role of glue records in this process, see our What Are Glue Records? (LINK) article.
 
 You also need the IP addresses of DNSimple's name servers to configure your glue records (when using the "Configure" option and if DNSimple is not your registrar). These can be found in [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
