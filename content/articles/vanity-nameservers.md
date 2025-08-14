@@ -24,43 +24,41 @@ Vanity name servers are available on [Enterprise plans](/articles/dnsimple-plans
 
 ## Enabling Vanity Name Servers
 
-You can enable vanity name servers from the domain’s DNS tab in your DNSimple account.
+You can enable vanity name servers from the domain's DNS tab in your DNSimple account.
 
 To enable them:
 
-1. Use the account switcher at the top of the page to select the account you want to work with.
+1. Use the **account switcher** at the top of the page to select the account you want to work with.
 
-2. In your Domain Names list, click the name of the domain you want to enable vanity name servers on.
+1. In your **Domain Names** list, click the name of the domain you want to enable vanity name servers on.
 
-3. Click the DNS tab.
+1. Click the **DNS** tab.
 
-4. Scroll down to the Vanity name servers section.
+1. Scroll down to the **Vanity name servers** section.
 
+You'll see two options:
 
-You’ll see two options:
+**Configure** – Set up this domain as the source of vanity name servers (for example, ns1.yourdomain.com).
 
-Configure – Set up this domain as the source of vanity name servers (for example, ns1.yourdomain.com).
-
-
-Delegate – Use a vanity name server configuration that you have already configured.
-
+**Delegate** – Use a vanity name server configuration that you have already configured.
 
 ![Vanity Name Server card](/files/vanity-name-servers-card-enable.png)
 
 ### Using the same domain
 
-Click <label>Configure</label> to set up the domain as the provider of vanity name servers.
+Click **Configure** to set up the domain as the provider of vanity name servers.
 
-If you're using the same domain for the name server names (for example, ns1.yourdomain.com for yourdomain.com), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we’ll also automatically add glue records.  
+If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add glue records (LINK).  
 
-If the domain is registered elsewhere and you’re only using our DNS services, you need to request that your registrar add the glue records for you. You can find the IPv4 and IPv6 addresses you need for these records in our article on the DNSimple name servers.
-To use the domain on which you're enabling vanity name servers for the name server names, click the <label>Enable</label> link and the proper records will be added to the domain automatically.
+If the domain is registered elsewhere and you're only using our DNS services, you need to request that your registrar add the glue records for you. You can find the IPv4 and IPv6 addresses you need for these records in our article on the [DNSimple name servers](/articles/dnsimple-nameservers/).
+
+To use the domain on which you're enabling vanity name servers for the name server names, click the **Enable** link and the proper records will be added to the domain automatically.
 
 ![Vanity Name Servers on same domain](/files/vanity-name-servers-same-domain.png)
 
 ### Using another domain
 
-If you want to use another domain for the name server names on the domain for which you're configuring vanity name servers,  enter the fully qualified domain name (FQDN) for the name server names you want to use, and click <label>Enable Vanity Name Servers</label>
+If you want to use another domain for the name server names on the domain for which you're configuring vanity name servers, enter the fully qualified domain name (FQDN) for the name server names you want to use, and click **Enable Vanity Name Servers**.
 
 <warning>
 Ensure the FQDNs you provide have the proper records configured on the other domain before attempting to delegate to them. If you do not, your domain will not resolve. Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers/) for the IPv4 and IPv6 addresses required for your vanity name servers.
@@ -68,7 +66,7 @@ Ensure the FQDNs you provide have the proper records configured on the other dom
 
 ![Vanity Name Servers with another domain](/files/vanity-name-servers-other-domain.png)
 
-If your domain is registered with DNSimple, we’ll take care of the delegation automatically. If your domain is registered elsewhere, you’ll need to update the name server delegation at your registrar to point to the vanity name servers you just configured.
+If your domain is registered with DNSimple, we'll take care of the delegation automatically. If your domain is registered elsewhere, you'll need to update the name server delegation at your registrar to point to the vanity name servers you just configured.
 
 ## Delegating to existing vanity name servers
 
@@ -76,31 +74,31 @@ If you already configured vanity name servers on another domain and want to use 
 
 To do this:
 
-1. Use the account switcher to select the correct account.
+1. Use the **account switcher** to select the correct account.
 
-2. In your Domain Names list, click the domain you want to delegate.
+1. In your **Domain Names** list, click the domain you want to delegate.
 
-3. Click the DNS tab.
+1. Click the **DNS** tab.
 
-4. Scroll to the Vanity name servers section and click Delegate.
+1. Scroll to the **Vanity name servers** section and click Delegate.
 
-5. Enter the vanity name server hostnames (for example, ns1.brand.com, ns2.brand.com), then click Delegate. 
+1. Enter the vanity name server hostnames (for example, `ns1.brand.com`, `ns2.brand.com`), then click **Delegate**. 
 
-If your domain is registered with us, the delegation will be handled automatically. If it's registered elsewhere, you’ll need to update the name servers at your current registrar to match the ones you entered.
+If your domain is registered with us, the delegation will be handled automatically. If it's registered elsewhere, you'll need to update the name servers at your current registrar to match the ones you entered.
 
 ## Disabling Vanity Name Servers
 
-To disable vanity name servers that you’ve previously configured, visit the DNS tab of the domain management page and click Stop delegation on the Vanity Nameservers card.
+To disable vanity name servers that you've previously configured, visit the **DNS** tab of the domain management page and click **Stop delegation** on the **Vanity name servers** card.
 
 ![Vanity Name Servers card](/files/vanity-name-servers-card-disable.png)
 
-Once no zones are delegated to the vanity name servers, click Disable.
+Once no zones are delegated to the vanity name servers, click **Disable**.
 
 ![Disable Vanity Name Servers](/files/vanity-name-servers-disable.png)
 
-Clicking Disable will bring you to a confirmation:
+Clicking **Disable** will bring you to a confirmation:
 
-Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don’t have the domain registered with us, you should change the delegation with your registrar to our name servers.
+Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don't have the domain registered with us, you should change the delegation with your registrar to our name servers.
 
 <note>
 If your domain is registered with us, we'll automatically remove the related [glue records](/articles/setting-name-servers/#glue-records), assuming they are for the same domain name. If your domain is registered elsewhere, you should contact your registrar and request that they remove the glue records for you.
@@ -108,4 +106,4 @@ If your domain is registered with us, we'll automatically remove the related [gl
 
 ## Have more questions?
 
-If you have any questions or need assistance enabling DNSSEC, contact support, and we’ll be happy to help.
+If you have any questions or need assistance enabling DNSSEC, contact support (LINK), and we'll be happy to help.
