@@ -59,7 +59,7 @@ If DNSimple is your domain registrar, you will typically manage your glue record
 
 ## Managing glue records
 
-For step-by-step instructions on how to set up vanity name servers for your domain, please refer to Managing Vanity Name Servers(LINK).
+For step-by-step instructions on how to set up vanity name servers for your domain, please refer to [Managing Vanity Name Servers](/articles/vanity-nameservers/).
 
 ## Have more questions?
 
