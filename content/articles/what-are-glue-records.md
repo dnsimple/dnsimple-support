@@ -9,14 +9,14 @@ categories:
 
 # What Are Glue Records?
 
-[video and info about video]
-
 ### Table of Contents
 
 * TOC
 {:toc}
 
 ---
+
+[video and info about video]
 
 Glue records are a special type of DNS record that play an important role in the delegation of domain names, particularly when a domain's authoritative name servers are part of that same domain. They are essentially IP addresses (A or AAAA records) for name servers that solve a fundamental "chicken and egg" problem in the Domain Name System.
 
@@ -28,18 +28,18 @@ Glue records break this circle.
 
 ## How glue records work: the role of the parent zone
 
-Glue records are published not within your domain's own DNS zone, but by the parent zone (typically the Top-Level Domain, or TLD registry like .COM, .ORG, etc.) and/or your domain registrar.
+Glue records are not published within your domain's DNS zone. They are published by the parent zone (typically the Top-Level Domain, or TLD registry like .COM, .ORG, etc.) and/or your domain registrar.
 
-When you register a domain and specify name servers that are subdomains of your own domain (e.g., `ns1.yourdomain.com`), you also provide the IP addresses for those name servers to your registrar. Your registrar then communicates these IP addresses to the TLD registry. The TLD registry then publishes these IP addresses as glue records alongside the NS records that delegate your domain.
+When you register a domain and specify name servers that are subdomains of your domain (e.g., `ns1.yourdomain.com`), you also provide the IP addresses for those name servers to your registrar. Your registrar communicates these IP addresses to the TLD registry. The TLD registry publishes these IP addresses as glue records alongside the NS records that delegate your domain.
 
 **The process:**
 1. A DNS resolver wants to find `www.yourdomain.com`.
-1. It queries a root name server, which points it to the .com TLD name servers.
-1. The .com TLD name servers look for NS records for `yourdomain.com`. They find NS records pointing to `ns1.yourdomain.com` and `ns2.yourdomain.com`.
-1. Crucially, alongside these NS records, the .com TLD name servers also provide the glue records (the A/AAAA records) for `ns1.yourdomain.com` and `ns2.yourdomain.com` directly.
+1. It queries a root name server, which points it to the .COM TLD name servers.
+1. The .COM TLD name servers look for NS records for `yourdomain.com`. They find NS records pointing to `ns1.yourdomain.com` and `ns2.yourdomain.com`.
+1. Crucially, alongside these NS records, the .COM TLD name servers also provide the glue records (the A/AAAA records) for `ns1.yourdomain.com` and `ns2.yourdomain.com` directly.
 1. With these IP addresses, the resolver can now directly contact `ns1.yourdomain.com` or `ns2.yourdomain.com` to get the A record for `www.yourdomain.com`.
 
-This extra "glue" information ensures that the resolution chain can be completed.
+This extra "glue" information ensures the resolution chain can be completed.
 
 ### Common use case: vanity name servers
 
@@ -50,11 +50,12 @@ When setting up vanity name servers, you must define the glue records (the IP ad
 ### Relationship to other DNS records
 
 **NS Records**: Glue records are inseparable from NS records when the name servers are within the delegated zone. The NS record delegates authority, and the glue record provides the necessary IP address to resolve that delegation.
+
 **A/AAAA Records**: A glue record is essentially an A record (for IPv4) or an AAAA record (for IPv6) that is published at a higher level in the DNS hierarchy (the parent zone/TLD) to resolve a circular dependency.
 
 #### DNSimple's role in glue records
 
-If DNSimple is your domain registrar, you will typically manage your glue records directly within your DNSimple account interface when setting up vanity name servers. If your domain is registered elsewhere, you will manage them through your third-party registrar's control panel.
+If DNSimple is your domain registrar, you will typically manage your glue records within your DNSimple account interface when setting up vanity name servers. If your domain is registered elsewhere, you will manage them through your third-party registrar's control panel.
 
 ## Managing glue records
 
