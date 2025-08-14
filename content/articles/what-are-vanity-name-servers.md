@@ -1,6 +1,6 @@
 ---
 title: What Are Vanity Name Servers?
-excerpt: Learn what vanity name servers are and why they're valuable for your buisness.
+excerpt: Learn what vanity name servers are and why they're valuable for your business.
 meta: Learn more about vanity name servers and how they enhance your brand's online presence and improve your domain management experience.
 categories:
 - Name Servers
