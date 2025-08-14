@@ -92,7 +92,7 @@ Clicking **Disable** will populate a confirmation:
 >Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don't have the domain registered with us, you should change the delegation with your registrar to our name servers.
 
 <note>
-If your domain is registered with us, we'll automatically remove the related glue records (LINK), assuming they are for the same domain name. If your domain is registered elsewhere, contact your registrar and request that they remove the glue records for you.
+If your domain is registered with us, we'll automatically remove the related [glue records](/articles/what-are-glue-records), assuming they are for the same domain name. If your domain is registered elsewhere, contact your registrar and request that they remove the glue records for you.
 </note>
 
 ## Have more questions?
