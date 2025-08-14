@@ -1,6 +1,6 @@
 ---
 title: Setting the Name Servers for a Domain
-excerpt: To set the name servers, your domain must be registered with DNSimple. If that's not the case, use the control panel of your current domain registrar to update the name servers.
+excerpt: To set the name servers, your domain must be registered with DNSimple. If it's not, use the control panel of your current domain registrar to update the name servers.
 categories:
 - Name Servers
 ---
@@ -81,13 +81,7 @@ If you are adding a name server that is a child of the domain, glue records are 
 The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
 </info>
 
-### What are glue records?
-
-DNS glue records are used when a domain name uses name servers that are children of the domain name itself.
-
-Let's say you own the domain name example.com that uses the name servers `ns1.example.com` and `ns2.example.com`. When a DNS resolver asks the TLD name server for example.com, it would respond with `ns1.example.com` and `ns2.example.com`, but we don't know which IP addresses these names correspond to. Without an IP address, the resolver can't establish a connection to the name server to ask for the IP address.
-
-To solve this problem, TLD domain name servers let you specify IP addresses for the name servers directly in the TLD name servers. When you ask a TLD name server for the name servers of example.com, you not only get back `ns1.example.com` and `ns2.example.com`, you also get A records for `ns1.example.com` and `ns2.example.com` as part of the response. DNS resolvers then know where to go for the rest of the details.
+For more information on glue records and how they work, you can read What Are Glue Records?(LINK)
 
 ## Have more questions?
 
