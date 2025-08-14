@@ -15,7 +15,7 @@ This functionality is about rebranding your DNS services, allowing your infrastr
 
 ## Why use vanity name servers?
 
-Vanity name servers offer several benefits for businesses and organizations who want to to enhance their online presence:
+Vanity name servers offer several benefits for businesses and organizations who want to enhance their online presence:
 
 - **Professional branding**: Using your own domain name for name servers (e.g.,`ns1.mybrand.com`) provides a more polished and consistent brand image, reinforcing professionalism and technical sophistication.
 - **Provider abstraction**: It hides the identity of your underlying DNS hosting provider from public DNS queries. While DNSimple still manages your DNS behind the scenes, external lookups will show your custom branded name servers, giving the impression of full self-hosted DNS.
@@ -52,7 +52,7 @@ Both configuration and delegation are necessary to fully utilize vanity name ser
 
 ## Setting up and managing vanity name servers
 
-For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article Managing Vanity Name Servers(LINK).
+For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article [Managing Vanity Name Servers](/articles/vanity-nameservers/).
 
 To understand more about the critical role of glue records in this process, see What are Glue Records?(LINK)
 
