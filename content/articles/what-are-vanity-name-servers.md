@@ -1,5 +1,5 @@
 ---
-title: What Are Vanity Name Servers
+title: What Are Vanity Name Servers?
 excerpt: Learn what vanity name servers are and why they're valuable for your buisness.
 meta: Learn more about vanity name servers and how they enhance your brand's online presence and improve your domain management experience.
 categories:
@@ -58,7 +58,3 @@ You also need the IP addresses of DNSimple's name servers to configure your glue
 
 ## Have more questions?
 If you have additional questions or need any assistance with your vanity name servers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-Have more questions?
-If you have any questions about vanity name servers and how it works contact support, and we’ll be happy to help.
-
