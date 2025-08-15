@@ -9,8 +9,8 @@ categories:
 
 ### Table of Contents {#toc}
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ---
 
