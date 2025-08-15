@@ -2,15 +2,15 @@
 title: Setting the Name Servers for a Domain
 excerpt: To set the name servers, your domain must be registered with DNSimple. If it's not, use the control panel of your current domain registrar to update the name servers.
 categories:
-- Name Servers
+  - Name Servers
 ---
 
 # Setting the Name Servers for a Domain Name
 
 ### Table of Contents {#toc}
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
 
@@ -39,13 +39,13 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1. Instead of manually entering the name server names, you can also click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets/).
+1.  Instead of manually entering the name server names, you can also click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets/).
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-   If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets/), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if `ns1.example.com` is being configured as a name server for the domain "example.com", and `ns1.example.com` has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve `ns1.example.com` to its associated IP address(es) will be created at the registry.
+    If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets/), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if `ns1.example.com` is being configured as a name server for the domain "example.com", and `ns1.example.com` has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve `ns1.example.com` to its associated IP address(es) will be created at the registry.
 
-1. Click <label>Change Name Servers</label> to apply the name server changes.
+1.  Click <label>Change Name Servers</label> to apply the name server changes.
 
 </div>
 
@@ -71,19 +71,9 @@ To make changes to a reserved name server, click on the configuration icon next 
 
 ## Glue records
 
-If you are adding a name server that is a child of the domain, glue records are required. You will be prompted about the missing glue records upon clicking <label>Change Name Servers</label>. To add glue record, create a [name server set](/articles/name-server-sets/#creating-an-account-name-server-set), and click <label>Add a name server set</label> on the <label>Edit delegation</label> page to apply it.
-
-<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-
-<info>
-The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
-</info>
-
+If you are adding a name server that is a child of the domain, glue records are required.
 For more information on glue records and how they work, see our [What Are Glue Records?](/articles/what-are-glue-records/) article.
 
 ## Have more questions?
 
 If you have further questions or need assistance setting up name servers for your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-

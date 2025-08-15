@@ -3,20 +3,26 @@ title: What Are Glue Records?
 excerpt: Learn what glue records are and why they matter.
 meta: Discover the importance of glue records and how they solve a fundamental problem in DNS.
 categories:
-- DNS
-- Name Servers
+  - DNS
+  - Name Servers
 ---
 
 # What Are Glue Records?
 
 ### Table of Contents
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ---
 
-[video and info about video]
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<info>
+The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
+</info>
 
 Glue records are a special type of DNS record that play an important role in the delegation of domain names, particularly when a domain's authoritative name servers are part of that same domain. They are essentially IP addresses (A or AAAA records) for name servers that solve a fundamental "chicken and egg" problem in the Domain Name System.
 
@@ -33,6 +39,7 @@ Glue records are not published within your domain's DNS zone. They are published
 When you register a domain and specify name servers that are subdomains of your domain (e.g., `ns1.yourdomain.com`), you also provide the IP addresses for those name servers to your registrar. Your registrar communicates these IP addresses to the TLD registry. The TLD registry publishes these IP addresses as glue records alongside the NS records that delegate your domain.
 
 **The process:**
+
 1. A DNS resolver wants to find `www.yourdomain.com`.
 1. It queries a root name server, which points it to the .COM TLD name servers.
 1. The .COM TLD name servers look for NS records for `yourdomain.com`. They find NS records pointing to `ns1.yourdomain.com` and `ns2.yourdomain.com`.
