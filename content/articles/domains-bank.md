@@ -15,7 +15,7 @@ categories:
 This article explains the requirements and special procedures for .BANK domain names.
 
 <info>
-.BANK registrations are only available on Enterprise & Teams plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
+.BANK registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
 </info>
 
 ## Registering a .BANK domain {#registering}
