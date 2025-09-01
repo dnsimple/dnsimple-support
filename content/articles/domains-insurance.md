@@ -53,7 +53,7 @@ Before initiating the domain registration through DNSimple, you must request a r
 1. Go to [https://register.insurance/get-started/](https://register.insurance/get-started/)
 2. When completing this form, under Registrar of Choice:
   - Select: Key-Systems, LLC.
-  ![screenshot: insurance registrar](/files/domains-insurance-registrar.png)
+  ![screenshot: insurance registrar](/files/domains-ftld-registrar.png)
 3. Once completed, you'll receive a token. Keep this token;  you'll need it to complete the [registration in DNSimple](https://support.dnsimple.com/articles/registering-domain/).
 
 ### DNSimple requirements
