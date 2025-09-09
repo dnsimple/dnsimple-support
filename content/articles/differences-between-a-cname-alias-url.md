@@ -7,7 +7,6 @@ categories:
 
 # Differences Among A, CNAME, ALIAS, and URL records
 
-
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/mn07RUxAJRA" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -52,3 +51,26 @@ Let's break down how each record type functions and the primary problem it solve
 - **Important rule:** Unlike A, CNAME, or ALIAS records that cause a name to resolve to an IP, the URL record causes the name to redirect to a destination. The web browser receives an HTTP redirect instruction and then goes to the new URL.
 - **When to use:** When you want a domain or subdomain to automatically send visitors to a completely different web address, changing the URL in their browser's address bar.
 - **Learn more:** [What Is a URL Record?](/articles/url-record/)
+
+## Choosing the right record type
+
+The choice among these record types depends entirely on your specific requirements:
+
+**Use an A record:**
+- When you know the fixed, stable **IPv4 address** of your server.
+- This is the most direct way to point a hostname to a server's location.
+
+**Use a CNAME record:**
+- When you want to alias a **subdomain** (e.g., `blog.example.com`) to another hostname (e.g., `example.wordpress.com`).
+- Crucially, choose CNAME **only if** that subdomain will not have any other records (like MX records for email) associated with it.
+
+**Use an ALIAS record:**
+- When you need to alias your **root domain** (e.g., `example.com`) to a hostname provided by a service (e.g., a CDN or cloud host that gives you `cdn.mycloud.com`, not an IP).
+- When you need to alias any hostname to another hostname, but that hostname **must also have other DNS records** (e.g., you need `support.example.com` to point to `tickets.zendesk.com` AND receive email via an MX record).
+
+**Use a URL record:**
+- When you want to perform a **web redirect** (HTTP redirect), causing a visitor's browser to automatically change addresses from one URL to another.
+- This is ideal for simple domain forwarding or redirecting www to your naked domain without requiring a full web server setup.
+
+## Have more questions?
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
