@@ -40,7 +40,7 @@ The instructions in this article assume you're familiar with the [A record forma
     </note>
 
     - **IP Address**: The IPv4 address the record will resolve to.
-    - **TTL**: The record's [time-to-live](https://support.dnsimple.com/articles/what-is-ttl/).
+    - **TTL**: The record's [time-to-live](/articles/what-is-ttl/).
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Include a [record note](/articles/record-notes/) (optional).
 
