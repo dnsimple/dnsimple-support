@@ -19,13 +19,15 @@ You can manage [A records](/articles/a-record/) in DNSimple using the [DNS recor
 
 The instructions in this article assume you're familiar with the [A record format](/articles/a-record/#record-format) and usage.
 
-
 ## Adding an A record
 
 <div class="section-steps" markdown="1">
 #### To add an A record
 
-1. In the record editor, click <label>Add record</label> and select <label>A</label> from the dropdown menu to add a new A record.
+1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
+1. From the **Domain Names** list, click the domain you want to manage.
+1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. In the record editor, click **Add record**, and select **A** from the dropdown menu to add a new A record.
     ![screenshot: select A record from record type](/files/select-a-record.png)
 
 1. Enter the A record information.
@@ -38,12 +40,9 @@ The instructions in this article assume you're familiar with the [A record forma
     </note>
 
     - **IP Address**: The IPv4 address the record will resolve to.
-
-    As with any other DNS record, you can configure:
-
-    - **TTL**: The record time-to-live.
+    - **TTL**: The record's [time-to-live](https://support.dnsimple.com/articles/what-is-ttl/).
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
-    - **Notes**: Optionally include a [record note](/articles/record-notes/).
+    - **Notes**: Include a [record note](/articles/record-notes/) (optional).
 
 1. Once you're ready, click <label>Add Record</label> to confirm and create the record.
 
@@ -52,24 +51,36 @@ The instructions in this article assume you're familiar with the [A record forma
 
 </div>
 
+<note>
+Some hosting providers label fields differently than DNSimple does, which can be confusing if you’re copying DNS settings from another provider.
+In DNSimple, **Name** = what others might call _Host_.
+In DNSimple, **Content** = what others might call _Value_.
+</note>
 
 ## Updating an A record
 
 <div class="section-steps" markdown="1">
 #### To update an A record
 
-1. In the record editor, search for the record, and click the _pencil_ icon to edit it.
+1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
+1. From the **Domain Names** list, click the domain you want to manage.
+1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. Locate the A record you want to update in the list.
+1. Click the **edit icon** (🖊️) on the right side.
   ![screenshot: edit an A record](/files/a-record-edit.png)
 1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
-
 
 ## Removing an A record
 
 <div class="section-steps" markdown="1">
 #### To remove an A record
 
-1. In the record editor, search for the record, and click the _trash_ icon to delete it.
+1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
+1. From the **Domain Names** list, click the domain you want to manage.
+1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. Locate the A record you want to remove in the list
+1. Click the **trash icon** on the right side to delete it.
   ![screenshot: delete A record](/files/a-record-delete.png)
 1. Confirm the dialog to delete the record.
 </div>
