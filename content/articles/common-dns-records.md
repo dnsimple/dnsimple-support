@@ -88,7 +88,7 @@ While every domain's DNS configuration can be unique, a basic set of records is 
 
 _This article assumes `example.com` is your domain name._
 
-### Root domain record (`example.com`) 
+#### Root domain record (`example.com`) 
 Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
 
 - **Common configuration:**
@@ -112,7 +112,7 @@ dig dnsimple.com
 dnsimple.com.		59	IN	A	104.245.210.170
 ```
     
-### `www` Subdomain record (`www.example.com`)
+#### `www` Subdomain record (`www.example.com`)
 It's common to configure the www subdomain in addition to the root domain.
 
 - **Common configuration:**
@@ -140,7 +140,7 @@ Example CNAME record output (showing the alias chain):
     dnsimple.com.		59	IN	A	104.245.210.170
     ```
     
-### MX email records
+#### MX email records
 If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one **MX record** pointing to your domain's mail server(s). For redundancy and reliability, it's common to have two or more MX records, each with different content and priority values.
 
 - **To verify (using `dig`):**
@@ -158,7 +158,7 @@ Example MX record output (showing multiple records with different priorities):
     dnsimple.com.		3599	IN	MX	10 alt4.aspmx.l.google.com.
     ```
     
-### CAA record (recommended for certificate security)
+#### CAA record (recommended for certificate security)
 Adding a **CAA record** to your root domain is strongly recommended. This security record specifies which Certificate Authorities (CAs) are authorized to issue SSL/TLS certificates for your domain, helping to prevent unauthorized certificate issuance.
 
 - **To verify (using `dig`):**
