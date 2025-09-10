@@ -27,7 +27,7 @@ In DNSimple, the A record is represented by the following customizable elements:
 
 | Element | Description  |  
 | ------- | -------------| 
-| Name    |The host name for the record, without the domain name. This is generally referred to as “subdomain”. We automatically append the domain name.| 
+| Name    |The host name for the record, without the domain name. This is generally referred to as "subdomain". We automatically append the domain name.| 
 | TTL |The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.|
 |Address| The IPv4 address the A record points to.|
 
