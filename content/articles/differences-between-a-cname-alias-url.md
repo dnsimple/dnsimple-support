@@ -5,7 +5,7 @@ categories:
 - DNS
 ---
 
-# Differences Among A, CNAME, ALIAS, and URL records
+# Differences Among A, CNAME, ALIAS, and URL Records
 
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/mn07RUxAJRA" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
