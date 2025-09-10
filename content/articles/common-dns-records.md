@@ -103,12 +103,12 @@ _This article assumes `example.com` is your domain name._
 
 Example A record output:
 
-    ```
-    dig dnsimple.com
+```
+dig dnsimple.com
 
-    ;; ANSWER SECTION:
-    dnsimple.com.		59	IN	A	104.245.210.170
-    ```
+;; ANSWER SECTION:
+dnsimple.com.		59	IN	A	104.245.210.170
+```
     
 2. **`www` Subdomain record (`www.example.com`):** It's common to configure the www subdomain in addition to the root domain.
 
