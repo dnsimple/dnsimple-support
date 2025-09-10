@@ -21,7 +21,7 @@ A <address>
 ```
 where `<address>` is an IPv4 address and looks like `162.159.24.4`.
 
-For a deeper explanation of what A records are and how they work, see [What Is an A Record](/articles/a-record/)?
+For a deeper explanation of what A records are and how they work, see [What Is an A Record?](/articles/a-record/)
 
 In DNSimple, the A record is represented by the following customizable elements:
 
