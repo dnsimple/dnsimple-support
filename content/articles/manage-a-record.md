@@ -53,8 +53,8 @@ The instructions in this article assume you're familiar with the [A record forma
 
 <note>
 Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-In DNSimple, **Name** = what others might call _Host_.
-In DNSimple, **Content** = what others might call _Value_.
+- In DNSimple, **Name** = what others might call _Host_.
+- In DNSimple, **Content** = what others might call _Value_.
 </note>
 
 ## Updating an A record
