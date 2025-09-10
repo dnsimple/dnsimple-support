@@ -8,7 +8,7 @@ categories:
 
 # Common DNS Records
 
-### Table of Contents {#toc}
+#### Table of Contents {#toc}
 
 * TOC
 {:toc}
@@ -27,57 +27,57 @@ This article will introduce you to the most common and essential DNS record type
 
 Below is a summary of the most frequently used DNS record types. For a deeper dive into each, refer to their linked dedicated explanation articles.
 
-### A record
+#### A record
 **Description:** The most fundamental type. An A record maps a human-readable domain name (like `www.example.com`) directly to an IPv4 address (e.g., `192.0.2.1`). It's how your browser finds the specific server hosting a website.
 
 **Learn more:** [What Is an A Record?](/articles/a-record/)
 
-### AAAA record
+#### AAAA record
 **Description:** The IPv6 counterpart to the A record. An AAAA record maps a domain name to an IPv6 address (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`), which is increasingly essential for modern internet connectivity.
 
 **Learn more:** [What Is an AAAA Record?](/articles/aaaa-record/)
 
-### CNAME record
+#### CNAME record
 **Description:** Functions as an alias, mapping one hostname to another hostname (e.g., `blog.example.com` to `yourblog.wordpress.com`). It's commonly used to reduce duplication and simplify maintenance when multiple names point to the same service.
 
 **Learn more:** [What Is a CNAME Record?](/articles/cname-record/)
 
-### MX record
+#### MX record
 **Description:** Identifies the mail servers responsible for receiving email for a domain. If you want to receive emails at your domain (e.g., `you@example.com`), these records must be correctly configured.
 
 **Learn more:** [What Is an MX Record?](/articles/mx-record/)
 
-### NS record
+#### NS record
 **Description:** Delegates a domain or subdomain to a set of authoritative name servers. These records are critical for the DNS hierarchy, telling resolvers which servers are responsible for your domain's DNS information.
 
 **Learn more:** [What Is an NS Record?](/articles/ns-record/)
 
-### SRV record
+#### SRV record
 **Description:** Helps clients locate specific services (like VoIP or instant messaging) by defining the hostname, port, priority, and weight of servers offering that service.
 
 **Learn more:** [What Is an SRV Record?](/articles/srv-record/)
 
-### SOA record
+#### SOA record
 **Description:** The "Start of Authority" record stores vital administrative information about your DNS zone, including the primary name server, the domain administrator's email, and various timers for zone transfers and caching. Every zone must have an SOA record, and DNSimple automatically manages these for you.
 
 **Learn more:** [What Is an SOA Record?](/articles/soa-record/)
 
-### TXT record
+#### TXT record
 **Description:** Used to associate arbitrary text content with a domain. TXT records are highly versatile and are essential for various purposes like email authentication (SPF, DKIM, DMARC) and domain ownership verification.
 
 **Learn more:** [What Is a TXT Record?](/articles/txt-record/)
 
-### CAA record
+#### CAA record
 **Description:** A security record that allows you to specify which Certificate Authorities (CAs) are authorized to issue SSL/TLS certificates for your domain. This helps prevent unauthorized certificate issuance.
 
 **Learn more:** [What Is a CAA Record?](/articles/caa-record/)
 
-### ALIAS record (DNSimple proprietary)
+#### ALIAS record (DNSimple proprietary)
 **Description:** A DNSimple-specific record that provides CNAME-like functionality but can be used on the root domain (apex zone) and coexist with other records.
 
 **Learn more:** [What Is an ALIAS Record?](/articles/alias-record/)
 
-### URL record (DNSimple proprietary)
+#### URL record (DNSimple proprietary)
 **Description:** A DNSimple-specific record that enables easy web (HTTP) redirects from one hostname to another URL, handled by DNSimple's redirector service.
 
 **Learn more:** [What Is a URL Record?](/articles/url-record/)
