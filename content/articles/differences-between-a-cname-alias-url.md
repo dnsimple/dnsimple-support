@@ -17,28 +17,28 @@ When configuring your domain's DNS, you often need to point a hostname (like `ww
 
 The first major difference lies in their origin and behavior:
 
-### Standard DNS records
+#### Standard DNS records
 - **A records** and **CNAME records** are fundamental, universally recognized DNS record types defined by Internet RFCs. They operate purely at the DNS (Domain Name System) layer, resolving names to IP addresses or to other names.
 
-### DNSimple proprietary records
+#### DNSimple proprietary records
 - **ALIAS records** and **URL records** are special record types developed by DNSimple. They are translated internally by DNSimple's systems into standard DNS records (like A or AAAA records) to ensure compatibility with the DNS protocol, but they offer unique functionality not available with standard records.
 
 ## Understanding the differences in action
 
 Let's break down how each record type functions and the primary problem it solves:
 
-### A record (address record)
+#### A record (address record)
 - **What it does:** Directly maps a hostname (e.g., `example.com`) to one or more IPv4 addresses (e.g., `192.0.2.1`).
 - **When to use:** When you know and directly control the stable IPv4 address of the server hosting your site or service.
 - **Learn more:** [What Is an A Record?](/articles/a-record/)
   
-### CNAME record (canonical name record)
-- **What it does:** Maps one hostname (the alias, e.g., blog.example.com) to another hostname (the canonical name, e.g., `www.example.com`). It acts as an alias, directing traffic to where the canonical name points.
+#### CNAME record (canonical name record)
+- **What it does:** Maps one hostname (the alias, e.g., `blog.example.com`) to another hostname (the canonical name, e.g., `www.example.com`). It acts as an alias, directing traffic to where the canonical name points.
 - **Important rule:** A CNAME record **cannot coexist with any other record type** (like MX, TXT, NS, or A records) for the exact same hostname. This is a fundamental limitation of standard DNS.
 - **When to use:** When you want a hostname to point to another hostname and you don't need any other records (like MX for email) on that specific hostname. Typically used for subdomains.
 - **Learn more:** [What Is a CNAME Record?](/articles/cname-record/)
 
-### ALIAS record (DNSimple proprietary)
+#### ALIAS record (DNSimple proprietary)
 - **What it does:** Maps a hostname (including the root domain, e.g., `example.com`) to another hostname, providing CNAME-like behavior but with crucial differences.
 - **Key advantage:** Unlike a CNAME, an ALIAS record **can coexist with other records** (like MX records) for the same hostname. It dynamically resolves the target hostname to an IP address at the time of the DNS query, appearing as an A record to the resolver.
 - **When to use:**
@@ -46,7 +46,7 @@ Let's break down how each record type functions and the primary problem it solve
     - When you need to alias a hostname to another hostname, but that hostname also needs other DNS records (like MX records for email).
 - **Learn more:** [What Is an ALIAS Record?](/articles/alias-record/)
 
-### URL record (DNSimple proprietary):
+#### URL record (DNSimple proprietary):
 - **What it does:** Initiates an HTTP redirect from a source hostname (e.g., `old-site.com`) to a target URL (e.g., `https://new-site.com/home`). This redirection occurs at the HTTP layer via DNSimple's redirector service, not directly through DNS resolution to your final web server.
 - **Important rule:** Unlike A, CNAME, or ALIAS records that cause a name to resolve to an IP, the URL record causes the name to redirect to a destination. The web browser receives an HTTP redirect instruction and then goes to the new URL.
 - **When to use:** When you want a domain or subdomain to automatically send visitors to a completely different web address, changing the URL in their browser's address bar.
