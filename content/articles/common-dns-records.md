@@ -8,7 +8,7 @@ categories:
 
 # Common DNS Records
 
-#### Table of Contents {#toc}
+### Table of Contents {#toc}
 
 * TOC
 {:toc}
