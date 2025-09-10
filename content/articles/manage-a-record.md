@@ -85,6 +85,6 @@ Some hosting providers label fields differently than DNSimple does, which can be
 1. Confirm the dialog to delete the record.
 </div>
 
-## Need more help?
+## Have more questions?
 
-If you have any questions or need assistance adding A records to your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance managing A records, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
