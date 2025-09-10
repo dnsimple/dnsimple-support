@@ -66,7 +66,7 @@ In DNSimple, **Content** = what others might call _Value_.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
 1. Locate the A record you want to update in the list.
-1. Click the **edit icon** (🖊️) on the right side.
+1. Click the **edit icon** on the right side.
   ![screenshot: edit an A record](/files/a-record-edit.png)
 1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
