@@ -88,7 +88,9 @@ While every domain's DNS configuration can be unique, a basic set of records is 
 
 _This article assumes `example.com` is your domain name._
 
-1. **Root domain record (`example.com`):** Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
+### Root domain record (`example.com`) 
+Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
+
 - **Common configuration:**
     - An **A record** typically points to the IPv4 address where your website is hosted.
     - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
@@ -110,7 +112,8 @@ dig dnsimple.com
 dnsimple.com.		59	IN	A	104.245.210.170
 ```
     
-2. **`www` Subdomain record (`www.example.com`):** It's common to configure the www subdomain in addition to the root domain.
+### `www` Subdomain record (`www.example.com`)
+It's common to configure the www subdomain in addition to the root domain.
 
 - **Common configuration:**
     - An **A record** pointing to the same IP address as your root domain.
@@ -125,8 +128,6 @@ dnsimple.com.		59	IN	A	104.245.210.170
 Example A record output:
 
     ```
-    dig www.dnsimple.com
-
     ;; ANSWER SECTION:
     www.dnsimple.com.	59	IN	A	104.245.210.170
     ```
@@ -134,14 +135,13 @@ Example A record output:
 Example CNAME record output (showing the alias chain):
 
     ```
-    dig www.dnsimple.com
-
     ;; ANSWER SECTION:
     www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
     dnsimple.com.		59	IN	A	104.245.210.170
     ```
     
-3. **MX email records:** If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one MX record pointing to your domain's mail server(s). For redundancy and reliability, it's common to have two or more MX records, each with different content and priority values.
+### MX email records
+If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one **MX record** pointing to your domain's mail server(s). For redundancy and reliability, it's common to have two or more MX records, each with different content and priority values.
 
 - **To verify (using `dig`):**
     - Open your terminal and type `dig MX example.com`.
@@ -150,8 +150,6 @@ Example CNAME record output (showing the alias chain):
 Example MX record output (showing multiple records with different priorities):
 
     ```
-    dig MX www.dnsimple.com
-
     ;; ANSWER SECTION:
     dnsimple.com.		3599	IN	MX	1 aspmx.l.google.com.
     dnsimple.com.		3599	IN	MX	5 alt1.aspmx.l.google.com.
@@ -160,7 +158,8 @@ Example MX record output (showing multiple records with different priorities):
     dnsimple.com.		3599	IN	MX	10 alt4.aspmx.l.google.com.
     ```
     
-4. **CAA record (recommended for certificate security):** Adding a CAA record to your root domain is strongly recommended. This security record specifies which Certificate Authorities (CAs) are authorized to issue SSL/TLS certificates for your domain, helping to prevent unauthorized certificate issuance.
+### CAA record (recommended for certificate security)
+Adding a **CAA record** to your root domain is strongly recommended. This security record specifies which Certificate Authorities (CAs) are authorized to issue SSL/TLS certificates for your domain, helping to prevent unauthorized certificate issuance.
 
 - **To verify (using `dig`):**
     - Open your terminal and type `dig CAA example.com`.
@@ -169,8 +168,6 @@ Example MX record output (showing multiple records with different priorities):
 Example CAA record output:
 
     ```
-    dig CAA www.dnsimple.com
-
     ;; ANSWER SECTION:
     dnsimple.com.		3599	IN	CAA	0 iodef "mailto:ops@dnsimple.com"
     dnsimple.com.		3599	IN	CAA	0 issue "amazonaws.com"
