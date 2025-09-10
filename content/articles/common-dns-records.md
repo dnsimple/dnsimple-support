@@ -15,7 +15,6 @@ categories:
 
 ---
 
-
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/bifh31N2hFQ?si=uM3Z1oS1SqzQNLT4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -91,17 +90,18 @@ _This article assumes `example.com` is your domain name._
 
 1. Root domain record (`example.com`): Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
 - **Common configuration:**
-    - An A record typically points to the IPv4 address where your website is hosted.
-    - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an ALIAS record is the typical choice.
-    - If the root domain needs to redirect to another URL (e.g.,`www.example.com`), you can use a URL record.
+    - An **A record** typically points to the IPv4 address where your website is hosted.
+    - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
+    - If the root domain needs to redirect to another URL (e.g.,`www.example.com`), you can use a **URL record**.
 
 <note> 
-A CNAME record cannot be used for the root domain (example.com) if you need any other records (like MX or NS) at that name. An invalid configuration with a CNAME at the root will break other services, like email. 
+**A CNAME record cannot be used for the root domain** (`example.com`) if you need any other records (like MX or NS) at that name. An invalid configuration with a CNAME at the root will break other services, like email. 
 </note>
 
 - **To verify (using `dig`):**
-    - Open your terminal and type `dig example.com.` The `ANSWER SECTION` should return at least one A record (or ALIAS/URL records which synthesize as A records in the response).
-    - Example A record output:
+    - Open your terminal and type `dig example.com.` The `ANSWER SECTION` should return at least one **A record** (or ALIAS/URL records which synthesize as A records in the response).
+
+Example A record output:
 
     ```
     dig dnsimple.com
@@ -109,23 +109,19 @@ A CNAME record cannot be used for the root domain (example.com) if you need any 
     ;; ANSWER SECTION:
     dnsimple.com.		59	IN	A	104.245.210.170
     ```
-### 2. www subdomain: (`www.example.com`)
+2. **`www` Subdomain record (`www.example.com`):** It's common to configure the www subdomain in addition to the root domain.
 
-It's common to have the `www` subdomain configured in addition to the root domain. There are several possibilities:
+- **Common configuration:**
+    - An **A record** pointing to the same IP address as your root domain.
+    - A **CNAME record** pointing to your root domain (`example.com`), which simplifies management if the root domain's IP changes.
+    - A **URL record** to redirect `www.example.com` to `example.com` (or vice-versa).
+    - An **ALIAS record** for the `www` subdomain is also technically correct, but generally unnecessary. A CNAME usually suffices for this specific subdomain and allows for aliasing.
 
-1. Using an A record to point to the same IP of the root domain.
-2. Using a CNAME record to point to the root domain.
-3. Using a URL record to redirect to the root domain.
+- **To verify (using `dig`):**
+    - Open your terminal and type dig www.example.com.
+    - The `ANSWER SECTION` should return at least one A record or exactly one CNAME record.
 
-<tip>
-Using an ALIAS record for the `www` subdomain is not incorrect, however it's generally unnecessary. In most cases, you can replace the ALIAS with the CNAME.
-</tip>
-
-<div class="section-steps" markdown="1">
-##### To verify
-
-1. Use `dig www.example.com` to check the presence of a www record.
-1. The answer should return at least one A record or exactly one CNAME record as below:
+Example A record output:
 
     ```
     dig www.dnsimple.com
@@ -133,6 +129,8 @@ Using an ALIAS record for the `www` subdomain is not incorrect, however it's gen
     ;; ANSWER SECTION:
     www.dnsimple.com.	59	IN	A	104.245.210.170
     ```
+  
+Example CNAME record output (showing the alias chain):
 
     ```
     dig www.dnsimple.com
@@ -141,17 +139,13 @@ Using an ALIAS record for the `www` subdomain is not incorrect, however it's gen
     www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
     dnsimple.com.		59	IN	A	104.245.210.170
     ```
-</div>
+3. **MX email records:** If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one MX record pointing to your domain's mail server(s). For redundancy and reliability, it's common to have two or more MX records, each with different content and priority values.
 
-### 3. MX email records
+- **To verify (using `dig`):**
+    - Open your terminal and type dig MX example.com.
+    - The `ANSWER SECTION` should return at least one MX record.
 
-If you want to receive emails for your domain, you need to have at least one MX record pointing to your doamin mail server. For rendudancy, there are generally two or more MX records, each with different content and priority.
-
-<div class="section-steps" markdown="1">
-##### To verify
-
-1. Use `dig MX example.com` to check the presence of MX records on the root domain.
-1. The answer should return at least one MX record as below:
+Example MX record output (showing multiple records with different priorities):
 
     ```
     dig MX www.dnsimple.com
@@ -163,17 +157,13 @@ If you want to receive emails for your domain, you need to have at least one MX 
     dnsimple.com.		3599	IN	MX	10 alt3.aspmx.l.google.com.
     dnsimple.com.		3599	IN	MX	10 alt4.aspmx.l.google.com.
     ```
-</div>
+4. **CAA record (recommended for certificate security):** Adding a CAA record to your root domain is strongly recommended. This security record specifies which Certificate Authorities (CAs) are authorized to issue SSL/TLS certificates for your domain, helping to prevent unauthorized certificate issuance.
 
-### 4. CAA record
+- **To verify (using `dig`):**
+    - Open your terminal and type `dig CAA example.com`.
+    - The `ANSWER SECTION` should return at least one CAA record if configured.
 
-It's advisable to [add a CAA record](/articles/caa-record/) to the root domain to specify which certificate authorities can issue a certificate for your domain.
-
-<div class="section-steps" markdown="1">
-##### To verify
-
-1. Use `dig CAA example.com` to check for the presence of a CAA record on the root domain.
-1. The answer should return at least one CAA record as below:
+Example CAA record output:
 
     ```
     dig CAA www.dnsimple.com
@@ -185,4 +175,14 @@ It's advisable to [add a CAA record](/articles/caa-record/) to the root domain t
     dnsimple.com.		3599	IN	CAA	0 issue "letsencrypt.org"
     dnsimple.com.		3599	IN	CAA	0 issuewild "sectigo.com"
     ```
-</div>
+## Next steps: configuring your DNS records
+
+Once you understand these common records, you'll be ready to configure them for your domain.
+
+For step-by-step instructions on how to add, edit, or remove any of these DNS records within your DNSimple account, please refer to our dedicated [How-To Guides](/categories/dns/).
+
+To learn how to use dig to verify your DNS records, consult [How to Use dig](/articles/how-dig/).
+
+## Have more questions?
+
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
