@@ -28,12 +28,12 @@ This article will introduce you to the most common and essential DNS record type
 Below is a summary of the most frequently used DNS record types. For a deeper dive into each, refer to their linked dedicated explanation articles.
 
 ### A record
-**Description:** The most fundamental type. An A record maps a human-readable domain name (like www.example.com) directly to an IPv4 address (e.g., `192.0.2.1`). It's how your browser finds the specific server hosting a website.
+**Description:** The most fundamental type. An A record maps a human-readable domain name (like `www.example.com`) directly to an IPv4 address (e.g., `192.0.2.1`). It's how your browser finds the specific server hosting a website.
 
 **Learn more:** [What Is an A Record?](/articles/a-record/)
 
 ### AAAA record
-**Description:** The IPv6 counterpart to the A record. An AAAA record maps a domain name to an IPv6 address (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`). Increasingly essential for modern internet connectivity.
+**Description:** The IPv6 counterpart to the A record. An AAAA record maps a domain name to an IPv6 address (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`), which is increasingly essential for modern internet connectivity.
 
 **Learn more:** [What Is an AAAA Record?](/articles/aaaa-record/)
 
@@ -58,7 +58,7 @@ Below is a summary of the most frequently used DNS record types. For a deeper di
 **Learn more:** [What Is an SRV Record?](/articles/srv-record/)
 
 ### SOA record
-**Description:** The "Start of Authority" record stores vital administrative information about your DNS zone, including the primary name server, the domain administrator's email, and various timers for zone transfers and caching. Every zone must have an SOA record, though DNSimple automatically manages these for you.
+**Description:** The "Start of Authority" record stores vital administrative information about your DNS zone, including the primary name server, the domain administrator's email, and various timers for zone transfers and caching. Every zone must have an SOA record, and DNSimple automatically manages these for you.
 
 **Learn more:** [What Is an SOA Record?](/articles/soa-record/)
 
@@ -84,11 +84,11 @@ Below is a summary of the most frequently used DNS record types. For a deeper di
 
 ## Example DNS records for a typical domain
 
-While every domain's DNS configuration can be unique, a basic set of records is common to most domains for fundamental internet functionality (website and email). If you've just purchased a domain or are reviewing an existing setup, use this list as a checklist.
+While every domain's DNS configuration can be unique, a basic set of records is common to most domains for fundamental internet functionality (website and email). If you've just purchased a domain or are reviewing an existing setup, use this as a checklist.
 
 _This article assumes `example.com` is your domain name._
 
-1. Root domain record (`example.com`): Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
+1. **Root domain record (`example.com`):** Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
 - **Common configuration:**
     - An **A record** typically points to the IPv4 address where your website is hosted.
     - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
@@ -99,7 +99,7 @@ _This article assumes `example.com` is your domain name._
 </note>
 
 - **To verify (using `dig`):**
-    - Open your terminal and type `dig example.com.` The `ANSWER SECTION` should return at least one **A record** (or ALIAS/URL records which synthesize as A records in the response).
+    - Open your terminal and type `dig example.com`. The `ANSWER SECTION` should return at least one **A record** (or ALIAS/URL records which synthesize as A records in the response).
 
 Example A record output:
 
@@ -108,7 +108,7 @@ Example A record output:
 
     ;; ANSWER SECTION:
     dnsimple.com.		59	IN	A	104.245.210.170
-    ```
+    ```   
 2. **`www` Subdomain record (`www.example.com`):** It's common to configure the www subdomain in addition to the root domain.
 
 - **Common configuration:**
