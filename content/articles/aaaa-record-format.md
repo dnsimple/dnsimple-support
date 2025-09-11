@@ -7,7 +7,7 @@ categories:
 ---
 # AAAA Record Format
 
-The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
+The structure of an AAAA record follows the standard top-level format definition defined in [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one element:
 
 | Element | Description |
 |:--------|:-------------------------------------------------------|
