@@ -36,10 +36,10 @@ When a device (like your computer or phone) attempts to connect to a domain, its
 Like A records, AAAA records offer important capabilities for building resilient and efficient services:
 
 **Core IPv6 service hosting:** Essential for making your websites, email servers, and other online services accessible over the IPv6 internet.
-- **Redundancy and load balancing:** You can configure multiple AAAA records for the same domain name, each pointing to a different server's IPv6 address. This enables:
-- **Failover:** If one IPv6 server becomes unavailable, traffic can be redirected to another available server.
 
-**Traffic distribution:** Requests can be spread across multiple IPv6 servers to handle high volumes of traffic more efficiently.
+**Redundancy and Load Balancing:** You can configure multiple AAAA records for the same domain name, each pointing to a different server's IPv6 address. This enables:
+- **Failover:** If one IPv6 server becomes unavailable, traffic can be redirected to another available server.
+- **Traffic Distribution:** Requests can be spread across multiple IPv6 servers to handle high volumes of traffic more efficiently.
 
 **Multiple names to one address:** Just as with A records, several different domain names can point to the same single IPv6 address, with each domain having its own AAAA record directing to that shared IP.
 
