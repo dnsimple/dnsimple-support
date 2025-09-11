@@ -41,6 +41,6 @@ Some examples:
 - If you provide the IPv6 address `2001:db8:0:0:0:0:2:1`, we will store it as `2001:db8::2:1`.
 - If you provide the IPv6 address `::ffff:c000:0280`, we will store it as `::ffff:192.0.2.128`.
 
-# Have more questions?
+## Have more questions?
 
  If you have any questions or need assistance managing AAAA records, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
