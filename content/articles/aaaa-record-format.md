@@ -34,6 +34,7 @@ In DNSimple, the AAAA record is represented by the following customizable elemen
 ## Formatting
 
 Because the same IPV6 address can be represented in different ways, DNSimple normalizes the IPV6 address to the canonical form, as described in RFC 5952 section 4.
+
 Some examples:
 
 - If you provide the IPv6 address `2001:0000:0000:00FE:0000:0000:0000:CDEF`, we will store it as `2001:0:0:fe::cdef`.
