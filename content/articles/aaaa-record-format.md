@@ -25,7 +25,7 @@ For a broader explanation of what AAAA records are and how they work, see [What 
 
 In DNSimple, the AAAA record is represented by the following customizable elements:
  
- Element | Description |
+| Element | Description |
 |:--------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | Name    | The host name for the record, without the domain name. This is generally referred to as a "subdomain". We automatically append the domain name. |
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
