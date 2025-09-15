@@ -16,19 +16,19 @@ The primary difference between an A record and a CNAME record lies in what they 
 
 **A record (address record):**
 - **Direct IP mapping:** An A record maps a hostname directly to one or more IPv4 addresses. This is the most straightforward way to tell a DNS resolver the exact numerical location of a server.
-- **Example:** If you want blog.dnsimple.com to point directly to the server 185.31.17.133, you would configure:
+- **Example:** If you want `blog.dnsimple.com` to point directly to the server `185.31.17.133`, you would configure:
 ```
     blog.dnsimple.com.     A        185.31.17.133
 ```
 - Use case: Ideal when you have a stable, known IP address for your server and want direct control over that mapping.
-- Learn more: What’s an A Record?
+- Learn more: [What Is an A Record?](/articles/a-record/)
 
 **CNAME record (canonical name record):**
-- **Maps to another name:** A CNAME record maps one hostname (e.g., www.example.com) to another hostname (the "canonical name," e.g., example.com or service.provider.com). It functions as a pointer, instructing DNS resolvers to look up the IP address of the target hostname.
-- **Inherits resolution:** When a DNS query encounters a CNAME record, it effectively follows the pointer. The DNS resolver then attempts to resolve the canonical name, inheriting its entire resolution chain until an IP address (usually via an A or AAAA record) is found.
-- **Exclusivity restriction:** A CNAME record cannot coexist with any other record type (such as MX records for email, TXT records, or NS records) for the exact same hostname. If a name has a CNAME record, it can have no other records associated with it. This is a fundamental limitation of standard DNS.
-- **Use case:** A CNAME record is best when you want one hostname to mirror another, or when the IP address of your service is managed by a third party and might change, but their hostname (e.g., your-app.heroku.com) remains stable.
-- **Learn more:** What’s a CNAME Record?
+- **Maps to another name:** A CNAME record maps one hostname (e.g., `www.example.com`) to another hostname (the "canonical name," e.g., `example.com` or `service.provider.com`). It functions as a pointer, instructing DNS resolvers to look up the IP address of the target hostname.
+- **Inherits resolution:** When a DNS query encounters a CNAME record, it effectively follows the pointer. The DNS resolver then attempts to resolve the canonical name, inheriting its entire resolution chain until an IP address (usually via an [A](/articles/a-record/) or [AAAA record](/articles/aaaa-record/)) is found.
+- **Exclusivity restriction:** A CNAME record **cannot coexist with any other record type** (such as [MX records](/articles/mx-record/) for email, [TXT records](/articles/txt-record/), or [NS records](/articles/ns-record/)) for the exact same hostname. If a name has a CNAME record, it can have no other records associated with it. This is a fundamental limitation of standard DNS.
+- **Use case:** A CNAME record is best when you want one hostname to mirror another, or when the IP address of your service is managed by a third party and might change, but their hostname (e.g., `your-app.heroku.com`) remains stable.
+- **Learn more:** [What Is a CNAME Record?](/articles/cname-record/)
 
 ## Practical example: CNAME chaining for flexibility
 
@@ -50,7 +50,7 @@ When someone visits `blog.dnsimple.com`:
 The benefit of this CNAME chain is that if GitHub Pages or Fastly changes their underlying IP address, we only need them to update the A record for `github.map.fastly.net`. Our `blog.dnsimple.com` CNAME automatically inherits the change without us needing to manually update our DNS records.
 
 <info>
-While CNAME chaining is possible, each additional step adds another DNS lookup. Too many chained CNAMEs can slow down resolution, so it’s best to keep chains short.
+While CNAME chaining is possible, each additional step adds another DNS lookup. Too many chained CNAMEs can slow down resolution, so it's best to keep chains short.
 </info>
 
 ## Which one to use?
@@ -66,7 +66,7 @@ Choosing between an A record and a CNAME record depends directly on your specifi
 - You understand and accept the restriction that no other DNS records can exist for that specific hostname (e.g., if `www.example.com` is a CNAME, you cannot have an MX record for `www.example.com`).
 
 <warning>
-Never use a CNAME record for your root domain name (e.g., `example.com`) if you need other essential records like MX (for email), NS (for delegation), or SOA records. The CNAME restriction makes it incompatible with the requirements of an apex domain. For such scenarios, DNSimple offers the ALIAS record as a solution. 
+Never use a CNAME record for your root domain name (e.g., `example.com`) if you need other essential records like MX (for email), NS (for delegation), or SOA records. The CNAME restriction makes it incompatible with the requirements of an apex domain. For such scenarios, DNSimple offers the ALIAS record as a solution.
 </warning>
 
 ## Have more questions?
