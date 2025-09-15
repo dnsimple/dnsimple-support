@@ -56,7 +56,7 @@ Some hosting providers label fields differently than DNSimple does, which can be
 - All domain names in the **Content** field should end with a dot (.) to avoid resolution issues.
 - **A CNAME record cannot** coexist with any other record type using the same name (subdomain).
 - For **URL records**, the destination must be a full URL (including http:// or https://)
-- If you’re copying a DNS record from another provider, always double-check how they name fields.
+- If you're copying a DNS record from another provider, always double-check how they name fields.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
