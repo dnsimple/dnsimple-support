@@ -43,13 +43,13 @@ Some hosting providers label fields differently than DNSimple does, which can be
 
 | Record Type | Name (host) | Content (value)| Example|
 |:----------------|:-------------------|:---------------------|:----------------------|
-| A | Subdomain (e.g., www, blog) or leave blank for root (@) |IPv4 address|93.184.216.34|
-|AAAA|Same as A record|IPv6 address	| 2606:2800:220:1:248:1893:25c8:1946|
+| A | Subdomain (e.g., www, blog) or leave blank for root (@) |**IPv4** address|93.184.216.34|
+|AAAA|Same as A record|**IPv6** address	| 2606:2800:220:1:248:1893:25c8:1946|
 |CNAME|Subdomain (e.g., app)|Domain name|app-host.example.com|
 |ALIAS|Root domain (blank), or subdomain|Hostname to resolve dynamically|example.com|
 |TXT|Varies — often @, _acme-challenge, or subdomain|Verification string or SPF rule|"google-site-verification=abc123"|
-|URL|Subdomain you want to redirect (e.g., shop)|Destination URL|https://store.example.com|
-|NS|Subdomain to delegate (e.g., blog)|Name server address|ns1.otherdns.com|
+|URL|Subdomain you want to redirect (e.g., shop)|**Destination URL**|https://store.example.com|
+|NS|Subdomain to delegate (e.g., blog)|**Name server address**|ns1.otherdns.com|
 
 ## Helpful tips
 - Use @ in the **Name** field to refer to the root domain.
