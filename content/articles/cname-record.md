@@ -26,6 +26,7 @@ A very common use for CNAME records is simplifying managing subdomains that poin
 Let's look at a typical setup:
 
 **`example.com` (apex domain) →** has an A record pointing directly to your server's IP address (e.g., `192.0.2.1`).
+
 **`www.example.com` (subdomain) →** has a CNAME record pointing to `example.com`.
 
 When someone visits `www.example.com`:
