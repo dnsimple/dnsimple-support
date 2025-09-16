@@ -53,4 +53,4 @@ DNSimple provides a straightforward interface for managing your A records. You c
 For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Managing A Records](/articles/manage-a-record/).
 
 ## Have more questions?
-If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
