@@ -32,10 +32,10 @@ When you type a domain name, like `www.dnsimple.com`, into your web browser, a s
 1. The name server returns this IP address to your resolver.
 1. Your browser then uses this IP address to connect directly to the server hosting the DNSimple website.
 
-This entire process makes it possible for you to use memorable domain names instead of having to recall long strings of numbers.
+This process lets you use memorable domain names rather than recalling long strings of numbers.
 
 ## Key capabilities and common uses
-While simple in concept, A records are versatile and essential:
+A records are versatile and essential:
 
 **Core website and service hosting:** The backbone for connecting almost any domain name to a web server, mail server, or other internet-connected service.
 
@@ -45,10 +45,10 @@ While simple in concept, A records are versatile and essential:
 
 **Multiple names to one address:** Conversely, many different domain names can point to the same single IP address. In this scenario, each domain would have its own A record, all pointing to that shared IP. This is common when hosting multiple websites on a single server.
 
-The specification for the DNS A record is formally defined in [RFC 1035, Section 3.4.1](https://datatracker.ietf.org/doc/html/rfc1035#section-3.4.1). 
+The DNS A record specification is formally defined in [RFC 1035, Section 3.4.1](https://datatracker.ietf.org/doc/html/rfc1035#section-3.4.1). 
 
 ## Managing A Records in DNSimple
-DNSimple provides a straightforward interface for managing your A records. You can easily add new A records, remove existing ones, or update their target IP addresses directly from your domain's record editor.
+DNSimple provides a straightforward interface for managing your A records. You can add new A records, remove existing ones, or update their target IP addresses directly from your domain's record editor.
 
 For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Managing A Records](/articles/manage-a-record/).
 
