@@ -26,23 +26,23 @@ You can use the same process in DNSimple to add several common DNS record types.
 ### Steps to add a DNS record
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
-1. From your **Domains** tab, click on the domain you want to manage
+1. From your **Domains** tab, click on the domain you want to manage.
 1. Click the **DNS** tab on the left side.
 1. Scroll to the DNS records section and click **Add/Manage**.
-1. Click **Add Record**
-1. Select the record type from the dropdown menu
-1. Fill out the **Name** and **Content** fields (or **Destination**, depending on the record)
-1. Click **Add Record** to save it
+1. Click **Add Record**.
+1. Select the record type from the dropdown menu.
+1. Fill out the **Name** and **Content** fields (or **Destination**, depending on the record).
+1. Click **Add Record** to save it.
 
 <note>
 Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
 - In DNSimple, **Name** = what others might call _Host._
 - In DNSimple, **Content** = what others might call _Value._
-- For **URL records**, the destination is entered in the **Content** field
+- For **URL records**, the destination is entered in the **Content** field.
 </note>
 
 | Record Type | Name (host) | Content (value)| Example|
-|:----------------|:-------------------|:---------------------|:----------------------|
+|:------------|:------------|:---------------|:-------|
 | A | Subdomain (e.g., www, blog) or leave blank for root (@) |**IPv4** address|93.184.216.34|
 |AAAA|Same as A record|**IPv6** address	| 2606:2800:220:1:248:1893:25c8:1946|
 |CNAME|Subdomain (e.g., app)|Domain name|app-host.example.com|
@@ -55,7 +55,7 @@ Some hosting providers label fields differently than DNSimple does, which can be
 - Use @ in the **Name** field to refer to the root domain.
 - All domain names in the **Content** field should end with a dot (.) to avoid resolution issues.
 - **A CNAME record cannot** coexist with any other record type using the same name (subdomain).
-- For **URL records**, the destination must be a full URL (including http:// or https://)
+- For **URL records**, the destination must be a full URL (including http:// or https://).
 - If you're copying a DNS record from another provider, always double-check how they name fields.
 
 ## Have more questions?
