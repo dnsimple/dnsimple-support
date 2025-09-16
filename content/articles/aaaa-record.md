@@ -1,5 +1,5 @@
 ---
-title: What's an AAAA record?
+title: What Is an AAAA Record?
 excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
 categories:
   - DNS
@@ -9,8 +9,8 @@ categories:
 
 ### Table of Contents {#toc}
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ---
 
@@ -18,82 +18,37 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/4SGgO5MSQLg?si=I5Hu7dj7-uuwA-xs" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What's an AAAA record?
+## Understanding IPv6 connectivity: the AAAA record
 
-An **AAAA record** maps a domain name to the IP address (Version 6) of the computer hosting the domain. An AAAA record is used to find the IP address of a computer connected to the internet from a name.
+An AAAA record (record type 28) is a type of DNS record that serves the same fundamental purpose as an [A record](/articles/a-record/) but for **IPv6 addresses**. It maps a human-readable domain name (e.g., `api.example.com`) to the numerical **IPv6 address** of the server or computer hosting that domain on the internet.
 
-The AAAA record is conceptually similar to the [A record](/articles/a-record/), but it allows you to specify the IPv6 address of the server, rather than the IPv4.
+Conceptually, the AAAA record is the direct IPv6 counterpart to the IPv4 A record. Just as an A record allows your browser to find a server's IPv4 address, an AAAA record enables it to locate a server via its IPv6 address.
 
-AAAA records are [less common than A records](/articles/common-dns-records/), however their popularity is rising along with the increased adoption of IPv6 addresses. For example, all the DNSimple name servers are [assigned to an IPv6 address](/articles/ipv6-support/) and can be queried via either IPv4 or IPv6.
+## The rise of IPv6 and AAAA records
+While A records (IPv4) have historically been more common, the adoption of IPv6 (Internet Protocol Version 6) is steadily increasing worldwide due to the exhaustion of available IPv4 addresses. IPv6 offers a vastly larger address space and introduces various architectural improvements to the internet.
 
-As with the A records, you can use multiple AAAA records for the same domain in order to provide redundancy. Multiple names could point to the same address, in which case each would have its own AAAA record pointing to that same IP address.
+As more networks, services, and end-user devices connect using IPv6, the importance of AAAA records grows. For instance, all DNSimple name servers are assigned IPv6 addresses, meaning they can be queried and respond via either IPv4 or IPv6, demonstrating this dual-stack capability.
 
-The DNS A record is specified by [RFC 3596](https://tools.ietf.org/html/rfc3596).
+## How AAAA records facilitate connection
+When a device (like your computer or phone) attempts to connect to a domain, its DNS resolver will typically try to find an AAAA record first if the device and network support IPv6. If an AAAA record is found, the connection can proceed over IPv6. If not, it will usually fall back to looking for an A record and connecting over IPv4. This seamless process ensures users can reach your services regardless of the IP version they are using.
 
-## AAAA record format {#record-format}
+## Key capabilities for robust IPv6 hosting
+Like A records, AAAA records offer important capabilities for building resilient and efficient services:
 
-The structure of an AAAA record follows the standard top-level format definition defined [RFC 1035](https://tools.ietf.org/html/rfc1035#section-3.2.1). The RDATA section is composed of one single element:
+**Core IPv6 service hosting:** Essential for making your websites, email servers, and other online services accessible over the IPv6 internet.
 
-| Element | Description                                             |
-| :------ | :------------------------------------------------------ |
-| address | A 128 bit Internet address representing an IPv6 address |
+**Redundancy and load balancing:** You can configure multiple AAAA records for the same domain name, each pointing to a different server's IPv6 address. This enables:
+- **Failover:** If one IPv6 server becomes unavailable, traffic can be redirected to another available server.
+- **Traffic distribution:** Requests can be spread across multiple IPv6 servers to handle high volumes of traffic more efficiently.
 
-Hosts that have multiple Internet addresses have multiple A records.
+**Multiple names to one address:** Just as with A records, several different domain names can point to the same single IPv6 address, with each domain having its own AAAA record directing to that shared IP.
 
-The canonical representation is:
+The formal specification for the DNS AAAA record is defined in [RFC 3596, Section 2.1](https://datatracker.ietf.org/doc/html/rfc3596#section-2.1).
 
-```
-AAAA <address>
-```
+## Managing AAAA records in DNSimple
+DNSimple provides a user-friendly interface for managing your AAAA records. You can easily add new AAAA records, remove existing ones, or update their target IPv6 addresses directly from the [record editor](/articles/record-editor/).
 
-where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804`.
+For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Managing AAAA Records](/articles/manage-aaaa-record/).
 
-In DNSimple, the AAAA record is represented by the following customizable elements:
-
-| Element | Description                                                                                                                                  |
-| :------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name    | The host name for the record without the domain name. This is generally referred to as "subdomain". We automatically append the domain name. |
-| TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                    |
-| Address | The IPv6 address the AAAA record points to.                                                                                                  |
-
-## Formatting
-
-Because the same IPV6 address [can be represented in different ways](https://wikipedia.org/wiki/IPv6_address#Representation), DNSimple normalizes the IPV6 address to the canonical form, as described in [RFC 5952 section 4](https://www.rfc-editor.org/rfc/rfc5952.html#section-4).
-
-Some examples:
-
-- If you provide the IPv6 address `2001:0000:0000:00FE:0000:0000:0000:CDEF`, we will store it as `2001:0:0:fe::cdef`.
-- If you provide the IPv6 address `2001:0db8::0001:0000`, we will store it as `2001:db8::1:0`.
-- If you provide the IPv6 address `2001:db8:0:0:0:0:2:1`, we will store it as `2001:db8::2:1`.
-- If you provide the IPv6 address `::ffff:c000:0280`, we will store it as `::ffff:192.0.2.128`.
-
-## Querying AAAA records
-
-You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the `ANSWER` section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
-
-```
-$ dig AAAA ns1.dnsimple.com
-
-; <<>> DiG 9.10.6 <<>> AAAA ns1.dnsimple.com
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52403
-;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 512
-;; QUESTION SECTION:
-;ns1.dnsimple.com.		IN	AAAA
-
-;; ANSWER SECTION:
-ns1.dnsimple.com.	1795	IN	AAAA	2400:cb00:2049:1::a29f:1804
-
-;; Query time: 47 msec
-;; SERVER: 8.8.8.8#53(8.8.8.8)
-;; WHEN: Fri Nov 02 19:20:40 CET 2018
-;; MSG SIZE  rcvd: 73
-```
-
-## Manage AAAA records
-
-From the DNSimple record editor you can [add, remove, and update AAAA records](/articles/manage-aaaa-record/).
+## Have more questions?
+If you have additional questions or need any assistance with AAAA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
