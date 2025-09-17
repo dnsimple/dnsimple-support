@@ -192,7 +192,7 @@ export default {
       this.isOpen = true;
 
       return Promise
-        .all(
+        .allSettled(
           // We catch the errors here so that the show can go on
           this.sources.map((s) => this.fetchArticles(s.url))
         )

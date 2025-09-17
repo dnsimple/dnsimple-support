@@ -79,7 +79,7 @@ describe("Search", () => {
   describe("queries", () => {
     const queries = {
       "what's a cname record": ["cname-record"],
-      "a record": ["manage-a-record", "a-record"],
+      "a record": ["a-record-format", "a-record"],
       "manage account": ["account-creation", "account-activation"],
       "enable dnssec": ["dnssec", "disabling-dnssec", "dnssec-glossary"],
       "creating alias record": ["alias-record", "record-editor"],
@@ -97,7 +97,7 @@ describe("Search", () => {
         "dnsimple-nameservers",
         "delegating-dnsimple-hosted",
       ],
-      "create a record": ["a-record", "manage-a-record"],
+      "create a record": ["a-record", "a-record-format"],
       "retry payment": [
         "account-invoice-history",
         "changing-payment-details",
