@@ -77,7 +77,7 @@ To link a DNSimple user to an Entra identity:
 You'll need to [link an Entra organization to your DNSimple account](#linking-an-entra-organization-to-a-dnsimple-account) before your team members can log in via Entra SSO.
 1. To log in to DNSimple using Entra, visit [https://dnsimple.com/login](https://dnsimple.com/login).
 1. Click Sign in using Entra.
-1. Enter the organization Entra domain or tenant ID and click Sign in.
+1. Enter the [organization Entra domain or tenant ID](https://learn.microsoft.com/en-us/partner-center/account-settings/find-ids-and-domain-names#find-the-microsoft-entra-tenant-id-and-primary-domain-name) and click Sign in. The Entra domain is the default/primary domain in the Entra account.
 1. If you are prompted for your Entra username and password, enter them.
 1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
 
