@@ -1,7 +1,7 @@
 ---
 title: CNAME Record Reference
 excerpt: The formal structure, restrictions, and key technical details of a CNAME record.
-meta: Learn how to efficiently manage your CNAME records in DNSimple with our step-by-step guide for adding, updating, and removing records with ease.
+meta: Learn more about the structure, restrictions, and technical details for CNAME records.
 categories:
 - DNS
 ---
