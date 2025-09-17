@@ -34,7 +34,7 @@ DNSimple's Entra app integration is pending review and not yet available for ins
 
 ### Creating a customer Entra app
 
-For now, you can use Entra as an Identity Provider by [creating your own custom <label>Single tenant</label> Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app?view=microsoft-fabric&tabs=portal) to work with DNSimple by following these steps. Don’t forget to take note of your <label>Directory (tenant) ID</label>, <label>Application (client) ID</label>, and <label>Client secret</label>.
+For now, you can use Entra as an Identity Provider by [creating your own custom <label>Single tenant</label> Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app?view=microsoft-fabric&tabs=portal) to work with DNSimple by following these steps. Don't forget to take note of your <label>Directory (tenant) ID</label>, <label>Application (client) ID</label>, and <label>Client secret</label>.
 
 ### Adding Redirect URIs
 
@@ -51,7 +51,7 @@ These steps are performed in your DNSimple account:
 1. Once you have selected the account, go back to the account switcher and go to Account Settings.
 1. On the left-hand side, click on the Single-Sign On tab.
 1. Click Authorize with Microsoft Entra ID to authorize the Workspace.
-1. Fill in the Entra Tenant ID, client ID, and client secret, then click Link. You’ll need to log in to the Entra Workspace.
+1. Fill in the Entra Tenant ID, client ID, and client secret, then click Link. You'll need to log in to the Entra Workspace.
 
 ### Link the account to Entra
 
@@ -100,4 +100,4 @@ If you log out of Entra, you will also be logged out of DNSimple.
 
 ## Have more questions?
 
-If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
