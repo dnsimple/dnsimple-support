@@ -31,7 +31,7 @@ To proceed with configuring login with SSO through Entra, you must:
 
 ## Linking an Entra organization to a DNSimple account
 
-DNSimple's Entra app integration is pending review and not yet available for installation via the [Microsoft Entra App Gallery](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-integrated-apps). For now, you can use Entra as an Identity Provider by [creating your own custom <label>Single tenant</label> Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app?view=microsoft-fabric&tabs=portal) to work with DNSimple by following these steps. Don’t forget to take note of your <label>Directory (tenant) ID</label>, <label>Application (client) ID</label>, and <label>Client secret</label>.
+DNSimple's Entra app integration is pending review and not yet available for installation via the [Microsoft Entra App Gallery](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-integrated-apps). For now, you can use Entra as an Identity Provider by [creating your own custom <label>Single tenant</label> Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app?view=microsoft-fabric&tabs=portal) to work with DNSimple by following these steps. Don't forget to take note of your <label>Directory (tenant) ID</label>, <label>Application (client) ID</label>, and <label>Client secret</label>.
 
 After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-us/entra/identity-platform/how-to-add-redirect-uri) for your new Web app using the following URIs:
 1. https://dnsimple.com/identity_providers/entra/callbacks/users/login
@@ -44,7 +44,7 @@ Now, perform these steps in your DNSimple account.
 2. Once you have selected the account, go back to the account switcher and go to Account Settings.
 3. On the left-hand side, click on the Single-Sign On tab.
 4. Click Authorize with Microsoft Entra ID to authorize the Workspace.
-5. Fill in the Entra Tenant ID, client ID, and client secret, then click Link. You’ll need to log in to the Entra Workspace.
+5. Fill in the Entra Tenant ID, client ID, and client secret, then click Link. You'll need to log in to the Entra Workspace.
 
 ### Link account to Entra
 
@@ -66,14 +66,14 @@ To link a DNSimple user to an Entra identity:
 
 ## Logging in via Entra
 
-You’ll need to [link an Entra organization to your DNSimple account]() before your team members can log in via Entra SSO.
+You'll need to [link an Entra organization to your DNSimple account]() before your team members can log in via Entra SSO.
 1. To log in to DNSimple using Entra, visit https://dnsimple.com/login.
 1. Click Sign in using Entra.
 1. Enter the organization Entra domain or tenant Id and click Sign in.
 1. If you are prompted for your Entra username and password, enter them.
 1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
 
-If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account’s assets.
+If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account's assets.
 
 If you log out of Entra, you will also be logged out of DNSimple.
 
@@ -91,4 +91,4 @@ If you log out of Entra, you will also be logged out of DNSimple.
 
 ## Have more questions?
 
-If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support] (https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support] (https://dnsimple.com/feedback), and we'll be happy to help.
