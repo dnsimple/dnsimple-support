@@ -25,6 +25,7 @@ Entra as an Identity Provider is only available on Enterprise plans. See our [pr
 
 To proceed with configuring login with SSO through Entra, you must:
 
+- Have [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) access to a Microsoft Entra account.
 - Have administrator access to a DNSimple account.
 - Be subscribed to a DNSimple Enterprise plan.
 
