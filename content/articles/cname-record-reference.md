@@ -34,7 +34,7 @@ In the DNSimple [record editor](/articles/record-editor/), a CNAME record is rep
 
 ## CNAME record restrictions
 Understanding the following restrictions is critical to properly using CNAME records:
-- **No coexistence with other records:** A CNAME record cannot coexist with any other record for the same name. It's not possible to have both a CNAME and an [MX record](/mx-record/) for www.example.com simultaneously.
+- **No coexistence with other records:** A CNAME record cannot coexist with any other record for the same name. It's not possible to have both a CNAME and an [MX record](/articles/mx-record/) for www.example.com simultaneously.
 - **Must point to a domain name:** A CNAME record must always point to another domain name and never directly to an IP address.
 - **Chained CNAMEs:** A CNAME record can technically point to another CNAME record (e.g., `a.example.com` CNAME `b.example.com`, and `b.example.com` CNAME `c.example.com`). However, this is generally not recommended for performance reasons.
 
