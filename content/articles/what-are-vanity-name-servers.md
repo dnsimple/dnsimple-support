@@ -9,6 +9,10 @@ categories:
 
 # What Are Vanity Name Servers?
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/8p7GFBvTnxM" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Vanity name servers, sometimes called private name servers or custom name servers, are a feature that allows you to brand your domain's authoritative name servers with your own domain name. Instead of using generic name server hostnames provided by your DNS hosting provider (like `ns1.dnsimple.com`), you can configure them to appear as subdomains of your own domain (e.g., `ns1.yourcompany.com` and `ns2.yourcompany.com`).
 
 This functionality is about rebranding your DNS services, allowing your infrastructure to present a more consistent and professional appearance to the public.
