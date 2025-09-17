@@ -100,4 +100,4 @@ If you log out of Entra, you will also be logged out of DNSimple.
 
 ## Have more questions?
 
-If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support] (https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have any questions or need assistance about using Entra SSO with DNSimple, just [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
