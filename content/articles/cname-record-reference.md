@@ -28,7 +28,7 @@ In the DNSimple [record editor](/articles/record-editor/), a CNAME record is rep
 
 | Element | Description |
 |:--------|:-------------------------------------------------------|
-|Name| The host name for the record, without the domain name. This is generally referred to as a “subdomain”.|
+|Name| The host name for the record, without the domain name. This is generally referred to as a "subdomain".|
 |TTL| The [time-to-live](/articles/what-is-ttl/) in seconds. This is the amount of time the record is allowed to be cached by a resolver.|
 |Content| The fully-qualified domain-name that the CNAME maps to.|
 
