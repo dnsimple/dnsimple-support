@@ -7,7 +7,7 @@ categories:
 ---
 # URL Record Format and Technical Details
 
-This document serves as a reference for the structure and underlying technical implementation of DNSimple's proprietary URL record type. This record type facilitates web (HTTP/HTTPS) redirects directly through DNSimple's services.
+This document serves as a reference for the structure and underlying technical implementation of DNSimple's proprietary [URL record type](/articles/url-record/). This record type facilitates web (HTTP/HTTPS) redirects directly through DNSimple's services.
 
 ## URL record format
 The URL record is a special record type developed by DNSimple and is **not defined by any standard RFC**. Its functionality is proprietary to DNSimple's name servers and redirector service.
@@ -23,9 +23,9 @@ In DNSimple's record editor, the URL record is represented by the following conf
 While you configure a "URL record" in the DNSimple interface, DNSimple handles its technical implementation at the DNS level. The URL record itself does not exist as a standard DNS record type that gets directly served to clients.
 
 Instead, when you create a URL record:
-- **Underlying A and AAAA records:** DNSimple automatically configures a set of standard A (IPv4) and AAAA (IPv6) records for the source hostname (e.g., `www.yourdomain.com`) to point to the IP addresses of DNSimple's [redirector service](/articles/redirector/).
+- **Underlying A and AAAA records:** DNSimple automatically configures a set of standard [A (IPv4)](/articles/a-record/) and [AAAA (IPv6)](/articles/aaaa-record/) records for the source hostname (e.g., `www.yourdomain.com`) to point to the IP addresses of DNSimple's [redirector service](/articles/redirector/).
 - **HTTP/HTTPS redirect service:** When an HTTP/HTTPS client (like a web browser) attempts to access the source hostname, its DNS query resolves to one of our redirector service's IP addresses. The redirector service then receives the HTTP/HTTPS request.
-- **Redirect response:** Our redirector service then serves an appropriate HTTP/HTTPS redirect response (e.g., a 301 Moved Permanently) to the client. This response includes the Location header, which contains the target URL you specified in the URL record.
+- **Redirect response:** Our redirector service then serves an appropriate HTTP/HTTPS redirect response (e.g., a `301 Moved Permanently`) to the client. This response includes the `Location` header, which contains the target URL you specified in the URL record.
 - **Client follows redirect:** The client's web browser then automatically follows this HTTP/HTTPS redirect to the final target URL.
 From the perspective of a querying DNS resolver, the source hostname appears to have standard A and AAAA records pointing to DNSimple's infrastructure. The web redirection itself occurs at the HTTP/HTTPS layer, handled by DNSimple's servers.
 
