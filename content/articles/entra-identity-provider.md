@@ -35,7 +35,7 @@ DNSimple's Entra app integration is pending review and is not yet available for 
 
 ### Creating a customer Entra app
 
-For now, you can use Entra as an Identity Provider by [creating your own custom **Single tenant** Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app?view=microsoft-fabric&tabs=portal) to work with DNSimple by following these steps. Take note of your **Directory (tenant) ID**, **Application (client) ID**, and **Client secret**.
+For now, you can use Entra as an Identity Provider by [creating your own custom **Single tenant** Entra app integration](https://docs.azure.cn/en-us/data-explorer/kusto/access-control/provision-entra-id-app) to work with DNSimple by following these steps. Take note of your **Directory (tenant) ID**, **Application (client) ID**, and **Client secret**.
 
 ### Adding Redirect URIs
 
