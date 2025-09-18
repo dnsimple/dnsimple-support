@@ -53,6 +53,7 @@ Add the following [API Permissions](https://learn.microsoft.com/en-us/entra/iden
 - `profile`
 - `User.Read`
 - `User.Read.All`
+- `Domain.Read.All`
 
 [Consent must also be granted](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions#grant-consent-for-the-added-permissions-for-the-enterprise-application) for each API permission.
 
