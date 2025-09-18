@@ -46,13 +46,13 @@ After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-
 
 ### Adding API permissions
 
-Add the following API Permissions to the app and grant access:
+Add the following [API Permissions](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions) to the app:
 
-- openid
-- email
-- profile
-- User.Read
-- User.Read.All
+- `openid`
+- `email`
+- `profile`
+- `User.Read`
+- `User.Read.All`
 
 ### Configuring DNSimple for Entra SSO
 
