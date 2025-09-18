@@ -42,7 +42,7 @@ For step-by-step instructions on how to add, remove, and update URL records in y
 
 ## URL record format and technical details
 The URL record is a special DNSimple record type and is not defined by any RFC.
-For a detailed breakdown of the elements configurable for a URL record in DNSimple, and further technical insights into how DNSimple exposes these records as underlying A and AAAA records, consult our Reference Guide: URL Record Format and Technical Details.
+For a detailed breakdown of the elements configurable for a URL record in DNSimple, and further technical insights into how DNSimple exposes these records as underlying A and AAAA records, consult our Reference Guide: [URL Record Format and Technical Details](/articles/url-record-format-details/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your URL records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
