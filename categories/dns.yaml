@@ -4,6 +4,10 @@ Introduction:
   - What's an ALIAS record?
   - What Is a CNAME record?
   - What Is an A Record?
+  - What Is an AAAA record?
+  - What Is a CNAME record?
+  - What Is an A Record?
+
   - What Is an AAAA Record?
   - What's an MX Record?
   - What's an NS Record?
@@ -19,7 +23,8 @@ Introduction:
   - What Is a URL Record?
 
 Record types:
-  - Differences Between A and CNAME records
+
+  - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
   - Common DNS Records
 
