@@ -54,6 +54,8 @@ Add the following [API Permissions](https://learn.microsoft.com/en-us/entra/iden
 - `User.Read`
 - `User.Read.All`
 
+[Consent must also be granted](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions#grant-consent-for-the-added-permissions-for-the-enterprise-application) for each API permission.
+
 ### Configuring DNSimple for Entra SSO
 
 These steps are performed in your DNSimple account:
