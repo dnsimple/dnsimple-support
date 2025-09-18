@@ -17,7 +17,7 @@ categories:
 
 You can manage [CNAME records](/articles/cname-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the CNAME record format(ADD NEW LINK) and usage.
+The instructions in this article assume you're familiar with the [CNAME record format](/articles/url-record-format-details/) and usage.
 
 ## Adding a CNAME record
 
@@ -33,7 +33,7 @@ The instructions in this article assume you're familiar with the CNAME record fo
   ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
 
   - **Name**: the subdomain you want to create the record for, without the domain name. For example, if you want to represent `www.example.com` enter `www`. This field cannot be left blank.
-  - **Content**: the target host name this host will point to. It must be a host name (e.g. `blog.dnsimple.com`) and not a URL (e.g. `http://blog.dnsimple.com` or `http://blog.dnsimple.com/post` are invalid).
+  - **Content**: the target host name this host will point to. It must be a host name (e.g., `blog.dnsimple.com`) and not a URL (e.g., `http://blog.dnsimple.com` or `http://blog.dnsimple.com/post` are invalid).
 
   As with any other DNS record, you can configure:
 
