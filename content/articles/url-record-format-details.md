@@ -13,11 +13,11 @@ This document serves as a reference for the structure and underlying technical i
 The URL record is a special record type developed by DNSimple and is **not defined by any standard RFC**. Its functionality is proprietary to DNSimple's name servers and redirector service.
 
 In DNSimple's record editor, the URL record is represented by the following configurable elements:
-| Element | Description |Constraints/Details|
+| Element | Description | Constraints/Details |
 |:--------|:-------------------------------------------------------|:-------------------------------------------------------|
- | Name | The hostname for the record, without the domain name. This is generally referred to as the "subdomain" (e.g., www, blog). DNSimple automatically appends your domain name. | Cannot be blank if setting up a subdomain. If setting up a redirect for the apex domain (e.g., example.com), leave this field blank.|
-|TTL|The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver.|An unsigned 32-bit integer. Standard DNS TTL values apply.|
-|URL|The full destination URL to which the source hostname should redirect.|Must be a valid, complete URL including the scheme (e.g., `https://www.example.com/new-page`).|
+| Name | The hostname for the record, without the domain name. This is generally referred to as the "subdomain" (e.g., www, blog). DNSimple automatically appends your domain name. | Cannot be blank if setting up a subdomain. If setting up a redirect for the apex domain (e.g., example.com), leave this field blank.|
+| TTL |The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver.|An unsigned 32-bit integer. Standard DNS TTL values apply.|
+| URL |The full destination URL to which the source hostname should redirect.|Must be a valid, complete URL including the scheme (e.g., `https://www.example.com/new-page`).|
 
 ## Technical implementation: how DNSimple exposes URL records
 While you configure a "URL record" in the DNSimple interface, DNSimple handles its technical implementation at the DNS level. The URL record itself does not exist as a standard DNS record type that gets directly served to clients.
