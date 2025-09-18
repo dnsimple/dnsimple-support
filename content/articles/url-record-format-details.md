@@ -16,11 +16,11 @@ In DNSimple's record editor, the URL record is represented by the following conf
 | Element | Description | Constraints/Details |
 |:--------|:-------------------------------------------------------|:-------------------------------------------------------|
 | Name | The hostname for the record, without the domain name. This is generally referred to as the "subdomain" (e.g., www, blog). DNSimple automatically appends your domain name. | Cannot be blank if setting up a subdomain. If setting up a redirect for the apex domain (e.g., example.com), leave this field blank.|
-| TTL |The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver.|An unsigned 32-bit integer. Standard DNS TTL values apply.|
-| URL |The full destination URL to which the source hostname should redirect.|Must be a valid, complete URL including the scheme (e.g., `https://www.example.com/new-page`).|
+| TTL | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver. | An unsigned 32-bit integer. Standard DNS TTL values apply. |
+| URL | The full destination URL to which the source hostname should redirect.|Must be a valid, complete URL including the scheme (e.g., `https://www.example.com/new-page`). |
 
 ## Technical implementation: how DNSimple exposes URL records
-While you configure a "URL record" in the DNSimple interface, DNSimple handles its technical implementation at the DNS level. The URL record itself does not exist as a standard DNS record type that gets directly served to clients.
+You configure a URL record in the DNSimple interface, and DNSimple handles its technical implementation at the DNS level. The URL record itself does not exist as a standard DNS record type that is directly served to clients.
 
 Instead, when you create a URL record:
 - **Underlying A and AAAA records:** DNSimple automatically configures a set of standard [A (IPv4)](/articles/a-record/) and [AAAA (IPv6)](/articles/aaaa-record/) records for the source hostname (e.g., `www.yourdomain.com`) to point to the IP addresses of DNSimple's [redirector service](/articles/redirector/).
