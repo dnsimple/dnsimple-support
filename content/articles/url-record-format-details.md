@@ -13,7 +13,7 @@ This document serves as a reference for the structure and underlying technical i
 The URL record is a special record type developed by DNSimple and is **not defined by any standard RFC**. Its functionality is proprietary to DNSimple's name servers and redirector service.
 
 In DNSimple's record editor, the URL record is represented by the following configurable elements:
-| Element | Description | Constraints/Details |
+| Element | Description | Constraints & Details |
 |:--------|:------------|:--------------------|
 | Name| The hostname for the record, without the domain name. Generally referred to as the "subdomain" (e.g., www, blog). DNSimple automatically appends your domain name. | Cannot be blank if setting up a subdomain. If setting up a redirect for the apex domain (e.g., `example.com`), leave this field blank.|
 | TTL | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver.| An unsigned 32-bit integer. Standard DNS TTL values apply.|
@@ -27,6 +27,7 @@ Instead, when you create a URL record:
 - **HTTP/HTTPS redirect service:** When an HTTP/HTTPS client (like a web browser) attempts to access the source hostname, its DNS query resolves to one of our redirector service's IP addresses. The redirector service then receives the HTTP/HTTPS request.
 - **Redirect response:** Our redirector service then serves an appropriate HTTP/HTTPS redirect response (e.g., a `301 Moved Permanently`) to the client. This response includes the `Location` header, which contains the target URL you specified in the URL record.
 - **Client follows redirect:** The client's web browser then automatically follows this HTTP/HTTPS redirect to the final target URL.
+
 From the perspective of a querying DNS resolver, the source hostname appears to have standard A and AAAA records pointing to DNSimple's infrastructure. The web redirection itself occurs at the HTTP/HTTPS layer, handled by DNSimple's servers.
 
 ## Have more questions?
