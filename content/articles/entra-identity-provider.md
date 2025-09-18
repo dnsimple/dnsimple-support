@@ -44,6 +44,16 @@ After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-
 1. https://dnsimple.com/identity_providers/entra/callbacks/accounts/link
 1. https://dnsimple.com/identity_providers/entra/callbacks/users/link
 
+### Adding API permissions
+
+Add the following API Permissions to the app and grant access:
+
+- openid
+- email
+- profile
+- User.Read
+- User.Read.All
+
 ### Configuring DNSimple for Entra SSO
 
 These steps are performed in your DNSimple account:
