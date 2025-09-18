@@ -2,8 +2,8 @@ Introduction:
   - What is DNS?
   - What is Time-to-Live?
   - What's an ALIAS record?
-  - What's a CNAME record?
-  - What's an A Record?
+  - What Is a CNAME record?
+  - What Is an A Record?
   - What Is an AAAA Record?
   - What's an MX Record?
   - What's an NS Record?
@@ -16,7 +16,7 @@ Introduction:
   - What's an SPF Record?
   - What Is an SRV Record?
   - What's a TXT Record?
-  - What's a URL Record?
+  - What Is a URL Record?
 
 Record types:
   - Differences Between A and CNAME records
