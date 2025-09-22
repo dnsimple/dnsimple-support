@@ -1,12 +1,12 @@
 ---
-title: What's an ALIAS record?
+title: What Is an ALIAS Record?
 excerpt: What an ALIAS record is, and how to add an ALIAS record in DNSimple.
 meta: What an ALIAS record is, and how to add an ALIAS record in DNSimple. Discover how to easily add to enhance your domain's DNS management and improve website performance.
 categories:
 - DNS
 ---
 
-# ALIAS Records
+# What Is an ALIAS Record?
 
 ### Table of Contents {#toc}
 
@@ -14,21 +14,35 @@ categories:
 {:toc}
 
 ---
+## Why ALIAS records exist
+An ALIAS record is a unique, virtual record type developed by DNSimple to address a specific challenge in DNS management: providing CNAME-like behavior for apex domains. Traditional DNS standards prevent using a [CNAME record](/articles/cname-record/) directly on a root domain (e.g., `example.com`), which can be limiting when you want your main domain to point to a hostname provided by a service like Heroku or an AWS Elastic Load Balancer.
 
-## What's an ALIAS record?
+## What an ALIAS record is
+At its core, an ALIAS record acts as a smart, dynamic [A record](/articles/a-record/). When a DNS resolver queries your domain, the ALIAS record automatically resolves your domain to one or more IPv4 (A) or [IPv6](/articles/ipv6-support/) (AAAA) addresses in real-time. From the perspective of the requesting resolver, your domain appears to have standard A or [AAAA records](/articles/aaaa-record/), effectively bypassing the CNAME restriction at the apex.
 
-An **ALIAS** record is a virtual record type DNSimple created to provide [`CNAME`](/articles/cname-record/)-like behavior on [apex domains](/articles/domain-apex-heroku/) .
+### Why CNAMEs cannot be used at the apex
+The primary reason ALIAS records exist is the inherent limitation of CNAME records. A CNAME (Canonical Name) record establishes an alias from one domain name to another. However, according to [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034#section-3.6.2), if a domain has a CNAME record, it cannot have any other records (like [MX records](/articles/mx-record/) for email, [NS records](/articles/ns-record/) for name servers, or even A records). Since the apex domain must have NS and [SOA records](/articles/soa-record/) (and often MX records), it cannot simultaneously be a CNAME.
 
-For example, if your domain is `example.com`, and you want it to point to a host name like `myapp.herokuapp.com`, you can't use a `CNAME` record, but you can use an `ALIAS` record. The `ALIAS` record will automatically resolve your domain to one or more `A` records at resolution time, and resolvers see your domain as if it had `A` records.
+This is where the ALIAS record shines. It allows you to point your apex domain to a hostname while still maintaining other essential DNS records. This is particularly valuable for services that provide dynamic IP addresses (like CDNs, cloud hosting platforms, or load balancers) where a static A record wouldn't be practical or efficient.
 
-## How `ALIAS` records work
+## How ALIAS records work
 
-The DNSimple name servers are based on an open source Erlang DNS server we developed with the help of others in the DNS community. The [`erl-dns`](https://github.com/dnsimple/erldns) server provides a mechanism for plugging in custom handlers. We use that extension mechanism for providing an `ALIAS` handler. Each time a request hits the DNSimple name servers for either an [`A`](/articles/a-record/) or [`AAAA`](/articles/aaaa-record/) record type, the custom handler is invoked and attempts to resolve the `ALIAS` into its appropriate IPv4 or IPv6 address. It does this by asking a resolver to resolve the domain. We're running PowerDNS resolver locally on each system for this purpose.
+### Dynamic resolution process
+The functionality of ALIAS records happens behind the scenes, powered by DNSimple's name servers. Our name servers are built on an open-source Erlang DNS server (erl-dns), which we've enhanced with a mechanism for "custom handlers." This is where the ALIAS handler comes in.
 
-If the resolution succeeds, the handler extracts the `A` and `AAAA` records and returns them to the erl-dns server process, which then goes on its way. It also stores the result in an in-memory cache.
+When a DNS query for an A or AAAA record type hits a DNSimple name server, the ALIAS handler is invoked. Instead of looking up a static IP address, this handler performs a real-time resolution:
 
-If the resolution fails, for example due to a timeout, then the cached response is returned, if one exists. We have the request timeout set to 500 milliseconds, which is considered low. In the future, we may lower it further. If there's no response in the cache, the request is retried again, up to the maximum number of retries. If the request ultimately fails, we return an empty result set.
+1. **External query:** The handler queries a local PowerDNS resolver to determine the current IPv4 or IPv6 addresses associated with the target hostname specified in your ALIAS record (e.g., `myapp.herokuapp.com`).
+1. **Information extraction:** If the resolution is successful, the handler extracts the resulting A and AAAA records.
+1. **Dynamic response:** These dynamically obtained IP addresses are then returned to the `erl-dns` server process, which serves them to the original requesting resolver as if they were static A or AAAA records directly on your domain.
 
-### Resolving ALIAS records with secondary DNS
+### Performance and reliability
+To ensure optimal performance and reliability, DNSimple's ALIAS resolution incorporates caching and retry mechanisms:
 
-To support [secondary DNS](/articles/secondary-dns/) servers, especially ones that connect to us and pull zones using `AXFR`, we must resolve the `ALIAS` differently. We resolve it as part of the secondary DNS setup process, then run a scheduled job to update the `ALIAS` record at secondary name servers by resolving them again, removing the old records, and writing the new records to our zone transfer database. We then send a [`NOTIFY`](https://tools.ietf.org/html/rfc1996) message to the appropriate secondary name servers, letting it know a change has been made.
+**In-memory cache:** Successful resolutions are stored in an in-memory cache. This allows subsequent requests for the same ALIAS record to be served quickly without needing to perform a new external resolution.
+
+**Timeout and retries:** If an external resolution attempt fails (e.g., due to a timeout of 500 milliseconds, which we aim to lower for even faster responses), the system first attempts to return a cached response if one exists. If there's no cached response, the request is retried a set number of times. Only after exhausting these retries and failing to get a current or cached response will an empty result set be returned, indicating the record could not be resolved. This robust system ensures that your domain remains accessible even if the target service experiences temporary issues.
+
+## Have more questions?
+If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
