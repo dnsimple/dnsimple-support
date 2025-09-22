@@ -35,7 +35,7 @@ We have researched and tested ECS support among CDN providers and confirmed full
 - [Netlify](https://www.netlify.com)
 - [BunnyCDN](https://bunnycdn.com/)
 
-If you operate a CDN, or use a CDN we don’t support yet, please [contact us](https://dnsimple.com/feedback) so we can determine compatibility.
+If you operate a CDN, or use a CDN we don't support yet, please [contact us](https://dnsimple.com/feedback) so we can determine compatibility.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
