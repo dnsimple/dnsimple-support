@@ -87,4 +87,4 @@ The instructions in this article assume you're familiar with the URL record form
 </div>
 
 ## Need more help?
-If you have any questions or need assistance managing URL records,  contact support, and we’ll be happy to help.
+If you have any questions or need assistance managing URL records,  contact support, and we'll be happy to help.
