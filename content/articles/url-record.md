@@ -22,11 +22,11 @@ Traditional DNS records, like [A](/articles/a-record/) or [CNAME](/articles/cnam
 ## How URL records facilitate web redirects
 The magic of URL records happens through DNSimple's dedicated redirector service:
 
-**DNS resolution:** When you [create a URL record](/articles/manage-url-record/), DNSimple automatically configures underlying A and [AAAA records](/articles/aaaa-record/) for the source hostname (e.g., `www.example.com`) to point to the IP addresses of our redirector service.
+1. **DNS resolution:** When you [create a URL record](/articles/manage-url-record/), DNSimple automatically configures underlying A and [AAAA records](/articles/aaaa-record/) for the source hostname (e.g., `www.example.com`) to point to the IP addresses of our redirector service.
 
-**HTTP redirection:** When an HTTP client (like a web browser) queries that hostname, it resolves to our redirector service's IP address. Our redirector service then receives the HTTP request and immediately serves an appropriate HTTP redirect response (e.g., a `301 Permanent Redirect`) to the client.
+1. **HTTP redirection:** When an HTTP client (like a web browser) queries that hostname, it resolves to our redirector service's IP address. Our redirector service then receives the HTTP request and immediately serves an appropriate HTTP redirect response (e.g., a `301 Permanent Redirect`) to the client.
 
-**Client redirects:** The client's browser automatically follows this redirect instruction to the target URL configured in the URL record.
+1. **Client redirects:** The client's browser automatically follows this redirect instruction to the target URL configured in the URL record.
 
 From the user's perspective, accessing the source hostname seamlessly directs them to the new destination URL.
 
