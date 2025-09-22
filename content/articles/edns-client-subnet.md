@@ -1,12 +1,12 @@
 ---
-title: EDNS Client Subnet support for ALIAS records
+title: What Is EDNS Client Subnet Support?
 excerpt: What ECS is and how it works.
 meta: This article explains what EDNS Client Subnet (ECS) support is, how it is an option in the Extension Mechanisms for DNS, and how it's configured with an ALIAS record
 categories:
 - DNS
 ---
 
-# EDNS Client Subnet support for ALIAS records
+# What Is EDNS Client Subnet Support?
 
 ### Table of Contents {#toc}
 
@@ -15,41 +15,27 @@ categories:
 
 ---
 
-This article explains what EDNS Client Subnet support is and how it's configured with an ALIAS record.
+**EDNS Client Subnet (ECS)** is a mechanism that allows for more accurate, location-based DNS responses. Its primary purpose is to help latency-sensitive services like **Content Delivery Networks (CDNs)** route a user to the closest possible server, thereby reducing the time it takes for a web page or other content to load.
 
+By default, a DNS query from a public resolver (like Google Public DNS, 8.8.8.8) only shows the resolver's IP address. This can be problematic if the resolver is geographically far from the user, causing the DNS response to route the user to a server that isn't close to them. ECS solves this by allowing the resolver to pass along a partial, masked version of the end user's IP address in the DNS query.
 
-## How ECS Works:
+## How it benefits your services
 
-EDNS Client Subnet support is a mechanism defined in [RFC7871](https://tools.ietf.org/html/rfc7871) for recursive resolvers to send partial client IP address information to authoritative DNS nameservers.
+Having ECS enabled means your customers can get the closest possible edge node provided by your CDN. This reduces the average time required to load your web page, improves the overall latency of your network services, and provides a better customer experience.
 
-Latency-sensitive services like Content Delivery Networks (CDNs) use this information to provide accurate geo-location aware responses when answering name lookups coming from the recursive resolvers based at your Internet Service Provider (ISP) or public resolvers as Google Public DNS (8.8.8.8) service. DNSimple implemented an RFC7871 compliant solution to support these types of DNS queries at our authoritative DNS servers for customers using ALIAS records.
+## How DNSimple supports ECS
 
-If your ALIAS records point to a Content Delivery Network (CDN), or other latency-sensitive service which supports ECS, our systems will pass this information along, returning the geo-locatio-aware responses to the end users.
+DNSimple has implemented an [RFC 7871](https://datatracker.ietf.org/doc/html/rfc7871)-compliant solution to support ECS queries for customers using [ALIAS records](/articles/alias-record/). If your ALIAS records point to a CDN or another latency-sensitive service that supports ECS, our systems will pass the client IP information along. This ensures that the CDN can provide an accurate, geo-location-aware response to your end users.
 
+This feature is supported across all [DNSimple plans](https://dnsimple.com/pricing).
 
-## How does it benefit me and my services?
+We have researched and tested ECS support among CDN providers and confirmed full compliance with the RFC 7871 standard.
 
-By having ECS enabled along the path of the DNS queries, your customers will be able to get the closest edge node provided by your Content Delivery Network of choice. This will reduce the average time required to load your web page in your customers' browsers, or improve the overall latency of the network services that you provide.
+### Supported CDN providers:
+- [Netlify](https://www.netlify.com)
+- [BunnyCDN](https://bunnycdn.com/)
 
+If you operate a CDN, or use a CDN we don’t support yet, please [contact us](https://dnsimple.com/feedback) so we can determine compatibility.
 
-## Which plans support ECS?
-
-We support this feature across all subscriptions.
-
-
-## Which Content Delivery Networks (CDNs) do you support?
-
-We researched and tested ECS support among CDN providers. We chose only CDN providers that could confirm full compliance with the RFC7871 standard to make sure our customers are not affected by non-adherence to the above standard. Otherwise this leads to suboptimal operations.
-
-**List of supported CDN providers:**
-
-24/06/2020 - Netlify
-
-01/09/2020 - BunnyCDN
-[BunnyCDN](https://bunnycdn.com/) works to improve your user experience, SEO, conversions, revenue, security, and stability. They provide a fast global network and powerful features – so you can minimize latency and maximize performance.
-
-If you operate a CDN, or use a CDN we don't support yet, please [contact us](https://dnsimple.com/contact) so we can determine compatibility.
-
-## More information
-
-For a more detailed explanation of what an ALIAS record is, and how you can use it with our systems, take a look at this [support article](/articles/alias-record/).
+## Have more questions?
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
