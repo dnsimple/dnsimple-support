@@ -28,21 +28,20 @@ This is where the ALIAS record shines. It allows you to point your apex domain t
 ## How ALIAS records work
 
 ### Dynamic resolution process
-The functionality of ALIAS records happens behind the scenes, powered by DNSimple's name servers. Our name servers are built on an open-source Erlang DNS server (erl-dns), which we've enhanced with a mechanism for "custom handlers." This is where the ALIAS handler comes in.
+The functionality of ALIAS records happens behind the scenes, powered by DNSimple's name servers. Our name servers are built on an open-source Erlang DNS server (`erl-dns`), enhanced with a mechanism for "custom handlers." This is where the ALIAS handler comes in.
 
 When a DNS query for an A or AAAA record type hits a DNSimple name server, the ALIAS handler is invoked. Instead of looking up a static IP address, this handler performs a real-time resolution:
 
 1. **External query:** The handler queries a local PowerDNS resolver to determine the current IPv4 or IPv6 addresses associated with the target hostname specified in your ALIAS record (e.g., `myapp.herokuapp.com`).
 1. **Information extraction:** If the resolution is successful, the handler extracts the resulting A and AAAA records.
-1. **Dynamic response:** These dynamically obtained IP addresses are then returned to the `erl-dns` server process, which serves them to the original requesting resolver as if they were static A or AAAA records directly on your domain.
+1. **Dynamic response:** These dynamically obtained IP addresses are returned to the `erl-dns` server process, which serves them to the original requesting resolver as if they were static A or AAAA records directly on your domain.
 
 ### Performance and reliability
 To ensure optimal performance and reliability, DNSimple's ALIAS resolution incorporates caching and retry mechanisms:
 
 **In-memory cache:** Successful resolutions are stored in an in-memory cache. This allows subsequent requests for the same ALIAS record to be served quickly without needing to perform a new external resolution.
 
-**Timeout and retries:** If an external resolution attempt fails (e.g., due to a timeout of 500 milliseconds, which we aim to lower for even faster responses), the system first attempts to return a cached response if one exists. If there's no cached response, the request is retried a set number of times. Only after exhausting these retries and failing to get a current or cached response will an empty result set be returned, indicating the record could not be resolved. This robust system ensures that your domain remains accessible even if the target service experiences temporary issues.
+**Timeout and retries:** If an external resolution attempt fails (e.g., due to a timeout of 500 milliseconds, which we aim to lower for even faster responses), the system first attempts to return a cached response if one exists. If there's no cached response, the request is retried a set number of times. Only after exhausting these retries and failing to get a current or cached response will an empty result set be returned, indicating the record could not be resolved. This robust system ensures your domain remains accessible even if the target service experiences temporary issues.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
