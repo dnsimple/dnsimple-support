@@ -15,17 +15,17 @@ categories:
 
 ---
 
-**EDNS Client Subnet (ECS)** is a mechanism that allows for more accurate, location-based DNS responses. Its primary purpose is to help latency-sensitive services like **Content Delivery Networks (CDNs)** route a user to the closest possible server, thereby reducing the time it takes for a web page or other content to load.
+**EDNS Client Subnet (ECS)** is a mechanism that allows for more accurate, location-based DNS responses. Its primary purpose is to help latency-sensitive services like **Content Delivery Networks (CDNs)** route a user to the closest possible server, reducing the time it takes for a web page or other content to load.
 
 By default, a DNS query from a public resolver (like Google Public DNS, 8.8.8.8) only shows the resolver's IP address. This can be problematic if the resolver is geographically far from the user, causing the DNS response to route the user to a server that isn't close to them. ECS solves this by allowing the resolver to pass along a partial, masked version of the end user's IP address in the DNS query.
 
 ## How it benefits your services
 
-Having ECS enabled means your customers can get the closest possible edge node provided by your CDN. This reduces the average time required to load your web page, improves the overall latency of your network services, and provides a better customer experience.
+Having ECS enabled means your customers get the closest possible edge node provided by your CDN. This reduces the average time required to load your web page, improves the overall latency of your network services, and provides a better customer experience.
 
 ## How DNSimple supports ECS
 
-DNSimple has implemented an [RFC 7871](https://datatracker.ietf.org/doc/html/rfc7871)-compliant solution to support ECS queries for customers using [ALIAS records](/articles/alias-record/). If your ALIAS records point to a CDN or another latency-sensitive service that supports ECS, our systems will pass the client IP information along. This ensures that the CDN can provide an accurate, geo-location-aware response to your end users.
+DNSimple has implemented an [RFC 7871](https://datatracker.ietf.org/doc/html/rfc7871)-compliant solution to support ECS queries for customers using [ALIAS records](/articles/alias-record/). If your ALIAS records point to a CDN or another latency-sensitive service that supports ECS, our systems will pass along the client IP information. This ensures the CDN can provide an accurate, geo-location-aware response to your end users.
 
 This feature is supported across all [DNSimple plans](https://dnsimple.com/pricing).
 
