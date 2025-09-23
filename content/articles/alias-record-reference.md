@@ -25,7 +25,7 @@ In the DNSimple record editor, an ALIAS record is represented by the following c
 
 ## Technical implementation
 
-When a DNS resolver queries a domain with an ALIAS record, DNSimple's name servers perform a dynamic, real-time lookup of the hostname specified in the Content field. They then return the resulting [A](/articles/a-record/) (IPv4) or [AAAA](/articles/aaaa-record/) (IPv6) records to the resolver.
+When a DNS resolver queries a domain with an ALIAS record, DNSimple's name servers perform a dynamic, real-time lookup of the hostname specified in the **Content** field. They then return the resulting [A](/articles/a-record/) (IPv4) or [AAAA](/articles/aaaa-record/) (IPv6) records to the resolver.
 
 From the resolver's perspective, the domain appears to have standard A or AAAA records. The proprietary nature of the ALIAS record is transparent to the rest of the Internet's DNS infrastructure.
 
@@ -33,7 +33,7 @@ From the resolver's perspective, the domain appears to have standard A or AAAA r
 
 **Coexists with other records:** Unlike a [CNAME record](/articles/cname-record/), an ALIAS record can coexist with other record types (e.g., [MX](/articles/mx-record/), [TXT](/articles/txt-record/), [NS](/articles/ns-record/) records) on the same hostname.
 
-**Apex domain support:** The ALIAS record is primarily used to provide CNAME-like functionality on the root domain (or apex zone), such as example.com, which is not possible with standard CNAME records. Learn more about the [differences among A, CNAME, ALIAS, and URL records](/articles/differences-between-a-cname-alias-url/) in our documentation. 
+**Apex domain support:** The ALIAS record is primarily used to provide CNAME-like functionality on the root domain (or apex zone), like `example.com`, which is not possible with standard CNAME records. Learn more about the [differences among A, CNAME, ALIAS, and URL records](/articles/differences-between-a-cname-alias-url/) in our documentation. 
 
 **Dynamic resolution:** The IP address that the ALIAS record resolves to is not static. It is determined dynamically by DNSimple's name servers each time the record is queried, reflecting any changes to the target hostname's IP address.
 
