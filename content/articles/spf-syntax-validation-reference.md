@@ -25,15 +25,16 @@ v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
 
 ## SPF Mechanisms
 Mechanisms define which IP addresses are permitted or denied from sending mail for the domain. A mail server evaluates mechanisms from left to right.
+
 Each mechanism can be prefixed with a **qualifier** that dictates how to handle a match:
 
-- `+` **(Pass)**: The sender is authorized. (This is the default if no qualifier is specified).
+- `+` **(Pass)**: The sender is authorized. This is the default if no qualifier is specified.
 - `-` **(Fail)**: The sender is NOT authorized. Messages should be rejected.
 - `~` **(SoftFail)**: The sender is NOT authorized, but the result is non-committal. Messages may be accepted but marked as suspicious (e.g., put in spam folder).
 - `?` **(Neutral)**: The sender's status is unknown or undefined. Messages are typically accepted without strong judgment.
 
 | Mechanism | Description |Value (optional)|
-|--------|-----------|---|
+|:----|:-----|:---|
 |`all`| Matches any IP address. Typically used as the last mechanism to define a default policy for unmatched senders.|No value. Examples: `-all`, `~all`, `?all`, `+all` (default)|
 |`include`|Authorizes hosts defined in another domain's SPF record.|A domain name (e.g., `include:_spf.google.com`).|
 |`a`| Matches if the sender's IP address is one of the A or AAAA records for the current domain or a specified domain.|Optional domain name (e.g., `a:mail.example.com`). Optional CIDR suffix (e.g., `a:example.com/24`).|
@@ -47,7 +48,7 @@ Each mechanism can be prefixed with a **qualifier** that dictates how to handle 
 Modifiers are name/value pairs that provide additional information for SPF processing. Modifiers should appear at the end of the SPF record. A modifier cannot appear more than once. Unrecognized modifiers are ignored.
 
 |Modifier|Description|Value|
-|---|---|---|
+|:---|:---|:---|
 |redirect|Points to another domain whose SPF record should be used instead of the current one. This effectively replaces the current record.|A domain name (e.g., `redirect=_spf.anotherdomain.com`). Should only be used if you fully control both domains.|
 |exp|Provides a human-readable explanation if a `-` (Fail) qualifier mechanism is matched. The explanation is returned to the client.|A domain name that resolves to a TXT record containing the explanation (e.g., `exp=error.example.com`).|
 
@@ -60,13 +61,13 @@ To ensure proper functionality and compliance with RFCs, SPF records must adhere
     - `mx` mechanisms.
     - `ptr` mechanisms.
     - `exists` mechanisms.
-    - If this limit is exceeded, the SPF record may result in a "PermError" or "TempError," causing legitimate emails to fail authentication.
+    - If this limit is exceeded, the SPF record may result in a 'PermError' or 'TempError', causing legitimate emails to fail authentication.
   
-- `mx` mechanism lookups: When evaluating an `mx` mechanism, the number of MX records queried for the specified domain (or the current domain if no value is provided) is included in the overall 10-lookup limit. Each `mx` mechanism should not result in querying more than 10 address records.
-- `ptr` mechanism lookups: Similar to `mx`, each `ptr` mechanism should not result in querying more than 10 address records.
-- `all` mechanism position: While not strictly enforced by all parsers, the `all` mechanism is typically used as the last mechanism in an SPF record to define the default policy for all senders not explicitly matched by previous mechanisms.
-- Unrecognized modifiers: Unrecognized modifiers will be ignored by SPF evaluators.
-- Modifier uniqueness: A modifier (`redirect`, `exp`) can only appear once in an SPF record.
+- **`mx` mechanism lookups:** When evaluating an `mx` mechanism, the number of MX records queried for the specified domain (or the current domain if no value is provided) is included in the overall 10-lookup limit. Each `mx` mechanism should not result in querying more than 10 address records.
+- **`ptr` mechanism lookups:** Similar to `mx`, each `ptr` mechanism should not result in querying more than 10 address records.
+- **`all` mechanism position:** While not strictly enforced by all parsers, the `all` mechanism is typically used as the last mechanism in an SPF record to define the default policy for all senders not explicitly matched by previous mechanisms.
+- **Unrecognized modifiers:** Unrecognized modifiers will be ignored by SPF evaluators.
+- **Modifier uniqueness:** A modifier (`redirect`, `exp`) can only appear once in an SPF record.
 
 ## References
 [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208): Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1 (The current authoritative specification for SPF). This RFC supersedes RFC 4408.
