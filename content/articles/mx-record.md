@@ -25,11 +25,11 @@ The sending mail server will attempt to deliver the email to the server with the
 
 ## Example: routing email with Google Workspace
 A common (and excellent) example of using MX records is when you configure email delivery through a service like Google Workspace. When you set up your Google Workspace account and want your domain's email delivered there, Google provides a specific set of MX records you need to add to your DNSimple zone.
+
 Example of the default MX records Google might suggest, each with its associated priority:
 
-
 | Mail server hostname | Priority |
-|:--------|:-----------|
+|--------|-----------|
 |`aspmx.l.google.com`| 1 |
 |`alt1.aspmx.l.google.com`| 5|
 |`alt2.aspmx.l.google.com`| 5 |
