@@ -15,6 +15,7 @@ An MX record specifies the mail servers responsible for a domain. The structure 
 The core components of an MX record's RDATA (Resource Data) section are composed of two elements:
 
 `priority`: A 16-bit integer (0-65535) that indicates the preference given to this record.
+
 `domain-name`: The fully-qualified domain name (FQDN) of the mail server.
 
 The canonical representation of an MX record is: `<name> IN MX <priority> <domain-name>`
