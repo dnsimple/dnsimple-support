@@ -39,7 +39,9 @@ Example of the default MX records Google might suggest, each with its associated
 In this setup:
 
 1. A sending mail server trying to deliver email to your domain would first attempt to connect to `aspmx.l.google.com` (priority 1).
+
 1. If `aspmx.l.google.com` is unreachable or rejects the delivery, it would try `alt1.aspmx.l.google.com` or `alt2.aspmx.l.google.com` (both priority 5). The sending server can choose between them, or try one, then the other.
+
 1. If those are also unavailable, it would move on to `aspmx2.googlemail.com` or `aspmx3.googlemail.com` (both priority 10).
 
 This hierarchical approach, made possible by MX priorities, ensures maximum redundancy and significantly increases the likelihood that your email will always be delivered, even if a primary mail server temporarily experiences issues.
