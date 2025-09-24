@@ -1,5 +1,5 @@
 ---
-title: What's an SPF Record?
+title: What Is an SPF Record?
 excerpt: What an SPF record is, and how the SPF record works.
 meta: Learn what an SPF record is and how it functions to protect your domain from email spoofing, ensuring your messages reach their intended recipients securely.
 categories:
@@ -15,103 +15,45 @@ categories:
 
 ---
 
-<note>
-  Effective August 11th 2025, SPF records defined using the SPF RR (type 99) will no longer be supported. For more information, see our [announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/).
+## What Is an SPF Record?
+The Sender Policy Framework (SPF) record is a crucial email authentication method that helps prevent unauthorized individuals from sending emails on your domain's behalf. Its primary purpose is to indicate to receiving mail servers which hosts (IP addresses or domains) are authorized to send email from your domain.
 
-  This documentation has been updated to include the current recommended practices for SPF record management.
-</note>
+In an environment where email spoofing (faking the sender's address) is rampant, SPF records act as a digital permit, allowing receiving mail servers to verify the authenticity of the sender's origin. This significantly reduces the likelihood of phishing attacks, spam, and other malicious activities that exploit domain impersonation.
 
-## What's an SPF record?
+<info>
+**Important announcement:**
+**As of August 11th, 2025, SPF records defined using the dedicated SPF RR (Resource Record type 99) are no longer supported by major email providers and DNS services.** All SPF records must now be defined using the **TXT record type**. This documentation has been updated to reflect the current recommended practices for SPF record management using TXT records. For more information, please see our [official announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/). 
+</info>
 
-The Sender Policy Framework (SPF) record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain. SPF records are defined using the TXT record type.
+## How SPF works: authorizing your senders
+When an email is sent, the recipient's mail server performs a lookup of the sender's domain's SPF record. This record, which is always a [TXT record](/articles/txt-record/) in DNS, contains a list of IP addresses and/or hostnames that are permitted to send email from that domain.
 
-## Creating an SPF record
+The process typically follows these steps:
+1. An email arrives at a recipient's mail server, claiming to be from `yourdomain.com`.
+1. The recipient's mail server identifies the IP address from which the email originated.
+1. It queries the DNS for the SPF record (a TXT record starting with `v=spf1`) for `yourdomain.com`.
+1. The SPF record contains various mechanisms that list authorized senders (e.g., specific IP addresses, other domains that send on your behalf, your own mail server).
+1. The recipient's mail server compares the originating IP address of the email with the list in the SPF record.
+1. Based on this comparison, and a specified qualifier (like `+pass`, `-fail`, `~softfail`, or `?neutral`), the receiving server decides whether to accept, reject, or mark the email as suspicious.
 
-To create an SPF record, follow the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type. In the record content field, follow the SPF-specific formatting rules described below.
+This mechanism allows you, the domain owner, to explicitly declare your sending policy. This gives receiving mail servers the information they need to make informed decisions about incoming messages.
 
-## SPF record format {#record-format}
+## Key benefits of SPF:
+**Combats email spoofing:** Prevents unauthorized parties from sending emails that appear to originate from your domain.
 
-SPF records are defined as a single string of text. Here's an example record:
+**Improves email deliverability:** Emails from domains with properly configured SPF records are more likely to be trusted and delivered to inboxes, avoiding spam folders.
 
-```
-v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
-```
+**Enhances domain reputation:** Helps maintain a positive sending reputation for your domain, which is crucial for overall email success.
 
-The SPF record always starts with the `v=` element. This indicates the SPF version that is used. Right now, the version should always be `spf1` as this is the most common version of SPF that is understood by mail exchanges.
+SPF is often used as part of a comprehensive email authentication strategy. It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
 
-One or more terms follow the version indicator. These define the rules for which hosts are allowed to send mail from the domain, or provide additional information for processing the SPF record. Terms are made up of mechanisms and modifiers.
+## Creating, managing, and validating SPF records
+For step-by-step instructions on how to create, edit, or remove SPF records (using TXT records) in your DNSimple zone, please refer to [How To Add Common DNS Records](/articles/how-to-add-dns-records/) (A, AAAA, CNAME, ALIAS, TXT, URL, NS).
 
-## SPF mechanisms
+For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: SPF Record Syntax and Validation Reference (LINK NEW ARTICLE).
 
-The following mechanisms define which IP addresses are allowed to send mail from the domain:
+## Technical details
+The specification for the Sender Policy Framework is primarily defined in [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208), which supersedes RFC 4408.
 
-- `a`
-- `mx`
-- `ip4`
-- `ip6`
-- `exists`
-
-A mail server will compare the IP address of the sender against the IP addresses defined in the mechanisms. If the IP address matches one of the mechanisms in the SPF record then follow the result handling rule. The default handling rule is `+` or pass.
-
-The `include` mechanism allows you to authorize hosts outside of your administration by specifying their SPF records.
-
-The `all` mechanism matches any address. This is usually used as the last mechanism which defines how to handle any sender IP that did not match the previous mechanisms.
-
-All mechanisms may specify qualifiers for how to handle a match:
-
-- `+` for pass
-- `-` for fail
-- `~` for soft fail
-- `?` for neutral
-
-As previously mentioned, the default handling rule is pass, which is the same as the `+` qualifier.
-
-## SPF modifiers
-
-Modifiers are name/value pairs (separated by an `=` sign) that provide additional information. Modifiers should appear at the end of the SPF record. A modifier may not appear more than once and unrecognized modifiers are ignored.
-
-The `redirect` modifier is used to point to another SPF record to use for processing. This is used when you have multiple domains and want to apply the same SPF content across those multiple domains. Redirects should only be used if you control both domains, otherwise an `include` is used.
-
-The `exp` modifier is used to provide an explanation in case of a `-` (fail) qualifier is present on a mechanism that is matched.
-
-Note that we currently do not support modifiers in our SPF editing UI, but you may always add them if you are managing your SPF TXT record directly.
-
-## Tips for SPF records
-
-Since you may only have one SPF record per fully-qualified name, if you need to add additional modifiers you should add them to your existing SPF record if it's present.
-
-SPF records are most often specified on your naked domain name. If you need to exceed the number of modifiers allowed in a single SPF record, you may need to send some of your messages from subdomains below your naked domain. For example, if a third-party SaaS sends mail on your behalf, you may need to send email from `something.example.com` for that provider. This is especially true if you have multiple SaaS providers that send email on your behalf.
-
-If you want to test your SPF records for compliance with the RFCs, you may want to use [an online SPF testing tool](https://www.kitterman.com/spf/validate.html).
-
-## Validation
-
-The reference document for the DNS SPF record type is the [RFC 4408](https://datatracker.ietf.org/doc/html/rfc4408), clarified by [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208).
-
-Since SPF records are built on top of the TXT record type, all the [TXT record validations](/articles/txt-record/#validation) apply to SPF records as well. There are extra validations on top of that, explained below.
-
-**Each fully-qualified name may have at maximum one SPF record**.
-
-There are various limitations on the number of items and lookups permitted in an SPF record:
-
-- SPF records may not have more than 10 mechanisms that require DNS lookups. These are the `include`, `a`, `mx`, `ptr`, and `exists` mechanisms.
-- When evaluating the `mx` mechanism, the number of MX records queried is included in the overall limit of DNS lookups. Each `mx` mechanism must not result in querying more than 10 address records.
-- The `ptr` mechanism is also included in the overall limit. Each `ptr` must not result in querying more than 10 address records.
-
-#### Directives
-
-- A `directive` can start with a qualifier character. The supported qualifiers are: `+`, `-`, `?`, and `~`
-- A `directive` is composed of a `mechanism` and an optional `value` (some `mechanism`s allow providing a value after a `:` character)
-- This is the list of allowed `mechanism`s and their expected `value`s if any:
-    - `all`
-    - `include`, `exists`. Expects a domain name as `value` as in `include:example.com`
-    - `ip4`. Expects an IPv4 address as `value` as in `ip4:1.2.3.4`
-    - `ip6`. Expects an IPv6 address as `value` as in `ip6:2001:DB8::CD30/96`
-    - `ptr`. Expects a domain name as `value` as in `ptr:example.com`
-    - `a`, `mx`. Expects either a domain name or a CIDR as `value` as in `a:example.com`
-
-#### Modifiers
-
-- `modifier` terms follow a `key=value` pattern
-- A `modifier` key can be any valid text excluding the whitespace character
-- A `modifier` value is expected to be a domain name
+## Have more questions?
+If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
