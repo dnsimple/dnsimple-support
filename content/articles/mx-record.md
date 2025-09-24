@@ -29,7 +29,7 @@ A common (and excellent) example of using MX records is when you configure email
 Example of the default MX records Google might suggest, each with its associated priority:
 
 | Mail server hostname | Priority |
-|--------|-----------|
+|:---|:---|
 |`aspmx.l.google.com`| 1 |
 |`alt1.aspmx.l.google.com`| 5|
 |`alt2.aspmx.l.google.com`| 5 |
