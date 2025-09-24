@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# What's an MX Record?
+# What Is an MX Record?
 
 An **MX record** (record type 15), short for **Mail eXchange record**, is a crucial type of DNS record that specifies which mail servers are responsible for accepting email messages on your domain's behalf. Essentially, MX records tell other mail servers on the internet where they should deliver your email.
 
