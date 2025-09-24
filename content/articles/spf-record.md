@@ -50,7 +50,7 @@ SPF is often used as part of a comprehensive email authentication strategy. It w
 ## Creating, managing, and validating SPF records
 For step-by-step instructions on how to create, edit, or remove SPF records (using TXT records) in your DNSimple zone, please refer to [How To Add Common DNS Records](/articles/how-to-add-dns-records/) (A, AAAA, CNAME, ALIAS, TXT, URL, NS).
 
-For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: SPF Record Syntax and Validation Reference (LINK NEW ARTICLE).
+For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
 
 ## Technical details
 The specification for the Sender Policy Framework is primarily defined in [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208), which supersedes RFC 4408.
