@@ -40,11 +40,11 @@ In the DNSimple record editor, an MX record is represented by the following cust
 ## Example MX records
 A common example of multiple MX records used to provide redundancy for a domain:
 
-`example.com. IN MX 1 aspmx.l.google.com`. 
-`example.com. IN MX 5 alt1.aspmx.l.google.com`. 
-`example.com. IN MX 5 alt2.aspmx.l.google.com`. 
-`example.com. IN MX 10 aspmx2.googlemail.com`.
-`example.com. IN MX 10 aspmx3.googlemail.com`.
+`example.com. IN MX 1 aspmx.l.google.com.` 
+`example.com. IN MX 5 alt1.aspmx.l.google.com.` 
+`example.com. IN MX 5 alt2.aspmx.l.google.com.` 
+`example.com. IN MX 10 aspmx2.googlemail.com.`
+`example.com. IN MX 10 aspmx3.googlemail.com.`
 
 In this example, mail will first attempt to be delivered to `aspmx.l.google.com` (priority 1). If that fails, it will attempt `alt1.aspmx.l.google.com` or `alt2.aspmx.l.google.com` (priority 5).
 
