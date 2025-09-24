@@ -20,15 +20,21 @@ The core components of an MX record's RDATA (Resource Data) section are composed
 The canonical representation of an MX record is: `<name> IN MX <priority> <domain-name>`
 
 In the DNSimple record editor, an MX record is represented by the following customizable elements:
+
 **Name:** The host name for the record, without the domain name. This is generally referred to as a "subdomain".
+
 **TTL:** The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.
+
 **Priority:** A number that indicates the preference for this mail server.
+
 **Content:** The fully-qualified `domain-name` of the mail server.
 
 ## MX record behavior and priorities
 **Priority:** When a mail agent attempts to deliver an email, it will always try to connect to the mail server with the lowest priority value first.
+
 **Redundancy:** If multiple MX records exist for a domain, they provide redundancy. If the highest-priority server fails, the mail agent will attempt to deliver the email to the next highest-priority server in the list.
-Equal priorities: If multiple records share the same priority value, mail agents may randomly select among them for delivery.
+
+**Equal priorities:** If multiple records share the same priority value, mail agents may randomly select among them for delivery.
 
 ## Example MX records
 A common example of multiple MX records used to provide redundancy for a domain:
