@@ -20,15 +20,25 @@ Explanation:
   - What Is a URL Record?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
-  - Regional Records
-  - What Is EDNS Client Subnet Support?
+  - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?
+  - Regional Records
+  - Why Anycast DNS?
+  - Anycast DNS
+  - Resolution Status
+  - Why DNSSEC and Secondary DNS may not work together
+  - Protection Against DDoS Attacks
+  - What Is EDNS Client Subnet Support?
+  - DNS Hosting
+  - Domain Zone Files
+  - Dynamic DNS
+  - Integrated DNS Providers at DNSimple
   - Amazon Route 53
   - Azure DNS
   - CoreDNS
+  - Zone Verification
 
  
-
 How to:
   - Record Editor
   - Record Notes
@@ -40,31 +50,17 @@ How to:
   - Adding and Removing DS Records
   - Managing URL Records
   - Zone NS Records
+  - Auto-Importing DNS Records
   - Managing DS Records When Changing DNS
   - Rotate DNSSEC Keys
   - Amazon Route 53 Integration Demo
+  - Managing Integrated Zones
+  - Record Editor for Integrated Zones
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
   - How to Use dig
   
 
-Zones:
-  - DNS Hosting
-  - Domain Zone Files
-  - Dynamic DNS
-  - Integrated DNS Providers at DNSimple
-  - Managing Integrated Zones
-  - Record Editor for Integrated Zones
-  - Reverse DNS Zones
-  - Resolution Status
-  - Auto-Importing DNS Records
-  - Why Anycast DNS?
-  - Anycast DNS
-  - Why DNSSEC and Secondary DNS may not work together
-  - Protection Against DDoS Attacks
-  - Zone Verification
-  
-  
 Reference: 
   - Supported DNS Records and DNS Record Types
   - A Record Format
@@ -76,3 +72,4 @@ Reference:
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
+
