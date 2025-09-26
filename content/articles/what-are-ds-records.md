@@ -4,6 +4,7 @@ excerpt: Learn what DS records are and why they matter for DNSSEC.
 meta: Discover the importance of DS records in DNSSEC, how they enhance security, and their role in establishing trust for your domain's DNS management.
 categories:
 - DNSSEC
+- DNS
 ---
 
 # What are DS records?
