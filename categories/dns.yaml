@@ -1,6 +1,7 @@
 Explanation:
   - What is DNS?
   - What is Time-to-Live?
+  - What's the Minimum Time-To-Live Provided by DNSimple?
   - Common DNS Records
   - What Is an ALIAS Record?
   - What Is a CNAME Record?
@@ -27,6 +28,7 @@ Explanation:
   - Anycast DNS
   - Resolution Status
   - Why DNSSEC and Secondary DNS may not work together
+  - How ALIAS Records Resolve with Secondary DNS
   - Protection Against DDoS Attacks
   - What Is EDNS Client Subnet Support?
   - DNS Hosting
