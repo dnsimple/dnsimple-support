@@ -1,6 +1,8 @@
-Introduction:
+Explanation:
   - What is DNS?
   - What is Time-to-Live?
+  - What's the Minimum Time-To-Live Provided by DNSimple?
+  - Common DNS Records
   - What Is an ALIAS Record?
   - What Is a CNAME Record?
   - What Is an A Record?
@@ -17,45 +19,59 @@ Introduction:
   - What Is an SRV Record?
   - What's a TXT Record?
   - What Is a URL Record?
-
-Record types:
-
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
-  - Common DNS Records
+  - Reverse DNS Zones
+  - How Long Does It Take for a New Record to Resolve for My Domain?
+  - Regional Records
+  - Why Anycast DNS?
+  - Anycast DNS
+  - Resolution Status
+  - Why DNSSEC and Secondary DNS may not work together
+  - How ALIAS Records Resolve with Secondary DNS
+  - Protection Against DDoS Attacks
+  - What Is EDNS Client Subnet Support?
+  - DNS Hosting
+  - Domain Zone Files
+  - Dynamic DNS
+  - Integrated DNS Providers at DNSimple
+  - Amazon Route 53
+  - Azure DNS
+  - CoreDNS
+  - Zone Verification
 
-Managing records:
+ 
+How to:
+  - Record Editor
+  - Record Notes
+  - How To Add Common DNS Records
   - Managing A Records
   - Managing AAAA Records
   - Managing CAA Records
   - Managing CNAME Records
   - Adding and Removing DS Records
   - Managing URL Records
-  - Record Editor
-  - Record Notes
-  - Regional Records
-  - Managing DS Records When Changing DNS
   - Zone NS Records
-
-Zones:
-  - DNS Hosting
-  - Domain Zone Files
-  - Dynamic DNS
-  - Integrated DNS Providers at DNSimple
+  - Auto-Importing DNS Records
+  - Managing DS Records When Changing DNS
+  - Rotate DNSSEC Keys
+  - Amazon Route 53 Integration Demo
   - Managing Integrated Zones
   - Record Editor for Integrated Zones
-  - Reverse DNS Zones
-  - Resolution Status
-  - Auto-Importing DNS Records
-  - Why Anycast DNS?
-  - Anycast DNS
-  - Why DNSSEC and Secondary DNS may not work together
-  - Protection Against DDoS Attacks
-  - Zone Verification
-
-Troubleshooting:
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
   - How to Use dig
-  - How Long Does It Take for a New Record to Resolve for My Domain?
-  - What's the Minimum Time-To-Live Provided by DNSimple?
+  
+
+Reference: 
+  - Supported DNS Records and DNS Record Types
+  - A Record Format
+  - AAAA Record Format
+  - ALIAS Record Reference
+  - CNAME Record Reference
+  - MX Record Reference
+  - SPF Record Syntax and Validation Reference
+  - URL Record Format and Technical Details
+  - IPv6 Domain Resolution Reference
+  - Resolving with DNSimple
+
