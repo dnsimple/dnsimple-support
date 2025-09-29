@@ -10,7 +10,7 @@ Explanation:
   - What Is an MX Record?
   - What's an NS Record?
   - What's a DKIM Record?
-  - What Is a DMARC Record?
+  - What's a DMARC record?
   - What's a CAA record?
   - What Are Glue Records?
   - What's a POOL Record?
@@ -19,6 +19,7 @@ Explanation:
   - What Is an SRV Record?
   - What's a TXT Record?
   - What Is a URL Record?
+  - What Are DS Records?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
   - Reverse DNS Zones
@@ -51,8 +52,6 @@ How to:
   - Managing CNAME Records
   - Adding and Removing DS Records
   - Managing URL Records
-  - Setting up DMARC
-  - Verifying DMARC with dig and Online Tools
   - Zone NS Records
   - Auto-Importing DNS Records
   - Managing DS Records When Changing DNS
@@ -63,15 +62,14 @@ How to:
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
   - How to Use dig
-
   
+
 Reference: 
   - Supported DNS Records and DNS Record Types
   - A Record Format
   - AAAA Record Format
   - ALIAS Record Reference
   - CNAME Record Reference
-  - DMARC Record Reference
   - MX Record Reference
   - SPF Record Syntax and Validation Reference
   - URL Record Format and Technical Details
