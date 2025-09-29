@@ -47,6 +47,7 @@ These reports provide invaluable insights into:
 - Where authentication failures are occurring. This data helps you identify legitimate email streams that might need DMARC configuration adjustments and detect unauthorized use of your domain.
   
 ### Key benefits of DMARC
+
 **Stronger anti-phishing and anti-spoofing:** Provides a robust defense against impersonation.
 
 **Enhanced deliverability:** Builds trust with receiving mail servers, improving inbox placement.
