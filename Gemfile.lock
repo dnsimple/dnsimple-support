@@ -112,7 +112,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (6.0.2)
-    puma (6.6.1)
+    puma (7.0.4)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.16)
@@ -164,7 +164,7 @@ DEPENDENCIES
   nanoc-live
   nokogiri (~> 1.18)
   pry (~> 0.15.2)
-  puma (~> 6.6)
+  puma (~> 7.0)
   rake (~> 13.3)
   rouge
   systemu
