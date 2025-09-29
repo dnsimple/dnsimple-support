@@ -7,7 +7,7 @@ categories:
 ---
 
 # DMARC Record Reference
-This article serves as a reference for the formal structure, tags, and key technical details of a [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) record.
+This article serves as a reference for the formal structure, tags, and key technical details of a **[DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance)** record.
 
 ## DMARC record format
 
