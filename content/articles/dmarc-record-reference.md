@@ -31,7 +31,7 @@ In the DNSimple [record editor](/articles/record-editor/), a DMARC record is rep
 
 ## DMARC tags and their values
 
-|Tag| Description| Value|
+| Tag | Description | Value |
 |:----|:-----|:---|
 | `v` | **Version**: Must be the first tag in the record. | `DMARC1` |
 | `p` | **Policy**: The policy for the organizational domain. | `none` (monitor only), `quarantine` (treat as suspicious), `reject` (block message). |
