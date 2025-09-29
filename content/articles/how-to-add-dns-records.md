@@ -1,12 +1,12 @@
 ---
-title: How To Add DNS Records
+title: How To Add Common DNS Records
 excerpt: How to add common DNS records to your domains.
 meta: Learn more about how to add common DNS records in DNSimple.
 categories:
 - DNS
 ---
 
-# How To Add DNS Records
+# How To Add Common DNS Records
 
 You can use the same process in DNSimple to add several common DNS record types. These record types share the same interface and general steps in our system:
 [**A**](/articles/a-record/)

@@ -157,7 +157,7 @@ describe("Search", () => {
       "change nameservers": ["setting-name-servers", "what-is-a-nameserver"],
       "domain expiration": ["what-happens-when-domain-expires"],
       "ipv6 dns": ["ipv6-support", "aaaa-record"],
-      "email settings": ["email-hosting", "troubleshooting-email-forwarding-gmail", "mx-record"],
+      "email settings": ["email-hosting", "email-forwarding", "mx-record"],
       "domain owner": ["changing-domain-contact", "whois-privacy"],
       login: ["getting-started"],
     };
