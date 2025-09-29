@@ -15,7 +15,7 @@ A DMARC record is a special type of [TXT record](/articles/txt-record/) publishe
 
 The value of the TXT record is a single string containing a series of semicolon-separated tags, where each tag is a key/value pair. All DMARC records must begin with the `v` tag.
 
-Canonical representation:
+**Canonical representation:**
 
 ```
 _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com"
@@ -33,21 +33,19 @@ In the DNSimple [record editor](/articles/record-editor/), a DMARC record is rep
 
 |Tag| Description| Value|
 |:----|:-----|:---|
-|`v`| **Version**: Must be the first tag in the record.|`DMARC1`|
-|`p`| **Policy**: The policy for the organizational domain.|`none` (monitor only), `quarantine` (treat as suspicious), `reject` (block message).|
-|`pct`| **Percentage**: The percentage of messages to which the DMARC policy applies.| A number from `0` to `100`.|
-|`rua| **Reporting URI for aggregate reports**: An email address to which aggregate reports are sent.|`mailto:address@example.com`|
-|`ruf`| **Reporting URI for failure reports**: An email address to which forensic reports are sent. | `mailto:address@example.com`|
-|`adkim`| **DKIM alignment mode** |`r` (relaxed), `s` (strict)|
-|`aspf`| **SPF alignment mode**| `r` (relaxed), `s` (strict)|
-|`fo`| **Forensic options**: Controls when forensic reports are generated.| `0` (all failures), `1` (any failure), `d` (DKIM failure), `s` (SPF failure)|
-|`sp`| **Subdomain policy**: The policy to apply to subdomains.| `none`, `quarantine`, `reject`|
-|`ri`| **Report interval**: The interval in seconds between aggregate reports.| A number representing seconds. The default is `86400` (1 day).|
-|`rf`| **Report format**: The format for failure reports.|`afrf` (Authentication Failure Reporting Format)|
-|`rfmt`| **Reporting format**| `afrf` (Authentication Failure Reporting Format)|
-|`fo`| **Forensic reporting mode**|`b0`, `1`, `d`, `s`|
+| `v` | **Version**: Must be the first tag in the record. | `DMARC1` |
+| `p` | **Policy**: The policy for the organizational domain. | `none` (monitor only), `quarantine` (treat as suspicious), `reject` (block message). |
+| `pct` | **Percentage**: The percentage of messages to which the DMARC policy applies.| A number from `0` to `100`. |
+| `rua` | **Reporting URI for aggregate reports**: An email address to which aggregate reports are sent. | `mailto:address@example.com` |
+| `ruf` | **Reporting URI for failure reports**: An email address to which forensic reports are sent. | `mailto:address@example.com` |
+| `adkim` | **DKIM alignment mode** | `r` (relaxed), `s` (strict) |
+| `aspf` | **SPF alignment mode**| `r` (relaxed), `s` (strict) |
+| `fo` | **Forensic options**: Controls when forensic reports are generated.| `0` (all failures), `1` (any failure), `d` (DKIM failure), `s` (SPF failure) |
+| `sp` | **Subdomain policy**: The policy to apply to subdomains. | `none`, `quarantine`, `reject` |
+| `ri` | **Report interval**: The interval in seconds between aggregate reports.| A number representing seconds. The default is `86400` (1 day). |
+| `rf` | **Report format**: The format for failure reports.| `afrf` (Authentication Failure Reporting Format) |
+| `rfmt` | **Reporting format**| `afrf` (Authentication Failure Reporting Format) |
+| `fo` | **Forensic reporting mode**| `b0`, `1`, `d`, `s` |
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-
