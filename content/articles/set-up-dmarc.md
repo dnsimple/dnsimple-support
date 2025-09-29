@@ -1,5 +1,5 @@
 ---
-title: Setting Up DMARC
+title: Setting up DMARC
 excerpt: How to set up DMARC in your DNSimple account.
 meta: Learn how to set up DMARC and what to expect from your email provider.
 categories:
