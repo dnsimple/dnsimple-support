@@ -33,7 +33,7 @@ When a mail server receives an email, it first checks its SPF and/or DKIM status
 ### Policy enforcement
 Based on the DMARC record published in your DNS, you can instruct receiving mail servers what to do with messages that fail DMARC authentication and alignment. 
 
-**These policies include:**
+These policies include:
 - `p=none`: Monitor only; take no action.
 - `p=quarantine`: Treat as suspicious; usually means placing in spam/junk folder.
 - `p=reject`: Do not accept the message; bounce it back to the sender. This allows domain owners to gradually ramp up their enforcement or maintain strict controls.
@@ -41,7 +41,7 @@ Based on the DMARC record published in your DNS, you can instruct receiving mail
 ### Reporting and feedback
 DMARC provides a powerful feedback mechanism. You can specify email addresses in your DMARC record to receive aggregated reports (RUA) and/or forensic reports (RUF) about email traffic sent from your domain. 
 
-**These reports provide invaluable insights into:**
+These reports provide invaluable insights into:
 - Who is sending email claiming to be from your domain.
 - Which emails are passing/failing SPF and DKIM.
 - Where authentication failures are occurring. This data helps you identify legitimate email streams that might need DMARC configuration adjustments and detect unauthorized use of your domain.
