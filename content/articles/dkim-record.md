@@ -52,3 +52,6 @@ To verify that your DKIM record is correctly published and functioning, consult 
 
 ## Technical details
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.
+
+## Have more questions?
+If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
