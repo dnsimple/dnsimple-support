@@ -1,5 +1,5 @@
 ---
-title: What's a DMARC record?
+title: What Is a DMARC Record?
 excerpt: What a DMARC record is, and how DMARC records work.
 meta: Learn what DMARC records are, how they function, and how they can enhance your email security by preventing spoofing and phishing attacks effectively.
 categories:
@@ -15,75 +15,56 @@ categories:
 {:toc}
 
 ---
+## What is a DMARC record?
 
-DMARC stands for Domain-based Message Authentication, Reporting & Conformance. It's an email authentication, policy, and reporting protocol that builds upon SPF and DKIM protocols to help email receivers determine if the purported message aligns with what the receiver knows about the sender. This makes it easier to identify spam or phishing messages, and keep them out of inboxes.
+**DMARC**, which stands for **Domain-based Message Authentication, Reporting and Conformance**, is a powerful email authentication, policy, and reporting protocol. It builds directly upon the foundational email authentication methods of [SPF (Sender Policy Framework)](/articles/spf-record/) and [DKIM (DomainKeys Identified Mail)](/articles/dkim-record/) to provide an overarching framework for email security.
 
-<info>
-DMARC works with [SPF](/articles/spf-record/) and [DKIM](/articles/dkim-record/) records. <strong>You must have these records present for DMARC to work</strong>, since DMARC is built around them.
-</info>
+Its primary purpose is to help email receivers determine if an incoming message legitimately aligns with what is known about the sender's domain. This capability is critical for combating email spoofing, phishing attacks, and spam, helping ensure only authorized messages reach inboxes.
 
+## How DMARC works: building on SPF and DKIM
+DMARC acts as a crucial layer of enforcement and feedback that works with SPF and DKIM. For DMARC to function effectively, your domain must have correctly configured SPF and DKIM records.
 
-## Setting up DMARC
+### Authentication and alignment
+When a mail server receives an email, it first checks its SPF and/or DKIM status. DMARC then introduces the concept of **alignment**. It verifies that the "From" address (the one users see) in the email matches the domain that passed SPF authentication and/or the domain that signed the email with DKIM.
 
-DMARC requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/en-us/blog/what-is-dmarc), [Postmark](https://postmarkapp.com/guides/dmarc?utm_source=dmarc&utm_medium=web&utm_campaign=nav#how-do-i-implement-dmarc-on-my-domain), or [Google Apps](https://support.google.com/a/answer/2466563). The key will be inserted directly into your zone as a TXT record.
+- **SPF alignment:** Checks if the visible "From" domain matches the domain used for the SPF check.
+- **DKIM alignment:** Checks if the visible "From" domain matches the domain used for the DKIM signature. If either SPF or DKIM passes and aligns with the visible "From" address, the message passes DMARC authentication.
 
-If you're given a string representing DMARC, it usually looks something like this:
+### Policy enforcement
+Based on the DMARC record published in your DNS, you can instruct receiving mail servers what to do with messages that fail DMARC authentication and alignment. 
 
-```
-"v=DMARC1;p=reject;pct=100;rua=mailto:postmaster@dmarcdomain.com"
-```
+These policies include:
+- `p=none`: Monitor only; take no action.
+- `p=quarantine`: Treat as suspicious; usually means placing in spam/junk folder.
+- `p=reject`: Do not accept the message; bounce it back to the sender. This allows domain owners to gradually ramp up their enforcement or maintain strict controls.
 
-Insert this into a TXT record by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
+### Reporting and feedback
+DMARC provides a powerful feedback mechanism. You can specify email addresses in your DMARC record to receive aggregated reports (RUA) and/or forensic reports (RUF) about email traffic sent from your domain. 
 
-Your provider will also give you a specific hostname to use, usually something like:
+These reports provide invaluable insights into:
+- Who is sending email claiming to be from your domain.
+- Which emails are passing/failing SPF and DKIM.
+- Where authentication failures are occurring. This data helps you identify legitimate email streams that might need DMARC configuration adjustments and detect unauthorized use of your domain.
+  
+### Key benefits of DMARC
 
-```
-_dmarc.hostname.com
-```
+**Stronger anti-phishing and anti-spoofing:** Provides a robust defense against impersonation.
 
-Enter the subdomain part of the hostname in the "Name" field. The subdomain is everything to the left of your domain name.
+**Enhanced deliverability:** Builds trust with receiving mail servers, improving inbox placement.
 
-<tip>
-Your subdomain should be `_dmarc`. The leading underscore character is required.
-</tip>
+**Brand protection:** Prevents malicious use of your domain, safeguarding your brand reputation.
 
+**Visibility and control:** The reporting feature gives you actionable data to understand your email ecosystem and enforce your sending policies effectively.
 
-## Quotes and slashes?
+A DMARC record is published as a [TXT record](/articles/txt-record/) at a specific subdomain, typically `_dmarc.yourdomain.com`. The content of this TXT record contains all the DMARC policy tags and reporting addresses.
 
-If your provider gave you the DMARC record and it included double quotes around the record, or backslashes before semi-colons in the record, you can safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
+## Setting up, verifying, and monitoring DMARC
+For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, please refer to our dedicated How-To Guide: Setting Up DMARC (LINK NEW ARTICLE).
 
-Sometimes there will be forward slashes or other unusual characters in the DMARC record. Don't modify those. If you have any questions or concerns, [contact support](https://dnsimple.com/contact).
-
-
-## Verifying your DMARC with dig
-
-The [dig](/articles/how-dig/) tool is a good way to verify that your DMARC record is being returned correctly by our DNS servers.
-
-To verify the DMARC record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain hostname.com, you can get the TXT record using the following query:
-
-
-```
-dig +short _dmarc.hostname.com TXT
-```
-
-This will return a result like this:
-
-```
-"v=DMARC1; p=quarantine; pct=100; rua=mailto:aggrep@hostname.com; sp=reject; aspf=r;"
-```
-
-If no result is returned, verify that you added the TXT record with the correct subdomain. Remember the "Name" field in DNSimple should not include your domain name, otherwise you'd create a record at `subdomain.yourdomain.com.yourdomain.com`.
-
-
-## Verifying your DMARC with an online tool
-
-Verify your DMARC with an online tool like [this one](https://mxtoolbox.com/dmarc.aspxk) from MX Toolbox. This tool verifies that you have set up a DMARC record, lets you know which tags and values your record contains, and will alert you of any problems with your record.
-
-## Monitoring DMARC
-
-DMARC will send daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read - it's recommended you use a free tool like [Postmark's reporting](https://dmarc.postmarkapp.com/) to provide a weekly, human-readable report.
-
+To verify that your DMARC record is correctly published and configured, consult our How-To Guide: [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
 
 ## Technical details
+For more on the technical specifications and intricacies of the DMARC protocol, visit [DMARC.org](http://DMARC.org). They provide extensive resources, including links to the relevant RFCs.
 
-If you want to read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org/).
+## Have more questions?
+If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
