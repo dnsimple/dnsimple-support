@@ -53,6 +53,7 @@ How to:
   - Setting up DMARC
   - Setting up DKIM
   - Verifying DMARC with dig and Online Tools
+  - Verifying DKIM with dig and Online Tools
   - Adding and Removing DS Records
   - Managing URL Records
   - Zone NS Records
