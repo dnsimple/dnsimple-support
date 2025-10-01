@@ -33,7 +33,7 @@ Verify your DKIM with an online tool like [this one from Treehouse](https://www.
 ## Technical details
 For more information about the technical details of DKIM, head over to [DKIM.org](http://dkim.org).
 
-If you want to see more about DKIM record formats, view our [DKIM Record Reference](/articles/dkim-record-reference/).
+If you want more details on DKIM record formats, view our [DKIM Record Reference](/articles/dkim-record-reference/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
