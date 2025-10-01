@@ -74,6 +74,7 @@ Reference:
   - AAAA Record Format
   - ALIAS Record Reference
   - CNAME Record Reference
+  - DKIM Record Reference
   - DMARC Record Reference
   - MX Record Reference
   - SPF Record Syntax and Validation Reference
