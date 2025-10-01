@@ -50,10 +50,10 @@ How to:
   - Managing AAAA Records
   - Managing CAA Records
   - Managing CNAME Records
-  - Setting up DMARC
   - Setting up DKIM
-  - Verifying DMARC with dig and Online Tools
+  - Setting up DMARC
   - Verifying DKIM with dig and Online Tools
+  - Verifying DMARC with dig and Online Tools
   - Adding and Removing DS Records
   - Managing URL Records
   - Zone NS Records
