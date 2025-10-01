@@ -32,7 +32,9 @@ selector1._domainkey.example.com. IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEB
 
 ## DKIM record restrictions and notes
 **Record type:** DKIM is typically configured using a TXT record, which has a type code of 16. 
+
 **Selector:** The selector is a name chosen by your email provider to create a unique DNS record. This allows multiple keys to exist under a single domain for different services or key rotation.
+
 **Content:** The content of the TXT record, particularly the public key, is often a very long string of characters. DNS providers, including DNSimple, will handle the necessary splitting and formatting of long TXT records.
 
 ## DKIM record management
