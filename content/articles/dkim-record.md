@@ -48,7 +48,7 @@ DKIM is often used in conjunction with [SPF](/articles/spf-record/) (Sender Poli
 ## Setting up and verifying DKIM
 For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Setting Up DKIM](/articles/set-up-dkim/).
 
-To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](content/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
+To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
 
 ## Technical details
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.
