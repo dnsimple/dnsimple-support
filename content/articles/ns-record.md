@@ -43,7 +43,7 @@ In your DNSimple account, we automatically publish the necessary NS records with
 
 **Changing domain delegation at the registrar level:** To change which DNS provider is authoritative for your entire registered domain (e.g., to stop using DNSimple for DNS and switch to another provider), this action is performed at your domain registrar.
 
-The specification for the DNS NS record is formally defined in [RFC 1035, Section 3.3.11](https://datatracker.ietf.org/doc/html/rfc1035).
+The specification for the DNS NS record is formally defined in [RFC 1035, Section 3.3.11](https://datatracker.ietf.org/doc/html/rfc1035/).
 
 ## Managing NS records: directing your domain's authority
 
@@ -52,10 +52,10 @@ When it comes to managing the authoritative name servers for your domain, the pr
 ### To use DNSimple's name servers (delegate to DNSimple)
 **If DNSimple is your domain registrar:** [Update your domain's name servers](/articles/delegating-dnsimple-registered/) directly within your DNSimple account. This points your domain to DNSimple's authoritative name servers.
 
-**If another registrar holds your domain:** Log in to that registrar's control panel and [update your domain's name servers](/articles/delegating-dnsimple-hosted)/ there, pointing them to DNSimple's name servers (e.g., `ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.).
+**If another registrar holds your domain:** Log in to that registrar's control panel and [update your domain's name servers](/articles/delegating-dnsimple-hosted/) there, pointing them to DNSimple's name servers (e.g., `ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.).
 
 ### To delegate to another DNS provider
-**If DNSimple is your domain registrar:** Update your domain's name servers within your DNSimple account, but this time [enter the name servers of the other DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
+**If DNSimple is your domain registrar:** Update your domain's name servers within your DNSimple account, but this time [enter the name servers of the other DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider/).
 
 <note>
 The NS records DNSimple automatically publishes within your DNSimple-hosted zone (indicating DNSimple is the authoritative source for your domain) are system-managed. 
