@@ -1,5 +1,5 @@
 ---
-title: What's a DKIM Record?
+title: What Is a DKIM Record?
 excerpt: What a DKIM record is, and how DKIM records work.
 meta: Learn about DKIM records, and their purpose in email authentication, by using a specially formatted DNS text record storing a public key.
 categories:
@@ -16,64 +16,42 @@ categories:
 
 ---
 
-DKIM stands for DomainKeys Identified Email. It provides a way to validate that an organization delivering an email has the right to do so.
+## What is a DKIM record?
 
+**DKIM**, which stands for **DomainKeys Identified Mail**, is an email authentication method designed to enhance the trustworthiness and security of email communications. It provides a way for email recipients to verify that an email message was sent and authorized by the owner of the domain it claims to be from and hasn't been tampered with in transit.
 
-## Setting up DKIM
+In an era of rampant email spoofing, phishing, and spam, DKIM plays a vital role in helping mail servers differentiate legitimate email from fraudulent messages, significantly reducing the amount of unwanted or malicious email that reaches inboxes.
 
-DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/en-us/blog/what-is-dmarc), [Postmark](http://support.postmarkapp.com/customer/portal/articles/64739-what-is-dkim-), or [Google Apps](https://support.google.com/a/answer/174124?hl=en). The key will either be inserted directly into your zone as a TXT record, or it will be a CNAME pointing to the key in your provider's DNS.
+## How DKIM works: digital signatures for email
+DKIM utilizes a cryptographic technique involving a pair of keys: a private key and a public key.
 
-If you're given a string representing the DKIM, it usually looks something like this:
+1. **Signing the email (private key):** When an organization sends an email on your behalf (e.g., an email service provider), they use a **private key** to generate a unique digital signature for that email. This signature is embedded within the email's hidden headers.
 
-```
-k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
-```
+1. **Publishing the public key (DNS TXT record):** Your organization publishes the corresponding **public key** in your domain's DNS as a [TXT record](/articles/txt-record/). This public key is specifically placed at a unique subdomain, often structured using a **selector** (e.g., `s1._domainkey.yourdomain.com` or `google._domainkey.yourdomain.com`). The selector allows a single domain to have multiple DKIM keys. This is useful for different sending services or key rotation.
 
-Insert this into a TXT record. Do this by following the instructions for [creating a record](/articles/record-editor/#create-a-record), selecting TXT as the record type, and entering the string you were given into the Content field.
+1. **Verifying the email (public key):** When a recipient's mail server receives an email claiming to be from your domain, it performs a DNS lookup for the DKIM public key using the selector found in the email's header. It then uses this retrieved public key to verify the email's digital signature.
 
-Your provider will also give you a specific subdomain to use, usually something like:
+If the signature matches, it confirms:
+- The email genuinely originated from a server authorized by your domain.
+- The email's content (including headers and body) has not been altered since it was signed.
 
-```
-something._domainkey
-```
+## Key benefits of DKIM
 
-Enter this subdomain in the "Name" field.
+**Combats spoofing and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
 
-If your provider gives you a fully-qualified name that ends with your domain name, DO NOT include your domain name in the "Name" field when you add the TXT record. If you're given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the "Name" field.
+**Improves deliverability:** Email servers are more likely to trust and deliver messages that pass DKIM authentication, leading to fewer emails being marked as spam or rejected.
 
+**Enhances reputation:** Helps build and maintain a positive sending reputation for your domain.
 
-## Quotes and slashes?
+DKIM is often used in conjunction with [SPF](/articles/spf-record/) (Sender Policy Framework) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting, and Conformance) to form a comprehensive email authentication strategy.
 
-If your provider gave you the DKIM record and it included double quotes around the record, or backslashes before semi-colons in the record, you may safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
+## Setting up and verifying DKIM
+For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Setting Up DKIM](/articles/set-up-dkim/).
 
-Sometimes there will be forward slashes or other unusual characters in the DKIM record. Don't modify those. If you have any questions or concerns, [contact support](https://dnsimple.com/contact).
-
-
-## Verifying your DKIM with dig
-
-The [dig](/articles/how-dig/) tool is a good way to verify that your DKIM record is being returned correctly by our DNS servers.
-
-To verify the DKIM record, query for the TXT record at the fully qualified domain name where the TXT record lives. For example, on the domain example.com, you can get the TXT record using the following query:
-
-
-```
-dig +short google._domainkey.example.com TXT
-```
-
-This will return a result like this:
-
-```
-"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3QEKyU1fSma0axspqYK5iAj+54lsAg4qRRCnpKK68hawSd8zpsDz77ntGCR0X2mHVvkf0WEOIqaspaG/A5IGxieiWer+wBX8lW2tE4NHTE0PLhHqL0uD2sif2pKoPR3Wr6n/rbiihGYCIzvuY4/U5GigNUGls/QUbCPRyzho30wIDAQAB"
-```
-
-If no result is returned, verify that you added the TXT record with the correct subdomain. Remember the "Name" field in DNSimple should not include your domain name, otherwise you'd create a record at `subdomain.yourdomain.com.yourdomain.com`.
-
-
-## Verifying your DKIM with an online tool
-
-Verify your DKIM with an online tool like [this one](https://www.mail-tester.com/spf-dkim-check) from Treehouse. This tool verifies that you have SPF and DKIM records. In the DKIM selector field, just add the first part from the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.example.com`, then the DKIM selector is "google".
-
+To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
 
 ## Technical details
+Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.
 
-If you want to read more about the technical details of DKIM, head over to [DKIM.org](http://dkim.org/).
+## Have more questions?
+If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

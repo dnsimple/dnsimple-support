@@ -9,7 +9,7 @@ Explanation:
   - What Is an AAAA Record?
   - What Is an MX Record?
   - What's an NS Record?
-  - What's a DKIM Record?
+  - What Is a DKIM Record?
   - What Is a DMARC Record?
   - What's a CAA record?
   - What Are Glue Records?
@@ -50,7 +50,9 @@ How to:
   - Managing AAAA Records
   - Managing CAA Records
   - Managing CNAME Records
+  - Setting up DKIM
   - Setting up DMARC
+  - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools
   - Adding and Removing DS Records
   - Managing URL Records
@@ -72,6 +74,7 @@ Reference:
   - AAAA Record Format
   - ALIAS Record Reference
   - CNAME Record Reference
+  - DKIM Record Reference
   - DMARC Record Reference
   - MX Record Reference
   - SPF Record Syntax and Validation Reference
