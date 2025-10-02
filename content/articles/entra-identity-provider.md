@@ -46,7 +46,7 @@ After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-
 
 ### Adding API permissions
 
-Add the following [API Permissions](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions) to the app:
+Add the following [API permissions](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions) with a [type of `Application`](https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/app-integration/application-delegated-permission-access-tokens-identity-platform):
 
 - `openid`
 - `email`
