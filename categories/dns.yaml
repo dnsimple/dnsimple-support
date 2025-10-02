@@ -8,17 +8,18 @@ Explanation:
   - What Is an A Record?
   - What Is an AAAA Record?
   - What Is an MX Record?
-  - What's an NS Record?
+  - What Is an NS Record?
   - What Is a DKIM Record?
   - What Is a DMARC Record?
   - What's a CAA record?
   - What Are Glue Records?
   - What's a POOL Record?
-  - What's an SOA Record?
+  - What Is an SOA Record?
   - What Is an SPF Record?
   - What Is an SRV Record?
   - What's a TXT Record?
   - What Is a URL Record?
+  - What Is a Zone File?
   - What Are DS Records?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
