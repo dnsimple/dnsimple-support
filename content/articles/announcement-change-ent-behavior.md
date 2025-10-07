@@ -1,10 +1,10 @@
 ---
-title: Change of non-compliant ENT behavior
+title: Change of Non-Compliant ENT Behavior
 excerpt:
 categories:
 ---
 
-# Change of non-compliant ENT behavior
+# Change of Non-Compliant ENT Behavior
 
 <info>
 This article contains information that is only relevant to customers with specific zone records. If you are impacted, you will receive an email from us asking you to take action.
@@ -37,7 +37,7 @@ a.b.c.example.com.   IN  CNAME   two.test.
 
 A typical example is represented by [DKIM records](https://support.dnsimple.com/articles/dkim-record/), that often generates an ENT due to its specific naming structure.
 
-## What's changing
+## What's changing?
 
 Let's take the previous zone as reference:
 
@@ -70,6 +70,7 @@ b.c.example.com.   IN  CNAME   two.test.
 
 While ENT-related scenarios are statistically rare, DNS resolvers must behave predictably and follow published standards. This is particularly important for DNSSEC-compliant zones.
 
-## Questions or concerns?
+## Have more questions?
 
-If you have any questions or need help with the transition, don't hesitate to [reach out to our support team](https://dnsimple.com/contact).
+If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
