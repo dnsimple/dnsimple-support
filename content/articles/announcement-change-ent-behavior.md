@@ -17,7 +17,7 @@ This article contains information that is only relevant to customers with specif
 
 ---
 
-As part of our ongoing commitment to DNS standards compliance and improved resolution behavior, we are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records according to [RFC 4592 section 4.9](https://datatracker.ietf.org/doc/html/rfc4592#section-4.9). This change will be implemented on **December 1, 2024**, with a transition period ending on **November 30, 2024**.
+As part of our ongoing commitment to DNS standards compliance and improved resolution behavior, we are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records according to [RFC 4592 section 4.9](https://datatracker.ietf.org/doc/html/rfc4592#section-4.9). This change will be implemented on **December 1, 2025**, with a transition period ending on **November 30, 2025**.
 
 Following this update, DNSimple name servers will respond correctly to ENT queries, returning `NOERROR` with no data instead of incorrectly applying wildcard records. This change ensures full compliance with DNS standards and improves predictability for DNSSEC-compliant zones.
 
@@ -60,7 +60,7 @@ In fact, according to the RFC, `b.c.example.com` exists as an ENT (because of `a
 
 ## What you need to do
 
-Unless you are relying on the non-compliant behavior, you don't need to take any action. Instead, if you rely on the name servers returning the content of the wildcard for an ENT, you will need to create an explicit record to return the desired value **by November 30, 2024**.
+Unless you are relying on the non-compliant behavior, you don't need to take any action. Instead, if you rely on the name servers returning the content of the wildcard for an ENT, you will need to create an explicit record to return the desired value **by November 30, 2025**.
 
 Using the example above, to restore the non-compliant behavior you will need to add the following record:
 
