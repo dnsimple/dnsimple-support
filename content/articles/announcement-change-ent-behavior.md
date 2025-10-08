@@ -65,7 +65,7 @@ Unless you are relying on the non-compliant behavior, you don't need to take any
 Using the example above, to restore the non-compliant behavior you will need to add the following record:
 
 ```
-b.c.example.com.   IN  CNAME   two.test.
+b.c.example.com.   IN  CNAME   one.test.
 ```
 
 While ENT-related scenarios are statistically rare, DNS resolvers must behave predictably and follow published standards. This is particularly important for DNSSEC-compliant zones.
