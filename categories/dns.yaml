@@ -1,6 +1,6 @@
- Explanation:
+ - Explanation:
     
-    Foundational_Concepts_and_Operations:
+    - Foundational Concepts and Operations:
       - What is DNS?
       - What is Time-to-Live?
       - What's the Minimum Time-To-Live Provided by DNSimple?
@@ -15,7 +15,7 @@
       - DNS Hosting
       - Protection Against DDoS Attacks
 
-    Common_DNS_Records:
+    - Common DNS Records:
       - Common DNS Records
       - What Is an ALIAS Record?
       - What Is a CNAME Record?
@@ -25,7 +25,7 @@
       - Differences Between A and CNAME Records
       - Differences Among A, CNAME, ALIAS, and URL Records
 
-    Advanced_and_Security_Records:
+    - Advanced and Security Records:
       - What Is an MX Record?
       - What's an NS Record?
       - What Is a DKIM Record?
@@ -39,7 +39,7 @@
       - What's a TXT Record?
       - What Are DS Records?
 
-    Integrations_and_Interoperability:
+    - Integrations and Interoperability:
       - Integrated DNS Providers at DNSimple
       - Amazon Route 53
       - Azure DNS
@@ -48,9 +48,9 @@
       - Why DNSSEC and Secondary DNS may not work together
       - How ALIAS Records Resolve with Secondary DNS
 
-  How_To: 
+  - How To: 
 
-    General_Management_and_Tools:
+    - General Management and Tools:
       - Record Editor
       - Record Notes
       - How To Add Common DNS Records
@@ -59,7 +59,7 @@
       - Troubleshooting Record Resolution Issues
       - Troubleshooting Domain Resolution Issues
 
-    Managing_Specific_Record_Types:
+    - Managing Specific Record Types:
       - Managing A Records
       - Managing AAAA Records
       - Managing CAA Records
@@ -69,20 +69,20 @@
       - Zone NS Records
       - Rotate DNSSEC Keys
 
-    Setting_Up_Email_and_Security:
+    - Setting Up Email and Security:
       - Setting up DKIM
       - Setting up DMARC
       - Verifying DKIM with dig and Online Tools
       - Verifying DMARC with dig and Online Tools
 
-    Integration_Management:
+    - Integration Management:
       - Amazon Route 53 Integration Demo
       - Managing Integrated Zones
       - Record Editor for Integrated Zones
 
-  Reference: 
+  - Reference: 
 
-    Record_Format_and_Syntax:
+    - Record Format and Syntax:
       - Supported DNS Records and DNS Record Types
       - A Record Format
       - AAAA Record Format
@@ -94,6 +94,6 @@
       - SPF Record Syntax and Validation Reference
       - URL Record Format and Technical Details
 
-    Resolution_and_Technical_Guides:
+    - Resolution and Technical Guides:
       - IPv6 Domain Resolution Reference
       - Resolving with DNSimple
