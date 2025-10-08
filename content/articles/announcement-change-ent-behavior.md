@@ -23,7 +23,7 @@ Following this update, DNSimple name servers will respond correctly to ENT queri
 
 ## Who's impacted?
 
-This announcement impacts all customers with zones that contain an Empty Non-Terminal (ENT) record.
+This announcement impacts customers with zones that contain an Empty Non-Terminal (ENT) which is a descendant of a wildcard record.
 
 ## What are Empty Non-Terminals?
 
