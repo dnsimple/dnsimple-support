@@ -30,7 +30,9 @@ You can typically view these system records in your domain's **Manage** page wit
 System records are non-editable in the standard record editor for several key reasons:
 
 - **Ensuring reliability:** They contain critical configuration details that, if misconfigured, could completely break your domain's resolution, making your website and email inaccessible. DNSimple manages them to guarantee continuous service.
+
 - **Standard compliance:** The values and presence of these records must adhere to strict DNS protocols and best practices to ensure global interoperability. Automatic management prevents non-compliance.
+
 - **Systemic management:** Many updates to your zone (e.g., [adding a new A record](/articles/manage-a-record/)) require an increment to the SOA serial number. DNSimple's system handles these behind-the-scenes updates automatically, ensuring your zone files remain consistent and synchronized with secondary DNS servers.
 
 While you cannot manually modify these specific system records, any changes you make to your domain's other DNS records are correctly reflected and managed in accordance with the system records. If you use [vanity name servers](/articles/what-are-vanity-name-servers/), the external NS records would change, but DNSimple would still manage the underlying zone's SOA and NS records internally as it remains the DNS host.
