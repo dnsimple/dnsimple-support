@@ -35,7 +35,7 @@ System records are non-editable in the standard record editor for several key re
 
 - **Systemic management:** Many updates to your zone (e.g., [adding a new A record](/articles/manage-a-record/)) require an increment to the SOA serial number. DNSimple's system handles these behind-the-scenes updates automatically, ensuring your zone files remain consistent and synchronized with secondary DNS servers.
 
-While you cannot manually modify these specific system records, any changes you make to your domain's other DNS records are correctly reflected and managed in accordance with the system records. If you use [vanity name servers](/articles/what-are-vanity-name-servers/), the external NS records would change, but DNSimple would still manage the underlying zone's SOA and NS records internally as it remains the DNS host.
+While you cannot manually modify these specific system records, any changes you make to your domain's other DNS records are correctly reflected and managed in accordance with the system records. If you use [vanity name servers](/articles/what-are-vanity-name-servers/), the external NS records would change, but DNSimple would still manage the underlying zone's SOA and NS records internally, as it remains the DNS host.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
