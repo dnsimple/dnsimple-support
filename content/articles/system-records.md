@@ -1,6 +1,6 @@
 ---
 title: What Are System Records?
-excerpt: What a system record is, and how to create they work in DNSimple.
+excerpt: What system records are, and how they work in DNSimple.
 meta: Learn what system records are, their importance in DNS management, and why you cannot edit them.
 categories:
 - DNS
@@ -17,7 +17,7 @@ When your domain is actively resolving using DNSimple's name servers, the system
 ### SOA (Start of Authority) records
 - **Purpose:** The SOA record is the administrative blueprint for your DNS zone. It contains vital metadata about the zone, such as its primary name server, the email address of the person responsible for the zone, and crucial timers that govern how frequently other DNS servers should check for updates (refresh), retry failed attempts, and when cached data should expire.
 - **Why it's necessary:** Without an SOA record, your DNS zone cannot be properly managed or synchronized across the internet, leading to resolution failures. DNSimple automatically optimizes these values for you.
-- **Learn more:** [What Is an SOA Record? ](/articles/soa-record/)
+- **Learn more:** [What Is an SOA Record?](/articles/soa-record/)
 
 ### Four NS (Name Server) records
 - **Purpose:** These NS records explicitly identify DNSimple's authoritative name servers (e.g., `ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.) as the source of truth for your domain's DNS information. They are the records that the Top-Level Domain (TLD) registry points to, effectively delegating authority for your domain to DNSimple.
