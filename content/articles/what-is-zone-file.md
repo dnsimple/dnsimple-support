@@ -18,7 +18,7 @@ A zone file systematically lists every DNS record for a domain, providing compre
 - **[A](/articles/a-record/) and [AAAA](/articles/aaaa-record/) records**: Map hostnames to IPv4 and IPv6 addresses, respectively.
 - [**CNAME records**](/articles/cname-record/): Create aliases from one hostname to another.
 - [**MX (Mail eXchange) records**](/articles/mx-record/): Direct email for the domain to specific mail servers.
-- [**TXT (Text) records**](/articles/txt-record/): Used for various purposes like email authentication ([SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), [DMARC](/articles/dmarc-record/), and domain verification.
+- [**TXT (Text) records**](/articles/txt-record/): Used for various purposes like email authentication ([SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), [DMARC](/articles/dmarc-record/)), and domain verification.
 
 And other specialized [record types](/articles/supported-dns-records/) as needed.
 
