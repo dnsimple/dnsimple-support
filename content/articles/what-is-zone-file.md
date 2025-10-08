@@ -16,16 +16,19 @@ A zone file systematically lists every DNS record for a domain, providing compre
 - [**SOA (Start of Authority) record**](/articles/soa-record/): Provides administrative information about the zone itself, such as the primary name server, the domain administrator's email, and various timers for zone transfers and caching.
 - [**NS (Name Server) records**](/articles/ns-record/): Specifies the authoritative name servers for the domain, delegating DNS control.
 - **[A](/articles/a-record/) and [AAAA](/articles/aaaa-record/) records**: Map hostnames to IPv4 and IPv6 addresses, respectively.
-- **[CNAME records]**(/articles/cname-record/): Create aliases from one hostname to another.
+- [**CNAME records**](/articles/cname-record/): Create aliases from one hostname to another.
 - [**MX (Mail eXchange) records**](/articles/mx-record/): Direct email for the domain to specific mail servers.
-- [**TXT (Text) records**](/articles/txt-record/): Used for various purposes like email authentication ([SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), [DMARC] (/articles/dmarc-record/), and domain verification.
+- [**TXT (Text) records**](/articles/txt-record/): Used for various purposes like email authentication ([SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), [DMARC](/articles/dmarc-record/), and domain verification.
 
 And other specialized [record types](/articles/supported-dns-records/) as needed.
 
 ## Key uses and benefits of zone files
 Zone files, due to their comprehensive and standardized nature, are incredibly useful for several key DNS management tasks:
+
 - **Domain migration:** If you need to move your domain's DNS management from one provider to another, a common and efficient method is to export your domain's [zone file](/articles/zone-files/#exporting-records-to-a-zone-file/) from your current provider and then [import](/articles/zone-files/#importing-records-from-a-zone-file/) it into the new one (like DNSimple). This allows for bulk transfer of all your records, saving significant time and reducing errors compared to recreating each record manually.
+
 - **Backup and recovery:** Zone files serve as a complete, human-readable backup of your domain's DNS configuration. In case of accidental deletions or major configuration errors, having a zone file backup allows for swift restoration of your DNS settings.
+
 - **Advanced configuration:** While most users manage their DNS through user-friendly interfaces (like DNSimple's dashboard), zone files offer a low-level, complete representation for advanced users or for debugging complex DNS setups.
 
 ## DNSimple and zone files
