@@ -34,11 +34,17 @@ The record's data section (RDATA) is composed of several fields that provide vit
 
 ## SOA record components and behavior
 - `mname` (**master name**): This is the hostname of the primary name server for the zone. All updates to the zone should originate here.
-- `rname` (**responsible person**): This is the email address of the person responsible for the zone, with the @ replaced by a . (e.g., `admin@example.com` becomes `admin.example.com`).
+
+- `rname` (**responsible person**): This is the email address of the person responsible for the zone, with the `@` replaced by a `.` (e.g., `admin@example.com` becomes `admin.example.com`).
+
 - `serial`: This is a version number for the zone file. **It must be updated every time a record in the zone changes**. This is used by secondary name servers to determine if they need to request a new copy of the zone data.
+
 - `refresh`: This tells secondary name servers how often (in seconds) to check the primary server's SOA record for a new serial number.
+
 - `retry`: If a secondary server fails to connect to the primary during a refresh, this value tells it how long (in seconds) to wait before retrying.
+
 - `expire`: This is the upper limit (in seconds) after which a secondary server should stop responding authoritatively for the zone if it cannot refresh the data.
+
 - `minimum-ttl`: This specifies how long (in seconds) a DNS resolver should cache a negative response (e.g., for a non-existent record) before retrying the query.
 
 ## Have more questions?
