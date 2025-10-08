@@ -16,12 +16,12 @@ categories:
 ---
 
 ## What is an SOA record?
-An **SOA** record (record type 6), which stands for **Start of Authority** record, is a mandatory DNS record that must be present in every DNS zone. It acts as the definitive administrative blueprint for the zone, providing essential meta-information about the zone itself and how it should be handled by other DNS servers and resolvers.
+An **SOA** record (record type 6), which stands for **Start of Authority** record, is a mandatory DNS record that must be present in every DNS zone. It acts as the definitive administrative blueprint for the zone, providing essential meta-information about the zone and how it should be handled by other DNS servers and resolvers.
 
 The SOA record marks the exact cutover point where authority for a domain is delegated from its parent domain. For example, if `mycompany.com` is delegated to DNSimple's name servers, we must include an SOA record for `mycompany.com` in our authoritative DNS records. This record declares that DNSimple is the primary authoritative source for all information within the `mycompany.com` zone.
 
 ## DNSimple's role in SOA management
-For every domain you add to DNSimple, we automatically create and manage its SOA record. This record is visible to you as a [System Record](/articles/system-records/) in your domain's zone, indicating its fundamental, system-managed nature.
+For every domain you add to DNSimple, we automatically create and manage its SOA record. This record is visible to you as a [system record](/articles/system-records/) in your domain's zone, indicating its fundamental, system-managed nature.
 
 ## Dissecting the SOA record: key administrative details
 The SOA record contains several vital pieces of information that govern how the zone behaves across the internet.
@@ -42,7 +42,7 @@ ns1.dnsimple.com admin.dnsimple.com 2013022001 86400 7200 604800 300
 - This is the email address of the person responsible for the domain's zone. The `@` symbol in the email address is replaced with a `.` in the SOA record format.
 
 **Serial number (SERIAL):**
-`2013022001`
+- `2013022001`
 - This is a version number for the zone file. It's a timestamp (or a simple incrementing number) that must be updated every time any record in the zone changes. This is crucial for secondary DNS servers, as they compare this serial number to determine if they need to request a fresh copy of the zone data (a zone transfer).
 
 **Refresh interval (REFRESH):**
