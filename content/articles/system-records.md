@@ -24,7 +24,7 @@ When your domain is actively resolving using DNSimple's name servers, the system
 - **Why they're necessary:** These records are the backbone of DNS delegation. They tell the entire internet where to go to find all other records for your domain. If these were missing or incorrect, your domain would not resolve.
 - **Learn more:** [What Is an NS Record?](/articles/ns-record/) 
 
-You can typically view these system records in your domain’s **Manage** page within your domain’s zone.
+You can typically view these system records in your domain's **Manage** page within your domain's zone.
 
 ## Why system records cannot be edited
 System records are non-editable in the standard record editor for several key reasons:
