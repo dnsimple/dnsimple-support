@@ -1,21 +1,21 @@
 - Explanation:
 
-     Foundational_Concepts_and_Operations:
-        - What is DNS?
-        - What is Time-to-Live?
-        - What's the Minimum Time-To-Live Provided by DNSimple?
-        - How Long Does It Take for a New Record to Resolve for My Domain?
-        - Resolution Status
-        - Reverse DNS Zones
-        - Domain Zone Files
-        - Dynamic DNS
-        - Why Anycast DNS? # Consolidates with 'Anycast DNS'
-        - What Is EDNS Client Subnet Support?
-        - Regional Records
-        - DNS Hosting
-        - Protection Against DDoS Attacks
-
-     Common_DNS_Records:
+    Foundational_Concepts_and_Operations:
+         - What is DNS?
+         - What is Time-to-Live?
+         - What's the Minimum Time-To-Live Provided by DNSimple?
+         - How Long Does It Take for a New Record to Resolve for My Domain?
+         - Resolution Status
+         - Reverse DNS Zones
+         - Domain Zone Files
+         - Dynamic DNS
+         - Why Anycast DNS?
+         - What Is EDNS Client Subnet Support?
+         - Regional Records
+         - DNS Hosting
+         - Protection Against DDoS Attacks
+         
+    Common_DNS_Records:
         - Common DNS Records
         - What Is an ALIAS Record?
         - What Is a CNAME Record?
@@ -24,8 +24,8 @@
         - What Is a URL Record?
         - Differences Between A and CNAME Records
         - Differences Among A, CNAME, ALIAS, and URL Records
-
-     Advanced_and_Security_Records:
+        
+    Advanced_and_Security_Records:
         - What Is an MX Record?
         - What's an NS Record?
         - What Is a DKIM Record?
@@ -38,8 +38,8 @@
         - What Is an SRV Record?
         - What's a TXT Record?
         - What Are DS Records?
-
-     Integrations_and_Interoperability:
+        
+    Integrations_and_Interoperability:
         - Integrated DNS Providers at DNSimple
         - Amazon Route 53
         - Azure DNS
@@ -49,8 +49,7 @@
         - How ALIAS Records Resolve with Secondary DNS
         
 - How to:
-
-     General_Management_and_Tools:
+    General_Management_and_Tools:
         - Record Editor
         - Record Notes
         - How To Add Common DNS Records
@@ -59,30 +58,29 @@
         - Troubleshooting Record Resolution Issues
         - Troubleshooting Domain Resolution Issues
 
-     Managing_Specific_Record_Types:
+    Managing_Specific_Record_Types:
         - Managing A Records
         - Managing AAAA Records
         - Managing CAA Records
         - Managing CNAME Records
         - Managing URL Records
-        - Adding and Removing DS Records 
+        - Adding and Removing DS Records
         - Zone NS Records
         - Rotate DNSSEC Keys
 
-     Setting_Up_Email_and_Security:
+    Setting_Up_Email_and_Security:
         - Setting up DKIM
         - Setting up DMARC
         - Verifying DKIM with dig and Online Tools
         - Verifying DMARC with dig and Online Tools
-        
+
     Integration_Management:
-       - Amazon Route 53 Integration Demo
-       - Managing Integrated Zones
-       - Record Editor for Integrated Zones
+        - Amazon Route 53 Integration Demo
+        - Managing Integrated Zones
+        - Record Editor for Integrated Zones
 
 - Reference:
-
-     Record_Format_and_Syntax:
+    Record_Format_and_Syntax:
         - Supported DNS Records and DNS Record Types
         - A Record Format
         - AAAA Record Format
@@ -94,6 +92,6 @@
         - SPF Record Syntax and Validation Reference
         - URL Record Format and Technical Details
 
-     Resolution_and_Technical_Guides:
+    Resolution_and_Technical_Guides:
         - IPv6 Domain Resolution Reference
         - Resolving with DNSimple
