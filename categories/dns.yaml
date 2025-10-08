@@ -78,6 +78,7 @@ Reference:
   - DKIM Record Reference
   - DMARC Record Reference
   - MX Record Reference
+  - SOA Record Reference
   - SPF Record Syntax and Validation Reference
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
