@@ -54,7 +54,7 @@ $ dig @127.0.0.1 b.c.example.com A +short
 one.test.
 ```
 
-Once the correct behavior is rolled out, DNSimple name servers will respons with `NOERROR` and an empty response (no records).
+Once the correct behavior is rolled out, DNSimple name servers will respond with `NOERROR` and an empty answer section (no records).
 
 In fact, according to the RFC, `b.c.example.com` exists as an ENT (because of `a.b.c.example.com`), and should return `NOERROR` with no records, not a wildcard response.
 
