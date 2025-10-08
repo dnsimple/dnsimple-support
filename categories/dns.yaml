@@ -65,7 +65,7 @@
       - Managing CAA Records
       - Managing CNAME Records
       - Managing URL Records
-      - Adding and Removing DS Records # Covers "Managing DS Records When Changing DNS"
+      - Adding and Removing DS Records 
       - Zone NS Records
       - Rotate DNSSEC Keys
 
@@ -77,7 +77,7 @@
 
     Integration_Management:
       - Amazon Route 53 Integration Demo
-      - Managing Integrated Zones # Covers "Record Editor for Integrated Zones"
+      - Managing Integrated Zones
       - Record Editor for Integrated Zones
 
   Reference: 
