@@ -56,7 +56,7 @@ one.test.
 
 Once the correct behavior is rolled out, DNSimple name servers will respond with `NOERROR` and an empty answer section (no records).
 
-In fact, according to the RFC, `b.c.example.com` exists as an ENT (because of `a.b.c.example.com`), and should return `NOERROR` with no records, not a wildcard response.
+In fact, according to the RFC, `b.c.example.com` exists as an ENT (because of `a.b.c.example.com`), and should return `NOERROR` with an empty answer section, not a wildcard response.
 
 ## What you need to do
 
