@@ -41,11 +41,11 @@ A typical example is represented by [DKIM records](https://support.dnsimple.com/
 
 Let's take the previous zone as reference:
 
-- `b.c.example.com` is an Empty Non-Terminal. It has no records itself, but exists because of `a.b.c.example.com`.Add a comment on lines R34 to R35Add diff commentMarkdown input:  edit mode selected.WritePreviewAdd a suggestionHeadingBoldItalicQuoteCodeLinkUnordered listNumbered listTask listMentionReferenceSaved repliesAdd FilesPaste, drop, or click to add filesCancelCommentStart a reviewReturn to code
-- A query to `b.c.example.com` is expected to return NOERROR with no data (`NODATA`), indicating that the name exists but has no records. Importantly, the wildcard at `*.c.example.com` does not apply here, because the name exists (even if empty).
-- On the other hand, a query to something like `x.c.example.com` would be synthesized from the wildcard, returning a CNAME to `one.test`.
+- `b.c.example.com` is an Empty Non-Terminal. It has no records itself, but exists because of `a.b.c.example.com`.
+- According to RFC 4592, a query for `b.c.example.com` should return `NOERROR` with an empty answer section (also known as a `NODATA` response), indicating that the name exists but has no records. Importantly, the wildcard at `*.c.example.com` should not apply here, because the name exists (even if empty).
+- On the other hand, a query for a name like `x.c.example.com` (which doesn't exist) should be synthesized from the wildcard, returning a CNAME to `one.test`.
 
-As of today, DNSimple name server response is not compliant with ENT RFC 4592. When querying for the ENT, DNSimple name servers would incorrectly return the wildcard.
+Currently, DNSimple name servers do not comply with RFC 4592 for ENTs. When querying an ENT that is a descendant of a wildcard, DNSimple name servers incorrectly return the wildcard match.
 
 For instance, querying `b.c.example.com` would return:
 
