@@ -9,7 +9,8 @@ categories:
 
 ### Table of Contents {#toc}
 
-TOC {:toc}
+* TOC
+{:toc}
 
 ## What is an NS record?
 An **NS record** (record type 2), short for **Name Server record**, is a fundamental type of DNS record that specifies the authoritative name servers for a domain. Its primary purpose is delegating DNS authority from one set of name servers to another, forming the backbone of how the internet's Domain Name System operates.
