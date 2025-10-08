@@ -19,7 +19,7 @@ This article contains information that is only relevant to customers with specif
 
 As part of our ongoing commitment to DNS standards compliance and improved resolution behavior, we are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records according to [RFC 4592 section 4.9](https://datatracker.ietf.org/doc/html/rfc4592#section-4.9). This change will be implemented on **December 1, 2025**, with a transition period ending on **November 30, 2025**.
 
-Following this update, DNSimple name servers will respond correctly to ENT queries, returning `NOERROR` with no data instead of incorrectly applying wildcard records. This change ensures full compliance with DNS standards and improves predictability for DNSSEC-compliant zones.
+Following this update, DNSimple name servers will respond correctly to ENT queries, returning `NOERROR` with an empty answer section (a `NODATA` response) instead of incorrectly applying wildcard records. This change ensures full compliance with DNS standards and improves predictability for DNSSEC-compliant zones.
 
 ## Who's impacted?
 
