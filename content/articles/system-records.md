@@ -26,6 +26,8 @@ When your domain is actively resolving using DNSimple's name servers, the system
 
 You can typically view these system records in your domain's **Manage** page within your domain's zone.
 
+<!--- needs screenshot -->
+
 ## Why system records cannot be edited
 System records are non-editable in the standard record editor for several key reasons:
 
