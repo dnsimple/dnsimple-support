@@ -1,6 +1,6 @@
 ---
 title: Change of Non-Compliant ENT Behavior
-excerpt:
+excerpt: We are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records.
 categories:
 ---
 
