@@ -91,7 +91,7 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Fast-tracked feature requests
 - A [digital wallet](/articles/wallet-replenishment/) for recurring payments
 - [Multi-account management](/articles/account-multi-enterprise/)
-- Single sign-on with [Okta](/articles/okta-identity-provider/) or [Google Workspace](/articles/google-identity-provider/)
+- Single sign-on with [Okta](/articles/okta-identity-provider/), [Google Workspace](/articles/google-identity-provider/) or [Microsoft Entra](https://support.dnsimple.com/articles/okta-identity-provider/)
 - [Vanity name servers](/articles/vanity-nameservers/)
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
 - DNS high-volume zone discounts
