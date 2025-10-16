@@ -24,7 +24,7 @@ This capability is essential for service discovery, allowing client applications
 
 An SRV record provides structured information about where a service can be found and how it should be prioritized and balanced among multiple available servers. It tells a client application everything it needs to know to connect:
 
-**Service name and protocol:** SRV records always begin with a symbolic name for the service (e.g., _sip for Session Initiation Protocol) and the transport protocol used (e.g., _tcp for TCP or _udp for UDP). Both parts always start with an underscore, for example: `_sip._tcp.example.com`.
+**Service name and protocol:** SRV records always begin with a symbolic name for the service (e.g., `_sip` for Session Initiation Protocol) and the transport protocol used (e.g., `_tcp` for TCP or `_udp` for UDP). Both parts always start with an underscore, for example: `_sip._tcp.example.com`.
 
 **Priority:** This value indicates the preference for using a server. Lower numbers mean higher priority. Clients will attempt to connect to servers with the lowest priority first.
 
@@ -48,13 +48,14 @@ In this example, a client looking for the `_sip` service over `_tcp` on `example
 - Both services are available on port 5060.
 
 This structure allows administrators to define flexible and robust service locations, ensuring high availability and efficient distribution of client connections.
+
 The specification for the DNS SRV record is formally defined in [RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782).
 
 ## Adding and managing SRV records
-For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: Adding an SRV Record in DNSimple (LINK TO NEW ARTICLE). This guide covers inputting the service name, protocol, priority, weight, port, and target.
+For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: [Adding an SRV Record](/articles/add-srv-record/). This guide covers inputting the service name, protocol, priority, weight, port, and target.
 
 ## SRV record format reference
-For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: SRV Record Format and Components (LINK TO NEW ARTICLE). This guide includes additional examples.
+For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: [SRV Record Format and Components Reference](/articles/srv-record-format/). This guide includes additional examples.
 
 ## Have more questions?
 
