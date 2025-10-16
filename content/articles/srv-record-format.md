@@ -14,7 +14,7 @@ SRV record structure
 An SRV record in a DNS zone file typically follows this structure:
 `<name>` `<TTL>` `IN SRV` `<priority>` `<weight>` `<port>` `<target>`
 
- Element | Description |Constraints/Details|
+ Element | Description | Constraints/Details |
 |:--------|:------|:----|
 | name | The symbolic name of the service and the transport protocol, followed by the domain name. This defines the specific service being located. | Format: `_service._proto.domain.name`. Both `_service` (e.g., `_sip`, `_ldap`) and _proto (e.g.,`_tcp`, `_udp`) must start with an underscore (_). |
 | TTL | Time-To-Live. The amount of time (in seconds) that the record is allowed to be cached by a DNS resolver. | Integer. |
