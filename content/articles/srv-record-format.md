@@ -1,5 +1,5 @@
 ---
-title: SRV Record Format
+title: SRV Record Format and Components Reference
 excerpt: The structure and canonical representation of an SRV record
 meta: Learn more about the structure of SRV records, their canonical representation, and customizable elements in DNSimple.
 categories:
