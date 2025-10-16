@@ -9,7 +9,8 @@ categories:
 # SRV Record Format and Components Reference
 
 An [SRV (Service) record](/articles/srv-record/) is a DNS record type that specifies the location of services, including the port number, hostname, and prioritization for contacting the service. This document details the formal structure and the components within an SRV record.
-SRV record structure
+
+## SRV record structure
 
 An SRV record in a DNS zone file typically follows this structure:
 `<name>` `<TTL>` `IN SRV` `<priority>` `<weight>` `<port>` `<target>`
@@ -26,13 +27,13 @@ An SRV record in a DNS zone file typically follows this structure:
 | target | The domain name of the host on which the service is to be found. | A fully-qualified domain name (FQDN). **Must NOT be an IP address**. This target FQDN must have a corresponding A or AAAA record. |
 
 ## Example SRV records
-Here's an example of two SRV records for a SIP (Session Initiation Protocol) service over TCP, demonstrating priority and weight in action:
+Example of two SRV records for a SIP (Session Initiation Protocol) service over TCP, demonstrating priority and weight in action:
 ```
 _sip._tcp.example.com.  3600 IN  SRV 10  60  5060 bigbox.example.com.
 _sip._tcp.example.com.  3600 IN  SRV 10  20  5060 smallbox1.example.com.
 ```
 
-Example breakdown:
+**Example breakdown:**
 
 **`_sip._tcp.example.com.`**
 - `_sip`: The service name.
@@ -62,7 +63,7 @@ Clients will always attempt to connect to the lowest priority SRV records first.
 Each unique `_service._proto.name` combination defines one service location set. You can have multiple SRV records for the same service name and protocol, but they will be prioritized and weighted as described above.
 
 ## References
-**RFC 2782**: A DNS RR for specifying the location of services (The primary specification for SRV records).
+**[RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782)**: A DNS RR for specifying the location of services (The primary specification for SRV records).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
