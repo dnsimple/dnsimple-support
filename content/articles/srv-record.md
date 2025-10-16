@@ -15,41 +15,47 @@ categories:
 
 ---
 
-## What Is an SRV Record?
+## What is an SRV record?
+An SRV record (record type 33), short for Service record, is a type of DNS record that provides a standardized way to locate specific services on a domain. Unlike [A](/articles/a-record/) or [AAAA](/articles/aaaa-record/) records that map a domain name directly to an IP address, SRV records map a service name and protocol to the precise location (hostname and port number) and preferences for servers offering that service.
 
-[SRV (Service) records](https://en.wikipedia.org/wiki/SRV_record) help with service discovery. For example, SRV records are used in Internet Telephony to define where a [SIP service](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) can be found.
+This capability is essential for service discovery, allowing client applications to find the correct server for a particular function without needing to be manually configured with IP addresses or ports. Common applications that use SRV records include Internet Telephony (like SIP for VoIP calls), instant messaging (like XMPP), and certain enterprise services (like Microsoft Teams or LDAP).
 
-An SRV record typically defines a symbolic name and the transport protocol used as part of the domain name. It defines the priority, weight, port, and target for the service in the record content.
+## How SRV records facilitate service discovery
 
-Here's an example of two SRV records:
+An SRV record provides structured information about where a service can be found and how it should be prioritized and balanced among multiple available servers. It tells a client application everything it needs to know to connect:
 
-    _sip._tcp.example.com.   3600 IN    SRV 10       60     5060 bigbox.example.com.
-    _sip._tcp.example.com.   3600 IN    SRV 10       20     5060 smallbox1.example.com.
+**Service name and protocol:** SRV records always begin with a symbolic name for the service (e.g., _sip for Session Initiation Protocol) and the transport protocol used (e.g., _tcp for TCP or _udp for UDP). Both parts always start with an underscore, for example: `_sip._tcp.example.com`.
 
-`_sip` is the symbolic name for the service and `_tcp` is the transport protocol. The symbolic name and transport protocol always start with an underscore.
+**Priority:** This value indicates the preference for using a server. Lower numbers mean higher priority. Clients will attempt to connect to servers with the lowest priority first.
 
-The content of the SRV record defines a priority of 10 for both records. The first record has a weight of 60, and the second has a weight of 20. The priority and weight values can be used to encourage use of certain servers over others.
+**Weight:** For servers with the same priority, the weight value is used for load balancing. Higher weights indicate a greater proportion of connections should go to that server.
 
-The final two values in the record define the port and hostname to connect to for accessing the service.
+**Port:** This specifies the exact port number on the target server where the service is running.
 
-## Adding an SRV record
+**Target hostname:** This is the fully-qualified domain name (FQDN) of the server providing the service. This target hostname must then resolve to an IP address via an A or AAAA record.
 
-To add an SRV record in DNSimple:
+### Example of an SRV record's purpose
 
-1. On your Domain List, click the relevant domain.
-1. Click the **DNS** badge at the top right to access the [Record Editor](/articles/record-editor/).
-  ![DNS menu badge](/files/dns-menu-badge.png)
-1. Click **Add record** on the left side. Choose **SRV** from the dropdown menu, and fill out the form.
-1. Click **Add Record** at the bottom of the page to complete the process. You'll be returned to the Domain List with a banner indicating the record was successfully added.
+Consider two SRV records for a SIP service:
+```
+_sip._tcp.example.com.   3600 IN    SRV 10   60   5060 bigbox.example.com.
+_sip._tcp.example.com.   3600 IN    SRV 10   20   5060 smallbox1.example.com.
+```
+In this example, a client looking for the `_sip` service over `_tcp` on `example.com` would see:
 
-This is an example SRV record form:
+- `bigbox.example.com` and `smallbox1.example.com` have the same priority (10). They are equally preferred as a first choice.
+- However, `bigbox.example.com` has a weight of 60, while `smallbox1.example.com` has a weight of 20. This indicates `bigbox.example.com` should receive proportionally more traffic (3 times more in this case, 60/(60+20) vs 20/(60+20)) when both are available.
+- Both services are available on port 5060.
 
-![Add SRV record](/files/srv-record.png)
+This structure allows administrators to define flexible and robust service locations, ensuring high availability and efficient distribution of client connections.
+The specification for the DNS SRV record is formally defined in [RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782).
 
-The given example results in this SRV record:
+## Adding and managing SRV records
+For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: Adding an SRV Record in DNSimple (LINK TO NEW ARTICLE). This guide covers inputting the service name, protocol, priority, weight, port, and target.
 
-    _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
+## SRV record format reference
+For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: SRV Record Format and Components (LINK TO NEW ARTICLE). This guide includes additional examples.
 
 ## Have more questions?
 
-You can [contact our support team](https://dnsimple.com/feedback) with any questions about adding SRV records, and we'll be happy to help.
+If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
