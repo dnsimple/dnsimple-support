@@ -18,7 +18,7 @@ To add an SRV record in DNSimple:
 1. Click **Add Record** at the bottom of the page to save it.
 
 <info>
-After the record is added, you’ll be returned to the Domain List, and a banner will confirm that the record was successfully added. 
+After the record is added, you'll be returned to the Domain List, and a banner will confirm the record was successfully added. 
 </info>
 
 Example SRV record form:
