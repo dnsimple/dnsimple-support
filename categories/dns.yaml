@@ -13,6 +13,7 @@ Explanation:
   - What Is a DMARC Record?
   - What's a CAA record?
   - What Are Glue Records?
+  - What Are NAPTR Records?
   - What's a POOL Record?
   - What Is an SOA Record?
   - What Is an SPF Record?
@@ -57,6 +58,7 @@ How to:
   - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools
   - Adding and Removing DS Records
+  - Adding an SRV Record
   - Managing URL Records
   - Zone NS Records
   - Auto-Importing DNS Records
@@ -81,6 +83,7 @@ Reference:
   - MX Record Reference
   - SOA Record Reference
   - SPF Record Syntax and Validation Reference
+  - SRV Record Format and Components Reference
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
