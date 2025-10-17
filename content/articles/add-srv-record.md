@@ -9,7 +9,7 @@ categories:
 
 To add an SRV record in DNSimple:
 
-1. If you have multiple accounts, select the relevant account from the **account switcher** at the top-right corner of the screen.
+1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the relevant domain.
 1. Click the DNS badge at the top right to access the **Record Editor**.
 1. Click **Add record**.
