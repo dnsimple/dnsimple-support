@@ -8,7 +8,7 @@ gem "kramdown"
 gem "kramdown-parser-gfm"
 gem "mime-types"
 gem "nokogiri", "~> 1.18"
-gem "puma", "~> 7.0"
+gem "puma", "~> 7.1"
 gem "rouge"
 gem "systemu"
 
