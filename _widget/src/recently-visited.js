@@ -1,5 +1,9 @@
+import { browserLocation } from './utils/browserLocation.js';
+
 export default (widget) => {
-  const { origin, pathname, href } = window.location;
+  const href = browserLocation.getHref();
+  const url = new URL(href);
+  const { origin, pathname } = url;
 
   if (!['https://support.dnsimple.com', 'https://developer.dnsimple.com'].includes(origin)) return;
 
