@@ -3,16 +3,17 @@ Explanation:
   - What is Time-to-Live?
   - What's the Minimum Time-To-Live Provided by DNSimple?
   - Common DNS Records
-  - What Is an ALIAS Record?
-  - What Is a CNAME Record?
   - What Is an A Record?
   - What Is an AAAA Record?
-  - What Is an MX Record?
-  - What Is an NS Record?
+  - What Is an ALIAS Record?
+  - What Is a CAA Record?
+  - What Is a CNAME Record?
   - What Is a DKIM Record?
   - What Is a DMARC Record?
-  - What Is a CAA Record?
+  - What Are DS Records?
   - What Are Glue Records?
+  - What Is an MX Record?
+  - What Is an NS Record?
   - What Are NAPTR Records?
   - What's a POOL Record?
   - What Are SSHFP Records?
@@ -23,7 +24,6 @@ Explanation:
   - What's a TXT Record?
   - What Is a URL Record?
   - What Is a Zone File?
-  - What Are DS Records?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
   - Reverse DNS Zones
