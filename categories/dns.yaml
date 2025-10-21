@@ -11,10 +11,11 @@ Explanation:
   - What Is an NS Record?
   - What Is a DKIM Record?
   - What Is a DMARC Record?
-  - What's a CAA record?
+  - What Is a CAA Record?
   - What Are Glue Records?
   - What Are NAPTR Records?
   - What's a POOL Record?
+  - What Are SSHFP Records?
   - What Is an SOA Record?
   - What Is an SPF Record?
   - What Is an SRV Record?
@@ -77,6 +78,7 @@ Reference:
   - A Record Format
   - AAAA Record Format
   - ALIAS Record Reference
+  - CAA Record Format and Policy Tags
   - CNAME Record Reference
   - DKIM Record Reference
   - DMARC Record Reference
