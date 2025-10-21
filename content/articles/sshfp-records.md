@@ -10,7 +10,7 @@ categories:
 
 An SSHFP (SSH FingerPrint, record type 44) record is a type of DNS resource record that is used to securely publish SSH host key fingerprints in the [Domain Name System (DNS)](/articles/what-is-dns/). The primary purpose of an SSHFP record is to provide a way for SSH clients to automatically and securely verify the authenticity of an SSH server's public key, helping to protect against man-in-the-middle (MITM) attacks during SSH connections.
 
-This is like a digital passport stamp for an SSH server's key, stored in a secure, publicly accessible ledger (DNS). When your SSH client tries to connect to a server, it can check this "stamp" to ensure it's talking to the legitimate server and not an impostor.
+This is like a digital passport stamp for an SSH server's key, stored in a secure, publicly accessible ledger (DNS). When your SSH client tries to connect to a server, it can check this stamp to ensure it's talking to the legitimate server and not an impostor.
 
 ## What information does an SSHFP record contain?
 An SSHFP record contains three mandatory fields:
@@ -22,7 +22,7 @@ An SSHFP record contains three mandatory fields:
 - **Fingerprint type (8-bit integer)**: Specifies the algorithm used to hash the public key. Common values include:
     - `1`: SHA-1
     - `2`: SHA-256
-**Fingerprint (character string)**: The actual hash (fingerprint) of the SSH public host key, represented as a hexadecimal string. This is what the client will compare against.
+- **Fingerprint (character string)**: The actual hash (fingerprint) of the SSH public host key, represented as a hexadecimal string. This is what the client will compare against.
 
 **Example**
 An SSHFP record for a server named `ssh.example.com` might look like this in a DNS zone file:
@@ -37,7 +37,7 @@ ssh.example.com. IN SSHFP 4 2 fe20c3a2b1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3
 The process of using SSHFP records to verify an SSH connection involves these steps:
 1. **Client initiates connection**: An SSH client (like OpenSSH) attempts to connect to an SSH server (e.g., `ssh.example.com`).
 1. **Client queries DNS**: Before accepting the server's public key, the client performs a DNS query for SSHFP records associated with `ssh.example.com`.
-1. **DNSSEC validation**: this step is critical. For SSHFP records to be trustworthy, the DNS responses must be cryptographically signed and validated using [DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/). Without DNSSEC, a malicious actor could intercept your DNS query and return a fake SSHFP record, defeating the purpose of the security check.
+1. **DNSSEC validation**: This step is critical. For SSHFP records to be trustworthy, the DNS responses must be cryptographically signed and validated using [DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/). Without DNSSEC, a malicious actor could intercept your DNS query and return a fake SSHFP record, defeating the purpose of the security check.
 1. **Client compares fingerprints**: The client receives the SSHFP records (assuming DNSSEC validation passes). It then compares the fingerprint it received from DNS with the actual fingerprint of the public key presented by the SSH server.
 1. **Connection outcome**:
     - If a matching SSHFP record is found and DNSSEC validated, the client can automatically trust the host key. This bypasses the typical "The authenticity of host 'hostname' can't be established" prompt and the need to manually verify the fingerprint.
