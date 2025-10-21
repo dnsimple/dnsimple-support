@@ -17,10 +17,6 @@ When you make a change to your registrant’s email address or name, you’ll be
 
 ## What the Verification Email Looks Like
 
-The email address listed as the domain contact may receive an email similar to this:
-
-![ICANN Verification Email](/files/icann-verification-email.png)
-
 ### When Registering a New Domain
 
 ![New domain verification]()
