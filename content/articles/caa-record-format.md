@@ -59,7 +59,7 @@ Common CAA record configurations
 A domain can have multiple CAA records to describe the desired set of restrictions.
 </note>
 
-| Scenario | Example DNSimple Configuration (Name / Flags / Tag / Content) | Canonical Form (for reference) | Description |
+| Scenario | Example DNSimple Configuration (Name / Flags / Tag / Content) | Canonical Form (for reference) | Description      |
 |:--------|:-----|:----|:----|
 | **Allow Let's Encrypt to issue** | `example.com / 0 / issue / "letsencrypt.org"` | `example.com. CAA 0 issue "letsencrypt.org"` | Only allows Let's Encrypt to issue single-name and non-wildcard certificates for `example.com` and its subdomains (unless overridden). |
 | **Allow both Let's Encrypt and Sectigo** | `example.com / 0 / issue / "sectigo.com"<br>example.com / 0 / issue / "letsencrypt.org"` | `example.com. CAA 0 issue "sectigo.com"<br>example.com. CAA 0 issue "letsencrypt.org"` | Allows either Sectigo or Let's Encrypt to issue single-name and non-wildcard certificates. If any other CA attempts to issue, it should be denied. |
@@ -71,7 +71,7 @@ A domain can have multiple CAA records to describe the desired set of restrictio
 | **Disallow all certificate issuance** | `example.com / 0 / issue / ";"<br>example.com / 0 / issuewild / ";"<br>example.com / 0 / issuemail / ";"`| `example.com. CAA 0 issue ";"<br>example.com. CAA 0 issuewild ";"<br>example.com. CAA 0 issuemail ";"` |
 
 ## Quotes and special characters in CAA values
-- Double quotes/backslashes: If your CA or provider gives you a CAA record value with double quotes around the entire string, or backslashes before semi-colons (e.g., ";" or k=rsa\;), you can safely remove them when entering the value into DNSimple's content field. DNSimple's name servers handle these automatically.
+- Double quotes/backslashes: If your CA or provider gives you a CAA record value with double quotes around the entire string, or backslashes before semi-colons (e.g., `";"` or `k=rsa\;`), you can safely remove them when entering the value into DNSimple's content field. DNSimple's name servers handle these automatically.
 - Other characters: Do not modify forward slashes or other unusual characters that are part of the legitimate value string (e.g., within a `validationmethods` parameter or an `iodef` URL).
 
 ## References
