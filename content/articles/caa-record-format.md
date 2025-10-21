@@ -5,8 +5,8 @@ meta: Learn more about the structure of CAA records and policy tags.
 categories:
 - DNS
 ---
-
-A [Certification Authority Authorization (CAA) record ](/articles/caa-record/)  is a DNS record used to specify which Certificate Authorities (CAs) are authorized to issue certificates for a domain. This document details the formal structure and the specific policy tags used within CAA records.
+# CAA Record Format and Policy Tags
+A [Certification Authority Authorization (CAA) record](/articles/caa-record/) is a DNS record used to specify which Certificate Authorities (CAs) are authorized to issue certificates for a domain. This document details the formal structure and the specific policy tags used within CAA records.
 
 ## CAA record format
 All CAA records must adhere to a specific pattern in their RDATA (Resource Data) section:
