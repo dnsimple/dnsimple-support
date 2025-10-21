@@ -30,7 +30,7 @@ The email is sent from one of the following addresses:
 - DNSimple <donotreply@name-services.com>
 - DNSimple <registrant-verification@ispapi.net>
 
-The message will contain a verification link: (http://emailverification.info)
+The message will contain a verification link that goes to [https://www.emailverification.info/](https://www.emailverification.info/).
 
 ## Resend Verification Email
 
