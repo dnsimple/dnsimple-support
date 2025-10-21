@@ -19,11 +19,11 @@ When you make a change to your registrant’s email address or name, you’ll be
 
 ### When Registering a New Domain
 
-![New domain verification]()
+![New domain verification](new-domain-registration-verification-email.png)
 
 ### When Changing or Updating  the Registrant Contact
 
-![Change or Update Registrant]()
+![Change or Update Registrant](change-update-contact-verification-email.png)
 
 The email is sent from one of the following addresses:
 - <noreply@emailverification.info>
@@ -32,13 +32,13 @@ The email is sent from one of the following addresses:
 
 The message will contain a verification link: (http://emailverification.info)
 
-## Resend verification email
+## Resend Verification Email
 
 If you are having trouble finding the email verification in your inbox, please remember to check your spam folder.
 
-If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send ICANN RAA verification email**.
+If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send registrant verification email**.
 
-![ICANN resend email verification](/files/raa-resend-email-verification.png)
+![ICANN resend email verification](resend-domain-verification-email.png)
 
 Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
@@ -51,7 +51,7 @@ If your domain is suspended, the name servers will be changed to either of the f
 
 Additionally, a message will appear on your website indicating that your domain is suspended:
 
-![ICANN Verification Web](/files/icann-verification-web.png)
+![ICANN Verification Web](/files/icann-verification-web.png) 
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
