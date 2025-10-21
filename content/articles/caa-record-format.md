@@ -59,7 +59,7 @@ Common CAA record configurations
 A domain can have multiple CAA records to describe the desired set of restrictions.
 </note>
 
-| Scenario | Example DNSimple Configuration (Name / Flags / Tag / Content) | Canonical Form (for reference) | Description      |
+| Scenario | Name / Flags / Tag / Content | Canonical Form | Description |
 |:--------|:-----|:----|:----|
 | **Allow Let's Encrypt to issue** | `example.com / 0 / issue / "letsencrypt.org"` | `example.com. CAA 0 issue "letsencrypt.org"` | Only allows Let's Encrypt to issue single-name and non-wildcard certificates for `example.com` and its subdomains (unless overridden). |
 | **Allow both Let's Encrypt and Sectigo** | `example.com / 0 / issue / "sectigo.com"<br>example.com / 0 / issue / "letsencrypt.org"` | `example.com. CAA 0 issue "sectigo.com"<br>example.com. CAA 0 issue "letsencrypt.org"` | Allows either Sectigo or Let's Encrypt to issue single-name and non-wildcard certificates. If any other CA attempts to issue, it should be denied. |
