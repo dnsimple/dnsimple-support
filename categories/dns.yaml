@@ -1,6 +1,6 @@
 - Explanation:
 
-    Foundational_Concepts_and_Operations:
+-### Foundational Concepts and Operations:
          - What is DNS?
          - What is Time-to-Live?
          - What's the Minimum Time-To-Live Provided by DNSimple?
@@ -15,7 +15,7 @@
          - DNS Hosting
          - Protection Against DDoS Attacks
          
-    Common_DNS_Records:
+-### Common DNS Records:
         - Common DNS Records
         - What Is an ALIAS Record?
         - What Is a CNAME Record?
@@ -25,7 +25,7 @@
         - Differences Between A and CNAME Records
         - Differences Among A, CNAME, ALIAS, and URL Records
         
-    Advanced_and_Security_Records:
+-### Advanced and Security Records:
         - What Is an MX Record?
         - What's an NS Record?
         - What Is a DKIM Record?
