@@ -19,11 +19,11 @@ When you make a change to your registrant’s email address or name, you’ll be
 
 ### When Registering a New Domain
 
-![New domain verification](new-domain-registration-verification-email.png)
+![New domain verification](/files/new-domain-registration-verification-email.png)
 
 ### When Changing or Updating  the Registrant Contact
 
-![Change or Update Registrant](change-update-contact-verification-email.png)
+![Change or Update Registrant](/files/change-update-contact-verification-email.png)
 
 The email is sent from one of the following addresses:
 - <noreply@emailverification.info>
@@ -38,7 +38,7 @@ If you are having trouble finding the email verification in your inbox, please r
 
 If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send registrant verification email**.
 
-![ICANN resend email verification](resend-domain-verification-email.png)
+![ICANN resend email verification](/files/resend-domain-verification-email.png)
 
 Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
