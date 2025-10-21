@@ -17,12 +17,11 @@ categories:
 
 You can manage [CAA records](/articles/caa-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the CAA record format (LINK NEW ARTICLE) and usage.
+The instructions in this article assume you're familiar with the [CAA record format](/articles/caa-record-format/) and usage.
 
 <note>
 CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
 </note>
-
 
 ## Standard mode vs custom mode
 
@@ -39,7 +38,6 @@ We don't support the ability to specify via interface the destructured CAA recor
 0 issue "letsencrypt.com"
 ```
 
-
 ## Adding a CAA record
 
 <div class="section-steps" markdown="1">
@@ -48,7 +46,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
-1. In the record editor, click **Add** and select **CAA** to add a new CAA record.
+1. In the record editor, click **Add**, and select **CAA** to add a new CAA record.
 1. Select the **Provider** tab.
 1. Enter the CAA record information.
     ![screenshot: Showing create new CAA record form](/files/record-caa-create-new.png)
@@ -98,7 +96,7 @@ Some hosting providers label fields differently than DNSimple does, which can be
 <div class="section-steps" markdown="1">
 #### To remove a CAA record
 
-1.  1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
+1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
 1. Locate the CAA record you want to remove in the list.
@@ -110,4 +108,4 @@ Some hosting providers label fields differently than DNSimple does, which can be
 </div>
 
 ## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
