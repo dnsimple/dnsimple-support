@@ -1,96 +1,96 @@
 Explanation:
   Foundational_Concepts_and_Operations:
-    - /articles/what-is-dns/
-    - /articles/what-is-ttl/
-    - /articles/what-minimum-time-to-live/
-    - /articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/
-    - /articles/resolution-status/
-    - /articles/reverse-dns/
-    - /articles/zone-files/
-    - /articles/dynamic-dns/
-    - /articles/why-anycast-dns/
-    - /articles/edns-client-subnet/
-    - /articles/regional-records/
-    - /articles/dns-hosting/
-    - /articles/protection-ddos/
+    - What is DNS?
+    - What is Time-to-Live?
+    - What's the Minimum Time-To-Live Provided by DNSimple?
+    - How Long Does It Take for a New Record to Resolve for My Domain?
+    - Resolution Status
+    - Reverse DNS Zones
+    - Domain Zone Files
+    - Dynamic DNS
+    - Why Anycast DNS?
+    - What Is EDNS Client Subnet Support?
+    - Regional Records
+    - DNS Hosting
+    - Protection Against DDoS Attacks
 
   Common_DNS_Records:
-    - /articles/common-dns-records/
-    - /articles/alias-record/
-    - /articles/cname-record/
-    - /articles/a-record/
-    - /articles/aaaa-record/
-    - /articles/url-record/
-    - /articles/differences-a-cname-records/
-    - /articles/differences-between-a-cname-alias-url/
+    - Common DNS Records
+    - What Is an ALIAS Record?
+    - What Is a CNAME Record?
+    - What Is an A Record?
+    - - What Is an AAAA Record?
+    - What Is a URL Record?
+    - Differences Between A and CNAME Records
+    - Differences Among A, CNAME, ALIAS, and URL Records
 
   Advanced_and_Security_Records:
-    - /articles/mx-record/
-    - /articles/ns-record/
-    - /articles/dkim-record/
-    - /articles/dmarc-record/
-    - /articles/caa-record/
-    - /articles/what-are-glue-records/
-    - /articles/pool-record/
-    - /articles/soa-record/
-    - /articles/spf-record/
-    - /articles/srv-record/
-    - /articles/txt-record/
-    - /articles/what-are-ds-records/
+    - What Is an MX Record?
+    - What's an NS Record?
+    - What Is a DKIM Record?
+    - What Is a DMARC Record?
+    - What's a CAA record?
+    - What Are Glue Records?
+    - What's a POOL Record?
+    - What's an SOA Record?
+    - What Is an SPF Record?
+    - What Is an SRV Record?
+    - What's a TXT Record?
+    - What Are DS Records?
 
   Integrations_and_Interoperability:
-    - /articles/integrated-dns-providers/
-    - /articles/integrated-dns-provider-amazon-route53/
-    - /articles/integrated-dns-provider-azure-dns/
-    - /articles/integrated-dns-provider-coredns/
-    - /articles/zone-verification/
-    - /articles/dnssec-and-secondary-dns/
-    - /articles/alias-and-secondary-dns/
+    - Integrated DNS Providers at DNSimple
+    - Amazon Route 53
+    - Azure DNS
+    - CoreDNS
+    - Zone Verification
+    - Why DNSSEC and Secondary DNS may not work together
+    - How ALIAS Records Resolve with Secondary DNS
     
 How_to:
   General_Management_and_Tools:
-    - /articles/record-editor/
-    - /articles/record-notes/
-    - /articles/how-to-add-dns-records/
-    - /articles/auto-import-dns/
-    - /articles/how-dig/
-    - /articles/record-resolution-issues/
-    - /articles/domain-resolution-issues/
+    - Record Editor
+    - Record Notes
+    - How To Add Common DNS Records
+    - Auto-Importing DNS Records
+    - How to Use dig
+    - Troubleshooting Record Resolution Issues
+    - Troubleshooting Domain Resolution Issues
 
   Managing_Specific_Record_Types:
-    - /articles/manage-a-record/
-    - /articles/manage-aaaa-record/
-    - /articles/manage-caa-record/
-    - /articles/manage-cname-record/
-    - /articles/manage-url-record/
-    - /articles/manage-ds-record/
-    - /articles/zone-ns-records/
-    - /articles/rotate-dnssec-key/
+    - Managing A Records
+    - Managing AAAA Records
+    - Managing CAA Records
+    - Managing CNAME Records
+    - Managing URL Records
+    - Adding and Removing DS Records
+    - Zone NS Records
+    - Rotate DNSSEC Keys
 
   Setting_Up_Email_and_Security:
-    - /articles/set-up-dkim/
-    - /articles/set-up-dmarc/
-    - /articles/verify-dkim/
-    - /articles/verifying-dmarc/
+    - Setting up DKIM
+    - Setting up DMARC
+    - Verifying DKIM with dig and Online Tools
+    - Verifying DMARC with dig and Online Tools
 
   Integration_Management:
-    - /articles/amazon-route-53-integration-demo/
-    - /articles/managing-integrated-zones/
-    - /articles/record-editor-integrated-zones/
+    - Amazon Route 53 Integration Demo
+    - Managing Integrated Zones
+    - Record Editor for Integrated Zones
 
 Reference:
   Record_Format_and_Syntax:
-    - /articles/supported-dns-records/
-    - /articles/a-record-format/
-    - /articles/aaaa-record-format/
-    - /articles/alias-record-reference/
-    - /articles/cname-record-reference/
-    - /articles/dkim-record-reference/
-    - /articles/dmarc-record-reference/
-    - /articles/mx-record-reference/
-    - /articles/spf-syntax-validation-reference/
-    - /articles/url-record-format-details/
+    - Supported DNS Records and DNS Record Types
+    - A Record Format
+    - AAAA Record Format
+    - ALIAS Record Reference
+    - CNAME Record Reference
+    - DKIM Record Reference
+    - DMARC Record Reference
+    - MX Record Reference
+    - SPF Record Syntax and Validation Reference
+    - URL Record Format and Technical Details
 
   Resolution_and_Technical_Guides:
-    - /articles/ipv6-support/
-    - /articles/resolving-with-us/
+    - IPv6 Domain Resolution Reference
+    - Resolving with DNSimple
