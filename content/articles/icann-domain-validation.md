@@ -11,7 +11,7 @@ ICANN, the organization that oversees domain name registrations for most top-lev
 
 ## How ICANN Validation Emails Work
 
-When you make a change to your registrant’s email address or name, you’ll be presented with a confirmation screen that tells you whether the change [locks any of your domains for transfer](/articles/icann-60-day-lock-registrant-change/), and that you may have to verify the change by email. Shortly after, you’ll receive a verification email.
+When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change [locks any of your domains for transfer](/articles/icann-60-day-lock-registrant-change/), and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
 ![Contact change confirmation](/files/contact-change.png)
 
