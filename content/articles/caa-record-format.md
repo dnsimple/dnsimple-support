@@ -48,7 +48,7 @@ Sets a policy for issuing **S/MIME (Secure/Multipurpose Internet Mail Extensions
 
 ### `iodef` tag: requesting policy violation notifications
 The `iodef` tag (Incident Object Description Exchange Format) allows domain owners to specify a method for CAs to report any policy violations (e.g., an unauthorized certificate request).
-- **Value**: A URL for reporting. Typically an email address (prefixed with `mailto`:) or an HTTP/HTTPS callback URL.
+- **Value**: A URL for reporting. Typically an email address (prefixed with `mailto:`) or an HTTP/HTTPS callback URL.
     - **Example**: `"mailto:security@example.com"`
     - **Example**: `"https://iodef.example.com/report"`
 
