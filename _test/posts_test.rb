@@ -19,7 +19,7 @@ describe 'Content' do
     affected = []
 
     Dir.glob('content/**/*.md').each do |path|
-      File.readlines(path).each do |line|
+      File.readlines(path, encoding: 'UTF-8').each do |line|
         affected << [path, line] if regexp.match(line)
       end
     end
@@ -42,7 +42,7 @@ describe 'Links' do
     Dir.glob('content/**/*.md').each do |path|
       next unless File.file?(path)
 
-      File.readlines(path).each do |line|
+      File.readlines(path, encoding: 'UTF-8').each do |line|
         affected << [path, line] if regexp.match(line)
       end
     end
@@ -62,7 +62,7 @@ describe 'Links' do
     Dir.glob('content/articles/*.{md,markdown}').each do |path|
       next unless File.file?(path)
 
-      File.readlines(path).each do |line|
+      File.readlines(path, encoding: 'UTF-8').each do |line|
         line.scan(regexp) do |matches|
           matches.each do |match|
             next unless File.extname(match) == '' # linked to a file

@@ -16,7 +16,7 @@ describe "Images" do
     referenced_images = Set.new
 
     markdown_files.each do |file|
-      content = File.read(file)
+      content = File.read(file, encoding: 'UTF-8')
       content.scan(/\!\[.*?\]\((.*?)\)/).each do |match| # Match Markdown image syntax ![alt](path)
         referenced_images << match[0]
       end
