@@ -12,13 +12,13 @@ This article serves as a reference for the formal structure, format, and key tec
 ## HINFO record format
 HINFO records have a type code of 13 and are defined in RFC 1035. The record's data section (RDATA) is composed of two primary components: a description of the CPU and a description of the operating system.
 
-The canonical representation of a HINFO record is:
+The canonical representation is:
 ```
 <name> <TTL> IN HINFO <cpu> <os>
 ```
 Both the `<cpu>` and `<os>` fields are defined as character-strings. If either string contains a space, it must be enclosed in double quotes.
 
-In the DNSimple record editor, an HINFO record is represented by the following customizable elements:
+In the DNSimple record editor, a HINFO record is represented by the following customizable elements:
 
 | Element | Description | 
 |:--------|:-----|
