@@ -44,9 +44,9 @@ Several factors have contributed to the decline in HINFO record usage:
 
 ## When might you encounter HINFO records?
 While not common in new deployments, you might still encounter HINFO records in the following scenarios:
-**Legacy systems**: Older networks or systems that haven't been updated in a while might still have HINFO records configured.
-**Niche applications**: Very specific or proprietary applications might still rely on HINFO for compatibility checks. This is rare.
-**DNS zone file examination**: When analyzing a DNS zone file, you might come across HINFO records as part of a historical configuration.
+- **Legacy systems**: Older networks or systems that haven't been updated in a while might still have HINFO records configured.
+- **Niche applications**: Very specific or proprietary applications might still rely on HINFO for compatibility checks. This is rare.
+- **DNS zone file examination**: When analyzing a DNS zone file, you might come across HINFO records as part of a historical configuration.
 
 ## HINFO records are part of older DNS configurations
 HINFO records are a relic of earlier internet practices, designed to provide basic hardware and operating system information about hosts. While their utility has largely been superseded by more secure and dynamic methods of system management, understanding what they are can be beneficial for comprehending older DNS configurations and the evolution of DNS practices. **For most modern deployments, you will not need to create or manage HINFO records.**
