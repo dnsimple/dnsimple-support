@@ -1,7 +1,7 @@
 ---
 title: What are Reverse DNS Lookups and PTR Records?
 excerpt: Reverse DNS lookups query DNS to determine the hostname associated with a given IP address.
-meta: Learn how reverse DNS lookups and PTR records enhance the security and user experience of SSH connections.
+meta: Learn how reverse DNS lookups and PTR records work and why they are critical for several fundamental internet operations.
 categories:
 - DNS
 ---
