@@ -1,16 +1,16 @@
 ---
 title: HINFO Record Reference
-excerpt: The formal structure, restrictions, and key technical details of a HINFO record.
+excerpt: The formal structure, restrictions, and key technical details of HINFO records.
 meta: Learn more about the structure, security considerations, and technical details for HINFO records.
 categories:
 - DNS
 ---
 
 # HINFO Record Reference
-This article serves as a reference for the formal structure, format, and key technical details of a [HINFO (Host Information) record](/articles/hinfo-records/).
+This article serves as a reference for the formal structure, format, and key technical details of [HINFO (Host Information) records](/articles/hinfo-records/).
 
 ## HINFO record format
-An HINFO record has a type code of 13 and is defined in RFC 1035. The record's data section (RDATA) is composed of two primary components: a description of the CPU and a description of the operating system.
+HINFO records have a type code of 13 and are defined in RFC 1035. The record's data section (RDATA) is composed of two primary components: a description of the CPU and a description of the operating system.
 
 The canonical representation of a HINFO record is:
 ```
@@ -40,4 +40,3 @@ Due to the sensitive information they can reveal, HINFO records are considered a
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
