@@ -28,7 +28,6 @@ When you make a change to your registrant's email address or name, you'll be pre
 The email is sent from one of the following addresses:
 - <noreply@emailverification.info>
 - DNSimple <donotreply@name-services.com>
-- DNSimple <registrant-verification@ispapi.net>
 
 The message will contain a verification link that goes to [https://www.emailverification.info/](https://www.emailverification.info/).
 
