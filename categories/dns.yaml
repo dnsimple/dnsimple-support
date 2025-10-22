@@ -3,26 +3,29 @@ Explanation:
   - What is Time-to-Live?
   - What's the Minimum Time-To-Live Provided by DNSimple?
   - Common DNS Records
-  - What Is an ALIAS Record?
-  - What Is a CNAME Record?
   - What Is an A Record?
   - What Is an AAAA Record?
-  - What Is an MX Record?
-  - What Is an NS Record?
+  - What Is an ALIAS Record?
+  - What Is a CAA Record?
+  - What Is a CNAME Record?
   - What Is a DKIM Record?
   - What Is a DMARC Record?
-  - What's a CAA record?
+  - What Are DS Records?
   - What Are Glue Records?
+  - What Are HINFO Records?
+  - What Is an MX Record?
+  - What Is an NS Record?
   - What Are NAPTR Records?
   - What's a POOL Record?
+  - What Are Reverse DNS Lookups and PTR Records?
   - What Is an SOA Record?
   - What Is an SPF Record?
   - What Is an SRV Record?
+  - What Are SSHFP Records?
   - What Are System Records?
   - What's a TXT Record?
   - What Is a URL Record?
   - What Is a Zone File?
-  - What Are DS Records?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
   - Reverse DNS Zones
@@ -77,13 +80,17 @@ Reference:
   - A Record Format
   - AAAA Record Format
   - ALIAS Record Reference
+  - CAA Record Format and Policy Tags
   - CNAME Record Reference
   - DKIM Record Reference
   - DMARC Record Reference
+  - HINFO Record Reference
   - MX Record Reference
+  - PTR Record Reference
   - SOA Record Reference
   - SPF Record Syntax and Validation Reference
   - SRV Record Format and Components Reference
+  - SSHFP Record Reference
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
