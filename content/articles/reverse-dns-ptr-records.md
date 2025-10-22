@@ -1,7 +1,7 @@
 ---
 title: What are Reverse DNS Lookups and PTR Records?
-excerpt: SSHFP records securely publish SSH host key fingerprints in DNS.
-meta: Learn how SSHFP records enhance the security and user experience of SSH connections.
+excerpt: Reverse DNS lookups query DNS to determine the hostname associated with a given IP address.
+meta: Learn how reverse DNS lookups and PTR records enhance the security and user experience of SSH connections.
 categories:
 - DNS
 ---
