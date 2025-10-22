@@ -27,7 +27,7 @@ In this example:
 - `"x86-64"` describes the hardware architecture.
 - `"Ubuntu Linux"` describes the operating system.
   
-For the full technical breakdown of the HINFO record format, see our HINFO Record Reference (LINK TO NEW ARTICLE) article.
+For the full technical breakdown of the HINFO record format, see our [HINFO Record Reference](/articles/hinfo-record-reference/) article.
 
 ## Why were HINFO records used?
 In the past, HINFO records served several purposes:
