@@ -24,6 +24,7 @@ To facilitate this reverse mapping, IP addresses are transformed into special do
 
 - **IPv4 addresses**: The address is reversed octet by octet, and `.in-addr.arpa` is appended. For instance, the IP address `192.0.2.5` becomes the reverse domain name `5.2.0.192.in-addr.arpa`.
 - [**IPv6 addresses**](/articles/ipv6-support/), each hexadecimal digit is reversed and separated by dots, with .ip6.arpa appended. This results in much longer, but similarly structured, names (e.g., `2001:db8::1` becomes `1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.b.d.0.1.0.0.2.ip6.arpa.`).
+
 When a system performs a reverse DNS lookup, it constructs this special reverse domain name from the IP address and then queries the DNS system. The authoritative server for that reverse domain name will then respond with the PTR record, which contains the hostname.
 
 ### Example of PTR records in a zone file
