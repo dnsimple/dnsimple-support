@@ -9,19 +9,19 @@ categories:
 
 ICANN, the organization that oversees domain name registrations for most top-level domains, [requires validation](https://www.icann.org/resources/pages/contact-verification-2013-05-03-en) of your registrant email address whenever a new domain is registered or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after [15 days of non-compliance](https://kb.centralnicreseller.com/domains/icann/contact-verification/frequently-asked-questions).
 
-## How ICANN Validation Emails Work
+## How ICANN validation emails work
 
 When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change [locks any of your domains for transfer](/articles/icann-60-day-lock-registrant-change/), and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
 ![Contact change confirmation](/files/contact-change.png)
 
-## What the Verification Email Looks Like
+## What the verification email looks like
 
-### When Registering a New Domain
+### When registering a new domain
 
 ![New domain verification](/files/new-domain-registration-verification-email.png)
 
-### When Changing or Updating  the Registrant Contact
+### When changing or updating the registrant contact
 
 ![Change or Update Registrant](/files/change-update-contact-verification-email.png)
 
@@ -31,7 +31,7 @@ The email is sent from one of the following addresses:
 
 The message will contain a verification link that goes to [https://www.emailverification.info/](https://www.emailverification.info/).
 
-## Resend Verification Email
+## Resend verification email
 
 If you are having trouble finding the email verification in your inbox, please remember to check your spam folder.
 
