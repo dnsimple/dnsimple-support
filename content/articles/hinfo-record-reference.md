@@ -22,7 +22,7 @@ In the DNSimple record editor, an HINFO record is represented by the following c
 
 | Element | Description | 
 |:--------|:-----|
-| Name | The host name for the record, without the domain name. This is generally referred to as “subdomain”. |
+| Name | The host name for the record, without the domain name. This is generally referred to as "subdomain". |
 | TTL | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver. |
 | CPU | A description of the host's central processing unit. |
 | OS | A description of the host's operating system. |
