@@ -11,7 +11,7 @@ The **Product Expiration** email contains the list of products (purchased domain
 
 Emails about expiring products will be sent to the account email address. Changes in certificate [validation emails](/articles/ssl-certificates-email-validation/) or domain [contact](/articles/contact-management/) information won't affect your expiration notification emails.
 
-![Email](/files/notifications-expiring.png)
+![Email](/files/product expiration notificaftion.png)
 
 There are four expiration ranges: in a day, within a week, one month prior, and two months prior. These ranges cannot be customized.
 

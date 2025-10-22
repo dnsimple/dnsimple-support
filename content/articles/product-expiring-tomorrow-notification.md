@@ -13,7 +13,7 @@ Emails about expiring products will be sent to the account email address. Change
 
 This notification is an important reminder, and gives you a final chance to renew a domain.
 
-![Email](/files/notifications-expiring-tomorrow.png)
+![Email](/files/expiring in 1 day.png)
 
 This is a final notice. You will receive it as soon as one or more products are set to expire in the next 24 hours. Unlike the **Product Expiration** email, this is delivered only once, the day before the expiration date.
 
