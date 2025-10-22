@@ -1,7 +1,7 @@
 ---
-title: What are HINFO Records?
-excerpt: HINFO records 
-meta: Learn how reverse DNS lookups and PTR records work and why they are critical for several fundamental internet operations.
+title: What Are HINFO Records?
+excerpt: HINFO records indicate the hardware type and operating system of the host.
+meta: Learn how HINFO records work and why they have largely been superseded.
 categories:
 - DNS
 ---
