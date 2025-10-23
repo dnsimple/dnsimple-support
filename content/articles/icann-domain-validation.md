@@ -5,36 +5,39 @@ categories:
   - Domains
 ---
 
-# ICANN Domain Validation Requriements
+# ICANN Domain Validation Requirements
 
-ICANN, the organization that oversees domain name registrations for most top-level domains, [requires validation](https://www.icann.org/resources/pages/contact-verification-2013-05-03-en) of your registrant email address whenever a new domain is registered or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
+ICANN, the organization that oversees domain name registrations for most top-level domains, [requires validation](https://www.icann.org/resources/pages/contact-verification-2013-05-03-en) of your registrant email address whenever a new domain is registered or your registrant email address or name is changed. Failure to validate your registrant email address results in suspension of the domain name after [15 days of non-compliance](https://kb.centralnicreseller.com/domains/icann/contact-verification/frequently-asked-questions).
 
-When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen. This screen notifies you if the registrant changes are going to trigger a [60-day lock](/articles/icann-60-day-lock-registrant-change/) by ICANN. This screen will also tell you if you have to verify the registrant changes via the email address that is listed.
+## How ICANN validation emails work
+
+When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change [locks any of your domains for transfer](/articles/icann-60-day-lock-registrant-change/), and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
 ![Contact change confirmation](/files/contact-change.png)
 
-The email address listed as the domain contact may receive an email similar to this:
+## What the verification email looks like
 
-![ICANN Verification Email](/files/icann-verification-email.png)
+### When registering a new domain
 
-This email will be sent from the addresses `DNSimple <donotreply@name-services.com>` or `DNSimple <registrant-verification@ispapi.net>` and will include a link similar to these:
+![New domain verification](/files/new-domain-registration-verification-email.png)
 
-- `raa.name-services.com/raaverification/verification.aspx?VerificationCode=A8E3763E-EE70-42DB-A654-20BF560300A00`
-- `www.enom.com/raaverification/verification.aspx?VerificationCode=AAAAAAAA-1A11-11AA-1A1A-1111111111`
-- `registrant-email-verification-ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
-- `registrant-email-verification.ispapi.net/?approve&token=Fsjdklajdfoqewvoieioejrawkjnjasfie&lang=en`
+### When changing or updating the registrant contact
 
-Click the link to verify the registrant email address.
+![Change or Update Registrant](/files/change-update-contact-verification-email.png)
 
-The link must be to `raa.name-services.com`, `www.enom.com`, `registrant-email-verification-ispapi.net`, or `registrant-email-verification.ispapi.net` - if you receive a verification email, and this link is not in the email, contact support@dnsimple.com, forwarding the email you received.
+The email is sent from one of the following addresses:
+- <noreply@emailverification.info>
+- DNSimple <donotreply@name-services.com>
+
+The message will contain a verification link that goes to [https://www.emailverification.info/](https://www.emailverification.info/).
 
 ## Resend verification email
 
-If you are having trouble finding the email verification in your inbox, please remember to check your spam.
+If you are having trouble finding the email verification in your inbox, please remember to check your spam folder.
 
-If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send ICANN RAA verification email**.
+If it isn't there, resend the email by navigating to your domain page and locating the ICANN pending verification warning at the top of the page. Click **Send registrant verification email**.
 
-![ICANN resend email verification](/files/raa-resend-email-verification.png)
+![ICANN resend email verification](/files/resend-domain-verification-email.png)
 
 Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
@@ -45,23 +48,9 @@ If your domain is suspended, the name servers will be changed to either of the f
 - ns1.emailverification.info
 - ns2.emailverification.info
 
-_or_
-
-- DNS1.NAME-SERVICES.COM
-- DNS2.NAME-SERVICES.COM
-- DNS3.NAME-SERVICES.COM
-- DNS4.NAME-SERVICES.COM
-- DNS5.NAME-SERVICES.COM
-
-_or_
-
-- NS1.REGISTRANT-VERIFICATION.ISPAPI.NET
-- NS2.REGISTRANT-VERIFICATION.ISPAPI.NET
-- NS3.REGISTRANT-VERIFICATION.ISPAPI.NET
-
 Additionally, a message will appear on your website indicating that your domain is suspended:
 
-![ICANN Verification Web](/files/icann-verification-web.png)
+![ICANN Verification Web](/files/icann-verification-web.png) 
 
 On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
 
@@ -79,6 +68,6 @@ You must be able to receive an email at the registrant email address to complete
 
 ## Have more questions?
 
-If you need assistance or have any questions about ICANN domain validation, contact support, and we'll be happy to help.
+If you need assistance or have any questions about ICANN domain validation, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
 
-Want to learn more about the policy requiring domain validation? Visit ICANN to read about the [ICANN Whois Accuracy](https://www.icann.org/resources/pages/approved-with-specs-2013-09-17-en#whois-accuracy) program.
+Want to learn more about the policy requiring domain validation? Visit ICANN to read about the [ICANN RDDS Accuracy](https://itp.cdn.icann.org/en/files/accredited-registrars/registrar-accreditation-agreement-21jan24-en.htm#rdds-accuracy) program.
