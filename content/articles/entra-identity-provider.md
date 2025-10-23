@@ -57,6 +57,10 @@ Add the following [API permissions](https://learn.microsoft.com/en-us/entra/iden
 
 [Consent must also be granted](https://learn.microsoft.com/en-us/entra/identity-platform/howto-update-permissions#grant-consent-for-the-added-permissions-for-the-enterprise-application) for each API permission.
 
+### Assign team members to the Entra app
+
+From the Enterprise Application, click on the `Users and groups` tab to assign users to the application. Only users assigned to the application will be able to sign in to DNSimple via Entra as an identity provider. Read more about [assignments in Entra](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/assign-user-or-group-access-portal).
+
 ### Configuring DNSimple for Entra SSO
 
 These steps are performed in your DNSimple account:
