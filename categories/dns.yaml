@@ -12,10 +12,12 @@ Explanation:
   - What Is a DMARC Record?
   - What Are DS Records?
   - What Are Glue Records?
+  - What Are HINFO Records?
   - What Is an MX Record?
   - What Is an NS Record?
   - What Are NAPTR Records?
   - What's a POOL Record?
+  - What Are Reverse DNS Lookups and PTR Records?
   - What Is an SOA Record?
   - What Is an SPF Record?
   - What Is an SRV Record?
@@ -82,7 +84,9 @@ Reference:
   - CNAME Record Reference
   - DKIM Record Reference
   - DMARC Record Reference
+  - HINFO Record Reference
   - MX Record Reference
+  - PTR Record Reference
   - SOA Record Reference
   - SPF Record Syntax and Validation Reference
   - SRV Record Format and Components Reference
