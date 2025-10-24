@@ -1,5 +1,6 @@
-Explanation:
-  Foundational_Concepts_and_Operations:
+- Explanation:
+
+  Foundational Concepts and Operations
     - What is DNS?
     - What is Time-to-Live?
     - What's the Minimum Time-To-Live Provided by DNSimple?
@@ -9,22 +10,25 @@ Explanation:
     - Domain Zone Files
     - Dynamic DNS
     - Why Anycast DNS?
+    - Anycast DNS
     - What Is EDNS Client Subnet Support?
     - Regional Records
     - DNS Hosting
     - Protection Against DDoS Attacks
-
-  Common_DNS_Records:
+    - What Are Reverse DNS Lookups and PTR Records?
+    - What Is a Zone File?
+    
+  Common DNS Records
     - Common DNS Records
     - What Is an ALIAS Record?
     - What Is a CNAME Record?
     - What Is an A Record?
-    - - What Is an AAAA Record?
+    - What Is an AAAA Record?
     - What Is a URL Record?
     - Differences Between A and CNAME Records
     - Differences Among A, CNAME, ALIAS, and URL Records
-
-  Advanced_and_Security_Records:
+    
+  Advanced and Security Records
     - What Is an MX Record?
     - What's an NS Record?
     - What Is a DKIM Record?
@@ -37,8 +41,12 @@ Explanation:
     - What Is an SRV Record?
     - What's a TXT Record?
     - What Are DS Records?
-
-  Integrations_and_Interoperability:
+    - What Are HINFO Records?
+    - What Are NAPTR Records?
+    - What Are SSHFP Records?
+    - What Are System Records?
+    
+  Integrations and Interoperability
     - Integrated DNS Providers at DNSimple
     - Amazon Route 53
     - Azure DNS
@@ -46,9 +54,10 @@ Explanation:
     - Zone Verification
     - Why DNSSEC and Secondary DNS may not work together
     - How ALIAS Records Resolve with Secondary DNS
-    
-How_to:
-  General_Management_and_Tools:
+
+- How to:
+
+  General Management and Tools
     - Record Editor
     - Record Notes
     - How To Add Common DNS Records
@@ -56,8 +65,8 @@ How_to:
     - How to Use dig
     - Troubleshooting Record Resolution Issues
     - Troubleshooting Domain Resolution Issues
-
-  Managing_Specific_Record_Types:
+    
+  Managing Specific Record Types
     - Managing A Records
     - Managing AAAA Records
     - Managing CAA Records
@@ -66,20 +75,23 @@ How_to:
     - Adding and Removing DS Records
     - Zone NS Records
     - Rotate DNSSEC Keys
-
-  Setting_Up_Email_and_Security:
+    - Adding an SRV Record
+    - Managing DS Records When Changing DNS
+    
+  Setting Up Email and Security
     - Setting up DKIM
     - Setting up DMARC
     - Verifying DKIM with dig and Online Tools
     - Verifying DMARC with dig and Online Tools
-
-  Integration_Management:
+    
+  Integration Management
     - Amazon Route 53 Integration Demo
     - Managing Integrated Zones
     - Record Editor for Integrated Zones
 
-Reference:
-  Record_Format_and_Syntax:
+- Reference:
+
+  Record Format and Syntax
     - Supported DNS Records and DNS Record Types
     - A Record Format
     - AAAA Record Format
@@ -90,7 +102,13 @@ Reference:
     - MX Record Reference
     - SPF Record Syntax and Validation Reference
     - URL Record Format and Technical Details
-
-  Resolution_and_Technical_Guides:
+    - CAA Record Format and Policy Tags
+    - HINFO Record Reference
+    - PTR Record Reference
+    - SOA Record Reference
+    - SRV Record Format and Components Reference
+    - SSHFP Record Reference
+    
+  Resolution and Technical Guides
     - IPv6 Domain Resolution Reference
     - Resolving with DNSimple
