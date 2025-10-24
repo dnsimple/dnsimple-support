@@ -1,6 +1,6 @@
 - Explanation:
 
-  Foundational Concepts and Operations
+  - Foundational Concepts and Operations
     - What is DNS?
     - What is Time-to-Live?
     - What's the Minimum Time-To-Live Provided by DNSimple?
@@ -18,7 +18,7 @@
     - What Are Reverse DNS Lookups and PTR Records?
     - What Is a Zone File?
     
-  Common DNS Records
+  - Common DNS Records
     - Common DNS Records
     - What Is an ALIAS Record?
     - What Is a CNAME Record?
@@ -28,7 +28,7 @@
     - Differences Between A and CNAME Records
     - Differences Among A, CNAME, ALIAS, and URL Records
     
-  Advanced and Security Records
+  - Advanced and Security Records
     - What Is an MX Record?
     - What's an NS Record?
     - What Is a DKIM Record?
@@ -46,7 +46,7 @@
     - What Are SSHFP Records?
     - What Are System Records?
     
-  Integrations and Interoperability
+  - Integrations and Interoperability
     - Integrated DNS Providers at DNSimple
     - Amazon Route 53
     - Azure DNS
@@ -57,7 +57,7 @@
 
 - How to:
 
-  General Management and Tools
+  - General Management and Tools
     - Record Editor
     - Record Notes
     - How To Add Common DNS Records
@@ -66,7 +66,7 @@
     - Troubleshooting Record Resolution Issues
     - Troubleshooting Domain Resolution Issues
     
-  Managing Specific Record Types
+  - Managing Specific Record Types
     - Managing A Records
     - Managing AAAA Records
     - Managing CAA Records
@@ -78,20 +78,20 @@
     - Adding an SRV Record
     - Managing DS Records When Changing DNS
     
-  Setting Up Email and Security
+  - Setting Up Email and Security
     - Setting up DKIM
     - Setting up DMARC
     - Verifying DKIM with dig and Online Tools
     - Verifying DMARC with dig and Online Tools
     
-  Integration Management
+  - Integration Management
     - Amazon Route 53 Integration Demo
     - Managing Integrated Zones
     - Record Editor for Integrated Zones
 
 - Reference:
 
-  Record Format and Syntax
+  - Record Format and Syntax
     - Supported DNS Records and DNS Record Types
     - A Record Format
     - AAAA Record Format
@@ -109,6 +109,6 @@
     - SRV Record Format and Components Reference
     - SSHFP Record Reference
     
-  Resolution and Technical Guides
+  - Resolution and Technical Guides
     - IPv6 Domain Resolution Reference
     - Resolving with DNSimple
