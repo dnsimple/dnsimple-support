@@ -16,14 +16,14 @@ Explanation:
   - What Is an MX Record?
   - What Is an NS Record?
   - What Are NAPTR Records?
-  - What's a POOL Record?
+  - What Is a POOL Record?
   - What Are Reverse DNS Lookups and PTR Records?
   - What Is an SOA Record?
   - What Is an SPF Record?
   - What Is an SRV Record?
   - What Are SSHFP Records?
   - What Are System Records?
-  - What's a TXT Record?
+  - What Is a TXT Record?
   - What Is a URL Record?
   - What Is a Zone File?
   - Differences Between A and CNAME Records
@@ -91,6 +91,7 @@ Reference:
   - SPF Record Syntax and Validation Reference
   - SRV Record Format and Components Reference
   - SSHFP Record Reference
+  - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
