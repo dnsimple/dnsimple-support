@@ -7,7 +7,7 @@
     "vue": "^3.5.22"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-env": "^7.28.5",
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/test-utils": "^2.4.6",
@@ -25,7 +25,7 @@
     "rollup-plugin-css-only": "^4.5.5",
     "sass-embedded": "^1.93.2",
     "tachyons": "^4.12.0",
-    "vite": "^7.1.11",
+    "vite": "^7.1.12",
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
