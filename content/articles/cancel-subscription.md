@@ -25,8 +25,7 @@ This is not an account deletion. If you do not delete your domains from the acco
 <div class="section-steps" markdown="1">
 ##### To unsubscribe from your DNSimple plan:
 
-1. From the account switcher, select the account you no longer need.
-1. Click **Account settings** in the account switcher.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1. On the left side of the screen, select the **Billings and plans** tab.
 1. Scroll down to the end of the page to find the Unsubscribe section.
 

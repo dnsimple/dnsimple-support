@@ -20,8 +20,7 @@ categories:
 You can update your account email address at any time. Changing your account email will **not** update your user email. To update your user email, follow [these instructions](/articles/changing-email/#changing-the-user-email). If you want to update both your account and user email to the same address, you'll need to update your user email first, then your account email.
 
 <div class="section-steps" markdown="1">
-1. Select the relevant account from the account switcher at the top-right corner of the screen.
-1. From the account switcher, click <label>Account settings</label>.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 
     ![Settings menu](/files/account-menu.png)
@@ -39,8 +38,7 @@ You'll be redirected to the Account page, where you'll see the updated email add
 You can also edit your account name, country of operation, and change your answers to any of the security screening questions.
 
 <div class="section-steps" markdown="1">
-1. Select the relevant account from the account switcher at the top-right corner of the screen.
-1. From the account switcher, click <label>Account settings</label>.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 
     ![Access to the account information section](/files/account-edit.png)

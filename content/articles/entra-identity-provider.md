@@ -62,7 +62,7 @@ Add the following [API permissions](https://learn.microsoft.com/en-us/entra/iden
 These steps are performed in your DNSimple account:
 
 1. At DNSimple, use the **account switcher** at the top right of the page to select the account you want to link with Entra.
-1. Click the gear icon ⚙️ next to the account name to open the account settings.
+1. Click the gear icon ⚙️ next to the account name to open the **account settings**.
 1. Click the **Single-Sign On** tab on the left side.
 1. Click **Authorize with Microsoft Entra ID** to authorize the Workspace.
 1. Fill in the Entra Tenant ID, client ID, and client secret, then click **Link**. You'll need to log in to the Entra Workspace.
@@ -105,7 +105,7 @@ If you log out of Entra, you will also be logged out of DNSimple.
 ## Unlinking an Entra organization from a DNSimple account
 
 1. At DNSimple, use the **account switcher** at the top right of the page to select the account you want to unlink.
-1. Click the gear icon ⚙️ next to the account name to open the account settings.
+1. Click the gear icon ⚙️ next to the account name to open the **account settings**.
 1. Click the **Single-Sign On** tab on the left side.
 1. Click **Revoke** next to the Entra SSO provider to remove the link from DNSimple to Entra.
 
