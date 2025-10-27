@@ -1,7 +1,7 @@
 ---
-title: What's a TXT Record?
-excerpt: What a TXT record is, how to create TXT records with DNSimple, and other details about how we manage them.
-meta: Learn what TXT records are, how to create and manage them with DNSimple, and discover essential tips for optimizing your domain's DNS settings effectively.
+title: What Is a TXT Record?
+excerpt: What a TXT record is, why they're useful, and other details about how we manage them.
+meta: Learn what TXT records are and discover how they can optimize your domain's DNS settings effectively.
 categories:
 - DNS
 ---
@@ -15,87 +15,42 @@ categories:
 
 ---
 
-## What's a TXT Record?
+## What is a TXT record?
 
-A TXT record is a resource record used to provide the ability to associate text with a zone. This record allows domain administrators to insert any text content into DNS records. These records are used for various purposes. One example is ownership validation: To prove you own the domain, a provider may require you to add a TXT record with a particular value to your domain.
+A TXT record (Text record, type 16) is a versatile type of DNS resource record that allows domain administrators to insert arbitrary human-readable or machine-readable text content into their domain's DNS. These records are used for a wide variety of essential purposes beyond just displaying information.
 
-Common uses for TXT records:
+TXT records serve as a flexible mechanism to associate specific textual data with a domain, which can then be retrieved by other systems on the internet.
 
-| Type                                    | Description                                                                                                                            |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [`DKIM` records](/articles/dkim-record/) | This record stores important information used in the validation of email in transit.                                                   |
-| DMARC records                           | Domain-based Message Authentication Reporting and Conformance records mitigate phishing and spoofing email attacks.                    |
-| [`SPF` record](/articles/spf-record/)   | This record is used to indicate to mail exchanges which hosts are authorized to send mail for a domain.                                |
-| Site Verification Records               | This record proves ownership of a domain and can be used to associate services such as Microsoft 365 and G-Suite to a specific domain. |
+## Common uses for TXT records
+TXT records are highly adaptable and are employed by many internet services for verification, authentication, and policy enforcement. The following are some of their most common applications.
 
-## Validation
+### Email authentication records
+- **[DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) records**: These store cryptographic public keys used in the validation of email in transit, helping to ensure that emails are legitimate and haven't been tampered with.
 
-We consider two different validation scenarios:
+- **[DMARC](/articles/dkim-record/) (Domain-based Message Authentication, Reporting & Conformance) records**: These establish policies for how email receivers should handle messages that fail SPF or DKIM authentication, and they provide reporting mechanisms to domain owners.
 
-### When you provide an unquoted value (deserialized) {#deserialized_content}
+- **[SPF](/articles/spf-record/) (Sender Policy Framework) records**: These indicate to receiving mail exchanges which specific hosts or IP addresses are authorized to send mail for a domain, combating email spoofing.
 
-This is the most common scenario.
+### Site verification records 
+Many services, such as Google Search Console, Microsoft 365, or various website builders, require you to add a specific TXT record to your domain's DNS. This acts as proof that you own or control the domain, allowing the service to securely associate your domain with your account.
 
-In this scenario, there are few limitations on what you can do beyond a hard limit of 1000 characters for the serialized version of your content. See the next section to understand what we mean about the serialized version of the TXT record content.
+### Security and other verifications 
+TXT records are also used for various other security protocols and verification processes, such as displaying website security policies or providing information for specific service integrations.
 
-### When you provide a value wrapped in double quotes (serialized) {#serialized_content}
+These TXT-based policies work alongside [MX records](/articles/mx-record/), which direct where your email should be delivered. While MX records handle delivery, TXT records define who can send and how to validate that email. 
 
-In this scenario, we will validate the syntax of the content you provide according to the rules described in the [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035):
-- A TXT is composed of one or more plain text values that meet the following criteria:
-  - They must be wrapped in double quotes
-  - Any double quote in them must be escaped with the sequence `\"`
+Due to their flexibility, TXT records are a foundational component for ensuring email deliverability, website security, and seamless integration with many online services.
 
-<note>
-The RFC 1035 allows text that doesn't include whitespace to be left unwrapped, but **we're enforcing the double quote wrapper** to simplify handling of TXT records across our system.
-</note>
+## Handling long TXT records
+Sometimes, the content required for a TXT record can be quite long, especially when dealing with cryptographic keys like those used for DKIM. Standard DNS protocols have limitations on the length of a single string within a TXT record (typically 255 characters).
 
-On top of that, we will also check the content you provide is at most 1000 characters in size.
+However, you generally don't need to manually split these long records. DNSimple's system transparently handles the complexities of long TXT records. You can usually provide the full, long string as a single value, and our system will automatically manage the necessary splitting and formatting to ensure it's compliant with internet standards when published to DNS.
 
-## Formatting
+## Creating and managing TXT records
+For step-by-step instructions on how to add, edit, or remove TXT records (including how DNSimple handles your input for formatting and character limits) in your DNSimple zone, please refer to our dedicated How-To Guide: [How to Add DNS Records](/articles/how-to-add-dns-records/).
 
-Our system stores the serialized version of TXT records (we do that for all the DNS record types, actually), but we don't expect you to provide serialized TXT records to create or update them in our system because it can get complicated and error-prone very easily.
+## TXT record formatting and validation reference
+For detailed information on the specific formatting rules for TXT record content, validation constraints (including overall character limits and handling of quotes and special characters), and an in-depth explanation of how DNSimple manages the splitting and joining of long TXT records, consult our comprehensive Reference Guide: TXT Record Formatting and Long Record Handling (NEW ARTICLE LINK)
 
-Instead, you can provide values for your TXT records without wrapping them in double quotes, and we will take care of the rest. However, you will see that the value we create is slightly different than the one you provided:
-- It will be wrapped in double quotes
-- Any double quote character originally present will be escaped with the `\"` character sequence
-
-<info>
-If you provide TXT record wrapped in double quotes, our system won't make any change to it and it will store it verbatim
-</info>
-
-## Long TXT records
-
-According to the RFC 1035, long TXT records must be split into 255 characters-long chunks, but our system will deal with the splitting of long TXT records transparently.
-
-<note>
-We don't require you to split long TXT records, nor we will store them in a split format
-</note>
-
-If you provide a long TXT record content wrapped in double quotes and split into chunks, we will store it as is but the existing chunks could be split further into smaller ones if the original chunks are too big. We do this to maximize our interoperability within Internet's DNS infrastructure by enforcing industry-standard formats.
-
-### Examples
-
-**Content with double quotes**
-
-I you provide us `some "quoted text" here`, we will store it as `"some \"quoted text\" here"`, and the DNS record will be resolved as:
-```
-example.com. 3600 IN TXT "some \"quoted text\" here"
-```
-
-**Long 2048-bit DKIM public key**
-
-I you provide us:
-```
-v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bBy9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB
-```
-
-We will store it as:
-```
-"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bBy9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB"
-```
-
-And the DNS record will be resolved as:
-```
-example.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxUDvrr1HvQ079r5vXSxesSjWuLETvRFT4fduNGuT+X/EoWsy/BcFGGlhLu3T21DJiniY0bAGlPHo7Z6Gv/z22fceR45Q9/9oQed9kQDaZhlcnCzYK/2VM3KY0Rkoet/76t1DYlvq60BzZEAC5u1iau3cezho5j1qU6tL1WgVtYDiC2IFrdLGwVm34k3E/bB" "y9HxiayI1LpWbDKNjnksEKsU85XOWYMj5EWqDR0wbiLGjdqyGbu7zD7NkiE8qWToLL83P1h8qatK8EIfmxbleFS1m5QSvWXIsDNDTA4u6fDG6/JkggbmY/toj8CPQ7Ze6SCoOFvoL4W+9wnBspC51qwIDAQAB"
-```
-(notice it is split into two chunks somewhere in the 4th line by the character sequence `" "`)
+## Have more questions?
+If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
