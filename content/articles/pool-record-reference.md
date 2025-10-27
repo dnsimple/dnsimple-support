@@ -1,7 +1,7 @@
 ---
 title: POOL Record Reference
 excerpt: Structure, implementation, and key characteristics of DNSimple's proprietary POOL record
-meta: Learn more about the structure of POOL records, their technical specifications, and how DNSimple handles their validation constraints.
+meta: Learn more about the structure of POOL records, their key characteristics, and technical implementation.
 categories:
 - DNS
 ---
@@ -12,6 +12,7 @@ This article serves as a reference for the structure, implementation, and key ch
 A POOL record is a proprietary record type developed by DNSimple and is not defined by any standard RFC. It is a virtual record that is dynamically resolved by DNSimple's name servers.
 
 In the DNSimple record editor, a POOL record is represented by the following configurable elements:
+
 | Element | Description | 
 |:---|:---|
 | Name | The host name for the record, without the domain name. This is generally referred to as "subdomain". |
