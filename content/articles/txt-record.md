@@ -22,7 +22,9 @@ A TXT record (Text record, type 16) is a versatile type of DNS resource record t
 TXT records serve as a flexible mechanism to associate specific textual data with a domain, which can then be retrieved by other systems on the internet.
 
 ## Common uses for TXT records
-TXT records are highly adaptable and are employed by many internet services for verification, authentication, and policy enforcement. The following are some of their most common applications.
+TXT records are highly adaptable and are employed by many internet services for verification, authentication, and policy enforcement. 
+
+**These are some of their most common applications:**
 
 ### Email authentication records
 - **[DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) records**: These store cryptographic public keys used in the validation of email in transit, helping to ensure that emails are legitimate and haven't been tampered with.
