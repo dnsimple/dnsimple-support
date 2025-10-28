@@ -13,7 +13,9 @@ This document serves as a reference for the technical specifications, formatting
 A TXT record is fundamentally composed of one or more strings of plain text. According to RFC 1035, each individual string within a TXT record can be up to 255 characters in length.
 
 ### DNSimple's input handling for TXT records
-DNSimple's system simplifies the process of creating and updating TXT records by handling much of the complex RFC-defined formatting automatically. We consider two main scenarios for input. 
+DNSimple's system simplifies the process of creating and updating TXT records by handling much of the complex RFC-defined formatting automatically. 
+
+**We consider two main scenarios for input:**
 
 **Scenario 1: Providing an unquoted value (deserialized input)**
 This is the most common and recommended way to provide your TXT record content in DNSimple. Enter the raw text string without adding any double quotes (") around it.
@@ -24,15 +26,16 @@ This is the most common and recommended way to provide your TXT record content i
 - **Constraints**: When providing unquoted input, the total length of your content (after DNSimple's automatic serialization, including added quotes and escaped characters) is limited to 1000 characters.
   
 ### Scenario 2: Providing a value wrapped in double quotes (serialized input)
-If you provide your TXT record content already enclosed in double quotes (e.g., copied directly from another source that presents it in RFC-compliant serialized form).
+The provided TXT record content is already enclosed in double quotes (e.g., copied directly from another source that presents it in RFC-compliant serialized form).
 - **DNSimple's processing**: Our system will store and publish this content verbatim, without making any modifications. You are responsible for ensuring that the content adheres strictly to RFC 1035 rules for serialized TXT records, including:
     - The entire value must be wrapped in double quotes.
     - Any double quote characters (") that are present within the content string must be escaped with the sequence \".
-- **Constraints**: The total length of the content you provide (including quotes and escape characters) must not exceed 1000 characters.
+- **Constraints**: The total length of the content you provide (including quotes and escaped characters) must not exceed 1000 characters.
 
 ## Handling long TXT records
 According to RFC 1035, if a TXT record's content exceeds 255 characters, it must be split into multiple strings (or "chunks"), each not exceeding 255 characters. These chunks are then concatenated by DNS resolvers during lookup.
-DNSimple's system manages the splitting of long TXT records transparently for you. 
+
+DNSimple's system manages the splitting of long TXT records transparently, with: 
 
 - **Simplified input**: You are not required to manually split long TXT record content into 255-character chunks when entering it into DNSimple. You can provide the entire long string as a single value.
 - **Automatic splitting**: DNSimple will automatically handle the necessary splitting of your long content into compliant 255-character chunks before publishing it to our name servers. This ensures maximum interoperability across the internet's DNS infrastructure.
