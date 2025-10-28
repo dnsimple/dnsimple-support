@@ -48,7 +48,7 @@ To create another account under your existing user profile:
 
 ## Switching among accounts
 
-Select the account you want to view from the account switcher to go to its **Domain List**. 
+Select the account you want to view from the **account switcher** to access the associated **Domain List**. 
 
 Click the gear icon ⚙️ next to the account name to open **account settings**.
 
