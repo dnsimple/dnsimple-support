@@ -18,6 +18,7 @@ DNSimple's system simplifies the process of creating and updating TXT records by
 **We consider two main scenarios for input:**
 
 **Scenario 1: Providing an unquoted value (deserialized input)**
+
 This is the most common and recommended way to provide your TXT record content in DNSimple. Enter the raw text string without adding any double quotes (") around it.
 - **DNSimple's processing**: When you provide an unquoted value, our system will automatically serialize the content to conform to DNS standards. This involves:
     - Wrapping the entire content in double quotes (").
@@ -25,7 +26,8 @@ This is the most common and recommended way to provide your TXT record content i
     - Example: If you input `I have "quoted text" here`, DNSimple stores it internally and publishes it as `"I have \"quoted text\" here"`.
 - **Constraints**: When providing unquoted input, the total length of your content (after DNSimple's automatic serialization, including added quotes and escaped characters) is limited to 1000 characters.
   
-### Scenario 2: Providing a value wrapped in double quotes (serialized input)
+**Scenario 2: Providing a value wrapped in double quotes (serialized input)**
+
 The provided TXT record content is already enclosed in double quotes (e.g., copied directly from another source that presents it in RFC-compliant serialized form).
 - **DNSimple's processing**: Our system will store and publish this content verbatim, without making any modifications. You are responsible for ensuring that the content adheres strictly to RFC 1035 rules for serialized TXT records, including:
     - The entire value must be wrapped in double quotes.
