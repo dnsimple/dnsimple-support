@@ -17,16 +17,16 @@ categories:
 
 A **POOL record** is a unique and powerful record type developed by DNSimple to provide advanced traffic management capabilities. It allows you to randomly distribute incoming requests across multiple target hostnames, essentially acting as a lightweight, DNS-based load balancer for your services.
 
-While standard [CNAME records](/articles/cname-record/)can alias one name to another, they lack the ability to dynamically choose between several destinations. The POOL record solves this by enabling you to define a collection (pool) of hostnames that a single CNAME-like record can point to, randomly selecting one at resolution time.
+While standard [CNAME records](/articles/cname-record/) can alias one name to another, they lack the ability to dynamically choose between several destinations. The POOL record solves this by enabling you to define a collection (pool) of hostnames that a single CNAME-like record can point to, randomly selecting one at resolution time.
 
 ## How POOL records work: intelligent CNAME resolution
 The magic of POOL records happens on DNSimple's authoritative [name servers](/articles/dnsimple-nameservers/). 
 
-When a DNS resolver queries a domain name for which you've configured a POOL record:
+When a DNS resolver queries a domain name with a configured POOL record:
 
-1. DNSimple's name server randomly selects one of the target hostnames you've defined within your POOL record.
+1. DNSimple's name server randomly selects one of the target hostnames defined within your POOL record.
 1. It returns this randomly chosen hostname to the requesting resolver as if it were a standard CNAME record.
-1. The resolver then proceeds to look up the IP address of that chosen hostname, directing the user's traffic to one of your specified providers.
+1. The resolver looks up the IP address of that chosen hostname, directing the user's traffic to one of your specified providers.
 
 This dynamic selection process occurs with each new resolution request, allowing you to randomly distribute incoming traffic across all active members of your pool.
 
