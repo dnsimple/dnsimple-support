@@ -50,7 +50,7 @@ However, you generally don't need to manually split these long records. DNSimple
 For step-by-step instructions on how to add, edit, or remove TXT records (including how DNSimple handles your input for formatting and character limits) in your DNSimple zone, please refer to our dedicated How-To Guide: [How to Add DNS Records](/articles/how-to-add-dns-records/).
 
 ## TXT record formatting and validation reference
-For detailed information on the specific formatting rules for TXT record content, validation constraints (including overall character limits and handling of quotes and special characters), and an in-depth explanation of how DNSimple manages the splitting and joining of long TXT records, consult our comprehensive Reference Guide: TXT Record Formatting and Long Record Handling (NEW ARTICLE LINK)
+For detailed information on the specific formatting rules for TXT record content, validation constraints (including overall character limits and handling of quotes and special characters), and an in-depth explanation of how DNSimple manages the splitting and joining of long TXT records, consult our comprehensive Reference Guide: [TXT Record Formatting and Long Record Handling](/articles/txt-record-format/)
 
 ## Have more questions?
 If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
