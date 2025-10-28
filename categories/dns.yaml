@@ -1,4 +1,4 @@
-Explanation:
+Explanation: |
   - What is DNS?
   - What is Time-to-Live?
   - What's the Minimum Time-To-Live Provided by DNSimple?
@@ -64,7 +64,7 @@ Explanation:
   - Zone Verification
 
  
-How to:
+How to: |
   - Record Editor
   - Record Notes
   - How To Add Common DNS Records
@@ -99,7 +99,7 @@ How to:
   - Troubleshooting Domain Resolution Issues
   
   
-Reference: 
+Reference: |
   - Supported DNS Records and DNS Record Types
 
   
