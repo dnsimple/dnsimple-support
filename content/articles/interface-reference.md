@@ -11,7 +11,7 @@ categories:
 This document provides a visual reference for key pages related to DNS management in the DNSimple interface. Each screenshot is labeled with numbers that correspond to an explanation of that feature or element.
 
 ## Record Editor
-The [Record Editor](\/articles/record-editor/)  is where you manage your domain's DNS records. You can add, edit, or delete records from this page.
+The [Record Editor](/articles/record-editor/)  is where you manage your domain's DNS records. You can add, edit, or delete records from this page.
 
  <!--- needs screenshot -->
 
@@ -30,7 +30,7 @@ The DNS tab on your domain's management page provides an overview of your DNS zo
 1. **DNS**: This link directs you to the Record Editor, where you can manage your domain's DNS records.
 1. **Deactivate zone**: This button shows if your DNS zone is active.
 1. **DNS Zone Providers**: This card shows your current DNS providers and provides options to add other Integrated DNS Providers.
-1. **Manage**: This links you to the Record Editor, where you can manage your domain’s DNS records. 
+1. **Manage**: This links you to the Record Editor, where you can manage your domain's DNS records. 
 1. **Export**: Click this button to export your zone file. A download will initiate. 
 1. **Import**: Click this button to import a zone file.
 
