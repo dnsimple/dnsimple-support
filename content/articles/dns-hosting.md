@@ -48,7 +48,15 @@ If you don't yet have a domain name, you can register a new domain directly thro
 
 **How to proceed**: [Sign up or log in](https://dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
 
-**Instructions**: For detailed steps, please refer to [Registering a Domain](https://support.dnsimple.com/articles/registering-domain/) 
+**Instructions**: For detailed steps, please refer to [Registering a Domain](/articles/registering-domain/) 
+
+### Park a Domain for Future Use
+
+If you are reserving a domain name for a project that isn't ready yet, you can register or transfer it to DNSimple simply to secure the name and park it. DNSimple provides the minimal DNS configuration needed to hold the domain for future use, ensuring it remains active until you are ready to build a site or set up email.
+
+    **How to proceed**: Register or transfer the domain. If you do not create any custom records, the domain will remain parked, only serving the basic system records (SOA, NS).
+
+    **Instructions**: Refer to the instructions for [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain.
 
 ## Have more questions? 
 If you have additional questions or need any assistance setting up DNS hosting, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
