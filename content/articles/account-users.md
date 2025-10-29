@@ -25,7 +25,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 ## Adding members to an account
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, click the name of the account in the account switcher to visit the account page.
+1. Once you've subscribed to an eligible plan, click the gear icon ⚙️ next to the account name to open **account settings**.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
@@ -52,7 +52,7 @@ It's not possible to add a user whose email address is the same as the account. 
 ## Removing members from an account
 
 <div class="section-steps" markdown="1">
-1. If you want to remove a member from your account, switch to the account, and visit the settings from the menu.
+1. If you want to remove a member from your account, click the gear icon ⚙️ next to the relevant account to open **account settings**.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 

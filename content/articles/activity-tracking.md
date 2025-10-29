@@ -37,7 +37,7 @@ Click **View** on the **Activity** card to view a detailed audit log of changes 
 
 Account-level activity tracking can be found under the account page.
 
-In the account switcher, click the name of the account you want to review, then click **_Account settings_**.
+Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 
 Click **View** on the **Activity** card to view a detailed audit log of changes within your account, including:
 

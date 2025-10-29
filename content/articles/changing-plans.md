@@ -35,8 +35,7 @@ You can cancel these plan changes in your account settings:
 
 ## Changing your subscription plan
 
-1.  Select the relevant account from the account switcher at the top-right corner of the screen.
-1.  From the account switcher, click **Account settings** to enter the account page.
+1. Select the relevant account from the account switcher at the top-right corner of the screen, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1.  Click the **Change plan** link under your plan section.
 
 ![Screenshot of how to change plan](/files/change-plan-screenshot.png)
