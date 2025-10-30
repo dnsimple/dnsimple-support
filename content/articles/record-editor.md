@@ -41,6 +41,8 @@ You'll need access to the account or domain to make changes. Make sure the domai
 1. Select the DNS record type you want to add (for example, A, CNAME, MX, etc.).
 1. Fill out the required fields for the new record.
 1. Click **Add record** to save it.
+   
+![Select Record Type](/files/rec-editor-new-record.png)
 
 ## Updating a record
 1. In the Record Editor, find the record you want to update.
@@ -48,10 +50,14 @@ You'll need access to the account or domain to make changes. Make sure the domai
 1. Make your changes.
 1. Click **Update record** to save.
 
+![modify a record](/files/modify-record.png)
+
 ## Deleting a record
 1. In the Record Editor, find the record you want to delete.
 1. Click the trash icon at the end of the record row.
 1. Confirm the deletion
+
+![delete record](/files/delete-record.png)
 
 <warning>
 There is no way to undo deleting a record. The only way to restore a deleted record is to 
