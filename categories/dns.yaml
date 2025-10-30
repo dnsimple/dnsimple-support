@@ -38,7 +38,7 @@ Explanation:
   - How ALIAS Records Resolve with Secondary DNS
   - Protection Against DDoS Attacks
   - What Is EDNS Client Subnet Support?
-  - DNS Hosting
+  - Why Should I Use DNSimple as a DNS Hosting Provider?
   - Domain Zone Files
   - Dynamic DNS
   - Integrated DNS Providers at DNSimple
@@ -95,4 +95,6 @@ Reference:
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
+  - DNSimple Interface Reference for DNS Management
   - Resolving with DNSimple
+  - Understanding DNSimple's Record Editors Simple vs. Field-Specific
