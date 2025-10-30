@@ -9,8 +9,6 @@ categories:
 
 DNSimple provides two distinct interfaces for adding and managing your DNS records in the [Record Editor](/articles/record-editor/), each designed to optimize for different use cases: the simple editor and the record fields editor. While both achieve the same goal of configuring your domain's DNS, they offer different levels of guidance and flexibility. Understanding when to use each can streamline your DNS management process.
 
-![switch to simple record editor](/files/switch-to-simple-editor.png)
-
 ## The simple editor: flexible for common records and pasting
 The Simple Editor presents a streamlined interface, primarily asking you to provide three universal pieces of information for a DNS record:
 - **Name**: This is the hostname for the record (e.g., `www`, `blog`, `_dmarc`).
