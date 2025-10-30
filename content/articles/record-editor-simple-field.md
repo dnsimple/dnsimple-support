@@ -18,6 +18,8 @@ The Simple Editor presents a streamlined interface, primarily asking you to prov
 - **Content**: This is a single, free-form text field where you enter the entire content of the DNS record's data.
 - **TTL (Time-to-Live)**: This value determines how long DNS lookups for that record can be cached by resolvers around the internet. The default value is typically 1 hour (3600 seconds), but you can adjust it.
 
+![simple record editor](/files/switch-to-simple-editor.png)
+
 ### When to use the simple editor
 The simple editor is highly beneficial for:
 - Adding common, straightforward records like A records or basic TXT records where the content is a single IP address or a simple text string.
