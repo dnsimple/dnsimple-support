@@ -1,11 +1,13 @@
 ---
-title: Importing Records From a Zone File
+title: Import Zone File
 excerpt: This article explains how to import zone text files in DNSimple.
 categories:
 - DNS
 ---
 
-# Importing Records From a Zone File
+# Import Zone File
+
+## Importing records from a zone file
 
 You can add records to your domain by importing a [zone file](/articles/what-is-zone-file/).
 
