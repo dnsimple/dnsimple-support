@@ -51,7 +51,7 @@ New domains, whether registered, transferred, or manually added, will have DNS h
 If a domain is delegated to our name servers, deactivating the DNS zone will immediately cause the domain to stop resolving. This applies whether the domain is registered or just hosted with us.
 
 If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone won't change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
-</warnning>
+</warning>
 
 ## Use cases
 There are a few cases where you may want to deactivate a zone:
