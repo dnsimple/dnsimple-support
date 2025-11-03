@@ -7,7 +7,7 @@ categories:
 
 # Importing Records From a Zone File
 
-You can add records to your domain by importing a [zone file](#whats-a-zone-file).
+You can add records to your domain by importing a [zone file](/articles/what-is-zone-file/).
 
 <note>
 Importing a zone file won't delete or replace the existing domain's records.
