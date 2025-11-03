@@ -48,13 +48,13 @@ DNSimple implements the following security requirements:
 
 ### Registration
 
-Before initiating the domain registration through DNSimple, you must request a registration token from the registry:
+Before initiating the domain registration through DNSimple, you must submit an application to the registry:
 
 1. Go to [https://register.bank/get-started/](https://register.bank/get-started/)
 2. When completing this form, under Registrar of Choice:
   - Select: Key-Systems, LLC.
   ![screenshot: bank registrar](/files/domains-ftld-registrar.png)
-3. Once completed, you'll receive a token. Keep this token;  you'll need it to complete the [registration in DNSimple](https://support.dnsimple.com/articles/registering-domain/).
+3. Once approved, you can proceed to [register the domain in DNSimple](https://support.dnsimple.com/articles/registering-domain/).
 
 ### DNSimple requirements
 
