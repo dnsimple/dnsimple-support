@@ -1,12 +1,12 @@
 ---
-title: Activating and Deactivating a DNS zone
+title: Activating and Deactivating a DNS Zone
 excerpt: How to activate or deactivate zones in your DNSimple account.
 meta: DNSimple provides a simple interface for activating and deactivating your DNS zones.
 categories:
 - DNS
 ---
 
-# Activating and Deactivating a DNS zone
+# Activating and Deactivating a DNS Zone
 You can activate the DNS hosting service for a domain from the domain **DNS** tab.
 
 ## Activating a DNS zone
