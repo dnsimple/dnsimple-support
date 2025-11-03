@@ -1,11 +1,11 @@
 ---
-title: Exporting Records From a Zone File
+title: Export Zone File
 excerpt: This article explains how to export zone text files in DNSimple.
 categories:
 - DNS
 ---
 
-# Exporting records to a zone file
+# Export Zone File
 
 You can export your domain's records into a [zone file](/articles/what-is-zone-file/).
 
