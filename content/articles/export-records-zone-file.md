@@ -7,6 +7,8 @@ categories:
 
 # Export Zone File
 
+## Exporting records from a zone file
+
 You can export your domain's records into a [zone file](/articles/what-is-zone-file/).
 
 The resulting zone file will allow you to copy over all the domain's records to a third-party system. You can also keep the zone file as a backup of your domain's records.
