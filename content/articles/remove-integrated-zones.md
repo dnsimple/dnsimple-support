@@ -9,6 +9,8 @@ categories:
 
 If you imported a zone into DNSimple from an Integrated DNS Provider, you can use the DNS Zone Providers card to remove the zone from DNSimple without deleting it. This retains the zone and its records at both DNSimple and at the Integrated DNS Provider. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone hosted by the provider via DNSimple.
 
+**Steps to remove an integrated provider zone**
+
 1.  Click the **DNS** tab on the domain's management page.
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
