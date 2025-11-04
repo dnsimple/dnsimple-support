@@ -27,7 +27,7 @@ Simplified Migration: The synchronization feature simplifies the migration proce
 ## How it works
 Once a provider is connected, DNSimple can perform a range of actions on integrated zones:
 - **Zone synchronization**: You can synchronize zone records between DNSimple and an Integrated DNS Provider, ensuring that your records are consistent across platforms.
-- **Importing zones**: When you connect a provider (NEW ARTICLE LINK), you can select which zones to import from the external provider and manage them from DNSimple.
+- **Importing zones**: When you connect a provider (NEW ARTICLE LINK - Connecting an Integrated DNS Provider), you can select which zones to import from the external provider and manage them from DNSimple.
 - **Record management**: You can list, create, update, and delete records for your integrated zones directly from DNSimple’s record editor.
 - **Zone lifecycle management**: You can add or delete zones to or from the Integrated DNS Provider from within DNSimple.
 
