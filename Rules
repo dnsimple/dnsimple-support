@@ -39,6 +39,10 @@ compile '/robots.*' do
   filter :erb
 end
 
+compile '/llms.*' do
+  filter :erb
+end
+
 compile '/**/*.html' do
   filter :erb
   layout '/default.*'
@@ -80,6 +84,10 @@ route '/sitemap.*' do
 end
 
 route '/robots.*' do
+  item.identifier.without_ext
+end
+
+route '/llms.*' do
   item.identifier.without_ext
 end
 
