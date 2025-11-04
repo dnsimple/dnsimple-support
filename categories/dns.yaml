@@ -60,8 +60,11 @@ How to:
   - Setting up DMARC
   - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools
+  - Activating and Deactivating a DNS Zone
   - Adding and Removing DS Records
   - Adding an SRV Record
+  - Export Zone File
+  - Import Zone File
   - Managing URL Records
   - Zone NS Records
   - Auto-Importing DNS Records
