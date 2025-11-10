@@ -20,9 +20,9 @@ Integrated DNS Providers are a feature from DNSimple that allows you to centrali
 Connecting an external provider to your DNSimple account lets you manage, synchronize, and view DNS settings for all your domains—regardless of where they are hosted—from a single interface. This is ideal for users who have domains registered or managed on multiple platforms but want to leverage DNSimple's tools and features.
 
 ## Why use Integrated DNS Providers?
-Centralized Management: Manage DNS settings for all your domains from a single interface, even if they are registered or hosted on other platforms.
-Access DNSimple Features: Use DNSimple's advanced DNS management tools and features for domains hosted on other platforms.
-Simplified Migration: The synchronization feature simplifies the migration process if you choose to transfer domains to DNSimple in the future.
+- **Centralized management**: Manage DNS settings for all your domains from a single interface, even if they are registered or hosted on other platforms.
+- **Access DNSimple features**: Use DNSimple's advanced DNS management tools and features for domains hosted on other platforms.
+- **Simplified migration**: The synchronization feature simplifies the migration process if you choose to transfer domains to DNSimple in the future.
 
 ## How it works
 Once a provider is connected, DNSimple can perform a range of actions on integrated zones:
