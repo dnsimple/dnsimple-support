@@ -41,12 +41,12 @@ Once the domain is transferred, you can no longer control it under your current 
 1. In the **Share or transfer domain** card, click **Transfer**.
     ![transfer between accounts](/files/transfer-domains-between-accounts.png)
 
-1. Enter the destination email address of another DNSimple account.
+1. Enter the destination account token of another DNSimple account. The recipient can find their account token in the Account card on their account page.
 1. Click **Move domain**.
 1. A banner will appear confirming the request to push the domain.
 
 <warning>
-Make sure to correctly enter the account email address, and use an [account email address](/articles/changing-email/), not a [user email address](/articles/changing-email/), otherwise the push will fail. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the email is incorrect.** If the email is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
+Make sure to correctly enter the account token. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the token is incorrect.** If the token is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
 </warning>
 
 ## Accepting a transfer
