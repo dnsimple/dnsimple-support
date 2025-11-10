@@ -43,7 +43,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > i. Confirm that you created a paid DNSimple account.
 
-    > YES
+    > `YES`
 
     > ii. Provide the email address associated with your ClickFunnels account and your DNSimple account token.
 
