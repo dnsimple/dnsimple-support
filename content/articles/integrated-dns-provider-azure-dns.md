@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This article serves as a reference for the prerequisites, supported features, and record types for connecting Azure DNS as an integrated DNS provider (/articles/what-are-integrated-providers/).
+This article serves as a reference for the prerequisites, supported features, and record types for connecting Azure DNS as an Integrated DNS Provider (/articles/what-are-integrated-providers/).
 
 ## Prerequisites
 
