@@ -16,14 +16,15 @@ categories:
 ---
 ## Managing integrated zones for an Integrated DNS Provider
 
-After connecting an Integrated DNS Provider to your DNSimple account, you can view, add to, or remove the imported zones.
+After connecting an Integrated DNS Provider to your DNSimple account, you can view, add, remove, or delete the imported zones.
 
 - When you **add** a zone, it will be imported into DNSimple and listed on the [Domain Names](https://support.dnsimple.com/articles/managing-integrated-zones/) page.
 -  When you **remove** a zone, it will remain both in DNSimple and at the provider. Removal will not delete the zone or its records. However, you will no longer be able to
     - [Synchronize](https://support.dnsimple.com/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider.
     - Make record changes to the zone on the provider's end via DNSimple.
-
-To manage the zone selection for an Integrated DNS Provider, follow these steps:
+- When you **delete** a zone, this retains the zone and its records at DNSimple, but deletes them from the provider.
+  
+**Steps to manage the zone selection for an Integrated DNS Provider:**
 
 1. If you have multiple accounts, use the **account switcher** at the top-right corner to select the correct account.  
 1. From the account switcher, click **Account settings**.  
@@ -61,9 +62,9 @@ If you have an existing domain in DNSimple, you can also add it to an Integrated
 
     ![Adding a Zone to an already connected DNS Provider](/files/dns-zone-providers-add-to-linked-provider.png)
 
-    For example, if the provider is Azure, the zone will be created at Azure     and imported into DNSimple. If the zone already exists at Azure, zone         creation will be skipped, and the zone will be imported into DNSimple.
+    For example, if the provider is Azure, the zone will be created at Azureand imported into DNSimple. If the zone already exists at Azure, zone creation will be skipped, and the zone will be imported into DNSimple.
 
-## **Connection requirement**
+## Connection requirement
 
 The Integrated DNS Provider must be connected to the DNSimple account before the zone can be added to the provider. 
 
@@ -75,15 +76,15 @@ Setup guides are available for each supported provider:
 
 Once the provider is connected, the zone will be added to the provider or just imported into DNSimple if the zone already existed at the provider.
 
-    ![Adding a Zone to a DNS Provider that has not yet been connected](/files/dns-zone-providers-add-to-unlinked-provider.png)
+![Adding a Zone to a DNS Provider that has not yet been connected](/files/dns-zone-providers-add-to-unlinked-provider.png)
 
 ## Removing integrated zones from DNSimple
 
-If you imported a zone into DNSimple from an Integrated DNS Provider, you can use the DNS Zone Providers card to remove the zone from DNSimple without deleting it. 
+If you imported a zone into DNSimple from an Integrated DNS Provider, you can use the **DNS Zone Providers** card to remove the zone from DNSimple without deleting it. 
 
 This retains the zone and its records at both DNSimple and at the Integrated DNS Provider. However, you will no longer be able to [synchronize](/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider, or make record changes to the zone hosted by the provider via DNSimple.
 
-## **Steps to remove an integrated provider zone**
+**Steps to remove an integrated provider zone**
 
 1. If you have multiple accounts, use the **account switcher** at the top-right corner of the screen to select the correct account.
 1. From the **Domain Names** list, click the domain you want to manage.
@@ -106,6 +107,8 @@ If you imported a zone into DNSimple from an Integrated Provider, you can use th
 <warning>
 In the case of CoreDNS, the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
 </warning>
+
+**Steps to delete a zone from an Integrated Provider**
 
 1. If you have multiple accounts, use the **account switcher** at the top-right corner of the screen to select the correct account.
 2. From the **Domain Names** list, click the domain you want to manage.
