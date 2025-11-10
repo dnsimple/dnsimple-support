@@ -47,8 +47,8 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > ii. Provide the email address associated with your ClickFunnels account and your DNSimple account token.
 
-    > ClickFunnels email: `your ClickFunnels email address`
-    > DNSimple account token: `your DNSimple account token` (found in the Account card on your DNSimple account page)
+    > - `Your ClickFunnels email address`
+    > - `Your DNSimple account token (found on your DNSimple account page)`
 
     > iii. Name of domain(s) you want to transfer.
 
