@@ -1,5 +1,5 @@
 ---
-title: CoreDNS
+title: Integrated DNS Provider CoreDNS
 excerpt: Sync your zones managed at DNSimple to one or more CoreDNS instances.
 meta: Easily sync your DNSimple-managed zones with multiple CoreDNS instances, streamlining your DNS management for enhanced performance and reliability.
 categories:
@@ -16,18 +16,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to sync managed zones to [CoreDNS](https://coredns.io/). The CoreDNS Integrated Provider is configured per zone and returns the current sync state for all zone records to the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
-
-## Video walk-through
-
-<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/9yO2Oo_N1ms" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-
-<info>
-The "Integrations" link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the "DNS Zone Providers" card in the DNS section of your domain's management page to [add](/articles/integrated-dns-providers/#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers/#deleting-a-zone-from-an-integrated-dns-provider) CoreDNS configuration for a zone.
-</info>
-
+This article serves as a reference for the prerequisites, supported features, and record types for connecting CoreDNS as an Integrated DNS Provider (/articles/what-are-integrated-providers/).
 
 ## Prerequisites
 
@@ -43,7 +32,7 @@ The "Integrations" link in the navigation menu referenced in the video has been 
 
 The CoreDNS Integrated Provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other Integrated DNS Provider must first be synced to DNSimple before they will be available to CoreDNS instances.
 
-#### Supported record types
+## Supported record types
 
 All DNSimple record types can be synced to CoreDNS:
 
@@ -52,14 +41,17 @@ All DNSimple record types can be synced to CoreDNS:
 - [ALIAS](/articles/alias-record/)
 - [CAA](/articles/caa-record/)
 - [CNAME](/articles/cname-record/)
-- HINFO
+- [HINFO](/articles/hinfo-records/)
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)
 - [POOL](/articles/pool-record/)
-- PTR
+- [PTR](/articles/reverse-dns-ptr-records/)
 - [SOA](/articles/soa-record/)
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
-- SSHFP
+- [SSHFP](/articles/sshfp-records/)
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
+
+## Have more questions?
+If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
