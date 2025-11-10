@@ -71,7 +71,9 @@ How to:
   - Managing DS Records When Changing DNS
   - Rotate DNSSEC Keys
   - Amazon Route 53 Integration Demo
+  - Managing Integrated DNS Providers
   - Managing Integrated Zones
+  - Managing Integrated Zones for Integrated DNS Providers
   - Record Editor for Integrated Zones
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
@@ -99,3 +101,4 @@ Reference:
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
+  - What Are Integrated DNS Providers and Why Use Them?
