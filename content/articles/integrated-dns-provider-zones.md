@@ -18,9 +18,9 @@ categories:
 
 After connecting an Integrated DNS Provider to your DNSimple account, you can view, add, remove, or delete the imported zones.
 
-- When you **add** a zone, it will be imported into DNSimple and listed on the [Domain Names](https://support.dnsimple.com/articles/managing-integrated-zones/) page.
+- When you **add** a zone, it will be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
 -  When you **remove** a zone, it will remain both in DNSimple and at the provider. Removal will not delete the zone or its records. However, you will no longer be able to
-    - [Synchronize](https://support.dnsimple.com/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider.
+    - [Synchronize](/articles/record-editor-integrated-zones/#record-syncing) changes in the zone between DNSimple and the provider.
     - Make record changes to the zone on the provider's end via DNSimple.
 - When you **delete** a zone, this retains the zone and its records at DNSimple, but deletes them from the provider.
   
@@ -70,9 +70,9 @@ The Integrated DNS Provider must be connected to the DNSimple account before the
 
 Setup guides are available for each supported provider:
 
-- [Amazon Route 53](https://support.dnsimple.com/articles/integrated-dns-provider-amazon-route53/)
-- [Azure DNS](https://support.dnsimple.com/articles/integrated-dns-provider-azure-dns/)
-- [CoreDNS](https://support.dnsimple.com/articles/integrated-dns-provider-coredns/)
+- [Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/)
+- [Azure DNS](/articles/integrated-dns-provider-azure-dns/)
+- [CoreDNS](/articles/integrated-dns-provider-coredns/)
 
 Once the provider is connected, the zone will be added to the provider or just imported into DNSimple if the zone already existed at the provider.
 
