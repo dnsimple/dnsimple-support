@@ -40,7 +40,7 @@ To create another account under your existing user profile:
 
     ![screenshot of new account form](/files/new-account.png)
 
-1. Once you submit the form, the account will be created. Activate it by clicking **Select plan** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
+1. Once you submit the form, the account will be created. Activate it by clicking **Unlock advanced features** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
 
     ![screenshot of choosing plan for account](/files/choose-plan.png)
 
