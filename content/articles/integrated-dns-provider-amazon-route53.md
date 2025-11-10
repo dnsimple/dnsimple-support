@@ -1,5 +1,5 @@
 ---
-title: Amazon Route 53
+title: Integrated DNS Provider: Amazon Route 53
 excerpt: Connect your Amazon Route 53 account to manage zones at DNSimple.
 meta: Easily integrate your Amazon Route 53 account with DNSimple to streamline your DNS management, making zone control more efficient than ever.
 categories:
@@ -16,13 +16,7 @@ categories:
 
 ---
 
-DNSimple supports the ability to view and manage zones that are deployed at [Amazon Route 53](https://aws.amazon.com/route53/).
-
-## Video walk-through
-
-<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/4LsTT0pgBaQ" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
+This article serves as a reference for the prerequisites, supported features, and record types for connecting Amazon Route 53 as an integrated DNS provider (/articles/what-are-integrated-providers/).
 
 ## Prerequisites
 
@@ -41,7 +35,7 @@ To connect [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated D
 ## Supported features
 
 - **Import integrated zones**: When you connect Route 53 to your DNSimple account, you can [select](/articles/integrated-dns-providers/#managing-integrated-zone-selection) the zones hosted on Route 53 that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
-- **Adding and removing integrated zones**: [Add](/articles/integrated-dns-providers/#adding-a-zone-to-an-integrated-dns-provider) or [delete](/articles/integrated-dns-providers/#deleting-a-zone-from-an-integrated-dns-provider) zones to/from Route 53, from within DNSimple. You can also [remove](/articles/integrated-dns-providers/#removing-integrated-zones-from-DNSimple) an integrated zone from DNSimple while keeping it at Route 53.
+- **Adding and removing integrated zones**: Add (/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider/) or delete (/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) zones to/from Route 53, from within DNSimple. You can also remove (/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/) an integrated zone from DNSimple while keeping it at Route 53.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/). (See: [Supported record types for Route 53](/articles/integrated-dns-provider-amazon-route53/#supported-record-types))
 - **2-way Syncing of Records**: Sync your zone records from Route 53 to DNSimple, or from DNSimple to Route 53, with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
 
@@ -54,7 +48,7 @@ The following Route 53 record types are supported for syncing and management at 
 - [CNAME](/articles/cname-record/)
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)
-- PTR
+- [PTR](/articles/reverse-dns-ptr-records/)
 - [SOA](/articles/soa-record/)
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
@@ -64,3 +58,6 @@ The following Route 53 record types are supported for syncing and management at 
 <note>
 [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be represented in Route 53 as an A record that points to our [redirector](/articles/redirector/).
 </note>
+
+## Have more questions?
+If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
