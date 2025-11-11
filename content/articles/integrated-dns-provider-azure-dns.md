@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This article serves as a reference for the prerequisites, supported features, and record types for connecting Azure DNS as an Integrated DNS Provider (/articles/what-are-integrated-providers/).
+This article serves as a reference for the prerequisites, supported features, and record types for connecting Azure DNS as an [Integrated DNS Provider](/articles/what-are-integrated-providers/).
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-re
 </warning>
 
 - **Import integrated zones**: When you connect Azure DNS to your DNSimple account, you can [select](/articles/integrated-dns-providers/#managing-integrated-zone-selection) the zones hosted on Azure that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
-- **Adding and removing integrated zones**: Add (/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider/) or delete (/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) zones to/from Azure, from within DNSimple. You can also remove (/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/) an integrated zone from DNSimple while keeping it at Azure.
+- **Adding and removing integrated zones**: [Add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider/) or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) zones to/from Azure, from within DNSimple. You can also [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/) an integrated zone from DNSimple while keeping it at Azure.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/). (See: [Supported record types for Azure DNS](/articles/integrated-dns-provider-azure-dns/#supported-record-types))
 - **2-way Syncing of Records**: Sync your zone records from Azure to DNSimple, or from DNSimple to Azure, with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
 
