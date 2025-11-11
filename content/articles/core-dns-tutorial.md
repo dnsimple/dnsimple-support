@@ -21,7 +21,7 @@ You can follow along with the video below, or use it as a reference as you go th
 
 <info>
 
-The **Integrations** link in the navigation menu referenced in the video has been deprecated. After [connecting](articles/integrated-dns-providers/#connecting-an-integrated-dns-provider-to-your-account/) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the **DNS Zone Providers** card in the DNS section of your domain's management page to [add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider), [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/), or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) CoreDNS configuration for a zone.
+The **Integrations** link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider-to-your-account/) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the **DNS Zone Providers** card in the DNS section of your domain's management page to [add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider), [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/), or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) CoreDNS configuration for a zone.
 
 </info>
 
@@ -31,7 +31,7 @@ Before you begin, ensure you have the following:
 
 - **A DNSimple account**.
 - A running **CoreDNS instance** with the `coredns-dnsimple` plugin installed. You can either use the official DNSimple CoreDNS Binary or the DNSimple CoreDNS Docker Container.
-- A [**DNSimple API access token]([https://support.dnsimple.com/articles/api-access-token/](https://support.dnsimple.com/articles/api-access-token/)**) and **account ID** for the account you want to connect.
+- A [**DNSimple API access token**](/articles/api-access-token/) and **account ID** for the account you want to connect.
 
 ## 2. Setting up the integration
 
