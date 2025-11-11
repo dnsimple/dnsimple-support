@@ -84,4 +84,4 @@ You can include a note when deleting a record. Notes are only stored if DNSimple
 </info>
 
 ## Have more questions?
-If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
