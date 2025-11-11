@@ -42,9 +42,9 @@ Explanation:
   - Domain Zone Files
   - Dynamic DNS
   - Integrated DNS Providers at DNSimple
-  - Amazon Route 53
-  - Azure DNS
-  - CoreDNS
+  - Integrated DNS Provider Amazon Route 53
+  - Integrated DNS Provider Azure DNS
+  - Integrated DNS Provider CoreDNS
   - Zone Verification
 
  
@@ -66,6 +66,9 @@ How to:
   - Managing CNAME Records
   - Managing DS Records When Changing DNS
   - Managing Integrated Zones
+  - Managing Integrated DNS Providers
+  - Managing Integrated Zones
+  - Managing Integrated Zones for Integrated DNS Providers
   - Managing URL Records
   - Record Editor
   - Record Editor for Integrated Zones
@@ -99,8 +102,6 @@ Reference:
   - SSHFP Record Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
-  - Integrated DNS Provider Amazon Route 53
-  - Integrated DNS Provider Azure DNS
-  - Integrated DNS Provider CoreDNS
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
+  - What Are Integrated DNS Providers and Why Use Them?
