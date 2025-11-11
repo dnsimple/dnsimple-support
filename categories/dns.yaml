@@ -49,34 +49,36 @@ Explanation:
 
  
 How to:
-  - Record Editor
-  - Record Notes
+  
   - How To Add Common DNS Records
+  - Activating and Deactivating a DNS Zone
+  - Adding and Removing DS Records
+  - Adding an SRV Record
+  - Auto-Importing DNS Records
+  - Export Zone File
+  - How to Use dig
+  - How to Use CoreDNS as an Integrated DNS Provider
+  - How to Use Route 53 as an Integrated DNS Provider
+  - Import Zone File
   - Managing A Records
   - Managing AAAA Records
   - Managing CAA Records
   - Managing CNAME Records
+  - Managing DS Records When Changing DNS
+  - Managing Integrated Zones
+  - Managing URL Records
+  - Record Editor
+  - Record Editor for Integrated Zones
+  - Record Notes
+  - Refreshing and Importing Integrated Zones
+  - Rotate DNSSEC Keys
   - Setting up DKIM
   - Setting up DMARC
-  - Verifying DKIM with dig and Online Tools
-  - Verifying DMARC with dig and Online Tools
-  - Activating and Deactivating a DNS Zone
-  - Adding and Removing DS Records
-  - Adding an SRV Record
-  - Export Zone File
-  - Import Zone File
-  - Managing URL Records
-  - Zone NS Records
-  - Auto-Importing DNS Records
-  - Managing DS Records When Changing DNS
-  - Rotate DNSSEC Keys
-  - Amazon Route 53 Integration Demo
-  - Managing Integrated Zones
-  - Record Editor for Integrated Zones
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
-  - How to Use dig
-  
+  - Verifying DKIM with dig and Online Tools
+  - Verifying DMARC with dig and Online Tools
+  - Zone NS Records
 
 Reference: 
   - Supported DNS Records and DNS Record Types
@@ -97,5 +99,8 @@ Reference:
   - SSHFP Record Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
+  - Integrated DNS Provider Amazon Route 53
+  - Integrated DNS Provider Azure DNS
+  - Integrated DNS Provider CoreDNS
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
