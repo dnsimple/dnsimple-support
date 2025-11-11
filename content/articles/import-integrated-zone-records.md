@@ -18,5 +18,7 @@ If you made changes to integrated zone records outside of DNSimple, you can impo
 
 1. From the drop-down, click **Import DNS records from Integrated Providers**.
 
-
 You can also visit the [Domain Names](/articles/managing-integrated-zones/#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account.
+
+## Have more questions? 
+If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
