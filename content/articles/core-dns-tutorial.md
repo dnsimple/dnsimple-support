@@ -42,20 +42,20 @@ This section will prepare your CoreDNS instance to sync with your DNSimple accou
 1. Edit your `Corefile` and add a `dnsimple` plugin block for each zone you want to sync. The `Corefile` should include your API access token and account ID.  
    For example, to sync `example.com` and `example.org`, your `Corefile` would look like this:
 
-```
-example.com {
-  dnsimple example.com {
-    access_token YSHAMES7AMTNMo7qHLGUkkg06p4rs
-    account_id 131072
+  ```
+  example.com {
+    dnsimple example.com {
+      access_token YSHAMES7AMTNMo7qHLGUkkg06p4rs
+      account_id 131072
+    }
   }
-}
-example.org {
-  dnsimple example.org {
-    access_token YSHAMES7AMTNMo7qHLGUkkg06p4rs
-    account_id 131072
+  example.org {
+    dnsimple example.org {
+      access_token YSHAMES7AMTNMo7qHLGUkkg06p4rs
+      account_id 131072
+    }
   }
-}
-```
+  ```
 
 2. Restart your CoreDNS instance to load the new configuration.
 
