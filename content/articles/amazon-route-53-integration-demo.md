@@ -1,5 +1,5 @@
 ---
-title: Using Route 53 as an Integrated DNS Provider
+title: How to Use Route 53 as an Integrated DNS Provider
 excerpt: An introductory tutorial to integrating Amazon Route 53 with DNSimple.
 meta: Discover how to seamlessly integrate Amazon Route 53 with DNSimple in this comprehensive tutorial, enhancing your domain management and DNS capabilities effortlessly.
 categories:
@@ -7,7 +7,7 @@ categories:
 - Integrations
 ---
 
-# Amazon Route 53 Integration Demo
+# How to Use Amazon Route 53 as an Integrated DNS Provider
 
 ### Table of Contents {#toc}
 
