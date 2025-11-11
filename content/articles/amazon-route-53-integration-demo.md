@@ -51,7 +51,7 @@ This section will prepare your AWS account for integrating with DNS by setting u
 }
   ```
 1. Create a new IAM user in the [AWS console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/create) for this integration, attaching the previously-created policy directly.
-1. In the **ecurity credentials** tab for the IAM user you just created:
+1. In the **Security credentials** tab for the IAM user you just created:
   - Click **Create access key** to generate a new pair of credentials for the integration.
   - Select **Other** for the use case.
   - Provide a description for the credentials, e.g., "DNSimple Route 53 Integration".
@@ -71,7 +71,7 @@ To demonstrate the synchronization, we'll create a Route 53 zone with some popul
 
 ## Setting up the integration
 
-Prepare your DNSimple account and inform it of your AWS account to establish the connection.
+Prepare your DNSimple account, and inform it of your AWS account to establish the connection.
 
 1. Go to your DNSimple account settings, and select **Integrated Providers**.
 1. Next, go to **Route53**, and select **Link**.
@@ -102,7 +102,9 @@ Now you can use DNSimple as your central control plane and source of truth for a
 
 ## Synchronizing external changes
 
-You should manage your DNS records exclusively through the DNSimple app and your DNSimple zone as your central control plane and source of truth. However, if you update your Amazon Route 53 zone, you can reflect those changes back into your DNSimple zone to restore it as the central source.
+You should manage your DNS records exclusively through the DNSimple app and your DNSimple zone as your central control plane and source of truth. 
+
+If you do update your Amazon Route 53 zone, you can reflect those changes back into your DNSimple zone to restore it as the central source.
 
 1. Using the [AWS console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#), make changes to the records in your Amazon Route 53 zone.
 1. Using the DNSimple app, go to your DNSimple zone, and select **Refresh records**.
@@ -112,8 +114,8 @@ You should manage your DNS records exclusively through the DNSimple app and your
 
 You can now build on this simple setup to experiment, and see what you can achieve with DNSimple as your control plane. Some examples:
 
-- Try creating in reverse; i.e. create a new DNSimple zone first, and then synchronize it to Route 53.
-- Add more integrations, for example [GoDaddy](/articles/integrated-domain-provider-godaddy/).
+- Try creating in reverse; i.e., create a new DNSimple zone first, then synchronize it to Route 53.
+- Add more integrations, like [GoDaddy](/articles/integrated-domain-provider-godaddy/).
 - Link another AWS account.
 - Use our [CoreDNS integration](/articles/integrated-dns-provider-coredns/) for self-hosted DNS in your private on-premise network.
 
