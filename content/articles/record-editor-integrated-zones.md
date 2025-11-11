@@ -50,6 +50,7 @@ You can update a zone record at one or more [Integrated DNS Providers](/articles
     - If the record does not already exist at a provider, it will be created there when you save.
 
     ![Record Editor Update Integrated Record](/files/record-editor-integrated-zones-edit-record.png)
+   
 1. Click **Update record** to finish saving the changes.
    
 <info>
@@ -75,6 +76,12 @@ You can delete a zone record at one or more [Integrated DNS Providers](/articles
     - The record will only be deleted at the providers you check
 
     ![Record Editor Delete Integrated Record](/files/record-editor-integrated-zones-delete-record.png)
+
+1. Click **Delete record** to confirm and delete.
+
+<info>
+You can include a note when deleting a record. Notes are only stored if DNSimple is one of the selected providers. If you only delete the record at an Integrated DNS Provider, the note will not be saved.
+</info>
 
 ## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
