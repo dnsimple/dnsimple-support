@@ -45,6 +45,7 @@ Explanation:
   - Amazon Route 53
   - Azure DNS
   - CoreDNS
+  - Why You Should Auto-Import DNS Records
   - Zone Verification
 
  
@@ -75,7 +76,8 @@ How to:
   - Managing Integrated DNS Providers
   - Managing Integrated Zones
   - Managing Integrated Zones for Integrated DNS Providers
-  - Record Editor for Integrated Zones
+  - Managing Integrated Zone Records
+  - Syncing Integrated Zone Records Between DNS Providers
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
   - How to Use dig
