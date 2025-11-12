@@ -7,7 +7,7 @@ categories:
 
 # Importing Integrated Zone Records
 
-If you made changes to integrated zone records outside of DNSimple, you can import those updates into DNSimple so that both stay in sync using the **Import DNS records from Integrated Providers** button.
+If you made changes to integrated zone records outside of DNSimple, you can import those updates into DNSimple using the **Import DNS records from Integrated Providers** button so both stay in sync.
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.

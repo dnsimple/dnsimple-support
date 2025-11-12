@@ -16,7 +16,7 @@ If your zone is out of sync across its [Integrated DNS Providers](/articles/what
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
-1. In the Record Editor, click Synchronize DNS records.
+1. In the Record Editor, click **Synchronize DNS records**.
 
     ![Record Editor Sync Records button](/files/record-editor-integrated-zones-sync-button.png)
 
