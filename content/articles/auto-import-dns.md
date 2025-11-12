@@ -53,7 +53,7 @@ If auto-importing a record conflicts with an existing record on your domain, we 
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
-Once you choose which record to keep, click **Import DNS records** to add them to your domain zone.
+After choosing which record to keep, click **Import DNS records** to add them to your domain zone.
 
 ## Have more questions?
 
