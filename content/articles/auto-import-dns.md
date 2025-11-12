@@ -43,7 +43,7 @@ You can auto-import the zone for your domain any time by clicking on **Auto-impo
 1. DNSimple scans your domain's existing records and displays them in a table.
     - DNSimple automatically checks for common subdomains, like `www`, `blog`, and `email`. You can also add custom subdomains at the bottom of the form.
 
-  ![Overview](/files/auto-import-dns-overview.png)
+   ![Overview](/files/auto-import-dns-overview.png)
 
 1. Once you have all the necessary records, click **Import DNS records** to add them to your domain zone.
 
