@@ -14,8 +14,8 @@ If you made changes to integrated zone records outside of DNSimple, you can impo
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
 1. In the Record Editor, click the **Import/Export** button.
 
-  ![Record Editor Import Integrated Records](/files/record-editor-integrated-zones-import-records.png)
-
+   ![Record Editor Import Integrated Records](/files/record-editor-integrated-zones-import-records.png)
+   
 1. From the drop-down, click **Import DNS records from Integrated Providers**.
 
 You can also visit the [Domain Names](/articles/managing-integrated-zones/#refreshing-and-importing-integrated-zones) page to refresh the state of all integrated zones in your DNSimple account.
