@@ -65,6 +65,7 @@ How to:
   - Adding an SRV Record
   - Export Zone File
   - Import Zone File
+  - Importing Integrated Zone Records
   - Managing URL Records
   - Zone NS Records
   - Auto-Importing DNS Records
