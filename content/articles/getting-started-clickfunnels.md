@@ -45,10 +45,10 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > `YES`
 
-    > ii. Provide the email address associated with your ClickFunnels account and your DNSimple account token.
+    > ii. Provide the email address associated with your ClickFunnels account and your DNSimple domain push identifier.
 
     > - `Your ClickFunnels email address`
-    > - `Your DNSimple account token (found on your DNSimple account page)`
+    > - `Your DNSimple domain push identifier (found on your DNSimple account page)`
 
     > iii. Name of domain(s) you want to transfer.
 
