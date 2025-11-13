@@ -19,7 +19,7 @@ This article contains important information that is only relevant to customers w
 ---
 
 ## Who's impacted?
-This migration affects customers who have .AU domains registered in their account that have not yet been migrated to our new registrar partner. You have until March 30, 2025 to complete the migration. If you do not take action before this date, your domains are at risk of expiring and you could lose access to them.
+This migration affects customers who have .AU domains registered in their account that have not yet been migrated to our new registrar partner. **You had until March 30, 2025 to complete the migration.** If you did not take action before this date, your domains are at risk of expiring and you could lose access to them.
 
 ## What's changing and how it will impact your domains
 As part of our efforts to enhance domain management services, we are transitioning all remaining .AU domains to a new registrar.
