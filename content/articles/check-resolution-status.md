@@ -7,7 +7,7 @@ categories:
 
 # Check Resolution Status
 
-The [resolution status](https://support.dnsimple.com/articles/resolution-status/) shows the name servers currently configured at the registry. Name servers are responsible for answering DNS queries for your domain. They are essential for your domain to function correctly.
+The [resolution status](/articles/resolution-status/) shows the name servers currently configured at the registry. Name servers are responsible for answering DNS queries for your domain. They are essential for your domain to function correctly.
 
 ## Domains registered with DNSimple
 
@@ -24,14 +24,14 @@ If you updated the name servers to another provider, those will appear as well.
 ![list of external nameservers](/files/external-nameservers.png)
 
 <warning>
-If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](https://support.dnsimple.com/articles/delegating-dnsimple-registered/).
+If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 </warning>
 
 ## Domains registered with another registrar
 
 If the domain is registered with another registrar and you're using DNSimple only for DNS hosting, we currently don't display the name servers for your domain. However, you can check the name servers by accessing the public [WHOIS](https://dnsimple.com/whois).
 
- If you would like to transfer the domain registration to us, [follow these instructions](https://support.dnsimple.com/articles/domain-transfer/).
+ If you would like to transfer the domain registration to us, [follow these instructions](/articles/domain-transfer/).
 
 ## Have more questions?
 
