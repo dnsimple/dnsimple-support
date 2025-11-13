@@ -33,7 +33,6 @@ Explanation:
   - Regional Records
   - Why Anycast DNS?
   - Anycast DNS
-  - Resolution Status
   - Why DNSSEC and Secondary DNS may not work together
   - How ALIAS Records Resolve with Secondary DNS
   - Protection Against DDoS Attacks
@@ -42,43 +41,52 @@ Explanation:
   - Domain Zone Files
   - Dynamic DNS
   - Integrated DNS Providers at DNSimple
-  - Amazon Route 53
-  - Azure DNS
-  - CoreDNS
+  - Integrated DNS Provider Amazon Route 53
+  - Integrated DNS Provider Azure DNS
+  - Integrated DNS Provider CoreDNS
+  - What Are Integrated DNS Providers and Why Use Them?
+  - What Is Resolution Status?
+  - What Is Zone Verification and Why Does It Matter?
+  - Why You Should Auto-Import DNS Records
   - Zone Verification
 
  
 How to:
-  - Record Editor
-  - Record Notes
+  
   - How To Add Common DNS Records
+  - Activating and Deactivating a DNS Zone
+  - Adding and Removing DS Records
+  - Adding an SRV Record
+  - Auto-Importing DNS Records
+  - Check DNS Cache
+  - Check Resolution Status
+  - Export Zone File
+  - How to Use dig
+  - How to Use CoreDNS as an Integrated DNS Provider
+  - How to Use Route 53 as an Integrated DNS Provider
+  - Importing Integrated Zone Records
+  - Import Zone File
   - Managing A Records
   - Managing AAAA Records
   - Managing CAA Records
   - Managing CNAME Records
+  - Managing DS Records When Changing DNS
+  - Managing Integrated DNS Providers
+  - Managing Integrated Zones for Integrated DNS Providers
+  - Managing Integrated Zone Records
+  - Managing URL Records
+  - Record Editor
+  - Record Notes
+  - Refreshing and Importing Integrated Zones
+  - Rotate DNSSEC Keys
+  - Syncing Integrated Zone Records Between DNS Providers
   - Setting up DKIM
   - Setting up DMARC
-  - Verifying DKIM with dig and Online Tools
-  - Verifying DMARC with dig and Online Tools
-  - Activating and Deactivating a DNS Zone
-  - Adding and Removing DS Records
-  - Adding an SRV Record
-  - Export Zone File
-  - Import Zone File
-  - Managing URL Records
-  - Zone NS Records
-  - Auto-Importing DNS Records
-  - Managing DS Records When Changing DNS
-  - Rotate DNSSEC Keys
-  - Amazon Route 53 Integration Demo
-  - Managing Integrated DNS Providers
-  - Managing Integrated Zones
-  - Managing Integrated Zones for Integrated DNS Providers
-  - Record Editor for Integrated Zones
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
-  - How to Use dig
-  
+  - Verifying DKIM with dig and Online Tools
+  - Verifying DMARC with dig and Online Tools
+  - Zone NS Records
 
 Reference: 
   - Supported DNS Records and DNS Record Types
@@ -101,4 +109,3 @@ Reference:
   - URL Record Format and Technical Details
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
-  - What Are Integrated DNS Providers and Why Use Them?
