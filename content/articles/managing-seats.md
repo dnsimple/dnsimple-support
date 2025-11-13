@@ -79,7 +79,7 @@ You cannot add a user who has the same email address as the account email addres
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 
-If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/) or [Okta](/articles/okta-identity-provider/), your seat count is managed based on your organization's configuration, and seat allocation becomes automatic.
+If you've configured your account with single sign-on using [Google](/articles/google-identity-provider/), [Okta](/articles/okta-identity-provider/), or [Microsoft Entra](/articles/entra-identity-provider/), your seat count is managed based on your organization's configuration, and seat allocation becomes automatic.
 
 ## Have more questions?
 
