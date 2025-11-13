@@ -22,7 +22,7 @@ You will be asked to verify your ownership when both of the following conditions
 
 When you are prompted for verification, DNSimple's system generates two temporary, unique verification name servers. To prove you own the domain, you must temporarily update your domain's delegation at your registrar to these verification name servers.
 
-Once DNSimple's system detects that your domain is pointing to these servers, it confirms your ownership and allows you to complete the process of adding the DNS zone to your account. After the zone has been successfully added, you will need to update your domain's delegation at your registrar again, this time to the permanent name servers you wish to use.
+Once DNSimple's system detects that your domain is pointing to these servers, it confirms your ownership and allows you to complete the process of adding the DNS zone to your account. After the zone has been successfully added, you will need to update your domain's delegation at your registrar again, this time to the permanent name servers you plan to use.
 
 **Verifications are unique and expire after 48 hours.** If a verification expires, you will need to start the process over, which will generate a new set of verification name servers.
 

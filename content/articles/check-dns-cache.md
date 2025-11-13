@@ -14,7 +14,7 @@ Every DNS record lookup is cached by default up to the value specified in the [t
 
 Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update wasn't performed. 
 
-Example: 
+**Example**: 
 
 A `dig` query for the record `www.dnsimple.com`. Notice the `ANSWER` section:
 
@@ -61,7 +61,7 @@ Clear the DNS cache before checking a record update. This may involve:
 
 **Option 2: advanced methods (system DNS cache)**
 
-**If you're comfortable with it, you can flush the DNS cache manually:**
+**You can flush the DNS cache manually, if you're comfortable doing so. This varies depending on your operating system:**
 
 - **macOS (depends on version):**  
   `sudo dscacheutil \-flushcache; sudo killall \-HUP mDNSResponder`  
