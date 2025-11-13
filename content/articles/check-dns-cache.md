@@ -10,7 +10,7 @@ categories:
 
 ## Ensure you're using a fresh DNS cache
 
-Every DNS record lookup is cached by default up to the value specified in the [time-to-live (TTL)](https://support.dnsimple.com/articles/what-is-ttl/) setting of the record.
+Every DNS record lookup is cached by default up to the value specified in the [time-to-live (TTL)](/articles/what-is-ttl/) setting of the record.
 
 Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update wasn't performed. 
 
