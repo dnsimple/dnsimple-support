@@ -38,9 +38,7 @@ Once the domain is transferred, you can no longer control it under your current 
 
 1. Click on the relevant domain.
 1. Click the **Settings** tab on the left side.
-1. In the **Share or transfer domain** card, click **Transfer**.
-    ![transfer between accounts](/files/transfer-domains-between-accounts.png)
-
+1. In the **Move domain to another DNSimple account** card, click **Move**.
 1. Enter the destination domain push identifier of another DNSimple account. The recipient can find their domain push identifier in the Account card on their account page.
 1. Click **Move domain**.
 1. A banner will appear confirming the request to push the domain.
