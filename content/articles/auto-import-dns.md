@@ -1,6 +1,6 @@
 ---
 title: Auto-Importing DNS Records
-excerpt: Auto-import your DNS records to avoid downtime when transferring or hosting your domain with us. 
+excerpt: Auto-import your DNS records to avoid downtime when transferring or hosting your domain with us.
 categories:
 - DNS
 ---
@@ -38,8 +38,8 @@ You can auto-import the zone for your domain any time by clicking on **Auto-impo
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
 1. In the Record Editor, click **Import/Export**, then choose **Auto-import DNS** from the dropdown.
 
-   <!--- needs screenshot -->
-  
+   ![Screenshot of selecting import DNS from menu](/files/dns-auto-import.png)
+
 1. DNSimple scans your domain's existing records and displays them in a table.
     - DNSimple automatically checks for common subdomains, like `www`, `blog`, and `email`. You can also add custom subdomains at the bottom of the form.
 
