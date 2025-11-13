@@ -1,5 +1,5 @@
 ---
-title: Resolution Status
+title: What Is Resolution Status?
 excerpt: The resolution status component in the domain page shows if the domain is currently resolving with DNSimple.
 categories:
 - DNS
