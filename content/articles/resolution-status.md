@@ -7,7 +7,7 @@ categories:
 
 # What Is Resolution Status?
 
-The **resolution status** of a domain refers to the [name servers](https://support.dnsimple.com/articles/dnsimple-nameservers/) currently configured for it at the domain registry. These name servers are the authoritative servers responsible for answering all DNS queries for your domain. The resolution status is a foundational part of your domain's functionality, because it tells the internet where to go to find your domain's records.
+The **resolution status** of a domain refers to the [name servers](/articles/dnsimple-nameservers/) currently configured for it at the domain registry. These name servers are the authoritative servers responsible for answering all DNS queries for your domain. The resolution status is a foundational part of your domain's functionality, because it tells the internet where to go to find your domain's records.
 
 ## Resolution status in your DNSimple account
 
@@ -33,8 +33,8 @@ If your domain is registered with a third-party registrar and you are using DNSi
 
 Understanding your domain's resolution status is the first step in ensuring your DNS is configured correctly.
 
-- To learn how to point a domain's name servers to DNSimple when it's registered with us, view [this article](https://support.dnsimple.com/articles/delegating-dnsimple-registered/).
-- To learn how to delegate your domain that is registered at another provider to DNSimple, please refer to these [detailed instructions](https://support.dnsimple.com/articles/delegating-dnsimple-hosted/). 
+- To learn how to point a domain's name servers to DNSimple when it's registered with us, view [this article](/articles/delegating-dnsimple-registered/).
+- To learn how to delegate your domain that is registered at another provider to DNSimple, please refer to these [detailed instructions](/articles/delegating-dnsimple-hosted/). 
 
 ## Have more questions?
 If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
