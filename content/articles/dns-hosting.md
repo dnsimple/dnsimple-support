@@ -1,12 +1,12 @@
 ---
-title: DNS Hosting
+title: Why Should I Use DNSimple as a DNS Hosting Provider?
 excerpt: DNSimple provides robust DNS hosting using a global Anycast network.
-meta: DNSimple provides robust DNS hosting using a global Anycast network. Experience reliable DNS hosting for fast, secure domain resolution and exceptional uptime.
+meta: DNSimple provides robust DNS hosting with fast, secure domain resolution and exceptional uptime using a global Anycast network.
 categories:
 - DNS
 ---
 
-# DNS Hosting
+# Why Should I Use DNSimple as a DNS Hosting Provider?
 
 ### Table of Contents {#toc}
 
@@ -15,89 +15,50 @@ categories:
 
 ---
 
-DNSimple provides robust DNS hosting using a [global Anycast network](/articles/anycast/).
+## DNS hosting 
 
-To use our DNS hosting service, the account must be subscribed to a [valid plan](https://dnsimple.com/pricing). Each plan provides different levels of services. You can selectively enable/disable the DNS hosting service for a single domain, depending on whether you need to use our DNS hosting feature or not.
+DNSimple offers robust, reliable DNS hosting services, providing fast propagation and easy management for your domain's records. If you want to use DNSimple to manage your domain's DNS, you have a few options, depending on whether you already have a domain and where it's registered.
 
-## Using DNSimple as a DNS hosting provider
+## Options for DNS hosting with DNSimple
 
-If you want to use DNSimple to manage the DNS of an existing domain, you have two options:
+There are three primary ways to leverage DNSimple as your DNS hosting provider:
 
-1.  **Keep the domain registration at your current registrar, and transfer the DNS management to us.**
+### Keep your domain registration with your current registrar
+ 
+If you have an existing domain registered with another provider, you can choose to manage only its DNS with DNSimple. This means your domain registration remains with your current registrar, but all your DNS records ([A](/articles/a-record/), [CNAME](/articles/cname-record/), [MX](/articles/mx-record/), etc.) will be configured and served by DNSimple's name servers.
 
-    To use DNSimple to host your DNS for a domain, follow these instructions to [point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
+**How to proceed**: To use DNSimple for DNS hosting while keeping your registrar separate, you will need to update your domain's name servers at your current registrar to point to DNSimple's name servers.
 
-1.  **Transfer the domain registration and DNS management to us.**
+**Instructions**: For detailed steps, please refer to our instructions on [how to point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
 
-    If you want DNSimple to act as your domain registrar, follow these instructions to [transfer your domain to DNSimple](/articles/domain-transfer/).
+### Transfer your domain registration to DNSimple
 
-    If you don't have a domain yet, you can [sign up](https://dnsimple.com/pricing) or log in to [register a domain](https://dnsimple.com/tlds), and activate the zone       to manage your DNS with us.
+For streamlined management, you can transfer both your domain's registration and DNS management to DNSimple. This consolidates your domain's registration and DNS records under one account and one interface, simplifying renewals and updates.
 
-## Adding the domain
+**How to proceed**: This process involves initiating a domain transfer to DNSimple. Once the transfer is complete, DNSimple will become both your domain registrar and your DNS hosting provider.
 
-To use our DNS hosting services, you need to [add the domain to a DNSimple account](/articles/adding-domain/). If you also want to use DNSimple as registrar, you may need to register or [transfer](/articles/domain-transfer/) the domain to us.
+<info>
+Important: DNSimple does not automatically change your domain's name servers when you transfer it, because doing so could cause downtime. If you want the domain to start using DNSimple's name servers immediately, you must select Switch name servers to DNSimple on the transfer page. If you don't select this option, your domain will continue using its current name servers after the transfer, and you'll need to update the delegation manually later if you want to host DNS with us.
+</info>
 
-## Adding DNS records to your domain
+**Instructions**: For detailed steps, please refer to our instructions on [how to transfer your domain to DNSimple](/articles/domain-transfer/) . To finish the setup, follow the steps to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/) 
 
-Once you've added your domain, you can configure the DNS records using the following options:
+### Register a new domain with DNSimple
+If you don't yet have a domain name, you can register a new domain directly through DNSimple. When you register a domain with us, you can manage your DNS by using DNSimple's name servers from day one, giving you immediate control over your DNS records.
 
-- [Auto-importing](https://support.dnsimple.com/articles/auto-import-dns/) existing DNS records if your zone is resolving with another DNS provider.
-- Configuring [connectors](https://support.dnsimple.com/categories/connectors/). With two-way connections, both sides of the service are configured and monitored automatically.
-- Adding [one-click services](https://support.dnsimple.com/categories/services/). Our ready-to-use DNS snippets create the DNS configuration needed for web pages, email, and more.
-- Manually entering DNS records in the DNS [record editor](https://support.dnsimple.com/articles/record-editor/).
+**How to proceed**: [Sign up or log in](https://dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
 
-After configuring your records, you'll be prompted to activate the DNS zone, making it ready to receive traffic.
+**Instructions**: For detailed steps, please refer to [Registering a Domain](/articles/registering-domain/) 
 
-## Configuring the domain records
+### Park a Domain for Future Use
 
-You can manage your domain DNS records (also called a DNS zone) using the [DNS record editor](/articles/record-editor/). From the record editor, you can create, delete, and update the DNS records that represent the DNS zone of your domain.
+If you are reserving a domain name for a project that isn't ready yet, you can register or transfer it to DNSimple simply to secure the name and park it. DNSimple provides the minimal DNS configuration needed to hold the domain for future use, ensuring it remains active until you are ready to build a site or set up email.
 
-## Activating a DNS zone
+    **How to proceed**: Register or transfer the domain. If you do not create any custom records, the domain will remain parked, only serving the basic system records (SOA, NS).
 
-You can activate the DNS hosting service for a domain from the domain DNS tab.
+    **Instructions**: Refer to the instructions for [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain.
 
-<div class="section-steps" markdown="1">
-##### To activate a DNS zone
+## Have more questions? 
+If you have additional questions or need any assistance setting up DNS hosting, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
 
-1. If you have multiple accounts, select the relevant account from the account switcher at the top-right corner of the screen.
-1. Click the relevant domain name to access the domain page.
-1. On the left side, click the <label>DNS</label> tab.
-    ![tab for link to dns settings](/files/dns-tab.png)
 
-1. On the <label>DNS zone is inactive</label> card, click **Activate zone**.
-    ![activate dns zone](/files/inactive-zone.png)
-
-</div>
-
-The DNS zone is automatically inactive for each new domain or zone added to an account, whether you register/transfer the domain or simply add it.
-
-## Deactivating a DNS zone
-
-<div class="section-steps" markdown="1">
-##### To deactivate a DNS zone
-
-1. If you have multiple accounts, select the relevant account from the account switcher.
-1. Click the relevant domain name to access the domain page.
-1. On the left side, click the <label>DNS</label> tab.
-  ![tab for link to dns settings](/files/dns-tab.png)
-
-1. On the <label>DNS zone is active</label> card, click **Deactivate zone**.
-  ![Enable DNS hosting](/files/domain-dns-hosting-enable.png)
-
-</div>
-
-If a domain is delegated to our name servers, deactivating a DNS zone for a domain will cause the domain to immediately stop resolving, regardless of whether the domain is registered or just hosted with us.
-
-If the domain is registered with us but delegated to another DNS provider, deactivating the DNS zone won't change the delegation. The domain will continue to resolve with the other DNS provider.
-
-## Use cases
-
-There are a few cases where you may want to deactivate a zone:
-
-- You wanted to register a domain with us, but you'll be using a different DNS hosting provider.
-- You wanted to register a domain with us, but you aren't actively using the domain (e.g the domain is just reserved for future use or parked).
-- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us and it isn't resolving with DNSimple.
-
-## Have more questions?
-
-If you have any questions or need assistance activating or deactivating a DNS zone, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
