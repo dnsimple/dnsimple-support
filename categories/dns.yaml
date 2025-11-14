@@ -33,7 +33,6 @@ Explanation:
   - Regional Records
   - Why Anycast DNS?
   - Anycast DNS
-  - Resolution Status
   - Why DNSSEC and Secondary DNS may not work together
   - How ALIAS Records Resolve with Secondary DNS
   - Protection Against DDoS Attacks
@@ -46,6 +45,8 @@ Explanation:
   - Integrated DNS Provider Azure DNS
   - Integrated DNS Provider CoreDNS
   - What Are Integrated DNS Providers and Why Use Them?
+  - What Is Resolution Status?
+  - What Is Zone Verification and Why Does It Matter?
   - Why You Should Auto-Import DNS Records
   - Zone Verification
 
@@ -57,6 +58,8 @@ How to:
   - Adding and Removing DS Records
   - Adding an SRV Record
   - Auto-Importing DNS Records
+  - Check DNS Cache
+  - Check Resolution Status
   - Export Zone File
   - How to Use dig
   - How to Use CoreDNS as an Integrated DNS Provider
