@@ -7,7 +7,7 @@ categories:
 
 # Troubleshooting Record Resolution Issues
 
-The following is checklist of common issues to help you if a record isn't resolving correctly.
+The following is checklist of common issues to check if a record isn't resolving correctly.
 
 ## Check the domain resolution status
 
@@ -47,7 +47,7 @@ www.dnsimple.com.   3600    IN  CNAME   dnsimple.com.
 In the resulting query chain, you can see each hop to resolve the CNAME. 
 
 1. The root name servers are queried. 
-1. The query is passed along to the “.com” name servers.
+1. The query is passed along to the `.com` name servers.
 1. The query reaches [DNSimple's name servers](/articles/dnsimple-nameservers/). 
 1. DNSimple returns the CNAME record. 
 
@@ -61,9 +61,9 @@ You usually can bypass a propagation delay by passing a custom name server in th
 
 The following command checks the DNS record against the `ns1.dnsimple.com` name server:
 
-~~~
+```
 $ dig www.dnsimple.com @ns1.dnsimple.com
-~~~
+```
 
 If you get the expected response, the record has been updated in our system, but the changes still need to propagate. They should be visible after the TTL period.
 
