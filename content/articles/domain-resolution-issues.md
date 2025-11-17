@@ -8,7 +8,7 @@ categories:
 
 # Troubleshooting Domain Resolution Issues
 
-To use our [DNS hosting service](https://support.dnsimple.com/articles/dns-hosting/), the domain should resolve with DNSimple.
+To use our [DNS hosting service](/articles/dns-hosting/), the domain should resolve with DNSimple.
 
 The resolution status is displayed in your DNSimple account:
 
@@ -27,9 +27,9 @@ It executes a recursive query against each of the name servers in the chain, sta
 $ dig NS example.com +trace
 ```
 
-The delegated name servers should match [DNSimple name servers](https://support.dnsimple.com/articles/dnsimple-nameservers/).
+The delegated name servers should match [DNSimple name servers](/articles/dnsimple-nameservers/).
 
-If they don't, update the name servers to [point to DNSimple](https://support.dnsimple.com/articles/pointing-domain-to-dnsimple/). 
+If they don't, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/). 
 
 If you recently switched, the update may be in progress. See [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) and [Check name server propagation delay](/articles/troubleshoot-dnsimple-name-servers/#name-server-propagation-delay/).
 
