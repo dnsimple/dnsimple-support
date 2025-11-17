@@ -7,7 +7,7 @@ categories:
 
 # Troubleshooting Record Resolution Issues
 
-The following is checklist of common issues to check if a record isn't resolving correctly.
+The following is list of common issues to check if a record isn't resolving correctly.
 
 ## Check the domain resolution status
 
@@ -75,7 +75,7 @@ When you change a record in our system, the changes are published almost immedia
 
 Our update queue may sometimes take a bit longer. Wait a few minutes and check again.
 
-Follow our status page or X account for updates. We publish status updates when there's a known issue with our update queue.
+Check our [status page](https://dnsimple.statuspage.io) for updates. We publish status updates when there's a known issue with our update queue.
 
 ## Have more questions?   
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
