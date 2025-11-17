@@ -12,17 +12,17 @@ If your domain is not resolving correctly with DNSimple, follow these steps to t
 
 ## Ensure the domain is using the DNSimple name servers
 
-Your domain must be delegated to [DNSimple name servers](https://support.dnsimple.com/articles/dnsimple-nameservers/) for our [DNS hosting](https://support.dnsimple.com/articles/dns-hosting/) to work. If it's not delegated to DNSimple's name servers, update the name server to [point to DNSimple](https://support.dnsimple.com/articles/pointing-domain-to-dnsimple/).
+Your domain must be delegated to [DNSimple name servers](/articles/dnsimple-nameservers/) for our [DNS hosting](/articles/dns-hosting/) to work. If it's not delegated to DNSimple's name servers, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 You can use `dig` or any other DNS tool to get the name servers for the domain.
 
-~~~
+```
 $ dig NS example.com +short
 ns1.dnsimple.com.
 ns2.dnsimple-edge.net.
 ns3.dnsimple.com.
 ns4.dnsimple-edge.org.
-~~~
+```
 
 The order of the name servers is irrelevant.
 
