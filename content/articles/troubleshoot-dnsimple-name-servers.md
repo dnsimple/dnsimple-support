@@ -35,3 +35,6 @@ You can check whether the update was successful by inspecting the [WHOIS](https:
 The WHOIS response usually updates within a few minutes.
 
 If after 24 hours, the domain still isn't resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/).
+
+## Have more questions?   
+If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

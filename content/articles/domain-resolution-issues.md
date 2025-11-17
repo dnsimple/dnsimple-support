@@ -63,7 +63,7 @@ ns2.thirdparty.com.
 This configuration may lead to random DNS resolution issues, especially if you're using DNSimple DNS custom features like ALIAS or URL records, and/or the two DNS services aren't in sync.
 
 <note>
-When you have Secondary DNS enabled, your domain should not point only to DNSimple name servers; both DNSimple name servers and your Secondary DNS provider's name servers should be listed.  
+When you have Secondary DNS enabled, your domain should not point only to DNSimple name servers; both DNSimple name servers and your Secondary DNS provider's name servers should be listed.
 </note>
 
 ## Check name server list in the WHOIS response
@@ -98,4 +98,4 @@ If you switched DNS providers and had DNSSEC enabled, you must [remove the previ
 If you transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 
 ## Have more questions?   
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.   
+If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.   

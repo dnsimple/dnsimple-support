@@ -76,3 +76,6 @@ When you change a record in our system, the changes are published almost immedia
 Our update queue may sometimes take a bit longer. Wait a few minutes and check again.
 
 Follow our status page or X account for updates. We publish status updates when there's a known issue with our update queue.
+
+## Have more questions?   
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

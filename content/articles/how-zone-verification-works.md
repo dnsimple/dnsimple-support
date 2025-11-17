@@ -28,6 +28,6 @@ The verification runs automatically whether you're using the app or the API. We 
 
 Once the verification is successful, you will still need to complete the original step to add the [DNS zone](https://support.dnsimple.com/articles/adding-domain/).
 
-## Need more help?
+## Have more questions?
 
 If you have more questions or need assistance with zone verification, [contact support](https:/dnsimple.com/contact), and we'll be happy to help.
