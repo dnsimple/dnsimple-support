@@ -49,9 +49,12 @@ dnsimple.com.       543 IN  A   50.31.209.238
 ```
 
 Here, `dig` says to wait 3543 seconds (about an hour) before the cache for the record expires. If a change is made now, it may not be visible from a local machine for an hour.
-Flushing the local DNS cache only clears the cache on the device you are using. It does not affect the cache stored by the upstream DNS resolver. If the upstream resolver is still holding outdated data, you will continue to receive the same old response even after flushing your local cache.
-You can verify what the upstream resolver is returning by running the dig command shown in the example above and checking the ANSWER section and TTL. This helps you know if the delay is coming from the resolver cache or your local machine.
-If the upstream resolver already shows the updated record, you can then flush your local cache using the methods in Option 1 or Option 2 below
+
+Flushing the local DNS cache only clears the cache on the device you are using. **It does not affect the cache stored by the upstream DNS resolver**. If the upstream resolver is still holding outdated data, you will continue to receive the same old response even after flushing your local cache.
+
+You can verify what the upstream resolver is returning by running the dig command shown in the example above, then checking the ANSWER section and TTL. This clarfies whether the delay is coming from the resolver cache or your local machine.
+
+If the upstream resolver already shows the updated record, you can flush your local cache using the methods in Option 1 or Option 2 below.
 
 ### **Option 1: everyday methods**
 
