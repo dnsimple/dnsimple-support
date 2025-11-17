@@ -26,15 +26,15 @@ ns4.dnsimple-edge.org.
 
 The order of the name servers is irrelevant.
 
-## Name server propagation delay
+## Check name server propagation delay
 
 If you recently pointed the domain to DNSimple, and the domain still isn't resolving, remember it may take up to 24 hours for a name server change to propagate.
 
-You can check whether the update was successful by inspecting the [WHOIS](https://dnsimple.com/whois) response for the domain as described in the section *Check name server list in the WHOIS response*.
+You can check whether the update was successful by inspecting the [WHOIS](https://dnsimple.com/whois) response for the domain as described in the section [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response/).
 
 The WHOIS response usually updates within a few minutes.
 
-If after 24 hours, the domain still isn't resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/).
+If, after 24 hours, the domain still isn't resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/).
 
 ## Have more questions?   
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
