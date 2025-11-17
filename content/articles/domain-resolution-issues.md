@@ -13,9 +13,9 @@ To use our [DNS hosting service](/articles/dns-hosting/), the domain should reso
 The resolution status is displayed in your DNSimple account:
 
 - If the domain is registered with DNSimple, open the domain page and check the **Delegation card** under the **Registration tab** to see which name servers are currently set.
-- If the domain is registered elsewhere, you can confirm delegation using dig or a [WHOIS lookup](https://dnsimple.com/whois) (see below).
+- If the domain is registered elsewhere, you can confirm delegation using `dig` or a [WHOIS lookup](https://dnsimple.com/whois) (see below).
 
-The following is a checklist of common issues to help you if a domain isn't resolving correctly.
+The following is a list of common issues to check if a domain isn't resolving correctly.
 
 ## Check the domain with `+trace`
 
@@ -87,7 +87,7 @@ Creation Date: 07-apr-2010
 Expiration Date: 07-apr-2018
 ```
 
-The name server should match DNSimple name servers and the response returned from dig. If not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+The name server should match DNSimple name servers and the response returned from `dig`. If it doesn't, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 If you recently updated the domain, see the **Name server change propagation** section in [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/).
 
