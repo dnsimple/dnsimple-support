@@ -18,13 +18,13 @@ When adding a zone to DNSimple, you may be asked to verify ownership. This proce
 1. After you have added the zone to your DNSimple account, remember to remove the verification name server from the delegation at your domain registrar.  
 1. Verifications expire after 48 hours, but you can retry by re-initiating the add zone operation.
 
-<note>  
+<info>  
 Each verification is unique. If you let one verification expire and start a new one, we will provide two new verification servers to use. **You will not be able to verify using the servers from the previous verification.**  
-</note>
+</info>
 
 ## Important
 
-The verification runs automatically whether you're using the app or the API. We regularly check if the domain is pointing to the verification name servers. You can also click Verify now on your DNSimple domain page to trigger the check manually or resend the request through the API.
+The verification runs automatically whether you're using the app or the API. We regularly check if the domain is pointing to the verification name servers. You can also click **Verify now** on your DNSimple domain page to trigger the check manually, or resend the request through the API.
 
 Once the verification is successful, you will still need to complete the original step to add the [DNS zone](https://support.dnsimple.com/articles/adding-domain/).
 
