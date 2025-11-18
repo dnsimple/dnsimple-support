@@ -65,7 +65,6 @@ For example, update every 5 minutes with cron:
 
 `*/5 ****/path/to/update-script.sh`
 
-
 ## Step 4: Verify the record
 
 Check that your DNS record updates correctly:
@@ -74,3 +73,5 @@ Check that your DNS record updates correctly:
 
 The returned IP should match your current IP address.
 
+## Have more questions?
+If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
