@@ -34,3 +34,6 @@ This distributed architecture provides significant redundancy, ensuring your dom
 All domains hosted with DNSimple are served through our Anycast network by default. To take advantage of this service, you simply use the name servers provided in our documentation.
 
 DNSimple's proprietary [ALIAS record type](/articles/alias-record/) is a second-order DNS query that also benefits from our Anycast network. When resolving an ALIAS record, the Anycast server is likely to be closer to the target's geographic location, which can help an ALIAS record resolve to a closer data center if your application is also geographically distributed.
+
+## Have more questions? 
+If you have additional questions about Anycast DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
