@@ -14,7 +14,8 @@ With DNSimple, you can use our [API](https://developer.dnsimple.com/) to build s
 
 ## Before you begin
 
-- You need a DNSimple account with an active domain.
+You need:
+- A DNSimple account with an active domain.
 - An API access token.
 - Basic familiarity with making HTTP requests (or a tool like `curl`).
 
@@ -42,7 +43,7 @@ curl -H "Authorization: Bearer \<API\_TOKEN\>" \
 ```
 
 - Replace `<API_TOKEN>`, `<ACCOUNT_ID>`, `<RECORD_ID>`, and `<YOUR_CURRENT_IP>` with your own values.
-- To get the current IP automatically, you can use a service like https://ifconfig.me in your script.
+- To get the current IP automatically, you can use a service like `https://ifconfig.me` in your script.
 
 **Example with shell substitution:**
 ```
