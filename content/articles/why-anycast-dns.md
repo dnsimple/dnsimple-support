@@ -27,13 +27,13 @@ DNSimple operates a global Anycast network of name servers. For a complete list 
 
 Anycast DNS also provides a higher degree of fault tolerance and uptime. With a globally distributed network, if one of our name servers goes offline due to a network issue, hardware failure, or other event, that location is automatically removed from the internet's routing tables. This allows other nearby name servers to seamlessly pick up the slack without any interruption to your service.
 
-This distributed architecture provides significant redundancy, ensuring your domain's DNS remains highly available even in the face of localized outages.
+This distributed architecture provides significant redundancy, ensuring your domain's DNS remains highly available even in the event of localized outages.
 
 ## DNSimple and Anycast
 
-All domains hosted with DNSimple are served through our Anycast network by default. To take advantage of this service, you simply use the name servers provided in our documentation.
+All domains hosted with DNSimple are served through our Anycast network by default. Just use the name servers provided in our documentation to take advantage of this service.
 
 DNSimple's proprietary [ALIAS record type](/articles/alias-record/) is a second-order DNS query that also benefits from our Anycast network. When resolving an ALIAS record, the Anycast server is likely to be closer to the target's geographic location, which can help an ALIAS record resolve to a closer data center if your application is also geographically distributed.
 
-## Have more questions? 
+## Have more questions?
 If you have additional questions about Anycast DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
