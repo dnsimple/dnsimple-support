@@ -31,7 +31,7 @@ Explanation:
   - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?
   - Regional Records
-  - Why Anycast DNS?
+  - What Is Anycast DNS and Why Use It?
   - Anycast DNS
   - Why DNSSEC and Secondary DNS may not work together
   - How ALIAS Records Resolve with Secondary DNS
