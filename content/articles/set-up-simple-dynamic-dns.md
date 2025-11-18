@@ -31,7 +31,7 @@ Decide which DNS record you want to keep updated with your dynamic IP address.
 
 ## Step 2: Write a script or use a client
 
-You can update the record programmatically by calling the DNSimple API. Here’s a simple `curl` example to update an A record:
+You can update the record programmatically by calling the DNSimple API. Here's a simple `curl` example to update an A record:
 ```
 curl -H "Authorization: Bearer \<API\_TOKEN\>" \
      -H "Accept: application/json" \
