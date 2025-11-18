@@ -39,12 +39,12 @@ Explanation:
   - What Is EDNS Client Subnet Support?
   - DNS Hosting
   - Domain Zone Files
-  - Dynamic DNS
   - Integrated DNS Providers at DNSimple
   - Integrated DNS Provider Amazon Route 53
   - Integrated DNS Provider Azure DNS
   - Integrated DNS Provider CoreDNS
   - What Are Integrated DNS Providers and Why Use Them?
+  - What Is Dynamic DNS?
   - What Is Resolution Status?
   - What Is Zone Verification and Why Does It Matter?
   - Why You Should Auto-Import DNS Records
