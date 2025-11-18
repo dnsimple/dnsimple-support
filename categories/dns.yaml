@@ -82,6 +82,7 @@ How to:
   - Syncing Integrated Zone Records Between DNS Providers
   - Setting up DKIM
   - Setting up DMARC
+  - Setting Up Simple Dynamic DNS
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
   - Verifying DKIM with dig and Online Tools
