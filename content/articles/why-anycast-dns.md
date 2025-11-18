@@ -5,17 +5,32 @@ categories:
 - DNS
 ---
 
-# Why Anycast DNS?
+# What Is Anycast DNS and Why Use It?
 
-The DNS protocol most often uses UDP to ship packets around the internet. UDP being a stateless protocol enables an optimization based on "anycast".
+Anycast is a powerful routing technology that, in the context of DNS, significantly improves the speed and reliability of your domain. Instead of a DNS query traveling to a single, specific server, Anycast allows a single IP address to be served from multiple physical locations around the world.
 
-You usually want to talk to a specific computer on the internet. When a packet is sent to another computer on the internet, the routers in between make forwarding decisions according to their routing table. As your packet meanders through each router, those tables get your packet closer to the computer you want. This is "unicast".
+To understand Anycast, it's helpful to first understand Unicast, which is how most connections work. With Unicast, a packet sent from your computer to a server is addressed to a single, unique IP address. As the packet travels, internet routers use their routing tables to guide it to that one specific destination.
 
-When your customer looks up an IP address for your app, they query DNS. All our name servers have identical answers, so it doesn't matter which one answers. With anycast, we use internet routing capabilities to make things faster.
+With Anycast DNS, the process is different. All of [DNSimple's name servers](/articles/dnsimple-nameservers/) share the same IP addresses. When a DNS query is sent, the Internet's routing protocols automatically direct the packet to the closest available server location. This optimization is transparent to the user, providing a faster, more reliable response.
 
-Packet latency is largely a function of geographic distance. With anycast, we tell routers the same server is located in various spots around the internet. Internet routers optimize routes, so they pick the one closest to your customer. Moving DNS servers closer mitigates geographic latency.
+## Why Anycast DNS is a better solution
 
-Lower latency is the primary benefit, but we gain resilience at the same time. Instead of four name servers, we now have forty. If any of these go offline, they're removed from the routing table, and others automatically pick up the slack.
+Anycast DNS provides two primary benefits: lower latency and increased resilience.
 
-DNSimple's ALIAS record type is a second-order DNS query. Since our anycast server is likely to be closer to the target geographic location, an ALIAS record may resolve to a closer datacenter if your app is also geographically distributed.
+### Lower latency
 
+The biggest factor in network latency is geographic distance. Anycast serves DNS queries from the closest physical server, drastically reducing the time it takes for a DNS lookup to complete. This means your visitors' web browsers can find the IP address for your website faster, leading to a quicker overall user experience.
+
+DNSimple operates a global Anycast network of name servers. For a complete list of these locations, please refer to our DNSimple Points of Presence reference article.
+
+### Enhanced resilience
+
+Anycast DNS also provides a higher degree of fault tolerance and uptime. With a globally distributed network, if one of our name servers goes offline due to a network issue, hardware failure, or other event, that location is automatically removed from the internet's routing tables. This allows other nearby name servers to seamlessly pick up the slack without any interruption to your service.
+
+This distributed architecture provides significant redundancy, ensuring your domain's DNS remains highly available even in the face of localized outages.
+
+## DNSimple and Anycast
+
+All domains hosted with DNSimple are served through our Anycast network by default. To take advantage of this service, you simply use the name servers provided in our documentation.
+
+DNSimple's proprietary [ALIAS record type](/articles/alias-record/) is a second-order DNS query that also benefits from our Anycast network. When resolving an ALIAS record, the Anycast server is likely to be closer to the target's geographic location, which can help an ALIAS record resolve to a closer data center if your application is also geographically distributed.
