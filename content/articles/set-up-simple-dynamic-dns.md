@@ -10,7 +10,7 @@ categories:
 
 Dynamic DNS (DDNS) lets you keep a DNS record updated automatically when your IP address changes. This is especially useful if your ISP assigns you a dynamic IP, but you still want to reach your home network or server using a fixed domain name.
 
-With DNSimple, you can use our [API](https://developer.dnsimple.com/) to build simple [dynamic DNS](/articles/dynamic-dns/) updates. For examples and ready-to-use options, check out our [Tools page](https://developer.dnsimple.com/tools/).
+With DNSimple, you can use our [API](https://developer.dnsimple.com/) to build simple [Dynamic DNS](/articles/dynamic-dns/) updates. For examples and ready-to-use options, check out our [Tools page](https://developer.dnsimple.com/tools/).
 
 ## Before you begin
 
