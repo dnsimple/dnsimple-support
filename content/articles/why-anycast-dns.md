@@ -11,7 +11,7 @@ Anycast is a powerful routing technology that, in the context of DNS, significan
 
 To understand Anycast, it's helpful to first understand Unicast, which is how most connections work. With Unicast, a packet sent from your computer to a server is addressed to a single, unique IP address. As the packet travels, internet routers use their routing tables to guide it to that one specific destination.
 
-With Anycast DNS, the process is different. All of [DNSimple's name servers](/articles/dnsimple-nameservers/) share the same IP addresses. When a DNS query is sent, the Internet's routing protocols automatically direct the packet to the closest available server location. This optimization is transparent to the user, providing a faster, more reliable response.
+With Anycast DNS, the process is different. All of [DNSimple's name servers](/articles/dnsimple-nameservers/) share the same IP addresses. When a DNS query is sent, the internet's routing protocols automatically direct the packet to the closest available server location. This optimization is transparent to the user, providing a faster, more reliable response.
 
 ## Why Anycast DNS is a better solution
 
