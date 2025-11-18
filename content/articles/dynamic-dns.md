@@ -1,5 +1,5 @@
 ---
-title: Dynamic DNS
+title: What Is Dynamic DNS?
 excerpt: What Dynamic DNS is and how it works.
 meta: Dynamic DNS with DNSimple keeps your domain updated with changing IP addresses, ensuring seamless access to your online services.
 categories:
