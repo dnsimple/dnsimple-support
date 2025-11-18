@@ -37,7 +37,7 @@ We don't support the dyndns API. This is what most routers use when they talk ab
 Dynamic DNS provides significant benefits for users ranging from individuals to enterprises:
 
 - **Continuous reachability:** Ensures your domain name always points to the correct IP address. This makes your services consistently accessible, even if your ISP frequently changes your IP.
-- **No manual updates:** Eliminates the need to manually log into your DNS provider and update IP addresses every time they change, saving time and preventing downtime.
+- **No manual updates:** Eliminates the need to manually log in to your DNS provider and update IP addresses every time they change, saving time and preventing downtime.
 - **Cost-effective hosting:** Enables you to host websites, personal cloud storage, security cameras, or other services from a home or office network without incurring the higher costs associated with static IP addresses from ISPs.
 - **Remote access:** Easily access devices or resources on your home or small business network remotely by using your domain name, rather than having to discover a constantly changing IP.
 
