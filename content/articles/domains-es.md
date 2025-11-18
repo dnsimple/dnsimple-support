@@ -58,13 +58,7 @@ Click the link provided in the acknowledgment email to confirm and complete your
 
 If you don't receive the acknowledgement email, experience problems with the link, or need any help with your domain transfer, please [contact](https://dnsimple.com/contact) our support team.
 
-## Renewing a .ES domain {#renewing}
 
-### Auto-renewal only {#auto-renewal-required}
-
-This TLD doesn't support manual renewals. To successfully renew the domain, the auto-renewal feature must be enabled, as explained in the [Domain Auto-Renewal article](/articles/domain-auto-renewal/#when-does-auto-renewal-happen/).
-
-If auto-renewal is not enabled, the domain will be scheduled for removal **12 days before the expiration**. The registrar can deactivate it at any point during this period (even before the expiration date). You may be able to [restore](/articles/restoring-domain/) the domain before final deletion, but the registry will charge a redemption fee.
 
 ## Have more questions?
 
