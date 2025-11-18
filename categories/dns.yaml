@@ -82,7 +82,7 @@ How to:
   - Setting up DKIM
   - Setting up DMARC
   - Setting up Simple Dynamic DNS
-  - Troubleshooting Record Resolution Issues
+  - Troubleshooting DNSimple Name Servers
   - Troubleshooting Domain Resolution Issues
   - Troubleshooting Record Resolution Issues
   - Verifying DKIM with dig and Online Tools
