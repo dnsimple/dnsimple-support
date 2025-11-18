@@ -8,34 +8,6 @@ categories:
 
 # Changing Email
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
-<info>
-If you want to update both your account and user email to the same address, you'll need to [update your user email](/articles/changing-email/#changing-the-user-email) first, then your account email.
-</info>
-
-## Changing the account email
-
-<div class="section-steps" markdown="1">
-1. Use the account switcher at the top right of the page to select the appropriate account. 
-1. Click on **Account Settings**
-1. On the **Account** card, click <label>Edit</label>:
-
-    ![Settings menu](/files/account-menu.png)
-
-1. Change the email, and click <label>Update Account</label>.
-
-    ![Email link](/files/account-email.png)
-
-You'll be redirected to the Account page, where you'll see the updated email address displayed on the **Account** card. Please ensure the address is correct.
-
-</div>
-
 ## Changing the user email
 
 <div class="section-steps" markdown="1">
@@ -56,7 +28,24 @@ You'll be redirected to the Account page, where you'll see the updated email add
 
 </div>
 
-If you have an extra account with a separate email address, you can find the instructions for how to update it [here](#changing-the-account-email).
+## Setting or Changing the notification email
+
+<div class="section-steps" markdown="1">
+1. Go to the <label>account switcher</label> in the upper right-hand corner of the page. 
+2. Click on the gear icon next to the account you wish to set or change the notification email for. 
+3. Click <label>Edit</label> on the Notification card. 
+    
+    ![Screenshot of Notification card](/files/notification_card.png)
+    
+4. Enter the email you would like all account notifications to go to.
+
+   ![Screenshot of edit notifications](/files/edit_notifications.png)
+6. Click <label>Save</label> to save changes.
+
+<info> If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set the billing email on this card or by going to the [billing settings][/articles/billing-settings/#changing-your-billing-settings)
+</info>
+
+</div>
 
 ## Have more questions?
 

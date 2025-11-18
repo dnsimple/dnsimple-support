@@ -152,7 +152,7 @@ describe("Search", () => {
         "multi-factor-authentication",
       ],
       "domain parking": ["dns-hosting"],
-      "dns propagation": ["domain-resolution-issues", "secondary-dnsimple"],
+      "dns propagation": ["domain-resolution-issues", "record-resolution-issues"],
       "dnsimple pricing": ["dnsimple-plans", "domain-transfer-pricing"],
       "change nameservers": ["setting-name-servers", "what-is-a-nameserver"],
       "domain expiration": ["what-happens-when-domain-expires"],

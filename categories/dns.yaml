@@ -48,8 +48,7 @@ Explanation:
   - What Is Resolution Status?
   - What Is Zone Verification and Why Does It Matter?
   - Why You Should Auto-Import DNS Records
-  - Zone Verification
-
+  - How Does Zone Verification Work?
  
 How to:
   
@@ -85,6 +84,7 @@ How to:
   - Setting up Simple Dynamic DNS
   - Troubleshooting Record Resolution Issues
   - Troubleshooting Domain Resolution Issues
+  - Troubleshooting Record Resolution Issues
   - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools
   - Zone NS Records
