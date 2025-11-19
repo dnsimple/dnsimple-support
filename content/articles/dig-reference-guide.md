@@ -1,5 +1,5 @@
 ---
-title: What Is dig
+title: dig Reference Guide
 excerpt: a quick reference for dig, its syntax, and its output.
 categories:
 - DNS
