@@ -31,7 +31,7 @@ Explanation:
   - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?
   - Regional Records
-  - Why Anycast DNS?
+  - What Is Anycast DNS and Why Use It?
   - Anycast DNS
   - Why DNSSEC and Secondary DNS may not work together
   - How ALIAS Records Resolve with Secondary DNS
@@ -39,12 +39,12 @@ Explanation:
   - What Is EDNS Client Subnet Support?
   - Why Should I Use DNSimple as a DNS Hosting Provider?
   - Domain Zone Files
-  - Dynamic DNS
   - Integrated DNS Providers at DNSimple
   - Integrated DNS Provider Amazon Route 53
   - Integrated DNS Provider Azure DNS
   - Integrated DNS Provider CoreDNS
   - What Are Integrated DNS Providers and Why Use Them?
+  - What Is Dynamic DNS?
   - What Is Resolution Status?
   - What Is Zone Verification and Why Does It Matter?
   - Why You Should Auto-Import DNS Records
@@ -82,6 +82,7 @@ How to:
   - Syncing Integrated Zone Records Between DNS Providers
   - Setting up DKIM
   - Setting up DMARC
+  - Setting up Simple Dynamic DNS
   - Troubleshooting DNSimple Name Servers
   - Troubleshooting Domain Resolution Issues
   - Troubleshooting Record Resolution Issues
