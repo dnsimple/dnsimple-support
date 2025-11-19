@@ -44,6 +44,7 @@ Explanation:
   - Integrated DNS Provider Azure DNS
   - Integrated DNS Provider CoreDNS
   - What Are Integrated DNS Providers and Why Use Them?
+  - What Is dig?
   - What Is Dynamic DNS?
   - What Is Resolution Status?
   - What Is Zone Verification and Why Does It Matter?
@@ -60,6 +61,7 @@ How to:
   - Auto-Importing DNS Records
   - Check DNS Cache
   - Check Resolution Status
+  - Creating a Record Note
   - Export Zone File
   - How to Use dig
   - How to Use CoreDNS as an Integrated DNS Provider
@@ -109,7 +111,8 @@ Reference:
   - SSHFP Record Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
-  - IPv6 Domain Resolution Reference
+  - dig Reference Guide
   - DNSimple Interface Reference for DNS Management
+  - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
   - Understanding DNSimple's Record Editors Simple vs. Field-Specific
