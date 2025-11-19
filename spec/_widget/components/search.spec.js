@@ -82,8 +82,8 @@ describe("Search", () => {
       "a record": ["a-record-format", "a-record"],
       "manage account": ["account-creation", "account-activation"],
       "enable dnssec": ["dnssec", "disabling-dnssec", "dnssec-glossary"],
-      "creating alias record": ["alias-record", "record-editor"],
-      "alias record": ["alias-record", "record-editor"],
+      "creating alias record": ["alias-record"],
+      "alias record": ["alias-record"],
       "request ssl certificate": ["ssl-certificates", "ssl-certificates-types"],
       "auto-renew certificate": [
         "renewing-ssl-certificate",
@@ -151,7 +151,6 @@ describe("Search", () => {
         "guide-getting-started-with-your-team",
         "multi-factor-authentication",
       ],
-      "domain parking": ["dns-hosting"],
       "dns propagation": ["domain-resolution-issues", "record-resolution-issues"],
       "dnsimple pricing": ["dnsimple-plans", "domain-transfer-pricing"],
       "change nameservers": ["setting-name-servers", "what-is-a-nameserver"],
