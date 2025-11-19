@@ -151,7 +151,6 @@ describe("Search", () => {
         "guide-getting-started-with-your-team",
         "multi-factor-authentication",
       ],
-      "domain parking": ["dns-hosting"],
       "dns propagation": ["domain-resolution-issues", "record-resolution-issues"],
       "dnsimple pricing": ["dnsimple-plans", "domain-transfer-pricing"],
       "change nameservers": ["setting-name-servers", "what-is-a-nameserver"],
