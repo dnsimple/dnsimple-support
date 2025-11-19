@@ -18,7 +18,7 @@ When you run a `dig` command, you instruct your computer to perform a direct que
 
 For example, a command like `dig dnsimple.com` will perform a standard lookup for the domain's A record. The output is highly detailed, showing you the final answer (the IP address) along with the entire query process, including which server answered the query, the time it took, and the various sections of the DNS response.
 
-## `dig`’s role in troubleshooting
+## `dig`'s role in troubleshooting
 
 The detailed output of `dig` is what makes it so useful. It provides the following key information:
 
@@ -29,7 +29,7 @@ The detailed output of `dig` is what makes it so useful. It provides the followi
 
 By analyzing this information, you can pinpoint exactly where a DNS problem lies—whether it's an incorrect record, an unresponsive name server, or a caching issue.
 
-You can learn more about using dig in [How to Use dig](/articles/how-dig/). If you’d like a quick reference for dig, you can find that in our dig Reference Guide (LINK NEW ARTICLE).
+You can learn more about using dig in [How to Use dig](/articles/how-dig/). A quick reference for dig is available in our dig Reference Guide (LINK NEW ARTICLE).
 
 ## Have more questions?
 If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
