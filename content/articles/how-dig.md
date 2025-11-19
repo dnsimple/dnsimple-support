@@ -39,13 +39,13 @@ dnsimple.com.		59	IN	A	50.31.213.210
 
 **What this output tells you**
 
-- Line one shows the `dig` version that was used and the domain queried.
+- **Line one** shows the `dig` version that was used and the domain queried.
 - Then you see any global `dig` options, followed by packet details in human-readable form.
-- NOERROR indicates the response was returned without an error.
+- **NOERROR** indicates the response was returned without an error.
 - The line `;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0` provides various details about the DNS packet ([RFC 1035](https://www.ietf.org/rfc/rfc1035.txt) has an in-depth explanation of the content of a DNS packet).
 - The **QUESTION** section shows the question that was sent: "I want A records for `dnsimple.com`."
 - The **ANSWER** section shows the reply: "`dnsimple.com` has one A record with the content `50.31.213.210` and a time-to-live (TTL) of 59 seconds."
-- The footer shows how long the query took, which server was used, when the query ran, and the packet size.
+- The **footer** shows how long the query took, which server was used, when the query ran, and the packet size.
 
 ## `dig` at a name server
 
