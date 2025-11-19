@@ -13,7 +13,7 @@ This document provides a visual reference for key pages related to DNS managemen
 ## Record Editor
 The [Record Editor](/articles/record-editor/)  is where you manage your domain's DNS records. You can add, edit, or delete records from this page.
 
- ![Screenshot of record editor page](/files/record-editor-ref-1.png)
+ ![Screenshot of record editor page](/content/files/record-editor-ref-1.png)
 
 1. **Add record**: Click this button to create a new DNS record.
 1. **Import/Export**: Click this button to import your zone file from another provider or to export a copy of your DNSimple zone file.
@@ -37,7 +37,7 @@ The DNS tab on your domain's management page provides an overview of your DNS zo
 ## Import zone
 The Import zone page allows you to import your zone file from another provider.
 
- ![Screenshot of import zone file page](/files/record-editor-ref-1.png)
+ ![Screenshot of import zone file page](/files/record-editor-ref-2.png)
 
 1. **Zone Data**: This field is where you paste the zone file data.
 1. **Import Zone**: Click this button to import your zone file.
@@ -45,7 +45,7 @@ The Import zone page allows you to import your zone file from another provider.
 ## Integrated Providers
 The [Integrated Providers](/articles/integrated-dns-providers/) page in your account settings allows you to connect and manage external DNS providers.
 
-![Screenshot of zone data import](/files/zone-data.ong)
+![Screenshot of zone data import](/files/zone-data.png)
 
 1. **Integrated Providers**: This tab shows the status of your integrated providers.
 1. **Connect an integrated provider**: This card shows a list of providers you can connect to.
