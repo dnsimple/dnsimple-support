@@ -34,7 +34,7 @@ You'll need access to the account or domain to make changes. Make sure the domai
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right of the screen (next to the star icon). This takes you directly to the Record Editor.
 
-![record editor DNS badge](content/files/dns-badge.png)
+![record editor DNS badge](/files/dns-badge.png)
 
 ## Adding a record
 1. In the Record Editor, click the **Add a record** button. 
