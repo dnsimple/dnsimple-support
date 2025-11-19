@@ -1,5 +1,5 @@
 ---
-title: What Is dig
+title: What Is dig?
 excerpt: What dig is, how it works, and its role in troubleshooting.
 meta: You can discover, pinpoint and resolve DNS issues by using dig and troubleshoot issues on DNS servers to resolve DNS errors.
 categories:
