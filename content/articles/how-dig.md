@@ -8,7 +8,7 @@ categories:
 
 # How to Use dig
 
-When you're trying to troubleshoot DNS issues, `dig` is one of the most valuable tools.
+When you're trying to troubleshoot DNS issues, `dig` (domain information groper) is one of the most valuable tools.
 
 From the `dig` manual:
 
@@ -37,16 +37,21 @@ dnsimple.com.		59	IN	A	50.31.213.210
 ;; MSG SIZE  rcvd: 46
 ```
 
-The output above shows lots of interesting details. Line one contains the version of `dig` that was used and the domain name that was queried. Next, it gives any global `dig` options that were enabled, followed by the actual DNS packet details, in human-readable form. NOERROR indicates the response was returned without an error. The line `;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0` provides various details about the DNS packet ([RFC 1035 (https://www.ietf.org/rfc/rfc1035.txt) has an in-depth explanation of the content of a DNS packet).
+**What this output tells you**
 
-The question section displays the DNS question that was sent: "I want A records for dnsimple.com". The Answer section shows what the name server responded with: "dnsimple.com has one A record with the content 50.31.213.210 and a time-to-live (TTL) of 59 seconds.
+- Line one shows the `dig` version that was used and the domain queried.
+- Then you see any global `dig` options, followed by packet details in human-readable form.
+- NOERROR indicates the response was returned without an error.
+- The line `;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0` provides various details about the DNS packet ([RFC 1035](https://www.ietf.org/rfc/rfc1035.txt) has an in-depth explanation of the content of a DNS packet).
+- The **QUESTION** section shows the question that was sent: "I want A records for `dnsimple.com`."
+- The **ANSWER** section shows the reply: "`dnsimple.com` has one A record with the content `50.31.213.210` and a time-to-live (TTL) of 59 seconds."
+- The footer shows how long the query took, which server was used, when the query ran, and the packet size.
 
-It also gives details about how long the query took, what server was used, when the query was sent, and the size of the DNS packet.
+## `dig` at a name server
 
+What else can you do with `dig`? The first example uses the name servers configured locally. In that example, it's the Google public resolver at `8.8.8.8`. 
 
-## Dig at a name server
-
-What else can you do with `dig`? The first example uses the name servers configured locally. In that example it's the Google public resolver at 8.8.8.8. You can also specify a name server:
+You can also specify a name server:
 
 ```
 $ dig @ns1.dnsimple.com dnsimple.com
@@ -71,7 +76,7 @@ dnsimple.com.		60	IN	A	50.31.213.210
 ;; MSG SIZE  rcvd: 46
 ```
 
-## Trace
+## `+trace`
 
 Another useful option is `+trace`. This causes dig to make iterative queries to resolve the name being looked up. It starts from the root name servers and works its way through the domain name hierarchy.
 
@@ -122,11 +127,69 @@ dnsimple.com.		60	IN	A	50.31.213.210
 
 With `+trace` enabled, you can see the entire delegation tree.
 
-First you receive a list of NS records showing the next name server set to query from the server 8.8.8.8. One of the NS records is chosen randomly (in this case it was `192.112.36.4` which is `g.root-servers.net`. That server is queried and responds with a list of servers that respond for `.com.` domains.
+- First you receive a list of NS records showing the next name server set to query from the server `8.8.8.8`. One of the NS records is chosen randomly (in this case it was `192.112.36.4`, which is `g.root-servers.net`. That server is queried and responds with a list of servers that respond for `.com.` domains.
 
-`dig` then queries `192.55.83.30` (`m.gtld-servers.net.`), and that name server responds with the `ns1.dnsimple.com` through `ns4.dnsimple.com` name servers. One of those is selected at random (`50.31.242.53` which is `ns3.dnsimple.com`). That name server finally returns the authoritative response and the IP address for the A record.
+- `dig` then queries `192.55.83.30` (`m.gtld-servers.net.`), and that name server responds with the `ns1.dnsimple.com` through `ns4.dnsimple.com` name servers. One of those is selected at random (`50.31.242.53` which is `ns3.dnsimple.com`). That name server finally returns the authoritative response and the IP address for the A record.
 
+## Additional common lookups
+
+### Querying AAAA (IPv6) records
+
+You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the ANSWER section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
+
+```
+$ dig AAAA ns1.dnsimple.com
+
+; <<>> DiG 9.10.6 <<>> AAAA ns1.dnsimple.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52403
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;ns1.dnsimple.com.		IN	AAAA
+
+;; ANSWER SECTION:
+ns1.dnsimple.com.	1795	IN	AAAA	2400:cb00:2049:1::a29f:1804
+
+;; Query time: 47 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Nov 02 19:20:40 CET 2018
+;; MSG SIZE  rcvd: 73
+```
+
+### Querying CNAME records
+
+You can use `dig` in your terminal to determine the CNAME record associated to a domain name. The result contained in the **ANSWER** section has the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the domain-name.
+
+```
+$ dig CNAME www.dnsimple.com
+
+; <<>> DiG 9.10.6 <<>> CNAME www.dnsimple.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5274
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.dnsimple.com.		IN	CNAME
+
+;; ANSWER SECTION:
+www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
+
+;; Query time: 52 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Nov 02 20:33:09 CET 2018
+;; MSG SIZE  rcvd: 59
+```
 
 ## Digging deeper
 
-If you'd like to dig even deeper into `dig`, open a console and type `dig -h` for the list of supported options, or `man dig` for more in-depth details about `dig` and how it functions.
+To dig even deeper into `dig`, open a console and type `dig -h` for the list of supported options, or `man dig` for more in-depth details about `dig` and how it functions.
+
+## Have more questions?
+If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
