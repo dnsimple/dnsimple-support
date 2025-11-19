@@ -43,11 +43,15 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 
     > i. Confirm that you created a paid DNSimple account.
 
-    > YES
+    > `YES`
 
-    > ii. Provide the email address associated with your ClickFunnels and DNSimple accounts.
+    > ii. Provide the email address associated with your ClickFunnels account and your DNSimple domain push identifier.
 
-    > `your email address`
+    > - `Your ClickFunnels email address`
+    > - `Your DNSimple domain push identifier`
+    
+    You can find your domain push identifier in your DNSimple account by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Domain Push Identifier in the Account card. Copy that value and paste it here.
+    
 
     > iii. Name of domain(s) you want to transfer.
 

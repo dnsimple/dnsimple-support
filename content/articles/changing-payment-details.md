@@ -16,8 +16,7 @@ Teams and higher plans have Domain Access Controls. Only those with a full-acces
 
 ### To update an account's payment details
 
-1. Select the account you want to update the payment information for from the account switcher at the top-right corner of the screen. This takes you to the domain list for the account.
-1. From the account switcher, click <label>Account settings</label>.
+1. Select the account you want to update the payment information for. From the account switcher at the top-right corner of the screen, click the gear icon ⚙️ next to the account name to open **account settings**.
 1. Select <label>Billing and plans</label> from the left side bar.
 1. Find the card showing your credit card information, and click <label>Edit</label>.
 

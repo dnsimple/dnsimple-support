@@ -42,8 +42,7 @@ If you need to change the billing information for an existing invoice, please [c
 <div class="section-steps" markdown="1">
 ##### To update your billing settings
 
-1.  Select the relevant account from the account switcher at the top-right corner of the screen.
-1.  From the account switcher, click <label>Account settings</label>.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1.  Scroll down to the invoices section. Click **Edit** at the bottom right of the section.
 
     ![Change billing settings](/files/account-billing-settings-link.png)

@@ -10,7 +10,7 @@ categories:
 The Account page, linked under the selected account in the account switcher, provides comprehensive information about the account's billing and plan status.
 
 ## Checking your account billing details
-1. Choose the relevant account from the account switcher, then click **Account settings**.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1. On the account page, you can find your account balance under the **Billings and plans** tab on the left side of the screen.
 
 ## Billing details breakdown

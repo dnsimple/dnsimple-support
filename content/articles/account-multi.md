@@ -40,7 +40,7 @@ To create another account under your existing user profile:
 
     ![screenshot of new account form](/files/new-account.png)
 
-1. Once you submit the form, the account will be created. Activate it by clicking **Select plan** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
+1. Once you submit the form, the account will be created. Activate it by clicking **Unlock advanced features** under the **Billing and plans** tab, and following the steps to choose [a plan](/articles/dnsimple-plans/).
 
     ![screenshot of choosing plan for account](/files/choose-plan.png)
 
@@ -48,13 +48,11 @@ To create another account under your existing user profile:
 
 ## Switching among accounts
 
-Select the account you want to view from the account switcher, and you'll be taken to the Domain List for that account.
+Select the account you want to view from the **account switcher** to access the associated **Domain List**. 
+
+Click the gear icon ⚙️ next to the account name to open **account settings**.
 
 ![screenshot of account link in top nav](/files/multiple-accounts-nav.png)
-
-Once you've selected an account, open the account switcher again, and click **_Account settings_** to view details for the selected account.
-
-![screenshot of account link in top nav](/files/account-nav-link.png)
 
 ## Have more questions?
 

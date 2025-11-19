@@ -26,7 +26,7 @@ Under these messages, you'll find snapshots for every account you have access to
 
 If you have more than one account, or if you started to create a new account and haven't completed it yet, it will appear like this:
 
-![screenshot: Showing incomplete secondary account](/files/dashboard-multiple-account-card.png)
+![screenshot: Showing incomplete secondary account](/files/dashboard-account-cards.png)
 
 ## Account overview
 

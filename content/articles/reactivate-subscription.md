@@ -28,7 +28,7 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 1. Log in to DNSimple with your user credentials.
 1. Go to [your dashboard](https://dnsimple.com/dashboard).
 1. Locate the accounts section of your dashboard.
-1. You'll see a card with your account name on it. Click **Select a plan** on this card.
+1. You'll see a card with your account name on it. Click **Unlock advanced features** on this card.
     ![screenshot selecting a plan](/files/select-a-plan.png)
 1. Choose the plan that fits your needs, and click **Get started**.
 1. Enter your payment information and click **Create Subscription**.
@@ -37,7 +37,7 @@ If your account was on one of our legacy plans, you will not be able to reactiva
 1. Click the account switcher at the top-right corner of the screen.
 1. Click on the account you want to reactivate, then select **Account settings**.
 1. Click the **Billing and plans** tab on the left side of the screen.
-1. You'll see a card with a **No plan selected** alert. Click **select plan** at the bottom of this card.
+1. You'll see a card with a **Unlock more with a plan** message. Click **Unlock advanced features** at the bottom of this card.
     ![screenshot no plan selected](/files/no-plan-selected.png)
 1. Choose the plan that fits your needs, and click **Get started**.
 1. Enter your payment information and click **Create Subscription**.
