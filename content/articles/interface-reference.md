@@ -13,7 +13,7 @@ This document provides a visual reference for key pages related to DNS managemen
 ## Record Editor
 The [Record Editor](/articles/record-editor/)  is where you manage your domain's DNS records. You can add, edit, or delete records from this page.
 
- ![Screenshot of record editor page](/content/files/record-editor-ref-1.png)
+ ![Screenshot of record editor page](/files/record-editor-ref-1.png)
 
 1. **Add record**: Click this button to create a new DNS record.
 1. **Import/Export**: Click this button to import your zone file from another provider or to export a copy of your DNSimple zone file.
