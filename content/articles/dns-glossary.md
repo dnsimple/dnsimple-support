@@ -70,7 +70,7 @@ Learn more:
 
 ## Server Types & Resolution
 
-### DNS Resolver (recursive DNS server/caching DNS server) 
+### DNS Resolver (Recursive DNS Server/Caching DNS Server) 
 
 The first stop in a DNS query, typically provided by your Internet Service Provider (ISP) or a public DNS service (e.g., Google Public DNS). A recursive resolver receives a DNS query from a client and performs the necessary steps (querying root, TLD, and authoritative name servers) to find the requested IP address. It also caches results to speed up future queries for the same domain. 
 
@@ -118,7 +118,7 @@ Learn more:
 
 ## DNS Record Types
 
-### DNS Record (resource record/RR)
+### DNS Record (Resource Record/RR)
 
 A fundamental data element in the Domain Name System. Each record contains information about a specific aspect of a domain, like its IP address, mail server, or other service locations. Records are stored in zone files on authoritative DNS servers.
 
@@ -241,7 +241,7 @@ Learn more:
 - [RFC 6844](https://datatracker.ietf.org/doc/html/rfc6844)  
 - [What Is a CAA Record?](/articles/caa-record/)
 
-## Privacy & transport
+## Privacy & Transport
 
 ### DANE 
 
