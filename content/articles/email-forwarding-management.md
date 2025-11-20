@@ -47,7 +47,7 @@ Email forwarding is applied on a per-domain basis.
 
 ## Catch-all email forwarding
 
-To create a catch-all email forward, enter `(.*)` in the **From** field. This will forward emails sent to any address at your domain that doesn't have a specific forwarding rule.
+To create a catch-all email forward, select the **Catch-all** option when creating a new email forward. This will forward emails sent to any address at your domain that doesn't have a specific forwarding rule.
 
 <info>
 When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply.
