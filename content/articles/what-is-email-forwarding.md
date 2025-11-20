@@ -73,9 +73,13 @@ Email forwarding at DNSimple is billed monthly on a per-domain basis. The number
 
 To start using email forwarding, you'll need to:
 
-1. Have a domain managed in your DNSimple account.
+1. Have a domain managed in your DNSimple account with a primary (forward) zone. Email forwarding is not supported for secondary zones.
 2. Be subscribed to a DNSimple plan that includes email forwarding.
 3. Configure email forwarding rules for the addresses you want to forward.
+
+<warning>
+**Important:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider, that service will stop working.
+</warning>
 
 For step-by-step instructions, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
 

@@ -13,6 +13,10 @@ You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email
 
 The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
 
+<warning>
+**Secondary zones:** Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
+</warning>
+
 ## Enable email forwarding
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
@@ -24,6 +28,10 @@ The number of forwarded messages and email forwards allowed per month is based o
 1. Create an email forward to enable the service.
 
 When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
+
+<warning>
+**Existing MX records:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider (such as Google Workspace or Microsoft 365), that service will stop working. Make sure you're ready to switch to email forwarding before enabling it.
+</warning>
 
 <info>
 To see how to enable email forwarding with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/#createEmailForward). 
@@ -44,7 +52,9 @@ Our email forwarding provider does not support International Domain Names (domai
 
 ## Common considerations
 
-**Email hosting compatibility:** When you use email forwarding on a domain, you cannot use any other email service providers (e.g., Google Workspace) simultaneously. Email forwarding and email hosting services both use MX records, and a domain can only have one set of MX records.
+**Email hosting compatibility:** When you use email forwarding on a domain, you cannot use any other email service providers (e.g., Google Workspace) simultaneously. Email forwarding and email hosting services both use MX records, and a domain can only have one set of MX records. Existing MX records will be automatically removed when you enable email forwarding.
+
+**Secondary zones:** Email forwarding requires a primary (forward) zone. If your domain uses a secondary zone, you'll need to convert it to a primary zone before you can enable email forwarding.
 
 **DNS propagation:** After enabling email forwarding, it may take some time for DNS changes to propagate. This typically takes a few minutes to a few hours, depending on DNS caching.
 

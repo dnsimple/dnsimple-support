@@ -50,13 +50,13 @@ You can create email forwards from either the domain's Email Forwarding page or 
 
 A catch-all email forward forwards emails sent to any address at your domain that doesn't have a specific forwarding rule. This is useful if you want to receive emails sent to any address at your domain.
 
-To create a catch-all address, follow the instructions to create an email forward, and enter the following wildcard expression in the **From** field:
+To create a catch-all address, follow the instructions to create an email forward. In the email forward form, select the **Catch-all** option. Alternatively, you can enter the following wildcard expression in the **From** field:
 
 ```
 (.*)
 ```
 
-The expression is represented as a period followed by an asterisk. **The parenthesis are required.**
+The expression is represented as a period followed by an asterisk within parentheses. **The parentheses are required.** The UI also supports the format `.*` (without parentheses) for backward compatibility, but `(.*)` is the recommended format.
 
 <info>
 When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
