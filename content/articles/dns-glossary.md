@@ -1,6 +1,7 @@
 ---
 title: DNS Glossary
-excerpt: A glossary of important DNS terms to understand.
+excerpt: Defines terms related to DNS.
+meta: Explore our comprehensive DNS glossary, featuring essential definitions and terms to enhance your understanding of DNS and its critical components.
 categories:
 - DNS
 ---
