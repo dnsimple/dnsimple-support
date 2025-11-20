@@ -32,12 +32,12 @@ Explanation:
   - What Is a Zone File?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
+  - DNSimple Points of Presence
   - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?
-  - Regional Records
+  - Explanation of Regional Records
   - What Is Anycast DNS and Why Use It?
-  - Anycast DNS
-  - Why DNSSEC and Secondary DNS may not work together
+  - Why DNSSEC and Secondary DNS May Not Work Together
   - How ALIAS Records Resolve with Secondary DNS
   - Protection Against DDoS Attacks
   - What Is EDNS Client Subnet Support?
@@ -95,6 +95,7 @@ How to:
   - Zone NS Records
 
 Reference: 
+  - DNS Glossary
   - Supported DNS Records and DNS Record Types
   - A Record Format
   - AAAA Record Format
