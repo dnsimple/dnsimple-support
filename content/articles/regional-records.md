@@ -8,33 +8,23 @@ categories:
 
 # Regional Records
 
-<info>
-This article describes a feature only available on the Teams plan and higher, where it's enabled by default. [See the differences between plans](/articles/dnsimple-plans/).
-</info>
+Regional records are a feature from DNSimple that lets you specify the geographical regions where a DNS record will be available. This feature gives you granular control over DNS responses, tailoring them based on where a [DNS](/articles/what-is-dns/) request originates. Instead of a record being served from all of DNSimple's points of presence (POPs), you can restrict it to a select few. This is particularly useful for geographically sensitive applications like content delivery networks (CDNs) or services that need to route traffic to a specific regional server.
 
-Regional records let you select points of presence (POP) — geographical regions where you want a record to appear.
+## How regional records work 
 
-We have <%= POPS.count %> points of presence:
+Regional records provide an extra layer of control over the DNS resolution process. When a DNS request arrives at DNSimple, our system checks its origin location. If the request comes from a region you've specified for a particular record, our name server in that POP will serve the record's content. If the request comes from a region that is not specified, that record will not be served.
+
+By default, if you don't specify any regions for a record, it's made available across all of DNSimple's POPs. You have the option to pick from our <%= POPS.count %> points of presence:
 
 <% POPS.each do |server| %>* <%= server %>
 <% end %>
 
-When you're setting up a new record for your domain, you have the option to specify its Points of Presence (POPs). **If you don't specify any, the record will be made available across all DNSimple's Points of Presence by default.**
+## Important usage notes
+Understanding how internet traffic is routed is critical when using regional records. Network operators' routing preferences are complex. They're influenced by factors like costs, specific agreements, and optimal routing selection. This means that geographical proximity and network topology don't always align perfectly, which can lead to unpredictable results with network packets.
 
-![choose regions to respond from](/files/choose-regions.png)
+For example, a request originating from a location close to one POP might still terminate at a different, seemingly farther POP due to a network operator's specific routing path. To account for this, it's best practice to include records for POPs that are geographically close to each other to prevent potential DNS resolution failures.
 
-## Regional record usage note
-
-Our regional records provide additional granularity for customers who want to tailor their DNS responses based on the DNS requests origination.
-
-We have multiple POPs. Some of these are geographically close, which can affect the routing path taken from Internet Service Providers (ISPs) used by the customers to our POPs.
-
-Internet traffic routing is impacted by multiple factors. Network operators' routing preferences vary based on optimal routing selection, costs, and specific operator agreements.
-
-In certain cases, network topology and geographical proximity do not align perfectly and can lead to unpredictable results with regard to where the network packets terminate.
-
-When setting up regional records, it's important to include records for POPs that are geographically close to each other. Not doing so can cause failing DNS resolution due to the above factors.
+This feature is available on the [Teams plan and higher](https://dnsimple.com/pricing) and is enabled by default for those plans.
 
 ## Have more questions?
-
-[Contact us](https://dnsimple.com/feedback) with any questions about regional records usage, and we'll be happy to help.
+If you have additional questions or need any assistance with regional records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
