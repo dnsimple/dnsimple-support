@@ -219,10 +219,10 @@ Learn more:
 ### TXT Record 
 
 TXT (Text) records allow domain administrators to store arbitrary human-readable text information in DNS. TXT records are commonly used for various purposes, including:
-
 - **DKIM (DomainKeys Identified Mail):** Provides a way for email senders to cryptographically sign outgoing emails, allowing recipients to verify the email's authenticity and integrity.
 - **Domain verification:** Many services use TXT records to verify domain ownership.
-    - *Example: `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`* 
+
+*Example: `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`* 
 
 Learn more: 
 
