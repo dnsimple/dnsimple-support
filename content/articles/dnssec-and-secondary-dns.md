@@ -1,5 +1,5 @@
 ---
-title: Why DNSSEC and Secondary DNS may not work together
+title: Why DNSSEC and Secondary DNS May Not Work Together
 excerpt: A detailed explanation as to why DNSSEC and Secondary DNS may not be compatible together.
 categories:
 - DNS
