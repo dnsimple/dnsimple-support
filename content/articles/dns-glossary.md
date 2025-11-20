@@ -5,14 +5,20 @@ meta: Explore our comprehensive DNS glossary, featuring essential definitions an
 categories:
 - DNS
 ---
-
 # DNS Glossary
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 ## Core Concepts
 
 ### DNS 
 
-The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It's often referred to as the "phonebook of the internet." 
+The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It's often referred to as the phonebook of the internet.
 
 Learn more: 
 
@@ -123,7 +129,9 @@ Learn more:
 
 ### A Record 
 
-A (Address) records map a domain name or subdomain to an IPv4 address. This is the most common type of DNS record, essential for directing web traffic to a server. *Example: `example.com. IN A 192.0.2.1`* 
+A (Address) records map a domain name or subdomain to an IPv4 address. This is the most common type of DNS record, essential for directing web traffic to a server. 
+
+*Example: `example.com. IN A 192.0.2.1`* 
 
 Learn more: 
 
@@ -132,7 +140,9 @@ Learn more:
 
 ### AAAA Record 
 
-An AAAA (IPV6 address) record maps a domain name or subdomain to an IPv6 address. Similar to an A record, but for the newer IPv6 protocol. *Example: `example.com. IN AAAA 2001:0db8::1`* 
+An AAAA (IPV6 address) record maps a domain name or subdomain to an IPv6 address. Similar to an A record, but for the newer IPv6 protocol. 
+
+*Example: `example.com. IN AAAA 2001:0db8::1`* 
 
 Learn more: 
 
@@ -141,7 +151,9 @@ Learn more:
 
 ### CNAME Record 
 
-CNAME (Canonical Name) records create an alias from one domain name to another canonical (true) domain name. It's often used to point subdomains (e.g., `www.example.com`) to the root domain (`example.com`) or to external services. A CNAME cannot exist at the root domain. *Example: `www.example.com. IN CNAME example.com.`* 
+CNAME (Canonical Name) records create an alias from one domain name to another canonical (true) domain name. It's often used to point subdomains (e.g., `www.example.com`) to the root domain (`example.com`) or to external services. A CNAME cannot exist at the root domain. 
+
+*Example: `www.example.com. IN CNAME example.com.`* 
 
 Learn more: 
 
@@ -150,7 +162,9 @@ Learn more:
 
 ### MX Record 
 
-MX (Mail Exchange) records specify the mail servers responsible for receiving email on behalf of a domain. MX records include a preference value, indicating the order in which mail servers should be tried. *Example: `example.com. IN MX 10 mail.example.com.`*
+MX (Mail Exchange) records specify the mail servers responsible for receiving email on behalf of a domain. MX records include a preference value, indicating the order in which mail servers should be tried. 
+
+*Example: `example.com. IN MX 10 mail.example.com.`*
 
 Learn more: 
 
@@ -160,7 +174,9 @@ Learn more:
 
 ### NS Record 
 
-NS (Name Server) records identify the authoritative name servers for a domain or subdomain. NS records are crucial for delegating control of a DNS zone to specific servers. *Example: `example.com. IN NS ns1.dnsimple.com.`* 
+NS (Name Server) records identify the authoritative name servers for a domain or subdomain. NS records are crucial for delegating control of a DNS zone to specific servers. 
+
+*Example: `example.com. IN NS ns1.dnsimple.com.`* 
 
 Learn more: 
 
@@ -169,7 +185,9 @@ Learn more:
 
 ### PTR Record 
 
-PTR (Pointer) records perform a reverse DNS lookup, mapping an IP address back to a domain name. Primarily used for email validation, spam filtering, and network troubleshooting. PTR records are configured by the IP address owner (often an ISP or hosting provider). *Example: `1.2.0.192.in-addr.arpa. IN PTR example.com.`* 
+PTR (Pointer) records perform a reverse DNS lookup, mapping an IP address back to a domain name. Primarily used for email validation, spam filtering, and network troubleshooting. PTR records are configured by the IP address owner (often an ISP or hosting provider). 
+
+*Example: `1.2.0.192.in-addr.arpa. IN PTR example.com.`* 
 
 Learn more: 
 
@@ -178,7 +196,9 @@ Learn more:
 
 ### SOA Record 
 
-SOA (Start Of Authority) records provide essential administrative information about a DNS zone, including the primary name server, the email address of the domain administrator, the zone's serial number (indicating when the zone file was last updated), and various timers for refresh, retry, and expiry. Every zone file must have one SOA record. *Example: `example.com. IN SOA ns1.dnsimple.com. hostmaster.example.com. ( 2025071101 7200 3600 1209600 3600 )`* 
+SOA (Start Of Authority) records provide essential administrative information about a DNS zone, including the primary name server, the email address of the domain administrator, the zone's serial number (indicating when the zone file was last updated), and various timers for refresh, retry, and expiry. Every zone file must have one SOA record. 
+
+*Example: `example.com. IN SOA ns1.dnsimple.com. hostmaster.example.com. ( 2025071101 7200 3600 1209600 3600 )`* 
 
 Learn more: 
 
@@ -187,7 +207,9 @@ Learn more:
 
 ### SRV Record
 
-SRV (Service) records locate specific services (like SIP for VoIP or XMPP for instant messaging) within a domain. SRV records specify the host and port number where a service can be found, along with priority and weight values for load balancing. *Example: `_sip._tcp.example.com. IN SRV 10 0 5060 sip.example.com.`* 
+SRV (Service) records locate specific services (like SIP for VoIP or XMPP for instant messaging) within a domain. SRV records specify the host and port number where a service can be found, along with priority and weight values for load balancing. 
+
+*Example: `_sip._tcp.example.com. IN SRV 10 0 5060 sip.example.com.`* 
 
 Learn more: 
 
@@ -199,7 +221,8 @@ Learn more:
 TXT (Text) records allow domain administrators to store arbitrary human-readable text information in DNS. TXT records are commonly used for various purposes, including:
 
 - **DKIM (DomainKeys Identified Mail):** Provides a way for email senders to cryptographically sign outgoing emails, allowing recipients to verify the email's authenticity and integrity.
-- **Domain verification:** Many services use TXT records to verify domain ownership. *Example: `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`* 
+- **Domain verification:** Many services use TXT records to verify domain ownership.
+    - *Example: `example.com. IN TXT "v=spf1 include:_spf.example.com ~all"`* 
 
 Learn more: 
 
@@ -209,7 +232,9 @@ Learn more:
 
 ### CAA Record 
 
-CAA (Certificate Authority Authorization) records allow domain owners to specify which **Certificate Authorities** (CAs) are authorized to issue **SSL/TLS certificates** for their domain. This helps prevent unauthorized certificate issuance and improves security. *Example: `example.com. IN CAA 0 issue "letsencrypt.org"`* 
+CAA (Certificate Authority Authorization) records allow domain owners to specify which **Certificate Authorities** (CAs) are authorized to issue **SSL/TLS certificates** for their domain. This helps prevent unauthorized certificate issuance and improves security. 
+
+*Example: `example.com. IN CAA 0 issue "letsencrypt.org"`* 
 
 Learn more: 
 
