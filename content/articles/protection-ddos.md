@@ -28,7 +28,7 @@ This multilayered defense, powered by Anycast routing, ensures that your domain 
 
 DNSimple's name servers and DDoS protection infrastructure are distributed in multiple locations around the world. We are always working to introduce additional providers for zones where complete redundancy is critical.
 
-If you’re interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
+If you're interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
 
 ## Have more questions? 
 If you have additional questions or need any assistance with your domain security, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
