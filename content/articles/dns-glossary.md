@@ -11,7 +11,7 @@ categories:
 
 ### DNS 
 
-The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It’s often referred to as the "phonebook of the internet." 
+The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It's often referred to as the "phonebook of the internet." 
 
 Learn more: 
 
@@ -173,7 +173,7 @@ PTR (Pointer) records perform a reverse DNS lookup, mapping an IP address back t
 Learn more: 
 
 - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035#section-3.3.12)  
-- What’s a PTR Record? 
+- What's a PTR Record? 
 
 ### SOA Record 
 
