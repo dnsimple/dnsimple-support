@@ -17,7 +17,7 @@ For DNSSEC to function correctly, every authoritative name server for a domain *
 
 The problem arises when a DNS resolver (the client making the query) gets the [DNSKEY](/articles/dnskey-records-explained/) from one authoritative name server and the RRSIG from a different authoritative name server. Both servers must be able to sign with the same private key and must have access to that private key material.
 
-## The conflict with Secondary DNS
+## The conflict with secondary DNS
 
 Secondary DNS servers typically get their zone data from a primary server using a process called a zone transfer (**AXFR** or **IXFR**). These transfer protocols, however, **do not support transferring private key material**.
 
