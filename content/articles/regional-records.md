@@ -1,12 +1,12 @@
 ---
-title: Regional Records
+title: Explanation of Regional Records
 excerpt: Select geographical regions where you want a record to appear.
 meta: Easily manage your DNS records by selecting specific geographical regions for their visibility, ensuring optimal performance and relevance for your audience.
 categories:
 - DNS
 ---
 
-# Regional Records
+# Explanation of Regional Records
 
 Regional records are a feature from DNSimple that lets you specify the geographical regions where a DNS record will be available. This feature gives you granular control over DNS responses, tailoring them based on where a [DNS](/articles/what-is-dns/) request originates. Instead of a record being served from all of DNSimple's points of presence (PoPs), you can restrict it to a select few. This is particularly useful for geographically sensitive applications like content delivery networks (CDNs) or services that need to route traffic to a specific regional server.
 
