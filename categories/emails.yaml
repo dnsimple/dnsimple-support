@@ -1,10 +1,27 @@
 Getting started:
-- "Email Forwarding"
-- "Email Hosting Support"
+  - "Email Services at DNSimple"
 
-Email DNS records:
-- "What's a DKIM Record?"
-- "What's a DMARC record?"
+Explanation:
+  - "What Is Email Forwarding?"
+  - "Email Hosting Support"
+  - "What Is an SPF Record?"
+  - "What Is a DKIM Record?"
+  - "What Is a DMARC Record?"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
+How to:
+  - "Enabling Email Forwarding"
+  - "Creating and Deleting Email Forwards"
+  - "Setting Up SPF Records"
+  - "Setting Up DKIM"
+  - "Setting Up DMARC"
+  - "Verifying SPF with dig and Online Tools"
+  - "Verifying DKIM with dig and Online Tools"
+  - "Verifying DMARC with dig and Online Tools"
+  - "Troubleshooting Email Forwarding with Gmail"
+  - "Troubleshooting Email Authentication"
+
+Reference:
+  - "Email Forwarding Management in DNSimple"
+  - "SPF Record Syntax and Validation Reference"
+  - "DKIM Record Reference"
+  - "DMARC Record Reference"

@@ -8,82 +8,28 @@ categories:
 
 # Email Forwarding
 
-### Table of Contents {#toc}
+This article provides an overview of email forwarding at DNSimple. For detailed instructions, see:
 
-* TOC
-{:toc}
+- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Learn what email forwarding is and how it works.
+- [Enabling Email Forwarding](/articles/enabling-email-forwarding/) - Step-by-step guide to enabling email forwarding.
+- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - How to create, edit, and remove email forwards.
+- [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/) - Detailed guide to the email forwarding interface.
 
----
+## Quick overview
 
-Email forwarding is enabled and billed monthly on a per-domain basis.
+Email forwarding is enabled and billed monthly on a per-domain basis. The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
 
-The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
+When you enable email forwarding, DNSimple automatically adds the necessary DNS records to support forwarding. You can then create email forwards to redirect emails from addresses at your domain to other email addresses.
 
-## Enabling email forwarding
+## Getting started
 
-You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email forwarding.
+To get started with email forwarding:
 
-To enable email forwarding, visit a domain's manage page and click on the **Email forwarding** menu on the sidebar.
-1. If you have more than one account, select the relevant one from the account switcher at the top-right corner of the screen.
-2. Choose the relevant domain from your Domain List.
-3. Click the **Email Forwarding** tab on the left side.
-    ![screenshot of email forwarding tab](/files/forwarding-tab.png)
+1. Ensure you're subscribed to a plan that includes email forwarding.
+2. Navigate to your domain's **Email Forwarding** tab.
+3. Create your first email forward to enable the service.
 
-4. Create an email forward to enable the service.
-
-When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
-
-## Creating an email forward
-
-<div class="section-steps" markdown="1">
-##### Adding an email forward from the dashboard
-
-1.  If you have more than one account, select the relevant one.
-1.  Click <label>Add</label> from the Dashboard, and choose <label>Email forward</label> from the provided options.
-  ![Adding an email forward](/files/add-button-email-forward.png)
-</div>
-
-To create an email forward, specify the **From** and **To** fields.
-![screenshot of new email forwarding](/files/new-email-forward.png)
-
-The **From** field is used to match an email address to forward from. Enter a specific name (e.g. `test`) without the domain.
-
-In the **To** field, enter the full email address that you want to forward the email to.
-
-<info>
-  When adding an email forward from the dashboard, select the zone to apply it to in the **From** field. Note that only zones resolving through DNSimple will be included in the list.
-</info>
-
-### Catch-all emails {#catch-all-emails}
-
-<info>
-When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
-</info>
-
-To create a catch-all address, follow the instructions to create an email, and enter the following wildcard expression in the **From** field:
-
-    (.*)
-
-The expression is represented as a period followed by an asterisk. **The parenthesis are required**.
-
-<note>
-When you use email forwarding on a domain, you cannot use any other email service providers (e.g. Google Apps).
-</note>
-
-## Deleting an email forward
-
-To remove an email forward from your domain:
-
-1. Locate the email forwarding configuration that you want to delete under the **Current Email Forwards** section.
-2. Click **Delete**.
-
-![Email forwarding creation](/files/email-forwarding-removal.png)
-
-The email forwarding will be deleted immediately, and you will no longer receive emails through this configuration.
-
-## Internationalized Domain Names (IDN) support {#idna}
-
-Our email forwarding provider does not support International Domain Names (domains with non-standard characters). You cannot use an email address with an IDN domain as a destination or to configure email forwards for an IDN domain.
+For detailed instructions, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
 
 ## Have more questions?
 
