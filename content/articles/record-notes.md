@@ -23,12 +23,6 @@ When creating, updating, or deleting a DNS record from the [DNS record editor](/
   <iframe loading="lazy" src="https://www.youtube.com/embed/-97jhZOmcm0?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Viewing a record note
-
-When you update a record, you'll be able to view the note associated with the record in the **Notes** field, if one exists.
-
-![Viewing record notes](/files/record-notes-edit.png)
-
 ## Creating a record deletion note
 
 When deleting a record, you can also include a note to help you remember why you deleted it.
@@ -42,12 +36,6 @@ When deleting a record, you can also include a note to help you remember why you
 1. In the popup, you can enter a note to help you remember the reason for the record deletion.
     ![Make a note for record deletion](/files/record-notes-deletion-note.png)
 </div>
-
-## Viewing record notes in your audit history
-
-When you create, update, or delete a record, and add a record note, the note will be included with the DNS record activity in your [audit history](/articles/activity-tracking/).
-
-![Record note in audit history](/files/record-notes-activities.png)
 
 ## Have more questions?
 
