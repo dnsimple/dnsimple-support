@@ -3,6 +3,7 @@ title: .BANK Domains
 excerpt: This article explains the requirements and special procedures for .BANK domain names.
 categories:
 - Domains
+- Enterprise
 ---
 
 # .BANK Domain Names
