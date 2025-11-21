@@ -23,16 +23,6 @@ When creating, updating, or deleting a DNS record from the [DNS record editor](/
   <iframe loading="lazy" src="https://www.youtube.com/embed/-97jhZOmcm0?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Creating a record note
-
-1. Click the relevant domain in your Domain List.
-1. Click the DNS badge in the top right.
-    ![screenshot: dns badge navigation item](/files/dns-badge.png)
-1. To add a note to an existing record, click the **Add Note** icon on the right side, and enter your note.
-    ![screenshot: showing how to add a dns record note](/files/dns-record-note.png)
-1. To add a note when creating a record, click **Add Record**, create your record, and enter your note in the **Notes** field.
-    ![Record notes](/files/record-notes.png)
-
 ## Viewing a record note
 
 When you update a record, you'll be able to view the note associated with the record in the **Notes** field, if one exists.
