@@ -4,6 +4,7 @@ excerpt: How to use Okta to create and log in to accounts.
 meta: Learn how to seamlessly integrate Okta as your identity provider for account creation and secure logins, enhancing your user experience and security.
 categories:
 - Account
+- Enterprise
 ---
 
 # Okta as an Identity Provider
