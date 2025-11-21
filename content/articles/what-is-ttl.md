@@ -1,13 +1,13 @@
 ---
-title: What is Time-to-Live?
+title: What Is Time-to-Live?
 excerpt: In DNS, resource records are held in cache on a resolver for an amount of time specified by time-to-live (TTL).
-meta: Learn what Time-to-live is TTL, and how to manage it in your DNSimple domain DNS settings to control caching of your DNS records lookup.
+meta: Learn what Time-to-live (TTL) is and how to manage it in your DNSimple domain DNS settings to control caching of your DNS records lookup.
 categories:
 - DNS
 ---
 
 
-# What is Time-to-Live?
+# What Is Time-to-Live?
 
 ### Table of Contents {#toc}
 
@@ -34,7 +34,8 @@ The record is kept in cache on the resolver and is served to clients that reques
 ## Record forwarding
 
 In some setups, one resolver might get a record forwarded to it from another resolver. In this case, the TTL value that is forwarded is the current effective TTL, and not the initial TTL value.
-TTL in DNSimple
+
+## TTL in DNSimple
 
 DNSimple's default TTL value is 1 hour, or 3600 seconds, but supports TTL values from 1 minute up to 3 days. When changes are anticipated, lowering a record's TTL value helps it propagate faster but results in worse performance for clients. After changes are made, we recommend increasing the TTL back to at least 1 hour to ensure more efficient cache results.
 ![screenshot of configuring TTL for a DNS record](/files/ttl-configure.png)
@@ -44,3 +45,6 @@ TTL values in DNSimple can be set up in the dashboard when you create a record:
 
 And can be edited when changing a record in the dashboard:
 ![screenshot of editing your TTL for existing DNS record](/files/ttl-regions.png)
+
+## Have more questions?
+If you have additional questions about TTL, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
