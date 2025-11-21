@@ -12,6 +12,7 @@ Enterprise-exclusive:
   Security:
   - Domain Access Control
   - Multi-Factor Authentication
+  - Enforce Multi-Factor Authentication for All Members of an Account
   - Entra as an Identity Provider
   - Okta as an Identity Provider
   - Google as an Identity Provider
