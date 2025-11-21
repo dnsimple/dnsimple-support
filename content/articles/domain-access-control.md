@@ -4,6 +4,7 @@ excerpt: Control what each account member can access on a per-domain or per-zone
 categories:
 - Account
 - Domains
+- Enterprise
 ---
 
 # Domain Access Control
