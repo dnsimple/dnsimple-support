@@ -1,52 +1,52 @@
----
-Enterprise_Exclusive:
-  - Managing Vanity Name Servers
-  - What Are Vanity Name Servers?
-  - Contacting DNSimple Support
-  - Digital Wallet Replenishment
-  - Understanding Your DNSimple Invoice
-  - Multi-Account Management for Enterprise Clients
-  - Entra as an Identity Provider
-  - .BANK Domains
-  - .INSURANCE Domains
-  
-  Security:
-  - Domain Access Control
-  - Multi-Factor Authentication
-  - Enforce Multi-Factor Authentication for All Members of an Account
-  - Okta as an Identity Provider
-  - Google as an Identity Provider
-  - Protection Against DDoS Attacks
-  - What Is DNSSEC (Domain Name System Security Extensions)?
-  - Enabling DNSSEC
-  - Disabling DNSSEC
-  - Rotate DNSSEC Keys
-  - What Are DS Records?
-  - What Are CDS and CDNSKEY?
-  - SSL/TLS Certificates
-  - SSL Certificate Types
-  - Ordering a Let's Encrypt Certificate
-  - Ordering a Wildcard SSL Certificate
-  
-  Infra:
-  - Where are your servers located?
-  - Regional Records
-  - Add a secondary DNS server to DNSimple
-  - Using DNSimple alongside other DNS providers
-  - Add DNSimple as Secondary DNS with a Hidden Primary
-  - Add DNSimple as a secondary DNS server
-  - Adding Dyn as a Secondary DNS Server
-  - Add DNSMadeEasy as a secondary DNS server
-  - Adding EasyDNS as a Secondary DNS Server
-  
-  General:
-  - API Rate Limit
-  - API Sandbox
-  - Terraform Provider
-  - Domain Zone Files
-  - What is a TLD?
-  - API Documentation
-  - API Access Token
-  - OAuth Applications
-  - Webhooks and API Events
-  - API Errors
+"Enterprise_exclusive":
+  - "Contacting DNSimple Support"
+  - "Digital Wallet Replenishment"
+  - "Understanding Your DNSimple Invoice"
+  - ".BANK Domains"
+  - ".INSURANCE Domains"
+
+Security:
+  - "Domain Access Control"
+  - "Multi-Account Management for Enterprise Clients"
+  - "Multi-Factor Authentication"
+  - "Enforce Multi-Factor Authentication for All Members of an Account"
+  - "Entra as an Identity Provider"
+  - "Okta as an Identity Provider"
+  - "Google as an Identity Provider"
+  - "Protection Against DDoS Attacks"
+  - "What Is DNSSEC (Domain Name System Security Extensions)?"
+  - "Enabling DNSSEC"
+  - "Disabling DNSSEC"
+  - "Rotate DNSSEC Keys"
+  - "What Are DS Records?"
+  - "What Are CDS and CDNSKEY?"
+  - "SSL/TLS Certificates"
+  - "SSL Certificate Types"
+  - "Ordering a Let's Encrypt Certificate"
+  - "Ordering a Wildcard SSL Certificate"
+
+Infra:
+  - "DNSimple Plans"
+  - "Where are your servers located?"
+  - "Managing Vanity Name Servers"
+  - "What Are Vanity Name Servers?"
+  - "Regional Records"
+  - "Add a secondary DNS server to DNSimple"
+  - "Using DNSimple alongside other DNS providers"
+  - "Add DNSimple as Secondary DNS with a Hidden Primary"
+  - "Add DNSimple as a secondary DNS server"
+  - "Adding Dyn as a Secondary DNS Server"
+  - "Add DNSMadeEasy as a secondary DNS server"
+  - "Adding EasyDNS as a Secondary DNS Server"
+
+General:
+  - "API Rate Limit"
+  - "API Sandbox"
+  - "Terraform Provider"
+  - "Domain Zone Files"
+  - "What is a TLD?"
+  - "API Documentation"
+  - "API Access Token"
+  - "OAuth Applications"
+  - "Webhooks and API Events"
+  - "API Errors"
