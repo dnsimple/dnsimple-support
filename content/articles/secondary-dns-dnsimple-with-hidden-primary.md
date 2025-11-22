@@ -4,6 +4,7 @@ meta: Configure DNSimple as a secondary DNS provider keeping your primary name s
 excerpt: Learn how to configure a hidden primary with DNSimple as a secondary DNS provider.
 categories:
 - Secondary DNS
+- Enterprise
 ---
 
 # Add DNSimple as Secondary DNS with a Hidden Primary
