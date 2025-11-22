@@ -40,7 +40,7 @@ Infra:
 General:
   - ".BANK Domains"
   - ".INSURANCE Domains"
-  -"API Rate Limit"
+  - "API Rate Limit"
   - "API Sandbox"
   - "Terraform Provider"
   - "Domain Zone Files"
