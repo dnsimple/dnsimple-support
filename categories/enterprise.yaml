@@ -1,9 +1,7 @@
-"Enterprise Exclusive":
+"Support and Billing":
   - "Contacting DNSimple Support"
   - "Digital Wallet Replenishment"
   - "Understanding Your DNSimple Invoice"
-  - ".BANK Domains"
-  - ".INSURANCE Domains"
 
 Security:
   - "Domain Access Control"
@@ -40,7 +38,9 @@ Infra:
   - "Adding EasyDNS as a Secondary DNS Server"
 
 General:
-  - "API Rate Limit"
+  - ".BANK Domains"
+  - ".INSURANCE Domains"
+  -"API Rate Limit"
   - "API Sandbox"
   - "Terraform Provider"
   - "Domain Zone Files"
