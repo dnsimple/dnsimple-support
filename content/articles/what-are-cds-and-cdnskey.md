@@ -3,6 +3,7 @@ title: What Are CDS and CDNSKEY?
 excerpt: CDS and CDNSKEY records help automate DNSSEC key updates by signaling parent zones, reducing manual errors and keeping your domain resolvable.
 categories:
 - DNSSEC
+- Enterprise
 ---
 
 # What Are CDS and CDNSKEY?

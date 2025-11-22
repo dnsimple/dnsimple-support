@@ -3,6 +3,7 @@ title: Adding EasyDNS as a Secondary DNS Server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider-specific settings for EasyDNS.
 categories:
 - Secondary DNS
+- Enterprise
 ---
 
 # Adding EasyDNS as a Secondary DNS Server

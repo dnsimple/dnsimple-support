@@ -4,6 +4,7 @@ excerpt: This article describes the DNSimple API webhook service delivery and ma
 meta: Discover how to effectively manage and deliver webhooks with DNSimple's API. Learn to integrate real-time updates for your applications seamlessly.
 categories:
 - API
+- Enterprise
 ---
 
 # Webhooks and API Events

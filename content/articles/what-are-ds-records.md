@@ -5,6 +5,7 @@ meta: Discover the importance of DS records in DNSSEC, how they enhance security
 categories:
 - DNSSEC
 - DNS
+- Enterprise
 ---
 
 # What are DS records?
