@@ -14,7 +14,7 @@ When deleting a record, you can also include a note to help you remember why you
 
 1. Access the [record editor](/articles/record-editor/) for the relevant domain.
 1. In the list of DNS records, locate the record you want to delete.
-1. Click the trash icon at the end of the record row to delete the record.
+1. Click the **trash** icon at the end of the record row to delete the record.
     ![Delete a record](/files/record-notes-delete.png)
 1. A confirmation pop-up will appear. In the pop-up, enter a note explaining the reason for the deletion.
     ![Make a note for record deletion](/files/record-notes-deletion-note.png)
