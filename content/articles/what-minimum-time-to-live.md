@@ -18,8 +18,8 @@ The **Time-to-Live (TTL)** value for a DNS record determines how long a DNS reso
 ## TTL recommendations
 The TTL value you set can affect both the performance and update speed of your domain.
 
-- **When to use a low TTL:** You may want to lower a record's TTL to a short value (e.g., 1 to 5 minutes) when you are preparing for an imminent DNS record change. A lower TTL ensures that the change from one address to another occurs quickly and propagates to resolvers across the internet in a shorter amount of time, reducing potential downtime.
-- **When to use a high TTL:** During normal, stable operation, it is generally better to keep your TTL at the default of **1 hour or more**. A higher TTL means that DNS resolvers only need to check for a record update once an hour, reducing DNS query traffic and resulting in better performance for your clients.
+- **When to use a low TTL:** You may want to lower a record's TTL to a short value (e.g., 1 to 5 minutes) when you are preparing for an imminent DNS record change. A lower TTL ensures the change from one address to another occurs quickly and propagates to resolvers across the internet faster, reducing potential downtime.
+- **When to use a high TTL:** During normal, stable operation, we recommend keeping your TTL at the default of **1 hour or more**. A higher TTL means DNS resolvers only need to check for a record update once an hour, reducing DNS query traffic and resulting in better performance for your clients.
 
 ## DNSimple-specific policy
 DNSimple reserves the right to review traffic patterns for performance and stability. If a record's TTL is deemed too low for a given traffic pattern, we may contact you via email first and request that you raise the TTL to a higher value. This is done to improve cache results and maintain the health of our DNS network.
