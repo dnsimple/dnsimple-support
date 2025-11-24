@@ -8,14 +8,14 @@ categories:
 
 # Querying MX Records
 
-You can use [`dig`](https://support.dnsimple.com/articles/what-is-dig/) to determine the [MX records](https://support.dnsimple.com/articles/what-is-dig/) associated with a domain name. 
+You can use [`dig`](/articles/what-is-dig/) to determine the [MX records](/articles/what-is-dig/) associated with a domain name. 
 
 MX records specify the mail servers responsible for receiving email on behalf of the domain. The result is contained in the **ANSWER** section. 
 
 It includes:
 
 - The fully-qualified domain name (FQDN)
-- The remaining [time-to-live (TTL)](https://support.dnsimple.com/articles/what-is-ttl/)
+- The remaining [time-to-live (TTL)](/articles/what-is-ttl/)
 - The priority
 - The mail server hostname
   
