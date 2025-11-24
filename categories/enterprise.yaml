@@ -24,9 +24,9 @@ Security:
   - "Ordering a Wildcard SSL Certificate"
 
 Infra:
-  - "DNSimple Plans"
-  - "Where are your servers located?"
   - "Managing Vanity Name Servers"
+  - "Where are your servers located?"
+  - "DNSimple Plans"
   - "What Are Vanity Name Servers?"
   - "Regional Records"
   - "Add a secondary DNS server to DNSimple"
