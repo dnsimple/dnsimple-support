@@ -30,8 +30,13 @@ Explanation:
   - What Is a Zone File?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
+  - DNSimple Points of Presence
   - Domain Zone Files
-  - Anycast DNS
+  - Reverse DNS Zones
+  - How Long Does It Take for a New Record to Resolve for My Domain?
+  - Explanation of Regional Records
+  - What Is Anycast DNS and Why Use It?
+  - Why DNSSEC and Secondary DNS May Not Work Together
   - How ALIAS Records Resolve with Secondary DNS
   - How Does Zone Verification Work?
   - How Long Does a New DNS Record Take to Resolve?
@@ -98,6 +103,7 @@ How to:
   - Zone NS Records
 
 Reference: 
+  - DNS Glossary
   - Supported DNS Records and DNS Record Types
   - A Record Format
   - AAAA Record Format
