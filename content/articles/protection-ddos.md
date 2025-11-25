@@ -4,6 +4,7 @@ excerpt: DNSimple offers multi-layered DDoS defense.
 meta: Protect your online presence with DNSimple's robust multi-layered DDoS defense. Ensure your services remain available and secure against malicious attacks.
 categories:
 - DNS
+- Enterprise
 ---
 
 # Protection Against DDoS Attacks

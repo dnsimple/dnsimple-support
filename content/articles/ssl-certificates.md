@@ -4,6 +4,7 @@ excerpt: Information about purchasing and managing an SSL/TLS certificate with D
 meta: Explore comprehensive articles on SSL certificates, covering installation, management, and best practices to secure your website and protect user data effectively.
 categories:
 - SSL Certificates
+- Enterprise
 ---
 
 # SSL/TLS Certificates

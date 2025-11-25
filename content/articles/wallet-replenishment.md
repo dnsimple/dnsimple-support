@@ -4,6 +4,7 @@ excerpt: How to add funds to your digital wallet
 meta: Learn how to easily add funds to your DNSimple digital wallet, ensuring seamless transactions and uninterrupted service for your domain management needs.
 categories:
 - Account
+- Enterprise
 ---
 
 # Digital Wallet Replenishment

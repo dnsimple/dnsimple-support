@@ -4,6 +4,7 @@ excerpt: Guides DNSSEC key rotation for DNSimple users, detailing auto-rotation 
 categories:
 - DNS
 - DNSSEC
+- Enterprise
 ---
 
 # Rotate DNSSEC Keys
