@@ -1,11 +1,11 @@
 ---
-title: What is DNS?
+title: What Is DNS?
 excerpt: DNS resolves human-readable domain names to machine-readable IP addresses.
 categories:
 - DNS
 ---
 
-# What is DNS?
+# What Is DNS?
 
 ### Table of Contents {#toc}
 
