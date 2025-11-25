@@ -1,5 +1,6 @@
 "Support and Billing":
   - "Contacting DNSimple Support"
+  - "DNSimple Plans"
   - "Digital Wallet Replenishment"
   - "Understanding Your DNSimple Invoice"
 
@@ -26,7 +27,6 @@ Security:
 Infra:
   - "Managing Vanity Name Servers"
   - "Where are your servers located?"
-  - "DNSimple Plans"
   - "What Are Vanity Name Servers?"
   - "Regional Records"
   - "Add a secondary DNS server to DNSimple"
