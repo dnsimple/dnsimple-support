@@ -31,7 +31,6 @@ Explanation:
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
   - DNSimple Points of Presence
-  - Domain Zone Files
   - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?
   - Explanation of Regional Records
@@ -86,6 +85,7 @@ How to:
   - Managing Integrated Zones for Integrated DNS Providers
   - Managing Integrated Zone Records
   - Managing URL Records
+  - Querying MX Records
   - Record Editor
   - Record Notes
   - Refreshing and Importing Integrated Zones
