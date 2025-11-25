@@ -3,9 +3,7 @@ Announcements:
   - Discontinuation of Legacy NS2 and NS4 IP Addresses
 
 Explanation:
-  - What is DNS?
-  - What is Time-to-Live?
-  - What's the Minimum Time-To-Live Provided by DNSimple?
+  - What Is DNS?
   - Common DNS Records
   - What Is an A Record?
   - What Is an AAAA Record?
@@ -39,32 +37,40 @@ Explanation:
   - What Is Anycast DNS and Why Use It?
   - Why DNSSEC and Secondary DNS May Not Work Together
   - How ALIAS Records Resolve with Secondary DNS
+  - How Does Zone Verification Work?
+  - How Long Does a New DNS Record Take to Resolve?
   - Protection Against DDoS Attacks
+  - Regional Records
+  - Reverse DNS Zones
   - What Is EDNS Client Subnet Support?
   - Why Should I Use DNSimple as a DNS Hosting Provider?
-  - Domain Zone Files
   - Integrated DNS Providers at DNSimple
   - Integrated DNS Provider Amazon Route 53
   - Integrated DNS Provider Azure DNS
   - Integrated DNS Provider CoreDNS
   - What Are Integrated DNS Providers and Why Use Them?
+  - What Is Anycast DNS and Why Use It?
+  - What Is dig?
   - What Is Dynamic DNS?
   - What Is Resolution Status?
+  - What Is Time-to-Live?
   - What Is Zone Verification and Why Does It Matter?
+  - Why DNSSEC and Secondary DNS may not work together
   - Why You Should Auto-Import DNS Records
-  - How Does Zone Verification Work?
  
 How to:
-  
-  - How to Use the Record Editor
-  - How To Add Common DNS Records
   - Activating and Deactivating a DNS Zone
   - Adding and Removing DS Records
   - Adding an SRV Record
   - Auto-Importing DNS Records
   - Check DNS Cache
   - Check Resolution Status
+  - Creating a Record Note
+  - Creating a Record Deletion Note
   - Export Zone File
+  - How To Add Common DNS Records
+  - How to Change TTL in DNSimple
+  - How to Use the Record Editor
   - How to Use dig
   - How to Use CoreDNS as an Integrated DNS Provider
   - How to Use Route 53 as an Integrated DNS Provider
@@ -92,6 +98,7 @@ How to:
   - Troubleshooting Record Resolution Issues
   - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools
+  - View Record Notes and Audit History
   - Zone NS Records
 
 Reference: 
@@ -114,7 +121,9 @@ Reference:
   - SSHFP Record Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
-  - IPv6 Domain Resolution Reference
+  - dig Reference Guide
   - DNSimple Interface Reference for DNS Management
+  - DNSimple TTL Settings Reference
+  - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
   - Understanding DNSimple's Record Editors Simple vs. Field-Specific
