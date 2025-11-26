@@ -66,7 +66,7 @@ A plain text file that contains all the DNS resource records for a specific DNS 
 
 Learn more: 
 
-- [Domain Zone Files](/articles/zone-files/)
+- [Domain Zone Files](/articles/what-is-zone-file/)
 
 ## Server Types & Resolution
 
