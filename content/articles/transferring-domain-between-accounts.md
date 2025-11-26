@@ -39,16 +39,16 @@ Once the domain is transferred, you can no longer control it under your current 
 1. Click on the relevant domain.
 1. Click the **Settings** tab on the left side.
 1. In the **Move domain to another DNSimple account** card, click **Move**.
-You will be prompted to enter the domain push identifier of the account that will receive the domain.
+You will be prompted to enter the account identifier of the account that will receive the domain.
 
-The recipient can find their domain push identifier by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Domain Push Identifier in the Account card on the right. They should copy that value and share it with you.
+The recipient can find their account identifier by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card on the right. They should copy that value and share it with you.
 
-1. Enter the **destination domain push identifier**.
+1. Enter the **destination account identifier**.
 1. Click **Move domain**.
 1. A banner will appear confirming the request to push the domain.
 
 <warning>
-Make sure to correctly enter the domain push identifier. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
+Make sure to correctly enter the account identifier. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
 </warning>
 
 ## Accepting a transfer
