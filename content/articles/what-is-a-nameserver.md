@@ -1,15 +1,21 @@
 ---
-title: What is a name server?
-excerpt: An explanation of what name servers are, why they're important, and how to set them up.
+title: What Is a Name Server?
+excerpt: Learn what name servers are, why they're important, and how they work in the DNS system.
+meta: Discover the role of name servers in DNS resolution and how they translate domain names into IP addresses to enable internet connectivity.
 categories:
 - Name Servers
 ---
 
-# What is a Name Server?
+# What Is a Name Server?
 
-Name servers work as a directory that translates domain names into IP addresses. They make things easy to find across the Internet.
+### Table of Contents {#toc}
 
-When you type a domain name into the search bar of your browser (Chrome, Safari, etc.), the domain name hits the name server, which translates the domain name into the IP address so the browser can locate it. Once it's found the domain name in the name server, your web browser uses the IP address to connect to the server and load the site you request.
+* TOC
+{:toc}
+
+---
+
+Name servers are specialized servers that form the backbone of the Domain Name System (DNS). They act as authoritative directories that translate human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), enabling computers to locate and connect to websites, email servers, and other internet services.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,16 +25,48 @@ When you type a domain name into the search bar of your browser (Chrome, Safari,
 "Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
 </info>
 
-## How do I change the name servers?
+## The role of name servers in DNS
 
-For security purposes, we don't make these changes on your behalf. If you purchase your domain with a registrar like DNSimple and keep it there forever, you don't have to do anything with the name servers.
+Name servers are essential components of the DNS infrastructure. When you type a domain name into your browser, your device queries name servers to find the corresponding IP address. This process, known as DNS resolution, involves multiple steps:
 
-If you transfer your domain to DNSimple to manage your DNS, you'll need to update the name servers. Luckily, the name servers are easy to change and easy to remember by following [these step-by-step instructions](/articles/delegating-dnsimple-registered/).
+1. Your browser sends a DNS query to a recursive resolver (typically provided by your internet service provider).
+2. The recursive resolver queries root name servers, which direct it to Top-Level Domain (TLD) name servers (like `.com` or `.org`).
+3. The TLD name servers provide the authoritative name servers for your domain.
+4. The recursive resolver queries these authoritative name servers to obtain the specific DNS records (like A records) for the domain.
+5. The IP address is returned to your browser, which then connects to the web server.
+
+To learn more about how DNS works, check out our [How DNS Works web comics](https://howdns.works/) or [What Is DNS?](/articles/what-is-dns/) support article.
+
+## Authoritative vs. recursive name servers
+
+There are two main types of name servers:
+
+- **Authoritative name servers**: These servers hold the "official" DNS records for a domain. They are the final source of truth for a domain's DNS information. When you delegate your domain to DNSimple, DNSimple's name servers become authoritative for your domain.
+
+- **Recursive name servers** (also called resolvers): These servers perform DNS lookups on behalf of clients. They query authoritative name servers and cache the results to improve performance. Your internet service provider typically provides recursive name servers.
+
+## How name servers relate to domain delegation
+
+When you register a domain, you specify which name servers are authoritative for that domain. This process is called **delegation**. The name servers you specify at your domain registrar determine where DNS queries for your domain will be directed.
+
+For example, if you delegate your domain to DNSimple's name servers (`ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.), all DNS queries for your domain will be answered by DNSimple's authoritative name servers, using the DNS records you've configured in your DNSimple account.
+
+## Managing your domain's name servers
+
+To use DNSimple as your DNS hosting provider, you need to delegate your domain to DNSimple's name servers. The process depends on where your domain is registered:
+
+- **If your domain is registered with DNSimple**: Follow our guide on [delegating a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+
+- **If your domain is registered elsewhere**: Follow our guide on [delegating a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
 <note>
-#### Check your name servers
+#### Verify your name server delegation
 
-Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
+It's important to verify that your domain is properly delegated to the correct name servers. If your domain isn't delegated to DNSimple, [changes you make to DNS records](/articles/record-editor/) won't resolve.
 
-If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.
+To check which name servers your domain is using, you can use tools like [zone.vision](https://zone.vision/#/) to perform a DNS lookup.
 </note>
+
+## Have more questions?
+
+If you have additional questions about name servers or need assistance with domain delegation, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
