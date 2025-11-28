@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Name servers are specialized servers that form the backbone of the Domain Name System (DNS). They act as authoritative directories that translate human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), enabling computers to locate and connect to websites, email servers, and other internet services.
+Name servers (also called nameservers) are specialized servers that form the backbone of the Domain Name System (DNS). They act as authoritative directories that translate human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), enabling computers to locate and connect to websites, email servers, and other internet services. When you need to change nameservers for your domain, you update the name server delegation at your domain registrar.
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,6 +58,12 @@ To use DNSimple as your DNS hosting provider, you need to delegate your domain t
 - **If your domain is registered with DNSimple**: Follow our guide on [delegating a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
 
 - **If your domain is registered elsewhere**: Follow our guide on [delegating a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
+
+### Changing name servers
+
+To change your domain's name servers (also called nameservers), you need to update the name server delegation at your domain registrar. When you change nameservers, you're telling the DNS system which name servers are authoritative for your domain. 
+
+If you need to change nameservers for your domain to point to a different DNS provider, or switch back to DNSimple's name servers, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). Changing nameservers is a common task when migrating DNS hosting or switching between DNS providers.
 
 <note>
 #### Verify your name server delegation
