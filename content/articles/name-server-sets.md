@@ -1,11 +1,21 @@
 ---
 title: Name Server Sets
 excerpt: How to use name server sets to facilitate the configuration of domain name servers and zone NS records.
+meta: Learn how to create, manage, and use name server sets in DNSimple to streamline name server configuration and reduce errors.
 categories:
 - Name Servers
 ---
 
-# What Is A Name Server Set?
+# Name Server Sets
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+## What Is a Name Server Set?
 
 Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors.
 
