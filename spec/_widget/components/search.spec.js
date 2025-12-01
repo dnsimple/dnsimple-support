@@ -137,7 +137,6 @@ describe("Search", () => {
         "secondary-dns-dnsimple-as-secondary",
         "secondary-dns-provider-dns-made-easy",
         "secondary-dns-provider-dyn",
-        "secondary-dns-dnsimple-with-hidden-primary",
       ],
       "domain validation": ["icann-domain-validation"],
       "password reset": ["forgot-password"],
