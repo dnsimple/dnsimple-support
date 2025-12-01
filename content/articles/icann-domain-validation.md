@@ -21,7 +21,7 @@ For most top-level domains, validation is required by [ICANN](https://www.icann.
 
 ## How domain validation emails work
 
-When you make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
+After you register a new domain or make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
 ![Contact change confirmation](/files/contact-change.png)
 
