@@ -54,7 +54,7 @@ Once the email is verified, the warning should disappear. If it doesn't, it may 
 
 ## What happens when a domain is suspended?
 
-If your domain is suspended due to non-verification, the name servers will be changed to the following:
+If your domain is suspended because the registrant email address was not verified in time, the name servers will be changed to the following:
 
 - ns1.emailverification.info
 - ns2.emailverification.info
