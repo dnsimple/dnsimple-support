@@ -59,7 +59,7 @@ Technical Contact:
    US
 ~~~
 
-To learn how to enable or disable WHOIS Privacy protection for your domain, see [How to enable and disable WHOIS Privacy](/articles/whois-privacy/).
+To learn how to turn WHOIS Privacy protection on or off for your domain, see our How-To guide [How to enable and disable WHOIS Privacy](/articles/whois-privacy/).
 
 ## Have more questions?
 
