@@ -12,7 +12,7 @@ Most domain names registered through DNSimple, or any other domain registrar for
 
 This information is often displayed in the global Whois system (also known as WHOIS). Information displayed in the global WHOIS is public and can be viewed by anyone.
 
-If you would like to keep your contact information private for a domain then you may sign up for the [WHOIS privacy service](https://dnsimple.com/whois-privacy-protection).
+All DNSimple plans include WHOIS privacy service for TLDs that allow it. If you would like to see if the TLD supports WHOIS privacy service, visit the [TLD pricing page](https://dnsimple.com/tlds). Once you find the TLD you want to know about, click it and you will see **yes** or **no** listed for WHOIS privacy in the table. 
 
 This service will replace the public information that you provide with an anonymous proxy identity in the public WHOIS database. This includes replacing your email address with a proxy email address and replacing your address and contact information with the information from an entity called "Whois Privacy Protection Service, Inc.".
 
@@ -20,7 +20,8 @@ This service will replace the public information that you provide with an anonym
 The WHOIS privacy protection service is not provided directly by DNSimple, nor we are associated with the company Whois Privacy Protection Service, Inc.
 </info>
 
-Here is an example of the the WHOIS data for a domain that has WHOIS Privacy Protection enabled:
+Here is an example of the WHOIS data for a domain that has WHOIS Privacy Protection enabled:
+
 
 ~~~
 Domain name: dnsimple.net
@@ -58,6 +59,8 @@ Technical Contact:
    US
 ~~~
 
-## How to Enable and Disable WHOIS Privacy
-
 To learn how to enable or disable WHOIS Privacy protection for your domain, see [How to enable and disable WHOIS Privacy](/articles/whois-privacy/).
+
+## Have more questions?
+
+If you have additional questions about WHOIS Privacy, just [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
