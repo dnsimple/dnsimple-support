@@ -63,9 +63,9 @@ Additionally, a message will appear on your website indicating that your domain 
 
 ![Verification Web](/files/icann-verification-web.png)
 
-On this verification page is an option to resend the verification email. Requesting a resend will schedule a new verification email that is sent to the registrant email address.
+On this suspension page, you will find instructions on how to verify the registrant information. 
 
-However, if your domain is suspended, and you request a new verification email but do not receive it, this is likely because the email services associated with your domain have stopped working due to the suspension. To resolve this, [update the registrant contact information](/articles/changing-domain-contact/) to an active email address.
+However, if your domain is suspended, and you do not receive a verification email, this is likely because the email services associated with your domain have stopped working due to the suspension. To resolve this, [update the registrant contact information](/articles/changing-domain-contact/) to an active email address.
 
 Once the contact information has been updated and verified, a new verification email will be automatically sent. Click the link in that email to complete the validation process. After verifying the email, the domain suspension will be lifted.
 
