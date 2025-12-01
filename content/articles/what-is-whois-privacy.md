@@ -63,4 +63,4 @@ To learn how to turn WHOIS Privacy protection on or off for your domain, see our
 
 ## Have more questions?
 
-If you have additional questions about WHOIS Privacy, just [contact support](https://dnsimple.com/feedback), and we’ll be happy to help.
+If you have additional questions about WHOIS Privacy, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
