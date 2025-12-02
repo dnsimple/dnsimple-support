@@ -301,28 +301,6 @@ In particular, with Secondary DNS (like via AXFR), you must ensure both provider
 DNSimple complies with RFC 4592 and follows industry-standard behaviors consistent with implementations like PowerDNS.
 </warning>
 
-## Avoiding empty responses from ENTs
-
-If you're experiencing unexpected empty responses for certain domain names, they might be ENTs created by deeper records in your zone. To resolve this:
-
-1. **Identify the ENT:** Check if there are any records beneath the name returning empty responses.
-2. **Create an explicit record:** Add the record type and value you want returned at that name. You can add the same record type and value as the wildcard if you want consistent behavior.
-3. **Verify the change:** Use [`dig`](/articles/how-dig/) to confirm the name now returns the expected response.
-
-For example, to make `us.prod.example.com` return data, add an explicit record:
-
-```
-us.prod.example.com.   IN  A   192.168.0.50
-```
-
-Or if you want it to behave like the wildcard:
-
-```
-us.prod.example.com.   IN  A   192.168.0.11
-```
-
-After adding this record, `us.prod.example.com` is no longer an ENT—it now has its own record and will return that value when queried.
-
 ## Common scenarios that create ENTs
 
 Be aware of these common patterns that can create ENTs:
@@ -386,36 +364,13 @@ $ dig @ns1.dnsimple.com anything.prod.example.com A +short
 
 The presence of the ACME challenge record created ENTs along its path, blocking wildcard matching for those names.
 
-## Troubleshooting intermittent responses
+## Next steps
 
-If you're experiencing intermittent or unexpected empty responses, ENTs might be the cause. Follow these steps to diagnose and resolve the issue.
+Now that you understand what Empty Non-Terminals are and how they work:
 
-### Identifying Empty Non-Terminals
+- **[How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/)** — Step-by-step guide to resolving ENT-related issues in your DNS zone
 
-Use a script to identify the ENTs in your zone.
-
-### Common issues to investigate
-
-When troubleshooting ENT-related issues, check for these common causes:
-
-1. **Wildcard records with deeper children** — Review your zone for wildcard patterns like `*.subdomain.example.com` that have child records beneath them (use `dig @ns1.dnsimple.com example.com AXFR` to view your full zone)
-2. **ACME challenge records** — Check for leftover or active Let's Encrypt challenge records like `_acme-challenge.subdomain.example.com` (use `dig @ns1.dnsimple.com _acme-challenge.subdomain.example.com TXT +short`)
-3. **DKIM records** — DKIM records like `selector._domainkey.example.com` create ENTs at `_domainkey.example.com` (use `dig @ns1.dnsimple.com _domainkey.example.com TXT +short` to check)
-4. **Service records (SRV)** — SRV records following the pattern `_service._protocol.example.com` create ENTs at intermediate names like `_tcp.example.com` (use `dig @ns1.dnsimple.com _tcp.example.com SRV +short` to check)
-
-### Resolving ENT issues
-
-Once you've identified an ENT causing problems:
-
-1. **Option A: Add an explicit record** at the ENT name with the value you expect:
-
-    ```
-    us.prod.example.com.   IN  A   1.2.3.4
-    ```
-
-2. **Option B: Remove the record** creating the ENT (if it's no longer needed, such as an old ACME challenge).
-
-3. **Option C: Restructure your zone** to avoid deep nesting beneath wildcards.
+- **[Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/)** — Diagnose and resolve intermittent or unexpected empty responses caused by ENTs
 
 ## Have more questions?
 
