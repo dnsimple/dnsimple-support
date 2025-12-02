@@ -30,18 +30,9 @@ class PreprocessFilter < Nanoc::Filter
         i += 1
 
         # Collect all following lines that start with "> " (including empty lines with just "> ")
-        while i < lines.length
-          if lines[i] =~ /^> (.*)$/
-            callout_lines << $1
-            i += 1
-          elsif lines[i] =~ /^>\s*$/
-            # Empty callout line (just "> " or ">")
-            callout_lines << ""
-            i += 1
-          else
-            # Stop when we hit a line that doesn't start with ">"
-            break
-          end
+        while i < lines.length && lines[i] =~ /^>\s?(.*)$/
+          callout_lines << $1
+          i += 1
         end
 
         # Convert to XML tag
