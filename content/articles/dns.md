@@ -89,7 +89,6 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 Step-by-step guides for managing DNS records, zones, and DNS configuration:
 
 - [How to Use the Record Editor](/articles/how-to-use-record-editor/) - Step-by-step guide to using DNSimple's record editor to manage your DNS records.
-- [Record Editor](/articles/record-editor/) - Comprehensive guide to the record editor interface and features.
 - [How To Add Common DNS Records](/articles/how-to-add-common-dns-records/) - Learn how to add the most commonly used DNS record types.
 - [Activating and Deactivating a DNS Zone](/articles/activating-deactivating-dns-zone/) - Instructions for activating or deactivating DNS zones in DNSimple.
 - [Managing A Records](/articles/managing-a-records/) - Step-by-step guide to creating, editing, and deleting A records.
