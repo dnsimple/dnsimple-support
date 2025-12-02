@@ -14,7 +14,7 @@ categories:
 
 ---
 
-If you're experiencing unexpected empty responses for certain domain names, they might be caused by [Empty Non-Terminals (ENTs)](/articles/what-are-empty-non-terminals/). This guide walks you through the steps to identify and fix these issues.
+If you're experiencing unexpected empty responses for certain domain names, they might be caused by [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/). This guide walks you through the steps to identify and fix these issues.
 
 ## Understanding the problem
 
@@ -127,7 +127,7 @@ Only remove records if you're certain they're no longer needed. ACME challenge r
 
 ## Related articles
 
-- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals.md) — Understand what ENTs are and how they work
+- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) — Understand what ENTs are and how they work
 
 - [Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) — Diagnose and resolve intermittent ENT-related problems
 
