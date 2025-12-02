@@ -4,6 +4,7 @@ excerpt: Explains what DNSSEC is and why it matters for your domain security.
 meta: Learn how DNSSEC works and what happens when you enable DNSSEC on your domains.
 categories:
   - DNSSEC
+  - Enterprise
 ---
 
 # What Is DNSSEC?

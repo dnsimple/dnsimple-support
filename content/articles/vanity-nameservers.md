@@ -5,6 +5,7 @@ meta: Learn how to easily enable and disable vanity name servers in DNSimple to 
 categories:
 - Name Servers
 - Domains
+- Enterprise
 ---
 
 # Managing Vanity Name Servers

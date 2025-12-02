@@ -4,6 +4,7 @@ excerpt: The term top-level domain, or TLD, refers to the first part of every do
 meta: Discover what a top-level domain (TLD) is and how it plays a crucial role in domain names. Learn about different TLD types and their significance in web addressing.
 categories:
 - Domains
+- Enterprise
 ---
 
 # What is a TLD?

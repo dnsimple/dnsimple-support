@@ -4,6 +4,7 @@ excerpt: How to use DNSimple along with other DNS providers.
 meta: Learn how to seamlessly integrate DNSimple as a secondary DNS provider, along with your primary DNS provider for enhanced domain redundancy.
 categories:
 - Secondary DNS
+- Enterprise
 ---
 
 # Using DNSimple alongside other DNS providers

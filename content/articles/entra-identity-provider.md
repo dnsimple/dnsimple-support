@@ -4,6 +4,7 @@ excerpt: How to use Entra to create and log in to accounts.
 meta: Learn how to seamlessly integrate Entra as your identity provider for account creation and secure logins, enhancing your user experience and security.
 categories:
 - Account
+- Enterprise
 ---
 
 # Entra as an Identity Provider
