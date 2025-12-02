@@ -1,7 +1,6 @@
 ---
-title: What Are Empty Non-Terminals?
+title: What Are Empty Non-Terminals (ENT)?
 excerpt: Understanding Empty Non-Terminals (ENTs) in DNS and how they affect wildcard record resolution.
-meta: Learn about Empty Non-Terminals in DNS, how they interact with wildcard records, and how to troubleshoot ENT-related issues in your zone.
 categories:
 - DNS
 ---
