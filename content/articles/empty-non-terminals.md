@@ -289,6 +289,17 @@ example.com.        3600    IN  SOA ns1.dnsimple.com. admin.dnsimple.com. ...
 
 Even though `us.prod.example.com` falls within the wildcard's scope, it returns empty. According to RFC 4592, the wildcard at `*.prod.example.com` does **not** apply here because the name `us.prod.example.com` now exists (as an ENT). Wildcards only match names that do not exist, not ENTs.
 
+> [!WARNING]
+> Different DNS providers may implement ENTs, especially wildcard support, differently. While RFC 4592 mandates returning an empty response for ENTs, some providers may (intentionally or unintentionally) return the wildcard match instead.
+>
+> This may lead to unexpected behaviors, especially when:
+> - Transitioning a zone between providers
+> - Implementing secondary DNS
+>
+> In particular, with Secondary DNS (like via AXFR), you must ensure both providers adopt the same ENT implementation to avoid inconsistent responses.
+>
+> DNSimple complies with RFC 4592 and follows industry-standard behaviors consistent with implementations like PowerDNS.
+
 ## Avoiding empty responses from ENTs
 
 If you're experiencing unexpected empty responses for certain domain names, they might be ENTs created by deeper records in your zone. To resolve this:
