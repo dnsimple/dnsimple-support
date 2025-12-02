@@ -63,6 +63,10 @@ To request an SSL certificate with Let's Encrypt, the domains **must be delegate
 
 The certificate validation is completely automated using a DNS challenge. Once issued, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
 
+<note>
+ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) in your DNS zone. If you're using wildcard records, this may affect DNS resolution for intermediate domain names. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#the-acme-challenge-example).
+</note>
+
 The certificate expiration is 90 days. If auto-renewal is enabled, the certificate will automatically renew before the expiration. If a new validation is necessary, we'll automatically re-validate the domain via DNS. Once renewed, you'll receive an email and webhook notification. You'll still need to install the newly issued certificate once renewed.
 
 As suggested by Let's Encrypt, the renewal will happen any time after 60 days (30 days before expiration).

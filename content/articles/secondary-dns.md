@@ -18,6 +18,10 @@ categories:
   DNSimple does not support Secondary DNS if you have [DNSSEC](/articles/dnssec/) enabled. They will not work in conjunction. Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS. You can read more about the complexities of multi-signer DNSSEC models in [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
 </warning>
 
+<warning>
+When using Secondary DNS, ensure both providers handle [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) consistently. Different DNS providers may implement ENT behavior differently, especially with wildcard records. Inconsistent implementations can lead to different responses from your primary and secondary name servers. Learn more about [ENTs and Secondary DNS](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+</warning>
+
 ## Getting started
 
 Before setting up Secondary DNS with our systems, you need to choose, activate, and gather information for the secondary DNS provider you'll be using.
