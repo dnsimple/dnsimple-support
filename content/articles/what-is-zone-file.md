@@ -4,6 +4,7 @@ excerpt: What a zone file is and their key benefits and uses.
 meta: Learn what zone files are, their importance in DNS management, and what's inside them.
 categories:
 - DNS
+- Enterprise
 ---
 
 # What Is a Zone File?
