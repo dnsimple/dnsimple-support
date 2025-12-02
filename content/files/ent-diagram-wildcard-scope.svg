@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px;">
+  <!-- example.com -->
+  <rect x="210" y="10" width="100" height="40" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5"/>
+  <text x="260" y="35" text-anchor="middle" fill="#333">example.com</text>
+
+  <!-- prod.example.com (ENT - dashed) -->
+  <rect x="175" y="80" width="170" height="40" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="260" y="105" text-anchor="middle" fill="#333">prod.example.com</text>
+
+  <!-- *.prod.example.com -->
+  <rect x="10" y="150" width="150" height="50" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5"/>
+  <text x="85" y="170" text-anchor="middle" fill="#333">*.prod.example.com</text>
+  <text x="85" y="186" text-anchor="middle" fill="#666" font-size="11">A 192.168.0.11</text>
+
+  <!-- us.prod.example.com (ENT - dashed) -->
+  <rect x="180" y="150" width="160" height="40" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="260" y="175" text-anchor="middle" fill="#333">us.prod.example.com</text>
+
+  <!-- eu.prod.example.com -->
+  <rect x="360" y="150" width="150" height="50" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5"/>
+  <text x="435" y="170" text-anchor="middle" fill="#333">eu.prod.example.com</text>
+  <text x="435" y="186" text-anchor="middle" fill="#666" font-size="11">A 192.168.0.21</text>
+
+  <!-- app.us.prod.example.com -->
+  <rect x="155" y="230" width="210" height="50" rx="4" fill="#f5f5f5" stroke="#333" stroke-width="1.5"/>
+  <text x="260" y="250" text-anchor="middle" fill="#333">app.us.prod.example.com</text>
+  <text x="260" y="266" text-anchor="middle" fill="#666" font-size="11">A 192.168.0.41</text>
+
+  <!-- Arrows -->
+  <line x1="260" y1="50" x2="260" y2="80" stroke="#333" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <line x1="210" y1="120" x2="120" y2="150" stroke="#333" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <line x1="260" y1="120" x2="260" y2="150" stroke="#333" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <line x1="310" y1="120" x2="400" y2="150" stroke="#333" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <line x1="260" y1="190" x2="260" y2="230" stroke="#333" stroke-width="1.5" marker-end="url(#arrow2)"/>
+
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
+

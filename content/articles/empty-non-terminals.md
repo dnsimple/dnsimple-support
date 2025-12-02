@@ -40,6 +40,8 @@ graph TD
     style K stroke-dasharray: 5 5
 ```
 
+![Diagram showing Empty Non-Terminals in a simple zone hierarchy](/files/ent-diagram-simple.svg)
+
 In this zone, both `network.example.com` and `retails.network.example.com` are Empty Non-Terminals. They have no records themselves, but exist because of the `srv1` and `srv2` records beneath them.
 
 A typical example is represented by [DKIM records](/articles/dkim-record/) or [Let's Encrypt](/articles/letsencrypt/) certificates, that often generate ENTs due to their specific naming structure (e.g., `selector._domainkey.example.com` creates an ENT at `_domainkey.example.com`).
@@ -66,6 +68,8 @@ graph TD
     style B stroke-dasharray: 5 5
     style E stroke-dasharray: 5 5
 ```
+
+![Diagram showing ENTs inside wildcard scope](/files/ent-diagram-wildcard-scope.svg)
 
 In this zone:
 
@@ -109,6 +113,8 @@ graph TD
     style G stroke-dasharray: 5 5
     style K stroke-dasharray: 5 5
 ```
+
+![Diagram showing the full zone tree with ENTs inside and outside wildcard scope](/files/ent-diagram-full-zone.svg)
 
 In this zone:
 
@@ -228,6 +234,8 @@ graph TD
     style E stroke-dasharray: 5 5, stroke: #dc3545, stroke-width: 2px, fill: #f8d7da
     style G stroke: #28a745, stroke-width: 2px, fill: #d4edda
 ```
+
+![Diagram comparing wildcard match vs ENT response](/files/ent-diagram-wildcard-comparison.svg)
 
 In this diagram:
 - **Green background**: `fr.prod.example.com` — Does not exist, so the wildcard applies and returns `192.168.0.11`
