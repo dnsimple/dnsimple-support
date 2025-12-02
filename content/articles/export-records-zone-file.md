@@ -3,7 +3,6 @@ title: Export Zone File
 excerpt: This article explains how to export zone text files in DNSimple.
 categories:
 - DNS
-- Enterprise
 ---
 
 # Export Zone File
