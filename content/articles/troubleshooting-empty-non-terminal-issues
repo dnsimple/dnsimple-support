@@ -14,7 +14,7 @@ categories:
 
 ---
 
-If you're experiencing intermittent or unexpected empty responses in your DNS zone, [Empty Non-Terminals (ENTs)](/articles/what-are-empty-non-terminals/) might be the cause. This guide helps you diagnose and resolve ENT-related issues.
+If you're experiencing intermittent or unexpected empty responses in your DNS zone, [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) might be the cause. This guide helps you diagnose and resolve ENT-related issues.
 
 ## Understanding the symptoms
 
@@ -208,7 +208,7 @@ New subdomains should match the wildcard.
 
 ## Related articles
 
-- [What Are Empty Non-Terminals (ENT)?](/articles/what-are-empty-non-terminals/) — Understand what ENTs are and how they work
+- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) — Understand what ENTs are and how they work
 
 - [How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/) — Step-by-step guide to resolving ENT issues
 
