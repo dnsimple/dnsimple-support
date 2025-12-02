@@ -47,7 +47,7 @@ class PreprocessFilter < Nanoc::Filter
 
         # Convert to XML tag
         cleaned_content = callout_lines.join("\n").strip
-        result << %(<#{type}>#{cleaned_content}</#{type}>\n)
+        result << %(<#{type}>#{cleaned_content}</#{type}>)
       else
         result << line
         i += 1
