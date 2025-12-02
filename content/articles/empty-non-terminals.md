@@ -289,14 +289,12 @@ example.com.        3600    IN  SOA ns1.dnsimple.com. admin.dnsimple.com. ...
 
 Even though `us.prod.example.com` falls within the wildcard's scope, it returns empty. According to RFC 4592, the wildcard at `*.prod.example.com` does **not** apply here because the name `us.prod.example.com` now exists (as an ENT). Wildcards only match names that do not exist, not ENTs.
 
-### Avoiding empty responses from ENTs
+## Avoiding empty responses from ENTs
 
 If you're experiencing unexpected empty responses for certain domain names, they might be ENTs created by deeper records in your zone. To resolve this:
 
 1. **Identify the ENT:** Check if there are any records beneath the name returning empty responses.
-
 2. **Create an explicit record:** Add the record type and value you want returned at that name. You can add the same record type and value as the wildcard if you want consistent behavior.
-
 3. **Verify the change:** Use [`dig`](/articles/how-dig/) to confirm the name now returns the expected response.
 
 For example, to make `us.prod.example.com` return data, add an explicit record:
@@ -313,9 +311,18 @@ us.prod.example.com.   IN  A   192.168.0.11
 
 After adding this record, `us.prod.example.com` is no longer an ENT—it now has its own record and will return that value when queried.
 
-### The ACME challenge problem
+## Common scenarios that create ENTs
 
-Now let's say you provision a [Let's Encrypt](/articles/letsencrypt/) certificate for `app.us.prod.example.com`. The ACME challenge process automatically adds a TXT record:
+Be aware of these common patterns that can create ENTs:
+
+- **ACME/Let's Encrypt challenges:** `_acme-challenge.subdomain.example.com`
+- **DKIM records:** `selector._domainkey.example.com` creates an ENT at `_domainkey.example.com`
+- **SRV records:** `_service._tcp.example.com` creates ENTs at `_tcp.example.com`
+- **Deeply nested subdomains:** Any record like `a.b.c.example.com` creates ENTs at `b.c.example.com` and `c.example.com`
+
+### The ACME challenge example
+
+Let's say you provision a [Let's Encrypt](/articles/letsencrypt/) certificate for `app.us.prod.example.com`. The ACME challenge process automatically adds a TXT record:
 
 ```
 $ORIGIN example.com.
@@ -336,8 +343,6 @@ $ dig @ns1.dnsimple.com us.prod.example.com A +short
 ```
 
 The wildcard no longer matches because `us.prod.example.com` now exists as an ENT.
-
-### Before and after comparison
 
 **Before the ACME challenge record:**
 
@@ -369,126 +374,22 @@ $ dig @ns1.dnsimple.com anything.prod.example.com A +short
 
 The presence of the ACME challenge record created ENTs along its path, blocking wildcard matching for those names.
 
-### Common scenarios that create ENTs
-
-Be aware of these common patterns that can create ENTs:
-
-- **ACME/Let's Encrypt challenges:** `_acme-challenge.subdomain.example.com`
-- **DKIM records:** `selector._domainkey.example.com` creates an ENT at `_domainkey.example.com`
-- **SRV records:** `_service._tcp.example.com` creates ENTs at `_tcp.example.com`
-- **Deeply nested subdomains:** Any record like `a.b.c.example.com` creates ENTs at `b.c.example.com` and `c.example.com`
-
 ## Troubleshooting intermittent responses
 
 If you're experiencing intermittent or unexpected empty responses, ENTs might be the cause. Follow these steps to diagnose and resolve the issue.
 
 ### Identifying Empty Non-Terminals
 
-Use the following script to check a list of domain names for ENTs. The script queries each name and identifies those returning `NODATA` responses.
-
-```bash
-#!/bin/bash
-# ent-checker.sh
-# Usage: ./ent-checker.sh domains.txt [nameserver]
-#
-# domains.txt should contain one domain name per line
-
-DOMAINS_FILE="${1:-domains.txt}"
-NAMESERVER="${2:-ns1.dnsimple.com}"
-
-if [ ! -f "$DOMAINS_FILE" ]; then
-    echo "Error: File '$DOMAINS_FILE' not found"
-    echo "Usage: $0 <domains-file> [nameserver]"
-    exit 1
-fi
-
-echo "Checking for Empty Non-Terminals..."
-echo "Nameserver: $NAMESERVER"
-echo "-----------------------------------"
-
-while IFS= read -r domain || [ -n "$domain" ]; do
-    # Skip empty lines and comments
-    [[ -z "$domain" || "$domain" =~ ^# ]] && continue
-
-    # Query the domain
-    result=$(dig @"$NAMESERVER" "$domain" A +noall +comments 2>/dev/null)
-
-    # Check for NOERROR status with no answer
-    status=$(echo "$result" | grep -o "status: [A-Z]*" | cut -d' ' -f2)
-    answer_count=$(echo "$result" | grep -o "ANSWER: [0-9]*" | cut -d' ' -f2)
-
-    if [ "$status" = "NOERROR" ] && [ "$answer_count" = "0" ]; then
-        echo "ENT DETECTED: $domain"
-    fi
-done < "$DOMAINS_FILE"
-
-echo "-----------------------------------"
-echo "Check complete."
-```
-
-**Usage:**
-
-1. Create a file `domains.txt` with one domain name per line:
-
-    ```
-    us.prod.example.com
-    app.us.prod.example.com
-    api.example.com
-    www.example.com
-    ```
-
-2. Run the script:
-
-    ```
-    $ chmod +x ent-checker.sh
-    $ ./ent-checker.sh domains.txt ns1.dnsimple.com
-    ```
-
-3. Review the output for any ENTs detected.
+Use a script to identify the ENTs in your zone.
 
 ### Common issues to investigate
 
 When troubleshooting ENT-related issues, check for these common causes:
 
-**1. Wildcard records with deeper children**
-
-Look for wildcard records that have descendant records creating ENTs:
-
-```
-$ dig @ns1.dnsimple.com example.com AXFR
-```
-
-Or review your zone in DNSimple's DNS editor for patterns like:
-- Wildcard: `*.subdomain.example.com`
-- Child records beneath that wildcard's scope
-
-**2. ACME challenge records**
-
-Check for leftover or active Let's Encrypt challenge records:
-
-```
-$ dig @ns1.dnsimple.com _acme-challenge.subdomain.example.com TXT +short
-```
-
-If an ACME challenge record exists beneath a wildcard's scope, it will create ENTs.
-
-**3. DKIM records**
-
-DKIM records often create ENTs at `_domainkey.example.com`:
-
-```
-$ dig @ns1.dnsimple.com _domainkey.example.com TXT +short
-```
-
-If empty but there are DKIM records like `selector._domainkey.example.com`, you have an ENT.
-
-**4. Service records (SRV)**
-
-SRV records follow the pattern `_service._protocol.example.com` and can create ENTs:
-
-```
-$ dig @ns1.dnsimple.com _tcp.example.com SRV +short
-```
+1. **Wildcard records with deeper children** — Review your zone for wildcard patterns like `*.subdomain.example.com` that have child records beneath them (use `dig @ns1.dnsimple.com example.com AXFR` to view your full zone)
+2. **ACME challenge records** — Check for leftover or active Let's Encrypt challenge records like `_acme-challenge.subdomain.example.com` (use `dig @ns1.dnsimple.com _acme-challenge.subdomain.example.com TXT +short`)
+3. **DKIM records** — DKIM records like `selector._domainkey.example.com` create ENTs at `_domainkey.example.com` (use `dig @ns1.dnsimple.com _domainkey.example.com TXT +short` to check)
+4. **Service records (SRV)** — SRV records following the pattern `_service._protocol.example.com` create ENTs at intermediate names like `_tcp.example.com` (use `dig @ns1.dnsimple.com _tcp.example.com SRV +short` to check)
 
 ### Resolving ENT issues
 
@@ -507,4 +408,3 @@ Once you've identified an ENT causing problems:
 ## Have more questions?
 
 If you have additional questions or need any assistance with Empty Non-Terminals, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
