@@ -48,7 +48,7 @@ A typical example is represented by [DKIM records](/articles/dkim-record/) or [L
 
 ### ENTs inside wildcard scope
 
-ENTs become more complex when wildcards are involved. If a name exists as an ENT within a wildcard's scope, the wildcard does **not** apply to that name—resulting in an empty response instead of the wildcard value.
+ENTs become more complex when wildcards are involved. If a name exists as an ENT within a wildcard's scope, the wildcard does **not** apply to that name, resulting in an empty response instead of the wildcard value.
 
 ```
 $ORIGIN example.com.
@@ -154,7 +154,8 @@ According to [RFC 4592 Section 2.2.1](https://datatracker.ietf.org/doc/html/rfc4
 
 This is known as a `NODATA` response. It indicates that the domain name exists but has no records of the requested type. This behavior is straightforward for zones without wildcards—you simply get no data. However, as we'll see below, ENTs can cause unexpected results when wildcards are involved.
 
-As of December 2025, DNSimple name servers comply with RFC 4592 for Empty Non-Terminal handling.
+> [!NOTE]
+> As of December 2025, DNSimple name servers comply with RFC 4592 for Empty Non-Terminal handling.
 
 **Querying an ENT:**
 
@@ -196,7 +197,7 @@ According to RFC 4592, a wildcard record (e.g., `*.example.com`) matches query n
 1. Are within the wildcard's scope (subdomains of `example.com`)
 2. **Do not exist** in the zone
 
-This second condition is key: if a name exists—even as an Empty Non-Terminal—the wildcard does **not** apply.
+**This second condition is key: if a name exists, even as an Empty Non-Terminal, the wildcard does **not** apply.**
 
 A common scenario occurs when adding a record deeper in the hierarchy inadvertently creates an ENT that blocks wildcard matching. Consider this zone:
 
@@ -204,6 +205,18 @@ A common scenario occurs when adding a record deeper in the hierarchy inadverten
 $ORIGIN example.com.
 *.prod.example.com.   IN  A   192.168.0.11
 ```
+
+```mermaid
+graph TD
+    A[example.com] --> B[prod.example.com]
+    B --> C["*.prod.example.com<br/>A 192.168.0.11"]
+    B --> D["us.prod.example.com<br/>(wildcard match)"]
+
+    style B stroke-dasharray: 5 5
+    style D stroke: #28a745, stroke-width: 2px, fill: #d4edda
+```
+
+![Diagram showing wildcard matching when no ENT exists](/files/ent-diagram-wildcard-only.svg)
 
 With only this wildcard record, querying `us.prod.example.com` returns:
 
@@ -238,6 +251,7 @@ graph TD
 ![Diagram comparing wildcard match vs ENT response](/files/ent-diagram-wildcard-comparison.svg)
 
 In this diagram:
+
 - **Green background**: `fr.prod.example.com` — Does not exist, so the wildcard applies and returns `192.168.0.11`
 - **Red background**: `us.prod.example.com` — Now exists as an ENT (because of `app.us.prod.example.com`), so the wildcard does **not** apply and returns empty
 
