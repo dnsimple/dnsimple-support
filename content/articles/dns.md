@@ -155,4 +155,4 @@ Technical specifications, formats, and reference documentation:
 - [DNSimple Interface Reference for DNS Management](/articles/interface-reference/) - Complete reference for DNSimple's web interface and DNS management features.
 - [Understanding DNSimple's Record Editors Simple vs. Field-Specific](/articles/record-editor-simple-field/) - Reference guide explaining the differences between simple and field-specific record editors.
 - [IPv6 Domain Resolution Reference](/articles/ipv6-support/) - Technical reference for IPv6 domain resolution and AAAA records.
-- [Resolving with DNSimple](/articles/resolving-with-us//) - Technical reference for displaying and embedding a "Resolving with DNSimple" badge on websites.
+- [Resolving with DNSimple](/articles/resolving-with-us/) - Technical reference for displaying and embedding a "Resolving with DNSimple" badge on websites.
