@@ -7,7 +7,7 @@ categories:
 - Enterprise
   
 redirect_from:
-  /articles/zone-files/
+ - /articles/zone-files/
   
 ---
 
