@@ -5,6 +5,10 @@ meta: Learn what zone files are, their importance in DNS management, and what's 
 categories:
 - DNS
 - Enterprise
+  
+redirect_from:
+  /articles/zone-files/
+  
 ---
 
 # What Is a Zone File?
