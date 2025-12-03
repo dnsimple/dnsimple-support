@@ -72,7 +72,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [Reverse DNS Zones](/articles/reverse-dns/) - Learn about reverse DNS zones and how to configure PTR records.
 - [Why DNSSEC and Secondary DNS may not work together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - Learn how ALIAS records work when using secondary DNS providers.
-- [What Are Integrated DNS Providers and Why Use Them?](/articles/what-are-integrated-providers) - Understand integrated DNS providers and the benefits of using them with DNSimple.
+- [What Are Integrated DNS Providers and Why Use Them?](/articles/what-are-integrated-providers/) - Understand integrated DNS providers and the benefits of using them with DNSimple.
 - [Integrated DNS Provider Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/) - Learn how to use Amazon Route 53 as an integrated DNS provider.
 - [Integrated DNS Provider Azure DNS](/articles/integrated-dns-provider-azure-dns/) - Learn how to use Azure DNS as an integrated DNS provider.
 - [Integrated DNS Provider CoreDNS](/articles/integrated-dns-provider-coredns/) - Learn how to use CoreDNS as an integrated DNS provider.
