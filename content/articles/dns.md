@@ -21,8 +21,8 @@ DNSimple provides powerful DNS hosting services to help you manage your domain's
 
 Important updates and changes that may affect your DNS configuration:
 
-- [Change of Non-Compliant ENT Behavior](/articles/change-non-compliant-ent-behavior/) - Learn about changes to non-compliant enterprise behavior that may affect your DNS configuration.
-- [Discontinuation of Legacy NS2 and NS4 IP Addresses](/articles/discontinuation-legacy-ns2-ns4-ip-addresses/) - Information about the discontinuation of legacy NS2 and NS4 IP addresses and how it affects your DNS setup.
+- [Change of Non-Compliant ENT Behavior](/articles/announcement-change-ent-behavior/) - Learn about changes to non-compliant enterprise behavior that may affect your DNS configuration.
+- [Discontinuation of Legacy NS2 and NS4 IP Addresses](/articles/announcement-ns2-ns4-ip-addresses/) - Information about the discontinuation of legacy NS2 and NS4 IP addresses and how it affects your DNS setup.
 
 <info>
 These articles contain information that is only relevant to specific customers. If you're impacted, you will receive an email from DNSimple.
@@ -35,7 +35,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
 - [What is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
 - [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-is-ttl/#ttl-in-dnsimple) - Discover the minimum TTL values that DNSimple provides for your DNS records.
-- [How Long Does It Take for a New Record to Resolve for My Domain?](/articles/how-long-for-new-record-to-resolve/) - Understand the time it takes for new DNS records to become available after creation.
+- [How Long Does It Take for a New Record to Resolve for My Domain?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) - Understand the time it takes for new DNS records to become available after creation.
 - [What Is Resolution Status?](/articles/resolution-status/) - Learn about resolution status and how to check if your DNS records are resolving correctly.
 - [What Is dig?](/articles/what-is-dig/) - Introduction to the dig command-line tool for querying DNS servers.
 - [What Is Dynamic DNS?](/articles/dynamic-dns/) - Understand Dynamic DNS and how it allows you to update DNS records automatically when your IP address changes.
