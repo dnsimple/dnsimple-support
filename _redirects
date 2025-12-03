@@ -54,6 +54,9 @@
 /articles/redirector-https                                                /articles/redirector/
 /articles/redirector-https/                                               /articles/redirector/
 /articles/redirector-https/index.html                                     /articles/redirector/
+/articles/refresh-import-integrated-zones                                 /articles/managing-integrated-zones/
+/articles/refresh-import-integrated-zones/                                /articles/managing-integrated-zones/
+/articles/refresh-import-integrated-zones/index.html                      /articles/managing-integrated-zones/
 /articles/reissuing-ssl-certificates                                      /articles/reissuing-ssl-certificate/
 /articles/reissuing-ssl-certificates/index.html                           /articles/reissuing-ssl-certificate/
 /articles/renewing-ssl-certificates                                       /articles/renewing-ssl-certificate/
@@ -93,6 +96,7 @@
 /articles/what-ssl-certificate-authorities/index.html                     /articles/ssl-certificate-authorities/
 /articles/zone                                                            /articles/what-is-zone-file/
 /articles/zone/index.html                                                 /articles/what-is-zone-file/
+/articles/zone-files                                                      /articles/what-is-zone-file/
 /articles/zone-files/                                                     /articles/what-is-zone-file/
 /articles/zone-files/index.html                                           /articles/what-is-zone-file/
 /categories/github-and-dnsimple                                           /categories/heroku-and-dnsimple/
