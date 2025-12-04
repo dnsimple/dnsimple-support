@@ -29,6 +29,10 @@ DKIM utilizes a cryptographic technique involving a pair of keys: a private key 
 
 1. **Publishing the public key (DNS TXT record):** Your organization publishes the corresponding **public key** in your domain's DNS as a [TXT record](/articles/txt-record/). This public key is specifically placed at a unique subdomain, often structured using a **selector** (e.g., `s1._domainkey.yourdomain.com` or `google._domainkey.yourdomain.com`). The selector allows a single domain to have multiple DKIM keys. This is useful for different sending services or key rotation.
 
+<note>
+This subdomain structure may create an [Empty Non-Terminal (ENT)](/articles/empty-non-terminals/) at `_domainkey.yourdomain.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+</note>
+
 1. **Verifying the email (public key):** When a recipient's mail server receives an email claiming to be from your domain, it performs a DNS lookup for the DKIM public key using the selector found in the email's header. It then uses this retrieved public key to verify the email's digital signature.
 
 If the signature matches, it confirms:
