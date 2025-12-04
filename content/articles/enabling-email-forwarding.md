@@ -12,7 +12,7 @@ categories:
 You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email forwarding. Email forwarding is enabled and billed monthly on a per-domain basis.
 
 The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
-
+The domain must be delegated to DNSimple's name servers, and DNS hosting must be active for email forwarding to work. 
 <warning>
 **Secondary zones:** Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
 </warning>
