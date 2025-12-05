@@ -107,7 +107,8 @@ You should manage your DNS records exclusively through the DNSimple app and your
 If you do update your Amazon Route 53 zone, you can reflect those changes back into your DNSimple zone to restore it as the central source.
 
 1. Using the [AWS console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#), make changes to the records in your Amazon Route 53 zone.
-1. Using the DNSimple app, go to your DNSimple zone, and select **Refresh records**.
+1. Using the DNSimple app, go to your DNSimple zone.
+1. From the **Import/Export** dropdown, select **Import DNS records from Integrated Providers**.
 1. You should see the Route 53 zone changes. To copy them over to your DNSimple zone as a one-off, follow the instructions under [Sync DNS records from Route 53](#sync-dns-records-from-route-53).
 
 ## Next steps
