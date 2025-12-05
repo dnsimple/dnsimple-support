@@ -39,9 +39,17 @@ Once the domain is transferred, you can no longer control it under your current 
 1. Click on the relevant domain.
 1. Click the **Settings** tab on the left side.
 1. In the **Move domain to another DNSimple account** card, click **Move**.
-You will be prompted to enter the account identifier of the account that will receive the domain.
+You will be prompted to enter the destination account identifier of the account that will receive the domain.
 
-The recipient can find their account identifier by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card on the right. They should copy that value and share it with you.
+## How the recipient can find their account identifier
+
+1. Open the **account switcher** in the **top-right corner** and select the correct account.
+1. From the account switcher, click **Account Settings**.
+1. On the left, make sure **General** is selected.
+1. The **Account Identifier** appears in the **Account** card on the right, under the account name and notification email. They should copy that value and share it with you
+
+
+## Completing the transfer
 
 1. Enter the **destination account identifier**.
 1. Click **Move domain**.
