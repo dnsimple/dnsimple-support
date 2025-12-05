@@ -14,6 +14,11 @@
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
+  from = "/search"
+  to = "/"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/404"
   status = 404
