@@ -214,7 +214,7 @@ New subdomains should match the wildcard.
 
 - [How to Use dig](/articles/how-dig/) — Learn how to use the dig command-line tool for DNS queries
 
-- [Troubleshooting Record Resolution Issues](/articles/troubleshooting-record-resolution-issues/) — General guide to troubleshooting DNS record resolution
+- [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) — General guide to troubleshooting DNS record resolution
 
 ## Have more questions?
 
