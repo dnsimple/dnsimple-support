@@ -1,6 +1,6 @@
 ---
 title: How to Use the Record Editor
-excerpt: The Record Editor gives you the ability to view, create, and manage the DNS records for a domain.
+excerpt: Master DNSimple's Record Editor to view, create, and manage all your DNS records. Step-by-step guide to adding, updating, and deleting DNS records for your domain.
 categories:
 - DNS
 ---

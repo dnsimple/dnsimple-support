@@ -1,6 +1,6 @@
 ---
 title: What Is an A Record?
-excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
+excerpt: Learn what an A record is and how it maps domain names to IPv4 addresses. Discover how to use A records to point your domain to your server's IP address with DNSimple.
 categories:
 - DNS
 ---

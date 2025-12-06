@@ -1,6 +1,6 @@
 ---
 title: Creating a Record Note
-excerpt: How to create a record note
+excerpt: Learn how to add notes to DNS records in DNSimple. Create notes when adding or updating records to track changes and remember why modifications were made.
 meta: Learn how to create a record note to remember why you made changes to a given DNS record.
 categories:
 - DNS

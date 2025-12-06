@@ -1,6 +1,6 @@
 ---
 title: Import Zone File
-excerpt: This article explains how to import zone text files in DNSimple.
+excerpt: Import DNS records from a zone file into DNSimple. Step-by-step instructions to bulk import DNS records without deleting existing records.
 categories:
 - DNS
 ---

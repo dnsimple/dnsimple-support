@@ -1,6 +1,6 @@
 ---
 title: Syncing Integrated Zone Records Between DNS Providers
-excerpt: Synchronize the DNS records of a zone at DNSimple across Integrated DNS Providers.
+excerpt: Synchronize DNS records between DNSimple and Integrated DNS Providers. Learn how to sync zone records when they're out of sync and keep all providers aligned.
 categories:
 - DNS
 ---

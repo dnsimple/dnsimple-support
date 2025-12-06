@@ -1,6 +1,6 @@
 ---
 title: Change of Non-Compliant ENT Behavior
-excerpt: We are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records.
+excerpt: Important announcement about DNSimple's name server behavior update for Empty Non-Terminal (ENT) records. Learn what's changed as of December 1st, 2025.
 categories:
   - DNS
 ---

@@ -1,6 +1,6 @@
 ---
 title: Understanding RRSETs and RRSIGs in DNSSEC
-excerpt: Explains how RRSETs and RRSIGs work.
+excerpt: Understand RRSETs and RRSIGs in DNSSEC. Learn how Resource Record Sets and Resource Record Signatures work together to secure your DNS data.
 meta: Learn about RRSETs and RRSIGs, what they are, why they're important, and how they work.
 categories:
 - DNSSEC

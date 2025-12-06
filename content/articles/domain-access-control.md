@@ -1,6 +1,6 @@
 ---
 title: Domain Access Control
-excerpt: Control what each account member can access on a per-domain or per-zone basis.
+excerpt: Control team member access to domains and DNS zones. Set permissions per domain with Domain Manager or Zone Operator roles for enhanced security.
 categories:
 - Account
 - Domains

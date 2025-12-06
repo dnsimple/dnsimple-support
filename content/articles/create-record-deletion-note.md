@@ -1,6 +1,6 @@
 ---
 title: Creating a Record Deletion Note
-excerpt: Make notes to remember why you deleted a specific record.
+excerpt: Add notes when deleting DNS records to track why records were removed. Learn how to create deletion notes for better DNS record management and audit trails.
 meta: Easily add notes to your DNS records in DNSimple to keep track of record deletions.
 categories:
 - DNS

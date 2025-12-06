@@ -1,6 +1,6 @@
 ---
  title: What Are the Types of DNSSEC Keys?
- excerpt: Explains the types of DNSSEC keys and how they work.
+ excerpt: Learn about Zone Signing Keys (ZSK) and Key Signing Keys (KSK) in DNSSEC. Understand how these two key types work together to secure your DNS zone.
  meta: Learn what zone signing keys and key signing keys are and why they are important to DNSSEC
  categories:
  - DNSSEC

@@ -1,6 +1,6 @@
 ---
 title: What Are Glue Records?
-excerpt: Learn what glue records are and why they matter.
+excerpt: Understand what glue records are and how they solve DNS circular dependency problems. Learn when and how to configure glue records for vanity name servers.
 meta: Discover the importance of glue records and how they solve a fundamental problem in DNS.
 categories:
   - DNS

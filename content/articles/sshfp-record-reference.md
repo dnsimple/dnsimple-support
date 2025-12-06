@@ -1,6 +1,6 @@
 ---
 title: SSHFP Record Reference
-excerpt: The structure and canonical representation of an SSHFP record
+excerpt: Learn the structure, format, and technical details of SSHFP records for SSH key verification. Understand algorithms, fingerprint types, and how SSHFP enhances security.
 meta: Learn more about the structure, format, and key technical details of SSHFP records.
 categories:
 - DNS

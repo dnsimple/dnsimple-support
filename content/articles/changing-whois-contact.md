@@ -1,6 +1,6 @@
 ---
 title: Changing WHOIS information
-excerpt: How to change the contact information displayed in the WHOIS for a domain.
+excerpt: Learn how to change WHOIS contact information for domains registered with DNSimple. Understand ICANN validation requirements and special registry policies that may apply.
 categories:
 - Domains
 ---

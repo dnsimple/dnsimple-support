@@ -1,6 +1,6 @@
 ---
 title: Why DNSSEC and Secondary DNS May Not Work Together
-excerpt: A detailed explanation as to why DNSSEC and Secondary DNS may not be compatible together.
+excerpt: Understand why DNSSEC and Secondary DNS may not work together. Learn about zone signing conflicts, private key sharing issues, and multi-provider DNSSEC challenges.
 categories:
 - DNS
 ---

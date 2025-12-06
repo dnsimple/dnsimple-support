@@ -1,6 +1,6 @@
 ---
 title: Renewing a Let's Encrypt SSL Certificate
-excerpt: Instructions to renew a Let's Encrypt SSL certificate for a domain with DNSimple.
+excerpt: Step-by-step instructions to renew your Let's Encrypt SSL certificate with DNSimple. Learn when to renew, how to enable auto-renewal, and what to expect during renewal.
 categories:
 - SSL Certificates
 ---

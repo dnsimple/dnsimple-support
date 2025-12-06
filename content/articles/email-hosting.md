@@ -1,6 +1,6 @@
 ---
 title: Email Hosting Support
-excerpt: We focus primarily on domain management services, so we don't provide email hosting.
+excerpt: DNSimple doesn't provide email hosting, but we offer email forwarding and one-click DNS setup for email providers like Google Workspace. Learn your email hosting options.
 categories:
 - DNSimple
 - Emails

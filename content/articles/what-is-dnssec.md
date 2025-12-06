@@ -1,6 +1,6 @@
 ---
 title: What Is DNSSEC (Domain Name System Security Extensions)?
-excerpt: Explains what DNSSEC is and why it matters for your domain security.
+excerpt: Learn what DNSSEC is and how it secures your DNS. Understand how DNSSEC works, why it matters for domain security, and how cryptographic signatures protect DNS data.
 meta: Learn how DNSSEC works and what happens when you enable DNSSEC on your domains.
 categories:
   - DNSSEC

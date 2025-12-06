@@ -1,6 +1,6 @@
 ---
 title: Billing Settings
-excerpt: What you need to know about the billing information displayed on every invoice.
+excerpt: Customize billing information on your DNSimple invoices. Learn how to add company details, tax ID, and address, and change the billing email address.
 categories:
 - Account
 ---

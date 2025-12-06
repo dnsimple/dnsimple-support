@@ -1,6 +1,6 @@
 ---
 title: Account Creation
-excerpt: How to sign up for a DNSimple account or create a new account for an existing DNSimple user.
+excerpt: Step-by-step guide to creating a new DNSimple account. Learn how to sign up, choose a plan, and activate your account. Also includes instructions for adding additional accounts.
 categories:
 - Account
 ---

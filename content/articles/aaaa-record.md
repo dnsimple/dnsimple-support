@@ -1,6 +1,6 @@
 ---
 title: What Is an AAAA Record?
-excerpt: An AAAA record maps a domain name to the IP address (IPv6) of the computer hosting the domain.
+excerpt: Discover what an AAAA record is and how it maps domain names to IPv6 addresses. Learn how to configure AAAA records for IPv6 connectivity with DNSimple.
 categories:
   - DNS
 ---

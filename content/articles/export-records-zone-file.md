@@ -1,6 +1,6 @@
 ---
 title: Export Zone File
-excerpt: This article explains how to export zone text files in DNSimple.
+excerpt: Learn how to export your DNS zone file from DNSimple. Step-by-step guide to creating a backup of your DNS records in standard zone file format.
 categories:
 - DNS
 ---

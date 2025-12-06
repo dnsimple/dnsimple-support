@@ -1,6 +1,6 @@
 ---
 title: Multiple Accounts Per User
-excerpt: How to manage multiple accounts per DNSimple user and switch active accounts.
+excerpt: Learn how to manage multiple DNSimple accounts under a single user profile. Step-by-step guide to creating additional accounts and switching between accounts.
 categories:
 - Account
 ---

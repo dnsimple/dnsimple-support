@@ -1,6 +1,6 @@
 ---
 title: SOA Record Reference
-excerpt: The structure and canonical representation of an SOA record
+excerpt: Learn the structure, components, and technical details of SOA records. Understand serial numbers, refresh intervals, and how SOA records manage DNS zones.
 meta: Learn more about the structure of SOA records, their components, and key technical details.
 categories:
 - DNS

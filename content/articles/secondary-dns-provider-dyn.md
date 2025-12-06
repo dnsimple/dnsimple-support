@@ -1,6 +1,6 @@
 ---
 title: Adding Dyn as a Secondary DNS Server
-excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
+excerpt: Step-by-step guide to adding Dyn as a secondary DNS server with DNSimple. Learn how to configure Dyn Standard or Dyn Managed DNS for redundancy.
 categories:
 - Secondary DNS
 - Enterprise

@@ -1,6 +1,6 @@
 ---
 title: DMARC Record Reference
-excerpt: The formal structure, behavior, and key technical details of a DMARC record.
+excerpt: Learn the structure, tags, and technical details of DMARC records for email authentication. Understand policy settings, reporting options, and how to configure DMARC properly.
 meta: Learn more about the structure, behavior, and technical details for DMARC records.
 categories:
 - DNS

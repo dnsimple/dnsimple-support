@@ -1,6 +1,6 @@
 ---
 title: Managing Your Contacts
-excerpt: This article explains how to manage your contacts for your domains and SSL certificates.
+excerpt: Learn how to create, update, and manage domain contacts in DNSimple. Understand why contact information matters and how to keep it current for domain registration.
 categories:
 - Contacts
 ---

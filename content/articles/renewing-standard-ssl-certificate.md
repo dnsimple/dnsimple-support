@@ -1,6 +1,6 @@
 ---
 title: Renewing a standard SSL Certificate
-excerpt: Instructions to renew a standard SSL certificate for a domain with DNSimple.
+excerpt: Step-by-step instructions to renew your standard SSL certificate with DNSimple. Learn when to renew, how the process works, and what to expect during renewal.
 categories:
 - SSL Certificates
 ---
