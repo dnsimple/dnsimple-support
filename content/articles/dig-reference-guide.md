@@ -1,6 +1,6 @@
 ---
 title: dig Reference Guide
-excerpt: a quick reference for dig, its syntax, and its output.
+excerpt: Quick reference guide for the dig command-line tool. Learn dig syntax, common options, query types, and how to interpret dig output for DNS troubleshooting.
 categories:
 - DNS
 ---

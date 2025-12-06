@@ -1,6 +1,6 @@
 ---
 title: Verifying DMARC with dig and Online Tools
-excerpt: How to verify your DMARC record is being returned correctly.
+excerpt: Learn how to verify your DMARC record is working correctly using dig and online tools. Discover how to monitor DMARC reports and troubleshoot DMARC configuration issues.
 meta: Learn how to verify your DMARC record is working and find online tools to help monitor.
 categories:
 - DNS

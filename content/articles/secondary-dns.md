@@ -1,6 +1,6 @@
 ---
 title: Add a secondary DNS server to DNSimple
-excerpt: This page provides information about secondary DNS configuration with DNSimple.
+excerpt: Configure secondary DNS with DNSimple for redundancy and high availability. Step-by-step guide to setting up secondary DNS with popular providers.
 categories:
 - Secondary DNS
 - Enterprise

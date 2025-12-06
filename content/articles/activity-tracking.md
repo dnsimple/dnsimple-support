@@ -1,6 +1,6 @@
 ---
 title: Activity Tracking
-excerpt: How to review the list of events for an account or domain using our audit log feature.
+excerpt: Track all changes to your domains and account with DNSimple's activity tracking. Learn how to view audit logs, filter events, and monitor DNS record modifications.
 categories:
 - Account
 - Domains

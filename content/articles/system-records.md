@@ -1,6 +1,6 @@
 ---
 title: What Are System Records?
-excerpt: What system records are, and how they work in DNSimple.
+excerpt: Understand what system records are and why DNSimple manages them automatically. Learn about SOA and NS records and why they cannot be edited manually.
 meta: Learn what system records are, their importance in DNS management, and why you cannot edit them.
 categories:
   - DNS

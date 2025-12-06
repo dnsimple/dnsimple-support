@@ -1,6 +1,6 @@
 ---
 title: MX Record Reference
-excerpt: The formal structure, behavior, and key technical details of an MX record.
+excerpt: Learn the structure, behavior, and technical details of MX records for email delivery. Understand priority values, redundancy, and how mail servers use MX records.
 meta: Learn more about the structure, behavior, and technical details for MX records.
 categories:
 - DNS

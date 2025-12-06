@@ -1,6 +1,6 @@
 ---
 title: Adding an SRV Record
-excerpt: How to add an SRV record in DNSimple.
+excerpt: Learn how to add SRV records in DNSimple step-by-step. Discover how to configure service location records for applications like SIP, XMPP, and other services.
 categories:
 - DNS
 ---

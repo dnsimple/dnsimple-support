@@ -1,6 +1,6 @@
 ---
 title: What Is a Zone File?
-excerpt: What a zone file is and their key benefits and uses.
+excerpt: Learn what zone files are and their importance in DNS management. Understand what's inside zone files, how they're used for migration, backup, and advanced DNS configuration.
 meta: Learn what zone files are, their importance in DNS management, and what's inside them.
 categories:
 - DNS

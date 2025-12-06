@@ -1,6 +1,6 @@
 ---
 title: DNSSEC at DNSimple
-excerpt: Learn where to find everything you need to know about DNSSEC at DNSimple.
+excerpt: Complete guide to DNSSEC at DNSimple. Learn how to enable, manage, and troubleshoot DNSSEC to protect your domain from DNS attacks and ensure data integrity.
 categories:
 - DNSSEC
 ---

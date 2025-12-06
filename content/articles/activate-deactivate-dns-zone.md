@@ -1,6 +1,6 @@
 ---
 title: Activating and Deactivating a DNS Zone
-excerpt: How to activate or deactivate zones in your DNSimple account.
+excerpt: Learn how to activate or deactivate DNS zones in DNSimple. Step-by-step guide to enabling or disabling DNS hosting for domains with important warnings.
 meta: DNSimple provides a simple interface for activating and deactivating your DNS zones.
 categories:
 - DNS

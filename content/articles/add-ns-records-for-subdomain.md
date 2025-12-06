@@ -1,6 +1,6 @@
 ---
 title: Adding NS Records for a Subdomain
-excerpt: How to delegate a subdomain from a domain registered to custom name servers.
+excerpt: Learn how to delegate a subdomain to custom name servers using NS records. Step-by-step guide to setting up subdomain delegation and verifying the configuration.
 categories:
 - Name Servers
 ---

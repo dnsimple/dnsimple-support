@@ -1,6 +1,6 @@
 ---
 title: SHA-2 SSL Certificates
-excerpt: All certificates purchased with DNSimple are currently signed with the SHA-2 hash algorithm.
+excerpt: Learn about SHA-2 SSL certificates and why DNSimple uses SHA-2 instead of SHA-1. Understand SHA-2 compatibility and how it affects your SSL certificate security.
 categories:
 - SSL Certificates
 ---

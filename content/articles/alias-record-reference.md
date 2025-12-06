@@ -1,6 +1,6 @@
 ---
 title: ALIAS Record Reference
-excerpt: The formal structure, restrictions, and key technical details of an ALIAS record.
+excerpt: Learn the structure, implementation, and technical details of DNSimple's ALIAS records. Understand how ALIAS records work, when to use them instead of CNAME, and dynamic resolution.
 meta: Learn more about the structure, restrictions, and technical details for ALIAS records.
 categories:
 - DNS

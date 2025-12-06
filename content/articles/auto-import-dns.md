@@ -1,6 +1,6 @@
 ---
 title: Auto-Importing DNS Records
-excerpt: Auto-import your DNS records to avoid downtime when transferring or hosting your domain with us.
+excerpt: Automatically import DNS records when transferring or hosting your domain with DNSimple. Step-by-step guide to using auto-import to avoid downtime and simplify DNS migration.
 categories:
 - DNS
 ---

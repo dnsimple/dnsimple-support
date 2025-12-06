@@ -1,6 +1,6 @@
 ---
 title: What is the SSL Certificate Common Name?
-excerpt: The SSL certificate Common Name identifies the hostname associated with the certificate.
+excerpt: Understand what the SSL certificate Common Name is and why it matters for your website security. Learn how to choose the right Common Name for your SSL certificate.
 categories:
 - SSL Certificates
 ---

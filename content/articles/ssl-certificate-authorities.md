@@ -1,6 +1,6 @@
 ---
 title: SSL Certificate Authorities used by DNSimple
-excerpt: The list of Certificate Authorities used by DNSimple to sign SSL certificates.
+excerpt: Discover which Certificate Authorities DNSimple uses to sign SSL certificates. Learn about Sectigo and Let's Encrypt certificates and how to identify your certificate's CA.
 categories:
 - SSL Certificates
 ---

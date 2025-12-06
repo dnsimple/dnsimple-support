@@ -1,6 +1,6 @@
 ---
 title: AWS Elastic Beanstalk Service
-excerpt: How to set up AWS Elastic Beanstalk DNS using DNSimple's One-click Service.
+excerpt: Set up AWS Elastic Beanstalk DNS with DNSimple's One-click Service. Step-by-step guide to configure DNS records for your Elastic Beanstalk application.
 categories:
 - Services
 ---

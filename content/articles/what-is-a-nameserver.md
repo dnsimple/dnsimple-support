@@ -1,6 +1,6 @@
 ---
 title: What is a name server?
-excerpt: An explanation of what name servers are, why they're important, and how to set them up.
+excerpt: Learn what name servers are and why they're essential for DNS. Discover how name servers translate domain names to IP addresses and how to configure them.
 categories:
 - Name Servers
 ---

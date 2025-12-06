@@ -1,6 +1,6 @@
 ---
 title: How can I select a different SSL certificate domain validation email?
-excerpt: This article explains how to use a different email for validating the SSL certificate.
+excerpt: Learn how to select a different email address for SSL certificate domain validation. Understand email requirements, WHOIS visibility, and GDPR considerations.
 categories:
 - SSL Certificates
 ---

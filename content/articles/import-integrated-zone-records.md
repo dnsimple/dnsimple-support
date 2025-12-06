@@ -1,6 +1,6 @@
 ---
 title: Importing Integrated Zone Records
-excerpt: How to import DNS zone records at DNSimple and/or Integrated DNS Providers.
+excerpt: Import DNS records from Integrated DNS Providers into DNSimple to keep zones in sync. Learn how to refresh and import integrated zone records step-by-step.
 categories:
 - DNS
 ---

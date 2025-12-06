@@ -1,6 +1,6 @@
 ---
 title: HINFO Record Reference
-excerpt: The formal structure, restrictions, and key technical details of HINFO records.
+excerpt: Learn the structure, format, and technical details of HINFO records. Understand security considerations and why HINFO records are rarely used in modern DNS configurations.
 meta: Learn more about the structure, security considerations, and technical details for HINFO records.
 categories:
 - DNS

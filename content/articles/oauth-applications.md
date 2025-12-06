@@ -1,6 +1,6 @@
 ---
 title: OAuth Applications
-excerpt: Explains how to create a new OAuth application for access to the API version 2.
+excerpt: Learn how to create OAuth applications for DNSimple API access. Step-by-step guide to registering OAuth apps, managing client credentials, and revoking tokens.
 categories:
 - API
 - Enterprise

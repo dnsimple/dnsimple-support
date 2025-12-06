@@ -1,6 +1,6 @@
 ---
 title: Managing Integrated Zone Records
-excerpt: Adding, updating, and deleting the DNS zone records at DNSimple and/or Integrated DNS Providers.
+excerpt: Manage DNS records across DNSimple and Integrated DNS Providers from one interface. Learn how to add, update, and delete records at multiple providers simultaneously.
 categories:
 - DNS
 ---

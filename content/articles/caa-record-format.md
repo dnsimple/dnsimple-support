@@ -1,6 +1,6 @@
 ---
 title: CAA Record Format and Policy Tags
-excerpt: The structure and canonical representation of a CAA record
+excerpt: Learn the structure, format, and policy tags for CAA records. Understand how to configure CAA records to control which certificate authorities can issue certificates for your domain.
 meta: Learn more about the structure of CAA records and policy tags.
 categories:
 - DNS

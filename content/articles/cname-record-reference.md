@@ -1,6 +1,6 @@
 ---
 title: CNAME Record Reference
-excerpt: The formal structure, restrictions, and key technical details of a CNAME record.
+excerpt: Learn the structure, restrictions, and technical details of CNAME records. Understand when to use CNAME records, their limitations, and how they differ from other record types.
 meta: Learn more about the structure, restrictions, and technical details for CNAME records.
 categories:
 - DNS

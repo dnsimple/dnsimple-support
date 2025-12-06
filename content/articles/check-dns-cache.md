@@ -1,6 +1,6 @@
 ---
 title: Check DNS Cache
-excerpt: How to check if your domain is currently resolving with DNSimple.
+excerpt: Learn how to check and clear DNS cache to see updated DNS records. Understand TTL values, cache expiration, and methods to flush DNS cache on different operating systems.
 categories:
 - DNS
 ---

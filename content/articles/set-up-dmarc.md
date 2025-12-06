@@ -1,6 +1,6 @@
 ---
 title: Setting up DMARC
-excerpt: How to set up DMARC in your DNSimple account.
+excerpt: Step-by-step guide to setting up DMARC for email authentication in DNSimple. Learn how to add DMARC TXT records and protect your domain from email spoofing.
 meta: Learn how to set up DMARC and what to expect from your email provider.
 categories:
 - DNS

@@ -1,6 +1,6 @@
 ---
 title: Account Invoice History
-excerpt: Using the payment history on your account and understanding the states of the listed invoices.
+excerpt: Learn how to view and manage your DNSimple account invoice history. Understand invoice states, retry failed payments, and use invoice filters for Enterprise accounts.
 categories:
 - Account
 ---

@@ -1,6 +1,6 @@
 ---
 title: Premium Domains
-excerpt: In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
+excerpt: Learn what premium domains are and why they cost more than standard domains. Understand how to register, transfer, and renew premium domains with DNSimple.
 categories:
 - Domains
 ---

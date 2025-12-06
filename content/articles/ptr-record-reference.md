@@ -1,6 +1,6 @@
 ---
 title: PTR Record Reference
-excerpt: The formal structure, restrictions, and key technical details of a PTR record.
+excerpt: Learn the structure, format, and technical details of PTR records for reverse DNS lookups. Understand how PTR records work for email verification and security.
 meta: Learn more about the structure, restrictions, and technical details for PTR records.
 categories:
 - DNS

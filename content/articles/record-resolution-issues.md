@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Record Resolution Issues
-excerpt: This article contains instructions to check record resolution issues.
+excerpt: Troubleshoot DNS record resolution issues with this comprehensive guide. Learn how to check domain delegation, verify propagation, and diagnose DNS problems using dig.
 categories:
 - DNS
 ---

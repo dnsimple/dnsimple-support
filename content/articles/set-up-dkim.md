@@ -1,6 +1,6 @@
 ---
 title: Setting up DKIM
-excerpt: How to set up DKIM on your domains.
+excerpt: Learn how to set up DKIM for email authentication using DNS TXT or CNAME records. Step-by-step instructions to configure DKIM with your email provider.
 meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
 categories:
 - DNS

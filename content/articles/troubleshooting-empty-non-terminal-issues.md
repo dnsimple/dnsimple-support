@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Empty Non-Terminal Issues
-excerpt: Diagnose and resolve intermittent or unexpected empty responses caused by Empty Non-Terminals.
+excerpt: Diagnose and fix Empty Non-Terminal (ENT) issues causing unexpected empty DNS responses. Step-by-step troubleshooting guide with common scenarios and solutions.
 categories:
 - DNS
 ---

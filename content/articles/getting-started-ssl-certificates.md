@@ -1,6 +1,6 @@
 ---
 title: Getting Started with SSL Certificates
-excerpt: How to get started with a new SSL Certificate, from order to installation.
+excerpt: Complete guide to getting started with SSL certificates at DNSimple. Learn how to order, validate, download, and install SSL certificates for your website.
 categories:
 - SSL Certificates
 ---

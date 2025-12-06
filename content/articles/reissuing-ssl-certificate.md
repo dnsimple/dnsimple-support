@@ -1,6 +1,6 @@
 ---
 title: Re-issuing an SSL Certificate
-excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
+excerpt: Step-by-step guide to reissuing an SSL certificate with DNSimple. Learn when to reissue, how to request a reissue, and how to install the new certificate and private key.
 categories:
 - SSL Certificates
 ---
