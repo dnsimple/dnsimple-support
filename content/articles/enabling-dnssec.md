@@ -1,6 +1,7 @@
 ---
 title: Enabling DNSSEC
 excerpt: Enable DNSSEC for your domain. Understand the prerequisites, follow the configuration steps, and know what to expect after activation.
+meta: Learn how to enable DNSSEC for your domain at DNSimple. Understand prerequisites, follow step-by-step configuration, and know what to expect after activation.
 categories:
   - DNSSEC
   - Enterprise

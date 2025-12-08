@@ -1,6 +1,7 @@
 ---
 title: Disabling DNSSEC
 excerpt: Learn how to disable DNSSEC for your domain, including critical warnings about removing DS records to prevent DNSSEC validation failures.
+meta: Learn how to disable DNSSEC for your domain at DNSimple. Understand critical warnings about removing DS records to prevent DNSSEC validation failures.
 categories:
 - DNSSEC
 - Enterprise
