@@ -34,8 +34,11 @@ If your domain is registered with a third-party registrar and you are using DNSi
 
 Understanding your domain's resolution status is the first step in ensuring your DNS is configured correctly.
 
+- To learn how to check your domain's resolution status, see [Check Resolution Status](/articles/check-resolution-status/).
 - To learn how to point a domain's name servers to DNSimple when it's registered with us, view [this article](/articles/delegating-dnsimple-registered/).
 - To learn how to delegate your domain that is registered at another provider to DNSimple, please refer to these [detailed instructions](/articles/delegating-dnsimple-hosted/). 
+
+If you're experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for comprehensive troubleshooting guidance.
 
 ## Have more questions?
 If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

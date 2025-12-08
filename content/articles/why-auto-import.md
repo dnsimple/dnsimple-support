@@ -29,6 +29,8 @@ Auto-import is an integrated part of the domain management process. We prompt yo
 
 If a record conflicts with an existing record on your domain, we'll prompt you to confirm which record to keep. By default, we will not override your existing records.
 
+As an alternative to auto-importing, you can manually [import records from a zone file](/articles/import-records-zone-file/) or [export your records to a zone file](/articles/export-records-zone-file/) for backup purposes.
+
 ## Have more questions? 
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

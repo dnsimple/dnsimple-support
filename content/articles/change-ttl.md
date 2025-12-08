@@ -8,7 +8,7 @@ categories:
 
 # How to Change TTL in DNSimple
 
-The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record before requesting it again. You can change the TTL of any DNS record in DNSimple using the Record Editor.
+The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record before requesting it again. To learn more about what TTL is and how it works, see [What Is Time-to-Live?](/articles/what-is-ttl/). For information about DNSimple's TTL settings and defaults, see [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/). You can change the TTL of any DNS record in DNSimple using the [Record Editor](/articles/record-editor/).
 
 ## Changing the TTL
 

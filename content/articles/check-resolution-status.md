@@ -34,6 +34,8 @@ If the domain is registered with another registrar and you're using DNSimple onl
 
  If you would like to transfer the domain registration to us, [follow these instructions](/articles/domain-transfer/).
 
+If you're experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
+
 ## Have more questions?
 
 If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
