@@ -1,6 +1,7 @@
 ---
 title: How Long Does a New DNS Record Take to Resolve?
 excerpt: If your account is active, records you add to a domain will be available within seconds.
+meta: Understand DNS record propagation times and caching behavior. Learn how long new DNS records take to resolve and become visible worldwide.
 categories:
 - DNS
 ---

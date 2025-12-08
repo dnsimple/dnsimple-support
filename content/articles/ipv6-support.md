@@ -1,6 +1,7 @@
 ---
 title: IPv6 Domain Resolution Reference
 excerpt: All DNSimple name servers have IPv6 addresses and respond to queries over IPv6.
+meta: Learn about DNSimple's IPv6 support. Understand how to configure AAAA records and ensure your domain is accessible on IPv6-only networks.
 categories:
 - DNS
 ---

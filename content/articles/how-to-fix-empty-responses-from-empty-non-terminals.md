@@ -1,6 +1,7 @@
 ---
 title: How to Fix Empty Responses from Empty Non-Terminals
 excerpt: Step-by-step guide to resolving empty responses caused by Empty Non-Terminals in your DNS zone.
+meta: Step-by-step guide to fix empty DNS responses caused by Empty Non-Terminals. Learn how to identify ENTs and add explicit records to resolve issues.
 categories:
 - DNS
 ---

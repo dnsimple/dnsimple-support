@@ -1,6 +1,7 @@
 ---
 title: DNSimple TTL Settings Reference
 excerpt: The standard time-to-live (TTL) for records added to DNSimple is 1 hour, but you can set different values.
+meta: Learn about DNSimple's TTL (Time-to-Live) settings. Understand default TTL values, minimum TTL, and when to use high or low TTL values for DNS records.
 categories:
 - DNS
 ---

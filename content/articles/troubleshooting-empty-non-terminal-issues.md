@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Empty Non-Terminal Issues
 excerpt: Diagnose and resolve intermittent or unexpected empty responses caused by Empty Non-Terminals.
+meta: Troubleshoot Empty Non-Terminal (ENT) issues in your DNS zone. Diagnose and resolve unexpected empty responses and wildcard matching problems.
 categories:
 - DNS
 ---

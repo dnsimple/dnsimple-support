@@ -1,6 +1,7 @@
 ---
 title: Rotate DNSSEC Keys
 excerpt: Guides DNSSEC key rotation for DNSimple users, detailing auto-rotation and essential manual steps to maintain domain security.
+meta: Learn about DNSSEC key rotation at DNSimple. Understand automatic key rotation, manual DS record updates, and how to maintain domain security.
 categories:
 - DNS
 - DNSSEC

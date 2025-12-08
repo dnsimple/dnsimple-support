@@ -1,6 +1,7 @@
 ---
 title: DNSimple Status Page
 excerpt: We make our current system status, as well as our uptime history, available at dnsimplestatus.com.
+meta: Check DNSimple's system status and uptime history. Monitor our name server availability and service status in real-time.
 categories:
 - DNSimple
 ---
