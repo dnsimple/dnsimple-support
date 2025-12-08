@@ -77,5 +77,59 @@ Our update queue may sometimes take a bit longer. Wait a few minutes and check a
 
 Check our [status page](https://dnsimple.statuspage.io) for updates. We publish status updates when there's a known issue with our update queue.
 
+## Check for missing A or AAAA records at the apex domain
+
+If you receive an error like "No address associated with hostname" when using `ping` or other tools, it typically means the domain is properly delegated to DNSimple, but there's no [A record](/articles/a-record/) or [AAAA record](/articles/aaaa-record/) configured for the apex domain (the root domain, e.g., `example.com`).
+
+This can happen when:
+
+- You have DNS records for subdomains (like `www.example.com`) but not for the root domain
+
+- You only have [MX records](/articles/mx-record/) for email but no A record for web traffic
+
+- The domain was recently set up and the A record hasn't been added yet
+
+- You have a wildcard record (like `*.example.com`) but no explicit record for the apex domain
+
+<warning>
+
+**Important:** Wildcard DNS records (e.g., `*.example.com`) do **not** match the apex domain (`example.com`). If you have a wildcard ALIAS or CNAME record for subdomains, you must also add a separate record for the apex domain itself if you want the root domain to resolve.
+
+</warning>
+
+### How to check
+
+Use `dig` to query for A and AAAA records at the apex domain:
+
+```
+$ dig example.com A +short
+
+$ dig example.com AAAA +short
+```
+
+If both commands return no results, you need to add an A or AAAA record for the apex domain.
+
+You can also query DNSimple's name servers directly to verify the record doesn't exist in our system:
+
+```
+$ dig example.com A @ns1.dnsimple.com +short
+
+$ dig example.com AAAA @ns1.dnsimple.com +short
+```
+
+### How to fix
+
+1. **If you want to point the apex domain to a specific IP address:** Add an [A record](/articles/a-record/) (for IPv4) or [AAAA record](/articles/aaaa-record/) (for IPv6) with the **Name** field left blank or set to `@`.
+
+2. **If you want to point the apex domain to a hostname (like a cloud service):** Add an [ALIAS record](/articles/alias-record/) with the **Name** field left blank or set to `@`. This is necessary because [CNAME records cannot be used at the apex domain](/articles/cname-record/) if you have other records like MX records.
+
+3. **If you want to redirect the apex domain to another URL:** Add a [URL record](/articles/url-record/) with the **Name** field left blank or set to `@`.
+
+<note>
+
+If you're using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record. Even if your domain is properly configured for web traffic (via ALIAS or URL records), `ping` may still show "No address associated with hostname" if there's no direct A record. This doesn't necessarily mean your website won't work—web browsers will resolve ALIAS and URL records correctly.
+
+</note>
+
 ## Have more questions?   
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
