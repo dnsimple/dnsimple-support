@@ -1,6 +1,7 @@
 ---
 title: Differences Between A and CNAME Records
 excerpt: A and CNAME records are the two common ways to map a host name to an address. This article explains the differences between these two records.
+meta: Understand the key differences between A and CNAME records. Learn when to use each record type and how they map hostnames to IP addresses or other names.
 categories:
 - DNS
 ---

@@ -1,6 +1,7 @@
 ---
 title: What Is Resolution Status?
 excerpt: The resolution status component in the domain page shows if the domain is currently resolving with DNSimple.
+meta: Understand DNS resolution status and how to check if your domain is resolving with DNSimple. Learn about name server delegation and domain configuration.
 categories:
 - DNS
 ---

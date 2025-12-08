@@ -1,6 +1,7 @@
 ---
 title: How Does Zone Verification Work?
 excerpt: Zone Verification ensures that only the current owner of a domain can add and manage its DNS zone in DNSimple.
+meta: Learn how DNS zone verification works at DNSimple. Understand the steps to verify domain ownership and protect your domain from unauthorized DNS zone access.
 categories: 
 - DNS
 ---

@@ -1,6 +1,7 @@
 ---
 title: Why You Should Auto-Import DNS Records
 excerpt: Auto-import your DNS records to reduce the risk of downtime and save significant time when migrating your DNS records.
+meta: Discover why you should auto-import DNS records when transferring or hosting your domain. Reduce downtime, save time, and improve accuracy during DNS migration.
 categories:
 - DNS
 ---

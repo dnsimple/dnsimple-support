@@ -1,6 +1,7 @@
 ---
 title: What Is a CAA Record?
 excerpt: A Certification Authority Authorization (CAA) record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.
+meta: Learn about CAA records and how they secure your domain by controlling which certificate authorities can issue SSL/TLS certificates for your domain.
 categories:
 - DNS
 ---

@@ -1,6 +1,7 @@
 ---
 title: What Is Zone Verification and Why Does It Matter?
 excerpt: What zone verification is and how it protects your domain and online presence from malicious actors taking control of DNS records.
+meta: Understand DNS zone verification and how it protects your domain from DNS takeover attacks. Learn when and how zone verification works at DNSimple.
 categories:
 - DNS
 ---

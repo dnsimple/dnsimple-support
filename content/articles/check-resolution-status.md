@@ -1,6 +1,7 @@
 ---
 title: Check Resolution Status
 excerpt: How to check if your domain is currently resolving with DNSimple.
+meta: Learn how to check your domain's resolution status and verify name server configuration. Ensure your domain is properly delegated to DNSimple.
 categories:
 - DNS
 ---
