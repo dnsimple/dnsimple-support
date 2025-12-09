@@ -78,6 +78,10 @@ You can go to your domain list to check on the status of pending transfers. Clic
 
 If the domain is still in the transfer process, you can cancel the transfer, and the domain won't be moved away from your current registrar. To do this, navigate to your domain. Under the "Transferring" card, click "View status", then "Cancel transfer".
 
+## Before the transfer
+
+Check our guide at [Preparing DNS Before Transferring a Domain Into DNSimple](/articles/before-transferring-domain/) to learn more about how to avoid downtime during the transfer.
+
 ## After the transfer
 
 When the transfer is completed, you will receive a confirmation email from DNSimple. Congratulations! Your domain is now transferred to DNSimple and you can manage it from your DNSimple account.
@@ -98,10 +102,4 @@ We suggest pointing [your domain to our name servers before the transfer](/artic
 
 Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended one year when they are transferred.
 
-The price of this extension is included in the transfer fee.
-
-### Ensure DNSSEC is disabled
-
-If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
-
-Then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring your domain away from your current provider.
+The price of this extension is included in the transfer fee for most TLDs. You can check to see if this applies to a specific TLD by looking it up on our [TLD page](https://dnsimple.com/tlds).
