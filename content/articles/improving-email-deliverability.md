@@ -37,7 +37,7 @@ Proper email authentication is the foundation of good deliverability. Set up all
    - Include your email hosting provider, transactional email services, marketing platforms, etc.
 
 2. **Create SPF record:**
-   - Use DNSimple's Record Editor to add a TXT record
+   - Use DNSimple's [Record Editor](/articles/record-editor/) to add a TXT record
    - Include all authorized sending services using `include:` mechanisms
    - End with `~all` (soft fail) or `-all` (hard fail)
 
@@ -52,7 +52,7 @@ Proper email authentication is the foundation of good deliverability. Set up all
    - See [Verifying SPF](/articles/verifying-spf/) for detailed instructions
 
 <info>
-For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/setting-up-spf/).
+For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/setting-up-spf/). To understand what SPF is, see [What Is an SPF Record?](/articles/spf-record/).
 </info>
 
 ### Configure DKIM records
@@ -62,7 +62,7 @@ For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/sett
    - Obtain the DKIM selector and public key
 
 2. **Add DKIM record:**
-   - Use DNSimple's Record Editor to add a TXT record
+   - Use DNSimple's [Record Editor](/articles/record-editor/) to add a TXT record
    - Create the record at `selector._domainkey.yourdomain.com`
    - Enter the DKIM public key provided by your email provider
 
@@ -72,7 +72,7 @@ For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/sett
    - See [Verifying DKIM](/articles/verify-dkim/) for detailed instructions
 
 <info>
-For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dkim/).
+For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dkim/). To understand what DKIM is, see [What Is a DKIM Record?](/articles/dkim-record/). If you need to manage multiple DKIM selectors, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 </info>
 
 ### Configure DMARC records
@@ -82,13 +82,14 @@ For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dki
    - Set up a reporting email address using `rua=mailto:dmarc@yourdomain.com`
 
 2. **Create DMARC record:**
-   - Use DNSimple's Record Editor to add a TXT record
+   - Use DNSimple's [Record Editor](/articles/record-editor/) to add a TXT record
    - Create the record at `_dmarc.yourdomain.com`
    - Start with: `v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com`
 
 3. **Gradually increase policy:**
    - After monitoring and fixing issues, move to `p=quarantine`
    - Finally, move to `p=reject` only after thorough testing
+   - See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for detailed guidance
 
 4. **Verify DMARC:**
    - Use `dig +short _dmarc.yourdomain.com TXT` to verify
@@ -96,7 +97,7 @@ For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dki
    - See [Verifying DMARC](/articles/verifying-dmarc/) for detailed instructions
 
 <info>
-For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-dmarc/).
+For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-dmarc/). To understand what DMARC is, see [What Is a DMARC Record?](/articles/dmarc-record/). For information about alignment requirements, see [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/).
 </info>
 
 ## Step 2: Monitor and improve sender reputation
@@ -117,6 +118,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Keep bounce rates below 2%
    - Remove hard bounces immediately
    - Investigate and fix soft bounces
+   - See [Understanding Email Bounces](/articles/understanding-email-bounces/) for more information about bounce types
 
 ### Improve reputation
 
@@ -257,11 +259,12 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 ### Emails going to spam
 
 **Solutions:**
-1. Verify email authentication (SPF, DKIM, DMARC) is correct
+1. Verify email authentication (SPF, DKIM, DMARC) is correct - see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for help
 2. Check sender reputation
 3. Review email content for spam triggers
 4. Check blacklist status
 5. Improve list quality and engagement
+6. Ensure proper email authentication setup - see [Email Authentication Best Practices](/articles/email-authentication-best-practices/) and [Protecting Your Domain from Email Spoofing](/articles/protecting-your-domain-from-email-spoofing/)
 
 ### High bounce rates
 
@@ -269,8 +272,9 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 1. Clean your email list regularly
 2. Remove hard bounces immediately
 3. Verify email addresses before sending
-4. Investigate and fix soft bounces
+4. Investigate and fix soft bounces - see [Understanding Email Bounces](/articles/understanding-email-bounces/) for guidance
 5. Use double opt-in for new subscribers
+6. If using email forwarding, see [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/) for specific guidance
 
 ### Low engagement
 
@@ -294,12 +298,40 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 
 ## Related topics
 
+### Email deliverability
 - [Understanding Email Deliverability](/articles/understanding-email-deliverability/) - Overview of email deliverability
 - [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Tools and techniques for monitoring
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Guide to authentication issues
+
+### Email authentication
+- [What Is an SPF Record?](/articles/spf-record/) - Introduction to SPF
 - [Setting Up SPF Records](/articles/setting-up-spf/) - SPF setup guide
+- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - How to verify SPF records
+- [What Is a DKIM Record?](/articles/dkim-record/) - Introduction to DKIM
 - [Setting Up DKIM](/articles/set-up-dkim/) - DKIM setup guide
+- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - How to verify DKIM records
+- [What Is a DMARC Record?](/articles/dmarc-record/) - Introduction to DMARC
 - [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup guide
+- [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - How to verify DMARC records
+- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
+- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual DMARC implementation
+- [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) - Managing multiple DKIM keys
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Best practices for authentication
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Guide to authentication issues
+
+### Email security
+- [Email Security Best Practices](/articles/email-security-best-practices/) - Comprehensive security guide
+- [Protecting Your Domain from Email Spoofing](/articles/protecting-your-domain-from-email-spoofing/) - Spoofing protection guide
+
+### Email bounces
+- [Understanding Email Bounces](/articles/understanding-email-bounces/) - Overview of email bounces
+- [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/) - Bounce handling with forwarding
+
+### Email DNS records
+- [Managing Email DNS Records](/articles/managing-email-dns-records/) - Comprehensive guide to email DNS records
+- [Email DNS Records Quick Reference](/articles/email-dns-records-quick-reference/) - Quick reference for email records
+
+### DNS management
+- [How to Use the Record Editor](/articles/record-editor/) - Guide to DNSimple's Record Editor
 
 ## Have more questions?
 

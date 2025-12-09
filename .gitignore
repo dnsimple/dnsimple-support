@@ -7,3 +7,5 @@
 /.env
 /crash.log
 /yarn-error.log
+
+/.vscode
