@@ -16,7 +16,7 @@ The core issue lies in how DNSSEC signs records and how secondary DNS servers re
 
 ## The challenge: zone signing and key material
 
-For DNSSEC to function correctly, DNS resolvers (the clients making the query) must be able to verify the trust-chain associated to at least one of the DS records present in the parent zone for a domain name. For this, all authoritative name servers involved in the domain's delegation must provide valid DNSKEY and RRSIG records.
+For DNSSEC to function correctly, DNS resolvers (the clients making the query) must be able to verify the trust-chain associated with at least one of the [DS records](/articles/what-are-ds-records/) present in the parent zone for a domain name. For this, all authoritative name servers involved in the domain's delegation must provide valid [DNSKEY](/articles/dnskey-records-explained/) and [RRSIG records](/articles/dnssec-glossary/#rrsig).
 
 ## The conflict with secondary DNS
 
