@@ -93,7 +93,7 @@ If you recently updated the domain, see the **Name server change propagation** s
 
 ## DNSSEC considerations
 
-If you switched DNS providers recently, please read our [Managing DS Records When Changing DNS](/ds-records-changing-dns) article to understand how DNSSEC may impact on your domain's DNS resolution.
+If you switched DNS providers recently, please read our [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/) article to understand how DNSSEC may impact on your domain's DNS resolution.
 
 If you transferred your domain from another registrar, check our suggestions at the [Preparing DNS Before Transferring a Domain Into DNSimple > DNSSEC considerations](/articles/before-transferring-domain/#dnssec-considerations) article to pinpoint potential issues.
 

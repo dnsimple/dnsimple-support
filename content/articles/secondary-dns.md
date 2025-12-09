@@ -16,7 +16,7 @@ categories:
 ---
 
 <warning>
-  Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/dnssec-and-secondary-dns/) article for more information.
+  Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) article for more information.
 </warning>
 
 <warning>

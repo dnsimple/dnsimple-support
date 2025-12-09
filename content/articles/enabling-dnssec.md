@@ -11,7 +11,7 @@ categories:
 ## Prerequisites
 
 - The DNS resolution service must be enabled for your zone.
-- DNSimple as Secondary DNS cannot be enabled on the zone. You can read more about it in our [Why DNSSEC and Secondary DNS May Not Work Together](/dnssec-and-secondary-dns).
+- DNSimple as Secondary DNS cannot be enabled on the zone. You can read more about it in our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 
 ## Enable DNSSEC
 1. Use the **account switcher** at the top of the page to select the appropriate account.
