@@ -10,7 +10,7 @@ categories:
 
 # Rotate DNSSEC Keys
 
-The [key signing keys and zone signing key](/articles/types-of-dnssec-keys/) rotation period starts 83 days after they're created and can last between 2 and 14 days. DNSSEC key set rotation is automatic and mandatory; it cannot be disabled.
+The [key signing keys and zone signing key](/articles/types-of-dnssec-keys/) rotation period starts 83 days after they're created and can last between 2 and 14 days. DNSSEC key set rotation is automatic and mandatory. It cannot be disabled.
 
 Here is what you need to do, depending on how your domain is set up.
 
