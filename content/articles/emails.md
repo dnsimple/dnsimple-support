@@ -39,7 +39,6 @@ Ready to set up email services? Learn how to manage your email configuration eff
 - [Enabling Email Forwarding](/articles/enabling-email-forwarding/): A step-by-step guide to turning email forwarding **on** for your domain.
 - [Creating and Deleting Email Forwards](/articles/managing-email-forwards/): Learn how to create, manage, and remove email forwarding rules.
 - [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/): Understand email forwarding limits, quotas, and billing.
-- [Email Forwarding with Subdomains](/articles/email-forwarding-with-subdomains/): Learn how to set up email forwarding for subdomains.
 - [Managing Email Forwarding for Multiple Domains](/articles/managing-email-forwarding-for-multiple-domains/): Learn how to efficiently manage email forwarding across multiple domains.
 - [Migrating Email Forwarding from Another Provider](/articles/migrating-email-forwarding-from-another-provider/): Step-by-step guide to migrating email forwarding configuration.
 

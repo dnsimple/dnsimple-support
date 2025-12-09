@@ -38,7 +38,6 @@ Once you've set up email forwarding, these articles will help you manage it effe
 - [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/): A detailed look at the email forwarding management interface within your DNSimple account.
 - [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/): Understand email forwarding limits, quotas, and billing.
 - [Managing Email Forwarding for Multiple Domains](/articles/managing-email-forwarding-for-multiple-domains/): Learn how to efficiently manage email forwarding across multiple domains.
-- [Email Forwarding with Subdomains](/articles/email-forwarding-with-subdomains/): Learn how to set up email forwarding for subdomains.
 
 ## Advanced topics
 
