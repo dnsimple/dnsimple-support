@@ -1,12 +1,14 @@
 ---
 title: Creating and Deleting Email Forwards
-excerpt: Learn how to create, manage, and remove email forwarding rules in DNSimple.
-meta: Step-by-step guide to creating and managing email forwards in DNSimple, including catch-all forwarding and best practices.
+excerpt: Step-by-step instructions for creating, editing, and deleting email forwarding rules in DNSimple.
+meta: Complete how-to guide with step-by-step instructions for managing email forwards in DNSimple, including catch-all forwarding and best practices.
 categories:
 - Emails
 ---
 
 # Creating and Deleting Email Forwards
+
+This article provides step-by-step instructions for creating, editing, and deleting email forwarding rules in DNSimple. If you're looking for a visual guide to the email forwarding interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/).
 
 ### Table of Contents {#toc}
 
@@ -68,10 +70,12 @@ To view all email forwards for a domain:
 
 1. Navigate to the domain's **Email Forwarding** tab.
 1. All configured email forwards are listed in the **Current Email Forwards** section.
-1. Each forward shows:
+1. Each forward displays:
    - The source address (From)
    - The destination address (To)
    - Options to edit or delete the forward
+
+For a visual guide to the email forwarding interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/).
 
 ## Editing an email forward
 

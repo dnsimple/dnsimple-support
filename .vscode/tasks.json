@@ -1,0 +1,66 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "branchName",
+      "description": "Enter branch name",
+      "default": "",
+      "type": "promptString"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "Update main branch",
+      "type": "shell",
+      "command": "git checkout main && git pull origin main",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false,
+        "clear": false
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Sync all branches",
+      "type": "shell",
+      "command": "git fetch --all --prune && git checkout main && git pull origin main",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false,
+        "clear": false
+      }
+    },
+    {
+      "label": "Create new branch from main",
+      "type": "shell",
+      "command": "git checkout main && git pull origin main && git checkout -b ${input:branchName}",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false,
+        "clear": false
+      }
+    },
+    {
+      "label": "Create new branch from current",
+      "type": "shell",
+      "command": "git checkout -b ${input:branchName}",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false,
+        "clear": false
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  // Automatically fetch from the remote repository
+  "git.autofetch": true,
+  
+  // How often to fetch (in seconds). Default is 180 (3 minutes)
+  "git.autofetchPeriod": 180,
+  
+  // Automatically fetch all remotes
+  "git.fetchOnPull": true,
+  
+  // Show a notification when the branch is behind the remote
+  "git.enableSmartCommit": true,
+  
+  // Automatically sync after pull
+  "git.confirmSync": false
+}
+
