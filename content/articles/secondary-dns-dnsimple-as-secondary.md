@@ -27,8 +27,6 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 <warning>
   Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures from DNSSEC aware resolvers.
-
-  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS.
 </warning>
 
 
