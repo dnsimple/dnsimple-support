@@ -102,4 +102,4 @@ We suggest pointing [your domain to our name servers before the transfer](/artic
 
 Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended one year when they are transferred.
 
-The price of this extension is included in the transfer fee.
+The price of this extension is included in the transfer fee for most TLDs. You can check to see if this applies to a specific TLD by looking it up on our [TLD page](https://dnsimple.com/tlds).
