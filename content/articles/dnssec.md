@@ -1,6 +1,7 @@
 ---
 title: DNSSEC at DNSimple
 excerpt: Learn where to find everything you need to know about DNSSEC at DNSimple.
+meta: Discover everything you need to know about DNSSEC at DNSimple. Learn how to enable, manage, and troubleshoot DNSSEC for enhanced DNS security.
 categories:
 - DNSSEC
 ---
