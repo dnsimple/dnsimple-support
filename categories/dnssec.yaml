@@ -10,6 +10,7 @@ Explanation:
   - "Understanding RRSETs and RRSIGs in DNSSEC"
   - "Understanding NSEC and NSEC3 Records"
   - "What Are CDS and CDNSKEY?"
+  - "Why DNSSEC and Secondary DNS May Not Work Together"
 
 How to:
   - "Enabling DNSSEC"
