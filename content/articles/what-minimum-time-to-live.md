@@ -8,7 +8,7 @@ categories:
 
 # DNSimple TTL Settings Reference
 
-This document provides information about the Time-to-Live (TTL) settings available in DNSimple's record editor. To learn more about TTL, see our article [What is Time-to-Live](https://support.dnsimple.com/articles/what-is-ttl/)?
+This document provides information about the Time-to-Live (TTL) settings available in DNSimple's record editor. To learn more about TTL, see our article [What is Time-to-Live?](/articles/what-is-ttl/).
 
 ## TTL Values and defaults
 The **Time-to-Live (TTL)** value for a DNS record determines how long a DNS resolver can cache a record before needing to refresh it from the authoritative name servers.
@@ -24,6 +24,8 @@ The TTL value you set can affect both the performance and update speed of your d
 
 ## DNSimple-specific policy
 DNSimple reserves the right to review traffic patterns for performance and stability. If a record's TTL is deemed too low for a given traffic pattern, we may contact you via email first and request that you raise the TTL to a higher value. This is done to improve cache results and maintain the health of our DNS network.
+
+To change a record's TTL, see [How to Change TTL in DNSimple](/articles/change-ttl/). For more information about DNS caching and how TTL affects record visibility, see [Check DNS Cache](/articles/check-dns-cache/) and [How Long Does a New DNS Record Take to Resolve?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/).
 
 ## Have more questions? 
 If you have additional questions or need any assistance with your TTL settings, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

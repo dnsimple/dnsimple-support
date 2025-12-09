@@ -19,7 +19,7 @@ categories:
 
 The Record Editor is DNSimple's DNS editor. It lets you view, add, update, and delete DNS records for your domain in DNSimple.
 
-Any supported [DNS record](/articles/supported-dns-records/) type can be managed from the Record Editor, except [system records](https://support.dnsimple.com/articles/system-records/).
+Any supported [DNS record](/articles/supported-dns-records/) type can be managed from the Record Editor, except [system records](https://support.dnsimple.com/articles/system-records/). DNSimple provides two editor interfaces: the simple editor and the field-specific editor. To learn about the differences and when to use each, see [Understanding DNSimple's Record Editors: Simple vs. Field-Specific](/articles/record-editor-simple-field/).
 
 You'll need access to the account or domain to make changes. Make sure the domain is delegated to DNSimple so your records propagate.
 
@@ -42,6 +42,8 @@ You'll need access to the account or domain to make changes. Make sure the domai
 1. Select the DNS record type you want to add (for example, A, CNAME, MX, etc.).
 1. Fill out the required fields for the new record.
 1. Click **Add record** to save it.
+
+For step-by-step instructions on adding common DNS records, see [How to Add Common DNS Records](/articles/how-to-add-dns-records/).
    
 ![Select Record Type](/files/rec-editor-new-record.png)
 

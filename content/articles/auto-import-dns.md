@@ -23,7 +23,7 @@ Legacy Plans don't have access to this feature. You must be subscribed to one of
 - [TXT](/articles/txt-record/)
 
 <note>
-Not all domain providers let you export your records in this standard format.
+Not all domain providers let you export your records in this standard format. As an alternative, you can manually [import records from a zone file](/articles/import-records-zone-file/) or [export your records to a zone file](/articles/export-records-zone-file/) for backup purposes.
 </note>
 
 **We prompt you to auto-import DNS records when**:

@@ -59,6 +59,8 @@ You can verify what the upstream resolver is returning by running the dig comman
 
 If the upstream resolver already shows the updated record, you can flush your local cache using the methods in Option 1 or Option 2 below.
 
+If you're experiencing DNS resolution issues after clearing your cache, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
+
 ### **Option 1: everyday methods**
 
 Clear the DNS cache before checking a record update. This may involve:

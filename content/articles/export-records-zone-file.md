@@ -10,9 +10,9 @@ categories:
 
 ## Exporting records from a zone file
 
-You can export your domain's records into a [zone file](/articles/what-is-zone-file/).
+You can export your domain's records into a [zone file](/articles/what-is-zone-file/) using the [Record Editor](/articles/record-editor/).
 
-The resulting zone file will allow you to copy over all the domain's records to a third-party system. You can also keep the zone file as a backup of your domain's records.
+The resulting zone file will allow you to copy over all the domain's records to a third-party system. You can also keep the zone file as a backup of your domain's records. To import records from a zone file, see [Import Zone File](/articles/import-records-zone-file/).
 
 <info>
 Non-standard records, like [ALIAS](/articles/alias-record/) and [POOL](/articles/pool-record/), will be commented out in the resulting file.

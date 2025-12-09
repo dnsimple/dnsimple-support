@@ -8,7 +8,7 @@ categories:
 
 # Updating Zone NS Records for a Hosted Domain
 
-You can configure [NS records](/articles/ns-record/) at the apex of a zone of a hosted domain. If you want to configure NS records for a subdomain, click [here](/articles/add-ns-records-for-subdomain/) instead.
+You can configure [NS records](/articles/ns-record/) at the apex of a zone of a hosted domain using the [Record Editor](/articles/record-editor/). If you want to configure NS records for a subdomain, click [here](/articles/add-ns-records-for-subdomain/) instead. For information about DNSimple's name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
 <div class="section-steps" markdown="1">
 ##### Updating NS records for a zone
