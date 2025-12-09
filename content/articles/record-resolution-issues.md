@@ -121,7 +121,7 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 
 1. **If you want to point the apex domain to a specific IP address:** Add an [A record](/articles/a-record/) (for IPv4) or [AAAA record](/articles/aaaa-record/) (for IPv6) with the **Name** field left blank or set to `@`.
 
-2. **If you want to point the apex domain to a hostname (like a cloud service):** Add an [ALIAS record](/articles/alias-record/) with the **Name** field left blank or set to `@`. This is necessary because [CNAME records cannot be used at the apex domain](/articles/cname-record/) if you have other records like MX records.
+2. **If you want to point the apex domain to a hostname (like a cloud service):** Add an [ALIAS record](/articles/alias-record/) with the **Name** field left blank or set to `@`. This is necessary because [CNAME records cannot be used at the apex domain](/articles/cname-record/) or if you have other records like MX records.
 
 3. **If you want to redirect the apex domain to another URL:** Add a [URL record](/articles/url-record/) with the **Name** field left blank or set to `@`.
 
