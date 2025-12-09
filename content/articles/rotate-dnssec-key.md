@@ -10,7 +10,7 @@ categories:
 
 # Rotate DNSSEC Keys
 
-DNSimple automatically rotates [key signing keys and zone signing keys](/articles/types-of-dnssec-keys/) every 90 days. Auto-rotation is mandatory. It cannot be disabled.
+DNSimple automatically rotates [key signing keys and zone signing keys](/articles/types-of-dnssec-keys/) every 90 days. Auto-rotation is mandatory. It cannot be disabled. If you're new to DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 Here is what you need to do, depending on how your domain is set up.
 
@@ -18,7 +18,7 @@ Here is what you need to do, depending on how your domain is set up.
 There is nothing you need to do. We handle the key rotation automatically for you.
 
 ## If your domain is not registered with us or does not use our authoritative name servers
-You will need to manually rotate your DS record at your domain registrar.
+You will need to manually rotate your DS record at your domain registrar. To learn more about DS records, see [What Are DS Records?](/articles/what-are-ds-records/). For step-by-step instructions on managing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
 
 **How it works:**
 
@@ -59,6 +59,10 @@ If your registrar requires the DNSKEY or other additional details, you can view 
 - Update or add the DS record or DNSKEY information as needed, based on the details from DNSimple.
 
 If you're rotating keys, remember to remove any old DS records, and replace them with the new one from your DNSimple configuration.
+
+## Troubleshooting
+
+If you encounter issues during key rotation, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for guidance on diagnosing and resolving key rollover problems. For information about managing DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/).
 
 ## Have more questions?
 If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
