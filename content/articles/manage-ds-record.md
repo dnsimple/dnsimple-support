@@ -3,7 +3,6 @@ title: Adding and Removing DS Records
 excerpt: Instructions to add and remove a DS record in DNSimple.
 meta: Learn how to efficiently manage DS records in DNSimple with our comprehensive guide, covering both adding and removing records for optimal DNS configuration.
 categories:
-- DNS
 - DNSSEC
 ---
 
@@ -16,13 +15,9 @@ categories:
 
 ---
 
-DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain.
+DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain. You would need to manage them if you're not delegating your domain to DNSimple, and you want to use DNSSEC with your DNS provider.
 
 ## Adding a DS record
-
-<note>
-DS records can only be manually added for domains not registered with DNSimple. For domains registered at DNSimple, DS records are automatically handled when DNSSEC is enabled.
-</note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
    
@@ -77,7 +72,7 @@ To add a DS record with the DNSSEC API, check out our [developer documentation](
 
 <note>
 #### Important 
-You can only manually remove a DS record if it is not managed by DNSimple. If DNSSEC is enabled and managed by DNSimple, the only way to remove the DS record is by disabling DNSSEC.
+You can't remove DS records managed by DNSimple.
 </note>
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
