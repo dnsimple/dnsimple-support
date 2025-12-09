@@ -22,8 +22,8 @@ Email forwarding is applied on a per-domain basis. The following sections explai
  ![screenshot of UI for email forwarding on a domain](/files/forwarding-tab.png)
 
 1. **Email Forwarding** tab - Email forwarding management options for the domain.
-1. **Add email forward** button - Create a new email forward.
-1. **Current Email Forwards** section - List of all configured email forwards.
+1. **Add** button - Create a new email forward.
+1. Current Email Forwards section - List of all configured email forwards.
 
 ## Email forward creation form
 

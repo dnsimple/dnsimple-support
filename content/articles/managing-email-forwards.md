@@ -26,7 +26,7 @@ You can create email forwards from either the domain's Email Forwarding page or 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 1. In your **Domain Names** list, click the name of the domain where you want to create an email forward.
 1. Click the **Email Forwarding** tab on the left side.
-1. Click **Add email forward** or the **+** button.
+1. Click **Add email forward** or the **continue** button.
 1. Enter the email forward details:
    - **From:** Enter the local part (the part before the @) of the email address you want to forward from (e.g., `hello` for `hello@yourdomain.com`). Do not include the domain name.
    - **To:** Enter the full email address where you want emails to be forwarded (e.g., `yourname@gmail.com`).
@@ -69,7 +69,7 @@ When you have a catch-all email forward, it only applies to emails sent to addre
 To view all email forwards for a domain:
 
 1. Navigate to the domain's **Email Forwarding** tab.
-1. All configured email forwards are listed in the **Current Email Forwards** section.
+1. All configured email forwards are listed in the Current Email Forwards section.
 1. Each forward displays:
    - The source address (From)
    - The destination address (To)
@@ -83,7 +83,7 @@ To modify an existing email forward:
 
 1. Navigate to the domain's **Email Forwarding** tab.
 1. Find the email forward you want to edit in the **Current Email Forwards** section.
-1. Click **Edit** (or the pencil icon).
+1. Click **Edit** (the pencil icon).
 1. Modify the **From** or **To** fields as needed.
 1. Click **Save** to apply the changes.
 
@@ -92,8 +92,8 @@ To modify an existing email forward:
 To remove an email forward from your domain:
 
 1. Navigate to the domain's **Email Forwarding** tab.
-1. Locate the email forwarding configuration that you want to delete under the **Current Email Forwards** section.
-1. Click **Delete** (or the trash can icon).
+1. Locate the email forwarding configuration that you want to delete under the Current Email Forwards section.
+1. Click **Delete** (the trash can icon).
 1. Confirm the deletion when prompted.
 
 ![Email forwarding creation](/files/email-forwarding-removal.png)
