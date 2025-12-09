@@ -48,7 +48,7 @@ Proper email authentication is the foundation of good deliverability. Set up all
 
 4. **Verify SPF:**
    - Use `dig +short yourdomain.com TXT | grep "v=spf1"` to verify
-   - Test with online SPF checkers
+   - Test with online SPF checkers (see [Verifying SPF](/articles/verifying-spf/) for recommended tools)
    - See [Verifying SPF](/articles/verifying-spf/) for detailed instructions
 
 <info>
@@ -105,14 +105,14 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 ### Check your reputation
 
 1. **Use reputation monitoring tools:**
-   - Sender Score (sender-score.org)
-   - Google Postmaster Tools (for Gmail)
-   - Microsoft SNDS (for Outlook/Hotmail)
-   - BarracudaCentral
+   - [Sender Score](https://www.senderscore.org/) - Free reputation score and monitoring
+   - [Google Postmaster Tools](https://postmaster.google.com/) - Gmail-specific deliverability data
+   - [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/) - Outlook/Hotmail reputation and complaint data
+   - [BarracudaCentral](https://www.barracudacentral.org/) - Email reputation and blacklist monitoring
 
 2. **Check blacklists:**
-   - Use MXToolbox or similar tools to check if you're on blacklists
-   - If blacklisted, follow the delisting process
+   - Use [MXToolbox](https://mxtoolbox.com/blacklists.aspx) or similar tools to check if you're on blacklists
+   - If blacklisted, follow the delisting process provided by the blacklist operator
 
 3. **Monitor bounce rates:**
    - Keep bounce rates below 2%
