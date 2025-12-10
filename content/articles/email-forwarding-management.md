@@ -31,10 +31,10 @@ Email forwarding is applied on a per-domain basis. The following sections explai
 
 When creating a new email forward, you'll see the following fields and options:
 
-1. **From** field - Enter the local part of the email address to forward from (e.g., `hello` for `hello@yourdomain.com`). Do not include the domain name.
+1. **Single email address** field - Enter the local part of the email address to forward from (e.g., `hello` for `hello@yourdomain.com`). Do not include the domain name.
 1. **To** field - Enter the full email address where emails should be forwarded (e.g., `yourname@gmail.com`).
 1. **Catch-all** option - Check this box to create a catch-all forward that captures emails to any address at your domain.
-1. **Add email forward** button - Click to create the email forward.
+1. **Create forward** button - Click to create the email forward.
 
 For detailed step-by-step instructions, see [Creating and Deleting Email Forwards](/articles/managing-email-forwards/).
 
@@ -42,7 +42,7 @@ For detailed step-by-step instructions, see [Creating and Deleting Email Forward
 
 ![screenshot of managing email forwards](/files/email-forwarding-removal.png)
 
-The **Current Email Forwards** section displays all configured email forwards for the domain. Each forward shows:
+The **Email Forwards** section displays all configured email forwards for the domain. Each forward shows:
 
 1. **Source address (From)** - The local part of the email address being forwarded.
 1. **Destination address (To)** - The full email address where emails are forwarded.
