@@ -1,6 +1,7 @@
 ---
 title: Email Services at DNSimple
 excerpt: Learn where to find everything you need to know about email services at DNSimple.
+meta: Comprehensive guide to email services at DNSimple, including email forwarding, email authentication (SPF, DKIM, DMARC), and integration with third-party email hosting providers.
 categories:
 - Emails
 ---

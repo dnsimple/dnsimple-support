@@ -1,6 +1,7 @@
 ---
 title: Enabling Email Forwarding
 excerpt: Enable email forwarding for your domain. Understand the prerequisites, follow the configuration steps, and know what to expect after activation.
+meta: Step-by-step guide to enabling email forwarding for your domain in DNSimple, including prerequisites, configuration steps, and what to expect after activation.
 categories:
 - Emails
 ---
