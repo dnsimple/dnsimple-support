@@ -24,7 +24,7 @@ You will need to manually manage your DS records at your domain registrar.
 
 **How it works:**
 
-1. When key rotation starts, we'll send you an email notification with the new DS record details. At this point, your zone will be signed by two sets of DNSSEC keys.
+1. When key rotation starts, we'll send you an email notification with the new DS record details. You will also see the DS record details in the DNSSEC tab while the key rotation is ongoing. At this point, your zone will be signed by two sets of DNSSEC keys.
 1. You have 7 days to add the DS records at your registrar.
 1. Once our system verifies the new DS record is fully present in the parent zone, we'll send you another email notification with the old DS record details.
 1. You have 7 days to remove the DS records at your registrar.
