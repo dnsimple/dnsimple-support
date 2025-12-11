@@ -60,6 +60,10 @@ This mismatch can happen, for example, if DNSSEC is disabled in the child zone, 
 CDS and CDNSKEY help prevent this by ensuring that DS records are automatically removed when no longer needed, maintaining the integrity of the DNSSEC chain of trust.
 
 
+## Learn more
+
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+
 ## Have more questions?
 
 If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 

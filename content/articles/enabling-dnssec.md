@@ -9,6 +9,8 @@ categories:
 
 # Enabling DNSSEC
 
+If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+
 ## Prerequisites
 You cannot enable DNSSEC if you have set up [Secondary DNS](/articles/secondary-dns/). They will not work in conjunction. Ensure you are not currently using Secondary DNS, or disable Secondary DNS before using DNSSEC. You can read more about why [in this article](/articles/dnssec-and-secondary-dns/).
 
@@ -35,8 +37,8 @@ To see how to enable DNSSEC with the API, check out our [developer documentation
 
 **If the domain is registered elsewhere but using DNSimple for DNS hosting:**
 - Once the zone is signed, a DS record will be generated.
-- You'll need to manually copy and add this DS record to your domain registrar to complete the setup.
-- DNSSEC key rotation occurs every 90 days. You must update the DS record at your registrar as we automatically rotate both zone signing keys and key signing keys.
+- You'll need to manually copy and add this DS record to your domain registrar to complete the setup. For step-by-step instructions, see [Adding and Removing DS Records](/articles/manage-ds-record/). To learn more about DS records, see [What Are DS Records?](/articles/what-are-ds-records/).
+- DNSSEC key rotation occurs every 90 days. You must update the DS record at your registrar as we automatically rotate both zone signing keys and key signing keys. For more information, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/).
 ![screenshot of dnssec keys](/files/dnssec-keys.png)
 
 ## Common warnings
@@ -52,6 +54,10 @@ The warning does not necessarily mean that any action is needed on your part. Th
 </info>
 
 ![screenshot of dnssec configured](/files/dnssec-configured-warning.png)
+
+## Troubleshooting
+
+If you encounter issues after enabling DNSSEC, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance on diagnosing and resolving common DNSSEC problems.
 
 ## Have more questions?
 If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
