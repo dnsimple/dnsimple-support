@@ -41,7 +41,6 @@ export default {
   "log in": "get started general",
   "pricing": "pricing plans subscription transfer",
   "ipv6": "ipv6 address aaaa",
-  "ptr": "reverse DNS",
-  "ptr": "reverse spf",
+  "ptr": "reverse DNS spf",
   "managing seats": "seats",
 };
