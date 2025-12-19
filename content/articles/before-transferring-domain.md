@@ -16,11 +16,15 @@ categories:
 
 Transferring domain names from one registrar to another often causes concerns of downtime. The following steps will hopefully help you avoid any downtime while transferring, so the process is as smooth and easy as possible.
 
-## Ensure DNSSEC is disabled
+## DNSSEC considerations
 
-If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
+Our system will perform a series of automated maintenance tasks after your domain gets transferred to DNSimple:
+- We will automatically provision any missing DS records to ensure DNSSEC works correctly if it's enabled.
+- We will pull any missing custom DS records from the parent zone so that they show up when in the [DS record management page](/articles/ds-records-changing-dns/)
 
-Then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring your domain away from your current provider.
+Please remember that an incorrect DNSSEC set up may cause your domain to be inaccessible:
+- If you haven't enabled DNSSEC with us, and it is enabled in your current provider, please either enable it with us or disable it with your current provider before transferring.
+- If you have enabled DNSSEC with us, and you're delegating your domain through multiple providers, please make sure that all of them are configured correctly before transferring. You can contact us for guidance at [support@dnsimple.com](mailto:support@dnsimple.com).
 
 ## Adding the domain to DNSimple
 
