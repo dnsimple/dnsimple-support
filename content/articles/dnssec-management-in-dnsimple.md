@@ -10,14 +10,14 @@ categories:
 
 <note> DNSSEC is applied on a per-domain basis. </note>
 
-![DNSSEC tab](content/files/DNSSEC-tab-reference.png)
+![DNSSEC tab](/files/DNSSEC-tab-reference.png)
 
 1. **DNSSEC tab** - DNSSEC management options for the domain.
 2. **Enable DNSSEC button in the DNSSEC card** - Enable DNSSEC for the domain. 
 
 ## Enable DNSSEC
 
-![Enable DNSSEC](content/files/DNSSEC-enable-reference.png)
+![Enable DNSSEC](/files/DNSSEC-enable-reference.png)
 
 1. **Manage DS Records**  - Manage DS records for domains not resolving with DNSimple.
 2. **Continue button** - Goes to options to have DNSimple fully manage the domain DNSSEC. 
@@ -26,11 +26,11 @@ categories:
 
 ### Add DS Record For Domain Not Delegated to DNSimple
 
-![Add DS Record button](content/files/DNSSEC-DS-record-add-button-reference.png)
+![Add DS Record button](/files/DNSSEC-DS-record-add-button-reference.png)
 
 1. **Add DS Record button** - Add a DS record.
 
-![Add DS Record page](content/files/DNSSEC-DS-record-add-page-reference.png)
+![Add DS Record page](/files/DNSSEC-DS-record-add-page-reference.png)
 
 1. **Algorithm** - Choose algorithm type for the DS record.
 2. **Keytag** - Enter KeyTag number.
@@ -41,7 +41,7 @@ categories:
 
 ### Enable Fully Managed DNSSEC
 
-![Fully Managed Reference](content/files/DNSSEC-fully-managed-reference.png)
+![Fully Managed Reference](/files/DNSSEC-fully-managed-reference.png)
 
 1. **Continue button** - Goes to options to have DNSimple fully manage the domain DNSSEC.
 2. **Enable DNSSEC button** - Enables fully managed DNSSEC.
@@ -50,13 +50,13 @@ categories:
 
 ### Enabling DNSSEC
 
-![Enabling DNSSEC reference](content/files/DNSSEC-enabling-page-reference.png)
+![Enabling DNSSEC reference](/files/DNSSEC-enabling-page-reference.png)
 
 1. **Enabling Notification** - Notification that DNSSEC is being enabled.
 2. **We're Enabling DNSSEC on (domain) Card** - Status card for DNSSEC.
 3. **Refresh page button** - Refreshes page and status.
 
-![DNSSEC Enabled](content/files/DNSSEC-enabled-reference.png)
+![DNSSEC Enabled](/files/DNSSEC-enabled-reference.png)
 
 1. **DNSSEC is Enabled on (domain) Card** - Shows DNSSEC is enabled on domain.
 2. **Disable DNSSEC Button** -  Disables DNSSEC on the domain.
@@ -65,14 +65,14 @@ categories:
 
 After clicking on the **Disable DNSSEC button** in the Disable DNSSEC card, you will start the process of disabling DNSSEC. 
 
-![Confirm Disable](content/files/DNSSEC-disable-confirm-reference.png)
+![Confirm Disable](/files/DNSSEC-disable-confirm-reference.png)
 
 1. **Confirm**- Confirm the deletion of the DNSSEC configuration on the domain.
 2. **Disable DNSSEC button** - Disables DNSSEC on the domain.
 
 ### Disabling DNSSEC
 
-![Disabling DNSSEC](content/files/DNSSEC-disabling-reference.png)
+![Disabling DNSSEC](/files/DNSSEC-disabling-reference.png)
 
 1. **Disabling Notification** - Notification that DNSSEC is being disabled.
 2. **We're Disabling DNSSEC on (domain) Card** - Status card for DNSSEC.
