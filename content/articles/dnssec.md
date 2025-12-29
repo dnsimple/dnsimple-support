@@ -45,7 +45,7 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 
 Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
-- [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
+- [Troubleshooting DNSSEC](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
 
 ## Reference articles
 
