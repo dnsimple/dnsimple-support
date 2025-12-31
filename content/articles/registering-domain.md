@@ -21,7 +21,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 
 <div class="section-steps" markdown="1">
   
-### To register a domain with a subscription
+### To register a domain with a DNSimple subscription
 
 1. Choose the relevant account, and click the **Add new** menu on your Dashboard.  
 2. Click **Register domain**.
@@ -40,7 +40,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
 7. Click **Register [domain name]**. The card on file will be charged.
 
-### To register a domain without a subscription
+### To register a domain _without_ a DNSimple subscription
 
 1. Choose the relevant account, and click **Register a domain** on your Dashboard.
 
