@@ -26,16 +26,16 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 1. Choose the relevant account, and click the **Add new** menu on your Dashboard.  
 2. Click **Register domain**.
 
-  ![register domain](register-domain-add-button)
+  ![register domain](/files/register-domain-add-button.png)
   
 3. Enter the domain name you would like to register.
 
-  ![domain availability page](register-domain-screen)
+  ![domain availability page](/files/register-domain-screen.png)
   
 4. Click on **Check availability**
 5. From the drop-down, choose a contact from those you've already created or click **Add new contact** to provide the registrant's contact details.
 
-  ![add new contact](registration-add-new-contact-subscription)
+  ![add new contact](/files/registration-add-new-contact-subscription.png)
   
 6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
 7. Click **Register [domain name]**. The card on file will be charged.
@@ -44,36 +44,36 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 
 1. Choose the relevant account, and click **Register a domain** on your Dashboard.
 
-   ![register a domain on dashboard](register-domain-from-dashboard)
+   ![register a domain on dashboard](/files/register-domain-from-dashboard.png)
    
 2. Enter the domain name you would like to register.
 
-  ![domain availability page](register-domain-screen)
+  ![domain availability page](/files/register-domain-screen.png)
   
 3. Click on **Check availability**
 4. If the domain name is available to register, you will be taken to a page to provide the registrant's contact details.
 
-   ![contact details page](registration-page)
+   ![contact details page](/files/registration-page.png)
 
    If you have another domain registered, choose a contact from those you've already created. If you have a previous contact but need to add a new one, you can click on the drop-down and then **Add new contact**.
 
-   ![add new contact no subscription](registration-add-new-contact-no-subscription)
+   ![add new contact no subscription](/files/registration-add-new-contact-no-subscription.png)
    
 6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
 7. Click **Continue to payment**.
 8. Enter payment details.
 
-  ![payment details screen](domain-payment-page)
+  ![payment details screen](/files/domain-payment-page.png)
 
 If you have already made a purchase, your card details have been saved. You can choose to use the saved details or add a new card.
 
-  ![saved card](saved-card)
+  ![saved card](/files/saved-card.png)
 
 9. Click **Purchase (domain name)**
 
 If the domain was registered successfully (whether you have a subscription or not), you'll be taken to a screen confirming your registration.
 
-  ![success screen](registration-successful-page)
+  ![success screen](/files/registration-successful-page.png)
 
 <info>
 The total registration price will be held on your card immediately. Your card will be charged once the registration is complete.
