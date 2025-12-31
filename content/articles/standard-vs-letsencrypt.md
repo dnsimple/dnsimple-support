@@ -55,4 +55,5 @@ Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Sta
 Your domain is resolving with both DNSimple and Secondary DNS. | **Standard**
 Your domain is NOT resolving with DNSimple. | **Standard**
 Your domain is NOT registered but resolving with DNSimple. | **Let's Encrypt** or **Standard**
-Your domain is NOT registered ant NOT resolving with DNSimple. | **Standard**
+Your domain is NOT registered and NOT resolving with DNSimple. | **Standard**
+
