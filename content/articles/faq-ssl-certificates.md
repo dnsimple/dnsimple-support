@@ -30,17 +30,14 @@ structured_data: true
 
 1.  #### I want to purchase an SSL certificate. Do I need a subscription?
 
-    Yes. SSL certificates are one of our paid products, provided as part of our subscription service.
+    Yes and no. Let's Encrypt SSL certificates are one of our paid products, provided as part of our subscription service.
 
-    To purchase an SSL certificate, you need an active subscription at the time of the purchase. You're not required to have an active subscription to use or install the certificate on your server. If you disable the subscription, you won't receive any additional services for the domain or the certificate.
+    To purchase a Let's Encrypt SSL certificate, you need an active subscription at the time of the purchase. You're not required to have an active subscription to use or install the certificate on your server. If you disable the subscription, you won't receive any additional services for the domain or the certificate.  You need a valid, active subscription when you renew the certificate or if you want to reissue the certificate.
 
-    You need a valid, active subscription when you renew the certificate or if you want to reissue the certificate.
+    You can purchase a Sectigo SSL Certificate without a subscription. Note that you won't receive any additional services for the domain without an active subscription. 
 
-1.  #### I just want to purchase an SSL certificate, why do I need a subscription?
 
-    We offer SSL certificate purchases as part of our subscription service.
-
-    An SSL certificate is not a one-off purchase. You need to renew the certificate periodically. Sometimes you need to rekey it, or may have issues installing it, and need support. All these tasks are covered by our subscription service.
+1.  #### I just want to purchase a Let's Encrypt SSL certificate. Why do I need a subscription?
 
     If you're requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we'll use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we'll [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
 
