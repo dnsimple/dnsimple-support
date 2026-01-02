@@ -41,7 +41,7 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
 <div class="section-steps" markdown="1">
     
-### Ordering a certificate with a DNSimple Subscription
+### Ordering a certificate
 
 1.  If you have more than one account, select the relevant one.
 2.  If the domain is **not** already in your account, follow the instructions to [add a domain without transferring it](/articles/adding-domain/).
@@ -49,24 +49,42 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
    ![Certificate page]()
    
-4. From the drop-down under Sectigo, locate the domain you are purchasing the certificate for.
+4. From the drop-down under Sectigo, locate the domain you are purchasing the certificate for. If there is only one domain in the account, or you have come to the certificate page directly from the domain, click **Continue**
+
+   ![continue on certificate page](/files/purchase-certificate-without-subscription-page.png)
+   
 5. Click **Continue**.
 6. Follow the instructions to order the certificate.
 
     1.  [Read this article](/articles/ssl-certificate-names/) to determine the appropriate hostname of your SSL certificate.
     1.  Enter the certificate common name. Use an `*` to order a wildcard certificate.
-    1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
-    1.  Leave the CSR option unchecked, unless you need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it). Make sure to read our [private key policy](https://dnsimple.com/private-key-policy).
-    1.  Click **Purchase certificate**.
+    1.  **Check the radio buttons for the algorithm of the certificate**. ECDSA is selected for you by default, but you can select RSA as the signature algorithm.
+    1.  Leave the CSR option unchecked, unless a [custom CSR](/articles/what-is-csr/) is needed. The easiest thing to do is to have DNSimple automatically generate the CSR (and a new private key to go with it). Make sure to read our [private key policy](https://dnsimple.com/private-key-policy).
+    1.  Click **Purchase certificate** if you have a subscription.
    
    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
+
+   If you **_do not_** have a subscription, click on **Continue to Payment**.
+
+   ![continue payment screen](/files/purchase-ssl-certificate-continue-payment.png)
+
+    On the payment page, fill out the card information. If you have already purchased an item with DNSimple, there is an option to use saved payment information.
+
+   #### Fill out card information
+
+   ![enter card information](/files/domain-payment-page.png)
+
+   #### Use saved card information
+
+   ![saved card](/files/saved-card.png)
+
+   <note> Item will show as the certificate you are purchasing on either screen. </note>
+
+8. Select the validation email for the certificate and then click **Send validation email**.
+
+    ![select validation email](/files/select-validation-email.png)
     
-7. Select the validation email and then send it.
-8. Once the email is validated, the certificate purchase is complete.
-
-### Ordering a certificate _without_ a DNSimple Subscription
-
-1. 
+9. Once the email is validated, the certificate purchase is complete.
 
    <info>
    The certificate price will be held on your card immediately. Your card will be charged once the certificate is issued.
@@ -81,3 +99,7 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 Once you order the certificate, **you will have to install and configure the certificate**.
 
 See [how to install a certificate](/articles/installing-ssl-certificate/).
+
+## Have more questions?
+
+If you have any questions about purchasing standard certificates with DNSimple, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
