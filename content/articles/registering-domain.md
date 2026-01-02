@@ -21,7 +21,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 
 <div class="section-steps" markdown="1">
   
-### To register a domain with a DNSimple subscription
+### To register a domain with DNSimple
 
 1. Choose the relevant account, and click the **Add new** menu on your Dashboard.  
 2. Click **Register domain**.
@@ -33,43 +33,28 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
   ![domain availability page](/files/register-domain-screen.png)
   
 4. Click on **Check availability**
-5. From the drop-down, choose a contact from those you've already created or click **Add new contact** to provide the registrant's contact details.
+5. From the drop-down, choose a contact from those you've already created or click **Add new contact** to provide the registrant's contact details. If this is the first domain you are registering, you will be taken to a page to provide the registrant's contact details.
 
+  #### Adding a new contact
+  
   ![add new contact](/files/registration-add-new-contact-subscription.png)
-  
-6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
-7. Click **Register [domain name]**. The card on file will be charged.
 
-### To register a domain _without_ a DNSimple subscription
-
-1. Choose the relevant account, and click **Register a domain** on your Dashboard.
-
-   ![register a domain on dashboard](/files/register-domain-from-dashboard.png)
-   
-2. Enter the domain name you would like to register.
-
-  ![domain availability page](/files/register-domain-screen.png)
-  
-3. Click on **Check availability**
-4. If the domain name is available to register, you will be taken to a page to provide the registrant's contact details.
+  #### Providing registrant details for the first time
 
    ![contact details page](/files/registration-page.png)
-
-   If you have another domain registered, choose a contact from those you've already created. If you have a previous contact but need to add a new one, you can click on the drop-down and then **Add new contact**.
-
-   ![add new contact no subscription](/files/registration-add-new-contact-no-subscription.png)
-   
+  
 6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
-7. Click **Continue to payment**.
-8. Enter payment details.
+7. If you have a subscription with DNSimple, click **Register [domain name]**. The card on file will be charged. 
 
-  ![payment details screen](/files/domain-payment-page.png)
+   If you **_do not_** have a subscription, click on **Continue to Payment** where you will enter payment details.
 
-If you have already made a purchase, your card details have been saved. You can choose to use the saved details or add a new card.
+   ![payment details screen](/files/domain-payment-page.png)
+
+If you have already made a purchase once without a subscription, your card details have been saved. You can choose to use the saved details or add a new card.
 
   ![saved card](/files/saved-card.png)
 
-9. Click **Purchase (domain name)**
+8. Click **Purchase (domain name)**
 
 If the domain was registered successfully (whether you have a subscription or not), you'll be taken to a screen confirming your registration.
 
