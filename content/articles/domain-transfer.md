@@ -40,7 +40,7 @@ At your current Registrar:
 2. Turn off the WHOIS privacy service.
 3. Get your domain authorization code. This code is often sent by your current registrar via email.
 4. Make sure you can receive emails at the email address specified for the current registrant of the domain. You may want to [check out how the domain looks in the public whois](https://dnsimple.com/whois) to verify.
-5. 
+   
 ### Starting the transfer
 
 At DNSimple:
@@ -64,7 +64,8 @@ If you have already made a purchase once without a subscription, your card detai
   ![saved card](/files/saved-card.png)
 
 
-   <note> Item will show as the domain you are transferring on either screen. </note>
+   <note> Item will show as the domain you are transferring on either screen. 
+   </note>
 
 
 ## Approving the transfer
