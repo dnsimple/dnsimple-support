@@ -65,11 +65,11 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
     On the payment page, fill out the card information. If you have already purchased an item with DNSimple, there is an option to use saved payment information.
 
-   #### Fill out card information
+#### Fill out card information
 
    ![enter card information](/files/domain-payment-page.png)
 
-   #### Use saved card information
+#### Use saved card information
 
    ![saved card](/files/saved-card.png)
 
