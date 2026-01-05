@@ -10,8 +10,7 @@ categories:
 
 By default, newly registered domains are set to [auto-renew](/articles/domain-auto-renewal/). If auto-renewal is off, or you want to extend the duration of your domain registration, follow these steps:
 
-<div class="section-steps" markdown="1">
-##To renew a domain
+## To renew a domain
 
 1. Select the relevant account from the account switcher at the top-right corner of the screen or from your Dashboard.
 2. Locate the relevant domain in your Domain Names list. Click the domain name to access the domain **overview** page.
@@ -26,8 +25,6 @@ The total renewal price will be held on your card immediately. Your card will be
     
 If the renewal fails, funds will be released.
 </info>
-
-</div>
 
 ## Have more questions?
 
