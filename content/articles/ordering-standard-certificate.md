@@ -73,7 +73,8 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
    ![saved card](/files/saved-card.png)
 
-   <note> Item will show as the certificate you are purchasing on either screen. </note>
+   <note> Item will show as the certificate you are purchasing on either screen. 
+   </note>
 
 7. Select the validation email for the certificate and then click **Send validation email**.
 
