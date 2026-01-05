@@ -32,18 +32,15 @@ To avoid the possibility of downtime, you should [point the name servers for the
 
 ## Initiating the transfer
 
-<div class="section-steps" markdown="1">
 ### Preparing the transfer
 
 At your current Registrar:
 
 1. Unlock your domain.
-1. Turn off the WHOIS privacy service.
-1. Get your domain authorization code. This code is often sent by your current registrar via email.
-1. Make sure you can receive emails at the email address specified for the current registrant of the domain. You may want to [check out how the domain looks in the public whois](https://dnsimple.com/whois) to verify.
-</div>
-
-<div class="section-steps" markdown="1">
+2. Turn off the WHOIS privacy service.
+3. Get your domain authorization code. This code is often sent by your current registrar via email.
+4. Make sure you can receive emails at the email address specified for the current registrant of the domain. You may want to [check out how the domain looks in the public whois](https://dnsimple.com/whois) to verify.
+5. 
 ### Starting the transfer
 
 At DNSimple:
@@ -69,7 +66,6 @@ If you have already made a purchase once without a subscription, your card detai
 
    <note> Item will show as the domain you are transferring on either screen. </note>
 
-</div>
 
 ## Approving the transfer
 
