@@ -33,11 +33,11 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 4. Click on **Check availability**
 5. From the drop-down, choose a contact from those you've already created or click **Add new contact** to provide the registrant's contact details. If this is the first domain you are registering, you will be taken to a page to provide the registrant's contact details.
 
-  #### Adding a new contact
+#### Adding a new contact
   
   ![add new contact](/files/registration-add-new-contact-subscription.png)
 
-  #### Providing registrant details for the first time
+#### Providing registrant details for the first time
 
    ![contact details page](/files/registration-page.png)
   
