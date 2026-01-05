@@ -44,11 +44,11 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 6. If applicable, choose whether you want WHOIS privacy protection and/or auto-renewal enabled on the domain.
 7. If you have a subscription with DNSimple, click **Register [domain name]**. The card on file will be charged. 
 
-   If you **_do not_** have a subscription, click on **Continue to Payment** where you will enter payment details.
+  If you **_do not_** have a subscription, click on **Continue to Payment** where you will enter payment details.
 
    ![payment details screen](/files/domain-payment-page.png)
 
-If you have already made a purchase once without a subscription, your card details have been saved. You can choose to use the saved details or add a new card.
+  If you have already made a purchase once without a subscription, your card details have been saved. You can choose to use the saved details or add a new card.
 
   ![saved card](/files/saved-card.png)
 
