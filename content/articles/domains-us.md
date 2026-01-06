@@ -22,9 +22,8 @@ All .US domain transfers into DNSimple require your explicit acknowledgment befo
 
 After initiating the transfer, you will receive the acknowledgement email within the same day. Once acknowledgment is completed, your transfer will take up to a week to complete. There are no further steps needed after acknowledging the transfer.
 
-<warning>
-All unacknowledged transfers will be canceled after 14 days.
-</warning>
+> [!WARNING]
+> All unacknowledged transfers will be canceled after 14 days.
 
 #### Acknowledgment process
 

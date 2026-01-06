@@ -24,9 +24,8 @@ If you updated the name servers to another provider, those will appear as well.
 
 ![list of external nameservers](/files/external-nameservers.png)
 
-<warning>
-If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
-</warning>
+> [!WARNING]
+> If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
 ## Domains registered with another registrar
 

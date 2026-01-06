@@ -20,11 +20,10 @@ By default, newly registered domains are set to [auto-renew](/articles/domain-au
 1. Choose the number of years for which you'd like to renew the domain, then click <label>Renew [domain name]</label>.
     ![Renew domain form](/files/renew-domain-form.png)
 
-<info>
-The total renewal price will be held on your card immediately.
-Your card will be charged once the renewal completes.
-If the renewal fails, funds will be released.
-</info>
+> [!INFO]
+> The total renewal price will be held on your card immediately.
+> Your card will be charged once the renewal completes.
+> If the renewal fails, funds will be released.
 
 </div>
 

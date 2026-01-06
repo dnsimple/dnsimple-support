@@ -27,9 +27,8 @@ You can activate the DNS hosting service for a domain from the domain **DNS** ta
 The DNS zone is automatically inactive for each new domain or zone added to an account, whether you register/transfer the domain or simply add it.
 
 
-<info>
-New domains, whether registered, transferred, or manually added, will have DNS hosting disabled by default until you activate the zone.
-</info>
+> [!INFO]
+> New domains, whether registered, transferred, or manually added, will have DNS hosting disabled by default until you activate the zone.
 
 
 ## Deactivating a DNS zone
@@ -47,11 +46,9 @@ New domains, whether registered, transferred, or manually added, will have DNS h
 
 </div>
 
-<warning>
-If a domain is delegated to our name servers, deactivating the DNS zone will immediately cause the domain to stop resolving. This applies whether the domain is registered or just hosted with us.
-
-If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone won't change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
-</warning>
+> [!WARNING]
+> If a domain is delegated to our name servers, deactivating the DNS zone will immediately cause the domain to stop resolving. This applies whether the domain is registered or just hosted with us.
+> If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone won't change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
 
 ## Use cases
 There are a few cases where you may want to deactivate a zone:

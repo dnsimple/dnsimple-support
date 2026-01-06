@@ -12,9 +12,8 @@ Auto-importing DNS records is a powerful feature designed to make the process of
 
 Instead of manually recreating every single record one-by-one (a process that can be tedious, time-consuming, and prone to human error), auto-importing allows DNSimple to scan and import your existing records for you automatically.
 
-<note>
-Auto-importing is a feature available on certain [DNSimple plans](https://dnsimple.com/pricing).
-</note>
+> [!NOTE]
+> Auto-importing is a feature available on certain [DNSimple plans](https://dnsimple.com/pricing).
 
 ## Key Benefits of auto-importing
 

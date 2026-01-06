@@ -24,9 +24,8 @@ All standard SSL certificates sold by DNSimple are valid for at least one year f
 
 To order an SSL certificate you need a DNSimple account. To finalize the order, the account [must be subscribed](/articles/account-activation/) to a DNSimple plan.
 
-<note>
-You are not required to keep an active subscription to access the certificate, however some features, such as certificate renewal or auto-renewal, will not be available when you unsubscribe.
-</note>
+> [!NOTE]
+> You are not required to keep an active subscription to access the certificate, however some features, such as certificate renewal or auto-renewal, will not be available when you unsubscribe.
 
 You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase a Sectigo SSL certificate**.
 
@@ -62,11 +61,10 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
-   <info>
-   The certificate price will be held on your card immediately.
-   Your card will be charged once the certificate is issued.
-   If the issuance fails, funds will be released.
-   </info>
+   > [!INFO]
+> The certificate price will be held on your card immediately.
+>    Your card will be charged once the certificate is issued.
+>    If the issuance fails, funds will be released.
 
 </div>
 

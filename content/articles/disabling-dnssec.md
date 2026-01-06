@@ -21,9 +21,8 @@ categories:
   ![screenshot of confirming disabling of dnssec](/files/dnssec-disable-confirm.png)
 
 
-<info>
-  To learn how to disable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#disableDomainDnssec). 
-</info>
+> [!INFO]
+> To learn how to disable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#disableDomainDnssec).
   
 ## Troubleshooting
 

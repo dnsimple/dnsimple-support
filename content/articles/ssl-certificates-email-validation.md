@@ -27,9 +27,8 @@ The goal of validation is to ensure the authenticity of a certificate order befo
 
 **The domain validation is a mandatory step. The Certificate Authority will not issue the certificate if the order has not been validated.**
 
-<note>
-The Certificate Authority only uses administrative email addresses at the domain being validated. It's not possible to use your account email or any arbitrary email address to perform the validation.
-</note>
+> [!NOTE]
+> The Certificate Authority only uses administrative email addresses at the domain being validated. It's not possible to use your account email or any arbitrary email address to perform the validation.
 
 
 ## The process
@@ -46,9 +45,8 @@ The email validation process consists of a few steps:
 
 **The approval email cannot be an arbitrary email** such as a customer-provided email or the email in your DNSimple account.
 
-<note>
-The goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
-</note>
+> [!NOTE]
+> The goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
 
 The approval email typically can be sent to the following addresses, called administrative emails:
 
@@ -65,9 +63,8 @@ Where `example.com` is the domain for the certificate being purchased.
 
 Due to security vulnerabilities and evolving privacy standards, the [CA/Browser Forum introduced Ballot SC-80v3](https://www.sectigo.com/knowledge-base/detail/WHOIS-Email-DCV-Deprecation/kA0Uj0000003RdB), requiring the phase-out of WHOIS email addresses for Domain Control Validation (DCV).
 
-<warning>
-**WHOIS email addresses are no longer supported for domain validation.** Beginning June 15, 2025, Certificate Authorities (including Sectigo) no longer allow email addresses listed in the public WHOIS record as valid Domain Control Validation methods.
-</warning>
+> [!WARNING]
+> **WHOIS email addresses are no longer supported for domain validation.** Beginning June 15, 2025, Certificate Authorities (including Sectigo) no longer allow email addresses listed in the public WHOIS record as valid Domain Control Validation methods.
 
 You must use one of the administrative email addresses (admin@, webmaster@, etc.) at the domain being validated. Email addresses from WHOIS records, including registrant, administrative, or technical contact emails, cannot be used for certificate validation.
 

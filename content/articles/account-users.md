@@ -15,9 +15,8 @@ categories:
 
 ---
 
-<info>
-To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
-</info>
+> [!INFO]
+> To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 
 A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control/) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration.
 
@@ -45,9 +44,8 @@ A DNSimple account can be associated with one or more users. When you add someon
 
 </div>
 
-<note>
-It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email/#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
-</note>
+> [!NOTE]
+> It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email/#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
 
 ## Removing members from an account
 

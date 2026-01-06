@@ -12,9 +12,8 @@ To reactivate your domain that has entered the [redemption period](/articles/wha
 
 Upon completion, your domain's registration will be automatically extended by the registry's minimum renewal period (usually 1 year).
 
-<warning>
-The registrar applies a mandatory restore fee. The final price of the restore will be the restore fee plus the domain's renewal fee.
-</warning>
+> [!WARNING]
+> The registrar applies a mandatory restore fee. The final price of the restore will be the restore fee plus the domain's renewal fee.
 
 ##### To restore a domain
 
@@ -28,10 +27,9 @@ The registrar applies a mandatory restore fee. The final price of the restore wi
 
     ![Restore domain form](/files/restore-domain-form.png)
 
-<info>
-The total restore price will be held on your card immediately.
-Your card will be charged once the restoration completes.
-If the restoration fails, funds will be released.
-</info>
+> [!INFO]
+> The total restore price will be held on your card immediately.
+> Your card will be charged once the restoration completes.
+> If the restoration fails, funds will be released.
 
 If you have any questions about the domain restoration process, [get in touch](https://dnsimple.com/feedback), and we'll be happy to help.

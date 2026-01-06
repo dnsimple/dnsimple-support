@@ -35,9 +35,8 @@ To apply the Heroku one-click service to your domain follow [these instructions]
 
 ## Adding an ALIAS record {#point-using-alias}
 
-<warning>
-If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/heroku-error-ssl/) when accessing the HTTPS version of the site.
-</warning>
+> [!WARNING]
+> If you are using an SSL certificate, you must point the alias to the [Heroku SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint) or your browser will display a [certificate error](/articles/heroku-error-ssl/) when accessing the HTTPS version of the site.
 
 These are the steps that you will need to follow to add an ALIAS record that points your apex domain to your Heroku application:
 
@@ -61,9 +60,8 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 
 </div>
 
-<info>
-Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains), and `myapp.herokuapp.com`if not.
-</info>
+> [!INFO]
+> Heroku endpoints can be either `myapp.herokuapp.com` or `example.com.herokudns.com`. You should use `example.com.herokudns.com` [if you are using Heroku SSL](https://devcenter.heroku.com/articles/custom-domains#view-existing-domains), and `myapp.herokuapp.com`if not.
 
 
 ## Setting up your custom domain at Heroku {#set-up-domain-heroku}

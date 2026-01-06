@@ -62,10 +62,9 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 
 ![delete record](/files/delete-record.png)
 
-<warning>
-There is no way to undo deleting a record. The only way to restore a deleted record is to 
-recreate it.
-</warning>
+> [!WARNING]
+> There is no way to undo deleting a record. The only way to restore a deleted record is to 
+> recreate it.
 
 ## Managing integrated zone records
 The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones/)  for more details.

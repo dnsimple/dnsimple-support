@@ -18,9 +18,8 @@ categories:
 
 Using Entra as an identity provider for single sign-on streamlines the login experience for you and your team and helps you manage risk at scale.
 
-<info>
-Entra as an Identity Provider is only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
-</info>
+> [!INFO]
+> Entra as an Identity Provider is only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
 
 ## Prerequisites
 
@@ -101,11 +100,9 @@ You'll need to [link an Entra organization to your DNSimple account](#linking-an
 1. If you are prompted for your Entra username and password, enter them.
 1. If your credentials are valid, you will be redirected back to DNSimple and logged in.
 
-<info>
-If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account's assets.
-
-If you log out of Entra, you will also be logged out of DNSimple.
-</info>
+> [!INFO]
+> If you are not yet a member of the DNSimple account, the account administrator will receive a notification to grant access. Once they have granted access, you will be able to see the DNSimple account's assets.
+> If you log out of Entra, you will also be logged out of DNSimple.
 
 ## Unlinking an Entra organization from a DNSimple account
 

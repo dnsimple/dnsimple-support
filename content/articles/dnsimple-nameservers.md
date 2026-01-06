@@ -21,9 +21,8 @@ If you registered your domain with DNSimple, your name servers will already be s
 
 If you transferred your domain into DNSimple from another registrar, and you're ready for us to start providing your DNS, you need to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
-<note>
-We do not automatically change your name servers to ours during the transfer process.
-</note>
+> [!NOTE]
+> We do not automatically change your name servers to ours during the transfer process.
 
 If you need to provide the IP addresses to your current registrar, use the following:
 

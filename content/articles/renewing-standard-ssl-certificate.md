@@ -7,9 +7,8 @@ categories:
 
 # Renewing a standard SSL Certificate
 
-<note>
-There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate/) before continuing with this document.
-</note>
+> [!NOTE]
+> There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate/) before continuing with this document.
 
 All standard DNSimple SSL certificates, including renewals, are valid for one year (397 days maximum) from their issue date. Sixty days before the certificate expires, you will begin receiving renewal notices.
 
@@ -40,11 +39,10 @@ These are the steps to renew your standard certificate:
 
     ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
 
-    <info>
-    The certificate renewal price will be held on your card immediately.
-    Your card will be charged once the new certificate is issued.
-    If the issuance fails, funds will be released.
-    </info>
+    > [!INFO]
+> The certificate renewal price will be held on your card immediately.
+>     Your card will be charged once the new certificate is issued.
+>     If the issuance fails, funds will be released.
 
 </div>
 

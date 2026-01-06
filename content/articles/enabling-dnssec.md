@@ -27,9 +27,8 @@ If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/)
   ![screenshot of disabled dnssec for a domain](/files/dnssec-disabled.png)
 1. Follow the wizard instructions
 
-<info>
-To see how to enable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#enableDomainDnssec). 
-</info>
+> [!INFO]
+> To see how to enable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#enableDomainDnssec).
 
 ## What Happens Next?
 **If the domain is registered with DNSimple:**

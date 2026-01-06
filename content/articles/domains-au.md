@@ -40,9 +40,8 @@ All third-level .AU domain names:
 - Require an Australian address.
 - Must be an exact match, abbreviation, or acronym of the Registrant's name, or otherwise closely and substantially connected to the Registrant.
 
-<warning>
-The organization name must match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
-</warning>
+> [!WARNING]
+> The organization name must match the Australian Business Number (ABN) or Australian Company Number (ACN) information submitted.
 
 ### .COM.AU and .NET.AU
 
@@ -57,9 +56,8 @@ To register a .COM.AU or .NET.AU domain name, registrants must be one of the fol
 - An association incorporated in any Australian State or Territory.
 - An Australian commercial statutory body.
 
-<info>
-On April 12, 2021, a new set of rules for the .COM.AU and .NET.AU third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
-</info>
+> [!INFO]
+> On April 12, 2021, a new set of rules for the .COM.AU and .NET.AU third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
 
 ### .ORG.AU
 
@@ -72,13 +70,11 @@ To register a .ORG.AU domain name, registrants must belong to one of the followi
 - A charity operating in Australia, as defined in the Registrant's constitution or other documents of incorporation.
 - A non-profit organization operating in Australia, as defined in the Registrant's constitution or other documents of incorporation.
 
-<warning>
-A valid Australian Business Number (ABN) is required to register a .ORG.AU domain name. Australian Company Numbers and Trademark Numbers are not acceptable.
-</warning>
+> [!WARNING]
+> A valid Australian Business Number (ABN) is required to register a .ORG.AU domain name. Australian Company Numbers and Trademark Numbers are not acceptable.
 
-<info>
-On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
-</info>
+> [!INFO]
+> On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 
 ## Renewals
 
@@ -96,9 +92,8 @@ All .AU domain transfers into DNSimple require your explicit acknowledgment befo
 
 After initiating the transfer, you will receive the acknowledgement email within the same day. Once acknowledgment is completed, your transfer will take up to a week to complete. There are no further steps needed after acknowledging the transfer.
 
-<warning>
-All unacknowledged transfers will be canceled after 14 days.
-</warning>
+> [!WARNING]
+> All unacknowledged transfers will be canceled after 14 days.
 
 #### Acknowledgment process
 

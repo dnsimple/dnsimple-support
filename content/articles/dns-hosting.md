@@ -37,9 +37,8 @@ For streamlined management, you can transfer both your domain's registration and
 
 **How to proceed**: This process involves initiating a domain transfer to DNSimple. Once the transfer is complete, DNSimple will become both your domain registrar and your DNS hosting provider.
 
-<info>
-Important: DNSimple does not automatically change your domain's name servers when you transfer it, because doing so could cause downtime. If you want the domain to start using DNSimple's name servers immediately, you must select Switch name servers to DNSimple on the transfer page. If you don't select this option, your domain will continue using its current name servers after the transfer, and you'll need to update the delegation manually later if you want to host DNS with us.
-</info>
+> [!INFO]
+> Important: DNSimple does not automatically change your domain's name servers when you transfer it, because doing so could cause downtime. If you want the domain to start using DNSimple's name servers immediately, you must select Switch name servers to DNSimple on the transfer page. If you don't select this option, your domain will continue using its current name servers after the transfer, and you'll need to update the delegation manually later if you want to host DNS with us.
 
 **Instructions**: For detailed steps, please refer to our instructions on [how to transfer your domain to DNSimple](/articles/domain-transfer/) . To finish the setup, follow the steps to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/) 
 

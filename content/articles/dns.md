@@ -24,9 +24,8 @@ Important updates and changes that may affect your DNS configuration:
 - [Change of Non-Compliant ENT Behavior](/articles/announcement-change-ent-behavior/) - Learn about changes to non-compliant enterprise behavior that may affect your DNS configuration.
 - [Discontinuation of Legacy NS2 and NS4 IP Addresses](/articles/announcement-ns2-ns4-ip-addresses/) - Information about the discontinuation of legacy NS2 and NS4 IP addresses and how it affects your DNS setup.
 
-<info>
-These articles contain information that is only relevant to specific customers. If you're impacted, you will receive an email from DNSimple.
-</info>
+> [!INFO]
+> These articles contain information that is only relevant to specific customers. If you're impacted, you will receive an email from DNSimple.
 
 ## What is DNS?
 
