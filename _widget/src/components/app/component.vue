@@ -14,6 +14,7 @@
 <script>
 import { nextTick } from 'vue';
 import { urlMatchingDictionary } from './url-dictionary.js';
+import { joinUrl } from './url-helpers.js';
 
 import Footer from '../footer/component.vue';
 import Header from '../header/component.vue';
@@ -68,10 +69,7 @@ export default {
     sources: {
       type: Array,
       default() {
-        return [
-          { name: 'DNSimple Support', url: '/' },
-          { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
-        ];
+        return [];
       }
     }
   },
@@ -111,7 +109,8 @@ export default {
     },
 
     isLoading() {
-      return this.sources.filter((s) => this.isFetched[s.url]).length < this.sources.length;
+      const sources = this.getSources();
+      return sources.filter((s) => this.isFetched[s.url]).length < sources.length;
     },
 
     couldNotLoad() {
@@ -149,6 +148,19 @@ export default {
   },
 
   methods: {
+    resolveSupportSourceUrl() {
+      const gettingStartedUrl = this.getGettingStartedUrl();
+
+      if (gettingStartedUrl && /^https?:\/\//i.test(gettingStartedUrl)) {
+        try {
+          return new URL(gettingStartedUrl).origin;
+        } catch (error) {
+          return this.currentSiteUrl || '/';
+        }
+      }
+
+      return this.currentSiteUrl || '/';
+    },
     visitArticle (url, event = null) {
       const isHash = url.indexOf('#') === 0;
       const article = this.findArticle(url);
@@ -194,7 +206,7 @@ export default {
       return Promise
         .allSettled(
           // We catch the errors here so that the show can go on
-          this.sources.map((s) => this.fetchArticles(s.url))
+          this.getSources().map((s) => this.fetchArticles(s.url))
         )
         .catch(() => {})
         .finally(this.chooseRoute);
@@ -234,7 +246,7 @@ export default {
       if (this.isFetched[sourceUrl]) return Promise.resolve();
 
       return new Promise((resolve, reject) => {
-        this.fetch(`${sourceUrl}/search.json`)
+        this.fetch(joinUrl(sourceUrl, 'search.json'))
           .then((articles) => {
             this.addArticles(articles, sourceUrl);
             this.isFetched[sourceUrl] = true;
@@ -256,7 +268,12 @@ export default {
     },
 
     getSources() {
-      return this.sources;
+      if (this.sources?.length) return this.sources;
+
+      return [
+        { name: 'DNSimple Support', url: this.resolveSupportSourceUrl() },
+        { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+      ];
     },
 
     getSourceName(sourceUrl) {
@@ -280,7 +297,7 @@ export default {
     },
 
     getArticleUrl(article) {
-      return `${article.sourceUrl}${article.id}`;
+      return joinUrl(article.sourceUrl, article.id);
     },
 
     isSameSite(url) {
@@ -363,4 +380,3 @@ export default {
   }
 };
 </script>
-

@@ -1,4 +1,5 @@
 import { trackSearch } from './analytics.js';
+import { joinUrl } from './url-helpers.js';
 
 const HTML_REGEX = /<[^>]*>/g;
 const APOSTROPHE_REGEX = /'s[\s|\.]/g;
@@ -37,10 +38,9 @@ const searchable = (str, dictionary, wordContainsReplacement = false) => {
 const RELATIVE_IMG_REGEX = /src=["']?(\/[^"'\s>]+)["'\s>]?/g;
 
 const fixRelativeImgSrcs = (str, sourceUrl) => {
-  return str.replace(
-    RELATIVE_IMG_REGEX,
-    'src="' + sourceUrl + '$1"'
-  );
+  return str.replace(RELATIVE_IMG_REGEX, (match, path) => {
+    return `src="${joinUrl(sourceUrl, path)}"`;
+  });
 };
 
 const applyDictionary = (q, dictionary, wordContainsReplacement = false) => {
@@ -61,8 +61,30 @@ const applyDictionary = (q, dictionary, wordContainsReplacement = false) => {
   return newQ;
 };
 
+const normalizeLookupUrl = (url) => {
+  const normalized = url.replace(/\/$/, '');
+
+  if (!/^https?:\/\//i.test(normalized)) return normalized;
+
+  try {
+    const parsed = new URL(normalized);
+    if (typeof window !== 'undefined' && parsed.origin === window.location.origin) {
+      return `${parsed.pathname}${parsed.hash}`;
+    }
+  } catch (error) {
+    return normalized;
+  }
+
+  return normalized;
+};
+
+const articleUrl = (article) => {
+  return joinUrl(article.sourceUrl, article.id).replace(/\/$/, '');
+};
+
 const findByUrl = (url, articles) => {
-  return articles.filter((a) => `${a.sourceUrl}${a.id}` === url);
+  const targetUrl = normalizeLookupUrl(url);
+  return articles.filter((a) => articleUrl(a) === targetUrl);
 };
 
 const findByCategory = (category, articles) => {
@@ -141,8 +163,8 @@ class Search {
   }
 
   findArticle(url) {
-    const urlWithoutTrailingSlash = url.replace(/\/$/, '');
-    return this.articles.find((a) => `${a.sourceUrl}${a.id}` === `${urlWithoutTrailingSlash}/`);
+    const targetUrl = normalizeLookupUrl(url);
+    return this.articles.find((a) => articleUrl(a) === targetUrl);
   }
 
   query(q) {
