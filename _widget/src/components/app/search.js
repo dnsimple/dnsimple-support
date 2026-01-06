@@ -68,9 +68,8 @@ const normalizeLookupUrl = (url) => {
 
   try {
     const parsed = new URL(normalized);
-    if (typeof window !== 'undefined' && parsed.origin === window.location.origin) {
+    if (typeof window !== 'undefined' && parsed.origin === window.location.origin)
       return `${parsed.pathname}${parsed.hash}`;
-    }
   } catch (error) {
     return normalized;
   }

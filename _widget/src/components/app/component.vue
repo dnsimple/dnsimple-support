@@ -151,13 +151,12 @@ export default {
     resolveSupportSourceUrl() {
       const gettingStartedUrl = this.getGettingStartedUrl();
 
-      if (gettingStartedUrl && /^https?:\/\//i.test(gettingStartedUrl)) {
+      if (gettingStartedUrl && /^https?:\/\//i.test(gettingStartedUrl))
         try {
           return new URL(gettingStartedUrl).origin;
         } catch (error) {
           return this.currentSiteUrl || '/';
         }
-      }
 
       return this.currentSiteUrl || '/';
     },
