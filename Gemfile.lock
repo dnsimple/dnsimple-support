@@ -37,6 +37,7 @@ GEM
     immutable-ruby (0.2.0)
       concurrent-ruby (~> 1.1)
       sorted_set (~> 1.0)
+    io-console (0.8.2)
     json_schema (0.21.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
@@ -110,9 +111,10 @@ GEM
     pastel (0.8.0)
       tty-color (~> 0.5)
     prism (1.7.0)
-    pry (0.15.2)
+    pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
+      reline (>= 0.6.0)
     public_suffix (7.0.0)
     puma (7.1.0)
       nio4r (~> 2.0)
@@ -128,6 +130,8 @@ GEM
       ffi (~> 1.0)
     rbtree (0.4.6)
     ref (2.0.0)
+    reline (0.6.3)
+      io-console (~> 0.5)
     rexml (3.4.2)
     rouge (4.6.1)
     ruby-progressbar (1.13.0)
@@ -163,7 +167,7 @@ DEPENDENCIES
   nanoc-dart-sass
   nanoc-live
   nokogiri (~> 1.19)
-  pry (~> 0.15.2)
+  pry (~> 0.16.0)
   puma (~> 7.1)
   rake (~> 13.3)
   rouge
