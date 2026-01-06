@@ -133,7 +133,7 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.2)
-    rouge (4.6.1)
+    rouge (4.7.0)
     ruby-progressbar (1.13.0)
     sass-embedded (1.81.0)
       google-protobuf (~> 4.28)
