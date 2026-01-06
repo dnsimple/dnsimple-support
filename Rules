@@ -51,7 +51,7 @@ end
 compile '/**/*.md' do
   filter :erb
   filter :preprocess
-  filter :kramdown, toc_levels: [2], syntax_highlighter: nil, input: "GFM"
+  filter :kramdown, toc_levels: [2], syntax_highlighter: nil, input: "GFM", gfm_callout_types: ["TIP"]
   filter :colorize_syntax, default_colorizer: :rouge
   filter :postprocess
   layout '/default.*'
