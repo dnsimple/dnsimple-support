@@ -53,6 +53,7 @@ The `iodef` tag (Incident Object Description Exchange Format) allows domain owne
     - **Example**: `"https://iodef.example.com/report"`
 
 ### `contactemail` tag: specifying contact email for certificate validation
+
 The `contactemail` tag allows domain owners to specify an email address that Certificate Authorities (CAs) must use to confirm domain ownership before issuing SSL certificates. This enables CAs to automatically validate certificate requests by emailing the specified contact address.
 - **Value**: A valid email address.
     - **Example**: `"admin@example.com"`
