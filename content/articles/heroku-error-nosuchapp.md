@@ -25,8 +25,7 @@ This error page is returned when you point a custom domain to Heroku, but you di
 
 Make sure to [add your custom domain to your Heroku application](https://devcenter.heroku.com/articles/custom-domains) using the `heroku domains:add` command. If you are using subdomains, you will need to run the command for each custom subdomain you want attached to your app.
 
-> [!WARNING]
-> #### www vs not-www
+> [!WARNING] www vs not-www
 > If you are pointing both your www and not-www version of the site to Heroku, then you will need to add both domains explicitly. If you just add `example.com`, then `www.example.com` will return a "No such app" error, and vice-versa.
 > ```
 > $ heroku domains:add example.com,

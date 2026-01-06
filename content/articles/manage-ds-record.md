@@ -69,8 +69,7 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 ## Removing a DS record
 
-> [!NOTE]
-> #### Important 
+> [!NOTE] Important 
 > You can't remove DS records managed by DNSimple.
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.

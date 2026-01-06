@@ -46,8 +46,7 @@ If the corresponding domain is not registered with DNSimple, then you need to lo
 
 Use this contact when registering the new `.UK` domain.
 
-> [!NOTE]
-> #### Compare the contact information
+> [!NOTE] Compare the contact information
 > We noticed that several `.UK` domain name registrations failed because users manually entered their contact information into DNSimple, either assuming they remembered them or did not correctly copy the contact information from the existing 3rd level domain name.
 > Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typos and spelling errors.
 

@@ -22,10 +22,8 @@ A TLS/SSL certificate (simply called _SSL certificate_) is required to enable SS
 
 We offer different types of _domain-validated_ SSL certificates signed by globally recognized [certificate authorities](/articles/ssl-certificate-authorities/).
 
-> [!TIP]
-> #### Getting started with SSL certificates
+> [!TIP] Getting started with SSL certificates
 > Are you buying an SSL certificate for the first time? We assembled a [getting started with SSL Certificates](/articles/getting-started-ssl-certificates/) article to guide you through the entire process.
-
 
 ## SSL certificate products
 

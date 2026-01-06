@@ -20,6 +20,5 @@ Adding [NS records](/articles/ns-record/) for a subdomain will cause the subdoma
 1. Verify the TARGET NS are set up correctly `dig @ns.anotherdns.com subdomain.example.com`
 </div>
 
-> [!NOTE]
-> #### Name server propagation
+> [!NOTE] Name server propagation
 > It may take up to 24 hours for a name server change to propagate. The whois response is a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
