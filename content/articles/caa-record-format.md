@@ -60,6 +60,7 @@ The `contactemail` tag allows domain owners to specify an email address that Cer
     - **Example**: `"security@example.com"`
 
 ### `contactphone` tag: specifying contact phone for certificate validation
+
 The `contactphone` tag allows domain owners to specify a phone number that Certificate Authorities (CAs) must use to confirm domain ownership before issuing SSL certificates. This enables CAs to automatically validate certificate requests by contacting the specified phone number.
 - **Value**: A valid phone number, including country code.
     - **Example**: `"+1 555 123 4567"`
