@@ -54,7 +54,6 @@ You want to fully automate SSL certificate orders without manual intervention. |
 Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Standard**
 Your domain is resolving with both DNSimple and Secondary DNS. | **Standard**
 Your domain is NOT resolving with DNSimple. | **Standard**
-Your domain is NOT registered but resolving with DNSimple. | **Let's Encrypt** or **Standard**
+Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Standard**
 Your domain is NOT registered and NOT resolving with DNSimple. | **Standard**
-
-
+You want to purchase a certificate with no subscription. | **Standard**
