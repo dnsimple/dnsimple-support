@@ -13,6 +13,10 @@ categories:
 
 ---
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/4dTbaSiag3s?si=k4YOPcaUxvDlmuHh" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 This article explains the requirements and special procedures for .INSURANCE domain names.
 
 <info>
