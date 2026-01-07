@@ -4,12 +4,13 @@
 
 @import "../../dist/tachyons/css/tachyons.min.css";
 @import "../../dist/fontawesome/css/all.min.css";
-@use "colorscheme" as *;
-@use "mixins" as *;
-@use "typography" as *;
-@use "syntax" as *;
-@use "template" as *;
-@use "application" as *;
-@use "resolving" as *;
-@use "tables" as *;
-@use "dual_cta" as *;
+@use "colorscheme";
+@use "variables";
+@use "mixins";
+@use "typography";
+@use "syntax";
+@use "template";
+@use "application";
+@use "resolving";
+@use "tables";
+@use "dual_cta";
