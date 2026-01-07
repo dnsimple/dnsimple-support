@@ -60,7 +60,7 @@ structured_data: true
 
 1.  #### Do I need to host the domain with DNSimple to purchase an SSL certificate?
 
-    Not for Standard certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However, you need to add the domain to your account to be able to request the certificate. You also need a valid, active subscription.
+    Not for Standard certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However, you need to add the domain to your account to be able to request the certificate.
 
     Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
