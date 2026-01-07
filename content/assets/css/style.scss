@@ -2,8 +2,6 @@
 // Style manifest
 // --------------------------------------------------
 
-@import "../../dist/tachyons/css/tachyons.min.css";
-@import "../../dist/fontawesome/css/all.min.css";
 @use "colorscheme";
 @use "variables";
 @use "mixins";
@@ -14,3 +12,5 @@
 @use "resolving";
 @use "tables";
 @use "dual_cta";
+@import "../../dist/tachyons/css/tachyons.min.css";
+@import "../../dist/fontawesome/css/all.min.css";
