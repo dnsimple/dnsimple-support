@@ -40,8 +40,6 @@
     "test:watch": "jest --watch"
   },
   "resolutions": {
-    "esbuild": "^0.25.0",
-    "glob": "^10.4.2",
     "js-yaml": "^4.1.1"
   }
 }
