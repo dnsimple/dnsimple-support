@@ -67,12 +67,10 @@ export default {
     },
     sources: {
       type: Array,
-      default() {
-        return [
-          { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
-          { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
-        ];
-      }
+      default: () => [
+        { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+        { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+      ]
     }
   },
   data () {
