@@ -49,4 +49,3 @@ Content follows here...
 - `lib/` - Ruby libraries for nanoc processing
 - `_widget/` - Vue.js widget components
 - `output/` - Generated static site output
-
