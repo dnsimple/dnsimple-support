@@ -27,8 +27,8 @@ Their three most distinguishing characteristics, as listed on their homepage, ar
 
 This table summarizes the most important differences between Let's Encrypt and Standard SSL certificates:
 
-|               | Let's Encrypt | Standard      |
-|---------------+---------------+---------------|
+| | Let's Encrypt | Standard |
+| --- | --- | --- |
 | Certificate Expiration | 90 days | One year |
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
