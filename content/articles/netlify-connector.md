@@ -39,7 +39,7 @@ categories:
 
 6. Choose your Netlify site, and set its mounting point.
 
-    > [!INFO]
+    > [!NOTE]
 > A mounting point is the address where your Netlify site is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
 
     ![Connect your domain to Netlify](/files/netlify-connector-connect-domain.png)

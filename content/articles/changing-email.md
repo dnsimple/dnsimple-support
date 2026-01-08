@@ -31,18 +31,18 @@ categories:
 ## Setting or Changing the notification email
 
 <div class="section-steps" markdown="1">
-1. Go to the <label>account switcher</label> in the upper right-hand corner of the page. 
-2. Click on the gear icon next to the account you wish to set or change the notification email for. 
-3. Click <label>Edit</label> on the Notification card. 
-    
+1. Go to the <label>account switcher</label> in the upper right-hand corner of the page.
+2. Click on the gear icon next to the account you wish to set or change the notification email for.
+3. Click <label>Edit</label> on the Notification card.
+
     ![Screenshot of Notification card](/files/notification_card.png)
-    
+
 4. Enter the email you would like all account notifications to go to.
 
    ![Screenshot of edit notifications](/files/edit_notifications.png)
 6. Click <label>Save</label> to save changes.
 
-> [!INFO]
+> [!NOTE]
 > If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set a billing email in the billing email field shown above, or from the[ billing settings](/articles/billing-settings/#changing-the-billing-email) page.
 
 </div>

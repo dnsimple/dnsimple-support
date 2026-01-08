@@ -63,7 +63,7 @@ This email will be sent from the addresses `DNSimple <donotreply@name-services.c
 
 If you requested a domain transfer out and haven't received a transfer code within the 6 hour period, please [contact us](https://dnsimple.com/contact) and include your domain name in the email. For security purposes, we don't have access to view the code, and won't be able to expedite the code's delivery. If the allotted time has passed, you've verified the email address is correct, and the transfer code isn't in your spam folder, we'll be happy to look into it and figure out why the transfer code hasn't arrived.
 
-> [!INFO]
+> [!NOTE]
 > Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point must be directed to the gaining registrar.
 
 
@@ -84,5 +84,5 @@ After the transfer at the new registrar is initiated, and the transfer code is p
 
 Once the transfer is approved, the domain(s) will now be with your new registrar and no longer with DNSimple.
 
-> [!INFO]
+> [!NOTE]
 > Note: If you're transferring your domain out of DNSimple, and no longer require any of our additional services, your account will remain active until you unsubscribe. This will not happen automatically.

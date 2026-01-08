@@ -15,7 +15,7 @@ When you type a domain name into the search bar of your browser (Chrome, Safari,
   <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-> [!INFO]
+> [!NOTE]
 > "Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
 
 ## How do I change the name servers?

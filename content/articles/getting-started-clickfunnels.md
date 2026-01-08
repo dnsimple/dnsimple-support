@@ -26,7 +26,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Choose the plan that fits your needs.
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
-    > [!INFO]
+    > [!NOTE]
 > You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
 </div>
 
@@ -50,7 +50,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
     > - `Your DNSimple account identifier`
 
     You can find your account identifier in your DNSimple account by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card. Copy that value and paste it here.
-    
+
 
     > iii. Name of domain(s) you want to transfer.
 
@@ -135,7 +135,7 @@ You don't need to change the name servers when you move your domain from ClickFu
 
 The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or Cloudflare, and keep your registration with us.
 
-> [!INFO]
+> [!NOTE]
 > Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to Cloudflare, those changes won't be reflected on your site.
 
 > [!WARNING]

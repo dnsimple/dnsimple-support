@@ -33,7 +33,7 @@ Select the **Ecommerce** tab, and scroll down to the SupaDupa service. Click **A
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-> [!INFO]
+> [!NOTE]
 > Activating this service will configure DNS records where your main domain is your store. You must also [configure a URL redirect](/articles/redirector/) pointing `example.com` to `www.example.com` (replace `example.com` with your domain name).
 
 ## Setting up at SupaDupa

@@ -15,17 +15,15 @@ categories:
 
 ---
 
-<info>
-In this article, we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
-</info>
+> [!NOTE]
+> In this article, we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
 
 ## Comparison Let's Encrypt vs Standard SSL certificates
 
 The table below summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates. These differences may help you to decide which certificate you need.
 
-<info>
-The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but are currently not supported by DNSimple.
-</info>
+> [!NOTE]
+> The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but are currently not supported by DNSimple.
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|

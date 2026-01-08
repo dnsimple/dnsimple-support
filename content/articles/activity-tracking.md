@@ -15,7 +15,7 @@ categories:
 
 ---
 
-> [!INFO]
+> [!NOTE]
 > Full activity history is available on the Teams plan and higher. Accounts on the Solo plan can view activity logs from the past 30 days. [See the difference between plans](/articles/dnsimple-plans/).
 
 Activity history offers a comprehensive audit log of all changes made to a specific domain or across your entire account. It lets you manage your domain management and understand any modifications made over time.

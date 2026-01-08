@@ -23,7 +23,7 @@ We use a [PCI-compliant](https://stripe.com/guides/pci-compliance) billing provi
 
 ## ACH or wire transfer
 
-> [!INFO]
+> [!NOTE]
 > Only available for Enterprise clients.
 
 [Enterprise](https://dnsimple.com/sales) customers can issue an ACH payment (for US domestic customers) or a wire transfer (for non-US customers) to pay their DNSimple balance. Once DNSimple receives the money, the account credit will be adjusted to reflect the payment received, and all charges will be deducted from it.
@@ -32,12 +32,12 @@ Enterprise plans are also required to have a credit or debit card on file as a b
 
 ## Digital wallet
 
-> [!INFO]
+> [!NOTE]
 > Only available for Enterprise clients.
 
 Our [Enterprise plan](https://dnsimple.com/sales) customers can replenish a digital wallet for use on future purchases. We support ACH, wire transfer, and card payments to add funds to your digital wallet. You'll receive email notifications when you add funds to your digital wallet and when your funds are low.
 
-> [!INFO]
+> [!NOTE]
 > Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
 
 ## Have more questions?

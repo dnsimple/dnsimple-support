@@ -16,7 +16,7 @@ categories:
 
 ---
 
-> [!INFO]
+> [!NOTE]
 > This article discusses how to transfer domains internally from one DNSimple account to another. This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/).
 
 You can transfer a domain between DNSimple accounts any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account once the move is accepted. Transferring a domain to another account will transfer all associated resources, like DNS records, SSL certificates, and email forwards.
@@ -29,7 +29,7 @@ Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer)
 
 ## Initiating a transfer
 
-> [!INFO]
+> [!NOTE]
 > Once the domain is transferred, you can no longer control it under your current account.
 
 1. Click on the relevant domain.
@@ -70,7 +70,7 @@ Click **Accept**. You'll be prompted to assign a contact to the domain — this 
 
 To reject a transfer, click the **Reject** on the list of pending pushes, and confirm that you want to reject the push.
 
-> [!INFO]
+> [!NOTE]
 > If you reject a transfer request, the domain will remain in the possession of the original owner.
 
 ## Have more questions?

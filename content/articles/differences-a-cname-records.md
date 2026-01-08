@@ -8,7 +8,7 @@ categories:
 
 # Differences Between A and CNAME Records
 
-The A record and the CNAME record are two of the most fundamental, commonly used ways to map a hostname (like `www.example.com` or `blog.example.com`) in the Domain Name System (DNS). While both ultimately lead a client to an IP address, they achieve this through distinct mechanisms with important implications for how you manage your domain. 
+The A record and the CNAME record are two of the most fundamental, commonly used ways to map a hostname (like `www.example.com` or `blog.example.com`) in the Domain Name System (DNS). While both ultimately lead a client to an IP address, they achieve this through distinct mechanisms with important implications for how you manage your domain.
 
 Understanding these differences is necessary for correctly configuring your DNS and avoiding common pitfalls.
 
@@ -42,7 +42,7 @@ Let's illustrate the power of CNAMEs with a real-world example from our own setu
     github.map.fastly.net.  A       185.31.17.133
 ```
 
-In this scenario, our blog is hosted on GitHub Pages, which uses Fastly for content delivery. 
+In this scenario, our blog is hosted on GitHub Pages, which uses Fastly for content delivery.
 
 When someone visits `blog.dnsimple.com`:
 1. The DNS resolver looks up `blog.dnsimple.com` and finds another CNAME pointing to `aetrion.github.io`.
@@ -51,7 +51,7 @@ When someone visits `blog.dnsimple.com`:
 
 The benefit of this CNAME chain is that if GitHub Pages or Fastly changes their underlying IP address, we only need them to update the A record for `github.map.fastly.net`. Our `blog.dnsimple.com` CNAME automatically inherits the change without us needing to manually update our DNS records.
 
-> [!INFO]
+> [!NOTE]
 > While CNAME chaining is possible, each additional step adds another DNS lookup. Too many chained CNAMEs can slow down resolution, so it's best to keep chains short.
 
 ## Which one should you use?

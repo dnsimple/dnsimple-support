@@ -49,7 +49,7 @@ You can find the last used date of an access token on the list of existing acces
 
 ## Generating an account access token
 
-> [!INFO]
+> [!NOTE]
 > To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 
 Click **Add** to add a new access token.

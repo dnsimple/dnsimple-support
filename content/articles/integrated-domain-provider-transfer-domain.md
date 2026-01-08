@@ -45,7 +45,7 @@ Follow the instructions in the email. We cannot issue the transfer request to th
 
 Once you've authorized the transfer, you may have to **wait up to seven days for your domain transfer to complete.**
 
-> [!INFO]
+> [!NOTE]
 > The total transfer price will be held on your card immediately.
 > Your card will be charged once the transfer completes.
 > If the transfer fails, funds will be released.

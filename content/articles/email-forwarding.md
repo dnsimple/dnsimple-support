@@ -50,12 +50,12 @@ The **From** field is used to match an email address to forward from. Enter a sp
 
 In the **To** field, enter the full email address that you want to forward the email to.
 
-> [!INFO]
+> [!NOTE]
 > When adding an email forward from the dashboard, select the zone to apply it to in the **From** field. Note that only zones resolving through DNSimple will be included in the list.
 
 ### Catch-all emails {#catch-all-emails}
 
-> [!INFO]
+> [!NOTE]
 > When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
 
 To create a catch-all address, follow the instructions to create an email, and enter the following wildcard expression in the **From** field:

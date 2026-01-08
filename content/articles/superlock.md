@@ -8,7 +8,7 @@ categories:
 
 # DNSimple SuperLock
 
-> [!INFO]
+> [!NOTE]
 > This article describes a feature in private beta.
 
 Protect your domains from accidental transfers with DNSimple SuperLock.
@@ -28,7 +28,7 @@ With SuperLock, you can protect any domain from unintentional transfers or moves
 
 ## Enabling SuperLock
 
-> [!INFO]
+> [!NOTE]
 > This feature is in private beta. Your account will need access granted via [support@dnsimple.com](mailto:support@dnsimple.com).
 
 > [!WARNING]

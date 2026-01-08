@@ -19,7 +19,7 @@ When you reactivate your account, all previous preferences will be reactivated, 
 
 ## How to reactivate your subscription
 
-> [!INFO]
+> [!NOTE]
 > If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our [available plans](https://dnsimple.com/pricing).
 
 ### From the dashboard

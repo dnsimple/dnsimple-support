@@ -86,7 +86,7 @@ Request the change of the IPS TAG to `KEY-SYSTEMS-DE`. **This is case-sensitive,
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
 </div>
 
-> [!INFO]
+> [!NOTE]
 > We will only charge your credit card for the transfer once it has completed.
 
 ### Transfer status

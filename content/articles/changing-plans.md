@@ -10,7 +10,7 @@ categories:
 
 As a DNSimple customer, you might require features that aren't available on your current plan. This article discusses how to switch to the most appropriate subscription to meet your current needs. You can explore the various options and get an estimate of your costs on our [pricing page](https://dnsimple.com/pricing).
 
-> [!INFO]
+> [!NOTE]
 > We do not offer refunds for plan changes. If you upgrade your plan, you will receive a proration credit for the time remaining on your previous plan. If you downgrade, we wait until the end of the billing cycle, then charge you for the new subscription.
 
 ## Upgrading your plan

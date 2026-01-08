@@ -19,7 +19,7 @@ Templates are reusable groups of DNS records that can be applied to any of your 
 
 You can access your templates at any time from the top navigation bar, next to your domains and contacts.
 
-> [!INFO]
+> [!NOTE]
 > Templates do not override any existing DNS records on your domain.
 
 ## Creating a template

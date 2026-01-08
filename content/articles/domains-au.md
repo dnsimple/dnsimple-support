@@ -56,7 +56,7 @@ To register a .COM.AU or .NET.AU domain name, registrants must be one of the fol
 - An association incorporated in any Australian State or Territory.
 - An Australian commercial statutory body.
 
-> [!INFO]
+> [!NOTE]
 > On April 12, 2021, a new set of rules for the .COM.AU and .NET.AU third-level domains took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes).
 
 ### .ORG.AU
@@ -73,7 +73,7 @@ To register a .ORG.AU domain name, registrants must belong to one of the followi
 > [!WARNING]
 > A valid Australian Business Number (ABN) is required to register a .ORG.AU domain name. Australian Company Numbers and Trademark Numbers are not acceptable.
 
-> [!INFO]
+> [!NOTE]
 > On April 12, 2021, a new set of rules for the .ORG.AU third-level domain took effect — review them [here](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/orgau-rule-changes).
 
 ## Renewals
@@ -133,6 +133,6 @@ If your domain has a deregistered ABN/ACN (where the legal entity has been dereg
 
 Please complete them to the best of your abilities — if you have any concerns, please [contact the registry directly](https://www.auda.org.au/au-domain-names/general-enquiry-form).
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions about registering, transferring, or renewing your .AU domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions about registering, transferring, or renewing your .AU domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

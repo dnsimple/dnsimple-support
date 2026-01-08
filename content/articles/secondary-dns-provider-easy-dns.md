@@ -27,7 +27,7 @@ A confirmation message will tell you that secondary DNS has been enabled from th
 
 Log in to your **EasyDNS** account. The first thing you'll do is add the domain.
 
-> [!INFO]
+> [!NOTE]
 > EasyDNS has both a tabbed and one-page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
 
 ![DNSimple configuration is successful](/files/easy-dns-add-domain.png)
@@ -46,7 +46,7 @@ From the **DNS Settings** tab, you'll tell EasyDNS the primary name server. In t
 
 Now add the DNSimple primary server IP address `18.189.127.127`, and confirm the changes.
 
-> [!INFO]
+> [!NOTE]
 > At the time of writing, **EasyDNS** only accepts IPv4 for secondary DNS
 
 ![DNSimple configuration is successful](/files/easy-dns-adding-dnsimple-ip.png)

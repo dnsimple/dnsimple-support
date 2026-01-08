@@ -38,7 +38,7 @@ Both providers support wildcard certificates. Let's Encrypt certificates are fre
 
 You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
 
-> [!INFO]
+> [!NOTE]
 > Let's Encrypt wildcard certificates are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 
 ## Use * for a wildcard certificate
@@ -55,7 +55,7 @@ When the certificate form requests the _name_, use the `*` char to represent the
 
 For instance, to request a certificate for `*.example.com`, just enter `*`. To request a certificate for `*.app.example.com`, enter `*.app`.
 
-> [!INFO]
+> [!NOTE]
 > If your plan supports multiple names (SAN), you can add more than one certificate name in the same certificate.
 
 
