@@ -31,9 +31,7 @@ structured_data: true
 
 1.  #### I want to purchase an SSL certificate. Do I need a subscription?
 
-    Yes and no. Let's Encrypt SSL certificates are one of our paid products, provided as part of our subscription service.
-
-    To purchase a Let's Encrypt SSL certificate, you need an active subscription at the time of the purchase. You're not required to have an active subscription to use or install the certificate on your server. If you disable the subscription, you won't receive any additional services for the domain or the certificate.  You need a valid, active subscription when you renew the certificate or if you want to reissue the certificate.
+    Yes and no. Let's Encrypt certificates are only available with an active subscription. They are included with the subscription at no additional cost.
 
     You can purchase a Sectigo SSL Certificate without a subscription. Note that you won't receive any additional services for the domain without an active subscription. 
 
