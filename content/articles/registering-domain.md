@@ -58,11 +58,10 @@ If the domain was registered successfully (whether you have a subscription or no
 
   ![success screen](/files/registration-successful-page.png)
 
-<info>
-The total registration price will be held on your card immediately. Your card will be charged once the registration is complete.
-  
-If the registration fails, funds will be released.
-</info>
+> [!INFO]
+> The total registration price will be held on your card immediately.
+> Your card will be charged once the registration completes.
+> If the registration fails, funds will be released.
 
 ## Have more questions?
 

@@ -13,11 +13,14 @@ categories:
 
 ---
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/4dTbaSiag3s?si=k4YOPcaUxvDlmuHh" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 This article explains the requirements and special procedures for .BANK domain names.
 
-<info>
-.BANK registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
-</info>
+> [!INFO]
+> .BANK registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
 
 ## Registering a .BANK domain {#registering}
 
@@ -81,9 +84,8 @@ These details help Symantec, the registry's verification partner, complete verif
 
 If you haven't previously provided this information, or if your details have changed, please contact us so we can update your re-verification records.
 
-<warning>
-To avoid delays or suspension, please inform your organization contacts to expect outreach from Symantec for employment and authority verification.
-</warning>
+> [!WARNING]
+> To avoid delays or suspension, please inform your organization contacts to expect outreach from Symantec for employment and authority verification.
 
 ## Have more questions?
 

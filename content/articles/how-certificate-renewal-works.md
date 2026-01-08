@@ -17,8 +17,6 @@ We call it *renewal*, although an SSL certificate renewal is effectively a new S
 
 To renew your certificate follow the steps described in the [renewing an SSL certificate](/articles/renewing-ssl-certificate/) article. Remember to install the brand new certificate in place of the existing one.
 
-<warning>
-When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation/) again, as for every certificate request. If you don't validate the new certificate, the renewal will not be issued.
-
-If you don't complete the renewal process, or if you don't replace the old certificate with the new one, the browsers will display a security warning when the old certificate expires.
-</warning>
+> [!WARNING]
+> When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation/) again, as for every certificate request. If you don't validate the new certificate, the renewal will not be issued.
+> If you don't complete the renewal process, or if you don't replace the old certificate with the new one, the browsers will display a security warning when the old certificate expires.

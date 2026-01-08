@@ -42,8 +42,8 @@ categories:
    ![Screenshot of edit notifications](/files/edit_notifications.png)
 6. Click <label>Save</label> to save changes.
 
-<info> If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set a billing email in the billing email field shown above, or from the[ billing settings](/articles/billing-settings/#changing-the-billing-email) page.
-</info>
+> [!INFO]
+> If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set a billing email in the billing email field shown above, or from the[ billing settings](/articles/billing-settings/#changing-the-billing-email) page.
 
 </div>
 

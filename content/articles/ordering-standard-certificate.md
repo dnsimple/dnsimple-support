@@ -22,7 +22,10 @@ All standard SSL certificates sold by DNSimple are valid for at least one year f
 
 ## Before starting
 
-To order an SSL certificate, you need a DNSimple account.
+To order an SSL certificate you need a DNSimple account.
+
+> [!NOTE]
+> You are not required to keep an active subscription to access the certificate, however some features, such as certificate renewal or auto-renewal, will not be available when you unsubscribe.
 
 You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase a Sectigo SSL certificate**.
 
@@ -59,34 +62,10 @@ The order is the first step in getting an SSL certificate. It will create an SSL
    
    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
-   If you **_do not_** have a subscription, click on **Continue to Payment**.
-
-   ![continue payment screen](/files/purchase-ssl-certificate-continue-payment.png)
-
-    On the payment page, fill out the card information. If you have already purchased an item with DNSimple, there is an option to use saved payment information.
-
-#### Fill out card information
-
-   ![enter card information](/files/domain-payment-page.png)
-
-#### Use saved card information
-
-   ![saved card](/files/saved-card.png)
-
-   <note> Item will show as the certificate you are purchasing on either screen. 
-   </note>
-
-7. Select the validation email for the certificate and then click **Send validation email**.
-
-    ![select validation email](/files/select-validation-email.png)
-    
-8. Once the email is validated, the certificate purchase is complete.
-
-   <info>
-   The certificate price will be held on your card immediately. Your card will be charged once the certificate is issued.
-       
-   If the issuance fails, funds will be released.
-   </info>
+   > [!INFO]
+> The certificate price will be held on your card immediately.
+>    Your card will be charged once the certificate is issued.
+>    If the issuance fails, funds will be released.
 
 ## Next steps
 

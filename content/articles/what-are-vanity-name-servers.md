@@ -38,9 +38,8 @@ The concept of vanity name servers relies critically on glue records, which solv
 
 DNSimple provides robust functionality to configure and manage vanity name servers for your domains. 
 
-<info>
-This feature is only available on the [Enterprise Plan](https://dnsimple.com/enterprises).
-</info>
+> [!INFO]
+> This feature is only available on the [Enterprise Plan](https://dnsimple.com/enterprises).
 
 Using vanity name servers with DNSimple typically involves two distinct, but often sequential, actions:
 

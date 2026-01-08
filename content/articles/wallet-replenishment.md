@@ -18,9 +18,8 @@ categories:
 
 [Enterprise customers](https://dnsimple.com/sales) can add funds to a digital wallet for use on future purchases, like domain registrations, domain renewals, domain transfers, and SSL certificates. We support ACH, wire transfer, and card payments to add funds to your digital wallet.
 
-<info>
-Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
-</info>
+> [!INFO]
+> Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
 
 ## Adding funds to your wallet
 1. From the account switcher, select the account you want to update the payment information for. This takes you to the domain list for the account.

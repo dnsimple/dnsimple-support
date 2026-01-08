@@ -8,6 +8,5 @@ categories:
 
 # Auto-Renewal Required Domains
 
-<note>
-This article is being deprecated. Please refer to the [Domain Auto-Renewal](/articles/domain-auto-renewal/) article instead.
-</note>
+> [!NOTE]
+> This article is being deprecated. Please refer to the [Domain Auto-Renewal](/articles/domain-auto-renewal/) article instead.

@@ -25,9 +25,8 @@ This article explains how to export your domain names into a .CSV list.
 
 ![screenshot: how to export your domain names list as a .csv file](/files/export-domain-names-to-file.png)
 
-<info>
-If you have more than 10k domains in your account, you'll receive the attachment as a .ZIP file.
-</info>
+> [!INFO]
+> If you have more than 10k domains in your account, you'll receive the attachment as a .ZIP file.
 
 ## What's in the .CSV file?
 

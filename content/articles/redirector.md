@@ -13,9 +13,8 @@ categories:
 {:toc}
 
 ---
-<info>
-**HTTP** redirects are available to all plans. **HTTPS** redirects are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
-</info>
+> [!INFO]
+> **HTTP** redirects are available to all plans. **HTTPS** redirects are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 
 The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 
@@ -50,9 +49,8 @@ The DNSimple redirector supports HTTPS redirects. In order to enable it:
   1. Add a [`URL` record](/articles/url-record/) to your domain
   1. Issue an [SSL Certificate](/articles/ssl-certificates/) for the same domain
 
-<warning>
-Don't delete the private key of SSL certificates required for HTTPS redirects. If you delete the private key, the redirector won't be able to support HTTPS redirects for the associated domain names.
-</warning>
+> [!WARNING]
+> Don't delete the private key of SSL certificates required for HTTPS redirects. If you delete the private key, the redirector won't be able to support HTTPS redirects for the associated domain names.
 
 Incoming HTTPS requests will be handled automatically with that SSL certificate:
 

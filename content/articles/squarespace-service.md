@@ -23,9 +23,8 @@ If you have accounts with DNSimple and Squarespace, you can use DNSimple's [One-
 
 Follow the steps to [enable the domain in your Squarespace Domains panel](https://support.squarespace.com/hc/en-us/articles/205812378).
 
-<info>
-Copy the unique code under **Host** on the first line of the DNS Settings. You'll need it when activating the service.
-</info>
+> [!INFO]
+> Copy the unique code under **Host** on the first line of the DNS Settings. You'll need it when activating the service.
 
 ## Enabling Squarespace service
 

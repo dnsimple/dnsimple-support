@@ -31,9 +31,8 @@ k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzv
 - **Name field:**
     - Your provider will also give you a specific subdomain to use (e.g., `something._domainkey`).
 
-<warning>
-If your provider gives you a fully-qualified name that ends with your domain name, **DO NOT** include your domain name in the **Name** field when you add the TXT record. For example, if you're given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the **Name** field.
-</warning>
+> [!WARNING]
+> If your provider gives you a fully-qualified name that ends with your domain name, **DO NOT** include your domain name in the **Name** field when you add the TXT record. For example, if you're given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the **Name** field.
 
 ## Quotes and slashes
 If your provider gave you the DKIM record and it included double quotes around the record, or backslashes before semi-colons in the record, you can safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.

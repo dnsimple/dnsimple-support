@@ -15,9 +15,8 @@ categories:
 
 ## Overview
 
-<info>
-Account seats for additional team members are only available on Teams or Enterprise plans.
-</info>
+> [!INFO]
+> Account seats for additional team members are only available on Teams or Enterprise plans.
 
 The Teams plan includes one seat at no additional cost, allowing you to have one member actively involved in domain management. Any seats beyond the initial one will incur extra costs. Enterprise plans have custom pricing and seat numbers. [See our pricing page for more details](https://dnsimple.com/pricing).
 
@@ -73,9 +72,8 @@ You can increase the seat count and invite members in one seamless process.
 
 ![Increasing seats to invite new members](/files/adding-seats-when-inviting-new-members.png)
 
-<info>
-You cannot add a user who has the same email address as the account email address. You must first change the account email address (we recommend a generic email address like admin@ or billing@) before you can that user.
-</info>
+> [!INFO]
+> You cannot add a user who has the same email address as the account email address. You must first change the account email address (we recommend a generic email address like admin@ or billing@) before you can that user.
 
 ## Automatic Seat Allocation with Single Sign-On (SSO) Providers:
 

@@ -22,9 +22,8 @@ This guide explains how to configure a hidden primary while leveraging DNSimple 
 
 ## Prerequisites
 
-<warning>
-    Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, and this will produce resolution failures from DNSSEC-aware resolvers.
-</warning>
+> [!WARNING]
+> Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, and this will produce resolution failures from DNSSEC-aware resolvers.
 
 Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary/) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
 
@@ -44,9 +43,8 @@ Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secon
 1. Log in to your domain registrar.
 2. Update the delegation [using DNSimple's name servers](/articles/dnsimple-nameservers/).
 
-<note>
-Do not list the hidden primary DNS server to keep it private.
-</note>
+> [!NOTE]
+> Do not list the hidden primary DNS server to keep it private.
 
 ## Step 3: Configure your hidden primary DNS
 

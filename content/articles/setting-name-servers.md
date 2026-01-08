@@ -49,9 +49,8 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 </div>
 
-<info>
-DNSimple's listing of NS records for the domain will be updated to match the name server changes.
-</info>
+> [!INFO]
+> DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
 ## Pointing the name servers to DNSimple
 
