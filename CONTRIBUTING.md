@@ -25,7 +25,8 @@ Reference our [support writing guidelines](https://support.dnsimple.com/articles
 
 Support docs should be as clear and concise as possible. Each step of the process should be clearly communicated or linked to a relevant section. Never make the customer scroll more than they have to for info.
 
-**If you have any questions, ask in the #customer-success thread in Slack.**
+> [!NOTE] Internal
+> If you have any questions, ask in the #customer-success thread in Slack.
 
 ### Markdown Style
 
