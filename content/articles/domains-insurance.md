@@ -19,9 +19,8 @@ categories:
 
 This article explains the requirements and special procedures for .INSURANCE domain names.
 
-<info>
-.INSURANCE registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
-</info>
+> [!INFO]
+> .INSURANCE registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
 
 ## Registering a .INSURANCE domain {#registering}
 
@@ -85,9 +84,8 @@ These details help Symantec, the registry's verification partner, complete verif
 
 If you haven't previously provided this information, or if your details have changed, please contact us so we can update your re-verification records.
 
-<warning>
-To avoid delays or suspension, please inform your organization contacts to expect outreach from Symantec for employment and authority verification.
-</warning>
+> [!WARNING]
+> To avoid delays or suspension, please inform your organization contacts to expect outreach from Symantec for employment and authority verification.
 
 ## Have more questions?
 

@@ -56,9 +56,8 @@ If the SSL certificate is expiring and it was previously purchased with us, you 
 
 If you need to use a [custom CSR](/articles/what-is-csr/), generate it and [order a Standard certificate](/articles/ordering-standard-certificate/) where you can paste it in the SSL certificate purchase form.
 
-<warning>
-If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.
-</warning>
+> [!WARNING]
+> If you use a custom CSR, be sure you have stored the private key safely as it is the only way to use your SSL certificate.
 
 ## Validate the certificate request {#validate}
 
@@ -72,17 +71,15 @@ If you have ordered a Standard certificate, you have a bit more work to do.
 
 [Select the SSL certificate validation email](/articles/ssl-certificates-email-validation/#select-email) and submit your certificate for validation.
 
-<note>
-The validation email must be a valid recipient, an email will be sent to validate the certificate. [Learn more about email validation](/articles/ssl-certificates-email-validation/).
-</note>
+> [!NOTE]
+> The validation email must be a valid recipient, an email will be sent to validate the certificate. [Learn more about email validation](/articles/ssl-certificates-email-validation/).
 
 After submitting your request you will receive a message containing a link to validate your identity and domain ownership at the email address you selected. Be sure to check your junk folder in case it was inadvertently routed there.
 
 Click on the link to approve and issue the certificate.
 
-<info>
-[It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
-</info>
+> [!INFO]
+> [It may take some time](/articles/how-long-to-issue-ssl-certificate/) to issue a certificate once the validation is completed. Every so often we see a certificate held up by the certificate authority for other reasons. If you feel its taking longer than expected please [contact us](https://dnsimple.com/contact) and we will investigate.
 
 ## Install the certificate {#install}
 

@@ -25,9 +25,8 @@ When registering a .JOBS domain, you will need to provide the following informat
 - Once the registration has been submitted, your application will be forwarded to the .JOBS registry for review.
 - The domain status will be marked as "pending" during this process.
 
-<info>
-Applications for .JOBS domains that match a company name, brand name, or product name are typically approved on the same business day. Ensure the verification URL provided during registration (e.g. your company's homepage) is accurate, as it plays a critical role in the registry's review process.
-</info>
+> [!INFO]
+> Applications for .JOBS domains that match a company name, brand name, or product name are typically approved on the same business day. Ensure the verification URL provided during registration (e.g. your company's homepage) is accurate, as it plays a critical role in the registry's review process.
 
 ## Approval or additional information
 

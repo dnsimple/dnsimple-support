@@ -18,9 +18,8 @@ This article explains the requirements and special procedures for .ZA domain nam
 
 ### Before you start
 
-<warning>
-To avoid the possibility of downtime, point the name servers for the domain to DNSimple (or another provider) [before you begin the transfer](/articles/before-transferring-domain/). This prevents downtime and allows you to perform changes to the DNS records during the domain transfer.
-</warning>
+> [!WARNING]
+> To avoid the possibility of downtime, point the name servers for the domain to DNSimple (or another provider) [before you begin the transfer](/articles/before-transferring-domain/). This prevents downtime and allows you to perform changes to the DNS records during the domain transfer.
 
 ### Required acknowledgment
 
@@ -28,9 +27,8 @@ All `.ZA` domain transfers into DNSimple require your explicit acknowledgment be
 
 After initiating the transfer, you will receive the acknowledgement email within the same day. Once the acknowledgment is completed, your transfer will take up to a week to complete. There are no further steps needed after acknowledging the transfer.
 
-<warning>
-All unacknowledged transfers will be canceled after 14 days.
-</warning>
+> [!WARNING]
+> All unacknowledged transfers will be canceled after 14 days.
 
 #### Acknowledgment process
 

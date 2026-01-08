@@ -31,9 +31,8 @@ You can replace the following billing details with custom information on all inv
 
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
-<info>
-The account owner can modify this information any time, as often as needed. The new billing information will only be used for future invoices.
-</info>
+> [!INFO]
+> The account owner can modify this information any time, as often as needed. The new billing information will only be used for future invoices.
 
 If you need to change the billing information for an existing invoice, please [contact support](https://dnsimple.com/contact).
 
@@ -56,17 +55,15 @@ If you need to change the billing information for an existing invoice, please [c
 
 All future invoices will display the information you provided.
 
-<info>
-If you're on a solo plan, you cannot change the billing email address. If you've set up a separate billing contact, they do not have authorized access to the account, and information cannot be shared with them if they contact us. All future invoices will display the information you provided.
-</info>
+> [!INFO]
+> If you're on a solo plan, you cannot change the billing email address. If you've set up a separate billing contact, they do not have authorized access to the account, and information cannot be shared with them if they contact us. All future invoices will display the information you provided.
 
 ## Changing the billing email
 
 If you're on a Teams plan or higher, we can deliver your invoices to a different email address from the one you use to manage your domains. This is not available on Solo plans.
 
-<info>
-Only account administrators can change the billing email address.
-</info>
+> [!INFO]
+> Only account administrators can change the billing email address.
 
 <div class="section-steps" markdown="1">
 

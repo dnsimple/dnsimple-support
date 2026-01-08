@@ -46,9 +46,8 @@ For simple scenarios, you could use a POOL record to randomly send users to diff
 ### Vendor redundancy
 Easily distribute traffic across different service providers (e.g., `example.provider1.com`, `example.provider2.com`), reducing reliance on a single vendor.
 
-<warning> 
-POOL records are a proprietary record type created by DNSimple. **They are resolved and managed exclusively by DNSimple's name servers**. If your domain's DNS is not hosted with DNSimple, or if you transfer it to another provider, POOL records will not function. 
-</warning>
+> [!WARNING]
+> POOL records are a proprietary record type created by DNSimple. **They are resolved and managed exclusively by DNSimple's name servers**. If your domain's DNS is not hosted with DNSimple, or if you transfer it to another provider, POOL records will not function.
 
 ## Managing POOL records in DNSimple
 DNSimple provides a user-friendly interface for configuring and maintaining your POOL records. You can easily add new records, manage the pool of target hostnames, and remove or update entries directly from your domain's [record editor](/articles/record-editor/).

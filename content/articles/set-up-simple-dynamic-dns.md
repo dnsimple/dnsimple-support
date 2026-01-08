@@ -19,9 +19,8 @@ You need:
 - An API access token.
 - Basic familiarity with making HTTP requests (or a tool like `curl`).
 
-<note>
-DNSimple does **not** support the legacy **dyndns API** that many consumer routers reference when they mention DDNS. Instead, you must use our API or a compatible client.
-</note>
+> [!NOTE]
+> DNSimple does **not** support the legacy **dyndns API** that many consumer routers reference when they mention DDNS. Instead, you must use our API or a compatible client.
 
 ## Step 1: Identify the record you want to update
 

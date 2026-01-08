@@ -38,9 +38,8 @@ To manage integrated zones from DNSimple, you first have to connect an Integrate
 - [Azure DNS](/articles/integrated-dns-provider-azure-dns/)
 - [CoreDNS](/articles/integrated-dns-provider-coredns/)
 
-<note>
-The list of supported features and record types differs for each provider.
-</note>
+> [!NOTE]
+> The list of supported features and record types differs for each provider.
 
 ## Have more questions?
 If you have any questions about Integrated DNS Providers or managing your integrated zones, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

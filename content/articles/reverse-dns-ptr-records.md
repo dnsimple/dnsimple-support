@@ -73,9 +73,8 @@ DNSimple supports managing reverse DNS entries (i.e., PTR records), but it's cru
 - **Delegation is required**: You must be able to delegate the portion of your subnet (IP address block) that you want DNSimple to respond to for reverse DNS queries. This involves instructing your IP address provider (your Internet Service Provider, hosting company, or cloud provider) to point the reverse DNS for your IP range to DNSimple's nameservers.
 - **No direct control**: Depending on your IP address provider or hosting company, you may not have direct control over your subnet's reverse DNS delegation. In that case, you'll need to ask your hosting company or IP address provider to set up the reverse DNS entries you require directly with them.
 
-<info>
-In scenarios where DNSimple is acting as a secondary DNS provider for your forward domain, it will only handle the records within that forward zone. PTR record management for your IP addresses will still need to be handled as described above.
-</info>
+> [!INFO]
+> In scenarios where DNSimple is acting as a secondary DNS provider for your forward domain, it will only handle the records within that forward zone. PTR record management for your IP addresses will still need to be handled as described above.
 
 ## A key best practice
 Reverse DNS lookups, powered by PTR records, are a fundamental and vital component of the internet's infrastructure. They enable the essential translation of IP addresses back to hostnames, playing a critical role in email deliverability, server logging, and network security. 

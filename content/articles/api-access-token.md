@@ -31,9 +31,8 @@ The API offers two types of tokens: Account and user.
 
 The user token gives you access to any resource associated with any account the user has access to. An account token gives you access only to the resources connected to that account.
 
-<tip>
-We recommend using account tokens unless your application needs multi-account access via a single token.
-</tip>
+> [!TIP]
+> We recommend using account tokens unless your application needs multi-account access via a single token.
 
 ## Getting to the account access token page
 
@@ -50,9 +49,8 @@ You can find the last used date of an access token on the list of existing acces
 
 ## Generating an account access token
 
-<info>
-To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
-</info>
+> [!INFO]
+> To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 
 Click **Add** to add a new access token.
 

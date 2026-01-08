@@ -64,16 +64,13 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1. The record is created and visible in the record list.
 
-<info>
-To add a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#createDomainDelegationSignerRecord).
-</info>
+> [!INFO]
+> To add a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#createDomainDelegationSignerRecord).
 
 ## Removing a DS record
 
-<note>
-#### Important 
-You can't remove DS records managed by DNSimple.
-</note>
+> [!NOTE] Important 
+> You can't remove DS records managed by DNSimple.
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
    
@@ -93,9 +90,8 @@ You can't remove DS records managed by DNSimple.
 
 1.  The record is deleted and no longer visible in the record list.
 
-<info>
-To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
-</info>
+> [!INFO]
+> To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
 
 ## Have more questions?
 

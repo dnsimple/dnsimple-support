@@ -33,9 +33,8 @@ Furthermore, the direct integration doesn't allow selectively delegating only ce
 
 ## DNSimple one-click integration (Deprecated)
 
-<warning>
-The Cloudflare one-click service is deprecated as of December 2021.
-</warning>
+> [!WARNING]
+> The Cloudflare one-click service is deprecated as of December 2021.
 
 DNSimple one-click integration allowed you to use Cloudflare to proxy only a specific DNS record of a domain. This was the preferred option, for example, if you want to take advantage of Cloudflare's CDN and protection for the main website, maintaining the other DNS records in DNSimple.
 
@@ -43,10 +42,9 @@ However, this approach had some limitations. For instance, Cloudflare doesn't al
 
 ## Disabling Clouldflare service {#disable}
 
-<warning>
-Removing the service will also remove any records created by the service. Thefore it is best to update your DNS records manually before removing the service to avoid any distruptions.<br>
-In case you are experiencing any issues in removing the service please [contact us](https://dnsimple.com/contact) and we can assist.
-</warning>
+> [!WARNING]
+> Removing the service will also remove any records created by the service. Thefore it is best to update your DNS records manually before removing the service to avoid any distruptions.<br>
+> In case you are experiencing any issues in removing the service please [contact us](https://dnsimple.com/contact) and we can assist.
 
 1. Go to the DNS settings page of the domain you want to remove the service from.
 2. Under the "One-click services" section you should see the Cloudflare service. Click on the remove button for the Cloudflare service.

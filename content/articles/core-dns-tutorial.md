@@ -19,11 +19,8 @@ You can follow along with the video below, or use it as a reference as you go th
 
 </div>
 
-<info>
-
-The **Integrations** link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider-to-your-account/) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the **DNS Zone Providers** card in the DNS section of your domain's management page to [add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider), [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/), or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) CoreDNS configuration for a zone.
-
-</info>
+> [!INFO]
+> The **Integrations** link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider-to-your-account/) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the **DNS Zone Providers** card in the DNS section of your domain's management page to [add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider), [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/), or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) CoreDNS configuration for a zone.
 
 ## 1. Prerequisites
 

@@ -14,9 +14,8 @@ categories:
 {:toc}
 
 ---
-<info>
-This feature is exclusively available to our [Enterprise](https://dnsimple.com/enterprises) customers. If you're interested in exploring our Enterprise options and the benefits of multi-account management, please [contact our sales team](https://dnsimple.com/sales).
-</info>
+> [!INFO]
+> This feature is exclusively available to our [Enterprise](https://dnsimple.com/enterprises) customers. If you're interested in exploring our Enterprise options and the benefits of multi-account management, please [contact our sales team](https://dnsimple.com/sales).
 
 Enterprise customers can manage multiple, separate DNSimple accounts under a single contract. This provides:
 

@@ -10,9 +10,8 @@ categories:
 * TOC
 {:toc}
 
-<info>
-These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
-</info>
+> [!INFO]
+> These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
 
 ## Why domain contacts are important
 
@@ -42,9 +41,8 @@ If a contact is associated with multiple domains, updating that contact also upd
 
 To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
-<info>
-When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-</info>
+> [!INFO]
+> When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
 ### Deleting a contact
 

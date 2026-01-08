@@ -8,9 +8,8 @@ categories:
 
 # Heroku One-click Service
 
-<note>
-This service is being deprecated. We recommend that you use the [Heroku Connector](/articles/heroku-connector/) instead.
-</note>
+> [!NOTE]
+> This service is being deprecated. We recommend that you use the [Heroku Connector](/articles/heroku-connector/) instead.
 
 ### Table of Contents {#toc}
 

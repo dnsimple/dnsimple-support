@@ -26,9 +26,8 @@ An SRV record provides structured information about where a service can be found
 
 **Service name and protocol:** SRV records always begin with a symbolic name for the service (e.g., `_sip` for Session Initiation Protocol) and the transport protocol used (e.g., `_tcp` for TCP or `_udp` for UDP). Both parts always start with an underscore, for example: `_sip._tcp.example.com`.
 
-<note>
-SRV records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
-</note>
+> [!NOTE]
+> SRV records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 **Priority:** This value indicates the preference for using a server. Lower numbers mean higher priority. Clients will attempt to connect to servers with the lowest priority first.
 
