@@ -18,7 +18,7 @@ Apart from the subscription fee, the following will take effect immediately:
 - Any domain in your account that is registered will not renew.
 - [Email Forwarding](/articles/email-forwarding/) will stop working.
 
-> [!INFO]
+> [!NOTE]
 > This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate](/articles/reactivate-subscription/).
 
 <div class="section-steps" markdown="1">

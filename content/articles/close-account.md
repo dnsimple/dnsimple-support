@@ -28,7 +28,7 @@ Deleting yourself as a user will permanently delete all your domains in all your
 
     ![screenshot of warning for deleting a user](/files/delete-user-warning.png)
 
-   > [!INFO]
+   > [!NOTE]
 > The <label>Delete user</label> button will only be available if you have no active DNSimple subscriptions.
 
 1. Include your feedback, or write anything you like in the provided field, then click **I understand the consequences, close this user and account**. The field cannot be left blank.

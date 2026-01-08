@@ -2,7 +2,7 @@
 title: How Does Zone Verification Work?
 excerpt: Zone Verification ensures that only the current owner of a domain can add and manage its DNS zone in DNSimple.
 meta: Learn how DNS zone verification works at DNSimple. Understand the steps to verify domain ownership and protect your domain from unauthorized DNS zone access.
-categories: 
+categories:
 - DNS
 ---
 # How Does Zone Verification Work?
@@ -19,7 +19,7 @@ When adding a zone to DNSimple, you may be asked to verify ownership. This proce
 1. After you have added the zone to your DNSimple account, remember to remove the verification name server from the delegation at your domain registrar.
 1. Verifications expire after 48 hours, but you can retry by re-initiating the add zone operation.
 
-> [!INFO]
+> [!NOTE]
 > Each verification is unique. If you let one verification expire and start a new one, we will provide two new verification servers to use. **You will not be able to verify using the servers from the previous verification.**
 
 ## Important

@@ -19,7 +19,7 @@ categories:
 
 This article explains the requirements and special procedures for .INSURANCE domain names.
 
-> [!INFO]
+> [!NOTE]
 > .INSURANCE registrations are only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
 
 ## Registering a .INSURANCE domain {#registering}

@@ -78,7 +78,7 @@ DNSimple has both recurring charges and purchases. Purchases, like the fees you 
 - Domain transfers
 - Standard or Wildcard SSL certificates
 
-> [!INFO]
+> [!NOTE]
 > Domain registration charges can be recurring if you've enabled [auto-renewal](/articles/domain-auto-renewal/).
 
 ## Proration

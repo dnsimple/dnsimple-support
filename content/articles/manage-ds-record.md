@@ -20,13 +20,13 @@ DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure
 ## Adding a DS record
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
-   
+
 1. From your **Domain Names** list, click the domain name to access its management page.
-   
+
 1. Click the **DNSSEC** tab on the left.
-   
+
 1. Click **Manage** in the **DS Records** card.
-   
+
 1. On the **DS Records** page, click **Add DS Record**.
 
 The form fields that appear will depend on the domain's TLD. The system will show either the DS-Data or KEY-Data interface automatically.
@@ -64,22 +64,22 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1. The record is created and visible in the record list.
 
-> [!INFO]
+> [!NOTE]
 > To add a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#createDomainDelegationSignerRecord).
 
 ## Removing a DS record
 
-> [!NOTE] Important 
+> [!NOTE] Important
 > You can't remove DS records managed by DNSimple.
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
-   
+
 1. From your **Domain Names** list, click the domain name to access its management page.
-   
+
 1. Click the **DNSSEC** tab on the left.
-   
+
 1. Click **Manage** in the **DS Records** card.
-   
+
 1. On the **DS records** page, search for the record, and click the **trash** icon to delete it.
 
     ![screenshot: Delete DS Record](/files/ds-records-delete.png)
@@ -90,7 +90,7 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1.  The record is deleted and no longer visible in the record list.
 
-> [!INFO]
+> [!NOTE]
 > To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
 
 ## Have more questions?

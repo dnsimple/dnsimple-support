@@ -20,7 +20,7 @@ Perhaps the app owner has renamed it, or you mistyped the URL.
 
 This error page is returned when you point a custom domain to Heroku, but you did not attach the hostname to your Heroku application.
 
-> [!INFO]
+> [!NOTE]
 > This error page is returned by Heroku. The good news is that your DNS are correctly resolving to Heroku. Follow the instructions below to fix the error.
 
 Make sure to [add your custom domain to your Heroku application](https://devcenter.heroku.com/articles/custom-domains) using the `heroku domains:add` command. If you are using subdomains, you will need to run the command for each custom subdomain you want attached to your app.

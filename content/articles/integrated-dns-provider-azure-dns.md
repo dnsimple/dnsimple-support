@@ -60,7 +60,7 @@ The following Azure DNS record types are supported for syncing and management at
 > The NS records at the zone's apex must include the [Azure DNS name servers](https://learn.microsoft.com/en-us/azure/dns/dns-operations-recordsets-portal#modify-ns-records-at-the-zone-apex) assigned to the zone by Azure.
 > Syncing from DNSimple to Azure will retain the Azure NS records at the zone's apex, while adding any NS records present at DNSimple.
 
-> [!INFO]
+> [!NOTE]
 > [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Azure DNS. When synced from DNSimple to Azure, a URL record will be represented in Azure as an A record that points to our [redirector](/articles/redirector/).
 
 ## Have more questions?

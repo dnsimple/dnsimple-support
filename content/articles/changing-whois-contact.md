@@ -18,7 +18,7 @@ This article explains how to update the public WHOIS information associated with
 
 To check the existing public WHOIS record for a domain you can use our [WHOIS tool](https://dnsimple.com/whois).
 
-> [!INFO]
+> [!NOTE]
 > You cannot change the Registrant, Administrative, and Technical record separately in our system. When you change the contact of a domain, our system will automatically attempt to update Registrant, Technical, and Admin contacts together.
 
 
@@ -29,7 +29,7 @@ To update the WHOIS information associated with a domain name in DNSimple, simpl
 > [!WARNING]
 > Changing or updating WHOIS information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
-> [!INFO]
+> [!NOTE]
 > ICANN, the organization that oversees domain name registrations for most top-level domains, requires validation of your registrant email address whenever your registrant email address or name is changed. Failure to validate your updated registrant email address results in suspension of the domain name after 15 days of non-compliance. You can read more about this [here](https://support.dnsimple.com/articles/icann-domain-validation/).
 
 Upon the successful update of the domain contact, we will automatically update the registry data and the WHOIS record with the new contact information.

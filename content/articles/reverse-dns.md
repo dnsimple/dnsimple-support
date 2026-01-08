@@ -8,7 +8,7 @@ categories:
 
 # Reverse DNS Zones
 
-> [!INFO]
+> [!NOTE]
 > This article describes a feature only available on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
 > This feature is not available on our Legacy Plans. Click [here](/articles/changing-plans/) to change your plan, and unlock this feature.
 

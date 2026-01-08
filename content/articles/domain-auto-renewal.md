@@ -14,7 +14,7 @@ categories:
 {:toc}
 
 ---
-> [!INFO]
+> [!NOTE]
 > Most auto-renewals will begin a few days before a domain's expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date, even if auto-renewal is turned on.
 
 > [!WARNING]

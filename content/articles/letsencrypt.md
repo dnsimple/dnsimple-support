@@ -79,7 +79,7 @@ Let's Encrypt provides only one type of certificate. They issue only domain-vali
 
 Single-name certificates can be considered a special type of multi-name certificate with a single name associated with it.  Let's Encrypt offering is both multi-name and single-name.
 
-> [!INFO]
+> [!NOTE]
 > The ability to customize names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
 
 
@@ -122,7 +122,7 @@ DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-re
 
 Once renewed, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
 
-> [!INFO]
+> [!NOTE]
 > Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
 
 This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.

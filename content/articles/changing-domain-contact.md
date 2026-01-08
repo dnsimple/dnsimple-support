@@ -16,7 +16,7 @@ categories:
 
 For domains registered with DNSimple, [Domain Managers](https://support.dnsimple.com/articles/domain-access-control/#domain-manager) and anyone with [Full Access](https://support.dnsimple.com/articles/domain-access-control/#full-access) can change the contact associated with a domain at any time.
 
-> [!INFO] Domains not registered with DNSimple
+> [!NOTE] Domains not registered with DNSimple
 > These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to update the contact information at your current registrar, or transfer the domain to DNSimple.
 
 ## Assigning a new domain contact
@@ -59,7 +59,7 @@ You can update the contact details to change existing contact information. DNSim
 
 ## Monitoring a contact change
 
-> [!INFO]
+> [!NOTE]
 > When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
 Some TLDs require extra steps before authorizing a registrant change.

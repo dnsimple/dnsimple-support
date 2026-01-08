@@ -21,9 +21,9 @@ categories:
   ![screenshot of confirming disabling of dnssec](/files/dnssec-disable-confirm.png)
 
 
-> [!INFO]
+> [!NOTE]
 > To learn how to disable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#disableDomainDnssec).
-  
+
 ## Troubleshooting
 
 If you encounter issues after disabling DNSSEC, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance. For information about managing DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/).

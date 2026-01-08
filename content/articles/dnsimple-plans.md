@@ -26,7 +26,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 
 DNSimple's Solo plan provides anyone with a domain management platform where they can manage DNS, domains, and certificates with multiple providers through a single control plane.
 
-> [!INFO]
+> [!NOTE]
 > You can have a maximum of one user on the Solo plan. If more than one person needs to access your domains, we recommend choosing the Teams plan.
 
 ### Cost

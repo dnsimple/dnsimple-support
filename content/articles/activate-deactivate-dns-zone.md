@@ -27,7 +27,7 @@ You can activate the DNS hosting service for a domain from the domain **DNS** ta
 The DNS zone is automatically inactive for each new domain or zone added to an account, whether you register/transfer the domain or simply add it.
 
 
-> [!INFO]
+> [!NOTE]
 > New domains, whether registered, transferred, or manually added, will have DNS hosting disabled by default until you activate the zone.
 
 

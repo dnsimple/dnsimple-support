@@ -31,7 +31,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 
 If the domain was registered successfully, you'll be taken to a screen confirming your registration.
 
-> [!INFO]
+> [!NOTE]
 > The total registration price will be held on your card immediately.
 > Your card will be charged once the registration completes.
 > If the registration fails, funds will be released.

@@ -19,7 +19,7 @@ categories:
 
 If you want to use our name servers but have them appear as though they were your name servers, you can use the vanity name server functionality.
 
-> [!INFO]
+> [!NOTE]
 > Vanity name servers are only available on [Enterprise plans](/articles/dnsimple-plans/).
 
 ## Enabling Vanity Name Servers
@@ -43,7 +43,7 @@ You'll see two options:
 
 Click **Configure** to set up the domain as the provider of vanity name servers.
 
-If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add [glue records](/articles/what-are-glue-records/) 
+If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add [glue records](/articles/what-are-glue-records/)
 
 If the domain is registered elsewhere, and you're only using our DNS services, you need to request that your registrar add the glue records for you. You can find the IPv4 and IPv6 addresses for these records in our article on the [DNSimple name servers](/articles/dnsimple-nameservers/).
 
@@ -75,7 +75,7 @@ To do this:
 1. In your **Domain Names** list, click the domain you want to delegate.
 1. Click the **DNS** tab.
 1. Scroll to the **Vanity name servers** section and click Delegate.
-1. Enter the vanity name server hostnames (for example, `ns1.brand.com`, `ns2.brand.com`), then click **Delegate**. 
+1. Enter the vanity name server hostnames (for example, `ns1.brand.com`, `ns2.brand.com`), then click **Delegate**.
 
 If your domain is registered with us, the delegation will be handled automatically. If it's registered elsewhere, you'll need to update the name servers at your current registrar to match the ones you entered.
 

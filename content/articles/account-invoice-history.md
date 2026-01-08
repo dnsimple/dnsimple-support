@@ -32,7 +32,7 @@ Account owners can view an account's payment history and manually retry failed i
 
 ### Invoice filtering
 
-> [!INFO]
+> [!NOTE]
 > Only available for [Enterprise](https://dnsimple.com/sales) clients.
 
 Invoice filters provide quick, reliable access to invoices for auditing, reconciliation, and compliance. They simplify locating specific invoices by ID or content, helping teams save time and streamline financial workflows.

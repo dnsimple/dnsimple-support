@@ -27,7 +27,7 @@ Upon completion, your domain's registration will be automatically extended by th
 
     ![Restore domain form](/files/restore-domain-form.png)
 
-> [!INFO]
+> [!NOTE]
 > The total restore price will be held on your card immediately.
 > Your card will be charged once the restoration completes.
 > If the restoration fails, funds will be released.

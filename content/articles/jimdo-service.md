@@ -19,7 +19,7 @@ categories:
 
 If you have an account with DNSimple and a site ready to publish with Jimdo, you can use DNSimple's [One-click Services](/categories/services/) to set up the DNS records required by Jimdo.
 
-> [!INFO]
+> [!NOTE]
 > You need to have Jimdo Pro or Business to use your own domain.
 
 ## Setting up at Jimdo

@@ -10,7 +10,7 @@ categories:
 
 Account owners and team members with full-access can change the credit card associated with the DNSimple account any time.
 
-> [!INFO]
+> [!NOTE]
 > Teams and higher plans have Domain Access Controls. Only those with a full-access seat will be able to update Billing information.
 
 ### To update an account's payment details

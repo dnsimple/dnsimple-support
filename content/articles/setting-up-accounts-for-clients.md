@@ -15,7 +15,7 @@ categories:
 
 ---
 
-> [!INFO]
+> [!NOTE]
 > This article describes a feature only available on the Teams plan and higher. [See the differences between plans](/articles/dnsimple-plans/).
 
 Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
@@ -40,7 +40,7 @@ Verify your client has __registered__ with DNSimple.
 
 On [the signup page](https://dnsimple.com/signup), your client can register using their email address, or via [Google as an identity provider](/articles/google-identity-provider/).
 
-> [!INFO]
+> [!NOTE]
 > Your client does **not** need to have an active subscription with a credit card on file. They only need to be signed up for the service.
 
 ## Adding clients to the new account

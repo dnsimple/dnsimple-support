@@ -16,7 +16,7 @@ categories:
 
 ---
 
-> [!INFO]
+> [!NOTE]
 > Domain Access Control is only available on eligible [plans](https://dnsimple.com/pricing).
 
 The Domain Access Control feature lets you set the level of access for each team member in your account. Take control over who can access and manage your organization's domains, and ensure access is limited based on your needs.
@@ -65,7 +65,7 @@ If you invited someone with full access and want to change it, team members can 
 
 ## Setting access for a domain
 
-> [!INFO]
+> [!NOTE]
 > A team member must have limited access before you can fine-tune their access at the domain level.
 
 You can set up the Domain Access Control feature for any individual domain.
@@ -103,7 +103,7 @@ If a team member accesses a domain in an account via their user token, they'll h
 
 **This applies to user tokens only**. Account tokens have full access, similar to a team member with full account access.
 
-> [!INFO]
+> [!NOTE]
 > [Learn the difference](/articles/api-access-token/#account-tokens-vs-user-tokens) between account tokens and user tokens.
 
 

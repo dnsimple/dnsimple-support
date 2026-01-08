@@ -38,7 +38,7 @@ DNSimple provides the following certificate products:
 
 All SSL certificates are issued by globally recognized [certificate authorities](/articles/ssl-certificate-authorities/).
 
-> [!INFO]
+> [!NOTE]
 > All certificates are [domain-validated](/articles/ssl-certificates-email-validation/). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 
 ### Standard Single-name SSL certificates {#standard-singlename}
@@ -59,7 +59,7 @@ The Let's Encrypt certificate is a **multi-name (SAN)**, **domain-validated cert
 
 The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt/#products)
 
-> [!INFO]
+> [!NOTE]
 > The ability to customize the names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
 
 ### Let's Encrypt Wildcard SSL certificates {#letsencrypt-wildcard}
@@ -68,7 +68,7 @@ The Let's Encrypt wildcard certificate is a **wildcard-name**, **domain-validate
 
 The certificate is issued by **Let's Encrypt**, and it's free. However, certain characteristics or requirements of this certificate may make this product unsuitable for you. [Learn more](/articles/letsencrypt/#products)
 
-> [!INFO]
+> [!NOTE]
 > Let's Encrypt wildcard certificates are only available on certain plans. Please check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
 
 ### What's a "Standard" Certificate Authority? {#standard-certificate}

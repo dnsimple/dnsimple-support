@@ -64,7 +64,7 @@ You can check DNSSEC validation from your own command line using the `dig` utili
 
 Troubleshooting `dig` output: If the `AD` flag is missing, it confirms a problem.
 
-> [!INFO]
+> [!NOTE]
 > The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
 
 ## Common DNSSEC issues and their resolutions
@@ -84,7 +84,7 @@ This section details the most frequent problems identified by the tools and prov
 ### Expired RRSIG (Resource Record Signature) records
 **Symptoms**: DNSSEC Analyzer/DNSViz show "Signature Expired" or "RRSIG Validation Failure."
 
-**Why it happens**: A DNSSEC operation on your domain didn't successfully complete, and DNSSEC key sets were left in place, eventually getting expired.  
+**Why it happens**: A DNSSEC operation on your domain didn't successfully complete, and DNSSEC key sets were left in place, eventually getting expired.
 
 **Resolution steps**:
 1. **Check your email inbox**: Check your email for any automated DNSSEC notifications, and follow the included instructions. Our system will automatically notify you when a DNSSEC operation doesn't complete successfully.

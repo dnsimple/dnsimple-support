@@ -22,13 +22,13 @@ Dynamic DNS involves coordination between your network, a specialized client, an
 4. **DNS record update:** The DDNS service provider receives this notification and immediately updates the relevant DNS record (typically an A record for IPv4 or AAAA record for IPv6) for your domain or subdomain to reflect the new IP address.
 5. **Seamless resolution:** Within minutes, as DNS caches refresh across the internet, your domain name will resolve to the new, correct IP address, ensuring uninterrupted access to your services.
 
-### **DNSimple's approach to Dynamic DNS:** 
+### **DNSimple's approach to Dynamic DNS:**
 
 DNSimple facilitates Dynamic DNS primarily through its [comprehensive API](https://dnsimple.com/api). This means you can configure devices (like routers that support custom DDNS updates) or run simple scripts on a machine within your network that automatically communicate IP changes to DNSimple, triggering the necessary DNS record updates.
 
 For details on all the functionality of our API and different tools to set up basic Dynamic IP with our API check out [the tools page on our developer site](https://developer.dnsimple.com/tools/).
 
-> [!INFO]
+> [!NOTE]
 > We don't support the dyndns API. This is what most routers use when they talk about DDNS.
 
 ## Why use Dynamic DNS?

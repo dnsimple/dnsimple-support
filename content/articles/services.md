@@ -77,7 +77,7 @@ We currently support more than 30 services:
 * [Office365](/articles/office-365-service/)
 * [Tender support](/articles/tender-service/)
 
-> [!INFO]
+> [!NOTE]
 > The service directory is open-source. [Learn how to propose or contribute new services](/articles/services/#contributing-a-new-service).
 
 ## Adding a service
