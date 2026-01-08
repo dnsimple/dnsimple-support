@@ -12,9 +12,8 @@ An active DNSimple account is required to register or transfer domain names and 
 
 Activation is easy, and all new [Teams](/articles/dnsimple-plans/#teams) and [Solo](/articles/dnsimple-plans/#solo) subscriptions include a free 30-day trial. You can cancel at any time during your 30-day trial without being charged. During the course of your trial, you can [change plans](https://support.dnsimple.com/articles/changing-plans/) to try different features.
 
-<info> 
-The 30-day free trial does not apply to accounts that were previously subscribed to DNSimple. If you are resubscribing, your credit card will be billed immediately.
-</info>
+> [!INFO]
+> The 30-day free trial does not apply to accounts that were previously subscribed to DNSimple. If you are resubscribing, your credit card will be billed immediately.
 
 If you manage domains for a large organization or are a domain [reseller](https://dnsimple.com/resellers), contact our sales team to learn how our [Enterprise](https://dnsimple.com/enterprises) plan can be customized to fit your needs. 
 

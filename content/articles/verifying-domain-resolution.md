@@ -45,9 +45,8 @@ Your domain is currently resolving with DNSimple along with other DNS providers.
 
 If you've made any changes to your domain's delegation, you can click **Refresh** in the notification to rerun the verification. It may take a few minutes for the delegation changes to propagate and be recognized by our system.
 
-<info>
-This verification is ignored for domains with secondary DNS enabled with DNSimple as primary, as record changes at DNSimple are automatically synced to the other provider(s) for supported record types. Refer to our [guide](/articles/secondary-dns/) on secondary DNS for more information.
-</info>
+> [!INFO]
+> This verification is ignored for domains with secondary DNS enabled with DNSimple as primary, as record changes at DNSimple are automatically synced to the other provider(s) for supported record types. Refer to our [guide](/articles/secondary-dns/) on secondary DNS for more information.
 
 ## Domain is expired
 

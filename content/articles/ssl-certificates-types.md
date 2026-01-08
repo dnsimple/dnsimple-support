@@ -35,9 +35,8 @@ If the certificate is valid and signed by a trusted authority, the browsers indi
 
 ![screenshot: Showing an accepted SSL certificate in a browser URL bar](/files/dnsimple-ssltypes-https.png)
 
-<info>
-DNSimple provides both [single-name and wildcard](/articles/ssl-certificates/) domain-validated certificates.
-</info>
+> [!INFO]
+> DNSimple provides both [single-name and wildcard](/articles/ssl-certificates/) domain-validated certificates.
 
 ### Organization Validated SSL Certificates
 
@@ -51,9 +50,8 @@ The Organization Validated SSL Certificates display the company information in t
 
 ![screenshot: Viewing information of an SSL company certificate](/files/dnsimple-ssltypes-company.png)
 
-<info>
-DNSimple currently doesn't provide organization-validated certificates.
-</info>
+> [!INFO]
+> DNSimple currently doesn't provide organization-validated certificates.
 
 ### Extended Validation SSL Certificates
 
@@ -67,9 +65,8 @@ The Extended Validation SSL Certificates are generally identified with a green a
 
 ![screenshot: Showing green url bar when a SSL certificate is present on a site](/files/dnsimple-ssltypes-greenbar.png)
 
-<info>
-DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates/).
-</info>
+> [!INFO]
+> DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates/).
 
 
 ## SSL Certificates by Secured Domains
@@ -84,9 +81,8 @@ For example, if you purchase a certificate for `www.example.com` it will not sec
 
 On sole discretion of the certificate authority, if you purchase a single-name certificate for the www hostname (www.example.com) the certificate may also include the root domain.
 
-<info>
-DNSimple provides [single-name certificates](/articles/ssl-certificates/).
-</info>
+> [!INFO]
+> DNSimple provides [single-name certificates](/articles/ssl-certificates/).
 
 ### Wildcard SSL Certificates
 
@@ -94,9 +90,8 @@ Wildcard SSL certificates protect an unlimited number of subdomains for a single
 
 For example, if you purchase a certificate for `*.example.com` it will secure `foo.example.com`, `bar.example.com`, etc. However, it will not secure `foo.else.example.com`.
 
-<info>
-DNSimple provides [wildcard certificates](/articles/ssl-certificates/).
-</info>
+> [!INFO]
+> DNSimple provides [wildcard certificates](/articles/ssl-certificates/).
 
 ### Multi-Domain SSL Certificates
 
@@ -104,9 +99,8 @@ Multi-domain SSL certificates protect different domains with a single certificat
 
 You can generally secure a combination of different host names, from the same or different domains.
 
-<info>
-DNSimple provides [multi-domain SAN certificates](/articles/ssl-certificates/).
-</info>
+> [!INFO]
+> DNSimple provides [multi-domain SAN certificates](/articles/ssl-certificates/).
 
 
 ## Security

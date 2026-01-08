@@ -19,9 +19,8 @@ You can manage [CAA records](/articles/caa-record/) in DNSimple using the [DNS r
 
 The instructions in this article assume you're familiar with the [CAA record format](/articles/caa-record-format/) and usage.
 
-<note>
-CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
-</note>
+> [!NOTE]
+> CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
 
 ## Standard mode vs custom mode
 
@@ -69,10 +68,9 @@ We don't support the ability to specify via interface the destructured CAA recor
 
 </div>
 
-<note>
-Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-- In DNSimple, **Name** = what others might call _Host._
-</note>
+> [!NOTE]
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> - In DNSimple, **Name** = what others might call _Host._
 
 ## Updating a CAA record
 

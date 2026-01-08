@@ -41,11 +41,10 @@ The instructions in this article assume you're familiar with the [CNAME record f
   - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
   - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-<note>
-Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-- In DNSimple, **Name** = what others might call _Host._
-- In DNSimple, **Content** = what others might call _Value._
-</note>
+> [!NOTE]
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> - In DNSimple, **Name** = what others might call _Host._
+> - In DNSimple, **Content** = what others might call _Value._
 
 6. Click **Add Record** to confirm and create the record.
 

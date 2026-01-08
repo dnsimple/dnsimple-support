@@ -8,9 +8,8 @@ categories:
 
 # Change of Non-Compliant ENT Behavior
 
-<info>
-This article contains information that is only relevant to customers with specific zone records. If you are impacted, you will receive an email from us asking you to take action.
-</info>
+> [!INFO]
+> This article contains information that is only relevant to customers with specific zone records. If you are impacted, you will receive an email from us asking you to take action.
 
 ### Table of Contents {#toc}
 

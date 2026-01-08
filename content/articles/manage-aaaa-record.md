@@ -44,11 +44,10 @@ The record is created and will be visible in the record list.
   ![screenshot: AAA record created](/files/aaa-record-created.png)
 </div>
 
-<note>
-Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-- In DNSimple, **Name** = what others might call _Host._
-- In DNSimple, **Content** = what others might call _Value._
-</note>
+> [!NOTE]
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> - In DNSimple, **Name** = what others might call _Host._
+> - In DNSimple, **Content** = what others might call _Value._
 
 ## Updating an AAAA record
 

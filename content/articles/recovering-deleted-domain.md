@@ -8,9 +8,8 @@ categories:
 
 # Recovering a Deleted Domain
 
-<warning>
-When recovering a domain, we won't be able to recover your DNS records. We recommend making a [copy of your zone file](/articles/export-records-zone-file/) before deleting any domain from DNSimple.
-</warning>
+> [!WARNING]
+> When recovering a domain, we won't be able to recover your DNS records. We recommend making a [copy of your zone file](/articles/export-records-zone-file/) before deleting any domain from DNSimple.
 
 ## The domain was registered with DNSimple
 When you [delete a domain](/articles/deleting-domain/) that you registered through DNSimple from your account, the domain is still present in the registry (you can verify this by running [a WHOIS lookup](https://dnsimple.com/whois)). The domain will remain registered and belong to you until it expires and the registry deletes it.

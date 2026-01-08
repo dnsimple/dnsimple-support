@@ -34,12 +34,11 @@ You can use the same process in DNSimple to add several common DNS record types.
 1. Fill out the **Name** and **Content** fields (or **Destination**, depending on the record).
 1. Click **Add Record** to save it.
 
-<note>
-Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-- In DNSimple, **Name** = what others might call _Host._
-- In DNSimple, **Content** = what others might call _Value._
-- For **URL records**, the destination is entered in the **Content** field.
-</note>
+> [!NOTE]
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> - In DNSimple, **Name** = what others might call _Host._
+> - In DNSimple, **Content** = what others might call _Value._
+> - For **URL records**, the destination is entered in the **Content** field.
 
 | Record Type | Name (host) | Content (value)| Example|
 |:------------|:------------|:---------------|:-------|

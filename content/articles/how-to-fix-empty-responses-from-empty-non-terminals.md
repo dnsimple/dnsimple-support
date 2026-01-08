@@ -120,11 +120,8 @@ _tcp.example.com.   IN  A   192.168.0.11
 
 If the record creating the ENT is no longer needed (such as an old ACME challenge record), you can remove it instead of adding explicit records. This will eliminate the ENT and restore wildcard matching.
 
-<warning>
-
-Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
-
-</warning>
+> [!WARNING]
+> Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
 
 ## Related articles
 

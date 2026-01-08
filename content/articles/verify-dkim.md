@@ -23,9 +23,8 @@ This will return a result like this:
 ```
 If no result is returned, verify the TXT record was added with the correct subdomain. 
 
-<info>
-The **Name** field in DNSimple should not include your domain name, otherwise you will create a record at `subdomain.yourdomain.com.yourdomain.com`.
-</info>
+> [!INFO]
+> The **Name** field in DNSimple should not include your domain name, otherwise you will create a record at `subdomain.yourdomain.com.yourdomain.com`.
 
 ## Verifying your DKIM with an online tool
 Verify your DKIM with an online tool like [this one from Treehouse](https://www.mail-tester.com/spf-dkim-check). This tool verifies that you have [SPF](/articles/spf-record/) and DKIM records. In the DKIM selector field, add the first part of the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.example.com`, then the DKIM selector is `google`.

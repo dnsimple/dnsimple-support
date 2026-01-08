@@ -8,9 +8,8 @@ categories:
 
 # Discontinuation of Legacy NS2 and NS4 IP Addresses
 
-<info>
-This article contains information that is only relevant to customers with legacy configurations using outdated IP addresses. If you are impacted, you will receive an email from us asking you to take action.
-</info>
+> [!INFO]
+> This article contains information that is only relevant to customers with legacy configurations using outdated IP addresses. If you are impacted, you will receive an email from us asking you to take action.
 
 ### Table of Contents {#toc}
 

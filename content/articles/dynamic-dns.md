@@ -28,9 +28,8 @@ DNSimple facilitates Dynamic DNS primarily through its [comprehensive API](https
 
 For details on all the functionality of our API and different tools to set up basic Dynamic IP with our API check out [the tools page on our developer site](https://developer.dnsimple.com/tools/).
 
-<info> 
-We don't support the dyndns API. This is what most routers use when they talk about DDNS.
-</info>
+> [!INFO]
+> We don't support the dyndns API. This is what most routers use when they talk about DDNS.
 
 ## Why use Dynamic DNS?
 

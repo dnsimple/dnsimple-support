@@ -32,9 +32,8 @@ The first step, before starting the domain transfer, is to move the DNS manageme
 
 This gives you the chance to fully set up and test your DNS records *before* you move the domain.
 
-<note>
-When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
-</note>
+> [!NOTE]
+> When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
 
 
 ## Copying the DNS records into DNSimple
@@ -82,17 +81,15 @@ $ dig @ns1.dnsimple.com www.example.com CNAME
 
 After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted/) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
 
-<warning>
-This step is essential. It ensures your DNS will continue operating during the transfer process.
-</warning>
+> [!WARNING]
+> This step is essential. It ensures your DNS will continue operating during the transfer process.
 
 Once the name servers are changed to DNSimple, you will need to wait for the DNS information to propagate.
 
 Name servers that are currently caching your domain's DNS records need time for their caches to clear and to begin reporting the records from DNSimple's name servers.
 
-<info>
-It may take up to 24 hours for changes to propagate.
-</info>
+> [!INFO]
+> It may take up to 24 hours for changes to propagate.
 
 
 ## Transferring the domain to DNSimple

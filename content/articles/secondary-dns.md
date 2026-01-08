@@ -15,13 +15,11 @@ categories:
 
 ---
 
-<warning>
-  Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) article for more information.
-</warning>
+> [!WARNING]
+> Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) article for more information.
 
-<warning>
-When using Secondary DNS, ensure both providers handle [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) consistently. Different DNS providers may implement ENT behavior differently, especially with wildcard records. Inconsistent implementations can lead to different responses from your primary and secondary name servers. Learn more about [ENTs and Secondary DNS](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
-</warning>
+> [!WARNING]
+> When using Secondary DNS, ensure both providers handle [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) consistently. Different DNS providers may implement ENT behavior differently, especially with wildcard records. Inconsistent implementations can lead to different responses from your primary and secondary name servers. Learn more about [ENTs and Secondary DNS](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 ## Getting started
 
@@ -85,9 +83,8 @@ On the domain management page you may see a warning message to highlight potenti
 
 ![Secondary DNS warning](/files/secondary-dns-warning.png)
 
-<warning>
-If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. If you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
-</warning>
+> [!WARNING]
+> If your domain is registered with us, we will replace whatever delegation you have set for the domain with our name servers and the secondary name servers you've configured. If you are delegating to another provider for your DNS, the values at the registry will be updated to match the NS set on the apex zone of your domain as represented in our record editor.
 
 <div class="section-steps" markdown="1">
 ##### Adding a secondary DNS zone with DNSimple as leader from the dashboard

@@ -14,13 +14,11 @@ categories:
 {:toc}
 
 ---
-<info>
-Most auto-renewals will begin a few days before a domain's expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date, even if auto-renewal is turned on.
-</info>
+> [!INFO]
+> Most auto-renewals will begin a few days before a domain's expiration date. We deliver auto-renewal and expiration notices starting two months before a domain's expiration date, even if auto-renewal is turned on.
 
-<warning>
-Refunds are not possible once the auto-renewal process has started.
-</warning>
+> [!WARNING]
+> Refunds are not possible once the auto-renewal process has started.
 
 Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically days before expiration. When auto-renewal is turned on for a domain, we'll attempt to renew it automatically prior to expiration. We'll bill your credit card if the renewal is successful.
 
@@ -67,9 +65,8 @@ Auto-renewal is now enabled on your domain.
 
 ## Disabling auto-renewal
 
-<warning>
-Auto-renewal cannot be turned off if the auto-renewal is being processed.
-</warning>
+> [!WARNING]
+> Auto-renewal cannot be turned off if the auto-renewal is being processed.
 
 To turn off auto-renewal for a domain, follow these steps:
 

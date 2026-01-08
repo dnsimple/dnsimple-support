@@ -29,11 +29,8 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 1. Click **Apply NS records** to apply the changes.
 </div>
 
-<info>
-#### Hosted domain must be delegated to DNSimple
-
-The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/) at the domain's registrar and has [DNS hosting](/articles/dns-hosting/) active.
-</info>
+> [!INFO] Hosted domain must be delegated to DNSimple
+> The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/) at the domain's registrar and has [DNS hosting](/articles/dns-hosting/) active.
 
 ## Have more questions?
 

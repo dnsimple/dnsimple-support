@@ -16,9 +16,8 @@ All DNSimple plans include WHOIS privacy service for TLDs that allow it. If you 
 
 This service will replace the public information that you provide with an anonymous proxy identity in the public WHOIS database. This includes replacing your email address with a proxy email address and replacing your address and contact information with the information from an entity called "Whois Privacy Protection Service, Inc.".
 
-<info>
-The WHOIS privacy protection service is not provided directly by DNSimple, nor we are associated with the company Whois Privacy Protection Service, Inc.
-</info>
+> [!INFO]
+> The WHOIS privacy protection service is not provided directly by DNSimple, nor we are associated with the company Whois Privacy Protection Service, Inc.
 
 Here is an example of the WHOIS data for a domain that has WHOIS Privacy Protection enabled:
 

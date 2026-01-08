@@ -19,9 +19,8 @@ Transferring a domain name to DNSimple is the process of moving your [domain reg
 
 ## Before starting
 
-<warning>
-To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain if you are changing DNS providers.
-</warning>
+> [!WARNING]
+> To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain if you are changing DNS providers.
 
 ## Caveats
 
@@ -46,11 +45,10 @@ Follow the instructions in the email. We cannot issue the transfer request to th
 
 Once you've authorized the transfer, you may have to **wait up to seven days for your domain transfer to complete.**
 
-<info>
-The total transfer price will be held on your card immediately.
-Your card will be charged once the transfer completes.
-If the transfer fails, funds will be released.
-</info>
+> [!INFO]
+> The total transfer price will be held on your card immediately.
+> Your card will be charged once the transfer completes.
+> If the transfer fails, funds will be released.
 
 ## Transfer status
 
@@ -76,9 +74,8 @@ To avoid unexpected downtime and confusion, we don't change the domain name serv
 
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [manually configure the name servers](/articles/setting-name-servers/).
 
-<warning>
-We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
-</warning>
+> [!WARNING]
+> We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.
 
 ### Expiration extension
 
