@@ -2,6 +2,35 @@
 
 This guide covers best practices and guidelines for contributing to the DNSimple Support site.
 
+## Creating and Reviewing Articles
+
+### Editing Process
+
+When creating new or updating existing support documentation:
+
+1. **Create a branch** and draft the article directly in the repository
+2. **Follow the writing guidelines** - keep content clear and concise
+3. **Include relevant links** - customer-facing information, dev docs, other support pages, and video walkthroughs
+4. **Test locally** with `rake run` to verify formatting and layout
+5. **Create a pull request** following the PR process below
+
+### Pull Request Process
+
+When submitting a pull request:
+
+1. Apply the label `articles`
+2. Set yourself as assignee
+3. **Request reviews:**
+   - Tag a second expert with knowledge of the feature/product
+   - Tag Alyse for proofreading, clarity, and voice/tone
+   - Tag Customer Success for review (required for substantial updates, optional for minor updates)
+   - To ensure consistent tone, wait until after initial proofreading and edits before adding Customer Success for review
+4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
+5. Ensure all approvals are received
+6. Verify the pipeline is green
+7. Merge the PR yourself
+8. Delete the source branch
+
 ## Getting Started
 
 ### Setup
@@ -148,35 +177,6 @@ After making changes:
 ```bash
 rake run
 ```
-
-## Creating and Reviewing Articles
-
-### Editing Process
-
-When creating new or updating existing support documentation:
-
-1. **Create a branch** and draft the article directly in the repository
-2. **Follow the writing guidelines** - keep content clear and concise
-3. **Include relevant links** - customer-facing information, dev docs, other support pages, and video walkthroughs
-4. **Test locally** with `rake run` to verify formatting and layout
-5. **Create a pull request** following the PR process below
-
-### Pull Request Process
-
-When submitting a pull request:
-
-1. Apply the label `articles`
-2. Set yourself as assignee
-3. **Request reviews:**
-   - Tag a second expert with knowledge of the feature/product
-   - Tag Alyse for proofreading, clarity, and voice/tone
-   - Tag Customer Success for review (required for substantial updates, optional for minor updates)
-   - To ensure consistent tone, wait until after initial proofreading and edits before adding Customer Success for review
-4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
-5. Ensure all approvals are received
-6. Verify the pipeline is green
-7. Merge the PR yourself
-8. Delete the source branch
 
 ## Git Commit Guidelines
 
