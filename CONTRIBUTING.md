@@ -21,8 +21,6 @@ The site runs at http://localhost:3000
 
 ### Writing Guidelines
 
-Reference our [support writing guidelines](https://support.dnsimple.com/articles/writing-guide/) for style, tone, and formatting standards.
-
 Support docs should be as clear and concise as possible. Each step of the process should be clearly communicated or linked to a relevant section. Never make the customer scroll more than they have to for info.
 
 > [!NOTE] Internal

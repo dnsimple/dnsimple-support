@@ -46,7 +46,3 @@ Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassi
 When submitting a pull request, apply the label `articles` and set yourself as assignee.
 
 Once all approvals are given and the pipeline is green, merge the PR yourself and delete the source branch.
-
-### Support writing guidelines
-
-Reference our support writing guidelines, [here](https://support.dnsimple.com/articles/writing-guide/).
