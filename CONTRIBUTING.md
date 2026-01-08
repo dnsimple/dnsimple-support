@@ -33,6 +33,8 @@ When submitting a pull request:
 
 ## Getting Started
 
+For a quick overview and setup instructions, see [README.md](README.md).
+
 ### Setup
 
 ```bash
@@ -47,6 +49,19 @@ rake run
 The site runs at http://localhost:3000
 
 ## Content Writing Guidelines
+
+### APA Style Guidelines
+
+All content in the `content/articles/` directory must follow the **APA Style guidelines** as defined by the American Psychological Association.
+
+**Reference:** [APA Style Guidelines](https://apastyle.apa.org/style-grammar-guidelines/)
+
+When creating, editing, or reviewing articles in `content/articles/`, ensure that:
+
+- Writing style, grammar, and formatting conform to APA Style standards
+- Citations (if any) follow APA citation format
+- Language and terminology are consistent with APA Style conventions
+- Headings, lists, and other structural elements follow APA formatting guidelines
 
 ### Writing Guidelines
 
