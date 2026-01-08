@@ -15,15 +15,17 @@ categories:
 
 ---
 
-> [!INFO]
-> In this article we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
+<info>
+In this article, we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
+</info>
 
 ## Comparison Let's Encrypt vs Standard SSL certificates
 
 The table below summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates. These differences may help you to decide which certificate you need.
 
-> [!INFO]
-> The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but currently not supported by DNSimple.
+<info>
+The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but are currently not supported by DNSimple.
+</info>
 
 |               | Let's Encrypt | Standard      |
 |---------------+---------------+---------------|
@@ -39,7 +41,7 @@ Custom CSR | Not Supported | Supported
 
 ## What is the right certificate for me? {#whichone}
 
-The following list of questions may help you to determine what is the best certificate for you. The answer is based on possible limitations of a specific certificate to fulfill the requirement. This also means that if you combine two or more questions (requirement), the results may conflict each other.
+The following list of questions may help you to determine what is the best certificate for you. The answer is based on the possible limitations of a specific certificate to fulfill the requirement. This also means that if you combine two or more questions (requirements), the results may conflict with each other.
 
 | Requirement | Answer |
 |-------------+--------|
@@ -52,5 +54,6 @@ You want to fully automate SSL certificate orders without manual intervention. |
 Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Standard**
 Your domain is resolving with both DNSimple and Secondary DNS. | **Standard**
 Your domain is NOT resolving with DNSimple. | **Standard**
-Your domain is NOT registered but resolving with DNSimple. | **Let's Encrypt** or **Standard**
-Your domain is NOT registered ant NOT resolving with DNSimple. | **Standard**
+Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Standard**
+Your domain is NOT registered and NOT resolving with DNSimple. | **Standard**
+You want to purchase a certificate with no subscription. | **Standard**
