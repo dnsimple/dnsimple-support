@@ -17,7 +17,7 @@ rake run
 
 The site runs at http://localhost:3000
 
-## Content Guidelines
+## Content Writing Guidelines
 
 ### Before You Start
 
@@ -37,6 +37,55 @@ Reference our [support writing guidelines](https://support.dnsimple.com/articles
 - Use GitHub-Flavored Markdown (GFM)
 - Follow DNSimple style guide for technical writing
 - Keep content clear, concise, and user-focused
+
+### Callouts
+
+Callouts provide a consistent, structured way to highlight important information in blog posts. Use GitHub Flavored Markdown callout syntax:
+
+**Available callout types:**
+
+- `[!NOTE]` - General informational notes (blue)
+- `[!TIP]` - Helpful tips or suggestions (green)
+- `[!WARNING]` - Important warnings or cautions (orange/yellow)
+- `[!DANGER]` - Critical warnings about dangerous operations (red)
+
+**Syntax:**
+
+```markdown
+> [!NOTE]
+> Your callout content here. Can span multiple lines.
+> Each line should start with `>`.
+```
+
+**Examples:**
+
+Display a note to readers:
+
+```markdown
+> [!NOTE]
+> As you work through this tutorial, make sure to check the official documentation for the latest API changes.
+```
+
+Show a warning about potential issues:
+
+```markdown
+> [!WARNING]
+> Please consider carefully whether you are able and willing to rotate DS records at your registrar.
+```
+
+**Best practices:**
+
+- Use callouts sparingly to maintain impact
+- Choose the appropriate callout type for your message:
+
+  - Use `[!UPDATE]` for chronological updates to older posts (format: `[!UPDATE] Update: Month YYYY`)
+  - Use `[!NOTE]` for general supplementary information
+  - Use `[!WARNING]` for important caveats or risks
+  - Use `[!TIP]` for helpful suggestions
+
+- Keep callout content concise and focused
+- Place callouts near relevant content, not at the end of posts
+- For UPDATE callouts, always include the date in the format "Update: Month YYYY" on the same line as `[!UPDATE]`
 
 ### List Formatting
 
