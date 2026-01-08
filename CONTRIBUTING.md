@@ -151,26 +151,15 @@ rake run
 
 ## Creating and Reviewing Articles
 
-### New Support Documentation
+### Editing Process
 
-When creating new support documentation:
+When creating new or updating existing support documentation:
 
 1. **Create a branch** and draft the article directly in the repository
 2. **Follow the writing guidelines** - keep content clear and concise
 3. **Include relevant links** - customer-facing information, dev docs, other support pages, and video walkthroughs
 4. **Test locally** with `rake run` to verify formatting and layout
 5. **Create a pull request** following the PR process below
-
-### Updating Support Articles
-
-**Minor updates** (adding a sentence, updating links, adding a note, product name changes):
-
-- Edit directly in a branch and create a PR
-
-**Substantial updates** (major rewrites, significant content changes):
-
-- Follow the same process as creating new documentation
-- If unsure whether an update is minor or substantial, ask in #customer-success
 
 ### Pull Request Process
 
