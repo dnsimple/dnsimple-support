@@ -2,15 +2,15 @@
 // Style manifest
 // --------------------------------------------------
 
+@use "colorscheme";
+@use "variables";
+@use "mixins";
+@use "typography";
+@use "syntax";
+@use "template";
+@use "application";
+@use "resolving";
+@use "tables";
+@use "dual_cta";
 @import "../../dist/tachyons/css/tachyons.min.css";
 @import "../../dist/fontawesome/css/all.min.css";
-@import "colorscheme";
-@import "mixins";
-@import "typography";
-@import "syntax";
-@import "template";
-@import "application";
-@import "resolving";
-@import "tables";
-@import "dual_cta";
-@import "callouts";

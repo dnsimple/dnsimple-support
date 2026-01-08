@@ -2,6 +2,9 @@
 // Application Template
 // --------------------------------------------------
 
+@use "mixins" as *;
+@use "variables" as *;
+
 // Reset Bootstrap style on <code> inside table.
 .table td code {
   padding: 0;
