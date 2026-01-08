@@ -62,10 +62,20 @@ The order is the first step in getting an SSL certificate. It will create an SSL
    
    ![Purchase a Certificate](/files/dnsimple-certificate-purchase.png)
 
+   If  you do not have a subscription, click **Continue payment**.
+
+   ![Purchase a Certificate no subscription](/files/purchase-ssl-certificate-continue-payment.png)
+
+   6. Once the certificate is paid for, select the validation email from the list and click **Send validation email**.
+
+   ![Select validation email](/files/select-validation-email.png)
+
    > [!INFO]
 > The certificate price will be held on your card immediately.
 >    Your card will be charged once the certificate is issued.
 >    If the issuance fails, funds will be released.
+
+    7. Follow the steps in the validation email. 
 
 ## Next steps
 
