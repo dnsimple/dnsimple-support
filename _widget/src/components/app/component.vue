@@ -49,7 +49,7 @@ export default {
     },
     gettingStartedUrl: {
       type: String,
-      default: '/articles/getting-started/'
+      default: 'https://support.dnsimple.com/articles/getting-started/'
     },
     fetch: {
       type: Function,
@@ -69,7 +69,7 @@ export default {
       type: Array,
       default() {
         return [
-          { name: 'DNSimple Support', url: '/' },
+          { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
           { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
         ];
       }
