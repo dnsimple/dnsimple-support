@@ -19,18 +19,13 @@ The site runs at http://localhost:3000
 
 ## Content Writing Guidelines
 
-### Before You Start
-
-Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassian.net/wiki/spaces/BIZOPS/pages/2615115803/Support+Article+Creation+and+Update+Procedure).
-
-**Important:**
-
-- Draft all new articles in Google Docs prior to creating a PR
-- Draft any substantial updates in Google Docs prior to creating a PR
-
 ### Writing Guidelines
 
 Reference our [support writing guidelines](https://support.dnsimple.com/articles/writing-guide/) for style, tone, and formatting standards.
+
+Support docs should be as clear and concise as possible. Each step of the process should be clearly communicated or linked to a relevant section. Never make the customer scroll more than they have to for info.
+
+**If you have any questions, ask in the #customer-success thread in Slack.**
 
 ### Markdown Style
 
@@ -40,14 +35,13 @@ Reference our [support writing guidelines](https://support.dnsimple.com/articles
 
 ### Callouts
 
-Callouts provide a consistent, structured way to highlight important information in blog posts. Use GitHub Flavored Markdown callout syntax:
+Callouts provide a consistent, structured way to highlight important information in support articles. Use GitHub Flavored Markdown callout syntax:
 
 **Available callout types:**
 
-- `[!NOTE]` - General informational notes (blue)
-- `[!TIP]` - Helpful tips or suggestions (green)
-- `[!WARNING]` - Important warnings or cautions (orange/yellow)
-- `[!DANGER]` - Critical warnings about dangerous operations (red)
+- `[!NOTE]` - Things the user must be aware of, actionable or not, but that won't damage, delete, or otherwise compromise their account
+- `[!TIP]` - Recommendations to make users' work easier. Useful but non-critical
+- `[!WARNING]` - Reserved for the most critical information. Use when a user could do something damaging or permanent to their account
 
 **Syntax:**
 
@@ -63,14 +57,21 @@ Display a note to readers:
 
 ```markdown
 > [!NOTE]
-> As you work through this tutorial, make sure to check the official documentation for the latest API changes.
+> Make sure to update your name servers at your registrar to complete the delegation process.
+```
+
+Show a tip:
+
+```markdown
+> [!TIP]
+> You can use our one-click services to automatically configure DNS for popular services.
 ```
 
 Show a warning about potential issues:
 
 ```markdown
 > [!WARNING]
-> Please consider carefully whether you are able and willing to rotate DS records at your registrar.
+> Transferring your domain away from DNSimple will cancel all active subscriptions associated with it.
 ```
 
 **Best practices:**
@@ -78,14 +79,12 @@ Show a warning about potential issues:
 - Use callouts sparingly to maintain impact
 - Choose the appropriate callout type for your message:
 
-  - Use `[!UPDATE]` for chronological updates to older posts (format: `[!UPDATE] Update: Month YYYY`)
-  - Use `[!NOTE]` for general supplementary information
-  - Use `[!WARNING]` for important caveats or risks
-  - Use `[!TIP]` for helpful suggestions
+  - Use `[!NOTE]` for things users must be aware of
+  - Use `[!TIP]` for helpful recommendations
+  - Use `[!WARNING]` for critical information about damaging or permanent actions
 
 - Keep callout content concise and focused
-- Place callouts near relevant content, not at the end of posts
-- For UPDATE callouts, always include the date in the format "Update: Month YYYY" on the same line as `[!UPDATE]`
+- Place callouts near relevant content, not at the end of articles
 
 ### List Formatting
 
@@ -115,9 +114,17 @@ This applies to:
 
 ### Links and References
 
+Include in articles:
+
+- Relevant links to customer-facing information: dev docs, other support pages, and video walkthroughs
+- The information you want to communicate to the customer. Make sure it's clear
+
+When adding links:
+
 - Use support.dnsimple.com for internal article links
 - Use dnsimple.com for product/marketing pages
 - Ensure all links are current and functional
+- Include external explanation links where helpful (e.g., Wikipedia, ICANN, Cloudflare, etc.)
 
 ## Managing Content
 
@@ -143,16 +150,45 @@ After making changes:
 rake run
 ```
 
-## Pull Request Process
+## Creating and Reviewing Articles
+
+### New Support Documentation
+
+When creating new support documentation:
+
+1. **Create a branch** and draft the article directly in the repository
+2. **Follow the writing guidelines** - keep content clear and concise
+3. **Include relevant links** - customer-facing information, dev docs, other support pages, and video walkthroughs
+4. **Test locally** with `rake run` to verify formatting and layout
+5. **Create a pull request** following the PR process below
+
+### Updating Support Articles
+
+**Minor updates** (adding a sentence, updating links, adding a note, product name changes):
+
+- Edit directly in a branch and create a PR
+
+**Substantial updates** (major rewrites, significant content changes):
+
+- Follow the same process as creating new documentation
+- If unsure whether an update is minor or substantial, ask in #customer-success
+
+### Pull Request Process
 
 When submitting a pull request:
 
 1. Apply the label `articles`
 2. Set yourself as assignee
-3. Ensure all approvals are received
-4. Verify the pipeline is green
-5. Merge the PR yourself
-6. Delete the source branch
+3. **Request reviews:**
+   - Tag a second expert with knowledge of the feature/product
+   - Tag Alyse for proofreading, clarity, and voice/tone
+   - Tag Customer Success for review (required for substantial updates, optional for minor updates)
+   - To ensure consistent tone, wait until after initial proofreading and edits before adding Customer Success for review
+4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
+5. Ensure all approvals are received
+6. Verify the pipeline is green
+7. Merge the PR yourself
+8. Delete the source branch
 
 ## Git Commit Guidelines
 
@@ -176,29 +212,3 @@ Verify:
 - Links work as expected
 - No build errors or warnings
 - Content displays properly at localhost:3000
-
-## Deployment
-
-Each commit to main is deployed automatically via Netlify.
-
-## Best Practices
-
-### When Creating a New Article
-
-1. Draft in Google Docs (per SOP)
-2. Get necessary approvals
-3. Create the article file in the appropriate location
-4. Follow the support writing guidelines
-5. Test locally with `rake run`
-6. Create PR with `articles` label
-7. Set yourself as assignee
-8. After approval and green pipeline, merge and delete branch
-
-### When Updating an Existing Article
-
-1. For substantial changes, draft in Google Docs (per SOP)
-2. For minor fixes, you can edit directly
-3. Follow the support writing guidelines
-4. Test locally with `rake run`
-5. Create PR with `articles` label
-6. Follow standard PR process
