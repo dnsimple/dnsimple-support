@@ -154,6 +154,26 @@ When adding links:
 - Ensure all links are current and functional
 - Include external explanation links where helpful (e.g., Wikipedia, ICANN, Cloudflare, etc.)
 
+### SEO and Marketing
+
+When creating or updating articles, consider these SEO best practices:
+
+**Keywords:**
+
+- Identify the most relevant keywords for the page/product/feature
+- Place the strongest keywords in H1 or H2 headings
+- Avoid keyword stuffing - maintain readability and relatability for customers
+- Balance SEO optimization with natural, helpful content
+
+**Frontmatter Metadata:**
+
+- Use the `meta` frontmatter key if you want different page metadata than the `excerpt`
+  - If omitted, it will default to the excerpt value
+- Use the `social` frontmatter key to add an image for the `og:image` meta tag
+  - This image will be displayed on social media when the URL is shared
+  - Place social images in the `images/social` folder
+  - If no social key is present, it will default to the `illustration` image if one exists
+
 ## Managing Content
 
 ### Categories
