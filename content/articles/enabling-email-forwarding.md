@@ -14,7 +14,7 @@ You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email
 
 The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
 The domain must be delegated to DNSimple's name servers, and DNS hosting must be active for email forwarding to work. 
-[!WARNING]
+> [!WARNING]
 > **Secondary zones:** Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
 
 
@@ -30,11 +30,11 @@ The domain must be delegated to DNSimple's name servers, and DNS hosting must be
 
 When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
 
-[!WARNING]
+> [!WARNING]
 > **Existing MX records:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider (such as Google Workspace or Microsoft 365), that service will stop working.  Make sure you're ready to switch to email forwarding before enabling it.
 
 
-[!NOTE]
+> [!NOTE]
 > To see how to enable email forwarding with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/#createEmailForward). 
 
 ## What happens next?
