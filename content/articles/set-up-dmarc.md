@@ -25,9 +25,8 @@ categories:
 - **Name field:** Your provider will also give you a specific hostname to use, like: `_dmarc.hostname.com`
 Enter the subdomain part of the hostname in the **Name** field. The subdomain is everything to the left of your domain name.
 
-<tip>
-Your subdomain should be `_dmarc`. The leading underscore character is required
-</tip>
+> [!TIP]
+> Your subdomain should be `_dmarc`. The leading underscore character is required
 
 ## Quotes and slashes
 If your provider gave you the DMARC record, and it included double quotes around the record, or backslashes before semi-colons in the record, you can safely remove them. The quotes are handled automatically by our name servers, and the semicolons will automatically be escaped if necessary.

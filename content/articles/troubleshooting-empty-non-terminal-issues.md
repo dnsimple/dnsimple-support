@@ -145,11 +145,8 @@ If the record creating the ENT is no longer needed (such as an old ACME challeng
 
 This eliminates the ENT and restores wildcard matching.
 
-<warning>
-
-Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
-
-</warning>
+> [!WARNING]
+> Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
 
 ### Option C: Restructure your zone
 

@@ -16,11 +16,15 @@ categories:
 
 Transferring domain names from one registrar to another often causes concerns of downtime. The following steps will hopefully help you avoid any downtime while transferring, so the process is as smooth and easy as possible.
 
-## Ensure DNSSEC is disabled
+## DNSSEC considerations
 
-If you are currently using DNSSEC, make sure to disable it at your registrar before changing the name servers.
+Our system will perform a series of automated maintenance tasks after your domain gets transferred to DNSimple:
+- We will automatically provision any missing DS records to ensure DNSSEC works correctly if it's enabled.
+- We will pull any missing custom DS records from the parent zone so that they show up when in the [DS record management page](/articles/ds-records-changing-dns/)
 
-Then you must [remove the current DS record](/articles/ds-records-changing-dns/) before transferring your domain away from your current provider.
+Please remember that an incorrect DNSSEC set up may cause your domain to be inaccessible:
+- If you haven't enabled DNSSEC with us, and it is enabled in your current provider, please either enable it with us or disable it with your current provider before transferring.
+- If you have enabled DNSSEC with us, and you're delegating your domain through multiple providers, please make sure that all of them are configured correctly before transferring. You can contact us for guidance at [support@dnsimple.com](mailto:support@dnsimple.com).
 
 ## Adding the domain to DNSimple
 
@@ -28,9 +32,8 @@ The first step, before starting the domain transfer, is to move the DNS manageme
 
 This gives you the chance to fully set up and test your DNS records *before* you move the domain.
 
-<note>
-When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
-</note>
+> [!NOTE]
+> When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
 
 
 ## Copying the DNS records into DNSimple
@@ -78,17 +81,15 @@ $ dig @ns1.dnsimple.com www.example.com CNAME
 
 After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted/) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
 
-<warning>
-This step is essential. It ensures your DNS will continue operating during the transfer process.
-</warning>
+> [!WARNING]
+> This step is essential. It ensures your DNS will continue operating during the transfer process.
 
 Once the name servers are changed to DNSimple, you will need to wait for the DNS information to propagate.
 
 Name servers that are currently caching your domain's DNS records need time for their caches to clear and to begin reporting the records from DNSimple's name servers.
 
-<info>
-It may take up to 24 hours for changes to propagate.
-</info>
+> [!NOTE]
+> It may take up to 24 hours for changes to propagate.
 
 
 ## Transferring the domain to DNSimple

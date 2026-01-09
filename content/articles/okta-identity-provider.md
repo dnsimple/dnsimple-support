@@ -43,9 +43,8 @@ You can also follow the instructions in [Okta's documentation ](https://help.okt
 
 ### Adding the DNSimple app to Okta {#adding-the-dnsimple-app-to-okta}
 
-<info>
-These steps are performed in your Okta account.
-</info>
+> [!NOTE]
+> These steps are performed in your Okta account.
 
 1. Log in to your organization's Okta dashboard as an administrator.
 1. Go to the **Applications**page, then click **Browse App Catalog**.
@@ -60,9 +59,8 @@ These steps are performed in your Okta account.
 
 ### Configuring DNSimple for Okta SSO {#configuring-dnsimple-for-okta-sso}
 
-<info>
-These steps are performed in your DNSimple account.
-</info>
+> [!NOTE]
+> These steps are performed in your DNSimple account.
 
 1. At DNSimple, go to the **Account** page, and click the **Single Sign-On** tab.
 1. Click **Authorize with Okta** to authorize the Workspace.

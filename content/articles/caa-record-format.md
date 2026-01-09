@@ -55,9 +55,8 @@ The `iodef` tag (Incident Object Description Exchange Format) allows domain owne
 ## CAA record examples
 Common CAA record configurations
 
-<note>
-A domain can have multiple CAA records to describe the desired set of restrictions.
-</note>
+> [!NOTE]
+> A domain can have multiple CAA records to describe the desired set of restrictions.
 
 | Scenario | Example DNSimple configuration (name / flags / tag / content) | Canonical form (for reference) | Description |
 |:--------|:-----|:----|:----|

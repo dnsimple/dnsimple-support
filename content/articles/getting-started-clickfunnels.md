@@ -26,9 +26,8 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Choose the plan that fits your needs.
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
-    <info>
-    You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
-    </info>
+    > [!NOTE]
+> You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
 </div>
 
 
@@ -51,7 +50,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
     > - `Your DNSimple account identifier`
 
     You can find your account identifier in your DNSimple account by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card. Copy that value and paste it here.
-    
+
 
     > iii. Name of domain(s) you want to transfer.
 
@@ -77,17 +76,13 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
-    <note>
-    After the domain is pushed into your DNSimple account, you must also change ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
-    </note>
+    > [!NOTE]
+> After the domain is pushed into your DNSimple account, you must also change ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
 
-    <warning>
-    You'll receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you're moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. If you don't see an email, make sure to check your spam folder.
-
-    Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
-
-    After you verify, you'll receive a confirmation email that the verification was successful. You don't need to respond to this email.
-    </warning>
+    > [!WARNING]
+> You'll receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you're moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. If you don't see an email, make sure to check your spam folder.
+>     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
+>     After you verify, you'll receive a confirmation email that the verification was successful. You don't need to respond to this email.
 
 1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account. Read more about [accepting a push](/articles/transferring-domain-between-accounts/#accepting-a-transfer) to your account.
 </div>
@@ -140,13 +135,11 @@ You don't need to change the name servers when you move your domain from ClickFu
 
 The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or Cloudflare, and keep your registration with us.
 
-<info>
-Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to Cloudflare, those changes won't be reflected on your site.
-</info>
+> [!NOTE]
+> Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to Cloudflare, those changes won't be reflected on your site.
 
-<warning>
-You must have an active subscription with the provider you're pointing the name servers to for your DNS to resolve. Read [what happens if you stop paying for your DNSimple subscription](/articles/what-happens-if-i-stop-paying/).
-</warning>
+> [!WARNING]
+> You must have an active subscription with the provider you're pointing the name servers to for your DNS to resolve. Read [what happens if you stop paying for your DNSimple subscription](/articles/what-happens-if-i-stop-paying/).
 
 ### Registered
 
@@ -164,9 +157,8 @@ Below the renew by date, you'll see the option to turn on auto-renew with the st
 
 If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
 
-<note>
-You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it.
-</note>
+> [!NOTE]
+> You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it.
 
 ### Contact
 
@@ -210,9 +202,8 @@ When you open the DNS Record Management page, you'll probably see the following 
 - [`TXT`](/articles/txt-record/) - Your domain name and `ALIAS` for `target.clickfunnels.com`.
 - [`URL`](/articles/url-record/) - Your domain name with `www` and `https://`.
 
-<warning>
-If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record, your site will still work, but there's no reason to remove it.
-</warning>
+> [!WARNING]
+> If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record, your site will still work, but there's no reason to remove it.
 
 If you go to your website, and you only see the ClickFunnels home page and not your site, reach out to ClickFunnels. It's likely you didn't change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to point it to the right place.
 

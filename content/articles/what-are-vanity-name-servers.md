@@ -36,18 +36,17 @@ The concept of vanity name servers relies critically on glue records, which solv
 
 ## DNSimple's approach to vanity name servers: configure and delegate
 
-DNSimple provides robust functionality to configure and manage vanity name servers for your domains. 
+DNSimple provides robust functionality to configure and manage vanity name servers for your domains.
 
-<info>
-This feature is only available on the [Enterprise Plan](https://dnsimple.com/enterprises).
-</info>
+> [!NOTE]
+> This feature is only available on the [Enterprise Plan](https://dnsimple.com/enterprises).
 
 Using vanity name servers with DNSimple typically involves two distinct, but often sequential, actions:
 
 1. **Configure (define your vanity name servers)**: The initial step where you define the specific vanity name server hostnames (e.g., `ns1.yourbrand.com`, `ns2.yourbrand.com`) and associate them with DNSimple's underlying IP addresses. This involves:
     - Creating A and AAAA records within the DNS zone of the domain that will host the vanity name server names (e.g., `yourbrand.com`). These records point your branded name   server hostnames to DNSimple's name server IPs.
     - If the domain hosting the vanity name servers (e.g., `yourbrand.com`) is registered with DNSimple, we will automatically handle the registration of the necessary glue records at the registry level. If that domain is registered elsewhere, you will need to manually provide these glue records to your external registrar. This "Configure"        action makes your branded name servers exist and be resolvable.
-      
+
 1. **Delegate (point your domains to vanity name servers)**: Once your vanity name servers are configured, and their glue records are set up, you can delegate any of your domains to use them. This tells the Internet your branded name servers are authoritative for a particular domain.
     - This delegation is done at the domain registrar level for each domain for which you want to use vanity name servers. You update the NS records for that domain to point to your newly configured vanity name server hostnames (e.g., `ns1.yourbrand.com`, `ns2.yourbrand.com`).
     - This applies whether you are pointing the same domain (e.g., `yourbrand.com`) to its newly configured vanity name servers or pointing other domains (e.g., `yourclientdomain.com`) to them.

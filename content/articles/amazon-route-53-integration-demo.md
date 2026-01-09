@@ -20,9 +20,8 @@ DNSimple can act as the central [control plane](https://blog.dnsimple.com/2023/1
 
 Many customers and organizations use multiple DNS vendors and on-premise DNS solutions for security, availability, and redundancy. Our integrations feature makes this simple, allowing you to leverage DNSimple's user friendly and powerful interface in conjunction with your existing DNS infrastructure and setup, wherever it may be. Learn more in our [blog post](https://blog.dnsimple.com/2023/06/manage-aws-routes-in-dnsimple/).
 
-<note>
-You need an AWS account with permissions to create new IAM users and policies, as well as Route 53 zones. Step-by-step instructions are provided in detail, and everything is done through UIs in the browser, so no APIs or CLIs are needed.
-</note>
+> [!NOTE]
+> You need an AWS account with permissions to create new IAM users and policies, as well as Route 53 zones. Step-by-step instructions are provided in detail, and everything is done through UIs in the browser, so no APIs or CLIs are needed.
 
 ## Setting up AWS
 

@@ -47,11 +47,15 @@ For more advanced email forwarding scenarios:
 - [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/): Learn how email bounces work with email forwarding and how to handle them effectively.
 
 ## Using the API
+> [!NOTE]
+> When adding an email forward from the dashboard, select the zone to apply it to in the **From** field. Note that only zones resolving through DNSimple will be included in the list.
 
 Manage email forwards programmatically with the DNSimple API:
 
 - [Email Forwarding API Reference](/articles/email-forwarding-api-reference/): Complete API reference for managing email forwards programmatically.
 - [Managing Email Forwards with the API](/articles/managing-email-forwards-with-the-api/): Step-by-step guide to managing email forwards using the DNSimple API.
+> [!NOTE]
+> When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
 
 ## Troubleshooting
 
@@ -62,6 +66,8 @@ Encountering issues with email forwarding? Find solutions here:
 - [Troubleshooting Email Forwarding with Other Providers](/articles/troubleshooting-email-forwarding-with-other-providers/): Guide to troubleshooting email forwarding issues with email providers other than Gmail.
 
 ## Quick overview
+> [!NOTE]
+> When you use email forwarding on a domain, you cannot use any other email service providers (e.g. Google Apps).
 
 Email forwarding is enabled and billed monthly on a per-domain basis. The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
 

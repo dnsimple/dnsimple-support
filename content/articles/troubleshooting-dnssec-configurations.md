@@ -1,12 +1,14 @@
 ---
-title: Troubleshooting DNSSEC Configurations
+title: Troubleshooting DNSSEC
 excerpt: A comprehensive guide to diagnosing and resolving common DNSSEC issues for your domain, including checks for DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 records. Learn how to use essential tools like DNSSEC Analyzer, DNSViz, and dig.
-meta: Troubleshoot DNSSEC configurations with our detailed guide, covering DS records, DNSKEYs, RRSIGs, and NSEC/NSE to ensure your domain's security.
+meta: Troubleshoot DNSSEC with our detailed guide, covering DS records, DNSKEYs, RRSIGs, and NSEC/NSE to ensure your domain's security.
 categories:
   - DNSSEC
 ---
 
-# Troubleshooting DNSSEC Configurations
+# Troubleshooting DNSSEC
+
+If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ### Table of Contents {#toc}
 
@@ -16,40 +18,14 @@ categories:
 
 ## Is DNSSEC active for your DNSimple domain?
 
-To check DNSimple's DNSSEC status:
-
-Select the correct account from the account switcher menu.
-
-There are two ways to check:
+There are two ways to check this:
 
 1. **Domain Names List**: In your list of domains, look for a `DNSSEC` label on the domain. If present, it indicates DNSSEC is enabled.
-    ![dnssec enabled screenshot](/files/dnssec-renew.png)
-1. **DNSSEC card**: When you are on the domain page, click the `DNSSEC` tab on the left side. On this page, you can see if DNSSEC is configured.
-  - **Configured**:
-    ![dnssec configured screenshot](/files/dnssec-configured.png)
-  - **Disabled**:
-    ![dnssec disabled screenshot](/files/dnssec-disabled.png)
-
-If DNSSEC is configured, you may still need to allow some time for the full signing process to complete (it may briefly show as "pending" before full activation).
-
-## Verify DS record at your registrar (if the domain is not registered with DNSimple)
-1. Log in to your domain registrar (where you registered your domain, e.g., GoDaddy, Namecheap, Google Domains, etc.).
-1. Navigate to the DNSSEC or Nameserver management section for your domain.
-1. Confirm that the `DS record(s) provided by DNSimple` have been correctly entered.
-1. Pay close attention to:
-  - Key Tag
-  - Algorithm
-  - Digest Type
-  - Digest
-
-<warning>
-**Warning**
-
-A single character mismatch will break the chain of trust and prevent DNSSEC validation for your domain. This is a common point of failure, especially when setting up DNSSEC manually.
-</warning>
+1. **DNSSEC card**: When you are on the domain page, click the `DNSSEC` tab on the left side. On this page, you can see the DNSSEC state.
 
 ## Essential tools for diagnosing DNSSEC issues
-Several online tools can help you assess the health of your DNSSEC configuration. These are your first line of defense for troubleshooting DNSSEC problems.
+
+Several online tools can help you assess the health of your DNSSEC setup. These are your first line of defense for troubleshooting DNSSEC problems.
 
 ### DNSSEC Analyzer (by Verisign/ICANN)
 1. Go to: [https://dnssec-analyzer.verisignlabs.com/](https://dnssec-analyzer.verisignlabs.com/)
@@ -75,88 +51,46 @@ What to look for: DNSViz provides a highly detailed visual representation of you
 - Red lines or boxes: Highlight errors or warnings. Hovering over these will provide detailed error messages and suggestions. This tool is excellent for pinpointing where the chain of trust breaks for your DNSSEC-signed domain.
 
 ### Local DNSSEC validation _(using `dig`)_:
-You can check DNSSEC validation from your own command line using the `dig` utility, available on most Linux/macOS systems and via tools like WSL on Windows.
+You can check DNSSEC validation from your own command line using the `dig` utility, available on most Linux/macOS systems and via tools like WSL on Windows. For detailed instructions on using `dig`, see [How to Use dig](/articles/how-dig/). For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/).
 
 1. Open your terminal or command prompt.
 1. Run the command: `dig +dnssec your-domain.com` (replace `your-domain.com` with your domain).
 
 **What to look for:**
 - `AD` flag (Authentic Data): This flag in the header of the `dig` output indicates that the response has been validated by a DNSSEC-aware resolver. If it's missing, validation failed.
-- `RRSIG` records: You should see RRSIG records for your queried records (e.g., A, MX, etc.).
-- `NSEC` or `NSEC3` records: Present if the hostname does not exist in a signed zone.
-- `DNSKEY` records: Shown if queried directly. Example command: `dig +dnssec your-domain.com dnskey`
+- `RRSIG` records: You should see RRSIG records for your queried records (e.g., A, MX, etc.). To learn more about RRSIG records, see [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/).
+- `NSEC` or `NSEC3` records: Present if the hostname does not exist in a signed zone. To learn more about these records, see [Understanding NSEC and NSEC3 Records](/articles/nsec-nsec3-records/).
+- `DNSKEY` records: Shown if queried directly. Example command: `dig +dnssec your-domain.com dnskey` To learn more about DNSKEY records, see [DNSKEY Records Explained](/articles/dnskey-records-explained/).
 
 Troubleshooting `dig` output: If the `AD` flag is missing, it confirms a problem.
 
-<info>
-The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
-</info>
+> [!NOTE]
+> The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
 
-## Common DNSSEC configuration issues and their resolutions
-This section details the most frequent problems identified by the tools and provides actionable steps to fix them, ensuring your DNSSEC is properly configured with DNSimple.
+## Common DNSSEC issues and their resolutions
+This section details the most frequent problems identified by the tools and provides actionable steps to fix them, ensuring your DNSSEC is properly set up with DNSimple.
 
-### Issue 1: Incorrect or missing DS records at the parent (registrar not DNSimple)
+### Incorrect or missing DS records in the parent zone (registrar not DNSimple)
 **Symptoms**: DNSSEC Analyzer/DNSViz report "No DS records found for domain" or "DS record mismatch." `dig` output lacks the `AD` flag. This is the single most common cause of DNSSEC validation failure.
 
-**Why it happens**: The DS records you provided to your registrar weren't entered, were entered incorrectly, or haven't propagated yet.
+**Why it happens**: The DS records weren't provisioned, were provisioned incorrectly, or haven't propagated yet.
 
 **Resolution steps**:
 
-1. **Verify DNSimple's DS records**: Go to your domain in your DNSimple account, and copy the exact DS record values provided.
-1. **Access your registrar**: Log in to your domain registrar's website (e.g., GoDaddy, Namecheap, etc.).
-1. **Navigate to DNSSEC settings**: Find the DNSSEC management section for your domain. This might be under "Domain Management," "DNS Settings," or "Security."
-1. **Update/add DS records**: Enter (or re-enter) the DS records exactly as provided by DNSimple. Double-check every character, and ensure there are no spaces before or after.
-  - Key Tag
-  - Algorithm
-  - Digest Type
-  - Digest Value
-1. **Save changes**: Apply the changes at your registrar.
-1. **Allow propagation**: Registrar updates can take anywhere from a few minutes to 24 hours to propagate globally. Re-check with DNSSEC Analyzer.
+1. **Verify DNSimple's DS records**: Go to the DNSSEC tab of your domain in your DNSimple account, and copy the exact DS record values provided.
+1. **Access your registrar**: Log in to your domain registrar's website and provision the DS record. Instructions will vary depending on your particular domain registrar (e.g., GoDaddy, Namecheap, etc.).
+1. **Allow propagation**: Registrar updates can take anywhere from a few seconds to a few hours, and cached DS records will invalidate after 24 hours. Re-check with DNSSEC Analyzer.
 
-### Issue 2: Missing or incorrect DNSKEY records in your zone
-**Symptoms**: DNSSEC Analyzer/DNSViz report "DNSKEY records missing" or "DNSKEY validation failure."
-
-**Why it happens**: This is less common with DNSimple's automated DNSSEC management, but could occur if records were accidentally deleted, or if there was an unusual issue during the automated signing process.
-
-**Resolution steps**:
-1. **Check DNSimple's DNSSEC status**: Ensure DNSSEC is still showing as "configured" in your DNSimple account.
-2. **Re-enable DNSSEC (if necessary)**: If the status is disabled, try re-enabling DNSSEC within DNSimple for your domain. This will trigger a regeneration of the necessary DNSKEY records and a re-signing of your zone.
-3. **Contact DNSimple support**: If re-enabling doesn't resolve the issue, or if you suspect an internal DNSimple problem, reach out to our support team with details.
-
-### Issue 3: Expired RRSIG (Resource Record Signature) records
+### Expired RRSIG (Resource Record Signature) records
 **Symptoms**: DNSSEC Analyzer/DNSViz show "Signature Expired" or "RRSIG Validation Failure."
 
-**Why it happens**: DNSSEC signatures have a validity period. If your zone isn't regularly re-signed, these signatures will expire, breaking validation. DNSimple automates this process (known as "signature rollover"), so if you see this, it usually points to an underlying issue with that automation.
+**Why it happens**: A DNSSEC operation on your domain didn't successfully complete, and DNSSEC key sets were left in place, eventually getting expired.
 
 **Resolution steps**:
-1. **Check DNSimple's DNSSEC status**: Verify that DNSSEC is enabled in your DNSimple account.
-1. **Toggle DNSSEC**: Try disabling and re-enabling DNSSEC for the domain within DNSimple. This often forces a re-signing of your zone.
-1. **Contact DNSimple support**: If signatures repeatedly expire, this indicates a problem with the automated signing process. Please provide details to DNSimple support for investigation.
-
-### Issue 4: Problems with NSEC/NSEC3 records
-**Symptoms**: DNSSEC Analyzer/DNSViz report "NSEC/NSEC3 record issues" or "Authenticated denial of existence failure."
-
-**Why it happens**: These records are crucial for proving that a domain or record doesn't exist securely. Issues here can sometimes be related to incorrect zone configuration or signing, even for domains managed by DNSimple.
-
-**Resolution steps**:
-1. **Verify DNSSEC status in DNSimple**: Ensure DNSSEC is enabled.
-1. **Toggle DNSSEC**: Try disabling and re-enabling DNSSEC for the domain within DNSimple. This often regenerates and correctly configures NSEC/NSEC3 records.
-1. **Contact DNSimple support**: If the issue persists, it likely requires deeper investigation by our support team.
-
-### Issue 5: DNSSEC key rollover issues
-**Symptoms**: Intermittent validation failures, especially after a key rollover (when DNSimple generates new keys to maintain security). DNSViz might show issues with old versus new keys.
-
-**Why it happens**: Key rollovers are complex. While DNSimple automates them, there can be brief periods of inconsistency if caching is aggressive or if registrars don't update DS records quickly enough.
-
-**Resolution steps**:
-
-1. **Patience**: Sometimes these are transient issues that resolve themselves as DNS caches clear and new keys propagate across the internet. Wait a few hours.
-1. **Verify DS records (again)**: Ensure your registrar has the latest DS records provided by DNSimple. If DNSimple performed a key rollover, new DS records might have been generated, and your registrar needs to be updated manually.
-1. **Check DNSSEC Analyzer/DNSViz**: These tools will indicate if the issue is related to an old DS record pointing to an expired key.
-1. **Contact DNSimple support**: If issues persist beyond a few hours, DNSimple support can investigate the rollover process for your domain.
+1. **Check your email inbox**: Check your email for any automated DNSSEC notifications, and follow the included instructions. Our system will automatically notify you when a DNSSEC operation doesn't complete successfully.
 
 ## Contact DNSimple support
-If you've followed all the steps above, and your DNSSEC configuration still isn't validating, it's time to reach out to our [expert support team](https://www.dnsimple.com/contact) at DNSimple.
+Please reach out to our [expert support team](https://www.dnsimple.com/contact) at DNSimple about any DNSSEC-related issues.
 
 Before contacting support, please gather the following information:
 

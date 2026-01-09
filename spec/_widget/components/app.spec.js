@@ -15,7 +15,28 @@ describe('App', () => {
       gettingStartedUrl: 'https://support.dnsimple.com/articles/getting-started/',
       currentSiteUrl: 'https://support.dnsimple.com',
       fetch: () => Promise.resolve(ARTICLES),
+      // Explicitly set sources since tests run in localhost which defaults to relative URLs
+      sources: [
+        { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+        { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+      ],
     };
+  });
+
+  describe('sources prop', () => {
+    it('defaults to production URLs', () => {
+      const subject = mount(App);
+      expect(subject.vm.sources).toEqual([
+        { name: 'DNSimple Support', url: 'https://support.dnsimple.com' },
+        { name: 'DNSimple Developer', url: 'https://developer.dnsimple.com' }
+      ]);
+    });
+
+    it('can be overridden via props', () => {
+      const customSources = [{ name: 'Local', url: 'http://localhost:3000' }];
+      const subject = mount(App, { propsData: { sources: customSources } });
+      expect(subject.vm.sources).toEqual(customSources);
+    });
   });
 
   describe('init', () => {

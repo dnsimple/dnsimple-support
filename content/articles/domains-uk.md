@@ -29,9 +29,8 @@ Because of that, domain name registrations at the second level in `.UK` name reg
 
 Because of the [reservation policy](#policy-tld), registering a .UK domain requires some extra diligence. Assuming you have the right to register a `.UK` domain, you will need to use the same registration information (specifically the contact information) you used to register the corresponding `.CO.UK` or `.ORG.UK` domain.
 
-<warning>
-Providing a different contact information will [cause the domain registration to fail](#account-name-registrant-no-rights). To minimize the risk of registration errors, contact information must be identical, including registrant name, company name, email and phone numbers. Spaces, symbols or different string case (e.g. camelcase vs lowercase) may also cause the registration to fail.
-</warning>
+> [!WARNING]
+> Providing a different contact information will [cause the domain registration to fail](#account-name-registrant-no-rights). To minimize the risk of registration errors, contact information must be identical, including registrant name, company name, email and phone numbers. Spaces, symbols or different string case (e.g. camelcase vs lowercase) may also cause the registration to fail.
 
 If the corresponding domain is registered with DNSimple, the `.UK` domain name registration may be slightly easier.
 
@@ -47,17 +46,12 @@ If the corresponding domain is not registered with DNSimple, then you need to lo
 
 Use this contact when registering the new `.UK` domain.
 
-<note>
-#### Compare the contact information
+> [!NOTE] Compare the contact information
+> We noticed that several `.UK` domain name registrations failed because users manually entered their contact information into DNSimple, either assuming they remembered them or did not correctly copy the contact information from the existing 3rd level domain name.
+> Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typos and spelling errors.
 
-We noticed that several `.UK` domain name registrations failed because users manually entered their contact information into DNSimple, either assuming they remembered them or did not correctly copy the contact information from the existing 3rd level domain name.
-
-Please make sure the information of the contact in DNSimple matches the information at the current 3rd level domain registrar. Use copy and paste to avoid typos and spelling errors.
-</note>
-
-<tip>
-Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
-</tip>
+> [!TIP]
+> Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an existing contact, as long as you change the contact information to match the ones copied from your current 3rd level .UK domain **before** registering the `.UK`. Please note that changing the contact information of an existing contact will cause all the domains associated with it to be updated with the new contact details at the registry.
 
 ## Transferring a .UK domain to DNSimple {#transferring}
 
@@ -65,13 +59,11 @@ Instead of creating a new contact in DNSimple, it's perfectly fine to reuse an e
 
 ### Before you start
 
-<warning>
-It is important you follow these steps in strict order. Otherwise, there is a risk of losing your domain's registration.
-</warning>
+> [!WARNING]
+> It is important you follow these steps in strict order. Otherwise, there is a risk of losing your domain's registration.
 
-<warning>
-As with any domain transfer, to avoid the possibility of downtime you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
-</warning>
+> [!WARNING]
+> As with any domain transfer, to avoid the possibility of downtime you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and will also allow you to perform changes to the DNS records during the domain transfer.
 
 <div class="section-steps" markdown="1">
 ##### 1. Starting the transfer
@@ -94,9 +86,8 @@ Request the change of the IPS TAG to `KEY-SYSTEMS-DE`. **This is case-sensitive,
 Once you've authorized the transfer, you may have to **wait up to 48 hours for the transfer to complete.**
 </div>
 
-<info>
-We will only charge your credit card for the transfer once it has completed.
-</info>
+> [!NOTE]
+> We will only charge your credit card for the transfer once it has completed.
 
 ### Transfer status
 
@@ -108,9 +99,8 @@ When the transfer has completed, you will receive an email from DNSimple confirm
 
 ### Changing name servers
 
-<warning>
-We don't automatically point your domain to our name servers when the transfer completes. We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
-</warning>
+> [!WARNING]
+> We don't automatically point your domain to our name servers when the transfer completes. We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
 
 You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [manually configure the name servers](/articles/setting-name-servers/).
 

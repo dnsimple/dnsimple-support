@@ -10,9 +10,8 @@ categories:
 
 [Auto-importing DNS records](/articles/why-auto-import/) helps reduce downtime on your domain transfer or when hosting the DNS for your domain with us. Instead of manually entering DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format, we scan existing records and import them for you.
 
-<info>
-Legacy Plans don't have access to this feature. You must be subscribed to one of our [current plans](https://dnsimple.com/pricing) to use this tool.
-</info>
+> [!NOTE]
+> Legacy Plans don't have access to this feature. You must be subscribed to one of our [current plans](https://dnsimple.com/pricing) to use this tool.
 
 **We can import these DNS record types**:
 
@@ -22,9 +21,8 @@ Legacy Plans don't have access to this feature. You must be subscribed to one of
 - [MX](/articles/mx-record/)
 - [TXT](/articles/txt-record/)
 
-<note>
-Not all domain providers let you export your records in this standard format. As an alternative, you can manually [import records from a zone file](/articles/import-records-zone-file/) or [export your records to a zone file](/articles/export-records-zone-file/) for backup purposes.
-</note>
+> [!NOTE]
+> Not all domain providers let you export your records in this standard format. As an alternative, you can manually [import records from a zone file](/articles/import-records-zone-file/) or [export your records to a zone file](/articles/export-records-zone-file/) for backup purposes.
 
 **We prompt you to auto-import DNS records when**:
 

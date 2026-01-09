@@ -25,11 +25,8 @@ For an overview of Secondary DNS, have a look at [our introduction article](/art
 
 ## Requirements
 
-<warning>
-  Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures from DNSSEC aware resolvers.
-
-  Please ensure that you are not currently using DNSSEC, or disable DNSSEC before using Secondary DNS.
-</warning>
+> [!WARNING]
+> Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, which will produce resolution failures from DNSSEC aware resolvers.
 
 
 ## Adding a Secondary Zone
@@ -66,9 +63,8 @@ Choose the primary server you want to pull the zone file from. You can choose mo
 
 We'll try to carry out the first zone transfer to sync up your zone with new DNS records. This could take a moment, especially if you've just added our AXFR clients IP in your primary DNS provider.
 
-<info>
-If it's been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider. This allows us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server. Allow another 10 minutes for the initial zone transfer to occur. If there are still problems, please [contact support](https://dnsimple.com/contact).
-</info>
+> [!NOTE]
+> If it's been more then 10 minutes since you configured DNSimple as secondary DNS, and no records are being shown, you should check that our AXFR clients IP has been added to the Access-control list (ACL) at your primary DNS provider. This allows us to carry out zone transfer via AXFR. After confirming the IP is present, unlink and link back the primary server. Allow another 10 minutes for the initial zone transfer to occur. If there are still problems, please [contact support](https://dnsimple.com/contact).
 
 ## Configuring AXFR at your Primary DNS provider
 

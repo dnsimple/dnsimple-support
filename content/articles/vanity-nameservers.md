@@ -19,9 +19,8 @@ categories:
 
 If you want to use our name servers but have them appear as though they were your name servers, you can use the vanity name server functionality.
 
-<info>
-Vanity name servers are only available on [Enterprise plans](/articles/dnsimple-plans/).
-</info>
+> [!NOTE]
+> Vanity name servers are only available on [Enterprise plans](/articles/dnsimple-plans/).
 
 ## Enabling Vanity Name Servers
 
@@ -44,7 +43,7 @@ You'll see two options:
 
 Click **Configure** to set up the domain as the provider of vanity name servers.
 
-If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add [glue records](/articles/what-are-glue-records/) 
+If you're using the same domain for the name server names (for example, `ns1.yourdomain.com` for `yourdomain.com`), DNSimple will automatically add the required A and AAAA records for ns1, ns2, etc. If your domain is registered with us, we'll also automatically add [glue records](/articles/what-are-glue-records/)
 
 If the domain is registered elsewhere, and you're only using our DNS services, you need to request that your registrar add the glue records for you. You can find the IPv4 and IPv6 addresses for these records in our article on the [DNSimple name servers](/articles/dnsimple-nameservers/).
 
@@ -58,9 +57,8 @@ To use the domain on which you're enabling vanity name servers for the name serv
 
 If you want to use another domain for the name server names on the domain for which you're configuring vanity name servers, enter the fully qualified domain name (FQDN) for the name server names you want to use, and click **Enable Vanity Name Servers**.
 
-<warning>
-Ensure the FQDNs you provide have the proper records configured on the other domain before attempting to delegate to them. If you do not, your domain will not resolve. Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers/) for the IPv4 and IPv6 addresses required for your vanity name servers.
-</warning>
+> [!WARNING]
+> Ensure the FQDNs you provide have the proper records configured on the other domain before attempting to delegate to them. If you do not, your domain will not resolve. Please see our documentation about changing to [DNSimple name servers](/articles/dnsimple-nameservers/) for the IPv4 and IPv6 addresses required for your vanity name servers.
 
 ![Vanity Name Servers using other domain](/files/vanity-name-servers-other-domain.png)
 
@@ -77,7 +75,7 @@ To do this:
 1. In your **Domain Names** list, click the domain you want to delegate.
 1. Click the **DNS** tab.
 1. Scroll to the **Vanity name servers** section and click Delegate.
-1. Enter the vanity name server hostnames (for example, `ns1.brand.com`, `ns2.brand.com`), then click **Delegate**. 
+1. Enter the vanity name server hostnames (for example, `ns1.brand.com`, `ns2.brand.com`), then click **Delegate**.
 
 If your domain is registered with us, the delegation will be handled automatically. If it's registered elsewhere, you'll need to update the name servers at your current registrar to match the ones you entered.
 
@@ -99,9 +97,8 @@ Clicking **Disable** will populate a confirmation:
 
 >Vanity name servers will now be disabled by changing the NS records served on your domain back to our defaults. If your domain is registered with us, the delegation will be changed back to our standard name servers as well. If you don't have the domain registered with us, you should change the delegation with your registrar to our name servers.
 
-<note>
-If your domain is registered with us, we'll automatically remove the related [glue records](/articles/what-are-glue-records/), assuming they are for the same domain name. If your domain is registered elsewhere, contact your registrar and request that they remove the glue records for you.
-</note>
+> [!NOTE]
+> If your domain is registered with us, we'll automatically remove the related [glue records](/articles/what-are-glue-records/), assuming they are for the same domain name. If your domain is registered elsewhere, contact your registrar and request that they remove the glue records for you.
 
 ## Have more questions?
 

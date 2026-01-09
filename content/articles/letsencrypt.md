@@ -27,8 +27,8 @@ Their three most distinguishing characteristics, as listed on their homepage, ar
 
 This table summarizes the most important differences between Let's Encrypt and Standard SSL certificates:
 
-|               | Let's Encrypt | Standard      |
-|---------------+---------------+---------------|
+| | Let's Encrypt | Standard |
+| --- | --- | --- |
 | Certificate Expiration | 90 days | One year |
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
@@ -57,23 +57,20 @@ Some Let's Encrypt features may not be supported by DNSimple. Check the [limitat
 
 The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free using the Let's Encrypt certification authority.
 
-<note>
-To request an SSL certificate with Let's Encrypt, the domains **must be delegated to and exclusively resolving with DNSimple**. It is not compatible with Secondary DNS. The domain doesn't need to be registered with DNSimple.
-</note>
+> [!NOTE]
+> To request an SSL certificate with Let's Encrypt, the domains **must be delegated to and exclusively resolving with DNSimple**. It is not compatible with Secondary DNS. The domain doesn't need to be registered with DNSimple.
 
 The certificate validation is completely automated using a DNS challenge. Once issued, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
 
-<note>
-ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) in your DNS zone. If you're using wildcard records, this may affect DNS resolution for intermediate domain names. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#the-acme-challenge-example).
-</note>
+> [!NOTE]
+> ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) in your DNS zone. If you're using wildcard records, this may affect DNS resolution for intermediate domain names. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#the-acme-challenge-example).
 
 The certificate expiration is 90 days. If auto-renewal is enabled, the certificate will automatically renew before the expiration. If a new validation is necessary, we'll automatically re-validate the domain via DNS. Once renewed, you'll receive an email and webhook notification. You'll still need to install the newly issued certificate once renewed.
 
 As suggested by Let's Encrypt, the renewal will happen any time after 60 days (30 days before expiration).
 
-<tip>
-Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. We encourage you to use our [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
-</tip>
+> [!TIP]
+> Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. We encourage you to use our [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
 
 
 ## Products
@@ -82,9 +79,8 @@ Let's Encrypt provides only one type of certificate. They issue only domain-vali
 
 Single-name certificates can be considered a special type of multi-name certificate with a single name associated with it.  Let's Encrypt offering is both multi-name and single-name.
 
-<info>
-The ability to customize names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
-</info>
+> [!NOTE]
+> The ability to customize names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
 
 
 ## DNSimple limitations
@@ -126,9 +122,8 @@ DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-re
 
 Once renewed, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
 
-<info>
-Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
-</info>
+> [!NOTE]
+> Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
 
 This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.
 

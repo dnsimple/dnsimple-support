@@ -23,9 +23,8 @@ If you have accounts with DNSimple and Postmark, you can use DNSimple's [One-cli
 
 Follow the steps [in the DMARC setup process](https://dmarc.postmarkapp.com).
 
-<info>
-Copy the TXT record value provided to you during this process. You'll need it when activating this service.
-</info>
+> [!NOTE]
+> Copy the TXT record value provided to you during this process. You'll need it when activating this service.
 
 ## Enabling DMARC Reports by Postmark service
 

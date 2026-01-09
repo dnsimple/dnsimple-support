@@ -8,7 +8,7 @@ categories:
 
 # Differences Between A and CNAME Records
 
-The A record and the CNAME record are two of the most fundamental, commonly used ways to map a hostname (like `www.example.com` or `blog.example.com`) in the Domain Name System (DNS). While both ultimately lead a client to an IP address, they achieve this through distinct mechanisms with important implications for how you manage your domain. 
+The A record and the CNAME record are two of the most fundamental, commonly used ways to map a hostname (like `www.example.com` or `blog.example.com`) in the Domain Name System (DNS). While both ultimately lead a client to an IP address, they achieve this through distinct mechanisms with important implications for how you manage your domain.
 
 Understanding these differences is necessary for correctly configuring your DNS and avoiding common pitfalls.
 
@@ -42,7 +42,7 @@ Let's illustrate the power of CNAMEs with a real-world example from our own setu
     github.map.fastly.net.  A       185.31.17.133
 ```
 
-In this scenario, our blog is hosted on GitHub Pages, which uses Fastly for content delivery. 
+In this scenario, our blog is hosted on GitHub Pages, which uses Fastly for content delivery.
 
 When someone visits `blog.dnsimple.com`:
 1. The DNS resolver looks up `blog.dnsimple.com` and finds another CNAME pointing to `aetrion.github.io`.
@@ -51,9 +51,8 @@ When someone visits `blog.dnsimple.com`:
 
 The benefit of this CNAME chain is that if GitHub Pages or Fastly changes their underlying IP address, we only need them to update the A record for `github.map.fastly.net`. Our `blog.dnsimple.com` CNAME automatically inherits the change without us needing to manually update our DNS records.
 
-<info>
-While CNAME chaining is possible, each additional step adds another DNS lookup. Too many chained CNAMEs can slow down resolution, so it's best to keep chains short.
-</info>
+> [!NOTE]
+> While CNAME chaining is possible, each additional step adds another DNS lookup. Too many chained CNAMEs can slow down resolution, so it's best to keep chains short.
 
 ## Which one should you use?
 Choosing between an A record and a CNAME record depends directly on your specific needs and the capabilities of your hosting environment:
@@ -67,9 +66,8 @@ Choosing between an A record and a CNAME record depends directly on your specifi
 - You want to alias one subdomain (e.g., `www.example.com`, `app.example.com`) to another hostname, especially if that hostname's IP address might change (e.g., cloud services, CDNs).
 - You understand and accept the restriction that no other DNS records can exist for that specific hostname (e.g., if `www.example.com` is a CNAME, you cannot have an MX record for `www.example.com`).
 
-<warning>
-Never use a CNAME record for your root domain name (e.g., `example.com`) if you need other essential records like MX (for email), NS (for delegation), or SOA records. The CNAME restriction makes it incompatible with the requirements of an apex domain. DNSimple offers the ALIAS record as a solution for these scenarios.
-</warning>
+> [!WARNING]
+> Never use a CNAME record for your root domain name (e.g., `example.com`) if you need other essential records like MX (for email), NS (for delegation), or SOA records. The CNAME restriction makes it incompatible with the requirements of an apex domain. DNSimple offers the ALIAS record as a solution for these scenarios.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -37,9 +37,8 @@ categories:
     ![Authorize your Heroku account](/files/heroku-connector-connect-heroku.png)
 
 6. Choose your Heroku app, and set its mounting point.
-   <info>
-   A mounting point is the address where your Heroku app is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
-   </info>
+   > [!NOTE]
+> A mounting point is the address where your Heroku app is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
    ![Connect your domain to Heroku](/files/heroku-connector-connect-domain.png)
 
 

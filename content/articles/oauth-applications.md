@@ -39,27 +39,24 @@ Click **Add** to add a new access token.
 
 When you create a new application, you'll need to provide a few details, including Application Name, a Homepage URL, and an Authorization Callback URL.
 
-<tip>
-Adding an application description is optional.
-</tip>
+> [!TIP]
+> Adding an application description is optional.
 
 ![screenshot of creating a new oauth application](/files/oauth-app-new.png)
 
 After the app has successfully been created, you'll be taken to the page with your new application, showing your Client ID and Client Secret.
 ![screenshot of successful creation of new oauth application](/files/oauth-app-created.png)
 
-<info>
-Both the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
-</info>
+> [!NOTE]
+> Both the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
 
 ## Revoking user tokens
 
 You can revoke all user tokens for your application by clicking **Revoke**.
 ![screenshot of revoking tokens for an oauth application](/files/oauth-app-revoke-tokens.png)
 
-<warning>
-This cannot be undone. All clients will lose access to your application.
-</warning>
+> [!WARNING]
+> This cannot be undone. All clients will lose access to your application.
 
 ## Deleting an application
 
