@@ -14,9 +14,9 @@ You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email
 
 The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
 The domain must be delegated to DNSimple's name servers, and DNS hosting must be active for email forwarding to work. 
-<warning>
-**Secondary zones:** Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
-</warning>
+[!WARNING]
+> **Secondary zones:** Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
+
 
 ## Enable email forwarding
 
@@ -25,18 +25,17 @@ The domain must be delegated to DNSimple's name servers, and DNS hosting must be
 1. In your **Domain Names** list, click the name of the domain you want to enable email forwarding on.
   ![screenshot of list of domain names](/files/dnssec-domain-names.png)
 1. Click the **Email Forwarding** tab on the left side.
-    ![screenshot of email forwarding tab](/files/forwarding-tab.png)
+  ![screenshot of email forwarding tab](/files/forwarding-tab.png)
 1. Create an email forward to enable the service.
 
 When you enable email forwarding, DNSimple will automatically add the various DNS records needed to support forwarding.
 
-<warning>
-**Existing MX records:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider (such as Google Workspace or Microsoft 365), that service will stop working. Make sure you're ready to switch to email forwarding before enabling it.
-</warning>
+[!WARNING]
+> **Existing MX records:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider (such as Google Workspace or Microsoft 365), that service will stop working.  Make sure you're ready to switch to email forwarding before enabling it.
 
-<info>
-To see how to enable email forwarding with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/#createEmailForward). 
-</info>
+
+[!NOTE]
+> To see how to enable email forwarding with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/#createEmailForward). 
 
 ## What happens next?
 
@@ -64,5 +63,3 @@ Our email forwarding provider does not support International Domain Names (domai
 ## Have more questions?
 
 If you have any questions or need assistance enabling email forwarding, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
-
-
