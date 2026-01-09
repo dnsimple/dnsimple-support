@@ -16,6 +16,10 @@ categories:
 
 ---
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/hpBNoXc2reU?si=w1lXWdaW7pktB0Eb" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Using Entra as an identity provider for single sign-on streamlines the login experience for you and your team and helps you manage risk at scale.
 
 > [!NOTE]
