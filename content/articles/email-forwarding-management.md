@@ -19,7 +19,7 @@ This article provides a visual reference guide to the email forwarding interface
 
 Email forwarding is applied on a per-domain basis. The following sections explain the different parts of the email forwarding interface.
 
- ![screenshot of UI for email forwarding on a domain](/files/forwarding-tab.png)
+ ![screenshot of UI for email forwarding on a domain](/files/forwarding-tab-reference.png)
 
 1. **Email Forwarding** tab - Email forwarding management options for the domain.
 2. Email Forwards section - Explains what an email forward is used for.
