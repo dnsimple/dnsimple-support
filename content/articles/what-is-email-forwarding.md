@@ -61,9 +61,8 @@ DNSimple supports catch-all email forwarding, which forwards emails sent to any 
 
 For example, with a catch-all forward configured, emails sent to `anything@yourdomain.com` would be forwarded to your specified destination address, even if you haven't created a specific forward for `anything@yourdomain.com`.
 
-<info>
-When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
-</info>
+> [!NOTE]
+> When you have a catch-all email forward, it only applies to emails sent to addresses that do not already have a specific email forward set up. If an email is sent to an address that has a matching email forward, only that email forward will handle it; the catch-all will not apply. This ensures each email is forwarded just once, avoiding duplicates and helping protect your privacy.
 
 ## Email forwarding limits
 
@@ -77,14 +76,11 @@ To start using email forwarding, you'll need to:
 2. Be subscribed to a DNSimple plan that includes email forwarding.
 3. Configure email forwarding rules for the addresses you want to forward.
 
-<warning>
-**Important:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider, that service will stop working.
-</warning>
+> [WARNING]
+> **Important:** When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you're currently using another email service provider, that service will stop working.
 
 For step-by-step instructions, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
 
 ## Have more questions?
 
 If you have additional questions or need any assistance with email forwarding, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-
