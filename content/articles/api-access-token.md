@@ -65,6 +65,8 @@ Click **Generate token** to create the token after giving it a name.
 
 Scoped access tokens can be restricted to access only certain resources, or certain groups of resources, in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
 
+When using a scoped access token with granular permissions (i.e., access to specific domains or zones rather than all), the API list endpoints (`/domains` and `/zones`) will return only the resources the token has access to.
+
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
 Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources.
