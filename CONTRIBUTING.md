@@ -63,6 +63,19 @@ When creating, editing, or reviewing articles in `content/articles/`, ensure tha
 - Language and terminology are consistent with APA Style conventions
 - Headings, lists, and other structural elements follow APA formatting guidelines
 
+### Diataxis Framework
+
+All content in the `content/articles/` directory must follow the **Diataxis framework**, which organizes documentation by user intent.
+
+> [!NOTE] Internal
+> See [Getting Started Writing Support Articles at DNSimple](https://dnsimple.atlassian.net/wiki/spaces/SUPPORT/pages/3653861402/Getting+Started+Writing+Support+Articles+at+DNSimple)
+
+When creating, editing, or reviewing articles in `content/articles/`, ensure that:
+
+- The article type matches the user intent (Getting Started, Tutorial, How-to Guide, Explanation, Reference)
+- Content scope and structure align with the selected article type
+- Related articles are organized consistently across the Diataxis categories
+
 ### Writing Guidelines
 
 Support docs should be as clear and concise as possible. Each step of the process should be clearly communicated or linked to a relevant section. Never make the customer scroll more than they have to for info.

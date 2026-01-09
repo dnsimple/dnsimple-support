@@ -20,9 +20,7 @@ This is the DNSimple Help site (https://support.dnsimple.com), a static site bui
 
 ## Content Guidelines
 
-### APA Style Requirements
-
-All content in `content/articles/` must follow **APA Style guidelines**. See the [Content Writing Guidelines](CONTRIBUTING.md#content-writing-guidelines) section in CONTRIBUTING.md for full details.
+All content in `content/articles/` must follow **APA Style guidelines** and the **Diataxis framework**. See the [Content Writing Guidelines](CONTRIBUTING.md#content-writing-guidelines) section in CONTRIBUTING.md for full details.
 
 ### Article Structure
 
@@ -43,7 +41,7 @@ Content follows here...
 
 ## Project Structure
 
-- `content/articles/` - All support articles (must follow APA Style)
+- `content/articles/` - All support articles
 - `categories/` - Category definitions in YAML format
 - `layouts/` - HTML layout templates
 - `lib/` - Ruby libraries for nanoc processing
