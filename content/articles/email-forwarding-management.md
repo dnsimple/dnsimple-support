@@ -27,7 +27,7 @@ Email forwarding is applied on a per-domain basis. The following sections explai
 
 ## Email forward creation form
 
-![screenshot of viewing email forwarding configuration](/files/new-email-forward-reference)
+![screenshot of viewing email forwarding configuration](/files/new-email-forward-reference.png)
 
 When creating a new email forward, you'll see the following fields and options:
 
