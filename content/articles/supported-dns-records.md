@@ -33,6 +33,7 @@ The standard DNS record types supported:
 - [SRV](/articles/srv-record/) (type 33)
 - [SPF](/articles/spf-record/) (type 99)
 - SSHFP (type 44)
+- [TLSA](/articles/tlsa-record/) (type 52)
 - [TXT](/articles/txt-record/) (type 16)
 
 We support the following proprietary DNS record types:
@@ -56,5 +57,9 @@ Some DNS records have their own semantics but are defined using existing record 
 ## Limitations
 
 - **Integrated providers**: Azure DNS does not support SSHFP records.
+
+- **CAA records and integrated providers**: CAA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
+
+- **TLSA records and integrated providers**: TLSA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
   
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.

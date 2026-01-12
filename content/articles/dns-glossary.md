@@ -225,6 +225,17 @@ Learn more:
 - [RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782)  
 - [What Is an SRV Record?](/articles/srv-record/)
 
+### TLSA Record 
+
+TLSA (Transport Layer Security Authentication) records associate a TLS server certificate or public key with a domain name, enabling DNS-Based Authentication of Named Entities (DANE). TLSA records enhance TLS security by allowing domain owners to specify which certificates should be trusted for their domain's TLS connections, helping mitigate risks from misissued or compromised certificates. TLSA records must be used with DNSSEC to provide meaningful security benefits.
+
+*Example: `_443._tcp.example.com. IN TLSA 3 0 1 a1b2c3d4e5f6...`* 
+
+Learn more: 
+
+- [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)  
+- [What Is a TLSA Record?](/articles/tlsa-record/)
+
 ### TXT Record 
 
 TXT (Text) records allow domain administrators to store arbitrary human-readable text information in DNS. TXT records are commonly used for various purposes, including:
