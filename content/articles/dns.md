@@ -59,6 +59,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is an SPF Record?](/articles/spf-record/) - Understand SPF (Sender Policy Framework) records and email authentication.
 - [What Is an SRV Record?](/articles/srv-record/) - Learn about SRV (Service) records and how they specify service locations.
 - [What Are SSHFP Records?](/articles/sshfp-records/) - Understand SSHFP records and how they store SSH public key fingerprints.
+- [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA (Transport Layer Security Authentication) records and how they enhance TLS security through DANE.
 - [What Are System Records?](/articles/system-records/) - Learn about system records that DNSimple automatically manages for your domain.
 - [What Is a TXT Record?](/articles/txt-record/) - Understand TXT records and how they store arbitrary text data for various purposes.
 - [What Is a URL Record?](/articles/url-record/) - Learn about URL records and how they redirect domains to web addresses.
@@ -91,6 +92,7 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [Managing AAAA Records](/articles/manage-aaaa-record/) - Learn how to manage AAAA records for IPv6 addresses.
 - [Managing CAA Records](/articles/manage-caa-record/) - Instructions for managing CAA records to control certificate issuance.
 - [Managing CNAME Records](/articles/manage-cname-record/) - Guide to creating and managing CNAME records.
+- [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records for DANE.
 - [Managing URL Records](/articles/manage-url-record/) - Learn how to set up and manage URL redirect records.
 - [Adding an SRV Record](/articles/add-srv-record/) - Step-by-step instructions for adding SRV records.
 - [Adding and Removing DS Records](/articles/manage-ds-record/) - Guide to managing DS records for DNSSEC.
@@ -148,6 +150,7 @@ Technical specifications, formats, and reference documentation:
 - [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) - Complete reference for SPF record syntax and validation rules.
 - [SRV Record Format and Components Reference](/articles/srv-record-format/) - Technical reference for SRV record format and all components.
 - [SSHFP Record Reference](/articles/sshfp-record-reference/) - Complete reference guide for SSHFP record format.
+- [TLSA Record Format and Components Reference](/articles/tlsa-record-format/) - Technical reference for TLSA record format and DANE configuration.
 - [TXT Record Format and Long Record Handling](/articles/txt-record-format/) - Technical reference for TXT record format and handling long records.
 - [URL Record Format and Technical Details](/articles/url-record-format-details/) - Complete reference guide for URL record format and technical specifications.
 - [dig Reference Guide](/articles/dig-reference-guide/) - Comprehensive reference guide for the dig command-line tool.
