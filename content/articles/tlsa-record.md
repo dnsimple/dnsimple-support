@@ -26,7 +26,7 @@ TLSA records work in conjunction with DNSSEC to provide authenticated certificat
 
 ### The DANE protocol
 
-**[DANE (DNS-Based Authentication of Named Entities)](/articles/what-is-dane/)** is the protocol framework that defines how TLSA records are used. DANE enables domain owners to:
+DANE (DNS-Based Authentication of Named Entities) is the protocol framework that defines how TLSA records are used. DANE enables domain owners to:
 
 - **Specify trusted certificates**: Domain owners can explicitly declare which certificates or certificate authorities should be trusted for their domain.
 - **Reduce reliance on CAs**: By publishing certificate associations in DNS, domain owners can reduce their dependence on the traditional CA trust model.
@@ -34,7 +34,7 @@ TLSA records work in conjunction with DNSSEC to provide authenticated certificat
 
 ### DNSSEC requirement
 
-For TLSA records to provide meaningful security benefits, they must be used in conjunction with **[DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/)**. DNSSEC provides cryptographic authentication for DNS data, ensuring that TLSA records cannot be tampered with or spoofed. Without DNSSEC, an attacker could potentially modify TLSA records to point to their own certificates, negating the security benefits. Learn more about [enabling DNSSEC](/articles/enabling-dnssec/) on your domain.
+For TLSA records to provide meaningful security benefits, they must be used in conjunction with **DNSSEC (DNS Security Extensions)**. DNSSEC provides cryptographic authentication for DNS data, ensuring that TLSA records cannot be tampered with or spoofed. Without DNSSEC, an attacker could potentially modify TLSA records to point to their own certificates, negating the security benefits.
 
 ## TLSA record usage patterns
 

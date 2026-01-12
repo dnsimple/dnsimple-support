@@ -235,8 +235,6 @@ Learn more:
 
 - [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)  
 - [What Is a TLSA Record?](/articles/tlsa-record/)
-- [What Is DANE?](/articles/what-is-dane/)
-- [TLSA Record Format and Components Reference](/articles/tlsa-record-format/)
 
 ### TXT Record 
 
@@ -269,10 +267,7 @@ Learn more:
 
 DANE (DNS-based Authentication of Named Entities) Uses DNSSEC to publish and validate TLS certificate information within DNS records, enhancing the security of TLS connections.
 
-Learn more:
-
-- [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)
-- [What Is DANE?](/articles/what-is-dane/)
+Learn more: [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)
 
 ### DNS over TLS (DoT)
 

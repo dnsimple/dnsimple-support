@@ -7,7 +7,7 @@ categories:
 ---
 # TLSA Record Format and Components Reference
 
-A [Transport Layer Security Authentication (TLSA) record](/articles/tlsa-record/) is a DNS record type that associates a TLS server certificate or public key with a domain name, enabling **[DNS-Based Authentication of Named Entities (DANE)](/articles/what-is-dane/)**. This document details the formal structure and the components within a TLSA record.
+A [Transport Layer Security Authentication (TLSA) record](/articles/tlsa-record/) is a DNS record type that associates a TLS server certificate or public key with a domain name, enabling DNS-Based Authentication of Named Entities (DANE). This document details the formal structure and the components within a TLSA record.
 
 ## TLSA record structure
 

@@ -19,11 +19,9 @@ You can manage [TLSA records](/articles/tlsa-record/) in DNSimple using the [DNS
 
 The instructions in this article assume you're familiar with the [TLSA record format](/articles/tlsa-record-format/) and usage.
 
-> [!NOTE]
-> TLSA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring TLSA records to secondary name servers.
-
-> [!IMPORTANT]
-> TLSA records provide security benefits only when used in conjunction with **DNSSEC (DNS Security Extensions)**. Without DNSSEC, an attacker could modify TLSA records to point to their own certificates, negating the security benefits. Before adding TLSA records, ensure that [DNSSEC is enabled](/articles/enabling-dnssec/) for your domain.
+<note>
+TLSA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring TLSA records to secondary name servers.
+</note>
 
 ## Adding a TLSA record
 
@@ -54,10 +52,11 @@ The instructions in this article assume you're familiar with the [TLSA record fo
 
 </div>
 
-> [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
-> - In DNSimple, **Name** = what others might call _Host._
-> - In DNSimple, **Content** = what others might call _Value._
+<note>
+Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+- In DNSimple, **Name** = what others might call _Host._
+- In DNSimple, **Content** = what others might call _Value._
+</note>
 
 ## Updating a TLSA record
 
