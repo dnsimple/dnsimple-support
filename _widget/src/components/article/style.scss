@@ -1,3 +1,5 @@
+@use "callouts";
+
 #dnsimple-support {
   .article {
     position: relative;
@@ -125,56 +127,13 @@
       }
     }
 
-    // Callout styles (rendered as divs, not blockquotes)
+    // Include shared callout styles with correct specificity
+    @include callouts.callout-styles;
+
+    // Override callout spacing for widget
     .callout {
       padding: var(--dnsimple-support-widget-padding);
-      border-left: 4px solid;
-      border-radius: 4px;
-      margin-bottom: var(--dnsimple-support-widget-padding);
-
-      .callout-title {
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-      }
-
-      *:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    .callout-note {
-      border-left-color: #3b82f6;
-      background-color: rgba(59, 130, 246, 0.1);
-
-      .callout-title { color: #2563eb; }
-    }
-
-    .callout-info {
-      border-left-color: #0ea5e9;
-      background-color: rgba(14, 165, 233, 0.1);
-
-      .callout-title { color: #0284c7; }
-    }
-
-    .callout-warning {
-      border-left-color: #f59e0b;
-      background-color: rgba(245, 158, 11, 0.1);
-
-      .callout-title { color: #d97706; }
-    }
-
-    .callout-danger {
-      border-left-color: #ef4444;
-      background-color: rgba(239, 68, 68, 0.1);
-
-      .callout-title { color: #dc2626; }
-    }
-
-    .callout-tip {
-      border-left-color: #22c55e;
-      background-color: rgba(34, 197, 94, 0.1);
-
-      .callout-title { color: #16a34a; }
+      margin: 0 0 var(--dnsimple-support-widget-padding) 0;
     }
 
     iframe, img {
