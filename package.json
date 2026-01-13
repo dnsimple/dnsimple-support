@@ -7,7 +7,7 @@
     "vue": "^3.5.26"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-env": "^7.28.6",
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@vitejs/plugin-vue": "^6.0.3",
     "@vue/test-utils": "^2.4.6",
