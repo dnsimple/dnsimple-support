@@ -1,3 +1,5 @@
+@use "callouts";
+
 #dnsimple-support {
   .article {
     position: relative;
@@ -123,6 +125,15 @@
       *:last-child {
         margin-bottom: 0;
       }
+    }
+
+    // Include shared callout styles with correct specificity
+    @include callouts.callout-styles;
+
+    // Override callout spacing for widget
+    .callout {
+      padding: var(--dnsimple-support-widget-padding);
+      margin: 0 0 var(--dnsimple-support-widget-padding) 0;
     }
 
     iframe, img {
