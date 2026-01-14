@@ -1,6 +1,7 @@
 ---
 title: Delegating a Domain registered with another Registrar to DNSimple
 excerpt: How to delegate a domain registered with a different registrar to DNSimple's name servers.
+meta: Learn how to delegate your domain to DNSimple's name servers when your domain is registered with another registrar, enabling DNS hosting with DNSimple.
 categories:
 - Name Servers
 ---
@@ -9,9 +10,8 @@ categories:
 
 This article explains how to delegate your domain to DNSimple's name servers when your domain is registered with another registrar. Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-<note>
-If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). To delegate name servers to another provider, you'll update your domain's name server delegation at your registrar.
-</note>
+> [!NOTE]
+> If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). To delegate name servers to another provider, you'll update your domain's name server delegation at your registrar.
 
 ## Delegating to another provider
 
@@ -32,13 +32,16 @@ This article focuses on delegating a domain registered with another registrar to
     - ns4.dnsimple-edge.org
 </div>
 
-<note>
-#### Name server propagation
-
-Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
-</note>
+> [!NOTE]
+> #### Name server propagation
+>
+> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 
 ### How to set custom name servers at some common registrars
 
 - [GoDaddy](https://uk.godaddy.com/help/set-custom-nameservers-for-domains-registered-with-us-12317)
 - [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain)
+
+## Have more questions?
+
+If you have additional questions about delegating your domain to DNSimple's name servers, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
