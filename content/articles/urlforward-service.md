@@ -33,7 +33,7 @@ Enter the full URL of the site to forward to, then click **Complete URL Forwardi
 
 The service has been added. You can remove it any time by following the steps in [how to remove a service](/articles/services/#removing-services).
 
-> NOTE
+> [!NOTE]
 > For an HTTPS redirect to work, please make sure that a certificate is purchased for the domain. See more about the types of [SSL certificates](/categories/ssl-certificates/) DNSimple offers. 
 
 ## Have more questions?
