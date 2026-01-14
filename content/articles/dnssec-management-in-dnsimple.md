@@ -36,7 +36,7 @@ categories:
 2. **Keytag** - Enter KeyTag number.
 3. **Digest Type** - Select the digest type for the DS record.
 4. **Digest** - Enter the digest provided by your current DNS provider.
-5. **Public Key** - Enter the public key of the Key-Signing Key (KSK) of your zone signing configuration.
+5. **Public Key** - Enter the public key of the Key-Signing Key (KSK) of your zone signing configuration provided by your DNS provider.
 6. **Add DS Record button** - Adds the DS record to DNSimple for the domain.
 
 ### Enable Fully Managed DNSSEC
