@@ -1,10 +1,12 @@
 Getting started:
-- "Email Forwarding"
-- "Email Hosting Support"
+  - "Email Forwarding"
+  - "Email Hosting Support"
 
-Email DNS records:
-- "What's a DKIM Record?"
-- "What's a DMARC record?"
+Explanation:
+  - "What Is Email Forwarding?"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
+How to:
+  - "Enabling Email Forwarding"
+
+Reference:
+  - "Email Forwarding Management in DNSimple"
