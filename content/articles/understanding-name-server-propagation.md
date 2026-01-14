@@ -41,11 +41,10 @@ Several factors influence how quickly name server changes propagate:
 
 TTL values determine how long DNS resolvers cache records before querying for fresh information, as defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035). Lower TTL values can help changes propagate faster, but they don't eliminate propagation delays entirely. Name server delegation changes at the registry level still need time to propagate, regardless of TTL settings.
 
-<note>
-#### TTL and name server delegation
-
-While TTL affects how quickly DNS resolvers refresh cached NS records, the initial propagation of name server changes at the registry level is independent of TTL values. Even with very low TTLs, registry-level changes can take time to propagate globally.
-</note>
+> [!NOTE]
+> #### TTL and name server delegation
+>
+> While TTL affects how quickly DNS resolvers refresh cached NS records, the initial propagation of name server changes at the registry level is independent of TTL values. Even with very low TTLs, registry-level changes can take time to propagate globally.
 
 ### Regional differences
 
@@ -71,17 +70,15 @@ While propagation times can vary based on TLD registry processing, DNS resolver 
 - **4-24 hours**: Most of the internet has updated to the new name servers.
 - **Up to 48 hours**: Full global propagation is typically complete, though some isolated resolvers may take longer.
 
-<note>
-#### Propagation timeline variability
+> [!NOTE]
+> #### Propagation timeline variability
+>
+> The 48-hour maximum propagation time is a general guideline based on typical DNS resolver TTL values and caching behavior. Actual propagation times can vary significantly depending on specific TLD registry policies, DNS resolver configurations, and network conditions. Some changes may propagate faster, while others may take longer in certain regions.
 
-The 48-hour maximum propagation time is a general guideline based on typical DNS resolver TTL values and caching behavior. Actual propagation times can vary significantly depending on specific TLD registry policies, DNS resolver configurations, and network conditions. Some changes may propagate faster, while others may take longer in certain regions.
-</note>
-
-<info>
-#### WHOIS updates faster
-
-WHOIS records typically update within minutes of a name server change, making WHOIS a reliable way to verify that changes were submitted correctly, even before DNS propagation is complete.
-</info>
+> [!NOTE]
+> #### WHOIS updates faster
+>
+> WHOIS records typically update within minutes of a name server change, making WHOIS a reliable way to verify that changes were submitted correctly, even before DNS propagation is complete.
 
 ## Verifying propagation
 

@@ -77,9 +77,8 @@ Name server sets allow you to quickly apply predefined groups of name servers:
 
 ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-<info>
-If a name server in the set has glue IP addresses associated with it and is a child zone of the domain (e.g., `ns1.example.com` for `example.com`), glue records will be created automatically at the registry.
-</info>
+> [!NOTE]
+> If a name server in the set has glue IP addresses associated with it and is a child zone of the domain (e.g., `ns1.example.com` for `example.com`), glue records will be created automatically at the registry.
 
 ## Reserved name servers
 
