@@ -12,9 +12,8 @@ Pointing a domain name servers to DNSimple is required if you want to use DNSimp
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
-<note>
-If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
-</note>
+> [!NOTE]
+> If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
 
 ## Domain registered with DNSimple
 
@@ -24,8 +23,11 @@ Follow these instructions to [delegate a domain registered with DNSimple to DNSi
 
 Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
-<note>
-#### Name server propagation
+> [!NOTE]
+> #### Name server propagation
+>
+> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 
-Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
-</note>
+## Have more questions?
+
+If you have additional questions about pointing your domain to DNSimple or need assistance with domain delegation, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

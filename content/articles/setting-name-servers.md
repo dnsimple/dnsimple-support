@@ -1,6 +1,7 @@
 ---
 title: Setting the Name Servers for a Domain
 excerpt: Learn how to delegate name servers to another provider or point your domain to DNSimple's name servers. To set the name servers, your domain must be registered with DNSimple.
+meta: Learn how to change your domain's name servers to point to another DNS provider or back to DNSimple when your domain is registered with DNSimple.
 categories:
   - Name Servers
 ---
@@ -51,9 +52,8 @@ To delegate name servers to another provider, you need to update your domain's n
 
 </div>
 
-<info>
-DNSimple's listing of NS records for the domain will be updated to match the name server changes.
-</info>
+> [!NOTE]
+> DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
 ## Pointing the name servers to DNSimple
 
