@@ -64,9 +64,8 @@ whois example.com
 
 Look for the "Name Server" or "Name Servers" field in the output. This shows which name servers are configured at the registry level.
 
-<note>
-WHOIS information may take some time to update after making changes, and the format varies by registrar and TLD.
-</note>
+> [!NOTE]
+> WHOIS information may take some time to update after making changes, and the format varies by registrar and TLD.
 
 ### Using online tools
 
