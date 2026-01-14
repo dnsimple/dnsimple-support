@@ -1,6 +1,7 @@
 ---
 title: Name Servers at DNSimple
 excerpt: Learn where to find everything you need to know about name servers and domain delegation at DNSimple.
+meta: Discover comprehensive resources for managing name servers and domain delegation at DNSimple, including guides on delegation, troubleshooting, and advanced configurations.
 categories:
 - Name Servers
 ---
@@ -50,3 +51,6 @@ Dive deeper into the specifics of name servers with our comprehensive reference 
 - [Name Server Management in DNSimple](/articles/name-server-management-in-dnsimple/): A detailed look at the name server management interface within your DNSimple account, including available settings and information.
 - [Name Servers Glossary](/articles/name-servers-glossary/): Familiarize yourself with common terms and definitions related to name servers and domain delegation.
 
+## Have more questions?
+
+If you have additional questions about name servers or need assistance with domain delegation, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
