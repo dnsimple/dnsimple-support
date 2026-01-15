@@ -30,6 +30,7 @@ Articles are written in Markdown format with YAML frontmatter. Example structure
 ---
 title: Article Title
 excerpt: Brief description
+meta: Page metadata description
 categories:
 - Category Name
 ---

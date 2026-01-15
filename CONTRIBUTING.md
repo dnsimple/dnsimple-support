@@ -197,8 +197,9 @@ When creating or updating articles, consider these SEO best practices:
 
 **Frontmatter Metadata:**
 
-- Use the `meta` frontmatter key if you want different page metadata than the `excerpt`
-  - If omitted, it will default to the excerpt value
+- Every article must include both `excerpt` and `meta` frontmatter keys
+  - The `excerpt` provides a brief description of the article
+  - The `meta` key is used for page metadata (if omitted, it will default to the excerpt value)
 - Use the `social` frontmatter key to add an image for the `og:image` meta tag
   - This image will be displayed on social media when the URL is shared
   - Place social images in the `images/social` folder
@@ -219,6 +220,8 @@ rake run
 ### Sub-categories
 
 Group and order articles in sub-categories by editing the corresponding YAML file in the `categories` folder.
+
+Sub-categories should align with the Diataxis framework article types: Getting Started, Explanation, How-to Guide, Reference, and Tutorial.
 
 Articles not added to a YAML file will be automatically grouped in an "Other" sub-category.
 
