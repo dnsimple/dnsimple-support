@@ -18,7 +18,7 @@ When creating new or updating existing support documentation:
 
 When submitting a pull request:
 
-1. Apply the label `articles`
+1. Apply the label `documentation`
 2. Set yourself as assignee
 3. **Request reviews:**
    - Tag a second expert with knowledge of the feature/product
