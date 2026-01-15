@@ -67,6 +67,8 @@ When creating, editing, or reviewing articles in `content/articles/`, ensure tha
 
 All content in the `content/articles/` directory must follow the **Diataxis framework**, which organizes documentation by user intent.
 
+**Reference:** [Diataxis Framework](https://diataxis.fr/)
+
 > [!NOTE] Internal
 > See [Getting Started Writing Support Articles at DNSimple](https://dnsimple.atlassian.net/wiki/spaces/SUPPORT/pages/3653861402/Getting+Started+Writing+Support+Articles+at+DNSimple)
 
