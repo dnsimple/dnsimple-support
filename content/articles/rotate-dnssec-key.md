@@ -41,6 +41,10 @@ To do this, use the `dnssec.rotation_start` and `dnssec.rotation_complete` webho
 
 For details, refer to our [webhooks API documentation](https://developer.dnsimple.com/v2/webhooks/webhooks/).
 
+## Learn more
+
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For information about DS records and how they work, see [What Are DS Records?](/articles/what-are-ds-records/). For step-by-step instructions on managing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/). To understand TTL and how it affects DNS record propagation, see [What Is Time-to-Live?](/articles/what-is-ttl/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+
 ## Have more questions?
 If you have any questions or need assistance rotating DNSSEC keys, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
 
