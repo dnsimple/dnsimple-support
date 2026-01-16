@@ -55,6 +55,6 @@ Some DNS records have their own semantics but are defined using existing record 
 
 ## Limitations
 
-- **CAA records and integrated providers**: CAA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
+- **CAA records and integrated providers**: CAA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. CAA records are supported for [Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/) and [Azure DNS](/articles/integrated-dns-provider-azure-dns/) integrated providers. Azure DNS does not support SSHFP records, while Route 53 supports both CAA and SSHFP records.
   
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.
