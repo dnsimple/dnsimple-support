@@ -58,7 +58,7 @@ The following Azure DNS record types are supported for syncing and management at
 - [URL](/articles/url-record/)
 
 > [!NOTE]
-> Azure DNS supports CAA records but does not support SSHFP records.
+> Azure DNS does not support [SSHFP](/articles/sshfp-records/) records.
 
 > [!NOTE]
 > The NS records at the zone's apex must include the [Azure DNS name servers](https://learn.microsoft.com/en-us/azure/dns/dns-operations-recordsets-portal#modify-ns-records-at-the-zone-apex) assigned to the zone by Azure.
