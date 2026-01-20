@@ -1,6 +1,6 @@
 ---
 title: Common DNS Records
-excerpt:  Examples of the most common DNS records to configure for your domain. Learn about DNS record types including A, CNAME, MX, TXT, and more.
+excerpt: Examples of the most common DNS records to configure for your domain. Learn about DNS record types including A, CNAME, MX, TXT, and more.
 meta: Discover essential DNS record types for your domain, including A, CNAME, MX, and TXT records. Learn how to configure them effectively for optimal performance.
 categories:
 - DNS
@@ -21,7 +21,7 @@ Learn about the most common DNS records you'll need to configure for your domain
   <iframe loading="lazy" src="https://www.youtube.com/embed/bifh31N2hFQ?si=uM3Z1oS1SqzQNLT4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The [Domain Name System (DNS)](/articles/what-is-dns/) is built on various record types, also known as resource records, each serving a specific function. While the DNS ecosystem includes many types, some are foundational for nearly every functional domain, while others are specialized, less common, or have been superseded.
+The [Domain Name System (DNS)](/articles/what-is-dns/) is built on various record types, also known as resource records, each serving a specific function. While the DNS ecosystem includes many types, some are foundational for nearly every functional domain, while others are specialized, less common, or have been superseded.  When configuring DNS records for your domain, understanding these common DNS records is essential.
 
 This article will introduce you to the most common and essential DNS record types. We'll outline a basic set of DNS records that most domains need to function correctly for web browsing and email, along with simple ways to verify their presence.
 
