@@ -130,7 +130,7 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 
    > **URL records**: URL records automatically configure underlying A and AAAA records that point to DNSimple's redirector service IP addresses. These A/AAAA records enable DNS resolution, while the HTTP redirect happens at the HTTP/HTTPS layer.
 
-> The DNS standard requires A or AAAA records for IP address resolution (RFC 1035), and both ALIAS and URL records provide these records. However, the redirector service blocks ICMP traffic (used by `ping`), so URL records cannot be tested with `ping`. For more information, see [What Is an ALIAS Record?](articles/alias-record/) and [Differences Among A, CNAME, ALIAS, and URL Records](articles/differences-between-a-cname-alias-url/).
+> The DNS standard requires A or AAAA records for IP address resolution (RFC 1035), and both ALIAS and URL records provide these records. However, the redirector service blocks ICMP traffic (used by `ping`), so URL records cannot be tested with `ping`. For more information, see [What Is an ALIAS Record?](/articles/alias-record/) and [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/).
 
 ## Have more questions?   
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
