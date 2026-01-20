@@ -8,6 +8,8 @@ categories:
 
 # Common DNS Records
 
+Learn about the most common DNS records you'll need to configure for your domain.
+
 ### Table of Contents {#toc}
 
 * TOC
