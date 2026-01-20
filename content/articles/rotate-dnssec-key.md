@@ -30,9 +30,9 @@ You will need to manually manage your DS records at your domain registrar.
 1. You have 7 days to remove the DS records at your registrar.
 1. Once our system verifies the old DS record is no longer present in the parent zone, we remove the old key set, and the key set rotation is completed.
 
-> [!IMPORTANT] TTL considerations
+> [!TIP]
+> TTL considerations: 
 > After you add the DS records at your registrar, it can take up to 24 hours for the key rotation process to complete. This is because the TTL (Time-to-Live) for DS records is 24 hours, and our system needs to verify that the new DS records have fully propagated before proceeding with the rotation. The rotation will not complete until the TTL has expired and the new DS records are fully present in the parent zone.
-> TTL considerations: After you add the DS records at your registrar, it can take up to 24 hours for the key rotation process to complete. This is because the TTL (Time-to-Live) for DS records is 24 hours, and our system needs to verify that the new DS records have fully propagated before proceeding with the rotation. The rotation will not complete until the TTL has expired and the new DS records are fully present in the parent zone.
 
 ## Automating key rotation
 
