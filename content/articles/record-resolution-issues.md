@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Record Resolution Issues
-excerpt: This article contains instructions to check record resolution issues.
+excerpt: This article contains instructions to check record resolution issues, including DNS propagation delays and troubleshooting specific record types.
+meta: Learn how to troubleshoot DNS record resolution issues, including propagation delays, TTL values, and verifying records exist in DNSimple's system.
 categories:
 - DNS
 ---
