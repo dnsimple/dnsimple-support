@@ -52,4 +52,5 @@ export default {
   "ptr": "reverse DNS spf",
   "managing seats": "seats",
   "dns propagation": "resolution issues",
+  "dns records": "common dns records",
 };
