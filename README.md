@@ -18,6 +18,10 @@ The site will be available at http://localhost:3000
 
 Each commit to main is deployed automatically via Netlify.
 
+## Widget
+
+The support widget provides contextual help across DNSimple applications. See [Tweaking Widget Results](/docs/tweaking-widget-results/) for customizing search results.
+
 ## Contributing
 
 For setup instructions, development workflow, writing guidelines, and best practices, see [CONTRIBUTING.md](CONTRIBUTING.md).
