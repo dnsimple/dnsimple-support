@@ -91,11 +91,9 @@ This can happen when:
 
 - You have a wildcard record (like `*.example.com`) but no explicit record for the apex domain
 
-<warning>
+> [!WARNING]**Important:**
+> Wildcard DNS records (e.g., `*.example.com`) do **not** match the apex domain (`example.com`). If you have a wildcard ALIAS or CNAME record for subdomains, you must also add a separate record for the apex domain itself if you want the root domain to resolve.
 
-**Important:** Wildcard DNS records (e.g., `*.example.com`) do **not** match the apex domain (`example.com`). If you have a wildcard ALIAS or CNAME record for subdomains, you must also add a separate record for the apex domain itself if you want the root domain to resolve.
-
-</warning>
 
 ### How to check
 
@@ -125,11 +123,14 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 
 3. **If you want to redirect the apex domain to another URL:** Add a [URL record](/articles/url-record/) with the **Name** field left blank or set to `@`.
 
-<note>
+> [!NOTE]
+> If you're using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record for IP address resolution. Both ALIAS records and URL records resolve to A and/or AAAA records, so `ping` will work correctly with these record types.
 
-If you're using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record. Even if your domain is properly configured for web traffic (via ALIAS or URL records), `ping` may still show "No address associated with hostname" if there's no direct A record. This doesn't necessarily mean your website won't work—web browsers will resolve ALIAS and URL records correctly.
+   > **ALIAS records**: DNSimple's name servers dynamically resolve ALIAS records to A and/or AAAA records at query time. From the resolver's perspective, the domain appears to have standard A or AAAA records, so `ping` will work as expected.
 
-</note>
+   > **URL records**: URL records automatically configure underlying A and AAAA records that point to DNSimple's redirector service IP addresses. These A/AAAA records enable DNS resolution, while the HTTP redirect happens at the HTTP/HTTPS layer.
+
+> The DNS standard requires A or AAAA records for IP address resolution (RFC 1035), and both ALIAS and URL records provide these records. However, the redirector service blocks ICMP traffic (used by `ping`), so URL records cannot be tested with `ping`. For more information, see [What Is an ALIAS Record?](articles/alias-record/) and [Differences Among A, CNAME, ALIAS, and URL Records](articles/differences-between-a-cname-alias-url/).
 
 ## Have more questions?   
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
