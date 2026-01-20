@@ -51,5 +51,5 @@ export default {
   "ipv6": "ipv6 address aaaa",
   "ptr": "reverse DNS spf",
   "managing seats": "seats",
-  "dns records": "common dns records",
+  "records": "common dns records",
 };
