@@ -97,14 +97,14 @@ If you switched DNS providers and had DNSSEC enabled, you must [remove the previ
 
 If you transferred your domain from another registrar where you had DNSSEC enabled, you may need to [contact us](https://dnsimple.com/contact) to have the DS record removed.
 
-<info>
-**If your domain is properly delegated to DNSimple but specific records aren't resolving**, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) for information about:
-- Querying DNSimple name servers directly to bypass caching
-- DNS propagation delays and TTL values
-- Verifying records exist in our system
-- Troubleshooting specific record types
-- Checking for missing A or AAAA records at the apex domain
-</info>
+> [!INFO]
+> **If your domain is properly delegated to DNSimple but specific records aren't resolving**, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) for information about:
+> - Querying DNSimple name servers directly to bypass caching
+> - DNS propagation delays and TTL values
+> - Verifying records exist in our system
+> - Troubleshooting specific record types
+> - Checking for missing A or AAAA records at the apex domain
+
 
 ## Common error messages and what they mean
 
