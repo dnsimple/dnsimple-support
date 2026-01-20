@@ -7,7 +7,7 @@ categories:
 
 # Troubleshooting Record Resolution Issues
 
-The following is list of common issues to check if a record isn't resolving correctly.
+The following is a list of common issues to check if a record isn't resolving correctly.
 
 ## Check the domain resolution status
 
