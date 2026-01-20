@@ -20,12 +20,20 @@ def as_markdown(str)
 end
 
 POPS = [
-  'San Jose, CA, USA',
-  'Chicago, IL, USA',
-  'Ashburn, VA, USA',
   'Amsterdam, Netherlands',
-  'Tokyo, Japan',
-  'Sydney, Australia',
+  'Atlanta, Georgia, USA',
+  'Chicago, Illinois, USA', 
+  'Dallas, Texas, USA',
+  'Frankfurt, Germany',
+  'London, UK',
+  'Los Angeles, California, USA',
+  'Miami, Florida, USA',
   'Paris, France',
-  'Frankfurt, Germany'
+  'San Jose, California, USA',
+  'Santiago, Chile',
+  'Singapore',
+  'Sydney, Australia',
+  'São Paulo, Brazil',
+  'Tokyo, Japan',
+  'Warsaw, Poland'
 ].freeze
