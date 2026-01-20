@@ -1,6 +1,7 @@
 ---
 title: DNSimple Status Page
 excerpt: We make our current system status, as well as our uptime history, available at dnsimplestatus.com.
+meta: Check DNSimple's system status and uptime history. Monitor our name server availability and service status in real-time.
 categories:
 - DNSimple
 ---
@@ -11,6 +12,5 @@ View our current system status and uptime history at [dnsimplestatus.com](http:/
 
 We strive to always have at least one name server responding to queries at all times.
 
-<info>
-Downtime on a single server does not indicate downtime for the system as a whole.
-</info>
+> [!NOTE]
+> Downtime on a single server does not indicate downtime for the system as a whole.

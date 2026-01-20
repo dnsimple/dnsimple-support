@@ -1,6 +1,7 @@
 ---
 title: Check Resolution Status
 excerpt: How to check if your domain is currently resolving with DNSimple.
+meta: Learn how to check your domain's resolution status and verify name server configuration. Ensure your domain is properly delegated to DNSimple.
 categories:
 - DNS
 ---
@@ -23,15 +24,16 @@ If you updated the name servers to another provider, those will appear as well.
 
 ![list of external nameservers](/files/external-nameservers.png)
 
-<warning>
-If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
-</warning>
+> [!WARNING]
+> If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
 ## Domains registered with another registrar
 
 If the domain is registered with another registrar and you're using DNSimple only for DNS hosting, we currently don't display the name servers for your domain. However, you can check the name servers by accessing the public [WHOIS](https://dnsimple.com/whois).
 
  If you would like to transfer the domain registration to us, [follow these instructions](/articles/domain-transfer/).
+
+If you're experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
 ## Have more questions?
 

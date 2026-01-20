@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Empty Non-Terminal Issues
 excerpt: Diagnose and resolve intermittent or unexpected empty responses caused by Empty Non-Terminals.
+meta: Troubleshoot Empty Non-Terminal (ENT) issues in your DNS zone. Diagnose and resolve unexpected empty responses and wildcard matching problems.
 categories:
 - DNS
 ---
@@ -144,11 +145,8 @@ If the record creating the ENT is no longer needed (such as an old ACME challeng
 
 This eliminates the ENT and restores wildcard matching.
 
-<warning>
-
-Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
-
-</warning>
+> [!WARNING]
+> Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
 
 ### Option C: Restructure your zone
 

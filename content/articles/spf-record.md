@@ -20,10 +20,9 @@ The Sender Policy Framework (SPF) record is a crucial email authentication metho
 
 In an environment where email spoofing (faking the sender's address) is rampant, SPF records act as a digital permit, allowing receiving mail servers to verify the authenticity of the sender's origin. This significantly reduces the likelihood of phishing attacks, spam, and other malicious activities that exploit domain impersonation.
 
-<info>
-**Important announcement:**
-**As of August 11th, 2025, SPF records defined using the dedicated SPF RR (Resource Record type 99) are no longer supported by major email providers and DNS services.** All SPF records must now be defined using the **TXT record type**. This documentation has been updated to reflect the current recommended practices for SPF record management using TXT records. For more information, please see our [official announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/). 
-</info>
+> [!NOTE]
+> **Important announcement:**
+> **As of August 11th, 2025, SPF records defined using the dedicated SPF RR (Resource Record type 99) are no longer supported by major email providers and DNS services.** All SPF records must now be defined using the **TXT record type**. This documentation has been updated to reflect the current recommended practices for SPF record management using TXT records. For more information, please see our [official announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/).
 
 ## How SPF works: authorizing your senders
 When an email is sent, the recipient's mail server performs a lookup of the sender's domain's SPF record. This record, which is always a [TXT record](/articles/txt-record/) in DNS, contains a list of IP addresses and/or hostnames that are permitted to send email from that domain.

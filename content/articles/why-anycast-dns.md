@@ -1,6 +1,7 @@
 ---
 title: What Is Anycast DNS and Why Use It?
 excerpt: Anycast offers several advantages over Unicast, resulting in lower latency and better traffic distribution.
+meta: Learn about Anycast DNS and its benefits. Understand how Anycast reduces latency, improves resilience, and why DNSimple uses it for all domains.
 categories:
 - DNS
 ---

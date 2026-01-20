@@ -1,6 +1,6 @@
 ---
 title: DNSSEC Management in DNSimple
-excerpt: An illustrated guide to DNSSEC managment in DNSimple.
+excerpt: An illustrated guide to DNSSEC management in DNSimple.
 meta: Learn how to effectively manage DNSSEC in DNSimple with our comprehensive illustrated guide, ensuring your domain's security and integrity with ease.
 categories:
 - DNSSEC
@@ -8,101 +8,76 @@ categories:
 
 # DNSSEC Management in DNSimple
 
-### Table of Contents {#toc}
-* TOC
- {:toc}
----
+<note> DNSSEC is applied on a per-domain basis. </note>
 
-DNSSEC is applied on a per-domain basis.
+![DNSSEC tab](/files/DNSSEC-tab-reference.png)
 
- ![screenshot of UI for applying DNSSec to a domain](/files/dnssec-per-domain.png)
+1. **DNSSEC tab** - DNSSEC management options for the domain.
+2. **Enable DNSSEC button in the DNSSEC card** - Enable DNSSEC for the domain. 
 
-1. **DNSSEC** tab - DNSSEC management options for the domain.
-1. **Configure** in **Configure DNSSEC** card - Configure DNSSEC for the domain.
-1. **Manage** in the **DS Records** card - Manage the DS Records for the domain.
+## Enable DNSSEC
 
-## Configure DNSSEC
+![Enable DNSSEC](/files/DNSSEC-enable-reference.png)
 
-![screenshot of enable DNSSec button](/files/dnssec-configure.png)
+1. **Manage DS Records**  - Manage DS records for domains not resolving with DNSimple.
+2. **Continue button** - Goes to options to have DNSimple fully manage the domain DNSSEC. 
 
-1. **Enable DNSSEC** button - Turn on DNSSEC for the domain.
+<information> When DNSSEC is enabled, a DNSSEC tag is listed in the Domain Names list.</information>
 
-## Configured DNSSEC in Domain Names list
+### Add DS Record For Domain Not Delegated to DNSimple
 
-![screenshot of configuring DNSSEC in domains list](/files/dnssec-configure-domain-list.png)
+![Add DS Record button](/files/DNSSEC-DS-record-add-button-reference.png)
 
+1. **Add DS Record button** - Add a DS record.
 
-1. When DNSSEC is configured, a **DNSSEC** tag is listed in the **Domain Names** list.
+![Add DS Record page](/files/DNSSEC-DS-record-add-page-reference.png)
 
-## View DNSSEC configuration
-
-![screenshot of viewing DNSSEC configuration](/files/dnssec-view-config.png)
-
-View Configuration in DNSSEC Configured card - View the domain's DNSSEC key set.
-
-## Manage DS records
-
-![screenshot of managing DS records](/files/dnssec-manage-ds-records.png)
-
-1. **Add DS record** button - Add a DS record.
-1. **DS record information** - Information related to the DS Record.
-1. **Managed by DNSimple** - DS Record is managed by DNSimple. Not present when self-managed.
-
-## Manage DS records when none are present
-
-![screenshot of managing DS records when none present](/files/dnssec-manage-ds-records-empty.png)
-
-1. **Add DS record** button - Add a DS record.
-
-## Add DS record
-
-### DS-Data Interface
-
-![screenshot of managing DS records interactively](/files/dnssec-ds-records-interactive.png)
-
-
-1. **DS-Data Interface** - Method for working with a DS record.
 1. **Algorithm** - Choose algorithm type for the DS record.
-1. **Keytag** - Enter KeyTag number.
-1. **Digest Type** - Select the digest type for the DS record.
-1. **Digest** - Enter the digest provided by your current DNS provider.
-1. **Add DS record** button- Adds the DS record to DNSimple for the domain.
+2. **Keytag** - Enter KeyTag number.
+3. **Digest Type** - Select the digest type for the DS record.
+4. **Digest** - Enter the digest provided by your current DNS provider.
+5. **Public Key** - Enter the public key of the Key-Signing Key (KSK) of your zone signing configuration provided by your DNS provider.
+6. **Add DS Record button** - Adds the DS record to DNSimple for the domain.
 
-### KEY-Data Interface
+### Enable Fully Managed DNSSEC
 
-![screenshot key data in a DS record](/files/dnssec-ds-record-keys.png)
+![Fully Managed Reference](/files/DNSSEC-fully-managed-reference.png)
 
-1. **KEY-Data Interface** - Method used to manage the keys themselves (DNSKEY records).
-1. **Algorithm** - Choose algorithm type for the DS record.
-1. **Flags** - Choose the type of flag.
-1. **Protocol** - Select the Protocol for the DS record.
-1. **Public Key** - Enter the public key of the Key-Signing Key (KSK) of your zone signing configuration.
-1. **Add DS record** button - Adds the DS record to DNSimple for the domain.
+1. **Continue button** - Goes to options to have DNSimple fully manage the domain DNSSEC.
+2. **Enable DNSSEC button** - Enables fully managed DNSSEC.
+3. **Change Delegation button** - Only available if the domain is not delegated to DNSimple.
+4. **Manage DS Records button** - Used to manage DS Records when the domain is using another DNS provider.
 
-## Delete DS Record
+### Enabling DNSSEC
 
-![screenshot of dialog for deleting  DNSSEC](/files/dnssec-delete.png)
+![Enabling DNSSEC reference](/files/DNSSEC-enabling-page-reference.png)
 
+1. **Enabling Notification** - Notification that DNSSEC is being enabled.
+2. **We're Enabling DNSSEC on (domain) Card** - Status card for DNSSEC.
+3. **Refresh page button** - Refreshes page and status.
 
-Click the **trash can** icon to delete the DS record.
+![DNSSEC Enabled](/files/DNSSEC-enabled-reference.png)
 
-![screenshot of confirmation for deleting DNSSEC](/files/dnssec-delete-confirm.png)
-
-
-1. **Delete** button - Click to delete the DS record.
+1. **DNSSEC is Enabled on (domain) Card** - Shows DNSSEC is enabled on domain.
+2. **Disable DNSSEC Button** -  Disables DNSSEC on the domain.
 
 ## Disable DNSSEC
 
-![screenshot of disabling DNSSec](/files/dnssec-disable.png)
+After clicking on the **Disable DNSSEC button** in the Disable DNSSEC card, you will start the process of disabling DNSSEC. 
 
+![Confirm Disable](/files/DNSSEC-disable-confirm-reference.png)
 
-1. **Disable DNSSEC** button in **Disable DNSSEC** card - Start the process of disabling DNSSEC in DNSimple on the domain.
+1. **Confirm**- Confirm the deletion of the DNSSEC configuration on the domain.
+2. **Disable DNSSEC button** - Disables DNSSEC on the domain.
 
-![screenshot of confirmation for disabling DNSSEC](/files/dnssec-disable-confirmation.png)
+### Disabling DNSSEC
 
+![Disabling DNSSEC](/files/DNSSEC-disabling-reference.png)
 
-1. **Confirm** - Confirm the deletion of the DNSSEC configuration on the domain.
-1. **Disable DNSSEC** button - Disables DNSSEC on the domain.
+1. **Disabling Notification** - Notification that DNSSEC is being disabled.
+2. **We're Disabling DNSSEC on (domain) Card** - Status card for DNSSEC.
+3. **Refresh page button** - Refreshes page and status. 
 
-## Have more questions?
+## Have more questions? 
 If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+

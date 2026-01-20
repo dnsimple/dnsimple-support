@@ -15,9 +15,8 @@ When you type a domain name into the search bar of your browser (Chrome, Safari,
   <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<info>
-"Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
-</info>
+> [!NOTE]
+> "Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
 
 ## How do I change the name servers?
 
@@ -25,10 +24,6 @@ For security purposes, we don't make these changes on your behalf. If you purcha
 
 If you transfer your domain to DNSimple to manage your DNS, you'll need to update the name servers. Luckily, the name servers are easy to change and easy to remember by following [these step-by-step instructions](/articles/delegating-dnsimple-registered/).
 
-<note>
-#### Check your name servers
-
-Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
-
-If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.
-</note>
+> [!NOTE] Check your name servers
+> Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
+> If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.

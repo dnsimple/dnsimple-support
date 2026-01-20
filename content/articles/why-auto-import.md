@@ -1,6 +1,7 @@
 ---
 title: Why You Should Auto-Import DNS Records
 excerpt: Auto-import your DNS records to reduce the risk of downtime and save significant time when migrating your DNS records.
+meta: Discover why you should auto-import DNS records when transferring or hosting your domain. Reduce downtime, save time, and improve accuracy during DNS migration.
 categories:
 - DNS
 ---
@@ -11,9 +12,8 @@ Auto-importing DNS records is a powerful feature designed to make the process of
 
 Instead of manually recreating every single record one-by-one (a process that can be tedious, time-consuming, and prone to human error), auto-importing allows DNSimple to scan and import your existing records for you automatically.
 
-<note>
-Auto-importing is a feature available on certain [DNSimple plans](https://dnsimple.com/pricing).
-</note>
+> [!NOTE]
+> Auto-importing is a feature available on certain [DNSimple plans](https://dnsimple.com/pricing).
 
 ## Key Benefits of auto-importing
 
@@ -27,6 +27,8 @@ Auto-importing is a feature available on certain [DNSimple plans](https://dnsimp
 Auto-import is an integrated part of the domain management process. We prompt you to [auto-import DNS records](/articles/auto-import-dns/) when a domain transfer is about to start or when you're adding a domain for DNS management. The tool scans your domain and imports common record types, including [`A`](/articles/a-record/), [`AAAA`](/articles/aaaa-record/), [`CNAME`](/articles/cname-record/), [`MX`](/articles/mx-record/), and [`TXT`](/articles/txt-record/)`. You also have the option to trigger the auto-import process at any time from the [Record Editor](/articles/record-editor/).
 
 If a record conflicts with an existing record on your domain, we'll prompt you to confirm which record to keep. By default, we will not override your existing records.
+
+As an alternative to auto-importing, you can manually [import records from a zone file](/articles/import-records-zone-file/) or [export your records to a zone file](/articles/export-records-zone-file/) for backup purposes.
 
 ## Have more questions? 
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

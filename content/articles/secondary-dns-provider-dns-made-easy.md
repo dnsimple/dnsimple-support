@@ -31,9 +31,8 @@ Log into your **DNSMadeEasy** account. The first thing you'll do is to create th
 
 ![Access the IP set menu from DNSMadeEasy](/files/dns-made-easy-ip-set-menu.png)
 
-<info>
-  At the time of writing, **DNSMadeEasy** only accepts IPv4 for Secondary DNS
-</info>
+> [!NOTE]
+> At the time of writing, **DNSMadeEasy** only accepts IPv4 for Secondary DNS
 
 Add a new IPv4 set with the following values:
 

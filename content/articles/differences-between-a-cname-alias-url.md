@@ -1,6 +1,7 @@
 ---
 title: Differences Among A, CNAME, ALIAS, and URL Records
 excerpt: Understanding the differences among the A, CNAME, ALIAS, and URL records.
+meta: Compare A, CNAME, ALIAS, and URL records to choose the right DNS record type. Learn when to use each for domain mapping, aliasing, and redirects.
 categories:
 - DNS
 ---

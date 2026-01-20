@@ -29,9 +29,8 @@ This how-to guide shows you how to accomplish basic tasks with DNSimple. Our ser
 
 We recommend having this guide open alongside your DNSimple account so you can follow along. When you've completed this, you will be able to register, transfer, and set up DNS for your domain. If you don't have an account, check out [our plans](https://dnsimple.com/pricing/) to register and follow along.
 
-<note>
-The process for registering, transferring, or managing DNS for domains is the same for a Solo or Teams account.
-</note>
+> [!NOTE]
+> The process for registering, transferring, or managing DNS for domains is the same for a Solo or Teams account.
 
 Before you skip to a section, let's go over how to navigate the main interface of the dashboard. 
 
@@ -43,9 +42,8 @@ The dashboard gives you an overview of your DNS, domains, and certificates throu
 
 ![Dashboard with Multiple Accounts](/files/getting-started-dashboard-multi-account.png)
 
-<note>
-This shows a dashboard with multiple accounts, but you can still follow along with just one.
-</note>
+> [!NOTE]
+> This shows a dashboard with multiple accounts, but you can still follow along with just one.
 
 If you don't have a domain yet, try [transferring](#transferring-a-domain) or [registering](#registering-a-domain) a domain.
 
@@ -59,9 +57,8 @@ Domain management on DNSimple starts in two ways: [registration](#registering-a-
 
 How do you register a domain? Registering a domain is the first step to an online presence. This is best if you don't have a domain already, as you need a domain to set up DNS services.
 
-<note>
-You do not have to register your domain through DNSimple to use our services. [Try adding DNS to a domain you own through another registrar](#adding-dns-to-an-external-domain).
-</note>
+> [!NOTE]
+> You do not have to register your domain through DNSimple to use our services. [Try adding DNS to a domain you own through another registrar](#adding-dns-to-an-external-domain).
 
 1. Navigate to the DNSimple Dashboard. Click **Add** at the top right, then navigate to the **Register domain** option in the dropdown.
 
@@ -85,9 +82,8 @@ Now that you have your own domain, [try adding DNS](#adding-dns-to-an-internal-d
 
 How do you transfer a domain? Transferring a domain is recommended when you already own a domain through another registrar. 
 
-<note>
-A domain transfer requires access to the registrar the domain is registered to in order to obtain an authorization code.
-</note>
+> [!NOTE]
+> A domain transfer requires access to the registrar the domain is registered to in order to obtain an authorization code.
 
 1. Navigate to the DNSimple Dashboard, click **Add**, and choose **Transfer domain** from the list of options.
 
@@ -99,13 +95,11 @@ A domain transfer requires access to the registrar the domain is registered to i
 
 3. Follow the requirements for the transfer process on your current registrar's site, then enter your authorization code and registrant information. Once you are ready, click **Register ____** to start the transfer process.
 
-    <note>
-    Not all TLDs require an authorization code and might require special conditions ([typically .uk](/articles/domains-uk/) or other country code TLDs). In that case, follow the instructions for that domain.
-    </note>
+    > [!NOTE]
+> Not all TLDs require an authorization code and might require special conditions ([typically .uk](/articles/domains-uk/) or other country code TLDs). In that case, follow the instructions for that domain.
 
-    <tip>
-    If your domain supports it, enable our [WHOIS Privacy Protection](/articles/whois-privacy/). This hides your contact information from any look-ups.
-    </tip>
+    > [!TIP]
+> If your domain supports it, enable our [WHOIS Privacy Protection](/articles/whois-privacy/). This hides your contact information from any look-ups.
 
     ![Transfer Form](/files/getting-started-transfer-form.png)
 
@@ -123,9 +117,8 @@ The transfer process will take anywhere from 5 to 7 days. During this time, you 
 
 ## Host DNS on DNSimple
 
-<warning>
-Hosting DNS is required to resolve your endpoint from your domain, and requires a domain. If you don't have one, try [registering a domain with DNSimple](#registering-a-domain) or [transferring one you own](#transferring-a-domain).
-</warning>
+> [!WARNING]
+> Hosting DNS is required to resolve your endpoint from your domain, and requires a domain. If you don't have one, try [registering a domain with DNSimple](#registering-a-domain) or [transferring one you own](#transferring-a-domain).
 
 ### Setting up a DNS record
 
@@ -147,17 +140,15 @@ If you have a domain registered through DNSimple, follow these steps to add DNS 
 
     ![Domain Management Page](/files/getting-started-dns-internal-management.png)
 
-    <note>
-    The domain's DNS zone must be active for it to resolve.
-    </note>
+    > [!NOTE]
+> The domain's DNS zone must be active for it to resolve.
 
 4. In the Record Editor, click **Add record**, then choose an **A record** from the list of record types. This will bring you to a page where you will fill out the fields of the record type you select.
 
     ![Record Editor](/files/getting-started-dns-internal-record-editor.png)
 
-    <tip>
-    An A Record maps your domain to the IPv4 address of your endpoint. It is required to resolve your domain to your site. [Learn more about A Records](/articles/a-record/).
-    </tip>
+    > [!TIP]
+> An A Record maps your domain to the IPv4 address of your endpoint. It is required to resolve your domain to your site. [Learn more about A Records](/articles/a-record/).
 
 5. Fill out the fields for your record type. When you are finished, click **Add Record**.
 
@@ -183,9 +174,8 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
     ![Adding A Record](/files/getting-started-dns-external-add-record.png)
 
-    <tip>
-    If you need more examples of records to add, try looking at [Common DNS Records](/articles/common-dns-records/).
-    </tip>
+    > [!TIP]
+> If you need more examples of records to add, try looking at [Common DNS Records](/articles/common-dns-records/).
 
 4. Once you are ready, click **Activate DNS zone**, then confirm the activation of your DNS zone on the next page.
 
@@ -193,9 +183,8 @@ If you don't have your domain in your DNSimple account, follow these steps to ad
 
 You just added a DNS zone for your domain.
 
-<tip>
-If you want to change or edit your DNS, navigate to the **DNS** tab under your domain's management page.
-</tip>
+> [!TIP]
+> If you want to change or edit your DNS, navigate to the **DNS** tab under your domain's management page.
 
 ![DNS Zone Management](/files/getting-started-dns-external-manage.png)
 
