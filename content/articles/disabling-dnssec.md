@@ -26,8 +26,8 @@ categories:
 
 ## Important timing considerations
 
-> [!IMPORTANT]
-> **TTL and propagation delays:** When you disable DNSSEC, it can take 24 to 48 hours for the process to completely finish. This is because of TTL (Time-to-Live) values, which control how long DNS records are cached. During this time, our system ensures that all DNSSEC-related records are properly torn down so that your zone continues to resolve correctly. The complete disable process will not finish until the TTL has expired and all DNSSEC records have been fully removed from the DNS system.
+> [!TIP]
+> TTL and propagation delays: When you disable DNSSEC, it can take 24 to 48 hours for the process to completely finish. This is because of TTL (Time-to-Live) values, which control how long DNS records are cached. During this time, our system ensures that all DNSSEC-related records are properly torn down so that your zone continues to resolve correctly. The complete disable process will not finish until the TTL has expired and all DNSSEC records have been fully removed from the DNS system.
 
 If your domain is not registered with DNSimple, you must also remove the DS records at your domain registrar. The DS record removal at the registrar level is also subject to TTL propagation delays. For step-by-step instructions on removing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
 
