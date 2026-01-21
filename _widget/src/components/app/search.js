@@ -71,16 +71,8 @@ class Search {
 
     const results = this.fuse.search(q);
 
-    // Boost same-site results by putting them first (subtract 1 from score)
-    const boostedResults = results.map(result => ({
-      ...result,
-      score: result.item.sourceUrl === this.currentSiteUrl ? result.score - 1 : result.score
-    }));
-
-    boostedResults.sort((a, b) => a.score - b.score);
-
     // Remove pinned articles from fuse results to avoid duplicates
-    const fuseResults = boostedResults
+    const fuseResults = results
       .filter(r => !pinnedIds.includes(r.item.id))
       .slice(0, MAX_RESULTS - pinned.length)
       .map(r => r.item);
