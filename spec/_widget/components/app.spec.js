@@ -291,6 +291,23 @@ describe('App', () => {
     });
   });
 
+  describe('when remote data is loading', () => {
+    it('shows loading indicator instead of error', async () => {
+      let resolveFetch;
+      const fetch = () => new Promise(resolve => { resolveFetch = resolve; });
+
+      const subject = mount(App, { propsData: { ...propsData, fetch } });
+      subject.vm.open(); // Don't await - we want to check during loading
+
+      await nextTick();
+
+      expect(subject.find('.loading').exists()).toBe(true);
+      expect(subject.text()).not.toContain('We couldn\'t load our support articles');
+
+      resolveFetch(ARTICLES);
+    });
+  });
+
   describe('when remote data cannot be loaded', () => {
     let subject;
 
@@ -301,6 +318,25 @@ describe('App', () => {
 
     it ('shows an error message', () => {
       expect(subject.text()).toContain('We couldn\'t load our support articles. Please try reloading the page.');
+    });
+  });
+
+  describe('when getting-started article does not exist', () => {
+    let subject;
+    const articlesWithoutGettingStarted = ARTICLES.filter(a => a.id !== '/articles/getting-started/');
+
+    beforeEach(async () => {
+      subject = mount(App, {
+        propsData: {
+          ...propsData,
+          fetch: () => Promise.resolve(articlesWithoutGettingStarted)
+        }
+      });
+      await subject.vm.open();
+    });
+
+    it('shows the articles list instead of an error', () => {
+      expect(subject.text()).not.toContain('We couldn\'t load our support articles');
     });
   });
 
@@ -332,9 +368,9 @@ describe('App', () => {
     it('opens links in the body of the article in a regular page', async () => {
       await subject.find('[aria-label="Open widget"]').trigger('click');
       await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
-      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/common-dns-records/"]').trigger('click');
 
-      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/dnsimple-services/');
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/common-dns-records/');
     });
   });
 

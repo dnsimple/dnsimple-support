@@ -113,7 +113,7 @@ export default {
     },
 
     couldNotLoad() {
-      return !this.gettingStarted;
+      return this.search.articleList.length === 0;
     },
 
     errorArticle() {
@@ -199,7 +199,9 @@ export default {
     },
 
     chooseRoute() {
-      if (this.couldNotLoad)
+      if (this.isLoading)
+        this._goToRoute('Articles');
+      else if (this.couldNotLoad)
         this._goToRoute('Article', this.errorArticle);
       else if (this.filteredArticles.length === 1)
         this._goToRoute('Article', this.filteredArticles[0]);
@@ -209,9 +211,9 @@ export default {
         this._goToRoute('Articles');
       else if (this.hasRecentlyVisitedArticles)
         this._goToRoute('Articles');
-      else if (this.filteredArticles.length === 0 && this.q.length === 0)
+      else if (this.gettingStarted)
         this._goToRoute('Article', this.gettingStarted);
-      else if (this.currentRoute[0] !== 'Articles')
+      else
         this._goToRoute('Articles');
     },
 
@@ -237,7 +239,10 @@ export default {
             this.addArticles(articles, sourceUrl);
             this.isFetched[sourceUrl] = true;
             resolve();
-          }).catch(reject);
+          }).catch((e) => {
+            this.isFetched[sourceUrl] = true;
+            reject(e);
+          });
       });
     },
 
