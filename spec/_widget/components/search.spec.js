@@ -44,4 +44,20 @@ describe("Search", () => {
 
     expect(trackSearch).toHaveBeenCalledTimes(1);
   });
+
+  it("prioritizes same-site results", () => {
+    subject = new Search(undefined, "https://developer.dnsimple.com");
+    subject.addArticles(ARTICLES, "https://support.dnsimple.com");
+
+    const sameSiteArticle = {
+      id: "/v2/zones/ns-records/",
+      title: "Zone NS Records API | Zones | DNSimple API v2",
+    };
+    subject.addArticles([sameSiteArticle], "https://developer.dnsimple.com");
+
+    const results = subject.query("records");
+
+    expect(results[0].id).toEqual(sameSiteArticle.id);
+    expect(results[0].title).toEqual(sameSiteArticle.title);
+  });
 });

@@ -1,5 +1,6 @@
 import Fuse from 'fuse.js';
 import { trackSearch } from './analytics.js';
+import DICTIONARY from './dictionary.js';
 
 const MAX_RESULTS = 7;
 
@@ -8,6 +9,26 @@ const fuseOptions = {
   threshold: 0.4,
   ignoreLocation: true,
   includeScore: true
+};
+
+const expandQuery = (q) => {
+  // Check for exact multi-word matches first
+  for (const key in DICTIONARY) 
+    if (q === key) 
+      return q + ' ' + DICTIONARY[key];
+    
+  
+
+  // Then check individual words
+  const words = q.split(/\s+/);
+  const expanded = words.map(word => {
+    if (word.length <= 1) return word;
+    if (DICTIONARY[word]) 
+      return word + ' ' + DICTIONARY[word];
+    
+    return word;
+  });
+  return expanded.join(' ');
 };
 
 class Search {
@@ -62,22 +83,18 @@ class Search {
 
     if (!this.fuse) return [];
 
-    const results = this.fuse.search(q);
+    const expandedQ = expandQuery(q);
+    const results = this.fuse.search(expandedQ);
 
-    // Prioritize same-site results
-    const sameSite = [];
-    const otherSite = [];
+    // Boost same-site results by putting them first (subtract 1 from score)
+    const boostedResults = results.map(result => ({
+      ...result,
+      score: result.item.sourceUrl === this.currentSiteUrl ? result.score - 1 : result.score
+    }));
 
-    results.slice(0, MAX_RESULTS * 2).forEach(result => {
-      const article = result.item;
-      if (article.sourceUrl === this.currentSiteUrl) 
-        sameSite.push(article);
-       else 
-        otherSite.push(article);
-      
-    });
+    boostedResults.sort((a, b) => a.score - b.score);
 
-    const finalResults = [...sameSite, ...otherSite].slice(0, MAX_RESULTS);
+    const finalResults = boostedResults.slice(0, MAX_RESULTS).map(r => r.item);
 
     if (originalQ) 
       trackSearch(originalQ, finalResults.map(a => a.title));
