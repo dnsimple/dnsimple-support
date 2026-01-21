@@ -13,20 +13,13 @@ const fuseOptions = {
 
 const expandQuery = (q) => {
   // Check for exact multi-word matches first
-  for (const key in DICTIONARY) 
-    if (q === key) 
-      return q + ' ' + DICTIONARY[key];
-    
-  
+  if (DICTIONARY[q]) return DICTIONARY[q];
 
-  // Then check individual words
+  // Then translate individual words
   const words = q.split(/\s+/);
   const expanded = words.map(word => {
     if (word.length <= 1) return word;
-    if (DICTIONARY[word]) 
-      return word + ' ' + DICTIONARY[word];
-    
-    return word;
+    return DICTIONARY[word] || word;
   });
   return expanded.join(' ');
 };
