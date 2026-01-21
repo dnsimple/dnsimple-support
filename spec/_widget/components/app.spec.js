@@ -3,6 +3,8 @@ import { nextTick } from "vue";
 import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
+const waitForDebounce = () => new Promise(r => setTimeout(r, 300));
+
 describe('App', () => {
   const promptMessage = 'Need Help?';
 
@@ -220,7 +222,9 @@ describe('App', () => {
       const subject = mount(App, { propsData: { ...propsData, gettingStartedUrl: '/articles/nonexistent/' } });
       await subject.vm.open();
       await subject.find('input').setValue('xyznonexistent');
+      await waitForDebounce();
       await subject.find('input').setValue('');
+      await waitForDebounce();
 
       expect(subject.text()).toContain('Try searching for something like');
     });
