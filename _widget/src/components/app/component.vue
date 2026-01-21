@@ -14,6 +14,7 @@
 <script>
 import { nextTick } from 'vue';
 import { urlMatchingDictionary } from './url-dictionary.js';
+import RIGGED_RESULTS from './rigged-results.js';
 
 import Footer from '../footer/component.vue';
 import Header from '../header/component.vue';
@@ -63,7 +64,7 @@ export default {
     },
     search: {
       type: Object,
-      default(props) { return new Search(undefined, props.currentSiteUrl); }
+      default(props) { return new Search({ currentSiteUrl: props.currentSiteUrl, riggedResults: RIGGED_RESULTS }); }
     },
     sources: {
       type: Array,

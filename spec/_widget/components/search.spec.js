@@ -18,6 +18,12 @@ describe("Search", () => {
     subject.addArticles(ARTICLES, "https://support.dnsimple.com");
   });
 
+  const searchWithRigged = (riggedResults) => {
+    const s = new Search({ riggedResults });
+    s.addArticles(ARTICLES, "https://support.dnsimple.com");
+    return s;
+  };
+
   it("can load articles", () => {
     expect(subject.query("dns").length).toBeGreaterThan(0);
   });
@@ -54,7 +60,7 @@ describe("Search", () => {
   });
 
   it("prioritizes same-site results", () => {
-    subject = new Search(undefined, "https://developer.dnsimple.com");
+    subject = new Search({ currentSiteUrl: "https://developer.dnsimple.com" });
     subject.addArticles(ARTICLES, "https://support.dnsimple.com");
 
     const sameSiteArticle = {
@@ -69,42 +75,24 @@ describe("Search", () => {
     expect(results[0].title).toEqual(sameSiteArticle.title);
   });
 
-  describe("dictionary expansion", () => {
-    // Maps dictionary keys to expected articles based on old query specs
-    const dictionaryQueries = {
-      "add user": ["account-users"],
-      "metrics": ["dns-query-limits"],
-      "stats": ["dns-query-limits"],
-      "observability": ["dns-query-limits"],
-      "queries": ["dns-query-limits"],
-      "analytics": ["dns-query-limits"],
-      "comment": ["record-notes"],
-      "expiry": ["product-expiration-notification", "disabling-expiration-notifications"],
-      "axfr": ["secondary-dns"],
-      "2fa": ["multi-factor-authentication"],
-      "login": ["getting-started"],
-      "transfer": ["domain-transfer", "transferring-domain-away"],
-      "validation": ["icann-domain-validation"],
-      "propagation": ["domain-resolution-issues"],
-      "ipv6": ["ipv6-support"],
-      "email": ["mx-record", "email-forwarding"],
-      "registration": ["registering-domain"],
-      "nameservers": ["setting-name-servers"],
-      "delegate": ["setting-name-servers"],
+  it("pins configured articles to the top of results", () => {
+    const riggedResults = {
+      email: ["/articles/mx-record/", "/articles/email-forwarding/", "/articles/email-hosting/"],
     };
+    const results = searchWithRigged(riggedResults).query("email");
 
-    Object.entries(dictionaryQueries).forEach(([searchTerm, expectedIds]) => {
-      describe(`\`${searchTerm}\``, () => {
-        expectedIds
-          .map((id) => `/articles/${id}/`)
-          .forEach((id) => {
-            it(`returns \`${id}\` as result`, () => {
-              const results = subject.query(searchTerm);
-              const resultIds = results.map((result) => result.id);
-              expect(resultIds).toContain(id);
-            });
-          });
-      });
-    });
+    expect(results[0].id).toEqual("/articles/mx-record/");
+    expect(results[1].id).toEqual("/articles/email-forwarding/");
+    expect(results[2].id).toEqual("/articles/email-hosting/");
+  });
+
+  it("ignores pinned articles that don't exist", () => {
+    const riggedResults = {
+      email: ["/articles/non-existent/", "/articles/mx-record/"],
+    };
+    const results = searchWithRigged(riggedResults).query("email");
+
+    expect(results[0].id).toEqual("/articles/mx-record/");
+    expect(results.length).toBeGreaterThan(0);
   });
 });

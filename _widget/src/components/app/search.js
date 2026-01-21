@@ -1,6 +1,5 @@
 import Fuse from 'fuse.js';
 import { trackSearch } from './analytics.js';
-import DICTIONARY from './dictionary.js';
 
 const MAX_RESULTS = 7;
 
@@ -11,22 +10,10 @@ const fuseOptions = {
   includeScore: true
 };
 
-const expandQuery = (q) => {
-  // Check for exact multi-word matches first
-  if (DICTIONARY[q]) return DICTIONARY[q];
-
-  // Then translate individual words
-  const words = q.split(/\s+/);
-  const expanded = words.map(word => {
-    if (word.length <= 1) return word;
-    return DICTIONARY[word] || word;
-  });
-  return expanded.join(' ');
-};
-
 class Search {
-  constructor(dictionary = {}, currentSiteUrl = '') {
+  constructor({ currentSiteUrl = '', riggedResults = {} } = {}) {
     this.currentSiteUrl = currentSiteUrl;
+    this.riggedResults = riggedResults;
     this.articles = new Map();
     this.articleList = [];
     this.fuse = null;
@@ -76,8 +63,13 @@ class Search {
 
     if (!this.fuse) return [];
 
-    const expandedQ = expandQuery(q);
-    const results = this.fuse.search(expandedQ);
+    // Get pinned articles by ID
+    const pinnedIds = this.riggedResults[q] || [];
+    const pinned = pinnedIds
+      .map(id => this.articleList.find(a => a.id === id))
+      .filter(Boolean);
+
+    const results = this.fuse.search(q);
 
     // Boost same-site results by putting them first (subtract 1 from score)
     const boostedResults = results.map(result => ({
@@ -87,7 +79,13 @@ class Search {
 
     boostedResults.sort((a, b) => a.score - b.score);
 
-    const finalResults = boostedResults.slice(0, MAX_RESULTS).map(r => r.item);
+    // Remove pinned articles from fuse results to avoid duplicates
+    const fuseResults = boostedResults
+      .filter(r => !pinnedIds.includes(r.item.id))
+      .slice(0, MAX_RESULTS - pinned.length)
+      .map(r => r.item);
+
+    const finalResults = [...pinned, ...fuseResults];
 
     if (originalQ) 
       trackSearch(originalQ, finalResults.map(a => a.title));
