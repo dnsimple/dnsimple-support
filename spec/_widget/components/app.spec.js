@@ -220,9 +220,7 @@ describe('App', () => {
       const subject = mount(App, { propsData: { ...propsData, gettingStartedUrl: '/articles/nonexistent/' } });
       await subject.vm.open();
       await subject.find('input').setValue('xyznonexistent');
-      await waitForDebounce();
       await subject.find('input').setValue('');
-      await waitForDebounce();
 
       expect(subject.text()).toContain('Try searching for something like');
     });
