@@ -124,12 +124,14 @@ describe('App', () => {
 
     it('highlights a word', async () => {
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.html()).toContain('<mark>Getting</mark>');
     });
 
     it('highlights part of a word', async () => {
       await subject.find('input').setValue('Gett');
+      await waitForDebounce();
 
       expect(subject.html()).toContain('<mark>Gett</mark>ing');
     });
@@ -140,6 +142,7 @@ describe('App', () => {
       const subject = mount(App, { propsData });
       await subject.vm.open();
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.find('h4').text()).toContain('DNSimple Support');
     });
@@ -154,6 +157,7 @@ describe('App', () => {
       await subject.vm.open();
 
       await subject.find('input').setValue('fooba');
+      await waitForDebounce();
 
       const sourceHeaders = subject.findAll('h4');
       expect(sourceHeaders.at(0).text()).toContain('DNSimple Developer');
@@ -171,6 +175,7 @@ describe('App', () => {
 
     it('groups the articles by category', async () => {
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.find('.category').text()).toContain('DNSimple');
     });
@@ -197,7 +202,9 @@ describe('App', () => {
 
     it('shows recently visited articles when there is nothing else to display', async () => {
       await subject.find('input').setValue('search');
+      await waitForDebounce();
       await subject.find('input').setValue('');
+      await waitForDebounce();
       expect(subject.find('h4').text()).toContain('Recently Visited');
 
       expect(subject.find(`[aria-label="Visit ${article.title}"] > h6`).text()).toContain(article.title);
@@ -206,6 +213,7 @@ describe('App', () => {
     it('stores recently visited articles', async () => {
       const recentArticle = ARTICLES[1];
       await subject.find('input').setValue(recentArticle.title);
+      await waitForDebounce();
 
       const articleLink = subject.find(`[aria-label="Visit ${recentArticle.title}"] > h6`);
       expect(articleLink.text()).toContain(recentArticle.title);
