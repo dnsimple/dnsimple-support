@@ -1,6 +1,6 @@
 ---
 title: Setting the Name Servers for a Domain
-excerpt: To set the name servers, your domain must be registered with DNSimple. If it's not, use the control panel of your current domain registrar to update the name servers.
+excerpt: Learn how to delegate name servers to another provider or point your domain to DNSimple's name servers. To set the name servers, your domain must be registered with DNSimple.
 categories:
   - Name Servers
 ---
@@ -16,11 +16,13 @@ categories:
 
 To set the name servers, your domain must be registered with DNSimple. If that's not the case, use the control panel of your current domain registrar to update the name servers.
 
-You can set the name servers of a domain registered with DNSimple from your domain page.
+You can set the name servers of a domain registered with DNSimple from your domain page. This article explains how to delegate name servers to another provider when your domain is registered with DNSimple.
 
 ## Pointing the name servers to another provider
 
-Pointing the name servers to another provider will cause the domain to resolve using the DNS records configured at the other DNS provider. The DNS records in your DNSimple account will be ignored.
+This section explains how to delegate name servers to another provider. When you delegate name servers to another provider, you're telling the DNS system to use that provider's name servers instead of DNSimple's. Pointing the name servers to another provider will cause the domain to resolve using the DNS records configured at the other DNS provider. The DNS records in your DNSimple account will be ignored.
+
+To delegate name servers to another provider, you need to update your domain's name server delegation at your registrar. This article explains how to delegate name servers to another provider when your domain is registered with DNSimple.
 
 <div class="section-steps" markdown="1">
 ##### To point the name servers to another provider
@@ -49,8 +51,9 @@ Pointing the name servers to another provider will cause the domain to resolve u
 
 </div>
 
-> [!NOTE]
-> DNSimple's listing of NS records for the domain will be updated to match the name server changes.
+<info>
+DNSimple's listing of NS records for the domain will be updated to match the name server changes.
+</info>
 
 ## Pointing the name servers to DNSimple
 
