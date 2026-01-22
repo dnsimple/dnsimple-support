@@ -127,9 +127,9 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 > [!NOTE]
 > If you're using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record for IP address resolution. Both ALIAS records and URL records resolve to A and/or AAAA records, so `ping` will work correctly with these record types.
 
-   > **ALIAS records**: DNSimple's name servers dynamically resolve ALIAS records to A and/or AAAA records at query time. From the resolver's perspective, the domain appears to have standard A or AAAA records, so `ping` will work as expected.
+>    **ALIAS records**: DNSimple's name servers dynamically resolve ALIAS records to A and/or AAAA records at query time. From the resolver's perspective, the domain appears to have standard A or AAAA records, so `ping` will work as expected.
 
-   > **URL records**: URL records automatically configure underlying A and AAAA records that point to DNSimple's redirector service IP addresses. These A/AAAA records enable DNS resolution, while the HTTP redirect happens at the HTTP/HTTPS layer.
+>    **URL records**: URL records automatically configure underlying A and AAAA records that point to DNSimple's redirector service IP addresses. These A/AAAA records enable DNS resolution, while the HTTP redirect happens at the HTTP/HTTPS layer.
 
 > The DNS standard requires A or AAAA records for IP address resolution (RFC 1035), and both ALIAS and URL records provide these records. However, the redirector service blocks ICMP traffic (used by `ping`), so URL records cannot be tested with `ping`. For more information, see [What Is an ALIAS Record?](/articles/alias-record/) and [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/).
 
