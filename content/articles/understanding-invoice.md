@@ -4,6 +4,7 @@ excerpt: A detailed explanation of DNSimple invoices.
 meta: Discover everything you need to know about DNSimple invoices, including billing cycles, payment methods, and how to manage your account effectively.
 categories:
 - Account
+- Enterprise
 ---
 
 # Understanding Your Invoice
@@ -77,9 +78,8 @@ DNSimple has both recurring charges and purchases. Purchases, like the fees you 
 - Domain transfers
 - Standard or Wildcard SSL certificates
 
-<info>
-Domain registration charges can be recurring if you've enabled [auto-renewal](/articles/domain-auto-renewal/).
-</info>
+> [!NOTE]
+> Domain registration charges can be recurring if you've enabled [auto-renewal](/articles/domain-auto-renewal/).
 
 ## Proration
 

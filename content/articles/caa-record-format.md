@@ -15,7 +15,7 @@ All CAA records must adhere to a specific pattern in their RDATA (Resource Data)
 | Element | Type | Description | Constraints |
 |:--------|:-----|:----|:----|
 | `flags` | Integer | An unsigned 8-bit integer that indicates special properties of the tag. | Currently, only `0` (no flags set) and `128` (critical flag) are defined. |
-| `tag` | String | An ASCII string that defines the meaning of the value. | Must be an ASCII string. Defined tags include `issue`, `issuewild`, `issuemail`, and `iodef`. |
+| `tag` | String | An ASCII string that defines the meaning of the value. | Must be an ASCII string. Defined tags include `issue`, `issuewild`, `issuemail`, `iodef`, `contactemail`, and `contactphone`. |
 | `value` | String | The value associated with the tag. | The format and content depend on the specific `tag` used. |
 
 ## CAA record flags
@@ -52,12 +52,25 @@ The `iodef` tag (Incident Object Description Exchange Format) allows domain owne
     - **Example**: `"mailto:security@example.com"`
     - **Example**: `"https://iodef.example.com/report"`
 
+### `contactemail` tag: specifying contact email for certificate validation
+
+The `contactemail` tag allows domain owners to specify an email address that Certificate Authorities (CAs) must use to confirm domain ownership before issuing SSL certificates. This enables CAs to automatically validate certificate requests by emailing the specified contact address.
+- **Value**: A valid email address.
+    - **Example**: `"admin@example.com"`
+    - **Example**: `"security@example.com"`
+
+### `contactphone` tag: specifying contact phone for certificate validation
+
+The `contactphone` tag allows domain owners to specify a phone number that Certificate Authorities (CAs) must use to confirm domain ownership before issuing SSL certificates. This enables CAs to automatically validate certificate requests by contacting the specified phone number.
+- **Value**: A valid phone number, including country code.
+    - **Example**: `"+1 555 123 4567"`
+    - **Example**: `"+44 20 7946 0958"`
+
 ## CAA record examples
 Common CAA record configurations
 
-<note>
-A domain can have multiple CAA records to describe the desired set of restrictions.
-</note>
+> [!NOTE]
+> A domain can have multiple CAA records to describe the desired set of restrictions.
 
 | Scenario | Example DNSimple configuration (name / flags / tag / content) | Canonical form (for reference) | Description |
 |:--------|:-----|:----|:----|

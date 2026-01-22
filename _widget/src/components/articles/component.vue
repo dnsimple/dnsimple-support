@@ -56,10 +56,18 @@
       </ul>
     </div>
 
-    <div v-else class="articles">
+    <div v-else-if="app.q.length > 0" class="articles">
       <ul>
         <li class="pb0">
           <p class="a-padding">We couldn't find any articles for: <strong>{{ app.q }}</strong></p>
+        </li>
+      </ul>
+    </div>
+
+    <div v-else class="articles">
+      <ul>
+        <li class="pb0">
+          <p class="a-padding">Try searching for something like "alias" or "transfer"</p>
         </li>
       </ul>
     </div>

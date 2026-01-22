@@ -1,6 +1,9 @@
 [build]
   publish = "output"
-  command = "NANOC_ENV=production rake publish"
+  command = "rake publish"
+
+[build.environment]
+  NANOC_ENV = "production"
 
 [[headers]]
   for = "/*"
@@ -12,6 +15,11 @@
   for = "/search.json"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/search"
+  to = "/"
+  status = 301
 
 [[redirects]]
   from = "/*"

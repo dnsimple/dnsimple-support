@@ -1,6 +1,7 @@
 ---
 title: What Is DNS?
 excerpt: DNS resolves human-readable domain names to machine-readable IP addresses.
+meta: Learn how DNS (Domain Name System) translates domain names to IP addresses. Understand DNS resolution, records, and how the internet's naming system works.
 categories:
 - DNS
 ---

@@ -45,6 +45,7 @@ The following Route 53 record types are supported for syncing and management at 
 
 - [A](/articles/a-record/)
 - [AAAA](/articles/aaaa-record/)
+- [CAA](/articles/caa-record/)
 - [CNAME](/articles/cname-record/)
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)
@@ -52,12 +53,12 @@ The following Route 53 record types are supported for syncing and management at 
 - [SOA](/articles/soa-record/)
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
+- [SSHFP](/articles/sshfp-records/)
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
 
-<note>
-[URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be represented in Route 53 as an A record that points to our [redirector](/articles/redirector/).
-</note>
+> [!NOTE]
+> [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be represented in Route 53 as an A record that points to our [redirector](/articles/redirector/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

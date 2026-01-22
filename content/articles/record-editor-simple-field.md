@@ -1,6 +1,7 @@
 ---
 title: Understanding DNSimple's Record Editors Simple vs. Field-Specific
 excerpt: The Record Editor gives you the ability to view, create, and manage the DNS records for a domain.
+meta: Understand the difference between DNSimple's simple and field-specific record editors. Learn when to use each editor for optimal DNS record management.
 categories:
 - DNS
 ---
@@ -16,7 +17,7 @@ The Simple Editor presents a streamlined interface, primarily asking you to prov
     - Enter the subdomain part for a specific hostname (e.g., `subdomain`).
     - You can also enter an `*` for a wildcard record, which matches any subdomain not explicitly defined.
 - **Content**: This is a single, free-form text field where you enter the entire content of the DNS record's data.
-- **TTL (Time-to-Live)**: This value determines how long DNS lookups for that record can be cached by resolvers around the internet. The default value is typically 1 hour (3600 seconds), but you can adjust it.
+- **TTL (Time-to-Live)**: This value determines how long DNS lookups for that record can be cached by resolvers around the internet. The default value is typically 1 hour (3600 seconds), but you can adjust it. To learn more about TTL, see [What Is Time-to-Live?](/articles/what-is-ttl/).
 
 ![simple record editor](/files/switch-to-simple-editor.png)
 
@@ -47,6 +48,8 @@ DNSimple provides both editing experiences to cater to different user needs and 
 **Flexibility for experts**: Experienced users or those integrating with third-party services can quickly paste raw record content.
 
 **Guidance for all users**: The structured fields help ensure accuracy for complex records, providing clear guidance and validation to minimize errors. This simplifies DNS management for users regardless of their technical expertise.
+
+For a complete list of supported DNS record types, see [Supported DNS Records and DNS Record Types](/articles/supported-dns-records/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

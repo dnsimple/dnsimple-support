@@ -8,7 +8,7 @@ categories:
 
 # How to Use dig
 
-When you're trying to troubleshoot DNS issues, `dig` (domain information groper) is one of the most valuable tools.
+When you're trying to troubleshoot DNS issues, `dig` (domain information groper) is one of the most valuable tools. If you're new to `dig`, start with [What Is dig?](/articles/what-is-dig/) for an introduction. For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/).
 
 From the `dig` manual:
 
@@ -190,6 +190,10 @@ www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
 ## Digging deeper
 
 To dig even deeper into `dig`, open a console and type `dig -h` for the list of supported options, or `man dig` for more in-depth details about `dig` and how it functions.
+
+## Troubleshooting DNS issues
+
+If you're experiencing DNS resolution problems, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance. You may also want to [check your DNS cache](/articles/check-dns-cache/) if you're not seeing recent DNS changes.
 
 ## Have more questions?
 If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

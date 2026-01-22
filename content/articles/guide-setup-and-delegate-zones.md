@@ -29,9 +29,8 @@ Enter the name of the zone you want to add.
 
 ![screenshot: Add zone modal dialog](/files/add-zone-modal.png)
 
-<info>
-Adding a zone to DNSimple does not mean the domain will resolve through DNSimple. To make a domain resolve through DNSimple, you must delegate it from wherever it's registered.
-</info>
+> [!NOTE]
+> Adding a zone to DNSimple does not mean the domain will resolve through DNSimple. To make a domain resolve through DNSimple, you must delegate it from wherever it's registered.
 
 **Adding a zone from your Domain List**
 

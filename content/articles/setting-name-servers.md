@@ -51,9 +51,8 @@ To delegate name servers to another provider, you need to update your domain's n
 
 </div>
 
-<info>
-DNSimple's listing of NS records for the domain will be updated to match the name server changes.
-</info>
+> [!NOTE]
+> DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
 ## Pointing the name servers to DNSimple
 

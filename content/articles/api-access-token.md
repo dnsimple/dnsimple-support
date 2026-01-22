@@ -3,6 +3,7 @@ title: API Access Token
 excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
 categories:
 - API
+- Enterprise
 ---
 
 # API Access Token
@@ -30,9 +31,8 @@ The API offers two types of tokens: Account and user.
 
 The user token gives you access to any resource associated with any account the user has access to. An account token gives you access only to the resources connected to that account.
 
-<tip>
-We recommend using account tokens unless your application needs multi-account access via a single token.
-</tip>
+> [!TIP]
+> We recommend using account tokens unless your application needs multi-account access via a single token.
 
 ## Getting to the account access token page
 
@@ -49,9 +49,8 @@ You can find the last used date of an access token on the list of existing acces
 
 ## Generating an account access token
 
-<info>
-To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
-</info>
+> [!NOTE]
+> To generate an account access token with fine-grained permission scopes, i.e. a scoped access token, you must be [subscribed to an eligible plan](https://dnsimple.com/pricing).
 
 Click **Add** to add a new access token.
 
@@ -65,6 +64,8 @@ Click **Generate token** to create the token after giving it a name.
 ### Selecting permission scopes {#scoped-access-tokens}
 
 Scoped access tokens can be restricted to access only certain resources, or certain groups of resources, in an account. The type of access, i.e. read-only or full access, can also be specified. For instance, you can create an account access token with permissions for managing all the certificates for a given domain name or across all domain names. You can also create account access tokens with read-only permissions for specific zones.
+
+When using a scoped access token with granular permissions (i.e., access to specific domains or zones rather than all), the API list endpoints (`/domains` and `/zones`) will return only the resources the token has access to.
 
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 

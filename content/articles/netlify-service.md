@@ -8,9 +8,8 @@ categories:
 
 # Netlify One-click Service
 
-<note>
-This service is being deprecated. We recommend that you use the [Netlify Connector](/articles/netlify-connector/) instead.
-</note>
+> [!NOTE]
+> This service is being deprecated. We recommend that you use the [Netlify Connector](/articles/netlify-connector/) instead.
 
 ### Table of Contents {#toc}
 

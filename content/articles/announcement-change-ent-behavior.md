@@ -1,15 +1,15 @@
 ---
 title: Change of Non-Compliant ENT Behavior
 excerpt: We are updating our name server behavior to properly handle Empty Non-Terminal (ENT) records.
+meta: Learn about DNSimple's update to RFC 4592-compliant ENT behavior. Understand how Empty Non-Terminal records will be handled and what action you may need to take.
 categories:
   - DNS
 ---
 
 # Change of Non-Compliant ENT Behavior
 
-<info>
-This article contains information that is only relevant to customers with specific zone records. If you are impacted, you will receive an email from us asking you to take action.
-</info>
+> [!NOTE]
+> This article contains information that is only relevant to customers with specific zone records. If you are impacted, you will receive an email from us asking you to take action.
 
 ### Table of Contents {#toc}
 

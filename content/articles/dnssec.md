@@ -1,6 +1,7 @@
 ---
 title: DNSSEC at DNSimple
 excerpt: Learn where to find everything you need to know about DNSSEC at DNSimple.
+meta: Discover everything you need to know about DNSSEC at DNSimple. Learn how to enable, manage, and troubleshoot DNSSEC for enhanced DNS security.
 categories:
 - DNSSEC
 ---
@@ -27,6 +28,7 @@ If you are new to DNSSEC, these articles will help you understand the fundamenta
 - [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/): Learn about Resource Record Sets (RRSETs) and RRSIG (Resource Record Signature) records, which provide cryptographic proof of data integrity.
 - [Understanding NSEC and NSEC3 Records](/articles/nsec-nsec3-records/): Explore NSEC and NSEC3 records and how they help prevent zone walking.
 - [What Are CDS and CDNSKEY Records?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
+- [Why DNSSEC and Secondary DNS may not work together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 
 ## How to manage DNSSEC
 
@@ -43,7 +45,7 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 
 Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
-- [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
+- [Troubleshooting DNSSEC](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
 
 ## Reference articles
 

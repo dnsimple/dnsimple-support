@@ -4,6 +4,7 @@ excerpt: The term top-level domain, or TLD, refers to the first part of every do
 meta: Discover what a top-level domain (TLD) is and how it plays a crucial role in domain names. Learn about different TLD types and their significance in web addressing.
 categories:
 - Domains
+- Enterprise
 ---
 
 # What is a TLD?
@@ -12,9 +13,8 @@ The term top-level domain, or TLD, refers to the first part of every domain name
 
 There are currently over 1200 TLDs, but not all of them are open for registration. For more information about available and supported TLDs, check the [list of TLDs supported by DNSimple for registration and transfer](https://dnsimple.com/tlds).
 
-<tip>
-Even if a TLD is not supported for registration or transfer, you can still [add the domain to your account](/articles/adding-domain/) to use DNSimple for the DNS hosting or other domain services such as [purchasing an SSL certificate](https://dnsimple.com/ssl-certificates).
-</tip>
+> [!TIP]
+> Even if a TLD is not supported for registration or transfer, you can still [add the domain to your account](/articles/adding-domain/) to use DNSimple for the DNS hosting or other domain services such as [purchasing an SSL certificate](https://dnsimple.com/ssl-certificates).
 
 TLDs are generally grouped into 3 different categories:
 

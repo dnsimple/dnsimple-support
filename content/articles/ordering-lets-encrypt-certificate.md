@@ -4,6 +4,7 @@ excerpt: How to order a Let's Encrypt certificate with DNSimple.
 meta: Learn how to easily order a Let's Encrypt certificate with DNSimple to secure your website with free, automated SSL/TLS encryption for enhanced online safety.
 categories:
 - SSL Certificates
+- Enterprise
 ---
 
 # Ordering a Let's Encrypt Certificate
@@ -24,9 +25,8 @@ SSL certificates issued by Let's Encrypt are valid for 90 days from the issue da
 
 To order an SSL certificate, you need a DNSimple account. A subscription is necessary to keep the certificate renewed, and the domain must be delegated to use DNSimple's name servers due to the DNS challenge — which is automatically configured and checked in our implementation.
 
-<note>
-It is not necessary to transfer registration to us, but the domain must be only delegated to our name servers.
-</note>
+> [!NOTE]
+> It is not necessary to transfer registration to us, but the domain must be only delegated to our name servers.
 
 For more details about the configuration, approval, and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article, or follow the instructions on the site after you submit the SSL certificate order.
 
@@ -61,6 +61,5 @@ Check out our [pricing page](https://dnsimple.com/pricing) to understand the lim
 
 Once you order the certificate, we will configure the necessary DNS records and check that they are resolving properly before having Let's Encrypt check the DNS challenge. Once the challenge is verified, the certificate will be issued, and you can download and install the certificate on your server.
 
-<tip>
-Due to the short expiration cycle of Let's Encrypt certificates, it is recommended to automate as much of the installation process as possible. You can consult our [developer documentation on SSL Certificates](https://developer.dnsimple.com/v2/certificates/) for more information on how to do this via our API.
-</tip>
+> [!TIP]
+> Due to the short expiration cycle of Let's Encrypt certificates, it is recommended to automate as much of the installation process as possible. You can consult our [developer documentation on SSL Certificates](https://developer.dnsimple.com/v2/certificates/) for more information on how to do this via our API.

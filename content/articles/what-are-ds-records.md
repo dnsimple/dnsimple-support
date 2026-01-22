@@ -5,6 +5,7 @@ meta: Discover the importance of DS records in DNSSEC, how they enhance security
 categories:
 - DNSSEC
 - DNS
+- Enterprise
 ---
 
 # What are DS records?
@@ -136,6 +137,10 @@ dig DS howdnssec.works +short
 In this answer, we can see that the `howdnssec.works` zone has a DS record with the following RDATA:
 
 **Key Tag**: 48170, **Algorithm**: 8, **Digest type**: 2, **Digest**: `1D4DE33...BE678D4`
+
+## Learn more
+
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For step-by-step instructions on managing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/). For information about managing DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
