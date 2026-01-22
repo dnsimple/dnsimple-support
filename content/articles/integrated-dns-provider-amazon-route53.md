@@ -45,6 +45,7 @@ The following Route 53 record types are supported for syncing and management at 
 
 - [A](/articles/a-record/)
 - [AAAA](/articles/aaaa-record/)
+- [CAA](/articles/caa-record/)
 - [CNAME](/articles/cname-record/)
 - [MX](/articles/mx-record/)
 - [NS](/articles/ns-record/)
@@ -52,6 +53,7 @@ The following Route 53 record types are supported for syncing and management at 
 - [SOA](/articles/soa-record/)
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
+- [SSHFP](/articles/sshfp-records/)
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
 
