@@ -60,6 +60,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is an SRV Record?](/articles/srv-record/) - Learn about SRV (Service) records and how they specify service locations.
 - [What Are SSHFP Records?](/articles/sshfp-records/) - Understand SSHFP records and how they store SSH public key fingerprints.
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA (Transport Layer Security Authentication) records and how they enhance TLS security through DANE.
+- [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
 - [What Are System Records?](/articles/system-records/) - Learn about system records that DNSimple automatically manages for your domain.
 - [What Is a TXT Record?](/articles/txt-record/) - Understand TXT records and how they store arbitrary text data for various purposes.
 - [What Is a URL Record?](/articles/url-record/) - Learn about URL records and how they redirect domains to web addresses.
