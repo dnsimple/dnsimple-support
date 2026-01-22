@@ -5,10 +5,16 @@ Integrated Domain Providers:
 
 Integrated DNS Providers:
 - "Integrated DNS Providers at DNSimple"
-- "Amazon Route 53"
+- "What Are Integrated DNS Providers and Why Use Them?"
+- "Integrated DNS Provider Amazon Route 53"
+- "How to Use Route 53 as an Integrated DNS Provider"
 - "Amazon Route 53 Integration Demo"
-- "Azure DNS"
+- "Integrated DNS Provider Azure DNS"
 - "CoreDNS"
+- "Integrated DNS Provider CoreDNS"
+- "How to Use CoreDNS as an Integrated DNS Provider"
+- "Managing Integrated DNS Providers"
+- "Managing Integrated Zones for Integrated DNS Providers"
 
 Let's Encrypt:
 - "Let's Encrypt and DNSimple"
