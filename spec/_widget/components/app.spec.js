@@ -3,6 +3,8 @@ import { nextTick } from "vue";
 import App from '../../../_widget/src/components/app/component.vue';
 import ARTICLES from '../../../output/search.json';
 
+const waitForDebounce = () => new Promise(r => setTimeout(r, 300));
+
 describe('App', () => {
   const promptMessage = 'Need Help?';
 
@@ -122,12 +124,14 @@ describe('App', () => {
 
     it('highlights a word', async () => {
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.html()).toContain('<mark>Getting</mark>');
     });
 
     it('highlights part of a word', async () => {
       await subject.find('input').setValue('Gett');
+      await waitForDebounce();
 
       expect(subject.html()).toContain('<mark>Gett</mark>ing');
     });
@@ -138,6 +142,7 @@ describe('App', () => {
       const subject = mount(App, { propsData });
       await subject.vm.open();
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.find('h4').text()).toContain('DNSimple Support');
     });
@@ -152,6 +157,7 @@ describe('App', () => {
       await subject.vm.open();
 
       await subject.find('input').setValue('fooba');
+      await waitForDebounce();
 
       const sourceHeaders = subject.findAll('h4');
       expect(sourceHeaders.at(0).text()).toContain('DNSimple Developer');
@@ -169,6 +175,7 @@ describe('App', () => {
 
     it('groups the articles by category', async () => {
       await subject.find('input').setValue('getting');
+      await waitForDebounce();
 
       expect(subject.find('.category').text()).toContain('DNSimple');
     });
@@ -195,7 +202,9 @@ describe('App', () => {
 
     it('shows recently visited articles when there is nothing else to display', async () => {
       await subject.find('input').setValue('search');
+      await waitForDebounce();
       await subject.find('input').setValue('');
+      await waitForDebounce();
       expect(subject.find('h4').text()).toContain('Recently Visited');
 
       expect(subject.find(`[aria-label="Visit ${article.title}"] > h6`).text()).toContain(article.title);
@@ -204,6 +213,7 @@ describe('App', () => {
     it('stores recently visited articles', async () => {
       const recentArticle = ARTICLES[1];
       await subject.find('input').setValue(recentArticle.title);
+      await waitForDebounce();
 
       const articleLink = subject.find(`[aria-label="Visit ${recentArticle.title}"] > h6`);
       expect(articleLink.text()).toContain(recentArticle.title);
@@ -211,6 +221,20 @@ describe('App', () => {
       await articleLink.trigger('click');
       expect(subject.vm.recentlyVisitedArticles[0].id).toEqual(recentArticle.id);
       expect(subject.vm.recentlyVisitedArticles[1].id).toEqual(article.id);
+    });
+  });
+
+  describe('empty query', () => {
+    it('shows helpful prompt when query is cleared', async () => {
+      localStorage.clear();
+      const subject = mount(App, { propsData: { ...propsData, gettingStartedUrl: '/articles/nonexistent/' } });
+      await subject.vm.open();
+      await subject.find('input').setValue('xyznonexistent');
+      await waitForDebounce();
+      await subject.find('input').setValue('');
+      await waitForDebounce();
+
+      expect(subject.text()).toContain('Try searching for something like');
     });
   });
 
@@ -291,6 +315,23 @@ describe('App', () => {
     });
   });
 
+  describe('when remote data is loading', () => {
+    it('shows loading indicator instead of error', async () => {
+      let resolveFetch;
+      const fetch = () => new Promise(resolve => { resolveFetch = resolve; });
+
+      const subject = mount(App, { propsData: { ...propsData, fetch } });
+      subject.vm.open(); // Don't await - we want to check during loading
+
+      await nextTick();
+
+      expect(subject.find('.loading').exists()).toBe(true);
+      expect(subject.text()).not.toContain('We couldn\'t load our support articles');
+
+      resolveFetch(ARTICLES);
+    });
+  });
+
   describe('when remote data cannot be loaded', () => {
     let subject;
 
@@ -301,6 +342,25 @@ describe('App', () => {
 
     it ('shows an error message', () => {
       expect(subject.text()).toContain('We couldn\'t load our support articles. Please try reloading the page.');
+    });
+  });
+
+  describe('when getting-started article does not exist', () => {
+    let subject;
+    const articlesWithoutGettingStarted = ARTICLES.filter(a => a.id !== '/articles/getting-started/');
+
+    beforeEach(async () => {
+      subject = mount(App, {
+        propsData: {
+          ...propsData,
+          fetch: () => Promise.resolve(articlesWithoutGettingStarted)
+        }
+      });
+      await subject.vm.open();
+    });
+
+    it('shows the articles list instead of an error', () => {
+      expect(subject.text()).not.toContain('We couldn\'t load our support articles');
     });
   });
 
@@ -332,9 +392,9 @@ describe('App', () => {
     it('opens links in the body of the article in a regular page', async () => {
       await subject.find('[aria-label="Open widget"]').trigger('click');
       await subject.find('[aria-label="Visit Getting Started"]').trigger('click');
-      await subject.find('[href="https://support.dnsimple.com/articles/dnsimple-services/"]').trigger('click');
+      await subject.find('[href="https://support.dnsimple.com/articles/common-dns-records/"]').trigger('click');
 
-      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/dnsimple-services/');
+      expect(externalLinkProbe).toHaveBeenCalledWith('https://support.dnsimple.com/articles/common-dns-records/');
     });
   });
 

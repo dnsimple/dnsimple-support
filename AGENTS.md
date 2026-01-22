@@ -30,6 +30,7 @@ Articles are written in Markdown format with YAML frontmatter. Example structure
 ---
 title: Article Title
 excerpt: Brief description
+meta: Page metadata description
 categories:
 - Category Name
 ---
@@ -47,3 +48,45 @@ Content follows here...
 - `lib/` - Ruby libraries for nanoc processing
 - `_widget/` - Vue.js widget components
 - `output/` - Generated static site output
+
+## Support Widget
+
+The support widget is a Vue.js component that provides search across support and developer documentation.
+
+### Widget Configuration
+
+The widget is embedded via script tag in `layouts/default.html`:
+
+```html
+<script
+  type="text/javascript"
+  src="/widget.js"
+  data-dnsimple-current-site-url=""
+  data-dnsimple-getting-started-url="/articles/getting-started/"
+  data-dnsimple-sources='[{"name": "DNSimple Support", "url": ""}, {"name": "DNSimple Developer", "url": "https://developer.dnsimple.com"}]'
+></script>
+```
+
+- `data-dnsimple-current-site-url` - Used for same-site detection (determines if links open in widget or navigate away)
+- `data-dnsimple-sources` - Array of sources to fetch articles from. Empty URL means relative (current origin)
+
+### Rigged Results
+
+To pin specific articles to the top of search results for certain queries, edit `_widget/src/components/app/rigged-results.yml`:
+
+```yaml
+email:
+  - /articles/mx-record/
+  - /articles/email-forwarding/
+
+transfer:
+  - /articles/domain-transfer/
+```
+
+The YAML is parsed by `rigged-results.js` using a simple regex parser.
+
+### Widget Development
+
+- `_widget/index.html` - Test page for local widget development
+- Run `npm run dev` in `_widget/` for development
+- Run `npm test` to run widget specs
