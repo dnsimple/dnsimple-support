@@ -141,22 +141,13 @@
       });
   </script>
 
-<% if ENV['NANOC_ENV'] == 'production' %>
-  <script
-    type="text/javascript"
-    src="/widget.js"
-    data-dnsimple-current-site-url="https://support.dnsimple.com"
-    data-dnsimple-getting-started-url="https://support.dnsimple.com/articles/getting-started/"
-  ></script>
-<% else %>
   <script
     type="text/javascript"
     src="/widget.js"
     data-dnsimple-current-site-url=""
     data-dnsimple-getting-started-url="/articles/getting-started/"
-    data-dnsimple-sources='[{"name": "DNSimple Support", "url": ""}]'
+    data-dnsimple-sources='[{"name": "DNSimple Support", "url": ""}, {"name": "DNSimple Developer", "url": "https://developer.dnsimple.com"}]'
   ></script>
-<% end %>
   <script src="/dist/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
