@@ -11,9 +11,8 @@ When a domain expires it becomes inactive immediately and all the services attac
 
 To reactivate an expired domain, take a look at our [article on how to renew a domain](/articles/renewing-domain/).
 
-<warning>
-Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they've expired it's not possible to recover them.
-</warning>
+> [!WARNING]
+> Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they've expired it's not possible to recover them.
 
 ## ICANN TLDs
 
@@ -31,9 +30,8 @@ ICANN's rules and regulations permit expired generic top-level domains to be tra
 
 If you need to transfer an expired domain away, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact), and we'll help you through the process.
 
-<warning>
-These rules do not apply to [country code TLDs (ccTLDs)](#non-icann-tlds).
-</warning>
+> [!WARNING]
+> These rules do not apply to [country code TLDs (ccTLDs)](#non-icann-tlds).
 
 ### Redemption period
 
@@ -53,8 +51,7 @@ To reactivate a domain in redemption status, please take a look at our [article 
 
 TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc. may not follow the rules mentioned above. They may or may not provide a grace period and a redemption period. If they do, the length of the period may be different.
 
-<warning>
-ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
-</warning>
+> [!WARNING]
+> ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
 
 Moreover, some TLDs have no additional periods after the expiration and they are immediately deleted.

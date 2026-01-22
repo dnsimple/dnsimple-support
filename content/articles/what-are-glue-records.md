@@ -20,9 +20,8 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/m_RaPIRNxFs?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-<info>
-The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
-</info>
+> [!NOTE]
+> The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
 
 Glue records are a special type of DNS record that play an important role in the delegation of domain names, particularly when a domain's authoritative name servers are part of that same domain. They are essentially IP addresses (A or AAAA records) for name servers that solve a fundamental "chicken and egg" problem in the Domain Name System.
 

@@ -1,12 +1,14 @@
 ---
 title: Common DNS Records
-excerpt: Examples of the most common DNS records to configure for your domain.
+excerpt:  Examples of the most common DNS records to configure for your domain. Learn about DNS record types including A, CNAME, MX, TXT, and more.
 meta: Discover essential DNS record types for your domain, including A, CNAME, MX, and TXT records. Learn how to configure them effectively for optimal performance.
 categories:
 - DNS
 ---
 
 # Common DNS Records
+
+Learn about the most common DNS records you'll need to configure for your domain.
 
 ### Table of Contents {#toc}
 
@@ -96,9 +98,8 @@ Every domain needs a record for its root (or apex) domain. Without it, your doma
     - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
     - If the root domain needs to redirect to another URL (e.g.,`www.example.com`), you can use a **URL record**.
 
-<note> 
-**A CNAME record cannot be used for the root domain** (`example.com`) if you need any other records (like MX or NS) at that name. An invalid configuration with a CNAME at the root will break other services, like email. 
-</note>
+> [!NOTE]
+> **A CNAME record cannot be used for the root domain** (`example.com`) if you need any other records (like MX or NS) at that name. An invalid configuration with a CNAME at the root will break other services, like email.
 
 - **To verify (using `dig`):**
     - Open your terminal and type `dig example.com`. The `ANSWER SECTION` should return at least one **A record** (or ALIAS/URL records which synthesize as A records in the response).

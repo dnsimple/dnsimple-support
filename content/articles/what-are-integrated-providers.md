@@ -1,6 +1,7 @@
 ---
 title: What Are Integrated DNS Providers and Why Use Them?
 excerpt: Connect an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
+meta: Learn about Integrated DNS Providers and why to use them. Centralize DNS management for domains hosted on Route 53, Azure DNS, and CoreDNS from DNSimple.
 categories:
 - DNS
 - Integrations
@@ -37,9 +38,8 @@ To manage integrated zones from DNSimple, you first have to connect an Integrate
 - [Azure DNS](/articles/integrated-dns-provider-azure-dns/)
 - [CoreDNS](/articles/integrated-dns-provider-coredns/)
 
-<note>
-The list of supported features and record types differs for each provider.
-</note>
+> [!NOTE]
+> The list of supported features and record types differs for each provider.
 
 ## Have more questions?
 If you have any questions about Integrated DNS Providers or managing your integrated zones, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

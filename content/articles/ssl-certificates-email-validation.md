@@ -19,17 +19,16 @@ redirect_from:
 
 ---
 
-In order to issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
+To issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
 
 The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 
-**Email-based domain validation** is the most common certificate validation mechanism for [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level). The certificate authority compiles a list of **public emails** associated with the domain, using common administrative emails (e.g. `admin` or `webmaster`), in combination with the public WHOIS data for the domain.
+**Email-based domain validation** is the most common certificate validation mechanism for [domain-validated certificate orders](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level). The certificate authority compiles a list of **administrative emails** associated with the domain, using common administrative email addresses (e.g. `admin@` or `webmaster@`).
 
-The domain validation is a mandatory step, the Certificate Authority will not issue the certificate if the order has not been validated.
+**The domain validation is a mandatory step. The Certificate Authority will not issue the certificate if the order has not been validated.**
 
-<note>
-The Certificate Authority only uses public information, therefore it's not possible to use your account email to perform the validation, unless the email is publicly associated to the domain in the WHOIS record.
-</note>
+> [!NOTE]
+> The Certificate Authority only uses administrative email addresses at the domain being validated. It's not possible to use your account email or any arbitrary email address to perform the validation.
 
 
 ## The process
@@ -46,9 +45,8 @@ The email validation process consists of a few steps:
 
 **The approval email cannot be an arbitrary email** such as a customer-provided email or the email in your DNSimple account.
 
-<note>
-The goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
-</note>
+> [!NOTE]
+> The goal of the validation process is to ensure that the certificate is requested by someone with admin rights on the domain. Therefore, the email must publicly and unequivocally identify the customer as the owner or administrator of the domain listed in the certificate.
 
 The approval email typically can be sent to the following addresses, called administrative emails:
 
@@ -61,26 +59,19 @@ The approval email typically can be sent to the following addresses, called admi
 Where `example.com` is the domain for the certificate being purchased.
 
 
-## Email validation and WHOIS privacy {#whois-privacy}
+## WHOIS email deprecation {#whois-deprecation}
 
-<warning>
-[Whois Privacy Protection services](/articles/what-is-whois-privacy/) are known to interfere with the delivery of the approval email. Be sure to temporarily disable the Whois Privacy feature or any another privacy protection service until the certificate is issued.
-</warning>
+Due to security vulnerabilities and evolving privacy standards, the [CA/Browser Forum introduced Ballot SC-80v3](https://www.sectigo.com/knowledge-base/detail/WHOIS-Email-DCV-Deprecation/kA0Uj0000003RdB), requiring the phase-out of WHOIS email addresses for Domain Control Validation (DCV).
 
-If the Whois Privacy is enabled for the domain associated with the certificate, the privacy email (e.g. `wqyygglqlt@whoisprivacyprotect.com`) will be included in the list of possible emails to be used. However, it's not guaranteed that the delivery will be successful and DNSimple has no control over the delivery of the validation email.
+> [!WARNING]
+> **WHOIS email addresses are no longer supported for domain validation.** Beginning June 15, 2025, Certificate Authorities (including Sectigo) no longer allow email addresses listed in the public WHOIS record as valid Domain Control Validation methods.
 
-[Disable any whois privacy](/articles/whois-privacy/#disable-whois-privacy) service before proceeding.
-
-<info>
-Once you disable Whois Privacy it may take up to 24 hours for the email list to be refreshed, as the Certificate Authority may cache that information.
-</info>
+You must use one of the administrative email addresses (admin@, webmaster@, etc.) at the domain being validated. Email addresses from WHOIS records, including registrant, administrative, or technical contact emails, cannot be used for certificate validation.
 
 
 ## Email validation and GDPR {#gdpr}
 
-Due to the new privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars are now hiding or masking email addresses in the WHOIS records. This prevents the Certificate Authority from being able to verify you are in control of the domain to issue your certificate.
-
-As a result, you can no longer use a custom email address listed in the WHOIS to validate a certificate. You will have to use one of the administrative emails provided by the Certification Authority.
+Due to the privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars hide or mask email addresses in WHOIS records. Combined with the WHOIS email deprecation requirements, this means you must use one of the administrative email addresses provided by the Certificate Authority for validation.
 
 
 ## Select the validation email address {#select-email}
@@ -159,3 +150,8 @@ If you haven't received the validation email, for example because the email conf
 
 1.  Click the link and follow the procedure described in the page.
 </div>
+
+
+## Have more questions?
+
+If you have additional questions or need any assistance with multi-account management, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -16,40 +16,43 @@ categories:
 
 ---
 
-<info>
-This article discusses how to transfer domains internally from one DNSimple account to another. This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/).
-</info>
+> [!NOTE]
+> This article discusses how to transfer domains internally from one DNSimple account to another. This is different from transferring a domain away. To transfer a domain away from DNSimple, see [this article](https://support.dnsimple.com/articles/transferring-domain-away/).
 
 You can transfer a domain between DNSimple accounts any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account once the move is accepted. Transferring a domain to another account will transfer all associated resources, like DNS records, SSL certificates, and email forwards.
 
 Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer) to gain access to your account.
 
-<warning>
-Once the transfer is accepted, anyone who previously had access to the domain in your account will no longer be able to manage the domain.
-
-When transferring a domain to another DNSimple account, the domain's registrant information will be updated to reflect the new account. This may result in the domain being [locked from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-</warning>
+> [!WARNING]
+> Once the transfer is accepted, anyone who previously had access to the domain in your account will no longer be able to manage the domain.
+> When transferring a domain to another DNSimple account, the domain's registrant information will be updated to reflect the new account. This may result in the domain being [locked from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
 ## Initiating a transfer
 
-<info>
-Once the domain is transferred, you can no longer control it under your current account.
-</info>
+> [!NOTE]
+> Once the domain is transferred, you can no longer control it under your current account.
 
 1. Click on the relevant domain.
 1. Click the **Settings** tab on the left side.
 1. In the **Move domain to another DNSimple account** card, click **Move**.
-You will be prompted to enter the account identifier of the account that will receive the domain.
+You will be prompted to enter the destination account identifier of the account that will receive the domain.
 
-The recipient can find their account identifier by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card on the right. They should copy that value and share it with you.
+## How the recipient can find their account identifier
+
+1. Open the **account switcher** in the **top-right corner** and select the correct account.
+1. From the account switcher, click **Account Settings**.
+1. On the left, make sure **General** is selected.
+1. The **Account Identifier** appears in the **Account** card on the right, under the account name and notification email. They should copy that value and share it with you
+
+
+## Completing the transfer
 
 1. Enter the **destination account identifier**.
 1. Click **Move domain**.
 1. A banner will appear confirming the request to push the domain.
 
-<warning>
-Make sure to correctly enter the account identifier. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
-</warning>
+> [!WARNING]
+> Make sure to correctly enter the account identifier. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
 
 ## Accepting a transfer
 
@@ -67,9 +70,8 @@ Click **Accept**. You'll be prompted to assign a contact to the domain — this 
 
 To reject a transfer, click the **Reject** on the list of pending pushes, and confirm that you want to reject the push.
 
-<info>
-If you reject a transfer request, the domain will remain in the possession of the original owner.
-</info>
+> [!NOTE]
+> If you reject a transfer request, the domain will remain in the possession of the original owner.
 
 ## Have more questions?
 

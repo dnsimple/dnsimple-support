@@ -4,6 +4,7 @@ excerpt: You can find our API rate limit at the developer site.
 meta: Explore the API rate limits for DNSimple to optimize your application's performance and ensure smooth integration with our services.
 categories:
 - API
+- Enterprise
 ---
 
 # API Rate Limit

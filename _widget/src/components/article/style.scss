@@ -1,9 +1,11 @@
+@use "callouts";
+
 #dnsimple-support {
   .article {
     position: relative;
     min-height: calc(75vh - (var(--dnsimple-support-widget-padding) * 8.7));
 
-    h1, h2, h3, h4, h5, h6, p, ul, ol, .table-wrapper, pre, warning, note, tip, info, .marker {
+    h1, h2, h3, h4, h5, h6, p, ul, ol, .table-wrapper, pre {
       margin-bottom: var(--dnsimple-support-widget-padding);
     }
 
@@ -94,16 +96,22 @@
       border-radius: 4px;
     }
 
-    warning, note, tip, info, .marker, #markdown-toc {
+    #markdown-toc {
       display: block;
       padding: 16px 10px 16px 40px;
       overflow: auto;
       background: var(--surface2);
       -webkit-overflow-scrolling: touch;
       margin-left: 6px;
+      box-shadow: -6px 0 0 0 var(--surface1);
 
       *:last-child {
         margin-bottom: 0;
+      }
+
+      a {
+        color: var(--element2);
+        text-decoration: underline;
       }
     }
 
@@ -119,29 +127,13 @@
       }
     }
 
-    warning, .marker-warning {
-      box-shadow: -6px 0 0 0 var(--dnsimple-support-widget-orange);
-    }
+    // Include shared callout styles with correct specificity
+    @include callouts.callout-styles;
 
-    tip, .marker-tip {
-      box-shadow: -6px 0 0 0 var(--dnsimple-support-widget-green);
-    }
-
-    note, .marker-note {
-      box-shadow: -6px 0 0 0 var(--dnsimple-support-widget-yellow);
-    }
-
-    info, .marker-info, #markdown-toc {
-      box-shadow: -6px 0 0 0 var(--surface1);
-    }
-
-    #markdown-toc {
-      padding-left: 40px;
-
-      a {
-        color: var(--element2);
-        text-decoration: underline;
-      }
+    // Override callout spacing for widget
+    .callout {
+      padding: var(--dnsimple-support-widget-padding);
+      margin: 0 0 var(--dnsimple-support-widget-padding) 0;
     }
 
     iframe, img {

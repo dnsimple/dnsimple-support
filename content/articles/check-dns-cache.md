@@ -1,6 +1,7 @@
 ---
 title: Check DNS Cache
 excerpt: How to check if your domain is currently resolving with DNSimple.
+meta: Learn how to check and clear DNS cache to verify DNS record updates. Understand TTL values and how to flush local and system DNS caches.
 categories:
 - DNS
 ---
@@ -50,13 +51,14 @@ dnsimple.com.       543 IN  A   50.31.209.238
 
 Here, `dig` says to wait 3543 seconds (about an hour) before the cache for the record expires. If a change is made now, it may not be visible from a local machine for an hour.
 
-<note>
-Flushing the local DNS cache only clears the cache on the device you are using. **It does not affect the cache stored by the upstream DNS resolver**. If the upstream resolver is still holding outdated data, you will continue to receive the same old response even after flushing your local cache.
-</note>
+> [!NOTE]
+> Flushing the local DNS cache only clears the cache on the device you are using. **It does not affect the cache stored by the upstream DNS resolver**. If the upstream resolver is still holding outdated data, you will continue to receive the same old response even after flushing your local cache.
 
 You can verify what the upstream resolver is returning by running the dig command shown in the example above, then checking the ANSWER section and TTL. This clarfies whether the delay is coming from the resolver cache or your local machine.
 
 If the upstream resolver already shows the updated record, you can flush your local cache using the methods in Option 1 or Option 2 below.
+
+If you're experiencing DNS resolution issues after clearing your cache, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
 
 ### **Option 1: everyday methods**
 

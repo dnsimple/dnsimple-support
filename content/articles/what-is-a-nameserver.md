@@ -21,9 +21,8 @@ Name servers (also called nameservers) are specialized servers that form the bac
   <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<info>
-"Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
-</info>
+> [!NOTE]
+> "Name server", "nameserver", and other variants all refer to the same thing. For consistency, we refer to it here as a "name server".
 
 ## The role of name servers in DNS
 
@@ -65,13 +64,9 @@ To change your domain's name servers (also called nameservers), you need to upda
 
 If you need to change nameservers for your domain to point to a different DNS provider, or switch back to DNSimple's name servers, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). Changing nameservers is a common task when migrating DNS hosting or switching between DNS providers.
 
-<note>
-#### Verify your name server delegation
-
-It's important to verify that your domain is properly delegated to the correct name servers. If your domain isn't delegated to DNSimple, [changes you make to DNS records](/articles/record-editor/) won't resolve.
-
-To check which name servers your domain is using, you can use tools like [zone.vision](https://zone.vision/#/) to perform a DNS lookup.
-</note>
+> [!NOTE] Verify your name server delegation
+> It's important to verify that your domain is properly delegated to the correct name servers. If your domain isn't delegated to DNSimple, [changes you make to DNS records](/articles/record-editor/) won't resolve.
+> To check which name servers your domain is using, you can use tools like [zone.vision](https://zone.vision/#/) to perform a DNS lookup.
 
 ## Have more questions?
 

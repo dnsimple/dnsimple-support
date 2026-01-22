@@ -32,11 +32,8 @@ This article focuses on delegating a domain registered with another registrar to
     - ns4.dnsimple-edge.org
 </div>
 
-<note>
-#### Name server propagation
-
-Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
-</note>
+> [!NOTE] Name server propagation
+> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 
 ### How to set custom name servers at some common registrars
 

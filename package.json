@@ -4,30 +4,31 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "vue": "^3.5.24"
+    "fuse.js": "^7.1.0",
+    "vue": "^3.5.26"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.28.5",
     "@fortawesome/fontawesome-free": "^7.1.0",
-    "@vitejs/plugin-vue": "^6.0.2",
+    "@vitejs/plugin-vue": "^6.0.3",
     "@vue/test-utils": "^2.4.6",
     "@vue/vue3-jest": "^29.2.6",
-    "babel-jest": "^29.7.0",
+    "babel-jest": "^30.0.0",
     "concurrently": "^9.2.1",
     "copy-webpack-plugin": "^13.0.1",
-    "eslint": "^9.39.1",
-    "eslint-config-standard": "^15.0.1",
-    "eslint-plugin-jest": "^29.2.0",
-    "eslint-plugin-vue": "^9.33.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jest": "^29.12.1",
+    "eslint-plugin-vue": "^10.0.0",
     "globals": "^16.5.0",
-    "jest": "^29.7.0",
+    "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.2.0",
     "rollup-plugin-css-only": "^4.5.5",
-    "sass-embedded": "^1.93.3",
+    "sass-embedded": "^1.97.2",
     "tachyons": "^4.12.0",
-    "vite": "^7.2.4",
+    "vite": "^7.3.1",
     "vite-plugin-css-injected-by-js": "^3.5.2",
-    "webpack": "^5.103.0",
+    "vue-eslint-parser": "^10.0.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
@@ -40,7 +41,6 @@
     "test:watch": "jest --watch"
   },
   "resolutions": {
-    "esbuild": "^0.25.0",
-    "glob": "^10.4.2"
+    "js-yaml": "^4.1.1"
   }
 }

@@ -32,9 +32,8 @@ Account owners can view an account's payment history and manually retry failed i
 
 ### Invoice filtering
 
-<info>
-Only available for [Enterprise](https://dnsimple.com/sales) clients.
-</info>
+> [!NOTE]
+> Only available for [Enterprise](https://dnsimple.com/sales) clients.
 
 Invoice filters provide quick, reliable access to invoices for auditing, reconciliation, and compliance. They simplify locating specific invoices by ID or content, helping teams save time and streamline financial workflows.
 
@@ -64,9 +63,8 @@ Depending on your plan, your subscription will renew every month or every year. 
 
 A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 
-<warning>
-If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**.
-</warning>
+> [!WARNING]
+> If we're unable to collect the payment after three weeks, your [account will be canceled](/articles/what-happens-if-i-stop-paying/). **All domains within the account will stop resolving immediately**.
 
 ### `refunded` {#invoice-state-refunded}
 

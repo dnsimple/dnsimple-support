@@ -19,9 +19,8 @@ The record always begins with a version indicator, followed by one or more terms
 v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
 ```
 
-<note> 
-**Important note on SPF record type (type 99):** Historically, there was a dedicated SPF record type (Type 99). However, this record type has been deprecated. All SPF records must now be defined using the **TXT record type**. This is the only universally supported method for publishing SPF records. 
-</note>
+> [!NOTE]
+> **Important note on SPF record type (type 99):** Historically, there was a dedicated SPF record type (Type 99). However, this record type has been deprecated. All SPF records must now be defined using the **TXT record type**. This is the only universally supported method for publishing SPF records.
 
 ## SPF Mechanisms
 Mechanisms define which IP addresses are permitted or denied from sending mail for the domain. A mail server evaluates mechanisms from left to right.

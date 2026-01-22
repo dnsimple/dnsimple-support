@@ -1,15 +1,15 @@
 ---
 title: Discontinuation of Legacy NS2 and NS4 IP Addresses
 excerpt: DNSimple will no longer support legacy NS2 and NS4 IP addresses starting June 15, 2025. Affected customers will be notified via email.
-categories: 
+meta: Learn about DNSimple's discontinuation of legacy NS2 and NS4 IP addresses. Find replacement IPs and understand what action you need to take before June 15, 2025.
+categories:
   - DNS
 ---
 
 # Discontinuation of Legacy NS2 and NS4 IP Addresses
 
-<info>
-This article contains information that is only relevant to customers with legacy configurations using outdated IP addresses. If you are impacted, you will receive an email from us asking you to take action.
-</info>
+> [!NOTE]
+> This article contains information that is only relevant to customers with legacy configurations using outdated IP addresses. If you are impacted, you will receive an email from us asking you to take action.
 
 ### Table of Contents {#toc}
 

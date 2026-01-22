@@ -60,13 +60,22 @@ Learn more:
 
 - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034#section-4.1)
 
-### Zone File 
+### Zone File
 
 A plain text file that contains all the DNS resource records for a specific DNS zone. This file is managed by an authoritative DNS server and defines how domain names within that zone map to IP addresses and other services.
 
-Learn more: 
+Learn more:
 
-- [Domain Zone Files](/articles/zone-files/)
+- [Domain Zone Files](/articles/what-is-zone-file/)
+
+### Empty Non-Terminal (ENT)
+
+An intermediate domain name in a DNS hierarchy that exists only because it is a path to a deeper name, but has no records of its own. For example, if `app.us.prod.example.com` exists, then `us.prod.example.com` may be an ENT. ENTs become particularly important when wildcards are involved, as a wildcard will not match an ENT—the ENT will return an empty (NODATA) response instead.
+
+Learn more:
+
+- [RFC 4592](https://datatracker.ietf.org/doc/html/rfc4592)
+- [What Are Empty Non-Terminals?](/articles/empty-non-terminals/)
 
 ## Server Types & Resolution
 

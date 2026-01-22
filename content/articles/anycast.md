@@ -1,6 +1,7 @@
 ---
 title: DNSimple Points of Presence
 excerpt: DNS zones at DNSimple are served through Anycast from multiple points of presence.
+meta: Discover DNSimple's global Anycast network and points of presence worldwide. Learn how our distributed infrastructure improves DNS performance and reliability.
 categories:
 - DNS
 ---

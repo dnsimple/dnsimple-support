@@ -14,15 +14,13 @@ When your account is deactivated, [WHOIS privacy](/articles/whois-privacy/), [do
 
 When you reactivate your account, all previous preferences will be reactivated, including WHOIS privacy, auto-renewal, and email forwarding.
 
-<warning>
-If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
-</warning>
+> [!WARNING]
+> If you subscribed to DNSimple in the past, you've already enjoyed our 30-day trial. **Reactivating your subscription will not grant you another free trial**.
 
 ## How to reactivate your subscription
 
-<info>
-If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our [available plans](https://dnsimple.com/pricing).
-</info>
+> [!NOTE]
+> If your account was on one of our legacy plans, you will not be able to reactivate it on the same plan, and will need to choose one of our [available plans](https://dnsimple.com/pricing).
 
 ### From the dashboard
 1. Log in to DNSimple with your user credentials.

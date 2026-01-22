@@ -22,12 +22,14 @@ export default {
   data () {
     return {
       q: this.app.q || '',
-      minimizeIcon
+      minimizeIcon,
+      debounceTimer: null
     };
   },
   watch: {
     q (val) {
-      this.app.setQ(val);
+      clearTimeout(this.debounceTimer);
+      this.debounceTimer = setTimeout(() => this.app.setQ(val), 250);
     }
   }
 };

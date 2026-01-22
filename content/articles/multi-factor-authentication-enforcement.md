@@ -3,6 +3,7 @@ title: Enforce Multi-Factor Authentication for All Members of an Account
 excerpt: How to ensure an account is secured by requiring all members of an account to use Multi-Factor Authentication.
 categories:
 - Account
+- Enterprise
 ---
 
 # Enforce Multi-Factor Authentication for All Members of an Account
@@ -57,9 +58,8 @@ You can enable multi-factor authentication enforcement from your Account page.
 
 You always retain the option to [disable multi-factor authentication](/articles/multi-factor-authentication/#disable) on your personal account. However, this action will automatically remove you from all accounts that enforce MFA.
 
-<warning>
-If you disable MFA, you will immediately be removed from all accounts that enforce MFA to ensure the continued security of those accounts. Only remove MFA from your personal account if you no longer need access to any accounts that enforce MFA.
-</warning>
+> [!WARNING]
+> If you disable MFA, you will immediately be removed from all accounts that enforce MFA to ensure the continued security of those accounts. Only remove MFA from your personal account if you no longer need access to any accounts that enforce MFA.
 
 ## Inviting new people into an MFA-enforced team
 

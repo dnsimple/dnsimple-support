@@ -4,6 +4,7 @@ excerpt: How to protect your DNSimple account using multi-factor authentication
 meta: Enhance your DNSimple account security with multi-factor authentication. Learn how to set it up and protect your valuable data from unauthorized access.
 categories:
 - Account
+- Enterprise
 ---
 
 # Multi-Factor Authentication
@@ -48,8 +49,8 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. The setup process ends here if you have an alternative MFA method already set up.
 
-    <note>If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
-    </note>
+    > [!NOTE]
+> If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
 
@@ -71,10 +72,9 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. Enter a nickname to help you identify the security key you're registering.
 
-    <note>
-      ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
-      If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. **Copy and store the [recovery code](#recovery-code) in a safe place.**
-    </note>
+    > [!NOTE]
+> ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
+>       If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. **Copy and store the [recovery code](#recovery-code) in a safe place.**
 
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
 
@@ -85,9 +85,8 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 1. Fill in the form with the recovery code, and click **Confirm recovery and register key**. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it.
     ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
 
-    <note>
-    Some security key types, like Touch ID on a Mac, may be tied to a browser. For example, to use Touch ID on both Chrome and Safari browsers, you may need to register a Touch ID security key in Chrome and also in Safari.
-    </note>
+    > [!NOTE]
+> Some security key types, like Touch ID on a Mac, may be tied to a browser. For example, to use Touch ID on both Chrome and Safari browsers, you may need to register a Touch ID security key in Chrome and also in Safari.
 </div>
 
 ## Disabling a multi-factor authentication method {#disable}
@@ -138,7 +137,8 @@ When multi-factor protection is enabled, you must perform a second verification 
 
 1. Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
 
-    <note>The verification code automatically expires every 30 seconds. If the expiration is five seconds or less, wait for the next verification code to limit the possibility of an authentication failure.</note>
+    > [!NOTE]
+> The verification code automatically expires every 30 seconds. If the expiration is five seconds or less, wait for the next verification code to limit the possibility of an authentication failure.
 
 </div>
 
@@ -158,15 +158,13 @@ When multi-factor protection is enabled, you must perform a second verification 
 
 When you enable your first MFA method, a recovery code is created as a safeguard. You'll need this recovery code to disable MFA if you can't generate a one-time password with your authenticator app, activate your registered security key, or disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed. **Save this recovery code in a secure, memorable place**.
 
-<warning>
-The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code.**
-</warning>
+> [!WARNING]
+> The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code.**
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
 
-<warning>
-**All security keys and any one-time password-based MFA methods configured will be removed when you use your recovery code to disable MFA.**
-</warning>
+> [!WARNING]
+> **All security keys and any one-time password-based MFA methods configured will be removed when you use your recovery code to disable MFA.**
 
 <div class="section-steps" markdown="1">
 ##### Disabling multi-factor authentication during login using the recovery code

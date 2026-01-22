@@ -19,9 +19,8 @@ The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps y
 
 You can enable WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
 
-<tip>
-The WHOIS Privacy service is now **free** for domains registered with us.
-</tip>
+> [!TIP]
+> The WHOIS Privacy service is now **free** for domains registered with us.
 
 
 ## Enabling WHOIS Privacy {#enable}
@@ -48,9 +47,8 @@ You can disable WHOIS Privacy protection from your domain page.
 
 You can reactivate your domain's WHOIS Privacy protection any time until the protection service expires without paying for it again.
 
-<warning>
-Once you disable WHOIS Privacy protection, the contact details of your domain will be public.
-</warning>
+> [!WARNING]
+> Once you disable WHOIS Privacy protection, the contact details of your domain will be public.
 
 <div class="section-steps" markdown="1">
 ##### Disable WHOIS Privacy from the domain page {#disable-whois-domain-page}

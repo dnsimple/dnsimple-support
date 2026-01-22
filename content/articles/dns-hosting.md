@@ -15,7 +15,7 @@ categories:
 
 ---
 
-## DNS hosting 
+## DNS hosting
 
 DNSimple offers robust, reliable DNS hosting services, providing fast propagation and easy management for your domain's records. If you want to use DNSimple to manage your domain's DNS, you have a few options, depending on whether you already have a domain and where it's registered.
 
@@ -24,7 +24,7 @@ DNSimple offers robust, reliable DNS hosting services, providing fast propagatio
 There are three primary ways to leverage DNSimple as your DNS hosting provider:
 
 ### Keep your domain registration with your current registrar
- 
+
 If you have an existing domain registered with another provider, you can choose to manage only its DNS with DNSimple. This means your domain registration remains with your current registrar, but all your DNS records ([A](/articles/a-record/), [CNAME](/articles/cname-record/), [MX](/articles/mx-record/), etc.) will be configured and served by DNSimple's name servers.
 
 **How to proceed**: To use DNSimple for DNS hosting while keeping your registrar separate, you will need to update your domain's name servers at your current registrar to point to DNSimple's name servers.
@@ -37,18 +37,17 @@ For streamlined management, you can transfer both your domain's registration and
 
 **How to proceed**: This process involves initiating a domain transfer to DNSimple. Once the transfer is complete, DNSimple will become both your domain registrar and your DNS hosting provider.
 
-<info>
-Important: DNSimple does not automatically change your domain's name servers when you transfer it, because doing so could cause downtime. If you want the domain to start using DNSimple's name servers immediately, you must select Switch name servers to DNSimple on the transfer page. If you don't select this option, your domain will continue using its current name servers after the transfer, and you'll need to update the delegation manually later if you want to host DNS with us.
-</info>
+> [!NOTE]
+> Important: DNSimple does not automatically change your domain's name servers when you transfer it, because doing so could cause downtime. If you want the domain to start using DNSimple's name servers immediately, you must select Switch name servers to DNSimple on the transfer page. If you don't select this option, your domain will continue using its current name servers after the transfer, and you'll need to update the delegation manually later if you want to host DNS with us.
 
-**Instructions**: For detailed steps, please refer to our instructions on [how to transfer your domain to DNSimple](/articles/domain-transfer/) . To finish the setup, follow the steps to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/) 
+**Instructions**: For detailed steps, please refer to our instructions on [how to transfer your domain to DNSimple](/articles/domain-transfer/) . To finish the setup, follow the steps to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/)
 
 ### Register a new domain with DNSimple
 If you don't yet have a domain name, you can register a new domain directly through DNSimple. When you register a domain with us, you can manage your DNS by using DNSimple's name servers from day one, giving you immediate control over your DNS records.
 
 **How to proceed**: [Sign up or log in](https://dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
 
-**Instructions**: For detailed steps, please refer to [Registering a Domain](/articles/registering-domain/) 
+**Instructions**: For detailed steps, please refer to [Registering a Domain](/articles/registering-domain/)
 
 ### Park a Domain for Future Use
 
@@ -58,7 +57,7 @@ If you are reserving a domain name for a project that isn't ready yet, you can r
 
     **Instructions**: Refer to the instructions for [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain.
 
-## Have more questions? 
-If you have additional questions or need any assistance setting up DNS hosting, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions?
+If you have additional questions or need any assistance setting up DNS hosting, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
 

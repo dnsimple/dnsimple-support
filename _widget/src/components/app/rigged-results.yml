@@ -1,0 +1,124 @@
+add user:
+  - /articles/account-users/
+
+metrics:
+  - /articles/dns-query-limits/
+
+stats:
+  - /articles/dns-query-limits/
+
+observability:
+  - /articles/dns-query-limits/
+
+queries:
+  - /articles/dns-query-limits/
+
+analytics:
+  - /articles/dns-query-limits/
+
+comment:
+  - /articles/record-notes/
+
+expiry:
+  - /articles/product-expiration-notification/
+  - /articles/disabling-expiration-notifications/
+
+axfr:
+  - /articles/secondary-dns/
+  - /articles/secondary-dns-dnsimple-as-secondary/
+  - /articles/secondary-dns-provider-dns-made-easy/
+  - /articles/secondary-dns-provider-dyn/
+
+2fa:
+  - /articles/multi-factor-authentication-enforcement/
+  - /articles/guide-getting-started-with-your-team/
+  - /articles/multi-factor-authentication/
+
+login:
+  - /articles/getting-started/
+
+transfer:
+  - /articles/domain-transfer/
+  - /articles/transferring-domain-away/
+  - /articles/guide-register-or-transfer-a-domain/
+  - /articles/domain-transfer-pricing/
+
+domain validation:
+  - /articles/icann-domain-validation/
+
+propagation:
+  - /articles/domain-resolution-issues/
+  - /articles/record-resolution-issues/
+
+dns propagation:
+  - /articles/domain-resolution-issues/
+  - /articles/record-resolution-issues/
+
+ipv6:
+  - /articles/ipv6-support/
+  - /articles/aaaa-record/
+
+ipv6 dns:
+  - /articles/ipv6-support/
+  - /articles/aaaa-record/
+
+email:
+  - /articles/mx-record/
+  - /articles/email-forwarding/
+  - /articles/email-hosting/
+
+email settings:
+  - /articles/email-hosting/
+  - /articles/email-forwarding/
+  - /articles/mx-record/
+
+email not working:
+  - /articles/mx-record/
+  - /articles/email-hosting/
+
+registration:
+  - /articles/registering-domain/
+
+domain registration:
+  - /articles/registering-domain/
+
+nameservers:
+  - /articles/setting-name-servers/
+
+change nameservers:
+  - /articles/setting-name-servers/
+  - /articles/what-is-a-nameserver/
+
+delegate:
+  - /articles/setting-name-servers/
+  - /articles/pointing-domain-to-dnsimple/
+  - /articles/delegating-dnsimple-hosted/
+
+password reset:
+  - /articles/forgot-password/
+
+password recovery:
+  - /articles/forgot-password/
+
+domain owner:
+  - /articles/changing-domain-contact/
+  - /articles/whois-privacy/
+
+dnsimple pricing:
+  - /articles/dnsimple-plans/
+  - /articles/domain-transfer-pricing/
+
+domain expiration:
+  - /articles/what-happens-when-domain-expires/
+
+domain name search:
+  - /articles/drop-catching/
+
+dns records:
+  - /articles/common-dns-records/
+
+retry payment:
+  - /articles/account-invoice-history/
+  - /articles/changing-payment-details/
+  - /articles/payment-methods/
+  - /articles/understanding-invoice/

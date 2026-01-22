@@ -8,7 +8,7 @@ categories:
 
 # Updating Zone NS Records for a Hosted Domain
 
-You can configure [NS records](/articles/ns-record/) at the apex of a zone of a hosted domain. If you want to configure NS records for a subdomain, click [here](/articles/add-ns-records-for-subdomain/) instead.
+You can configure [NS records](/articles/ns-record/) at the apex of a zone of a hosted domain using the [Record Editor](/articles/record-editor/). If you want to configure NS records for a subdomain, click [here](/articles/add-ns-records-for-subdomain/) instead. For information about DNSimple's name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
 <div class="section-steps" markdown="1">
 ##### Updating NS records for a zone
@@ -29,11 +29,8 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 1. Click **Apply NS records** to apply the changes.
 </div>
 
-<info>
-#### Hosted domain must be delegated to DNSimple
-
-The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/) at the domain's registrar and has [DNS hosting](/articles/dns-hosting/) active.
-</info>
+> [!NOTE] Hosted domain must be delegated to DNSimple
+> The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/) at the domain's registrar and has [DNS hosting](/articles/dns-hosting/) active.
 
 ## Have more questions?
 

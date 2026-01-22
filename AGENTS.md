@@ -1,25 +1,26 @@
-# AGENTS.md
+# Agent Instructions
 
-This document provides guidance for AI agents working with this codebase.
+Instructions for AI coding agents when working on this project.
+
+## Agent Organization
+
+When creating agent instruction files:
+
+- The main file should always be named `AGENTS.md`
+- Create a `CLAUDE.md` file containing `@AGENTS.md` for compatibility with Claude Code
+
+## Key Documentation
+
+- **[README.md](README.md)** - Quick start guide, setup instructions, and deployment information
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines, commit format, testing approach
 
 ## Project Overview
 
-This is the DNSimple Help site (https://support.dnsimple.com), a static site built with [nanoc](https://nanoc.app/). The site contains support documentation, articles, and guides for DNSimple's DNS and domain management services.
+This is the DNSimple Help site (https://support.dnsimple.com), a static site built with [nanoc](https://nanoc.app/). See [README.md](README.md) for setup and deployment details.
 
-## Content Style Guidelines
+## Content Guidelines
 
-### Articles Directory
-
-All content in the `content/articles/` directory must follow the **APA Style guidelines** as defined by the American Psychological Association.
-
-**Reference:** [APA Style Guidelines](https://apastyle.apa.org/style-grammar-guidelines/)
-
-When creating, editing, or reviewing articles in `content/articles/`, ensure that:
-
-- Writing style, grammar, and formatting conform to APA Style standards
-- Citations (if any) follow APA citation format
-- Language and terminology are consistent with APA Style conventions
-- Headings, lists, and other structural elements follow APA formatting guidelines
+All content in `content/articles/` must follow **APA Style guidelines** and the **Diataxis framework**. See the [Content Writing Guidelines](CONTRIBUTING.md#content-writing-guidelines) section in CONTRIBUTING.md for full details.
 
 ### Article Structure
 
@@ -29,6 +30,7 @@ Articles are written in Markdown format with YAML frontmatter. Example structure
 ---
 title: Article Title
 excerpt: Brief description
+meta: Page metadata description
 categories:
 - Category Name
 ---
@@ -40,24 +42,51 @@ Content follows here...
 
 ## Project Structure
 
-- `content/articles/` - All support articles (must follow APA Style)
+- `content/articles/` - All support articles
 - `categories/` - Category definitions in YAML format
 - `layouts/` - HTML layout templates
 - `lib/` - Ruby libraries for nanoc processing
 - `_widget/` - Vue.js widget components
 - `output/` - Generated static site output
 
-## Development
+## Support Widget
 
-- Run `rake run` to start the local development server
-- The site is automatically deployed to Netlify on commits to main
-- See `README.md` for full setup and development instructions
+The support widget is a Vue.js component that provides search across support and developer documentation.
 
-## Contributing
+### Widget Configuration
 
-When contributing articles:
-1. Draft new articles and substantial updates in Google Docs first
-2. Follow the SOP for [Support Article Creation & Updates](https://dnsimple.atlassian.net/wiki/spaces/BIZOPS/pages/2615115803/Support+Article+Creation+and+Update+Procedure)
-3. Apply the `articles` label when submitting PRs
-4. Ensure all content in `content/articles/` adheres to APA Style guidelines
+The widget is embedded via script tag in `layouts/default.html`:
 
+```html
+<script
+  type="text/javascript"
+  src="/widget.js"
+  data-dnsimple-current-site-url=""
+  data-dnsimple-getting-started-url="/articles/getting-started/"
+  data-dnsimple-sources='[{"name": "DNSimple Support", "url": ""}, {"name": "DNSimple Developer", "url": "https://developer.dnsimple.com"}]'
+></script>
+```
+
+- `data-dnsimple-current-site-url` - Used for same-site detection (determines if links open in widget or navigate away)
+- `data-dnsimple-sources` - Array of sources to fetch articles from. Empty URL means relative (current origin)
+
+### Rigged Results
+
+To pin specific articles to the top of search results for certain queries, edit `_widget/src/components/app/rigged-results.yml`:
+
+```yaml
+email:
+  - /articles/mx-record/
+  - /articles/email-forwarding/
+
+transfer:
+  - /articles/domain-transfer/
+```
+
+The YAML is parsed by `rigged-results.js` using a simple regex parser.
+
+### Widget Development
+
+- `_widget/index.html` - Test page for local widget development
+- Run `npm run dev` in `_widget/` for development
+- Run `npm test` to run widget specs

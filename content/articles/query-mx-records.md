@@ -8,7 +8,7 @@ categories:
 
 # Querying MX Records
 
-You can use [`dig`](/articles/what-is-dig/) to determine the [MX records](/articles/what-is-dig/) associated with a domain name. 
+You can use [`dig`](/articles/what-is-dig/) to determine the [MX records](/articles/mx-record/) associated with a domain name. For more detailed instructions on using `dig`, see [How to Use dig](/articles/how-dig/). For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/). 
 
 MX records specify the mail servers responsible for receiving email on behalf of the domain. The result is contained in the **ANSWER** section. 
 

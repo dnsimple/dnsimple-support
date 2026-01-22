@@ -24,5 +24,9 @@ It also connects your domain to the global [DNSSEC chain of trust](/articles/dns
 - When a DNS resolver looks up your domain, it first checks this DS record to confirm it can trust your KSK.
 - Once the resolver trusts your KSK, it can then trust your ZSK and, in turn, trust your DNS records.
 
+## Learn more
+
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect your KSK to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.

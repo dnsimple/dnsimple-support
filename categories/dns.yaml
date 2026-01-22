@@ -2,6 +2,9 @@ Announcements:
   - Change of Non-Compliant ENT Behavior
   - Discontinuation of Legacy NS2 and NS4 IP Addresses
 
+Getting Started:
+  - DNS at DNSimple
+
 Explanation:
   - What Is DNS?
   - Common DNS Records
@@ -13,6 +16,7 @@ Explanation:
   - What Is a DKIM Record?
   - What Is a DMARC Record?
   - What Are DS Records?
+  - What Are Empty Non-Terminals (ENT)?
   - What Are Glue Records?
   - What Are HINFO Records?
   - What Is an MX Record?
@@ -70,6 +74,7 @@ How to:
   - Export Zone File
   - How To Add Common DNS Records
   - How to Change TTL in DNSimple
+  - How to Fix Empty Responses from Empty Non-Terminals
   - How to Use the Record Editor
   - How to Use dig
   - How to Use CoreDNS as an Integrated DNS Provider
@@ -96,6 +101,7 @@ How to:
   - Setting up Simple Dynamic DNS
   - Troubleshooting DNSimple Name Servers
   - Troubleshooting Domain Resolution Issues
+  - Troubleshooting Empty Non-Terminal Issues
   - Troubleshooting Record Resolution Issues
   - Verifying DKIM with dig and Online Tools
   - Verifying DMARC with dig and Online Tools

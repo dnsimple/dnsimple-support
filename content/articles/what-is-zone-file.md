@@ -4,6 +4,11 @@ excerpt: What a zone file is and their key benefits and uses.
 meta: Learn what zone files are, their importance in DNS management, and what's inside them.
 categories:
 - DNS
+- Enterprise
+  
+redirect_from:
+ - /articles/zone-files/
+  
 ---
 
 # What Is a Zone File?
@@ -25,7 +30,7 @@ And other specialized [record types](/articles/supported-dns-records/) as needed
 ## Key uses and benefits of zone files
 Zone files, due to their comprehensive and standardized nature, are incredibly useful for several key DNS management tasks:
 
-- **Domain migration:** If you need to move your domain's DNS management from one provider to another, a common and efficient method is to export your domain's [zone file](/articles/zone-files/#exporting-records-to-a-zone-file/) from your current provider and then [import](/articles/zone-files/#importing-records-from-a-zone-file/) it into the new one (like DNSimple). This allows for bulk transfer of all your records, saving significant time and reducing errors compared to recreating each record manually.
+- **Domain migration:** If you need to move your domain's DNS management from one provider to another, a common and efficient method is to export your domain's [zone file](/articles/export-records-zone-file/) from your current provider and then [import](/articles/import-records-zone-file/) it into the new one (like DNSimple). This allows for bulk transfer of all your records, saving significant time and reducing errors compared to recreating each record manually.
 
 - **Backup and recovery:** Zone files serve as a complete, human-readable backup of your domain's DNS configuration. In case of accidental deletions or major configuration errors, having a zone file backup allows for swift restoration of your DNS settings.
 

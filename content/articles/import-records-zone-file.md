@@ -1,6 +1,7 @@
 ---
 title: Import Zone File
 excerpt: This article explains how to import zone text files in DNSimple.
+meta: Learn how to import DNS zone files into DNSimple. Add multiple DNS records at once by importing standard zone file format without replacing existing records.
 categories:
 - DNS
 ---
@@ -9,11 +10,13 @@ categories:
 
 ## Importing records from a zone file
 
-You can add records to your domain by importing a [zone file](/articles/what-is-zone-file/).
+You can add records to your domain by importing a [zone file](/articles/what-is-zone-file/) using the [Record Editor](/articles/record-editor/).
 
-<note>
-Importing a zone file won't delete or replace the existing domain's records.
-</note>
+> [!NOTE]
+> Importing a zone file won't delete or replace the existing domain's records.
+
+> [!NOTE]
+> As an alternative to manually importing zone files, you can use [Auto-Importing DNS Records](/articles/auto-import-dns/) to automatically scan and import your existing DNS records. To export your domain's records to a zone file, see [Export Zone File](/articles/export-records-zone-file/).
 
 <div class="section-steps" markdown="1">
 ##### How to import records from a zone file

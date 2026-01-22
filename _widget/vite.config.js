@@ -8,6 +8,13 @@ export default defineConfig({
   define: {
     'process.env': {}
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        loadPaths: [resolve(__dirname, '../content/assets/css')]
+      }
+    }
+  },
   build: {
     outDir: '../output' ,
     lib: {

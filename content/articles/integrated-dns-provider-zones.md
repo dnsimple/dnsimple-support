@@ -1,6 +1,7 @@
 ---
 title: Managing Integrated Zones for Integrated DNS Providers
 excerpt: Learn how to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
+meta: Learn how to manage integrated DNS zones from other providers within DNSimple. Add, remove, delete, and synchronize zones across multiple DNS providers.
 categories:
 - DNS
 - Integrations
@@ -104,9 +105,8 @@ This retains the zone and its records at both DNSimple and at the Integrated DNS
 
 If you imported a zone into DNSimple from an Integrated Provider, you can use the DNS Zone Providers card to delete the zone at the provider. **This retains the zone and its records at DNSimple, but deletes them from the provider.**
 
-<warning>
-In the case of CoreDNS, the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
-</warning>
+> [!WARNING]
+> In the case of CoreDNS, the CoreDNS configuration for the zone will be deleted, causing DNS changes for the zone to no longer sync with the CoreDNS cluster.
 
 **Steps to delete a zone from an Integrated Provider**
 
