@@ -4,7 +4,13 @@ Getting started:
 
 Email DNS records:
 - "What's a DKIM Record?"
+- "What Is a DKIM Record?"
 - "What's a DMARC record?"
+- "What Is a DMARC Record?"
+- "Setting up DKIM"
+- "Setting up DMARC"
+- "Verifying DKIM with dig and Online Tools"
+- "Verifying DMARC with dig and Online Tools"
 
 Troubleshooting:
 - "Troubleshooting Email Forwarding with Gmail"

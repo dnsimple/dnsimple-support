@@ -29,6 +29,7 @@ Infra:
   - "Where are your servers located?"
   - "What Are Vanity Name Servers?"
   - "Regional Records"
+  - "Explanation of Regional Records"
   - "Add a secondary DNS server to DNSimple"
   - "Using DNSimple alongside other DNS providers"
   - "Add DNSimple as Secondary DNS with a Hidden Primary"
