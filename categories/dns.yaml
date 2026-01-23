@@ -15,6 +15,7 @@ Explanation:
   - What Is a CNAME Record?
   - What Is a DKIM Record?
   - What Is a DMARC Record?
+  - What Is DANE (DNS-based Authentication of Named Entities)?
   - What Are DS Records?
   - What Are Empty Non-Terminals (ENT)?
   - What Are Glue Records?
@@ -28,6 +29,7 @@ Explanation:
   - What Is an SPF Record?
   - What Is an SRV Record?
   - What Are SSHFP Records?
+  - What Is a TLSA Record?
   - What Are System Records?
   - What Is a TXT Record?
   - What Is a URL Record?
@@ -86,6 +88,7 @@ How to:
   - Managing CAA Records
   - Managing CNAME Records
   - Managing DS Records When Changing DNS
+  - Managing TLSA Records
   - Managing Integrated DNS Providers
   - Managing Integrated Zones for Integrated DNS Providers
   - Managing Integrated Zone Records
@@ -126,6 +129,7 @@ Reference:
   - SPF Record Syntax and Validation Reference
   - SRV Record Format and Components Reference
   - SSHFP Record Reference
+  - TLSA Record Format and Components Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
   - dig Reference Guide
