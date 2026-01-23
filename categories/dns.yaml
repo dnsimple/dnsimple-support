@@ -29,6 +29,7 @@ Explanation:
   - What Is an SPF Record?
   - What Is an SRV Record?
   - What Are SSHFP Records?
+  - What Are Service Binding Records (SVCB and HTTPS)?
   - What Is a TLSA Record?
   - What Are System Records?
   - What Is a TXT Record?
@@ -88,6 +89,7 @@ How to:
   - Managing CAA Records
   - Managing CNAME Records
   - Managing DS Records When Changing DNS
+  - Managing Service Binding Records (SVCB and HTTPS)
   - Managing TLSA Records
   - Managing Integrated DNS Providers
   - Managing Integrated Zones for Integrated DNS Providers

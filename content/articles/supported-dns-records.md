@@ -26,6 +26,7 @@ The standard DNS record types supported:
 - [CAA](/articles/caa-record/) (type 257)
 - [CNAME](/articles/cname-record/) (type 5)
 - HINFO (type 13)
+- [HTTPS](/articles/service-binding-records/) (type 65)
 - [MX](/articles/mx-record/) (type 15)
 - NAPTR (type 35)
 - [NS](/articles/ns-record/) (type 2)
@@ -33,6 +34,7 @@ The standard DNS record types supported:
 - [SRV](/articles/srv-record/) (type 33)
 - [SPF](/articles/spf-record/) (type 99)
 - SSHFP (type 44)
+- [SVCB](/articles/service-binding-records/) (type 64)
 - [TLSA](/articles/tlsa-record/) (type 52)
 - [TXT](/articles/txt-record/) (type 16)
 
