@@ -20,8 +20,8 @@ The primary difference between HTTPS records and ALIAS records lies in their pur
 - **Standard DNS record:** HTTPS records are a standard DNS record type defined in RFC 9460, supported by any compliant DNS provider.
 
 **ALIAS records (DNSimple proprietary):**
-- **Hostname resolution:** ALIAS records dynamically resolve a hostname to IP addresses (A/AAAA records) at query time, appearing as standard A or AAAA records to resolvers.
-- **Simple aliasing:** ALIAS records provide CNAME-like functionality for apex domains without the CNAME restrictions.
+- **Hostname resolution:** ALIAS records dynamically resolve a hostname to IP addresses ([A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/)) at query time, appearing as standard A or AAAA records to resolvers.
+- **Simple aliasing:** ALIAS records provide [CNAME](/articles/cname-record/)-like functionality for apex domains without the CNAME restrictions.
 - **DNSimple proprietary:** ALIAS records are a DNSimple-specific record type that works with DNSimple's name servers.
 
 ## Understanding the differences in action
@@ -30,7 +30,7 @@ The primary difference between HTTPS records and ALIAS records lies in their pur
 
 HTTPS records operate in two modes:
 
-**AliasMode (Priority 0):** Functions like a CNAME but can be used at the apex domain. Provides service binding information that redirects queries to another domain name for HTTPS services.
+**AliasMode (Priority 0):** Functions like a [CNAME](/articles/cname-record/) but can be used at the apex domain. Provides service binding information that redirects queries to another domain name for HTTPS services.
 
 **Example:**
 ```
@@ -56,7 +56,7 @@ example.com.  3600  IN  HTTPS  1  example.com.  alpn=h2,h3  port=443
 ALIAS records dynamically resolve a target hostname to IP addresses in real-time. When a DNS resolver queries your domain:
 
 1. **Dynamic resolution:** DNSimple's name servers perform a real-time lookup of the target hostname specified in the ALIAS record.
-2. **IP extraction:** The system extracts the resulting A and AAAA records from the target hostname.
+2. **IP extraction:** The system extracts the resulting [A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/) from the target hostname.
 3. **Response:** These IP addresses are returned to the resolver as if they were static A or AAAA records on your domain.
 
 **Example:**
@@ -64,13 +64,13 @@ ALIAS records dynamically resolve a target hostname to IP addresses in real-time
 example.com.  ALIAS  myapp.herokuapp.com.
 ```
 
-When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to its current IP addresses and returns them as A/AAAA records for `example.com`.
+When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to its current IP addresses and returns them as [A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/) for `example.com`.
 
 **Key characteristics:**
 - DNSimple proprietary record type
 - Dynamically resolves target hostname to IP addresses
-- Appears as A/AAAA records to resolvers
-- Can coexist with other record types (unlike CNAME)
+- Appears as [A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/) to resolvers
+- Can coexist with other record types (unlike [CNAME](/articles/cname-record/))
 - Works only with DNSimple's name servers
 - Learn more: [What Is an ALIAS Record?](/articles/alias-record/)
 
@@ -89,9 +89,9 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 
 - You need **simple hostname aliasing** at the apex domain
 - You want **dynamic IP resolution** that automatically updates when the target hostname's IP changes
-- You need to **coexist with other record types** (like MX records) on the same hostname
+- You need to **coexist with other record types** (like [MX records](/articles/mx-record/)) on the same hostname
 - You're using **DNSimple's DNS hosting** exclusively
-- You want **CNAME-like behavior** without CNAME restrictions
+- You want **[CNAME](/articles/cname-record/)-like behavior** without CNAME restrictions
 - You don't need to specify protocol or connection parameters
 
 ## Key differences summary
@@ -100,11 +100,11 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 |:-------|:--------------|:--------------|
 | **Purpose** | Service binding information | Hostname resolution to IP addresses |
 | **Standard** | RFC 9460 (standard) | DNSimple proprietary |
-| **Information provided** | Service endpoints, protocols, connection parameters | IP addresses (A/AAAA records) |
+| **Information provided** | Service endpoints, protocols, connection parameters | IP addresses ([A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/)) |
 | **Protocol specification** | Can specify HTTP/2, HTTP/3, ports, etc. | Not applicable |
 | **Provider support** | Any RFC 9460-compliant provider | DNSimple name servers only |
 | **Dynamic resolution** | No (static DNS record) | Yes (resolves target hostname dynamically) |
-| **Coexists with other records** | Yes (can have MX, TXT, etc.) | Yes (can have MX, TXT, etc.) |
+| **Coexists with other records** | Yes (can have [MX](/articles/mx-record/), [TXT](/articles/txt-record/), etc.) | Yes (can have [MX](/articles/mx-record/), [TXT](/articles/txt-record/), etc.) |
 | **Apex domain support** | Yes (AliasMode) | Yes |
 | **Use case** | Service discovery and optimization | Simple hostname aliasing |
 
@@ -135,7 +135,7 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
   - Standard DNS record type
 
 - **ALIAS record:** `example.com ALIAS cdn.example.net`
-  - Can coexist with MX records (key advantage over CNAME)
+  - Can coexist with [MX records](/articles/mx-record/) (key advantage over [CNAME](/articles/cname-record/))
   - Dynamically resolves to IP addresses
   - DNSimple proprietary
 
@@ -143,12 +143,20 @@ Both work in this scenario, but HTTPS records provide additional service binding
 
 ## Relationship to other record types
 
-Both HTTPS and ALIAS records solve the apex domain aliasing problem that CNAME records cannot address. However:
+Both HTTPS and ALIAS records solve the apex domain aliasing problem that [CNAME records](/articles/cname-record/) cannot address. However:
 
 - **HTTPS records** are part of the standard service binding mechanism (RFC 9460) and provide rich service information
 - **ALIAS records** are DNSimple's proprietary solution for simple hostname aliasing with dynamic IP resolution
 
 For HTTP/HTTPS services, HTTPS records are generally preferred when you need service binding information and want standard DNS record types. ALIAS records are ideal when you need simple hostname aliasing with automatic IP updates and are using DNSimple's DNS hosting.
+
+## Related articles
+
+- [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
+- [What Is an ALIAS Record?](/articles/alias-record/) - Learn more about ALIAS records and hostname resolution
+- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
+- [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
+- [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Comprehensive comparison of A, CNAME, ALIAS, and URL records
 
 ## Have more questions?
 

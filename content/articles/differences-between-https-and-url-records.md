@@ -53,7 +53,7 @@ This HTTPS record tells clients that the HTTPS service at `example.com` supports
 
 URL records perform HTTP redirects through DNSimple's redirector service. When you create a URL record:
 
-1. **DNS resolution:** DNSimple automatically configures underlying A and AAAA records for the source hostname to point to the IP addresses of DNSimple's redirector service.
+1. **DNS resolution:** DNSimple automatically configures underlying [A](/articles/a-record/) and [AAAA records](/articles/aaaa-record/) for the source hostname to point to the IP addresses of DNSimple's redirector service.
 2. **HTTP redirection:** When an HTTP client accesses that hostname, it resolves to the redirector service, which serves an HTTP redirect response (301 Permanent Redirect) to the target URL.
 3. **Browser redirect:** The client's browser automatically follows the redirect instruction, changing the URL in the address bar.
 
@@ -130,6 +130,14 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
   - Perfect for this use case
   - Visitors to `www.example.com` are automatically redirected to `example.com`
   - The address bar changes to show `example.com`
+
+## Related articles
+
+- [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
+- [What Is a URL Record?](/articles/url-record/) - Learn more about URL records and web redirects
+- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
+- [Managing URL Records](/articles/manage-url-record/) - Step-by-step guide to managing URL records
+- [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Compare HTTPS records with ALIAS records
 
 ## Have more questions?
 
