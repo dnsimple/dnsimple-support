@@ -37,6 +37,8 @@ Explanation:
   - What Is a Zone File?
   - Differences Between A and CNAME Records
   - Differences Among A, CNAME, ALIAS, and URL Records
+  - Differences Between HTTPS and ALIAS Records
+  - Differences Between HTTPS and URL Records
   - DNSimple Points of Presence
   - Reverse DNS Zones
   - How Long Does It Take for a New Record to Resolve for My Domain?

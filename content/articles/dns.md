@@ -67,6 +67,8 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is a URL Record?](/articles/url-record/) - Learn about URL records and how they redirect domains to web addresses.
 - [Differences Between A and CNAME Records](/articles/differences-a-cname-records/) - Understand the key differences between A and CNAME records and when to use each.
 - [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Compare A, CNAME, ALIAS, and URL records to choose the right record type for your needs.
+- [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records for apex domain aliasing and service binding.
+- [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records and URL records to understand service binding versus web redirects.
 - [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/) - Learn about Anycast DNS and the benefits it provides for DNS resolution speed and reliability.
 - [Protection Against DDoS Attacks](/articles/protection-ddos/) - Understand how DNSimple protects your DNS infrastructure against DDoS attacks.
 - [What Is EDNS Client Subnet Support?](/articles/edns-client-subnet/) - Learn about EDNS Client Subnet (ECS) and how it improves DNS resolution accuracy.
