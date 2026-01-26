@@ -16,12 +16,27 @@ class SubCategories
         item_found = false
         title = item.attributes[:title]
 
-        yaml.each do |key, array|
-          index = array.find_index(title)
-          if !index.nil?
-            @content[key][index] = item
-            item_found = true
-            break
+        yaml.each do |key, value|
+          if value.is_a?(Hash)
+            # Handle nested structure (e.g., "How-to" => { "Section" => [...] })
+            value.each do |nested_key, nested_array|
+              if nested_array.is_a?(Array)
+                index = nested_array.find_index(title)
+                if !index.nil?
+                  @content[key][nested_key][index] = item
+                  item_found = true
+                  break
+                end
+              end
+            end
+          elsif value.is_a?(Array)
+            # Handle flat structure (e.g., "Section" => [...])
+            index = value.find_index(title)
+            if !index.nil?
+              @content[key][index] = item
+              item_found = true
+              break
+            end
           end
         end
 
