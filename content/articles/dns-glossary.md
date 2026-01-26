@@ -263,28 +263,6 @@ Learn more:
 - [RFC 6844](https://datatracker.ietf.org/doc/html/rfc6844)  
 - [What Is a CAA Record?](/articles/caa-record/)
 
-### HTTPS Record 
-
-HTTPS (HTTP Service Binding) records provide service binding information specifically for HTTP and HTTPS services. HTTPS records (record type 65) are functionally identical to SVCB records but use a simpler naming format (`domain.name`) since the service and protocol are implicit. HTTPS records enable performance improvements, protocol optimization (including HTTP/2 and HTTP/3 support), and apex domain aliasing. HTTPS records operate in two modes: AliasMode (priority 0), which functions like a CNAME but can be used at the apex domain, and ServiceMode (priority > 0), which provides alternative endpoints with associated service parameters.
-
-*Example: `example.com. IN HTTPS 1 example.com. alpn=h2,h3`* 
-
-Learn more: 
-
-- [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460)  
-- [Service Binding Records (SVCB and HTTPS)](/articles/service-binding-records/)
-
-### SVCB Record 
-
-SVCB (Service Binding) records provide clients with complete instructions for accessing services by delivering configuration information and parameters before a connection is established. SVCB records (record type 64) are functionally identical to HTTPS records but require explicit service and protocol specification in the record name using the format `_service._protocol.domain.name`. SVCB records enable performance improvements, privacy benefits, and protocol optimization for any service type. SVCB records operate in AliasMode (priority 0) or ServiceMode (priority > 0), similar to HTTPS records.
-
-*Example: `_example._tcp.example.com. IN SVCB 1 server.example.com. port=8443`* 
-
-Learn more: 
-
-- [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460)  
-- [Service Binding Records (SVCB and HTTPS)](/articles/service-binding-records/)
-
 ## Privacy & Transport
 
 ### DANE 
