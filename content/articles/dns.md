@@ -60,7 +60,6 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is an SOA Record?](/articles/soa-record/) - Learn about SOA (Start of Authority) records and their role in DNS zone management.
 - [What Is an SPF Record?](/articles/spf-record/) - Understand SPF (Sender Policy Framework) records and email authentication.
 - [What Is an SRV Record?](/articles/srv-record/) - Learn about SRV (Service) records and how they specify service locations.
-- [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Understand SVCB and HTTPS records (RFC 9460) and how they provide service binding information for network services.
 - [What Are SSHFP Records?](/articles/sshfp-records/) - Understand SSHFP records and how they store SSH public key fingerprints.
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA (Transport Layer Security Authentication) records and how they enhance TLS security through DANE.
 - [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
@@ -69,8 +68,6 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is a URL Record?](/articles/url-record/) - Learn about URL records and how they redirect domains to web addresses.
 - [Differences Between A and CNAME Records](/articles/differences-a-cname-records/) - Understand the key differences between A and CNAME records and when to use each.
 - [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Compare A, CNAME, ALIAS, and URL records to choose the right record type for your needs.
-- [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records for apex domain aliasing and service binding.
-- [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records and URL records to understand service binding versus web redirects.
 - [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/) - Learn about Anycast DNS and the benefits it provides for DNS resolution speed and reliability.
 - [Protection Against DDoS Attacks](/articles/protection-ddos/) - Understand how DNSimple protects your DNS infrastructure against DDoS attacks.
 - [What Is EDNS Client Subnet Support?](/articles/edns-client-subnet/) - Learn about EDNS Client Subnet (ECS) and how it improves DNS resolution accuracy.
@@ -101,7 +98,6 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [Managing AAAA Records](/articles/manage-aaaa-record/) - Learn how to manage AAAA records for IPv6 addresses.
 - [Managing CAA Records](/articles/manage-caa-record/) - Instructions for managing CAA records to control certificate issuance.
 - [Managing CNAME Records](/articles/manage-cname-record/) - Guide to creating and managing CNAME records.
-- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to creating and managing SVCB and HTTPS records for service binding.
 - [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records for DANE.
 - [Managing URL Records](/articles/manage-url-record/) - Learn how to set up and manage URL redirect records.
 - [Adding an SRV Record](/articles/add-srv-record/) - Step-by-step instructions for adding SRV records.
