@@ -34,8 +34,8 @@ The process for adding HTTPS records is straightforward. The **Name** field uses
 1. In the record editor, click **Add**, and select **HTTPS** to add a new HTTPS record.
 1. Enter the HTTPS record information.
 
-    - **Name**: The hostname for the record, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`. HTTPS records can be used at the apex domain (root domain), unlike CNAME records.
-    - **Priority**: The priority value (0-65535). Lower values are preferred. A priority of 0 indicates AliasMode (functions like a CNAME), while a priority greater than 0 indicates ServiceMode (provides alternative endpoints with service parameters).
+    - **Name**: The hostname for the record, without the domain name. For example, if you want to represent `www.example.com` enter `www`. Leave it blank to represent the root domain `example.com`. HTTPS records can be used at the apex domain (root domain), unlike [CNAME records](/articles/cname-record/).
+    - **Priority**: The priority value (0-65535). Lower values are preferred. A priority of 0 indicates AliasMode (functions like a [CNAME](/articles/cname-record/)), while a priority greater than 0 indicates ServiceMode (provides alternative endpoints with service parameters).
     - **Target**: The fully-qualified domain name (FQDN) of either an alias target (AliasMode) or alternative endpoint (ServiceMode). This must be a hostname, not an IP address.
     - **Service Parameters (SvcParams)**: Optional service parameters in key=value format. Multiple parameters can be separated by spaces. Common parameters include:
       - `alpn=h2,h3` - Lists supported ALPN protocols (e.g., `h2` for HTTP/2, `h3` for HTTP/3)
@@ -75,7 +75,7 @@ The process for adding SVCB records is similar to HTTPS records, but the **Name*
       - `_example._tcp.www` for the same service on the `www` subdomain
       - `_ldap._tcp` for an LDAP service over TCP
       - Both the service name (e.g., `_example`, `_ldap`) and protocol (e.g., `_tcp`, `_udp`) must start with an underscore.
-    - **Priority**: The priority value (0-65535). Lower values are preferred. A priority of 0 indicates AliasMode (functions like a CNAME), while a priority greater than 0 indicates ServiceMode (provides alternative endpoints with service parameters).
+    - **Priority**: The priority value (0-65535). Lower values are preferred. A priority of 0 indicates AliasMode (functions like a [CNAME](/articles/cname-record/)), while a priority greater than 0 indicates ServiceMode (provides alternative endpoints with service parameters).
     - **Target**: The fully-qualified domain name (FQDN) of either an alias target (AliasMode) or alternative endpoint (ServiceMode). This must be a hostname, not an IP address.
     - **Service Parameters (SvcParams)**: Optional service parameters in key=value format. Multiple parameters can be separated by spaces. Common parameters include:
       - `port=8443` - Specifies the port number for the service
@@ -209,7 +209,7 @@ The process for removing service binding records is the same for both HTTPS and 
 
 Both SVCB and HTTPS records operate in two modes based on the priority value:
 
-- **AliasMode (Priority 0)**: Functions like a CNAME record but can be used at the apex domain. The record redirects queries to the target hostname specified in the Target field. No service parameters are typically used in AliasMode.
+- **AliasMode (Priority 0)**: Functions like a [CNAME record](/articles/cname-record/) but can be used at the apex domain. The record redirects queries to the target hostname specified in the Target field. No service parameters are typically used in AliasMode.
 
 - **ServiceMode (Priority > 0)**: Provides information about alternative endpoints where the service is available, along with associated service parameters. Multiple service binding records with different priorities can be used to specify fallback endpoints or load balancing.
 
@@ -225,6 +225,12 @@ For more information about service binding record modes, structure, and use case
   - Future extensibility as new service types are defined
 
 For HTTP/HTTPS services, both record types provide the same functionality and can be used interchangeably, but HTTPS records are generally preferred for simplicity and clarity.
+
+## Related articles
+
+- [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Comprehensive explanation of service binding records
+- [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records
+- [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 
 ## Have more questions?
 

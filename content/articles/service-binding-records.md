@@ -154,7 +154,7 @@ Service binding records can specify supported transport protocols and connection
 
 ### Apex domain aliasing
 
-Unlike CNAME records, which cannot exist at the apex domain, service binding records in AliasMode can be used at the root domain. This enables apex domain aliasing, allowing domain owners to redirect their root domain to another domain for specific services.
+Unlike [CNAME records](/articles/cname-record/), which cannot exist at the apex domain, service binding records in AliasMode can be used at the root domain. This enables apex domain aliasing, allowing domain owners to redirect their root domain to another domain for specific services.
 
 ### Service delegation
 
@@ -196,6 +196,13 @@ SVCB records are ideal for:
 ## Adding and managing service binding records
 
 For step-by-step instructions on how to add, update, and remove service binding records (SVCB and HTTPS) in DNSimple using the record editor, please refer to our dedicated How-To Guide: [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/). This guide covers configuring priority values, target hostnames, service parameters, and the naming format requirements for both record types.
+
+## Comparing service binding records with other record types
+
+If you're trying to decide between HTTPS records and other record types, these comparison articles may help:
+
+- [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records for apex domain aliasing
+- [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records to understand service binding versus web redirects
 
 ## Specification
 
