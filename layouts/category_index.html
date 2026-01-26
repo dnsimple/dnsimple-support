@@ -1,14 +1,32 @@
 <h1><%= @item[:h1] %></h1>
 
-<% sub_categories(@category, @item[:items]).each do |section, articles| %>
-  <h2><%= section %></h2>
-  <ul>
-    <% articles.each do |article| %>
-      <% if article.instance_of?(String) %>
-        <!-- Article with title "<%= article %>" was not found when building the category page-->
-      <% else %>
-        <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
-      <% end %>
+<% sub_categories(@category, @item[:items]).each do |section, content| %>
+  <% if content.is_a?(Hash) %>
+    <!-- Nested structure (e.g., "How-to" => { "Section" => [...] }) -->
+    <h2><%= section %></h2>
+    <% content.each do |subsection, articles| %>
+      <h3><%= subsection %></h3>
+      <ul>
+        <% articles.each do |article| %>
+          <% if article.instance_of?(String) %>
+            <!-- Article with title "<%= article %>" was not found when building the category page-->
+          <% else %>
+            <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
+          <% end %>
+        <% end %>
+      </ul>
     <% end %>
-  </ul>
+  <% else %>
+    <!-- Flat structure (e.g., "Section" => [...]) -->
+    <h2><%= section %></h2>
+    <ul>
+      <% content.each do |article| %>
+        <% if article.instance_of?(String) %>
+          <!-- Article with title "<%= article %>" was not found when building the category page-->
+        <% else %>
+          <li><a href="<%= relative_path_to(@items[article.identifier]) %>"><%= article.attributes[:title] %></a></li>
+        <% end %>
+      <% end %>
+    </ul>
+  <% end %>
 <% end %>
