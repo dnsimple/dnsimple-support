@@ -7,10 +7,10 @@ Getting Started:
 
 Explanation:
   DNS Basics:
-    - What is DNS?
+    - What Is DNS?
     - Common DNS Records
     - What Is a Zone File?
-    - What is Time-to-Live?
+    - What Is Time-to-Live?
     - What Is Resolution Status?
     - What Is dig?
     - What Is Dynamic DNS?
@@ -54,7 +54,7 @@ Explanation:
     - What Is Zone Verification and Why Does It Matter?
     - How Long Does a New DNS Record Take to Resolve?
     - Protection Against DDoS Attacks
-    - Why DNSSEC and Secondary DNS may not work together
+    - Why DNSSEC and Secondary DNS May Not Work Together
     - How ALIAS Records Resolve with Secondary DNS
     - Why You Should Auto-Import DNS Records
   Integrated DNS Providers:

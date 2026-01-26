@@ -31,8 +31,8 @@ Important updates and changes that may affect your DNS configuration:
 
 Learn about DNS fundamentals, DNS records, and DNS concepts:
 
-- [What is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
-- [What is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
+- [What Is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
+- [What Is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
 - [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-is-ttl/#ttl-in-dnsimple) - Discover the minimum TTL values that DNSimple provides for your DNS records.
 - [How Long Does a New DNS Record Take to Resolve?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) - Understand the time it takes for new DNS records to become available after creation.
 - [What Is Resolution Status?](/articles/resolution-status/) - Learn about resolution status and how to check if your DNS records are resolving correctly.
@@ -74,7 +74,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [Explanation of Regional Records](/articles/regional-records/) - Learn about regional records and how they enable location-based DNS responses.
 - [Regional Records](/articles/regional-records/) - Understand regional records and how they enable location-based DNS responses.
 - [Reverse DNS Zones](/articles/reverse-dns/) - Learn about reverse DNS zones and how to configure PTR records.
-- [Why DNSSEC and Secondary DNS may not work together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
+- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - Learn how ALIAS records work when using secondary DNS providers.
 - [Integrated DNS Providers at DNSimple](/articles/integrated-dns-providers/) - Overview of integrated DNS providers available in DNSimple and how they work.
 - [What Are Integrated DNS Providers and Why Use Them?](/articles/what-are-integrated-providers/) - Understand integrated DNS providers and the benefits of using them with DNSimple.
