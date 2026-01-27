@@ -27,17 +27,7 @@ Domain registration is the process of purchasing and reserving a domain name for
 
 ### Registrant contact information
 
-**Required information:** When registering a domain, you must provide accurate registrant contact information. This typically includes:
-
-- Name
-- Organization (if applicable)
-- Email address
-- Phone number
-- Address (street, city, state/province, postal code, country)
-
-**Contact creation:** You can choose a contact from those you've already created, or create a new contact during the registration process. If this is the first domain you are registering, you will be taken to a page to provide the registrant's contact details.
-
-**Contact accuracy:** It's important to ensure contact information is accurate and up to date, as this information is used for important communications about your domain, including expiration notifications and transfer authorization emails.
+When registering a domain, you must provide accurate registrant contact information. The registrant is the legal owner of the domain and receives important communications about the domain, including expiration notifications and transfer authorization emails. For detailed information about domain contact types, including registrant, administrative, technical, and billing contacts, see [Domain Contact Types Reference](/articles/domain-contact-types-reference/).
 
 ### Extended attributes
 

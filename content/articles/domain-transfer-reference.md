@@ -30,7 +30,7 @@ A domain transfer is the process of moving a domain name registration from one r
 
 ### Authorization code
 
-The authorization code (also called transfer code, auth code, or auth info) is required to authorize the transfer of a domain name. This code is typically sent by the current registrar via email to the domain registrant.
+An authorization code (also called transfer code, auth code, or auth info) is required to authorize the transfer of a domain name. For detailed information about transfer codes, including format, requirements, and how to obtain them, see [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/).
 
 ## Transfer timeline
 
