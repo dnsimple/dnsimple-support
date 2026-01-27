@@ -29,6 +29,10 @@ How-to:
     - "Resending Domain Validation Email"
   "Notifications":
     - "Disabling Expiration Notifications"
+  "Troubleshooting":
+    - "Troubleshooting Domain Transfer Issues"
+    - "Troubleshooting Domain Validation Issues"
+    - "Troubleshooting Domain Expiration Issues"
 
 Registering, renewing:
 - "Domain Auto-Renewal"
@@ -88,3 +92,11 @@ Top-level domains:
 - ".US Domains"
 - ".XXX Domains"
 - ".ZA Domains"
+
+Reference:
+- "Domain Transfer Reference"
+- "Domain Expiration Reference"
+- "Domain Registration Reference"
+- "Domain Transfer Code Reference"
+- "Domain Contact Types Reference"
+- "Domains Glossary"
