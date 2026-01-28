@@ -1,0 +1,61 @@
+---
+TLD Basics:
+  - "What is a TLD?"
+  - "Regulated Top-Level Domains"
+
+Country-Code TLDs (ccTLD):
+  "With Special Transfer Requirements":
+    - ".AU Domains"
+    - "Migrating Your .AU Domains from Our Legacy Provider"
+    - ".ES Domains"
+    - ".US Domains"
+    - ".ZA Domains"
+  "Auto-Renewal Only":
+    - ".CH Domains"
+    - ".JP Domains"
+    - ".LI Domains"
+  "With Special Registration Requirements":
+    - ".BE Domains"
+    - ".CA Domains"
+    - ".CM Domains"
+    - ".CO Domains"
+    - ".DE Domains"
+    - ".EU Domains"
+    - ".FI Domains"
+    - ".FR Domains"
+    - ".IO Domains"
+    - ".IT Domains"
+    - ".MX Domains"
+    - ".NL Domains"
+    - ".NZ Domains"
+    - ".PL Domains"
+    - ".SE Domains"
+    - ".SG Domains"
+    - ".UK Domains"
+
+Third-Level Country-Code TLDs:
+  - ".COM.AU Domains"
+  - ".NET.AU Domains"
+  - ".ORG.AU Domains"
+  - ".CO.UK Domains"
+  - ".ORG.UK Domains"
+  - ".COM.CO Domains"
+  - ".NET.CO Domains"
+  - ".NOM.CO Domains"
+  - ".CO.NZ Domains"
+  - ".GEN.NZ Domains"
+  - ".NET.NZ Domains"
+  - ".ORG.NZ Domains"
+
+Generic TLDs (gTLD):
+  "Sponsored/Restricted gTLDs":
+    - ".BANK Domains"
+    - ".INSURANCE Domains"
+    - ".JOBS Domains"
+    - ".XXX Domains"
+  "Geographic gTLDs":
+    - ".BERLIN Domains"
+  "New gTLDs":
+    - ".DAY Domains"
+    - ".ECO Domains"
+    - ".GAY Domains"

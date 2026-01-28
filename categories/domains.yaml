@@ -1,4 +1,9 @@
 ---
+Explanation:
+  TLD Basics:
+    - "What is a TLD?"
+    - "Regulated Top-Level Domains"
+
 How-to:
   "Domain Registration & Setup":
     - "Adding a Domain"
@@ -61,37 +66,6 @@ Managing domains:
 - "DNSimple and Handshake (HNS)"
 - "Can I use DNSimple for drop catching?"
 - "Redirecting www to Non-www Domain at Heroku"
-
-Top-level domains:
-- "What is a TLD?"
-- "Regulated Top-Level Domains"
-- ".AU Domains"
-- "Migrating Your .AU Domains from Our Legacy Provider"
-- ".BANK Domains"
-- ".BE Domains"
-- ".BERLIN Domains"
-- ".CA Domains"
-- ".CH Domains"
-- ".CM Domains"
-- ".DAY Domains"
-- ".DE Domains"
-- ".ECO Domains"
-- ".ES Domains"
-- ".EU Domains"
-- ".GAY Domains"
-- ".INSURANCE Domains"
-- ".IT Domains"
-- ".JOBS Domains"
-- ".JP Domains"
-- ".LI Domains"
-- ".MX Domains"
-- ".PL Domains"
-- ".SE Domains"
-- ".SG Domains"
-- ".UK Domains"
-- ".US Domains"
-- ".XXX Domains"
-- ".ZA Domains"
 
 Reference:
 - "Domain Transfer Reference"

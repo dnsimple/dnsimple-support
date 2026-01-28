@@ -2,7 +2,7 @@
 title: .MX Domains
 excerpt: This article explains the requirements and special procedures for .MX domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .MX Domain Names
