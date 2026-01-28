@@ -3,7 +3,7 @@ title: Managing DS Records When Changing DNS
 excerpt: Explains what to do if you use DNSSEC and change DNS services.
 meta: Learn how to update your DS records when changing DNS services while using DNSSEC, ensuring your domain remains secure and properly configured.
 categories:
-- Domain Transfers
+- Domains
 - DNS
 - DNSSEC
 ---
