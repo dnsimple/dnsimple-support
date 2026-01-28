@@ -2,7 +2,7 @@
 title: .GAY Domains
 excerpt: This article explains the requirements and special procedures for .GAY domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .GAY Domain Names

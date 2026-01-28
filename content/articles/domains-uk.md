@@ -2,7 +2,7 @@
 title: .UK Domains
 excerpt: This article explains the requirements and special procedures for .UK domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .UK Domain Names

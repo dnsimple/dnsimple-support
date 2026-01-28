@@ -2,7 +2,7 @@
 title: .SG Domains
 excerpt: This article explains the requirements and special procedures for .sg domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .SG Domain Names
