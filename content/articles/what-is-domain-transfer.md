@@ -38,9 +38,6 @@ During a domain transfer, your domain's DNS resolution is not interrupted. The t
 
 It's important to understand the difference between domain transfer and other domain operations. Transferring a domain is different from renewing it. A transfer moves the domain to a new registrar, while renewal extends the registration period with the current registrar. Changing your domain's name servers (DNS delegation) is separate from transferring the domain registration. You can change DNS providers without transferring the domain. Moving a domain between accounts at the same registrar is different from transferring to a different registrar.
 
-## Related articles
+## Have more questions?
 
-- [What Is Domain Lock?](/articles/what-is-domain-lock/) - Understand domain locks and how they affect transfers.
-- [What Are Domain Contacts?](/articles/what-are-domain-contacts/) - Learn about contact information and its role in transfers.
-- [Transfer a Domain to DNSimple](/articles/domain-transfer/) - Guide to transferring a domain to DNSimple.
-- [Preparing a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/) - Best practices for transferring domains.
+If you have any questions about domain transfers or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.

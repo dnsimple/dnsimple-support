@@ -40,8 +40,6 @@ The process for removing locks depends on the type of lock. Registrar locks are 
 
 If you want to transfer a domain, you must ensure that all locks are removed. You should verify which locks are active on your domain, remove the registrar lock through your account, wait for any ICANN lock to expire or ensure no registrant changes have been made recently, remove any additional locks such as SuperLock if applicable, and then proceed with the transfer once all locks are removed.
 
-## Related articles
+## Have more questions?
 
-- [What Is Domain Transfer?](/articles/what-is-domain-transfer/) - Understand how locks affect domain transfers.
-- [ICANN 60-Day Lock After Change of Registrant](/articles/icann-60-day-lock-registrant-change/) - Learn about the ICANN 60-day lock policy.
-- [DNSimple SuperLock](/articles/superlock/) - Discover DNSimple's SuperLock feature.
+If you have any questions about domain locks or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.

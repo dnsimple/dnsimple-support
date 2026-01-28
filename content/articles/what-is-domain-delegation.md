@@ -45,9 +45,6 @@ When your name servers are subdomains of your own domain (e.g., `ns1.yourdomain.
 
 Delegation is independent of domain transfers. You can transfer your domain registration to a different registrar without changing delegation. You can change your DNS hosting provider (delegation) without transferring the domain registration. You can transfer registration and change delegation at the same time, but they are separate processes.
 
-## Related articles
+## Have more questions?
 
-- [What Is a Name Server?](/articles/what-is-a-nameserver/) - Understand name servers and their role in DNS.
-- [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) - Guide to delegating domains to DNSimple.
-- [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/) - How to delegate domains registered elsewhere to DNSimple.
-- [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) - Learn how to configure your domain to use DNSimple's name servers.
+If you have any questions about domain delegation or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.

@@ -34,9 +34,6 @@ Because contact information is publicly available through WHOIS, privacy concern
 
 Contact information plays a crucial role in various domain management operations. WHOIS contact information is used to verify domain ownership and send transfer authorization emails during domain transfers. The registrant email address must be accessible to approve domain transfers. When you update domain contact information, the changes are reflected in the WHOIS database and may trigger additional security measures, such as transfer locks or validation requirements. Registrars and registries may use contact email addresses to validate domain ownership and send important notifications. It's important to keep contact information current and use an email address you can access. Changing registrant contact information can trigger a 60-day transfer lock under ICANN policy. This lock prevents domain transfers for 60 days after a registrant change to prevent unauthorized transfers.
 
-## Related articles
+## Have more questions?
 
-- [What Is WHOIS?](/articles/what-is-whois/) - Learn about WHOIS and how contact information is stored and accessed.
-- [What Is Domain Transfer?](/articles/what-is-domain-transfer/) - Understand how contact information is used in domain transfers.
-- [What Is Domain Lock?](/articles/what-is-domain-lock/) - Learn how contact changes can trigger transfer locks.
-- [Changing Domain Contacts](/articles/changing-domain-contact/) - Guide to updating domain contact information.
+If you have any questions about domain contacts or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.
