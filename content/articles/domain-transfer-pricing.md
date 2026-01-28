@@ -2,7 +2,7 @@
 title: Domain Transfer Pricing
 excerpt: Domain transfer price varies depenending on the TLD you want to transfer, and generally it includes 1 year of extension.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Transfer Pricing
