@@ -16,15 +16,20 @@ Domain contacts serve several important purposes. They identify who legally owns
 
 ## Types of domain contacts
 
-Domain registrations typically include three types of contacts. The registrant contact is the legal owner of the domain name. This contact has legal ownership rights to the domain, receives important notifications about the domain, must approve domain transfers and other significant changes, and is responsible for ensuring contact information remains accurate. The registrant contact information is particularly important because changes to registrant information can trigger additional security measures, such as transfer locks.
+Domain registrations typically include three types of contacts. **The registrant contact** is the legal owner of the domain name. This contact has legal ownership rights to the domain, receives important notifications about the domain, must approve domain transfers and other significant changes, and is responsible for ensuring contact information remains accurate. The registrant contact information is particularly important because changes to registrant information can trigger additional security measures, such as transfer locks.
 
-The administrative contact is responsible for administrative decisions about the domain. This contact handles administrative matters related to the domain, may receive notifications about domain status and expiration, can typically make administrative changes to the domain, and often has similar permissions to the registrant contact. In many cases, the administrative contact may be the same person or organization as the registrant contact.
+**The administrative contact** is responsible for administrative decisions about the domain. This contact handles administrative matters related to the domain, may receive notifications about domain status and expiration, can typically make administrative changes to the domain, and often has similar permissions to the registrant contact. In many cases, the administrative contact may be the same person or organization as the registrant contact.
 
-The technical contact is responsible for technical aspects of the domain. This contact handles technical issues related to the domain, may receive technical notifications, is typically the person to contact for DNS or other technical problems, and may have limited administrative permissions depending on the registrar. The technical contact is often different from the registrant and administrative contacts, especially for organizations with separate technical and administrative staff.
+**The technical contact** is responsible for technical aspects of the domain. This contact handles technical issues related to the domain, may receive technical notifications, is typically the person to contact for DNS or other technical problems, and may have limited administrative permissions depending on the registrar. The technical contact is often different from the registrant and administrative contacts, especially for organizations with separate technical and administrative staff.
+
+> [!INFO]
+> At DNSimple, domain contacts are managed using a simplified model. A single contact record represents all contact roles (registrant, administrative, and technical).
+> This means that when you update the domain registrant contact in your DNSimple account, the change is applied to all associated contact roles for that domain.
+
 
 ## Contact information in WHOIS
 
-Domain contact information is stored in the WHOIS database, which provides public access to domain registration information. WHOIS records typically include the name of the contact person or organization, email address, mailing address, phone number, and organization name if applicable. This information is publicly accessible through WHOIS lookups, though privacy protection services can mask this information.
+Domain contact information is stored in the WHOIS database, which provides public access to domain registration information. WHOIS records typically include the name of the contact person or organization, email address, mailing address, phone number, and organization name if applicable. This information may be publicly accessible through WHOIS lookups, depending on the TLD and registry policies, though privacy protection services can further limit what is displayed.
 
 ## Contact information and privacy
 
