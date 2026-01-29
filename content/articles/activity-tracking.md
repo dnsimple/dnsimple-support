@@ -27,29 +27,21 @@ Activity tracking provides accountability and transparency in domain management,
 
 Activity tracking records changes made through the DNSimple interface and API, but it does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain providers' interfaces.
 
-Below, you'll find how to access and use activity tracking at both the domain and account levels, along with information on how to filter events to find exactly what you're looking for.
-
 ## Domain activity tracking
 
-Domain-level activity tracking can be found under the domain's management page.
-
-Locate the domain on your [Domain List](/articles/domain-list/). Click the domain name to access the **Overview** page.
-
-Click **View** on the **Activity** card to view a detailed audit log of changes to the domain.
+Domain-level activity tracking provides an audit log of all changes made to a specific domain. This includes DNS record modifications, contact updates, name server changes, and other domain-specific operations. Each entry shows what changed, who made the change, and when it occurred.
 
 ![Activity Tracking at domain level](/files/activity-tracking-1.png)
 
 ## Account activity tracking
 
-Account-level activity tracking can be found under the account page.
-
-Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
-
-Click **View** on the **Activity** card to view a detailed audit log of changes within your account, including:
+Account-level activity tracking provides an audit log of changes across your entire account, including:
 
 - Adjustments to account settings
 - Modifications affecting multiple domains
 - User actions and changes in permissions
+
+This broader view helps you understand changes that affect the account as a whole, not just individual domains.
 
 ![Screenshot of dashboard of activity](/files/activity-tracking-dashboard.png)
 

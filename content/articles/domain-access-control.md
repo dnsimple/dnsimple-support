@@ -1,6 +1,7 @@
 ---
 title: Domain Access Control
 excerpt: Control what each account member can access on a per-domain or per-zone basis.
+meta: Learn about Domain Access Control, how granular access permissions work, and why they matter for team security and domain management.
 categories:
 - Account
 - Domains
@@ -37,11 +38,7 @@ Without granular access control, any user with account access can modify any dom
 
 ## Setting access for a team member
 
-To set a team member's role for multiple domains at once:
-
-1. Go to your Account page.
-1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
-1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
+Access for team members can be configured at the account level, allowing you to set roles for multiple domains at once. Team members can be assigned either [**Full Access**](#full-access) or [**Limited Access**](#limited-access) across all domains in the account.
 
 ![Manage Access](/files/manage-access.png)
 
@@ -57,28 +54,18 @@ You can specify **Limited Access** when inviting a team member. The new team mem
 
 ![screenshot: invite a user with limited access](/files/invite-with-limited-access.png)
 
-If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**.
+If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**. When limited access is configured, you can assign specific roles for each domain, choosing between [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) permissions.
 
-1. Click **Manage access** for the specific team member.
-1. Select **Limited Access**.
-1. You'll see a list of each domain in your account, along with dropdown menus with options for [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager).
+![screenshot: set team member as limited access](/files/limited-access-team-member.png)
 
-    ![screenshot: set team member as limited access](/files/limited-access-team-member.png)
-
-4. You can search for specific domains, or enter a role to view domains for which that team member has been assigned a role.
-
-    ![screenshot: assign roles per domain](/files/roles-per-domain.png)
+![screenshot: assign roles per domain](/files/roles-per-domain.png)
 
 ## Setting access for a domain
 
 > [!NOTE]
 > A team member must have limited access before you can fine-tune their access at the domain level.
 
-You can set up the Domain Access Control feature for any individual domain.
-
-1. Locate and click the domain you want to set access for in your Domain List.
-1. Choose the **Access control** tab at the bottom left.
-1. You'll see a list of all team members along with their current role. Use the drop down menu to update the type of access they have to each specific domain.
+Domain Access Control can be configured for individual domains, allowing you to set specific permissions for each team member on a per-domain basis. This provides granular control over who can access and modify each domain in your account.
 
 ![screenshot: roles per domain](/files/access-per-domain.png)
 

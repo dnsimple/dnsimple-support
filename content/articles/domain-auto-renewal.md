@@ -61,38 +61,18 @@ If the payment method on file cannot be charged when auto-renewal is attempted, 
 
 ## Enabling auto-renewal
 
-You can enable auto-renewal when you first register a domain or any time after the domain has been registered.
+You can enable auto-renewal when you first register a domain or any time after the domain has been registered. Newly registered domains are set to auto-renew by default to protect against accidental expiration. Auto-renewal can be enabled or disabled for each domain individually, giving you control over which domains should renew automatically and which should require manual renewal.
 
-Newly registered domains are set to auto-renew by default to protect against accidental expiration. If you turned off auto-renewal and want to re-enable it for your domain, follow these steps:
-
-<div class="section-steps" markdown="1">
-##### To enable auto-renewal for a domain
-
-1. If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
-1. On the header click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
-1. In the **Overview** tab, check <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
-    ![screenshot of option for autorenew of domain](/files/domain-autorenew.png)
-
-Auto-renewal is now enabled on your domain.
-</div>
+![screenshot of option for autorenew of domain](/files/domain-autorenew.png)
 
 ## Disabling auto-renewal
 
 > [!WARNING]
 > Auto-renewal cannot be turned off if the auto-renewal is being processed.
 
-To turn off auto-renewal for a domain, follow these steps:
+Auto-renewal can be disabled for any domain at any time, except when the auto-renewal process is currently in progress. Once disabled, the domain will require manual renewal before expiration. This gives you flexibility to manage renewals manually for domains where you want more control over the renewal timing or payment method.
 
-<div class="section-steps" markdown="1">
-##### To disable auto-renewal for a domain
-
-1. If you have more than one account, select the relevant one from the account switcher in the top-right corner of the screen.
-1. On the header, click the <label>Domain Names</label> tab. Click the relevant domain name to access the domain page.
-1. In the **Overview** tab, uncheck <label>Auto-renew this domain before it expires</label> on the **Registration status** card.
-    ![](/files/disable-autorenew.png)
-
-Auto-renewal is now disabled on your domain.
-</div>
+![](/files/disable-autorenew.png)
 
 ## Have more questions?
 

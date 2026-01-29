@@ -40,35 +40,14 @@ SuperLock protects against transfers and account moves, but it does not prevent 
 > [!WARNING]
 > Please read the process to [disable SuperLock](#disabling-superlock). Once SuperLock is enabled, you cannot disable it by yourself.
 
-
-<div class="section-steps" markdown="1">
-##### Enable SuperLock
-
-1. Log into DNSimple and open the domain for which you want to enable SuperLock.
-1. Select <label>Settings</label> in the menu on the left.
-1. Press <label>Enable SuperLock</label>
-</div>
+SuperLock can be enabled for any domain in your account. Once enabled, transfers and pushes are blocked for that domain until SuperLock is disabled. This feature is relevant to the security of the domain, and an email notification about this activity is sent to all users in the account.
 
 ![enabling SuperLock in the settings page](/files/superlock-not-enabled.png)
 
-That's it. Transfers and pushes are blocked for this domain as long as SuperLock is enabled.
-
-This feature is relevant to the security of the domain. We'll send an email about this activity to all users in the account.
-
 ## Disabling SuperLock
 
-If you want to transfer a domain that has SuperLock enabled, you'll need to disable SuperLock before you can proceed.
-
-To disable SuperLock, you'll need a quorum of 2 users in the account to proceed.
+If you want to transfer a domain that has SuperLock enabled, you'll need to disable SuperLock before you can proceed. Disabling SuperLock requires a quorum of 2 users in the account to proceed.
 
 The quorum requirement ensures that disabling SuperLock is a deliberate, collaborative decision rather than an action taken by a single user. This prevents accidental or malicious disabling of the protection. Both users must actively vote to disable SuperLock, which provides accountability and reduces the risk of unauthorized domain transfers.
-
-<div class="section-steps" markdown="1">
-##### Voting to disable SuperLock
-
-1. Log into DNSimple and open the domain you want to enable SuperLock on.
-1. Select <label>Settings</label> in the menu on the left.
-1. Press <label>Disable SuperLock</label>
-</div>
 
 ![disabling the SuperLock in the settings page](/files/superlock-voted.png)
