@@ -23,7 +23,11 @@ This article explains the requirements and special procedures for .IS domain nam
 
 <div class="section-steps" markdown="1">
 ##### 1. Starting the transfer
-
+1. In the dashboard of the account you want to transfer the domain to, click <label>Add</label>.
+2. Select <label>Transfer domain</label>.
+3. Enter the domain name and click <label>Start Transfer</label>.
+4. Select an existing registrant and complete any required extended attributes. If no registrant exists yet, enter the information needed to create a new contact.
+5. Press <label>Transfer Domain</label>
 1. Log into DNSimple and click on <label>Add a Domain</label>.
 1. Select <label>transfer a domain</label>.
 1. Press <label>Transfer Domain</label>
