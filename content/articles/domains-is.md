@@ -28,11 +28,6 @@ This article explains the requirements and special procedures for .IS domain nam
 3. Enter the domain name and click <label>Start Transfer</label>.
 4. Select an existing registrant and complete any required extended attributes. If no registrant exists yet, enter the information needed to create a new contact.
 5. Press <label>Transfer Domain</label>
-1. Log into DNSimple and click on <label>Add a Domain</label>.
-1. Select <label>transfer a domain</label>.
-1. Press <label>Transfer Domain</label>
-1. Select a registrant and fill in any extended attributes.
-1. Press <label>Transfer Domain</label>
 </div>
 
 <div class="section-steps" markdown="1">
