@@ -9,19 +9,18 @@ categories:
 
 # Domain Access Control
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 > [!NOTE]
 > Domain Access Control is only available on eligible [plans](https://dnsimple.com/pricing).
 
 The Domain Access Control feature lets you set the level of access for each team member in your account. Take control over who can access and manage your organization's domains, and ensure access is limited based on your needs.
 
 Combined with other DNSimple security features, like [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), your domains are as secure as possible in your DNSimple account.
+
+## Why granular access control matters
+
+In organizations with multiple team members, not everyone needs full access to all domains. Some team members may only need to manage DNS records for specific domains, while others may need broader access. Domain Access Control implements the principle of least privilege, granting users only the access they need to perform their work. This reduces the risk of accidental or malicious changes to critical domains and provides better security isolation.
+
+Without granular access control, any user with account access can modify any domain, which increases the risk of unauthorized changes or mistakes. With Domain Access Control, you can limit access to sensitive domains while still allowing team members to work on domains they need to manage.
 
 ## Video walk-through
 
@@ -105,6 +104,8 @@ If a team member accesses a domain in an account via their user token, they'll h
 
 > [!NOTE]
 > [Learn the difference](/articles/api-access-token/#account-tokens-vs-user-tokens) between account tokens and user tokens.
+
+API access respects the same access control rules as the web interface. This means that programmatic access through the API is subject to the same restrictions as manual operations through the dashboard. User tokens are tied to individual user accounts and inherit that user's access permissions, while account tokens are designed for system-level operations and bypass user-level restrictions. This distinction is important when designing automated systems or integrations that need to access domains with limited permissions.
 
 
 ## Have more questions?

@@ -8,14 +8,11 @@ categories:
 
 # Integrated Domain Providers
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 DNSimple supports the ability to manage domains that are registered with other domain providers external to DNSimple. DNSimple calls such providers "Integrated Domain Providers".
+
+## Why integrated domain providers exist
+
+Integrated Domain Providers allow you to manage domains registered elsewhere through the DNSimple interface, providing a unified management experience. This is useful when you have domains registered with multiple providers but want to manage DNS, certificates, and other services from a single location. However, it's important to understand that integration does not transfer domain registration to DNSimple. The domain remains registered with the original provider, and certain operations must still be performed through that provider's system.
 
 ## Supported features
 
@@ -23,6 +20,10 @@ DNSimple supports the ability to manage domains that are registered with other d
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, name servers from the DNSimple dashboard.
 - **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain/) your domains.
 - **Domain expiration notices**: Get email notifications when your integrated domains are near expiry.
+
+## Limitations of integrated domains
+
+While integrated domains can be managed through DNSimple, they remain registered with the original provider. This means billing for registration, renewal, and certain domain services is handled by the original provider, not DNSimple. Some operations may require you to access the original provider's interface, and the availability of features may vary depending on what the integrated provider's API supports. DNSimple can only manage what the integrated provider's API allows, so some advanced features available for domains registered directly with DNSimple may not be available for integrated domains.
 
 ## Supported Integrated Domain Providers
 

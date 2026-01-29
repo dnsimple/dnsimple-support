@@ -8,17 +8,16 @@ categories:
 
 # Activity Tracking
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 > [!NOTE]
 > Full activity history is available on the Teams plan and higher. Accounts on the Solo plan can view activity logs from the past 30 days. [See the difference between plans](/articles/dnsimple-plans/).
 
 Activity history offers a comprehensive audit log of all changes made to a specific domain or across your entire account. It lets you manage your domain management and understand any modifications made over time.
+
+## Why activity tracking matters
+
+Activity tracking provides accountability and transparency in domain management, especially important in team environments. It helps you identify who made specific changes, when they were made, and what exactly changed. This is valuable for troubleshooting issues, understanding the impact of changes, and maintaining security by detecting unauthorized modifications. The audit log creates a historical record that can be reviewed to understand how a domain's configuration evolved over time.
+
+Activity tracking records changes made through the DNSimple interface and API, but it does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain providers' interfaces.
 
 Below, you'll find how to access and use activity tracking at both the domain and account levels, along with information on how to filter events to find exactly what you're looking for.
 

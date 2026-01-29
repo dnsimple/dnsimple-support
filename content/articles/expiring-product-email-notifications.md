@@ -13,6 +13,10 @@ DNSimple monitors the expiration date of your purchased domains and certificates
 
 There are two types of expiring domain notifications:
 
+## Difference between DNSimple and ICANN notifications
+
+DNSimple's expiration notifications are separate from the ICANN-required notifications sent by registrars. DNSimple notifications are sent to the account owner email address and provide a convenient summary of all expiring products in your account. ICANN notifications are sent to the registrant email address for each domain and are required by policy. You may receive both types of notifications for the same domain, which is normal and expected. DNSimple notifications can be disabled for domains without auto-renewal, but ICANN notifications cannot be disabled because they are mandated by policy.
+
 - [Product Expiration](/articles/product-expiration-notification/) - An email reminder with a list of products expiring within 2 months. This is delivered every week if you have products expiring within 60 days.
 - [Product Expiring Tomorrow](/articles/product-expiring-tomorrow-notification/) - An email reminder that lists products expiring in under 24 hours. This is a final notice, delivered once the day before the expiration date.
 
