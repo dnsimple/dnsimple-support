@@ -8,12 +8,19 @@ categories:
 
 # DNSimple SuperLock
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 > [!NOTE]
 > This article describes a feature in private beta.
 
 Protect your domains from accidental transfers with DNSimple SuperLock.
 
-# What is SuperLock?
+## What is SuperLock?
 
 SuperLock is a mechanism that prevents individual users from performing destructive operations on a domain - like transferring the domain out. Without SuperLock, any user of an account effectively has admin power on any resource in the account. They could independently start a transfer out or push the domain into another DNSimple account. That means a compromised user account can damage any resource inside the account.
 

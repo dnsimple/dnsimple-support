@@ -1,12 +1,20 @@
 ---
 title: Activity Tracking
 excerpt: How to review the list of events for an account or domain using our audit log feature.
+meta: Learn how to use activity tracking to review audit logs of changes made to domains and accounts, including filtering events and understanding activity history.
 categories:
 - Account
 - Domains
 ---
 
 # Activity Tracking
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 > [!NOTE]
 > Full activity history is available on the Teams plan and higher. Accounts on the Solo plan can view activity logs from the past 30 days. [See the difference between plans](/articles/dnsimple-plans/).

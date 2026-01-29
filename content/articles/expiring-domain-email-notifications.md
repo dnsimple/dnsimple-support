@@ -1,11 +1,19 @@
 ---
 title: Expiring Domain Email Notifications
 excerpt: This page describes the email notifications you will receive about expiring domains purchased through DNSimple.
+meta: Learn about ICANN-required expiration notifications for domains, why they are sent, and why they cannot be disabled.
 categories:
 - Domains
 ---
 
 # Expiring Domain Email Notifications
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 ICANN, the organization that oversees domain name registrations for most top-level domains, requires notifications to be sent about domains registered with us that will expire soon. These notifications come directly from our upstream partners and are sent to the [registrant email address](/articles/contact-management/) for the domain.
 

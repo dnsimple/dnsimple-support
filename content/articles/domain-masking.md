@@ -8,6 +8,13 @@ categories:
 
 # Domain Masking
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 ## What is masking?
 
 Domain Masking (or URL Masking) is when you set up a website to display the content of another while hiding the destination's URL. For example, using Domain Masking makes the website `examplemail.com` show the content of `mail.example.com/email/login`, without the user knowing they're accessing `mail.example.com`.

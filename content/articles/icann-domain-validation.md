@@ -8,6 +8,13 @@ categories:
 
 # Domain Validation Requirements
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Domain registries and organizations that oversee domain name registrations require validation of your registrant email address whenever a new domain is registered or your registrant email address or name is changed. This validation helps ensure the accuracy of contact information in the domain registration database and protects domain owners from unauthorized changes.
 
 For most top-level domains, validation is required by [ICANN](https://www.icann.org/) (the Internet Corporation for Assigned Names and Numbers) as part of their [RDDS Accuracy program](https://www.icann.org/resources/pages/rdds-2013-02-28-en). Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.

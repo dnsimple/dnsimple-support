@@ -1,12 +1,20 @@
 ---
 title: Integrated Domain Providers at DNSimple
 excerpt: Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
+meta: Learn how to link integrated domain providers to manage domains registered elsewhere through DNSimple, including supported features and limitations.
 categories:
 - Domains
 - Integrations
 ---
 
 # Integrated Domain Providers
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 DNSimple supports the ability to manage domains that are registered with other domain providers external to DNSimple. DNSimple calls such providers "Integrated Domain Providers".
 

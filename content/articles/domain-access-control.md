@@ -9,6 +9,13 @@ categories:
 
 # Domain Access Control
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 > [!NOTE]
 > Domain Access Control is only available on eligible [plans](https://dnsimple.com/pricing).
 

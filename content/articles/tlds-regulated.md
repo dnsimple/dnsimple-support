@@ -8,6 +8,13 @@ categories:
 
 # Regulated and Highly-Regulated Top-Level Domains
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Certain top-level domains (TLDs) my be subject to the registrant meeting specific requirements or regulations. This article describes basic requirements for regulated and highly-regulated TLDs and provides a list of regulated and highly-regulated TLDs.
 
 ## Why some TLDs are regulated

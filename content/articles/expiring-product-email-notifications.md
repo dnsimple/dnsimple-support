@@ -1,6 +1,7 @@
 ---
 title: Expiring Product Email Notifications
 excerpt: This page describes the types of email notifications you may receive about expring items purchased through DNSimple.
+meta: Learn about DNSimple expiration notifications for domains and certificates, how they differ from ICANN notifications, and how to manage them.
 categories:
 - DNSimple
 - Domains
@@ -8,6 +9,13 @@ categories:
 ---
 
 # Expiring Product Email Notifications
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 DNSimple monitors the expiration date of your purchased domains and certificates. We'll send weekly email notifications to the account owner when these products are 60 days from expiration.
 
