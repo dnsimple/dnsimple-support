@@ -35,9 +35,12 @@ Domain contact information is stored in the WHOIS database, which provides publi
 
 Because contact information is publicly available through WHOIS, privacy concerns have led to the development of privacy protection services. Many registrars offer WHOIS privacy services that replace your personal contact information with proxy contact details in the public WHOIS database. The General Data Protection Regulation (GDPR) has also led to changes in how WHOIS data is displayed, with some information being redacted or hidden by default for certain TLDs.
 
-## Contact information and domain management
+## Contact information and domain lifecycle
 
-Contact information plays a crucial role in various domain management operations. WHOIS contact information is used to verify domain ownership and send transfer authorization emails during domain transfers. The registrant email address must be accessible to approve domain transfers. When you update domain contact information, the changes are reflected in the WHOIS database and may trigger additional security measures, such as transfer locks or validation requirements. Registrars and registries may use contact email addresses to validate domain ownership and send important notifications. It's important to keep contact information current and use an email address you can access. Changing registrant contact information can trigger a 60-day transfer lock under ICANN policy. This lock prevents domain transfers for 60 days after a registrant change to prevent unauthorized transfers.
+Domain contact information helps registries and registrars maintain a clear chain of ownership throughout a domain’s lifecycle. Because the registrant contact represents the legal owner of a domain, changes to this information are treated with extra care.
+
+To reduce the risk of unauthorized transfers, registries may apply temporary safeguards when registrant details are updated. For example, under ICANN policy, a registrant change can trigger a temporary transfer restriction intended to protect domain ownership. You can learn more about this policy in
+[ICANN 60-day transfer lock after registrant change](https://support.dnsimple.com/articles/icann-60-day-lock-registrant-change/).
 
 ## Have more questions?
 
