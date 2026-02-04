@@ -50,6 +50,7 @@ All DNSimple record types can be synced to CoreDNS:
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
 - [SSHFP](/articles/sshfp-records/)
+- [SVCB/HTTPS](/articles/svcb-https-record/)
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
 

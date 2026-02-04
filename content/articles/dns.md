@@ -62,6 +62,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is an SRV Record?](/articles/srv-record/) - Learn about SRV (Service) records and how they specify service locations.
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Understand SVCB and HTTPS records (RFC 9460) and how they provide service binding information for network services.
 - [What Are SSHFP Records?](/articles/sshfp-records/) - Understand SSHFP records and how they store SSH public key fingerprints.
+- [What Are SVCB and HTTPS Records?](/articles/svcb-https-record/) - Learn about SVCB and HTTPS records (RFC 9460) and how they enable faster, more efficient connections by providing connection hints to clients.
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA (Transport Layer Security Authentication) records and how they enhance TLS security through DANE.
 - [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
 - [What Are System Records?](/articles/system-records/) - Learn about system records that DNSimple automatically manages for your domain.

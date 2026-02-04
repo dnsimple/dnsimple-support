@@ -58,10 +58,10 @@ Some DNS records have their own semantics but are defined using existing record 
 
 ## Limitations
 
-- **Integrated providers**: Azure DNS does not support SSHFP records.
+- **Integrated providers**: Azure DNS does not support [SSHFP](/articles/sshfp-records/) or [SVCB/HTTPS](/articles/svcb-https-record/) records.
 
-- **CAA records and integrated providers**: CAA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
+- **CAA records and integrated providers**: CAA records are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
 
-- **TLSA records and integrated providers**: TLSA records are fully supported when your domain's DNS is managed directly by DNSimple, or when DNSimple acts as a Secondary DNS provider. However, they are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
+- **TLSA records and integrated providers**: TLSA records are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
   
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.
