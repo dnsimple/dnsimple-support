@@ -37,7 +37,7 @@ Because contact information is publicly available through WHOIS, privacy concern
 
 ## Contact information and domain lifecycle
 
-Domain contact information helps registries and registrars maintain a clear chain of ownership throughout a domain’s lifecycle. Because the registrant contact represents the legal owner of a domain, changes to this information are treated with extra care.
+Domain contact information helps registries and registrars maintain a clear chain of ownership throughout a domain's lifecycle. Because the registrant contact represents the legal owner of a domain, changes to this information are treated with extra care.
 
 To reduce the risk of unauthorized transfers, registries may apply temporary safeguards when registrant details are updated. For example, under ICANN policy, a registrant change can trigger a temporary transfer restriction intended to protect domain ownership. You can learn more about this policy in
 [ICANN 60-day transfer lock after registrant change](https://support.dnsimple.com/articles/icann-60-day-lock-registrant-change/).

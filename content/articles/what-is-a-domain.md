@@ -14,7 +14,7 @@ At a high level, a domain acts as a stable, easy-to-remember name that represent
 
 ## How do domain names work?
 
-Domain names work through the [Domain Name System]((/articles/what-is-dns/)), commonly known as DNS. DNS is a global, distributed system that translates human-readable domain names into the IP addresses that computers use to communicate with each other.
+Domain names work through the [Domain Name System](/articles/what-is-dns/), commonly known as DNS. DNS is a global, distributed system that translates human-readable domain names into the IP addresses that computers use to communicate with each other.
 
 When you type a domain name into your web browser, your computer asks the DNS system which IP address is associated with that name. Once the IP address is found, your browser connects to the server at that address to load the website or service. This process happens automatically in the background and usually takes only a fraction of a second.
 
@@ -34,11 +34,11 @@ Domains make it possible to create email addresses associated with your name or 
 
 ## Domain registration vs. DNS hosting
 
-It’s important to understand the difference between domain registration and DNS hosting, as these are two separate but related services.
+It's important to understand the difference between domain registration and DNS hosting, as these are two separate but related services.
 
 Domain registration gives you the right to use a specific domain name for a period of time, typically one year at a time. A domain registrar manages this registration on your behalf and ensures the domain remains assigned to you as long as it is renewed.
 
-DNS hosting, on the other hand, is about how your domain is configured. DNS hosting is where your domain’s DNS records are stored and managed. These records control how your domain behaves, such as where your website is hosted, how email is delivered, and which services are associated with the domain.
+DNS hosting, on the other hand, is about how your domain is configured. DNS hosting is where your domain's DNS records are stored and managed. These records control how your domain behaves, such as where your website is hosted, how email is delivered, and which services are associated with the domain.
 
 Because these services are separate, you have flexibility in how you manage your domain. You can register a domain with DNSimple and host your DNS with a different provider, or register a domain elsewhere and use DNSimple for DNS hosting. This separation allows you to choose the registrar and DNS provider that best suits your needs.
 
