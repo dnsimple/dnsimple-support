@@ -10,7 +10,6 @@ How-to:
     - "Registering a Domain"
   "Domain Renewal & Expiration":
     - "Renewing a Domain"
-    - "Enabling and Disabling Domain Auto-Renewal"
     - "Restoring a Domain"
     - "Recovering a Deleted Domain"
   "Domain Deletion":
@@ -29,15 +28,9 @@ How-to:
   "Contact & WHOIS Management":
     - "Changing WHOIS information"
   "Integrated Domain Providers":
-    - "Linking and Unlinking Integrated Domain Providers"
-  "Domain Validation":
-    - "Resending Domain Validation Email"
+    - "Managing Integrated DNS Providers"
   "Notifications":
     - "Disabling Expiration Notifications"
-  "Troubleshooting":
-    - "Troubleshooting Domain Transfer Issues"
-    - "Troubleshooting Domain Validation Issues"
-    - "Troubleshooting Domain Expiration Issues"
 
 Registering, renewing:
 - "Domain Auto-Renewal"
@@ -67,10 +60,3 @@ Managing domains:
 - "Can I use DNSimple for drop catching?"
 - "Redirecting www to Non-www Domain at Heroku"
 
-Reference:
-- "Domain Transfer Reference"
-- "Domain Expiration Reference"
-- "Domain Registration Reference"
-- "Domain Transfer Code Reference"
-- "Domain Contact Types Reference"
-- "Domains Glossary"
