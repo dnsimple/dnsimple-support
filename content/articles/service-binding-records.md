@@ -195,7 +195,55 @@ SVCB records are ideal for:
 
 ## Adding and managing service binding records
 
+DNSimple provides comprehensive support for creating and managing SVCB and HTTPS records through the [Record Editor](/articles/record-editor/).
+
+### Record Editor features
+
+The Record Editor offers two modes for working with SVCB and HTTPS records:
+
+- **Simple mode**: A content field where you can enter the complete record content in a single text field. This is useful for pasting records from other sources or for users familiar with the record format.
+- **Advanced mode**: A field-specific editor that breaks down the record into separate fields for:
+  - Priority (SvcPriority)
+  - Target name (TargetName)
+  - Service parameters (SvcParams)
+  
+  This mode provides guided input and validation to help ensure correct configuration.
+
+### Validation
+
+The Record Editor includes validation per RFC 9460 to ensure records are correctly formatted:
+
+- **SvcPriority validation**: Ensures priority values are within the valid range (0-65535)
+- **TargetName validation**: Validates that the target name is a valid hostname or `.`
+- **SvcParams validation**: Validates service parameters, including:
+  - Standard keys (alpn, port, ipv4hint, ipv6hint, ech)
+  - Custom keys using the `keyNNNNN` format
+  - Proper formatting and value ranges for each parameter type
+
+### Live preview
+
+As you type in the Record Editor, a live preview updates to show how the record will appear, helping you verify the configuration before saving.
+
+### API support
+
+SVCB and HTTPS records are fully supported through the DNSimple API, allowing you to programmatically create, update, and manage these records. For more information, see the [DNSimple API documentation](https://developer.dnsimple.com/v2/zones/records/).
+
 For step-by-step instructions on how to add, update, and remove service binding records (SVCB and HTTPS) in DNSimple using the record editor, please refer to our dedicated How-To Guide: [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/). This guide covers configuring priority values, target hostnames, service parameters, and the naming format requirements for both record types.
+
+## Integrated DNS Provider support
+
+SVCB and HTTPS records are supported for syncing and management with the following Integrated DNS Providers:
+
+- **Route 53**: Full SVCB/HTTPS sync support. Records created in DNSimple can be synced to Route 53, and records in Route 53 can be imported and managed through DNSimple.
+- **CoreDNS**: Full SVCB/HTTPS sync support. Records configured in DNSimple can be synced to CoreDNS instances.
+
+> [!NOTE]
+> **Azure DNS**: Azure DNS does not support SVCB/HTTPS records. If you're using Azure DNS as an Integrated DNS Provider, SVCB/HTTPS records cannot be synced to Azure DNS zones.
+
+For more information about Integrated DNS Providers, see:
+- [Integrated DNS Provider Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/)
+- [Integrated DNS Provider CoreDNS](/articles/integrated-dns-provider-coredns/)
+- [Integrated DNS Provider Azure DNS](/articles/integrated-dns-provider-azure-dns/)
 
 ## Comparing service binding records with other record types
 
