@@ -35,7 +35,7 @@ The record fields editor is a specialized form available for certain DNS record 
 
 ### When to use the record fields editor
 This editor is particularly useful for:
-- **Complex record types**: It guides you through entering the correct data for records that have multiple, structured parts (e.g., separating priority, weight, port for [SRV records](/articles/add-srv-record/), specific tags for [CAA records](/articles/manage-caa-record/), or priority, target name, and service parameters for [SVCB/HTTPS records](/articles/svcb-https-record/)).
+- **Complex record types**: It guides you through entering the correct data for records that have multiple, structured parts (e.g., separating priority, weight, port for [SRV records](/articles/add-srv-record/), specific tags for [CAA records](/articles/manage-caa-record/), or priority, target name, and service parameters for [SVCB/HTTPS records](/articles/service-binding-records/).
 - **Enhanced error messages**: By having discrete fields, the editor can provide more specific and helpful validation messages in real-time, reducing errors during configuration. For example, it might warn you if a port number is out of range or if a hostname isn't a valid format for a specific field.
 - **Ensuring correct formatting**: It ensures that each part of the record is entered in the correct format, even if you're not intimately familiar with the RFC specifications.
   
