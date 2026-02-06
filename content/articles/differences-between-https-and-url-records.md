@@ -21,7 +21,7 @@ For more information on Service Binding Records, see [What Are Service Binding R
 - **DNS layer operation:** HTTPS records operate purely at the DNS layer, providing information about how to connect to a service.
 - **No HTTP redirect:** HTTPS records do not perform HTTP redirects. They inform clients about service endpoints, protocols, and connection parameters.
 
-**URL records (DNSimple proprietary):**
+**Redirects:**
 - **HTTP redirects:** URL records initiate HTTP redirects from a source hostname to a target URL, causing the browser's address bar to change.
 - **HTTP layer operation:** URL records operate at the HTTP layer via DNSimple's redirector service, not directly through DNS resolution.
 - **Web redirection:** When a client accesses a URL record, they receive an HTTP redirect response (typically a 301 Permanent Redirect) that sends them to a different URL.
