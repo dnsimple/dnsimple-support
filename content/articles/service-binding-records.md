@@ -15,6 +15,19 @@ categories:
 
 ---
 
+## What is a service binding?
+
+A **service binding** is the association between a domain name and the configuration information needed to access a network service at that domain. It provides clients with the necessary details to establish a connection to a service, including where the service is available, which protocols it supports, and what connection parameters to use.
+
+Traditionally, clients would need to make multiple connection attempts or perform additional lookups to discover how to connect to a service. A service binding delivers this information upfront through DNS, allowing clients to make informed decisions about which endpoint to use and how to configure the connection before attempting to connect.
+
+Service bindings enable several important capabilities:
+
+- **Service discovery**: Clients can discover alternative endpoints where a service is available
+- **Protocol negotiation**: Clients can learn which protocols and versions are supported before connecting
+- **Connection optimization**: Clients receive hints about connection parameters (ports, IP addresses) to reduce lookup overhead
+- **Domain aliasing**: Domain owners can redirect clients to alternative domains for specific services
+
 ## What are service binding records?
 
 **Service Binding records** are a pair of DNS record types standardized in [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460) that provide service binding information for network services. They deliver configuration information and parameters to clients before they establish a connection to a service, enabling performance improvements, privacy benefits, and protocol optimization.
