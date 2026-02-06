@@ -58,7 +58,7 @@ Some DNS records have their own semantics but are defined using existing record 
 
 ## Limitations
 
-- **Integrated providers**: Azure DNS does not support [SSHFP](/articles/sshfp-records/) or [SVCB/HTTPS](/articles/svcb-https-record/) records.
+- **Integrated providers**: Azure DNS does not support [SSHFP](/articles/sshfp-records/) or [SVCB/HTTPS](/articles/service-binding-records/) records.
 
 - **CAA records and integrated providers**: CAA records are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
 
