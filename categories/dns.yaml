@@ -34,7 +34,7 @@ Explanation:
     - What Is an SPF Record?
     - What Is an SRV Record?
     - What Are SSHFP Records?
-    - What Are SVCB and HTTPS Records?
+    - What Are Service Binding Records (SVCB and HTTPS)?
     - What Is a TLSA Record?
     - What Are System Records?
     - What Is a TXT Record?
@@ -76,6 +76,7 @@ How to:
     - Managing CNAME Records
     - Managing TLSA Records
     - Managing URL Records
+    - Managing Service Binding Records (SVCB and HTTPS)
     - Adding an SRV Record
     - Querying MX Records
     - How to Use the Record Editor
