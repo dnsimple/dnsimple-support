@@ -41,6 +41,8 @@ Explanation:
     - What Is a URL Record?
     - Differences Between A and CNAME Records
     - Differences Among A, CNAME, ALIAS, and URL Records
+    - Differences Between HTTPS and ALIAS Records
+    - Differences Between HTTPS and URL Records
   DNS Concepts:
     - What Is DANE (DNS-based Authentication of Named Entities)?
     - What Are DS Records?
