@@ -16,6 +16,8 @@ The primary difference between HTTPS records and URL records lies in what they a
 
 **HTTPS records (RFC 9460):**
 - **Service binding information:** HTTPS records provide service binding information for HTTP/HTTPS services, delivering configuration details and parameters to clients before they establish a connection.
+
+For more information on Service Binding Records, see [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/)
 - **DNS layer operation:** HTTPS records operate purely at the DNS layer, providing information about how to connect to a service.
 - **No HTTP redirect:** HTTPS records do not perform HTTP redirects. They inform clients about service endpoints, protocols, and connection parameters.
 
