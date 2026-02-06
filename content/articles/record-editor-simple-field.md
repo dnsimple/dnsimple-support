@@ -31,7 +31,7 @@ Check out [How to Add Common DNS Records](/articles/how-to-add-dns-records/) for
 ## The record fields editor: guided input for complex records
 The record fields editor is a specialized form available for certain DNS record types. Instead of a single `Content` field, it breaks down the record's data into separate, specific input fields.
 
-**How it works**: For records like [MX](/articles/mx-record/), [SRV](/articles/srv-record/), [CAA](/articles/caa-record/), or [SVCB/HTTPS](/articles/svcb-https-record/), which have multiple distinct parts (e.g., priority, weight, port, specific tags, service parameters), the Record Fields Editor provides individual fields for each component.
+**How it works**: For records like [MX](/articles/mx-record/), [SRV](/articles/srv-record/), [CAA](/articles/caa-record/), or [SVCB/HTTPS](/articles/service-binding-records/), which have multiple distinct parts (e.g., priority, weight, port, specific tags, service parameters), the Record Fields Editor provides individual fields for each component.
 
 ### When to use the record fields editor
 This editor is particularly useful for:
