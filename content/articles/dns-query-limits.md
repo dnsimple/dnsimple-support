@@ -43,7 +43,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 ### How can I learn my zone volume if I'm planning to upgrade my plan?
 
-[Contact support](/articles/dnsimple-support/), and we can give you your zones' query volume for the current billing period. You can also use our [pricing calculator](https://dnsimple.com/pricing#pricing-calculator) to get an estimate of your costs.
+[Contact support](/articles/this-page-does-not-exist/), and we can give you your zones' query volume for the current billing period. You can also use our [pricing calculator](https://dnsimple.com/pricing#pricing-calculator) to get an estimate of your costs.
 
 ### What is a DNS query?
 
