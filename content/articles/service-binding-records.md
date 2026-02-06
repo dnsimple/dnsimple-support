@@ -82,7 +82,6 @@ example.com.  3600  IN  HTTPS  1  example.com.  alpn=h2,h3  port=443
   - Services that benefit from explicit service and protocol specification
   - Future extensibility as new service types are defined
 
-For HTTP/HTTPS services, both record types provide the same functionality and can be used interchangeably, but HTTPS records are generally preferred for simplicity and clarity.
 
 ## Service binding record modes
 
