@@ -31,6 +31,10 @@ The goal of validation is to ensure the authenticity of a certificate order befo
 > The Certificate Authority only uses administrative email addresses at the domain being validated. It's not possible to use your account email or any arbitrary email address to perform the validation.
 
 
+## Validation frequency {#frequency}
+
+You must complete domain validation every time a new certificate is issued. Starting March 2026, [Sectigo certificates are valid for approximately 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity), which means you will need to complete validation more frequently — at least twice per year instead of once. This will increase further as maximum certificate lifetimes continue to decrease.
+
 ## The process
 
 The email validation process consists of a few steps:
