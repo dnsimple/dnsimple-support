@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "fuse.js": "^7.1.0",
-    "vue": "^3.5.26"
+    "vue": "^3.5.28"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.28.5",
@@ -17,7 +17,7 @@
     "concurrently": "^9.2.1",
     "copy-webpack-plugin": "^13.0.1",
     "eslint": "^9.39.2",
-    "eslint-plugin-jest": "^29.12.1",
+    "eslint-plugin-jest": "^29.13.0",
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^17.1.0",
     "jest": "^30.0.0",
