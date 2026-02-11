@@ -42,6 +42,12 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 - [Using Cloudflare DNSSEC with DNSimple](/articles/cloudflare-ds-record/): Using Cloudflare DNSSEC when your domain is with DNSimple.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
 
+## DNSSEC compatibility with other DNSimple features
+
+Not all DNSimple features are compatible with DNSSEC. Before enabling DNSSEC, review the compatibility details for your setup.
+
+- [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/): A reference of which DNSimple features work with DNSSEC and any limitations to be aware of.
+
 ## Troubleshooting DNSSEC configurations
 
 Encountering issues with your DNSSEC setup? Find solutions and guidance here.
