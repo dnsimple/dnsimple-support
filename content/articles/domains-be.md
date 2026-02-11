@@ -2,7 +2,7 @@
 title: .BE Domains
 excerpt: This article explains the requirements and special procedures for .BE names.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # .BE Domain Names
