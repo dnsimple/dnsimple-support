@@ -3,7 +3,7 @@ title: Domain Access Control
 excerpt: Control what each account member can access on a per-domain or per-zone basis.
 categories:
 - Account
-- Domains and Transfers
+- Domains
 - Enterprise
 ---
 
@@ -33,7 +33,7 @@ Combined with other DNSimple security features, like [multi-factor authenticatio
 
 To set a team member's role for multiple domains at once:
 
-1. Select the relevant account from the account switcher at the top-right corner of the screen, then click the gear icon ⚙️ next to the account name to open **account settings**.
+1. Go to your Account page.
 1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
 1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 

@@ -2,7 +2,7 @@
 title: Organizing and Labeling Domains
 excerpt: When your domain names list grows and becomes hard to maintain, labels can help you organize your inventory.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # Organizing and Labeling Domains
@@ -16,7 +16,7 @@ When your domain names list grows and becomes hard to maintain, labels can help 
 
 ## Adding labels
 
-From the domain names list page, select the domain names you want to label. The **Label domains** button will appear in the domain list interface. Click **Label domains** to open the labeling dialog.
+From the domain names list page, select the domain names you want to label, then click "Label domains" at the bottom of the list.
 
 ![Selecting domains and applying labels](/files/selecting-domains.png)
 

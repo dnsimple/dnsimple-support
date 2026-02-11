@@ -3,7 +3,7 @@ title: Renewing a Domain
 excerpt: How to renew a domain using your DNSimple account.
 meta: Easily renew your domain with our step-by-step guide for DNSimple account holders. Keep your online presence secure and avoid lapses in your domain registration!
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # Renewing a Domain

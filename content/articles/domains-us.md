@@ -2,7 +2,7 @@
 title: .US Domains
 excerpt: This article explains the requirements and special procedures for .US domain names.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # .US Domain Names

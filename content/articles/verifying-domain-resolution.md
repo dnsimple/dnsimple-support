@@ -3,7 +3,7 @@ title: Verifying Domain Resolution
 meta: Learn how to effectively verify your domain's resolution through various methods. Ensure your domain is correctly set up and accessible with this comprehensive guide.
 excerpt: This article explains the different ways you can verify that a domain is resolving.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 ### Table of Contents {#toc}

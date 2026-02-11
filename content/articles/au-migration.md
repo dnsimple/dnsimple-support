@@ -3,7 +3,7 @@ title: Migrating Your .AU Domains from Our Legacy Provider
 excerpt: How to migrate your .AU domains from our legacy provider
 meta: Learn how to seamlessly migrate your .AU domains from our legacy provider with our comprehensive guide, ensuring a smooth transition and continued service.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # Migrating Your .AU Domains from Our Legacy Provider
