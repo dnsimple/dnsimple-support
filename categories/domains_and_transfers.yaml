@@ -1,5 +1,5 @@
 ---
-How-to:
+How to:
   "Domain Registration & Setup":
     - "Adding a Domain"
     - "Registering a Domain"
@@ -27,60 +27,44 @@ How-to:
     - "Linking and Unlinking Integrated Domain Providers"
   "Domain Validation":
     - "Resending Domain Validation Email"
-  "Notifications":
-    - "Disabling Expiration Notifications"
-  "Troubleshooting":
+  "Registration and renewal":
+    - "Domain Auto-Renewal"
+    - "Auto-Renewal Required Domains"
+    - "Premium Domains"
+    - "Domain Validation Requirements"
+  Expiration:
+    - "What Happens When a Domain Expires?"
+    - "Expiring Domain Email Notifications"
+    - "Expiring Product Email Notifications"
+  "Managing domains":
+    - "Domain Access Control"
+    - "Integrated Domain Providers at DNSimple"
+    - "Integrated Domain Provider - GoDaddy"
+    - "DNSimple SuperLock"
+    - "Domain Masking"
+    - "Activity Tracking"
+    - "Adding a Subdomain"
+    - "Managing Vanity Name Servers"
+    - "What Are Vanity Name Servers?"
+    - "DNSimple Redirector"
+    - "Troubleshooting URL Redirects"
+    - "Web Hosting Support"
+    - "DNSimple and Handshake (HNS)"
+    - "Can I use DNSimple for drop catching?"
+    - "Redirecting www to Non-www Domain at Heroku"
+  "Transfer troubleshooting":
+    - "Managing DS Records When Changing DNS"
+    - "Whois Privacy may cause transfer approval emails to not be delivered"
+    - "How can I issue a new transfer order when a transfer is denied?"
+  Troubleshooting:
     - "Troubleshooting Domain Transfer Issues"
     - "Troubleshooting Domain Validation Issues"
     - "Troubleshooting Domain Expiration Issues"
 
-Registering, renewing:
-- "Domain Auto-Renewal"
-- "Auto-Renewal Required Domains"
-- "Premium Domains"
-- "Domain Validation Requirements"
-
-Expiration:
-- "What Happens When a Domain Expires?"
-- "Expiring Domain Email Notifications"
-- "Expiring Product Email Notifications"
-
-Managing domains:
-- "Domain Access Control"
-- "Integrated Domain Providers at DNSimple"
-- "Integrated Domain Provider - GoDaddy"
-- "DNSimple SuperLock"
-- "Domain Masking"
-- "Activity Tracking"
-- "Adding a Subdomain"
-- "Managing Vanity Name Servers"
-- "What Are Vanity Name Servers?"
-- "DNSimple Redirector"
-- "Troubleshooting URL Redirects"
-- "Web Hosting Support"
-- "DNSimple and Handshake (HNS)"
-- "Can I use DNSimple for drop catching?"
-- "Redirecting www to Non-www Domain at Heroku"
-
-Transferring a domain:
-- "Transfer a Domain to DNSimple"
-- "Transferring a domain away from DNSimple"
-- "Transferring a Domain to Another DNSimple Account"
-- "Transfer an Integrated Provider Domain to DNSimple"
-- "Domain Transfer Pricing"
-
-Avoiding downtime:
-- "Preparing a Domain Transfer to Avoid Downtime"
-
-Transfer troubleshooting:
-- "Managing DS Records When Changing DNS"
-- "Whois Privacy may cause transfer approval emails to not be delivered"
-- "How can I issue a new transfer order when a transfer is denied?"
-
 Reference:
-- "Domain Transfer Reference"
-- "Domain Expiration Reference"
-- "Domain Registration Reference"
-- "Domain Transfer Code Reference"
-- "Domain Contact Types Reference"
-- "Domains Glossary"
+  - "Domain Transfer Reference"
+  - "Domain Expiration Reference"
+  - "Domain Registration Reference"
+  - "Domain Transfer Code Reference"
+  - "Domain Contact Types Reference"
+  - "Domains Glossary"

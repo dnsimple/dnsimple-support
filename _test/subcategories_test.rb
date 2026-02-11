@@ -7,11 +7,11 @@ FakeArticle = Struct.new(:attributes)
 
 describe "Sub categories" do
   it "replace the title for the nanoc article" do
-    fake_article = FakeArticle.new({ title: "Registering a Domain" })
+    fake_article = FakeArticle.new({ title: "Domain Auto-Renewal" })
 
     result = SubCategories.new.show("Domains and Transfers", [fake_article]) # Loads the domains_and_transfers.yaml file
 
-    assert_equal result["Registering, renewing"][0], fake_article
+    assert_equal result["How to"]["Registration and renewal"][0], fake_article
   end
 
   it "the article is not categorized, it goes into the 'other' section" do
