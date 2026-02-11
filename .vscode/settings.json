@@ -1,9 +1,0 @@
-{
-    "markdown.preview.fontSize": 16,
-    "markdown.suggest.paths.includeWorkspaceHeaderCompletions": "onSingleOrDoubleHash",
-    "markdown.updateLinksOnFileMove.enabled": "prompt",
-    "markdown.validate.enabled": true,
-    "markdown.validate.fileLinks.enabled": "error",
-    "markdown.validate.unusedLinkDefinitions.enabled": "warning",
-    "merge-conflict.autoNavigateNextConflict.enabled": false
-}
