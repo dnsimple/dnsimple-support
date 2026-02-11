@@ -11,7 +11,7 @@ describe "Sub categories" do
 
     result = SubCategories.new.show("Domains and Transfers", [fake_article]) # Loads the domains_and_transfers.yaml file
 
-    assert_equal result["How-to"]["Domain Registration & Setup"][1], fake_article
+    assert_equal result["How to"]["Domain Registration & Setup"][1], fake_article
   end
 
   it "the article is not categorized, it goes into the 'other' section" do
