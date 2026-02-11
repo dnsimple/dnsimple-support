@@ -1,0 +1,11 @@
+# Remap absolute support site URLs to relative paths for local file checking.
+# This lets lychee verify internal links against the compiled output
+# instead of hitting the live site.
+remap = [
+    "https://support\\.dnsimple\\.com(.*) $1"
+]
+
+exclude_mail = true
+max_concurrency = 5
+max_retries = 3
+timeout = 30
