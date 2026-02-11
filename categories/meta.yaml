@@ -1,6 +1,6 @@
 api: Explore our comprehensive API documentation and resources at DNSimple. Find guides, tutorials, and support to seamlessly integrate and manage your DNS services.
 account: Explore our comprehensive account support articles to manage your DNSimple account effectively. Find answers, tips, and resources to enhance your experience.
-domains: Discover comprehensive guides and resources on managing your domains with DNSimple. Get expert tips and troubleshooting advice to optimize your domain experience.
+domains_and_transfers: Discover comprehensive guides and resources on managing your domains and transfers with DNSimple. Get expert tips and troubleshooting advice to optimize your domain and transfer experience.
 templates: Explore our comprehensive collection of templates designed to simplify your DNS management. Find articles and guides to enhance your experience with DNSimple.
 dns: Explore our comprehensive DNS support articles to enhance your understanding and management of DNS settings, troubleshooting, and best practices for optimal performance.
 dnsimple: Explore our comprehensive DNSimple support articles to help you manage your DNS settings, troubleshoot issues, and optimize your domain configurations effortlessly.
@@ -13,7 +13,6 @@ name_servers: Explore our comprehensive guide on name servers, featuring article
 whois_privacy: Explore our comprehensive guide on our free Whois Privacy, featuring articles that explain benefits, setup, and management to protect your personal information online.
 secondary_dns: Explore our comprehensive guide on Secondary DNS at DNSimple. Find articles, tutorials, and resources to enhance your domain's reliability and performance.
 integrations: Explore our comprehensive guide to integrations at DNSimple. Discover articles, tutorials, and resources to seamlessly connect your domains with various services.
-domain_transfers: Explore our comprehensive guide on domain transfers at DNSimple. Find step-by-step articles and FAQs to simplify the transfer process and avoid downtime.
 guides: Master DNS management and domain registration with our expert guides, tips, and step-by-step instructions to enhance your online presence.
 ssl_certificates: Discover in-depth guides on SSL certificates, including installation, management, and best practices to enhance your website's security and safeguard user data.
 enterprise: Explore comprehensive Enterprise features and resources at DNSimple, including enterprise-exclusive features, security options, infrastructure capabilities, and general enterprise tools to support your organization's DNS and domain management needs.

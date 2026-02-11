@@ -2,7 +2,7 @@
 title: .IS Domains
 excerpt: This article explains the requirements and special procedures for .IS domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .IS Domain Names
