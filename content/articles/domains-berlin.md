@@ -2,7 +2,7 @@
 title: .BERLIN Domains
 excerpt: This article explains the requirements and special procedures for .BERLIN names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .BERLIN Domain Names

@@ -3,7 +3,7 @@ title: Domains Glossary
 excerpt: Defines terms related to domain names and domain management.
 meta: Explore our comprehensive domains glossary, featuring essential definitions and terms to enhance your understanding of domain names and domain management.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domains Glossary

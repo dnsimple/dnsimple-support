@@ -3,7 +3,7 @@ title: Domain Transfer Reference
 excerpt: The formal process, requirements, timelines, and key technical details of domain transfers.
 meta: Learn more about the structure, requirements, timelines, and technical details for domain transfers.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Transfer Reference

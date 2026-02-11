@@ -3,7 +3,7 @@ title: Domain Transfer Code Reference
 excerpt: The formal structure, requirements, and key technical details of domain transfer codes.
 meta: Learn more about the structure, requirements, and technical details for domain transfer codes (authorization codes).
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Transfer Code Reference

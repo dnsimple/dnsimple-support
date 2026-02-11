@@ -3,7 +3,7 @@ title: Domain Contact Types Reference
 excerpt: The formal structure, roles, and key technical details of domain contact types.
 meta: Learn more about the structure, roles, and technical details for domain contact types (registrant, administrative, technical, and billing).
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Contact Types Reference

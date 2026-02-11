@@ -3,7 +3,7 @@ title: Domain Registration Reference
 excerpt: The formal requirements, restrictions, and key technical details of domain registration.
 meta: Learn more about the requirements, restrictions, and technical details for domain registration.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Registration Reference

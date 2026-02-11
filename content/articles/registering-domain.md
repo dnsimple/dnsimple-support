@@ -3,7 +3,7 @@ title: Registering a Domain
 excerpt: How to register a domain with a DNSimple account.
 meta: Learn how to effortlessly register a domain name using your DNSimple account with our step-by-step guide, ensuring a smooth and successful domain registration process.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Registering a Domain

@@ -3,7 +3,7 @@ title: Domain Expiration Reference
 excerpt: The formal structure, periods, and key technical details of domain expiration and recovery.
 meta: Learn more about the structure, periods, and technical details for domain expiration, grace periods, redemption, and recovery.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Expiration Reference
