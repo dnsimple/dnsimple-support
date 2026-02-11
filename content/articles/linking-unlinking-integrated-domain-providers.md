@@ -24,7 +24,7 @@ DNSimple supports domain integration with the providers listed below.
 <div class="section-steps" markdown="1">
 ##### To link an Integrated Domain Provider
 
-Click the account menu in the top-right corner and select <label>Account Settings</label>.
+1. If you have more than one account, select the correct one from the account switcher in the top-right corner of the screen.
 1. Click the <label>Integrated Providers</label> card.
 1. Under <label>Add an Integrated Provider<label>, click the connect button for the Integrated Domain Provider you want to link to your DNSimple account```
 1. Under <label>Add an Integrated Provider<label>, click the link button for the Integrated Domain Provider you want to link to your DNSimple account.
