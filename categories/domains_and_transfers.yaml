@@ -1,12 +1,22 @@
 ---
 Explanation:
-  Core Domain Concepts:
-    - "What Is a Domain?"
-    - "What Is WHOIS?"
-    - "What Is Domain Transfer?"
-    - "What Are Domain Contacts?"
-    - "What Is Domain Lock?"
-    - "What Is Domain Delegation?"
+  Domain Lifecycle:
+    - "What Happens When a Domain Expires?"
+    - "Domain Auto-Renewal"
+    - "Domain Validation Requirements"
+  Domain Features & Services:
+    - "Premium Domains"
+    - "Integrated Domain Providers at DNSimple"
+    - "Integrated Domain Provider - GoDaddy"
+    - "DNSimple SuperLock"
+    - "Domain Masking"
+    - "Activity Tracking"
+    - "Domain Access Control"
+  Notifications:
+    - "Expiring Domain Email Notifications"
+    - "Expiring Product Email Notifications"
+  Policies & Requirements:
+    - "ICANN 60-Day Lock After Change of Registrant"
 
 How to:
   Registration and renewal:
@@ -58,3 +68,19 @@ How to:
     - "Managing DS Records When Changing DNS"
     - "Whois Privacy may cause transfer approval emails to not be delivered"
     - "How can I issue a new transfer order when a transfer is denied?"
+
+Reference:
+  - "Domain Transfer Reference"
+  - "Domain Expiration Reference"
+  - "Domain Registration Reference"
+  - "Domain Transfer Code Reference"
+  - "Domain Contact Types Reference"
+  - "Domains Glossary"
+
+Reference:
+  - "Domain Transfer Reference"
+  - "Domain Expiration Reference"
+  - "Domain Registration Reference"
+  - "Domain Transfer Code Reference"
+  - "Domain Contact Types Reference"
+  - "Domains Glossary"
