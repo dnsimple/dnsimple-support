@@ -2,7 +2,7 @@
 title: Changing WHOIS information
 excerpt: How to change the contact information displayed in the WHOIS for a domain.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # Changing WHOIS information

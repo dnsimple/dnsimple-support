@@ -2,7 +2,7 @@
 title: .JP Domains
 excerpt: This article explains the requirements and special procedures for .JP domain names.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # .JP Domain Names

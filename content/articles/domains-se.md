@@ -2,7 +2,7 @@
 title: .SE Domains
 excerpt: This article explains the requirements and special procedures for .SE domain names.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # .SE Domain Names

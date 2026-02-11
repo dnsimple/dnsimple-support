@@ -3,7 +3,7 @@ title: Adding a Domain
 excerpt: How to add a domain to a DNSimple account.
 meta: Learn the step-by-step process to easily add a domain to your DNSimple account and manage your DNS settings with confidence and efficiency.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # Adding a Domain

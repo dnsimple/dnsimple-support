@@ -2,7 +2,7 @@
 title: .JOBS Domains
 excerpt: This article explains the requirements and special procedures for .JOBS domain names.
 categories:
-- Domains and Transfers
+- Domains
 ---
 
 # .JOBS Domain Names
