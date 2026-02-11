@@ -3,7 +3,7 @@ title: Premium Domains
 excerpt: In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
 meta: Learn about premium domains, how they differ from standard domains, and what to expect with premium domain pricing and renewals.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Premium Domains

@@ -2,7 +2,7 @@
 title: .CM Domains
 excerpt: This article explains the requirements and special procedures for .CM domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .CM Domain Names

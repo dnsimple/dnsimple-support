@@ -3,7 +3,7 @@ title: What Happens When a Domain Expires?
 excerpt: What happens when a domain expires, how to recover it, and understanding the associated fees.
 meta: Learn what happens when a domain expires, including grace periods, redemption periods, and deletion. Understand how to recover expired domains and the associated fees.
 categories:
- - Domains
+ - Domains and Transfers
 ---
 
 # What Happens When a Domain Expires?

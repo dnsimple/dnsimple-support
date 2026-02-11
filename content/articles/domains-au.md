@@ -2,7 +2,7 @@
 title: .AU Domains
 excerpt: This article explains the requirements and special procedures for .AU domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .AU Domain Names

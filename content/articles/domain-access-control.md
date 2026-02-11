@@ -4,7 +4,7 @@ excerpt: Control what each account member can access on a per-domain or per-zone
 meta: Learn about Domain Access Control, how granular access permissions work, and why they matter for team security and domain management.
 categories:
 - Account
-- Domains
+- Domains and Transfers
 - Enterprise
 ---
 

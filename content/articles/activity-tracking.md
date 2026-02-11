@@ -4,7 +4,7 @@ excerpt: How to review the list of events for an account or domain using our aud
 meta: Learn how to use activity tracking to review audit logs of changes made to domains and accounts, including filtering events and understanding activity history.
 categories:
 - Account
-- Domains
+- Domains and Transfers
 ---
 
 # Activity Tracking

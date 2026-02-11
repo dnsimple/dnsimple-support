@@ -4,7 +4,7 @@ excerpt: This page describes the types of email notifications you may receive ab
 meta: Learn about DNSimple expiration notifications for domains and certificates, how they differ from ICANN notifications, and how to manage them.
 categories:
 - DNSimple
-- Domains
+- Domains and Transfers
 - SSL Certificates
 ---
 

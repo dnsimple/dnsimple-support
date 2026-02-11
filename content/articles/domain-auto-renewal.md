@@ -3,7 +3,7 @@ title: Domain Auto-Renewal
 excerpt: Auto-renewal reduces the risk of a domain expiring by renewing the domain automatically days before expiration.
 meta: Discover how to manage auto-renewal for specific domains at DNSimple. Ensure your essential domain names remain active without manual intervention.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Domain Auto-Renewal

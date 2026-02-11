@@ -2,7 +2,7 @@
 title: .PL Domains
 excerpt: This article explains the requirements and special procedures for .PL domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .PL Domain Names

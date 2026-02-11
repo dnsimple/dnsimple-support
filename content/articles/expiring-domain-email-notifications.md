@@ -3,7 +3,7 @@ title: Expiring Domain Email Notifications
 excerpt: This page describes the email notifications you will receive about expiring domains purchased through DNSimple.
 meta: Learn about ICANN-required expiration notifications for domains, why they are sent, and why they cannot be disabled.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Expiring Domain Email Notifications
