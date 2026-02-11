@@ -8,7 +8,7 @@ categories:
 
 # What Is Domain Lock?
 
-A domain lock is a security control that restricts certain changes to a domain, most commonly domain transfers. Locks exist to protect domain ownership and reduce the risk of unauthorized or accidental changes.
+A domain lock is a security control that restricts certain changes to a domain, most commonly [domain transfers](/articles/what-is-domain-transfer/). Locks exist to protect domain ownership and reduce the risk of unauthorized or accidental changes.
 
 When a domain is locked, transfer-related actions are restricted until the lock is removed or expires. Other domain functions, such as DNS resolution, usually continue to work normally.
 
@@ -22,9 +22,9 @@ Locks are designed to protect domain owners even if credentials are exposed or a
 
 There are several types of locks that can be applied to domains. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. This is the most common type of lock and is typically enabled by default for security. Registrar locks can usually be removed by the domain owner through their registrar account when they want to transfer the domain.
 
-A registry lock is applied at the registry level and provides even stronger protection than a registrar lock. Registry locks are typically used for high-value domains or when maximum security is required. Registry locks usually require additional steps to remove and may involve contacting the registry directly.
+A registry lock is applied at the registry level and provides even stronger protection than a registrar lock. Some registrars also offer [SuperLock](/articles/superlock/) for enhanced protection. Registry locks are typically used for high-value domains or when maximum security is required. Registry locks usually require additional steps to remove and may involve contacting the registry directly.
 
-The ICANN 60-day lock is automatically applied after certain changes to domain registrant information. This lock prevents domain transfers for 60 days after a registrant contact change, is required by ICANN policy for most generic top-level domains (gTLDs), cannot be removed by the registrar, and automatically expires after 60 days. This lock helps prevent unauthorized transfers that might occur immediately after a registrant change.
+The [ICANN 60-day lock](/articles/icann-60-day-lock-registrant-change/) is automatically applied after certain changes to [domain registrant](/articles/what-are-domain-contacts/) information. This lock prevents domain transfers for 60 days after a registrant contact change, is required by ICANN policy for most generic top-level domains (gTLDs), cannot be removed by the registrar, and automatically expires after 60 days. This lock helps prevent unauthorized transfers that might occur immediately after a registrant change.
 
 
 ## How locks affect domain operations
@@ -35,7 +35,7 @@ Locks focus on safeguarding ownership rather than interrupting active services.
 
 ## Removing domain locks
 
-The process for removing locks depends on the type of lock. Registrar locks are usually removed through your registrar account interface when you're ready to transfer. Registry locks may require contacting the registry or your registrar's support team. ICANN 60-day locks cannot be removed and automatically expire after 60 days. 
+The process for removing locks depends on the type of lock. Registrar locks are usually removed through your registrar account interface when you're [ready to transfer](/articles/domain-transfer/). Registry locks may require contacting the registry or your registrar's support team. ICANN 60-day locks cannot be removed and automatically expire after 60 days. 
 
 > [!INFO]
 > At DNSimple, unlocking a domain is temporary. If a domain is left unlocked, it will automatically relock after 30 days. This helps reduce the risk of unintended or unauthorized transfers if a domain is left unlocked longer than intended.

@@ -36,15 +36,15 @@ Domains make it possible to create email addresses associated with your name or 
 
 It's important to understand the difference between domain registration and DNS hosting, as these are two separate but related services.
 
-Domain registration gives you the right to use a specific domain name for a period of time, typically one year at a time. A domain registrar manages this registration on your behalf and ensures the domain remains assigned to you as long as it is renewed.
+[Domain registration](/articles/registering-domain/) gives you the right to use a specific domain name for a period of time, typically one year at a time. A domain registrar manages this registration on your behalf and ensures the domain remains assigned to you as long as it is [renewed](/articles/renewing-domain/).
 
 DNS hosting, on the other hand, is about how your domain is configured. DNS hosting is where your domain's DNS records are stored and managed. These records control how your domain behaves, such as where your website is hosted, how email is delivered, and which services are associated with the domain.
 
-Because these services are separate, you have flexibility in how you manage your domain. You can register a domain with DNSimple and host your DNS with a different provider, or register a domain elsewhere and use DNSimple for DNS hosting. This separation allows you to choose the registrar and DNS provider that best suits your needs.
+Because these services are separate, you have flexibility in how you manage your domain. You can register a domain with DNSimple and host your DNS with a different provider, or register a domain elsewhere and use DNSimple for [DNS hosting](/articles/dns-hosting/). [Delegation](/articles/what-is-domain-delegation/) is what connects your domain registration to your chosen DNS provider. This separation allows you to choose the registrar and DNS provider that best suits your needs.
 
 ## Domain ownership
 
-When you register a domain, you become the registrant. This means you have the right to use that domain name for the duration of the registration period, as long as it is kept up to date and renewed. Domain registrations are typically renewed annually, though many registrars allow you to register domains for multiple years in advance.
+When you register a domain, you become the [registrant](/articles/what-are-domain-contacts/). This means you have the right to use that domain name for the duration of the registration period, as long as it is kept up to date and renewed. Domain registrations are typically renewed annually, though many registrars allow you to register domains for multiple years in advance.
 
 If a domain is not renewed before it expires, the right to use it can be lost, and the domain may eventually become available for someone else to register. Keeping track of renewals and maintaining accurate ownership information is an important part of managing a domain over time.
 

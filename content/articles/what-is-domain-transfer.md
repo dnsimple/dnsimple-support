@@ -16,15 +16,15 @@ There are several reasons you might want to transfer a domain. You may want to m
 
 ## How does domain transfer work?
 
-The domain transfer process involves several steps and parties. Most domain transfers require an authorization code that proves you have permission to transfer the domain. This code is obtained from your current registrar. You initiate the transfer at the new registrar by providing the domain name and authorization code. The current registrant email address receives a transfer approval email that must be confirmed to authorize the transfer. Once approved, the registry processes the transfer, which can take several days depending on the top-level domain (TLD). After the registry processes the transfer, the domain is registered with the new registrar.
+The domain transfer process involves several steps and parties. Most domain transfers require an authorization code that proves you have permission to transfer the domain. This code is obtained from your current registrar. You initiate the transfer at the new registrar by providing the domain name and authorization code. The current [registrant](/articles/what-are-domain-contacts/) email address receives a transfer approval email that must be confirmed to authorize the transfer. Once approved, the registry processes the transfer, which can take several days depending on the top-level domain (TLD). After the registry processes the transfer, the domain is registered with the new registrar.
 
 ## Domain transfer requirements
 
-Several requirements must be met before a domain can be transferred. Domains must typically be registered for at least 60 days before they can be transferred. The domain must be unlocked at the current registrar, as some domains may have transfer locks that prevent transfers. Most TLDs require a valid authorization code to initiate the transfer. You must have access to the registrant email address to approve the transfer request. Expired domains may have restrictions on transfers, depending on the TLD and registry policies.
+Several requirements must be met before a domain can be transferred. Domains must typically be registered for at least 60 days before they can be transferred. The domain must be [unlocked](/articles/what-is-domain-lock/) at the current registrar, as some domains may have transfer locks that prevent transfers. Most TLDs require a valid authorization code to initiate the transfer. You must have access to the registrant email address to approve the transfer request. Expired domains may have restrictions on transfers, depending on the TLD and registry policies.
 
 ## Domain transfer locks
 
-Transfer locks are security mechanisms that prevent unauthorized domain transfers. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. A registry lock is applied at the registry level and provides additional security. After changing registrant information, domains are locked from transfers for 60 days under ICANN policy. Some registrars offer additional lock features, such as SuperLock, that provide enhanced protection against unauthorized transfers.
+[Transfer locks](/articles/what-is-domain-lock/) are security mechanisms that prevent unauthorized domain transfers. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. A registry lock is applied at the registry level and provides additional security. After changing [registrant](/articles/what-are-domain-contacts/) information, domains are locked from transfers for 60 days under [ICANN policy](/articles/icann-60-day-lock-registrant-change/). Some registrars offer additional lock features, such as [SuperLock](/articles/superlock/), that provide enhanced protection against unauthorized transfers.
 
 ## Transfer duration
 
@@ -36,7 +36,7 @@ During a domain transfer, your domain's DNS resolution is not interrupted. The t
 
 ## Transfer vs. other domain operations
 
-It's important to understand the difference between domain transfer and other domain operations. Transferring a domain is different from renewing it. A transfer moves the domain to a new registrar, while renewal extends the registration period with the current registrar. Changing your domain's name servers (DNS delegation) is separate from transferring the domain registration. You can change DNS providers without transferring the domain. Moving a domain between accounts at the same registrar is different from transferring to a different registrar.
+It's important to understand the difference between domain transfer and other domain operations. Transferring a domain is different from [renewing](/articles/renewing-domain/) it. A transfer moves the domain to a new registrar, while renewal extends the registration period with the current registrar. [Changing your domain's name servers (DNS delegation)](/articles/what-is-domain-delegation/) is separate from transferring the domain registration. You can change DNS providers without transferring the domain. Moving a domain between accounts at the same registrar is different from transferring to a different registrar. For step-by-step guidance, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) and [Preparing a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/).
 
 ## Have more questions?
 
