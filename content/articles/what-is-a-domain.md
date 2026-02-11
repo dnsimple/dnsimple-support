@@ -3,7 +3,7 @@ title: What Is a Domain?
 excerpt: Learn what a domain name is, how it works, and why domains are essential for websites and online services.
 meta: Discover what domain names are, how they work, and their role in connecting websites and online services to the internet.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # What Is a Domain?

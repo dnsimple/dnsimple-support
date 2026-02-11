@@ -2,7 +2,7 @@
 title: .ZA Domains
 excerpt: This article explains the requirements and special procedures for .ZA domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .ZA Domain Names

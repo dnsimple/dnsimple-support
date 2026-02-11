@@ -3,7 +3,7 @@ title: What Is Domain Lock?
 excerpt: Learn what domain locks are, the different types of locks, and how they protect your domain from unauthorized transfers.
 meta: Discover what domain locks are, the various types of transfer locks, and how they help protect your domain from unauthorized transfers and changes.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # What Is Domain Lock?

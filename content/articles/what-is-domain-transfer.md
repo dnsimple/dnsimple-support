@@ -3,7 +3,7 @@ title: What Is Domain Transfer?
 excerpt: Learn what domain transfer is, how it works, and when you might need to transfer a domain.
 meta: Discover what domain transfer means, how the transfer process works, and important considerations when moving domains between registrars.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # What Is Domain Transfer?

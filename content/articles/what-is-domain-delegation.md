@@ -3,7 +3,7 @@ title: What Is Domain Delegation?
 excerpt: Learn what domain delegation is, how it works, and how it connects domain registration to DNS hosting.
 meta: Discover what domain delegation means, how name servers work, and how delegation connects your domain registration to your DNS hosting provider.
 categories:
-- Domains
+- Domains and Transfers
 - DNS
 ---
 

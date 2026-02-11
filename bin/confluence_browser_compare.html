@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluence Space Comparison Tool</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #172b4d;
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #172b4d;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #dfe1e6;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        button {
+            background: #0052cc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background: #0065ff;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            background: #f4f5f7;
+            display: none;
+        }
+        .status.info {
+            background: #deebff;
+            color: #0052cc;
+        }
+        .status.success {
+            background: #d5f4e6;
+            color: #00875a;
+        }
+        .status.error {
+            background: #ffebe6;
+            color: #de350b;
+        }
+        .progress {
+            margin-top: 10px;
+            display: none;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #dfe1e6;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: #0052cc;
+            width: 0%;
+            transition: width 0.3s;
+        }
+        .results {
+            margin-top: 30px;
+            display: none;
+        }
+        .result-section {
+            margin-bottom: 30px;
+        }
+        .result-section h3 {
+            color: #172b4d;
+            border-bottom: 2px solid #dfe1e6;
+            padding-bottom: 10px;
+        }
+        .page-item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f4f5f7;
+            border-radius: 4px;
+            border-left: 4px solid #0052cc;
+        }
+        .page-item.high-priority {
+            border-left-color: #de350b;
+        }
+        .page-item.medium-priority {
+            border-left-color: #ffab00;
+        }
+        .page-item.low-priority {
+            border-left-color: #36b37e;
+        }
+        .page-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .page-meta {
+            font-size: 12px;
+            color: #6b778c;
+            margin-bottom: 10px;
+        }
+        .missing-topics {
+            margin-top: 10px;
+        }
+        .missing-topics ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        .download-btn {
+            margin-top: 20px;
+        }
+        code {
+            background: #f4f5f7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Confluence Space Comparison Tool</h1>
+        <p>Find missing information in Customer Success space (compared to Engineering)</p>
+        
+        <form id="comparisonForm">
+            <div class="form-group">
+                <label for="baseUrl">Confluence Base URL</label>
+                <input type="text" id="baseUrl" placeholder="https://your-domain.atlassian.net/wiki" required>
+                <small style="color: #6b778c;">Your Confluence URL (you must be logged in to Confluence in this browser)</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="engineeringSpace">Engineering Space Key</label>
+                <input type="text" id="engineeringSpace" placeholder="Engineering" required>
+                <small style="color: #6b778c;">The space key (e.g., "Engineering" or "ENG")</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="customerSuccessSpace">Customer Success Space Key</label>
+                <input type="text" id="customerSuccessSpace" placeholder="Customer Success" required>
+                <small style="color: #6b778c;">The space key (e.g., "Customer Success" or "CS")</small>
+            </div>
+            
+            <button type="submit" id="analyzeBtn">Analyze Missing Content</button>
+            <button type="button" id="stopBtn" disabled>Stop Analysis</button>
+        </form>
+        
+        <div id="status" class="status"></div>
+        <div id="progress" class="progress">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div id="progressText" style="margin-top: 5px; font-size: 12px; color: #6b778c;"></div>
+        </div>
+        
+        <div id="results" class="results"></div>
+    </div>
+
+    <script>
+        let isRunning = false;
+        let stopRequested = false;
+
+        document.getElementById('comparisonForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            await startAnalysis();
+        });
+
+        document.getElementById('stopBtn').addEventListener('click', () => {
+            stopRequested = true;
+            showStatus('Analysis stopped by user', 'info');
+            document.getElementById('analyzeBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = true;
+        });
+
+        async function startAnalysis() {
+            const baseUrl = document.getElementById('baseUrl').value.trim();
+            const engSpace = document.getElementById('engineeringSpace').value.trim();
+            const csSpace = document.getElementById('customerSuccessSpace').value.trim();
+
+            if (!baseUrl || !engSpace || !csSpace) {
+                showStatus('Please fill in all fields', 'error');
+                return;
+            }
+
+            isRunning = true;
+            stopRequested = false;
+            document.getElementById('analyzeBtn').disabled = true;
+            document.getElementById('stopBtn').disabled = false;
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('progress').style.display = 'block';
+
+            try {
+                showStatus('Fetching pages from Engineering space...', 'info');
+                const engPages = await fetchAllPages(baseUrl, engSpace);
+                
+                if (stopRequested) return;
+                
+                showStatus('Fetching pages from Customer Success space...', 'info');
+                const csPages = await fetchAllPages(baseUrl, csSpace);
+                
+                if (stopRequested) return;
+                
+                showStatus(`Analyzing ${engPages.length} Engineering pages against ${csPages.length} Customer Success pages...`, 'info');
+                const results = await analyzeMissingContent(baseUrl, engPages, csPages);
+                
+                if (stopRequested) return;
+                
+                displayResults(results);
+                showStatus('Analysis complete!', 'success');
+                
+            } catch (error) {
+                console.error('Error:', error);
+                showStatus(`Error: ${error.message}`, 'error');
+            } finally {
+                isRunning = false;
+                document.getElementById('analyzeBtn').disabled = false;
+                document.getElementById('stopBtn').disabled = true;
+                document.getElementById('progress').style.display = 'none';
+            }
+        }
+
+        async function fetchAllPages(baseUrl, spaceKey) {
+            const pages = [];
+            let start = 0;
+            const limit = 100;
+            
+            while (true) {
+                if (stopRequested) break;
+                
+                const url = `${baseUrl}/rest/api/content?spaceKey=${encodeURIComponent(spaceKey)}&expand=body.storage,version&limit=${limit}&start=${start}`;
+                
+                try {
+                    const response = await fetch(url, {
+                        credentials: 'include' // Use browser's existing session
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`Failed to fetch pages: ${response.status} ${response.statusText}`);
+                    }
+                    
+                    const data = await response.json();
+                    pages.push(...data.results);
+                    
+                    updateProgress(start, data.size, pages.length);
+                    
+                    if (!data._links.next) break;
+                    start += limit;
+                } catch (error) {
+                    if (error.message.includes('Failed to fetch')) {
+                        throw new Error('Cannot access Confluence API. Make sure you are logged in to Confluence in this browser and the URL is correct.');
+                    }
+                    throw error;
+                }
+            }
+            
+            return pages;
+        }
+
+        function updateProgress(current, batchSize, total) {
+            const percent = Math.min(100, (current / Math.max(total, 1)) * 100);
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressText').textContent = `Processed ${total} pages...`;
+        }
+
+        function extractTopics(content) {
+            const topics = new Set();
+            
+            // Extract headings
+            const headingMatches = content.matchAll(/^#{1,6}\s+(.+)$/gm);
+            for (const match of headingMatches) {
+                const heading = match[1].replace(/<[^>]+>/g, '').trim();
+                if (heading && heading.length < 100) {
+                    topics.add(heading.toLowerCase());
+                }
+            }
+            
+            // Extract HTML headings
+            const htmlHeadingMatches = content.matchAll(/<h[1-6][^>]*>(.+?)<\/h[1-6]>/gi);
+            for (const match of htmlHeadingMatches) {
+                const heading = match[1].replace(/<[^>]+>/g, '').trim();
+                if (heading && heading.length < 100) {
+                    topics.add(heading.toLowerCase());
+                }
+            }
+            
+            return topics;
+        }
+
+        function extractPhrases(content, minLength = 3, maxLength = 4) {
+            const phrases = new Set();
+            const text = content.replace(/[#*`\[\]()<>]/g, ' ').replace(/<[^>]+>/g, ' ');
+            const sentences = text.split(/[.!?]\s+/);
+            
+            for (const sentence of sentences) {
+                const words = sentence.split(/\s+/).filter(w => w.length > 0);
+                for (let length = minLength; length <= maxLength; length++) {
+                    for (let i = 0; i <= words.length - length; i++) {
+                        const phrase = words.slice(i, i + length).join(' ').toLowerCase();
+                        if (phrase.length > 5 && !/^(the|a|an|is|are|was|were|this|that|these|those)\s+/.test(phrase)) {
+                            phrases.add(phrase);
+                        }
+                    }
+                }
+            }
+            
+            return phrases;
+        }
+
+        function getPageContentText(page) {
+            return page.body?.storage?.value || '';
+        }
+
+        async function findContentCoverage(engPage, csPages) {
+            const engContent = getPageContentText(engPage);
+            const engTopics = extractTopics(engContent);
+            const engPhrases = extractPhrases(engContent);
+            
+            if (engTopics.size === 0 && engPhrases.size === 0) {
+                return null;
+            }
+            
+            const coveredTopics = new Set();
+            const coveredPhrases = new Set();
+            const matchingPages = [];
+            
+            for (const csPage of csPages) {
+                if (stopRequested) break;
+                
+                const csContent = getPageContentText(csPage);
+                const csTopics = extractTopics(csContent);
+                const csPhrases = extractPhrases(csContent);
+                
+                const topicOverlap = new Set([...engTopics].filter(t => csTopics.has(t)));
+                const phraseOverlap = new Set([...engPhrases].filter(p => csPhrases.has(p)));
+                
+                if (topicOverlap.size > 0 || phraseOverlap.size > 0) {
+                    const coverageScore = (topicOverlap.size + phraseOverlap.size * 0.5) / 
+                                        Math.max(engTopics.size + engPhrases.size * 0.5, 1);
+                    
+                    if (coverageScore > 0.1) {
+                        topicOverlap.forEach(t => coveredTopics.add(t));
+                        phraseOverlap.forEach(p => coveredPhrases.add(p));
+                        matchingPages.push({
+                            page: csPage,
+                            coverage: coverageScore,
+                            topicsCovered: topicOverlap,
+                            phrasesCovered: phraseOverlap
+                        });
+                    }
+                }
+            }
+            
+            const totalItems = engTopics.size + engPhrases.size * 0.5;
+            const coveredItems = coveredTopics.size + coveredPhrases.size * 0.5;
+            const overallCoverage = totalItems > 0 ? coveredItems / totalItems : 0;
+            
+            const missingTopics = new Set([...engTopics].filter(t => !coveredTopics.has(t)));
+            const missingPhrases = new Set([...engPhrases].filter(p => !coveredPhrases.has(p)));
+            
+            return {
+                overallCoverage,
+                missingTopics: Array.from(missingTopics),
+                missingPhrases: Array.from(missingPhrases),
+                matchingPages
+            };
+        }
+
+        async function analyzeMissingContent(baseUrl, engPages, csPages) {
+            const missingContent = [];
+            let processed = 0;
+            
+            for (const engPage of engPages) {
+                if (stopRequested) break;
+                
+                processed++;
+                updateProgress(processed, engPages.length, engPages.length);
+                
+                const coverageData = await findContentCoverage(engPage, csPages);
+                
+                if (coverageData && coverageData.overallCoverage < 0.5) {
+                    missingContent.push({
+                        engPage,
+                        coverage: coverageData.overallCoverage,
+                        coverageData
+                    });
+                }
+            }
+            
+            return missingContent.sort((a, b) => a.coverage - b.coverage);
+        }
+
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            resultsDiv.style.display = 'block';
+            
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<div class="result-section"><h3>✅ No Missing Content Found</h3><p>All Engineering pages appear to have good coverage in Customer Success space!</p></div>';
+                return;
+            }
+            
+            const highPriority = results.filter(r => r.coverage < 0.2);
+            const mediumPriority = results.filter(r => r.coverage >= 0.2 && r.coverage < 0.35);
+            const lowPriority = results.filter(r => r.coverage >= 0.35 && r.coverage < 0.5);
+            
+            let html = '<div class="result-section"><h3>Summary</h3>';
+            html += `<p><strong>Total pages with missing/low coverage:</strong> ${results.length}</p>`;
+            html += `<ul><li>High Priority (&lt; 20% coverage): ${highPriority.length}</li>`;
+            html += `<li>Medium Priority (20-35% coverage): ${mediumPriority.length}</li>`;
+            html += `<li>Low Priority (35-50% coverage): ${lowPriority.length}</li></ul></div>`;
+            
+            if (highPriority.length > 0) {
+                html += '<div class="result-section"><h3>High Priority - Missing Content (&lt; 20% coverage)</h3>';
+                highPriority.forEach(item => {
+                    html += formatPageItem(item, 'high-priority');
+                });
+                html += '</div>';
+            }
+            
+            if (mediumPriority.length > 0) {
+                html += '<div class="result-section"><h3>Medium Priority - Partial Coverage (20-35% coverage)</h3>';
+                mediumPriority.slice(0, 20).forEach(item => {
+                    html += formatPageItem(item, 'medium-priority');
+                });
+                html += '</div>';
+            }
+            
+            if (lowPriority.length > 0) {
+                html += '<div class="result-section"><h3>Low Priority - Needs Improvement (35-50% coverage)</h3>';
+                lowPriority.slice(0, 15).forEach(item => {
+                    html += formatPageItem(item, 'low-priority');
+                });
+                html += '</div>';
+            }
+            
+            html += `<button class="download-btn" onclick="downloadReport()">Download Report as Markdown</button>`;
+            
+            resultsDiv.innerHTML = html;
+            
+            // Store results for download
+            window.comparisonResults = results;
+        }
+
+        function formatPageItem(item, priorityClass) {
+            const page = item.engPage;
+            const title = page.title || 'Untitled';
+            const pageId = page.id;
+            const baseUrl = document.getElementById('baseUrl').value.trim();
+            const url = `${baseUrl}/pages/viewpage.action?pageId=${pageId}`;
+            const modified = page.version?.when || 'Unknown';
+            const coveragePct = Math.round(item.coverage * 100);
+            const coverageData = item.coverageData;
+            
+            let html = `<div class="page-item ${priorityClass}">`;
+            html += `<div class="page-title">${title}</div>`;
+            html += `<div class="page-meta">Coverage: ${coveragePct}% | Last Modified: ${modified} | <a href="${url}" target="_blank">View Page</a></div>`;
+            
+            if (coverageData.missingTopics.length > 0) {
+                html += '<div class="missing-topics"><strong>Missing Topics/Features:</strong><ul>';
+                coverageData.missingTopics.slice(0, 10).forEach(topic => {
+                    html += `<li>${topic}</li>`;
+                });
+                if (coverageData.missingTopics.length > 10) {
+                    html += `<li>... and ${coverageData.missingTopics.length - 10} more</li>`;
+                }
+                html += '</ul></div>';
+            }
+            
+            if (coverageData.matchingPages.length > 0) {
+                html += '<div class="missing-topics"><strong>Partially Covered In:</strong><ul>';
+                coverageData.matchingPages
+                    .sort((a, b) => b.coverage - a.coverage)
+                    .slice(0, 3)
+                    .forEach(match => {
+                        const matchTitle = match.page.title || 'Untitled';
+                        const matchId = match.page.id;
+                        const matchUrl = `${baseUrl}/pages/viewpage.action?pageId=${matchId}`;
+                        const matchCoverage = Math.round(match.coverage * 100);
+                        html += `<li><a href="${matchUrl}" target="_blank">${matchTitle}</a> (${matchCoverage}% coverage)</li>`;
+                    });
+                html += '</ul></div>';
+            }
+            
+            html += '</div>';
+            return html;
+        }
+
+        function downloadReport() {
+            if (!window.comparisonResults) return;
+            
+            const baseUrl = document.getElementById('baseUrl').value.trim();
+            let markdown = `# Missing Information in Customer Success Space\n\n`;
+            markdown += `Generated: ${new Date().toLocaleString()}\n\n`;
+            markdown += `## Summary\n\n`;
+            markdown += `- Total pages with missing/low coverage: ${window.comparisonResults.length}\n\n`;
+            
+            const highPriority = window.comparisonResults.filter(r => r.coverage < 0.2);
+            const mediumPriority = window.comparisonResults.filter(r => r.coverage >= 0.2 && r.coverage < 0.35);
+            const lowPriority = window.comparisonResults.filter(r => r.coverage >= 0.35 && r.coverage < 0.5);
+            
+            if (highPriority.length > 0) {
+                markdown += `## High Priority - Missing Content (< 20% coverage)\n\n`;
+                highPriority.forEach(item => {
+                    const page = item.engPage;
+                    markdown += `### ${page.title}\n\n`;
+                    markdown += `- **URL:** ${baseUrl}/pages/viewpage.action?pageId=${page.id}\n`;
+                    markdown += `- **Coverage:** ${Math.round(item.coverage * 100)}%\n`;
+                    if (item.coverageData.missingTopics.length > 0) {
+                        markdown += `- **Missing Topics:** ${item.coverageData.missingTopics.slice(0, 10).join(', ')}\n`;
+                    }
+                    markdown += `\n`;
+                });
+            }
+            
+            const blob = new Blob([markdown], { type: 'text/markdown' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `confluence_missing_content_${Date.now()}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = message;
+            statusDiv.className = `status ${type}`;
+            statusDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

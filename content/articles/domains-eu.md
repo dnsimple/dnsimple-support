@@ -2,7 +2,7 @@
 title: .EU Domains
 excerpt: This article explains the requirements and special procedures for .EU domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .EU Domains

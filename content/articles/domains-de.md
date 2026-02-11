@@ -2,7 +2,7 @@
 title: .DE Domains
 excerpt: This article explains the requirements and special procedures for .DE domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .DE Domain Names

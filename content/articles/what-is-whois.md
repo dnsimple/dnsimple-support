@@ -3,7 +3,7 @@ title: What Is WHOIS?
 excerpt: Learn what WHOIS is, how it works, and why domain contact information is publicly accessible.
 meta: Discover what WHOIS is and how it provides public access to domain registration information. Learn about WHOIS databases, contact information, and privacy options.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # What Is WHOIS?
