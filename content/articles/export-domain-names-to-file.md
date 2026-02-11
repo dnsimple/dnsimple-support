@@ -3,7 +3,7 @@ title: Exporting Domain Names to a .CSV File
 excerpt: This article explains how to export domain names to a .CSV or .ZIP file.
 meta: Learn how to easily export your domain names to a .CSV or .ZIP file with our step-by-step guide, simplifying your domain management process.
 categories:
-  - Domains
+  - Domains and Transfers
 ---
 
 # Exporting Domain Names to a .CSV File

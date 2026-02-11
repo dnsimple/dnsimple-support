@@ -3,7 +3,7 @@ title: Troubleshooting Domain Validation Issues
 excerpt: Solutions for domain validation problems, including missing verification emails, suspended domains, and email address issues.
 meta: Troubleshoot domain validation issues with our comprehensive guide. Learn how to resolve verification email problems, domain suspensions, and contact information issues.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Troubleshooting Domain Validation Issues

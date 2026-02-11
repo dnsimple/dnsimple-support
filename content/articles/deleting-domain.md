@@ -3,7 +3,7 @@ title: Deleting a Domain
 excerpt: How to delete a domain from a DNSimple account.
 meta: Learn the simple steps to delete a domain from your DNSimple account. Follow our guide for a smooth and hassle-free domain removal process.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Deleting a Domain

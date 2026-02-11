@@ -2,7 +2,7 @@
 title: .IT Domains
 excerpt: This article explains the requirements and special procedures for .it domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .IT Domain Names

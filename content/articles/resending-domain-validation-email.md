@@ -3,7 +3,7 @@ title: Resending Domain Validation Email
 excerpt: How to resend domain validation emails to verify your registrant contact information.
 meta: Learn how to resend domain validation emails when you need to verify your registrant contact information for domain registration or updates.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Resending Domain Validation Email

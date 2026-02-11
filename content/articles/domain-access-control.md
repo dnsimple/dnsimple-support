@@ -3,7 +3,7 @@ title: Domain Access Control
 excerpt: Control what each account member can access on a per-domain or per-zone basis.
 categories:
 - Account
-- Domains
+- Domains and Transfers
 - Enterprise
 ---
 

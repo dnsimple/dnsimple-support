@@ -3,7 +3,7 @@ title: Linking and Unlinking Integrated Domain Providers
 excerpt: Step-by-step guide to link or unlink integrated domain providers to your DNSimple account.
 meta: Learn how to connect or disconnect integrated domain providers from your DNSimple account to manage domains from other registrars seamlessly.
 categories:
-- Domains
+- Domains and Transfers
 - Integrations
 ---
 

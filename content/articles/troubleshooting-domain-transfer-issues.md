@@ -3,8 +3,7 @@ title: Troubleshooting Domain Transfer Issues
 excerpt: Solutions for common domain transfer problems, including denied transfers, missing authorization codes, and email delivery issues.
 meta: Troubleshoot domain transfer issues with our comprehensive guide. Learn how to resolve common problems like denied transfers, missing authorization codes, and email delivery failures.
 categories:
-- Domain Transfers
-- Domains
+- Domains and Transfers
 ---
 
 # Troubleshooting Domain Transfer Issues

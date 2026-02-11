@@ -2,7 +2,7 @@
 title: .XXX Domains
 excerpt: This article explains the requirements and special procedures for .XXX domain names.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # .XXX Domain Names

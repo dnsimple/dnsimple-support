@@ -3,7 +3,7 @@ title: Troubleshooting Domain Expiration Issues
 excerpt: Solutions for domain expiration and renewal problems, including failed renewals, expired domains, and auto-renewal issues.
 meta: Troubleshoot domain expiration issues with our comprehensive guide. Learn how to resolve renewal failures, recover expired domains, and fix auto-renewal problems.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Troubleshooting Domain Expiration Issues
