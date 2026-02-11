@@ -96,5 +96,45 @@ If you switched DNS providers recently, please read our [Managing DS Records Whe
 
 If you transferred your domain from another registrar, check our suggestions at the [Preparing DNS Before Transferring a Domain Into DNSimple > DNSSEC considerations](/articles/before-transferring-domain/#dnssec-considerations) article to pinpoint potential issues.
 
+> [!INFO]
+> **If your domain is properly delegated to DNSimple but specific records aren't resolving**, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) for information about:
+> - Querying DNSimple name servers directly to bypass caching
+> - DNS propagation delays and TTL values
+> - Verifying records exist in our system
+> - Troubleshooting specific record types
+> - Checking for missing A or AAAA records at the apex domain
+
+
+## Common error messages and what they mean
+
+When troubleshooting domain resolution, you may encounter specific error messages. Here's what they typically indicate:
+
+**"No address associated with hostname" or "Name or service not known"**
+- Usually means there's no A or AAAA record for the queried hostname
+- Check if the record exists in your DNSimple account
+- Verify you're querying the correct hostname (e.g., `www.example.com` vs `example.com`)
+
+**"NXDOMAIN" or "Non-existent domain"**
+- The domain or hostname doesn't exist in DNS
+- Verify the domain is properly delegated to DNSimple
+- Check that you're using the correct domain name (typos are common)
+
+**"SERVFAIL" or "Server failure"**
+- Often indicates a DNSSEC validation failure
+- Check if DNSSEC is enabled and properly configured
+- Verify DS records are correct if using DNSSEC
+- See [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for more details
+
+**"REFUSED"**
+- The DNS server refused to answer the query
+- Usually indicates a configuration issue with the name servers
+- Verify the domain is properly delegated
+
+**"Timeout"**
+- The DNS query didn't receive a response in time
+- May indicate network issues or name server problems
+- Try querying a different DNSimple name server
+- Check [DNSimple's status page](https://dnsimple.statuspage.io) for known issues
+
 ## Have more questions?   
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.   

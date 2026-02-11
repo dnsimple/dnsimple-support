@@ -1,26 +1,34 @@
-Getting started:
+Getting Started:
   - "DNSSEC at DNSimple"
 
 Explanation:
-  - "What Is DNSSEC (Domain Name System Security Extensions)?"
-  - "The DNSSEC Chain of Trust"
-  - "What Are DS Records?"
-  - "DNSKEY Records Explained"
-  - "What Are the Types of DNSSEC Keys?"
-  - "Understanding RRSETs and RRSIGs in DNSSEC"
-  - "Understanding NSEC and NSEC3 Records"
-  - "What Are CDS and CDNSKEY?"
-  - "Why DNSSEC and Secondary DNS May Not Work Together"
+  DNSSEC Basics:
+    - "What Is DNSSEC (Domain Name System Security Extensions)?"
+    - "The DNSSEC Chain of Trust"
+    - "Why DNSSEC and Secondary DNS May Not Work Together"
+  DNSSEC Records:
+    - "What Are DS Records?"
+    - "DNSKEY Records Explained"
+    - "What Are the Types of DNSSEC Keys?"
+    - "Understanding RRSETs and RRSIGs in DNSSEC"
+    - "Understanding NSEC and NSEC3 Records"
+    - "What Are CDS and CDNSKEY?"
+  DNSSEC Concepts:
+    - "What Is DANE (DNS-based Authentication of Named Entities)?"
 
 How to:
-  - "Enabling DNSSEC"
-  - "Disabling DNSSEC"
-  - "Adding and Removing DS Records"
-  - "Managing DS Records When Changing DNS"
-  - "Using Cloudflare DNSSEC with DNSimple"
-  - "Rotate DNSSEC Keys"
-  - "Troubleshooting DNSSEC"
+  Managing DNSSEC:
+    - "Enabling DNSSEC"
+    - "Disabling DNSSEC"
+    - "Adding and Removing DS Records"
+    - "Managing DS Records When Changing DNS"
+    - "Rotate DNSSEC Keys"
+  Using DNSSEC with Other Providers:
+    - "Using Cloudflare DNSSEC with DNSimple"
+  Troubleshooting:
+    - "Troubleshooting DNSSEC"
 
 Reference:
+  - "DNSSEC Compatibility With Other DNSimple Features"
   - "DNSSEC Management in DNSimple"
   - "DNSSEC Glossary"

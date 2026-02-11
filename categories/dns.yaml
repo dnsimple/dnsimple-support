@@ -6,109 +6,118 @@ Getting Started:
   - DNS at DNSimple
 
 Explanation:
-  - What Is DNS?
-  - Common DNS Records
-  - What Is an A Record?
-  - What Is an AAAA Record?
-  - What Is an ALIAS Record?
-  - What Is a CAA Record?
-  - What Is a CNAME Record?
-  - What Is a DKIM Record?
-  - What Is a DMARC Record?
-  - What Are DS Records?
-  - What Are Empty Non-Terminals (ENT)?
-  - What Are Glue Records?
-  - What Are HINFO Records?
-  - What Is an MX Record?
-  - What Is an NS Record?
-  - What Are NAPTR Records?
-  - What Is a POOL Record?
-  - What Are Reverse DNS Lookups and PTR Records?
-  - What Is an SOA Record?
-  - What Is an SPF Record?
-  - What Is an SRV Record?
-  - What Are SSHFP Records?
-  - What Are System Records?
-  - What Is a TXT Record?
-  - What Is a URL Record?
-  - What Is a Zone File?
-  - Differences Between A and CNAME Records
-  - Differences Among A, CNAME, ALIAS, and URL Records
-  - DNSimple Points of Presence
-  - Reverse DNS Zones
-  - How Long Does It Take for a New Record to Resolve for My Domain?
-  - Explanation of Regional Records
-  - What Is Anycast DNS and Why Use It?
-  - Why DNSSEC and Secondary DNS May Not Work Together
-  - How ALIAS Records Resolve with Secondary DNS
-  - How Does Zone Verification Work?
-  - How Long Does a New DNS Record Take to Resolve?
-  - Protection Against DDoS Attacks
-  - Regional Records
-  - Reverse DNS Zones
-  - What Is EDNS Client Subnet Support?
-  - Why Should I Use DNSimple as a DNS Hosting Provider?
-  - Integrated DNS Providers at DNSimple
-  - Integrated DNS Provider Amazon Route 53
-  - Integrated DNS Provider Azure DNS
-  - Integrated DNS Provider CoreDNS
-  - What Are Integrated DNS Providers and Why Use Them?
-  - What Is Anycast DNS and Why Use It?
-  - What Is dig?
-  - What Is Dynamic DNS?
-  - What Is Resolution Status?
-  - What Is Time-to-Live?
-  - What Is Zone Verification and Why Does It Matter?
-  - Why DNSSEC and Secondary DNS may not work together
-  - Why You Should Auto-Import DNS Records
- 
-How to:
-  - Activating and Deactivating a DNS Zone
-  - Adding and Removing DS Records
-  - Adding an SRV Record
-  - Auto-Importing DNS Records
-  - Check DNS Cache
-  - Check Resolution Status
-  - Creating a Record Note
-  - Creating a Record Deletion Note
-  - Export Zone File
-  - How To Add Common DNS Records
-  - How to Change TTL in DNSimple
-  - How to Fix Empty Responses from Empty Non-Terminals
-  - How to Use the Record Editor
-  - How to Use dig
-  - How to Use CoreDNS as an Integrated DNS Provider
-  - How to Use Route 53 as an Integrated DNS Provider
-  - Importing Integrated Zone Records
-  - Import Zone File
-  - Managing A Records
-  - Managing AAAA Records
-  - Managing CAA Records
-  - Managing CNAME Records
-  - Managing DS Records When Changing DNS
-  - Managing Integrated DNS Providers
-  - Managing Integrated Zones for Integrated DNS Providers
-  - Managing Integrated Zone Records
-  - Managing URL Records
-  - Querying MX Records
-  - Record Editor
-  - Record Notes
-  - Refreshing and Importing Integrated Zones
-  - Rotate DNSSEC Keys
-  - Syncing Integrated Zone Records Between DNS Providers
-  - Setting up DKIM
-  - Setting up DMARC
-  - Setting up Simple Dynamic DNS
-  - Troubleshooting DNSimple Name Servers
-  - Troubleshooting Domain Resolution Issues
-  - Troubleshooting Empty Non-Terminal Issues
-  - Troubleshooting Record Resolution Issues
-  - Verifying DKIM with dig and Online Tools
-  - Verifying DMARC with dig and Online Tools
-  - View Record Notes and Audit History
-  - Zone NS Records
+  DNS Basics:
+    - What Is DNS?
+    - Common DNS Records
+    - What Is a Zone File?
+    - What Is Time-to-Live?
+    - What Is Resolution Status?
+    - What Is dig?
+    - What Is Dynamic DNS?
+    - DNSimple Points of Presence
+    - What Is Anycast DNS and Why Use It?
+    - Why Should I Use DNSimple as a DNS Hosting Provider?
+  DNS Records:
+    - What Is an A Record?
+    - What Is an AAAA Record?
+    - What Is an ALIAS Record?
+    - What Is a CAA Record?
+    - What Is a CNAME Record?
+    - What Is a DKIM Record?
+    - What Is a DMARC Record?
+    - What Is an MX Record?
+    - What Is an NS Record?
+    - What Are NAPTR Records?
+    - What Is a POOL Record?
+    - What Are Reverse DNS Lookups and PTR Records?
+    - What Is an SOA Record?
+    - What Is an SPF Record?
+    - What Is an SRV Record?
+    - What Are SSHFP Records?
+    - What Is a TLSA Record?
+    - What Are System Records?
+    - What Is a TXT Record?
+    - What Is a URL Record?
+    - Differences Between A and CNAME Records
+    - Differences Among A, CNAME, ALIAS, and URL Records
+  DNS Concepts:
+    - What Is DANE (DNS-based Authentication of Named Entities)?
+    - What Are DS Records?
+    - What Are Empty Non-Terminals (ENT)?
+    - What Are Glue Records?
+    - What Are HINFO Records?
+    - Reverse DNS Zones
+    - Explanation of Regional Records
+    - Regional Records
+    - What Is EDNS Client Subnet Support?
+    - How Does Zone Verification Work?
+    - What Is Zone Verification and Why Does It Matter?
+    - How Long Does a New DNS Record Take to Resolve?
+    - Protection Against DDoS Attacks
+    - Why DNSSEC and Secondary DNS May Not Work Together
+    - How ALIAS Records Resolve with Secondary DNS
+    - Why You Should Auto-Import DNS Records
+  Integrated DNS Providers:
+    - Integrated DNS Providers at DNSimple
+    - What Are Integrated DNS Providers and Why Use Them?
+    - Integrated DNS Provider Amazon Route 53
+    - Integrated DNS Provider Azure DNS
+    - Integrated DNS Provider CoreDNS
 
-Reference: 
+How to:
+  Managing DNS Records:
+    - How To Add Common DNS Records
+    - Managing A Records
+    - Managing AAAA Records
+    - Managing CAA Records
+    - Managing CNAME Records
+    - Managing TLSA Records
+    - Managing URL Records
+    - Adding an SRV Record
+    - Querying MX Records
+    - How to Use the Record Editor
+    - Record Editor
+    - Creating a Record Note
+    - Creating a Record Deletion Note
+    - Record Notes
+    - View Record Notes and Audit History
+    - How to Change TTL in DNSimple
+  Managing DNS Zones:
+    - Activating and Deactivating a DNS Zone
+    - Export Zone File
+    - Import Zone File
+    - Zone NS Records
+    - Check Resolution Status
+    - Check DNS Cache
+    - How to Use dig
+    - Setting up Simple Dynamic DNS
+  Email Setup:
+    - Setting up DKIM
+    - Setting up DMARC
+    - Verifying DKIM with dig and Online Tools
+    - Verifying DMARC with dig and Online Tools
+  Managing Integrated DNS Providers:
+    - Managing Integrated DNS Providers
+    - Managing Integrated Zones for Integrated DNS Providers
+    - Managing Integrated Zone Records
+    - Importing Integrated Zone Records
+    - Refreshing and Importing Integrated Zones
+    - Syncing Integrated Zone Records Between DNS Providers
+    - How to Use CoreDNS as an Integrated DNS Provider
+    - How to Use Route 53 as an Integrated DNS Provider
+    - Auto-Importing DNS Records
+  DNSSEC Management:
+    - Adding and Removing DS Records
+    - Managing DS Records When Changing DNS
+    - Rotate DNSSEC Keys
+  Troubleshooting:
+    - Troubleshooting DNSimple Name Servers
+    - Troubleshooting Domain Resolution Issues
+    - Troubleshooting Empty Non-Terminal Issues
+    - Troubleshooting Record Resolution Issues
+    - How to Fix Empty Responses from Empty Non-Terminals
+
+Reference:
   - DNS Glossary
   - Supported DNS Records and DNS Record Types
   - A Record Format
@@ -126,6 +135,7 @@ Reference:
   - SPF Record Syntax and Validation Reference
   - SRV Record Format and Components Reference
   - SSHFP Record Reference
+  - TLSA Record Format and Components Reference
   - TXT Record Format and Long Record Handling
   - URL Record Format and Technical Details
   - dig Reference Guide

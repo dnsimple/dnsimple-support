@@ -31,14 +31,15 @@ Important updates and changes that may affect your DNS configuration:
 
 Learn about DNS fundamentals, DNS records, and DNS concepts:
 
-- [What is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
-- [What is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
+- [What Is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
+- [What Is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
 - [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-is-ttl/#ttl-in-dnsimple) - Discover the minimum TTL values that DNSimple provides for your DNS records.
-- [How Long Does It Take for a New Record to Resolve for My Domain?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) - Understand the time it takes for new DNS records to become available after creation.
+- [How Long Does a New DNS Record Take to Resolve?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) - Understand the time it takes for new DNS records to become available after creation.
 - [What Is Resolution Status?](/articles/resolution-status/) - Learn about resolution status and how to check if your DNS records are resolving correctly.
 - [What Is dig?](/articles/what-is-dig/) - Introduction to the dig command-line tool for querying DNS servers.
 - [What Is Dynamic DNS?](/articles/dynamic-dns/) - Understand Dynamic DNS and how it allows you to update DNS records automatically when your IP address changes.
 - [What Is a Zone File?](/articles/what-is-zone-file/) - Learn about zone files and how they contain DNS record information for a domain.
+- [DNSimple Points of Presence](/articles/anycast/) - Learn about DNSimple's global network of Points of Presence and how they improve DNS resolution performance.
 - [Common DNS Records](/articles/common-dns-records/) - Overview of the most frequently used DNS record types and their purposes.
 - [What Is an A Record?](/articles/a-record/) - Learn about A records and how they map domain names to IPv4 addresses.
 - [What Is an AAAA Record?](/articles/aaaa-record/) - Understand AAAA records and how they map domain names to IPv6 addresses.
@@ -48,6 +49,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is a DKIM Record?](/articles/dkim-record/) - Learn about DKIM (DomainKeys Identified Mail) records and email authentication.
 - [What Is a DMARC Record?](/articles/dmarc-record/) - Understand DMARC (Domain-based Message Authentication) records and email security.
 - [What Are DS Records?](/articles/what-are-ds-records/) - Learn about DS (Delegation Signer) records used for DNSSEC validation.
+- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) - Understand Empty Non-Terminals (ENTs) in DNS and how they affect wildcard record resolution.
 - [What Are Glue Records?](/articles/what-are-glue-records/) - Understand glue records and how they help resolve name servers for your domain.
 - [What Are HINFO Records?](/articles/hinfo-records/) - Learn about HINFO records and how they describe host hardware and operating system information.
 - [What Is an MX Record?](/articles/mx-record/) - Understand MX (Mail Exchange) records and how they direct email to mail servers.
@@ -59,6 +61,8 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is an SPF Record?](/articles/spf-record/) - Understand SPF (Sender Policy Framework) records and email authentication.
 - [What Is an SRV Record?](/articles/srv-record/) - Learn about SRV (Service) records and how they specify service locations.
 - [What Are SSHFP Records?](/articles/sshfp-records/) - Understand SSHFP records and how they store SSH public key fingerprints.
+- [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA (Transport Layer Security Authentication) records and how they enhance TLS security through DANE.
+- [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
 - [What Are System Records?](/articles/system-records/) - Learn about system records that DNSimple automatically manages for your domain.
 - [What Is a TXT Record?](/articles/txt-record/) - Understand TXT records and how they store arbitrary text data for various purposes.
 - [What Is a URL Record?](/articles/url-record/) - Learn about URL records and how they redirect domains to web addresses.
@@ -67,10 +71,12 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/) - Learn about Anycast DNS and the benefits it provides for DNS resolution speed and reliability.
 - [Protection Against DDoS Attacks](/articles/protection-ddos/) - Understand how DNSimple protects your DNS infrastructure against DDoS attacks.
 - [What Is EDNS Client Subnet Support?](/articles/edns-client-subnet/) - Learn about EDNS Client Subnet (ECS) and how it improves DNS resolution accuracy.
+- [Explanation of Regional Records](/articles/regional-records/) - Learn about regional records and how they enable location-based DNS responses.
 - [Regional Records](/articles/regional-records/) - Understand regional records and how they enable location-based DNS responses.
 - [Reverse DNS Zones](/articles/reverse-dns/) - Learn about reverse DNS zones and how to configure PTR records.
-- [Why DNSSEC and Secondary DNS may not work together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
+- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - Learn how ALIAS records work when using secondary DNS providers.
+- [Integrated DNS Providers at DNSimple](/articles/integrated-dns-providers/) - Overview of integrated DNS providers available in DNSimple and how they work.
 - [What Are Integrated DNS Providers and Why Use Them?](/articles/what-are-integrated-providers/) - Understand integrated DNS providers and the benefits of using them with DNSimple.
 - [Integrated DNS Provider Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/) - Learn how to use Amazon Route 53 as an integrated DNS provider.
 - [Integrated DNS Provider Azure DNS](/articles/integrated-dns-provider-azure-dns/) - Learn how to use Azure DNS as an integrated DNS provider.
@@ -85,12 +91,14 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 Step-by-step guides for managing DNS records, zones, and DNS configuration:
 
 - [How to Use the Record Editor](/articles/record-editor/) - Step-by-step guide to using DNSimple's record editor to manage your DNS records.
+- [Record Editor](/articles/record-editor/) - Overview of DNSimple's Record Editor interface and features for managing DNS records.
 - [How To Add Common DNS Records](/articles/how-to-add-dns-records/) - Learn how to add the most commonly used DNS record types.
 - [Activating and Deactivating a DNS Zone](/articles/activate-deactivate-dns-zone/) - Instructions for activating or deactivating DNS zones in DNSimple.
 - [Managing A Records](/articles/manage-a-record/) - Step-by-step guide to creating, editing, and deleting A records.
 - [Managing AAAA Records](/articles/manage-aaaa-record/) - Learn how to manage AAAA records for IPv6 addresses.
 - [Managing CAA Records](/articles/manage-caa-record/) - Instructions for managing CAA records to control certificate issuance.
 - [Managing CNAME Records](/articles/manage-cname-record/) - Guide to creating and managing CNAME records.
+- [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records for DANE.
 - [Managing URL Records](/articles/manage-url-record/) - Learn how to set up and manage URL redirect records.
 - [Adding an SRV Record](/articles/add-srv-record/) - Step-by-step instructions for adding SRV records.
 - [Adding and Removing DS Records](/articles/manage-ds-record/) - Guide to managing DS records for DNSSEC.
@@ -112,10 +120,13 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [Refreshing and Importing Integrated Zones](/articles/managing-integrated-zones/) - Learn how to refresh and import zones from integrated DNS providers.
 - [Syncing Integrated Zone Records Between DNS Providers](/articles/sync-integrated-zone-records/) - Guide to syncing records between DNS providers.
 - [Creating a Record Note](/articles/create-record-note/) - Learn how to add notes to DNS records for documentation purposes.
+- [Creating a Record Deletion Note](/articles/create-record-deletion-note/) - Learn how to add deletion notes to DNS records when removing them.
 - [Record Notes](/articles/record-notes/) - Understand how to use record notes to document your DNS configuration.
+- [View Record Notes and Audit History](/articles/view-notes-audit-history/) - Learn how to view record notes and audit history for your DNS records.
 - [How to Use dig](/articles/how-dig/) - Comprehensive guide to using the dig command-line tool for DNS queries.
 - [Check DNS Cache](/articles/check-dns-cache/) - Learn how to check and clear DNS cache to verify record changes.
 - [Check Resolution Status](/articles/check-resolution-status/) - Instructions for checking if your DNS records are resolving correctly.
+- [How to Change TTL in DNSimple](/articles/change-ttl/) - Learn how to modify the Time-to-Live (TTL) settings for your DNS records in DNSimple.
 - [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - Learn how to verify your DKIM configuration using dig and online verification tools.
 - [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Guide to verifying DMARC records using dig and online tools.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/) - Step-by-step instructions for rotating DNSSEC keys.
@@ -126,12 +137,15 @@ Resolve common DNS problems and configuration issues:
 
 - [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) - Solutions for common issues with DNSimple name servers.
 - [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) - Guide to diagnosing and fixing domain resolution problems.
+- [Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) - Learn how to troubleshoot issues related to Empty Non-Terminals (ENTs) in DNS.
 - [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) - Learn how to troubleshoot specific DNS record resolution problems.
+- [How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/) - Step-by-step guide to fixing empty responses caused by Empty Non-Terminals.
 
 ## DNS reference
 
 Technical specifications, formats, and reference documentation:
 
+- [DNS Glossary](/articles/dns-glossary/) - Comprehensive glossary of DNS terms and definitions.
 - [Supported DNS Records and DNS Record Types](/articles/supported-dns-records/) - Complete list of DNS record types supported by DNSimple.
 - [A Record Format](/articles/a-record-format/) - Technical reference for A record format and syntax.
 - [AAAA Record Format](/articles/aaaa-record-format/) - Technical reference for AAAA record format and syntax.
@@ -148,10 +162,12 @@ Technical specifications, formats, and reference documentation:
 - [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) - Complete reference for SPF record syntax and validation rules.
 - [SRV Record Format and Components Reference](/articles/srv-record-format/) - Technical reference for SRV record format and all components.
 - [SSHFP Record Reference](/articles/sshfp-record-reference/) - Complete reference guide for SSHFP record format.
+- [TLSA Record Format and Components Reference](/articles/tlsa-record-format/) - Technical reference for TLSA record format and DANE configuration.
 - [TXT Record Format and Long Record Handling](/articles/txt-record-format/) - Technical reference for TXT record format and handling long records.
 - [URL Record Format and Technical Details](/articles/url-record-format-details/) - Complete reference guide for URL record format and technical specifications.
 - [dig Reference Guide](/articles/dig-reference-guide/) - Comprehensive reference guide for the dig command-line tool.
 - [DNSimple Interface Reference for DNS Management](/articles/interface-reference/) - Complete reference for DNSimple's web interface and DNS management features.
+- [DNSimple TTL Settings Reference](/articles/what-minimum-time-to-live/) - Technical reference for DNSimple's TTL settings and minimum TTL values.
 - [Understanding DNSimple's Record Editors Simple vs. Field-Specific](/articles/record-editor-simple-field/) - Reference guide explaining the differences between simple and field-specific record editors.
 - [IPv6 Domain Resolution Reference](/articles/ipv6-support/) - Technical reference for IPv6 domain resolution and AAAA records.
 - [Resolving with DNSimple](/articles/resolving-with-us/) - Technical reference for displaying and embedding a "Resolving with DNSimple" badge on websites.

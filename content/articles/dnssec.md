@@ -20,15 +20,16 @@ DNSSEC (Domain Name System Security Extensions) adds an essential layer of secur
 
 If you are new to DNSSEC, these articles will help you understand the fundamentals.
 
-- [What Is DNSSEC?](/articles/what-is-dnssec/) Learn what DNSSEC is and why it matters.
+- [What Is DNSSEC (Domain Name System Security Extensions)?](/articles/what-is-dnssec/) Learn what DNSSEC is and why it matters.
 - [The DNSSEC Chain of Trust](/articles/dnssec-chain-of-trust/): Explore the concept of the Chain of Trust and how it ensures the validity of DNS data.
 - [What Are DS Records?](/articles/what-are-ds-records/): Understand the role of Delegation Signer (DS) records in linking a child zone to its parent in the DNSSEC chain.
 - [DNSKEY Records Explained](/articles/dnskey-records-explained/): Dive into DNSKEY records, which contain the public keys used to verify DNSSEC signatures.
 - [What Are the Types of DNSSEC Keys?](/articles/types-of-dnssec-keys/): Discover the different types of DNSSEC keys and their specific functions.
 - [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/): Learn about Resource Record Sets (RRSETs) and RRSIG (Resource Record Signature) records, which provide cryptographic proof of data integrity.
 - [Understanding NSEC and NSEC3 Records](/articles/nsec-nsec3-records/): Explore NSEC and NSEC3 records and how they help prevent zone walking.
-- [What Are CDS and CDNSKEY Records?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
-- [Why DNSSEC and Secondary DNS may not work together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
+- [What Are CDS and CDNSKEY?](/articles/what-are-cds-and-cdnskey/) Understand how these record types help automate DNSSEC management and simplify key rollovers.
+- [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
+- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 
 ## How to manage DNSSEC
 
@@ -40,6 +41,12 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 - [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/): A guide to updating DS records when you migrate your DNS hosting to a different provider.
 - [Using Cloudflare DNSSEC with DNSimple](/articles/cloudflare-ds-record/): Using Cloudflare DNSSEC when your domain is with DNSimple.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
+
+## DNSSEC compatibility with other DNSimple features
+
+Not all DNSimple features are compatible with DNSSEC. Before enabling DNSSEC, review the compatibility details for your setup.
+
+- [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/): A reference of which DNSimple features work with DNSSEC and any limitations to be aware of.
 
 ## Troubleshooting DNSSEC configurations
 
