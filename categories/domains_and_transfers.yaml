@@ -1,6 +1,6 @@
 ---
 Explanation:
-Core Domain Concepts:
+  Core Domain Concepts:
     - "What Is a Domain?"
     - "What is WHOIS?"
     - "What is Domain Transfer?"
@@ -24,7 +24,7 @@ Core Domain Concepts:
     - "Expiring Product Email Notifications"
   Policies & Requirements:
     - "ICANN 60-Day Lock After Change of Registrant"
-       - "Auto-Renewal Required Domains"
+    - "Auto-Renewal Required Domains"
 
 How to:
   Registration and renewal:
