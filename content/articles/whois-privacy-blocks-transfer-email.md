@@ -3,7 +3,7 @@ title: Whois Privacy may cause transfer approval emails to not be delivered
 excerpt: Whois Privacy services often do not properly deliver transfer approval emails, and thus should be disabled before requesting a transfer.
 categories:
  - Whois Privacy
- - Domains and Transfers
+ - Domain Transfers
 ---
 
 # Whois Privacy and Domain Transfers

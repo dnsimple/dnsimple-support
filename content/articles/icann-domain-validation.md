@@ -3,7 +3,7 @@ title: Domain Validation Requirements
 excerpt: Learn about domain validation requirements and how to verify your registrant contact information.
 meta: Understand domain validation requirements, verification processes, and how to ensure your domain contact information is properly validated to avoid suspension.
 categories:
-  - Domains and Transfers
+  - Domains
 ---
 
 # Domain Validation Requirements
