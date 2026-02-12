@@ -50,4 +50,4 @@ If a domain is not renewed before it expires, the right to use it can be lost, a
 
 ## Have more questions?
 
-If you have any questions about domains or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) we're here to help.
+If you have any questions about domains or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.
