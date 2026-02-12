@@ -3,7 +3,7 @@ title: DNSimple SuperLock
 excerpt: Protect your domain from accidental transfers with DNSimple SuperLock
 meta: Enhance your domain security with DNSimple SuperLock, preventing unauthorized transfers and ensuring your valuable assets remain safe and secure.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # DNSimple SuperLock

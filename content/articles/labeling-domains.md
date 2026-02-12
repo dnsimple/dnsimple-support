@@ -2,7 +2,7 @@
 title: Organizing and Labeling Domains
 excerpt: When your domain names list grows and becomes hard to maintain, labels can help you organize your inventory.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Organizing and Labeling Domains

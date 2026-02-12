@@ -2,7 +2,7 @@
 title: Expiring Domain Email Notifications
 excerpt: This page describes the email notifications you will receive about expiring domains purchased through DNSimple.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Expiring Domain Email Notifications
