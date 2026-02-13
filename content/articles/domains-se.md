@@ -2,7 +2,7 @@
 title: .SE Domains
 excerpt: This article explains the requirements and special procedures for .SE domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .SE Domain Names
@@ -22,3 +22,7 @@ To register a .SE domain, an ID number (e.g. civic registration number, company 
 
 ### VAT ID
 To register a .SE domain, a VAT ID must be stated for companies located within the European Union but outside Sweden. This attribute is optional for companies located within Sweden.
+
+## Have more questions?
+
+If you have any questions about registering, transferring, or renewing your .SE domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
