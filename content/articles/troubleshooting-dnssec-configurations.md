@@ -23,49 +23,13 @@ There are two ways to check this:
 1. **Domain Names List**: In your list of domains, look for a `DNSSEC` label on the domain. If present, it indicates DNSSEC is enabled.
 1. **DNSSEC card**: When you are on the domain page, click the `DNSSEC` tab on the left side. On this page, you can see the DNSSEC state.
 
-## Essential tools for diagnosing DNSSEC issues
+### Essential tools for diagnosing DNSSEC issues
 
-Several online tools can help you assess the health of your DNSSEC setup. These are your first line of defense for troubleshooting DNSSEC problems.
+Before attempting fixes, verify the DNSSEC state of the domain using external diagnostic tools. These tools help identify where the DNSSEC chain of trust is failing and are often the fastest way to understand the problem.
 
-### DNSSEC Analyzer (by Verisign/ICANN)
-1. Go to: [https://dnssec-analyzer.verisignlabs.com/](https://dnssec-analyzer.verisignlabs.com/)
-1. Enter your domain name and press Enter.
+See **External DNSSEC Diagnostic Tools** for a list of recommended tools and what each one checks.
 
-**What to look for:**
-- Green check mark, "All Good": Indicates successful DNSSEC validation.
-- Red "X" or warning symbols: Hover over them for details.
-
-Common issues highlighted include:
-- Missing DS records at the parent (your registrar)
-- Incorrect DS records
-- Missing DNSKEY records
-- Expired signatures (RRSIG)
-- Problems with NSEC/NSEC3 records
-
-### DNSViz:
-1. Go to: [https://dnsviz.net/](https://dnsviz.net/)
-1. Enter your domain name, click "Analyze", then "Continue" if you have not analyzed your domain name before. Otherwise, click "Go."
-
-What to look for: DNSViz provides a highly detailed visual representation of your DNSSEC chain of trust.
-- Green lines: Indicate successful validation paths.
-- Red lines or boxes: Highlight errors or warnings. Hovering over these will provide detailed error messages and suggestions. This tool is excellent for pinpointing where the chain of trust breaks for your DNSSEC-signed domain.
-
-### Local DNSSEC validation _(using `dig`)_:
-You can check DNSSEC validation from your own command line using the `dig` utility, available on most Linux/macOS systems and via tools like WSL on Windows. For detailed instructions on using `dig`, see [How to Use dig](/articles/how-dig/). For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/).
-
-1. Open your terminal or command prompt.
-1. Run the command: `dig +dnssec your-domain.com` (replace `your-domain.com` with your domain).
-
-**What to look for:**
-- `AD` flag (Authentic Data): This flag in the header of the `dig` output indicates that the response has been validated by a DNSSEC-aware resolver. If it's missing, validation failed.
-- `RRSIG` records: You should see RRSIG records for your queried records (e.g., A, MX, etc.). To learn more about RRSIG records, see [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/).
-- `NSEC` or `NSEC3` records: Present if the hostname does not exist in a signed zone. To learn more about these records, see [Understanding NSEC and NSEC3 Records](/articles/nsec-nsec3-records/).
-- `DNSKEY` records: Shown if queried directly. Example command: `dig +dnssec your-domain.com dnskey` To learn more about DNSKEY records, see [DNSKEY Records Explained](/articles/dnskey-records-explained/).
-
-Troubleshooting `dig` output: If the `AD` flag is missing, it confirms a problem.
-
-> [!NOTE]
-> The `AD` flag will only appear if the DNS resolver `dig` is querying (e.g., your ISP's DNS, or a public resolver like 8.8.8.8 if specified) is itself performing DNSSEC validation. If your local resolver is not DNSSEC-aware, this flag will not appear, regardless of your domain's DNSSEC status. For definitive checks, always cross-reference with DNSSEC Analyzer or DNSViz.
+After identifying the reported error, return here and follow the resolution steps below.
 
 ## Common DNSSEC issues and their resolutions
 This section details the most frequent problems identified by the tools and provides actionable steps to fix them, ensuring your DNSSEC is properly set up with DNSimple.
