@@ -19,4 +19,7 @@ The expiring product notification system is designed to reduce the number of ema
 
 The notification is delivered as soon as one of your products enters the 60-day expiration period. We deliver, at most, one email each week with an overview of all your expiring products.
 
+> [!NOTE]
+> Starting March 2026, [Sectigo SSL certificates are valid for approximately 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will receive expiration notifications for these certificates sooner than you might expect. When you receive one, you will need to purchase a new certificate to maintain uninterrupted coverage.
+
 This email is part of the [expiring product notification feature](/articles/expiring-product-email-notifications/).
