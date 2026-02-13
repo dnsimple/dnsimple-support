@@ -17,7 +17,7 @@ This article explains the requirements and special procedures for .DE domain nam
 
 ## Transferring a .DE domain {#transferring}
 
-Unlike standard gTLD domains, .DE has some unique transfer rules. Please read the information below.
+Unlike standard gTLD domains, .DE has some unique transfer rules.
 
 ### Expiration date resets on domain transfer
 
