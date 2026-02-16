@@ -78,7 +78,7 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1. Click the **Registration** tab on the left.
 
-1. Click **Manage** in the **DS Records** card.
+1. Click **Manage** in the **DS Records** card, at the bottom of the page.
 
 1. On the **DS records** page, search for the record, and click the **trash** icon to delete it.
 
