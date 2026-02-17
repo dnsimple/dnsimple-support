@@ -34,7 +34,7 @@ wildcard
 
 ## Let's Encrypt or Standard
 
-Both providers support wildcard certificates. Let's Encrypt certificates are free, but are valid for 90 days. Sectigo certificates are valid for longer (~200 days as of March 2026), but come with a cost per wildcard certificate.
+Both providers support wildcard certificates. Let's Encrypt certificates are free, but are valid for 90 days. Sectigo certificates are valid for longer (200 days as of March 2026), but come with a cost per wildcard certificate.
 
 You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
 

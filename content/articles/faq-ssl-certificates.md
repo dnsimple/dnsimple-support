@@ -92,7 +92,7 @@ structured_data: true
 
 <div class="section-faq" markdown="1">
 
-1.  #### Why is my Sectigo certificate only valid for ~200 days?
+1.  #### Why is my Sectigo certificate only valid for 200 days?
 
     Starting March 15, 2026, the CA/Browser Forum requires that publicly trusted SSL/TLS certificates have a maximum validity of 200 days. This applies to all Certificate Authorities, not just Sectigo.
 

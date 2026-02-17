@@ -27,7 +27,7 @@ The table below summarizes the most important DNSimple offering differences betw
 
 | | Let's Encrypt | Standard |
 | --- | --- | --- |
-| Certificate Expiration | 90 days | ~200 days (as of March 2026) |
+| Certificate Expiration | 90 days | 200 days (as of March 2026) |
 | Single names | Supported | Supported |
 | Custom names | Supported (on certain plans) | Supported |
 | Wildcard names | Supported (on certain plans) | Supported |
@@ -47,7 +47,7 @@ The following list of questions may help you to determine what is the best certi
 | You want to provide a custom CSR | **Standard** |
 | You want to use a custom private key. | **Standard** |
 | You want to use a wildcard name. | **Let's Encrypt** or **Standard** |
-| You want a longer expiration (~200 days vs 90 days). | **Standard** |
+| You want a longer expiration (200 days vs 90 days). | **Standard** |
 | You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt** |
 | Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Standard** |
 | Your domain is resolving with both DNSimple and Secondary DNS. | **Standard** |
