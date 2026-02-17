@@ -96,7 +96,7 @@ structured_data: true
 
     Starting March 15, 2026, the CA/Browser Forum requires that publicly trusted SSL/TLS certificates have a maximum validity of 200 days. This applies to all Certificate Authorities, not just Sectigo.
 
-    The issued certificate will be valid for approximately 200 days. You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Each new certificate requires completing [domain validation](/articles/ssl-certificates-email-validation/) again.
+    The issued certificate will be valid for 200 days. You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Each new certificate requires completing [domain validation](/articles/ssl-certificates-email-validation/) again.
 
     This maximum will continue to decrease: 100 days in March 2027, and 47 days in March 2029. Learn more about the [certificate lifetime reduction timeline](/articles/can-multi-year-ssl-certificates/#shorter-validity).
 

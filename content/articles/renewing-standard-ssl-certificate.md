@@ -13,7 +13,7 @@ categories:
 Sixty days before the certificate expires, you will begin receiving renewal notices.
 
 > [!NOTE]
-> Starting March 15, 2026, Sectigo certificates are valid for a maximum of approximately 200 days due to [CA/Browser Forum lifetime reduction requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
+> Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 days due to [CA/Browser Forum lifetime reduction requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
 
 We encourage you to plan the renewal of your certificate to occur at least one week before the expiration to avoid downtime or issues caused by possible renewal delays.
 

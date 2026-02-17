@@ -54,7 +54,7 @@ The wildcard certificate is a **wildcard-name**, **domain-validated** certificat
 The certificate is issued by **Sectigo** and it costs **$100 per year**. The product name is _Sectigo PositiveSSL Wildcard_ certificate.
 
 > [!NOTE]
-> Starting March 15, 2026, Sectigo certificates are valid for a maximum of approximately 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
+> Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
 
 ### Let's Encrypt SAN SSL certificates {#letsencrypt}
 

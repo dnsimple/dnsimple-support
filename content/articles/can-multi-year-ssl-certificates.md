@@ -22,6 +22,6 @@ The CA/Browser Forum has approved a phased reduction in maximum SSL/TLS certific
 | March 15, 2027   | 100 days                     | 100 days          |
 | March 15, 2029   | 47 days                      | 10 days           |
 
-Starting **March 15, 2026**, Sectigo certificates purchased through DNSimple will be valid for a maximum of approximately 200 days. You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
+Starting **March 15, 2026**, Sectigo certificates purchased through DNSimple will be valid for a maximum of 200 days. You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
 
 This change applies to all publicly trusted SSL/TLS certificates issued after March 15, 2026. Existing certificates issued before that date remain valid until their original expiration.
