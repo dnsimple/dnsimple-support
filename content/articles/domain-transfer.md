@@ -27,7 +27,7 @@ Transferring a domain name to DNSimple is the process of moving your [domain reg
 - A domain can only be transferred if it was registered more than 60 days ago and has not been transferred within the last 60 days.
 - It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD). To learn more about how to avoid downtime during this period, check out [this article](/articles/before-transferring-domain/).
 - Expired domains can be transferred as long as the domain is still in its grace period and has not entered the redemption period. This applies to ICANN generic top-level domains (gTLDs); country code TLDs (ccTLDs) may have different rules.
-- WHOIS privacy services may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
+- [WHOIS privacy](/articles/whois-privacy-blocks-transfer-email/) may prevent the proper delivery of the transfer approval email. You will need to **turn the WHOIS privacy service off before starting the transfer**.
 
 ## Initiating the transfer
 
