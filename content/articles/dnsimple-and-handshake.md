@@ -3,7 +3,7 @@ title: DNSimple and Handshake (HNS)
 excerpt: How to use Handshake (HNS) domains with your DNSimple account.
 meta: Learn how to seamlessly integrate Handshake (HNS) domains with your DNSimple account, enhancing your domain management experience with decentralized technology.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # DNSimple and Handshake (HNS)
