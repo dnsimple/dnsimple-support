@@ -2,7 +2,7 @@
 title: .DAY Domains
 excerpt: This article explains the requirements and special procedures for .DAY domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .DAY Domain Names
@@ -22,3 +22,7 @@ This article explains the requirements and special procedures for .DAY domain na
 You can [obtain a certificate for your .DAY domain](https://dnsimple.com/ssl-certificates) through DNSimple. To learn more, visit [SSL Certificates](/articles/ssl-certificates/).
 
 .DAY domain names that do not have an SSL certificate configured may still be used for email and other non-browser based uses.
+
+## Have more questions?
+
+If you have any questions about registering, transferring, or renewing your .DAY domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

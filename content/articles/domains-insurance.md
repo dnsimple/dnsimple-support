@@ -2,7 +2,7 @@
 title: .INSURANCE Domains
 excerpt: This article explains the requirements and special procedures for .INSURANCE domain names.
 categories:
-- Domains
+- TLDs
 - Enterprise
 ---
 

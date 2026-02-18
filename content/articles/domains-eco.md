@@ -2,7 +2,7 @@
 title: .ECO Domains
 excerpt: This article explains the requirements and special procedures for .ECO domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .ECO Domain Names

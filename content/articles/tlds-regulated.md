@@ -3,6 +3,7 @@ title: Regulated Top-Level Domains
 excerpt: Information about regulated and highly-regulated TLDs.
 meta: Discover essential information about regulated and highly-regulated top-level domains (TLDs), including their requirements and implications for domain registration.
 categories:
+- TLDs
 - Domains and Transfers
 ---
 
