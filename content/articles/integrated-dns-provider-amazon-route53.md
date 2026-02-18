@@ -54,6 +54,7 @@ The following Route 53 record types are supported for syncing and management at 
 - [SPF](/articles/spf-record/)
 - [SRV](/articles/srv-record/)
 - [SSHFP](/articles/sshfp-records/)
+- [SVCB/HTTPS](/articles/service-binding-records/)
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
 

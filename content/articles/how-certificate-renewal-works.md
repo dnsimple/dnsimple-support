@@ -20,3 +20,9 @@ To renew your certificate follow the steps described in the [renewing an SSL cer
 > [!WARNING]
 > When you renew a certificate, you will need to go through the [certificate domain validation process](/articles/ssl-certificates-email-validation/) again, as for every certificate request. If you don't validate the new certificate, the renewal will not be issued.
 > If you don't complete the renewal process, or if you don't replace the old certificate with the new one, the browsers will display a security warning when the old certificate expires.
+
+## Shorter certificate lifetimes starting March 2026 {#shorter-lifetimes}
+
+Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity).
+
+You will need to **purchase a new certificate** before the current one expires to maintain uninterrupted coverage. Each new certificate will require completing [domain validation](/articles/ssl-certificates-email-validation/) again.

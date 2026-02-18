@@ -2,7 +2,7 @@
 title: .CA Domains
 excerpt: This article explains the requirements and special procedures for .ca domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .CA Domain Names

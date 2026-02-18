@@ -1,8 +1,9 @@
 ---
 title: Premium Domains
 excerpt: In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
+meta: Learn about premium domains, how they differ from standard domains, and what to expect with premium domain pricing and renewals.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Premium Domains
@@ -17,6 +18,8 @@ categories:
 ## What is a Premium Domain?
 
 A premium domain is priced differently by a registrar, and is generally found in the new gTLDs space. They're typically more expensive than a normal domain, with prices going into the thousands of dollars in some cases. An example of a gTLD is `.love` or `.ninja`.
+
+Premium domains are not a different type of domain technically. They function identically to standard domains in terms of DNS resolution, email delivery, and all other technical aspects. The only difference is the pricing structure set by the registry. Registries designate certain domains as premium based on perceived value, which allows them to charge higher registration and renewal fees for these domains.
 
 ## What makes a Premium Domain valuable
 
@@ -33,5 +36,7 @@ When going through our domain registration process, if you try to register a dom
 ## What about renewals?
 
 Renewing a premium domain can vary in in cost. It could be the same as a typical renewal or as much as a new registration. The minimum pricing for this is determined by the registry.
+
+Premium domain renewal pricing is set entirely by the registry, not by DNSimple. Some registries maintain consistent premium pricing for renewals, while others may adjust prices based on market conditions or domain popularity. Unlike standard domains where renewal pricing is typically predictable, premium domain renewal costs can change between renewal periods. This means the renewal price you pay one year may differ from the price you pay the following year, depending on the registry's pricing policy.
 
 If you have any other questions about premium domains [you can contact us](https://dnsimple.com/contact).
