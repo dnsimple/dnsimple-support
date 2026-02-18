@@ -153,3 +153,7 @@ In this case, [you cannot use our redirector service](/articles/redirector/) bec
 1.  In your application, intercept the incoming request. If the request comes from HTTP, redirect the request to the same domain replacing HTTP with HTTPS. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 </div>
 
+## Have more questions?
+
+If you have any questions about redirecting www to non-www at Heroku or HTTPS redirects, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+

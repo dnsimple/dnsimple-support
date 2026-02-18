@@ -52,3 +52,7 @@ For .doctor, registrants who claim to be licensed medical practitioners must be 
 ## Compliance and consequences
 
 Failure to comply with regulated or highly-regulated TLD requirements can result in domain suspension or cancellation by the registry. Registries may audit registrations to verify compliance, and they can revoke domains if registrants cannot demonstrate that they meet the required standards. This enforcement ensures that the TLD maintains its intended purpose and protects consumers from misleading or fraudulent use of industry-specific domain names.
+
+## Have more questions?
+
+If you have any questions about regulated or highly-regulated TLDs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

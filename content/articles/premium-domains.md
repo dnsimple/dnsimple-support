@@ -39,4 +39,6 @@ Renewing a premium domain can vary in in cost. It could be the same as a typical
 
 Premium domain renewal pricing is set entirely by the registry, not by DNSimple. Some registries maintain consistent premium pricing for renewals, while others may adjust prices based on market conditions or domain popularity. Unlike standard domains where renewal pricing is typically predictable, premium domain renewal costs can change between renewal periods. This means the renewal price you pay one year may differ from the price you pay the following year, depending on the registry's pricing policy.
 
-If you have any other questions about premium domains [you can contact us](https://dnsimple.com/contact).
+## Have more questions?
+
+If you have any other questions about premium domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

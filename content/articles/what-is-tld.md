@@ -28,3 +28,7 @@ TLDs are generally grouped into 3 different categories:
  - newGTLD (New Generic Top-Level Domains): this category includes [all the new domain names](https://newgtlds.icann.org/) that have been created after ICANN/IANA decided to open the application of new TLDs to the market.
 
    This category contains hundreds of domain names. Just to name a few: [`.SHOP`](https://dnsimple.com/tlds/shop-domains), [`.EMAIL`](https://dnsimple.com/tlds/email-domains), [`.XYZ`](https://dnsimple.com/tlds/xyz-domains), etc.
+
+## Have more questions?
+
+If you have any questions about TLDs or domain registration, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

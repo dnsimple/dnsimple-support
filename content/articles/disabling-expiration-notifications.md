@@ -12,3 +12,7 @@ If you've disabled auto-renewal on the domain you want to let expire, simply tog
 ![Disable Expiration Notifications Link](/files/disable-expiration-notifications.png)
 
 Be careful with this feature. You won't get any notifications of expiration of domains for which you disable these notifications.
+
+## Have more questions?
+
+If you have any questions about disabling expiration notifications, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

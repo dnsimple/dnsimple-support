@@ -7,6 +7,13 @@ categories:
 
 # Domain Transfer Pricing
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Exactly like domain registration, domain transfer price varies depending on the TLD you want to transfer. For the full list visit the the [DNSimple domain pricing](https://dnsimple.com/tlds) page.
 
 We only support domain transfer for the TLDs included in that list. Please note that if you see `N/A` in the transfer column for a TLD it means we currently don't support inbound transfers for that specific TLD, although we may support new registrations.
@@ -24,4 +31,8 @@ Let's say you want to transfer a domain already paid through a number of years. 
 When you transfer a domain name it is extended from the current expiration date so you do not lose time from your registration.
 
 The one exception to this rule is when a domain reaches an expiration date that is 10 years away. In this case the domain will not be extended.
+
+## Have more questions?
+
+If you have any questions about domain transfer pricing, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

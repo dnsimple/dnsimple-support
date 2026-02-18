@@ -8,6 +8,15 @@ categories:
 - API
 ---
 
+# Can I use DNSimple for drop catching?
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 ## What is drop catching?
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Domain_drop_catching):
@@ -25,3 +34,7 @@ Our upstream domain registration providers limit the number of checks we're allo
 ## What happens if I try to drop catch?
 
 If we observe drop catching, we will disable your account to avoid impacting all DNSimple customers.
+
+## Have more questions?
+
+If you have any questions about drop catching or DNSimple's policy, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

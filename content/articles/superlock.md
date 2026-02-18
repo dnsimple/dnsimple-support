@@ -51,3 +51,7 @@ If you want to transfer a domain that has SuperLock enabled, you'll need to disa
 The quorum requirement ensures that disabling SuperLock is a deliberate, collaborative decision rather than an action taken by a single user. This prevents accidental or malicious disabling of the protection. Both users must actively vote to disable SuperLock, which provides accountability and reduces the risk of unauthorized domain transfers.
 
 ![disabling the SuperLock in the settings page](/files/superlock-voted.png)
+
+## Have more questions?
+
+If you have any questions about DNSimple SuperLock or need assistance protecting your domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

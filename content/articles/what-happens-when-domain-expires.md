@@ -75,3 +75,7 @@ Country code top-level domains (ccTLDs) are managed by their respective country 
 > ccTLDs have special renewal rules and will be renewed before their expiry if our auto renew feature is being used.
 
 Moreover, some TLDs have no additional periods after the expiration and they are immediately deleted.
+
+## Have more questions?
+
+If you have any questions about domain expiration, grace periods, or recovery, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

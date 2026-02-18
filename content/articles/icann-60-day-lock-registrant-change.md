@@ -36,3 +36,7 @@ The lock applies specifically to transfers between registrars. It does not preve
 We don't support the ability to opt-out of the 60-day lock. We highly recommend that if you plan to transfer your domain, you wait to update the contact information until after it's transferred.
 
 The 60-day lock cannot be bypassed or shortened once it is in effect. If you need to transfer a domain urgently, you must complete the transfer before making any registrant changes. Changing the registrant contact information after a transfer does not trigger a new lock period, so you can safely update contact details after the transfer is complete.
+
+## Have more questions?
+
+If you have any questions about the 60-day lock after a change of registrant, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
