@@ -1,6 +1,7 @@
 ---
 title: Domain Access Control
 excerpt: Control what each account member can access on a per-domain or per-zone basis.
+meta: Learn about Domain Access Control, how granular access permissions work, and why they matter for team security and domain management.
 categories:
 - Account
 - Domains and Transfers
@@ -23,6 +24,12 @@ The Domain Access Control feature lets you set the level of access for each team
 
 Combined with other DNSimple security features, like [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), your domains are as secure as possible in your DNSimple account.
 
+## Why granular access control matters
+
+In organizations with multiple team members, not everyone needs full access to all domains. Some team members may only need to manage DNS records for specific domains, while others may need broader access. Domain Access Control implements the principle of least privilege, granting users only the access they need to perform their work. This reduces the risk of accidental or malicious changes to critical domains and provides better security isolation.
+
+Without granular access control, any user with account access can modify any domain, which increases the risk of unauthorized changes or mistakes. With Domain Access Control, you can limit access to sensitive domains while still allowing team members to work on domains they need to manage.
+
 ## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
@@ -33,7 +40,7 @@ Combined with other DNSimple security features, like [multi-factor authenticatio
 
 To set a team member's role for multiple domains at once:
 
-1. Go to your Account page.
+1. Select the relevant account from the account switcher at the top-right corner of the screen, then click the gear icon ⚙️ next to the account name to open **account settings**.
 1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
 1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
@@ -51,28 +58,18 @@ You can specify **Limited Access** when inviting a team member. The new team mem
 
 ![screenshot: invite a user with limited access](/files/invite-with-limited-access.png)
 
-If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**.
+If you invited someone with full access and want to change it, team members can be granted access to specific domains by setting their permission to **Limited Access**. When limited access is configured, you can assign specific roles for each domain, choosing between [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager) permissions.
 
-1. Click **Manage access** for the specific team member.
-1. Select **Limited Access**.
-1. You'll see a list of each domain in your account, along with dropdown menus with options for [Zone Operator](#zone-operator) or [Domain Manager](#domain-manager).
+![screenshot: set team member as limited access](/files/limited-access-team-member.png)
 
-    ![screenshot: set team member as limited access](/files/limited-access-team-member.png)
-
-4. You can search for specific domains, or enter a role to view domains for which that team member has been assigned a role.
-
-    ![screenshot: assign roles per domain](/files/roles-per-domain.png)
+![screenshot: assign roles per domain](/files/roles-per-domain.png)
 
 ## Setting access for a domain
 
 > [!NOTE]
 > A team member must have limited access before you can fine-tune their access at the domain level.
 
-You can set up the Domain Access Control feature for any individual domain.
-
-1. Locate and click the domain you want to set access for in your Domain List.
-1. Choose the **Access control** tab at the bottom left.
-1. You'll see a list of all team members along with their current role. Use the drop down menu to update the type of access they have to each specific domain.
+Domain Access Control can be configured for individual domains, allowing you to set specific permissions for each team member on a per-domain basis. This provides granular control over who can access and modify each domain in your account.
 
 ![screenshot: roles per domain](/files/access-per-domain.png)
 
@@ -105,6 +102,8 @@ If a team member accesses a domain in an account via their user token, they'll h
 
 > [!NOTE]
 > [Learn the difference](/articles/api-access-token/#account-tokens-vs-user-tokens) between account tokens and user tokens.
+
+API access respects the same access control rules as the web interface. This means that programmatic access through the API is subject to the same restrictions as manual operations through the dashboard. User tokens are tied to individual user accounts and inherit that user's access permissions, while account tokens are designed for system-level operations and bypass user-level restrictions. This distinction is important when designing automated systems or integrations that need to access domains with limited permissions.
 
 
 ## Have more questions?
