@@ -38,7 +38,11 @@ Without granular access control, any user with account access can modify any dom
 
 ## Setting access for a team member
 
-Access for team members can be configured at the account level, allowing you to set roles for multiple domains at once. Team members can be assigned either [**Full Access**](#full-access) or [**Limited Access**](#limited-access) across all domains in the account.
+To set a team member's role for multiple domains at once:
+
+1. Select the relevant account from the account switcher at the top-right corner of the screen, then click the gear icon ⚙️ next to the account name to open **account settings**.
+1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
+1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
 ![Manage Access](/files/manage-access.png)
 
