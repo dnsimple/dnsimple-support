@@ -29,7 +29,7 @@ DNS (Domain Name System) translates domain names into IP addresses and provides 
 
 No. URL modification is not a DNS functionality. We have chosen not to develop a helper for this.
 
-If you don't mind displaying the destination URL, you can set up a [`URL` Record](/articles/cname-record/) to point to the destination.
+If you don't mind displaying the destination URL, you can set up a [`URL` record](/articles/url-record/) to point to the destination.
 
 If you control the destination website, you can set up an `ALIAS` or `CNAME` record to point to the destination, and configure the destination systems to redirect to the correct page.
 
