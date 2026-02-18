@@ -3,7 +3,7 @@ title: Troubleshooting URL Redirects
 excerpt: How to check and debug URL redirect issues.
 meta: Learn how to effectively troubleshoot and resolve URL redirect issues with our comprehensive guide, ensuring your website redirects work seamlessly for users.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Troubleshooting URL Redirects

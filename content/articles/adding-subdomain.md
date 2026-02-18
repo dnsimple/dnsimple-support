@@ -3,7 +3,7 @@ title: Adding a Subdomain
 excerpt: How to add a subdomain to a DNSimple account.
 meta: Learn how to easily add a subdomain to your DNSimple account with our step-by-step guide, ensuring seamless management of your domain and online presence.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Adding a Subdomain

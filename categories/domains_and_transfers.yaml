@@ -1,5 +1,12 @@
 ---
 Explanation:
+  Core Domain Concepts:
+    - "What Is a Domain?"
+    - "What is WHOIS?"
+    - "What is Domain Transfer?"
+    - "What are Domain Contacts?"
+    - "What is Domain Lock?"
+    - "What is Domain Delegation?"
   Domain Lifecycle:
     - "What Happens When a Domain Expires?"
     - "Domain Auto-Renewal"
@@ -17,6 +24,7 @@ Explanation:
     - "Expiring Product Email Notifications"
   Policies & Requirements:
     - "ICANN 60-Day Lock After Change of Registrant"
+    - "Auto-Renewal Required Domains"
 
 How to:
   Registration and renewal:
@@ -68,3 +76,11 @@ How to:
     - "Managing DS Records When Changing DNS"
     - "Whois Privacy may cause transfer approval emails to not be delivered"
     - "How can I issue a new transfer order when a transfer is denied?"
+
+Reference:
+  - "Domain Transfer Reference"
+  - "Domain Expiration Reference"
+  - "Domain Registration Reference"
+  - "Domain Transfer Code Reference"
+  - "Domain Contact Types Reference"
+  - "Domains Glossary"
