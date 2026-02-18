@@ -58,3 +58,7 @@ These known services are not compatible:
 * Netlify Connector
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
 
+## Have more questions?
+
+If you have any questions about Handshake (HNS) domains and DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+

@@ -42,3 +42,7 @@ DNS records serve different purposes and cannot be combined to achieve masking. 
 If you want to mask the URL and present only your domain, you need to set up your own web-server to intercept and handle this. We recommend using a third-party app that requires no configuration other than DNS to work: [brighella](https://github.com/weppos/brighella)
 
 **This is not a DNSimple product or something we support**, but we know it works well with our service.
+
+## Have more questions?
+
+If you have any questions about domain masking or URL masking, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

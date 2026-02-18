@@ -8,6 +8,13 @@ categories:
 
 # Whois Privacy and Domain Transfers
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 When you [transfer a domain name from another registrar into DNSimple](/articles/domain-transfer/), we are required by ICANN to send a transfer verification email to the current registrant email address. If you start a domain transfer while having whois privacy enabled at your current domain registrar, there is a high probability that the transfer verification email will not be delivered.
 
 There are several reasons a whois privacy provider might not deliver domain transfer emails:
@@ -25,3 +32,7 @@ To improve the deliverability chance for your domain transfer verification email
 ## Won't this expose my contact details in the public whois?
 
 Unfortunately, yes, your contact information will be public after you disable whois privacy on your domain. You may be able to re-enable whois privacy after you receive the transfer verification email, which will limit the amount of time your contact information is exposed.
+
+## Have more questions?
+
+If you have any questions about WHOIS privacy and domain transfers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

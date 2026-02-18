@@ -7,6 +7,8 @@ categories:
 
 # Organizing and Labeling Domains
 
+### Table of Contents {#toc}
+
 * TOC
 {:toc}
 
@@ -39,3 +41,7 @@ To filter your domain names list based on labels, select any label from the filt
 Editing labels is as simple as choosing the domain names that you want to correct the labels for. See [how to add labels](#adding-labels). On the label pop-up, you can edit the label name.
 
 To remove labels, just clear out the label input leaving it blank.
+
+## Have more questions?
+
+If you have any questions about organizing and labeling domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

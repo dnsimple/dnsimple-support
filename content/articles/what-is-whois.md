@@ -8,6 +8,13 @@ categories:
 
 # What Is WHOIS?
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 WHOIS (pronounced "who is") is a protocol and database system that provides public access to information about domain name registrations. When you register a domain name, certain information about the registration is stored in a WHOIS database and made publicly accessible to anyone who queries it.
 
 ## What is WHOIS used for?

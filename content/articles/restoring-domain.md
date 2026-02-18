@@ -32,4 +32,6 @@ Upon completion, your domain's registration will be automatically extended by th
 > Your card will be charged once the restoration completes.
 > If the restoration fails, funds will be released.
 
-If you have any questions about the domain restoration process, [get in touch](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions?
+
+If you have any questions about the domain restoration process, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

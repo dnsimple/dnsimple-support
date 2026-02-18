@@ -10,7 +10,7 @@ categories:
 
 # Managing Vanity Name Servers
 
-### Table of Contents
+### Table of Contents {#toc}
 
 * TOC
 {:toc}

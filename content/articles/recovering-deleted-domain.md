@@ -35,3 +35,7 @@ To recover a domain that's registered with an external registrar, add the domain
 1.  Follow the steps to [add a domain](/articles/adding-domain/) to your account, choosing _Add DNS zone_.
 
 </div>
+
+## Have more questions?
+
+If you have any questions about recovering a deleted domain, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

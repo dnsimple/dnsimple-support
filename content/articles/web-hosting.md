@@ -9,6 +9,13 @@ categories:
 
 # Web Hosting Support
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 ## Does DNSimple provide web hosting services?
 
 No, we don't. DNSimple focuses on simplifying your domain and DNS management. We offer a variety of features that let you set up and connect your domains to popular services that already exist, rather than trying to create our own solution. With DNSimple, you can have the best of both worlds, instead of mediocre products for each one.

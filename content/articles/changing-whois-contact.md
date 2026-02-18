@@ -41,3 +41,7 @@ Upon the successful update of the domain contact, we will automatically update t
 > Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. The following is a list of the most common registrar-specific policies.
 
 - [.CH domains](/articles/domains-ch/)
+
+## Have more questions?
+
+If you have any questions about changing WHOIS information, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
