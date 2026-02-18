@@ -1,6 +1,6 @@
 ---
 Explanation:
-  "Core concepts":
+  "Core Domain Concepts":
     - "What Is a Domain?"
     - "What Is WHOIS?"
     - "What is a TLD?"
@@ -8,49 +8,51 @@ Explanation:
     - "What Are Domain Contacts?"
     - "What Is Domain Lock?"
     - "What Is Domain Delegation?"
-  "Domain lifecycle and expiration":
+  "Domain Lifecycle":
     - "What Happens When a Domain Expires?"
     - "Domain Auto-Renewal"
-    - "Auto-Renewal Required Domains"
-    - "Expiring Domain Email Notifications"
-    - "Expiring Product Email Notifications"
-  "Domain features and services":
+    - "Domain Validation Requirements"
+  "Domain Features & Services":
     - "Premium Domains"
     - "Integrated Domain Providers at DNSimple"
     - "Integrated Domain Provider - GoDaddy"
     - "DNSimple SuperLock"
     - "Domain Masking"
-    - "Domain Access Control"
     - "Activity Tracking"
+    - "Domain Access Control"
     - "What Are Vanity Name Servers?"
     - "Web Hosting Support"
     - "DNSimple and Handshake (HNS)"
     - "Can I use DNSimple for drop catching?"
-  "Policies and requirements":
-    - "Domain Validation Requirements"
+  "Notifications":
+    - "Expiring Domain Email Notifications"
+    - "Expiring Product Email Notifications"
+  "Policies & Requirements":
     - "ICANN 60-Day Lock After Change of Registrant"
+    - "Auto-Renewal Required Domains"
   "TLDs":
     - "Regulated Top-Level Domains"
 
 "How to":
-  "Registration and setup":
-    - "Registering a Domain"
+  "Domain Registration & Setup":
     - "Adding a Domain"
-  "Renewal and expiration":
+    - "Registering a Domain"
+  "Domain Renewal & Expiration":
     - "Renewing a Domain"
     - "Enabling and Disabling Domain Auto-Renewal"
     - "Restoring a Domain"
     - "Disabling Expiration Notifications"
-  "Deletion and recovery":
+  "Domain Deletion":
     - "Deleting a Domain"
     - "Recovering a Deleted Domain"
-  "Transfers":
+  "Domain Transfers":
     - "Transfer a Domain to DNSimple"
     - "Transferring a domain away from DNSimple"
     - "Transferring a Domain to Another DNSimple Account"
     - "Transfer an Integrated Provider Domain to DNSimple"
     - "Preparing a Domain Transfer to Avoid Downtime"
-  "Domain management":
+    - "Domain Transfer Pricing"
+  "Domain Management":
     - "Organizing and Labeling Domains"
     - "Exporting Domain Names to a .CSV File"
     - "Verifying Domain Resolution"
@@ -64,10 +66,11 @@ Explanation:
     - "DNSimple Redirector"
     - "Troubleshooting URL Redirects"
     - "Redirecting www to Non-www Domain at Heroku"
-  "Troubleshooting":
+  "Transfer troubleshooting":
     - "Managing DS Records When Changing DNS"
     - "Whois Privacy may cause transfer approval emails to not be delivered"
     - "How can I issue a new transfer order when a transfer is denied?"
+  "Troubleshooting":
     - "Troubleshooting Domain Transfer Issues"
     - "Troubleshooting Domain Validation Issues"
     - "Troubleshooting Domain Expiration Issues"
@@ -77,6 +80,5 @@ Reference:
   - "Domain Expiration Reference"
   - "Domain Registration Reference"
   - "Domain Transfer Code Reference"
-  - "Domain Transfer Pricing"
   - "Domain Transfer Reference"
   - "Domains Glossary"

@@ -11,7 +11,7 @@ describe "Sub categories" do
 
     result = SubCategories.new.show("Domains and Transfers", [fake_article])
 
-    assert_equal result["Explanation"]["Domain lifecycle and expiration"][0], fake_article
+    assert_equal result["Explanation"]["Domain Lifecycle"][0], fake_article
   end
 
   it "the article is not categorized, it goes into the 'other' section" do
