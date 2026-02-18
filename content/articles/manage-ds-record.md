@@ -23,9 +23,9 @@ DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure
 
 1. From your **Domain Names** list, click the domain name to access its management page.
 
-1. Click the **DNSSEC** tab on the left.
+1. Click the **Registration** tab on the left.
 
-1. Click **Manage** in the **DS Records** card.
+1. Click **Manage** in the **DS Records** card, at the bottom of the page.
 
 1. On the **DS Records** page, click **Add DS Record**.
 
@@ -76,9 +76,9 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 
 1. From your **Domain Names** list, click the domain name to access its management page.
 
-1. Click the **DNSSEC** tab on the left.
+1. Click the **Registration** tab on the left.
 
-1. Click **Manage** in the **DS Records** card.
+1. Click **Manage** in the **DS Records** card, at the bottom of the page.
 
 1. On the **DS records** page, search for the record, and click the **trash** icon to delete it.
 
