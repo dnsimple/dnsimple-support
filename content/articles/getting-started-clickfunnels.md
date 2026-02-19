@@ -26,7 +26,7 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. Choose the plan that fits your needs.
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
 
-    > [!NOTE]
+> [!NOTE]
 > You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
 </div>
 
@@ -76,10 +76,10 @@ Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your tra
 1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
 1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
 
-    > [!NOTE]
+> [!NOTE]
 > After the domain is pushed into your DNSimple account, you must also change ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
 
-    > [!WARNING]
+> [!WARNING]
 > You'll receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you're moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. If you don't see an email, make sure to check your spam folder.
 >     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
 >     After you verify, you'll receive a confirmation email that the verification was successful. You don't need to respond to this email.
