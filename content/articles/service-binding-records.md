@@ -15,6 +15,10 @@ categories:
 
 ---
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/7tExGVSO1eo?si=UI7xX_T4Tok-ISJL" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## What is a service binding?
 
 A **service binding** is the association between a domain name and the configuration information needed to access a network service at that domain. It provides clients with the necessary details to establish a connection to a service, including where the service is available, which protocols it supports, and what connection parameters to use.
