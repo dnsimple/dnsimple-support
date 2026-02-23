@@ -14,6 +14,11 @@ categories:
 {:toc}
 
 ---
+
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/B_8Cv6iyruI?si=LVmGovOf26KwoAkX" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## What is a TLSA record?
 
 A **Transport Layer Security Authentication (TLSA) record** (record type 52) is a type of DNS record that provides a mechanism for associating a TLS server certificate or public key with the domain name where the record is found. TLSA records are part of the **DNS-Based Authentication of Named Entities (DANE)** protocol, which enables domain owners to specify which certificates should be trusted for their domain's TLS connections.
