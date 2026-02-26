@@ -16,7 +16,7 @@ categories:
 ---
 
 > [!NOTE]
-> The Domain Research API is currently in **private beta**. If you are interested in using or planning to use this feature, please reach out to your account manager.
+> The Domain Research API is currently in **private beta**. If you are interested in using or planning to use this feature, please reach out to your Key Account Manager.
 
 The Domain Research API lets you research a domain name for availability and registration status before you attempt to register or transfer it. It is available to Enterprise customers. Full details are in the [Domain Research API documentation](https://developer.dnsimple.com/v2/domains/research/) on the DNSimple Developer site.
 
