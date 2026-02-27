@@ -33,9 +33,9 @@ You'll need access to the account or domain to make changes. Make sure the domai
 **Option 2: From the domain page**
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right of the screen (next to the star icon). This takes you directly to the Record Editor.
+1. On the domain page, click **DNS records icon** in the top-right corner of the screen (the small connected-nodes network icon next to the star icon). This opens the DNS Record Editor directly..
 
-![record editor DNS badge](/files/dns-badge.png)
+![record editor DNS badge](/files/manage-dns-record-icon.png)
 
 ## Adding a record
 1. In the Record Editor, click the **Add a record** button. 
