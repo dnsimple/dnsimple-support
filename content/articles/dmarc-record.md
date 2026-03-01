@@ -59,7 +59,7 @@ These reports provide invaluable insights into:
 A DMARC record is published as a [TXT record](/articles/txt-record/) at a specific subdomain, typically `_dmarc.yourdomain.com`. The content of this TXT record contains all the DMARC policy tags and reporting addresses.
 
 ## Setting up, verifying, and monitoring DMARC
-For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, please refer to our dedicated How-To Guide: Setting Up DMARC (LINK NEW ARTICLE).
+For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, please refer to our dedicated How-To Guide: [Setting Up DMARC](/articles/set-up-dmarc/).
 
 To verify that your DMARC record is correctly published and configured, consult our How-To Guide: [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
 
