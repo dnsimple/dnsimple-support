@@ -7,7 +7,17 @@ categories:
 
 # Delegating a Domain registered with another Registrar to DNSimple
 
-Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+This article explains how to delegate your domain to DNSimple's name servers when your domain is registered with another registrar. Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+
+<note>
+If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). To delegate name servers to another provider, you'll update your domain's name server delegation at your registrar.
+</note>
+
+## Delegating to another provider
+
+If you need to delegate your domain to another provider (not DNSimple) or change your name servers to point away from DNSimple, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/). That article covers how to delegate name servers to another provider when your domain is registered with DNSimple.
+
+This article focuses on delegating a domain registered with another registrar to DNSimple's name servers. If you need to delegate name servers to another provider instead, follow the instructions in [Setting the Name Servers for a Domain](/articles/setting-name-servers/). When you delegate name servers to another provider, you're telling the DNS system to use that provider's name servers instead of DNSimple's.
 
 <div class="section-steps" markdown="1">
 ##### To change the name servers to DNSimple
