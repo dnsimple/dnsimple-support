@@ -1,6 +1,6 @@
 ---
 title: Pointing a Domain to DNSimple
-excerpt: How to point a domain to DNSimple's name servers.
+excerpt: How to point a domain to DNSimple's name servers or delegate name servers to another provider.
 meta: Learn how to easily point your domain to DNSimple's name servers with our step-by-step guide, ensuring seamless management of your online presence.
 categories:
 - Name Servers
@@ -12,6 +12,10 @@ Pointing a domain name servers to DNSimple is required if you want to use DNSimp
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
+<note>
+If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
+</note>
+
 ## Domain registered with DNSimple
 
 Follow these instructions to [delegate a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
@@ -20,5 +24,8 @@ Follow these instructions to [delegate a domain registered with DNSimple to DNSi
 
 Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
-> [!NOTE] Name server propagation
-> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+<note>
+#### Name server propagation
+
+Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+</note>
