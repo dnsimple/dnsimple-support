@@ -1,6 +1,6 @@
 ---
 title: Pointing a Domain to DNSimple
-excerpt: How to point a domain to DNSimple's name servers.
+excerpt: How to point a domain to DNSimple's name servers or delegate name servers to another provider.
 meta: Learn how to easily point your domain to DNSimple's name servers with our step-by-step guide, ensuring seamless management of your online presence.
 categories:
 - Name Servers
@@ -11,6 +11,10 @@ categories:
 Pointing a domain name servers to DNSimple is required if you want to use DNSimple as your [DNS hosting](https://dnsimple.com) provider. This task is also known as "delegating" a domain.
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+
+<note>
+If you need to delegate name servers to another provider (not DNSimple), see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
+</note>
 
 ## Domain registered with DNSimple
 
