@@ -40,7 +40,7 @@ So if you want a longer validity period, purchase your Sectigo certificate befor
 Under Ballot SC081v3, the CA/Browser Forum adopted the following phased reduction:
 
 | Effective date | Maximum certificate validity |
-|----------------|------------------------------|
+|:--------------:|:----------------------------:|
 | March 15, 2026 | 200 days                     |
 | March 15, 2027 | 100 days                     |
 | March 15, 2029 | 47 days                      |
