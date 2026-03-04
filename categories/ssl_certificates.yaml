@@ -14,8 +14,8 @@ Explanation:
     - "SSL Certificate Types"
     - "Standard vs Let's Encrypt SSL Certificates"
   Certificate Processes:
-    - "How SSL Certificate Renewal Works"
-    - "How Long Does It Take to Issue an SSL Certificate?"
+    - "How does an SSL Certificate Renewal work?"
+    - "How long does it take to issue an SSL certificate?"
   Certificate Providers:
     - "Let's Encrypt and DNSimple"
 
@@ -26,7 +26,7 @@ How-to guides:
     - "Ordering a Let's Encrypt Certificate"
   Renewing Certificates:
     - "Renewing an SSL Certificate"
-    - "Renewing a Standard SSL Certificate"
+    - "Renewing a standard SSL Certificate"
     - "Renewing a Let's Encrypt SSL Certificate"
   Reissuing Certificates:
     - "Re-issuing an SSL Certificate"
