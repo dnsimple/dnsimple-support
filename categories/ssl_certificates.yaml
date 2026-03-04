@@ -19,7 +19,7 @@ Explanation:
   Certificate Providers:
     - "Let's Encrypt and DNSimple"
 
-How-to guides:
+How-to:
   Ordering Certificates:
     - "Ordering a Standard SSL Certificate"
     - "Ordering a Wildcard SSL Certificate"
