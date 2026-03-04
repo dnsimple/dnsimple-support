@@ -6,7 +6,7 @@ categories:
 - SSL Certificates
 ---
 
-# SSL Certificate Validity Changes (2026)
+# SSL Certificate Validity Changes (2026 - 2029)
 
 > [!NOTE]
 > **Certificates purchased before each deadline** keep the **longer validity** in effect at that time. Purchase before **March 15, 2026** for up to one year; before **March 15, 2027** for up to 200 days; before **March 15, 2029** for up to 100 days. Only certificates issued on or after each date are subject to the new, shorter maximum for that phase.
