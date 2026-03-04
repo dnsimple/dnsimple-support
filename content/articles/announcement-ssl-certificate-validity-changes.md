@@ -1,5 +1,5 @@
 ---
-title: SSL Certificate Validity Changes (2026)
+title: SSL Certificate Validity Changes (2026 - 2029)
 excerpt: New CA/Browser Forum rules will shorten maximum SSL certificate validity. Certificates purchased before the changeover date keep their current validity period.
 meta: Learn about the 2026 SSL certificate validity changes. Purchase before March 15, 2026 to receive a certificate with the current extended validity period.
 categories:
