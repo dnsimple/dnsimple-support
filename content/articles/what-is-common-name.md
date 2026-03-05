@@ -64,3 +64,7 @@ The CA/Browser Forum has since mandated that the SAN would also include any valu
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select the appropriate common name for your certificate
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a certificate and specify the common name
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
+
+## Have more questions?
+
+If you have additional questions or need any assistance with common names and how they relate to SANs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -54,3 +54,7 @@ For Let's Encrypt certificates with auto-renewal enabled, DNSimple automatically
 - [Renewing a standard SSL Certificate](/articles/renewing-standard-ssl-certificate/) - Renew a Sectigo certificate
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - Renew a Let's Encrypt certificate
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/) - Learn how to install your renewed certificate
+
+## Have more questions?
+
+If you have additional questions or need any assistance with how SSL certificate renewals work, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

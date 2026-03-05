@@ -43,7 +43,6 @@ Let's Encrypt uses DNS-based validation, which DNSimple handles automatically wh
 If issuance takes longer than expected, common causes include:
 
 - Domain misconfiguration
-- [DNSSEC](/articles/dnssec/) misconfiguration for the domain
 - [CAA records](/articles/caa-record/) preventing issuance
 - Rate limiting (Let's Encrypt has per-domain and per-week limits)
 
@@ -68,3 +67,7 @@ Several factors can influence how long certificate issuance takes:
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
 - [SSL Certificate email-based Domain Validation](/articles/ssl-certificates-email-validation/) - Learn about email validation for Sectigo certificates
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate issuance timeframes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

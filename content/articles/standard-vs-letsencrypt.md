@@ -94,3 +94,7 @@ The following considerations may help you determine which certificate type best 
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Step-by-step guide to ordering a Sectigo certificate
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - How to renew Let's Encrypt certificates
 - [Renewing a standard SSL Certificate](/articles/renewing-standard-ssl-certificate/) - How to renew Sectigo certificates
+
+## Have more questions?
+
+If you have additional questions or need any assistance with choosing between Sectigo and Let's Encrypt, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
