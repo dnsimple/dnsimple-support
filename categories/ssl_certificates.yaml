@@ -41,17 +41,17 @@ How-to:
   Certificate Management:
     - "How do I determine the Certificate Authority that signed my SSL certificate?"
 
-Installation:
-  - "Installing an SSL Certificate"
-  - "SSL Certificates with Apache"
-  - "SSL Certificates with Microsoft Windows IIS"
-  - "SSL Certificates with NGINX"
-  - "SSL Certificates with Heroku"
-  - "SSL Certificates with Microsoft Azure"
-  - "SSL Certificates with Windows"
+  Installation:
+    - "Installing an SSL Certificate"
+    - "SSL Certificates with Apache"
+    - "SSL Certificates with Microsoft Windows IIS"
+    - "SSL Certificates with NGINX"
+    - "SSL Certificates with Heroku"
+    - "SSL Certificates with Microsoft Azure"
+    - "SSL Certificates with Windows"
 
-Troubleshooting:
-  - "Troubleshooting Heroku SSL errors"
+  Troubleshooting:
+    - "Troubleshooting Heroku SSL errors"
 
 Reference:
   Certificate Authorities:
