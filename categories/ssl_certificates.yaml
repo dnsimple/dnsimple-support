@@ -1,49 +1,65 @@
 Getting started:
-- "Getting Started with SSL Certificates"
-- "SSL Certificates Frequently Asked Questions"
-- "What is a Certificate Authority?"
-- "What is the SSL Certificate Common Name?"
-- "What is the CSR?"
-- "What is the SSL Certificate Chain?"
-- "What is a Root Certificate?"
-- "What is the Subject Alternative Name (SAN)?"
-- "How long does it take to issue an SSL certificate?"
-- "How do I determine the Certificate Authority that signed my SSL certificate?"
-- "How does an SSL Certificate Renewal work?"
-- "SSL Certificate Authorities used by DNSimple"
-- "Expiring Product Email Notifications"
+  - "Getting Started with SSL Certificates"
+  - "SSL/TLS Certificates"
 
-Let's Encrypt:
-- "Standard vs Let's Encrypt SSL Certificates"
-- "Let's Encrypt and DNSimple"
-- "Ordering a Let's Encrypt Certificate"
-- "Renewing a Let's Encrypt SSL Certificate"
+Explanation:
+  Certificate Concepts:
+    - "What is a Certificate Authority?"
+    - "What is the SSL Certificate Chain?"
+    - "What is a Root Certificate?"
+    - "What is the Subject Alternative Name (SAN)?"
+    - "What is the CSR?"
+    - "What is the SSL Certificate Common Name?"
+  Certificate Types:
+    - "SSL Certificate Types"
+    - "Sectigo vs Let's Encrypt SSL Certificates"
+  Certificate Processes:
+    - "How does an SSL Certificate Renewal work?"
+    - "How long does it take to issue an SSL certificate?"
+  Certificate Providers:
+    - "Let's Encrypt and DNSimple"
 
-Ordering:
-- "Ordering a Standard SSL Certificate"
-- "Ordering a Wildcard SSL Certificate"
-- "Re-issuing an SSL Certificate"
-- "Renewing an SSL Certificate"
-- "Renewing a standard SSL Certificate"
-- "How can I select a different SSL certificate domain validation email?"
-- "Choosing the SSL Certificate Names"
-- "I got an ECC-signed certificate but want RSA"
+How-to:
+  Ordering Certificates:
+    - "Ordering a Standard SSL Certificate"
+    - "Ordering a Wildcard SSL Certificate"
+    - "Ordering a Let's Encrypt Certificate"
+  Renewing Certificates:
+    - "Renewing an SSL Certificate"
+    - "Renewing a standard SSL Certificate"
+    - "Renewing a Let's Encrypt SSL Certificate"
+  Reissuing Certificates:
+    - "Re-issuing an SSL Certificate"
+  Certificate Configuration:
+    - "Choosing the SSL Certificate Names"
+    - "SSL Certificate email-based Domain Validation"
+    - "How can I select a different SSL certificate domain validation email?"
+    - "I got an ECC-signed certificate but want RSA"
+  Certificate Management:
+    - "How do I determine the Certificate Authority that signed my SSL certificate?"
 
 Installation:
-- "Installing an SSL Certificate"
-- "SSL Certificates with Apache"
-- "SSL Certificates with Microsoft Azure"
-- "SSL Certificates with Heroku"
-- "SSL Certificates with Microsoft Windows IIS"
-- "SSL Certificates with NGINX"
-- "SSL Certificates with Windows"
-- "SSL Certificate email-based Domain Validation"
-- "SSL Certificate Types"
-- "SSL/TLS Certificates"
+  - "Installing an SSL Certificate"
+  - "SSL Certificates with Apache"
+  - "SSL Certificates with Microsoft Windows IIS"
+  - "SSL Certificates with NGINX"
+  - "SSL Certificates with Heroku"
+  - "SSL Certificates with Microsoft Azure"
+  - "SSL Certificates with Windows"
 
-SSL Certificate features:
-- "Do you support Elliptic Curve Cryptography (ECC) SSL certificates?"
-- "Do you support Extended Validation (EV) SSL certificates?"
-- "Do you support multi-year SSL certificates?"
-- "Can I upgrade a single-hostname SSL certificate to a wildcard SSL certificate?"
-- "SHA-2 SSL Certificates"
+Troubleshooting:
+  - "Troubleshooting Heroku SSL errors"
+
+Reference:
+  Certificate Authorities:
+    - "SSL Certificate Authorities used by DNSimple"
+  Certificate Features:
+    - "Do you support Elliptic Curve Cryptography (ECC) SSL certificates?"
+    - "Do you support Extended Validation (EV) SSL certificates?"
+    - "Do you support multi-year SSL certificates?"
+    - "Can I upgrade a single-hostname SSL certificate to a wildcard SSL certificate?"
+    - "SHA-2 SSL Certificates"
+  Frequently Asked Questions:
+    - "SSL Certificates Frequently Asked Questions"
+  Expiring Product Email Notifications:
+    - "Expiring Product Email Notifications"
