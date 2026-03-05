@@ -52,7 +52,7 @@ This applies to all publicly trusted SSL/TLS certificates issued on or after eac
 - **If you want a certificate with a longer validity:** Purchase your Sectigo certificate **before the deadline** that matches the validity you want (March 15, 2026 for up to one year; March 15, 2027 for up to 200 days; March 15, 2029 for up to 100 days). Once issued, it will be valid until its expiration date.
 - **After each deadline:** New certificates will be subject to the shorter maximum for that phase. Plan to purchase a new certificate before it expires to maintain uninterrupted coverage. You will receive [expiration notifications](/articles/product-expiration-notification/) before your certificate expires. Each new certificate requires [domain validation](/articles/ssl-certificates-email-validation/) to be completed again.
 
-For more detail on the validity rules and how they affect renewals, see [Do you support multi-year SSL certificates?](/articles/can-multi-year-ssl-certificates/#shorter-validity) and [SSL Certificates Frequently Asked Questions](/articles/faq-ssl-certificates/).
+For more detail on the validity rules and how they affect renewals, see [Do you support multi-year SSL certificates?](/articles/can-multi-year-ssl-certificates/#shorter-validity) and [SSL Certificates Frequently Asked Questions](/articles/faq-ssl-certificates/). If you use Let's Encrypt certificates, [auto-renewal](/articles/ssl-auto-renewal/) can help you manage more frequent renewals automatically.
 
 ## Have more questions?
 

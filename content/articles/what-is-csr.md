@@ -16,3 +16,5 @@ The CSR contains information that will be included in your certificate, such as 
 > The private key associated with the certificate will be available to download, once generated; from your certificate page.
 > If you want to use a custom private key or have advanced requirements, you can generate a custom CSR to use in the certificate purchase page.
 
+To learn more about the role of private keys and how they relate to the CSR, see [Understanding SSL Private Keys](/articles/ssl-private-keys/).
+
