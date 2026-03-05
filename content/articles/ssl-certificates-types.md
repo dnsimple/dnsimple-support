@@ -117,7 +117,7 @@ All certificates work following the same encryption principle. The validation le
 
 ## Taking action
 
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a single-name or wildcard certificate
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
 

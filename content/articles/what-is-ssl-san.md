@@ -29,7 +29,7 @@ There's a subtle difference though. When using the term 'multi-domain certificat
 
 From a technical standpoint, every certificate issued today is effectively a SAN certificate, as the CA/B forum requires the certification authority to add the content of the common name to the SAN as well. Even if the certificate covers a single name, it will still use the SAN extension and include that single name.
 
-In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often marketed as "special" and priced differently than standard certificates, because you can associate more than one name.
+In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often marketed as "special" and priced differently than single-name certificates, because you can associate more than one name.
 
 ## SAN restrictions
 
@@ -82,7 +82,7 @@ The X.509 specification allows users to define extensions to be attached to a [C
 
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select names for your certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a certificate with SAN support
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a certificate that supports your naming needs
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate that supports your naming needs
 
 ## Have more questions?
 
