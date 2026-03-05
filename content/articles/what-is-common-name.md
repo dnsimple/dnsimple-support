@@ -46,7 +46,7 @@ The common name can only contain up to one entry: either a wildcard or non-wildc
 
 The [Subject Alternative Name extension](/articles/what-is-ssl-san/) (also called Subject Alternate Name or SAN) was introduced to solve this limitation. The SAN allows issuance of multi-name SSL certificates.
 
-The ability to directly specify the content of a certificate SAN depends on the Certificate Authority and the specific product. Most certificate authorities have historically marketed multi-domain SSL certificates as a separate product. They're generally charged at a higher rate than a standard single-name certificate.
+The ability to directly specify the content of a certificate SAN depends on the Certificate Authority and the specific product. Most certificate authorities have historically marketed multi-domain SSL certificates as a separate product. They're generally charged at a higher rate than a single-name certificate.
 
 On the technical side, the SAN extension was introduced to integrate the common name. Since HTTPS was first introduced in 2000 (and defined by the [RFC 2818](https://tools.ietf.org/html/rfc2818)), the use of the commonName field has been considered deprecated, because it's ambiguous and untyped.
 
@@ -62,7 +62,7 @@ The CA/Browser Forum has since mandated that the SAN would also include any valu
 ## Taking action
 
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select the appropriate common name for your certificate
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a certificate and specify the common name
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
 
 ## Have more questions?
