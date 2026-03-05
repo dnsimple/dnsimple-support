@@ -49,7 +49,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. The setup process ends here if you have an alternative MFA method already set up.
 
-    > [!NOTE]
+> [!NOTE]
 > If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
 
     ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
@@ -72,7 +72,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. Enter a nickname to help you identify the security key you're registering.
 
-    > [!NOTE]
+> [!NOTE]
 > ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
 >       If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. **Copy and store the [recovery code](#recovery-code) in a safe place.**
 
@@ -85,7 +85,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 1. Fill in the form with the recovery code, and click **Confirm recovery and register key**. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it.
     ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
 
-    > [!NOTE]
+> [!NOTE]
 > Some security key types, like Touch ID on a Mac, may be tied to a browser. For example, to use Touch ID on both Chrome and Safari browsers, you may need to register a Touch ID security key in Chrome and also in Safari.
 </div>
 
@@ -137,7 +137,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 
 1. Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
 
-    > [!NOTE]
+> [!NOTE]
 > The verification code automatically expires every 30 seconds. If the expiration is five seconds or less, wait for the next verification code to limit the possibility of an authentication failure.
 
 </div>

@@ -2,7 +2,7 @@
 title: .EU Domains
 excerpt: This article explains the requirements and special procedures for .EU domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .EU Domains
@@ -35,4 +35,4 @@ If your residential address isn't based in the EU, you must select and self-decl
 ![screenshot of declaring your country](/files/eu-declare-country.png)
 ## Have more questions?
 
-If you have additional questions or need assistance registering your .EU domain, [contact our support team](https://dnsimple.com/feedback) — we're here to help.
+If you have additional questions or need assistance registering your .EU domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

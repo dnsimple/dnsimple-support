@@ -3,11 +3,18 @@ title: Managing Integrated Domains
 excerpt: We support managing domains at other domain providers.
 meta: Easily manage your integrated domains with DNSimple. Streamline your domain management across various providers such as GoDaddy, Namecheap, and PorkBun.
 categories:
-- Domains
+- Domains and Transfers
 - Integrations
 ---
 
 # Managing Integrated Domains
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 From the Domains page, you can view the refreshed state of your DNSimple domains alongside domains from [Integrated Domain Providers](/articles/integrated-domain-providers/).
 
@@ -47,3 +54,7 @@ DNSSEC information for an integrated domain can be retrieved by clicking **DNSSE
 If DNSSEC is enabled for the domain, you can also view its DS records.
 
 ![Integrated domain DS records](/files/integrated-domain-ds-records.png)
+
+## Have more questions?
+
+If you have any questions about managing integrated domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -2,10 +2,17 @@
 title: Domain Transfer Pricing
 excerpt: Domain transfer price varies depenending on the TLD you want to transfer, and generally it includes 1 year of extension.
 categories:
-- Domain Transfers
+- Domains and Transfers
 ---
 
 # Domain Transfer Pricing
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 Exactly like domain registration, domain transfer price varies depending on the TLD you want to transfer. For the full list visit the the [DNSimple domain pricing](https://dnsimple.com/tlds) page.
 
@@ -24,4 +31,8 @@ Let's say you want to transfer a domain already paid through a number of years. 
 When you transfer a domain name it is extended from the current expiration date so you do not lose time from your registration.
 
 The one exception to this rule is when a domain reaches an expiration date that is 10 years away. In this case the domain will not be extended.
+
+## Have more questions?
+
+If you have any questions about domain transfer pricing, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

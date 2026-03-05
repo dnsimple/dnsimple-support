@@ -3,7 +3,7 @@ title: Restoring a Domain
 excerpt: How to restore a domain with a DNSimple account.
 meta: Easily restore your domain with DNSimple using our step-by-step guide. Get your domain back online quickly with our comprehensive support resources.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Restoring a Domain
@@ -32,4 +32,6 @@ Upon completion, your domain's registration will be automatically extended by th
 > Your card will be charged once the restoration completes.
 > If the restoration fails, funds will be released.
 
-If you have any questions about the domain restoration process, [get in touch](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions?
+
+If you have any questions about the domain restoration process, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

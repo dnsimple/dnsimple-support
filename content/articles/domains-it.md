@@ -2,7 +2,7 @@
 title: .IT Domains
 excerpt: This article explains the requirements and special procedures for .it domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .IT Domain Names
@@ -72,3 +72,7 @@ d) Are aware and agree that the registration and management of a domain name is 
 e) Are aware and agree that in the case of erroneous or false declarations in this request, the Registry shall immediately revoke the domain name, or proceed with other legal actions. In such case the revocation shall not in any way give rise to claims against the Registry;
 f) Release the Registry from any liability resulting from the assignment and use of the domain name by the natural person that has made the request;
 g) Accept the Italian jurisdiction and laws of the Italian State.
+
+## Have more questions?
+
+If you have any questions about registering, transferring, or renewing your .IT domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

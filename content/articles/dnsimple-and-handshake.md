@@ -3,7 +3,7 @@ title: DNSimple and Handshake (HNS)
 excerpt: How to use Handshake (HNS) domains with your DNSimple account.
 meta: Learn how to seamlessly integrate Handshake (HNS) domains with your DNSimple account, enhancing your domain management experience with decentralized technology.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # DNSimple and Handshake (HNS)
@@ -57,4 +57,8 @@ These known services are not compatible:
 * Some One-Click Services
 * Netlify Connector
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
+
+## Have more questions?
+
+If you have any questions about Handshake (HNS) domains and DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

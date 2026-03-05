@@ -22,7 +22,7 @@ The instructions in this article assume you're familiar with the [TLSA record fo
 > [!NOTE]
 > TLSA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring TLSA records to secondary name servers.
 
-> [!IMPORTANT]
+> [!WARNING]
 > TLSA records provide security benefits only when used in conjunction with **DNSSEC (DNS Security Extensions)**. Without DNSSEC, an attacker could modify TLSA records to point to their own certificates, negating the security benefits. Before adding TLSA records, ensure that [DNSSEC is enabled](/articles/enabling-dnssec/) for your domain.
 
 ## Adding a TLSA record

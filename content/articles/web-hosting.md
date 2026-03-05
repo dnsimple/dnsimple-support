@@ -4,10 +4,17 @@ meta: We focus primarily on domain management services. We don't provide web hos
 excerpt: We focus primarily on domain management services. We don't provide web hosting.
 categories:
 - DNSimple
-- Domains
+- Domains and Transfers
 ---
 
 # Web Hosting Support
+
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
 
 ## Does DNSimple provide web hosting services?
 

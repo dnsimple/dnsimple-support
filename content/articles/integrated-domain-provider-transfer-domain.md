@@ -3,7 +3,7 @@ title: Transfer an Integrated Provider Domain to DNSimple
 excerpt: How to transfer your integrated provider domain to DNSimple.
 meta: Easily transfer your integrated domain provider to DNSimple with our step-by-step guide, ensuring a smooth transition for your domain management needs.
 categories:
-- Domain Transfers
+- Domains and Transfers
 ---
 
 # Transfer an Integrated Provider Domain to DNSimple
@@ -82,3 +82,7 @@ You can now decide to [point the domain to DNSimple name servers](/articles/dele
 Most transferred domains will be extended the minimum required extension period. For example, `.com` domains will always be extended one year when they are transferred.
 
 The price of this extension is included in the transfer fee.
+
+## Have more questions?
+
+If you have any questions about transferring an integrated provider domain to DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

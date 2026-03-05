@@ -26,7 +26,7 @@ The table below summarizes the key differences between Let's Encrypt and Sectigo
 
 | | Let's Encrypt | Sectigo |
 | --- | --- | --- |
-| Certificate Expiration | 90 days | 1 year |
+| Certificate Expiration | 90 days | 200 days (as of March 2026) |
 | Single names | Supported | Supported |
 | Custom names | Supported (on certain plans) | Supported |
 | Wildcard names | Supported (on certain plans) | Supported |
