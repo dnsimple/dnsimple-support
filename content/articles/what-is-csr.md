@@ -49,3 +49,8 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
 - [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
 
+- [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
+
+## Have more questions?
+
+If you have additional questions or need any assistance with CSRs and certificate requests, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
