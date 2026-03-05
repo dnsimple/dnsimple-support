@@ -56,4 +56,4 @@ The certificate should be available to download from the "Other" section in seve
 
 ## Downloading the Private Key
 
-The private key of your certificate will be available to download from this section as well as from the main certificate page. Keep in mind that if you have provided your own CSR or if you have deleted the private key from our servers, you will no longer be able to download it and some features of the installation wizard will no longer work either.
+The [private key](/articles/ssl-private-keys/) of your certificate will be available to download from this section as well as from the main certificate page. Keep in mind that if you have provided your own CSR or if you have deleted the private key from our servers, you will no longer be able to download it and some features of the installation wizard will no longer work either.
