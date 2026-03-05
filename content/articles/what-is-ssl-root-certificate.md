@@ -45,3 +45,7 @@ When you install a browser or operating system, it comes pre-configured with a s
 ## Taking action
 
 - [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
+
+## Have more questions?
+
+If you have additional questions or need any assistance with root certificates and browser trust, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

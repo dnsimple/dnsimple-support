@@ -120,3 +120,7 @@ All certificates work following the same encryption principle. The validation le
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a single-name or wildcard certificate
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

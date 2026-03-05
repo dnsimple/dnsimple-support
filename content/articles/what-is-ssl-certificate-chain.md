@@ -88,3 +88,7 @@ Root certificates are embedded in web browsers and operating systems by their ma
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/) - Learn how to install your certificate and intermediate chain
 - [SSL Certificates with Apache](/articles/ssl-certificate-with-apache/) - Apache-specific installation instructions
 - [SSL Certificates with NGINX](/articles/ssl-certificate-with-nginx/) - NGINX-specific installation instructions
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate chains and trust validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

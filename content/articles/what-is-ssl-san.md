@@ -83,3 +83,7 @@ The X.509 specification allows users to define extensions to be attached to a [C
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select names for your certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a certificate with SAN support
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a certificate that supports your naming needs
+
+## Have more questions?
+
+If you have additional questions or need any assistance with SANs and which hostnames a certificate can cover, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

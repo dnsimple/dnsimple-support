@@ -130,3 +130,7 @@ DNSimple doesn't support all Let's Encrypt features. Some limitations exist due 
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - Learn how to renew Let's Encrypt certificates
 - [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/) - General renewal process information
+
+## Have more questions?
+
+If you have additional questions or need any assistance with Let's Encrypt certificates in DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

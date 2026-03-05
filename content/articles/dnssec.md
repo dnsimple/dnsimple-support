@@ -54,3 +54,4 @@ Dive deeper into the specifics of DNSSEC with our comprehensive reference materi
 
 - [DNSSEC Management in DNSimple](/articles/dnssec-management-in-dnsimple/): A detailed look at the DNSSEC management interface within your DNSimple account, including available settings and information.
 - [DNSSEC Glossary](/articles/dnssec-glossary/): Familiarize yourself with common terms and definitions related to DNSSEC.
+- [DNSViz](/articles/dnsviz/): Reference guide to DNSViz, a tool for visualizing and troubleshooting DNSSEC authentication chains.

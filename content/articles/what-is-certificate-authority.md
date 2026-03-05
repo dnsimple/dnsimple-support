@@ -52,3 +52,7 @@ The validation process ensures that certificates are only issued to entities tha
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to order a certificate from a trusted CA
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
 - [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate authorities or who issued your certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
