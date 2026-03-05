@@ -47,7 +47,7 @@ You can also edit your account name, country of operation, and change your answe
 
    ![Account information form](/files/account-information-form.png)
 
-   > [!NOTE]
+> [!NOTE]
 > DNSimple requests this information, in compliance with applicable laws and regulations, to guarantee the security of your account.
 
 1. Once the information has been updated, click <label>Update account</label> to save the changes. You'll see the changes reflected in the information in the **Account** card under the **General** tab on your Account page.

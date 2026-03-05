@@ -3,7 +3,7 @@ title: Recovering a Deleted Domain
 excerpt: How to recover a domain deleted from your DNSimple account.
 meta: Learn how to easily recover a domain that has been deleted from your DNSimple account with our step-by-step guide and expert tips for a smooth restoration process.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Recovering a Deleted Domain
@@ -35,3 +35,7 @@ To recover a domain that's registered with an external registrar, add the domain
 1.  Follow the steps to [add a domain](/articles/adding-domain/) to your account, choosing _Add DNS zone_.
 
 </div>
+
+## Have more questions?
+
+If you have any questions about recovering a deleted domain, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

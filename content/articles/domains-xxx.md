@@ -2,7 +2,7 @@
 title: .XXX Domains
 excerpt: This article explains the requirements and special procedures for .XXX domain names.
 categories:
-- Domains
+- TLDs
 ---
 
 # .XXX Domain Names
@@ -35,3 +35,7 @@ are eligible to register .XXX domain names that can resolve. To register a domai
 ## Changing your Member ID
 
 Please [get in touch with us](https://dnsimple.com/contact) to change your Member ID for a .XXX domain.
+
+## Have more questions?
+
+If you have any questions about registering, transferring, or renewing your .XXX domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

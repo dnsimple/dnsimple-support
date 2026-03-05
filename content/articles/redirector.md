@@ -2,7 +2,7 @@
 title: DNSimple Redirector
 excerpt: The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 categories:
-- Domains
+- Domains and Transfers
 ---
 
 # Redirector
@@ -101,3 +101,7 @@ The redirector doesn't support redirect targets that include a back-reference (m
 
     *.foo.com to bar.com/$1
     *.foo.com to $1.bar.com
+
+## Have more questions?
+
+If you have any questions about the DNSimple Redirector or need assistance with URL redirects, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

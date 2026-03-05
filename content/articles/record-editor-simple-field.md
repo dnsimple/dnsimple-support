@@ -31,11 +31,11 @@ Check out [How to Add Common DNS Records](/articles/how-to-add-dns-records/) for
 ## The record fields editor: guided input for complex records
 The record fields editor is a specialized form available for certain DNS record types. Instead of a single `Content` field, it breaks down the record's data into separate, specific input fields.
 
-**How it works**: For records like [MX](/articles/mx-record/), [SRV](/articles/srv-record/), or [CAA](/articles/caa-record/), which have multiple distinct parts (e.g., priority, weight, port, specific tags), the Record Fields Editor provides individual fields for each component.
+**How it works**: For records like [MX](/articles/mx-record/), [SRV](/articles/srv-record/), [CAA](/articles/caa-record/), or [SVCB/HTTPS](/articles/service-binding-records/), which have multiple distinct parts (e.g., priority, weight, port, specific tags, service parameters), the Record Fields Editor provides individual fields for each component.
 
 ### When to use the record fields editor
 This editor is particularly useful for:
-- **Complex record types**: It guides you through entering the correct data for records that have multiple, structured parts (e.g., separating priority, weight, port for [SRV records](/articles/add-srv-record/), or specific tags for [CAA records](/articles/manage-caa-record/)).
+- **Complex record types**: It guides you through entering the correct data for records that have multiple, structured parts (e.g., separating priority, weight, port for [SRV records](/articles/add-srv-record/), specific tags for [CAA records](/articles/manage-caa-record/), or priority, target name, and service parameters for [SVCB/HTTPS records](/articles/service-binding-records/).
 - **Enhanced error messages**: By having discrete fields, the editor can provide more specific and helpful validation messages in real-time, reducing errors during configuration. For example, it might warn you if a port number is out of range or if a hostname isn't a valid format for a specific field.
 - **Ensuring correct formatting**: It ensures that each part of the record is entered in the correct format, even if you're not intimately familiar with the RFC specifications.
   

@@ -29,7 +29,7 @@ And so on.
 
 We won't charge fractions of the price. Any volume greater or equal to 1M and less than 2M will cost $0.20.
 
-**Try our [pricing calculator](https://dnsimple.com/pricing#pricing-calculator) to get an estimate of your zone query costs.**
+**Try our [pricing calculator](https://dnsimple.com/) to get an estimate of your zone query costs.**
 
 ## Understanding your query volume
 
@@ -43,7 +43,7 @@ You can find your zones' query volume for the current billing period in the "Bil
 
 ### How can I learn my zone volume if I'm planning to upgrade my plan?
 
-[Contact support](/articles/dnsimple-support/), and we can give you your zones' query volume for the current billing period. You can also use our [pricing calculator](https://dnsimple.com/pricing#pricing-calculator) to get an estimate of your costs.
+[Contact support](/articles/dnsimple-support/), and we can give you your zones' query volume for the current billing period. You can also use our [pricing calculator](https://dnsimple.com/) to get an estimate of your costs.
 
 ### What is a DNS query?
 
