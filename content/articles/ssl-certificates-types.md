@@ -56,7 +56,7 @@ The Organization Validated SSL Certificates display the company information in t
 
 The Extended Validation SSL Certificate (EV certificate) requires an extended validation of the business. It validates domain ownership and organization information, plus the legal existence of the organization. It also validates that the organization is aware of the SSL certificate request and approves it.
 
-The validation requires documentation to certify the company identity plus a set of additional steps and checks.
+The validation requires documentation to certify the company's identity, plus a set of additional steps and checks.
 
 The order can take from a few days to a few weeks, due to the extended validation process.
 
@@ -108,18 +108,18 @@ It's important to remember that the validation level and the number of secured d
 
 All certificates work following the same encryption principle. The validation level determines what information appears in the certificate and how the CA verified your identity, but it doesn't change the cryptographic strength of the certificate. Similarly, protecting multiple hostnames with a single certificate doesn't reduce security — it's simply a matter of how many names are associated with the same certificate.
 
+## Taking action
+
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
+- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
+
 ## Related reading
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs validate entities and issue certificates
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn how multi-domain certificates use SAN
 - [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand how single-name certificates identify hostnames
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and their features
-
-## Taking action
-
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
-- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
 
 ## Have more questions?
 
