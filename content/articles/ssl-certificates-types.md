@@ -106,7 +106,7 @@ You can generally secure a combination of different host names, from the same or
 
 It's important to remember that the validation level and the number of secured domains don't affect the security level offered by an SSL certificate.
 
-All certificates work following the same encryption principle. The validation level determines what information appears in the certificate and how the CA verified your identity, but it doesn't change the cryptographic strength of the certificate. Similarly, protecting multiple hostnames with a single certificate doesn't reduce security—it's simply a matter of how many names are associated with the same certificate.
+All certificates work following the same encryption principle. The validation level determines what information appears in the certificate and how the CA verified your identity, but it doesn't change the cryptographic strength of the certificate. Similarly, protecting multiple hostnames with a single certificate doesn't reduce security — it's simply a matter of how many names are associated with the same certificate.
 
 ## Related reading
 
