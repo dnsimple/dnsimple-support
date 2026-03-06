@@ -32,7 +32,7 @@ This table summarizes the most important differences between Let's Encrypt and S
 
 | | Let's Encrypt | Sectigo |
 | --- | --- | --- |
-| Certificate Expiration | 90 days | One year |
+| Certificate Expiration | 90 days | 200 days |
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
 | Multi-domain (via SAN) | Supported by default | Supported only by specific products |
