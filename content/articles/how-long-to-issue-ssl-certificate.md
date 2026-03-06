@@ -20,40 +20,43 @@ Occasionally, issuance may take longer — up to several days — when issues oc
 
 - Domain misconfiguration
 - [CAA records](/articles/caa-record/) preventing validation and issuance
-- Email approval delays or issues
+- Problems with the approval email process
 
-### CAA records and Sectigo wildcard certificates
+> [!TIP]
+> **Remember to approve the certificate**
+>
+> In many cases, the process is delayed because the certificate request is never approved. After submitting the certificate request, monitor the approval email inbox and make sure to approve the certificate using the message sent by the Certificate Authority. It is also a good idea to check your spam folder in case the message is filtered there.
 
-Sectigo wildcard certificates include both the wildcard name (e.g., `*.example.com`) and the root domain (e.g., `example.com`) in the certificate. This means your CAA records must authorize both `issue` (for the root domain) and `issuewild` (for the wildcard) permissions for Sectigo.
-
-For example, a certificate for `*.example.com` requires:
-```
-example.com.  CAA 0 issue "sectigo.com"
-example.com.  CAA 0 issuewild "sectigo.com"
-```
-
-This requirement also applies to subdomain wildcard certificates.
+> [!NOTE]
+> **Sectigo wildcard certificates and CAA**
+>
+> Customers who purchase a Sectigo wildcard certificate from us need to make sure they have both `issuewild` and `issue` [CAA records](/articles/caa-record/), because the certificate also includes the non-wildcard name.
+>
+> For example, a certificate for `*.example.com` also covers `example.com`. This means the CAA policy must allow Sectigo to issue both the wildcard and non-wildcard names:
+>
+> `example.com. CAA 0 issue "sectigo.com"`
+>
+> `example.com. CAA 0 issuewild "sectigo.com"`
+>
+> These requirements also apply to wildcard certificates for subdomains.
 
 ## Let's Encrypt certificates
 
 For [Let's Encrypt](/articles/ssl-certificates/#letsencrypt) certificates, issuance is generally between 30 minutes and 1 hour. The process is fully automated, which contributes to the faster timeline.
 
-Let's Encrypt uses DNS-based validation, which DNSimple handles automatically when the domain is resolving with DNSimple. The automated nature of this process eliminates manual approval steps and reduces issuance time.
+Let's Encrypt uses DNS-based validation, which DNSimple handles automatically when the domain is delegated to and exclusively resolves with DNSimple. The automated nature of this process eliminates manual approval steps and reduces issuance time.
 
 If issuance takes longer than expected, common causes include:
 
-- Domain misconfiguration
-- [CAA records](/articles/caa-record/) preventing issuance
-- Rate limiting (Let's Encrypt has per-domain and per-week limits)
+- **Domain misconfiguration**: If the domain is not correctly delegated to DNSimple, or is not exclusively resolving with DNSimple, DNSimple cannot complete the DNS validation required by Let's Encrypt.
+- [**CAA records**](/articles/caa-record/) preventing issuance: If the domain's CAA policy does not allow Let's Encrypt to issue a certificate, the request will fail.
+- **Rate limiting**: Let's Encrypt applies rate limits to prevent abuse. If too many certificates are requested for the same domain or set of names within a short period of time, issuance may be temporarily blocked until the limit resets.
 
-## Factors affecting issuance time
+## Taking action
 
-Several factors can influence how long certificate issuance takes:
-
-- **Validation method**: Automated DNS validation (Let's Encrypt) is faster than email-based validation (Sectigo)
-- **Certificate type**: Domain-validated certificates are faster than organization-validated or extended-validation certificates
-- **Domain configuration**: Properly configured domains with correct DNS and CAA records process faster
-- **Response time**: For email-based validation, how quickly you approve the certificate request affects total time
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
+- [SSL Certificate email-based Domain Validation](/articles/ssl-certificates-email-validation/) - Learn about email validation for Sectigo certificates
 
 ## Related reading
 
@@ -61,12 +64,6 @@ Several factors can influence how long certificate issuance takes:
 - [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Learn about the renewal process timeline
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare issuance processes between certificate types
 - [CAA Records](/articles/caa-record/) - Understand how CAA records affect certificate issuance
-
-## Taking action
-
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
-- [SSL Certificate email-based Domain Validation](/articles/ssl-certificates-email-validation/) - Learn about email validation for Sectigo certificates
 
 ## Have more questions?
 
