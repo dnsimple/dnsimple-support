@@ -42,7 +42,9 @@ The table below summarizes the key differences between Let's Encrypt and Sectigo
 
 **Let's Encrypt** certificates expire after 90 days. This shorter validity period is by design, encouraging automated renewal processes. Let's Encrypt certificates can be set to [auto-renew](/articles/letsencrypt/#auto-renewal) through DNSimple, which automatically renews certificates 30 days before expiration.
 
-**Sectigo** certificates are valid for 1 year. This longer validity period means less frequent renewal cycles, but requires manual renewal or monitoring to ensure certificates don't expire.
+**Sectigo** certificate validity depends on when the certificate is issued. Certificates issued before March 15, 2026, may be valid for up to one year. Beginning March 15, 2026, newly issued Sectigo certificates are limited to a maximum of 200 days, with additional reductions scheduled in later phases.
+
+The difference in validity periods will narrow over time as the maximum allowed lifetime for publicly trusted certificates continues to decrease. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
 
 ### Validation methods
 
