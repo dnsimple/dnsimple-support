@@ -16,7 +16,7 @@ For Sectigo [single-name](/articles/ssl-certificates/#standard-singlename) and [
 
 The issuance process begins once the certificate authority receives and validates the email approval. The actual certificate generation and signing happens relatively quickly once validation is confirmed.
 
-Occasionally, issuance may take longer—up to several days—when issues occur during validation or issuance. Common causes of delays include:
+Occasionally, issuance may take longer — up to several days — when issues occur during validation or issuance. Common causes of delays include:
 
 - Domain misconfiguration
 - [CAA records](/articles/caa-record/) preventing validation and issuance
