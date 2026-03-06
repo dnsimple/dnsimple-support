@@ -10,7 +10,7 @@ categories:
 
 The lifecycle of an SSL certificate is different from domain registration. Unlike domains, an issued SSL certificate cannot have its expiration date extended.
 
-This happens because the certificate’s expiration date is included in the cryptographic data that the certificate authority signs when the certificate is issued. If the expiration date were modified, the certificate signature would no longer be valid, and browsers would reject the certificate.
+This happens because the certificate's expiration date is included in the cryptographic data that the certificate authority signs when the certificate is issued. If the expiration date were modified, the certificate signature would no longer be valid, and browsers would reject the certificate.
 
 > [!NOTE]
 > The term *renewal* can be misleading. An SSL certificate cannot be extended. Renewal always results in a new certificate being issued to replace the existing one.
