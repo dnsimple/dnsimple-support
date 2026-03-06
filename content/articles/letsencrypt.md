@@ -88,7 +88,7 @@ Let's Encrypt provides only one type of certificate: domain-validated certificat
 
 ### Certificate features
 
-Let's Encrypt certificates have several distinctive characteristics:
+Let's Encrypt certificates have several distinctive features:
 
 - **Domain-validated only**: Let's Encrypt issues only domain-validated certificates. They don't offer organization-validated or extended-validation certificates.
 - **DNS-based validation**: Let's Encrypt uses DNS-based validation exclusively. They don't support email-based validation like traditional certificate authorities.
@@ -98,7 +98,7 @@ Let's Encrypt certificates have several distinctive characteristics:
 
 ## DNSimple's Let's Encrypt implementation
 
-DNSimple's integration with Let's Encrypt has specific characteristics and limitations:
+DNSimple's integration with Let's Encrypt has specific features and limitations:
 
 ### Supported features
 
