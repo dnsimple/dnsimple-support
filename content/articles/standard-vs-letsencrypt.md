@@ -1,12 +1,12 @@
 ---
-title: Standard vs Let's Encrypt SSL Certificates
-excerpt: This article summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates.
-meta: Discover the key differences between Let's Encrypt and Standard SSL certificates in DNSimple. Learn which option best suits your website's security needs.
+title: Sectigo vs Let's Encrypt SSL Certificates
+excerpt: Explains the key differences between Sectigo and Let's Encrypt SSL certificates to help you choose the right certificate type.
+meta: Compare Sectigo and Let's Encrypt SSL certificates. Understand the differences in expiration, validation, cost, and features to select the best certificate for your needs.
 categories:
 - SSL Certificates
 ---
 
-# Standard vs Let's Encrypt SSL Certificates
+# Sectigo vs Let's Encrypt SSL Certificates
 
 ### Table of Contents {#toc}
 
@@ -15,17 +15,16 @@ categories:
 
 ---
 
-> [!NOTE]
-> In this article, we'll use the term _standard_ as described in our [TLS/SSL certificate page](/articles/ssl-certificates/#standard-certificate).
+Sectigo and Let's Encrypt are two different [certificate authorities](/articles/what-is-certificate-authority/) that issue SSL certificates through DNSimple. Understanding their differences helps you choose the certificate type that best fits your needs.
 
-## Comparison Let's Encrypt vs Standard SSL certificates
+## Comparison: Let's Encrypt vs Sectigo SSL certificates
 
-The table below summarizes the most important DNSimple offering differences between Let's Encrypt and Standard SSL certificates. These differences may help you to decide which certificate you need.
+The table below summarizes the key differences between Let's Encrypt and Sectigo SSL certificates available through DNSimple. These differences reflect the current DNSimple offering and may help you decide which certificate type you need.
 
 > [!NOTE]
 > The table only reflects the status of the current DNSimple offering. Some features may be available at the Certificate Authority, but are currently not supported by DNSimple.
 
-| | Let's Encrypt | Standard |
+| | Let's Encrypt | Sectigo |
 | --- | --- | --- |
 | Certificate Expiration | 90 days | 200 days (as of March 2026) |
 | Single names | Supported | Supported |
@@ -37,21 +36,67 @@ The table below summarizes the most important DNSimple offering differences betw
 | Cost | Free | $20-$100 |
 | Custom CSR | Not Supported | Supported |
 
-## What is the right certificate for me? {#whichone}
+## Understanding the differences
 
-The following list of questions may help you to determine what is the best certificate for you. The answer is based on the possible limitations of a specific certificate to fulfill the requirement. This also means that if you combine two or more questions (requirements), the results may conflict with each other.
+### Certificate expiration
 
-| Requirement | Answer |
+**Let's Encrypt** certificates expire after 90 days. This shorter validity period is by design, encouraging automated renewal processes. Let's Encrypt certificates can be set to [auto-renew](/articles/letsencrypt/#auto-renewal) through DNSimple, which automatically renews certificates 30 days before expiration.
+
+**Sectigo** certificate validity depends on when the certificate is issued. Certificates issued before March 15, 2026, may be valid for up to one year. Beginning March 15, 2026, newly issued Sectigo certificates are limited to a maximum of 200 days, with additional reductions scheduled in later phases.
+
+The difference in validity periods will narrow over time as the maximum allowed lifetime for publicly trusted certificates continues to decrease. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
+
+### Validation methods
+
+**Let's Encrypt** uses DNS-based validation exclusively. The domain must be resolving with DNSimple for Let's Encrypt validation to work, as DNSimple automatically creates the required DNS records for validation.
+
+**Sectigo** uses email-based validation. The certificate authority sends a validation email to an administrative email address for the domain. You must approve the certificate request by clicking a link in the email.
+
+### Custom Certificate Signing Requests (CSR)
+
+**Let's Encrypt** does not support custom CSRs. DNSimple automatically generates the [CSR](/articles/what-is-csr/) and private key for Let's Encrypt certificates.
+
+**Sectigo** supports custom CSRs, allowing you to use your own private key and specify certificate details. This is useful when you need to maintain control over your private keys or have specific certificate requirements.
+
+### Cost and automation
+
+**Let's Encrypt** certificates are free. The issuance and renewal process is fully automated when using DNSimple's auto-renewal feature.
+
+**Sectigo** certificates cost between $20-$100 depending on the certificate type. Renewal requires manual action, including email approval and certificate installation.
+
+## Choosing the right certificate
+
+The following considerations may help you determine which certificate type best fits your needs:
+
+| Requirement | Recommended Certificate |
 | --- | --- |
-| You want to secure a domain name. | **Let's Encrypt** or **Standard** |
-| You want to provide a custom CSR | **Standard** |
-| You want to use a custom private key. | **Standard** |
-| You want to use a wildcard name. | **Let's Encrypt** or **Standard** |
-| You want a longer expiration (200 days vs 90 days). | **Standard** |
+| You want to secure a domain name. | **Let's Encrypt** or **Sectigo** |
+| You want to provide a custom CSR | **Sectigo** |
+| You want to use a custom private key. | **Sectigo** |
+| You want to use a wildcard name. | **Let's Encrypt** or **Sectigo** |
+| You want a longer expiration period. | **Sectigo** |
 | You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt** |
-| Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Standard** |
-| Your domain is resolving with both DNSimple and Secondary DNS. | **Standard** |
-| Your domain is NOT resolving with DNSimple. | **Standard** |
-| Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Standard** |
-| Your domain is NOT registered and NOT resolving with DNSimple. | **Standard** |
-| You want to purchase a certificate with no subscription. | **Standard** |
+| Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Sectigo** |
+| Your domain is resolving with both DNSimple and Secondary DNS. | **Sectigo** |
+| Your domain is NOT resolving with DNSimple. | **Sectigo** |
+| Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Sectigo** |
+| Your domain is NOT registered and NOT resolving with DNSimple. | **Sectigo** |
+| You want to purchase a certificate with no subscription. | **Sectigo** |
+
+## Related reading
+
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Learn about certificate authorities and their role in SSL certificates
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Understand different SSL certificate classifications
+- [Let's Encrypt and DNSimple](/articles/letsencrypt/) - Learn more about Let's Encrypt certificates at DNSimple
+- [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Understand the certificate renewal process
+
+## Taking action
+
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Step-by-step guide to ordering a Sectigo certificate
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - How to renew Let's Encrypt certificates
+- [Renewing a standard SSL Certificate](/articles/renewing-standard-ssl-certificate/) - How to renew Sectigo certificates
+
+## Have more questions?
+
+If you have additional questions or need any assistance with choosing between Sectigo and Let's Encrypt, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
