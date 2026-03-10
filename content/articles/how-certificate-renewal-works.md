@@ -27,7 +27,7 @@ When you renew a certificate, you're requesting a new certificate with a new exp
 - A new serial number
 - A new expiration date
 - A new issuance date
-- Potentially a new private key (unless you reuse the same [CSR](/articles/what-is-csr/))
+- A new private key (unless you reuse the same [CSR](/articles/what-is-csr/))
 
 ## Validation during renewal
 
