@@ -27,12 +27,27 @@ Example prompt (clean working directory): "Working directory is clean. I'll pull
 
 ### Checkpoint 2: Pre-commit review (before staging any files)
 
-Before committing, run `git status` and show the user the full list of changed, staged, and untracked files. Then ask:
+Before **every** commit, run `git status` and present a human-readable summary. Do NOT stage or commit anything until the user explicitly approves.
 
-1. Which of these files should be included in this commit?
-2. Call out any files that look unrelated to the current task and confirm they should be excluded
+1. List each changed file with a plain-language description of what changed and why:
+   - Good: "`content/articles/ssl-lifecycle.md` — new article explaining the SSL certificate lifecycle"
+   - Bad: "`content/articles/ssl-lifecycle.md`" (no explanation)
+2. Call out any files that look unrelated to the current task and recommend excluding them
+3. Propose the commit message
+4. Wait for the user to say yes
 
-Example prompt: "Here's what's changed. These 2 files are part of the SSL article work: `content/articles/ssl-lifecycle.md`, `categories/ssl_certificates.yaml`. There are also 3 untracked files that look unrelated — I'll leave those out. Does that look right?"
+This applies to every commit, not just the first one. If there are multiple commits in a session, repeat this checkpoint each time.
+
+Example prompt: "Here's what I'd like to commit:
+
+- `content/articles/ssl-lifecycle.md` — new article covering the SSL certificate lifecycle from order to expiration
+- `categories/ssl_certificates.yaml` — added the new article to the Explanation section
+
+I'll leave out these 3 untracked files that aren't part of this work: [list].
+
+Proposed commit message: 'Add SSL certificate lifecycle article'
+
+Does that look right?"
 
 ### Checkpoint 3: PR creation (before opening the PR)
 
