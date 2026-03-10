@@ -173,6 +173,39 @@ AI engines prefer content with concrete, citable facts. Include specifics wherev
 - Include natural-language variations of key terms — people ask AI assistants in full sentences, not keyword fragments. Think "How do I renew an SSL certificate in DNSimple?" not just "renew SSL certificate."
 - Use the `excerpt` for user-facing summaries and `meta` for search/AI-facing descriptions. Both should contain the primary keyword.
 
+## Category YAML
+
+When creating a new article, add it to the appropriate category YAML file in `categories/`. Articles not listed in a YAML file are grouped under "Other."
+
+- Files are named by category slug: `categories/ssl_certificates.yaml`, `categories/dns.yaml`, etc.
+- Top-level keys are Diataxis-aligned sections: `Getting started`, `Explanation`, `How-to`, `Reference`
+- Sections can have sub-groups: `Explanation: Certificate Concepts: [...]`
+- Articles are listed by their **frontmatter title** (not filename)
+- Category display order is controlled by `priorities/categories.yaml`
+
+Example entry — adding a new Explanation article:
+
+```yaml
+Explanation:
+  Certificate Concepts:
+    - "What is a Certificate Authority?"
+    - "Understanding SSL Private Keys"   # ← new article
+```
+
+## URL changes and redirects
+
+If you rename an article file or change its slug, add a redirect so old URLs still work.
+
+- Redirects are defined in the `_redirects` file in the project root (Netlify format)
+- Format: `old-path  new-path` (one per line, spaces between)
+- Add the redirect in the same PR as the rename
+
+```
+/articles/ordering-standard-certificate/    /articles/ordering-sectigo-certificate/
+```
+
+Also search all articles for internal links pointing to the old URL and update them.
+
 ## Diataxis type alignment
 
 Before writing, decide the article type and stay within its scope:

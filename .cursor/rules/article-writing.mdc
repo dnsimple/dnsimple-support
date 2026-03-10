@@ -90,6 +90,20 @@ Every article must link to related articles. When writing or updating an article
 - Prefer inline links woven into sentences over standalone "See also" lines. Reserve "See also" for genuinely supplementary references that don't fit naturally in the text.
 - Link format: `/articles/article-slug/` (relative path, no domain).
 
+## Terminology
+
+Use the current preferred terms. Older articles may still use deprecated terms — update them when you encounter them.
+
+| Deprecated | Use instead | Context |
+|---|---|---|
+| Standard certificate / Standard SSL | Sectigo certificate | Refers to paid certificates issued by Sectigo |
+| Standard Single-name / Standard Wildcard | Sectigo Single-name / Sectigo Wildcard | Product types |
+| Comodo | Sectigo | Comodo rebranded to Sectigo |
+
+- Product names: **Sectigo PositiveSSL** (single-name), **Sectigo PositiveSSL Wildcard** (wildcard)
+- When referring to Sectigo vs Let's Encrypt, use "Sectigo" and "Let's Encrypt" — not "paid vs free" or "standard vs automated"
+- "SSL certificate" is acceptable as the general term even though the protocol is technically TLS. The industry and customers use "SSL."
+
 ## Review checklist before finishing
 
 1. Read the first paragraph — does it sound like a person or a textbook?
