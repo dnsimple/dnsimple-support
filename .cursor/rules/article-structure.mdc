@@ -156,11 +156,7 @@ The first 1–3 sentences after the H1 should directly answer the core question 
 
 ### Headings as query targets
 
-Use headings that match how people ask questions — both in search bars and in AI prompts. Question-format H2s are encouraged for Explanation and Reference articles. Imperative-format H2s are better for How-to articles.
-
-- Good (Explanation): `## Do I need CAA records? {#do-i-need}`
-- Good (How-to): `## Adding CAA records {#add}`
-- Bad: `## Additional Information` / `## Overview` / `## More Details`
+Use headings that match how people ask questions — both in search bars and in AI prompts. Question-format H2s for Explanation/Reference articles, imperative-format for How-to articles. Avoid vague headings like "Overview" or "Additional Information."
 
 Each H2 section should be self-contained enough that an AI engine could extract it as a standalone answer.
 

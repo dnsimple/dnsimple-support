@@ -89,27 +89,10 @@ Every article must link to related articles. When writing or updating an article
 - Prefer inline links woven into sentences over standalone "See also" lines. Reserve "See also" for genuinely supplementary references that don't fit naturally in the text.
 - Link format: `/articles/article-slug/` (relative path, no domain).
 
-### Common cross-link targets
-
-When writing about these topics, link to the corresponding article:
-
-- SSL certificate types → `/articles/ssl-certificates-types/`
-- CSR → `/articles/what-is-csr/`
-- Certificate Authority → `/articles/what-is-certificate-authority/`
-- Certificate chain → `/articles/what-is-ssl-certificate-chain/`
-- Domain validation → `/articles/ssl-certificates-email-validation/`
-- Let's Encrypt → `/articles/letsencrypt/`
-- Installing certificates → `/articles/installing-ssl-certificate/`
-- Record editor → `/articles/record-editor/`
-- Getting started with SSL → `/articles/getting-started-ssl-certificates/`
-
-This list is not exhaustive. Always search for relevant articles beyond this list.
-
 ## Review checklist before finishing
 
 1. Read the first paragraph — does it sound like a person or a textbook?
 2. Search for "important to note," "it should be noted," "in this article," "let's explore" — remove them.
-3. Check headings: use question-format H2s for Explanation/Reference articles (matches AI search queries), imperative-format for How-to articles. Avoid vague headings like "Overview" or "Additional Information."
-4. Confirm all callouts use the correct type: `[!NOTE]`, `[!TIP]`, or `[!WARNING]`.
-5. Verify frontmatter has `title`, `excerpt`, `meta`, and `categories`.
-6. Verify cross-links: every concept that has its own article should be linked on first mention. Check that existing articles link back if relevant.
+3. Confirm all callouts use the correct type: `[!NOTE]`, `[!TIP]`, or `[!WARNING]`.
+4. Verify frontmatter has `title`, `excerpt`, `meta`, and `categories`.
+5. Verify cross-links: search `content/articles/` for related articles and link on first mention. Check that existing articles link back if relevant.

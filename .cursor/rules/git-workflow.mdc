@@ -86,17 +86,7 @@ A PR should contain **only** the changes described by its purpose:
 
 ## Characters in content
 
-macOS text substitution can silently insert characters that cause rendering issues on GitHub:
-
-| macOS inserts | Use instead |
-|---|---|
-| `"` `"` (smart/curly double quotes) | `"` (straight double quote) |
-| `'` `'` (smart/curly single quotes) | `'` (straight single quote / apostrophe) |
-| `…` (ellipsis character, U+2026) | `...` (three periods) |
-
-Em dashes (`—`) and en dashes (`–`) are fine in body text, but use hyphens (`-`) in filenames, frontmatter values, and anchor names.
-
-If you suspect smart quotes have crept in, search for them: `grep -rP '[\x{2018}\x{2019}\x{201C}\x{201D}]' content/articles/`
+macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Em dashes (`—`) and en dashes (`–`) are fine in body text, but use hyphens (`-`) in filenames, frontmatter values, and anchor names.
 
 ## Branch naming
 
