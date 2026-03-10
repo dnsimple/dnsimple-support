@@ -1,5 +1,5 @@
 ---
-title: What is the CSR?
+title: What is a Certificate Signing Request (CSR)?
 excerpt: A Certificate Signing Request (CSR) is a formatted block of text containing certificate information and a public key, submitted to a certificate authority to request an SSL certificate.
 meta: Learn what a Certificate Signing Request is, what information it contains, and how it's used in the SSL certificate issuance process.
 categories:
