@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "fuse.js": "^7.1.0",
-    "vue": "^3.5.29"
+    "vue": "^3.5.30"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.28.5",
@@ -28,7 +28,7 @@
     "vite": "^7.3.1",
     "vite-plugin-css-injected-by-js": "^4.0.1",
     "vue-eslint-parser": "^10.4.0",
-    "webpack": "^5.105.3",
+    "webpack": "^5.105.4",
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
