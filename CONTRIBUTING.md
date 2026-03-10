@@ -22,9 +22,8 @@ When submitting a pull request:
 2. Set yourself as assignee
 3. **Request reviews:**
    - Tag a second expert with knowledge of the feature/product
-   - Tag Alyse for proofreading, clarity, and voice/tone
+   - Use AI (Cursor or Claude Code) for proofreading, clarity, and voice/tone — the project rules in `.cursor/rules/` enforce the DNSimple editorial voice automatically
    - Tag Customer Success for review (required for substantial updates, optional for minor updates)
-   - To ensure consistent tone, wait until after initial proofreading and edits before adding Customer Success for review
 4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
 5. Ensure all approvals are received
 6. Verify the pipeline is green
@@ -170,36 +169,54 @@ This applies to:
 - Code comments (both bulleted and numbered lists)
 - All documentation
 
-### Links and References
+### Links and Cross-Linking
 
-Include in articles:
+Every article should link to related articles. Cross-linking helps readers navigate between concepts and improves discoverability in both search engines and AI answer engines.
 
-- Relevant links to customer-facing information: dev docs, other support pages, and video walkthroughs
-- The information you want to communicate to the customer. Make sure it's clear
+**When writing or updating an article:**
 
-When adding links:
+- Link to related articles inline where a concept is first mentioned — don't save links for a list at the bottom
+- Check whether existing articles should link *back* to the new or updated article and include those edits in the same PR
+- Link on first mention of a concept, not every mention
 
-- Use support.dnsimple.com for internal article links
-- Use dnsimple.com for product/marketing pages
+**Link format:**
+
+- Internal articles: use relative paths — `/articles/article-slug/`
+- Developer docs: `https://developer.dnsimple.com/v2/...`
+- Product/marketing pages: `https://dnsimple.com/...`
+- External references: include where helpful (e.g., Wikipedia, ICANN, RFC documents)
+- Use descriptive link text — `[SSL certificate types](/articles/ssl-certificates-types/)` not `[click here](/articles/ssl-certificates-types/)`
 - Ensure all links are current and functional
-- Include external explanation links where helpful (e.g., Wikipedia, ICANN, Cloudflare, etc.)
 
-### SEO and Marketing
+### SEO and GEO (Generative Engine Optimization)
 
-When creating or updating articles, consider these SEO best practices:
+Articles should be optimized for both traditional search engines (SEO) and AI answer engines like ChatGPT, Perplexity, and Google AI Overviews (GEO). The two goals reinforce each other.
 
-**Keywords:**
+**Keywords and query targeting:**
 
 - Identify the most relevant keywords for the page/product/feature
 - Place the strongest keywords in H1 or H2 headings
-- Avoid keyword stuffing - maintain readability and relatability for customers
-- Balance SEO optimization with natural, helpful content
+- Include natural-language variations of key terms — people ask AI assistants full questions like "How do I renew an SSL certificate in DNSimple?", not just "renew SSL certificate"
+- Avoid keyword stuffing — maintain readability and relatability for customers
+
+**Opening paragraph:**
+
+- The first 1–3 sentences after the H1 should directly answer the core question the article addresses
+- AI engines extract this as their primary citation source — make it self-contained and factual
+- Keep it under 80 words
+
+**Headings:**
+
+- Use headings that match how people ask questions in search bars and AI prompts
+- Question-format H2s work well for Explanation and Reference articles (e.g., "Do I need CAA records?")
+- Imperative-format H2s work well for How-to articles (e.g., "Adding CAA records")
+- Each H2 section should be self-contained enough to be extracted as a standalone answer
 
 **Frontmatter Metadata:**
 
 - Every article must include both `excerpt` and `meta` frontmatter keys
-  - The `excerpt` provides a brief description of the article
-  - The `meta` key is used for page metadata (if omitted, it will default to the excerpt value)
+  - The `excerpt` provides a brief, user-focused description of the article
+  - The `meta` key is used for page metadata and AI citation — write it as a direct answer to the question the article addresses (if omitted, it defaults to the excerpt value)
 - Use the `social` frontmatter key to add an image for the `og:image` meta tag
   - This image will be displayed on social media when the URL is shared
   - Place social images in the `images/social` folder
@@ -231,13 +248,35 @@ After making changes:
 rake run
 ```
 
-## Git Commit Guidelines
+## Git and PR Guidelines
 
-When creating commits:
+### Branching
 
-- Focus on clear, descriptive commit messages
-- Use imperative mood (e.g., "Add article about...", "Update DNS guide...")
-- Keep commits focused on a single logical change
+- Always create a new branch from `main` before starting work. Never commit directly to `main`.
+- One branch per PR. Don't mix unrelated changes in the same branch.
+- Use descriptive branch names: `add-ssl-lifecycle-article`, `update-caa-records-guide`, `fix-ssl-crosslinks`
+
+### Commits
+
+- Use imperative mood: "Add article about...", "Update DNS guide...", "Fix broken link in..."
+- Keep the first line under 72 characters
+- One logical change per commit
+
+### PR scope
+
+- Each PR should be one logical unit of work: one new article, one set of related updates, or one structural change
+- Only include files related to the current task — don't bundle unrelated drafts or changes
+- If a PR touches 10+ unrelated files, it's too broad — split it up
+
+## AI-Assisted Writing
+
+If you use Cursor or Claude Code to help write articles, the repository includes project-level rules that automatically guide the AI:
+
+- **`.cursor/rules/article-writing.mdc`** — Voice, tone, anti-patterns (prevents robotic AI writing), cross-linking, and a review checklist
+- **`.cursor/rules/article-structure.mdc`** — Frontmatter requirements, page skeleton, formatting rules, SEO/GEO guidance, and Diataxis type alignment
+- **`.cursor/rules/git-workflow.mdc`** — Interactive checkpoints for branching, committing, and PR creation; filename and character rules for cross-platform compatibility
+
+These rules are loaded automatically by Cursor when you open relevant files. Claude Code picks them up via `CLAUDE.md`. No setup needed — they travel with the repo.
 
 ## Testing
 

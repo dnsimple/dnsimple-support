@@ -4,89 +4,49 @@ Instructions for AI coding agents when working on this project.
 
 ## Agent Organization
 
-When creating agent instruction files:
-
 - The main file should always be named `AGENTS.md`
-- Create a `CLAUDE.md` file containing `@AGENTS.md` for compatibility with Claude Code
+- `CLAUDE.md` includes this file plus all `.cursor/rules/*.mdc` rule files for Claude Code compatibility
+- Cursor users get the rule files automatically from `.cursor/rules/`
 
-## Key Documentation
+## Content Work (Primary Use Case)
 
-- **[README.md](README.md)** - Quick start guide, setup instructions, and deployment information
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines, commit format, testing approach
+Most AI-assisted work on this project is writing and editing support articles. The detailed rules for this live in `.cursor/rules/` — these are the source of truth:
+
+- **`.cursor/rules/article-writing.mdc`** — Voice, tone, anti-patterns, cross-linking, review checklist
+- **`.cursor/rules/article-structure.mdc`** — Frontmatter, page skeleton, callouts, links, SEO/GEO, Diataxis types
+- **`.cursor/rules/git-workflow.mdc`** — Interactive checkpoints (branch, commit, PR), filename/character rules, PR hygiene
+
+Follow these rules when working on any file in `content/articles/`. They cover everything from sentence-level writing style to when you must stop and ask the user before proceeding.
+
+### Key content principles
+
+- All articles follow **APA Style** and the **Diataxis framework**
+- Cross-link related articles automatically — both from the new article and back from existing articles
+- Optimize for both SEO and GEO (AI answer engines)
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for the full content writing guidelines, PR review process, and category management
 
 ## Project Overview
 
 This is the DNSimple Help site (https://support.dnsimple.com), a static site built with [nanoc](https://nanoc.app/). See [README.md](README.md) for setup and deployment details.
 
-## Content Guidelines
-
-All content in `content/articles/` must follow **APA Style guidelines** and the **Diataxis framework**. See the [Content Writing Guidelines](CONTRIBUTING.md#content-writing-guidelines) section in CONTRIBUTING.md for full details.
-
-### Article Structure
-
-Articles are written in Markdown format with YAML frontmatter. Example structure:
-
-```markdown
----
-title: Article Title
-excerpt: Brief description
-meta: Page metadata description
-categories:
-- Category Name
----
-
-# Article Title
-
-Content follows here...
-```
-
 ## Project Structure
 
-- `content/articles/` - All support articles
-- `categories/` - Category definitions in YAML format
-- `layouts/` - HTML layout templates
-- `lib/` - Ruby libraries for nanoc processing
-- `_widget/` - Vue.js widget components
-- `output/` - Generated static site output
+- `content/articles/` — All support articles (Markdown with YAML frontmatter)
+- `categories/` — Category definitions in YAML format
+- `priorities/categories.yaml` — Master category list
+- `layouts/` — HTML layout templates
+- `lib/` — Ruby libraries for nanoc processing
+- `_widget/` — Vue.js search widget components
+- `output/` — Generated static site output (gitignored)
+- `.cursor/rules/` — AI agent rules (Cursor and Claude Code)
+
+## Key Documentation
+
+- **[README.md](README.md)** — Setup instructions and deployment
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — Contribution guidelines, PR process, writing standards
 
 ## Support Widget
 
-The support widget is a Vue.js component that provides search across support and developer documentation.
+The support widget is a Vue.js component in `_widget/` that provides search across support and developer documentation. See `_widget/index.html` for local development, `npm run dev` to start, and `npm test` for specs.
 
-### Widget Configuration
-
-The widget is embedded via script tag in `layouts/default.html`:
-
-```html
-<script
-  type="text/javascript"
-  src="/widget.js"
-  data-dnsimple-current-site-url=""
-  data-dnsimple-getting-started-url="/articles/getting-started/"
-  data-dnsimple-sources='[{"name": "DNSimple Support", "url": ""}, {"name": "DNSimple Developer", "url": "https://developer.dnsimple.com"}]'
-></script>
-```
-
-- `data-dnsimple-current-site-url` - Used for same-site detection (determines if links open in widget or navigate away)
-- `data-dnsimple-sources` - Array of sources to fetch articles from. Empty URL means relative (current origin)
-
-### Rigged Results
-
-To pin specific articles to the top of search results for certain queries, edit `_widget/src/components/app/rigged-results.yml`:
-
-```yaml
-email:
-  - /articles/mx-record/
-  - /articles/email-forwarding/
-
-transfer:
-  - /articles/domain-transfer/
-```
-
-The YAML is parsed by `rigged-results.js` using a simple regex parser.
-
-### Widget Development
-
-- `_widget/index.html` - Test page for local widget development
-- Run `npm run dev` in `_widget/` for development
-- Run `npm test` to run widget specs
+To pin articles to the top of search results for specific queries, edit `_widget/src/components/app/rigged-results.yml`.
