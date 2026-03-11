@@ -138,7 +138,7 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 
 Resolve common DNS problems and configuration issues:
 
-- [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) - Solutions for common issues with DNSimple name servers.
+- [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/) - Solutions for common issues with DNSimple name servers.
 - [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) - Guide to diagnosing and fixing domain resolution problems.
 - [Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) - Learn how to troubleshoot issues related to Empty Non-Terminals (ENTs) in DNS.
 - [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) - Learn how to troubleshoot specific DNS record resolution problems.
