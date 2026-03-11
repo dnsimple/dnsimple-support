@@ -1,5 +1,5 @@
 ---
-title: Setting up DMARC
+title: Setting Up DMARC
 excerpt: How to set up DMARC in your DNSimple account.
 meta: Learn how to set up DMARC and what to expect from your email provider.
 categories:
@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# Setting up DMARC
+# Setting Up DMARC
 
 [DMARC](/articles/dmarc-record/) requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/en-us/blog/what-is-dmarc), [Postmark](https://postmarkapp.com/guides/dmarc?utm_source=dmarc&utm_medium=web&utm_campaign=nav#how-do-i-implement-dmarc-on-my-domain), or [Google Apps](https://support.google.com/a/answer/2466563). The key will be inserted directly into your zone as a [TXT record](/articles/txt-record/).
 
