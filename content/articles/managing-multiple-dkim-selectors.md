@@ -1,6 +1,6 @@
 ---
 title: Managing Multiple DKIM Selectors
-excerpt: Learn how to manage multiple DKIM selectors for different email services and ensure proper email authentication.
+excerpt: How to manage multiple DKIM selectors for different email services and ensure proper email authentication.
 meta: Guide to managing multiple DKIM selectors when using different email services, ensuring proper authentication for all email sources.
 categories:
 - Emails
@@ -17,7 +17,7 @@ categories:
 
 When you use multiple email services or send emails from different sources, you may need to manage multiple DKIM selectors. This guide explains how to configure and manage multiple DKIM selectors in DNSimple.
 
-## Understanding multiple DKIM selectors
+## Understanding multiple DKIM selectors {#understanding}
 
 Different email services use different DKIM selectors to sign emails. A DKIM selector is part of the DKIM record location in DNS:
 
@@ -27,7 +27,7 @@ Different email services use different DKIM selectors to sign emails. A DKIM sel
 
 When you use multiple email services, each service may require its own DKIM selector and public key.
 
-## When you need multiple DKIM selectors
+## When you need multiple DKIM selectors {#when-needed}
 
 You need multiple DKIM selectors when:
 
@@ -37,11 +37,10 @@ You need multiple DKIM selectors when:
 - **Using different subdomains:** Different subdomains may use different DKIM selectors
 - **Migrating services:** During migration, you may temporarily need multiple selectors
 
-<info>
-**Multiple selectors are normal:** It's common and expected to have multiple DKIM selectors when using multiple email services.
-</info>
+> [!NOTE]
+> It is common and expected to have multiple DKIM selectors when using multiple email services.
 
-## Getting DKIM information from services
+## Getting DKIM information from services {#getting-info}
 
 Each email service provides its own DKIM information:
 
@@ -49,8 +48,8 @@ Each email service provides its own DKIM information:
 
 1. **Get DKIM selector:**
    - Log into Google Workspace admin console
-   - Go to **Apps** > **Google Workspace** > **Gmail**
-   - Click **Authenticate email**
+   - Go to <label>Apps</label> > <label>Google Workspace</label> > <label>Gmail</label>
+   - Click <label>Authenticate email</label>
    - Note the selector (typically `google` or `default`)
 
 2. **Get DKIM public key:**
@@ -61,8 +60,8 @@ Each email service provides its own DKIM information:
 
 1. **Get DKIM selectors:**
    - Log into Microsoft 365 admin center
-   - Go to **Settings** > **Domains**
-   - Select your domain and click **DKIM**
+   - Go to <label>Settings</label> > <label>Domains</label>
+   - Select your domain and click <label>DKIM</label>
    - Microsoft typically provides two selectors (e.g., `selector1` and `selector2`)
 
 2. **Get DKIM public keys:**
@@ -77,11 +76,11 @@ Each service provides DKIM information differently:
 - **Mailgun:** Provides selector and public key in domain settings
 - **Postmark:** Provides selector and public key in sender signatures
 
-**Check each service's documentation** for how to get DKIM information.
+Check each service's documentation for how to get DKIM information.
 
-## Adding multiple DKIM selectors in DNSimple
+## Adding multiple DKIM selectors in DNSimple {#adding}
 
-### Step 1: Identify all DKIM selectors needed
+### Step 1: Identify all DKIM selectors needed {#identify}
 
 1. **List all email services:**
    - Email hosting (Google Workspace, Microsoft 365, etc.)
@@ -93,33 +92,29 @@ Each service provides DKIM information differently:
    - Contact each service or check their documentation
    - Note the selector and public key for each
 
-### Step 2: Add each DKIM record
+### Step 2: Add each DKIM record {#add-records}
 
 For each DKIM selector:
 
-1. **Navigate to your domain:**
-   - Use the account switcher to select the appropriate account
-   - Click on your domain name from the Domain Names list
-   - Click the **DNS** tab and open the **Record Editor**
+<div class="section-steps" markdown="1">
+##### Add a DKIM TXT record
 
-2. **Add DKIM TXT record:**
-   - Click **Add record** and select **TXT**
-   - In the **Name** field, enter: `selector._domainkey` (replace `selector` with your actual selector)
-   - For example: `google._domainkey` or `selector1._domainkey`
-   - In the **Content** field, enter the DKIM public key provided by the service
-   - Click **Add record**
+1. Use the account switcher to select the appropriate account.
+1. Click on your domain name from the <label>Domain Names</label> list.
+1. Click the <label>DNS</label> tab and open the <label>Record Editor</label>.
+1. Click <label>Add record</label> and select **TXT**.
+1. In the <label>Name</label> field, enter `selector._domainkey` (replace `selector` with your actual selector, e.g., `google._domainkey` or `selector1._domainkey`).
+1. In the <label>Content</label> field, enter the DKIM public key provided by the service.
+1. Click <label>Add record</label>.
+1. Repeat for each additional DKIM selector.
+</div>
 
-3. **Repeat for each selector:**
-   - Add a separate TXT record for each DKIM selector
-   - Each selector gets its own DNS record
+> [!NOTE]
+> Each DKIM selector requires its own TXT record at `selector._domainkey.yourdomain.com`.
 
-<info>
-**Record format:** Each DKIM selector requires its own TXT record at `selector._domainkey.yourdomain.com`.
-</info>
+## Example: Multiple DKIM selectors {#example}
 
-## Example: Multiple DKIM selectors
-
-Here's an example configuration with multiple selectors:
+Here is an example configuration with multiple selectors:
 
 ### Google Workspace
 - **Selector:** `google`
@@ -142,7 +137,7 @@ Here's an example configuration with multiple selectors:
 
 Each of these would be separate TXT records in your DNS zone.
 
-## Verifying multiple DKIM selectors
+## Verifying multiple DKIM selectors {#verifying}
 
 ### Check each selector individually
 
@@ -174,66 +169,45 @@ Each should return the corresponding DKIM public key.
 2. **Check email headers:**
    - Look for `DKIM-Signature` headers
    - Verify the `d=` tag matches your domain
-   - Verify the selector matches what's configured
+   - Verify the selector matches what is configured
 
 3. **Use online tools:**
    - Services like Mail-Tester can verify DKIM signatures
    - Check that all services are signing correctly
 
-## Managing DKIM selectors
+## Managing DKIM selectors {#managing}
 
 ### Adding a new selector
 
 When adding a new email service:
 
-1. **Get DKIM information:**
-   - Get selector and public key from the new service
-
-2. **Add DKIM record:**
-   - Add the new DKIM TXT record in DNSimple
-   - Verify it's published correctly
-
-3. **Test:**
-   - Send a test email from the new service
-   - Verify DKIM signature in headers
+1. **Get DKIM information:** Get selector and public key from the new service.
+2. **Add DKIM record:** Add the new DKIM TXT record in DNSimple.
+3. **Verify:** Send a test email from the new service and verify the DKIM signature in headers.
 
 ### Removing an old selector
 
 When discontinuing an email service:
 
-1. **Verify no longer in use:**
-   - Confirm the service is no longer sending emails
-   - Check DMARC reports to ensure no emails from that selector
+1. **Verify no longer in use:** Confirm the service is no longer sending emails. Check DMARC reports to ensure no emails from that selector.
+2. **Remove DKIM record:** Delete the DKIM TXT record from DNSimple. This frees up DNS space and reduces complexity.
 
-2. **Remove DKIM record:**
-   - Delete the DKIM TXT record from DNSimple
-   - This frees up DNS space and reduces complexity
-
-<warning>
-**Don't remove too quickly:** Keep old selectors active for a few weeks after discontinuing a service to ensure no delayed emails are still using it.
-</warning>
+> [!WARNING]
+> Do not remove selectors too quickly. Keep old selectors active for a few weeks after discontinuing a service to ensure no delayed emails are still using them.
 
 ### Updating a selector
 
 If an email service changes their DKIM selector:
 
-1. **Add new selector:**
-   - Add the new DKIM record
-   - Keep the old record temporarily
+1. **Add new selector:** Add the new DKIM record. Keep the old record temporarily.
+2. **Verify new selector works:** Test emails from the service. Verify DKIM signatures use the new selector.
+3. **Remove old selector:** After confirming the new selector works, remove the old DKIM record.
 
-2. **Verify new selector works:**
-   - Test emails from the service
-   - Verify DKIM signatures use new selector
-
-3. **Remove old selector:**
-   - After confirming new selector works
-   - Remove the old DKIM record
-
-## Common issues and solutions
+## Common issues and solutions {#issues}
 
 ### DKIM not working for one service
 
-**Problem:** One email service's DKIM isn't working, but others are.
+**Problem:** One email service's DKIM is not working, but others are.
 
 **Solutions:**
 1. **Verify selector:** Check that the selector matches what the service expects
@@ -243,7 +217,7 @@ If an email service changes their DKIM selector:
 
 ### Too many DKIM selectors
 
-**Problem:** You have many DKIM selectors and it's hard to manage.
+**Problem:** You have many DKIM selectors and they are hard to manage.
 
 **Solutions:**
 1. **Document your selectors:** Keep a list of which selector is for which service
@@ -253,22 +227,22 @@ If an email service changes their DKIM selector:
 
 ### DKIM alignment issues
 
-**Problem:** DKIM passes but doesn't align for DMARC.
+**Problem:** DKIM passes but does not align for DMARC.
 
 **Solutions:**
 1. **Check domain in signature:** Verify the `d=` tag in DKIM signature matches your domain
 2. **Use subdomain:** Consider using a subdomain for the email service that matches the DKIM domain
 3. **Configure service:** Some services allow configuring the DKIM domain
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Document which selector is for which service
-- ✅ Keep a list of all DKIM selectors and their purposes
-- ✅ Regularly review and remove unused selectors
-- ✅ Test each service's DKIM after configuration
-- ✅ Monitor DMARC reports for DKIM issues
-- ✅ Update selectors when services change requirements
-- ✅ Use consistent naming when possible
+- Document which selector is for which service
+- Keep a list of all DKIM selectors and their purposes
+- Regularly review and remove unused selectors
+- Test each service's DKIM after configuration
+- Monitor DMARC reports for DKIM issues
+- Update selectors when services change requirements
+- Use consistent naming when possible
 
 ## Related topics
 

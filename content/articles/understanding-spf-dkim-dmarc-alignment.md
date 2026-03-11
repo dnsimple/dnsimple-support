@@ -1,6 +1,6 @@
 ---
 title: Understanding SPF, DKIM, and DMARC Alignment
-excerpt: Learn about alignment requirements for SPF, DKIM, and DMARC and how they affect email authentication.
+excerpt: About alignment requirements for SPF, DKIM, and DMARC and how they affect email authentication.
 meta: Detailed explanation of SPF, DKIM, and DMARC alignment requirements and how they work together for email authentication.
 categories:
 - Emails
@@ -17,11 +17,11 @@ categories:
 
 Alignment is a critical concept in email authentication that determines whether SPF, DKIM, and DMARC pass authentication checks. Understanding alignment is essential for properly configuring email authentication and ensuring DMARC policies work correctly.
 
-## What is alignment?
+## What is alignment? {#what-is}
 
 Alignment refers to the relationship between the domain used in email authentication checks and the domain visible to recipients in the "From" address. For DMARC to pass, either SPF or DKIM (or both) must not only pass their individual checks but also be "aligned" with the "From" domain.
 
-## Why alignment matters
+## Why alignment matters {#why}
 
 DMARC requires alignment because:
 
@@ -30,11 +30,10 @@ DMARC requires alignment because:
 - **Enables strict policies:** Allows you to use strict DMARC policies (quarantine or reject)
 - **Improves deliverability:** Proper alignment improves email deliverability
 
-<info>
-**DMARC requirement:** DMARC requires either SPF alignment or DKIM alignment (or both) to pass. Without alignment, DMARC will fail even if SPF and DKIM individually pass.
-</info>
+> [!NOTE]
+> DMARC requires either SPF alignment or DKIM alignment (or both) to pass. Without alignment, DMARC will fail even if SPF and DKIM individually pass.
 
-## SPF alignment
+## SPF alignment {#spf-alignment}
 
 SPF alignment checks whether the domain used in the SPF check matches the "From" domain.
 
@@ -63,14 +62,14 @@ SPF alignment checks whether the domain used in the SPF check matches the "From"
 **Example:**
 - You send from `user@example.com`
 - Your email service uses `Return-Path: user@mailservice.com`
-- SPF alignment fails because domains don't match
+- SPF alignment fails because domains do not match
 
 **Solution:**
 - Use a subdomain for the email service (e.g., `mail.example.com`)
 - Configure SPF to include the email service
 - Ensure the Return-Path uses your domain or a subdomain
 
-## DKIM alignment
+## DKIM alignment {#dkim-alignment}
 
 DKIM alignment checks whether the domain in the DKIM signature matches the "From" domain.
 
@@ -106,7 +105,7 @@ DKIM alignment checks whether the domain in the DKIM signature matches the "From
 - Use a subdomain like `mail.example.com` for the email service
 - Ensure DKIM selector points to your domain
 
-## DMARC alignment requirements
+## DMARC alignment requirements {#dmarc-alignment}
 
 DMARC requires alignment for the policy to pass:
 
@@ -143,7 +142,7 @@ v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com; aspf=r; adkim=r
 - `adkim=r`: Relaxed DKIM alignment
 - `p=quarantine`: Quarantine emails that fail DMARC
 
-## Achieving alignment
+## Achieving alignment {#achieving}
 
 ### For SPF alignment
 
@@ -175,7 +174,7 @@ v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com; aspf=r; adkim=r
    - Check DKIM signature in headers
    - Verify alignment in DMARC reports
 
-## Testing alignment
+## Testing alignment {#testing}
 
 ### Check email headers
 
@@ -208,7 +207,7 @@ Use tools like:
 
 These tools can help verify alignment.
 
-## Common alignment scenarios
+## Common alignment scenarios {#scenarios}
 
 ### Scenario 1: Using email hosting (Google Workspace, Microsoft 365)
 
@@ -217,7 +216,7 @@ These tools can help verify alignment.
 - Email service signs with `d=example.com` (DKIM)
 - Email service uses `Return-Path: user@example.com` (SPF)
 
-**Result:** Both SPF and DKIM align ✅
+**Result:** Both SPF and DKIM align.
 
 ### Scenario 2: Using transactional email service
 
@@ -226,11 +225,11 @@ These tools can help verify alignment.
 - Service signs with `d=mailservice.com` (DKIM)
 - Service uses `Return-Path: user@mailservice.com` (SPF)
 
-**Problem:** Neither aligns with `example.com` ❌
+**Problem:** Neither aligns with `example.com`.
 
 **Solution:**
 - Configure service to use subdomain (e.g., `mail.example.com`)
-- Or use service's domain alignment features
+- Or use the service's domain alignment features
 - Or send from subdomain that matches service domain
 
 ### Scenario 3: Using subdomain for email
@@ -240,18 +239,18 @@ These tools can help verify alignment.
 - DKIM signs with `d=mail.example.com`
 - SPF uses `mail.example.com`
 
-**Result:** Both align with `mail.example.com` ✅
+**Result:** Both align with `mail.example.com`.
 
-**DMARC:** Use relaxed alignment to allow `mail.example.com` to align with `example.com`
+**DMARC:** Use relaxed alignment to allow `mail.example.com` to align with `example.com`.
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Use relaxed alignment (`aspf=r`, `adkim=r`) for flexibility
-- ✅ Ensure at least one authentication method aligns
-- ✅ Test alignment after configuration changes
-- ✅ Monitor DMARC reports for alignment issues
-- ✅ Use subdomains strategically for email services
-- ✅ Document your alignment configuration
+- Use relaxed alignment (`aspf=r`, `adkim=r`) for flexibility
+- Ensure at least one authentication method aligns
+- Test alignment after configuration changes
+- Monitor DMARC reports for alignment issues
+- Use subdomains strategically for email services
+- Document your alignment configuration
 
 ## Related topics
 
