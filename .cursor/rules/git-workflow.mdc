@@ -1,0 +1,109 @@
+---
+description: Git workflow rules to keep PRs clean and focused. Prevents accidentally staging unrelated files. Includes interactive checkpoints — the agent must pause and ask the user before proceeding at each stage.
+alwaysApply: true
+---
+
+# Git Workflow and PR Hygiene
+
+## Interactive checkpoints
+
+This workflow has mandatory checkpoints where you MUST stop and ask the user before continuing. Never skip these — even if you think you know the answer.
+
+### Checkpoint 1: Branch setup (before any file changes)
+
+When the user says they want to work on an article, category, or any content task, STOP and do the following:
+
+1. Run `git status` to check for untracked or uncommitted files.
+2. If there are untracked or modified files, **list them and ask the user what to do** before anything else. They may be leftover work from a previous session that needs to be committed, stashed, or discarded.
+3. Confirm what they want to work on (new article, update, category change, etc.)
+4. Propose a branch name following the naming convention and ask if it looks right
+5. Wait for approval, then **pull the latest `main`** (`git checkout main && git pull`) and create the branch from it
+
+Always update local `main` before branching. Stale branches cause merge conflicts.
+
+Example prompt (with untracked files): "Before we start, I noticed these untracked files in your working directory: `content/articles/http-to-https-redirect.md`, `.github/ISSUE_TEMPLATE/ssl-certificates-revamp.md`. Do you want to stash these, commit them to a separate branch, or leave them for now?"
+
+Example prompt (clean working directory): "Working directory is clean. I'll pull the latest `main` and create a branch. Does `add-ssl-lifecycle-article` work as the branch name, or would you prefer something different?"
+
+### Checkpoint 2: Pre-commit review (before staging any files)
+
+Before **every** commit, run `git status` and present a human-readable summary. Do NOT stage or commit anything until the user explicitly approves.
+
+1. List each changed file with a plain-language description of what changed and why:
+   - Good: "`content/articles/ssl-lifecycle.md` — new article explaining the SSL certificate lifecycle"
+   - Bad: "`content/articles/ssl-lifecycle.md`" (no explanation)
+2. Call out any files that look unrelated to the current task and recommend excluding them
+3. Propose the commit message
+4. Wait for the user to say yes
+
+This applies to every commit, not just the first one. If there are multiple commits in a session, repeat this checkpoint each time.
+
+Example prompt: "Here's what I'd like to commit:
+
+- `content/articles/ssl-lifecycle.md` — new article covering the SSL certificate lifecycle from order to expiration
+- `categories/ssl_certificates.yaml` — added the new article to the Explanation section
+
+I'll leave out these 3 untracked files that aren't part of this work: [list].
+
+Proposed commit message: 'Add SSL certificate lifecycle article'
+
+Does that look right?"
+
+### Checkpoint 3: PR creation (before opening the PR)
+
+Before creating a pull request, ask:
+
+1. List every file that will be in the PR
+2. Ask whether this should be a **draft PR** or a **ready-for-review PR**
+3. Propose a PR title and ask the user to confirm or adjust
+
+Example prompt: "Ready to open the PR. It includes these files: [list]. Should this be a draft PR or ready for review? And does this title work: 'Add SSL certificate lifecycle article'?"
+
+## Branch rules
+
+- **Always create a new branch** from the default branch (e.g., `main`). Never commit directly to `main`.
+- Every PR must come from its own branch.
+
+## What belongs in a PR
+
+A PR should contain **only** the changes described by its purpose:
+
+- Writing a new article? The PR has the new `.md` file, any images in `/files/`, and updates to `categories/*.yaml` if needed.
+- Updating an existing article? The PR has that one file (plus related cross-link updates if applicable).
+- Changing site infrastructure? Keep content changes in a separate PR.
+
+## What does NOT belong in a PR
+
+- Unrelated new articles or drafts that aren't finished
+- `.github/ISSUE_TEMPLATE/` files unless the PR is specifically about issue templates
+- Editor config files (`.vscode/`, IDE settings) — these are gitignored
+- Build output (`output/`, `dist/`, `node_modules/`)
+- Environment files (`.env`)
+
+## Commit messages
+
+- Use imperative mood: "Add article about…", "Update SSL guide…", "Fix broken link in…"
+- Keep the first line under 72 characters
+- One logical change per commit
+
+## PR scope
+
+- One PR = one logical unit of work (one new article, one set of related updates, one structural change).
+- If you find yourself wanting to commit changes to 10+ unrelated files, the PR scope is too broad — split it up.
+- When in doubt, ask: "If I reverted this PR, would exactly one thing disappear?"
+
+## Filenames
+
+- **ASCII only.** Use lowercase letters, numbers, and hyphens. No spaces, no underscores, no accented characters, no special symbols.
+- Good: `ssl-certificate-lifecycle.md`, `caa-records-ssl-certificates.md`
+- Bad: `SSL_Certificate–Lifecycle.md`, `café-setup.md`, `my article (draft).md`
+- macOS uses a different Unicode normalization (NFD) than Linux (NFC). Non-ASCII characters in filenames — even accented letters — will appear as different files on different OSes and cause phantom diffs in git.
+
+## Characters in content
+
+macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Em dashes (`—`) and en dashes (`–`) are fine in body text, but use hyphens (`-`) in filenames, frontmatter values, and anchor names.
+
+## Branch naming
+
+- Use descriptive branch names: `add-ssl-lifecycle-article`, `update-caa-records-guide`, `fix-ssl-crosslinks`
+- Avoid generic names like `updates` or `changes`
