@@ -8,7 +8,7 @@ categories:
 
 # How to Use dig
 
-When you're trying to troubleshoot DNS issues, `dig` (domain information groper) is one of the most valuable tools. If you're new to `dig`, start with [What Is dig?](/articles/what-is-dig/) for an introduction. For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/).
+When you are trying to troubleshoot DNS issues, `dig` (domain information groper) is one of the most valuable tools. If you are new to `dig`, start with [What Is dig?](/articles/what-is-dig/) for an introduction. For a quick reference of `dig` syntax and options, see the [dig Reference Guide](/articles/dig-reference-guide/).
 
 From the `dig` manual:
 
@@ -47,9 +47,9 @@ dnsimple.com.		59	IN	A	50.31.213.210
 - The **ANSWER** section shows the reply: "`dnsimple.com` has one A record with the content `50.31.213.210` and a time-to-live (TTL) of 59 seconds."
 - The **footer** shows how long the query took, which server was used, when the query ran, and the packet size.
 
-## `dig` at a name server
+## `dig` at a name server {#dig-at-a-name-server}
 
-What else can you do with `dig`? The first example uses the name servers configured locally. In that example, it's the Google public resolver at `8.8.8.8`. 
+What else can you do with `dig`? The first example uses the name servers configured locally. In that example, it is the Google public resolver at `8.8.8.8`. 
 
 You can also specify a name server:
 
@@ -76,7 +76,7 @@ dnsimple.com.		60	IN	A	50.31.213.210
 ;; MSG SIZE  rcvd: 46
 ```
 
-## `+trace`
+## `+trace` {#trace}
 
 Another useful option is `+trace`. This causes dig to make iterative queries to resolve the name being looked up. It starts from the root name servers and works its way through the domain name hierarchy.
 
@@ -131,7 +131,7 @@ With `+trace` enabled, you can see the entire delegation tree.
 
 - `dig` then queries `192.55.83.30` (`m.gtld-servers.net.`), and that name server responds with the `ns1.dnsimple.com` through `ns4.dnsimple.com` name servers. One of those is selected at random (`50.31.242.53` which is `ns3.dnsimple.com`). That name server finally returns the authoritative response and the IP address for the A record.
 
-## Additional common lookups
+## Additional common lookups {#additional-common-lookups}
 
 ### Querying AAAA (IPv6) records
 
@@ -187,13 +187,13 @@ www.dnsimple.com.	3599	IN	CNAME	dnsimple.com.
 ;; MSG SIZE  rcvd: 59
 ```
 
-## Digging deeper
+## Digging deeper {#digging-deeper}
 
 To dig even deeper into `dig`, open a console and type `dig -h` for the list of supported options, or `man dig` for more in-depth details about `dig` and how it functions.
 
-## Troubleshooting DNS issues
+## Troubleshooting DNS issues {#troubleshooting-dns-issues}
 
-If you're experiencing DNS resolution problems, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance. You may also want to [check your DNS cache](/articles/check-dns-cache/) if you're not seeing recent DNS changes.
+If you are experiencing DNS resolution problems, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance. You may also want to [check your DNS cache](/articles/check-dns-cache/) if you are not seeing recent DNS changes.
 
-## Have more questions?
-If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

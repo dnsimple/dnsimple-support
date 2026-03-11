@@ -9,7 +9,7 @@ categories:
 # Activating and Deactivating a DNS Zone
 You can activate the DNS hosting service for a domain from the domain **DNS** tab.
 
-## Activating a DNS zone
+## Activating a DNS zone {#activating-a-dns-zone}
 
 <div class="section-steps" markdown="1">
 ### To activate a DNS zone
@@ -31,7 +31,7 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 > New domains, whether registered, transferred, or manually added, will have DNS hosting disabled by default until you activate the zone.
 
 
-## Deactivating a DNS zone
+## Deactivating a DNS zone {#deactivating-a-dns-zone}
 
 <div class="section-steps" markdown="1">
 ### To deactivate a DNS zone
@@ -48,14 +48,14 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 
 > [!WARNING]
 > If a domain is delegated to our name servers, deactivating the DNS zone will immediately cause the domain to stop resolving. This applies whether the domain is registered or just hosted with us.
-> If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone won't change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
+> If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone will not change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
 
-## Use cases
+## Use cases {#use-cases}
 There are a few cases where you may want to deactivate a zone:
 
-- You wanted to register a domain with us, but you'll be using a different DNS hosting provider.
-- You wanted to register a domain with us, but you aren't actively using the domain (e.g., the domain is just reserved for future use or parked).
-- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us, and it isn't resolving with DNSimple.
+- You wanted to register a domain with us, but you will be using a different DNS hosting provider.
+- You wanted to register a domain with us, but you are not actively using the domain (e.g., the domain is just reserved for future use or parked).
+- You added the domain just to purchase an SSL certificate, but the domain is not delegated to us, and it is not resolving with DNSimple.
 
-## Have more questions?
-If you have any questions or need assistance activating or deactivating a DNS zone, contact support, and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have any questions or need assistance activating or deactivating a DNS zone, contact support, and we will be happy to help.

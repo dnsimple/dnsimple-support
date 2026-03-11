@@ -8,7 +8,7 @@ categories:
 
 # Common DNS Records
 
-Learn about the most common DNS records you'll need to configure for your domain.
+Learn about the most common DNS records you will need to configure for your domain.
 
 ### Table of Contents {#toc}
 
@@ -23,14 +23,14 @@ Learn about the most common DNS records you'll need to configure for your domain
 
 The [Domain Name System (DNS)](/articles/what-is-dns/) is built on various record types, also known as resource records, each serving a specific function. While the DNS ecosystem includes many types, some are foundational for nearly every functional domain, while others are specialized, less common, or have been superseded.
 
-This article will introduce you to the most common and essential DNS record types. We'll outline a basic set of DNS records that most domains need to function correctly for web browsing and email, along with simple ways to verify their presence.
+This article will introduce you to the most common and essential DNS record types. We will outline a basic set of DNS records that most domains need to function correctly for web browsing and email, along with simple ways to verify their presence.
 
-## Understanding the most common DNS record types
+## Understanding the most common DNS record types {#understanding-the-most-common-dns-record-types}
 
 Below is a summary of the most frequently used DNS record types. For a deeper dive into each, refer to their linked dedicated explanation articles.
 
 #### A record
-**Description:** The most fundamental type. An A record maps a human-readable domain name (like `www.example.com`) directly to an IPv4 address (e.g., `192.0.2.1`). It's how your browser finds the specific server hosting a website.
+**Description:** The most fundamental type. An A record maps a human-readable domain name (like `www.example.com`) directly to an IPv4 address (e.g., `192.0.2.1`). It is how your browser finds the specific server hosting a website.
 
 **Learn more:** [What Is an A Record?](/articles/a-record/)
 
@@ -40,7 +40,7 @@ Below is a summary of the most frequently used DNS record types. For a deeper di
 **Learn more:** [What Is an AAAA Record?](/articles/aaaa-record/)
 
 #### CNAME record
-**Description:** Functions as an alias, mapping one hostname to another hostname (e.g., `blog.example.com` to `yourblog.wordpress.com`). It's commonly used to reduce duplication and simplify maintenance when multiple names point to the same service.
+**Description:** Functions as an alias, mapping one hostname to another hostname (e.g., `blog.example.com` to `yourblog.wordpress.com`). It is commonly used to reduce duplication and simplify maintenance when multiple names point to the same service.
 
 **Learn more:** [What Is a CNAME Record?](/articles/cname-record/)
 
@@ -84,18 +84,18 @@ Below is a summary of the most frequently used DNS record types. For a deeper di
 
 **Learn more:** [What Is a URL Record?](/articles/url-record/)
 
-## Example DNS records for a typical domain
+## Example DNS records for a typical domain {#example-dns-records-for-a-typical-domain}
 
-While every domain's DNS configuration can be unique, a basic set of records is common to most domains for fundamental internet functionality (website and email). If you've just purchased a domain or are reviewing an existing setup, use this as a checklist.
+While every domain's DNS configuration can be unique, a basic set of records is common to most domains for fundamental internet functionality (website and email). If you have just purchased a domain or are reviewing an existing setup, use this as a checklist.
 
 _This article assumes `example.com` is your domain name._
 
 #### Root domain record (`example.com`) 
-Every domain needs a record for its root (or apex) domain. Without it, your domain won't resolve, and web browsers will return an error.
+Every domain needs a record for its root (or apex) domain. Without it, your domain will not resolve, and web browsers will return an error.
 
 - **Common configuration:**
     - An **A record** typically points to the IPv4 address where your website is hosted.
-    - If you're using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
+    - If you are using a cloud service (like Heroku, Netlify, GitHub Pages) that provides a hostname (not a static IP), and you need other records (like MX) on your root domain, an **ALIAS record** is the typical choice.
     - If the root domain needs to redirect to another URL (e.g.,`www.example.com`), you can use a **URL record**.
 
 > [!NOTE]
@@ -114,7 +114,7 @@ dnsimple.com.		59	IN	A	104.245.210.170
 ```
     
 #### `www` Subdomain record (`www.example.com`)
-It's common to configure the www subdomain in addition to the root domain.
+It is common to configure the www subdomain in addition to the root domain.
 
 - **Common configuration:**
     - An **A record** pointing to the same IP address as your root domain.
@@ -142,7 +142,7 @@ Example CNAME record output (showing the alias chain):
     ```
     
 #### MX email records
-If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one **MX record** pointing to your domain's mail server(s). For redundancy and reliability, it's common to have two or more MX records, each with different content and priority values.
+If you want to receive emails at your domain (e.g., `you@example.com`), you need at least one **MX record** pointing to your domain's mail server(s). For redundancy and reliability, it is common to have two or more MX records, each with different content and priority values.
 
 - **To verify (using `dig`):**
     - Open your terminal and type `dig MX example.com`.
@@ -177,14 +177,14 @@ Example CAA record output:
     dnsimple.com.		3599	IN	CAA	0 issuewild "sectigo.com"
     ```
     
-## Next steps: configuring your DNS records
+## Next steps: configuring your DNS records {#next-steps-configuring-your-dns-records}
 
-Once you understand these common records, you'll be ready to configure them for your domain.
+Once you understand these common records, you will be ready to configure them for your domain.
 
 For step-by-step instructions on how to add, edit, or remove any of these DNS records within your DNSimple account, please refer to our dedicated [How-To Guides](/categories/dns/).
 
 To learn how to use dig to verify your DNS records, consult [How to Use dig](/articles/how-dig/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

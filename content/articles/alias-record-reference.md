@@ -10,7 +10,7 @@ categories:
 
 This article serves as a reference for the structure, implementation, and key characteristics of DNSimple's proprietary [ALIAS record](/articles/alias-record/).
 
-## ALIAS record format
+## ALIAS record format {#alias-record-format}
 The ALIAS record is a proprietary record type developed by DNSimple and is not defined by any standard RFC. It is a "virtual" record that is dynamically resolved by DNSimple's name servers.
 
 In the DNSimple record editor, an ALIAS record is represented by the following configurable elements:
@@ -23,13 +23,13 @@ In the DNSimple record editor, an ALIAS record is represented by the following c
 |Content| The fully-qualified domain-name (FQDN) that the ALIAS record maps to.|
 
 
-## Technical implementation
+## Technical implementation {#technical-implementation}
 
 When a DNS resolver queries a domain with an ALIAS record, DNSimple's name servers perform a dynamic, real-time lookup of the hostname specified in the **Content** field. They then return the resulting [A](/articles/a-record/) (IPv4) or [AAAA](/articles/aaaa-record/) (IPv6) records to the resolver.
 
 From the resolver's perspective, the domain appears to have standard A or AAAA records. The proprietary nature of the ALIAS record is transparent to the rest of the Internet's DNS infrastructure.
 
-## Key characteristics
+## Key characteristics {#key-characteristics}
 
 **Coexists with other records:** Unlike a [CNAME record](/articles/cname-record/), an ALIAS record can coexist with other record types (e.g., [MX](/articles/mx-record/), [TXT](/articles/txt-record/), [NS](/articles/ns-record/) records) on the same hostname.
 
@@ -37,5 +37,5 @@ From the resolver's perspective, the domain appears to have standard A or AAAA r
 
 **Dynamic resolution:** The IP address that the ALIAS record resolves to is not static. It is determined dynamically by DNSimple's name servers each time the record is queried, reflecting any changes to the target hostname's IP address.
 
-## Have more questions?
-If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

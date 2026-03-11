@@ -15,19 +15,19 @@ categories:
 
 ---
 
-Here's a checklist of common issues to help you if a configured redirect is not redirecting correctly:
+Here is a checklist of common issues to help you if a configured redirect is not redirecting correctly:
 
 
-## Checking domain resolution status
+## Checking domain resolution status {#checking-domain-resolution-status}
 
 To use our [redirector service](/articles/redirector/), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues/) to determine whether the domain is resolving with DNSimple.
 
 
 ## Using cURL to test the redirect {#test}
 
-Sometimes the redirect is working correctly, but the browser cached the previous page and it's not showing the redirect. We highly recommend using an HTTP client and not a browser to test the redirect.
+Sometimes the redirect is working correctly, but the browser cached the previous page and it is not showing the redirect. We highly recommend using an HTTP client and not a browser to test the redirect.
 
-[`cURL`](https://curl.haxx.se/) is the most common HTTP client, and it's [available for a large number of operating systems](https://curl.haxx.se/download.html).
+[`cURL`](https://curl.haxx.se/) is the most common HTTP client, and it is [available for a large number of operating systems](https://curl.haxx.se/download.html).
 
 To test the redirect via `cURL` use the `-I` option to print the response headers:
 
@@ -42,6 +42,6 @@ Content-Type: text/plain; charset=utf-8
 
 The response code should be 301, and it should contain the Location. We also include the `X-Redirector-Version` custom header to help you determine if the redirect is sent from our redirector or from some other system.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about troubleshooting URL redirects, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about troubleshooting URL redirects, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -10,7 +10,7 @@ categories:
 
 This document provides a visual reference for key pages related to DNS management in the DNSimple interface. Each screenshot is labeled with numbers that correspond to an explanation of that feature or element.
 
-## Record Editor
+## Record Editor {#record-editor}
 The [Record Editor](/articles/record-editor/)  is where you manage your domain's DNS records. You can add, edit, or delete records from this page.
 
  ![Screenshot of record editor page](/files/record-editor-ref-1.png)
@@ -21,7 +21,7 @@ The [Record Editor](/articles/record-editor/)  is where you manage your domain's
 1. **Edit Record**: The pencil icon edits an existing record.
 1. **Delete Record**: The trash can icon deletes a record.
 
-## DNS tab
+## DNS tab {#dns-tab}
 The DNS tab on your domain's management page provides an overview of your DNS zone and access to key features.
 
  ![Screenshot of DNS tab](/files/record-editor-ref-3.png)
@@ -34,7 +34,7 @@ The DNS tab on your domain's management page provides an overview of your DNS zo
 1. **Export**: Click this button to export your zone file. A download will initiate. 
 1. **Import**: Click this button to import a zone file.
 
-## Import zone
+## Import zone {#import-zone}
 The Import zone page allows you to import your zone file from another provider.
 
  ![Screenshot of import zone file page](/files/record-editor-ref-2.png)
@@ -42,7 +42,7 @@ The Import zone page allows you to import your zone file from another provider.
 1. **Zone Data**: This field is where you paste the zone file data.
 1. **Import Zone**: Click this button to import your zone file.
 
-## Integrated Providers
+## Integrated Providers {#integrated-providers}
 The [Integrated Providers](/articles/integrated-dns-providers/) page in your account settings allows you to connect and manage external DNS providers.
 
 ![Screenshot of zone data import](/files/zone-data.png)
@@ -52,12 +52,12 @@ The [Integrated Providers](/articles/integrated-dns-providers/) page in your acc
 1. **Suggest a provider**: Click this link to suggest a provider that is not on the list.
 1. **Connected providers**: This card shows a list of providers you are already connected to.
 
-## Integrated DNS Provider on Domain Names Page
+## Integrated DNS Provider on Domain Names Page {#integrated-dns-provider-on-domain-names-page}
 The Domain Names page provides an overview of all your domains and their DNS zone status.
 
  ![Screenshot of Domain Names Page showing Integrated Provider](/files/integrated-dns-domain-name-zone.png)
 
 1. **DNS Zones**: This column shows the status of your DNS zone and the provider it is integrated with, if it has one.
 
-## Have more questions? 
-If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

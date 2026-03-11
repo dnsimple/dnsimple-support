@@ -8,9 +8,9 @@ categories:
 
 # Differences Between HTTPS and ALIAS Records
 
-HTTPS records and ALIAS records both enable apex domain aliasing (pointing your root domain to another hostname), but they serve different purposes and operate through different mechanisms. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it's service binding information or simple hostname resolution.
+HTTPS records and ALIAS records both enable apex domain aliasing (pointing your root domain to another hostname), but they serve different purposes and operate through different mechanisms. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it is service binding information or simple hostname resolution.
 
-## Core distinctions: service binding vs. hostname resolution
+## Core distinctions: service binding vs. hostname resolution {#core-distinctions-service-binding-vs-hostname-resolution}
 
 The primary difference between HTTPS records and ALIAS records lies in their purpose and the information they provide:
 
@@ -24,7 +24,7 @@ The primary difference between HTTPS records and ALIAS records lies in their pur
 - **Simple aliasing:** ALIAS records provide [CNAME](/articles/cname-record/)-like functionality for apex domains without the CNAME restrictions.
 - **DNSimple proprietary:** ALIAS records are a DNSimple-specific record type that works with DNSimple's name servers.
 
-## Understanding the differences in action
+## Understanding the differences in action {#understanding-the-differences-in-action}
 
 ### HTTPS records
 
@@ -74,7 +74,7 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 - Works only with DNSimple's name servers
 - Learn more: [What Is an ALIAS Record?](/articles/alias-record/)
 
-## When to use which
+## When to use which {#when-to-use-which}
 
 ### Use HTTPS records when:
 
@@ -83,18 +83,18 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 - You want **standard DNS record types** that work with any RFC 9460-compliant DNS provider
 - You need to provide **alternative endpoints** with different priorities for load balancing or failover
 - You want clients to receive **connection optimization information** before establishing a connection
-- You're implementing **modern service binding** features per RFC 9460
+- You are implementing **modern service binding** features per RFC 9460
 
 ### Use ALIAS records when:
 
 - You need **simple hostname aliasing** at the apex domain
 - You want **dynamic IP resolution** that automatically updates when the target hostname's IP changes
 - You need to **coexist with other record types** (like [MX records](/articles/mx-record/)) on the same hostname
-- You're using **DNSimple's DNS hosting** exclusively
+- You are using **DNSimple's DNS hosting** exclusively
 - You want **[CNAME](/articles/cname-record/)-like behavior** without CNAME restrictions
-- You don't need to specify protocol or connection parameters
+- You do not need to specify protocol or connection parameters
 
-## Key differences summary
+## Key differences summary {#key-differences-summary}
 
 | Aspect | HTTPS Records | ALIAS Records |
 |:-------|:--------------|:--------------|
@@ -108,7 +108,7 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 | **Apex domain support** | Yes (AliasMode) | Yes |
 | **Use case** | Service discovery and optimization | Simple hostname aliasing |
 
-## Practical examples
+## Practical examples {#practical-examples}
 
 ### Example 1: Apex domain pointing to Heroku
 
@@ -141,7 +141,7 @@ When queried, this ALIAS record dynamically resolves `myapp.herokuapp.com` to it
 
 Both work in this scenario, but HTTPS records provide additional service binding information while ALIAS records provide simple IP resolution.
 
-## Relationship to other record types
+## Relationship to other record types {#relationship-to-other-record-types}
 
 Both HTTPS and ALIAS records solve the apex domain aliasing problem that [CNAME records](/articles/cname-record/) cannot address. However:
 
@@ -150,7 +150,7 @@ Both HTTPS and ALIAS records solve the apex domain aliasing problem that [CNAME 
 
 For HTTP/HTTPS services, HTTPS records are generally preferred when you need service binding information and want standard DNS record types. ALIAS records are ideal when you need simple hostname aliasing with automatic IP updates and are using DNSimple's DNS hosting.
 
-## Related articles
+## Related articles {#related-articles}
 
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
 - [What Is an ALIAS Record?](/articles/alias-record/) - Learn more about ALIAS records and hostname resolution
@@ -158,6 +158,6 @@ For HTTP/HTTPS services, HTTPS records are generally preferred when you need ser
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 - [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Comprehensive comparison of A, CNAME, ALIAS, and URL records
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance choosing between HTTPS and ALIAS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance choosing between HTTPS and ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

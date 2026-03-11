@@ -8,7 +8,7 @@ categories:
 
 # Troubleshooting Domain Validation Issues
 
-Domain validation is required by ICANN to ensure the accuracy of contact information in the domain registration database. If you're experiencing problems with domain validation, this guide will help you identify and resolve common issues. For general information about domain validation, see [Domain Validation Requirements](/articles/icann-domain-validation/).
+Domain validation is required by ICANN to ensure the accuracy of contact information in the domain registration database. If you are experiencing problems with domain validation, this guide will help you identify and resolve common issues. For general information about domain validation, see [Domain Validation Requirements](/articles/icann-domain-validation/).
 
 ### Table of Contents {#toc}
 
@@ -17,16 +17,16 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 
 ---
 
-## Verification email not received
+## Verification email not received {#verification-email-not-received}
 
-**Symptom**: You haven't received the domain validation email after registering a new domain or changing your registrant contact information.
+**Symptom**: You have not received the domain validation email after registering a new domain or changing your registrant contact information.
 
 **Why it happens**: The verification email is sent to the registrant email address on file. Common reasons for not receiving it include:
 
 - The email is in your spam folder
 - The email address is incorrect or outdated
 - Email forwarding is not working
-- The email address doesn't exist or can't receive mail
+- The email address does not exist or cannot receive mail
 
 **Resolution steps**:
 
@@ -47,9 +47,9 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 
 5. **Update the registrant email**: If the email address is incorrect or cannot receive email, [update the registrant contact information](/articles/changing-domain-contact/) to an active email address you can access. For detailed instructions, see [Changing Domain Contacts](/articles/changing-domain-contact/).
 
-## Domain suspended due to validation failure
+## Domain suspended due to validation failure {#domain-suspended-due-to-validation-failure}
 
-**Symptom**: Your domain has been suspended and displays a message indicating it's suspended due to validation failure.
+**Symptom**: Your domain has been suspended and displays a message indicating it is suspended due to validation failure.
 
 **Why it happens**: If your domain's registrant email address is not verified within 15 days, ICANN requires that the domain be suspended. This is part of the [RDDS Accuracy program](https://www.icann.org/resources/pages/rdds-2013-02-28-en).
 
@@ -72,23 +72,23 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 4. **Wait for suspension to be lifted**: After verifying the email, the domain suspension will be lifted. This may take between 24 and 48 hours due to DNS caching.
 
 > [!WARNING]
-> If your domain is suspended, you may not be able to receive email at addresses associated with the domain because the email services have stopped working. This is why you may need to update the registrant email to an address that's not associated with the suspended domain.
+> If your domain is suspended, you may not be able to receive email at addresses associated with the domain because the email services have stopped working. This is why you may need to update the registrant email to an address that is not associated with the suspended domain.
 
-## Email address cannot receive email
+## Email address cannot receive email {#email-address-cannot-receive-email}
 
 **Symptom**: The registrant email address exists but cannot receive email, or you set up the email address after registration.
 
 **Resolution**: 
 
-1. **Set up the email address**: If you created the email address after registration, ensure it's fully set up and can receive email.
+1. **Set up the email address**: If you created the email address after registration, ensure it is fully set up and can receive email.
 
 2. **Contact support to resend**: Once the email address is ready, contact [support@dnsimple.com](mailto:support@dnsimple.com) to request that the verification email be resent. Be sure to include the domain name that needs to be verified in your email.
 
 3. **Update to a working email**: If the email address cannot be set up or is not working, [update the registrant contact information](/articles/changing-domain-contact/) to an email address that can receive mail. For instructions, see [Changing Domain Contacts](/articles/changing-domain-contact/).
 
-## Verification link expired or not working
+## Verification link expired or not working {#verification-link-expired-or-not-working}
 
-**Symptom**: You received the verification email but the link doesn't work or says it has expired.
+**Symptom**: You received the verification email but the link does not work or says it has expired.
 
 **Resolution**: 
 
@@ -96,9 +96,9 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 
 2. **Use the latest email**: Always use the link from the most recent verification email you received. Older links may have expired.
 
-3. **Check the URL**: The verification link should go to `https://www.emailverification.info/`. If you're being redirected elsewhere or seeing an error, try copying and pasting the link directly into your browser's address bar.
+3. **Check the URL**: The verification link should go to `https://www.emailverification.info/`. If you are being redirected elsewhere or seeing an error, try copying and pasting the link directly into your browser's address bar.
 
-## Domain locked for transfer due to contact change
+## Domain locked for transfer due to contact change {#domain-locked-for-transfer-due-to-contact-change}
 
 **Symptom**: You see a message that your domain is locked for transfer after changing the registrant contact information.
 
@@ -109,40 +109,40 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 > [!NOTE]
 > The transfer lock only applies to transferring the domain to another registrar. You can still make other changes to your domain, such as updating DNS records or name servers.
 
-## Multiple domains need validation
+## Multiple domains need validation {#multiple-domains-need-validation}
 
-**Symptom**: You have multiple domains that all need validation, and you're receiving many verification emails.
+**Symptom**: You have multiple domains that all need validation, and you are receiving many verification emails.
 
 **Resolution**: 
 
 1. **Verify each domain individually**: Each domain requires its own verification. You must click the verification link in each email you receive.
 
-2. **Use the same email address**: If all domains use the same registrant email address, you'll receive one verification email per domain. Make sure to verify each one.
+2. **Use the same email address**: If all domains use the same registrant email address, you will receive one verification email per domain. Make sure to verify each one.
 
-3. **Bulk verification**: There's no bulk verification option. Each domain must be verified separately by clicking the link in its respective verification email.
+3. **Bulk verification**: There is no bulk verification option. Each domain must be verified separately by clicking the link in its respective verification email.
 
-## Verification status not updating
+## Verification status not updating {#verification-status-not-updating}
 
-**Symptom**: You've verified the email, but the warning message is still showing in your DNSimple account.
+**Symptom**: You have verified the email, but the warning message is still showing in your DNSimple account.
 
 **Resolution**: 
 
 1. **Click Refresh**: The system may not have updated yet. On your domain page, click **Refresh** to manually force a refresh of the validation status.
 
-2. **Wait a few minutes**: Sometimes there's a delay between verification and status updates. Wait a few minutes and refresh the page.
+2. **Wait a few minutes**: Sometimes there is a delay between verification and status updates. Wait a few minutes and refresh the page.
 
 3. **Check verification was successful**: Visit `https://www.emailverification.info/` and verify that your domain shows as verified there.
 
-4. **Contact support**: If the status still doesn't update after refreshing, [contact support](https://dnsimple.com/feedback) with your domain name and the date/time you completed verification.
+4. **Contact support**: If the status still does not update after refreshing, [contact support](https://dnsimple.com/feedback) with your domain name and the date/time you completed verification.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you've tried these troubleshooting steps and are still experiencing issues with domain validation, [contact our support team](https://dnsimple.com/feedback). Please include:
+If you have tried these troubleshooting steps and are still experiencing issues with domain validation, [contact our support team](https://dnsimple.com/feedback). Please include:
 
 - Your domain name
 - The registrant email address on file (you can find this in the [public whois](https://dnsimple.com/whois))
-- Whether you've received any verification emails
-- Any error messages you've encountered
-- Steps you've already taken to resolve the issue
+- Whether you have received any verification emails
+- Any error messages you have encountered
+- Steps you have already taken to resolve the issue
 
-We'll be happy to help you complete the validation process and get your domain back online if it's been suspended.
+We will be happy to help you complete the validation process and get your domain back online if it is been suspended.

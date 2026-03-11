@@ -17,9 +17,9 @@ categories:
 
 You can manage [CNAME records](/articles/cname-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [CNAME record format](/articles/url-record-format-details/) and usage.
+The instructions in this article assume you are familiar with the [CNAME record format](/articles/url-record-format-details/) and usage.
 
-## Adding a CNAME record
+## Adding a CNAME record {#adding-a-cname-record}
 
 <div class="section-steps" markdown="1">
 #### To add a CNAME record
@@ -42,7 +42,7 @@ The instructions in this article assume you're familiar with the [CNAME record f
   - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 > - In DNSimple, **Content** = what others might call _Value._
 
@@ -60,14 +60,14 @@ You cannot add another record type on a subdomain where a **CNAME record** alrea
 A CNAME points the entire subdomain to another hostname, so it overrides any other records on that subdomain. Because of this, the DNS system blocks you from adding a CNAME alongside other records.
 
 **Examples:**
-- If `email.example.com` already has an MX record, and you try to add a CNAME to that exact subdomain (`email.example.com`), the [MX record](/articles/mx-record/) would stop working. The CNAME would override the subdomain (`email.example.com`), rendering the MX record useless, which stops your email. To counter this potential error, the Domain Name System doesn't allow other records alongside a CNAME.  
-- You also can't add a CNAME at the root domain (like `example.com`). The root already requires other records (e.g., [NS](/articles/ns-record/) and [SOA](/articles/soa-record/)). Trying to create a CNAME there will return an error:
+- If `email.example.com` already has an MX record, and you try to add a CNAME to that exact subdomain (`email.example.com`), the [MX record](/articles/mx-record/) would stop working. The CNAME would override the subdomain (`email.example.com`), rendering the MX record useless, which stops your email. To counter this potential error, the Domain Name System does not allow other records alongside a CNAME.  
+- You also cannot add a CNAME at the root domain (like `example.com`). The root already requires other records (e.g., [NS](/articles/ns-record/) and [SOA](/articles/soa-record/)). Trying to create a CNAME there will return an error:
 ```
 Another record already exists for example.com, cannot add a CNAME.
 ```
 You can achieve a similar behavior to CNAME records with an ALIAS record. If you want a sub-domain to always resolve to the IP address of another domain, you can use an ALIAS record pointing to that domain. You should only do this if absolutely necessary, as the ALIAS record has a small amount of additional overhead compared to [A and CNAME records](/articles/differences-between-a-cname-alias-url/).
 
-## Updating a CNAME record
+## Updating a CNAME record {#updating-a-cname-record}
 
 <div class="section-steps" markdown="1">
 #### To update a CNAME record
@@ -82,7 +82,7 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 1. Update the information, and click **Update Record** to save the record.
 </div>
 
-## Removing a CNAME record
+## Removing a CNAME record {#removing-a-cname-record}
 
 <div class="section-steps" markdown="1">
 #### To remove a CNAME record
@@ -97,6 +97,6 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 1. Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have more questions or need assistance setting up CNAME records, just [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have more questions or need assistance setting up CNAME records, just [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

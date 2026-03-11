@@ -18,7 +18,7 @@ categories:
 This article contains a list of the most common redirect scenarios for an application hosted on Heroku, along with some solutions for each scenario.
 
 > [!NOTE]
-> This article contains information about redirects and HTTPS. If you aren't familiar with this topic, you can take a look at [how redirects work with HTTPS](https://blog.dnsimple.com/2016/08/https-redirects/) first.
+> This article contains information about redirects and HTTPS. If you are not familiar with this topic, you can take a look at [how redirects work with HTTPS](https://blog.dnsimple.com/2016/08/https-redirects/) first.
 
 
 ## Redirecting www to not-www (without HTTPS) {#redirect-nohttps}
@@ -43,7 +43,7 @@ In this case, the simplest solution is to use our [redirector service](/articles
     - Add `www` as _Name_
     - Add `http://example.com` as _URL_
 
-1.  And that's it. [Check](/articles/troubleshooting-redirects/#test) that the redirect works properly.
+1.  And that is it. [Check](/articles/troubleshooting-redirects/#test) that the redirect works properly.
 </div>
 
 Alternatively, you can point both the www and not www versions of the site to Heroku and handle the redirect at the application level.
@@ -118,7 +118,7 @@ In this case, [you cannot use our redirector service](/articles/redirector/). Th
 
 In this scenario you have an application hosted on Heroku, configured with a custom domain (e.g. `example.com`). You want to redirect the HTTP version (`http://example.com`) to the same Heroku application under HTTPS (`https://example.com`).
 
-In this case, [you cannot use our redirector service](/articles/redirector/) because it's not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
+In this case, [you cannot use our redirector service](/articles/redirector/) because it is not possible to point the same domain at DNS level to two different applications based on the HTTP/HTTPS scheme. The best strategy is to handle the redirect at application level.
 
 <div class="section-steps" markdown="1">
 ##### To handle the redirect at Heroku {#redirect-http2https-application}
@@ -153,7 +153,7 @@ In this case, [you cannot use our redirector service](/articles/redirector/) bec
 1.  In your application, intercept the incoming request. If the request comes from HTTP, redirect the request to the same domain replacing HTTP with HTTPS. How to perform a redirect depends on the programming language and/or framework your application is developed with.
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about redirecting www to non-www at Heroku or HTTPS redirects, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about redirecting www to non-www at Heroku or HTTPS redirects, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

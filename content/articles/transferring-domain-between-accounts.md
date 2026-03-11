@@ -26,7 +26,7 @@ Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer)
 > Once the transfer is accepted, anyone who previously had access to the domain in your account will no longer be able to manage the domain.
 > When transferring a domain to another DNSimple account, the domain's registrant information will be updated to reflect the new account. This may result in the domain being [locked from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
-## Initiating a transfer
+## Initiating a transfer {#initiating-a-transfer}
 
 > [!NOTE]
 > Once the domain is transferred, you can no longer control it under your current account.
@@ -36,7 +36,7 @@ Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer)
 1. In the **Move domain to another DNSimple account** card, click **Move**.
 You will be prompted to enter the destination account identifier of the account that will receive the domain.
 
-## How the recipient can find their account identifier
+## How the recipient can find their account identifier {#how-the-recipient-can-find-their-account-identifier}
 
 1. Open the **account switcher** in the **top-right corner** and select the correct account.
 1. From the account switcher, click **Account Settings**.
@@ -44,34 +44,34 @@ You will be prompted to enter the destination account identifier of the account 
 1. The **Account Identifier** appears in the **Account** card on the right, under the account name and notification email. They should copy that value and share it with you
 
 
-## Completing the transfer
+## Completing the transfer {#completing-the-transfer}
 
 1. Enter the **destination account identifier**.
 1. Click **Move domain**.
 1. A banner will appear confirming the request to push the domain.
 
 > [!WARNING]
-> Make sure to correctly enter the account identifier. **Once the transfer has been initiated, you won't be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
+> Make sure to correctly enter the account identifier. **Once the transfer has been initiated, you will not be able to cancel the transfer on your own if the identifier is incorrect.** If the identifier is wrong, and you need to cancel the transfer, you will have to contact support for assistance.
 
-## Accepting a transfer
+## Accepting a transfer {#accepting-a-transfer}
 
-If another DNSimple account holder (this includes Resellers) attempts to push a domain into your account, you have to accept it before it will be added. You'll receive a notification on your domain list and an email to the account email address indicating the pending push.
+If another DNSimple account holder (this includes Resellers) attempts to push a domain into your account, you have to accept it before it will be added. You will receive a notification on your domain list and an email to the account email address indicating the pending push.
 
 ![screenshot: Notification of pending pushes](/files/pending-push-notification.png)
 
-When you review your pending pushes, you'll see a list with options to **Accept** or **Reject** the domain(s).
+When you review your pending pushes, you will see a list with options to **Accept** or **Reject** the domain(s).
 
 ![screenshot: Accept or reject pending push](/files/pending-pushes.jpg)
 
-Click **Accept**. You'll be prompted to assign a contact to the domain — this will typically be you or someone on your team. You can choose an existing contact or create a new one. After you've assigned a contact, the domain will be transferred to your account. From there, you can configure it as needed.
+Click **Accept**. You will be prompted to assign a contact to the domain — this will typically be you or someone on your team. You can choose an existing contact or create a new one. After you have assigned a contact, the domain will be transferred to your account. From there, you can configure it as needed.
 
-## Rejecting a transfer
+## Rejecting a transfer {#rejecting-a-transfer}
 
 To reject a transfer, click the **Reject** on the list of pending pushes, and confirm that you want to reject the push.
 
 > [!NOTE]
 > If you reject a transfer request, the domain will remain in the possession of the original owner.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you need any assistance transferring domains to other DNSimple accounts or have more questions, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you need any assistance transferring domains to other DNSimple accounts or have more questions, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

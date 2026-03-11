@@ -15,18 +15,18 @@ categories:
 
 ---
 
-If you're experiencing intermittent or unexpected empty responses in your DNS zone, [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) might be the cause. This guide helps you diagnose and resolve ENT-related issues.
+If you are experiencing intermittent or unexpected empty responses in your DNS zone, [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) might be the cause. This guide helps you diagnose and resolve ENT-related issues.
 
-## Understanding the symptoms
+## Understanding the symptoms {#understanding-the-symptoms}
 
 ENT-related issues typically manifest as:
 
 - **Unexpected empty responses** for domain names that should return records
-- **Inconsistent wildcard matching** where some subdomains match but others don't
+- **Inconsistent wildcard matching** where some subdomains match but others do not
 - **Empty responses after adding records** deeper in the hierarchy
 - **Different behavior after certificate provisioning** (Let's Encrypt/ACME challenges)
 
-## Step 1: Identify Empty Non-Terminals
+## Step 1: Identify Empty Non-Terminals {#step-1-identify-empty-non-terminals}
 
 Use a script or manual inspection to identify ENTs in your zone. Start by querying the problematic name:
 
@@ -62,7 +62,7 @@ $ dig @ns1.dnsimple.com example.com AXFR
 
 This shows all records and helps identify where ENTs are created in the hierarchy.
 
-## Step 2: Investigate common causes
+## Step 2: Investigate common causes {#step-2-investigate-common-causes}
 
 When troubleshooting ENT-related issues, check for these common causes:
 
@@ -121,9 +121,9 @@ $ dig @ns1.dnsimple.com _tcp.example.com SRV +short
 
 If you get an empty response but SRV records exist beneath it, the intermediate name is an ENT.
 
-## Step 3: Resolve ENT issues
+## Step 3: Resolve ENT issues {#step-3-resolve-ent-issues}
 
-Once you've identified an ENT causing problems, you have several options:
+Once you have identified an ENT causing problems, you have several options:
 
 ### Option A: Add an explicit record
 
@@ -140,13 +140,13 @@ This makes the name no longer an ENT—it now has its own record.
 If the record creating the ENT is no longer needed (such as an old ACME challenge), remove it:
 
 1. Identify the record creating the ENT
-2. Verify it's safe to remove
+2. Verify it is safe to remove
 3. Delete the record from your zone
 
 This eliminates the ENT and restores wildcard matching.
 
 > [!WARNING]
-> Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
+> Only remove records if you are certain they are no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
 
 ### Option C: Restructure your zone
 
@@ -156,7 +156,7 @@ If ENTs are causing widespread issues, consider restructuring your zone to avoid
 - Moving records to avoid creating ENTs
 - Using explicit records instead of relying on wildcards
 
-## Step 4: Verify the fix
+## Step 4: Verify the fix {#step-4-verify-the-fix}
 
 After making changes, verify that the issue is resolved:
 
@@ -178,7 +178,7 @@ $ dig @ns1.dnsimple.com new-subdomain.prod.example.com A +short
 
 New subdomains should match the wildcard.
 
-## Common troubleshooting scenarios
+## Common troubleshooting scenarios {#common-troubleshooting-scenarios}
 
 ### Scenario 1: Empty response after certificate provisioning
 
@@ -204,7 +204,7 @@ New subdomains should match the wildcard.
 
 **Solution:** Ensure both providers comply with RFC 4592. DNSimple follows RFC 4592 and industry-standard behaviors consistent with implementations like PowerDNS.
 
-## Related articles
+## Related articles {#related-articles}
 
 - [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) — Understand what ENTs are and how they work
 
@@ -214,6 +214,6 @@ New subdomains should match the wildcard.
 
 - [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) — General guide to troubleshooting DNS record resolution
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with troubleshooting Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with troubleshooting Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

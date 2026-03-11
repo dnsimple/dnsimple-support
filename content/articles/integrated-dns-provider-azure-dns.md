@@ -18,7 +18,7 @@ categories:
 
 This article serves as a reference for the prerequisites, supported features, and record types for connecting Azure DNS as an [Integrated DNS Provider](/articles/what-are-integrated-providers/).
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [Integrated DNS Provider](/articles/integrated-dns-providers/), you need:
 
@@ -31,7 +31,7 @@ To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [In
 
 ![Connecting Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
 
-## Supported features
+## Supported features {#supported-features}
 
 > [!WARNING]
 > Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#tags) and [metadata](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#metadata) will not be retained and will be <strong>lost</strong> when using this integration.
@@ -67,5 +67,5 @@ The following Azure DNS record types are supported for syncing and management at
 > [!NOTE]
 > [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Azure DNS. When synced from DNSimple to Azure, a URL record will be represented in Azure as an A record that points to our [redirector](/articles/redirector/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -10,11 +10,11 @@ categories:
 
 This article serves as a reference for the formal structure, roles, and key technical details of domain contact types.
 
-## Domain contact overview
+## Domain contact overview {#domain-contact-overview}
 
 Domain contacts are individuals or organizations associated with a domain name registration. Contacts are required for domain registration and serve different roles in domain management. Contact information is stored in the WHOIS database and may be publicly accessible unless WHOIS privacy protection is enabled.
 
-## Contact types
+## Contact types {#contact-types}
 
 ### Registrant
 
@@ -96,7 +96,7 @@ Learn more:
 
 **Usage:** Billing contacts are less commonly used in modern domain management, as many registrars consolidate contact roles. At DNSimple, billing contact information is typically the same as the registrant contact.
 
-## Contact information structure
+## Contact information structure {#contact-information-structure}
 
 **Required fields:** All contact types require the following information:
 - Name (individual or organization name)
@@ -119,7 +119,7 @@ Learn more:
 - Must include all required components (street, city, state/province, postal code, country)
 - Must be accurate and up to date
 
-## Contact management
+## Contact management {#contact-management}
 
 **Creating contacts:** Contacts can be created during domain registration or SSL certificate purchase, or through the Contacts page in your DNSimple account.
 
@@ -127,14 +127,14 @@ Learn more:
 
 **Deleting contacts:** Contacts cannot be deleted if they are associated with at least one domain or SSL certificate. You must remove all associations before deleting a contact.
 
-**Contact accuracy:** It's important to ensure contact information is accurate and up to date, as this information is used for important communications and may be subject to ICANN validation requirements.
+**Contact accuracy:** It is important to ensure contact information is accurate and up to date, as this information is used for important communications and may be subject to ICANN validation requirements.
 
 Learn more:
 
 - [Managing Your Contacts](/articles/contact-management/)
 - [Changing Domain Contacts](/articles/changing-domain-contact/)
 
-## Contact roles in practice
+## Contact roles in practice {#contact-roles-in-practice}
 
 **Consolidated contacts:** At DNSimple and many modern registrars, contact roles are often consolidated. The registrant contact information is typically used for all contact types (administrative, technical, and billing), simplifying domain management.
 
@@ -142,7 +142,7 @@ Learn more:
 
 **Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to contact types. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
 
-## WHOIS and privacy
+## WHOIS and privacy {#whois-and-privacy}
 
 **Public accessibility:** Contact information is typically stored in the WHOIS database and may be publicly accessible, depending on the TLD and registrar policies.
 
@@ -155,7 +155,7 @@ Learn more:
 - [What Is WHOIS Privacy?](/articles/what-is-whois-privacy/)
 - [Domain Privacy After GDPR](/articles/domain-privacy-after-gdpr/)
 
-## Contact validation
+## Contact validation {#contact-validation}
 
 **ICANN requirements:** For domains under ICANN regulations, registrants may be required to validate their contact information. This typically involves responding to an email sent to the registrant email address.
 
@@ -167,6 +167,6 @@ Learn more:
 
 - [Domain Validation Requirements](/articles/icann-domain-validation/)
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with domain contact types, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with domain contact types, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

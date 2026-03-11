@@ -9,7 +9,7 @@ categories:
 # SOA Record Reference
 This article serves as a reference for the formal structure, components, and key technical details of an [SOA (Start of Authority) record](https://support.dnsimple.com/articles/soa-record/) .
 
-## SOA record format
+## SOA record format {#soa-record-format}
 An SOA record is a mandatory administrative record that must exist in every DNS zone. It is defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035) and has a type code of 6.
 
 The record's data section (RDATA) is composed of several fields that provide vital administrative information about the zone:
@@ -32,7 +32,7 @@ The record's data section (RDATA) is composed of several fields that provide vit
 - `expire`: The expire limit in seconds.
 - `minimum-ttl`: The minimum TTL for the zone.
 
-## SOA record components and behavior
+## SOA record components and behavior {#soa-record-components-and-behavior}
 - `mname` (**master name**): This is the hostname of the primary name server for the zone. All updates to the zone should originate here.
 
 - `rname` (**responsible person**): This is the email address of the person responsible for the zone, with the `@` replaced by a `.` (e.g., `admin@example.com` becomes `admin.example.com`).
@@ -47,5 +47,5 @@ The record's data section (RDATA) is composed of several fields that provide vit
 
 - `minimum-ttl`: This specifies how long (in seconds) a DNS resolver should cache a negative response (e.g., for a non-existent record) before retrying the query.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

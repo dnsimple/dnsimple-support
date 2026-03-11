@@ -16,13 +16,13 @@ categories:
 
 ---
 
-## What is a DKIM record?
+## What is a DKIM record? {#what-is-a-dkim-record}
 
-**DKIM**, which stands for **DomainKeys Identified Mail**, is an email authentication method designed to enhance the trustworthiness and security of email communications. It provides a way for email recipients to verify that an email message was sent and authorized by the owner of the domain it claims to be from and hasn't been tampered with in transit.
+**DKIM**, which stands for **DomainKeys Identified Mail**, is an email authentication method designed to enhance the trustworthiness and security of email communications. It provides a way for email recipients to verify that an email message was sent and authorized by the owner of the domain it claims to be from and has not been tampered with in transit.
 
 In an era of rampant email spoofing, phishing, and spam, DKIM plays a vital role in helping mail servers differentiate legitimate email from fraudulent messages, significantly reducing the amount of unwanted or malicious email that reaches inboxes.
 
-## How DKIM works: digital signatures for email
+## How DKIM works: digital signatures for email {#how-dkim-works-digital-signatures-for-email}
 DKIM utilizes a cryptographic technique involving a pair of keys: a private key and a public key.
 
 1. **Signing the email (private key):** When an organization sends an email on your behalf (e.g., an email service provider), they use a **private key** to generate a unique digital signature for that email. This signature is embedded within the email's hidden headers.
@@ -30,7 +30,7 @@ DKIM utilizes a cryptographic technique involving a pair of keys: a private key 
 1. **Publishing the public key (DNS TXT record):** Your organization publishes the corresponding **public key** in your domain's DNS as a [TXT record](/articles/txt-record/). This public key is specifically placed at a unique subdomain, often structured using a **selector** (e.g., `s1._domainkey.yourdomain.com` or `google._domainkey.yourdomain.com`). The selector allows a single domain to have multiple DKIM keys. This is useful for different sending services or key rotation.
 
 > [!NOTE]
-> This subdomain structure may create an [Empty Non-Terminal (ENT)](/articles/empty-non-terminals/) at `_domainkey.yourdomain.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+> This subdomain structure may create an [Empty Non-Terminal (ENT)](/articles/empty-non-terminals/) at `_domainkey.yourdomain.com`. If you are using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 1. **Verifying the email (public key):** When a recipient's mail server receives an email claiming to be from your domain, it performs a DNS lookup for the DKIM public key using the selector found in the email's header. It then uses this retrieved public key to verify the email's digital signature.
 
@@ -38,7 +38,7 @@ If the signature matches, it confirms:
 - The email genuinely originated from a server authorized by your domain.
 - The email's content (including headers and body) has not been altered since it was signed.
 
-## Key benefits of DKIM
+## Key benefits of DKIM {#key-benefits-of-dkim}
 
 **Combats spoofing and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
 
@@ -48,13 +48,13 @@ If the signature matches, it confirms:
 
 DKIM is often used in conjunction with [SPF](/articles/spf-record/) (Sender Policy Framework) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting, and Conformance) to form a comprehensive email authentication strategy.
 
-## Setting up and verifying DKIM
+## Setting up and verifying DKIM {#setting-up-and-verifying-dkim}
 For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Setting Up DKIM](/articles/set-up-dkim/).
 
 To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
 
-## Technical details
+## Technical details {#technical-details}
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

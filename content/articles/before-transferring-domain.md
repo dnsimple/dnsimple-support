@@ -16,17 +16,17 @@ categories:
 
 Transferring domain names from one registrar to another often causes concerns of downtime. The following steps will hopefully help you avoid any downtime while transferring, so the process is as smooth and easy as possible.
 
-## DNSSEC considerations
+## DNSSEC considerations {#dnssec-considerations}
 
 Our system will perform a series of automated maintenance tasks after your domain gets transferred to DNSimple:
-- We will automatically provision any missing DS records to ensure DNSSEC works correctly if it's enabled.
+- We will automatically provision any missing DS records to ensure DNSSEC works correctly if it is enabled.
 - We will pull any missing custom DS records from the parent zone so that they show up when in the [DS record management page](/articles/ds-records-changing-dns/)
 
 Please remember that an incorrect DNSSEC set up may cause your domain to be inaccessible:
-- If you haven't enabled DNSSEC with us, and it is enabled in your current provider, please either enable it with us or disable it with your current provider before transferring.
-- If you have enabled DNSSEC with us, and you're delegating your domain through multiple providers, please make sure that all of them are configured correctly before transferring. You can contact us for guidance at [support@dnsimple.com](mailto:support@dnsimple.com).
+- If you have not enabled DNSSEC with us, and it is enabled in your current provider, please either enable it with us or disable it with your current provider before transferring.
+- If you have enabled DNSSEC with us, and you are delegating your domain through multiple providers, please make sure that all of them are configured correctly before transferring. You can contact us for guidance at [support@dnsimple.com](mailto:support@dnsimple.com).
 
-## Adding the domain to DNSimple
+## Adding the domain to DNSimple {#adding-the-domain-to-dnsimple}
 
 The first step, before starting the domain transfer, is to move the DNS management to DNSimple. This requires you to sign up for an account, activate your account, and [add the domain](/articles/adding-domain/) *without* transferring it.
 
@@ -36,7 +36,7 @@ This gives you the chance to fully set up and test your DNS records *before* you
 > When you add your domain name it should be the domain only and not subdomains. You will add subdomains as DNS records in the next step.
 
 
-## Copying the DNS records into DNSimple
+## Copying the DNS records into DNSimple {#copying-the-dns-records-into-dnsimple}
 
 Configure the DNS records for the domain. To do this you can do any of the following:
 
@@ -46,9 +46,9 @@ Configure the DNS records for the domain. To do this you can do any of the follo
 1. Bulk-import the records using the *Zone Import* feature.
 
 
-## Checking the DNS record configuration
+## Checking the DNS record configuration {#checking-the-dns-record-configuration}
 
-Once you've added all of the records for your domain, use a tool like `dig`, which is a command-line tool, to verify each of the records.
+Once you have added all of the records for your domain, use a tool like `dig`, which is a command-line tool, to verify each of the records.
 
 Since your domain is still pointing to the previous registrar, you manually need to query against one of the DNSimple name server to check the real results.
 
@@ -77,7 +77,7 @@ $ dig @ns1.dnsimple.com www.example.com CNAME
 ```
 
 
-## Pointing the domain to DNSimple
+## Pointing the domain to DNSimple {#pointing-the-domain-to-dnsimple}
 
 After you have verified all of your records, you should [point the domain to DNSimple](/articles/delegating-dnsimple-hosted/) by switching the domain name servers from your current name servers to DNSimple's name servers. You will do this at your current registrar.
 
@@ -92,10 +92,10 @@ Name servers that are currently caching your domain's DNS records need time for 
 > It may take up to 24 hours for changes to propagate.
 
 
-## Transferring the domain to DNSimple
+## Transferring the domain to DNSimple {#transferring-the-domain-to-dnsimple}
 
 Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/domain-transfer/) without worrying about downtime.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about preparing a domain transfer to avoid downtime, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about preparing a domain transfer to avoid downtime, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

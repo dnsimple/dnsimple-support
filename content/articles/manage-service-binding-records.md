@@ -17,9 +17,9 @@ categories:
 
 You can manage [service binding records](/articles/service-binding-records/) (SVCB and HTTPS) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [service binding record format](/articles/service-binding-records/#service-binding-record-structure) and usage.
+The instructions in this article assume you are familiar with the [service binding record format](/articles/service-binding-records/#service-binding-record-structure) and usage.
 
-## Adding HTTPS records
+## Adding HTTPS records {#adding-https-records}
 
 The process for adding HTTPS records is straightforward. The **Name** field uses a simple format since the service and protocol are implicit for HTTP/HTTPS services.
 
@@ -49,13 +49,13 @@ The process for adding HTTPS records is straightforward. The **Name** field uses
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    Once you're ready, click <label>Add Record</label> to confirm and create the record.
+    Once you are ready, click <label>Add Record</label> to confirm and create the record.
 
 1. The record is created and visible in the record list.
 
 </div>
 
-## Adding SVCB records
+## Adding SVCB records {#adding-svcb-records}
 
 The process for adding SVCB records is similar to HTTPS records, but the **Name** field requires explicit service and protocol specification using the format `_service._protocol.hostname`.
 
@@ -90,22 +90,22 @@ The process for adding SVCB records is similar to HTTPS records, but the **Name*
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Optionally include a [record note](/articles/record-notes/).
 
-    Once you're ready, click <label>Add Record</label> to confirm and create the record.
+    Once you are ready, click <label>Add Record</label> to confirm and create the record.
 
 1. The record is created and visible in the record list.
 
 </div>
 
 > [!NOTE]
-> SVCB records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+> SVCB records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you are using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 > - In DNSimple, **Target** = the target hostname for the service binding record.
 > - In DNSimple, **Service Parameters** = the SvcParams field containing key=value pairs.
 
-## Examples
+## Examples {#examples}
 
 ### HTTPS record examples
 
@@ -173,7 +173,7 @@ To create multiple SVCB records with different priorities for failover:
 
 This creates two records that clients will try in order of priority (1, then 2).
 
-## Updating service binding records
+## Updating service binding records {#updating-service-binding-records}
 
 The process for updating service binding records is the same for both HTTPS and SVCB records.
 
@@ -189,7 +189,7 @@ The process for updating service binding records is the same for both HTTPS and 
 1. Update the information and click **Update Record** to save the record.
 </div>
 
-## Removing service binding records
+## Removing service binding records {#removing-service-binding-records}
 
 The process for removing service binding records is the same for both HTTPS and SVCB records.
 
@@ -205,7 +205,7 @@ The process for removing service binding records is the same for both HTTPS and 
 1. Confirm the dialog to delete the record.
 </div>
 
-## Understanding service binding record modes
+## Understanding service binding record modes {#understanding-service-binding-record-modes}
 
 Both SVCB and HTTPS records operate in two modes based on the priority value:
 
@@ -215,7 +215,7 @@ Both SVCB and HTTPS records operate in two modes based on the priority value:
 
 For more information about service binding record modes, structure, and use cases, see [Service Binding Records (SVCB and HTTPS)](/articles/service-binding-records/).
 
-## Choosing between SVCB and HTTPS
+## Choosing between SVCB and HTTPS {#choosing-between-svcb-and-https}
 
 - **Use HTTPS records** for HTTP/HTTPS services (most common use case). The simpler naming format (`domain.name`) makes them easier to configure and understand.
 
@@ -226,12 +226,12 @@ For more information about service binding record modes, structure, and use case
 
 For HTTP/HTTPS services, both record types provide the same functionality and can be used interchangeably, but HTTPS records are generally preferred for simplicity and clarity.
 
-## Related articles
+## Related articles {#related-articles}
 
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Comprehensive explanation of service binding records
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -19,7 +19,7 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/7tExGVSO1eo?si=UI7xX_T4Tok-ISJL" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is a service binding?
+## What is a service binding? {#what-is-a-service-binding}
 
 A **service binding** is the association between a domain name and the configuration information needed to access a network service at that domain. It provides clients with the necessary details to establish a connection to a service, including where the service is available, which protocols it supports, and what connection parameters to use.
 
@@ -32,7 +32,7 @@ Service bindings enable several important capabilities:
 - **Connection optimization**: Clients receive hints about connection parameters (ports, IP addresses) to reduce lookup overhead
 - **Domain aliasing**: Domain owners can redirect clients to alternative domains for specific services
 
-## What are service binding records?
+## What are service binding records? {#what-are-service-binding-records}
 
 **Service Binding records** are a pair of DNS record types standardized in [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460) that provide service binding information for network services. They deliver configuration information and parameters to clients before they establish a connection to a service, enabling performance improvements, privacy benefits, and protocol optimization.
 
@@ -43,7 +43,7 @@ The two record types are:
 
 Both record types share **identical structure and behavior**; the primary difference is the naming format used to identify the service.
 
-## How service binding records work
+## How service binding records work {#how-service-binding-records-work}
 
 Service binding records provide clients with complete instructions for accessing network services. When a client queries for a service binding record, it receives information about:
 
@@ -54,7 +54,7 @@ Service binding records provide clients with complete instructions for accessing
 
 This information allows clients to make more informed decisions about which server to connect to and how to establish the connection, reducing unnecessary connection attempts and improving overall performance.
 
-## SVCB vs HTTPS: The key difference
+## SVCB vs HTTPS: The key difference {#svcb-vs-https-the-key-difference}
 
 The only significant difference between SVCB and HTTPS records is the **naming format**:
 
@@ -76,7 +76,7 @@ _example._tcp.example.com.  3600  IN  SVCB  1  server.example.com.  port=8443
 ```
 
 > [!NOTE]
-> SVCB records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+> SVCB records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you are using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 ### HTTPS Records (Type 65)
 
@@ -100,7 +100,7 @@ example.com.  3600  IN  HTTPS  1  example.com.  alpn=h2,h3  port=443
   - Future extensibility as new service types are defined
 
 
-## Service binding record modes
+## Service binding record modes {#service-binding-record-modes}
 
 Both SVCB and HTTPS records operate in two distinct modes based on the priority value:
 
@@ -137,7 +137,7 @@ _example._tcp.example.com.  3600  IN  SVCB  2  server2.example.com.  port=8443
 
 These records indicate alternative endpoints with different priorities. Clients will try endpoints in order of priority (lower numbers first).
 
-## Service binding record structure
+## Service binding record structure {#service-binding-record-structure}
 
 Both SVCB and HTTPS records contain three main components:
 
@@ -154,7 +154,7 @@ Both SVCB and HTTPS records contain three main components:
 - `mandatory`: Lists service parameters that must be understood by the client
 - `ech`: Encrypted ClientHello configuration (for TLS)
 
-## Benefits of service binding records
+## Benefits of service binding records {#benefits-of-service-binding-records}
 
 ### Performance improvements
 
@@ -176,7 +176,7 @@ Unlike [CNAME records](/articles/cname-record/), which cannot exist at the apex 
 
 Service binding records provide a standardized mechanism for service delegation, allowing service providers to publish information about where services are available and how to connect to them, independent of the underlying IP addresses.
 
-## Limitations and considerations
+## Limitations and considerations {#limitations-and-considerations}
 
 ### Zone structures with multiple aliases
 
@@ -190,7 +190,7 @@ If your zone structure requires more than eight aliases, consider alternative ap
 
 While DNAME record type implementation is not currently necessary for most use cases, zone structures requiring more than eight aliases should be carefully evaluated to ensure optimal DNS resolution performance.
 
-## Use cases
+## Use cases {#use-cases}
 
 ### HTTPS records
 
@@ -209,7 +209,7 @@ SVCB records are ideal for:
 - Apex domain aliasing for non-HTTP services
 - Future extensibility as new service parameters are defined
 
-## Adding and managing service binding records
+## Adding and managing service binding records {#adding-and-managing-service-binding-records}
 
 DNSimple provides comprehensive support for creating and managing SVCB and HTTPS records through the [Record Editor](/articles/record-editor/).
 
@@ -246,7 +246,7 @@ SVCB and HTTPS records are fully supported through the DNSimple API, allowing yo
 
 For step-by-step instructions on how to add, update, and remove service binding records (SVCB and HTTPS) in DNSimple using the record editor, please refer to our dedicated How-To Guide: [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/). This guide covers configuring priority values, target hostnames, service parameters, and the naming format requirements for both record types.
 
-## Integrated DNS Provider support
+## Integrated DNS Provider support {#integrated-dns-provider-support}
 
 SVCB and HTTPS records are supported for syncing and management with the following Integrated DNS Providers:
 
@@ -254,24 +254,24 @@ SVCB and HTTPS records are supported for syncing and management with the followi
 - **CoreDNS**: Full SVCB/HTTPS sync support. Records configured in DNSimple can be synced to CoreDNS instances.
 
 > [!NOTE]
-> **Azure DNS**: Azure DNS does not support SVCB/HTTPS records. If you're using Azure DNS as an Integrated DNS Provider, SVCB/HTTPS records cannot be synced to Azure DNS zones.
+> **Azure DNS**: Azure DNS does not support SVCB/HTTPS records. If you are using Azure DNS as an Integrated DNS Provider, SVCB/HTTPS records cannot be synced to Azure DNS zones.
 
 For more information about Integrated DNS Providers, see:
 - [Integrated DNS Provider Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/)
 - [Integrated DNS Provider CoreDNS](/articles/integrated-dns-provider-coredns/)
 - [Integrated DNS Provider Azure DNS](/articles/integrated-dns-provider-azure-dns/)
 
-## Comparing service binding records with other record types
+## Comparing service binding records with other record types {#comparing-service-binding-records-with-other-record-types}
 
-If you're trying to decide between HTTPS records and other record types, these comparison articles may help:
+If you are trying to decide between HTTPS records and other record types, these comparison articles may help:
 
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records for apex domain aliasing
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records to understand service binding versus web redirects
 
-## Specification
+## Specification {#specification}
 
 The specification for service binding records (SVCB and HTTPS) is formally defined in [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

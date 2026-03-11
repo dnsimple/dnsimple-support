@@ -10,11 +10,11 @@ categories:
 
 Domain contacts are the people or organizations associated with a domain name registration. When you register a domain, you must provide contact information that identifies who owns the domain and who is responsible for its management and technical aspects.
 
-## Why are domain contacts required?
+## Why are domain contacts required? {#why-are-domain-contacts-required}
 
 Domain contacts serve several important purposes. They identify who legally owns or is responsible for a domain name. Contact information provides a way to reach domain owners for legal, technical, or administrative matters. Contacts are used to verify domain ownership during [transfers](/articles/what-is-domain-transfer/), [updating contact information](/articles/changing-whois-contact/), and other administrative processes. Registrars and registries use contact information to send important notifications about domain status, expiration, and other matters.
 
-## Types of domain contacts
+## Types of domain contacts {#types-of-domain-contacts}
 
 Domain registrations typically include three types of contacts. **The registrant contact** is the legal owner of the domain name. This contact has legal ownership rights to the domain, receives important notifications about the domain, must approve domain transfers and other significant changes, and is responsible for ensuring contact information remains accurate. The registrant contact information is particularly important because changes to registrant information can trigger additional security measures, such as [transfer locks](/articles/what-is-domain-lock/).
 
@@ -27,20 +27,20 @@ Domain registrations typically include three types of contacts. **The registrant
 > This means that when you update the domain registrant contact in your DNSimple account, the change is applied to all associated contact roles for that domain.
 
 
-## Contact information in WHOIS
+## Contact information in WHOIS {#contact-information-in-whois}
 
 Domain contact information is stored in the [WHOIS](/articles/what-is-whois/) database, which provides public access to domain registration information. WHOIS records typically include the name of the contact person or organization, email address, mailing address, phone number, and organization name if applicable. This information may be publicly accessible through WHOIS lookups, depending on the TLD and registry policies, though privacy protection services can further limit what is displayed.
 
-## Contact information and privacy
+## Contact information and privacy {#contact-information-and-privacy}
 
 Because contact information is publicly available through WHOIS, privacy concerns have led to the development of privacy protection services. Many registrars offer [WHOIS privacy](/articles/what-is-whois-privacy/) services that replace your personal contact information with proxy contact details in the public WHOIS database. The General Data Protection Regulation (GDPR) has also led to changes in how WHOIS data is displayed, with some information being redacted or hidden by default for certain TLDs.
 
-## Contact information and domain lifecycle
+## Contact information and domain lifecycle {#contact-information-and-domain-lifecycle}
 
 Domain contact information helps registries and registrars maintain a clear chain of ownership throughout a domain's lifecycle. Because the registrant contact represents the legal owner of a domain, changes to this information are treated with extra care.
 
 To reduce the risk of unauthorized transfers, registries may apply temporary safeguards when registrant details are updated. For example, under ICANN policy, a registrant change can trigger a temporary transfer restriction intended to protect domain ownership. You can learn more about this policy in [ICANN 60-day transfer lock after registrant change](/articles/icann-60-day-lock-registrant-change/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about domain contacts or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.
+If you have any questions about domain contacts or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

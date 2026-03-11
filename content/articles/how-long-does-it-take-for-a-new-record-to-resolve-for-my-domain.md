@@ -12,14 +12,14 @@ Records you add to a domain will be available within seconds from all of DNSimpl
 
 The time it takes for the new record to be visible to you and your visitors, however, depends on how other DNS resolvers handle caching.
 
-## The role of caching
+## The role of caching {#the-role-of-caching}
 When a new record is added, a DNS resolver may not see it immediately if it has recently queried the domain for that same record. Resolvers, used by browsers and applications, store DNS information in a cache to reduce network traffic and speed up lookups.
 
-This caching behavior also applies to records that don't exist. If a DNS resolver queries for a name that's not yet in the system, it will cache that negative response. It may take up to an hour for this negative result to be cleared from a resolver's cache, causing a delay before your new record becomes publicly visible.
+This caching behavior also applies to records that do not exist. If a DNS resolver queries for a name that is not yet in the system, it will cache that negative response. It may take up to an hour for this negative result to be cleared from a resolver's cache, causing a delay before your new record becomes publicly visible.
 
-To learn more about how caching works and how to control it, read our [What Is Time-to-Live?](/articles/what-is-ttl/) article. For information about DNSimple's TTL settings, see [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/).
+To learn more about how caching works and how to control it, read our [What Is Time-to-Live?](/articles/what-is-ttl/) article. For information about DNSimple's TTL settings, see [What is the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/).
 
-If you're experiencing issues with records not resolving, see [Check DNS Cache](/articles/check-dns-cache/) for steps to clear your cache, or refer to [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) and [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance.
+If you are experiencing issues with records not resolving, see [Check DNS Cache](/articles/check-dns-cache/) for steps to clear your cache, or refer to [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) and [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance.
 
-## Have more questions? 
-If you have additional questions about caching, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions about caching, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

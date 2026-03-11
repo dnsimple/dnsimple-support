@@ -15,11 +15,11 @@ categories:
 
 ---
 
-If you're experiencing unexpected empty responses for certain domain names, they might be caused by [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/). This guide walks you through the steps to identify and fix these issues.
+If you are experiencing unexpected empty responses for certain domain names, they might be caused by [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/). This guide walks you through the steps to identify and fix these issues.
 
-## Understanding the problem
+## Understanding the problem {#understanding-the-problem}
 
-An Empty Non-Terminal (ENT) is an intermediate domain name that exists only because it's a path to a deeper name, but has no records of its own. When you query an ENT, you get an empty response (NODATA) even if a wildcard record exists that would otherwise match.
+An Empty Non-Terminal (ENT) is an intermediate domain name that exists only because it is a path to a deeper name, but has no records of its own. When you query an ENT, you get an empty response (NODATA) even if a wildcard record exists that would otherwise match.
 
 For example, if you have:
 
@@ -30,16 +30,16 @@ app.us.prod.example.com.   IN  A   192.168.0.41
 
 The record `app.us.prod.example.com` creates an ENT at `us.prod.example.com`. Queries to `us.prod.example.com` will return empty, even though the wildcard `*.prod.example.com` would normally match.
 
-## Step 1: Identify the ENT
+## Step 1: Identify the ENT {#step-1-identify-the-ent}
 
-First, check if there are any records beneath the name that's returning empty responses. Use [`dig`](/articles/how-dig/) to query your zone:
+First, check if there are any records beneath the name that is returning empty responses. Use [`dig`](/articles/how-dig/) to query your zone:
 
 ```
 $ dig @ns1.dnsimple.com us.prod.example.com A +short
 (empty)
 ```
 
-If you get an empty response but the name exists (status: NOERROR), it's likely an ENT. To confirm, check if there are child records:
+If you get an empty response but the name exists (status: NOERROR), it is likely an ENT. To confirm, check if there are child records:
 
 ```
 $ dig @ns1.dnsimple.com app.us.prod.example.com A +short
@@ -56,7 +56,7 @@ $ dig @ns1.dnsimple.com example.com AXFR
 
 Look for records that are deeper in the hierarchy than the name returning empty responses.
 
-## Step 2: Create an explicit record
+## Step 2: Create an explicit record {#step-2-create-an-explicit-record}
 
 To fix the empty response, add an explicit record at the ENT name. You have two options:
 
@@ -78,7 +78,7 @@ us.prod.example.com.   IN  A   192.168.0.11
 
 This ensures consistent behavior with other names that match the wildcard.
 
-## Step 3: Verify the change
+## Step 3: Verify the change {#step-3-verify-the-change}
 
 After adding the explicit record, verify that the name now returns the expected response:
 
@@ -89,7 +89,7 @@ $ dig @ns1.dnsimple.com us.prod.example.com A +short
 
 The name is no longer an ENT—it now has its own record and will return that value when queried.
 
-## Common scenarios
+## Common scenarios {#common-scenarios}
 
 ### Fixing ENT created by ACME challenge
 
@@ -116,14 +116,14 @@ SRV records following the pattern `_service._tcp.example.com` create ENTs at int
 _tcp.example.com.   IN  A   192.168.0.11
 ```
 
-## Alternative: Remove the record creating the ENT
+## Alternative: Remove the record creating the ENT {#alternative-remove-the-record-creating-the-ent}
 
 If the record creating the ENT is no longer needed (such as an old ACME challenge record), you can remove it instead of adding explicit records. This will eliminate the ENT and restore wildcard matching.
 
 > [!WARNING]
-> Only remove records if you're certain they're no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
+> Only remove records if you are certain they are no longer needed. ACME challenge records are typically removed automatically after certificate validation, but manual cleanup may be required in some cases.
 
-## Related articles
+## Related articles {#related-articles}
 
 - [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) — Understand what ENTs are and how they work
 
@@ -131,6 +131,6 @@ If the record creating the ENT is no longer needed (such as an old ACME challeng
 
 - [How to Use dig](/articles/how-dig/) — Learn how to use the dig command-line tool for DNS queries
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with fixing Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with fixing Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

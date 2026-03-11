@@ -10,11 +10,11 @@ categories:
 
 Anycast is a powerful routing technology that, in the context of DNS, significantly improves the speed and reliability of your domain. Instead of a DNS query traveling to a single, specific server, Anycast allows a single IP address to be served from multiple physical locations around the world.
 
-To understand Anycast, it's helpful to first understand Unicast, which is how most connections work. With Unicast, a packet sent from your computer to a server is addressed to a single, unique IP address. As the packet travels, internet routers use their routing tables to guide it to that one specific destination.
+To understand Anycast, it is helpful to first understand Unicast, which is how most connections work. With Unicast, a packet sent from your computer to a server is addressed to a single, unique IP address. As the packet travels, internet routers use their routing tables to guide it to that one specific destination.
 
 With Anycast DNS, the process is different. All of [DNSimple's name servers](/articles/dnsimple-nameservers/) share the same IP addresses. When a DNS query is sent, the internet's routing protocols automatically direct the packet to the closest available server location. This optimization is transparent to the user, providing a faster, more reliable response.
 
-## Why Anycast DNS is a better solution
+## Why Anycast DNS is a better solution {#why-anycast-dns-is-a-better-solution}
 
 Anycast DNS provides two primary benefits: lower latency and increased resilience.
 
@@ -30,11 +30,11 @@ Anycast DNS also provides a higher degree of fault tolerance and uptime. With a 
 
 This distributed architecture provides significant redundancy, ensuring your domain's DNS remains highly available even in the event of localized outages.
 
-## DNSimple and Anycast
+## DNSimple and Anycast {#dnsimple-and-anycast}
 
 All domains hosted with DNSimple are served through our Anycast network by default. Just use the name servers provided in our documentation to take advantage of this service.
 
 DNSimple's proprietary [ALIAS record type](/articles/alias-record/) is a second-order DNS query that also benefits from our Anycast network. When resolving an ALIAS record, the Anycast server is likely to be closer to the target's geographic location, which can help an ALIAS record resolve to a closer data center if your application is also geographically distributed.
 
-## Have more questions?
-If you have additional questions about Anycast DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions about Anycast DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

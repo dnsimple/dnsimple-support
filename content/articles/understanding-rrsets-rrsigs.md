@@ -12,7 +12,7 @@ This article explains Resource Record Sets (RRSETs) and Resource Record Signatur
 
 RRSETs and RRSIGs are foundational elements in the security of modern DNS. RRSETs serve as the logical grouping for your domain's records, while RRSIGs provide cryptographic assurance of their authenticity and integrity. Together, these components form the core mechanism through which DNSSEC safeguards your DNS queries from tampering, ensuring reliable navigation to online destinations.
 
-## What is an RRSET?
+## What is an RRSET? {#what-is-an-rrset}
 
 An RRSET (Resource Record Set) is a collection of all DNS records that share the same name and type within a given DNS zone.
 
@@ -22,23 +22,23 @@ For example, if your domain `www.example.com` needs to point to two different IP
   
 These two A records, because they both belong to `www.example.com` and are type `A`, form the A record RRSET for `www.example.com`.
 
-## Why RRSETs are important
+## Why RRSETs are important {#why-rrsets-are-important}
 
 RRSETs are the foundational unit for DNSSEC signing. Instead of signing individual records, DNSSEC signs an entire RRSET. This ensures a complete group of related records is treated as a single, verifiable unit, confirming its authenticity.
 
-## What is an RRSIG?
+## What is an RRSIG? {#what-is-an-rrsig}
 
-An RRSIG (Resource Record Signature) is a digital signature that authenticates an entire RRSET. It serves as cryptographic proof that the RRSET data you receive is legitimate and hasn't been altered or forged since it was published by the authoritative DNS server.
+An RRSIG (Resource Record Signature) is a digital signature that authenticates an entire RRSET. It serves as cryptographic proof that the RRSET data you receive is legitimate and has not been altered or forged since it was published by the authoritative DNS server.
 
 ### How it works (basic)
 
 1. **Signing:** When DNSSEC is enabled for a domain, an RRSIG record is generated for each RRSET within that domain's zone. This signature is created using the zone's unique private signing key, typically the [Zone Signing Key (ZSK)](/articles/types-of-dnssec-keys/#zone-signing-key-zsk).
 1. **Serving:** When a DNS resolver (like your internet service provider's DNS server) requests an RRSET (e.g., the A records for `www.example.com`), the authoritative DNS server sends back both the RRSET and its corresponding RRSIG record.
 1. **Verification:** The resolver then uses the domain's public cryptographic key, found in a [DNSKEY record](/articles/dnskey-records-explained/) (obtained through the secure [DNSSEC chain of trust](/articles/dnssec-chain-of-trust/)), to verify the RRSIG.
-    - If the signature is **valid**, the resolver trusts that the RRSET is authentic and hasn't been tampered with.
+    - If the signature is **valid**, the resolver trusts that the RRSET is authentic and has not been tampered with.
     - If the signature is **invalid**, the resolver will discard the data, preventing you from being directed to a potentially malicious location.
 
-## Key information in an RRSIG record
+## Key information in an RRSIG record {#key-information-in-an-rrsig-record}
 
 An RRSIG record includes specific details crucial for its verification:
 
@@ -50,7 +50,7 @@ An RRSIG record includes specific details crucial for its verification:
 - **Signer's name:** The domain name of the zone that signed the RRSET (typically your domain).
 - **Signature:** The actual cryptographic signature data.
 
-## Why RRSIGs are important
+## Why RRSIGs are important {#why-rrsigs-are-important}
 
 RRSIGs are fundamental to DNSSEC. They are essential for:
 
@@ -60,22 +60,22 @@ RRSIGs are fundamental to DNSSEC. They are essential for:
 **Cache poisoning:** An attacker injects fraudulent data, "poison," into a DNS resolver's cache. A poisoned cache will provide the malicious IP address for a domain to all subsequent users who query that resolver, until the poisoned entry expires. RRSIGs ensure resolvers only accept and cache genuinely signed data, making these types of attacks significantly harder to execute.
 **Building trust:** Adding a critical layer of trust to the entire DNS lookup process.
 
-## The relationship between RRSETs and RRSIGs
+## The relationship between RRSETs and RRSIGs {#the-relationship-between-rrsets-and-rrsigs}
 
 **The relationship is direct and interdependent:** an RRSIG always signs an RRSET.
 
-You won't find an RRSIG for an individual DNS record in isolation. When you modify or add records, if DNSSEC is active, new RRSIGs are automatically generated to secure the updated RRSETs. This pairing is how DNSSEC provides its robust security guarantees. A resolver expects both the RRSET and its corresponding RRSIG; without a valid RRSIG, the RRSET's authenticity cannot be confirmed.
+You will not find an RRSIG for an individual DNS record in isolation. When you modify or add records, if DNSSEC is active, new RRSIGs are automatically generated to secure the updated RRSETs. This pairing is how DNSSEC provides its robust security guarantees. A resolver expects both the RRSET and its corresponding RRSIG; without a valid RRSIG, the RRSET's authenticity cannot be confirmed.
 
-## Where do you see RRSETs and RRSIGs at DNSimple?
+## Where do you see RRSETs and RRSIGs at DNSimple? {#where-do-you-see-rrsets-and-rrsigs-at-dnsimple}
 
-For most DNSimple users, RRSETs and RRSIGs work in the background. When you manage your DNS records in our record editor, you're interacting with the individual records that form RRSETs.
+For most DNSimple users, RRSETs and RRSIGs work in the background. When you manage your DNS records in our record editor, you are interacting with the individual records that form RRSETs.
 
 The generation and management of RRSIGs are handled automatically when you configure DNSSEC for your domain at DNSimple. We take care of:
 - Generating the necessary cryptographic keys for your zone.
 - Creating and maintaining the RRSIG records for all your RRSETs.
 - Periodically re-signing your RRSETs to ensure signatures remain valid.
 
-While you won't directly create or edit RRSIG records through our record editor, advanced users, or those troubleshooting DNSSEC, might see them when performing manual DNS queries using tools like dig. 
+While you will not directly create or edit RRSIG records through our record editor, advanced users, or those troubleshooting DNSSEC, might see them when performing manual DNS queries using tools like dig. 
 
 You could also see these records in other troubleshooting tools that provide detailed DNS record information, such as:
 
@@ -86,11 +86,11 @@ While the technical aspects of DNSSEC can be complex, DNSimple automates the gen
 
 For more in-depth troubleshooting steps and tools related to DNSSEC, read [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/).
 
-## Learn more
+## Learn more {#learn-more}
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 Ready to get started with DNSSEC? Enabling DNSSEC is a critical step in enhancing your domain's security and protecting both your visitors and your online presence. Read [Enabling DNSSEC](/articles/enabling-dnssec/) for detailed instructions. 
 
-If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

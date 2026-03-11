@@ -10,8 +10,8 @@ categories:
 
 There are **two** reasons to register a domain with DNSimple:
 
-- It's a newly purchased domain.
-- To register a domain for which you're already managing the DNS.
+- It is a newly purchased domain.
+- To register a domain for which you are already managing the DNS.
 
 We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-auto-renewal/#enabling-auto-renewal) whenever possible to avoid your domain expiring. Learn more about [what happens when a domain expires](https://support.dnsimple.com/articles/what-happens-when-domain-expires/), and why you want to avoid it.
 
@@ -31,7 +31,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
   ![domain availability page](/files/register-domain-screen.png)
   
 4. Click on **Check availability**
-5. From the drop-down, choose a contact from those you've already created or click **Add new contact** to provide the registrant's contact details. If this is the first domain you are registering, you will be taken to a page to provide the registrant's contact details.
+5. From the drop-down, choose a contact from those you have already created or click **Add new contact** to provide the registrant's contact details. If this is the first domain you are registering, you will be taken to a page to provide the registrant's contact details.
 
 #### Adding a new contact
   
@@ -54,7 +54,7 @@ We recommend [enabling auto-renew](https://support.dnsimple.com/articles/domain-
 
 8. Click **Purchase (domain name)**
 
-If the domain was registered successfully (whether you have a subscription or not), you'll be taken to a screen confirming your registration.
+If the domain was registered successfully (whether you have a subscription or not), you will be taken to a screen confirming your registration.
 
   ![success screen](/files/registration-successful-page.png)
 
@@ -63,6 +63,6 @@ If the domain was registered successfully (whether you have a subscription or no
 > Your card will be charged once the registration completes.
 > If the registration fails, funds will be released.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about registering domains with DNSimple, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about registering domains with DNSimple, [contact us](https://dnsimple.com/feedback), and we will be happy to help.

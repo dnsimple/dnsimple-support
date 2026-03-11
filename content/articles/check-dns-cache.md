@@ -9,11 +9,11 @@ categories:
 
 # Check DNS Cache
 
-## Ensure you're using a fresh DNS cache
+## Ensure you are using a fresh DNS cache {#ensure-you-are-using-a-fresh-dns-cache}
 
 Every DNS record lookup is cached by default up to the value specified in the [time-to-live (TTL)](/articles/what-is-ttl/) setting of the record.
 
-Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update wasn't performed. 
+Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update was not performed. 
 
 **Example**: 
 
@@ -58,7 +58,7 @@ You can verify what the upstream resolver is returning by running the dig comman
 
 If the upstream resolver already shows the updated record, you can flush your local cache using the methods in Option 1 or Option 2 below.
 
-If you're experiencing DNS resolution issues after clearing your cache, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
+If you are experiencing DNS resolution issues after clearing your cache, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
 
 ### **Option 1: everyday methods**
 
@@ -71,7 +71,7 @@ Clear the DNS cache before checking a record update. This may involve:
 
 **Option 2: advanced methods (system DNS cache)**
 
-**You can flush the DNS cache manually, if you're comfortable doing so. This varies depending on your operating system:**
+**You can flush the DNS cache manually, if you are comfortable doing so. This varies depending on your operating system:**
 
 - **macOS (depends on version):**  
   `sudo dscacheutil \-flushcache; sudo killall \-HUP mDNSResponder`  
@@ -83,5 +83,5 @@ Clear the DNS cache before checking a record update. This may involve:
 - **Linux: Command depends on your distribution. For example:**  
    `sudo systemd-resolve \--flush-caches`
 
-## Have more questions? 
-If you have additional questions or need any assistance with your DNS cache, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS cache, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

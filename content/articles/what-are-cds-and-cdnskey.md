@@ -15,15 +15,15 @@ CDS and CDNSKEY records reduce the need for manual changes and help prevent issu
 
 This automation significantly reduces the need for manual intervention during DNSSEC key rollovers or configuration updates. By automating this process, the risk of human errors, which can lead to critical DNSSEC validation failures and make your domain unreachable, is minimized.
 
-## Why are these records useful?
+## Why are these records useful? {#why-are-these-records-useful}
 
-Without CDS or CDNSKEY, updating your DS records usually means doing everything by hand. You need to sign in to your registrar's dashboard, find the right settings, and copy long strings of DNSSEC data from your DNS provider to the registrar. It's not only a slow process, it's also easy to make mistakes.
+Without CDS or CDNSKEY, updating your DS records usually means doing everything by hand. You need to sign in to your registrar's dashboard, find the right settings, and copy long strings of DNSSEC data from your DNS provider to the registrar. It is not only a slow process, it is also easy to make mistakes.
 
 If something goes wrong, like entering the wrong data or forgetting to update the DS record after a key change, your domain may stop resolving for people using DNSSEC-aware resolvers. Some users might still reach your site, but others will see errors, which can be confusing and damaging.
 
 CDS and CDNSKEY help avoid this. They allow your DNS provider to tell the parent zone when a DNSSEC change happens, so the DS record can be updated automatically. This makes managing DNSSEC much safer and easier, especially during key rollovers or when enabling or disabling DNSSEC.
 
-## How does automation work?
+## How does automation work? {#how-does-automation-work}
 
 If a parent zone supports CDS and/or CDNSKEY scanning:
 
@@ -38,7 +38,7 @@ This ensures your domain stays secure and resolvable during events like:
 - [DNSSEC key rotation](/articles/rotate-dnssec-key/)
 - [DNS provider migration](/articles/ds-records-changing-dns/)
 
-## How DNSimple uses CDS and CDNSKEY
+## How DNSimple uses CDS and CDNSKEY {#how-dnsimple-uses-cds-and-cdnskey}
 
 At DNSimple:
 
@@ -51,7 +51,7 @@ At DNSimple:
 However, not all registrars support this automation. In those cases, changes to your DNSSEC configuration may still require manual DS record updates at the registrar level.
 
 
-## The role of DS records in DNSSEC validation
+## The role of DS records in DNSSEC validation {#the-role-of-ds-records-in-dnssec-validation}
 
 The **DS record** links the parent and child zones in DNSSEC. If a DS record exists in the parent zone but the corresponding DNSKEY is missing in the child zone, DNS resolvers will not be able to verify your domain. This often results in errors like `SERVFAIL`.
 
@@ -60,10 +60,10 @@ This mismatch can happen, for example, if DNSSEC is disabled in the child zone, 
 CDS and CDNSKEY help prevent this by ensuring that DS records are automatically removed when no longer needed, maintaining the integrity of the DNSSEC chain of trust.
 
 
-## Learn more
+## Learn more {#learn-more}
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

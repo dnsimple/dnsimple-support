@@ -16,7 +16,7 @@ categories:
 
 DNSSEC (Domain Name System Security Extensions) adds an essential layer of security to DNS, protecting your domain from various attacks like cache poisoning. At DNSimple, we simplify the complexity of DNSSEC, offering features like automatic key rotation and support for DS-data **and** KEY-data interfaces, making it easy to enable and manage DNSSEC for your domains and helping you ensure the integrity and authenticity of your DNS data.
 
-## What is DNSSEC?
+## What is DNSSEC? {#what-is-dnssec}
 
 If you are new to DNSSEC, these articles will help you understand the fundamentals.
 
@@ -31,7 +31,7 @@ If you are new to DNSSEC, these articles will help you understand the fundamenta
 - [What Is DANE (DNS-based Authentication of Named Entities)?](/articles/what-is-dane/) - Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records.
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 
-## How to manage DNSSEC
+## How to manage DNSSEC {#how-to-manage-dnssec}
 
 Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively with these articles.
 
@@ -42,19 +42,19 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 - [Using Cloudflare DNSSEC with DNSimple](/articles/cloudflare-ds-record/): Using Cloudflare DNSSEC when your domain is with DNSimple.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
 
-## DNSSEC compatibility with other DNSimple features
+## DNSSEC compatibility with other DNSimple features {#dnssec-compatibility-with-other-dnsimple-features}
 
 Not all DNSimple features are compatible with DNSSEC. Before enabling DNSSEC, review the compatibility details for your setup.
 
 - [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/): A reference of which DNSimple features work with DNSSEC and any limitations to be aware of.
 
-## Troubleshooting DNSSEC configurations
+## Troubleshooting DNSSEC configurations {#troubleshooting-dnssec-configurations}
 
 Encountering issues with your DNSSEC setup? Find solutions and guidance here.
 
 - [Troubleshooting DNSSEC](/articles/troubleshooting-dnssec-configurations/): A comprehensive guide to diagnosing and resolving common DNSSEC problems.
 
-## Reference articles
+## Reference articles {#reference-articles}
 
 Dive deeper into the specifics of DNSSEC with our comprehensive reference materials, including an overview of the settings and details available in your DNSimple account.
 

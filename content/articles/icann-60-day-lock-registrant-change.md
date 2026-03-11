@@ -18,7 +18,7 @@ categories:
 
 For all domains under registries contracted with ICANN, including all [gTLDs](/articles/what-is-tld/), [newGTLDs](/articles/what-is-tld/), and potentially some [ccTLDs](/articles/what-is-tld/), a new [ICANN policies went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en):
 
-## Why the 60-day lock exists
+## Why the 60-day lock exists {#why-the-60-day-lock-exists}
 
 The 60-day transfer lock after a registrant change is an ICANN security measure designed to prevent domain hijacking. When registrant information changes, there is a risk that the change could be unauthorized or fraudulent. The lock period gives the previous registrant time to detect and report any unauthorized changes before a domain can be transferred away. This protection is especially important because once a domain is transferred to another registrar, recovery becomes significantly more difficult.
 
@@ -33,10 +33,10 @@ The lock applies specifically to transfers between registrars. It does not preve
 >
 > Because policies may vary by registrar, please review a registrar's policy before making a change to registrant information or transferring to another registrar.
 
-We don't support the ability to opt-out of the 60-day lock. We highly recommend that if you plan to transfer your domain, you wait to update the contact information until after it's transferred.
+We do not support the ability to opt-out of the 60-day lock. We highly recommend that if you plan to transfer your domain, you wait to update the contact information until after it is transferred.
 
 The 60-day lock cannot be bypassed or shortened once it is in effect. If you need to transfer a domain urgently, you must complete the transfer before making any registrant changes. Changing the registrant contact information after a transfer does not trigger a new lock period, so you can safely update contact details after the transfer is complete.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about the 60-day lock after a change of registrant, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about the 60-day lock after a change of registrant, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
