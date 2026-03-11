@@ -1,7 +1,7 @@
 ---
 title: Managing Email Forwards with the API
 excerpt: Step-by-step guide to managing email forwards programmatically using the DNSimple API.
-meta: Learn how to use the DNSimple API to create, update, and manage email forwards programmatically.
+meta: How to use the DNSimple API to create, update, and manage email forwards programmatically.
 categories:
 - Emails
 - API
@@ -16,9 +16,9 @@ categories:
 
 ---
 
-The DNSimple API allows you to manage email forwards programmatically, which is useful for automation, bulk operations, and integration with other systems. This guide walks you through using the API to manage email forwards.
+The DNSimple API allows you to manage email forwards programmatically, which is useful for automation, bulk operations, and integration with other systems.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before using the API to manage email forwards:
 
@@ -27,22 +27,21 @@ Before using the API to manage email forwards:
 3. **Domain in DNSimple:** The domain must be in your DNSimple account
 4. **Plan with email forwarding:** Your plan must include email forwarding
 
-<info>
-For information about creating API tokens, see [API Access Tokens](/articles/api-access-token/).
-</info>
+> [!NOTE]
+> For information about creating API tokens, see [API Access Tokens](/articles/api-access-token/).
 
-## Getting started
+## Getting started {#getting-started}
 
 ### Step 1: Get an API token
 
 1. **Log into DNSimple:**
    - Go to [dnsimple.com](https://dnsimple.com) and log in
-   - Navigate to **Account** > **Access Tokens**
+   - Navigate to <label>Account</label> > <label>Access Tokens</label>
 
 2. **Create a token:**
-   - Click **Create token**
+   - Click <label>Create token</label>
    - Give the token a descriptive name
-   - Copy the token immediately (you won't be able to see it again)
+   - Copy the token immediately (you will not be able to see it again)
 
 3. **Store securely:**
    - Store the token securely
@@ -51,7 +50,7 @@ For information about creating API tokens, see [API Access Tokens](/articles/api
 
 ### Step 2: Get your account ID
 
-You'll need your account ID for API requests:
+You will need your account ID for API requests:
 
 1. **Find account ID:**
    - Log into DNSimple
@@ -63,12 +62,12 @@ You'll need your account ID for API requests:
 
 ### Step 3: Get your domain name
 
-You'll need the domain name for API requests:
+You will need the domain name for API requests:
 
 - Use the exact domain name (e.g., `example.com`)
 - Ensure the domain is in your DNSimple account
 
-## Basic operations
+## Basic operations {#basic-operations}
 
 ### List email forwards
 
@@ -198,7 +197,7 @@ response = requests.delete(url, headers=headers)
 print(response.status_code)  # 204 if successful
 ```
 
-## Common use cases
+## Common use cases {#use-cases}
 
 ### Bulk create email forwards
 
@@ -287,7 +286,7 @@ for forward in forwards:
     print(f"Deleted forward {forward_id}: {delete_response.status_code}")
 ```
 
-## Error handling
+## Error handling {#error-handling}
 
 ### Handle API errors
 
@@ -321,7 +320,7 @@ def create_email_forward(account_id, domain, from_addr, to_addr, token):
         return None
 ```
 
-## Best practices
+## Best practices {#best-practices}
 
 ### Use environment variables for tokens
 
@@ -346,11 +345,10 @@ import requests
 def rate_limited_request(url, headers, method="GET", **kwargs):
     response = requests.request(method, url, headers=headers, **kwargs)
     
-    # Check rate limit headers
     remaining = int(response.headers.get("X-RateLimit-Remaining", 0))
     if remaining < 10:
         print("Rate limit low, waiting...")
-        time.sleep(60)  # Wait before continuing
+        time.sleep(60)
     
     return response
 ```
@@ -373,7 +371,6 @@ def get_all_email_forwards(account_id, domain, token):
         data = response.json()
         all_forwards.extend(data["data"])
         
-        # Check if there are more pages
         pagination = data.get("pagination", {})
         if not pagination.get("has_next_page", False):
             break
@@ -382,23 +379,20 @@ def get_all_email_forwards(account_id, domain, token):
     return all_forwards
 ```
 
-## Testing
+## Testing {#testing}
 
 ### Use the sandbox environment
 
 Test your API code in the sandbox environment:
 
 ```python
-# Sandbox base URL
 SANDBOX_URL = "https://api.sandbox.dnsimple.com/v2"
 
-# Use sandbox for testing
 url = f"{SANDBOX_URL}/123/domains/example.com/email_forwards"
 ```
 
-<info>
-For more information about the sandbox, see [Sandbox](/articles/sandbox/).
-</info>
+> [!NOTE]
+> For more information about the sandbox, see [Sandbox](/articles/sandbox/).
 
 ## Related topics
 

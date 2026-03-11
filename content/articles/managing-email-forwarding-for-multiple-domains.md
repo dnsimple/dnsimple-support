@@ -1,6 +1,6 @@
 ---
 title: Managing Email Forwarding for Multiple Domains
-excerpt: Learn how to efficiently manage email forwarding across multiple domains in DNSimple.
+excerpt: How to efficiently manage email forwarding across multiple domains in DNSimple.
 meta: Guide to managing email forwarding for multiple domains, including best practices and tips for efficient administration.
 categories:
 - Emails
@@ -15,17 +15,12 @@ categories:
 
 ---
 
-If you manage multiple domains in DNSimple, you may want to set up email forwarding for each of them. This guide will help you efficiently manage email forwarding across multiple domains.
+Email forwarding in DNSimple is configured on a per-domain basis. Each domain can have its own email forwarding configuration, and email forwarding is billed separately for each domain where it is enabled.
 
-## Overview
+> [!NOTE]
+> Email forwarding is billed monthly on a per-domain basis. If you enable email forwarding on multiple domains, you will be charged for each domain. See [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) for more information.
 
-Email forwarding in DNSimple is configured on a per-domain basis. Each domain can have its own email forwarding configuration, and email forwarding is billed separately for each domain where it's enabled.
-
-<info>
-**Billing:** Email forwarding is billed monthly on a per-domain basis. If you enable email forwarding on multiple domains, you'll be charged for each domain. See [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) for more information.
-</info>
-
-## Setting up email forwarding for multiple domains
+## Setting up email forwarding for multiple domains {#setup}
 
 ### Individual domain setup
 
@@ -33,10 +28,10 @@ To set up email forwarding for multiple domains:
 
 1. **Navigate to each domain:**
    - Use the account switcher to select the appropriate account
-   - Click on each domain name from your Domain Names list
+   - Click on each domain name from your <label>Domain Names</label> list
 
 2. **Enable email forwarding:**
-   - Click the **Email Forwarding** tab for each domain
+   - Click the <label>Email Forwarding</label> tab for each domain
    - Create your first email forward to enable the service
    - Repeat for each domain where you want email forwarding
 
@@ -46,17 +41,16 @@ To set up email forwarding for multiple domains:
 
 ### Bulk setup considerations
 
-While DNSimple doesn't currently offer bulk email forwarding setup through the web interface, you can:
+DNSimple does not currently offer bulk email forwarding setup through the web interface. You can:
 
-- **Use the API:** The DNSimple API supports programmatic management of email forwards, which can help with bulk operations
+- **Use the API:** The [DNSimple API](/articles/managing-email-forwards-with-the-api/) supports programmatic management of email forwards, which can help with bulk operations
 - **Plan your configuration:** Create a list of domains and their email forwarding needs before starting setup
 - **Use templates:** If multiple domains need similar forwarding rules, use a consistent naming convention
 
-<info>
-For API-based management, see our [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/).
-</info>
+> [!NOTE]
+> For API-based management, see the [developer documentation](https://developer.dnsimple.com/v2/domains/email-forwards/).
 
-## Managing email forwarding across domains
+## Managing email forwarding across domains {#managing}
 
 ### Centralized management approach
 
@@ -71,9 +65,9 @@ If you want to forward emails from multiple domains to a single destination:
    - This makes it easier to manage and remember
 
 3. **Example configuration:**
-   - `hello@domain1.com` → `yourname@gmail.com`
-   - `hello@domain2.com` → `yourname@gmail.com`
-   - `hello@domain3.com` → `yourname@gmail.com`
+   - `hello@domain1.com` to `yourname@gmail.com`
+   - `hello@domain2.com` to `yourname@gmail.com`
+   - `hello@domain3.com` to `yourname@gmail.com`
 
 ### Domain-specific management approach
 
@@ -91,7 +85,7 @@ If each domain needs different email forwarding rules:
    - Keep a record of which domains have which email forwards
    - This helps with troubleshooting and future management
 
-## Best practices for multiple domains
+## Best practices for multiple domains {#best-practices}
 
 ### Consistent configuration
 
@@ -123,10 +117,10 @@ If each domain needs different email forwarding rules:
 
 **Monitor usage:**
 - Keep track of email forwarding usage across domains
-- Ensure you're not approaching plan limits
+- Ensure you are not approaching plan limits
 - Upgrade your plan if needed
 
-## Common scenarios
+## Common scenarios {#scenarios}
 
 ### Scenario 1: Multiple domains, single destination
 
@@ -143,7 +137,7 @@ You have multiple domains and want all emails to go to one email address:
 - Easy to set up and maintain
 
 **Considerations:**
-- You'll need to identify which domain an email came from by checking the "To" field
+- You will need to identify which domain an email came from by checking the "To" field
 - Each domain is billed separately for email forwarding
 
 ### Scenario 2: Domain-specific forwarding
@@ -178,22 +172,22 @@ Some domains forward to a central address, others have domain-specific rules:
 - Balances simplicity with organization
 - Adapts to different domain needs
 
-## Using the dashboard for multiple domains
+## Using the dashboard for multiple domains {#dashboard}
 
 The DNSimple dashboard can help you manage email forwarding across domains:
 
 1. **Quick access:**
-   - Use the dashboard to quickly see all your domains
-   - Click directly on domains to access their Email Forwarding tabs
+   - Use the dashboard to see all your domains
+   - Click directly on domains to access their <label>Email Forwarding</label> tabs
 
 2. **Add email forwards:**
-   - Use the "Add" button on the dashboard to create email forwards
+   - Use the <label>Add</label> button on the dashboard to create email forwards
    - Select the domain from the dropdown when creating from the dashboard
 
 3. **Monitor status:**
    - Check the dashboard for any notifications or alerts related to email forwarding
 
-## Troubleshooting multiple domain issues
+## Troubleshooting multiple domain issues {#troubleshooting}
 
 ### Email forwarding not working for a specific domain
 
@@ -208,7 +202,7 @@ The DNSimple dashboard can help you manage email forwarding across domains:
 
 ### Managing limits across domains
 
-**Problem:** You're approaching email forwarding limits across multiple domains.
+**Problem:** You are approaching email forwarding limits across multiple domains.
 
 **Solutions:**
 1. **Review usage:** Check how many email forwards you have on each domain
@@ -221,9 +215,9 @@ The DNSimple dashboard can help you manage email forwarding across domains:
 **Problem:** Questions about billing for multiple domains.
 
 **Solutions:**
-1. **Per-domain billing:** Remember that email forwarding is billed per domain
+1. **Per-domain billing:** Email forwarding is billed per domain
 2. **Check your invoice:** Review your DNSimple invoice to see charges for each domain
-3. **Contact support:** If you have billing questions, contact support for clarification
+3. **Contact support:** If you have billing questions, [contact support](https://dnsimple.com/feedback) for clarification
 
 ## Related topics
 
