@@ -1,5 +1,5 @@
 ---
-title: Setting up DKIM
+title: Setting Up DKIM
 excerpt: How to set up DKIM on your domains.
 meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
 categories:

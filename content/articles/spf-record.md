@@ -4,6 +4,7 @@ excerpt: What an SPF record is, and how the SPF record works.
 meta: Learn what an SPF record is and how it functions to protect your domain from email spoofing, ensuring your messages reach their intended recipients securely.
 categories:
 - DNS
+- Emails
 ---
 
 # SPF Records
