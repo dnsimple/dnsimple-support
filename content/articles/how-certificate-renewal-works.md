@@ -52,7 +52,7 @@ When this happens, visitors attempting to access the site will see security warn
 
 Because browsers strictly enforce certificate expiration, there is no grace period once a certificate reaches its expiration date.
 
-For Let's Encrypt certificates that use automatic renewal, DNSimple attempts to obtain a replacement certificate before expiration. However, the replacement certificate must still be installed on the server for the secure connection to continue working normally.
+For Let's Encrypt certificates that use auto-renewal, DNSimple attempts to obtain a replacement certificate before expiration. However, the replacement certificate must still be installed on the server for the secure connection to continue working normally.
 
 ## Shorter certificate lifetimes starting March 2026 {#shorter-lifetimes}
 
