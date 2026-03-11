@@ -1,6 +1,6 @@
 ---
 title: Handling Email Bounces with Email Forwarding
-excerpt: Learn how email bounces work with email forwarding and how to handle them effectively.
+excerpt: How email bounces work with email forwarding and how to handle them.
 meta: Guide to understanding and handling email bounces when using email forwarding services.
 categories:
 - Emails
@@ -15,9 +15,9 @@ categories:
 
 ---
 
-When using email forwarding, understanding how bounces are handled is important for managing email delivery and maintaining good sender reputation. This guide explains how bounces work with email forwarding and how to handle them.
+When using email forwarding, bounces are handled differently than with direct email delivery. DNSimple's email forwarding service handles bounces from the final destination internally -- bounces are not forwarded back to the original sender.
 
-## How bounces work with email forwarding
+## How bounces work with email forwarding {#how-bounces-work}
 
 ### Email forwarding flow
 
@@ -42,11 +42,10 @@ With email forwarding, bounces can behave differently:
 - This depends on the forwarding service's configuration
 - Not all forwarding services support this
 
-<info>
-**DNSimple email forwarding:** DNSimple's email forwarding service handles bounces internally. Bounces from the final destination are not forwarded back to the original sender.
-</info>
+> [!NOTE]
+> DNSimple's email forwarding service handles bounces internally. Bounces from the final destination are not forwarded back to the original sender.
 
-## Types of bounces with forwarding
+## Types of bounces with forwarding {#bounce-types}
 
 ### Hard bounces
 
@@ -54,16 +53,16 @@ Hard bounces indicate permanent delivery failures to the forwarded destination.
 
 **Common causes:**
 - Invalid destination email address
-- Destination domain doesn't exist
-- Destination mailbox doesn't exist
+- Destination domain does not exist
+- Destination mailbox does not exist
 
 **What happens:**
 - The forwarding service receives the bounce
 - The bounce is handled by the forwarding service
-- The original sender typically doesn't receive the bounce
+- The original sender typically does not receive the bounce
 
 **Action:**
-- Update the destination email address if it's invalid
+- Update the destination email address if it is invalid
 - Remove the email forward if the destination no longer exists
 
 ### Soft bounces
@@ -85,7 +84,7 @@ Soft bounces indicate temporary delivery failures to the forwarded destination.
 - Contact the destination if mailbox is full
 - Update destination if issues persist
 
-## Managing bounces with email forwarding
+## Managing bounces with email forwarding {#managing-bounces}
 
 ### Monitor forwarded email delivery
 
@@ -131,33 +130,33 @@ If a destination consistently bounces:
    - Remove forward if destination is invalid
    - Consider alternative destinations
 
-## Best practices
+## Best practices {#best-practices}
 
 ### Verify destinations
 
-- ✅ Verify destination email addresses are correct when creating forwards
-- ✅ Test destinations before relying on forwarding
-- ✅ Keep destination addresses updated
+- Verify destination email addresses are correct when creating forwards
+- Test destinations before relying on forwarding
+- Keep destination addresses updated
 
 ### Monitor regularly
 
-- ✅ Send test emails periodically to verify forwarding works
-- ✅ Check destination mailboxes are active
-- ✅ Monitor for delivery issues
+- Send test emails periodically to verify forwarding works
+- Check destination mailboxes are active
+- Monitor for delivery issues
 
 ### Update promptly
 
-- ✅ Update email forwards when destinations change
-- ✅ Remove forwards with invalid destinations
-- ✅ Fix any issues immediately
+- Update email forwards when destinations change
+- Remove forwards with invalid destinations
+- Fix any issues immediately
 
 ### Document configuration
 
-- ✅ Keep a list of all email forwards and destinations
-- ✅ Document any changes to forwards
-- ✅ Note any bounce-related issues
+- Keep a list of all email forwards and destinations
+- Document any changes to forwards
+- Note any bounce-related issues
 
-## Common scenarios
+## Common scenarios {#scenarios}
 
 ### Scenario 1: Destination mailbox full
 
@@ -170,29 +169,27 @@ If a destination consistently bounces:
 
 ### Scenario 2: Invalid destination address
 
-**Problem:** Destination email address doesn't exist, causing hard bounces.
+**Problem:** Destination email address does not exist, causing hard bounces.
 
 **Solution:**
 - Verify the correct destination address
 - Update the email forward with correct address
 - Remove forward if destination is truly invalid
 
-### Scenario 3: Destination domain doesn't exist
+### Scenario 3: Destination domain does not exist
 
-**Problem:** Destination domain doesn't exist, causing hard bounces.
+**Problem:** Destination domain does not exist, causing hard bounces.
 
 **Solution:**
 - Verify destination domain is correct
 - Update forward if domain changed
 - Remove forward if domain no longer exists
 
-## Limitations
+## Limitations {#limitations}
 
 ### Bounce forwarding
 
-**Limitation:** Most email forwarding services, including DNSimple, don't forward bounces back to the original sender.
-
-**Why:** This is a limitation of how email forwarding works. The forwarding service handles bounces internally.
+Most email forwarding services, including DNSimple, do not forward bounces back to the original sender. The forwarding service handles bounces internally.
 
 **Impact:**
 - Original senders may not know if forwarded emails bounce
@@ -201,7 +198,7 @@ If a destination consistently bounces:
 
 ### Bounce notifications
 
-**Limitation:** You may not receive notifications about bounces from forwarded emails.
+You may not receive notifications about bounces from forwarded emails.
 
 **Solution:**
 - Monitor forwarded email delivery yourself
@@ -209,11 +206,11 @@ If a destination consistently bounces:
 - Check destination mailboxes regularly
 - Update forwards when destinations change
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 ### Emails not arriving at destination
 
-**Problem:** Emails sent to forwarded addresses aren't arriving at destinations.
+**Problem:** Emails sent to forwarded addresses are not arriving at destinations.
 
 **Possible causes:**
 - Destination email address is incorrect
@@ -226,11 +223,11 @@ If a destination consistently bounces:
 2. Check destination mailbox status
 3. Send test email directly to destination
 4. Check email forwarding configuration
-5. Contact support if issues persist
+5. [Contact support](https://dnsimple.com/feedback) if issues persist
 
 ### Bounces from forwarded emails
 
-**Problem:** You're receiving bounces from emails sent to forwarded addresses.
+**Problem:** You are receiving bounces from emails sent to forwarded addresses.
 
 **Possible causes:**
 - Destination is bouncing emails
