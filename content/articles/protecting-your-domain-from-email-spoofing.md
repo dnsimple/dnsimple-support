@@ -1,6 +1,6 @@
 ---
 title: Protecting Your Domain from Email Spoofing
-excerpt: Learn how to protect your domain from email spoofing using SPF, DKIM, and DMARC.
+excerpt: How to protect your domain from email spoofing using SPF, DKIM, and DMARC.
 meta: Step-by-step guide to protecting your domain from email spoofing and preventing unauthorized use of your domain for malicious emails.
 categories:
 - Emails
@@ -15,18 +15,18 @@ categories:
 
 ---
 
-Email spoofing occurs when attackers send emails that appear to come from your domain, even though they're not authorized. This guide explains how to protect your domain from email spoofing using email authentication protocols.
+Email spoofing occurs when attackers send emails that appear to come from your domain, even though they are not authorized. This guide explains how to protect your domain from email spoofing using email authentication protocols.
 
-## What is email spoofing?
+## What is email spoofing? {#what-is}
 
-Email spoofing is when someone sends emails that appear to come from your domain, but they're not authorized to send on your behalf. Spoofed emails are often used for:
+Email spoofing is when someone sends emails that appear to come from your domain, but they are not authorized to send on your behalf. Spoofed emails are often used for:
 
 - **Phishing attacks:** Tricking recipients into revealing sensitive information
 - **Spam:** Sending unwanted emails
 - **Malware distribution:** Spreading viruses and malware
 - **Brand impersonation:** Damaging your brand reputation
 
-## How email authentication prevents spoofing
+## How email authentication prevents spoofing {#how-auth-works}
 
 Email authentication protocols (SPF, DKIM, and DMARC) help prevent spoofing by:
 
@@ -34,7 +34,7 @@ Email authentication protocols (SPF, DKIM, and DMARC) help prevent spoofing by:
 2. **Cryptographically signing:** DKIM signs emails to prove authenticity
 3. **Enforcing policies:** DMARC tells receivers what to do with unauthenticated emails
 
-## Step 1: Configure SPF
+## Step 1: Configure SPF {#spf}
 
 SPF (Sender Policy Framework) authorizes which servers can send email from your domain.
 
@@ -56,13 +56,12 @@ SPF (Sender Policy Framework) authorizes which servers can send email from your 
    v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
    ```
 
-<info>
-For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
-</info>
+> [!NOTE]
+> For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
 
-## Step 2: Configure DKIM
+## Step 2: Configure DKIM {#dkim}
 
-DKIM (DomainKeys Identified Mail) cryptographically signs emails to prove they're authentic.
+DKIM (DomainKeys Identified Mail) cryptographically signs emails to prove they are authentic.
 
 ### Set up DKIM records
 
@@ -78,11 +77,10 @@ DKIM (DomainKeys Identified Mail) cryptographically signs emails to prove they'r
    - Send test emails and check headers
    - Verify DKIM signatures are present
 
-<info>
-For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
-</info>
+> [!NOTE]
+> For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
 
-## Step 3: Configure DMARC
+## Step 3: Configure DMARC {#dmarc}
 
 DMARC (Domain-based Message Authentication, Reporting & Conformance) enforces policies and provides reporting.
 
@@ -102,11 +100,10 @@ DMARC (Domain-based Message Authentication, Reporting & Conformance) enforces po
    v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
    ```
 
-<info>
-For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
-</info>
+> [!NOTE]
+> For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
-## Step 4: Monitor and respond
+## Step 4: Monitor and respond {#monitor}
 
 ### Review DMARC reports
 
@@ -120,30 +117,30 @@ Regularly review DMARC reports to:
 
 If you discover spoofing:
 
-1. **Verify it's spoofing:** Confirm the emails are actually unauthorized
+1. **Verify it is spoofing:** Confirm the emails are actually unauthorized
 2. **Check your configuration:** Ensure SPF, DKIM, and DMARC are correct
 3. **Strengthen policies:** Move to stricter DMARC policies if needed
 4. **Monitor closely:** Watch for continued spoofing attempts
 
-## Best practices
+## Best practices {#best-practices}
 
 ### Comprehensive authentication
 
-- ✅ Configure all three: SPF, DKIM, and DMARC
-- ✅ Use strict DMARC policies (`p=reject`)
-- ✅ Monitor authentication regularly
+- Configure all three: SPF, DKIM, and DMARC
+- Use strict DMARC policies (`p=reject`)
+- Monitor authentication regularly
 
 ### Regular monitoring
 
-- ✅ Review DMARC reports weekly or bi-weekly
-- ✅ Check sender reputation regularly
-- ✅ Monitor for unauthorized use
+- Review DMARC reports weekly or bi-weekly
+- Check sender reputation regularly
+- Monitor for unauthorized use
 
 ### Gradual implementation
 
-- ✅ Start with monitoring (`p=none`)
-- ✅ Fix issues before moving to stricter policies
-- ✅ Test thoroughly at each stage
+- Start with monitoring (`p=none`)
+- Fix issues before moving to stricter policies
+- Test thoroughly at each stage
 
 ## Related topics
 
