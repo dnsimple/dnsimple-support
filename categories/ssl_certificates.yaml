@@ -14,6 +14,8 @@ Explanation:
     - "What is the CSR?"
     - "What is the SSL Certificate Common Name?"
     - "Understanding SSL Private Keys"
+    - "Understanding SSL Certificate Files and Formats"
+    - "How HTTPS Works"
   Certificate Types:
     - "SSL Certificate Types"
     - "Standard vs Let's Encrypt SSL Certificates"
@@ -23,6 +25,7 @@ Explanation:
     - "How Auto-Renewal Works for SSL Certificates"
     - "How long does it take to issue an SSL certificate?"
     - "Domain Validation Methods for SSL Certificates"
+    - "CAA Records and SSL Certificates"
   Certificate Providers:
     - "Let's Encrypt and DNSimple"
 

@@ -52,7 +52,7 @@ If you are not using one of the above servers or platforms you can still obtain 
 
 ## Downloading the SSL Certificate
 
-The certificate should be available to download from the "Other" section in several formats. Specifically, a standard `.crt` file with the primary certificate, as well as `.pem` files for the intermediate certificates independently bundled and bundled with the primary certificate, are available to download from this section.
+The certificate should be available to download from the "Other" section in several formats. Specifically, a standard `.crt` file with the primary certificate, as well as `.pem` files for the intermediate certificates independently bundled and bundled with the primary certificate, are available to download from this section. For an explanation of these formats and which one your platform requires, see [Understanding SSL Certificate Files and Formats](/articles/ssl-certificate-files-and-formats/).
 
 ## Downloading the Private Key
 
