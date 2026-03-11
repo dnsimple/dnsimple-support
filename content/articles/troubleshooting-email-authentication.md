@@ -15,19 +15,17 @@ categories:
 
 ---
 
-Email authentication protocols (SPF, DKIM, and DMARC) help protect your domain from spoofing and improve email deliverability. When these protocols aren't working correctly, you may experience issues with email delivery, emails being marked as spam, or authentication failures.
+Email authentication protocols (SPF, DKIM, and DMARC) help protect your domain from spoofing and improve email deliverability. When these protocols are not working correctly, you may experience issues with email delivery, emails being marked as spam, or authentication failures.
 
-This guide will help you diagnose and resolve common email authentication problems.
+## Common authentication issues {#common-issues}
 
-## Common authentication issues
-
-### SPF authentication failures
+### SPF authentication failures {#spf-failures}
 
 **Problem:** Emails are failing SPF checks, causing them to be rejected or marked as spam.
 
 **Possible causes:**
 - SPF record is missing or not published
-- SPF record doesn't include all authorized sending servers
+- SPF record does not include all authorized sending servers
 - Multiple SPF records exist (a domain should have only one)
 - SPF record syntax errors
 - DNS propagation delays
@@ -55,7 +53,7 @@ This guide will help you diagnose and resolve common email authentication proble
 
 For more details, see [Verifying SPF with dig and Online Tools](/articles/verifying-spf/).
 
-### DKIM authentication failures
+### DKIM authentication failures {#dkim-failures}
 
 **Problem:** Emails are failing DKIM checks, causing authentication failures.
 
@@ -77,13 +75,13 @@ For more details, see [Verifying SPF with dig and Online Tools](/articles/verify
 
 3. **Verify record content:** The DKIM record should start with `v=DKIM1` and contain the public key. Ensure the entire key is present and correctly formatted.
 
-4. **Check selector:** Different email services use different selectors. Ensure you're using the correct selector for your email service.
+4. **Check selector:** Different email services use different selectors. Ensure you are using the correct selector for your email service.
 
-5. **Verify key match:** The public key in your DNS must match the private key used by your email service to sign emails. Contact your email service provider if keys don't match.
+5. **Verify key match:** The public key in your DNS must match the private key used by your email service to sign emails. Contact your email service provider if keys do not match.
 
 For more details, see [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/).
 
-### DMARC authentication failures
+### DMARC authentication failures {#dmarc-failures}
 
 **Problem:** Emails are failing DMARC checks, causing them to be rejected or quarantined.
 
@@ -111,7 +109,7 @@ For more details, see [Verifying DKIM with dig and Online Tools](/articles/verif
    v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
    ```
 
-5. **Gradually increase policy:** Once you've verified everything is working, gradually increase the policy:
+5. **Gradually increase policy:** Once you have verified everything is working, gradually increase the policy:
    - `p=quarantine` - Treat failures as suspicious
    - `p=reject` - Reject failures (use only after thorough testing)
 
@@ -119,9 +117,9 @@ For more details, see [Verifying DKIM with dig and Online Tools](/articles/verif
 
 For more details, see [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/).
 
-## General troubleshooting steps
+## General troubleshooting steps {#general}
 
-### 1. Verify DNS records are published
+### 1. Verify DNS records are published {#verify-dns}
 
 Use `dig` or online tools to verify your authentication records are published:
 
@@ -140,34 +138,34 @@ dig +short selector._domainkey.yourdomain.com TXT
 dig +short _dmarc.yourdomain.com TXT
 ```
 
-### 2. Check DNS propagation
+### 2. Check DNS propagation {#propagation}
 
 DNS changes can take time to propagate. Use online tools like [whatsmydns.net](https://www.whatsmydns.net/) to check if your records have propagated globally.
 
-### 3. Test email authentication
+### 3. Test email authentication {#test}
 
 Send a test email and check the authentication results:
 
 - **Gmail:** View the email headers and look for `Authentication-Results`
 - **Online tools:** Use services like [Mail-Tester](https://www.mail-tester.com/) to test your email authentication
 
-### 4. Review email headers
+### 4. Review email headers {#headers}
 
 Email headers contain authentication information. Look for:
 - `Received-SPF:` - SPF authentication result
 - `DKIM-Signature:` - DKIM signature information
 - `Authentication-Results:` - Overall authentication results
 
-### 5. Check for common mistakes
+### 5. Check for common mistakes {#mistakes}
 
 - **Multiple SPF records:** A domain should have only one SPF record
 - **Wrong subdomain:** DKIM and DMARC records must be at the correct subdomains
 - **Syntax errors:** Check for typos, missing colons, or incorrect formatting
 - **Missing mechanisms:** Ensure all authorized senders are included in SPF
 
-## Getting help
+## Getting help {#help}
 
-If you're still experiencing issues after following these troubleshooting steps:
+If you are still experiencing issues after following these troubleshooting steps:
 
 1. **Check our reference guides:**
    - [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/)
@@ -176,10 +174,8 @@ If you're still experiencing issues after following these troubleshooting steps:
 
 2. **Contact your email service provider:** They can help verify your authentication configuration is correct for their service.
 
-3. **Contact DNSimple support:** [Contact support](https://dnsimple.com/feedback) with details about your issue, and we'll be happy to help.
+3. **Contact DNSimple support:** [Contact support](https://dnsimple.com/feedback) with details about your issue, and we will be happy to help.
 
 ## Have more questions?
 
 If you have additional questions or need any assistance with email authentication, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-
