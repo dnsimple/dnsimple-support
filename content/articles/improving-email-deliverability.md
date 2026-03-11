@@ -17,7 +17,7 @@ categories:
 
 Improving email deliverability requires a systematic approach that addresses authentication, reputation, content, and sending practices. This guide provides actionable steps to improve your email deliverability.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before improving email deliverability:
 
@@ -26,11 +26,11 @@ Before improving email deliverability:
 3. **Email service access:** Access to your email service provider's settings and analytics
 4. **Monitoring tools:** Access to deliverability monitoring tools (optional but recommended)
 
-## Step 1: Set up email authentication
+## Step 1: Set up email authentication {#authentication}
 
 Proper email authentication is the foundation of good deliverability. Set up all three authentication methods:
 
-### Configure SPF records
+### Configure SPF records {#spf}
 
 1. **Identify authorized senders:**
    - List all services that send email on your behalf
@@ -51,11 +51,10 @@ Proper email authentication is the foundation of good deliverability. Set up all
    - Test with online SPF checkers (see [Verifying SPF](/articles/verifying-spf/) for recommended tools)
    - See [Verifying SPF](/articles/verifying-spf/) for detailed instructions
 
-<info>
-For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/setting-up-spf/). To understand what SPF is, see [What Is an SPF Record?](/articles/spf-record/).
-</info>
+> [!NOTE]
+> For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/setting-up-spf/). To understand what SPF is, see [What Is an SPF Record?](/articles/spf-record/).
 
-### Configure DKIM records
+### Configure DKIM records {#dkim}
 
 1. **Get DKIM information from your email provider:**
    - Contact your email hosting provider or check their documentation
@@ -71,11 +70,10 @@ For detailed SPF setup instructions, see [Setting Up SPF Records](/articles/sett
    - Send a test email and check headers for DKIM signature
    - See [Verifying DKIM](/articles/verify-dkim/) for detailed instructions
 
-<info>
-For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dkim/). To understand what DKIM is, see [What Is a DKIM Record?](/articles/dkim-record/). If you need to manage multiple DKIM selectors, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
-</info>
+> [!NOTE]
+> For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dkim/). To understand what DKIM is, see [What Is a DKIM Record?](/articles/dkim-record/). If you need to manage multiple DKIM selectors, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
-### Configure DMARC records
+### Configure DMARC records {#dmarc}
 
 1. **Start with monitoring:**
    - Begin with `p=none` to monitor without affecting delivery
@@ -96,11 +94,10 @@ For detailed DKIM setup instructions, see [Setting Up DKIM](/articles/set-up-dki
    - Review DMARC reports regularly
    - See [Verifying DMARC](/articles/verifying-dmarc/) for detailed instructions
 
-<info>
-For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-dmarc/). To understand what DMARC is, see [What Is a DMARC Record?](/articles/dmarc-record/). For information about alignment requirements, see [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/).
-</info>
+> [!NOTE]
+> For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-dmarc/). To understand what DMARC is, see [What Is a DMARC Record?](/articles/dmarc-record/). For information about alignment requirements, see [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/).
 
-## Step 2: Monitor and improve sender reputation
+## Step 2: Monitor and improve sender reputation {#reputation}
 
 ### Check your reputation
 
@@ -111,7 +108,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - [BarracudaCentral](https://www.barracudacentral.org/) - Email reputation and blacklist monitoring
 
 2. **Check blacklists:**
-   - Use [MXToolbox](https://mxtoolbox.com/blacklists.aspx) or similar tools to check if you're on blacklists
+   - Use [MXToolbox](https://mxtoolbox.com/blacklists.aspx) or similar tools to check if you are on blacklists
    - If blacklisted, follow the delisting process provided by the blacklist operator
 
 3. **Monitor bounce rates:**
@@ -136,19 +133,19 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Use engaging subject lines
    - Send at optimal times for your audience
 
-## Step 3: Maintain list quality
+## Step 3: Maintain list quality {#list-quality}
 
 ### Clean your email list
 
 1. **Remove invalid addresses:**
    - Regularly validate email addresses
    - Remove hard bounces immediately
-   - Remove addresses that haven't engaged in a long time
+   - Remove addresses that have not engaged in a long time
 
 2. **Remove inactive subscribers:**
-   - Identify subscribers who haven't opened emails in 6-12 months
+   - Identify subscribers who have not opened emails in 6-12 months
    - Send a re-engagement campaign
-   - Remove those who don't re-engage
+   - Remove those who do not re-engage
 
 3. **Verify new subscribers:**
    - Use double opt-in to verify email addresses
@@ -165,7 +162,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Allow subscribers to choose email types and frequency
    - Respect preferences and send accordingly
 
-## Step 4: Optimize email content
+## Step 4: Optimize email content {#content}
 
 ### Avoid spam triggers
 
@@ -182,7 +179,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 3. **Links:**
    - Only link to reputable, legitimate websites
    - Avoid shortened URLs if possible (or use reputable services)
-   - Ensure links work and aren't broken
+   - Ensure links work and are not broken
 
 ### Improve email formatting
 
@@ -196,11 +193,11 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Ensure text version contains the same information
 
 3. **Images:**
-   - Don't rely solely on images
+   - Do not rely solely on images
    - Include alt text for images
    - Ensure images load from reputable sources
 
-## Step 5: Follow sending best practices
+## Step 5: Follow sending best practices {#sending}
 
 ### Sending volume and frequency
 
@@ -225,7 +222,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Consider recipient time zones
    - Use segmentation to send at optimal times for each segment
 
-## Step 6: Monitor and test
+## Step 6: Monitor and test {#monitor}
 
 ### Regular monitoring
 
@@ -254,7 +251,7 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
    - Test different sending times
    - Use results to improve
 
-## Troubleshooting common issues
+## Troubleshooting common issues {#troubleshooting}
 
 ### Emails going to spam
 
@@ -285,16 +282,16 @@ For detailed DMARC setup instructions, see [Setting Up DMARC](/articles/set-up-d
 4. Better segment your email list
 5. Send at optimal times
 
-## Best practices summary
+## Best practices summary {#best-practices}
 
-- ✅ Set up SPF, DKIM, and DMARC authentication
-- ✅ Monitor sender reputation regularly
-- ✅ Maintain clean, engaged email lists
-- ✅ Avoid spam triggers in content
-- ✅ Follow sending best practices
-- ✅ Test and monitor regularly
-- ✅ Respond quickly to issues
-- ✅ Continuously improve based on data
+- Set up SPF, DKIM, and DMARC authentication
+- Monitor sender reputation regularly
+- Maintain clean, engaged email lists
+- Avoid spam triggers in content
+- Follow sending best practices
+- Test and monitor regularly
+- Respond quickly to issues
+- Continuously improve based on data
 
 ## Related topics
 
