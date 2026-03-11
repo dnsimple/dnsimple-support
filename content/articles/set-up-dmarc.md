@@ -9,21 +9,24 @@ categories:
 
 # Setting up DMARC
 
-[DMARC](/articles/dmarc-record/) requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email, for example [SendGrid](https://sendgrid.com/en-us/blog/what-is-dmarc), [Postmark](https://postmarkapp.com/guides/dmarc?utm_source=dmarc&utm_medium=web&utm_campaign=nav#how-do-i-implement-dmarc-on-my-domain), or [Google Apps](https://support.google.com/a/answer/2466563). The key will be inserted directly into your zone as a [TXT record](/articles/txt-record/).
+[DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) is configured by adding a policy record to your DNS zone as a [TXT record](/articles/txt-record/). The DMARC policy tells receiving mail servers how to handle messages that fail [SPF](/articles/spf-record/) or [DKIM](/articles/dkim-record/) authentication checks. You can define your own DMARC policy, or your email service provider (e.g., [Google Workspace](https://support.google.com/a/answer/2466563), [Postmark](https://postmarkapp.com/guides/dmarc), or [SendGrid](https://sendgrid.com/en-us/blog/what-is-dmarc)) may recommend specific policy values.
 
 ## Steps to set up DMARC {#steps-to-set-up-dmarc}
 
-1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
-1. From the **Domain Names** list, click the domain where you want to set up DMARC.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
-1. In the **Record Editor**, click **Add record**, and select **TXT** as the record type.
-1. Enter the record information provided by your email service:
- - **Content:** Insert the string you were given into the **Content** field. If you are given a string representing the DKIM, it often looks like this:
-```
-"v=DMARC1;p=reject;pct=100;rua=mailto:postmaster@dmarcdomain.com"
-```
-- **Name field:** Your provider will also give you a specific hostname to use, like: `_dmarc.hostname.com`
-Enter the subdomain part of the hostname in the **Name** field. The subdomain is everything to the left of your domain name.
+<div class="section-steps" markdown="1">
+##### Add a DMARC TXT record
+
+1. If you have more than one account, select the relevant one from the account switcher.
+1. On the header, click the <label>Domain Names</label> tab, then click the domain where you want to set up DMARC.
+1. On the domain page, click <label>DNS</label> at the top-right to open the <label>Record Editor</label>.
+1. Click <label>Add record</label>, and select **TXT** as the record type.
+1. In the <label>Name</label> field, enter `_dmarc`.
+1. In the <label>Content</label> field, enter your DMARC policy string. A typical DMARC policy looks like this:
+   ```
+   v=DMARC1;p=reject;pct=100;rua=mailto:postmaster@yourdomain.com
+   ```
+1. Click <label>Add record</label> to save.
+</div>
 
 > [!TIP]
 > Your subdomain should be `_dmarc`. The leading underscore character is required
@@ -35,6 +38,15 @@ Sometimes there will be forward slashes or other unusual characters in the DMARC
 
 ## Managing DMARC records {#managing-dmarc-records}
 DMARC records are added as TXT records. To update or remove them, follow the instructions in the [Record Editor](/articles/record-editor/) guide.
+
+For a comprehensive reference on DMARC record tags and their values, see the [DMARC Record Reference](/articles/dmarc-record-reference/).
+
+## Next steps {#next-steps}
+
+After adding your DMARC record:
+
+- [Verify your DMARC record](/articles/verifying-dmarc/) is correctly published and returning the expected values.
+- Consider [implementing a gradual DMARC policy](/articles/implementing-a-gradual-dmarc-policy/), starting with monitoring (`p=none`) before moving to `quarantine` and `reject`.
 
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
