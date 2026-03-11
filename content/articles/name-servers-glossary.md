@@ -1,7 +1,7 @@
 ---
 title: Name Servers Glossary
 excerpt: Defines terms related to name servers and domain delegation.
-meta: Explore our comprehensive name servers glossary, featuring essential definitions and terms to enhance your understanding of name servers and domain delegation.
+meta: Definitions of key terms related to name servers, domain delegation, DNS resolution, and related concepts.
 categories:
 - Name Servers
 ---
@@ -121,5 +121,5 @@ Propagation refers to the time it takes for DNS changes (like name server update
 
 ## Have more questions?
 
-If you want to explore more name server terms or need assistance with name server configuration, take a look at our [Name Servers category](/categories/name-servers/). If you have further questions, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about name server configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
