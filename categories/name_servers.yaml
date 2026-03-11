@@ -6,10 +6,16 @@ Getting started:
 - "Name Server Sets"
 - "Managing Vanity Name Servers"
 
+Explanation:
+- "Name Server Redundancy and High Availability"
+
 Setting Delegation:
 - "Pointing a Domain to DNSimple"
 - "Delegating a Domain registered with another Registrar to DNSimple"
 - "Delegating a Domain registered with DNSimple to DNSimple"
+
+How to:
+- "Migrating DNS to DNSimple"
 
 Configuring name servers:
 - "Adding NS Records for a Subdomain"
