@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Name Server Issues
-excerpt: A comprehensive guide to diagnosing and resolving common name server problems.
+excerpt: How to diagnose and resolve common name server problems.
 meta: Learn how to troubleshoot name server issues, verify delegation, and resolve DNS resolution problems with your domain.
 categories:
 - Name Servers
@@ -15,27 +15,27 @@ categories:
 
 ---
 
-Name server issues can prevent your domain from resolving correctly, causing websites to be unreachable and email to fail. This guide will help you diagnose and resolve common name server problems.
+Name server issues can prevent your domain from resolving correctly, causing websites to be unreachable and email to fail.
 
 ## Common name server issues
 
 ### Domain not resolving
 
-If your domain isn't resolving, the most common cause is incorrect name server delegation. Verify that your domain is properly delegated to the correct name servers.
+If your domain is not resolving, the most common cause is incorrect name server delegation. Verify that your domain is properly delegated to the correct name servers.
 
 **Symptoms:**
-- Website doesn't load
+- Website does not load
 - DNS queries return errors
 - "Server not found" or similar browser errors
 
 **Solutions:**
 1. [Verify your name server delegation](/articles/verifying-name-server-delegation/) to ensure your domain is pointing to the correct name servers.
-2. Check that the name servers you've configured are actually authoritative for your domain.
+2. Check that the name servers you have configured are actually authoritative for your domain.
 3. Ensure that DNS records exist in your DNS hosting provider's zone file.
 
 ### Name server changes not propagating
 
-After changing your domain's name servers, it can take up to 24-48 hours for the changes to propagate globally. However, if changes aren't appearing after this period, there may be an issue.
+After changing your domain's name servers, it can take up to 24-48 hours for the changes to propagate globally. If changes are not appearing after this period, there may be an issue.
 
 **Symptoms:**
 - Name server changes made but not visible in WHOIS or DNS queries
@@ -49,7 +49,7 @@ After changing your domain's name servers, it can take up to 24-48 hours for the
 
 ### Incorrect name servers configured
 
-If you've entered the wrong name server hostnames, your domain won't resolve correctly.
+If you have entered the wrong name server hostnames, your domain will not resolve correctly.
 
 **Symptoms:**
 - Domain resolves to wrong IP addresses
@@ -58,15 +58,15 @@ If you've entered the wrong name server hostnames, your domain won't resolve cor
 
 **Solutions:**
 1. Double-check the name server hostnames for typos or incorrect entries.
-2. Verify you're using the correct name servers for your DNS provider.
-3. If using DNSimple, confirm you're using [DNSimple's name servers](/articles/dnsimple-nameservers/).
+2. Verify you are using the correct name servers for your DNS provider.
+3. If using DNSimple, confirm you are using [DNSimple's name servers](/articles/dnsimple-nameservers/).
 
 ### Glue record issues
 
-If you're using vanity name servers (name servers that are subdomains of your domain), missing or incorrect glue records can prevent resolution.
+If you are using vanity name servers (name servers that are subdomains of your domain), missing or incorrect glue records can prevent resolution.
 
 **Symptoms:**
-- Domain with vanity name servers doesn't resolve
+- Domain with vanity name servers does not resolve
 - DNS queries fail when querying vanity name servers
 - Circular dependency errors
 
@@ -119,7 +119,7 @@ dig MX example.com
 
 ### "Server not found" or "NXDOMAIN"
 
-This typically means the domain doesn't exist in DNS or isn't properly delegated.
+This typically means the domain does not exist in DNS or is not properly delegated.
 
 **Solution:** Verify name server delegation and ensure DNS records exist in your zone file.
 
@@ -145,7 +145,7 @@ After changing name servers, allow time for propagation:
 
 ## Getting help
 
-If you've tried these troubleshooting steps and your domain still isn't resolving correctly:
+If you have tried these troubleshooting steps and your domain still is not resolving correctly:
 
 1. [Verify name server delegation](/articles/verifying-name-server-delegation/)
 2. Check your DNS records in your DNSimple account

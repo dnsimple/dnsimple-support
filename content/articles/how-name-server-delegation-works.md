@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Name server delegation is the fundamental mechanism that establishes which name servers are authoritative for a domain in the DNS hierarchy. It's the process by which parent zones (like Top-Level Domains) direct DNS queries to the correct authoritative name servers for child domains, creating the distributed structure that makes the internet's Domain Name System work.
+Name server delegation is the mechanism that establishes which name servers are authoritative for a domain in the DNS hierarchy. Parent zones (like Top-Level Domains) direct DNS queries to the correct authoritative name servers for child domains, creating the distributed structure of the Domain Name System.
 
 ## What is delegation?
 

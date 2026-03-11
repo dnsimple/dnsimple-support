@@ -16,7 +16,7 @@ categories:
 
 ---
 
-Email delivery problems often occur when name servers are changed, misconfigured, or during propagation periods. This guide helps you diagnose and resolve email issues related to name server delegation, MX record resolution, and DNS propagation.
+Email delivery problems often occur when name servers are changed, misconfigured, or during propagation periods. For background on why this happens, see [Impact of Name Server Changes on Email Delivery](/articles/impact-name-server-changes-email-delivery/).
 
 ## Common email issues related to name servers
 
@@ -31,9 +31,9 @@ If emails sent to your domain are bouncing or not being delivered, the issue may
 
 **Possible causes:**
 1. MX records are missing from your DNS zone file
-2. Name servers are pointing to a DNS provider that doesn't have your MX records
+2. Name servers are pointing to a DNS provider that does not have your MX records
 3. MX records are incorrectly configured
-4. Propagation hasn't completed after a name server change
+4. Propagation has not completed after a name server change
 
 **Diagnosis steps:**
 
@@ -41,7 +41,7 @@ If emails sent to your domain are bouncing or not being delivered, the issue may
    ```bash
    dig MX example.com
    ```
-   If no MX records are returned, they're either missing or not configured in your current name servers' zone file.
+   If no MX records are returned, they are either missing or not configured in your current name servers' zone file.
 
 2. **Verify name server delegation:**
    ```bash
@@ -56,7 +56,7 @@ If emails sent to your domain are bouncing or not being delivered, the issue may
    Replace `ns1.dnsimple.com` with your actual name server. This shows what MX records your name servers are serving.
 
 **Solutions:**
-- Add MX records to your DNS provider's zone file if they're missing
+- Add MX records to your DNS provider's zone file if they are missing
 - Verify MX records match your email service provider's requirements
 - Wait for propagation to complete if you recently changed name servers
 - Ensure name servers are correctly delegated to your DNS provider
@@ -85,7 +85,7 @@ During name server propagation, email delivery may work inconsistently.
    dig MX example.com @8.8.8.8
    dig MX example.com @1.1.1.1
    ```
-   Compare results from different DNS resolvers to see if they're consistent.
+   Compare results from different DNS resolvers to see if they are consistent.
 
 3. **Check WHOIS for name server changes:**
    ```bash
@@ -150,7 +150,7 @@ Email servers cannot find MX records for your domain.
 **Possible causes:**
 - MX records are completely missing from your DNS zone
 - Name servers are not properly delegated
-- DNS zone file doesn't include MX records
+- DNS zone file does not include MX records
 - Propagation issues after name server changes
 
 **Diagnosis steps:**
@@ -165,7 +165,7 @@ Email servers cannot find MX records for your domain.
    ```bash
    dig NS example.com
    ```
-   Ensure your domain is delegated to name servers where you've configured DNS records.
+   Ensure your domain is delegated to name servers where you have configured DNS records.
 
 3. **Check zone file directly:**
    If you have access to your DNS provider's interface, verify MX records exist in the zone file.
@@ -174,7 +174,7 @@ Email servers cannot find MX records for your domain.
    ```bash
    dig MX example.com @ns1.dnsimple.com
    ```
-   Query your authoritative name servers directly to see what they're serving.
+   Query your authoritative name servers directly to see what they are serving.
 
 **Solutions:**
 - Add MX records to your DNS provider's zone file immediately
@@ -251,7 +251,7 @@ dig MX example.com @208.67.222.222
 **What to check:**
 - All resolvers return the same MX records
 - No inconsistencies between different DNS resolvers
-- Records match what you've configured
+- Records match what you have configured
 
 **If inconsistent:**
 - Propagation may still be in progress
@@ -271,7 +271,7 @@ dig aspmx.l.google.com
 - IP addresses are valid and reachable
 - No resolution errors
 
-**If hostnames don't resolve:**
+**If hostnames do not resolve:**
 - Check for typos in MX record hostnames
 - Verify mail server hostnames are correct
 - Contact your email service provider if hostnames are incorrect
@@ -285,7 +285,7 @@ Send test emails to verify delivery:
 3. Monitor for bounce messages
 4. Check email service provider's logs if available
 
-**If emails don't arrive:**
+**If emails do not arrive:**
 - Review bounce messages for specific error codes
 - Check email service provider's status
 - Verify MX records are still correct
@@ -298,7 +298,7 @@ Send test emails to verify delivery:
 
 **Possible causes:**
 - MX records point to incorrect mail servers
-- Mail server hostnames don't resolve
+- Mail server hostnames do not resolve
 - Email service provider configuration issues
 
 **Solutions:**
@@ -389,14 +389,8 @@ Email delivery error codes and DNS resolution are defined in Internet Engineerin
 - [RFC 1035, Section 3.3.9](https://datatracker.ietf.org/doc/html/rfc1035#section-3.3.9): Domain Names - Implementation and Specification (defines MX record format)
 - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035): Domain Names - Implementation and Specification (defines DNS protocol and query process)
 
-## Related articles
-
-- [Impact of Name Server Changes on Email Delivery](/articles/impact-name-server-changes-email-delivery/): Understand how name server changes affect email
-- [What Is an MX Record?](/articles/mx-record/): Learn about MX records and how to configure them
-- [Understanding Name Server Propagation](/articles/understanding-name-server-propagation/): Understand propagation timelines
-- [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/): General name server troubleshooting
-- [Domain Resolution Issues](/articles/domain-resolution-issues/): Broader DNS resolution troubleshooting
-
 ## Have more questions?
 
-If you have additional questions about troubleshooting email issues related to name servers or need assistance with your email configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+For general name server troubleshooting, see [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/). For broader DNS issues, see [Domain Resolution Issues](/articles/domain-resolution-issues/).
+
+If you need additional assistance with your email configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

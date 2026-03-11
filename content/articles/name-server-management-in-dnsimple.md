@@ -1,7 +1,7 @@
 ---
 title: Name Server Management in DNSimple
 excerpt: A detailed look at the name server management interface within your DNSimple account.
-meta: Learn how to effectively manage name servers in DNSimple with our comprehensive illustrated guide, including available settings and information.
+meta: How to manage name servers in DNSimple, including delegation settings, name server sets, reserved name servers, and glue records.
 categories:
 - Name Servers
 ---
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Name server management in DNSimple is handled on a per-domain basis. This guide provides an overview of the name server management interface and available options within your DNSimple account.
+Name server management in DNSimple is handled on a per-domain basis from the domain's **Registration** tab.
 
 ## Accessing name server management
 
@@ -77,9 +77,8 @@ Name server sets allow you to quickly apply predefined groups of name servers:
 
 ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-<info>
-If a name server in the set has glue IP addresses associated with it and is a child zone of the domain (e.g., `ns1.example.com` for `example.com`), glue records will be created automatically at the registry.
-</info>
+> [!NOTE]
+> If a name server in the set has glue IP addresses associated with it and is a child zone of the domain (e.g., `ns1.example.com` for `example.com`), glue records will be created automatically at the registry.
 
 ## Reserved name servers
 

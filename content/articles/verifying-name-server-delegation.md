@@ -1,7 +1,7 @@
 ---
 title: Verifying Name Server Delegation
 excerpt: Learn how to check that your domain is properly delegated to the correct name servers.
-meta: Discover how to verify name server delegation for your domain using various tools and methods to ensure proper DNS resolution.
+meta: How to verify name server delegation for your domain using dig, WHOIS, and online tools to confirm proper DNS resolution.
 categories:
 - Name Servers
 ---
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Verifying name server delegation is crucial to ensure your domain is properly configured and will resolve correctly. This guide will show you how to check that your domain is delegated to the correct name servers using various tools and methods.
+Verifying name server delegation ensures your domain is properly configured and will resolve correctly. You can check that your domain is delegated to the correct name servers using dig, WHOIS, and online tools.
 
 ## Why verify delegation?
 
@@ -64,9 +64,8 @@ whois example.com
 
 Look for the "Name Server" or "Name Servers" field in the output. This shows which name servers are configured at the registry level.
 
-<note>
-WHOIS information may take some time to update after making changes, and the format varies by registrar and TLD.
-</note>
+> [!NOTE]
+> WHOIS information may take some time to update after making changes, and the format varies by registrar and TLD.
 
 ### Using online tools
 
@@ -102,7 +101,7 @@ When verifying delegation, check for:
 
 ### Name servers not updated
 
-If you've changed name servers but they're not showing up in queries:
+If you have changed name servers but they are not showing up in queries:
 
 - Wait for propagation (can take up to 24-48 hours)
 - Verify changes were saved at your domain registrar
@@ -134,7 +133,7 @@ After changing your domain's name servers:
 
 ## Next steps
 
-Once you've verified delegation is correct:
+Once you have verified delegation is correct:
 
 - [Check that your DNS records are configured](/articles/record-editor/)
 - [Verify domain resolution](/articles/troubleshooting-name-servers/)

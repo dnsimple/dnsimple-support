@@ -15,7 +15,7 @@ categories:
 
 ---
 
-When you change your domain's name servers, the updates don't appear instantly across the entire internet. Instead, they propagate gradually through the DNS system, a process that can take anywhere from a few minutes to 48 hours. Understanding how name server propagation works helps you set realistic expectations and troubleshoot issues during transitions.
+When you change your domain's name servers, the updates do not appear instantly across the entire internet. Instead, they propagate gradually through the DNS system, a process that can take anywhere from a few minutes to 48 hours.
 
 ## What is name server propagation?
 
@@ -39,13 +39,10 @@ Several factors influence how quickly name server changes propagate:
 
 ### TTL (Time-to-Live) impact
 
-TTL values determine how long DNS resolvers cache records before querying for fresh information, as defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035). Lower TTL values can help changes propagate faster, but they don't eliminate propagation delays entirely. Name server delegation changes at the registry level still need time to propagate, regardless of TTL settings.
+TTL values determine how long DNS resolvers cache records before querying for fresh information, as defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035). Lower TTL values can help changes propagate faster, but they do not eliminate propagation delays entirely. Name server delegation changes at the registry level still need time to propagate, regardless of TTL settings.
 
-<note>
-#### TTL and name server delegation
-
-While TTL affects how quickly DNS resolvers refresh cached NS records, the initial propagation of name server changes at the registry level is independent of TTL values. Even with very low TTLs, registry-level changes can take time to propagate globally.
-</note>
+> [!NOTE]
+> While TTL affects how quickly DNS resolvers refresh cached NS records, the initial propagation of name server changes at the registry level is independent of TTL values. Even with very low TTLs, registry-level changes can take time to propagate globally.
 
 ### Regional differences
 
@@ -71,17 +68,11 @@ While propagation times can vary based on TLD registry processing, DNS resolver 
 - **4-24 hours**: Most of the internet has updated to the new name servers.
 - **Up to 48 hours**: Full global propagation is typically complete, though some isolated resolvers may take longer.
 
-<note>
-#### Propagation timeline variability
+> [!NOTE]
+> The 48-hour maximum propagation time is a general guideline based on typical DNS resolver TTL values and caching behavior. Actual propagation times vary depending on TLD registry policies, DNS resolver configurations, and network conditions.
 
-The 48-hour maximum propagation time is a general guideline based on typical DNS resolver TTL values and caching behavior. Actual propagation times can vary significantly depending on specific TLD registry policies, DNS resolver configurations, and network conditions. Some changes may propagate faster, while others may take longer in certain regions.
-</note>
-
-<info>
-#### WHOIS updates faster
-
-WHOIS records typically update within minutes of a name server change, making WHOIS a reliable way to verify that changes were submitted correctly, even before DNS propagation is complete.
-</info>
+> [!TIP]
+> WHOIS records typically update within minutes of a name server change, making WHOIS a reliable way to verify that changes were submitted correctly, even before DNS propagation is complete.
 
 ## Verifying propagation
 
@@ -133,7 +124,7 @@ This is normal and expected during propagation. Full stability typically occurs 
 
 ## Minimizing propagation delays
 
-While you can't eliminate propagation delays entirely, you can take steps to minimize their impact:
+You cannot eliminate propagation delays entirely, but you can take steps to minimize their impact:
 
 1. **Plan ahead**: Schedule name server changes during low-traffic periods when possible.
 
@@ -147,11 +138,11 @@ While you can't eliminate propagation delays entirely, you can take steps to min
 
 ## Troubleshooting slow propagation
 
-If name server changes aren't propagating after 48 hours:
+If name server changes are not propagating after 48 hours:
 
 1. **Verify registry submission**: Check WHOIS to confirm the name servers are correctly registered at the registry level.
 
-2. **Check for typos**: Ensure name server hostnames are spelled correctly and don't contain errors.
+2. **Check for typos**: Ensure name server hostnames are spelled correctly and do not contain errors.
 
 3. **Contact your registrar**: If WHOIS shows incorrect name servers or no update, contact your registrar to verify the change was submitted.
 
@@ -176,13 +167,8 @@ The DNS system and name server delegation are defined in several Internet Engine
 - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035): Domain Names - Implementation and Specification (defines DNS protocol, TTL, and caching behavior)
 - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034): Domain Names - Concepts and Facilities (defines DNS architecture and delegation)
 
-## Related articles
-
-- [How Name Server Delegation Works](/articles/how-name-server-delegation-works/): Understand the delegation mechanism that underlies propagation.
-- [Verifying Name Server Delegation](/articles/verifying-name-server-delegation/): Learn how to verify that your domain is properly delegated.
-- [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/): Comprehensive guide to diagnosing name server problems.
-- [Domain Resolution Issues](/articles/domain-resolution-issues/): Troubleshoot broader DNS resolution problems.
-
 ## Have more questions?
 
-If you have additional questions about name server propagation or need assistance with name server changes, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+For more on the delegation mechanism that underlies propagation, see [How Name Server Delegation Works](/articles/how-name-server-delegation-works/). If you are experiencing broader DNS issues, see [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/) or [Domain Resolution Issues](/articles/domain-resolution-issues/).
+
+If you have additional questions or need assistance, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

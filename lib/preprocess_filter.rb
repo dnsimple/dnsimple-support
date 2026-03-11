@@ -1,12 +1,9 @@
-# frozen_string_literal: true
-
-# Nanoc filter for preprocessing content before compilation.
 class PreprocessFilter < Nanoc::Filter
   identifier :preprocess
 
   REGEXP_MERMAID = /```\s*mermaid\s*\n(.*?)```/m
 
-  def run(content, _params = {})
+  def run(content, params = {})
     content = content.dup
     remove_mermaid_blocks content
     content
@@ -20,4 +17,5 @@ class PreprocessFilter < Nanoc::Filter
   def remove_mermaid_blocks(content)
     content.gsub!(REGEXP_MERMAID, '')
   end
+
 end

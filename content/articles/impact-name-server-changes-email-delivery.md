@@ -1,7 +1,7 @@
 ---
 title: Impact of Name Server Changes on Email Delivery
-excerpt: Understand how changing name servers affects MX record resolution and email delivery during transitions.
-meta: Learn how name server changes impact email delivery, including propagation delays, MX record resolution, and best practices for maintaining email service during DNS transitions.
+excerpt: How changing name servers affects MX record resolution and email delivery during transitions.
+meta: How name server changes impact email delivery, including propagation delays, MX record resolution, and best practices for maintaining email service during DNS transitions.
 categories:
 - Emails
 - Name Servers
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-Changing your domain's name servers affects all DNS record resolution, including MX records that direct email delivery. Understanding this relationship is crucial when migrating DNS providers or updating name server configurations, as improper planning can result in email delivery failures during the transition period.
+Changing your domain's name servers affects all DNS record resolution, including [MX records](/articles/mx-record/) that direct email delivery. Improper planning when migrating DNS providers or updating name server configurations can result in email delivery failures during the transition period.
 
 ## How name servers affect email delivery
 
@@ -28,7 +28,7 @@ When you change your domain's name servers:
 
 2. **DNS propagation delays**: During the propagation period, some email servers may still query your old name servers while others query your new ones, leading to inconsistent MX record resolution.
 
-3. **Email routing disruption**: If MX records aren't properly configured in your new DNS provider's zone file, or if propagation hasn't completed, email delivery can fail.
+3. **Email routing disruption**: If MX records are not properly configured in your new DNS provider's zone file, or if propagation has not completed, email delivery can fail.
 
 ## What happens during name server changes
 
@@ -62,14 +62,14 @@ Once propagation is complete (typically within 24-48 hours):
 
 ### Missing MX records
 
-If you change name servers but haven't added MX records to your new DNS provider's zone file, email delivery will fail once email servers start querying your new name servers.
+If you change name servers but have not added MX records to your new DNS provider's zone file, email delivery will fail once email servers start querying your new name servers.
 
 **Symptoms:**
 - Email bounces with "no MX record" errors
 - Email is rejected by sending mail servers
 - Delivery failures increase over time as more servers query new name servers
 
-**Why it happens:** When name servers change but MX records aren't configured in the new DNS provider's zone file, email servers that query the new name servers receive no MX records, causing delivery to fail.
+**Why it happens:** When name servers change but MX records are not configured in the new DNS provider's zone file, email servers that query the new name servers receive no MX records, causing delivery to fail.
 
 ### Propagation delays
 
@@ -84,9 +84,9 @@ During the propagation period, some email servers may query old name servers whi
 
 ### Incorrect MX record configuration
 
-If MX records in your new DNS provider don't match your email service requirements, email delivery will fail.
+If MX records in your new DNS provider do not match your email service requirements, email delivery will fail.
 
-**Why it happens:** Different email service providers require specific MX records with specific priorities. If the MX records in your new DNS provider don't match these requirements exactly, email servers may attempt to deliver to incorrect mail servers or reject delivery entirely.
+**Why it happens:** Different email service providers require specific MX records with specific priorities. If the MX records in your new DNS provider do not match these requirements exactly, email servers may attempt to deliver to incorrect mail servers or reject delivery entirely.
 
 **Symptoms:**
 - Email bounces or is rejected
@@ -106,7 +106,7 @@ DNS resolvers cache MX records based on their TTL values. During transitions, ca
 
 ## Why email delivery can be affected
 
-The relationship between name servers and email delivery is fundamental to how email works on the internet. When you change name servers, you're changing where email servers look to find your MX records. This creates several potential points of failure:
+The relationship between name servers and email delivery is fundamental to how email works on the internet. When you change name servers, you are changing where email servers look to find your MX records. This creates several potential points of failure:
 
 ### The dependency chain
 
@@ -126,8 +126,8 @@ If any step in this chain is broken or inconsistent, email delivery can fail. Na
 
 The fundamental challenge with name server changes and email is timing. Email servers around the world may query your domain's MX records at different times, and they may be using different DNS resolvers that have cached different information. During the propagation period, this creates a situation where:
 
-- Some email servers successfully deliver email because they're querying name servers that have the correct MX records
-- Other email servers fail to deliver email because they're querying name servers that don't have MX records or have incorrect ones
+- Some email servers successfully deliver email because they are querying name servers that have the correct MX records
+- Other email servers fail to deliver email because they are querying name servers that do not have MX records or have incorrect ones
 - The same email server may succeed or fail depending on which DNS resolver it uses
 
 This inconsistency is why email delivery can be unpredictable during name server transitions.
@@ -162,12 +162,8 @@ The email delivery process and DNS resolution are defined in several Internet En
 - [RFC 1035, Section 3.3.9](https://datatracker.ietf.org/doc/html/rfc1035#section-3.3.9): Domain Names - Implementation and Specification (defines MX record format and structure)
 - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035): Domain Names - Implementation and Specification (defines DNS protocol and name server delegation)
 
-## Related articles
-
-- [What Is an MX Record?](/articles/mx-record/): Learn about MX records and how they work.
-- [Understanding Name Server Propagation](/articles/understanding-name-server-propagation/): Understand how name server changes propagate.
-- [Troubleshooting Email Issues Related to Name Servers](/articles/troubleshooting-email-issues-name-servers/): Step-by-step guide to diagnosing and resolving email problems caused by name server issues.
-
 ## Have more questions?
 
-If you have additional questions about how name server changes affect email delivery or need assistance with your email configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+For step-by-step help resolving email problems caused by name server issues, see [Troubleshooting Email Issues Related to Name Servers](/articles/troubleshooting-email-issues-name-servers/). For more on how DNS changes spread globally, see [Understanding Name Server Propagation](/articles/understanding-name-server-propagation/).
+
+If you have additional questions or need assistance with your email configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
