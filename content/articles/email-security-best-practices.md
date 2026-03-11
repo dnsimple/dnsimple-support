@@ -17,7 +17,7 @@ categories:
 
 Email security is essential for protecting your domain, maintaining sender reputation, and preventing unauthorized use of your domain for malicious purposes. This guide covers email security best practices.
 
-## Overview
+## Overview {#overview}
 
 Email security best practices include:
 
@@ -27,7 +27,7 @@ Email security best practices include:
 - **Secure practices:** Follow secure email sending practices
 - **Incident response:** Know how to respond to security issues
 
-## Email authentication
+## Email authentication {#authentication}
 
 ### Configure SPF, DKIM, and DMARC
 
@@ -40,12 +40,11 @@ Email security best practices include:
 2. **Configure DKIM:** Set up DKIM to cryptographically sign emails
 3. **Configure DMARC:** Set up DMARC to enforce policies and get reports
 
-<info>
-For detailed setup instructions, see:
-- [Setting Up SPF Records](/articles/setting-up-spf/)
-- [Setting Up DKIM](/articles/set-up-dkim/)
-- [Setting Up DMARC](/articles/set-up-dmarc/)
-</info>
+> [!NOTE]
+> For detailed setup instructions, see:
+> - [Setting Up SPF Records](/articles/setting-up-spf/)
+> - [Setting Up DKIM](/articles/set-up-dkim/)
+> - [Setting Up DMARC](/articles/set-up-dmarc/)
 
 ### Use strict DMARC policies
 
@@ -58,11 +57,10 @@ For detailed setup instructions, see:
 2. Move to quarantine (`p=quarantine`)
 3. Finally implement reject (`p=reject`)
 
-<info>
-For gradual implementation, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
-</info>
+> [!NOTE]
+> For gradual implementation, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
-## Spoofing protection
+## Spoofing protection {#spoofing}
 
 ### Monitor DMARC reports
 
@@ -99,7 +97,7 @@ For gradual implementation, see [Implementing a Gradual DMARC Policy](/articles/
 - Monitor for unauthorized use
 - Educate users about phishing
 
-## Secure email practices
+## Secure email practices {#secure-practices}
 
 ### Use strong passwords
 
@@ -157,7 +155,7 @@ For gradual implementation, see [Implementing a Gradual DMARC Policy](/articles/
 - Verify the URL before clicking
 - Be wary of shortened URLs from unknown senders
 
-## Monitoring and incident response
+## Monitoring and incident response {#monitoring}
 
 ### Monitor email activity
 
@@ -195,28 +193,28 @@ For gradual implementation, see [Implementing a Gradual DMARC Policy](/articles/
 - Set up monitoring for blacklist status
 - Take action if blacklisted
 
-## Best practices summary
+## Best practices summary {#summary}
 
 **Email authentication:**
-- ✅ Configure SPF, DKIM, and DMARC
-- ✅ Use strict DMARC policies
-- ✅ Monitor authentication status
+- Configure SPF, DKIM, and DMARC
+- Use strict DMARC policies
+- Monitor authentication status
 
 **Spoofing protection:**
-- ✅ Monitor DMARC reports
-- ✅ Use subdomain isolation
-- ✅ Protect against phishing
+- Monitor DMARC reports
+- Use subdomain isolation
+- Protect against phishing
 
 **Secure practices:**
-- ✅ Use strong passwords
-- ✅ Enable two-factor authentication
-- ✅ Keep software updated
-- ✅ Be cautious with attachments and links
+- Use strong passwords
+- Enable two-factor authentication
+- Keep software updated
+- Be cautious with attachments and links
 
 **Monitoring:**
-- ✅ Monitor email activity
-- ✅ Respond to security incidents
-- ✅ Check blacklists regularly
+- Monitor email activity
+- Respond to security incidents
+- Check blacklists regularly
 
 ## Related topics
 
