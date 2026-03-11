@@ -1,6 +1,6 @@
 ---
 title: Understanding Email Bounces
-excerpt: Learn about email bounces, the different types of bounces, and what causes them.
+excerpt: About email bounces, the different types of bounces, and what causes them.
 meta: Comprehensive guide to understanding email bounces, including hard bounces, soft bounces, and how to handle them.
 categories:
 - Emails
@@ -15,23 +15,23 @@ categories:
 
 ---
 
-Email bounces occur when an email cannot be delivered to its recipient. Understanding the different types of bounces and their causes is essential for managing email delivery and maintaining good sender reputation.
-
-## What is an email bounce?
-
 An email bounce (also called a bounce message or non-delivery report) is a notification that an email could not be delivered to its intended recipient. Bounces are returned to the sender (or the Return-Path address) by the receiving mail server.
 
-## Types of email bounces
+## What is an email bounce? {#what-is}
+
+An email bounce occurs when an email cannot be delivered to its recipient. The receiving mail server sends a bounce message back to the sender explaining why delivery failed.
+
+## Types of email bounces {#types}
 
 ### Hard bounces
 
 Hard bounces are permanent delivery failures. These indicate that the email will never be delivered to the recipient.
 
 **Common causes:**
-- **Invalid email address:** The email address doesn't exist
-- **Domain doesn't exist:** The recipient's domain doesn't exist
+- **Invalid email address:** The email address does not exist
+- **Domain does not exist:** The recipient's domain does not exist
 - **Blocked domain:** The recipient's domain blocks all emails
-- **Recipient mailbox doesn't exist:** The mailbox was deleted or never existed
+- **Recipient mailbox does not exist:** The mailbox was deleted or never existed
 
 **Characteristics:**
 - Permanent failure
@@ -66,7 +66,7 @@ Soft bounces are temporary delivery failures. These indicate that the email migh
 - "451 4.3.0 Temporary server error"
 - "552 5.2.2 Mailbox full"
 
-## Bounce categories
+## Bounce categories {#categories}
 
 ### Delivery status notification (DSN) codes
 
@@ -102,17 +102,16 @@ Bounces include DSN codes that indicate the type of failure:
 - 5.7.2: Mailing list expansion prohibited
 - 5.7.3: Security conversion required
 
-<info>
-**DSN codes:** The first digit (5) indicates permanent failure, while (4) indicates temporary failure. The second digit indicates the category of failure.
-</info>
+> [!NOTE]
+> The first digit (5) indicates permanent failure, while (4) indicates temporary failure. The second digit indicates the category of failure.
 
-## Understanding bounce messages
+## Understanding bounce messages {#bounce-messages}
 
 ### Bounce message structure
 
 Bounce messages typically include:
 
-1. **Original message:** The original email that couldn't be delivered
+1. **Original message:** The original email that could not be delivered
 2. **Bounce reason:** Explanation of why delivery failed
 3. **DSN code:** Status code indicating the type of failure
 4. **Diagnostic information:** Additional details about the failure
@@ -129,11 +128,11 @@ Bounce messages typically include:
 
 **Headers:** May contain additional information about the bounce
 
-## Common bounce scenarios
+## Common bounce scenarios {#common-scenarios}
 
 ### Invalid email address
 
-**Scenario:** Email address doesn't exist
+**Scenario:** Email address does not exist
 
 **Bounce message:** "550 5.1.1 User unknown"
 
@@ -147,9 +146,9 @@ Bounce messages typically include:
 
 **Action:** Retry later (soft bounce), remove if persistent
 
-### Domain doesn't exist
+### Domain does not exist
 
-**Scenario:** Recipient's domain doesn't exist
+**Scenario:** Recipient's domain does not exist
 
 **Bounce message:** "550 5.1.2 Host unknown"
 
@@ -171,7 +170,7 @@ Bounce messages typically include:
 
 **Action:** Investigate why, may need to remove from list
 
-## Impact of bounces on deliverability
+## Impact of bounces on deliverability {#impact}
 
 ### High bounce rates
 
@@ -188,12 +187,12 @@ High bounce rates can:
 - **Soft bounces:** Keep below 2%
 - **Total bounce rate:** Keep below 2%
 
-## Handling bounces
+## Handling bounces {#handling}
 
 ### For hard bounces
 
 1. **Remove immediately:** Remove hard bounces from your email list immediately
-2. **Don't retry:** Don't attempt to resend to hard bounce addresses
+2. **Do not retry:** Do not attempt to resend to hard bounce addresses
 3. **Monitor rate:** Keep track of hard bounce rates
 4. **Investigate:** If hard bounce rate is high, investigate list quality
 
@@ -206,14 +205,14 @@ High bounce rates can:
 
 ### Best practices
 
-- ✅ Remove hard bounces immediately
-- ✅ Monitor bounce rates regularly
-- ✅ Use double opt-in to reduce bounces
-- ✅ Validate email addresses before sending
-- ✅ Clean your email list regularly
-- ✅ Monitor bounce trends
+- Remove hard bounces immediately
+- Monitor bounce rates regularly
+- Use double opt-in to reduce bounces
+- Validate email addresses before sending
+- Clean your email list regularly
+- Monitor bounce trends
 
-## Bounces and email forwarding
+## Bounces and email forwarding {#forwarding}
 
 When using email forwarding:
 
@@ -227,15 +226,14 @@ When using email forwarding:
 - Behavior depends on the forwarding configuration
 
 **Considerations:**
-- Bounces can't be forwarded to the original sender in most cases
+- Bounces cannot be forwarded to the original sender in most cases
 - The forwarding service may handle bounces
 - Check your email forwarding service's bounce handling
 
-<info>
-For more information about handling bounces with email forwarding, see [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/).
-</info>
+> [!NOTE]
+> For more information about handling bounces with email forwarding, see [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/).
 
-## Reducing bounces
+## Reducing bounces {#reducing}
 
 ### List hygiene
 
@@ -251,7 +249,7 @@ For more information about handling bounces with email forwarding, see [Handling
 - **Monitor reputation:** Keep sender reputation high
 - **Test before sending:** Test emails before sending to large lists
 
-## Monitoring bounces
+## Monitoring bounces {#monitoring}
 
 ### Track bounce rates
 

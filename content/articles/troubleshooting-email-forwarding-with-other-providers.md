@@ -15,9 +15,9 @@ categories:
 
 ---
 
-This guide helps troubleshoot email forwarding issues with email providers other than Gmail, including Outlook, Yahoo, and other providers.
+This guide covers troubleshooting email forwarding issues with email providers other than Gmail, including Outlook, Yahoo, and other providers.
 
-## Common issues by provider
+## Common issues by provider {#by-provider}
 
 ### Outlook/Hotmail
 
@@ -36,7 +36,7 @@ This guide helps troubleshoot email forwarding issues with email providers other
    - This helps with future delivery
 
 3. **Check mailbox limits:**
-   - Verify mailbox isn't full
+   - Verify mailbox is not full
    - Clear space if needed
 
 4. **Check spam filters:**
@@ -61,10 +61,10 @@ This guide helps troubleshoot email forwarding issues with email providers other
 
 3. **Check filters:**
    - Review email filters
-   - Ensure filters aren't blocking forwards
+   - Ensure filters are not blocking forwards
 
 4. **Check mailbox status:**
-   - Verify mailbox isn't full
+   - Verify mailbox is not full
    - Check account status
 
 ### Other providers
@@ -86,13 +86,13 @@ This guide helps troubleshoot email forwarding issues with email providers other
    - If issues persist, contact email provider support
    - They may have specific requirements
 
-## General troubleshooting
+## General troubleshooting {#general}
 
 ### Verify email forwarding configuration
 
 1. **Check email forwards:**
-   - Verify "From" field is correct
-   - Verify "To" (destination) field is correct
+   - Verify <label>From</label> field is correct
+   - Verify <label>To</label> (destination) field is correct
    - Check for typos
 
 2. **Test destination:**
@@ -118,7 +118,7 @@ This guide helps troubleshoot email forwarding issues with email providers other
    - Test from different email providers
    - Verify delivery works consistently
 
-## Provider-specific tips
+## Provider-specific tips {#tips}
 
 ### Outlook/Hotmail
 
@@ -148,13 +148,13 @@ This guide helps troubleshoot email forwarding issues with email providers other
 - Review provider settings
 - Contact provider support if needed
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Check spam folders first
-- ✅ Add forwarding service to contacts
-- ✅ Test email delivery regularly
-- ✅ Keep email forwards updated
-- ✅ Monitor for delivery issues
+- Check spam folders first
+- Add forwarding service to contacts
+- Test email delivery regularly
+- Keep email forwards updated
+- Monitor for delivery issues
 
 ## Related topics
 

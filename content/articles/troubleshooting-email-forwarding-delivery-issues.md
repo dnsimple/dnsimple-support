@@ -15,13 +15,13 @@ categories:
 
 ---
 
-If emails aren't being delivered through email forwarding, this guide will help you diagnose and fix the issue.
+If emails are not being delivered through email forwarding, use this guide to diagnose and fix the issue.
 
-## Common issues
+## Common issues {#common-issues}
 
 ### Emails not arriving at destination
 
-**Problem:** Emails sent to forwarded addresses aren't arriving at the destination.
+**Problem:** Emails sent to forwarded addresses are not arriving at the destination.
 
 **Possible causes:**
 - Email forwarding not enabled
@@ -36,8 +36,8 @@ If emails aren't being delivered through email forwarding, this guide will help 
    - Create a test email forward if needed
 
 2. **Check email forward configuration:**
-   - Verify the "From" field is correct
-   - Verify the "To" (destination) field is correct
+   - Verify the <label>From</label> field is correct
+   - Verify the <label>To</label> (destination) field is correct
    - Check for typos in email addresses
 
 3. **Test destination directly:**
@@ -52,7 +52,7 @@ If emails aren't being delivered through email forwarding, this guide will help 
    - Check if forwarded emails are in spam/junk folders
    - Add destination to contacts if needed
 
-### Emails going to spam
+### Emails going to spam {#spam}
 
 **Problem:** Forwarded emails are going to spam folders.
 
@@ -79,9 +79,9 @@ If emails aren't being delivered through email forwarding, this guide will help 
    - If issues persist, contact the destination email provider
    - They may have specific filtering rules
 
-### Email forwarding not working
+### Email forwarding not working {#not-working}
 
-**Problem:** Email forwarding service isn't working at all.
+**Problem:** Email forwarding service is not working at all.
 
 **Possible causes:**
 - Email forwarding not enabled
@@ -91,7 +91,7 @@ If emails aren't being delivered through email forwarding, this guide will help 
 
 **Solutions:**
 1. **Verify email forwarding is enabled:**
-   - Check the Email Forwarding tab
+   - Check the <label>Email Forwarding</label> tab
    - Create a test forward if needed
 
 2. **Check MX records:**
@@ -103,10 +103,10 @@ If emails aren't being delivered through email forwarding, this guide will help 
    - Check for DNS propagation issues
 
 4. **Contact support:**
-   - If issues persist, contact DNSimple support
+   - If issues persist, [contact DNSimple support](https://dnsimple.com/feedback)
    - Provide details about the issue
 
-## Testing email forwarding
+## Testing email forwarding {#testing}
 
 ### Send test emails
 
@@ -128,7 +128,7 @@ If emails aren't being delivered through email forwarding, this guide will help 
 
 1. **Check email forwards:**
    - Review all configured email forwards
-   - Verify "From" and "To" fields are correct
+   - Verify <label>From</label> and <label>To</label> fields are correct
    - Check for any disabled forwards
 
 2. **Check MX records:**
@@ -139,12 +139,12 @@ If emails aren't being delivered through email forwarding, this guide will help 
    - Use `dig` to verify DNS records
    - Check DNS propagation
 
-## Common solutions
+## Common solutions {#solutions}
 
 ### Fix typos in email addresses
 
-- Check "From" field for typos
-- Check "To" (destination) field for typos
+- Check <label>From</label> field for typos
+- Check <label>To</label> (destination) field for typos
 - Verify email address format
 
 ### Update destination addresses
@@ -159,13 +159,13 @@ If emails aren't being delivered through email forwarding, this guide will help 
 - Recreate with correct information
 - Test after recreation
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Test email forwarding after setup
-- ✅ Verify destination addresses are correct
-- ✅ Monitor for delivery issues
-- ✅ Check spam folders regularly
-- ✅ Keep email forwards updated
+- Test email forwarding after setup
+- Verify destination addresses are correct
+- Monitor for delivery issues
+- Check spam folders regularly
+- Keep email forwards updated
 
 ## Related topics
 
