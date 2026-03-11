@@ -9,9 +9,9 @@ categories:
 # Recovering a Deleted Domain
 
 > [!WARNING]
-> When recovering a domain, we won't be able to recover your DNS records. We recommend making a [copy of your zone file](/articles/export-records-zone-file/) before deleting any domain from DNSimple.
+> When recovering a domain, we will not be able to recover your DNS records. We recommend making a [copy of your zone file](/articles/export-records-zone-file/) before deleting any domain from DNSimple.
 
-## The domain was registered with DNSimple
+## The domain was registered with DNSimple {#the-domain-was-registered-with-dnsimple}
 When you [delete a domain](/articles/deleting-domain/) that you registered through DNSimple from your account, the domain is still present in the registry (you can verify this by running [a WHOIS lookup](https://dnsimple.com/whois)). The domain will remain registered and belong to you until it expires and the registry deletes it.
 
 <div class="section-steps" markdown="1">
@@ -24,9 +24,9 @@ When you [delete a domain](/articles/deleting-domain/) that you registered throu
 </div>
 
 
-## The domain was registered with a 3rd party
+## The domain was registered with a 3rd party {#the-domain-was-registered-with-a-3rd-party}
 
-To recover a domain that's registered with an external registrar, add the domain back to your account:
+To recover a domain that is registered with an external registrar, add the domain back to your account:
 
 <div class="section-steps" markdown="1">
 ##### To recover a hosted domain
@@ -36,6 +36,6 @@ To recover a domain that's registered with an external registrar, add the domain
 
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about recovering a deleted domain, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about recovering a deleted domain, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

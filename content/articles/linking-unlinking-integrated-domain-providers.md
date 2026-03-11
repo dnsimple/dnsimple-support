@@ -13,13 +13,13 @@ DNSimple supports the ability to manage domains that are registered with other d
 
 When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domain Names page. You can view the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple.
 
-## Supported Integrated Domain Providers
+## Supported Integrated Domain Providers {#supported-integrated-domain-providers}
 
 DNSimple supports domain integration with the providers listed below.
 
 - [GoDaddy](/articles/integrated-domain-provider-godaddy/)
 
-## Linking an Integrated Domain Provider to your account
+## Linking an Integrated Domain Provider to your account {#linking-an-integrated-domain-provider-to-your-account}
 
 <div class="section-steps" markdown="1">
 ##### To link an Integrated Domain Provider
@@ -35,7 +35,7 @@ DNSimple supports domain integration with the providers listed below.
 ![Domain Names page](/files/domain-names.png)
 </div>
 
-## Unlinking an Integrated Domain Provider from your account
+## Unlinking an Integrated Domain Provider from your account {#unlinking-an-integrated-domain-provider-from-your-account}
 
 <div class="section-steps" markdown="1">
 ##### To unlink an Integrated Domain Provider
@@ -45,6 +45,6 @@ DNSimple supports domain integration with the providers listed below.
 ![Unlink an Integrated Domain Provider](/files/account-integrated-domain-provider-unlink.png)
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about linking or unlinking integrated domain providers, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about linking or unlinking integrated domain providers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

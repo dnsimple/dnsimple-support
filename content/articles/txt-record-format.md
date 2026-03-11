@@ -9,7 +9,7 @@ categories:
 # TXT Record Formatting and Long Record Handling
 This document serves as a reference for the technical specifications, formatting rules, and validation constraints that apply to [TXT (Text) records](/articles/txt-record/)  in the [Domain Name System](/articles/what-is-dns/), with a specific focus on how DNSimple processes and manages these records, particularly for long content strings.
 
-## TXT record format basics
+## TXT record format basics {#txt-record-format-basics}
 A TXT record is fundamentally composed of one or more strings of plain text. According to RFC 1035, each individual string within a TXT record can be up to 255 characters in length.
 
 ### DNSimple's input handling for TXT records
@@ -34,7 +34,7 @@ The provided TXT record content is already enclosed in double quotes (e.g., copi
     - Any double quote characters (") that are present within the content string must be escaped with the sequence \".
 - **Constraints**: The total length of the content you provide (including quotes and escaped characters) must not exceed 1000 characters.
 
-## Handling long TXT records
+## Handling long TXT records {#handling-long-txt-records}
 According to RFC 1035, if a TXT record's content exceeds 255 characters, it must be split into multiple strings (or "chunks"), each not exceeding 255 characters. These chunks are then concatenated by DNS resolvers during lookup.
 
 DNSimple's system manages the splitting of long TXT records transparently, with: 
@@ -60,7 +60,7 @@ example.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
 ```
 (The resolved output is split into multiple 255-character chunks, often by a space character sequence between the quoted chunks).
 
-## Quotes and special characters in TXT values
+## Quotes and special characters in TXT values {#quotes-and-special-characters-in-txt-values}
 
 **Double quotes**: If your provider gives you a TXT record value that is already enclosed in double quotes (e.g., `"v=DKIM1;..."`), you can provide it directly as serialized input. DNSimple will store it verbatim.
 
@@ -68,8 +68,8 @@ example.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
 
 **Other characters**: Do not modify forward slashes or any other unusual characters that are part of the legitimate value string (e.g., within a Base64 encoded key, or an email/URL). Only handle quotes and backslashes as described above.
 
-## References
+## References {#references}
 **RFC 1035, Section 3.3.14**: [Domain Names - Concepts and Facilities (TXT record specification)](https://datatracker.ietf.org/doc/html/rfc1035).
 
-## Have more questions?
-If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

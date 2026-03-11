@@ -17,22 +17,22 @@ categories:
 
 DNSimple provides powerful DNS hosting services to help you manage your domain's DNS records, configure name servers, and ensure reliable domain resolution. This guide organizes all DNS-related documentation to help you find exactly what you need.
 
-## Announcements
+## Announcements {#announcements}
 
 Important updates and changes that may affect your DNS configuration:
 
 - [Change of Non-Compliant ENT Behavior](/articles/announcement-change-ent-behavior/) - Learn about changes to non-compliant enterprise behavior that may affect your DNS configuration.
 
 > [!NOTE]
-> These articles contain information that is only relevant to specific customers. If you're impacted, you will receive an email from DNSimple.
+> These articles contain information that is only relevant to specific customers. If you are impacted, you will receive an email from DNSimple.
 
-## What is DNS?
+## What is DNS? {#what-is-dns}
 
 Learn about DNS fundamentals, DNS records, and DNS concepts:
 
 - [What Is DNS?](/articles/what-is-dns/) - Understand the fundamentals of the Domain Name System and how it translates domain names to IP addresses.
 - [What Is Time-to-Live?](/articles/what-is-ttl/) - Learn about TTL (Time-to-Live) and how it controls how long DNS records are cached.
-- [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-is-ttl/#ttl-in-dnsimple) - Discover the minimum TTL values that DNSimple provides for your DNS records.
+- [What is the Minimum Time-To-Live Provided by DNSimple?](/articles/what-is-ttl/#ttl-in-dnsimple) - Discover the minimum TTL values that DNSimple provides for your DNS records.
 - [How Long Does a New DNS Record Take to Resolve?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) - Understand the time it takes for new DNS records to become available after creation.
 - [What Is Resolution Status?](/articles/resolution-status/) - Learn about resolution status and how to check if your DNS records are resolving correctly.
 - [What Is dig?](/articles/what-is-dig/) - Introduction to the dig command-line tool for querying DNS servers.
@@ -83,12 +83,12 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [Integrated DNS Provider Amazon Route 53](/articles/integrated-dns-provider-amazon-route53/) - Learn how to use Amazon Route 53 as an integrated DNS provider.
 - [Integrated DNS Provider Azure DNS](/articles/integrated-dns-provider-azure-dns/) - Learn how to use Azure DNS as an integrated DNS provider.
 - [Integrated DNS Provider CoreDNS](/articles/integrated-dns-provider-coredns/) - Learn how to use CoreDNS as an integrated DNS provider.
-- [What Is Zone Verification and Why Does It Matter?](/articles/what-is-zone-verification/) - Understand zone verification and why it's important for DNS management.
+- [What Is Zone Verification and Why Does It Matter?](/articles/what-is-zone-verification/) - Understand zone verification and why it is important for DNS management.
 - [How Does Zone Verification Work?](/articles/zone-verification/) - Learn about the zone verification process and how DNSimple validates DNS zones.
 - [Why You Should Auto-Import DNS Records](/articles/why-auto-import/) - Discover the benefits of automatically importing DNS records when adding domains.
 - [Why Should I Use DNSimple as a DNS Hosting Provider?](/articles/dns-hosting/) - Learn about the advantages of using DNSimple for DNS hosting.
 
-## How to manage DNS
+## How to manage DNS {#how-to-manage-dns}
 
 Step-by-step guides for managing DNS records, zones, and DNS configuration:
 
@@ -134,7 +134,7 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Guide to verifying DMARC records using dig and online tools.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/) - Step-by-step instructions for rotating DNSSEC keys.
 
-## Troubleshooting DNS issues
+## Troubleshooting DNS issues {#troubleshooting-dns-issues}
 
 Resolve common DNS problems and configuration issues:
 
@@ -144,7 +144,7 @@ Resolve common DNS problems and configuration issues:
 - [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) - Learn how to troubleshoot specific DNS record resolution problems.
 - [How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/) - Step-by-step guide to fixing empty responses caused by Empty Non-Terminals.
 
-## DNS reference
+## DNS reference {#dns-reference}
 
 Technical specifications, formats, and reference documentation:
 

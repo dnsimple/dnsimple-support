@@ -17,10 +17,10 @@ categories:
 
 You can manage [URL records](/articles/url-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [URL record format](/articles/url-record-format-details/) and usage.
+The instructions in this article assume you are familiar with the [URL record format](/articles/url-record-format-details/) and usage.
 
 
-## Adding a URL record
+## Adding a URL record {#adding-a-url-record}
 
 <div class="section-steps" markdown="1">
 #### To add a URL record
@@ -45,7 +45,7 @@ The instructions in this article assume you're familiar with the [URL record for
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Include a [record note](/articles/record-notes/) (optional).
 
-    Once you're ready, click **Add Record** to confirm and create the record.
+    Once you are ready, click **Add Record** to confirm and create the record.
 
 1.  The record is created and visible in the record list.
 
@@ -54,7 +54,7 @@ The instructions in this article assume you're familiar with the [URL record for
 </div>
 
 
-## Updating a URL record
+## Updating a URL record {#updating-a-url-record}
 
 <div class="section-steps" markdown="1">
 #### To update a URL record
@@ -70,7 +70,7 @@ The instructions in this article assume you're familiar with the [URL record for
 1.  Update the information and click **Update Record** to save the record.
 </div>
 
-## Removing a URL record
+## Removing a URL record {#removing-a-url-record}
 
 <div class="section-steps" markdown="1">
 #### To remove a URL record
@@ -86,5 +86,5 @@ The instructions in this article assume you're familiar with the [URL record for
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
-If you have any questions or need assistance managing URL records, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have any questions or need assistance managing URL records, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

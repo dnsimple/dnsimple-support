@@ -10,7 +10,7 @@ categories:
 
 An [SRV (Service) record](/articles/srv-record/) is a DNS record type that specifies the location of services, including the port number, hostname, and prioritization for contacting the service. This document details the formal structure and the components within an SRV record.
 
-## SRV record structure
+## SRV record structure {#srv-record-structure}
 
 An SRV record in a DNS zone file typically follows this structure:
 `<name>` `<TTL>` `IN SRV` `<priority>` `<weight>` `<port>` `<target>`
@@ -26,7 +26,7 @@ An SRV record in a DNS zone file typically follows this structure:
 | port | The TCP or UDP port number on which the service is found. | An unsigned 16-bit integer (0-65535). Defines the specific port for the service. |
 | target | The domain name of the host on which the service is to be found. | A fully-qualified domain name (FQDN). **Must NOT be an IP address**. This target FQDN must have a corresponding A or AAAA record. |
 
-## Example SRV records
+## Example SRV records {#example-srv-records}
 Example of two SRV records for a SIP (Session Initiation Protocol) service over TCP, demonstrating priority and weight in action:
 ```
 _sip._tcp.example.com.  3600 IN  SRV 10  60  5060 bigbox.example.com.
@@ -54,7 +54,7 @@ _sip._tcp.example.com.  3600 IN  SRV 10  20  5060 smallbox1.example.com.
 - `5060` (**Port**): The service runs on port 5060.
 - `smallbox1.example.com.` (**Target**): The server's hostname.
 
-## Important considerations for SRV records
+## Important considerations for SRV records {#important-considerations-for-srv-records}
 ### Target must be an FQDN
 The `target` field of an SRV record must always be a fully-qualified domain name (e.g., `server.example.com.`), not an IP address. The IP address for the target FQDN is resolved by a subsequent A or AAAA record lookup.
 ### Interaction of priority and weight
@@ -62,8 +62,8 @@ Clients will always attempt to connect to the lowest priority SRV records first.
 ### Single-service per name
 Each unique `_service._proto.name` combination defines one service location set. You can have multiple SRV records for the same service name and protocol, but they will be prioritized and weighted as described above.
 
-## References
+## References {#references}
 **[RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782)**: A DNS RR for specifying the location of services (The primary specification for SRV records).
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

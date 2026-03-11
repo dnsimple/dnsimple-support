@@ -12,7 +12,7 @@ Dynamic DNS (DDNS) lets you keep a DNS record updated automatically when your IP
 
 With DNSimple, you can use our [API](https://developer.dnsimple.com/) to build simple [Dynamic DNS](/articles/dynamic-dns/) updates. For examples and ready-to-use options, check out our [Tools page](https://developer.dnsimple.com/tools/).
 
-## Before you begin
+## Before you begin {#before-you-begin}
 
 You need:
 - A DNSimple account with an active domain.
@@ -22,16 +22,16 @@ You need:
 > [!NOTE]
 > DNSimple does **not** support the legacy **dyndns API** that many consumer routers reference when they mention DDNS. Instead, you must use our API or a compatible client.
 
-## Step 1: Identify the record you want to update
+## Step 1: Identify the record you want to update {#step-1-identify-the-record-you-want-to-update}
 
 Decide which DNS record you want to keep updated with your dynamic IP address.
 
 - Typically, this will be an **A record** for a subdomain like `home.example.com`.
 - You can add an A record in your DNSimple dashboard before you start.
 
-## Step 2: Write a script or use a client
+## Step 2: Write a script or use a client {#step-2-write-a-script-or-use-a-client}
 
-You can update the record programmatically by calling the DNSimple API. Here's a simple `curl` example to update an A record:
+You can update the record programmatically by calling the DNSimple API. Here is a simple `curl` example to update an A record:
 ```
 curl -H "Authorization: Bearer \<API\_TOKEN\>" \
      -H "Accept: application/json" \
@@ -54,7 +54,7 @@ curl -H "Authorization: Bearer $API_TOKEN" \
      -d "{\"content\":\"$CURRENT_IP\"}" \
      "https://api.dnsimple.com/v2/$ACCOUNT_ID/zones/example.com/records/$RECORD_ID"
 ```
-## Step 3: Automate the update
+## Step 3: Automate the update {#step-3-automate-the-update}
 
 Run your script on a schedule to keep your DNS record synced with your current IP:
 
@@ -65,7 +65,7 @@ For example, update every 5 minutes with cron:
 
 `*/5 ****/path/to/update-script.sh`
 
-## Step 4: Verify the record
+## Step 4: Verify the record {#step-4-verify-the-record}
 
 Check that your DNS record updates correctly:
 
@@ -73,5 +73,5 @@ Check that your DNS record updates correctly:
 
 The returned IP should match your current IP address.
 
-## Have more questions?
-If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

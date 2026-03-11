@@ -13,19 +13,19 @@ categories:
 * TOC
 {:toc}
 
-## What is Handshake?
+## What is Handshake? {#what-is-handshake}
 
 [Handshake](https://handshake.org/) is a decentralized, peer-to-peer, permissionless naming protocol. Each peer in the network validates and manages the root DNS naming zone. The aim of the project is to make any centralized governing bodies obsolete for both managing the DNS root zone and, as a result, needing a centralized Certificate Authority (CA).
 
-## Adding a Handshake (HNS) Domain
+## Adding a Handshake (HNS) Domain {#adding-a-handshake-hns-domain}
 
 > [!NOTE]
-> DNSimple only supports the management of second-level Handshake domains. Currently, you can't host a name directly registered in the Handshake blockchain (TLD).
+> DNSimple only supports the management of second-level Handshake domains. Currently, you cannot host a name directly registered in the Handshake blockchain (TLD).
 
 To add an HNS domain and manage its DNS records through DNSimple you have two options:
 
 1. Register the domain with a registrar that sells second-level Handshake domains.
-2. If you're the owner of the HNS TLD, add DNSimple's NS records for the domain directly to the blockchain via your preferred method.
+2. If you are the owner of the HNS TLD, add DNSimple's NS records for the domain directly to the blockchain via your preferred method.
 
 For both options, the process of adding the domain to DNSimple is the same.
 
@@ -38,17 +38,17 @@ For both options, the process of adding the domain to DNSimple is the same.
 1.  Choose <label>DNS zone</label> from the provided options.
   ![Adding a domain](/files/add-button-dns-zone.png)
 
-You'll then be prompted for the name of the domain you want to add to your account.
+You will then be prompted for the name of the domain you want to add to your account.
 
 After adding the domain to DNSimple, you need to use the name servers from the [DNSimple name servers](/articles/dnsimple-nameservers/) support article for your domain.
 </div>
 
-## Incompatible services
+## Incompatible services {#incompatible-services}
 
 > [!WARNING]
 > Handshake domains do not resolve in regular browsers by default. They require additional setup.
 
-DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains because they aren't resolvable without a Handshake-aware resolver.
+DNSimple DNS services are compatible with HNS domains. However, some services are incompatible with HNS domains because they are not resolvable without a Handshake-aware resolver.
 
 These known services are not compatible:
 
@@ -58,7 +58,7 @@ These known services are not compatible:
 * Netlify Connector
 * ALIAS records pointing to other HNS domains which are not hosted with DNSimple
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about Handshake (HNS) domains and DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about Handshake (HNS) domains and DNSimple, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

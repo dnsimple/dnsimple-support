@@ -10,11 +10,11 @@ categories:
 
 This article serves as a reference for the formal requirements, restrictions, and key technical details of domain registration.
 
-## Domain registration overview
+## Domain registration overview {#domain-registration-overview}
 
 Domain registration is the process of purchasing and reserving a domain name for a specified period, typically one year or more. When you register a domain with DNSimple, DNSimple acts as your domain registrar and manages your domain registration with the appropriate registry.
 
-## Registration requirements
+## Registration requirements {#registration-requirements}
 
 ### Domain availability
 
@@ -40,7 +40,7 @@ When registering a domain, you must provide accurate registrant contact informat
 
 **Regulated TLDs:** Some TLDs, such as `.BANK` and `.INSURANCE`, have additional requirements and restrictions. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
 
-## Registration restrictions
+## Registration restrictions {#registration-restrictions}
 
 ### Character restrictions
 
@@ -64,7 +64,7 @@ When registering a domain, you must provide accurate registrant contact informat
 
 **Renewal:** Domains must be renewed before expiration to maintain registration. We recommend [enabling auto-renewal](/articles/domain-auto-renewal/) to avoid accidental expiration.
 
-## Registration process
+## Registration process {#registration-process}
 
 The domain registration process at DNSimple involves:
 
@@ -76,7 +76,7 @@ The domain registration process at DNSimple involves:
 
 For step-by-step instructions, see [Registering a Domain](/articles/registering-domain/).
 
-## Registration pricing
+## Registration pricing {#registration-pricing}
 
 **TLD-based pricing:** Domain registration prices vary depending on the TLD. For the full list of pricing, visit the [DNSimple domain pricing](https://dnsimple.com/tlds) page.
 
@@ -84,7 +84,7 @@ For step-by-step instructions, see [Registering a Domain](/articles/registering-
 
 **Subscription:** If you have a subscription with DNSimple, the card on file will be charged. If you do not have a subscription, you will need to enter payment details.
 
-## Optional services
+## Optional services {#optional-services}
 
 ### WHOIS privacy protection
 
@@ -102,7 +102,7 @@ For step-by-step instructions, see [Registering a Domain](/articles/registering-
 
 **Configuration:** Auto-renewal can be enabled during registration or configured later in your domain settings.
 
-## Domain validation requirements
+## Domain validation requirements {#domain-validation-requirements}
 
 **ICANN requirements:** For domains under ICANN regulations, registrants may be required to validate their contact information. This typically involves responding to an email sent to the registrant email address.
 
@@ -110,7 +110,7 @@ For step-by-step instructions, see [Registering a Domain](/articles/registering-
 
 For more information, see [ICANN Domain Validation](/articles/icann-domain-validation/).
 
-## Premium domains
+## Premium domains {#premium-domains}
 
 **Definition:** Premium domains are domains that are priced higher than standard registration fees. These domains may have special characteristics, such as short names or desirable keywords.
 
@@ -118,6 +118,6 @@ For more information, see [ICANN Domain Validation](/articles/icann-domain-valid
 
 For more information, see [Premium Domains](/articles/premium-domains/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with domain registration, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with domain registration, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

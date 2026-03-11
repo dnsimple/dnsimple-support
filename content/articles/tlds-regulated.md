@@ -18,24 +18,24 @@ categories:
 
 Certain top-level domains (TLDs) my be subject to the registrant meeting specific requirements or regulations. This article describes basic requirements for regulated and highly-regulated TLDs and provides a list of regulated and highly-regulated TLDs.
 
-## Why some TLDs are regulated
+## Why some TLDs are regulated {#why-some-tlds-are-regulated}
 
 Regulated and highly-regulated TLDs exist to protect consumers and maintain trust in specific industries. These TLDs are designed for use by businesses and organizations in sectors where accuracy, compliance, and professional standards are critical. For example, TLDs like `.bank`, `.medical`, and `.pharmacy` are highly regulated because they relate to industries with strict legal and professional requirements. The regulations ensure that only qualified entities can use these TLDs, preventing misuse that could harm consumers or undermine trust in these sectors.
 
 Regulated TLDs help users identify legitimate businesses in regulated industries. When you see a domain ending in `.bank` or `.medical`, the regulations provide assurance that the registrant has met certain standards or possesses appropriate credentials. This is different from generic TLDs like `.com` or `.net`, which have no such requirements.
 
-## Regulated TLDs
+## Regulated TLDs {#regulated-tlds}
 
 For domain name registration in any "Regulated TLD", registrant must acknowledge and agree that the registration is subject to the following additional requirements:
 
 - (a) Comply with all applicable laws, including those that relate to privacy, data collection, consumer protection (including in relation to misleading and deceptive conduct), fair lending, debt collection, organic farming, disclosure of data, and financial disclosures; and
 - (b) If the registrant collects and maintains sensitive health and financial data, they must implement reasonable and appropriate security measures commensurate with the offering of those services, as defined by applicable law.
 
-## Regulated TLD List
+## Regulated TLD List {#regulated-tld-list}
 
 .games, .juegos, .school, .schule, .toys, .eco, .care, .diet, .fitness, .health, .clinic, .dental, .healthcare, .capital, .cash, .broker, .claims, .exchange, .finance, .financial, .fund, .investments, .lease, .loans, .market, .money, .trading, .credit, .insure, .tax, .mortgage, .degree, .mba, .audio, .book, .broadway, .film, .movie, .music, .software, .fashion, .video, .app, .art, .band, .cloud, .data, .digital, .fan, .free, .gratis, .discount, .sale, .media, .news, .online, .pictures, .radio, .show, .theater, .tours, .accountants, .architect, .associates, .broker, .legal, .realty, .vet, .engineering, .law, .limited, .show, .theater, .town, .city, .reise, and .reisen
 
-## Highly-Regulated TLDs
+## Highly-Regulated TLDs {#highly-regulated-tlds}
 
 In addition to the requirements for Regulated TLDs, domain name registration in any "Highly-Regulated TLD" is subject to the following requirements:
 
@@ -43,16 +43,16 @@ In addition to the requirements for Regulated TLDs, domain name registration in 
 - (b) Registrants represent that they possess any necessary authorizations, charters, licenses and/or other related credentials for participation in the sector associated with such Highly‐regulated TLD; and
 - (c) Registrants will report any material changes to the validity of registrant authorizations, charters, licenses and/or other related credentials for participation in the sector associated with the Highly‐regulated TLD to ensure you continue to conform to the appropriate regulations and licensing requirements and generally conduct the registrant's activities in the interests of the consumers they serve.
 
-## Highly-Regulated TLD List
+## Highly-Regulated TLD List {#highly-regulated-tld-list}
 
 .abogado, .attorney, .bank, .bet, .bingo, .casino .charity (and IDN equivalent xn--30rr7y), .cpa, .corp, creditcard, .creditunion .dds, .dentist, .doctor, .fail, .gmbh, .gripe, .hospital, .inc, .insurance, .lawyer, .lifeinsurance, .llc, .llp, .ltda, .medical, .mutuelle, .pharmacy, .poker, .university, .sarl, .spreadbetting, .srl, .sucks, .surgery .university, .vermogensberater, .vesicherung,  and .wtf.
 
 For .doctor, registrants who claim to be licensed medical practitioners must be able to demonstrate to the Registrar and Registry Operator, upon request, that they hold the applicable license.
 
-## Compliance and consequences
+## Compliance and consequences {#compliance-and-consequences}
 
 Failure to comply with regulated or highly-regulated TLD requirements can result in domain suspension or cancellation by the registry. Registries may audit registrations to verify compliance, and they can revoke domains if registrants cannot demonstrate that they meet the required standards. This enforcement ensures that the TLD maintains its intended purpose and protects consumers from misleading or fraudulent use of industry-specific domain names.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about regulated or highly-regulated TLDs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about regulated or highly-regulated TLDs, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

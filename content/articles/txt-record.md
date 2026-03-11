@@ -15,19 +15,19 @@ categories:
 
 ---
 
-## What is a TXT record?
+## What is a TXT record? {#what-is-a-txt-record}
 
 A TXT record (Text record, type 16) is a versatile type of DNS resource record that allows domain administrators to insert arbitrary human-readable or machine-readable text content into their domain's DNS. These records are used for a wide variety of essential purposes beyond just displaying information.
 
 TXT records serve as a flexible mechanism to associate specific textual data with a domain, which can then be retrieved by other systems on the internet.
 
-## Common uses for TXT records
+## Common uses for TXT records {#common-uses-for-txt-records}
 TXT records are highly adaptable and are employed by many internet services for verification, authentication, and policy enforcement. 
 
 **These are some of their most common applications:**
 
 ### Email authentication records
-- **[DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) records**: These store cryptographic public keys used in the validation of email in transit, helping to ensure that emails are legitimate and haven't been tampered with.
+- **[DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) records**: These store cryptographic public keys used in the validation of email in transit, helping to ensure that emails are legitimate and have not been tampered with.
 
 - **[DMARC](/articles/dkim-record/) (Domain-based Message Authentication, Reporting & Conformance) records**: These establish policies for how email receivers should handle messages that fail SPF or DKIM authentication, and they provide reporting mechanisms to domain owners.
 
@@ -43,16 +43,16 @@ These TXT-based policies work alongside [MX records](/articles/mx-record/), whic
 
 Due to their flexibility, TXT records are a foundational component for ensuring email deliverability, website security, and seamless integration with many online services.
 
-## Handling long TXT records
+## Handling long TXT records {#handling-long-txt-records}
 Sometimes, the content required for a TXT record can be quite long, especially when dealing with cryptographic keys like those used for DKIM. Standard DNS protocols have limitations on the length of a single string within a TXT record (typically 255 characters).
 
-However, you generally don't need to manually split these long records. DNSimple's system transparently handles the complexities of long TXT records. You can usually provide the full, long string as a single value, and our system will automatically manage the necessary splitting and formatting to ensure it's compliant with internet standards when published to DNS.
+However, you generally do not need to manually split these long records. DNSimple's system transparently handles the complexities of long TXT records. You can usually provide the full, long string as a single value, and our system will automatically manage the necessary splitting and formatting to ensure it is compliant with internet standards when published to DNS.
 
-## Creating and managing TXT records
+## Creating and managing TXT records {#creating-and-managing-txt-records}
 For step-by-step instructions on how to add, edit, or remove TXT records (including how DNSimple handles your input for formatting and character limits) in your DNSimple zone, please refer to our dedicated How-To Guide: [How to Add DNS Records](/articles/how-to-add-dns-records/).
 
-## TXT record formatting and validation reference
+## TXT record formatting and validation reference {#txt-record-formatting-and-validation-reference}
 For detailed information on the specific formatting rules for TXT record content, validation constraints (including overall character limits and handling of quotes and special characters), and an in-depth explanation of how DNSimple manages the splitting and joining of long TXT records, consult our comprehensive Reference Guide: [TXT Record Formatting and Long Record Handling](/articles/txt-record-format/)
 
-## Have more questions?
-If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

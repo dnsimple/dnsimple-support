@@ -12,12 +12,12 @@ categories:
 * TOC
 {:toc}
 
-## What is an NS record?
+## What is an NS record? {#what-is-an-ns-record}
 An **NS record** (record type 2), short for **Name Server record**, is a fundamental type of DNS record that specifies the authoritative name servers for a domain. Its primary purpose is delegating DNS authority from one set of name servers to another, forming the backbone of how the internet's Domain Name System operates.
 
 NS records tell recursive DNS resolvers where to find the authoritative source of information for a particular domain. They act as signposts in the DNS hierarchy, directing queries to the correct servers.
 
-## How NS Records drive DNS resolution (delegation in action)
+## How NS Records drive DNS resolution (delegation in action) {#how-ns-records-drive-dns-resolution-delegation-in-action}
 The internet's DNS functions like a distributed phone book, structured in a hierarchy. When you type a domain name into your browser, like `www.example.com`, the DNS resolution process is as follows:
 
 1. Your resolver queries a root name server.
@@ -28,7 +28,7 @@ The internet's DNS functions like a distributed phone book, structured in a hier
 
 To learn more about how DNS works, take a look at our [How DNS Works web comics](https://howdns.works/) or [What Is DNS?](/articles/what-is-dns/) support article.
 
-## DNSimple's role and your domain's NS records
+## DNSimple's role and your domain's NS records {#dnsimples-role-and-your-domains-ns-records}
 When you delegate a domain to DNSimple, the TLD authorities (like the `.COM` registry) place NS records for your domain in their name servers that point directly to DNSimple's name servers. For example, for `dnsimple.com`, the `.COM` name servers contain entries similar to these, delegating authority to us:
 ```
 dnsimple.com.   172800  IN  NS  ns1.dnsimple.com.
@@ -47,7 +47,7 @@ In your DNSimple account, we automatically publish the necessary NS records with
 
 The specification for the DNS NS record is formally defined in [RFC 1035, Section 3.3.11](https://datatracker.ietf.org/doc/html/rfc1035/).
 
-## Managing NS records: directing your domain's authority
+## Managing NS records: directing your domain's authority {#managing-ns-records-directing-your-domains-authority}
 
 When it comes to managing the authoritative name servers for your domain, the process primarily involves updating the delegation at your domain registrar. DNSimple acts as both a domain registrar and a DNS hosting provider, which affects where you make these changes.
 
@@ -63,5 +63,5 @@ When it comes to managing the authoritative name servers for your domain, the pr
 > The NS records DNSimple automatically publishes within your DNSimple-hosted zone (indicating DNSimple is the authoritative source for your domain) are system-managed. 
 > While you cannot manually edit these specific records in the general record editor, DNSimple provides a dedicated section to configure or update the [Zone NS records](/articles/pointing-domain-to-dnsimple/) if you are setting up advanced configurations (like vanity name servers or transferring DNS authority for your zone).
 
-## Have more questions?
-If you have additional questions or need any assistance with your NS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your NS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

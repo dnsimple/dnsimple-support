@@ -33,6 +33,6 @@ In DNSimple, the A record is represented by the following customizable elements:
 
 For step-by-step instructions on creating or updating these fields, see our [Managing A Records article](/articles/manage-a-record/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

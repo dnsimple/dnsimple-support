@@ -16,7 +16,7 @@ categories:
 
 ---
 
-## Connecting an Integrated DNS Provider to your account
+## Connecting an Integrated DNS Provider to your account {#connecting-an-integrated-dns-provider-to-your-account}
 
 1. Select the relevant account from the **account switcher** at the top-right corner of the screen.
 1. From the account switcher, click **Account settings**, then click the **Integrated Providers** tab.
@@ -32,12 +32,12 @@ categories:
     - Click **Manage Integrated Zones** to add or remove from the selection of zones for import. Imported integrated zones will be listed on the [Domain Names](/articles/managing-integrated-zones/) page.
     - You can manage and sync integrated zone records from the [Record Editor](/articles/record-editor-integrated-zones/).
 
-## Disconnecting an Integrated DNS Provider from your account
+## Disconnecting an Integrated DNS Provider from your account {#disconnecting-an-integrated-dns-provider-from-your-account}
 
 1. Select the relevant account from the **account switcher** at the top-right corner of the screen.
 1. From the account switcher, click **Account settings**, then click the **Integrated Providers** tab.  
 1. Under **Connected providers**, click **Disconnect** for the Integrated DNS Provider you want to disconnect from your DNSimple account. This will remove the ability to view and manage zones and their DNS records at the connected provider via DNSimple.
 ![Disconnect an Integrated DNS Provider](/files/account-integrated-provider-unlink.png)
 
-## Have more questions?
-If you have any questions about connecting Integrated DNS Providers, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have any questions about connecting Integrated DNS Providers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

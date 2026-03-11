@@ -8,7 +8,7 @@ categories:
 
 # Export Zone File
 
-## Exporting records from a zone file
+## Exporting records from a zone file {#exporting-records-from-a-zone-file}
 
 You can export your domain's records into a [zone file](/articles/what-is-zone-file/) using the [Record Editor](/articles/record-editor/).
 
@@ -28,5 +28,5 @@ The resulting zone file will allow you to copy over all the domain's records to 
     ![Export zone link](/files/export-zone.png)
 </div>
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

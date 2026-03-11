@@ -35,7 +35,7 @@ You can use the same process in DNSimple to add several common DNS record types.
 1. Click **Add Record** to save it.
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 > - In DNSimple, **Content** = what others might call _Value._
 > - For **URL records**, the destination is entered in the **Content** field.
@@ -50,12 +50,12 @@ You can use the same process in DNSimple to add several common DNS record types.
 |URL|Subdomain you want to redirect (e.g., shop)|**Destination URL**|https://store.example.com|
 |NS|Subdomain to delegate (e.g., blog)|**Name server address**|ns1.otherdns.com|
 
-## Helpful tips
+## Helpful tips {#helpful-tips}
 - Use @ in the **Name** field to refer to the root domain.
 - All domain names in the **Content** field should end with a dot (.) to avoid resolution issues.
 - **A CNAME record cannot** coexist with any other record type using the same name (subdomain).
 - For **URL records**, the destination must be a full URL (including http:// or https://).
-- If you're copying a DNS record from another provider, always double-check how they name fields.
+- If you are copying a DNS record from another provider, always double-check how they name fields.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

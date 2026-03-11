@@ -12,14 +12,14 @@ This article serves as a reference for the formal structure, periods, and key te
 
 For a deeper explanation of what happens when a domain expires and how to recover it, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/).
 
-## Domain expiration overview
+## Domain expiration overview {#domain-expiration-overview}
 
 When a domain expires, it becomes inactive immediately and all services attached to it cease to function. You cannot make any updates to the domain while it is expired. The domain will remain available for reactivation at your regular domain rate under your list of Expired Domains.
 
 > [!WARNING]
-> Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they've expired, it's not possible to recover them.
+> Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they have expired, it is not possible to recover them.
 
-## ICANN TLD expiration periods
+## ICANN TLD expiration periods {#icann-tld-expiration-periods}
 
 For domains under registries contracted with ICANN, including all generic top-level domains (gTLDs), new gTLDs, and potentially some country code TLDs (ccTLDs), the expiration process follows standardized periods.
 
@@ -27,7 +27,7 @@ For domains under registries contracted with ICANN, including all generic top-le
 
 **Duration:** Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most generic top-level domains (gTLDs). There is no guaranteed grace period. Once a domain expires, our registrar partners may dispose of it at any time according to the registration agreement.
 
-**Status:** During the grace period, the domain is disabled but it's still possible to renew it from the DNSimple account at no extra cost.
+**Status:** During the grace period, the domain is disabled but it is still possible to renew it from the DNSimple account at no extra cost.
 
 **Renewal timing:** Renewal years are always added to the end of the current registration period (i.e., the new expiration date is the same whether you renew two months early or the day before expiration), so you will never lose time on your domain by renewing early.
 
@@ -49,9 +49,9 @@ For step-by-step instructions, see [Restoring a Domain](/articles/restoring-doma
 
 **Duration:** "Pending Delete" refers to the 5-day time frame after redemption.
 
-**Status:** During this time the registry holds the domain and it cannot be recovered. Once the Registry deletes the domain, it's available on a first-come first-served basis for anyone to purchase as a new domain.
+**Status:** During this time the registry holds the domain and it cannot be recovered. Once the Registry deletes the domain, it is available on a first-come first-served basis for anyone to purchase as a new domain.
 
-## Non-ICANN TLDs
+## Non-ICANN TLDs {#non-icann-tlds}
 
 **Variations:** TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc., may not follow the rules mentioned above. They may or may not provide a grace period and a redemption period. If they do, the length of the period may be different.
 
@@ -60,7 +60,7 @@ For step-by-step instructions, see [Restoring a Domain](/articles/restoring-doma
 
 **Immediate deletion:** Some TLDs have no additional periods after the expiration and they are immediately deleted.
 
-## Expiration timeline summary
+## Expiration timeline summary {#expiration-timeline-summary}
 
 For ICANN-regulated TLDs, the typical expiration timeline is:
 
@@ -70,7 +70,7 @@ For ICANN-regulated TLDs, the typical expiration timeline is:
 4. **Deletion period (5 days):** Domain cannot be recovered
 5. **Deletion:** Domain is deleted and available for registration by anyone
 
-## Expiration notifications
+## Expiration notifications {#expiration-notifications}
 
 ### DNSimple notifications
 
@@ -88,12 +88,12 @@ You can [disable expiration notifications](/articles/disabling-expiration-notifi
 
 For more information, see [Expiring Domain Email Notifications](/articles/expiring-domain-email-notifications/).
 
-## Auto-renewal
+## Auto-renewal {#auto-renewal}
 
 **Recommendation:** We recommend [enabling auto-renewal](/articles/domain-auto-renewal/) whenever possible to avoid your domain expiring. Auto-renewal ensures your domain is automatically renewed before expiration, preventing service interruption.
 
-**Auto-renew only domains:** Some domains are auto-renew only and cannot be renewed manually. For these domains, there is no grace period, and once they've expired, it's not possible to recover them.
+**Auto-renew only domains:** Some domains are auto-renew only and cannot be renewed manually. For these domains, there is no grace period, and once they have expired, it is not possible to recover them.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with domain expiration and recovery, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with domain expiration and recovery, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

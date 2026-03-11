@@ -17,15 +17,15 @@ categories:
 
 You can manage [TLSA records](/articles/tlsa-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [TLSA record format](/articles/tlsa-record-format/) and usage.
+The instructions in this article assume you are familiar with the [TLSA record format](/articles/tlsa-record-format/) and usage.
 
 > [!NOTE]
-> TLSA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring TLSA records to secondary name servers.
+> TLSA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We do not support transferring TLSA records to secondary name servers.
 
 > [!WARNING]
 > TLSA records provide security benefits only when used in conjunction with **DNSSEC (DNS Security Extensions)**. Without DNSSEC, an attacker could modify TLSA records to point to their own certificates, negating the security benefits. Before adding TLSA records, ensure that [DNSSEC is enabled](/articles/enabling-dnssec/) for your domain.
 
-## Adding a TLSA record
+## Adding a TLSA record {#adding-a-tlsa-record}
 
 <div class="section-steps" markdown="1">
 #### To add a TLSA record
@@ -48,18 +48,18 @@ The instructions in this article assume you're familiar with the [TLSA record fo
     - _Respond From Regions_: Configure [Regional Records](/articles/regional-records/) if desired.
     - _Notes_: Optionally include a [record note](/articles/record-notes/).
 
-    Once you're ready, click <label>Add Record</label> to confirm and create the record.
+    Once you are ready, click <label>Add Record</label> to confirm and create the record.
 
 1.  The record is created and visible in the record list.
 
 </div>
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 > - In DNSimple, **Content** = what others might call _Value._
 
-## Updating a TLSA record
+## Updating a TLSA record {#updating-a-tlsa-record}
 
 <div class="section-steps" markdown="1">
 #### To update a TLSA record
@@ -74,7 +74,7 @@ The instructions in this article assume you're familiar with the [TLSA record fo
 </div>
 
 
-## Removing a TLSA record
+## Removing a TLSA record {#removing-a-tlsa-record}
 
 <div class="section-steps" markdown="1">
 #### To remove a TLSA record
@@ -88,7 +88,7 @@ The instructions in this article assume you're familiar with the [TLSA record fo
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

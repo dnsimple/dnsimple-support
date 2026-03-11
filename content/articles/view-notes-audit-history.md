@@ -8,17 +8,17 @@ categories:
 
 # View Record Notes and Audit History
 
-## Viewing a record note
+## Viewing a record note {#viewing-a-record-note}
 
 When you update a record, can view the note associated with the record in the **Notes** field, if one exists.
 
 ![Viewing record notes](/files/record-notes-edit.png)
 
-## Viewing record notes in your audit history
+## Viewing record notes in your audit history {#viewing-record-notes-in-your-audit-history}
 
 When you create, update, or delete a record, and add a record note, the note will be included with the DNS record activity in your [audit history](/articles/activity-tracking/).
 
 ![Record note in audit history](/files/record-notes-activities.png)
 
-## Have more questions?
-If you have additional questions or need any assistance with record notes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with record notes, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

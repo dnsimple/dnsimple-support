@@ -15,19 +15,19 @@ categories:
 
 ---
 
-## What is an SRV record?
+## What is an SRV record? {#what-is-an-srv-record}
 An SRV record (record type 33), short for Service record, is a type of DNS record that provides a standardized way to locate specific services on a domain. Unlike [A](/articles/a-record/) or [AAAA](/articles/aaaa-record/) records that map a domain name directly to an IP address, SRV records map a service name and protocol to the precise location (hostname and port number) and preferences for servers offering that service.
 
 This capability is essential for service discovery, allowing client applications to find the correct server for a particular function without needing to be manually configured with IP addresses or ports. Common applications that use SRV records include Internet Telephony (like SIP for VoIP calls), instant messaging (like XMPP), and certain enterprise services (like Microsoft Teams or LDAP).
 
-## How SRV records facilitate service discovery
+## How SRV records facilitate service discovery {#how-srv-records-facilitate-service-discovery}
 
 An SRV record provides structured information about where a service can be found and how it should be prioritized and balanced among multiple available servers. It tells a client application everything it needs to know to connect:
 
 **Service name and protocol:** SRV records always begin with a symbolic name for the service (e.g., `_sip` for Session Initiation Protocol) and the transport protocol used (e.g., `_tcp` for TCP or `_udp` for UDP). Both parts always start with an underscore, for example: `_sip._tcp.example.com`.
 
 > [!NOTE]
-> SRV records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you're using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
+> SRV records following the pattern `_service._protocol.example.com` may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) at intermediate names like `_tcp.example.com`. If you are using wildcard records, this may affect DNS resolution. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#wildcards-and-empty-non-terminals).
 
 **Priority:** This value indicates the preference for using a server. Lower numbers mean higher priority. Clients will attempt to connect to servers with the lowest priority first.
 
@@ -54,12 +54,12 @@ This structure allows administrators to define flexible and robust service locat
 
 The specification for the DNS SRV record is formally defined in [RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782).
 
-## Adding and managing SRV records
+## Adding and managing SRV records {#adding-and-managing-srv-records}
 For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: [Adding an SRV Record](/articles/add-srv-record/). This guide covers inputting the service name, protocol, priority, weight, port, and target.
 
-## SRV record format reference
+## SRV record format reference {#srv-record-format-reference}
 For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: [SRV Record Format and Components Reference](/articles/srv-record-format/). This guide includes additional examples.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -15,9 +15,9 @@ categories:
 
 ---
 
-DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain. You would need to manage them if you're not delegating your domain to DNSimple, and you want to use DNSSEC with your DNS provider.
+DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain. You would need to manage them if you are not delegating your domain to DNSimple, and you want to use DNSSEC with your DNS provider.
 
-## Adding a DS record
+## Adding a DS record {#adding-a-ds-record}
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 
@@ -67,10 +67,10 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 > [!NOTE]
 > To add a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#createDomainDelegationSignerRecord).
 
-## Removing a DS record
+## Removing a DS record {#removing-a-ds-record}
 
 > [!NOTE] Important
-> You can't remove DS records managed by DNSimple.
+> You cannot remove DS records managed by DNSimple.
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 
@@ -93,6 +93,6 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 > [!NOTE]
 > To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions or need help managing your DS records, just [contact support](https://dnsimple.com/feedback), and we'll assist you.
+If you have any questions or need help managing your DS records, just [contact support](https://dnsimple.com/feedback), and we will assist you.

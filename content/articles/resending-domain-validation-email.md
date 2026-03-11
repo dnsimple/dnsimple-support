@@ -12,7 +12,7 @@ Domain registries and organizations that oversee domain name registrations requi
 
 For most top-level domains, validation is required by [ICANN](https://www.icann.org/) (the Internet Corporation for Assigned Names and Numbers) as part of their [RDDS Accuracy program](https://www.icann.org/resources/pages/rdds-2013-02-28-en). Failure to validate your registrant email address results in suspension of the domain name after 15 days of non-compliance.
 
-## What the verification email looks like
+## What the verification email looks like {#what-the-verification-email-looks-like}
 
 ### When registering a new domain
 
@@ -29,22 +29,22 @@ The email is sent from one of the following addresses:
 
 The message will contain a verification link that goes to <https://www.emailverification.info/>.
 
-## Resending verification email
+## Resending verification email {#resending-verification-email}
 
 If you are having trouble finding the email verification in your inbox, please remember to check your spam folder.
 
-If it isn't there, resend the email by navigating to your domain page in DNSimple and locating the pending verification warning at the top of the page. Click **Send registrant verification email**.
+If it is not there, resend the email by navigating to your domain page in DNSimple and locating the pending verification warning at the top of the page. Click **Send registrant verification email**.
 
 ![Resend email verification](/files/resend-domain-verification-email.png)
 
-Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
+Once the email is verified, the warning should disappear. If it does not, it may be because our system has not refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
-## What happens if the registrant email address cannot receive email?
+## What happens if the registrant email address cannot receive email? {#what-happens-if-the-registrant-email-address-cannot-receive-email}
 
 You must be able to receive an email at the registrant email address to complete the verification process. If you set up the email address after registration or changing your registrant details, contact support@dnsimple.com to resend the verification email. Be sure to include the domain name that you need to verify in your email to support.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you need assistance or have any questions about resending domain validation emails, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you need assistance or have any questions about resending domain validation emails, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 
 Want to learn more about the policy requiring domain validation? Visit [ICANN](https://www.icann.org/) to read about the [ICANN RDDS Accuracy program](https://www.icann.org/resources/pages/rdds-2013-02-28-en).

@@ -15,7 +15,7 @@ categories:
 1. **DNSSEC tab** - DNSSEC management options for the domain.
 2. **Enable DNSSEC button in the DNSSEC card** - Enable DNSSEC for the domain. 
 
-## Enable DNSSEC
+## Enable DNSSEC {#enable-dnssec}
 
 ![Enable DNSSEC](/files/DNSSEC-enable-reference.png)
 
@@ -53,7 +53,7 @@ categories:
 ![Enabling DNSSEC reference](/files/DNSSEC-enabling-page-reference.png)
 
 1. **Enabling Notification** - Notification that DNSSEC is being enabled.
-2. **We're Enabling DNSSEC on (domain) Card** - Status card for DNSSEC.
+2. **We are Enabling DNSSEC on (domain) Card** - Status card for DNSSEC.
 3. **Refresh page button** - Refreshes page and status.
 
 ![DNSSEC Enabled](/files/DNSSEC-enabled-reference.png)
@@ -61,7 +61,7 @@ categories:
 1. **DNSSEC is Enabled on (domain) Card** - Shows DNSSEC is enabled on domain.
 2. **Disable DNSSEC Button** -  Disables DNSSEC on the domain.
 
-## Disable DNSSEC
+## Disable DNSSEC {#disable-dnssec}
 
 After clicking on the **Disable DNSSEC button** in the Disable DNSSEC card, you will start the process of disabling DNSSEC. 
 
@@ -75,9 +75,9 @@ After clicking on the **Disable DNSSEC button** in the Disable DNSSEC card, you 
 ![Disabling DNSSEC](/files/DNSSEC-disabling-reference.png)
 
 1. **Disabling Notification** - Notification that DNSSEC is being disabled.
-2. **We're Disabling DNSSEC on (domain) Card** - Status card for DNSSEC.
+2. **We are Disabling DNSSEC on (domain) Card** - Status card for DNSSEC.
 3. **Refresh page button** - Refreshes page and status. 
 
-## Have more questions? 
-If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

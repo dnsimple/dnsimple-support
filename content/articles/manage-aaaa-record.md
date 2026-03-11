@@ -17,9 +17,9 @@ categories:
 
 You can manage [AAAA records](/articles/aaaa-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [AAAA record format](/articles/aaaa-record/#record-format) and usage.
+The instructions in this article assume you are familiar with the [AAAA record format](/articles/aaaa-record/#record-format) and usage.
 
-## Adding an AAAA record
+## Adding an AAAA record {#adding-an-aaaa-record}
 
 <div class="section-steps" markdown="1">
 #### To add an AAAA record
@@ -45,11 +45,11 @@ The record is created and will be visible in the record list.
 </div>
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 > - In DNSimple, **Content** = what others might call _Value._
 
-## Updating an AAAA record
+## Updating an AAAA record {#updating-an-aaaa-record}
 
 <div class="section-steps" markdown="1">
 #### To update an AAAA record
@@ -64,7 +64,7 @@ The record is created and will be visible in the record list.
 1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
 
-## Removing an AAAA record
+## Removing an AAAA record {#removing-an-aaaa-record}
 
 <div class="section-steps" markdown="1">
 #### To remove an AAAA record
@@ -78,6 +78,6 @@ The record is created and will be visible in the record list.
 1. Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions or need assistance adding AAAA records to your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance adding AAAA records to your domain, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

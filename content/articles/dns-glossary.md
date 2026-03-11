@@ -14,11 +14,11 @@ categories:
 
 ---
 
-## Core Concepts
+## Core Concepts {#core-concepts}
 
 ### DNS 
 
-The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It's often referred to as the phonebook of the internet.
+The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the internet or a private network. It translates human-readable domain names (like `example.com`) into machine-readable IP addresses (like `192.0.2.1`), allowing users to access websites and other online resources without memorizing complex numerical addresses. It is often referred to as the phonebook of the internet.
 
 Learn more: 
 
@@ -77,7 +77,7 @@ Learn more:
 - [RFC 4592](https://datatracker.ietf.org/doc/html/rfc4592)
 - [What Are Empty Non-Terminals?](/articles/empty-non-terminals/)
 
-## Server Types & Resolution
+## Server Types & Resolution {#server-types-resolution}
 
 ### DNS Resolver (Recursive DNS Server/Caching DNS Server) 
 
@@ -90,7 +90,7 @@ Learn more:
 
 ### Root Name Server 
 
-The highest level in the DNS hierarchy. There are 13 logical root name servers (though many more physical instances globally using Anycast). They don't know specific IP addresses for domains but direct recursive resolvers to the appropriate Top-Level Domain (TLD) name server based on the domain's extension. 
+The highest level in the DNS hierarchy. There are 13 logical root name servers (though many more physical instances globally using Anycast). They do not know specific IP addresses for domains but direct recursive resolvers to the appropriate Top-Level Domain (TLD) name server based on the domain's extension. 
 
 Learn more: 
 
@@ -125,7 +125,7 @@ Learn more:
 - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)  
 - [How Long Does It Take for a New Record to Resolve for My Domain?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/) 
 
-## DNS Record Types
+## DNS Record Types {#dns-record-types}
 
 ### DNS Record (Resource Record/RR)
 
@@ -160,7 +160,7 @@ Learn more:
 
 ### CNAME Record 
 
-CNAME (Canonical Name) records create an alias from one domain name to another canonical (true) domain name. It's often used to point subdomains (e.g., `www.example.com`) to the root domain (`example.com`) or to external services. A CNAME cannot exist at the root domain. 
+CNAME (Canonical Name) records create an alias from one domain name to another canonical (true) domain name. It is often used to point subdomains (e.g., `www.example.com`) to the root domain (`example.com`) or to external services. A CNAME cannot exist at the root domain. 
 
 *Example: `www.example.com. IN CNAME example.com.`* 
 
@@ -201,7 +201,7 @@ PTR (Pointer) records perform a reverse DNS lookup, mapping an IP address back t
 Learn more: 
 
 - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035#section-3.3.12)  
-- What's a PTR Record? 
+- What is a PTR Record? 
 
 ### SOA Record 
 
@@ -285,7 +285,7 @@ Learn more:
 - [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460)  
 - [Service Binding Records (SVCB and HTTPS)](/articles/service-binding-records/)
 
-## Privacy & Transport
+## Privacy & Transport {#privacy-transport}
 
 ### DANE 
 
@@ -308,7 +308,7 @@ TSIG (Transaction Signature) is a DNS security mechanism using shared-secret key
 
 Learn more: [RFC 8945](https://datatracker.ietf.org/doc/html/rfc8945)
 
-## Caching & Resolution
+## Caching & Resolution {#caching-resolution}
 
 ### DNS Resolver Cache
 

@@ -31,7 +31,7 @@ In DNSimple, the AAAA record is represented by the following customizable elemen
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Address | The IPv6 address the AAAA record points to.                                                                                                   |
 
-## Formatting
+## Formatting {#formatting}
 
 Because the same IPV6 address can be represented in different ways, DNSimple normalizes the IPV6 address to the canonical form, as described in RFC 5952 section 4.
 
@@ -42,6 +42,6 @@ Some examples:
 - If you provide the IPv6 address `2001:db8:0:0:0:0:2:1`, we will store it as `2001:db8::2:1`.
 - If you provide the IPv6 address `::ffff:c000:0280`, we will store it as `::ffff:192.0.2.128`.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
- If you have any questions or need assistance managing AAAA records, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+ If you have any questions or need assistance managing AAAA records, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

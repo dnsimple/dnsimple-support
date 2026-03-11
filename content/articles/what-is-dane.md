@@ -16,15 +16,15 @@ categories:
 
 ---
 
-## What is DANE?
+## What is DANE? {#what-is-dane}
 
 **DANE**, which stands for **DNS-based Authentication of Named Entities**, is a security protocol that uses [DNSSEC](/articles/what-is-dnssec/) to publish and validate [TLS/SSL certificate](/categories/ssl-certificates/) information within DNS records. This provides an additional layer of security for TLS connections by allowing clients to verify that the certificate presented by a server is authorized for that domain, as authenticated through the DNS infrastructure.
 
 DANE addresses a fundamental security concern: the traditional Public Key Infrastructure (PKI) model relies on Certificate Authorities (CAs) to validate certificate ownership. While this system works well, DANE adds an extra verification layer by allowing domain owners to explicitly declare which certificates are valid for their domain through cryptographically signed DNS records.
 
-## How DANE works
+## How DANE works {#how-dane-works}
 
-DANE leverages DNSSEC to create a cryptographically secure link between a domain name and its TLS certificates. Here's how the process works:
+DANE leverages DNSSEC to create a cryptographically secure link between a domain name and its TLS certificates. Here is how the process works:
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ DANE uses **[TLSA records](/articles/tlsa-record/)** (type 52) to publish certif
 When a client connects to a service:
 
 1. The client performs a DNS lookup for the TLSA record associated with the service (e.g., `_443._tcp.example.com` for HTTPS on port 443).
-2. The client verifies the TLSA record using DNSSEC validation to ensure it hasn't been tampered with.
+2. The client verifies the TLSA record using DNSSEC validation to ensure it has not been tampered with.
 3. The client connects to the server and receives the TLS certificate.
 4. The client compares the certificate (or its public key) against the information in the TLSA record.
 5. If the certificate matches the TLSA record and DNSSEC validation passes, the connection proceeds. If not, the connection may be rejected or a warning may be issued, depending on the client's DANE policy.
@@ -60,13 +60,13 @@ TLSA records also specify:
 - **Selector**: Whether the record contains the full certificate (selector 0) or just the public key (selector 1).
 - **Matching type**: How the certificate data is represented—full (type 0), SHA-256 hash (type 1), or SHA-512 hash (type 2).
 
-## Why DANE is important
+## Why DANE is important {#why-dane-is-important}
 
 DANE provides several security benefits:
 
 ### Enhanced certificate validation
 
-DANE adds an additional verification step beyond traditional CA-based validation. Even if a CA is compromised or issues an unauthorized certificate, DANE can prevent its use if the certificate doesn't match the TLSA record published in DNS.
+DANE adds an additional verification step beyond traditional CA-based validation. Even if a CA is compromised or issues an unauthorized certificate, DANE can prevent its use if the certificate does not match the TLSA record published in DNS.
 
 ### Protection against certificate mis-issuance
 
@@ -80,13 +80,13 @@ DANE enables the use of self-signed certificates or certificates from private CA
 
 DANE is particularly valuable for email security (SMTP), where it can be used to authenticate mail servers and prevent man-in-the-middle attacks on email transmission.
 
-## DANE and DNSSEC
+## DANE and DNSSEC {#dane-and-dnssec}
 
 DANE is fundamentally dependent on DNSSEC. Without DNSSEC, TLSA records cannot be cryptographically verified, which means they could be spoofed or modified by attackers. DNSSEC provides the chain of trust that makes DANE records trustworthy.
 
-If you're interested in implementing DANE, you must first [enable DNSSEC](/articles/enabling-dnssec/) on your domain. For more information about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/) and [DNSSEC at DNSimple](/articles/dnssec/).
+If you are interested in implementing DANE, you must first [enable DNSSEC](/articles/enabling-dnssec/) on your domain. For more information about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/) and [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Limitations and considerations
+## Limitations and considerations {#limitations-and-considerations}
 
 While DANE provides valuable security enhancements, there are some important considerations:
 
@@ -95,13 +95,13 @@ While DANE provides valuable security enhancements, there are some important con
 - **Certificate management**: Implementing DANE requires careful certificate management, as you must update TLSA records whenever certificates are renewed or changed.
 - **Operational complexity**: DANE adds operational complexity, as you need to coordinate DNS record updates with certificate lifecycle management.
 
-## Technical details
+## Technical details {#technical-details}
 
 The DANE specification is formally defined in [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698): *The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA*.
 
 The TLSA record format and usage are further detailed in [RFC 7671](https://datatracker.ietf.org/doc/html/rfc7671): *The DNS-Based Authentication of Named Entities (DANE) Protocol: Updates and Operational Guidance*.
 
-## Related topics
+## Related topics {#related-topics}
 
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA records and how they implement DANE
 - [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records
@@ -112,6 +112,6 @@ The TLSA record format and usage are further detailed in [RFC 7671](https://data
 - [SSL/TLS Certificates](/categories/ssl-certificates/) - Learn about TLS certificates and how they work
 - [DNS Glossary](/articles/dns-glossary/) - Definitions of DNS-related terms
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions about DANE, DNSSEC, or how to secure your domain's TLS connections, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions about DANE, DNSSEC, or how to secure your domain's TLS connections, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

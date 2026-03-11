@@ -8,7 +8,7 @@ categories:
 
 # Troubleshooting Domain Transfer Issues
 
-If you're experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
+If you are experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
 
 ### Table of Contents {#toc}
 
@@ -17,9 +17,9 @@ If you're experiencing problems transferring a domain to or from DNSimple, this 
 
 ---
 
-## Transfer request denied
+## Transfer request denied {#transfer-request-denied}
 
-If your domain transfer request is denied, it's typically due to one of the following reasons:
+If your domain transfer request is denied, it is typically due to one of the following reasons:
 
 ### Domain is locked
 
@@ -59,9 +59,9 @@ If your domain transfer request is denied, it's typically due to one of the foll
 
 If your transfer was denied, you must wait until the current transfer request closes before submitting a new one. Most domain registries only allow one transfer request at a time. Once the current request closes, ensure the domain is unlocked and whois privacy is disabled, then [initiate a new transfer](/articles/how-to-issue-new-transfer-when-transfer-denied/).
 
-## Missing or incorrect authorization code
+## Missing or incorrect authorization code {#missing-or-incorrect-authorization-code}
 
-**Symptom**: You don't have the authorization code (also called transfer code, auth code, or EPP code) needed to complete the transfer.
+**Symptom**: You do not have the authorization code (also called transfer code, auth code, or EPP code) needed to complete the transfer.
 
 **Resolution**: 
 
@@ -74,9 +74,9 @@ For more information about transfer codes, including their format and requiremen
 > [!NOTE]
 > Some registrars may require you to request the authorization code through their system, and it may take a few minutes to generate.
 
-## Transfer approval email not received
+## Transfer approval email not received {#transfer-approval-email-not-received}
 
-**Symptom**: You haven't received the transfer approval email that's required to authorize the transfer.
+**Symptom**: You have not received the transfer approval email that is required to authorize the transfer.
 
 **Why it happens**: The transfer approval email is sent to the registrant email address on file for the domain. Common reasons for not receiving it include:
 
@@ -92,20 +92,20 @@ For more information about transfer codes, including their format and requiremen
 3. **Disable whois privacy**: If whois privacy is enabled, [disable it before starting the transfer](/articles/whois-privacy-blocks-transfer-email/). Whois privacy services often prevent transfer approval emails from being delivered.
 4. **Update the registrant email**: If the email address is incorrect, update it at your current registrar before initiating the transfer.
 
-## Transfer taking too long
+## Transfer taking too long {#transfer-taking-too-long}
 
-**Symptom**: The transfer has been in progress for several days and hasn't completed.
+**Symptom**: The transfer has been in progress for several days and has not completed.
 
 **Why it happens**: Domain transfers can take up to seven (7) days to complete, depending on the domain's top-level domain (TLD) and how quickly the current registrar processes the transfer.
 
 **Resolution steps**:
 
 1. **Check transfer status**: In your DNSimple account, navigate to your domain list and look for domains with "transfer in process" status. Click on it to view detailed information about the transfer request.
-2. **Verify approval**: Ensure you've approved the transfer by clicking the link in the approval email sent to the registrant email address.
-3. **Contact current registrar**: If the transfer has been pending for more than 5 days, contact your current registrar to ensure they're not holding the transfer. Some registrars require you to approve the transfer on their end as well.
+2. **Verify approval**: Ensure you have approved the transfer by clicking the link in the approval email sent to the registrant email address.
+3. **Contact current registrar**: If the transfer has been pending for more than 5 days, contact your current registrar to ensure they are not holding the transfer. Some registrars require you to approve the transfer on their end as well.
 4. **Wait for completion**: Most transfers complete within 3-7 days. The registry processes transfers in batches, so delays are normal.
 
-## Domain expired during transfer
+## Domain expired during transfer {#domain-expired-during-transfer}
 
 **Symptom**: Your domain expired while a transfer is in progress.
 
@@ -113,31 +113,31 @@ For more information about transfer codes, including their format and requiremen
 
 If your domain has entered the redemption period, you must [restore the domain](/articles/restoring-domain/) at your current registrar before the transfer can proceed. Contact your current registrar for assistance with restoration.
 
-## DNS downtime during transfer
+## DNS downtime during transfer {#dns-downtime-during-transfer}
 
 **Symptom**: Your website or email stops working during or after the domain transfer.
 
-**Why it happens**: Some DNS providers stop serving DNS for a domain as soon as the transfer completes, which can cause downtime if you haven't prepared your DNS configuration.
+**Why it happens**: Some DNS providers stop serving DNS for a domain as soon as the transfer completes, which can cause downtime if you have not prepared your DNS configuration.
 
 **Resolution**: To avoid downtime, [point your domain's name servers to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This ensures your DNS continues to work throughout the transfer process.
 
-If you're already experiencing downtime:
+If you are already experiencing downtime:
 
 1. [Point your domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) after the transfer completes, or [manually configure name servers](/articles/setting-name-servers/) to point to your DNS provider.
-2. If you're using an external DNS provider, ensure your name servers are correctly configured to point to that provider.
+2. If you are using an external DNS provider, ensure your name servers are correctly configured to point to that provider.
 
-## DNSSEC issues during transfer
+## DNSSEC issues during transfer {#dnssec-issues-during-transfer}
 
-**Symptom**: Your domain uses DNSSEC and you're experiencing DNS resolution issues during or after the transfer.
+**Symptom**: Your domain uses DNSSEC and you are experiencing DNS resolution issues during or after the transfer.
 
-**Resolution**: If you're changing DNS providers during the transfer, you must [manage your DS records appropriately](/articles/ds-records-changing-dns/):
+**Resolution**: If you are changing DNS providers during the transfer, you must [manage your DS records appropriately](/articles/ds-records-changing-dns/):
 
 - **Moving to a provider that does not support DNSSEC**: Disable DNSSEC and remove DS records before switching. For instructions on removing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
 - **Moving to a provider that supports DNSSEC**: Enable DNSSEC on the new provider and ensure the new provider's DS record is provisioned before switching. For instructions on adding DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
 
-## Transfer cancellation
+## Transfer cancellation {#transfer-cancellation}
 
-**Symptom**: You need to cancel a transfer that's already in progress.
+**Symptom**: You need to cancel a transfer that is already in progress.
 
 **Resolution**: If the domain is still in the transfer process, you can cancel it:
 
@@ -147,13 +147,13 @@ If you're already experiencing downtime:
 
 The domain will remain with your current registrar, and any held funds will be released.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you've tried these troubleshooting steps and are still experiencing issues with your domain transfer, [contact our support team](https://dnsimple.com/feedback). Please include:
+If you have tried these troubleshooting steps and are still experiencing issues with your domain transfer, [contact our support team](https://dnsimple.com/feedback). Please include:
 
 - Your domain name
 - The current status of the transfer (if visible in your account)
-- Any error messages you've received
-- Steps you've already taken to resolve the issue
+- Any error messages you have received
+- Steps you have already taken to resolve the issue
 
-We'll be happy to help you complete your domain transfer successfully.
+We will be happy to help you complete your domain transfer successfully.

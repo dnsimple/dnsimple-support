@@ -18,7 +18,7 @@ categories:
 
 This article serves as a reference for the prerequisites, supported features, and record types for connecting Amazon Route 53 as an [Integrated DNS Provider](/articles/what-are-integrated-providers/).
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 To connect [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated DNS Provider, you need:
 
@@ -32,7 +32,7 @@ To connect [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated D
   - route53:DeleteHostedZone
 - [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
 
-## Supported features
+## Supported features {#supported-features}
 
 - **Import integrated zones**: When you connect Route 53 to your DNSimple account, you can [select](/articles/integrated-dns-providers/#managing-integrated-zone-selection) the zones hosted on Route 53 that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
 - **Adding and removing integrated zones**: [Add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider/) or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) zones to/from Route 53, from within DNSimple. You can also [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/) an integrated zone from DNSimple while keeping it at Route 53.
@@ -61,5 +61,5 @@ The following Route 53 record types are supported for syncing and management at 
 > [!NOTE]
 > [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Route 53. When synced from DNSimple to Route 53, a URL record will be represented in Route 53 as an A record that points to our [redirector](/articles/redirector/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

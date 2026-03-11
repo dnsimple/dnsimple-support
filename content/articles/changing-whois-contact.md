@@ -22,7 +22,7 @@ To check the existing public WHOIS record for a domain you can use our [WHOIS to
 > You cannot change the Registrant, Administrative, and Technical record separately in our system. When you change the contact of a domain, our system will automatically attempt to update Registrant, Technical, and Admin contacts together.
 
 
-## Changing or updating WHOIS information
+## Changing or updating WHOIS information {#changing-or-updating-whois-information}
 
 To update the WHOIS information associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#changing-an-existing-contact-information), or [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) if you want to completely replace the contact details.
 
@@ -35,13 +35,13 @@ To update the WHOIS information associated with a domain name in DNSimple, simpl
 Upon the successful update of the domain contact, we will automatically update the registry data and the WHOIS record with the new contact information.
 
 
-## Special WHOIS policies
+## Special WHOIS policies {#special-whois-policies}
 
 > [!WARNING]
 > Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. The following is a list of the most common registrar-specific policies.
 
 - [.CH domains](/articles/domains-ch/)
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about changing WHOIS information, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about changing WHOIS information, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

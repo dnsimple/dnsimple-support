@@ -9,7 +9,7 @@ categories:
 # SPF Record Syntax and Validation Reference
 This document serves as a detailed reference for the syntax, mechanisms, modifiers, and validation rules that govern [Sender Policy Framework (SPF) records](/articles/spf-record/). SPF records are used to specify which hosts are authorized to send email on behalf of a domain.
 
-## SPF record format
+## SPF record format {#spf-record-format}
 An SPF record is always defined as a single string of text published as a DNS [TXT record](/articles/txt-record/).
 The record always begins with a version indicator, followed by one or more terms (mechanisms or modifiers).
 
@@ -22,7 +22,7 @@ v=spf1 a mx ip4:69.64.153.131 include:_spf.google.com ~all
 > [!NOTE]
 > **Important note on SPF record type (type 99):** Historically, there was a dedicated SPF record type (Type 99). However, this record type has been deprecated. All SPF records must now be defined using the **TXT record type**. This is the only universally supported method for publishing SPF records.
 
-## SPF Mechanisms
+## SPF Mechanisms {#spf-mechanisms}
 Mechanisms define which IP addresses are permitted or denied from sending mail for the domain. A mail server evaluates mechanisms from left to right.
 
 Each mechanism can be prefixed with a **qualifier** that dictates how to handle a match:
@@ -43,7 +43,7 @@ Each mechanism can be prefixed with a **qualifier** that dictates how to handle 
 |`exists`|Performs a general DNS A record lookup. If a record is found, it matches. Often used for complex scenarios.|A domain name (e.g., `exists:auth.example.com`).|
 |`ptr`|(Discouraged) Matches if the sender's IP has a reverse DNS entry pointing back to the specified domain.|Optional domain name (e.g., `ptr:example.com`). Not recommended due to unreliability and load.|
 
-## SPF modifiers
+## SPF modifiers {#spf-modifiers}
 Modifiers are name/value pairs that provide additional information for SPF processing. Modifiers should appear at the end of the SPF record. A modifier cannot appear more than once. Unrecognized modifiers are ignored.
 
 |Modifier|Description|Value|
@@ -51,7 +51,7 @@ Modifiers are name/value pairs that provide additional information for SPF proce
 |redirect|Points to another domain whose SPF record should be used instead of the current one. This effectively replaces the current record.|A domain name (e.g., `redirect=_spf.anotherdomain.com`). Should only be used if you fully control both domains.|
 |exp|Provides a human-readable explanation if a `-` (Fail) qualifier mechanism is matched. The explanation is returned to the client.|A domain name that resolves to a TXT record containing the explanation (e.g., `exp=error.example.com`).|
 
-## SPF record validation rules and limitations
+## SPF record validation rules and limitations {#spf-record-validation-rules-and-limitations}
 To ensure proper functionality and compliance with RFCs, SPF records must adhere to several critical rules:
 - **Single SPF Record per Name:** Each fully-qualified domain name (FQDN) or subdomain **can have at maximum one SPF record** (i.e., one TXT record beginning with `v=spf1`). Having multiple SPF records for the same name will cause unpredictable behavior and validation failures.
 - **10-DNS-Lookup Limit:** During SPF evaluation, the total number of mechanisms that require DNS lookups **must not exceed 10**. This limit applies to:
@@ -68,8 +68,8 @@ To ensure proper functionality and compliance with RFCs, SPF records must adhere
 - **Unrecognized modifiers:** Unrecognized modifiers will be ignored by SPF evaluators.
 - **Modifier uniqueness:** A modifier (`redirect`, `exp`) can only appear once in an SPF record.
 
-## References
+## References {#references}
 [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208): Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1 (The current authoritative specification for SPF). This RFC supersedes RFC 4408.
 
-## Have more questions?
-If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

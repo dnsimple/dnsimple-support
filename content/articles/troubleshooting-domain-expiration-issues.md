@@ -8,7 +8,7 @@ categories:
 
 # Troubleshooting Domain Expiration Issues
 
-If you're experiencing problems with domain expiration, renewal, or auto-renewal, this guide will help you identify and resolve common issues. For general information about what happens when a domain expires, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/).
+If you are experiencing problems with domain expiration, renewal, or auto-renewal, this guide will help you identify and resolve common issues. For general information about what happens when a domain expires, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/).
 
 ### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ If you're experiencing problems with domain expiration, renewal, or auto-renewal
 
 ---
 
-## Domain expired unexpectedly
+## Domain expired unexpectedly {#domain-expired-unexpectedly}
 
 **Symptom**: Your domain expired even though you thought it was set to auto-renew.
 
@@ -39,9 +39,9 @@ If you're experiencing problems with domain expiration, renewal, or auto-renewal
 4. **Restore the domain**: If the domain has entered the redemption period, you must [restore it](/articles/restoring-domain/), which includes a restore fee in addition to the renewal fee.
 
 > [!WARNING]
-> Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains, there is no grace period, and once they've expired, it's not possible to recover them unless you have an active subscription.
+> Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains, there is no grace period, and once they have expired, it is not possible to recover them unless you have an active subscription.
 
-## Auto-renewal not working
+## Auto-renewal not working {#auto-renewal-not-working}
 
 **Symptom**: Auto-renewal is enabled, but your domain expired anyway.
 
@@ -67,7 +67,7 @@ If you're experiencing problems with domain expiration, renewal, or auto-renewal
 
 5. **Renew manually**: If the domain has already expired but is still in the grace period, [renew it manually](/articles/renewing-domain/) to reactivate it immediately.
 
-## Payment failed during renewal
+## Payment failed during renewal {#payment-failed-during-renewal}
 
 **Symptom**: You received a notification that payment failed when attempting to renew your domain.
 
@@ -81,7 +81,7 @@ If you're experiencing problems with domain expiration, renewal, or auto-renewal
 
 4. **Contact your bank**: If your payment method should be valid, contact your bank or credit card company to ensure there are no blocks or restrictions on the transaction.
 
-## Domain in redemption period
+## Domain in redemption period {#domain-in-redemption-period}
 
 **Symptom**: Your domain has entered the redemption period and you cannot renew it normally.
 
@@ -98,13 +98,13 @@ For more information about the redemption period and restoration process, see [W
 > [!WARNING]
 > The restore fee is mandatory and cannot be waived. The final price will be the restore fee plus the domain's renewal fee.
 
-## Domain deleted and cannot be recovered
+## Domain deleted and cannot be recovered {#domain-deleted-and-cannot-be-recovered}
 
 **Symptom**: Your domain has been deleted and is no longer available for restoration.
 
 **Why it happens**: After the redemption period, domains enter a "Pending Delete" period (typically 5 days) during which they cannot be recovered. After this period, the registry deletes the domain, and it becomes available for anyone to register as a new domain. For more details about the deletion period, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/#deletion-period).
 
-**Resolution**: Unfortunately, once a domain has been deleted by the registry, it cannot be recovered. You would need to register it again as a new domain if it becomes available, but there's no guarantee you'll be able to obtain it, as it will be available on a first-come, first-served basis.
+**Resolution**: Unfortunately, once a domain has been deleted by the registry, it cannot be recovered. You would need to register it again as a new domain if it becomes available, but there is no guarantee you will be able to obtain it, as it will be available on a first-come, first-served basis.
 
 **Prevention**: To avoid this situation in the future:
 
@@ -113,9 +113,9 @@ For more information about the redemption period and restoration process, see [W
 - Monitor expiration notifications
 - Renew domains before they expire
 
-## Not receiving expiration notifications
+## Not receiving expiration notifications {#not-receiving-expiration-notifications}
 
-**Symptom**: You're not receiving email notifications about upcoming domain expirations.
+**Symptom**: You are not receiving email notifications about upcoming domain expirations.
 
 **Resolution steps**:
 
@@ -123,13 +123,13 @@ For more information about the redemption period and restoration process, see [W
 
 2. **Verify account email**: Ensure the email address on your DNSimple account is correct and can receive email. [Update it](/articles/changing-email/) if necessary. For instructions on updating your account email, see [Changing Your Email Address](/articles/changing-email/).
 
-3. **Check notification settings**: While expiration notifications cannot be disabled (they're required), ensure your email provider isn't blocking DNSimple emails.
+3. **Check notification settings**: While expiration notifications cannot be disabled (they are required), ensure your email provider is not blocking DNSimple emails.
 
 4. **Check domain list**: You can also check your domain list in DNSimple to see expiration dates and domains that are expiring soon.
 
-## Expired domain cannot be transferred
+## Expired domain cannot be transferred {#expired-domain-cannot-be-transferred}
 
-**Symptom**: You're trying to transfer an expired domain but the transfer is being denied.
+**Symptom**: You are trying to transfer an expired domain but the transfer is being denied.
 
 **Why it happens**: ICANN rules permit expired domains to be transferred only if:
 
@@ -141,16 +141,16 @@ For more information about the redemption period and restoration process, see [W
 
 1. **Renew first**: If the domain is still in the grace period, renew it first, then initiate the transfer.
 
-2. **Contact support**: If you need to transfer an expired domain that's in grace period, contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact) for assistance.
+2. **Contact support**: If you need to transfer an expired domain that is in grace period, contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact) for assistance.
 
 3. **Restore then transfer**: If the domain has entered redemption, you must restore it first, then wait for it to be active before transferring.
 
 > [!WARNING]
 > These rules do not apply to country code TLDs (ccTLDs), which may have different expiration and transfer rules.
 
-## Auto-renew only domains
+## Auto-renew only domains {#auto-renew-only-domains}
 
-**Symptom**: You're trying to renew a domain manually, but the option is not available, or the domain expired and cannot be recovered.
+**Symptom**: You are trying to renew a domain manually, but the option is not available, or the domain expired and cannot be recovered.
 
 **Why it happens**: Some domains are [auto-renew only](/articles/domain-auto-renewal/) and require an active subscription to DNSimple. These domains:
 
@@ -165,31 +165,31 @@ For more information about the redemption period and restoration process, see [W
 
 2. **Enable auto-renewal**: [Enable auto-renewal](/articles/enabling-disabling-domain-auto-renewal/) for the domain and ensure your payment method is valid.
 
-3. **Contact support**: If you're unsure whether your domain is auto-renew only or need help setting up auto-renewal, [contact support](https://dnsimple.com/feedback).
+3. **Contact support**: If you are unsure whether your domain is auto-renew only or need help setting up auto-renewal, [contact support](https://dnsimple.com/feedback).
 
-## Grace period questions
+## Grace period questions {#grace-period-questions}
 
-**Symptom**: You're unsure about grace periods and when you can renew your expired domain.
+**Symptom**: You are unsure about grace periods and when you can renew your expired domain.
 
 **Important information**:
 
 - **Grace period is not guaranteed**: Our registrar partners may offer a non-guaranteed 29-day grace period for renewal for most generic top-level domains (gTLDs). There is no guaranteed grace period. For more details, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/#grace-period).
 
-- **Early renewal doesn't lose time**: Renewal years are always added to the end of the current registration period, so you will never lose time on your domain by renewing early.
+- **Early renewal does not lose time**: Renewal years are always added to the end of the current registration period, so you will never lose time on your domain by renewing early.
 
 - **ccTLDs may differ**: Country code TLDs (ccTLDs) may have different grace period rules or no grace period at all. See [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/) for more information about expiration periods.
 
-**Resolution**: If your domain has expired, attempt to [renew it immediately](/articles/renewing-domain/). If renewal is not available, the domain may have entered redemption period, and you'll need to [restore it](/articles/restoring-domain/) instead.
+**Resolution**: If your domain has expired, attempt to [renew it immediately](/articles/renewing-domain/). If renewal is not available, the domain may have entered redemption period, and you will need to [restore it](/articles/restoring-domain/) instead.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you've tried these troubleshooting steps and are still experiencing issues with domain expiration or renewal, [contact our support team](https://dnsimple.com/feedback). Please include:
+If you have tried these troubleshooting steps and are still experiencing issues with domain expiration or renewal, [contact our support team](https://dnsimple.com/feedback). Please include:
 
 - Your domain name
 - The current status of the domain (expired, in redemption, etc.)
 - Whether auto-renewal is enabled
 - Your payment method status
-- Any error messages you've encountered
-- Steps you've already taken to resolve the issue
+- Any error messages you have encountered
+- Steps you have already taken to resolve the issue
 
-We'll be happy to help you renew or restore your domain and prevent future expiration issues.
+We will be happy to help you renew or restore your domain and prevent future expiration issues.

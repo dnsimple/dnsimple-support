@@ -10,17 +10,17 @@ categories:
 
 These external tools can help verify and diagnose DNSSEC configuration issues. They allow you to validate the DNSSEC chain of trust and identify common problems such as missing DS records, expired signatures, or DNSKEY mismatches.
 
-## DNSSEC Analyzer (Verisign/ICANN)
+## DNSSEC Analyzer (Verisign/ICANN) {#dnssec-analyzer-verisignicann}
 https://dnssec-analyzer.verisignlabs.com/
 
 Checks whether a domain validates correctly with DNSSEC and reports configuration problems including DS record mismatches, missing DNSKEY records, and expired signatures.
 
-## DNSViz
+## DNSViz {#dnsviz}
 https://dnsviz.net/
 
 Provides a visual representation of the DNSSEC chain of trust and highlights where validation fails between the parent zone and the authoritative DNS provider.
 
-## Local validation using dig
+## Local validation using dig {#local-validation-using-dig}
 
 You can also perform DNSSEC validation checks from your own system using the `dig` command.
 
