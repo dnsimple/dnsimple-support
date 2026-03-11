@@ -33,7 +33,7 @@ If the domain is registered with another registrar and you are using DNSimple on
 
  If you would like to transfer the domain registration to us, [follow these instructions](/articles/domain-transfer/).
 
-If you are experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
+If you are experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
 ## Have more questions? {#have-more-questions}
 
