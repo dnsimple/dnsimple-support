@@ -1,6 +1,6 @@
 ---
 title: Managing MX Records When Changing Email Providers
-excerpt: Learn how to update MX records when migrating from one email hosting provider to another.
+excerpt: How to update MX records when migrating from one email hosting provider to another.
 meta: Step-by-step guide to managing MX records when changing email providers, ensuring a smooth transition with minimal downtime.
 categories:
 - Emails
@@ -16,9 +16,9 @@ categories:
 
 ---
 
-When you change email hosting providers, you need to update your MX records to point to the new provider's mail servers. This guide will help you manage this transition smoothly, minimizing email delivery issues during the migration.
+When you change email hosting providers, you need to update your MX records to point to the new provider's mail servers. Proper planning minimizes email delivery issues during the migration.
 
-## Understanding the migration process
+## Understanding the migration process {#understanding}
 
 Changing email providers involves updating your domain's MX records to point to the new provider's mail servers. During this transition:
 
@@ -26,7 +26,7 @@ Changing email providers involves updating your domain's MX records to point to 
 - **New provider:** Will start receiving emails once DNS changes propagate
 - **Transition period:** There may be a brief period where emails could be delivered to either provider
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before changing email providers:
 
@@ -35,13 +35,12 @@ Before changing email providers:
 3. **Back up email data:** Export or back up important emails from your old provider before migration.
 4. **Plan the migration:** Schedule the migration during a low-traffic period if possible.
 
-<warning>
-**Email forwarding:** If you're currently using DNSimple's email forwarding service, you'll need to disable it before setting up email hosting. Email forwarding and email hosting cannot be used simultaneously.
-</warning>
+> [!WARNING]
+> If you are currently using DNSimple's email forwarding service, you need to disable it before setting up email hosting. Email forwarding and email hosting cannot be used simultaneously.
 
-## Step-by-step migration process
+## Step-by-step migration process {#migration}
 
-### Step 1: Prepare your new email provider
+### Step 1: Prepare your new email provider {#prepare}
 
 1. **Complete setup with new provider:**
    - Sign up for the new email hosting service
@@ -54,32 +53,28 @@ Before changing email providers:
    - Record the priority values and mail server hostnames
    - Save this information for the next step
 
-### Step 2: Update MX records in DNSimple
+### Step 2: Update MX records in DNSimple {#update-mx}
 
-1. **Navigate to your domain:**
-   - Use the account switcher to select the appropriate account
-   - Click on your domain name from the Domain Names list
-   - Click the **DNS** tab
+<div class="section-steps" markdown="1">
+##### Update MX records for the new provider
 
-2. **Remove old MX records:**
-   - Open the **Record Editor**
-   - Find all existing MX records
-   - Delete each old MX record (click the delete/trash icon)
-   - Confirm deletions
+1. Use the account switcher to select the appropriate account.
+1. Click on your domain name from the <label>Domain Names</label> list.
+1. Click the <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Find all existing MX records and delete each one (click the delete/trash icon and confirm).
+1. Click <label>Add record</label> and select **MX**.
+1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
+1. Enter the priority value from your new provider.
+1. Enter the mail server hostname from your new provider.
+1. Click <label>Add record</label>.
+1. Repeat for all MX records provided by your new provider.
+</div>
 
-<info>
-**One-click services:** If you're using DNSimple's one-click services for your old provider, you can remove the service, which will automatically remove the associated DNS records. See [Removing Services](/articles/services/#removing-services) for instructions.
-</info>
+> [!NOTE]
+> If you are using DNSimple's one-click services for your old provider, you can remove the service, which will automatically remove the associated DNS records. See [Removing Services](/articles/services/#removing-services) for instructions.
 
-3. **Add new MX records:**
-   - Click **Add record** and select **MX**
-   - Leave the **Name** field blank (or enter `@`) for the root domain
-   - Enter the priority value from your new provider
-   - Enter the mail server hostname from your new provider
-   - Click **Add record**
-   - Repeat for all MX records provided by your new provider
-
-### Step 3: Verify the changes
+### Step 3: Verify the changes {#verify}
 
 1. **Check DNS propagation:**
    - Use online tools like [whatsmydns.net](https://www.whatsmydns.net/#MX) to verify your new MX records are propagating
@@ -96,7 +91,7 @@ Before changing email providers:
    - Verify it arrives at the new email provider
    - Check both old and new inboxes during the transition period
 
-### Step 4: Monitor and finalize
+### Step 4: Monitor and finalize {#finalize}
 
 1. **Monitor email delivery:**
    - Check both old and new email accounts for a few days
@@ -109,11 +104,11 @@ Before changing email providers:
    - Test sending and receiving from all devices
 
 3. **Cancel old service:**
-   - Once you've confirmed all emails are being delivered to the new provider
-   - Once you've verified no important emails are stuck at the old provider
+   - Once you have confirmed all emails are being delivered to the new provider
+   - Once you have verified no important emails are stuck at the old provider
    - Cancel your subscription with the old email provider
 
-## Migration strategies
+## Migration strategies {#strategies}
 
 ### Strategy 1: Direct cutover (recommended for most cases)
 
@@ -147,14 +142,14 @@ For critical business email, you might use a gradual approach with overlapping M
 
 **Best for:** Only when absolutely necessary and with careful planning.
 
-## Common migration scenarios
+## Common migration scenarios {#scenarios}
 
 ### Migrating from email forwarding to email hosting
 
-If you're migrating from DNSimple's email forwarding to a full email hosting service:
+If you are migrating from DNSimple's email forwarding to a full email hosting service:
 
 1. **Disable email forwarding:**
-   - Go to your domain's **Email Forwarding** tab
+   - Go to your domain's <label>Email Forwarding</label> tab
    - Delete all email forwards
    - This will automatically remove the email forwarding MX records
 
@@ -189,15 +184,14 @@ If you want to switch from email hosting to DNSimple's email forwarding:
    - Remove the one-click service if you used it
 
 2. **Enable email forwarding:**
-   - Go to your domain's **Email Forwarding** tab
+   - Go to your domain's <label>Email Forwarding</label> tab
    - Create your first email forward
    - This will automatically add the email forwarding MX records
 
-<warning>
-**Data loss warning:** When switching from email hosting to email forwarding, you'll lose access to emails stored on the hosting provider's servers. Make sure to back up important emails before making this change.
-</warning>
+> [!WARNING]
+> When switching from email hosting to email forwarding, you will lose access to emails stored on the hosting provider's servers. Back up important emails before making this change.
 
-## Troubleshooting migration issues
+## Troubleshooting migration issues {#troubleshooting}
 
 ### Emails still going to old provider
 
@@ -206,12 +200,12 @@ If you want to switch from email hosting to DNSimple's email forwarding:
 **Solutions:**
 1. **Check DNS propagation:** Use online tools to verify your new MX records have propagated globally.
 2. **Verify MX records:** Use `dig` to confirm your new MX records are published correctly.
-3. **Wait longer:** DNS propagation can take up to 48 hours, though it's typically much faster.
+3. **Wait longer:** DNS propagation can take up to 48 hours, though it is typically much faster.
 4. **Check for cached records:** Some mail servers cache MX records. Wait for cache to expire.
 
 ### Emails not being delivered
 
-**Problem:** Emails aren't being delivered to either provider after migration.
+**Problem:** Emails are not being delivered to either provider after migration.
 
 **Solutions:**
 1. **Verify MX records exist:** Use `dig +short yourdomain.com MX` to check if MX records are published.
@@ -230,7 +224,7 @@ If you want to switch from email hosting to DNSimple's email forwarding:
 3. **Forward emails:** Set up forwarding from old provider to new provider if possible.
 4. **Wait for full propagation:** Once DNS fully propagates, emails should only go to the new provider.
 
-## Best practices
+## Best practices {#best-practices}
 
 **Plan ahead:** Schedule migrations during low-traffic periods when possible.
 
