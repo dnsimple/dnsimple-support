@@ -9,7 +9,7 @@ categories:
 
 # Verifying SPF with dig and Online Tools
 
-## Verifying SPF with dig
+## Verifying SPF with dig {#dig}
 
 The `dig` tool is a good way to verify your SPF record is being returned correctly by our DNS servers. To learn more about `dig`, see [How To Use dig](/articles/how-dig/).
 
@@ -33,13 +33,12 @@ If you want to filter for just SPF records, you can use:
 dig +short example.com TXT | grep "v=spf1"
 ```
 
-If no result is returned, verify that you added the TXT record with the correct name. Remember, the **Name** field in DNSimple should be blank or `@` for the root domain, otherwise it would create a record at a subdomain.
+If no result is returned, verify that you added the TXT record with the correct name. The <label>Name</label> field in DNSimple should be blank or `@` for the root domain, otherwise it would create a record at a subdomain.
 
-<info>
-A domain should have only one SPF record. If you see multiple TXT records starting with `v=spf1`, you should consolidate them into a single record.
-</info>
+> [!NOTE]
+> A domain should have only one SPF record. If you see multiple TXT records starting with `v=spf1`, you should consolidate them into a single record.
 
-## Verifying your SPF with an online tool
+## Verifying your SPF with an online tool {#online-tools}
 
 Verify your SPF record with an online tool like [MXToolbox SPF Record Lookup](https://mxtoolbox.com/spf.aspx). This tool:
 
@@ -51,7 +50,7 @@ Verify your SPF record with an online tool like [MXToolbox SPF Record Lookup](ht
 
 Another useful tool is [SPF Record Checker](https://www.spf-record.com/), which provides detailed analysis of your SPF record and helps identify potential issues.
 
-## Understanding SPF validation results
+## Understanding SPF validation results {#results}
 
 When verifying your SPF record, you may see different results:
 
@@ -61,7 +60,7 @@ When verifying your SPF record, you may see different results:
 - **Neutral:** The SPF check returned neutral, meaning no policy is specified (if using `?all`).
 - **None:** No SPF record was found for the domain.
 
-## Common issues and solutions
+## Common issues and solutions {#issues}
 
 **Multiple SPF records:** If you have multiple SPF records, you need to consolidate them into a single record. Multiple SPF records can cause email delivery issues.
 
@@ -71,7 +70,7 @@ When verifying your SPF record, you may see different results:
 
 **Missing mechanisms:** Ensure your SPF record includes all the email providers you use. Missing an authorized sender can cause legitimate emails to fail SPF checks.
 
-## Technical details
+## Technical details {#technical}
 
 For more information about the technical details of SPF, head over to [OpenSPF.org](https://www.openspf.org/).
 
@@ -80,5 +79,3 @@ If you want more details on SPF record formats and validation, view our [SPF Rec
 ## Have more questions?
 
 If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-
