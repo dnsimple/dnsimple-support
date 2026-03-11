@@ -18,7 +18,7 @@ categories:
 
 Many email hosting providers can be integrated with DNSimple for DNS management. This guide provides a general approach to integrating third-party email services, applicable to providers like FastMail, Rackspace, Zoho, and others.
 
-## Overview
+## Overview {#overview}
 
 Integrating a third-party email service with DNSimple typically involves:
 
@@ -28,11 +28,10 @@ Integrating a third-party email service with DNSimple typically involves:
 4. Verifying domain ownership (if required)
 5. Testing email delivery
 
-<info>
-**One-click services:** DNSimple offers one-click services for some popular email providers (Google Workspace, Microsoft 365). Check if your provider has a one-click service available in the [Services category](/categories/services/).
-</info>
+> [!TIP]
+> DNSimple offers one-click services for some popular email providers (Google Workspace, Microsoft 365). Check if your provider has a one-click service available in the [Services category](/categories/services/).
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before integrating a third-party email service:
 
@@ -41,7 +40,7 @@ Before integrating a third-party email service:
 3. **DNS record information:** Get required DNS records from your email provider
 4. **Provider documentation:** Have access to your email provider's setup documentation
 
-## Step 1: Set up your email hosting account
+## Step 1: Set up your email hosting account {#setup}
 
 1. **Sign up with email provider:**
    - Choose and sign up for an email hosting service
@@ -61,7 +60,7 @@ Before integrating a third-party email service:
      - **CNAME records:** For Autodiscover or other services
    - Save all DNS record information
 
-## Step 2: Get DNS records from your provider
+## Step 2: Get DNS records from your provider {#get-records}
 
 Different email providers require different DNS records. Common records include:
 
@@ -90,8 +89,8 @@ Different email providers require different DNS records. Common records include:
 **Purpose:** Autodiscover, webmail, or other services.
 
 **Common CNAME records:**
-- **Autodiscover:** `autodiscover` → provider's Autodiscover server
-- **Webmail:** `webmail` → provider's webmail server
+- **Autodiscover:** `autodiscover` -> provider's Autodiscover server
+- **Webmail:** `webmail` -> provider's webmail server
 
 ### Other records
 
@@ -99,71 +98,69 @@ Some providers may require:
 - **SRV records:** For specific services
 - **Additional TXT records:** For additional verification or configuration
 
-<info>
-**Provider-specific requirements:** Each email provider has specific DNS requirements. Always refer to your provider's documentation for exact record values.
-</info>
+> [!NOTE]
+> Each email provider has specific DNS requirements. Always refer to your provider's documentation for exact record values.
 
-## Step 3: Configure DNS records in DNSimple
+## Step 3: Configure DNS records in DNSimple {#configure-dns}
 
-### Remove existing email services
+### Remove existing email services {#remove-existing}
 
-If you're switching from another email service:
+If you are switching from another email service:
 
 1. **Remove email forwarding (if applicable):**
-   - Go to your domain's **Email Forwarding** tab
+   - Go to your domain's <label>Email Forwarding</label> tab
    - Delete all email forwards
    - This removes email forwarding MX records
 
 2. **Remove old MX records:**
    - If you have old MX records from a previous provider, remove them
-   - Go to your domain's **DNS** tab
-   - Open the **Record Editor**
+   - Go to your domain's <label>DNS</label> tab
+   - Open the <label>Record Editor</label>
    - Delete old MX records
 
-### Add MX records
+### Add MX records {#add-mx}
 
-1. **Navigate to DNS records:**
-   - Go to your domain's **DNS** tab
-   - Open the **Record Editor**
+<div class="section-steps" markdown="1">
+##### Add MX records for your email provider
 
-2. **Add each MX record:**
-   - Click **Add record** and select **MX**
-   - Leave the **Name** field blank (or enter `@`) for the root domain
-   - Enter the priority value from your email provider
-   - Enter the mail server hostname from your email provider
-   - Click **Add record**
-   - Repeat for all MX records provided
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Click <label>Add record</label> and select **MX**.
+1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
+1. Enter the priority value from your email provider.
+1. Enter the mail server hostname from your email provider.
+1. Click <label>Add record</label>.
+1. Repeat for all MX records provided.
+</div>
 
-<warning>
-**Priority values:** Lower numbers indicate higher priority. Ensure you enter priority values exactly as provided by your email provider.
-</warning>
+> [!WARNING]
+> Lower priority numbers indicate higher priority. Ensure you enter priority values exactly as provided by your email provider.
 
-### Add TXT records
+### Add TXT records {#add-txt}
 
 1. **Domain verification TXT record (if required):**
-   - Click **Add record** and select **TXT**
+   - Click <label>Add record</label> and select **TXT**
    - Enter the name provided by your email provider (often `@` or blank)
    - Enter the verification string exactly as provided
-   - Click **Add record**
+   - Click <label>Add record</label>
 
 2. **SPF TXT record:**
-   - Click **Add record** and select **TXT**
-   - Leave the **Name** field blank (or enter `@`) for the root domain
+   - Click <label>Add record</label> and select **TXT**
+   - Leave the <label>Name</label> field blank (or enter `@`) for the root domain
    - Enter the SPF record from your email provider
    - Ensure it starts with `v=spf1`
-   - Click **Add record**
+   - Click <label>Add record</label>
 
-<warning>
-**One SPF record:** A domain should have only one SPF record. If you already have an SPF record, modify it to include your email provider rather than creating a new one.
-</info>
+> [!WARNING]
+> A domain should have only one SPF record. If you already have an SPF record, modify it to include your email provider rather than creating a new one.
 
-### Add CNAME records (if required)
+### Add CNAME records (if required) {#add-cname}
 
 1. **Autodiscover CNAME:**
-   - Click **Add record** and select **CNAME**
-   - Enter `autodiscover` in the **Name** field
+   - Click <label>Add record</label> and select **CNAME**
+   - Enter `autodiscover` in the <label>Name</label> field
    - Enter the Autodiscover hostname from your email provider
-   - Click **Add record**
+   - Click <label>Add record</label>
 
 2. **Other CNAME records:**
    - Add any other CNAME records as provided by your email provider
@@ -173,7 +170,7 @@ If you're switching from another email service:
 
 Add any additional records (SRV, etc.) as provided by your email provider, following the same process.
 
-## Step 4: Verify domain ownership
+## Step 4: Verify domain ownership {#verify}
 
 Many email providers require domain verification:
 
@@ -190,7 +187,7 @@ Many email providers require domain verification:
    - Once verified, your email provider will confirm
    - You can proceed with email setup
 
-## Step 5: Configure email authentication (recommended)
+## Step 5: Configure email authentication (recommended) {#authentication}
 
 For better email deliverability, configure SPF, DKIM, and DMARC:
 
@@ -202,9 +199,8 @@ Most email providers include SPF in their setup instructions. Ensure your SPF re
 v=spf1 include:your-provider.com ~all
 ```
 
-<info>
-For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
-</info>
+> [!NOTE]
+> For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
 
 ### DKIM
 
@@ -216,9 +212,8 @@ For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
    - Add a TXT record at `selector._domainkey.yourdomain.com`
    - Enter the DKIM public key from your provider
 
-<info>
-For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
-</info>
+> [!NOTE]
+> For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
 
 ### DMARC
 
@@ -226,11 +221,10 @@ For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
    - Add a TXT record at `_dmarc.yourdomain.com`
    - Start with `p=none` for monitoring
 
-<info>
-For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/).
-</info>
+> [!NOTE]
+> For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/).
 
-## Step 6: Test email delivery
+## Step 6: Test email delivery {#test}
 
 After configuring DNS records:
 
@@ -252,7 +246,7 @@ After configuring DNS records:
    - Test sending and receiving emails
    - Verify Autodiscover works (if configured)
 
-## Common email providers
+## Common email providers {#providers}
 
 ### FastMail
 
@@ -283,15 +277,15 @@ After configuring DNS records:
 ### Other providers
 
 For other email providers:
-- Check provider's documentation for exact DNS requirements
+- Check the provider's documentation for exact DNS requirements
 - Follow the general process outlined in this guide
 - Contact your email provider's support if you need assistance
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 ### MX records not working
 
-**Problem:** Emails aren't being delivered to your email provider.
+**Problem:** Emails are not being delivered to your email provider.
 
 **Solutions:**
 1. **Verify MX records:** Use `dig +short yourdomain.com MX` to check MX records
@@ -302,12 +296,12 @@ For other email providers:
 
 ### Domain verification failing
 
-**Problem:** Your email provider can't verify domain ownership.
+**Problem:** Your email provider cannot verify domain ownership.
 
 **Solutions:**
 1. **Check TXT record:** Verify the verification TXT record exists and is correct
 2. **Wait for propagation:** DNS changes can take time to propagate
-3. **Verify record format:** Ensure the TXT record matches exactly what your provider provided
+3. **Verify record format:** Ensure the TXT record matches exactly what your provider gave you
 4. **Contact your email provider:** They can help troubleshoot verification issues
 
 ### Email authentication issues
@@ -320,14 +314,14 @@ For other email providers:
 3. **Test authentication:** Send test emails and check headers
 4. **See troubleshooting guides:** [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/)
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Follow your email provider's documentation exactly
-- ✅ Configure SPF, DKIM, and DMARC for better deliverability
-- ✅ Test email delivery after configuration
-- ✅ Keep DNS records updated if your provider changes requirements
-- ✅ Document your configuration for future reference
-- ✅ Monitor email deliverability regularly
+- Follow your email provider's documentation exactly
+- Configure SPF, DKIM, and DMARC for better deliverability
+- Test email delivery after configuration
+- Keep DNS records updated if your provider changes requirements
+- Document your configuration for future reference
+- Monitor email deliverability regularly
 
 ## Related topics
 

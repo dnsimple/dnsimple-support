@@ -16,9 +16,9 @@ categories:
 
 ---
 
-Microsoft 365 (formerly Office 365) provides professional email hosting with Outlook, along with Office applications and collaboration tools. This guide will help you integrate Microsoft 365 with DNSimple for seamless DNS management.
+Microsoft 365 (formerly Office 365) provides professional email hosting with Outlook, along with Office applications and collaboration tools. Integrating it with DNSimple gives you seamless DNS management for your email configuration.
 
-## Overview
+## Overview {#overview}
 
 Integrating Microsoft 365 with DNSimple involves:
 
@@ -27,11 +27,10 @@ Integrating Microsoft 365 with DNSimple involves:
 3. Verifying domain ownership with Microsoft
 4. Testing email delivery
 
-<info>
-**One-click service:** DNSimple offers a [one-click service](/articles/office-365-service/) that automatically configures most DNS records for Microsoft 365. This is the easiest way to set up Microsoft 365 integration.
-</info>
+> [!TIP]
+> DNSimple offers a [one-click service](/articles/office-365-service/) that automatically configures most DNS records for Microsoft 365. This is the easiest way to set up Microsoft 365 integration.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before integrating Microsoft 365 with DNSimple:
 
@@ -40,7 +39,7 @@ Before integrating Microsoft 365 with DNSimple:
 3. **Domain access:** You need access to manage DNS records for your domain
 4. **Microsoft 365 setup:** Complete initial Microsoft 365 setup and domain verification
 
-## Step 1: Set up Microsoft 365
+## Step 1: Set up Microsoft 365 {#setup-microsoft}
 
 1. **Sign up for Microsoft 365:**
    - Visit [microsoft.com/microsoft-365](https://www.microsoft.com/microsoft-365)
@@ -55,72 +54,66 @@ Before integrating Microsoft 365 with DNSimple:
 3. **Get DNS record information:**
    - Microsoft will provide MX records, TXT records for verification, and other DNS records
    - Save this information for the next step
-   - You'll need these records for DNSimple configuration
+   - You will need these records for DNSimple configuration
 
-## Step 2: Configure DNS records in DNSimple
+## Step 2: Configure DNS records in DNSimple {#configure-dns}
 
 You can configure DNS records manually or use DNSimple's one-click service.
 
-### Option 1: Using the one-click service (recommended)
+### Option 1: Using the one-click service (recommended) {#one-click}
 
 The easiest way to integrate Microsoft 365 is using DNSimple's one-click service:
 
-1. **Navigate to your domain:**
-   - Use the account switcher to select the appropriate account
-   - Click on your domain name from the Domain Names list
-   - Click the **DNS** tab
+<div class="section-steps" markdown="1">
+##### Add Microsoft 365 with the one-click service
 
-2. **Add the one-click service:**
-   - Scroll down to the **One-click services** section
-   - Click **Add**
-   - Select the **Productivity** tab
-   - Find **Office 365** and click **Add**
+1. Use the account switcher to select the appropriate account.
+1. Click on your domain name from the <label>Domain Names</label> list.
+1. Click the <label>DNS</label> tab.
+1. Scroll down to the <label>One-click services</label> section and click <label>Add</label>.
+1. Select the <label>Productivity</label> tab.
+1. Find <label>Office 365</label> and click <label>Add</label>.
+1. Enter the TXT and MX records provided by Microsoft.
+1. Click <label>Complete Office 365 Setup</label>.
+</div>
 
-3. **Enter Microsoft 365 records:**
-   - Enter the TXT and MX records provided by Microsoft
-   - Click **Complete Office 365 Setup**
+> [!NOTE]
+> The one-click service automatically configures MX records, TXT records, and other necessary DNS records for Microsoft 365.
 
-4. **Complete setup:**
-   - The service automatically configures required DNS records
-   - Follow any additional prompts
-
-<info>
-The one-click service automatically configures MX records, TXT records, and other necessary DNS records for Microsoft 365.
-</info>
-
-### Option 2: Manual DNS configuration
+### Option 2: Manual DNS configuration {#manual}
 
 If you prefer to configure DNS records manually:
 
 1. **Get required DNS records from Microsoft:**
    - Log into your Microsoft 365 admin center
-   - Go to **Settings** > **Domains**
+   - Go to <label>Settings</label> > <label>Domains</label>
    - Select your domain
-   - Click **DNS records** or **Setup**
+   - Click <label>DNS records</label> or <label>Setup</label>
    - Note all required DNS records (MX, TXT, CNAME, etc.)
 
 2. **Remove existing email forwarding (if applicable):**
-   - If you're using DNSimple's email forwarding, you'll need to disable it first
-   - Go to your domain's **Email Forwarding** tab
+   - If you are using DNSimple's email forwarding, you need to disable it first
+   - Go to your domain's <label>Email Forwarding</label> tab
    - Delete all email forwards (this removes email forwarding MX records)
 
-3. **Add MX records in DNSimple:**
-   - Navigate to your domain's **DNS** tab
-   - Open the **Record Editor**
-   - Add the MX record provided by Microsoft:
-     - Click **Add record** and select **MX**
-     - Leave the **Name** field blank (or enter `@`) for the root domain
-     - Enter the priority value from Microsoft (typically 0)
-     - Enter the mail server hostname from Microsoft (typically `yourdomain-com.mail.protection.outlook.com`)
-     - Click **Add record**
+<div class="section-steps" markdown="1">
+##### Add MX records manually
+
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Click <label>Add record</label> and select **MX**.
+1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
+1. Enter the priority value from Microsoft (typically 0).
+1. Enter the mail server hostname from Microsoft (typically `yourdomain-com.mail.protection.outlook.com`).
+1. Click <label>Add record</label>.
+</div>
 
 4. **Add verification TXT record:**
    - Microsoft requires a TXT record for domain verification
-   - Add the TXT record in the Record Editor:
-     - Click **Add record** and select **TXT**
-     - Enter the name provided by Microsoft (often `@` or blank)
-     - Enter the verification string from Microsoft
-     - Click **Add record**
+   - In the Record Editor, click <label>Add record</label> and select **TXT**
+   - Enter the name provided by Microsoft (often `@` or blank)
+   - Enter the verification string from Microsoft
+   - Click <label>Add record</label>
 
 5. **Add other required records:**
    - Microsoft may require additional records:
@@ -128,14 +121,14 @@ If you prefer to configure DNS records manually:
      - **TXT records:** For SPF and other configurations
    - Add these records as provided by Microsoft
 
-## Step 3: Verify domain ownership
+## Step 3: Verify domain ownership {#verify}
 
 Microsoft requires domain verification to activate Microsoft 365:
 
 1. **In Microsoft 365 admin center:**
-   - Go to **Settings** > **Domains**
+   - Go to <label>Settings</label> > <label>Domains</label>
    - Select your domain
-   - Click **Verify** or **Setup**
+   - Click <label>Verify</label> or <label>Setup</label>
 
 2. **Wait for verification:**
    - DNS changes may take time to propagate
@@ -146,7 +139,7 @@ Microsoft requires domain verification to activate Microsoft 365:
    - Once verified, Microsoft will confirm domain ownership
    - You can proceed with Microsoft 365 setup
 
-## Step 4: Configure email authentication (recommended)
+## Step 4: Configure email authentication (recommended) {#authentication}
 
 For better email deliverability, configure SPF, DKIM, and DMARC:
 
@@ -165,9 +158,9 @@ Microsoft 365 requires SPF records. The one-click service should configure this,
 ### Set up DKIM
 
 1. **In Microsoft 365 admin center:**
-   - Go to **Settings** > **Domains**
+   - Go to <label>Settings</label> > <label>Domains</label>
    - Select your domain
-   - Click **DKIM**
+   - Click <label>DKIM</label>
    - Enable DKIM if not already enabled
 
 2. **Get DKIM records:**
@@ -185,9 +178,8 @@ Microsoft 365 requires SPF records. The one-click service should configure this,
    - Use `dig +short selector1._domainkey.yourdomain.com TXT` (replace with your selector)
    - Send a test email and check headers for DKIM signature
 
-<info>
-For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
-</info>
+> [!NOTE]
+> For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
 
 ### Set up DMARC (optional but recommended)
 
@@ -199,7 +191,7 @@ For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/).
    - Add a TXT record at `_dmarc.yourdomain.com`
    - Use: `v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com`
 
-## Step 5: Configure additional services (optional)
+## Step 5: Configure additional services (optional) {#additional}
 
 Microsoft 365 may require additional DNS records for other services:
 
@@ -215,13 +207,13 @@ Microsoft 365 uses Autodiscover to automatically configure email clients:
 
 ### Skype for Business (if applicable)
 
-If you're using Skype for Business:
+If you are using Skype for Business:
 
 1. **Add required records:**
    - Microsoft will provide specific DNS records
    - Add SRV records and other records as provided
 
-## Step 6: Test email delivery
+## Step 6: Test email delivery {#test}
 
 After configuring DNS records:
 
@@ -243,18 +235,18 @@ After configuring DNS records:
    - Test sending and receiving emails
    - Verify Autodiscover works (if configured)
 
-## Common configuration scenarios
+## Common configuration scenarios {#scenarios}
 
 ### Migrating from email forwarding
 
-If you're migrating from DNSimple's email forwarding to Microsoft 365:
+If you are migrating from DNSimple's email forwarding to Microsoft 365:
 
 1. **Set up Microsoft 365 first:**
    - Complete Microsoft 365 setup
    - Get MX records from Microsoft
 
 2. **Remove email forwarding:**
-   - Go to your domain's **Email Forwarding** tab
+   - Go to your domain's <label>Email Forwarding</label> tab
    - Delete all email forwards
    - This automatically removes email forwarding MX records
 
@@ -284,11 +276,11 @@ If you already have email configured:
    - Migrate email data (Microsoft provides migration tools)
    - Update email clients
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 ### MX records not working
 
-**Problem:** Emails aren't being delivered to Microsoft 365.
+**Problem:** Emails are not being delivered to Microsoft 365.
 
 **Solutions:**
 1. **Verify MX records:** Use `dig +short yourdomain.com MX` to check MX records
@@ -299,13 +291,13 @@ If you already have email configured:
 
 ### Domain verification failing
 
-**Problem:** Microsoft can't verify domain ownership.
+**Problem:** Microsoft cannot verify domain ownership.
 
 **Solutions:**
 1. **Check TXT record:** Verify the verification TXT record exists and is correct
 2. **Wait for propagation:** DNS changes can take time to propagate
 3. **Verify record format:** Ensure the TXT record matches exactly what Microsoft provided
-4. **Check for multiple records:** Ensure there's only one verification record
+4. **Check for multiple records:** Ensure there is only one verification record
 
 ### Email authentication issues
 
@@ -319,7 +311,7 @@ If you already have email configured:
 
 ### Autodiscover not working
 
-**Problem:** Email clients can't automatically configure.
+**Problem:** Email clients cannot automatically configure.
 
 **Solutions:**
 1. **Verify CNAME:** Check Autodiscover CNAME record exists and is correct
@@ -327,15 +319,15 @@ If you already have email configured:
 3. **Test Autodiscover:** Use Microsoft's Autodiscover test tool
 4. **Manual configuration:** Configure email clients manually if needed
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Use the one-click service for easiest setup
-- ✅ Configure SPF, DKIM, and DMARC for better deliverability
-- ✅ Test email delivery after configuration
-- ✅ Configure Autodiscover for easier email client setup
-- ✅ Monitor email deliverability regularly
-- ✅ Keep DNS records updated if Microsoft changes requirements
-- ✅ Document your configuration for future reference
+- Use the one-click service for easiest setup
+- Configure SPF, DKIM, and DMARC for better deliverability
+- Test email delivery after configuration
+- Configure Autodiscover for easier email client setup
+- Monitor email deliverability regularly
+- Keep DNS records updated if Microsoft changes requirements
+- Document your configuration for future reference
 
 ## Related topics
 
@@ -349,4 +341,3 @@ If you already have email configured:
 ## Have more questions?
 
 If you have additional questions or need any assistance with integrating Microsoft 365 with DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
