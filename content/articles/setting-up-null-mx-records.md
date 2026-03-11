@@ -1,7 +1,7 @@
 ---
 title: Setting Up Null MX Records
-excerpt: Step-by-step guide to configuring null MX records for domains that don't accept email.
-meta: Learn how to set up null MX records to prevent email delivery attempts and improve security for domains that don't need email functionality.
+excerpt: Step-by-step guide to configuring null MX records for domains that do not accept email.
+meta: Learn how to set up null MX records to prevent email delivery attempts and improve security for domains that do not need email functionality.
 categories:
 - Emails
 - DNS
@@ -16,70 +16,81 @@ categories:
 
 ---
 
-Null MX records explicitly indicate that a domain does not accept email. This guide will walk you through setting up null MX records in DNSimple.
+Null MX records explicitly indicate that a domain does not accept email. Setting one up prevents mail servers from attempting delivery and helps protect against backscatter.
 
-<warning>
-**Important:** Only set up null MX records if you're certain your domain will never need to receive email. If you use email forwarding, email hosting, or might need email in the future, do not use null MX records.
-</warning>
+> [!WARNING]
+> Only set up null MX records if you are certain your domain will never need to receive email. If you use email forwarding, email hosting, or might need email in the future, do not use null MX records.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before setting up null MX records:
 
-1. **Confirm you don't need email:** Ensure your domain will never need to receive email.
-2. **Remove existing email services:** If you're currently using email forwarding or email hosting, you'll need to disable those services first.
+1. **Confirm you do not need email:** Ensure your domain will never need to receive email.
+2. **Remove existing email services:** If you are currently using email forwarding or email hosting, you need to disable those services first.
 3. **Remove existing MX records:** Any existing MX records must be removed before adding a null MX record.
 
-## Step-by-step instructions
+## Step-by-step instructions {#instructions}
 
-### Step 1: Remove existing email services
+### Step 1: Remove existing email services {#remove-services}
 
-If you're currently using email services, you need to remove them first:
+If you are currently using email services, remove them first:
 
 **If using email forwarding:**
-1. Navigate to your domain's **Email Forwarding** tab.
-2. Delete all email forwards.
-3. This will automatically remove the email forwarding MX records.
+
+<div class="section-steps" markdown="1">
+##### Remove email forwarding
+
+1. Navigate to your domain's <label>Email Forwarding</label> tab.
+1. Delete all email forwards.
+1. This will automatically remove the email forwarding MX records.
+</div>
 
 **If using email hosting:**
-1. Navigate to your domain's **DNS** tab.
-2. Open the **Record Editor**.
-3. Find and delete all existing MX records.
-4. If you used a one-click service, remove it from the **One-click services** section.
 
-### Step 2: Remove existing MX records
+<div class="section-steps" markdown="1">
+##### Remove email hosting records
+
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Find and delete all existing MX records.
+1. If you used a one-click service, remove it from the <label>One-click services</label> section.
+</div>
+
+### Step 2: Remove existing MX records {#remove-mx}
 
 Before adding a null MX record, ensure no MX records exist:
 
-1. Navigate to your domain's **DNS** tab.
-2. Open the **Record Editor**.
-3. Look for any existing MX records in the record list.
-4. If any MX records exist, delete them:
-   - Click the delete/trash icon next to each MX record
-   - Confirm the deletion
+<div class="section-steps" markdown="1">
+##### Verify and remove MX records
 
-### Step 3: Add the null MX record
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Look for any existing MX records in the record list.
+1. If any MX records exist, click the delete/trash icon next to each MX record and confirm the deletion.
+</div>
 
-1. In the **Record Editor**, click **Add record**.
-2. Select **MX** as the record type.
-3. Configure the null MX record:
+### Step 3: Add the null MX record {#add-null-mx}
+
+<div class="section-steps" markdown="1">
+##### Add a null MX record
+
+1. In the <label>Record Editor</label>, click <label>Add record</label>.
+1. Select **MX** as the record type.
+1. Configure the null MX record:
    - **Name field:** Leave blank or enter `@` to create the record at the root of your domain (e.g., `yourdomain.com`).
    - **Priority:** Enter `0`.
    - **Mail server:** Enter `.` (a single dot/period).
-4. Click **Add record**.
+1. Click <label>Add record</label>.
+</div>
 
-<info>
-The single dot (`.`) represents the root of the DNS hierarchy and is the standard way to represent "no mail server" in DNS, as specified in RFC 7505.
-</info>
+> [!NOTE]
+> The single dot (`.`) represents the root of the DNS hierarchy and is the standard way to represent "no mail server" in DNS, as specified in RFC 7505.
 
-### Step 4: Verify the null MX record
+### Step 4: Verify the null MX record {#verify}
 
-After adding the null MX record, verify it's configured correctly:
+After adding the null MX record, verify it is configured correctly:
 
-1. **Check in DNSimple:**
-   - In the Record Editor, verify the MX record shows:
-     - Priority: 0
-     - Mail server: `.`
+1. **Check in DNSimple:** In the Record Editor, verify the MX record shows priority 0 and mail server `.`.
 
 2. **Use dig command:**
    ```
@@ -87,20 +98,18 @@ After adding the null MX record, verify it's configured correctly:
    ```
    This should return: `0 .`
 
-3. **Check DNS propagation:**
-   - Use online tools like [whatsmydns.net](https://www.whatsmydns.net/#MX) to verify your null MX record has propagated globally.
-   - The record should show priority 0 with mail server `.`
+3. **Check DNS propagation:** Use online tools like [whatsmydns.net](https://www.whatsmydns.net/#MX) to verify your null MX record has propagated globally. The record should show priority 0 with mail server `.`.
 
-## What happens after setup
+## What happens after setup {#after-setup}
 
 Once the null MX record is set up and propagated:
 
-- **Mail servers will recognize:** Other mail servers will see the null MX record and know your domain doesn't accept email.
-- **Delivery attempts prevented:** Mail servers will not attempt to deliver email to your domain.
-- **Immediate rejection:** Emails sent to your domain will be immediately rejected or returned to the sender.
-- **No bounce messages:** Your domain won't receive bounce messages or non-delivery reports.
+- Other mail servers will see the null MX record and know your domain does not accept email.
+- Mail servers will not attempt to deliver email to your domain.
+- Emails sent to your domain will be immediately rejected or returned to the sender.
+- Your domain will not receive bounce messages or non-delivery reports.
 
-## Testing null MX records
+## Testing null MX records {#testing}
 
 To test that your null MX record is working:
 
@@ -108,23 +117,26 @@ To test that your null MX record is working:
 2. **Check for immediate rejection:** The email should be immediately rejected or returned to the sender.
 3. **Verify no delivery attempts:** Check your domain's DNS logs (if available) to confirm no delivery attempts were made.
 
-<info>
-You can also use online email testing tools to verify that mail servers recognize your null MX record and do not attempt delivery.
-</info>
+> [!TIP]
+> You can also use online email testing tools to verify that mail servers recognize your null MX record and do not attempt delivery.
 
-## Removing null MX records
+## Removing null MX records {#removing}
 
-If you need to remove a null MX record (for example, if you want to set up email forwarding or email hosting):
+If you need to remove a null MX record (for example, to set up email forwarding or email hosting):
 
-1. Navigate to your domain's **DNS** tab.
-2. Open the **Record Editor**.
-3. Find the null MX record (priority 0, mail server `.`).
-4. Click the delete/trash icon.
-5. Confirm the deletion.
+<div class="section-steps" markdown="1">
+##### Remove the null MX record
 
-After removing the null MX record, you can then set up email forwarding or email hosting as needed.
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Find the null MX record (priority 0, mail server `.`).
+1. Click the delete/trash icon.
+1. Confirm the deletion.
+</div>
 
-## Common issues and troubleshooting
+After removing the null MX record, you can set up email forwarding or email hosting as needed.
+
+## Common issues and troubleshooting {#troubleshooting}
 
 ### Null MX record not working
 
@@ -147,21 +159,21 @@ After removing the null MX record, you can then set up email forwarding or email
 
 ### Email forwarding not working
 
-**Problem:** You're trying to use email forwarding but it's not working, and you have a null MX record.
+**Problem:** You are trying to use email forwarding but it is not working, and you have a null MX record.
 
 **Solution:**
 1. Remove the null MX record first.
 2. Then set up email forwarding, which will automatically add the necessary MX records.
 
-## Best practices
+## Best practices {#best-practices}
 
-**Use only when needed:** Only set up null MX records if you're certain your domain will never need email.
+**Use only when needed:** Only set up null MX records if you are certain your domain will never need email.
 
-**Document your decision:** Consider documenting why you're using null MX records for future reference.
+**Document your decision:** Consider documenting why you are using null MX records for future reference.
 
 **Monitor for issues:** If you notice any unexpected behavior, verify your null MX record is configured correctly.
 
-**Plan for future needs:** If there's any possibility you'll need email in the future, don't use null MX records.
+**Plan for future needs:** If there is any possibility you will need email in the future, do not use null MX records.
 
 ## Related topics
 
