@@ -17,9 +17,9 @@ categories:
 
 Before a [Certificate Authority](/articles/what-is-certificate-authority/) (CA) will issue an SSL certificate, it must verify that the person requesting the certificate actually controls the domain. This process is called **domain validation** (also referred to as **Domain Control Validation**, or **DCV**).
 
-Domain validation exists to prevent certificates from being issued for domains the requester doesn't own. Without it, anyone could obtain a certificate for any domain and use it to intercept traffic or impersonate a website.
+Domain validation exists to prevent certificates from being issued for domains the requester does not own. Without it, anyone could obtain a certificate for any domain and use it to intercept traffic or impersonate a website.
 
-## Validation levels
+## Validation levels {#validation-levels}
 
 SSL certificates are classified into three [validation levels](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level):
 
@@ -31,7 +31,7 @@ All three levels provide the same cryptographic security. The difference is in h
 
 The rest of this article focuses on domain validation (DV), the level used by all certificates DNSimple offers.
 
-## Domain validation methods
+## Domain validation methods {#methods}
 
 CAs use several methods to confirm domain control. The three most common are email-based, DNS-based, and HTTP-based validation.
 
@@ -71,7 +71,7 @@ This method requires the domain to be pointing to a web server the requester con
 > [!NOTE]
 > DNSimple does not support HTTP-based validation. Sectigo certificates use [email-based validation](#email), and Let's Encrypt certificates use [DNS-based validation](#dns).
 
-## Which methods does DNSimple support?
+## Which methods does DNSimple support? {#dnsimple-support}
 
 | Certificate type | Validation method | Manual action required? |
 |-----------------|-------------------|------------------------|

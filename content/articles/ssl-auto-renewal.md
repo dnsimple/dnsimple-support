@@ -15,7 +15,7 @@ categories:
 
 ---
 
-SSL certificates have a fixed validity period and cannot be extended once issued. When a certificate is about to expire, a new one must be ordered, validated, and installed to maintain uninterrupted HTTPS coverage. **Auto-renewal** automates the ordering and validation steps, so you don't have to remember to renew manually.
+SSL certificates have a fixed validity period and cannot be extended once issued. When a certificate is about to expire, a new one must be ordered, validated, and installed to maintain uninterrupted HTTPS coverage. **Auto-renewal** automates the ordering and validation steps, so you do not have to remember to renew manually.
 
 ## What auto-renewal does {#what-it-does}
 

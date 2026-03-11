@@ -17,7 +17,7 @@ categories:
 
 An SSL certificate is not a one-time purchase. It has a defined validity period and goes through several stages during its life. Understanding these stages — and how they connect — helps you keep your site secured without interruption and plan for upcoming [validity changes](/articles/announcement-ssl-certificate-validity-changes/).
 
-## Overview of the stages
+## Overview of the stages {#overview}
 
 Every SSL certificate follows the same general path:
 
@@ -115,7 +115,7 @@ Expiration dates depend on the certificate type and when it was issued:
 | Reissue | [Supported](/articles/reissuing-ssl-certificate/) | Not supported (order a new certificate instead) |
 | Custom CSR | Supported | Not supported |
 
-## Shorter validity, faster cycles
+## Shorter validity, faster cycles {#shorter-validity}
 
 As certificate lifetimes continue to shrink under [CA/Browser Forum rules](/articles/can-multi-year-ssl-certificates/#shorter-validity), the full lifecycle — order, validate, issue, install — will repeat more frequently. Automation becomes increasingly important: consider enabling [auto-renewal](/articles/ssl-auto-renewal/) for Let's Encrypt certificates, and using the [DNSimple API](https://developer.dnsimple.com/v2/certificates/) to automate installation.
 
