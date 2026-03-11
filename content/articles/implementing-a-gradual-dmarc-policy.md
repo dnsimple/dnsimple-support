@@ -15,9 +15,9 @@ categories:
 
 ---
 
-Implementing DMARC gradually is a best practice that helps you identify and fix authentication issues before they affect email delivery. This guide walks you through the gradual implementation process, from monitoring to full enforcement.
+Implementing DMARC gradually is a best practice that helps you identify and fix authentication issues before they affect email delivery. This guide covers the gradual implementation process, from monitoring to full enforcement.
 
-## Why implement DMARC gradually?
+## Why implement DMARC gradually? {#why}
 
 Implementing DMARC gradually helps you:
 
@@ -27,11 +27,10 @@ Implementing DMARC gradually helps you:
 - **Minimize disruption:** Avoid blocking legitimate emails during implementation
 - **Learn your email ecosystem:** Understand all services sending email from your domain
 
-<warning>
-**Don't start with reject:** Starting with `p=reject` immediately can block legitimate emails if authentication isn't properly configured. Always start with monitoring.
-</warning>
+> [!WARNING]
+> Do not start with `p=reject`. Starting with a reject policy immediately can block legitimate emails if authentication is not properly configured. Always start with monitoring.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Before implementing DMARC:
 
@@ -40,37 +39,33 @@ Before implementing DMARC:
 3. **Email services identified:** Know all services that send email from your domain
 4. **Monitoring capability:** Have ability to receive and review DMARC reports
 
-## Step 1: Start with monitoring (p=none)
+## Step 1: Start with monitoring (p=none) {#monitoring}
 
 The first step is to monitor your email authentication without affecting delivery.
 
-### Create initial DMARC record
+### Create initial DMARC record {#create-record}
 
-1. **Navigate to your domain:**
-   - Use the account switcher to select the appropriate account
-   - Click on your domain name from the Domain Names list
-   - Click the **DNS** tab and open the **Record Editor**
+<div class="section-steps" markdown="1">
+##### Add a monitoring-only DMARC record
 
-2. **Add DMARC record:**
-   - Click **Add record** and select **TXT**
-   - Enter `_dmarc` in the **Name** field
-   - Enter the following in the **Content** field:
-     ```
-     v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
-     ```
-   - Replace `dmarc@yourdomain.com` with your email address for receiving reports
-   - Click **Add record**
+1. Use the account switcher to select the appropriate account.
+1. Click on your domain name from the <label>Domain Names</label> list.
+1. Click the <label>DNS</label> tab and open the <label>Record Editor</label>.
+1. Click <label>Add record</label> and select **TXT**.
+1. Enter `_dmarc` in the <label>Name</label> field.
+1. Enter the following in the <label>Content</label> field:
+   ```
+   v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
+   ```
+   Replace `dmarc@yourdomain.com` with your email address for receiving reports.
+1. Click <label>Add record</label>.
+</div>
 
 ### Set up report collection
 
-1. **Create report email address:**
-   - Use an email address dedicated to DMARC reports (e.g., `dmarc@yourdomain.com`)
-   - Or use an existing email address you monitor regularly
+1. **Create report email address:** Use an email address dedicated to DMARC reports (e.g., `dmarc@yourdomain.com`), or use an existing email address you monitor regularly.
 
-2. **Consider report aggregation service:**
-   - Services like dmarcian, Postmark, or Valimail can parse and aggregate DMARC reports
-   - Makes it easier to understand report data
-   - Optional but recommended for easier analysis
+2. **Consider report aggregation service:** Services like dmarcian, Postmark, or Valimail can parse and aggregate DMARC reports, making it easier to understand report data. Optional but recommended for easier analysis.
 
 ### Monitor for 2-4 weeks
 
@@ -91,26 +86,28 @@ During the monitoring phase:
    - Configure DKIM for all legitimate email sources
    - Remove or fix unauthorized email sources
 
-<info>
-**Monitoring period:** Most organizations monitor for 2-4 weeks, but you may need longer if you discover many issues to fix.
-</info>
+> [!NOTE]
+> Most organizations monitor for 2-4 weeks, but you may need longer if you discover many issues to fix.
 
-## Step 2: Move to quarantine (p=quarantine)
+## Step 2: Move to quarantine (p=quarantine) {#quarantine}
 
-Once you've fixed authentication issues and verified everything is working, move to quarantine.
+Once you have fixed authentication issues and verified everything is working, move to quarantine.
 
-### Update DMARC record
+### Update DMARC record {#update-quarantine}
 
-1. **Update the DMARC record:**
-   - Go to your domain's **DNS** tab
-   - Open the **Record Editor**
-   - Find the DMARC TXT record at `_dmarc`
-   - Update the **Content** field to:
-     ```
-     v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc@yourdomain.com
-     ```
-   - `pct=25` means only 25% of failing emails will be quarantined initially
-   - Click **Save**
+<div class="section-steps" markdown="1">
+##### Update the DMARC record to quarantine
+
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Find the DMARC TXT record at `_dmarc`.
+1. Update the <label>Content</label> field to:
+   ```
+   v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc@yourdomain.com
+   ```
+   `pct=25` means only 25% of failing emails will be quarantined initially.
+1. Click <label>Save</label>.
+</div>
 
 ### Start with percentage enforcement
 
@@ -140,7 +137,7 @@ During quarantine phase:
 
 ### Full quarantine policy
 
-Once you're confident, move to full quarantine:
+Once you are confident, move to full quarantine:
 
 ```
 v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
@@ -148,22 +145,25 @@ v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
 
 (Removing `pct=100` means 100% enforcement)
 
-## Step 3: Move to reject (p=reject)
+## Step 3: Move to reject (p=reject) {#reject}
 
 Only move to reject after thorough testing with quarantine.
 
-### Update DMARC record
+### Update DMARC record {#update-reject}
 
-1. **Update the DMARC record:**
-   - Go to your domain's **DNS** tab
-   - Open the **Record Editor**
-   - Find the DMARC TXT record at `_dmarc`
-   - Update the **Content** field to:
-     ```
-     v=DMARC1; p=reject; pct=25; rua=mailto:dmarc@yourdomain.com
-     ```
-   - Start with `pct=25` again for safety
-   - Click **Save**
+<div class="section-steps" markdown="1">
+##### Update the DMARC record to reject
+
+1. Navigate to your domain's <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Find the DMARC TXT record at `_dmarc`.
+1. Update the <label>Content</label> field to:
+   ```
+   v=DMARC1; p=reject; pct=25; rua=mailto:dmarc@yourdomain.com
+   ```
+   Start with `pct=25` again for safety.
+1. Click <label>Save</label>.
+</div>
 
 ### Start with percentage enforcement
 
@@ -193,7 +193,7 @@ During reject phase:
 
 ### Full reject policy
 
-Once you're completely confident, move to full reject:
+Once you are completely confident, move to full reject:
 
 ```
 v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
@@ -201,9 +201,9 @@ v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
 
 (Removing `pct=100` means 100% enforcement)
 
-## Timeline example
+## Timeline example {#timeline}
 
-Here's a typical timeline for gradual DMARC implementation:
+Here is a typical timeline for gradual DMARC implementation:
 
 **Week 1-4: Monitoring (`p=none`)**
 - Monitor and fix authentication issues
@@ -230,11 +230,10 @@ Here's a typical timeline for gradual DMARC implementation:
 - Continue monitoring
 - Maintain configuration
 
-<info>
-**Timeline varies:** Your timeline may be shorter or longer depending on your email ecosystem complexity and how quickly you identify and fix issues.
-</info>
+> [!NOTE]
+> Your timeline may be shorter or longer depending on your email ecosystem complexity and how quickly you identify and fix issues.
 
-## Common issues and solutions
+## Common issues and solutions {#issues}
 
 ### Legitimate emails being quarantined/rejected
 
@@ -252,8 +251,8 @@ Here's a typical timeline for gradual DMARC implementation:
 
 **Solutions:**
 1. **Investigate source:** Check if the source is legitimate
-2. **Configure if legitimate:** Add to SPF/DKIM if it's a legitimate service
-3. **Block if unauthorized:** If unauthorized, it may be spoofing (DMARC is working!)
+2. **Configure if legitimate:** Add to SPF/DKIM if it is a legitimate service
+3. **Block if unauthorized:** If unauthorized, it may be spoofing (DMARC is working)
 
 ### Too many failures
 
@@ -263,18 +262,18 @@ Here's a typical timeline for gradual DMARC implementation:
 1. **Identify sources:** Review reports to identify all email sources
 2. **Fix configuration:** Ensure all legitimate sources are authenticated
 3. **Extend monitoring:** Stay in monitoring mode longer if needed
-4. **Fix issues before moving forward:** Don't move to stricter policies until failures are resolved
+4. **Fix issues before moving forward:** Do not move to stricter policies until failures are resolved
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Always start with `p=none` (monitoring)
-- ✅ Use percentage enforcement (`pct`) when moving to stricter policies
-- ✅ Monitor reports regularly throughout the process
-- ✅ Fix all authentication issues before moving forward
-- ✅ Test thoroughly at each stage
-- ✅ Be patient - gradual implementation takes time
-- ✅ Document your email ecosystem
-- ✅ Keep monitoring even after full enforcement
+- Always start with `p=none` (monitoring)
+- Use percentage enforcement (`pct`) when moving to stricter policies
+- Monitor reports regularly throughout the process
+- Fix all authentication issues before moving forward
+- Test thoroughly at each stage
+- Be patient -- gradual implementation takes time
+- Document your email ecosystem
+- Keep monitoring even after full enforcement
 
 ## Related topics
 

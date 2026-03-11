@@ -17,7 +17,7 @@ categories:
 
 Following email authentication best practices is essential for good email deliverability, security, and protection against spoofing. This guide covers best practices for SPF, DKIM, and DMARC.
 
-## Overview
+## Overview {#overview}
 
 Email authentication best practices include:
 
@@ -27,7 +27,7 @@ Email authentication best practices include:
 - **Ongoing maintenance:** Keep authentication records updated
 - **Documentation:** Document your email ecosystem
 
-## SPF best practices
+## SPF best practices {#spf}
 
 ### Include all authorized senders
 
@@ -82,7 +82,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 
 ### Test SPF regularly
 
-**Best practice:** Test SPF records regularly to ensure they're working correctly.
+**Best practice:** Test SPF records regularly to ensure they are working correctly.
 
 **Why:** Changes to email services or DNS can break SPF.
 
@@ -92,7 +92,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Send test emails and check headers
 - Monitor SPF failures in DMARC reports
 
-## DKIM best practices
+## DKIM best practices {#dkim}
 
 ### Configure DKIM for all email services
 
@@ -115,7 +115,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 **How:**
 - Check your email provider's recommendations
 - Use 2048-bit keys when available
-- 1024-bit keys are acceptable if 2048-bit aren't available
+- 1024-bit keys are acceptable if 2048-bit keys are not available
 
 ### Manage multiple DKIM selectors
 
@@ -129,9 +129,8 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Remove selectors when services are discontinued
 - Test each selector regularly
 
-<info>
-For detailed information, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
-</info>
+> [!NOTE]
+> For detailed information, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ### Verify DKIM signatures
 
@@ -157,7 +156,7 @@ For detailed information, see [Managing Multiple DKIM Selectors](/articles/manag
 - Use key rotation features if available
 - Test after rotation
 
-## DMARC best practices
+## DMARC best practices {#dmarc}
 
 ### Implement gradually
 
@@ -173,9 +172,8 @@ For detailed information, see [Managing Multiple DKIM Selectors](/articles/manag
 5. Finally move to `p=reject` with percentage enforcement
 6. Gradually increase to full reject
 
-<info>
-For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
-</info>
+> [!NOTE]
+> For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ### Set up reporting
 
@@ -225,7 +223,7 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 - Keep DKIM selectors documented
 - Update documentation when services change
 
-## General best practices
+## General best practices {#general}
 
 ### Test before major changes
 
@@ -287,17 +285,17 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 - Note DMARC policy and settings
 - Keep records of changes
 
-## Common mistakes to avoid
+## Common mistakes to avoid {#mistakes}
 
-### ❌ Don't start with reject policy
+### Do not start with reject policy
 
 **Mistake:** Starting DMARC with `p=reject` immediately.
 
-**Why:** Can block legitimate emails if authentication isn't properly configured.
+**Why:** Can block legitimate emails if authentication is not properly configured.
 
 **Solution:** Always start with `p=none` (monitoring).
 
-### ❌ Don't ignore DMARC reports
+### Do not ignore DMARC reports
 
 **Mistake:** Setting up DMARC but not reviewing reports.
 
@@ -305,7 +303,7 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 
 **Solution:** Review reports regularly and act on findings.
 
-### ❌ Don't have multiple SPF records
+### Do not have multiple SPF records
 
 **Mistake:** Creating multiple SPF records instead of combining them.
 
@@ -313,7 +311,7 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 
 **Solution:** Have only one SPF record and combine all includes.
 
-### ❌ Don't forget to update records
+### Do not forget to update records
 
 **Mistake:** Not updating authentication records when services change.
 
@@ -321,7 +319,7 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 
 **Solution:** Keep records updated and review regularly.
 
-### ❌ Don't skip testing
+### Do not skip testing
 
 **Mistake:** Making changes without testing.
 
@@ -329,35 +327,35 @@ For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implemen
 
 **Solution:** Always test changes before full implementation.
 
-## Best practices summary
+## Best practices summary {#summary}
 
 **SPF:**
-- ✅ Include all authorized senders
-- ✅ Use `~all` initially, then `-all`
-- ✅ Keep under 10 lookups
-- ✅ One SPF record per domain
-- ✅ Test regularly
+- Include all authorized senders
+- Use `~all` initially, then `-all`
+- Keep under 10 lookups
+- One SPF record per domain
+- Test regularly
 
 **DKIM:**
-- ✅ Configure for all services
-- ✅ Use appropriate key length
-- ✅ Manage multiple selectors
-- ✅ Verify signatures
-- ✅ Rotate keys periodically
+- Configure for all services
+- Use appropriate key length
+- Manage multiple selectors
+- Verify signatures
+- Rotate keys periodically
 
 **DMARC:**
-- ✅ Implement gradually
-- ✅ Set up reporting
-- ✅ Use relaxed alignment initially
-- ✅ Monitor reports regularly
-- ✅ Document email ecosystem
+- Implement gradually
+- Set up reporting
+- Use relaxed alignment initially
+- Monitor reports regularly
+- Document email ecosystem
 
 **General:**
-- ✅ Test before changes
-- ✅ Monitor continuously
-- ✅ Keep records updated
-- ✅ Use subdomains strategically
-- ✅ Document configuration
+- Test before changes
+- Monitor continuously
+- Keep records updated
+- Use subdomains strategically
+- Document configuration
 
 ## Related topics
 
