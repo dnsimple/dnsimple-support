@@ -1,6 +1,6 @@
 ---
 title: Understanding Email Deliverability
-excerpt: Learn what email deliverability is, why it matters, and the factors that affect whether your emails reach recipients' inboxes.
+excerpt: What email deliverability is, why it matters, and the factors that affect whether your emails reach recipients' inboxes.
 meta: Understand email deliverability and the factors that determine whether your emails successfully reach recipients' inboxes or end up in spam folders.
 categories:
 - Emails
@@ -17,7 +17,7 @@ categories:
 
 Email deliverability refers to the ability of emails to successfully reach recipients' inboxes rather than being filtered as spam, rejected, or lost in transit. Understanding email deliverability is crucial for anyone who sends email, whether through email hosting services, transactional email services, or marketing campaigns.
 
-## What is email deliverability?
+## What is email deliverability? {#what-is}
 
 Email deliverability is the measure of how successfully emails are delivered to recipients' inboxes. It encompasses several factors:
 
@@ -26,11 +26,10 @@ Email deliverability is the measure of how successfully emails are delivered to 
 - **Reputation:** Your domain's and IP address's reputation with email providers
 - **Authentication:** How well your emails pass authentication checks (SPF, DKIM, DMARC)
 
-<info>
-**Deliverability vs. delivery:** Email delivery refers to whether an email reaches the recipient's mail server. Email deliverability refers to whether it reaches the inbox (not spam) and is a broader concept that includes reputation, authentication, and content factors.
-</info>
+> [!NOTE]
+> **Deliverability vs. delivery:** Email delivery refers to whether an email reaches the recipient's mail server. Email deliverability refers to whether it reaches the inbox (not spam) and is a broader concept that includes reputation, authentication, and content factors.
 
-## Why email deliverability matters
+## Why email deliverability matters {#why}
 
 Poor email deliverability can have significant consequences:
 
@@ -40,9 +39,9 @@ Poor email deliverability can have significant consequences:
 - **Wasted resources:** Time and money spent on emails that never reach recipients
 - **Business impact:** Lost sales, missed opportunities, and damaged relationships
 
-## Factors affecting email deliverability
+## Factors affecting email deliverability {#factors}
 
-### Domain and IP reputation
+### Domain and IP reputation {#reputation}
 
 Your domain's and IP address's reputation with email providers significantly impacts deliverability:
 
@@ -51,7 +50,7 @@ Your domain's and IP address's reputation with email providers significantly imp
 - **Historical performance:** Past sending behavior affects current deliverability
 - **Blacklists:** Being on email blacklists can severely impact deliverability
 
-### Email authentication
+### Email authentication {#authentication}
 
 Proper email authentication is essential for good deliverability:
 
@@ -59,11 +58,10 @@ Proper email authentication is essential for good deliverability:
 - **DKIM (DomainKeys Identified Mail):** Provides cryptographic authentication
 - **DMARC (Domain-based Message Authentication, Reporting & Conformance):** Provides policy and reporting for SPF and DKIM
 
-<info>
-For more information about email authentication, see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/).
-</info>
+> [!NOTE]
+> For more information about email authentication, see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/).
 
-### Content and formatting
+### Content and formatting {#content}
 
 Email content and formatting can affect deliverability:
 
@@ -73,7 +71,7 @@ Email content and formatting can affect deliverability:
 - **Image-to-text ratio:** Emails with only images and no text may be flagged as spam
 - **Attachments:** Large or suspicious attachments can reduce deliverability
 
-### Recipient engagement
+### Recipient engagement {#engagement}
 
 How recipients interact with your emails affects deliverability:
 
@@ -83,16 +81,16 @@ How recipients interact with your emails affects deliverability:
 - **Bounce rates:** High bounce rates (especially hard bounces) reduce deliverability
 - **Unsubscribe rates:** Very high unsubscribe rates can signal poor list quality
 
-### List quality
+### List quality {#list-quality}
 
 The quality of your email list impacts deliverability:
 
 - **Valid addresses:** Lists with many invalid addresses hurt deliverability
-- **Opt-in status:** Sending to recipients who didn't opt in can damage reputation
+- **Opt-in status:** Sending to recipients who did not opt in can damage reputation
 - **List hygiene:** Regularly cleaning your list improves deliverability
 - **Segmentation:** Sending relevant content to segmented lists improves engagement
 
-### Sending practices
+### Sending practices {#sending}
 
 How you send emails affects deliverability:
 
@@ -101,51 +99,51 @@ How you send emails affects deliverability:
 - **Sending times:** Sending at appropriate times improves engagement
 - **Warm-up:** Gradually increasing sending volume helps build reputation
 
-## Email deliverability metrics
+## Email deliverability metrics {#metrics}
 
 Key metrics to monitor for email deliverability:
 
-### Delivery rate
+### Delivery rate {#delivery-rate}
 
 The percentage of emails that successfully reach the recipient's mail server (not bounced).
 
-**Good:** 95% or higher  
+**Good:** 95% or higher
 **Needs improvement:** Below 95%
 
-### Inbox placement rate
+### Inbox placement rate {#inbox-placement}
 
 The percentage of delivered emails that reach the inbox (not spam folder).
 
-**Good:** 85% or higher  
+**Good:** 85% or higher
 **Needs improvement:** Below 85%
 
-### Bounce rate
+### Bounce rate {#bounce-rate}
 
-The percentage of emails that bounce (couldn't be delivered).
+The percentage of emails that bounce (could not be delivered).
 
-**Good:** Less than 2%  
+**Good:** Less than 2%
 **Needs improvement:** 2% or higher
 
-### Spam complaint rate
+### Spam complaint rate {#spam-complaints}
 
 The percentage of recipients who mark emails as spam.
 
-**Good:** Less than 0.1%  
+**Good:** Less than 0.1%
 **Needs improvement:** 0.1% or higher
 
-### Open rate
+### Open rate {#open-rate}
 
 The percentage of recipients who open emails.
 
 **Varies by industry:** Typically 15-25% for marketing emails
 
-### Click rate
+### Click rate {#click-rate}
 
 The percentage of recipients who click links in emails.
 
 **Varies by industry:** Typically 2-5% for marketing emails
 
-## Common deliverability issues
+## Common deliverability issues {#issues}
 
 ### Emails going to spam
 
@@ -191,7 +189,7 @@ The percentage of recipients who click links in emails.
 - Adjust sending frequency
 - Better segment your email list
 
-## Improving email deliverability
+## Improving email deliverability {#improving}
 
 To improve email deliverability:
 
@@ -202,13 +200,12 @@ To improve email deliverability:
 5. **Monitor metrics:** Track deliverability metrics and address issues promptly
 6. **Test regularly:** Send test emails and check deliverability
 
-<info>
-For detailed steps on improving email deliverability, see [Improving Email Deliverability](/articles/improving-email-deliverability/).
-</info>
+> [!NOTE]
+> For detailed steps on improving email deliverability, see [Improving Email Deliverability](/articles/improving-email-deliverability/).
 
-## Email deliverability and DNSimple
+## Email deliverability and DNSimple {#dnsimple}
 
-While DNSimple doesn't send emails, we help with email deliverability by:
+While DNSimple does not send emails, we help with email deliverability by:
 
 - **DNS management:** Proper DNS configuration is essential for email authentication
 - **SPF records:** We help you configure SPF records correctly
@@ -216,12 +213,11 @@ While DNSimple doesn't send emails, we help with email deliverability by:
 - **DMARC records:** We help you set up DMARC records
 - **MX records:** Proper MX record configuration ensures email delivery
 
-<info>
-For information about configuring email authentication records in DNSimple, see:
-- [Setting Up SPF Records](/articles/setting-up-spf/)
-- [Setting Up DKIM](/articles/set-up-dkim/)
-- [Setting Up DMARC](/articles/set-up-dmarc/)
-</info>
+> [!NOTE]
+> For information about configuring email authentication records in DNSimple, see:
+> - [Setting Up SPF Records](/articles/setting-up-spf/)
+> - [Setting Up DKIM](/articles/set-up-dkim/)
+> - [Setting Up DMARC](/articles/set-up-dmarc/)
 
 ## Related topics
 

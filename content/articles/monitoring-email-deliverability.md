@@ -1,6 +1,6 @@
 ---
 title: Monitoring Email Deliverability
-excerpt: Learn how to monitor email deliverability using tools and techniques to track inbox placement and identify issues.
+excerpt: How to monitor email deliverability using tools and techniques to track inbox placement and identify issues.
 meta: Guide to monitoring email deliverability with tools, metrics, and techniques to ensure your emails reach recipients' inboxes.
 categories:
 - Emails
@@ -17,7 +17,7 @@ categories:
 
 Regular monitoring of email deliverability is essential for maintaining good sender reputation and ensuring your emails reach recipients' inboxes. This guide covers tools, metrics, and techniques for monitoring email deliverability.
 
-## Why monitor email deliverability?
+## Why monitor email deliverability? {#why}
 
 Monitoring email deliverability helps you:
 
@@ -27,15 +27,15 @@ Monitoring email deliverability helps you:
 - **Prevent problems:** Avoid blacklisting and reputation damage
 - **Measure success:** Track improvements and ROI
 
-## Key metrics to monitor
+## Key metrics to monitor {#metrics}
 
-### Delivery rate
+### Delivery rate {#delivery-rate}
 
 The percentage of emails that successfully reach the recipient's mail server.
 
 **How to measure:**
 - Track bounces (hard and soft)
-- Calculate: (Total sent - Bounces) / Total sent × 100
+- Calculate: (Total sent - Bounces) / Total sent x 100
 
 **Target:** 95% or higher
 
@@ -44,14 +44,14 @@ The percentage of emails that successfully reach the recipient's mail server.
 - High hard bounce rates (invalid addresses)
 - High soft bounce rates (temporary issues)
 
-### Inbox placement rate
+### Inbox placement rate {#inbox-placement}
 
 The percentage of delivered emails that reach the inbox (not spam folder).
 
 **How to measure:**
 - Use seed lists or monitoring services
 - Track spam folder placement
-- Calculate: Inbox placements / Total delivered × 100
+- Calculate: Inbox placements / Total delivered x 100
 
 **Target:** 85% or higher
 
@@ -60,12 +60,12 @@ The percentage of delivered emails that reach the inbox (not spam folder).
 - Declining inbox placement over time
 - Differences across email providers
 
-### Bounce rate
+### Bounce rate {#bounce-rate}
 
-The percentage of emails that bounce (couldn't be delivered).
+The percentage of emails that bounce (could not be delivered).
 
 **Types of bounces:**
-- **Hard bounces:** Permanent failures (invalid addresses, domain doesn't exist)
+- **Hard bounces:** Permanent failures (invalid addresses, domain does not exist)
 - **Soft bounces:** Temporary failures (mailbox full, server issues)
 
 **Target:** Less than 2% total, with hard bounces below 0.5%
@@ -75,14 +75,14 @@ The percentage of emails that bounce (couldn't be delivered).
 - High soft bounce rates (server or recipient issues)
 - Sudden increases in bounce rates
 
-### Spam complaint rate
+### Spam complaint rate {#spam-complaints}
 
 The percentage of recipients who mark emails as spam.
 
 **How to measure:**
 - Track spam complaints from ISPs
 - Monitor feedback loops
-- Calculate: Spam complaints / Total delivered × 100
+- Calculate: Spam complaints / Total delivered x 100
 
 **Target:** Less than 0.1% (0.1 complaints per 1000 emails)
 
@@ -91,7 +91,7 @@ The percentage of recipients who mark emails as spam.
 - Complaints from specific segments
 - Correlation with specific campaigns
 
-### Engagement metrics
+### Engagement metrics {#engagement}
 
 **Open rate:** Percentage of recipients who open emails
 
@@ -104,9 +104,9 @@ The percentage of recipients who mark emails as spam.
 - Low engagement indicating deliverability issues
 - Engagement differences across segments
 
-## Monitoring tools
+## Monitoring tools {#tools}
 
-### Email service provider analytics
+### Email service provider analytics {#esp-analytics}
 
 Most email service providers offer built-in analytics:
 
@@ -123,7 +123,7 @@ Most email service providers offer built-in analytics:
 - Export data for deeper analysis
 - Compare metrics over time
 
-### Sender reputation tools
+### Sender reputation tools {#reputation-tools}
 
 **[Sender Score](https://www.senderscore.org/):**
 - Free reputation score (0-100)
@@ -155,7 +155,7 @@ Most email service providers offer built-in analytics:
 - Monitor Outlook-specific metrics
 - Address issues identified
 
-### Blacklist monitoring
+### Blacklist monitoring {#blacklist}
 
 **[MXToolbox](https://mxtoolbox.com/blacklists.aspx):**
 - Check multiple blacklists
@@ -172,7 +172,7 @@ Most email service providers offer built-in analytics:
 - [BarracudaCentral](https://www.barracudacentral.org/) - Email reputation and blacklist monitoring
 - [SURBL](https://www.surbl.org/) - URI reputation service
 
-### Email testing tools
+### Email testing tools {#testing-tools}
 
 **[Mail-Tester](https://www.mail-tester.com/):**
 - Tests email for spam triggers
@@ -194,7 +194,7 @@ Most email service providers offer built-in analytics:
 - Ensure proper rendering
 - Check spam filter results
 
-### DMARC reporting tools
+### DMARC reporting tools {#dmarc-tools}
 
 **DMARC reports:**
 - Aggregate reports (RUA) show overall authentication
@@ -207,9 +207,9 @@ Most email service providers offer built-in analytics:
 - Identify and fix authentication failures
 - Use tools like [dmarcian](https://dmarcian.com/) or [Postmark](https://postmarkapp.com/dmarc) to parse reports
 
-## Monitoring techniques
+## Monitoring techniques {#techniques}
 
-### Regular reviews
+### Regular reviews {#reviews}
 
 **Daily:**
 - Check bounce rates
@@ -227,7 +227,7 @@ Most email service providers offer built-in analytics:
 - Identify trends and patterns
 - Plan improvements
 
-### Setting up alerts
+### Setting up alerts {#alerts}
 
 **Key alerts to set up:**
 - Bounce rate above threshold
@@ -241,7 +241,7 @@ Most email service providers offer built-in analytics:
 - Set up monitoring with third-party tools
 - Configure email notifications for critical issues
 
-### Seed list monitoring
+### Seed list monitoring {#seed-list}
 
 **What is a seed list:**
 - A list of test email addresses at various providers
@@ -261,7 +261,7 @@ Most email service providers offer built-in analytics:
 - Apple Mail/iCloud
 - Other providers relevant to your audience
 
-### A/B testing
+### A/B testing {#ab-testing}
 
 **What to test:**
 - Subject lines
@@ -276,7 +276,7 @@ Most email service providers offer built-in analytics:
 - Measure deliverability and engagement
 - Apply winning variations to full campaigns
 
-## Creating a monitoring dashboard
+## Creating a monitoring dashboard {#dashboard}
 
 ### Key metrics to include
 
@@ -308,7 +308,7 @@ Most email service providers offer built-in analytics:
 - **Custom dashboards:** Use tools like [Google Data Studio](https://datastudio.google.com/) or [Tableau](https://www.tableau.com/) to create custom dashboards
 - **Spreadsheets:** Create custom tracking spreadsheets
 
-## Interpreting monitoring data
+## Interpreting monitoring data {#interpreting}
 
 ### Red flags
 
@@ -333,7 +333,7 @@ Most email service providers offer built-in analytics:
 - Spam complaint rate below 0.1%
 - Consistent or improving metrics
 
-## Taking action on monitoring data
+## Taking action on monitoring data {#action}
 
 ### When issues are detected
 
@@ -372,16 +372,16 @@ Most email service providers offer built-in analytics:
    - Stay updated on best practices
    - Adapt to changes in email landscape
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ Monitor key metrics regularly
-- ✅ Set up alerts for critical issues
-- ✅ Use multiple monitoring tools
-- ✅ Track trends over time
-- ✅ Take action on issues promptly
-- ✅ Test before major campaigns
-- ✅ Document findings and actions
-- ✅ Continuously improve based on data
+- Monitor key metrics regularly
+- Set up alerts for critical issues
+- Use multiple monitoring tools
+- Track trends over time
+- Take action on issues promptly
+- Test before major campaigns
+- Document findings and actions
+- Continuously improve based on data
 
 ## Related topics
 
