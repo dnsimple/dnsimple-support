@@ -18,7 +18,7 @@ categories:
 
 Managing email DNS records is essential for email delivery and authentication. This guide covers all email-related DNS records and how to manage them in DNSimple.
 
-## Email DNS records overview
+## Email DNS records overview {#overview}
 
 Email functionality requires several types of DNS records:
 
@@ -29,7 +29,7 @@ Email functionality requires several types of DNS records:
 - **CNAME records:** Autodiscover and other services
 - **TXT records:** Various email-related configurations
 
-## MX records
+## MX records {#mx}
 
 ### Purpose
 
@@ -48,13 +48,12 @@ MX (Mail Exchange) records specify which mail servers receive email for your dom
 
 **For email forwarding:**
 - MX records are automatically added when you enable email forwarding
-- Don't manually add MX records for email forwarding
+- Do not manually add MX records for email forwarding
 
-<info>
-For detailed MX record setup, see [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/).
-</info>
+> [!NOTE]
+> For detailed MX record setup, see [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/).
 
-## SPF records
+## SPF records {#spf}
 
 ### Purpose
 
@@ -72,11 +71,10 @@ SPF (Sender Policy Framework) records authorize which servers can send email fro
    v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
    ```
 
-<info>
-For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
-</info>
+> [!NOTE]
+> For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
 
-## DKIM records
+## DKIM records {#dkim}
 
 ### Purpose
 
@@ -96,11 +94,10 @@ DKIM (DomainKeys Identified Mail) records provide public keys for cryptographica
    - Different services may use different selectors
    - Add separate records for each selector
 
-<info>
-For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
-</info>
+> [!NOTE]
+> For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
-## DMARC records
+## DMARC records {#dmarc}
 
 ### Purpose
 
@@ -118,11 +115,10 @@ DMARC (Domain-based Message Authentication, Reporting & Conformance) enforces em
    v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
    ```
 
-<info>
-For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
-</info>
+> [!NOTE]
+> For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
-## CNAME records
+## CNAME records {#cname}
 
 ### Purpose
 
@@ -131,14 +127,14 @@ CNAME records are used for email-related services like Autodiscover.
 ### Common CNAME records
 
 **Autodiscover:**
-- `autodiscover` → `autodiscover.outlook.com` (Microsoft 365)
+- `autodiscover` -> `autodiscover.outlook.com` (Microsoft 365)
 - Helps email clients automatically configure
 
 **Webmail:**
-- `webmail` → Provider's webmail server
+- `webmail` -> Provider's webmail server
 - Used by some email providers
 
-## TXT records
+## TXT records {#txt}
 
 ### Purpose
 
@@ -150,39 +146,33 @@ TXT records are used for various email-related configurations beyond SPF, DKIM, 
 - **Email authentication:** SPF, DKIM, DMARC
 - **Other configurations:** Provider-specific settings
 
-## Managing records in DNSimple
+## Managing records in DNSimple {#managing}
 
-### Using the Record Editor
+### Using the Record Editor {#record-editor}
 
-1. **Navigate to domain:**
-   - Click on your domain name
-   - Click the **DNS** tab
-   - Open the **Record Editor**
+<div class="section-steps" markdown="1">
+##### Add an email DNS record
 
-2. **Add records:**
-   - Click **Add record**
-   - Select the record type
-   - Enter record details
-   - Click **Add record**
+1. Click on your domain name.
+1. Click the <label>DNS</label> tab.
+1. Open the <label>Record Editor</label>.
+1. Click <label>Add record</label>.
+1. Select the record type.
+1. Enter record details.
+1. Click <label>Add record</label>.
+</div>
 
-3. **Edit records:**
-   - Click the edit icon
-   - Modify record details
-   - Click **Save**
+To edit a record, click the edit icon, modify the details, and click <label>Save</label>. To delete a record, click the delete icon and confirm the deletion.
 
-4. **Delete records:**
-   - Click the delete icon
-   - Confirm deletion
+### Best practices {#best-practices}
 
-### Best practices
+- **One SPF record:** Only one SPF record per domain
+- **Document selectors:** Keep track of DKIM selectors
+- **Monitor DMARC:** Review DMARC reports regularly
+- **Test changes:** Test after making DNS changes
+- **Verify records:** Use `dig` to verify records are published
 
-- ✅ **One SPF record:** Only one SPF record per domain
-- ✅ **Document selectors:** Keep track of DKIM selectors
-- ✅ **Monitor DMARC:** Review DMARC reports regularly
-- ✅ **Test changes:** Test after making DNS changes
-- ✅ **Verify records:** Use `dig` to verify records are published
-
-## Verifying records
+## Verifying records {#verifying}
 
 ### Using dig
 
@@ -212,7 +202,7 @@ dig +short _dmarc.yourdomain.com TXT
 - [MXToolbox](https://mxtoolbox.com/) - Check various DNS records
 - Mail-Tester - Test email authentication
 
-## Common issues
+## Common issues {#issues}
 
 ### Multiple SPF records
 

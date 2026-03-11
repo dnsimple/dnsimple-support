@@ -18,7 +18,7 @@ categories:
 
 Quick reference guide for email-related DNS records, including record types, formats, and common configurations.
 
-## MX records
+## MX records {#mx}
 
 **Purpose:** Direct email delivery to mail servers
 
@@ -40,11 +40,10 @@ Mail server: mail.example.com
 - Email hosting (Google Workspace, Microsoft 365)
 - Email forwarding (auto-configured by DNSimple)
 
-<info>
-See [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) for details.
-</info>
+> [!NOTE]
+> See [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) for details.
 
-## SPF records
+## SPF records {#spf}
 
 **Purpose:** Authorize email senders
 
@@ -72,11 +71,10 @@ Content: v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
 - `~all` - Soft fail (recommended initially)
 - `-all` - Hard fail (strongest protection)
 
-<info>
-See [Setting Up SPF Records](/articles/setting-up-spf/) for details.
-</info>
+> [!NOTE]
+> See [Setting Up SPF Records](/articles/setting-up-spf/) for details.
 
-## DKIM records
+## DKIM records {#dkim}
 
 **Purpose:** Cryptographic email signing
 
@@ -97,11 +95,10 @@ Content: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3...
 - `selector1`, `selector2` - Microsoft 365
 - Various - Other email services
 
-<info>
-See [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
-</info>
+> [!NOTE]
+> See [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
 
-## DMARC records
+## DMARC records {#dmarc}
 
 **Purpose:** Email policy enforcement and reporting
 
@@ -127,11 +124,10 @@ Content: v=DMARC1; p=none; rua=mailto:dmarc@example.com
 - `adkim=r` - Relaxed DKIM alignment (default)
 - `pct=25` - Apply policy to 25% of emails
 
-<info>
-See [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
-</info>
+> [!NOTE]
+> See [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
 
-## CNAME records for email
+## CNAME records for email {#cname}
 
 **Purpose:** Autodiscover and other email services
 
@@ -151,7 +147,7 @@ Name: webmail
 Value: webmail.provider.com
 ```
 
-## Verification TXT records
+## Verification TXT records {#verification}
 
 **Purpose:** Domain verification for email services
 
@@ -167,7 +163,7 @@ Name: @
 Content: google-site-verification=abc123...
 ```
 
-## Quick verification commands
+## Quick verification commands {#commands}
 
 ### Check MX records
 ```bash
@@ -189,7 +185,7 @@ dig +short selector._domainkey.yourdomain.com TXT
 dig +short _dmarc.yourdomain.com TXT
 ```
 
-## Common configurations
+## Common configurations {#configurations}
 
 ### Google Workspace
 
@@ -221,21 +217,21 @@ v=spf1 include:spf.protection.outlook.com ~all
 - Records at: `selector1._domainkey.yourdomain.com`, `selector2._domainkey.yourdomain.com`
 
 **Autodiscover:**
-- CNAME: `autodiscover` → `autodiscover.outlook.com`
+- CNAME: `autodiscover` -> `autodiscover.outlook.com`
 
 ### Email forwarding (DNSimple)
 
 **MX records:**
 - Automatically configured when email forwarding is enabled
-- Don't manually add MX records
+- Do not manually add MX records
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ **One SPF record:** Only one SPF record per domain
-- ✅ **Multiple DKIM selectors:** Each service may need its own selector
-- ✅ **Gradual DMARC:** Start with monitoring, gradually increase
-- ✅ **Verify records:** Use `dig` to verify after changes
-- ✅ **Document configuration:** Keep track of all email records
+- **One SPF record:** Only one SPF record per domain
+- **Multiple DKIM selectors:** Each service may need its own selector
+- **Gradual DMARC:** Start with monitoring, gradually increase
+- **Verify records:** Use `dig` to verify after changes
+- **Document configuration:** Keep track of all email records
 
 ## Related topics
 
