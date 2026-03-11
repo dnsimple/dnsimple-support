@@ -16,9 +16,9 @@ categories:
 
 ---
 
-The DNSimple API allows you to manage email forwards programmatically. This reference provides information about the email forwarding API endpoints, authentication, and usage examples.
+The DNSimple API allows you to manage email forwards programmatically. This reference covers the email forwarding API endpoints, authentication, and usage examples.
 
-## Overview
+## Overview {#overview}
 
 The DNSimple API provides endpoints for:
 
@@ -28,17 +28,16 @@ The DNSimple API provides endpoints for:
 - **Updating email forwards:** Modify existing email forwarding rules
 - **Deleting email forwards:** Remove email forwarding rules
 
-<info>
-**Full API documentation:** For complete API documentation, including authentication, rate limits, and all endpoints, see the [DNSimple Developer Documentation](https://developer.dnsimple.com/v2/domains/email-forwards/).
-</info>
+> [!NOTE]
+> For complete API documentation, including authentication, rate limits, and all endpoints, see the [DNSimple Developer Documentation](https://developer.dnsimple.com/v2/domains/email-forwards/).
 
-## Authentication
+## Authentication {#authentication}
 
 All API requests require authentication using an API token:
 
 1. **Get an API token:**
    - Log into your DNSimple account
-   - Go to **Account** > **Access Tokens**
+   - Go to <label>Account</label> > <label>Access Tokens</label>
    - Create a new access token
    - Copy and securely store the token
 
@@ -46,11 +45,10 @@ All API requests require authentication using an API token:
    - Include the token in the `Authorization` header
    - Format: `Authorization: Bearer YOUR_TOKEN`
 
-<warning>
-**Keep tokens secure:** API tokens provide full access to your account. Never share tokens or commit them to version control.
-</warning>
+> [!WARNING]
+> API tokens provide full access to your account. Never share tokens or commit them to version control.
 
-## Base URL
+## Base URL {#base-url}
 
 The DNSimple API base URL is:
 
@@ -64,7 +62,7 @@ For the sandbox environment:
 https://api.sandbox.dnsimple.com/v2
 ```
 
-## Common endpoints
+## Common endpoints {#endpoints}
 
 ### List email forwards
 
@@ -178,7 +176,7 @@ curl -X DELETE \
   https://api.dnsimple.com/v2/123/domains/example.com/email_forwards/1
 ```
 
-## Request parameters
+## Request parameters {#request-parameters}
 
 ### Creating email forwards
 
@@ -194,9 +192,9 @@ curl -X DELETE \
 **Updatable parameters:**
 - `to`: The destination email address
 
-**Note:** The `from` field typically cannot be updated. Delete and recreate the forward if needed.
+The `from` field typically cannot be updated. Delete and recreate the forward if needed.
 
-## Response format
+## Response format {#response-format}
 
 API responses follow a consistent format:
 
@@ -221,7 +219,7 @@ For list endpoints:
 }
 ```
 
-## Error handling
+## Error handling {#error-handling}
 
 The API returns standard HTTP status codes:
 
@@ -229,7 +227,7 @@ The API returns standard HTTP status codes:
 - **201 Created:** Resource created successfully
 - **400 Bad Request:** Invalid request parameters
 - **401 Unauthorized:** Authentication required or invalid
-- **404 Not Found:** Resource doesn't exist
+- **404 Not Found:** Resource does not exist
 - **422 Unprocessable Entity:** Validation errors
 - **429 Too Many Requests:** Rate limit exceeded
 
@@ -243,7 +241,7 @@ The API returns standard HTTP status codes:
 }
 ```
 
-## Rate limits
+## Rate limits {#rate-limits}
 
 API requests are subject to rate limits:
 
@@ -251,11 +249,10 @@ API requests are subject to rate limits:
 - **Rate limit headers:** Responses include rate limit information
 - **Rate limit exceeded:** Returns 429 status code
 
-<info>
-For current rate limit information, see [API Rate Limits](/articles/api-rate-limit/).
-</info>
+> [!NOTE]
+> For current rate limit information, see [API Rate Limits](/articles/api-rate-limit/).
 
-## Examples
+## Examples {#examples}
 
 ### List all email forwards for a domain
 
@@ -292,7 +289,7 @@ curl -X DELETE \
   https://api.dnsimple.com/v2/123/domains/example.com/email_forwards/1
 ```
 
-## Using API libraries
+## Using API libraries {#libraries}
 
 DNSimple provides official libraries for various languages:
 
@@ -315,14 +312,14 @@ forwards = client.domains.list_email_forwards(123, "example.com")
 forward = client.domains.create_email_forward(123, "example.com", from: "hello", to: "user@example.com")
 ```
 
-## Best practices
+## Best practices {#best-practices}
 
-- ✅ **Use API tokens:** Create dedicated API tokens for different applications
-- ✅ **Handle errors:** Implement proper error handling for API responses
-- ✅ **Respect rate limits:** Implement rate limit handling in your code
-- ✅ **Use pagination:** Use pagination for large result sets
-- ✅ **Secure tokens:** Never commit API tokens to version control
-- ✅ **Test in sandbox:** Use the sandbox environment for testing
+- **Use API tokens:** Create dedicated API tokens for different applications
+- **Handle errors:** Implement proper error handling for API responses
+- **Respect rate limits:** Implement rate limit handling in your code
+- **Use pagination:** Use pagination for large result sets
+- **Secure tokens:** Never commit API tokens to version control
+- **Test in sandbox:** Use the sandbox environment for testing
 
 ## Related topics
 
