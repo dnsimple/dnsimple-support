@@ -1,18 +1,56 @@
 ---
-title: What is the CSR?
-excerpt: The Certificate Signing Request is a block of encrypted text that is sent to the Certificate Authority in order to apply for a certificate.
+title: What is a Certificate Signing Request (CSR)?
+excerpt: A Certificate Signing Request (CSR) is a formatted block of text containing certificate information and a public key, submitted to a certificate authority to request an SSL certificate.
+meta: Learn what a Certificate Signing Request is, what information it contains, and how it's used in the SSL certificate issuance process.
 categories:
 - SSL Certificates
 ---
 
 # What is the Certificate Signing Request (CSR)?
 
-The **Certificate Signing Request** (also **CSR** or **certification request**) is a block of encrypted text that is sent to the [Certificate Authority](/articles/what-is-certificate-authority/) in order to apply for a certificate.
+The **Certificate Signing Request** (also **CSR** or **certification request**) is a formatted block of text that is sent to a [Certificate Authority](/articles/what-is-certificate-authority/) to request an SSL certificate. The CSR contains the information that will be included in your certificate and the public key that will be embedded in it.
 
-The CSR contains information that will be included in your certificate, such as the [common name](/articles/what-is-common-name/) and the company/owner details. It also contains the public key that will be embedded in the certificate.
+## What information does a CSR contain?
 
-> [!NOTE]
-> We automatically generate the CSR for you using a unique public/private encryption key pair. This works for the majority of cases, including hosting platforms such as Heroku or Amazon.
-> The private key associated with the certificate will be available to download, once generated; from your certificate page.
-> If you want to use a custom private key or have advanced requirements, you can generate a custom CSR to use in the certificate purchase page.
+The CSR includes several pieces of information that will appear in your SSL certificate:
 
+- **Common Name (CN)**: The primary hostname the certificate will protect (e.g., `example.com` or `*.example.com` for wildcards)
+- **Subject Alternative Names (SAN)**: Additional hostnames to be protected by the certificate (if supported)
+- **Organization information**: Company name, location, and other identifying details (for organization-validated certificates)
+- **Public key**: The public portion of the key pair that will be used for encryption
+
+The CSR also contains metadata about the key pair, such as the key algorithm (RSA or ECC) and key size.
+
+## How CSRs work in the certificate process
+
+When you generate a CSR, you create a public/private key pair. The private key remains on your server and is never shared. The public key is included in the CSR and sent to the certificate authority.
+
+The CA uses the information in the CSR to create your SSL certificate. The certificate binds your domain information to the public key, creating a trusted association that browsers can verify.
+
+## Automatic vs custom CSRs
+
+Many certificate providers, including DNSimple, can automatically generate CSRs for you. This simplifies the process and works for most use cases. When DNSimple generates a CSR automatically, it creates a unique public/private key pair and includes the appropriate certificate information.
+
+For advanced requirements, you may need to generate a custom CSR. This allows you to:
+- Use your own private key (for key management policies or existing infrastructure)
+- Specify exact certificate details
+- Maintain control over the key generation process
+
+## Related reading
+
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs process CSRs and issue certificates
+- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Learn about the common name field in CSRs
+- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Understand how SAN is specified in CSRs
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare CSR support between certificate types
+
+## Taking action
+
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
+- [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
+
+- [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
+
+## Have more questions?
+
+If you have additional questions or need any assistance with CSRs and certificate requests, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
