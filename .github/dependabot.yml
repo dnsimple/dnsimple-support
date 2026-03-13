@@ -33,8 +33,6 @@ updates:
       - dependencies
     groups:
       javascript-dependencies:
-        patterns:
-          - '*'
         update-types:
           - patch
           - minor
