@@ -17,6 +17,11 @@ updates:
     labels:
       - task
       - dependencies
+    groups:
+      actions-minor-patch:
+        update-types:
+          - minor
+          - patch
 
   - package-ecosystem: npm
     directory: /
@@ -28,6 +33,8 @@ updates:
       - dependencies
     groups:
       javascript-dependencies:
+        patterns:
+          - '*'
         update-types:
           - patch
           - minor
