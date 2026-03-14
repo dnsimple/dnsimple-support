@@ -118,13 +118,10 @@ If you already have a certificate and you want to renew it, follow the instructi
 
 ## Auto-renewal {#auto-renewal}
 
-DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-renewal feature is turned on, we'll automatically renew the certificate before expiration.
-
-Once renewed, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
-
-> [!NOTE]
-> Let's Encrypt certificates are automatically renewed **30 days before the expiration date**, as suggested by Let's Encrypt, with automatic failover attempts every day in case of temporary failures.
+DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-renewal feature is turned on, we will automatically renew the certificate before expiration, 30 days before the expiration date, with automatic daily retries in case of temporary failures.
 
 This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.
 
 ![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
+
+For a detailed explanation of how auto-renewal works, what happens when it fails, and how it interacts with shorter certificate lifetimes, see [How Auto-Renewal Works for SSL Certificates](/articles/ssl-auto-renewal/).

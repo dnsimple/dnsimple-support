@@ -13,12 +13,19 @@ Explanation:
     - "What is the Subject Alternative Name (SAN)?"
     - "What is the CSR?"
     - "What is the SSL Certificate Common Name?"
+    - "Understanding SSL Private Keys"
+    - "Understanding SSL Certificate Files and Formats"
+    - "How HTTPS Works"
   Certificate Types:
     - "SSL Certificate Types"
     - "Standard vs Let's Encrypt SSL Certificates"
   Certificate Processes:
+    - "SSL Certificate Lifecycle"
     - "How does an SSL Certificate Renewal work?"
+    - "How Auto-Renewal Works for SSL Certificates"
     - "How long does it take to issue an SSL certificate?"
+    - "Domain Validation Methods for SSL Certificates"
+    - "CAA Records and SSL Certificates"
   Certificate Providers:
     - "Let's Encrypt and DNSimple"
 
