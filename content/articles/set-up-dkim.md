@@ -42,5 +42,13 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 ## Managing DKIM records {#managing-dkim-records}
 DKIM records are added as TXT or sometimes CNAME records. To update or remove them, follow the instructions in the [Record Editor guide](/articles/record-editor/).
 
+If you use multiple email services that each require their own DKIM record, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+
+For a detailed reference on DKIM record structure and technical details, see the [DKIM Record Reference](/articles/dkim-record-reference/).
+
+## Next steps {#next-steps}
+
+After adding your DKIM record, [verify it is correctly published](/articles/verify-dkim/) using `dig` or an online tool.
+
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
