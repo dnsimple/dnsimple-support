@@ -105,8 +105,6 @@ The following considerations may help you determine which certificate type best 
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/) - Learn more about Let's Encrypt certificates at DNSimple
 - [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Understand the certificate renewal process
 
-
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with choosing between Sectigo and Let's Encrypt, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
