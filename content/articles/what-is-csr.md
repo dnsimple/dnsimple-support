@@ -21,6 +21,9 @@ The CSR includes several pieces of information that will appear in your SSL cert
 
 The CSR also contains metadata about the key pair, such as the key algorithm (RSA or ECC) and key size.
 
+> [!NOTE]
+> DNSimple currently supports domain-validated (DV) certificates only and does not support organization-validated (OV) or extended validation (EV) certificates.
+
 ## How CSRs work in the certificate process
 
 When you generate a CSR, you create a public/private key pair. The private key remains on your server and is never shared. The public key is included in the CSR and sent to the certificate authority.
@@ -36,20 +39,18 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 - Specify exact certificate details
 - Maintain control over the key generation process
 
-## Related reading
-
-- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs process CSRs and issue certificates
-- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Learn about the common name field in CSRs
-- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Understand how SAN is specified in CSRs
-- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare CSR support between certificate types
-
 ## Taking action
 
 - [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
 - [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
 
-- [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
+## Related reading
+
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs process CSRs and issue certificates
+- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Learn about the common name field in CSRs
+- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Understand how SAN is specified in CSRs
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare CSR support between certificate types
 
 ## Have more questions?
 
