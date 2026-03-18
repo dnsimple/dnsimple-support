@@ -116,7 +116,6 @@ DNSimple doesn't support all Let's Encrypt features. Some limitations exist due 
 - The domain must be resolving with DNSimple for validation to work
 - Let's Encrypt is not available in DNSimple's sandbox environment for testing
 
-
 ## Taking action
 
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
