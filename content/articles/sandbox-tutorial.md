@@ -18,14 +18,6 @@ categories:
 
 This tutorial walks you through setting up the DNSimple Sandbox API and making your first API calls. By the end, you will have a working development environment and hands-on experience with common API operations. The examples below use Python, but the Sandbox API works with any language or HTTP client.
 
-You can follow along with the video below, or use it as a reference as you go through the numbered steps.
-
-## Video walk-through
-
-<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ## 1. Prerequisites
 
 Before you begin, ensure you have:
