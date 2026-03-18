@@ -65,7 +65,7 @@ You must approve the certificate request by clicking the link in the email.
 
 ### Cost and automation
 
-**Let's Encrypt** certificates are free. The issuance and renewal process is fully automated when using DNSimple's auto-renewal feature.
+**Let's Encrypt** certificates are free. DNSimple automates issuance and renewal when auto-renewal is enabled. Once a new certificate is issued, you still need to install it on your server.
 
 **Sectigo** certificates cost between $20-$100 depending on the certificate type. Renewal requires manual action, including email approval and certificate installation.
 
@@ -80,13 +80,23 @@ The following considerations may help you determine which certificate type best 
 | You want to use a custom private key. | **Sectigo** |
 | You want to use a wildcard name. | **Let's Encrypt** or **Sectigo** |
 | You want a longer expiration period. | **Sectigo** |
-| You want to fully automate SSL certificate orders without manual intervention. | **Let's Encrypt** |
+| You want to fully automate SSL certificate **orders** without manual intervention. | **Let's Encrypt** |
 | Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Sectigo** |
 | Your domain is resolving with both DNSimple and Secondary DNS. | **Sectigo** |
 | Your domain is NOT resolving with DNSimple. | **Sectigo** |
 | Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Sectigo** |
 | Your domain is NOT registered and NOT resolving with DNSimple. | **Sectigo** |
 | You want to purchase a certificate with no subscription. | **Sectigo** |
+
+> [!NOTE]
+> *Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
+
+## Taking action
+
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Step-by-step guide to ordering a Sectigo certificate
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - How to renew Let's Encrypt certificates
+- [Renewing a standard SSL Certificate](/articles/renewing-standard-ssl-certificate/) - How to renew Sectigo certificates
 
 ## Related reading
 
@@ -95,12 +105,7 @@ The following considerations may help you determine which certificate type best 
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/) - Learn more about Let's Encrypt certificates at DNSimple
 - [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Understand the certificate renewal process
 
-## Taking action
 
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Step-by-step guide to ordering a Sectigo certificate
-- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - How to renew Let's Encrypt certificates
-- [Renewing a standard SSL Certificate](/articles/renewing-standard-ssl-certificate/) - How to renew Sectigo certificates
 
 ## Have more questions?
 
