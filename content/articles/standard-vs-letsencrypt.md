@@ -52,6 +52,11 @@ The difference in validity periods will narrow over time as the maximum allowed 
 
 **Sectigo** uses email-based validation. The certificate authority sends a validation email to an administrative email address for the domain. You must approve the certificate request by clicking a link in the email.
 
+> [!NOTE]
+> Validation emails are only sent to specific addresses (for example, admin@ or hostmaster@). For more details, see [Approved email addresses for SSL validation](/articles/ssl-certificates-email-validation/).
+
+You must approve the certificate request by clicking the link in the email.
+
 ### Custom Certificate Signing Requests (CSR)
 
 **Let's Encrypt** does not support custom CSRs. DNSimple automatically generates the [CSR](/articles/what-is-csr/) and private key for Let's Encrypt certificates.
