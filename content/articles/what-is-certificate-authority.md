@@ -8,13 +8,17 @@ categories:
 
 # What is a Certificate Authority?
 
-A **Certificate Authority (CA)** (also called a **Certification Authority**) is a trusted entity that issues digital certificates. In the context of SSL/TLS certificates, CAs play a fundamental role in establishing trust on the internet.
+A **Certificate Authority (CA)** (also called a **Certification Authority**) is an organization that issues digital certificates. In the context of SSL/TLS, CAs play a key role in establishing trust between a website and its visitors.
 
 ## The role of certificate authorities
 
-Certificate authorities operate within a trust model where they act as trusted third parties. They are trusted by both the certificate subject (the entity requesting the certificate) and the relying parties (such as web browsers and users visiting websites).
+Certificate authorities act as trusted third parties.
 
-When a CA issues a digital certificate, it certifies the ownership of a public key by the named subject of the certificate. This allows others to rely upon signatures or assertions made by the private key that corresponds to the certified public key.
+They are trusted by both:
+- the entity requesting the certificate (the subject), and  
+- the parties relying on it (such as browsers and users)
+
+When a CA issues a certificate, it verifies that the entity requesting it controls the domain (or organization) associated with the certificate. The certificate binds a public key to that entity, allowing others to trust that any communication secured with the corresponding private key belongs to the certified domain or organization. In practice, this is what allows browsers to establish secure HTTPS connections without warnings.
 
 ## Certificate authorities and SSL certificates
 
@@ -34,11 +38,17 @@ Browser vendors rely on CAs to validate that the entity requesting a certificate
 
 Certificate authorities use different validation methods depending on the type of certificate being issued:
 
-- **Domain validation**: The CA verifies that the requester controls the domain by checking email, DNS records, or HTTP challenges.
-- **Organization validation**: The CA verifies both domain ownership and organization information.
-- **Extended validation**: The CA performs extensive verification of the organization's legal existence and authorization.
+- **Domain validation (DV)**: The CA verifies that the requester controls the domain by checking email, DNS records, or HTTP challenges.
+- **Organization validation (OV)**: The CA verifies both domain ownership and organization information.
+- **Extended validation (EV)**: The CA performs extensive verification of the organization's legal existence and authorization.
 
 The validation process ensures that certificates are only issued to entities that legitimately control the domains or organizations they represent.
+
+## Taking action
+
+- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to order a Sectigo certificate from a trusted CA
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
+- [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
 
 ## Related reading
 
@@ -47,11 +57,7 @@ The validation process ensures that certificates are only issued to entities tha
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different types of SSL certificates and validation levels
 - [SSL Certificate Authorities used by DNSimple](/articles/ssl-certificate-authorities/) - See which CAs DNSimple works with
 
-## Taking action
 
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to order a Sectigo certificate from a trusted CA
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
-- [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
 
 ## Have more questions?
 
