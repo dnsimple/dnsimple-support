@@ -19,7 +19,7 @@ categories:
 ## Video walk-through
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe loading="lazy" src="https://www.youtube.com/embed/RfQjvi75e7M" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 DNSimple maintains an isolated test environment at [sandbox.dnsimple.com](https://sandbox.dnsimple.com/) that mirrors the production API. The Sandbox provides a safe space to develop, test, and validate your API integrations without risking changes to live DNS records, domains, or certificates.
