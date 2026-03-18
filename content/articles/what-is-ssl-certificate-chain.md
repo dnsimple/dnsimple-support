@@ -19,7 +19,7 @@ When a device validates a certificate, it follows this process:
 1. It checks if the certificate was issued by a trusted CA directly.
 2. If not, it checks if the certificate of the issuing CA was issued by a trusted CA.
 3. It continues checking up the chain until either:
-   - A trusted CA (root certificate) is found, establishing trust
+   - A trusted CA ([root certificate](/articles/what-is-ssl-root-certificate/)) is found, establishing trust
    - No trusted CA can be found, resulting in a security error
 
 The list of SSL certificates, from the root certificate to the end-user certificate, represents the **SSL certificate chain**.
@@ -77,17 +77,17 @@ If intermediate certificates are missing, the browser cannot trace the path from
 
 Root certificates are embedded in web browsers and operating systems by their maintainers. You don't need to install root certificates on your server because they're already present in the client devices. The browser uses these pre-installed root certificates as the starting point for validating certificate chains.
 
-## Related reading
-
-- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand the role of CAs in the certificate ecosystem
-- [What is a Root Certificate?](/articles/what-is-ssl-root-certificate/) - Learn about root certificates and trust anchors
-- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate types and their characteristics
 
 ## Taking action
 
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/) - Learn how to install your certificate and intermediate chain
 - [SSL Certificates with Apache](/articles/ssl-certificate-with-apache/) - Apache-specific installation instructions
 - [SSL Certificates with NGINX](/articles/ssl-certificate-with-nginx/) - NGINX-specific installation instructions
+## Related reading
+
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand the role of CAs in the certificate ecosystem
+- [What is a Root Certificate?](/articles/what-is-ssl-root-certificate/) - Learn about root certificates and trust anchors
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate types and their characteristics
 
 ## Have more questions?
 
