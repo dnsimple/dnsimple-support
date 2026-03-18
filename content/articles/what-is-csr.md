@@ -35,13 +35,14 @@ The CA uses the information in the CSR to create your SSL certificate. The certi
 Many certificate providers, including DNSimple, can automatically generate CSRs for you. This simplifies the process and works for most use cases. When DNSimple generates a CSR automatically, it creates a unique public/private key pair and includes the appropriate certificate information.
 
 For advanced requirements, you may need to generate a custom CSR. This allows you to:
+
 - Use your own private key (for key management policies or existing infrastructure)
 - Specify exact certificate details
 - Maintain control over the key generation process
 
 ## Taking action
 
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
+- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
 - [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
 

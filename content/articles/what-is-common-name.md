@@ -55,7 +55,7 @@ The CA/Browser Forum has since mandated that the SAN would also include any valu
 ## Taking action
 
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select the appropriate common name for your certificate
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
+- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
 
 ## Related reading

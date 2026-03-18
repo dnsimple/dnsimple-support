@@ -24,6 +24,7 @@ The newly issued certificate must then replace the expiring certificate on the s
 SSL certificate "renewal" is actually the issuance of a completely new certificate, not an extension of the existing one. This is because SSL certificates contain an expiration date that is cryptographically signed by the [certificate authority](/articles/what-is-certificate-authority/). The expiration date cannot be changed without invalidating the certificate's signature.
 
 When you renew a certificate, you're requesting a new certificate with a new expiration date. The new certificate will have:
+
 - A new serial number
 - A new expiration date
 - A new issuance date
@@ -75,14 +76,12 @@ If you need to request or install a replacement certificate, see the following g
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/)
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 
-
 ## Related reading
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/)
 - [How long does it take to issue an SSL certificate?](/articles/how-long-to-issue-ssl-certificate/)
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/)
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/)
-
 
 ## Have more questions?
 
