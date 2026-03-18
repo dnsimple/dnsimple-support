@@ -52,18 +52,18 @@ On the technical side, the SAN extension was introduced to integrate the common 
 
 The CA/Browser Forum has since mandated that the SAN would also include any value present in the common name, effectively making the SAN the only required reference for a certificate match with the server name. The notion of the common name survives mostly as a legacy of the past. There are active discussions to remove its use from most browsers and interfaces.
 
+## Taking action
+
+- [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select the appropriate common name for your certificate
+- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
+- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
+
 ## Related reading
 
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn about the SAN extension that's replacing common name
 - [What is the CSR?](/articles/what-is-csr/) - Understand how common name is specified in certificate requests
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore how different certificate types use common name and SAN
 - [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates are structured
-
-## Taking action
-
-- [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select the appropriate common name for your certificate
-- [Ordering a Standard SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
-- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
 
 ## Have more questions?
 
