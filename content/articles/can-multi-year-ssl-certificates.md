@@ -1,7 +1,7 @@
 ---
 title: Do you support multi-year SSL certificates?
 excerpt: Information about purchasing a multi-year SSL certificate with DNSimple.
-meta: Discover how to purchase multi-year SSL certificates with DNSimple, ensuring long-term security and peace of mind for your online presence.
+meta: DNSimple does not support multi-year SSL certificates. Maximum certificate validity is dropping to 200 days in 2026, 100 days in 2027, and 47 days in 2029.
 categories:
 - SSL Certificates
 ---
