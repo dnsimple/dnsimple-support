@@ -1,7 +1,7 @@
 ---
 title: Renewing an SSL Certificate
 excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
-meta: Easily renew your SSL certificate for your domain with DNSimple. Follow our step-by-step guide to ensure your website remains secure and trusted.
+meta: Learn how to renew your SSL certificate in DNSimple, including how to identify your certificate type and complete the renewal process.
 categories:
 - SSL Certificates
 ---
@@ -15,30 +15,46 @@ categories:
 
 ---
 
-DNSimple provides an SSL certificate renewal interface you can use to purchase a renewal for an SSL certificate. Please note that [an SSL certificate renewal is effectively a new SSL certificate purchase](/articles/how-certificate-renewal-works/).
-
-## Renewing an SSL certificate {#order}
+An SSL certificate renewal in DNSimple results in a new certificate being issued to replace your expiring one. Both the certificate and private key must be replaced on the server. Learn more about [how certificate renewal works](/articles/how-certificate-renewal-works/).
 
 > [!NOTE]
-> A renewal will not extend your existing certificate expiration date, it will result in a brand new certificate that must be installed in place of the existing one. Both certificate and private key must be replaced on the server.
-> There is no way to extend the expiration of an existing certificate &mdash; [Learn more](/articles/how-certificate-renewal-works/)
+> A renewal will not extend your existing certificate's expiration date. It results in a brand new certificate that must be installed in place of the existing one.
 
-Our [SSL certificate products](/articles/ssl-certificates/#ssl-certificate-products) fall into two major classes for how renewals work:
+## Before You Start
 
-- [Standard certificate renewals](/articles/renewing-standard-ssl-certificate/)
-- [Let's Encrypt certificate renewals](/articles/renewing-lets-encrypt-ssl-certificate/)
+- You need an active SSL certificate in your DNSimple account that is approaching its expiration date.
+- You will begin receiving renewal notices 60 days before a Sectigo certificate expires and 30 days before a Let's Encrypt certificate expires.
+- You may have more than one certificate for a hostname at the same time, so renewing before expiration will not affect your current operations.
 
-Please consult whichever document is correct for your needs.
+## Renewing Your SSL Certificate
 
-## What's next?
+<div class="section-steps" markdown="1">
+##### Steps to renew your certificate
 
-Once you purchased the certificate renewal, **you will have to go through the steps of configuring, verifying and installing the certificate in order to receive the certificate**. If we generated the CSR for you, each certificate has a different private key therefore you will also need to replace the private key.
+1. Log into DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. Scroll down to the <label>SSL certificates</label> section and find the active SSL certificate.
+1. Identify your certificate type and follow the appropriate renewal guide:
 
-These are the same steps you followed after you purchased your original certificate. See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+    - **Sectigo certificate**: Follow the steps in [Renewing a Sectigo SSL Certificate](/articles/renewing-standard-ssl-certificate/). You will need to complete [email-based domain validation](/articles/ssl-certificates-email-validation/) again.
+    - **Let's Encrypt certificate**: Follow the steps in [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/). You can also enable [auto-renewal](/articles/letsencrypt/#auto-renewal) to automate this process.
 
-For a standard Sectigo certificate, you will need to [verify the SSL certificate order](/articles/ssl-certificates-email-validation/) again, since a new certificate will be issued.
+</div>
+
+## After Renewal
+
+Once you have completed the renewal, you must configure, verify, and install the new certificate on your server:
+
+1. If DNSimple generated the CSR for you, the new certificate has a different private key. You will need to replace both the certificate and the private key on your server.
+1. For a Sectigo certificate, complete the [email-based domain validation](/articles/ssl-certificates-email-validation/) to receive the new certificate.
+1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
 
 > [!WARNING]
-> **If you don't verify the certificate, the renewal is not completed** and browsers will display a security warning when the old certificate expires.
+> If you do not complete the verification and installation steps, the renewal is not finished. Browsers will display a security warning when the old certificate expires.
 
-You may have more than 1 certificate for a host name at DNSimple at the same time, so renewing your certificate prior to the expiration date of your current certificate will not affect your operations. Note, however, that you will only be able to install 1 certificate on your server at a time.
+See [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) for the full process from order to installation.
+
+## Have More Questions?
+
+If you have additional questions or need any assistance with renewing your SSL certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
