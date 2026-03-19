@@ -37,6 +37,7 @@ How-to:
     - "Choosing the SSL Certificate Names"
     - "SSL Certificate email-based Domain Validation"
     - "How can I select a different SSL certificate domain validation email?"
+    - "How to Validate Your Domain for an SSL Certificate"
     - "I got an ECC-signed certificate but want RSA"
   Certificate Management:
     - "How do I determine the Certificate Authority that signed my SSL certificate?"
