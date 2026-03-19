@@ -104,18 +104,13 @@ Expiration dates depend on the certificate type and when it was issued:
 - **Let's Encrypt certificates** are valid for 90 days.
 - **Sectigo certificates** issued on or after March 15, 2026 are valid for a maximum of 200 days. This maximum will [continue to decrease](/articles/announcement-ssl-certificate-validity-changes/) to 100 days (March 2027) and 47 days (March 2029).
 
-## Sectigo vs. Let's Encrypt lifecycle differences {#differences}
+## Sectigo vs. Let's Encrypt Lifecycle Differences {#differences}
 
-| Stage | Sectigo | Let's Encrypt |
-|-------|---------|---------------|
-| Validation | [Email-based](/articles/ssl-certificates-email-validation/) (manual) | [DNS-based](/articles/letsencrypt/#integration) (automatic) |
-| Issuance time | ~1 hour to several days | ~30–60 minutes |
-| Validity | 200 days (as of March 2026) | 90 days |
-| Auto-renewal | Not supported | [Supported](/articles/ssl-auto-renewal/) |
-| Reissue | [Supported](/articles/reissuing-ssl-certificate/) | Not supported (order a new certificate instead) |
-| Custom CSR | Supported | Not supported |
+The lifecycle stages are the same for both certificate types, but the specifics differ at each stage -- particularly around validation, automation, and validity periods. For a full side-by-side comparison of features, pricing, and capabilities, see [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/).
 
-## Shorter validity, faster cycles {#shorter-validity}
+The most significant lifecycle difference is automation: Let's Encrypt certificates support DNS-based validation and [auto-renewal](/articles/letsencrypt/#auto-renewal), making the entire renewal cycle hands-off. Sectigo certificates require [email-based validation](/articles/ssl-certificates-email-validation/) each time, so every renewal involves manual action.
+
+## Shorter Validity, Faster Cycles {#shorter-validity}
 
 As certificate lifetimes continue to shrink under [CA/Browser Forum rules](/articles/can-multi-year-ssl-certificates/#shorter-validity), the full lifecycle — order, validate, issue, install — will repeat more frequently. Automation becomes increasingly important: consider enabling [auto-renewal](/articles/ssl-auto-renewal/) for Let's Encrypt certificates, and using the [DNSimple API](https://developer.dnsimple.com/v2/certificates/) to automate installation.
 
