@@ -54,6 +54,10 @@ How-to:
     - "Troubleshooting Heroku SSL errors"
 
 Reference:
+  Product Specifications:
+    - "SSL Certificate Product Specifications"
+  Glossary:
+    - "SSL Certificate Glossary"
   Certificate Authorities:
     - "SSL Certificate Authorities used by DNSimple"
   Certificate Features:
