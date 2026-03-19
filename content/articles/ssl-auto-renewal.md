@@ -77,17 +77,11 @@ Common causes of auto-renewal failure:
 
 If auto-renewal has failed and the daily retries are not resolving the issue, fix the underlying cause (delegation, DNSSEC, CAA records) and the next retry should succeed. If the certificate has already expired, [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-## Why auto-renewal matters more with shorter lifetimes {#shorter-lifetimes}
+## Why Auto-Renewal Matters More With Shorter Lifetimes {#shorter-lifetimes}
 
-The [CA/Browser Forum](/articles/announcement-ssl-certificate-validity-changes/) is phasing in shorter maximum certificate lifetimes:
+The CA/Browser Forum is [phasing in shorter maximum certificate lifetimes](/articles/can-multi-year-ssl-certificates/#shorter-validity) -- from 200 days in March 2026 down to 47 days by March 2029. As these lifetimes shrink, the full renewal cycle (order, validate, issue, install) repeats more frequently.
 
-| Effective date | Maximum certificate validity |
-|:--------------:|:----------------------------:|
-| March 15, 2026 | 200 days |
-| March 15, 2027 | 100 days |
-| March 15, 2029 | 47 days |
-
-Let's Encrypt certificates (90-day validity) already require frequent renewal. When the maximum drops to 47 days in 2029, all certificate types will need to be renewed very frequently. Auto-renewal — combined with automated installation via the [API](https://developer.dnsimple.com/v2/certificates/) — will be essential for maintaining uninterrupted HTTPS coverage without manual effort.
+Let's Encrypt certificates (90-day validity) already require frequent renewal. Auto-renewal handles this automatically. When the maximum drops to 47 days in 2029, all certificate types will need very frequent renewal. Auto-renewal -- combined with automated installation via the [DNSimple API](https://developer.dnsimple.com/v2/certificates/) -- will be essential for maintaining uninterrupted HTTPS coverage.
 
 Sectigo certificates do not currently support auto-renewal due to their email-based validation requirement. As validity periods shrink, the manual effort required to maintain Sectigo certificates will increase. If automation is a priority, [Let's Encrypt certificates](/articles/letsencrypt/) may be a better fit for your workflow.
 
