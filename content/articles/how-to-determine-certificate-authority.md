@@ -1,15 +1,15 @@
 ---
-title: How do I determine the Certificate Authority that signed my SSL certificate?
+title: How Do I Determine the Certificate Authority That Signed My SSL Certificate?
 excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
-meta: Follow DNSimple's instruction to determine whom is the Certificate Authority (CA) that signed an SSL or TLS for your website.
+meta: Follow DNSimple's instructions to determine who is the Certificate Authority (CA) that signed your SSL or TLS certificate.
 categories:
 - SSL Certificates
 ---
 
-# How do I determine the Certificate Authority that signed my SSL certificate?
+# How Do I Determine the Certificate Authority That Signed My SSL Certificate?
 
 
-## Certificate from DNSimple
+## Certificate From DNSimple
 
 When you request an SSL certificate with DNSimple, the certificate authority information are clearly visible in your SSL certificate page:
 
@@ -22,11 +22,11 @@ Once the SSL certificate is issued, we also extract the identification of the Is
 If you can't access your SSL certificate page, or you didn't request the certificate using DNSimple, then use the following generic procedure to determine the certificate authority.
 
 
-## Generic procedure
+## Generic Procedure
 
 To determine the [Certificate Authority](/articles/what-is-certificate-authority/) that issued your certificate, open the website in a browser and click on the certificate information.
 
-The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the the <label>Connection</label> tab and click on <label>Certificate Information</label>.
+The steps to view the certificate information depend on the browser. For instance, in Google Chrome, click on the lock icon in the address bar, switch to the <label>Connection</label> tab and click on <label>Certificate Information</label>.
 
 ![screenshot: Showing SSL Certificate information](/files/dnsimple-certificate-determine-authority.png)
 
