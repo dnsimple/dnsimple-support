@@ -23,23 +23,13 @@ Their three most distinguishing characteristics, as listed on their homepage, ar
 - Automated: Let's Encrypt's issuance process is fully automated. They developed an issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) that's designed to be fully automated with no manual intervention.
 - Open: The source code of Let's Encrypt's certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt).
 
-## Differences between Let's Encrypt and Standard SSL certificates
+## Differences Between Let's Encrypt and Sectigo Certificates {#differences}
 
-This table summarizes the most important differences between Let's Encrypt and Standard SSL certificates:
+Let's Encrypt certificates differ from [Sectigo certificates](/articles/ssl-certificates/) in pricing, validity period, validation method, and automation support. For a detailed side-by-side comparison, see [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/).
 
-| | Let's Encrypt | Standard |
-| --- | --- | --- |
-| Certificate Expiration | 90 days | One year |
-| Single names | Supported | Supported |
-| Wildcard names | Supported | Supported |
-| Multi-domain (via SAN) | Supported by default | Supported only by specific products |
-| Max SAN domains | 100 | Depends on the [CA](/articles/what-is-certificate-authority/) and product |
-| [Validation type](/articles/ssl-certificates-types/#ssl-certificates-by-validation-level) | <acronym title="Domain Validated">DV</acronym> only | <acronym title="Domain Validated">DV</acronym>, <acronym title="Organization Validated (not supported by DNSimple)">OV</acronym>, <acronym title="Extended Validation (not supported by DNSimple)">EV</acronym> |
-| Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority/) and product |
-| Limits | [Per-domain, Per-week limits](https://letsencrypt.org/docs/rate-limits/) | N/A |
+The key differences: Let's Encrypt certificates are free, valid for 90 days, validated automatically via DNS, and support [auto-renewal](#auto-renewal). Sectigo certificates cost $20-$100/year, are valid for up to 200 days (as of March 2026), and require [email-based validation](/articles/ssl-certificates-email-validation/).
 
-
-## Let's Encrypt highlights
+## Let's Encrypt Highlights {#highlights}
 
 Let's Encrypt is different from most traditional CAs. Here are a few notes and limitations to keep in mind before requesting one of their SSL certificates:
 
