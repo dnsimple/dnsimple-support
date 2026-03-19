@@ -14,7 +14,6 @@ Explanation:
     - "What is the CSR?"
     - "What is the SSL Certificate Common Name?"
     - "Understanding SSL Private Keys"
-    - "Understanding SSL Certificate Files and Formats"
     - "How HTTPS Works"
   Certificate Types:
     - "SSL Certificate Types"
@@ -61,6 +60,8 @@ How-to:
     - "Troubleshooting Heroku SSL errors"
 
 Reference:
+  Certificate Files and Formats:
+    - "Understanding SSL Certificate Files and Formats"
   Certificate Authorities:
     - "SSL Certificate Authorities used by DNSimple"
   Certificate Features:
