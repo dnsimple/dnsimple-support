@@ -1,11 +1,12 @@
 ---
-title: SSL Certificates with Microsoft Azure
+title: How to Install an SSL Certificate on Microsoft Azure
 excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure your Azure application.
+meta: Follow these steps to obtain an SSL certificate from DNSimple and install it on your Microsoft Azure application to enable HTTPS.
 categories:
 - SSL Certificates
 ---
 
-# SSL Certificates and Microsoft Azure
+# How to Install an SSL Certificate on Microsoft Azure
 
 ### Table of Contents {#toc}
 
@@ -16,19 +17,31 @@ categories:
 
 With DNSimple you can request an SSL certificate that you can install on [Microsoft Azure](https://azure.microsoft.com/) to enable HTTPS on your Azure application. DNSimple also provides the [ALIAS feature](/articles/alias-record/) that is necessary if you want to point your root domain to Azure.
 
-This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple, install it on Azure, and configure Azure to use the new SSL certificate with the appropriate domain.
-
 > [!TIP]
-> Before you start, please take a moment to review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
+> Before you start, review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 
-## Obtain the SSL certificate
+## Obtain the SSL Certificate
 
-We have prepared [a guide to purchasing an SSL certificate](/articles/ordering-standard-certificate/). Once you have followed that and the certificate has been issued, return to the certificate page for the next step.
+If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/ordering-standard-certificate/). Once the certificate has been issued, return to this page for the installation steps.
 
-## Install the SSL certificate on Microsoft Azure
+## Install the SSL Certificate on Microsoft Azure
 
-Open the certificate page and click <label>Install the SSL Certificate</label>.
+<div class="section-steps" markdown="1">
+##### Steps to install the certificate on Azure
 
-![Click the Azure section](/files/certificate-installer-azure.png)
+1. Log into DNSimple and navigate to the domain that has the issued certificate.
+1. Select the SSL Certificates tab and click on the certificate you want to install.
+1. Click <label>Install the SSL Certificate</label>.
 
-On that page, click the Azure section and follow the directions presented to you.
+    ![Click the Azure section](/files/certificate-installer-azure.png)
+
+1. Click the **Azure** section in the installation wizard.
+1. Follow the instructions presented by the wizard, which will provide the certificate files needed for Azure.
+1. Upload the certificate to your Azure App Service or Azure resource through the Azure portal.
+1. Configure the SSL binding in Azure to associate the certificate with your custom domain.
+
+</div>
+
+## Have More Questions?
+
+If you have additional questions or need any assistance installing your SSL certificate on Microsoft Azure, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

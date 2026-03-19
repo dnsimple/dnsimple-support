@@ -11,11 +11,11 @@ Explanation:
     - "What is the SSL Certificate Chain?"
     - "What is a Root Certificate?"
     - "What is the Subject Alternative Name (SAN)?"
-    - "What is the CSR?"
+    - "What is a Certificate Signing Request (CSR)?"
     - "What is the SSL Certificate Common Name?"
   Certificate Types:
     - "SSL Certificate Types"
-    - "Standard vs Let's Encrypt SSL Certificates"
+    - "Sectigo vs Let's Encrypt SSL Certificates"
   Certificate Processes:
     - "How does an SSL Certificate Renewal work?"
     - "How long does it take to issue an SSL certificate?"
@@ -24,34 +24,36 @@ Explanation:
 
 How-to:
   Ordering Certificates:
-    - "Ordering a Standard SSL Certificate"
+    - "Ordering a Sectigo SSL Certificate"
     - "Ordering a Wildcard SSL Certificate"
     - "Ordering a Let's Encrypt Certificate"
   Renewing Certificates:
     - "Renewing an SSL Certificate"
-    - "Renewing a standard SSL Certificate"
+    - "Renewing a Sectigo SSL Certificate"
     - "Renewing a Let's Encrypt SSL Certificate"
+    - "How to Set Up Auto-Renewal for SSL Certificates"
   Reissuing Certificates:
-    - "Re-issuing an SSL Certificate"
+    - "Re-Issuing an SSL Certificate"
   Certificate Configuration:
     - "Choosing the SSL Certificate Names"
-    - "SSL Certificate email-based Domain Validation"
-    - "How can I select a different SSL certificate domain validation email?"
-    - "I got an ECC-signed certificate but want RSA"
+    - "SSL Certificate Email-Based Domain Validation"
+    - "How to Select a Different SSL Certificate Domain Validation Email"
+    - "How to Switch From an ECC-Signed Certificate to RSA"
+    - "How to Validate Your Domain for an SSL Certificate"
   Certificate Management:
-    - "How do I determine the Certificate Authority that signed my SSL certificate?"
+    - "How Do I Determine the Certificate Authority That Signed My SSL Certificate?"
 
   Installation:
     - "Installing an SSL Certificate"
-    - "SSL Certificates with Apache"
-    - "SSL Certificates with Microsoft Windows IIS"
-    - "SSL Certificates with NGINX"
-    - "SSL Certificates with Heroku"
-    - "SSL Certificates with Microsoft Azure"
-    - "SSL Certificates with Windows"
+    - "How to Install an SSL Certificate on Apache"
+    - "How to Install an SSL Certificate on Microsoft IIS"
+    - "How to Install an SSL Certificate on NGINX"
+    - "How to Install an SSL Certificate on Heroku"
+    - "How to Install an SSL Certificate on Microsoft Azure"
+    - "How to Install an SSL Certificate on Windows"
 
   Troubleshooting:
-    - "Troubleshooting Heroku SSL errors"
+    - "Troubleshooting Heroku SSL Errors"
 
 Reference:
   Certificate Authorities:
