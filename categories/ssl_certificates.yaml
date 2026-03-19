@@ -40,6 +40,7 @@ How-to:
     - "I got an ECC-signed certificate but want RSA"
   Certificate Management:
     - "How do I determine the Certificate Authority that signed my SSL certificate?"
+    - "How to Download Your SSL Certificate Files"
 
   Installation:
     - "Installing an SSL Certificate"
