@@ -75,9 +75,9 @@ The certificate validation is completely automated using DNS-based challenges. D
 
 ### Certificate expiration and auto-renewal {#auto-renewal}
 
-Let's Encrypt certificates expire after 90 days. DNSimple supports automatic renewal for Let's Encrypt certificates. When auto-renewal is enabled, the certificate automatically renews before expiration. If re-validation is necessary, DNSimple automatically re-validates the domain via DNS. Once renewed, you will receive an email and webhook notification. You will still need to install the newly issued certificate on your server.
+Let's Encrypt certificates expire after 90 days. DNSimple supports automatic renewal for Let's Encrypt certificates. When auto-renewal is enabled, DNSimple handles the renewal and re-validation process automatically, issuing a replacement certificate before the current one expires.
 
-As recommended by Let's Encrypt, renewal happens any time after 60 days (30 days before expiration), with automatic retry attempts if renewal fails.
+For details on how auto-renewal works -- including when it runs, what happens when it fails, and how it interacts with shorter certificate lifetimes -- see [How Auto-Renewal Works for SSL Certificates](/articles/ssl-auto-renewal/).
 
 > [!TIP]
 > Although Let's Encrypt certificates can be installed manually, the issuance and renewal process is designed to be automated. You can use the DNSimple [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.

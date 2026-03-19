@@ -24,15 +24,9 @@ The newly issued certificate must then replace the expiring certificate on the s
 
 ## Validation during renewal
 
-Renewal does not bypass the validation rules required by certificate authorities. Each time a certificate is issued, the certificate authority must confirm that the requester still controls the domain names included in the certificate.
+Renewal does not bypass the validation rules required by certificate authorities. Each time a certificate is issued -- including renewals -- the certificate authority must confirm that the requester still controls the domain names included in the certificate. The specific validation method depends on the certificate type: Sectigo uses email-based validation, while Let's Encrypt uses automated DNS challenges.
 
-This requirement exists to prevent certificates from being issued for domains that the requester no longer controls.
-
-For certificates issued by traditional certificate authorities such as Sectigo, this confirmation usually takes the form of **email-based domain validation**.
-
-For [Let's Encrypt certificates](/articles/letsencrypt/), domain validation is performed using automated DNS challenges. When auto-renewal is enabled, DNSimple automatically completes this validation to obtain a replacement certificate before the existing one expires.
-
-Regardless of the certificate provider, the purpose of validation during renewal is the same: to ensure that the entity requesting the certificate still has control over the domain.
+For a detailed comparison of validation methods and how they work, see [Domain Validation Methods for SSL Certificates](/articles/ssl-domain-validation-methods/).
 
 ## What happens when a certificate expires
 
