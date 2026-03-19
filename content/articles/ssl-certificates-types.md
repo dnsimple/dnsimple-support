@@ -114,13 +114,13 @@ All certificates work following the same encryption principle. The validation le
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
 
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
 ## Related reading
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs validate entities and issue certificates
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn how multi-domain certificates use SAN
 - [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand how single-name certificates identify hostnames
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and their features
-
-## Have more questions?
-
-If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

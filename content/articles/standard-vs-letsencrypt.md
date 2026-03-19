@@ -55,8 +55,6 @@ The difference in validity periods will narrow over time as the maximum allowed 
 > [!NOTE]
 > Validation emails are only sent to specific addresses (for example, admin@ or hostmaster@). For more details, see [Approved email addresses for SSL validation](/articles/ssl-certificates-email-validation/).
 
-You must approve the certificate request by clicking the link in the email.
-
 ### Custom Certificate Signing Requests (CSR)
 
 **Let's Encrypt** does not support custom CSRs. DNSimple automatically generates the [CSR](/articles/what-is-csr/) and private key for Let's Encrypt certificates.
@@ -89,7 +87,7 @@ The following considerations may help you determine which certificate type best 
 | You want to purchase a certificate with no subscription. | **Sectigo** |
 
 > [!NOTE]
-> *Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
+> Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
 
 ## Taking action
 
@@ -98,13 +96,13 @@ The following considerations may help you determine which certificate type best 
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - How to renew Let's Encrypt certificates
 - [Renewing a Sectigo SSL Certificate](/articles/renewing-standard-ssl-certificate/) - How to renew Sectigo certificates
 
+## Have more questions?
+
+If you have additional questions or need any assistance with choosing between Sectigo and Let's Encrypt, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
 ## Related reading
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Learn about certificate authorities and their role in SSL certificates
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Understand different SSL certificate classifications
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/) - Learn more about Let's Encrypt certificates at DNSimple
 - [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Understand the certificate renewal process
-
-## Have more questions?
-
-If you have additional questions or need any assistance with choosing between Sectigo and Let's Encrypt, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

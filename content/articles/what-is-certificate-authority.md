@@ -50,13 +50,13 @@ The validation process ensures that certificates are only issued to entities tha
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
 - [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
 
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate authorities or who issued your certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
 ## Related reading
 
 - [What is a Root Certificate?](/articles/what-is-ssl-root-certificate/) - Learn about root certificates and their role in the trust chain
 - [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates form a chain of trust
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different types of SSL certificates and validation levels
 - [SSL Certificate Authorities used by DNSimple](/articles/ssl-certificate-authorities/) - See which CAs DNSimple works with
-
-## Have more questions?
-
-If you have additional questions or need any assistance with certificate authorities or who issued your certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -58,13 +58,13 @@ If issuance takes longer than expected, common causes include:
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
 - [SSL Certificate email-based Domain Validation](/articles/ssl-certificates-email-validation/) - Learn about email validation for Sectigo certificates
 
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate issuance timeframes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
 ## Related reading
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs process certificate requests
 - [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Learn about the renewal process timeline
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare issuance processes between certificate types
 - [CAA Records](/articles/caa-record/) - Understand how CAA records affect certificate issuance
-
-## Have more questions?
-
-If you have additional questions or need any assistance with certificate issuance timeframes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

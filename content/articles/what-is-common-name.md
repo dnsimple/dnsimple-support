@@ -58,13 +58,13 @@ The CA/Browser Forum has since mandated that the SAN would also include any valu
 - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate and specify the common name
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Learn about wildcard common names
 
-## Related reading
-
-- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn about the SAN extension that's replacing common name
-- [What is the CSR?](/articles/what-is-csr/) - Understand how common name is specified in certificate requests
-- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore how different certificate types use common name and SAN
-- [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates are structured
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with common names and how they relate to SANs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
+## Related reading
+
+- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn about the SAN extension that's replacing common name
+- [What is a Certificate Signing Request (CSR)?](/articles/what-is-csr/) - Understand how common name is specified in certificate requests
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore how different certificate types use common name and SAN
+- [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates are structured

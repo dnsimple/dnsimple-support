@@ -11,7 +11,7 @@ Explanation:
     - "What is the SSL Certificate Chain?"
     - "What is a Root Certificate?"
     - "What is the Subject Alternative Name (SAN)?"
-    - "What is the CSR?"
+    - "What is a Certificate Signing Request (CSR)?"
     - "What is the SSL Certificate Common Name?"
   Certificate Types:
     - "SSL Certificate Types"

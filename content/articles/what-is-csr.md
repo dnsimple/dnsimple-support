@@ -40,11 +40,18 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 - Specify exact certificate details
 - Maintain control over the key generation process
 
+> [!NOTE]
+> DNSimple supports custom CSRs for Sectigo certificates only. Let's Encrypt certificates always use automatically generated CSRs.
+
 ## Taking action
 
 - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
 - [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
+
+## Have more questions?
+
+If you have additional questions or need any assistance with CSRs and certificate requests, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
 ## Related reading
 
@@ -52,7 +59,3 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 - [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Learn about the common name field in CSRs
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Understand how SAN is specified in CSRs
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare CSR support between certificate types
-
-## Have more questions?
-
-If you have additional questions or need any assistance with CSRs and certificate requests, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

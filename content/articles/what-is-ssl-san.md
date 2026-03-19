@@ -77,13 +77,13 @@ The X.509 specification allows users to define extensions to be attached to a [C
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a certificate with SAN support
 - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate that supports your naming needs
 
-## Related reading
-
-- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand the common name field and how it relates to SAN
-- [What is the CSR?](/articles/what-is-csr/) - Learn how SAN is specified in certificate signing requests
-- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore multi-domain certificates that use SAN
-- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and SAN support
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with SANs and which hostnames a certificate can cover, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
+## Related reading
+
+- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand the common name field and how it relates to SAN
+- [What is a Certificate Signing Request (CSR)?](/articles/what-is-csr/) - Learn how SAN is specified in certificate signing requests
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore multi-domain certificates that use SAN
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and SAN support
