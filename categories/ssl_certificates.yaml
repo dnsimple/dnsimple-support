@@ -31,6 +31,7 @@ How-to:
     - "Renewing an SSL Certificate"
     - "Renewing a standard SSL Certificate"
     - "Renewing a Let's Encrypt SSL Certificate"
+    - "How to Set Up Auto-Renewal for SSL Certificates"
   Reissuing Certificates:
     - "Re-issuing an SSL Certificate"
   Certificate Configuration:
