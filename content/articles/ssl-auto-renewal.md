@@ -73,7 +73,7 @@ Common causes of auto-renewal failure:
 - **Domain no longer resolving with DNSimple.** Let's Encrypt certificates require the domain to be delegated to and resolving with DNSimple's name servers. If the domain's delegation has changed (e.g., moved to another DNS provider), the DNS challenge will fail.
 - **DNSSEC misconfiguration.** If [DNSSEC](/articles/dnssec/) is enabled for the domain but is misconfigured (e.g., stale DS records at the registrar), the DNS challenge may fail because the CA cannot securely resolve the validation record. See [Troubleshooting DNSSEC configurations](/articles/dnssec/#troubleshooting-dnssec-configurations).
 - **Let's Encrypt rate limits.** Let's Encrypt enforces [rate limits](https://letsencrypt.org/docs/rate-limits/) on certificate issuance. If you have a large number of certificates for the same domain, you may temporarily hit these limits.
-- **CAA records blocking issuance.** If [CAA records](/articles/caa-record/) are configured for the domain and Let's Encrypt is not listed as an authorized CA, the issuance will be denied.
+- **CAA records blocking issuance.** If [CAA records](/articles/caa-records-ssl-certificates/) are configured for the domain and Let's Encrypt is not listed as an authorized CA, the issuance will be denied.
 
 If auto-renewal has failed and the daily retries are not resolving the issue, fix the underlying cause (delegation, DNSSEC, CAA records) and the next retry should succeed. If the certificate has already expired, [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 

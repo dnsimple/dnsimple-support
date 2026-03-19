@@ -65,13 +65,13 @@ The validation method depends on the certificate type:
 Once validation succeeds, the CA issues the certificate. [Issuance time](/articles/how-long-to-issue-ssl-certificate/) varies:
 
 - **Let's Encrypt:** Typically 30–60 minutes, because validation is automated.
-- **Sectigo:** Typically about an hour after email approval, though delays of up to several days can occur if there are issues with the domain configuration or [CAA records](/articles/caa-record/).
+- **Sectigo:** Typically about an hour after email approval, though delays of up to several days can occur if there are issues with the domain configuration or [CAA records](/articles/caa-records-ssl-certificates/).
 
 When the certificate is issued, DNSimple sends an email notification. If you use [webhooks](https://developer.dnsimple.com/v2/webhooks/), a webhook event is also triggered.
 
 ## Install {#install}
 
-An issued certificate must be installed on your web server (or hosting platform) before it can secure traffic. Installation involves downloading the certificate, the [intermediate certificate chain](/articles/what-is-ssl-certificate-chain/), and — if DNSimple generated the [CSR](/articles/what-is-csr/) — the [private key](/articles/ssl-private-keys/). These files are then configured on your server.
+An issued certificate must be installed on your web server (or hosting platform) before it can secure traffic. Installation involves downloading the certificate, the [intermediate certificate chain](/articles/what-is-ssl-certificate-chain/), and — if DNSimple generated the [CSR](/articles/what-is-csr/) — the [private key](/articles/ssl-private-keys/). These files come in [different formats](/articles/ssl-certificate-files-and-formats/) depending on your platform and are then configured on your server.
 
 DNSimple provides an [installation wizard](/articles/installing-ssl-certificate/) with platform-specific instructions for Heroku, Azure, NGINX, Apache, and Microsoft IIS.
 

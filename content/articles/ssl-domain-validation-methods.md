@@ -93,7 +93,7 @@ As maximum certificate lifetimes continue to [decrease](/articles/announcement-s
 
 [CAA records](/articles/caa-record/) are DNS records that specify which CAs are authorized to issue certificates for a domain. If CAA records are present and the CA is not listed, the CA will refuse to issue the certificate — even if domain validation succeeds.
 
-If you use CAA records, make sure the appropriate CA is authorized before ordering a certificate. See the [SSL Certificates FAQ](/articles/faq-ssl-certificates/) for details on configuring CAA records for Sectigo and Let's Encrypt.
+If you use CAA records, make sure the appropriate CA is authorized before ordering a certificate. See [CAA Records and SSL Certificates](/articles/caa-records-ssl-certificates/) for the specific values required for Sectigo and Let's Encrypt.
 
 ## Have more questions?
 
