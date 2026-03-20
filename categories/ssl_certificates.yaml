@@ -11,11 +11,11 @@ Explanation:
     - "What is the SSL Certificate Chain?"
     - "What is a Root Certificate?"
     - "What is the Subject Alternative Name (SAN)?"
-    - "What is the CSR?"
+    - "What is a Certificate Signing Request (CSR)?"
     - "What is the SSL Certificate Common Name?"
   Certificate Types:
     - "SSL Certificate Types"
-    - "Standard vs Let's Encrypt SSL Certificates"
+    - "Sectigo vs Let's Encrypt SSL Certificates"
   Certificate Processes:
     - "How does an SSL Certificate Renewal work?"
     - "How long does it take to issue an SSL certificate?"
