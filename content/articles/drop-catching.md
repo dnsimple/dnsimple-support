@@ -17,24 +17,24 @@ categories:
 
 ---
 
-## What is drop catching?
+## What is drop catching? {#what-is-drop-catching}
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Domain_drop_catching):
 
 > Domain drop catching, also known as domain sniping, is the practice of registering a domain name once registration has lapsed, immediately after expiration.
 
-## Can I use DNSimple for drop catching?
+## Can I use DNSimple for drop catching? {#can-i-use-dnsimple-for-drop-catching}
 
 No, you may not use DNSimple for drop catching domains.
 
-## Why don't you allow drop catching?
+## Why does DNSimple not allow drop catching? {#why-does-dnsimple-not-allow-drop-catching}
 
-Our upstream domain registration providers limit the number of checks we're allowed to execute. Attempts to engage in drop catching impact all our customers.
+Our upstream domain registration providers limit the number of checks we are allowed to execute. Attempts to engage in drop catching impact all our customers.
 
-## What happens if I try to drop catch?
+## What happens if I try to drop catch? {#what-happens-if-i-try-to-drop-catch}
 
 If we observe drop catching, we will disable your account to avoid impacting all DNSimple customers.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about drop catching or DNSimple's policy, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about drop catching or DNSimple's policy, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

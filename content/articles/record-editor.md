@@ -15,15 +15,15 @@ categories:
 
 ---
 
-## How to use DNSimple's Record Editor
+## How to use DNSimple's Record Editor {#how-to-use-dnsimples-record-editor}
 
 The Record Editor is DNSimple's DNS editor. It lets you view, add, update, and delete DNS records for your domain in DNSimple.
 
 Any supported [DNS record](/articles/supported-dns-records/) type can be managed from the Record Editor, except [system records](https://support.dnsimple.com/articles/system-records/). DNSimple provides two editor interfaces: the simple editor and the field-specific editor. To learn about the differences and when to use each, see [Understanding DNSimple's Record Editors: Simple vs. Field-Specific](/articles/record-editor-simple-field/).
 
-You'll need access to the account or domain to make changes. Make sure the domain is delegated to DNSimple so your records propagate.
+You will need access to the account or domain to make changes. Make sure the domain is delegated to DNSimple so your records propagate.
 
-## Accessing the Record Editor
+## Accessing the Record Editor {#accessing-the-record-editor}
 **Option 1: From the top navigation bar**
 1. Use the account switcher at the top of the page to select the appropriate account.
 1. From the Domain Names list, click the domain you want to manage
@@ -37,7 +37,7 @@ You'll need access to the account or domain to make changes. Make sure the domai
 
 ![record editor DNS badge](/files/dns-badge.png)
 
-## Adding a record
+## Adding a record {#adding-a-record}
 1. In the Record Editor, click the **Add a record** button. 
 1. Select the DNS record type you want to add (for example, A, CNAME, MX, etc.).
 1. Fill out the required fields for the new record.
@@ -47,7 +47,7 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
    
 ![Select Record Type](/files/rec-editor-new-record.png)
 
-## Updating a record
+## Updating a record {#updating-a-record}
 1. In the Record Editor, find the record you want to update.
 1. Click the edit icon (🖊️) at the end of the record row.
 1. Make your changes.
@@ -55,7 +55,7 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 
 ![modify a record](/files/modify-record.png)
 
-## Deleting a record
+## Deleting a record {#deleting-a-record}
 1. In the Record Editor, find the record you want to delete.
 1. Click the trash icon at the end of the record row.
 1. Confirm the deletion
@@ -66,16 +66,16 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 > There is no way to undo deleting a record. The only way to restore a deleted record is to 
 > recreate it.
 
-## Managing integrated zone records
+## Managing integrated zone records {#managing-integrated-zone-records}
 The Record Editor is also used to manage records for your integrated zones. Refer to [Record Editor for Integrated Zones](/articles/record-editor-integrated-zones/)  for more details.
 
-## Viewing Activity in the Record Editor
+## Viewing Activity in the Record Editor {#viewing-activity-in-the-record-editor}
 From the Record Editor, you can also view the Activity log to see who made changes to your domain. This helps you track updates and keep an audit trail of all DNS changes.
 
-- If you're on the Teams plan or higher, you'll see the full activity history.
-- If you're on the Solo plan, you can view the last 30 days of activity.
+- If you are on the Teams plan or higher, you will see the full activity history.
+- If you are on the Solo plan, you can view the last 30 days of activity.
 
 For step-by-step instructions and filtering options, see [How to View the Activity Log](https://support.dnsimple.com/articles/activity-tracking/).
 
-## Have more questions?
-If you have any questions or need assistance with the Record Editor, reach out to support, and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have any questions or need assistance with the Record Editor, reach out to support, and we will be happy to help.

@@ -19,7 +19,7 @@ A URL record is a special, proprietary DNSimple record type designed to provide 
 
 Traditional DNS records, like [A](/articles/a-record/) or [CNAME](/articles/cname-record/), only resolve domain names to IP addresses or other domain names; they do not inherently perform web redirects. The URL record bridges this gap, offering a simple DNS-based solution for directing web traffic from one address to another.
 
-## How URL records facilitate web redirects
+## How URL records facilitate web redirects {#how-url-records-facilitate-web-redirects}
 The magic of URL records happens through DNSimple's dedicated redirector service:
 
 1. **DNS resolution:** When you [create a URL record](/articles/manage-url-record/), DNSimple automatically configures underlying A and [AAAA records](/articles/aaaa-record/) for the source hostname (e.g., `www.example.com`) to point to the IP addresses of our redirector service.
@@ -30,7 +30,7 @@ The magic of URL records happens through DNSimple's dedicated redirector service
 
 From the user's perspective, accessing the source hostname seamlessly directs them to the new destination URL.
 
-## Key use cases and benefits
+## Key use cases and benefits {#key-use-cases-and-benefits}
 URL records are useful for various web redirection scenarios:
 
 **Redirecting www to naked domain:** Redirect `www.example.com` to `example.com` (or vice-versa).
@@ -43,13 +43,13 @@ URL records are useful for various web redirection scenarios:
 
 For more detailed information about the DNSimple redirector service, including supported redirect types and any specific limitations, see our [Redirector Article](/articles/redirector/).
 
-## Managing URL records
+## Managing URL records {#managing-url-records}
 For step-by-step instructions on how to add, remove, and update URL records in your DNSimple account, refer to our dedicated How-To Guide: [Managing URL Records](/articles/manage-url-record/).
 
-## URL record format and technical details
+## URL record format and technical details {#url-record-format-and-technical-details}
 The URL record is a special DNSimple record type and is not defined by any RFC.
 
 For a detailed breakdown of the elements configurable for a URL record in DNSimple, and further technical insights into how DNSimple exposes these records as underlying A and AAAA records, consult our Reference Guide: [URL Record Format and Technical Details](/articles/url-record-format-details/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your URL records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your URL records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

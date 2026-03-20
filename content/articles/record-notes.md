@@ -8,14 +8,14 @@ categories:
 
 # Record Notes
 
-When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor/), you can include a note to provide context for the change. They can be used to explain why a record exists, what it's used for, or any other information that might be useful to you or your team.
+When creating, updating, or deleting a DNS record from the [DNS record editor](/articles/record-editor/), you can include a note to provide context for the change. They can be used to explain why a record exists, what it is used for, or any other information that might be useful to you or your team.
 
-## Video walk-through
+## Video walk-through {#video-walk-through}
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/-97jhZOmcm0?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about record notes or how they work, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about record notes or how they work, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

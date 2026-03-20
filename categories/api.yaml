@@ -1,11 +1,19 @@
 Getting started:
 - "API Documentation"
 - "API Access Token"
-- "API Sandbox"
 - "OAuth Applications"
+
+Explanation:
+- "What Is the DNSimple Sandbox API?"
+
+Tutorial:
+- "Getting Started With the DNSimple Sandbox API"
 
 Webhooks:
 - "Webhooks and API Events"
+
+Reference:
+- "Sandbox API Common Pitfalls"
 
 Troubleshooting:
 - "API Errors"

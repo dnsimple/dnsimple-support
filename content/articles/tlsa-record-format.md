@@ -9,7 +9,7 @@ categories:
 
 A [Transport Layer Security Authentication (TLSA) record](/articles/tlsa-record/) is a DNS record type that associates a TLS server certificate or public key with a domain name, enabling **[DNS-Based Authentication of Named Entities (DANE)](/articles/what-is-dane/)**. This document details the formal structure and the components within a TLSA record.
 
-## TLSA record structure
+## TLSA record structure {#tlsa-record-structure}
 
 A TLSA record in a DNS zone file typically follows this structure:
 `<name>` `<TTL>` `IN TLSA` `<usage>` `<selector>` `<matching type>` `<certificate association data>`
@@ -25,7 +25,7 @@ A TLSA record in a DNS zone file typically follows this structure:
 | matching type | The matching type field defines how the certificate data is represented in the record. | An unsigned 8-bit integer (0-2). See [Matching Type Field Values](#matching-type-field-values) below for details. |
 | certificate association data | The certificate data or hash value that should be matched against the server's certificate. | The format depends on the matching type. Can be the full certificate, a SHA-256 hash, or a SHA-512 hash, represented as hexadecimal. |
 
-## Usage field values
+## Usage field values {#usage-field-values}
 
 The usage field determines how the TLSA record is used in the certificate validation process:
 
@@ -36,7 +36,7 @@ The usage field determines how the TLSA record is used in the certificate valida
 | 2 | DANE-TA (trust anchor assertion) | The certificate association data represents a trust anchor that must appear in the server's certificate chain. Unlike usage 0, PKIX validation is not required; the client trusts the specified CA based solely on the TLSA record. |
 | 3 | DANE-EE (domain-issued certificate) | The certificate association data represents the end-entity certificate that must match the server's certificate. Unlike usage 1, PKIX validation is not required; the client trusts the certificate based solely on the TLSA record. |
 
-## Selector field values
+## Selector field values {#selector-field-values}
 
 The selector field specifies which part of the certificate should be used for matching:
 
@@ -45,7 +45,7 @@ The selector field specifies which part of the certificate should be used for ma
 | 0 | Full certificate | The entire certificate (including the signature) is used for matching. |
 | 1 | SubjectPublicKeyInfo | Only the SubjectPublicKeyInfo structure (the public key and its algorithm identifier) from the certificate is used for matching. |
 
-## Matching type field values
+## Matching type field values {#matching-type-field-values}
 
 The matching type field defines how the certificate data is represented in the TLSA record:
 
@@ -55,7 +55,7 @@ The matching type field defines how the certificate data is represented in the T
 | 1 | SHA-256 hash | The certificate association data contains a SHA-256 hash of the certificate or public key, represented as 64 hexadecimal characters (32 bytes). |
 | 2 | SHA-512 hash | The certificate association data contains a SHA-512 hash of the certificate or public key, represented as 128 hexadecimal characters (64 bytes). |
 
-## Example TLSA records
+## Example TLSA records {#example-tlsa-records}
 
 ### Example 1: HTTPS service with SHA-256 hash of full certificate
 
@@ -103,7 +103,7 @@ _25._tcp.mail.example.com.  3600  IN  TLSA  1  1  1  f9e8d7c6b5a4...
 - `1` (**Matching Type**): SHA-256 hash of the public key.
 - `f9e8d7c6b5a4...` (**Certificate Association Data**): The SHA-256 hash of the public key (64 hexadecimal characters).
 
-## Important considerations for TLSA records
+## Important considerations for TLSA records {#important-considerations-for-tlsa-records}
 
 ### DNSSEC requirement
 
@@ -128,11 +128,11 @@ The certificate association data must be represented as hexadecimal characters. 
 
 A domain can have multiple TLSA records for the same service, allowing for certificate rollover or multiple valid certificates. Clients will accept a connection if any of the TLSA records match the server's certificate.
 
-## References
+## References {#references}
 
 **[RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)**: The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA (The primary specification for TLSA records).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

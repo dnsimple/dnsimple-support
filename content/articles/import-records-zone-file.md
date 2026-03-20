@@ -8,12 +8,12 @@ categories:
 
 # Import Zone File
 
-## Importing records from a zone file
+## Importing records from a zone file {#importing-records-from-a-zone-file}
 
 You can add records to your domain by importing a [zone file](/articles/what-is-zone-file/) using the [Record Editor](/articles/record-editor/).
 
 > [!NOTE]
-> Importing a zone file won't delete or replace the existing domain's records.
+> Importing a zone file will not delete or replace the existing domain's records.
 
 > [!NOTE]
 > As an alternative to manually importing zone files, you can use [Auto-Importing DNS Records](/articles/auto-import-dns/) to automatically scan and import your existing DNS records. To export your domain's records to a zone file, see [Export Zone File](/articles/export-records-zone-file/).
@@ -36,5 +36,5 @@ You can add records to your domain by importing a [zone file](/articles/what-is-
 
 </div>
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

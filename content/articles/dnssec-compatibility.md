@@ -20,6 +20,6 @@ Not all DNSimple features are compatible with DNSSEC. The following table summar
 | [Control Plane](/articles/integrated-dns-providers/) | No | Multi-signer DNSSEC ([RFC 8901](https://www.rfc-editor.org/rfc/rfc8901.html)) is not supported by the current integrated providers, as they do not allow importing external keys into their DNSKEY RRset. DNSSEC record types are not synced between DNSimple and the external provider, and DNSSEC must be configured directly with each provider. |
 | [Reverse DNS](/articles/reverse-dns/) | No | Reverse DNS zones do not currently support DNSSEC. |
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about DNSSEC compatibility with DNSimple features, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about DNSSEC compatibility with DNSimple features, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

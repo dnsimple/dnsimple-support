@@ -11,7 +11,7 @@ categories:
 [Auto-importing DNS records](/articles/why-auto-import/) helps reduce downtime on your domain transfer or when hosting the DNS for your domain with us. Instead of manually entering DNS records or importing them in [BIND](https://en.wikipedia.org/wiki/BIND) format, we scan existing records and import them for you.
 
 > [!NOTE]
-> Legacy Plans don't have access to this feature. You must be subscribed to one of our [current plans](https://dnsimple.com/pricing) to use this tool.
+> Legacy Plans do not have access to this feature. You must be subscribed to one of our [current plans](https://dnsimple.com/pricing) to use this tool.
 
 **We can import these DNS record types**:
 
@@ -31,7 +31,7 @@ categories:
 
 You can auto-import the zone for your domain any time by clicking on **Auto-import DNS** from the Record Editor.
 
-## How to auto-import DNS records
+## How to auto-import DNS records {#how-to-auto-import-dns-records}
 1. If you have multiple accounts, use the **account switcher** at the top-right corner to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
@@ -46,14 +46,14 @@ You can auto-import the zone for your domain any time by clicking on **Auto-impo
 
 1. Once you have all the necessary records, click **Import DNS records** to add them to your domain zone.
 
-## Managing conflicts
+## Managing conflicts {#managing-conflicts}
 
-If auto-importing a record conflicts with an existing record on your domain, we ask you to confirm which record to keep. By default, we don't override the records on your domain — you must select the record that applies in your context.
+If auto-importing a record conflicts with an existing record on your domain, we ask you to confirm which record to keep. By default, we do not override the records on your domain — you must select the record that applies in your context.
 
 ![Overview](/files/auto-import-dns-conflict.png)
 
 After choosing which record to keep, click **Import DNS records** to add them to your domain zone.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about how to auto-import your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about how to auto-import your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

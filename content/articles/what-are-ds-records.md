@@ -14,9 +14,9 @@ A Delegation Signer (DS) record is a critical DNSSEC record that connects your d
 
 This digest enables DNS resolvers to verify the authenticity and integrity of your [DNSKEY](/articles/dnskey-records-explained/) without requiring access to the key itself. The DS record extends DNSSEC's [chain of trust](/articles/dnssec-chain-of-trust/) by letting the parent zone "vouch" for your domain's keys.
 
-## The DNS hierarchy
+## The DNS hierarchy {#the-dns-hierarchy}
 
-To understand DS records, it's important to understand how the DNS system is structured.
+To understand DS records, it is important to understand how the DNS system is structured.
 
 - At the top is the root zone (".").
 - Below that are top-level domains (TLDs) like .com, .net, or .org, known as parent zones.
@@ -24,19 +24,19 @@ To understand DS records, it's important to understand how the DNS system is str
 
 In a DNSSEC-enabled setup, each layer can validate the one below it. The DS record allows the parent zone to securely delegate trust to your domain by linking to your domain's [DNSSEC keys](/articles/types-of-dnssec-keys/).
 
-## Why DS records matter
+## Why DS records matter {#why-ds-records-matter}
 
-When DNSSEC is enabled for your domain, DNS resolvers can verify that your DNS records haven't been forged or modified. This is possible because your records are cryptographically signed using private keys, and the corresponding public key (your KSK) is published in your domain via DNSKEY records.
+When DNSSEC is enabled for your domain, DNS resolvers can verify that your DNS records have not been forged or modified. This is possible because your records are cryptographically signed using private keys, and the corresponding public key (your KSK) is published in your domain via DNSKEY records.
 
-But publishing a DNSKEY alone isn't enough. For DNS resolvers to trust your DNSKEY, they need a verified reference to it from the parent zone. That's the role of the DS record.
+But publishing a DNSKEY alone is not enough. For DNS resolvers to trust your DNSKEY, they need a verified reference to it from the parent zone. That is the role of the DS record.
 
-Without a DS record in the parent zone, or if the DS record doesn't match your current KSK, DNS resolvers will reject your domain's DNSSEC signatures. This can make your domain unreachable to users using DNSSEC-validating resolvers.
+Without a DS record in the parent zone, or if the DS record does not match your current KSK, DNS resolvers will reject your domain's DNSSEC signatures. This can make your domain unreachable to users using DNSSEC-validating resolvers.
 
-## How DS records establish trust
+## How DS records establish trust {#how-ds-records-establish-trust}
 
 Enabling DNSSEC involves a series of steps that lead to the creation and publication of a DS record.
 
-Here's how it works:
+Here is how it works:
 
 1. **Generate DNSSEC keys**
   When you enable DNSSEC on your domain, two key pairs are created:
@@ -61,11 +61,11 @@ Here's how it works:
     - Fetches the DNSKEY from your domain zone
     - Compares the DS digest to your DNSKEY
 
-The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record doesn't contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
+The resolver creates a digest of the DNSKEY using the same hash algorithm and digest type specified in the DS record. Even though the DS record does not contain the full public key, it includes a cryptographic hash of it. By hashing the DNSKEY locally and comparing it to the digest in the DS record, the resolver can confirm the two are linked.
 
-If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they don't match — for example, if you accidentally introduced an error while copying and pasting the DS record to be created in the parent zone — resolvers won't trust your domain's DNSSEC signatures, and your domain may become unreachable.
+If the created digest matches the DS record, the resolver trusts your DNSKEY and the DNS records it signs. If they do not match — for example, if you accidentally introduced an error while copying and pasting the DS record to be created in the parent zone — resolvers will not trust your domain's DNSSEC signatures, and your domain may become unreachable.
 
-## DS-data vs. KEY-data
+## DS-data vs. KEY-data {#ds-data-vs-key-data}
 
 DNSKEY records contain a zone's public KSK and ZSK. DS records contain a digest of the public KSK. The contents of these records are stored in different formats:
 
@@ -74,7 +74,7 @@ DNSKEY records contain a zone's public KSK and ZSK. DS records contain a digest 
 
 However, when setting up DNSSEC on a child zone, registries can require you to provide your zone's public KSK in either format.
 
-Here's how they work:
+Here is how they work:
 
 ### KEY-data format
 
@@ -83,7 +83,7 @@ The KEY-data format refers to the actual public key information stored in DNSKEY
 The DNSKEY RDATA consists of:
 
 **Flags**
-Set to either **257** to indicate it's a Key-Signing Key, or **256** to indicate it's a Zone-Signing Key
+Set to either **257** to indicate it is a Key-Signing Key, or **256** to indicate it is a Zone-Signing Key
 
 **Protocol**
 Always **3**, indicating DNSSEC.
@@ -126,7 +126,7 @@ Specifies the hash algorithm used to generate the digest. Commonly **2** (SHA-25
 **Digest**
 A hash (digest) of the public part of the KSK. This is what the parent zone publishes.
 
-If we check the DS record for the same domain, here's what we might see:
+If we check the DS record for the same domain, here is what we might see:
 
 ```
 dig DS howdnssec.works +short
@@ -138,9 +138,9 @@ In this answer, we can see that the `howdnssec.works` zone has a DS record with 
 
 **Key Tag**: 48170, **Algorithm**: 8, **Digest type**: 2, **Digest**: `1D4DE33...BE678D4`
 
-## Learn more
+## Learn more {#learn-more}
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For step-by-step instructions on managing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/). For information about managing DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions?
-If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

@@ -13,11 +13,11 @@ categories:
 
 ---
 
-A Reverse DNS (rDNS) lookup is the process of querying the [Domain Name System (DNS)](/articles/what-is-dns/) to determine the hostname associated with a given IP address. It's the opposite of a standard, or forward, DNS lookup, which translates a hostname (like `www.example.com`) into an IP address.
+A Reverse DNS (rDNS) lookup is the process of querying the [Domain Name System (DNS)](/articles/what-is-dns/) to determine the hostname associated with a given IP address. It is the opposite of a standard, or forward, DNS lookup, which translates a hostname (like `www.example.com`) into an IP address.
 
 Reverse DNS lookups are made possible by a specific type of DNS resource record called a PTR (Pointer) record (Type 12). A PTR record is the key data entry that allows an IP address to be mapped back to its corresponding hostname.
 
-## How reverse DNS lookups work (and what PTR records contain)
+## How reverse DNS lookups work (and what PTR records contain) {#how-reverse-dns-lookups-work-and-what-ptr-records-contain}
 While most DNS records map names to IP addresses within a domain's traditional forward DNS zone (e.g., `example.com`), PTR records live in dedicated **reverse DNS zones**.
 
 To facilitate this reverse mapping, IP addresses are transformed into special domain names within specific top-level domains:
@@ -41,7 +41,7 @@ For an IPv6 address like `2001:db8::1` (which is shorthand for `2001:0db8:0000:0
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.b.d.0.1.0.0.2.ip6.arpa. IN PTR ipv6host.example.com.
 ```
 
-## Why are reverse DNS lookups important?
+## Why are reverse DNS lookups important? {#why-are-reverse-dns-lookups-important}
 Reverse DNS and PTR records are critical for several fundamental internet operations, primarily concerning security, trust, and logging.
 
 ### Email anti-spam verification
@@ -56,7 +56,7 @@ System administrators use reverse DNS to identify unknown connections to their s
 ### Certain application protocols
 Some specialized or older network protocols and applications might rely on successful reverse DNS resolution for authentication, authorization, or proper functionality.
 
-## Who manages reverse DNS (and PTR records)?
+## Who manages reverse DNS (and PTR records)? {#who-manages-reverse-dns-and-ptr-records}
 Unlike forward DNS records for your domain name, which you typically manage directly with your DNS provider (like DNSimple), **control over reverse DNS zones (and PTR records) is tied to who owns or allocates your IP address block.**
 
 **Reverse DNS entries are generally managed by:**
@@ -65,21 +65,21 @@ Unlike forward DNS records for your domain name, which you typically manage dire
 - **Your hosting company**: If you have a dedicated server or Virtual Private Server (VPS).
 - **Your organization**: If your organization has been directly allocated public IP address blocks by a Regional Internet Registry (RIR).
 
-## Managing PTR records with DNSimple
-DNSimple supports managing reverse DNS entries (i.e., PTR records), but it's crucial to understand how this differs from managing your domain's forward DNS. The authority for PTR records lies with the entity that controls your IP address block.
+## Managing PTR records with DNSimple {#managing-ptr-records-with-dnsimple}
+DNSimple supports managing reverse DNS entries (i.e., PTR records), but it is crucial to understand how this differs from managing your domain's forward DNS. The authority for PTR records lies with the entity that controls your IP address block.
 
 **If you want DNSimple to manage your PTR records**:
 - **Subscription plan**: This feature is available on certain [DNSimple plans](https://dnsimple.com/pricing).
 - **Delegation is required**: You must be able to delegate the portion of your subnet (IP address block) that you want DNSimple to respond to for reverse DNS queries. This involves instructing your IP address provider (your Internet Service Provider, hosting company, or cloud provider) to point the reverse DNS for your IP range to DNSimple's nameservers.
-- **No direct control**: Depending on your IP address provider or hosting company, you may not have direct control over your subnet's reverse DNS delegation. In that case, you'll need to ask your hosting company or IP address provider to set up the reverse DNS entries you require directly with them.
+- **No direct control**: Depending on your IP address provider or hosting company, you may not have direct control over your subnet's reverse DNS delegation. In that case, you will need to ask your hosting company or IP address provider to set up the reverse DNS entries you require directly with them.
 
 > [!NOTE]
 > In scenarios where DNSimple is acting as a secondary DNS provider for your forward domain, it will only handle the records within that forward zone. PTR record management for your IP addresses will still need to be handled as described above.
 
-## A key best practice
+## A key best practice {#a-key-best-practice}
 Reverse DNS lookups, powered by PTR records, are a fundamental and vital component of the internet's infrastructure. They enable the essential translation of IP addresses back to hostnames, playing a critical role in email deliverability, server logging, and network security.
 
 While DNSimple supports managing PTR records, doing so requires proper delegation from your IP address provider and may depend on your subscription plan. Ensuring correct PTR record configuration for your public-facing servers is a key best practice for reliable online operations.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -19,7 +19,7 @@ To add an SRV record in DNSimple:
 1. Click **Add Record** at the bottom of the page to save it.
 
 > [!NOTE]
-> After the record is added, you'll be returned to the Domain List, and a banner will confirm the record was successfully added.
+> After the record is added, you will be returned to the Domain List, and a banner will confirm the record was successfully added.
 
 Example SRV record form:
 ![Add SRV record](/files/srv-record.png)
@@ -29,5 +29,5 @@ The given example results in this SRV record:
 _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
 ```
 
-## Have more questions?
-If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

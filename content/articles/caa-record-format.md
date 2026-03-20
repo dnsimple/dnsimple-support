@@ -8,7 +8,7 @@ categories:
 # CAA Record Format and Policy Tags
 A [Certification Authority Authorization (CAA) record](/articles/caa-record/) is a DNS record used to specify which Certificate Authorities (CAs) are authorized to issue certificates for a domain. This document details the formal structure and the specific policy tags used within CAA records.
 
-## CAA record format
+## CAA record format {#caa-record-format}
 All CAA records must adhere to a specific pattern in their RDATA (Resource Data) section:
 `<flags>` `<tag>` `<value>`
 
@@ -18,12 +18,12 @@ All CAA records must adhere to a specific pattern in their RDATA (Resource Data)
 | `tag` | String | An ASCII string that defines the meaning of the value. | Must be an ASCII string. Defined tags include `issue`, `issuewild`, `issuemail`, `iodef`, `contactemail`, and `contactphone`. |
 | `value` | String | The value associated with the tag. | The format and content depend on the specific `tag` used. |
 
-## CAA record flags
+## CAA record flags {#caa-record-flags}
 The `flags` byte provides specific instructions for CAs processing the record:
 - **`0` (no flags set)**: This is the default. CAs process the record as usual.
-- **`128` (critical flag)**: If this flag is set for a tag that a CA does not understand or support, the CA **must** refuse to issue the certificate. This prevents CAs from ignoring policies they don't explicitly recognize.
+- **`128` (critical flag)**: If this flag is set for a tag that a CA does not understand or support, the CA **must** refuse to issue the certificate. This prevents CAs from ignoring policies they do not explicitly recognize.
 
-## CAA record tags and their values
+## CAA record tags and their values {#caa-record-tags-and-their-values}
 CAA records support several defined tags, each serving a specific purpose related to certificate issuance or reporting.
 
 ### `issue` tag: restricting general certificate issuance
@@ -66,7 +66,7 @@ The `contactphone` tag allows domain owners to specify a phone number that Certi
     - **Example**: `"+1 555 123 4567"`
     - **Example**: `"+44 20 7946 0958"`
 
-## CAA record examples
+## CAA record examples {#caa-record-examples}
 Common CAA record configurations
 
 > [!NOTE]
@@ -83,13 +83,13 @@ Common CAA record configurations
 | **Disallow all S/MIME cert issuance** | `example.com / 0 / issuemail / ";"` | `example.com. CAA 0 issuemail ";"` | Explicitly prevents any Certificate Authority from issuing S/MIME certificates for this domain or its subdomains (as per RFC 9495). |
 | **Disallow all certificate issuance** | `example.com / 0 / issue / ";"<br>example.com / 0 / issuewild / ";"<br>example.com / 0 / issuemail / ";"`| `example.com. CAA 0 issue ";"<br>example.com. CAA 0 issuewild ";"<br>example.com. CAA 0 issuemail ";"` |
 
-## Quotes and special characters in CAA values
+## Quotes and special characters in CAA values {#quotes-and-special-characters-in-caa-values}
 - **Double quotes/backslashes**: If your CA or provider gives you a CAA record value with double quotes around the entire string, or backslashes before semi-colons (e.g., `";"` or `k=rsa\;`), you can safely remove them when entering the value into DNSimple's content field. DNSimple's name servers handle these automatically.
 - **Other characters**: Do not modify forward slashes or other unusual characters that are part of the legitimate value string (e.g., within a `validationmethods` parameter or an `iodef` URL).
 
-## References
+## References {#references}
 [RFC 8659](https://datatracker.ietf.org/doc/html/rfc8659): CAA Resource Record for DNS (primary specification for CAA records).
 [RFC 9495](https://datatracker.ietf.org/doc/html/rfc9495): Mail Certification Authority Authorization (Mail CAA) (specifics for `issuemail` tag).
 
-## Have more questions?
-If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

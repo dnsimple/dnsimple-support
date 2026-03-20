@@ -13,9 +13,9 @@ A distributed denial-of-service (DDoS) attack is a malicious attempt to overwhel
 
 DNSimple provides defense against these attacks at no additional cost and without any special configuration. Our protection is automatically enabled for all domains.
 
-## How our DDoS protection works
+## How our DDoS protection works {#how-our-ddos-protection-works}
 
-DNSimple's DDoS defense system acts as a protective layer that sits in front of all our name servers. When a DNS query is sent, our [Anycast network](/articles/why-anycast-dns/) (automatically routes the request to the nearest of our [points of presence (POPs)](/articles/anycast/). At this point, the request is analyzed before it's allowed to reach our authoritative name servers.
+DNSimple's DDoS defense system acts as a protective layer that sits in front of all our name servers. When a DNS query is sent, our [Anycast network](/articles/why-anycast-dns/) (automatically routes the request to the nearest of our [points of presence (POPs)](/articles/anycast/). At this point, the request is analyzed before it is allowed to reach our authoritative name servers.
 
 Think of it like a security checkpoint:
 
@@ -25,11 +25,11 @@ Think of it like a security checkpoint:
 
 This multilayered defense, powered by Anycast routing, ensures that your domain remains online and your legitimate customers continue to receive fast DNS responses, even during an attack.
 
-## Multi-provider protection
+## Multi-provider protection {#multi-provider-protection}
 
 DNSimple's name servers and DDoS protection infrastructure are distributed in multiple locations around the world. We are always working to introduce additional providers for zones where complete redundancy is critical.
 
-If you're interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
+If you are interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
 
-## Have more questions? 
-If you have additional questions or need any assistance with your domain security, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your domain security, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

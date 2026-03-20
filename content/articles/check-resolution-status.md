@@ -10,7 +10,7 @@ categories:
 
 The [resolution status](/articles/resolution-status/) shows the name servers currently configured at the registry. Name servers are responsible for answering DNS queries for your domain. They are essential for your domain to function correctly.
 
-## Domains registered with DNSimple
+## Domains registered with DNSimple {#domains-registered-with-dnsimple}
 
 If you registered the domain with us, we automatically set the name servers to DNSimple. To find this information:
 
@@ -25,16 +25,16 @@ If you updated the name servers to another provider, those will appear as well.
 ![list of external nameservers](/files/external-nameservers.png)
 
 > [!WARNING]
-> If you transferred the domain to us, we don't automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
+> If you transferred the domain to us, we do not automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
-## Domains registered with another registrar
+## Domains registered with another registrar {#domains-registered-with-another-registrar}
 
-If the domain is registered with another registrar and you're using DNSimple only for DNS hosting, we currently don't display the name servers for your domain. However, you can check the name servers by accessing the public [WHOIS](https://dnsimple.com/whois).
+If the domain is registered with another registrar and you are using DNSimple only for DNS hosting, we currently do not display the name servers for your domain. However, you can check the name servers by accessing the public [WHOIS](https://dnsimple.com/whois).
 
  If you would like to transfer the domain registration to us, [follow these instructions](/articles/domain-transfer/).
 
-If you're experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
+If you are experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

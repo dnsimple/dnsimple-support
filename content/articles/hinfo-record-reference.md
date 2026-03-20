@@ -9,7 +9,7 @@ categories:
 # HINFO Record Reference
 This article serves as a reference for the formal structure, format, and key technical details of [HINFO (Host Information) records](/articles/hinfo-records/).
 
-## HINFO record format
+## HINFO record format {#hinfo-record-format}
 HINFO records have a type code of 13 and are defined in RFC 1035. The record's data section (RDATA) is composed of two primary components: a description of the CPU and a description of the operating system.
 
 The canonical representation is:
@@ -35,8 +35,8 @@ server.example.com. IN HINFO "SPARCstation-20" "Solaris 2.5.1"
 ```
 In this example, the record for `server.example.com` specifies the hardware as a SPARCstation-20 and the operating system as Solaris 2.5.1.
 
-## Security considerations
+## Security considerations {#security-considerations}
 Due to the sensitive information they can reveal, HINFO records are considered a security risk when used on publicly accessible servers. The information about a host's hardware and OS can be used by malicious actors to identify potential vulnerabilities and exploit them.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

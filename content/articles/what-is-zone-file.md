@@ -16,7 +16,7 @@ A zone file is a plain text file that serves as the authoritative blueprint for 
 
 These text files adhere to a standardized format, most commonly the BIND format (named after the Berkeley Internet Name Domain software, a widely used DNS implementation). This standardization ensures that zone files can be understood and processed by virtually any DNS server software worldwide.
 
-## What is inside a zone file?
+## What is inside a zone file? {#what-is-inside-a-zone-file}
 A zone file systematically lists every DNS record for a domain, providing comprehensive information necessary for name resolution. It typically includes:
 - [**SOA (Start of Authority) record**](/articles/soa-record/): Provides administrative information about the zone itself, such as the primary name server, the domain administrator's email, and various timers for zone transfers and caching.
 - [**NS (Name Server) records**](/articles/ns-record/): Specifies the authoritative name servers for the domain, delegating DNS control.
@@ -27,7 +27,7 @@ A zone file systematically lists every DNS record for a domain, providing compre
 
 And other specialized [record types](/articles/supported-dns-records/) as needed.
 
-## Key uses and benefits of zone files
+## Key uses and benefits of zone files {#key-uses-and-benefits-of-zone-files}
 Zone files, due to their comprehensive and standardized nature, are incredibly useful for several key DNS management tasks:
 
 - **Domain migration:** If you need to move your domain's DNS management from one provider to another, a common and efficient method is to export your domain's [zone file](/articles/export-records-zone-file/) from your current provider and then [import](/articles/import-records-zone-file/) it into the new one (like DNSimple). This allows for bulk transfer of all your records, saving significant time and reducing errors compared to recreating each record manually.
@@ -36,8 +36,8 @@ Zone files, due to their comprehensive and standardized nature, are incredibly u
 
 - **Advanced configuration:** While most users manage their DNS through user-friendly interfaces (like DNSimple's dashboard), zone files offer a low-level, complete representation for advanced users or for debugging complex DNS setups.
 
-## DNSimple and zone files
+## DNSimple and zone files {#dnsimple-and-zone-files}
 DNSimple supports importing and exporting zone files, making it straightforward to migrate your existing domains to our platform or to create comprehensive backups of your DNS records. While you interact with your records through our [record editor](/articles/record-editor/), our system manages the underlying zone file that defines your domain's authoritative DNS.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -11,7 +11,7 @@ A NAPTR (Naming Authority Pointer, record type 35) record is a type of DNS resou
 
 A NAPTR record helps a client find the correct server for a service. Instead of saying "go here," it says, "take this input, apply this rule, and then based on the result, you might need to go here or do this next."
 
-## What information does a NAPTR record contain?
+## What information does a NAPTR record contain? {#what-information-does-a-naptr-record-contain}
 
 A NAPTR record is complex because it includes multiple fields that dictate its behavior:
 
@@ -32,7 +32,7 @@ A NAPTR record is complex because it includes multiple fields that dictate its b
 
 **Replacement (FQDN - character string)**: A Fully Qualified Domain Name (FQDN) that specifies the next domain name to query. This field is used when the `Regexp` field is empty (i.e., for a simple, non-regex-based replacement) or if the regular expression matches and indicates a simple replacement. The `Regexp` and `Replacement` fields are mutually exclusive – only one can contain a value.
 
-## How NAPTR records work
+## How NAPTR records work {#how-naptr-records-work}
 The client (e.g., a VoIP phone, a browser plugin, or an application capable of using NAPTR) queries DNS for NAPTR records for a specific domain or string.
 1. **Ordering**: The client receives multiple NAPTR records and processes them in the order specified by the `Order` field (lowest first), then by `Preference` for ties.
 1. **Application of rule**: For the chosen NAPTR record, the `Regexp` field (if present) is applied to the original query string. If `Regexp` is empty, the `Replacement` field is used directly.
@@ -46,7 +46,7 @@ This chaining and rewriting capability makes NAPTR records extremely flexible fo
 **Example**:
 A common use case for NAPTR records is in ENUM (E.164 Number Mapping), which maps telephone numbers to internet-based services (like SIP or email).
 
-Let's say a VoIP client wants to call the telephone number `+1-555-123-4567`. This number might first be transformed into a domain name following ENUM rules: 
+Let us say a VoIP client wants to call the telephone number `+1-555-123-4567`. This number might first be transformed into a domain name following ENUM rules: 
 
 `7.6.5.4.3.2.1.5.5.5.1.e164.arpa`. The client then queries for NAPTR records at this domain.
 
@@ -60,9 +60,9 @@ Let's say a VoIP client wants to call the telephone number `+1-555-123-4567`. Th
 - Its Flags field is `"u"` (URI), Service is `"E2U+sip"` (ENUM to SIP URI), and `Regexp !^.*$!sip:jdoe@example.com!`
 - The `Regexp` takes the original query string (7.6.5.4.3.2.1.5.5.5.1.e164.arpa.) and rewrites it to sip:`jdoe@example.com.`
 - Because the flag is `"u"`, the client now has a SIP URI and can attempt to initiate a call directly to `jdoe@example.com.`
-- If the first record didn't work or wasn't suitable, the client might then consider the second record (same Order, Preference 20). This record's `"s"` flag indicates it points to an SRV record, suggesting an email service.
+- If the first record did not work or was not suitable, the client might then consider the second record (same Order, Preference 20). This record's `"s"` flag indicates it points to an SRV record, suggesting an email service.
 
-## Why are NAPTR records used?
+## Why are NAPTR records used? {#why-are-naptr-records-used}
 NAPTR records provide a powerful, flexible mechanism that simple A or CNAME records cannot provide. Their flexibility makes them useful in several key scenarios:
 
 **Service discovery**: They allow clients to dynamically discover which services (e.g., voice, video, instant messaging) are available for a given domain or identifier and how to connect to them.
@@ -75,14 +75,14 @@ NAPTR records provide a powerful, flexible mechanism that simple A or CNAME reco
 
 **Chaining with SRV records**: Often, NAPTR records are the first step in a multi-step lookup process that then points to SRV records, which provide details about service hosts and ports.
 
-## NAPTR vs. SRV records
+## NAPTR vs. SRV records {#naptr-vs-srv-records}
 While both NAPTR and SRV records are used for service discovery, they operate at different levels:
 
 **[SRV (Service) records](/articles/srv-record/)** directly specify the hostname and port of a server providing a specific service (e.g., where to find a SIP server for `example.com`). They provide a direct answer for a known service.
 
-**NAPTR records** provide a more abstract and flexible mechanism. They don't directly point to a host/port but provide rules to discover how to connect to a service, potentially involving rewriting the query and chaining to other DNS records (including SRV records) or directly yielding a URI. NAPTRs often act as the front door for complex service routing.
+**NAPTR records** provide a more abstract and flexible mechanism. They do not directly point to a host/port but provide rules to discover how to connect to a service, potentially involving rewriting the query and chaining to other DNS records (including SRV records) or directly yielding a URI. NAPTRs often act as the front door for complex service routing.
 
 NAPTR (Type 35) records are a sophisticated DNS resource type that enables flexible and dynamic service discovery, particularly prominent in Voice over IP (VoIP) and telecom services. They provide powerful rewriting rules to guide clients from an initial query string to a specific service endpoint or URI using regular expressions and flags. Understanding NAPTR records is key to comprehending how complex, multi-protocol services are located and connected across the internet.
 
-## Have more questions? 
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

@@ -12,7 +12,7 @@ categories:
 
 Traditionally, DNS records map a domain name to a static, unchanging IP address. However, many Internet Service Providers (ISPs) assign dynamic IP addresses to their residential and small business customers. These IP addresses can change frequently (e.g., daily, weekly, or after a router restart), which would normally break any services linked to a domain name. Dynamic DNS solves this problem by automating the update process, ensuring your domain always points to the correct, current IP address.
 
-## How Dynamic DNS works
+## How Dynamic DNS works {#how-dynamic-dns-works}
 
 Dynamic DNS involves coordination between your network, a specialized client, and a DDNS service provider like DNSimple:
 
@@ -29,9 +29,9 @@ DNSimple facilitates Dynamic DNS primarily through its [comprehensive API](https
 For details on all the functionality of our API and different tools to set up basic Dynamic IP with our API check out [the tools page on our developer site](https://developer.dnsimple.com/tools/).
 
 > [!NOTE]
-> We don't support the dyndns API. This is what most routers use when they talk about DDNS.
+> We do not support the dyndns API. This is what most routers use when they talk about DDNS.
 
-## Why use Dynamic DNS?
+## Why use Dynamic DNS? {#why-use-dynamic-dns}
 
 Dynamic DNS provides significant benefits for users ranging from individuals to enterprises:
 
@@ -40,5 +40,5 @@ Dynamic DNS provides significant benefits for users ranging from individuals to 
 - **Cost-effective hosting:** Enables you to host websites, personal cloud storage, security cameras, or other services from a home or office network without incurring the higher costs associated with static IP addresses from ISPs.
 - **Remote access:** Easily access devices or resources on your home or small business network remotely by using your domain name, rather than having to discover a constantly changing IP.
 
-## Have more questions?
-If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

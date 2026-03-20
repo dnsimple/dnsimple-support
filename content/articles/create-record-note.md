@@ -16,5 +16,5 @@ categories:
 1. To add a note when creating a record, click **Add Record**, create your record, and enter your note in the **Notes** field.
     ![Record notes](/files/record-notes.png)
 
-## Have more questions?
-If you have additional questions or need any assistance with record notes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with record notes, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

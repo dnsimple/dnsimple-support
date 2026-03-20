@@ -15,7 +15,7 @@ categories:
 
 ---
 
-## Core Concepts
+## Core Concepts {#core-concepts}
 
 ### Domain Name
 
@@ -110,7 +110,7 @@ Learn more:
 - [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/)
 - [Domain Expiration Reference](/articles/domain-expiration-reference/)
 
-## Domain Status & Periods
+## Domain Status & Periods {#domain-status-periods}
 
 ### Grace Period
 
@@ -137,7 +137,7 @@ Learn more:
 
 - [Domain Expiration Reference](/articles/domain-expiration-reference/#deletion-period)
 
-## Domain Contacts
+## Domain Contacts {#domain-contacts}
 
 ### Registrant
 
@@ -172,7 +172,7 @@ Learn more:
 
 - [Domain Contact Types Reference](/articles/domain-contact-types-reference/)
 
-## Domain Transfers
+## Domain Transfers {#domain-transfers}
 
 ### Authorization Code
 
@@ -208,7 +208,7 @@ Learn more:
 - [Domain Transfer Reference](/articles/domain-transfer-reference/)
 - [ICANN 60-Day Lock After Change of Registrant](/articles/icann-60-day-lock-registrant-change/)
 
-## Domain Security & Privacy
+## Domain Security & Privacy {#domain-security-privacy}
 
 ### WHOIS
 
@@ -234,7 +234,7 @@ Learn more:
 
 - [DNSimple SuperLock](/articles/superlock/)
 
-## Domain Management
+## Domain Management {#domain-management}
 
 ### Auto-Renewal
 
@@ -260,6 +260,6 @@ Learn more:
 
 - [Domain Validation Requirements](/articles/icann-domain-validation/)
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with domain-related terms, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with domain-related terms, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

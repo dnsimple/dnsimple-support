@@ -10,11 +10,11 @@ categories:
 
 This article serves as a reference for the formal process, requirements, timelines, and key technical details of domain transfers.
 
-## Domain transfer overview
+## Domain transfer overview {#domain-transfer-overview}
 
 A domain transfer is the process of moving a domain name registration from one registrar to another. When you transfer a domain to DNSimple, DNSimple becomes the domain registrar, and you can manage your entire domain configuration in your DNSimple account.
 
-## Transfer requirements and restrictions
+## Transfer requirements and restrictions {#transfer-requirements-and-restrictions}
 
 ### Time-based restrictions
 
@@ -32,7 +32,7 @@ A domain transfer is the process of moving a domain name registration from one r
 
 An authorization code (also called transfer code, auth code, or auth info) is required to authorize the transfer of a domain name. For detailed information about transfer codes, including format, requirements, and how to obtain them, see [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/).
 
-## Transfer timeline
+## Transfer timeline {#transfer-timeline}
 
 **Processing time:** It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD).
 
@@ -40,7 +40,7 @@ An authorization code (also called transfer code, auth code, or auth info) is re
 
 **Automatic approval:** If no action is taken to approve or reject the transfer, the registrar has 5-7 business days to release the domain. The transfer will automatically be approved at the end of this period.
 
-## Transfer types
+## Transfer types {#transfer-types}
 
 ### Transferring a domain to DNSimple
 
@@ -69,7 +69,7 @@ You can transfer a domain between DNSimple accounts at any time via the DNSimple
 
 For step-by-step instructions, see [Transferring a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/).
 
-## Transfer pricing and expiration extension
+## Transfer pricing and expiration extension {#transfer-pricing-and-expiration-extension}
 
 **Transfer fee:** The transfer fee covers the cost of transferring the domain and, when applicable, the required domain extension. You can check the transfer fee for your TLD at [dnsimple.com/pricing](https://dnsimple.com/pricing).
 
@@ -77,26 +77,26 @@ For step-by-step instructions, see [Transferring a Domain to Another DNSimple Ac
 
 **Extension calculation:** When an extension is applied, it is added to the current expiration date so that you do not lose any registration time that you have already paid for. The extension will not be applied if the domain has reached the maximum registration period allowed for that TLD. Maximum registration periods vary by TLD and may be less than 10 years.
 
-## DNS considerations during transfer
+## DNS considerations during transfer {#dns-considerations-during-transfer}
 
-**Name servers:** We don't automatically point your domain to our name servers when the transfer completes. To avoid unexpected downtime, we suggest [pointing your domain to our name servers before the transfer](/articles/before-transferring-domain/).
+**Name servers:** We do not automatically point your domain to our name servers when the transfer completes. To avoid unexpected downtime, we suggest [pointing your domain to our name servers before the transfer](/articles/before-transferring-domain/).
 
 **DNSSEC:** You should always disable DNSSEC and [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain before transferring. An incorrect DNSSEC setup may cause your domain to be inaccessible. For more information about managing DNSSEC and DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/).
 
-## Canceling a transfer
+## Canceling a transfer {#canceling-a-transfer}
 
-If a domain is still in the transfer process, you can cancel the transfer, and the domain won't be moved away from your current registrar. To cancel, navigate to your domain, click "View status" under the "Transferring" card, then click "Cancel transfer".
+If a domain is still in the transfer process, you can cancel the transfer, and the domain will not be moved away from your current registrar. To cancel, navigate to your domain, click "View status" under the "Transferring" card, then click "Cancel transfer".
 
-## TLD-specific considerations
+## TLD-specific considerations {#tld-specific-considerations}
 
 Some TLDs have different transfer procedures or requirements:
 
 - **ccTLDs:** Country code TLDs may have different rules regarding expired domains, transfer timelines, and approval processes.
 - **Regulated TLDs:** Some TLDs (such as `.BANK`, `.INSURANCE`) have additional requirements and restrictions.
-- **Special procedures:** Some TLDs, such as `.UK`, have different transfer procedures that don't require an authorization code.
+- **Special procedures:** Some TLDs, such as `.UK`, have different transfer procedures that do not require an authorization code.
 
 For TLD-specific information, check the [list of TLDs supported by DNSimple](https://dnsimple.com/tlds) or contact support.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with domain transfers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with domain transfers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

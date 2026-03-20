@@ -8,17 +8,17 @@ categories:
 
 # Troubleshooting Record Resolution Issues
 
-The following is a list of common issues to check if a record isn't resolving correctly.
+The following is a list of common issues to check if a record is not resolving correctly.
 
-## Check the domain resolution status
+## Check the domain resolution status {#check-the-domain-resolution-status}
 
 To use our [DNS hosting service](/articles/dns-hosting/), the domain should resolve with DNSimple. Check [this list of common domain resolution errors](/articles/domain-resolution-issues/) to determine if the domain is resolving with DNSimple.
 
-## Check the record with +trace
+## Check the record with +trace {#check-the-record-with-trace}
 
 The `+trace` option from `dig` shows exactly how the name is delegated.
 
-It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It's useful for debugging delegation issues.
+It executes a recursive query against each of the name servers in the chain, starting from the root name servers. It is useful for debugging delegation issues.
 
 ~~~
 $ dig CNAME www.dnsimple.com +trace
@@ -54,7 +54,7 @@ In the resulting query chain, you can see each hop to resolve the CNAME.
 
 If DNSimple's name servers are not present in this trace, you need to [point to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
-## Check the record propagation delay
+## Check the record propagation delay {#check-the-record-propagation-delay}
 
 If you recently changed a record, it may take a while for the change to propagate. This is especially true if the record has been cached by your local ISP.
 
@@ -70,17 +70,17 @@ If you get the expected response, the record has been updated in our system, but
 
 You can check it against any of [DNSimple's name servers](/articles/dnsimple-nameservers/).
 
-## Check the record update delay
+## Check the record update delay {#check-the-record-update-delay}
 
 When you change a record in our system, the changes are published almost immediately.
 
 Our update queue may sometimes take a bit longer. Wait a few minutes and check again.
 
-Check our [status page](https://dnsimple.statuspage.io) for updates. We publish status updates when there's a known issue with our update queue.
+Check our [status page](https://dnsimple.statuspage.io) for updates. We publish status updates when there is a known issue with our update queue.
 
-## Check for missing A or AAAA records at the apex domain
+## Check for missing A or AAAA records at the apex domain {#check-for-missing-a-or-aaaa-records-at-the-apex-domain}
 
-If you receive an error like "No address associated with hostname" when using `ping` or other tools, it typically means the domain is properly delegated to DNSimple, but there's no [A record](/articles/a-record/) or [AAAA record](/articles/aaaa-record/) configured for the apex domain (the root domain, e.g., `example.com`).
+If you receive an error like "No address associated with hostname" when using `ping` or other tools, it typically means the domain is properly delegated to DNSimple, but there is no [A record](/articles/a-record/) or [AAAA record](/articles/aaaa-record/) configured for the apex domain (the root domain, e.g., `example.com`).
 
 This can happen when:
 
@@ -88,7 +88,7 @@ This can happen when:
 
 - You only have [MX records](/articles/mx-record/) for email but no A record for web traffic
 
-- The domain was recently set up and the A record hasn't been added yet
+- The domain was recently set up and the A record has not been added yet
 
 - You have a wildcard record (like `*.example.com`) but no explicit record for the apex domain
 
@@ -108,7 +108,7 @@ $ dig example.com AAAA +short
 
 If both commands return no results, you need to add an A or AAAA record for the apex domain.
 
-You can also query DNSimple's name servers directly to verify the record doesn't exist in our system:
+You can also query DNSimple's name servers directly to verify the record does not exist in our system:
 
 ```
 $ dig example.com A @ns1.dnsimple.com +short
@@ -125,7 +125,7 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 3. **If you want to redirect the apex domain to another URL:** Add a [URL record](/articles/url-record/) with the **Name** field left blank or set to `@`.
 
 > [!NOTE]
-> If you're using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record for IP address resolution. Both ALIAS records and URL records resolve to A and/or AAAA records, so `ping` will work correctly with these record types.
+> If you are using tools like `ping` to test your domain, keep in mind that `ping` requires an A or AAAA record for IP address resolution. Both ALIAS records and URL records resolve to A and/or AAAA records, so `ping` will work correctly with these record types.
 >
 >    **ALIAS records**: DNSimple's name servers dynamically resolve ALIAS records to A and/or AAAA records at query time. From the resolver's perspective, the domain appears to have standard A or AAAA records, so `ping` will work as expected.
 >
@@ -133,5 +133,5 @@ $ dig example.com AAAA @ns1.dnsimple.com +short
 >
 > The DNS standard requires A or AAAA records for IP address resolution (RFC 1035), and both ALIAS and URL records provide these records. However, the redirector service blocks ICMP traffic (used by `ping`), so URL records cannot be tested with `ping`. For more information, see [What Is an ALIAS Record?](/articles/alias-record/) and [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/).
 
-## Have more questions?   
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

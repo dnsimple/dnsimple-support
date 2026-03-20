@@ -18,11 +18,11 @@ When adding a domain to your account, you can register a new domain, transfer an
   ![Adding a domain button](/files/add-a-domain.png)
 </div>
 
-You'll then be prompted for the name of the domain you want to add to your account.
+You will then be prompted for the name of the domain you want to add to your account.
 
 ### Registering a new domain
 
-After adding the domain name, you'll be prompted to fill in information about the contact, WHOIS Privacy, and domain auto-renewal.
+After adding the domain name, you will be prompted to fill in information about the contact, WHOIS Privacy, and domain auto-renewal.
 
 ![Registering a new domain](/files/registering-a-new-domain.png)
 
@@ -32,16 +32,16 @@ Click **Register [domain name]** in the bottom right corner to register the doma
 
 To complete the transfer process, enter the auth code for transfer, select a domain contact, opt into WHOIS Privacy, delegate NS if wanted, and agree to the payment.
 
-If the transfer is successful, you'll see a **Pending** notification:
+If the transfer is successful, you will see a **Pending** notification:
 
 ![Transferring a domain](/files/transferring-a-domain.png)
 
 ### Creating a DNS zone
 
-If you're using the DNS services available at DNSimple, but keeping the domain at your current registrar, select **DNS zone** to add the domain name, then import the applicable DNS records with the [auto-import tool](/articles/auto-import-dns/).
+If you are using the DNS services available at DNSimple, but keeping the domain at your current registrar, select **DNS zone** to add the domain name, then import the applicable DNS records with the [auto-import tool](/articles/auto-import-dns/).
 
 ![Zone transfer tool](/files/zone-import-tool.png).
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need assistance adding domains to your DNSimple account, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need assistance adding domains to your DNSimple account, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

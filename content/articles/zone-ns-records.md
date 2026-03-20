@@ -32,6 +32,6 @@ You can configure [NS records](/articles/ns-record/) at the apex of a zone of a 
 > [!NOTE] Hosted domain must be delegated to DNSimple
 > The zone NS record changes will only take effect if the domain is [delegated to DNSimple](/articles/delegating-dnsimple-hosted/) at the domain's registrar and has [DNS hosting](/articles/dns-hosting/) active.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-You can [contact our support team](https://dnsimple.com/feedback) with any additional questions about configuring or updating zone NS records. We'll be happy to help.
+You can [contact our support team](https://dnsimple.com/feedback) with any additional questions about configuring or updating zone NS records. We will be happy to help.

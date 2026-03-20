@@ -24,24 +24,24 @@ The Domain Access Control feature lets you set the level of access for each team
 
 Combined with other DNSimple security features, like [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), your domains are as secure as possible in your DNSimple account.
 
-## Why granular access control matters
+## Why granular access control matters {#why-granular-access-control-matters}
 
 In organizations with multiple team members, not everyone needs full access to all domains. Some team members may only need to manage DNS records for specific domains, while others may need broader access. Domain Access Control implements the principle of least privilege, granting users only the access they need to perform their work. This reduces the risk of accidental or malicious changes to critical domains and provides better security isolation.
 
 Without granular access control, any user with account access can modify any domain, which increases the risk of unauthorized changes or mistakes. With Domain Access Control, you can limit access to sensitive domains while still allowing team members to work on domains they need to manage.
 
-## Video walk-through
+## Video walk-through {#video-walk-through}
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/GlC2uvevIlc?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Setting access for a team member
+## Setting access for a team member {#setting-access-for-a-team-member}
 
 To set a team member's role for multiple domains at once:
 
 1. Select the relevant account from the account switcher at the top-right corner of the screen, then click the gear icon ⚙️ next to the account name to open **account settings**.
-1. Click the **Members and seats** tab on the left side. On the Members card, you'll find each team member along with **Manage Access** and **Remove** buttons.
+1. Click the **Members and seats** tab on the left side. On the Members card, you will find each team member along with **Manage Access** and **Remove** buttons.
 1. Click **Manage Access** on a specific team member to configure their access level as [**Full Access**](#full-access) or [**Limited Access**](#limited-access).
 
 ![Manage Access](/files/manage-access.png)
@@ -64,7 +64,7 @@ If you invited someone with full access and want to change it, team members can 
 
 ![screenshot: assign roles per domain](/files/roles-per-domain.png)
 
-## Setting access for a domain
+## Setting access for a domain {#setting-access-for-a-domain}
 
 > [!NOTE]
 > A team member must have limited access before you can fine-tune their access at the domain level.
@@ -94,9 +94,9 @@ Team members with the Zone Operator role for a domain only have access to the DN
 
 ![Zone Operator](/files/domain-access-control-zone-operator.png)
 
-## API access
+## API access {#api-access}
 
-If a team member accesses a domain in an account via their user token, they'll have the same level of access as defined by their role. A Zone Operator can use their user token to manage a zone, but not other parts of the domain.
+If a team member accesses a domain in an account via their user token, they will have the same level of access as defined by their role. A Zone Operator can use their user token to manage a zone, but not other parts of the domain.
 
 **This applies to user tokens only**. Account tokens have full access, similar to a team member with full account access.
 
@@ -106,8 +106,8 @@ If a team member accesses a domain in an account via their user token, they'll h
 API access respects the same access control rules as the web interface. This means that programmatic access through the API is subject to the same restrictions as manual operations through the dashboard. User tokens are tied to individual user accounts and inherit that user's access permissions, while account tokens are designed for system-level operations and bypass user-level restrictions. This distinction is important when designing automated systems or integrations that need to access domains with limited permissions.
 
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we'll help you get sorted.
+If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we will help you get sorted.
 
-Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you're interested in, and you may see it in a future feature release.
+Want to limit access to other parts of your DNSimple accounts? [Let us know](https://dnsimple.com/feedback) what permissions you are interested in, and you may see it in a future feature release.
