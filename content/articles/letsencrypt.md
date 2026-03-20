@@ -1,6 +1,7 @@
 ---
 title: Let's Encrypt and DNSimple
-excerpt: The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free using the Let's Encrypt certification authority.
+excerpt: Let's Encrypt is a free, automated, and open certificate authority that DNSimple integrates with to provide SSL certificates at no cost.
+meta: Learn about Let's Encrypt, how DNSimple integrates with it, and what makes Let's Encrypt certificates different from traditional certificate authorities.
 categories:
 - SSL Certificates
 - Integrations
@@ -15,21 +16,23 @@ categories:
 
 ---
 
-[Let's Encrypt](https://letsencrypt.org/) is an innovative [certificate authority](/articles/what-is-certificate-authority/) (CA) that joined the scene in late 2015. They became an official member of the CA/B forum in 2016.
+[Let's Encrypt](https://letsencrypt.org/) is a [certificate authority](/articles/what-is-certificate-authority/) (CA) that was launched in late 2015 and became an official member of the CA/Browser Forum in 2016. Let's Encrypt revolutionized the SSL certificate landscape by making certificates free and easily accessible.
 
-Their three most distinguishing characteristics, as listed on their homepage, are _free_, _automated_, and _open_.
+## What makes Let's Encrypt different
 
-- Free: Let's Encrypt SSL certificates are free. They don't charge per certificate.
-- Automated: Let's Encrypt's issuance process is fully automated. They developed an issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) that's designed to be fully automated with no manual intervention.
-- Open: The source code of Let's Encrypt's certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt).
+Let's Encrypt's three distinguishing characteristics are _free_, _automated_, and _open_:
 
-## Differences between Let's Encrypt and Standard SSL certificates
+- **Free**: Let's Encrypt SSL certificates are free. They don't charge per certificate, making SSL encryption accessible to everyone.
+- **Automated**: Let's Encrypt's issuance process is fully automated. They developed an issuance protocol called [ACME](https://letsencrypt.org/docs/acme-protocol-updates/) (Automated Certificate Management Environment) that's designed to work without manual intervention.
+- **Open**: The source code of Let's Encrypt's certification authority is completely open source and available in a [GitHub account](https://github.com/letsencrypt), promoting transparency and community involvement.
 
-This table summarizes the most important differences between Let's Encrypt and Standard SSL certificates:
+## Differences between Let's Encrypt and Sectigo SSL certificates
 
-| | Let's Encrypt | Standard |
+This table summarizes the most important differences between Let's Encrypt and Sectigo SSL certificates:
+
+| | Let's Encrypt | Sectigo |
 | --- | --- | --- |
-| Certificate Expiration | 90 days | One year |
+| Certificate Expiration | 90 days | 200 days |
 | Single names | Supported | Supported |
 | Wildcard names | Supported | Supported |
 | Multi-domain (via SAN) | Supported by default | Supported only by specific products |
@@ -43,85 +46,75 @@ This table summarizes the most important differences between Let's Encrypt and S
 
 Let's Encrypt is different from most traditional CAs. Here are a few notes and limitations to keep in mind before requesting one of their SSL certificates:
 
-- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There's no plan to support <acronym title="Organization Validated">OV</acronym> or <acronym title="Extended Validation">EV</acronym> certificates.
-- Let's Encrypt supports single-name and wildcard names.
+- Let's Encrypt only issues [domain-validated](/articles/ssl-certificates-types/) SSL certificates. There is no plan to support <acronym title="Organization Validated">OV</acronym> or <acronym title="Extended Validation">EV</acronym> certificates.
+- Let's Encrypt provides only one type of certificate: domain-validated certificates that use the [Subject Alternative Name (SAN) extension](/articles/what-is-ssl-san/). They support both single-name and wildcard names, and even certificates that protect only one hostname still use the SAN extension.
 - A single Let's Encrypt certificate can include up to 100 SAN names. Names can be single-name, wildcard names, or both.
-- Let's Encrypt certificates have a fixed expiration period of 90 days. You can't request a certificate with a longer expiration, though most other CAs will issue certificates valid for up to one year.
-- Let's Encrypt's SSL certificates are [compatible with major browsers](https://letsencrypt.org/docs/certificate-compatibility/) and [trusted by all major root programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html).
-- Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They don't support traditional [email-based validation](/articles/ssl-certificates-email-validation/).
+- Let's Encrypt certificates have a fixed expiration period of 90 days. You cannot request a certificate with a longer expiration. As of March 2026, Sectigo certificates are valid for a maximum of 200 days. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
+- Let's Encrypt certificates are [compatible with major browsers](https://letsencrypt.org/docs/certificate-compatibility/) and [trusted by all major root programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html).
+- Let's Encrypt certificates are domain-validated. The most common validation mechanisms are DNS-based and HTTP-based. They do not support traditional [email-based validation](/articles/ssl-certificates-email-validation/).
 - Let's Encrypt [rate-limits](https://letsencrypt.org/docs/rate-limits/) requests. Understand their limits before requesting a large number of certificates.
 
-Some Let's Encrypt features may not be supported by DNSimple. Check the [limitations](/articles/letsencrypt/#limitations) section to learn which features are supported.
+Some Let's Encrypt capabilities may not be supported by DNSimple. Check the [limitations](/articles/letsencrypt/#limitations) section to learn which capabilities are supported.
 
-## Integration
+## DNSimple's Let's Encrypt integration
 
-The DNSimple Let's Encrypt integration allows you to request an SSL certificate for free using the Let's Encrypt certification authority.
+DNSimple integrates with Let's Encrypt to provide free SSL certificates.
 
-> [!NOTE]
-> To request an SSL certificate with Let's Encrypt, the domains **must be delegated to and exclusively resolving with DNSimple**. It is not compatible with Secondary DNS. The domain doesn't need to be registered with DNSimple.
+DNSimple automates certificate issuance and renewal, but certificate installation is still completed separately after the certificate is issued.
 
-The certificate validation is completely automated using a DNS challenge. Once issued, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate will then be available to download from your DNSimple account.
+### Requirements for Let's Encrypt certificates
+
+To request an SSL certificate with Let's Encrypt through DNSimple, the domain **must be delegated to and exclusively resolving with DNSimple**. Let's Encrypt certificates are not compatible with Secondary DNS configurations because DNSimple needs to create DNS records for validation. The domain doesn't need to be registered with DNSimple, only resolving with it.
+
+### Automated validation process
+
+The certificate validation is completely automated using DNS-based challenges. DNSimple automatically creates the required DNS records (ACME challenge records) for validation. Once the certificate is issued, you'll receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The certificate is then available to download from your DNSimple account.
 
 > [!NOTE]
 > ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) in your DNS zone. If you're using wildcard records, this may affect DNS resolution for intermediate domain names. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#the-acme-challenge-example).
 
-The certificate expiration is 90 days. If auto-renewal is enabled, the certificate will automatically renew before the expiration. If a new validation is necessary, we'll automatically re-validate the domain via DNS. Once renewed, you'll receive an email and webhook notification. You'll still need to install the newly issued certificate once renewed.
+### Certificate expiration and auto-renewal {#auto-renewal}
 
-As suggested by Let's Encrypt, the renewal will happen any time after 60 days (30 days before expiration).
+Let's Encrypt certificates expire after 90 days. DNSimple supports automatic renewal for Let's Encrypt certificates. When auto-renewal is enabled, DNSimple handles the renewal and re-validation process automatically, issuing a replacement certificate before the current one expires.
+
+For details on how auto-renewal works -- including when it runs, what happens when it fails, and how it interacts with shorter certificate lifetimes -- see [How Auto-Renewal Works for SSL Certificates](/articles/ssl-auto-renewal/).
 
 > [!TIP]
-> Although Let's Encrypt certificates can be installed manually, the entire process is designed to be fully automated. We encourage you to use our [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
+> Although Let's Encrypt certificates can be installed manually, the issuance and renewal process is designed to be automated. You can use the DNSimple [certificate API](https://developer.dnsimple.com/v2/certificates/) to fetch the certificate and install it programmatically.
 
 
-## Products
+## DNSimple platform details
 
-Let's Encrypt provides only one type of certificate. They issue only domain-validated, SAN certificates, and support both single-name and wildcard names.
+### Supported capabilities
 
-Single-name certificates can be considered a special type of multi-name certificate with a single name associated with it.  Let's Encrypt offering is both multi-name and single-name.
+- **DNS-based validation only**: DNSimple supports DNS-based validation for Let's Encrypt certificates. HTTP or TLS-SNI challenges are not supported.
+- **Same-domain SAN**: DNSimple supports including multiple names from the same domain in a certificate's SAN. Names from different domains cannot be included in the same certificate.
+- **Automatic CSR generation**: DNSimple automatically generates the [CSR](/articles/what-is-csr/) and private key for Let's Encrypt certificates. Custom CSRs are not supported.
+- **Plan-based options**: The ability to customize certificate names and SAN entries depends on your DNSimple plan. Check the [plans and pricing page](https://dnsimple.com/pricing) for details.
 
-> [!NOTE]
-> The ability to customize names associated with a Let's Encrypt certificate depends on the plan you're subscribed to. Check the [plans and pricing page](https://dnsimple.com/pricing) to view all your options.
+### Limitations {#limitations}
 
+DNSimple does not support all Let's Encrypt capabilities. Some limitations exist due to design decisions or system constraints:
 
-## DNSimple limitations
+- Custom CSRs and private keys are not supported for Let's Encrypt certificates
+- Only same-domain names (subdomains) can be included in certificate SANs
+- The domain must be resolving with DNSimple for validation to work
+- Let's Encrypt is not available in DNSimple's [sandbox environment](/articles/sandbox/) for testing
 
-DNSimple doesn't support all Let's Encrypt features. Some features will be incrementally introduced in the future, while others are not supported due to design decisions or limitations imposed by our system.
+## Taking action
 
-- We only support DNS-based validation. We don't plan to support the HTTP or TLS-SNI challenges.
-- We don't support the ability to include names from different domains in the same certificate SAN. We only support same-domain names (subdomains).
-- We don't support custom CSR or private key while requesting a new certificate. The CSR will be generated by DNSimple based on the domains specified in the certificate order.
-- To use our Let's Encrypt integration, the domain must be resolving with us, as we'll automatically create the DNS records required for the validation.
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - Learn how to renew Let's Encrypt certificates
+- [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/) - General renewal process information
 
+## Have more questions?
 
-## DNSimple plan-specific features
+If you have additional questions or need any assistance with Let's Encrypt certificates in DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
-Let's Encrypt feature support varies based on your [DNSimple plan](https://dnsimple.com/pricing).
+## Related reading
 
-- You can request as many certificates as you want as long as you stay within Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
-- Depending on your plan, you can specify your custom subdomains, or they'll default to www/root domain. View our [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with subdomains.
-- Depending on your plan, you can customize the certificate SAN with up to 100 extra names for a single certificate. View our [plans and pricing page](https://dnsimple.com/pricing) to check which plans support certificates with SAN.
-
-
-## Testing
-
-We don't support Let's Encrypt in our [sandbox environment](/articles/sandbox/). We discourage the use of the production environment for heavy or automated testing purposes, as you may quickly hit Let's Encrypt [rate limits](https://letsencrypt.org/docs/rate-limits/).
-
-If you have specific testing needs, consider using the Let's Encrypt [staging environment](https://letsencrypt.org/docs/staging-environment/).
-
-
-## Ordering a certificate
-
-To order a new certificate via Let's Encrypt using DNSimple, follow the instructions in the article [Ordering a Let's Encrypt SSL certificate](/articles/ordering-lets-encrypt-certificate/).
-
-If you already have a certificate and you want to renew it, follow the instructions for [Renewing an SSL certificate](/articles/renewing-ssl-certificate/). We also support [auto-renewals for Let's Encrypt certificates](#auto-renewal).
-
-
-## Auto-renewal {#auto-renewal}
-
-DNSimple supports auto-renewals for Let's Encrypt certificates. When the auto-renewal feature is turned on, we will automatically renew the certificate before expiration, 30 days before the expiration date, with automatic daily retries in case of temporary failures.
-
-This feature is available for free to all accounts. You can enable/disable auto-renewal for a certificate from the SSL certificate page. To use the feature, the certificate must not be expired.
-
-![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
-
-For a detailed explanation of how auto-renewal works, what happens when it fails, and how it interacts with shorter certificate lifetimes, see [How Auto-Renewal Works for SSL Certificates](/articles/ssl-auto-renewal/).
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand the role of CAs in certificate issuance
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare Let's Encrypt with traditional certificate authorities
+- [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/) - Learn about the renewal process
+- [How long does it take to issue an SSL certificate?](/articles/how-long-to-issue-ssl-certificate/) - Understand issuance timelines
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate classifications

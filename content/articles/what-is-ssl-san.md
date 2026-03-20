@@ -1,11 +1,12 @@
 ---
 title: What is the Subject Alternative Name (SAN)?
-excerpt: The Subject Alternative Name (SAN) is an extension to the X.509 specification that allows to specify additional host names for a single SSL certificate.
+excerpt: The Subject Alternative Name (SAN) is an extension that allows a single SSL certificate to protect multiple hostnames, enabling multi-domain certificates.
+meta: Learn what the Subject Alternative Name extension is, how it enables multi-domain SSL certificates, and why it's replacing the common name field.
 categories:
 - SSL Certificates
 ---
 
-# What is the SSL Certificate Subject Alternative Name?
+# What is the Subject Alternative Name (SAN)?
 
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/R5jdnZyusew" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,7 +19,7 @@ categories:
 
 ---
 
-The **Subject Alternative Name** (SAN) is an extension to the X.509 specification that allows users to specify additional host names for a single SSL certificate. The use of the SAN extension is standard practice for SSL certificates, and it's on its way to [replacing the use of the common name](/articles/what-is-common-name/#common-name-vs-subject-alternative-name).
+The **Subject Alternative Name** (SAN) is an extension to the X.509 specification that allows a single SSL certificate to protect multiple hostnames. The SAN extension is standard practice for modern SSL certificates and is gradually [replacing the use of the common name](/articles/what-is-common-name/#common-name-vs-subject-alternative-name) field for hostname matching.
 
 ## SAN certificates
 
@@ -26,9 +27,9 @@ A **SAN certificate** is a term often used to refer to a [multi-domain SSL certi
 
 There's a subtle difference though. When using the term 'multi-domain certificates', we're generally referring to an SSL certificate that has the ability to cover multiple host names (domains). If we use the term 'SAN certificates', we're probably referring to a particular certificate that includes any name in the SAN extension.
 
-From a technical standpoint, every certificate issued today is effectively a SAN certificate, as the CA/B forum requires the certification authority to add the content of the common name to the SAN as well. Even if the certificate covers a single name, it will still use the SAN extension and include that single name.
+From a technical standpoint, every publicly trusted certificate issued today is effectively a SAN certificate. The [CA/Browser Forum](https://cabforum.org/working-groups/server/baseline-requirements/requirements/) requires certificates to include a Subject Alternative Name (SAN), and any domain name present in the common name must also appear in the SAN. As a result, even certificates covering a single name rely on the SAN extension.
 
-In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often marketed as "special" and priced differently than standard certificates, because you can associate more than one name.
+In practice, the terms 'SAN certificates' and 'multi-domain certificates' are synonymous, and generally indicate a certificate product where issuers can associate more than one domain by specifying the content of the SAN (directly or indirectly). These certificates are often marketed as "special" and priced differently than single-name certificates, because you can associate more than one name.
 
 ## SAN restrictions
 
@@ -69,3 +70,20 @@ The common name represents the host name that's covered by the SSL certificate. 
 After the original specificaton, it became clear it would be helpful to have a single certificate to cover multiple host names. The most common example is a single certificate covering both the root domain and the www subdomain. In fact, it's common to reuse the same SSL certificate for `example.com` and `www.example.com`.
 
 The X.509 specification allows users to define extensions to be attached to a [Certificate Signing Request (CSR)](/articles/what-is-csr/) and the final server certificate. Using the SAN extension, it's possible to specify several host names in the `subjectAltName` field of a certificate. Each of these names will be considered protected by the SSL certificate.
+
+## Taking action
+
+- [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select names for your certificate
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a certificate with SAN support
+- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate that supports your naming needs
+
+## Have more questions?
+
+If you have additional questions or need any assistance with SANs and which hostnames a certificate can cover, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
+## Related reading
+
+- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand the common name field and how it relates to SAN
+- [What is a Certificate Signing Request (CSR)?](/articles/what-is-csr/) - Learn how SAN is specified in certificate signing requests
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore multi-domain certificates that use SAN
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and SAN support

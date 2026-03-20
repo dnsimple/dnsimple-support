@@ -12,7 +12,7 @@ A domain name is a human-readable identifier used to locate websites and online 
 
 At a high level, a domain acts as a stable, easy-to-remember name that represents an online presence. While the underlying servers and IP addresses behind a service may change over time, the domain name remains the consistent point of access for users.
 
-## How do domain names work?
+## How do domain names work? {#how-do-domain-names-work}
 
 Domain names work through the [Domain Name System](/articles/what-is-dns/), commonly known as DNS. DNS is a global, distributed system that translates human-readable domain names into the IP addresses that computers use to communicate with each other.
 
@@ -20,21 +20,21 @@ When you type a domain name into your web browser, your computer asks the DNS sy
 
 DNS allows people to use meaningful names instead of numbers, while still enabling computers to reliably find and communicate with each other across the internet.
 
-## Domain name structure
+## Domain name structure {#domain-name-structure}
 
 Domain names are organized in a hierarchical structure. The top-level domain, or TLD, is the part that appears after the final dot, such as .com, .org, or .net. Below the TLD is the second-level domain, which is typically the name you choose, such as example in example.com.
 
 Together, the second-level domain and the TLD form a complete domain name. Domain owners can also create subdomains, which appear before the main domain name. Common examples include www.example.com or mail.example.com. Subdomains allow you to organize and separate different services or sections under the same domain.
 
-## Why are domains important?
+## Why are domains important? {#why-are-domains-important}
 
 Domain names play a central role in how the internet works. They provide a memorable and consistent way for people to find websites and services without needing to remember IP addresses. Domains also help establish an online identity, whether for an individual, a business, or an organization.
 
 Domains make it possible to create email addresses associated with your name or brand, such as you@example.com. They also provide flexibility: you can change where your website or email is hosted without changing the domain name people use to reach you. This separation allows domains to act as a stable layer between users and the underlying technical infrastructure.
 
-## Domain registration vs. DNS hosting
+## Domain registration vs. DNS hosting {#domain-registration-vs-dns-hosting}
 
-It's important to understand the difference between domain registration and DNS hosting, as these are two separate but related services.
+It is important to understand the difference between domain registration and DNS hosting, as these are two separate but related services.
 
 [Domain registration](/articles/registering-domain/) gives you the right to use a specific domain name for a period of time, typically one year at a time. A domain registrar manages this registration on your behalf and ensures the domain remains assigned to you as long as it is [renewed](/articles/renewing-domain/).
 
@@ -42,12 +42,12 @@ DNS hosting, on the other hand, is about how your domain is configured. DNS host
 
 Because these services are separate, you have flexibility in how you manage your domain. You can register a domain with DNSimple and host your DNS with a different provider, or register a domain elsewhere and use DNSimple for [DNS hosting](/articles/dns-hosting/). [Delegation](/articles/what-is-domain-delegation/) is what connects your domain registration to your chosen DNS provider. This separation allows you to choose the registrar and DNS provider that best suits your needs.
 
-## Domain ownership
+## Domain ownership {#domain-ownership}
 
 When you register a domain, you become the [registrant](/articles/what-are-domain-contacts/). This means you have the right to use that domain name for the duration of the registration period, as long as it is kept up to date and renewed. Domain registrations are typically renewed annually, though many registrars allow you to register domains for multiple years in advance.
 
 If a domain is not renewed before it expires, the right to use it can be lost, and the domain may eventually become available for someone else to register. Keeping track of renewals and maintaining accurate ownership information is an important part of managing a domain over time.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions about domains or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we're here to help.
+If you have any questions about domains or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

@@ -8,9 +8,9 @@ categories:
 
 # How to Change TTL in DNSimple
 
-The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record before requesting it again. To learn more about what TTL is and how it works, see [What Is Time-to-Live?](/articles/what-is-ttl/). For information about DNSimple's TTL settings and defaults, see [What's the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/).
+The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record before requesting it again. To learn more about what TTL is and how it works, see [What Is Time-to-Live?](/articles/what-is-ttl/). For information about DNSimple's TTL settings and defaults, see [What is the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/).
 
-## Changing the TTL
+## Changing the TTL {#changing-the-ttl}
 
 1. If you have multiple accounts, use the **account switcher** at the top of the page to select the appropriate account.  
 2. From the **Domain Names** list, click the domain you want to manage.  
@@ -21,5 +21,5 @@ The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record befo
 7. Select a new TTL value from the dropdown.  
 8. Click **Update record** to save your changes.
 
-## Have more questions?
-If you have additional questions or need any assistance changing the TTL, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance changing the TTL, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

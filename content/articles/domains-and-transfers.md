@@ -17,7 +17,7 @@ categories:
 
 DNSimple helps you register, manage, and transfer domain names. This guide organizes all domain and transfer documentation so you can find what you need—whether you are adding a domain, renewing or restoring one, or moving a domain to or from DNSimple.
 
-## Explanation
+## Explanation {#explanation}
 
 ### Core Domain Concepts
 
@@ -50,8 +50,8 @@ Premium domains, integrated providers, and other features:
 - [Domain Masking](/articles/domain-masking/) - Information on Domain Masking and URL Masking.
 - [Activity Tracking](/articles/activity-tracking/) - How to review the list of events for an account or domain using our audit log feature.
 - [Domain Access Control](/articles/domain-access-control/) - Control what each account member can access on a per-domain or per-zone basis.
-- [What Are Vanity Name Servers?](/articles/what-are-vanity-name-servers/) - Learn what vanity name servers are and why they're valuable for your business.
-- [Web Hosting Support](/articles/web-hosting/) - We focus primarily on domain management services. We don't provide web hosting.
+- [What Are Vanity Name Servers?](/articles/what-are-vanity-name-servers/) - Learn what vanity name servers are and why they are valuable for your business.
+- [Web Hosting Support](/articles/web-hosting/) - We focus primarily on domain management services. We do not provide web hosting.
 - [DNSimple and Handshake (HNS)](/articles/dnsimple-and-handshake/) - DNSimple and Handshake blockchain domains.
 - [Can I use DNSimple for drop catching?](/articles/drop-catching/) - DNSimple's drop catching policy.
 
@@ -73,7 +73,7 @@ Registry and ICANN requirements:
 
 - [Regulated Top-Level Domains](/articles/tlds-regulated/) - Information about regulated and highly-regulated TLDs.
 
-## How to
+## How to {#how-to}
 
 ### Domain Registration & Setup
 
@@ -131,7 +131,7 @@ Registry and ICANN requirements:
 - [Troubleshooting Domain Validation Issues](/articles/troubleshooting-domain-validation-issues/) - Solutions for domain validation problems, including missing verification emails, suspended domains, and email address issues.
 - [Troubleshooting Domain Expiration Issues](/articles/troubleshooting-domain-expiration-issues/) - Solutions for domain expiration and renewal problems, including failed renewals, expired domains, and auto-renewal issues.
 
-## Reference
+## Reference {#reference}
 
 Technical details, policies, and reference documentation:
 

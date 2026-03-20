@@ -12,8 +12,8 @@ An **MX record** (record type 15), short for **Mail eXchange record**, is a cruc
 
 Without correct MX records, email sent to your domain (e.g., `you@yourdomain.com`) would not know where to go, and would not be delivered. These essential directory entries guide incoming emails to their correct destination.
 
-## How MX records guide email delivery
-When someone sends an email to an address at your domain, the sending mail server performs a DNS lookup for your domain's MX records. It doesn't look for an [A record](/articles/a-record/) directly; instead, it specifically asks for the MX records to find the designated mail exchange servers.
+## How MX records guide email delivery {#how-mx-records-guide-email-delivery}
+When someone sends an email to an address at your domain, the sending mail server performs a DNS lookup for your domain's MX records. It does not look for an [A record](/articles/a-record/) directly; instead, it specifically asks for the MX records to find the designated mail exchange servers.
 
 A domain can have multiple MX records. These records work together to ensure reliable email delivery. Each MX record includes two key pieces of information:
 
@@ -23,7 +23,7 @@ A domain can have multiple MX records. These records work together to ensure rel
 
 The sending mail server will attempt to deliver the email to the server with the lowest priority value first. If that server is unavailable or rejects the email, the sending server will try the next lowest priority server, etc., until the email is successfully delivered, or all options are exhausted.
 
-## Example: routing email with Google Workspace
+## Example: routing email with Google Workspace {#example-routing-email-with-google-workspace}
 A common (and excellent) example of using MX records is when you configure email delivery through a service like Google Workspace. When you set up your Google Workspace account and want your domain's email delivered there, Google provides a specific set of MX records you need to add to your DNSimple zone.
 
 Example of the default MX records Google might suggest, each with its associated priority:
@@ -48,8 +48,8 @@ This hierarchical approach, made possible by MX priorities, ensures maximum redu
 
 The behavior and format of MX records are specified in [RFC 5321](https://datatracker.ietf.org/doc/html/rfc5321) (for mail transfer protocol) and [RFC 1035, Section 3.3.9](https://datatracker.ietf.org/doc/html/rfc1035#section-3.3.9) (for the record type).
 
-## Managing MX records in DNSimple
+## Managing MX records in DNSimple {#managing-mx-records-in-dnsimple}
 DNSimple provides a user-friendly interface for configuring and maintaining your domain's MX records. You can easily add new records, remove existing ones, or update their target mail servers and priorities directly from your domain's [record editor](/articles/record-editor/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your MX records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your MX records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

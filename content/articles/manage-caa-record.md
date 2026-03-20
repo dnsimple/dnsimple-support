@@ -17,12 +17,12 @@ categories:
 
 You can manage [CAA records](/articles/caa-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [CAA record format](/articles/caa-record-format/) and usage.
+The instructions in this article assume you are familiar with the [CAA record format](/articles/caa-record-format/) and usage.
 
 > [!NOTE]
-> CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We don't support transferring CAA records to secondary name servers.
+> CAA records are only supported on the [DNSimple name servers](/articles/dnsimple-nameservers/). We do not support transferring CAA records to secondary name servers.
 
-## Standard mode vs custom mode
+## Standard mode vs custom mode {#standard-mode-vs-custom-mode}
 
 The DNSimple interface allows you to manage CAA records using two different modes:
 
@@ -31,13 +31,13 @@ The DNSimple interface allows you to manage CAA records using two different mode
     - **Reports** allows you to create a CAA record to specify the email for reporting policy violations.
 - The custom mode (**Custom**) allows you to modify the CAA record tag/value values directly.
 
-We don't support the ability to specify via interface the destructured CAA record value representation. You **cannot** enter the following text:
+We do not support the ability to specify via interface the destructured CAA record value representation. You **cannot** enter the following text:
 
 ```
 0 issue "letsencrypt.com"
 ```
 
-## Adding a CAA record
+## Adding a CAA record {#adding-a-caa-record}
 
 <div class="section-steps" markdown="1">
 #### To add a CAA record to allow a Certificate Authority
@@ -60,7 +60,7 @@ We don't support the ability to specify via interface the destructured CAA recor
     - _Respond From Regions_: Configure [Regional Records](/articles/regional-records/) if desired.
     - _Notes_: Optionally include a [record note](/articles/record-notes/).
 
-    Once you're ready, click <label>Add Record</label> to confirm and create the record.
+    Once you are ready, click <label>Add Record</label> to confirm and create the record.
 
 1.  The record is created and visible in the record list.
 
@@ -69,10 +69,10 @@ We don't support the ability to specify via interface the destructured CAA recor
 </div>
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host._
 
-## Updating a CAA record
+## Updating a CAA record {#updating-a-caa-record}
 
 <div class="section-steps" markdown="1">
 #### To update a CAA record
@@ -89,7 +89,7 @@ We don't support the ability to specify via interface the destructured CAA recor
 </div>
 
 
-## Removing a CAA record
+## Removing a CAA record {#removing-a-caa-record}
 
 <div class="section-steps" markdown="1">
 #### To remove a CAA record
@@ -105,5 +105,5 @@ We don't support the ability to specify via interface the destructured CAA recor
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
-If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

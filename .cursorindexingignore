@@ -1,0 +1,22 @@
+# Build output
+output/
+dist/
+
+# Dependencies
+node_modules/
+
+# Lock files (large, not useful for AI context)
+yarn.lock
+Gemfile.lock
+package-lock.json
+
+# Cache and temp
+.sass-cache/
+tmp/
+
+# Binary assets
+files/*.png
+files/*.jpg
+files/*.gif
+files/*.ico
+images/**

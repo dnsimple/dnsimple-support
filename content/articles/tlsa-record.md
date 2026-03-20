@@ -19,13 +19,13 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/B_8Cv6iyruI?si=LVmGovOf26KwoAkX" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is a TLSA record?
+## What is a TLSA record? {#what-is-a-tlsa-record}
 
 A **Transport Layer Security Authentication (TLSA) record** (record type 52) is a type of DNS record that provides a mechanism for associating a TLS server certificate or public key with the domain name where the record is found. TLSA records are part of the **DNS-Based Authentication of Named Entities (DANE)** protocol, which enables domain owners to specify which certificates should be trusted for their domain's TLS connections.
 
 The primary purpose of a TLSA record is to enhance the security of TLS connections by allowing domain owners to publish certificate associations in DNS. This capability helps mitigate risks associated with misissued or compromised certificates by providing an additional layer of certificate validation beyond the traditional certificate authority (CA) trust model.
 
-## How TLSA records enhance TLS security
+## How TLSA records enhance TLS security {#how-tlsa-records-enhance-tls-security}
 
 TLSA records work in conjunction with DNSSEC to provide authenticated certificate information. When a client connects to a TLS service, it can query DNS for TLSA records associated with the service's hostname and port. The client then compares the certificate presented by the server against the certificate or public key specified in the TLSA record.
 
@@ -41,7 +41,7 @@ TLSA records work in conjunction with DNSSEC to provide authenticated certificat
 
 For TLSA records to provide meaningful security benefits, they must be used in conjunction with **[DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/)**. DNSSEC provides cryptographic authentication for DNS data, ensuring that TLSA records cannot be tampered with or spoofed. Without DNSSEC, an attacker could potentially modify TLSA records to point to their own certificates, negating the security benefits. Learn more about [enabling DNSSEC](/articles/enabling-dnssec/) on your domain.
 
-## TLSA record usage patterns
+## TLSA record usage patterns {#tlsa-record-usage-patterns}
 
 TLSA records are typically used in the following scenarios:
 
@@ -49,7 +49,7 @@ TLSA records are typically used in the following scenarios:
 - **Web security (HTTPS)**: TLSA records can authenticate TLS certificates for web servers, providing an additional layer of certificate validation.
 - **Other TLS services**: TLSA records can be used for any service that uses TLS, including XMPP, LDAP, and other application-layer protocols.
 
-## TLSA record structure
+## TLSA record structure {#tlsa-record-structure}
 
 A TLSA record contains several components that specify how the certificate association should be interpreted:
 
@@ -58,17 +58,17 @@ A TLSA record contains several components that specify how the certificate assoc
 - **Matching type field**: Defines how the certificate data is represented (full certificate, SHA-256 hash, SHA-512 hash).
 - **Certificate association data**: The actual certificate data or hash that should be matched.
 
-## Setting up and understanding TLSA record details
+## Setting up and understanding TLSA record details {#setting-up-and-understanding-tlsa-record-details}
 
 For step-by-step instructions on how to add a TLSA record to your DNSimple zone, please refer to our dedicated How-To Guide: [Managing TLSA Records](/articles/manage-tlsa-record/).
 
 For a detailed explanation of the TLSA record format, including the usage, selector, matching type fields, and certificate association data, consult our Reference Guide: [TLSA Record Format and Components Reference](/articles/tlsa-record-format/).
 
-## Technical details
+## Technical details {#technical-details}
 
 The specification for the DNS TLSA record is formally defined in [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698): The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

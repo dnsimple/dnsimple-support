@@ -14,7 +14,7 @@ categories:
 
 ---
 
-## Core Concepts
+## Core Concepts {#core-concepts}
 
 ### DNSSEC
 DNSSEC (Domain Name System Security Extensions) is a suite of protocols that add cryptographic signatures to DNS responses, enabling resolvers to verify data integrity and authenticity. When a zone is DNSSEC-enabled, each resource record set (RRset) is signed with a private key, and a corresponding public key is published in a DNSKEY record. Resolvers fetch these keys and verify RRSIG signatures, ensuring that DNS answers have not been altered or spoofed.
@@ -40,7 +40,7 @@ A DNSSEC Trust Anchor is a known, securely distributed public key that resolvers
 [The Trust Anchor (The Root of Trust)](/articles/dnssec-chain-of-trust/#how-the-chain-of-trust-works)
 [IANA Trust Anchors](https://www.iana.org/dnssec/files)
 
-## Record Types & Signing
+## Record Types & Signing {#record-types-signing}
 
 ### RRSet
 An RRSet (Resource Record Set) is a collection of DNS records in a zone that share the same name, type, and class. For example, the A records for `www.dnsimple.com` form an RRSet. DNSSEC treats each RRSet as a single cryptographic unit: the zone's private key signs the entire set, producing an RRSIG record. When resolvers query a signed zone, they fetch both the RRSet and its corresponding RRSIG to verify authenticity and integrity.
@@ -70,7 +70,7 @@ A DS (Delegation Signer) record is a DNSSEC resource record stored in a parent z
 [RFC 4034 §5](https://datatracker.ietf.org/doc/html/rfc4034#section-5)
 [What are DS Records?](/articles/what-are-ds-records/)
 
-## Key Management
+## Key Management {#key-management}
 
 ### ZSK
 A ZSK (Zone Signing Key) is a DNSSEC key pair used to sign all resource record sets (RRSets) within a specific DNS zone. The private component of the ZSK creates cryptographic signatures (RRSIG records) for each RRSet, while the corresponding public key is published in a DNSKEY record. When a resolver queries a signed zone, it fetches the RRSet, its RRSIG, and the ZSK's public DNSKEY to verify that the data has not been altered. ZSKs are designed for more frequent rotation than Key Signing Keys (KSKs), balancing security and operational efficiency.
@@ -103,7 +103,7 @@ The Root Signing Key Ceremony is a carefully orchestrated event, typically held 
 [ICANN Root Ceremony](https://www.icann.org/en/blogs/details/the-key-to-the-internet-and-key-ceremonies-an-explainer-11-07-2023-en)
 [HowDNSSEC.works: Human DNS](https://howdnssec.works/human-dns/)
 
-## Proof of Non-Existence
+## Proof of Non-Existence {#proof-of-non-existence}
 
 ### NSEC
 An NSEC (Next Secure) record is a DNSSEC resource record used to prove the non‐existence of a queried name. When a resolver requests a non‐existent domain, the authoritative server returns an NSEC record pointing to the next valid name in the zone's sorted order. This NSEC record, along with its RRSIG, cryptographically demonstrates that no records exist between the two names, providing authenticated denial of existence.
@@ -119,7 +119,7 @@ An NSEC3 (Next Secure Version 3) record is a DNSSEC resource record that proves 
 [RFC 5155 §3](https://datatracker.ietf.org/doc/html/rfc5155#section-3)
 [What is an NSEC3 Record?](/articles/nsec-nsec3-records/#what-is-an-nsec3-record)
 
-## Extensions & Automation
+## Extensions & Automation {#extensions-automation}
 
 ### EDNS0
 EDNS0 (Extension Mechanisms for DNS) expands DNS protocol capabilities to support larger UDP payloads, extended flags, and optional parameters required by DNSSEC. Traditional DNS was limited to 512-byte messages, but DNSSEC signatures often exceed this size. By negotiating EDNS0 during a query, resolvers indicate they can handle bigger packets and DNSSEC-related records like RRSIG and DNSKEY. This ensures secure, efficient DNSSEC lookups without forcing a fallback to slower TCP.

@@ -15,11 +15,11 @@ categories:
 
 ---
 
-## What are Empty Non-Terminals?
+## What are Empty Non-Terminals? {#what-are-empty-non-terminals}
 
 In DNS, an **Empty Non-Terminal** (ENT) is an intermediate domain name in a DNS hierarchy that exists only because it is a path to a deeper name, but has no records of its own.
 
-Let's look at a simple example:
+Let us look at a simple example:
 
 ```
 $ORIGIN example.com.
@@ -81,7 +81,7 @@ For a detailed explanation of how wildcards interact with ENTs, including troubl
 
 ### ENTs outside wildcard scope
 
-ENTs are not limited to wildcard scenarios. Any record with a multi-level subdomain creates ENTs along its path. Let's expand the zone further:
+ENTs are not limited to wildcard scenarios. Any record with a multi-level subdomain creates ENTs along its path. Let us expand the zone further:
 
 ```
 $ORIGIN example.com.
@@ -145,21 +145,21 @@ $ dig @ns1.dnsimple.com app.eu.prod.example.com A +short
 
 This example demonstrates that ENTs can appear anywhere in your zone hierarchy—not just beneath wildcards. Any time you create a deeply nested record, intermediate names become ENTs unless they have their own explicit records.
 
-## How ENTs respond to DNS queries
+## How ENTs respond to DNS queries {#how-ents-respond-to-dns-queries}
 
 According to [RFC 4592 Section 2.2.1](https://datatracker.ietf.org/doc/html/rfc4592#section-2.2.1), when you query an ENT, the authoritative name server must return:
 
 - **Status:** `NOERROR` (the name exists)
 - **Answer section:** Empty (no records at this name)
 
-This is known as a `NODATA` response. It indicates that the domain name exists but has no records of the requested type. This behavior is straightforward for zones without wildcards—you simply get no data. However, as we'll see below, ENTs can cause unexpected results when wildcards are involved.
+This is known as a `NODATA` response. It indicates that the domain name exists but has no records of the requested type. This behavior is straightforward for zones without wildcards—you simply get no data. However, as we will see below, ENTs can cause unexpected results when wildcards are involved.
 
 > [!NOTE]
 > As of December 2025, DNSimple name servers comply with RFC 4592 for Empty Non-Terminal handling.
 
 **Querying an ENT:**
 
-Using our zone example, let's query the ENT `network.example.com`:
+Using our zone example, let us query the ENT `network.example.com`:
 
 ```
 $ dig @ns1.dnsimple.com network.example.com A
@@ -186,9 +186,9 @@ Notice the key indicators:
 - **`ANSWER: 0`** — No records are returned in the answer section
 - The **SOA record** in the authority section confirms this is a valid `NODATA` response
 
-This is the expected behavior: `network.example.com` exists as an ENT (because of the records beneath it), so it returns no data. There's no wildcard involved, so the result is intuitive.
+This is the expected behavior: `network.example.com` exists as an ENT (because of the records beneath it), so it returns no data. There is no wildcard involved, so the result is intuitive.
 
-## Wildcards and Empty Non-Terminals
+## Wildcards and Empty Non-Terminals {#wildcards-and-empty-non-terminals}
 
 Wildcards and ENTs have a complex relationship that can lead to unexpected behavior. Understanding how they interact is critical for maintaining predictable DNS resolution.
 
@@ -227,7 +227,7 @@ $ dig @ns1.dnsimple.com us.prod.example.com A +short
 
 The wildcard matches because `us.prod.example.com` does not exist in the zone.
 
-Now, let's add a record deeper in the hierarchy:
+Now, let us add a record deeper in the hierarchy:
 
 ```
 $ORIGIN example.com.
@@ -255,7 +255,7 @@ In this diagram:
 - **Green background**: `fr.prod.example.com` — Does not exist, so the wildcard applies and returns `192.168.0.11`
 - **Red background**: `us.prod.example.com` — Now exists as an ENT (because of `app.us.prod.example.com`), so the wildcard does **not** apply and returns empty
 
-Let's compare the queries.
+Let us compare the queries.
 
 **Querying `fr.prod.example.com` (non-existent name, wildcard matches):**
 
@@ -297,7 +297,7 @@ Even though `us.prod.example.com` falls within the wildcard's scope, it returns 
 > In particular, with Secondary DNS (like via AXFR), you must ensure both providers adopt the same ENT implementation to avoid inconsistent responses.
 > DNSimple complies with RFC 4592 and follows industry-standard behaviors consistent with implementations like PowerDNS.
 
-## Common scenarios that create ENTs
+## Common scenarios that create ENTs {#common-scenarios-that-create-ents}
 
 Be aware of these common patterns that can create ENTs:
 
@@ -308,7 +308,7 @@ Be aware of these common patterns that can create ENTs:
 
 ### The ACME challenge example
 
-Let's say you provision a [Let's Encrypt](/articles/letsencrypt/) certificate for `app.us.prod.example.com`. The ACME challenge process automatically adds a TXT record:
+Let us say you provision a [Let's Encrypt](/articles/letsencrypt/) certificate for `app.us.prod.example.com`. The ACME challenge process automatically adds a TXT record:
 
 ```
 $ORIGIN example.com.
@@ -360,7 +360,7 @@ $ dig @ns1.dnsimple.com anything.prod.example.com A +short
 
 The presence of the ACME challenge record created ENTs along its path, blocking wildcard matching for those names.
 
-## Next steps
+## Next steps {#next-steps}
 
 Now that you understand what Empty Non-Terminals are and how they work:
 
@@ -368,6 +368,6 @@ Now that you understand what Empty Non-Terminals are and how they work:
 
 - **[Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/)** — Diagnose and resolve intermittent or unexpected empty responses caused by ENTs
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance with Empty Non-Terminals, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with Empty Non-Terminals, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

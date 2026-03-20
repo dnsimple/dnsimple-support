@@ -8,9 +8,9 @@ categories:
 
 # Differences Between HTTPS and URL Records
 
-HTTPS records and URL records both relate to web services, but they serve fundamentally different purposes and operate at different layers of the internet protocol stack. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it's service binding information or web redirection.
+HTTPS records and URL records both relate to web services, but they serve fundamentally different purposes and operate at different layers of the internet protocol stack. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it is service binding information or web redirection.
 
-## Core distinctions: service binding vs. web redirects
+## Core distinctions: service binding vs. web redirects {#core-distinctions-service-binding-vs-web-redirects}
 
 The primary difference between HTTPS records and URL records lies in what they accomplish:
 
@@ -26,7 +26,7 @@ For more information on Service Binding Records, see [What Are Service Binding R
 - **HTTP layer operation:** URL records operate at the HTTP layer via DNSimple's redirector service, not directly through DNS resolution.
 - **Web redirection:** When a client accesses a URL record, they receive an HTTP redirect response (typically a 301 Permanent Redirect) that sends them to a different URL.
 
-## Understanding the differences in action
+## Understanding the differences in action {#understanding-the-differences-in-action}
 
 ### HTTPS records
 
@@ -73,7 +73,7 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 - Uses DNSimple's redirector service
 - Learn more: [What Is a URL Record?](/articles/url-record/)
 
-## When to use which
+## When to use which {#when-to-use-which}
 
 ### Use HTTPS records when:
 
@@ -91,9 +91,9 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 - You need to redirect `www` to the naked domain (or vice versa)
 - You want to redirect a secondary domain to your main website
 - You need **simple web redirects** without setting up a web server
-- You're using **DNSimple's DNS hosting** (URL records are proprietary to DNSimple)
+- You are using **DNSimple's DNS hosting** (URL records are proprietary to DNSimple)
 
-## Key differences summary
+## Key differences summary {#key-differences-summary}
 
 | Aspect | HTTPS Records | URL Records |
 |:-------|:--------------|:------------|
@@ -106,7 +106,7 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 | **Apex domain** | Supported (AliasMode) | Supported |
 | **Use case** | Service discovery and optimization | Web redirects |
 
-## Practical examples
+## Practical examples {#practical-examples}
 
 ### Example 1: Apex domain pointing
 
@@ -133,7 +133,7 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
   - Visitors to `www.example.com` are automatically redirected to `example.com`
   - The address bar changes to show `example.com`
 
-## Related articles
+## Related articles {#related-articles}
 
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
 - [What Is a URL Record?](/articles/url-record/) - Learn more about URL records and web redirects
@@ -141,6 +141,6 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 - [Managing URL Records](/articles/manage-url-record/) - Step-by-step guide to managing URL records
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Compare HTTPS records with ALIAS records
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have additional questions or need any assistance choosing between HTTPS and URL records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance choosing between HTTPS and URL records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -8,25 +8,25 @@ categories:
 
 # External DNS Diagnostic Tools
 
-## Google Admin Toolbox Dig
+## Google Admin Toolbox Dig {#google-admin-toolbox-dig}
 
 Google Admin Toolbox Dig is an online way to run dig queries, useful for troubleshooting DNS and checking resolution.
 
 Link: https://toolbox.googleapps.com/apps/dig/
 
-## IntoDNS
+## IntoDNS {#intodns}
 
 IntoDNS provides health/config reports and suggestions.
 
 Link: https://intodns.com/
 
-## ViewDNS
+## ViewDNS {#viewdns}
 
 ViewDNS is a collection of lookup and troubleshooting tools.
 
 Link: https://viewdns.info/
 
-## WhatsMyDNS
+## WhatsMyDNS {#whatsmydns}
 
 WhatsMyDNS is a global propagation checker, useful to compare results across locations.
 

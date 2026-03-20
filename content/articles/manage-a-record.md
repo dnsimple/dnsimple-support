@@ -17,9 +17,9 @@ categories:
 
 You can manage [A records](/articles/a-record/) in DNSimple using the [DNS record editor](/articles/record-editor/).
 
-The instructions in this article assume you're familiar with the [A record format](/articles/a-record/#record-format) and usage.
+The instructions in this article assume you are familiar with the [A record format](/articles/a-record/#record-format) and usage.
 
-## Adding an A record
+## Adding an A record {#adding-an-a-record}
 
 <div class="section-steps" markdown="1">
 #### To add an A record
@@ -43,7 +43,7 @@ The instructions in this article assume you're familiar with the [A record forma
     - **Respond From Regions**: Configure [Regional Records](/articles/regional-records/) if desired.
     - **Notes**: Include a [record note](/articles/record-notes/) (optional).
 
-1. Once you're ready, click <label>Add Record</label> to confirm and create the record.
+1. Once you are ready, click <label>Add Record</label> to confirm and create the record.
 
 1. The record is created and visible in the record list.
    ![screenshot: a record added](/files/a-record-created.png)
@@ -51,11 +51,11 @@ The instructions in this article assume you're familiar with the [A record forma
 </div>
 
 > [!NOTE]
-> Some hosting providers label fields differently than DNSimple does, which can be confusing if you're copying DNS settings from another provider.
+> Some hosting providers label fields differently than DNSimple does, which can be confusing if you are copying DNS settings from another provider.
 > - In DNSimple, **Name** = what others might call _Host_.
 > - In DNSimple, **Content** = what others might call _Value_.
 
-## Updating an A record
+## Updating an A record {#updating-an-a-record}
 
 <div class="section-steps" markdown="1">
 #### To update an A record
@@ -69,7 +69,7 @@ The instructions in this article assume you're familiar with the [A record forma
 1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
 
-## Removing an A record
+## Removing an A record {#removing-an-a-record}
 
 <div class="section-steps" markdown="1">
 #### To remove an A record
@@ -83,6 +83,6 @@ The instructions in this article assume you're familiar with the [A record forma
 1. Confirm the dialog to delete the record.
 </div>
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions or need assistance managing A records, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance managing A records, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

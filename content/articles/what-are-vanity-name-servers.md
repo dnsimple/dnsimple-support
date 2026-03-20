@@ -17,7 +17,7 @@ Vanity name servers, sometimes called private name servers or custom name server
 
 This functionality is about rebranding your DNS services, allowing your infrastructure to present a more consistent and professional appearance to the public.
 
-## Why use vanity name servers?
+## Why use vanity name servers? {#why-use-vanity-name-servers}
 
 Vanity name servers offer several benefits for businesses and organizations who want to enhance their online presence:
 
@@ -26,7 +26,7 @@ Vanity name servers offer several benefits for businesses and organizations who 
 - **Increased trust and credibility**: For some clients or partners, seeing branded name servers can contribute to a perception of greater control, stability, and trust in your online services.
 - **Vendor-neutral**: By using name servers that are under a domain name that you control, your infrastructure is set up to be vendor-neutral.
 
-## How vanity name servers work (conceptually)
+## How vanity name servers work (conceptually) {#how-vanity-name-servers-work-conceptually}
 
 The concept of vanity name servers relies critically on glue records, which solve a fundamental "chicken and egg" problem in DNS.
 
@@ -34,7 +34,7 @@ The concept of vanity name servers relies critically on glue records, which solv
 1. **The solution — glue records**: To resolve this, the Internet's Top-Level Domain (TLD) registries (like .COM or .ORG) allow you to provide the IP addresses (A and AAAA records) for your vanity name server hostnames directly to them. These IP addresses are called glue records.
 1. **Delegation in action**: When a DNS resolver queries the TLD for `yourcompany.com`, the TLD's name servers provide the NS records delegating `yourcompany.com` to `ns1.yourcompany.com` and the glue records (IP addresses) for `ns1.yourcompany.com` simultaneously. This allows the resolver to immediately know where to go next to find `yourcompany.com`'s DNS information.
 
-## DNSimple's approach to vanity name servers: configure and delegate
+## DNSimple's approach to vanity name servers: configure and delegate {#dnsimples-approach-to-vanity-name-servers-configure-and-delegate}
 
 DNSimple provides robust functionality to configure and manage vanity name servers for your domains.
 
@@ -53,7 +53,7 @@ Using vanity name servers with DNSimple typically involves two distinct, but oft
 
 Both configuration and delegation are necessary to fully utilize vanity name servers. You first define and make them resolvable, then point your domains to them.
 
-## Setting up and managing vanity name servers
+## Setting up and managing vanity name servers {#setting-up-and-managing-vanity-name-servers}
 
 For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article [Managing Vanity Name Servers](/articles/vanity-nameservers/).
 
@@ -61,5 +61,5 @@ To understand more about the critical role of glue records in this process, see 
 
 You also need the IP addresses of DNSimple's name servers to configure your glue records (when using the "Configure" option and if DNSimple is not your registrar). These can be found in [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your vanity name servers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your vanity name servers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

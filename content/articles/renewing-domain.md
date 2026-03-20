@@ -10,7 +10,7 @@ categories:
 
 By default, newly registered domains are set to [auto-renew](/articles/domain-auto-renewal/). If auto-renewal is off, or you want to extend the duration of your domain registration, follow these steps:
 
-## To renew a domain
+## To renew a domain {#to-renew-a-domain}
 
 1. Select the relevant account from the account switcher at the top-right corner of the screen or from your Dashboard.
 2. Locate the relevant domain in your Domain Names list. Click the domain name to access the domain **overview** page.
@@ -25,6 +25,6 @@ By default, newly registered domains are set to [auto-renew](/articles/domain-au
 > Your card will be charged once the renewal completes.
 > If the renewal fails, funds will be released.
 
-## Have more questions?
+## Have more questions? {#have-more-questions}
 
-If you have any questions or need assistance with manually renewing your domains, contact our [support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance with manually renewing your domains, contact our [support team](https://dnsimple.com/feedback), and we will be happy to help.

@@ -12,9 +12,9 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/mn07RUxAJRA" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-When configuring your domain's DNS, you often need to point a hostname (like `www.example.com` or `example.com`) to a specific online destination. While A, CNAME, ALIAS, and URL records all serve this purpose, they achieve it in fundamentally different ways, each with its own capabilities and limitations. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it's direct server mapping, alias creation, or web redirection.
+When configuring your domain's DNS, you often need to point a hostname (like `www.example.com` or `example.com`) to a specific online destination. While A, CNAME, ALIAS, and URL records all serve this purpose, they achieve it in fundamentally different ways, each with its own capabilities and limitations. Understanding these distinctions is crucial for selecting the right record type for your specific needs, whether it is direct server mapping, alias creation, or web redirection.
 
-## Core distinctions: standard DNS vs. DNSimple innovations
+## Core distinctions: standard DNS vs. DNSimple innovations {#core-distinctions-standard-dns-vs-dnsimple-innovations}
 
 The first major difference lies in their origin and behavior:
 
@@ -24,9 +24,9 @@ The first major difference lies in their origin and behavior:
 #### DNSimple proprietary records
 - **ALIAS records** and **URL records** are special record types developed by DNSimple. They are translated internally by DNSimple's systems into standard DNS records (like A or AAAA records) to ensure compatibility with the DNS protocol, but they offer unique functionality not available with standard records.
 
-## Understanding the differences in action
+## Understanding the differences in action {#understanding-the-differences-in-action}
 
-Let's break down how each record type functions and the primary problem it solves:
+Let us break down how each record type functions and the primary problem it solves:
 
 #### A record (address record)
 - **What it does:** Directly maps a hostname (e.g., `example.com`) to one or more IPv4 addresses (e.g., `192.0.2.1`).
@@ -36,7 +36,7 @@ Let's break down how each record type functions and the primary problem it solve
 #### CNAME record (canonical name record)
 - **What it does:** Maps one hostname (the alias, e.g., `blog.example.com`) to another hostname (the canonical name, e.g., `www.example.com`). It acts as an alias, directing traffic to where the canonical name points.
 - **Important rule:** A CNAME record **cannot coexist with any other record type** (like MX, TXT, NS, or A records) for the exact same hostname. This is a fundamental limitation of standard DNS.
-- **When to use:** When you want a hostname to point to another hostname and you don't need any other records (like MX for email) on that specific hostname. Typically used for subdomains.
+- **When to use:** When you want a hostname to point to another hostname and you do not need any other records (like MX for email) on that specific hostname. Typically used for subdomains.
 - **Learn more:** [What Is a CNAME Record?](/articles/cname-record/)
 
 #### ALIAS record (DNSimple proprietary)
@@ -53,7 +53,7 @@ Let's break down how each record type functions and the primary problem it solve
 - **When to use:** When you want a domain or subdomain to automatically send visitors to a completely different web address, changing the URL in their browser's address bar.
 - **Learn more:** [What Is a URL Record?](/articles/url-record/)
 
-## Choosing the right record type
+## Choosing the right record type {#choosing-the-right-record-type}
 
 The choice among these record types depends entirely on your specific requirements:
 
@@ -73,5 +73,5 @@ The choice among these record types depends entirely on your specific requiremen
 - When you want to perform a **web redirect** (HTTP redirect), causing a visitor's browser to automatically change addresses from one URL to another.
 - This is ideal for simple domain forwarding or redirecting www to your naked domain without requiring a full web server setup.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

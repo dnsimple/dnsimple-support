@@ -9,7 +9,7 @@ categories:
 
 # Verifying DMARC with dig and Online Tools
 
-## Verifying DMARC with dig
+## Verifying DMARC with dig {#verifying-dmarc-with-dig}
 
 The `dig` tool is a good way to verify your DMARC record is being returned correctly by our DNS servers. To learn more about `dig`, see [How To Use dig](/articles/how-dig/).
 
@@ -26,14 +26,14 @@ This will return a result like:
 ```
 If no result is returned, verify that you added the TXT record with the correct subdomain. Remember, the **Name** field in DNSimple should not include your domain name, otherwise it would create a record at `subdomain.yourdomain.com.yourdomain.com`.
 
-## Verifying your DMARC with an online tool
+## Verifying your DMARC with an online tool {#verifying-your-dmarc-with-an-online-tool}
 Verify your DMARC with an online tool like [this one from MX Toolbox](https://mxtoolbox.com/dmarc.aspxk). This verifies that you have set up a DMARC record, lets you know which tags and values your record contains, and alerts you to any problems with your record.
 
-## Monitoring DMARC
+## Monitoring DMARC {#monitoring-dmarc}
 DMARC sends daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read &mdash; we recommend using a free tool, like [Postmark's reporting](https://dmarc.postmarkapp.com/), to provide a weekly, human-readable report.
 
-## Technical details
+## Technical details {#technical-details}
 To read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org).
 
-## Have more questions?
-If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

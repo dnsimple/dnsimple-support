@@ -12,7 +12,7 @@ On the Record Editor page, you can see which records are present at which DNS pr
 
 ![Managing integrated zone records in the Record Editor](/files/record-editor-integrated-zones-manage-records.png)
 
-## Adding an integrated zone record in the record editor
+## Adding an integrated zone record in the record editor {#adding-an-integrated-zone-record-in-the-record-editor}
 
 ### Adding a record
 
@@ -32,7 +32,7 @@ On the Record Editor page, you can see which records are present at which DNS pr
 
 1. Click Add record to finish creating the record.
 
-## Updating an integrated zone record in the Record Editor
+## Updating an integrated zone record in the Record Editor {#updating-an-integrated-zone-record-in-the-record-editor}
 
 You can update a zone record at one or more [Integrated DNS Providers](/articles/what-are-integrated-providers/) from the [Record Editor](/articles/record-editor/).
 
@@ -57,7 +57,7 @@ You can update a zone record at one or more [Integrated DNS Providers](/articles
 > [!NOTE]
 > You can include a note when updating a record. Notes are only stored if DNSimple is one of the selected providers. If you only update the record at an Integrated DNS Provider, the note will not be saved.
 
-## Deleting an integrated zone record in the Record Editor
+## Deleting an integrated zone record in the Record Editor {#deleting-an-integrated-zone-record-in-the-record-editor}
 
 You can delete a zone record at one or more [Integrated DNS Providers](/articles/what-are-integrated-providers/) from the [Record Editor](/articles/record-editor/).
 
@@ -82,5 +82,5 @@ You can delete a zone record at one or more [Integrated DNS Providers](/articles
 > [!NOTE]
 > You can include a note when deleting a record. Notes are only stored if DNSimple is one of the selected providers. If you only delete the record at an Integrated DNS Provider, the note will not be saved.
 
-## Have more questions?
-If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

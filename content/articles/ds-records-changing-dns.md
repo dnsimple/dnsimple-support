@@ -12,25 +12,25 @@ categories:
 
 If you use DNSSEC, when you switch from one DNS provider to another, you must take precautions to ensure your DNS resolution continues during the transition.
 
-## Why this matters
+## Why this matters {#why-this-matters}
 
 Your [DS record](/articles/what-are-ds-records/) links your domain to a specific [DNSSEC key](/articles/types-of-dnssec-keys/) used to sign your zone. If you change DNS providers without updating or removing this record appropriately, your domain may become unreachable.
 
-## What to do when changing DNS providers
+## What to do when changing DNS providers {#what-to-do-when-changing-dns-providers}
 
-### If you're moving to a provider that does not support DNSSEC
+### If you are moving to a provider that does not support DNSSEC
 
 You must disable DNSSEC and ensure your DS record is no longer present in the parent zone before switching. Keeping it in place will cause DNS validation to fail because no signed zone will exist at the new provider.
 
-### If you're moving to a provider that supports DNSSEC
+### If you are moving to a provider that supports DNSSEC
 
 You must enable DNSSEC on the new provider, and ensure the other provider's DS record is provisioned and propagated in the parent zone before switching. Then, after switching, you can remove the old provider's DS record from the parent zone. This ensures a zero-downtime transition both in the DNS resolution and DNSSEC aspects.
 
 For more information on adding and removing DS records, refer to this [support article](/articles/manage-ds-record/).
 
-## Managing your DS records in DNSimple
+## Managing your DS records in DNSimple {#managing-your-ds-records-in-dnsimple}
 
-If you're using DNSimple as your domain registrar, you can manage your DS records by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
+If you are using DNSimple as your domain registrar, you can manage your DS records by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
 
-## Have more questions?
-If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

@@ -13,13 +13,13 @@ categories:
 
 ---
 
-## What is a POOL record?
+## What is a POOL record? {#what-is-a-pool-record}
 
 A **POOL record** is a unique and powerful record type developed by DNSimple to provide advanced traffic management capabilities. It allows you to randomly distribute incoming requests across multiple target hostnames, essentially acting as a lightweight, DNS-based load balancer for your services.
 
 While standard [CNAME records](/articles/cname-record/) can alias one name to another, they lack the ability to dynamically choose between several destinations. The POOL record solves this by enabling you to define a collection (pool) of hostnames that a single CNAME-like record can point to, randomly selecting one at resolution time.
 
-## How POOL records work: intelligent CNAME resolution
+## How POOL records work: intelligent CNAME resolution {#how-pool-records-work-intelligent-cname-resolution}
 The magic of POOL records happens on DNSimple's authoritative [name servers](/articles/dnsimple-nameservers/). 
 
 When a DNS resolver queries a domain name with a configured POOL record:
@@ -30,7 +30,7 @@ When a DNS resolver queries a domain name with a configured POOL record:
 
 This dynamic selection process occurs with each new resolution request, allowing you to randomly distribute incoming traffic across all active members of your pool.
 
-## Key benefits and use cases for POOL records
+## Key benefits and use cases for POOL records {#key-benefits-and-use-cases-for-pool-records}
 POOL records offer several significant advantages for managing your online services.
 
 ### Simple load distribution
@@ -49,8 +49,8 @@ Easily distribute traffic across different service providers (e.g., `example.pro
 > [!WARNING]
 > POOL records are a proprietary record type created by DNSimple. **They are resolved and managed exclusively by DNSimple's name servers**. If your domain's DNS is not hosted with DNSimple, or if you transfer it to another provider, POOL records will not function.
 
-## Managing POOL records in DNSimple
+## Managing POOL records in DNSimple {#managing-pool-records-in-dnsimple}
 DNSimple provides a user-friendly interface for configuring and maintaining your POOL records. You can easily add new records, manage the pool of target hostnames, and remove or update entries directly from your domain's [record editor](/articles/record-editor/).
 
-## Have more questions?
-If you have additional questions or need any assistance with your POOL records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your POOL records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

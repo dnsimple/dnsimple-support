@@ -15,13 +15,13 @@ categories:
 {:toc}
 
 ---
-## What is a DMARC record?
+## What is a DMARC record? {#what-is-a-dmarc-record}
 
 **DMARC**, which stands for **Domain-based Message Authentication, Reporting and Conformance**, is a powerful email authentication, policy, and reporting protocol. It builds directly upon the foundational email authentication methods of [SPF (Sender Policy Framework)](/articles/spf-record/) and [DKIM (DomainKeys Identified Mail)](/articles/dkim-record/) to provide an overarching framework for email security.
 
 Its primary purpose is to help email receivers determine if an incoming message legitimately aligns with what is known about the sender's domain. This capability is critical for combating email spoofing, phishing attacks, and spam, helping ensure only authorized messages reach inboxes.
 
-## How DMARC works: building on SPF and DKIM
+## How DMARC works: building on SPF and DKIM {#how-dmarc-works-building-on-spf-and-dkim}
 DMARC acts as a crucial layer of enforcement and feedback that works with SPF and DKIM. For DMARC to function effectively, your domain must have correctly configured SPF and DKIM records.
 
 ### Authentication and alignment
@@ -58,13 +58,13 @@ These reports provide invaluable insights into:
 
 A DMARC record is published as a [TXT record](/articles/txt-record/) at a specific subdomain, typically `_dmarc.yourdomain.com`. The content of this TXT record contains all the DMARC policy tags and reporting addresses.
 
-## Setting up, verifying, and monitoring DMARC
+## Setting up, verifying, and monitoring DMARC {#setting-up-verifying-and-monitoring-dmarc}
 For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, please refer to our dedicated How-To Guide: Setting Up DMARC (LINK NEW ARTICLE).
 
 To verify that your DMARC record is correctly published and configured, consult our How-To Guide: [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
 
-## Technical details
+## Technical details {#technical-details}
 For more on the technical specifications and intricacies of the DMARC protocol, visit [DMARC.org](http://DMARC.org). They provide extensive resources, including links to the relevant RFCs.
 
-## Have more questions?
-If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -7,3 +7,14 @@
 /.env
 /crash.log
 /yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE config (personal, not project-level)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

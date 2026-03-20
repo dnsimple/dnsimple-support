@@ -18,31 +18,31 @@ categories:
 
 DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains/) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers/#linking-integrated-domain-provider) your GoDaddy account as an [Integrated Domain Provider](/articles/integrated-domain-providers/) to DNSimple.
 
-## How GoDaddy integration works
+## How GoDaddy integration works {#how-godaddy-integration-works}
 
 When you link your GoDaddy account to DNSimple, DNSimple uses GoDaddy's API to read domain information and perform certain management operations. The integration creates a bridge between DNSimple's interface and GoDaddy's registration system, allowing you to manage GoDaddy-registered domains through DNSimple while the domains remain registered with GoDaddy. This means GoDaddy continues to be the registrar of record, and all registration-related billing goes through your GoDaddy account.
 
-## Video Walk-through
+## Video Walk-through {#video-walk-through}
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/8p7npbNN2x0" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Supported Features
+## Supported Features {#supported-features}
 
 - **Import integrated domains**: When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domains page.
 - **View and manage integrated domains**: View the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple. You can also manage your domain's WHOIS Privacy, renewal, and name servers from the DNSimple dashboard.
 - **Transfer your domain to DNSimple easily**: Read more about [transferring](/articles/integrated-domain-provider-transfer-domain/) domains.
 - **Domain expiration notices**: Get email notifications when your integrated domains are near expiry.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 To link [GoDaddy](https://www.godaddy.com) as an Integrated Domain Provider, you need:
 
 - An [API key and API secret](https://developer.godaddy.com/keys) for the Production GoDaddy environment
 - The [customer number](https://godaddy.com/help/what-is-my-customer-number-20038) of your GoDaddy account
 
-## Invoice and billing
+## Invoice and billing {#invoice-and-billing}
 
 For operations concerning the registration of your domain, like:
 

@@ -17,7 +17,7 @@ From the **Domain Names** page, you can see both your DNSimple zones and zones f
 
     ![Domain Names Tab](/files/domain-names-tab.png)
 
-1.  On the **Domain Names** page, you'll see:
+1.  On the **Domain Names** page, you will see:
     - Zones managed directly in DNSimple.
     - Zones imported from your connected Integrated DNS Providers.
     
@@ -32,5 +32,5 @@ Loading the Domain Names page automatically [refreshes](/articles/record-editor-
 
 You can also manage the selection of [zones to import](/articles/integrated-dns-provider-zones/) by going to your **Account settings → Integrated Providers** page and updating the selection of zones.
 
-## Have more questions?
-If you have additional questions or need any assistance with Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+## Have more questions? {#have-more-questions}
+If you have additional questions or need any assistance with Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

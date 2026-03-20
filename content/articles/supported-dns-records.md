@@ -17,7 +17,7 @@ categories:
 
 The Domain Name System (DNS) is composed of several DNS record types, called resource records (RR). DNSimple supports a wide range of these types, from traditional and most common records to newer types introduced to provide innovative services like [DNS Certification Authority Authorization](/articles/caa-record/).
 
-## DNS Record Types
+## DNS Record Types {#dns-record-types}
 
 The standard DNS record types supported:
 
@@ -49,14 +49,14 @@ Other record types are used behind the scenes to provide core DNS features:
 - [SOA](/articles/soa-record/) (type 6): Automatically created when you add a domain.
 - [DS](/articles/what-are-ds-records/) (type 43), [DNSKEY](/articles/dnskey-records-explained/) (type 48): Automatically created when you [enable DNSSEC on a domain](/articles/enabling-dnssec/).
 
-## DNS Records
+## DNS Records {#dns-records}
 
 Some DNS records have their own semantics but are defined using existing record types. These include:
 
 - SPF (defined as a TXT record)
 - DKIM (defined as a TXT record)
 
-## Limitations
+## Limitations {#limitations}
 
 - **Integrated providers**: Azure DNS does not support [SSHFP](/articles/sshfp-records/) or [SVCB/HTTPS](/articles/service-binding-records/) records.
 
