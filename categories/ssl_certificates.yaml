@@ -13,12 +13,18 @@ Explanation:
     - "What is the Subject Alternative Name (SAN)?"
     - "What is a Certificate Signing Request (CSR)?"
     - "What is the SSL Certificate Common Name?"
+    - "Understanding SSL Private Keys"
+    - "How HTTPS Works"
   Certificate Types:
     - "SSL Certificate Types"
     - "Sectigo vs Let's Encrypt SSL Certificates"
   Certificate Processes:
+    - "SSL Certificate Lifecycle"
     - "How does an SSL Certificate Renewal work?"
+    - "How Auto-Renewal Works for SSL Certificates"
     - "How long does it take to issue an SSL certificate?"
+    - "Domain Validation Methods for SSL Certificates"
+    - "CAA Records and SSL Certificates"
   Certificate Providers:
     - "Let's Encrypt and DNSimple"
 
@@ -54,6 +60,8 @@ How-to:
     - "Troubleshooting Heroku SSL errors"
 
 Reference:
+  Certificate Files and Formats:
+    - "Understanding SSL Certificate Files and Formats"
   Certificate Authorities:
     - "SSL Certificate Authorities used by DNSimple"
   Certificate Features:
