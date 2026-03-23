@@ -45,7 +45,7 @@ Once the renewed certificate is issued, you will receive an email and [webhook n
 
 1. Log into DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
-1. On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1. Scroll down to the <label>SSL certificates</label> section and click on the Let's Encrypt certificate you want to auto-renew.
 1. On the certificate page, locate the auto-renewal toggle and enable it.
 
