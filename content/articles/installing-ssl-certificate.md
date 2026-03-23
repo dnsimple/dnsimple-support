@@ -24,12 +24,12 @@ DNSimple provides an SSL certificate installation wizard that guides you through
 
 1. Log into DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
-1. On the header menu, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. On the header menu, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1. Select the SSL Certificates tab and click on the relevant certificate.
 
     ![SSL certificate page link](/files/dnsimple-domain-certificates-list.png)
 
-1. Click <label>Install the SSL Certificate</label> on the certificate page.
+1. Click <label>Install</label> on the certificate page.
 
     ![Install SSL certificate](/files/ssl-certificate-install-link.png)
 
