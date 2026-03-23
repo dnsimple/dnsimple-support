@@ -45,4 +45,4 @@ You share the Sandbox environment with other DNSimple customers. Another custome
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

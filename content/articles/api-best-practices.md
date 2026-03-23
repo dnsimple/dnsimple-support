@@ -21,7 +21,7 @@ These practices apply to all DNSimple API integrations, whether you are working 
 
 Develop and validate your integration against the [DNSimple Sandbox](/articles/sandbox/) before pointing it at production. The Sandbox is a fully functional copy of the DNSimple environment where API calls do not affect live domains, DNS records, or billing. Once your code works in the Sandbox, switching to production requires only a base URL and token change.
 
-For a step-by-step setup guide, see [Getting Started With the DNSimple Sandbox API](/articles/sandbox-tutorial/). For things to watch out for in the Sandbox specifically, see [Sandbox Common Pitfalls](/articles/sandbox-api-pitfalls/).
+For a step-by-step setup guide, see [Getting Started With the DNSimple Sandbox](/articles/sandbox-tutorial/). For things to watch out for in the Sandbox specifically, see [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/).
 
 ## Handle pagination {#pagination}
 
@@ -87,4 +87,4 @@ Design your integration to handle `429 Too Many Requests` responses gracefully â
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with the DNSimple API, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have additional questions or need any assistance with the DNSimple API, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

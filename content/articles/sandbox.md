@@ -66,12 +66,12 @@ The Sandbox mirrors the production environment, so workflows that succeed in the
 
 ### Through the API
 
-Follow the [Getting Started With the DNSimple Sandbox API](/articles/sandbox-tutorial/) tutorial for a step-by-step guide to setting up your development environment and running your first API calls.
+Follow the [Getting Started With the DNSimple Sandbox](/articles/sandbox-tutorial/) tutorial for a step-by-step guide to setting up your development environment and running your first API calls.
 
-Before diving in, review [Sandbox Common Pitfalls](/articles/sandbox-api-pitfalls/) and [DNSimple API Best Practices](/articles/api-best-practices/) to avoid common mistakes.
+Before diving in, review [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/) and [DNSimple API Best Practices](/articles/api-best-practices/) to avoid common mistakes.
 
 For the complete API reference, visit the [DNSimple Developer Documentation](https://developer.dnsimple.com). For Sandbox-specific API details, see the [Sandbox documentation](https://developer.dnsimple.com/sandbox/).
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

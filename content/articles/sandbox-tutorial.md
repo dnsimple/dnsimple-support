@@ -1,13 +1,13 @@
 ---
-title: Getting Started With the DNSimple Sandbox API
-excerpt: A step-by-step tutorial for setting up and using the DNSimple Sandbox API to test your integrations.
-meta: Learn how to set up the DNSimple Sandbox API and build integrations with practical curl examples for DNS management and automation.
+title: Getting Started With the DNSimple Sandbox
+excerpt: A step-by-step tutorial for setting up and using the DNSimple Sandbox to test your integrations.
+meta: Learn how to use the DNSimple Sandbox and build integrations with practical curl examples for DNS management and automation.
 categories:
 - API
 - Enterprise
 ---
 
-# Getting Started With the DNSimple Sandbox API
+# Getting Started With the DNSimple Sandbox
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This tutorial walks you through setting up the DNSimple Sandbox API and making your first API calls. By the end, you will have hands-on experience with common API operations using `curl`. The same endpoints and request formats work with any HTTP client or [DNSimple client library](https://developer.dnsimple.com/libraries/). The Sandbox also has a full [web interface](/articles/sandbox/) — this tutorial focuses on the API path.
+This tutorial walks you through setting up the DNSimple Sandbox and making your first API calls to that environment. By the end, you will have hands-on experience with common API operations using `curl`. The same endpoints and request formats work with any HTTP client or [DNSimple client library](https://developer.dnsimple.com/libraries/). The Sandbox also has a full [web interface](/articles/sandbox/) — this tutorial focuses on the API path.
 
 ## 1. Prerequisites {#prerequisites}
 
@@ -174,7 +174,7 @@ The response indicates availability:
 ```
 
 > [!NOTE]
-> Sandbox domain checks run against registry OT&E environments. Results may not match production availability. See [Sandbox Common Pitfalls](/articles/sandbox-api-pitfalls/) for details.
+> Sandbox domain checks run against registry OT&E environments. Results may not match production availability. See [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/) for details.
 
 ## 7. Moving to production {#production}
 
@@ -193,8 +193,8 @@ curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
      https://api.dnsimple.com/v2/whoami
 ```
 
-For the complete API reference, visit the [DNSimple Developer Documentation](https://developer.dnsimple.com). To learn more about the Sandbox environment, see [What Is the DNSimple Sandbox?](/articles/sandbox/). For tips on avoiding common mistakes, see [Sandbox Common Pitfalls](/articles/sandbox-api-pitfalls/) and [DNSimple API Best Practices](/articles/api-best-practices/).
+For the complete API reference, visit the [DNSimple Developer Documentation](https://developer.dnsimple.com). To learn more about the Sandbox environment, see [What Is the DNSimple Sandbox?](/articles/sandbox/). For tips on avoiding common mistakes, see [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/) and [DNSimple API Best Practices](/articles/api-best-practices/).
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
