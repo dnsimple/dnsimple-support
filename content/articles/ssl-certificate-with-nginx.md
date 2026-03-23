@@ -29,9 +29,11 @@ If you have not already purchased an SSL certificate, follow [the guide to order
 <div class="section-steps" markdown="1">
 ##### Steps to install the certificate on NGINX
 
-1. Log into DNSimple and navigate to the domain that has the issued certificate.
+1. Log into DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one.
+1. On the header menu, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1. Select the SSL Certificates tab and click on the certificate you want to install.
-1. Click <label>Install the SSL Certificate</label>.
+1. Click <label>Install</label>.
 
     ![Click the NGINX section](/files/certificate-installer-nginx.png)
 
