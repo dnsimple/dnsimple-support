@@ -30,7 +30,7 @@ Explanation:
 
 How-to:
   Ordering Certificates:
-    - "Ordering a Standard SSL Certificate"
+    - "Ordering a Sectigo SSL Certificate"
     - "Ordering a Wildcard SSL Certificate"
     - "Ordering a Let's Encrypt Certificate"
   Renewing Certificates:
