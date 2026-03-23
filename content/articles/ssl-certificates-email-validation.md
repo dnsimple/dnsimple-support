@@ -19,7 +19,7 @@ redirect_from:
 
 ---
 
-To issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
+To issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**. For an overview of all validation methods (email-based, DNS-based, and HTTP-based), see [Domain Validation Methods for SSL Certificates](/articles/ssl-domain-validation-methods/).
 
 The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 

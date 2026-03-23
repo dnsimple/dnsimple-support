@@ -4,16 +4,17 @@ Getting started:
 - "OAuth Applications"
 
 Explanation:
-- "What Is the DNSimple Sandbox API?"
+- "What Is the DNSimple Sandbox?"
 
 Tutorial:
-- "Getting Started With the DNSimple Sandbox API"
+- "Getting Started With the DNSimple Sandbox"
 
 Webhooks:
 - "Webhooks and API Events"
 
 Reference:
-- "Sandbox API Common Pitfalls"
+- "Sandbox Common Pitfalls"
+- "DNSimple API Best Practices"
 
 Troubleshooting:
 - "API Errors"
