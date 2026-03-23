@@ -26,6 +26,12 @@ You can sign up and explore how to manage domains in DNSimple without activating
 1. Fill in your details, and select **Join DNSimple**. Your account has now been created. You can log in and explore the app before choosing a plan.
 1. Fill out the **How Will You Use DNSimple?** form.
 1. You'll be taken to the plan selection page. You can choose a plan immediately, or wait and decide later. When you're ready to activate your account, follow [these instructions](https://support.dnsimple.com/articles/account-activation/).
+1. A verification email will be sent to the address you signed up with. Click the link in the email to verify your address.
+
+Until your email address is verified, some sensitive actions will be unavailable, including subscribing to a plan, registering or transferring domains, and purchasing SSL certificates. Check your inbox and complete the verification to get full access to your account.
+
+> [!NOTE]
+> Verification links expire after 7 days. If yours has expired, you can request a new one from your [user settings page](https://dnsimple.com/user).
 
 ## Adding additional accounts
 
@@ -36,6 +42,9 @@ DNSimple allows users to manage multiple accounts. If you've already signed up f
 You can also sign up for a DNSimple account [using Google as your identity provider](/articles/google-identity-provider/). Click **Sign up using Google**, and you'll be prompted to select your Google account. You'll then be returned to DNSimple already logged in to your new DNSimple account.
 
 ![Signing up via Google](/files/google-sso-social-signup.png)
+
+> [!NOTE]
+> Signing up via an Identity Provider (Google, Okta, or Entra) automatically verifies your email address. No verification email will be sent, and your account will have full access from the start.
 
 ## Need more help?
 
