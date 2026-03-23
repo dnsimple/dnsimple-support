@@ -71,7 +71,7 @@ Once the certificate re-issue is requested, we will forward the information to t
 
 ## Installing the Re-Issued SSL Certificate
 
-Once the certificate re-issued, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
+Once the certificate is re-issued, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
 
 The old certificate will stay active until the expiration date.
 

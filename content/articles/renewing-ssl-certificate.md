@@ -33,7 +33,7 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 
 1. Log into DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
-1. On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. On the header, click the <label>Domain Namess</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1. Scroll down to the <label>SSL certificates</label> section and find the active SSL certificate.
 1. Identify your certificate type and follow the appropriate renewal guide:
 
