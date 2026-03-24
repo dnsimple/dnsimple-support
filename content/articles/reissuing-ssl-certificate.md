@@ -82,7 +82,7 @@ Once you have received your certificate from the Certificate Authority, go to yo
 
 ![reissue status](/files/ssl-certificate-reissue-link.png)
 
-If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
+If your reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
 
 When you receive your reissued certificate via email, **and only then**, go to the status page and click the confirmation button:
 
