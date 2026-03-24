@@ -18,18 +18,16 @@ categories:
 Auto-renewal ensures your SSL certificates are automatically renewed before they expire, reducing the risk of downtime caused by expired certificates.
 
 ## Before You Start
-```- **Let's Encrypt certificates**
+**Let's Encrypt certificates**
   - Auto-renewal is supported in DNSimple.
   - To enable auto-renewal on an existing certificate, you need an active, non-expired certificate in your DNSimple account.
   - The domain must be delegated to and exclusively resolving with DNSimple.
   - Let's Encrypt certificates are not compatible with [Secondary DNS](/articles/secondary-dns/), because DNSimple must create the DNS records used for validation.
   - An active DNSimple subscription is required for the DNS hosting and automation that support Let's Encrypt issuance and renewal.
-- **Sectigo certificates**
+**Sectigo certificates**
   - Auto-renewal is not available in DNSimple. See [How auto-renewal works](#how-auto-renewal-works) for details.
 
-- You need an active (non-expired) SSL certificate in your DNSimple account.
-- For Let's Encrypt certificates, the domain must be delegated to and resolving with DNSimple's name servers.
-- Auto-renewal is available for free to all DNSimple accounts.
+> [!NOTE] Auto-renewal is available for free to all DNSimple accounts.
 
 > [!NOTE]
 > Auto-renewal handles the certificate issuance process automatically, but you still need to install the renewed certificate on your server once it is issued. Consider using the [DNSimple certificate API](https://developer.dnsimple.com/v2/certificates/) to automate the installation step.
