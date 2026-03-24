@@ -36,7 +36,7 @@ An SSL certificate must be associated with one or more host names. Selecting the
 
     - A **single-name certificate** for `www.example.com` will also cover the root domain `example.com`.
     - A **single-name certificate** for `example.com` alone will **not** cover `www.example.com`.
-    - A **wildcard certificate** for `*.example.com` covers all first-level subdomains and the root domain.
+    - A **wildcard certificate** for `*.example.com` covers all first-level subdomains.
 
 1. **Check if you need multiple names on one certificate.** If your [SSL certificate product](/articles/ssl-certificates/) supports the [Subject Alternative Name (SAN)](/articles/what-is-ssl-san/) extension, you can include multiple host names in a single certificate. DNSimple simplifies this by providing a field to enter multiple names when your plan allows it.
 
