@@ -1,6 +1,7 @@
 ---
 title: SSL Certificate Types
-excerpt: This article quickly explains the differences between the various types you may want to use to secure a website.
+excerpt: SSL certificates are classified by validation level (how the CA verifies identity) and by the number of hostnames they protect (single-name, wildcard, or multi-domain).
+meta: Understand the different types of SSL certificates, including validation levels and hostname coverage, to choose the right certificate for your needs.
 categories:
 - SSL Certificates
 - Enterprise
@@ -15,9 +16,7 @@ categories:
 
 ---
 
-There are several types of SSL Certificates. This article quickly explains the differences between the various types you may want to use to secure a website.
-
-You can group SSL certificates by validation level or secured domains/hostnames.
+SSL certificates can be classified in two ways: by **validation level** (how the [certificate authority](/articles/what-is-certificate-authority/) verifies the certificate holder's identity) or by **secured domains/hostnames** (how many hostnames the certificate protects). Understanding these classifications helps you choose the right certificate type for your needs.
 
 ## SSL Certificates by Validation Level
 
@@ -27,7 +26,7 @@ The validation level determines the method adopted by the Certificate Authority 
 
 The Domain Validated SSL Certificate validates the domain is registered and someone with admin rights is aware of and approves the certificate request.
 
-The validation process is normally performed [via email](/articles/ssl-certificates-email-validation/) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain.
+The validation process is normally performed [via email](/articles/ssl-certificates-email-validation/) or DNS. The owner is requested to prove admin right by receiving and confirming an email sent to an administrative email for the domain, or by configuring some specific DNS records for the domain. For a detailed comparison of validation methods, see [Domain Validation Methods for SSL Certificates](/articles/ssl-domain-validation-methods/).
 
 The order normally takes from a few minutes to a few hours.
 
@@ -57,7 +56,7 @@ The Organization Validated SSL Certificates display the company information in t
 
 The Extended Validation SSL Certificate (EV certificate) requires an extended validation of the business. It validates domain ownership and organization information, plus the legal existence of the organization. It also validates that the organization is aware of the SSL certificate request and approves it.
 
-The validation requires documentation to certify the company identity plus a set of additional steps and checks.
+The validation requires documentation to certify the company's identity, plus a set of additional steps and checks.
 
 The order can take from a few days to a few weeks, due to the extended validation process.
 
@@ -107,4 +106,21 @@ You can generally secure a combination of different host names, from the same or
 
 It's important to remember that the validation level and the number of secured domains don't affect the security level offered by an SSL certificate.
 
-All certificates work following the same encryption principle.
+All certificates work following the same encryption principle. The validation level determines what information appears in the certificate and how the CA verified your identity, but it doesn't change the cryptographic strength of the certificate. Similarly, protecting multiple hostnames with a single certificate doesn't reduce security — it's simply a matter of how many names are associated with the same certificate.
+
+## Taking action
+
+- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
+- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
+- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+
+## Related reading
+
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs validate entities and issue certificates
+- [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn how multi-domain certificates use SAN
+- [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand how single-name certificates identify hostnames
+- [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and their features

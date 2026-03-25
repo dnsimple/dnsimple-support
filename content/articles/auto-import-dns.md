@@ -34,7 +34,7 @@ You can auto-import the zone for your domain any time by clicking on **Auto-impo
 ## How to auto-import DNS records {#how-to-auto-import-dns-records}
 1. If you have multiple accounts, use the **account switcher** at the top-right corner to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. In the Record Editor, click **Import/Export**, then choose **Auto-import DNS** from the dropdown.
 
    ![Screenshot of selecting import DNS from menu](/files/dns-auto-import.png)
