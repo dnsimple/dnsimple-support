@@ -21,8 +21,8 @@ DNSimple provides [SSL certificates](/articles/ssl-certificates/) signed by two 
 
 [Sectigo](https://sectigo.com/) (formerly Comodo) is a commercial certificate authority. DNSimple uses Sectigo to issue the following products:
 
-- **Sectigo PositiveSSL** -- Single-name certificate, $20/year
-- **Sectigo PositiveSSL Wildcard** -- Wildcard certificate, $100/year
+- **Sectigo PositiveSSL** - Single-name certificate, $20/year
+- **Sectigo PositiveSSL Wildcard** - Wildcard certificate, $100/year
 
 Sectigo certificates use [email-based domain validation](/articles/ssl-certificates-email-validation/). Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity).
 
@@ -32,8 +32,8 @@ Sectigo root certificates are trusted by all major browsers, operating systems, 
 
 [Let's Encrypt](https://letsencrypt.org/) is a free, automated, open certificate authority operated by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/). DNSimple uses Let's Encrypt to issue the following products:
 
-- **Let's Encrypt SAN** -- Multi-name certificate covering up to 100 hostnames, free
-- **Let's Encrypt Wildcard** -- Wildcard certificate, free
+- **Let's Encrypt SAN** - Multi-name certificate covering up to 100 hostnames, free
+- **Let's Encrypt Wildcard** - Wildcard certificate, free
 
 Let's Encrypt certificates are validated automatically using DNS challenges and are valid for 90 days. DNSimple supports [auto-renewal](/articles/letsencrypt/#auto-renewal) for Let's Encrypt certificates. Your domain must resolve with DNSimple.
 
