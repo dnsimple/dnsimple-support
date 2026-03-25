@@ -16,14 +16,14 @@ DKIM requires the addition of public keys into your DNS zone. The key is often p
 ## Steps to set up DKIM {#steps-to-set-up-dkim}
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain where you want to set up DKIM.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. In the **Record Editor**, click **Add record**, and select either **TXT** or **CNAME** depending on what your provider gave you.
 1. Enter the record information provided by your email service:
 
 - **TXT record:**
     - Insert the string you were given into the **Content** field.
     - If you are given a string representing the DKIM, it usually looks like this:
-      
+
 ```
 k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzvOVh15u9YKAmTLgk1ecr4BCRq3Vkg3Xa2QrEQWbIvQj9FNqBYOr3XIczzU8gkK5Kh42P4C3DgNiBvlNNk2BlA5ITN/EvVAn/ImjoGq5IrcO+hAj2iSAozYTEpJAKe0NTrj49CIkj5JI6ibyJwIDAQAB
 ```

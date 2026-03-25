@@ -39,7 +39,7 @@ How-to:
     - "Renewing a Let's Encrypt SSL Certificate"
     - "How to Set Up Auto-Renewal for SSL Certificates"
   Reissuing Certificates:
-    - "Re-Issuing an SSL Certificate"
+    - "Re-Issuing a Sectigo SSL Certificate"
   Certificate Configuration:
     - "Choosing the SSL Certificate Names"
     - "SSL Certificate Email-Based Domain Validation"
