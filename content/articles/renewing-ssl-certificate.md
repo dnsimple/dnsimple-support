@@ -46,7 +46,13 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 
 Once you have completed the renewal, you must configure, verify, and install the new certificate on your server:
 
-1. If DNSimple generated the CSR for you, the new certificate has a different private key. You will need to replace both the certificate and the private key on your server.
+1. **Sectigo certificate**:
+   - Complete [email-based domain validation](/articles/ssl-certificates-email-validation/) to receive the new certificate.
+   - If DNSimple generated the CSR for you, the renewed certificate has a different private key. You will need to replace both the certificate and the private key on your server.
+1. **Let's Encrypt certificate**:
+   - DNSimple handles domain validation automatically using DNS.
+   - Wait for the renewed certificate to be issued.
+1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
 1. For a Sectigo certificate, complete the [email-based domain validation](/articles/ssl-certificates-email-validation/) to receive the new certificate.
 1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
 
