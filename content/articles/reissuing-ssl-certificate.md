@@ -1,12 +1,12 @@
 ---
-title: Re-Issuing an SSL Certificate
+title: Re-Issuing a Sectigo SSL Certificate
 excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
 meta: Learn how to reissue an SSL certificate in DNSimple when your private key has been compromised or lost, including the request, approval, and installation steps.
 categories:
 - SSL Certificates
 ---
 
-# Re-Issuing an SSL Certificate
+# Re-Issuing a Sectigo SSL Certificate
 
 ### Table of Contents {#toc}
 

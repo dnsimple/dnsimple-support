@@ -53,8 +53,6 @@ Once you have completed the renewal, you must configure, verify, and install the
    - DNSimple handles domain validation automatically using DNS.
    - Wait for the renewed certificate to be issued.
 1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
-1. For a Sectigo certificate, complete the [email-based domain validation](/articles/ssl-certificates-email-validation/) to receive the new certificate.
-1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
 
 > [!WARNING]
 > If you do not complete the verification and installation steps, the renewal is not finished. Browsers will display a security warning when the old certificate expires.
