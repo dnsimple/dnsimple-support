@@ -28,11 +28,11 @@ How-to:
     - "Ordering a Wildcard SSL Certificate"
     - "Ordering a Let's Encrypt Certificate"
   Renewing Certificates:
-    - "Renewing a Sectigo SSL Certificate"
+    - "Renewing an SSL Certificate"
     - "Renewing a Sectigo SSL Certificate"
     - "Renewing a Let's Encrypt SSL Certificate"
   Reissuing Certificates:
-    - "Re-issuing an SSL Certificate"
+    - "Re-issuing a Sectigo SSL Certificate"
   Certificate Configuration:
     - "Choosing the SSL Certificate Names"
     - "SSL Certificate email-based Domain Validation"
