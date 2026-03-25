@@ -1,12 +1,12 @@
 ---
-title: SSL Certificates with Windows
-excerpt: This article provides step-by-step instructions to obtain a new SSL certificate via DNSimple and install it on Windows.
-meta: Learn how to efficiently obtain and install a new SSL certificate from DNSimple on your Windows server with our detailed step-by-step guide. Secure your site easily.
+title: How to Install an SSL Certificate on Windows
+excerpt: How to identify your web server on Windows and follow the appropriate SSL certificate installation guide.
+meta: Learn how to install an SSL certificate on a Windows server by identifying your web server software and following the appropriate installation guide from DNSimple.
 categories:
 - SSL Certificates
 ---
 
-# SSL Certificates and Windows
+# How to Install an SSL Certificate on Windows
 
 ### Table of Contents {#toc}
 
@@ -15,24 +15,36 @@ categories:
 
 ---
 
-With DNSimple you can request an SSL certificate that you can install on Microsoft Windows to enable HTTPS for a site.
+Microsoft Windows supports several web servers. To install an SSL certificate, you need to identify which web server you are running and follow the corresponding installation guide.
 
+## Identify Your Web Server and Install the Certificate
 
-## Which server?
+<div class="section-steps" markdown="1">
+##### Steps to install an SSL certificate on Windows
 
-Microsoft Windows is an operating system. In order to use the SSL certificate and enable HTTPS for a site, you will have to obtain the SSL certificate and install it on a web server.
+1. Determine which web server software is running on your Windows server:
 
-Microsoft Windows supports a large number of web servers. The most common are Microsoft IIS (available by default in most versions of Microsoft Windows), Apache, and NGINX.
+    - **Microsoft IIS** (Internet Information Services) is the default web server included with most versions of Windows Server.
+    - **Apache** is an open-source web server commonly installed on Windows via XAMPP, WampServer, or standalone.
+    - **NGINX** is a high-performance web server that can also run on Windows.
 
-We provide specific articles to request and install the SSL on the following web servers:
+1. Follow the installation guide for your web server:
 
-- [Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis/)
-- [Apache](/articles/ssl-certificate-with-apache/)
-- [NGINX](/articles/ssl-certificate-with-nginx/)
+    - [How to Install an SSL Certificate on Microsoft IIS](/articles/ssl-certificate-with-microsoft-iis/)
+    - [How to Install an SSL Certificate on Apache](/articles/ssl-certificate-with-apache/)
+    - [How to Install an SSL Certificate on NGINX](/articles/ssl-certificate-with-nginx/)
 
-If your web server is not listed above, you can follow the generic instructions to [request an SSL certificate](/articles/ordering-standard-certificate/) with DNSimple, [download the SSL certificate and install it](/articles/installing-ssl-certificate/#generic-installation-instructions) according to the web server instructions.
+1. If your web server is not listed above, follow the generic instructions to [request an SSL certificate](/articles/ordering-standard-certificate/) with DNSimple, then [download and install the certificate](/articles/installing-ssl-certificate/#generic-installation-instructions) according to your web server's documentation.
 
-If you are using Microsoft Windows as operating system, but you are installing the certificate on a cloud service, then you may be interested in one of the following articles:
+</div>
 
-- [Heroku](/articles/ssl-certificate-with-heroku/)
-- [Microsoft Azure](/articles/ssl-certificate-with-azure/)
+## Cloud Service Providers
+
+If you are running Windows as the operating system but hosting your application on a cloud platform, follow the platform-specific guide instead:
+
+- [How to Install an SSL Certificate on Heroku](/articles/ssl-certificate-with-heroku/)
+- [How to Install an SSL Certificate on Microsoft Azure](/articles/ssl-certificate-with-azure/)
+
+## Have More Questions?
+
+If you have additional questions or need any assistance installing your SSL certificate on Windows, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

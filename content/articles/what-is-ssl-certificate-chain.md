@@ -1,18 +1,42 @@
 ---
 title: What is the SSL Certificate Chain?
-excerpt: The difference between the root certificate, intermediate certificates, and server certificate.
-meta: Learn about SSL certificate chains, including the roles of root, intermediate, and server certificates, and how they work together to secure your website.
+excerpt: The SSL certificate chain is a series of certificates that link your server certificate to a trusted root certificate, establishing trust in your website's identity.
+meta: Understand SSL certificate chains, how root and intermediate certificates work together, and why the complete chain is essential for browser trust.
 categories:
 - SSL Certificates
 ---
 
 # What is the SSL Certificate Chain?
 
-There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been **issued by a CA that's included in the trusted store of the device that's connecting**.
+The **SSL certificate chain** (also called the **certificate chain of trust**) is a series of certificates that links your server's SSL certificate to a trusted [root certificate](/articles/what-is-ssl-root-certificate/). This chain establishes trust in your website's identity and allows web browsers to verify that your certificate is legitimate.
 
-If the certificate wasn't issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA. It continues checking until either a trusted CA is found (at which point a trusted, secure connection will be established), or no trusted CA can be found (at which point the device will usually display an error).
+## How the certificate chain works
 
-The list of SSL certificates, from the [root certificate](/articles/what-is-ssl-root-certificate/) to the end-user certificate, represents the **SSL certificate chain**.
+There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been issued by a CA that's included in the trusted store of the device that's connecting (such as a web browser or operating system).
+
+When a device validates a certificate, it follows this process:
+
+1. It checks if the certificate was issued by a trusted CA directly.
+2. If not, it checks if the certificate of the issuing CA was issued by a trusted CA.
+3. It continues checking up the chain until either:
+   - A trusted CA ([root certificate](/articles/what-is-ssl-root-certificate/)) is found, establishing trust
+   - No trusted CA can be found, resulting in a security error
+
+The list of SSL certificates, from the root certificate to the end-user certificate, represents the **SSL certificate chain**.
+
+## Components of the certificate chain
+
+The certificate chain consists of three types of certificates:
+
+1. **End-user certificate** (also called server certificate): The certificate issued for your domain that you install on your web server.
+2. **Intermediate certificates**: One or more certificates that link the end-user certificate to the root certificate. These are issued by intermediate CAs.
+3. **Root certificate**: The top-level certificate issued by a root CA. Root certificates are embedded in browsers and operating systems and are the foundation of trust.
+
+## Why intermediate certificates exist
+
+Root CAs keep their root certificates offline and secure to minimize the risk of compromise. Instead of issuing certificates directly, root CAs delegate issuance to intermediate CAs. This creates a security boundary: if an intermediate CA is compromised, only certificates issued by that intermediate CA are affected, not the entire root CA.
+
+Intermediate certificates create the link between the root certificate and end-user certificates, forming the chain of trust.
 
 ![A real SSL certificate chain](/files/dnsimple-ssl-chain.png)
 
@@ -39,34 +63,33 @@ In our example, the SSL certificate chain is represented by 6 certificates:
 
 Certificate 1, the one you purchase from the CA, is your **end-user certificate**. Certificates 2 to 5 are **intermediate certificates**. Certificate 6, the one at the top of the chain (or at the end, depending on how you read the chain), is the [**root certificate**](/articles/what-is-ssl-root-certificate/).
 
-When you install your end-user certificate for `example.awesome`, you **must** bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate won't be trusted by some devices.
+When you install your end-user certificate, you must bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate won't be trusted by some devices.
 
-## Frequently Asked Questions
+## Why the complete chain is required
 
-<div class="section-faq" markdown="1">
-1.  #### Do I have to install the Root certificate on my server?
+The certificate chain must be complete and unbroken for browsers to trust your certificate. When a browser validates your certificate, it follows the chain upward, verifying each certificate's signature against its issuer. If any link in the chain is missing, the browser cannot verify the certificate's authenticity and will display a security error.
 
-    No. The root certificate is usually embedded in your connected device. In the case of web browsers, root certificates are packaged with the browser software.
+### What happens with an incomplete chain
 
-1.  #### How do I install the Intermediate SSL certificates?
+If intermediate certificates are missing, the browser cannot trace the path from your certificate to a trusted root certificate. This breaks the chain of trust, causing browsers to display "Invalid certificate" or "certificate not trusted" errors, even though your certificate itself is valid.
 
-    The procedure to install the Intermediate SSL certificates depends on the web server and the environment where you install the certificate.
+### Root certificates and browsers
 
-    For instance, Apache requires you to bundle the intermediate SSL certificates and assign the location of the bundle to the `SSLCertificateChainFile` configuration. However, NGINX requires you to package the intermediate SSL certificates in a single bundle with the end-user certificate.
+Root certificates are embedded in web browsers and operating systems by their maintainers. You don't need to install root certificates on your server because they're already present in the client devices. The browser uses these pre-installed root certificates as the starting point for validating certificate chains.
 
-    We provide a certificate installation wizard which contains installation instructions for several servers and platforms. If you purchase a certificate with us you can [use this wizard to obtain and install the files you need](/articles/installing-ssl-certificate/) for your server.
 
-    If your server isn't on the wizard, you can still obtain the proper files through it, then follow your web server's documentation to determine how to properly install your domain certificate and intermediate certificates.
+## Taking action
 
-1.  #### What happens if I don't install an Intermediate SSL certificate?
+- [Installing an SSL Certificate](/articles/installing-ssl-certificate/) - Learn how to install your certificate and intermediate chain
+- [SSL Certificates with Apache](/articles/ssl-certificate-with-apache/) - Apache-specific installation instructions
+- [SSL Certificates with NGINX](/articles/ssl-certificate-with-nginx/) - NGINX-specific installation instructions
 
-    If you don't install one or more intermediate SSL certificate, you break the certificate chain. That means you create a gap between a specific (end-user or intermediate) certificate and its issuer. When a device can't find a trusted issuer for a certificate, the certificate and the entire chain, from the intermediate certificate down to the final cerficate, can't be trusted.
+## Have more questions?
 
-    As a result, your final certificate won't be trusted. Web browsers will display an "Invalid certificate" or "certificate not trusted" error.
+If you have additional questions or need any assistance with certificate chains and trust validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
-1.  #### How can I shorten the SSL certificate chain in my browser?
+## Related reading
 
-    This isn't possible. The only way to shorten a chain is to promote an intermediate certificate to root. Ideally, you should promote the certificate that represents your Certificate Authority – that way the chain will consist of just two certificates.
-
-    Root certificates are packaged with the browser software. The list can only be altered by the browser maintainers.
-</div>
+- [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand the role of CAs in the certificate ecosystem
+- [What is a Root Certificate?](/articles/what-is-ssl-root-certificate/) - Learn about root certificates and trust anchors
+- [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate types and their characteristics

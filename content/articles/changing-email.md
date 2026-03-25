@@ -24,9 +24,17 @@ categories:
 
     ![Enter email address](/files/account-change-email-2.png)
 
-1.  If the update is successful, you'll be redirected to the **User Settings** page with a banner confirming the change. Your updated email address will be displayed under **User Settings**. Please check to make sure the updated address is correct.
+1.  A verification email will be sent to the new address. Your email address will not change until you complete the verification process.
+
+    ![Screenshot of user settings after requesting an email change](/files/user-pending-email-change.png)
+
+1.  Open the verification email and click the link to confirm the new address. Once verified, your email address will be updated.
 
 </div>
+
+> [!NOTE]
+> Your current email address remains active and fully functional until the new one is verified. If you haven't received the verification email, you can request a new one from your user settings page. Verification links expire after 7 days — if yours has expired, requesting a new one will send a fresh link.
+
 
 ## Setting or Changing the notification email
 
@@ -43,7 +51,7 @@ categories:
 6. Click <label>Save</label> to save changes.
 
 > [!NOTE]
-> If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set a billing email in the billing email field shown above, or from the[ billing settings](/articles/billing-settings/#changing-the-billing-email) page.
+> If you do not set a notification email, all admins on the account will receive the notifications by default. If you are on an [eligible plan](https://dnsimple.com/pricing), you can also set a billing email in the billing email field shown above, or from the [billing settings](/articles/billing-settings/#changing-the-billing-email) page.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Heroku SSL errors
+title: Troubleshooting Heroku SSL Errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
 meta: Resolve SSL issues on Heroku with our comprehensive guide. Learn how to troubleshoot and ensure your SSL certificate is configured correctly for seamless security.
 categories:
@@ -7,11 +7,18 @@ categories:
 - Integrations
 ---
 
-# Troubleshooting Heroku SSL errors
+# Troubleshooting Heroku SSL Errors
 
-This article describes somes of the most common errors you may experience when installing a certificate on Heroku, along with the corresponding solutions.
+### Table of Contents {#toc}
 
-## Invalid common name (*.heroku.com or *. herokuapp.com)
+* TOC
+{:toc}
+
+---
+
+This article describes some of the most common errors you may experience when installing a certificate on Heroku, along with the corresponding solutions.
+
+## Invalid Common Name (*.heroku.com or *.herokuapp.com)
 
 You pointed your domain to Heroku to use an SSL certificate but you are receiving an error such as _Troubleshooting Heroku SSL errors_, _Invalid common name_ or _The certificate for this website is invalid_.
 

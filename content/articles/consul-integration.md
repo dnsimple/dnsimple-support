@@ -45,7 +45,7 @@ To ensure the task can create the records in your DNSimple account, the followin
 
 **`dnsimple_account`**:`string` - (Required) The ID of the account associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](https://developer.dnsimple.com).
 
-**`dnsimple_sandbox`**:`boolean` - (Optional) Set to `true` to connect to the [API sandbox environment](https://developer.dnsimple.com/sandbox/). The token and account ID will vary between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your configuration dialed in before using it in the actual production environment. To learn more about our sandbox environment, read [Sandbox for Testing Calls to the API](https://support.dnsimple.com/articles/sandbox/).
+**`dnsimple_sandbox`**:`boolean` - (Optional) Set to `true` to connect to the [API sandbox environment](https://developer.dnsimple.com/sandbox/). The token and account ID will vary between the sandbox and our production environment. The sandbox environment is a great place to make sure you have your configuration dialed in before using it in the actual production environment. To learn more about our sandbox environment, read [What Is the DNSimple Sandbox?](/articles/sandbox/).
 
 
 ## Service Configuration Metadata

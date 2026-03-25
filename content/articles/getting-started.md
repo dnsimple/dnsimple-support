@@ -25,14 +25,14 @@ Prefer to watch? Try our video tutorials:
 </div>
 
 ## Introduction
-This how-to guide shows you how to accomplish basic tasks with DNSimple. Our services are streamlined and make managing your DNS, domains, and certificates straightforward with our simple interface and powerful tools. 
+This how-to guide shows you how to accomplish basic tasks with DNSimple. Our services are streamlined and make managing your DNS, domains, and certificates straightforward with our simple interface and powerful tools.
 
 We recommend having this guide open alongside your DNSimple account so you can follow along. When you've completed this, you will be able to register, transfer, and set up DNS for your domain. If you don't have an account, check out [our plans](https://dnsimple.com/pricing/) to register and follow along.
 
 > [!NOTE]
 > The process for registering, transferring, or managing DNS for domains is the same for a Solo or Teams account.
 
-Before you skip to a section, let's go over how to navigate the main interface of the dashboard. 
+Before you skip to a section, let's go over how to navigate the main interface of the dashboard.
 
 To get to the dashboard, log in to your DNSimple account, and you will be brought to it. If you haven't created an account yet, make one, then select **Skip to dashboard** at the bottom of the **Get started** page.
 
@@ -80,7 +80,7 @@ Now that you have your own domain, [try adding DNS](#adding-dns-to-an-internal-d
 
 ### Transferring a domain
 
-How do you transfer a domain? Transferring a domain is recommended when you already own a domain through another registrar. 
+How do you transfer a domain? Transferring a domain is recommended when you already own a domain through another registrar.
 
 > [!NOTE]
 > A domain transfer requires access to the registrar the domain is registered to in order to obtain an authorization code.
@@ -132,13 +132,9 @@ If you have a domain registered through DNSimple, follow these steps to add DNS 
 
     ![Add Menu - Add DNS to Internal Domain](/files/getting-started-dns-internal-dashboard.png)
 
-2. On the **Domain Names** page, search for the domain you want to add DNS to. Click on it to open the management page for that domain.
+2. On the **Domain Names** page, search for the domain you want to add DNS to. Click on **Edit DNS** to access the DNS Record Editor.
 
     ![Domain Names Tab](/files/getting-started-dns-internal-domain-names-tab.png)
-
-3. On the domain's management page, click the **DNS** tab on the left side, then find the **DNS records** card on the right. Click **Add** to navigate to the **Record Editor**.
-
-    ![Domain Management Page](/files/getting-started-dns-internal-management.png)
 
     > [!NOTE]
 > The domain's DNS zone must be active for it to resolve.
