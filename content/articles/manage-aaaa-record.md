@@ -26,7 +26,7 @@ The instructions in this article assume you are familiar with the [AAAA record f
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. In the **Record Editor**, click <label>Add record</label> and select <label>AAAA</label> from the dropdown menu to add a new AAAA record.
   ![screenshot: add AAA record](/files/aaa-record-add.png)
 1. Enter the AAAA record information.
@@ -56,7 +56,7 @@ The record is created and will be visible in the record list.
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the AAAA record you want to update in the list.
 1. Click the edit icon (🖊️) on the right side of the row to edit it.
   ![screenshot: edit an AAA record](/files/aaa-record-edit.png)
@@ -71,7 +71,7 @@ The record is created and will be visible in the record list.
 
   1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the AAAA record you want to remove in the list.
 1. Click the _trash_ icon on the right side of the row to delete it.
   ![screenshot: delete aaa record](/files/aaa-record-delete.png)

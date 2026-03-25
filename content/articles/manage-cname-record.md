@@ -26,8 +26,8 @@ The instructions in this article assume you are familiar with the [CNAME record 
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
-1. In the **Record Editor**, click **Add record**, and select **CNAME** from the dropdown menu.  
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. In the **Record Editor**, click **Add record**, and select **CNAME** from the dropdown menu.
 ![screenshot: add cname record](/files/cname-add-record.png)
 1. Enter the CNAME record information.
   ![screenshot: create new CNAME record form](/files/record-cname-create-new.png)
@@ -60,7 +60,7 @@ You cannot add another record type on a subdomain where a **CNAME record** alrea
 A CNAME points the entire subdomain to another hostname, so it overrides any other records on that subdomain. Because of this, the DNS system blocks you from adding a CNAME alongside other records.
 
 **Examples:**
-- If `email.example.com` already has an MX record, and you try to add a CNAME to that exact subdomain (`email.example.com`), the [MX record](/articles/mx-record/) would stop working. The CNAME would override the subdomain (`email.example.com`), rendering the MX record useless, which stops your email. To counter this potential error, the Domain Name System does not allow other records alongside a CNAME.  
+- If `email.example.com` already has an MX record, and you try to add a CNAME to that exact subdomain (`email.example.com`), the [MX record](/articles/mx-record/) would stop working. The CNAME would override the subdomain (`email.example.com`), rendering the MX record useless, which stops your email. To counter this potential error, the Domain Name System does not allow other records alongside a CNAME.
 - You also cannot add a CNAME at the root domain (like `example.com`). The root already requires other records (e.g., [NS](/articles/ns-record/) and [SOA](/articles/soa-record/)). Trying to create a CNAME there will return an error:
 ```
 Another record already exists for example.com, cannot add a CNAME.
@@ -74,7 +74,7 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the CNAME record you want to update in the list.
 1. Click the edit icon (🖊️) at the end of the record row to edit it.
   ![screenshot: edit cname record](/files/cname-record-edit.png)
@@ -89,7 +89,7 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the CNAME record you want to remove in the list
 1. Click the trash icon at the end of the row to delete it.
   ![screenshot: delete cname record](/files/cname-record-delete.png)
