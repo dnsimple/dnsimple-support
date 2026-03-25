@@ -29,12 +29,12 @@ After your SSL certificate is [issued](/articles/how-long-to-issue-ssl-certifica
 
 1. Log into DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
-1. On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 1. Scroll down to the <label>SSL certificates</label> section and click on the certificate you want to download.
 1. On the certificate detail page, scroll to the download section. You will find:
-   - **Server certificate** -- Your domain's certificate file.
-   - **Intermediate certificate chain** -- The chain of trust linking your certificate to the root CA.
-   - **Private key** -- Available only if DNSimple generated the CSR. If you provided a custom CSR, you already have the private key.
+   - **Server certificate** - Your domain's certificate file.
+   - **Intermediate certificate chain** - The chain of trust linking your certificate to the root CA.
+   - **Private key** - Available only if DNSimple generated the CSR. If you provided a custom CSR, you already have the private key.
 1. Click each file to download it.
 </div>
 
