@@ -30,7 +30,7 @@ DNSimple offers four SSL certificate products issued by two [certificate authori
 | Auto-renewal                      | No                             | No                                   | Yes                            | Yes                                 |
 | Custom CSR support                | Yes                            | Yes                                  | No                             | No                                  |
 | Default key algorithm             | ECDSA (prime256v1)             | ECDSA (prime256v1)                   | ECDSA                          | ECDSA                               |
-| RSA key available                 | Yes (via custom CSR)           | Yes (via custom CSR)                 | No                             | No                                  |
+| RSA key available                 | Yes           | Yes                 | No                             | No                                  |
 | DNSimple subscription required    | No                             | No                                   | Yes                            | Yes                                 |
 | Domain must resolve with DNSimple | No                             | No                                   | Yes                            | Yes                                 |
 | Plan restrictions                 | None                           | None                                 | SAN name count varies by plan  | Available on certain plans only     |
@@ -52,9 +52,9 @@ For step-by-step ordering instructions, see:
 
 | Behavior                 | Sectigo                                                        | Let's Encrypt                                  |
 | ------------------------ | -------------------------------------------------------------- | ---------------------------------------------- |
-| Renewal method           | Manual -- purchase a new certificate before expiration         | Automatic -- [auto-renewal](/articles/letsencrypt/#auto-renewal) renews before expiration |
-| Renewal reminder emails  | Yes -- sent at 60, 30, 14, 7, and 3 days before expiration    | Yes -- if auto-renewal is disabled             |
-| Installation after renewal | Manual -- download and install the new certificate           | Manual -- install the renewed certificate on your server |
+| Renewal method           | Manual - purchase a new certificate before expiration         | Automatic - [auto-renewal](/articles/letsencrypt/#auto-renewal) renews before expiration |
+| Renewal reminder emails  | Yes - sent at 60, 30, 14, 7, and 3 days before expiration    | Yes - if auto-renewal is disabled             |
+| Installation after renewal | Manual - download and install the new certificate on your server           | Manual - download and install the renewed certificate on your server |
 
 For details on how renewals work, see [How Does an SSL Certificate Renewal Work?](/articles/how-certificate-renewal-works/).
 
@@ -70,8 +70,8 @@ If you need an RSA key for compatibility with older systems, you can provide a [
 
 The number and type of hostnames a certificate covers depends on the product:
 
-- **Single-name** -- Covers exactly one hostname. If the hostname is `www`, Sectigo also covers the root domain.
-- **Wildcard** -- Covers all single-level subdomains (`*.example.com`). Sectigo wildcards include the root domain; Let's Encrypt wildcards do not.
+- **Single-name** - Covers exactly one hostname. If the hostname is `www`, Sectigo also covers the root domain.
+- **Wildcard** - Covers all single-level subdomains (`*.example.com`). Sectigo wildcards include the root domain; Let's Encrypt wildcards do not.
 - **SAN (Let's Encrypt)** -- Covers up to 100 hostnames specified at order time. The number of customizable names depends on your plan.
 
 For guidance on choosing the right hostnames, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
