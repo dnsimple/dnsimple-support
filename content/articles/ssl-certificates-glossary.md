@@ -150,7 +150,7 @@ Elliptic Curve Digital Signature Algorithm. A key algorithm that produces smalle
 
 **Learn more:**
 - [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/)
-- [I Got an ECC-Signed Certificate but Want RSA](/articles/ssl-got-ecc-want-rsa/)
+- [How to Switch From an ECC-Signed Certificate to RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/)
 
 ### SHA-2 / SHA-256 {#sha2}
 

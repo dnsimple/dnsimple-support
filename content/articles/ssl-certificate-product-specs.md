@@ -30,7 +30,7 @@ DNSimple offers four SSL certificate products issued by two [certificate authori
 | Auto-renewal                      | No                             | No                                   | Yes                            | Yes                                 |
 | Custom CSR support                | Yes                            | Yes                                  | No                             | No                                  |
 | Default key algorithm             | ECDSA (prime256v1)             | ECDSA (prime256v1)                   | ECDSA                          | ECDSA                               |
-| RSA key available                 | Yes           | Yes                 | No                             | No                                  |
+| RSA key available                 | Yes                            | Yes                                  | Yes                            | Yes                                 |
 | DNSimple subscription required    | No                             | No                                   | Yes                            | Yes                                 |
 | Domain must resolve with DNSimple | No                             | No                                   | Yes                            | Yes                                 |
 | Plan restrictions                 | None                           | None                                 | SAN name count varies by plan  | Available on certain plans only     |
@@ -62,9 +62,11 @@ For details on how renewals work, see [How Does an SSL Certificate Renewal Work?
 
 All DNSimple certificates default to [ECDSA](/articles/can-elliptic-curve-key-ssl-certificates/) keys using the `prime256v1` curve. ECDSA keys are smaller and faster than RSA keys at equivalent security levels.
 
-If you need an RSA key for compatibility with older systems, you can provide a [custom CSR](/articles/what-is-csr/) when ordering a Sectigo certificate. Custom CSRs are not supported for Let's Encrypt certificates.
+If you need an RSA key for compatibility with older systems, you can select RSA as the signature algorithm during ordering. The certificate configuration page includes a radio toggle to choose between ECDSA and RSA for all certificate products.
 
-**Learn more:** [I Got an ECC-Signed Certificate but Want RSA](/articles/ssl-got-ecc-want-rsa/)
+Sectigo certificates also support [custom CSRs](/articles/what-is-csr/) if you need to provide your own key pair. Custom CSRs are not supported for Let's Encrypt certificates.
+
+**Learn more:** [How to Switch From an ECC-Signed Certificate to RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/)
 
 ## Certificate Names and Hostnames {#names}
 
