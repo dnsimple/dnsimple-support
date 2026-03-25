@@ -28,23 +28,23 @@ You will need access to the account or domain to make changes. Make sure the dom
 1. Use the account switcher at the top of the page to select the appropriate account.
 1. From the Domain Names list, click the domain you want to manage
 1. Click the DNS tab on the left.
-1. Locate the DNS record section and click Manage 
+1. Locate the DNS record section and click Manage
 
 **Option 2: From the domain page**
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right of the screen (next to the star icon). This takes you directly to the Record Editor.
+1. On the domain page, click **Edit DNS** at the top-right of the screen (next to the star icon). This takes you directly to the Record Editor.
 
 ![record editor DNS badge](/files/dns-badge.png)
 
 ## Adding a record {#adding-a-record}
-1. In the Record Editor, click the **Add a record** button. 
+1. In the Record Editor, click the **Add a record** button.
 1. Select the DNS record type you want to add (for example, A, CNAME, MX, etc.).
 1. Fill out the required fields for the new record.
 1. Click **Add record** to save it.
 
 For step-by-step instructions on adding common DNS records, see [How to Add Common DNS Records](/articles/how-to-add-dns-records/).
-   
+
 ![Select Record Type](/files/rec-editor-new-record.png)
 
 ## Updating a record {#updating-a-record}
@@ -63,7 +63,7 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 ![delete record](/files/delete-record.png)
 
 > [!WARNING]
-> There is no way to undo deleting a record. The only way to restore a deleted record is to 
+> There is no way to undo deleting a record. The only way to restore a deleted record is to
 > recreate it.
 
 ## Managing integrated zone records {#managing-integrated-zone-records}

@@ -15,7 +15,7 @@ categories:
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain where you want to set up DMARC.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. In the **Record Editor**, click **Add record**, and select **TXT** as the record type.
 1. Enter the record information provided by your email service:
  - **Content:** Insert the string you were given into the **Content** field. If you are given a string representing the DKIM, it often looks like this:
