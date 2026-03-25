@@ -72,7 +72,7 @@ The number and type of hostnames a certificate covers depends on the product:
 
 - **Single-name** - Covers exactly one hostname. If the hostname is `www`, Sectigo also covers the root domain.
 - **Wildcard** - Covers all single-level subdomains (`*.example.com`). Sectigo wildcards include the root domain; Let's Encrypt wildcards do not.
-- **SAN (Let's Encrypt)** -- Covers up to 100 hostnames specified at order time. The number of customizable names depends on your plan.
+- **SAN (Let's Encrypt)** - Covers up to 100 hostnames specified at order time. The number of customizable names depends on your plan.
 
 For guidance on choosing the right hostnames, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
 
