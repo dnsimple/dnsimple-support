@@ -28,8 +28,8 @@ How-to:
     - "Ordering a Wildcard SSL Certificate"
     - "Ordering a Let's Encrypt Certificate"
   Renewing Certificates:
-    - "Renewing an SSL Certificate"
-    - "Renewing a standard SSL Certificate"
+    - "Renewing a Sectigo SSL Certificate"
+    - "Renewing a Sectigo SSL Certificate"
     - "Renewing a Let's Encrypt SSL Certificate"
   Reissuing Certificates:
     - "Re-issuing an SSL Certificate"
