@@ -41,7 +41,7 @@ When an SSL certificate is misconfigured or expired, browsers display security w
 
 **What you see:** `ERR_CERT_AUTHORITY_INVALID` or "certificate not trusted" errors, even though the certificate itself is valid and not expired.
 
-**Cause:** The [intermediate certificate](/articles/what-is-ssl-certificate-chain/) is missing from your server configuration. Browsers need the full chain -- from your server certificate through the intermediate(s) to the root -- to verify trust.
+**Cause:** The [intermediate certificate](/articles/what-is-ssl-certificate-chain/) is missing from your server configuration. Browsers need the full chain - from your server certificate through the intermediate(s) to the root - to verify trust.
 
 **Fix:** Download the intermediate certificate bundle from your certificate page in DNSimple and install it alongside your server certificate. See [Troubleshooting Certificate Chain Errors](/articles/troubleshooting-ssl-chain-errors/) for detailed steps.
 

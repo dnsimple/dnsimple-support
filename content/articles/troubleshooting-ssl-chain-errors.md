@@ -59,8 +59,8 @@ You can test your certificate chain without a browser using these methods:
 
 **Online tools:**
 
-- [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) -- Provides a detailed chain analysis and grade.
-- [SSL Checker](https://www.sslshopper.com/ssl-checker.html) -- Quick chain verification.
+- [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) - Provides a detailed chain analysis and grade.
+- [SSL Checker](https://www.sslshopper.com/ssl-checker.html) - Quick chain verification.
 
 **Command line (OpenSSL):**
 
