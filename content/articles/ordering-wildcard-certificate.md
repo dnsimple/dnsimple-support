@@ -1,7 +1,7 @@
 ---
 title: Ordering a Wildcard SSL Certificate
 excerpt: How to order a wildcard SSL certificate with DNSimple.
-meta: Learn how to easily order a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, enhancing your website's security and credibility.
+meta: Learn how to order a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, with step-by-step instructions for both Let's Encrypt and Sectigo.
 categories:
 - SSL Certificates
 - Enterprise
@@ -16,9 +16,7 @@ categories:
 
 ---
 
-Wildcard certificates allow you to secure an unlimited number of names belonging to a single subdomain level. Wildcard certificates can make certificate management easier in some cases. However, you should avoid them unless you have a specific need, such as multi-tenant applications.
-
-Wildcard certificates are no different from single name certificates. They contain an `*` as the hostname.
+Wildcard certificates allow you to secure an unlimited number of names belonging to a single subdomain level. They contain an `*` as the hostname.
 
 ```
     APEX (root) Domain
@@ -29,48 +27,56 @@ Wildcard certificates are no different from single name certificates. They conta
 wildcard
 ```
 
+## Before You Start
+
+- Determine whether you need a **Let's Encrypt** (free, 90-day validity) or **Sectigo** (paid, 200-day validity as of March 2026) wildcard certificate. See [Sectigo vs Let's Encrypt](/articles/standard-vs-letsencrypt/) for a detailed comparison.
+- Let's Encrypt wildcard certificates are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+- Sectigo wildcard certificates support only one wildcard name per certificate.
+
 > [!WARNING]
-> When ordering a Let's Encrypt wildcard SSL certificate, the wildcard (*) will _only_ secure subdomains. A wildcard certificate cannot secure the root (such as example.com). If you want to secure both the root domain and subdomains with Let's Encrypt, you will need to [order an additional certificate](/articles/getting-started-ssl-certificates/).
+> When ordering a Let's Encrypt wildcard SSL certificate, the wildcard (`*`) will only secure subdomains. A wildcard certificate cannot secure the root domain (such as `example.com`). If you want to secure both the root domain and subdomains with Let's Encrypt, you will need to [order an additional certificate](/articles/getting-started-ssl-certificates/).
 
-## Let's Encrypt or Standard
+## Ordering a Let's Encrypt Wildcard Certificate
 
-Both providers support wildcard certificates. Let's Encrypt certificates are free, but are valid for 90 days. Sectigo certificates are valid for longer (200 days as of March 2026), but come with a cost per wildcard certificate.
+<div class="section-steps" markdown="1">
+##### Steps to order a Let's Encrypt wildcard certificate
 
-You can learn more about the differences between standard and Let's Encrypt certificates in the corresponding [article](/articles/standard-vs-letsencrypt/).
+1. Follow the instructions to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+1. When the certificate form requests the **name**, use the `*` character to represent the subdomain level you want the certificate to cover.
 
-> [!NOTE]
-> Let's Encrypt wildcard certificates are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+    - To request a certificate for `*.example.com`, enter `*`.
+    - To request a certificate for `*.app.example.com`, enter `*.app`.
 
-## Use * for a wildcard certificate
+1. If your plan supports multiple names (SAN), you can add more than one certificate name in the same certificate.
+1. Submit the order. DNSimple will automatically handle the DNS-based validation.
 
-To include any subdomain in a certificate, you need to use an asterisk `*` as the subdomain.
+</div>
 
 ![Order overview for Let's Encrypt wildcard certificate](/files/lets-encrypt-wildcard-order.png)
 
-### Let's Encrypt
+## Ordering a Sectigo Wildcard Certificate
 
-To order a Let's Encrypt wildcard certificate, follow the instructions to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+<div class="section-steps" markdown="1">
+##### Steps to order a Sectigo wildcard certificate
 
-When the certificate form requests the _name_, use the `*` char to represent the subdomain level you want to request the certificate for.
+1. Follow the instructions to [order a Sectigo certificate](/articles/ordering-standard-certificate/).
+1. When the certificate form requests the **common name**, use the `*` character to represent the subdomain level you want the certificate to cover.
 
-For instance, to request a certificate for `*.example.com`, just enter `*`. To request a certificate for `*.app.example.com`, enter `*.app`.
+    - To request a certificate for `*.example.com`, enter `*`.
+    - To request a certificate for `*.app.example.com`, enter `*.app`.
 
-> [!NOTE]
-> If your plan supports multiple names (SAN), you can add more than one certificate name in the same certificate.
+1. Complete the remaining order steps, including selecting the signature algorithm and submitting the order.
+1. Complete [email-based domain validation](/articles/ssl-certificates-email-validation/) when prompted.
 
+</div>
 
-### Standard
+## Next Steps
 
-To order a Sectigo wildcard certificate, follow the instructions to [order a Standard certificate](/articles/ordering-standard-certificate/).
+Once your wildcard certificate has been issued, install it on your server:
 
-When the certificate form requests the _common name_, use the `*` char to represent the subdomain level you want to request the certificate for.
+- [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
+- [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) to understand how wildcard names are matched
 
-For instance, to request a certificate for `*.example.com`, just enter `*`. To request a certificate for `*.app.example.com`, enter `*.app`.
+## Have More Questions?
 
-> [!NOTE]
-> Standard wildcard certificates support only one wildcard per certificate.
-
-
-## Install the certificate
-
-To learn how to install the certificate, take a look at [Installing an SSL Certificate](/articles/installing-ssl-certificate/).
+If you have additional questions or need any assistance ordering a wildcard certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
