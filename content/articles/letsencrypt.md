@@ -41,8 +41,7 @@ This table summarizes the most important differences between Let's Encrypt and S
 | Cost | Free | Depends on the [CA](/articles/what-is-certificate-authority/) and product |
 | Limits | [Per-domain, Per-week limits](https://letsencrypt.org/docs/rate-limits/) | N/A |
 
-
-## Let's Encrypt highlights
+## Let's Encrypt Highlights {#highlights}
 
 Let's Encrypt is different from most traditional CAs. Here are a few notes and limitations to keep in mind before requesting one of their SSL certificates:
 
