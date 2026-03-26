@@ -17,7 +17,7 @@ If you decide a wildcard SSL certificate better fits your needs within 30 days o
 ## How to Order a Wildcard Certificate {#order}
 
 - **Sectigo wildcard** - See [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/). Covers all single-level subdomains plus the root domain. Costs $100/year.
-- **Let's Encrypt wildcard** - See [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/). Covers all single-level subdomains (not the root domain). Free, but requires your domain to resolve with DNSimple.
+- **Let's Encrypt wildcard** - See [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/). Covers all single-level subdomains (for example, *.example.com), but does not include the root domain (example.com). Free, but requires your domain to resolve with DNSimple.
 
 For help choosing between single-name and wildcard coverage, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
 
