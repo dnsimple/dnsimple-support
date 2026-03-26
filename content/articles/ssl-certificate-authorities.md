@@ -6,7 +6,7 @@ categories:
 - SSL Certificates
 ---
 
-# Certificate Authorities Used by DNSimple
+# SSL Certificate Authorities Used by DNSimple
 
 ### Table of Contents {#toc}
 
