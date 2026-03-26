@@ -44,7 +44,7 @@ We do not support the ability to specify via interface the destructured CAA reco
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. In the record editor, click **Add**, and select **CAA** to add a new CAA record.
 1. Select the **Provider** tab.
 1. Enter the CAA record information.
@@ -79,7 +79,7 @@ We do not support the ability to specify via interface the destructured CAA reco
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the CAA record you want to update in the list.
 1. Click the edit icon (🖊️) at the end of the record row to edit it.
 
@@ -96,7 +96,7 @@ We do not support the ability to specify via interface the destructured CAA reco
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the CAA record you want to remove in the list.
 1. Click the _trash_ icon at the end of the row to delete it.
 

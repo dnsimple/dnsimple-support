@@ -1,13 +1,13 @@
 ---
-title: Getting Started With the DNSimple Sandbox API
-excerpt: A step-by-step tutorial for setting up and using the DNSimple Sandbox API to test your integrations.
-meta: Learn how to set up the DNSimple Sandbox API and build integrations with practical examples for DNS management and automation.
+title: Getting Started With the DNSimple Sandbox
+excerpt: A step-by-step tutorial for setting up and using the DNSimple Sandbox to test your integrations.
+meta: Learn how to use the DNSimple Sandbox and build integrations with practical curl examples for DNS management and automation.
 categories:
 - API
 - Enterprise
 ---
 
-# Getting Started With the DNSimple Sandbox API
+# Getting Started With the DNSimple Sandbox
 
 ### Table of Contents {#toc}
 
@@ -16,157 +16,185 @@ categories:
 
 ---
 
-This tutorial walks you through setting up the DNSimple Sandbox API and making your first API calls. By the end, you will have a working development environment and hands-on experience with common API operations. The examples below use Python, but the Sandbox API works with any language or HTTP client.
+This tutorial walks you through setting up the DNSimple Sandbox and making your first API calls to that environment. By the end, you will have hands-on experience with common API operations using `curl`. The same endpoints and request formats work with any HTTP client or [DNSimple client library](https://developer.dnsimple.com/libraries/). The Sandbox also has a full [web interface](/articles/sandbox/) — this tutorial focuses on the API path.
 
-## 1. Prerequisites
+## 1. Prerequisites {#prerequisites}
 
 Before you begin, ensure you have:
 
 - **A DNSimple Sandbox account.** Sign up at [sandbox.dnsimple.com](https://sandbox.dnsimple.com/signup).
 - **A Sandbox API access token.** See [API Access Token](/articles/api-access-token/) for instructions on generating a token.
+- **curl** installed on your system. Most macOS and Linux systems include it by default.
 
-## 2. Setting up your environment
-
-The examples in this tutorial use the [DNSimple Python client](https://github.com/dnsimple/dnsimple-python). Install it with:
+Set your token and account ID as environment variables so you can copy and paste the examples directly:
 
 ```bash
-pip install dnsimple
-```
-
-Create a `.env` file in your project directory with your Sandbox API token:
-
-```
-DNSIMPLE_TOKEN=your_sandbox_token_here
+export DNSIMPLE_TOKEN=your_sandbox_token_here
+export DNSIMPLE_ACCOUNT_ID=your_account_id_here
 ```
 
 > [!WARNING]
-> Never commit your `.env` file or API tokens to version control. Add `.env` to your `.gitignore` file.
+> Never commit API tokens to version control or share them publicly.
 
-Verify your setup by connecting to the Sandbox:
+## 2. Verifying your setup {#verify}
 
-```python
-import os
-from dotenv import load_dotenv
-from dnsimple import Client
+Confirm your token works by calling the [whoami endpoint](https://developer.dnsimple.com/v2/identity/#whoami):
 
-load_dotenv()
-
-client = Client(sandbox=True, access_token=os.getenv("DNSIMPLE_TOKEN"))
-response = client.identity.whoami()
-account = response.data.account
-
-print(f"Connected to account {account.id} ({account.email})")
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     https://api.sandbox.dnsimple.com/v2/whoami
 ```
 
-If the script prints your account details, you are ready to start making API calls.
+A successful response returns your account details:
 
-## 3. Batch-creating DNS records
-
-A common use case is onboarding a new domain with a standard set of DNS records. The batch records endpoint lets you create multiple records in a single API call:
-
-```python
-from dnsimple.struct import BatchChangeZoneRecordsInput, BatchChangeZoneRecordsCreateInput
-
-records = [
-    {'type': 'A', 'name': '', 'content': '192.0.2.1', 'ttl': 3600},
-    {'type': 'A', 'name': 'www', 'content': '192.0.2.1', 'ttl': 3600},
-    {'type': 'MX', 'name': '', 'content': 'mail.clientwebsite.com', 'priority': 10, 'ttl': 3600},
-    {'type': 'TXT', 'name': '', 'content': 'v=spf1 mx ~all', 'ttl': 3600},
-]
-
-creates = [
-    BatchChangeZoneRecordsCreateInput(
-        name=r['name'],
-        type=r['type'],
-        content=r['content'],
-        ttl=r['ttl'],
-        priority=r.get('priority'),
-    )
-    for r in records
-]
-
-batch = BatchChangeZoneRecordsInput(creates=creates)
-response = client.zones.batch_change_records(account_id, "my-domain-here.com", batch)
+```json
+{
+  "data": {
+    "user": null,
+    "account": {
+      "id": 12345,
+      "email": "you@example.com",
+      "plan_identifier": "teams-v1-monthly",
+      "created_at": "2026-01-15T10:30:00Z",
+      "updated_at": "2026-01-15T10:30:00Z"
+    }
+  }
+}
 ```
 
-This creates A records for the apex and `www` subdomain, an MX record for email routing, and an SPF TXT record — all in one request.
+The `account.id` value is the account ID you will use in all subsequent API calls. If you do not already have it, copy it from this response.
 
-## 4. Automating DNS updates in CI/CD
+## 3. Creating DNS records {#create-records}
 
-You can integrate DNS updates into your deployment pipeline. This example updates an A record to point to a new server IP after deployment:
+Add a domain to your Sandbox account through the [web interface](https://sandbox.dnsimple.com) or the API, then create DNS records for it. This example creates an A record pointing the apex domain to an IP address:
 
-```python
-from dnsimple import Client
-from dnsimple.struct import ZoneRecordUpdateInput, ZoneRecordInput
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -X POST \
+     -d '{"name":"","type":"A","content":"192.0.2.1","ttl":3600}' \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records
+```
 
-def update_dns(domain, new_ip):
-    client = Client(sandbox=True, access_token=os.getenv('DNSIMPLE_TOKEN'))
-    account_id = client.identity.whoami().data.account.id
+A successful response returns HTTP 201 with the created record:
 
-    records = client.zones.list_records(
-        account_id, domain, filter={"name": "", "type": "A"}
-    ).data
+```json
+{
+  "data": {
+    "id": 1,
+    "zone_id": "example.com",
+    "name": "",
+    "content": "192.0.2.1",
+    "ttl": 3600,
+    "type": "A",
+    "regions": ["global"],
+    "system_record": false,
+    "created_at": "2026-03-18T12:00:00Z",
+    "updated_at": "2026-03-18T12:00:00Z"
+  }
+}
+```
 
-    if records:
-        record_id = records[0].id
-        client.zones.update_record(
-            account_id, domain, record_id, ZoneRecordUpdateInput(content=new_ip)
-        )
-        print(f"Updated DNS for {domain} to point to {new_ip}")
-    else:
-        client.zones.create_record(
-            account_id,
-            domain,
-            ZoneRecordInput(name="", type="A", content=new_ip, ttl=600),
-        )
-        print(f"Created DNS record for {domain} pointing to {new_ip}")
+Create additional records the same way. For example, a `www` A record and an MX record:
+
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -X POST \
+     -d '{"name":"www","type":"A","content":"192.0.2.1","ttl":3600}' \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records
+
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -X POST \
+     -d '{"name":"","type":"MX","content":"mail.example.com","ttl":3600,"priority":10}' \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records
+```
+
+## 4. Listing and filtering records {#list-records}
+
+Retrieve all records for a zone:
+
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records
+```
+
+Filter by record type or name using query parameters:
+
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     "https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records?type=A&name="
+```
+
+The response includes pagination metadata. See [DNSimple API Best Practices](/articles/api-best-practices/) for how to handle paginated results.
+
+## 5. Updating a DNS record {#update-record}
+
+Update an existing record by its ID. This example changes the IP address of an A record. Replace `RECORD_ID` with the `id` value from a previous response:
+
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -X PATCH \
+     -d '{"content":"198.51.100.1"}' \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/zones/example.com/records/RECORD_ID
 ```
 
 > [!TIP]
-> Test this function in the Sandbox with `sandbox=True` before switching to production. When you are ready, change to `sandbox=False` and swap your token for a production API token.
+> In a CI/CD pipeline, you can script these curl commands to update DNS records automatically after deployment.
 
-## 5. Checking domain availability
+## 6. Checking domain availability {#check-domain}
 
-The registrar API lets you check whether a domain is available for registration:
+The [registrar API](https://developer.dnsimple.com/v2/registrar/) lets you check whether a domain is available for registration:
 
-```python
-def check_domain_availability(domain_name, client=None, account_id=None):
-    if client is None or account_id is None:
-        client = Client(sandbox=True, access_token=os.getenv('DNSIMPLE_TOKEN'))
-        account_id = client.identity.whoami().data.account.id
-
-    try:
-        response = client.registrar.check_domain(account_id, domain_name)
-        domain_check = response.data
-
-        if domain_check.available:
-            return {
-                'available': True,
-                'price': getattr(domain_check, 'premium_price', None) or 'standard pricing'
-            }
-        else:
-            return {'available': False}
-    except Exception as e:
-        return {'error': str(e)}
+```bash
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     -H "Accept: application/json" \
+     https://api.sandbox.dnsimple.com/v2/$DNSIMPLE_ACCOUNT_ID/registrar/domains/example-check.com/check
 ```
 
-## 6. Moving to production
+The response indicates availability:
 
-When your integration is working in the Sandbox, switching to production requires two changes:
+```json
+{
+  "data": {
+    "domain": "example-check.com",
+    "available": true,
+    "premium": false
+  }
+}
+```
 
-1. **Update the client configuration:** Remove `sandbox=True` or set it to `False`.
+> [!NOTE]
+> Sandbox domain checks run against registry OT&E environments. Results may not match production availability. See [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/) for details.
+
+## 7. Moving to production {#production}
+
+When your integration works in the Sandbox, switching to production requires two changes:
+
+1. **Update the base URL:** Change `api.sandbox.dnsimple.com` to `api.dnsimple.com`.
 2. **Update your API token:** Replace your Sandbox token with a [production API access token](/articles/api-access-token/).
 
-```python
+```bash
 # Sandbox
-client = Client(sandbox=True, access_token=os.getenv("DNSIMPLE_SANDBOX_TOKEN"))
+curl -H "Authorization: Bearer $DNSIMPLE_SANDBOX_TOKEN" \
+     https://api.sandbox.dnsimple.com/v2/whoami
 
 # Production
-client = Client(access_token=os.getenv("DNSIMPLE_TOKEN"))
+curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
+     https://api.dnsimple.com/v2/whoami
 ```
 
-For more details on the DNSimple API, visit the [Developer Documentation](https://developer.dnsimple.com). To learn more about the Sandbox environment, see [What Is the DNSimple Sandbox API?](/articles/sandbox/). For tips on avoiding common mistakes, see [Sandbox API Common Pitfalls](/articles/sandbox-api-pitfalls/).
+For the complete API reference, visit the [DNSimple Developer Documentation](https://developer.dnsimple.com). To learn more about the Sandbox environment, see [What Is the DNSimple Sandbox?](/articles/sandbox/). For tips on avoiding common mistakes, see [Sandbox Common Pitfalls](/articles/sandbox-pitfalls/) and [DNSimple API Best Practices](/articles/api-best-practices/).
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with the DNSimple Sandbox API, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with the DNSimple Sandbox, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

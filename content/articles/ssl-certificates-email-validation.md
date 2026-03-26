@@ -1,6 +1,7 @@
 ---
-title: SSL Certificate email-based Domain Validation
+title: SSL Certificate Email-Based Domain Validation
 excerpt: The email-based domain validation is the most common domain ownership validation method for a certificate and it is required for domain-validated certificates.
+meta: Understand how email-based domain validation works for SSL certificates, including approved email addresses, the validation process, and how to select or change your validation email.
 categories:
 - SSL Certificates
 redirect_from:
@@ -10,7 +11,7 @@ redirect_from:
   - /articles/changing-ssl-certificates-email/
 ---
 
-# SSL Certificate email-based Domain Validation
+# SSL Certificate Email-Based Domain Validation
 
 ### Table of Contents {#toc}
 
@@ -19,7 +20,7 @@ redirect_from:
 
 ---
 
-To issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**.
+To issue an SSL certificate, the [Certificate Authority](/articles/what-is-certificate-authority/) has to validate the authenticity of the certificate order to ensure the request is legitimate and comes from an authorized owner of the domain. This process is called **domain validation**. For an overview of all validation methods (email-based, DNS-based, and HTTP-based), see [Domain Validation Methods for SSL Certificates](/articles/ssl-domain-validation-methods/).
 
 The goal of validation is to ensure the authenticity of a certificate order before issuing a new certificate. Specifically, before issuing the certificate, the Certificate Authority must be sure the domain listed in the certificate is registered and someone with admin rights is aware of and approves the certificate request.
 
@@ -31,11 +32,11 @@ The goal of validation is to ensure the authenticity of a certificate order befo
 > The Certificate Authority only uses administrative email addresses at the domain being validated. It's not possible to use your account email or any arbitrary email address to perform the validation.
 
 
-## Validation frequency {#frequency}
+## Validation Frequency {#frequency}
 
 You must complete domain validation every time a new certificate is issued. Starting March 2026, [Sectigo certificates are valid for 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity), which means you will need to complete validation more frequently — at least twice per year instead of once. This will increase further as maximum certificate lifetimes continue to decrease.
 
-## The process
+## The Process
 
 The email validation process consists of a few steps:
 
@@ -45,7 +46,7 @@ The email validation process consists of a few steps:
 1. **You click on the link to validate and approve the certificate**. At this point the certificate's authenticity is validated and the authority will generate it.
 
 
-## Email requirements {#requirements}
+## Email Requirements {#requirements}
 
 **The approval email cannot be an arbitrary email** such as a customer-provided email or the email in your DNSimple account.
 
@@ -63,7 +64,7 @@ The approval email typically can be sent to the following addresses, called admi
 Where `example.com` is the domain for the certificate being purchased.
 
 
-## WHOIS email deprecation {#whois-deprecation}
+## WHOIS Email Deprecation {#whois-deprecation}
 
 Due to security vulnerabilities and evolving privacy standards, the [CA/Browser Forum introduced Ballot SC-80v3](https://www.sectigo.com/knowledge-base/detail/WHOIS-Email-DCV-Deprecation/kA0Uj0000003RdB), requiring the phase-out of WHOIS email addresses for Domain Control Validation (DCV).
 
@@ -73,12 +74,12 @@ Due to security vulnerabilities and evolving privacy standards, the [CA/Browser 
 You must use one of the administrative email addresses (admin@, webmaster@, etc.) at the domain being validated. Email addresses from WHOIS records, including registrant, administrative, or technical contact emails, cannot be used for certificate validation.
 
 
-## Email validation and GDPR {#gdpr}
+## Email Validation and GDPR {#gdpr}
 
 Due to the privacy rules enacted by [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) on May 25th 2018, most registrars hide or mask email addresses in WHOIS records. Combined with the WHOIS email deprecation requirements, this means you must use one of the administrative email addresses provided by the Certificate Authority for validation.
 
 
-## Select the validation email address {#select-email}
+## Select the Validation Email Address {#select-email}
 
 You select the validation email when you purchase the certificate. You can use one of the emails available in the list displayed in the configuration page, selected by the Certificate Authority and based upon the constraints documented above. [What if the validation email you want to use is not included in this list?](/articles/how-to-different-ssl-domain-validation-email/)
 
@@ -118,7 +119,7 @@ If the approver is not in this list or you need time to configure one of those e
 </div>
 
 
-## Change the validation email address {#change-email}
+## Change the Validation Email Address {#change-email}
 
 If you selected an incorrect email recipient, you can request the email to be changed as long as the email address meets the [requirements](#requirements) described above.
 
@@ -132,7 +133,7 @@ The certificate must be in the submitted state. If instead you still need to sub
 </div>
 
 
-## Resend the validation email {#resend-email}
+## Resend the Validation Email {#resend-email}
 
 If you haven't received the validation email, for example because the email configuration was incorrect at the time of the submission, you can request the email to be resent.
 
@@ -156,6 +157,6 @@ If you haven't received the validation email, for example because the email conf
 </div>
 
 
-## Have more questions?
+## Have More Questions?
 
-If you have additional questions or need any assistance with multi-account management, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with SSL certificate domain validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -1,12 +1,12 @@
 ---
 title: Choosing the SSL Certificate Names
 excerpt: Guidelines and information for selecting the SSL certificate host names.
-meta: Discover essential guidelines for selecting the right SSL certificate host names to ensure your website's security and trustworthiness with DNSimple's expert insights.
+meta: Learn how to choose the right host names for your SSL certificate, including when to use single-name, wildcard, and SAN certificates.
 categories:
 - SSL Certificates
 ---
 
-# SSL Certificate Names
+# Choosing the SSL Certificate Names
 
 ### Table of Contents {#toc}
 
@@ -15,47 +15,66 @@ categories:
 
 ---
 
-An SSL certificate is must be associated with one or more host names. Selecting the correct names is very important, because the certificate will be valid only if the request matches the host name (or host names) associated with the SSL certificate.
+An SSL certificate must be associated with one or more host names. Selecting the correct names is important because the certificate will be valid only if the request matches the host name (or host names) associated with the SSL certificate.
 
-Moreover, it's not possible to change the name type of a certificate (e.g. switch from a single-name to a wildcard name) once the certificate has been issued.
+> [!NOTE]
+> You cannot change the name type of a certificate (e.g., switch from a single-name to a wildcard name) once it has been issued. Choose carefully before ordering.
 
+## How to Choose Your Certificate Names
 
-## Single vs Multi names
+<div class="section-steps" markdown="1">
+##### Steps to determine the right names for your certificate
 
-You can associate the host names to an SSL certificate using two different attributes:
+1. **Identify which domains and subdomains you need to secure.** List all the host names that users will access over HTTPS (e.g., `example.com`, `www.example.com`, `app.example.com`).
 
-- the [Common Name](/articles/what-is-common-name/)
-- the [Subject Alternative Name](/articles/what-is-ssl-san/) (SAN)
+1. **Decide between a single-name and wildcard certificate:**
+
+    - If you need to secure **one specific hostname** (e.g., `www.example.com`), order a **single-name certificate**. This is valid only for that exact hostname.
+    - If you need to secure **multiple subdomains at the same level** (e.g., `www.example.com`, `app.example.com`, `api.example.com`), order a **wildcard certificate** for `*.example.com`.
+
+1. **Consider the root domain:**
+
+    - A **single-name certificate** for `www.example.com` will also cover the root domain `example.com`.
+    - A **single-name certificate** for `example.com` alone will **not** cover `www.example.com`.
+    - A **wildcard certificate** for `*.example.com` covers all first-level subdomains.
+
+1. **Check if you need multiple names on one certificate.** If your [SSL certificate product](/articles/ssl-certificates/) supports the [Subject Alternative Name (SAN)](/articles/what-is-ssl-san/) extension, you can include multiple host names in a single certificate. DNSimple simplifies this by providing a field to enter multiple names when your plan allows it.
+
+1. **Order your certificate** using the names you have determined:
+
+    - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/)
+    - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/)
+    - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/)
+
+</div>
+
+## Single-Name vs. Wildcard Certificates
+
+### Single-Name SSL Certificate
+
+A single-name certificate is valid only for the hostname specified with the certificate.
+
+For example, if you purchase a certificate for the hostname `secure.example.com`, you cannot use it for `www.example.com` or `example.com`. Any attempt to serve these hostnames with the certificate will result in a security warning in most browsers.
+
+The only exception is the root domain: if you purchase a certificate for the `www` hostname, it will also cover the root domain as described above.
+
+### Wildcard SSL Certificate
+
+A wildcard certificate is valid for any single-level subdomain. You use the wildcard `*` symbol to indicate the subdomain.
+
+For example, if you purchase a wildcard certificate for `*.example.com`, you can use it for any `example.com` first-level subdomain such as `www.example.com`, `secure.example.com`, or `private.example.com`. However, you cannot use it for `www.secure.example.com` or `super.secure.example.com`.
+
+## Single vs. Multiple Names
+
+You can associate host names to an SSL certificate using two different attributes:
+
+- The [Common Name](/articles/what-is-common-name/)
+- The [Subject Alternative Name](/articles/what-is-ssl-san/) (SAN)
 
 The Common Name allows specifying a single entry (either a wildcard or single-name), whereas the SAN extension supports multiple entries. However, the SAN is only supported by certain [SSL certificate products](/articles/ssl-certificates/).
 
-At DNSimple we like to simplify your experience, therefore we hid the technical details and implementation behind a simple interface. We won't ask you to select when to use the Common Name or the SAN. Instead, whenever you are allowed to enter multiple names for an SSL certificate, you will be provided a field to enter the list of names.
+At DNSimple, we simplify this by hiding the technical details behind a clear interface. We will not ask you to select when to use the Common Name or the SAN. Whenever you are allowed to enter multiple names, you will be provided a field to enter the list of names.
 
-Additionally, to simplify the interface, we will use the generic term "host names" (sometimes "hostnames" or "domains") to represent the host names attached to a certificate, regardless of whether they will be attached to the certificate via Common Name or SAN.
+## Have More Questions?
 
-
-## Single-name vs Wildcard
-
-Before you request an SSL certificate you need to understand the difference between a single-name and a wildcard certificate. This is important because it will affect which domains you will be able to cover with a single certificate.
-
-### Single-name SSL certificate
-
-The single name certificate is valid only for the hostname specified with the certificate.
-
-For example, if you purchase a certificate for the hostname `secure.example.com`, you can't use it for `www.example.com` or `example.com`. Any attempt to serve these hostnames with the certificate will result in a security warning in most browsers.
-
-The only exception is the root domain, if you purchase a certificate for the www-hostname, as described below.
-
-### Wildcard SSL certificate
-
-The wildcard certificate is valid only at a single level sub-domain. You use the wildcard "`*`" symbol to indicate the sub-domain.
-
-For example, if you purchase a wildcard certificate for `*.example.com`, you can use it in any `example.com` first-level subdomain such as `www.example.com`, `secure.example.com` or `private.example.com`. However, you can't use it for `www.secure.example.com` or `super.secure.example.com`.
-
-
-## Root domain
-
-Both single name and wildcard certificates can be used on the root domain (e.g. `example.com`) at the following conditions:
-
-- For the single name certificate you must purchase a certificate for the www-hostname (e.g. `www.example.com`). If you purchase a certificate for the root domain you will not be able to use it for the www hostname.
-- For the wildcard certificate you must purchase a certificate for the third level domain pattern (e.g. `*.example.com`).
+If you have additional questions or need any assistance choosing the right certificate names, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

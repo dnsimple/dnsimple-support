@@ -1,11 +1,12 @@
 ---
-title: Re-issuing an SSL Certificate
+title: Re-Issuing a Sectigo SSL Certificate
 excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
+meta: Learn how to reissue an SSL certificate in DNSimple when your private key has been compromised or lost, including the request, approval, and installation steps.
 categories:
 - SSL Certificates
 ---
 
-# Re-issuing an SSL Certificate
+# Re-Issuing a Sectigo SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -14,7 +15,7 @@ categories:
 
 ---
 
-Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new private key and [CSR](/articles/what-is-csr/) for an existing issued certificate.
+Re-issuing (also Re-Keying) an SSL certificate is the process of generating a new [private key](/articles/ssl-private-keys/) and [CSR](/articles/what-is-csr/) for an existing issued certificate.
 
 Re-issuing an SSL certificate involves creating a new private key along with a new CSR and submitting the request to the [certificate authority](/articles/what-is-certificate-authority/). The process results in a new SSL certificate being issued.
 
@@ -22,10 +23,10 @@ Re-issuing an SSL certificate involves creating a new private key along with a n
 > In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 
 > [!NOTE]
-> This document applies only to standard SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) at this time.
+> This document applies only to Sectigo SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) at this time.
 > Please note that there are [rate limits](https://letsencrypt.org/docs/rate-limits/) in place with Let's Encrypt, so be sure to request a new certificate only when absolutely necessary or you may be unable to request other certificates.
 
-## Why should I re-issue my certificate?
+## Why Should I Re-Issue My Certificate?
 
 You may need to re-issue your certificate in one of the following cases:
 
@@ -35,7 +36,7 @@ You may need to re-issue your certificate in one of the following cases:
 > [!NOTE]
 > Re-issuing a certificate is not a fully automated process. Requests have to be manually handled by our support team and it may take a few days to complete the process. The existing certificate will continue to be valid during this time frame.
 
-## Requesting an SSL certificate re-issue
+## Requesting an SSL Certificate Re-Issue
 
 <div class="section-steps" markdown="1">
 ##### To start a new certificate re-issue request
@@ -61,16 +62,16 @@ You may need to re-issue your certificate in one of the following cases:
 
 </div>
 
-## Approving the SSL certificate re-issue
+## Approving the SSL Certificate Re-Issue
 
 Once the certificate re-issue is requested, we will forward the information to the certificate authority. The certificate authority will then send you a link to [validate the certificate](/articles/ssl-certificates-email-validation/), as it happened for the original certificate purchase.
 
 > [!WARNING] Remember to approve the certificate reissue!
 > In most cases, the reissue process gets stuck because the request is never approved by the owner. Please monitor the approval email inbox and make sure to **click on the link contained in the email sent from the Certificate Authority** in order to validate and approve the reissue.
 
-## Installing the SSL re-issued certificate
+## Installing the Re-Issued SSL Certificate
 
-Once the certificate re-issued, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
+Once the certificate is re-issued, the certificate authority will send you a new certificate. Install the new certificate and private key on your server, or replace the existing one to deploy the new certificate.
 
 The old certificate will stay active until the expiration date.
 
@@ -81,15 +82,15 @@ Once you have received your certificate from the Certificate Authority, go to yo
 
 ![reissue status](/files/ssl-certificate-reissue-link.png)
 
-If you reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
+If your reissue request has been processed and submitted to the corresponding Certificate Authority it will be in a *Submitted* state. Right below the CSR a message is displayed asking you to confirm that you have received your certificate.
 
 When you receive your reissued certificate via email, **and only then**, go to the status page and click the confirmation button:
 
-![reissue confirmation](/files/ssl-certificate-reissue-confirm.png)
+![Reissue confirmation button](/files/ssl-certificate-reissue-confirm.png)
 
 At that point you will be taken back to the certificate page and you will be able to get your new private key:
 
-![reissue confirmation](/files/ssl-certificate-reissue-alert.png)
+![Reissue private key available](/files/ssl-certificate-reissue-alert.png)
 
 Your previous private key will be permanently removed at this point. You can now install the certificate following the install steps.
 
