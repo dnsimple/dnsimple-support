@@ -46,7 +46,6 @@ Premium domains, integrated providers, and other features:
 - [Premium Domains](/articles/premium-domains/) - In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
 - [Integrated Domain Providers at DNSimple](/articles/integrated-domain-providers/) - Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
 - [Integrated Domain Provider - GoDaddy](/articles/integrated-domain-provider-godaddy/) - Link your GoDaddy account to manage domains at DNSimple.
-- [DNSimple SuperLock](/articles/superlock/) - Protect your domain from accidental transfers with DNSimple SuperLock.
 - [Domain Masking](/articles/domain-masking/) - Information on Domain Masking and URL Masking.
 - [Activity Tracking](/articles/activity-tracking/) - How to review the list of events for an account or domain using our audit log feature.
 - [Domain Access Control](/articles/domain-access-control/) - Control what each account member can access on a per-domain or per-zone basis.
