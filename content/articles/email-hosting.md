@@ -25,11 +25,11 @@ If you want to transfer your domain to DNSimple but your current registrar provi
 
 - **Email forwarding:** DNSimple provides [email forwarding](/articles/email-forwarding/) at $2 per month, per domain. This redirects messages sent to addresses at your domain to another email account. Message limits and maximum number of email forwards per domain are based on your [plan type](https://dnsimple.com/pricing).
 
-- **Google Workspace:** Use our one-click template to set up the DNS for [Google Workspace](/articles/google-workspace-service/), or follow our detailed guide to [integrating Google Workspace with DNSimple](/articles/integrating-google-workspace-with-dnsimple/).
+- **Google Workspace:** Use our [one-click service for Google Workspace](/articles/google-workspace-service/) or configure DNS records manually. The setup guide covers both options, plus email authentication and troubleshooting.
 
-- **Microsoft 365:** Follow our guide to [integrating Microsoft 365 with DNSimple](/articles/integrating-microsoft-365-with-dnsimple/) to configure the required DNS records.
+- **Microsoft 365:** Use our [one-click service for Microsoft 365](/articles/office-365-service/) or configure DNS records manually. The setup guide covers both options, plus email authentication and troubleshooting.
 
-- **Other providers:** You can integrate any email hosting provider by configuring the appropriate MX and authentication records. See [Integrating Third-Party Email Services](/articles/integrating-third-party-email-services/) for a general guide, or use one of our other [one-click services for email](/articles/services/#email).
+- **Other providers:** You can integrate any email hosting provider by configuring the appropriate MX and authentication records. Use one of our [one-click services for email](/articles/services/#email), or add records manually using the [Record Editor](/articles/record-editor/).
 
 ## Have more questions?
 
