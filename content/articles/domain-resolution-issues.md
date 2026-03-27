@@ -31,11 +31,11 @@ The delegated name servers should match [DNSimple name servers](/articles/dnsimp
 
 If they do not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/). 
 
-If you recently switched, the update may be in progress. See [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) and [Check name server propagation delay](/articles/troubleshoot-dnsimple-name-servers/#name-server-propagation-delay/).
+If you recently switched, the update may be in progress. See [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) and [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/) for propagation details.
 
 ## Check that the domain is using *all* DNSimple name servers {#check-that-the-domain-is-using-all-dnsimple-name-servers}
 
-DNSimple provides four name servers. All four should be listed to ensure redundancy and availability, so DNS will continue to resolve if one server is temporarily unavailable due to maintenance or an incident.
+DNSimple provides four name servers. All four should be listed to ensure [redundancy and availability](/articles/name-server-redundancy/), so DNS will continue to resolve if one server is temporarily unavailable due to maintenance or an incident.
 
 **DNSimple name servers are**:
 
@@ -88,7 +88,7 @@ Expiration Date: 07-apr-2018
 
 The name server should match DNSimple name servers and the response returned from `dig`. If it does not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
-If you recently updated the domain, see the **Name server change propagation** section in [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/).
+If you recently updated the domain, see [Troubleshooting Name Server Issues](/articles/troubleshooting-name-servers/) for information about propagation delays.
 
 ## DNSSEC considerations {#dnssec-considerations}
 
