@@ -20,6 +20,7 @@ Name servers translate human-readable domain names into IP addresses and direct 
 ## What are name servers? {#what-are-name-servers}
 
 - [What Is a Name Server?](/articles/what-is-a-nameserver/): What name servers are and why they matter for DNS resolution.
+- [What Is an NS Record?](/articles/ns-record/): How NS records implement delegation in DNS.
 - [What Are Glue Records?](/articles/what-are-glue-records/): How glue records solve the circular dependency problem when name servers are subdomains of the domain they serve.
 - [What Are Vanity Name Servers?](/articles/what-are-vanity-name-servers/): How vanity name servers let you brand your DNS infrastructure with your own domain name.
 - [How Name Server Delegation Works](/articles/how-name-server-delegation-works/): How delegation establishes authority in the DNS hierarchy.
