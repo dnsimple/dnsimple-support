@@ -24,7 +24,7 @@ Several requirements must be met before a domain can be transferred. Domains mus
 
 ## Domain transfer locks {#domain-transfer-locks}
 
-[Transfer locks](/articles/what-is-domain-lock/) are security mechanisms that prevent unauthorized domain transfers. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. A registry lock is applied at the registry level and provides additional security. After changing [registrant](/articles/what-are-domain-contacts/) information, domains are locked from transfers for 60 days under [ICANN policy](/articles/icann-60-day-lock-registrant-change/). Some registrars offer additional lock features, such as [SuperLock](/articles/superlock/), that provide enhanced protection against unauthorized transfers.
+[Transfer locks](/articles/what-is-domain-lock/) are security mechanisms that prevent unauthorized domain transfers. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. A registry lock is applied at the registry level and provides additional security. After changing [registrant](/articles/what-are-domain-contacts/) information, domains are locked from transfers for 60 days under [ICANN policy](/articles/icann-60-day-lock-registrant-change/).
 
 ## Transfer duration {#transfer-duration}
 
