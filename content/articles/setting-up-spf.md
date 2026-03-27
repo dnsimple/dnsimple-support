@@ -56,7 +56,7 @@ v=spf1 include:_spf.google.com ~all
 ```
 
 > [!NOTE]
-> For complete setup instructions, see [Integrating Google Workspace with DNSimple](/articles/integrating-google-workspace-with-dnsimple/).
+> For complete setup instructions, see [Google Workspace Service](/articles/google-workspace-service/).
 
 **Microsoft 365:**
 ```
@@ -64,7 +64,7 @@ v=spf1 include:spf.protection.outlook.com ~all
 ```
 
 > [!NOTE]
-> For complete setup instructions, see [Integrating Microsoft 365 with DNSimple](/articles/integrating-microsoft-365-with-dnsimple/).
+> For complete setup instructions, see [Microsoft 365 Service](/articles/office-365-service/).
 
 **SendGrid:**
 ```
@@ -87,7 +87,7 @@ v=spf1 ip4:192.0.2.1 include:_spf.google.com ~all
 ```
 
 > [!NOTE]
-> For general guidance on integrating third-party email services, see [Integrating Third-Party Email Services](/articles/integrating-third-party-email-services/).
+> For general guidance on using third-party email services with DNSimple, see [Email Hosting Support](/articles/email-hosting/).
 
 ## Understanding SPF mechanisms {#mechanisms}
 
@@ -136,9 +136,9 @@ The specification for the Sender Policy Framework is primarily defined in [RFC 7
 - [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Guide to authentication issues
 
 ### Email service integration
-- [Integrating Google Workspace with DNSimple](/articles/integrating-google-workspace-with-dnsimple/) - Complete Google Workspace setup
-- [Integrating Microsoft 365 with DNSimple](/articles/integrating-microsoft-365-with-dnsimple/) - Complete Microsoft 365 setup
-- [Integrating Third-Party Email Services](/articles/integrating-third-party-email-services/) - General guide for email service integration
+- [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace with DNSimple
+- [Microsoft 365 Service](/articles/office-365-service/) - Set up Microsoft 365 with DNSimple
+- [Email Hosting Support](/articles/email-hosting/) - Options for third-party email hosting
 - [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting
 
 ### DNS management
