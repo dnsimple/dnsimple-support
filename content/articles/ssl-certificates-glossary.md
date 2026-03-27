@@ -238,7 +238,7 @@ Automatic certificate renewal before expiration. In DNSimple, auto-renewal is su
 Generating a new private key and certificate for an existing certificate order, without purchasing a new certificate. Reissuing is useful if the private key has been compromised or if you need to change the certificate's key algorithm.
 
 **Learn more:**
-- [Re-Issuing an SSL Certificate](/articles/ssl-certificate-reissue/)
+- [Re-Issuing an SSL Certificate](/articles/reissuing-ssl-certificate/)
 
 ### Renewal {#renewal}
 
