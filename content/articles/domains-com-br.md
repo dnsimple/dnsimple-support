@@ -18,7 +18,7 @@ This article explains how .COM.BR registration works with DNSimple, including tr
 
 Registration of .COM.BR domains requires **trustee service**. The registry applies eligibility rules for who may hold a .COM.BR name; trustee service satisfies those rules by using a local partner as the legal registrant so you can register and manage the domain without your own Brazilian entity. 
 
-When registering a .COM.BR domain through DNSimple, a trustee is required.
+Through DNSimple, trustee service is **included** and applied when you register the domain; you do not need to request it or purchase it separately.
 
 > [!NOTE]
 > .COM.BR registrations can take up to 3 days to complete.
