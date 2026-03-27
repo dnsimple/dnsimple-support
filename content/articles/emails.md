@@ -55,11 +55,11 @@ Ready to set up email services? Learn how to manage your email configuration eff
 
 ### Email hosting {#managing-hosting}
 
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/): Learn how to configure MX records for email hosting providers like Google Workspace, Microsoft 365, and other email services.
-- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/): Learn how to update MX records when migrating from one email hosting provider to another.
-- [Integrating Google Workspace with DNSimple](/articles/integrating-google-workspace-with-dnsimple/): Step-by-step guide to integrating Google Workspace email with DNSimple.
-- [Integrating Microsoft 365 with DNSimple](/articles/integrating-microsoft-365-with-dnsimple/): Step-by-step guide to integrating Microsoft 365 email with DNSimple.
-- [Integrating Third-Party Email Services](/articles/integrating-third-party-email-services/): General guide to integrating email hosting services with DNSimple.
+- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/): How to configure MX records for email hosting providers.
+- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/): How to update MX records when migrating between email providers.
+- [Google Workspace Service](/articles/google-workspace-service/): Set up Google Workspace email with DNSimple using the one-click service or manual DNS configuration.
+- [Microsoft 365 Service](/articles/office-365-service/): Set up Microsoft 365 email with DNSimple using the one-click service or manual DNS configuration.
+- [Email Hosting Support](/articles/email-hosting/): Options for using third-party email hosting providers with DNSimple.
 
 ## Troubleshooting email issues {#troubleshooting}
 
