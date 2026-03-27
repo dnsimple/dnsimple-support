@@ -1,16 +1,35 @@
 Getting started:
-- "What is a name server?"
-- "What Are Vanity Name Servers?"
-- "What Are Glue Records?"
-- "DNSimple Name Servers"
-- "Name Server Sets"
-- "Managing Vanity Name Servers"
+  - "Name Servers at DNSimple"
 
-Setting Delegation:
-- "Pointing a Domain to DNSimple"
-- "Delegating a Domain registered with another Registrar to DNSimple"
-- "Delegating a Domain registered with DNSimple to DNSimple"
+Explanation:
+  Name Server Concepts:
+    - "What Is a Name Server?"
+    - "What Is an NS Record?"
+    - "What Are Glue Records?"
+    - "What Are Vanity Name Servers?"
+  Delegation and Propagation:
+    - "How Name Server Delegation Works"
+    - "Understanding Name Server Propagation"
+    - "Name Server Redundancy and High Availability"
+    - "Impact of Name Server Changes on Email Delivery"
 
-Configuring name servers:
-- "Adding NS Records for a Subdomain"
-- "Setting the Name Servers for a Domain"
+How to:
+  Delegation:
+    - "Pointing a Domain to DNSimple"
+    - "Delegating a Domain registered with DNSimple to DNSimple"
+    - "Delegating a Domain registered with another Registrar to DNSimple"
+    - "Setting the Name Servers for a Domain"
+    - "Migrating DNS to DNSimple"
+  Configuration:
+    - "Managing Vanity Name Servers"
+    - "Adding NS Records for a Subdomain"
+    - "Name Server Sets"
+  Troubleshooting:
+    - "Troubleshooting Name Server Issues"
+    - "Verifying Name Server Delegation"
+    - "Troubleshooting Email Issues Related to Name Servers"
+
+Reference:
+  - "DNSimple Name Servers"
+  - "Name Server Management in DNSimple"
+  - "Name Servers Glossary"
