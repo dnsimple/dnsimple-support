@@ -29,7 +29,11 @@ If you need email hosting for a domain managed by DNSimple, you have several opt
 - **[Google Workspace](/articles/google-workspace-service/):** Professional email with Gmail, Calendar, and Drive. DNSimple provides a one-click service for quick DNS setup.
 - **[Microsoft 365](/articles/office-365-service/):** Professional email with Outlook, plus Office applications. DNSimple provides a one-click service for quick DNS setup.
 - **[FastMail](/articles/fastmail-service/):** Privacy-focused email hosting. DNSimple provides a one-click service.
-- **[Pobox](/articles/pobox-service/)**, **[Rackspace](/articles/rackspace-email-service/)**, **[Mailgun](/articles/mailgun-service/)**, **[Postmark](/articles/postmark-service/):** Additional providers with one-click services available in DNSimple.
+- **[Pobox](/articles/pobox-service/):** Email forwarding and hosting. DNSimple provides a one-click service.
+- **[Rackspace Email](/articles/rackspace-email-service/):** Business email hosting. DNSimple provides a one-click service.
+- **[Mailgun](/articles/mailgun-service/):** Transactional email delivery. DNSimple provides a one-click service.
+- **[Postmark](/articles/postmark-service/):** Transactional email delivery. DNSimple provides a one-click service.
+- **[Atmail](/articles/atmail-service/):** Email hosting and webmail. DNSimple provides a one-click service.
 - **Other providers (Zoho, ProtonMail, etc.):** You can use any email hosting provider by manually adding their required DNS records.
 
 See the full list of [one-click services for email](/articles/services/#email).
