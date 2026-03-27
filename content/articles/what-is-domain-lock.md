@@ -22,7 +22,7 @@ Locks are designed to protect domain owners even if credentials are exposed or a
 
 There are several types of locks that can be applied to domains. A registrar lock is applied by your domain registrar and prevents the domain from being transferred to another registrar. This is the most common type of lock and is typically enabled by default for security. Registrar locks can usually be removed by the domain owner through their registrar account when they want to transfer the domain.
 
-A registry lock is applied at the registry level and provides even stronger protection than a registrar lock. Some registrars also offer [SuperLock](/articles/superlock/) for enhanced protection. Registry locks are typically used for high-value domains or when maximum security is required. Registry locks usually require additional steps to remove and may involve contacting the registry directly.
+A registry lock is applied at the registry level and provides even stronger protection than a registrar lock. Registry locks are typically used for high-value domains or when maximum security is required. Registry locks usually require additional steps to remove and may involve contacting the registry directly.
 
 The [ICANN 60-day lock](/articles/icann-60-day-lock-registrant-change/) is automatically applied after certain changes to [domain registrant](/articles/what-are-domain-contacts/) information. This lock prevents domain transfers for 60 days after a registrant contact change, is required by ICANN policy for most generic top-level domains (gTLDs), cannot be removed by the registrar, and automatically expires after 60 days. This lock helps prevent unauthorized transfers that might occur immediately after a registrant change.
 
