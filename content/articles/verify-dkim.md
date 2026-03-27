@@ -34,5 +34,11 @@ For more information about the technical details of DKIM, head over to [DKIM.org
 
 If you want more details on DKIM record formats, view our [DKIM Record Reference](/articles/dkim-record-reference/).
 
+## Related articles {#related}
+
+- [Setting Up DKIM](/articles/set-up-dkim/) - How to add DKIM records to your domain
+- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - Verify your SPF record alongside DKIM
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing and resolving authentication issues
+
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
