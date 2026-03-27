@@ -15,6 +15,7 @@ Explanation:
   Email Deliverability:
     - "Understanding Email Deliverability"
     - "Understanding Email Bounces"
+    - "Impact of Name Server Changes on Email Delivery"
   Email Security:
     - "Email Security Best Practices"
   MX Records:
@@ -63,6 +64,7 @@ How to:
     - "Troubleshooting Email Forwarding Delivery Issues"
     - "Troubleshooting Email Forwarding with Other Providers"
     - "Troubleshooting Email Authentication"
+    - "Troubleshooting Email Issues Related to Name Servers"
   API:
     - "Managing Email Forwards with the API"
 
