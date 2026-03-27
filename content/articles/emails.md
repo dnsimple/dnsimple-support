@@ -97,8 +97,11 @@ Encountering issues with your email setup? Find solutions and guidance here.
 
 ### MX records {#mx-records}
 
+- [What Is an MX Record?](/articles/mx-record/): How MX records work and why they are essential for email delivery.
 - [What Are Null MX Records?](/articles/what-are-null-mx-records/): What null MX records are, why they are important for security, and when to use them.
 - [Setting Up Null MX Records](/articles/setting-up-null-mx-records/): Step-by-step guide to configuring null MX records for domains that do not accept email.
+- [Querying MX Records](/articles/query-mx-records/): How to query MX records with dig.
+- [MX Record Reference](/articles/mx-record-reference/): Formal structure and technical details of MX records.
 
 ### Email DNS records {#dns-records}
 

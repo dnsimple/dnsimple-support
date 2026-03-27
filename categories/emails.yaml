@@ -17,6 +17,8 @@ Explanation:
     - "Understanding Email Bounces"
   Email Security:
     - "Email Security Best Practices"
+  MX Records:
+    - "What Is an MX Record?"
     - "What Are Null MX Records?"
 
 How to:
@@ -50,6 +52,8 @@ How to:
     - "Improving Email Deliverability"
     - "Monitoring Email Deliverability"
     - "Protecting Your Domain from Email Spoofing"
+  MX Records:
+    - "Querying MX Records"
   Verification:
     - "Verifying SPF with dig and Online Tools"
     - "Verifying DKIM with dig and Online Tools"
@@ -67,6 +71,8 @@ Reference:
     - "Email Forwarding Management in DNSimple"
     - "Email Forwarding API Reference"
     - "Email Forwarding Limits and Quotas"
+  MX Records:
+    - "MX Record Reference"
   Email DNS Records:
     - "Email DNS Records Quick Reference"
     - "SPF Record Syntax and Validation Reference"
