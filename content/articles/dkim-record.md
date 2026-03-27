@@ -56,5 +56,11 @@ To verify that your DKIM record is correctly published and functioning, consult 
 ## Technical details {#technical-details}
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.
 
+## Related articles {#related}
+
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Guidance on implementing SPF, DKIM, and DMARC together
+- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - How alignment requirements affect email authentication
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing and resolving authentication issues
+
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

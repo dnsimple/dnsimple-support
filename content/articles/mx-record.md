@@ -4,6 +4,7 @@ excerpt: What an MX record is, and how to create MX records with DNSimple.
 meta: Learn what MX records are and how to easily create and manage them with DNSimple to ensure proper email delivery for your domain. Get started today!
 categories:
 - DNS
+- Emails
 ---
 
 # What Is an MX Record?
@@ -50,6 +51,13 @@ The behavior and format of MX records are specified in [RFC 5321](https://datatr
 
 ## Managing MX records in DNSimple {#managing-mx-records-in-dnsimple}
 DNSimple provides a user-friendly interface for configuring and maintaining your domain's MX records. You can easily add new records, remove existing ones, or update their target mail servers and priorities directly from your domain's [record editor](/articles/record-editor/).
+
+## Related articles {#related}
+
+- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - How to configure MX records for email hosting providers
+- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/) - How to update MX records during an email provider migration
+- [MX Record Reference](/articles/mx-record-reference/) - Formal structure and technical details of MX records
+- [Querying MX Records](/articles/query-mx-records/) - How to query MX records with dig
 
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your MX records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
