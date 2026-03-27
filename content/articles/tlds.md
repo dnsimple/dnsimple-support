@@ -37,6 +37,7 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.CM Domains](/articles/domains-cm/) - Requirements and procedures for .CM domain names.
 - [.CO Domains](/articles/domains-co/) - Open worldwide; optional tax ID or company details for Colombia-based organizations.
 - [.COM.AU Domains](/articles/domains-com-au/) - Requirements and procedures for .COM.AU registration, renewal, and transfer.
+- [.COM.BR Domains](/articles/domains-com-br/) - Requirements and procedures for .COM.BR domains.
 - [.COM.CO Domains](/articles/domains-com-co/) - Requirements and procedures for .COM.CO domain names.
 - [.CO.NZ Domains](/articles/domains-co-nz/) - Requirements and procedures for .CO.NZ domain names.
 - [.CO.UK Domains](/articles/domains-co-uk/) - Open registration; transfer expiration extension when under 3 months remain; .UK transfer/ownership rules apply.
