@@ -73,6 +73,12 @@ You can change which name servers are authoritative for your domain by updating 
 
 You can also delegate subdomains to different name servers by adding NS records for the subdomain. This is useful when you want a subdomain (like `subdomain.example.com`) to be managed by a different DNS provider or set of name servers. For instructions, see [Adding NS Records for a Subdomain](/articles/add-ns-records-for-subdomain/).
 
+## Related articles {#related}
+
+- [What Is Domain Delegation?](/articles/what-is-domain-delegation/): An introduction to what delegation is and how it connects domain registration to DNS hosting.
+- [Understanding Name Server Propagation](/articles/understanding-name-server-propagation/): How name server changes propagate through the DNS system.
+- [Verifying Name Server Delegation](/articles/verifying-name-server-delegation/): How to check that your domain is properly delegated.
+
 ## Have more questions?
 
 If you have additional questions about name server delegation or need assistance with configuring delegation for your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
