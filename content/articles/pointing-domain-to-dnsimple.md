@@ -45,7 +45,7 @@ If the domain is registered with another registrar (GoDaddy, Namecheap, etc.), y
 
 ## What to expect after changing name servers {#after-changing}
 
-Name server changes can take up to 24 hours to propagate globally. During this period, some DNS queries may still be answered by your previous provider.
+Name server changes can take up to 24 hours to [propagate globally](/articles/understanding-name-server-propagation/). During this period, some DNS queries may still be answered by your previous provider.
 
 You can check propagation progress by:
 
