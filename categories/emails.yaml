@@ -1,16 +1,82 @@
 Getting started:
-- "Email Forwarding"
-- "Email Hosting Support"
+  - "Email Services at DNSimple"
 
-Email DNS records:
-- "What's a DKIM Record?"
-- "What Is a DKIM Record?"
-- "What's a DMARC record?"
-- "What Is a DMARC Record?"
-- "Setting up DKIM"
-- "Setting up DMARC"
-- "Verifying DKIM with dig and Online Tools"
-- "Verifying DMARC with dig and Online Tools"
+Explanation:
+  Email Forwarding:
+    - "Email Forwarding"
+    - "What Is Email Forwarding?"
+    - "Email Hosting Support"
+  Email Authentication:
+    - "What Is an SPF Record?"
+    - "What Is a DKIM Record?"
+    - "What Is a DMARC Record?"
+    - "Understanding SPF, DKIM, and DMARC Alignment"
+    - "Email Authentication Best Practices"
+  Email Deliverability:
+    - "Understanding Email Deliverability"
+    - "Understanding Email Bounces"
+    - "Impact of Name Server Changes on Email Delivery"
+  Email Security:
+    - "Email Security Best Practices"
+  MX Records:
+    - "What Is an MX Record?"
+    - "What Are Null MX Records?"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
+How to:
+  Email Forwarding:
+    - "Enabling Email Forwarding"
+    - "Creating and Deleting Email Forwards"
+    - "Managing Email Forwarding for Multiple Domains"
+    - "Migrating Email Forwarding from Another Provider"
+    - "Handling Email Bounces with Email Forwarding"
+  Email Authentication:
+    - "Setting Up SPF Records"
+    - "Setting Up DKIM"
+    - "Setting Up DMARC"
+    - "Implementing a Gradual DMARC Policy"
+    - "Managing Multiple DKIM Selectors"
+  Email Hosting:
+    - "Setting Up MX Records for Email Hosting"
+    - "Setting Up Null MX Records"
+    - "Managing MX Records When Changing Email Providers"
+    - "Managing Email DNS Records"
+    - "Google Workspace (formerly G Suite) Service"
+    - "Microsoft 365 (formerly Office 365) Service"
+    - "Fastmail Service"
+    - "Pobox Service"
+    - "Rackspace Email Service"
+    - "Mailgun Service"
+    - "Postmark Service"
+    - "Atmail Service"
+    - "DMARC Reports by Postmark Service"
+  Email Deliverability:
+    - "Improving Email Deliverability"
+    - "Monitoring Email Deliverability"
+    - "Protecting Your Domain from Email Spoofing"
+  MX Records:
+    - "Querying MX Records"
+  Verification:
+    - "Verifying SPF with dig and Online Tools"
+    - "Verifying DKIM with dig and Online Tools"
+    - "Verifying DMARC with dig and Online Tools"
+  Troubleshooting:
+    - "Troubleshooting Email Forwarding with Gmail"
+    - "Troubleshooting Email Forwarding Delivery Issues"
+    - "Troubleshooting Email Forwarding with Other Providers"
+    - "Troubleshooting Email Authentication"
+    - "Troubleshooting Email Issues Related to Name Servers"
+  API:
+    - "Managing Email Forwards with the API"
+
+Reference:
+  Email Forwarding:
+    - "Email Forwarding Management in DNSimple"
+    - "Email Forwarding API Reference"
+    - "Email Forwarding Limits and Quotas"
+  MX Records:
+    - "MX Record Reference"
+  Email DNS Records:
+    - "Email DNS Records Quick Reference"
+    - "SPF Record Syntax and Validation Reference"
+    - "DKIM Record Reference"
+    - "DMARC Record Reference"
