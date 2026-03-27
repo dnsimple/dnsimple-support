@@ -3,10 +3,14 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import includeCss from 'vite-plugin-css-injected-by-js';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [vue(), includeCss()],
-  define: {
-    'process.env': {}
+  resolve: {
+    alias: {
+      vue: command === 'build'
+        ? 'vue/dist/vue.runtime.esm-browser.prod.js'
+        : 'vue/dist/vue.runtime.esm-browser.js'
+    }
   },
   css: {
     preprocessorOptions: {
@@ -29,4 +33,4 @@ export default defineConfig({
       }
     }
   }
-});
+}));
