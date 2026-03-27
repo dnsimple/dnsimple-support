@@ -140,7 +140,7 @@ SSL certificates expire. When a certificate nears expiration, DNSimple sends [ex
 
 ### Reissuing a certificate {#reissuing}
 
-If you need to replace the private key or CSR on an existing certificate, you can [reissue it](/articles/reissuing-ssl-certificate/) without purchasing a new one.
+If you need to replace the private key or CSR on an existing Sectigo certificate, you can [reissue it](/articles/reissuing-ssl-certificate/) without purchasing a new one.
 
 ### Certificate validity changes {#validity}
 
