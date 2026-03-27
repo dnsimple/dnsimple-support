@@ -38,99 +38,24 @@ Before setting up MX records for email hosting:
 > [!WARNING]
 > If you are currently using DNSimple's email forwarding service, enabling email hosting will require removing the email forwarding MX records. Email forwarding and email hosting cannot be used simultaneously because both use MX records, and a domain can only have one set of MX records.
 
-## Setting up MX records for Google Workspace {#google-workspace}
+## Provider-specific setup guides {#provider-guides}
 
-Google Workspace provides specific MX records that you need to add to your DNS zone.
+DNSimple offers one-click services and detailed setup guides for popular email hosting providers. These guides cover MX records, domain verification, email authentication, and troubleshooting:
 
-### Using the one-click service (recommended)
+- **[Google Workspace](/articles/google-workspace-service/)** -- one-click service available, or manual MX record configuration
+- **[Microsoft 365](/articles/office-365-service/)** -- one-click service available, or manual MX record configuration
+- **[FastMail](/articles/fastmail-service/)** -- one-click service available
+- **[Mailgun](/articles/mailgun-service/)** -- one-click service available
+- **[Postmark](/articles/postmark-service/)** -- one-click service available
+- **[Rackspace Email](/articles/rackspace-email-service/)** -- one-click service available
+- **[Pobox](/articles/pobox-service/)** -- one-click service available
+- **[Atmail](/articles/atmail-service/)** -- one-click service available
 
-The easiest way to set up Google Workspace is using DNSimple's [one-click service](/articles/google-workspace-service/):
-
-<div class="section-steps" markdown="1">
-##### Set up Google Workspace with the one-click service
-
-1. Navigate to your domain's <label>DNS</label> tab.
-1. Scroll to the <label>One-click services</label> section and click <label>Add</label>.
-1. Select <label>Google Workspace</label> from the Productivity tab.
-1. Follow the setup instructions.
-</div>
-
-The one-click service automatically configures all required DNS records, including MX records.
-
-### Manual MX record configuration
-
-If you prefer to configure MX records manually:
-
-1. Get the MX records from Google Workspace. Google typically provides these MX records:
-
-| Priority | Mail Server |
-|:---|:---|
-| 1 | `aspmx.l.google.com` |
-| 5 | `alt1.aspmx.l.google.com` |
-| 5 | `alt2.aspmx.l.google.com` |
-| 10 | `aspmx2.googlemail.com` |
-| 10 | `aspmx3.googlemail.com` |
-
-<div class="section-steps" markdown="1">
-##### Add MX records manually
-
-1. In DNSimple, navigate to your domain's <label>DNS</label> tab and open the <label>Record Editor</label>.
-1. Remove any existing MX records (if you are switching from email forwarding or another provider).
-1. Click <label>Add record</label> and select **MX**.
-1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
-1. Enter the priority value.
-1. Enter the mail server hostname.
-1. Click <label>Add record</label>.
-1. Repeat for all MX records provided by Google.
-</div>
-
-> [!TIP]
-> Google provides a free [MX record checking tool](https://toolbox.googleapps.com/apps/checkmx) to verify your DNS configuration.
-
-## Setting up MX records for Microsoft 365 {#microsoft-365}
-
-Microsoft 365 (formerly Office 365) also provides specific MX records for email hosting.
-
-### Using the one-click service (recommended)
-
-The easiest way to set up Microsoft 365 is using DNSimple's [one-click service](/articles/office-365-service/):
-
-<div class="section-steps" markdown="1">
-##### Set up Microsoft 365 with the one-click service
-
-1. Complete the setup of your custom domain with Microsoft and note the provided TXT and MX records.
-1. Navigate to your domain's <label>DNS</label> tab.
-1. Scroll to the <label>One-click services</label> section and click <label>Add</label>.
-1. Select <label>Office 365</label> from the Productivity tab.
-1. Enter the provided TXT and MX records.
-1. Click <label>Complete Office 365 Setup</label>.
-</div>
-
-### Manual MX record configuration
-
-If you prefer to configure MX records manually:
-
-1. Get the MX records from Microsoft 365. Microsoft typically provides MX records like:
-
-| Priority | Mail Server |
-|:---|:---|
-| 0 | `yourdomain-com.mail.protection.outlook.com` |
-
-<div class="section-steps" markdown="1">
-##### Add Microsoft 365 MX records manually
-
-1. In DNSimple, navigate to your domain's <label>DNS</label> tab and open the <label>Record Editor</label>.
-1. Remove any existing MX records.
-1. Click <label>Add record</label> and select **MX**.
-1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
-1. Enter the priority value (typically 0 for Microsoft 365).
-1. Enter the mail server hostname provided by Microsoft.
-1. Click <label>Add record</label>.
-</div>
+See the full list of [one-click services for email](/articles/services/#email).
 
 ## Setting up MX records for other email providers {#other-providers}
 
-For other email hosting providers (FastMail, Rackspace, etc.):
+For email hosting providers that do not have a one-click service in DNSimple (e.g., Zoho, ProtonMail, or other providers):
 
 <div class="section-steps" markdown="1">
 ##### Add MX records for other providers
