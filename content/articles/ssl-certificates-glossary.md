@@ -63,7 +63,7 @@ A certificate where the CA verifies only that the requester controls the domain.
 The most rigorous CA validation level, requiring legal entity verification. DNSimple does not provide EV certificates.
 
 **Learn more:**
-- [Do You Support EV SSL Certificates?](/articles/can-ev-ssl-certificates/)
+- [Do You Support Extended Validation (EV) SSL Certificates?](/articles/can-ev-ssl-certificates/)
 - [SSL Certificate Types](/articles/ssl-certificates-types/)
 
 ### Organization Validated (OV) Certificate {#ov}
