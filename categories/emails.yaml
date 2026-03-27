@@ -39,6 +39,13 @@ How to:
     - "Managing Email DNS Records"
     - "Google Workspace (formerly G Suite) Service"
     - "Microsoft 365 (formerly Office 365) Service"
+    - "Fastmail Service"
+    - "Pobox Service"
+    - "Rackspace Email Service"
+    - "Mailgun Service"
+    - "Postmark Service"
+    - "Atmail Service"
+    - "DMARC Reports by Postmark Service"
   Email Deliverability:
     - "Improving Email Deliverability"
     - "Monitoring Email Deliverability"
