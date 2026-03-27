@@ -226,14 +226,6 @@ Learn more:
 
 A security feature that prevents unauthorized transfers of a domain. Domains are typically locked by default and must be unlocked before a transfer can be initiated.
 
-### DNSimple SuperLock
-
-An additional security feature provided by DNSimple that provides an extra layer of protection against unauthorized domain transfers, beyond the standard domain lock.
-
-Learn more:
-
-- [DNSimple SuperLock](/articles/superlock/)
-
 ## Domain Management {#domain-management}
 
 ### Auto-Renewal
