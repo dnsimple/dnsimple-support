@@ -29,7 +29,7 @@
     "vite-plugin-css-injected-by-js": "^4.0.1",
     "vue-eslint-parser": "^10.4.0",
     "webpack": "^5.105.4",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^7.0.2"
   },
   "scripts": {
     "live": "concurrently 'bundle exec nanoc live' 'bundle exec rake compile'",
