@@ -38,7 +38,7 @@ dnsimple.com.   172800  IN  NS  ns4.dnsimple-edge.org.
 ```
 These records indicate DNSimple is responsible for all DNS lookups for `dnsimple.com`.
 
-In your DNSimple account, we automatically publish the necessary NS records within your zone file to indicate DNSimple is authoritative for your domain. These records typically appear in the {System Records](/articles/system-records/) section of your domain's management page and will reflect either our default name servers or your vanity name servers (if you have them configured).
+In your DNSimple account, we automatically publish the necessary NS records within your zone file to indicate DNSimple is authoritative for your domain. These records typically appear in the [System Records](/articles/system-records/) section of your domain's management page and will reflect either our default name servers or your vanity name servers (if you have them configured).
 
 ### Important considerations and restrictions
 **System-managed NS records (non-editable):** You cannot remove or change the NS records that DNSimple automatically publishes as authoritative for your hosted domain within the standard DNS record editor. These are **system records** that signify DNSimple is providing DNS services for your domain, and they are managed automatically by DNSimple.
