@@ -17,7 +17,7 @@ categories:
 
 DNSimple provides SSL certificates using elliptic curve (ECC) keys by default, but some situations require an RSA key as the certificate signing key. Follow the steps below for your certificate type.
 
-## Switching a Let's Encrypt Certificate to RSA
+## Switching a Let's Encrypt Certificate to RSA {#lets-encrypt-rsa}
 
 Let's Encrypt certificates cannot be reissued, so you will need to order a new certificate or manually renew an existing one.
 
@@ -33,7 +33,7 @@ Let's Encrypt certificates cannot be reissued, so you will need to order a new c
 
 See our guides for [ordering](/articles/ordering-lets-encrypt-certificate/) and [renewing](/articles/renewing-lets-encrypt-ssl-certificate/) Let's Encrypt certificates.
 
-## Switching a Sectigo Certificate to RSA
+## Switching a Sectigo Certificate to RSA {#sectigo-rsa}
 
 For Sectigo certificates, you can reissue the existing certificate with an RSA key.
 
@@ -50,13 +50,13 @@ For Sectigo certificates, you can reissue the existing certificate with an RSA k
 
 ![Reissuing a commercial cert with RSA](/files/reissue_commercial_cert_with_rsa.png)
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once the new certificate is issued, you will need to configure, verify, and install it on your server:
 
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 - [Re-Issuing an SSL Certificate](/articles/reissuing-ssl-certificate/)
 
-## Have More Questions?
+## Have more questions? {#more-questions}
 
 If you have additional questions or need any assistance switching from ECC to RSA, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

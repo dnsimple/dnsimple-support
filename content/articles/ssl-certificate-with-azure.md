@@ -20,11 +20,11 @@ With DNSimple you can request an SSL certificate that you can install on [Micros
 > [!TIP]
 > Before you start, review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 
-## Obtain the SSL Certificate
+## Obtain the SSL Certificate {#obtain}
 
-If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/ordering-standard-certificate/). Once the certificate has been issued, return to this page for the installation steps.
+If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/ordering-standard-certificate/). You can also use a free [Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/). Once the certificate has been issued, return to this page for the installation steps.
 
-## Install the SSL Certificate on Microsoft Azure
+## Install the SSL Certificate on Microsoft Azure {#install}
 
 <div class="section-steps" markdown="1">
 ##### Steps to install the certificate on Azure
@@ -44,6 +44,6 @@ If you have not already purchased an SSL certificate, follow [the guide to order
 
 </div>
 
-## Have More Questions?
+## Have more questions? {#more-questions}
 
 If you have additional questions or need any assistance installing your SSL certificate on Microsoft Azure, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

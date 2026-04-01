@@ -25,7 +25,7 @@ Sixty days before the certificate expires, you will begin receiving renewal noti
 
 We encourage you to plan the renewal of your certificate to occur at least one week before the expiration to avoid downtime or issues caused by possible renewal delays.
 
-These are the steps to renew your Sectigo certificate:
+## Renewing your Sectigo certificate {#renew}
 
 <div class="section-steps" markdown="1">
 ##### Renewing a certificate
@@ -37,13 +37,13 @@ These are the steps to renew your Sectigo certificate:
 
     ![Renewing a Certificate](/files/certificates-renew-action.png)
 
-    If you can't see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
+    If you do not see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
 
 1.  Follow the instructions to purchase the certificate renewal.
 
     1.  Check the certificate [common name](/articles/what-is-common-name/) matches the one you want to renew.
     1.  ECDSA is selected for you by default, but you can select RSA as the signature algorithm if your particular scenario requires it.
-    1.  Leave the CSR option unchecked, unless you really need to provide a [custom CSR](/articles/what-is-csr/). The easiest thing to do is to have us automatically generate the CSR (and a new private key to go with it).
+    1.  Leave the CSR option unchecked, unless you need to provide a [custom CSR](/articles/what-is-csr/). We recommend letting DNSimple automatically generate the CSR (and a new private key to go with it).
     1.  Submit the order.
 
     ![Renew a Certificate](/files/dnsimple-certificate-renewal.png)
@@ -55,8 +55,12 @@ These are the steps to renew your Sectigo certificate:
 
 </div>
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once you order the certificate, **you will have to go through the steps of configuring, verifying, and installing the certificate in order to receive the certificate**.
 
 See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
+
+## Have more questions? {#have-more-questions}
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

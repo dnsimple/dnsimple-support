@@ -98,3 +98,7 @@ From the certificate section you can [purchase a new SSL certificate](/articles/
 ## SSL Certificate Frequently Asked Questions {#faq}
 
 The [SSL Certificate frequently asked questions](/articles/faq-ssl-certificates/) page contains the most common questions about DNSimple SSL certificates.
+
+## Have more questions?
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

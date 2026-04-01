@@ -42,13 +42,13 @@ All Let's Encrypt SSL certificates, including renewals, are valid for no more th
 
 </div>
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once the certificate is issued, you need to install it on your server. The old certificate will remain valid until its expiration date, but you should install the new one promptly.
 
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/) -- Use the installation wizard to install your renewed certificate.
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/) -- Learn more about auto-renewal and Let's Encrypt integration details.
 
-## Have More Questions?
+## Have more questions? {#have-more-questions}
 
 If you have additional questions or need any assistance renewing your Let's Encrypt certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -48,6 +48,7 @@ How-to:
     - "How to Validate Your Domain for an SSL Certificate"
   Certificate Management:
     - "How Do I Determine the Certificate Authority That Signed My SSL Certificate?"
+    - "Expiring Product Email Notifications"
 
   Installation:
     - "Installing an SSL Certificate"
@@ -64,7 +65,7 @@ How-to:
     - "Troubleshooting Email Validation for SSL Certificates"
     - "Troubleshooting Let's Encrypt Certificate Failures"
     - "Troubleshooting SSL Certificate Chain Errors"
-    - "Troubleshooting Heroku SSL errors"
+    - "Troubleshooting Heroku SSL Errors"
 
 Reference:
   Product Specifications:

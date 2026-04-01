@@ -20,13 +20,13 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 > [!NOTE]
 > A renewal will not extend your existing certificate's expiration date. It results in a brand new certificate that must be installed in place of the existing one.
 
-## Before You Start
+## Before You Start {#before-you-start}
 
 - You need an active SSL certificate in your DNSimple account that is approaching its expiration date.
 - You will begin receiving renewal notices 60 days before a Sectigo certificate expires and 30 days before a Let's Encrypt certificate expires.
 - You may have more than one certificate for a hostname at the same time, so renewing before expiration will not affect your current operations.
 
-## Renewing Your SSL Certificate
+## Renewing Your SSL Certificate {#renew}
 
 <div class="section-steps" markdown="1">
 ##### Steps to renew your certificate
@@ -42,7 +42,7 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 
 </div>
 
-## After Renewal
+## After Renewal {#after-renewal}
 
 Once you have completed the renewal, you must configure, verify, and install the new certificate on your server:
 
@@ -59,6 +59,6 @@ Once you have completed the renewal, you must configure, verify, and install the
 
 See [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) for the full process from order to installation.
 
-## Have More Questions?
+## Have more questions? {#have-more-questions}
 
 If you have additional questions or need any assistance with renewing your SSL certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -26,7 +26,7 @@ DNSimple supports two validation methods, depending on the type of certificate y
 | **Manual steps required** | Click approval link in email | None (fully automated) |
 | **Requirements** | Working admin email at the domain | Domain resolving with DNSimple's name servers |
 
-## Email-Based Validation (Sectigo Certificates)
+## Email-Based Validation (Sectigo Certificates) {#email-validation}
 
 Email-based validation is used for all Sectigo certificates. The Certificate Authority sends a verification email to an approved administrative address at the domain.
 
@@ -63,7 +63,7 @@ If none of the listed email addresses work for you, you will need to configure o
 
 If you did not receive the validation email, you can request it to be resent. See [Resend the Validation Email](/articles/ssl-certificates-email-validation/#resend-email) for instructions.
 
-## DNS-Based Validation (Let's Encrypt Certificates)
+## DNS-Based Validation (Let's Encrypt Certificates) {#dns-validation}
 
 DNS-based validation is used for all Let's Encrypt certificates. DNSimple handles the entire process automatically using DNS challenge records.
 
@@ -84,13 +84,13 @@ DNS-based validation is used for all Let's Encrypt certificates. DNSimple handle
 > [!NOTE]
 > ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may create [Empty Non-Terminals (ENTs)](/articles/empty-non-terminals/) in your DNS zone. If you use wildcard records, this may affect DNS resolution for intermediate domain names. Learn more about [wildcards and ENTs](/articles/empty-non-terminals/#the-acme-challenge-example).
 
-## Validation Frequency
+## Validation Frequency {#frequency}
 
 Domain validation must be completed every time a new certificate is issued, including renewals. Starting March 2026, [Sectigo certificates are valid for 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity), which means you will need to complete email-based validation at least twice per year. This frequency will increase as maximum certificate lifetimes continue to decrease through 2029.
 
 For Let's Encrypt certificates, validation is automatic with each renewal, so no additional action is needed if auto-renewal is enabled.
 
-## Troubleshooting Validation Issues
+## Troubleshooting Validation Issues {#troubleshooting}
 
 ### Email-Based Validation Not Working
 
@@ -104,11 +104,11 @@ For Let's Encrypt certificates, validation is automatic with each renewal, so no
 - **Secondary DNS configured**: Let's Encrypt certificates are not compatible with Secondary DNS. DNSimple must be the sole DNS provider.
 - **Rate limits**: Let's Encrypt enforces [rate limits](https://letsencrypt.org/docs/rate-limits/) on certificate issuance. Wait and retry if you have recently requested many certificates.
 
-## Have More Questions?
+## Have more questions? {#more-questions}
 
 If you have additional questions or need any assistance with domain validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 
-## Related Reading
+## Related Reading {#related}
 
 - [SSL Certificate Email-Based Domain Validation](/articles/ssl-certificates-email-validation/) -- Detailed reference on email validation
 - [How to Select a Different SSL Certificate Domain Validation Email](/articles/how-to-different-ssl-domain-validation-email/) -- Use an alternative email

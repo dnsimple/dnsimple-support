@@ -8,10 +8,11 @@ categories:
 
 # How Do I Determine the Certificate Authority That Signed My SSL Certificate?
 
+You can determine which certificate authority (CA) signed your SSL certificate by checking the certificate details in your browser or using command-line tools.
 
-## Certificate From DNSimple
+## Certificate From DNSimple {#from-dnsimple}
 
-When you request an SSL certificate with DNSimple, the certificate authority information are clearly visible in your SSL certificate page:
+When you request an SSL certificate with DNSimple, the certificate authority information is clearly visible in your SSL certificate page:
 
 ![screenshot: Showing the SSL certificates page](/files/ssl-authority-order.png)
 
@@ -19,10 +20,10 @@ Once the SSL certificate is issued, we also extract the identification of the Is
 
 ![screenshot: Showing a certificate on the certificates page](/files/ssl-authority-certificate.png)
 
-If you can't access your SSL certificate page, or you didn't request the certificate using DNSimple, then use the following generic procedure to determine the certificate authority.
+If you cannot access your SSL certificate page, or you did not request the certificate using DNSimple, then use the following generic procedure to determine the certificate authority.
 
 
-## Generic Procedure
+## Generic Procedure {#generic-procedure}
 
 To determine the [Certificate Authority](/articles/what-is-certificate-authority/) that issued your certificate, open the website in a browser and click on the certificate information.
 
@@ -35,3 +36,7 @@ Search for the issuer organization name. Please note that, in some cases, Certif
 For instance, in the following case *Issued by* reports *EssentialSSL CA*, which belongs to Sectigo certificate authority. The authority name is clearly visible in the *Common Name* field.
 
 Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities/).
+
+## Have more questions? {#more-questions}
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -27,7 +27,7 @@ The validation email is sent to the address you selected during the certificate 
 - `postmaster@example.com`
 - `webmaster@example.com`
 
-**Fix:** If you selected the wrong address, you can [change the validation email](/articles/ssl-certificates-email-approval/#select-email) from the certificate page in DNSimple and resend the approval request.
+**Fix:** If you selected the wrong address, you can [change the validation email](/articles/ssl-certificates-email-validation/#select-email) from the certificate page in DNSimple and resend the approval request.
 
 ## Email Caught by Spam Filters {#spam}
 
@@ -68,6 +68,6 @@ If you need to resend the validation email:
 
 For the full process, see [SSL Certificate Email-Based Domain Validation](/articles/ssl-certificates-email-validation/).
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about email validation, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

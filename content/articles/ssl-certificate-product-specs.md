@@ -78,6 +78,6 @@ The number and type of hostnames a certificate covers depends on the product:
 
 For guidance on choosing the right hostnames, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about SSL certificate products, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

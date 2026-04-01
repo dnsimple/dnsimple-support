@@ -1,7 +1,7 @@
 ---
 title: Ordering a Let's Encrypt Certificate
 excerpt: How to order a Let's Encrypt certificate with DNSimple.
-meta: Learn how to easily order a Let's Encrypt certificate with DNSimple to secure your website with free, automated SSL/TLS encryption for enhanced online safety.
+meta: How to order a free Let's Encrypt SSL certificate through DNSimple, including prerequisites and the step-by-step ordering process.
 categories:
 - SSL Certificates
 - Enterprise
@@ -21,7 +21,7 @@ DNSimple provides an SSL certificate interface you can use to acquire a new SSL 
 SSL certificates issued by Let's Encrypt are valid for 90 days from the issue date. If you have selected auto-renewal for the certificate, we will begin retrying the renewal 30 days before the expiration date. Otherwise, we will begin sending expiration notices at that point.
 
 
-## Before You Start
+## Before You Start {#before-you-start}
 
 To order an SSL certificate, you need a DNSimple account. A subscription is necessary to keep the certificate renewed, and the domain must be delegated to use DNSimple's name servers due to the DNS challenge — which is automatically configured and checked in our implementation.
 
@@ -33,7 +33,7 @@ For more details about the configuration, approval, and installation of the cert
 
 ## Ordering a Let's Encrypt SSL Certificate {#order}
 
-Getting a new SSL certificate is a multi-step process that involves several parties: the customer (you), DNSimple, and the certificate authority. Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
+Before purchasing an SSL certificate, read the [Getting Started with SSL certificates article](/articles/getting-started-ssl-certificates/) to make sure you are familiar with the SSL certificate process.
 
 The order is the first step in getting an SSL certificate. It will create an SSL certificate order (for no charge, in the case of Let's Encrypt certificates) that represents a request for a certificate to the CA.
 
@@ -58,9 +58,13 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
 Check out our [pricing page](https://dnsimple.com/pricing) to understand the limitations on your subscription plan regarding Let's Encrypt SSL certificates.
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once you order the certificate, we will configure the necessary DNS records and check that they are resolving properly before having Let's Encrypt check the DNS challenge. Once the challenge is verified, the certificate will be issued, and you can download and install the certificate on your server.
 
 > [!TIP]
 > Due to the short expiration cycle of Let's Encrypt certificates, it is recommended to automate as much of the installation process as possible. You can consult our [developer documentation on SSL Certificates](https://developer.dnsimple.com/v2/certificates/) for more information on how to do this via our API.
+
+## Have more questions? {#have-more-questions}
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

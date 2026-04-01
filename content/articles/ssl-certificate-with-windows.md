@@ -17,7 +17,7 @@ categories:
 
 Microsoft Windows supports several web servers. To install an SSL certificate, you need to identify which web server you are running and follow the corresponding installation guide.
 
-## Identify Your Web Server and Install the Certificate
+## Identify Your Web Server and Install the Certificate {#identify-and-install}
 
 <div class="section-steps" markdown="1">
 ##### Steps to install an SSL certificate on Windows
@@ -38,13 +38,13 @@ Microsoft Windows supports several web servers. To install an SSL certificate, y
 
 </div>
 
-## Cloud Service Providers
+## Cloud Service Providers {#cloud-providers}
 
 If you are running Windows as the operating system but hosting your application on a cloud platform, follow the platform-specific guide instead:
 
 - [How to Install an SSL Certificate on Heroku](/articles/ssl-certificate-with-heroku/)
 - [How to Install an SSL Certificate on Microsoft Azure](/articles/ssl-certificate-with-azure/)
 
-## Have More Questions?
+## Have more questions? {#more-questions}
 
 If you have additional questions or need any assistance installing your SSL certificate on Windows, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

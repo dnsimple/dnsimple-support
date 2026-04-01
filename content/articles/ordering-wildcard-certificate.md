@@ -27,7 +27,7 @@ Wildcard certificates allow you to secure an unlimited number of names belonging
 wildcard
 ```
 
-## Before You Start
+## Before You Start {#before-you-start}
 
 - Determine whether you need a **Let's Encrypt** (free, 90-day validity) or **Sectigo** (paid, 200-day validity as of March 2026) wildcard certificate. See [Sectigo vs Let's Encrypt](/articles/standard-vs-letsencrypt/) for a detailed comparison.
 - Let's Encrypt wildcard certificates are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
@@ -36,7 +36,7 @@ wildcard
 > [!WARNING]
 > When ordering a Let's Encrypt wildcard SSL certificate, the wildcard (`*`) will only secure subdomains. A wildcard certificate cannot secure the root domain (such as `example.com`). If you want to secure both the root domain and subdomains with Let's Encrypt, you will need to [order an additional certificate](/articles/getting-started-ssl-certificates/).
 
-## Ordering a Let's Encrypt Wildcard Certificate
+## Ordering a Let's Encrypt Wildcard Certificate {#order-lets-encrypt}
 
 <div class="section-steps" markdown="1">
 ##### Steps to order a Let's Encrypt wildcard certificate
@@ -54,7 +54,7 @@ wildcard
 
 ![Order overview for Let's Encrypt wildcard certificate](/files/lets-encrypt-wildcard-order.png)
 
-## Ordering a Sectigo Wildcard Certificate
+## Ordering a Sectigo Wildcard Certificate {#order-sectigo}
 
 <div class="section-steps" markdown="1">
 ##### Steps to order a Sectigo wildcard certificate
@@ -70,13 +70,13 @@ wildcard
 
 </div>
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once your wildcard certificate has been issued, install it on your server:
 
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) to understand how wildcard names are matched
 
-## Have More Questions?
+## Have more questions? {#have-more-questions}
 
 If you have additional questions or need any assistance ordering a wildcard certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
