@@ -69,14 +69,12 @@ Reference:
   Certificate Files and Formats:
     - "Understanding SSL Certificate Files and Formats"
   Certificate Authorities:
-    - "SSL Certificate Authorities used by DNSimple"
-  Certificate Features:
-    - "Do you support Elliptic Curve Cryptography (ECC) SSL certificates?"
-    - "Do you support Extended Validation (EV) SSL certificates?"
+    - "SSL Certificate Authorities Used by DNSimple"
+  Capabilities and Limits:
+    - "Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?"
+    - "Do You Support Extended Validation (EV) SSL Certificates?"
     - "Do you support multi-year SSL certificates?"
-    - "Can I upgrade a single-hostname SSL certificate to a wildcard SSL certificate?"
+    - "Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?"
     - "SHA-2 SSL Certificates"
   Frequently Asked Questions:
     - "SSL Certificates Frequently Asked Questions"
-  Expiring Product Email Notifications:
-    - "Expiring Product Email Notifications"
