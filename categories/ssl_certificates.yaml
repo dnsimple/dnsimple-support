@@ -59,7 +59,12 @@ How-to:
     - "How to Install an SSL Certificate on Windows"
 
   Troubleshooting:
-    - "Troubleshooting Heroku SSL Errors"
+    - "Troubleshooting SSL Certificate Errors"
+    - "Troubleshooting SSL Certificate Issuance Delays"
+    - "Troubleshooting Email Validation for SSL Certificates"
+    - "Troubleshooting Let's Encrypt Certificate Failures"
+    - "Troubleshooting SSL Certificate Chain Errors"
+    - "Troubleshooting Heroku SSL errors"
 
 Reference:
   Product Specifications:
