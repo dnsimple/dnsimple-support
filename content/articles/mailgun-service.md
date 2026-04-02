@@ -4,6 +4,7 @@ excerpt: How to set up Mailgun DNS using DNSimple's One-click Service.
 meta: Easily set up Mailgun DNS with DNSimple's One-Click Service. Follow our step-by-step guide to streamline your email delivery and improve performance.
 categories:
 - Services
+- Emails
 ---
 
 # Mailgun One-click Service
