@@ -31,5 +31,5 @@ From the perspective of the resolver, the domain appears to have a CNAME record.
 
 **Dynamic resolution**: The IP address that the POOL record resolves to is not static. It is determined dynamically by DNSimple's name servers each time the record is queried, reflecting any changes to the target hostname's IP address.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

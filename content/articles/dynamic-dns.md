@@ -40,5 +40,5 @@ Dynamic DNS provides significant benefits for users ranging from individuals to 
 - **Cost-effective hosting:** Enables you to host websites, personal cloud storage, security cameras, or other services from a home or office network without incurring the higher costs associated with static IP addresses from ISPs.
 - **Remote access:** Easily access devices or resources on your home or small business network remotely by using your domain name, rather than having to discover a constantly changing IP.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

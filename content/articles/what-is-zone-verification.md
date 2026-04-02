@@ -33,6 +33,6 @@ Once DNSimple's system detects that your domain is pointing to these servers, it
 - **Verification is a prerequisite:** Successfully completing the verification is required before you can finalize the process of adding the DNS zone.
 - **Temporary state:** The verification name servers are a temporary step and must be removed after you have successfully added the zone to your DNSimple account.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions about zone verification, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

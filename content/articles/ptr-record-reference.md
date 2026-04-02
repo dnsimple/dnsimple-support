@@ -52,5 +52,5 @@ You cannot create or manage PTR records for your domain's IP address within a st
 - Cloud provider (e.g., AWS, GCP, Azure)
 - Hosting company
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

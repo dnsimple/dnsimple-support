@@ -54,5 +54,5 @@ For step-by-step instructions on how to add, edit, or remove TXT records (includ
 ## TXT record formatting and validation reference {#txt-record-formatting-and-validation-reference}
 For detailed information on the specific formatting rules for TXT record content, validation constraints (including overall character limits and handling of quotes and special characters), and an in-depth explanation of how DNSimple manages the splitting and joining of long TXT records, consult our comprehensive Reference Guide: [TXT Record Formatting and Long Record Handling](/articles/txt-record-format/)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

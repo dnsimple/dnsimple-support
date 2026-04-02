@@ -36,5 +36,5 @@ Sometimes there will be forward slashes or other unusual characters in the DMARC
 ## Managing DMARC records {#managing-dmarc-records}
 DMARC records are added as TXT records. To update or remove them, follow the instructions in the [Record Editor](/articles/record-editor/) guide.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

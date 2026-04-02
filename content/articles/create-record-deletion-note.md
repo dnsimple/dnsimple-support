@@ -19,5 +19,5 @@ When deleting a record, you can also include a note to help you remember why you
 1. A confirmation pop-up will appear. In the pop-up, enter a note explaining the reason for the deletion.
     ![Make a note for record deletion](/files/record-notes-deletion-note.png)
    
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance creating record notes, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

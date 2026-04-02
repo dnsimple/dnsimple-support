@@ -57,7 +57,7 @@ If you are reserving a domain name for a project that is not ready yet, you can 
 
     **Instructions**: Refer to the instructions for [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance setting up DNS hosting, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 
 
