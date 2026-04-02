@@ -29,7 +29,7 @@ If you have an existing domain registered with another provider, you can choose 
 
 **How to proceed**: To use DNSimple for DNS hosting while keeping your registrar separate, you will need to update your domain's name servers at your current registrar to point to DNSimple's name servers.
 
-**Instructions**: For detailed steps, please refer to our instructions on [how to point your domain to our name servers](/articles/delegating-dnsimple-hosted/).
+**Instructions**: For a full walkthrough including record import and verification, see [Migrating DNS to DNSimple](/articles/migrating-dns-to-dnsimple/). For the name server change only, see [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
 ### Transfer your domain registration to DNSimple
 
