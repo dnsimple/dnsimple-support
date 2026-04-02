@@ -64,6 +64,6 @@ The validation process ensures that certificates are only issued to entities tha
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different types of SSL certificates and validation levels
 - [SSL Certificate Authorities used by DNSimple](/articles/ssl-certificate-authorities/) - See which CAs DNSimple works with
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with certificate authorities or who issued your certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

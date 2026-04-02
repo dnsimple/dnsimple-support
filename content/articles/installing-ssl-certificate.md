@@ -62,6 +62,6 @@ The certificate is available to download from the "Other" section in several for
 
 The private key of your certificate is available to download from this section and from the main certificate page. If you provided your own CSR or deleted the private key from our servers, you will no longer be able to download it, and some features of the installation wizard will not work.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance installing your SSL certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

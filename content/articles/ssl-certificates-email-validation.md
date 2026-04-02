@@ -157,6 +157,6 @@ If you haven't received the validation email, for example because the email conf
 </div>
 
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with SSL certificate domain validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

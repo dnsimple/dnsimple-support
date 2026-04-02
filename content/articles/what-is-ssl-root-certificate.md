@@ -53,6 +53,6 @@ When you install a browser or operating system, it comes pre-configured with a s
 - [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates form a chain of trust
 - [SSL Certificate Authorities used by DNSimple](/articles/ssl-certificate-authorities/) - See which root CAs DNSimple works with
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with root certificates and browser trust, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

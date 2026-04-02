@@ -44,6 +44,6 @@ If you have not already purchased an SSL certificate, follow [the guide to order
 
 </div>
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance installing your SSL certificate on NGINX, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

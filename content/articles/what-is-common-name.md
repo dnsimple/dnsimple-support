@@ -65,6 +65,6 @@ The CA/Browser Forum has since mandated that the SAN would also include any valu
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore how different certificate types use common name and SAN
 - [What is the SSL Certificate Chain?](/articles/what-is-ssl-certificate-chain/) - Understand how certificates are structured
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with common names and how they relate to SANs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

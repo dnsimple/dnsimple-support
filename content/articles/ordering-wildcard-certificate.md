@@ -77,6 +77,6 @@ Once your wildcard certificate has been issued, install it on your server:
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) to understand how wildcard names are matched
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance ordering a wildcard certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

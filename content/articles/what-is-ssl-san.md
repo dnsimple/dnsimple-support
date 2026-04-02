@@ -84,6 +84,6 @@ The X.509 specification allows users to define extensions to be attached to a [C
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore multi-domain certificates that use SAN
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and SAN support
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with SANs and which hostnames a certificate can cover, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

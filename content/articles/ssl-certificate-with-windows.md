@@ -45,6 +45,6 @@ If you are running Windows as the operating system but hosting your application 
 - [How to Install an SSL Certificate on Heroku](/articles/ssl-certificate-with-heroku/)
 - [How to Install an SSL Certificate on Microsoft Azure](/articles/ssl-certificate-with-azure/)
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance installing your SSL certificate on Windows, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

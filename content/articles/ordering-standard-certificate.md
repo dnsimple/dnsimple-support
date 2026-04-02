@@ -84,6 +84,6 @@ Once you order the certificate, **you will have to install and configure the cer
 
 See [how to install a certificate](/articles/installing-ssl-certificate/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about purchasing Sectigo certificates with DNSimple, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

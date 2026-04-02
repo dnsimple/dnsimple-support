@@ -66,6 +66,6 @@ If you need to request or install a replacement certificate, see the following g
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/)
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/)
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with how SSL certificate renewals work, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

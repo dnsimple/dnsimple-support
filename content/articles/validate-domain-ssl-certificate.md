@@ -104,7 +104,7 @@ For Let's Encrypt certificates, validation is automatic with each renewal, so no
 - **Secondary DNS configured**: Let's Encrypt certificates are not compatible with Secondary DNS. DNSimple must be the sole DNS provider.
 - **Rate limits**: Let's Encrypt enforces [rate limits](https://letsencrypt.org/docs/rate-limits/) on certificate issuance. Wait and retry if you have recently requested many certificates.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with domain validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

@@ -115,6 +115,6 @@ DNSimple does not support all Let's Encrypt capabilities. Some limitations exist
 - [How long does it take to issue an SSL certificate?](/articles/how-long-to-issue-ssl-certificate/) - Understand issuance timelines
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate classifications
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with Let's Encrypt certificates in DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

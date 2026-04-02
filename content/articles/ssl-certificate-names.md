@@ -75,6 +75,6 @@ The Common Name allows specifying a single entry (either a wildcard or single-na
 
 At DNSimple, we simplify this by hiding the technical details behind a clear interface. We will not ask you to select when to use the Common Name or the SAN. Whenever you are allowed to enter multiple names, you will be provided a field to enter the list of names.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance choosing the right certificate names, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

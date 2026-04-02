@@ -49,6 +49,6 @@ Once the certificate is issued, you need to install it on your server. The old c
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/) -- Use the installation wizard to install your renewed certificate.
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/) -- Learn more about auto-renewal and Let's Encrypt integration details.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance renewing your Let's Encrypt certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -57,6 +57,6 @@ Once the new certificate is issued, you will need to configure, verify, and inst
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 - [Re-Issuing an SSL Certificate](/articles/reissuing-ssl-certificate/)
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance switching from ECC to RSA, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

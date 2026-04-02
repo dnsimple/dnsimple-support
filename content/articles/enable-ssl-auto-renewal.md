@@ -119,7 +119,7 @@ The [CA/Browser Forum has approved shorter certificate lifetimes](/articles/anno
 
 Let's Encrypt certificates are already issued with 90-day validity, so the initial changes primarily affect Sectigo certificates. As lifetimes shorten further, automating both renewal and installation will be essential.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with SSL certificate auto-renewal, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

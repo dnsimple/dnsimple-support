@@ -54,6 +54,6 @@ This applies to all publicly trusted SSL/TLS certificates issued on or after eac
 
 For more detail on the validity rules and how they affect renewals, see [Do you support multi-year SSL certificates?](/articles/can-multi-year-ssl-certificates/#shorter-validity) and [SSL Certificates Frequently Asked Questions](/articles/faq-ssl-certificates/). If you use Let's Encrypt certificates, [auto-renewal](/articles/ssl-auto-renewal/) can help you manage more frequent renewals automatically.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need assistance, [contact support](https://dnsimple.com/feedback).

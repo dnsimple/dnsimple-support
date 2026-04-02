@@ -59,6 +59,6 @@ Once you have completed the renewal, you must configure, verify, and install the
 
 See [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) for the full process from order to installation.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with renewing your SSL certificate, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

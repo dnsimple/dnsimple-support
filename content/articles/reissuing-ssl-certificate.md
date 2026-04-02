@@ -94,6 +94,6 @@ Your previous private key will be permanently removed at this point. You can now
 
 ![reissue install](/files/ssl-certificate-reissue-install.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -61,6 +61,6 @@ Once you order the certificate, **you will have to go through the steps of confi
 
 See [getting started with SSL certificates](/articles/getting-started-ssl-certificates/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

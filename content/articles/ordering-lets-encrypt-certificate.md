@@ -65,6 +65,6 @@ Once you order the certificate, we will configure the necessary DNS records and 
 > [!TIP]
 > Due to the short expiration cycle of Let's Encrypt certificates, it is recommended to automate as much of the installation process as possible. You can consult our [developer documentation on SSL Certificates](https://developer.dnsimple.com/v2/certificates/) for more information on how to do this via our API.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

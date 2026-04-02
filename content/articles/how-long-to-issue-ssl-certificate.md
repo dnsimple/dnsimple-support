@@ -72,6 +72,6 @@ If issuance takes longer than expected, common causes include:
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare issuance processes between certificate types
 - [CAA Records](/articles/caa-record/) - Understand how CAA records affect certificate issuance
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with certificate issuance timeframes, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

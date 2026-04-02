@@ -60,6 +60,6 @@ See [email requirements for domain validation](/articles/ssl-certificates-email-
 
 </div>
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance selecting a validation email, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

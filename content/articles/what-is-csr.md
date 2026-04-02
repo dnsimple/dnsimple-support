@@ -63,6 +63,6 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Understand how SAN is specified in CSRs
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare CSR support between certificate types
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with CSRs and certificate requests, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

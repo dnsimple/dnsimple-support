@@ -119,6 +119,6 @@ The validation level and the number of secured domains do not affect the encrypt
 - [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand how single-name certificates identify hostnames
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and their features
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -48,6 +48,6 @@ If you have not already purchased an SSL certificate, follow [the guide to order
 > [!NOTE]
 > If you encounter SSL errors after installation, see [Troubleshooting Heroku SSL Errors](/articles/heroku-error-ssl/) for common issues and solutions.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance installing your SSL certificate on Heroku, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

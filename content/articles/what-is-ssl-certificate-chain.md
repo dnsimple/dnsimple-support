@@ -97,6 +97,6 @@ Root certificates are embedded in web browsers and operating systems by their ma
 - [What is a Root Certificate?](/articles/what-is-ssl-root-certificate/) - Learn about root certificates and trust anchors
 - [SSL Certificate Types](/articles/ssl-certificates-types/) - Explore different certificate types and their characteristics
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with certificate chains and trust validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

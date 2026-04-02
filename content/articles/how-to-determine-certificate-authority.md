@@ -37,6 +37,6 @@ For instance, in the following case *Issued by* reports *EssentialSSL CA*, which
 
 Learn more about the [certificate authorities used by DNSimple](/articles/ssl-certificate-authorities/).
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
