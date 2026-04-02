@@ -368,6 +368,6 @@ Now that you understand what Empty Non-Terminals are and how they work:
 
 - **[Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/)** — Diagnose and resolve intermittent or unexpected empty responses caused by ENTs
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with Empty Non-Terminals, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

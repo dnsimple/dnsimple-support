@@ -71,5 +71,5 @@ example.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
 ## References {#references}
 **RFC 1035, Section 3.3.14**: [Domain Names - Concepts and Facilities (TXT record specification)](https://datatracker.ietf.org/doc/html/rfc1035).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your TXT records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

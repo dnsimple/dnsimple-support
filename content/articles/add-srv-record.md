@@ -29,5 +29,5 @@ The given example results in this SRV record:
 _sip._tcp.example.com. 3600	IN	SRV	10 20 5000 sip-server.example.com.
 ```
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

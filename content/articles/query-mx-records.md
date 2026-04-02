@@ -19,5 +19,5 @@ It includes:
 - The priority
 - The mail server hostname
   
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with MX records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

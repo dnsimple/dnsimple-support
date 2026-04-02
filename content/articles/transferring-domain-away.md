@@ -87,6 +87,6 @@ Once the transfer is approved, the domain(s) will now be with your new registrar
 > [!NOTE]
 > Note: If you are transferring your domain out of DNSimple, and no longer require any of our additional services, your account will remain active until you unsubscribe. This will not happen automatically.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 
 If you have any questions about transferring a domain away from DNSimple, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

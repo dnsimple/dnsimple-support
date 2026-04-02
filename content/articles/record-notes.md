@@ -16,6 +16,6 @@ When creating, updating, or deleting a DNS record from the [DNS record editor](/
   <iframe loading="lazy" src="https://www.youtube.com/embed/-97jhZOmcm0?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about record notes or how they work, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

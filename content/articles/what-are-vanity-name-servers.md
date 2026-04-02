@@ -61,5 +61,5 @@ To understand more about the critical role of glue records in this process, see 
 
 You also need the IP addresses of DNSimple's name servers to configure your glue records (when using the "Configure" option and if DNSimple is not your registrar). These can be found in [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your vanity name servers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

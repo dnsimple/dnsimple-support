@@ -83,5 +83,5 @@ Clear the DNS cache before checking a record update. This may involve:
 - **Linux: Command depends on your distribution. For example:**  
    `sudo systemd-resolve \--flush-caches`
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS cache, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

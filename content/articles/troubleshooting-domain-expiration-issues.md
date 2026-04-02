@@ -181,7 +181,7 @@ For more information about the redemption period and restoration process, see [W
 
 **Resolution**: If your domain has expired, attempt to [renew it immediately](/articles/renewing-domain/). If renewal is not available, the domain may have entered redemption period, and you will need to [restore it](/articles/restoring-domain/) instead.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have tried these troubleshooting steps and are still experiencing issues with domain expiration or renewal, [contact our support team](https://dnsimple.com/feedback). Please include:
 

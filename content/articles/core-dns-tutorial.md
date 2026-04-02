@@ -78,5 +78,5 @@ The best way to validate that your integration is working is to perform a check 
    - E.g., `dig @localhost -p 53 example.com`
 1. The `ANSWER SECTION` of the output should show the IP address you expect, confirming that the record is being served correctly by your CoreDNS instance.
 
-## Have more questions? {#more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

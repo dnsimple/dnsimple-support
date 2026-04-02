@@ -97,6 +97,6 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 1. Confirm the dialog to delete the record.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have more questions or need assistance setting up CNAME records, just [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

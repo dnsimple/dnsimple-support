@@ -90,7 +90,7 @@ For more in-depth troubleshooting steps and tools related to DNSSEC, read [Troub
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 Ready to get started with DNSSEC? Enabling DNSSEC is a critical step in enhancing your domain's security and protecting both your visitors and your online presence. Read [Enabling DNSSEC](/articles/enabling-dnssec/) for detailed instructions. 
 
 If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

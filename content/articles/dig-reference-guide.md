@@ -49,5 +49,5 @@ A standard `dig` output is divided into several sections:
 - **AUTHORITY SECTION**: Lists the authoritative name servers for the domain.
 - **ADDITIONAL SECTION**: Provides other records that may be relevant to the query, like the IP addresses of the authoritative name servers listed in the AUTHORITY section.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

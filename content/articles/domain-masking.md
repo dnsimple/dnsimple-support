@@ -43,6 +43,6 @@ If you want to mask the URL and present only your domain, you need to set up you
 
 **This is not a DNSimple product or something we support**, but we know it works well with our service.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about domain masking or URL masking, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

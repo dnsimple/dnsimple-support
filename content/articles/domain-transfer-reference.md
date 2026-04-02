@@ -97,6 +97,6 @@ Some TLDs have different transfer procedures or requirements:
 
 For TLD-specific information, check the [list of TLDs supported by DNSimple](https://dnsimple.com/tlds) or contact support.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with domain transfers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

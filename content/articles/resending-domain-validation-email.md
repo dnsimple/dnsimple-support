@@ -43,7 +43,7 @@ Once the email is verified, the warning should disappear. If it does not, it may
 
 You must be able to receive an email at the registrant email address to complete the verification process. If you set up the email address after registration or changing your registrant details, contact support@dnsimple.com to resend the verification email. Be sure to include the domain name that you need to verify in your email to support.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you need assistance or have any questions about resending domain validation emails, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

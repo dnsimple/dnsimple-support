@@ -42,6 +42,6 @@ Upon the successful update of the domain contact, we will automatically update t
 
 - [.CH domains](/articles/domains-ch/)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about changing WHOIS information, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -63,5 +63,5 @@ When it comes to managing the authoritative name servers for your domain, the pr
 > The NS records DNSimple automatically publishes within your DNSimple-hosted zone (indicating DNSimple is the authoritative source for your domain) are system-managed. 
 > While you cannot manually edit these specific records in the general record editor, DNSimple provides a dedicated section to configure or update the [Zone NS records](/articles/pointing-domain-to-dnsimple/) if you are setting up advanced configurations (like vanity name servers or transferring DNS authority for your zone).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your NS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

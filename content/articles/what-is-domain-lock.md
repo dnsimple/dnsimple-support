@@ -40,6 +40,6 @@ The process for removing locks depends on the type of lock. Registrar locks are 
 > [!INFO]
 > At DNSimple, unlocking a domain is temporary. If a domain is left unlocked, it will automatically relock after 30 days. This helps reduce the risk of unintended or unauthorized transfers if a domain is left unlocked longer than intended.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about domain locks or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

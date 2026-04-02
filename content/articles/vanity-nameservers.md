@@ -100,6 +100,6 @@ Clicking **Disable** will populate a confirmation:
 > [!NOTE]
 > If your domain is registered with us, we will automatically remove the related [glue records](/articles/what-are-glue-records/), assuming they are for the same domain name. If your domain is registered elsewhere, contact your registrar and request that they remove the glue records for you.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance with vanity name servers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
