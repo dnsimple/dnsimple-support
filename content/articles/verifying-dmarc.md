@@ -35,5 +35,11 @@ DMARC sends daily reports to the email specified in the RUA tag to provide an ov
 ## Technical details {#technical-details}
 To read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org).
 
+## Related articles {#related}
+
+- [Setting Up DMARC](/articles/set-up-dmarc/) - How to add DMARC records to your domain
+- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - Verify your SPF record alongside DMARC
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing and resolving authentication issues
+
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

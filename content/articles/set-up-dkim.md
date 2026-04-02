@@ -1,5 +1,5 @@
 ---
-title: Setting up DKIM
+title: Setting Up DKIM
 excerpt: How to set up DKIM on your domains.
 meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
 categories:
@@ -41,6 +41,13 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 
 ## Managing DKIM records {#managing-dkim-records}
 DKIM records are added as TXT or sometimes CNAME records. To update or remove them, follow the instructions in the [Record Editor guide](/articles/record-editor/).
+
+## Related articles {#related}
+
+- [What Is a DKIM Record?](/articles/dkim-record/) - How DKIM works and why it matters
+- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - How to verify your DKIM record is working
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Guidance on implementing SPF, DKIM, and DMARC together
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing and resolving authentication issues
 
 ## Have more questions? {#have-more-questions}
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
