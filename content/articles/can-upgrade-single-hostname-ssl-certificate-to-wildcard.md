@@ -21,6 +21,6 @@ If you decide a wildcard SSL certificate better fits your needs within 30 days o
 
 For help choosing between single-name and wildcard coverage, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate upgrades, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

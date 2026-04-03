@@ -68,6 +68,6 @@ If [auto-renewal](/articles/letsencrypt/#auto-renewal) is enabled but the certif
 
 If the certificate has already expired, you will need to [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about Let's Encrypt certificate issues, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

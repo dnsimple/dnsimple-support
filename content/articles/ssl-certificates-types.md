@@ -18,7 +18,7 @@ categories:
 
 SSL certificates can be classified in two ways: by **validation level** (how the [certificate authority](/articles/what-is-certificate-authority/) verifies the certificate holder's identity) or by **secured domains/hostnames** (how many hostnames the certificate protects). Understanding these classifications helps you choose the right certificate type for your needs.
 
-## SSL Certificates by Validation Level
+## SSL Certificates by Validation Level {#ssl-certificates-by-validation-level}
 
 The validation level determines the method adopted by the Certificate Authority to confirm the identity of the certificate applicant.
 
@@ -68,7 +68,7 @@ The Extended Validation SSL Certificates are generally identified with a green a
 > DNSimple currently doesn't provide extended validation certificates. However, we provide a recommendation for a CA that does [here](/articles/can-ev-ssl-certificates/).
 
 
-## SSL Certificates by Secured Domains
+## SSL Certificates by Secured Domains {#ssl-certificates-by-secured-domains}
 
 An SSL certificate is associated to one or more secured host names that restrict the scope of a certificate.
 
@@ -102,25 +102,23 @@ You can generally secure a combination of different host names, from the same or
 > DNSimple provides [multi-domain SAN certificates](/articles/ssl-certificates/).
 
 
-## Security
+## Security {#security}
 
-It's important to remember that the validation level and the number of secured domains don't affect the security level offered by an SSL certificate.
+The validation level and the number of secured domains do not affect the encryption strength of an SSL certificate. A domain-validated (DV) certificate provides the same encryption as an extended validation (EV) certificate. The validation level determines what information appears in the certificate and how the CA verified the applicant's identity, but it does not change the cryptographic strength. Similarly, protecting multiple hostnames with a single certificate does not reduce security.
 
-All certificates work following the same encryption principle. The validation level determines what information appears in the certificate and how the CA verified your identity, but it doesn't change the cryptographic strength of the certificate. Similarly, protecting multiple hostnames with a single certificate doesn't reduce security — it's simply a matter of how many names are associated with the same certificate.
-
-## Taking action
+## Taking action {#taking-action}
 
 - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
 - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
 - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
 
-## Have more questions?
-
-If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-## Related reading
+## Related reading {#related}
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/) - Understand how CAs validate entities and issue certificates
 - [What is the Subject Alternative Name (SAN)?](/articles/what-is-ssl-san/) - Learn how multi-domain certificates use SAN
 - [What is the SSL Certificate Common Name?](/articles/what-is-common-name/) - Understand how single-name certificates identify hostnames
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/) - Compare certificate types and their features
+
+## Have more questions?
+
+If you have additional questions or need any assistance with certificate types and which one to choose, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

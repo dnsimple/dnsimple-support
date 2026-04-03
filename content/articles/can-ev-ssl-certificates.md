@@ -22,7 +22,7 @@ If you need an EV certificate for compliance or organizational requirements, you
 
 For most use cases, a DNSimple [Sectigo](/articles/ssl-certificates/#sectigo-singlename) or [Let's Encrypt](/articles/ssl-certificates/#letsencrypt) DV certificate provides the security you need.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate validation types, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
 

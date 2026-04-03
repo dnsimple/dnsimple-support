@@ -45,6 +45,6 @@ You can determine which CA signed your certificate by inspecting the certificate
 
 **Learn more:** [How Do I Determine the Certificate Authority That Signed My SSL Certificate?](/articles/how-to-determine-certificate-authority/)
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate authorities, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

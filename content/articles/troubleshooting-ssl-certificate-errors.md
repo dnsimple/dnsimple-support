@@ -15,7 +15,7 @@ categories:
 
 ---
 
-When an SSL certificate is misconfigured or expired, browsers display security warnings that block or discourage visitors from accessing your site. This article covers the most common errors and how to resolve them.
+When an SSL certificate is misconfigured or expired, browsers display security warnings that block or discourage visitors from accessing your site.
 
 ## "Not Secure" or "Your Connection Is Not Private" {#not-secure}
 
@@ -47,7 +47,7 @@ When an SSL certificate is misconfigured or expired, browsers display security w
 
 ## Mixed Content Warnings {#mixed-content}
 
-**What you see:** The padlock icon is missing or shows a warning, even though the page loads over HTTPS. The browser console shows "Mixed Content" errors.
+**What you see:** The padlock icon is missing or shows a warning, even though the page loads over [HTTPS](/articles/how-https-works/). The browser console shows "Mixed Content" errors.
 
 **Cause:** The page loads some resources (images, scripts, stylesheets, fonts) over plain HTTP instead of HTTPS. Even one HTTP resource on an HTTPS page triggers a mixed content warning.
 
@@ -69,6 +69,6 @@ When an SSL certificate is misconfigured or expired, browsers display security w
 
 DNSimple sends [expiration notifications](/articles/product-expiration-notification/) at 60, 30, 14, 7, and 3 days before a certificate expires.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about SSL certificate errors, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

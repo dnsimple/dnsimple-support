@@ -248,6 +248,6 @@ Purchasing a new certificate to replace one that is expiring. In DNSimple, renew
 - [How Does an SSL Certificate Renewal Work?](/articles/how-certificate-renewal-works/)
 - [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/)
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about SSL certificate terminology, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

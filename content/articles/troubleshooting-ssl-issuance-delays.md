@@ -49,6 +49,6 @@ Let's Encrypt certificates are typically issued within 30-60 minutes. If your ce
 - Review [How Long Does It Take to Issue an SSL Certificate?](/articles/how-long-to-issue-ssl-certificate/) for expected timelines by certificate type.
 - If the certificate has been pending for an unusually long time and you have verified all the above, [contact support](https://dnsimple.com/feedback) and we will investigate.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate issuance, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

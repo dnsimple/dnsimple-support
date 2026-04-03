@@ -12,13 +12,15 @@ All SSL certificates issued through DNSimple are signed with the **SHA-256** has
 
 ## What Is SHA-2? {#what-is-sha2}
 
-SHA-2 is a family of cryptographic hash algorithms developed by the National Institute of Standards and Technology (NIST). Certificate authorities use these algorithms when digitally signing certificates. SHA-256, the most widely used variant, replaced the older SHA-1 algorithm, which is no longer considered secure.
+SHA-2 is a family of cryptographic hash algorithms developed by the National Institute of Standards and Technology (NIST). Certificate authorities use these algorithms when digitally signing certificates. SHA-256, the most widely used variant, replaced the older SHA-1 algorithm, which is no longer considered secure. For definitions of SHA-2 and related cryptographic terms, see the [SSL Certificate Glossary](/articles/ssl-certificates-glossary/).
 
 All major browsers and operating systems stopped trusting SHA-1 certificates by 2017. Every certificate issued through DNSimple uses SHA-256.
 
 ## Compatibility {#compatibility}
 
-SHA-256 certificates are supported by all modern browsers, operating systems, and server platforms. Compatibility issues are limited to very old systems (pre-2006 era), such as:
+SHA-256 certificates are supported by all modern browsers, operating systems, and server platforms. For a full comparison of DNSimple certificate features, see [SSL Certificate Product Specifications](/articles/ssl-certificate-product-specs/). If you are interested in how key algorithms (ECDSA vs RSA) complement the hash algorithm, see [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/).
+
+Compatibility issues are limited to very old systems (pre-2006 era), such as:
 
 - Windows XP SP2 and earlier
 - Android 2.2 and earlier
@@ -26,6 +28,6 @@ SHA-256 certificates are supported by all modern browsers, operating systems, an
 
 If you are serving modern client devices and browsers, SHA-256 compatibility is not a concern.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate signing algorithms, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

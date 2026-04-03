@@ -6,9 +6,9 @@ categories:
 - SSL Certificates
 ---
 
-# Can I purchase an SSL certificate for more than one year?
+# Do you support multi-year SSL certificates?
 
-As of August 14, 2020, it's no longer possible to purchase certificates for a period of longer than one year. [As explained in this article](https://blog.dnsimple.com/2020/08/ssl-certificates-1-year/), with ballot SC31, the CA/B forum has effectively prohibited Certificate Authorities from issuing certificates that are valid for longer than 397 days, effective September 1, 2020.
+As of August 14, 2020, it is no longer possible to purchase certificates for a period of longer than one year. With ballot SC31, the CA/B forum prohibited Certificate Authorities from issuing certificates that are valid for longer than 397 days, effective September 1, 2020. For the full timeline of validity changes, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
 
 This is an industry-standard requirement. It applies to any Certificate Authority or reseller, and not just to DNSimple.
 
@@ -25,3 +25,7 @@ The CA/Browser Forum has approved a phased reduction in maximum SSL/TLS certific
 Starting **March 15, 2026**, Sectigo certificates purchased through DNSimple will be valid for a maximum of 200 days. You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
 
 This change applies to all publicly trusted SSL/TLS certificates issued after March 15, 2026. Existing certificates issued before that date remain valid until their original expiration.
+
+## Have more questions?
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

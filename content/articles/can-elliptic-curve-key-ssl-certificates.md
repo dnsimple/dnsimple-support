@@ -28,6 +28,6 @@ For Sectigo certificates, you can also provide a custom [CSR](/articles/what-is-
 
 See [How to Switch From an ECC-Signed Certificate to RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) for step-by-step instructions.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about key algorithms, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

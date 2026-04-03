@@ -70,6 +70,6 @@ openssl s_client -connect example.com:443 -servername example.com
 
 Look for the certificate chain in the output. A complete chain shows your server certificate, the intermediate(s), and the path to the root. If you see "verify error:num=20:unable to get local issuer certificate", the intermediate is likely missing.
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about certificate chain errors, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -1,6 +1,6 @@
 ---
 title: Expiring Product Email Notifications
-excerpt: This page describes the types of email notifications you may receive about expring items purchased through DNSimple.
+excerpt: This page describes the types of email notifications you may receive about expiring items purchased through DNSimple.
 meta: Learn about DNSimple expiration notifications for domains and certificates, how they differ from ICANN notifications, and how to manage them.
 categories:
 - DNSimple
@@ -33,15 +33,15 @@ DNSimple's expiration notifications are separate from the ICANN-required notific
 
 ## Disabling expiration notifications {#disabling-expiration-notifications}
 
-Account owners can [disable expiration notifications](https://support.dnsimple.com/articles/disabling-expiration-notifications/) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
+Account owners can [disable expiration notifications](/articles/disabling-expiration-notifications/) from DNSimple on domains that are not set to auto-renew. Registered domain owners will still receive notifications from ICANN and our upstream provider. You cannot disable certificate expiration notifications.
 
 ## Changing the contact {#changing-the-contact}
 
-To change the email address that receives these notifications, follow the instructions in [changing the account email](https://support.dnsimple.com/articles/changing-email/#changing-the-account-email).
+To change the email address that receives these notifications, follow the instructions in [changing the account email](/articles/changing-email/#changing-the-account-email).
 
 ## What to do if your domain expires {#what-to-do-if-your-domain-expires}
 
-If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens When a Domain Expires?](https://support.dnsimple.com/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](https://support.dnsimple.com/articles/restoring-domain/).
+If you missed these notifications and your domain expires, you still have the opportunity to retain ownership. Follow the instructions in [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/) to learn what to do if your domain is in a grace period or if it has entered [redemption](/articles/restoring-domain/).
 
 ## Have more questions?
 
