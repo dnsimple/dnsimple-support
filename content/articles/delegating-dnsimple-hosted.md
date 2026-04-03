@@ -1,6 +1,7 @@
 ---
 title: Delegating a Domain registered with another Registrar to DNSimple
 excerpt: How to delegate a domain registered with a different registrar to DNSimple's name servers.
+meta: Step-by-step instructions for pointing your domain's name servers to DNSimple when the domain is registered with another registrar.
 categories:
 - Name Servers
 ---
@@ -8,6 +9,9 @@ categories:
 # Delegating a Domain registered with another Registrar to DNSimple
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+
+> [!TIP]
+> To delegate name servers to another provider instead, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
 
 <div class="section-steps" markdown="1">
 ##### To change the name servers to DNSimple
@@ -22,8 +26,8 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
     - ns4.dnsimple-edge.org
 </div>
 
-> [!NOTE] Name server propagation
-> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+> [!NOTE]
+> It may take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
 
 ### How to set custom name servers at some common registrars
 
