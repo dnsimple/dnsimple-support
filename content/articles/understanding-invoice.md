@@ -81,6 +81,8 @@ DNSimple has both recurring charges and purchases. Purchases, like the fees you 
 > [!NOTE]
 > Domain registration charges can be recurring if you've enabled [auto-renewal](/articles/domain-auto-renewal/).
 
+If a [discount code](/articles/discount-codes/) was applied during checkout, the discount appears in the **Discount** column for the domain registration line item.
+
 ## Proration
 
 If you **upgrade** your plan, you'll receive a proration discount corresponding to the remaining days in your current subscription plan. We grant proration credit for anything you have paid for, with the exception of query volume fees, as those are paid per use rather than in advance. This credit is used for subscriptions only.
