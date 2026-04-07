@@ -21,5 +21,5 @@ The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record befo
 7. Select a new TTL value from the dropdown.
 8. Click **Update record** to save your changes.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance changing the TTL, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

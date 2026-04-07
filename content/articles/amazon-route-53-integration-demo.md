@@ -119,5 +119,5 @@ You can now build on this simple setup to experiment, and see what you can achie
 - Link another AWS account.
 - Use our [CoreDNS integration](/articles/integrated-dns-provider-coredns/) for self-hosted DNS in your private on-premise network.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -35,6 +35,6 @@ Our upstream domain registration providers limit the number of checks we are all
 
 If we observe drop catching, we will disable your account to avoid impacting all DNSimple customers.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about drop catching or DNSimple's policy, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

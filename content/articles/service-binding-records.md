@@ -272,6 +272,6 @@ If you are trying to decide between HTTPS records and other record types, these 
 
 The specification for service binding records (SVCB and HTTPS) is formally defined in [RFC 9460](https://datatracker.ietf.org/doc/html/rfc9460).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -57,5 +57,5 @@ You can use the same process in DNSimple to add several common DNS record types.
 - For **URL records**, the destination must be a full URL (including http:// or https://).
 - If you are copying a DNS record from another provider, always double-check how they name fields.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

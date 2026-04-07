@@ -73,5 +73,5 @@ As SOA records are essential for the proper functioning and synchronization of y
 
 You cannot manually configure the individual fields of the SOA record in the record editor. DNSimple handles all necessary updates automatically, like incrementing the serial number whenever you make changes to your domain's DNS records.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

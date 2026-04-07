@@ -30,5 +30,5 @@ If your zone is out of sync across its [Integrated DNS Providers](/articles/what
 ## What happens during the sync {#what-happens-during-the-sync}
 When you synchronize, records in the destination zone can be created, updated, and deleted to make the records in the destination zone match those in the source zone. Only record types supported at both providers will be affected, and only record field information supported at DNSimple (e.g., record TTL) will be preserved.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

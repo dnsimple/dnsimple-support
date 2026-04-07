@@ -102,6 +102,6 @@ The redirector does not support redirect targets that include a back-reference (
     *.foo.com to bar.com/$1
     *.foo.com to $1.bar.com
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about the DNSimple Redirector or need assistance with URL redirects, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

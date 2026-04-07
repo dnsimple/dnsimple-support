@@ -93,6 +93,6 @@ The form fields that appear will depend on the domain's TLD. The system will sho
 > [!NOTE]
 > To remove a DS record with the DNSSEC API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#deleteDomainDelegationSignerRecord).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need help managing your DS records, just [contact support](https://dnsimple.com/feedback), and we will assist you.

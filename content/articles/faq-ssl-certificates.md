@@ -1,12 +1,13 @@
 ---
 title: SSL Certificates Frequently Asked Questions
 excerpt: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
+meta: Frequently asked questions about SSL certificates at DNSimple, covering pricing, domain requirements, certificate types, validity periods, and common procedures.
 categories:
 - SSL Certificates
 structured_data: true
 ---
 
-# SSL Certificate FAQ
+# SSL Certificates Frequently Asked Questions
 
 ### Table of Contents {#toc}
 
@@ -15,7 +16,7 @@ structured_data: true
 
 ---
 
-## Prices and Subscription
+## Prices and Subscription {#prices-and-subscription}
 
 <div class="section-faq" markdown="1">
     
@@ -33,20 +34,20 @@ structured_data: true
 
     Yes and no. Let's Encrypt certificates are only available with an active subscription. They are included with the subscription at no additional cost.
 
-    You can purchase a Sectigo SSL Certificate without a subscription. Note that you won't receive any additional services for the domain without an active subscription. 
+    You can purchase a Sectigo SSL Certificate without a subscription. Note that you will not receive any additional services for the domain without an active subscription. 
 
 
 1.  #### I just want to purchase a Let's Encrypt SSL certificate. Why do I need a subscription?
 
-    If you're requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we'll use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we'll [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
+    If you are requesting a [Let's Encrypt certificate](/articles/letsencrypt/), we will use our DNS hosting service to automatically provision the DNS records required to validate your certificate, and we will [automatically renew](/articles/letsencrypt/#auto-renewal) the certificate for you before it expires. All these services require a subscription.
 
 1.  #### Will my certificate remain valid after unsubscribing?
 
-    Yes. You're not required to have an active subscription to use or install the certificate on your server.
+    Yes. You are not required to have an active subscription to use or install the certificate on your server.
 
 </div>
 
-## Domains and SSL certificates
+## Domains and SSL certificates {#domains-and-ssl-certificates}
 
 <div class="section-faq" markdown="1">
     
@@ -54,15 +55,15 @@ structured_data: true
 
     No. You can purchase an SSL certificate for a domain that is not registered with us without transferring it to us. However, you need to add the domain to your account to request the certificate. For certain certificate types, you will also need a valid, active subscription.
 
-    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you're asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
+    Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
 1.  #### Do I need to host the domain with DNSimple to purchase an SSL certificate?
 
-    Not for Standard certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However, you need to add the domain to your account to be able to request the certificate.
+    Not for Sectigo certificates. You can purchase an SSL certificate for a domain that is not hosted with us. However, you need to add the domain to your account to be able to request the certificate.
 
     Follow the instructions in [Getting Started](/articles/getting-started-ssl-certificates/). When you are asked to add the domain to purchase the certificate, select the option to add a domain without transferring or registering it.
 
-    If you're getting a free [Let's Encrypt certificate](/articles/letsencrypt/), you must have the domain hosted with us so we can set up the required records for domain-based validation.
+    If you are getting a free [Let's Encrypt certificate](/articles/letsencrypt/), you must have the domain hosted with us so we can set up the required records for domain-based validation.
 
 1. #### How do CAA records affect purchasing SSL certificates?
 
@@ -70,25 +71,25 @@ structured_data: true
 </div>
 
 
-## Certificate Types
+## Certificate Types {#certificate-types}
 
 <div class="section-faq" markdown="1">
     
 1.  #### What type of SSL certificates does DNSimple provide?
 
-    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates/), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority/). We don't provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
+    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates/), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority/). We do not provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 
     To learn more, visit [SSL Certificates](/articles/ssl-certificates/).
 
 1.  #### What certificates show the company name in the green bar near the padlock?
 
-    The green bar in the browser is displayed only if you purchase an _extended-validation_ (EV) certificate. We don't sell EV certificates.
+    The green bar in the browser is displayed only if you purchase an _extended-validation_ (EV) certificate. We do not sell EV certificates.
 
     We only sell DV certificates. These are less expensive than EV certificates and offer the same cryptographic level of security.
 </div>
 
 
-## Certificate Validity
+## Certificate Validity {#certificate-validity}
 
 <div class="section-faq" markdown="1">
 
@@ -106,7 +107,7 @@ structured_data: true
 
 </div>
 
-## Certificate Procedures
+## Certificate Procedures {#certificate-procedures}
 
 <div class="section-faq" markdown="1">
     
@@ -116,5 +117,9 @@ structured_data: true
 
 1.  #### Does renewing a certificate update the one I have installed?
 
-    No. After renewing or purchasing a new certificate, you need to install the updated files on your server(s). You can automate this using [webhooks and our api](https://developer.dnsimple.com), but we don't have access to your systems to update your certificates for you.
+    No. After renewing or purchasing a new certificate, you need to install the updated files on your server(s). You can automate this using [webhooks and our api](https://developer.dnsimple.com), but we do not have access to your systems to update your certificates for you.
 </div>
+
+## Have more questions?
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
