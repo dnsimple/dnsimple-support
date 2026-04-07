@@ -18,14 +18,13 @@ categories:
 
 The DNSimple API allows you to manage email forwards programmatically. This reference covers the email forwarding API endpoints, authentication, and usage examples.
 
-## Overview {#overview}
+## Available endpoints {#endpoints-summary}
 
 The DNSimple API provides endpoints for:
 
 - **Listing email forwards:** Get all email forwards for a domain
 - **Creating email forwards:** Create new email forwarding rules
-- **Viewing email forwards:** Get details about a specific email forward
-- **Updating email forwards:** Modify existing email forwarding rules
+- **Retrieving email forwards:** Get details about a specific email forward
 - **Deleting email forwards:** Remove email forwarding rules
 
 > [!NOTE]
@@ -81,14 +80,21 @@ curl -H "Authorization: Bearer YOUR_TOKEN" \
 {
   "data": [
     {
-      "id": 1,
-      "domain_id": 123,
-      "from": "hello",
-      "to": "user@example.com",
-      "created_at": "2023-01-01T00:00:00Z",
-      "updated_at": "2023-01-01T00:00:00Z"
+      "id": 24809,
+      "domain_id": 235146,
+      "alias_email": "hello@example.com",
+      "destination_email": "user@example.com",
+      "created_at": "2021-01-25T13:54:40Z",
+      "updated_at": "2021-01-25T13:54:40Z",
+      "active": true
     }
-  ]
+  ],
+  "pagination": {
+    "current_page": 1,
+    "per_page": 30,
+    "total_entries": 1,
+    "total_pages": 1
+  }
 }
 ```
 
@@ -101,8 +107,8 @@ Create a new email forward.
 **Request body:**
 ```json
 {
-  "from": "hello",
-  "to": "user@example.com"
+  "alias_name": "hello",
+  "destination_email": "user@example.com"
 }
 ```
 
@@ -111,7 +117,7 @@ Create a new email forward.
 curl -X POST \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"from": "hello", "to": "user@example.com"}' \
+  -d '{"alias_name": "hello", "destination_email": "user@example.com"}' \
   https://api.dnsimple.com/v2/123/domains/example.com/email_forwards
 ```
 
@@ -119,12 +125,13 @@ curl -X POST \
 ```json
 {
   "data": {
-    "id": 1,
-    "domain_id": 123,
-    "from": "hello",
-    "to": "user@example.com",
-    "created_at": "2023-01-01T00:00:00Z",
-    "updated_at": "2023-01-01T00:00:00Z"
+    "id": 41872,
+    "domain_id": 235146,
+    "alias_email": "hello@example.com",
+    "destination_email": "user@example.com",
+    "created_at": "2021-01-25T13:54:40Z",
+    "updated_at": "2021-01-25T13:54:40Z",
+    "active": true
   }
 }
 ```
@@ -138,28 +145,6 @@ Get details about a specific email forward.
 **Example request:**
 ```bash
 curl -H "Authorization: Bearer YOUR_TOKEN" \
-  https://api.dnsimple.com/v2/123/domains/example.com/email_forwards/1
-```
-
-### Update email forward
-
-Update an existing email forward.
-
-**Endpoint:** `PATCH /{account_id}/domains/{domain}/email_forwards/{email_forward_id}`
-
-**Request body:**
-```json
-{
-  "to": "newuser@example.com"
-}
-```
-
-**Example request:**
-```bash
-curl -X PATCH \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"to": "newuser@example.com"}' \
   https://api.dnsimple.com/v2/123/domains/example.com/email_forwards/1
 ```
 
@@ -181,18 +166,11 @@ curl -X DELETE \
 ### Creating email forwards
 
 **Required parameters:**
-- `from`: The local part of the email address (e.g., `hello` for `hello@example.com`)
-- `to`: The full destination email address
+- `alias_name`: The local part of the email address (e.g., `hello` for `hello@example.com`). Do not include the domain.
+- `destination_email`: The full destination email address (e.g., `user@example.com`)
 
-**Optional parameters:**
-- For catch-all forwards, use `from: "(.*)"` or the catch-all option if supported
-
-### Updating email forwards
-
-**Updatable parameters:**
-- `to`: The destination email address
-
-The `from` field typically cannot be updated. Delete and recreate the forward if needed.
+> [!NOTE]
+> The API does not support updating email forwards. To change a forward, delete the existing one and create a new one.
 
 ## Response format {#response-format}
 
@@ -223,23 +201,13 @@ For list endpoints:
 
 The API returns standard HTTP status codes:
 
-- **200 OK:** Request successful
+- **200 OK:** Request successful (list, retrieve)
 - **201 Created:** Resource created successfully
-- **400 Bad Request:** Invalid request parameters
+- **204 No Content:** Resource deleted successfully
+- **400 Bad Request:** Invalid request or resource cannot be created/deleted
 - **401 Unauthorized:** Authentication required or invalid
 - **404 Not Found:** Resource does not exist
-- **422 Unprocessable Entity:** Validation errors
 - **429 Too Many Requests:** Rate limit exceeded
-
-**Example error response:**
-```json
-{
-  "message": "Validation failed",
-  "errors": {
-    "to": ["is invalid"]
-  }
-}
-```
 
 ## Rate limits {#rate-limits}
 
@@ -267,18 +235,8 @@ curl -H "Authorization: Bearer YOUR_TOKEN" \
 curl -X POST \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"from": "hello", "to": "user@example.com"}' \
+  -d '{"alias_name": "hello", "destination_email": "user@example.com"}' \
   https://api.dnsimple.com/v2/123/domains/example.com/email_forwards
-```
-
-### Update an email forward
-
-```bash
-curl -X PATCH \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{"to": "newuser@example.com"}' \
-  https://api.dnsimple.com/v2/123/domains/example.com/email_forwards/1
 ```
 
 ### Delete an email forward
@@ -309,7 +267,7 @@ client = Dnsimple::Client.new(access_token: "YOUR_TOKEN")
 forwards = client.domains.list_email_forwards(123, "example.com")
 
 # Create email forward
-forward = client.domains.create_email_forward(123, "example.com", from: "hello", to: "user@example.com")
+forward = client.domains.create_email_forward(123, "example.com", alias_name: "hello", destination_email: "user@example.com")
 ```
 
 ## Best practices {#best-practices}
@@ -320,14 +278,6 @@ forward = client.domains.create_email_forward(123, "example.com", from: "hello",
 - **Use pagination:** Use pagination for large result sets
 - **Secure tokens:** Never commit API tokens to version control
 - **Test in sandbox:** Use the sandbox environment for testing
-
-## Related topics
-
-- [Managing Email Forwards with the API](/articles/managing-email-forwards-with-the-api/) - Guide to using the API
-- [API Documentation](/articles/api-documentation/) - General API information
-- [API Access Tokens](/articles/api-access-token/) - Creating and managing API tokens
-- [API Rate Limits](/articles/api-rate-limit/) - Rate limit information
-- [DNSimple Developer Documentation](https://developer.dnsimple.com/v2/domains/email-forwards/) - Complete API documentation
 
 ## Have more questions?
 

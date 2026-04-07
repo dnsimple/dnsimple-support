@@ -15,11 +15,7 @@ categories:
 
 ---
 
-Email forwarding at DNSimple is subject to limits and quotas based on your subscription plan. This article covers billing structure, message and forward limits, and how to manage usage.
-
-## Overview {#overview}
-
-Email forwarding is billed monthly on a per-domain basis. The number of forwarded messages and email forwards allowed per month varies depending on your DNSimple plan.
+Email forwarding at DNSimple is subject to limits and quotas based on your subscription plan. Email forwarding is billed monthly on a per-domain basis, and the number of forwarded messages and email forwards allowed per month varies depending on your DNSimple plan.
 
 > [!NOTE]
 > For the most current information about email forwarding limits for each plan, see [DNSimple Pricing](https://dnsimple.com/pricing).
@@ -67,8 +63,7 @@ Message limits refer to the total number of emails that can be forwarded per mon
 
 If you reach your message limit:
 
-- **Temporary suspension:** Email forwarding may be temporarily suspended for that domain until the next billing cycle.
-- **Notification:** You may receive notifications when approaching or reaching limits.
+- **Temporary suspension:** Email forwarding is temporarily suspended for that domain until the next billing cycle.
 - **Upgrade option:** You can upgrade your plan to increase limits.
 
 > [!WARNING]
@@ -167,13 +162,6 @@ If you downgrade to a plan with lower email forward limits and you have more for
 ### Are there limits on email size?
 
 Email forwarding has size limits for individual emails. Very large emails may not be forwarded successfully. [Contact support](https://dnsimple.com/feedback) if you are experiencing issues with large emails.
-
-## Related topics
-
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Overview of email forwarding
-- [Email Forwarding Management](/articles/email-forwarding-management/) - Guide to managing email forwarding
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - How to create and manage email forwards
-- [DNSimple Plans](/articles/dnsimple-plans/) - Information about DNSimple subscription plans
 
 ## Have more questions?
 

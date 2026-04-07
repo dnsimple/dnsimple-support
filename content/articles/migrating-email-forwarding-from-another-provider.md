@@ -222,13 +222,6 @@ If you are using catch-all email forwarding:
 
 **Communicate changes:** Notify anyone who might be affected by the migration.
 
-## Related topics
-
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Overview of email forwarding
-- [Enabling Email Forwarding](/articles/enabling-email-forwarding/) - How to enable email forwarding
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - How to create email forwards
-- [Email Forwarding Management](/articles/email-forwarding-management/) - Guide to managing email forwarding
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with migrating email forwarding, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -219,13 +219,6 @@ The DNSimple dashboard can help you manage email forwarding across domains:
 2. **Check your invoice:** Review your DNSimple invoice to see charges for each domain
 3. **Contact support:** If you have billing questions, [contact support](https://dnsimple.com/feedback) for clarification
 
-## Related topics
-
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Overview of email forwarding
-- [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) - Information about limits and billing
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - How to create and manage email forwards
-- [Email Forwarding Management](/articles/email-forwarding-management/) - Guide to the email forwarding interface
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with managing email forwarding for multiple domains, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
