@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "fuse.js": "^7.1.0",
-    "vue": "^3.5.30"
+    "vue": "^3.5.32"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.29.2",
