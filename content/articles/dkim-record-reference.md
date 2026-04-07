@@ -4,6 +4,7 @@ excerpt: The formal structure, behavior, and key technical details of a DKIM rec
 meta: Learn more about the structure, behavior, and technical details for DKIM records.
 categories:
 - DNS
+- Emails
 ---
 
 # DKIM Record Reference
