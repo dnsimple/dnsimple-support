@@ -78,6 +78,6 @@ The record is created and will be visible in the record list.
 1. Confirm the dialog to delete the record.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance adding AAAA records to your domain, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

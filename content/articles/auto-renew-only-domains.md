@@ -11,6 +11,6 @@ categories:
 > [!NOTE]
 > This article is being deprecated. Please refer to the [Domain Auto-Renewal](/articles/domain-auto-renewal/) article instead.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about auto-renewal for your domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

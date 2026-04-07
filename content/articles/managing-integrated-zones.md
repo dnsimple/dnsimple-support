@@ -32,5 +32,5 @@ Loading the Domain Names page automatically [refreshes](/articles/record-editor-
 
 You can also manage the selection of [zones to import](/articles/integrated-dns-provider-zones/) by going to your **Account settings → Integrated Providers** page and updating the selection of zones.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -31,5 +31,5 @@ Analyzing this information lets you pinpoint exactly where a DNS problem lies—
 
 You can learn more about using dig in [How to Use dig](/articles/how-dig/). A quick reference for dig is available in our [dig Reference Guide](/articles/dig-reference-guide/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

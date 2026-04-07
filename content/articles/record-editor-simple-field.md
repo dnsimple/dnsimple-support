@@ -51,7 +51,7 @@ DNSimple provides both editing experiences to cater to different user needs and 
 
 For a complete list of supported DNS record types, see [Supported DNS Records and DNS Record Types](/articles/supported-dns-records/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 
 

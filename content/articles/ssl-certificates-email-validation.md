@@ -36,7 +36,7 @@ The goal of validation is to ensure the authenticity of a certificate order befo
 
 You must complete domain validation every time a new certificate is issued. Starting March 2026, [Sectigo certificates are valid for 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity), which means you will need to complete validation more frequently — at least twice per year instead of once. This will increase further as maximum certificate lifetimes continue to decrease.
 
-## The Process
+## The Process {#process}
 
 The email validation process consists of a few steps:
 
@@ -90,8 +90,8 @@ You select the validation email when you purchase the certificate. You can use o
 
     ![screenshot: Select email to receive SSL approval message](/files/dnsimple-ssl-selectapprover.png)
 
-2.  Choose the email address you want to use by clicking on it.
-3.  Click *Send Approver Email* to configure and submit the certificate for validation.
+1.  Choose the email address you want to use by clicking on it.
+1.  Click *Send Approver Email* to configure and submit the certificate for validation.
 </div>
 
 If the approver is not in this list or you need time to configure one of those emails, you can also close this page and come back later.
@@ -129,7 +129,7 @@ The certificate must be in the submitted state. If instead you still need to sub
 ##### To change the approval email
 1. [**Read the requirements for the email address**](#requirements) and make sure the recipient you want to use follow these rules.
 
-1. [Contact us](https://dnsimple.com/contact) to change the approver email. Make sure you provide the fully-qualified certificate name (e.g. `www.example.com`, `*.example.com`) and the new email address to use.
+1. [Contact us](https://dnsimple.com/feedback) to change the approver email. Make sure you provide the fully-qualified certificate name (e.g. `www.example.com`, `*.example.com`) and the new email address to use.
 </div>
 
 
@@ -157,6 +157,6 @@ If you haven't received the validation email, for example because the email conf
 </div>
 
 
-## Have More Questions?
+## Have more questions?
 
 If you have additional questions or need any assistance with SSL certificate domain validation, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -1,47 +1,33 @@
 ---
 title: SHA-2 SSL Certificates
-excerpt: All certificates purchased with DNSimple are currently signed with the SHA-2 hash algorithm.
+excerpt: All DNSimple SSL certificates are signed with the SHA-256 hash algorithm.
+meta: All SSL certificates issued through DNSimple use SHA-256 (SHA-2) signatures. SHA-1 certificates are no longer issued or trusted by modern browsers.
 categories:
 - SSL Certificates
 ---
 
 # SHA-2 SSL Certificates
 
-### Table of Contents {#toc}
+All SSL certificates issued through DNSimple are signed with the **SHA-256** hash algorithm (part of the SHA-2 family). No action is required on your part -- this has been the default for all DNSimple certificates since 2014.
 
-* TOC
-{:toc}
+## What Is SHA-2? {#what-is-sha2}
 
----
+SHA-2 is a family of cryptographic hash algorithms developed by the National Institute of Standards and Technology (NIST). Certificate authorities use these algorithms when digitally signing certificates. SHA-256, the most widely used variant, replaced the older SHA-1 algorithm, which is no longer considered secure. For definitions of SHA-2 and related cryptographic terms, see the [SSL Certificate Glossary](/articles/ssl-certificates-glossary/).
 
-> [!NOTE]
-> All certificates purchased with DNSimple are currently signed with the SHA-2 hash algorithm.
+All major browsers and operating systems stopped trusting SHA-1 certificates by 2017. Every certificate issued through DNSimple uses SHA-256.
 
-This article provides a simple overview of the SHA-1 to SHA-2 transition plans, as well additional informations on the SHA-2 hash algorithm and SSL certificates purchased with DNSimple previous than September 2014.
+## Compatibility {#compatibility}
 
-## Background
+SHA-256 certificates are supported by all modern browsers, operating systems, and server platforms. For a full comparison of DNSimple certificate features, see [SSL Certificate Product Specifications](/articles/ssl-certificate-product-specs/). If you are interested in how key algorithms (ECDSA vs RSA) complement the hash algorithm, see [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/).
 
-The SHA family of hashing algorithms were developed by the National Institute of Standards and Technology (NIST) and are used by certificate authorities (CAs) when digitally signing issued certificates.
+Compatibility issues are limited to very old systems (pre-2006 era), such as:
 
-The most popular of these hashing algorithms today is SHA-1. For some time, there have been plans [to deprecate the SHA-1 hashing algorithm in favor of SHA-256](https://casecurity.org/2013/12/16/sha-1-deprecation-on-to-sha-2/). The SHA-2 hashing algorithm, in fact, represents a huge advance in cryptographic security.
+- Windows XP SP2 and earlier
+- Android 2.2 and earlier
+- Java 1.4.2 and earlier
 
-Microsoft announced that on January 1, 2016, they would stop trusting code signing certificates generated with a SHA-1 hashing algorithm, and on January 1, 2017, they would stop trusting SHA-1 generated SSL Certificates.
+If you are serving modern client devices and browsers, SHA-256 compatibility is not a concern.
 
-On September 5th, 2014, [Google announced plans for gradually sunsetting SHA-1](http://googleonlinesecurity.blogspot.it/2014/09/gradually-sunsetting-sha-1.html) and introduced visual messages in Google Chrome browser to highlight sites with end-entity certificates that expire between 1 January 2016 and 31 December 2016 and include a SHA-1 based signature as part of the certificate chain.
+## Have more questions?
 
-[This announcement has brought renewed attention](https://blog.dnsimple.com/2014/09/sha-2-and-dnsimple/) to the subject of SSL certificates and their security.
-
-## How does this affect me?
-
-We decided to provide this support page to educate our customers on the subject. However, you unlikely need to worry about the certificates purchased with DNSimple.
-
-DNSimple traditionally offered [Sectigo and RapidSSL](/articles/ssl-certificate-authorities/) certificates. On September 11th, 2014, we switched our system to offer Sectigo certificates only.
-
-Sectigo has been using SHA-2 hash algorithm by default since August 2014.
-
-- Every wildcard certificate purchased from August/September 2014 and every certificate purchased from September 11th, 2014 is now hashed with SHA-2
-- RapidSSL single-name certificates purchased before September 11th, 2014 are hashed with SHA-1. However, since we didn't offer multi-year certificates, all these certificates will expire within September 2015, way within the beginning of the sunsetting phase starting on January 2016.
-
-## SHA-2 SSL certificate compatibility
-
-Certificates issued with the SHA-256 hashing algorithm have support on most modern operating systems. There are some use cases where SHA-256 is not supported. [Read this article](https://support.globalsign.com/customer/portal/articles/1499561-sha-256-compatibility) for minimum version requirements as well as finer compatibility detail and exceptions.
+If you have any questions about certificate signing algorithms, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -46,5 +46,5 @@ TTL values in DNSimple can be set up in the dashboard when you create a record:
 And can be edited when changing a record in the dashboard:
 ![screenshot of editing your TTL for existing DNS record](/files/ttl-regions.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions about TTL, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

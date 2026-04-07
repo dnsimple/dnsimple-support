@@ -51,5 +51,5 @@ The behavior and format of MX records are specified in [RFC 5321](https://datatr
 ## Managing MX records in DNSimple {#managing-mx-records-in-dnsimple}
 DNSimple provides a user-friendly interface for configuring and maintaining your domain's MX records. You can easily add new records, remove existing ones, or update their target mail servers and priorities directly from your domain's [record editor](/articles/record-editor/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your MX records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
