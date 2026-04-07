@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Email forwarding lets you receive emails sent to addresses at your domain and automatically redirect them to another email account. This guide walks you through the prerequisites and steps to enable the service.
+Email forwarding lets you receive emails sent to addresses at your domain and automatically redirect them to another email account. Before enabling the service, review the prerequisites below.
 
 ## Prerequisites {#prerequisites}
 
@@ -39,7 +39,7 @@ The domain must be delegated to DNSimple's name servers, and DNS hosting must be
   ![screenshot of list of domain names](/files/dnssec-domain-names.png)
 1. Click the <label>Email Forwarding</label> tab on the left side.
   ![screenshot of email forwarding tab](/files/forwarding-tab.png)
-1. Create an email forward to enable the service.
+1. Click <label>Continue</label> to create your first email forward and enable the service.
 </div>
 
 When you enable email forwarding, DNSimple automatically adds the various DNS records needed to support forwarding.
@@ -75,4 +75,4 @@ The email forwarding provider does not support International Domain Names (domai
 
 ## Have more questions?
 
-If you have any questions or need assistance enabling email forwarding, [contact support](https://dnsimple.com/contact), and we'll be happy to help.
+If you have any questions or need assistance enabling email forwarding, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
