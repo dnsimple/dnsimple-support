@@ -66,5 +66,5 @@ To verify that your DMARC record is correctly published and configured, consult 
 ## Technical details {#technical-details}
 For more on the technical specifications and intricacies of the DMARC protocol, visit [DMARC.org](http://DMARC.org). They provide extensive resources, including links to the relevant RFCs.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -37,6 +37,6 @@ Because WHOIS information is publicly accessible, privacy concerns have led to t
 
 WHOIS information plays an important role in domain management. WHOIS contains the contact information for domain registrants, administrative contacts, and technical contacts. WHOIS contact information is used to verify domain ownership and send transfer authorization emails during [domain transfers](/articles/what-is-domain-transfer/). When you [update domain contact information](/articles/changing-whois-contact/), the changes are reflected in the WHOIS database. Some registries use WHOIS email addresses for domain validation, though this practice is being phased out in favor of more secure validation methods.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about WHOIS or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

@@ -78,6 +78,6 @@ After clicking on the **Disable DNSSEC button** in the Disable DNSSEC card, you 
 2. **We are Disabling DNSSEC on (domain) Card** - Status card for DNSSEC.
 3. **Refresh page button** - Refreshes page and status. 
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions or need assistance with your DNSSEC management, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

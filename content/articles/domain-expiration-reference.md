@@ -94,6 +94,6 @@ For more information, see [Expiring Domain Email Notifications](/articles/expiri
 
 **Auto-renew only domains:** Some domains are auto-renew only and cannot be renewed manually. For these domains, there is no grace period, and once they have expired, it is not possible to recover them.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with domain expiration and recovery, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

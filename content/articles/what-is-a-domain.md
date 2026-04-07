@@ -48,6 +48,6 @@ When you register a domain, you become the [registrant](/articles/what-are-domai
 
 If a domain is not renewed before it expires, the right to use it can be lost, and the domain may eventually become available for someone else to register. Keeping track of renewals and maintaining accurate ownership information is an important part of managing a domain over time.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about domains or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

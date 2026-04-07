@@ -74,6 +74,6 @@ Auto-renewal can be disabled for any domain at any time, except when the auto-re
 
 ![](/files/disable-autorenew.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about or need assistance with auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

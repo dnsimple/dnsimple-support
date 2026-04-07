@@ -77,5 +77,5 @@ From the Record Editor, you can also view the Activity log to see who made chang
 
 For step-by-step instructions and filtering options, see [How to View the Activity Log](https://support.dnsimple.com/articles/activity-tracking/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions or need assistance with the Record Editor, reach out to support, and we will be happy to help.

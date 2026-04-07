@@ -132,7 +132,7 @@ A domain can have multiple TLSA records for the same service, allowing for certi
 
 **[RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698)**: The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA (The primary specification for TLSA records).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

@@ -35,6 +35,6 @@ The second record is for an ED25519 key (`4`) with a SHA-256 fingerprint (`2`).
 ## How it is used {#how-it-is-used}
 When an SSH client connects to a host, it can perform a DNS lookup for the corresponding SSHFP record. The client then compares the fingerprint of the host's public key with the one in the DNS record. If they match, the connection is trusted.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

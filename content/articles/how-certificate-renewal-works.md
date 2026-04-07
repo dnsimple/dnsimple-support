@@ -8,6 +8,13 @@ categories:
 
 # How does an SSL Certificate Renewal work?
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 Unlike domain registration, an issued SSL certificate cannot have its expiration date extended. The certificate's expiration date is included in the cryptographic data that the [certificate authority](/articles/what-is-certificate-authority/) signs when the certificate is issued. If the expiration date were modified, the certificate signature would no longer be valid, and browsers would reject the certificate.
 
 > [!NOTE]
@@ -22,13 +29,13 @@ Instead of extending the existing certificate, renewal results in a new certific
 
 The newly issued certificate must then replace the expiring certificate on the server so that browsers continue to trust the secure connection.
 
-## Validation during renewal
+## Validation during renewal {#validation}
 
 Renewal does not bypass the validation rules required by certificate authorities. Each time a certificate is issued -- including renewals -- the certificate authority must confirm that the requester still controls the domain names included in the certificate. The specific validation method depends on the certificate type: Sectigo uses email-based validation, while Let's Encrypt uses automated DNS challenges.
 
 For a detailed comparison of validation methods and how they work, see [Domain Validation Methods for SSL Certificates](/articles/ssl-domain-validation-methods/).
 
-## What happens when a certificate expires
+## What happens when a certificate expires {#expiration}
 
 If a replacement certificate is not issued and installed before the current certificate expires, browsers will treat the certificate as invalid. Visitors will see security warnings indicating that the connection is not trusted, which typically block access to the site unless the visitor explicitly chooses to bypass the warning.
 
@@ -43,7 +50,7 @@ Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 day
 
 You will need to request a new certificate before the current one expires to maintain uninterrupted coverage. Each new certificate requires completing [domain validation](/articles/ssl-certificates-email-validation/) again.
 
-## Taking action
+## Taking action {#taking-action}
 
 If you need to request or install a replacement certificate, see the following guides:
 
@@ -52,13 +59,13 @@ If you need to request or install a replacement certificate, see the following g
 - [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/)
 - [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
 
-## Have more questions?
-
-If you have additional questions or need any assistance with how SSL certificate renewals work, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
-
-## Related reading
+## Related reading {#related}
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/)
 - [How long does it take to issue an SSL certificate?](/articles/how-long-to-issue-ssl-certificate/)
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/)
 - [Let's Encrypt and DNSimple](/articles/letsencrypt/)
+
+## Have more questions?
+
+If you have additional questions or need any assistance with how SSL certificate renewals work, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

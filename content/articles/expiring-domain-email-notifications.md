@@ -37,6 +37,6 @@ At this time, you cannot disable these notifications.
 
 These notifications are required by ICANN policy and cannot be disabled because they serve as a legal and regulatory requirement to inform domain owners about expiration. The notifications are sent to the registrant email address on file, so if you need to change where notifications are sent, you must update the registrant contact information for the domain.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about expiring domain email notifications, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

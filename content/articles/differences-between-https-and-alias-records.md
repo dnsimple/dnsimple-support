@@ -158,6 +158,6 @@ For HTTP/HTTPS services, HTTPS records are generally preferred when you need ser
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 - [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Comprehensive comparison of A, CNAME, ALIAS, and URL records
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance choosing between HTTPS and ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

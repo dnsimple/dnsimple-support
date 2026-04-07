@@ -45,6 +45,6 @@ DNSimple supports domain integration with the providers listed below.
 ![Unlink an Integrated Domain Provider](/files/account-integrated-domain-provider-unlink.png)
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about linking or unlinking integrated domain providers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

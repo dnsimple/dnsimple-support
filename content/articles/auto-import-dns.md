@@ -54,6 +54,6 @@ If auto-importing a record conflicts with an existing record on your domain, we 
 
 After choosing which record to keep, click **Import DNS records** to add them to your domain zone.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about how to auto-import your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
