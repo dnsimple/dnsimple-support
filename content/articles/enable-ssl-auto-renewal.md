@@ -55,7 +55,7 @@ Once the renewed certificate is issued, you will receive an email and [webhook n
 1. Scroll down to the <label>SSL certificates</label> section and click on the Let's Encrypt certificate you want to auto-renew.
 1. On the certificate page, locate the auto-renewal toggle and enable it.
 
-    ![Let's Encrypt SSL certificate auto-renewal](/files/certificate-letsencrypt-auto-renewal.png)
+    ![Let's Encrypt certificate page with the Auto-renewal section](/files/ssl-certificate-page.png)
 
 </div>
 
