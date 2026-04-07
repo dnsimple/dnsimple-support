@@ -28,22 +28,9 @@ When an email is forwarded:
 3. **Delivery attempt:** Forwarding service attempts to deliver to destination
 4. **Bounce (if applicable):** If delivery fails, a bounce may occur
 
-### Bounce behavior
+### Bounce behavior at DNSimple
 
-With email forwarding, bounces can behave differently:
-
-**Bounce to forwarding service:**
-- If the destination bounces, the bounce typically goes to the forwarding service
-- The forwarding service may handle the bounce internally
-- The original sender may not receive the bounce
-
-**Bounce to original sender:**
-- In some cases, bounces may be forwarded back to the original sender
-- This depends on the forwarding service's configuration
-- Not all forwarding services support this
-
-> [!NOTE]
-> DNSimple's email forwarding service handles bounces internally. Bounces from the final destination are not forwarded back to the original sender.
+DNSimple's email forwarding service handles bounces internally. If the destination address bounces, the bounce goes to the forwarding service — it is not forwarded back to the original sender. This means original senders will not know if a forwarded email failed to deliver.
 
 ## Types of bounces with forwarding {#bounce-types}
 
@@ -239,13 +226,6 @@ You may not receive notifications about bounces from forwarded emails.
 2. Check destination mailbox status
 3. Update or remove email forward if needed
 4. Contact destination if appropriate
-
-## Related topics
-
-- [Understanding Email Bounces](/articles/understanding-email-bounces/) - Overview of email bounces
-- [Email Forwarding](/articles/email-forwarding/) - Email forwarding information
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - Managing email forwards
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/) - Gmail-specific troubleshooting
 
 ## Have more questions?
 

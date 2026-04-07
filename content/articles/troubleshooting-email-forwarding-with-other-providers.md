@@ -15,7 +15,7 @@ categories:
 
 ---
 
-This guide covers troubleshooting email forwarding issues with email providers other than Gmail, including Outlook, Yahoo, and other providers.
+If forwarded emails are not arriving or are going to spam at Outlook, Yahoo, Apple Mail, or other providers, use the steps below to diagnose and fix the issue. For Gmail-specific issues, see [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/).
 
 ## Common issues by provider {#by-provider}
 
@@ -155,12 +155,6 @@ This guide covers troubleshooting email forwarding issues with email providers o
 - Test email delivery regularly
 - Keep email forwards updated
 - Monitor for delivery issues
-
-## Related topics
-
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/) - Gmail-specific troubleshooting
-- [Troubleshooting Email Forwarding Delivery Issues](/articles/troubleshooting-email-forwarding-delivery-issues/) - General delivery issues
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Email forwarding overview
 
 ## Have more questions?
 

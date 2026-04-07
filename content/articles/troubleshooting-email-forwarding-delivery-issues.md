@@ -167,12 +167,6 @@ If emails are not being delivered through email forwarding, use this guide to di
 - Check spam folders regularly
 - Keep email forwards updated
 
-## Related topics
-
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - Email forwarding overview
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - Managing forwards
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/) - Gmail-specific issues
-
 ## Have more questions?
 
 If you have additional questions or need any assistance with troubleshooting email forwarding delivery issues, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
