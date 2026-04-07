@@ -4,9 +4,21 @@ Getting started:
 
 Explanation:
   - "What Is Email Forwarding?"
+  - "What Is a DKIM Record?"
+  - "What Is a DMARC Record?"
 
 How to:
-  - "Enabling Email Forwarding"
+  Email Forwarding:
+    - "Enabling Email Forwarding"
+  DKIM and DMARC:
+    - "Setting up DKIM"
+    - "Setting up DMARC"
+    - "Verifying DKIM with dig and Online Tools"
+    - "Verifying DMARC with dig and Online Tools"
+  Troubleshooting:
+    - "Troubleshooting Email Forwarding with Gmail"
 
 Reference:
   - "Email Forwarding Management in DNSimple"
+  - "DKIM Record Reference"
+  - "DMARC Record Reference"
