@@ -232,6 +232,6 @@ For HTTP/HTTPS services, both record types provide the same functionality and ca
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Understand when to use HTTPS records versus ALIAS records
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with service binding records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

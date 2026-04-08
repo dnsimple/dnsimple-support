@@ -42,6 +42,6 @@ Content-Type: text/plain; charset=utf-8
 
 The response code should be 301, and it should contain the Location. We also include the `X-Redirector-Version` custom header to help you determine if the redirect is sent from our redirector or from some other system.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about troubleshooting URL redirects, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

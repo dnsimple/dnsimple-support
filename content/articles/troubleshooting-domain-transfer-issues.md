@@ -147,7 +147,7 @@ If you are already experiencing downtime:
 
 The domain will remain with your current registrar, and any held funds will be released.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have tried these troubleshooting steps and are still experiencing issues with your domain transfer, [contact our support team](https://dnsimple.com/feedback). Please include:
 

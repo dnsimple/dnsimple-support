@@ -25,6 +25,6 @@ By default, newly registered domains are set to [auto-renew](/articles/domain-au
 > Your card will be charged once the renewal completes.
 > If the renewal fails, funds will be released.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance with manually renewing your domains, contact our [support team](https://dnsimple.com/feedback), and we will be happy to help.

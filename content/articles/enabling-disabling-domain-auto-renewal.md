@@ -58,6 +58,6 @@ To turn off auto-renewal for a domain, follow these steps:
 Auto-renewal is now disabled on your domain.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about or need assistance with auto-renewal for your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.

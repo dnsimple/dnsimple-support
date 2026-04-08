@@ -48,5 +48,5 @@ A common example of multiple MX records used to provide redundancy for a domain:
 
 In this example, mail will first attempt to be delivered to `aspmx.l.google.com` (priority 1). If that fails, it will attempt `alt1.aspmx.l.google.com` or `alt2.aspmx.l.google.com` (priority 5).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your MX records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
