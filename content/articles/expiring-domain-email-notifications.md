@@ -27,7 +27,7 @@ ICANN mandates expiration notifications to ensure domain owners are informed abo
 
 ![Domain Expiration Email #2](/files/domain-expiration-email-2.png)
 
-These emails will be sent from the addresses `<donotreply@name-services.com>` or `no-reply@domainrenewals.ispapi.net`.
+These emails will be sent from one of these addresses: `<donotreply@name-services.com>`, `no-reply@domainrenewals.ispapi.net`, or `noreply@expirationwarning.net`.
 
 If your domain is set to auto-renew, you can safely disregard the notification.
 
