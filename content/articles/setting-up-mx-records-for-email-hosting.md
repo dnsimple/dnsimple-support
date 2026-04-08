@@ -103,7 +103,7 @@ If emails are not being delivered after setting up MX records:
 4. **Check for conflicts:** Ensure you do not have conflicting MX records or email forwarding enabled.
 5. **Wait for propagation:** Allow time for DNS changes to propagate (up to 48 hours, though typically much faster).
 
-For more information, see [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/).
+When switching providers, plan your MX record changes carefully and verify propagation before relying on the new mail path. If you need help, [contact support](https://dnsimple.com/feedback).
 
 ## Have more questions?
 

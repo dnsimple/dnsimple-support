@@ -9,6 +9,15 @@ categories:
 
 # Verifying SPF with dig and Online Tools
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+Use `dig` or a trusted online checker to confirm your domain returns the expected SPF TXT record and that the syntax is valid.
+
 ## Verifying SPF with dig {#dig}
 
 The `dig` tool is a good way to verify your SPF record is being returned correctly by our DNS servers. To learn more about `dig`, see [How To Use dig](/articles/how-dig/).
@@ -72,9 +81,9 @@ When verifying your SPF record, you may see different results:
 
 ## Technical details {#technical}
 
-For more information about the technical details of SPF, head over to [OpenSPF.org](https://www.openspf.org/).
+The SPF protocol is defined in [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208).
 
-If you want more details on SPF record formats and validation, view our [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
+For SPF record formats and validation rules, see the [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
 
 ## Have more questions?
 

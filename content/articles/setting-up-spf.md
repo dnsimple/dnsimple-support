@@ -14,7 +14,7 @@ categories:
 SPF records are published as [TXT records](/articles/txt-record/) in your DNS zone. The record contains a list of IP addresses and/or hostnames that are permitted to send email from your domain.
 
 > [!NOTE]
-> SPF is one of three key email authentication protocols. For comprehensive email security, you should also set up [DKIM](/articles/set-up-dkim/) and [DMARC](/articles/set-up-dmarc/). Together, these protocols help protect your domain from spoofing and improve email deliverability. See [Email Authentication Best Practices](/articles/email-authentication-best-practices/) for guidance on implementing all three.
+> SPF is one of three key email authentication protocols. For comprehensive email security, you should also set up [DKIM](/articles/set-up-dkim/) and [DMARC](/articles/set-up-dmarc/). Together, these protocols help protect your domain from spoofing and improve email deliverability.
 
 > [!WARNING]
 > As of August 11th, 2025, SPF records defined using the dedicated SPF RR (Resource Record type 99) are no longer supported by major email providers and DNS services. All SPF records must now be defined using the **TXT record type**. This documentation reflects the current recommended practices for SPF record management using TXT records. For more information, see the [official announcement](https://blog.dnsimple.com/2025/07/discontinuing-spf-record-type/).
@@ -118,7 +118,7 @@ After setting up your SPF record, verify it is working correctly. For step-by-st
 
 ## Troubleshooting {#troubleshooting}
 
-If you are experiencing issues with your SPF record, see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for help diagnosing and resolving common problems.
+If you are experiencing issues with your SPF record, [contact support](https://dnsimple.com/feedback) for help diagnosing and resolving common problems.
 
 ## Technical details {#technical}
 
@@ -132,8 +132,6 @@ The specification for the Sender Policy Framework is primarily defined in [RFC 7
 - [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - How to verify your SPF record
 - [Setting Up DKIM](/articles/set-up-dkim/) - Set up DKIM authentication
 - [Setting Up DMARC](/articles/set-up-dmarc/) - Set up DMARC policy
-- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Best practices for SPF, DKIM, and DMARC
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Guide to authentication issues
 
 ### Email service integration
 - [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace with DNSimple

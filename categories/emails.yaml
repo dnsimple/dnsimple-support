@@ -9,8 +9,13 @@ Email DNS records:
 - "What Is a DMARC Record?"
 - "Setting up DKIM"
 - "Setting up DMARC"
+- "Setting Up SPF Records"
 - "Verifying DKIM with dig and Online Tools"
 - "Verifying DMARC with dig and Online Tools"
+- "Verifying SPF with dig and Online Tools"
+- "Setting Up MX Records for Email Hosting"
+- "What Are Null MX Records?"
+- "Setting Up Null MX Records"
 
 Troubleshooting:
 - "Troubleshooting Email Forwarding with Gmail"
