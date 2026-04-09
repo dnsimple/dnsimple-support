@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Email forwards let you redirect emails sent to addresses at your domain to other email addresses. You can create, edit, and delete individual forwards from the domain page or the dashboard. For a visual guide to the interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/).
+Email forwards let you redirect emails sent to addresses at your domain to other email addresses. You can create, edit, and delete individual forwards from the domain page or the dashboard. For a visual guide to the interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding/).
 
 ## Creating an email forward {#creating}
 
