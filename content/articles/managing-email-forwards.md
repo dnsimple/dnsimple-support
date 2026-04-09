@@ -29,11 +29,11 @@ You can create email forwards from either the domain's Email Forwarding page or 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 1. In your <label>Domain Names</label> list, click the name of the domain where you want to create an email forward.
 1. Click the <label>Email Forwarding</label> tab on the left side.
-1. Click <label>Add email forward</label> or the <label>Continue</label> button.
+1. Click <label>Add</label> button.
 1. Enter the email forward details:
    - **From:** Enter the local part (the part before the @) of the email address you want to forward from (e.g., `hello` for `hello@yourdomain.com`). Do not include the domain name.
    - **To:** Enter the full email address where you want emails to be forwarded (e.g., `yourname@gmail.com`).
-1. Click <label>Add email forward</label>.
+1. Click <label>Create forward</label>.
 </div>
 
 ![screenshot of new email forwarding](/files/new-email-forward.png)
@@ -46,10 +46,14 @@ You can create email forwards from either the domain's Email Forwarding page or 
 1. If you have more than one account, select the relevant one from the account switcher at the top-right corner of the screen.
 1. Click <label>Add</label> from the Dashboard, and choose <label>Email forward</label> from the provided options.
   ![Adding an email forward](/files/add-button-email-forward.png)
-1. Select the domain (zone) to apply the forward to in the <label>From</label> field. Only zones resolving through DNSimple will be included in the list.
-1. Enter the local part in the <label>From</label> field (e.g., `hello`).
+1. Select the **Email Forward Type**:
+   - **Catch-all** to forward all email addresses for the domain.
+   - **Single email address** to forward messages sent to a specific address.
+1. Select the domain from the dropdown.  
+   Only zones resolving through DNSimple will appear in the list.
+2. If you selected **Single email address**, enter the **local part** of the email address (e.g., `hello`).
 1. Enter the full destination email address in the <label>To</label> field.
-1. Click <label>Add email forward</label>.
+1. Click <label>Create forward</label>.
 </div>
 
 ## Creating a catch-all email forward {#catch-all}
@@ -86,10 +90,10 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 ##### Edit an existing email forward
 
 1. Navigate to the domain's <label>Email Forwarding</label> tab.
-1. Find the email forward you want to edit in the <label>Current Email Forwards</label> section.
+1. Find the email forward you want to edit in the <label>Email Forwarding</label> tab.
 1. Click <label>Edit</label> (the pencil icon).
 1. Modify the <label>From</label> or <label>To</label> fields as needed.
-1. Click <label>Save</label> to apply the changes.
+1. Click <label>Update forward</label> to apply the changes.
 </div>
 
 ## Deleting an email forward {#deleting}
@@ -98,7 +102,7 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 ##### Delete an email forward
 
 1. Navigate to the domain's <label>Email Forwarding</label> tab.
-1. Locate the email forwarding configuration that you want to delete under the Current Email Forwards section.
+1. Locate the email forwarding configuration that you want to delete.
 1. Click <label>Delete</label> (the trash can icon).
 1. Confirm the deletion when prompted.
 </div>
