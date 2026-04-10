@@ -9,7 +9,7 @@ categories:
 # Discontinuation of Legacy NS1 and NS3 IP Addresses
 
 > [!NOTE]
-> Most DNSimple customers do not need to take any action. This change primarily affects customers using [vanity name servers](/articles/vanity-nameservers/) whose glue records still point at the legacy IPs. If you are impacted, you will receive an email from us asking you to take action.
+> Most DNSimple customers do not need to take any action — we will handle the migration automatically. The only customers who must act are those using [vanity name servers](/articles/vanity-nameservers/) whose [glue records](/articles/what-are-glue-records/) still point at the legacy IPs. If you are impacted, you will receive an email from us with specific details for your account.
 
 ### Table of Contents {#toc}
 
@@ -61,14 +61,16 @@ There are three groups of customers affected by this migration, each with a diff
 
 ### Group 1 — Domains registered with DNSimple
 
-**You do not need to do anything.** If your domain is registered with DNSimple and delegated to our name servers, we will handle the migration for you automatically between May 1 and June 1, 2026. All registered domains will be fully migrated by June 26, 2026.
+**You do not need to do anything.** If your domain is registered with DNSimple and delegated to our name servers, we will handle the migration for you automatically between May 1 and June 1, 2026. All registered domains will be fully migrated by June 26, 2026. For domains using [vanity name servers](/articles/vanity-nameservers/), we will also update the glue records at the registry and the corresponding A/AAAA records in your zone.
+
+If you independently maintain a copy of your zone at another DNS provider (not through DNSimple's secondary DNS), you should update the NS records at that provider to reference `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io`. The old `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to work, but updating ensures your configuration stays current.
 
 ### Group 2 — Domains registered elsewhere with DNS hosted at DNSimple
 
 **We recommend self-migrating, but we will force-migrate you on July 15, 2026.** If your domain is registered at another registrar but uses DNSimple for DNS, your delegation at that registrar currently points at `ns1.dnsimple.com` and/or `ns3.dnsimple.com`. You have two options:
 
 - **Self-migrate** (recommended): at your registrar, update the delegation to use `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io` instead. You can do this any time after May 1, 2026.
-- **Do nothing**: on July 15, 2026, we will transparently update the A and AAAA records for `ns1.dnsimple.com` and `ns3.dnsimple.com` to point at the new edge infrastructure. Your delegation will continue to work without changes on your side.
+- **Do nothing**: on July 15, 2026, we will transparently update the A and AAAA records for `ns1.dnsimple.com` and `ns3.dnsimple.com` to point at the new edge infrastructure. Your delegation will continue to work without changes on your side. Note that during the [brownouts](#what-about-the-brownouts) on June 29 and July 6, you may experience brief resolution interruptions if you have not yet self-migrated.
 
 ### Group 3 — Vanity name servers with glue records on the legacy IPs
 
