@@ -15,6 +15,6 @@ For your domain to be resolved over IPv6, you will need to add an [AAAA record](
 
 DNSimple fully supports AAAA records. You can add them to your domain's zone using the [Record Editor](/articles/record-editor/). For step-by-step instructions, see [Managing AAAA Records](/articles/manage-aaaa-record/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

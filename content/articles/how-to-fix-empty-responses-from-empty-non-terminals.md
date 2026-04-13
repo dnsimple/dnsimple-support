@@ -131,6 +131,6 @@ If the record creating the ENT is no longer needed (such as an old ACME challeng
 
 - [How to Use dig](/articles/how-dig/) — Learn how to use the dig command-line tool for DNS queries
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with fixing Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

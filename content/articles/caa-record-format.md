@@ -91,5 +91,5 @@ Common CAA record configurations
 [RFC 8659](https://datatracker.ietf.org/doc/html/rfc8659): CAA Resource Record for DNS (primary specification for CAA records).
 [RFC 9495](https://datatracker.ietf.org/doc/html/rfc9495): Mail Certification Authority Authorization (Mail CAA) (specifics for `issuemail` tag).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

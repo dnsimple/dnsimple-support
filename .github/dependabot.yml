@@ -17,11 +17,13 @@ updates:
     labels:
       - task
       - dependencies
+    cooldown:
+      default-days: 3
     groups:
-      actions-minor-patch:
+      actions-patch-minor:
         update-types:
-          - minor
           - patch
+          - minor
 
   - package-ecosystem: npm
     directory: /
@@ -31,8 +33,9 @@ updates:
     labels:
       - task
       - dependencies
+    cooldown:
+      default-days: 3
     groups:
       javascript-dependencies:
         update-types:
           - patch
-          - minor

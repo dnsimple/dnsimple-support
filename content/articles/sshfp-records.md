@@ -69,5 +69,5 @@ This means:
 
 SSHFP (Type 44) records offer a robust mechanism to enhance the security and usability of SSH connections by enabling cryptographic verification of host keys via the DNS. When deployed correctly with DNSSEC, they provide a powerful defense against MITM attacks, allowing SSH clients to automatically and securely establish trust with remote servers. For anyone managing SSH access, especially in environments where security is paramount, implementing SSHFP records is a highly recommended best practice.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

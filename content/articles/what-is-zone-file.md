@@ -39,5 +39,5 @@ Zone files, due to their comprehensive and standardized nature, are incredibly u
 ## DNSimple and zone files {#dnsimple-and-zone-files}
 DNSimple supports importing and exporting zone files, making it straightforward to migrate your existing domains to our platform or to create comprehensive backups of your DNS records. While you interact with your records through our [record editor](/articles/record-editor/), our system manages the underlying zone file that defines your domain's authoritative DNS.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

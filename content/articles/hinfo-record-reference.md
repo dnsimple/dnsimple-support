@@ -38,5 +38,5 @@ In this example, the record for `server.example.com` specifies the hardware as a
 ## Security considerations {#security-considerations}
 Due to the sensitive information they can reveal, HINFO records are considered a security risk when used on publicly accessible servers. The information about a host's hardware and OS can be used by malicious actors to identify potential vulnerabilities and exploit them.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

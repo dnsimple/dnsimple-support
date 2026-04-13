@@ -20,7 +20,7 @@ DNSimple provides an SSL certificate interface you can use to order a new SSL ce
 Starting March 15, 2026, Sectigo SSL certificates sold by DNSimple are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Sixty days before the certificate expires, you will begin receiving renewal notices.
 
 
-## Before You Start
+## Before You Start {#before-you-start}
 
 To order an SSL certificate you need a DNSimple account.
 
@@ -78,12 +78,12 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 > [!NOTE]
 > The certificate price will be held on your card immediately. Your card will be charged once the certificate is issued. If the issuance fails, funds will be released.
 
-## Next Steps
+## Next Steps {#next-steps}
 
 Once you order the certificate, **you will have to install and configure the certificate**.
 
 See [how to install a certificate](/articles/installing-ssl-certificate/).
 
-## Have More Questions?
+## Have more questions?
 
 If you have any questions about purchasing Sectigo certificates with DNSimple, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

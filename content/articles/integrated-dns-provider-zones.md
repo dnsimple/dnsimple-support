@@ -124,6 +124,6 @@ If you imported a zone into DNSimple from an Integrated Provider, you can use th
 
     ![Deleting a Zone from a DNS provider](/files/dns-zone-providers-delete-zone.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about Integrated DNS Providers or managing your integrated zones, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

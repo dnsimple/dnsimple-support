@@ -112,6 +112,6 @@ The TLSA record format and usage are further detailed in [RFC 7671](https://data
 - [SSL/TLS Certificates](/categories/ssl-certificates/) - Learn about TLS certificates and how they work
 - [DNS Glossary](/articles/dns-glossary/) - Definitions of DNS-related terms
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions about DANE, DNSSEC, or how to secure your domain's TLS connections, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

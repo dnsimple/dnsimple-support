@@ -32,7 +32,7 @@ When you transfer a domain name it is extended from the current expiration date 
 
 The one exception to this rule is when a domain reaches an expiration date that is 10 years away. In this case the domain will not be extended.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about domain transfer pricing, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

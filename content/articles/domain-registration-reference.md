@@ -118,6 +118,6 @@ For more information, see [ICANN Domain Validation](/articles/icann-domain-valid
 
 For more information, see [Premium Domains](/articles/premium-domains/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with domain registration, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

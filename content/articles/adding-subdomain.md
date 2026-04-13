@@ -30,6 +30,6 @@ A subdomain is a DNS record for a hostname that belongs to your domain. To add a
 
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions or need assistance adding subdomains, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
