@@ -35,23 +35,28 @@ The timing of auto-renewal varies because different registries have different re
 
 Depending on the particular rules set by registries, your domains may fall into one of two scenarios:
 
-### The registry handles the auto-renewal
-Certain domain names require auto-renewal and cannot be renewed manually. For these domains, it is important to have the auto-renewal feature turned on.
+### The registry handles the auto-renewal {#registry-handled-auto-renewal}
+
+Certain domain names require auto-renewal and cannot be renewed manually. These are referred to as "auto-renew only" domains. Which TLDs fall into this category is determined by the registry -- common examples include `.ES`, `.COM.AU`, and `.NET.AU`, though the list may change as registries update their policies. You can check whether your domain supports manual renewal on its registration page in your DNSimple account. If the manual renewal option is not available, the domain is auto-renew only.
+
+For these domains, it is important to have auto-renewal enabled and a valid payment method on file.
 
 **The domain auto-renewal process when registries require domains to be auto-renewed:**
+
 - Our system charges the domain's renewal fees days before the domain expires.
 - The registry will renew the domain. This could happen before or after the expiration date. Our system will monitor and notify you upon successful renewal.
 - Your domain resolution services will not be interrupted during this period.
 
 Auto-renewal cannot be turned off once the auto-renew process has started, up until the registry has finished renewing the domain. This may take several days to complete.
 
-Our system displays all critical deadlines clearly and provides actionable information through the domain's lifecycle.
-
 Once the auto-renewal process begins, it cannot be stopped because the renewal transaction has been initiated with the registry. This prevents situations where a renewal is partially processed, which could leave the domain in an uncertain state. The process must complete fully before any changes can be made to the auto-renewal setting.
 
 ## What happens if payment fails {#what-happens-if-payment-fails}
 
 If the payment method on file cannot be charged when auto-renewal is attempted, the renewal will fail and the domain will not be renewed. You will receive notifications about the payment failure, but the domain will proceed toward expiration if payment is not updated and the renewal is not completed manually. This is why it is important to keep payment methods current and monitor expiration notifications even when auto-renewal is enabled.
+
+> [!WARNING]
+> For [auto-renew only domains](#registry-handled-auto-renewal), a payment failure is especially critical. These domains have no grace period and cannot be renewed manually. If auto-renewal fails due to a payment issue, the domain may expire and become unrecoverable. Keep your payment method up to date and monitor payment failure notifications closely.
 
 ### DNSimple handles the auto-renewal
 
