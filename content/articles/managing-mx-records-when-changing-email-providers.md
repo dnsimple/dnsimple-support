@@ -108,85 +108,29 @@ Before changing email providers:
    - Once you have verified no important emails are stuck at the old provider
    - Cancel your subscription with the old email provider
 
-## Migration strategies {#strategies}
+## Migrating between email forwarding and email hosting {#scenarios}
 
-### Strategy 1: Direct cutover (recommended for most cases)
+### From email forwarding to email hosting
 
-This is the simplest approach: remove old MX records and add new ones immediately.
+If you are migrating from DNSimple's [email forwarding](/articles/email-forwarding/) to a full email hosting service:
 
-**Pros:**
-- Simple and straightforward
-- Fast transition
-- No duplicate record management
+<div class="section-steps" markdown="1">
+##### Switch from email forwarding to email hosting
 
-**Cons:**
-- Brief period where emails might be delivered to either provider
-- Requires quick DNS propagation
+1. Go to your domain's <label>Email Forwarding</label> tab.
+1. Delete all email forwards. This automatically removes the email forwarding MX records.
+1. Follow your new email provider's setup instructions and add the new MX records as described above.
+</div>
 
-**Best for:** Most migrations, especially when both providers are reliable.
+### From email hosting to email forwarding
 
-### Strategy 2: Gradual transition (for critical email)
+<div class="section-steps" markdown="1">
+##### Switch from email hosting to email forwarding
 
-For critical business email, you might use a gradual approach with overlapping MX records.
-
-**Note:** This approach is complex and not typically recommended. Most email providers recommend a direct cutover.
-
-**Pros:**
-- Provides redundancy during transition
-- Allows testing before full cutover
-
-**Cons:**
-- Complex to manage
-- Risk of email delivery issues
-- Requires careful priority management
-
-**Best for:** Only when absolutely necessary and with careful planning.
-
-## Common migration scenarios {#scenarios}
-
-### Migrating from email forwarding to email hosting
-
-If you are migrating from DNSimple's email forwarding to a full email hosting service:
-
-1. **Disable email forwarding:**
-   - Go to your domain's <label>Email Forwarding</label> tab
-   - Delete all email forwards
-   - This will automatically remove the email forwarding MX records
-
-2. **Set up email hosting:**
-   - Follow your new email provider's setup instructions
-   - Add the new MX records as described above
-
-### Migrating between email hosting providers
-
-When moving from one email hosting provider to another:
-
-1. **Set up new provider first:**
-   - Complete setup with the new provider
-   - Get MX record information
-
-2. **Update MX records:**
-   - Remove old MX records
-   - Add new MX records
-   - Verify propagation
-
-3. **Migrate email data:**
-   - Export emails from old provider
-   - Import to new provider (if supported)
-   - Update email clients
-
-### Migrating from email hosting to email forwarding
-
-If you want to switch from email hosting to DNSimple's email forwarding:
-
-1. **Remove email hosting MX records:**
-   - Delete all MX records from your email hosting provider
-   - Remove the one-click service if you used it
-
-2. **Enable email forwarding:**
-   - Go to your domain's <label>Email Forwarding</label> tab
-   - Create your first email forward
-   - This will automatically add the email forwarding MX records
+1. Delete all MX records from your current email hosting provider, or remove the one-click service if you used one.
+1. Go to your domain's <label>Email Forwarding</label> tab.
+1. Create your first email forward. This automatically adds the email forwarding MX records.
+</div>
 
 > [!WARNING]
 > When switching from email hosting to email forwarding, you will lose access to emails stored on the hosting provider's servers. Back up important emails before making this change.
@@ -226,23 +170,9 @@ If you want to switch from email hosting to DNSimple's email forwarding:
 
 ## Best practices {#best-practices}
 
-**Plan ahead:** Schedule migrations during low-traffic periods when possible.
-
-**Test first:** Send test emails before and after migration to verify everything works.
-
-**Keep old account active:** Keep your old email account active for a few weeks after migration to catch any missed emails.
-
-**Update all devices:** Update email clients on all devices (computers, phones, tablets) with new settings.
-
-**Notify contacts:** Consider notifying important contacts about your email migration.
-
-**Back up data:** Always back up important emails before migration.
-
-## Related topics
-
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - MX record setup guide
-- [What Is an MX Record?](/articles/mx-record/) - General information about MX records
-- [Email Forwarding](/articles/email-forwarding/) - Information about DNSimple's email forwarding service
+- Schedule migrations during low-traffic periods when possible.
+- Back up important emails before migration.
+- Keep your old email account active for a few weeks after migration to catch any missed emails.
 
 ## Have more questions?
 

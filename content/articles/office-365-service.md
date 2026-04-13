@@ -88,7 +88,7 @@ Microsoft requires domain verification to activate Microsoft 365. After adding t
 
 For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), and [DMARC](/articles/dmarc-record/) for your domain.
 
-**SPF:** Your SPF record should include `include:spf.protection.outlook.com`. See [Setting Up SPF Records](/articles/setting-up-spf/) for instructions.
+**SPF:** Your SPF record should include `include:spf.protection.outlook.com`. See [What Is an SPF Record?](/articles/spf-record/) for details.
 
 **DKIM:** Enable DKIM in the Microsoft 365 admin center under <label>Settings</label> > <label>Domains</label> > your domain > <label>DKIM</label>. Microsoft provides two DKIM selectors (`selector1` and `selector2`) with corresponding CNAME or TXT records to add in DNSimple. See [Setting Up DKIM](/articles/set-up-dkim/) for instructions.
 
@@ -102,6 +102,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Autodiscover not working:** Verify the `autodiscover` CNAME record points to `autodiscover.outlook.com`. If automatic configuration fails, configure email clients manually using Microsoft's server settings.
 
+<!-- Link depends on PR #1704 (Email Troubleshooting - Authentication) -->
 **Email authentication failures:** Verify your SPF record includes `include:spf.protection.outlook.com`. Check DKIM records are at the correct subdomains. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for more help.
 
 ## Have more questions?

@@ -42,11 +42,15 @@ See the full list of [one-click services for email](/articles/services/#email).
 
 Integrating any email hosting provider with DNSimple follows the same general process:
 
-1. **Sign up** with your chosen email hosting provider and add your domain.
-2. **Get DNS records** from the provider. They will typically provide [MX records](/articles/mx-record/) for email delivery, TXT records for domain verification, and possibly CNAME records for services like Autodiscover.
-3. **Configure DNS in DNSimple.** Use a [one-click service](/categories/services/) if available for your provider, or add records manually in the [Record Editor](/articles/record-editor/).
-4. **Verify your domain** with the email provider if required.
-5. **Test email delivery** by sending a test message to an address at your domain.
+<div class="section-steps" markdown="1">
+##### Set up a third-party email provider
+
+1. Sign up with your chosen email hosting provider and add your domain.
+1. Get DNS records from the provider. They will typically provide [MX records](/articles/mx-record/) for email delivery, TXT records for domain verification, and possibly CNAME records for services like Autodiscover.
+1. Configure DNS in DNSimple. Use a [one-click service](/categories/services/) if available for your provider, or add records manually in the [Record Editor](/articles/record-editor/).
+1. Verify your domain with the email provider if required.
+1. Test email delivery by sending a test message to an address at your domain.
+</div>
 
 > [!WARNING]
 > If you are currently using DNSimple [email forwarding](/articles/email-forwarding/), you must disable it before setting up email hosting. Email forwarding and email hosting use different MX records and cannot run simultaneously on the same domain.
@@ -55,9 +59,9 @@ Integrating any email hosting provider with DNSimple follows the same general pr
 
 Regardless of which email provider you choose, set up email authentication to improve deliverability and protect against spoofing:
 
-- **[SPF](/articles/setting-up-spf/):** Specifies which mail servers are authorized to send email from your domain.
-- **[DKIM](/articles/set-up-dkim/):** Adds a cryptographic signature to outgoing email. Your email provider will supply the DKIM key.
-- **[DMARC](/articles/set-up-dmarc/):** Tells receiving servers what to do with messages that fail SPF or DKIM checks.
+- **[SPF](/articles/spf-record/):** Specifies which mail servers are authorized to send email from your domain.
+- **[DKIM](/articles/dkim-record/):** Adds a cryptographic signature to outgoing email. Your email provider will supply the DKIM key.
+- **[DMARC](/articles/dmarc-record/):** Tells receiving servers what to do with messages that fail SPF or DKIM checks.
 
 Your email provider's documentation will include the specific values for each of these records.
 

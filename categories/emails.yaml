@@ -12,5 +12,8 @@ Email DNS records:
 - "Verifying DKIM with dig and Online Tools"
 - "Verifying DMARC with dig and Online Tools"
 
+How-to:
+- "Managing MX Records When Changing Email Providers"
+
 Troubleshooting:
 - "Troubleshooting Email Forwarding with Gmail"

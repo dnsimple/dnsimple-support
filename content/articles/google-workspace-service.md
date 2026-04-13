@@ -96,7 +96,7 @@ dig +short yourdomain.com MX
 
 For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), and [DMARC](/articles/dmarc-record/) for your domain.
 
-**SPF:** The one-click service configures an SPF record automatically. If you set up manually, your SPF record should include `include:_spf.google.com`. See [Setting Up SPF Records](/articles/setting-up-spf/) for instructions.
+**SPF:** The one-click service configures an SPF record automatically. If you set up manually, your SPF record should include `include:_spf.google.com`. See [What Is an SPF Record?](/articles/spf-record/) for details.
 
 **DKIM:** Generate a DKIM key in the Google Workspace admin console under <label>Apps</label> > <label>Google Workspace</label> > <label>Gmail</label> > <label>Authenticate email</label>, then add the DKIM TXT record in DNSimple. See [Setting Up DKIM](/articles/set-up-dkim/) for instructions.
 
@@ -108,6 +108,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Domain verification failing:** Confirm the TXT verification record matches exactly what Google provided. DNS changes can take up to a few hours to propagate.
 
+<!-- Link depends on PR #1704 (Email Troubleshooting - Authentication) -->
 **Email authentication failures:** Verify your SPF record includes `include:_spf.google.com`. Check DKIM records are at the correct subdomain. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for more help.
 
 ## Have more questions?
