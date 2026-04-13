@@ -105,7 +105,7 @@ A PR should contain **only** the changes described by its purpose:
 
 ## Characters in content
 
-macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Em dashes (`—`) and en dashes (`–`) are fine in body text, but use hyphens (`-`) in filenames, frontmatter values, and anchor names.
+macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Do not use em dashes (`—`) or en dashes (`–`) anywhere. Use hyphens (`-`) instead.
 
 ## Branch naming
 
