@@ -45,12 +45,12 @@ SPF alignment checks whether the domain used in the SPF check matches the "From"
 
 ### SPF alignment modes
 
-**Strict alignment (SPF-A):**
+**Strict alignment (`aspf=s`):**
 - The "Return-Path" domain must exactly match the "From" domain
 - Example: `From: user@example.com` and `Return-Path: user@example.com` = aligned
 - Example: `From: user@example.com` and `Return-Path: user@mail.example.com` = not aligned
 
-**Relaxed alignment (SPF-A):**
+**Relaxed alignment (`aspf=r`):**
 - The "Return-Path" domain must be in the same organizational domain as the "From" domain
 - Example: `From: user@example.com` and `Return-Path: user@mail.example.com` = aligned (both are example.com)
 - Example: `From: user@example.com` and `Return-Path: user@otherdomain.com` = not aligned
@@ -81,12 +81,12 @@ DKIM alignment checks whether the domain in the DKIM signature matches the "From
 
 ### DKIM alignment modes
 
-**Strict alignment (DKIM-A):**
+**Strict alignment (`adkim=s`):**
 - The domain in the DKIM signature must exactly match the "From" domain
 - Example: `From: user@example.com` and DKIM `d=example.com` = aligned
 - Example: `From: user@example.com` and DKIM `d=mail.example.com` = not aligned
 
-**Relaxed alignment (DKIM-A):**
+**Relaxed alignment (`adkim=r`):**
 - The domain in the DKIM signature must be in the same organizational domain as the "From" domain
 - Example: `From: user@example.com` and DKIM `d=mail.example.com` = aligned (both are example.com)
 - Example: `From: user@example.com` and DKIM `d=otherdomain.com` = not aligned
@@ -252,13 +252,11 @@ These tools can help verify alignment.
 - Use subdomains strategically for email services
 - Document your alignment configuration
 
-## Related topics
+## Related articles {#related}
 
-- [Setting Up SPF Records](/articles/setting-up-spf/) - SPF configuration
+- [SPF Records](/articles/spf-record/) - SPF configuration
 - [Setting Up DKIM](/articles/set-up-dkim/) - DKIM configuration
 - [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Authentication troubleshooting
-- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Deliverability improvement
 
 ## Have more questions?
 

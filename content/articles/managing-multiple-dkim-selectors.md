@@ -244,11 +244,10 @@ If an email service changes their DKIM selector:
 - Update selectors when services change requirements
 - Use consistent naming when possible
 
-## Related topics
+## Related articles {#related}
 
 - [Setting Up DKIM](/articles/set-up-dkim/) - Initial DKIM setup
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Authentication troubleshooting
 - [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
 
 ## Have more questions?

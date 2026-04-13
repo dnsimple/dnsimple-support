@@ -327,42 +327,11 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 
 **Solution:** Always test changes before full implementation.
 
-## Best practices summary {#summary}
+## Related articles {#related}
 
-**SPF:**
-- Include all authorized senders
-- Use `~all` initially, then `-all`
-- Keep under 10 lookups
-- One SPF record per domain
-- Test regularly
-
-**DKIM:**
-- Configure for all services
-- Use appropriate key length
-- Manage multiple selectors
-- Verify signatures
-- Rotate keys periodically
-
-**DMARC:**
-- Implement gradually
-- Set up reporting
-- Use relaxed alignment initially
-- Monitor reports regularly
-- Document email ecosystem
-
-**General:**
-- Test before changes
-- Monitor continuously
-- Keep records updated
-- Use subdomains strategically
-- Document configuration
-
-## Related topics
-
-- [Setting Up SPF Records](/articles/setting-up-spf/) - SPF setup
+- [SPF Records](/articles/spf-record/) - SPF setup
 - [Setting Up DKIM](/articles/set-up-dkim/) - DKIM setup
 - [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Troubleshooting
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment
 - [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual implementation
 

@@ -271,16 +271,14 @@ Here is a typical timeline for gradual DMARC implementation:
 - Monitor reports regularly throughout the process
 - Fix all authentication issues before moving forward
 - Test thoroughly at each stage
-- Be patient -- gradual implementation takes time
+- Be patient - gradual implementation takes time
 - Document your email ecosystem
 - Keep monitoring even after full enforcement
 
-## Related topics
+## Related articles {#related}
 
 - [Setting Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Authentication troubleshooting
-- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Deliverability improvement
 
 ## Have more questions?
 
