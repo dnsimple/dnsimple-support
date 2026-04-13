@@ -106,7 +106,7 @@ If a team member accesses a domain in an account via their user token, they will
 API access respects the same access control rules as the web interface. This means that programmatic access through the API is subject to the same restrictions as manual operations through the dashboard. User tokens are tied to individual user accounts and inherit that user's access permissions, while account tokens are designed for system-level operations and bypass user-level restrictions. This distinction is important when designing automated systems or integrations that need to access domains with limited permissions.
 
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about Domain Access Control or how to implement it for your organization, [contact support](https://dnsimple.com/feedback), and we will help you get sorted.
 

@@ -96,6 +96,6 @@ Name servers that are currently caching your domain's DNS records need time for 
 
 Once the DNS setup is complete and DNSimple is providing DNS service for your domain, you can [begin the transfer process](/articles/domain-transfer/) without worrying about downtime.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about preparing a domain transfer to avoid downtime, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

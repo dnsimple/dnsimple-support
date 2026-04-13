@@ -71,6 +71,13 @@ Add `{#anchor-name}` to every H2: `## Adding CAA records {#add}`
 
 Use lowercase, hyphenated, short names. These are used in cross-links from other articles.
 
+**Exceptions — do not add anchors to these boilerplate H2s:**
+
+- `## Have more questions?` — closing CTA section; never deep-linked.
+- `## Before starting` — introductory prerequisites section; never deep-linked.
+
+These headings have auto-generated slugs that are sufficient. Adding an explicit anchor that matches the auto-slug (e.g. `{#have-more-questions}`) causes kramdown to produce doubled fragment IDs like `#have-more-questions-have-more-questions`.
+
 ### Table of contents
 
 Include after the H1 title in articles with 3+ sections:

@@ -167,6 +167,6 @@ Learn more:
 
 - [Domain Validation Requirements](/articles/icann-domain-validation/)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with domain contact types, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

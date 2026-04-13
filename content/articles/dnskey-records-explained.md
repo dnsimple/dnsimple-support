@@ -50,5 +50,5 @@ If a private key is compromised, an attacker could forge signatures and potentia
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect DNSKEY records to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

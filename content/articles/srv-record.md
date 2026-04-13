@@ -60,6 +60,6 @@ For step-by-step instructions on how to add an SRV record to your DNSimple zone 
 ## SRV record format reference {#srv-record-format-reference}
 For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: [SRV Record Format and Components Reference](/articles/srv-record-format/). This guide includes additional examples.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with your SRV records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

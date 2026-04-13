@@ -105,5 +105,5 @@ We do not support the ability to specify via interface the destructured CAA reco
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

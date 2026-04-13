@@ -27,5 +27,5 @@ For example, a request originating from a location close to one PoP might still 
 
 This feature is available on the [Teams plan and higher](https://dnsimple.com/pricing) and is enabled by default for those plans.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with regional records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -56,7 +56,7 @@ The **Events** filter displays custom event types within a chosen time frame, de
 ![Screenshot of link to view activity log](/files/view-activity-log.png)
 ![Overview of users activity](/files/user-activity-log.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about your activity tracking, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.
 

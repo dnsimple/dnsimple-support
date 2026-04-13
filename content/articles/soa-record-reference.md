@@ -47,5 +47,5 @@ The record's data section (RDATA) is composed of several fields that provide vit
 
 - `minimum-ttl`: This specifies how long (in seconds) a DNS resolver should cache a negative response (e.g., for a non-existent record) before retrying the query.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

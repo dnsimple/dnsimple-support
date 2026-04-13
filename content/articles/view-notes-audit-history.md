@@ -20,5 +20,5 @@ When you create, update, or delete a record, and add a record note, the note wil
 
 ![Record note in audit history](/files/record-notes-activities.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with record notes, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

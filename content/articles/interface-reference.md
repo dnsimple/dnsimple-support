@@ -59,5 +59,5 @@ The Domain Names page provides an overview of all your domains and their DNS zon
 
 1. **DNS Zones**: This column shows the status of your DNS zone and the provider it is integrated with, if it has one.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

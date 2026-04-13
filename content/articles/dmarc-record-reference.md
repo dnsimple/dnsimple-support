@@ -47,5 +47,5 @@ In the DNSimple [record editor](/articles/record-editor/), a DMARC record is rep
 | `rfmt` | **Reporting format**| `afrf` (Authentication Failure Reporting Format) |
 | `fo` | **Forensic reporting mode**| `b0`, `1`, `d`, `s` |
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DMARC records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -27,5 +27,5 @@ DNSimple reserves the right to review traffic patterns for performance and stabi
 
 To change a record's TTL, see [How to Change TTL in DNSimple](/articles/change-ttl/). For more information about DNS caching and how TTL affects record visibility, see [Check DNS Cache](/articles/check-dns-cache/) and [How Long Does a New DNS Record Take to Resolve?](/articles/how-long-does-it-take-for-a-new-record-to-resolve-for-my-domain/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your TTL settings, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

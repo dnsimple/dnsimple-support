@@ -88,7 +88,7 @@ The instructions in this article assume you are familiar with the [TLSA record f
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 
