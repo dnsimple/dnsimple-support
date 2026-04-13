@@ -1,7 +1,7 @@
 ---
 title: Email DNS Records Quick Reference
-excerpt: Quick reference guide for all email-related DNS records.
-meta: Quick reference for email DNS records including MX, SPF, DKIM, DMARC, and other email records.
+excerpt: Record types, name formats, content formats, and verification commands for every email DNS record.
+meta: Quick reference for email DNS records including MX, SPF, DKIM, DMARC, CNAME, and TXT record formats, examples, and verification commands.
 categories:
 - Emails
 - DNS
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-Quick reference guide for email-related DNS records, including record types, formats, and common configurations.
+Look up the record type, name format, and content format for each email-related DNS record. For a step-by-step walkthrough, see [Managing Email DNS Records](/articles/managing-email-dns-records/).
 
 ## MX records {#mx}
 
@@ -232,14 +232,6 @@ v=spf1 include:spf.protection.outlook.com ~all
 - **Gradual DMARC:** Start with monitoring, gradually increase
 - **Verify records:** Use `dig` to verify after changes
 - **Document configuration:** Keep track of all email records
-
-## Related topics
-
-- [Managing Email DNS Records](/articles/managing-email-dns-records/) - Comprehensive guide
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - MX setup
-- [Setting Up SPF Records](/articles/setting-up-spf/) - SPF setup
-- [Setting Up DKIM](/articles/set-up-dkim/) - DKIM setup
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup
 
 ## Have more questions?
 

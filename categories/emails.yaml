@@ -12,5 +12,11 @@ Email DNS records:
 - "Verifying DKIM with dig and Online Tools"
 - "Verifying DMARC with dig and Online Tools"
 
+How-to:
+- "Managing Email DNS Records"
+
+Reference:
+- "Email DNS Records Quick Reference"
+
 Troubleshooting:
 - "Troubleshooting Email Forwarding with Gmail"

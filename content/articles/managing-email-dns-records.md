@@ -1,7 +1,7 @@
 ---
 title: Managing Email DNS Records
-excerpt: Comprehensive guide to managing all email-related DNS records in DNSimple.
-meta: Complete guide to managing email DNS records including MX, SPF, DKIM, DMARC, and other email-related records.
+excerpt: How to add and manage MX, SPF, DKIM, DMARC, and other email-related DNS records in DNSimple.
+meta: How to manage email DNS records in DNSimple, including MX, SPF, DKIM, DMARC, CNAME, and TXT records for email delivery and authentication.
 categories:
 - Emails
 - DNS
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-Managing email DNS records is essential for email delivery and authentication. This guide covers all email-related DNS records and how to manage them in DNSimple.
+Email delivery and authentication rely on several DNS record types: [MX](/articles/mx-record/) for routing, [SPF](/articles/spf-record/) for sender authorization, [DKIM](/articles/dkim-record/) for message signing, and [DMARC](/articles/dmarc-record/) for policy enforcement. DNSimple lets you manage all of these in the [Record Editor](/articles/record-editor/).
 
 ## Email DNS records overview {#overview}
 
@@ -31,120 +31,74 @@ Email functionality requires several types of DNS records:
 
 ## MX records {#mx}
 
-### Purpose
+[MX (Mail Exchange) records](/articles/mx-record/) specify which mail servers receive email for your domain. You need MX records when using an email hosting service (Google Workspace, Microsoft 365, etc.) or DNSimple's email forwarding.
 
-MX (Mail Exchange) records specify which mail servers receive email for your domain.
+### How to configure MX records
 
-### When to use
+**For email hosting:** Add the MX records provided by your email hosting provider. Most providers require multiple MX records with different priorities.
 
-- **Email hosting:** Using email hosting services (Google Workspace, Microsoft 365, etc.)
-- **Email forwarding:** Using DNSimple's email forwarding service
-
-### Configuration
-
-**For email hosting:**
-- Add MX records provided by your email hosting provider
-- Typically multiple MX records with different priorities
-
-**For email forwarding:**
-- MX records are automatically added when you enable email forwarding
-- Do not manually add MX records for email forwarding
+**For email forwarding:** MX records are automatically added when you enable email forwarding. Do not manually add MX records for email forwarding.
 
 > [!NOTE]
 > For detailed MX record setup, see [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/).
 
 ## SPF records {#spf}
 
-### Purpose
+[SPF (Sender Policy Framework) records](/articles/spf-record/) authorize which servers can send email from your domain. SPF is stored as a TXT record at the root domain.
 
-SPF (Sender Policy Framework) records authorize which servers can send email from your domain.
+### How to configure SPF
 
-### Configuration
+Add a TXT record at the root domain that includes all authorized email senders and ends with `~all` or `-all`:
 
-1. **Create SPF record:**
-   - Add a TXT record at the root domain
-   - Include all authorized email senders
-   - Use `~all` or `-all` at the end
+```
+v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
+```
 
-2. **Example:**
-   ```
-   v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
-   ```
+> [!WARNING]
+> Your domain must have only one SPF record. If you use multiple email services, combine all `include:` statements into a single record.
 
 > [!NOTE]
 > For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
 
 ## DKIM records {#dkim}
 
-### Purpose
+[DKIM (DomainKeys Identified Mail)](/articles/dkim-record/) records publish the public keys that receiving mail servers use to verify your emails were not tampered with in transit.
 
-DKIM (DomainKeys Identified Mail) records provide public keys for cryptographically signing emails.
+### How to configure DKIM
 
-### Configuration
-
-1. **Get DKIM information:**
-   - Contact each email service provider
-   - Obtain DKIM selector and public key
-
-2. **Add DKIM records:**
-   - Add TXT records at `selector._domainkey.yourdomain.com`
-   - Enter the DKIM public key
-
-3. **Multiple selectors:**
-   - Different services may use different selectors
-   - Add separate records for each selector
+1. Get the DKIM selector and public key from each email service provider.
+1. Add a TXT record at `selector._domainkey.yourdomain.com` with the public key as the value.
+1. If you use multiple email services, each one may require its own selector. Add a separate record for each.
 
 > [!NOTE]
 > For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ## DMARC records {#dmarc}
 
-### Purpose
+[DMARC (Domain-based Message Authentication, Reporting & Conformance)](/articles/dmarc-record/) tells receiving servers what to do when SPF or DKIM checks fail, and where to send reports.
 
-DMARC (Domain-based Message Authentication, Reporting & Conformance) enforces email policies and provides reporting.
+### How to configure DMARC
 
-### Configuration
+Add a TXT record at `_dmarc.yourdomain.com`. Start with `p=none` to monitor without affecting delivery, then gradually move to `p=quarantine` or `p=reject` once you have confirmed all legitimate senders pass authentication:
 
-1. **Create DMARC record:**
-   - Add a TXT record at `_dmarc.yourdomain.com`
-   - Start with `p=none` for monitoring
-   - Gradually increase to `p=quarantine` or `p=reject`
-
-2. **Example:**
-   ```
-   v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
-   ```
+```
+v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
+```
 
 > [!NOTE]
 > For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
-## CNAME records {#cname}
+## CNAME records for email services {#cname}
 
-### Purpose
+Some email providers require [CNAME records](/articles/cname-record/) for features like Autodiscover (automatic client configuration) and webmail access.
 
-CNAME records are used for email-related services like Autodiscover.
+**Autodiscover (Microsoft 365):** `autodiscover` pointing to `autodiscover.outlook.com`. This lets email clients like Outlook configure themselves automatically.
 
-### Common CNAME records
+**Webmail:** Some providers use a `webmail` CNAME pointing to their webmail server.
 
-**Autodiscover:**
-- `autodiscover` -> `autodiscover.outlook.com` (Microsoft 365)
-- Helps email clients automatically configure
+## TXT records for email {#txt}
 
-**Webmail:**
-- `webmail` -> Provider's webmail server
-- Used by some email providers
-
-## TXT records {#txt}
-
-### Purpose
-
-TXT records are used for various email-related configurations beyond SPF, DKIM, and DMARC.
-
-### Common uses
-
-- **Domain verification:** Verifying domain ownership with email providers
-- **Email authentication:** SPF, DKIM, DMARC
-- **Other configurations:** Provider-specific settings
+Beyond SPF, DKIM, and DMARC (which are all stored as [TXT records](/articles/txt-record/)), email providers may require additional TXT records for domain verification or provider-specific settings. Check your provider's documentation for any extra records they require.
 
 ## Managing records in DNSimple {#managing}
 
@@ -153,12 +107,14 @@ TXT records are used for various email-related configurations beyond SPF, DKIM, 
 <div class="section-steps" markdown="1">
 ##### Add an email DNS record
 
-1. Click on your domain name.
+1. Log into DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domains</label> tab, locate the relevant domain, and click on the name.
 1. Click the <label>DNS</label> tab.
 1. Open the <label>Record Editor</label>.
 1. Click <label>Add record</label>.
 1. Select the record type.
-1. Enter record details.
+1. Enter the record details.
 1. Click <label>Add record</label>.
 </div>
 
@@ -198,9 +154,9 @@ dig +short _dmarc.yourdomain.com TXT
 
 ### Using online tools
 
-- [whatsmydns.net](https://www.whatsmydns.net/) - Check DNS propagation
-- [MXToolbox](https://mxtoolbox.com/) - Check various DNS records
-- Mail-Tester - Test email authentication
+- [whatsmydns.net](https://www.whatsmydns.net/) — Check DNS propagation
+- [MXToolbox](https://mxtoolbox.com/) — Check MX, SPF, DKIM, and DMARC records
+- [Mail-Tester](https://www.mail-tester.com/) — Test email authentication
 
 ## Common issues {#issues}
 
@@ -221,14 +177,6 @@ dig +short _dmarc.yourdomain.com TXT
 **Problem:** Legitimate emails being rejected by DMARC.
 
 **Solution:** Start with monitoring, gradually increase policy after fixing issues.
-
-## Related topics
-
-- [Email DNS Records Quick Reference](/articles/email-dns-records-quick-reference/) - Quick reference
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - MX setup
-- [Setting Up SPF Records](/articles/setting-up-spf/) - SPF setup
-- [Setting Up DKIM](/articles/set-up-dkim/) - DKIM setup
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup
 
 ## Have more questions?
 
