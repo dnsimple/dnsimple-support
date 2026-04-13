@@ -16,6 +16,12 @@ categories:
 
 ---
 
+## Video Walkthrough
+
+<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/MArqtP1AvL8" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 This tutorial walks you through setting up the DNSimple Sandbox and making your first API calls to that environment. By the end, you will have hands-on experience with common API operations using `curl`. The same endpoints and request formats work with any HTTP client or [DNSimple client library](https://developer.dnsimple.com/libraries/). The Sandbox also has a full [web interface](/articles/sandbox/) — this tutorial focuses on the API path.
 
 ## 1. Prerequisites {#prerequisites}
