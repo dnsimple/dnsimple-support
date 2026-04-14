@@ -49,7 +49,7 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 | **May 1 – June 1**  | Staged automatic migration of domains registered with DNSimple.                               |
 | **June 5, 2026**    | Brownout warnings begin.                                                                      |
 | **June 15, 2026**   | Final warning to customers who must self-migrate.                                             |
-| **June 26, 2026**   | All registered-with-DNSimple domains should be fully migrated. Forced migration of hosted zones still delegated to the legacy hostnames.                                |
+| **June 26, 2026**   | Forced migration of hosted zones still delegated to the legacy hostnames.                                |
 | **June 29, 2026**   | Cloudflare brownout #1 — legacy IPs temporarily stop answering to surface remaining traffic.  |
 | **July 6, 2026**    | Cloudflare brownout #2 — legacy IPs temporarily stop answering to surface remaining traffic.  |
 | **July 15, 2026**   | **Legacy Cloudflare IPs fully decommissioned.** Any configuration still pointing at the old IPs will stop resolving. |
