@@ -113,7 +113,7 @@ Bounce messages typically include:
 
 1. **Original message:** The original email that could not be delivered
 2. **Bounce reason:** Explanation of why delivery failed
-3. **DSN code:** Status code indicating the type of failure
+3. **DSN or SMTP status:** Status code indicating the type of failure
 4. **Diagnostic information:** Additional details about the failure
 
 ### Reading bounce messages
