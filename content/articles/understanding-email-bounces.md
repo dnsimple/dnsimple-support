@@ -29,7 +29,7 @@ Hard bounces are permanent delivery failures. These indicate that the email will
 
 **Common causes:**
 - **Invalid email address:** The email address does not exist
-- **Domain does not exist:** The recipient's domain does not exist
+- **Domain does not resolve or does not exist:** The recipient's domain is not registered or has no valid DNS records.
 - **Blocked domain:** The recipient's domain blocks all emails
 - **Recipient mailbox does not exist:** The mailbox was deleted or never existed
 
