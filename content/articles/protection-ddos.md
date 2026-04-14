@@ -31,5 +31,5 @@ DNSimple's name servers and DDoS protection infrastructure are distributed in mu
 
 If you are interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your domain security, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

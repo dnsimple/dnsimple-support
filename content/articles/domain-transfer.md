@@ -17,7 +17,7 @@ categories:
 
 Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
-## Before starting {#before-starting}
+## Before starting
 
 > [!WARNING]
 > To avoid the possibility of downtime, you should [point the name servers for the domain to DNSimple (or another provider) before you begin the transfer](/articles/before-transferring-domain/). This will prevent downtime and allow you to perform changes to the DNS records during the domain transfer. You should also [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain if you are changing DNS providers.
@@ -109,6 +109,6 @@ Most transferred domains will have the minimum required extension period. For ex
 
 The price of this extension is included in the transfer fee for most TLDs. You can check to see if this applies to a specific TLD by looking it up on our [TLD page](https://dnsimple.com/tlds).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about transferring domains with DNSimple, [contact us](https://dnsimple.com/feedback), and we will be happy to help.

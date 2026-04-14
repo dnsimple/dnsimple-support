@@ -28,5 +28,5 @@ The resulting zone file will allow you to copy over all the domain's records to 
     ![Export zone link](/files/export-zone.png)
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

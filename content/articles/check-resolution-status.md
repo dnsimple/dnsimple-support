@@ -35,6 +35,6 @@ If the domain is registered with another registrar and you are using DNSimple on
 
 If you are experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for help. For more information about DNSimple name servers, see [DNSimple Name Servers](/articles/dnsimple-nameservers/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

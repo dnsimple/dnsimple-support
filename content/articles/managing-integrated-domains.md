@@ -55,6 +55,6 @@ If DNSSEC is enabled for the domain, you can also view its DS records.
 
 ![Integrated domain DS records](/files/integrated-domain-ds-records.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about managing integrated domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

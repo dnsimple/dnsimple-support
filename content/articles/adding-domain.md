@@ -42,6 +42,6 @@ If you are using the DNS services available at DNSimple, but keeping the domain 
 
 ![Zone transfer tool](/files/zone-import-tool.png).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need assistance adding domains to your DNSimple account, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

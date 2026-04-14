@@ -42,7 +42,7 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.CO.NZ Domains](/articles/domains-co-nz/) - Requirements and procedures for .CO.NZ domain names.
 - [.CO.UK Domains](/articles/domains-co-uk/) - Open registration; transfer expiration extension when under 3 months remain; .UK transfer/ownership rules apply.
 - [.DAY Domains](/articles/domains-day/) - Requirements and procedures for .DAY domain names.
-- [.DE Domains](/articles/domains-de/) - Transfer rules: expiration extends one year from transfer date (not from previous expiry).
+- [.DE Domains](/articles/domains-de/) - DENIC contact accuracy and verification (NIS2); transfer expiration extends one year from transfer date (not from previous expiry).
 - [.ECO Domains](/articles/domains-eco/) - Requirements and procedures for .ECO domain names.
 - [.ES Domains](/articles/domains-es/) - Requirements and procedures for .ES domain names.
 - [.EU Domains](/articles/domains-eu/) - Registry Data Transfer Policy and additional terms; agreeing during registration.

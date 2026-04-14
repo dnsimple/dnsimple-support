@@ -214,6 +214,6 @@ New subdomains should match the wildcard.
 
 - [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) — General guide to troubleshooting DNS record resolution
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with troubleshooting Empty Non-Terminal issues, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

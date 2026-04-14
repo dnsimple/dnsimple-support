@@ -54,5 +54,5 @@ All DNSimple record types can be synced to CoreDNS:
 - [TXT](/articles/txt-record/)
 - [URL](/articles/url-record/)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

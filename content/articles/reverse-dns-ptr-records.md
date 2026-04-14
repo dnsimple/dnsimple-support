@@ -81,5 +81,5 @@ Reverse DNS lookups, powered by PTR records, are a fundamental and vital compone
 
 While DNSimple supports managing PTR records, doing so requires proper delegation from your IP address provider and may depend on your subscription plan. Ensuring correct PTR record configuration for your public-facing servers is a key best practice for reliable online operations.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

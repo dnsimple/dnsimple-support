@@ -16,16 +16,16 @@ categories:
 
 ---
 
-With DNSimple you can request an SSL certificate that you can install on [Heroku](https://heroku.com/) to enable HTTPS on your Heroku application. DNSimple also provides the [ALIAS feature](/articles/alias-record/) that is necessary if you want to [point your root domain to Heroku](https://support.dnsimple.com/articles/domain-apex-heroku/), as [explained](https://devcenter.heroku.com/articles/ssl-endpoint#root-domain) in the official Heroku documentation.
+With DNSimple you can request an SSL certificate that you can install on [Heroku](https://heroku.com/) to enable HTTPS on your Heroku application. DNSimple also provides the [ALIAS feature](/articles/alias-record/) that is necessary if you want to [point your root domain to Heroku](/articles/domain-apex-heroku/), as [explained](https://devcenter.heroku.com/articles/ssl-endpoint#root-domain) in the official Heroku documentation.
 
 > [!TIP]
 > Before you start, review [information and prices](/articles/ssl-certificates/) about our SSL certificates. Most common questions are answered in the [SSL certificates FAQ](/articles/faq-ssl-certificates/).
 
-## Obtain the SSL Certificate
+## Obtain the SSL Certificate {#obtain}
 
 If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/ordering-standard-certificate/). Once the certificate has been issued, return to this page for the installation steps.
 
-## Install the SSL Certificate on Heroku
+## Install the SSL Certificate on Heroku {#install}
 
 <div class="section-steps" markdown="1">
 ##### Steps to install the certificate on Heroku
@@ -48,6 +48,6 @@ If you have not already purchased an SSL certificate, follow [the guide to order
 > [!NOTE]
 > If you encounter SSL errors after installation, see [Troubleshooting Heroku SSL Errors](/articles/heroku-error-ssl/) for common issues and solutions.
 
-## Have More Questions?
+## Have more questions?
 
 If you have additional questions or need any assistance installing your SSL certificate on Heroku, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
