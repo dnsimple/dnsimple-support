@@ -102,8 +102,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Autodiscover not working:** Verify the `autodiscover` CNAME record points to `autodiscover.outlook.com`. If automatic configuration fails, configure email clients manually using Microsoft's server settings.
 
-<!-- Link depends on PR #1704 (Email Troubleshooting - Authentication) -->
-**Email authentication failures:** Verify your SPF record includes `include:spf.protection.outlook.com`. Check DKIM records are at the correct subdomains. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for more help.
+**Email authentication failures:** Verify your SPF record includes `include:spf.protection.outlook.com`. Check DKIM records are at the correct subdomains. For setup details, see [SPF records](/articles/spf-record/), [Setting Up DKIM](/articles/set-up-dkim/), and [Setting Up DMARC](/articles/set-up-dmarc/).
 
 ## Have more questions?
 

@@ -108,8 +108,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Domain verification failing:** Confirm the TXT verification record matches exactly what Google provided. DNS changes can take up to a few hours to propagate.
 
-<!-- Link depends on PR #1704 (Email Troubleshooting - Authentication) -->
-**Email authentication failures:** Verify your SPF record includes `include:_spf.google.com`. Check DKIM records are at the correct subdomain. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for more help.
+**Email authentication failures:** Verify your SPF record includes `include:_spf.google.com`. Check DKIM records are at the correct subdomain. For setup details, see [SPF records](/articles/spf-record/), [Setting Up DKIM](/articles/set-up-dkim/), and [Setting Up DMARC](/articles/set-up-dmarc/).
 
 ## Have more questions?
 
