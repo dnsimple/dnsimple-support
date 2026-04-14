@@ -20,7 +20,7 @@ categories:
 
 As part of our multi-year effort to modernize our DNS infrastructure and improve global resolution performance, we are officially retiring the legacy IP addresses associated with our NS1 and NS3 name servers. These IPs have already been replaced by our high-performance [Cache Edge network](https://blog.dnsimple.com/2023/03/cache-edge-layer/), first introduced in 2023.
 
-Following [the expansion of our cache edge infrastructure in 2024](https://blog.dnsimple.com/2024/10/expanding-cache-edge-network/) and the discontinuation of the legacy NS2 and NS4 IP addresses in June 2025, NS1 and NS3 are the final two name servers still pointing to the older infrastructure. The legacy IPs will be fully decommissioned on **July 24, 2026**.
+Following [the expansion of our cache edge infrastructure in 2024](https://blog.dnsimple.com/2024/10/expanding-cache-edge-network/) and the discontinuation of the legacy NS2 and NS4 IP addresses in June 2025, NS1 and NS3 are the final two name servers still pointing to the older infrastructure. The legacy IPs will be fully decommissioned on **July 15, 2026**.
 
 ## What's changing
 
