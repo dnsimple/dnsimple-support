@@ -1,7 +1,7 @@
 ---
 title: Discontinuation of Legacy NS1 and NS3 IP Addresses
-excerpt: DNSimple is migrating ns1 and ns3 to new edge infrastructure. Legacy Cloudflare IP addresses will be fully retired on July 24, 2026.
-meta: Learn about DNSimple's migration of ns1 and ns3 to new edge infrastructure. Find the replacement IPs, the migration timeline, and what action you need to take before July 24, 2026.
+excerpt: DNSimple is migrating ns1 and ns3 to new edge infrastructure. Legacy Cloudflare IP addresses will be fully retired on July 15, 2026.
+meta: Learn about DNSimple's migration of ns1 and ns3 to new edge infrastructure. Find the replacement IPs, the migration timeline, and what action you need to take before July 15, 2026.
 categories:
   - DNS
 ---
