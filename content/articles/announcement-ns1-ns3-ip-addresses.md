@@ -1,7 +1,7 @@
----
+1---
 title: Discontinuation of Legacy NS1 and NS3 IP Addresses
-excerpt: DNSimple is migrating ns1 and ns3 to new edge infrastructure. Legacy Cloudflare IP addresses will be fully retired on July 6, 2026.
-meta: Learn about DNSimple's migration of ns1 and ns3 to new edge infrastructure. Find the replacement IPs, the migration timeline, and what action you need to take before July 6, 2026.
+excerpt: DNSimple is migrating NS1 and NS3 to new edge infrastructure. Legacy Cloudflare IP addresses will be fully retired on July 6, 2026.
+meta: Learn about DNSimple's migration of NS1 and NS3 to new edge infrastructure. Find the replacement IPs, the migration timeline, and what action you need to take before July 6, 2026.
 categories:
   - DNS
 ---
@@ -45,15 +45,16 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 | Date                | Milestone                                                                                     |
 |---------------------|-----------------------------------------------------------------------------------------------|
 | **April 17, 2026**  | Initial notification emails sent to Group 1 impacted customers.                               |
-| **May 1, 2026**     | New edge infrastructure goes live. You can begin self-migrating at any time after this date.  |
-| **May 1, 2026**     | Start staged automatic migration of domains registered with DNSimple (Group 1)                         |
-| **May 1, 2026**     | Initial notification emails sent to Group 2 & 3 impacted customers.                          |
-| **June 1, 2026**    | End staged automatic migration of domains registered with DNSimple. (Group 1)                          |
-| **June 1, 2026**    | First Brownout Reminder Communication Sent |
-| **June 8, 2026**    | Reminder Brownout Communication Sent |
-| **June 12, 2026**   | Forced migration of hosted zones still delegated to the legacy hostnames.                     |
-| **June 15, 2026**   | Cloudflare Brownout #1 — legacy IPs temporarily stop answering to surface remaining traffic.  |
-| **June 22, 2026**   | Cloudflare Brownout #2 — legacy IPs temporarily stop answering to surface remaining traffic.  |
+| **May 1, 2026**     | New NS1 & NS3 edge infrastructure goes live. **You can begin self-migrating at any time after this date.** |
+| **May 1, 2026**     | Start staged automatic migration of domains registered with DNSimple (Group 1)                |
+| **May 1, 2026**     | Initial notification emails sent to Group 2 & 3 impacted customers.                           |
+| **May 29, 2026**    | End staged automatic migration of domains registered with DNSimple. (Group 1)                 |
+| **June 1, 2026**    | First brownout Reminder communication sent                                                    |
+| **June 1, 2026**    | Start migration of hosted zones still delegated to the legacy hostnames. (Group 2)            |
+| **June 8, 2026**    | Reminder brownout communication sent                                                          |
+| **June 12, 2026**   | End migration of hosted zones still delegated to the legacy hostnames. (Group 2)              |
+| **June 15, 2026**   | Cloudflare brownout #1 — legacy IPs temporarily stop answering to surface remaining traffic.  |
+| **June 22, 2026**   | Cloudflare brownout #2 — legacy IPs temporarily stop answering to surface remaining traffic.  |
 | **July 6, 2026**    | **Legacy Cloudflare IPs fully decommissioned.** Any configuration still pointing at the old IPs will stop resolving. |
 
 ## Am I impacted?
@@ -96,7 +97,7 @@ On **June 15, 2026** and **June 22, 2026** we will briefly pause answering queri
 
 ## What you need to do
 
-- **Group 1 — registered with DNSimple:** No action required. We'll handle the migration between May 1 and June 1, 2026.
+- **Group 1 — registered with DNSimple:** No action required. We'll handle the migration between May 1 and May 29, 2026.
 - **Group 2 — hosted at DNSimple, registered elsewhere:** Optional but recommended: update your delegation at your registrar to `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io` any time after May 1, 2026. Otherwise, you will be migrated transparently on June 26, 2026.
 - **Group 3 — vanity name servers:** Required: update the [glue records](/articles/what-are-glue-records/) at your registrar to the replacement IPs above before **July 6, 2026**.
 
