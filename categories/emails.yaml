@@ -22,6 +22,9 @@ Explanation:
     - "What Is an MX Record?"
     - "What Are Null MX Records?"
 
+How-to:
+- "Managing MX Records When Changing Email Providers"
+
 Email authentication:
 - "Email Authentication Best Practices"
 - "Understanding SPF, DKIM, and DMARC Alignment"
