@@ -65,13 +65,9 @@ How to:
     - "Troubleshooting Email Forwarding with Other Providers"
     - "Troubleshooting Email Authentication"
     - "Troubleshooting Email Issues Related to Name Servers"
-  API:
-    - "Managing Email Forwards with the API"
-
 Reference:
   Email Forwarding:
     - "Email Forwarding Management in DNSimple"
-    - "Email Forwarding API Reference"
     - "Email Forwarding Limits and Quotas"
   MX Records:
     - "MX Record Reference"
