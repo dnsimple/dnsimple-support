@@ -46,9 +46,9 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 |---------------------|-----------------------------------------------------------------------------------------------|
 | **April 17, 2026**  | Initial notification emails sent to Group 1 impacted customers.                               |
 | **May 1, 2026**     | New edge infrastructure goes live. You can begin self-migrating at any time after this date.  |
-| **May 1, 2026**     | Start Staged automatic migration of domains registered with DNSimple.                         |
+| **May 1, 2026**     | Start staged automatic migration of domains registered with DNSimple (Group 1)                         |
 | **May 1, 2026**     | Initial notification emails sent to Group 2 & 3 impacted customers.                          |
-| **June 1, 2026**    | End Staged automatic migration of domains registered with DNSimple.                           |
+| **June 1, 2026**    | End staged automatic migration of domains registered with DNSimple. (Group 1)                          |
 | **June 1, 2026**    | First Brownout Reminder Communication Sent |
 | **June 8, 2026**    | Reminder Brownout Communication Sent |
 | **June 12, 2026**   | Forced migration of hosted zones still delegated to the legacy hostnames.                     |
