@@ -1,7 +1,7 @@
 ---
 title: Email Services at DNSimple
-excerpt: Where to find everything you need to know about email services at DNSimple.
-meta: Comprehensive guide to email services at DNSimple, including email forwarding, email authentication (SPF, DKIM, DMARC), and integration with third-party email hosting providers.
+excerpt: Email forwarding, authentication records (SPF, DKIM, DMARC), and third-party email hosting configuration at DNSimple.
+meta: Guide to email services at DNSimple, including email forwarding, SPF, DKIM, and DMARC authentication records, and integration with third-party email hosting providers.
 categories:
 - Emails
 ---
@@ -15,106 +15,95 @@ categories:
 
 ---
 
-At DNSimple, we provide email forwarding services and support for email authentication protocols to help you manage email for your domains effectively. While we focus on domain and DNS management rather than full email hosting, we offer essential email services that work seamlessly with your domain configuration, including email forwarding and comprehensive support for email authentication records like SPF, DKIM, and DMARC.
+DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM, DMARC). DNSimple does not offer full email hosting, but supports configuration for third-party email providers like Google Workspace and Microsoft 365.
 
-## What is email forwarding? {#forwarding}
+## Email forwarding {#forwarding}
 
-If you are new to email forwarding, these articles will help you understand the fundamentals.
-
-- [What Is Email Forwarding?](/articles/what-is-email-forwarding/): Learn what email forwarding is and how it works at DNSimple.
-- [Email Hosting Support](/articles/email-hosting/): Understand the difference between email hosting and email forwarding, and what options are available.
+- [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - How email forwarding works at DNSimple.
+- [Email Hosting Support](/articles/email-hosting/) - The difference between email hosting and email forwarding, and what DNSimple supports.
 
 ## Email authentication {#authentication}
 
-Email authentication helps protect your domain from spoofing and improves email deliverability. These articles explain the key authentication methods.
+- [What Is an SPF Record?](/articles/spf-record/) - How SPF authorizes email senders for your domain.
+- [What Is a DKIM Record?](/articles/dkim-record/) - How DKIM uses digital signatures to verify email authenticity.
+- [What Is a DMARC Record?](/articles/dmarc-record/) - How DMARC ties SPF and DKIM together with a policy.
 
-- [What Is an SPF Record?](/articles/spf-record/): Understand how SPF (Sender Policy Framework) works to authorize email senders.
-- [What Is a DKIM Record?](/articles/dkim-record/): Learn how DKIM (DomainKeys Identified Mail) uses digital signatures to verify email authenticity.
-- [What Is a DMARC Record?](/articles/dmarc-record/): Discover how DMARC (Domain-based Message Authentication, Reporting & Conformance) builds on SPF and DKIM to provide comprehensive email security.
+## Setting up email forwarding {#setup-forwarding}
 
-## How to manage email services {#managing}
+- [Enabling Email Forwarding](/articles/enabling-email-forwarding/) - Turn on email forwarding for your domain.
+- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - Create, manage, and remove forwarding rules.
+- [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) - Forwarding limits, quotas, and billing.
+- [Managing Email Forwarding for Multiple Domains](/articles/managing-email-forwarding-for-multiple-domains/) - Manage forwarding across multiple domains.
+- [Migrating Email Forwarding from Another Provider](/articles/migrating-email-forwarding-from-another-provider/) - Move forwarding configuration from another provider.
 
-Ready to set up email services? Learn how to manage your email configuration effectively with these articles.
+## Setting up email authentication {#setup-authentication}
 
-### Email forwarding {#managing-forwarding}
+- [Setting Up SPF Records](/articles/setting-up-spf/) - Configure SPF to authorize your email senders.
+- [Setting Up DKIM](/articles/set-up-dkim/) - Add DKIM records for your email services.
+- [Setting Up DMARC](/articles/set-up-dmarc/) - Publish a DMARC policy and enable reporting.
+- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - Confirm your SPF record is published correctly.
+- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - Confirm your DKIM record is published correctly.
+- [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Confirm your DMARC record is published correctly.
 
-- [Enabling Email Forwarding](/articles/enabling-email-forwarding/): A step-by-step guide to turning email forwarding **on** for your domain.
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/): Learn how to create, manage, and remove email forwarding rules.
-- [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/): Understand email forwarding limits, quotas, and billing.
-- [Managing Email Forwarding for Multiple Domains](/articles/managing-email-forwarding-for-multiple-domains/): Learn how to efficiently manage email forwarding across multiple domains.
-- [Migrating Email Forwarding from Another Provider](/articles/migrating-email-forwarding-from-another-provider/): Step-by-step guide to migrating email forwarding configuration.
+## Email hosting with third-party providers {#hosting}
 
-### Email authentication {#managing-authentication}
+- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting providers.
+- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/) - Update MX records when migrating between providers.
+- [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace email with the one-click service or manual DNS.
+- [Microsoft 365 Service](/articles/office-365-service/) - Set up Microsoft 365 email with the one-click service or manual DNS.
+- [Email Hosting Support](/articles/email-hosting/) - Options for third-party email hosting with DNSimple.
 
-- [Setting Up SPF Records](/articles/setting-up-spf/): A guide to configuring SPF records for email authentication.
-- [Setting Up DKIM](/articles/set-up-dkim/): A step-by-step guide to adding DKIM records to your domain.
-- [Setting Up DMARC](/articles/set-up-dmarc/): Learn how to configure DMARC records to protect your domain.
-- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/): Verify that your SPF record is correctly published and functioning.
-- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/): Verify that your DKIM record is correctly published and functioning.
-- [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/): Verify that your DMARC record is correctly published and functioning.
+## Troubleshooting {#troubleshooting}
 
-### Email hosting {#managing-hosting}
-
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/): How to configure MX records for email hosting providers.
-- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/): How to update MX records when migrating between email providers.
-- [Google Workspace Service](/articles/google-workspace-service/): Set up Google Workspace email with DNSimple using the one-click service or manual DNS configuration.
-- [Microsoft 365 Service](/articles/office-365-service/): Set up Microsoft 365 email with DNSimple using the one-click service or manual DNS configuration.
-- [Email Hosting Support](/articles/email-hosting/): Options for using third-party email hosting providers with DNSimple.
-
-## Troubleshooting email issues {#troubleshooting}
-
-Encountering issues with your email setup? Find solutions and guidance here.
-
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/): A guide to diagnosing and resolving common email forwarding problems with Gmail.
-- [Troubleshooting Email Forwarding Delivery Issues](/articles/troubleshooting-email-forwarding-delivery-issues/): Guide to troubleshooting email delivery problems with email forwarding.
-- [Troubleshooting Email Forwarding with Other Providers](/articles/troubleshooting-email-forwarding-with-other-providers/): Guide to troubleshooting email forwarding issues with email providers other than Gmail.
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/): A comprehensive guide to diagnosing and resolving common email authentication problems.
+- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/) - Diagnose forwarding problems with Gmail.
+- [Troubleshooting Email Forwarding Delivery Issues](/articles/troubleshooting-email-forwarding-delivery-issues/) - Resolve email delivery problems with forwarding.
+- [Troubleshooting Email Forwarding with Other Providers](/articles/troubleshooting-email-forwarding-with-other-providers/) - Fix forwarding issues with providers other than Gmail.
+- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnose SPF, DKIM, and DMARC failures.
 
 ## Advanced topics {#advanced}
 
 ### Email deliverability {#deliverability}
 
-- [Understanding Email Deliverability](/articles/understanding-email-deliverability/): What email deliverability is, why it matters, and the factors that affect whether your emails reach recipients' inboxes.
-- [Improving Email Deliverability](/articles/improving-email-deliverability/): Step-by-step guide to improving email deliverability and ensuring your emails reach recipients' inboxes.
-- [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/): How to monitor email deliverability using tools and techniques to track inbox placement and identify issues.
+- [Understanding Email Deliverability](/articles/understanding-email-deliverability/) - What affects whether your emails reach recipients' inboxes.
+- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Configure DNS-based authentication and manage sender reputation.
+- [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Track authentication results, sender reputation, and inbox placement.
 
-### Email authentication advanced {#authentication-advanced}
+### Advanced authentication {#authentication-advanced}
 
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/): About alignment requirements for SPF, DKIM, and DMARC and how they affect email authentication.
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/): Step-by-step guide to gradually implementing DMARC policies, starting with monitoring and moving to quarantine and reject.
-- [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/): How to manage multiple DKIM selectors for different email services and ensure proper email authentication.
-- [Email Authentication Best Practices](/articles/email-authentication-best-practices/): Comprehensive guide to email authentication best practices for SPF, DKIM, and DMARC.
+- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements and how they affect authentication.
+- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Move safely from `p=none` to `p=reject`.
+- [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) - Handle DKIM for multiple email services.
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Best practices for SPF, DKIM, and DMARC configuration.
 
 ### Email security {#security}
 
-- [Email Security Best Practices](/articles/email-security-best-practices/): Comprehensive guide to email security best practices for protecting your domain and email communications.
-- [Protecting Your Domain from Email Spoofing](/articles/protecting-your-domain-from-email-spoofing/): How to protect your domain from email spoofing using SPF, DKIM, and DMARC.
+- [Protecting Your Domain from Email Spoofing](/articles/protecting-your-domain-from-email-spoofing/) - How SPF, DKIM, and DMARC prevent domain spoofing.
 
 ### Email bounces {#bounces}
 
-- [Understanding Email Bounces](/articles/understanding-email-bounces/): About email bounces, the different types of bounces, and what causes them.
-- [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/): How email bounces work with email forwarding and how to handle them effectively.
+- [Understanding Email Bounces](/articles/understanding-email-bounces/) - Types of bounces and what causes them.
+- [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/) - How bounces work with forwarding and how to handle them.
 
 ### MX records {#mx-records}
 
-- [What Is an MX Record?](/articles/mx-record/): How MX records work and why they are essential for email delivery.
-- [What Are Null MX Records?](/articles/what-are-null-mx-records/): What null MX records are, why they are important for security, and when to use them.
-- [Setting Up Null MX Records](/articles/setting-up-null-mx-records/): Step-by-step guide to configuring null MX records for domains that do not accept email.
-- [Querying MX Records](/articles/query-mx-records/): How to query MX records with dig.
-- [MX Record Reference](/articles/mx-record-reference/): Formal structure and technical details of MX records.
+- [What Is an MX Record?](/articles/mx-record/) - How MX records work and why they are essential for email delivery.
+- [What Are Null MX Records?](/articles/what-are-null-mx-records/) - When and why to use null MX records.
+- [Setting Up Null MX Records](/articles/setting-up-null-mx-records/) - Configure null MX for domains that do not accept email.
+- [Querying MX Records](/articles/query-mx-records/) - Query MX records with dig.
+- [MX Record Reference](/articles/mx-record-reference/) - Formal structure and technical details.
 
 ### Email DNS records {#dns-records}
 
-- [Managing Email DNS Records](/articles/managing-email-dns-records/): Comprehensive guide to managing all email-related DNS records in DNSimple.
-- [Email DNS Records Quick Reference](/articles/email-dns-records-quick-reference/): Quick reference guide for all email-related DNS records.
+- [Managing Email DNS Records](/articles/managing-email-dns-records/) - Manage all email-related DNS records in DNSimple.
+- [Email DNS Records Quick Reference](/articles/email-dns-records-quick-reference/) - Quick reference for email-related DNS record types.
 
-## Reference articles {#reference}
+## Reference {#reference}
 
-Dive deeper into the specifics of email services with our comprehensive reference materials, including an overview of the settings and details available in your DNSimple account.
+- [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/) - The email forwarding management interface and available settings.
+- [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) - SPF record format, mechanisms, and validation rules.
+- [DKIM Record Reference](/articles/dkim-record-reference/) - DKIM record structure and technical details.
+- [DMARC Record Reference](/articles/dmarc-record-reference/) - DMARC record structure, tags, and technical details.
 
-- [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/): A detailed look at the email forwarding management interface within your DNSimple account, including available settings and information.
-- [Email Forwarding API Reference](/articles/email-forwarding-api-reference/): Complete API reference for managing email forwards programmatically.
-- [Managing Email Forwards with the API](/articles/managing-email-forwards-with-the-api/): Step-by-step guide to managing email forwards using the DNSimple API.
-- [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/): Comprehensive reference for SPF record format, mechanisms, and validation rules.
-- [DKIM Record Reference](/articles/dkim-record-reference/): Detailed reference for DKIM record structure and technical details.
-- [DMARC Record Reference](/articles/dmarc-record-reference/): Detailed reference for DMARC record structure, tags, and technical details.
+## Have more questions?
+
+If you have additional questions or need assistance with email services, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
