@@ -4,6 +4,7 @@ excerpt: How to set up Pobox DNS using DNSimple's one-click service.
 meta: Easily point your domain to Pobox using DNSimple's one-click service. Follow our step-by-step guide to streamline your email and domain management effortlessly.
 categories:
 - Services
+- Emails
 ---
 
 # Pobox One-click Service
