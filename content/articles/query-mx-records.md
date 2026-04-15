@@ -4,6 +4,7 @@ excerpt: How to query MX records with DNSimple.
 meta: Learn how to easily query MX records with DNSimple to ensure proper email delivery for your domain. Get started today!
 categories:
 - DNS
+- Emails
 ---
 
 # Querying MX Records
