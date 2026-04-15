@@ -68,7 +68,7 @@ For a detailed explanation of the TLSA record format, including the usage, selec
 
 The specification for the DNS TLSA record is formally defined in [RFC 6698](https://datatracker.ietf.org/doc/html/rfc6698): The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with your TLSA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
 

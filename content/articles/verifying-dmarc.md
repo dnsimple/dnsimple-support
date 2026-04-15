@@ -35,5 +35,5 @@ DMARC sends daily reports to the email specified in the RUA tag to provide an ov
 ## Technical details {#technical-details}
 To read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

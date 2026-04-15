@@ -52,5 +52,5 @@ Easily distribute traffic across different service providers (e.g., `example.pro
 ## Managing POOL records in DNSimple {#managing-pool-records-in-dnsimple}
 DNSimple provides a user-friendly interface for configuring and maintaining your POOL records. You can easily add new records, manage the pool of target hostnames, and remove or update entries directly from your domain's [record editor](/articles/record-editor/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your POOL records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

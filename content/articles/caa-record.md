@@ -45,5 +45,5 @@ For a detailed explanation of the CAA record format, accepted tags (like `issue`
 ## Technical details {#technical-details}
 The specification for the DNS CAA record is formally defined in RFC 8659: [CAA Resource Record for DNS](https://datatracker.ietf.org/doc/html/rfc8659).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your CAA records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

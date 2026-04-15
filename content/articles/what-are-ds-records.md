@@ -142,5 +142,5 @@ In this answer, we can see that the `howdnssec.works` zone has a DS record with 
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For step-by-step instructions on managing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/). For information about managing DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

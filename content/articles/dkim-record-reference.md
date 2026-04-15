@@ -4,6 +4,7 @@ excerpt: The formal structure, behavior, and key technical details of a DKIM rec
 meta: Learn more about the structure, behavior, and technical details for DKIM records.
 categories:
 - DNS
+- Emails
 ---
 
 # DKIM Record Reference
@@ -44,5 +45,5 @@ You can manage DKIM records in DNSimple by creating a TXT record with the `_doma
 Name: `selector1._domainkey` (The domain is appended automatically).
 Content: `"v=DKIM1; p=..."`
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

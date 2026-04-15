@@ -73,5 +73,5 @@ Check that your DNS record updates correctly:
 
 The returned IP should match your current IP address.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with Dynamic DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

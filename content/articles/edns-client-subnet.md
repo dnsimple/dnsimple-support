@@ -37,5 +37,5 @@ We have researched and tested ECS support among CDN providers and confirmed full
 
 If you operate a CDN, or use a CDN we do not support yet, please [contact us](https://dnsimple.com/feedback) so we can determine compatibility.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

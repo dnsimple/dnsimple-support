@@ -38,5 +38,5 @@ Understanding the following restrictions is critical to properly using CNAME rec
 - **Must point to a domain name:** A CNAME record must always point to another domain name and never directly to an IP address.
 - **Chained CNAMEs:** A CNAME record can technically point to another CNAME record (e.g., `a.example.com` CNAME `b.example.com`, and `b.example.com` CNAME `c.example.com`). However, this is generally not recommended for performance reasons.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your CNAME records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

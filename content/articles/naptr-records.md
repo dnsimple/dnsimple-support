@@ -84,5 +84,5 @@ While both NAPTR and SRV records are used for service discovery, they operate at
 
 NAPTR (Type 35) records are a sophisticated DNS resource type that enables flexible and dynamic service discovery, particularly prominent in Voice over IP (VoIP) and telecom services. They provide powerful rewriting rules to guide clients from an initial query string to a specific service endpoint or URI using regular expressions and flags. Understanding NAPTR records is key to comprehending how complex, multi-protocol services are located and connected across the internet.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

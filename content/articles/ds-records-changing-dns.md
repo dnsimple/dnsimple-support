@@ -32,5 +32,5 @@ For more information on adding and removing DS records, refer to this [support a
 
 If you are using DNSimple as your domain registrar, you can manage your DS records by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

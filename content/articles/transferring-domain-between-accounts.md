@@ -72,6 +72,6 @@ To reject a transfer, click the **Reject** on the list of pending pushes, and co
 > [!NOTE]
 > If you reject a transfer request, the domain will remain in the possession of the original owner.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you need any assistance transferring domains to other DNSimple accounts or have more questions, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

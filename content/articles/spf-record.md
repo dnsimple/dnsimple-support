@@ -54,5 +54,5 @@ For a comprehensive breakdown of the SPF record format, all available mechanisms
 ## Technical details {#technical-details}
 The specification for the Sender Policy Framework is primarily defined in [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208), which supersedes RFC 4408.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

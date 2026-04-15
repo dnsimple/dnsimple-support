@@ -22,7 +22,7 @@ You can follow along with the video below, or use it as a reference as you go th
 > [!NOTE]
 > The **Integrations** link in the navigation menu referenced in the video has been deprecated. After [connecting](/articles/integrated-dns-providers/#connecting-an-integrated-dns-provider-to-your-account/) CoreDNS to your DNSimple account as an Integrated DNS Provider, use the **DNS Zone Providers** card in the DNS section of your domain's management page to [add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider), [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/), or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) CoreDNS configuration for a zone.
 
-## 1. Prerequisites {#1-prerequisites}
+## 1. Prerequisites {#prerequisites}
 
 Before you begin, ensure you have the following:
 
@@ -30,7 +30,7 @@ Before you begin, ensure you have the following:
 - A running **CoreDNS instance** with the `coredns-dnsimple` plugin installed. You can either use the official DNSimple CoreDNS Binary or the DNSimple CoreDNS Docker Container.
 - A [**DNSimple API access token**](/articles/api-access-token/) and **account ID** for the account you want to connect.
 
-## 2. Setting up the integration {#2-setting-up-the-integration}
+## 2. Setting up the integration {#setup}
 
 This section will prepare your CoreDNS instance to sync with your DNSimple account.
 
@@ -56,7 +56,7 @@ This section will prepare your CoreDNS instance to sync with your DNSimple accou
 
 2. Restart your CoreDNS instance to load the new configuration.
 
-## 3. Syncing DNS records {#3-syncing-dns-records}
+## 3. Syncing DNS records {#sync-records}
 
 Once the integration is set up, you can synchronize records from DNSimple to CoreDNS.
 
@@ -70,7 +70,7 @@ To sync records from DNSimple to CoreDNS:
 1. Add or edit records in the DNSimple record editor.
 1. The CoreDNS instance will automatically sync these changes on its next refresh interval.
 
-## 4. Verification {#4-verification}
+## 4. Verification {#verification}
 
 The best way to validate that your integration is working is to perform a check using a tool like `dig`.
 
@@ -78,5 +78,5 @@ The best way to validate that your integration is working is to perform a check 
    - E.g., `dig @localhost -p 53 example.com`
 1. The `ANSWER SECTION` of the output should show the IP address you expect, confirming that the record is being served correctly by your CoreDNS instance.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

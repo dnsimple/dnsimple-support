@@ -20,7 +20,7 @@ An SSL certificate must be associated with one or more host names. Selecting the
 > [!NOTE]
 > You cannot change the name type of a certificate (e.g., switch from a single-name to a wildcard name) once it has been issued. Choose carefully before ordering.
 
-## How to Choose Your Certificate Names
+## How to Choose Your Certificate Names {#choose-names}
 
 <div class="section-steps" markdown="1">
 ##### Steps to determine the right names for your certificate
@@ -48,7 +48,7 @@ An SSL certificate must be associated with one or more host names. Selecting the
 
 </div>
 
-## Single-Name vs. Wildcard Certificates
+## Single-Name vs. Wildcard Certificates {#single-vs-wildcard}
 
 ### Single-Name SSL Certificate
 
@@ -64,7 +64,7 @@ A wildcard certificate is valid for any single-level subdomain. You use the wild
 
 For example, if you purchase a wildcard certificate for `*.example.com`, you can use it for any `example.com` first-level subdomain such as `www.example.com`, `secure.example.com`, or `private.example.com`. However, you cannot use it for `www.secure.example.com` or `super.secure.example.com`.
 
-## Single vs. Multiple Names
+## Single vs. Multiple Names {#single-vs-multiple}
 
 You can associate host names to an SSL certificate using two different attributes:
 
@@ -75,6 +75,6 @@ The Common Name allows specifying a single entry (either a wildcard or single-na
 
 At DNSimple, we simplify this by hiding the technical details behind a clear interface. We will not ask you to select when to use the Common Name or the SAN. Whenever you are allowed to enter multiple names, you will be provided a field to enter the list of names.
 
-## Have More Questions?
+## Have more questions?
 
 If you have additional questions or need any assistance choosing the right certificate names, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

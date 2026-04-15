@@ -185,6 +185,6 @@ For step-by-step instructions on how to add, edit, or remove any of these DNS re
 
 To learn how to use dig to verify your DNS records, consult [How to Use dig](/articles/how-dig/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

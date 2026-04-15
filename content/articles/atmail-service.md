@@ -4,6 +4,7 @@ excerpt: How to set up Atmail DNS using DNSimple's One-click Service.
 meta: Learn how to effortlessly set up Atmail DNS with DNSimple's One-click Service. Streamline your email management and enhance your online communication today!
 categories:
 - Services
+- Emails
 ---
 
 # Atmail One-click Service

@@ -34,5 +34,5 @@ For more information about the technical details of DKIM, head over to [DKIM.org
 
 If you want more details on DKIM record formats, view our [DKIM Record Reference](/articles/dkim-record-reference/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

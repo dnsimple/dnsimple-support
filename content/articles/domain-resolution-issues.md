@@ -136,5 +136,5 @@ When troubleshooting domain resolution, you may encounter specific error message
 - Try querying a different DNSimple name server
 - Check [DNSimple's status page](https://dnsimple.statuspage.io) for known issues
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.   
