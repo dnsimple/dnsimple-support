@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Email Authentication
-excerpt: A comprehensive guide to diagnosing and resolving common email authentication problems.
-meta: Learn how to troubleshoot SPF, DKIM, and DMARC authentication issues to improve email deliverability and security.
+excerpt: How to diagnose SPF, DKIM, and DMARC failures using email headers and DNS verification.
+meta: Diagnose email authentication failures by reading email headers, identifying SPF, DKIM, and DMARC issues, and resolving common problems like alignment failures and missing records.
 categories:
 - Emails
 ---
@@ -15,167 +15,94 @@ categories:
 
 ---
 
-Email authentication protocols (SPF, DKIM, and DMARC) help protect your domain from spoofing and improve email deliverability. When these protocols are not working correctly, you may experience issues with email delivery, emails being marked as spam, or authentication failures.
+When email authentication fails, messages may be rejected, sent to spam, or flagged as suspicious. The fastest way to find the root cause is to check the email headers, identify which protocol is failing, then verify the corresponding DNS record.
 
-## Common authentication issues {#common-issues}
+## Reading email headers {#headers}
 
-### SPF authentication failures {#spf-failures}
+Email headers contain the authentication verdict for every message. They tell you exactly what passed, what failed, and why.
 
-**Problem:** Emails are failing SPF checks, causing them to be rejected or marked as spam.
+To view headers in Gmail, open the message, click the three-dot menu, and select **Show original**. In Outlook, open the message properties. Other mail clients have similar options.
 
-**Possible causes:**
-- SPF record is missing or not published
-- SPF record does not include all authorized sending servers
-- Multiple SPF records exist (a domain should have only one)
-- SPF record syntax errors
-- DNS propagation delays
+Look for the `Authentication-Results` header. It reports the status for each protocol:
 
-**Solutions:**
-1. **Verify SPF record exists:** Use `dig` or an online tool to check if your SPF record is published:
-   ```
-   dig +short yourdomain.com TXT | grep "v=spf1"
-   ```
-
-2. **Check SPF record content:** Ensure your SPF record includes all email providers you use. Common includes:
-   - `include:_spf.google.com` for Google Workspace
-   - `include:spf.protection.outlook.com` for Microsoft 365
-   - `include:sendgrid.net` for SendGrid
-   - `include:spf.mtasv.net` for Postmark
-
-3. **Consolidate multiple SPF records:** If you have multiple SPF records, combine them into a single record:
-   ```
-   v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
-   ```
-
-4. **Verify syntax:** SPF records must start with `v=spf1` and use proper syntax. Check for typos or missing colons.
-
-5. **Check DNS propagation:** Allow time for DNS changes to propagate (typically a few minutes to a few hours).
-
-For more details, see [Verifying SPF with dig and Online Tools](/articles/verifying-spf/).
-
-### DKIM authentication failures {#dkim-failures}
-
-**Problem:** Emails are failing DKIM checks, causing authentication failures.
-
-**Possible causes:**
-- DKIM record is missing or not published
-- DKIM selector is incorrect
-- DKIM record is at the wrong subdomain
-- DKIM key mismatch between signing and DNS
-- DNS propagation delays
-
-**Solutions:**
-1. **Verify DKIM record exists:** Use `dig` to check if your DKIM record is published:
-   ```
-   dig +short selector._domainkey.yourdomain.com TXT
-   ```
-   Replace `selector` with the selector provided by your email service.
-
-2. **Check subdomain:** DKIM records are published at `selector._domainkey.yourdomain.com`. Ensure the record is at the correct subdomain.
-
-3. **Verify record content:** The DKIM record should start with `v=DKIM1` and contain the public key. Ensure the entire key is present and correctly formatted.
-
-4. **Check selector:** Different email services use different selectors. Ensure you are using the correct selector for your email service.
-
-5. **Verify key match:** The public key in your DNS must match the private key used by your email service to sign emails. Contact your email service provider if keys do not match.
-
-For more details, see [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/).
-
-### DMARC authentication failures {#dmarc-failures}
-
-**Problem:** Emails are failing DMARC checks, causing them to be rejected or quarantined.
-
-**Possible causes:**
-- DMARC record is missing or not published
-- SPF or DKIM is failing (DMARC requires at least one to pass)
-- SPF or DKIM alignment is failing
-- DMARC policy is too strict
-- DNS propagation delays
-
-**Solutions:**
-1. **Verify DMARC record exists:** Use `dig` to check if your DMARC record is published:
-   ```
-   dig +short _dmarc.yourdomain.com TXT
-   ```
-
-2. **Check SPF and DKIM first:** DMARC requires SPF or DKIM to pass. Fix SPF and DKIM issues before addressing DMARC.
-
-3. **Verify alignment:** DMARC checks that the "From" domain aligns with the SPF or DKIM domain. Ensure:
-   - SPF alignment: The "From" domain matches the domain used for SPF check
-   - DKIM alignment: The "From" domain matches the domain in the DKIM signature
-
-4. **Start with monitoring:** Begin with `p=none` to monitor DMARC without affecting email delivery:
-   ```
-   v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
-   ```
-
-5. **Gradually increase policy:** Once you have verified everything is working, gradually increase the policy:
-   - `p=quarantine` - Treat failures as suspicious
-   - `p=reject` - Reject failures (use only after thorough testing)
-
-6. **Review DMARC reports:** Check the reports sent to the address in your `rua` tag to identify authentication issues.
-
-For more details, see [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/).
-
-## General troubleshooting steps {#general}
-
-### 1. Verify DNS records are published {#verify-dns}
-
-Use `dig` or online tools to verify your authentication records are published:
-
-**SPF:**
 ```
-dig +short yourdomain.com TXT | grep "v=spf1"
+Authentication-Results: mx.google.com;
+       spf=pass (domain of sender@yourdomain.com designates 1.2.3.4 as permitted sender);
+       dkim=pass header.d=yourdomain.com;
+       dmarc=pass (p=REJECT) header.from=yourdomain.com
 ```
 
-**DKIM:**
+A failure looks like this:
+
 ```
-dig +short selector._domainkey.yourdomain.com TXT
+Authentication-Results: mx.google.com;
+       spf=fail (domain of sender@yourdomain.com does not designate 5.6.7.8 as permitted sender);
+       dkim=neutral (no signature);
+       dmarc=fail (p=NONE) header.from=yourdomain.com
 ```
 
-**DMARC:**
-```
-dig +short _dmarc.yourdomain.com TXT
-```
+Use the failing protocol to jump to the relevant section below.
 
-### 2. Check DNS propagation {#propagation}
+## SPF failures {#spf}
 
-DNS changes can take time to propagate. Use online tools like [whatsmydns.net](https://www.whatsmydns.net/) to check if your records have propagated globally.
+The headers show `spf=fail` or `spf=softfail`. Common causes:
 
-### 3. Test email authentication {#test}
+- **Sending server not listed** - The IP that sent the message is not in your [SPF record](/articles/spf-record/). This happens when you add a new email service (marketing platform, ticketing system, transactional sender) without updating SPF.
+- **Multiple SPF records** - A domain must have exactly one SPF record. Two TXT records starting with `v=spf1` can cause receiving servers to reject both. Merge them into a single record.
+- **Too many DNS lookups** - SPF allows a maximum of 10 DNS lookups. Each `include:`, `a`, `mx`, and `redirect` mechanism counts toward this limit. Exceeding it causes a `permerror` and SPF fails for all messages. The [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) explains each mechanism and the lookup limit.
+- **Syntax errors** - A missing colon (`include_spf.google.com` instead of `include:_spf.google.com`) or a typo silently breaks the record.
 
-Send a test email and check the authentication results:
+To confirm your SPF record is published and valid, see [Verifying SPF with dig and Online Tools](/articles/verifying-spf/). To update your record, see [Setting Up SPF Records](/articles/setting-up-spf/).
 
-- **Gmail:** View the email headers and look for `Authentication-Results`
-- **Online tools:** Use services like [Mail-Tester](https://www.mail-tester.com/) to test your email authentication
+## DKIM failures {#dkim}
 
-### 4. Review email headers {#headers}
+The headers show `dkim=fail`, `dkim=neutral`, or `dkim=none`. Common causes:
 
-Email headers contain authentication information. Look for:
-- `Received-SPF:` - SPF authentication result
-- `DKIM-Signature:` - DKIM signature information
-- `Authentication-Results:` - Overall authentication results
+- **No signature present** - The sending service is not signing messages. This is a configuration issue on the sending side, not in DNS. Check your email provider's DKIM settings.
+- **Wrong selector or subdomain** - The DKIM public key must be published at `selector._domainkey.yourdomain.com`. If the selector in DNS does not match the selector the sending service uses, verification fails.
+- **Key mismatch** - The public key in DNS does not match the private key used to sign. This happens if you regenerated keys on the provider side without updating DNS.
+- **Truncated key** - Some DNS interfaces silently truncate long TXT records. If the public key is cut off, signature verification fails. Confirm the full key is present in your DNS record.
 
-### 5. Check for common mistakes {#mistakes}
+To confirm your DKIM record is published correctly, see [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/). To add or update DKIM, see [Setting Up DKIM](/articles/set-up-dkim/).
 
-- **Multiple SPF records:** A domain should have only one SPF record
-- **Wrong subdomain:** DKIM and DMARC records must be at the correct subdomains
-- **Syntax errors:** Check for typos, missing colons, or incorrect formatting
-- **Missing mechanisms:** Ensure all authorized senders are included in SPF
+## DMARC failures {#dmarc}
 
-## Getting help {#help}
+The headers show `dmarc=fail`. DMARC fails when neither SPF nor DKIM passes **with alignment**. The individual protocol result is only part of the picture - alignment is what matters for DMARC.
 
-If you are still experiencing issues after following these troubleshooting steps:
+### What alignment means {#alignment}
 
-1. **Check our reference guides:**
-   - [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/)
-   - [DKIM Record Reference](/articles/dkim-record-reference/)
-   - [DMARC Record Reference](/articles/dmarc-record-reference/)
+[DMARC alignment](/articles/understanding-spf-dkim-dmarc-alignment/) requires that the domain in the `From` header matches the domain verified by SPF or DKIM:
 
-2. **Contact your email service provider:** They can help verify your authentication configuration is correct for their service.
+- **SPF alignment** - The `Return-Path` domain (checked by SPF) must match the `From` header domain.
+- **DKIM alignment** - The `d=` domain in the DKIM signature must match the `From` header domain.
 
-3. **Contact DNSimple support:** [Contact support](https://dnsimple.com/feedback) with details about your issue, and we will be happy to help.
+Third-party senders (marketing platforms, CRMs, ticketing systems) often send from their own servers using their own `Return-Path` and DKIM domains. Even if SPF and DKIM pass for the sender's domain, DMARC fails because nothing aligns with your `From` domain. The fix is to configure each service to use your domain for DKIM signing or to set the `Return-Path` to your domain.
+
+### Policy and its effect {#policy}
+
+The impact of a DMARC failure depends on your published policy:
+
+- `p=none` - Messages are delivered normally. Failures appear only in DMARC reports.
+- `p=quarantine` - Failing messages are sent to spam.
+- `p=reject` - Failing messages are blocked entirely.
+
+If legitimate email is being blocked or sent to spam, your DMARC policy may be stricter than your authentication setup supports. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for how to move safely from `p=none` to `p=reject`.
+
+To confirm your DMARC record is published correctly, see [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/).
+
+## Quick-reference checklist {#checklist}
+
+When authentication is failing and you are not sure where to start:
+
+- Check email headers for `Authentication-Results` to identify which protocol is failing
+- Verify each DNS record is published and syntactically valid: [SPF](/articles/verifying-spf/), [DKIM](/articles/verify-dkim/), [DMARC](/articles/verifying-dmarc/)
+- Confirm only one SPF record exists and it has 10 or fewer DNS lookups
+- Confirm the DKIM selector matches what the sending service expects
+- Confirm the full DKIM public key is present (not truncated)
+- Check DMARC alignment - the `From` domain must match the SPF or DKIM domain
+- If you use third-party senders, verify each one is configured for alignment with your domain
+- Allow time for DNS propagation if records were recently changed
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with email authentication, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need assistance troubleshooting email authentication, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

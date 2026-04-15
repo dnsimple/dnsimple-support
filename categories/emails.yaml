@@ -60,6 +60,7 @@ How to:
     - "Verifying DKIM with dig and Online Tools"
     - "Verifying DMARC with dig and Online Tools"
   Troubleshooting:
+    - "Troubleshooting Email Authentication"
     - "Troubleshooting Email Forwarding with Gmail"
     - "Troubleshooting Email Forwarding Delivery Issues"
     - "Troubleshooting Email Forwarding with Other Providers"
