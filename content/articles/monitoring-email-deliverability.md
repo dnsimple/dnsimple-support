@@ -254,6 +254,9 @@ Most email service providers offer built-in analytics:
 - Monitor where seed emails land (inbox vs. spam)
 - Track inbox placement rates
 
+> [!NOTE]
+> Follow your email platform's policies before adding seed addresses to production lists. Some teams use dedicated inbox placement tools instead of mixing seeds into subscriber lists.
+
 **Providers to include:**
 - Gmail
 - Outlook/Hotmail
