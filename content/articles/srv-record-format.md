@@ -65,5 +65,5 @@ Each unique `_service._proto.name` combination defines one service location set.
 ## References {#references}
 **[RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782)**: A DNS RR for specifying the location of services (The primary specification for SRV records).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

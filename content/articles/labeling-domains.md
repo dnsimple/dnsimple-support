@@ -42,6 +42,6 @@ Editing labels is as simple as choosing the domain names that you want to correc
 
 To remove labels, just clear out the label input leaving it blank.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about organizing and labeling domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

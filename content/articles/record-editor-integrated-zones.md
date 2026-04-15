@@ -82,5 +82,5 @@ You can delete a zone record at one or more [Integrated DNS Providers](/articles
 > [!NOTE]
 > You can include a note when deleting a record. Notes are only stored if DNSimple is one of the selected providers. If you only delete the record at an Integrated DNS Provider, the note will not be saved.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your integrated zone records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -36,6 +36,6 @@ To recover a domain that is registered with an external registrar, add the domai
 
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about recovering a deleted domain, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

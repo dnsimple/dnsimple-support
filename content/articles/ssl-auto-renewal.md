@@ -66,7 +66,7 @@ When the new certificate is successfully issued:
 
 ## What happens when auto-renewal fails {#failure}
 
-Auto-renewal can fail for several reasons. When a failure occurs, DNSimple retries daily, but if the underlying issue isn't resolved, the certificate will eventually expire.
+Auto-renewal can fail for several reasons. When a failure occurs, DNSimple retries daily, but if the underlying issue is not resolved, the certificate will eventually expire.
 
 Common causes of auto-renewal failure:
 
@@ -77,7 +77,7 @@ Common causes of auto-renewal failure:
 
 If auto-renewal has failed and the daily retries are not resolving the issue, fix the underlying cause (delegation, DNSSEC, CAA records) and the next retry should succeed. If the certificate has already expired, [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
 
-## Why Auto-Renewal Matters More With Shorter Lifetimes {#shorter-lifetimes}
+## Why auto-renewal matters more with shorter lifetimes {#shorter-lifetimes}
 
 The CA/Browser Forum is [phasing in shorter maximum certificate lifetimes](/articles/can-multi-year-ssl-certificates/#shorter-validity) -- from 200 days in March 2026 down to 47 days by March 2029. As these lifetimes shrink, the full renewal cycle (order, validate, issue, install) repeats more frequently.
 

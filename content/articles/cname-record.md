@@ -62,5 +62,5 @@ You can add, edit, or remove CNAME records in DNSimple's interface.
 
 For step-by-step instructions, see our How-To Guide: [Managing CNAME Records](/articles/manage-cname-record/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your CNAME records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

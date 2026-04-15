@@ -141,6 +141,6 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 - [Managing URL Records](/articles/manage-url-record/) - Step-by-step guide to managing URL records
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Compare HTTPS records with ALIAS records
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance choosing between HTTPS and URL records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

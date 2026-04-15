@@ -40,5 +40,5 @@ Understanding your domain's resolution status is the first step in ensuring your
 
 If you are experiencing issues with domain resolution, see [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) or [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) for comprehensive troubleshooting guidance.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions about resolution status or pointing your name servers to DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

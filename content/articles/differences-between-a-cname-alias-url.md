@@ -73,5 +73,5 @@ The choice among these record types depends entirely on your specific requiremen
 - When you want to perform a **web redirect** (HTTP redirect), causing a visitor's browser to automatically change addresses from one URL to another.
 - This is ideal for simple domain forwarding or redirecting www to your naked domain without requiring a full web server setup.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

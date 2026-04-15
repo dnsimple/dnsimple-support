@@ -67,5 +67,5 @@ The following Azure DNS record types are supported for syncing and management at
 > [!NOTE]
 > [URL records](/articles/url-record/) are a custom DNSimple record type and do not have an equivalent in Azure DNS. When synced from DNSimple to Azure, a URL record will be represented in Azure as an A record that points to our [redirector](/articles/redirector/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your Integrated DNS Providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

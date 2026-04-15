@@ -69,5 +69,5 @@ Choosing between an A record and a CNAME record depends directly on your specifi
 > [!WARNING]
 > Never use a CNAME record for your root domain name (e.g., `example.com`) if you need other essential records like MX (for email), NS (for delegation), or SOA records. The CNAME restriction makes it incompatible with the requirements of an apex domain. DNSimple offers the ALIAS record as a solution for these scenarios.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
