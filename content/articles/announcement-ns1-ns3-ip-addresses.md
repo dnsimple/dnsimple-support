@@ -44,7 +44,6 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 
 | Date                | Milestone                                                                                     |
 |---------------------|-----------------------------------------------------------------------------------------------|
-| **April 17, 2026**  | Initial notification emails sent to Group 1 impacted customers.                               |
 | **May 1, 2026**     | New NS1 & NS3 edge infrastructure goes live. **You can begin self-migrating at any time after this date.** |
 | **May 1, 2026**     | Start staged automatic migration of domains registered with DNSimple (Group 1)                |
 | **May 1, 2026**     | Initial notification emails sent to Group 2 & 3 impacted customers.                           |
