@@ -47,7 +47,6 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 | **May 1, 2026**     | New NS1 & NS3 edge infrastructure goes live. **You can begin self-migrating at any time after this date.** |
 | **May 1, 2026**     | Start staged automatic migration of domains registered with DNSimple (Group 1)                |
 | **May 29, 2026**    | End staged automatic migration of domains registered with DNSimple. (Group 1)                 |
-| **June 1, 2026**    | First brownout Reminder communication sent                                                    |
 | **June 1, 2026**    | Start migration of hosted zones still delegated to the legacy hostnames. (Group 2)            |
 | **June 12, 2026**   | End migration of hosted zones still delegated to the legacy hostnames. (Group 2)              |
 | **June 15, 2026**   | Cloudflare brownout #1 — legacy IPs temporarily stop answering to surface remaining traffic.  |
