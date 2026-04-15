@@ -72,7 +72,7 @@ If you independently maintain a copy of your zone at another DNS provider (not t
 **We recommend self-migrating, but we will force-migrate you by June 12, 2026.** If your domain is registered at another registrar but uses DNSimple for DNS, your delegation at that registrar currently points at `ns1.dnsimple.com` and/or `ns3.dnsimple.com`. You have two options:
 
 - **Self-migrate** (recommended): at your registrar, update the delegation to use `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io` instead. You can do this any time **after May 1, 2026**.
-- **Do nothing**: by June 12, 2026, we will transparently update the A and AAAA records for `ns1.dnsimple.com` and `ns3.dnsimple.com` to point at the new edge infrastructure. Your delegation will continue to work without changes on your side. Note that during the [brownouts](#what-about-the-brownouts) on June 29 and July 6, you may experience brief resolution interruptions if you have not yet self-migrated.
+- **Do nothing**: by June 12, 2026, we will transparently update the A and AAAA records for `ns1.dnsimple.com` and `ns3.dnsimple.com` to point at the new edge infrastructure. Your delegation will continue to work without changes on your side.
 
 ### Group 3 — Vanity name servers with glue records on the legacy IPs
 
