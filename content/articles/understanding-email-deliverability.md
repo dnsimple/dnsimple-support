@@ -205,7 +205,7 @@ To improve email deliverability:
 
 ## Email deliverability and DNSimple {#dnsimple}
 
-While DNSimple does not send emails, we help with email deliverability by:
+DNSimple is not a mailbox provider and does not send bulk or transactional mail for you, but DNSimple does help email reachability and authentication by managing DNS. That matters for deliverability because mailbox providers evaluate DNS-backed signals such as SPF, DKIM, and DMARC.
 
 - **DNS management:** Proper DNS configuration is essential for email authentication
 - **SPF records:** We help you configure SPF records correctly
