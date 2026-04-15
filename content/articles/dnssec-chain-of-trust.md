@@ -60,5 +60,5 @@ The most crucial Trust Anchor is the public [Key Signing Key (KSK)](/articles/ty
 ## Why the chain must remain unbroken {#why-the-chain-must-remain-unbroken}
 If any link in this chain breaks — for example, if a DS record points to an incorrect DNSKEY, or if a signature is missing or invalid — DNSSEC-aware resolvers will not be able to verify the data. They will consider it untrustworthy and will not provide it to the end-user. This can prevent them from reaching your website or service.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

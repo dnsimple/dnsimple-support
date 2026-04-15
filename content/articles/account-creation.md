@@ -24,6 +24,10 @@ You can sign up and explore how to manage domains in DNSimple without activating
 **To sign up**:
 1. Go to [DNSimple](https://dnsimple.com/), and click [**Get Started**](https://dnsimple.com/signup) or **Try free for 30 days**. Both links will take you to the signup page.
 1. Fill in your details, and select **Join DNSimple**. Your account has now been created. You can log in and explore the app before choosing a plan.
+
+> [!TIP]
+> If you followed a promotional signup link, the discount code is applied automatically. You will see the discount when you pay for an eligible [domain registration](/articles/discount-codes/).
+
 1. Fill out the **How Will You Use DNSimple?** form.
 1. You'll be taken to the plan selection page. You can choose a plan immediately, or wait and decide later. When you're ready to activate your account, follow [these instructions](https://support.dnsimple.com/articles/account-activation/).
 1. A verification email will be sent to the address you signed up with. Click the link in the email to verify your address.

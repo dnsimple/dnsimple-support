@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Heroku SSL Errors
 excerpt: You installed an SSL certificate on Heroku but it is not working properly.
-meta: Resolve SSL issues on Heroku with our comprehensive guide. Learn how to troubleshoot and ensure your SSL certificate is configured correctly for seamless security.
+meta: How to troubleshoot common SSL certificate errors when using Heroku with DNSimple, including invalid common name and hostname mismatches.
 categories:
 - SSL Certificates
 - Integrations
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This article describes some of the most common errors you may experience when installing a certificate on Heroku, along with the corresponding solutions.
+SSL certificate errors on Heroku typically occur when the certificate does not match the domain or when it is not properly installed. For general SSL error guidance, see [Troubleshooting SSL Certificate Errors](/articles/troubleshooting-ssl-certificate-errors/).
 
 ## Invalid Common Name (*.heroku.com or *.herokuapp.com)
 
@@ -63,3 +63,9 @@ Here's a few possible variants of the error message, depending on the browser yo
 **Safari**
 
 ![screenshot: Showing SSL certificate error in Safari](/files/heroku-ssl-error-commonname-safari.png)
+
+For step-by-step instructions on setting up SSL certificates with Heroku, see [SSL Certificates for Heroku](/articles/ssl-certificate-with-heroku/).
+
+## Have more questions?
+
+If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

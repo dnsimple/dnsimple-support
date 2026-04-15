@@ -18,7 +18,7 @@ categories:
 This article describes the procedure to transfer a domain registered with DNSimple to another registrar. The term *gaining registrar* refers to the registrar where you want to transfer the domain, the *losing registrar* is the current registrar for the domain, in this case DNSimple.
 
 
-## Before starting {#before-starting}
+## Before starting {#before-you-transfer}
 
 > [!WARNING]
 > Once a domain transfer is started, you will not be able to change the name servers on the domain. If you want to change your name servers, you can do so after requesting the code. Once you provide the transfer code to the gaining registrar, you cannot make adjustments.
@@ -38,7 +38,7 @@ Some TLDs have different transfer procedures:
 - [.UK TLDs](/articles/domains-uk/#transfer-away)
 
 
-## 1. Unlocking the domain and requesting a transfer code {#1-unlocking-the-domain-and-requesting-a-transfer-code}
+## 1. Unlocking the domain and requesting a transfer code {#unlock-and-transfer-code}
 
 You can prepare your domain for transfer out in one click. This action will unlock the domain and send you the transfer code via email, if a transfer code is required.
 
@@ -67,7 +67,7 @@ If you requested a domain transfer out and have not received a transfer code wit
 > Note: Once this step is completed, so has DNSimple's role in the transfer process. All questions after this point must be directed to the gaining registrar.
 
 
-## 2. Starting the transfer at the gaining registrar {#2-starting-the-transfer-at-the-gaining-registrar}
+## 2. Starting the transfer at the gaining registrar {#gaining-registrar}
 
 Once you have the transfer code, start the transfer at the gaining registrar. **Requesting the transfer code will not automatically initiate a transfer out**.
 
@@ -76,7 +76,7 @@ Follow the gaining registrar's instructions to start a transfer, and enter the t
 DNSimple does not have access to this process. Contact the gaining registrar if you need help with this step.
 
 
-## 3. Approving the transfer request {#3-approving-the-transfer-request}
+## 3. Approving the transfer request {#approve-transfer}
 
 Depending on the TLD, the gaining registrar, the losing registrar, or both may send you an email to confirm the transfer request. Verify that the information in the request is correct (especially the name of the gaining registrar), and confirm the request.
 
@@ -87,6 +87,6 @@ Once the transfer is approved, the domain(s) will now be with your new registrar
 > [!NOTE]
 > Note: If you are transferring your domain out of DNSimple, and no longer require any of our additional services, your account will remain active until you unsubscribe. This will not happen automatically.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about transferring a domain away from DNSimple, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

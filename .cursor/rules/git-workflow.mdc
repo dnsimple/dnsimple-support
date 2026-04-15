@@ -49,20 +49,24 @@ Proposed commit message: 'Add SSL certificate lifecycle article'
 
 Does that look right?"
 
-### Checkpoint 3: PR creation (before opening the PR)
+### Checkpoint 3: PR creation (before pushing to origin)
 
-Before creating a pull request, ask:
+GitHub needs your branch on the remote before a PR can target it, but **do not push feature work to `origin` and stop.** Open the pull request in the same session as the first push, so there are no orphaned remote branches without a PR.
+
+Before pushing or creating the PR, ask:
 
 1. List every file that will be in the PR
 2. Ask whether this should be a **draft PR** or a **ready-for-review PR**
 3. Propose a PR title and ask the user to confirm or adjust
+4. After the user approves, **push and create the PR in one flow** (for example `gh pr create`, which pushes the branch when needed and opens the PR immediately, or `git push -u origin HEAD` followed right away by `gh pr create` / the GitHub **Compare & pull request** flow)
 
-Example prompt: "Ready to open the PR. It includes these files: [list]. Should this be a draft PR or ready for review? And does this title work: 'Add SSL certificate lifecycle article'?"
+Example prompt: "Ready to open the PR. It includes these files: [list]. Should this be a draft PR or ready for review? And does this title work: 'Add SSL certificate lifecycle article'? Once you confirm, I will push the branch and open the PR in the same step."
 
 ## Branch rules
 
 - **Always create a new branch** from the default branch (e.g., `main`). Never commit directly to `main`.
 - Every PR must come from its own branch.
+- **Push and PR together:** Never push a feature branch to `origin` without opening its PR in the same session (prefer `gh pr create` or push then immediately create the PR).
 
 ## What belongs in a PR
 
@@ -101,7 +105,7 @@ A PR should contain **only** the changes described by its purpose:
 
 ## Characters in content
 
-macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Em dashes (`—`) and en dashes (`–`) are fine in body text, but use hyphens (`-`) in filenames, frontmatter values, and anchor names.
+macOS text substitution can silently insert smart/curly quotes (`"` `"` `'` `'`) and ellipsis (`…`) that cause rendering issues on GitHub. Use straight quotes (`"` `'`) and three periods (`...`) instead. Do not use em dashes (`—`) or en dashes (`–`) anywhere. Use hyphens (`-`) instead.
 
 ## Branch naming
 

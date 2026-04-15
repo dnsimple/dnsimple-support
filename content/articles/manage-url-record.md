@@ -86,5 +86,5 @@ The instructions in this article assume you are familiar with the [URL record fo
 1.  Confirm the dialog to delete the record.
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions or need assistance managing URL records, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -51,5 +51,5 @@ While not common in new deployments, you might still encounter HINFO records in 
 ## HINFO records are part of older DNS configurations {#hinfo-records-are-part-of-older-dns-configurations}
 HINFO records are a relic of earlier internet practices, designed to provide basic hardware and operating system information about hosts. While their utility has largely been superseded by more secure and dynamic methods of system management, understanding what they are can be beneficial for comprehending older DNS configurations and the evolution of DNS practices. **For most modern deployments, you will not need to create or manage HINFO records.**
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your DNS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

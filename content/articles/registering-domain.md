@@ -63,6 +63,6 @@ If the domain was registered successfully (whether you have a subscription or no
 > Your card will be charged once the registration completes.
 > If the registration fails, funds will be released.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about registering domains with DNSimple, [contact us](https://dnsimple.com/feedback), and we will be happy to help.

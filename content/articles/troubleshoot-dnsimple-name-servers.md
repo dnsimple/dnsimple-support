@@ -36,5 +36,5 @@ The WHOIS response usually updates within a few minutes.
 
 If, after 24 hours, the domain still is not resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

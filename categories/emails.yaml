@@ -15,9 +15,8 @@ Explanation:
   Email Deliverability:
     - "Understanding Email Deliverability"
     - "Understanding Email Bounces"
-    - "Impact of Name Server Changes on Email Delivery"
   Email Security:
-    - "Email Security Best Practices"
+    - "Protecting Your Domain from Email Spoofing"
   MX Records:
     - "What Is an MX Record?"
     - "What Are Null MX Records?"
@@ -52,7 +51,6 @@ How to:
   Email Deliverability:
     - "Improving Email Deliverability"
     - "Monitoring Email Deliverability"
-    - "Protecting Your Domain from Email Spoofing"
   MX Records:
     - "Querying MX Records"
   Verification:
@@ -64,14 +62,10 @@ How to:
     - "Troubleshooting Email Forwarding Delivery Issues"
     - "Troubleshooting Email Forwarding with Other Providers"
     - "Troubleshooting Email Authentication"
-    - "Troubleshooting Email Issues Related to Name Servers"
-  API:
-    - "Managing Email Forwards with the API"
 
 Reference:
   Email Forwarding:
     - "Email Forwarding Management in DNSimple"
-    - "Email Forwarding API Reference"
     - "Email Forwarding Limits and Quotas"
   MX Records:
     - "MX Record Reference"

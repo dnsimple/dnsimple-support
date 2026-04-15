@@ -64,6 +64,6 @@ CDS and CDNSKEY help prevent this by ensuring that DS records are automatically 
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with DNSSEC, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 
