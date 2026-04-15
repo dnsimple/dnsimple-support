@@ -28,8 +28,6 @@ Email authentication:
 - "Implementing a Gradual DMARC Policy"
 - "Managing Multiple DKIM Selectors"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
 How to:
   Email Forwarding:
     - "Enabling Email Forwarding"
