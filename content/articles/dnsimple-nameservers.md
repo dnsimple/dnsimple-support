@@ -12,9 +12,9 @@ For DNSimple to provide DNS for one of your domain names, you must change the na
 
 The DNSimple name servers are:
 
-- ns1.dnsimple-edge.com
+- ns1.dnsimple.com
 - ns2.dnsimple-edge.net
-- ns3.dnsimple-edge.io
+- ns3.dnsimple.com
 - ns4.dnsimple-edge.org
 
 If you registered your domain with DNSimple, your name servers will already be set to the DNSimple name servers. There's nothing else you need to do.
@@ -33,9 +33,9 @@ If you need to provide the IP addresses to your current registrar, use the follo
 <th>IPv6 Address</th>
 </tr>
 <tr>
-<td>ns1.dnsimple-edge.com</td>
-<td>199.247.152.53</td>
-<td>2620:111:8004::53</td>
+<td>ns1.dnsimple.com</td>
+<td>162.159.24.4</td>
+<td>2400:cb00:2049:1::a29f:1804</td>
 </tr>
 <tr>
 <td>ns2.dnsimple-edge.net</td>
@@ -43,9 +43,9 @@ If you need to provide the IP addresses to your current registrar, use the follo
 <td>2620:111:8005::53</td>
 </tr>
 <tr>
-<td>ns3.dnsimple-edge.io</td>
-<td>199.247.154.53</td>
-<td>2620:111:8006::53</td>
+<td>ns3.dnsimple.com</td>
+<td>162.159.26.4</td>
+<td>2400:cb00:2049:1::a29f:1a04</td>
 </tr>
 <tr>
 <td>ns4.dnsimple-edge.org</td>
@@ -58,7 +58,5 @@ If you need to provide the IP addresses to your current registrar, use the follo
 
 We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs:
 
-- ns1.dnsimple.com
 - ns2.dnsimple.com
-- ns3.dnsimple.com
 - ns4.dnsimple.com
