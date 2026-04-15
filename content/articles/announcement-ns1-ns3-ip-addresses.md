@@ -70,7 +70,7 @@ If you independently maintain a copy of your zone at another DNS provider (not t
 - **Self-migrate** (recommended): at your registrar, update the delegation to use `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io` instead. You can do this any time **after May 1, 2026**.
 - **Do nothing**: by June 12, 2026, we will transparently update the A and AAAA records for `ns1.dnsimple.com` and `ns3.dnsimple.com` to point at the new edge infrastructure. Your delegation will continue to work without changes on your side.
 
-### Group 3 — Vanity name servers with glue records on the legacy IPs
+### Group 3 — Using vanity name servers with a domain NOT registered through DNSimple
 
 **You must self-migrate before July 6, 2026.** If you use vanity name servers (for example `ns1.yourdomain.com`), the glue records at your registrar currently point at the legacy Cloudflare IPs. We cannot update glue records on your behalf — only your registrar can do that. If you take no action, your domains will stop resolving when the legacy IPs are decommissioned.
 
