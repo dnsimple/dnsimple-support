@@ -40,7 +40,7 @@ This mechanism allows you, the domain owner, to explicitly declare your sending 
 ## Key benefits of SPF: {#key-benefits-of-spf}
 **Combats email spoofing:** Prevents unauthorized parties from sending emails that appear to originate from your domain.
 
-**Improves email deliverability:** Emails from domains with properly configured SPF records are more likely to be trusted and delivered to inboxes, avoiding spam folders.
+**Improves [email deliverability](/articles/understanding-email-deliverability/):** Emails from domains with properly configured SPF records are more likely to be trusted and delivered to inboxes, avoiding spam folders.
 
 **Enhances domain reputation:** Helps maintain a positive sending reputation for your domain, which is crucial for overall email success.
 

@@ -1,7 +1,7 @@
 ---
 title: Monitoring Email Deliverability
-excerpt: How to monitor email deliverability using tools and techniques to track inbox placement and identify issues.
-meta: Guide to monitoring email deliverability with tools, metrics, and techniques to ensure your emails reach recipients' inboxes.
+excerpt: How to monitor email authentication, sender reputation, and deliverability using free tools and DMARC reports.
+meta: Guide to monitoring email deliverability by tracking DMARC reports, sender reputation, blacklist status, and authentication pass rates with free tools.
 categories:
 - Emails
 ---
@@ -15,384 +15,122 @@ categories:
 
 ---
 
-Regular monitoring of email deliverability is essential for maintaining good sender reputation and ensuring your emails reach recipients' inboxes. This guide covers tools, metrics, and techniques for monitoring email deliverability.
+Deliverability problems are easier to fix when you catch them early. Regular monitoring of authentication status, sender reputation, and bounce rates helps you identify issues before they damage your domain's reputation with mailbox providers.
 
-## Why monitor email deliverability? {#why}
+For background on the factors that affect deliverability, see [Understanding Email Deliverability](/articles/understanding-email-deliverability/).
 
-Monitoring email deliverability helps you:
+## Monitor authentication with DMARC reports {#dmarc-reports}
 
-- **Identify issues early:** Catch problems before they significantly impact deliverability
-- **Maintain reputation:** Track sender reputation and address issues promptly
-- **Optimize performance:** Use data to improve email campaigns
-- **Prevent problems:** Avoid blacklisting and reputation damage
-- **Measure success:** Track improvements and ROI
+DMARC aggregate reports are the most direct way to see whether your email is passing authentication checks. When you publish a [DMARC record](/articles/dmarc-record/) with a `rua=` tag, mailbox providers send daily XML reports to that address.
 
-## Key metrics to monitor {#metrics}
+### What aggregate reports tell you {#aggregate-reports}
 
-### Delivery rate {#delivery-rate}
+Each report covers a specific time window (usually 24 hours) and includes:
 
-The percentage of emails that successfully reach the recipient's mail server.
+- Which IP addresses sent email using your domain
+- Whether each message passed or failed SPF and DKIM
+- What DMARC policy was applied (none, quarantine, reject)
+- The volume of messages from each source
 
-**How to measure:**
-- Track bounces (hard and soft)
-- Calculate: (Total sent - Bounces) / Total sent x 100
+This data helps you spot unauthorized senders, identify services missing from your [SPF record](/articles/spf-record/), and find [DKIM](/articles/dkim-record/) misconfigurations.
 
-**Target:** 95% or higher
+### Parse reports with a dashboard tool {#dmarc-tools}
 
-**What to watch for:**
-- Sudden drops in delivery rate
-- High hard bounce rates (invalid addresses)
-- High soft bounce rates (temporary issues)
+Raw DMARC reports are XML files that are difficult to read manually. Use a parsing service to turn them into readable dashboards:
 
-### Inbox placement rate {#inbox-placement}
+- [dmarcian](https://dmarcian.com/) - Free tier available. Shows authentication results, source IPs, and policy compliance over time.
+- [Postmark DMARC](https://dmarc.postmarkapp.com/) - Free weekly digests. Good for low-volume domains that do not need real-time data.
+- [Google Postmaster Tools](https://postmaster.google.com/) - Does not parse DMARC XML directly, but shows Gmail-specific authentication pass rates and spam rates for verified domains.
 
-The percentage of delivered emails that reach the inbox (not spam folder).
+### What to look for {#dmarc-red-flags}
 
-**How to measure:**
-- Use seed lists or monitoring services
-- Track spam folder placement
-- Calculate: Inbox placements / Total delivered x 100
+- **Unexpected source IPs** - These may indicate a service you forgot to authorize, or someone spoofing your domain. Cross-reference with your SPF record.
+- **SPF failures from legitimate services** - A service sending on your behalf is missing from your SPF `include:` list. Add it. See [Setting Up SPF Records](/articles/setting-up-spf/).
+- **DKIM failures** - The sending service may not have DKIM enabled, or the DNS record may be missing or incorrect. See [Setting Up DKIM](/articles/set-up-dkim/).
+- **High failure rates after a policy change** - If you recently moved from `p=none` to `p=quarantine` or `p=reject`, failures you previously ignored now affect delivery. Review and fix before tightening further. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
-**Target:** 85% or higher
+## Monitor sender reputation {#reputation}
 
-**What to watch for:**
-- Emails going to spam folders
-- Declining inbox placement over time
-- Differences across email providers
+Mailbox providers assign reputation scores to your domain and sending IPs. A declining reputation leads to more email landing in spam, even when authentication passes.
 
-### Bounce rate {#bounce-rate}
+### Gmail: Google Postmaster Tools {#google-postmaster}
 
-The percentage of emails that bounce (could not be delivered).
+[Google Postmaster Tools](https://postmaster.google.com/) provides Gmail-specific data after you verify domain ownership:
 
-**Types of bounces:**
-- **Hard bounces:** Permanent failures (invalid addresses, domain does not exist)
-- **Soft bounces:** Temporary failures (mailbox full, server issues)
+- **Domain reputation** - Rated High, Medium, Low, or Bad. A drop from High to Medium warrants investigation.
+- **Spam rate** - The percentage of your email that Gmail users marked as spam. Keep this below 0.1%.
+- **Authentication** - SPF, DKIM, and DMARC pass rates for mail sent to Gmail.
 
-**Target:** Less than 2% total, with hard bounces below 0.5%
+Check weekly. If spam rate spikes or reputation drops, review recent sending changes and authentication status.
 
-**What to watch for:**
-- High hard bounce rates (list quality issue)
-- High soft bounce rates (server or recipient issues)
-- Sudden increases in bounce rates
+### Outlook: Microsoft SNDS {#microsoft-snds}
 
-### Spam complaint rate {#spam-complaints}
+[Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/) (Smart Network Data Services) provides Outlook and Hotmail data:
 
-The percentage of recipients who mark emails as spam.
+- IP reputation (green/yellow/red)
+- Complaint rates
+- Spam trap hits
 
-**How to measure:**
-- Track spam complaints from ISPs
-- Monitor feedback loops
-- Calculate: Spam complaints / Total delivered x 100
+Register your sending IPs to access the data.
 
-**Target:** Less than 0.1% (0.1 complaints per 1000 emails)
+### General: Sender Score {#sender-score}
 
-**What to watch for:**
-- Increasing complaint rates
-- Complaints from specific segments
-- Correlation with specific campaigns
+[Sender Score](https://www.senderscore.org/) provides a 0-100 reputation score based on sending history across multiple mailbox providers. Scores below 70 indicate reputation problems.
 
-### Engagement metrics {#engagement}
+## Monitor blacklists {#blacklists}
 
-**Open rate:** Percentage of recipients who open emails
+Blacklists are maintained by organizations that track IPs and domains associated with spam. Being listed can cause widespread delivery failures.
 
-**Click rate:** Percentage of recipients who click links
+### Check your status {#check-blacklists}
 
-**Unsubscribe rate:** Percentage of recipients who unsubscribe
+[MXToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) scans your domain or IP against dozens of blacklists simultaneously. Run this check:
 
-**What to watch for:**
-- Declining engagement over time
-- Low engagement indicating deliverability issues
-- Engagement differences across segments
+- Immediately if you notice a sudden drop in delivery rates
+- Monthly as a routine check
+- After resolving any spam complaint or abuse incident
 
-## Monitoring tools {#tools}
+### If you are listed {#delisting}
 
-### Email service provider analytics {#esp-analytics}
+1. Identify the root cause (compromised account, spam complaints, open relay, etc.) and fix it.
+2. Visit the blacklist operator's website and follow their delisting process. Most require a removal request after the underlying issue is resolved.
+3. Monitor after delisting to confirm the issue does not recur.
 
-Most email service providers offer built-in analytics:
+Major blacklists include [Spamhaus](https://www.spamhaus.org/lookup/), [Barracuda](https://www.barracudacentral.org/), and [SURBL](https://www.surbl.org/).
 
-**What to monitor:**
-- Delivery rates
-- Bounce rates
-- Open and click rates
-- Spam complaints
-- Unsubscribe rates
+## Monitor bounce rates {#bounces}
 
-**How to use:**
-- Review analytics dashboard regularly
-- Set up alerts for significant changes
-- Export data for deeper analysis
-- Compare metrics over time
+High bounce rates damage sender reputation quickly. Your email service provider's dashboard is the primary place to track these.
 
-### Sender reputation tools {#reputation-tools}
+### Thresholds to watch {#thresholds}
 
-**[Sender Score](https://www.senderscore.org/):**
-- Free reputation score (0-100)
-- Shows reputation trends
-- Identifies potential issues
+| Metric | Healthy | Investigate |
+|---|---|---|
+| Total bounce rate | Below 2% | 2% or higher |
+| Hard bounce rate | Below 0.5% | 0.5% or higher |
+| Spam complaint rate | Below 0.1% | 0.1% or higher |
 
-**How to use:**
-- Check your score regularly
-- Monitor trends over time
-- Address issues that affect score
+A sudden increase in hard bounces usually means a batch of invalid addresses entered your list. A gradual increase in soft bounces may indicate recipient server issues or sending volume problems.
 
-**[Google Postmaster Tools](https://postmaster.google.com/):**
-- Gmail-specific deliverability data
-- Spam rate, reputation, and authentication data
-- Requires domain verification
+For more on bounce types and handling, see [Understanding Email Bounces](/articles/understanding-email-bounces/).
 
-**How to use:**
-- Verify your domain
-- Monitor Gmail-specific metrics
-- Address Gmail-specific issues
+## Set up a monitoring routine {#routine}
 
-**[Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/) (Smart Network Data Services):**
-- Outlook/Hotmail-specific data
-- IP reputation and complaint data
-- Requires registration
-
-**How to use:**
-- Register your sending IPs
-- Monitor Outlook-specific metrics
-- Address issues identified
-
-### Blacklist monitoring {#blacklist}
-
-**[MXToolbox](https://mxtoolbox.com/blacklists.aspx):**
-- Check multiple blacklists
-- Monitor blacklist status
-- Get alerts if blacklisted
-
-**How to use:**
-- Regularly check blacklist status
-- Set up monitoring for your IPs and domains
-- Address blacklist issues immediately
-
-**Other tools:**
-- [Spamhaus](https://www.spamhaus.org/lookup/) - Email blacklist and reputation service
-- [BarracudaCentral](https://www.barracudacentral.org/) - Email reputation and blacklist monitoring
-- [SURBL](https://www.surbl.org/) - URI reputation service
-
-### Email testing tools {#testing-tools}
-
-**[Mail-Tester](https://www.mail-tester.com/):**
-- Tests email for spam triggers
-- Provides spam score
-- Shows authentication results
-
-**How to use:**
-- Send test emails before campaigns
-- Review spam score and issues
-- Fix identified problems
-
-**[Litmus](https://www.litmus.com/) or [Email on Acid](https://www.emailonacid.com/):**
-- Tests email rendering
-- Checks spam filters
-- Tests across email clients
-
-**How to use:**
-- Test emails before sending
-- Ensure proper rendering
-- Check spam filter results
-
-### DMARC reporting tools {#dmarc-tools}
-
-**DMARC reports:**
-- Aggregate reports (RUA) show overall authentication
-- Forensic reports (RUF) show individual failures
-- Help identify authentication issues
-
-**How to use:**
-- Set up DMARC with reporting
-- Regularly review DMARC reports
-- Identify and fix authentication failures
-- Use tools like [dmarcian](https://dmarcian.com/) or [Postmark](https://postmarkapp.com/dmarc) to parse reports
-
-## Monitoring techniques {#techniques}
-
-### Regular reviews {#reviews}
-
-**Daily:**
-- Check bounce rates
-- Monitor spam complaints
-- Review any alerts or notifications
+Deliverability monitoring does not need to be time-consuming if you check the right things on a regular schedule:
 
 **Weekly:**
-- Review delivery and inbox placement rates
-- Analyze engagement metrics
-- Check sender reputation scores
+- Review DMARC report summaries in your parsing tool
+- Check Google Postmaster Tools for spam rate and reputation trends
 
 **Monthly:**
-- Comprehensive deliverability review
-- Compare metrics to previous months
-- Identify trends and patterns
-- Plan improvements
+- Run a blacklist check on your domain and primary sending IPs
+- Review bounce rate trends in your email service provider's dashboard
+- Verify authentication records have not changed unexpectedly (e.g., after a DNS migration or provider change)
 
-### Setting up alerts {#alerts}
-
-**Key alerts to set up:**
-- Bounce rate above threshold
-- Spam complaint rate above threshold
-- Blacklist notifications
-- Significant drops in delivery rates
-- Authentication failures
-
-**How to set up:**
-- Use your email service provider's alert features
-- Set up monitoring with third-party tools
-- Configure email notifications for critical issues
-
-### Seed list monitoring {#seed-list}
-
-**What is a seed list:**
-- A list of test email addresses at various providers
-- Used to monitor inbox placement
-- Helps identify deliverability issues
-
-**How to use:**
-- Create seed addresses at major providers (Gmail, Outlook, Yahoo, etc.)
-- Add seed addresses to your email list
-- Monitor where seed emails land (inbox vs. spam)
-- Track inbox placement rates
-
-> [!NOTE]
-> Follow your email platform's policies before adding seed addresses to production lists. Some teams use dedicated inbox placement tools instead of mixing seeds into subscriber lists.
-
-**Providers to include:**
-- Gmail
-- Outlook/Hotmail
-- Yahoo Mail
-- Apple Mail/iCloud
-- Other providers relevant to your audience
-
-### A/B testing {#ab-testing}
-
-**What to test:**
-- Subject lines
-- Email content
-- Sending times
-- Sender names
-- Content formatting
-
-**How to use:**
-- Test one variable at a time
-- Send to small test groups
-- Measure deliverability and engagement
-- Apply winning variations to full campaigns
-
-## Creating a monitoring dashboard {#dashboard}
-
-### Key metrics to include
-
-1. **Delivery metrics:**
-   - Delivery rate
-   - Bounce rate (hard and soft)
-   - Inbox placement rate
-
-2. **Reputation metrics:**
-   - Sender Score
-   - Blacklist status
-   - Authentication pass rates
-
-3. **Engagement metrics:**
-   - Open rate
-   - Click rate
-   - Spam complaint rate
-   - Unsubscribe rate
-
-4. **Trends:**
-   - Metrics over time
-   - Comparisons to previous periods
-   - Goal progress
-
-### Tools for dashboards
-
-- **Email service provider dashboards:** Use built-in analytics
-- **[Google Analytics](https://analytics.google.com/):** Track email campaign performance
-- **Custom dashboards:** Use tools like [Google Data Studio](https://datastudio.google.com/) or [Tableau](https://www.tableau.com/) to create custom dashboards
-- **Spreadsheets:** Create custom tracking spreadsheets
-
-## Interpreting monitoring data {#interpreting}
-
-### Red flags
-
-**Immediate action needed:**
-- Blacklist status
-- Spam complaint rate above 0.1%
-- Hard bounce rate above 1%
-- Significant drop in delivery rate
-
-**Investigation needed:**
-- Gradual decline in inbox placement
-- Increasing bounce rates
-- Declining engagement
-- Authentication failures
-
-### Positive indicators
-
-**Good performance:**
-- Delivery rate above 95%
-- Inbox placement above 85%
-- Bounce rate below 2%
-- Spam complaint rate below 0.1%
-- Consistent or improving metrics
-
-## Taking action on monitoring data {#action}
-
-### When issues are detected
-
-1. **Immediate actions:**
-   - Address blacklist issues
-   - Fix authentication problems
-   - Remove hard bounces from list
-   - Investigate spam complaints
-
-2. **Short-term actions:**
-   - Clean email list
-   - Review and improve content
-   - Adjust sending practices
-   - Monitor closely
-
-3. **Long-term actions:**
-   - Improve list quality
-   - Enhance email content
-   - Optimize sending practices
-   - Build better reputation
-
-### Continuous improvement
-
-1. **Regular analysis:**
-   - Review metrics regularly
-   - Identify trends
-   - Compare to benchmarks
-
-2. **Testing:**
-   - Test improvements
-   - Measure results
-   - Iterate based on data
-
-3. **Optimization:**
-   - Continuously improve based on data
-   - Stay updated on best practices
-   - Adapt to changes in email landscape
-
-## Best practices {#best-practices}
-
-- Monitor key metrics regularly
-- Set up alerts for critical issues
-- Use multiple monitoring tools
-- Track trends over time
-- Take action on issues promptly
-- Test before major campaigns
-- Document findings and actions
-- Continuously improve based on data
-
-## Related topics
-
-- [Understanding Email Deliverability](/articles/understanding-email-deliverability/) - Overview of email deliverability
-- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Steps to improve deliverability
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Authentication troubleshooting
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup for reporting
+**After any DNS or provider change:**
+- Verify SPF, DKIM, and DMARC records are still correct. See [Verifying SPF](/articles/verifying-spf/), [Verifying DKIM](/articles/verify-dkim/), and [Verifying DMARC](/articles/verifying-dmarc/).
+- Send test emails to Gmail, Outlook, and Yahoo to confirm inbox placement
+- Monitor DMARC reports closely for the following week
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with monitoring email deliverability, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need assistance with monitoring email deliverability, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
