@@ -39,5 +39,5 @@ categories:
 1. Under **Connected providers**, click **Disconnect** for the Integrated DNS Provider you want to disconnect from your DNSimple account. This will remove the ability to view and manage zones and their DNS records at the connected provider via DNSimple.
 ![Disconnect an Integrated DNS Provider](/files/account-integrated-provider-unlink.png)
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions about connecting Integrated DNS Providers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

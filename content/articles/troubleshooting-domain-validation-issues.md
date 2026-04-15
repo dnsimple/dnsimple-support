@@ -135,7 +135,7 @@ Domain validation is required by ICANN to ensure the accuracy of contact informa
 
 4. **Contact support**: If the status still does not update after refreshing, [contact support](https://dnsimple.com/feedback) with your domain name and the date/time you completed verification.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have tried these troubleshooting steps and are still experiencing issues with domain validation, [contact our support team](https://dnsimple.com/feedback). Please include:
 

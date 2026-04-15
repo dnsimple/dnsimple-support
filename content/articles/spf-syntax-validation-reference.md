@@ -71,5 +71,5 @@ To ensure proper functionality and compliance with RFCs, SPF records must adhere
 ## References {#references}
 [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208): Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1 (The current authoritative specification for SPF). This RFC supersedes RFC 4408.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your SPF records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

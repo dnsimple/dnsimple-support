@@ -54,6 +54,6 @@ Most registries change the name servers of expired domains, causing DNS resoluti
 
 If your domain is expired, it needs to be renewed in order to be able to revert back to resolve with the original name servers. You can renew the domain by clicking **Renew (example.com)** in the notification. Refer to [this guide](/articles/renewing-domain/) for how to renew a domain, and this [guide](/articles/what-happens-when-domain-expires/) for more information on what happens when a domain expires. We also strongly recommend [enabling auto-renew](/articles/domain-auto-renewal/#enabling-auto-renewal) for your domains.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about verifying your domain resolution or the actions you need to take to fix it, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

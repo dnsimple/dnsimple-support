@@ -50,5 +50,5 @@ We have added some features to keep things fast and reliable:
 
 **Timeout and retries:** Sometimes the external lookup fails or takes too long (we are aiming for 500 milliseconds or less, and we are working on making it even faster). When that happens, we try to return a cached answer first if we have one. If there is no cache, we retry the lookup a few times. We only return an empty result if all those attempts fail. This keeps your domain accessible even if the target service has a temporary problem.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -39,5 +39,5 @@ If you encounter issues after disabling DNSSEC, see [Troubleshooting DNSSEC Conf
 
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For information about enabling DNSSEC, see [Enabling DNSSEC](/articles/enabling-dnssec/). For information about DS records and how they work, see [What Are DS Records?](/articles/what-are-ds-records/). To understand TTL and how it affects DNS record propagation, see [What Is Time-to-Live?](/articles/what-is-ttl/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions or need assistance disabling your DNSSEC, [contact support](https://dnsimple.com/contact), and we will be happy to help.

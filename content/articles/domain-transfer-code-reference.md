@@ -121,6 +121,6 @@ For step-by-step instructions, see [Transferring a domain away from DNSimple](/a
 
 **Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to transfer codes. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have additional questions or need any assistance with transfer codes, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

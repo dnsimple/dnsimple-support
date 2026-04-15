@@ -32,6 +32,6 @@ If the domain is resolved with DNSimple, we will immediately stop resolving it, 
 
 </div>
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 
 If you have any questions about deleting domains, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

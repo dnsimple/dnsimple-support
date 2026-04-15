@@ -57,5 +57,5 @@ There are a few cases where you may want to deactivate a zone:
 - You wanted to register a domain with us, but you are not actively using the domain (e.g., the domain is just reserved for future use or parked).
 - You added the domain just to purchase an SSL certificate, but the domain is not delegated to us, and it is not resolving with DNSimple.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have any questions or need assistance activating or deactivating a DNS zone, contact support, and we will be happy to help.

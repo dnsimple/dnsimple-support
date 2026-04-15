@@ -27,5 +27,5 @@ To maintain seamless operation, and ensure your secondary DNS servers always ser
 
 This proactive approach ensures that, even when using secondary DNS, the dynamic nature of ALIAS records is fully supported, providing reliable, up-to-date name resolution for your domain.
 
-## Have more questions? {#have-more-questions}
+## Have more questions?
 If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
