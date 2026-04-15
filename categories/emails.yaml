@@ -1,6 +1,6 @@
 Getting started:
-- "Email Forwarding"
-- "Email Hosting Support"
+  - "Email Forwarding"
+  - "Email Hosting Support"
 
 Email DNS records:
 - "What's a DKIM Record?"
@@ -16,6 +16,23 @@ Email DNS records:
 - "Setting Up MX Records for Email Hosting"
 - "What Are Null MX Records?"
 - "Setting Up Null MX Records"
+Explanation:
+  - "What Is Email Forwarding?"
+  - "What Is a DKIM Record?"
+  - "What Is a DMARC Record?"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
+How to:
+  Email Forwarding:
+    - "Enabling Email Forwarding"
+  DKIM and DMARC:
+    - "Setting up DKIM"
+    - "Setting up DMARC"
+    - "Verifying DKIM with dig and Online Tools"
+    - "Verifying DMARC with dig and Online Tools"
+  Troubleshooting:
+    - "Troubleshooting Email Forwarding with Gmail"
+
+Reference:
+  - "Email Forwarding Management in DNSimple"
+  - "DKIM Record Reference"
+  - "DMARC Record Reference"
