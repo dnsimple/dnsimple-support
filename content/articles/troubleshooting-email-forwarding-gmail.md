@@ -17,7 +17,7 @@ categories:
 
 Gmail handles forwarded email differently from most providers. If forwarded messages are not arriving, are going to spam, or are triggering security warnings, the sections below cover the most common causes and fixes.
 
-For issues with other email providers, see [Troubleshooting Email Forwarding with Other Providers](/articles/troubleshooting-email-forwarding-with-other-providers/). For general delivery issues, see [Troubleshooting Email Forwarding Delivery Issues](/articles/troubleshooting-email-forwarding-delivery-issues/).
+For issues with other email providers, see [Email Forwarding Not Working with Outlook, Yahoo, and Other Providers](/articles/email-forwarding-not-working-outlook-yahoo/). For general delivery issues, see [Email Forwarding Not Working](/articles/email-forwarding-not-working/).
 
 ## Test emails not appearing {#test-emails-not-appearing}
 

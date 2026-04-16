@@ -31,7 +31,7 @@ If you are new to email forwarding, start with these articles:
 
 ## Getting started {#getting-started}
 
-- [Enabling Email Forwarding](/articles/enabling-email-forwarding/): A step-by-step guide to turning email forwarding on for your domain.
+- [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/): A step-by-step guide to turning email forwarding on for your domain.
 
 ## Managing email forwarding {#managing}
 
@@ -39,7 +39,7 @@ If you are new to email forwarding, start with these articles:
 
 ## Troubleshooting {#troubleshooting}
 
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/): Diagnose and resolve common email forwarding problems with Gmail.
+- [Email Forwarding Not Working with Gmail](/articles/email-forwarding-not-working-gmail/): Diagnose and resolve common email forwarding problems with Gmail.
 
 ## Have more questions?
 

@@ -73,7 +73,7 @@ To start using email forwarding, you will need:
 > [!WARNING]
 > When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you are currently using another email service provider, that service will stop working.
 
-For step-by-step instructions, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
+For step-by-step instructions, see [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/).
 
 ## Have more questions?
 

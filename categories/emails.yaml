@@ -23,11 +23,11 @@ Explanation:
 
 How to:
   Email Forwarding:
-    - "Enabling Email Forwarding"
-    - "Creating and Deleting Email Forwards"
-    - "Managing Email Forwarding for Multiple Domains"
-    - "Migrating Email Forwarding from Another Provider"
-    - "Handling Email Bounces with Email Forwarding"
+    - "How to Set Up Email Forwarding"
+    - "How to Add and Remove Email Forwards"
+    - "Email Forwarding for Multiple Domains"
+    - "How to Migrate Email Forwarding to DNSimple"
+    - "Email Forwarding and Bounced Emails"
   Email Authentication:
     - "Setting Up SPF Records"
     - "Setting Up DKIM"
@@ -58,9 +58,9 @@ How to:
     - "Verifying DKIM with dig and Online Tools"
     - "Verifying DMARC with dig and Online Tools"
   Troubleshooting:
-    - "Troubleshooting Email Forwarding with Gmail"
-    - "Troubleshooting Email Forwarding Delivery Issues"
-    - "Troubleshooting Email Forwarding with Other Providers"
+    - "Email Forwarding Not Working with Gmail"
+    - "Email Forwarding Not Working"
+    - "Email Forwarding Not Working with Outlook, Yahoo, and Other Providers"
     - "Troubleshooting Email Authentication"
 
 Reference:

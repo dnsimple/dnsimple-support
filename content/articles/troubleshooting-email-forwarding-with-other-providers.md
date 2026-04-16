@@ -15,7 +15,7 @@ categories:
 
 ---
 
-If forwarded emails are not arriving or are going to spam at Outlook, Yahoo, Apple Mail, or other providers, use the steps below to diagnose and fix the issue. For Gmail-specific issues, see [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/).
+If forwarded emails are not arriving or are going to spam at Outlook, Yahoo, Apple Mail, or other providers, use the steps below to diagnose and fix the issue. For Gmail-specific issues, see [Email Forwarding Not Working with Gmail](/articles/email-forwarding-not-working-gmail/).
 
 ## Common issues by provider {#by-provider}
 

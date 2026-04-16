@@ -39,7 +39,7 @@ When creating a new email forward, you will see the following fields and options
 4. <label>To</label> field - Enter the full email address where emails should be forwarded (e.g., `yourname@gmail.com`).
 5. <label>Create forward</label> button - Click to create the email forward.
 
-For step-by-step instructions on enabling email forwarding, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
+For step-by-step instructions on setting up email forwarding, see [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/).
 
 ## Email forwards list {#forwards-list}
 

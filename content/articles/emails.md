@@ -30,11 +30,11 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Setting up email forwarding {#setup-forwarding}
 
-- [Enabling Email Forwarding](/articles/enabling-email-forwarding/) - Turn on email forwarding for your domain.
-- [Creating and Deleting Email Forwards](/articles/managing-email-forwards/) - Create, manage, and remove forwarding rules.
+- [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/) - Turn on email forwarding for your domain.
+- [How to Add and Remove Email Forwards](/articles/add-and-remove-email-forwards/) - Add, edit, and remove forwarding rules.
 - [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) - Forwarding limits, quotas, and billing.
-- [Managing Email Forwarding for Multiple Domains](/articles/managing-email-forwarding-for-multiple-domains/) - Manage forwarding across multiple domains.
-- [Migrating Email Forwarding from Another Provider](/articles/migrating-email-forwarding-from-another-provider/) - Move forwarding configuration from another provider.
+- [Email Forwarding for Multiple Domains](/articles/email-forwarding-multiple-domains/) - Manage forwarding across multiple domains.
+- [How to Migrate Email Forwarding to DNSimple](/articles/migrate-email-forwarding/) - Move forwarding configuration from another provider.
 
 ## Setting up email authentication {#setup-authentication}
 
@@ -55,9 +55,9 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Troubleshooting {#troubleshooting}
 
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/) - Diagnose forwarding problems with Gmail.
-- [Troubleshooting Email Forwarding Delivery Issues](/articles/troubleshooting-email-forwarding-delivery-issues/) - Resolve email delivery problems with forwarding.
-- [Troubleshooting Email Forwarding with Other Providers](/articles/troubleshooting-email-forwarding-with-other-providers/) - Fix forwarding issues with providers other than Gmail.
+- [Email Forwarding Not Working with Gmail](/articles/email-forwarding-not-working-gmail/) - Diagnose forwarding problems with Gmail.
+- [Email Forwarding Not Working](/articles/email-forwarding-not-working/) - Resolve email delivery problems with forwarding.
+- [Email Forwarding Not Working with Outlook, Yahoo, and Other Providers](/articles/email-forwarding-not-working-outlook-yahoo/) - Fix forwarding issues with providers other than Gmail.
 - [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnose SPF, DKIM, and DMARC failures.
 
 ## Advanced topics {#advanced}
@@ -82,7 +82,7 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 ### Email bounces {#bounces}
 
 - [Understanding Email Bounces](/articles/understanding-email-bounces/) - Types of bounces and what causes them.
-- [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/) - How bounces work with forwarding and how to handle them.
+- [Email Forwarding and Bounced Emails](/articles/email-forwarding-bounces/) - How bounces work with forwarding and how to handle them.
 
 ### MX records {#mx-records}
 
