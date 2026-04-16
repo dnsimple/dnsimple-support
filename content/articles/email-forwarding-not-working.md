@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Email Forwarding Delivery Issues
-excerpt: Guide to troubleshooting email delivery problems with email forwarding.
-meta: Step-by-step guide to diagnosing and fixing email forwarding delivery issues.
+title: Email Forwarding Not Working
+excerpt: Diagnose and fix email forwarding delivery problems, including emails not arriving, going to spam, or being delayed.
+meta: Fix email forwarding that is not working. Diagnose why forwarded emails are not arriving, going to spam, or being delayed.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Forwarding Delivery Issues
+# Email Forwarding Not Working
 
 ### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ categories:
 
 If emails are not being delivered through email forwarding, use this guide to diagnose and fix the issue.
 
-## Common issues {#common-issues}
+## Why email forwarding is not working {#common-issues}
 
 ### Emails not arriving at destination
 
@@ -106,7 +106,7 @@ If emails are not being delivered through email forwarding, use this guide to di
    - If issues persist, [contact DNSimple support](https://dnsimple.com/feedback)
    - Provide details about the issue
 
-## Testing email forwarding {#testing}
+## Test and verify email forwarding {#testing}
 
 ### Send test emails
 

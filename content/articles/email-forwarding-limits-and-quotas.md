@@ -1,7 +1,7 @@
 ---
 title: Email Forwarding Limits and Quotas
 excerpt: Detailed explanation of email forwarding limits, quotas, and billing at DNSimple.
-meta: Understand email forwarding limits, quotas, and billing to manage your email forwarding service at DNSimple.
+meta: Email forwarding limits, message quotas, and billing details for each DNSimple plan. Understand what happens when you reach your forwarding limit.
 categories:
 - Emails
 ---

@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Email Forwarding with Gmail
-excerpt: How to check and debug email forwarding issues.
-meta: Learn how to troubleshoot and resolve email forwarding issues with Gmail effectively. Follow our step-by-step guide for a seamless email experience.
+title: Email Forwarding Not Working with Gmail
+excerpt: Diagnose and fix email forwarding problems with Gmail, including spam filtering, missing test emails, and delayed delivery.
+meta: Fix email forwarding issues with Gmail, including forwarded emails going to spam, test emails not appearing, security warnings, and delayed delivery.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Forwarding
+# Email Forwarding Not Working with Gmail
 
 Once email forwarding is configured for your domain you may wish to confirm it is working as expected by sending a test message.
 
@@ -16,4 +16,3 @@ To properly test that email forwarding works with Gmail, please use an entirely 
 
 > [!NOTE] Test emails not appearing in Gmail
 > Google silently ignores messages it determines were sent and received from the same account. This will occur even if the message is forwarded through another address.
-

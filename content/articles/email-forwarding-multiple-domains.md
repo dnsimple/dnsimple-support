@@ -1,12 +1,12 @@
 ---
-title: Managing Email Forwarding for Multiple Domains
-excerpt: How to efficiently manage email forwarding across multiple domains in DNSimple.
-meta: Guide to managing email forwarding for multiple domains, including best practices and tips for efficient administration.
+title: Email Forwarding for Multiple Domains
+excerpt: How to set up and manage email forwarding across multiple domains in DNSimple.
+meta: How to set up and manage email forwarding across multiple domains in DNSimple, with configuration strategies and best practices.
 categories:
 - Emails
 ---
 
-# Managing Email Forwarding for Multiple Domains
+# Email Forwarding for Multiple Domains
 
 ### Table of Contents {#toc}
 
