@@ -1,7 +1,7 @@
 ---
 title: What Is Email Forwarding?
 excerpt: Explains what email forwarding is and how it works at DNSimple.
-meta: Learn what email forwarding is, how it works, and how DNSimple email forwarding helps you manage email for your domains.
+meta: Learn what email forwarding is, how it works, and how it compares to email hosting. Covers email redirect, catch-all forwarding, and email alias use cases.
 categories:
 - Emails
 ---
@@ -29,7 +29,7 @@ When you set up email forwarding at DNSimple:
 
 4. **Delivery:** The forwarded email arrives in the inbox of your destination email address.
 
-## Key benefits {#benefits}
+## Why use email forwarding {#benefits}
 
 **Professional email addresses:** Use custom email addresses at your domain (like `info@yourdomain.com` or `support@yourdomain.com`) without the complexity of managing a full email server.
 
@@ -41,7 +41,7 @@ When you set up email forwarding at DNSimple:
 
 **No email client setup required:** Emails are forwarded to an existing email account, so you do not need to configure email clients or manage email servers.
 
-## Email forwarding vs. email hosting {#forwarding-vs-hosting}
+## Email forwarding vs. email hosting: which do you need {#forwarding-vs-hosting}
 
 Email forwarding and email hosting serve different purposes:
 
@@ -73,7 +73,7 @@ To start using email forwarding, you will need:
 > [!WARNING]
 > When you enable email forwarding, any existing MX records for your domain will be automatically removed. If you are currently using another email service provider, that service will stop working.
 
-For step-by-step instructions, see [Enabling Email Forwarding](/articles/enabling-email-forwarding/).
+For step-by-step instructions, see [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/).
 
 ## Have more questions?
 

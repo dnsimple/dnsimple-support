@@ -1,7 +1,7 @@
 ---
 title: Email Forwarding
 excerpt: Set up and manage email forwarding with DNSimple to receive emails at your domain and redirect them to another address.
-meta: Learn how to set up and manage email forwarding with DNSimple to direct emails from one address to another.
+meta: Set up, manage, and troubleshoot email forwarding with DNSimple. Forward emails from your domain to any email address.
 categories:
 - Emails
 ---
@@ -31,7 +31,7 @@ If you are new to email forwarding, start with these articles:
 
 ## Getting started {#getting-started}
 
-- [Enabling Email Forwarding](/articles/enabling-email-forwarding/): A step-by-step guide to turning email forwarding on for your domain.
+- [How to Set Up Email Forwarding](/articles/set-up-email-forwarding/): A step-by-step guide to turning email forwarding on for your domain.
 
 ## Managing email forwarding {#managing}
 
@@ -39,7 +39,7 @@ If you are new to email forwarding, start with these articles:
 
 ## Troubleshooting {#troubleshooting}
 
-- [Troubleshooting Email Forwarding with Gmail](/articles/troubleshooting-email-forwarding-gmail/): Diagnose and resolve common email forwarding problems with Gmail.
+- [Email Forwarding Not Working with Gmail](/articles/email-forwarding-not-working-gmail/): Diagnose and resolve common email forwarding problems with Gmail.
 
 ## Have more questions?
 

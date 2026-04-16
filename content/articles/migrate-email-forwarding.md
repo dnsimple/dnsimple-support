@@ -1,12 +1,12 @@
 ---
-title: Migrating Email Forwarding from Another Provider
-excerpt: How to migrate email forwarding from another provider to DNSimple.
-meta: Step-by-step guide to migrating email forwarding configuration from another provider to DNSimple, ensuring a smooth transition.
+title: How to Migrate Email Forwarding to DNSimple
+excerpt: How to migrate your email forwarding configuration from another provider to DNSimple.
+meta: Step-by-step guide to migrating your email forwarding configuration from another provider to DNSimple.
 categories:
 - Emails
 ---
 
-# Migrating Email Forwarding from Another Provider
+# How to Migrate Email Forwarding to DNSimple
 
 ### Table of Contents {#toc}
 
