@@ -141,3 +141,11 @@
 /articles/superlock/                                                     /articles/what-is-domain-lock/
 /articles/auto-renew-only-domains/                                       /articles/domain-auto-renewal/
 /articles/auto-renew-only-domains/index.html                             /articles/domain-auto-renewal/
+/articles/enabling-email-forwarding/                                     /articles/set-up-email-forwarding/
+/articles/managing-email-forwards/                                       /articles/add-and-remove-email-forwards/
+/articles/troubleshooting-email-forwarding-delivery-issues/              /articles/email-forwarding-not-working/
+/articles/troubleshooting-email-forwarding-gmail/                        /articles/email-forwarding-not-working-gmail/
+/articles/troubleshooting-email-forwarding-with-other-providers/         /articles/email-forwarding-not-working-outlook-yahoo/
+/articles/handling-email-bounces-with-email-forwarding/                  /articles/email-forwarding-bounces/
+/articles/migrating-email-forwarding-from-another-provider/              /articles/migrate-email-forwarding/
+/articles/managing-email-forwarding-for-multiple-domains/                /articles/email-forwarding-multiple-domains/

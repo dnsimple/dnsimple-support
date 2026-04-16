@@ -2,15 +2,66 @@ Getting started:
 - "Email Forwarding"
 - "Email Hosting Support"
 
-Email DNS records:
-- "What's a DKIM Record?"
-- "What Is a DKIM Record?"
-- "What's a DMARC record?"
-- "What Is a DMARC Record?"
-- "Setting up DKIM"
-- "Setting up DMARC"
-- "Verifying DKIM with dig and Online Tools"
-- "Verifying DMARC with dig and Online Tools"
+Explanation:
+  Email Forwarding:
+    - "What Is Email Forwarding?"
+  Email Authentication:
+    - "What Is an SPF Record?"
+    - "What Is a DKIM Record?"
+    - "What Is a DMARC Record?"
+    - "Understanding SPF, DKIM, and DMARC Alignment"
+    - "Email Authentication Best Practices"
+  Email Deliverability:
+    - "Understanding Email Bounces"
+  MX Records:
+    - "What Is an MX Record?"
+    - "What Are Null MX Records?"
 
-Troubleshooting:
-- "Troubleshooting Email Forwarding with Gmail"
+How to:
+  Email Forwarding:
+    - "How to Set Up Email Forwarding"
+    - "How to Add and Remove Email Forwards"
+    - "Email Forwarding for Multiple Domains"
+    - "How to Migrate Email Forwarding to DNSimple"
+    - "Email Forwarding and Bounced Emails"
+  Email Authentication:
+    - "Setting Up SPF Records"
+    - "Setting Up DKIM"
+    - "Setting Up DMARC"
+    - "Implementing a Gradual DMARC Policy"
+    - "Managing Multiple DKIM Selectors"
+  Email Hosting:
+    - "Setting Up MX Records for Email Hosting"
+    - "Setting Up Null MX Records"
+    - "Managing MX Records When Changing Email Providers"
+    - "Managing Email DNS Records"
+    - "Google Workspace (formerly G Suite) Service"
+    - "Microsoft 365 (formerly Office 365) Service"
+    - "Fastmail Service"
+    - "Pobox Service"
+    - "Rackspace Email Service"
+    - "Mailgun Service"
+    - "Postmark Service"
+    - "Atmail Service"
+    - "DMARC Reports by Postmark Service"
+  MX Records:
+    - "Querying MX Records"
+  Verification:
+    - "Verifying SPF with dig and Online Tools"
+    - "Verifying DKIM with dig and Online Tools"
+    - "Verifying DMARC with dig and Online Tools"
+  Troubleshooting:
+    - "Email Forwarding Not Working with Gmail"
+    - "Email Forwarding Not Working"
+    - "Email Forwarding Not Working with Outlook, Yahoo, and Other Providers"
+Reference:
+  Email Forwarding:
+    - "Email Forwarding Management in DNSimple"
+    - "Email Forwarding Limits and Quotas"
+  MX Records:
+    - "MX Record Reference"
+  Email DNS Records:
+    - "Email DNS Records Quick Reference"
+    - "SPF Record Syntax and Validation Reference"
+    - "DKIM Record Reference"
+    - "DMARC Record Reference"

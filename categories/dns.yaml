@@ -1,6 +1,6 @@
 Announcements:
+  - Discontinuation of Legacy NS1 and NS3 IP Addresses
   - Change of Non-Compliant ENT Behavior
-  - Discontinuation of Legacy NS2 and NS4 IP Addresses
 
 Getting Started:
   - DNS at DNSimple
@@ -26,6 +26,7 @@ Explanation:
     - What Is a DKIM Record?
     - What Is a DMARC Record?
     - What Is an MX Record?
+    - What Are Null MX Records?
     - What Is an NS Record?
     - What Are NAPTR Records?
     - What Is a POOL Record?
@@ -98,8 +99,12 @@ How to:
   Email Setup:
     - Setting up DKIM
     - Setting up DMARC
+    - Setting Up SPF Records
     - Verifying DKIM with dig and Online Tools
     - Verifying DMARC with dig and Online Tools
+    - Verifying SPF with dig and Online Tools
+    - Setting Up MX Records for Email Hosting
+    - Setting Up Null MX Records
   Managing Integrated DNS Providers:
     - Managing Integrated DNS Providers
     - Managing Integrated Zones for Integrated DNS Providers
