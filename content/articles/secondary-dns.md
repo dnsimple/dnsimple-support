@@ -15,6 +15,8 @@ categories:
 
 ---
 
+For an overview of when and why to add DNS redundancy, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
+
 > [!WARNING]
 > Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) article for more information.
 
