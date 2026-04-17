@@ -37,7 +37,7 @@ Depending on the particular rules set by registries, your domains may fall into 
 
 ### The registry handles the auto-renewal {#registry-handled-auto-renewal}
 
-Certain domain names require auto-renewal and cannot be renewed manually. These are referred to as "auto-renew only" domains. Which TLDs fall into this category is determined by the registry -- common examples include `.ES`, `.COM.AU`, and `.NET.AU`, though the list may change as registries update their policies. You can check whether your domain supports manual renewal on its registration page in your DNSimple account. If the manual renewal option is not available, the domain is auto-renew only.
+Certain domain names require auto-renewal and cannot be renewed manually. These are referred to as "auto-renew only" domains. Which TLDs fall into this category is determined by the registry -- common examples include `.ES`, `.COM.AU`, `.NET.AU`, `.CH`, `.CO.ZA`, `.JP`, and `.LI`, though the list may change as registries update their policies. You can check whether your domain supports manual renewal on its registration page in your DNSimple account. If the manual renewal option is not available, the domain is auto-renew only.
 
 For these domains, it is important to have auto-renewal enabled and a valid payment method on file.
 
