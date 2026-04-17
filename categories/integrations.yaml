@@ -28,7 +28,7 @@ Heroku:
 - "SSL Certificates with Heroku"
 
 Cloudflare:
-- "Using Cloudflare DNSSEC with DNSimple"
+- "Use Cloudflare DNSSEC with DNSimple"
 - "Cloudflare Service"
 
 HashiCorp:
