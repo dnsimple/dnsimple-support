@@ -15,6 +15,9 @@ categories:
 
 ---
 
+> [!TIP]
+> Already know you need a certificate and just want to pick the right one? Jump to [Choose your certificate](#choose) or see the [Sectigo vs Let's Encrypt decision table](/articles/standard-vs-letsencrypt/#choosing).
+
 An [SSL certificate](/articles/ssl-certificates/) enables HTTPS on your site, encrypting the connection between a browser and your server to protect sensitive data like passwords and payment details. DNSimple provides domain-validated certificates from two certificate authorities — [Sectigo](/articles/ssl-certificates/#sectigo-singlename) and [Let's Encrypt](/articles/letsencrypt/) — that you can order, validate, and install from your account dashboard. This page covers the full process and links to detailed guides at every step.
 
 ## How SSL certificates work {#how-ssl-works}
