@@ -66,7 +66,6 @@ Email notifications for expiring domains and products:
 Registry and ICANN requirements:
 
 - [ICANN 60-Day Lock After Change of Registrant](/articles/icann-60-day-lock-registrant-change/) - After changing your registration info, you cannot transfer your domain for 60 days.
-- [Auto-Renewal Required Domains](/articles/auto-renew-only-domains/) - Domains that must use auto-renewal.
 
 ### TLDs
 
