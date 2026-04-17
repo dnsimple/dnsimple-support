@@ -1,5 +1,5 @@
 ---
-title: Setting Up DMARC
+title: Set Up DMARC
 excerpt: How to set up DMARC in your DNSimple account.
 meta: Learn how to set up DMARC and what to expect from your email provider.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Setting Up DMARC
-
+# Set Up DMARC
 [DMARC](/articles/dmarc-record/) is a policy you publish as a [TXT record](/articles/txt-record/) in your DNS zone. It tells receiving mail servers how to handle messages that fail [SPF](/articles/spf-record/) or [DKIM](/articles/dkim-record/) checks, and where to send aggregate reports. Your email provider may supply a recommended DMARC value, or you can create one based on the [DMARC Record Reference](/articles/dmarc-record-reference/).
 
 ## Steps to set up DMARC {#steps-to-set-up-dmarc}

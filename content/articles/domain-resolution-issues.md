@@ -1,13 +1,12 @@
 ---
-title: Troubleshooting Domain Resolution Issues
+title: Troubleshoot Domain Resolution Issues
 excerpt: This article contains instructions to check and debug domain resolution issues.
 meta: Explore this comprehensive guide to debug and resolve domain resolution issues effectively, ensuring your website is accessible and functioning properly.
 categories:
 - DNS
 ---
 
-# Troubleshooting Domain Resolution Issues
-
+# Troubleshoot Domain Resolution Issues
 To use our [DNS hosting service](/articles/dns-hosting/), the domain should resolve with DNSimple.
 
 The resolution status is displayed in your DNSimple account:
@@ -88,16 +87,16 @@ Expiration Date: 07-apr-2018
 
 The name server should match DNSimple name servers and the response returned from `dig`. If it does not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
-If you recently updated the domain, see the **Name server change propagation** section in [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/).
+If you recently updated the domain, see the **Name server change propagation** section in [Troubleshoot DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/).
 
 ## DNSSEC considerations {#dnssec-considerations}
 
-If you switched DNS providers recently, please read our [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/) article to understand how DNSSEC may impact on your domain's DNS resolution.
+If you switched DNS providers recently, please read our [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/) article to understand how DNSSEC may impact on your domain's DNS resolution.
 
 If you transferred your domain from another registrar, check our suggestions at the [Preparing DNS Before Transferring a Domain Into DNSimple > DNSSEC considerations](/articles/before-transferring-domain/#dnssec-considerations) article to pinpoint potential issues.
 
 > [!INFO]
-> **If your domain is properly delegated to DNSimple but specific records are not resolving**, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) for information about:
+> **If your domain is properly delegated to DNSimple but specific records are not resolving**, see [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) for information about:
 > - Querying DNSimple name servers directly to bypass caching
 > - DNS propagation delays and TTL values
 > - Verifying records exist in our system

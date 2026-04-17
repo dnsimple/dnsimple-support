@@ -1,12 +1,12 @@
 ---
-title: Managing Integrated Zone Records
+title: Manage Integrated Zone Records
 excerpt: Adding, updating, and deleting the DNS zone records at DNSimple and/or Integrated DNS Providers.
 meta: Learn how to add, update, delete, and synchronize DNS records across DNSimple and Integrated DNS Providers using the Record Editor interface.
 categories:
 - DNS
 ---
 
-# Managing Integrated Zone Records in the Record Editor
+# Manage Integrated Zone Records
 
 On the Record Editor page, you can see which records are present at which DNS provider(s). Records that are present at a provider will be marked with the corresponding label for that provider.
 

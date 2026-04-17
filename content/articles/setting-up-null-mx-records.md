@@ -1,5 +1,5 @@
 ---
-title: Setting Up Null MX Records
+title: Set Up Null MX Records
 excerpt: Step-by-step guide to configuring null MX records for domains that do not accept email.
 meta: Learn how to set up null MX records to prevent email delivery attempts and improve security for domains that do not need email functionality.
 categories:
@@ -7,8 +7,7 @@ categories:
 - DNS
 ---
 
-# Setting Up Null MX Records
-
+# Set Up Null MX Records
 ### Table of Contents {#toc}
 
 * TOC
@@ -180,7 +179,7 @@ After removing the null MX record, you can set up email forwarding or email host
 - [What Are Null MX Records?](/articles/what-are-null-mx-records/) - Explanation of null MX records and their purpose
 - [What Is an MX Record?](/articles/mx-record/) - General information about MX records
 - [Email Forwarding](/articles/email-forwarding/) - Information about DNSimple's email forwarding service
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Guide to setting up MX records for email hosting
+- [Set Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Guide to setting up MX records for email hosting
 
 ## Have more questions?
 

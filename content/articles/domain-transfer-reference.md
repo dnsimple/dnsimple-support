@@ -81,7 +81,7 @@ For step-by-step instructions, see [Transferring a Domain to Another DNSimple Ac
 
 **Name servers:** We do not automatically point your domain to our name servers when the transfer completes. To avoid unexpected downtime, we suggest [pointing your domain to our name servers before the transfer](/articles/before-transferring-domain/).
 
-**DNSSEC:** You should always disable DNSSEC and [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain before transferring. An incorrect DNSSEC setup may cause your domain to be inaccessible. For more information about managing DNSSEC and DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/).
+**DNSSEC:** You should always disable DNSSEC and [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain before transferring. An incorrect DNSSEC setup may cause your domain to be inaccessible. For more information about managing DNSSEC and DS records when changing DNS providers, see [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/).
 
 ## Canceling a transfer {#canceling-a-transfer}
 

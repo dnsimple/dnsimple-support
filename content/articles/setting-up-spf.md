@@ -1,5 +1,5 @@
 ---
-title: Setting Up SPF Records
+title: Set Up SPF Records
 excerpt: How to set up SPF records in your DNSimple account.
 meta: Learn how to set up SPF records for email authentication and what to expect from your email provider.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Setting Up SPF Records
-
+# Set Up SPF Records
 [SPF](/articles/spf-record/) (Sender Policy Framework) helps prevent unauthorized individuals from sending emails on your domain's behalf by specifying which hosts are authorized to send email from your domain.
 
 SPF records are published as [TXT records](/articles/txt-record/) in your DNS zone. The record contains a list of IP addresses and/or hostnames that are permitted to send email from your domain.
@@ -114,7 +113,7 @@ SPF records are added as TXT records. To update or remove them, follow the instr
 
 ## Verifying your SPF record {#verifying}
 
-After setting up your SPF record, verify it is working correctly. For step-by-step instructions, see [Verifying SPF with dig and Online Tools](/articles/verifying-spf/).
+After setting up your SPF record, verify it is working correctly. For step-by-step instructions, see [Verify SPF with dig and Online Tools](/articles/verifying-spf/).
 
 ## Troubleshooting {#troubleshooting}
 
@@ -129,15 +128,15 @@ The specification for the Sender Policy Framework is primarily defined in [RFC 7
 ### Email authentication
 - [What Is an SPF Record?](/articles/spf-record/) - Introduction to SPF records
 - [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) - Complete reference guide for SPF syntax
-- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - How to verify your SPF record
-- [Setting Up DKIM](/articles/set-up-dkim/) - Set up DKIM authentication
-- [Setting Up DMARC](/articles/set-up-dmarc/) - Set up DMARC policy
+- [Verify SPF with dig and Online Tools](/articles/verifying-spf/) - How to verify your SPF record
+- [Set Up DKIM](/articles/set-up-dkim/) - Set up DKIM authentication
+- [Set Up DMARC](/articles/set-up-dmarc/) - Set up DMARC policy
 
 ### Email service integration
 - [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace with DNSimple
 - [Microsoft 365 Service](/articles/office-365-service/) - Set up Microsoft 365 with DNSimple
 - [Email Hosting Support](/articles/email-hosting/) - Options for third-party email hosting
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting
+- [Set Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting
 
 ### DNS management
 - [How to Use the Record Editor](/articles/record-editor/) - Guide to managing DNS records

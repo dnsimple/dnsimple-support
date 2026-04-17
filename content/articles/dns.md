@@ -95,53 +95,53 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [How to Use the Record Editor](/articles/record-editor/) - Step-by-step guide to using DNSimple's record editor to manage your DNS records.
 - [Record Editor](/articles/record-editor/) - Overview of DNSimple's Record Editor interface and features for managing DNS records.
 - [How To Add Common DNS Records](/articles/how-to-add-dns-records/) - Learn how to add the most commonly used DNS record types.
-- [Activating and Deactivating a DNS Zone](/articles/activate-deactivate-dns-zone/) - Instructions for activating or deactivating DNS zones in DNSimple.
-- [Managing A Records](/articles/manage-a-record/) - Step-by-step guide to creating, editing, and deleting A records.
-- [Managing AAAA Records](/articles/manage-aaaa-record/) - Learn how to manage AAAA records for IPv6 addresses.
-- [Managing CAA Records](/articles/manage-caa-record/) - Instructions for managing CAA records to control certificate issuance.
-- [Managing CNAME Records](/articles/manage-cname-record/) - Guide to creating and managing CNAME records.
-- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to creating and managing SVCB and HTTPS records for service binding.
-- [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records for DANE.
-- [Managing URL Records](/articles/manage-url-record/) - Learn how to set up and manage URL redirect records.
-- [Adding an SRV Record](/articles/add-srv-record/) - Step-by-step instructions for adding SRV records.
-- [Adding and Removing DS Records](/articles/manage-ds-record/) - Guide to managing DS records for DNSSEC.
-- [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/) - Learn how to handle DS records when switching DNS providers.
+- [Activate and Deactivate a DNS Zone](/articles/activate-deactivate-dns-zone/) - Instructions for activating or deactivating DNS zones in DNSimple.
+- [Manage A Records](/articles/manage-a-record/) - Step-by-step guide to creating, editing, and deleting A records.
+- [Manage AAAA Records](/articles/manage-aaaa-record/) - Learn how to manage AAAA records for IPv6 addresses.
+- [Manage CAA Records](/articles/manage-caa-record/) - Instructions for managing CAA records to control certificate issuance.
+- [Manage CNAME Records](/articles/manage-cname-record/) - Guide to creating and managing CNAME records.
+- [Manage Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to creating and managing SVCB and HTTPS records for service binding.
+- [Manage TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records for DANE.
+- [Manage URL Records](/articles/manage-url-record/) - Learn how to set up and manage URL redirect records.
+- [Add an SRV Record](/articles/add-srv-record/) - Step-by-step instructions for adding SRV records.
+- [Add and Remove DS Records](/articles/manage-ds-record/) - Guide to managing DS records for DNSSEC.
+- [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/) - Learn how to handle DS records when switching DNS providers.
 - [Export Zone File](/articles/export-records-zone-file/) - Instructions for exporting your DNS zone file from DNSimple.
 - [Import Zone File](/articles/import-records-zone-file/) - Learn how to import a zone file into DNSimple.
-- [Auto-Importing DNS Records](/articles/auto-import-dns/) - Guide to automatically importing DNS records when adding a domain.
+- [Auto-Import DNS Records](/articles/auto-import-dns/) - Guide to automatically importing DNS records when adding a domain.
 - [Zone NS Records](/articles/zone-ns-records/) - Learn how to manage name server (NS) records for your zone.
-- [Setting up DKIM](/articles/set-up-dkim/) - Step-by-step guide to configuring DKIM for email authentication.
-- [Setting up DMARC](/articles/set-up-dmarc/) - Instructions for setting up DMARC to protect your email domain.
-- [Querying MX Records](/articles/query-mx-records/) - Learn how to query and verify MX records using various tools.
-- [Setting up Simple Dynamic DNS](/articles/set-up-simple-dynamic-dns/) - Guide to configuring Dynamic DNS for automatic IP address updates.
-- [Managing Integrated DNS Providers](/articles/integrated-dns-providers/) - Learn how to manage integrated DNS providers in DNSimple.
+- [Set Up DKIM](/articles/set-up-dkim/) - Step-by-step guide to configuring DKIM for email authentication.
+- [Set Up DMARC](/articles/set-up-dmarc/) - Instructions for setting up DMARC to protect your email domain.
+- [Query MX Records](/articles/query-mx-records/) - Learn how to query and verify MX records using various tools.
+- [Set Up Simple Dynamic DNS](/articles/set-up-simple-dynamic-dns/) - Guide to configuring Dynamic DNS for automatic IP address updates.
+- [Manage Integrated DNS Providers](/articles/integrated-dns-providers/) - Learn how to manage integrated DNS providers in DNSimple.
 - [How to Use Route 53 as an Integrated DNS Provider](/articles/amazon-route-53-integration-demo/) - Step-by-step guide to using Amazon Route 53 as an integrated provider.
 - [How to Use CoreDNS as an Integrated DNS Provider](/articles/core-dns-tutorial/) - Instructions for using CoreDNS as an integrated DNS provider.
-- [Managing Integrated Zones for Integrated DNS Providers](/articles/integrated-dns-provider-zones/) - Guide to managing zones when using integrated DNS providers.
-- [Managing Integrated Zone Records](/articles/record-editor-integrated-zones/) - Learn how to manage DNS records in integrated zones.
-- [Importing Integrated Zone Records](/articles/import-integrated-zone-records/) - Instructions for importing records into integrated DNS zones.
-- [Refreshing and Importing Integrated Zones](/articles/managing-integrated-zones/) - Learn how to refresh and import zones from integrated DNS providers.
-- [Syncing Integrated Zone Records Between DNS Providers](/articles/sync-integrated-zone-records/) - Guide to syncing records between DNS providers.
-- [Creating a Record Note](/articles/create-record-note/) - Learn how to add notes to DNS records for documentation purposes.
-- [Creating a Record Deletion Note](/articles/create-record-deletion-note/) - Learn how to add deletion notes to DNS records when removing them.
+- [Manage Integrated Zones for Integrated DNS Providers](/articles/integrated-dns-provider-zones/) - Guide to managing zones when using integrated DNS providers.
+- [Manage Integrated Zone Records](/articles/record-editor-integrated-zones/) - Learn how to manage DNS records in integrated zones.
+- [Import Integrated Zone Records](/articles/import-integrated-zone-records/) - Instructions for importing records into integrated DNS zones.
+- [Refresh and Import Integrated Zones](/articles/managing-integrated-zones/) - Learn how to refresh and import zones from integrated DNS providers.
+- [Sync Integrated Zone Records Between DNS Providers](/articles/sync-integrated-zone-records/) - Guide to syncing records between DNS providers.
+- [Create a Record Note](/articles/create-record-note/) - Learn how to add notes to DNS records for documentation purposes.
+- [Create a Record Deletion Note](/articles/create-record-deletion-note/) - Learn how to add deletion notes to DNS records when removing them.
 - [Record Notes](/articles/record-notes/) - Understand how to use record notes to document your DNS configuration.
 - [View Record Notes and Audit History](/articles/view-notes-audit-history/) - Learn how to view record notes and audit history for your DNS records.
 - [How to Use dig](/articles/how-dig/) - Comprehensive guide to using the dig command-line tool for DNS queries.
 - [Check DNS Cache](/articles/check-dns-cache/) - Learn how to check and clear DNS cache to verify record changes.
 - [Check Resolution Status](/articles/check-resolution-status/) - Instructions for checking if your DNS records are resolving correctly.
 - [How to Change TTL in DNSimple](/articles/change-ttl/) - Learn how to modify the Time-to-Live (TTL) settings for your DNS records in DNSimple.
-- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - Learn how to verify your DKIM configuration using dig and online verification tools.
-- [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Guide to verifying DMARC records using dig and online tools.
+- [Verify DKIM with dig and Online Tools](/articles/verify-dkim/) - Learn how to verify your DKIM configuration using dig and online verification tools.
+- [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Guide to verifying DMARC records using dig and online tools.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/) - Step-by-step instructions for rotating DNSSEC keys.
 
 ## Troubleshooting DNS issues {#troubleshooting-dns-issues}
 
 Resolve common DNS problems and configuration issues:
 
-- [Troubleshooting DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) - Solutions for common issues with DNSimple name servers.
-- [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) - Guide to diagnosing and fixing domain resolution problems.
-- [Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) - Learn how to troubleshoot issues related to Empty Non-Terminals (ENTs) in DNS.
-- [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) - Learn how to troubleshoot specific DNS record resolution problems.
+- [Troubleshoot DNSimple Name Servers](/articles/troubleshoot-dnsimple-name-servers/) - Solutions for common issues with DNSimple name servers.
+- [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/) - Guide to diagnosing and fixing domain resolution problems.
+- [Troubleshoot Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) - Learn how to troubleshoot issues related to Empty Non-Terminals (ENTs) in DNS.
+- [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) - Learn how to troubleshoot specific DNS record resolution problems.
 - [How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/) - Step-by-step guide to fixing empty responses caused by Empty Non-Terminals.
 
 ## DNS reference {#dns-reference}
@@ -171,6 +171,6 @@ Technical specifications, formats, and reference documentation:
 - [dig Reference Guide](/articles/dig-reference-guide/) - Comprehensive reference guide for the dig command-line tool.
 - [DNSimple Interface Reference for DNS Management](/articles/interface-reference/) - Complete reference for DNSimple's web interface and DNS management features.
 - [DNSimple TTL Settings Reference](/articles/what-minimum-time-to-live/) - Technical reference for DNSimple's TTL settings and minimum TTL values.
-- [Understanding DNSimple's Record Editors Simple vs. Field-Specific](/articles/record-editor-simple-field/) - Reference guide explaining the differences between simple and field-specific record editors.
+- [Understand DNSimple's Record Editors Simple vs. Field-Specific](/articles/record-editor-simple-field/) - Reference guide explaining the differences between simple and field-specific record editors.
 - [IPv6 Domain Resolution Reference](/articles/ipv6-support/) - Technical reference for IPv6 domain resolution and AAAA records.
 - [Resolving with DNSimple](/articles/resolving-with-us/) - Technical reference for displaying and embedding a "Resolving with DNSimple" badge on websites.

@@ -1,13 +1,12 @@
 ---
-title: Managing CNAME Records
+title: Manage CNAME Records
 excerpt: Instructions to add, update, and remove an CNAME record in DNSimple.
 meta: Learn how to efficiently manage your CNAME records in DNSimple with our step-by-step guide for adding, updating, and removing records with ease.
 categories:
 - DNS
 ---
 
-# Managing CNAME Records
-
+# Manage CNAME Records
 ### Table of Contents {#toc}
 
 * TOC

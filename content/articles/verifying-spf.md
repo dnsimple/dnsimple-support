@@ -1,5 +1,5 @@
 ---
-title: Verifying SPF with dig and Online Tools
+title: Verify SPF with dig and Online Tools
 excerpt: How to verify your SPF record is being returned correctly.
 meta: Learn how to verify your SPF record is working and find online tools to help monitor.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Verifying SPF with dig and Online Tools
-
+# Verify SPF with dig and Online Tools
 ### Table of Contents {#toc}
 
 * TOC

@@ -61,6 +61,7 @@ Explanation:
     - Why DNSSEC and Secondary DNS May Not Work Together
     - How ALIAS Records Resolve with Secondary DNS
     - Why You Should Auto-Import DNS Records
+    - What Is Domain Delegation?
   Integrated DNS Providers:
     - Integrated DNS Providers at DNSimple
     - What Are Integrated DNS Providers and Why Use Them?
@@ -71,59 +72,62 @@ Explanation:
 How to:
   Managing DNS Records:
     - How To Add Common DNS Records
-    - Managing A Records
-    - Managing AAAA Records
-    - Managing CAA Records
-    - Managing CNAME Records
-    - Managing TLSA Records
-    - Managing URL Records
-    - Managing Service Binding Records (SVCB and HTTPS)
-    - Adding an SRV Record
-    - Querying MX Records
+    - Manage A Records
+    - Manage AAAA Records
+    - Manage CAA Records
+    - Manage CNAME Records
+    - Manage TLSA Records
+    - Manage URL Records
+    - Manage Service Binding Records (SVCB and HTTPS)
+    - Add an SRV Record
+    - Query MX Records
     - How to Use the Record Editor
     - Record Editor
-    - Creating a Record Note
-    - Creating a Record Deletion Note
+    - Create a Record Note
+    - Create a Record Deletion Note
     - Record Notes
     - View Record Notes and Audit History
     - How to Change TTL in DNSimple
   Managing DNS Zones:
-    - Activating and Deactivating a DNS Zone
+    - Activate and Deactivate a DNS Zone
     - Export Zone File
     - Import Zone File
     - Zone NS Records
     - Check Resolution Status
     - Check DNS Cache
     - How to Use dig
-    - Setting up Simple Dynamic DNS
+    - Set Up Simple Dynamic DNS
   Email Setup:
-    - Setting up DKIM
-    - Setting up DMARC
-    - Setting Up SPF Records
-    - Verifying DKIM with dig and Online Tools
-    - Verifying DMARC with dig and Online Tools
-    - Verifying SPF with dig and Online Tools
-    - Setting Up MX Records for Email Hosting
-    - Setting Up Null MX Records
+    - Set Up DKIM
+    - Set Up DMARC
+    - Set Up SPF Records
+    - Verify DKIM with dig and Online Tools
+    - Verify DMARC with dig and Online Tools
+    - Verify SPF with dig and Online Tools
+    - Set Up MX Records for Email Hosting
+    - Set Up Null MX Records
+    - Manage Email DNS Records
+    - Manage MX Records When Changing Email Providers
+    - Email DNS Records Quick Reference
   Managing Integrated DNS Providers:
-    - Managing Integrated DNS Providers
-    - Managing Integrated Zones for Integrated DNS Providers
-    - Managing Integrated Zone Records
-    - Importing Integrated Zone Records
-    - Refreshing and Importing Integrated Zones
-    - Syncing Integrated Zone Records Between DNS Providers
+    - Manage Integrated DNS Providers
+    - Manage Integrated Zones for Integrated DNS Providers
+    - Manage Integrated Zone Records
+    - Import Integrated Zone Records
+    - Refresh and Import Integrated Zones
+    - Sync Integrated Zone Records Between DNS Providers
     - How to Use CoreDNS as an Integrated DNS Provider
     - How to Use Route 53 as an Integrated DNS Provider
-    - Auto-Importing DNS Records
+    - Auto-Import DNS Records
   DNSSEC Management:
-    - Adding and Removing DS Records
-    - Managing DS Records When Changing DNS
+    - Add and Remove DS Records
+    - Manage DS Records When Changing DNS
     - Rotate DNSSEC Keys
   Troubleshooting:
-    - Troubleshooting DNSimple Name Servers
-    - Troubleshooting Domain Resolution Issues
-    - Troubleshooting Empty Non-Terminal Issues
-    - Troubleshooting Record Resolution Issues
+    - Troubleshoot DNSimple Name Servers
+    - Troubleshoot Domain Resolution Issues
+    - Troubleshoot Empty Non-Terminal Issues
+    - Troubleshoot Record Resolution Issues
     - How to Fix Empty Responses from Empty Non-Terminals
 
 Reference:
@@ -153,4 +157,4 @@ Reference:
   - DNSimple TTL Settings Reference
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
-  - Understanding DNSimple's Record Editors Simple vs. Field-Specific
+  - Understand DNSimple's Record Editors Simple vs. Field-Specific

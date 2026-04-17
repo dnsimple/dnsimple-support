@@ -1,13 +1,12 @@
 ---
-title: Managing Service Binding Records (SVCB and HTTPS)
+title: Manage Service Binding Records (SVCB and HTTPS)
 excerpt: Instructions to add, update, and remove SVCB and HTTPS records in DNSimple.
 meta: Learn how to effectively manage SVCB and HTTPS records in DNSimple with our step-by-step guide. Add, update, or remove records to optimize your domain's service binding configuration.
 categories:
 - DNS
 ---
 
-# Managing Service Binding Records (SVCB and HTTPS)
-
+# Manage Service Binding Records (SVCB and HTTPS)
 ### Table of Contents {#toc}
 
 * TOC

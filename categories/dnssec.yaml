@@ -20,8 +20,8 @@ How to:
   Managing DNSSEC:
     - "Enabling DNSSEC"
     - "Disabling DNSSEC"
-    - "Adding and Removing DS Records"
-    - "Managing DS Records When Changing DNS"
+    - "Add and Remove DS Records"
+    - "Manage DS Records When Changing DNS"
     - "Rotate DNSSEC Keys"
   Using DNSSEC with Other Providers:
     - "Using Cloudflare DNSSEC with DNSimple"

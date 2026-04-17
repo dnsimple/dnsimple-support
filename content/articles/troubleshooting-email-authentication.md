@@ -52,7 +52,7 @@ The headers show `spf=fail` or `spf=softfail`. Common causes:
 - **Too many DNS lookups** - SPF allows a maximum of 10 DNS lookups. Each `include:`, `a`, `mx`, and `redirect` mechanism counts toward this limit. Exceeding it causes a `permerror` and SPF fails for all messages. The [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/) explains each mechanism and the lookup limit.
 - **Syntax errors** - A missing colon (`include_spf.google.com` instead of `include:_spf.google.com`) or a typo silently breaks the record.
 
-To confirm your SPF record is published and valid, see [Verifying SPF with dig and Online Tools](/articles/verifying-spf/). To update your record, see [Setting Up SPF Records](/articles/setting-up-spf/).
+To confirm your SPF record is published and valid, see [Verify SPF with dig and Online Tools](/articles/verifying-spf/). To update your record, see [Set Up SPF Records](/articles/setting-up-spf/).
 
 ## DKIM failures {#dkim}
 
@@ -63,7 +63,7 @@ The headers show `dkim=fail`, `dkim=neutral`, or `dkim=none`. Common causes:
 - **Key mismatch** - The public key in DNS does not match the private key used to sign. This happens if you regenerated keys on the provider side without updating DNS.
 - **Truncated key** - Some DNS interfaces silently truncate long TXT records. If the public key is cut off, signature verification fails. Confirm the full key is present in your DNS record.
 
-To confirm your DKIM record is published correctly, see [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/). To add or update DKIM, see [Setting Up DKIM](/articles/set-up-dkim/).
+To confirm your DKIM record is published correctly, see [Verify DKIM with dig and Online Tools](/articles/verify-dkim/). To add or update DKIM, see [Set Up DKIM](/articles/set-up-dkim/).
 
 ## DMARC failures {#dmarc}
 
@@ -88,7 +88,7 @@ The impact of a DMARC failure depends on your published policy:
 
 If legitimate email is being blocked or sent to spam, your DMARC policy may be stricter than your authentication setup supports. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for how to move safely from `p=none` to `p=reject`.
 
-To confirm your DMARC record is published correctly, see [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/).
+To confirm your DMARC record is published correctly, see [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/).
 
 ## Quick-reference checklist {#checklist}
 

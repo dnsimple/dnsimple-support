@@ -44,13 +44,13 @@ An [SPF record](/articles/spf-record/) tells receiving servers which IPs and ser
    ```
    v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
    ```
-1. Verify the record is published: see [Verifying SPF](/articles/verifying-spf/).
+1. Verify the record is published: see [Verify SPF](/articles/verifying-spf/).
 </div>
 
 > [!WARNING]
 > SPF allows a maximum of 10 DNS lookups. Each `include:` counts as at least one. Exceeding this limit causes SPF to fail entirely. Use `ip4:` or `ip6:` for direct IPs when possible, and remove services you no longer use.
 
-For full setup details, see [Setting Up SPF Records](/articles/setting-up-spf/).
+For full setup details, see [Set Up SPF Records](/articles/setting-up-spf/).
 
 ### Configure DKIM {#dkim}
 
@@ -62,12 +62,12 @@ A [DKIM record](/articles/dkim-record/) publishes a public key that receiving se
 1. In your email provider's dashboard, locate the DKIM settings and copy the selector name and public key value.
 1. In DNSimple, open the [Record Editor](/articles/record-editor/) for your domain.
 1. Add a TXT record at `selector._domainkey.yourdomain.com` with the public key value from your provider.
-1. Verify the record is published: see [Verifying DKIM](/articles/verify-dkim/).
+1. Verify the record is published: see [Verify DKIM](/articles/verify-dkim/).
 </div>
 
 Repeat this for each service that sends email on your behalf. Each service typically uses its own selector. See [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) if you have more than one.
 
-For full setup details, see [Setting Up DKIM](/articles/set-up-dkim/).
+For full setup details, see [Set Up DKIM](/articles/set-up-dkim/).
 
 ### Configure DMARC {#dmarc}
 
@@ -81,7 +81,7 @@ A [DMARC record](/articles/dmarc-record/) tells receiving servers what to do whe
 1. Start with a monitoring-only policy: `v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com`
 1. Review the aggregate reports you receive over the following weeks. Fix any authentication failures before tightening the policy.
 1. Gradually move to `p=quarantine`, then `p=reject`. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
-1. Verify the record is published: see [Verifying DMARC](/articles/verifying-dmarc/).
+1. Verify the record is published: see [Verify DMARC](/articles/verifying-dmarc/).
 </div>
 
 > [!TIP]

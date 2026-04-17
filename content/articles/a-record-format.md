@@ -31,7 +31,7 @@ In DNSimple, the A record is represented by the following customizable elements:
 | TTL     | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver.                                  |
 | Address | The IPv4 address the A record points to.                                                                                                   |
 
-For step-by-step instructions on creating or updating these fields, see our [Managing A Records article](/articles/manage-a-record/).
+For step-by-step instructions on creating or updating these fields, see our [Manage A Records article](/articles/manage-a-record/).
 
 ## Have more questions?
 

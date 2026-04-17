@@ -39,17 +39,17 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Setting up email authentication {#setup-authentication}
 
-- [Setting Up SPF Records](/articles/setting-up-spf/) - Configure SPF to authorize your email senders.
-- [Setting Up DKIM](/articles/set-up-dkim/) - Add DKIM records for your email services.
-- [Setting Up DMARC](/articles/set-up-dmarc/) - Publish a DMARC policy and enable reporting.
-- [Verifying SPF with dig and Online Tools](/articles/verifying-spf/) - Confirm your SPF record is published correctly.
-- [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/) - Confirm your DKIM record is published correctly.
-- [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Confirm your DMARC record is published correctly.
+- [Set Up SPF Records](/articles/setting-up-spf/) - Configure SPF to authorize your email senders.
+- [Set Up DKIM](/articles/set-up-dkim/) - Add DKIM records for your email services.
+- [Set Up DMARC](/articles/set-up-dmarc/) - Publish a DMARC policy and enable reporting.
+- [Verify SPF with dig and Online Tools](/articles/verifying-spf/) - Confirm your SPF record is published correctly.
+- [Verify DKIM with dig and Online Tools](/articles/verify-dkim/) - Confirm your DKIM record is published correctly.
+- [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/) - Confirm your DMARC record is published correctly.
 
 ## Email hosting with third-party providers {#hosting}
 
-- [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting providers.
-- [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/) - Update MX records when migrating between providers.
+- [Set Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) - Configure MX records for email hosting providers.
+- [Manage MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/) - Update MX records when migrating between providers.
 - [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace email with the one-click service or manual DNS.
 - [Microsoft 365 Service](/articles/office-365-service/) - Set up Microsoft 365 email with the one-click service or manual DNS.
 - [Fastmail Service](/articles/fastmail-service/) - Set up Fastmail DNS using the one-click service.
@@ -96,13 +96,13 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 - [What Is an MX Record?](/articles/mx-record/) - How MX records work and why they are essential for email delivery.
 - [What Are Null MX Records?](/articles/what-are-null-mx-records/) - When and why to use null MX records.
-- [Setting Up Null MX Records](/articles/setting-up-null-mx-records/) - Configure null MX for domains that do not accept email.
-- [Querying MX Records](/articles/query-mx-records/) - Query MX records with dig.
+- [Set Up Null MX Records](/articles/setting-up-null-mx-records/) - Configure null MX for domains that do not accept email.
+- [Query MX Records](/articles/query-mx-records/) - Query MX records with dig.
 - [MX Record Reference](/articles/mx-record-reference/) - Formal structure and technical details.
 
 ### Email DNS records {#dns-records}
 
-- [Managing Email DNS Records](/articles/managing-email-dns-records/) - Manage all email-related DNS records in DNSimple.
+- [Manage Email DNS Records](/articles/managing-email-dns-records/) - Manage all email-related DNS records in DNSimple.
 - [Email DNS Records Quick Reference](/articles/email-dns-records-quick-reference/) - Quick reference for email-related DNS record types.
 
 ## Reference {#reference}

@@ -62,9 +62,9 @@ These factors are outside the scope of DNS, but they interact with authenticatio
 
 DNSimple is not a mailbox provider and does not send email on your behalf, but deliverability depends heavily on DNS records that DNSimple manages:
 
-- **SPF records** - Use the [Record Editor](/articles/record-editor/) to publish a TXT record listing your authorized senders. See [Setting Up SPF Records](/articles/setting-up-spf/).
-- **DKIM records** - Add the public key your email provider gives you as a TXT record at the appropriate selector. See [Setting Up DKIM](/articles/set-up-dkim/).
-- **DMARC records** - Publish a policy record at `_dmarc.yourdomain.com` to control how authentication failures are handled. See [Setting Up DMARC](/articles/set-up-dmarc/).
+- **SPF records** - Use the [Record Editor](/articles/record-editor/) to publish a TXT record listing your authorized senders. See [Set Up SPF Records](/articles/setting-up-spf/).
+- **DKIM records** - Add the public key your email provider gives you as a TXT record at the appropriate selector. See [Set Up DKIM](/articles/set-up-dkim/).
+- **DMARC records** - Publish a policy record at `_dmarc.yourdomain.com` to control how authentication failures are handled. See [Set Up DMARC](/articles/set-up-dmarc/).
 - **MX records** - Correct MX configuration ensures mail is routed to the right servers in the first place.
 
 > [!TIP]

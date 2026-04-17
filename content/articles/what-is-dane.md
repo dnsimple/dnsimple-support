@@ -104,7 +104,7 @@ The TLSA record format and usage are further detailed in [RFC 7671](https://data
 ## Related topics {#related-topics}
 
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA records and how they implement DANE
-- [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records
+- [Manage TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records
 - [TLSA Record Format and Components Reference](/articles/tlsa-record-format/) - Technical reference for TLSA record format
 - [What Is DNSSEC?](/articles/what-is-dnssec/) - Learn about the DNS security extensions that DANE depends on
 - [Enabling DNSSEC](/articles/enabling-dnssec/) - Step-by-step guide to enabling DNSSEC on your domain

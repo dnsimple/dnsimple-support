@@ -1,5 +1,5 @@
 ---
-title: Setting Up MX Records for Email Hosting
+title: Set Up MX Records for Email Hosting
 excerpt: How to configure MX records for email hosting providers like Google Workspace, Microsoft 365, and other email services.
 meta: Step-by-step guide to setting up MX records for email hosting providers, ensuring proper email delivery for your domain.
 categories:
@@ -7,8 +7,7 @@ categories:
 - DNS
 ---
 
-# Setting Up MX Records for Email Hosting
-
+# Set Up MX Records for Email Hosting
 ### Table of Contents {#toc}
 
 * TOC

@@ -57,9 +57,9 @@ A `p=reject` policy is the strongest protection against spoofing. It tells recei
 
 Configuring all three protocols requires adding TXT records in DNS. DNSimple's [Record Editor](/articles/record-editor/) handles all of them. The dedicated setup guides walk through each one:
 
-1. **SPF** - [Setting Up SPF Records](/articles/setting-up-spf/) covers listing all authorized senders and staying under the 10-lookup limit.
-2. **DKIM** - [Setting Up DKIM](/articles/set-up-dkim/) covers adding the public key for each email service. If you use multiple services, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
-3. **DMARC** - [Setting Up DMARC](/articles/set-up-dmarc/) covers publishing a policy and setting up reporting. Start with `p=none` and tighten gradually - see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+1. **SPF** - [Set Up SPF Records](/articles/setting-up-spf/) covers listing all authorized senders and staying under the 10-lookup limit.
+2. **DKIM** - [Set Up DKIM](/articles/set-up-dkim/) covers adding the public key for each email service. If you use multiple services, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+3. **DMARC** - [Set Up DMARC](/articles/set-up-dmarc/) covers publishing a policy and setting up reporting. Start with `p=none` and tighten gradually - see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 > [!WARNING]
 > Do not jump straight to `p=reject` without monitoring first. A misconfigured SPF or missing DKIM selector can cause your own legitimate email to be blocked. Start with `p=none`, review DMARC reports for several weeks, fix any issues, then move to `p=quarantine` and finally `p=reject`.
@@ -77,7 +77,7 @@ If you own a domain that should never send email, publish records that explicitl
 If you discover someone is sending spoofed email using your domain:
 
 1. **Check your DMARC reports.** Look for source IPs you do not recognize. If you do not have DMARC reporting set up, add a `rua=` tag to your DMARC record now.
-2. **Verify your authentication records are correct.** Confirm SPF includes all legitimate senders, DKIM is configured for each service, and DMARC alignment is working. See [Verifying SPF](/articles/verifying-spf/), [Verifying DKIM](/articles/verify-dkim/), and [Verifying DMARC](/articles/verifying-dmarc/).
+2. **Verify your authentication records are correct.** Confirm SPF includes all legitimate senders, DKIM is configured for each service, and DMARC alignment is working. See [Verify SPF](/articles/verifying-spf/), [Verify DKIM](/articles/verify-dkim/), and [Verify DMARC](/articles/verifying-dmarc/).
 3. **Tighten your DMARC policy.** If you are still on `p=none` or `p=quarantine`, move toward `p=reject` to block spoofed messages at the receiving server.
 4. **Check blacklists.** Spoofing campaigns can get your domain listed. Use [MXToolbox](https://mxtoolbox.com/blacklists.aspx) to check and follow the delisting process if needed.
 5. **Monitor closely** for the following weeks. Spoofing campaigns often come in waves.

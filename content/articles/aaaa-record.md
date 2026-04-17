@@ -55,7 +55,7 @@ The technical details are in [RFC 3596, Section 2.1](https://datatracker.ietf.or
 
 You can manage AAAA records using DNSimple's [record editor](/articles/record-editor/). Add new ones, remove old ones, or update IPv6 addresses as needed.
 
-For detailed steps, check out our guide: [Managing AAAA Records](/articles/manage-aaaa-record/).
+For detailed steps, check out our guide: [Manage AAAA Records](/articles/manage-aaaa-record/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with AAAA records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

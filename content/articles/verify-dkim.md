@@ -1,5 +1,5 @@
 ---
-title: Verifying DKIM with dig and Online Tools
+title: Verify DKIM with dig and Online Tools
 excerpt: How to verify your DKIM record is being returned correctly.
 meta: Learn how to verify your DKIM record is working and find online tools to help monitor.
 categories:
@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# Verifying DKIM With dig and Online Tools
+# Verify DKIM with dig and Online Tools
 The `dig` tool is a good way to verify your [DKIM record](/articles/dkim-record/) is being returned correctly by our DNS servers.
 
 To verify the DKIM record, query for the [TXT record](/articles/txt-record/)  at the fully qualified domain name where the TXT record lives.

@@ -65,9 +65,9 @@ A DMARC record is published as a [TXT record](/articles/txt-record/) at a specif
 
 ## Setting up, verifying, and monitoring DMARC {#setup}
 
-For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, refer to [Setting Up DMARC](/articles/set-up-dmarc/).
+For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, refer to [Set Up DMARC](/articles/set-up-dmarc/).
 
-To verify that your DMARC record is correctly published and configured, consult our how-to guide: [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
+To verify that your DMARC record is correctly published and configured, consult our how-to guide: [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
 
 ## Technical details {#technical}
 

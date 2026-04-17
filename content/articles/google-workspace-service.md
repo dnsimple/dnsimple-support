@@ -98,9 +98,9 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **SPF:** The one-click service configures an SPF record automatically. If you set up manually, your SPF record should include `include:_spf.google.com`. See [What Is an SPF Record?](/articles/spf-record/) for details.
 
-**DKIM:** Generate a DKIM key in the Google Workspace admin console under <label>Apps</label> > <label>Google Workspace</label> > <label>Gmail</label> > <label>Authenticate email</label>, then add the DKIM TXT record in DNSimple. See [Setting Up DKIM](/articles/set-up-dkim/) for instructions.
+**DKIM:** Generate a DKIM key in the Google Workspace admin console under <label>Apps</label> > <label>Google Workspace</label> > <label>Gmail</label> > <label>Authenticate email</label>, then add the DKIM TXT record in DNSimple. See [Set Up DKIM](/articles/set-up-dkim/) for instructions.
 
-**DMARC:** Add a DMARC record to monitor and protect against spoofing. See [Setting Up DMARC](/articles/set-up-dmarc/) for instructions.
+**DMARC:** Add a DMARC record to monitor and protect against spoofing. See [Set Up DMARC](/articles/set-up-dmarc/) for instructions.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -108,7 +108,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Domain verification failing:** Confirm the TXT verification record matches exactly what Google provided. DNS changes can take up to a few hours to propagate.
 
-**Email authentication failures:** Verify your SPF record includes `include:_spf.google.com`. Check DKIM records are at the correct subdomain. For setup details, see [SPF records](/articles/spf-record/), [Setting Up DKIM](/articles/set-up-dkim/), and [Setting Up DMARC](/articles/set-up-dmarc/).
+**Email authentication failures:** Verify your SPF record includes `include:_spf.google.com`. Check DKIM records are at the correct subdomain. For setup details, see [SPF records](/articles/spf-record/), [Set Up DKIM](/articles/set-up-dkim/), and [Set Up DMARC](/articles/set-up-dmarc/).
 
 ## Have more questions?
 

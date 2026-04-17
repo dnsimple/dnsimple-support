@@ -1,13 +1,12 @@
 ---
-title: Adding and Removing DS Records
+title: Add and Remove DS Records
 excerpt: Instructions to add and remove a DS record in DNSimple.
 meta: Learn how to efficiently manage DS records in DNSimple with our comprehensive guide, covering both adding and removing records for optimal DNS configuration.
 categories:
 - DNSSEC
 ---
 
-# Adding and Removing DS Records
-
+# Add and Remove DS Records
 ### Table of Contents {#toc}
 
 * TOC

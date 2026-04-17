@@ -1,5 +1,5 @@
 ---
-title: Setting Up DKIM
+title: Set Up DKIM
 excerpt: How to set up DKIM on your domains.
 meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Setting Up DKIM
-
+# Set Up DKIM
 [DKIM](/articles/dkim-record/) (DomainKeys Identified Email) provides a way to validate that an organization delivering an email has permission to do so.
 
 DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email &mdash; e.g., [SendGrid](https://sendgrid.com/en-us), [Postmark](https://postmarkapp.com), or [Google Workspace](https://workspace.google.com). The key will either be inserted directly into your zone as a [TXT record](/articles/txt-record/), or it will be a [CNAME](/articles/cname-record/) pointing to the key in your provider's DNS.
@@ -50,7 +49,7 @@ DKIM records are added as TXT or sometimes CNAME records. To update or remove th
 
 ## Next steps {#next-steps}
 
-After publishing your DKIM record, [verify it is set up correctly](/articles/verify-dkim/) using `dig` or an online tool. If you have not yet configured SPF and DMARC, see [Setting Up SPF Records](/articles/setting-up-spf/) and [Setting Up DMARC](/articles/set-up-dmarc/).
+After publishing your DKIM record, [verify it is set up correctly](/articles/verify-dkim/) using `dig` or an online tool. If you have not yet configured SPF and DMARC, see [Set Up SPF Records](/articles/setting-up-spf/) and [Set Up DMARC](/articles/set-up-dmarc/).
 
 ## Have more questions?
 

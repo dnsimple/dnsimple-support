@@ -277,7 +277,7 @@ Here is a typical timeline for gradual DMARC implementation:
 
 ## Related articles {#related}
 
-- [Setting Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
+- [Set Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
 
 ## Have more questions?

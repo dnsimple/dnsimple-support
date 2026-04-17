@@ -66,7 +66,7 @@ If you trust the sender and the message content, you can disregard the warning. 
 Forwarded messages may take longer to arrive in Gmail than direct messages. Possible causes:
 
 - **Greylisting:** Gmail may temporarily reject messages from unfamiliar senders and accept them on a subsequent delivery attempt. This can add a delay of several minutes.
-- **DNS propagation:** If you recently enabled email forwarding or changed MX records, allow up to 24 hours for DNS changes to propagate. Verify your MX records are correct using [Querying MX Records](/articles/query-mx-records/).
+- **DNS propagation:** If you recently enabled email forwarding or changed MX records, allow up to 24 hours for DNS changes to propagate. Verify your MX records are correct using [Query MX Records](/articles/query-mx-records/).
 - **Gmail processing:** Gmail may hold messages briefly for additional spam and security analysis.
 
 If messages are consistently delayed by more than a few hours, [contact support](https://dnsimple.com/feedback) with the details.

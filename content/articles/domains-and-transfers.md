@@ -119,7 +119,7 @@ Registry and ICANN requirements:
 
 ### Transfer troubleshooting
 
-- [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/) - Explains what to do if you use DNSSEC and change DNS services.
+- [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/) - Explains what to do if you use DNSSEC and change DNS services.
 - [Whois Privacy may cause transfer approval emails to not be delivered](/articles/whois-privacy-blocks-transfer-email/) - Whois Privacy services often do not properly deliver transfer approval emails, and thus should be disabled before requesting a transfer.
 - [How can I issue a new transfer order when a transfer is denied?](/articles/how-to-issue-new-transfer-when-transfer-denied/) - How to proceed in case a domain transfer was denied.
 

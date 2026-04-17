@@ -1,5 +1,5 @@
 ---
-title: Verifying DMARC with dig and Online Tools
+title: Verify DMARC with dig and Online Tools
 excerpt: How to verify your DMARC record is being returned correctly.
 meta: Learn how to verify your DMARC record is working and find online tools to help monitor.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Verifying DMARC with dig and Online Tools
-
+# Verify DMARC with dig and Online Tools
 ## Verifying DMARC with dig {#verifying-dmarc-with-dig}
 
 The `dig` tool is a good way to verify your DMARC record is being returned correctly by our DNS servers. To learn more about `dig`, see [How To Use dig](/articles/how-dig/).
