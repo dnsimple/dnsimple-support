@@ -1,12 +1,12 @@
 ---
-title: Ordering a Sectigo SSL Certificate
-excerpt: How to order a Sectigo SSL certificate with DNSimple.
-meta: Learn how to order a Sectigo SSL certificate with DNSimple. Secure your website and protect your data with our step-by-step guide.
+title: How to Buy a Sectigo SSL Certificate
+excerpt: How to buy a Sectigo SSL certificate with DNSimple.
+meta: How to buy a Sectigo SSL certificate through DNSimple. Step-by-step guide to purchasing, validating, and installing your certificate.
 categories:
 - SSL Certificates
 ---
 
-# Ordering a Sectigo SSL Certificate
+# How to Buy a Sectigo SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNSimple provides an SSL certificate interface you can use to order a new SSL certificate.
+DNSimple provides an SSL certificate interface you can use to purchase a new [SSL certificate](/articles/what-is-ssl-certificate/). Buying a Sectigo certificate through DNSimple costs $20 for a single-name certificate or $100 for a wildcard certificate.
 
 Starting March 15, 2026, Sectigo SSL certificates sold by DNSimple are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Sixty days before the certificate expires, you will begin receiving renewal notices.
 
@@ -33,7 +33,7 @@ Please ensure you comply with all the [technical requirements](/articles/getting
 
 For more details about the configuration, approval, and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article, or follow the instructions on the site after you purchase the SSL certificate order.
 
-If you are looking to renew an existing certificate, read [Renewing a Sectigo SSL Certificate](/articles/renewing-standard-ssl-certificate/).
+If you are looking to renew an existing certificate, read [Renewing a Sectigo SSL Certificate](/articles/renew-sectigo-ssl-certificate/).
 
 
 ## Ordering a Sectigo SSL Certificate {#order}
@@ -82,7 +82,7 @@ The order is the first step in getting an SSL certificate. It will create an SSL
 
 Once you order the certificate, **you will have to install and configure the certificate**.
 
-See [how to install a certificate](/articles/installing-ssl-certificate/).
+See [how to install a certificate](/articles/install-ssl-certificate/).
 
 ## Have more questions?
 

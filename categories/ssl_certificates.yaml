@@ -7,6 +7,7 @@ Getting started:
 
 Explanation:
   Certificate Concepts:
+    - "What Is an SSL Certificate?"
     - "What is a Certificate Authority?"
     - "What is the SSL Certificate Chain?"
     - "What is a Root Certificate?"
@@ -26,22 +27,22 @@ Explanation:
     - "Domain Validation Methods for SSL Certificates"
     - "CAA Records and SSL Certificates"
   Certificate Providers:
-    - "Let's Encrypt and DNSimple"
+    - "Let's Encrypt: Free SSL Certificates with DNSimple"
 
 How-to:
   Ordering Certificates:
-    - "Ordering a Sectigo SSL Certificate"
-    - "Ordering a Wildcard SSL Certificate"
-    - "Ordering a Let's Encrypt Certificate"
+    - "How to Buy a Sectigo SSL Certificate"
+    - "How to Buy a Wildcard SSL Certificate"
+    - "How to Get a Free Let's Encrypt SSL Certificate"
   Renewing Certificates:
-    - "Renewing an SSL Certificate"
-    - "Renewing a Sectigo SSL Certificate"
-    - "Renewing a Let's Encrypt SSL Certificate"
+    - "How to Renew an SSL Certificate"
+    - "How to Renew a Sectigo SSL Certificate"
+    - "How to Renew a Let's Encrypt SSL Certificate"
     - "How to Set Up Auto-Renewal for SSL Certificates"
   Reissuing Certificates:
-    - "Re-Issuing a Sectigo SSL Certificate"
+    - "How to Reissue a Sectigo SSL Certificate"
   Certificate Configuration:
-    - "Choosing the SSL Certificate Names"
+    - "How to Choose SSL Certificate Names"
     - "SSL Certificate Email-Based Domain Validation"
     - "How to Select a Different SSL Certificate Domain Validation Email"
     - "How to Switch From an ECC-Signed Certificate to RSA"
@@ -51,7 +52,7 @@ How-to:
     - "Expiring Product Email Notifications"
 
   Installation:
-    - "Installing an SSL Certificate"
+    - "How to Install an SSL Certificate"
     - "How to Install an SSL Certificate on Apache"
     - "How to Install an SSL Certificate on Microsoft IIS"
     - "How to Install an SSL Certificate on NGINX"

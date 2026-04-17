@@ -1,12 +1,12 @@
 ---
-title: Renewing a Sectigo SSL Certificate
-excerpt: Instructions to renew a Sectigo SSL certificate for a domain with DNSimple.
-meta: Follow these steps to renew a Sectigo SSL certificate for your domain using DNSimple, including validation and installation.
+title: How to Renew a Sectigo SSL Certificate
+excerpt: How to renew a Sectigo SSL certificate for a domain with DNSimple.
+meta: How to renew a Sectigo SSL certificate for your domain using DNSimple, including validation and installation.
 categories:
 - SSL Certificates
 ---
 
-# Renewing a Sectigo SSL Certificate
+# How to Renew a Sectigo SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 ---
 
 > [!NOTE]
-> There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate/) before continuing with this document.
+> There are a few important things you should note about [renewing an SSL certificate](/articles/renew-ssl-certificate/) before continuing with this document.
 
 Sixty days before the certificate expires, you will begin receiving renewal notices.
 

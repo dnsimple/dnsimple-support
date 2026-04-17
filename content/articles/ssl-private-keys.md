@@ -68,7 +68,7 @@ A private key is considered **compromised** when it has been, or may have been, 
 - The key was sent over an unencrypted channel (e.g., email)
 - A team member who had access to the key has left the organization under unfavorable circumstances
 
-If you suspect your private key has been compromised, you should replace the certificate immediately. For Sectigo certificates, you can [reissue the certificate](/articles/reissuing-ssl-certificate/), which generates a new key pair without purchasing a new certificate. For Let's Encrypt certificates, reissuing is not supported — [order a new certificate](/articles/ordering-lets-encrypt-certificate/) instead.
+If you suspect your private key has been compromised, you should replace the certificate immediately. For Sectigo certificates, you can [reissue the certificate](/articles/reissue-ssl-certificate/), which generates a new key pair without purchasing a new certificate. For Let's Encrypt certificates, reissuing is not supported — [order a new certificate](/articles/get-lets-encrypt-certificate/) instead.
 
 ## Relationship to the CSR {#csr}
 
@@ -80,7 +80,7 @@ Because the CSR contains only the public key, it is safe to share with the CA. T
 
 When you [renew](/articles/how-certificate-renewal-works/) a certificate, a completely new key pair and certificate are generated. The old private key does not carry over. After installing the renewed certificate, both the new certificate **and** the new private key must be deployed to your server.
 
-When you [reissue](/articles/reissuing-ssl-certificate/) a Sectigo certificate, a new key pair is also generated. The old private key is permanently removed from DNSimple once you confirm receipt of the reissued certificate.
+When you [reissue](/articles/reissue-ssl-certificate/) a Sectigo certificate, a new key pair is also generated. The old private key is permanently removed from DNSimple once you confirm receipt of the reissued certificate.
 
 ## Have more questions?
 

@@ -84,7 +84,7 @@ PKCS#7 files (`.p7b` or `.p7c` extension) contain only certificates and chain ce
 
 ## What DNSimple provides {#dnsimple}
 
-When your certificate is issued, DNSimple makes the following files available for download from the [certificate installation page](/articles/installing-ssl-certificate/):
+When your certificate is issued, DNSimple makes the following files available for download from the [certificate installation page](/articles/install-ssl-certificate/):
 
 - **Server certificate** (`.crt`) — Your domain's certificate in PEM format
 - **Intermediate chain** (`.pem`) — The intermediate certificates bundled in PEM format
@@ -105,7 +105,7 @@ When your certificate is issued, DNSimple makes the following files available fo
 | [Microsoft Azure](/articles/ssl-certificate-with-azure/) | PFX | Single `.pfx` file |
 | AWS (ELB/CloudFront) | PEM | Certificate, chain, and private key uploaded separately |
 
-DNSimple's [installation wizard](/articles/installing-ssl-certificate/) provides platform-specific instructions and the correct file downloads for each platform.
+DNSimple's [installation wizard](/articles/install-ssl-certificate/) provides platform-specific instructions and the correct file downloads for each platform.
 
 ## Converting between formats {#converting}
 

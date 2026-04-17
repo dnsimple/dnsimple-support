@@ -74,8 +74,8 @@ The X.509 specification allows users to define extensions to be attached to a [C
 ## Taking action {#taking-action}
 
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) - Learn how to select names for your certificate
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a certificate with SAN support
-- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate that supports your naming needs
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Request a certificate with SAN support
+- [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/) - Order a Sectigo certificate that supports your naming needs
 
 ## Related reading {#related}
 

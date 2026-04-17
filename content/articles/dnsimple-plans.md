@@ -37,7 +37,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 
 - The ability to register, transfer, and renew domains
 - 100 DNS records per zone
-- [Let's Encrypt SSL Certificates](/articles/ordering-lets-encrypt-certificate/) (Root & www only)
+- [Let's Encrypt SSL Certificates](/articles/get-lets-encrypt-certificate/) (Root & www only)
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
@@ -63,7 +63,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
-- Let's Encrypt [wildcard certificates](/articles/ordering-wildcard-certificate/)
+- Let's Encrypt [wildcard certificates](/articles/buy-wildcard-ssl-certificate/)
 - [Regional](/articles/regional-records/) and [POOL](/articles/pool-record/) records
 - [Google Workspace](/articles/google-identity-provider/) and [Okta](/articles/okta-identity-provider/) user provisioning
 - Unlimited [activity history](/articles/activity-tracking/)
