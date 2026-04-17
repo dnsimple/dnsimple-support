@@ -4,6 +4,7 @@ excerpt: The syntax, mechanisms, modifiers, and validation rules that govern SPF
 meta: Learn more about the syntax, mechanisms, modifiers, and validation rules for SPF records.
 categories:
 - DNS
+- Emails
 ---
 
 # SPF Record Syntax and Validation Reference

@@ -4,6 +4,7 @@ excerpt: What an SPF record is, and how the SPF record works.
 meta: Learn what an SPF record is and how it functions to protect your domain from email spoofing, ensuring your messages reach their intended recipients securely.
 categories:
 - DNS
+- Emails
 ---
 
 # SPF Records
@@ -47,7 +48,7 @@ This mechanism allows you, the domain owner, to explicitly declare your sending 
 SPF is often used as part of a comprehensive email authentication strategy. It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
 
 ## Creating, managing, and validating SPF records {#creating-managing-and-validating-spf-records}
-For step-by-step instructions on how to create, edit, or remove SPF records (using TXT records) in your DNSimple zone, please refer to [How To Add Common DNS Records](/articles/how-to-add-dns-records/) (A, AAAA, CNAME, ALIAS, TXT, URL, NS).
+For step-by-step instructions on how to create, edit, or remove SPF records in your DNSimple zone, refer to [Setting Up SPF Records](/articles/setting-up-spf/).
 
 For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
 
