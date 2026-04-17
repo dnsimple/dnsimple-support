@@ -56,7 +56,7 @@ Once the auto-renewal process begins, it cannot be stopped because the renewal t
 If the payment method on file cannot be charged when auto-renewal is attempted, the renewal will fail and the domain will not be renewed. You will receive notifications about the payment failure, but the domain will proceed toward expiration if payment is not updated and the renewal is not completed manually. This is why it is important to keep payment methods current and monitor expiration notifications even when auto-renewal is enabled.
 
 > [!WARNING]
-> For [auto-renew only domains](#registry-handled-auto-renewal), a payment failure is especially critical. These domains have no grace period and cannot be renewed manually. If auto-renewal fails due to a payment issue, the domain may expire and become unrecoverable. Keep your payment method up to date and monitor payment failure notifications closely.
+> For [auto-renew only domains](#registry-handled-auto-renewal), a payment failure is especially critical. These domains have no grace period and cannot be renewed manually, so it is important to keep your payment method up to date and monitor payment failure notifications closely. If auto-renewal fails due to a payment issue, the domain may expire and become unrecoverable. If this happens, contact support as soon as possible to check whether recovery or restoration is still possible.
 
 ### DNSimple handles the auto-renewal
 
