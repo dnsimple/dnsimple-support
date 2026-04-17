@@ -54,17 +54,17 @@ You will need to request a new certificate before the current one expires to mai
 
 If you need to request or install a replacement certificate, see the following guides:
 
-- [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/)
-- [Renewing a Sectigo SSL Certificate](/articles/renewing-standard-ssl-certificate/)
-- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/)
-- [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
+- [Renewing an SSL Certificate](/articles/renew-ssl-certificate/)
+- [Renewing a Sectigo SSL Certificate](/articles/renew-sectigo-ssl-certificate/)
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renew-lets-encrypt-ssl-certificate/)
+- [Installing an SSL Certificate](/articles/install-ssl-certificate/)
 
 ## Related reading {#related}
 
 - [What is a Certificate Authority?](/articles/what-is-certificate-authority/)
 - [How long does it take to issue an SSL certificate?](/articles/how-long-to-issue-ssl-certificate/)
 - [Sectigo vs Let's Encrypt SSL Certificates](/articles/standard-vs-letsencrypt/)
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/)
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/)
 
 ## Have more questions?
 

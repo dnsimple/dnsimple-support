@@ -38,7 +38,7 @@ After auto-renewal completes, the new certificate is available to download from 
 | **Let's Encrypt** (single-name and wildcard) | Yes | Let's Encrypt uses DNS-based validation, which DNSimple can perform automatically because the domain resolves with our name servers. |
 | **Sectigo** (single-name and wildcard) | No | Sectigo uses [email-based validation](/articles/ssl-certificates-email-validation/), which requires a human to click an approval link. This step cannot be automated. |
 
-For Sectigo certificates, you will need to [renew manually](/articles/renewing-standard-ssl-certificate/) each time. DNSimple sends [expiration notifications](/articles/product-expiration-notification/) to remind you when renewal is due.
+For Sectigo certificates, you will need to [renew manually](/articles/renew-sectigo-ssl-certificate/) each time. DNSimple sends [expiration notifications](/articles/product-expiration-notification/) to remind you when renewal is due.
 
 ## When auto-renewal runs {#timeline}
 
@@ -50,7 +50,7 @@ If the first attempt fails, DNSimple retries automatically **every day** until t
 
 You can enable or disable auto-renewal from the SSL certificate page in your DNSimple account. The toggle is available both when ordering a new Let's Encrypt certificate and on the certificate detail page after issuance.
 
-Auto-renewal is available to all DNSimple accounts at no additional cost. The certificate must not be expired to enable auto-renewal — if a certificate has already expired, you will need to [order a new one](/articles/ordering-lets-encrypt-certificate/).
+Auto-renewal is available to all DNSimple accounts at no additional cost. The certificate must not be expired to enable auto-renewal — if a certificate has already expired, you will need to [order a new one](/articles/get-lets-encrypt-certificate/).
 
 ## What happens after auto-renewal succeeds {#success}
 
@@ -75,7 +75,7 @@ Common causes of auto-renewal failure:
 - **Let's Encrypt rate limits.** Let's Encrypt enforces [rate limits](https://letsencrypt.org/docs/rate-limits/) on certificate issuance. If you have a large number of certificates for the same domain, you may temporarily hit these limits.
 - **CAA records blocking issuance.** If [CAA records](/articles/caa-records-ssl-certificates/) are configured for the domain and Let's Encrypt is not listed as an authorized CA, the issuance will be denied.
 
-If auto-renewal has failed and the daily retries are not resolving the issue, fix the underlying cause (delegation, DNSSEC, CAA records) and the next retry should succeed. If the certificate has already expired, [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+If auto-renewal has failed and the daily retries are not resolving the issue, fix the underlying cause (delegation, DNSSEC, CAA records) and the next retry should succeed. If the certificate has already expired, [order a new Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/).
 
 ## Why auto-renewal matters more with shorter lifetimes {#shorter-lifetimes}
 

@@ -34,7 +34,7 @@ Microsoft Windows supports several web servers. To install an SSL certificate, y
     - [How to Install an SSL Certificate on Apache](/articles/ssl-certificate-with-apache/)
     - [How to Install an SSL Certificate on NGINX](/articles/ssl-certificate-with-nginx/)
 
-1. If your web server is not listed above, follow the generic instructions to [request an SSL certificate](/articles/ordering-standard-certificate/) with DNSimple, then [download and install the certificate](/articles/installing-ssl-certificate/#generic-installation-instructions) according to your web server's documentation.
+1. If your web server is not listed above, follow the generic instructions to [request an SSL certificate](/articles/buy-sectigo-ssl-certificate/) with DNSimple, then [download and install the certificate](/articles/install-ssl-certificate/#generic-installation-instructions) according to your web server's documentation.
 
 </div>
 

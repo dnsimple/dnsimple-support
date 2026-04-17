@@ -23,7 +23,7 @@ With DNSimple you can request an SSL certificate that you can install on [Heroku
 
 ## Obtain the SSL Certificate {#obtain}
 
-If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/ordering-standard-certificate/). Once the certificate has been issued, return to this page for the installation steps.
+If you have not already purchased an SSL certificate, follow [the guide to ordering an SSL certificate](/articles/buy-sectigo-ssl-certificate/). Once the certificate has been issued, return to this page for the installation steps.
 
 ## Install the SSL Certificate on Heroku {#install}
 

@@ -1,13 +1,13 @@
 ---
-title: Ordering a Wildcard SSL Certificate
-excerpt: How to order a wildcard SSL certificate with DNSimple.
-meta: Learn how to order a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, with step-by-step instructions for both Let's Encrypt and Sectigo.
+title: How to Buy a Wildcard SSL Certificate
+excerpt: How to buy a wildcard SSL certificate with DNSimple.
+meta: How to buy a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, with step-by-step instructions for both Let's Encrypt and Sectigo.
 categories:
 - SSL Certificates
 - Enterprise
 ---
 
-# Ordering a Wildcard SSL Certificate
+# How to Buy a Wildcard SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -41,7 +41,7 @@ wildcard
 <div class="section-steps" markdown="1">
 ##### Steps to order a Let's Encrypt wildcard certificate
 
-1. Follow the instructions to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+1. Follow the instructions to [order a Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/).
 1. When the certificate form requests the **name**, use the `*` character to represent the subdomain level you want the certificate to cover.
 
     - To request a certificate for `*.example.com`, enter `*`.
@@ -59,7 +59,7 @@ wildcard
 <div class="section-steps" markdown="1">
 ##### Steps to order a Sectigo wildcard certificate
 
-1. Follow the instructions to [order a Sectigo certificate](/articles/ordering-standard-certificate/).
+1. Follow the instructions to [order a Sectigo certificate](/articles/buy-sectigo-ssl-certificate/).
 1. When the certificate form requests the **common name**, use the `*` character to represent the subdomain level you want the certificate to cover.
 
     - To request a certificate for `*.example.com`, enter `*`.
@@ -74,7 +74,7 @@ wildcard
 
 Once your wildcard certificate has been issued, install it on your server:
 
-- [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
+- [Installing an SSL Certificate](/articles/install-ssl-certificate/)
 - [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/) to understand how wildcard names are matched
 
 ## Have more questions?

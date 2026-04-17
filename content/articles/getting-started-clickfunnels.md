@@ -74,8 +74,8 @@ Your DNS records transfer with the domain. If your site was working before the m
 
 ClickFunnels includes a certificate with their service. After moving the domain, you will need to manage your own certificate.
 
-- For most sites, a [Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) provides the security you need at no extra cost. Let's Encrypt certificates cover your root domain and `www` subdomain.
-- If you need a [wildcard certificate](/articles/ordering-wildcard-certificate/) to cover all subdomains, check which [plans](/articles/dnsimple-plans/) support this feature.
+- For most sites, a [Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/) provides the security you need at no extra cost. Let's Encrypt certificates cover your root domain and `www` subdomain.
+- If you need a [wildcard certificate](/articles/buy-wildcard-ssl-certificate/) to cover all subdomains, check which [plans](/articles/dnsimple-plans/) support this feature.
 - To compare certificate options, see [Sectigo vs Let's Encrypt](/articles/standard-vs-letsencrypt/).
 
 > [!NOTE]

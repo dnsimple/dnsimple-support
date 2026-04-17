@@ -1,7 +1,7 @@
 ---
 title: How HTTPS Works
 excerpt: HTTPS secures communication between a browser and your server using TLS encryption. Understanding the process helps you troubleshoot certificate issues and make informed security decisions.
-meta: Learn how HTTPS works, what happens during the TLS handshake, and how SSL certificates, private keys, and the certificate chain combine to secure web traffic.
+meta: Learn how HTTPS and SSL certificates work. Understand the TLS handshake, how certificates prove server identity, and how encryption protects web traffic.
 categories:
 - SSL Certificates
 ---
@@ -23,7 +23,7 @@ HTTP transmits data in plain text. Anyone positioned between the browser and the
 
 TLS solves this by establishing an encrypted channel before any HTTP data is exchanged. The browser and server negotiate encryption parameters, verify identities, and generate shared encryption keys. Once the TLS connection is established, all HTTP traffic flows through the encrypted channel.
 
-The protocol is technically called TLS (the successor to the older SSL protocol), but the terms SSL and TLS are used interchangeably in most contexts. [SSL certificates](/articles/ssl-certificates/) are really TLS certificates — the name persists for historical reasons.
+The protocol is technically called TLS (the successor to the older SSL protocol), but the terms SSL and TLS are used interchangeably in most contexts. [SSL certificates](/articles/what-is-ssl-certificate/) are really TLS certificates — the name persists for historical reasons.
 
 ## The TLS handshake {#handshake}
 

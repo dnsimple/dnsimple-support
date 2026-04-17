@@ -1,12 +1,12 @@
 ---
-title: Renewing a Let's Encrypt SSL Certificate
-excerpt: Instructions to renew a Let's Encrypt SSL certificate for a domain with DNSimple.
-meta: Follow these steps to manually renew a Let's Encrypt SSL certificate for your domain using DNSimple, or enable auto-renewal to automate the process.
+title: How to Renew a Let's Encrypt SSL Certificate
+excerpt: How to renew a Let's Encrypt SSL certificate for a domain with DNSimple.
+meta: How to manually renew a Let's Encrypt SSL certificate for your domain using DNSimple, or enable auto-renewal to automate the process.
 categories:
 - SSL Certificates
 ---
 
-# Renewing a Let's Encrypt SSL Certificate
+# How to Renew a Let's Encrypt SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 ---
 
 > [!NOTE]
-> There are a few important things you should note about [renewing an SSL certificate](/articles/renewing-ssl-certificate/) before continuing with this document.
+> There are a few important things you should note about [renewing an SSL certificate](/articles/renew-ssl-certificate/) before continuing with this document.
 
 All Let's Encrypt SSL certificates, including renewals, are valid for no more than 90 days from their issue date. Thirty days before the certificate expires, you will begin receiving renewal notices. If you have not selected the [auto-renewal option](/articles/ssl-auto-renewal/), these are the steps to manually renew your Let's Encrypt certificate:
 
@@ -46,8 +46,8 @@ All Let's Encrypt SSL certificates, including renewals, are valid for no more th
 
 Once the certificate is issued, you need to install it on your server. The old certificate will remain valid until its expiration date, but you should install the new one promptly.
 
-- [Installing an SSL Certificate](/articles/installing-ssl-certificate/) -- Use the installation wizard to install your renewed certificate.
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/) -- Learn more about auto-renewal and Let's Encrypt integration details.
+- [Installing an SSL Certificate](/articles/install-ssl-certificate/) -- Use the installation wizard to install your renewed certificate.
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/) -- Learn more about auto-renewal and Let's Encrypt integration details.
 
 ## Have more questions?
 

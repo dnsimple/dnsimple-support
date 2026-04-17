@@ -1,12 +1,12 @@
 ---
-title: Renewing an SSL Certificate
-excerpt: Instructions to renew an SSL certificate for a domain with DNSimple.
-meta: Learn how to renew your SSL certificate in DNSimple, including how to identify your certificate type and complete the renewal process.
+title: How to Renew an SSL Certificate
+excerpt: How to renew an SSL certificate for a domain with DNSimple.
+meta: How to renew your SSL certificate in DNSimple, including how to identify your certificate type and complete the renewal process.
 categories:
 - SSL Certificates
 ---
 
-# Renewing an SSL Certificate
+# How to Renew an SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -37,8 +37,8 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 1. Scroll down to the <label>SSL certificates</label> section and find the active SSL certificate.
 1. Identify your certificate type and follow the appropriate renewal guide:
 
-    - **Sectigo certificate**: Follow the steps in [Renewing a Sectigo SSL Certificate](/articles/renewing-standard-ssl-certificate/). You will need to complete [email-based domain validation](/articles/ssl-certificates-email-validation/) again.
-    - **Let's Encrypt certificate**: Follow the steps in [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/). You can also enable [auto-renewal](/articles/letsencrypt/#auto-renewal) to automate this process.
+    - **Sectigo certificate**: Follow the steps in [Renewing a Sectigo SSL Certificate](/articles/renew-sectigo-ssl-certificate/). You will need to complete [email-based domain validation](/articles/ssl-certificates-email-validation/) again.
+    - **Let's Encrypt certificate**: Follow the steps in [Renewing a Let's Encrypt SSL Certificate](/articles/renew-lets-encrypt-ssl-certificate/). You can also enable [auto-renewal](/articles/letsencrypt/#auto-renewal) to automate this process.
 
 </div>
 
@@ -52,7 +52,7 @@ Once you have completed the renewal, you must configure, verify, and install the
 1. **Let's Encrypt certificate**:
    - DNSimple handles domain validation automatically using DNS.
    - Wait for the renewed certificate to be issued.
-1. Install the new certificate using the [SSL certificate installation guide](/articles/installing-ssl-certificate/).
+1. Install the new certificate using the [SSL certificate installation guide](/articles/install-ssl-certificate/).
 
 > [!WARNING]
 > If you do not complete the verification and installation steps, the renewal is not finished. Browsers will display a security warning when the old certificate expires.
