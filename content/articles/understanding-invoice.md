@@ -91,6 +91,26 @@ If you **upgrade** your plan, you'll receive a proration discount corresponding 
 
 If you **downgrade** your plan (e.g. moving from Teams to Solo), we do not grant proration credit. We wait until the end of the billing cycle, then change your plan.
 
+## Active zones and billing {#active-zones}
+
+You are billed monthly for each [active DNS zone](/articles/activate-deactivate-dns-zone/) in your account. If you have zones you are not using, [deactivating them](/articles/activate-deactivate-dns-zone/#deactivating-a-dns-zone) will stop the recurring charge for those zones. See the [pricing page](https://dnsimple.com/pricing) for current per-zone rates.
+
+[DNS query volume fees](/articles/dns-query-limits/) are also billed per active zone based on the number of queries each zone receives.
+
+## Common invoice questions {#faq}
+
+**Why am I being charged for a zone I am not using?**
+If the zone is still active in your account, it will appear on your invoice. [Deactivate the zone](/articles/activate-deactivate-dns-zone/#deactivating-a-dns-zone) to stop the charge.
+
+**What does my subscription fee cover?**
+Your subscription fee covers access to your [plan's features](/articles/dnsimple-plans/). Zone hosting and query volume are billed separately as usage-based charges. Domain registrations, renewals, and certificates are one-time purchases billed on separate invoices.
+
+**Where can I see current pricing?**
+Visit the [DNSimple pricing page](https://dnsimple.com/pricing) for up-to-date rates on subscriptions, zones, and queries.
+
+> [!NOTE]
+> If you are on an older plan that predates the current Solo, Teams, and Enterprise plans, your invoice may show different line items or billing cycles than what is described here. [Contact support](https://dnsimple.com/feedback) for help understanding charges on a legacy plan.
+
 ## Additional resources
 
 - Learn how to find and view your [invoice history](/articles/account-invoice-history/).

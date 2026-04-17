@@ -50,6 +50,9 @@ The DNS zone is automatically inactive for each new domain or zone added to an a
 > If a domain is delegated to our name servers, deactivating the DNS zone will immediately cause the domain to stop resolving. This applies whether the domain is registered or just hosted with us.
 > If the domain is registered with DNSimple but delegated to another DNS provider, deactivating the DNS zone will not change the delegation settings. The domain will continue to resolve through the other DNS provider as usual.
 
+> [!NOTE]
+> Active zones are billed monthly. Deactivating a zone stops the recurring charge. If you are seeing charges for zones you are not using, check whether they are still active and deactivate them if they are no longer needed. See [Understanding Your Invoice](/articles/understanding-invoice/#active-zones) for more details.
+
 ## Use cases {#use-cases}
 There are a few cases where you may want to deactivate a zone:
 
