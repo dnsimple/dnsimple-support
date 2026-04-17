@@ -40,9 +40,9 @@ If the signature matches, it confirms:
 
 ## Key benefits of DKIM {#key-benefits-of-dkim}
 
-**Combats spoofing and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
+**Combats [spoofing](/articles/protecting-your-domain-from-email-spoofing/) and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
 
-**Improves deliverability:** Email servers are more likely to trust and deliver messages that pass DKIM authentication, leading to fewer emails being marked as spam or rejected.
+**Improves [deliverability](/articles/understanding-email-deliverability/):** Email servers are more likely to trust and deliver messages that pass DKIM authentication, leading to fewer emails being marked as spam or rejected.
 
 **Enhances reputation:** Helps build and maintain a positive sending reputation for your domain.
 
