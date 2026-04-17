@@ -27,6 +27,8 @@ To gain control of the domain:
 2. The partner will initiate a [domain push](/articles/transferring-domain-between-accounts/) to transfer the domain into your account.
 3. You will receive an email from DNSimple when the domain push is pending. [Accept the transfer](/articles/transferring-domain-between-accounts/#accepting-a-transfer) from your dashboard.
 
+![Email alerting you that a domain push is pending](/files/domain-push-email.png)
+
 > [!NOTE]
 > You will need an active DNSimple account with a subscription to accept the domain push. If you do not have one, [create an account](https://dnsimple.com) and choose a plan before requesting the transfer.
 
