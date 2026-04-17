@@ -21,8 +21,8 @@ Security:
   - "What Are CDS and CDNSKEY?"
   - "SSL/TLS Certificates"
   - "SSL Certificate Types"
-  - "Ordering a Let's Encrypt Certificate"
-  - "Ordering a Wildcard SSL Certificate"
+  - "How to Get a Free Let's Encrypt SSL Certificate"
+  - "How to Buy a Wildcard SSL Certificate"
 
 Infra:
   - "Manage Vanity Name Servers"
