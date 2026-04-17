@@ -19,6 +19,7 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Email forwarding {#forwarding}
 
+- [Email Forwarding](/articles/email-forwarding/) - Set up and manage email forwarding with DNSimple.
 - [What Is Email Forwarding?](/articles/what-is-email-forwarding/) - How email forwarding works at DNSimple.
 - [Email Hosting Support](/articles/email-hosting/) - The difference between email hosting and email forwarding, and what DNSimple supports.
 
@@ -51,6 +52,13 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 - [Managing MX Records When Changing Email Providers](/articles/managing-mx-records-when-changing-email-providers/) - Update MX records when migrating between providers.
 - [Google Workspace Service](/articles/google-workspace-service/) - Set up Google Workspace email with the one-click service or manual DNS.
 - [Microsoft 365 Service](/articles/office-365-service/) - Set up Microsoft 365 email with the one-click service or manual DNS.
+- [Fastmail Service](/articles/fastmail-service/) - Set up Fastmail DNS using the one-click service.
+- [Pobox Service](/articles/pobox-service/) - Set up Pobox DNS using the one-click service.
+- [Rackspace Email Service](/articles/rackspace-email-service/) - Set up Rackspace Email DNS using the one-click service.
+- [Mailgun Service](/articles/mailgun-service/) - Set up Mailgun DNS using the one-click service.
+- [Postmark Service](/articles/postmark-service/) - Set up Postmark DNS using the one-click service.
+- [Atmail Service](/articles/atmail-service/) - Set up Atmail DNS using the one-click service.
+- [DMARC Reports by Postmark Service](/articles/postmark-dmarc-service/) - Set up DMARC reporting with the Postmark one-click service.
 - [Email Hosting Support](/articles/email-hosting/) - Options for third-party email hosting with DNSimple.
 
 ## Troubleshooting {#troubleshooting}

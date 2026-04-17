@@ -1,7 +1,7 @@
 ---
 title: Email Forwarding
 excerpt: Set up and manage email forwarding with DNSimple to receive emails at your domain and redirect them to another address.
-meta: Learn how to set up and manage email forwarding with DNSimple to direct emails from one address to another.
+meta: Set up, manage, and troubleshoot email forwarding with DNSimple. Forward emails from your domain to any email address.
 categories:
 - Emails
 ---

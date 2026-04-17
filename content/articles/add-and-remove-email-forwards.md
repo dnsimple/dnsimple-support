@@ -1,12 +1,12 @@
 ---
-title: Creating and Deleting Email Forwards
-excerpt: Step-by-step instructions for creating, editing, and deleting email forwarding rules in DNSimple.
-meta: Complete how-to guide with step-by-step instructions for managing email forwards in DNSimple, including catch-all forwarding and best practices.
+title: How to Add and Remove Email Forwards
+excerpt: Step-by-step instructions for adding, editing, and removing email forwarding rules in DNSimple.
+meta: How to add, edit, and remove email forwarding rules in DNSimple, including catch-all email forwarding setup.
 categories:
 - Emails
 ---
 
-# Creating and Deleting Email Forwards
+# How to Add and Remove Email Forwards
 
 ### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ categories:
 
 Email forwards let you redirect emails sent to addresses at your domain to other email addresses. You can create, edit, and delete individual forwards from the domain page or the dashboard. For a visual guide to the interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding/).
 
-## Creating an email forward {#creating}
+## Add an email forward {#creating}
 
 You can create email forwards from either the domain's Email Forwarding page or directly from the Dashboard.
 
@@ -56,7 +56,7 @@ You can create email forwards from either the domain's Email Forwarding page or 
 1. Click <label>Create forward</label>.
 </div>
 
-## Creating a catch-all email forward {#catch-all}
+## Set up catch-all email forwarding {#catch-all}
 
 A catch-all email forward forwards emails sent to any address at your domain that does not have a specific forwarding rule.
 
@@ -84,7 +84,7 @@ To view all email forwards for a domain:
 
 For a visual guide to the email forwarding interface, see [Email Forwarding Management in DNSimple](/articles/email-forwarding-management/).
 
-## Editing an email forward {#editing}
+## Edit an email forward {#editing}
 
 <div class="section-steps" markdown="1">
 ##### Edit an existing email forward
@@ -96,7 +96,7 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 1. Click <label>Update forward</label> to apply the changes.
 </div>
 
-## Deleting an email forward {#deleting}
+## Remove an email forward {#deleting}
 
 <div class="section-steps" markdown="1">
 ##### Delete an email forward

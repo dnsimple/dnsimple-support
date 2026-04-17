@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Email Forwarding with Other Providers
-excerpt: Guide to troubleshooting email forwarding issues with email providers other than Gmail.
-meta: Step-by-step guide to diagnosing and fixing email forwarding issues with various email providers.
+title: Email Forwarding Not Working with Outlook, Yahoo, and Other Providers
+excerpt: Diagnose and fix email forwarding problems with Outlook, Yahoo Mail, Apple Mail, and other providers.
+meta: Fix email forwarding issues with Outlook, Yahoo Mail, Apple Mail, and other email providers. Troubleshoot forwarded emails going to spam or not arriving.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Forwarding with Other Providers
+# Email Forwarding Not Working with Outlook, Yahoo, and Other Providers
 
 ### Table of Contents {#toc}
 

@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Email Forwarding with Gmail
-excerpt: How to diagnose and fix email forwarding issues when the destination is a Gmail or Google Workspace account.
-meta: Troubleshoot email forwarding issues with Gmail, including messages going to spam, test emails not appearing, and delayed delivery.
+title: Email Forwarding Not Working with Gmail
+excerpt: Diagnose and fix email forwarding problems with Gmail, including spam filtering, missing test emails, and delayed delivery.
+meta: Fix email forwarding issues with Gmail, including forwarded emails going to spam, test emails not appearing, security warnings, and delayed delivery.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Forwarding with Gmail
+# Email Forwarding Not Working with Gmail
 
 ### Table of Contents {#toc}
 

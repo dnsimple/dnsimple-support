@@ -1,12 +1,12 @@
 ---
-title: Enabling Email Forwarding
-excerpt: Enable email forwarding for your domain. Understand the prerequisites, follow the configuration steps, and know what to expect after activation.
-meta: Step-by-step guide to enabling email forwarding for your domain in DNSimple, including prerequisites, configuration steps, and what to expect after activation.
+title: How to Set Up Email Forwarding
+excerpt: Set up email forwarding for your domain with this step-by-step guide covering prerequisites, configuration, and what to expect.
+meta: Step-by-step guide to setting up email forwarding for your domain in DNSimple. Learn how to configure email forwarding, what prerequisites you need, and what to expect after activation.
 categories:
 - Emails
 ---
 
-# Enabling Email Forwarding
+# How to Set Up Email Forwarding
 
 ### Table of Contents {#toc}
 
@@ -28,10 +28,10 @@ The domain must be delegated to DNSimple's name servers, and DNS hosting must be
 > [!WARNING]
 > Email forwarding is not supported for domains with a secondary zone. To configure email forwards, you must first convert the zone to a forward zone (primary zone).
 
-## Enable email forwarding {#enable}
+## Set up email forwarding for your domain {#enable}
 
 <div class="section-steps" markdown="1">
-##### Enable email forwarding for a domain
+##### Set up email forwarding for a domain
 
 1. Use the **account switcher** at the top of the page to select the appropriate account.
   ![screenshot of switching accounts](/files/switch-account.png)

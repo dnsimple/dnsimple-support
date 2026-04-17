@@ -1,7 +1,7 @@
 ---
 title: Email Forwarding Management in DNSimple
 excerpt: Visual reference guide to the email forwarding interface in DNSimple with annotated screenshots.
-meta: Illustrated guide to understanding the email forwarding management interface in DNSimple, including UI elements and their functions.
+meta: Visual reference guide to the email forwarding interface in DNSimple, with annotated screenshots of the forwarding dashboard, creation form, and forwards list.
 categories:
 - Emails
 ---
