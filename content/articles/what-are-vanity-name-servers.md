@@ -55,7 +55,7 @@ Both configuration and delegation are necessary to fully utilize vanity name ser
 
 ## Setting up and managing vanity name servers {#setting-up-and-managing-vanity-name-servers}
 
-For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article [Managing Vanity Name Servers](/articles/vanity-nameservers/).
+For step-by-step instructions on how to enable, configure, disable, and delegate to vanity name servers for your domains in DNSimple, please refer to our dedicated article [Manage Vanity Name Servers](/articles/vanity-nameservers/).
 
 To understand more about the critical role of glue records in this process, see our [What Are Glue Records?](/articles/what-are-glue-records/) article.
 

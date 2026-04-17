@@ -74,7 +74,7 @@ The domain registration process at DNSimple involves:
 4. Providing payment information
 5. Completing the registration
 
-For step-by-step instructions, see [Registering a Domain](/articles/registering-domain/).
+For step-by-step instructions, see [Register a Domain](/articles/registering-domain/).
 
 ## Registration pricing {#registration-pricing}
 

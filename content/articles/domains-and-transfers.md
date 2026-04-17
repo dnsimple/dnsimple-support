@@ -75,47 +75,47 @@ Registry and ICANN requirements:
 
 ### Domain Registration & Setup
 
-- [Adding a Domain](/articles/adding-domain/) - How to add a domain you already own to DNSimple.
-- [Registering a Domain](/articles/registering-domain/) - How to register a domain with a DNSimple account.
+- [Add a Domain](/articles/adding-domain/) - How to add a domain you already own to DNSimple.
+- [Register a Domain](/articles/registering-domain/) - How to register a domain with a DNSimple account.
 
 ### Domain Renewal & Expiration
 
-- [Renewing a Domain](/articles/renewing-domain/) - How to renew a domain using your DNSimple account.
-- [Enabling and Disabling Domain Auto-Renewal](/articles/enabling-disabling-domain-auto-renewal/) - Step-by-step guide to enable or disable auto-renewal for your domains.
-- [Restoring a Domain](/articles/restoring-domain/) - How to restore a domain with a DNSimple account.
-- [Disabling Expiration Notifications](/articles/disabling-expiration-notifications/) - How to disable expiration notifications on a domain from your DNSimple account.
+- [Renew a Domain](/articles/renewing-domain/) - How to renew a domain using your DNSimple account.
+- [Enable and Disable Domain Auto-Renewal](/articles/enabling-disabling-domain-auto-renewal/) - Step-by-step guide to enable or disable auto-renewal for your domains.
+- [Restore a Domain](/articles/restoring-domain/) - How to restore a domain with a DNSimple account.
+- [Disable Expiration Notifications](/articles/disabling-expiration-notifications/) - How to disable expiration notifications on a domain from your DNSimple account.
 
 ### Domain Deletion
 
-- [Deleting a Domain](/articles/deleting-domain/) - How to delete a domain from your account.
-- [Recovering a Deleted Domain](/articles/recovering-deleted-domain/) - How to recover a domain deleted from your DNSimple account.
+- [Delete a Domain](/articles/deleting-domain/) - How to delete a domain from your account.
+- [Recover a Deleted Domain](/articles/recovering-deleted-domain/) - How to recover a domain deleted from your DNSimple account.
 
 ### Domain Transfers
 
 - [Transfer a Domain to DNSimple](/articles/domain-transfer/) - How to transfer your registered domain to DNSimple.
-- [Transferring a domain away from DNSimple](/articles/transferring-domain-away/) - How to request a transfer code and transfer a domain from DNSimple to a different registrar.
-- [Transferring a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/) - How to move a domain from one DNSimple account to another.
+- [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/) - How to request a transfer code and transfer a domain from DNSimple to a different registrar.
+- [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/) - How to move a domain from one DNSimple account to another.
 - [Transfer an Integrated Provider Domain to DNSimple](/articles/integrated-domain-provider-transfer-domain/) - How to transfer your integrated provider domain to DNSimple.
-- [Preparing a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/) - Steps to avoid downtime when transferring a domain.
+- [Prepare a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/) - Steps to avoid downtime when transferring a domain.
 - [Domain Transfer Pricing](/articles/domain-transfer-pricing/) - Domain transfer price varies depending on the TLD you want to transfer, and generally it includes 1 year of extension.
 
 ### Domain Management
 
-- [Organizing and Labeling Domains](/articles/labeling-domains/) - When your domain names list grows and becomes hard to maintain, labels can help you organize your inventory.
-- [Exporting Domain Names to a .CSV File](/articles/export-domain-names-to-file/) - This article explains how to export domain names to a .CSV or .ZIP file.
-- [Verifying Domain Resolution](/articles/verifying-domain-resolution/) - This article explains the different ways you can verify that a domain is resolving.
-- [Managing Integrated Domains](/articles/managing-integrated-domains/) - We support managing domains at other domain providers.
-- [Changing WHOIS information](/articles/changing-whois-contact/) - How to update WHOIS contact details.
-- [Linking and Unlinking Integrated Domain Providers](/articles/linking-unlinking-integrated-domain-providers/) - Step-by-step guide to link or unlink integrated domain providers to your DNSimple account.
-- [Resending Domain Validation Email](/articles/resending-domain-validation-email/) - How to resend domain validation emails to verify your registrant contact information.
-- [Adding a Subdomain](/articles/adding-subdomain/) - How to add subdomains in DNSimple.
-- [Managing Vanity Name Servers](/articles/vanity-nameservers/) - How to enable and disable vanity name servers in DNSimple.
+- [Organize and Label Domains](/articles/labeling-domains/) - How to add, filter, edit, and remove labels on domains in your DNSimple account.
+- [Export Domain Names to a .CSV File](/articles/export-domain-names-to-file/) - How to export domain names from your DNSimple account to a .CSV or .ZIP file.
+- [Verify Domain Resolution](/articles/verifying-domain-resolution/) - How to verify that your domain is resolving correctly using dig, nslookup, and online tools.
+- [Manage Integrated Domains](/articles/managing-integrated-domains/) - How to view and manage domains registered at other providers from your DNSimple account.
+- [Change WHOIS Information](/articles/changing-whois-contact/) - How to update WHOIS contact details.
+- [Link and Unlink Integrated Domain Providers](/articles/linking-unlinking-integrated-domain-providers/) - Step-by-step guide to link or unlink integrated domain providers to your DNSimple account.
+- [Resend Domain Validation Email](/articles/resending-domain-validation-email/) - How to resend domain validation emails to verify your registrant contact information.
+- [Add a Subdomain](/articles/adding-subdomain/) - How to add subdomains in DNSimple.
+- [Manage Vanity Name Servers](/articles/vanity-nameservers/) - How to enable and disable vanity name servers in DNSimple.
 
 ### Redirects and hosting
 
 - [DNSimple Redirector](/articles/redirector/) - The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
-- [Troubleshooting URL Redirects](/articles/troubleshooting-redirects/) - How to check and debug URL redirect issues.
-- [Redirecting www to Non-www Domain at Heroku](/articles/redirect-heroku/) - This article explains how to use DNSimple to redirect to an app hosted on Heroku with/without HTTPS.
+- [Troubleshoot URL Redirects](/articles/troubleshooting-redirects/) - How to check and debug URL redirect issues.
+- [Redirect www to Non-www Domain at Heroku](/articles/redirect-heroku/) - This article explains how to use DNSimple to redirect to an app hosted on Heroku with/without HTTPS.
 
 ### Transfer troubleshooting
 
@@ -125,9 +125,9 @@ Registry and ICANN requirements:
 
 ### Troubleshooting
 
-- [Troubleshooting Domain Transfer Issues](/articles/troubleshooting-domain-transfer-issues/) - Solutions for common domain transfer problems, including denied transfers, missing authorization codes, and email delivery issues.
-- [Troubleshooting Domain Validation Issues](/articles/troubleshooting-domain-validation-issues/) - Solutions for domain validation problems, including missing verification emails, suspended domains, and email address issues.
-- [Troubleshooting Domain Expiration Issues](/articles/troubleshooting-domain-expiration-issues/) - Solutions for domain expiration and renewal problems, including failed renewals, expired domains, and auto-renewal issues.
+- [Troubleshoot Domain Transfer Issues](/articles/troubleshooting-domain-transfer-issues/) - Solutions for common domain transfer problems, including denied transfers, missing authorization codes, and email delivery issues.
+- [Troubleshoot Domain Validation Issues](/articles/troubleshooting-domain-validation-issues/) - Solutions for domain validation problems, including missing verification emails, suspended domains, and email address issues.
+- [Troubleshoot Domain Expiration Issues](/articles/troubleshooting-domain-expiration-issues/) - Solutions for domain expiration and renewal problems, including failed renewals, expired domains, and auto-renewal issues.
 
 ## Reference {#reference}
 

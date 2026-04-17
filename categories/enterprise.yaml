@@ -25,7 +25,7 @@ Security:
   - "Ordering a Wildcard SSL Certificate"
 
 Infra:
-  - "Managing Vanity Name Servers"
+  - "Manage Vanity Name Servers"
   - "Where are your servers located?"
   - "What Are Vanity Name Servers?"
   - "Regional Records"

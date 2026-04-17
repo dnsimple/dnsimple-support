@@ -1,11 +1,12 @@
 ---
-title: Disabling Expiration Notifications
+title: Disable Expiration Notifications
 excerpt: How to disable expiration notifications on a domain from your DNSimple account.
+meta: How to turn off domain expiration email notifications in DNSimple for domains you plan to let expire.
 categories:
 - Domains and Transfers
 ---
 
-# Disabling Expiration Notifications
+# Disable Expiration Notifications
 
 If you have disabled auto-renewal on the domain you want to let expire, simply toggle the checkbox <label>Email me when this domain is about to expire</label> which appears on the card showing the registration status of your domain management page of non-auto-renewing domains.
 
