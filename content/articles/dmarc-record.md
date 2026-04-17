@@ -53,7 +53,7 @@ These reports provide invaluable insights into:
 
 ### Key benefits of DMARC {#benefits}
 
-**Stronger anti-phishing and anti-spoofing:** Provides a robust defense against impersonation.
+**Stronger anti-phishing and [anti-spoofing](/articles/protecting-your-domain-from-email-spoofing/):** Provides a robust defense against impersonation.
 
 **Enhanced [deliverability](/articles/understanding-email-deliverability/):** Builds trust with receiving mail servers, improving inbox placement.
 
