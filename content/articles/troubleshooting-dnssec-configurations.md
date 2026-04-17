@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting DNSSEC
-excerpt: A comprehensive guide to diagnosing and resolving common DNSSEC issues for your domain, including checks for DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 records. Learn how to use essential tools like DNSSEC Analyzer, DNSViz, and dig.
-meta: Troubleshoot DNSSEC with our detailed guide, covering DS records, DNSKEYs, RRSIGs, and NSEC/NSE to ensure your domain's security.
+title: Troubleshoot DNSSEC
+excerpt: Diagnose and resolve common DNSSEC issues for your domain, including checks for DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 records.
+meta: Troubleshoot DNSSEC with our detailed guide. Test and check your DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 to ensure your domain's DNSSEC validation is working.
 categories:
   - DNSSEC
 ---
 
-# Troubleshooting DNSSEC
+# Troubleshoot DNSSEC
 
 If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 

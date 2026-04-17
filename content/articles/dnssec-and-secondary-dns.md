@@ -34,7 +34,7 @@ For a deeper dive into multi-provider DNSSEC, refer to [RFC 8901](https://datatr
 
 ## Learn more {#learn-more}
 
-To enable DNSSEC for your domain, see [Enabling DNSSEC](/articles/enabling-dnssec/). If you encounter issues with your DNSSEC configuration, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance. For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To enable DNSSEC for your domain, see [Enable DNSSEC](/articles/enabling-dnssec/). If you encounter issues with your DNSSEC configuration, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance. For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with secondary DNS or DNSSEC, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

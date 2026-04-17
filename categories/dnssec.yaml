@@ -10,23 +10,23 @@ Explanation:
     - "What Are DS Records?"
     - "DNSKEY Records Explained"
     - "What Are the Types of DNSSEC Keys?"
-    - "Understanding RRSETs and RRSIGs in DNSSEC"
-    - "Understanding NSEC and NSEC3 Records"
+    - "What Are RRSETs and RRSIGs in DNSSEC?"
+    - "What Are NSEC and NSEC3 Records?"
     - "What Are CDS and CDNSKEY?"
   DNSSEC Concepts:
     - "What Is DANE (DNS-based Authentication of Named Entities)?"
 
 How to:
   Managing DNSSEC:
-    - "Enabling DNSSEC"
-    - "Disabling DNSSEC"
+    - "Enable DNSSEC"
+    - "Disable DNSSEC"
     - "Add and Remove DS Records"
     - "Manage DS Records When Changing DNS"
     - "Rotate DNSSEC Keys"
   Using DNSSEC with Other Providers:
-    - "Using Cloudflare DNSSEC with DNSimple"
+    - "Use Cloudflare DNSSEC with DNSimple"
   Troubleshooting:
-    - "Troubleshooting DNSSEC"
+    - "Troubleshoot DNSSEC"
 
 Reference:
   - "DNSSEC Compatibility With Other DNSimple Features"

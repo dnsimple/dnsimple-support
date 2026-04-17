@@ -134,7 +134,7 @@ When troubleshooting domain resolution, you may encounter specific error message
 - Often indicates a DNSSEC validation failure
 - Check if DNSSEC is enabled and properly configured
 - Verify DS records are correct if using DNSSEC
-- See [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for more details
+- See [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for more details
 
 **"REFUSED"**
 - The DNS server refused to answer the query
