@@ -107,7 +107,7 @@ _25._tcp.mail.example.com.  3600  IN  TLSA  1  1  1  f9e8d7c6b5a4...
 
 ### DNSSEC requirement
 
-TLSA records provide security benefits only when used in conjunction with **DNSSEC (DNS Security Extensions)**. Without DNSSEC, an attacker could modify TLSA records to point to their own certificates, negating the security benefits. DNSimple supports DNSSEC; see [Enabling DNSSEC](/articles/enabling-dnssec/) for more information.
+TLSA records provide security benefits only when used in conjunction with **DNSSEC (DNS Security Extensions)**. Without DNSSEC, an attacker could modify TLSA records to point to their own certificates, negating the security benefits. DNSimple supports DNSSEC; see [Enable DNSSEC](/articles/enabling-dnssec/) for more information.
 
 ### Service name format
 

@@ -1,12 +1,12 @@
 ---
-title: Understanding NSEC and NSEC3 Records
-excerpt: Explains how NSEC and NSEC3 Records work.
-meta: Learn about NSEC and NSEC3 Records, what they are, why they're important, and how they work.
+title: What Are NSEC and NSEC3 Records?
+excerpt: NSEC and NSEC3 records let DNSSEC resolvers cryptographically prove that a queried domain or record type does not exist.
+meta: Learn what NSEC and NSEC3 records are, how they provide authenticated denial of existence in DNSSEC, and why NSEC3 prevents zone walking.
 categories:
 - DNSSEC
 ---
 
-# Understanding NSEC and NSEC3 Records
+# What Are NSEC and NSEC3 Records?
 
 NSEC (Next Secure) and NSEC3 (Next Secure version 3) records are essential DNSSEC components that solve the critical problem of Authenticated Denial of Existence. They allow DNSSEC-validating resolvers to cryptographically confirm that a queried name or record does not exist, which helps prevent malicious actors from spoofing non-existent domains. While NSEC provides a direct link between names, NSEC3 enhances privacy by using hashed names, making it the preferred choice for most modern DNSSEC deployments. 
 
@@ -78,9 +78,9 @@ While both NSEC and NSEC3 provide authenticated denial of existence, they differ
 
 ## Learn more {#learn-more}
 
-To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how RRSIG records work with NSEC/NSEC3, see [Understanding RRSETs and RRSIGs in DNSSEC](/articles/understanding-rrsets-rrsigs/). If you are experiencing issues with NSEC/NSEC3 records, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how RRSIG records work with NSEC/NSEC3, see [What Are RRSETs and RRSIGs in DNSSEC?](/articles/understanding-rrsets-rrsigs/). If you are experiencing issues with NSEC/NSEC3 records, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.
 
-Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/) for detailed instructions.
+Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/) for detailed instructions.

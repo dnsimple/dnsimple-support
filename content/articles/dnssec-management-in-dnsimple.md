@@ -1,7 +1,7 @@
 ---
 title: DNSSEC Management in DNSimple
-excerpt: An illustrated guide to DNSSEC management in DNSimple.
-meta: Learn how to effectively manage DNSSEC in DNSimple with our comprehensive illustrated guide, ensuring your domain's security and integrity with ease.
+excerpt: Reference for the DNSSEC management interface in DNSimple, including how to enable, disable, and configure DS records for your domain.
+meta: Reference guide for the DNSSEC management interface in DNSimple. See how to enable and disable DNSSEC, add DS records, and manage fully managed DNSSEC for your domains.
 categories:
 - DNSSEC
 ---

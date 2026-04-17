@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Domain Resolution Issues
-excerpt: This article contains instructions to check and debug domain resolution issues.
-meta: Explore this comprehensive guide to debug and resolve domain resolution issues effectively, ensuring your website is accessible and functioning properly.
+excerpt: How to diagnose and fix domain resolution issues, including DNS server not responding errors, NXDOMAIN, SERVFAIL, and delegation problems.
+meta: Fix domain resolution issues including DNS server not responding, NXDOMAIN, SERVFAIL, and name server delegation problems. Step-by-step DNS troubleshooting guide.
 categories:
 - DNS
 ---
@@ -104,6 +104,18 @@ If you transferred your domain from another registrar, check our suggestions at 
 > - Checking for missing A or AAAA records at the apex domain
 
 
+## DNS server not responding {#dns-server-not-responding}
+
+If you see a "DNS server not responding" error, it means your device cannot reach a DNS server to resolve domain names. Common causes:
+
+- **Local network issue:** Your internet connection may be down or unstable. Try restarting your router or switching to a different network (e.g., mobile data).
+- **DNS resolver issue:** The DNS resolver your device is configured to use may be unreachable. Try switching to a public resolver like Google DNS (8.8.8.8) or Cloudflare DNS (1.1.1.1) temporarily.
+- **Stale local DNS cache:** Your device may have cached a bad response. [Flush your DNS cache](/articles/check-dns-cache/) to force a fresh lookup.
+- **Name server delegation problem:** If the error only affects your specific domain, the domain may not be properly delegated. Check delegation using `dig NS yourdomain.com +trace` and verify the name servers match [DNSimple name servers](/articles/dnsimple-nameservers/).
+- **Firewall or VPN interference:** A firewall or VPN may be blocking DNS traffic on port 53. Try disabling them temporarily to isolate the issue.
+
+If the problem persists only for your domain (and other domains resolve fine), the issue is likely with name server delegation rather than your local DNS setup.
+
 ## Common error messages and what they mean {#common-error-messages-and-what-they-mean}
 
 When troubleshooting domain resolution, you may encounter specific error messages. Here is what they typically indicate:
@@ -122,7 +134,7 @@ When troubleshooting domain resolution, you may encounter specific error message
 - Often indicates a DNSSEC validation failure
 - Check if DNSSEC is enabled and properly configured
 - Verify DS records are correct if using DNSSEC
-- See [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for more details
+- See [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for more details
 
 **"REFUSED"**
 - The DNS server refused to answer the query
