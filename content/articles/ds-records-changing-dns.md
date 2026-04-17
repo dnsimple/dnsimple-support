@@ -1,5 +1,5 @@
 ---
-title: Managing DS Records When Changing DNS
+title: Manage DS Records When Changing DNS
 excerpt: Explains what to do if you use DNSSEC and change DNS services.
 meta: Learn how to update your DS records when changing DNS services while using DNSSEC, ensuring your domain remains secure and properly configured.
 categories:
@@ -8,8 +8,7 @@ categories:
 - DNSSEC
 ---
 
-# Managing DS Records When Changing DNS
-
+# Manage DS Records When Changing DNS
 If you use DNSSEC, when you switch from one DNS provider to another, you must take precautions to ensure your DNS resolution continues during the transition.
 
 ## Why this matters {#why-this-matters}
@@ -30,7 +29,7 @@ For more information on adding and removing DS records, refer to this [support a
 
 ## Managing your DS records in DNSimple {#managing-your-ds-records-in-dnsimple}
 
-If you are using DNSimple as your domain registrar, you can manage your DS records by following the steps in our [Adding and Removing DS Records article](/articles/manage-ds-record/).
+If you are using DNSimple as your domain registrar, you can manage your DS records by following the steps in our [Add and Remove DS Records article](/articles/manage-ds-record/).
 
 ## Have more questions?
 If you have questions or need assistance with your DS records, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

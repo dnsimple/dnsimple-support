@@ -193,7 +193,7 @@ To dig even deeper into `dig`, open a console and type `dig -h` for the list of 
 
 ## Troubleshooting DNS issues {#troubleshooting-dns-issues}
 
-If you are experiencing DNS resolution problems, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance. You may also want to [check your DNS cache](/articles/check-dns-cache/) if you are not seeing recent DNS changes.
+If you are experiencing DNS resolution problems, see [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/) for comprehensive troubleshooting guidance. You may also want to [check your DNS cache](/articles/check-dns-cache/) if you are not seeing recent DNS changes.
 
 ## Have more questions?
 If you have additional questions or need any assistance troubleshooting your DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

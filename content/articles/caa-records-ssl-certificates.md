@@ -92,7 +92,7 @@ DNSimple retries auto-renewal daily, so if you fix the CAA records, the next ret
 
 ## Managing CAA records in DNSimple {#managing}
 
-To add or update CAA records, see [Managing CAA Records](/articles/manage-caa-record/). For a detailed explanation of the record format, tag types, and examples, see [CAA Record Format and Policy Tags](/articles/caa-record-format/).
+To add or update CAA records, see [Manage CAA Records](/articles/manage-caa-record/). For a detailed explanation of the record format, tag types, and examples, see [CAA Record Format and Policy Tags](/articles/caa-record-format/).
 
 ## Have more questions?
 

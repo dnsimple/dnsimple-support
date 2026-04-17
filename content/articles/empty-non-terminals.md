@@ -366,7 +366,7 @@ Now that you understand what Empty Non-Terminals are and how they work:
 
 - **[How to Fix Empty Responses from Empty Non-Terminals](/articles/how-to-fix-empty-responses-from-empty-non-terminals/)** — Step-by-step guide to resolving ENT-related issues in your DNS zone
 
-- **[Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/)** — Diagnose and resolve intermittent or unexpected empty responses caused by ENTs
+- **[Troubleshoot Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/)** — Diagnose and resolve intermittent or unexpected empty responses caused by ENTs
 
 ## Have more questions?
 

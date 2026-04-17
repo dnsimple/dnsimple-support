@@ -48,7 +48,7 @@ This mechanism allows you, the domain owner, to explicitly declare your sending 
 SPF is often used as part of a comprehensive email authentication strategy. It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
 
 ## Creating, managing, and validating SPF records {#creating-managing-and-validating-spf-records}
-For step-by-step instructions on how to create, edit, or remove SPF records in your DNSimple zone, refer to [Setting Up SPF Records](/articles/setting-up-spf/).
+For step-by-step instructions on how to create, edit, or remove SPF records in your DNSimple zone, refer to [Set Up SPF Records](/articles/setting-up-spf/).
 
 For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
 

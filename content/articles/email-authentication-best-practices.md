@@ -330,8 +330,8 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 ## Related articles {#related}
 
 - [SPF Records](/articles/spf-record/) - SPF setup
-- [Setting Up DKIM](/articles/set-up-dkim/) - DKIM setup
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC setup
+- [Set Up DKIM](/articles/set-up-dkim/) - DKIM setup
+- [Set Up DMARC](/articles/set-up-dmarc/) - DMARC setup
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment
 - [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual implementation
 

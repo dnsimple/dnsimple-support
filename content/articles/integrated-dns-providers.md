@@ -1,5 +1,5 @@
 ---
-title: Managing Integrated DNS Providers
+title: Manage Integrated DNS Providers
 excerpt: Connect an Integrated DNS Provider to your DNSimple account to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 meta: Connect and manage Integrated DNS Providers like Route 53, Azure DNS, and CoreDNS. Synchronize and manage DNS zones across multiple providers from DNSimple.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Integrations
 ---
 
-# Managing Integrated DNS Providers
-
+# Manage Integrated DNS Providers
 ### Table of Contents {#toc}
 
 * TOC

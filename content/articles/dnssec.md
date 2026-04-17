@@ -37,8 +37,8 @@ Ready to use DNSSEC? Learn how to manage your DNSSEC configurations effectively 
 
 - [Enabling DNSSEC](/articles/enabling-dnssec/): A step-by-step guide to turning DNSSEC **on** for your domain.
 - [Disabling DNSSEC](/articles/disabling-dnssec/):  A step-by-step guide to turning DNSSEC **off** for your domain.
-- [Adding and Removing DS Records](/articles/manage-ds-record/): Learn how to manually add or remove Delegation Signer (DS) records for your domain.
-- [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/): A guide to updating DS records when you migrate your DNS hosting to a different provider.
+- [Add and Remove DS Records](/articles/manage-ds-record/): Learn how to manually add or remove Delegation Signer (DS) records for your domain.
+- [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/): A guide to updating DS records when you migrate your DNS hosting to a different provider.
 - [Using Cloudflare DNSSEC with DNSimple](/articles/cloudflare-ds-record/): Using Cloudflare DNSSEC when your domain is with DNSimple.
 - [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/): Learn how to manage DNSSEC key rotation and what to do when keys change.
 

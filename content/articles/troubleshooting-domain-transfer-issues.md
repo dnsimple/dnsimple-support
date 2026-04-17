@@ -132,8 +132,8 @@ If you are already experiencing downtime:
 
 **Resolution**: If you are changing DNS providers during the transfer, you must [manage your DS records appropriately](/articles/ds-records-changing-dns/):
 
-- **Moving to a provider that does not support DNSSEC**: Disable DNSSEC and remove DS records before switching. For instructions on removing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
-- **Moving to a provider that supports DNSSEC**: Enable DNSSEC on the new provider and ensure the new provider's DS record is provisioned before switching. For instructions on adding DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
+- **Moving to a provider that does not support DNSSEC**: Disable DNSSEC and remove DS records before switching. For instructions on removing DS records, see [Add and Remove DS Records](/articles/manage-ds-record/).
+- **Moving to a provider that supports DNSSEC**: Enable DNSSEC on the new provider and ensure the new provider's DS record is provisioned before switching. For instructions on adding DS records, see [Add and Remove DS Records](/articles/manage-ds-record/).
 
 ## Transfer cancellation {#transfer-cancellation}
 

@@ -90,9 +90,9 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **SPF:** Your SPF record should include `include:spf.protection.outlook.com`. See [What Is an SPF Record?](/articles/spf-record/) for details.
 
-**DKIM:** Enable DKIM in the Microsoft 365 admin center under <label>Settings</label> > <label>Domains</label> > your domain > <label>DKIM</label>. Microsoft provides two DKIM selectors (`selector1` and `selector2`) with corresponding CNAME or TXT records to add in DNSimple. See [Setting Up DKIM](/articles/set-up-dkim/) for instructions.
+**DKIM:** Enable DKIM in the Microsoft 365 admin center under <label>Settings</label> > <label>Domains</label> > your domain > <label>DKIM</label>. Microsoft provides two DKIM selectors (`selector1` and `selector2`) with corresponding CNAME or TXT records to add in DNSimple. See [Set Up DKIM](/articles/set-up-dkim/) for instructions.
 
-**DMARC:** Add a DMARC record to monitor and protect against spoofing. See [Setting Up DMARC](/articles/set-up-dmarc/) for instructions.
+**DMARC:** Add a DMARC record to monitor and protect against spoofing. See [Set Up DMARC](/articles/set-up-dmarc/) for instructions.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -102,7 +102,7 @@ For better email deliverability, set up [SPF](/articles/spf-record/), [DKIM](/ar
 
 **Autodiscover not working:** Verify the `autodiscover` CNAME record points to `autodiscover.outlook.com`. If automatic configuration fails, configure email clients manually using Microsoft's server settings.
 
-**Email authentication failures:** Verify your SPF record includes `include:spf.protection.outlook.com`. Check DKIM records are at the correct subdomains. For setup details, see [SPF records](/articles/spf-record/), [Setting Up DKIM](/articles/set-up-dkim/), and [Setting Up DMARC](/articles/set-up-dmarc/).
+**Email authentication failures:** Verify your SPF record includes `include:spf.protection.outlook.com`. Check DKIM records are at the correct subdomains. For setup details, see [SPF records](/articles/spf-record/), [Set Up DKIM](/articles/set-up-dkim/), and [Set Up DMARC](/articles/set-up-dmarc/).
 
 ## Have more questions?
 

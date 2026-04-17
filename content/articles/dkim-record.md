@@ -49,9 +49,9 @@ If the signature matches, it confirms:
 DKIM is often used in conjunction with [SPF](/articles/spf-record/) (Sender Policy Framework) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting, and Conformance) to form a comprehensive email authentication strategy.
 
 ## Setting up and verifying DKIM {#setting-up-and-verifying-dkim}
-For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Setting Up DKIM](/articles/set-up-dkim/).
+For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Set Up DKIM](/articles/set-up-dkim/).
 
-To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
+To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verify DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
 
 ## Technical details {#technical-details}
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.

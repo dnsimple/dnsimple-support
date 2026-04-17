@@ -1,5 +1,5 @@
 ---
-title: Managing Integrated Zones for Integrated DNS Providers
+title: Manage Integrated Zones for Integrated DNS Providers
 excerpt: Learn how to synchronize, manage, and view zones at other authoritative DNS providers within DNSimple.
 meta: Learn how to manage integrated DNS zones from other providers within DNSimple. Add, remove, delete, and synchronize zones across multiple DNS providers.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Integrations
 ---
 
-# Managing Integrated Zones for Integrated DNS Providers
-
+# Manage Integrated Zones for Integrated DNS Providers
 ### Table of Contents {#toc}
 
 * TOC

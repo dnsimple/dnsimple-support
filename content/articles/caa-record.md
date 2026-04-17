@@ -38,7 +38,7 @@ CAA records can define policy for your entire domain or for specific hostnames w
 A CAA record uses a specific format consisting of flags, a tag, and a value, which together define the authorized CA or the notification policy.
 
 ## Setting up and understanding CAA record details {#setting-up-and-understanding-caa-record-details}
-For step-by-step instructions on how to add a CAA record to your DNSimple zone, please refer to our dedicated How-To Guide: [Managing CAA Records](/articles/manage-caa-record/).
+For step-by-step instructions on how to add a CAA record to your DNSimple zone, please refer to our dedicated How-To Guide: [Manage CAA Records](/articles/manage-caa-record/).
 
 For a detailed explanation of the CAA record format, accepted tags (like `issue`, `issuewild`, `issuemail`, `iodef`,`contactemail`, `contactphone`), their specific values, and various examples, consult our Reference Guide: [CAA Record Format and Policy Tags](/articles/caa-record-format/).
 

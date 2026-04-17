@@ -1,13 +1,12 @@
 ---
-title: Managing URL Records
+title: Manage URL Records
 excerpt: Instructions to add, update, and remove a URL record in DNSimple.
 meta: Learn how to easily manage your URL records in DNSimple with our step-by-step guide. Add, update, or remove records to optimize your domain's performance.
 categories:
 - DNS
 ---
 
-# Managing URL Records
-
+# Manage URL Records
 ### Table of Contents {#toc}
 
 * TOC

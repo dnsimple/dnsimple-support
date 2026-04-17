@@ -16,7 +16,7 @@ categories:
 
 ---
 
-Look up the record type, name format, and content format for each email-related DNS record. For a step-by-step walkthrough, see [Managing Email DNS Records](/articles/managing-email-dns-records/).
+Look up the record type, name format, and content format for each email-related DNS record. For a step-by-step walkthrough, see [Manage Email DNS Records](/articles/managing-email-dns-records/).
 
 ## MX records {#mx}
 
@@ -41,7 +41,7 @@ Mail server: mail.example.com
 - Email forwarding (auto-configured by DNSimple)
 
 > [!NOTE]
-> See [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) for details.
+> See [Set Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/) for details.
 
 ## SPF records {#spf}
 
@@ -72,7 +72,7 @@ Content: v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
 - `-all` - Hard fail (strongest protection)
 
 > [!NOTE]
-> See [Setting Up SPF Records](/articles/setting-up-spf/) for details.
+> See [Set Up SPF Records](/articles/setting-up-spf/) for details.
 
 ## DKIM records {#dkim}
 
@@ -96,7 +96,7 @@ Content: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3...
 - Various - Other email services
 
 > [!NOTE]
-> See [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
+> See [Set Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
 
 ## DMARC records {#dmarc}
 
@@ -125,7 +125,7 @@ Content: v=DMARC1; p=none; rua=mailto:dmarc@example.com
 - `pct=25` - Apply policy to 25% of emails
 
 > [!NOTE]
-> See [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
+> See [Set Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
 
 ## CNAME records for email {#cname}
 

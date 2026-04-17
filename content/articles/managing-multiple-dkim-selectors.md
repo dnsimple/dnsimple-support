@@ -246,9 +246,9 @@ If an email service changes their DKIM selector:
 
 ## Related articles {#related}
 
-- [Setting Up DKIM](/articles/set-up-dkim/) - Initial DKIM setup
+- [Set Up DKIM](/articles/set-up-dkim/) - Initial DKIM setup
 - [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
+- [Set Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
 
 ## Have more questions?
 

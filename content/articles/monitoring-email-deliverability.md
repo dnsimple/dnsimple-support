@@ -45,8 +45,8 @@ Raw DMARC reports are XML files that are difficult to read manually. Use a parsi
 ### What to look for {#dmarc-red-flags}
 
 - **Unexpected source IPs** - These may indicate a service you forgot to authorize, or someone spoofing your domain. Cross-reference with your SPF record.
-- **SPF failures from legitimate services** - A service sending on your behalf is missing from your SPF `include:` list. Add it. See [Setting Up SPF Records](/articles/setting-up-spf/).
-- **DKIM failures** - The sending service may not have DKIM enabled, or the DNS record may be missing or incorrect. See [Setting Up DKIM](/articles/set-up-dkim/).
+- **SPF failures from legitimate services** - A service sending on your behalf is missing from your SPF `include:` list. Add it. See [Set Up SPF Records](/articles/setting-up-spf/).
+- **DKIM failures** - The sending service may not have DKIM enabled, or the DNS record may be missing or incorrect. See [Set Up DKIM](/articles/set-up-dkim/).
 - **High failure rates after a policy change** - If you recently moved from `p=none` to `p=quarantine` or `p=reject`, failures you previously ignored now affect delivery. Review and fix before tightening further. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ## Monitor sender reputation {#reputation}
@@ -127,7 +127,7 @@ Deliverability monitoring does not need to be time-consuming if you check the ri
 - Verify authentication records have not changed unexpectedly (e.g., after a DNS migration or provider change)
 
 **After any DNS or provider change:**
-- Verify SPF, DKIM, and DMARC records are still correct. See [Verifying SPF](/articles/verifying-spf/), [Verifying DKIM](/articles/verify-dkim/), and [Verifying DMARC](/articles/verifying-dmarc/).
+- Verify SPF, DKIM, and DMARC records are still correct. See [Verify SPF](/articles/verifying-spf/), [Verify DKIM](/articles/verify-dkim/), and [Verify DMARC](/articles/verifying-dmarc/).
 - Send test emails to Gmail, Outlook, and Yahoo to confirm inbox placement
 - Monitor DMARC reports closely for the following week
 
