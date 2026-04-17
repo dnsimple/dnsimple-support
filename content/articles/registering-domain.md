@@ -1,12 +1,12 @@
 ---
-title: Registering a Domain
+title: Register a Domain
 excerpt: How to register a domain with a DNSimple account.
-meta: Learn how to effortlessly register a domain name using your DNSimple account with our step-by-step guide, ensuring a smooth and successful domain registration process.
+meta: How to register a new domain name through your DNSimple account. Covers domain search, TLD selection, contact assignment, and registration confirmation.
 categories:
 - Domains and Transfers
 ---
 
-# Registering a Domain
+# Register a Domain
 
 There are **two** reasons to register a domain with DNSimple:
 

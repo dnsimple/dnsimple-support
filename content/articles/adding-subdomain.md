@@ -1,12 +1,12 @@
 ---
-title: Adding a Subdomain
+title: Add a Subdomain
 excerpt: How to add a subdomain to a DNSimple account.
-meta: Learn how to easily add a subdomain to your DNSimple account with our step-by-step guide, ensuring seamless management of your domain and online presence.
+meta: How to add a subdomain in DNSimple by creating DNS records (A, CNAME, or ALIAS) for the subdomain under your domain zone.
 categories:
 - Domains and Transfers
 ---
 
-# Adding a Subdomain
+# Add a Subdomain
 
 A subdomain is a DNS record for a hostname that belongs to your domain. To add a subdomain, use our [DNS record editor](/articles/record-editor/), and create the DNS record corresponding to the subdomain.
 

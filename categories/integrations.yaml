@@ -1,6 +1,6 @@
 Integrated Domain Providers:
 - "Integrated Domain Providers at DNSimple"
-- "Managing Integrated Domains"
+- "Manage Integrated Domains"
 - "Integrated Domain Provider - GoDaddy"
 
 Integrated DNS Providers:
@@ -24,7 +24,7 @@ Heroku:
 - "Troubleshooting Heroku shows different app error"
 - "Troubleshooting Heroku \"No such app\" error"
 - "Troubleshooting Heroku SSL errors"
-- "Redirecting www to Non-www Domain at Heroku"
+- "Redirect www to Non-www Domain at Heroku"
 - "SSL Certificates with Heroku"
 
 Cloudflare:

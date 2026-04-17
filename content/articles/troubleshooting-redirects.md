@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting URL Redirects
+title: Troubleshoot URL Redirects
 excerpt: How to check and debug URL redirect issues.
-meta: Learn how to effectively troubleshoot and resolve URL redirect issues with our comprehensive guide, ensuring your website redirects work seamlessly for users.
+meta: Fix common URL redirect problems in DNSimple, including redirect loops, HTTPS errors, incorrect destinations, and DNS propagation delays.
 categories:
 - Domains and Transfers
 ---
 
-# Troubleshooting URL Redirects
+# Troubleshoot URL Redirects
 
 ### Table of Contents {#toc}
 

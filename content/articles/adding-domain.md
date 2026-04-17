@@ -1,12 +1,12 @@
 ---
-title: Adding a Domain
+title: Add a Domain
 excerpt: How to add a domain to a DNSimple account.
-meta: Learn the step-by-step process to easily add a domain to your DNSimple account and manage your DNS settings with confidence and efficiency.
+meta: How to add a domain to your DNSimple account, either as a DNS-only zone or as a registered domain, and start managing its DNS records.
 categories:
 - Domains and Transfers
 ---
 
-# Adding a Domain
+# Add a Domain
 
 When adding a domain to your account, you can register a new domain, transfer an existing domain you own from another registrar, or create a DNS zone to use our DNS service if you plan to keep your domain at your current registrar.
 

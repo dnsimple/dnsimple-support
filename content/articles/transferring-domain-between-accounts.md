@@ -1,12 +1,12 @@
 ---
-title: Transferring a Domain to Another DNSimple Account
+title: Transfer a Domain to Another DNSimple Account
 excerpt: How to move a domain from one DNSimple account to another.
-meta: Learn how to easily transfer your domain between DNSimple accounts with our step-by-step guide, ensuring a smooth transition and continued management of your domain.
+meta: How to move a domain from one DNSimple account to another, including DNS records, SSL certificates, and email forwards. Covers push and accept steps.
 categories:
 - Domains and Transfers
 ---
 
-# Transferring a Domain to Another DNSimple Account
+# Transfer a Domain to Another DNSimple Account
 
 ### Table of Contents {#toc}
 

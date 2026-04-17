@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Domain Validation Issues
+title: Troubleshoot Domain Validation Issues
 excerpt: Solutions for domain validation problems, including missing verification emails, suspended domains, and email address issues.
-meta: Troubleshoot domain validation issues with our comprehensive guide. Learn how to resolve verification email problems, domain suspensions, and contact information issues.
+meta: Fix domain validation problems at DNSimple, including missing verification emails, domain suspensions from non-compliance, and registrant email address issues.
 categories:
 - Domains and Transfers
 ---
 
-# Troubleshooting Domain Validation Issues
+# Troubleshoot Domain Validation Issues
 
 Domain validation is required by ICANN to ensure the accuracy of contact information in the domain registration database. If you are experiencing problems with domain validation, this guide will help you identify and resolve common issues. For general information about domain validation, see [Domain Validation Requirements](/articles/icann-domain-validation/).
 

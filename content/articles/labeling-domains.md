@@ -1,11 +1,12 @@
 ---
-title: Organizing and Labeling Domains
-excerpt: When your domain names list grows and becomes hard to maintain, labels can help you organize your inventory.
+title: Organize and Label Domains
+excerpt: How to add, filter, edit, and remove labels on domains in your DNSimple account.
+meta: Use labels in DNSimple to organize and filter your domain portfolio. Add labels to multiple domains at once, filter by label, and edit or remove labels from the domain list.
 categories:
 - Domains and Transfers
 ---
 
-# Organizing and Labeling Domains
+# Organize and Label Domains
 
 ### Table of Contents {#toc}
 
@@ -14,7 +15,7 @@ categories:
 
 ---
 
-When your domain names list grows and becomes hard to maintain, labels can help you organize your inventory.
+Labels let you organize your domain portfolio in DNSimple. Add labels to group domains by project, client, or purpose, then filter your domain list to show only the domains you need.
 
 ## Adding labels {#adding-labels}
 

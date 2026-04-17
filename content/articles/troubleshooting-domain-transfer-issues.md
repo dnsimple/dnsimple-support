@@ -1,14 +1,14 @@
 ---
-title: Troubleshooting Domain Transfer Issues
+title: Troubleshoot Domain Transfer Issues
 excerpt: Solutions for common domain transfer problems, including denied transfers, missing authorization codes, and email delivery issues.
-meta: Troubleshoot domain transfer issues with our comprehensive guide. Learn how to resolve common problems like denied transfers, missing authorization codes, and email delivery failures.
+meta: Fix common domain transfer problems at DNSimple, including denied transfers, missing or expired authorization codes, WHOIS email delivery issues, and 60-day transfer locks.
 categories:
 - Domains and Transfers
 ---
 
-# Troubleshooting Domain Transfer Issues
+# Troubleshoot Domain Transfer Issues
 
-If you are experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
+If you are experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/).
 
 ### Table of Contents {#toc}
 

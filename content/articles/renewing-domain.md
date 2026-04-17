@@ -1,12 +1,12 @@
 ---
-title: Renewing a Domain
+title: Renew a Domain
 excerpt: How to renew a domain using your DNSimple account.
-meta: Easily renew your domain with our step-by-step guide for DNSimple account holders. Keep your online presence secure and avoid lapses in your domain registration!
+meta: How to renew a domain registered with DNSimple. Covers manual renewal, auto-renewal settings, and what to do if your domain has already expired.
 categories:
 - Domains and Transfers
 ---
 
-# Renewing a Domain
+# Renew a Domain
 
 By default, newly registered domains are set to [auto-renew](/articles/domain-auto-renewal/). If auto-renewal is off, or you want to extend the duration of your domain registration, follow these steps:
 
@@ -33,7 +33,7 @@ If the renewal option is not available for your domain, one of the following may
 - **The domain is auto-renew only.** Some TLDs require [auto-renewal](/articles/domain-auto-renewal/) and do not support manual renewal. For these domains, ensure auto-renewal is enabled and your payment method is valid.
 - **Payment method issues.** If your payment method is expired or invalid, renewal may not proceed. Update your payment method in your account settings and retry.
 
-For more details, see [Troubleshooting Domain Expiration Issues](/articles/troubleshooting-domain-expiration-issues/).
+For more details, see [Troubleshoot Domain Expiration Issues](/articles/troubleshooting-domain-expiration-issues/).
 
 ## Have more questions?
 

@@ -47,7 +47,7 @@ If you do not yet have a domain name, you can register a new domain directly thr
 
 **How to proceed**: [Sign up or log in](https://dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
 
-**Instructions**: For detailed steps, please refer to [Registering a Domain](/articles/registering-domain/)
+**Instructions**: For detailed steps, please refer to [Register a Domain](/articles/registering-domain/)
 
 ### Park a Domain for Future Use
 

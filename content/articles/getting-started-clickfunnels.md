@@ -57,7 +57,7 @@ ClickFunnels will reply when the domain has been moved. You will also receive an
 1. Click <label>Accept Push</label> to complete the transfer.
 </div>
 
-For more details on the push process, see [Transferring a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
+For more details on the push process, see [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
 
 > [!WARNING]
 > Changing the registrant information [locks the domain from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). You will receive a verification email to confirm the contact change. Verify it promptly - ignoring it will lead to a [suspended domain](/articles/icann-domain-validation/).
