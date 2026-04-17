@@ -46,6 +46,8 @@ Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) usi
 
 ClickFunnels will reply when the domain has been moved. You will also receive an email from DNSimple letting you know a [domain push](/articles/transferring-domain-between-accounts/) is pending.
 
+![Email alerting you that a domain push is pending](/files/domain-push-email.png)
+
 ## Accept the domain push {#accept-push}
 
 <div class="section-steps" markdown="1">
