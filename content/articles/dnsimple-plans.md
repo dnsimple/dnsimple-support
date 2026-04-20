@@ -15,6 +15,18 @@ You'll find all [the features listed for each plan on our pricing page](https://
 * TOC
 {:toc}
 
+## What is included vs. what is usage-based {#included-vs-usage}
+
+DNSimple billing has three components:
+
+| Component | How it works |
+|-----------|-------------|
+| **Plan subscription** | A fixed monthly fee (Solo has no base fee, Teams starts at $29/month, Enterprise is custom). Covers access to your plan's features. |
+| **Usage-based charges** | Billed monthly based on your active zones and DNS query volume. These appear on your subscription invoice. See the [pricing page](https://dnsimple.com/pricing) for current rates. |
+| **One-time purchases** | Domain registrations, renewals, transfers, and SSL certificates. Billed on separate invoices at the time of purchase. |
+
+For a detailed breakdown of invoice line items, see [Understanding Your Invoice](/articles/understanding-invoice/).
+
 ## Included on all plans
 
 - The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
