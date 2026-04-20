@@ -92,7 +92,7 @@ Once you have [set up email authentication](/articles/email-authentication/) (SP
 - Test each selector regularly
 
 > [!NOTE]
-> For detailed information, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+> For detailed information, see [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ### Verify DKIM signatures
 
@@ -135,7 +135,7 @@ Once you have [set up email authentication](/articles/email-authentication/) (SP
 6. Gradually increase to full reject
 
 > [!NOTE]
-> For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+> For detailed steps, see [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ### Set up reporting
 
@@ -225,10 +225,10 @@ Once you have [set up email authentication](/articles/email-authentication/) (SP
 ## Related articles {#related}
 
 - [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) - Initial setup and common mistakes
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual DMARC rollout
-- [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Ongoing monitoring routine
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing failures
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
+- [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual DMARC rollout
+- [Monitor Email Deliverability](/articles/monitoring-email-deliverability/) - Ongoing monitoring routine
+- [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing failures
 
 ## Have more questions?
 

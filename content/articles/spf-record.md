@@ -45,7 +45,7 @@ This mechanism allows you, the domain owner, to explicitly declare your sending 
 
 **Enhances domain reputation:** Helps maintain a positive sending reputation for your domain, which is crucial for overall email success.
 
-SPF is often used as part of a comprehensive email authentication strategy. It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
+SPF is one of three protocols that make up [email authentication](/articles/email-authentication/). It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
 
 ## Creating, managing, and validating SPF records {#creating-managing-and-validating-spf-records}
 For step-by-step instructions on how to create, edit, or remove SPF records in your DNSimple zone, refer to [Set Up SPF Records](/articles/setting-up-spf/).

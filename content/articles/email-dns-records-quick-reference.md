@@ -96,7 +96,7 @@ Content: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3...
 - Various - Other email services
 
 > [!NOTE]
-> See [Set Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
+> See [Set Up DKIM](/articles/set-up-dkim/) and [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) for details.
 
 ## DMARC records {#dmarc}
 
@@ -125,7 +125,7 @@ Content: v=DMARC1; p=none; rua=mailto:dmarc@example.com
 - `pct=25` - Apply policy to 25% of emails
 
 > [!NOTE]
-> See [Set Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
+> See [Set Up DMARC](/articles/set-up-dmarc/) and [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.
 
 ## CNAME records for email {#cname}
 

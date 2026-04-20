@@ -7,17 +7,16 @@ Explanation:
     - "What Is Email Forwarding?"
     - "Email Hosting Support"
   Email Authentication:
-    - "How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)"
     - "What Is an SPF Record?"
     - "What Is a DKIM Record?"
     - "What Is a DMARC Record?"
-    - "Understanding SPF, DKIM, and DMARC Alignment"
+    - "SPF, DKIM, and DMARC Alignment"
     - "Email Authentication Best Practices"
   Email Deliverability:
     - "Email Deliverability: How to Get Your Emails to the Inbox"
-    - "Understanding Email Bounces"
+    - "Email Bounces"
   Email Security:
-    - "Protecting Your Domain from Email Spoofing"
+    - "Email Spoofing Protection"
   MX Records:
     - "What Is an MX Record?"
     - "What Are Null MX Records?"
@@ -30,11 +29,12 @@ How to:
     - "How to Migrate Email Forwarding to DNSimple"
     - "Email Forwarding and Bounced Emails"
   Email Authentication:
+    - "How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)"
     - "Set Up SPF Records"
     - "Set Up DKIM"
     - "Set Up DMARC"
-    - "Implementing a Gradual DMARC Policy"
-    - "Managing Multiple DKIM Selectors"
+    - "Implement a Gradual DMARC Policy"
+    - "Manage Multiple DKIM Selectors"
   Email Hosting:
     - "Set Up MX Records for Email Hosting"
     - "Set Up Null MX Records"
@@ -50,8 +50,8 @@ How to:
     - "Atmail Service"
     - "DMARC Reports by Postmark Service"
   Email Deliverability:
-    - "Improving Email Deliverability"
-    - "Monitoring Email Deliverability"
+    - "Improve Email Deliverability"
+    - "Monitor Email Deliverability"
   MX Records:
     - "Query MX Records"
   Verification:
@@ -62,7 +62,7 @@ How to:
     - "Email Forwarding Not Working with Gmail"
     - "Email Forwarding Not Working"
     - "Email Forwarding Not Working with Outlook, Yahoo, and Other Providers"
-    - "Troubleshooting Email Authentication"
+    - "Troubleshoot Email Authentication"
 
 Reference:
   Email Forwarding:

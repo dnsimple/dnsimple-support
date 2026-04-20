@@ -78,7 +78,7 @@ When verifying your SPF record, you may see different results:
 
 **Missing mechanisms:** Ensure your SPF record includes all the email providers you use. Missing an authorized sender can cause legitimate emails to fail SPF checks.
 
-If your SPF record is published correctly but messages are still failing authentication, see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for common causes like missing senders and DNS lookup limits.
+If your SPF record is published correctly but messages are still failing authentication, see [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) for common causes like missing senders and DNS lookup limits.
 
 ## Technical details {#technical}
 
