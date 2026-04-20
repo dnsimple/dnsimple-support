@@ -25,6 +25,7 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Email authentication {#authentication}
 
+- [How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)](/articles/email-authentication/) - What email authentication is and how to set up SPF, DKIM, and DMARC.
 - [What Is an SPF Record?](/articles/spf-record/) - How SPF authorizes email senders for your domain.
 - [What Is a DKIM Record?](/articles/dkim-record/) - How DKIM uses digital signatures to verify email authenticity.
 - [What Is a DMARC Record?](/articles/dmarc-record/) - How DMARC ties SPF and DKIM together with a policy.
@@ -72,7 +73,7 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ### Email deliverability {#deliverability}
 
-- [Understanding Email Deliverability](/articles/understanding-email-deliverability/) - What affects whether your emails reach recipients' inboxes.
+- [Email Deliverability](/articles/understanding-email-deliverability/) - What email deliverability is, why emails end up in spam, and how to fix it.
 - [Improving Email Deliverability](/articles/improving-email-deliverability/) - Configure DNS-based authentication and manage sender reputation.
 - [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Track authentication results, sender reputation, and inbox placement.
 

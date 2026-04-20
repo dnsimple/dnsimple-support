@@ -7,13 +7,14 @@ Explanation:
     - "What Is Email Forwarding?"
     - "Email Hosting Support"
   Email Authentication:
+    - "How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)"
     - "What Is an SPF Record?"
     - "What Is a DKIM Record?"
     - "What Is a DMARC Record?"
     - "Understanding SPF, DKIM, and DMARC Alignment"
     - "Email Authentication Best Practices"
   Email Deliverability:
-    - "Understanding Email Deliverability"
+    - "Email Deliverability: How to Get Your Emails to the Inbox"
     - "Understanding Email Bounces"
   Email Security:
     - "Protecting Your Domain from Email Spoofing"

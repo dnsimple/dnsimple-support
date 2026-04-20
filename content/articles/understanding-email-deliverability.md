@@ -1,12 +1,12 @@
 ---
-title: Understanding Email Deliverability
-excerpt: What email deliverability is, why it matters, and how DNS-based authentication affects whether your emails reach recipients' inboxes.
-meta: Understand email deliverability and the DNS-based factors - SPF, DKIM, DMARC, and sender reputation - that determine whether your emails reach recipients' inboxes or end up in spam folders.
+title: "Email Deliverability: How to Get Your Emails to the Inbox"
+excerpt: What email deliverability is, why emails end up in spam, and how to fix it through DNS authentication, sender reputation, and list management.
+meta: Email deliverability is the ability to land emails in recipients' inboxes rather than spam folders. Learn how DNS authentication (SPF, DKIM, DMARC), sender reputation, list hygiene, and sending patterns determine inbox placement.
 categories:
 - Emails
 ---
 
-# Understanding Email Deliverability
+# Email Deliverability: How to Get Your Emails to the Inbox
 
 ### Table of Contents {#toc}
 
@@ -15,66 +15,194 @@ categories:
 
 ---
 
-Email deliverability is the measure of how successfully emails reach recipients' inboxes rather than being filtered as spam, rejected, or lost in transit. It depends on several DNS-backed signals that mailbox providers evaluate when deciding where to place incoming mail.
+Email deliverability is the ability to land emails in recipients' inboxes rather than spam folders. It is not the same as email delivery (whether the message reached the mail server at all). An email can be successfully delivered to a mail server and still end up in spam. Deliverability is determined by DNS authentication, sender reputation, list quality, and sending patterns.
 
-## Deliverability vs. delivery {#deliverability-vs-delivery}
+## What is email deliverability? {#what-is}
 
-These two terms are often confused:
+Email deliverability measures how consistently your emails reach the inbox instead of being filtered as spam, rejected, or lost. Mailbox providers like Gmail, Outlook, and Yahoo evaluate every incoming message against a set of signals before deciding where to place it.
 
-- **Email delivery** refers to whether an email reaches the recipient's mail server at all (i.e., it was not bounced).
-- **Email deliverability** refers to whether it reaches the inbox rather than the spam folder. Deliverability is the broader concept and includes reputation, authentication, and content factors.
+### Delivery vs. deliverability {#delivery-vs-deliverability}
 
-A high delivery rate (few bounces) does not guarantee good deliverability. Emails can be delivered to the mail server but still land in spam.
+These two terms describe different things:
 
-## Factors that affect deliverability {#factors}
+- **Email delivery** - Whether the email reached the recipient's mail server. A delivery failure is a [bounce](/articles/understanding-email-bounces/) (the server rejected the message entirely).
+- **Email deliverability** - Whether the email reached the inbox rather than the spam folder. A delivered email can still have poor deliverability if it lands in spam.
 
-### Email authentication {#authentication}
+A 99% delivery rate means almost no bounces. It says nothing about how many of those delivered emails actually reached the inbox.
 
-Mailbox providers check whether incoming email passes DNS-based authentication. Three protocols work together:
+### What is a good deliverability rate? {#good-rate}
 
-- **[SPF (Sender Policy Framework)](/articles/spf-record/)** - A TXT record that lists which servers are authorized to send email for your domain. Receiving servers compare the sending IP against this list.
-- **[DKIM (DomainKeys Identified Mail)](/articles/dkim-record/)** - A TXT record containing a public key. The sending server signs each message with the corresponding private key, and the receiving server verifies the signature.
-- **[DMARC (Domain-based Message Authentication, Reporting & Conformance)](/articles/dmarc-record/)** - A TXT record that tells receiving servers what to do when SPF or DKIM checks fail and where to send reports about authentication results.
+Industry benchmarks vary, but general thresholds are:
 
-When all three are configured correctly and [aligned](/articles/understanding-spf-dkim-dmarc-alignment/), mailbox providers have strong evidence that the email is legitimate.
+| Metric | Healthy | Needs attention |
+|---|---|---|
+| Inbox placement rate | Above 90% | Below 85% |
+| Spam complaint rate | Below 0.1% | 0.1% or higher |
+| Hard bounce rate | Below 0.5% | 0.5% or higher |
+| Total bounce rate | Below 2% | 2% or higher |
 
-> [!NOTE]
-> For a walkthrough of configuring all three protocols, see [Email Authentication Best Practices](/articles/email-authentication-best-practices/).
+Most email service providers show delivery and bounce rates in their dashboards. Inbox placement rate requires additional tools like [Google Postmaster Tools](https://postmaster.google.com/) or seed-list testing.
 
-### Sender reputation {#reputation}
+## Why emails end up in spam {#why-spam}
 
-Mailbox providers (Gmail, Outlook, Yahoo, etc.) assign a reputation score to your domain and sending IP based on historical behavior:
+Emails land in spam for specific, diagnosable reasons. The most common causes, in order of impact:
 
-- **Bounce rates** - A high rate of [hard bounces](/articles/understanding-email-bounces/) signals a poorly maintained list and lowers reputation.
-- **Spam complaints** - Recipients marking your email as spam directly hurts reputation. Most providers consider anything above 0.1% (1 per 1,000 emails) problematic.
-- **Engagement** - Whether recipients open, click, or reply to your messages also factors in. Low engagement can push future messages toward spam.
-- **Blacklists** - If your domain or sending IP appears on a public blacklist (e.g., Spamhaus, Barracuda), deliverability drops significantly.
+### Missing or broken email authentication {#spam-authentication}
 
-### Content and sending patterns {#content}
+If your domain does not have [SPF](/articles/spf-record/), [DKIM](/articles/dkim-record/), and [DMARC](/articles/dmarc-record/) records configured, or if they are misconfigured, mailbox providers have no way to verify that your email is legitimate. This is the single most common cause of deliverability problems for domains managed through DNS.
 
-These factors are outside the scope of DNS, but they interact with authentication and reputation:
+Since February 2024, Google and Yahoo require SPF, DKIM, and DMARC for bulk senders. Microsoft Outlook enforced similar requirements starting May 2025. Missing records can result in outright rejection, not just spam placement.
 
-- Spam-triggering words, excessive images, or broken HTML can hurt inbox placement even when authentication passes.
-- Sudden spikes in sending volume can trigger spam filters, especially from a new or low-volume domain.
-- Sending to invalid addresses inflates bounce rates, which damages reputation over time.
+See [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) for the full setup process.
 
-## How DNSimple helps with deliverability {#dnsimple}
+### Poor sender reputation {#spam-reputation}
 
-DNSimple is not a mailbox provider and does not send email on your behalf, but deliverability depends heavily on DNS records that DNSimple manages:
+Mailbox providers assign a reputation score to your domain and sending IP based on historical behavior. Factors that damage reputation:
 
-- **SPF records** - Use the [Record Editor](/articles/record-editor/) to publish a TXT record listing your authorized senders. See [Set Up SPF Records](/articles/setting-up-spf/).
-- **DKIM records** - Add the public key your email provider gives you as a TXT record at the appropriate selector. See [Set Up DKIM](/articles/set-up-dkim/).
-- **DMARC records** - Publish a policy record at `_dmarc.yourdomain.com` to control how authentication failures are handled. See [Set Up DMARC](/articles/set-up-dmarc/).
-- **MX records** - Correct MX configuration ensures mail is routed to the right servers in the first place.
+- High bounce rates (sending to invalid addresses)
+- Spam complaints from recipients
+- Sending to spam trap addresses
+- Sudden volume spikes from a domain with little sending history
+- Appearing on a public blacklist (e.g., Spamhaus, Barracuda)
 
-> [!TIP]
-> If you use multiple services that send email on your behalf (e.g., Google Workspace for corporate mail and Postmark for transactional email), each one needs to be authorized in your SPF record and may require its own DKIM selector. See [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+### Dirty email lists {#spam-list}
 
-## Next steps {#next-steps}
+Sending to outdated, purchased, or unverified email lists inflates bounce rates and spam complaints, which directly damages reputation.
 
-- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Actionable steps to configure authentication and improve sender reputation.
-- [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Tools and techniques for tracking authentication status and reputation.
+### Content triggers {#spam-content}
+
+Spam-triggering content is less impactful than authentication and reputation, but can still cause problems:
+
+- Excessive images with little text
+- Misleading subject lines
+- URL shorteners (often associated with phishing)
+- Broken HTML
+- Missing unsubscribe link
+
+## How to improve email deliverability {#improve}
+
+Address these areas in priority order. DNS authentication is the foundation - fix it first.
+
+### 1. Set up email authentication {#improve-authentication}
+
+Configure all three DNS-based authentication protocols:
+
+- **[Set Up SPF Records](/articles/setting-up-spf/)** - Authorize every service that sends email for your domain in a single TXT record.
+- **[Set Up DKIM](/articles/set-up-dkim/)** - Add a DKIM public key for each sending service at its designated selector subdomain.
+- **[Set Up DMARC](/articles/set-up-dmarc/)** - Publish a policy record and enable reporting. Start with `p=none` (monitoring), then move to enforcement.
+
+For a full walkthrough of the authentication setup process, see [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/).
+
+### 2. Check and protect sender reputation {#improve-reputation}
+
+Use these free tools to assess your current standing:
+
+- [Google Postmaster Tools](https://postmaster.google.com/) - Gmail-specific reputation, spam rate, and authentication data.
+- [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/) - Outlook/Hotmail IP reputation and complaint data.
+- [Sender Score](https://www.senderscore.org/) - General reputation score (0-100) across multiple providers.
+- [MXToolbox Blacklist Check](https://mxtoolbox.com/blacklists.aspx) - Scan your domain against dozens of blacklists.
+
+If your domain or IP is on a blacklist, fix the underlying issue (compromised account, spam complaints, poor list hygiene), then submit a removal request to the blacklist operator.
+
+### 3. Clean your email list {#improve-list}
+
+- Remove hard-bounce addresses immediately. These are permanent failures that will never succeed.
+- Use double opt-in for new subscribers to confirm valid addresses.
+- Sunset inactive subscribers who have not opened or clicked in 6 to 12 months.
+- Never use purchased or scraped email lists.
+
+### 4. Warm up new domains and IPs {#improve-warmup}
+
+New domains and IP addresses have no sending history. Mailbox providers treat unknown senders with caution. Ramp up sending volume gradually over several weeks:
+
+- Start with your most engaged recipients (people who regularly open and click).
+- Increase daily volume by 20-50% per week.
+- Monitor bounce rates and spam complaints at each stage. Pause if either spikes.
+- Ensure authentication is fully configured before sending the first message.
+
+### 5. Fix content and sending patterns {#improve-content}
+
+- Include a visible, functional unsubscribe link in every marketing email. Google and Yahoo require one-click unsubscribe for bulk senders.
+- Avoid sudden volume spikes. If you need to send a large campaign, spread it over multiple days.
+- Use a consistent `From:` name and address so recipients recognize your email.
+- Test emails with a tool like [Mail Tester](https://www.mail-tester.com/) to catch content-level issues before sending.
+
+For detailed, step-by-step implementation, see [Improving Email Deliverability](/articles/improving-email-deliverability/).
+
+## How to measure email deliverability {#measure}
+
+### Monitor authentication results {#measure-authentication}
+
+Publish a [DMARC record](/articles/dmarc-record/) with a `rua=` reporting address. Mailbox providers will send daily aggregate reports showing which IPs sent email as your domain and whether they passed SPF and DKIM.
+
+Raw DMARC reports are XML files. Services like [dmarcian](https://dmarcian.com/) and [Postmark DMARC Digests](https://dmarc.postmarkapp.com/) parse them into readable dashboards.
+
+### Track reputation over time {#measure-reputation}
+
+Check Google Postmaster Tools weekly for:
+
+- **Domain reputation** trending (High, Medium, Low, Bad)
+- **Spam rate** (keep below 0.1%)
+- **Authentication pass rates** for SPF, DKIM, and DMARC
+
+### Watch bounce and complaint rates {#measure-bounces}
+
+Your email service provider's dashboard shows bounce rates and complaint rates. A sudden increase in hard bounces usually means invalid addresses entered your list. A spike in complaints often follows a content or frequency change.
+
+For a full monitoring routine with schedules and tool recommendations, see [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/).
+
+## Common email deliverability problems {#problems}
+
+### Why are my emails going to spam even though authentication passes? {#problem-spam-despite-auth}
+
+Authentication is necessary but not sufficient. If SPF, DKIM, and DMARC all pass but email still lands in spam, check:
+
+1. Domain and IP reputation with [Google Postmaster Tools](https://postmaster.google.com/) and [MXToolbox](https://mxtoolbox.com/blacklists.aspx).
+2. Spam complaint rate. Anything above 0.1% is problematic.
+3. Email content for spam triggers (excessive images, misleading subjects, missing unsubscribe link).
+4. Whether your DMARC policy is still `p=none`. Some providers treat unenforced DMARC as a weaker trust signal.
+
+### Why did my deliverability drop suddenly? {#problem-sudden-drop}
+
+Common causes of a sudden drop:
+
+- A sending service was removed from or never added to your SPF record.
+- A DKIM key was rotated by your email provider but the DNS record was not updated.
+- Your domain or IP was added to a blacklist after a spam complaint spike.
+- A large send to a stale list caused a bounce rate spike.
+
+### Does email forwarding affect deliverability? {#problem-forwarding}
+
+Yes. When email is forwarded, the forwarding server's IP replaces the original sender's IP. This causes SPF to fail because the forwarding server is not in the original sender's SPF record. DKIM signatures survive forwarding (they are part of the message itself), which is one reason DKIM is essential alongside SPF.
+
+For forwarding-specific issues, see [Email Forwarding Not Working](/articles/email-forwarding-not-working/).
+
+### Does DNS affect email deliverability? {#problem-dns}
+
+DNS is where email deliverability starts. SPF, DKIM, and DMARC are all DNS TXT records. MX records route email to the correct servers. Incorrect, missing, or slow-to-propagate DNS records are behind a large share of deliverability problems. DNSimple manages these records alongside everything else your domain needs.
+
+## Frequently asked questions {#faq}
+
+### What is the difference between email delivery and email deliverability? {#faq-delivery-vs}
+
+Email delivery is whether the message reached the recipient's mail server (not bounced). Email deliverability is whether it reached the inbox rather than the spam folder. You can have high delivery rates and poor deliverability at the same time.
+
+### How long does it take to fix deliverability problems? {#faq-how-long}
+
+DNS authentication changes (SPF, DKIM, DMARC) take effect within minutes to hours after the records propagate. Reputation recovery takes longer - typically two to four weeks of consistent, clean sending after fixing the underlying issue. Severe reputation damage or blacklisting can take longer.
+
+### Do I need a dedicated IP address for good deliverability? {#faq-dedicated-ip}
+
+Not necessarily. Shared IPs from reputable email service providers (Google Workspace, Postmark, SendGrid) carry the provider's collective reputation, which is usually good. Dedicated IPs make sense for high-volume senders (100,000+ emails per month) who want full control over their IP reputation, but they require proper warm-up.
+
+### Can email content alone cause deliverability problems? {#faq-content}
+
+Content is a factor, but it is rarely the primary cause. Authentication failures and poor sender reputation have a much larger impact than content. Fix authentication and reputation first, then address content triggers if problems persist.
+
+### Does DNSimple send email? {#faq-dnsimple}
+
+DNSimple does not provide email hosting or send email on your behalf. DNSimple manages the DNS records (SPF, DKIM, DMARC, MX) that email authentication and routing depend on. Your email service provider handles the actual sending.
 
 ## Have more questions?
 
-If you have additional questions or need assistance with email deliverability, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about email deliverability, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
