@@ -1,12 +1,12 @@
 ---
-title: Re-Issuing a Sectigo SSL Certificate
+title: How to Reissue a Sectigo SSL Certificate
 excerpt: How to reissue a previously issued SSL certificate with a new CSR and/or private key.
-meta: Learn how to reissue an SSL certificate in DNSimple when your private key has been compromised or lost, including the request, approval, and installation steps.
+meta: How to reissue an SSL certificate in DNSimple when your private key has been compromised or lost, including the request, approval, and installation steps.
 categories:
 - SSL Certificates
 ---
 
-# Re-Issuing a Sectigo SSL Certificate
+# How to Reissue a Sectigo SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -21,7 +21,7 @@ Re-issuing (also Re-Keying) an SSL certificate is the process of generating a ne
 > In general, re-issuing a new SSL certificate takes from 2 to 5 days. However, [the time frame depends on many factors](/articles/how-long-to-issue-ssl-certificate/).
 
 > [!NOTE]
-> This document applies only to Sectigo SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) at this time.
+> This document applies only to Sectigo SSL certificates. Let's Encrypt certificates cannot be reissued at this time. If the situation arises that you would otherwise reissue your Let's Encrypt certificate, we suggest you [order a new Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/) at this time.
 > There are [rate limits](https://letsencrypt.org/docs/rate-limits/) in place with Let's Encrypt, so be sure to request a new certificate only when absolutely necessary or you may be unable to request other certificates.
 
 ## Why Should I Re-Issue My Certificate? {#why-reissue}

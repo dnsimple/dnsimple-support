@@ -1,12 +1,12 @@
 ---
-title: Restoring a Domain
+title: Restore a Domain
 excerpt: How to restore a domain with a DNSimple account.
-meta: Easily restore your domain with DNSimple using our step-by-step guide. Get your domain back online quickly with our comprehensive support resources.
+meta: How to restore an expired domain that has entered the redemption period through DNSimple. Covers restoration fees, timelines, and the steps to recover your domain.
 categories:
 - Domains and Transfers
 ---
 
-# Restoring a Domain
+# Restore a Domain
 
 To reactivate your domain that has entered the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), it has to be restored. This process takes up to a day to complete. We will send updates to your [account email](https://support.dnsimple.com/articles/changing-email/).
 

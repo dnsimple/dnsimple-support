@@ -255,8 +255,8 @@ These tools can help verify alignment.
 ## Related articles {#related}
 
 - [SPF Records](/articles/spf-record/) - SPF configuration
-- [Setting Up DKIM](/articles/set-up-dkim/) - DKIM configuration
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
+- [Set Up DKIM](/articles/set-up-dkim/) - DKIM configuration
+- [Set Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
 
 ## Have more questions?
 

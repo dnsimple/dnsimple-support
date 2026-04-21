@@ -1,12 +1,12 @@
 ---
-title: Enabling and Disabling Domain Auto-Renewal
-excerpt: Step-by-step guide to enable or disable auto-renewal for your domains.
-meta: Learn how to easily enable or disable domain auto-renewal in DNSimple to ensure your domains stay active or manage renewals manually.
+title: Enable and Disable Domain Auto-Renewal
+excerpt: How to enable or disable auto-renewal for your domains in DNSimple.
+meta: How to enable or disable domain auto-renewal in DNSimple. Auto-renewal renews your domain before it expires so you do not lose it.
 categories:
 - Domains and Transfers
 ---
 
-# Enabling and Disabling Domain Auto-Renewal
+# Enable and Disable Domain Auto-Renewal
 
 ### Table of Contents {#toc}
 

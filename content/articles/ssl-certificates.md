@@ -18,7 +18,7 @@ categories:
 
 TLS (Transport Layer Security) and its predecessor, SSL (Secure Sockets Layer), are security protocols designed to secure the communication between a server and a client, for example, a web server and a browser. Both protocols are frequently referred to as _SSL_. For a closer look at how this encryption process works, see [How HTTPS Works](/articles/how-https-works/).
 
-A TLS/SSL certificate (simply called _SSL certificate_) is required to enable SSL/TLS on your site and serve your website using the secure HTTPS protocol.
+A TLS/SSL certificate (simply called _[SSL certificate](/articles/what-is-ssl-certificate/)_) is required to enable SSL/TLS on your site and serve your website using the secure HTTPS protocol.
 
 We offer different types of _domain-validated_ SSL certificates signed by globally recognized [certificate authorities](/articles/ssl-certificate-authorities/).
 
@@ -93,7 +93,7 @@ If the domain is not in your DNSimple account because you just joined DNSimple o
 1.  Scroll down the page until you see the <label>SSL certificates</label> section.
 </div>
 
-From the certificate section you can [purchase a new SSL certificate](/articles/ordering-standard-certificate/), [renew an existing SSL certificate](/articles/renewing-ssl-certificate/), or view and install the SSL certificate.
+From the certificate section you can [purchase a new SSL certificate](/articles/buy-sectigo-ssl-certificate/), [renew an existing SSL certificate](/articles/renew-ssl-certificate/), or view and install the SSL certificate.
 
 ## SSL Certificate Frequently Asked Questions {#faq}
 

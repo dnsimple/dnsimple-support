@@ -45,8 +45,8 @@ DNSimple offers four SSL certificate products issued by two [certificate authori
 
 For step-by-step ordering instructions, see:
 
-- [Ordering a Sectigo Certificate](/articles/ordering-standard-certificate/)
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/)
+- [Ordering a Sectigo Certificate](/articles/buy-sectigo-ssl-certificate/)
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/)
 
 ## Renewal and Expiration {#renewal}
 

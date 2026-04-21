@@ -43,7 +43,7 @@ For domains under registries contracted with ICANN, including all generic top-le
 
 **Recovery:** To reactivate a domain in redemption status, you must restore the domain. This process takes up to a day to complete and requires a mandatory restore fee plus the domain's renewal fee. Upon completion, your domain's registration will be automatically extended by the registry's minimum renewal period (usually 1 year).
 
-For step-by-step instructions, see [Restoring a Domain](/articles/restoring-domain/).
+For step-by-step instructions, see [Restore a Domain](/articles/restoring-domain/).
 
 ### Deletion period
 

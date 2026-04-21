@@ -4,6 +4,7 @@ excerpt: What an SPF record is, and how the SPF record works.
 meta: Learn what an SPF record is and how it functions to protect your domain from email spoofing, ensuring your messages reach their intended recipients securely.
 categories:
 - DNS
+- Emails
 ---
 
 # SPF Records
@@ -38,16 +39,16 @@ The process typically follows these steps:
 This mechanism allows you, the domain owner, to explicitly declare your sending policy. This gives receiving mail servers the information they need to make informed decisions about incoming messages.
 
 ## Key benefits of SPF: {#key-benefits-of-spf}
-**Combats email spoofing:** Prevents unauthorized parties from sending emails that appear to originate from your domain.
+**Combats [email spoofing](/articles/protecting-your-domain-from-email-spoofing/):** Prevents unauthorized parties from sending emails that appear to originate from your domain.
 
-**Improves email deliverability:** Emails from domains with properly configured SPF records are more likely to be trusted and delivered to inboxes, avoiding spam folders.
+**Improves [email deliverability](/articles/understanding-email-deliverability/):** Emails from domains with properly configured SPF records are more likely to be trusted and delivered to inboxes, avoiding spam folders.
 
 **Enhances domain reputation:** Helps maintain a positive sending reputation for your domain, which is crucial for overall email success.
 
 SPF is often used as part of a comprehensive email authentication strategy. It works in conjunction with [DKIM](/articles/dkim-record/) (DomainKeys Identified Mail) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting & Conformance) to provide robust email security.
 
 ## Creating, managing, and validating SPF records {#creating-managing-and-validating-spf-records}
-For step-by-step instructions on how to create, edit, or remove SPF records (using TXT records) in your DNSimple zone, please refer to [How To Add Common DNS Records](/articles/how-to-add-dns-records/) (A, AAAA, CNAME, ALIAS, TXT, URL, NS).
+For step-by-step instructions on how to create, edit, or remove SPF records in your DNSimple zone, refer to [Set Up SPF Records](/articles/setting-up-spf/).
 
 For a comprehensive breakdown of the SPF record format, all available mechanisms and modifiers, their specific syntax, and important validation rules (including the 10-DNS-lookup limit), consult our Reference Guide: [SPF Record Syntax and Validation Reference](/articles/spf-syntax-validation-reference/).
 

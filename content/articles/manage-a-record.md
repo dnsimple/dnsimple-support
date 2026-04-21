@@ -1,13 +1,12 @@
 ---
-title: Managing A Records
+title: Manage A Records
 excerpt: Instructions to add, update, and remove an A record in DNSimple.
 meta: Learn how to efficiently manage your A records in DNSimple with our step-by-step guide. Add, update, or remove DNS records effortlessly for optimal domain performance.
 categories:
 - DNS
 ---
 
-# Managing A Records
-
+# Manage A Records
 ### Table of Contents {#toc}
 
 * TOC

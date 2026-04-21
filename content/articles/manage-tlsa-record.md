@@ -1,13 +1,12 @@
 ---
-title: Managing TLSA Records
+title: Manage TLSA Records
 excerpt: Instructions to add, update, and remove a TLSA record in DNSimple.
 meta: Learn how to effectively manage TLSA records in DNSimple with our step-by-step guide. Add, update, or remove records to enhance your domain's TLS security.
 categories:
 - DNS
 ---
 
-# Managing TLSA Records
-
+# Manage TLSA Records
 ### Table of Contents {#toc}
 
 * TOC

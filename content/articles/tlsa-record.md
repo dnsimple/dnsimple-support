@@ -60,7 +60,7 @@ A TLSA record contains several components that specify how the certificate assoc
 
 ## Setting up and understanding TLSA record details {#setting-up-and-understanding-tlsa-record-details}
 
-For step-by-step instructions on how to add a TLSA record to your DNSimple zone, please refer to our dedicated How-To Guide: [Managing TLSA Records](/articles/manage-tlsa-record/).
+For step-by-step instructions on how to add a TLSA record to your DNSimple zone, please refer to our dedicated How-To Guide: [Manage TLSA Records](/articles/manage-tlsa-record/).
 
 For a detailed explanation of the TLSA record format, including the usage, selector, matching type fields, and certificate association data, consult our Reference Guide: [TLSA Record Format and Components Reference](/articles/tlsa-record-format/).
 

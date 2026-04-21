@@ -65,7 +65,7 @@ To obtain a transfer code from DNSimple:
 3. Click **Transfer Out** in the registration section
 4. The domain will be unlocked and the transfer code will be sent to the registrant email address within 6 hours
 
-For step-by-step instructions, see [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
+For step-by-step instructions, see [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/).
 
 ## Transfer code delivery {#transfer-code-delivery}
 

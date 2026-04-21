@@ -1,12 +1,12 @@
 ---
-title: Installing an SSL Certificate
+title: How to Install an SSL Certificate
 excerpt: Use the DNSimple SSL certificate installation wizard to install your certificate on the most common web servers and platforms in a few clicks.
-meta: Use the DNSimple SSL certificate installation wizard to install your SSL certificate on Apache, NGINX, IIS, Heroku, Azure, and other platforms.
+meta: How to install an SSL certificate on Apache, NGINX, IIS, Heroku, Azure, and other platforms using the DNSimple installation wizard.
 categories:
 - SSL Certificates
 ---
 
-# Installing an SSL Certificate
+# How to Install an SSL Certificate
 
 ### Table of Contents {#toc}
 

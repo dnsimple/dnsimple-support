@@ -24,7 +24,7 @@ When an SSL certificate is misconfigured or expired, browsers display security w
 **Common causes:**
 
 - **Expired certificate.** Check the certificate expiration date on your certificate page in DNSimple. If expired, [order a new certificate](/articles/getting-started-ssl-certificates/) or ensure [auto-renewal](/articles/letsencrypt/#auto-renewal) is enabled for Let's Encrypt certificates.
-- **Certificate not installed.** Issuing a certificate does not automatically secure your site. You must [install the certificate](/articles/installing-ssl-certificate/) on your web server.
+- **Certificate not installed.** Issuing a certificate does not automatically secure your site. You must [install the certificate](/articles/install-ssl-certificate/) on your web server.
 - **Self-signed or untrusted certificate.** The certificate was not issued by a trusted [certificate authority](/articles/what-is-certificate-authority/). All certificates from DNSimple are signed by [Sectigo or Let's Encrypt](/articles/ssl-certificate-authorities/), which are trusted by all major browsers.
 
 ## Domain Name Mismatch {#name-mismatch}
@@ -64,8 +64,8 @@ When an SSL certificate is misconfigured or expired, browsers display security w
 **Fix:**
 
 - For **Let's Encrypt certificates** with auto-renewal enabled, check whether the renewal failed. See [Troubleshooting Let's Encrypt Certificate Failures](/articles/troubleshooting-lets-encrypt-failures/) for common causes.
-- For **Sectigo certificates**, [order a new certificate](/articles/ordering-standard-certificate/) or [renew](/articles/renewing-ssl-certificate/) the expiring one. Sectigo certificates do not support auto-renewal.
-- After obtaining the new certificate, [install it](/articles/installing-ssl-certificate/) on your server. The old certificate remains active until its expiration date, but browsers will reject it once it expires.
+- For **Sectigo certificates**, [order a new certificate](/articles/buy-sectigo-ssl-certificate/) or [renew](/articles/renew-ssl-certificate/) the expiring one. Sectigo certificates do not support auto-renewal.
+- After obtaining the new certificate, [install it](/articles/install-ssl-certificate/) on your server. The old certificate remains active until its expiration date, but browsers will reject it once it expires.
 
 DNSimple sends [expiration notifications](/articles/product-expiration-notification/) at 60, 30, 14, 7, and 3 days before a certificate expires.
 

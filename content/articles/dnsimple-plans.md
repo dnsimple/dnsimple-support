@@ -38,6 +38,17 @@ You'll find all [the features listed for each plan on our pricing page](https://
 | Priority support (1-hour response) | -- | -- | Yes |
 
 For current pricing on each plan, visit the [pricing page](https://dnsimple.com/pricing). To upgrade your plan, see [Changing Subscription Plan](/articles/changing-plans/).
+## What is included vs. what is usage-based {#included-vs-usage}
+
+DNSimple billing has three components:
+
+| Component | How it works |
+|-----------|-------------|
+| **Plan subscription** | A fixed monthly fee (Solo has no base fee, Teams starts at $29/month, Enterprise is custom). Covers access to your plan's features. |
+| **Usage-based charges** | Billed monthly based on your active zones and DNS query volume. These appear on your subscription invoice. See the [pricing page](https://dnsimple.com/pricing) for current rates. |
+| **One-time purchases** | Domain registrations, renewals, transfers, and SSL certificates. Billed on separate invoices at the time of purchase. |
+
+For a detailed breakdown of invoice line items, see [Understanding Your Invoice](/articles/understanding-invoice/).
 
 ## Included on all plans
 
@@ -61,7 +72,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 
 - The ability to register, transfer, and renew domains
 - 100 DNS records per zone
-- [Let's Encrypt SSL Certificates](/articles/ordering-lets-encrypt-certificate/) (Root & www only)
+- [Let's Encrypt SSL Certificates](/articles/get-lets-encrypt-certificate/) (Root & www only)
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
@@ -87,7 +98,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
-- Let's Encrypt [wildcard certificates](/articles/ordering-wildcard-certificate/)
+- Let's Encrypt [wildcard certificates](/articles/buy-wildcard-ssl-certificate/)
 - [Regional](/articles/regional-records/) and [POOL](/articles/pool-record/) records
 - [Google Workspace](/articles/google-identity-provider/) and [Okta](/articles/okta-identity-provider/) user provisioning
 - Unlimited [activity history](/articles/activity-tracking/)

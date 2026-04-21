@@ -52,8 +52,8 @@ For advanced requirements, you may need to generate a custom CSR. This allows yo
 
 ## Taking action {#taking-action}
 
-- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to provide a custom CSR when ordering
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
+- [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/) - Learn how to provide a custom CSR when ordering
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Understand automatic CSR generation for Let's Encrypt
 - [I got an ECC-signed certificate but want RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/) - Learn how to request a different certificate type
 
 ## Related reading {#related}

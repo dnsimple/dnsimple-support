@@ -37,7 +37,7 @@ Auto-renewal ensures your SSL certificates are automatically renewed before they
 When auto-renewal is enabled, DNSimple automatically submits a renewal request before the certificate expires:
 
 - **Let's Encrypt certificates** (90-day validity): Renewal begins **30 days before expiration** (at the 60-day mark), as recommended by Let's Encrypt. If the initial attempt fails, DNSimple retries automatically every day until the certificate is renewed or expires.
-- **Sectigo certificates** (200-day validity as of March 2026): Auto-renewal is not currently available for Sectigo certificates. You must manually [renew your Sectigo certificate](/articles/renewing-standard-ssl-certificate/) before it expires.
+- **Sectigo certificates** (200-day validity as of March 2026): Auto-renewal is not currently available for Sectigo certificates. You must manually [renew your Sectigo certificate](/articles/renew-sectigo-ssl-certificate/) before it expires.
 
 Once the renewed certificate is issued, you will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/). The new certificate will then be available to download from your DNSimple account.
 
@@ -60,7 +60,7 @@ Once the renewed certificate is issued, you will receive an email and [webhook n
 </div>
 
 > [!NOTE]
-> The certificate must not be expired to enable auto-renewal. If your certificate has already expired, you will need to [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/) instead.
+> The certificate must not be expired to enable auto-renewal. If your certificate has already expired, you will need to [order a new Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/) instead.
 
 ## Enabling Auto-Renewal When Ordering a New Certificate {#enable-at-order}
 
@@ -69,7 +69,7 @@ You can also enable auto-renewal at the time you order a new Let's Encrypt certi
 <div class="section-steps" markdown="1">
 ##### Steps to enable auto-renewal during ordering
 
-1. Follow the steps to [order a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+1. Follow the steps to [order a Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/).
 1. On the certificate configuration page, check the option to **automatically renew** the certificate.
 1. Complete the order. Auto-renewal will be active as soon as the certificate is issued.
 
@@ -125,7 +125,7 @@ If you have additional questions or need any assistance with SSL certificate aut
 
 ## Related Reading {#related-reading}
 
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/) -- Full details on the Let's Encrypt integration
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/) -- Full details on the Let's Encrypt integration
 - [How Does an SSL Certificate Renewal Work?](/articles/how-certificate-renewal-works/) -- Understand the renewal process
-- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) -- Manual renewal steps
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renew-lets-encrypt-ssl-certificate/) -- Manual renewal steps
 - [SSL Certificate Validity Changes (2026-2029)](/articles/announcement-ssl-certificate-validity-changes/) -- Upcoming lifetime changes

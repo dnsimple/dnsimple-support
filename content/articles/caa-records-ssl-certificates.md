@@ -88,11 +88,11 @@ If your certificate order fails and you have CAA records configured, check for t
 
 For Let's Encrypt certificates with [auto-renewal](/articles/ssl-auto-renewal/) enabled, CAA records are checked every time auto-renewal runs. If CAA records are present and Let's Encrypt is not authorized, the auto-renewal will fail.
 
-DNSimple retries auto-renewal daily, so if you fix the CAA records, the next retry should succeed. However, if the issue persists until the certificate expires, you will need to [order a new certificate](/articles/ordering-lets-encrypt-certificate/).
+DNSimple retries auto-renewal daily, so if you fix the CAA records, the next retry should succeed. However, if the issue persists until the certificate expires, you will need to [order a new certificate](/articles/get-lets-encrypt-certificate/).
 
 ## Managing CAA records in DNSimple {#managing}
 
-To add or update CAA records, see [Managing CAA Records](/articles/manage-caa-record/). For a detailed explanation of the record format, tag types, and examples, see [CAA Record Format and Policy Tags](/articles/caa-record-format/).
+To add or update CAA records, see [Manage CAA Records](/articles/manage-caa-record/). For a detailed explanation of the record format, tag types, and examples, see [CAA Record Format and Policy Tags](/articles/caa-record-format/).
 
 ## Have more questions?
 

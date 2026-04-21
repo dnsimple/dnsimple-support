@@ -137,8 +137,8 @@ When someone visits `www.example.com`, their browser receives a 301 redirect and
 
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
 - [What Is a URL Record?](/articles/url-record/) - Learn more about URL records and web redirects
-- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
-- [Managing URL Records](/articles/manage-url-record/) - Step-by-step guide to managing URL records
+- [Manage Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
+- [Manage URL Records](/articles/manage-url-record/) - Step-by-step guide to managing URL records
 - [Differences Between HTTPS and ALIAS Records](/articles/differences-between-https-and-alias-records/) - Compare HTTPS records with ALIAS records
 
 ## Have more questions?

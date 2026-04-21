@@ -53,7 +53,7 @@ When transferring a domain to DNSimple, the process involves:
 
 For step-by-step instructions, see [Transfer a Domain to DNSimple](/articles/domain-transfer/).
 
-### Transferring a domain away from DNSimple
+### Transfer a domain away from DNSimple
 
 When transferring a domain away from DNSimple, the process involves:
 
@@ -61,13 +61,13 @@ When transferring a domain away from DNSimple, the process involves:
 2. Starting the transfer at the gaining registrar
 3. Approving the transfer request
 
-For step-by-step instructions, see [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
+For step-by-step instructions, see [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/).
 
-### Transferring a domain between DNSimple accounts
+### Transfer a domain between DNSimple accounts
 
 You can transfer a domain between DNSimple accounts at any time via the DNSimple interface. This process transfers all associated resources, including DNS records, SSL certificates, and email forwards.
 
-For step-by-step instructions, see [Transferring a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/).
+For step-by-step instructions, see [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/).
 
 ## Transfer pricing and expiration extension {#transfer-pricing-and-expiration-extension}
 
@@ -81,7 +81,7 @@ For step-by-step instructions, see [Transferring a Domain to Another DNSimple Ac
 
 **Name servers:** We do not automatically point your domain to our name servers when the transfer completes. To avoid unexpected downtime, we suggest [pointing your domain to our name servers before the transfer](/articles/before-transferring-domain/).
 
-**DNSSEC:** You should always disable DNSSEC and [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain before transferring. An incorrect DNSSEC setup may cause your domain to be inaccessible. For more information about managing DNSSEC and DS records when changing DNS providers, see [Managing DS Records When Changing DNS](/articles/ds-records-changing-dns/).
+**DNSSEC:** You should always disable DNSSEC and [remove any existing DS records](/articles/ds-records-changing-dns/) from your domain before transferring. An incorrect DNSSEC setup may cause your domain to be inaccessible. For more information about managing DNSSEC and DS records when changing DNS providers, see [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/).
 
 ## Canceling a transfer {#canceling-a-transfer}
 

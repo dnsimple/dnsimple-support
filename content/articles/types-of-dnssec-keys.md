@@ -1,9 +1,9 @@
 ---
- title: What Are the Types of DNSSEC Keys?
- excerpt: Explains the types of DNSSEC keys and how they work.
- meta: Learn what zone signing keys and key signing keys are and why they are important to DNSSEC
- categories:
- - DNSSEC
+title: What Are the Types of DNSSEC Keys?
+excerpt: DNSSEC uses two key types - a Zone Signing Key (ZSK) that signs DNS records and a Key Signing Key (KSK) that signs the DNSKEY record set.
+meta: Learn about the two types of DNSSEC keys - the Zone Signing Key (ZSK) and Key Signing Key (KSK) - how they hold the public signing key, and why both are needed.
+categories:
+- DNSSEC
 ---
  
 # What Are the Types of DNSSEC Keys?
@@ -29,4 +29,4 @@ It also connects your domain to the global [DNSSEC chain of trust](/articles/dns
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect your KSK to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
-If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.

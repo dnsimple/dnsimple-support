@@ -56,7 +56,7 @@ describe("Search", () => {
     expect(results1.map((r) => r.title).slice(0, 3)).toContain("Web Hosting Support");
 
     const results2 = subject.query("reg");
-    expect(results2.map((r) => r.title).slice(0, 3)).toContain("Registering a Domain");
+    expect(results2.map((r) => r.title).slice(0, 3)).toContain("Register a Domain");
   });
 
   it("pins configured articles to the top of results", () => {

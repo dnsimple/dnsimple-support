@@ -1,19 +1,20 @@
 ---
 title: Check DNS Cache
-excerpt: How to check if your domain is currently resolving with DNSimple.
-meta: Learn how to check and clear DNS cache to verify DNS record updates. Understand TTL values and how to flush local and system DNS caches.
+excerpt: How to flush DNS cache and clear cached DNS records on macOS, Windows, and Linux to verify DNS record updates.
+meta: How to flush DNS cache on macOS, Windows, and Linux. Clear your local DNS cache to see updated DNS records, fix stale lookups, and verify record changes.
 categories:
 - DNS
 ---
 
-
 # Check DNS Cache
 
-## Ensure you are using a fresh DNS cache {#ensure-you-are-using-a-fresh-dns-cache}
+To flush your DNS cache, run `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder` on macOS, `ipconfig /flushdns` on Windows, or `sudo systemd-resolve --flush-caches` on Linux. Clearing the DNS cache forces your system to fetch fresh DNS records instead of using stale cached data.
+
+## Why flush your DNS cache? {#why-flush-dns-cache}
 
 Every DNS record lookup is cached by default up to the value specified in the [time-to-live (TTL)](/articles/what-is-ttl/) setting of the record.
 
-Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update was not performed. 
+Whenever you change a record, the old record value may live in your cache until the expiration, giving you the impression that the update was not performed.
 
 **Example**: 
 
@@ -58,9 +59,9 @@ You can verify what the upstream resolver is returning by running the dig comman
 
 If the upstream resolver already shows the updated record, you can flush your local cache using the methods in Option 1 or Option 2 below.
 
-If you are experiencing DNS resolution issues after clearing your cache, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
+If you are experiencing DNS resolution issues after clearing your cache, see [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/) for additional help. You can also [check your domain's resolution status](/articles/check-resolution-status/) to verify your domain is properly configured.
 
-### **Option 1: everyday methods**
+### **Option 1: everyday methods** {#everyday-methods}
 
 Clear the DNS cache before checking a record update. This may involve:
 
@@ -69,19 +70,17 @@ Clear the DNS cache before checking a record update. This may involve:
 - **Trying another device or network** (e.g., mobile data instead of Wi-Fi).
 - **Using an online DNS lookup tool.**
 
-**Option 2: advanced methods (system DNS cache)**
+## How to flush DNS cache by operating system {#how-to-flush-dns-cache}
 
-**You can flush the DNS cache manually, if you are comfortable doing so. This varies depending on your operating system:**
+You can flush the DNS cache manually. The command varies by operating system:
 
-- **macOS (depends on version):**  
-  `sudo dscacheutil \-flushcache; sudo killall \-HUP mDNSResponder`  
-- **Windows:**  
-   `ipconfig /flushdns`
-
-    - **Best practice**: After flushing, you can also refresh your IP address by running: `ipconfig /renew`
-
-- **Linux: Command depends on your distribution. For example:**  
-   `sudo systemd-resolve \--flush-caches`
+- **macOS:**
+  `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+- **Windows:**
+  `ipconfig /flushdns`
+    - After flushing, you can also refresh your IP address by running: `ipconfig /renew`
+- **Linux (systemd-based distributions):**
+  `sudo systemd-resolve --flush-caches`
 
 ## Have more questions?
 If you have additional questions or need any assistance with your DNS cache, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

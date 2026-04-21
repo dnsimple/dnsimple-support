@@ -1,5 +1,5 @@
 ---
-title: Verifying DKIM with dig and Online Tools
+title: Verify DKIM with dig and Online Tools
 excerpt: How to verify your DKIM record is being returned correctly.
 meta: Learn how to verify your DKIM record is working and find online tools to help monitor.
 categories:
@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# Verifying DKIM With dig and Online Tools
+# Verify DKIM with dig and Online Tools
 The `dig` tool is a good way to verify your [DKIM record](/articles/dkim-record/) is being returned correctly by our DNS servers.
 
 To verify the DKIM record, query for the [TXT record](/articles/txt-record/)  at the fully qualified domain name where the TXT record lives.
@@ -28,6 +28,8 @@ If no result is returned, verify the TXT record was added with the correct subdo
 
 ## Verifying your DKIM with an online tool {#verifying-your-dkim-with-an-online-tool}
 Verify your DKIM with an online tool like [this one from Treehouse](https://www.mail-tester.com/spf-dkim-check). This tool verifies that you have [SPF](/articles/spf-record/) and DKIM records. In the DKIM selector field, add the first part of the subdomain your DKIM is under. For example, if your DKIM is at `google._domainkey.example.com`, then the DKIM selector is `google`.
+
+If your DKIM record is published correctly but messages are still failing authentication, see [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for common causes like selector mismatches and key issues.
 
 ## Technical details {#technical-details}
 For more information about the technical details of DKIM, head over to [DKIM.org](http://dkim.org).

@@ -42,11 +42,11 @@ If you are unsure which product to choose, review the [SSL/TLS Certificates](/ar
 
 Ordering creates a certificate request with the [certificate authority](/articles/what-is-certificate-authority/) (CA). During the order, you select the host names the certificate will cover and, for Sectigo certificates, choose a signature algorithm (ECDSA or RSA).
 
-- [Ordering a Sectigo certificate](/articles/ordering-standard-certificate/)
-- [Ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/)
-- [Ordering a wildcard certificate](/articles/ordering-wildcard-certificate/)
+- [Ordering a Sectigo certificate](/articles/buy-sectigo-ssl-certificate/)
+- [Ordering a Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/)
+- [Ordering a wildcard certificate](/articles/buy-wildcard-ssl-certificate/)
 
-If you are renewing an expiring certificate, DNSimple's renewal interface reuses most of the settings from the previous certificate to simplify this step. See [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/).
+If you are renewing an expiring certificate, DNSimple's renewal interface reuses most of the settings from the previous certificate to simplify this step. See [Renewing an SSL Certificate](/articles/renew-ssl-certificate/).
 
 ## Validate {#validate}
 
@@ -73,7 +73,7 @@ When the certificate is issued, DNSimple sends an email notification. If you use
 
 An issued certificate must be installed on your web server (or hosting platform) before it can secure traffic. Installation involves downloading the certificate, the [intermediate certificate chain](/articles/what-is-ssl-certificate-chain/), and — if DNSimple generated the [CSR](/articles/what-is-csr/) — the [private key](/articles/ssl-private-keys/). These files come in [different formats](/articles/ssl-certificate-files-and-formats/) depending on your platform and are then configured on your server.
 
-DNSimple provides an [installation wizard](/articles/installing-ssl-certificate/) with platform-specific instructions for Heroku, Azure, NGINX, Apache, and Microsoft IIS.
+DNSimple provides an [installation wizard](/articles/install-ssl-certificate/) with platform-specific instructions for Heroku, Azure, NGINX, Apache, and Microsoft IIS.
 
 > [!NOTE]
 > Issuing a certificate does not automatically secure your site. The certificate must be installed on your server for HTTPS to work.
@@ -90,10 +90,10 @@ SSL certificate renewal is effectively a new certificate purchase. There is no w
 
 For a detailed explanation of how renewal works, see [How does an SSL Certificate Renewal work?](/articles/how-certificate-renewal-works/).
 
-- [Renewing a Sectigo certificate](/articles/renewing-standard-ssl-certificate/)
-- [Renewing a Let's Encrypt certificate](/articles/renewing-lets-encrypt-ssl-certificate/)
+- [Renewing a Sectigo certificate](/articles/renew-sectigo-ssl-certificate/)
+- [Renewing a Let's Encrypt certificate](/articles/renew-lets-encrypt-ssl-certificate/)
 
-If a certificate's [private key](/articles/ssl-private-keys/) has been compromised or lost, you may need to [reissue](/articles/reissuing-ssl-certificate/) rather than renew. Reissuing generates a new key and CSR while keeping the certificate's validity period.
+If a certificate's [private key](/articles/ssl-private-keys/) has been compromised or lost, you may need to [reissue](/articles/reissue-ssl-certificate/) rather than renew. Reissuing generates a new key and CSR while keeping the certificate's validity period.
 
 ## Expire {#expire}
 

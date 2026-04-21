@@ -61,8 +61,8 @@ If issuance takes longer than expected, common causes include:
 
 ## Taking action {#taking-action}
 
-- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo certificate
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
+- [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/) - Order a Sectigo certificate
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Request a Let's Encrypt certificate
 - [SSL Certificate email-based Domain Validation](/articles/ssl-certificates-email-validation/) - Learn about email validation for Sectigo certificates
 
 ## Related reading {#related}

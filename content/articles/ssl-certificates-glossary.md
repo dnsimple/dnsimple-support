@@ -28,6 +28,9 @@ HTTP over TLS. The encrypted version of web communication that uses an SSL certi
 
 The predecessor to TLS. Although TLS has replaced SSL, the term "SSL certificate" is still widely used to refer to certificates that enable encrypted HTTPS connections.
 
+**Learn more:**
+- [What Is an SSL Certificate?](/articles/what-is-ssl-certificate/)
+
 ### TLS (Transport Layer Security) {#tls}
 
 The current encryption protocol that secures HTTPS connections. TLS is the successor to SSL and is what modern browsers and servers use during the handshake process.
@@ -111,7 +114,7 @@ A trusted organization that verifies domain ownership (and sometimes organizatio
 A free, automated, open certificate authority. Let's Encrypt certificates in DNSimple are validated via DNS challenges and support auto-renewal. The domain must resolve with DNSimple.
 
 **Learn more:**
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/)
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/)
 
 ### Sectigo {#sectigo}
 
@@ -230,7 +233,7 @@ Automated Certificate Management Environment. The protocol Let's Encrypt uses fo
 Automatic certificate renewal before expiration. In DNSimple, auto-renewal is supported for Let's Encrypt certificates. Sectigo certificates must be reordered manually.
 
 **Learn more:**
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/#auto-renewal)
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/#auto-renewal)
 - [SSL Certificate Lifecycle](/articles/ssl-certificate-lifecycle/)
 
 ### Reissue (Re-Key) {#reissue}
@@ -238,7 +241,7 @@ Automatic certificate renewal before expiration. In DNSimple, auto-renewal is su
 Generating a new private key and certificate for an existing certificate order, without purchasing a new certificate. Reissuing is useful if the private key has been compromised or if you need to change the certificate's key algorithm.
 
 **Learn more:**
-- [Re-Issuing an SSL Certificate](/articles/reissuing-ssl-certificate/)
+- [Re-Issuing an SSL Certificate](/articles/reissue-ssl-certificate/)
 
 ### Renewal {#renewal}
 
@@ -246,7 +249,7 @@ Purchasing a new certificate to replace one that is expiring. In DNSimple, renew
 
 **Learn more:**
 - [How Does an SSL Certificate Renewal Work?](/articles/how-certificate-renewal-works/)
-- [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/)
+- [Renewing an SSL Certificate](/articles/renew-ssl-certificate/)
 
 ## Have more questions?
 

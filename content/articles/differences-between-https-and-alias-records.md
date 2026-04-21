@@ -154,7 +154,7 @@ For HTTP/HTTPS services, HTTPS records are generally preferred when you need ser
 
 - [What Are Service Binding Records (SVCB and HTTPS)?](/articles/service-binding-records/) - Learn more about HTTPS records and service binding
 - [What Is an ALIAS Record?](/articles/alias-record/) - Learn more about ALIAS records and hostname resolution
-- [Managing Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
+- [Manage Service Binding Records (SVCB and HTTPS)](/articles/manage-service-binding-records/) - Step-by-step guide to managing HTTPS records
 - [Differences Between HTTPS and URL Records](/articles/differences-between-https-and-url-records/) - Compare HTTPS records with URL records
 - [Differences Among A, CNAME, ALIAS, and URL Records](/articles/differences-between-a-cname-alias-url/) - Comprehensive comparison of A, CNAME, ALIAS, and URL records
 

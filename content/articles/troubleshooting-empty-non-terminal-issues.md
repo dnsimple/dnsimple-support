@@ -1,13 +1,12 @@
 ---
-title: Troubleshooting Empty Non-Terminal Issues
+title: Troubleshoot Empty Non-Terminal Issues
 excerpt: Diagnose and resolve intermittent or unexpected empty responses caused by Empty Non-Terminals.
 meta: Troubleshoot Empty Non-Terminal (ENT) issues in your DNS zone. Diagnose and resolve unexpected empty responses and wildcard matching problems.
 categories:
 - DNS
 ---
 
-# Troubleshooting Empty Non-Terminal Issues
-
+# Troubleshoot Empty Non-Terminal Issues
 ### Table of Contents {#toc}
 
 * TOC
@@ -212,7 +211,7 @@ New subdomains should match the wildcard.
 
 - [How to Use dig](/articles/how-dig/) — Learn how to use the dig command-line tool for DNS queries
 
-- [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) — General guide to troubleshooting DNS record resolution
+- [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) — General guide to troubleshooting DNS record resolution
 
 ## Have more questions?
 

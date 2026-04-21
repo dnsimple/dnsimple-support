@@ -1,7 +1,7 @@
 ---
 title: Getting Started with SSL Certificates
 excerpt: Everything you need to choose, order, validate, and install an SSL certificate with DNSimple.
-meta: Complete guide to SSL certificates at DNSimple. Learn how to choose between Sectigo and Let's Encrypt, order and validate your certificate, install it on your server, and manage renewals.
+meta: Complete guide to buying SSL certificates at DNSimple. Learn how to choose between Sectigo and Let's Encrypt, purchase and validate your certificate, install it on your server, and manage renewals.
 categories:
 - SSL Certificates
 ---
@@ -15,10 +15,7 @@ categories:
 
 ---
 
-> [!TIP]
-> Already know you need a certificate and just want to pick the right one? Jump to [Choose your certificate](#choose) or see the [Sectigo vs Let's Encrypt decision table](/articles/standard-vs-letsencrypt/#choosing).
-
-An [SSL certificate](/articles/ssl-certificates/) enables HTTPS on your site, encrypting the connection between a browser and your server to protect sensitive data like passwords and payment details. DNSimple provides domain-validated certificates from two certificate authorities — [Sectigo](/articles/ssl-certificates/#sectigo-singlename) and [Let's Encrypt](/articles/letsencrypt/) — that you can order, validate, and install from your account dashboard. This page covers the full process and links to detailed guides at every step.
+An [SSL certificate](/articles/what-is-ssl-certificate/) enables HTTPS on your site, encrypting the connection between a browser and your server to protect sensitive data like passwords and payment details. DNSimple provides domain-validated certificates from two certificate authorities — [Sectigo](/articles/ssl-certificates/#sectigo-singlename) and [Let's Encrypt](/articles/letsencrypt/) — that you can order, validate, and install from your account dashboard. This page covers the full process and links to detailed guides at every step.
 
 ## How SSL certificates work {#how-ssl-works}
 
@@ -87,11 +84,11 @@ Before starting the order process:
 
 The ordering process varies by certificate type:
 
-- [Ordering a Sectigo Single-Name certificate](/articles/ordering-standard-certificate/)
-- [Ordering a Sectigo Wildcard certificate](/articles/ordering-wildcard-certificate/)
-- [Ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/)
+- [Ordering a Sectigo Single-Name certificate](/articles/buy-sectigo-ssl-certificate/)
+- [Ordering a Sectigo Wildcard certificate](/articles/buy-wildcard-ssl-certificate/)
+- [Ordering a Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/)
 
-If you have an expiring certificate that was previously purchased through DNSimple, you can [renew it](/articles/renewing-ssl-certificate/) instead of placing a new order. DNSimple will carry over your previous settings.
+If you have an expiring certificate that was previously purchased through DNSimple, you can [renew it](/articles/renew-ssl-certificate/) instead of placing a new order. DNSimple will carry over your previous settings.
 
 ## Validate the certificate {#validate}
 
@@ -116,7 +113,7 @@ Once the certificate is issued, download it from the certificate page in your DN
 
 ![SSL certificate page](/files/ssl-certificate-page.png)
 
-Follow the [general installation instructions](/articles/installing-ssl-certificate/), or use one of our platform-specific guides:
+Follow the [general installation instructions](/articles/install-ssl-certificate/), or use one of our platform-specific guides:
 
 - [Apache](/articles/ssl-certificate-with-apache/)
 - [NGINX](/articles/ssl-certificate-with-nginx/)
@@ -134,16 +131,16 @@ If the browser reports certificate errors after installation, see [Troubleshooti
 SSL certificates expire. When a certificate nears expiration, DNSimple sends [expiration notifications](/articles/expiring-product-email-notifications/) to alert you. You will need to order a replacement and install it on your server.
 
 - [How does SSL certificate renewal work?](/articles/how-certificate-renewal-works/) — why "renewal" is technically a new certificate
-- [Renewing an SSL certificate](/articles/renewing-ssl-certificate/) — general renewal steps
-- [Renewing a Sectigo certificate](/articles/renewing-standard-ssl-certificate/)
-- [Renewing a Let's Encrypt certificate](/articles/renewing-lets-encrypt-ssl-certificate/)
+- [Renewing an SSL certificate](/articles/renew-ssl-certificate/) — general renewal steps
+- [Renewing a Sectigo certificate](/articles/renew-sectigo-ssl-certificate/)
+- [Renewing a Let's Encrypt certificate](/articles/renew-lets-encrypt-ssl-certificate/)
 
 > [!TIP]
 > For Let's Encrypt certificates, enable [auto-renewal](/articles/letsencrypt/#auto-renewal) so your certificate is automatically renewed before it expires. You'll still need to install the renewed certificate on your server.
 
 ### Reissuing a certificate {#reissuing}
 
-If you need to replace the private key or CSR on an existing Sectigo certificate, you can [reissue it](/articles/reissuing-ssl-certificate/) without purchasing a new one.
+If you need to replace the private key or CSR on an existing Sectigo certificate, you can [reissue it](/articles/reissue-ssl-certificate/) without purchasing a new one.
 
 ### Certificate validity changes {#validity}
 

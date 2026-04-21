@@ -61,7 +61,7 @@ A domain name that is part of a larger domain. For example, `www.example.com` is
 
 Learn more:
 
-- [Adding a Subdomain](/articles/adding-subdomain/)
+- [Add a Subdomain](/articles/adding-subdomain/)
 
 ### Domain Registrar
 
@@ -81,7 +81,7 @@ The process of purchasing and reserving a domain name for a specified period, ty
 
 Learn more:
 
-- [Registering a Domain](/articles/registering-domain/)
+- [Register a Domain](/articles/registering-domain/)
 - [Domain Registration Reference](/articles/domain-registration-reference/)
 
 ### Domain Transfer
@@ -99,7 +99,7 @@ The process of extending a domain name registration for an additional period, ty
 
 Learn more:
 
-- [Renewing a Domain](/articles/renewing-domain/)
+- [Renew a Domain](/articles/renewing-domain/)
 
 ### Domain Expiration
 
@@ -127,7 +127,7 @@ A period after the grace period during which a domain can be restored by the pre
 Learn more:
 
 - [Domain Expiration Reference](/articles/domain-expiration-reference/#redemption-period)
-- [Restoring a Domain](/articles/restoring-domain/)
+- [Restore a Domain](/articles/restoring-domain/)
 
 ### Deletion Period
 
@@ -181,7 +181,7 @@ Also called transfer code, auth code, or auth info. A code required to authorize
 Learn more:
 
 - [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/)
-- [Transferring a domain away from DNSimple](/articles/transferring-domain-away/)
+- [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/)
 
 ### Gaining Registrar
 
@@ -197,7 +197,7 @@ The current registrar for a domain that is being transferred. Also called the ol
 
 Learn more:
 
-- [Transferring a domain away from DNSimple](/articles/transferring-domain-away/)
+- [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/)
 
 ### ICANN 60-Day Lock
 

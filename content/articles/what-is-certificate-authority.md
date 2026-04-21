@@ -53,8 +53,8 @@ The validation process ensures that certificates are only issued to entities tha
 
 ## Taking action {#taking-action}
 
-- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Learn how to order a Sectigo certificate from a trusted CA
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
+- [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/) - Learn how to order a Sectigo certificate from a trusted CA
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Request a free certificate from Let's Encrypt
 - [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
 
 ## Related reading {#related}

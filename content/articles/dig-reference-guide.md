@@ -37,7 +37,7 @@ The basic syntax for a `dig` command is:
 
 An `ANY` query is a request to a DNS server for all available records for a given domain name. While it is a valid DNS query, it has been deprecated in recent RFCs due to its use in DDoS attacks. Because of this, many DNS providers, including DNSimple, limit their functionality for security and performance reasons. 
 
-DNSimple's systems will respond to `ANY` queries, but the response may be incomplete. For troubleshooting, we recommend using a tool like `dig` to query for specific record types (e.g., A, MX, CNAME) individually, as this gives you a more precise and reliable response. If you are experiencing DNS resolution problems, see [Troubleshooting Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/) for guidance.
+DNSimple's systems will respond to `ANY` queries, but the response may be incomplete. For troubleshooting, we recommend using a tool like `dig` to query for specific record types (e.g., A, MX, CNAME) individually, as this gives you a more precise and reliable response. If you are experiencing DNS resolution problems, see [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) or [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/) for guidance.
 
 ## Breakdown of a dig response {#breakdown-of-a-dig-response}
 

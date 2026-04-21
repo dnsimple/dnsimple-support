@@ -1,5 +1,5 @@
 ---
-title: Verifying DMARC with dig and Online Tools
+title: Verify DMARC with dig and Online Tools
 excerpt: How to verify your DMARC record is being returned correctly.
 meta: Learn how to verify your DMARC record is working and find online tools to help monitor.
 categories:
@@ -7,8 +7,7 @@ categories:
 - Emails
 ---
 
-# Verifying DMARC with dig and Online Tools
-
+# Verify DMARC with dig and Online Tools
 ## Verifying DMARC with dig {#verifying-dmarc-with-dig}
 
 The `dig` tool is a good way to verify your DMARC record is being returned correctly by our DNS servers. To learn more about `dig`, see [How To Use dig](/articles/how-dig/).
@@ -31,6 +30,8 @@ Verify your DMARC with an online tool like [this one from MX Toolbox](https://mx
 
 ## Monitoring DMARC {#monitoring-dmarc}
 DMARC sends daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read &mdash; we recommend using a free tool, like [Postmark's reporting](https://dmarc.postmarkapp.com/), to provide a weekly, human-readable report.
+
+If your DMARC record is published correctly but messages are still failing, the problem is often an alignment issue. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for how to diagnose alignment failures and other common causes.
 
 ## Technical details {#technical-details}
 To read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org).

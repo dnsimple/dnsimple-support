@@ -14,7 +14,9 @@ categories:
 
 ---
 
-DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
+DNSimple allows a user to be associated with multiple accounts. If you cannot find a domain you expect to see, it may be in a different account. See [I Can't Find My Domain](/articles/finding-missing-domain/) for troubleshooting steps.
+
+This happens in two cases:
 
 - The user is [added as a member to an existing account](/articles/managing-seats/).
 - The user creates another account under their existing user profile.

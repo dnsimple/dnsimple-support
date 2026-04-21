@@ -1,5 +1,5 @@
 ---
-title: Enabling DNSSEC
+title: Enable DNSSEC
 excerpt: Enable DNSSEC for your domain. Understand the prerequisites, follow the configuration steps, and know what to expect after activation.
 meta: Learn how to enable DNSSEC for your domain at DNSimple. Understand prerequisites, follow step-by-step configuration, and know what to expect after activation.
 categories:
@@ -7,9 +7,11 @@ categories:
   - Enterprise
 ---
 
-# Enabling DNSSEC
+# Enable DNSSEC
 
-If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To enable DNSSEC in DNSimple, open the DNSSEC tab for your domain and follow the configuration wizard. DNSimple signs the zone automatically and, for domains registered with DNSimple, provisions the DS record at the registry with no additional steps required.
+
+If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Prerequisites
 
@@ -41,7 +43,7 @@ If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/)
 
 ## Troubleshooting
 
-If you encounter issues after enabling DNSSEC, see [Troubleshooting DNSSEC Configurations](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance on diagnosing and resolving common DNSSEC problems.
+If you encounter issues after enabling DNSSEC, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance on diagnosing and resolving common DNSSEC problems.
 
 ## Have more questions?
 If you have any questions or need assistance enabling DNSSEC, [contact support](https://dnsimple.com/contact), and we'll be happy to help.

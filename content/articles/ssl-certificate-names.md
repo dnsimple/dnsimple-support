@@ -1,12 +1,12 @@
 ---
-title: Choosing the SSL Certificate Names
+title: How to Choose SSL Certificate Names
 excerpt: Guidelines and information for selecting the SSL certificate host names.
-meta: Learn how to choose the right host names for your SSL certificate, including when to use single-name, wildcard, and SAN certificates.
+meta: How to choose the right host names for your SSL certificate, including when to use single-name, wildcard, and SAN certificates.
 categories:
 - SSL Certificates
 ---
 
-# Choosing the SSL Certificate Names
+# How to Choose SSL Certificate Names
 
 ### Table of Contents {#toc}
 
@@ -42,9 +42,9 @@ An SSL certificate must be associated with one or more host names. Selecting the
 
 1. **Order your certificate** using the names you have determined:
 
-    - [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/)
-    - [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/)
-    - [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/)
+    - [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/)
+    - [Ordering a Wildcard SSL Certificate](/articles/buy-wildcard-ssl-certificate/)
+    - [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/)
 
 </div>
 

@@ -117,7 +117,7 @@ The single dot (`.`) represents the root of the DNS hierarchy and is the standar
 
 ## Related topics
 
-- [Setting Up Null MX Records](/articles/setting-up-null-mx-records/) - Step-by-step guide to configuring null MX records
+- [Set Up Null MX Records](/articles/setting-up-null-mx-records/) - Step-by-step guide to configuring null MX records
 - [What Is an MX Record?](/articles/mx-record/) - General information about MX records
 - [Email Forwarding](/articles/email-forwarding/) - Information about DNSimple's email forwarding service
 

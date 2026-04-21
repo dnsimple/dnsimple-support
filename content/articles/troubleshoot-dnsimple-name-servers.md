@@ -1,13 +1,12 @@
 ---
-title: Troubleshooting DNSimple Name Servers
+title: Troubleshoot DNSimple Name Servers
 excerpt: This article contains instructions to check and debug domain resolution issues.
 meta: Explore this comprehensive guide to troubleshoot common issues with name servers, ensuring your website is accessible and functioning properly.
 categories:
 - DNS
 ---
 
-# Troubleshooting DNSimple Name Servers
-
+# Troubleshoot DNSimple Name Servers
 If your domain is not resolving correctly with DNSimple, follow these steps to troubleshoot common issues with name servers.
 
 ## Ensure the domain is using the DNSimple name servers {#ensure-the-domain-is-using-the-dnsimple-name-servers}
@@ -34,7 +33,7 @@ You can check whether the update was successful by inspecting the [WHOIS](https:
 
 The WHOIS response usually updates within a few minutes.
 
-If, after 24 hours, the domain still is not resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshooting Domain Resolution Issues](/articles/domain-resolution-issues/).
+If, after 24 hours, the domain still is not resolving, make sure your current domain registrar successfully confirmed the update, or check [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we will be happy to help. 

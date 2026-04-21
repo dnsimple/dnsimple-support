@@ -51,7 +51,7 @@ The DNS A record specification is formally defined in [RFC 1035, Section 3.4.1](
 ## Managing A Records in DNSimple {#managing-a-records-in-dnsimple}
 DNSimple provides a straightforward interface for managing your A records. You can add new A records, remove existing ones, or update their target IP addresses directly from your domain's record editor.
 
-For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Managing A Records](/articles/manage-a-record/).
+For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Manage A Records](/articles/manage-a-record/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

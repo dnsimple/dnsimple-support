@@ -1,10 +1,11 @@
 Getting started:
-- "Email Forwarding"
-- "Email Hosting Support"
+  - "Email Services at DNSimple"
 
 Explanation:
   Email Forwarding:
+    - "Email Forwarding"
     - "What Is Email Forwarding?"
+    - "Email Hosting Support"
   Email Authentication:
     - "What Is an SPF Record?"
     - "What Is a DKIM Record?"
@@ -12,7 +13,10 @@ Explanation:
     - "Understanding SPF, DKIM, and DMARC Alignment"
     - "Email Authentication Best Practices"
   Email Deliverability:
+    - "Understanding Email Deliverability"
     - "Understanding Email Bounces"
+  Email Security:
+    - "Protecting Your Domain from Email Spoofing"
   MX Records:
     - "What Is an MX Record?"
     - "What Are Null MX Records?"
@@ -25,16 +29,16 @@ How to:
     - "How to Migrate Email Forwarding to DNSimple"
     - "Email Forwarding and Bounced Emails"
   Email Authentication:
-    - "Setting Up SPF Records"
-    - "Setting Up DKIM"
-    - "Setting Up DMARC"
+    - "Set Up SPF Records"
+    - "Set Up DKIM"
+    - "Set Up DMARC"
     - "Implementing a Gradual DMARC Policy"
     - "Managing Multiple DKIM Selectors"
   Email Hosting:
-    - "Setting Up MX Records for Email Hosting"
-    - "Setting Up Null MX Records"
-    - "Managing MX Records When Changing Email Providers"
-    - "Managing Email DNS Records"
+    - "Set Up MX Records for Email Hosting"
+    - "Set Up Null MX Records"
+    - "Manage MX Records When Changing Email Providers"
+    - "Manage Email DNS Records"
     - "Google Workspace (formerly G Suite) Service"
     - "Microsoft 365 (formerly Office 365) Service"
     - "Fastmail Service"
@@ -44,16 +48,21 @@ How to:
     - "Postmark Service"
     - "Atmail Service"
     - "DMARC Reports by Postmark Service"
+  Email Deliverability:
+    - "Improving Email Deliverability"
+    - "Monitoring Email Deliverability"
   MX Records:
-    - "Querying MX Records"
+    - "Query MX Records"
   Verification:
-    - "Verifying SPF with dig and Online Tools"
-    - "Verifying DKIM with dig and Online Tools"
-    - "Verifying DMARC with dig and Online Tools"
+    - "Verify SPF with dig and Online Tools"
+    - "Verify DKIM with dig and Online Tools"
+    - "Verify DMARC with dig and Online Tools"
   Troubleshooting:
     - "Email Forwarding Not Working with Gmail"
     - "Email Forwarding Not Working"
     - "Email Forwarding Not Working with Outlook, Yahoo, and Other Providers"
+    - "Troubleshooting Email Authentication"
+
 Reference:
   Email Forwarding:
     - "Email Forwarding Management in DNSimple"

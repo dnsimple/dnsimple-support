@@ -1,5 +1,5 @@
 ---
-title: Setting Up DKIM
+title: Set Up DKIM
 excerpt: How to set up DKIM on your domains.
 meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
 categories:
@@ -7,13 +7,16 @@ categories:
 - Emails
 ---
 
-# Setting Up DKIM
-
+# Set Up DKIM
 [DKIM](/articles/dkim-record/) (DomainKeys Identified Email) provides a way to validate that an organization delivering an email has permission to do so.
 
 DKIM requires the addition of public keys into your DNS zone. The key is often provided to you by the organization that is sending your email &mdash; e.g., [SendGrid](https://sendgrid.com/en-us), [Postmark](https://postmarkapp.com), or [Google Workspace](https://workspace.google.com). The key will either be inserted directly into your zone as a [TXT record](/articles/txt-record/), or it will be a [CNAME](/articles/cname-record/) pointing to the key in your provider's DNS.
 
 ## Steps to set up DKIM {#steps-to-set-up-dkim}
+
+<div class="section-steps" markdown="1">
+##### Set up DKIM
+
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain where you want to set up DKIM.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
@@ -34,6 +37,8 @@ k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMjj8MVaESl30KSPYdLaEreSYzv
 > [!WARNING]
 > If your provider gives you a fully-qualified name that ends with your domain name, **DO NOT** include your domain name in the **Name** field when you add the TXT record. For example, if you are given `pm._domainkey.yourdomain.com`, only enter `pm._domainkey` in the **Name** field.
 
+</div>
+
 ## Quotes and slashes {#quotes-and-slashes}
 If your provider gave you the DKIM record and it included double quotes around the record, or backslashes before semi-colons in the record, you can safely remove them. The quotes are handled automatically by our name servers, and the semi-colons will automatically be escaped if necessary.
 
@@ -42,5 +47,10 @@ Sometimes there will be forward slashes or other unusual characters in the DKIM 
 ## Managing DKIM records {#managing-dkim-records}
 DKIM records are added as TXT or sometimes CNAME records. To update or remove them, follow the instructions in the [Record Editor guide](/articles/record-editor/).
 
+## Next steps {#next-steps}
+
+After publishing your DKIM record, [verify it is set up correctly](/articles/verify-dkim/) using `dig` or an online tool. If you have not yet configured SPF and DMARC, see [Set Up SPF Records](/articles/setting-up-spf/) and [Set Up DMARC](/articles/set-up-dmarc/).
+
 ## Have more questions?
-If you have additional questions or need any assistance with your DKIM records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+
+If you have additional questions or need assistance with your DKIM records, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

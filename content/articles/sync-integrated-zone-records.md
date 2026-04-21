@@ -1,13 +1,12 @@
 ---
-title: Syncing Integrated Zone Records Between DNS Providers
+title: Sync Integrated Zone Records Between DNS Providers
 excerpt: Synchronize the DNS records of a zone at DNSimple across Integrated DNS Providers.
 meta: Learn how to synchronize DNS zone records between DNSimple and Integrated DNS Providers. Keep your DNS records in sync across multiple providers.
 categories:
 - DNS
 ---
 
-# Syncing Integrated Zone Records Between DNS Providers
-
+# Sync Integrated Zone Records Between DNS Providers
 If your zone is out of sync across its [Integrated DNS Providers](/articles/what-are-integrated-providers/), a warning message will appear at the top of the Record Editor page. You can use the **Synchronize DNS records** feature to bring the records back in sync.
 
 ![Record Editor Integrated Records Out of Sync](/files/record-editor-integrated-zones-out-of-sync.png)
