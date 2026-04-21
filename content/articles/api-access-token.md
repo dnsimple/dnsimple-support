@@ -15,7 +15,7 @@ categories:
 
 ---
 
-To access the [DNSimple API](https://developer.dnsimple.com/), you need an access token.
+To access the [DNSimple API](https://developer.dnsimple.com/) or the [DNSimple CLI](/articles/dnsimple-cli/), you need an access token.
 
 To create an application that requires access to DNSimple, or let an external application request authorization to private details in a user's DNSimple account without a password, you need an [OAuth Token](/articles/oauth-applications/).
 
