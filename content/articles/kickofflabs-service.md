@@ -1,7 +1,7 @@
 ---
 title: KickoffLabs Service
 excerpt: How to set up KickoffLabs DNS using DNSimple's One-click Service.
-meta: Easily set up KickoffLabs DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your domain management and enhance your online presence.
+meta: Set up KickoffLabs DNS with DNSimple's one-click service. Apply the required DNS records for KickoffLabs to your domain in one click.
 categories:
 - Services
 ---

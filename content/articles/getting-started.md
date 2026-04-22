@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 excerpt: A comprehensive guide to help you get started with DNSimple.
-meta: Explore our comprehensive guide to getting started with DNSimple, featuring essential articles and resources to help you configure and manage your domain effortlessly.
+meta: Get started with DNSimple. Essential articles and resources to help you register domains, configure DNS, and manage your account.
 categories:
 - DNSimple
 ---

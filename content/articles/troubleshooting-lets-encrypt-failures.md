@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Let's Encrypt Certificate Failures
 excerpt: Your Let's Encrypt certificate is not issuing or renewing. Learn the common causes and how to fix them.
-meta: Fix Let's Encrypt SSL certificate failures in DNSimple. Covers DNS delegation issues, CAA record blocks, rate limits, DNSSEC misconfigurations, and Empty Non-Terminal problems.
+meta: Fix Let's Encrypt certificate failures in DNSimple. Covers DNS delegation issues, CAA record blocks, rate limits, DNSSEC errors, and ENT problems.
 categories:
 - SSL Certificates
 ---

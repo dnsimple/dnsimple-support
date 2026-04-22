@@ -1,7 +1,7 @@
 ---
 title: Suspended Account
 excerpt: Reasons your DNSimple account may be suspended.
-meta: Discover the common reasons for DNSimple account suspension and learn how to resolve issues quickly to regain access to your services. Stay informed and proactive!
+meta: Common reasons for DNSimple account suspension and how to resolve issues to regain access to your domains and services.
 categories:
 - Account
 ---

@@ -1,7 +1,7 @@
 ---
 title: Google Workspace (formerly G Suite) Service
 excerpt: How to set up Google Workspace DNS using DNSimple's one-click service or manual configuration.
-meta: Set up Google Workspace email with DNSimple using the one-click service or manual DNS configuration, including MX records, domain verification, and email authentication.
+meta: Set up Google Workspace email with DNSimple using the one-click service or manual DNS, including MX records, domain verification, and authentication.
 categories:
 - Services
 - Emails

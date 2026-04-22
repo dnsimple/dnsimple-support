@@ -1,7 +1,7 @@
 ---
 title: Sectigo vs Let's Encrypt SSL Certificates
 excerpt: Explains the key differences between Sectigo and Let's Encrypt SSL certificates to help you choose the right certificate type.
-meta: Compare Sectigo and Let's Encrypt SSL certificates to find the best option for your site. Understand the differences in cost, expiration, validation, and features — including free and low-cost options.
+meta: Compare Sectigo and Let's Encrypt SSL certificates. Understand differences in cost, expiration, validation, and features to choose the right certificate.
 categories:
 - SSL Certificates
 ---

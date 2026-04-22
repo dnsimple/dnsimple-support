@@ -1,7 +1,7 @@
 ---
 title: The DNSSEC Chain of Trust
 excerpt: The DNSSEC chain of trust is a series of cryptographic signatures linking the DNS root zone down to your domain, allowing resolvers to validate every response.
-meta: How DNSSEC validation works through the chain of trust. Learn how DS records, DNSKEY records, and trust anchors link the DNS root to your domain for end-to-end verification.
+meta: How DNSSEC validation works through the chain of trust. DS records, DNSKEY records, and trust anchors link the DNS root to your domain.
 categories:
 - DNSSEC
 ---

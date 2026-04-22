@@ -1,7 +1,7 @@
 ---
 title: How to Buy a Wildcard SSL Certificate
 excerpt: How to buy a wildcard SSL certificate with DNSimple.
-meta: How to buy a wildcard SSL certificate with DNSimple to secure all subdomains under your domain, with step-by-step instructions for both Let's Encrypt and Sectigo.
+meta: Buy a wildcard SSL certificate with DNSimple to secure all subdomains under your domain. Step-by-step instructions for Let's Encrypt and Sectigo.
 categories:
 - SSL Certificates
 - Enterprise

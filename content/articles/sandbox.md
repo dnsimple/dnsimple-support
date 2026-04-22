@@ -1,7 +1,7 @@
 ---
 title: What Is the DNSimple Sandbox?
 excerpt: An explanation of the DNSimple Sandbox environment for testing domains, DNS, integrations, and workflows without affecting production data.
-meta: Learn what the DNSimple Sandbox is, how it mirrors the full production environment, and how to use it for evaluating DNSimple, testing domain workflows, and developing API integrations safely.
+meta: The DNSimple Sandbox mirrors production for evaluating DNSimple, testing domain workflows, and developing API integrations without affecting live data.
 categories:
 - DNSimple
 - API

@@ -1,7 +1,7 @@
 ---
 title: "Email Deliverability: How to Get Your Emails to the Inbox"
 excerpt: What email deliverability is, why emails end up in spam, and the factors that determine inbox placement.
-meta: Email deliverability is the ability to land emails in recipients' inboxes rather than spam folders. Learn how DNS authentication (SPF, DKIM, DMARC), sender reputation, list hygiene, and sending patterns determine inbox placement.
+meta: Email deliverability is the ability to land emails in inboxes, not spam. Learn how SPF, DKIM, DMARC, sender reputation, and list hygiene affect inbox placement.
 categories:
 - Emails
 ---

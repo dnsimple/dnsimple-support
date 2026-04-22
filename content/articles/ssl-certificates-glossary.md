@@ -1,7 +1,7 @@
 ---
 title: SSL Certificate Glossary
 excerpt: Definitions of key terms related to SSL/TLS certificates, encryption, and certificate management.
-meta: Definitions of SSL certificate terms including CA, CSR, private key, TLS handshake, ECDSA, PEM, wildcard certificates, and more. Quick reference for DNSimple users.
+meta: SSL certificate glossary covering CA, CSR, private key, TLS handshake, ECDSA, PEM, wildcard certificates, and more. Quick reference for DNSimple users.
 categories:
 - SSL Certificates
 ---

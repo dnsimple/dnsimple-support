@@ -1,7 +1,7 @@
 ---
 title: DNS at DNSimple
 excerpt: Learn about DNS, manage your DNS records, and configure DNS hosting with DNSimple
-meta: Comprehensive guide to DNS management at DNSimple, including DNS records, zone management, troubleshooting, and advanced DNS features like Anycast and secondary DNS.
+meta: Guide to DNS management at DNSimple, covering DNS records, zone management, troubleshooting, and features like Anycast and secondary DNS.
 categories:
 - DNS
 ---

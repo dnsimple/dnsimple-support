@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Email Authentication
 excerpt: How to diagnose SPF, DKIM, and DMARC failures using email headers and DNS verification.
-meta: Diagnose email authentication failures by reading email headers, identifying SPF, DKIM, and DMARC issues, and resolving common problems like alignment failures and missing records.
+meta: Diagnose email authentication failures by reading headers, identifying SPF, DKIM, and DMARC issues, and fixing alignment failures and missing records.
 categories:
 - Emails
 ---

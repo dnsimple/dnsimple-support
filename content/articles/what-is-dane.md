@@ -1,7 +1,7 @@
 ---
 title: What Is DANE (DNS-based Authentication of Named Entities)?
 excerpt: DANE is a security protocol that uses DNSSEC to publish and validate TLS certificate information in DNS records, enhancing the security of TLS connections.
-meta: Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records, providing an additional layer of security for encrypted connections.
+meta: DANE uses DNSSEC to authenticate TLS certificates through DNS records, providing an additional layer of security for encrypted connections.
 categories:
 - DNS
 - DNSSEC

@@ -1,7 +1,7 @@
 ---
 title: SSL/TLS Certificates
 excerpt: Information about purchasing and managing an SSL/TLS certificate with DNSimple.
-meta: Learn about DNSimple SSL certificate products, including Sectigo and Let's Encrypt options, pricing, validation methods, and how to manage certificates for your domains.
+meta: DNSimple SSL certificate products, including Sectigo and Let's Encrypt options, pricing, validation methods, and certificate management for your domains.
 categories:
 - SSL Certificates
 - Enterprise

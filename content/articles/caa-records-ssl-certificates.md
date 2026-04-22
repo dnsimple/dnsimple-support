@@ -1,7 +1,7 @@
 ---
 title: CAA Records and SSL Certificates
 excerpt: CAA records control which Certificate Authorities can issue SSL certificates for your domain. Misconfigured or missing CAA records are a common cause of certificate issuance failures.
-meta: Learn how CAA records affect SSL certificate issuance at DNSimple, what values to use for Sectigo and Let's Encrypt, and how to troubleshoot CAA-related failures.
+meta: How CAA records affect SSL certificate issuance at DNSimple. Values to use for Sectigo and Let's Encrypt, and how to troubleshoot CAA failures.
 categories:
 - SSL Certificates
 ---

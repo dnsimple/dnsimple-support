@@ -1,7 +1,7 @@
 ---
 title: Organize and Label Domains
 excerpt: How to add, filter, edit, and remove labels on domains in your DNSimple account.
-meta: Use labels in DNSimple to organize and filter your domain portfolio. Add labels to multiple domains at once, filter by label, and edit or remove labels from the domain list.
+meta: Use labels in DNSimple to organize and filter your domains. Add labels to multiple domains at once, filter by label, and edit or remove labels.
 categories:
 - Domains and Transfers
 ---

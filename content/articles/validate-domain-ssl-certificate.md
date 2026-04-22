@@ -1,7 +1,7 @@
 ---
 title: How to Validate Your Domain for an SSL Certificate
 excerpt: Learn how to complete domain validation for your SSL certificate using email-based or DNS-based validation methods in DNSimple.
-meta: Understand the domain validation methods available for SSL certificates in DNSimple, with step-by-step instructions for email-based (Sectigo) and DNS-based (Let's Encrypt) validation.
+meta: Domain validation methods for SSL certificates in DNSimple. Step-by-step instructions for email-based (Sectigo) and DNS-based (Let's Encrypt) validation.
 categories:
 - SSL Certificates
 ---

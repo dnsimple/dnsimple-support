@@ -1,7 +1,7 @@
 ---
 title: Email Services at DNSimple
 excerpt: Email forwarding, authentication records (SPF, DKIM, DMARC), and third-party email hosting configuration at DNSimple.
-meta: Guide to email services at DNSimple, including email forwarding, SPF, DKIM, and DMARC authentication records, and integration with third-party email hosting providers.
+meta: Email services at DNSimple, including email forwarding, SPF, DKIM, and DMARC authentication records, and integration with third-party email hosting.
 categories:
 - Emails
 ---
