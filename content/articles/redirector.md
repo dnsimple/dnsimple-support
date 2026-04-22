@@ -15,7 +15,7 @@ categories:
 
 ---
 > [!NOTE]
-> **HTTP** redirects are available to all plans. **HTTPS** redirects are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+> **HTTP** redirects are available on all plans. **HTTPS** redirects require a [Teams plan or higher](/articles/dnsimple-plans/#feature-comparison).
 
 The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 

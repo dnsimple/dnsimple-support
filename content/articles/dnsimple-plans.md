@@ -15,6 +15,29 @@ You'll find all [the features listed for each plan on our pricing page](https://
 * TOC
 {:toc}
 
+## Feature comparison {#feature-comparison}
+
+| Feature | Solo | Teams | Enterprise |
+|---------|:----:|:-----:|:----------:|
+| Domain registration, transfer, renewal | Yes | Yes | Yes |
+| DNS zones with Anycast, DNSSEC, DDoS defense | Yes | Yes | Yes |
+| DNS records per zone | 100 | 100 | Custom |
+| Let's Encrypt (root and www) | Yes | Yes | Yes |
+| Let's Encrypt custom hostnames | -- | Yes | Yes |
+| Let's Encrypt wildcard | -- | Yes | Yes |
+| Sectigo certificates | Yes | Yes | Yes |
+| HTTP redirects | Yes | Yes | Yes |
+| HTTPS redirects | -- | Yes | Yes |
+| Scoped API tokens | -- | Yes | Yes |
+| Domain Access Control | -- | Yes | Yes |
+| Regional and POOL records | -- | Yes | Yes |
+| Secondary DNS (DNSimple as secondary) | -- | Yes | Yes |
+| Vanity name servers | -- | -- | Yes |
+| Multi-account management | -- | -- | Yes |
+| SSO (Okta, Google, Entra) | -- | -- | Yes |
+| Priority support (1-hour response) | -- | -- | Yes |
+
+For current pricing on each plan, visit the [pricing page](https://dnsimple.com/pricing). To upgrade your plan, see [Changing Subscription Plan](/articles/changing-plans/).
 ## What is included vs. what is usage-based {#included-vs-usage}
 
 DNSimple billing has three components:
