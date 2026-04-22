@@ -107,8 +107,6 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 1. Confirm the deletion when prompted.
 </div>
 
-![Email forwarding removal](/files/email-forwarding-removal.png)
-
 The email forward will be deleted immediately, and you will no longer receive emails through this configuration.
 
 > [!WARNING]
