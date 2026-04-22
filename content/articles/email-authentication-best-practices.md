@@ -15,36 +15,9 @@ categories:
 
 ---
 
-Following email authentication best practices is essential for good email deliverability, security, and protection against spoofing. This guide covers best practices for SPF, DKIM, and DMARC.
-
-## Overview {#overview}
-
-Email authentication best practices include:
-
-- **Proper configuration:** Set up SPF, DKIM, and DMARC correctly
-- **Regular monitoring:** Monitor authentication status and reports
-- **Gradual implementation:** Implement policies gradually
-- **Ongoing maintenance:** Keep authentication records updated
-- **Documentation:** Document your email ecosystem
+Once you have [set up email authentication](/articles/email-authentication/) (SPF, DKIM, and DMARC), these best practices help you maintain, monitor, and optimize your configuration over time.
 
 ## SPF best practices {#spf}
-
-### Include all authorized senders
-
-**Best practice:** Include all services that send email on your behalf in your SPF record.
-
-**Why:** Missing authorized senders can cause SPF failures and delivery issues.
-
-**How:**
-- List all email hosting providers
-- Include all transactional email services
-- Include all marketing platforms
-- Include any other services that send email
-
-**Example:**
-```
-v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
-```
 
 ### Use appropriate qualifiers
 
@@ -68,17 +41,6 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Use `ip4:` and `ip6:` for direct IPs when possible
 - Consolidate services when possible
 - Remove unused includes
-
-### One SPF record per domain
-
-**Best practice:** Have only one SPF record per domain.
-
-**Why:** Multiple SPF records cause SPF to fail.
-
-**How:**
-- Check for existing SPF records before adding a new one
-- Modify existing SPF record instead of creating a new one
-- Combine multiple SPF records into one
 
 ### Test SPF regularly
 
@@ -130,7 +92,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Test each selector regularly
 
 > [!NOTE]
-> For detailed information, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+> For detailed information, see [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ### Verify DKIM signatures
 
@@ -173,7 +135,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 6. Gradually increase to full reject
 
 > [!NOTE]
-> For detailed steps, see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+> For detailed steps, see [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ### Set up reporting
 
@@ -209,19 +171,6 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Look for authentication failures
 - Identify unknown email sources
 - Fix issues promptly
-
-### Document your email ecosystem
-
-**Best practice:** Document all services that send email from your domain.
-
-**Why:** Documentation helps manage authentication and identify issues.
-
-**How:**
-- List all email hosting providers
-- Document all transactional email services
-- Note all marketing platforms
-- Keep DKIM selectors documented
-- Update documentation when services change
 
 ## General best practices {#general}
 
@@ -273,67 +222,13 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net include:sendgrid.net ~all
 - Use `marketing.example.com` for marketing emails
 - Configure authentication for each subdomain
 
-### Document your configuration
-
-**Best practice:** Document your email authentication configuration.
-
-**Why:** Documentation helps with troubleshooting and future management.
-
-**How:**
-- Document all SPF includes
-- List all DKIM selectors
-- Note DMARC policy and settings
-- Keep records of changes
-
-## Common mistakes to avoid {#mistakes}
-
-### Do not start with reject policy
-
-**Mistake:** Starting DMARC with `p=reject` immediately.
-
-**Why:** Can block legitimate emails if authentication is not properly configured.
-
-**Solution:** Always start with `p=none` (monitoring).
-
-### Do not ignore DMARC reports
-
-**Mistake:** Setting up DMARC but not reviewing reports.
-
-**Why:** Reports provide valuable information about authentication status.
-
-**Solution:** Review reports regularly and act on findings.
-
-### Do not have multiple SPF records
-
-**Mistake:** Creating multiple SPF records instead of combining them.
-
-**Why:** Multiple SPF records cause SPF to fail.
-
-**Solution:** Have only one SPF record and combine all includes.
-
-### Do not forget to update records
-
-**Mistake:** Not updating authentication records when services change.
-
-**Why:** Can cause authentication failures.
-
-**Solution:** Keep records updated and review regularly.
-
-### Do not skip testing
-
-**Mistake:** Making changes without testing.
-
-**Why:** Can break email delivery.
-
-**Solution:** Always test changes before full implementation.
-
 ## Related articles {#related}
 
-- [SPF Records](/articles/spf-record/) - SPF setup
-- [Set Up DKIM](/articles/set-up-dkim/) - DKIM setup
-- [Set Up DMARC](/articles/set-up-dmarc/) - DMARC setup
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual implementation
+- [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) - Initial setup and common mistakes
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
+- [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Gradual DMARC rollout
+- [Monitor Email Deliverability](/articles/monitoring-email-deliverability/) - Ongoing monitoring routine
+- [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnosing failures
 
 ## Have more questions?
 

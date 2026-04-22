@@ -1,12 +1,12 @@
 ---
-title: Monitoring Email Deliverability
+title: Monitor Email Deliverability
 excerpt: How to monitor email authentication, sender reputation, and deliverability using free tools and DMARC reports.
 meta: Guide to monitoring email deliverability by tracking DMARC reports, sender reputation, blacklist status, and authentication pass rates with free tools.
 categories:
 - Emails
 ---
 
-# Monitoring Email Deliverability
+# Monitor Email Deliverability
 
 ### Table of Contents {#toc}
 
@@ -17,7 +17,7 @@ categories:
 
 Deliverability problems are easier to fix when you catch them early. Regular monitoring of authentication status, sender reputation, and bounce rates helps you identify issues before they damage your domain's reputation with mailbox providers.
 
-For background on the factors that affect deliverability, see [Understanding Email Deliverability](/articles/understanding-email-deliverability/).
+For background on the factors that affect deliverability, see [Email Deliverability](/articles/understanding-email-deliverability/).
 
 ## Monitor authentication with DMARC reports {#dmarc-reports}
 
@@ -47,7 +47,7 @@ Raw DMARC reports are XML files that are difficult to read manually. Use a parsi
 - **Unexpected source IPs** - These may indicate a service you forgot to authorize, or someone spoofing your domain. Cross-reference with your SPF record.
 - **SPF failures from legitimate services** - A service sending on your behalf is missing from your SPF `include:` list. Add it. See [Set Up SPF Records](/articles/setting-up-spf/).
 - **DKIM failures** - The sending service may not have DKIM enabled, or the DNS record may be missing or incorrect. See [Set Up DKIM](/articles/set-up-dkim/).
-- **High failure rates after a policy change** - If you recently moved from `p=none` to `p=quarantine` or `p=reject`, failures you previously ignored now affect delivery. Review and fix before tightening further. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+- **High failure rates after a policy change** - If you recently moved from `p=none` to `p=quarantine` or `p=reject`, failures you previously ignored now affect delivery. Review and fix before tightening further. See [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ## Monitor sender reputation {#reputation}
 
@@ -111,7 +111,7 @@ High bounce rates damage sender reputation quickly. Your email service provider'
 
 A sudden increase in hard bounces usually means a batch of invalid addresses entered your list. A gradual increase in soft bounces may indicate recipient server issues or sending volume problems.
 
-For more on bounce types and handling, see [Understanding Email Bounces](/articles/understanding-email-bounces/).
+For more on bounce types and handling, see [Email Bounces](/articles/understanding-email-bounces/).
 
 ## Set up a monitoring routine {#routine}
 

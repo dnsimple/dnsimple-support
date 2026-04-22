@@ -31,7 +31,7 @@ Verify your DMARC with an online tool like [this one from MX Toolbox](https://mx
 ## Monitoring DMARC {#monitoring-dmarc}
 DMARC sends daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read &mdash; we recommend using a free tool, like [Postmark's reporting](https://dmarc.postmarkapp.com/), to provide a weekly, human-readable report.
 
-If your DMARC record is published correctly but messages are still failing, the problem is often an alignment issue. See [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) for how to diagnose alignment failures and other common causes.
+If your DMARC record is published correctly but messages are still failing, the problem is often an alignment issue. See [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) for how to diagnose alignment failures and other common causes.
 
 ## Technical details {#technical-details}
 To read more about the technical details of DMARC, head over to [DMARC.org](https://dmarc.org).

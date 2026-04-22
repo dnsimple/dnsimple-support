@@ -1,12 +1,12 @@
 ---
-title: Understanding Email Bounces
+title: Email Bounces
 excerpt: About email bounces, the different types of bounces, and what causes them.
 meta: Learn about email bounces, including hard bounces, soft bounces, DSN codes, and how to handle them.
 categories:
 - Emails
 ---
 
-# Understanding Email Bounces
+# Email Bounces
 
 ### Table of Contents {#toc}
 

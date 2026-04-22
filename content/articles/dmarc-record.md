@@ -75,9 +75,10 @@ For more on the technical specifications and intricacies of the DMARC protocol, 
 
 ## Related articles {#related}
 
-- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Guidance on implementing SPF, DKIM, and DMARC together
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - How alignment requirements affect email authentication
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - How to move from monitoring to enforcement
+- [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) - Set up SPF, DKIM, and DMARC together
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Ongoing maintenance for SPF, DKIM, and DMARC
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - How alignment requirements affect email authentication
+- [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - How to move from monitoring to enforcement
 
 ## Have more questions?
 
