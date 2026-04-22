@@ -1,7 +1,7 @@
 ---
 title: Set Up DMARC
 excerpt: How to set up DMARC in your DNSimple account.
-meta: Learn how to set up DMARC and what to expect from your email provider.
+meta: Set up a DMARC record in DNSimple by adding a TXT record with your policy, then verify and monitor aggregate email reports.
 categories:
 - DNS
 - Emails

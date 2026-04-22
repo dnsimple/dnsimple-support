@@ -1,6 +1,7 @@
 ---
 title: .CH Domains
 excerpt: This article explains the requirements and special procedures for .CH domain names.
+meta: .CH domains only support auto-renewal through DNSimple. Manual renewals are not available, and domains without auto-renewal are removed before expiration.
 categories:
 - TLDs
 ---

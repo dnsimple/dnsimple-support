@@ -1,6 +1,7 @@
 ---
 title: .JP Domains
 excerpt: This article explains the requirements and special procedures for .JP domain names.
+meta: .JP domains registered with DNSimple require auto-renewal enabled. Manual renewal is not supported, and transfers are blocked within 30 days of expiry.
 categories:
 - TLDs
 ---

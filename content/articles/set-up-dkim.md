@@ -1,7 +1,7 @@
 ---
 title: Set Up DKIM
 excerpt: How to set up DKIM on your domains.
-meta: Learn how to set up DKIM by using a specially formatted DNS text record storing a public key.
+meta: Configure DKIM for your domain in DNSimple by adding a TXT or CNAME record with the public key from your email service provider.
 categories:
 - DNS
 - Emails

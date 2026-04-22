@@ -1,6 +1,7 @@
 ---
 title: .GAY Domains
 excerpt: This article explains the requirements and special procedures for .GAY domain names.
+meta: Register .GAY domains through DNSimple. Anti-LGBTQ content is strictly prohibited, and 20% of each registration is donated to GLAAD and CenterLink.
 categories:
 - TLDs
 ---

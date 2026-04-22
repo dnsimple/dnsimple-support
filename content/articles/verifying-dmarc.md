@@ -1,7 +1,7 @@
 ---
 title: Verify DMARC with dig and Online Tools
 excerpt: How to verify your DMARC record is being returned correctly.
-meta: Learn how to verify your DMARC record is working and find online tools to help monitor.
+meta: Verify your DMARC record with dig or online tools like MX Toolbox, and set up aggregate report monitoring with DNSimple.
 categories:
 - DNS
 - Emails

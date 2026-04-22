@@ -1,6 +1,7 @@
 ---
 title: .MX Domains
 excerpt: This article explains the requirements and special procedures for .MX domain names.
+meta: Transfer .MX domains to DNSimple using the registry-approved process. The current registrar must approve the request, which can take up to 10 days.
 categories:
 - TLDs
 ---

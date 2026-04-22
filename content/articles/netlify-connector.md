@@ -1,6 +1,7 @@
 ---
 title: Netlify Connector
 excerpt: How to connect a Netlify app to your domain using DNSimple's Netlify Connector
+meta: Connect your domain to a Netlify site with the DNSimple Netlify Connector. Set up DNS records and Netlify configuration automatically.
 categories:
 - Connectors
 ---

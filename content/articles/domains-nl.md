@@ -1,6 +1,7 @@
 ---
 title: .NL Domains
 excerpt: This article explains the requirements and special procedures for .NL domain names.
+meta: Register .NL domains with DNSimple. Open worldwide for individuals and organizations. Dutch companies may need a KVK Chamber of Commerce number.
 categories:
 - TLDs
 ---

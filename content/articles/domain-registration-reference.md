@@ -1,7 +1,7 @@
 ---
 title: Domain Registration Reference
 excerpt: The formal requirements, restrictions, and key technical details of domain registration.
-meta: Learn more about the requirements, restrictions, and technical details for domain registration.
+meta: Domain registration requirements, character restrictions, pricing, WHOIS privacy, and auto-renewal options for registering domains with DNSimple.
 categories:
 - Domains and Transfers
 ---

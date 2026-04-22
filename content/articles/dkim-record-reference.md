@@ -1,7 +1,7 @@
 ---
 title: DKIM Record Reference
 excerpt: The formal structure, behavior, and key technical details of a DKIM record.
-meta: Learn more about the structure, behavior, and technical details for DKIM records.
+meta: DKIM records store public keys used to verify email signatures. Reference covers TXT record format, selector naming, tags, and DNSimple setup.
 categories:
 - DNS
 - Emails

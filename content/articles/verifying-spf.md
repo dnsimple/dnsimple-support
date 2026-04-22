@@ -1,7 +1,7 @@
 ---
 title: Verify SPF with dig and Online Tools
 excerpt: How to verify your SPF record is being returned correctly.
-meta: Learn how to verify your SPF record is working and find online tools to help monitor.
+meta: Verify your SPF record with dig or online tools, understand validation results, and fix common issues like syntax errors.
 categories:
 - DNS
 - Emails

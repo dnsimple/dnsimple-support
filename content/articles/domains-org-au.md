@@ -1,6 +1,7 @@
 ---
 title: .ORG.AU Domains
 excerpt: This article explains the requirements and special procedures for .ORG.AU domain names.
+meta: Register .ORG.AU domains with DNSimple. Restricted to Australian non-profits, charities, and associations. Requires a valid ABN and an Australian address.
 categories:
 - TLDs
 ---

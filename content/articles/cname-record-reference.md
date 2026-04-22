@@ -1,7 +1,7 @@
 ---
 title: CNAME Record Reference
 excerpt: The formal structure, restrictions, and key technical details of a CNAME record.
-meta: Learn more about the structure, restrictions, and technical details for CNAME records.
+meta: CNAME records map one domain name to another as an alias. Reference covers format, DNSimple configuration, and critical restrictions for proper use.
 categories:
 - DNS
 ---

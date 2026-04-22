@@ -1,6 +1,7 @@
 ---
 title: Changing Domain Contacts
 excerpt: How to change or update the contact assigned to a domain or part of its data.
+meta: Change or update the contact assigned to a domain registered with DNSimple. Assign new contacts, edit details, and monitor registrant changes.
 categories:
 - Contacts
 ---

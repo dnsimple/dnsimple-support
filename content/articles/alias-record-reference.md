@@ -1,7 +1,7 @@
 ---
 title: ALIAS Record Reference
 excerpt: The formal structure, restrictions, and key technical details of an ALIAS record.
-meta: Learn more about the structure, restrictions, and technical details for ALIAS records.
+meta: ALIAS records are a proprietary DNSimple type providing CNAME-like functionality at the zone apex. Covers format, dynamic resolution, and key traits.
 categories:
 - DNS
 ---

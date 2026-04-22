@@ -1,7 +1,7 @@
 ---
 title: PTR Record Reference
 excerpt: The formal structure, restrictions, and key technical details of a PTR record.
-meta: Learn more about the structure, restrictions, and technical details for PTR records.
+meta: PTR records map IP addresses to domain names for reverse DNS lookups. Reference covers format, IPv4 and IPv6 syntax, use cases, and management.
 categories:
 - DNS
 ---

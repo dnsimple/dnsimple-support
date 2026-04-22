@@ -1,6 +1,7 @@
 ---
 title: Product Expiring Tomorrow Notification
 excerpt: The Product Expiring Tomorrow email contains a list of domains expiring within 24 hours.
+meta: The Product Expiring Tomorrow email alerts you when domains, certificates, or WHOIS privacies are set to expire within 24 hours.
 categories:
 - DNSimple
 ---

@@ -1,6 +1,7 @@
 ---
 title: .NZ Domains
 excerpt: This article explains the requirements and special procedures for .NZ domain names.
+meta: Register .NZ domains and third-level extensions like .CO.NZ, .NET.NZ, .ORG.NZ, and .GEN.NZ through DNSimple. Open to individuals and organizations.
 categories:
 - TLDs
 ---

@@ -1,6 +1,7 @@
 ---
 title: .NOM.CO Domains
 excerpt: This article explains the requirements and special procedures for .NOM.CO domain names.
+meta: Register .NOM.CO personal domains with DNSimple. This third-level .CO domain is open worldwide for individuals seeking a nom de plume domain name.
 categories:
 - TLDs
 ---

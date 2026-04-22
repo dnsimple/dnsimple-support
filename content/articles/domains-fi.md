@@ -1,6 +1,7 @@
 ---
 title: .FI Domains
 excerpt: This article explains the requirements and special procedures for .FI domain names.
+meta: Register .FI domains with DNSimple. Open worldwide for individuals and organizations. Finnish companies may need to provide a Y-tunnus business ID.
 categories:
 - TLDs
 ---
