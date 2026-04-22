@@ -1,7 +1,7 @@
 ---
 title: External DNS Diagnostic Tools
 excerpt: Reference guide to third-party DNS diagnostic tools used for troubleshooting and verifying DNS resolution.
-meta: External DNS diagnostic tools: Google Admin Toolbox Dig, IntoDNS, ViewDNS, and WhatsMyDNS for troubleshooting and verifying DNS resolution.
+meta: "External DNS diagnostic tools: Google Admin Toolbox Dig, IntoDNS, ViewDNS, and WhatsMyDNS for troubleshooting and verifying DNS resolution."
 categories:
 - DNS
 ---
