@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Email Validation for SSL Certificates
 excerpt: Not receiving the domain validation email for your Sectigo SSL certificate? Learn the common causes and how to fix them.
-meta: Fix issues with SSL certificate email validation. Covers wrong email address, spam filters, WHOIS email deprecation, missing MX records, and how to resend the validation email.
+meta: Fix SSL certificate email validation issues. Covers wrong email address, spam filters, WHOIS email deprecation, missing MX records, and resending validation.
 categories:
 - SSL Certificates
 ---

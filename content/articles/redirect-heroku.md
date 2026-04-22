@@ -1,7 +1,7 @@
 ---
 title: Redirect www to Non-www Domain at Heroku
 excerpt: How to redirect www to a non-www domain (or vice versa) for a Heroku-hosted app using DNSimple, with and without HTTPS.
-meta: Set up www to non-www redirects for Heroku apps using DNSimple. Covers HTTP and HTTPS scenarios, including SSL certificate configuration and Rack::SslEnforcer setup.
+meta: Set up www to non-www redirects for Heroku apps using DNSimple. Covers HTTP and HTTPS scenarios, SSL configuration, and Rack::SslEnforcer setup.
 categories:
 - Domains and Transfers
 - Integrations

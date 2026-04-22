@@ -1,7 +1,7 @@
 ---
 title: Manage Vanity Name Servers
 excerpt: How to enable and disable vanity name servers in DNSimple.
-meta: How to enable and disable vanity name servers in DNSimple. Use your own domain as the name server authority (e.g., ns1.example.com) instead of the default DNSimple name servers.
+meta: Enable and disable vanity name servers in DNSimple. Use your own domain as the name server authority (e.g., ns1.example.com) instead of defaults.
 categories:
 - Name Servers
 - Domains and Transfers

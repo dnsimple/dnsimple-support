@@ -1,7 +1,7 @@
 ---
 title: How DNSimple Handles Incidents
 excerpt: How DNSimple communicates during service incidents and where to find status updates.
-meta: Learn how DNSimple communicates during service incidents, where to check system status, how to subscribe to status notifications, and what to expect from postmortems.
+meta: How DNSimple communicates during service incidents. Where to check system status, subscribe to notifications, and what to expect from postmortems.
 categories:
 - DNSimple
 ---

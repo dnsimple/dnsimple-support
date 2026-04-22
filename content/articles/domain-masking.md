@@ -1,7 +1,7 @@
 ---
 title: Domain Masking
 excerpt: Information on Domain Masking and URL Masking.
-meta: Learn about domain masking and URL masking, their benefits, and how to implement them effectively to enhance your online presence and protect your brand identity.
+meta: What domain masking and URL masking are, how they work, and how to implement them to display one URL while serving content from another.
 categories:
 - Domains and Transfers
 ---

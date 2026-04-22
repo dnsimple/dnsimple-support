@@ -1,7 +1,7 @@
 ---
 title: DNSimple Redirector
 excerpt: How to redirect HTTP and HTTPS requests from one host name to another URL using the DNSimple URL record.
-meta: Redirect HTTP and HTTPS requests to a different URL using DNSimple URL records. Supports 301 redirects, HTTPS with SSL certificates, wildcard redirects, and path forwarding.
+meta: Redirect HTTP and HTTPS requests using DNSimple URL records. Supports 301 redirects, HTTPS with SSL certificates, wildcard redirects, and path forwarding.
 categories:
 - Domains and Transfers
 ---

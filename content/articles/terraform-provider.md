@@ -1,7 +1,7 @@
 ---
 title: Terraform Provider
 excerpt: How to use DNSimple's Terraform provider to manage your DNS
-meta: Discover how to efficiently manage your DNS using DNSimple's Terraform provider. Learn setup, configuration, and best practices to streamline your DNS management.
+meta: Manage your DNS with DNSimple's Terraform provider. Setup, configuration, and best practices for infrastructure-as-code DNS management.
 categories:
 - Integrations
 - Enterprise

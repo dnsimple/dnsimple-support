@@ -1,7 +1,7 @@
 ---
 title: What is a TLD?
 excerpt: The term top-level domain, or TLD, refers to the first part of every domain name.
-meta: Discover what a top-level domain (TLD) is and how it plays a crucial role in domain names. Learn about different TLD types and their significance in web addressing.
+meta: A top-level domain (TLD) is the last segment of a domain name, like .com or .org. Learn about TLD types and their role in the domain name system.
 categories:
 - TLDs
 - Domains and Transfers

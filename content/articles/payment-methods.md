@@ -1,7 +1,7 @@
 ---
 title: Payment methods
 excerpt: Payment methods supported by DNSimple.
-meta: Article on all the different payment methods that are supported by DNSimple. See how we use a PCI-compliant billing provider to process and store all payment data.
+meta: Payment methods supported by DNSimple. We use a PCI-compliant billing provider to process and store all payment data securely.
 categories:
 - DNSimple
 ---

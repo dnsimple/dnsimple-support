@@ -1,7 +1,7 @@
 ---
 title: "Let's Encrypt: Free SSL Certificates with DNSimple"
 excerpt: Let's Encrypt provides free SSL certificates through DNSimple, with automated issuance and renewal via DNS-based validation.
-meta: Let's Encrypt provides free SSL certificates through DNSimple. Learn how DNSimple automates Let's Encrypt certificate issuance, renewal, and DNS validation for your domains.
+meta: Let's Encrypt provides free SSL certificates through DNSimple with automated issuance, renewal, and DNS validation for your domains.
 categories:
 - SSL Certificates
 - Integrations

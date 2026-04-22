@@ -1,7 +1,7 @@
 ---
 title: What Are Domain Contacts?
 excerpt: Learn about domain contacts, the different contact types, and their roles in domain management.
-meta: Discover what domain contacts are, the different types of contacts (registrant, administrative, technical), and how contact information is used in domain management.
+meta: What domain contacts are, the types (registrant, administrative, technical), and how contact information is used in domain registration and management.
 categories:
 - Domains and Transfers
 ---

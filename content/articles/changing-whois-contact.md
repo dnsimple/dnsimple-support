@@ -1,7 +1,7 @@
 ---
 title: Change WHOIS Information
 excerpt: How to change the contact information displayed in the WHOIS for a domain.
-meta: Update the public WHOIS contact information for a domain registered with DNSimple. Covers registrant, administrative, and technical contacts, plus the ICANN 60-day transfer lock.
+meta: Update WHOIS contact information for a domain at DNSimple. Covers registrant, admin, and technical contacts, plus the ICANN 60-day transfer lock.
 categories:
 - Domains and Transfers
 ---

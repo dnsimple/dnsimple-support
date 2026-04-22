@@ -1,7 +1,7 @@
 ---
 title: Improve Email Deliverability
 excerpt: How to improve email deliverability by configuring DNS-based authentication and managing sender reputation.
-meta: Step-by-step guide to improving email deliverability through SPF, DKIM, and DMARC configuration, sender reputation management, list hygiene, domain warm-up, and content fixes.
+meta: Improve email deliverability with SPF, DKIM, and DMARC configuration, sender reputation management, list hygiene, domain warm-up, and content fixes.
 categories:
 - Emails
 ---

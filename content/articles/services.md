@@ -1,7 +1,7 @@
 ---
 title: One-click Services
 excerpt: Services are DNS snippets ready for you to use in one click.
-meta: Discover DNSimple's services—ready-to-use DNS snippets that simplify domain management. Streamline your DNS setup with just one click and enhance your online presence.
+meta: DNSimple one-click services are ready-to-use DNS snippets that simplify domain management. Apply DNS configurations for popular providers in one click.
 categories:
 - Services
 ---

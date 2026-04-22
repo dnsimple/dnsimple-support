@@ -1,7 +1,7 @@
 ---
 title: Weebly Service
 excerpt: How to set up Weebly DNS using DNSimple's one-click service.
-meta: Easily point your domain to Weebly with DNSimple's one-click service. Follow our step-by-step guide for a seamless setup experience and enhance your website today!
+meta: Point your domain to Weebly using DNSimple's one-click service. Apply the required DNS records for Weebly to your domain in one click.
 categories:
 - Services
 ---

@@ -1,7 +1,7 @@
 ---
 title: DNSKEY Records Explained
 excerpt: The DNSKEY record is the DNS record type that holds the DNSSEC public signing key used to verify digital signatures on DNS data.
-meta: The DNSKEY record holds the DNSSEC public signing key. Learn what type of DNS record stores the public key, how DNSKEY records work, and their role in DNSSEC validation.
+meta: The DNSKEY record holds the DNSSEC public signing key. Learn how DNSKEY records work and their role in DNSSEC validation and the chain of trust.
 categories:
 - DNSSEC
 ---

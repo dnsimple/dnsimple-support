@@ -1,7 +1,7 @@
 ---
 title: Surge Service
 excerpt: How to set up Surge DNS using DNSimple's one-click service.
-meta: Easily point your domain to Surge using DNSimple's one-click service. Follow our step-by-step guide to streamline your DNS management and enhance your online presence.
+meta: Point your domain to Surge using DNSimple's one-click service. Apply the required DNS records for Surge to your domain in one click.
 categories:
 - Services
 ---

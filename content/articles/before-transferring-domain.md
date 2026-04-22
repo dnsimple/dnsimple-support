@@ -1,7 +1,7 @@
 ---
 title: Prepare a Domain Transfer to Avoid Downtime
 excerpt: How to prepare your DNS in DNSimple to avoid downtime before transferring your domain registration.
-meta: Set up DNS records in DNSimple before transferring your domain registration to avoid downtime. Covers adding the domain, copying records, verifying with dig, and switching name servers.
+meta: Set up DNS in DNSimple before transferring your domain to avoid downtime. Add the domain, copy records, verify with dig, and switch name servers.
 categories:
 - Domains and Transfers
 ---

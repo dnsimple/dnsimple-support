@@ -1,7 +1,7 @@
 ---
 title: Jimdo Service
 excerpt: How to set up Jimdo DNS using DNSimple's One-click Service.
-meta: Easily point your domain to Jimdo using DNSimple's One-click Service. Follow our step-by-step guide to streamline your website management and enhance your online presence.
+meta: Point your domain to Jimdo using DNSimple's one-click service. Apply the required DNS records for Jimdo to your domain in one click.
 categories:
 - Services
 ---

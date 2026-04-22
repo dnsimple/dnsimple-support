@@ -1,7 +1,7 @@
 ---
 title: SSL Certificate Authorities Used by DNSimple
 excerpt: The list of certificate authorities used by DNSimple to sign SSL certificates, with product details and trust information.
-meta: DNSimple uses Sectigo and Let's Encrypt as certificate authorities. See which products each CA signs, validation methods, pricing, and trust store compatibility.
+meta: DNSimple uses Sectigo and Let's Encrypt as certificate authorities. See which products each CA signs, validation methods, pricing, and trust compatibility.
 categories:
 - SSL Certificates
 ---

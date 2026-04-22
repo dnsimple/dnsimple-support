@@ -1,7 +1,7 @@
 ---
 title: How to Switch From an ECC-Signed Certificate to RSA
 excerpt: What to do when you need your SSL certificate to be signed with an RSA key.
-meta: Learn how to get an RSA-signed SSL certificate in DNSimple if you received an ECC-signed certificate, with steps for both Let's Encrypt and Sectigo certificates.
+meta: How to get an RSA-signed SSL certificate in DNSimple if you received an ECC-signed certificate. Steps for both Let's Encrypt and Sectigo.
 categories:
 - SSL Certificates
 ---

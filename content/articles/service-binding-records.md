@@ -1,7 +1,7 @@
 ---
 title: What Are Service Binding Records (SVCB and HTTPS)?
 excerpt: SVCB and HTTPS records are DNS record types that provide service binding information, enabling performance improvements, protocol optimization, and apex domain aliasing.
-meta: Learn about SVCB and HTTPS records, DNS record types that provide service binding information for network services, enabling better performance and protocol optimization.
+meta: SVCB and HTTPS are DNS record types that provide service binding information for network services, enabling better performance and protocol optimization.
 categories:
 - DNS
 ---

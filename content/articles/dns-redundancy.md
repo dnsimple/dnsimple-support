@@ -1,7 +1,7 @@
 ---
 title: DNS Redundancy Options at DNSimple
 excerpt: How to add DNS redundancy to your domains using secondary DNS or multi-provider setups.
-meta: Learn when and how to add DNS redundancy at DNSimple. Compare secondary DNS via zone transfer (AXFR) with multi-provider DNS sync to protect your domains from outages.
+meta: When and how to add DNS redundancy at DNSimple. Compare secondary DNS via AXFR with multi-provider DNS sync to protect your domains from outages.
 categories:
 - Secondary DNS
 ---

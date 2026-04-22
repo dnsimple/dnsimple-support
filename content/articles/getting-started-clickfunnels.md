@@ -1,7 +1,7 @@
 ---
 title: DNSimple and ClickFunnels
 excerpt: Get started with your new DNSimple account quickly.
-meta: Move your domain from ClickFunnels to your own DNSimple account. Step-by-step guide for requesting the domain push, accepting it, and managing your domain and certificates.
+meta: Move your domain from ClickFunnels to your own DNSimple account. Request the domain push, accept it, and manage your domain and certificates.
 categories:
 - DNSimple
 ---

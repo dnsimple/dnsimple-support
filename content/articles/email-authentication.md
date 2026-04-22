@@ -1,7 +1,7 @@
 ---
 title: How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)
 excerpt: How to set up SPF, DKIM, and DMARC for your domain to authenticate your email and protect against spoofing.
-meta: Set up email authentication (also called email validation) for your domain using SPF, DKIM, and DMARC DNS records. Step-by-step instructions for configuring all three protocols.
+meta: Set up email authentication for your domain using SPF, DKIM, and DMARC DNS records. Step-by-step instructions for configuring all three protocols.
 categories:
 - Emails
 ---

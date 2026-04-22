@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Domain Resolution Issues
 excerpt: How to diagnose and fix domain resolution issues, including DNS server not responding errors, NXDOMAIN, SERVFAIL, and delegation problems.
-meta: Fix domain resolution issues including DNS server not responding, NXDOMAIN, SERVFAIL, and name server delegation problems. Step-by-step DNS troubleshooting guide.
+meta: Fix domain resolution issues: DNS server not responding, NXDOMAIN, SERVFAIL, and delegation problems. Step-by-step DNS troubleshooting guide.
 categories:
 - DNS
 ---

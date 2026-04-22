@@ -1,7 +1,7 @@
 ---
 title: Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?
 excerpt: All DNSimple SSL certificates use ECDSA keys by default. RSA is available as an alternative for all certificate products.
-meta: DNSimple issues all SSL certificates with ECDSA (ECC) keys using prime256v1 by default. RSA is available for all products via the signature algorithm selector. Sectigo certificates also support custom CSRs with ECDSA secp384r1 or RSA keys.
+meta: DNSimple issues SSL certificates with ECDSA (ECC) keys by default. RSA is available via the signature algorithm selector. Sectigo also supports custom CSRs.
 categories:
 - SSL Certificates
 ---
