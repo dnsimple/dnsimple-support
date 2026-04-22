@@ -27,7 +27,7 @@ There are two ways to check this:
 
 Before attempting fixes, verify the DNSSEC state of the domain using external diagnostic tools. These tools help identify where the DNSSEC chain of trust is failing and are often the fastest way to understand the problem.
 
-See **External DNSSEC Diagnostic Tools** for a list of recommended tools and what each one checks.
+See [External DNSSEC Diagnostic Tools](/articles/external-dnssec-diagnostic-tools/) for a list of recommended tools and what each one checks.
 
 After identifying the reported error, return here and follow the resolution steps below.
 

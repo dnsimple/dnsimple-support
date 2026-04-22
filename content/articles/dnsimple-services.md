@@ -41,7 +41,7 @@ With DNSimple's REST API, you can register domain names and administrate them di
 
 Some things you can do with our API include:
 
-- Check domain availability.
+- Check domain availability (Enterprise customers can also use the [Domain Research API](/articles/domain-research-api/) for richer availability and status research).
 - Register and renew domains.
 - Transfer domains.
 - Buy SSL certificates.

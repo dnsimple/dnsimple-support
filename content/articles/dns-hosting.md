@@ -17,7 +17,7 @@ categories:
 
 ## DNS hosting {#dns-hosting}
 
-DNSimple offers robust, reliable DNS hosting services, providing fast propagation and easy management for your domain's records. If you want to use DNSimple to manage your domain's DNS, you have a few options, depending on whether you already have a domain and where it is registered.
+DNSimple offers robust, reliable DNS hosting services, providing fast propagation and easy management for your domain's records. For a concise overview of why teams choose DNSimple for DNS, see [Why Should I Host My DNS with DNSimple?](/articles/reasons-hosting-dns/). If you want to use DNSimple to manage your domain's DNS, you have a few options, depending on whether you already have a domain and where it is registered.
 
 ## Options for DNS hosting with DNSimple {#options-for-dns-hosting-with-dnsimple}
 

@@ -7,7 +7,7 @@ categories:
 
 # What Is A Name Server Set?
 
-Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors.
+Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors. For the same reusable-group pattern applied to DNS records, see [How to Use Templates](/articles/templates/).
 
 > [!NOTE]
 > Changes to a name server set's definition will not affect any existing domain name server or configurations that had included the name server set.

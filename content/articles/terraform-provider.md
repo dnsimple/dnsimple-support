@@ -18,7 +18,7 @@ categories:
 
 [Terraform](https://terraform.io) is an Infrastructure as Code (IaC) tool that allows you to build, change, and version
 infrastructure safely and efficiently. With [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest),
-you can easily manage your DNS infrastructure and set up the required DNS records.
+you can easily manage your DNS infrastructure and set up the required DNS records. If you use HashiCorp Consul with Consul-Terraform-Sync for network infrastructure automation, see [Consul Integration](/articles/consul-integration/).
 
 ## Video walk-through
 

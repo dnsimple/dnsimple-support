@@ -55,7 +55,7 @@ This structure allows administrators to define flexible and robust service locat
 The specification for the DNS SRV record is formally defined in [RFC 2782](https://datatracker.ietf.org/doc/html/rfc2782).
 
 ## Adding and managing SRV records {#adding-and-managing-srv-records}
-For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: [Add an SRV Record](/articles/add-srv-record/). This guide covers inputting the service name, protocol, priority, weight, port, and target.
+For step-by-step instructions on how to add an SRV record to your DNSimple zone using the record editor, please refer to our dedicated How-To Guide: [Add an SRV Record](/articles/add-srv-record/). This guide covers inputting the service name, protocol, priority, weight, port, and target. If you need the same SRV configuration on many domains, see [SRV records in templates](/articles/templates-with-srv-records/).
 
 ## SRV record format reference {#srv-record-format-reference}
 For a comprehensive breakdown of the SRV record format, including detailed explanations of each field (priority, weight, port, target) and their specific behavior and constraints, consult our Reference Guide: [SRV Record Format and Components Reference](/articles/srv-record-format/). This guide includes additional examples.

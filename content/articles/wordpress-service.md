@@ -37,7 +37,7 @@ The service has been added. You can remove it any time by following the steps in
 
 ## Setting up at WordPress
 
-Follow the steps to [map your domain to your WordPress site](https://wordpress.com/support/domains/map-existing-domain/).
+Follow the steps to [map your domain to your WordPress site](https://wordpress.com/support/domains/map-existing-domain/). For step-by-step DNS setup at DNSimple without the one-click service (ALIAS, CNAME, and custom record configuration), see [WordPress and DNSimple](/articles/wordpress/).
 
 ## Have more questions?
 

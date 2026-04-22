@@ -48,7 +48,7 @@ If the first attempt fails, DNSimple retries automatically **every day** until t
 
 ## Enabling and disabling auto-renewal {#enable}
 
-You can enable or disable auto-renewal from the SSL certificate page in your DNSimple account. The toggle is available both when ordering a new Let's Encrypt certificate and on the certificate detail page after issuance.
+You can enable or disable auto-renewal from the SSL certificate page in your DNSimple account. The toggle is available both when ordering a new Let's Encrypt certificate and on the certificate detail page after issuance. For step-by-step instructions, see [How to Set Up Auto-Renewal for SSL Certificates](/articles/enable-ssl-auto-renewal/).
 
 Auto-renewal is available to all DNSimple accounts at no additional cost. The certificate must not be expired to enable auto-renewal — if a certificate has already expired, you will need to [order a new one](/articles/get-lets-encrypt-certificate/).
 

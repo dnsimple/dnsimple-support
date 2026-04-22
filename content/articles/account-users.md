@@ -18,7 +18,7 @@ categories:
 > [!NOTE]
 > To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 
-A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control/) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration.
+A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control/) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration. If you are onboarding a new team, follow the [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/) for a concise checklist.
 
 
 ## Adding members to an account

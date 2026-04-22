@@ -22,7 +22,7 @@ Anycast DNS provides two primary benefits: lower latency and increased resilienc
 
 The biggest factor in network latency is geographic distance. Anycast serves DNS queries from the closest physical server, drastically reducing the time it takes for a DNS lookup to complete. This means your visitors' web browsers can find the IP address for your website faster, leading to a quicker overall user experience.
 
-DNSimple operates a global Anycast network of name servers. For a complete list of these locations, please refer to our DNSimple [Points of Presence](/articles/anycast/) reference article.
+DNSimple operates a global Anycast network of name servers. For a complete list of these locations, please refer to our DNSimple [Points of Presence](/articles/anycast/) reference article or the [Where are your servers located?](/articles/where-are-your-servers-located/) FAQ.
 
 ### Enhanced resilience
 

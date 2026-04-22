@@ -24,6 +24,7 @@ We currently support more than 30 services:
 ### Blogging
 
 * [Blogger](/articles/blogger-service/)
+* [Tumblr](/articles/tumblr-service/) (deprecated)
 
 ### Ecommerce
 
