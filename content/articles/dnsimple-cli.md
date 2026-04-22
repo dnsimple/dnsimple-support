@@ -47,11 +47,11 @@ The CLI includes an `ai` command that outputs structured context about your acco
 
 ## How does the DNSimple CLI authenticate? {#authentication}
 
-The CLI authenticates with an [API access token](/articles/api-access-token/). You can provide your token through interactive account login, an environment variable, or a command-line flag. The full authentication details are available in the [CLI documentation on the developer site](https://developer.dnsimple.com/).
+The CLI authenticates with an [API access token](/articles/api-access-token/). You can provide your token through interactive account login, an environment variable, or a command-line flag. The full authentication details are available in the [CLI documentation on the developer site](https://developer.dnsimple.com/cli/).
 
 ## How do you install the DNSimple CLI? {#installation}
 
-The DNSimple CLI is a cross-platform command-line tool with pre-built binaries for macOS, Linux, and Windows on both amd64 and arm64 architectures. You can install it through Homebrew or a one-line install script. Visit the [CLI documentation on the developer site](https://developer.dnsimple.com/) for setup instructions and DNSimple CLI examples.
+The DNSimple CLI is a cross-platform command-line tool with pre-built binaries for macOS, Linux, and Windows on both amd64 and arm64 architectures. You can install it through Homebrew or a one-line install script. Visit the [CLI documentation on the developer site](https://developer.dnsimple.com/cli/) for setup instructions and DNSimple CLI examples.
 
 ## Have more questions?
 
