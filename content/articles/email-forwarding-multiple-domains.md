@@ -43,7 +43,7 @@ To set up email forwarding for multiple domains:
 
 DNSimple does not currently offer bulk email forwarding setup through the web interface. You can:
 
-- **Use the API:** The [DNSimple API](/articles/managing-email-forwards-with-the-api/) supports programmatic management of email forwards, which can help with bulk operations
+- **Use the API:** The [DNSimple API](https://developer.dnsimple.com/v2/domains/email-forwards/) supports programmatic management of email forwards, which can help with bulk operations
 - **Plan your configuration:** Create a list of domains and their email forwarding needs before starting setup
 - **Use templates:** If multiple domains need similar forwarding rules, use a consistent naming convention
 
