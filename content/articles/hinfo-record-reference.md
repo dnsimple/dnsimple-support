@@ -1,7 +1,7 @@
 ---
 title: HINFO Record Reference
 excerpt: The formal structure, restrictions, and key technical details of HINFO records.
-meta: Learn more about the structure, security considerations, and technical details for HINFO records.
+meta: HINFO records describe a host's hardware and operating system. Reference covers format, CPU and OS fields, examples, and security considerations.
 categories:
 - DNS
 ---

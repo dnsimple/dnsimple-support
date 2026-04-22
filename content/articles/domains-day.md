@@ -1,6 +1,7 @@
 ---
 title: .DAY Domains
 excerpt: This article explains the requirements and special procedures for .DAY domain names.
+meta: .DAY is a secured namespace requiring HTTPS. Register .DAY domains through DNSimple and obtain an SSL certificate for browser-based access.
 categories:
 - TLDs
 ---

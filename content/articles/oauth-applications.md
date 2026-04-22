@@ -1,6 +1,7 @@
 ---
 title: OAuth Applications
 excerpt: Explains how to create a new OAuth application for access to the API version 2.
+meta: Register and manage OAuth applications in DNSimple to authorize third-party access to the API without sharing account passwords.
 categories:
 - API
 - Enterprise

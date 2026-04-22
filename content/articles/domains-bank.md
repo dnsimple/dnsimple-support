@@ -1,6 +1,7 @@
 ---
 title: .BANK Domains
 excerpt: This article explains the requirements and special procedures for .BANK domain names.
+meta: Register .BANK domains on DNSimple Enterprise plans with eligibility verification, DNSSEC, HTTPS security, and annual re-verification required.
 categories:
 - TLDs
 - Enterprise

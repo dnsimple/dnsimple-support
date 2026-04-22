@@ -1,6 +1,7 @@
 ---
 title: Adding NS Records for a Subdomain
 excerpt: How to delegate a subdomain from a domain registered to custom name servers.
+meta: Add NS records for a subdomain in DNSimple to delegate DNS resolution to custom name servers, with verification steps using dig.
 categories:
 - Name Servers
 ---

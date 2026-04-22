@@ -1,6 +1,7 @@
 ---
 title: .BERLIN Domains
 excerpt: This article explains the requirements and special procedures for .BERLIN names.
+meta: Register .BERLIN domains through DNSimple. The registrant address must be located in Berlin, and the city is verified during the registration process.
 categories:
 - TLDs
 ---

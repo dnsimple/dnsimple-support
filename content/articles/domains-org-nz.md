@@ -1,6 +1,7 @@
 ---
 title: .ORG.NZ Domains
 excerpt: This article explains the requirements and special procedures for .ORG.NZ domain names.
+meta: Register .ORG.NZ domains with DNSimple. This third-level .NZ domain is designed for non-profit organizations, charities, and community groups.
 categories:
 - TLDs
 ---

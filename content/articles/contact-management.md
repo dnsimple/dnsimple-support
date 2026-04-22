@@ -1,6 +1,7 @@
 ---
 title: Managing Your Contacts
 excerpt: This article explains how to manage your contacts for your domains and SSL certificates.
+meta: Create, update, and delete domain contacts in your DNSimple account. Keep contact information accurate to avoid ICANN verification issues.
 categories:
 - Contacts
 ---

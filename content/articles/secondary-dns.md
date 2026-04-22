@@ -1,6 +1,7 @@
 ---
 title: Add a secondary DNS server to DNSimple
 excerpt: This page provides information about secondary DNS configuration with DNSimple.
+meta: Configure secondary DNS with DNSimple using AXFR zone transfers for DNS redundancy. Supports Dyn, DNSMadeEasy, EasyDNS, and custom providers.
 categories:
 - Secondary DNS
 - Enterprise

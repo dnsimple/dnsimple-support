@@ -1,6 +1,7 @@
 ---
 title: .IO Domains
 excerpt: This article explains the requirements and special procedures for .IO domain names.
+meta: Register .IO domains with DNSimple. Open worldwide, .IO is popular with technology companies, startups, and developer tool projects.
 categories:
 - TLDs
 ---

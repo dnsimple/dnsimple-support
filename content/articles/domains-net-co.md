@@ -1,6 +1,7 @@
 ---
 title: .NET.CO Domains
 excerpt: This article explains the requirements and special procedures for .NET.CO domain names.
+meta: Register .NET.CO domains with DNSimple. This third-level .CO domain is open worldwide and primarily used by network infrastructure providers.
 categories:
 - TLDs
 ---

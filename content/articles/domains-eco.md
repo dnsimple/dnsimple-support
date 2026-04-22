@@ -1,6 +1,7 @@
 ---
 title: .ECO Domains
 excerpt: This article explains the requirements and special procedures for .ECO domain names.
+meta: Register .ECO domains through DNSimple. Activate your domain by creating a .ECO profile with the registry to enable DNS resolution.
 categories:
 - TLDs
 ---

@@ -1,7 +1,7 @@
 ---
 title: Verify DKIM with dig and Online Tools
 excerpt: How to verify your DKIM record is being returned correctly.
-meta: Learn how to verify your DKIM record is working and find online tools to help monitor.
+meta: Verify your DKIM record with dig and online tools to confirm correct DNS configuration and troubleshoot authentication failures.
 categories:
 - DNS
 - Emails

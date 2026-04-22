@@ -1,7 +1,7 @@
 ---
 title: What Is a Zone File?
 excerpt: What a zone file is and their key benefits and uses.
-meta: Learn what zone files are, their importance in DNS management, and what's inside them.
+meta: A zone file is a text-based blueprint of your domain DNS configuration, containing all resource records. Export and import zone files with DNSimple.
 categories:
 - DNS
 - Enterprise

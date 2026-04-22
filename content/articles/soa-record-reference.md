@@ -1,7 +1,7 @@
 ---
 title: SOA Record Reference
 excerpt: The structure and canonical representation of an SOA record
-meta: Learn more about the structure of SOA records, their components, and key technical details.
+meta: SOA records define administrative details for a DNS zone. Reference covers format, components like serial, refresh, retry, expire, and behavior.
 categories:
 - DNS
 ---

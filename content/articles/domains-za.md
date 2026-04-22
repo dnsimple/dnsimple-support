@@ -1,6 +1,7 @@
 ---
 title: .ZA Domains
 excerpt: This article explains the requirements and special procedures for .ZA domain names.
+meta: Transfer .ZA domains to DNSimple with explicit email acknowledgment. Unacknowledged .ZA transfers are canceled after 14 days.
 categories:
 - TLDs
 ---

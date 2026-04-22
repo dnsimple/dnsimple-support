@@ -1,6 +1,7 @@
 ---
 title: .INSURANCE Domains
 excerpt: This article explains the requirements and special procedures for .INSURANCE domain names.
+meta: Register .INSURANCE domains on a DNSimple Enterprise plan. Eligibility verification, DNSSEC, HTTPS, and annual re-verification are required by the registry.
 categories:
 - TLDs
 - Enterprise

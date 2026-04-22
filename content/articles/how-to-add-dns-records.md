@@ -1,7 +1,7 @@
 ---
 title: How To Add Common DNS Records
 excerpt: How to add common DNS records to your domains.
-meta: Learn more about how to add common DNS records in DNSimple.
+meta: Add A, AAAA, CNAME, ALIAS, TXT, URL, and NS records to your domain in DNSimple using the record editor with step-by-step instructions.
 categories:
 - DNS
 ---

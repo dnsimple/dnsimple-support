@@ -1,6 +1,7 @@
 ---
 title: .ES Domains
 excerpt: This article explains the requirements and special procedures for .ES domain names.
+meta: Register and transfer .ES domains through DNSimple. Registration requires a Spanish legal form and ID type. Transfers need explicit acknowledgment.
 categories:
 - TLDs
 ---
