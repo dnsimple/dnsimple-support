@@ -1,6 +1,7 @@
 ---
 title: .UK Domains
 excerpt: This article explains the requirements and special procedures for .UK domain names.
+meta: Register and transfer .UK domains with DNSimple. Reservation rules apply for existing .CO.UK holders, and transfers require an IPS tag change.
 categories:
 - TLDs
 ---

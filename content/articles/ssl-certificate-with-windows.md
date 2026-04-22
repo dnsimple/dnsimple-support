@@ -1,7 +1,7 @@
 ---
 title: How to Install an SSL Certificate on Windows
 excerpt: How to identify your web server on Windows and follow the appropriate SSL certificate installation guide.
-meta: Learn how to install an SSL certificate on a Windows server by identifying your web server software and following the appropriate installation guide from DNSimple.
+meta: Install an SSL certificate on a Windows server. Identify your web server software and follow the appropriate installation guide from DNSimple.
 categories:
 - SSL Certificates
 ---

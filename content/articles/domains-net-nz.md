@@ -1,6 +1,7 @@
 ---
 title: .NET.NZ Domains
 excerpt: This article explains the requirements and special procedures for .NET.NZ domain names.
+meta: Register .NET.NZ domains with DNSimple. This third-level .NZ domain is open worldwide and intended for network infrastructure providers.
 categories:
 - TLDs
 ---

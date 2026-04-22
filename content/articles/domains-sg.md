@@ -1,6 +1,7 @@
 ---
 title: .SG Domains
 excerpt: This article explains the requirements and special procedures for .sg domain names.
+meta: Register .SG and .COM.SG domains with DNSimple. Companies need a registration number or RCBID, and individuals require a Singpass ID.
 categories:
 - TLDs
 ---

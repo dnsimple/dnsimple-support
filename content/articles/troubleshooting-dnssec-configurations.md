@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot DNSSEC
 excerpt: Diagnose and resolve common DNSSEC issues for your domain, including checks for DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 records.
-meta: Troubleshoot DNSSEC with our detailed guide. Test and check your DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 to ensure your domain's DNSSEC validation is working.
+meta: Troubleshoot DNSSEC issues. Test and check DS records, DNSKEYs, RRSIGs, and NSEC/NSEC3 to ensure your domain's DNSSEC validation is working.
 categories:
   - DNSSEC
 ---
@@ -27,7 +27,7 @@ There are two ways to check this:
 
 Before attempting fixes, verify the DNSSEC state of the domain using external diagnostic tools. These tools help identify where the DNSSEC chain of trust is failing and are often the fastest way to understand the problem.
 
-See **External DNSSEC Diagnostic Tools** for a list of recommended tools and what each one checks.
+See [External DNSSEC Diagnostic Tools](/articles/external-dnssec-diagnostic-tools/) for a list of recommended tools and what each one checks.
 
 After identifying the reported error, return here and follow the resolution steps below.
 

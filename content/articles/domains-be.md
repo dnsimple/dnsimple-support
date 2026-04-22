@@ -1,6 +1,7 @@
 ---
 title: .BE Domains
 excerpt: This article explains the requirements and special procedures for .BE names.
+meta: Register .BE domains with DNSimple. DNS Belgium sends a confirmation email to complete registration. Contact changes and transfers have specific requirements.
 categories:
 - TLDs
 ---

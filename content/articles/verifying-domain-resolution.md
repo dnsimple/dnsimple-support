@@ -1,6 +1,6 @@
 ---
 title: Verify Domain Resolution
-meta: How to verify that your domain is resolving correctly using dig, nslookup, and online tools. Check DNS propagation and confirm your records are returning expected results.
+meta: Verify your domain is resolving correctly using dig, nslookup, and online tools. Check DNS propagation and confirm records return expected results.
 excerpt: How to verify that your domain is resolving correctly using dig, nslookup, and online tools.
 categories:
 - Domains and Transfers

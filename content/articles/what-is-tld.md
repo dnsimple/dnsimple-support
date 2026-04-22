@@ -1,7 +1,7 @@
 ---
 title: What is a TLD?
 excerpt: The term top-level domain, or TLD, refers to the first part of every domain name.
-meta: Discover what a top-level domain (TLD) is and how it plays a crucial role in domain names. Learn about different TLD types and their significance in web addressing.
+meta: A top-level domain (TLD) is the last segment of a domain name, like .com or .org. Learn about TLD types and their role in the domain name system.
 categories:
 - TLDs
 - Domains and Transfers
@@ -28,6 +28,8 @@ TLDs are generally grouped into 3 different categories:
  - newGTLD (New Generic Top-Level Domains): this category includes [all the new domain names](https://newgtlds.icann.org/) that have been created after ICANN/IANA decided to open the application of new TLDs to the market.
 
    This category contains hundreds of domain names. Just to name a few: [`.SHOP`](https://dnsimple.com/tlds/shop-domains), [`.EMAIL`](https://dnsimple.com/tlds/email-domains), [`.XYZ`](https://dnsimple.com/tlds/xyz-domains), etc.
+
+For per-extension requirements, transfers, and registry rules, the [TLDs at DNSimple](/articles/tlds/) guide links to documentation for each supported extension.
 
 ## Have more questions?
 

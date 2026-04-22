@@ -1,6 +1,7 @@
 ---
 title: .COM.CO Domains
 excerpt: This article explains the requirements and special procedures for .COM.CO domain names.
+meta: Register .COM.CO domains with DNSimple. This commercial third-level .CO domain is open worldwide for individuals and organizations.
 categories:
 - TLDs
 ---

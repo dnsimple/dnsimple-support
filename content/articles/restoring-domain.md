@@ -1,7 +1,7 @@
 ---
 title: Restore a Domain
 excerpt: How to restore a domain with a DNSimple account.
-meta: How to restore an expired domain that has entered the redemption period through DNSimple. Covers restoration fees, timelines, and the steps to recover your domain.
+meta: Restore an expired domain in the redemption period through DNSimple. Covers restoration fees, timelines, and steps to recover your domain.
 categories:
 - Domains and Transfers
 ---

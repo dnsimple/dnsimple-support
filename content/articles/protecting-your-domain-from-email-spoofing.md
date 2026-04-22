@@ -1,12 +1,12 @@
 ---
-title: Protecting Your Domain from Email Spoofing
+title: Email Spoofing Protection
 excerpt: What email spoofing is, how attackers exploit it, and how SPF, DKIM, and DMARC work together to stop it.
 meta: How email spoofing works, what damage it causes, and how to protect your domain using SPF, DKIM, and DMARC authentication records in DNS.
 categories:
 - Emails
 ---
 
-# Protecting Your Domain from Email Spoofing
+# Email Spoofing Protection
 
 ### Table of Contents {#toc}
 
@@ -55,11 +55,11 @@ A `p=reject` policy is the strongest protection against spoofing. It tells recei
 
 ## Setting up protection {#setup}
 
-Configuring all three protocols requires adding TXT records in DNS. DNSimple's [Record Editor](/articles/record-editor/) handles all of them. The dedicated setup guides walk through each one:
+Configuring all three protocols requires adding TXT records in DNS. [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) walks through the full process. The dedicated setup guides cover each protocol individually:
 
 1. **SPF** - [Set Up SPF Records](/articles/setting-up-spf/) covers listing all authorized senders and staying under the 10-lookup limit.
-2. **DKIM** - [Set Up DKIM](/articles/set-up-dkim/) covers adding the public key for each email service. If you use multiple services, see [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
-3. **DMARC** - [Set Up DMARC](/articles/set-up-dmarc/) covers publishing a policy and setting up reporting. Start with `p=none` and tighten gradually - see [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+2. **DKIM** - [Set Up DKIM](/articles/set-up-dkim/) covers adding the public key for each email service. If you use multiple services, see [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+3. **DMARC** - [Set Up DMARC](/articles/set-up-dmarc/) covers publishing a policy and setting up reporting. Start with `p=none` and tighten gradually - see [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 > [!WARNING]
 > Do not jump straight to `p=reject` without monitoring first. A misconfigured SPF or missing DKIM selector can cause your own legitimate email to be blocked. Start with `p=none`, review DMARC reports for several weeks, fix any issues, then move to `p=quarantine` and finally `p=reject`.

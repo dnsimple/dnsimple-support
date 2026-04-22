@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Domain Resolution Issues
 excerpt: How to diagnose and fix domain resolution issues, including DNS server not responding errors, NXDOMAIN, SERVFAIL, and delegation problems.
-meta: Fix domain resolution issues including DNS server not responding, NXDOMAIN, SERVFAIL, and name server delegation problems. Step-by-step DNS troubleshooting guide.
+meta: "Fix domain resolution issues: DNS server not responding, NXDOMAIN, SERVFAIL, and delegation problems. Step-by-step DNS troubleshooting guide."
 categories:
 - DNS
 ---
@@ -145,7 +145,7 @@ When troubleshooting domain resolution, you may encounter specific error message
 - The DNS query did not receive a response in time
 - May indicate network issues or name server problems
 - Try querying a different DNSimple name server
-- Check [DNSimple's status page](https://dnsimple.statuspage.io) for known issues
+- Check the [DNSimple Status Page](/articles/dnsimple-status/) for known issues. You can [subscribe to notifications](/articles/dnsimple-status/#subscribe) to receive alerts during incidents.
 
 ## Have more questions?
 If you have additional questions or need any assistance with your domain resolution, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.   

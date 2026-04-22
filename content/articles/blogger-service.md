@@ -1,7 +1,7 @@
 ---
 title: Blogger Service
 excerpt: How to set up Blogger DNS using DNSimple's One-click Service.
-meta: Easily set up Blogger DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your blogging experience and enhance your online presence.
+meta: Set up Blogger DNS with DNSimple's one-click service. Apply the required DNS records for your Blogger site to your domain in one click.
 categories:
 - Services
 ---

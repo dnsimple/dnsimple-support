@@ -1,6 +1,7 @@
 ---
 title: .IS Domains
 excerpt: This article explains the requirements and special procedures for .IS domain names.
+meta: Transfer .IS domains to DNSimple using contact handle BDB2-IS instead of an auth code. Point name servers to DNSimple before starting the transfer.
 categories:
 - TLDs
 ---

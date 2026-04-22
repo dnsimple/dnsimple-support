@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 (formerly Office 365) Service
 excerpt: How to set up Microsoft 365 DNS using DNSimple's one-click service or manual configuration.
-meta: Set up Microsoft 365 email with DNSimple using the one-click service or manual DNS configuration, including MX records, domain verification, and email authentication.
+meta: Set up Microsoft 365 email with DNSimple using the one-click service or manual DNS, including MX records, verification, and email authentication.
 categories:
 - Services
 - Emails

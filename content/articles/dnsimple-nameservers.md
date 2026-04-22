@@ -1,7 +1,7 @@
 ---
 title: DNSimple Name Servers
 excerpt: How to change your domain's name servers to DNSimple's name servers.
-meta: Learn how to easily update your domain's name servers to DNSimple's for improved performance and reliability. Follow our step-by-step guide for seamless changes.
+meta: How to update your domain's name servers to DNSimple for improved DNS performance and reliability. Step-by-step name server change guide.
 categories:
 - Name Servers
 ---
@@ -53,6 +53,8 @@ If you need to provide the IP addresses to your current registrar, use the follo
 <td>2620:111:8007::53</td>
 </tr>
 </table>
+
+If you are updating delegation or glue records during the NS1/NS3 edge migration, see [Discontinuation of Legacy NS1 and NS3 IP Addresses](/articles/announcement-ns1-ns3-ip-addresses/).
 
 ## Legacy Name Servers
 

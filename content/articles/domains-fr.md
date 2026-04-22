@@ -1,6 +1,7 @@
 ---
 title: .FR Domains
 excerpt: This article explains the requirements and special procedures for .FR domain names.
+meta: Register .FR domains with DNSimple. Open worldwide for individuals and organizations. French companies may need to provide a SIRET business number.
 categories:
 - TLDs
 ---

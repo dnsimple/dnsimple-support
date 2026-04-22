@@ -70,7 +70,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
 1. If you use multiple email services, each one may require its own selector. Add a separate record for each.
 
 > [!NOTE]
-> For detailed DKIM setup, see [Set Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+> For detailed DKIM setup, see [Set Up DKIM](/articles/set-up-dkim/) and [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ## DMARC records {#dmarc}
 
@@ -85,7 +85,7 @@ v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
 ```
 
 > [!NOTE]
-> For detailed DMARC setup, see [Set Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+> For detailed DMARC setup, see [Set Up DMARC](/articles/set-up-dmarc/) and [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ## CNAME records for email services {#cname}
 

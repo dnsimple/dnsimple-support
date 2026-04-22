@@ -1,7 +1,7 @@
 ---
 title: SSL Certificates Frequently Asked Questions
 excerpt: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
-meta: Frequently asked questions about SSL certificates at DNSimple, covering pricing, domain requirements, certificate types, validity periods, and common procedures.
+meta: FAQ about SSL certificates at DNSimple, covering pricing, domain requirements, certificate types, validity periods, and common procedures.
 categories:
 - SSL Certificates
 structured_data: true

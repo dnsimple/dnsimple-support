@@ -1,7 +1,7 @@
 ---
 title: Common DNS Records
 excerpt: The most common DNS record types are A, AAAA, CNAME, MX, and TXT. Each serves a specific function in directing traffic, routing email, or verifying domain ownership.
-meta: Common DNS record types explained - A, AAAA, CNAME, MX, TXT, NS, and SOA records. Learn what each DNS record does, when to use it, and how to configure it for your domain.
+meta: "Common DNS record types explained: A, AAAA, CNAME, MX, TXT, NS, and SOA. Learn what each record does, when to use it, and how to configure it."
 categories:
 - DNS
 ---
@@ -19,7 +19,7 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/bifh31N2hFQ?si=uM3Z1oS1SqzQNLT4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The most common DNS record types are [A](/articles/a-record/), [AAAA](/articles/aaaa-record/), [CNAME](/articles/cname-record/), [MX](/articles/mx-record/), and [TXT](/articles/txt-record/). Most domains need at least these records to function correctly for web browsing and email. The [DNS ecosystem](/articles/what-is-dns/) includes many other record types for specialized purposes, but these are foundational for nearly every domain.
+The most common DNS record types are [A](/articles/a-record/), [AAAA](/articles/aaaa-record/), [CNAME](/articles/cname-record/), [MX](/articles/mx-record/), and [TXT](/articles/txt-record/). Most domains need at least these records to function correctly for web browsing and email. The [DNS ecosystem](/articles/what-is-dns/) includes many other record types for specialized purposes, but these are foundational for nearly every domain. For a complete index of DNS topics, see [DNS at DNSimple](/articles/dns/).
 
 ## Understanding the most common DNS record types {#understanding-the-most-common-dns-record-types}
 

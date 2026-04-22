@@ -1,7 +1,7 @@
 ---
 title: Email Services at DNSimple
 excerpt: Email forwarding, authentication records (SPF, DKIM, DMARC), and third-party email hosting configuration at DNSimple.
-meta: Guide to email services at DNSimple, including email forwarding, SPF, DKIM, and DMARC authentication records, and integration with third-party email hosting providers.
+meta: Email services at DNSimple, including email forwarding, SPF, DKIM, and DMARC authentication records, and integration with third-party email hosting.
 categories:
 - Emails
 ---
@@ -25,6 +25,7 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 
 ## Email authentication {#authentication}
 
+- [How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)](/articles/email-authentication/) - What email authentication is and how to set up SPF, DKIM, and DMARC.
 - [What Is an SPF Record?](/articles/spf-record/) - How SPF authorizes email senders for your domain.
 - [What Is a DKIM Record?](/articles/dkim-record/) - How DKIM uses digital signatures to verify email authenticity.
 - [What Is a DMARC Record?](/articles/dmarc-record/) - How DMARC ties SPF and DKIM together with a policy.
@@ -66,30 +67,30 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 - [Email Forwarding Not Working with Gmail](/articles/email-forwarding-not-working-gmail/) - Diagnose forwarding problems with Gmail.
 - [Email Forwarding Not Working](/articles/email-forwarding-not-working/) - Resolve email delivery problems with forwarding.
 - [Email Forwarding Not Working with Outlook, Yahoo, and Other Providers](/articles/email-forwarding-not-working-outlook-yahoo/) - Fix forwarding issues with providers other than Gmail.
-- [Troubleshooting Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnose SPF, DKIM, and DMARC failures.
+- [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) - Diagnose SPF, DKIM, and DMARC failures.
 
 ## Advanced topics {#advanced}
 
 ### Email deliverability {#deliverability}
 
-- [Understanding Email Deliverability](/articles/understanding-email-deliverability/) - What affects whether your emails reach recipients' inboxes.
-- [Improving Email Deliverability](/articles/improving-email-deliverability/) - Configure DNS-based authentication and manage sender reputation.
-- [Monitoring Email Deliverability](/articles/monitoring-email-deliverability/) - Track authentication results, sender reputation, and inbox placement.
+- [Email Deliverability](/articles/understanding-email-deliverability/) - What email deliverability is, why emails end up in spam, and how to fix it.
+- [Improve Email Deliverability](/articles/improving-email-deliverability/) - Configure DNS-based authentication and manage sender reputation.
+- [Monitor Email Deliverability](/articles/monitoring-email-deliverability/) - Track authentication results, sender reputation, and inbox placement.
 
 ### Advanced authentication {#authentication-advanced}
 
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements and how they affect authentication.
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Move safely from `p=none` to `p=reject`.
-- [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) - Handle DKIM for multiple email services.
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements and how they affect authentication.
+- [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - Move safely from `p=none` to `p=reject`.
+- [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/) - Handle DKIM for multiple email services.
 - [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Best practices for SPF, DKIM, and DMARC configuration.
 
 ### Email security {#security}
 
-- [Protecting Your Domain from Email Spoofing](/articles/protecting-your-domain-from-email-spoofing/) - How SPF, DKIM, and DMARC prevent domain spoofing.
+- [Email Spoofing Protection](/articles/protecting-your-domain-from-email-spoofing/) - How SPF, DKIM, and DMARC prevent domain spoofing.
 
 ### Email bounces {#bounces}
 
-- [Understanding Email Bounces](/articles/understanding-email-bounces/) - Types of bounces and what causes them.
+- [Email Bounces](/articles/understanding-email-bounces/) - Types of bounces and what causes them.
 - [Email Forwarding and Bounced Emails](/articles/email-forwarding-bounces/) - How bounces work with forwarding and how to handle them.
 
 ### MX records {#mx-records}

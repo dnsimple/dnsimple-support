@@ -1,7 +1,7 @@
 ---
 title: Heroku Service
 excerpt: How to set up Heroku DNS using DNSimple's one-click service.
-meta: Easily point your domain to your Heroku application using DNSimple's one-click service. Follow our step-by-step guide to streamline your setup and enhance performance.
+meta: Point your domain to Heroku using DNSimple's one-click service. Apply the required DNS records for your Heroku application in one click.
 categories:
 - Services
 ---

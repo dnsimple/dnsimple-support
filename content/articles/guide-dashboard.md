@@ -1,7 +1,7 @@
 ---
 title: First Steps With Your DNSimple Account
 excerpt: A Quick Tour of Your Dashboard and Domain List
-meta: Explore the DNSimple dashboard with our comprehensive guide. Learn to navigate your domain list, manage settings, and optimize your online presence effortlessly.
+meta: First steps with your DNSimple account. A quick tour of the dashboard, domain list, and key settings to get you started.
 categories:
 - DNSimple
 - Guides

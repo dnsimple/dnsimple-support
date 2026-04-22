@@ -1,6 +1,7 @@
 ---
 title: .JOBS Domains
 excerpt: This article explains the requirements and special procedures for .JOBS domain names.
+meta: Register .JOBS domains through DNSimple. Provide your company URL and industry details for registry review and approval before activation.
 categories:
 - TLDs
 ---

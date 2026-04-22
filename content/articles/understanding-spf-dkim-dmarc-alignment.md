@@ -1,12 +1,12 @@
 ---
-title: Understanding SPF, DKIM, and DMARC Alignment
+title: SPF, DKIM, and DMARC Alignment
 excerpt: About alignment requirements for SPF, DKIM, and DMARC and how they affect email authentication.
 meta: Detailed explanation of SPF, DKIM, and DMARC alignment requirements and how they work together for email authentication.
 categories:
 - Emails
 ---
 
-# Understanding SPF, DKIM, and DMARC Alignment
+# SPF, DKIM, and DMARC Alignment
 
 ### Table of Contents {#toc}
 

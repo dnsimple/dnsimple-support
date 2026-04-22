@@ -1,6 +1,7 @@
 ---
 title: Adding Dyn as a Secondary DNS Server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for Dyn.
+meta: Set up Dyn Standard or Dyn Managed as a secondary DNS provider with DNSimple using preconfigured AXFR zone transfer settings.
 categories:
 - Secondary DNS
 - Enterprise

@@ -19,7 +19,7 @@ Apart from the subscription fee, the following will take effect immediately:
 - [Email Forwarding](/articles/email-forwarding/) will stop working.
 
 > [!NOTE]
-> This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate](/articles/reactivate-subscription/).
+> This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate](/articles/reactivate-subscription/). To permanently delete yourself as a DNSimple user, see [Deleting Yourself as a User](/articles/close-account/).
 
 <div class="section-steps" markdown="1">
 ##### To unsubscribe from your DNSimple plan:

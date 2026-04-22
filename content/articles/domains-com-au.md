@@ -1,6 +1,7 @@
 ---
 title: .COM.AU Domains
 excerpt: This article explains the requirements and special procedures for .COM.AU domain names.
+meta: Register .COM.AU domains with DNSimple. Requires an Australian business presence, a valid eligibility ID like an ABN or ACN, and an Australian address.
 categories:
 - TLDs
 ---

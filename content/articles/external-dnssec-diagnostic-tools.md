@@ -1,7 +1,7 @@
 ---
 title: External DNSSEC Diagnostic Tools
 excerpt: Test and check your DNSSEC configuration with external diagnostic tools like DNSSEC Analyzer, DNSViz, and dig.
-meta: Test and check your DNSSEC configuration with these diagnostic tools. Use DNSSEC Analyzer, DNSViz, and dig to validate your chain of trust and identify common DNSSEC issues.
+meta: Test your DNSSEC configuration with DNSSEC Analyzer, DNSViz, and dig. Validate your chain of trust and identify common DNSSEC issues.
 categories:
 - DNSSEC
 ---

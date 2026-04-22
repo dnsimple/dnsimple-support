@@ -1,6 +1,7 @@
 ---
 title: .US Domains
 excerpt: This article explains the requirements and special procedures for .US domain names.
+meta: Transfer .US domains to DNSimple with explicit email acknowledgment. Unacknowledged transfers are automatically canceled after 14 days.
 categories:
 - TLDs
 ---

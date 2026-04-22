@@ -1,7 +1,7 @@
 ---
 title: DNSimple Redirector
 excerpt: How to redirect HTTP and HTTPS requests from one host name to another URL using the DNSimple URL record.
-meta: Redirect HTTP and HTTPS requests to a different URL using DNSimple URL records. Supports 301 redirects, HTTPS with SSL certificates, wildcard redirects, and path forwarding.
+meta: Redirect HTTP and HTTPS requests using DNSimple URL records. Supports 301 redirects, HTTPS with SSL certificates, wildcard redirects, and path forwarding.
 categories:
 - Domains and Transfers
 ---
@@ -15,7 +15,7 @@ categories:
 
 ---
 > [!NOTE]
-> **HTTP** redirects are available to all plans. **HTTPS** redirects are available only on certain plans. [See the differences between plans](/articles/dnsimple-plans/).
+> **HTTP** redirects are available on all plans. **HTTPS** redirects require a [Teams plan or higher](/articles/dnsimple-plans/#feature-comparison).
 
 The redirector is a special feature provided by DNSimple that you can use to redirect HTTP/HTTPS requests sent to a host name to a different URL.
 

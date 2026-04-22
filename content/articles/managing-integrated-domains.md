@@ -1,7 +1,7 @@
 ---
 title: Manage Integrated Domains
 excerpt: How to view and manage domains registered at other providers (GoDaddy, Namecheap, PorkBun) from your DNSimple account.
-meta: Manage domains registered at other providers (GoDaddy, Namecheap, PorkBun) from your DNSimple dashboard. View registration details, sync records, and control DNS in one place.
+meta: Manage domains from other providers (GoDaddy, Namecheap, PorkBun) in your DNSimple dashboard. View registration details, sync records, and control DNS.
 categories:
 - Domains and Transfers
 - Integrations

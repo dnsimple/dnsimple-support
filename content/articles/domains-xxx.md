@@ -1,6 +1,7 @@
 ---
 title: .XXX Domains
 excerpt: This article explains the requirements and special procedures for .XXX domain names.
+meta: Register .XXX domains through DNSimple. A Member Auth Token from the ICM Registry is required to activate domain resolution for adult entertainment sites.
 categories:
 - TLDs
 ---

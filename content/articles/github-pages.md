@@ -1,6 +1,7 @@
 ---
 title: GitHub Pages
 excerpt: How to point your root or apex domain to host your site with GitHub Pages using DNSimple.
+meta: Point your apex domain to GitHub Pages using DNSimple One-click Services or a manual ALIAS record. Includes GitHub setup steps.
 categories:
 - Services
 - Integrations

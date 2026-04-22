@@ -1,7 +1,7 @@
 ---
 title: What Are Glue Records?
 excerpt: Learn what glue records are and why they matter.
-meta: Discover the importance of glue records and how they solve a fundamental problem in DNS.
+meta: Glue records provide IP addresses for name servers within their own domain, solving the circular dependency problem in DNS delegation.
 categories:
   - DNS
   - Name Servers

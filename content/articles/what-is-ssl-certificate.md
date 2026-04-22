@@ -1,7 +1,7 @@
 ---
 title: What Is an SSL Certificate?
 excerpt: An SSL certificate is a digital credential that enables HTTPS encryption between a browser and a server, protecting data in transit and verifying the server's identity.
-meta: What is an SSL certificate and how does it work? Learn how SSL certificates encrypt web traffic, authenticate servers, and protect sensitive data — plus the difference between free and paid certificates.
+meta: An SSL certificate encrypts web traffic and authenticates servers. Learn how SSL works, what it protects, and the difference between free and paid certificates.
 categories:
 - SSL Certificates
 ---

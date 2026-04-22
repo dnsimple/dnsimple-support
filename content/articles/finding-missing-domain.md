@@ -1,7 +1,7 @@
 ---
 title: I Can't Find My Domain
 excerpt: How to locate a domain that is not showing up in your DNSimple account.
-meta: Troubleshoot a missing domain in your DNSimple account. Common causes include domains registered through integrations like ClickFunnels or a second account you forgot about.
+meta: Troubleshoot a missing domain in your DNSimple account. Common causes include domains registered through ClickFunnels or a second account.
 categories:
 - Domains and Transfers
 ---

@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Email Authentication
+title: Troubleshoot Email Authentication
 excerpt: How to diagnose SPF, DKIM, and DMARC failures using email headers and DNS verification.
-meta: Diagnose email authentication failures by reading email headers, identifying SPF, DKIM, and DMARC issues, and resolving common problems like alignment failures and missing records.
+meta: Diagnose email authentication failures by reading headers, identifying SPF, DKIM, and DMARC issues, and fixing alignment failures and missing records.
 categories:
 - Emails
 ---
 
-# Troubleshooting Email Authentication
+# Troubleshoot Email Authentication
 
 ### Table of Contents {#toc}
 
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-When email authentication fails, messages may be rejected, sent to spam, or flagged as suspicious. The fastest way to find the root cause is to check the email headers, identify which protocol is failing, then verify the corresponding DNS record.
+When [email authentication](/articles/email-authentication/) fails, messages may be rejected, sent to spam, or flagged as suspicious. The fastest way to find the root cause is to check the email headers, identify which protocol is failing, then verify the corresponding DNS record.
 
 ## Reading email headers {#headers}
 
@@ -86,7 +86,7 @@ The impact of a DMARC failure depends on your published policy:
 - `p=quarantine` - Failing messages are sent to spam.
 - `p=reject` - Failing messages are blocked entirely.
 
-If legitimate email is being blocked or sent to spam, your DMARC policy may be stricter than your authentication setup supports. See [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for how to move safely from `p=none` to `p=reject`.
+If legitimate email is being blocked or sent to spam, your DMARC policy may be stricter than your authentication setup supports. See [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for how to move safely from `p=none` to `p=reject`.
 
 To confirm your DMARC record is published correctly, see [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/).
 

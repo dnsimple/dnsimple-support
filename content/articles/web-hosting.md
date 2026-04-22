@@ -1,6 +1,6 @@
 ---
 title: Web Hosting Support
-meta: We focus primarily on domain management services. We don't provide web hosting allthough connecting to hosting providers is made easy with our one-click services.
+meta: DNSimple does not provide web hosting. We focus on domain management, and connecting to hosting providers is easy with our one-click services.
 excerpt: We focus primarily on domain management services. We don't provide web hosting.
 categories:
 - DNSimple
@@ -32,7 +32,7 @@ Web hosts sometimes offer free DNS as part of their packages, but they are two c
 
 ## Why does not DNSimple provide web hosting services? {#why-does-not-dnsimple-provide-web-hosting-services}
 
-We focus on offering the best domain management platform by enabling our customers to set up and [connect their domains to services](https://dnsimple.com/benefits/integrations) that already exist, rather than trying to create our own top-to-bottom solution.
+We focus on offering the best domain management platform by enabling our customers to set up and [connect their domains to services](https://dnsimple.com/benefits/integrations) that already exist, rather than trying to create our own top-to-bottom solution. For more detail on this product decision, see [Why We Don't Offer Web Hosting Services](/articles/why-not-web-hosting/).
 
 Technologies for creating websites require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few Megabytes of hard disk. This makes it more challenging to do both domain management and web hosting while maintaining the quality you expect from DNSimple.
 

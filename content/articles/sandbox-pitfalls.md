@@ -1,7 +1,7 @@
 ---
 title: Sandbox Common Pitfalls
 excerpt: Common pitfalls and things to keep in mind when working in the DNSimple Sandbox environment.
-meta: Avoid common mistakes when using the DNSimple Sandbox. Learn about domain registration behavior, DNS resolution limits, certificate testing, data persistence, and shared system considerations.
+meta: Common pitfalls when using the DNSimple Sandbox. Domain registration behavior, DNS resolution limits, certificate testing, and data persistence.
 categories:
 - API
 ---

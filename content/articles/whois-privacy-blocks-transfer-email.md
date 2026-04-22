@@ -1,7 +1,7 @@
 ---
 title: Whois Privacy may cause transfer approval emails to not be delivered
 excerpt: Whois Privacy services often do not properly deliver transfer approval emails, and thus should be disabled before requesting a transfer.
-meta: WHOIS privacy can block domain transfer verification emails. Disable WHOIS privacy at your current registrar before starting a transfer to DNSimple to avoid email delivery failures.
+meta: WHOIS privacy can block domain transfer verification emails. Disable it at your current registrar before transferring to DNSimple to avoid failures.
 categories:
  - Whois Privacy
  - Domains and Transfers

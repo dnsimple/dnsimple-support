@@ -1,7 +1,7 @@
 ---
 title: What Is DNS?
 excerpt: DNS stands for Domain Name System. It resolves human-readable domain names to machine-readable IP addresses so browsers can load websites.
-meta: DNS stands for Domain Name System - the protocol that translates domain names into IP addresses. Learn what DNS means, how DNS resolution works, and the role of DNS records, resolvers, and name servers.
+meta: DNS (Domain Name System) translates domain names into IP addresses. Learn how DNS resolution works and the role of DNS records, resolvers, and name servers.
 categories:
 - DNS
 ---

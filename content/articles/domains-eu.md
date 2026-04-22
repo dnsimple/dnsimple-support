@@ -1,6 +1,7 @@
 ---
 title: .EU Domains
 excerpt: This article explains the requirements and special procedures for .EU domain names.
+meta: Register .EU domains through DNSimple. EU citizenship, residency, or an EU-established organization is required. Agree to the registry data transfer policy.
 categories:
 - TLDs
 ---

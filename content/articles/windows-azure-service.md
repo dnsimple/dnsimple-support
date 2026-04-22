@@ -1,7 +1,7 @@
 ---
 title: Windows Azure Service
 excerpt: How to set up Windows Azure DNS using DNSimple's One-click Service.
-meta: Easily set up Windows Azure DNS with DNSimple's One-click Service. Follow our step-by-step guide to streamline your DNS management and enhance your cloud experience.
+meta: Set up Windows Azure DNS with DNSimple's one-click service. Apply the required DNS records for Azure to your domain in one click.
 categories:
 - Services
 ---

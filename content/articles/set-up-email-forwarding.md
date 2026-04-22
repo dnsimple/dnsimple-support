@@ -1,7 +1,7 @@
 ---
 title: How to Set Up Email Forwarding
 excerpt: Set up email forwarding for your domain with this step-by-step guide covering prerequisites, configuration, and what to expect.
-meta: Step-by-step guide to setting up email forwarding for your domain in DNSimple. Learn how to configure email forwarding, what prerequisites you need, and what to expect after activation.
+meta: Set up email forwarding for your domain in DNSimple. Configure forwarding addresses, prerequisites, and what to expect after activation.
 categories:
 - Emails
 ---

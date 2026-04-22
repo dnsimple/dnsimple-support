@@ -1,7 +1,7 @@
 ---
 title: How Long Does a New DNS Record Take to Resolve?
 excerpt: New DNS records are live on DNSimple name servers within seconds. Full DNS propagation to all resolvers worldwide depends on TTL and caching.
-meta: DNS propagation typically takes minutes to 48 hours depending on TTL and resolver caching. Learn how long new DNS records take to resolve and why propagation delays happen.
+meta: DNS propagation takes minutes to 48 hours depending on TTL and resolver caching. Learn how long new records take to resolve and why delays happen.
 categories:
 - DNS
 ---

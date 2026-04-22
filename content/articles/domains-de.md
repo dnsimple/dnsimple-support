@@ -1,7 +1,7 @@
 ---
 title: .DE Domains
 excerpt: Requirements and special procedures for .DE domains, including DENIC contact-data rules, verification, and transfers.
-meta: Learn how .DE domains work at DNSimple, including DENIC contact accuracy requirements under NIS2, risk checks, verification timelines, and unique transfer rules.
+meta: How .DE domains work at DNSimple, including DENIC contact accuracy requirements under NIS2, risk checks, verification timelines, and transfer rules.
 categories:
 - TLDs
 ---

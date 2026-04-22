@@ -1,7 +1,7 @@
 ---
 title: Domains and Transfers at DNSimple
 excerpt: Learn about domain registration, renewal, and transfers at DNSimple.
-meta: Comprehensive guide to domains and transfers at DNSimple, including registering and adding domains, renewals, transferring domains to or from DNSimple, and managing domain settings.
+meta: Guide to domains and transfers at DNSimple, including registration, renewals, transferring to or from DNSimple, and managing domain settings.
 categories:
 - Domains and Transfers
 ---

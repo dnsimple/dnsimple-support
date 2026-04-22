@@ -1,6 +1,7 @@
 ---
 title: Heroku Connector
 excerpt: How to connect a Heroku app to your domain using DNSimple's Heroku Connector
+meta: Connect your domain to a Heroku app with the DNSimple Heroku Connector. Authorize both accounts and configure DNS records automatically.
 categories:
 - Connectors
 - Integrations

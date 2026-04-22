@@ -1,7 +1,7 @@
 ---
 title: Getting Started with SSL Certificates
 excerpt: Everything you need to choose, order, validate, and install an SSL certificate with DNSimple.
-meta: Complete guide to buying SSL certificates at DNSimple. Learn how to choose between Sectigo and Let's Encrypt, purchase and validate your certificate, install it on your server, and manage renewals.
+meta: Guide to SSL certificates at DNSimple. Choose between Sectigo and Let's Encrypt, purchase, validate, install on your server, and manage renewals.
 categories:
 - SSL Certificates
 ---

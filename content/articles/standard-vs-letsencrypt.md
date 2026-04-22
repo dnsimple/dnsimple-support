@@ -1,7 +1,7 @@
 ---
 title: Sectigo vs Let's Encrypt SSL Certificates
 excerpt: Explains the key differences between Sectigo and Let's Encrypt SSL certificates to help you choose the right certificate type.
-meta: Compare Sectigo and Let's Encrypt SSL certificates to find the best option for your site. Understand the differences in cost, expiration, validation, and features — including free and low-cost options.
+meta: Compare Sectigo and Let's Encrypt SSL certificates. Understand differences in cost, expiration, validation, and features to choose the right certificate.
 categories:
 - SSL Certificates
 ---
@@ -15,7 +15,31 @@ categories:
 
 ---
 
-Sectigo and Let's Encrypt are two different [certificate authorities](/articles/what-is-certificate-authority/) that issue SSL certificates through DNSimple. Understanding their differences helps you choose the certificate type that best fits your needs.
+Sectigo and Let's Encrypt are two different [certificate authorities](/articles/what-is-certificate-authority/) that issue SSL certificates through DNSimple. Understanding their differences helps you choose the certificate type that best fits your needs. If you already know what you need, skip to the [quick reference table](#choosing) below.
+
+## Choosing the right certificate {#choosing}
+
+Use this table to find the right certificate for your situation:
+
+| Requirement | Recommended Certificate |
+| --- | --- |
+| You want to secure a domain name. | **Let's Encrypt** or **Sectigo** |
+| You want to provide a custom CSR | **Sectigo** |
+| You want to use a custom private key. | **Sectigo** |
+| You want to use a wildcard name. | **Let's Encrypt** or **Sectigo** |
+| You want a longer expiration period. | **Sectigo** |
+| You want to fully automate SSL certificate **orders** without manual intervention. | **Let's Encrypt** |
+| Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Sectigo** |
+| Your domain is resolving with both DNSimple and Secondary DNS. | **Sectigo** |
+| Your domain is NOT resolving with DNSimple. | **Sectigo** |
+| Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Sectigo** |
+| Your domain is NOT registered and NOT resolving with DNSimple. | **Sectigo** |
+| You want to purchase a certificate with no subscription. | **Sectigo** |
+
+> [!NOTE]
+> Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
+
+Ready to order? See [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) or [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/).
 
 ## Comparison: Let's Encrypt vs Sectigo SSL certificates {#comparison}
 
@@ -66,28 +90,6 @@ The difference in validity periods will narrow over time as the maximum allowed 
 **Let's Encrypt** certificates are free. DNSimple automates issuance and renewal when auto-renewal is enabled. Once a new certificate is issued, you still need to install it on your server.
 
 **Sectigo** certificates cost between $20-$100 depending on the certificate type. Renewal requires manual action, including email approval and certificate installation.
-
-## How to choose the best SSL certificate for your site {#choosing}
-
-The following considerations may help you determine which certificate type best fits your needs:
-
-| Requirement | Recommended Certificate |
-| --- | --- |
-| You want to secure a domain name. | **Let's Encrypt** or **Sectigo** |
-| You want to provide a custom CSR | **Sectigo** |
-| You want to use a custom private key. | **Sectigo** |
-| You want to use a wildcard name. | **Let's Encrypt** or **Sectigo** |
-| You want a longer expiration period. | **Sectigo** |
-| You want to fully automate SSL certificate **orders** without manual intervention. | **Let's Encrypt** |
-| Your domain is resolving exclusively with DNSimple. | **Let's Encrypt** or **Sectigo** |
-| Your domain is resolving with both DNSimple and Secondary DNS. | **Sectigo** |
-| Your domain is NOT resolving with DNSimple. | **Sectigo** |
-| Your domain is NOT registered, but resolving with DNSimple. | **Let's Encrypt** or **Sectigo** |
-| Your domain is NOT registered and NOT resolving with DNSimple. | **Sectigo** |
-| You want to purchase a certificate with no subscription. | **Sectigo** |
-
-> [!NOTE]
-> Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
 
 ## Taking action {#taking-action}
 

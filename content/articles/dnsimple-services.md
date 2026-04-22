@@ -1,7 +1,7 @@
 ---
 title: DNSimple Services
 excerpt: "DNSimple provides essential services for every Internet-connected system: hosted DNS, domain registration, a powerful automation API, One Click DNS Services, and SSL certificates."
-meta: Discover DNSimple's comprehensive services including DNS hosting, domain registration, automation API, one-click DNS services, and SSL certificates for your domains.
+meta: DNSimple services overview. DNS hosting, domain registration, automation API, one-click DNS services, and SSL certificates for your domains.
 categories:
 - DNSimple
 ---
@@ -41,7 +41,7 @@ With DNSimple's REST API, you can register domain names and administrate them di
 
 Some things you can do with our API include:
 
-- Check domain availability.
+- Check domain availability (Enterprise customers can also use the [Domain Research API](/articles/domain-research-api/) for richer availability and status research).
 - Register and renew domains.
 - Transfer domains.
 - Buy SSL certificates.

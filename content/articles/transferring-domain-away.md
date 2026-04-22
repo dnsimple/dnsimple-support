@@ -1,7 +1,7 @@
 ---
 title: Transfer a Domain Away from DNSimple
 excerpt: How to request a transfer code and transfer a domain from DNSimple to a different registrar.
-meta: How to transfer a domain away from DNSimple to another registrar. Covers unlocking the domain, requesting your authorization code, and initiating the transfer at the gaining registrar.
+meta: Transfer a domain from DNSimple to another registrar. Covers unlocking the domain, requesting your authorization code, and initiating the transfer.
 categories:
 - Domains and Transfers
 ---

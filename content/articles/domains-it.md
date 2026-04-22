@@ -1,6 +1,7 @@
 ---
 title: .IT Domains
 excerpt: This article explains the requirements and special procedures for .it domain names.
+meta: Register .IT domains through DNSimple. EU citizenship or residency is required, along with a taxpayer number and acceptance of Italian registry terms.
 categories:
 - TLDs
 ---

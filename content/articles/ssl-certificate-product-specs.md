@@ -1,7 +1,7 @@
 ---
 title: SSL Certificate Product Specifications
 excerpt: A side-by-side comparison of all DNSimple SSL certificate products, including pricing, validity, validation methods, and features.
-meta: Compare DNSimple SSL certificate products side by side. Covers Sectigo single-name, Sectigo wildcard, Let's Encrypt SAN, and Let's Encrypt wildcard certificates with pricing, validity, and features.
+meta: Compare DNSimple SSL certificate products. Sectigo single-name, Sectigo wildcard, Let's Encrypt SAN, and Let's Encrypt wildcard with pricing and features.
 categories:
 - SSL Certificates
 ---

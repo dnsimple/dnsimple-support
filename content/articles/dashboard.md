@@ -1,7 +1,7 @@
 ---
 title: Getting to Know Your DNSimple Dashboard
 excerpt: How to use the DNSimple Dashboard to manage your domains.
-meta: Explore the DNSimple dashboard with our comprehensive guide. Learn to navigate your domain list, manage settings, and optimize your domain management experience.
+meta: Guide to the DNSimple dashboard. Navigate your domain list, manage account settings, and access key domain management features.
 categories:
 - DNSimple
 ---
@@ -10,7 +10,7 @@ categories:
 
 <iframe loading="lazy" width="791" height="445" src="https://www.youtube.com/embed/TAJ8R12hLrI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Your DNSimple Dashboard contains all of the important highlights for each of your DNSimple accounts: important messages, account overviews and account activity.
+Your DNSimple Dashboard contains all of the important highlights for each of your DNSimple accounts: important messages, account overviews and account activity. If you are new to DNSimple, start with [First Steps With Your DNSimple Account](/articles/guide-dashboard/) for a quick tour.
 
 ![screenshot: Showing multiple account cards](/files/dashboard-account-cards.png)
 

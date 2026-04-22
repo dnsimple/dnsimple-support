@@ -1,7 +1,7 @@
 ---
 title: Terraform Provider
 excerpt: How to use DNSimple's Terraform provider to manage your DNS
-meta: Discover how to efficiently manage your DNS using DNSimple's Terraform provider. Learn setup, configuration, and best practices to streamline your DNS management.
+meta: Manage your DNS with DNSimple's Terraform provider. Setup, configuration, and best practices for infrastructure-as-code DNS management.
 categories:
 - Integrations
 - Enterprise
@@ -18,7 +18,7 @@ categories:
 
 [Terraform](https://terraform.io) is an Infrastructure as Code (IaC) tool that allows you to build, change, and version
 infrastructure safely and efficiently. With [DNSimple's Terraform Provider](https://registry.terraform.io/providers/dnsimple/dnsimple/latest),
-you can easily manage your DNS infrastructure and set up the required DNS records.
+you can easily manage your DNS infrastructure and set up the required DNS records. If you use HashiCorp Consul with Consul-Terraform-Sync for network infrastructure automation, see [Consul Integration](/articles/consul-integration/).
 
 ## Video walk-through
 
