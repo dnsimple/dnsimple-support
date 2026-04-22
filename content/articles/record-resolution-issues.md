@@ -65,7 +65,7 @@ The following command checks the DNS record against the `ns1.dnsimple.com` name 
 $ dig www.dnsimple.com @ns1.dnsimple.com
 ```
 
-If you get the expected response, the record has been updated in our system, but the changes still need to propagate. They should be visible after the TTL period.
+If you get the expected response, the record has been updated in our system, but the changes still need to propagate. They should be visible after the TTL period. To compare results globally or run checks with third-party sites, see [External DNS Diagnostic Tools](/articles/external-dns-diagnostic-tools/).
 
 You can check it against any of [DNSimple's name servers](/articles/dnsimple-nameservers/).
 

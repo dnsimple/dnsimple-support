@@ -17,7 +17,7 @@ Scroll to the bottom of your DNSimple app and click 'Contact Us'.
 
 You'll be sent to our contact page that has a fillable form. Complete that form to provide us with information to best help you with your question.
 
-The contact page is also a great place to find our [support documentation](https://support.dnsimple.com), [developer documentation](https://developer.dnsimple.com) and [status page](https://dnsimple.statuspage.io).
+The contact page is also a great place to find our [support documentation](https://support.dnsimple.com), [developer documentation](https://developer.dnsimple.com), and [status page](https://dnsimple.statuspage.io) (see [DNSimple Status Page](/articles/dnsimple-status/) for what we publish there and how to subscribe to updates).
 
 ## What should I include in my request?
 

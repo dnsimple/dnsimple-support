@@ -9,7 +9,7 @@ categories:
 
 # Add DNSimple as a secondary DNS server
 
-For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns/).
+For an overview of Secondary DNS, have a look at [our introduction article](/articles/secondary-dns/). If you run a hidden primary (authoritative primary not listed in public NS) and want DNSimple to serve the zone publicly, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
 
 #### Table of contents {#toc}
 

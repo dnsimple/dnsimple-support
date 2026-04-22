@@ -16,7 +16,7 @@ categories:
 
 ---
 
-DNSimple does not provide email hosting. Our primary focus is domain management services, including DNS hosting, domain registration, and SSL certificates. You can use a third-party email hosting provider and manage all your DNS records through DNSimple.
+DNSimple does not provide email hosting. Our primary focus is domain management services, including DNS hosting, domain registration, and SSL certificates. You can use a third-party email hosting provider and manage all your DNS records through DNSimple. For forwarding, authentication records, and provider setup guides, see [Email Services at DNSimple](/articles/emails/).
 
 ## What is an email hosting service? {#what-is}
 

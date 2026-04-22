@@ -51,7 +51,7 @@ Have a domain and want to set up DNS? [Learn how to add DNS records to your acco
 
 ## Adding domains to DNSimple
 
-Domain management on DNSimple starts in two ways: [registration](#registering-a-domain) and [transferring](#transferring-a-domain). A domain is **registered** if it isn't already owned. It's **transferred** if you already own the domain through another registrar.
+Domain management on DNSimple starts in two ways: [registration](#registering-a-domain) and [transferring](#transferring-a-domain). A domain is **registered** if it isn't already owned. It's **transferred** if you already own the domain through another registrar. For a shorter walkthrough with direct links, see [Transfer or Register Domains With DNSimple](/articles/guide-register-or-transfer-a-domain/).
 
 ### Registering a domain
 

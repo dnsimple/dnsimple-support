@@ -29,6 +29,8 @@ TLDs are generally grouped into 3 different categories:
 
    This category contains hundreds of domain names. Just to name a few: [`.SHOP`](https://dnsimple.com/tlds/shop-domains), [`.EMAIL`](https://dnsimple.com/tlds/email-domains), [`.XYZ`](https://dnsimple.com/tlds/xyz-domains), etc.
 
+For per-extension requirements, transfers, and registry rules, the [TLDs at DNSimple](/articles/tlds/) guide links to documentation for each supported extension.
+
 ## Have more questions?
 
 If you have any questions about TLDs or domain registration, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

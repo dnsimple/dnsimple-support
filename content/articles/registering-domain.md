@@ -8,7 +8,7 @@ categories:
 
 # Register a Domain
 
-There are **two** reasons to register a domain with DNSimple:
+If you are comparing registrars, see [Why Should I Register My Domain Name with DNSimple?](/articles/reasons-registering-domain/). There are **two** reasons to register a domain with DNSimple:
 
 - It is a newly purchased domain.
 - To register a domain for which you are already managing the DNS.

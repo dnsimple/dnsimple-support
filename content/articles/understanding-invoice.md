@@ -115,6 +115,7 @@ Visit the [DNSimple pricing page](https://dnsimple.com/pricing) for up-to-date r
 
 - Learn how to find and view your [invoice history](/articles/account-invoice-history/).
 - View which [payment methods](/articles/payment-methods/) DNSimple accepts.
+- See [Understanding Your Account Balance and Billing Details](/articles/account-subscription-balance/) for subscription balance, credits, and the Billings and plans area of your account.
 
 ## Have more questions?
 
