@@ -27,10 +27,6 @@ Accepted connection types include:
 - Business, personal, cultural, or commercial activity connected to Alsace
 - A direct or indirect economic, social, cultural, historical, or similar link to Alsace
 
-## Transferring a .ALSACE domain {#transferring}
-
-.ALSACE transfers follow the standard auth code transfer process. The domain must not be transfer locked.
-
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .ALSACE domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

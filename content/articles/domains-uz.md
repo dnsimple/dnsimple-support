@@ -37,16 +37,6 @@ The registry can request:
 - A company certificate for companies or associations
 - A photo ID for natural persons
 
-## Transferring and deleting .UZ domains {#transfers}
-
-Transfers require an auth code and all contact objects in the transfer request.
-
-`.uz` domains cannot be deleted explicitly. To let the domain expire, renewal mode must be set to `AUTOEXPIRE`.
-
-## Changing the registrant {#trade}
-
-Registrant changes are not handled through the standard automated flow and must go through the registrar fulfillment process.
-
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .UZ domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

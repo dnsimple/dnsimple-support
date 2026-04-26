@@ -19,15 +19,7 @@ This article explains the requirements and special procedures for .TIROL domain 
 
 The registrant must show an economic, cultural, tourist, historical, social, or similar affinity with the Austrian federal state of Tirol.
 
-## Reserved names {#reserved}
-
-Some .TIROL names are reserved by the registry and cannot be registered through the standard flow.
-
-For reserved names, a registry-issued auth code is required.
-
-## Transferring a .TIROL domain {#transferring}
-
-.TIROL transfers use an auth code and require the domain to be unlocked.
+Further details can be found in the [general guidelines](https://www.nic.tirol/media/3603/general-guidelines_v1_-tirol.pdf) of the registry.
 
 ## Have more questions?
 

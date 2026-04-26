@@ -24,10 +24,6 @@ To register and renew a .BZH domain, the registrant must meet at least one eligi
 - Publish a website with a significant and original section in Breton or Gallo within six months of registration
 - Be a member of the `.bzh` association (`www.pik.bzh`)
 
-## Transferring a .BZH domain {#transferring}
-
-.BZH transfers use an auth code and require the domain to be unlocked at the current registrar.
-
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .BZH domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.

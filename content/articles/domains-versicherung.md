@@ -32,14 +32,6 @@ Because .VERSICHERUNG is a community TLD:
 - Domain content must be dedicated to insurance topics
 - The domain must be actively used within six months after registration in a way that matches registry policy
 
-## Reserved names {#reserved}
-
-Some names are reserved by the registry and require a registry-issued auth code.
-
-## Transferring a .VERSICHERUNG domain {#transferring}
-
-.VERSICHERUNG transfers use an auth code and require the domain to be unlocked.
-
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .VERSICHERUNG domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
