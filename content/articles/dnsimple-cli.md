@@ -3,7 +3,7 @@ title: What Is the DNSimple CLI?
 excerpt: The DNSimple CLI is a command-line tool for managing domains, DNS records, and certificates from your terminal.
 meta: The DNSimple CLI is a cross-platform command-line tool for managing domains, DNS records, SSL certificates, and registrar operations from your terminal. Install the DNSimple CLI on macOS, Linux, or Windows, authenticate with an API access token, and manage DNS zones from the command line.
 categories:
-- DNSimple CLI
+- CLI
 ---
 
 # What Is the DNSimple CLI?

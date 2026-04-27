@@ -47,6 +47,7 @@ const DICTIONARY = {
   'cat:Whois Privacy': /whois/,
   'cat:Emails': /email/,
   'cat:API': /api/,
+  'cat:CLI': /dnsimple-cli|categories\/cli/,
   // "cat:Account": /account/,
   // "cat:DNS": /dns|records/,
   // "cat:Domains": /domains/,
