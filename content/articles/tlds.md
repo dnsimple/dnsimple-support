@@ -28,6 +28,7 @@ Understand what TLDs are and which ones have special requirements:
 
 Requirements, eligibility, registration and transfer rules, and any special steps for each supported TLD:
 
+- [.AR Domains](/articles/domains-ar/) - Trustee-based registration; renewal and deletion use registry renewal modes; transfers follow NIC Argentina procedures.
 - [.AU Domains](/articles/domains-au/) - Australian presence, eligibility IDs, and procedures for .AU and third-level .COM.AU, .ORG.AU, .NET.AU.
 - [.BANK Domains](/articles/domains-bank/) - Eligibility and security requirements for .BANK; registration available on Enterprise plans only.
 - [.BE Domains](/articles/domains-be/) - Requirements and procedures for .BE registration, renewal, and transfer.
@@ -62,6 +63,7 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.NET.CO Domains](/articles/domains-net-co/) - Requirements and procedures for .NET.CO domain names.
 - [.NET.NZ Domains](/articles/domains-net-nz/) - Requirements and procedures for .NET.NZ domain names.
 - [.NL Domains](/articles/domains-nl/) - Open worldwide; KVK number for Dutch organizations, standard contact for individuals.
+- [.NO Domains](/articles/domains-no/) - Norwegian postal address; person identifier or organization number; renewal window and transfer auth code rules.
 - [.NOM.CO Domains](/articles/domains-nom-co/) - Requirements and procedures for .NOM.CO domain names.
 - [.NZ Domains](/articles/domains-nz/) - Requirements and procedures for .NZ domain names.
 - [.ORG.AU Domains](/articles/domains-org-au/) - Requirements and procedures for .ORG.AU domain names.
