@@ -27,6 +27,12 @@
 /articles/dkim/index.html                                                 /articles/dkim-record/
 /articles/dnssec-support                                                  /articles/dnssec/
 /articles/dnssec-support/index.html                                       /articles/dnssec/
+/articles/dnsimple-api                                                    /articles/dnsimple-cli/
+/articles/dnsimple-api/                                                   /articles/dnsimple-cli/
+/articles/dnsimple-api/index.html                                         /articles/dnsimple-cli/
+/categories/dnsimple-api/                                                /categories/dnsimple-cli/
+/categories/dnsimple-api                                                 /categories/dnsimple-cli/
+/categories/dnsimple-api/index.html                                      /categories/dnsimple-cli/
 /articles/enabling-and-disabling-auto-renewal                             /articles/domain-auto-renewal/
 /articles/enabling-and-disabling-auto-renewal/index.html                  /articles/domain-auto-renewal/
 /articles/github                                                          /articles/github-pages/
