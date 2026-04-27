@@ -1,4 +1,5 @@
 api: Explore our comprehensive API documentation and resources at DNSimple. Find guides, tutorials, and support to seamlessly integrate and manage your DNS services.
+dnsimple_cli: Guides for the DNSimple command-line tool: install the DNSimple CLI, authenticate, and manage domains, DNS, and SSL from your terminal.
 account: Explore our comprehensive account support articles to manage your DNSimple account effectively. Find answers, tips, and resources to enhance your experience.
 domains_and_transfers: Guides on managing domains and transfers at DNSimple, including registration, renewal, transferring to and from DNSimple, and troubleshooting.
 tlds: Explore documentation for top-level domains (TLDs) supported by DNSimple, including country-code and generic TLDs, requirements, and registration details.
