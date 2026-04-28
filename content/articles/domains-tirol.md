@@ -1,7 +1,7 @@
 ---
 title: .TIROL Domains
 excerpt: This article explains the requirements and special procedures for .TIROL domain names.
-meta: Register .TIROL domains with DNSimple. Registrants must have a nexus to Tirol, and reserved names require a registry-issued auth code.
+meta: Register .TIROL domains with DNSimple. Registrants must have a nexus to Tirol.
 categories:
 - TLDs
 ---

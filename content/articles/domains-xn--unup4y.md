@@ -1,7 +1,7 @@
 ---
 title: .游戏 Domains
-excerpt: Requirements for the .游戏 IDN TLD (Punycode xn--unup4y) on the Donuts registry.
-meta: Register and manage .游戏 domains at DNSimple. Donuts registry OFAC checks, allocation tokens, and IDN language tags.
+excerpt: This article explains the requirements and special procedures for .游戏 domain names.
+meta: Register and manage .游戏 domains at DNSimple. OFAC checks.
 categories:
 - TLDs
 ---

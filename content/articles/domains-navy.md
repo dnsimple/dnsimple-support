@@ -1,6 +1,6 @@
 ---
 title: .NAVY Domains
-excerpt: Requirements and special procedures for .NAVY domains from the Donuts registry.
+excerpt: This article explains the requirements and special procedures for .NAVY domain names.
 meta: Register and manage .NAVY domains at DNSimple. Understand registry restrictions, auth codes, and premium allocation tokens.
 categories:
 - TLDs
