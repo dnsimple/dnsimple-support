@@ -69,7 +69,6 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.NET.CO Domains](/articles/domains-net-co/) - Requirements and procedures for .NET.CO domain names.
 - [.NET.NZ Domains](/articles/domains-net-nz/) - Requirements and procedures for .NET.NZ domain names.
 - [.NL Domains](/articles/domains-nl/) - Open worldwide; KVK number for Dutch organizations, standard contact for individuals.
-- [.NO Domains](/articles/domains-no/) - Norwegian postal address; person identifier or organization number.
 - [.NOM.CO Domains](/articles/domains-nom-co/) - Requirements and procedures for .NOM.CO domain names.
 - [.NZ Domains](/articles/domains-nz/) - Requirements and procedures for .NZ domain names.
 - [.ORG.AU Domains](/articles/domains-org-au/) - Requirements and procedures for .ORG.AU domain names.
