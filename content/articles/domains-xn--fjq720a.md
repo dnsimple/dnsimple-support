@@ -1,7 +1,7 @@
 ---
 title: .娱乐 Domains
-excerpt: Requirements for the .娱乐 IDN TLD (Punycode xn--fjq720a) on the Donuts registry.
-meta: Register and manage .娱乐 domains at DNSimple. Donuts registry OFAC checks, allocation tokens, and IDN language tags.
+excerpt: This article explains the requirements and special procedures for .娱乐 domain names.
+meta: Register and manage .娱乐 domains at DNSimple. OFAC checks.
 categories:
 - TLDs
 ---

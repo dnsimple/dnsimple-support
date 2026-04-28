@@ -1,7 +1,7 @@
 ---
 title: .WIEN Domains
 excerpt: This article explains the requirements and special procedures for .WIEN domain names.
-meta: Register .WIEN domains with DNSimple. Registrants must maintain a nexus to Vienna, and reserved names require a registry-issued auth code.
+meta: Register .WIEN domains with DNSimple. Registrants must maintain a nexus to Vienna.
 categories:
 - TLDs
 ---

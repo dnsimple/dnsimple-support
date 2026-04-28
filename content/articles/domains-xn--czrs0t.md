@@ -1,7 +1,7 @@
 ---
 title: .商店 Domains
-excerpt: Requirements for the .商店 IDN TLD (Punycode xn--czrs0t) on the Donuts registry.
-meta: Register and manage .商店 domains at DNSimple. Donuts registry OFAC checks, allocation tokens, and IDN language tags.
+excerpt: This article explains the requirements and special procedures for .商店 domain names.
+meta: Register and manage .商店 domains at DNSimple. OFAC checks.
 categories:
 - TLDs
 ---

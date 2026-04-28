@@ -1,7 +1,7 @@
 ---
 title: .企业 Domains
-excerpt: Requirements for the .企业 IDN TLD (Punycode xn--vhquv) on the Donuts registry.
-meta: Register and manage .企业 domains at DNSimple. Donuts registry OFAC checks, allocation tokens, and IDN language tags.
+excerpt: This article explains the requirements and special procedures for .企业 domain names.
+meta: Register and manage .企业 domains at DNSimple. OFAC checks.
 categories:
 - TLDs
 ---

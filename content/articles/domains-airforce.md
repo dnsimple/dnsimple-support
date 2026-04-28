@@ -1,7 +1,7 @@
 ---
 title: .AIRFORCE Domains
-excerpt: Requirements and special procedures for .AIRFORCE domains from the Donuts registry.
-meta: Register and manage .AIRFORCE domains at DNSimple. Understand registry restrictions, auth codes, and premium allocation tokens.
+excerpt: This article explains the requirements and special procedures for .AIRFORCE domain names.
+meta: Register and manage .AIRFORCE domains at DNSimple.
 categories:
 - TLDs
 ---

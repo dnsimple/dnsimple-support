@@ -1,7 +1,7 @@
 ---
 title: .WATCHES Domains
-excerpt: Requirements and special procedures for .WATCHES domains from the Donuts registry.
-meta: Register and manage .WATCHES domains at DNSimple. Understand registry restrictions, auth codes, and premium allocation tokens.
+excerpt: This article explains the requirements and special procedures for .WATCHES domain names.
+meta: Register and manage .WATCHES domains at DNSimple.
 categories:
 - TLDs
 ---
