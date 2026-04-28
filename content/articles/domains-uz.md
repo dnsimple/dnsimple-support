@@ -26,8 +26,6 @@ Additional requirements:
 - Registered associations must include the `RA` suffix
 - Nameservers are mandatory at registration
 
-If the registrant or admin contact is an organization, the legal form must be included in the organization field.
-
 ## Registry validation process {#validation}
 
 The registry performs random holder validation checks on new registrations.
