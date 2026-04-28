@@ -27,8 +27,8 @@ The registry may verify registrations (for example by phone or documented proof)
 
 Depending on whether the registrant is a natural person or an organization, you provide one of the following with the registration or registrant change:
 
-- Person identifier — Format `N.PRI.XXXXXXXX`, issued by the registry. Request a person identifier through [Norid’s person ID service](https://pid.norid.no/personid/personid). The national identity number itself is not used as the person identifier in the registration extension.
-- Organization number — The organization’s number as registered in Enhetsregisteret (verify at [brreg.no](https://www.brreg.no/en/)).
+- Person identifier - Format `N.PRI.XXXXXXXX`, issued by the registry. Request a person identifier through [Norid's person ID service](https://pid.norid.no/personid/personid). The national identity number itself is not used as the person identifier in the registration extension.
+- Organization number - The organization's number as registered in Enhetsregisteret (verify at [brreg.no](https://www.brreg.no/en/)).
 
 ## Phone verification {#phone-verification}
 
