@@ -3,6 +3,7 @@ title: What is Domain Trustee?
 excerpt: Domain trustee service helps you register or transfer TLDs when the registry requires local presence or other rules you cannot meet alone; you stay the beneficiary.
 meta: "What domain trustee is in DNSimple: trustee partner vs beneficiary, optional vs required trustee by TLD, registration and transfer availability, extended attributes, billing, and using trustee with the API."
 categories:
+- Contacts
 - Domains and Transfers
 ---
 
