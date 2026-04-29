@@ -19,7 +19,7 @@ This article explains the requirements and special procedures for .ALSACE domain
 
 Any natural or legal person can register a .ALSACE domain, as long as the registrant can demonstrate a connection to Alsace.
 
-The registry can ask for proof of this connection at registration time or later.
+The [registry](http://nic.alsace/) can ask for proof of this connection at registration time or later.
 
 Accepted connection types include:
 

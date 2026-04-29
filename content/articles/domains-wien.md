@@ -19,17 +19,7 @@ This article explains the requirements and special procedures for .WIEN domain n
 
 The registrant must show an economic, cultural, tourist, historical, social, or similar affinity with Vienna.
 
-The registry does not perform upfront verification during registration, but eligibility can be challenged later through dispute resolution.
-
-## Reserved and premium names {#reserved}
-
-Some names are reserved by the registry and require a registry-issued auth code.
-
-Certain premium .WIEN names also require valid auth information obtained through registry channels.
-
-## Transferring a .WIEN domain {#transferring}
-
-.WIEN transfers use an auth code and require the domain to be unlocked.
+The [registry](https://www.nic.wien/de) does not perform upfront verification during registration, but eligibility can be challenged later through dispute resolution.
 
 ## Have more questions?
 

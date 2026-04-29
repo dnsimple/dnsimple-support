@@ -23,7 +23,7 @@ Eligibility is limited to registrants in Austria, Germany, Liechtenstein, and Sw
 - Licensed insurance agents and intermediaries
 - Registered associations, educational institutions, and service providers for the insurance industry
 
-The registry can request proof of eligibility.
+The [registry](https://www.nic.versicherung/de) can request proof of eligibility.
 
 ## Content and use restrictions {#restrictions}
 

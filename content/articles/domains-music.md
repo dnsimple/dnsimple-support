@@ -18,6 +18,7 @@ This article explains the requirements and special procedures for .MUSIC domain 
 ## Registering a .MUSIC domain {#registering}
 
 .MUSIC registrations are non-realtime. After registration, the registry sends a verification email to the registrant with instructions to complete identity and music industry validation at [id.music](https://www.id.music/).
+If the verification email is not received, the registrant can go directly to [id.music](https://www.id.music/) to complete the validation process.
 
 The domain remains on `serverHold` until verification is completed.
 

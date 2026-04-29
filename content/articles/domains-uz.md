@@ -28,9 +28,9 @@ Additional requirements:
 
 ## Registry validation process {#validation}
 
-The registry performs random holder validation checks on new registrations.
+The [registry](https://www.cctld.uz/) performs random holder validation checks on new registrations.
 
-The registry can request:
+If selected for validation, the registry may request:
 
 - A company certificate for companies or associations
 - A photo ID for natural persons

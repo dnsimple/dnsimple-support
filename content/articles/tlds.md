@@ -30,7 +30,6 @@ Requirements, eligibility, registration and transfer rules, and any special step
 
 - [.AIRFORCE Domains](/articles/domains-airforce/) - OFAC sanctions validation on contact addresses.
 - [.ALSACE Domains](/articles/domains-alsace/) - Registrant must demonstrate a connection to Alsace; registry may request proof.
-- [.AR Domains](/articles/domains-ar/) - Trustee-based registration.
 - [.AU Domains](/articles/domains-au/) - Australian presence, eligibility IDs, and procedures for .AU and third-level .COM.AU, .ORG.AU, .NET.AU.
 - [.BANK Domains](/articles/domains-bank/) - Eligibility and security requirements for .BANK; registration available on Enterprise plans only.
 - [.BE Domains](/articles/domains-be/) - Requirements and procedures for .BE registration, renewal, and transfer.
