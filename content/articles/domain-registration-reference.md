@@ -31,7 +31,7 @@ When registering a domain, you must provide accurate registrant contact informat
 
 ### Extended attributes
 
-**TLD-specific requirements:** Depending on the TLD, you may need to fill out extended attributes that are required for registration. These attributes vary by TLD and may include:
+**TLD-specific requirements:** Depending on the TLD, you may need to fill out extended attributes that are required for registration. Some TLDs support [domain trustee](/articles/what-is-domain-trustee/) service, which can change which attributes the registry collects when you register or transfer. These attributes vary by TLD and may include:
 
 - Additional contact information
 - Business registration numbers
