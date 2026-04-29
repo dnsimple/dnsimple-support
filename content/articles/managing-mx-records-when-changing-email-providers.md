@@ -1,5 +1,5 @@
 ---
-title: Managing MX Records When Changing Email Providers
+title: Manage MX Records When Changing Email Providers
 excerpt: How to update MX records when migrating from one email hosting provider to another.
 meta: Step-by-step guide to managing MX records when changing email providers, ensuring a smooth transition with minimal downtime.
 categories:
@@ -7,8 +7,7 @@ categories:
 - DNS
 ---
 
-# Managing MX Records When Changing Email Providers
-
+# Manage MX Records When Changing Email Providers
 ### Table of Contents {#toc}
 
 * TOC

@@ -1,12 +1,12 @@
 ---
-title: Deleting a Domain
+title: Delete a Domain
 excerpt: How to delete a domain from a DNSimple account.
-meta: Learn the simple steps to delete a domain from your DNSimple account. Follow our guide for a smooth and hassle-free domain removal process.
+meta: How to delete a domain from your DNSimple account. Deleting removes the domain from your account but does not cancel the registration at the registry.
 categories:
 - Domains and Transfers
 ---
 
-# Deleting a Domain
+# Delete a Domain
 
 > [!WARNING]
 > Do not delete an active domain registered or resolving with DNSimple. Deleting a domain in your account **will not** remove or cancel your domain registration.

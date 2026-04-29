@@ -1,13 +1,13 @@
 ---
-title: Let's Encrypt and DNSimple
-excerpt: Let's Encrypt is a free, automated, and open certificate authority that DNSimple integrates with to provide SSL certificates at no cost.
-meta: Learn about Let's Encrypt, how DNSimple integrates with it, and what makes Let's Encrypt certificates different from traditional certificate authorities.
+title: "Let's Encrypt: Free SSL Certificates with DNSimple"
+excerpt: Let's Encrypt provides free SSL certificates through DNSimple, with automated issuance and renewal via DNS-based validation.
+meta: Let's Encrypt provides free SSL certificates through DNSimple with automated issuance, renewal, and DNS validation for your domains.
 categories:
 - SSL Certificates
 - Integrations
 ---
 
-# Let's Encrypt and DNSimple
+# Let's Encrypt: Free SSL Certificates with DNSimple
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-[Let's Encrypt](https://letsencrypt.org/) is a [certificate authority](/articles/what-is-certificate-authority/) (CA) that was launched in late 2015 and became an official member of the CA/Browser Forum in 2016. Let's Encrypt revolutionized the SSL certificate landscape by making certificates free and easily accessible.
+[Let's Encrypt](https://letsencrypt.org/) is a [certificate authority](/articles/what-is-certificate-authority/) (CA) that provides free [SSL certificates](/articles/what-is-ssl-certificate/) for any domain. Launched in late 2015, Let's Encrypt became an official member of the CA/Browser Forum in 2016 and revolutionized the SSL certificate landscape by making certificates free and easily accessible.
 
 ## What makes Let's Encrypt different {#what-makes-it-different}
 
@@ -103,9 +103,9 @@ DNSimple does not support all Let's Encrypt capabilities. Some limitations exist
 
 ## Taking action {#taking-action}
 
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
-- [Renewing a Let's Encrypt SSL Certificate](/articles/renewing-lets-encrypt-ssl-certificate/) - Learn how to renew Let's Encrypt certificates
-- [Renewing an SSL Certificate](/articles/renewing-ssl-certificate/) - General renewal process information
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Step-by-step guide to ordering a Let's Encrypt certificate
+- [Renewing a Let's Encrypt SSL Certificate](/articles/renew-lets-encrypt-ssl-certificate/) - Learn how to renew Let's Encrypt certificates
+- [Renewing an SSL Certificate](/articles/renew-ssl-certificate/) - General renewal process information
 
 ## Related reading {#related}
 

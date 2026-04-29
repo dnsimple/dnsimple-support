@@ -17,7 +17,7 @@ categories:
 
 Before a [Certificate Authority](/articles/what-is-certificate-authority/) (CA) will issue an SSL certificate, it must verify that the person requesting the certificate actually controls the domain. This process is called **domain validation** (also referred to as **Domain Control Validation**, or **DCV**).
 
-Domain validation exists to prevent certificates from being issued for domains the requester does not own. Without it, anyone could obtain a certificate for any domain and use it to intercept traffic or impersonate a website.
+Domain validation exists to prevent certificates from being issued for domains the requester does not own. Without it, anyone could obtain a certificate for any domain and use it to intercept traffic or impersonate a website. For step-by-step guidance on completing validation in DNSimple, see [How to Validate Your Domain for an SSL Certificate](/articles/validate-domain-ssl-certificate/).
 
 ## Validation levels {#validation-levels}
 

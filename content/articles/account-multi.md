@@ -1,6 +1,7 @@
 ---
 title: Multiple Accounts Per User
 excerpt: How to manage multiple accounts per DNSimple user and switch active accounts.
+meta: Manage multiple DNSimple accounts under one user profile. Create separate accounts for different projects and switch between them easily.
 categories:
 - Account
 ---
@@ -14,12 +15,14 @@ categories:
 
 ---
 
-DNSimple allows a user to be associated with multiple accounts. This happens in two cases:
+DNSimple allows a user to be associated with multiple accounts. If you cannot find a domain you expect to see, it may be in a different account. See [I Can't Find My Domain](/articles/finding-missing-domain/) for troubleshooting steps.
+
+This happens in two cases:
 
 - The user is [added as a member to an existing account](/articles/managing-seats/).
 - The user creates another account under their existing user profile.
 
-Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you want to invite another user to manage domains on your account, [read this article](/articles/managing-seats/), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
+Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you are an agency or freelancer giving each client their own DNSimple account, see [Creating Accounts for Clients](/articles/setting-up-accounts-for-clients/). If you want to invite another user to manage domains on your account, [read this article](/articles/managing-seats/), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
 
 ## Creating a separate account
 

@@ -1,7 +1,7 @@
 ---
 title: SSL Certificates Frequently Asked Questions
 excerpt: A collection of frequently asked questions about the SSL certificates offered by DNSimple.
-meta: Frequently asked questions about SSL certificates at DNSimple, covering pricing, domain requirements, certificate types, validity periods, and common procedures.
+meta: FAQ about SSL certificates at DNSimple, covering pricing, domain requirements, certificate types, validity periods, and common procedures.
 categories:
 - SSL Certificates
 structured_data: true
@@ -77,7 +77,7 @@ structured_data: true
     
 1.  #### What type of SSL certificates does DNSimple provide?
 
-    We provide different types of _domain-validated_ [SSL certificates](/articles/ssl-certificates/), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority/). We do not provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
+    We provide different types of _domain-validated_ [SSL certificates](/articles/what-is-ssl-certificate/), signed by globally recognized [certificate authorities](/articles/what-is-certificate-authority/). We do not provide _organization-validated_ (OV) or _extended-validation_ (EV) SSL certificates.
 
     To learn more, visit [SSL Certificates](/articles/ssl-certificates/).
 

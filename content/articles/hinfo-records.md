@@ -1,7 +1,7 @@
 ---
 title: What Are HINFO Records?
 excerpt: HINFO records indicate the hardware type and operating system of the host.
-meta: Learn how HINFO records work and why they have largely been superseded.
+meta: HINFO records store hardware and operating system details for a host in DNS. Rarely used in modern deployments due to security concerns.
 categories:
 - DNS
 ---

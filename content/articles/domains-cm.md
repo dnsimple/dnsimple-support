@@ -1,6 +1,7 @@
 ---
 title: .CM Domains
 excerpt: This article explains the requirements and special procedures for .CM domain names.
+meta: Register .CM domains with DNSimple. Name server changes are limited to 3-4 per 30 days, and expired .CM domains have no grace or redemption period.
 categories:
 - TLDs
 ---

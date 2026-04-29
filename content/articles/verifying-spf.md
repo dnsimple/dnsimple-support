@@ -1,14 +1,13 @@
 ---
-title: Verifying SPF with dig and Online Tools
+title: Verify SPF with dig and Online Tools
 excerpt: How to verify your SPF record is being returned correctly.
-meta: Learn how to verify your SPF record is working and find online tools to help monitor.
+meta: Verify your SPF record with dig or online tools, understand validation results, and fix common issues like syntax errors.
 categories:
 - DNS
 - Emails
 ---
 
-# Verifying SPF with dig and Online Tools
-
+# Verify SPF with dig and Online Tools
 ### Table of Contents {#toc}
 
 * TOC
@@ -78,6 +77,8 @@ When verifying your SPF record, you may see different results:
 **Too many DNS lookups:** SPF records are limited to 10 DNS lookups. If your SPF record exceeds this limit, you may need to simplify it or use IP addresses instead of `include:` mechanisms.
 
 **Missing mechanisms:** Ensure your SPF record includes all the email providers you use. Missing an authorized sender can cause legitimate emails to fail SPF checks.
+
+If your SPF record is published correctly but messages are still failing authentication, see [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) for common causes like missing senders and DNS lookup limits.
 
 ## Technical details {#technical}
 

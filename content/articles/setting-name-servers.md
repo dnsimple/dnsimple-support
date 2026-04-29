@@ -1,6 +1,7 @@
 ---
 title: Setting the Name Servers for a Domain
 excerpt: To set the name servers, your domain must be registered with DNSimple. If it's not, use the control panel of your current domain registrar to update the name servers.
+meta: How to set name servers for your domain. Your domain must be registered with DNSimple, or use your current registrar's control panel.
 categories:
   - Name Servers
 ---

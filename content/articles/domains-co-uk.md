@@ -1,6 +1,7 @@
 ---
 title: .CO.UK Domains
 excerpt: This article explains the requirements and special procedures for .CO.UK domain names.
+meta: Register .CO.UK domains with DNSimple. Open worldwide with no eligibility restrictions. Transfers may include a 2-year extension based on time remaining.
 categories:
 - TLDs
 ---

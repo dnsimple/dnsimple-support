@@ -1,7 +1,7 @@
 ---
 title: Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?
 excerpt: You cannot upgrade a single-name SSL certificate to a wildcard. You must purchase a new wildcard certificate separately.
-meta: DNSimple does not support upgrading a single-name SSL certificate to a wildcard certificate. Learn about the refund policy and how to order a wildcard certificate instead.
+meta: DNSimple does not support upgrading a single-name SSL certificate to a wildcard. Learn the refund policy and how to order a wildcard certificate.
 categories:
 - SSL Certificates
 ---
@@ -16,8 +16,8 @@ If you decide a wildcard SSL certificate better fits your needs within 30 days o
 
 ## How to Order a Wildcard Certificate {#order}
 
-- **Sectigo wildcard** - See [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/). Covers all single-level subdomains plus the root domain. Costs $100/year.
-- **Let's Encrypt wildcard** - See [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/). Covers all single-level subdomains (for example, *.example.com), but does not include the root domain (example.com). Free, but requires your domain to resolve with DNSimple.
+- **Sectigo wildcard** - See [Ordering a Wildcard SSL Certificate](/articles/buy-wildcard-ssl-certificate/). Covers all single-level subdomains plus the root domain. Costs $100/year.
+- **Let's Encrypt wildcard** - See [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/). Covers all single-level subdomains (for example, *.example.com), but does not include the root domain (example.com). Free, but requires your domain to resolve with DNSimple.
 
 For help choosing between single-name and wildcard coverage, see [Choosing the SSL Certificate Names](/articles/ssl-certificate-names/).
 

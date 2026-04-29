@@ -1,7 +1,7 @@
 ---
 title: What Is EDNS Client Subnet Support?
 excerpt: What ECS is and how it works.
-meta: This article explains what EDNS Client Subnet (ECS) support is, how it is an option in the Extension Mechanisms for DNS, and how it's configured with an ALIAS record
+meta: EDNS Client Subnet (ECS) is an Extension Mechanisms for DNS option that improves geolocation accuracy. Learn how ECS works with ALIAS records at DNSimple.
 categories:
 - DNS
 ---

@@ -1,7 +1,7 @@
 ---
 title: What Are SSHFP Records?
 excerpt: SSHFP records securely publish SSH host key fingerprints in DNS.
-meta: Learn how SSHFP records enhance the security and user experience of SSH connections.
+meta: SSHFP records publish SSH host key fingerprints in DNS for secure, automated server verification. Requires DNSSEC for full protection.
 categories:
 - DNS
 ---

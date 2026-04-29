@@ -1,7 +1,7 @@
 ---
 title: Domain Registration Reference
 excerpt: The formal requirements, restrictions, and key technical details of domain registration.
-meta: Learn more about the requirements, restrictions, and technical details for domain registration.
+meta: Domain registration requirements, character restrictions, pricing, WHOIS privacy, and auto-renewal options for registering domains with DNSimple.
 categories:
 - Domains and Transfers
 ---
@@ -31,7 +31,7 @@ When registering a domain, you must provide accurate registrant contact informat
 
 ### Extended attributes
 
-**TLD-specific requirements:** Depending on the TLD, you may need to fill out extended attributes that are required for registration. These attributes vary by TLD and may include:
+**TLD-specific requirements:** Depending on the TLD, you may need to fill out extended attributes that are required for registration. Some TLDs support [domain trustee](/articles/what-is-domain-trustee/) service, which can change which attributes the registry collects when you register or transfer. These attributes vary by TLD and may include:
 
 - Additional contact information
 - Business registration numbers
@@ -74,7 +74,7 @@ The domain registration process at DNSimple involves:
 4. Providing payment information
 5. Completing the registration
 
-For step-by-step instructions, see [Registering a Domain](/articles/registering-domain/).
+For step-by-step instructions, see [Register a Domain](/articles/registering-domain/).
 
 ## Registration pricing {#registration-pricing}
 

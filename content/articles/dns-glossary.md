@@ -1,7 +1,7 @@
 ---
 title: DNS Glossary
-excerpt: Defines terms related to DNS.
-meta: Explore our comprehensive DNS glossary, featuring essential definitions and terms to enhance your understanding of DNS and its critical components.
+excerpt: Definitions for DNS terms including records, resolvers, name servers, zones, TTL, DNSSEC, and other Domain Name System concepts.
+meta: DNS glossary with definitions for DNS records, resolvers, name servers, zones, TTL, propagation, DNSSEC, and other Domain Name System terms.
 categories:
 - DNS
 ---
@@ -13,6 +13,8 @@ categories:
 {:toc}
 
 ---
+
+A reference of DNS terminology covering record types, resolution, name servers, zones, and related concepts. Each term links to a detailed article where available.
 
 ## Core Concepts {#core-concepts}
 

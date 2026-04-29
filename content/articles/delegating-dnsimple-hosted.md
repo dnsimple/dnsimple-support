@@ -1,6 +1,7 @@
 ---
 title: Delegating a Domain registered with another Registrar to DNSimple
 excerpt: How to delegate a domain registered with a different registrar to DNSimple's name servers.
+meta: Delegate a domain registered with another registrar to DNSimple name servers by updating your name server settings at your current provider.
 categories:
 - Name Servers
 ---

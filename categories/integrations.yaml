@@ -1,7 +1,8 @@
 Integrated Domain Providers:
 - "Integrated Domain Providers at DNSimple"
-- "Managing Integrated Domains"
+- "Manage Integrated Domains"
 - "Integrated Domain Provider - GoDaddy"
+- "Link and Unlink Integrated Domain Providers"
 
 Integrated DNS Providers:
 - "Integrated DNS Providers at DNSimple"
@@ -12,23 +13,23 @@ Integrated DNS Providers:
 - "Integrated DNS Provider Azure DNS"
 - "Integrated DNS Provider CoreDNS"
 - "How to Use CoreDNS as an Integrated DNS Provider"
-- "Managing Integrated DNS Providers"
-- "Managing Integrated Zones for Integrated DNS Providers"
+- "Manage Integrated DNS Providers"
+- "Manage Integrated Zones for Integrated DNS Providers"
 
 Let's Encrypt:
-- "Let's Encrypt and DNSimple"
+- "Let's Encrypt: Free SSL Certificates with DNSimple"
 
 Heroku:
 - "Pointing the Domain Apex to Heroku"
 - "Heroku Connector"
 - "Troubleshooting Heroku shows different app error"
 - "Troubleshooting Heroku \"No such app\" error"
-- "Troubleshooting Heroku SSL errors"
-- "Redirecting www to Non-www Domain at Heroku"
-- "SSL Certificates with Heroku"
+- "Troubleshooting Heroku SSL Errors"
+- "Redirect www to Non-www Domain at Heroku"
+- "How to Install an SSL Certificate on Heroku"
 
 Cloudflare:
-- "Using Cloudflare DNSSEC with DNSimple"
+- "Use Cloudflare DNSSEC with DNSimple"
 - "Cloudflare Service"
 
 HashiCorp:

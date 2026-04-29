@@ -1,12 +1,12 @@
 ---
-title: Transferring a Domain to Another DNSimple Account
+title: Transfer a Domain to Another DNSimple Account
 excerpt: How to move a domain from one DNSimple account to another.
-meta: Learn how to easily transfer your domain between DNSimple accounts with our step-by-step guide, ensuring a smooth transition and continued management of your domain.
+meta: How to move a domain from one DNSimple account to another, including DNS records, SSL certificates, and email forwards. Covers push and accept steps.
 categories:
 - Domains and Transfers
 ---
 
-# Transferring a Domain to Another DNSimple Account
+# Transfer a Domain to Another DNSimple Account
 
 ### Table of Contents {#toc}
 
@@ -20,7 +20,9 @@ categories:
 
 You can transfer a domain between DNSimple accounts any time via the DNSimple interface. Billing responsibility will be transferred to the new domain account once the move is accepted. Transferring a domain to another account will transfer all associated resources, like DNS records, SSL certificates, and email forwards.
 
-Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer) to gain access to your account.
+If the domain uses [domain trustee](/articles/what-is-domain-trustee/), the push flow may only prompt for extended attributes that still apply under that trustee configuration.
+
+Working with a Reseller? Follow the steps outlined [here](#accepting-a-transfer) to gain access to your account. If you cannot find a domain in your account, see [I Can't Find My Domain](/articles/finding-missing-domain/).
 
 > [!WARNING]
 > Once the transfer is accepted, anyone who previously had access to the domain in your account will no longer be able to manage the domain.

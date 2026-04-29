@@ -53,9 +53,9 @@ These reports provide invaluable insights into:
 
 ### Key benefits of DMARC {#benefits}
 
-**Stronger anti-phishing and anti-spoofing:** Provides a robust defense against impersonation.
+**Stronger anti-phishing and [anti-spoofing](/articles/protecting-your-domain-from-email-spoofing/):** Provides a robust defense against impersonation.
 
-**Enhanced deliverability:** Builds trust with receiving mail servers, improving inbox placement.
+**Enhanced [deliverability](/articles/understanding-email-deliverability/):** Builds trust with receiving mail servers, improving inbox placement.
 
 **Brand protection:** Prevents malicious use of your domain, safeguarding your brand reputation.
 
@@ -65,9 +65,9 @@ A DMARC record is published as a [TXT record](/articles/txt-record/) at a specif
 
 ## Setting up, verifying, and monitoring DMARC {#setup}
 
-For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, refer to [Setting Up DMARC](/articles/set-up-dmarc/).
+For step-by-step instructions on how to add a DMARC record to your DNSimple zone, including guidance on the required `_dmarc` subdomain and common policy tags, refer to [Set Up DMARC](/articles/set-up-dmarc/).
 
-To verify that your DMARC record is correctly published and configured, consult our how-to guide: [Verifying DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
+To verify that your DMARC record is correctly published and configured, consult our how-to guide: [Verify DMARC with dig and Online Tools](/articles/verifying-dmarc/). This covers using command-line tools like `dig` and online verification services.
 
 ## Technical details {#technical}
 
@@ -75,9 +75,10 @@ For more on the technical specifications and intricacies of the DMARC protocol, 
 
 ## Related articles {#related}
 
-- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Guidance on implementing SPF, DKIM, and DMARC together
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - How alignment requirements affect email authentication
-- [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - How to move from monitoring to enforcement
+- [How to Set Up Email Authentication for Your Domain](/articles/email-authentication/) - Set up SPF, DKIM, and DMARC together
+- [Email Authentication Best Practices](/articles/email-authentication-best-practices/) - Ongoing maintenance for SPF, DKIM, and DMARC
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - How alignment requirements affect email authentication
+- [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) - How to move from monitoring to enforcement
 
 ## Have more questions?
 

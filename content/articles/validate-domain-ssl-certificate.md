@@ -1,7 +1,7 @@
 ---
 title: How to Validate Your Domain for an SSL Certificate
 excerpt: Learn how to complete domain validation for your SSL certificate using email-based or DNS-based validation methods in DNSimple.
-meta: Understand the domain validation methods available for SSL certificates in DNSimple, with step-by-step instructions for email-based (Sectigo) and DNS-based (Let's Encrypt) validation.
+meta: Domain validation methods for SSL certificates in DNSimple. Step-by-step instructions for email-based (Sectigo) and DNS-based (Let's Encrypt) validation.
 categories:
 - SSL Certificates
 ---
@@ -33,7 +33,7 @@ Email-based validation is used for all Sectigo certificates. The Certificate Aut
 <div class="section-steps" markdown="1">
 ##### Steps to complete email-based validation
 
-1. After ordering a [Sectigo SSL certificate](/articles/ordering-standard-certificate/), you will be shown a list of approved email addresses for your domain.
+1. After ordering a [Sectigo SSL certificate](/articles/buy-sectigo-ssl-certificate/), you will be shown a list of approved email addresses for your domain.
 1. Select one of the following administrative email addresses:
 
     - `admin@yourdomain.com`
@@ -70,11 +70,11 @@ DNS-based validation is used for all Let's Encrypt certificates. DNSimple handle
 <div class="section-steps" markdown="1">
 ##### Steps to complete DNS-based validation
 
-1. After ordering a [Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/), DNSimple automatically creates the required ACME challenge DNS records for your domain.
+1. After ordering a [Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/), DNSimple automatically creates the required ACME challenge DNS records for your domain.
 1. DNSimple verifies that the DNS records are resolving correctly.
 1. Once the DNS challenge is verified, Let's Encrypt issues the certificate automatically.
 1. You will receive an email and [webhook notification](https://developer.dnsimple.com/v2/webhooks/) when the certificate is issued.
-1. Download and [install the certificate](/articles/installing-ssl-certificate/) on your server.
+1. Download and [install the certificate](/articles/install-ssl-certificate/) on your server.
 
 </div>
 
@@ -112,6 +112,6 @@ If you have additional questions or need any assistance with domain validation, 
 
 - [SSL Certificate Email-Based Domain Validation](/articles/ssl-certificates-email-validation/) -- Detailed reference on email validation
 - [How to Select a Different SSL Certificate Domain Validation Email](/articles/how-to-different-ssl-domain-validation-email/) -- Use an alternative email
-- [Let's Encrypt and DNSimple](/articles/letsencrypt/) -- DNS-based validation integration details
+- [Let's Encrypt: Free SSL Certificates with DNSimple](/articles/letsencrypt/) -- DNS-based validation integration details
 - [How Does an SSL Certificate Renewal Work?](/articles/how-certificate-renewal-works/) -- Understand why validation is needed for renewals
 - [SSL Certificate Validity Changes (2026-2029)](/articles/announcement-ssl-certificate-validity-changes/) -- Impact on validation frequency

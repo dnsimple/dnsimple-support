@@ -127,7 +127,7 @@ If the record creating the ENT is no longer needed (such as an old ACME challeng
 
 - [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) — Understand what ENTs are and how they work
 
-- [Troubleshooting Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) — Diagnose and resolve intermittent ENT-related problems
+- [Troubleshoot Empty Non-Terminal Issues](/articles/troubleshooting-empty-non-terminal-issues/) — Diagnose and resolve intermittent ENT-related problems
 
 - [How to Use dig](/articles/how-dig/) — Learn how to use the dig command-line tool for DNS queries
 

@@ -16,7 +16,7 @@ You can add records to your domain by importing a [zone file](/articles/what-is-
 > Importing a zone file will not delete or replace the existing domain's records.
 
 > [!NOTE]
-> As an alternative to manually importing zone files, you can use [Auto-Importing DNS Records](/articles/auto-import-dns/) to automatically scan and import your existing DNS records. To export your domain's records to a zone file, see [Export Zone File](/articles/export-records-zone-file/).
+> As an alternative to manually importing zone files, you can use [Auto-Import DNS Records](/articles/auto-import-dns/) to automatically scan and import your existing DNS records. To export your domain's records to a zone file, see [Export Zone File](/articles/export-records-zone-file/).
 
 <div class="section-steps" markdown="1">
 ##### How to import records from a zone file

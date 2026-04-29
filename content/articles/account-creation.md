@@ -1,6 +1,7 @@
 ---
 title: Account Creation
 excerpt: How to sign up for a DNSimple account or create a new account for an existing DNSimple user.
+meta: Sign up for a DNSimple account, verify your email, choose a plan, and activate your subscription. Supports Google sign-in and multiple accounts.
 categories:
 - Account
 ---

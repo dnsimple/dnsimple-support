@@ -1,5 +1,5 @@
 ---
-title: Managing Email DNS Records
+title: Manage Email DNS Records
 excerpt: How to add and manage MX, SPF, DKIM, DMARC, and other email-related DNS records in DNSimple.
 meta: How to manage email DNS records in DNSimple, including MX, SPF, DKIM, DMARC, CNAME, and TXT records for email delivery and authentication.
 categories:
@@ -7,8 +7,7 @@ categories:
 - DNS
 ---
 
-# Managing Email DNS Records
-
+# Manage Email DNS Records
 ### Table of Contents {#toc}
 
 * TOC
@@ -40,7 +39,7 @@ Email functionality requires several types of DNS records:
 **For email forwarding:** MX records are automatically added when you enable email forwarding. Do not manually add MX records for email forwarding.
 
 > [!NOTE]
-> For detailed MX record setup, see [Setting Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/).
+> For detailed MX record setup, see [Set Up MX Records for Email Hosting](/articles/setting-up-mx-records-for-email-hosting/).
 
 ## SPF records {#spf}
 
@@ -58,7 +57,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
 > Your domain must have only one SPF record. If you use multiple email services, combine all `include:` statements into a single record.
 
 > [!NOTE]
-> For detailed SPF setup, see [Setting Up SPF Records](/articles/setting-up-spf/).
+> For detailed SPF setup, see [Set Up SPF Records](/articles/setting-up-spf/).
 
 ## DKIM records {#dkim}
 
@@ -71,7 +70,7 @@ v=spf1 include:_spf.google.com include:spf.mtasv.net ~all
 1. If you use multiple email services, each one may require its own selector. Add a separate record for each.
 
 > [!NOTE]
-> For detailed DKIM setup, see [Setting Up DKIM](/articles/set-up-dkim/) and [Managing Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
+> For detailed DKIM setup, see [Set Up DKIM](/articles/set-up-dkim/) and [Manage Multiple DKIM Selectors](/articles/managing-multiple-dkim-selectors/).
 
 ## DMARC records {#dmarc}
 
@@ -86,7 +85,7 @@ v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com
 ```
 
 > [!NOTE]
-> For detailed DMARC setup, see [Setting Up DMARC](/articles/set-up-dmarc/) and [Implementing a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
+> For detailed DMARC setup, see [Set Up DMARC](/articles/set-up-dmarc/) and [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/).
 
 ## CNAME records for email services {#cname}
 

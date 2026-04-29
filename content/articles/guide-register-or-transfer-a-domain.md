@@ -1,5 +1,5 @@
 ---
-meta: Discover the step-by-step guide for effortlessly registering or transferring your domain with DNSimple, ensuring a smooth and efficient process every time.
+meta: How to register a new domain or transfer an existing domain to DNSimple. Covers account setup, domain search, registration, and the transfer process.
 title: Transfer or Register Domains With DNSimple
 excerpt: How to register or transfer a domain with DNSimple
 categories:
@@ -20,7 +20,7 @@ If you don't own a domain name yet, you'll need to register one before you can c
 
 **Registering a domain with DNSimple**
 
-To register a domain to your account, follow the steps in [Registering a Domain](https://support.dnsimple.com/articles/registering-domain/).
+To register a domain to your account, follow the steps in [Register a Domain](https://support.dnsimple.com/articles/registering-domain/).
 
 You can choose from over 500 top-level domains (TLDs) to register with DNSimple — [find yours now](https://dnsimple.com/tlds).
 

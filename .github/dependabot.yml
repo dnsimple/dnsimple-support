@@ -9,6 +9,10 @@ updates:
     labels:
       - task
       - dependencies
+    groups:
+      ruby-patch:
+        update-types:
+          - patch
 
   - package-ecosystem: github-actions
     directory: /
@@ -36,6 +40,6 @@ updates:
     cooldown:
       default-days: 3
     groups:
-      javascript-dependencies:
+      javascript-patch:
         update-types:
           - patch

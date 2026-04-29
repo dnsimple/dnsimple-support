@@ -1,7 +1,7 @@
 ---
 title: How to Switch From an ECC-Signed Certificate to RSA
 excerpt: What to do when you need your SSL certificate to be signed with an RSA key.
-meta: Learn how to get an RSA-signed SSL certificate in DNSimple if you received an ECC-signed certificate, with steps for both Let's Encrypt and Sectigo certificates.
+meta: How to get an RSA-signed SSL certificate in DNSimple if you received an ECC-signed certificate. Steps for both Let's Encrypt and Sectigo.
 categories:
 - SSL Certificates
 ---
@@ -31,7 +31,7 @@ Let's Encrypt certificates cannot be reissued, so you will need to order a new c
 
 </div>
 
-See our guides for [ordering](/articles/ordering-lets-encrypt-certificate/) and [renewing](/articles/renewing-lets-encrypt-ssl-certificate/) Let's Encrypt certificates.
+See our guides for [ordering](/articles/get-lets-encrypt-certificate/) and [renewing](/articles/renew-lets-encrypt-ssl-certificate/) Let's Encrypt certificates.
 
 ## Switching a Sectigo Certificate to RSA {#sectigo-rsa}
 
@@ -40,7 +40,7 @@ For Sectigo certificates, you can reissue the existing certificate with an RSA k
 <div class="section-steps" markdown="1">
 ##### Steps to reissue a Sectigo certificate with RSA
 
-1. Follow the [process for reissuing a Sectigo SSL certificate](/articles/reissuing-ssl-certificate/).
+1. Follow the [process for reissuing a Sectigo SSL certificate](/articles/reissue-ssl-certificate/).
 1. In the reason field, explain that you need an RSA-based certificate.
 1. Select the <label>RSA</label> radio button for the signature algorithm.
 1. Provide your CSR content in the text area if you have a custom CSR.
@@ -54,8 +54,8 @@ For Sectigo certificates, you can reissue the existing certificate with an RSA k
 
 Once the new certificate is issued, you will need to configure, verify, and install it on your server:
 
-- [Installing an SSL Certificate](/articles/installing-ssl-certificate/)
-- [Re-Issuing an SSL Certificate](/articles/reissuing-ssl-certificate/)
+- [Installing an SSL Certificate](/articles/install-ssl-certificate/)
+- [Re-Issuing an SSL Certificate](/articles/reissue-ssl-certificate/)
 
 ## Have more questions?
 

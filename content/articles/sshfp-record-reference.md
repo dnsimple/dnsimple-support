@@ -1,7 +1,7 @@
 ---
 title: SSHFP Record Reference
 excerpt: The structure and canonical representation of an SSHFP record
-meta: Learn more about the structure, format, and key technical details of SSHFP records.
+meta: SSHFP records store SSH server fingerprints in DNS for host key verification. Reference covers format, algorithm types, fingerprint types, and examples.
 categories:
 - DNS
 ---

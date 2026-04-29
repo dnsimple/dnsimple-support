@@ -1,7 +1,7 @@
 ---
 title: DNSimple and ClickFunnels
 excerpt: Get started with your new DNSimple account quickly.
-meta: Unlock the full potential of your DNSimple account with our comprehensive guide to integrating with your ClickFunnel account. Get started seamlessly today!
+meta: Move your domain from ClickFunnels to your own DNSimple account. Request the domain push, accept it, and manage your domain and certificates.
 categories:
 - DNSimple
 ---
@@ -15,236 +15,72 @@ categories:
 
 ---
 
-Welcome to [DNSimple](/articles/dnsimple-services/)! We're here to make your transition from ClickFunnels as easy as possible.
+ClickFunnels uses DNSimple as its domain registrar. When you purchase a domain through ClickFunnels, the domain is registered under their reseller account. To manage the domain yourself, you need to move it into your own DNSimple account.
 
-## Step 1: Setting up your DNSimple account and free trial
+> [!NOTE]
+> If you already have a DNSimple account but cannot find your domain, see [I Can't Find My Domain](/articles/finding-missing-domain/).
+
+## Create a DNSimple account {#create-account}
+
+If you do not already have a DNSimple account, create one before requesting the domain transfer.
 
 <div class="section-steps" markdown="1">
-1. Go to [DNSimple.com](https://dnsimple.com). In the upper-right corner of the screen, click <label>Get Started</label>.
-1. Enter your email address and password. Click <label>Join</label>.
-1. Fill out the form on the <label>How will you use DNSimple?</label> page.
-1. Choose the plan that fits your needs.
+1. Go to [dnsimple.com](https://dnsimple.com) and click <label>Get Started</label>.
+1. Enter your email address and password, then click <label>Join</label>.
+1. Choose the [plan](/articles/dnsimple-plans/) that fits your needs.
 1. Add your credit card details, then click <label>Start my free trial</label>. Your [account will not be activated](/articles/account-activation/) until you add a credit card.
-
-> [!NOTE]
-> You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/). We ask for a credit card in case you want to purchase products, like [registering](/articles/registering-domain/) or [transferring](/articles/domain-transfer/) a domain, or [getting an SSL certificate](/articles/ordering-standard-certificate/) to secure your site.
 </div>
 
+> [!TIP]
+> You can cancel any time during your 30-day trial without being charged for your [DNSimple subscription](/articles/dnsimple-services/).
 
-## Step 2: Asking ClickFunnels to move the domain to your DNSimple account
+## Request the domain move from ClickFunnels {#request-move}
+
+Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) using the email address associated with your ClickFunnels account. Include the following information:
+
+- Confirmation that you have a paid DNSimple account.
+- The email address associated with your ClickFunnels account.
+- Your DNSimple **Account Identifier**. Find it by opening the **account switcher** in the top-right corner, selecting your account, clicking <label>Account Settings</label>, and locating the identifier in the **Account** card.
+- The domain name(s) you want to transfer.
+- The last 4 digits and expiration date of the card on file with your ClickFunnels account.
+
+ClickFunnels will reply when the domain has been moved. You will also receive an email from DNSimple letting you know a [domain push](/articles/transferring-domain-between-accounts/) is pending.
+
+![Email alerting you that a domain push is pending](/files/domain-push-email.png)
+
+## Accept the domain push {#accept-push}
 
 <div class="section-steps" markdown="1">
-1. Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) using the email address associated with your ClickFunnels account. You can use this template, replacing the placeholders with your information:
-
-    > Hi there,
-
-    > I would like to move my domain(s) from ClickFunnels to my DNSimple account.
-
-    > i. Confirm that you created a paid DNSimple account.
-
-    > `YES`
-
-    > ii. Provide the email address associated with your ClickFunnels account and your DNSimple account identifier.
-
-    > - `Your ClickFunnels email address`
-    > - `Your DNSimple account identifier`
-
-    You can find your account identifier in your DNSimple account by opening the account switcher in the top-left corner, selecting the correct account, clicking Settings in the left sidebar, and locating the Account Identifier in the Account card. Copy that value and paste it here.
-
-
-    > iii. Name of domain(s) you want to transfer.
-
-    > `your domain(s)`
-
-    > iv. Verify the last 4 digits and the expiration date of the card we have on file for your ClickFunnels account.
-
-    > `last 4 digits and expiration date of your credit card`
-
-    > Thanks!
-
-1. ClickFunnels will reply to your email when they move the domain into your account. You'll also receive an email from DNSimple letting you know the domain is waiting for you.
-
-  ![Email alerting you that a domain push is pending](/files/domain-push-email.png)
+1. [Log in to DNSimple](https://dnsimple.com/login). You will see a notification on your dashboard about the pending push.
+1. Click <label>View</label> to see the pending domain push, then click <label>Accept</label>.
+1. You will be prompted to assign a [contact](/articles/changing-domain-contact/) to the domain. This updates the registrant information from ClickFunnels to you.
+1. Click <label>Accept Push</label> to complete the transfer.
 </div>
 
-
-## Step 3: Accepting and setting up the domain in DNSimple
-
-<div class="section-steps" markdown="1">
-1. [Log in to DNSimple](https://dnsimple.com/login). You'll see a <label>Get Started</label> screen. Select <label>Skip this and go to the dashboard</label>, found under the three boxes of options. We'll go over these other options in the [section below](#other-options-when-getting-started-with-a-new-account).
-1. Welcome to the [Dashboard](https://dnsimple.com/dashboard) – the homepage of your DNSimple account. You'll see alerts that need your attention at the top of your dashboard. Click <label>View</label> to see your pending domain push and accept it.
-1. <label>Push Requests</label> and your domain are listed below. Click <label>Accept</label> to the right of the domain.
-1. Now that you've accepted the domain push, you need to change the Registrant information. This information states that you're the owner of the domain. When the domain was with ClickFunnels, they were listed as the owner, which is why we need to update this. See [Updating the registrant information](#updating-the-registrant-information) for a description of each field.
-
-> [!NOTE]
-> After the domain is pushed into your DNSimple account, you must also change ownership of the domain from ClickFunnels to yourself. This [locks the domain for further transfers](/articles/icann-60-day-lock-registrant-change/) for 60 days in accordance with ICANN's rules, meaning you have to keep your domain at DNSimple for 60 days before you can transfer the domain elsewhere. You can learn more about transferring [here](#transfer-this-domain-to-another-provider).
+For more details on the push process, see [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
 
 > [!WARNING]
-> You'll receive a verification email to the email address you used for the domain contact requesting verification of changes to the contact information. **Make sure your email address is written correctly**. If you're moving your domain from ClickFunnels, you made this change. Verify it as soon as you receive the email. If you don't see an email, make sure to check your spam folder.
->     Ignoring this message will lead to a suspended website, meaning it won't work. If this happens, the suspension will be lifted as soon as you verify it.
->     After you verify, you'll receive a confirmation email that the verification was successful. You don't need to respond to this email.
+> Changing the registrant information [locks the domain from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). You will receive a verification email to confirm the contact change. Verify it promptly - ignoring it will lead to a [suspended domain](/articles/icann-domain-validation/).
 
-1. Click <label>Accept Push</label>. This takes you to the domain's page. You'll see a banner stating the domain has been successfully pushed to your account. Read more about [accepting a push](/articles/transferring-domain-between-accounts/#accepting-a-transfer) to your account.
-</div>
+## Manage your DNS {#dns}
 
-Congratulations! You're now the owner of the domain and are managing the DNS.
+Your DNS records transfer with the domain. If your site was working before the move, it will continue to work without changes.
 
-### Updating the registrant information
+- Your [name servers](/articles/what-is-a-nameserver/) do not need to change. The domain was already using DNSimple name servers through ClickFunnels.
+- To view or edit your DNS records, click on the domain, then select the <label>DNS</label> tab. See the [record editor](/articles/record-editor/) guide for details.
+- If you are no longer using ClickFunnels for your website and have switched to another hosting provider, you will need to update your DNS records to point to the new host. Contact your hosting provider for the records you need to add.
 
-Let's break down the information we're asking for:
+## Set up a certificate {#certificates}
 
-| Name                   | Description                                                                                                                                                                                                                                                                 |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Label                  | You can give contacts a unique label. This is helpful when managing multiple contacts. For now, let's leave this field blank.                                                                                                                       |
-| First Name / Last Name | Enter the first and last name of the person you want listed as the domain's owner. In most cases, this person is you.                                                                                                                                              |
-| Email                  | Make sure this is accurate. You'll be sent emails verifying your information that you'll be required to approve. If you enter your email address incorrectly, this email will not be delivered, and your domain could be suspended until it's fixed. |
-| Organization Name      | If you're registering the domain for a company, you'll enter the company name. Let's leave this blank for now.                                                                                                                                                                   |
-| Job Title              | If you're registering the domain for a company, you'll enter your job title. Let's leave this blank, too.                                                                                                                                                       |
-| Phone                  | Enter your complete phone number, starting with the country code.                                                                                                                                                                                                            |
-| Fax                    | This is usually relevant for company registrations — we'll leave this blank as well.                                                                                                                                                                                           |
-| Address                | Enter your complete physical or postal address.                                                                                                                                                                                                                             |
+ClickFunnels includes a certificate with their service. After moving the domain, you will need to manage your own certificate.
 
-### Other options when starting with a new account
-
-#### Adding a domain
-
-If you were [purchasing a new domain](/articles/adding-domain/#registering-a-new-domain), or [transferring a domain](/articles/adding-domain/#transferring-a-domain-into-dnsimple) in from another provider, like GoDaddy, you'd choose this. You're not transferring a domain in from ClickFunnels, because they use DNSimple as their registrar already. You're moving your domain from ClickFunnels's DNSimple account into your DNSimple account.
-
-#### Requesting an SSL certificate
-
-If you need to [purchase a certificate](/articles/getting-started-ssl-certificates/) right away, choose this option. ClickFunnels includes a certificate with their services to secure your site. We talk about this more in [What are certificates?](#what-are-certificates-?).
-
-#### Exploring the API
-
-The API is a great resource for those with technical backgrounds to take advantage of automation. If you want to learn more, check out our [API documentation](/articles/api-documentation/).
-
-
-## Step 4: Understanding the domain homepage
-
-Let's explore the domain management options on your domain's homepage.
-
-### Delegation
-
-You'll find your name servers listed under the <label>Registration</label> tab. [Name servers](/articles/what-is-a-nameserver/) work as a directory translating domain names into IP addresses. They make things easy to find across the Internet.
-
-<div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
-  <iframe loading="lazy" src="https://www.youtube.com/embed/2WdF1zT01HY" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-You don't need to change the name servers when you move your domain from ClickFunnels.
-
-The only reason to change the name servers is if you want to [manage your DNS with another provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider), like GoDaddy or Cloudflare, and keep your registration with us.
+- For most sites, a [Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/) provides the security you need at no extra cost. Let's Encrypt certificates cover your root domain and `www` subdomain.
+- If you need a [wildcard certificate](/articles/buy-wildcard-ssl-certificate/) to cover all subdomains, check which [plans](/articles/dnsimple-plans/) support this feature.
+- To compare certificate options, see [Sectigo vs Let's Encrypt](/articles/standard-vs-letsencrypt/).
 
 > [!NOTE]
-> Any changes made to DNS or certificates will only work if the name servers are pointing to that provider. If you make changes to your certificates in DNSimple, but you moved your delegation to Cloudflare, those changes won't be reflected on your site.
-
-> [!WARNING]
-> You must have an active subscription with the provider you're pointing the name servers to for your DNS to resolve. Read [what happens if you stop paying for your DNSimple subscription](/articles/what-happens-if-i-stop-paying/).
-
-### Registered
-
-#### Renew by date
-
-This is the date your domain expires. It includes your domain's [redemption period](/articles/what-happens-when-domain-expires/#redemption-period). You'll own the domain until this date, even if you're not using it.
-
-To prevent the domain from going into the expiration process, we recommend [turning on auto-renewal](/articles/domain-auto-renewal/). This prevents the stress of forgetting to renew your domain. We begin the renewal process a month before the domain expires, ensuring everything is ready to go before your renewal date.
-
-If you forgot to turn on auto-renew, didn't manually renew it yourself, and want to keep the domain, there's a [lengthy expiration process](/articles/what-happens-when-domain-expires/) and time to get it back. If you wait too long, and it's in the redemption period, you'll be required to pay a penalty fee in addition to the standard renewal costs.
-
-Below the renew by date, you'll see the option to turn on auto-renew with the standard registration costs.
-
-#### Transferring a domain to another provider
-
-If you want to move a domain to another provider, unlock the domain, and request an authorization code. This is done with one click [following these steps](/articles/transferring-domain-away/).
-
-> [!NOTE]
-> You won't be able to transfer your domain for 60 days after accepting the push from ClickFunnels. This is due to the 60-day ICANN [lock after a change of registrant](/articles/icann-60-day-lock-registrant-change/). While the domain is locked, it will be grayed-out, and you'll see the unlock date next to it.
-
-### Contact
-
-This is the information you provided when you moved the domain and the WHOIS [ownership contact information](/articles/changing-domain-contact/). You shouldn't need to make any changes to this unless there's an error, or your information changes.
-
-You'll see the option to [enable WHOIS Privacy](/articles/whois-privacy/). This is at your discretion. Per GDPR, common TLDs like `.COM` automatically redact the information in WHOIS. You can learn more in [this article](/articles/domain-privacy-after-gdpr/).
-
-### Activity
-
-Click your domain name, then **Overview** to locate the activity log. If you want to review past changes, select **View** in the Activity card. Any [changes you make](/articles/activity-tracking/#activity-tracking-at-the-domain-level) to your DNS will show here for reference.
-
-### DNS
-
-The DNS section of your domain includes the records and other technical options you need for your domain to function properly. We've broken down each section below.
-
-#### Secondary DNS
-
-Deploying a secondary DNS provider that doesn't share the same infrastructure as your primary provider (DNSimple) means if your primary DNS provider temporarily goes down, your customers continue to have access to your site. You can take advantage of this feature, and have the DNS with another provider as a backup, in the unlikely event that we face downtime.
-
-You're not required to use secondary DNS, and your site will function without it. You can learn more [in this article](/articles/secondary-dnsimple/).
-
-#### One-click services
-
-Our One-click services simplify connecting your site to other popular services. You connect them with one click, and we handle the record setup. Take a look at [the options](/articles/services/) to see if any of the services apply to your needs.
-
-Your site will function properly without using these features.
-
-#### DNS records
-
-This information transferred over from ClickFunnels. If your site is functioning correctly, you won't need to change anything here. Leave everything as-is.
-
-You should update the DNS records if you've unsubscribed from ClickFunnels and are using another service to host the content of your site. [Content](/articles/web-hosting/) and [DNS management](/articles/dns-hosting/) are two different things. The content is what your site looks like when you visit it - it's the design and layout you create with services like ClickFunnels. DNSimple does not manage your content, we just tell your site where to find it.
-
-Click **Manage** to view and edit the records.
-
-When you open the DNS Record Management page, you'll probably see the following records:
-
-- [`ALIAS`](/articles/alias-record/) - Your domain name is listed under **Name**. The **Content** is `target.clickfunnels.com`.
-- `NS` –  These are the four name server records.
-- [`SOA`](/articles/soa-record/) - Also related to name servers. You don't need to edit these.
-- [`TXT`](/articles/txt-record/) - Your domain name and `ALIAS` for `target.clickfunnels.com`.
-- [`URL`](/articles/url-record/) - Your domain name with `www` and `https://`.
-
-> [!WARNING]
-> If you remove your `ALIAS` record, your site will stop resolving. If you remove the `TXT` record, your site will still work, but there's no reason to remove it.
-
-If you go to your website, and you only see the ClickFunnels home page and not your site, reach out to ClickFunnels. It's likely you didn't change the primary landing page within your account when they were still managing the DNS. They should be able to tell you what you need to input to point it to the right place.
-
-##### Understanding the Record Editor
-
-If you're no longer using ClickFunnels, and you created a website with a web hosting service, like Wix, point your site to the new service. There are two ways to do this:
-
- - Change the name servers to your new service, which allows them to manage your domain's DNS (similar to how it was set up with ClickFunnels).
-**OR**
-- Your new hosting service will share the DNS records you need to add to DNSimple.
-
-We won't know what records are needed from the content host. You'll need to contact the host, and request them. You can use this template:
-
-> I am using DNSimple to manage my domain's DNS. I recently created a site using your company. Please share the DNS records I need to add to DNSimple to have what I created shown on my website.
-
-They'll share the documentation, including the records and name servers you need to change it to, or they'll respond directly with the records needed.
-
-We have a [Record Editor](/articles/record-editor/) that makes it easy to add records. Click **Manage** to open the editor.
-
-## Step 5: Understanding certificates
-
-### What are certificates?
-
-Certificates provide a level of security and show visitors that your site is secure. In your browser bar (Chrome, Safari, Firefox, etc.), there's a padlock icon to the left of the URL showing this website is secure. If a site isn't secured by a certificate, it'll either say Not Secure with an open padlock to the left of the URL, or it could block the page and force visitors to accept the risk in visiting the site.
-
-When you purchased your domain with ClickFunnels, they automatically secured it with a certificate. The certificate typically transfers with your domain, but certificates have a short lifespan and will expire. The certificate they use is only available on higher-tier DNSimple plans, so if you're on the Solo Plan, you can't renew the same certificate. However, there are many available certificates that can provide the security you need.
-
-Your certificate may be set to [automatically renew](/articles/letsencrypt/#auto-renewal). If your certificate is set to auto renew, and you don't disable it, you'll receive emails that the renewal failed because you don't have access to [the SAN feature](/articles/what-is-ssl-san/) (only available on our higher-tier plans). You can ignore these messages – they only concern your certificate, and aren't connected to your domain ownership, renewal, or overall functionality. You can disable certificate auto renew to prevent it from trying to renew and sending you failed renewal emails.
-
-When your certificate is about to expire, we'll send you an email with the subject line "Expiration Notification". However, even if the certificate expires, your site will still function, and you'll still own it.
-
-### What certificates should I use?
-
-Let's Encrypt has a standard certificate to provide your site with the security it needs. They need to be renewed every 90 days. When you renew a certificate, you purchase a new one, and install it like you did with the previous certificate. Let's Encrypt certificates cover your sites when they're the standard format, like `www.dnsimple.com` or `dnsimple.com`.
-
-Here's a walkthrough of [ordering a Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
-
-If you're looking for a certificate that covers subdomains, for example: `blog.dnsimple.com`, `store.dnsimple.com`, `order.dnsimple.com`, you want a [Wildcard Certificate](/articles/ordering-wildcard-certificate/). Wildcard Certificates are only available on certain plans. [See the difference between plans](/articles/dnsimple-plans/).
-
-ClickFunnels sometimes uses a certificate outside of DNSimple. If you gain access to your domain, and don't see a certificate transfer over, but your site is showing as secure, that's probably what happened. We don't offer support to renew this certificate, or make any configuration changes, but if you [contact us](https://dnsimple.com/contact), we can help you find out when it expires and answer any questions you have.
+> If a certificate from ClickFunnels transferred with your domain but is set to [auto-renew](/articles/ssl-auto-renewal/), the renewal may fail if the certificate type requires a higher-tier plan. You can disable auto-renewal and order a new certificate that fits your plan.
 
 ## Have more questions?
 
-If you have any questions about getting set up with DNSimple, the services we offer, or anything else about your domain and DNS management, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
+If you have any questions about getting set up with DNSimple after moving from ClickFunnels, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

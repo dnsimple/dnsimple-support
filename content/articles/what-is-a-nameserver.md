@@ -1,6 +1,7 @@
 ---
 title: What is a name server?
 excerpt: An explanation of what name servers are, why they're important, and how to set them up.
+meta: Name servers translate domain names into IP addresses for internet navigation. Change your name servers in DNSimple with a few steps.
 categories:
 - Name Servers
 ---

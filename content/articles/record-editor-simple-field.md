@@ -1,12 +1,12 @@
 ---
-title: Understanding DNSimple's Record Editors Simple vs. Field-Specific
+title: Understand DNSimple's Record Editors Simple vs. Field-Specific
 excerpt: The Record Editor gives you the ability to view, create, and manage the DNS records for a domain.
 meta: Understand the difference between DNSimple's simple and field-specific record editors. Learn when to use each editor for optimal DNS record management.
 categories:
 - DNS
 ---
 
-# Understanding DNSimple's Record Editors: Simple vs. Field-Specific
+# Understand DNSimple's Record Editors Simple vs. Field-Specific
 
 DNSimple provides two distinct interfaces for adding and managing your DNS records in the [Record Editor](/articles/record-editor/), each designed to optimize for different use cases: the simple editor and the record fields editor. While both achieve the same goal of configuring your domain's DNS, they offer different levels of guidance and flexibility. Understanding when to use each can streamline your DNS management process.
 

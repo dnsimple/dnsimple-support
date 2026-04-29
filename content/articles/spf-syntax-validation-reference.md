@@ -1,9 +1,10 @@
 ---
 title: SPF Record Syntax and Validation Reference
 excerpt: The syntax, mechanisms, modifiers, and validation rules that govern SPF records.
-meta: Learn more about the syntax, mechanisms, modifiers, and validation rules for SPF records.
+meta: SPF records authorize which servers can send email for your domain. Reference covers syntax, mechanisms, qualifiers, modifiers, and validation rules.
 categories:
 - DNS
+- Emails
 ---
 
 # SPF Record Syntax and Validation Reference

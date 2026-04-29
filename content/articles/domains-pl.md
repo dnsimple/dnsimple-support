@@ -1,6 +1,7 @@
 ---
 title: .PL Domains
 excerpt: This article explains the requirements and special procedures for .PL domain names.
+meta: Register .PL domains through DNSimple. You must specify whether the contact personal data can be published, as required by the .PL registry since 2025.
 categories:
 - TLDs
 ---

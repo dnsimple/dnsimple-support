@@ -108,9 +108,9 @@ The validation level and the number of secured domains do not affect the encrypt
 
 ## Taking action {#taking-action}
 
-- [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/) - Order a Sectigo single-name or wildcard certificate
-- [Ordering a Wildcard SSL Certificate](/articles/ordering-wildcard-certificate/) - Request a wildcard certificate
-- [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) - Get a free certificate with SAN support
+- [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/) - Order a Sectigo single-name or wildcard certificate
+- [Ordering a Wildcard SSL Certificate](/articles/buy-wildcard-ssl-certificate/) - Request a wildcard certificate
+- [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) - Get a free certificate with SAN support
 
 ## Related reading {#related}
 

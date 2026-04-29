@@ -1,6 +1,7 @@
 ---
 title: Billing Settings
 excerpt: What you need to know about the billing information displayed on every invoice.
+meta: Customize billing information on invoices, including company name, tax ID, and address. Teams plans and higher can set a separate billing email.
 categories:
 - Account
 ---

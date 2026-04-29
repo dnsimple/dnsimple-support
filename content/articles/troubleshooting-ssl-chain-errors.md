@@ -41,7 +41,7 @@ The certificate itself may show as valid and not expired, but the browser cannot
    - **IIS / Azure:** Import the PFX file, which bundles the certificate, chain, and private key together.
 3. After installation, verify the chain with an online tool such as [SSL Labs](https://www.ssllabs.com/ssltest/) or [SSL Checker](https://www.sslshopper.com/ssl-checker.html).
 
-For platform-specific instructions, see [Installing an SSL Certificate](/articles/installing-ssl-certificate/).
+For platform-specific instructions, see [Installing an SSL Certificate](/articles/install-ssl-certificate/).
 
 ## Wrong Chain Order {#wrong-order}
 

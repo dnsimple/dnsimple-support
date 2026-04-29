@@ -1,13 +1,13 @@
 ---
-title: Ordering a Let's Encrypt Certificate
-excerpt: How to order a Let's Encrypt certificate with DNSimple.
-meta: How to order a free Let's Encrypt SSL certificate through DNSimple, including prerequisites and the step-by-step ordering process.
+title: How to Get a Free Let's Encrypt SSL Certificate
+excerpt: How to get a free Let's Encrypt SSL certificate with DNSimple.
+meta: How to get a free Let's Encrypt SSL certificate through DNSimple. Step-by-step guide including DNS requirements and automated validation.
 categories:
 - SSL Certificates
 - Enterprise
 ---
 
-# Ordering a Let's Encrypt Certificate
+# How to Get a Free Let's Encrypt SSL Certificate
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-DNSimple provides an SSL certificate interface you can use to acquire a new SSL certificate issued by Let's Encrypt.
+DNSimple provides an SSL certificate interface you can use to get a free [SSL certificate](/articles/what-is-ssl-certificate/) issued by Let's Encrypt.
 
 SSL certificates issued by Let's Encrypt are valid for 90 days from the issue date. If you have selected auto-renewal for the certificate, we will begin retrying the renewal 30 days before the expiration date. Otherwise, we will begin sending expiration notices at that point.
 

@@ -1,12 +1,12 @@
 ---
-title: Understanding Email Bounces
+title: Email Bounces
 excerpt: About email bounces, the different types of bounces, and what causes them.
-meta: Learn about email bounces, including hard bounces, soft bounces, DSN codes, and how to handle them.
+meta: Understand hard bounces, soft bounces, and DSN codes. Identify causes of email delivery failures and reduce bounce rates effectively.
 categories:
 - Emails
 ---
 
-# Understanding Email Bounces
+# Email Bounces
 
 ### Table of Contents {#toc}
 
@@ -231,7 +231,7 @@ When using email forwarding:
 - Check your email forwarding service's bounce handling
 
 > [!NOTE]
-> For more information about handling bounces with email forwarding, see [Handling Email Bounces with Email Forwarding](/articles/handling-email-bounces-with-email-forwarding/).
+> For more information about handling bounces with email forwarding, see [Email Forwarding and Bounced Emails](/articles/email-forwarding-bounces/).
 
 ## Reducing bounces {#reducing}
 

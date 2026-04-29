@@ -1,6 +1,7 @@
 ---
 title: Domain Transfer Pricing
-excerpt: Domain transfer price varies depenending on the TLD you want to transfer, and generally it includes 1 year of extension.
+excerpt: Domain transfer pricing at DNSimple varies by TLD and includes a 1-year registration extension from the current expiration date.
+meta: Domain transfer fees at DNSimple vary by TLD and include a 1-year registration extension. Check supported TLDs, costs, and how expiration dates change.
 categories:
 - Domains and Transfers
 ---

@@ -1,12 +1,11 @@
 ---
-title: Creating a Record Note
+title: Create a Record Note
 excerpt: How to create a record note
-meta: Learn how to create a record note to remember why you made changes to a given DNS record.
+meta: Add notes to DNS records in DNSimple when creating or editing them. Record notes help your team track why changes were made.
 categories:
 - DNS
 ---
-# Creating a Record Note
-
+# Create a Record Note
 1. Use the **account switcher** at the top of the page to select the appropriate account.
 1. Click the relevant domain in your **Domain List**.
 1. Click the **DNS** badge in the top right.

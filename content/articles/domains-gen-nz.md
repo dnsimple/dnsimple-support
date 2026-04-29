@@ -1,6 +1,7 @@
 ---
 title: .GEN.NZ Domains
 excerpt: This article explains the requirements and special procedures for .GEN.NZ domain names.
+meta: Register .GEN.NZ domains with DNSimple. This general-purpose third-level .NZ domain is open to individuals and organizations worldwide.
 categories:
 - TLDs
 ---

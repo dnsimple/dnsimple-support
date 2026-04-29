@@ -1,7 +1,7 @@
 ---
-title: Verifying Domain Resolution
-meta: Learn how to effectively verify your domain's resolution through various methods. Ensure your domain is correctly set up and accessible with this comprehensive guide.
-excerpt: This article explains the different ways you can verify that a domain is resolving.
+title: Verify Domain Resolution
+meta: Verify your domain is resolving correctly using dig, nslookup, and online tools. Check DNS propagation and confirm records return expected results.
+excerpt: How to verify that your domain is resolving correctly using dig, nslookup, and online tools.
 categories:
 - Domains and Transfers
 ---
@@ -13,7 +13,7 @@ categories:
 
 ---
 
-# Verifying Domain Resolution
+# Verify Domain Resolution
 
 When you make a change to your domain, you expect it to take effect. Unfortunately, there are some scenarios where, for one reason or another, your changes fail to apply.
 

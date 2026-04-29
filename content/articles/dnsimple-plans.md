@@ -15,6 +15,41 @@ You'll find all [the features listed for each plan on our pricing page](https://
 * TOC
 {:toc}
 
+## Feature comparison {#feature-comparison}
+
+| Feature | Solo | Teams | Enterprise |
+|---------|:----:|:-----:|:----------:|
+| Domain registration, transfer, renewal | Yes | Yes | Yes |
+| DNS zones with Anycast, DNSSEC, DDoS defense | Yes | Yes | Yes |
+| DNS records per zone | 100 | 100 | Custom |
+| Let's Encrypt (root and www) | Yes | Yes | Yes |
+| Let's Encrypt custom hostnames | -- | Yes | Yes |
+| Let's Encrypt wildcard | -- | Yes | Yes |
+| Sectigo certificates | Yes | Yes | Yes |
+| HTTP redirects | Yes | Yes | Yes |
+| HTTPS redirects | -- | Yes | Yes |
+| Scoped API tokens | -- | Yes | Yes |
+| Domain Access Control | -- | Yes | Yes |
+| Regional and POOL records | -- | Yes | Yes |
+| Secondary DNS (DNSimple as secondary) | -- | Yes | Yes |
+| Vanity name servers | -- | -- | Yes |
+| Multi-account management | -- | -- | Yes |
+| SSO (Okta, Google, Entra) | -- | -- | Yes |
+| Priority support (1-hour response) | -- | -- | Yes |
+
+For current pricing on each plan, visit the [pricing page](https://dnsimple.com/pricing). To upgrade your plan, see [Changing Subscription Plan](/articles/changing-plans/).
+## What is included vs. what is usage-based {#included-vs-usage}
+
+DNSimple billing has three components:
+
+| Component | How it works |
+|-----------|-------------|
+| **Plan subscription** | A fixed monthly fee (Solo has no base fee, Teams starts at $29/month, Enterprise is custom). Covers access to your plan's features. |
+| **Usage-based charges** | Billed monthly based on your active zones and DNS query volume. These appear on your subscription invoice. See the [pricing page](https://dnsimple.com/pricing) for current rates. |
+| **One-time purchases** | Domain registrations, renewals, transfers, and SSL certificates. Billed on separate invoices at the time of purchase. |
+
+For a detailed breakdown of invoice line items, see [Understanding Your Invoice](/articles/understanding-invoice/).
+
 ## Included on all plans
 
 - The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
@@ -37,7 +72,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 
 - The ability to register, transfer, and renew domains
 - 100 DNS records per zone
-- [Let's Encrypt SSL Certificates](/articles/ordering-lets-encrypt-certificate/) (Root & www only)
+- [Let's Encrypt SSL Certificates](/articles/get-lets-encrypt-certificate/) (Root & www only)
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
@@ -63,7 +98,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
-- Let's Encrypt [wildcard certificates](/articles/ordering-wildcard-certificate/)
+- Let's Encrypt [wildcard certificates](/articles/buy-wildcard-ssl-certificate/)
 - [Regional](/articles/regional-records/) and [POOL](/articles/pool-record/) records
 - [Google Workspace](/articles/google-identity-provider/) and [Okta](/articles/okta-identity-provider/) user provisioning
 - Unlimited [activity history](/articles/activity-tracking/)

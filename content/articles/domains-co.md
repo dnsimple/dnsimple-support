@@ -1,6 +1,7 @@
 ---
 title: .CO Domains
 excerpt: This article explains the requirements and special procedures for .CO domain names.
+meta: Register .CO domains with DNSimple. Open worldwide for individuals and organizations, .CO is a popular alternative to .COM in the tech industry.
 categories:
 - TLDs
 ---

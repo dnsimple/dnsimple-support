@@ -1,12 +1,12 @@
 ---
-title: Transferring a domain away from DNSimple
+title: Transfer a Domain Away from DNSimple
 excerpt: How to request a transfer code and transfer a domain from DNSimple to a different registrar.
-meta: How to request a transfer code and transfer away a domain from DNSimple to a different registrar.
+meta: Transfer a domain from DNSimple to another registrar. Covers unlocking the domain, requesting your authorization code, and initiating the transfer.
 categories:
 - Domains and Transfers
 ---
 
-# Transferring a domain away from DNSimple
+# Transfer a Domain Away from DNSimple
 
 ### Table of Contents {#toc}
 
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-This article describes the procedure to transfer a domain registered with DNSimple to another registrar. The term *gaining registrar* refers to the registrar where you want to transfer the domain, the *losing registrar* is the current registrar for the domain, in this case DNSimple.
+To transfer a domain registered with DNSimple to another registrar, you unlock the domain, request a transfer code, and provide that code to the gaining registrar. The *gaining registrar* is the registrar you are moving the domain to. The *losing registrar* is DNSimple.
 
 
 ## Before starting {#before-you-transfer}

@@ -1,6 +1,7 @@
 ---
 title: .CA Domains
 excerpt: This article explains the requirements and special procedures for .ca domain names.
+meta: Register .CA domains with DNSimple. New registrants must agree to the CIRA registrant agreement within five days to complete registration.
 categories:
 - TLDs
 ---

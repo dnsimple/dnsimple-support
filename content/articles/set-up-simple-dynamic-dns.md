@@ -1,13 +1,12 @@
 ---
-title: Setting up Simple Dynamic DNS
+title: Set Up Simple Dynamic DNS
 excerpt: How to set up simple Dynamic DNS with DNSimple.
 meta: Easily configure Dynamic DNS with DNSimple to keep your domain updated with changing IP addresses, ensuring seamless access to your online services.
 categories:
 - DNS
 ---
 
-# Setting up Simple Dynamic DNS
-
+# Set Up Simple Dynamic DNS
 Dynamic DNS (DDNS) lets you keep a DNS record updated automatically when your IP address changes. This is especially useful if your ISP assigns you a dynamic IP, but you still want to reach your home network or server using a fixed domain name.
 
 With DNSimple, you can use our [API](https://developer.dnsimple.com/) to build simple [Dynamic DNS](/articles/dynamic-dns/) updates. For examples and ready-to-use options, check out our [Tools page](https://developer.dnsimple.com/tools/).

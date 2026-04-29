@@ -1,7 +1,7 @@
 ---
 title: View Record Notes and Audit History
 excerpt: How to view record notes you made and where to find record notes in your audit history.
-meta: Easily add notes to your DNS records in DNSimple to keep track of changes and their purposes, ensuring better management and organization of your domain settings.
+meta: View record notes and audit history in DNSimple. Track DNS record changes, see who made them, and review the notes attached to each change.
 categories:
 - DNS
 ---

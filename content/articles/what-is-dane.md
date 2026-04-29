@@ -1,7 +1,7 @@
 ---
 title: What Is DANE (DNS-based Authentication of Named Entities)?
 excerpt: DANE is a security protocol that uses DNSSEC to publish and validate TLS certificate information in DNS records, enhancing the security of TLS connections.
-meta: Learn about DANE and how it uses DNSSEC to authenticate TLS certificates through DNS records, providing an additional layer of security for encrypted connections.
+meta: DANE uses DNSSEC to authenticate TLS certificates through DNS records, providing an additional layer of security for encrypted connections.
 categories:
 - DNS
 - DNSSEC
@@ -104,10 +104,10 @@ The TLSA record format and usage are further detailed in [RFC 7671](https://data
 ## Related topics {#related-topics}
 
 - [What Is a TLSA Record?](/articles/tlsa-record/) - Learn about TLSA records and how they implement DANE
-- [Managing TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records
+- [Manage TLSA Records](/articles/manage-tlsa-record/) - Step-by-step guide to creating and managing TLSA records
 - [TLSA Record Format and Components Reference](/articles/tlsa-record-format/) - Technical reference for TLSA record format
 - [What Is DNSSEC?](/articles/what-is-dnssec/) - Learn about the DNS security extensions that DANE depends on
-- [Enabling DNSSEC](/articles/enabling-dnssec/) - Step-by-step guide to enabling DNSSEC on your domain
+- [Enable DNSSEC](/articles/enabling-dnssec/) - Step-by-step guide to enabling DNSSEC on your domain
 - [DNSSEC at DNSimple](/articles/dnssec/) - Comprehensive overview of DNSSEC features
 - [SSL/TLS Certificates](/categories/ssl-certificates/) - Learn about TLS certificates and how they work
 - [DNS Glossary](/articles/dns-glossary/) - Definitions of DNS-related terms

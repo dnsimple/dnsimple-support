@@ -1,15 +1,17 @@
 ---
 title: DNSKEY Records Explained
-excerpt: Explains DNSKEY records and their importance.
-meta: Learn the purpose and structure of DNSKEY records and how they enable validation.
+excerpt: The DNSKEY record is the DNS record type that holds the DNSSEC public signing key used to verify digital signatures on DNS data.
+meta: The DNSKEY record holds the DNSSEC public signing key. Learn how DNSKEY records work and their role in DNSSEC validation and the chain of trust.
 categories:
 - DNSSEC
 ---
 # DNSKEY Records Explained
 
-In DNSSEC, DNSKEY records are fundamental. They hold the public keys that are used to verify the digital signatures [(RRSIG records)](/articles/understanding-rrsets-rrsigs/#what-is-an-rrsig) of your domain's DNS data. This allows resolvers to confirm that the information they receive is authentic and has not been tampered with.
+The DNSKEY record is the type of DNS record that holds the DNSSEC public signing key. Resolvers use this public key to verify the digital signatures ([RRSIG records](/articles/understanding-rrsets-rrsigs/#what-is-an-rrsig)) on your domain's DNS data, confirming that the information is authentic and has not been tampered with. DNSKEY records are the foundation of the [DNSSEC Chain of Trust](/articles/dnssec-chain-of-trust/).
 
-DNSKEY records are the cornerstone of trust in DNSSEC. Understanding the structure and function of DNSKEY records, especially the distinction between ZSKs and KSKs, is crucial for anyone working with or managing DNSSEC-secured domains. They are the foundation upon which the entire [Chain of Trust](/articles/dnssec-chain-of-trust/) is built.
+## What type of DNS record holds the DNSSEC public signing key? {#what-type-of-dns-record-holds-the-dnssec-public-signing-key}
+
+The DNSKEY record holds the DNSSEC public signing key. Each DNSSEC-enabled zone publishes one or more DNSKEY records containing the public portion of its cryptographic key pairs - a [Zone Signing Key (ZSK)](/articles/types-of-dnssec-keys/#zone-signing-key-zsk) that signs DNS data and a [Key Signing Key (KSK)](/articles/types-of-dnssec-keys/#key-signing-key-ksk) that signs the DNSKEY record set itself.
 
 ## What is the purpose of a DNSKEY record? {#what-is-the-purpose-of-a-dnskey-record}
 A DNSKEY record serves two critical functions:
@@ -51,4 +53,4 @@ If a private key is compromised, an attacker could forge signatures and potentia
 To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect DNSKEY records to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
-Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.
+Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

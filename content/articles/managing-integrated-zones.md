@@ -1,13 +1,12 @@
 ---
-title: Refreshing and Importing Integrated Zones
+title: Refresh and Import Integrated Zones
 excerpt: How to view your DNSimple zones and zones from Integrated DNS Providers.
-meta: Easily view your zones from DNSimple and Integrated DNS Providers. Streamline your DNS management across multiple authoritative providers such as Route53 and CoreDNS.
+meta: View and manage zones from DNSimple and integrated DNS providers. Refresh and import zones across providers like Route 53 and CoreDNS.
 categories:
 - DNS
 ---
 
-# Refreshing and Importing Integrated Zones
-
+# Refresh and Import Integrated Zones
 From the **Domain Names** page, you can see both your DNSimple zones and zones from [Integrated DNS Providers](/articles/what-are-integrated-providers/). The page also keeps your integrated zones up to date by refreshing them automatically.
 
 <div class="section-steps" markdown="1">

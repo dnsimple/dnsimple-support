@@ -66,4 +66,4 @@ These are the steps that you will need to follow to add an ALIAS record that poi
 
 ## Setting up your custom domain at Heroku {#set-up-domain-heroku}
 
-Once you have set up the domain using either the one-click service or adding an ALIAS record, you will have to configure your custom domain at Heroku. Their support site has [a comprehensive article](https://devcenter.heroku.com/articles/custom-domains) on how to accomplish this.
+Once you have set up the domain using either the one-click service or adding an ALIAS record, you will have to configure your custom domain at Heroku. Their support site has [a comprehensive article](https://devcenter.heroku.com/articles/custom-domains) on how to accomplish this. If DNS resolves to Heroku but the browser shows a different app than expected, see [Troubleshooting Heroku shows different app error](/articles/heroku-error-differentapp/). If you see Heroku's "No such app" page, the hostname may not be attached to your app — see [Troubleshooting Heroku "No such app" error](/articles/heroku-error-nosuchapp/).

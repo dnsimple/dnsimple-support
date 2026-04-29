@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting Domain Expiration Issues
+title: Troubleshoot Domain Expiration Issues
 excerpt: Solutions for domain expiration and renewal problems, including failed renewals, expired domains, and auto-renewal issues.
-meta: Troubleshoot domain expiration issues with our comprehensive guide. Learn how to resolve renewal failures, recover expired domains, and fix auto-renewal problems.
+meta: Fix domain expiration and renewal problems at DNSimple, including failed renewals, expired domains in redemption, and auto-renewal configuration issues.
 categories:
 - Domains and Transfers
 ---
 
-# Troubleshooting Domain Expiration Issues
+# Troubleshoot Domain Expiration Issues
 
 If you are experiencing problems with domain expiration, renewal, or auto-renewal, this guide will help you identify and resolve common issues. For general information about what happens when a domain expires, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/).
 
@@ -93,7 +93,7 @@ If you are experiencing problems with domain expiration, renewal, or auto-renewa
 - Includes a mandatory restore fee in addition to the domain's renewal fee
 - Automatically extends the domain's registration by the registry's minimum renewal period (usually 1 year)
 
-For more information about the redemption period and restoration process, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/#redemption-period) and [Restoring a Domain](/articles/restoring-domain/).
+For more information about the redemption period and restoration process, see [What Happens When a Domain Expires?](/articles/what-happens-when-domain-expires/#redemption-period) and [Restore a Domain](/articles/restoring-domain/).
 
 > [!WARNING]
 > The restore fee is mandatory and cannot be waived. The final price will be the restore fee plus the domain's renewal fee.

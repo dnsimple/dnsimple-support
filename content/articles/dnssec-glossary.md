@@ -1,7 +1,7 @@
 ---
 title: DNSSEC Glossary
-excerpt: Defines terms related to DNSSEC.
-meta: Explore our comprehensive DNSSEC glossary, featuring essential definitions and terms to enhance your understanding of DNS security and its critical components.
+excerpt: Definitions of DNSSEC terms including DNSKEY, DS, RRSIG, NSEC, KSK, ZSK, chain of trust, key rollover, and more.
+meta: DNSSEC glossary with definitions for DNSKEY, DS records, RRSIG, NSEC, NSEC3, KSK, ZSK, trust anchors, key rollovers, CDS, CDNSKEY, and other DNSSEC terms.
 categories:
 - DNSSEC
 ---

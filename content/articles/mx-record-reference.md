@@ -1,9 +1,10 @@
 ---
 title: MX Record Reference
 excerpt: The formal structure, behavior, and key technical details of an MX record.
-meta: Learn more about the structure, behavior, and technical details for MX records.
+meta: MX records direct email to the correct mail servers for a domain. Reference covers format, priority behavior, redundancy, and DNSimple configuration.
 categories:
 - DNS
+- Emails
 ---
 
 # MX Record Reference

@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Let's Encrypt Certificate Failures
 excerpt: Your Let's Encrypt certificate is not issuing or renewing. Learn the common causes and how to fix them.
-meta: Fix Let's Encrypt SSL certificate failures in DNSimple. Covers DNS delegation issues, CAA record blocks, rate limits, DNSSEC misconfigurations, and Empty Non-Terminal problems.
+meta: Fix Let's Encrypt certificate failures in DNSimple. Covers DNS delegation issues, CAA record blocks, rate limits, DNSSEC errors, and ENT problems.
 categories:
 - SSL Certificates
 ---
@@ -23,13 +23,13 @@ Let's Encrypt certificates require the domain to be delegated to and resolving w
 
 **Check:** Go to the domain page in DNSimple and verify the name server delegation status. The domain must be using [DNSimple's name servers](/articles/dnsimple-nameservers/).
 
-**Fix:** If the domain was moved to another DNS provider, [update the name servers back to DNSimple](/articles/pointing-domain-to-dnsimple/), or switch to a [Sectigo certificate](/articles/ordering-standard-certificate/) which does not require DNSimple DNS.
+**Fix:** If the domain was moved to another DNS provider, [update the name servers back to DNSimple](/articles/pointing-domain-to-dnsimple/), or switch to a [Sectigo certificate](/articles/buy-sectigo-ssl-certificate/) which does not require DNSimple DNS.
 
 ## Secondary DNS Conflict {#secondary-dns}
 
 Let's Encrypt certificates are not compatible with [Secondary DNS](/articles/secondary-dns/). If your domain uses Secondary DNS, DNSimple cannot create the ACME challenge records needed for validation.
 
-**Fix:** Either disable Secondary DNS for the domain or use a [Sectigo certificate](/articles/ordering-standard-certificate/) instead.
+**Fix:** Either disable Secondary DNS for the domain or use a [Sectigo certificate](/articles/buy-sectigo-ssl-certificate/) instead.
 
 ## CAA Records Blocking Issuance {#caa}
 
@@ -66,7 +66,7 @@ ACME challenge records (e.g., `_acme-challenge.subdomain.example.com`) may creat
 
 If [auto-renewal](/articles/letsencrypt/#auto-renewal) is enabled but the certificate is not renewing, the most common causes are the issues listed above - delegation changes, DNSSEC problems, CAA records, or rate limits. DNSimple retries auto-renewal daily, so fixing the underlying issue will allow the next retry to succeed.
 
-If the certificate has already expired, you will need to [order a new Let's Encrypt certificate](/articles/ordering-lets-encrypt-certificate/).
+If the certificate has already expired, you will need to [order a new Let's Encrypt certificate](/articles/get-lets-encrypt-certificate/).
 
 ## Have more questions?
 

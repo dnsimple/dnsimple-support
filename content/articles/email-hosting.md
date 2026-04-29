@@ -1,7 +1,7 @@
 ---
 title: Email Hosting Support
 excerpt: DNSimple does not provide email hosting, but you can use a third-party email hosting provider and manage your DNS records through DNSimple.
-meta: DNSimple does not provide email hosting. Learn how to use third-party email hosting providers like Google Workspace, Microsoft 365, and FastMail with DNSimple DNS management.
+meta: DNSimple does not provide email hosting. Use providers like Google Workspace, Microsoft 365, and FastMail with DNSimple DNS management.
 categories:
 - DNSimple
 - Emails
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-DNSimple does not provide email hosting. Our primary focus is domain management services, including DNS hosting, domain registration, and SSL certificates. You can use a third-party email hosting provider and manage all your DNS records through DNSimple.
+DNSimple does not provide email hosting. Our primary focus is domain management services, including DNS hosting, domain registration, and SSL certificates. You can use a third-party email hosting provider and manage all your DNS records through DNSimple. For forwarding, authentication records, and provider setup guides, see [Email Services at DNSimple](/articles/emails/).
 
 ## What is an email hosting service? {#what-is}
 

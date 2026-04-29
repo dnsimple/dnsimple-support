@@ -1,12 +1,12 @@
 ---
-title: Implementing a Gradual DMARC Policy
+title: Implement a Gradual DMARC Policy
 excerpt: Step-by-step guide to gradually implementing DMARC policies, starting with monitoring and moving to quarantine and reject.
 meta: Learn how to implement DMARC gradually, starting with monitoring, then moving to quarantine, and finally to reject policies safely.
 categories:
 - Emails
 ---
 
-# Implementing a Gradual DMARC Policy
+# Implement a Gradual DMARC Policy
 
 ### Table of Contents {#toc}
 
@@ -277,8 +277,8 @@ Here is a typical timeline for gradual DMARC implementation:
 
 ## Related articles {#related}
 
-- [Setting Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
+- [Set Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
 
 ## Have more questions?
 

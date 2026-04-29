@@ -1,7 +1,7 @@
 ---
 title: URL Record Format and Technical Details
 excerpt: The formal structure, restrictions, and technical details of a URL record.
-meta: Learn more about the structure, restrictions, and technical details for URL records.
+meta: URL records are a proprietary DNSimple record type that handle HTTP redirects. Reference covers format, configuration, and technical implementation.
 categories:
   - DNS
 ---

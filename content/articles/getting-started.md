@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 excerpt: A comprehensive guide to help you get started with DNSimple.
-meta: Explore our comprehensive guide to getting started with DNSimple, featuring essential articles and resources to help you configure and manage your domain effortlessly.
+meta: Get started with DNSimple. Essential articles and resources to help you register domains, configure DNS, and manage your account.
 categories:
 - DNSimple
 ---
@@ -51,7 +51,7 @@ Have a domain and want to set up DNS? [Learn how to add DNS records to your acco
 
 ## Adding domains to DNSimple
 
-Domain management on DNSimple starts in two ways: [registration](#registering-a-domain) and [transferring](#transferring-a-domain). A domain is **registered** if it isn't already owned. It's **transferred** if you already own the domain through another registrar.
+Domain management on DNSimple starts in two ways: [registration](#registering-a-domain) and [transferring](#transferring-a-domain). A domain is **registered** if it isn't already owned. It's **transferred** if you already own the domain through another registrar. For a shorter walkthrough with direct links, see [Transfer or Register Domains With DNSimple](/articles/guide-register-or-transfer-a-domain/).
 
 ### Registering a domain
 

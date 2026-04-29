@@ -1,14 +1,14 @@
 ---
-title: Adding a Domain
+title: Add a Domain
 excerpt: How to add a domain to a DNSimple account.
-meta: Learn the step-by-step process to easily add a domain to your DNSimple account and manage your DNS settings with confidence and efficiency.
+meta: How to add a domain to your DNSimple account, either as a DNS-only zone or as a registered domain, and start managing its DNS records.
 categories:
 - Domains and Transfers
 ---
 
-# Adding a Domain
+# Add a Domain
 
-When adding a domain to your account, you can register a new domain, transfer an existing domain you own from another registrar, or create a DNS zone to use our DNS service if you plan to keep your domain at your current registrar.
+When adding a domain to your account, you can register a new domain, transfer an existing domain you own from another registrar, or create a DNS zone to use our DNS service if you plan to keep your domain at your current registrar. For a full list of domain and transfer topics, see [Domains and Transfers at DNSimple](/articles/domains-and-transfers/).
 
 <div class="section-steps" markdown="1">
 ##### To add a domain
@@ -38,7 +38,7 @@ If the transfer is successful, you will see a **Pending** notification:
 
 ### Creating a DNS zone
 
-If you are using the DNS services available at DNSimple, but keeping the domain at your current registrar, select **DNS zone** to add the domain name, then import the applicable DNS records with the [auto-import tool](/articles/auto-import-dns/).
+If you are using the DNS services available at DNSimple, but keeping the domain at your current registrar, select **DNS zone** to add the domain name, then import the applicable DNS records with the [auto-import tool](/articles/auto-import-dns/). For end-to-end help with your first zone and delegation, see [Set Up Your First Zone and Delegate Zones to DNSimple](/articles/guide-setup-and-delegate-zones/).
 
 ![Zone transfer tool](/files/zone-import-tool.png).
 

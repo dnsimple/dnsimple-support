@@ -1,7 +1,7 @@
 ---
 title: Transfer a Domain to DNSimple
 excerpt: How to transfer your registered domain to DNSimple.
-meta: Easily transfer your domain names to DNSimple with our step-by-step guide. Discover how to streamline the process while avoiding downtime.
+meta: How to transfer a domain registration to DNSimple from another registrar. Covers authorization codes, transfer approval, timelines, and avoiding DNS downtime.
 categories:
 - Domains and Transfers
 ---
@@ -49,7 +49,7 @@ At DNSimple:
 3. Enter the name of the domain that is being transferred and click **Start Transfer**.
 4. Enter the authorization code.
 5. Select a registrant if a contact has already been made. If not, fill in the information needed to create a contact.
-6. Depending on the TLD, you may have to fill out extended attributes that are required. 
+6. Depending on the TLD, you may have to fill out extended attributes that are required. Some TLDs support [domain trustee](/articles/what-is-domain-trustee/) service during transfer when local presence or similar registry rules apply.
 7. WHOIS Privacy Protection can be enabled by checking the **Hide my contact information in WHOIS** box, so it is enabled immediately upon completion of the transfer.
 8. Auto renewal for the domain is automatically checked to be enabled. This can be disabled if desired by unchecking the box. If auto renewal is disabled, check out [how to renew a domain](/articles/renewing-domain/).
 9. Click <label>Transfer [Domain name]</label>. The card on file will be charged.

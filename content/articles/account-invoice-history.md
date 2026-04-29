@@ -1,6 +1,7 @@
 ---
 title: Account Invoice History
 excerpt: Using the payment history on your account and understanding the states of the listed invoices.
+meta: View your DNSimple account invoice history, understand payment states like collected and failed, and retry failed invoice payments.
 categories:
 - Account
 ---
@@ -59,7 +60,7 @@ While the invoice is in this state, you won't be able to make other purchases. Y
 
 ### `dunned` {#invoice-state-dunned}
 
-Depending on your plan, your subscription will renew every month or every year. When that happens, we attempt to collect the payment. If it fails, the invoice will be marked as `dunned`.
+Depending on your plan, your subscription will renew every month or every year. When that happens, we attempt to collect the payment. If it fails, the invoice will be marked as `dunned`. For details on how subscription renewals work and what is included in renewal charges, see [Subscription Renewals](/articles/subscription-renewals/).
 
 A `dunned` invoice will automatically be retried once per week for three weeks. You can manually [retry the payment](#retrying) any time. We'll notify you via email on every attempt.
 

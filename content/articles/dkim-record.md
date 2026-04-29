@@ -40,18 +40,18 @@ If the signature matches, it confirms:
 
 ## Key benefits of DKIM {#key-benefits-of-dkim}
 
-**Combats spoofing and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
+**Combats [spoofing](/articles/protecting-your-domain-from-email-spoofing/) and phishing:** Makes it significantly harder for malicious actors to impersonate your domain.
 
-**Improves deliverability:** Email servers are more likely to trust and deliver messages that pass DKIM authentication, leading to fewer emails being marked as spam or rejected.
+**Improves [deliverability](/articles/understanding-email-deliverability/):** Email servers are more likely to trust and deliver messages that pass DKIM authentication, leading to fewer emails being marked as spam or rejected.
 
 **Enhances reputation:** Helps build and maintain a positive sending reputation for your domain.
 
-DKIM is often used in conjunction with [SPF](/articles/spf-record/) (Sender Policy Framework) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting, and Conformance) to form a comprehensive email authentication strategy.
+DKIM is one of three protocols that make up [email authentication](/articles/email-authentication/). It works alongside [SPF](/articles/spf-record/) (Sender Policy Framework) and [DMARC](/articles/dmarc-record/) (Domain-based Message Authentication, Reporting, and Conformance).
 
 ## Setting up and verifying DKIM {#setting-up-and-verifying-dkim}
-For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Setting Up DKIM](/articles/set-up-dkim/).
+For step-by-step instructions on how to add a DKIM record to your DNSimple zone, including details on formatting and specific fields, please refer to our dedicated How-To Guide: [Set Up DKIM](/articles/set-up-dkim/).
 
-To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verifying DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
+To verify that your DKIM record is correctly published and functioning, consult our How-To Guide: [Verify DKIM with dig and Online Tools](/articles/verify-dkim/), which covers using command-line tools like dig and online verification services.
 
 ## Technical details {#technical-details}
 Visit [DKIM.org](http://DKIM.org) for a closer look into the technical specifications and intricacies of DomainKeys Identified Mail. They provide extensive resources, including links to the relevant RFCs.

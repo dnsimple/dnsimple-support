@@ -1,14 +1,14 @@
 ---
-title: Troubleshooting Domain Transfer Issues
+title: Troubleshoot Domain Transfer Issues
 excerpt: Solutions for common domain transfer problems, including denied transfers, missing authorization codes, and email delivery issues.
-meta: Troubleshoot domain transfer issues with our comprehensive guide. Learn how to resolve common problems like denied transfers, missing authorization codes, and email delivery failures.
+meta: "Fix domain transfer problems at DNSimple: denied transfers, missing or expired authorization codes, WHOIS email issues, and 60-day transfer locks."
 categories:
 - Domains and Transfers
 ---
 
-# Troubleshooting Domain Transfer Issues
+# Troubleshoot Domain Transfer Issues
 
-If you are experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transferring a domain away from DNSimple](/articles/transferring-domain-away/).
+If you are experiencing problems transferring a domain to or from DNSimple, this guide will help you identify and resolve common issues. For step-by-step instructions on transferring a domain, see [Transfer a Domain to DNSimple](/articles/domain-transfer/) or [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/).
 
 ### Table of Contents {#toc}
 
@@ -132,8 +132,8 @@ If you are already experiencing downtime:
 
 **Resolution**: If you are changing DNS providers during the transfer, you must [manage your DS records appropriately](/articles/ds-records-changing-dns/):
 
-- **Moving to a provider that does not support DNSSEC**: Disable DNSSEC and remove DS records before switching. For instructions on removing DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
-- **Moving to a provider that supports DNSSEC**: Enable DNSSEC on the new provider and ensure the new provider's DS record is provisioned before switching. For instructions on adding DS records, see [Adding and Removing DS Records](/articles/manage-ds-record/).
+- **Moving to a provider that does not support DNSSEC**: Disable DNSSEC and remove DS records before switching. For instructions on removing DS records, see [Add and Remove DS Records](/articles/manage-ds-record/).
+- **Moving to a provider that supports DNSSEC**: Enable DNSSEC on the new provider and ensure the new provider's DS record is provisioned before switching. For instructions on adding DS records, see [Add and Remove DS Records](/articles/manage-ds-record/).
 
 ## Transfer cancellation {#transfer-cancellation}
 

@@ -1,7 +1,7 @@
 ---
 title: The DNSSEC Chain of Trust
-excerpt: Explains the DNSSEC chain of trust.
-meta: Discover the DNSSEC chain of trust, its vital role in securing DNS, and how it protects your domain from attacks. Understand its importance for online safety.
+excerpt: The DNSSEC chain of trust is a series of cryptographic signatures linking the DNS root zone down to your domain, allowing resolvers to validate every response.
+meta: How DNSSEC validation works through the chain of trust. DS records, DNSKEY records, and trust anchors link the DNS root to your domain.
 categories:
 - DNSSEC
 ---
@@ -61,4 +61,4 @@ The most crucial Trust Anchor is the public [Key Signing Key (KSK)](/articles/ty
 If any link in this chain breaks — for example, if a DS record points to an incorrect DNSKEY, or if a signature is missing or invalid — DNSSEC-aware resolvers will not be able to verify the data. They will consider it untrustworthy and will not provide it to the end-user. This can prevent them from reaching your website or service.
 
 ## Have more questions?
-If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enabling DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.
+If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

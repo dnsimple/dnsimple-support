@@ -1,6 +1,7 @@
 ---
 title: .LI Domains
 excerpt: This article explains the requirements and special procedures for .LI domain names.
+meta: .LI domains only support auto-renewal through DNSimple. Manual renewals are not available, and domains without auto-renewal are removed before expiration.
 categories:
 - TLDs
 ---

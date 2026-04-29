@@ -1,12 +1,12 @@
 ---
-title: Recovering a Deleted Domain
+title: Recover a Deleted Domain
 excerpt: How to recover a domain deleted from your DNSimple account.
-meta: Learn how to easily recover a domain that has been deleted from your DNSimple account with our step-by-step guide and expert tips for a smooth restoration process.
+meta: How to recover a domain that was deleted from your DNSimple account. Re-add the domain and restore its DNS records, SSL certificates, and email forwards.
 categories:
 - Domains and Transfers
 ---
 
-# Recovering a Deleted Domain
+# Recover a Deleted Domain
 
 > [!WARNING]
 > When recovering a domain, we will not be able to recover your DNS records. We recommend making a [copy of your zone file](/articles/export-records-zone-file/) before deleting any domain from DNSimple.

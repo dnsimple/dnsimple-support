@@ -1,6 +1,7 @@
 ---
 title: Forgot Password
 excerpt: Forgot your password? Use this guide to reset your password so you can log in.
+meta: Reset your DNSimple password with a secure email link. Includes troubleshooting steps for missing reset emails and alternative sign-in methods.
 categories:
 - Account
 ---

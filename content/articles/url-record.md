@@ -44,7 +44,7 @@ URL records are useful for various web redirection scenarios:
 For more detailed information about the DNSimple redirector service, including supported redirect types and any specific limitations, see our [Redirector Article](/articles/redirector/).
 
 ## Managing URL records {#managing-url-records}
-For step-by-step instructions on how to add, remove, and update URL records in your DNSimple account, refer to our dedicated How-To Guide: [Managing URL Records](/articles/manage-url-record/).
+For step-by-step instructions on how to add, remove, and update URL records in your DNSimple account, refer to our dedicated How-To Guide: [Manage URL Records](/articles/manage-url-record/).
 
 ## URL record format and technical details {#url-record-format-and-technical-details}
 The URL record is a special DNSimple record type and is not defined by any RFC.

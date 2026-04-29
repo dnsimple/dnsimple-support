@@ -1,6 +1,7 @@
 ---
 title: .SE Domains
 excerpt: This article explains the requirements and special procedures for .SE domain names.
+meta: Register .SE domains through DNSimple. An ID number is required by NIC-SE, and EU companies outside Sweden must provide a VAT ID.
 categories:
 - TLDs
 ---

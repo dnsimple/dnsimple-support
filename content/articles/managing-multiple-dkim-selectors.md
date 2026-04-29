@@ -1,12 +1,12 @@
 ---
-title: Managing Multiple DKIM Selectors
+title: Manage Multiple DKIM Selectors
 excerpt: How to manage multiple DKIM selectors for different email services and ensure proper email authentication.
 meta: Guide to managing multiple DKIM selectors when using different email services, ensuring proper authentication for all email sources.
 categories:
 - Emails
 ---
 
-# Managing Multiple DKIM Selectors
+# Manage Multiple DKIM Selectors
 
 ### Table of Contents {#toc}
 
@@ -246,9 +246,9 @@ If an email service changes their DKIM selector:
 
 ## Related articles {#related}
 
-- [Setting Up DKIM](/articles/set-up-dkim/) - Initial DKIM setup
-- [Understanding SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
-- [Setting Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
+- [Set Up DKIM](/articles/set-up-dkim/) - Initial DKIM setup
+- [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
+- [Set Up DMARC](/articles/set-up-dmarc/) - DMARC configuration
 
 ## Have more questions?
 

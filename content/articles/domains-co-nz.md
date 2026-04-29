@@ -1,6 +1,7 @@
 ---
 title: .CO.NZ Domains
 excerpt: This article explains the requirements and special procedures for .CO.NZ domain names.
+meta: Register .CO.NZ domains with DNSimple. This third-level .NZ domain is intended for commercial organizations, open to registrants worldwide.
 categories:
 - TLDs
 ---

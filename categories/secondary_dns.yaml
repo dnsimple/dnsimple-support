@@ -1,4 +1,5 @@
 Configurations:
+- "DNS Redundancy Options at DNSimple"
 - "Add a secondary DNS server to DNSimple"
 - "Add DNSimple as a secondary DNS server"
 - "Add DNSimple as Secondary DNS with a Hidden Primary"
