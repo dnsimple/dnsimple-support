@@ -1,5 +1,5 @@
 ---
-title: What is Domain Trustee?
+title: What Is Domain Trustee?
 excerpt: Domain trustee service helps you register or transfer TLDs when the registry requires local presence or other rules you cannot meet alone; you stay the beneficiary.
 meta: "What domain trustee is in DNSimple: trustee partner vs beneficiary, optional vs required trustee by TLD, registration and transfer availability, extended attributes, billing, and using trustee with the API."
 categories:
@@ -7,7 +7,7 @@ categories:
 - Domains and Transfers
 ---
 
-# What is Domain Trustee?
+# What Is Domain Trustee?
 
 ### Table of Contents {#toc}
 
@@ -18,7 +18,7 @@ categories:
 
 Some top-level domains (TLDs) require local presence, a designated registrant type, or other eligibility you may not be able to provide directly. **Domain trustee** service bridges that gap: DNSimple arranges trustee coverage so you can register or transfer eligible domains while you continue to manage the domain from your account.
 
-## What is a Domain Trustee? {#what-is-a-domain-trustee}
+## What Is a Domain Trustee? {#what-is-a-domain-trustee}
 
 A **domain trustee** is the party that meets the registry's eligibility role on paper—often a local partner or designated registrant—when rules say the domain cannot be held under your personal or company details alone. **You remain the beneficiary**: you keep operational control through DNSimple (DNS, renewal, transfers, and account billing). The trustee fulfills the registry's legal or administrative requirement so the registration or transfer can complete.
 
