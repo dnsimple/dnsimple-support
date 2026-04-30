@@ -28,10 +28,13 @@ Understand what TLDs are and which ones have special requirements:
 
 Requirements, eligibility, registration and transfer rules, and any special steps for each supported TLD:
 
+- [.AIRFORCE Domains](/articles/domains-airforce/) - OFAC sanctions validation on contact addresses.
+- [.ALSACE Domains](/articles/domains-alsace/) - Registrant must demonstrate a connection to Alsace; registry may request proof.
 - [.AU Domains](/articles/domains-au/) - Australian presence, eligibility IDs, and procedures for .AU and third-level .COM.AU, .ORG.AU, .NET.AU.
 - [.BANK Domains](/articles/domains-bank/) - Eligibility and security requirements for .BANK; registration available on Enterprise plans only.
 - [.BE Domains](/articles/domains-be/) - Requirements and procedures for .BE registration, renewal, and transfer.
 - [.BERLIN Domains](/articles/domains-berlin/) - Registrant address must be in Berlin; verification during registration.
+- [.BZH Domains](/articles/domains-bzh/) - Brittany nexus required (address, site content in Breton/Gallo, or `.bzh` association membership).
 - [.CA Domains](/articles/domains-ca/) - CIRA registrant agreement and temporary hold for new registrants; how to complete registration.
 - [.CH Domains](/articles/domains-ch/) - Requirements and procedures for .CH domain names.
 - [.CM Domains](/articles/domains-cm/) - Requirements and procedures for .CM domain names.
@@ -56,8 +59,11 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.IT Domains](/articles/domains-it/) - EU citizenship, residency, or establishment required; .IT PIN (taxpayer/reg code) and registry agreements.
 - [.JOBS Domains](/articles/domains-jobs/) - Requirements and procedures for .JOBS domain names.
 - [.JP Domains](/articles/domains-jp/) - Auto-renewal only; no manual renewals; transfer rules and 60-day lock after transfer.
+- [.KR Domains](https://dnsimple.com/tlds) - Requirements and procedures for .KR domain names.
 - [.LI Domains](/articles/domains-li/) - Requirements and procedures for .LI domain names.
+- [.MUSIC Domains](/articles/domains-music/) - Non-realtime registration; registry identity and music-industry verification via id.music.
 - [.MX Domains](/articles/domains-mx/) - Registry-approved transfer process; current registrar must approve; transfers can take up to 10 days.
+- [.NAVY Domains](/articles/domains-navy/) - Donuts registry; OFAC sanctions validation on contact addresses.
 - [.NET.AU Domains](/articles/domains-net-au/) - Requirements and procedures for .NET.AU domain names.
 - [.NET.CO Domains](/articles/domains-net-co/) - Requirements and procedures for .NET.CO domain names.
 - [.NET.NZ Domains](/articles/domains-net-nz/) - Requirements and procedures for .NET.NZ domain names.
@@ -70,8 +76,13 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.PL Domains](/articles/domains-pl/) - Requirements and procedures for .PL domain names.
 - [.SE Domains](/articles/domains-se/) - Requirements and procedures for .SE domain names.
 - [.SG Domains](/articles/domains-sg/) - Requirements and procedures for .SG domain names.
+- [.TIROL Domains](/articles/domains-tirol/) - Registrant must show affinity with the Austrian federal state of Tirol.
 - [.UK Domains](/articles/domains-uk/) - Reservation policy for second-level .UK; matching .CO.UK/.ORG.UK contact required; transfer and transfer-away rules.
 - [.US Domains](/articles/domains-us/) - Transfer into DNSimple requires registrant acknowledgment; unacknowledged transfers canceled after 14 days.
+- [.UZ Domains](/articles/domains-uz/) - Legal-entity contacts; full legal names and holder validation (ID or company documents).
+- [.VERSICHERUNG Domains](/articles/domains-versicherung/) - Eligibility limited to the insurance community in AT/DE/LI/CH; content and use restrictions.
+- [.WATCHES Domains](/articles/domains-watches/) - OFAC sanctions validation on contact addresses.
+- [.WIEN Domains](/articles/domains-wien/) - Registrant must show affinity with Vienna.
 - [.XXX Domains](/articles/domains-xxx/) - Member Auth Token from ICM Registry required to activate the domain; provide during registration or via API.
 - [.ZA Domains](/articles/domains-za/) - Requirements and procedures for .ZA domain names.
 - [Migrating Your .AU Domains from Our Legacy Provider](/articles/au-migration/) - For .AU domains registered via our legacy provider: how to complete migration to the new registrar (deadline March 30, 2025).
