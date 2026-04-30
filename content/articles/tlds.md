@@ -85,10 +85,6 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.WIEN Domains](/articles/domains-wien/) - Registrant must show affinity with Vienna.
 - [.XXX Domains](/articles/domains-xxx/) - Member Auth Token from ICM Registry required to activate the domain; provide during registration or via API.
 - [.ZA Domains](/articles/domains-za/) - Requirements and procedures for .ZA domain names.
-- [.商店 Domains](/articles/domains-xn--czrs0t/) - `xn--czrs0t`; OFAC sanctions validation on contact addresses.
-- [.娱乐 Domains](/articles/domains-xn--fjq720a/) - `xn--fjq720a`; OFAC sanctions validation on contact addresses.
-- [.游戏 Domains](/articles/domains-xn--unup4y/) - `xn--unup4y`; OFAC sanctions validation on contact addresses.
-- [.企业 Domains](/articles/domains-xn--vhquv/) - `xn--vhquv`; OFAC sanctions validation on contact addresses.
 - [Migrating Your .AU Domains from Our Legacy Provider](/articles/au-migration/) - For .AU domains registered via our legacy provider: how to complete migration to the new registrar (deadline March 30, 2025).
 
 For the full list of TLDs supported for registration and transfer, see [dnsimple.com/tlds](https://dnsimple.com/tlds). TLDs not supported for registration or transfer can often still be [added to your account](/articles/adding-domain/) for DNS hosting or other services such as [SSL certificates](https://dnsimple.com/ssl-certificates).
