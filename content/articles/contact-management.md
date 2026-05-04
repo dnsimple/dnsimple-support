@@ -37,7 +37,7 @@ You can also create a new contact at any time through the **Contacts** page.
 ![creating a new contact](/files/change-contact-1.png)
 
 > [!NOTE]
-> If the email address on the contact has not been verified, you will receive a verification email. Follow the link in the email to complete the verification.
+> If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification.
 
 ## Updating contacts
 
@@ -46,10 +46,10 @@ If a contact is associated with multiple domains, updating that contact also upd
 To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
 
 > [!NOTE]
-> When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-
-> [!NOTE]
-> If you update a contact's email address and it has not been verified, you will receive a verification email. Follow the link in the email to complete the verification.
+> When you update a domain contact:
+- You will receive a confirmation email from no-reply@ispapi.net.
+- You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
+- If you update the contact's email address you may also receive an specific email to verify the new email address.
 
 ### Deleting a contact
 
