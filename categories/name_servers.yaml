@@ -1,16 +1,20 @@
 Getting started:
-- "What is a name server?"
-- "What Are Vanity Name Servers?"
-- "What Are Glue Records?"
-- "DNSimple Name Servers"
-- "Name Server Sets"
-- "Manage Vanity Name Servers"
+  - "DNSimple Name Servers"
 
-Setting Delegation:
-- "Pointing a Domain to DNSimple"
-- "Delegating a Domain registered with another Registrar to DNSimple"
-- "Delegating a Domain registered with DNSimple to DNSimple"
+Explanation:
+  Name server concepts:
+    - "What is a name server?"
+    - "What Are Vanity Name Servers?"
+    - "What Are Glue Records?"
 
-Configuring name servers:
-- "Adding NS Records for a Subdomain"
-- "Setting the Name Servers for a Domain"
+How-to:
+  Domain delegation:
+    - "Pointing a Domain to DNSimple"
+    - "Delegating a Domain registered with another Registrar to DNSimple"
+    - "Delegating a Domain registered with DNSimple to DNSimple"
+  Delegation settings and child zones:
+    - "Setting the Name Servers for a Domain"
+    - "Adding NS Records for a Subdomain"
+  Name server sets and vanity name servers:
+    - "Name Server Sets"
+    - "Manage Vanity Name Servers"
