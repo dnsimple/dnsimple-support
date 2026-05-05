@@ -23,7 +23,9 @@ categories:
 > [!NOTE]
 > The above video also demonstrates adding missing glue records directly from the Edit delegation page. However, this is no longer supported. Glue records can only be added via applying [name server sets](/articles/name-server-sets/#creating-an-account-name-server-set) that contain the necessary glue records.
 
-Glue records are A or AAAA addresses for authoritative name server hostnames that sit inside the same zone being delegated. They are published in the parent zone (for example the TLD) alongside the NS set for your domain so resolvers can reach those servers without asking the child zone first. That avoids a circular dependency. For general context on authoritative servers, see [What is a name server?](/articles/what-is-a-nameserver/).
+Glue records are the IP addresses, stored as A or AAAA records, for authoritative name servers when those name server hostnames live inside the domain being delegated. For example, if example.com uses ns1.example.com as one of its name servers, the parent zone, often the TLD, must publish the IP address for ns1.example.com together with the NS delegation.
+
+Resolvers need those IP addresses so they can reach the authoritative name servers before querying the child zone. This prevents the lookup from circling back on itself. For general context on authoritative servers, see [What is a name server?](/articles/what-is-a-nameserver/).
 
 ## The circular dependency problem {#circular-dependency}
 
