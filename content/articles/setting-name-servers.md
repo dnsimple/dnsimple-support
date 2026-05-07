@@ -19,7 +19,7 @@ Use this guide when **DNSimple is your registrar** and you want DNS hosted **som
 
 If your domain is **not** registered at DNSimple, update name servers at your **current registrar**.
 
-If you want DNS hosted **by DNSimple**, follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) instead of this article.
+If you want DNS hosted **by DNSimple**, follow [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) so you follow the right steps for your registration setup.
 
 For vocabulary (delegation versus records in your zone), see [What Is Domain Delegation?](/articles/what-is-domain-delegation/). For what authoritative name servers do, see [What is a name server?](/articles/what-is-a-nameserver/). For an overview when you are moving **to** DNSimple DNS, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
@@ -56,11 +56,7 @@ After delegation points to another provider, the domain resolves using **that** 
 > DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
 > [!NOTE]
-> If a name server hostname **falls under your domain** (for example `ns1.example.com` when delegating `example.com`), the registry needs **glue** so resolvers can reach those servers. DNSimple can create glue at the registry when the server is defined in a [name server set](/articles/name-server-sets/) that includes the glue IP addresses. For more detail, see [What Are Glue Records?](/articles/what-are-glue-records/). This situation also appears with [vanity name servers](/articles/what-are-vanity-name-servers/).
-
-## Use DNSimple for DNS
-
-To delegate to DNSimple’s name servers so your DNSimple zone is used on the public Internet, follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+> If the name server hostname uses the same domain you are delegating, for example `ns1.example.com` for `example.com`, the registry needs glue records so resolvers can find the name server's IP address. DNSimple can create glue at the registry when the server is defined in a [name server set](/articles/name-server-sets/) that includes the glue IP addresses. For more detail, see [What Are Glue Records?](/articles/what-are-glue-records/). This situation also appears with [vanity name servers](/articles/what-are-vanity-name-servers/).
 
 ## Reserved name servers {#reserved-name-servers}
 
