@@ -23,6 +23,9 @@ How-to:
     - "Name Server Sets"
     - "Manage Vanity Name Servers"
 
+Troubleshooting:
+  DNSimple name servers:
+    - "Troubleshoot DNSimple Name Servers"
 Reference:
   Delegation checklist:
     - "Name Server Delegation Checklist"
