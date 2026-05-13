@@ -31,9 +31,9 @@ To learn more about how DNS works, take a look at our [How DNS Works web comics]
 ## DNSimple's role and your domain's NS records {#dnsimples-role-and-your-domains-ns-records}
 When you delegate a domain to DNSimple, the TLD authorities (like the `.COM` registry) place NS records for your domain in their name servers that point directly to DNSimple's name servers. For example, for `dnsimple.com`, the `.COM` name servers contain entries similar to these, delegating authority to us:
 ```
-dnsimple.com.   172800  IN  NS  ns1.dnsimple.com.
+dnsimple.com.   172800  IN  NS  ns1.dnsimple-edge.com.
 dnsimple.com.   172800  IN  NS  ns2.dnsimple-edge.net.
-dnsimple.com.   172800  IN  NS  ns3.dnsimple.com.
+dnsimple.com.   172800  IN  NS  ns3.dnsimple-edge.io.
 dnsimple.com.   172800  IN  NS  ns4.dnsimple-edge.org.
 ```
 These records indicate DNSimple is responsible for all DNS lookups for `dnsimple.com`.

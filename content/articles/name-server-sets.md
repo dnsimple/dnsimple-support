@@ -1,11 +1,12 @@
 ---
 title: Name Server Sets
 excerpt: How to use name server sets to facilitate the configuration of domain name servers and zone NS records.
+meta: Name server sets are reusable groups of name server hostnames in DNSimple. Use them to apply consistent delegation, secondary DNS, and zone NS record configurations across your domains.
 categories:
 - Name Servers
 ---
 
-# What Is A Name Server Set?
+# Name Server Sets
 
 Name server sets are reusable groups of [name server](/articles/what-is-a-nameserver/) records that can be applied to the [name server delegation](/articles/setting-name-servers/), [secondary DNS](/articles/secondary-dns/) configuration, and [zone NS records](/articles/zone-ns-records/) of your domains. They speed up the entry of name server and NS records and reduce possible mistakes, like typos and other errors. For the same reusable-group pattern applied to DNS records, see [How to Use Templates](/articles/templates/).
 
@@ -18,7 +19,7 @@ Name server sets are reusable groups of [name server](/articles/what-is-a-namese
   <iframe loading="lazy" src="https://www.youtube.com/embed/nuerJDLxMQA?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Types of name server sets
+## Types of name server sets {#types}
 
 There are two types of name server sets:
 - System name server sets
@@ -32,7 +33,7 @@ System name server sets are pre-defined name server sets provided by DNSimple wh
 
 Account name server sets are private to an account and can contain custom name servers. You can manage your account's name server sets at any time from the Account > Name Server Sets page, if you have [full access](/articles/domain-access-control/#full-access) to the account.
 
-## Creating an account name server set
+## Creating an account name server set {#creating-an-account-name-server-set}
 
 <div class="section-steps" markdown="1">
 #### To create a name server set
@@ -53,7 +54,7 @@ Account name server sets are private to an account and can contain custom name s
 
 </div>
 
-## Updating an account name server set
+## Updating an account name server set {#updating-an-account-name-server-set}
 
 <div class="section-steps" markdown="1">
 #### To update a name server set
@@ -72,7 +73,7 @@ Account name server sets are private to an account and can contain custom name s
 
 </div>
 
-## Deleting an account name server set
+## Deleting an account name server set {#deleting-an-account-name-server-set}
 
 <div class="section-steps" markdown="1">
 #### To delete a name server set
@@ -89,3 +90,7 @@ Account name server sets are private to an account and can contain custom name s
 > Deleting a name server set will not affect any existing domain name server or NS record configurations that had included the name server set.
 
 </div>
+
+## Have more questions?
+
+If you have any questions about name server sets, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
