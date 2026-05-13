@@ -8,7 +8,7 @@ categories:
 
 # Domain Delegation and Name Servers Explained
 
-This article explains how **delegation**, **name servers**, **DNS hosting**, and **DNS records** relate to each other. When you are ready to complete a change, use the table at the end to open the right How-to guide.
+**Delegation** tells the global DNS system which name servers are authoritative for your domain. Customers describe this workflow as "pointing," "delegating," "setting name servers," or "changing name servers." The correct steps depend on where the domain is registered and where DNS is hosted. Use the table at the end of this page to find the right guide.
 
 ### Table of Contents {#toc}
 
@@ -25,7 +25,7 @@ For a fuller description of the delegation chain, see [What Is Domain Delegation
 
 ## How delegation and name servers are related {#delegation-and-name-servers}
 
-In everyday language, people say **name servers** when they talk about delegation because delegation lists **hostnames** (for example `ns1.dnsimple.com`) that must answer DNS for your domain. Changing delegation usually means **changing which name server hostnames are listed at the registrar** for your domain.
+In everyday language, people say **name servers** when they talk about delegation because delegation lists **hostnames** (for example `ns1.dnsimple-edge.com`) that must answer DNS for your domain. Changing delegation usually means **changing which name server hostnames are listed at the registrar** for your domain.
 
 Authoritative name servers host your zone file (your A, MX, CNAME, and other records). For vocabulary and resolver basics, see [What is a name server?](/articles/what-is-a-nameserver/).
 
@@ -63,7 +63,7 @@ They are related but not the same: you can register a domain with DNSimple and h
 
 ## Why DNSimple DNS records may not appear on the public internet {#why-records-may-not-be-used}
 
-DNSimple stores your zone configuration when you host DNS with DNSimple. **Public resolvers only use that zone when delegation lists DNSimple's authoritative name servers** (or otherwise reaches servers that will serve your DNSimple zone, such as in some secondary or advanced setups you configure on purpose).
+DNSimple stores your zone configuration when you host DNS with DNSimple. **Public resolvers only use that zone when delegation lists DNSimple's authoritative name servers.** Secondary DNS or other advanced configurations can also route queries to your DNSimple zone, but those require intentional setup.
 
 If delegation still points to another provider, that provider's zone is what the public internet uses. Edits in DNSimple will not change public resolution until delegation points to DNSimple (or the relevant architecture you intend).
 
@@ -73,7 +73,7 @@ All of the following must line up for DNSimple-hosted DNS to be what the world q
 
 1. **DNSimple subscription is active** for the account that owns the DNS hosting work you are doing.
 2. **The zone exists and is managed in DNSimple** for that domain (your records live in that zone).
-3. **Delegation lists DNSimple name servers** you intend to use for that domain (for standard hosting, the hostnames in [DNSimple Name Servers](/articles/dnsimple-nameservers/) unless your setup uses vanity or other advanced configuration).
+3. **Delegation lists DNSimple name servers** for that domain. For standard hosting, use the hostnames in [DNSimple Name Servers](/articles/dnsimple-nameservers/). If your setup uses vanity name servers or another advanced configuration, the hostnames will differ.
 
 If something still fails after delegation looks correct, propagation and caching can delay visible changes. See [What is TTL?](/articles/what-is-ttl/) and [Troubleshoot Domain Resolution Issues](/articles/domain-resolution-issues/).
 
@@ -88,7 +88,7 @@ If something still fails after delegation looks correct, propagation and caching
 | Name servers use names **under your own domain** (for example `ns1.example.com` for `example.com`) and you need glue context | [What Are Glue Records?](/articles/what-are-glue-records/) |
 
 > [!TIP]
-> If you are unsure where the domain is registered, check the registrar listed for the domain, then return to this table.
+> If you are unsure where the domain is registered, check the registrar in a [WHOIS](https://dnsimple.com/whois) lookup for the domain, or inspect delegation with a tool such as [zone.vision](https://zone.vision/#/). Then return to this table.
 
 ## Have more questions?
 

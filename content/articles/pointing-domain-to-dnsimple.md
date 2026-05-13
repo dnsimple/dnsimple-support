@@ -12,6 +12,8 @@ Pointing a domain name servers to DNSimple is required if you want to use DNSimp
 
 Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
+If you want background on how delegation, registration, and DNS hosting relate before you follow the steps, read [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/).
+
 ## Domain registered with DNSimple
 
 Follow these instructions to [delegate a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).

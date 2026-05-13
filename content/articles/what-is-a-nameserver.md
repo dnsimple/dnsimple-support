@@ -25,6 +25,8 @@ For security purposes, we don't make these changes on your behalf. If you purcha
 
 If you transfer your domain to DNSimple to manage your DNS, you'll need to update the name servers. Luckily, the name servers are easy to change and easy to remember by following [these step-by-step instructions](/articles/delegating-dnsimple-registered/).
 
+If you are not sure which steps apply to your domain, see [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/) for how registration, delegation, and DNS hosting fit together, and for links to the right How-to guides.
+
 > [!NOTE] Check your name servers
 > Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
 > If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.
