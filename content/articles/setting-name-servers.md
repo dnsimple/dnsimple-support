@@ -56,7 +56,7 @@ After delegation points to another provider, the domain resolves using **that** 
 > DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
 > [!NOTE]
-> If the name server hostname uses the same domain you are delegating, for example `ns1.example.com` for `example.com`, the registry needs glue records so resolvers can find the name server's IP address. DNSimple can create glue at the registry when the server is defined in a [name server set](/articles/name-server-sets/) that includes the glue IP addresses. For more detail, see [What Are Glue Records?](/articles/what-are-glue-records/). This situation also appears with [vanity name servers](/articles/what-are-vanity-name-servers/).
+> If the name server hostname uses the same domain you are delegating, for example `ns1.example.com` for `example.com`, the registry needs glue records so resolvers can find the name server's IP address. DNSimple can create glue at the registry when the server is defined in a [name server set](/articles/name-server-sets/) that includes the glue IP addresses. For more detail, see [What Are Glue Records?](/articles/what-are-glue-records/). This situation also applies to [vanity name servers](/articles/what-are-vanity-name-servers/).
 
 ## Reserved name servers {#reserved-name-servers}
 
