@@ -72,7 +72,7 @@ When the transfer is completed, you will receive a confirmation email from DNSim
 
 To avoid unexpected downtime and confusion, we do not change the domain name servers upon a successful transfer. When the domain is transferred to us, we will keep using the same name servers previously configured for the domain.
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [manually configure the name servers](/articles/setting-name-servers/).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [change the name server delegation](/articles/setting-name-servers/).
 
 > [!WARNING]
 > We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer is completed.

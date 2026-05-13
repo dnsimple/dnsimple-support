@@ -13,7 +13,7 @@ How-to:
     - "Delegating a Domain registered with another Registrar to DNSimple"
     - "Delegating a Domain registered with DNSimple to DNSimple"
   Delegation settings and child zones:
-    - "Change delegation to another DNS provider (DNSimple registration)"
+    - "Change delegation to another DNS provider"
     - "Adding NS Records for a Subdomain"
   Name server sets and vanity name servers:
     - "Name Server Sets"

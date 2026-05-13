@@ -30,7 +30,7 @@ To set up zone redundancy with another DNS provider on your zone, follow the ste
 
 ## Configuring DNSimple alongside another DNS provider (registered domain)
 
-To set up zone redundancy with another DNS provider on your domain, follow the steps in [Change delegation to another DNS provider (DNSimple registration)](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
+To set up zone redundancy with another DNS provider on your domain, follow the steps in [Change delegation to another DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
 ## Have more questions?
 
