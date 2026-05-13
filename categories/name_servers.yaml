@@ -6,6 +6,8 @@ Explanation:
     - "What is a name server?"
     - "What Are Vanity Name Servers?"
     - "What Are Glue Records?"
+  Resolver roles:
+    - "Recursive vs Authoritative DNS Resolvers"
   Delegation and caching:
     - "How DNS Caching and TTL Affect Delegation and Record Changes"
 
