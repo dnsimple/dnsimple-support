@@ -28,7 +28,7 @@ For vocabulary (delegation versus records in your zone), see [What Is Domain Del
 After delegation points to another provider, the domain resolves using **that** provider's DNS. Records in your DNSimple account are **not** used for public DNS until delegation points back to DNSimple.
 
 <div class="section-steps" markdown="1">
-##### To change delegation to another provider
+### To change delegation to another provider
 
 1. If you have more than one account, select the relevant one.
 1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
