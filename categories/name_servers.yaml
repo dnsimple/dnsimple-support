@@ -8,6 +8,8 @@ Explanation:
     - "What Are Glue Records?"
   Resolver roles:
     - "Recursive vs Authoritative DNS Resolvers"
+  Delegation and caching:
+    - "How DNS Caching and TTL Affect Delegation and Record Changes"
 
 How-to:
   Domain delegation:
