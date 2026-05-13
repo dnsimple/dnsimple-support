@@ -23,6 +23,9 @@ How-to:
     - "Name Server Sets"
     - "Manage Vanity Name Servers"
 
+Reference:
+  Delegation checklist:
+    - "Name Server Delegation Checklist"
 Troubleshooting:
   After delegation:
     - "Troubleshoot Email or Subdomains After Delegation Changes"
