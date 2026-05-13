@@ -4,6 +4,7 @@ excerpt: The structure and canonical representation of an NS record.
 meta: Reference for NS record format and structure. Covers the RDATA definition from RFC 1035, canonical zone file representation, and the customizable fields in DNSimple.
 categories:
 - DNS
+- Name Servers
 ---
 
 # NS Record Format

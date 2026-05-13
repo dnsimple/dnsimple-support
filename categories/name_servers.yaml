@@ -30,6 +30,8 @@ Troubleshooting:
 Reference:
   Delegation checklist:
     - "Name Server Delegation Checklist"
+  NS record:
+    - "NS Record Format"
 Troubleshooting:
   After delegation:
     - "Troubleshoot Email or Subdomains After Delegation Changes"
