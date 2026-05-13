@@ -31,7 +31,7 @@ It is important to understand that delegation is separate from domain registrati
 
 ## Changing delegation {#changing-delegation}
 
-You can change your domain's delegation at any time by [updating the name servers](/articles/setting-name-servers/). You update the name server settings in your registrar account. Changes to delegation can take up to 24-48 hours to propagate globally. Your domain continues to resolve during the change, as long as both old and new name servers are configured correctly. Changing delegation does not affect your domain registration. You remain the owner of the domain, and the registration period is unchanged.
+You can change your domain's delegation at any time by [updating the name servers](/articles/setting-name-servers/). For a guide to choosing the right DNSimple article for your situation, see [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/). You update the name server settings in your registrar account. Changes to delegation can take up to 24-48 hours to propagate globally. Your domain continues to resolve during the change, as long as both old and new name servers are configured correctly. Changing delegation does not affect your domain registration. You remain the owner of the domain, and the registration period is unchanged.
 
 ## Delegation and DNS hosting {#delegation-and-dns-hosting}
 
@@ -47,4 +47,4 @@ Delegation is independent of [domain transfers](/articles/what-is-domain-transfe
 
 ## Have more questions?
 
-If you have any questions about domain delegation or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.
+If you have any questions about domain delegation or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) - we are here to help.

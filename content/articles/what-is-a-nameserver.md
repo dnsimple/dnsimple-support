@@ -49,4 +49,9 @@ For a general overview of pointing a domain to DNSimple, see [Pointing a Domain 
 
 ## Have more questions?
 
+If you are not sure which steps apply to your domain, see [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/) for how registration, delegation, and DNS hosting fit together, and for links to the right How-to guides.
+
+> [!NOTE] Check your name servers
+> Make sure to [check your nameservers](/articles/pointing-domain-to-dnsimple/). If your domain isn't delegated to DNSimple, then [changes you make to DNS records](/articles/record-editor/) won't resolve.
+> If you want to know which name servers your domain is using, you can use [zone.vision](https://zone.vision/#/) to do a DNS Lookup.
 If you have any questions about name servers or delegation, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
