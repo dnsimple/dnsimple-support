@@ -123,7 +123,7 @@ If your domain has entered the redemption period, you must [restore the domain](
 
 If you are already experiencing downtime:
 
-1. [Point your domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) after the transfer completes, or [manually configure name servers](/articles/setting-name-servers/) to point to your DNS provider.
+1. [Point your domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) after the transfer completes, or [change the name server delegation](/articles/setting-name-servers/) to point to your DNS provider.
 2. If you are using an external DNS provider, ensure your name servers are correctly configured to point to that provider.
 
 ## DNSSEC issues during transfer {#dnssec-issues-during-transfer}
