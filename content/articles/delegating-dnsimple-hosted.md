@@ -17,9 +17,9 @@ Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple will ca
 1.  Find the place on your domain registrar's web site where you can enter our name servers.
 1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers/):
 
-    - ns1.dnsimple.com
+    - ns1.dnsimple-edge.com
     - ns2.dnsimple-edge.net
-    - ns3.dnsimple.com
+    - ns3.dnsimple-edge.io
     - ns4.dnsimple-edge.org
 </div>
 

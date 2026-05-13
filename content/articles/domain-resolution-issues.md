@@ -38,9 +38,9 @@ DNSimple provides four name servers. All four should be listed to ensure redunda
 
 **DNSimple name servers are**:
 
-`ns1.dnsimple.com` 
-`ns2.dnsimple-edge.net`  
-`ns3.dnsimple.com` 
+`ns1.dnsimple-edge.com`
+`ns2.dnsimple-edge.net`
+`ns3.dnsimple-edge.io`
 `ns4.dnsimple-edge.org`
 
 ## Check that the domain is using *only* DNSimple name servers {#check-that-the-domain-is-using-only-dnsimple-name-servers}
@@ -51,9 +51,9 @@ Problematic configuration example:
 
 ```
 $ dig NS example.com +short
-ns1.dnsimple.com.
+ns1.dnsimple-edge.com.
 ns2.dnsimple-edge.net.
-ns3.dnsimple.com.
+ns3.dnsimple-edge.io.
 ns4.dnsimple-edge.org.
 ns1.thirdparty.com.
 ns2.thirdparty.com.

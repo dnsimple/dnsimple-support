@@ -14,9 +14,9 @@ Use this page as a compact reference when you need the DNSimple delegation targe
 
 Your registrar (or DNSimple **Edit delegation** for DNSimple-registered domains) must list exactly these authoritative hostnames for DNSimple DNS hosting:
 
-- `ns1.dnsimple.com`
+- `ns1.dnsimple-edge.com`
 - `ns2.dnsimple-edge.net`
-- `ns3.dnsimple.com`
+- `ns3.dnsimple-edge.io`
 - `ns4.dnsimple-edge.org`
 
 All four should be present. Remove other providers' NS unless you intentionally run [Secondary DNS](/articles/secondary-dns/).

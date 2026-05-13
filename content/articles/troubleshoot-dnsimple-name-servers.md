@@ -18,9 +18,9 @@ You can use `dig` or any other DNS tool to get the name servers for the domain.
 
 ```
 $ dig NS example.com +short
-ns1.dnsimple.com.
+ns1.dnsimple-edge.com.
 ns2.dnsimple-edge.net.
-ns3.dnsimple.com.
+ns3.dnsimple-edge.io.
 ns4.dnsimple-edge.org.
 ```
 
