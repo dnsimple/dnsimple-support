@@ -6,6 +6,10 @@ Explanation:
     - "What is a name server?"
     - "What Are Vanity Name Servers?"
     - "What Are Glue Records?"
+  Resolver roles:
+    - "Recursive vs Authoritative DNS Resolvers"
+  Delegation and caching:
+    - "How DNS Caching and TTL Affect Delegation and Record Changes"
 
 How-to:
   Domain delegation:
@@ -22,3 +26,9 @@ How-to:
 Troubleshooting:
   DNSimple name servers:
     - "Troubleshoot DNSimple Name Servers"
+Reference:
+  Delegation checklist:
+    - "Name Server Delegation Checklist"
+Troubleshooting:
+  After delegation:
+    - "Troubleshoot Email or Subdomains After Delegation Changes"
