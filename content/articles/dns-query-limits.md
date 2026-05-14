@@ -39,7 +39,7 @@ We currently charge query volume fees on Solo and Teams plans. Enterprise plans 
 
 ### Where can I see my current query volume?
 
-You can find your zones' query volume for the current billing period in the "Billing and Plans" section of your account page. In this section, you will see the top 100 zones by query volume.
+To view the query volume for your zones, go to your account settings page and click the "Billing and Plans" section. There, you will see the top 100 zones by query volume for the current billing period.
 
 As an Enterprise customer, you have some additional capabilities:
 
