@@ -1,26 +1,35 @@
 ---
 title: Pointing a Domain to DNSimple
-excerpt: How to point a domain to DNSimple's name servers.
-meta: Learn how to easily point your domain to DNSimple's name servers with our step-by-step guide, ensuring seamless management of your online presence.
+excerpt: Pick the right delegation guide when you want DNSimple to answer DNS for your domain.
+meta: Point your domain to DNSimple name servers by choosing the path for DNSimple-registered domains versus domains registered elsewhere, then follow the linked how-to steps.
 categories:
 - Name Servers
 ---
 
 # Pointing a Domain to DNSimple
 
-Pointing a domain's [name servers](/articles/what-is-a-nameserver/) to DNSimple is required if you want to use DNSimple as your [DNS hosting](https://dnsimple.com) provider. This task is also known as "delegating" a domain.
+### Table of Contents {#toc}
 
-Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+* TOC
+{:toc}
 
-If you want background on how delegation, registration, and DNS hosting relate before you follow the steps, read [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/).
+---
 
-## Domain registered with DNSimple
+Use this hub when you want DNSimple to host DNS for your domain and you need to point the domain's [name servers](/articles/what-is-a-nameserver/) to DNSimple. That process is also called delegating the domain. After delegation, the domain resolves using the DNS records in your DNSimple account.
 
-Follow these instructions to [delegate a domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+For how registration, delegation, and DNS hosting fit together, read [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/). For propagation timing, read [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/how-dns-caching-and-ttl-affect-delegation-and-record-changes/). Before you change delegation, you can use the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
 
-## Domain registered with another provider
+## Domain registered with DNSimple {#domain-registered-with-dnsimple}
 
-Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
+Follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+
+## Domain registered with another provider {#domain-registered-with-another-provider}
+
+Follow [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
 > [!NOTE] Name server propagation
-> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+> Name server changes can take up to 24 hours to propagate. A WHOIS lookup is often a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+
+## Have more questions?
+
+If you have questions about pointing your domain to DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
