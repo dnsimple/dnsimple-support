@@ -8,7 +8,7 @@ categories:
 
 # Delegating a Domain registered with another Registrar to DNSimple
 
-Pointing the name servers to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
 
 <div class="section-steps" markdown="1">
 ##### To change the name servers to DNSimple
@@ -17,9 +17,9 @@ Pointing the name servers to DNSimple will cause the domain to resolve using the
 1.  Find the place on your domain registrar's web site where you can enter our name servers.
 1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers/):
 
-    - ns1.dnsimple.com
+    - ns1.dnsimple-edge.com
     - ns2.dnsimple-edge.net
-    - ns3.dnsimple.com
+    - ns3.dnsimple-edge.io
     - ns4.dnsimple-edge.org
 </div>
 

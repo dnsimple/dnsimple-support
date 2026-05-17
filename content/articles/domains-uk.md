@@ -103,7 +103,7 @@ When the transfer has completed, you will receive an email from DNSimple confirm
 > [!WARNING]
 > We don't automatically point your domain to our name servers when the transfer completes. We suggest pointing [your domain to our name servers before the transfer](/articles/before-transferring-domain/) to avoid downtime during the transfer. Some DNS providers will stop serving the DNS for the domain as soon as the transfer has completed.
 
-You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [manually configure the name servers](/articles/setting-name-servers/).
+You can now decide to [point the domain to DNSimple name servers](/articles/delegating-dnsimple-registered/) in one click, or [change the name server delegation](/articles/setting-name-servers/).
 
 ### Expiration extension
 

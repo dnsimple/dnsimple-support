@@ -39,7 +39,14 @@ We currently charge query volume fees on Solo and Teams plans. Enterprise plans 
 
 ### Where can I see my current query volume?
 
-You can find your zones' query volume for the current billing period in the "Billing and Plans" section of your account page.
+To view the query volume for your zones, go to your account settings page and click the "Billing and Plans" section. There, you will see the top 100 zones by query volume for the current billing period.
+
+As an Enterprise customer, you have some additional capabilities:
+
+- You can filter by date range to understand the total query volume overage fees incurred during the selected period, along with a link to the corresponding invoices.
+- You can also export the query volume for all your zones, not only the top 100, in the selected period as a CSV file.
+
+![Enterprise query volume page showing top 100 zones, date filtering, and CSV export options](/files/enterprise-top-100-zones-query-volume.png)
 
 ### How can I learn my zone volume if I'm planning to upgrade my plan?
 

@@ -1,12 +1,12 @@
 ---
-title: Setting the Name Servers for a Domain
-excerpt: To set the name servers, your domain must be registered with DNSimple. If it's not, use the control panel of your current domain registrar to update the name servers.
-meta: How to set name servers for your domain. Your domain must be registered with DNSimple, or use your current registrar's control panel.
+title: Change delegation to another DNS provider
+excerpt: Point DNS to another provider when DNSimple is your registrar. Covers Edit delegation, glue via name server sets, and reserved rows from Secondary DNS or vanity name servers.
+meta: Change DNS delegation away from DNSimple when your domain is registered at DNSimple. Edit delegation to another DNS provider; glue may apply for in-zone NS names. Reserved name servers come from Secondary DNS or vanity name servers.
 categories:
   - Name Servers
 ---
 
-# Setting the Name Servers for a Domain Name
+# Change delegation to another DNS provider
 
 ### Table of Contents {#toc}
 
@@ -15,65 +15,59 @@ categories:
 
 ---
 
-To set the name servers, your domain must be registered with DNSimple. If that's not the case, use the control panel of your current domain registrar to update the name servers.
+Use this guide when **DNSimple is your registrar** and you want DNS hosted **somewhere other than DNSimple** (for example Cloudflare or another DNS provider). You change **delegation**: which name servers are authoritative for your domain.
 
-You can set the name servers of a domain registered with DNSimple from your domain page.
+If your domain is **not** registered at DNSimple, update name servers at your **current registrar**.
 
-## Pointing the name servers to another provider
+If you want DNS hosted **by DNSimple**, follow [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) so you follow the right steps for your registration setup.
 
-Pointing the name servers to another provider will cause the domain to resolve using the DNS records configured at the other DNS provider. The DNS records in your DNSimple account will be ignored.
+For vocabulary (delegation versus records in your zone), see [What Is Domain Delegation?](/articles/what-is-domain-delegation/). For what authoritative name servers do, see [What is a name server?](/articles/what-is-a-nameserver/). For an overview when you are moving **to** DNSimple DNS, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+
+## Change delegation to another DNS provider {#pointing-the-name-servers-to-another-provider}
+
+After delegation points to another provider, the domain resolves using **that** provider's DNS. Records in your DNSimple account are **not** used for public DNS until delegation points back to DNSimple.
 
 <div class="section-steps" markdown="1">
-##### To point the name servers to another provider
+### To change delegation to another provider
 
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click on the name to access the domain page.
 
     ![Domain Page link](/files/domains-domain-link.png)
 
-1.  Click <label>Registration</label> on the left sidebar.
-1.  On the Domain delegation card, click <label>Edit delegation</label>.
+1. Click <label>Registration</label> on the left sidebar.
+1. On the Domain delegation card, click <label>Edit delegation</label>.
 
     ![Domain Delegation card](/files/domain-delegation-card.png)
 
-1.  Enter the names of the name servers you want to use.
+1. Enter the hostnames of the name servers you want to use.
 
     ![Enter name servers](/files/complete-name-server-change.png)
 
-1.  Instead of manually entering the name server names, you can also click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets/).
+1. Instead of entering hostnames manually, you can click <label>Add a name server set</label> to select a [name server set](/articles/name-server-sets/).
 
     ![Add a name server set](/files/domain-delegation-add-name-server-set.png)
 
-    If the name server has glue IP address(es) associated with it in the [name server set](/articles/name-server-sets/), and is a child zone of the domain which is having the delegation updated, glue records will be created for the domain at the registry. For instance, if `ns1.example.com` is being configured as a name server for the domain "example.com", and `ns1.example.com` has glue IP address(es) associated with it in the name server set it belongs to, the glue records needed to resolve `ns1.example.com` to its associated IP address(es) will be created at the registry.
-
-1.  Click <label>Change Name Servers</label> to apply the name server changes.
+1. Click <label>Change Name Servers</label> to apply the changes.
 
 </div>
 
 > [!NOTE]
 > DNSimple's listing of NS records for the domain will be updated to match the name server changes.
 
-## Pointing the name servers to DNSimple
-
-Pointing the name servers to DNSimple provider will cause the domain to resolve using the DNS records configured in your DNSimple account.
-
-To change the name servers to DNSimple, follow the steps in [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+> [!NOTE]
+> If the name server hostname uses the same domain you are delegating, for example `ns1.example.com` for `example.com`, the registry needs glue records so resolvers can find the name server's IP address. DNSimple can create glue at the registry when the server is defined in a [name server set](/articles/name-server-sets/) that includes the glue IP addresses. For more detail, see [What Are Glue Records?](/articles/what-are-glue-records/). This situation also applies to [vanity name servers](/articles/what-are-vanity-name-servers/).
 
 ## Reserved name servers {#reserved-name-servers}
 
-If you have [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/) set up for your domain, the name servers belonging to the Secondary DNS or Vanity Name Servers configuration are considered "reserved", i.e. they cannot be edited or removed through the **Edit delegation** page.
+If you use [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/), name servers from those configurations are **reserved**. You cannot edit or remove them through **Edit delegation** alone.
 
 ![Reserved name servers](/files/reserved-name-servers.png)
 
-To make changes to a reserved name server, click on the configuration icon next to it. You will be taken to the [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/) configuration where you can make the necessary changes.
+Click the configuration icon next to a reserved entry to open [Secondary DNS](/articles/secondary-dns/) or [Vanity Name Servers](/articles/vanity-nameservers/) and change the configuration there.
 
 ![Edit reserved name servers through configuration](/files/reserved-name-servers-edit-configuration.png)
 
-## Glue records
-
-If you are adding a name server that is a child of the domain, glue records are required.
-For more information on glue records and how they work, see our [What Are Glue Records?](/articles/what-are-glue-records/) article.
-
 ## Have more questions?
 
-If you have further questions or need assistance setting up name servers for your domain, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have further questions or need help with delegation or name servers, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

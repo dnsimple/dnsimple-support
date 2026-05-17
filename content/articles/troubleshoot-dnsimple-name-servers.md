@@ -4,6 +4,7 @@ excerpt: This article contains instructions to check and debug domain resolution
 meta: Explore this comprehensive guide to troubleshoot common issues with name servers, ensuring your website is accessible and functioning properly.
 categories:
 - DNS
+- Name Servers
 ---
 
 # Troubleshoot DNSimple Name Servers
@@ -17,9 +18,9 @@ You can use `dig` or any other DNS tool to get the name servers for the domain.
 
 ```
 $ dig NS example.com +short
-ns1.dnsimple.com.
+ns1.dnsimple-edge.com.
 ns2.dnsimple-edge.net.
-ns3.dnsimple.com.
+ns3.dnsimple-edge.io.
 ns4.dnsimple-edge.org.
 ```
 
