@@ -21,7 +21,7 @@
     "eslint-plugin-vue": "^10.9.1",
     "globals": "^17.6.0",
     "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0",
+    "jest-environment-jsdom": "^30.4.1",
     "rollup-plugin-css-only": "^4.5.5",
     "sass-embedded": "^1.99.0",
     "tachyons": "^4.12.0",
