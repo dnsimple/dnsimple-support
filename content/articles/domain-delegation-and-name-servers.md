@@ -1,7 +1,7 @@
 ---
 title: Domain Delegation and Name Servers Explained
 excerpt: How delegation, name servers, and DNS hosting fit together, why customers use different words for the same workflow, and which DNSimple guide matches your situation.
-meta: Explanation of domain delegation and authoritative name servers. Points customers to the correct DNSimple article whether the domain is registered here or elsewhere, DNS is at DNSimple or another provider, or only a subdomain is delegated.
+meta: How domain delegation and authoritative name servers work together. Guides you to the right DNSimple article for your registration and DNS hosting setup.
 categories:
   - Name Servers
 ---

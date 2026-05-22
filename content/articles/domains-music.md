@@ -1,7 +1,7 @@
 ---
 title: .MUSIC Domains
 excerpt: This article explains the requirements and special procedures for .MUSIC domain names.
-meta: Register .MUSIC domains with DNSimple. Registrations are non-realtime, require registry identity verification, and can be suspended if verification is not completed.
+meta: Register .MUSIC domains with DNSimple. Registrations are non-realtime and require registry identity verification before activation.
 categories:
 - TLDs
 ---

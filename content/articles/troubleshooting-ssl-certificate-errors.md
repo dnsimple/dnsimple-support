@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting SSL Certificate Errors
 excerpt: Common SSL certificate errors in browsers and how to resolve them.
-meta: Fix common SSL certificate errors like "Not Secure" warnings, expired certificates, domain name mismatches, incomplete chains, and mixed content issues.
+meta: Fix common SSL certificate errors like 'Not Secure' warnings, expired certificates, domain name mismatches, incomplete chains, and mixed content issues.
 categories:
 - SSL Certificates
 ---
