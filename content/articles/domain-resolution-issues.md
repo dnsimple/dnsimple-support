@@ -43,6 +43,8 @@ DNSimple provides four name servers. All four should be listed to ensure redunda
 `ns3.dnsimple-edge.io`
 `ns4.dnsimple-edge.org`
 
+For a compact verification reference including `dig` commands, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
+
 ## Check that the domain is using *only* DNSimple name servers {#check-that-the-domain-is-using-only-dnsimple-name-servers}
 
 In some cases, a misconfiguration may result in DNSimple name servers listed along with third party name servers.
