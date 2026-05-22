@@ -15,6 +15,8 @@ DNSimple provides essential services for every Internet-connected system:
 - One-Click DNS services
 - SSL certificates
 
+New to DNSimple? See [how to pronounce the name](/articles/how-is-dnsimple-pronounced/).
+
 If you manage domains across different services, our [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) lets you connect your domains and DNS from various [DNS](/articles/integrated-dns-providers/) and [domain](/articles/integrated-domain-providers/) providers to manage all your domains through a single unified API and user interface.
 
 ## DNS hosting

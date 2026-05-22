@@ -22,7 +22,7 @@ We take [security](/articles/account-securing/) seriously and ensure your domain
 
 We also believe in choosing the best tooling to get the job done. With no vendor lock-in, you can point your name servers wherever you choose. If you want to keep your domain registered elsewhere, and just use our DNS resolver or [email forwarding](/articles/email-forwarding/), you can still use our name servers.
 
-Explore DNSimple's variety of [services](/articles/services/), read what other companies [have to say](https://dnsimple.com/customers) about their experiences using DNSimple, and delve into our [API](https://dnsimple.com/api) with video tutorials for each supported language.
+Explore DNSimple's variety of [services](/articles/services/), read what other companies [have to say](https://dnsimple.com/customers) about their experiences using DNSimple, and delve into our [API](https://dnsimple.com/api) with video tutorials for each supported language. If you are one of those customers, [leave a review](/articles/leave-a-review/) and help others find DNSimple.
 
 You can even try DNSimple [free for 30 days](https://dnsimple.com/signup), and explore our simple, secure DNS solutions for yourself. Whether you're registering your first domain name or you've got a business with a portfolio of domains, we've got a plan to fit your needs.
 

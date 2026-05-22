@@ -22,5 +22,7 @@ Follow these instructions to [delegate a domain registered with DNSimple to DNSi
 
 Follow these instructions to [delegate a domain registered with another registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
+For a compact reference to the DNSimple name server targets and verification commands, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
+
 > [!NOTE] Name server propagation
 > Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).

@@ -31,6 +31,7 @@ Read [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/ho
 1. Run `dig NS yourdomain.com +short` (replace `yourdomain.com`).
 1. Compare the result to [DNSimple name servers](/articles/dnsimple-nameservers/). All four should appear and no unexpected third-party NS should remain unless you intentionally use [Secondary DNS](/articles/secondary-dns/).
 1. If delegation is wrong, follow [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) and wait for caches to expire, then retest.
+1. For a quick reference to the four NS targets and `dig` commands, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
 
 </div>
 > [!NOTE]
