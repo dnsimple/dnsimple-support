@@ -42,7 +42,7 @@ You will see two options:
 
 ### Using the same domain {#using-the-same-domain}
 
-Click <label>Configure</label> when the name server names live on the **same** domain you are editing (for example `ns1.yourdomain.com` for `yourdomain.com`). DNSimple adds the required A and AAAA records for the vanity hosts. If the domain is registered with DNSimple, DNSimple also adds [glue records](/articles/what-are-glue-records/) at the registry when needed.
+Click <label>Configure</label> when the name server names live on the **same** domain you are editing (for example, `ns1.yourdomain.com` for `yourdomain.com`). DNSimple adds the required A and AAAA records for the vanity hosts and, if the domain is registered with DNSimple, also adds [glue records](/articles/what-are-glue-records/) at the registry.
 
 If the domain is registered elsewhere and you use DNSimple only for DNS, ask your registrar to add the glue records. Use the IPv4 and IPv6 targets listed in [DNSimple name servers](/articles/dnsimple-nameservers/).
 
@@ -74,7 +74,7 @@ Use this path when the vanity hostnames are on a **different** domain than the z
 
 ![Vanity Name Servers using other domain](/files/vanity-name-servers-other-domain.png)
 
-If the domain is registered with DNSimple, DNSimple updates delegation when it can. If the domain is registered elsewhere, update name server delegation at your registrar to the vanity hostnames you configured.
+If the domain is registered with DNSimple, delegation updates automatically. If the domain is registered elsewhere, update name server delegation at your registrar to the vanity hostnames you configured.
 
 ## Delegating to existing vanity name servers {#delegating-to-existing-vanity-name-servers}
 
@@ -90,7 +90,7 @@ Use this section when vanity name servers are already configured on another doma
 1. Enter the vanity name server hostnames (for example `ns1.brand.com`, `ns2.brand.com`), then click <label>Delegate</label>.
 </div>
 
-If the domain is registered with DNSimple, DNSimple handles delegation updates when it can. If the domain is registered elsewhere, update the name servers at your registrar to match the hostnames you entered.
+If the domain is registered with DNSimple, delegation updates automatically. If the domain is registered elsewhere, update the name servers at your registrar to match the hostnames you entered.
 
 ![Delegate Vanity Name Servers](/files/vanity-name-servers-delegate.png)
 
@@ -100,8 +100,8 @@ If the domain is registered with DNSimple, DNSimple handles delegation updates w
 ##### Stop using vanity name servers
 
 1. Open the domain, click the <label>DNS</label> tab, and find the <label>Vanity name servers</label> card.
-1. Click <label>Stop delegation</label> on the card until no zones remain delegated to the vanity hosts.
-1. Click <label>Disable</label>.
+1. Click <label>Stop delegation</label> for each zone that is currently delegated to the vanity hosts.
+1. When no zones remain delegated, click <label>Disable</label>.
 1. Confirm in the dialog if prompted.
 </div>
 
@@ -112,10 +112,10 @@ If the domain is registered with DNSimple, DNSimple handles delegation updates w
 ![Disable Vanity Name Servers Confirmation](/files/vanity-name-servers-disable.png)
 
 > [!NOTE]
-> Disabling vanity name servers changes the NS records DNSimple serves for the zone back to defaults. If the domain is registered with DNSimple, DNSimple also moves delegation back to standard DNSimple name servers when it can. If the domain is not registered with DNSimple, update delegation at your registrar to [DNSimple name servers](/articles/dnsimple-nameservers/).
+> Disabling vanity name servers changes the NS records served for the zone back to defaults. If the domain is registered with DNSimple, delegation also reverts to standard name servers automatically. If the domain is registered elsewhere, update delegation at your registrar to [DNSimple name servers](/articles/dnsimple-nameservers/).
 
 > [!NOTE]
-> If the domain is registered with DNSimple, DNSimple removes related [glue records](/articles/what-are-glue-records/) when they apply to the same domain name. If the domain is registered elsewhere, ask your registrar to remove glue records for the old vanity hosts.
+> If the domain is registered with DNSimple, related [glue records](/articles/what-are-glue-records/) are also removed when they apply to the same domain name. If the domain is registered elsewhere, ask your registrar to remove glue records for the old vanity hosts.
 
 ## Have more questions?
 
