@@ -1,7 +1,7 @@
 ---
 title: .WATCHES Domains
 excerpt: This article explains the requirements and special procedures for .WATCHES domain names.
-meta: Register and manage .WATCHES domains at DNSimple.
+meta: Register and manage .WATCHES domains with DNSimple. Learn about OFAC sanctions validation requirements that apply to contact addresses at registration.
 categories:
 - TLDs
 ---

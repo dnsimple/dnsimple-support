@@ -1,7 +1,7 @@
 ---
 title: What Are Glue Records?
 excerpt: Glue records are address data for in-zone name servers, stored at the delegating parent so resolvers can bootstrap delegation without a circular lookup.
-meta: Glue records are A or AAAA data for authoritative server names that fall inside the delegated zone. The parent zone serves them with NS delegation so resolvers avoid circular dependency.
+meta: Glue records are A or AAAA data for in-zone authoritative name servers. The parent zone serves them alongside NS delegation to avoid circular lookups.
 categories:
   - DNS
   - Name Servers
