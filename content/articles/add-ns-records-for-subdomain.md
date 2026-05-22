@@ -1,7 +1,7 @@
 ---
 title: Adding NS Records for a Subdomain
 excerpt: Delegate a subdomain to another DNS provider by adding NS records in your DNSimple zone.
-meta:Add NS records in DNSimple to delegate a subdomain to custom authoritative name servers, then verify the delegation with dig.
+meta: Add NS records in DNSimple to delegate a subdomain to custom authoritative name servers, then verify the delegation with dig.
 categories:
 - Name Servers
 ---
