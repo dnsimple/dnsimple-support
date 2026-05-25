@@ -34,18 +34,33 @@ The user token gives you access to any resource associated with any account the 
 > [!TIP]
 > We recommend using account tokens unless your application needs multi-account access via a single token.
 
-## Getting to the account access token page
+## Getting to the API & Access page
 
 1. Navigate to your account page.
-1. Click the **Access Tokens** tab on the left side.
+1. Click the **API & Access** tab on the left side.
 
-![screenshot of account access tokens](/files/access-tokens.png)
+![screenshot of the API & Access page](/files/access-tokens.png)
 
-This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
+This page shows your API usage and limits at the top, followed by your access tokens. You can add new access tokens or remove existing ones from here.
 
 You can find the last used date of an access token on the list of existing access tokens.
 
 ![Access Tokens Last Used Date](/files/access-tokens-last-used.png)
+
+## Viewing your API usage and limits {#api-usage}
+
+The **API Limits & Usage** card at the top of the API & Access page summarizes how your account is using the DNSimple API.
+
+![API Limits & Usage card](/files/api-limits-usage-card.png)
+
+The card includes:
+
+- **Limit** — the maximum number of API requests your account is allowed in the current window.
+- **Remaining** — how many requests you have left before hitting the limit. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
+- **Resets in** — the time until the window resets and your remaining requests refill.
+- **Domain Research activity** — the number of [Domain Research API](/articles/domain-research-api/) requests your account has made. This stat only appears when the Domain Research feature is active on your account.
+
+The card reflects your whole account, not a single token. Every token on the account draws from the same limit.
 
 ## Generating an account access token
 
@@ -70,6 +85,8 @@ When using a scoped access token with granular permissions (i.e., access to spec
 ![Selecting Permission Scopes](/files/scoped-account-token-create.png)
 
 Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources.
+
+Accounts with the [Domain Research API](/articles/domain-research-api/) feature also see a **Domain Research** scope. This scope is read-only and grants access to the domain research status check endpoint. It does not support per-resource restriction — selecting it gives the token access to research any domain.
 
 For example, when configuring the token for access to zones, after choosing **Read only** or **Full access** from the dropdown, you can click **Change** to specify whether it should have access to all zones in the account or only selected zones.
 

@@ -38,6 +38,10 @@ You send a request to the Domain Research API with the domain name you want to r
 
 For request format, parameters, response attributes, and errors, see the [Domain Research API documentation](https://developer.dnsimple.com/v2/domains/research/) on the DNSimple Developer site.
 
+## Access and usage
+
+To call the Domain Research API, use an [API access token](/articles/api-access-token/) with the **Domain Research** scope. Track how many research requests your account has made on the [API & Access page](/articles/api-access-token/#api-usage), under the **Domain Research activity** stat.
+
 ## Have more questions?
 
 If you have additional questions or need any assistance with the Domain Research API, reach out to your account manager, and we'll be happy to help.
