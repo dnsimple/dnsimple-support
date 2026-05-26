@@ -107,9 +107,13 @@
 /articles/zone-files                                                      /articles/what-is-zone-file/
 /articles/zone-files/                                                     /articles/what-is-zone-file/
 /articles/zone-files/index.html                                           /articles/what-is-zone-file/
-/categories/github-and-dnsimple                                           /categories/heroku-and-dnsimple/
-/categories/github-and-dnsimple/                                          /categories/heroku-and-dnsimple/
-/categories/github-and-dnsimple/index.html                                /categories/heroku-and-dnsimple/
+/categories/github-and-dnsimple                                           /categories/services/
+/categories/github-and-dnsimple/                                          /categories/services/
+/categories/github-and-dnsimple/index.html                                /categories/services/
+/categories/heroku-and-dnsimple                                           /categories/services/
+/categories/heroku-and-dnsimple/                                          /categories/services/
+/categories/cloudflare-and-dnsimple                                       /categories/services/
+/categories/cloudflare-and-dnsimple/                                      /categories/services/
 /categories/domains/                                                      /categories/domains-and-transfers/
 /categories/domains/index.html                                            /categories/domains-and-transfers/
 /categories/domain-transfers/                                             /categories/domains-and-transfers/
@@ -190,5 +194,8 @@
 /articles/installing-ssl-certificate/                                     /articles/install-ssl-certificate/
 /articles/reissuing-ssl-certificate                                       /articles/reissue-ssl-certificate/
 /articles/reissuing-ssl-certificate/                                      /articles/reissue-ssl-certificate/
+/articles/announcement-ns2-ns4-ip-addresses                               /articles/announcement-ns1-ns3-ip-addresses/
+/articles/announcement-ns2-ns4-ip-addresses/                              /articles/announcement-ns1-ns3-ip-addresses/
+/dnsimple.com/contact                                                     https://dnsimple.com/contact
 /articles/:slug                                                           /articles/:slug/    301
 /categories/:slug                                                         /categories/:slug/  301
