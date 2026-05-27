@@ -1,7 +1,7 @@
 ---
 title: DNSimple Name Servers
-excerpt: How to change your domain's name servers to DNSimple's name servers.
-meta: How to update your domain's name servers to DNSimple for improved DNS performance and reliability. Step-by-step name server change guide.
+excerpt: The authoritative name server hostnames and IP addresses for DNSimple DNS hosting, including legacy servers and glue record configuration notes.
+meta: Reference for DNSimple name server hostnames and IP addresses. Lists all four edge name servers with IPv4 and IPv6 addresses, legacy servers, and glue record guidance.
 categories:
 - Name Servers
 ---
@@ -17,7 +17,7 @@ The DNSimple name servers are:
 - ns3.dnsimple-edge.io
 - ns4.dnsimple-edge.org
 
-If you registered your domain with DNSimple, your name servers will already be set to the DNSimple name servers. There's nothing else you need to do.
+If you registered your domain with DNSimple, your name servers will already be set to the DNSimple name servers. There is nothing else you need to do.
 
 If you transferred your domain into DNSimple from another registrar, and you're ready for us to start providing your DNS, you need to [change your name servers to DNSimple](/articles/delegating-dnsimple-registered/).
 
@@ -56,7 +56,7 @@ If you need to provide the IP addresses to your current registrar, use the follo
 
 If you are updating delegation or glue records during the NS1/NS3 edge migration, see [Discontinuation of Legacy NS1 and NS3 IP Addresses](/articles/announcement-ns1-ns3-ip-addresses/).
 
-## Legacy Name Servers
+## Legacy Name Servers {#legacy-name-servers}
 
 We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs:
 

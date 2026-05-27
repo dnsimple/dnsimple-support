@@ -1,21 +1,32 @@
 ---
 title: Delegating a Domain registered with another Registrar to DNSimple
-excerpt: How to delegate a domain registered with a different registrar to DNSimple's name servers.
-meta: Delegate a domain registered with another registrar to DNSimple name servers by updating your name server settings at your current provider.
+excerpt: Point your domain's name servers to DNSimple when the domain is registered at another registrar.
+meta: Delegate a domain registered at another registrar to DNSimple by updating the name servers at your registrar to the DNSimple name server hostnames shown on the DNSimple Name Servers page.
 categories:
 - Name Servers
 ---
 
 # Delegating a Domain registered with another Registrar to DNSimple
 
-Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
+Use this guide when your domain is **not** registered at DNSimple and you want DNSimple to host DNS. You update name servers at your **current registrar** (not in DNSimple). For a hub that covers both registration cases, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+
+Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple makes the domain resolve using the DNS records configured in your DNSimple account.
+
+## Update name servers at your registrar {#update-name-servers-at-your-registrar}
 
 <div class="section-steps" markdown="1">
-##### To change the name servers to DNSimple
+##### Change the name servers to DNSimple
 
-1.  Log into your registrar account.
-1.  Find the place on your domain registrar's web site where you can enter our name servers.
-1.  Enter the [DNSimple name servers](/articles/dnsimple-nameservers/):
+1. Log in to your registrar account.
+1. Find the place in your registrar's control panel where you can set custom name servers for the domain.
+1. Enter the [DNSimple name servers](/articles/dnsimple-nameservers/):
 
     - ns1.dnsimple-edge.com
     - ns2.dnsimple-edge.net
@@ -24,9 +35,17 @@ Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple will ca
 </div>
 
 > [!NOTE] Name server propagation
-> Please note that it may take up to 24 hours for a name server change to propagate. The whois response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+> Name server changes can take up to 24 hours to propagate. A WHOIS lookup is often a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/). For why delays happen, see [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/how-dns-caching-and-ttl-affect-delegation-and-record-changes/).
 
-### How to set custom name servers at some common registrars
+## Registrar documentation links {#registrar-documentation-links}
+
+These links point to registrar help for setting custom name servers:
 
 - [GoDaddy](https://uk.godaddy.com/help/set-custom-nameservers-for-domains-registered-with-us-12317)
 - [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain)
+
+For a preflight list before you change delegation, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
+
+## Have more questions?
+
+If you have questions about delegating your domain to DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

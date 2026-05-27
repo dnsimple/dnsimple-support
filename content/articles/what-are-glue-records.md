@@ -1,7 +1,7 @@
 ---
 title: What Are Glue Records?
 excerpt: Glue records are address data for in-zone name servers, stored at the delegating parent so resolvers can bootstrap delegation without a circular lookup.
-meta: Glue records are A or AAAA data for authoritative server names that fall inside the delegated zone. The parent zone serves them with NS delegation so resolvers avoid circular dependency.
+meta: Glue records are A or AAAA data for in-zone authoritative name servers. The parent zone serves them alongside NS delegation to avoid circular lookups.
 categories:
   - DNS
   - Name Servers
@@ -29,7 +29,7 @@ Resolvers need those IP addresses so they can reach the authoritative name serve
 
 ## The circular dependency problem {#circular-dependency}
 
-Imagine example.com is delegated to ns1.example.com and ns2.example.com. That pattern is common with [vanity name servers](/articles/what-are-vanity-name-servers/)). To talk to ns1.example.com, the resolver needs its IP address. The obvious next step is to look up data for example.com and follow delegation. But delegation already says that example.com is answered by ns1.example.com. You cannot resolve ns1.example.com by asking example.com first without going in a circle.
+Imagine example.com is delegated to ns1.example.com and ns2.example.com. That pattern is common with [vanity name servers](/articles/what-are-vanity-name-servers/). To talk to ns1.example.com, the resolver needs its IP address. The obvious next step is to look up data for example.com and follow delegation. But delegation already says that example.com is answered by ns1.example.com. You cannot resolve ns1.example.com by asking example.com first without going in a circle.
 Glue fixes that. The parent zone (above example.com) publishes the IP addresses for ns1.example.com and ns2.example.com together with the NS records. The resolver gets the IPs from the parent and moves forward without asking the child zone first.
 
 ## How the parent zone publishes glue {#parent-zone}

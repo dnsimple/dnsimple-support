@@ -1,7 +1,7 @@
 ---
 title: What Are Vanity Name Servers?
 excerpt: Vanity name servers use hostnames under your own domain as authoritative servers instead of your DNS provider's default names, and why that depends on glue records.
-meta: Vanity name servers are branded authoritative server hostnames (for example ns1.example.com). They require glue at the parent zone when those names live inside the delegated domain.
+meta: Vanity name servers are branded authoritative hostnames like ns1.example.com. They require glue records when the hostname falls inside the delegated zone.
 categories:
 - Name Servers
 - Domains and Transfers

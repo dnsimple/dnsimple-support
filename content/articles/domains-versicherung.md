@@ -1,7 +1,7 @@
 ---
 title: .VERSICHERUNG Domains
 excerpt: This article explains the requirements and special procedures for .VERSICHERUNG domain names.
-meta: Register .VERSICHERUNG domains with DNSimple. Eligibility is limited to insurance community members in DACH and nearby markets, with content and use restrictions.
+meta: Register .VERSICHERUNG domains with DNSimple. Restricted to insurance community members in DACH markets, with content and use restrictions.
 categories:
 - TLDs
 ---

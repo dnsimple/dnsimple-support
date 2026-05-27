@@ -1,7 +1,7 @@
 ---
 title: .WIEN Domains
 excerpt: This article explains the requirements and special procedures for .WIEN domain names.
-meta: Register .WIEN domains with DNSimple. Registrants must maintain a nexus to Vienna.
+meta: Register .WIEN domains with DNSimple. Registrants must show affinity with Vienna. Eligibility is not verified upfront but can be challenged through dispute resolution.
 categories:
 - TLDs
 ---

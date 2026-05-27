@@ -28,11 +28,18 @@ How-to:
 Troubleshooting:
   DNSimple name servers:
     - "Troubleshoot DNSimple Name Servers"
+  After delegation:
+    - "Troubleshoot Email or Subdomains After Delegation Changes"
+
 Reference:
   Delegation checklist:
     - "Name Server Delegation Checklist"
   Interface reference:
     - "DNSimple Interface Reference for Name Server Management"
+  Glossary:
+    - "Name Servers Glossary"
+  NS record:
+    - "NS Record Format"
 Troubleshooting:
   After delegation:
     - "Troubleshoot Email or Subdomains After Delegation Changes"
