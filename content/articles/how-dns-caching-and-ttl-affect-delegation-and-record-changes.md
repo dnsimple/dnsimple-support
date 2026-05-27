@@ -1,7 +1,7 @@
 ---
 title: How DNS Caching and TTL Affect Delegation and Record Changes
 excerpt: Why delegation and DNS record updates can look delayed worldwide, and how resolver caching, TTL, and negative caching interact with registry data.
-meta: DNS resolvers cache delegation and record answers for as long as the TTL allows. Registry and WHOIS can update before every resolver drops old cached NS or record data.
+meta: DNS resolvers cache delegation and record answers for the duration of their TTL. Registry updates can appear before old cached NS data expires.
 categories:
 - Name Servers
 - DNS

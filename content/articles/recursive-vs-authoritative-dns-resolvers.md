@@ -1,7 +1,7 @@
 ---
 title: Recursive vs Authoritative DNS Resolvers
 excerpt: Recursive resolvers walk the DNS tree on behalf of clients; authoritative name servers publish the official answers for a zone you delegate.
-meta: Recursive DNS resolvers query iteratively from root to authoritative servers. Authoritative name servers hold zone data and answer without forwarding for that zone.
+meta: Recursive DNS resolvers query iteratively to find the authoritative name server for a zone. Authoritative servers hold zone data and answer directly.
 categories:
 - Name Servers
 - DNS

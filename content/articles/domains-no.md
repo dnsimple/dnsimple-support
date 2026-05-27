@@ -1,7 +1,7 @@
 ---
 title: .NO Domains
 excerpt: This article explains the requirements and special procedures for .NO domain names.
-meta: Register and transfer .NO domains with DNSimple. Norwegian address and organization or person identifier, renewal window, transfers, and optional trustee service.
+meta: Register and transfer .NO domains with DNSimple. Requires a Norwegian address and organization or person identifier. Trustee service available.
 categories:
 - TLDs
 ---
