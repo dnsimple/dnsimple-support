@@ -1,4 +1,5 @@
 Getting started:
+  - "Name Server Management at DNSimple"
   - "DNSimple Name Servers"
 
 Explanation:
@@ -33,6 +34,8 @@ Troubleshooting:
 Reference:
   Delegation checklist:
     - "Name Server Delegation Checklist"
+  Interface reference:
+    - "DNSimple Interface Reference for Name Server Management"
   Glossary:
     - "Name Servers Glossary"
   NS record:
