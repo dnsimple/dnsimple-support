@@ -44,8 +44,8 @@ Switching the [name servers](/articles/what-is-a-nameserver/) to DNSimple will c
 </div>
 
 > [!NOTE] Name server propagation
-> It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/).
+> It can take up to 24 hours for a name server change to propagate. The WHOIS response is normally a good way to [determine if the changes have been submitted properly](/articles/domain-resolution-issues/). For how caching affects what you see, read [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/how-dns-caching-and-ttl-affect-delegation-and-record-changes/). For a delegation preflight list, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
 
 ## Have more questions?
 
-If you have any questions or need assistance delegating your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions or need assistance delegating your domains, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
