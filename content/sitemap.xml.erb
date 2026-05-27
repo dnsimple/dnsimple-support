@@ -1,1 +1,1 @@
-<%= xml_sitemap %>
+<%= xml_sitemap(rep_select: ->(rep) { rep.path == "/" || rep.path.end_with?("/") }) %>
