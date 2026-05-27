@@ -1,7 +1,7 @@
 ---
 title: Change delegation to another DNS provider
 excerpt: Point DNS to another provider when DNSimple is your registrar. Covers Edit delegation, glue via name server sets, and reserved rows from Secondary DNS or vanity name servers.
-meta: Change DNS delegation away from DNSimple when your domain is registered at DNSimple. Edit delegation to another DNS provider; glue may apply for in-zone NS names. Reserved name servers come from Secondary DNS or vanity name servers.
+meta: Change DNS delegation to another provider when your domain is registered at DNSimple. Covers the Edit delegation step and reserved name server rows.
 categories:
   - Name Servers
 ---

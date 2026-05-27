@@ -32,6 +32,8 @@ Reference:
     - "Name Server Delegation Checklist"
   Glossary:
     - "Name Servers Glossary"
+  NS record:
+    - "NS Record Format"
 Troubleshooting:
   After delegation:
     - "Troubleshoot Email or Subdomains After Delegation Changes"
