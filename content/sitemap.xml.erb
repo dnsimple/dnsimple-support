@@ -1,1 +1,1 @@
-<%= xml_sitemap(items: @items.select { |i| i.path&.end_with?('.html') }) %>
+<%= xml_sitemap(rep_select: ->(rep) { rep.path == "/" || rep.path.end_with?("/") }) %>
