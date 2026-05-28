@@ -34,18 +34,27 @@ The user token gives you access to any resource associated with any account the 
 > [!TIP]
 > We recommend using account tokens unless your application needs multi-account access via a single token.
 
-## Getting to the account access token page
+## Getting to the API & Access page
 
 1. Navigate to your account page.
-1. Click the **Access Tokens** tab on the left side.
+1. Click the **API & Access** tab on the left side.
 
-![screenshot of account access tokens](/files/access-tokens.png)
+![screenshot of the API & Access page](/files/access-tokens.png)
 
-This shows all of your account access tokens and allows you to add new access tokens or remove existing ones.
+This page shows your API usage and limits at the top, followed by your access tokens, including the last used date for each. You can add new access tokens or remove existing ones from here.
 
-You can find the last used date of an access token on the list of existing access tokens.
+## Viewing your API usage and limits {#api-usage}
 
-![Access Tokens Last Used Date](/files/access-tokens-last-used.png)
+The **API Limits & Usage** card at the top of the API & Access page summarizes how your account is using the DNSimple API.
+
+![API Limits & Usage card](/files/api-limits-usage-card.png)
+
+The card has two sections:
+
+- **General API** — your hourly request limit, the number of requests remaining in the current window, and when the limit resets. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
+- **Domain Research API** — your account's request count for the current month against the [Domain Research API](/articles/domain-research-api/). This section only appears when the Domain Research feature is active on your account.
+
+The card reflects your whole account, not a single token. Every token on the account draws from the same limit.
 
 ## Generating an account access token
 
@@ -59,7 +68,6 @@ When you create a new token, give it a name you can remember.
 If you are [subscribed to the Teams plan or higher](https://dnsimple.com/pricing), you can choose permission scopes for the token. If you are on the Solo plan, the token will have full permissions to all resources in the account.
 
 Click **Generate token** to create the token after giving it a name.
-![screenshot of creating a new access token](/files/access-tokens-new.png)
 
 ### Selecting permission scopes {#scoped-access-tokens}
 
@@ -71,9 +79,9 @@ When using a scoped access token with granular permissions (i.e., access to spec
 
 Certificates, domains, registrar, and zones are resource types that allow restriction of access to specific resources.
 
-For example, when configuring the token for access to zones, after choosing **Read only** or **Full access** from the dropdown, you can click **Change** to specify whether it should have access to all zones in the account or only selected zones.
+Accounts with the [Domain Research API](/articles/domain-research-api/) feature also see a **Domain Research** scope. This scope is read-only and grants access to the domain research status check endpoint. It does not support per-resource restriction — selecting it gives the token access to research any domain.
 
-![Selecting Zones](/files/scoped-account-token-select-zones.png)
+For example, when configuring the token for access to zones, after choosing **Read only** or **Full access** from the dropdown, you can click **Change** to specify whether it should have access to all zones in the account or only selected zones.
 
 When you are finished with your selections, click **Generate token** to create the token.
 
@@ -83,29 +91,19 @@ After clicking on **Generate token**, the generated access token will be display
 
 Copy the text for the access token – **it will only be shown once**.
 
-![Token Generated](/files/access-token-generated.png)
-
 You can now access the API with this token using the HTTP header `Authorization: Bearer {TOKEN}`, replacing `{TOKEN}` with the value taken from the page when the token is generated. If you'd like additional information on how to access the API with the newly generated token, please visit [the authentication section](https://developer.dnsimple.com/v2/#authentication) on the DNSimple Developer site.
 
 ## Viewing and editing the permissions of a scoped access token
 
-After an access token has been created, you can view and edit the permissions it was created with.
-
-From the list of access tokens, click **Edit** on the access token you want to view.
-
-![View Token](/files/scoped-account-token-view.png)
+After an access token has been created, you can view and edit the permissions it was created with. From the list of access tokens, click **Edit** on the token you want to view.
 
 You can then see what resources the token has access to and make changes to the permissions if needed.
-
-![Token Permissions](/files/scoped-account-token-permissions.png)
 
 When you are done editing the token permissions, click **Update token** to save the updated permissions to the token, or click **Cancel** to exit without making changes.
 
 ## Removing an account access token
 
 You can remove a token by clicking the trash can **Delete** icon on the desired token.
-
-![Remove Token](/files/access-token-remove.png)
 
 ## Have more questions?
 
