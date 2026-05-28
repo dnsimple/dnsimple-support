@@ -49,12 +49,10 @@ The **API Limits & Usage** card at the top of the API & Access page summarizes h
 
 ![API Limits & Usage card](/files/api-limits-usage-card.png)
 
-The card includes:
+The card has two sections:
 
-- **Limit** — the maximum number of API requests your account is allowed in the current window.
-- **Remaining** — how many requests you have left before hitting the limit. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
-- **Resets in** — the time until the window resets and your remaining requests refill.
-- **Domain Research activity** — the number of [Domain Research API](/articles/domain-research-api/) requests your account has made. This stat only appears when the Domain Research feature is active on your account.
+- **General API** — your hourly request limit, the number of requests remaining in the current window, and when the limit resets. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
+- **Domain Research API** — your account's request count for the current month against the [Domain Research API](/articles/domain-research-api/). This section only appears when the Domain Research feature is active on your account.
 
 The card reflects your whole account, not a single token. Every token on the account draws from the same limit.
 
