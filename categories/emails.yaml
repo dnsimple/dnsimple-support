@@ -29,7 +29,7 @@ How to:
     - "How to Migrate Email Forwarding to DNSimple"
     - "Email Forwarding and Bounced Emails"
   Email Authentication:
-    - "How to Set Up Email Authentication for Your Domain (SPF, DKIM & DMARC)"
+    - "Set Up Email Authentication (SPF, DKIM & DMARC)"
     - "Set Up SPF Records"
     - "Set Up DKIM"
     - "Set Up DMARC"
@@ -61,7 +61,7 @@ How to:
   Troubleshooting:
     - "Email Forwarding Not Working with Gmail"
     - "Email Forwarding Not Working"
-    - "Email Forwarding Not Working with Outlook, Yahoo, and Other Providers"
+    - "Email Forwarding Issues with Outlook and Yahoo"
     - "Troubleshoot Email Authentication"
 
 Reference:

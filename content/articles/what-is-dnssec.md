@@ -1,5 +1,5 @@
 ---
-title: What Is DNSSEC (Domain Name System Security Extensions)?
+title: What Is DNSSEC and How Does It Work?
 excerpt: DNSSEC adds cryptographic signatures to DNS, letting resolvers verify that responses are authentic and have not been tampered with.
 meta: DNSSEC (Domain Name System Security Extensions) adds cryptographic signatures to DNS responses. Learn how DNSSEC works and whether to enable it.
 categories:

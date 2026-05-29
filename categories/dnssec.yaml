@@ -3,7 +3,7 @@ Getting Started:
 
 Explanation:
   DNSSEC Basics:
-    - "What Is DNSSEC (Domain Name System Security Extensions)?"
+    - "What Is DNSSEC and How Does It Work?"
     - "The DNSSEC Chain of Trust"
     - "Why DNSSEC and Secondary DNS May Not Work Together"
   DNSSEC Records:
@@ -14,7 +14,7 @@ Explanation:
     - "What Are NSEC and NSEC3 Records?"
     - "What Are CDS and CDNSKEY?"
   DNSSEC Concepts:
-    - "What Is DANE (DNS-based Authentication of Named Entities)?"
+    - "What Is DANE and How Does It Work?"
 
 How to:
   Managing DNSSEC:

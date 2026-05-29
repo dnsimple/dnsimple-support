@@ -45,7 +45,7 @@ Explanation:
     - Differences Between HTTPS and ALIAS Records
     - Differences Between HTTPS and URL Records
   DNS Concepts:
-    - What Is DANE (DNS-based Authentication of Named Entities)?
+    - What Is DANE and How Does It Work?
     - What Are DS Records?
     - What Are Empty Non-Terminals (ENT)?
     - What Are Glue Records?
@@ -158,4 +158,4 @@ Reference:
   - DNSimple TTL Settings Reference
   - IPv6 Domain Resolution Reference
   - Resolving with DNSimple
-  - Understand DNSimple's Record Editors Simple vs. Field-Specific
+  - "DNSimple Record Editors: Simple vs. Field-Specific"

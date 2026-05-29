@@ -1,5 +1,5 @@
 ---
-title: Do You Support Extended Validation (EV) SSL Certificates?
+title: Extended Validation (EV) SSL Certificates
 excerpt: DNSimple does not offer EV or OV SSL certificates. All DNSimple certificates are domain-validated (DV).
 meta: DNSimple does not offer EV or OV SSL certificates. All certificates are domain-validated (DV) and provide the same cryptographic security as EV and OV.
 categories:

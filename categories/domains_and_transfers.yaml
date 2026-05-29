@@ -70,8 +70,8 @@ Explanation:
     - "Redirect www to Non-www Domain at Heroku"
   "Transfer troubleshooting":
     - "Manage DS Records When Changing DNS"
-    - "Whois Privacy may cause transfer approval emails to not be delivered"
-    - "How can I issue a new transfer order when a transfer is denied?"
+    - "Whois Privacy and Transfer Approval Emails"
+    - "How to Retry a Denied Domain Transfer"
   "Troubleshooting":
     - "I Can't Find My Domain"
     - "Troubleshoot Domain Transfer Issues"

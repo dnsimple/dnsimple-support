@@ -44,11 +44,11 @@ How-to:
   Certificate Configuration:
     - "How to Choose SSL Certificate Names"
     - "SSL Certificate Email-Based Domain Validation"
-    - "How to Select a Different SSL Certificate Domain Validation Email"
+    - "Change Your SSL Certificate Validation Email"
     - "How to Switch From an ECC-Signed Certificate to RSA"
     - "How to Validate Your Domain for an SSL Certificate"
   Certificate Management:
-    - "How Do I Determine the Certificate Authority That Signed My SSL Certificate?"
+    - "How to Find Your SSL Certificate Authority"
     - "Expiring Product Email Notifications"
 
   Installation:
@@ -78,10 +78,10 @@ Reference:
   Certificate Authorities:
     - "SSL Certificate Authorities Used by DNSimple"
   Capabilities and Limits:
-    - "Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?"
-    - "Do You Support Extended Validation (EV) SSL Certificates?"
+    - "Elliptic Curve Cryptography (ECC) SSL Certificates"
+    - "Extended Validation (EV) SSL Certificates"
     - "Do you support multi-year SSL certificates?"
-    - "Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?"
+    - "Can I Upgrade to a Wildcard SSL Certificate?"
     - "SHA-2 SSL Certificates"
   Frequently Asked Questions:
     - "SSL Certificates Frequently Asked Questions"

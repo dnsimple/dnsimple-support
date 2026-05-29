@@ -1,5 +1,5 @@
 ---
-title: What Happens if I Stop Paying for My DNSimple Subscription?
+title: What Happens If You Stop Paying for DNSimple
 excerpt: What happens if an account is canceled for non-payment.
 meta: Learn what happens to your DNSimple account and services if you stop paying. Understand the implications and steps to take for a smooth transition.
 categories:
