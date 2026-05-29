@@ -1,5 +1,5 @@
 ---
-title: Delegating a Domain registered with another Registrar to DNSimple
+title: Delegate a Domain from Another Registrar to DNSimple
 excerpt: Point your domain's name servers to DNSimple when the domain is registered at another registrar.
 meta: Delegate a domain registered at another registrar to DNSimple by updating the name servers at your registrar to the DNSimple name server hostnames shown on the DNSimple Name Servers page.
 categories:

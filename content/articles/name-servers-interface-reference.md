@@ -1,5 +1,5 @@
 ---
-title: DNSimple Interface Reference for Name Server Management
+title: Name Server Management Interface Reference
 excerpt: Reference for the name server management interfaces in DNSimple, covering delegation, name server sets, vanity name servers, and zone NS records.
 meta: Reference for all name server management interfaces in DNSimple. Covers the Edit Delegation page, Name Server Sets, Vanity Name Servers, and Zone NS Records controls with field descriptions and links to how-to guides.
 categories:

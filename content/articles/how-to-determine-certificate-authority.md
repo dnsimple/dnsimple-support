@@ -1,5 +1,5 @@
 ---
-title: How Do I Determine the Certificate Authority That Signed My SSL Certificate?
+title: How to Find Your SSL Certificate Authority
 excerpt: Instructions to determine the Certificate Authority that signed an SSL certificate.
 meta: Follow DNSimple's instructions to determine who is the Certificate Authority (CA) that signed your SSL or TLS certificate.
 categories:

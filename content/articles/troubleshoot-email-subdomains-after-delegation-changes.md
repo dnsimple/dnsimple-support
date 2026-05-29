@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot Email or Subdomains After Delegation Changes
+title: Email and Subdomain Issues After Delegation
 excerpt: Steps to verify delegation to DNSimple and isolate why mail or a subdomain still fails after NS updates.
 meta: After delegation changes, confirm DNSimple name servers with dig, then check MX and subdomain records on the authoritative zone. Clear resolver cache if needed.
 categories:

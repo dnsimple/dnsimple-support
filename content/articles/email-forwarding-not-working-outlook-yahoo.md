@@ -1,5 +1,5 @@
 ---
-title: Email Forwarding Not Working with Outlook, Yahoo, and Other Providers
+title: Email Forwarding Issues with Outlook and Yahoo
 excerpt: Diagnose and fix email forwarding problems with Outlook, Yahoo Mail, Apple Mail, and other providers.
 meta: Fix email forwarding issues with Outlook, Yahoo Mail, Apple Mail, and other email providers. Troubleshoot forwarded emails going to spam or not arriving.
 categories:

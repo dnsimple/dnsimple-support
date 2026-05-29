@@ -1,5 +1,5 @@
 ---
-title: How to Select a Different SSL Certificate Domain Validation Email
+title: Change Your SSL Certificate Validation Email
 excerpt: How to use a different email address for SSL certificate domain validation when the default addresses do not work.
 meta: How to select an alternative email for SSL certificate domain validation when your preferred address is not in the Certificate Authority's list.
 categories:

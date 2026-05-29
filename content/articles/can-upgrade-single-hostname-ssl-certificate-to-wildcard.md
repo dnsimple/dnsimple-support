@@ -1,5 +1,5 @@
 ---
-title: Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?
+title: Can I Upgrade to a Wildcard SSL Certificate?
 excerpt: You cannot upgrade a single-name SSL certificate to a wildcard. You must purchase a new wildcard certificate separately.
 meta: DNSimple does not support upgrading a single-name SSL certificate to a wildcard. Learn the refund policy and how to order a wildcard certificate.
 categories:
