@@ -57,6 +57,8 @@ Explanation:
     - How Does Zone Verification Work?
     - What Is Zone Verification and Why Does It Matter?
     - How Long Does a New DNS Record Take to Resolve?
+    - How DNS Caching and TTL Affect Record Changes
+    - Recursive vs Authoritative DNS Resolvers
     - Protection Against DDoS Attacks
     - Why DNSSEC and Secondary DNS May Not Work Together
     - How ALIAS Records Resolve with Secondary DNS
@@ -129,6 +131,7 @@ How to:
     - Troubleshoot Empty Non-Terminal Issues
     - Troubleshoot Record Resolution Issues
     - How to Fix Empty Responses from Empty Non-Terminals
+    - Email and Subdomain Issues After Delegation
 
 Reference:
   - DNS Glossary
