@@ -39,7 +39,7 @@ Use this table to find the right certificate for your situation:
 > [!NOTE]
 > Sectigo certificates currently have a longer maximum validity period than Let's Encrypt certificates. However, industry changes are reducing certificate lifetimes over time, and this difference will become smaller in future phases. For more details, see [SSL Certificate Validity Changes (2026 - 2029)](/articles/announcement-ssl-certificate-validity-changes/).
 
-Ready to order? See [Ordering a Let's Encrypt Certificate](/articles/ordering-lets-encrypt-certificate/) or [Ordering a Sectigo SSL Certificate](/articles/ordering-standard-certificate/).
+Ready to order? See [Ordering a Let's Encrypt Certificate](/articles/get-lets-encrypt-certificate/) or [Ordering a Sectigo SSL Certificate](/articles/buy-sectigo-ssl-certificate/).
 
 ## Comparison: Let's Encrypt vs Sectigo SSL certificates {#comparison}
 
