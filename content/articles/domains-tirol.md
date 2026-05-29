@@ -1,7 +1,7 @@
 ---
 title: .TIROL Domains
 excerpt: This article explains the requirements and special procedures for .TIROL domain names.
-meta: Register .TIROL domains with DNSimple. Registrants must show an affinity with the Austrian federal state of Tirol - economic, cultural, tourist, or historical connections qualify.
+meta: Register .TIROL domains with DNSimple. Prove affinity with Austria's Tirol - economic, cultural, tourist, or historical connections qualify.
 categories:
 - TLDs
 ---
