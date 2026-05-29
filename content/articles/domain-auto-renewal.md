@@ -77,7 +77,7 @@ You can enable auto-renewal when you first register a domain or any time after t
 
 Auto-renewal can be disabled for any domain at any time, except when the auto-renewal process is currently in progress. Once disabled, the domain will require manual renewal before expiration. This gives you flexibility to manage renewals manually for domains where you want more control over the renewal timing or payment method.
 
-![](/files/disable-autorenew.png)
+!["Auto-renew this domain before it expires" checkbox unchecked on the Registration status card](/files/disable-autorenew.png)
 
 ## Have more questions?
 
