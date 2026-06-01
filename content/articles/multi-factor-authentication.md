@@ -122,10 +122,10 @@ When multi-factor protection is enabled, you must perform a second verification 
 1. If the credentials are correct, you'll see a 2-Step Verification window. This may look different if you also have a security key enabled.
 
     If you have a security key enabled, it will be the default authentication method displayed. Click **Use one-time password** to switch to using a one-time password for the second verification step.
-    ![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
+    ![Multi-factor authentication](/files/user-mfa-login-use-one-time-password.png)
 
     If you don't have security keys enabled, you'll see the following 2-Step Verification window immediately:
-    ![Multi-factor authentication](/files/mfa-login-authenticator.png)
+    ![Multi-factor authentication](/files/user-mfa-login-authenticator.png)
 
 1. Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
 
@@ -140,7 +140,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 1. Log in to DNSimple with your username and password.
 
 1. If the credentials are correct, you'll see a 2-Step Verification window.
-  ![Multi-factor authentication](/files/mfa-login-security-key.png)
+  ![Multi-factor authentication](/files/user-mfa-login-security-key.png)
 
 1. Click **Log in**, select the type of security key you'll be activating, and activate the security key.
 
