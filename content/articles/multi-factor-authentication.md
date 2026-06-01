@@ -41,22 +41,18 @@ When you enable MFA for your user profile, you'll be logged out of all currently
     ![Enable multi-factor authentication with one-time password](/files/user-mfa-enable-mfa-with-authenticator.png)
 
 1. Scan the barcode using a [one-time password authenticator app](#authenticator). You can also manually enter the secret code by clicking **Can't scan the barcode?** and typing the code into your authenticator.
-    ![Multi-factor barcode](/files/user-mfa-barcode.png)
+    ![Multi-factor barcode](/files/user-mfa-enable-mfa-with-authenticator-barcode.png)
 
 1. Using the one-time password authenticator app, generate a verification code.
 
 1. Enter the 6-digit verification code into the field, and click **Continue** to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
 
-1. The setup process ends here if you have an alternative MFA method already set up.
+1. Copy your recovery code by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
-> [!NOTE]
-> If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
+    Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete the setup of your authenticator app.
 
-    ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
+    ![Multi-factor confirm recovery code](/files/user-mfa-enable-mfa-with-authenticator-confirm-recovery-code.png)
 
-
-1. Follow the instructions to complete the setup and activate multi-factor authentication via one-time password.
-    ![Multi-factor recovery code](/files/user-mfa-authenticator-confirm-recovery-code.png)
 </div>
 
 
