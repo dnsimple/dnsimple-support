@@ -47,7 +47,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. Enter the 6-digit verification code into the field, and click **Continue** to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
 
-1. Copy your recovery code by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
+1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
     Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete the setup of your authenticator app.
 
@@ -71,7 +71,7 @@ When you enable MFA for your user profile, you'll be logged out of all currently
 
 1. Click **Continue** — you should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
 
-1. Copy your recovery code by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
+1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
     Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete your security key registration.
 
