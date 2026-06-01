@@ -71,18 +71,14 @@ When you enable MFA for your user profile, you'll be logged out of all currently
     ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
 
 1. Enter a nickname to help you identify the security key you're registering.
+    ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname.png)
 
-> [!NOTE]
-> ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
->       If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. **Copy and store the [recovery code](#recovery-code) in a safe place.**
+1. Click **Continue** — you should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
 
-    ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
+1. Copy your recovery code by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
-1. Click **Register Key** — you'll see this if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
+    Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete your security key registration.
 
-    However, if this is the only multi-factor authentication method you have set up, you'll see a **Continue** button instead of **Register Key**. Click on **Continue** to confirm the recovery code, then you can complete the security key setup process.
-
-1. Fill in the form with the recovery code, and click **Confirm recovery and register key**. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it.
     ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
 
 > [!NOTE]
