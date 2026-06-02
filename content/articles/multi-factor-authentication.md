@@ -151,7 +151,10 @@ When multi-factor protection is enabled, you must perform a second verification 
 When you enable your first MFA method, a recovery code is created as a safeguard. You'll need this recovery code to disable MFA if you can't generate a one-time password with your authenticator app, activate your registered security key, or disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed. **Save this recovery code in a secure, memorable place**.
 
 > [!WARNING]
-> The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code.**
+> The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code**.
+
+> [!NOTE]
+> To help you keep your recovery code accessible, we will periodically ask you to confirm that you still have it saved. Twice a year, you'll see a prompt to verify you have access to your recovery code, along with the option to save a copy. We recommend taking a moment to review where it's stored each time this prompt appears.
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
 
