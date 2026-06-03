@@ -8,7 +8,7 @@ categories:
 
 # Delegating a Domain registered with DNSimple to DNSimple
 
-Switching the [name servers](/articles/what-is-a-nameserver/) to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account.
+Switching the [name servers](/articles/what-is-a-nameserver/) to DNSimple will cause the domain to resolve using the DNS records configured in your DNSimple account. For the full name server documentation index, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 <div class="section-steps" markdown="1">
 ##### Changing the name servers to DNSimple

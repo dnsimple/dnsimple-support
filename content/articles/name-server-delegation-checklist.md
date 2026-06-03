@@ -8,7 +8,7 @@ categories:
 
 # Name Server Delegation Checklist
 
-Use this page as a compact reference when you need the DNSimple delegation targets and the order of checks. For narrative detail, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) and [DNSimple Name Servers](/articles/dnsimple-nameservers/).
+Use this page as a compact reference when you need the DNSimple delegation targets and the order of checks. For narrative detail, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) and [DNSimple Name Servers](/articles/dnsimple-nameservers/). For all name server documentation, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 ## Delegation targets {#delegation-targets}
 
