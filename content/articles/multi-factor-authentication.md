@@ -41,22 +41,18 @@ When you enable MFA for your user profile, you'll be logged out of all currently
     ![Enable multi-factor authentication with one-time password](/files/user-mfa-enable-mfa-with-authenticator.png)
 
 1. Scan the barcode using a [one-time password authenticator app](#authenticator). You can also manually enter the secret code by clicking **Can't scan the barcode?** and typing the code into your authenticator.
-    ![Multi-factor barcode](/files/user-mfa-barcode.png)
+    ![Multi-factor barcode](/files/user-mfa-enable-mfa-with-authenticator-barcode.png)
 
 1. Using the one-time password authenticator app, generate a verification code.
 
 1. Enter the 6-digit verification code into the field, and click **Continue** to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
 
-1. The setup process ends here if you have an alternative MFA method already set up.
+1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
-> [!NOTE]
-> If this is the only multi-factor authentication method you have set up, a [recovery code](#recovery-code) will be generated, and you'll need to confirm the recovery code. **Copy and store the [recovery code](#recovery-code) in a safe place.**
+    Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete the setup of your authenticator app.
 
-    ![Multi-factor recovery code](/files/user-mfa-authenticator-recovery-code.png)
+    ![Multi-factor confirm recovery code](/files/user-mfa-enable-mfa-with-authenticator-confirm-recovery-code.png)
 
-
-1. Follow the instructions to complete the setup and activate multi-factor authentication via one-time password.
-    ![Multi-factor recovery code](/files/user-mfa-authenticator-confirm-recovery-code.png)
 </div>
 
 
@@ -71,18 +67,14 @@ When you enable MFA for your user profile, you'll be logged out of all currently
     ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
 
 1. Enter a nickname to help you identify the security key you're registering.
+    ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname.png)
 
-> [!NOTE]
-> ![Security key nickname](/files/user-mfa-enable-security-key-nickname.png)
->       If this is the first multi-factor authentication method you're setting up, the screen (shown below) will look slightly different, because a [recovery code](#recovery-code) will be generated, and you'll need to confirm it. **Copy and store the [recovery code](#recovery-code) in a safe place.**
+1. Click **Continue** — you should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
 
-    ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname-with-recovery-code.png)
+1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
-1. Click **Register Key** — you'll see this if you have an alternative multi-factor authentication method already set up. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
+    Fill in the form with the last 4 characters of your recovery code, and click **Continue** to complete your security key registration.
 
-    However, if this is the only multi-factor authentication method you have set up, you'll see a **Continue** button instead of **Register Key**. Click on **Continue** to confirm the recovery code, then you can complete the security key setup process.
-
-1. Fill in the form with the recovery code, and click **Confirm recovery and register key**. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it.
     ![Multi-factor confirm recovery code](/files/user-mfa-enable-security-key-confirm-recovery-code.png)
 
 > [!NOTE]
@@ -130,10 +122,10 @@ When multi-factor protection is enabled, you must perform a second verification 
 1. If the credentials are correct, you'll see a 2-Step Verification window. This may look different if you also have a security key enabled.
 
     If you have a security key enabled, it will be the default authentication method displayed. Click **Use one-time password** to switch to using a one-time password for the second verification step.
-    ![Multi-factor authentication](/files/mfa-login-use-one-time-password.png)
+    ![Multi-factor authentication](/files/user-mfa-login-use-one-time-password.png)
 
     If you don't have security keys enabled, you'll see the following 2-Step Verification window immediately:
-    ![Multi-factor authentication](/files/mfa-login-authenticator.png)
+    ![Multi-factor authentication](/files/user-mfa-login-authenticator.png)
 
 1. Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
 
@@ -148,7 +140,7 @@ When multi-factor protection is enabled, you must perform a second verification 
 1. Log in to DNSimple with your username and password.
 
 1. If the credentials are correct, you'll see a 2-Step Verification window.
-  ![Multi-factor authentication](/files/mfa-login-security-key.png)
+  ![Multi-factor authentication](/files/user-mfa-login-security-key.png)
 
 1. Click **Log in**, select the type of security key you'll be activating, and activate the security key.
 
@@ -159,7 +151,10 @@ When multi-factor protection is enabled, you must perform a second verification 
 When you enable your first MFA method, a recovery code is created as a safeguard. You'll need this recovery code to disable MFA if you can't generate a one-time password with your authenticator app, activate your registered security key, or disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed. **Save this recovery code in a secure, memorable place**.
 
 > [!WARNING]
-> The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code.**
+> The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code**.
+
+> [!NOTE]
+> To help you keep your recovery code accessible, we will periodically ask you to confirm that you still have it saved. Twice a year, you'll see a prompt to verify you have access to your recovery code, along with the option to save a copy. We recommend taking a moment to review where it's stored each time this prompt appears.
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
 
