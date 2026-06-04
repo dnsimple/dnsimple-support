@@ -1,7 +1,7 @@
 ---
 title: What Is an A Record?
 excerpt: An A record maps a domain name to the IP address (IPv4) of the computer hosting the domain.
-meta: Understand A records, the fundamental DNS record type that maps domain names to IPv4 addresses. Learn how A records work and when to use them.
+meta: An A record is DNS record type 1. It maps a domain name like www.example.com to the IPv4 address of the server that hosts it.
 categories:
 - DNS
 ---
@@ -19,39 +19,44 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/nJ53QG-gq8o" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Understanding the foundation of DNS: the A record {#understanding-the-foundation-of-dns-the-a-record}
-An **A record** (record type 1) is the most fundamental and widely used type of DNS (Domain Name System) record. The "A" in A record stands for **Address**, specifically an **IPv4 address**. Its primary purpose is to map a human-readable domain name (e.g., `www.example.com`) to the numerical IPv4 address (e.g., `192.0.2.1`) of the server or computer hosting that domain on the Internet.
+## What is an A record? {#what-is-an-a-record}
 
-Essentially, whenever you interact with anything on the internet -— like visiting a website, sending an email, or connecting to an online service -— the domain name you use must first be translated into an IP address by an A record.
+An **A record** (record type 1) maps a domain name to an **IPv4 address**. The "A" stands for **Address**. When someone visits `www.example.com`, the A record tells their device which server IP (like `192.0.2.1`) to connect to.
 
-## How A records work: connecting names to locations {#how-a-records-work-connecting-names-to-locations}
-When you type a domain name, like `www.dnsimple.com`, into your web browser, a series of steps occurs:
+A records are the most common DNS record type. Every time you open a website, send email, or connect to an online service, DNS uses A records (or their IPv6 counterpart, [AAAA records](/articles/aaaa-record/)) to turn domain names into addresses.
 
-1. Your computer's DNS resolver sends a query to find the IP address associated with `www.dnsimple.com`.
-1. This query eventually reaches DNSimple's authoritative name servers.
-1. At our name server, there is an A record for `www.dnsimple.com` that points to a specific IPv4 address (e.g., `208.93.64.253`).
-1. The name server returns this IP address to your resolver.
-1. Your browser then uses this IP address to connect directly to the server hosting the DNSimple website.
+## How A records work {#how-a-records-work}
 
-This process lets you use memorable domain names rather than recalling long strings of numbers.
+Here is what happens when you type a domain name like `www.dnsimple.com` into your browser:
 
-## Key capabilities and common uses {#key-capabilities-and-common-uses}
-A records are versatile and essential:
+1. Your computer's DNS resolver asks for the IP address associated with `www.dnsimple.com`.
+1. The query reaches DNSimple's authoritative name servers.
+1. The name server finds an A record for `www.dnsimple.com` pointing to an IPv4 address (for example, `208.93.64.253`).
+1. The name server sends that IP address back to your resolver.
+1. Your browser connects to the server at that address.
 
-**Core website and service hosting:** The backbone for connecting almost any domain name to a web server, mail server, or other internet-connected service.
+This is why you can type a domain name instead of memorizing a string of numbers.
 
-**Multiple records for redundancy and load balancing:** You can configure multiple A records for the same domain name, each pointing to a different server IP address. When a resolver queries the domain, it might receive all listed IP addresses. This is commonly used to:
-- **Provide redundancy/railover:** If one server becomes unavailable, traffic can automatically be directed to another server listed in the A records.
-- **Distribute traffic (load balancing):** Traffic can be spread across multiple servers, helping to manage high volumes of requests efficiently.
+## Common uses for A records {#common-uses-for-a-records}
 
-**Multiple names to one address:** Conversely, many different domain names can point to the same single IP address. In this scenario, each domain would have its own A record, all pointing to that shared IP. This is common when hosting multiple websites on a single server.
+A records connect domain names to services on the internet:
 
-The DNS A record specification is formally defined in [RFC 1035, Section 3.4.1](https://datatracker.ietf.org/doc/html/rfc1035#section-3.4.1). 
+**Website and service hosting:** Point a domain at the server running your website, mail server, or other online service.
 
-## Managing A Records in DNSimple {#managing-a-records-in-dnsimple}
-DNSimple provides a straightforward interface for managing your A records. You can add new A records, remove existing ones, or update their target IP addresses directly from your domain's record editor.
+**Redundancy and load balancing:** You can add multiple A records for the same domain, each pointing to a different server IP. That gives you two options:
 
-For step-by-step instructions on how to perform these actions, please refer to our dedicated How-To Guide: [Manage A Records](/articles/manage-a-record/).
+- **Failover:** If one server goes down, traffic can route to another server listed in the A records.
+- **Load balancing:** Spread requests across multiple servers to handle more traffic.
+
+**Multiple domains, one address:** Different domain names can point to the same IP address. Each domain gets its own A record, but they all resolve to that shared server. This is common when you host several sites on one machine.
+
+The technical details are in [RFC 1035, Section 3.4.1](https://datatracker.ietf.org/doc/html/rfc1035#section-3.4.1) if you want to dig into the specification.
+
+## Managing A records in DNSimple {#managing-a-records-in-dnsimple}
+
+You can manage A records in DNSimple's [record editor](/articles/record-editor/). Add new records, remove old ones, or update IP addresses as needed.
+
+For detailed steps, check out our guide: [Manage A Records](/articles/manage-a-record/).
 
 ## Have more questions?
-If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have additional questions or need any assistance with your A records, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
