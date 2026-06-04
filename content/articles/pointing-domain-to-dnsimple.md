@@ -17,7 +17,7 @@ categories:
 
 Use this guide when you want DNSimple to host DNS for your domain and you need to point the domain's [name servers](/articles/what-is-a-nameserver/) to DNSimple. That process is also called delegating the domain. After delegation, the domain resolves using the DNS records in your DNSimple account.
 
-For how registration, delegation, and DNS hosting fit together, read [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/). For propagation timing, read [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/how-dns-caching-and-ttl-affect-delegation-and-record-changes/). Before you change delegation, you can use the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
+For how registration, delegation, and DNS hosting fit together, read [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/). For propagation timing, read [How DNS Caching and TTL Affect Delegation and Record Changes](/articles/how-dns-caching-and-ttl-affect-delegation-and-record-changes/). Before you change delegation, you can use the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/). For the full index of name server guides, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 ## Domain registered with DNSimple {#domain-registered-with-dnsimple}
 

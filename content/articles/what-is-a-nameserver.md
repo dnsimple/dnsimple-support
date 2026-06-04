@@ -42,7 +42,7 @@ DNSimple does not change delegation on your behalf without your action. To point
 - If the domain is registered elsewhere, see [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 - If the domain is registered with DNSimple and you want to use another DNS provider, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
 
-For a general overview of pointing a domain to DNSimple, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/). The hostnames and addresses you delegate to are listed in [DNSimple Name Servers](/articles/dnsimple-nameservers/).
+For a general overview of pointing a domain to DNSimple, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/). The hostnames and addresses you delegate to are listed in [DNSimple Name Servers](/articles/dnsimple-nameservers/). For the full index of name server guides, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 > [!TIP]
 > If your domain is not delegated to DNSimple name servers, [changes you make in the record editor](/articles/record-editor/) will not be used for public resolution. To verify what the world sees, use [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) or an external lookup tool such as [zone.vision](https://zone.vision/#/).

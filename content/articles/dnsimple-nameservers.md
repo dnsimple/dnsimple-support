@@ -8,7 +8,7 @@ categories:
 
 # DNSimple Name Servers
 
-For DNSimple to provide DNS for one of your domain names, you must change the name servers for your domain at your domain registrar.
+For DNSimple to provide DNS for one of your domain names, you must change the name servers for your domain at your domain registrar. For delegation how-tos, troubleshooting, and the full documentation index, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 The DNSimple name servers are:
 

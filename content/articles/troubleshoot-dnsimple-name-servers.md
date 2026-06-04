@@ -8,7 +8,7 @@ categories:
 ---
 
 # Troubleshoot DNSimple Name Servers
-If your domain is not resolving correctly with DNSimple, follow these steps to troubleshoot common issues with name servers.
+If your domain is not resolving correctly with DNSimple, follow these steps to troubleshoot common issues with name servers. For related guides and the full name server documentation index, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 ## Ensure the domain is using the DNSimple name servers {#ensure-the-domain-is-using-the-dnsimple-name-servers}
 

@@ -8,7 +8,7 @@ categories:
 
 # Domain Delegation and Name Servers Explained
 
-**Delegation** tells the global DNS system which name servers are authoritative for your domain. Customers describe this workflow as "pointing," "delegating," "setting name servers," or "changing name servers." The correct steps depend on where the domain is registered and where DNS is hosted. Use the table at the end of this page to find the right guide.
+**Delegation** tells the global DNS system which name servers are authoritative for your domain. Customers describe this workflow as "pointing," "delegating," "setting name servers," or "changing name servers." The correct steps depend on where the domain is registered and where DNS is hosted. Use the table at the end of this page to find the right guide, or browse [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/) for the complete documentation index.
 
 ### Table of Contents {#toc}
 

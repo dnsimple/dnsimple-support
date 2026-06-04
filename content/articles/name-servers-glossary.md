@@ -15,7 +15,7 @@ categories:
 
 ---
 
-A reference for name server and delegation terminology. For broader DNS terms, see the [DNS Glossary](/articles/dns-glossary/).
+A reference for name server and delegation terminology. For how-to guides, troubleshooting, and the full documentation index, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/). For broader DNS terms, see the [DNS Glossary](/articles/dns-glossary/).
 
 ## Name Servers and Resolution {#name-servers-and-resolution}
 

@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Use this guide when your domain is **not** registered at DNSimple and you want DNSimple to host DNS. You update name servers at your **current registrar** (not in DNSimple). For a hub that covers both registration cases, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+Use this guide when your domain is **not** registered at DNSimple and you want DNSimple to host DNS. You update name servers at your **current registrar** (not in DNSimple). For a hub that covers both registration cases, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/). For the full name server documentation index, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).
 
 Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple makes the domain resolve using the DNS records configured in your DNSimple account.
 
