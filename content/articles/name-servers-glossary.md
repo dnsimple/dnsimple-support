@@ -1,7 +1,7 @@
 ---
 title: Name Servers Glossary
 excerpt: Definitions for name server terms including delegation, glue records, registrar, registry, vanity name servers, and DNSimple-specific name server features.
-meta: Name servers glossary with definitions for delegation, apex delegation, glue records, registrar, registry, vanity name servers, name server sets, edge name servers, and other DNS delegation terms used at DNSimple.
+meta: Name servers glossary with definitions for delegation, apex delegation, glue records, registrar, registry, vanity name servers, name server sets, edge name servers, points of presence, and other DNS delegation terms used at DNSimple.
 categories:
 - Name Servers
 ---
@@ -64,6 +64,16 @@ Learn more:
 - [DNSimple Name Servers](/articles/dnsimple-nameservers/)
 - [DNSimple Points of Presence](/articles/anycast/)
 - [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/)
+
+### Point of Presence (PoP)
+
+A physical location, or data center, where DNSimple operates edge name servers that answer DNS queries. DNSimple's Anycast network spans multiple points of presence around the world, and every zone is served from all of them by default. When a query is sent, Anycast routes it to the nearest available PoP. The regional records feature lets you restrict an individual record to a subset of these locations.
+
+Learn more:
+
+- [DNSimple Points of Presence](/articles/anycast/)
+- [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/)
+- [Regional Records Explained](/articles/regional-records/)
 
 ## Delegation {#delegation}
 
