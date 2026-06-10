@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { trustyIcon } from '../../assets/svgs';
+import { getTrustyIcon } from '../../assets/trusty';
 
 import "./style.scss";
 
@@ -15,7 +15,7 @@ export default {
   props: ['app'],
   data () {
     return {
-      trustyIcon
+      trustyIcon: getTrustyIcon()
     };
   }
 };

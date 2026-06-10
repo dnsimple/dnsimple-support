@@ -78,7 +78,8 @@
 
 <script>
 import Footer from '../footer/component.vue';
-import { spinnerIcon, externalLink, trustyIcon } from '../../assets/svgs';
+import { spinnerIcon, externalLink } from '../../assets/svgs';
+import { getTrustyIcon } from '../../assets/trusty';
 
 import "./style.scss";
 
@@ -93,7 +94,7 @@ export default {
     return {
       spinnerIcon,
       externalLink,
-      trustyIcon,
+      trustyIcon: getTrustyIcon(),
       selectedArticle: null,
     };
   },
