@@ -154,7 +154,7 @@ When you enable your first MFA method, a recovery code is created as a safeguard
 > The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code**.
 
 > [!NOTE]
-> To help you keep your recovery code accessible, we will periodically ask you to confirm that you still have it saved. Twice a year, you'll see a prompt to verify you have access to your recovery code, along with the option to save a copy. We recommend taking a moment to review where it's stored each time this prompt appears.
+> To help you keep your recovery code accessible, we periodically ask you to confirm that you still have it. About twice a year, the next time you sign in, you'll be asked to enter the last 4 characters of your recovery code before you can continue using your account. The prompt also lets you copy your recovery code again or download a fresh PDF copy, so take a moment to check where it's stored each time it appears.
 
 When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
 
