@@ -61,7 +61,7 @@ After the application is created, you are taken to its page. A confidential appl
 ![screenshot of successful creation of new oauth application](/files/oauth-app-created.png)
 
 > [!NOTE]
-> The Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
+> For confidential applications, the Client ID and Client Secret are unique to your application, and **the client secret should not be shared.**
 
 ## Revoking user tokens {#revoke}
 
