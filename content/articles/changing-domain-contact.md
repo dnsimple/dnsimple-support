@@ -63,7 +63,7 @@ You can update the contact details to change existing contact information. DNSim
 ## Monitoring a contact change
 
 > [!NOTE]
-> When a domain contact has been changed, you will receive a confirmation email from no-reply@ispapi.net. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
+> When a domain contact has been changed, you will receive a confirmation email from noreply@emailverification.info. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
 Some TLDs require extra steps before authorizing a registrant change.
 

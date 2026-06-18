@@ -47,7 +47,7 @@ To update the contact for a specific domain, you will need to [replace the domai
 
 > [!NOTE]
 > When you update a domain contact:
-> - You will receive a confirmation email from no-reply@ispapi.net.
+> - You will receive a confirmation email from noreply@emailverification.info.
 > - You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 > - If you update the contact's email address you may also receive an specific email to verify the new email address.
 
