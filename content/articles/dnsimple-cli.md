@@ -1,7 +1,7 @@
 ---
 title: What Is the DNSimple CLI?
 excerpt: The DNSimple CLI is a command-line tool for managing domains, DNS records, and certificates from your terminal.
-meta: The DNSimple CLI is a command-line tool for managing domains, DNS records, and SSL certificates. Runs on macOS, Linux, and Windows using an API access token.
+meta: The DNSimple CLI is a command-line tool for managing domains, DNS records, and SSL certificates. Runs on macOS, Linux, and Windows.
 categories:
 - CLI
 ---
@@ -47,7 +47,11 @@ The CLI includes an `ai` command that outputs structured context about your acco
 
 ## How does the DNSimple CLI authenticate? {#authentication}
 
-The CLI authenticates with an [API access token](/articles/api-access-token/). You can provide your token through interactive account login, an environment variable, or a command-line flag. The full authentication details are available in the [CLI documentation on the developer site](https://developer.dnsimple.com/cli/).
+Run `dnsimple auth login` in a terminal and the CLI opens the DNSimple authorization page in your browser, then completes the login automatically once you approve. There is no token to copy or paste.
+
+To authenticate with an [API access token](/articles/api-access-token/) instead, run `dnsimple auth login --with-token` and paste the token when prompted. Automated environments use the same command: when input is piped or redirected, such as in a CI pipeline, the CLI reads the token from standard input.
+
+Each login is saved as a named context on disk, so you can keep separate logins for production, sandbox, and client accounts. For the full authentication reference, see the [CLI documentation on the developer site](https://developer.dnsimple.com/cli/).
 
 ## How do you install the DNSimple CLI? {#installation}
 
