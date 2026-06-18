@@ -48,7 +48,7 @@ Your applications are listed here. From this page you can create a new applicati
 
 Click **Add** to create a new application.
 
-Provide an Application Name, a Homepage URL, and an Authorization Callback URL. The callback URL must use HTTPS. For native apps such as command-line tools, you can use a loopback address (`http://127.0.0.1`, `http://[::1]`, or `http://localhost`); the port is matched leniently so the app can listen on whatever local port is free.
+Provide an Application Name, a Homepage URL, and an Authorization Callback URL. The callback URL must use HTTPS, or HTTP with `localhost` or a loopback address (`127.0.0.1`, `[::1]`) for native apps such as command-line tools. See the [OAuth developer guide](https://developer.dnsimple.com/v2/oauth/) for how loopback redirect URIs are matched.
 
 If your account can register [public applications](#client-types), the form also asks what kind of application you are building. Choose **Web app (server-side)** for a confidential application or **Native or browser app** for a public one.
 
