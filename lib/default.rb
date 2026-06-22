@@ -37,3 +37,16 @@ POPS = [
   'Tokyo, Japan',
   'Warsaw, Poland'
 ].freeze
+
+# Regions a record can be pinned to with the regional records feature.
+# dnsimple-app, the authoritative list the app/API accepts.
+REGIONAL_RECORD_REGIONS = [
+  'Amsterdam, Netherlands',
+  'Ashburn, Virginia, USA',
+  'Chicago, Illinois, USA',
+  'Frankfurt, Germany',
+  'Paris, France',
+  'San Jose, California, USA',
+  'Sydney, Australia',
+  'Tokyo, Japan'
+].freeze

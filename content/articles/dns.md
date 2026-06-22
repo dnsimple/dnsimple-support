@@ -73,8 +73,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/) - Learn about Anycast DNS and the benefits it provides for DNS resolution speed and reliability.
 - [Protection Against DDoS Attacks](/articles/protection-ddos/) - Understand how DNSimple protects your DNS infrastructure against DDoS attacks.
 - [What Is EDNS Client Subnet Support?](/articles/edns-client-subnet/) - Learn about EDNS Client Subnet (ECS) and how it improves DNS resolution accuracy.
-- [Explanation of Regional Records](/articles/regional-records/) - Learn about regional records and how they enable location-based DNS responses.
-- [Regional Records](/articles/regional-records/) - Understand regional records and how they enable location-based DNS responses.
+- [Regional Records Explained](/articles/regional-records/) - Learn about regional records and how they enable location-based DNS responses.
 - [Reverse DNS Zones](/articles/reverse-dns/) - Learn about reverse DNS zones and how to configure PTR records.
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - Learn how ALIAS records work when using secondary DNS providers.
