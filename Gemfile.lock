@@ -23,7 +23,7 @@ GEM
     bigdecimal (4.0.1)
     builder (3.3.0)
     coderay (1.1.3)
-    concurrent-ruby (1.3.6)
+    concurrent-ruby (1.3.7)
     cri (2.15.12)
     ddmemoize (1.0.0)
       ddmetrics (~> 1.0)
