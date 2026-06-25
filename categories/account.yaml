@@ -1,12 +1,9 @@
-Getting started:
-  - "Your DNSimple Account"
-
 Explanation:
   Billing and subscriptions:
     - "Understanding Your Account Balance and Billing Details"
     - "Understanding Your DNSimple Invoice"
     - "Subscription Renewals"
-    - "What Happens if I Stop Paying for My DNSimple Subscription?"
+    - "What Happens If You Stop Paying for DNSimple"
     - "Discount Codes"
   Account and security concepts:
     - "Account Security"
@@ -40,7 +37,7 @@ How-to:
     - "Okta as an Identity Provider"
   Security:
     - "Multi-Factor Authentication"
-    - "Enforce Multi-Factor Authentication for All Members of an Account"
+    - "Enforce Account-Wide Multi-Factor Authentication"
     - "Forgot Password"
 
 Reference:
