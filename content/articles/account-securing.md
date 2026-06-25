@@ -1,12 +1,12 @@
 ---
 title: Account Security
-excerpt: Some simple ways to make your DNSimple account more secure.
-meta: Enhance your DNSimple account security with essential tips and best practices to safeguard your information and protect against unauthorized access.
+excerpt: Password, authentication, and access practices that help keep your DNSimple account secure.
+meta: Use strong passwords, enable MFA, and avoid sharing logins to protect your DNSimple account. Review activity logs to detect unauthorized changes.
 categories:
 - Account
 ---
 
-# Securing Your DNSimple Account
+# Account Security
 
 ### Table of Contents {#toc}
 
@@ -15,36 +15,43 @@ categories:
 
 ---
 
-Domains are some of the most important assets for any organization, business, or personal project. We do everything we can to keep your domains and information secure, but there are steps you can take to further secure your DNSimple account.
+Domains are some of the most important assets for any organization, business, or personal project. DNSimple protects your domains and account data, and there are steps you can take to further secure your account.
 
-<alert>
-If you've noticed fraudulent activity, or suspect someone has taken over your account, contact <a href="mailto:support@dnsimple.com">support@dnsimple.com</a>.
-</alert>
+> [!WARNING]
+> If you have noticed fraudulent activity or suspect someone has taken over your account, contact [support@dnsimple.com](mailto:support@dnsimple.com).
 
-## Password recommendations
-- Create a unique password that includes letters, numbers, and punctuation. You can also use special characters (e.g. !@#$%^&*), multiple words, or a passphrase. Do not reuse passwords from other services.
-- Make sure your password is 16 characters or more. This makes it more challenging for bad actors to compromise your account.
-- Never give your password to someone you don't know. This includes DNSimple support — we will never ask for your password for any reason.
+## Password recommendations {#password-recommendations}
+
+- Create a unique password that includes letters, numbers, and punctuation. You can also use special characters (for example `!@#$%^&*`), multiple words, or a passphrase. Do not reuse passwords from other services.
+- Use a password of 16 characters or more. Longer passwords are harder to compromise.
+- Never give your password to someone you do not know. DNSimple support will never ask for your password for any reason.
 - We strongly recommend using a password manager like 1Password to create and store unique passwords for every service you use.
 
-## Account sharing
-- Don't share your account login with others.
-- If you're on the Teams or Enterprise plan, you can [add seats to your account](/articles/managing-seats/), and use [Domain Access Control](https://support.dnsimple.com/articles/domain-access-control/) to allow other users to access your domains with fine-tuned permissions.
+## Account sharing {#account-sharing}
+
+- Do not share your account login with others.
+- If you are on the Teams or Enterprise plan, you can [add seats to your account](/articles/managing-seats/) and use [Domain Access Control](/articles/domain-access-control/) to give other users access to your domains with fine-tuned permissions.
 - Only add authorized contacts to your account.
 
-## Authentication
+## Authentication {#authentication}
+
 - We strongly recommend enabling [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) for an extra layer of security. MFA is available free for every subscription.
 - [Enforce MFA](/articles/multi-factor-authentication-enforcement/) for every team member managing domains on your account.
 - Download and secure your recovery codes.
-- Users who do not enable MFA are required to change their password every three months to maintain security. The new password cannot match any of the last five passwords used. When a reset is due, DNSimple shows a **Password reset required** page on your next visit. Use the button on that page to send reset instructions to your email address. You will be signed out. You cannot continue using your account until you sign back in with a new password set from the emailed link.
+- Users who do not enable MFA are required to change their password every three months to maintain security. The new password cannot match any of the last five passwords used. When a reset is due, DNSimple shows a **Password reset required** page on your next visit. Use the button on that page to send reset instructions to your user email address. You will be signed out. You cannot continue using your account until you sign back in with a new password set from the emailed link.
 
-## Forgotten password
+## Forgotten password {#forgotten-password}
 
-Learn how to request password reset [here](/articles/forgot-password/).
+See [Forgot Password](/articles/forgot-password/) to request a password reset.
 
-## Further reading
+## Activity and audit logs {#activity-logs}
 
-You'll find more information and resources for securing your domains on our [security page](https://dnsimple.com/benefits/security). You can also view our [security policies](https://dnsimple.com/security) for more on how we handle specific issues.
+Review [Activity Tracking](/articles/activity-tracking/) to see who changed DNS records, account settings, or permissions and when those changes occurred.
+
+## Further reading {#further-reading}
+
+You will find more information and resources for securing your domains on our [security page](https://dnsimple.com/benefits/security). You can also view our [security policies](https://dnsimple.com/security) for more on how we handle specific issues.
 
 ## Have more questions?
+
 If you have any questions or want to know more about how to make your account as secure as possible, [contact our support team](https://dnsimple.com/feedback), and we'll get you the information you need.

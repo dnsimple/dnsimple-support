@@ -1,7 +1,7 @@
 ---
 title: Activity Tracking
-excerpt: How to review the list of events for an account or domain using our audit log feature.
-meta: Learn how to use activity tracking to review audit logs of changes made to domains and accounts, including filtering events and understanding activity history.
+excerpt: How the DNSimple audit log records changes to domains and account settings, and how to review that history.
+meta: Activity tracking shows who changed DNS records, domain settings, or account configuration and when. Full history is available on Teams plan and higher.
 categories:
 - Account
 - Domains and Transfers
@@ -19,37 +19,37 @@ categories:
 > [!NOTE]
 > Full activity history is available on the Teams plan and higher. Accounts on the Solo plan can view activity logs from the past 30 days. [See the difference between plans](/articles/dnsimple-plans/).
 
-Activity history offers a comprehensive audit log of all changes made to a specific domain or across your entire account. It lets you manage your domain management and understand any modifications made over time.
+Activity history is an audit log of changes made to a specific domain or across your entire account. It helps you see who made a change, when it happened, and what was updated.
 
 ## Why activity tracking matters {#why-activity-tracking-matters}
 
-Activity tracking provides accountability and transparency in domain management, especially important in team environments. It helps you identify who made specific changes, when they were made, and what exactly changed. This is valuable for troubleshooting issues, understanding the impact of changes, and maintaining security by detecting unauthorized modifications. The audit log creates a historical record that can be reviewed to understand how a domain's configuration evolved over time.
+Activity tracking adds accountability in team environments and supports [account security](/articles/account-securing/). Use it to trace unexpected DNS or permission changes, confirm when a change was applied, and review how a domain configuration changed over time.
 
-Activity tracking records changes made through the DNSimple interface and API, but it does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain providers' interfaces.
+Activity tracking records changes made through the DNSimple interface and API. It does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain provider interfaces.
 
 ## Domain activity tracking {#domain-activity-tracking}
 
-Domain-level activity tracking provides an audit log of all changes made to a specific domain. This includes DNS record modifications, contact updates, name server changes, and other domain-specific operations. Each entry shows what changed, who made the change, and when it occurred.
+Domain-level activity tracking logs changes to a specific domain, including DNS record updates, contact changes, name server changes, and other domain operations. Each entry shows what changed, which user made the change, and when it occurred.
 
 ![Activity Tracking at domain level](/files/activity-tracking-1.png)
 
 ## Account activity tracking {#account-activity-tracking}
 
-Account-level activity tracking provides an audit log of changes across your entire account, including:
+Account-level activity tracking logs changes across your entire account, including:
 
 - Adjustments to account settings
 - Modifications affecting multiple domains
-- User actions and changes in permissions
+- User actions and permission changes
 
-This broader view helps you understand changes that affect the account as a whole, not just individual domains.
+This view helps you understand changes that affect the account as a whole, not just individual domains.
 
 ![Screenshot of dashboard of activity](/files/activity-tracking-dashboard.png)
 
 ## Events filter {#events-filter}
 
-The **Events** filter displays custom event types within a chosen time frame, depending on whether you are interested in specific DNS changes, user actions, or time-specific events. Each entry provides detailed information, including:
+The **Events** filter shows event types within a chosen time frame. Filter by DNS changes, user actions, or other event types. Each entry includes:
 
-- What changed, along with contextual data (e.g. records content)
+- What changed, along with contextual data (for example record content)
 - Which user triggered the event
 - When the event took place
 
@@ -59,4 +59,3 @@ The **Events** filter displays custom event types within a chosen time frame, de
 ## Have more questions?
 
 If you have any questions about your activity tracking, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.
-
