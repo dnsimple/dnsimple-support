@@ -39,11 +39,9 @@ How-to:
     - "Multi-Factor Authentication"
     - "Enforce Account-Wide Multi-Factor Authentication"
     - "Forgot Password"
+  Troubleshooting:
+    - "Suspended Account"
 
 Reference:
   Billing:
     - "Account Invoice History"
-
-Troubleshooting:
-  Account status:
-    - "Suspended Account"
