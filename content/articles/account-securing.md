@@ -20,7 +20,7 @@ Domains are some of the most important assets for any organization, business, or
 > [!WARNING]
 > If you have noticed fraudulent activity or suspect someone has taken over your account, contact [support@dnsimple.com](mailto:support@dnsimple.com).
 
-## Password recommendations {#password-recommendations}
+## How to create a strong password {#password-recommendations}
 
 - Create a unique password that includes letters, numbers, and punctuation. You can also use special characters (for example `!@#$%^&*`), multiple words, or a passphrase. Do not reuse passwords from other services.
 - Use a password of 16 characters or more. Longer passwords are harder to compromise.
@@ -38,7 +38,7 @@ Domains are some of the most important assets for any organization, business, or
 - We strongly recommend enabling [multi-factor authentication (MFA)](/articles/multi-factor-authentication/) for an extra layer of security. MFA is available free for every subscription.
 - [Enforce MFA](/articles/multi-factor-authentication-enforcement/) for every team member managing domains on your account.
 - Download and secure your recovery codes.
-- Users who do not enable MFA are required to change their password every three months to maintain security. The new password cannot match any of the last five passwords used. When a reset is due, DNSimple shows a **Password reset required** page on your next login. Click the button to send reset instructions to your user email. You'll be signed out automatically and won't be able to log back in until you've set a new password using the link in that email.
+- Users who do not enable MFA are required to change their password every three months to maintain security. The new password cannot match any of the last five passwords used. When a reset is due, DNSimple shows a **Password reset required** page on your next login. Click the button to send reset instructions to your user email. You will be signed out automatically and will not be able to log back in until you have set a new password using the link in that email.
 
 ## Forgotten password {#forgotten-password}
 
