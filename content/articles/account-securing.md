@@ -24,7 +24,7 @@ Domains are some of the most important assets for any organization, business, or
 
 - Create a unique password that includes letters, numbers, and punctuation. You can also use special characters (for example `!@#$%^&*`), multiple words, or a passphrase. Do not reuse passwords from other services.
 - Use a password of 16 characters or more. Longer passwords are harder to compromise.
-- Never give your password to someone you do not know. DNSimple support will never ask for your password for any reason.
+- Never share your password with anyone. DNSimple support will never ask for your password for any reason.
 - We strongly recommend using a password manager like 1Password to create and store unique passwords for every service you use.
 
 ## Account sharing {#account-sharing}
