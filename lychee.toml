@@ -1,3 +1,9 @@
 max_concurrency = 5
 max_retries = 3
 timeout = 30
+
+# dnsimplestatus.com is a valid live link (301 -> dnsimple.statuspage.io),
+# but Atlassian Statuspage intermittently blocks CI runner IPs, so lychee
+# can't reliably reach it. Retries/timeout don't help a connection-level
+# block. Exclude it from the check; the link stays on the site.
+exclude = ["https://dnsimplestatus\\.com"]
