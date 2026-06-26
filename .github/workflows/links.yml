@@ -38,5 +38,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2
         with:
-          args: '--root-dir ${{ github.workspace }}/output output/**/*.html'
+          args: '--root-dir ${{ github.workspace }}/output --max-retries 2 --timeout-secs 30 output/**/*.html'
           fail: true
