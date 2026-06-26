@@ -23,9 +23,9 @@ Activity history is an audit log of changes made to a specific domain or across 
 
 ## Why activity tracking matters {#why-activity-tracking-matters}
 
-Activity tracking adds accountability in team environments and supports [account security](/articles/account-securing/). Use it to trace unexpected DNS or permission changes, confirm when a change was applied, and review how a domain configuration changed over time.
+Activity tracking provides accountability in team environments and supports [account security](/articles/account-securing/). It helps you identify who made specific changes, when they were made, and what exactly changed. This is valuable for troubleshooting issues, understanding the impact of changes, and maintaining security by detecting unauthorized modifications. The audit log creates a historical record that can be reviewed to understand how a domain's configuration evolved over time.
 
-Activity tracking records changes made through the DNSimple interface and API. It does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain provider interfaces.
+Activity tracking shows changes made through the DNSimple interface and API. It does not track changes made outside of DNSimple, such as direct registry modifications or changes made through integrated domain provider interfaces.
 
 ## Domain activity tracking {#domain-activity-tracking}
 
