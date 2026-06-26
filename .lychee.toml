@@ -6,6 +6,11 @@ remap = [
 ]
 
 exclude_mail = true
+
+# Hosted status page (Statuspage-style) that throttles/blocks CI runner IPs,
+# causing lychee to time out. Reachable in a browser; safe to skip in CI.
+exclude = ["https://dnsimplestatus\\.com"]
+
 max_concurrency = 5
 max_retries = 3
 timeout = 30
