@@ -1,12 +1,12 @@
 ---
-title: What Happens If You Stop Paying for DNSimple
+title: What Happens if I Stop Paying for My DNSimple Subscription?
 excerpt: What happens to your DNSimple account and services when subscription payment fails and the account is canceled.
 meta: If DNSimple cannot collect subscription payment after 21 days, your account is canceled and DNSimple services stop. Domains you registered remain in your account.
 categories:
 - Account
 ---
 
-# What Happens If You Stop Paying for DNSimple
+# What Happens if I Stop Paying for My DNSimple Subscription?
 
 ### Table of Contents {#toc}
 
