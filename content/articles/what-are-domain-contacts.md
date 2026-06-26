@@ -41,6 +41,8 @@ Domain contact information helps registries and registrars maintain a clear chai
 
 To reduce the risk of unauthorized transfers, registries may apply temporary safeguards when registrant details are updated. For example, under ICANN policy, a registrant change can trigger a temporary transfer restriction intended to protect domain ownership. You can learn more about this policy in [ICANN 60-day transfer lock after registrant change](/articles/icann-60-day-lock-registrant-change/).
 
+Some registries also require contact data to be verified before certain operations can be completed. For example, the .PT registry requires the registrant's email and telephone number to be verified before registrations, ownership transfers, and contact updates. See [.PT Domains](/articles/domains-pt/) for details.
+
 ## Have more questions?
 
 If you have any questions about domain contacts or need help with your domains, just [contact our support team](https://dnsimple.com/feedback) — we are here to help.
