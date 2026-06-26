@@ -41,7 +41,6 @@ Pointing the [name servers](/articles/what-is-a-nameserver/) to DNSimple makes t
 
 These links point to registrar help for setting custom name servers:
 
-- [GoDaddy](https://uk.godaddy.com/help/set-custom-nameservers-for-domains-registered-with-us-12317)
 - [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain)
 
 For a preflight list before you change delegation, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).

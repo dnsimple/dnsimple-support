@@ -1,7 +1,7 @@
 ---
 title: Link and Unlink Integrated Domain Providers
 excerpt: How to link or unlink integrated domain providers to your DNSimple account.
-meta: How to connect or disconnect integrated domain providers (GoDaddy, Namecheap, PorkBun) from your DNSimple account to manage external domains.
+meta: How to connect or disconnect integrated domain providers from your DNSimple account to manage external domains.
 categories:
 - Domains and Transfers
 - Integrations
@@ -15,9 +15,10 @@ When you link an Integrated Domain Provider to your DNSimple account, domains re
 
 ## Supported Integrated Domain Providers {#supported-integrated-domain-providers}
 
-DNSimple supports domain integration with the providers listed below.
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New connections can no longer be created. If you have an existing GoDaddy connection, you can still unlink it using the steps below.
 
-- [GoDaddy](/articles/integrated-domain-provider-godaddy/)
+There are currently no active Integrated Domain Providers available for new connections.
 
 ## Linking an Integrated Domain Provider to your account {#linking-an-integrated-domain-provider-to-your-account}
 

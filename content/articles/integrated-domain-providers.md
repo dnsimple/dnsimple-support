@@ -35,11 +35,10 @@ While integrated domains can be managed through DNSimple, they remain registered
 
 ## Supported Integrated Domain Providers {#supported-integrated-domain-providers}
 
-To manage integrated domains from DNSimple, you first have to link an Integrated Domain Provider to your DNSimple account.
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New GoDaddy integrations can no longer be created. Existing connections will remain active until the sunset date, after which all linked domains will be transitioned to [hosted](/articles/hosted-domains/) status. We recommend [transferring your domains to DNSimple](/articles/integrated-domain-provider-transfer-domain/) before that date.
 
-DNSimple supports domain integration with the providers listed below.
-
-- [GoDaddy](/articles/integrated-domain-provider-godaddy/)
+There are currently no active Integrated Domain Providers available for new connections.
 
 ## Linking an Integrated Domain Provider to your account {#linking-integrated-domain-provider}
 

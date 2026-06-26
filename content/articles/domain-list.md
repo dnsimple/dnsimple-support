@@ -48,8 +48,6 @@ The state of the domain in DNSimple.
    - If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/).
    - If the domain is registered with an Integrated Provider, that provider is also displayed.
 
-![screenshot: Showing a domain that is registered with GoDaddy](/files/domain-list-godaddy-autorenew.png)
-
 ### DNS Zones
 
 This indicates whether you have activated the zones and if the domain is resolving. Click the link attached to the zone status to navigate to the domain's DNS management page.
