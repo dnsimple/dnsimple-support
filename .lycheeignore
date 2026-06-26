@@ -1,0 +1,3 @@
+# Hosted status page (Statuspage-style) that throttles/blocks CI runner IPs,
+# causing lychee to time out. Reachable in a browser; safe to skip in CI.
+https://dnsimplestatus.com/
