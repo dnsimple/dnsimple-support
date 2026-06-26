@@ -1,6 +1,6 @@
 ---
 title: Understanding Your Account Balance and Billing Details
-excerpt: What the estimated amount due, account credit, and other fields on the Billings and plans page mean.
+excerpt: What the estimated amount due, account credit, and other fields on the Billing and plans page mean.
 meta: The Billing and plans page shows your estimated subscription balance, account credit, payment method, and invoice history for your DNSimple account.
 categories:
 - Account
@@ -71,7 +71,7 @@ This section shows the credit card on file for the account, including the card t
 
 The **Invoices** section shows past invoices for the account. You can view all invoices, download the latest invoice, and see where invoice notifications are delivered.
 
-By default, invoices are delivered to the account notification email. Accounts on the Teams plan and higher can configure a separate billing contact in [Billing Settings](/articles/billing-settings/). 
+By default, invoices are delivered to the account notification email. Accounts on the Teams plan and higher can configure a separate billing contact in [Billing Settings](/articles/billing-settings/).
 
 For invoice line items and charge types, see [Understanding Your DNSimple Invoice](/articles/understanding-invoice/). To look up past invoices by status, see [Account Invoice History](/articles/account-invoice-history/).
 

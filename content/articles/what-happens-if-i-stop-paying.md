@@ -29,7 +29,7 @@ During this period, your account is **not** canceled, and your domains continue 
 
 If payment cannot be collected after 21 days, DNSimple cancels your subscription and notifies you by email. All services provided by DNSimple stop at that point.
 
-## What still works after cancellation {#after-cancellation}
+## What happens to your domains after cancellation {#after-cancellation}
 
 - **DNS resolution:** Domains pointing to DNSimple name servers will no longer resolve and will become unreachable, responding with a `SERVFAIL` or `NXDOMAIN` DNS error code. Domains that are not pointing to DNSimple name servers continue to resolve if they use valid external name servers.
 - **Registered domains:** You can still manage domains registered with DNSimple. They are not deleted or removed from your account.

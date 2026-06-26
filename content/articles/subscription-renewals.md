@@ -27,7 +27,7 @@ For Solo and Teams plans, the amount charged depends on:
 
 Enterprise and Reseller clients have custom contracts based on their individual needs.
 
-You can view your next renewal date and estimated balance on the [Billings and plans](/articles/account-subscription-balance/) page.
+You can view your next renewal date and estimated balance on the [Billing and plans](/articles/account-subscription-balance/) page.
 
 ## What happens when my subscription is renewed? {#successful-renewal}
 
