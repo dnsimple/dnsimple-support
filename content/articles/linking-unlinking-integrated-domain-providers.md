@@ -3,22 +3,17 @@ title: Link and Unlink Integrated Domain Providers
 excerpt: How to link or unlink integrated domain providers to your DNSimple account.
 meta: How to connect or disconnect integrated domain providers from your DNSimple account to manage external domains.
 categories:
-- Domains and Transfers
 - Integrations
 ---
 
 # Link and Unlink Integrated Domain Providers
 
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New connections can no longer be created. 
+
 DNSimple supports the ability to manage domains that are registered with other domain providers external to DNSimple. DNSimple calls such providers "Integrated Domain Providers".
 
 When you link an Integrated Domain Provider to your DNSimple account, domains registered via that Integrated Domain Provider will be imported into DNSimple and listed on the Domain Names page. You can view the expiry date, delegation name servers, domain registration contact, and DNSSEC information of your integrated domains from DNSimple.
-
-## Supported Integrated Domain Providers {#supported-integrated-domain-providers}
-
-> [!WARNING]
-> The GoDaddy Integrated Domain Provider is being deprecated. New connections can no longer be created. If you have an existing GoDaddy connection, you can still unlink it using the steps below.
-
-There are currently no active Integrated Domain Providers available for new connections.
 
 ## Linking an Integrated Domain Provider to your account {#linking-an-integrated-domain-provider-to-your-account}
 

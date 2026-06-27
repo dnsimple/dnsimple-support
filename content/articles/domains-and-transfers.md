@@ -103,8 +103,6 @@ Registry and ICANN requirements:
 - [Organize and Label Domains](/articles/labeling-domains/) - How to add, filter, edit, and remove labels on domains in your DNSimple account.
 - [Export Domain Names to a .CSV File](/articles/export-domain-names-to-file/) - How to export domain names from your DNSimple account to a .CSV or .ZIP file.
 - [Verify Domain Resolution](/articles/verifying-domain-resolution/) - How to verify that your domain is resolving correctly using dig, nslookup, and online tools.
-- [Manage Integrated Domains](/articles/managing-integrated-domains/) - How to view and manage domains registered at other providers from your DNSimple account.
-- [Change WHOIS Information](/articles/changing-whois-contact/) - How to update WHOIS contact details.
 - [Link and Unlink Integrated Domain Providers](/articles/linking-unlinking-integrated-domain-providers/) - Step-by-step guide to link or unlink integrated domain providers to your DNSimple account.
 - [Resend Domain Validation Email](/articles/resending-domain-validation-email/) - How to resend domain validation emails to verify your registrant contact information.
 - [Add a Subdomain](/articles/adding-subdomain/) - How to add subdomains in DNSimple.

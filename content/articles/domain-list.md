@@ -46,7 +46,6 @@ The state of the domain in DNSimple.
  - **Transfer Domain** - indicates the domain is not registered with DNSimple or an Integrated Provider. Click the link attached to begin the transfer process.
  - **Registered** - indicates the domain is registered with DNSimple or an Integrated Provider. Clicking Registered will take you directly to the domain's registration hub.
    - If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/).
-   - If the domain is registered with an Integrated Provider, that provider is also displayed.
 
 ### DNS Zones
 
