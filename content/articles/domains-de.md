@@ -35,6 +35,21 @@ Keep contact details current in your DNSimple account. To update a person or org
 > [!WARNING]
 > Ignoring verification requests can lead to loss of eligibility for new .DE registrations on affected contacts, domain quarantine, or deletion under DENIC policy.
 
+## Holder verification on registered domains {#holder-verification}
+
+DENIC can require holder verification after a .DE domain is already registered, not only at registration. This happens when the registry flags the registrant (holder) contact and asks for the holder's details to be confirmed.
+
+When this happens, you may receive a notice from DNSimple or directly from DENIC. **If you receive a notice from DENIC, contact DNSimple Support instead of replying to DENIC directly.** We complete holder verification with the registry on your behalf. The domain continues to work while verification is outstanding. If the request is ignored, the registry can apply restrictive statuses that affect the domain.
+
+To resolve a holder verification request:
+
+- Confirm the registrant contact on the domain is accurate, including a reachable email address and telephone number.
+- Correct any wrong or outdated details on the registrant contact by following [Changing Domain Contacts](/articles/changing-domain-contact/).
+- Write to DNSimple once the registrant contact information is correct so we can contact the registry on your behalf and avoid escalation to a restrictive status.
+
+> [!NOTE]
+> If we forward a registry notice about a specific .DE domain, reply to that message or contact us. We can help you complete verification before any service impact.
+
 ## Transferring a .DE domain {#transferring}
 
 Unlike standard gTLD domains, .DE has some unique transfer rules.
