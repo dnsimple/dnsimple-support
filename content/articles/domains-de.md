@@ -44,7 +44,7 @@ When this happens, you may receive a notice from DNSimple or directly from DENIC
 To resolve a holder verification request:
 
 - Confirm the registrant contact on the domain is accurate, including a reachable email address and telephone number.
-- Correct any wrong or outdated details on the registrant contact.
+- Correct any wrong or outdated details on the registrant contact by following [Changing Domain Contacts](/articles/changing-domain-contact/).
 - Respond to the verification request promptly so the registry does not escalate to a restrictive status.
 
 > [!NOTE]
