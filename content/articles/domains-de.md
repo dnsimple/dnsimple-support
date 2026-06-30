@@ -39,7 +39,7 @@ Keep contact details current in your DNSimple account. To update a person or org
 
 DENIC can require holder verification after a .DE domain is already registered, not only at registration. This happens when the registry flags the registrant (holder) contact and asks for the holder's details to be confirmed.
 
-When this happens, you may receive a notice from us, or directly from the registry, stating that verification information must be provided for the holder. The domain continues to work while verification is outstanding. If the request is ignored, the registry can apply restrictive statuses that affect the domain.
+When this happens, you may receive a notice from DNSimple or directly from DENIC. **If you receive a notice from DENIC, contact DNSimple Support instead of replying to DENIC directly.** We complete holder verification with the registry on your behalf. The domain continues to work while verification is outstanding. If the request is ignored, the registry can apply restrictive statuses that affect the domain.
 
 To resolve a holder verification request:
 
