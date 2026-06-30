@@ -21,7 +21,7 @@ This article explains the requirements and special procedures for [.PT](https://
 
 Starting **30 June 2026**, the .PT registry introduces new contact verification requirements for registrant contact data. These requirements are part of Portugal's implementation of the EU NIS2 Directive and its Legal Framework for Cybersecurity (RJC).
 
-Under these rules, the registry requires the registrant's contact information to be **validated and verified** before certain domain operations can be completed. The contact data that must be verified is:
+Under these rules, the registry requires the [registrant's contact information](/articles/what-are-domain-contacts/) to be **validated and verified** before certain domain operations can be completed. The contact data that must be verified is:
 
 - The registrant's **email address**
 - The registrant's **telephone number**
