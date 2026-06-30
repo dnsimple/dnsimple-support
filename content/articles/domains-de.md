@@ -45,7 +45,7 @@ To resolve a holder verification request:
 
 - Confirm the registrant contact on the domain is accurate, including a reachable email address and telephone number.
 - Correct any wrong or outdated details on the registrant contact by following [Changing Domain Contacts](/articles/changing-domain-contact/).
-- Respond to the verification request promptly so the registry does not escalate to a restrictive status.
+- Write to DNSimple once the registrant contact information is correct so we can contact the registry on your behalf and avoid escalation to a restrictive status.
 
 > [!NOTE]
 > If we forward a registry notice about a specific .DE domain, reply to that message or contact us. We can help you complete verification before any service impact.
