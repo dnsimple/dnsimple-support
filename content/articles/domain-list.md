@@ -38,15 +38,18 @@ Each domain has an overview with the following information:
 
 ![screenshot: Showing table headers for the domain list table](/files/domain-list-headers.png)
 
- ### Domain Name
- A clickable link to the domain-specific home page to view, edit and manage the DNS and Domain Management.
+### Domain Name
+
+A clickable link to the domain-specific home page to view, edit, and manage DNS and domain management.
 
 ### Domain Registration
+
 The state of the domain in DNSimple.
- - **Transfer Domain** - indicates the domain is not registered with DNSimple or an Integrated Provider. Click the link attached to begin the transfer process.
- - **Registered** - indicates the domain is registered with DNSimple or an Integrated Provider. Clicking Registered will take you directly to the domain's registration hub.
-   - If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/).
-   - If the domain is registered with an Integrated Provider, that provider is also displayed.
+
+- **Transfer Domain** - indicates the domain is not registered with DNSimple or an Integrated Provider. Click the link attached to begin the transfer process.
+- **Registered** - indicates the domain is registered with DNSimple or an Integrated Provider. Clicking Registered will take you directly to the domain's registration hub.
+  - If the domain is registered with DNSimple, it will display the expiration date, and auto-renew (if enabled). If the domain is not set to auto-renew, it will not be included in the quick view, and can be turned on by following [these steps](/articles/domain-auto-renewal/).
+  - If the domain is registered with an Integrated Provider, that provider is also displayed.
 
 ![screenshot: Showing a domain that is registered with GoDaddy](/files/domain-list-godaddy-autorenew.png)
 
@@ -66,7 +69,7 @@ If the domain does not have the zones activated within your DNSimple account, it
 
 ![screenshot: Showing domain which is inactive](/files/domain-list-inactive-zone.png)
 
-Learn more about Active and Inactive Zones and how to manage them [here](/articles/dns-hosting/).
+Learn more about active and inactive zones in [DNS hosting](/articles/dns-hosting/).
 
 ### Certificates
 
@@ -80,15 +83,14 @@ If the domain is registered or resolving with DNSimple but does not have an acti
 
 ![screenshot: Showing add certificate link](/files/domain-list-add-certificate.png)
 
-If the field is empty, the domain is registered elsewhere **and** resolving elsewhere. To learn more about certificates, visit [this guide](/articles/getting-started-ssl-certificates/).
+If the field is empty, the domain is registered elsewhere **and** resolving elsewhere. To learn more about certificates, see [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/).
 
 ### Last Updated
+
 Displays the date of the last activity logged for this domain.
 
-### Add to Favorites
-While not specified in the header, the stars to the right of each domain let you add them to your favorites for easy access.
-
 ### Add new
+
 Above the Domain List view, you'll see an "Add new" dropdown.
 
 ![screenshot: Showing add new domain dropdown](/files/domain-list-add-new.png)
@@ -98,9 +100,11 @@ Click this button, and the menu will provide you with easy access to the many wa
 ![screenshot: Showing menu of actions to take on a domain](/files/domain-list-add-new-dropdown.png)
 
 ### Label domains
-At the bottom of your domain list, you'll see a button to add Labels.
 
-This option allows for optimal organization and understanding of the specifics to the domains in your account. Learn more about the available options in [this guide](/articles/labeling-domains/).
+At the bottom of your domain list, you'll see a button to add labels.
+
+This option helps you organize domains in your account. Learn more in [Organize and Label Domains](/articles/labeling-domains/).
 
 ## Have more questions?
-Now you can use the Domain List to organize, view and manage your domains. Efficient domain management is only a click away. Have questions or feedback? [Get in touch](https://dnsimple.com/feedback) - our team is always happy to help.
+
+If you have questions about the domain list or need help managing your domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
