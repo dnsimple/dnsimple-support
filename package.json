@@ -28,7 +28,7 @@
     "vite": "^8.1.0",
     "vite-plugin-css-injected-by-js": "^5.0.1",
     "vue-eslint-parser": "^10.4.1",
-    "webpack": "^5.107.2",
+    "webpack": "^5.108.3",
     "webpack-cli": "^7.1.0"
   },
   "scripts": {
