@@ -53,7 +53,7 @@ To invite or remove members, see [Managing Multiple Members on One Account](/art
 
 **Common mistake:** trying to sign in with the notification email. Sign-in always uses your **user email**.
 
-Teams and Enterprise plans can also set a separate **billing email** for invoices. See [Billing Settings](/articles/billing-settings/).
+On eligible plans, you can also set a separate **billing email** for invoices. See [Billing Settings](/articles/billing-settings/).
 
 For onboarding a new team, see [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/).
 

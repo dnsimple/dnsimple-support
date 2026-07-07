@@ -1,7 +1,7 @@
 ---
 title: What is SSO at DNSimple
 excerpt: What single sign-on is at DNSimple, which plans support it, and how identity providers connect to your account.
-meta: SSO at DNSimple lets Enterprise teams sign in through an identity provider such as Entra, Google Workspace, or Okta. Learn what SSO is and which providers DNSimple supports.
+meta: Single sign-on (SSO) lets your team sign in to DNSimple through an identity provider such as Okta, Google Workspace, or Microsoft Entra. Learn what SSO is, which plans support it, and which providers DNSimple supports.
 categories:
 - Account
 - Enterprise
@@ -19,7 +19,7 @@ categories:
 Single sign-on (SSO) lets members of your organization sign in to DNSimple using your company's **identity provider** instead of a DNSimple password alone.
 
 > [!NOTE]
-> SSO is available on [Enterprise plans](https://dnsimple.com/pricing) only.
+> SSO with Okta or Google is available on [Teams plans](https://dnsimple.com/pricing) and Enterprise. SSO with Microsoft Entra is available on Enterprise plans.
 
 ## What SSO does at DNSimple {#what-sso-does}
 
@@ -29,13 +29,13 @@ SSO does not replace DNSimple account structure. Users still work inside **accou
 
 ## Identity providers {#identity-providers}
 
-An **identity provider** (IdP) is the system your organization uses to manage users and sign-in (for example Microsoft Entra, Google Workspace, or Okta). DNSimple supports connecting an IdP to an Enterprise account.
+An **identity provider** (IdP) is the system your organization uses to manage users and sign-in (for example Okta, Google Workspace, or Microsoft Entra). DNSimple supports connecting an IdP on eligible plans.
 
 To configure a provider, follow the How-to guide for your IdP:
 
-- [Entra as an Identity Provider](/articles/entra-identity-provider/)
-- [Google as an Identity Provider](/articles/google-identity-provider/)
-- [Okta as an Identity Provider](/articles/okta-identity-provider/)
+- [Okta as an Identity Provider](/articles/okta-identity-provider/) — Teams and Enterprise
+- [Google as an Identity Provider](/articles/google-identity-provider/) — Teams and Enterprise
+- [Entra as an Identity Provider](/articles/entra-identity-provider/) — Enterprise
 
 ## SSO and account security {#sso-and-security}
 
