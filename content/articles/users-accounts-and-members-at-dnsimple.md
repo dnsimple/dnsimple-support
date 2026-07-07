@@ -55,13 +55,6 @@ To invite or remove members, see [Managing Multiple Members on One Account](/art
 
 Teams and Enterprise plans can also set a separate **billing email** for invoices. See [Billing Settings](/articles/billing-settings/).
 
-## How users, accounts, and members fit together {#how-it-fits-together}
-
-- You are always a **user** when you sign in.
-- You work inside an **account** (selected in the account switcher).
-- Other people on your team are **members** of that account, each with their own user login.
-- **User email** is for authentication. **Notification email** is where DNSimple sends messages about that account.
-
 For onboarding a new team, see [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/).
 
 ## Have more questions?

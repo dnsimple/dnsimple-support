@@ -37,7 +37,7 @@ Account owners can [disable expiration notifications](/articles/disabling-expira
 
 ## Changing the contact {#changing-the-contact}
 
-To change the email address that receives these notifications, follow the instructions in [changing the account email](/articles/changing-email/#changing-the-account-email).
+To change the email address that receives these notifications, follow the instructions for [setting or changing the notification email](/articles/changing-email/#setting-or-changing-the-notification-email).
 
 ## What to do if your domain expires {#what-to-do-if-your-domain-expires}
 

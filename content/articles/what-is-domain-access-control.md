@@ -16,10 +16,10 @@ categories:
 
 ---
 
+Domain Access Control (DAC) lets you limit what each [member](/articles/users-accounts-and-members-at-dnsimple/#members) of an account can see and change. Instead of giving everyone full access to every domain, you assign access per person and per domain.
+
 > [!NOTE]
 > Domain Access Control is available on eligible [plans](https://dnsimple.com/pricing).
-
-Domain Access Control (DAC) lets you limit what each **member** of an account can see and change. Instead of giving everyone full access to every domain, you assign access per person and per domain.
 
 Combined with [multi-factor authentication](/articles/multi-factor-authentication/) and [activity tracking](/articles/activity-tracking/), DAC helps teams follow the principle of least privilege: people get only the access they need.
 
@@ -41,7 +41,7 @@ A member with **Limited Access** can see the account but cannot access domains u
 
 ### Domain Manager {#domain-manager}
 
-For a specific domain, a **Domain Manager** can manage the full domain, including DNS zone and records, registration details, name servers, certificates, and other domain operations where access is permitted.
+For a specific domain, a **Domain Manager** can manage the full domain: the DNS zone and records, registration details such as the registrant and name servers, certificates, Vanity Name Servers (where available), and disabling DNS service. This covers all domain operations where access is permitted.
 
 ### Zone Operator {#zone-operator}
 

@@ -18,7 +18,7 @@ categories:
 > [!NOTE]
 > To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 
-A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their [level of access](/articles/domain-access-control/) to "full access" (eg. access to all resources inside an account) or "limited access" (eg. specific to each domain). The member will retain their unique login credentials and multi-factor authentication configuration. If you are onboarding a new team, follow the [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/) for a concise checklist.
+When you add someone to an account, they become a [member](/articles/users-accounts-and-members-at-dnsimple/#members) with their own user login and multi-factor authentication settings. You can set their [level of access](/articles/what-is-domain-access-control/) when you invite them. For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/). If you are onboarding a new team, follow the [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/) for a concise checklist.
 
 
 ## Adding members to an account
@@ -36,7 +36,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/domain-access-control/), you can select the member's fine-grained permissions.
+1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/what-is-domain-access-control/), you can select the member's fine-grained permissions.
 
     ![Add a new member form](/files/add-member-screen.png)
 
@@ -45,7 +45,7 @@ A DNSimple account can be associated with one or more users. When you add someon
 </div>
 
 > [!NOTE]
-> It's not possible to add a user whose email address is the same as the account. You must first [change the account email address](/articles/changing-email/#changing-the-account-email) (we recommend a generic email address such as `admin@` or `billing@`) before adding a user with the same email address.
+> It's not possible to add a user whose email address is the same as the account notification email. You must first [change the notification email](/articles/changing-email/#setting-or-changing-the-notification-email) (we recommend a generic address such as `admin@` or `billing@`) before adding a user with the same email address.
 
 ## Removing members from an account
 

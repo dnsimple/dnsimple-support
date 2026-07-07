@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. Read more about [the benefits of using Google Single Sign-On (SSO)](https://blog.dnsimple.com/2022/06/google-identity-provider/).
+Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. For how [single sign-on (SSO)](/articles/what-is-sso-at-dnsimple/) works at DNSimple, see our SSO article. Read more about [the benefits of using Google Single Sign-On (SSO)](https://blog.dnsimple.com/2022/06/google-identity-provider/).
 
 ## Registering a new DNSimple account via Google
 

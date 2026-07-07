@@ -1,6 +1,6 @@
 ---
 title: What is SSO at DNSimple
-excerpt: How single sign-on works at DNSimple, which plans support it, and how identity providers connect to your account.
+excerpt: What single sign-on is at DNSimple, which plans support it, and how identity providers connect to your account.
 meta: SSO at DNSimple lets Enterprise teams sign in through an identity provider such as Entra, Google Workspace, or Okta. Learn what SSO is and which providers DNSimple supports.
 categories:
 - Account
@@ -29,19 +29,13 @@ SSO does not replace DNSimple account structure. Users still work inside **accou
 
 ## Identity providers {#identity-providers}
 
-An **identity provider** (IdP) is the system your organization uses to manage users and sign-in (for example Microsoft Entra, Google Workspace, or Okta).
+An **identity provider** (IdP) is the system your organization uses to manage users and sign-in (for example Microsoft Entra, Google Workspace, or Okta). DNSimple supports connecting an IdP to an Enterprise account.
 
-DNSimple supports connecting an identity provider to an Enterprise account. Setup steps depend on which provider you use.
-
-## Supported providers {#supported-providers}
-
-DNSimple provides How-to guides for these identity providers:
+To configure a provider, follow the How-to guide for your IdP:
 
 - [Entra as an Identity Provider](/articles/entra-identity-provider/)
 - [Google as an Identity Provider](/articles/google-identity-provider/)
 - [Okta as an Identity Provider](/articles/okta-identity-provider/)
-
-Each guide walks through linking your provider to a DNSimple account and configuring sign-in for your team.
 
 ## SSO and account security {#sso-and-security}
 

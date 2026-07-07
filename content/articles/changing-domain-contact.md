@@ -15,7 +15,7 @@ categories:
 
 ---
 
-For domains registered with DNSimple, [Domain Managers](https://support.dnsimple.com/articles/domain-access-control/#domain-manager) and anyone with [Full Access](https://support.dnsimple.com/articles/domain-access-control/#full-access) can change the contact associated with a domain at any time.
+For domains registered with DNSimple, [Domain Managers](/articles/what-is-domain-access-control/#domain-manager) and anyone with [Full Access](/articles/what-is-domain-access-control/#full-access) can change the contact associated with a domain at any time.
 
 Domains that use [domain trustee](/articles/what-is-domain-trustee/) may show only the extended attributes that still apply for that trustee configuration when you update contacts.
 

@@ -20,7 +20,7 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/hpBNoXc2reU?si=w1lXWdaW7pktB0Eb" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Using Entra as an identity provider for single sign-on streamlines the login experience for you and your team and helps you manage risk at scale.
+Using Entra as an identity provider for [single sign-on (SSO)](/articles/what-is-sso-at-dnsimple/) streamlines the login experience for you and your team and helps you manage risk at scale.
 
 > [!NOTE]
 > Entra as an Identity Provider is only available on Enterprise plans. See our [pricing page](https://dnsimple.com/pricing) for more details.
@@ -83,7 +83,7 @@ If the Entra app is no longer linked (e.g. the access token is revoked), you can
 
 ### Access control
 
-You can set the level of DNSimple access for each member under the **Members and seats** tab in your DNSimple Account settings. For full details, visit [Domain Access Control](/articles/domain-access-control/).
+You can set the level of DNSimple access for each member under the **Members and seats** tab in your DNSimple Account settings. For what each access level means, see [What is Domain Access Control?](/articles/what-is-domain-access-control/). To configure access, see [Domain Access Control](/articles/domain-access-control/).
 
 ## Linking a DNSimple user to an Entra identity
 

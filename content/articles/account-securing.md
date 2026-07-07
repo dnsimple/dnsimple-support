@@ -29,7 +29,7 @@ If you've noticed fraudulent activity, or suspect someone has taken over your ac
 
 ## Account sharing
 - Don't share your account login with others.
-- If you're on the Teams or Enterprise plan, you can [add seats to your account](/articles/managing-seats/), and use [Domain Access Control](https://support.dnsimple.com/articles/domain-access-control/) to allow other users to access your domains with fine-tuned permissions.
+- If you're on the Teams or Enterprise plan, you can [add seats to your account](/articles/managing-seats/), and use [Domain Access Control](/articles/what-is-domain-access-control/) to limit what each member can change. To configure access, see [Domain Access Control](/articles/domain-access-control/).
 - Only add authorized contacts to your account.
 
 ## Authentication

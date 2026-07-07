@@ -23,7 +23,7 @@ This article serves as a reference for the prerequisites, supported features, an
 - CoreDNS binary compiled with the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) plugin
   - [DNSimple CoreDNS Binary](https://github.com/dnsimple/coredns-dnsimple/releases)
   - [DNSimple CoreDNS Docker Container](https://hub.docker.com/r/dnsimple/coredns/tags)
-- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
+- [Full access](/articles/what-is-domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features {#supported-features}
 
