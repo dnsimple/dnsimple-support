@@ -60,7 +60,7 @@ DNS-based validation (known as the **DNS-01 challenge** in the [ACME protocol](h
 
 This method is well-suited to automation because the DNS record can be created and removed programmatically. It is the method used by [Let's Encrypt](/articles/letsencrypt/).
 
-When you order a Let's Encrypt certificate through DNSimple, the DNS records are created and verified automatically — no manual action is required, provided the domain [resolves with DNSimple's name servers](/articles/letsencrypt/#integration).
+When you order a Let's Encrypt certificate through DNSimple, the DNS records are created and verified automatically — no manual action is required, provided the domain [resolves with DNSimple's name servers](/articles/letsencrypt/#dnsimple-integration).
 
 ### HTTP-based validation {#http}
 

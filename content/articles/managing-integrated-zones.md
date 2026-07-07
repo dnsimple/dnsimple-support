@@ -27,7 +27,7 @@ From the **Domain Names** page, you can see both your DNSimple zones and zones f
 
 ## Refreshing and importing integrated zones {#refreshing-and-importing-integrated-zones}
 
-Loading the Domain Names page automatically [refreshes](/articles/record-editor-integrated-zones/#importing-integrated-zone-records) the current state of integrated zones and their records from connected Integrated DNS Providers that support zone imports. The zones and zone records will be refreshed in the background upon page load, and the Domain Names page will automatically update to reflect them once ready.
+Loading the Domain Names page automatically [refreshes](/articles/import-integrated-zone-records/) the current state of integrated zones and their records from connected Integrated DNS Providers that support zone imports. The zones and zone records will be refreshed in the background upon page load, and the Domain Names page will automatically update to reflect them once ready.
 
 You can also manage the selection of [zones to import](/articles/integrated-dns-provider-zones/) by going to your **Account settings → Integrated Providers** page and updating the selection of zones.
 

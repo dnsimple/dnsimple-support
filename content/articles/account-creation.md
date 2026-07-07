@@ -40,7 +40,7 @@ Until your email address is verified, some sensitive actions will be unavailable
 
 ## Adding additional accounts
 
-DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating).
+DNSimple allows users to manage multiple accounts. If you've already signed up for DNSimple and want to add another account to your user profile, [follow these steps](/articles/account-multi/#creating-a-separate-account).
 
 ## Signing up via Google
 

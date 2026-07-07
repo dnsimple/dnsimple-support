@@ -43,7 +43,7 @@ You can also create a new contact at any time through the **Contacts** page.
 
 If a contact is associated with multiple domains, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
 
-To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
+To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) with a new one.
 
 > [!NOTE]
 > When you update a domain contact:

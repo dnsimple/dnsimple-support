@@ -55,7 +55,7 @@ Before a CA will issue a certificate, it must confirm that the requester control
 The validation method depends on the certificate type:
 
 - **Sectigo certificates** use [email-based validation](/articles/ssl-certificates-email-validation/). The CA sends a verification email to an administrative address at the domain (e.g., `admin@example.com`), and the domain owner must click a link in that email to approve the certificate.
-- **Let's Encrypt certificates** use DNS-based validation. DNSimple automatically creates the required DNS records and submits the challenge to Let's Encrypt — no manual action is needed, provided the domain [resolves with DNSimple](/articles/letsencrypt/#integration).
+- **Let's Encrypt certificates** use DNS-based validation. DNSimple automatically creates the required DNS records and submits the challenge to Let's Encrypt — no manual action is needed, provided the domain [resolves with DNSimple](/articles/letsencrypt/#dnsimple-integration).
 
 > [!WARNING]
 > Validation must be completed for every new certificate, including renewals. If you don't complete validation, the certificate will not be issued.

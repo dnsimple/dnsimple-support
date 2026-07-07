@@ -29,7 +29,7 @@ Your domain needs to be registered for it to be accessible via DNS. You can regi
 
 When you are not using a zone, you may decide to deactivate it to avoid being billed. When you resume using it, re-activating it can easily be overlooked.
 
-Your domain's DNS zone needs to be active for the domain to resolve and for your changes to take effect. You can activate the DNS zone for your domain by clicking **Activate zone** in the notification. Refer to our [guide](/articles/dns-hosting/#activating-a-dns-zone) on activating a DNS zone for more information.
+Your domain's DNS zone needs to be active for the domain to resolve and for your changes to take effect. You can activate the DNS zone for your domain by clicking **Activate zone** in the notification. Refer to our [guide](/articles/activate-deactivate-dns-zone/#activating-a-dns-zone) on activating a DNS zone for more information.
 
 ## Domain is delegated elsewhere {#domain-is-delegated-elsewhere}
 
