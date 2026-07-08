@@ -196,6 +196,16 @@
 /articles/reissuing-ssl-certificate/                                      /articles/reissue-ssl-certificate/
 /articles/announcement-ns2-ns4-ip-addresses                               /articles/announcement-ns1-ns3-ip-addresses/
 /articles/announcement-ns2-ns4-ip-addresses/                              /articles/announcement-ns1-ns3-ip-addresses/
+/articles/integrated-domain-provider-godaddy                              /articles/domain-transfer/
+/articles/integrated-domain-provider-godaddy/                             /articles/domain-transfer/
+/articles/integrated-domain-provider-transfer-domain                      /articles/domain-transfer/
+/articles/integrated-domain-provider-transfer-domain/                     /articles/domain-transfer/
+/articles/integrated-domain-providers                                     /articles/domains-and-transfers/
+/articles/integrated-domain-providers/                                    /articles/domains-and-transfers/
+/articles/linking-unlinking-integrated-domain-providers                   /articles/domains-and-transfers/
+/articles/linking-unlinking-integrated-domain-providers/                  /articles/domains-and-transfers/
+/articles/managing-integrated-domains                                     /articles/domains-and-transfers/
+/articles/managing-integrated-domains/                                    /articles/domains-and-transfers/
 /dnsimple.com/contact                                                     https://dnsimple.com/contact
 /articles/:slug                                                           /articles/:slug/    301
 /categories/:slug                                                         /categories/:slug/  301
