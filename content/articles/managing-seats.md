@@ -20,7 +20,7 @@ categories:
 
 The Teams plan includes one seat at no additional cost, allowing you to have one member actively involved in domain management. Any seats beyond the initial one will incur extra costs. Enterprise plans have custom pricing and seat numbers. [See our pricing page for more details](https://dnsimple.com/pricing).
 
-A DNSimple account can be associated with one or more users. When you add someone to an account as a member, you will have the option to set their level of access to **full access** (access to all resources inside an account) or **limited access** (specific to each domain). The members will retain their unique login credentials and multi-factor authentication configuration.
+A DNSimple account can have one or more [members](/articles/users-accounts-and-members-at-dnsimple/#members). When you add a member, you can set their [level of access](/articles/what-is-domain-access-control/). For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/).
 
 ## Increasing the number of seats
 

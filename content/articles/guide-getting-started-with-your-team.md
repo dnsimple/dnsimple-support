@@ -28,7 +28,7 @@ To enforce MFA for your team, follow [these steps](https://support.dnsimple.com/
 
 If you're a new member in an existing team account, and you don't have full access, an administrator may need to set up access to one or more domains in the account. Contact your administrator to ensure you have access to the correct domains.
 
-If you're an administrator for an account, our Domain Access Control [support article](https://support.dnsimple.com/articles/domain-access-control/) provides a video guide along with steps for how to set up user access and permissions.
+If you're an administrator for an account, see [What is Domain Access Control?](/articles/what-is-domain-access-control/) for an overview of access levels, then follow [Domain Access Control](/articles/domain-access-control/) for a video walk-through and configuration steps.
 
 ## 3. Learn more about managing zones, registering domains, and other DNSimple features
 

@@ -30,7 +30,7 @@ To connect [Amazon Route 53](https://aws.amazon.com/route53/) as an Integrated D
   - route53:ChangeResourceRecordSets
   - route53:GetHostedZone
   - route53:DeleteHostedZone
-- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
+- [Full access](/articles/what-is-domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features {#supported-features}
 

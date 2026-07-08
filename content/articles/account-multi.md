@@ -22,7 +22,7 @@ This happens in two cases:
 - The user is [added as a member to an existing account](/articles/managing-seats/).
 - The user creates another account under their existing user profile.
 
-Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. If you are an agency or freelancer giving each client their own DNSimple account, see [Creating Accounts for Clients](/articles/setting-up-accounts-for-clients/). If you want to invite another user to manage domains on your account, [read this article](/articles/managing-seats/), and learn how to set access levels with [Domain Access Controls](/articles/domain-access-control/).
+Managing multiple accounts is a flexible way to access different levels of service and share domain management with other users. For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/). If you are an agency or freelancer giving each client their own DNSimple account, see [Creating Accounts for Clients](/articles/setting-up-accounts-for-clients/). If you want to invite another user to manage domains on your account, see [Managing Seats](/articles/managing-seats/) and [Domain Access Control](/articles/domain-access-control/).
 
 ## Creating a separate account
 

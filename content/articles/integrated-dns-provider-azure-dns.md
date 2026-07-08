@@ -27,7 +27,7 @@ To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [In
 - [Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group) name
 - Client ID, i.e. the ID of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - [Client Secret](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app/#add-a-client-secret) of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
-- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
+- [Full access](/articles/what-is-domain-access-control/#full-access) to a DNSimple account
 
 ![Connecting Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
 

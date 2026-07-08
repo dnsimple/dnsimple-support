@@ -16,7 +16,7 @@ categories:
 
 ## Why domain contacts are important
 
-For domains registered with DNSimple, [Domain Managers](/articles/domain-access-control/#domain-manager) and anyone with [Full Access](/articles/domain-access-control/#full-access) can manage contacts associated with domains.
+For domains registered with DNSimple, [Domain Managers](/articles/what-is-domain-access-control/#domain-manager) and anyone with [Full Access](/articles/what-is-domain-access-control/#full-access) can manage contacts associated with domains.
 
 Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
 
