@@ -39,7 +39,7 @@ To configure a provider, follow the How-to guide for your IdP:
 
 ## SSO and account security {#sso-and-security}
 
-SSO is one layer of account security. DNSimple still recommends [multi-factor authentication](/articles/multi-factor-authentication/) where it applies to your sign-in flow, and [Domain Access Control](/articles/what-is-domain-access-control/) to limit what each member can change after they sign in.
+SSO is one layer of account security. We recommend enforcing [multi-factor authentication](/articles/multi-factor-authentication/) through your identity provider when SSO is used, and using [Domain Access Control](/articles/what-is-domain-access-control/) to limit what each member can change after they sign in.
 
 For general security practices, see [Account Security](/articles/account-securing/).
 
