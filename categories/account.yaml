@@ -1,42 +1,47 @@
-Billing and subscriptions:
-- "Billing Settings"
-- "Changing Payment Details"
-- "Changing Subscription Plan"
-- "Understanding Your Account Balance and Billing Details"
-- "Subscription Renewals"
-- "Reactivate Your Subscription"
-- "Understanding Your DNSimple Invoice"
-- "Account Invoice History"
-- "Unsubscribe From Your DNSimple Plan"
-- "What Happens If You Stop Paying for DNSimple"
-- "Digital Wallet Replenishment"
-- "Discount Codes"
+Explanation:
+  Billing and subscriptions:
+    - "Understanding Your Account Balance and Billing Details"
+    - "Understanding Your DNSimple Invoice"
+    - "Subscription Renewals"
+    - "What Happens If You Stop Paying for DNSimple"
+    - "Discount Codes"
+  Account and security concepts:
+    - "Account Security"
+    - "Activity Tracking"
 
-Managing your account:
-- "Account Activation"
-- "Account Creation"
-- "Changing Email"
-- "Changing Account Information"
-- "Activity Tracking"
-- "Suspended Account"
-- "Multiple Accounts Per User"
-- "Deleting Yourself as a User"
-- "Transfer Account Ownership"
-- "Multi-Account Management for Enterprise Clients"
+How-to:
+  Account setup:
+    - "Account Creation"
+    - "Account Activation"
+    - "Changing Email"
+    - "Changing Account Information"
+    - "Transfer Account Ownership"
+    - "Deleting Yourself as a User"
+    - "Multiple Accounts Per User"
+  Billing and subscriptions:
+    - "Billing Settings"
+    - "Changing Payment Details"
+    - "Changing Subscription Plan"
+    - "Reactivate Your Subscription"
+    - "Unsubscribe From Your DNSimple Plan"
+    - "Digital Wallet Replenishment"
+  Team and access:
+    - "Managing Seats"
+    - "Managing Multiple Members on One Account"
+    - "Domain Access Control"
+    - "Creating Accounts for Clients"
+    - "Multi-Account Management for Enterprise Clients"
+  Identity providers:
+    - "Entra as an Identity Provider"
+    - "Google as an Identity Provider"
+    - "Okta as an Identity Provider"
+  Security:
+    - "Multi-Factor Authentication"
+    - "Enforce Account-Wide Multi-Factor Authentication"
+    - "Forgot Password"
+  Troubleshooting:
+    - "Suspended Account"
 
-Account members:
-- "Domain Access Control"
-- "Managing Seats"
-- "Managing Multiple Members on One Account"
-- "Creating Accounts for Clients"
-
-Identity providers:
-- "Entra as an Identity Provider"
-- "Google as an Identity Provider"
-- "Okta as an Identity Provider"
-
-Security:
-- "Account Security"
-- "Multi-Factor Authentication"
-- "Enforce Account-Wide Multi-Factor Authentication"
-- "Forgot Password"
+Reference:
+  Billing:
+    - "Account Invoice History"
