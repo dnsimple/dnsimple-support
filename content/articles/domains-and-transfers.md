@@ -41,11 +41,9 @@ What happens when a domain expires and how validation works:
 
 ### Domain Features & Services
 
-Premium domains, integrated providers, and other features:
+Premium domains and other features:
 
 - [Premium Domains](/articles/premium-domains/) - In the new gTLDs domain space, a premium domain is considered of special value by a registrar.
-- [Integrated Domain Providers at DNSimple](/articles/integrated-domain-providers/) - Link an Integrated Domain Provider to your DNSimple account to manage domains at other domain providers, from within DNSimple.
-- [Integrated Domain Provider - GoDaddy](/articles/integrated-domain-provider-godaddy/) - Link your GoDaddy account to manage domains at DNSimple.
 - [Domain Masking](/articles/domain-masking/) - Information on Domain Masking and URL Masking.
 - [Activity Tracking](/articles/activity-tracking/) - How to review the list of events for an account or domain using our audit log feature.
 - [Domain Access Control](/articles/domain-access-control/) - Control what each account member can access on a per-domain or per-zone basis.
@@ -95,7 +93,6 @@ Registry and ICANN requirements:
 - [Transfer a Domain to DNSimple](/articles/domain-transfer/) - How to transfer your registered domain to DNSimple.
 - [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/) - How to request a transfer code and transfer a domain from DNSimple to a different registrar.
 - [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/) - How to move a domain from one DNSimple account to another.
-- [Transfer an Integrated Provider Domain to DNSimple](/articles/integrated-domain-provider-transfer-domain/) - How to transfer your integrated provider domain to DNSimple.
 - [Prepare a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/) - Steps to avoid downtime when transferring a domain.
 - [Domain Transfer Pricing](/articles/domain-transfer-pricing/) - Domain transfer price varies depending on the TLD you want to transfer, and generally it includes 1 year of extension.
 
@@ -104,9 +101,7 @@ Registry and ICANN requirements:
 - [Organize and Label Domains](/articles/labeling-domains/) - How to add, filter, edit, and remove labels on domains in your DNSimple account.
 - [Export Domain Names to a .CSV File](/articles/export-domain-names-to-file/) - How to export domain names from your DNSimple account to a .CSV or .ZIP file.
 - [Verify Domain Resolution](/articles/verifying-domain-resolution/) - How to verify that your domain is resolving correctly using dig, nslookup, and online tools.
-- [Manage Integrated Domains](/articles/managing-integrated-domains/) - How to view and manage domains registered at other providers from your DNSimple account.
 - [Change WHOIS Information](/articles/changing-whois-contact/) - How to update WHOIS contact details.
-- [Link and Unlink Integrated Domain Providers](/articles/linking-unlinking-integrated-domain-providers/) - Step-by-step guide to link or unlink integrated domain providers to your DNSimple account.
 - [Resend Domain Validation Email](/articles/resending-domain-validation-email/) - How to resend domain validation emails to verify your registrant contact information.
 - [Add a Subdomain](/articles/adding-subdomain/) - How to add subdomains in DNSimple.
 - [Manage Vanity Name Servers](/articles/vanity-nameservers/) - How to enable and disable vanity name servers in DNSimple.

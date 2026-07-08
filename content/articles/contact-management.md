@@ -37,7 +37,7 @@ You can also create a new contact at any time through the **Contacts** page.
 ![creating a new contact](/files/change-contact-1.png)
 
 > [!NOTE]
-> If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification.
+> If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification. For details, see [NIS2 Contact Email Verification](/articles/nis2-contact-verification/).
 
 ## Updating contacts
 
