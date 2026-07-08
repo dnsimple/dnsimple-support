@@ -3,7 +3,6 @@ title: Integrated Domain Provider - GoDaddy
 excerpt: Link your GoDaddy account to manage domains at DNSimple.
 meta: Easily link your GoDaddy account with DNSimple to streamline domain management, ensuring seamless updates and enhanced control over your online presence.
 categories:
-- Domains and Transfers
 - Integrations
 ---
 
@@ -15,6 +14,9 @@ categories:
 {:toc}
 
 ---
+
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New GoDaddy integrations can no longer be created.
 
 DNSimple supports the ability to manage domains that are registered through [GoDaddy](https://www.godaddy.com). You can [manage](/articles/managing-integrated-domains/) your GoDaddy domains at DNSimple by [linking](/articles/integrated-domain-providers/#linking-integrated-domain-provider) your GoDaddy account as an [Integrated Domain Provider](/articles/integrated-domain-providers/) to DNSimple.
 
