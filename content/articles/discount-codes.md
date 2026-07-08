@@ -10,6 +10,13 @@ categories:
 
 DNSimple occasionally offers promotional discount codes that provide a percentage off your first domain registration purchase.
 
+### Table of Contents {#toc}
+
+* TOC
+{:toc}
+
+---
+
 ## How discount codes work {#how-it-works}
 
 If you received a promotional signup link or discount code, enter it during account signup or on the payment page. When you register an eligible domain, the discount is applied to that line item on your invoice before payment is collected.
@@ -25,6 +32,8 @@ If you received a promotional signup link or discount code, enter it during acco
 ## How discounts appear on your invoice {#invoice}
 
 When a discount code is applied, your [invoice](/articles/understanding-invoice/) shows the discount as a line item reduction on the domain registration charge. The discount column displays the amount saved, and the total reflects the reduced price.
+
+For other charge types on your bill, see [Understanding Your DNSimple Invoice](/articles/understanding-invoice/#charge-types).
 
 ## Have more questions?
 
