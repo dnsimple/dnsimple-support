@@ -1,43 +1,62 @@
 ---
 title: Forgot Password
-excerpt: Forgot your password? Use this guide to reset your password so you can log in.
-meta: Reset your DNSimple password with a secure email link. Includes troubleshooting steps for missing reset emails and alternative sign-in methods.
+excerpt: How to reset your DNSimple password when you cannot sign in.
+meta: Reset your DNSimple password using the forgot password flow. Troubleshoot missing reset emails and sign in with SSO when applicable.
 categories:
 - Account
 ---
 
 # Forgot Password
 
-## Get a reset password link via email
+### Table of Contents {#toc}
 
-If you've forgotten your password, you'll need a password reset link to regain access to your account.
+* TOC
+{:toc}
 
-Go to the login screen, and click **Forgot Password**.
-![screenshot of forgot password link](/files/forgot-password-link.png)
+---
 
-On the next screen, enter the email address you used to sign up.
+Reset your password when you cannot sign in with your current credentials. Use the email address tied to your DNSimple **user email**.
 
-![Enter Your Email](/files/reset-password-email.png)
+## Get a password reset link {#get-a-password-reset-link}
 
-## Password reset link email
+<div class="section-steps" markdown="1">
+##### To request a password reset link
 
-If a user with that email address exists, an email from support@dnsimple.com with a password reset link will be sent to that address.
+1. Go to the [login page](https://dnsimple.com/login), and click <label>Forgot Password</label>.
 
-If you have not received an email with a password reset link, make sure to check your Spam folder. If you have received the email, but the link isn't working, please [contact support](https://dnsimple.com/feedback).
+    ![screenshot of forgot password link](/files/forgot-password-link.png)
 
-## Enter a new password
+1. Enter the user email address you use to sign in to DNSimple.
 
-On the password reset page, enter a new password. The new password will be recorded, and you'll be logged in.
+    ![Enter Your Email](/files/reset-password-email.png)
 
-## Troubleshooting
+</div>
 
-If you requested a password reset but have not received the email, follow these steps:
+## Password reset email {#password-reset-email}
 
-- **Verify your email**: Double-check that you entered the correct email address associated with your DNSimple account.
-- **Alternative sign-in methods**: If your account is set up with Google, Okta, or Microsoft Entra single sign-on, use the corresponding method to log in instead of requesting a password reset.
-- **Check your Spam folder**: Check if the password reset email was filtered into the Spam or Junk folder.
-- **Account status**: If your domain or account is inactive, you might not receive reset emails. In this case, [reach out to our support team](https://dnsimple.com/feedback) for assistance.
+If a user with that email address exists, DNSimple sends a password reset email from `support@dnsimple.com`.
+
+If you do not receive the email, check your spam folder. If you received the email but the link does not work, [contact support](https://dnsimple.com/feedback).
+
+## Enter a new password {#enter-a-new-password}
+
+<div class="section-steps" markdown="1">
+##### To set a new password
+
+1. Open the password reset link from the email.
+1. Enter a new password and confirm it. DNSimple saves the new password and signs you in.
+
+</div>
+
+## Troubleshooting {#troubleshooting}
+
+If you requested a password reset but did not receive the email:
+
+- **Verify your email:** Confirm you entered the correct user email for your DNSimple account.
+- **Alternative sign-in methods:** If you use [Google](/articles/google-identity-provider/), [Okta](/articles/okta-identity-provider/), or [Microsoft Entra](/articles/entra-identity-provider/) SSO, sign in with that provider instead of resetting your password.
+- **Check your spam folder:** The reset email may have been filtered.
+- **Account status:** If your account is inactive or suspended, you may not receive reset emails. [Contact support](https://dnsimple.com/feedback) for help.
 
 ## Have more questions?
 
-If you have additional questions or need assistance resetting your password, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about resetting your password, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
