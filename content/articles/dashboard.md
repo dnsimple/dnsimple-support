@@ -61,7 +61,7 @@ The **Latest activity** section provides a view of activity across all accounts 
 
 Similar to the activity view, the information displayed highlights the *Type, Event, Text, User, Date, and Account*. Each is linked to the individual event listed, so you can see information specific to an account without scrolling back up to the account card.
 
-To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#activity-tracking-at-the-account-level). From the individual account and domain activity views, you can filter based on events to easily find what you need.
+To learn more about the highlighted categories and how the information is organized, read [this guide](/articles/activity-tracking/#account-activity-tracking). From the individual account and domain activity views, you can filter based on events to easily find what you need.
 
 ## Have more questions?
 

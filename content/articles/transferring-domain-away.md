@@ -35,7 +35,7 @@ The _transfer code_ (also called _authorization code_, _auth code_, or _auth inf
 
 Some TLDs have different transfer procedures:
 
-- [.UK TLDs](/articles/domains-uk/#transfer-away)
+- [.UK TLDs](/articles/domains-uk/#transferring-outgoing)
 
 
 ## 1. Unlocking the domain and requesting a transfer code {#unlock-and-transfer-code}
