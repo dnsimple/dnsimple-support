@@ -25,7 +25,7 @@ To check the existing public WHOIS record for a domain you can use our [WHOIS to
 
 ## Changing or updating WHOIS information {#changing-or-updating-whois-information}
 
-To update the WHOIS information associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#changing-an-existing-contact-information), or [replace the contact](/articles/changing-domain-contact/#replacing-a-domain-contact) if you want to completely replace the contact details.
+To update the WHOIS information associated with a domain name in DNSimple, simply follow the procedure to [update an existing contact information](/articles/changing-domain-contact/#updating-a-domain-contact), or [replace the contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) if you want to completely replace the contact details.
 
 > [!WARNING]
 > Changing or updating WHOIS information may result in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
