@@ -1,7 +1,7 @@
 ---
 title: Managing Multiple Members on One Account
-excerpt: How to manage the members on a multi-user DNSimple account.
-meta: Learn how to effectively manage users on your multi-user DNSimple account, ensuring seamless collaboration and streamlined access to your DNS management.
+excerpt: How to invite and remove members on a multi-user DNSimple account.
+meta: Invite and remove members on Teams and Enterprise accounts. Set access levels and manage collaboration on a shared DNSimple account.
 categories:
 - Account
 ---
@@ -15,55 +15,63 @@ categories:
 
 ---
 
+Invite and remove members on accounts with multiple users. Each member signs in with their own user email and credentials.
+
 > [!NOTE]
-> To add multiple users as members on one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
+> To add multiple members to one account, you must [be subscribed to an eligible plan](https://dnsimple.com/pricing).
 
-When you add someone to an account, they become a [member](/articles/users-accounts-and-members-at-dnsimple/#members) with their own user login and multi-factor authentication settings. You can set their [level of access](/articles/what-is-domain-access-control/) when you invite them. For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/). If you are onboarding a new team, follow the [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/) for a concise checklist.
+When you add someone to an account, they become a [member](/articles/users-accounts-and-members-at-dnsimple/#members) with their own user login and multi-factor authentication settings. You can set their [level of access](/articles/what-is-domain-access-control/) when you invite them. For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/). If you are onboarding a new team, follow the [First Steps Guide to Setting Up Your Team](/articles/guide-getting-started-with-your-team/).
 
-
-## Adding members to an account
+## Adding members to an account {#adding-members-to-an-account}
 
 <div class="section-steps" markdown="1">
-1. Once you've subscribed to an eligible plan, click the gear icon ⚙️ next to the account name to open **account settings**.
+##### To add a member to an account
+
+1. Click the gear icon next to the account name in the account switcher to open <label>account settings</label>.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
-1. From the main account settings screen, select the <label>Members</label> tab.
+1. Select the <label>Members and seats</label> tab.
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Invite</label> link. If your account needs to allocate more seats before inviting a new member, the link will display "Add seats to invite new members". You'll be taken to add seats to the account before you can send the invitation.
+1. Click <label>Invite</label>. If your account needs more seats first, the link shows <label>Add seats to invite new members</label>. Allocate seats before sending the invitation.
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. It doesn't matter if they have an account with DNSimple or not. They'll receive an email inviting them to join as a member of the account. If you're subscribed to an [eligible plan](/articles/what-is-domain-access-control/), you can select the member's fine-grained permissions.
+1. Enter the email address of the user you want to invite. They can already have a DNSimple user or create one when they accept. On eligible plans, you can set [Domain Access Control](/articles/what-is-domain-access-control/) permissions when you invite them.
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. The invitation will appear in the pending invitation section until the user accepts it. If there's something wrong with the invite, you can resend it or remove it. Removing it will cancel the invitation immediately. They'll no longer be able to accept it.
+1. The invitation appears in the pending invitation section until the user accepts it. You can resend or remove a pending invitation. Removing it cancels the invitation immediately.
 
 </div>
 
 > [!NOTE]
-> It's not possible to add a user whose email address is the same as the account notification email. You must first [change the notification email](/articles/changing-email/#setting-or-changing-the-notification-email) (we recommend a generic address such as `admin@` or `billing@`) before adding a user with the same email address.
+> You cannot add a user whose email address matches the account notification email. First [change the notification email](/articles/changing-email/#setting-or-changing-the-notification-email) (we recommend a generic address such as `admin@` or `billing@`), then add the user.
 
-## Removing members from an account
+## Removing members from an account {#removing-members-from-an-account}
 
 <div class="section-steps" markdown="1">
-1. If you want to remove a member from your account, click the gear icon ⚙️ next to the relevant account to open **account settings**.
+##### To remove a member from an account
+
+1. Click the gear icon next to the relevant account to open <label>account settings</label>.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
-1. From the main account settings screen, select the <label>Members</label> tab.
+1. Select the <label>Members and seats</label> tab.
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click the <label>Remove</label> button for the member you want to remove from the account, and confirm that you want to remove them.
-
-1. Once you've removed them from the account, that user will no longer show up on the members tab, and you have an available seat for a new member. [Discover more about managing your seats](/articles/managing-seats/).
+1. Click <label>Remove</label> for the member you want to remove, and confirm the removal.
+1. After you remove them, that user no longer appears on the members tab, and you have an available seat for a new member. See [Managing Seats](/articles/managing-seats/) for seat management.
 
 </div>
 
-## Managing member access
+## Managing member access {#managing-member-access}
 
-To share specific domains with each member, have a look at our [Domain Access Control](/articles/domain-access-control/) feature.
+To limit which domains each member can manage, use [Domain Access Control](/articles/domain-access-control/). For what each access level means, see [What is Domain Access Control?](/articles/what-is-domain-access-control/).
+
+## Have more questions?
+
+If you have questions about managing members on your account, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

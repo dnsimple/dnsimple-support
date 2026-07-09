@@ -1,7 +1,7 @@
 ---
 title: Creating Accounts for Clients
-excerpt: How to create and manage multiple accounts for clients.
-meta: Learn how to efficiently set up and manage multiple client accounts in DNSimple, ensuring seamless organization and streamlined operations for your projects.
+excerpt: How to create and manage separate DNSimple accounts for clients.
+meta: Set up separate DNSimple accounts for agency and freelancer clients. Keep client domains isolated with one account per customer.
 categories:
 - Account
 ---
@@ -15,38 +15,40 @@ categories:
 
 ---
 
+Create a separate DNSimple account for each client when you manage domains on their behalf. This keeps domains, billing, and access isolated per customer.
+
 > [!NOTE]
-> This article describes a feature only available on the Teams plan and higher. [See the differences between plans](/articles/dnsimple-plans/).
+> This workflow is available on Teams plans and higher. [See the differences between plans](/articles/dnsimple-plans/).
 
-Creating a separate account is a flexible and secure way for agencies and freelancers to share domain management with their clients.
+When you add a client as a member to an account, they have full access to every resource on that account, including domains, contacts, and SSL certificates. They can also change billing information and account details.
 
-When you add your client as a user to an account, they will have full access rights on every resource attached to the account – including domains, contacts, SSL certificates, etc.
-
-The client will also have full admin access to the account – including the ability to access and change billing information and account details. They will retain their login credentials and multi-factor authentication configuration.
-
-[Enterprise plan](https://dnsimple.com/enterprises) customers can take advantage of [multi-account management](/articles/account-multi-enterprise/). This allows you to manage multiple, separate DNSimple accounts under a single contract.
+[Enterprise plan](https://dnsimple.com/enterprises) customers can use [multi-account management](/articles/account-multi-enterprise/) to manage multiple separate DNSimple accounts under one contract.
 
 > [!WARNING]
-> Each customer must have a separate account. If you add more than one customer to the same account, each customer will be able to manage other customers' domains.
+> Each customer must have a separate account. If you add more than one customer to the same account, each customer can manage other customers' domains.
 
+## Creating a separate account for your client {#creating-a-separate-account-for-your-client}
 
-## Creating a separate account for your client
+<div class="section-steps" markdown="1">
+##### To create a client account under your user profile
 
-You can add another account to your user profile by following [these steps](/articles/account-multi/#creating-a-separate-account).
+Follow [Multiple Accounts Per User](/articles/account-multi/#creating-a-separate-account) to add another account to your user profile.
 
-## Inviting your client to DNSimple
+</div>
 
-Verify your client has __registered__ with DNSimple.
+## Inviting your client to DNSimple {#inviting-your-client-to-dnsimple}
 
-On [the signup page](https://dnsimple.com/signup), your client can register using their email address, or via [Google as an identity provider](/articles/google-identity-provider/).
+Your client must register with DNSimple before you add them to the new account.
+
+On [the signup page](https://dnsimple.com/signup), your client can register with their user email or via [Google as an identity provider](/articles/google-identity-provider/).
 
 > [!NOTE]
-> Your client does **not** need to have an active subscription with a credit card on file. They only need to be signed up for the service.
+> Your client does not need an active subscription or a card on file. They only need a DNSimple user.
 
-## Adding clients to the new account
+## Adding clients to the new account {#adding-clients-to-the-new-account}
 
-Once you've subscribed the new account to an eligible plan, [add your client to the new account](/articles/managing-seats/).
+After you subscribe the new account to an eligible plan, [add your client to the account](/articles/managing-seats/#inviting-new-members).
 
 ## Have more questions?
 
-If you have additional questions or need any assistance creating accounts for your clients, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about creating accounts for clients, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
