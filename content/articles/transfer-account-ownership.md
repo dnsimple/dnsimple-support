@@ -22,7 +22,7 @@ Transfer account ownership when a different person should own and manage the acc
 The new owner must have (or create) their own DNSimple user. Account ownership is tied to the user email on the account owner.
 
 > [!WARNING]
-> Transferring ownership gives the new owner full control of the account, including domains, billing, and settings. Make sure you trust the recipient and have exported any information you need to keep.
+> Transferring ownership gives the new owner full control of the account, including domains, billing, and settings. Make sure you trust the recipient and have exported any information you need to keep. If they need to update the card on file, follow the steps in [Changing Payment Details](/articles/changing-payment-details/).
 
 ## Transfer ownership {#transfer-ownership}
 
