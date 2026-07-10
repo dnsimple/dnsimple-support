@@ -19,7 +19,7 @@ Customize the billing details that appear on your DNSimple invoices and, on elig
 
 Custom billing email is only available on Teams plans or higher. [See the differences between plans](/articles/dnsimple-plans/).
 
-On Solo plans, invoices go to account administrators. On Teams plans and higher, you can set a separate billing email for invoices. This is different from the [notification email](/articles/changing-email/#setting-or-changing-the-notification-email) used for other account messages.
+On Solo plans, invoices go to the account administrator. On Teams plans and higher, you can set a separate billing email for invoices. This is different from the [notification email](/articles/changing-email/#setting-or-changing-the-notification-email) used for other account messages.
 
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
