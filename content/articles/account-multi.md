@@ -37,7 +37,7 @@ Managing multiple accounts is a flexible way to access different levels of servi
 
     ![Add New Account link](/files/add-new-account-link.png)
 
-1. Alternatively, yo can also click <label>+Add new account</label> from your dashboard to open the new account creation form.
+1. Alternatively, click <label>+Add new account</label> from your dashboard to open the new account creation form.
 1. Fill in the form with the details for your new account, then click <label>Create account</label>.
 
     ![screenshot of new account form](/files/new-account.png)
@@ -52,7 +52,7 @@ Managing multiple accounts is a flexible way to access different levels of servi
 
 <div class="section-steps" markdown="1">
 ##### To switch between accounts
-    
+
 1. Click the account switcher at the top-right corner of the screen.
 1. Select the account you want to view.
 1. The dashboard will update to show the domains and settings associated with that account.
