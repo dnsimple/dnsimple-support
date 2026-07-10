@@ -50,7 +50,7 @@ Your user email is tied to your personal DNSimple login. Changing it does not ch
 
 ## Setting or changing the notification email {#setting-or-changing-the-notification-email}
 
-The notification email is where DNSimple sends account messages for a specific account. It does not change your user email or where you sign in.
+The notification email is where DNSimple sends account messages for a specific account. It does not change your user email.
 
 <div class="section-steps" markdown="1">
 ##### To set or change the notification email
