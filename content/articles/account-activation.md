@@ -17,7 +17,7 @@ categories:
 
 Activate your DNSimple account to register or transfer domain names and provide DNS resolution through DNSimple.
 
-Activation is easy, and all new [Teams](/articles/dnsimple-plans/#teams) and [Solo](/articles/dnsimple-plans/#solo) subscriptions include a free 30-day trial. You can cancel at any time during your 30-day trial without being charged. During the course of your trial, you can [change plans](/articles/changing-plans/) to try different features.
+Activation is easy, and [Teams](/articles/dnsimple-plans/#teams) and [Solo](/articles/dnsimple-plans/#solo) subscriptions include a free 30-day trial. You can cancel at any time during your 30-day trial without being charged. During the course of your trial, you can [change plans](/articles/changing-plans/) to try different features.
 
 > [!NOTE]
 > The 30-day free trial does not apply to accounts that were previously subscribed to DNSimple. If you are resubscribing, your credit card will be billed immediately.
@@ -31,14 +31,14 @@ If you have not created your account yet, follow [Account Creation](/articles/ac
 <div class="section-steps" markdown="1">
 ##### To activate your account
 
-1. After creating your account, log in, and click <label>Select a plan</label> on your dashboard.
+1. After creating your account, log in, and click <label>Choose a plan</label> on your dashboard.
 1. Choose the plan that fits your needs, and click <label>Get started</label>.
 1. Enter your payment information, and click <label>Start my free trial</label> to activate your account. The card on file will not be charged until your free trial has ended.
 1. After confirming your payment information, you will see a <label>Get started</label> screen. Choose one of the provided options, or click <label>Skip to dashboard</label>.
 
 </div>
 
-Your account is now active. Once you add domains and activate the zones, they will start responding to DNS queries immediately. Any domains registered elsewhere can be updated to use DNSimple name servers.
+Your account is now active. You can add domains, activate zones, and start managing DNS in DNSimple. For domains registered elsewhere, update the domain's name servers at the current registrar to make DNSimple authoritative for DNS resolution.
 
 For more details on getting started with your new DNSimple account, read [Getting to Know Your DNSimple Dashboard](/articles/dashboard/) and [Getting to Know Your Domain List](/articles/domain-list/).
 
