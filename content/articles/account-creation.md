@@ -15,17 +15,15 @@ categories:
 
 ---
 
-Sign up for DNSimple to create a user and your first account. You can explore the app before you choose a plan and activate your subscription.
-
-## Creating a new account {#creating-a-new-account}
-
-You can sign up and explore how to manage domains in DNSimple without activating your account. Once you click <label>Join DNSimple</label>, your account will be created.
+Follow these steps to create a DNSimple account. You can create an account and explore the dashboard before choosing a plan and activating your subscription.
 
 > [!NOTE]
 > You will need to [choose a plan](https://dnsimple.com/pricing) and provide payment details to activate your account, register domains, and add records.
 
+## Creating a new account {#creating-a-new-account}
+
 <div class="section-steps" markdown="1">
-##### To sign up for DNSimple
+##### To sign up
 
 1. Go to [DNSimple](https://dnsimple.com/), and click <label>Get Started</label> or <label>Try free for 30 days</label>. Both links take you to the signup page.
 1. Fill in your details, and select <label>Join DNSimple</label>. Your account has now been created. You can log in and explore the app before choosing a plan.
