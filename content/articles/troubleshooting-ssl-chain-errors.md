@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting SSL Certificate Chain Errors
 excerpt: Your SSL certificate shows "not trusted" errors even though it is valid. Learn how to fix certificate chain issues.
-meta: Fix SSL certificate chain errors causing browser trust warnings. Learn to install missing intermediate certificates, correct chain order, and verify with SSL Labs or OpenSSL.
+meta: Fix SSL certificate chain errors and browser trust warnings. Install missing intermediate certificates, correct chain order, and verify with SSL Labs.
 categories:
 - SSL Certificates
 ---
