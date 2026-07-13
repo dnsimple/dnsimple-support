@@ -45,7 +45,7 @@ For what happens when payment stops, see [What Happens If You Stop Paying for DN
     ![screenshot selecting a plan](/files/select-a-plan.png)
 
 1. Choose the plan that fits your needs, and click <label>Get started</label>.
-1. Enter your payment information and click <label>Create Subscription</label>.
+1. Enter your payment information and click <label>Create new subscription</label>.
 
 </div>
 
@@ -62,7 +62,7 @@ For what happens when payment stops, see [What Happens If You Stop Paying for DN
     ![screenshot no plan selected](/files/no-plan-selected.png)
 
 1. Choose the plan that fits your needs, and click <label>Get started</label>.
-1. Enter your payment information and click <label>Create Subscription</label>.
+1. Enter your payment information and click <label>Create new subscription</label>.
 
 </div>
 
@@ -75,7 +75,7 @@ For what happens when payment stops, see [What Happens If You Stop Paying for DN
 1. Go to your [dashboard](https://dnsimple.com/dashboard).
 1. If your account still has domains stored in it, click <label>Choose plan</label> in the alert banner at the top of the screen.
 1. Choose the plan that fits your needs, and click <label>Get started</label>.
-1. Enter your payment information and click <label>Create Subscription</label>.
+1. Enter your payment information and click <label>Create new subscription</label>.
 
 </div>
 
