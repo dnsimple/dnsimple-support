@@ -20,7 +20,7 @@ Change your DNSimple subscription when you need features from a different plan. 
 For how proration appears on invoices, see [Understanding Your DNSimple Invoice](/articles/understanding-invoice/#proration).
 
 > [!NOTE]
-> DNSimple does not offer refunds for plan changes. If you upgrade, you receive a proration credit for unused time on your previous plan. If you downgrade, the new plan is billed at the end of your current billing cycle.
+> We do not offer refunds for plan changes. If you upgrade your plan, you will receive a proration credit for the time remaining on your previous plan. If you downgrade, we wait until the end of the billing cycle, then charge you for the new subscription.
 
 ## Upgrading your plan {#upgrading-your-plan}
 
@@ -30,11 +30,11 @@ You receive a prorated discount for unused time on your current subscription pla
 
 ## Downgrading your plan {#downgrading-your-plan}
 
-If you **downgrade**, the changes are billed at the end of your current billing cycle along with your subscription renewal. All changes take effect at renewal.
+If you **downgrade**, your current plan will remain active until the end of the billing cycle. The new plan will take effect and be billed at your next renewal.
 
-There is no proration credit for downgrades. DNSimple waits until the end of the billing cycle, then changes your plan.
+Because the downgrade does not take effect immediately, there is no proration credit.
 
-You can cancel a pending downgrade in account settings:
+You can cancel a pending downgrade from the <label>Billing and plans</label> tab in your account settings:
 
 ![Cancel plan change](/files/account-billing-cancel-plan-change.png)
 
