@@ -28,16 +28,16 @@ Apart from the subscription fee, the following take effect immediately:
 - Any account credit or promotions applied to your account are lost.
 
 > [!NOTE]
-> This is not account deletion. If you do not delete your domains, they and their records remain in your account if you choose to [reactivate your subscription](/articles/reactivate-subscription/). To permanently delete yourself as a DNSimple user, see [Deleting Yourself as a User](/articles/close-account/).
+> This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate your subscription](/articles/reactivate-subscription/). To permanently delete yourself as a DNSimple user, see [Deleting Yourself as a User](/articles/close-account/).
 
 ## Unsubscribe from your plan {#unsubscribe-from-your-plan}
 
 <div class="section-steps" markdown="1">
 ##### To unsubscribe from your DNSimple plan
 
-1. Choose the relevant account from the account switcher, then click the gear icon next to the account name to open <label>account settings</label>.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open <label>account settings</label>.
 1. On the left side of the screen, select the <label>Billing and plans</label> tab.
-1. Scroll to the <label>Unsubscribe</label> section at the end of the page.
+1. Scroll down to the bottom of the page to find the <label>Unsubscribe</label> section.
 
     ![Unsubscribe section](/files/account-unsubscribe.png)
 
