@@ -20,7 +20,7 @@ Change your DNSimple subscription when you need features from a different plan. 
 For how proration appears on invoices, see [Understanding Your DNSimple Invoice](/articles/understanding-invoice/#proration).
 
 > [!NOTE]
-> We do not offer refunds for plan changes. If you upgrade your plan, you will receive a proration credit for the time remaining on your previous plan. If you downgrade, we wait until the end of the billing cycle, then charge you for the new subscription.
+> DNSimple does not offer refunds for plan changes. If you upgrade your plan, you will receive a proration credit for the time remaining on your previous plan. If you downgrade, the new plan takes effect and is billed at your next renewal.
 
 ## Upgrading your plan {#upgrading-your-plan}
 
