@@ -36,7 +36,7 @@ jobs:
         run: bundle exec rake compile
 
       - name: Check links
-        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           # Offline check of the compiled output: validate every internal link
           # against the generated files (no network, no external-host flakiness).
