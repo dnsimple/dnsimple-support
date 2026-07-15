@@ -27,6 +27,7 @@ import Search from './search.js';
 import "./variables.scss";
 import "./reset.scss";
 import "./style.scss";
+import "./animate.scss";
 
 const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
 const RECENTLY_VISITED_LIMIT = 6;
