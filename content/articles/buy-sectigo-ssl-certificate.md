@@ -29,7 +29,7 @@ To order an SSL certificate you need a DNSimple account.
 
 You can order an SSL certificate for a domain, even if the domain is hosted elsewhere or registered with another registrar. **You are not required to transfer or host a domain with us to purchase a Sectigo SSL certificate**.
 
-Please ensure you comply with all the [technical requirements](/articles/getting-started-ssl-certificates/#requirements) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) page before ordering the certificate.
+Please ensure you comply with all the [technical requirements](/articles/getting-started-ssl-certificates/#before-you-order) in our [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) page before ordering the certificate.
 
 For more details about the configuration, approval, and installation of the certificate, read the [Getting Started with SSL Certificates](/articles/getting-started-ssl-certificates/) article, or follow the instructions on the site after you purchase the SSL certificate order.
 

@@ -34,7 +34,7 @@ In this case, the simplest solution is to use our [redirector service](/articles
 <div class="section-steps" markdown="1">
 ##### To handle the redirect using the redirector {#redirect-nohttps-redirector}
 
-1.  Go to the record editor and [add a URL record](/articles/url-record/#create).
+1.  Go to the record editor and [add a URL record](/articles/url-record/#managing-url-records).
 
     - Add the redirect subdomain in the _Name_ field.
     - Add the URL of the target domain in the _URL_ field.
