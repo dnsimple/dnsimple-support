@@ -27,7 +27,7 @@ When you add someone to an account, they become a [member](/articles/users-accou
 <div class="section-steps" markdown="1">
 ##### To add a member to an account
 
-1. Click the gear icon next to the account name in the account switcher to open <label>account settings</label>.
+1. Click the gear icon ⚙️ next to the account name in the account switcher to open <label>account settings</label>.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
@@ -35,11 +35,11 @@ When you add someone to an account, they become a [member](/articles/users-accou
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click <label>Invite</label>. If your account needs more seats first, the link shows <label>Add seats to invite new members</label>. Allocate seats before sending the invitation.
+1. Click <label>Invite</label>. If there are no available seats on the account, the link will display <label>Add seats to invite new members</label>. You will need to add another seat before you can send the invitation.
 
     ![Add a new member](/files/add-member-link-members-screen.png)
 
-1. Enter the email address of the user you want to invite. They can already have a DNSimple user or create one when they accept. On eligible plans, you can set [Domain Access Control](/articles/what-is-domain-access-control/) permissions when you invite them.
+1. 1. Enter the email address of the person you want to invite. They can already have a DNSimple user, or create one when they accept. Choose their access level when you send the invitation. See [What is Domain Access Control?](/articles/what-is-domain-access-control/).
 
     ![Add a new member form](/files/add-member-screen.png)
 
@@ -55,7 +55,7 @@ When you add someone to an account, they become a [member](/articles/users-accou
 <div class="section-steps" markdown="1">
 ##### To remove a member from an account
 
-1. Click the gear icon next to the relevant account to open <label>account settings</label>.
+1.  Click the gear icon ⚙️ next to the account name in the account switcher to open <label>account settings</label>.
 
     ![Visit settings for selected account](/files/multiple-accounts-nav.png)
 
@@ -67,6 +67,9 @@ When you add someone to an account, they become a [member](/articles/users-accou
 1. After you remove them, that user no longer appears on the members tab, and you have an available seat for a new member. See [Managing Seats](/articles/managing-seats/) for seat management.
 
 </div>
+
+> [!NOTE]
+> Members cannot remove themselves from an account. An account administrator must remove them.
 
 ## Managing member access {#managing-member-access}
 
