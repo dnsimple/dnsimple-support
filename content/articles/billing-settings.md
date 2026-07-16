@@ -1,7 +1,7 @@
 ---
 title: Billing Settings
-excerpt: What you need to know about the billing information displayed on every invoice.
-meta: Customize billing information on invoices, including company name, tax ID, and address. Teams plans and higher can set a separate billing email.
+excerpt: How to customize billing information and billing email on DNSimple invoices.
+meta: Customize billing information on invoices, including company name, tax ID, and address. Teams plans and higher can set a separate billing email for invoices.
 categories:
 - Account
 ---
@@ -15,16 +15,18 @@ categories:
 
 ---
 
-Custom billing email is only available on Teams plans or higher. [See the differences between plans](/articles/dnsimple-plans/).
+Use Billing Settings to customize the billing details shown on your DNSimple invoices. You can add company information, a tax ID, and a billing address for future invoices.
 
-Invoices will be sent to the email address that corresponds to the DNSimple account. If you have more than one account, all invoices will be sent to the same email address.
+On [Teams plans and higher](/articles/dnsimple-plans/), you can also set a separate billing email for invoices. This is different from the [notification email](/articles/changing-email/#setting-or-changing-the-notification-email), which is used for other account messages.
+
+> [!NOTE]
+> On Solo plans, invoices are sent to the account notification email, or to account administrators if none is set. A separate billing email is only available on Teams plans and higher.
 
 ![Example Invoice Without Billing Information](/files/account-billing-settings-invoice-1.png)
 
+## Customizing billing information {#customizing-billing-information}
 
-## Customizing billing information
-
-You can replace the following billing details with custom information on all invoices:
+You can add or update the following billing details for future invoices:
 
 - Company
 - Tax ID
@@ -33,49 +35,53 @@ You can replace the following billing details with custom information on all inv
 ![Example Invoice With Billing Information](/files/account-billing-settings-invoice-2.png)
 
 > [!NOTE]
-> The account owner can modify this information any time, as often as needed. The new billing information will only be used for future invoices.
+> The account owner can modify this information at any time. Changes to billing information only apply to future invoices. They do not update invoices that have already been issued.
 
-If you need to change the billing information for an existing invoice, please [contact support](https://dnsimple.com/contact).
-
-### Changing your billing settings
+If you need to change the billing information for an existing invoice, [contact support](https://dnsimple.com/contact).
 
 <div class="section-steps" markdown="1">
 ##### To update your billing settings
 
-1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
-1.  Scroll down to the invoices section. Click **Edit** at the bottom right of the section.
+1. Choose the relevant account from the account switcher.
+1. Click the gear icon next to the account name to open <label>account settings</label>.
+1. Click the <label>Billing and plans</label> tab.
+1. Scroll to the <label>Invoices</label> section, then click <label>Edit</label>.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
-1.  You'll see your current billing information (it will be empty if this is the first time you're editing it). Click **Edit**.
-1.  Fill in the form, and click **Save** when you're finished.
+1. You will see your current billing information (it will be empty if this is the first time you are editing it).
+1. Fill in the form, and click <label>Save</label> when you are finished.
 
     ![Change payment details](/files/account-billing-settings-update.png)
-</div>
 
+</div>
 
 All future invoices will display the information you provided.
 
 > [!NOTE]
-> If you're on a solo plan, you cannot change the billing email address. If you've set up a separate billing contact, they do not have authorized access to the account, and information cannot be shared with them if they contact us. All future invoices will display the information you provided.
+> On Solo plans, you cannot set a separate billing email address. Invoice emails are delivered to the account [notification email](/articles/changing-email/#setting-or-changing-the-notification-email), or to account administrators if none is set.
+>
+> On Teams plans and higher, the [billing email](/articles/billing-settings/#changing-the-billing-email) only controls where invoice emails are delivered. It does not give the recipient authorized access to the account, and DNSimple cannot share account information with them unless they are also added as an [account member](/articles/account-users/) with the [appropriate access](/articles/what-is-domain-access-control/).
 
-## Changing the billing email
+## Changing the billing email {#changing-the-billing-email}
 
-If you're on a Teams plan or higher, we can deliver your invoices to a different email address from the one you use to manage your domains. This is not available on Solo plans.
+If you are on a Teams plan or higher, DNSimple can deliver invoices to a different email address from your user email. This is not available on Solo plans.
 
 > [!NOTE]
 > Only account administrators can change the billing email address.
 
 <div class="section-steps" markdown="1">
-
 ##### To change your billing email
 
-1.  [Locate the account](https://dnsimple.com/user) on your dashboard. Click on the account to enter the account page.
-1.  Scroll down to the invoices section. Click **Edit**.
+1. Choose the relevant account from the account switcher.
+1. Click the gear icon next to the account name to open <label>account settings</label>.
+1. Click the <label>Billing and plans</label> tab.
+1. Scroll to the <label>Invoices</label> section, then click <label>Edit</label>.
 
     ![Change billing settings](/files/account-billing-settings-link.png)
 
-1.  Update the email, and click **Save** when you are finished.
+1. Enter the billing email address you want to use for invoices.
+1. Update the email, and click <label>Save</label> when you are finished.
 
     ![Change billing email](/files/account-edit-billing-email-update.png)
 
@@ -83,4 +89,4 @@ If you're on a Teams plan or higher, we can deliver your invoices to a different
 
 ## Have more questions?
 
-If you have any questions about your billing settings, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about your billing settings, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

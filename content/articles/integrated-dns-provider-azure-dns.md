@@ -27,7 +27,7 @@ To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [In
 - [Resource Group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group) name
 - Client ID, i.e. the ID of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
 - [Client Secret](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app/#add-a-client-secret) of your Azure [app registration](https://learn.microsoft.com/en-us/security/zero-trust/develop/app-registration)
-- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
+- [Full access](/articles/what-is-domain-access-control/#full-access) to a DNSimple account
 
 ![Connecting Azure DNS as an Integrated DNS Provider](/files/integrated-dns-provider-azure.png)
 
@@ -36,10 +36,10 @@ To connect [Azure DNS](https://azure.microsoft.com/en-us/products/dns) as an [In
 > [!WARNING]
 > Azure record set [tags](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#tags) and [metadata](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records#metadata) will not be retained and will be <strong>lost</strong> when using this integration.
 
-- **Import integrated zones**: When you connect Azure DNS to your DNSimple account, you can [select](/articles/integrated-dns-providers/#managing-integrated-zone-selection) the zones hosted on Azure that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
+- **Import integrated zones**: When you connect Azure DNS to your DNSimple account, you can [select](/articles/import-integrated-zone-records/) the zones hosted on Azure that are to be imported into DNSimple and listed on the [Domain Names](/articles/managing-integrated-zones/) page.
 - **Adding and removing integrated zones**: [Add](/articles/integrated-dns-provider-zones/#adding-a-zone-to-an-integrated-dns-provider/) or [delete](/articles/integrated-dns-provider-zones/#deleting-a-zone-from-an-integrated-dns-provider/) zones to/from Azure, from within DNSimple. You can also [remove](/articles/integrated-dns-provider-zones/#removing-integrated-zones-from-dnsimple/) an integrated zone from DNSimple while keeping it at Azure.
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/). (See: [Supported record types for Azure DNS](/articles/integrated-dns-provider-azure-dns/#supported-record-types))
-- **Two-way record syncing**: Sync your zone records from Azure to DNSimple, or from DNSimple to Azure, with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
+- **Two-way record syncing**: Sync your zone records from Azure to DNSimple, or from DNSimple to Azure, with the [Record Editor](/articles/sync-integrated-zone-records/#syncing-zone-records).
 
 ## Supported record types {#supported-record-types}
 

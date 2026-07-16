@@ -23,12 +23,12 @@ This article serves as a reference for the prerequisites, supported features, an
 - CoreDNS binary compiled with the [coredns-dnsimple](https://github.com/dnsimple/coredns-dnsimple) plugin
   - [DNSimple CoreDNS Binary](https://github.com/dnsimple/coredns-dnsimple/releases)
   - [DNSimple CoreDNS Docker Container](https://hub.docker.com/r/dnsimple/coredns/tags)
-- [Full access](/articles/domain-access-control/#full-access) to a DNSimple account
+- [Full access](/articles/what-is-domain-access-control/#full-access) to a DNSimple account
 
 ## Supported features {#supported-features}
 
 - **Management of integrated zone records**: List, create, update, and delete integrated zone records from DNSimple using the [Record Editor](/articles/record-editor-integrated-zones/).
-- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Record Editor](/articles/record-editor-integrated-zones/#record-syncing).
+- **Sync integrated zone records**: Sync your zone records from DNSimple to multiple CoreDNS instances, and verify the sync state with the [Record Editor](/articles/sync-integrated-zone-records/#syncing-zone-records).
 
 The CoreDNS Integrated Provider supports one-way syncing of zone records configured at DNSimple. All records configured for the zone at DNSimple will be synced to CoreDNS on startup and again during each refresh interval. Zone records for any other Integrated DNS Provider must first be synced to DNSimple before they will be available to CoreDNS instances.
 

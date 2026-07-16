@@ -16,7 +16,7 @@ categories:
 
 ## Why domain contacts are important
 
-For domains registered with DNSimple, [Domain Managers](/articles/domain-access-control/#domain-manager) and anyone with [Full Access](/articles/domain-access-control/#full-access) can manage contacts associated with domains.
+For domains registered with DNSimple, [Domain Managers](/articles/what-is-domain-access-control/#domain-manager) and anyone with [Full Access](/articles/what-is-domain-access-control/#full-access) can manage contacts associated with domains.
 
 Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
 
@@ -37,13 +37,13 @@ You can also create a new contact at any time through the **Contacts** page.
 ![creating a new contact](/files/change-contact-1.png)
 
 > [!NOTE]
-> If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification.
+> If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification. For details, see [NIS2 Contact Email Verification](/articles/nis2-contact-verification/).
 
 ## Updating contacts
 
 If a contact is associated with multiple domains, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
 
-To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#replacing-a-domain-contact) with a new one.
+To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) with a new one.
 
 > [!NOTE]
 > When you update a domain contact:

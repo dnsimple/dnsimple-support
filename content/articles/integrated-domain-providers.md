@@ -16,6 +16,9 @@ categories:
 
 ---
 
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New GoDaddy integrations can no longer be created.
+
 DNSimple supports the ability to manage domains that are registered with other domain providers external to DNSimple. DNSimple calls such providers "Integrated Domain Providers".
 
 ## Why integrated domain providers exist {#why-integrated-domain-providers-exist}
@@ -32,14 +35,6 @@ Integrated Domain Providers allow you to manage domains registered elsewhere thr
 ## Limitations of integrated domains {#limitations-of-integrated-domains}
 
 While integrated domains can be managed through DNSimple, they remain registered with the original provider. This means billing for registration, renewal, and certain domain services is handled by the original provider, not DNSimple. Some operations may require you to access the original provider's interface, and the availability of features may vary depending on what the integrated provider's API supports. DNSimple can only manage what the integrated provider's API allows, so some advanced features available for domains registered directly with DNSimple may not be available for integrated domains.
-
-## Supported Integrated Domain Providers {#supported-integrated-domain-providers}
-
-To manage integrated domains from DNSimple, you first have to link an Integrated Domain Provider to your DNSimple account.
-
-DNSimple supports domain integration with the providers listed below.
-
-- [GoDaddy](/articles/integrated-domain-provider-godaddy/)
 
 ## Linking an Integrated Domain Provider to your account {#linking-integrated-domain-provider}
 

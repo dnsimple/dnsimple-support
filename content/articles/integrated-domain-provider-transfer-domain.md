@@ -1,9 +1,7 @@
 ---
 title: Transfer an Integrated Provider Domain to DNSimple
 excerpt: How to transfer your integrated provider domain to DNSimple.
-meta: How to transfer a domain from an integrated provider (GoDaddy, Namecheap, PorkBun) to DNSimple as a fully registered domain.
-categories:
-- Domains and Transfers
+meta: How to transfer a domain from an integrated provider to DNSimple as a fully registered domain.
 ---
 
 # Transfer an Integrated Provider Domain to DNSimple
@@ -14,6 +12,9 @@ categories:
 {:toc}
 
 ---
+
+> [!WARNING]
+> The GoDaddy Integrated Domain Provider is being deprecated. New GoDaddy integrations can no longer be created.
 
 Transferring a domain name to DNSimple is the process of moving your [domain registration](https://dnsimple.com/tlds) to DNSimple. DNSimple will act as a domain registrar, and you will be able to manage your entire domain configuration in your DNSimple account.
 
