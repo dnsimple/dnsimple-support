@@ -19,20 +19,20 @@ categories:
 Enterprise customers can manage multiple separate DNSimple accounts under a single contract.
 
 > [!NOTE]
-> This feature is available to [Enterprise](https://dnsimple.com/enterprises) customers. To explore Enterprise options, [contact our sales team](https://dnsimple.com/sales).
+> This feature is exclusively available to our [Enterprise](https://dnsimple.com/enterprises) customers. If you're interested in exploring our Enterprise options and the benefits of multi-account management, please [contact our sales team](https://dnsimple.com/sales).
 
 This setup provides:
 
 - Enhanced control for businesses with multiple entities that need independent domain and DNS management
 - Improved account security through account separation
-- Simplified billing across business units
+- Simplified billing across your various business units
 - A centralized view of associated accounts for administrators with access to all accounts in the contract
 
 ## Managing accounts within your contract {#managing-accounts-within-your-contract}
 
 The <label>Contract</label> card, which lists associated accounts, is visible only to users with administrator privileges on all accounts in the Enterprise contract.
 
-To add or remove accounts from your Enterprise contract, contact your DNSimple account manager.
+To add or remove accounts from your Enterprise contract, please contact your DNSimple account manager.
 
 ![screenshot of multi account contact card](/files/multi-account-contact.png)
 
