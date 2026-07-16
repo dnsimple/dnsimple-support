@@ -154,6 +154,8 @@ Place in `/files/` and use descriptive alt text:
 
 Articles should be optimized for both traditional search engines and AI answer engines (ChatGPT, Perplexity, Google AI Overviews). These two goals mostly reinforce each other.
 
+Google's guidance is that generative AI features run on its core Search ranking systems, so "you don't need to write in a specific way just for generative AI search." Read the rest of this section as writing advice that happens to serve both audiences, not as writing for the machine. Anything below that would make an article worse for a human reader is being applied wrong. See `.cursor/rules/ai-content-policy.mdc` for the tactics Google says are unnecessary, and for the rules on publishing AI-drafted articles.
+
 ### Opening paragraph as extractable answer
 
 The first 1–3 sentences after the H1 should directly answer the core question the article addresses. AI engines use this as their primary citation source. Keep it under 80 words.
@@ -169,7 +171,7 @@ Each H2 section should be self-contained enough that an AI engine could extract 
 
 ### Specific claims over vague statements
 
-AI engines prefer content with concrete, citable facts. Include specifics wherever possible.
+Concrete, citable facts make an article more useful to a reader and more quotable by an answer engine. Include specifics wherever possible, and verify them before publishing.
 
 - Good: "Sectigo certificates are valid for a maximum of 200 days."
 - Bad: "Sectigo certificates have a limited validity period."

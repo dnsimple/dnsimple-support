@@ -14,6 +14,7 @@ Most AI-assisted work on this project is writing and editing support articles. T
 
 - **`.cursor/rules/article-writing.mdc`** — Voice, tone, anti-patterns, cross-linking, review checklist
 - **`.cursor/rules/article-structure.mdc`** — Frontmatter, page skeleton, callouts, links, SEO/GEO, Diataxis types
+- **`.cursor/rules/ai-content-policy.mdc`** — Publishing rules for AI-drafted articles, and the AI-optimization tactics Google says are unnecessary
 - **`.cursor/rules/git-workflow.mdc`** — Interactive checkpoints (branch, commit, PR), filename/character rules, PR hygiene
 
 Follow these rules when working on any file in `content/articles/`. They cover everything from sentence-level writing style to when you must stop and ask the user before proceeding.
@@ -22,7 +23,8 @@ Follow these rules when working on any file in `content/articles/`. They cover e
 
 - All articles follow **APA Style** and the **Diataxis framework**
 - Cross-link related articles automatically — both from the new article and back from existing articles
-- Optimize for both SEO and GEO (AI answer engines)
+- Optimize for both SEO and GEO (AI answer engines), but never in ways that make the article worse for a human reader
+- AI may draft; AI output is never published as-is. Verify every product claim before opening a PR
 - See [CONTRIBUTING.md](CONTRIBUTING.md) for the full content writing guidelines, PR review process, and category management
 
 ## Project Overview
