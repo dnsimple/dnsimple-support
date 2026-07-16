@@ -1,7 +1,7 @@
 ---
 title: Managing Seats
 excerpt: How to add, remove, and manage seats and members on a DNSimple account.
-meta: Manage seats and invite members on Teams and Enterprise plans. Add or remove seats, invite members, and link to Domain Access Control for permissions.
+meta: Manage seats on Teams and Enterprise plans. Add or remove seats, invite members to your DNSimple account, and set each member's level of access.
 categories:
 - Account
 ---
@@ -24,7 +24,7 @@ The Teams plan includes one seat at no additional cost, allowing you to have one
 
 A DNSimple account can have one or more [members](/articles/users-accounts-and-members-at-dnsimple/#members). When you add a member, you can set their [level of access](/articles/what-is-domain-access-control/). For how users, accounts, and members relate, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/).
 
-## Increasing the number of seats {#increasing-the-number-of-seats}
+## Increasing the number of seats {#increasing-seats}
 
 <div class="section-steps" markdown="1">
 ##### To increase the number of seats
@@ -42,7 +42,7 @@ A DNSimple account can have one or more [members](/articles/users-accounts-and-m
 
 </div>
 
-## Decreasing the number of seats {#decreasing-the-number-of-seats}
+## Decreasing the number of seats {#decreasing-seats}
 
 <div class="section-steps" markdown="1">
 ##### To decrease the number of seats

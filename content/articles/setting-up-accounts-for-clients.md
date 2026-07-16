@@ -27,16 +27,11 @@ When you add a client as a member to an account, they have full access to every 
 > [!WARNING]
 > Each customer must have a separate account. If you add more than one customer to the same account, each customer can manage other customers' domains.
 
-## Creating a separate account for your client {#creating-a-separate-account-for-your-client}
-
-<div class="section-steps" markdown="1">
-##### To create a client account under your user profile
+## Creating a separate account for your client {#creating-client-account}
 
 Follow [Multiple Accounts Per User](/articles/account-multi/#creating-a-separate-account) to add another account to your user profile.
 
-</div>
-
-## Inviting your client to DNSimple {#inviting-your-client-to-dnsimple}
+## Inviting your client to DNSimple {#inviting-client}
 
 Your client must register with DNSimple before you add them to the new account.
 
@@ -45,7 +40,7 @@ On [the signup page](https://dnsimple.com/signup), your client can register with
 > [!NOTE]
 > Your client does not need an active subscription or a card on file. They only need a DNSimple user.
 
-## Adding clients to the new account {#adding-clients-to-the-new-account}
+## Adding clients to the new account {#adding-clients}
 
 After you subscribe the new account to an eligible plan, [add your client to the account](/articles/managing-seats/#inviting-new-members).
 

@@ -37,7 +37,7 @@ To proceed with configuring login with SSO through Okta, you must:
   <iframe loading="lazy" src="https://www.youtube.com/embed/XNJP2gwIIh4?rel=0&modestbranding=1&cc_load_policy=1&cc_lang_pref=en" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Linking an Okta organization to a DNSimple account {#linking-an-okta-organization-to-a-dnsimple-account}
+## Linking an Okta organization to a DNSimple account {#linking-okta-organization}
 
 You can also follow the instructions in [Okta's documentation ](https://help.okta.com/oie/en-us/content/topics/apps/apps-add-applications.htm) to connect DNSimple to your Okta organization.
 
@@ -83,7 +83,7 @@ To give people access to DNSimple, click **Assignments** under the configured DN
 
 If an assigned user does not already have a matching DNSimple user with the same email address, a DNSimple user will be provisioned for them, and the DNSimple account admin will receive a notification that they have been added.
 
-If an assigned user already exists, they will need to [link their DNSimple user to their Okta identity](#linking-a-dnsimple-user-to-an-okta-identity) on the User Settings page within DNSimple before they can log in to DNSimple with their Okta identity.
+If an assigned user already exists, they will need to [link their DNSimple user to their Okta identity](#linking-okta-user) on the User Settings page within DNSimple before they can log in to DNSimple with their Okta identity.
 
 The team members can now easily log in with their Okta identity. When you delete or suspend a team member from your company's Okta organization admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
 
@@ -91,7 +91,7 @@ The team members can now easily log in with their Okta identity. When you delete
 
 You can set the level of DNSimple access for each member under the **Members and seats** tab in your DNSimple Account settings. For what each access level means, see [What is Domain Access Control?](/articles/what-is-domain-access-control/). To configure access, see [Domain Access Control](/articles/domain-access-control/).
 
-## Linking a DNSimple user to an Okta identity {#linking-a-dnsimple-user-to-an-okta-identity}
+## Linking a DNSimple user to an Okta identity {#linking-okta-user}
 
 When a DNSimple user exists in a DNSimple account _before_ SSO is enabled, they will be required to link their Okta identity to verify ownership of both DNSimple and Okta user accounts. This is done in your DNSimple user settings.
 
@@ -104,7 +104,7 @@ To link a DNSimple user to an Okta identity:
 
 ## Logging in via Okta {#logging-in-via-okta}
 
-You'll need to [link an Okta organization to your DNSimple account](#linking-an-okta-organization-to-a-dnsimple-account) before your team members can log in via Okta SSO.
+You'll need to [link an Okta organization to your DNSimple account](#linking-okta-organization) before your team members can log in via Okta SSO.
 
 1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
 1. Click **Sign in using Okta**.

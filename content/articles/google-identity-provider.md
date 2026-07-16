@@ -17,17 +17,17 @@ categories:
 
 Use Google as an identity provider to streamline login for you and your team. For how [single sign-on (SSO)](/articles/what-is-sso-at-dnsimple/) works at DNSimple, see [What is SSO at DNSimple](/articles/what-is-sso-at-dnsimple/). Read more about [the benefits of using Google SSO](https://blog.dnsimple.com/2022/06/google-identity-provider/).
 
-## Registering a new DNSimple account via Google {#registering-a-new-dnsimple-account-via-google}
+## Registering a new DNSimple account via Google {#registering-via-google}
 
 [Signing up](https://dnsimple.com/signup) for a DNSimple account using Google as your identity provider is straightforward.
 
 1. Click **Sign up using Google**.
 1. Select your Google account.
-1. You will be returned to DNSimple logged in to your new DNSimple account. DNSimple uses your Gmail address as your user email and sets it as the notification email for the new account unless you change it later.
+1. You will be returned to DNSimple logged in to your new DNSimple account. DNSimple uses your Gmail address as your user email.
 
 ![Signing up to DNSimple via Google](/files/google-sso-social-signup.png)
 
-## Linking a Google account to your DNSimple user {#linking-a-google-account-to-your-dnsimple-user}
+## Linking a Google account to your DNSimple user {#linking-google-user}
 
 ![Link a Google identity](/files/google-link-identity.png)
 
@@ -40,7 +40,7 @@ Use Google as an identity provider to streamline login for you and your team. Fo
 1. You can now log in to DNSimple using the linked Google identity.
 </div>
 
-## Linking a Google Workspace to a DNSimple account {#linking-a-google-workspace-to-a-dnsimple-account}
+## Linking a Google Workspace to a DNSimple account {#linking-google-workspace}
 
 ![screenshot: add identity provider](/files/add-identity-provider.png)
 
@@ -56,15 +56,15 @@ Use Google as an identity provider to streamline login for you and your team. Fo
 
 If the Google Workspace is no longer linked (e.g. the access token is revoked), you can re-link the Workspace using the **Re-connect** button.
 
-## Logging in to DNSimple via Google {#logging-in-to-dnsimple-via-google}
+## Logging in to DNSimple via Google {#logging-in-via-google}
 
 ### Personal {#logging-in-personal-google}
 
-If you did not sign up for DNSimple using Google, and you are using your personal Gmail account, you need to [link a Google account to your DNSimple user](#linking-a-google-account-to-your-dnsimple-user) before you can log in via Google.
+If you did not sign up for DNSimple using Google, and you are using your personal Gmail account, you need to [link a Google account to your DNSimple user](#linking-google-user) before you can log in via Google.
 
 ### Workspace {#logging-in-workspace-google}
 
-You'll need to [link a Google Workspace to your DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account) before your team members can log in via Google SSO.
+You'll need to [link a Google Workspace to your DNSimple account](#linking-google-workspace) before your team members can log in via Google SSO.
 
 Once a Google Workspace is linked to a DNSimple account, any member of the Google Workspace can request access to the DNSimple account by attempting to log in via Google using the respective Workspace.
 

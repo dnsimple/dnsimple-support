@@ -28,7 +28,7 @@ This setup provides:
 - Simplified billing across your various business units
 - A centralized view of associated accounts for administrators with access to all accounts in the contract
 
-## Managing accounts within your contract {#managing-accounts-within-your-contract}
+## Managing accounts within your contract {#managing-accounts}
 
 The <label>Contract</label> card, which lists associated accounts, is visible only to users with administrator privileges on all accounts in the Enterprise contract.
 
@@ -36,7 +36,7 @@ To add or remove accounts from your Enterprise contract, please contact your DNS
 
 ![screenshot of multi account contact card](/files/multi-account-contact.png)
 
-## Viewing accounts associated with your contract {#viewing-accounts-associated-with-your-contract}
+## Viewing accounts associated with your contract {#viewing-accounts}
 
 <div class="section-steps" markdown="1">
 ##### To view accounts linked to your Enterprise contract

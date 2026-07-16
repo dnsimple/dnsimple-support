@@ -33,7 +33,7 @@ To proceed with configuring login with SSO through Entra, you must:
 - Have administrator access to a DNSimple account.
 - Be subscribed to a DNSimple [Enterprise plan](https://dnsimple.com/enterprises).
 
-## Linking an Entra organization to a DNSimple account {#linking-an-entra-organization-to-a-dnsimple-account}
+## Linking an Entra organization to a DNSimple account {#linking-entra-organization}
 
 DNSimple's Entra app integration is pending review and is not yet available for installation via the [Microsoft Entra App Gallery](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-integrated-apps).
 
@@ -71,7 +71,7 @@ These steps are performed in your DNSimple account:
 
 1. At DNSimple, use the **account switcher** at the top right of the page to select the account you want to link with Entra.
 1. Click the gear icon ⚙️ next to the account name to open the **account settings**.
-1. Click the **Single-Sign On** tab on the left side.
+1. Click the **Single Sign-On** tab on the left side.
 1. Click **Authorize with Microsoft Entra ID** to authorize the Workspace.
 1. Fill in the Entra Tenant ID, client ID, and client secret, then click **Link**. You'll need to log in to the Entra Workspace.
 
@@ -85,7 +85,7 @@ If the Entra app is no longer linked (e.g. the access token is revoked), you can
 
 You can set the level of DNSimple access for each member under the **Members and seats** tab in your DNSimple Account settings. For what each access level means, see [What is Domain Access Control?](/articles/what-is-domain-access-control/). To configure access, see [Domain Access Control](/articles/domain-access-control/).
 
-## Linking a DNSimple user to an Entra identity {#linking-a-dnsimple-user-to-an-entra-identity}
+## Linking a DNSimple user to an Entra identity {#linking-entra-user}
 
 When a DNSimple user exists in a DNSimple account before SSO is enabled, they will be required to link their Entra identity to verify ownership of both DNSimple and Entra user accounts. This is done on your DNSimple **User settings** page.
 
@@ -97,7 +97,7 @@ To link a DNSimple user to an Entra identity:
 
 ## Logging in via Entra {#logging-in-via-entra}
 
-You'll need to [link an Entra organization to your DNSimple account](#linking-an-entra-organization-to-a-dnsimple-account) before your team members can log in via Entra SSO.
+You'll need to [link an Entra organization to your DNSimple account](#linking-entra-organization) before your team members can log in via Entra SSO.
 1. To log in to DNSimple using Entra, visit [https://dnsimple.com/login](https://dnsimple.com/login).
 1. Click **Sign in using Entra**.
 1. Enter the [organization Entra domain or tenant ID](https://learn.microsoft.com/en-us/partner-center/account-settings/find-ids-and-domain-names#find-the-microsoft-entra-tenant-id-and-primary-domain-name) and click **Sign in**. The Entra domain is the default/primary domain in the Entra account.
@@ -112,7 +112,7 @@ You'll need to [link an Entra organization to your DNSimple account](#linking-an
 
 1. At DNSimple, use the **account switcher** at the top right of the page to select the account you want to unlink.
 1. Click the gear icon ⚙️ next to the account name to open the **account settings**.
-1. Click the **Single-Sign On** tab on the left side.
+1. Click the **Single Sign-On** tab on the left side.
 1. Click **Revoke** next to the Entra SSO provider to remove the link from DNSimple to Entra.
 
 ## Unlinking a DNSimple user from an Entra identity {#unlinking-entra-user}
