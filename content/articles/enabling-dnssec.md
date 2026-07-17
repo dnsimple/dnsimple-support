@@ -17,7 +17,7 @@ If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/
 
 - The DNS resolution service must be enabled for your zone.
 - DNSimple as Secondary DNS cannot be enabled on the zone. You can read more about it in our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
-- DNSSEC is applied to the whole zone at the domain apex. DS records for [subdomains delegated with NS records](/articles/add-ns-records-for-subdomain/) (zone cuts) are not supported. See [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/).
+- DNSSEC is applied to the whole zone, with signing keys published at the domain apex. DS records for [subdomains delegated with NS records](/articles/add-ns-records-for-subdomain/) (zone cuts) are not supported. See [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/).
 
 ## Enable DNSSEC
 1. Use the **account switcher** at the top of the page to select the appropriate account.
