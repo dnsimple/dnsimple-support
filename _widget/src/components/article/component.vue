@@ -62,6 +62,15 @@ export default {
       });
     },
 
+    fixImages () {
+      [...this.$el.querySelectorAll('.article img')].forEach((img) => {
+        const src = img.getAttribute('src');
+
+        if (src && src[0] === '/')
+          img.setAttribute('src', `${this.article.sourceUrl}${src}`);
+      });
+    },
+
     fixTables () {
       [...this.$el.querySelectorAll('table')].forEach((table) => {
         const wrapper = document.createElement('div');
@@ -75,6 +84,7 @@ export default {
       this.$nextTick(() => {
         this.$el.scrollTop = 0;
         this.fixLinks();
+        this.fixImages();
         this.fixTables();
       });
     }
