@@ -3,7 +3,9 @@ v2.0 | 20110126
 License: none (public domain)
 */
 
-#dnsimple-support-widget {
+// The shadow root keeps the host page's selectors out, but not the browser's
+// own stylesheet, so this still has to normalise the UA defaults.
+:host {
   box-sizing: border-box;
 
   div, span, applet, object, iframe,
