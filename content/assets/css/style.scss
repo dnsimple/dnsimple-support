@@ -15,3 +15,8 @@
 @use "callouts";
 @import "../../dist/tachyons/css/tachyons.min.css";
 @import "../../dist/fontawesome/css/all.min.css";
+
+// Emit the callout rules site-wide. The mixin is defined without a root-level
+// include so the widget, which also uses it (scoped under its own root), does
+// not carry an unscoped copy into the pages it is embedded on.
+@include callouts.callout-styles;
