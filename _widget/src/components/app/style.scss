@@ -1,4 +1,6 @@
-#dnsimple-support-widget {
+// The mount element itself. From inside the shadow root the host's own id is
+// not matchable, so this cannot go back to `#dnsimple-support-widget`.
+:host {
   position: fixed;
   z-index: 999;
   bottom: 0;

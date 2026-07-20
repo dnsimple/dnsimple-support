@@ -6,6 +6,11 @@ describe('Initialize', () => {
   let goExternal;
   let fetch;
 
+  // The widget lives in a shadow root now, so its markup is not in
+  // document.body.innerHTML. Read it, and query it, through the root.
+  const root = () => document.querySelector('#dnsimple-support-widget').shadowRoot;
+  const widgetHtml = () => root().innerHTML;
+
   beforeEach(() => {
     goExternal = jest.fn();
     fetch = jest.fn(() => Promise.resolve(ARTICLES));
@@ -16,7 +21,7 @@ describe('Initialize', () => {
       document.body.innerHTML = `<div id="dnsimple-support-widget"></div>`;
       subject = initialize(document);
 
-      expect(document.body.innerHTML).toContain('Need Help?');
+      expect(widgetHtml()).toContain('Need Help?');
     });
   });
 
@@ -25,8 +30,16 @@ describe('Initialize', () => {
       document.body.innerHTML = ``;
       subject = initialize(document);
 
-      expect(document.body.innerHTML).toContain('Need Help?');
+      expect(widgetHtml()).toContain('Need Help?');
     });
+  });
+
+  it('keeps its markup out of the host document', () => {
+    document.body.innerHTML = ``;
+    subject = initialize(document);
+
+    expect(document.body.innerHTML).not.toContain('Need Help?');
+    expect(document.querySelector('#dnsimple-support-widget').shadowRoot).not.toBeNull();
   });
 
   it('sets the current site url', () => {
@@ -59,7 +72,7 @@ describe('Initialize', () => {
     it('opens when clicking on the openers', async () => {
       await document.body.querySelector('[data-dnsimple-open-support-widget]').click();
 
-      expect(document.body.innerHTML).toContain('Try some keywords');
+      expect(widgetHtml()).toContain('Try some keywords');
     });
   });
 
@@ -73,9 +86,9 @@ describe('Initialize', () => {
     });
 
     it('opens when clicking on the default opener', async () => {
-      await document.body.querySelector('[aria-label="Open widget"]').click();
+      await root().querySelector('[aria-label="Open widget"]').click();
 
-      expect(document.body.innerHTML).toContain('Try some keywords');
+      expect(widgetHtml()).toContain('Try some keywords');
     });
   });
 });

@@ -1,10 +1,12 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import includeCss from 'vite-plugin-css-injected-by-js';
 
+// No CSS-injection plugin: the widget owns a shadow root now, and initialize.js
+// imports the styles with `?inline` and adopts them into it, so nothing reaches
+// the host page's <head>. See _widget/src/initialize.js.
 export default defineConfig(({ command }) => ({
-  plugins: [vue(), includeCss()],
+  plugins: [vue()],
   resolve: {
     alias: {
       vue: command === 'build'

@@ -24,11 +24,6 @@ import Articles from '../articles/component.vue';
 import Prompt from '../prompt/component.vue';
 import Search from './search.js';
 
-import "./variables.scss";
-import "./reset.scss";
-import "./style.scss";
-import "./animate.scss";
-
 const RECENTLY_VISITED_KEY = "recentlyVisitedUrls";
 const RECENTLY_VISITED_LIMIT = 6;
 
@@ -155,7 +150,10 @@ export default {
 
       if (isHash) {
         event.preventDefault();
-        document.getElementById(url.split('#')[1])?.scrollIntoView();
+        // The anchor is the widget's own, and the widget lives in a shadow
+        // root, so it is not in the document. getElementById exists on the
+        // shadow root; the optional call tolerates a detached mount in tests.
+        this.$el.getRootNode().getElementById?.(url.split('#')[1])?.scrollIntoView();
         return;
       }
 
@@ -311,7 +309,7 @@ export default {
 
     scrollToSelectedItem() {
       nextTick(() => {
-        const selectedDiv = document.querySelector('.selected-article');
+        const selectedDiv = this.$el.getRootNode().querySelector('.selected-article');
         selectedDiv && selectedDiv.scrollIntoView({ behavior: 'instant', block: 'nearest' });
       });
     },

@@ -1,0 +1,24 @@
+// Every stylesheet the widget ships, in one place.
+//
+// initialize.js imports this with `?inline` and puts the result in the widget's
+// shadow root. Nothing here reaches the host page, which is the point: the
+// widget is injected into other sites and used to append its CSS to their
+// <head>, so a bare selector here landed on their pages.
+//
+// The order is the one the module graph used to produce, back when each
+// component imported its own stylesheet: components first, then app, whose
+// rules are meant to win. Keep it that way. `article/style` pulls in the
+// support site's callouts, which is why they land where they do.
+
+@use "./components/footer/style" as footer;
+@use "./components/header/style" as header;
+@use "./components/article/style" as article;
+@use "./components/article/resolving" as article-resolving;
+@use "./components/article/syntax" as article-syntax;
+@use "./components/article/tables" as article-tables;
+@use "./components/articles/style" as articles;
+@use "./components/prompt/style" as prompt;
+@use "./components/app/variables" as app-variables;
+@use "./components/app/reset" as app-reset;
+@use "./components/app/style" as app-style;
+@use "./components/app/animate" as app-animate;
