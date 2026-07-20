@@ -34,7 +34,7 @@ You can only enable MFA enforcement when **all members already have MFA enabled*
     ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
-1. Scroll to the <label>Enforce Multi-Factor Authentication</label> card. When all members have MFA enabled, you can turn on enforcement.
+1. Scroll to the <label>Enforce multi-factor authentication</label> card. When all members have MFA enabled, you can turn on enforcement.
 
     ![screenshot: mfa settings for account](/files/mfa.png)
 
@@ -54,7 +54,7 @@ You can only enable MFA enforcement when **all members already have MFA enabled*
     ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
-1. Scroll to the <label>Enforce Multi-Factor Authentication</label> card, then click <label>Disable</label>.
+1. Scroll to the <label>Enforce multi-factor authentication</label> card, then click <label>Disable</label>.
 
     ![screenshot: disable mfa](/files/mfa-disable.png)
 
