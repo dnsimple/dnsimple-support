@@ -1,7 +1,7 @@
 ---
 title: Changing Account Information
-excerpt: How to change the information associated with a DNSimple account.
-meta: Update your DNSimple account information, including email, password, and billing details. Keep your account secure and current.
+excerpt: How to update your DNSimple account name, country, security screening answers, and notification email.
+meta: Update your DNSimple account name, country of operation, security screening answers, and notification email. User email changes are done separately.
 categories:
 - Account
 ---
@@ -15,45 +15,51 @@ categories:
 
 ---
 
-## Changing account email
+Use this article to update general account details and the **notification email** for an account. To change the address you use to sign in, see [Changing Email](/articles/changing-email/#changing-the-user-email). For how user email and notification email differ, see [Users, Accounts, and Members at DNSimple](/articles/users-accounts-and-members-at-dnsimple/#user-email-and-notification-email).
 
-You can update your account email address at any time. Changing your account email will **not** update your user email. To update your user email, follow [these instructions](/articles/changing-email/#changing-the-user-email). If you want to update both your account and user email to the same address, you'll need to update your user email first, then your account email. To transfer ownership of the account to another person, see [Transfer Account Ownership](/articles/transfer-account-ownership/).
+## Changing the notification email {#changing-the-notification-email}
+
+The notification email is where DNSimple sends messages for that account, such as renewals and payment notices. Changing the notification email does **not** change your user email.
+
+To transfer ownership of the account to another person, see [Transfer Account Ownership](/articles/transfer-account-ownership/).
 
 <div class="section-steps" markdown="1">
-1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
-1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
+##### To change the notification email
 
-    ![Settings menu](/files/account-menu.png)
+1. Choose the relevant account from the account switcher, then click the gear icon next to the account name to open <label>account settings</label>.
+1. On the <label>Notification</label> card, click <label>Edit</label>.
 
-1. Change the email, and click <label>Update account</label>.
+    ![Screenshot of Notification card](/files/notification_card.png)
 
-    ![Email link](/files/account-email.png)
+1. Enter the email address where you want account notifications to go, then click <label>Save</label>.
 
-You'll be redirected to the Account page, where you'll see the updated email address displayed on the **Account** card. Please ensure the address is correct.
+    ![Screenshot of edit notifications](/files/edit_notifications.png)
 
 </div>
 
-## Changing other account data
+## Changing other account data {#changing-other-account-data}
 
-You can also edit your account name, country of operation, and change your answers to any of the security screening questions.
+You can also edit your account name, country of operation, and answers to security screening questions.
 
 <div class="section-steps" markdown="1">
-1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
+##### To update account name, country, or security screening answers
+
+1. Choose the relevant account from the account switcher, then click the gear icon next to the account name to open <label>account settings</label>.
 1. Click <label>Edit</label> at the bottom right of the <label>Account</label> card:
 
     ![Access to the account information section](/files/account-edit.png)
 
 1. Change or set the information according to your needs.
 
-   ![Account information form](/files/account-information-form.png)
+    ![Account information form](/files/account-information-form.png)
 
-> [!NOTE]
-> DNSimple requests this information, in compliance with applicable laws and regulations, to guarantee the security of your account.
-
-1. Once the information has been updated, click <label>Update account</label> to save the changes. You'll see the changes reflected in the information in the **Account** card under the **General** tab on your Account page.
+1. Once the information has been updated, click <label>Update account</label> to save the changes. You will see the changes reflected on the <label>Account</label> card under the <label>General</label> tab on your account page.
 
 </div>
 
+> [!NOTE]
+> DNSimple requests this information, in compliance with applicable laws and regulations, to help keep your account secure.
+
 ## Have more questions?
 
-If you have any questions about how to update your email or other account information, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about updating your account information or notification email, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

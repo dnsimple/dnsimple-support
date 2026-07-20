@@ -1,44 +1,55 @@
 ---
 title: Unsubscribe From Your DNSimple Plan
 excerpt: How to cancel the recurring subscription for a DNSimple account.
-meta: Easily cancel your DNSimple subscription with our step-by-step guide. Follow these simple instructions to manage your account and stop recurring charges today.
+meta: Cancel your DNSimple subscription and stop recurring charges. Your domains and records remain in the account unless you delete them.
 categories:
 - Account
 ---
 
 # Unsubscribe From Your DNSimple Plan
 
-If you no longer need DNSimple's services, you can unsubscribe at any time.
+### Table of Contents {#toc}
 
-Once you unsubscribe, your card on file will no longer be charged the monthly subscription fee.
+* TOC
+{:toc}
 
-Apart from the subscription fee, the following will take effect immediately:
-- All domains pointing to our name servers will stop resolving — they will no longer function, and your site will be inaccessible to your users.
-- [WHOIS Privacy](/articles/whois-privacy/) will be disabled for all domains registered with DNSimple.
+---
+
+Unsubscribe when you no longer need an active DNSimple subscription. This stops recurring subscription charges but does not delete your account, domains, or records.
+
+Once you unsubscribe, the card on file will no longer be charged the monthly subscription fee.
+
+Apart from the subscription fee, the following take effect immediately:
+
+- All domains pointing to our name servers stop resolving. Your site will be inaccessible to visitors.
+- [WHOIS privacy](/articles/whois-privacy/) is disabled for all domains registered with DNSimple.
 - Any domain in your account that is registered will not renew.
-- [Email Forwarding](/articles/email-forwarding/) will stop working.
+- [Email forwarding](/articles/email-forwarding/) stops working.
+- Any account credit or promotions applied to your account are lost.
 
 > [!NOTE]
-> This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate](/articles/reactivate-subscription/). To permanently delete yourself as a DNSimple user, see [Deleting Yourself as a User](/articles/close-account/).
+> This is not an account deletion. If you do not delete your domains from the account, all domains and corresponding records will remain in your account should you choose to [reactivate your subscription](/articles/reactivate-subscription/). To permanently delete yourself as a DNSimple user, see [Deleting Yourself as a User](/articles/close-account/).
+
+## Unsubscribe from your plan {#unsubscribe-from-your-plan}
 
 <div class="section-steps" markdown="1">
-##### To unsubscribe from your DNSimple plan:
+##### To unsubscribe from your DNSimple plan
 
-1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open **account settings**.
-1. On the left side of the screen, select the **Billings and plans** tab.
-1. Scroll down to the end of the page to find the Unsubscribe section.
+1. Choose the relevant account from the account switcher, then click the gear icon ⚙️ next to the account name to open <label>account settings</label>.
+1. On the left side of the screen, select the <label>Billing and plans</label> tab.
+1. Scroll down to the bottom of the page to find the <label>Unsubscribe</label> section.
 
     ![Unsubscribe section](/files/account-unsubscribe.png)
 
-1.  Click the <label>Unsubscribe</label> button.
-1.  Confirm that you want to unsubscribe by typing your account's email address:
+1. Click <label>Unsubscribe</label>.
+1. Confirm that you want to unsubscribe by typing your account name:
 
     ![Account unsubscribe confirmation](/files/account-unsubscribe-confirmation.png)
 
-</div>
+1. Click <label>Unsubscribe</label> to complete the process.
 
-After typing your email address and clicking **Unsubscribe**, you will be unsubscribed from your DNSimple account.
+</div>
 
 ## Have more questions?
 
-Feel free to [contact our support team](https://dnsimple.com/feedback) with any questions or concerns about unsubscribing from your account. We'll be happy to help.
+If you have questions about unsubscribing from your account, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

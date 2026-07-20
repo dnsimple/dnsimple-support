@@ -63,7 +63,7 @@ Your choice depends on what you need to secure and how you want to manage the ce
 
 If your domain resolves with DNSimple, both Sectigo and Let's Encrypt certificates are available. If your domain resolves elsewhere, only Sectigo certificates can be ordered. You do not need to transfer or host your domain with DNSimple to purchase a Sectigo certificate.
 
-For help deciding between the two CAs, see [Sectigo vs Let's Encrypt — Which is right for me?](/articles/standard-vs-letsencrypt/#whichone). For a broader look at certificate categories (single-name, wildcard, multi-domain, and validation levels), see [SSL Certificate Types](/articles/ssl-certificates-types/).
+For help deciding between the two CAs, see [Sectigo vs Let's Encrypt — Which is right for me?](/articles/standard-vs-letsencrypt/#choosing). For a broader look at certificate categories (single-name, wildcard, multi-domain, and validation levels), see [SSL Certificate Types](/articles/ssl-certificates-types/).
 
 ### Choose the certificate names {#choose-names}
 

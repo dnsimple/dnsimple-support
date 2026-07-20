@@ -1,4 +1,5 @@
-#dnsimple-support-widget {
+// On :host, so the tokens inherit down into the shadow tree.
+:host {
   --dnsimple-support-widget-medium-gray: #7e7e7e;
   --dnsimple-support-widget-yellow: #f8c939;
   --dnsimple-support-widget-orange: #ff7f2a;

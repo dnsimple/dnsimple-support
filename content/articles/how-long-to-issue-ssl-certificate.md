@@ -19,7 +19,7 @@ The time required to issue a new [SSL certificate](/articles/ssl-certificates/) 
 
 ## Sectigo certificates {#sectigo}
 
-For Sectigo [single-name](/articles/ssl-certificates/#standard-singlename) and [wildcard](/articles/ssl-certificates/#standard-wildcard) certificates, issuance typically takes from one hour to several hours after email approval is completed.
+For Sectigo [single-name](/articles/ssl-certificates/#sectigo-singlename) and [wildcard](/articles/ssl-certificates/#sectigo-wildcard) certificates, issuance typically takes from one hour to several hours after email approval is completed.
 
 The issuance process begins once the certificate authority receives and validates the email approval. The actual certificate generation and signing happens relatively quickly once validation is confirmed.
 

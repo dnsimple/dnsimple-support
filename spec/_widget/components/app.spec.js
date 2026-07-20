@@ -114,6 +114,26 @@ describe('App', () => {
     });
   });
 
+  describe('entry animation', () => {
+    it('does not animate the launcher prompt when it mounts', () => {
+      const subject = mount(App, { propsData });
+
+      const prompt = subject.find('.prompt');
+      expect(prompt.exists()).toBe(true);
+      expect(prompt.classes()).not.toContain('animated');
+      expect(prompt.classes()).not.toContain('fadeInUp');
+    });
+
+    it('animates the modal each time the widget opens', async () => {
+      const subject = mount(App, { propsData });
+      await subject.vm.open();
+
+      const modal = subject.find('.dnsimple-modal');
+      expect(modal.exists()).toBe(true);
+      expect(modal.classes()).toEqual(expect.arrayContaining(['animated', 'fadeInUp']));
+    });
+  });
+
   describe('highlighting', () => {
     let subject;
 

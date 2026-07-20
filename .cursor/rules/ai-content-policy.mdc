@@ -1,0 +1,39 @@
+---
+description: Rules for publishing AI-drafted support articles, and the AI-optimization tactics Google says are unnecessary.
+globs: content/articles/**/*.md
+alwaysApply: false
+---
+
+# AI-Drafted Content
+
+AI assistance in drafting is expected and allowed. Publishing AI output as-is is not.
+
+Google's position is that generative AI is fine for research and structuring original work, but generating pages without adding value for users can violate the spam policy on scaled content abuse. The test Google applies is whether content shows "little to no effort, little to no originality, and little to no added value."
+
+## Before opening a PR on an AI-drafted article
+
+1. Verify every product claim, price, limit, and syntax example against the app, the developer docs, or an SME. Never publish product behavior asserted from model memory.
+2. Do not generate batches of articles to cover keyword variations. One article per real user job.
+3. If the article does not contain at least one thing that required access to DNSimple to know, it probably should not be published.
+
+Rule 3 is the working test for "added value." An article that any model could produce without our systems, our support history, or our SMEs is a summary of the internet, not a support article. Add the DNSimple-specific behavior, the verified specifics, and the first-hand support experience, or drop the article.
+
+## Disclosure
+
+DNSimple does not add AI-disclosure banners to support articles. Google treats disclosure as optional context, not a requirement, and a banner adds nothing for a reader looking up how to add a CAA record. Accuracy is the obligation, not attribution.
+
+# Tactics You Do Not Need
+
+Google has explicitly stated the following are unnecessary for appearing in AI Overviews and other generative AI features. Do not spend effort on them, and do not act on outside advice recommending them without checking here first.
+
+- **No `llms.txt` or AI-specific files.** Google: "You don't need to create new machine readable files, AI text files, markup, or Markdown." This repo has no `llms.txt` and should not gain one.
+- **No content chunking.** There is no requirement to fragment articles into small pieces for retrieval.
+- **No synonym rewriting.** Google handles synonyms. Do not force keyword variations into the text.
+- **No citation or mention chasing.** Seeking mentions of DNSimple across other sites to influence AI answers does not work.
+- **Structured data is not required.** It supports rich results and is worth having for that reason, but it is not required for generative AI search.
+
+## What does matter technically
+
+Pages must stay indexed and snippet-eligible. A page excluded from snippets is excluded from AI features, so never add `nosnippet`, `data-nosnippet`, or a restrictive `max-snippet` to article content without a deliberate reason. Beyond that, the existing crawlability, semantic HTML, and page experience practices already in place are the whole requirement.
+
+Measure visibility through the Search Console generative AI performance report. Third-party tools claiming access to internal Google AI metrics do not have it.
