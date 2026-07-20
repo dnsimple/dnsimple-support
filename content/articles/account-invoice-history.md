@@ -54,7 +54,7 @@ An invoice in the `collected` state indicates it has been paid.
 
 ### `failed` {#invoice-state-failed}
 
-When you make a [purchase](/articles/understanding-invoice/#purchases), like a domain registration or an SSL certificate, and we are unable to collect the payment, we will notify the account owner via email. The invoice will be marked as `failed`.
+When you make a [purchase](/articles/understanding-invoice/#purchases), like a domain registration or an SSL certificate, and we are unable to collect the payment, we will notify the account owner via email. The invoice will be marked as `failed`. For the billing emails DNSimple sends when a payment fails, see [Account Notification Emails](/articles/account-notification-emails/#billing).
 
 While the invoice is in this state, you will not be able to make other purchases. You can [retry the payment](#retrying) yourself, and our systems will also try to collect it every few hours.
 
@@ -73,7 +73,7 @@ The payment for this invoice was collected and then returned. When this happens,
 
 ## Retrying failed payments {#retrying}
 
-While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices.
+While our system occasionally retries failed invoices automatically, you may want to manually retry your own invoices. If a payment keeps failing, confirm the [payment method](/articles/supported-payment-methods/) on file is current.
 
 <div class="section-steps" markdown="1">
 ##### To retry a failed invoice
