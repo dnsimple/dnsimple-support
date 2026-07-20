@@ -45,7 +45,7 @@ When you enable MFA for your user profile, DNSimple logs you out of all currentl
 
 1. Using the one-time password authenticator app, generate a verification code.
 
-1. Enter the 6-digit verification code into the field, and click **Continue** to confirm. If the verification code is correct, you'll be redirected to the next step. Otherwise, you'll be asked to enter a new verification code.
+1. Enter the 6-digit verification code into the field, and click **Continue** to confirm. If the verification code is correct, you will be redirected to the next step. Otherwise, you will be asked to enter a new verification code.
 
 1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
@@ -66,10 +66,10 @@ When you enable MFA for your user profile, DNSimple logs you out of all currentl
 1. In the **2-Step Verification** card, click **Add** next to "Connect a security key to your user" to connect a new security key to your user profile.
     ![Enable security key](/files/user-mfa-enable-mfa-with-security-key.png)
 
-1. Enter a nickname to help you identify the security key you're registering.
+1. Enter a nickname to help you identify the security key you are registering.
     ![Security key nickname with recovery code](/files/user-mfa-enable-security-key-nickname.png)
 
-1. Click **Continue** — you should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
+1. Click **Continue**. You should see a prompt to choose the type of security key you want to activate. The prompt will look different depending on your platform and browser. Select the security key type, and activate it to complete the security key setup process.
 
 1. Copy your [recovery code](#recovery) by clicking **Copy to clipboard**. Store your recovery code in a safe place, like a password or secret management application. You should also click **Download recovery code (PDF)** to download a PDF file with the necessary information to recover your account should you lose access to all your multi-factor authentication devices.
 
@@ -119,12 +119,12 @@ When multi-factor protection is enabled, you must complete a second verification
 
 1. Log in to DNSimple with your username and password.
 
-1. If the credentials are correct, you'll see a 2-Step Verification window. This may look different if you also have a security key enabled.
+1. If the credentials are correct, you will see a 2-Step Verification window. This may look different if you also have a security key enabled.
 
     If you have a security key enabled, it will be the default authentication method displayed. Click **Use one-time password** to switch to using a one-time password for the second verification step.
     ![Multi-factor authentication](/files/user-mfa-login-use-one-time-password.png)
 
-    If you don't have security keys enabled, you'll see the following 2-Step Verification window immediately:
+    If you do not have security keys enabled, you will see the following 2-Step Verification window immediately:
     ![Multi-factor authentication](/files/user-mfa-login-authenticator.png)
 
 1. Use your one-time password authenticator app to generate a verification code, paste the verification code into the form, and submit it to complete the 2-step login verification process.
@@ -139,16 +139,16 @@ When multi-factor protection is enabled, you must complete a second verification
 
 1. Log in to DNSimple with your username and password.
 
-1. If the credentials are correct, you'll see a 2-Step Verification window.
+1. If the credentials are correct, you will see a 2-Step Verification window.
   ![Multi-factor authentication](/files/user-mfa-login-security-key.png)
 
-1. Click **Log in**, select the type of security key you'll be activating, and activate the security key.
+1. Click **Log in**, select the type of security key you will be activating, and activate the security key.
 
 </div>
 
 ## Recovery code {#recovery}
 
-When you enable your first MFA method, a recovery code is created as a safeguard. You'll need this recovery code to disable MFA if you can't generate a one-time password with your authenticator app, activate your registered security key, or disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed. **Save this recovery code in a secure, memorable place**.
+When you enable your first MFA method, a recovery code is created as a safeguard. You will need this recovery code to disable MFA if you cannot generate a one-time password with your authenticator app, activate your registered security key, or disable an MFA method. For example, because you lost the security key or the device where the authenticator was installed. **Save this recovery code in a secure, memorable place**.
 
 > [!WARNING]
 > The recovery code **is the only way to recover access to your account** if you can't generate a one-time password with an authenticator app or activate a security key for completing the 2-step verification process. Store the recovery code in a secure place. **We cannot disable multi-factor authentication without this recovery code**.
@@ -156,7 +156,7 @@ When you enable your first MFA method, a recovery code is created as a safeguard
 > [!NOTE]
 > To help you keep your recovery code accessible, we periodically ask you to confirm that you still have it. About twice a year, the next time you sign in, you'll be asked to enter the last 4 characters of your recovery code before you can continue using your account. The prompt also lets you copy your recovery code again or download a fresh PDF copy, so take a moment to check where it's stored each time it appears.
 
-When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you'll need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
+When you enter a valid recovery code, multi-factor protection will immediately be disabled. To keep your account protected, you will need to enable it again by connecting a one-time password authenticator application or security key to your user profile. A new recovery code will be generated.
 
 > [!WARNING]
 > **All security keys and any one-time password-based MFA methods configured will be removed when you use your recovery code to disable MFA.**
@@ -175,7 +175,7 @@ When you enter a valid recovery code, multi-factor protection will immediately b
 1. If the recovery code is correct, MFA protection will immediately be disabled for the account.
 </div>
 
-You can also use your recovery code to disable MFA when you can't [remove](#disable) a one-time password-based or security key-based MFA method.
+You can also use your recovery code to disable MFA when you cannot [remove](#disable) a one-time password-based or security key-based MFA method.
 
 <div class="section-steps" markdown="1">
 ##### Disabling multi-factor authentication to remove a one-time password or security key MFA method
@@ -233,15 +233,15 @@ Both platform authenticators, e.g. [Touch ID](https://support.apple.com/en-gb/gu
 
 ## Best practices for multi-factor authentication {#best-practices}
 
-To benefit from true MFA, you must keep your one-time password authenticator application or security key, and your primary user credentials separate. For example, if you use your mobile device as your one-time password authenticator, you shouldn't have your primary user credentials on your mobile device.
+To benefit from true MFA, you must keep your one-time password authenticator application or security key, and your primary user credentials separate. For example, if you use your mobile device as your one-time password authenticator, you should not have your primary user credentials on your mobile device.
 
-If you decide to use your mobile device as both your security key or one-time password authenticator and device for accessing DNSimple, you still get the added benefit of a second verification step for login should your credentials be compromised, but you won't benefit from true MFA. It's up to you to decide what level of security is important for you and your accounts.
+If you decide to use your mobile device as both your security key or one-time password authenticator and device for accessing DNSimple, you still get the added benefit of a second verification step for login should your credentials be compromised, but you will not benefit from true MFA. It is up to you to decide what level of security is important for you and your accounts.
 
 ## Troubleshooting multi-factor authentication {#troubleshooting}
 
 #### Ensuring your phone's date and time are synchronized
 
-One-time password verification codes are based on time, so the time on your phone has to be in sync with the official time. Otherwise, your authenticator app will generate a mismatched code. If your phone's time is out of sync, or if you've changed time zones, the best way to fix it is to change the time settings on your phone from "Manual" to "Automatic".
+One-time password verification codes are based on time, so the time on your phone has to be in sync with the official time. Otherwise, your authenticator app will generate a mismatched code. If your phone's time is out of sync, or if you have changed time zones, the best way to fix it is to change the time settings on your phone from "Manual" to "Automatic".
 
 - [This Apple article provides steps for iOS](https://support.apple.com/en-ie/HT203483).
 - Changing this setting on Android may vary, but a [general guide can be found here](https://squareup.com/help/us/en/article/5288-update-date-time-on-your-device).

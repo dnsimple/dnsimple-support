@@ -8,13 +8,6 @@ categories:
 
 # Suspended Account
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 DNSimple may suspend an account when billing, security, or policy issues need to be resolved before service can continue.
 
 Common reasons include:
