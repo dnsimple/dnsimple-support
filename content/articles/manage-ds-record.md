@@ -14,7 +14,7 @@ categories:
 
 ---
 
-DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain. You would need to manage them if you are not delegating your domain to DNSimple, and you want to use DNSSEC with your DNS provider.
+DS (Delegation Signer) records are used in [DNSSEC](/articles/dnssec/) to secure your domain. You would need to manage them if you are not delegating your domain to DNSimple, and you want to use DNSSEC with your DNS provider. DS records in DNSimple are managed at the domain level: they apply to the registered domain and are published at the registry in the parent zone. Adding DS records for a subdomain delegated with [NS records](/articles/add-ns-records-for-subdomain/) (a zone cut) is not supported, so the [chain of trust](/articles/dnssec-chain-of-trust/) cannot extend to a delegated subdomain.
 
 ## Adding a DS record {#adding-a-ds-record}
 

@@ -26,6 +26,8 @@ categories:
 
 ### Add DS Record For Domain Not Delegated to DNSimple
 
+DS records are added for the registered domain only. Adding DS records for a delegated subdomain (a zone cut) is not supported. See [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/).
+
 ![Add DS Record button](/files/DNSSEC-DS-record-add-button-reference.png)
 
 1. **Add DS Record button** - Add a DS record.

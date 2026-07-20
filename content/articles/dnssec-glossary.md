@@ -40,6 +40,14 @@ A DNSSEC Trust Anchor is a known, securely distributed public key that resolvers
 [The Trust Anchor (The Root of Trust)](/articles/dnssec-chain-of-trust/#how-the-chain-of-trust-works)
 [IANA Trust Anchors](https://www.iana.org/dnssec/files)
 
+### Zone Cut
+A zone cut is the boundary between a parent zone and a child zone in the DNS hierarchy. It is created when the parent zone delegates a subdomain to a different set of authoritative name servers by publishing NS records for it. In DNSSEC, the chain of trust only crosses a zone cut when the parent zone also publishes a DS record for the child zone. DNSimple does not support publishing DS records for zone cuts, so DNSSEC validation cannot extend to subdomains delegated away from a DNSimple-hosted zone.
+
+**Learn more:**
+[RFC 9499 §7](https://datatracker.ietf.org/doc/html/rfc9499#section-7)
+[Adding NS Records for a Subdomain](/articles/add-ns-records-for-subdomain/)
+[DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/)
+
 ## Record Types & Signing {#record-types-signing}
 
 ### RRSet

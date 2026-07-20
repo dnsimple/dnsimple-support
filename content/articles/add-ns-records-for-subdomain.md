@@ -17,6 +17,8 @@ categories:
 
 Use this guide when DNSimple hosts DNS for your domain and you want a **subdomain** (for example `blog.example.com`) to be answered by **different** authoritative name servers. You add [NS records](/articles/ns-record/) in the DNSimple record editor for that subdomain. For field names in the editor, see [How To Add Common DNS Records](/articles/how-to-add-dns-records/).
 
+Subdomain delegation covers standard DNS resolution only. Publishing [DS records](/articles/what-are-ds-records/) for the delegated subdomain (a zone cut) is not supported in DNSimple, so the subdomain is not covered by a [DNSSEC chain of trust](/articles/dnssec-chain-of-trust/), even if the provider hosting the subdomain signs its zone. For feature compatibility details, see [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/).
+
 ## Confirm the domain uses DNSimple for DNS {#confirm-the-domain-uses-dnsimple-for-dns}
 
 Before you add NS records, the parent domain must be delegated to DNSimple. If the domain is registered with DNSimple, follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/). If the domain is registered elsewhere but uses DNSimple for DNS, follow [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/). If you are unsure which path applies, start from [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
