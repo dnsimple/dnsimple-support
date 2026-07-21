@@ -61,7 +61,7 @@ A Zone Operator cannot change registration details, name servers, certificates, 
 
 ## Permissions matrix {#matrix}
 
-The account roles apply account-wide. The domain roles apply only to the domains where a member has been assigned that role.
+The account roles apply account-wide. Domain Manager and Zone Operator are not separate account roles. They are domain-level roles you assign to a Limited Access member for specific domains. Those columns show what that member can do on an assigned domain.
 
 | Capability | Full Access | Limited Access | Domain Manager | Zone Operator |
 |---|:---:|:---:|:---:|:---:|
