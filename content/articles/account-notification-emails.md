@@ -17,7 +17,7 @@ categories:
 
 DNSimple sends automated emails about account security, billing, and account activity. This article lists the account-level emails and which address receives each. Domain, DNS, and certificate notifications are documented in their own categories.
 
-DNSimple routes account email to three kinds of address:
+DNSimple routes account email to three kinds of addresses:
 
 - **Your user email:** your personal sign-in address. See [user email and notification email](/articles/users-accounts-and-members-at-dnsimple/#user-email-and-notification-email).
 - **Notification recipients:** the account [notification email](/articles/changing-email/#setting-or-changing-the-notification-email), or all account administrators if no notification email is set.
@@ -29,7 +29,7 @@ DNSimple routes account email to three kinds of address:
 |---|---|---|
 | Password reset link | You request a password reset. See [Forgot Password](/articles/forgot-password/). | Your user email |
 | Password reset required | DNSimple requires you to reset your password before signing in again. | Your user email |
-| Password changed | Your account password is changed. | Your user email |
+| Password changed | Your user password is changed. | Your user email |
 | Email address change requested | A change to your user email is requested. | Your current user email |
 | Email verification | You sign up, change your user email, or verify a contact email. | The address being verified |
 | Sign-in method enabled | Single sign-on is enabled for your user. See [What is SSO at DNSimple](/articles/what-is-sso-at-dnsimple/). | Your user email |
