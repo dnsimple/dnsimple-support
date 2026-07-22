@@ -51,6 +51,8 @@ Troubleshooting:
 Reference:
   Billing:
     - "Account Invoice History"
+  Notifications:
+    - "Account Notification Emails"
     - "Supported Payment Methods"
   Team and access:
     - "Account Roles and Permissions"
