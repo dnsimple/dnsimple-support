@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Reactivate your DNSimple subscription when you have [unsubscribed](/articles/cancel-subscription/) or your account was [suspended due to non-payment](/articles/account-suspended/). Your domains, DNS records, contacts, and account history remain in the account.
+Reactivate your DNSimple subscription when you have [unsubscribed](/articles/cancel-subscription/) or your account was [deactivated due to non-payment](/articles/account-deactivated/). Your domains, DNS records, contacts, and account history remain in the account.
 
 > [!NOTE]
 > Reactivation creates a **new subscription** on a current plan. It does not resume your previous subscription terms. Your account data, including domains and records, stays in place.
