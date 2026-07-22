@@ -35,7 +35,7 @@ You can enable multi-factor authentication enforcement from your Account page.
 1. Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. When all members of your Team have MFA enabled, you can use this feature.
   ![screenshot: mfa settings for account](/files/mfa.png)
 
-1.  If there are users in your account who don't have MFA enabled, you'll see a list of non-compliant users. You can [remove the users](/articles/account-users/#removing-members-from-an-account) from the account in the **Members** card.
+1.  If there are users in your account who don't have MFA enabled, you'll see a list of non-compliant users. You can [remove the users](/articles/account-users/#removing-members) from the account in the **Members** card.
   ![screenshot: non compliant mfa users](/files/non-compliant-mfa-users.png)
 </div>
 
