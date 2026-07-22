@@ -42,7 +42,7 @@ You can only enable MFA enforcement when **all members already have MFA enabled*
 
     ![screenshot: non compliant mfa users](/files/non-compliant-mfa-users.png)
 
-</div>
+</div>, 
 
 ## Disabling MFA enforcement {#disable}
 
