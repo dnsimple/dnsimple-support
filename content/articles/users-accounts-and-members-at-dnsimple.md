@@ -51,6 +51,8 @@ To invite or remove members, see [Managing Multiple Members on One Account](/art
 > [!NOTE]
 > If you do not set a notification email, account administrators receive notifications by default.
 
+For the account, billing, and security emails DNSimple sends and which address receives each, see [Account Notification Emails](/articles/account-notification-emails/).
+
 **Common mistake:** trying to sign in with the notification email. Sign-in always uses your **user email**.
 
 On eligible plans, you can also set a separate **billing email** for invoices. See [Billing Settings](/articles/billing-settings/).

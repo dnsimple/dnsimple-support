@@ -62,7 +62,7 @@ You can cancel a pending downgrade from the <label>Billing and plans</label> tab
 
 ## Incompatible features {#incompatible-features}
 
-When downgrading, you may not be able to keep some features from your current plan. Common issues include [removing scoped access tokens](/articles/api-access-token/#removing-an-account-access-token), [removing URL records for HTTPS redirects](/articles/manage-url-record/#removing-a-url-record), and [removing seats](/articles/managing-seats/#decreasing-the-number-of-seats).
+When downgrading, you may not be able to keep some features from your current plan. Common issues include [removing scoped access tokens](/articles/api-access-token/#removing-an-account-access-token), [removing URL records for HTTPS redirects](/articles/manage-url-record/#removing-a-url-record), and [removing seats](/articles/managing-seats/#decreasing-seats).
 
 <div class="section-steps" markdown="1">
 ##### To check incompatible features before downgrading
