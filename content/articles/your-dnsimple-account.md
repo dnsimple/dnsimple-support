@@ -1,7 +1,7 @@
 ---
 title: Your DNSimple Account
 excerpt: Overview of DNSimple Account documentation, from setup and billing to team access, security, and troubleshooting.
-meta: Find DNSimple Account help for users and members, billing and subscriptions, Domain Access Control, SSO, MFA, and troubleshooting payment or suspension issues.
+meta: Find DNSimple Account help for users and members, billing and subscriptions, Domain Access Control, SSO, MFA, and troubleshooting payment or access issues.
 categories:
 - Account
 ---
@@ -79,8 +79,16 @@ For a guided first login, see [First Steps With Your DNSimple Account](/articles
 - [Enforce Account-Wide Multi-Factor Authentication](/articles/multi-factor-authentication-enforcement/) - Require MFA for every member on the account.
 - [Forgot Password](/articles/forgot-password/) - Reset your password with your user email.
 
+## Reference {#reference}
+
+- [Account Glossary](/articles/account-glossary/) - Definitions for account terms, from users and members to seats, roles, and deactivation.
+- [Account Roles and Permissions](/articles/account-roles-and-permissions/) - What each account and domain role can do.
+- [Account Notification Emails](/articles/account-notification-emails/) - The automated emails DNSimple sends and which address receives each.
+- [Supported Payment Methods](/articles/supported-payment-methods/) - The payment methods DNSimple accepts for subscriptions, purchases, and wallet funding.
+
 ## Troubleshooting {#troubleshooting}
 
+- [Troubleshoot Billing and Payment Failures](/articles/troubleshoot-billing-and-payment-failures/) - Fix a failed invoice or renewal, update your card, and restore service.
 - [Deactivated Account](/articles/account-deactivated/) - Why an account may be deactivated and how to restore access.
 - [Subscription Renewals](/articles/subscription-renewals/#failed-renewal) - What happens when a renewal payment fails and how retries work.
 - [Account Invoice History](/articles/account-invoice-history/#retrying) - Retry a failed or dunned invoice payment.
