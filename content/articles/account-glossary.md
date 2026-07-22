@@ -127,7 +127,7 @@ Learn more:
 
 ### User token
 
-An API token tied to a user. When used against an account, access follows that member's Domain Access Control permissions.
+An API token tied to a user. When used against an account, access follows the Domain Access Control permissions of that member.
 
 Learn more:
 
@@ -136,7 +136,7 @@ Learn more:
 
 ### Account token
 
-An API token tied to an account. Account tokens have full account access for automation and are not limited by an individual member's Domain Access Control permissions.
+An API token tied to an account. Account tokens have full account access for automation and are not limited by the Domain Access Control permissions of an individual member.
 
 Learn more:
 
