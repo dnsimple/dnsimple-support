@@ -77,18 +77,18 @@ Account owners and members with [Full Access](/articles/what-is-domain-access-co
 
 1. Read [What Happens if I Stop Paying for My DNSimple Subscription?](/articles/what-happens-if-i-stop-paying/) for what is disabled and what remains in the account.
 1. [Reactivate your subscription](/articles/reactivate-subscription/). Reactivation starts a **new subscription** on a current plan. Your domains, DNS records, contacts, and account history remain in the account.
-1. If you cannot sign in, or the account shows as suspended, see [Suspended Account](/articles/account-suspended/).
+1. If you cannot sign in, see [Deactivated Account](/articles/account-deactivated/).
 
 > [!NOTE]
 > Reactivation does not grant another free trial if you already used one. Legacy plans cannot be reactivated as-is. Choose a current plan when you resubscribe.
 
-## Account suspended {#account-suspended}
+## Account deactivated {#account-deactivated}
 
-**Symptom:** You cannot use the account, or you see a message that the account is suspended.
+**Symptom:** You cannot use the account, or the sign-in page returns the message `Your account has been deactivated.`
 
-Suspension can follow non-payment, chargebacks, fraud, or other policy issues. See [Suspended Account](/articles/account-suspended/) for reasons and how to contact support.
+Deactivation can follow non-payment, chargebacks, fraud, or other policy issues. See [Deactivated Account](/articles/account-deactivated/) for reasons and how to contact support.
 
-If suspension is only about unpaid subscription fees, resolving billing and [reactivating](/articles/reactivate-subscription/) may restore service.
+If the deactivation is only about unpaid subscription fees, resolving billing and [reactivating](/articles/reactivate-subscription/) may restore service.
 
 ## Have more questions?
 
