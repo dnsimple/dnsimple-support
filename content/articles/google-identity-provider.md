@@ -15,19 +15,19 @@ categories:
 
 ---
 
-Using Google as an identity provider streamlines the login experience for you and your team, and centralizes your organization's identity security to help you manage risk at scale. For how [single sign-on (SSO)](/articles/what-is-sso-at-dnsimple/) works at DNSimple, see our SSO article. Read more about [the benefits of using Google Single Sign-On (SSO)](https://blog.dnsimple.com/2022/06/google-identity-provider/).
+Use Google as an identity provider to streamline login for you and your team. For how [single sign-on (SSO)](/articles/what-is-sso-at-dnsimple/) works at DNSimple, see [What is SSO at DNSimple](/articles/what-is-sso-at-dnsimple/). Read more about [the benefits of using Google SSO](https://blog.dnsimple.com/2022/06/google-identity-provider/).
 
-## Registering a new DNSimple account via Google
+## Registering a new DNSimple account via Google {#registering-via-google}
 
 [Signing up](https://dnsimple.com/signup) for a DNSimple account using Google as your identity provider is straightforward.
 
 1. Click **Sign up using Google**.
 1. Select your Google account.
-1. You'll be returned to DNSimple logged in to your new DNSimple account. We'll use your Gmail address as both your user and account address.
+1. You will be returned to DNSimple logged in to your new DNSimple account. DNSimple uses your Gmail address as your user email.
 
 ![Signing up to DNSimple via Google](/files/google-sso-social-signup.png)
 
-## Linking a Google account to your DNSimple user
+## Linking a Google account to your DNSimple user {#linking-google-user}
 
 ![Link a Google identity](/files/google-link-identity.png)
 
@@ -40,7 +40,7 @@ Using Google as an identity provider streamlines the login experience for you an
 1. You can now log in to DNSimple using the linked Google identity.
 </div>
 
-## Linking a Google Workspace to a DNSimple account
+## Linking a Google Workspace to a DNSimple account {#linking-google-workspace}
 
 ![screenshot: add identity provider](/files/add-identity-provider.png)
 
@@ -56,25 +56,25 @@ Using Google as an identity provider streamlines the login experience for you an
 
 If the Google Workspace is no longer linked (e.g. the access token is revoked), you can re-link the Workspace using the **Re-connect** button.
 
-## Logging in to DNSimple via Google
+## Logging in to DNSimple via Google {#logging-in-via-google}
 
-### Personal
+### Personal {#logging-in-personal-google}
 
-If you did not sign up for DNSimple using Google, and you're using your personal Gmail account, you'll need to [link a Google account your DNSimple user](#linking-a-google-account-your-dnsimple-user) before you can log in via Google. Once your account is linked, you can use your Google account to log in from the the [login page](https://dnsimple.com/login).
+If you did not sign up for DNSimple using Google, and you are using your personal Gmail account, you need to [link a Google account to your DNSimple user](#linking-google-user) before you can log in via Google.
 
-### Workspace
+### Workspace {#logging-in-workspace-google}
 
-You'll need to [link a Google Workspace to your DNSimple account](#linking-a-google-workspace-to-a-dnsimple-account) before your team members can log in via Google SSO.
+You'll need to [link a Google Workspace to your DNSimple account](#linking-google-workspace) before your team members can log in via Google SSO.
 
 Once a Google Workspace is linked to a DNSimple account, any member of the Google Workspace can request access to the DNSimple account by attempting to log in via Google using the respective Workspace.
 
 If this is the first time they're logging in, an email will be sent to the account owner indicating a new team member has signed in to the account. The new team member will not be able to see anything in the account until a team member with full access configures their [access roles](/articles/domain-access-control/).
 
-### Suspended & deleted team members
+### Suspended and deleted team members {#suspended-deleted-google-members}
 
 When you delete or suspend a team member from your company's Google Workspace admin, the corresponding member's DNSimple access will be revoked automatically, reducing the administration requirements for your organization.
 
-## Unlinking a Google Workspace from a DNSimple account
+## Unlinking a Google Workspace from a DNSimple account {#unlinking-google-workspace}
 
 ![screenshot: identity provider list](/files/identity-provider-list.png)
 
@@ -88,7 +88,7 @@ When you delete or suspend a team member from your company's Google Workspace ad
 
 </div>
 
-## Unlinking a Google account from your DNSimple user
+## Unlinking a Google account from your DNSimple user {#unlinking-google-user}
 
 ![screenshot: unlink Google identity provider](/files/unlink-google-identity-provider.png)
 
