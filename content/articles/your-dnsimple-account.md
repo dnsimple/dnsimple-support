@@ -45,6 +45,7 @@ For a guided first login, see [First Steps With Your DNSimple Account](/articles
 - [Billing Settings](/articles/billing-settings/) - Customize invoice details and billing email.
 - [Changing Payment Details](/articles/changing-payment-details/) - Update the card on file.
 - [Changing Subscription Plan](/articles/changing-plans/) - Upgrade or downgrade your plan.
+- [Digital Wallet Replenishment](/articles/wallet-replenishment/) - Add funds to your digital wallet for future purchases.
 - [Account Invoice History](/articles/account-invoice-history/) - View invoices and retry failed payments.
 
 ## Account setup and profile {#account-setup-and-profile}
