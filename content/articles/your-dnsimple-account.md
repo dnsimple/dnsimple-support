@@ -81,7 +81,7 @@ For a guided first login, see [First Steps With Your DNSimple Account](/articles
 
 ## Troubleshooting {#troubleshooting}
 
-- [Suspended Account](/articles/account-suspended/) - Why an account may be suspended and how to get help.
+- [Deactivated Account](/articles/account-deactivated/) - Why an account may be deactivated and how to restore access.
 - [Subscription Renewals](/articles/subscription-renewals/#failed-renewal) - What happens when a renewal payment fails and how retries work.
 - [Account Invoice History](/articles/account-invoice-history/#retrying) - Retry a failed or dunned invoice payment.
 
