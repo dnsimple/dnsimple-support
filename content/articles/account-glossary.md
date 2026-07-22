@@ -209,13 +209,13 @@ Learn more:
 - [Account Invoice History](/articles/account-invoice-history/#invoice-state-dunned)
 - [Subscription Renewals](/articles/subscription-renewals/#failed-renewal)
 
-### Suspended account
+### Deactivated account
 
-An account that DNSimple has restricted because of billing, security, or policy issues. Restoring access usually requires contacting support and, for non-payment, resolving billing or reactivating.
+An account where DNSimple services have stopped. Domains using DNSimple name servers no longer resolve, auto-renewal and WHOIS privacy are disabled, and the domains, records, and account history remain in the account. Deactivation follows either a canceled subscription after failed payment, which you can resolve by reactivating, or a DNSimple restriction for billing, security, or policy reasons, which requires contacting support. Sometimes described as a suspended account.
 
 Learn more:
 
-- [Suspended Account](/articles/account-suspended/)
+- [Deactivated Account](/articles/account-deactivated/)
 - [What Happens if I Stop Paying for My DNSimple Subscription?](/articles/what-happens-if-i-stop-paying/)
 - [Reactivate Your Subscription](/articles/reactivate-subscription/)
 
