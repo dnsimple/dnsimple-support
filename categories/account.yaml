@@ -42,10 +42,15 @@ How-to:
     - "Multi-Factor Authentication"
     - "Enforce Account-Wide Multi-Factor Authentication"
     - "Forgot Password"
-  Troubleshooting:
-    - "Suspended Account"
+
+Troubleshooting:
+  Billing and access:
+    - "Troubleshoot Billing and Payment Failures"
+    - "Deactivated Account"
 
 Reference:
   Billing:
     - "Account Invoice History"
     - "Supported Payment Methods"
+  Team and access:
+    - "Account Roles and Permissions"

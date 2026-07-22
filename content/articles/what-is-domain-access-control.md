@@ -40,7 +40,7 @@ Domain Access Control has two main access levels:
 - **Full Access** gives a member access to all resources inside the account.
 - **Limited Access** lets a member access only the domains you give them permission to manage.
 
-When a member has Limited Access, you can assign a role for each domain they need to manage. The available domain-level roles are **Domain Manager** and **Zone Operator**.
+When a member has Limited Access, you can assign a role for each domain they need to manage. The available domain-level roles are **Domain Manager** and **Zone Operator**. For a side-by-side comparison of what each role can do, see [Account Roles and Permissions](/articles/account-roles-and-permissions/).
 
 > [!NOTE]
 > A member must have Limited Access before you can fine-tune their access at the domain level.
