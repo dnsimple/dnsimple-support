@@ -1,12 +1,13 @@
 ---
 title: Enforce Account-Wide Multi-Factor Authentication
-excerpt: How to ensure an account is secured by requiring all members of an account to use Multi-Factor Authentication.
+excerpt: How to require all members of a DNSimple account to use multi-factor authentication.
+meta: Require multi-factor authentication for every member on Teams and Enterprise accounts. Enable MFA enforcement after all members have MFA enabled.
 categories:
 - Account
 - Enterprise
 ---
 
-# Enforce Multi-Factor Authentication for All Members of an Account
+# Enforce Account-Wide Multi-Factor Authentication
 
 ### Table of Contents {#toc}
 
@@ -15,58 +16,63 @@ categories:
 
 ---
 
-[Multi-factor authentication](/articles/multi-factor-authentication/) (MFA) provides an extra level of security to protect your user credentials. You can enforce MFA for account members by enabling the feature on the account to ensure everyone on your team is using the best available security.
+[Multi-factor authentication](/articles/multi-factor-authentication/) (MFA) adds an extra verification step when members sign in. Enforce MFA on an account to require every member to use it. For why MFA matters, see [Account Security](/articles/account-securing/).
 
-When you have multiple users managing an account, enforcing MFA is vital to reduce the likelihood of a user's credentials being compromised. This feature is available on the Teams plan and higher, with the ability to [manage members of an account](/articles/managing-seats/).
+When multiple users manage an account, enforcing MFA reduces the risk of compromised credentials. This feature is available on Teams plans and higher for accounts that [manage members](/articles/managing-seats/).
 
 ## Enabling MFA enforcement {#enable}
 
-You can enable multi-factor authentication enforcement from your Account page.
+You can enable MFA enforcement from account settings.
 
-**You can only enable MFA enforcement on an account if all users have MFA enabled.** If they don't enable it, you have to remove them from the team to enable this feature, then re-invite them. They'll be asked to enable MFA after they sign up so they can join your account.
+You can only enable MFA enforcement when **all members already have MFA enabled**. If a member does not enable MFA, remove them from the account to turn on enforcement, then re-invite them. They will be asked to enable MFA before they can join.
 
 <div class="section-steps" markdown="1">
 ##### To enable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account from the account switcher at the top-right corner of the screen and clicking **Account settings**.
-  ![screenshot: account settings](/files/account-nav-link.png)
+1. Select the relevant account from the account switcher, then open <label>account settings</label>.
+
+    ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
-1. Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. When all members of your Team have MFA enabled, you can use this feature.
-  ![screenshot: mfa settings for account](/files/mfa.png)
+1. Scroll to the <label>Enforce multi-factor authentication</label> card. When all members have MFA enabled, you can turn on enforcement.
 
-1.  If there are users in your account who don't have MFA enabled, you'll see a list of non-compliant users. You can [remove the users](/articles/account-users/#removing-members) from the account in the **Members** card.
-  ![screenshot: non compliant mfa users](/files/non-compliant-mfa-users.png)
-</div>
+    ![screenshot: mfa settings for account](/files/mfa.png)
 
+1. If members do not have MFA enabled, you will see a list of non-compliant users. You can [remove those members](/articles/account-users/#removing-members-from-an-account) from the <label>Members</label> card.
+
+    ![screenshot: non compliant mfa users](/files/non-compliant-mfa-users.png)
+
+</div>, 
 
 ## Disabling MFA enforcement {#disable}
 
 <div class="section-steps" markdown="1">
 ##### To disable MFA enforcement
 
-1. Go to your account settings by selecting the relevant account from the account switcher at the top-right corner of the screen and clicking **Account settings**.
-  ![screenshot: account settings](/files/account-nav-link.png)
+1. Select the relevant account from the account switcher, then open <label>account settings</label>.
+
+    ![screenshot: account settings](/files/account-nav-link.png)
 
 1. Select the <label>Members and seats</label> tab on the left.
-1. Scroll down until you see the <label>Enforce Multi-Factor Authentication</label> card. There's a link to <label>Disable</label> the feature.
-  ![screenshot: disable mfa](/files/mfa-disable.png)
+1. Scroll to the <label>Enforce multi-factor authentication</label> card, then click <label>Disable</label>.
+
+    ![screenshot: disable mfa](/files/mfa-disable.png)
 
 </div>
 
-## Disabling MFA while on an enforced team
+## Disabling MFA while on an enforced team {#disabling-mfa-on-enforced-team}
 
-You always retain the option to [disable multi-factor authentication](/articles/multi-factor-authentication/#disable) on your personal account. However, this action will automatically remove you from all accounts that enforce MFA.
+You can always [disable multi-factor authentication](/articles/multi-factor-authentication/#disable) on your user profile. Doing so automatically removes you from every account that enforces MFA.
 
 > [!WARNING]
-> If you disable MFA, you will immediately be removed from all accounts that enforce MFA to ensure the continued security of those accounts. Only remove MFA from your personal account if you no longer need access to any accounts that enforce MFA.
+> If you disable MFA, you are immediately removed from all accounts that enforce MFA. Only disable MFA on your user if you no longer need access to those accounts.
 
-## Inviting new people into an MFA-enforced team
+## Inviting new members to an MFA-enforced account {#inviting-to-mfa-enforced-account}
 
-There are no restrictions on inviting new people to your account. When you invite users who don't already have DNSimple accounts, they'll be asked to enable MFA after they sign up so they can join your account.
+You can invite new people to your account without restrictions. When you invite users who do not yet have DNSimple users, they are asked to enable MFA after signup before they can join.
 
-If the user already has a DNSimple account, they can only join the team if they have [MFA enabled](https://support.dnsimple.com/articles/multi-factor-authentication/#enable).
+If the user already has a DNSimple user, they can join only when they have [MFA enabled](/articles/multi-factor-authentication/#enable).
 
-## Need more help?
+## Have more questions?
 
-If you need any assistance enabling or disabling MFA enforcement for your account, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about enabling or disabling MFA enforcement, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
