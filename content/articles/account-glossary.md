@@ -1,7 +1,7 @@
 ---
 title: Account Glossary
-excerpt: Definitions for DNSimple Account terms including user, account, member, user email, notification email, billing email, seats, Domain Access Control roles, SSO, and MFA.
-meta: Account glossary for DNSimple terms: user, account, member, user email, notification email, billing email, seats, Full Access, Limited Access, Domain Manager, Zone Operator, SSO, MFA, and subscription.
+excerpt: "Definitions for DNSimple Account terms including user, account, member, user email, notification email, billing email, seats, Domain Access Control roles, SSO, and MFA."
+meta: "Account glossary for DNSimple terms: user, account, member, user email, notification email, billing email, seats, Full Access, Limited Access, Domain Manager, Zone Operator, SSO, MFA, and subscription."
 categories:
 - Account
 ---
