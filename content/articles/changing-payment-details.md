@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Update the credit card or payment method DNSimple uses for your account subscription and purchases.
+Update the credit card or payment method DNSimple uses for your account subscription and purchases. For the full list of methods DNSimple accepts, see [Supported Payment Methods](/articles/supported-payment-methods/).
 
 Account owners and team members with [Full Access](/articles/what-is-domain-access-control/#full-access) can change the payment method associated with the DNSimple account at any time.
 
