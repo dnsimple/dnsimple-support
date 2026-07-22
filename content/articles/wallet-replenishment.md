@@ -16,7 +16,7 @@ categories:
 
 ---
 
-[Enterprise customers](https://dnsimple.com/sales) can add funds to a digital wallet for future purchases, such as domain registrations, domain renewals, domain transfers, and SSL certificates. DNSimple supports ACH, wire transfer, and card payments to add funds to your digital wallet.
+[Enterprise customers](https://dnsimple.com/sales) can add funds to a digital wallet for future purchases, such as domain registrations, domain renewals, domain transfers, and SSL certificates. DNSimple supports ACH, wire transfer, and card payments to add funds to your digital wallet. For the other ways to pay DNSimple, see [Supported Payment Methods](/articles/supported-payment-methods/).
 
 > [!NOTE]
 > Automatic wallet replenishments are not yet available. You need to manually add funds to your wallet.
