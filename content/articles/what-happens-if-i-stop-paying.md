@@ -47,4 +47,4 @@ You can restore service by reactivating your subscription. See [Reactivate Your 
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with your subscription payments, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your subscription payments, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -55,4 +55,4 @@ You can [reactivate a canceled subscription](/articles/reactivate-subscription/)
 
 ## Have more questions?
 
-If you have additional questions or need any assistance with your subscription renewal, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have additional questions or need any assistance with your subscription renewal, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
