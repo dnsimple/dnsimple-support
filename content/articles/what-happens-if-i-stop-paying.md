@@ -43,7 +43,7 @@ If you are a billing contact but not an authorized user, you cannot reactivate t
 
 ## Reactivating your subscription {#reactivation}
 
-You can restore service by reactivating your subscription. See [Reactivate Your Subscription](/articles/reactivate-subscription/) for the steps.
+You can restore service by reactivating your subscription. See [Reactivate Your Subscription](/articles/reactivate-subscription/) for the steps. For a broader path that covers failed invoices, card updates, and suspension, see [Troubleshoot Billing and Payment Failures](/articles/troubleshoot-billing-and-payment-failures/).
 
 ## Have more questions?
 

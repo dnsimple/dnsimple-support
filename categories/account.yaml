@@ -42,7 +42,10 @@ How-to:
     - "Multi-Factor Authentication"
     - "Enforce Account-Wide Multi-Factor Authentication"
     - "Forgot Password"
-  Troubleshooting:
+
+Troubleshooting:
+  Billing and access:
+    - "Troubleshoot Billing and Payment Failures"
     - "Suspended Account"
 
 Reference:

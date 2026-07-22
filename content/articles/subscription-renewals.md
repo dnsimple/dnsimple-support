@@ -45,6 +45,8 @@ DNSimple attempts to collect payment once a week during this period and sends pa
 
 If you know you cannot provide a valid card number before your subscription is canceled, [contact us](https://dnsimple.com/contact).
 
+For a step-by-step path through failed invoices, card updates, and reactivation, see [Troubleshoot Billing and Payment Failures](/articles/troubleshoot-billing-and-payment-failures/).
+
 ## What happens if my subscription is canceled? {#canceled-subscription}
 
 If your subscription is canceled because of too many failed renewal attempts, DNSimple will immediately notify you by email, and all services provided by DNSimple will stop. Learn more about [what happens if you stop paying for your subscription](/articles/what-happens-if-i-stop-paying/).
