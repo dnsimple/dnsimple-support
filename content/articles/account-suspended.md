@@ -1,31 +1,25 @@
 ---
 title: Suspended Account
-excerpt: Why a DNSimple account may be suspended and how to resolve it.
-meta: Learn why DNSimple accounts are suspended and how to contact support or reactivate your subscription to restore access.
+excerpt: Reasons your DNSimple account may be suspended.
+meta: Common reasons for DNSimple account suspension and how to resolve issues to regain access to your domains and services.
 categories:
 - Account
 ---
 
 # Suspended Account
 
-DNSimple may suspend an account when billing, security, or policy issues need to be resolved before service can continue.
+In some cases, we may have to suspend your subscription.
 
 Common reasons include:
 
-- Non-payment of subscription fees
-- Chargebacks issued against the account
+- Non-payment of subscription fee
+- Chargebacks being issued against your account
 - Fraudulent activity
 - Repeated failure to pay outstanding invoices
-- Identification of the account as a root cause of service disruption for other customers
+- Identification of your account as a root cause of service disruption for other customers
 
-For what happens when payment stops, see [What Happens If You Stop Paying for DNSimple](/articles/what-happens-if-i-stop-paying/). If non-payment caused the suspension, you may be able to [reactivate your subscription](/articles/reactivate-subscription/) after resolving billing.
+## What to do if your account is suspended
 
-## What to do if your account is suspended {#what-to-do-if-suspended}
+If you attempt to log in and receive an error message indicating your account is suspended, please contact us at [support@dnsimple.com](mailto:support@dnsimple.com), or through the [contact page](https://dnsimple.com/contact). We'll do everything we can to help you get your account back in working order.
 
-If you try to sign in and see a message that your account is suspended, contact us at [support@dnsimple.com](mailto:support@dnsimple.com) or through the [contact page](https://dnsimple.com/contact). We will work with you to restore access when possible.
-
-If your email address is under a domain in the suspended account and no longer works, contact us from an alternate email address. Include the user email or notification email for the account in your message. We may ask for additional information to verify your identity.
-
-## Have more questions?
-
-If you have questions about a suspended account, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If your email address is under a domain in the suspended account and is no longer working, please use an alternate email address to contact us. Include the email address for your account in the body of your support request. **We may ask you for additional information to verify your identity.**
