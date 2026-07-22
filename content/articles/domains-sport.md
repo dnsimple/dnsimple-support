@@ -17,8 +17,7 @@ categories:
 
 ## Registering a .SPORT domain {#registering}
 
-.SPORT registrations are non-realtime. This means that the registry reviews .SPORT applications by hand,
-so the domain is not active the moment you order it. When you register a .SPORT domain through DNSimple, your application is forwarded to the .SPORT registry for review.
+.SPORT registrations are non-realtime. This means that the registry reviews .SPORT applications by hand, so the domain is not active the moment you order it. When you register a .SPORT domain through DNSimple, your application is forwarded to the .SPORT registry for review.
 
 The registry contacts you with a series of questions about your registration. These questions are accessible through the registry user platform at [cp.nic.sport](https://cp.nic.sport/login), where a ticket is assigned to the applicant.
 
