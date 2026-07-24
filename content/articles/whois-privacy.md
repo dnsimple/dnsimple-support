@@ -1,12 +1,12 @@
 ---
 title: WHOIS Privacy Protection
 excerpt: How to enable and disable WHOIS Privacy for a domain.
-meta: Enable and disable free WHOIS Privacy for your domain at DNSimple to protect your personal information from public view in WHOIS lookups.
+meta: Enable and disable free WHOIS Privacy for your domain at DNSimple to protect your personal information from public view in domain registration lookups.
 categories:
 - Whois Privacy
 ---
 
-# Domain WHOIS Privacy protection
+# WHOIS Privacy Protection
 
 ### Table of Contents {#toc}
 
@@ -15,57 +15,68 @@ categories:
 
 ---
 
-The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public WHOIS database.
+The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public registration record.
 
-You can enable WHOIS Privacy protection for any of your domains any time, as long as the domain is registered with us and the TLD (Top Level Domain) supports the WHOIS Privacy service. You can check if a TLD supports WHOIS Privacy from the [list of supported TLDs](https://dnsimple.com/tlds).
+WHOIS Privacy is included at no cost on every DNSimple plan. You can enable it for any of your domains at any time, as long as the domain is registered with us and the TLD supports the service.
 
 > [!TIP]
-> The WHOIS Privacy service is now **free** for domains registered with us.
-
+> Not every TLD supports WHOIS Privacy. To check before you start, find the TLD on the [TLD pricing page](https://dnsimple.com/tlds) and look at the WHOIS privacy column.
 
 ## Enabling WHOIS Privacy {#enable}
 
-You can enable WHOIS Privacy protection from your domain page.
+The WHOIS Privacy control is in the contact card on the **Registration** tab of your domain page.
 
 <div class="section-steps" markdown="1">
-##### Enabling WHOIS Privacy from the domain page {#enable-whois-domain-page}
+##### Enable WHOIS Privacy from the domain page {#enable-whois-domain-page}
 
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click the name to access the domain page.
-1.  Scroll down to the _Contact_ card. It will indicate if the WHOIS Privacy service is enabled.
+1. Log in to DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click the name to access the domain page.
+1. On the domain details page, click the <label>Registration</label> tab on the left side.
+1. Find the contact card. It indicates whether the WHOIS Privacy service is enabled.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-disabled.png)
 
-1.  To enable the WHOIS Privacy service, click the <label>Enable WHOIS Privacy</label> link.
+1. Click the <label>Enable WHOIS Privacy</label> button.
 
 </div>
 
+Once the service is enabled, the card reads "WHOIS Privacy is enabled" and your contact information is private.
+
 ## Disabling WHOIS Privacy {#disable}
 
-You can disable WHOIS Privacy protection from your domain page.
-
-You can reactivate your domain's WHOIS Privacy protection any time until the protection service expires without paying for it again.
+You can disable WHOIS Privacy protection from the same card, and enable it again later at any time at no cost.
 
 > [!WARNING]
-> Once you disable WHOIS Privacy protection, the contact details of your domain will be public.
+> Once you disable WHOIS Privacy protection, the contact details of your domain may become public.
 
 <div class="section-steps" markdown="1">
 ##### Disable WHOIS Privacy from the domain page {#disable-whois-domain-page}
 
-1.  Log in to DNSimple with your user credentials.
-1.  If you have more than one account, select the relevant one.
-1.  On the header, click the <label>Domains</label> tab, locate the relevant domain, and click the name to access the domain page.
-1.  Scroll down to the _Contact_ card. It will indicate if the WHOIS Privacy service is enabled.
+1. Log in to DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one.
+1. On the header, click the <label>Domain Names</label> tab, locate the relevant domain, and click the name to access the domain page.
+1. On the domain details page, click the <label>Registration</label> tab on the left side.
+1. Find the contact card. It indicates whether the WHOIS Privacy service is enabled.
 
     ![WHOIS Privacy card](/files/whoisprivacy-domain-card-enabled.png)
 
-1.  To disable the WHOIS Privacy service, click the <label>Disable WHOIS Privacy</label> link.
+1. Click the <label>Disable WHOIS privacy</label> button.
 
 </div>
 
-## WHOIS Privacy and GDPR {#gdpr}
+## When WHOIS Privacy is not available {#not-supported}
 
-For generic TLDs (gTLDs) like .com, .net, and .org, WHOIS privacy isn't necessary, because the information will be redacted through GDPR. This also applies to new TLDs (nTLDs) like .app, .dev, and others.
+If the TLD does not support the service, the contact card reads "WHOIS Privacy is not supported" and no enable button appears. A request made through the API for an unsupported TLD returns the error "TLD .{tld} does not support WHOIS privacy".
 
-For country code TLDs (ccTLDs), check the policies for the specific TLD to determine their stance on WHOIS data, and apply WHOIS privacy when it's available.
+This is a registry restriction rather than an account limitation, so it applies to every domain under that TLD. Check the [TLD pricing page](https://dnsimple.com/tlds) to confirm which TLDs support WHOIS Privacy.
+
+## WHOIS Privacy and registration data redaction {#gdpr}
+
+Registration data for most generic TLDs is already redacted under ICANN's Registration Data Policy, so enabling WHOIS Privacy may make little visible difference in a public lookup for a domain like `.com` or `.dev`. Country code TLDs set their own policies, and some publish more than generic TLDs do.
+
+For what redaction covers, and where WHOIS Privacy still adds protection, see [Domain privacy after GDPR](/articles/domain-privacy-after-gdpr/).
+
+## Have more questions?
+
+If you have any questions about WHOIS Privacy, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
