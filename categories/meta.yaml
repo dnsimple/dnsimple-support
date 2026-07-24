@@ -9,7 +9,7 @@ dnsimple: DNSimple support articles covering DNS settings, troubleshooting, and 
 dnssec: Explore our comprehensive DNSSEC support articles to understand how to enhance your domain's security, protect against spoofing, and ensure data integrity.
 emails: Explore our comprehensive guide on email services with DNSimple. Find articles, tips, and solutions to optimize your email experience effortlessly.
 contacts: Explore our comprehensive guide on managing contacts in DNSimple. Find articles, tips, and best practices to effectively handle your domain contacts.
-connectors: Guides on DNSimple connectors to integrate your DNS with external services, improving connectivity and multi-provider management.
+connectors: Articles on DNSimple connectors, which link a domain to a Heroku app or Netlify site and configure the required DNS records automatically.
 services: Explore our one-click services, designed to help you effectively utilize and manage DNSimple's powerful features and tools.
 name_servers: Articles on name server setup, management, and troubleshooting at DNSimple, including vanity name servers and delegation configuration.
 whois_privacy: Articles on DNSimple's free WHOIS Privacy service, covering setup, management, and how it protects your personal information from public view.
