@@ -19,10 +19,10 @@ For domains registered with DNSimple, [Domain Managers](/articles/what-is-domain
 
 Domains that use [domain trustee](/articles/what-is-domain-trustee/) may show only the extended attributes that still apply for that trustee configuration when you update contacts.
 
-> [!NOTE] Domains not registered with DNSimple
+> [!NOTE]
 > These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to update the contact information at your current registrar, or transfer the domain to DNSimple.
 
-## Assigning a new domain contact
+## Assigning a new domain contact {#assigning-a-new-domain-contact}
 
 To assign a new contact to one of your domains, create the new contact record, then associate the domain to the new contact.
 
@@ -46,9 +46,9 @@ To assign a new contact to one of your domains, create the new contact record, t
     ![screenshot of editing a contact](/files/confirm-contact-change.png)
 </div>
 
-## Updating a domain contact
+## Updating a domain contact {#updating}
 
-You can update the contact details to change existing contact information. DNSimple will immediately update the registry data and the WHOIS record with the new information.
+You can update the contact details to change existing contact information. For most TLDs, DNSimple submits the change to the registry immediately. Some TLDs require the registry to confirm the change first, so the update is not instant. See [registrant changes that need registry confirmation](#registry-confirmation).
 <div class="section-steps" markdown="1">
 ##### To change the contact information
 
@@ -60,23 +60,43 @@ You can update the contact details to change existing contact information. DNSim
 
 </div>
 
-## Monitoring a contact change
+## Monitoring a contact change {#monitoring}
 
 > [!NOTE]
 > When a domain contact has been changed, you will receive a confirmation email from noreply@emailverification.info. You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
 
-Some TLDs require extra steps before authorizing a registrant change.
+<div class="section-steps" markdown="1">
+##### Check the status of a registrant change
 
-1.  On the domain details page, click the **Registration** tab on the left side.
+1. On the domain details page, click the <label>Registration</label> tab on the left side.
 
     ![Domain registration details](/files/domain-registration-details.png)
 
-1.  If action is required, the card displaying the contact information of your domain will show a list of instructions that need to be completed for the registrant change to succeed. If you want to cancel the change, click **Cancel change**.
+1. If action is required, the card displaying the contact information of your domain shows a list of instructions that must be completed for the registrant change to succeed.
 
     ![Contact change pending](/files/contact-change-monitor.png)
 
+1. To stop a change that has not completed yet, click <label>Cancel change</label>.
 
-## Special WHOIS policies
+</div>
+
+A registrant change can be cancelled while it is still new or pending. Once it completes, it cannot be reversed from this page; you would need to start a new change.
+
+## Registrant changes that need registry confirmation {#registry-confirmation}
+
+Most registrant changes complete without any extra steps. The following TLDs require the registry to confirm the change, so the request does not finish in the app on its own:
+
+| TLD |
+|-----|
+| .at |
+| .au |
+| .es |
+| .nu |
+| .se |
+
+For these TLDs, the contact card shows the instructions that apply, and completing the change requires us to act with the registry. [Contact support](https://dnsimple.com/feedback) and we will finish the registrant change for you.
+
+## Special WHOIS policies {#whois-policies}
 
 Some registries adopt specific contact update policies that may cause the WHOIS update task to fail. View [this article](/articles/changing-whois-contact/) for a list of the most common registrar-specific policies.
 

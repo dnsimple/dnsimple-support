@@ -1,6 +1,6 @@
 ---
 title: Managing Your Contacts
-excerpt: This article explains how to manage your contacts for your domains and SSL certificates.
+excerpt: How to create, update, and delete the domain contacts in your DNSimple account.
 meta: Create, update, and delete domain contacts in your DNSimple account. Keep contact information accurate to avoid ICANN verification issues.
 categories:
 - Contacts
@@ -8,57 +8,70 @@ categories:
 
 # Managing Your Contacts
 
+### Table of Contents {#toc}
+
 * TOC
 {:toc}
+
+---
+
+Domain contacts hold the registrant details required to register a domain or order an SSL certificate. Contacts belong to your account rather than to an individual user, so adding someone as a contact does not give them access to your DNSimple account. You manage them from the <label>Contacts</label> tab in the header.
 
 > [!NOTE]
 > These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
 
-## Why domain contacts are important
+## Why domain contacts are important {#why}
 
 For domains registered with DNSimple, [Domain Managers](/articles/what-is-domain-access-control/#domain-manager) and anyone with [Full Access](/articles/what-is-domain-access-control/#full-access) can manage contacts associated with domains.
 
-Domain contacts are required for registering a new domain or purchasing a new SSL certificate. Domain contact information is associated with accounts rather than individual users. Adding someone as a domain contact does not give them access to your DNSimple account or user.
+A contact must have correct, up-to-date information, because it may be used for [ICANN contact verification](/articles/icann-domain-validation/) after you register a domain. If the information is incorrect, the contact may not receive the validation request. Failure to validate the registrant email address results in suspension of the domain name after 15 days of non-compliance.
 
-A contact must have correct, up-to-date information, as it may be used by [ICANN for contact verification](/articles/icann-domain-validation/) after purchasing a domain. If the information is incorrect the contact  may not recieve the validation request. Failure to validate the registrant email address will result in suspension of the domain name after 15 days of non-compliance.
+Contacts may also receive [NIS2 contact email verification](/articles/nis2-contact-verification/), which confirms the address is reachable but does not suspend the domain.
 
-Use an email address that does not belong to the custom domain you're managing (e.g. if you own `example.buisness`, don't use `Hello@example.business`). If your email is tied to the domain, and it becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications.
+Use an email address that does not belong to the domain you are managing. If you own `example.business`, do not use `hello@example.business`. If your email is tied to the domain, and the domain becomes unavailable, expires, or is not configured correctly, you might not receive notifications.
 
-Read this list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) for more ways to avoid potential issues with your domains.
+For what each field requires, see the [domain contact field reference](/articles/domain-contact-field-reference/).
 
-## Creating a new contact
+## Creating a new contact {#create}
 
-If this is the first time you're registering a domain or ordering a new SSL certificate, and you haven't created any contacts yet, you'll be prompted to create one during this flow. Once a contact is created, it's available for future domain management operations.
+If you are registering a domain or ordering an SSL certificate for the first time and have not created any contacts yet, you will be prompted to create one during that flow. Once a contact is created, it is available for future domain management operations.
 
 ![creating a contact during domain registration](/files/contact-creation.png)
 
-You can also create a new contact at any time through the **Contacts** page.
+You can also create a contact at any time from the <label>Contacts</label> tab.
 
 ![creating a new contact](/files/change-contact-1.png)
 
 > [!NOTE]
 > If the email address on the contact has not been verified to comply with [NIS2 regulations](https://nis2directive.eu/what-is-nis2/), you will receive a verification email. Follow the link in the email to complete the verification. For details, see [NIS2 Contact Email Verification](/articles/nis2-contact-verification/).
 
-## Updating contacts
+## Updating contacts {#update}
 
-If a contact is associated with multiple domains, updating that contact also updates all the contact information associated with these domains. You don't need to individually update these domains if they're associated with the same contact.
+If a contact is associated with multiple domains, updating that contact updates the contact information for all of those domains. You do not need to update each domain individually when they share the same contact.
 
-To update the contact for a specific domain, you will need to [replace the domain contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) with a new one.
+To change which contact a specific domain uses, [replace the domain contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) instead.
 
 > [!NOTE]
 > When you update a domain contact:
 > - You will receive a confirmation email from noreply@emailverification.info.
 > - You may also see a message that the contact change results in the domain being [locked from transfers for 60 days](/articles/icann-60-day-lock-registrant-change/).
-> - If you update the contact's email address you may also receive an specific email to verify the new email address.
+> - If you update the contact's email address, you may also receive a separate email to verify the new address.
 
-### Deleting a contact
+## Deleting a contact {#delete}
 
-If a contact is associated with at least one domain or SSL certificate, this contact cannot be deleted. You must remove all associated domains or SSL certificates with the contact before you can delete it.
-
-If you can delete a contact, you will see a trash can icon next to their name.
+You can delete a contact from the <label>Contacts</label> tab. If a contact can be deleted, a trash can icon appears next to its name.
 
 ![contact deletion](/files/contact-delete.png)
 
+A contact cannot be deleted while either of the following is true:
+
+- **The contact is the registrant of at least one domain.** Assign a different contact to those domains first. See [Changing Domain Contacts](/articles/changing-domain-contact/).
+- **The contact has a registrant change still in progress.** Wait for the change to complete, or cancel it from the <label>Registration</label> tab of the affected domain.
+
+The second case is easy to miss. A contact can look unused because no domain currently lists it as the registrant, and still refuse to delete because a registrant change naming it has not finished.
+
+Contacts used on an SSL certificate order are not blocked from deletion.
+
 ## Have more questions?
 
-If you have any further questions or need assistance with your domain contacts, [contact our support team](https://dnsimple.com/contact), and we'll be happy to help.
+If you have any further questions or need assistance with your domain contacts, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
