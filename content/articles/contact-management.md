@@ -24,6 +24,8 @@ A contact must have correct, up-to-date information, as it may be used by [ICANN
 
 Use an email address that does not belong to the custom domain you're managing (e.g. if you own `example.buisness`, don't use `Hello@example.business`). If your email is tied to the domain, and it becomes unavailable, expires, or is not configured correctly, you might not be able to receive notifications.
 
+For what each field requires, see the [Domain Contact Field Reference](/articles/domain-contact-field-reference/).
+
 Read this list of [8 tips for domain management](https://blog.dnsimple.com/2017/05/domain-management-tips/) for more ways to avoid potential issues with your domains.
 
 ## Creating a new contact
