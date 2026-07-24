@@ -1,7 +1,7 @@
 ---
 title: NIS2 Contact Email Verification
 excerpt: Learn what NIS2 contact email verification is, how to complete it, and how it differs from ICANN registrant validation.
-meta: NIS2 contact email verification at DNSimple confirms that the email address on a domain contact is valid. It is sent from support@dnsimple.com and, unlike ICANN registrant validation, does not cause domain suspension.
+meta: NIS2 contact email verification at DNSimple confirms a domain contact's email is valid. Unlike ICANN registrant validation, it does not suspend your domain.
 categories:
 - Domains and Transfers
 - Contacts
@@ -36,7 +36,7 @@ The email has these characteristics:
 - **Subject:** Action Required: Verify your contact email address
 - **Link:** a `https://dnsimple.com/email_verification/...` address unique to that contact email
 
-The link is time-limited. The message states the exact date and time it expires, so complete the verification before then. If you cannot find the email, check your spam folder.
+The link expires 7 days after the verification email is sent. The message states the exact date and time it expires, so complete the verification before then. If you cannot find the email, check your spam folder.
 
 ## How to verify your contact email address {#verify}
 
