@@ -23,19 +23,19 @@ For most top-level domains, validation is required by [ICANN](https://www.icann.
 > [!NOTE]
 > This validation is separate from [NIS2 contact email verification](/articles/nis2-contact-verification/). ICANN validation is sent from `noreply@emailverification.info` and can lead to suspension. NIS2 verification is sent from `support@dnsimple.com` and does not cause suspension. A domain can require both at the same time.
 
-## Why domain validation exists
+## Why domain validation exists {#why}
 
 ICANN requires domain validation to maintain the accuracy of the WHOIS database, which contains contact information for all registered domains. Accurate contact information is essential for resolving disputes, handling security incidents, and ensuring that domain owners can be reached when necessary. Without validation, the database could contain outdated or incorrect email addresses, making it impossible to contact domain owners for critical matters such as transfer authorizations, security alerts, or legal notices.
 
 The validation requirement also protects domain owners by ensuring that any changes to registrant information are verified. This prevents unauthorized modifications that could lead to domain hijacking or loss of control over a domain.
 
-## How domain validation emails work
+## How domain validation emails work {#how}
 
 After you register a new domain or make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
 ![Contact change confirmation](/files/contact-change.png)
 
-## What the verification email looks like
+## What the verification email looks like {#email}
 
 ### When registering a new domain
 
@@ -52,7 +52,7 @@ The email is sent from one of the following addresses:
 
 The message will contain a verification link that goes to <https://www.emailverification.info/>.
 
-## Resend verification email
+## Resend verification email {#resend}
 
 If you are having trouble finding the email verification in your inbox, please remember to check your spam folder.
 
@@ -62,7 +62,7 @@ If it isn't there, resend the email by navigating to your domain page in DNSimpl
 
 Once the email is verified, the warning should disappear. If it doesn't, it may be because our system hasn't refreshed the latest status yet. Click **Refresh** to manually force a refresh.
 
-## What happens when a domain is suspended?
+## What happens when a domain is suspended? {#suspension}
 
 If your domain is suspended because the registrant email address was not verified in time, the name servers will be changed to the following:
 
@@ -85,9 +85,21 @@ If your domain was suspended, it may take between 24 and 48 hours for the suspen
 
 DNS caching means that name server changes propagate gradually across the internet. Even after the registry updates your domain's name servers back to your original settings, some DNS resolvers around the world may still have cached the old verification name servers. This propagation delay is normal and expected, and your domain will resume normal operation once DNS caches expire and refresh.
 
-## What happens if the registrant email address cannot receive email?
+## What happens if the registrant email address cannot receive email? {#cannot-receive}
 
 You must be able to receive an email at the registrant email address to complete the verification process. If you set up the email address after registration or changing your registrant details, contact support@dnsimple.com to resend the verification email. Be sure to include the domain name that you need to verify in your email to support.
+
+## How this differs from NIS2 verification {#vs-nis2}
+
+ICANN registrant validation and [NIS2 contact email verification](/articles/nis2-contact-verification/) are separate processes, and only one of them can suspend a domain.
+
+| | ICANN registrant validation | NIS2 contact email verification |
+|---|---|---|
+| Applies to | The registrant contact on a domain | Any domain contact |
+| Sent from | noreply@emailverification.info | support@dnsimple.com |
+| If ignored | The domain is suspended after 15 days | The contact remains unverified; the domain is not suspended |
+
+You may receive both for the same domain. Completing one does not complete the other.
 
 ## Have more questions?
 

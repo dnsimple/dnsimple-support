@@ -20,13 +20,13 @@ Some top-level domains (TLDs) require local presence, a designated registrant ty
 
 ## What Is a Domain Trustee? {#what-is-a-domain-trustee}
 
-A **domain trustee** is the party that meets the registry's eligibility role on paper—often a local partner or designated registrant—when rules say the domain cannot be held under your personal or company details alone. **You remain the beneficiary**: you keep operational control through DNSimple (DNS, renewal, transfers, and account billing). The trustee fulfills the registry's legal or administrative requirement so the registration or transfer can complete.
+A **domain trustee** is the party that meets the registry's eligibility role on paper, often a local partner or designated registrant, when rules say the domain cannot be held under your personal or company details alone. **You remain the beneficiary**: you keep operational control through DNSimple (DNS, renewal, transfers, and account billing). The trustee fulfills the registry's legal or administrative requirement so the registration or transfer can complete.
 
 ## How do optional and required trustee differ? {#optional-vs-required}
 
-**Optional trustee** — The TLD supports trustee, but registration or transfer may still be possible without it if you supply every registry requirement yourself (for example, all [extended attributes](/articles/domain-registration-reference/#extended-attributes)). When you choose trustee, the flow may ask for fewer registry fields than when trustee is off.
+**Optional trustee**. The TLD supports trustee, but registration or transfer may still be possible without it if you supply every registry requirement yourself (for example, all [extended attributes](/articles/domain-registration-reference/#extended-attributes)). When you choose trustee, the flow may ask for fewer registry fields than when trustee is off.
 
-**Required trustee** — The registry mandates trustee for that TLD. You cannot opt out; trustee is part of standard eligibility. How it appears in checkout (included in the price versus a separate fee) depends on the TLD. See [.COM.BR domains](/articles/domains-com-br/) for an example where trustee is required.
+**Required trustee**. The registry mandates trustee for that TLD. You cannot opt out; trustee is part of standard eligibility. How it appears in checkout (included in the price versus a separate fee) depends on the TLD. See [.COM.BR domains](/articles/domains-com-br/) for an example where trustee is required.
 
 Trustee is not universal: many TLDs do not offer it. Whether a suffix supports optional trustee, requires trustee, or offers no trustee depends on the registry.
 
@@ -36,7 +36,7 @@ Trustee service applies only during [domain registration](/articles/registering-
 
 ## How does domain trustee affect extended attributes? {#extended-attributes}
 
-Many TLDs collect extended attributes—extra registry fields beyond standard contact data—during registration or transfer.
+Many TLDs collect extended attributes, which are extra registry fields beyond standard contact data, during registration or transfer.
 
 When trustee applies, you may still need to provide some attributes, or none, depending on the TLD and whether trustee is optional or required. If trustee is optional and you disable it, you normally must complete the full attribute set the registry requests.
 
@@ -49,6 +49,10 @@ When trustee is optional and you add it, DNSimple lists trustee as its own invoi
 ## Can you use domain trustee through the API? {#api}
 
 Yes. If you register or transfer domains using the [DNSimple API](/articles/api-documentation/), the same optional-or-required trustee rules apply as in the dashboard. Use the [developer documentation](https://developer.dnsimple.com/) for the exact requests and responses for your integration.
+
+## Where to manage trustee settings {#manage}
+
+Trustee applies per domain name. When you [change a domain contact](/articles/changing-domain-contact/) on a domain that uses trustee, the extended attributes shown are limited to those that still apply for that trustee configuration.
 
 ## Have more questions?
 

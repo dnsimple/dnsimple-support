@@ -7,7 +7,7 @@ categories:
 - Domains and Transfers
 ---
 
-# 60-Day Lock After Change of Registrant
+# ICANN 60-Day Lock After Change of Registrant
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,17 @@ categories:
 
 ---
 
-For all domains under registries contracted with ICANN, including all [gTLDs](/articles/what-is-tld/), [newGTLDs](/articles/what-is-tld/), and potentially some [ccTLDs](/articles/what-is-tld/), a new [ICANN policies went into effect December 1st, 2016](https://www.icann.org/resources/pages/ownership-2013-05-03-en):
+Changing the registrant on a domain locks it against transfer to another registrar for 60 days. This is [ICANN policy](https://www.icann.org/resources/pages/ownership-2013-05-03-en) that took effect on 1 December 2016, and it applies to domains under registries contracted with ICANN, including all [gTLDs](/articles/what-is-tld/) and [newGTLDs](/articles/what-is-tld/), and potentially some [ccTLDs](/articles/what-is-tld/).
+
+DNSimple does not offer an opt-out. If you plan to transfer a domain away, complete the transfer before changing the registrant.
+
+## When the lock applies {#when-it-applies}
+
+The lock is not triggered by every contact edit. It applies when the change is a **change of registrant**, meaning the identity of the domain's owner changes at the registry.
+
+Correcting a typo in a phone number, updating a postal address, or changing the email address on the existing registrant does not normally trigger it. Assigning a different contact as the registrant, or changing the registrant's name or organization, does.
+
+When a change will trigger the lock, DNSimple warns you before you confirm it. The confirmation screen shows an "ICANN 60-day lock" notice, so you can cancel if the timing does not suit you. If you do not see that notice, the change is not treated as a change of registrant.
 
 ## Why the 60-day lock exists {#why-the-60-day-lock-exists}
 
@@ -33,9 +43,11 @@ The lock applies specifically to transfers between registrars. It does not preve
 >
 > Because policies may vary by registrar, please review a registrar's policy before making a change to registrant information or transferring to another registrar.
 
-We do not support the ability to opt-out of the 60-day lock. We highly recommend that if you plan to transfer your domain, you wait to update the contact information until after it is transferred.
+## Working around the lock {#working-around}
 
-The 60-day lock cannot be bypassed or shortened once it is in effect. If you need to transfer a domain urgently, you must complete the transfer before making any registrant changes. Changing the registrant contact information after a transfer does not trigger a new lock period, so you can safely update contact details after the transfer is complete.
+DNSimple does not support opting out of the 60-day lock. It cannot be bypassed or shortened once it is in effect. If you need to transfer a domain, complete the transfer first and change the registrant afterwards. A registrant change made after a transfer does not trigger a new lock on the transfer you just completed, so the order of operations is what matters.
+
+For the steps to change a domain's contact, see [Changing Domain Contacts](/articles/changing-domain-contact/).
 
 ## Have more questions?
 
