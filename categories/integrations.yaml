@@ -28,6 +28,9 @@ Heroku:
 - "Redirect www to Non-www Domain at Heroku"
 - "How to Install an SSL Certificate on Heroku"
 
+Netlify:
+- "Netlify Connector"
+
 Cloudflare:
 - "Use Cloudflare DNSSEC with DNSimple"
 - "Cloudflare Service"
