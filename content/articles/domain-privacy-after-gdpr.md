@@ -1,6 +1,7 @@
 ---
 title: Domain privacy after GDPR
-excerpt: GDPR impacts available WHOIS information. Learn about the consequences of this law that came into effect on May 25th 2018.
+excerpt: How registration data redaction works today, what it hides, and what it means for SSL certificate validation and domain transfers.
+meta: Registration data for most gTLDs is redacted by default under ICANN policy. Learn what is hidden, how to disclose your data, and how it affects SSL validation.
 categories:
 - Whois Privacy
 ---
@@ -14,41 +15,75 @@ categories:
 
 ---
 
+Registration data for most generic top-level domains is redacted by default. A public lookup returns the domain, its dates, and its registrar, but not the registrant's name, address, phone number, or email address. This started as a response to the GDPR in May 2018 and is now permanent ICANN policy, so it applies whether or not you use [WHOIS Privacy](/articles/what-is-whois-privacy/).
 
-This article explains how the GDPR (General Data Protection Regulation) law affects the information available about your domains after the law came into effect on May 25th, 2018.
+## What replaced WHOIS {#rdap}
 
-## WHOIS privacy
+Registration data is now published through RDAP (Registration Data Access Protocol) rather than WHOIS.
 
-WHOIS is frequently used to fetch information about a domain. A WHOIS query usually returns information such as the person or organization that registered the domain, the expiration date, and the domain registrar.
+As of 28 January 2025, ICANN removed the requirement for gTLD registrars, and most gTLD registries, to run a WHOIS service. RDAP is the definitive source for gTLD registration data. The registries for `.com`, `.name`, and `.post` are the remaining exceptions still required to provide WHOIS, and many other providers have shut their WHOIS services down.
 
-WHOIS queries are useful to identify ownership of a domain. However, spammers take advantage of this public information to call and spam you with text and email messages. This is why most domain registrars provide WHOIS privacy. With [WHOIS privacy](/articles/whois-privacy/), the information is masked by the registrar.
+In practice this means a WHOIS lookup that used to work may now return nothing at all. If you need to check registration data for a domain, use an RDAP client or a lookup service that queries RDAP.
 
-## WHOIS after GDPR
+Country code TLDs are outside ICANN's gTLD contracts and set their own policies. Some publish more registration data than gTLDs do, and some publish less.
 
-With GDPR, even if you opt out of WHOIS privacy, your information is protected. This is great for avoiding spam, but it can make other tasks harder since a WHOIS query can no longer identify you as the owner of a domain.
+## What redaction covers {#redaction}
 
-This can be disabled, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help. When you opt-in to disclose WHOIS data you will receive an email from info@domain-contact.org. This email will provide you with a link to modify your registration data disclosure settings. Here you will be allowed to select which data to display.
+Under ICANN's [Registration Data Policy](https://www.icann.org/en/contracted-parties/consensus-policies/registration-data-policy), which took effect on 21 August 2025 and replaced the GDPR-era Temporary Specification, registrars collect the same registration data as before but publish only a limited subset.
 
-![GDPR disclosure link](/files/gdpr-disclosure.png)
+Redaction is applied by the registry or registrar as a matter of policy. It is not something you enable, and it is not something you can be charged for.
 
-## Certificate validation
+[WHOIS Privacy](/articles/whois-privacy/) still has a role. Redaction is applied to the published record, while WHOIS Privacy replaces your details with a proxy identity at the registrar. For TLDs that publish more data, privacy protection covers what redaction does not.
 
-Requesting an SSL certificate is a common task that requires proof of ownership of a domain. Our SSL certificates from Sectigo require an extra step to ensure the request is legitimate and comes from an authorized owner of the domain. Since the WHOIS public email address is now protected, there is no reliable way for Sectigo to contact you to verify the ownership of your domain.
+## Publishing your registration data on purpose {#disclosure}
 
-In this situation we recommend one of the following options:
+Some registrants want their data public, for example to prove ownership or to be reachable about the domain. You can opt in to disclose it.
 
-- If your domain is already configured to receive email, you need to create at least one of the following email addresses to prove ownership:
+<div class="section-steps" markdown="1">
+##### Request data disclosure
 
-    ```
-    admin@your-domain
-    webmaster@your-domain
-    postmaster@your-domain
-    ```
+1. [Contact support](https://dnsimple.com/feedback) and ask to disclose the registration data for your domain.
+1. You will receive an email containing a personalized link to `domain-contact.org`.
+1. Follow the link and select which fields to disclose. You can choose among name, organization, address, phone number, fax number, and email address.
+1. Save your selection.
 
-    Some email services let you create an alias email address, so you don't have to monitor an extra inbox just for this.
+</div>
 
-- If your domain is not configured to receive email, you can use our [email forwarding feature](/articles/email-forwarding/) and delete the forward once the certificate is issued.
+A few things worth knowing about this process:
 
-## Domain transfer validation
+- The link stays valid for 30 days. Within that window you can use it more than once to change your selection or withdraw consent.
+- Where registry policy allows, your choice applies to every domain linked to that contact as registrant, administrative, technical, or billing contact.
+- Choosing to disclose does not guarantee publication. The registry controls the published output and may continue to redact fields regardless of your selection.
 
-Some domain registrars require an extra step before initiating a transfer. They send an email to validate the ownership of the domain to the available WHOIS email address. Since the WHOIS email is now masked, you need to work with the new registrar to find an alternative to the email validation.
+## SSL certificate validation {#certificate-validation}
+
+Requesting an SSL certificate requires proving control of the domain. Certificate authorities historically emailed the address in the public registration record. Since that address is now redacted, that route is no longer available.
+
+For Sectigo certificates ordered through DNSimple, validation is done by email to a constructed address on your domain. Sectigo accepts these five:
+
+```
+admin@your-domain
+administrator@your-domain
+hostmaster@your-domain
+postmaster@your-domain
+webmaster@your-domain
+```
+
+You need to be able to receive mail at one of them before the certificate can be issued.
+
+> [!NOTE]
+> Sectigo also supports DNS and file-based validation for certificates ordered directly through Sectigo. Certificates ordered through DNSimple use email validation, so one of the addresses above is required.
+
+If your domain is not already set up to receive email, you can use [email forwarding](/articles/email-forwarding/) to route one of these addresses to an inbox you already read, then remove the forward once the certificate is issued. Some email providers let you add an alias instead, which avoids monitoring a separate mailbox.
+
+While a certificate is being requested, the certificate page shows a <label>Manage email validation</label> link. Use it to switch to a different address or to resend the validation email.
+
+## Domain transfer validation {#transfer-validation}
+
+Some registrars send a transfer authorization email to the address in the registration record. When that address is redacted or replaced by a privacy proxy, the message may never arrive.
+
+If you are transferring a domain away from another registrar, disable privacy protection there first so the verification email reaches you. See [Whois Privacy and Transfer Approval Emails](/articles/whois-privacy-blocks-transfer-email/) for the full explanation.
+
+## Have more questions?
+
+If you have any questions about registration data privacy, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
