@@ -30,6 +30,8 @@ Contacts may also receive [NIS2 contact email verification](/articles/nis2-conta
 
 Use an email address that does not belong to the domain you are managing. If you own `example.business`, do not use `hello@example.business`. If your email is tied to the domain, and the domain becomes unavailable, expires, or is not configured correctly, you might not receive notifications.
 
+For what each field requires, see the [Domain Contact Field Reference](/articles/domain-contact-field-reference/).
+
 ## Creating a new contact {#create}
 
 If you are registering a domain or ordering an SSL certificate for the first time and have not created any contacts yet, you will be prompted to create one during that flow. Once a contact is created, it is available for future domain management operations.
