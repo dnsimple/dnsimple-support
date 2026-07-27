@@ -15,6 +15,20 @@ categories:
 
 .SPORT domain registrations require registry approval before they can be completed. After you submit a registration through DNSimple, the registry contacts you with questions you must answer in the NIC.SPORT portal before the application is validated or rejected.
 
+## Eligibility {#eligibility}
+
+.SPORT is a restricted TLD. To register a .SPORT domain you must demonstrate a legitimate connection to the sports community and pass the registry's validation process. The registry accepts applications from a wide range of entities, including:
+
+- Individuals
+- Organisations
+- Brands
+- Clubs
+- Federations
+- Events
+- Sponsors
+
+All applications are subject to the registry's pre-validation process before allocation.
+
 ## Registering a .SPORT domain {#registering}
 
 .SPORT registrations are non-realtime. This means that the registry reviews .SPORT applications by hand, so the domain is not active the moment you order it. When you register a .SPORT domain through DNSimple, your application is forwarded to the .SPORT registry for review.
@@ -35,6 +49,12 @@ You must complete these steps before the registry can validate or reject your ap
 
 > [!NOTE]
 > The domain stays in a pending state until you complete the registry questionnaire in the NIC.SPORT portal. DNSimple cannot complete this step on your behalf.
+
+## Approval and rejections {#approval-and-rejections}
+
+The .SPORT registry does not publish an official approval timeframe. All registrations are subject to pre-validation review, and actual approval times vary depending on that review.
+
+If the registry rejects an application, they provide an explanation with the rejection.
 
 ## Have more questions?
 
