@@ -1,7 +1,7 @@
 ---
 title: How to Use Templates
 excerpt: How to use templates to facilitate the entry of DNS records.
-meta: Create reusable DNS record templates in DNSimple and apply them to any domain, so common record sets can be added in one step instead of typed each time.
+meta: Create reusable DNS record templates in DNSimple and apply them to any domain, so common record sets can be added in one step instead of being typed each time.
 categories:
 - Templates
 ---
@@ -57,8 +57,11 @@ Template records support two substitutions. The keyword `{{domain}}` is replaced
 <div class="section-steps" markdown="1">
 ##### Apply a template to a domain
 
-1. Navigate to the [record editor](/articles/record-editor/) for the domain.
-1. Select <label>Templates</label> from the dropdown.
+1. Log in to DNSimple with your user credentials.
+1. If you have more than one account, select the relevant one from the account switcher.
+1. On the header, click the <label>Domain Names</label> tab, locate the domain, and click the name to open the domain page.
+1. On the domain page, click <label>Record editor</label>.
+1. Click the <label>Add record</label> button, then select <label>Templates</label> from the dropdown.
 
     ![Apply the template from the record editor](/files/template-apply-template.png)
 
