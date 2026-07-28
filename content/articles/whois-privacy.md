@@ -73,7 +73,7 @@ This is a registry restriction rather than an account limitation, so it applies 
 
 ## WHOIS Privacy and registration data redaction {#gdpr}
 
-Registration data for most generic TLDs is already redacted under ICANN's Registration Data Policy, so enabling WHOIS Privacy may make little visible difference in a public lookup for a domain like `.com` or `.dev`. Country code TLDs set their own policies, and some publish more than generic TLDs do.
+Registration data for most generic TLDs is already redacted under ICANN's Registration Data Policy, so enabling WHOIS Privacy may make little visible difference in a public lookup for a domain like `.com`, `.net`, `.org`, or `.dev`. Country code TLDs set their own policies, and some publish more than generic TLDs do.
 
 For what redaction covers, and where WHOIS Privacy still adds protection, see [Domain privacy after GDPR](/articles/domain-privacy-after-gdpr/).
 
