@@ -24,7 +24,7 @@ DNSimple does not offer an opt-out. If you plan to transfer a domain away, compl
 
 The lock is not triggered by every contact edit. It applies when the change is a **change of registrant**, meaning the identity of the domain's owner changes at the registry.
 
-Correcting a typo in a phone number, updating a postal address, or changing the email address on the existing registrant does not normally trigger it. Assigning a different contact as the registrant, or changing the registrant's name or organization, does.
+Correcting a typo in a phone number or updating a postal address on the existing registrant does not normally trigger it. Assigning a different contact as the registrant, or changing the registrant's name, email address, or organization, does.
 
 When a change will trigger the lock, DNSimple warns you before you confirm it. The confirmation screen shows an "ICANN 60-day lock" notice, so you can cancel if the timing does not suit you. If you do not see that notice, the change is not treated as a change of registrant.
 
