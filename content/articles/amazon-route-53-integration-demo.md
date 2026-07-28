@@ -115,7 +115,6 @@ If you do update your Amazon Route 53 zone, you can reflect those changes back i
 You can now build on this simple setup to experiment, and see what you can achieve with DNSimple as your control plane. Some examples:
 
 - Try creating in reverse; i.e., create a new DNSimple zone first, then synchronize it to Route 53.
-- Add more integrations, like [GoDaddy](/articles/integrated-domain-provider-godaddy/).
 - Link another AWS account.
 - Use our [CoreDNS integration](/articles/integrated-dns-provider-coredns/) for self-hosted DNS in your private on-premise network.
 
