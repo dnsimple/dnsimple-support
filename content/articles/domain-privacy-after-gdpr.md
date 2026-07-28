@@ -33,6 +33,8 @@ Under ICANN's [Registration Data Policy](https://www.icann.org/en/contracted-par
 
 Redaction is applied by the registry or registrar as a matter of policy. It is not something you enable, and it is not something you can be charged for.
 
+Which fields are redacted varies by TLD. ICANN's policy sets the baseline for gTLDs, and registries apply it differently, so two domains can publish different amounts of data. An RDAP lookup shows what is public for a specific domain.
+
 [WHOIS Privacy](/articles/whois-privacy/) still has a role. Redaction is applied to the published record, while WHOIS Privacy replaces your details with a proxy identity at the registrar. For TLDs that publish more data, privacy protection covers what redaction does not.
 
 ## Publishing your registration data on purpose {#disclosure}
