@@ -27,7 +27,8 @@ Templates belong to the account rather than to a domain, so one template can be 
 
 ## Who can use templates {#permissions}
 
-Templates are managed at the account level. The <label>Templates</label> tab appears in the header only for users who can manage the account. A member with domain-level access can work with a domain's records directly but will not see the Templates tab at all.
+The <label>Templates</label> tab is for creating and editing templates. It appears in the header only for users who can manage the account. A member with domain-level access will not see that tab.
+Applying a template is separate. A member who can manage a domain's DNS can still [apply an existing template](/articles/templates/#apply) even if they cannot create or edit templates.
 
 ## What happens when you apply a template {#applying}
 
