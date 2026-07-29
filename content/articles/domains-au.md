@@ -4,8 +4,6 @@ excerpt: This article explains the requirements and special procedures for .AU d
 meta: Register .AU domains with DNSimple. Australian presence and a valid eligibility ID are required for second-level and third-level .AU domain registrations.
 categories:
 - TLDs
-redirect_from:
-  - /articles/au-migration/
 ---
 
 # .AU Domain Names
