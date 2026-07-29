@@ -77,6 +77,7 @@ Requirements, eligibility, registration and transfer rules, and any special step
 - [.PL Domains](/articles/domains-pl/) - Requirements and procedures for .PL domain names.
 - [.SE Domains](/articles/domains-se/) - Requirements and procedures for .SE domain names.
 - [.SG Domains](/articles/domains-sg/) - Requirements and procedures for .SG domain names.
+- [.SPORT Domains](/articles/domains-sport/) - Non-realtime registration; registry approval and questionnaire via the NIC.SPORT portal.
 - [.TIROL Domains](/articles/domains-tirol/) - Registrant must show affinity with the Austrian federal state of Tirol.
 - [.UK Domains](/articles/domains-uk/) - Reservation policy for second-level .UK; matching .CO.UK/.ORG.UK contact required; transfer and transfer-away rules.
 - [.US Domains](/articles/domains-us/) - Transfer into DNSimple requires registrant acknowledgment; unacknowledged transfers canceled after 14 days.

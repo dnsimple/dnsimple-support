@@ -3,7 +3,7 @@ cli: "Guides for the DNSimple command-line tool: install the DNSimple CLI, authe
 account: Explore our comprehensive account support articles to manage your DNSimple account effectively. Find answers, tips, and resources to enhance your experience.
 domains_and_transfers: Guides on managing domains and transfers at DNSimple, including registration, renewal, transferring to and from DNSimple, and troubleshooting.
 tlds: Explore documentation for top-level domains (TLDs) supported by DNSimple, including country-code and generic TLDs, requirements, and registration details.
-templates: Explore our comprehensive collection of templates designed to simplify your DNS management. Find articles and guides to enhance your experience with DNSimple.
+templates: Articles on DNS templates at DNSimple, covering how to create reusable groups of DNS records, apply them to domains and zones, and use template variables.
 dns: Articles on DNS management at DNSimple, covering DNS settings, record types, troubleshooting, and best practices for your domains.
 dnsimple: DNSimple support articles covering DNS settings, troubleshooting, and domain configuration to help you manage your domains.
 dnssec: Explore our comprehensive DNSSEC support articles to understand how to enhance your domain's security, protect against spoofing, and ensure data integrity.
