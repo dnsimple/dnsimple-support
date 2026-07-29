@@ -4,8 +4,6 @@ excerpt: Some reasons DNSimple doesn't offer web hosting services.
 meta: Discover why DNSimple focuses on DNS Hosting & domain management rather than web hosting, ensuring specialized services and performance.
 categories:
 - DNSimple
-redirect_from:
-  - /articles/why-not-web-hosting/
 ---
 
 # Why We Don't Offer Web Hosting Services

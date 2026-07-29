@@ -5,10 +5,6 @@ meta: A zone file is a text-based blueprint of your domain DNS configuration, co
 categories:
 - DNS
 - Enterprise
-  
-redirect_from:
- - /articles/zone-files/
-  
 ---
 
 # What Is a Zone File?
