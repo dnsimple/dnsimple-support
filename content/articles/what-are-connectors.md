@@ -16,7 +16,7 @@ categories:
 
 ---
 
-A connector links one domain in your DNSimple account to one account on a third-party platform, creates the DNS records that platform needs, and then watches the connection to make sure it keeps working. DNSimple offers two connectors: Heroku and Netlify.
+A connector links one domain in your DNSimple account to one account on a third-party platform, creates the DNS records that the platform needs, and then watches the connection to make sure it keeps working. DNSimple offers two connectors: Heroku and Netlify.
 
 ## Which connectors are available {#available}
 
@@ -55,7 +55,7 @@ This monitoring is what most distinguishes a connector from following a setup gu
 
 ## What happens when you delete a connection {#deletion}
 
-Disconnecting a connector removes the connection along with its stored metadata, messages, and status history.
+Disconnecting a connector removes the connection, and there is an option to have any of the associated DNS records and/or the hostname automatically deleted.
 
 > [!NOTE]
 > Removing a connection stops DNSimple from monitoring it. Review the DNS records for the domain afterwards to confirm they are what you want, and remove any that are no longer needed.
@@ -67,7 +67,6 @@ These three overlap, and choosing between them is mostly a question of what you 
 | | What it is | Who maintains the DNS |
 |---|---|---|
 | **Connector** | An authorized link between one domain and one Heroku app or Netlify site | DNSimple writes the records and monitors the connection |
-| **Integration** | A provider-specific setup guide, or a supported external DNS provider configuration | Mostly you, following documented steps |
 | **One-click service** | A DNSimple-maintained record template for a known provider | DNSimple writes the records when you apply the service |
 
 Use a connector if you are on Heroku or Netlify and want the records maintained and watched for you. Use a one-click service if a ready-made record set exists for your provider. Use an integration guide for everything else.
