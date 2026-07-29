@@ -7,7 +7,7 @@ categories:
  - Domains and Transfers
 ---
 
-# Whois Privacy and Domain Transfers
+# Whois Privacy and Transfer Approval Emails
 
 ### Table of Contents {#toc}
 
@@ -16,7 +16,7 @@ categories:
 
 ---
 
-When you [transfer a domain name from another registrar into DNSimple](/articles/domain-transfer/), we are required by ICANN to send a transfer verification email to the current registrant email address. If you start a domain transfer while having whois privacy enabled at your current domain registrar, there is a high probability that the transfer verification email will not be delivered.
+When you [transfer a domain name from another registrar into DNSimple](/articles/domain-transfer/), we are required by ICANN to send a transfer verification email to the current registrant email address. That address comes from your **current** registrar, so the privacy setting that matters here is the one on your existing account, not anything in DNSimple. If you start a domain transfer while having whois privacy enabled at your current domain registrar, there is a high probability that the transfer verification email will not be delivered.
 
 There are several reasons a whois privacy provider might not deliver domain transfer emails:
 
@@ -26,13 +26,15 @@ There are several reasons a whois privacy provider might not deliver domain tran
 
 Additionally some whois privacy providers will not permit a domain transfer while whois privacy is enabled.
 
-## Disable Whois Privacy
+## Disable privacy at your current registrar {#disable}
 
 To improve the deliverability chance for your domain transfer verification email, you should disable whois privacy on your domain before requesting your transfer.
 
-## Won't this expose my contact details in the public whois?
+## Does this expose your contact details? {#exposure}
 
-Unfortunately, yes, your contact information will be public after you disable whois privacy on your domain. You may be able to re-enable whois privacy after you receive the transfer verification email, which will limit the amount of time your contact information is exposed.
+For most generic TLDs, very little becomes public. Registration data is redacted by default under ICANN policy whether or not privacy protection is enabled, so disabling privacy usually exposes far less than it once did. See [Domain privacy after GDPR](/articles/domain-privacy-after-gdpr/).
+
+Where a TLD does publish contact data, you can re-enable privacy protection as soon as the transfer verification email arrives, which limits how long the information is exposed. Once the transfer completes, [enable WHOIS Privacy at DNSimple](/articles/whois-privacy/) at no cost.
 
 ## Have more questions?
 
