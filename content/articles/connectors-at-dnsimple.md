@@ -34,7 +34,6 @@ These three overlap, and which one you want depends on what you are connecting t
 | | Use when | Where to look |
 |---|---|---|
 | **Connector** | You use Heroku or Netlify and want DNSimple to configure and monitor the records | This category |
-| **Integration** | Your provider is not Heroku or Netlify, or you need a provider-specific setup path | [Integrations](/categories/integrations/) |
 | **One-click service** | You want a known provider's records applied to your zone in one step | [One-click Services](/articles/services/) |
 
 The practical difference is what happens after setup. A connector keeps watching the connection and tells you if it breaks. An integration guide and a one-click service both leave the records in your hands once they are in place.
