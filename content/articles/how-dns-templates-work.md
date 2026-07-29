@@ -36,7 +36,6 @@ Applying a template adds each of the template's records to the target zone. Two 
 - **Existing records are left alone.** A template never deletes or replaces a record that is already in the zone.
 - **The application is recorded.** A zone keeps track of which templates have been applied to it.
 
-A template can be applied to a zone or to a domain.
 
 ## Why applying a template can fail {#failures}
 
