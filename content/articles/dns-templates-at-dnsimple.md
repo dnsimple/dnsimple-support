@@ -36,7 +36,7 @@ A **DNS template** is a named, reusable group of DNS records stored on your acco
 
 ## Related articles {#related}
 
-- [Record editor](/articles/record-editor/) - Where templates are applied from.
+- [How to Use the Record Editor](/articles/record-editor/) - Where templates are applied from.
 - [One-click Services](/articles/services/) - DNSimple-maintained record sets for known providers, built on the same mechanism as templates.
 
 ## Have more questions?
