@@ -21,9 +21,11 @@ For what templates are and how to apply them, see [How DNS Templates Work](/arti
 
 ## The {{domain}} variable {#domain-variable}
 
-`{{domain}}` is replaced with the name of the domain the template is applied to. A template record with the content `{{domain}}` applied to `example.com` produces `example.com`.
+## The {{domain}} variable {#domain-variable}
 
-`{{domain}}` works anywhere within a field. It can appear on its own, or as part of a longer value such as `www.{{domain}}`.
+`{{domain}}` is a value you type into a template record's content field. DNSimple does not insert it for you. When you apply the template to a domain, `{{domain}}` is replaced with that domain's name.
+
+A template record with the content `{{domain}}` applied to `example.com` produces `example.com`. It can also appear inside a longer value, such as `www.{{domain}}`, which becomes `www.example.com`.
 
 **`{{domain}}` is the only variable available in templates you create.** One-click services use the same substitution mechanism with a larger set of variables, because a service can collect settings from you when you apply it. Those variables do not work in your own templates.
 
