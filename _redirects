@@ -1,4 +1,4 @@
-/article/au-migration                                                     /articles/au-migration
+/article/au-migration                                                     /articles/domains-au/
 /articles)/ssl-certificate-hostname                                       /articles/can-upgrade-single-hostname-ssl-certificate-to-wildcard/
 /articles)/ssl-certificate-hostname/index.html                            /articles/can-upgrade-single-hostname-ssl-certificate-to-wildcard/
 /articles/a                                                               /articles/a-record/
@@ -12,6 +12,9 @@
 /articles/add/index.html                                                  /articles/add-ns-records-for-subdomain/
 /articles/advanced-editor                                                 /articles/record-editor/
 /articles/advanced-editor/index.html                                      /articles/record-editor/
+/articles/au-migration                                                    /articles/domains-au/
+/articles/au-migration/                                                   /articles/domains-au/
+/articles/au-migration/index.html                                         /articles/domains-au/
 /articles/can-multi-year-ssl-certificate                                  /articles/can-multi-year-ssl-certificates/
 /articles/can-multi-year-ssl-certificate/index.html                       /articles/can-multi-year-ssl-certificates/
 /articles/cname                                                           /articles/cname-record/
