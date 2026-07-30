@@ -74,17 +74,17 @@ Use a [WHOIS service](https://dnsimple.com/whois) to run a whois query for the d
 $ whois dnsimple.com
 
 Domain Name: DNSIMPLE.COM
-Registrar: ENOM, INC.
-Whois Server: whois.enom.com
-Referral URL: http://www.enom.com
-Name Server: NS1.DNSIMPLE.COM
+Registrar: 1API GmbH
+Registrar WHOIS Server: whois.1api.net
+Registrar URL: http://www.1api.net
+Name Server: NS1.DNSIMPLE-EDGE.COM
 Name Server: NS2.DNSIMPLE-EDGE.NET
-Name Server: NS3.DNSIMPLE.COM
+Name Server: NS3.DNSIMPLE-EDGE.IO
 Name Server: NS4.DNSIMPLE-EDGE.ORG
-Status: clientTransferProhibited
-Updated Date: 13-jun-2013
-Creation Date: 07-apr-2010
-Expiration Date: 07-apr-2018
+Domain Status: clientTransferProhibited
+Updated Date: 2026-06-17T16:14:01Z
+Creation Date: 2010-04-07T17:32:16Z
+Registry Expiry Date: 2029-04-07T17:32:16Z
 ```
 
 The name server should match DNSimple name servers and the response returned from `dig`. If it does not, make sure to [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/).

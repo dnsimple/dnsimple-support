@@ -4,11 +4,6 @@ excerpt: The email-based domain validation is the most common domain ownership v
 meta: How email-based domain validation works for SSL certificates, including approved email addresses, the validation process, and changing your validation email.
 categories:
 - SSL Certificates
-redirect_from:
-  - /articles/ssl-certificates-email-approval/
-  - /articles/selecting-ssl-certificates-email/
-  - /articles/resending-ssl-certificates-email/
-  - /articles/changing-ssl-certificates-email/
 ---
 
 # SSL Certificate Email-Based Domain Validation
