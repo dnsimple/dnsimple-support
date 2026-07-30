@@ -1,7 +1,7 @@
 ---
 title: Domain Contacts at DNSimple
 excerpt: Overview of DNSimple domain contact documentation, from creating contacts to registrant changes, validation, and trustee services.
-meta: DNSimple domain contacts help: create and edit contacts, change a domain's registrant, complete contact validation, and use domain trustee.
+meta: "DNSimple domain contacts help: create and edit contacts, change a domain's registrant, complete contact validation, and use domain trustee."
 categories:
 - Contacts
 ---
