@@ -64,7 +64,6 @@ Explanation:
     - Why You Should Auto-Import DNS Records
     - What Is Domain Delegation?
   Integrated DNS Providers:
-    - Integrated DNS Providers at DNSimple
     - What Are Integrated DNS Providers and Why Use Them?
     - Integrated DNS Provider Amazon Route 53
     - Integrated DNS Provider Azure DNS
@@ -83,7 +82,6 @@ How to:
     - Add an SRV Record
     - Query MX Records
     - How to Use the Record Editor
-    - Record Editor
     - Create a Record Note
     - Create a Record Deletion Note
     - Record Notes

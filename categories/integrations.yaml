@@ -3,13 +3,12 @@ Integrated Domain Providers:
 - "Manage Integrated Domains"
 - "Integrated Domain Provider - GoDaddy"
 - "Link and Unlink Integrated Domain Providers"
+- "Transfer an Integrated Provider Domain to DNSimple"
 
 Integrated DNS Providers:
-- "Integrated DNS Providers at DNSimple"
 - "What Are Integrated DNS Providers and Why Use Them?"
 - "Integrated DNS Provider Amazon Route 53"
 - "How to Use Route 53 as an Integrated DNS Provider"
-- "Amazon Route 53 Integration Demo"
 - "Integrated DNS Provider Azure DNS"
 - "Integrated DNS Provider CoreDNS"
 - "How to Use CoreDNS as an Integrated DNS Provider"
@@ -27,6 +26,9 @@ Heroku:
 - "Troubleshooting Heroku SSL Errors"
 - "Redirect www to Non-www Domain at Heroku"
 - "How to Install an SSL Certificate on Heroku"
+
+Netlify:
+- "Netlify Connector"
 
 Cloudflare:
 - "Use Cloudflare DNSSEC with DNSimple"

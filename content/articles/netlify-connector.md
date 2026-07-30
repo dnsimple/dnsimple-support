@@ -1,9 +1,10 @@
 ---
 title: Netlify Connector
-excerpt: How to connect a Netlify app to your domain using DNSimple's Netlify Connector
+excerpt: How to connect a Netlify site to your domain using DNSimple's Netlify Connector.
 meta: Connect your domain to a Netlify site with the DNSimple Netlify Connector. Set up DNS records and Netlify configuration automatically.
 categories:
 - Connectors
+- Integrations
 ---
 
 # Netlify Connector
@@ -15,52 +16,58 @@ categories:
 
 ---
 
-[Netlify](https://www.netlify.com) unites an entire ecosystem of modern tools and services into a single, simple workflow for building high performance sites and apps. With DNSimple's Netlify Connector, you can easily connect your domains to Netlify, and set up the required DNS records and Netlify configuration, without having to think about DNS.
+The Netlify Connector links a domain in your DNSimple account to a site on [Netlify](https://www.netlify.com) and creates the DNS records and Netlify configuration the site needs. For what a connector is and how it differs from an integration, see [What Are Connectors?](/articles/what-are-connectors/).
 
-## Video walk-through
+> [!NOTE]
+> The <label>Connections</label> tab appears only for users who can manage the account. If you do not see it, you have domain-level access rather than account-level access.
+
+## Video walk-through {#video}
 
 <div class="mb4 aspect-ratio aspect-ratio--16x9 z-0">
   <iframe loading="lazy" src="https://www.youtube.com/embed/VnQq1uFO6l4" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-## Creating a connection
+## Creating a connection {#create}
 
-1. Choose the relevant domain from your Domain List.
-2. Click the **Connections** tab on the left side.
-3. Under **Add Connection**, click **Add** in the **Netlify Connector** section.
+<div class="section-steps" markdown="1">
+##### Connect a domain to a Netlify site
+
+1. Choose the relevant domain from your domain list.
+1. Click the <label>Connections</label> tab on the left side.
+1. Under <label>Add Connection</label>, click <label>Add</label> in the Netlify Connector section.
+
     ![screenshot of adding a connector](/files/add-connector.png)
 
-4. Authorize your DNSimple account to give the connector permission to access your domains and DNS records.
+1. Authorize your DNSimple account to give the connector permission to access your domains and DNS records.
+
     ![Authorize your DNSimple account](/files/netlify-connector-authenticate-dnsimple.png)
 
+1. Authorize your Netlify account to give the connector permission to access your Netlify sites.
 
-5. Authorize your Netlify account to give the connector permission to access your Netlify apps.
     ![Authorize your Netlify account](/files/netlify-connector-connect-netlify.png)
 
-
-6. Choose your Netlify site, and set its mounting point.
-
-    > [!NOTE]
-> A mounting point is the address where your Netlify site is served. If you want to use the domain apex, e.g. `example.com`, leave this blank.
+1. Choose your Netlify site and set its mounting point. The mounting point is the address where your site is served. To use the domain apex, for example `example.com`, leave it blank.
 
     ![Connect your domain to Netlify](/files/netlify-connector-connect-domain.png)
 
+1. Review the connection configuration. To confirm the information is correct, click <label>Connect</label>.
 
-8. You will be asked to review the connection configuration. To confirm the information is correct, click "Connect".
     ![Review configuration](/files/netlify-connector-confirm-config.png)
 
-## After configuration
+</div>
 
-When your domain is connected, you will be redirected back to your domain's **Connections** tab, with a new card for your new connection. The card will have a green dot next to your domain, along with other information.
+## After configuration {#after}
+
+When your domain is connected, you are redirected back to the domain's <label>Connections</label> tab, with a new card for the connection. The card shows a green dot next to your domain, along with other information.
 
 ![Domain successfully connected](/files/netlify-connector-domain-connected.png)
 
-In this tab, you can view the connection's [metadata](https://en.wikipedia.org/wiki/Metadata), or disconnect the Netlify connector from your domain. If you need to establish additional Netlify sites for the domain, click **Add**, and repeat the process.
+From this tab you can view the connection's metadata or disconnect the Netlify connector from your domain. To connect additional Netlify sites to the same domain, click <label>Add</label> and repeat the process.
 
-## Connection monitoring
+## Connection monitoring {#monitoring}
 
-Connections are checked regularly to ensure the connection is still established. If the connection is broken, either from removing DNS records or changing the Netlify configuration, an email is sent to your DNSimple account email. The email includes instructions for fixing the connection and a link to the page where the domain can be reconnected to the Netlify application.
+DNSimple checks connections on an ongoing basis. If a connection breaks, because the DNS records were removed or the Netlify configuration changed, we send an email to your account notification email with instructions for fixing it and a link to the page where the domain can be reconnected.
 
 ## Have more questions?
 
-If you have any questions, or need assisstance connecting your domains to Netlify, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions, or need assistance connecting your domains to Netlify, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
