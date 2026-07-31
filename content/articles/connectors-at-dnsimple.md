@@ -1,6 +1,6 @@
 ---
 title: Connectors at DNSimple
-excerpt: Overview of DNSimple connector documentation, covering the Heroku and Netlify connectors and how connectors differ from integrations and services.
+excerpt: Overview of DNSimple connector documentation, covering the Heroku and Netlify connectors and how connectors differ from one-click services.
 meta: DNSimple connectors link a domain to a Heroku app or Netlify site and configure DNS automatically. Setup guides plus how connectors compare to integrations.
 categories:
 - Connectors
