@@ -15,7 +15,7 @@ categories:
 
 ---
 
-The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public registration record.
+The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps your contact information private for a domain. This service replaces the public information you provide with an anonymous proxy identity in the public registration record. For an overview of WHOIS Privacy documentation, see [WHOIS Privacy at DNSimple](/articles/whois-privacy-at-dnsimple/).
 
 WHOIS Privacy is included at no cost on every DNSimple plan. You can enable it for any of your domains at any time, as long as the domain is registered with us and the TLD supports the service.
 

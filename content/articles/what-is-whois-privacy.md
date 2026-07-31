@@ -15,7 +15,7 @@ categories:
 
 ---
 
-WHOIS Privacy replaces the contact details in a domain's public registration record with an anonymous proxy identity. Your email address is replaced with a proxy address, and your name, postal address, and phone number are replaced with those of a third-party privacy service. It is included at no cost on every DNSimple plan, for TLDs that support it.
+WHOIS Privacy replaces the contact details in a domain's public registration record with an anonymous proxy identity. Your email address is replaced with a proxy address, and your name, postal address, and phone number are replaced with those of a third-party privacy service. It is included at no cost on every DNSimple plan, for TLDs that support it. For setup steps and the full documentation index, see [WHOIS Privacy at DNSimple](/articles/whois-privacy-at-dnsimple/).
 
 ## Why registration data is public {#why-public}
 
