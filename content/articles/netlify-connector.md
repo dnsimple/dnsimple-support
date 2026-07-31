@@ -16,7 +16,7 @@ categories:
 
 ---
 
-The Netlify Connector links a domain in your DNSimple account to a site on [Netlify](https://www.netlify.com) and creates the DNS records and Netlify configuration the site needs. For what a connector is and how it differs from an integration, see [What Are Connectors?](/articles/what-are-connectors/).
+The Netlify Connector links a domain in your DNSimple account to a site on [Netlify](https://www.netlify.com) and creates the DNS records and Netlify configuration the site needs. For an overview of connector documentation, see [Connectors at DNSimple](/articles/connectors-at-dnsimple/). For what a connector is and how it differs from one-click services, see [What Are Connectors?](/articles/what-are-connectors/).
 
 > [!NOTE]
 > The <label>Connections</label> tab appears only for users who can manage the account. If you do not see it, you have domain-level access rather than account-level access.

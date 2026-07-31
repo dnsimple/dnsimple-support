@@ -16,7 +16,7 @@ categories:
 
 ---
 
-The Heroku Connector links a domain in your DNSimple account to an app on [Heroku](https://www.heroku.com) and creates the DNS records the app needs. For what a connector is and how it differs from an integration, see [What Are Connectors?](/articles/what-are-connectors/).
+The Heroku Connector links a domain in your DNSimple account to an app on [Heroku](https://www.heroku.com) and creates the DNS records the app needs. For an overview of connector documentation, see [Connectors at DNSimple](/articles/connectors-at-dnsimple/). For what a connector is and how it differs from one-click services, see [What Are Connectors?](/articles/what-are-connectors/).
 
 > [!NOTE]
 > The <label>Connections</label> tab appears only for users who can manage the account. If you do not see it, you have domain-level access rather than account-level access.

@@ -46,7 +46,7 @@ These live in other categories but come up often alongside contacts:
 - [What is WHOIS Privacy Service?](/articles/what-is-whois-privacy/) - What the privacy service replaces, and what it costs.
 - [Domain privacy after GDPR](/articles/domain-privacy-after-gdpr/) - What is published today, and how redaction differs from privacy.
 - [What is Domain Access Control?](/articles/what-is-domain-access-control/) - Which roles can manage contacts and domains.
-- [Changing the WHOIS contact](/articles/changing-whois-contact/) - Registry-specific contact update policies.
+- [Change WHOIS Information](/articles/changing-whois-contact/) - Registry-specific contact update policies.
 
 ## Have more questions?
 
