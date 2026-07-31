@@ -48,6 +48,7 @@ Explanation:
     - "Recover a Deleted Domain"
   "Domain Transfers":
     - "Transfer a Domain to DNSimple"
+    - "Transfer an Integrated Provider Domain to DNSimple"
     - "Transfer a Domain Away from DNSimple"
     - "Transfer a Domain to Another DNSimple Account"
     - "Prepare a Domain Transfer to Avoid Downtime"

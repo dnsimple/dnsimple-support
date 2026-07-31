@@ -16,6 +16,10 @@ categories:
 
 ---
 
+<div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
+  <iframe loading="lazy" src="https://www.youtube.com/embed/wBYK-IOAXek" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Does DNSimple provide web hosting services? {#does-dnsimple-provide-web-hosting-services}
 
 No, we do not. DNSimple focuses on simplifying your domain and DNS management. We offer a variety of features that let you set up and connect your domains to popular services that already exist, rather than trying to create our own solution. With DNSimple, you can have the best of both worlds, instead of mediocre products for each one.

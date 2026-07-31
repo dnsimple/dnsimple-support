@@ -1,4 +1,4 @@
-/article/au-migration                                                     /articles/au-migration
+/article/au-migration                                                     /articles/domains-au/
 /articles)/ssl-certificate-hostname                                       /articles/can-upgrade-single-hostname-ssl-certificate-to-wildcard/
 /articles)/ssl-certificate-hostname/index.html                            /articles/can-upgrade-single-hostname-ssl-certificate-to-wildcard/
 /articles/a                                                               /articles/a-record/
@@ -12,8 +12,14 @@
 /articles/add/index.html                                                  /articles/add-ns-records-for-subdomain/
 /articles/advanced-editor                                                 /articles/record-editor/
 /articles/advanced-editor/index.html                                      /articles/record-editor/
+/articles/au-migration                                                    /articles/domains-au/
+/articles/au-migration/                                                   /articles/domains-au/
+/articles/au-migration/index.html                                         /articles/domains-au/
 /articles/can-multi-year-ssl-certificate                                  /articles/can-multi-year-ssl-certificates/
 /articles/can-multi-year-ssl-certificate/index.html                       /articles/can-multi-year-ssl-certificates/
+/articles/changing-ssl-certificates-email                                 /articles/ssl-certificates-email-validation/
+/articles/changing-ssl-certificates-email/                                /articles/ssl-certificates-email-validation/
+/articles/changing-ssl-certificates-email/index.html                      /articles/ssl-certificates-email-validation/
 /articles/cname                                                           /articles/cname-record/
 /articles/cname/index.html                                                /articles/cname-record/
 /articles/contributing-services                                           /articles/services/
@@ -42,6 +48,9 @@
 /articles/github-student-pack/                                            /articles/github-pages/
 /articles/github-student-pack/index.html                                  /articles/github-pages/
 /articles/github/index.html                                               /articles/github-pages/
+/articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied  /articles/how-to-issue-new-transfer-when-transfer-denied/
+/articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/  /articles/how-to-issue-new-transfer-when-transfer-denied/
+/articles/how-can-i-issue-a-new-transfer-order-when-a-transfer-is-denied/index.html  /articles/how-to-issue-new-transfer-when-transfer-denied/
 /articles/how-to-apply-github-student-pack                                /articles/how-to-determine-certificate-authority/
 /articles/how-to-apply-github-student-pack/                               /articles/how-to-determine-certificate-authority/
 /articles/how-to-apply-github-student-pack/index.html                     /articles/how-to-determine-certificate-authority/
@@ -51,8 +60,8 @@
 /articles/moving-domain/index.html                                        /articles/transferring-domain-between-accounts/
 /articles/new-plans-for-github-students                                   /articles/github-pages/
 /articles/new-plans-for-github-students/index.html                        /articles/github-pages/
-/articles/new-plans-for-platinum                                          /articles/new-plans-for-gold/
-/articles/new-plans-for-platinum/index.html                               /articles/new-plans-for-gold/
+/articles/new-plans-for-platinum                                          /articles/dnsimple-plans/
+/articles/new-plans-for-platinum/index.html                               /articles/dnsimple-plans/
 /articles/ordering-comodo-certificate                                     /articles/buy-sectigo-ssl-certificate/
 /articles/ordering-comodo-certificate/index.html                          /articles/buy-sectigo-ssl-certificate/
 /articles/purchasing-ssl-certificates                                     /articles/buy-sectigo-ssl-certificate/
@@ -70,8 +79,14 @@
 /articles/reissuing-ssl-certificates/index.html                           /articles/reissue-ssl-certificate/
 /articles/renewing-ssl-certificates                                       /articles/renew-ssl-certificate/
 /articles/renewing-ssl-certificates/index.html                            /articles/renew-ssl-certificate/
+/articles/resending-ssl-certificates-email                                /articles/ssl-certificates-email-validation/
+/articles/resending-ssl-certificates-email/                               /articles/ssl-certificates-email-validation/
+/articles/resending-ssl-certificates-email/index.html                     /articles/ssl-certificates-email-validation/
 /articles/secondary-dns-support                                           /articles/secondary-dns/
 /articles/secondary-dns-support/index.html                                /articles/secondary-dns/
+/articles/selecting-ssl-certificates-email                                /articles/ssl-certificates-email-validation/
+/articles/selecting-ssl-certificates-email/                               /articles/ssl-certificates-email-validation/
+/articles/selecting-ssl-certificates-email/index.html                     /articles/ssl-certificates-email-validation/
 /articles/soa                                                             /articles/soa-record/
 /articles/soa/index.html                                                  /articles/soa-record/
 /articles/spf                                                             /articles/spf-record/
