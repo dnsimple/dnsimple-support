@@ -19,6 +19,7 @@ Not all DNSimple features are compatible with DNSSEC. The following table summar
 | [Email forwarding](/articles/email-forwarding/) | Yes | Email forwarding adds standard MX and TXT records, which are signed normally by DNSSEC. |
 | [Control Plane](/articles/integrated-dns-providers/) | No | Multi-signer DNSSEC ([RFC 8901](https://www.rfc-editor.org/rfc/rfc8901.html)) is not supported by the current integrated providers, as they do not allow importing external keys into their DNSKEY RRset. DNSSEC record types are not synced between DNSimple and the external provider, and DNSSEC must be configured directly with each provider. |
 | [Reverse DNS](/articles/reverse-dns/) | No | Reverse DNS zones do not currently support DNSSEC. |
+| [Subdomain delegation (zone cuts)](/articles/add-ns-records-for-subdomain/) | No | DS records cannot be published for a subdomain delegated with NS records, so the DNSSEC chain of trust cannot extend across a zone cut to the name servers hosting the subdomain. |
 
 ## Have more questions?
 

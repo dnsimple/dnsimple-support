@@ -2,6 +2,9 @@
 title: Transfer an Integrated Provider Domain to DNSimple
 excerpt: How to transfer your integrated provider domain to DNSimple.
 meta: How to transfer a domain from an integrated provider to DNSimple as a fully registered domain.
+categories:
+- Domains and Transfers
+- Integrations
 ---
 
 # Transfer an Integrated Provider Domain to DNSimple
