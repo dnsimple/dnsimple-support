@@ -3,13 +3,13 @@ cli: "Guides for the DNSimple command-line tool: install the DNSimple CLI, authe
 account: Explore our comprehensive account support articles to manage your DNSimple account effectively. Find answers, tips, and resources to enhance your experience.
 domains_and_transfers: Guides on managing domains and transfers at DNSimple, including registration, renewal, transferring to and from DNSimple, and troubleshooting.
 tlds: Explore documentation for top-level domains (TLDs) supported by DNSimple, including country-code and generic TLDs, requirements, and registration details.
-templates: Explore our comprehensive collection of templates designed to simplify your DNS management. Find articles and guides to enhance your experience with DNSimple.
+templates: Articles on DNS templates at DNSimple, covering how to create reusable groups of DNS records, apply them to domains and zones, and use template variables.
 dns: Articles on DNS management at DNSimple, covering DNS settings, record types, troubleshooting, and best practices for your domains.
 dnsimple: DNSimple support articles covering DNS settings, troubleshooting, and domain configuration to help you manage your domains.
 dnssec: Explore our comprehensive DNSSEC support articles to understand how to enhance your domain's security, protect against spoofing, and ensure data integrity.
 emails: Explore our comprehensive guide on email services with DNSimple. Find articles, tips, and solutions to optimize your email experience effortlessly.
 contacts: Explore our comprehensive guide on managing contacts in DNSimple. Find articles, tips, and best practices to effectively handle your domain contacts.
-connectors: Guides on DNSimple connectors to integrate your DNS with external services, improving connectivity and multi-provider management.
+connectors: Articles on DNSimple connectors, which link a domain to a Heroku app or Netlify site and configure the required DNS records automatically.
 services: Explore our one-click services, designed to help you effectively utilize and manage DNSimple's powerful features and tools.
 name_servers: Articles on name server setup, management, and troubleshooting at DNSimple, including vanity name servers and delegation configuration.
 whois_privacy: Articles on DNSimple's free WHOIS Privacy service, covering setup, management, and how it protects your personal information from public view.

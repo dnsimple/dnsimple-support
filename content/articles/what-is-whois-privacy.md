@@ -1,64 +1,55 @@
 ---
 title: What is WHOIS Privacy Service?
 excerpt: If you would like to keep your contact information private for a domain then you may sign up for the WHOIS privacy service.
-meta: If you would like to keep your contact information private for a domain then you may sign up for our free WHOIS privacy service.
+meta: WHOIS Privacy replaces your contact details in a domain's public record with a proxy identity. It is free on every DNSimple plan for TLDs that support it.
 categories:
 - Whois Privacy
 ---
 
-# What is the WHOIS Privacy Protection Service?
+# What is WHOIS Privacy Service?
 
-Most domain names registered through DNSimple, or any other domain registrar for that matter, require the collection of essential contact information, such as the registrant's name, email address, mailing address, phone number, etc. This information is used in case a dispute arises about the domain name.
+### Table of Contents {#toc}
 
-This information is often displayed in the global Whois system (also known as WHOIS). Information displayed in the global WHOIS is public and can be viewed by anyone.
+* TOC
+{:toc}
 
-All DNSimple plans include WHOIS privacy service for TLDs that allow it. If you would like to see if the TLD supports WHOIS privacy service, visit the [TLD pricing page](https://dnsimple.com/tlds). Once you find the TLD you want to know about, click it and you will see **yes** or **no** listed for WHOIS privacy in the table.
+---
 
-This service will replace the public information that you provide with an anonymous proxy identity in the public WHOIS database. This includes replacing your email address with a proxy email address and replacing your address and contact information with the information from an entity called "Whois Privacy Protection Service, Inc.".
+WHOIS Privacy replaces the contact details in a domain's public registration record with an anonymous proxy identity. Your email address is replaced with a proxy address, and your name, postal address, and phone number are replaced with those of a third-party privacy service. It is included at no cost on every DNSimple plan, for TLDs that support it.
+
+## Why registration data is public {#why-public}
+
+Registering a domain requires providing contact information: a registrant name, email address, mailing address, and phone number. Registries and registrars collect this so there is a record of who is responsible for a domain if a dispute arises.
+
+Historically that information was published in full through WHOIS, where anyone could read it. Today most of it is redacted by default for generic TLDs. See [Domain privacy after GDPR](/articles/domain-privacy-after-gdpr/) for what is published now and how redaction differs from privacy protection.
+
+## What the service replaces {#what-it-replaces}
+
+When WHOIS Privacy is enabled, the published record shows the privacy provider in place of your details:
+
+- Your name and organization are replaced with the privacy service's name
+- Your postal address is replaced with the privacy service's address
+- Your phone and fax numbers are replaced with the privacy service's numbers
+- Your email address is replaced with a proxy address that forwards to you
+
+The domain itself, its registration and expiration dates, and its name servers remain public.
 
 > [!NOTE]
-> The WHOIS privacy protection service is not provided directly by DNSimple, nor we are associated with the company Whois Privacy Protection Service, Inc.
+> The WHOIS privacy protection service is not provided directly by DNSimple, and we are not associated with the company that operates it. This is why a lookup shows that company's details rather than ours.
 
-Here is an example of the WHOIS data for a domain that has WHOIS Privacy Protection enabled:
+## Which TLDs support WHOIS Privacy {#tld-support}
 
+Support is set by the registry, so it varies by TLD. To check a specific TLD, find it on the [TLD pricing page](https://dnsimple.com/tlds) and look at the WHOIS privacy column.
 
-~~~
-Domain name: dnsimple.net
+If a TLD does not support the service, the contact card on the domain's Registration tab reads "WHOIS Privacy is not supported" and no enable button appears.
 
-Registrant Contact:
+## What it costs {#cost}
 
-   Whois Privacy Protection Service, Inc.
-   Whois Agent ()
-   Fax:
-   PMB 368, 14150 NE 20th St - F1
-   C/O dnsimple.net
-   Bellevue, WA 98007
-   US
+Nothing. WHOIS Privacy is included on every DNSimple plan for domains registered with us. There is no separate purchase, no term, and no renewal charge. You can turn it on and off as often as you like.
 
-Administrative Contact:
+## How to enable it {#enable}
 
-   Whois Privacy Protection Service, Inc.
-   Whois Agent (wqyygglqlt@whoisprivacyprotect.com)
-   +1.4252740657
-   Fax: +1.4259744730
-   PMB 368, 14150 NE 20th St - F1
-   C/O dnsimple.net
-   Bellevue, WA 98007
-   US
-
-Technical Contact:
-
-   Whois Privacy Protection Service, Inc.
-   Whois Agent (wqyygglqlt@whoisprivacyprotect.com)
-   +1.4252740657
-   Fax: +1.4259744730
-   PMB 368, 14150 NE 20th St - F1
-   C/O dnsimple.net
-   Bellevue, WA 98007
-   US
-~~~
-
-To learn how to turn WHOIS Privacy protection on or off for your domain, see our How-To guide [How to enable and disable WHOIS Privacy](/articles/whois-privacy/).
+See [WHOIS Privacy Protection](/articles/whois-privacy/) for the steps to enable or disable the service for a domain.
 
 ## Have more questions?
 
