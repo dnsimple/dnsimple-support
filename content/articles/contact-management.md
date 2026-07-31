@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Domain contacts hold the registrant details required to register a domain or order an SSL certificate. Contacts belong to your account rather than to an individual user, so adding someone as a contact does not give them access to your DNSimple account. You manage them from the <label>Contacts</label> tab in the header.
+Domain contacts hold the registrant details required to register a domain or order an SSL certificate. Contacts belong to your account rather than to an individual user, so adding someone as a contact does not give them access to your DNSimple account. You manage them from the <label>Contacts</label> tab in the header. For an overview of domain contact documentation, see [Domain Contacts at DNSimple](/articles/domain-contacts-at-dnsimple/).
 
 > [!NOTE]
 > These instructions apply only to domains registered with DNSimple. If you are hosting the domain with us, and the domain is registered elsewhere, you will have to manage the contact information at your current registrar, or transfer the domain to DNSimple.
