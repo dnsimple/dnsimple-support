@@ -15,7 +15,7 @@ categories:
 
 ---
 
-An SRV record in a [DNS template](/articles/templates/) splits its data across three fields: the service and protocol go in the name field, the weight, port, and target go in the content field, and the priority goes in its own field.
+An SRV record in a [DNS template](/articles/templates/) splits its data across three fields: the service and protocol go in the name field, the weight, port, and target go in the content field, and the priority goes in its own field. For an overview of DNS template documentation, see [DNS Templates at DNSimple](/articles/dns-templates-at-dnsimple/).
 
 ## SRV record components {#components}
 

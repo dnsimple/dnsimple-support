@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Templates are reusable groups of DNS records that you can apply to any of your domains. They speed up the entry of DNS records and reduce mistakes like typos. For what happens to a zone when a template is applied, see [How DNS Templates Work](/articles/how-dns-templates-work/).
+Templates are reusable groups of DNS records that you can apply to any of your domains. They speed up the entry of DNS records and reduce mistakes like typos. For an overview of DNS template documentation, see [DNS Templates at DNSimple](/articles/dns-templates-at-dnsimple/). For what happens to a zone when a template is applied, see [How DNS Templates Work](/articles/how-dns-templates-work/).
 
 Templates are reached from the <label>Templates</label> tab in the header, between <label>Certificates</label> and <label>Contacts</label>.
 

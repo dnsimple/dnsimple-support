@@ -41,4 +41,4 @@ A **DNS template** is a named, reusable group of DNS records stored on your acco
 
 ## Have more questions?
 
-If you have any questions about DNS templates, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have any questions about DNS templates, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
