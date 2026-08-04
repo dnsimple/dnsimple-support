@@ -4,7 +4,7 @@ import { trackSearch } from './analytics.js';
 const MAX_RESULTS = 7;
 
 const fuseOptions = {
-  keys: ['title', 'excerpt', 'searchBody'],
+  keys: ['title', 'meta', 'excerpt', 'searchBody'],
   threshold: 0.4,
   ignoreLocation: true,
   includeScore: true
