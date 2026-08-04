@@ -1,7 +1,7 @@
 ---
 title: DNSimple Plans
-excerpt: Understand which plan fits your needs
-meta: Explore DNSimple's flexible plans to find the perfect fit for your domain management needs, ensuring seamless DNS services and exceptional support.
+excerpt: What each DNSimple plan includes, and how to work out which one you need.
+meta: What each DNSimple plan includes and what it costs. Compare plans on domains, DNS zones, email forwarding, SSL certificates, and team members before you subscribe.
 categories:
 - DNSimple
 ---
