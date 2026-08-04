@@ -1,6 +1,6 @@
 ---
 title: Transfer a Domain to DNSimple
-excerpt: How to transfer your registered domain to DNSimple.
+excerpt: How to transfer a domain to DNSimple from another registrar.
 meta: How to transfer a domain registration to DNSimple from another registrar. Covers authorization codes, transfer approval, timelines, and avoiding DNS downtime.
 categories:
 - Domains and Transfers
