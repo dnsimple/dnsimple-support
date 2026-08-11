@@ -19,7 +19,9 @@ The **SSL certificate chain** (also called the **certificate chain of trust**) i
 
 ## How the certificate chain works {#how-it-works}
 
-There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must have been issued by a CA that is included in the trusted store of the device that is connecting (such as a web browser or operating system).
+There are two types of [certificate authorities (CAs)](/articles/what-is-certificate-authority/): **root CAs** and **intermediate CAs**. For an SSL certificate to be trusted, that certificate must chain back to a CA that is included in the trusted store of the device that is connecting (such as a web browser or operating system).
+
+Almost no certificate is issued directly by a CA in the trusted store. Your certificate is issued by an intermediate CA, and the intermediate CA is not itself in the trusted store — which is exactly why the chain is needed.
 
 When a device validates a certificate, it follows this process:
 
@@ -72,6 +74,8 @@ Certificate 1, the one you purchase from the CA, is your **end-user certificate*
 
 When you install your end-user certificate, you must bundle all the intermediate certificates and install them along with your end-user certificate. If the SSL certificate chain is invalid or broken, your certificate will not be trusted by some devices.
 
+**Do not include the root certificate in the bundle you serve.** The chain describes the full path from your certificate to the root, but your server only needs to send the certificates the client does not already have — your end-user certificate and the intermediates. In the example above, that means certificates 1 to 5, not certificate 6. Clients already hold the root, so sending it adds bytes to every connection without adding trust.
+
 ## Why the complete chain is required {#complete-chain}
 
 The certificate chain must be complete and unbroken for browsers to trust your certificate. When a browser validates your certificate, it follows the chain upward, verifying each certificate's signature against its issuer. If any link in the chain is missing, the browser cannot verify the certificate's authenticity and will display a security error.
@@ -83,6 +87,14 @@ If intermediate certificates are missing, the browser cannot trace the path from
 ### Root certificates and browsers
 
 Root certificates are embedded in web browsers and operating systems by their maintainers. You do not need to install root certificates on your server because they are already present in the client devices. The browser uses these pre-installed root certificates as the starting point for validating certificate chains.
+
+### A certificate can have more than one valid chain {#multiple-paths}
+
+The examples above describe a single path from your certificate to one root, which is the common case. But a CA can **cross-sign** an intermediate — have it signed by more than one root — so that one certificate has several valid paths to trust. This is how a newer CA stays trusted on older devices that do not yet carry its own root.
+
+It matters because different clients can pick different paths, and a path that works in a current browser may fail on an older device. It also means a chain can break without anything on your server changing: when a cross-signing root expires, clients that were relying on that path stop trusting the certificate. This is what happened across the web in September 2021, when Let's Encrypt's cross-signing root DST Root CA X3 expired and sites that were serving a valid certificate began failing on older Android devices and OpenSSL 1.0.2.
+
+If a certificate validates in your browser but not on an older client, a chain path is usually the reason. See [Troubleshooting SSL Certificate Chain Errors](/articles/troubleshooting-ssl-chain-errors/).
 
 
 ## Taking action {#taking-action}
