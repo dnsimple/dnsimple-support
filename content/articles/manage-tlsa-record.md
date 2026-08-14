@@ -67,7 +67,7 @@ The instructions in this article assume you are familiar with the [TLSA record f
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the TLSA record you want to update in the list.
-1. Click the edit icon (🖊️) at the end of the record row to edit it.
+1. Click the **...** menu at the end of the record row, then select **Edit**.
 
 1.  Update the information and click **Update Record** to save the record.
 </div>
@@ -82,7 +82,7 @@ The instructions in this article assume you are familiar with the [TLSA record f
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the TLSA record you want to remove in the list.
-1. Click the _trash_ icon at the end of the row to delete it.
+1. Click the **...** menu at the end of the record row, then select **Delete**.
 
 1.  Confirm the dialog to delete the record.
 </div>

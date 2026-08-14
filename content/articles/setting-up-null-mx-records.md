@@ -65,7 +65,7 @@ Before adding a null MX record, ensure no MX records exist:
 1. Navigate to your domain's <label>DNS</label> tab.
 1. Open the <label>Record Editor</label>.
 1. Look for any existing MX records in the record list.
-1. If any MX records exist, click the delete/trash icon next to each MX record and confirm the deletion.
+1. If any MX records exist, click the <label>...</label> menu at the end of each MX record row, select <label>Delete</label>, and confirm the deletion.
 </div>
 
 ### Step 3: Add the null MX record {#add-null-mx}
@@ -129,7 +129,7 @@ If you need to remove a null MX record (for example, to set up email forwarding 
 1. Navigate to your domain's <label>DNS</label> tab.
 1. Open the <label>Record Editor</label>.
 1. Find the null MX record (priority 0, mail server `.`).
-1. Click the delete/trash icon.
+1. Click the <label>...</label> menu at the end of the record row, then select <label>Delete</label>.
 1. Confirm the deletion.
 </div>
 

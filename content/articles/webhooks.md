@@ -40,7 +40,7 @@ You'll be redirected to the Webhooks section. The new webhook recipient will app
 
 ## Removing a recipient
 
-You can remove a recipient by clicking **Delete**.
+You can remove a recipient by clicking the **...** menu at the end of its row and selecting **Delete**.
 ![delete a webhook](/files/webhook-delete.png)
 
 ## Clearing suppression
@@ -51,7 +51,7 @@ When there are suppressed recipients, an alert message appears. A red exclamatio
 
 ![Suppressed recipients](/files/webhooks-clear-suppression.png)
 
-Click **Clear Suppression** to clear the suppression and allow the recipient to receive events again.
+Click the **...** menu at the end of the suppressed recipient's row, then select **Clear Suppression** to allow the recipient to receive events again.
 
 ## Have more questions?
 

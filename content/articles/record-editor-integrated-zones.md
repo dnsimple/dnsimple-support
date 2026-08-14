@@ -41,7 +41,7 @@ You can update a zone record at one or more [Integrated DNS Providers](/articles
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
-1. In the Record Editor, locate the record you want to update and click the **edit** icon at the end of the row.
+1. In the Record Editor, locate the record you want to update, click the **...** menu at the end of the row, then select **Edit**.
 
     ![Record Editor Update Integrated Record button](/files/record-editor-integrated-zones-edit-record-button.png)
 
@@ -67,7 +67,7 @@ You can delete a zone record at one or more [Integrated DNS Providers](/articles
 1.  Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
-1. In the Record Editor, locate the record you want to delete and click the **trash** icon at the end of the row.
+1. In the Record Editor, locate the record you want to delete, click the **...** menu at the end of the row, then select **Delete**.
 
     ![Record Editor Delete Integrated Record button](/files/record-editor-integrated-zones-delete-record-button.png)
 

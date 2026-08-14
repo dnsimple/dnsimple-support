@@ -69,7 +69,7 @@ The edit form uses the same fields as creation. Changes to a name server set do 
 
 ![Delete name server set](/files/name-server-sets-delete.png)
 
-Click the trash icon next to a set to delete it. Deleting a name server set does not affect existing delegations or NS record configurations that used the set.
+Click the <label>...</label> menu at the end of the set's row, then select <label>Delete</label>. Deleting a name server set does not affect existing delegations or NS record configurations that used the set.
 
 > [!NOTE]
 > System name server sets (containing the DNSimple edge name servers) are pre-defined by DNSimple and are not listed on this page. They cannot be modified.

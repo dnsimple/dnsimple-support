@@ -117,7 +117,7 @@ Beyond SPF, DKIM, and DMARC (which are all stored as [TXT records](/articles/txt
 1. Click <label>Add record</label>.
 </div>
 
-To edit a record, click the edit icon, modify the details, and click <label>Save</label>. To delete a record, click the delete icon and confirm the deletion.
+Each record row ends in a <label>...</label> menu. To edit a record, open that menu, select <label>Edit</label>, modify the details, and click <label>Save</label>. To delete a record, open the menu, select <label>Delete</label>, and confirm the deletion.
 
 ### Best practices {#best-practices}
 

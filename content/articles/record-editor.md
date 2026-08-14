@@ -49,7 +49,7 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 
 ## Updating a record {#updating-a-record}
 1. In the Record Editor, find the record you want to update.
-1. Click the edit icon (🖊️) at the end of the record row.
+1. Click the **...** menu at the end of the record row, then select **Edit**.
 1. Make your changes.
 1. Click **Update record** to save.
 
@@ -57,7 +57,7 @@ For step-by-step instructions on adding common DNS records, see [How to Add Comm
 
 ## Deleting a record {#deleting-a-record}
 1. In the Record Editor, find the record you want to delete.
-1. Click the trash icon at the end of the record row.
+1. Click the **...** menu at the end of the record row, then select **Delete**.
 1. Confirm the deletion
 
 ![delete record](/files/delete-record.png)

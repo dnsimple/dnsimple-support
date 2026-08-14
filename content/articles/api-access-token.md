@@ -95,7 +95,7 @@ You can now access the API with this token using the HTTP header `Authorization:
 
 ## Viewing and editing the permissions of a scoped access token
 
-After an access token has been created, you can view and edit the permissions it was created with. From the list of access tokens, click **Edit** on the token you want to view.
+After an access token has been created, you can view and edit the permissions it was created with. From the list of access tokens, click the **...** menu at the end of the token's row, then select **Edit**.
 
 You can then see what resources the token has access to and make changes to the permissions if needed.
 
@@ -103,7 +103,7 @@ When you are done editing the token permissions, click **Update token** to save 
 
 ## Removing an account access token
 
-You can remove a token by clicking the trash can **Delete** icon on the desired token.
+You can remove a token by clicking the **...** menu at the end of its row and selecting **Delete**.
 
 ## Have more questions?
 

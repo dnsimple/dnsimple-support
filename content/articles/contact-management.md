@@ -59,7 +59,7 @@ To change which contact a specific domain uses, [replace the domain contact](/ar
 
 ## Deleting a contact {#delete}
 
-You can delete a contact from the <label>Contacts</label> tab. If a contact can be deleted, a trash can icon appears next to its name.
+You can delete a contact from the <label>Contacts</label> tab. Click the <label>...</label> menu at the end of the contact's row, then select <label>Delete</label>. The <label>Delete</label> option only appears if the contact can be deleted.
 
 ![contact deletion](/files/contact-delete.png)
 

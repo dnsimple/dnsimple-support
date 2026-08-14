@@ -50,9 +50,8 @@ The <label>Email Forwards</label> section displays all configured email forwards
 1. <label>Email Forwarding</label> tab - Email forwarding management options for the domain.
 2. <label>Email Forwarding</label> card - Interface for all of the email forwarding options.
 3. **Destination address (To)** - The full email address where emails are forwarded.
-4. <label>Edit</label> button (pencil icon) - Click to modify an existing email forward's destination address.
-5. <label>Delete</label> button (trash can icon) - Click to remove an email forward permanently.
-6. <label>Add</label> button - Click to add another email forward on the domain.
+4. <label>...</label> menu - Opens the actions for that forward: <label>Edit</label> to modify its destination address, and <label>Delete</label> to remove it permanently.
+5. <label>Add</label> button - Click to add another email forward on the domain.
 
 ## Email forwarding limits {#limits}
 

@@ -16,7 +16,7 @@ The **TTL (Time-to-Live)** determines how long DNS resolvers cache a record befo
 2. From the **Domain Names** list, click the domain you want to manage.
 3. On the domain page, click **Edit DNS** at the top-right of the screen to open the [Record Editor](/articles/record-editor/).
 4. In the list of DNS records, find the record you want to update.
-5. Click the **edit icon** at the end of the record row.
+5. Click the **...** menu at the end of the record row, then select **Edit**.
 6. In the edit form, locate the **TTL field**.
 7. Select a new TTL value from the dropdown.
 8. Click **Update record** to save your changes.

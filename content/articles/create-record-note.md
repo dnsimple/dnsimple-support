@@ -10,7 +10,7 @@ categories:
 1. Click the relevant domain in your **Domain List**.
 1. Click the **DNS** badge in the top right.
     ![screenshot: dns badge navigation item](/files/dns-badge.png)
-1. To add a note to an existing record, click the **Add note** (speech bubble with +) icon on the right side, and enter your note.
+1. To add a note to an existing record, click the **...** menu at the end of the record row, select **Add note**, and enter your note. If the record already has a note, this option reads **View note**.
     ![screenshot: showing how to add a dns record note](/files/dns-record-note.png)
 1. To add a note when creating a record, click **Add Record**, create your record, and enter your note in the **Notes** field.
     ![Record notes](/files/record-notes.png)

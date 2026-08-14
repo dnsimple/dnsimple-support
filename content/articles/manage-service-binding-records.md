@@ -183,7 +183,7 @@ The process for updating service binding records is the same for both HTTPS and 
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the service binding record (SVCB or HTTPS) you want to update in the list.
-1. Click the edit icon (🖊️) at the end of the record row to edit it.
+1. Click the **...** menu at the end of the record row, then select **Edit**.
 
 1. Update the information and click **Update Record** to save the record.
 </div>
@@ -199,7 +199,7 @@ The process for removing service binding records is the same for both HTTPS and 
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the service binding record (SVCB or HTTPS) you want to remove in the list.
-1. Click the _trash_ icon at the end of the row to delete it.
+1. Click the **...** menu at the end of the record row, then select **Delete**.
 
 1. Confirm the dialog to delete the record.
 </div>

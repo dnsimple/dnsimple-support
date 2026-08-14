@@ -62,7 +62,7 @@ The instructions in this article assume you are familiar with the [URL record fo
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the URL record you want to update in the list.
-1. Click the **edit** icon (🖊️) at the end of the record row to edit it.
+1. Click the **...** menu at the end of the record row, then select **Edit**.
 
     ![screenshot: Showing button to edit an existing URL record](/files/record-url-item-edit.png)
 
@@ -78,7 +78,7 @@ The instructions in this article assume you are familiar with the [URL record fo
 1. From the **Domain Names** list, click the domain you want to manage.
 1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
 1. Locate the URL record you want to update in the list.
-1. Click the **trash** icon on the right side of the row to delete it.
+1. Click the **...** menu at the end of the record row, then select **Delete**.
 
     ![Screenshot: Showing button for deleting a URL record](/files/record-url-item-delete.png)
 
