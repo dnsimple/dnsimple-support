@@ -34,8 +34,8 @@ Set access levels for each team member in your account. For what Domain Access C
 ##### To set access for a team member across domains
 
 1. Select the relevant account from the account switcher, then click the gear icon next to the account name to open <label>account settings</label>.
-1. Click the <label>Members and seats</label> tab. On the <label>Members</label> card, each team member has <label>Manage Access</label> and <label>Remove</label> actions.
-1. Click <label>Manage Access</label> for a team member to set their access level to [Full Access](/articles/what-is-domain-access-control/#full-access) or [Limited Access](/articles/what-is-domain-access-control/#limited-access).
+1. Click the <label>Members and seats</label> tab.
+1. On the <label>Members</label> card, click the <label>...</label> menu at the end of a member's row, then select <label>Manage Access</label> to set their access level to [Full Access](/articles/what-is-domain-access-control/#full-access) or [Limited Access](/articles/what-is-domain-access-control/#limited-access).
 
     ![Manage Access](/files/manage-access.png)
 

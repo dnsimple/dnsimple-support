@@ -49,6 +49,8 @@ You can also create a contact at any time from the <label>Contacts</label> tab.
 
 If a contact is associated with multiple domains, updating that contact updates the contact information for all of those domains. You do not need to update each domain individually when they share the same contact.
 
+To edit a contact, open the <label>Contacts</label> tab, click the <label>...</label> menu at the end of its row, then select <label>Edit</label>.
+
 To change which contact a specific domain uses, [replace the domain contact](/articles/changing-domain-contact/#assigning-a-new-domain-contact) instead.
 
 > [!NOTE]
