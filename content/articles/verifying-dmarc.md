@@ -21,15 +21,15 @@ dig +short _dmarc.hostname.com TXT
 ```
 This will return a result like:
 ```
-"v=DMARC1; p=quarantine; pct=100; rua=mailto:aggrep@hostname.com; sp=reject; aspf=r;"
+"v=DMARC1; p=quarantine; rua=mailto:aggrep@hostname.com; sp=reject; aspf=r;"
 ```
 If no result is returned, verify that you added the TXT record with the correct subdomain. Remember, the **Name** field in DNSimple should not include your domain name, otherwise it would create a record at `subdomain.yourdomain.com.yourdomain.com`.
 
 ## Verifying your DMARC with an online tool {#verifying-your-dmarc-with-an-online-tool}
-Verify your DMARC with an online tool like [this one from MX Toolbox](https://mxtoolbox.com/dmarc.aspxk). This verifies that you have set up a DMARC record, lets you know which tags and values your record contains, and alerts you to any problems with your record.
+Verify your DMARC with an online tool like [this one from MX Toolbox](https://mxtoolbox.com/dmarc.aspx). This verifies that you have set up a DMARC record, lets you know which tags and values your record contains, and alerts you to any problems with your record.
 
 ## Monitoring DMARC {#monitoring-dmarc}
-DMARC sends daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read &mdash; we recommend using a free tool, like [Postmark's reporting](https://dmarc.postmarkapp.com/), to provide a weekly, human-readable report.
+DMARC sends daily reports to the email specified in the RUA tag to provide an overview of email traffic. These reports are sent in XML format, and can be difficult to read - we recommend using a free tool, like [Postmark's reporting](https://dmarc.postmarkapp.com/), to provide a weekly, human-readable report.
 
 If your DMARC record is published correctly but messages are still failing, the problem is often an alignment issue. See [Troubleshoot Email Authentication](/articles/troubleshooting-email-authentication/) for how to diagnose alignment failures and other common causes.
 
