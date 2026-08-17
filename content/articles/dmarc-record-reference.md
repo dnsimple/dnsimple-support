@@ -44,7 +44,7 @@ In the DNSimple [record editor](/articles/record-editor/), a DMARC record is rep
 | `aspf` | **SPF alignment mode**| `r` (relaxed), `s` (strict) |
 | `fo` | **Forensic options**: Controls when forensic reports are generated.| `0` (all failures), `1` (any failure), `d` (DKIM failure), `s` (SPF failure) |
 | `t` | **Testing mode**: Asks receivers that support RFC 9989 to apply a softer policy while you test. | `n` (default, apply published policy), `y` (one level softer) |
-| `psd` | **Public suffix domain**: Indicates whether the record is published for a public suffix domain. | `y`, `n` |
+| `psd` | **Public suffix domain**: Indicates whether the record is published for a public suffix domain. | `y`, `n`, `u` (default) |
 
 > [!NOTE]
 > RFC 9989 removes the historic `pct`, `rf`, and `ri` tags. Do not use `pct` for staged rollout. See [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for the current monitoring-to-enforcement path.
