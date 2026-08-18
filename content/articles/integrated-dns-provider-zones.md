@@ -96,7 +96,7 @@ This retains the zone and its records at both DNSimple and at the Integrated DNS
 
     ![Remove integrated zone](/files/dns-zone-providers-remove.png)
 
-1.  Click **OK** in the confirmation dialog popup to proceed with the removal. The zone will remain in both DNSimple and at the Integrated DNS Provider, but you will no longer be able to synchronize or manage the zone at the provider via DNSimple.
+1.  Click **Confirm** in the confirmation dialog to proceed with the removal. The zone will remain in both DNSimple and at the Integrated DNS Provider, but you will no longer be able to synchronize or manage the zone at the provider via DNSimple.
 
     ![Confirm integrated zone removal](/files/dns-zone-providers-remove-zone-confirmation.png)
 
