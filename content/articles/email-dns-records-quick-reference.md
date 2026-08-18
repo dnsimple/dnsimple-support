@@ -122,7 +122,6 @@ Content: v=DMARC1; p=none; rua=mailto:dmarc@example.com
 - `ruf=mailto:address@example.com` - Forensic reports
 - `aspf=r` - Relaxed SPF alignment (default)
 - `adkim=r` - Relaxed DKIM alignment (default)
-- `pct=25` - Apply policy to 25% of emails
 
 > [!NOTE]
 > See [Set Up DMARC](/articles/set-up-dmarc/) and [Implement a Gradual DMARC Policy](/articles/implementing-a-gradual-dmarc-policy/) for details.

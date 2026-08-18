@@ -1,7 +1,7 @@
 ---
 title: Implement a Gradual DMARC Policy
 excerpt: Step-by-step guide to gradually implementing DMARC policies, starting with monitoring and moving to quarantine and reject.
-meta: Learn how to implement DMARC gradually, starting with monitoring, then moving to quarantine, and finally to reject policies safely.
+meta: Learn how to implement DMARC gradually under RFC 9989, starting with monitoring, then quarantine, then reject, without percentage-based rollout.
 categories:
 - Emails
 ---
@@ -15,7 +15,10 @@ categories:
 
 ---
 
-Implementing DMARC gradually is a best practice that helps you identify and fix authentication issues before they affect email delivery. This guide covers the gradual implementation process, from monitoring to full enforcement.
+Implementing DMARC gradually helps you identify and fix authentication issues before they affect email delivery. Start with monitoring (`p=none`), then move to quarantine, then reject, only after reports show legitimate mail is aligned.
+
+> [!NOTE]
+> [RFC 9989](https://www.rfc-editor.org/rfc/rfc9989.html) (published May 2026) obsoletes RFC 7489 and removes the `pct` tag. Percentage-based rollout is no longer part of the DMARC specification, because receivers did not apply partial percentages consistently. Do not rely on `pct=25`, `pct=50`, or similar values for a staged rollout.
 
 ## Why implement DMARC gradually? {#why}
 
@@ -23,7 +26,7 @@ Implementing DMARC gradually helps you:
 
 - **Identify issues early:** Discover authentication problems before they affect delivery
 - **Fix problems safely:** Address issues without impacting legitimate email
-- **Build confidence:** Gradually increase enforcement as you verify everything works
+- **Build confidence:** Increase enforcement only after you verify everything works
 - **Minimize disruption:** Avoid blocking legitimate emails during implementation
 - **Learn your email ecosystem:** Understand all services sending email from your domain
 
@@ -91,7 +94,7 @@ During the monitoring phase:
 
 ## Step 2: Move to quarantine (p=quarantine) {#quarantine}
 
-Once you have fixed authentication issues and verified everything is working, move to quarantine.
+After `p=none` reporting shows that legitimate sources are aligned, start enforcement. Prefer a low-volume or low-complexity domain first if you manage more than one.
 
 ### Update DMARC record {#update-quarantine}
 
@@ -103,22 +106,14 @@ Once you have fixed authentication issues and verified everything is working, mo
 1. Find the DMARC TXT record at `_dmarc`.
 1. Update the <label>Content</label> field to:
    ```
-   v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc@yourdomain.com
+   v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
    ```
-   `pct=25` means only 25% of failing emails will be quarantined initially.
 1. Click <label>Save</label>.
 </div>
 
-### Start with percentage enforcement
-
-Using `pct=25` (or even lower) means:
-- Only 25% of emails that fail DMARC will be quarantined
-- 75% will still be delivered (monitoring mode)
-- Helps you test the impact before full enforcement
-
 ### Monitor closely
 
-During quarantine phase:
+During the quarantine phase:
 
 1. **Monitor reports daily:**
    - Check DMARC reports more frequently
@@ -130,24 +125,13 @@ During quarantine phase:
    - Check if legitimate emails are being quarantined
    - Fix any issues immediately
 
-3. **Gradually increase percentage:**
-   - After a week with no issues, increase to `pct=50`
-   - Then `pct=75`
-   - Finally `pct=100` (full quarantine)
-
-### Full quarantine policy
-
-Once you are confident, move to full quarantine:
-
-```
-v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com
-```
-
-(Removing `pct=100` means 100% enforcement)
+3. **Revert if needed:**
+   - If legitimate mail is affected, change the policy back to `p=none` while you correct the sender
+   - Return to quarantine only after reports look clean again
 
 ## Step 3: Move to reject (p=reject) {#reject}
 
-Only move to reject after thorough testing with quarantine.
+Move to reject only after results remain clean under quarantine.
 
 ### Update DMARC record {#update-reject}
 
@@ -159,22 +143,14 @@ Only move to reject after thorough testing with quarantine.
 1. Find the DMARC TXT record at `_dmarc`.
 1. Update the <label>Content</label> field to:
    ```
-   v=DMARC1; p=reject; pct=25; rua=mailto:dmarc@yourdomain.com
+   v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
    ```
-   Start with `pct=25` again for safety.
 1. Click <label>Save</label>.
 </div>
 
-### Start with percentage enforcement
-
-Again, start with a low percentage:
-- Only 25% of failing emails will be rejected
-- 75% will still be quarantined
-- Allows you to test impact before full enforcement
-
 ### Monitor closely
 
-During reject phase:
+During the reject phase:
 
 1. **Monitor very closely:**
    - Check reports daily
@@ -186,20 +162,16 @@ During reject phase:
    - Verify no legitimate emails are being rejected
    - Fix any issues immediately
 
-3. **Gradually increase percentage:**
-   - After confirming no issues, increase to `pct=50`
-   - Then `pct=75`
-   - Finally `pct=100` (full reject)
+3. **Revert if needed:**
+   - If legitimate mail is affected, temporarily move back to `p=quarantine` or `p=none` while you fix authentication
+   - Return to reject only after delivery looks stable again
 
-### Full reject policy
+## About testing mode (t=y) {#testing-mode}
 
-Once you are completely confident, move to full reject:
+RFC 9989 introduces a `t` (testing mode) tag. With `t=y`, receivers that support RFC 9989 are asked to apply a policy one level softer than the published `p` value (for example, `p=reject; t=y` is treated like quarantine for failing messages).
 
-```
-v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
-```
-
-(Removing `pct=100` means 100% enforcement)
+> [!WARNING]
+> Do not treat `t=y` as a guaranteed delivery-impact control during the transition. Receivers that still follow older DMARC behavior may ignore an unknown `t` tag and apply the published `p` policy fully. Use monitoring reports and careful policy changes as your primary rollout controls.
 
 ## Timeline example {#timeline}
 
@@ -210,23 +182,17 @@ Here is a typical timeline for gradual DMARC implementation:
 - Identify all legitimate email sources
 - Configure SPF and DKIM for all sources
 
-**Week 5-6: Quarantine with percentage (`p=quarantine; pct=25`)**
-- Start with 25% quarantine
-- Monitor closely
-- Gradually increase to 100%
+**Week 5-6: Quarantine (`p=quarantine`)**
+- Apply quarantine for failing messages
+- Monitor reports and spam folders closely
+- Revert to `p=none` if legitimate mail is affected
 
-**Week 7-8: Full quarantine (`p=quarantine`)**
-- 100% quarantine enforcement
-- Monitor for any issues
-- Ensure everything works correctly
+**Week 7-8: Confirm quarantine is stable**
+- Keep quarantine in place while reports stay clean
+- Fix any remaining authentication gaps
 
-**Week 9-10: Reject with percentage (`p=reject; pct=25`)**
-- Start with 25% reject
-- Monitor very closely
-- Gradually increase to 100%
-
-**Week 11+: Full reject (`p=reject`)**
-- 100% reject enforcement
+**Week 9+: Reject (`p=reject`)**
+- Move to reject only after quarantine stays clean
 - Continue monitoring
 - Maintain configuration
 
@@ -267,7 +233,8 @@ Here is a typical timeline for gradual DMARC implementation:
 ## Best practices {#best-practices}
 
 - Always start with `p=none` (monitoring)
-- Use percentage enforcement (`pct`) when moving to stricter policies
+- Move to `p=quarantine`, then `p=reject`, only after reports look clean
+- Do not rely on `pct` for staged rollout
 - Monitor reports regularly throughout the process
 - Fix all authentication issues before moving forward
 - Test thoroughly at each stage
@@ -278,6 +245,7 @@ Here is a typical timeline for gradual DMARC implementation:
 ## Related articles {#related}
 
 - [Set Up DMARC](/articles/set-up-dmarc/) - Initial DMARC setup
+- [DMARC Record Reference](/articles/dmarc-record-reference/) - DMARC tags and record format
 - [SPF, DKIM, and DMARC Alignment](/articles/understanding-spf-dkim-dmarc-alignment/) - Alignment requirements
 
 ## Have more questions?
