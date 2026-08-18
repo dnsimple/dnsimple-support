@@ -29,7 +29,7 @@ The process for adding HTTPS records is straightforward. The **Name** field uses
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. In the record editor, click **Add**, and select **HTTPS** to add a new HTTPS record.
 1. Enter the HTTPS record information.
 
@@ -65,7 +65,7 @@ The process for adding SVCB records is similar to HTTPS records, but the **Name*
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. In the record editor, click **Add**, and select **SVCB** to add a new SVCB record.
 1. Enter the SVCB record information.
 
@@ -181,7 +181,7 @@ The process for updating service binding records is the same for both HTTPS and 
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the service binding record (SVCB or HTTPS) you want to update in the list.
 1. Click the **...** menu at the end of the record row, then select **Edit**.
 
@@ -197,7 +197,7 @@ The process for removing service binding records is the same for both HTTPS and 
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the service binding record (SVCB or HTTPS) you want to remove in the list.
 1. Click the **...** menu at the end of the record row, then select **Delete**.
 

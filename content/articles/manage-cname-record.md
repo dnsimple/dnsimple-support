@@ -25,7 +25,7 @@ The instructions in this article assume you are familiar with the [CNAME record 
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. In the **Record Editor**, click **Add record**, and select **CNAME** from the dropdown menu.
 ![screenshot: add cname record](/files/cname-add-record.png)
 1. Enter the CNAME record information.
@@ -73,7 +73,7 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the CNAME record you want to update in the list.
 1. Click the **...** menu at the end of the record row, then select **Edit**.
   ![screenshot: edit cname record](/files/cname-record-edit.png)
@@ -88,7 +88,7 @@ You can achieve a similar behavior to CNAME records with an ALIAS record. If you
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the CNAME record you want to remove in the list
 1. Click the **...** menu at the end of the record row, then select **Delete**.
   ![screenshot: delete cname record](/files/cname-record-delete.png)
