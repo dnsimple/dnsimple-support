@@ -1,5 +1,5 @@
 ---
-title: Zone NS Records
+title: Updating Zone NS Records for a Hosted Domain
 excerpt: How to update zone NS records for a hosted domain.
 meta: How to update Name Server (NS) records for a hosted domain in DNSimple. Add, edit, or remove zone NS records to control DNS delegation.
 categories:

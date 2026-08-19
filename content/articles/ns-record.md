@@ -5,7 +5,7 @@ meta: Learn what NS records are, their importance in DNS management, and how to 
 categories:
 - DNS
 ---
-# NS Records 
+# What Is an NS Record?
 
 ### Table of Contents {#toc}
 

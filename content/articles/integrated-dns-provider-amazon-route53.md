@@ -7,7 +7,7 @@ categories:
 - Integrations
 ---
 
-# Amazon Route 53
+# Integrated DNS Provider Amazon Route 53
 
 ### Table of Contents {#toc}
 

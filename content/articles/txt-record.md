@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# TXT Records
+# What Is a TXT Record?
 
 ### Table of Contents {#toc}
 

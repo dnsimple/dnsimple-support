@@ -56,7 +56,7 @@ Explanation:
     - How Does Zone Verification Work?
     - What Is Zone Verification and Why Does It Matter?
     - How Long Does a New DNS Record Take to Resolve?
-    - How DNS Caching and TTL Affect Record Changes
+    - How DNS Caching and TTL Affect Delegation and Record Changes
     - Recursive vs Authoritative DNS Resolvers
     - Protection Against DDoS Attacks
     - Why DNSSEC and Secondary DNS May Not Work Together
@@ -91,7 +91,7 @@ How to:
     - Activate and Deactivate a DNS Zone
     - Export Zone File
     - Import Zone File
-    - Zone NS Records
+    - Updating Zone NS Records for a Hosted Domain
     - Check Resolution Status
     - Check DNS Cache
     - How to Use dig
@@ -116,7 +116,7 @@ How to:
     - Refresh and Import Integrated Zones
     - Sync Integrated Zone Records Between DNS Providers
     - How to Use CoreDNS as an Integrated DNS Provider
-    - How to Use Route 53 as an Integrated DNS Provider
+    - How to Use Amazon Route 53 as an Integrated DNS Provider
     - Auto-Import DNS Records
   DNSSEC Management:
     - Add and Remove DS Records
@@ -128,7 +128,7 @@ How to:
     - Troubleshoot Empty Non-Terminal Issues
     - Troubleshoot Record Resolution Issues
     - How to Fix Empty Responses from Empty Non-Terminals
-    - Email and Subdomain Issues After Delegation
+    - Troubleshoot Email or Subdomains After Delegation Changes
 
 Reference:
   - DNS Glossary

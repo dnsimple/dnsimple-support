@@ -6,7 +6,7 @@ categories:
 - Name Servers
 ---
 
-# DNSimple Interface Reference for Name Server Management
+# Name Server Management Interface Reference
 
 ### Table of Contents {#toc}
 

@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# A Records
+# What Is an A Record?
 
 ### Table of Contents {#toc}
 

@@ -7,7 +7,7 @@ categories:
 - Integrations
 ---
 
-# CoreDNS
+# Integrated DNS Provider CoreDNS
 
 ### Table of Contents {#toc}
 

@@ -6,7 +6,7 @@ categories:
   - DNS
 ---
 
-# AAAA Records
+# What Is an AAAA Record?
 
 ### Table of Contents {#toc}
 

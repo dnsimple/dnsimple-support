@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# SPF Records
+# What Is an SPF Record?
 
 ### Table of Contents {#toc}
 

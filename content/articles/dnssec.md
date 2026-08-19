@@ -1,5 +1,5 @@
 ---
-title: DNSSEC at DNSimple
+title: DNS Security Extensions (DNSSEC) at DNSimple
 excerpt: Enable, manage, and troubleshoot DNSSEC for your domains at DNSimple, with automatic key rotation and DS-data and KEY-data interface support.
 meta: DNSSEC at DNSimple. Enable, manage, and troubleshoot DNSSEC with automatic key rotation, DS record provisioning, and key lifecycle management.
 categories:

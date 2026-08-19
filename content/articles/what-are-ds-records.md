@@ -8,7 +8,7 @@ categories:
 - Enterprise
 ---
 
-# What are DS records?
+# What Are DS Records?
 
 A Delegation Signer (DS) record is a critical DNSSEC record that connects your domain's cryptographic identity to the global DNS system. It acts as a trusted reference from your parent zone (like .com or .org) to your domain's Key Signing Key (KSK) by containing a cryptographic digest (hash) of that key.
 

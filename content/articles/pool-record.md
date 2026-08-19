@@ -5,7 +5,7 @@ meta: Discover what a POOL record is and learn how to easily create and manage P
 categories:
 - DNS
 ---
-# Pool Records
+# What Is a POOL Record?
 
 ### Table of Contents {#toc}
 * TOC

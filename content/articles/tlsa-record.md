@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# TLSA Records
+# What Is a TLSA Record?
 
 ### Table of Contents {#toc}
 

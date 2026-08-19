@@ -7,7 +7,7 @@ categories:
 - Integrations
 ---
 
-# Integrated Domain Providers
+# Integrated Domain Providers at DNSimple
 
 ### Table of Contents {#toc}
 

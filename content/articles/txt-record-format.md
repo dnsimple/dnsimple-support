@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# TXT Record Formatting and Long Record Handling
+# TXT Record Format and Long Record Handling
 This document serves as a reference for the technical specifications, formatting rules, and validation constraints that apply to [TXT (Text) records](/articles/txt-record/)  in the [Domain Name System](/articles/what-is-dns/), with a specific focus on how DNSimple processes and manages these records, particularly for long content strings.
 
 ## TXT record format basics {#txt-record-format-basics}
