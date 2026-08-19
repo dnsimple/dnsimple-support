@@ -21,6 +21,9 @@ jobs:
   refresh:
     name: Refresh
     runs-on: ubuntu-latest
+    # A hung apt mirror once held the job for 20+ minutes; a healthy run takes
+    # a few minutes, so time-box it and let the next schedule retry.
+    timeout-minutes: 15
     steps:
       - name: Clone repository
         uses: actions/checkout@v7.0.0
