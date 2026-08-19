@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: "0 9 * * 1" # Mondays 09:00 UTC
   workflow_dispatch:
-  # TEMPORARY - pre-merge testing only, REMOVE BEFORE MERGE: runs the capture
-  # on every push to the PR branch so it can be exercised before it reaches main.
-  push:
-    branches: [claude/weekly-screenshot-refresh-action-776f4e]
 
 permissions:
   contents: write
