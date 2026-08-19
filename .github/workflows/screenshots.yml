@@ -36,14 +36,14 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
         run: npm ci
-      - name: Install Chromium
-        working-directory: _screenshots
-        run: npx playwright install --with-deps chromium
+      # No browser install: the capture drives the runner's preinstalled
+      # Chrome (SCREENSHOT_BROWSER_CHANNEL below).
       - name: Install pngquant
         run: sudo apt-get update && sudo apt-get install -y pngquant
       - name: Capture screenshots
         working-directory: _screenshots
         env:
+          SCREENSHOT_BROWSER_CHANNEL: chrome
           SCREENSHOT_EMAIL: ${{ secrets.SCREENSHOT_EMAIL }}
           SCREENSHOT_PASSWORD: ${{ secrets.SCREENSHOT_PASSWORD }}
         run: node capture.js

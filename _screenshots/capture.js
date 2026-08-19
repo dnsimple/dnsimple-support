@@ -140,7 +140,10 @@ async function main() {
   };
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'screenshots-'));
 
-  const browser = await chromium.launch();
+  // SCREENSHOT_BROWSER_CHANNEL=chrome uses a system-installed Chrome (GitHub
+  // runners ship one), so CI downloads no browser at all. Unset, Playwright
+  // uses its own Chromium (local runs).
+  const browser = await chromium.launch({ channel: process.env.SCREENSHOT_BROWSER_CHANNEL || undefined });
   const context = await browser.newContext({ viewport: VIEWPORT, deviceScaleFactor: SCALE });
   const page = await context.newPage();
 
