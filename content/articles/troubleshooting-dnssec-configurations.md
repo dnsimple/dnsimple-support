@@ -16,7 +16,7 @@ If you're new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/)
 {:toc}
 ---
 
-## Is DNSSEC active for your DNSimple domain?
+## Is DNSSEC active for your DNSimple domain? {#is-active}
 
 There are two ways to check this:
 
@@ -31,7 +31,7 @@ See [External DNSSEC Diagnostic Tools](/articles/external-dnssec-diagnostic-tool
 
 After identifying the reported error, return here and follow the resolution steps below.
 
-## Common DNSSEC issues and their resolutions
+## Common DNSSEC issues and their resolutions {#common-issues}
 This section details the most frequent problems identified by the tools and provides actionable steps to fix them, ensuring your DNSSEC is properly set up with DNSimple.
 
 ### Incorrect or missing DS records in the parent zone (registrar not DNSimple)
@@ -53,7 +53,7 @@ This section details the most frequent problems identified by the tools and prov
 **Resolution steps**:
 1. **Check your email inbox**: Check your email for any automated DNSSEC notifications, and follow the included instructions. Our system will automatically notify you when a DNSSEC operation doesn't complete successfully.
 
-## Contact DNSimple support
+## Contact DNSimple support {#contact}
 Please reach out to our [expert support team](https://www.dnsimple.com/contact) at DNSimple about any DNSSEC-related issues.
 
 Before contacting support, please gather the following information:
