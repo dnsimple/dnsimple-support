@@ -1,0 +1,64 @@
+name: Screenshots
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+  workflow_dispatch:
+  # TEMPORARY - pre-merge testing only, REMOVE BEFORE MERGE: runs the capture
+  # on every push to the PR branch so it can be exercised before it reaches main.
+  push:
+    branches: [claude/weekly-screenshot-refresh-action-776f4e]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v7.0.0
+      - name: Install Node
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version-file: '.tool-versions'
+      - name: Install JS Deps
+        working-directory: _screenshots
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+        run: npm ci
+      - name: Install Chromium
+        working-directory: _screenshots
+        run: npx playwright install --with-deps chromium
+      - name: Install pngquant
+        run: sudo apt-get update && sudo apt-get install -y pngquant
+      - name: Capture screenshots
+        working-directory: _screenshots
+        env:
+          SCREENSHOT_EMAIL: ${{ secrets.SCREENSHOT_EMAIL }}
+          SCREENSHOT_PASSWORD: ${{ secrets.SCREENSHOT_PASSWORD }}
+        run: node capture.js
+      # Runs even when a capture spec failed, so the shots that did refresh
+      # still land in a PR while the red run flags the broken spec.
+      - name: Create pull request
+        if: ${{ !cancelled() }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: content/files/*.png
+          branch: refresh-app-screenshots
+          delete-branch: true
+          commit-message: Refresh app screenshots
+          title: Refresh app screenshots
+          body: |
+            Weekly automated screenshot refresh from the app.
+
+            Captured by `_screenshots/capture.js` from the `capture:` annotations
+            in `content/articles/`, compressed with pngquant. Only screenshots
+            whose pixels meaningfully changed are included. Review each image
+            before merging.
