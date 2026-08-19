@@ -53,6 +53,10 @@ jobs:
         if: ${{ !cancelled() }}
         uses: peter-evans/create-pull-request@v7
         with:
+          # A fine-grained PAT (contents + pull-requests write): the default
+          # GITHUB_TOKEN can't open PRs unless an org admin enables
+          # "Allow GitHub Actions to create and approve pull requests".
+          token: ${{ secrets.SCREENSHOT_PR_TOKEN }}
           add-paths: content/files/*.png
           branch: refresh-app-screenshots
           delete-branch: true

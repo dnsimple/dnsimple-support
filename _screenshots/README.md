@@ -58,8 +58,9 @@ SCREENSHOT_EMAIL=... SCREENSHOT_PASSWORD=... node capture.js
    account id is auto-detected at runtime; the base URL defaults to sandbox
    (`SCREENSHOT_BASE_URL` variable overrides it), and `SCREENSHOT_DOMAIN` is
    only needed once a capture spec uses `{domain}`.
-3. In Settings > Actions > General, enable "Allow GitHub Actions to create and
-   approve pull requests" (needed by peter-evans/create-pull-request).
+3. Repository secret `SCREENSHOT_PR_TOKEN`: a fine-grained PAT for this repo
+   with contents and pull-requests write access. The PR step uses it because
+   the default workflow token isn't allowed to open PRs here.
 
 ## How churn is avoided
 
