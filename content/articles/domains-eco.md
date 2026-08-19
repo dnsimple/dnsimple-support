@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .ECO Domain Names
+# .ECO Domains
 
 * TOC
 {:toc}

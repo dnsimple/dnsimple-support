@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .WATCHES Domain Names
+# .WATCHES Domains
 
 * TOC
 {:toc}

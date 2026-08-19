@@ -7,7 +7,7 @@ categories:
 - Enterprise
 ---
 
-# .INSURANCE Domain Names
+# .INSURANCE Domains
 
 * TOC
 {:toc}

@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .MUSIC Domain Names
+# .MUSIC Domains
 
 * TOC
 {:toc}

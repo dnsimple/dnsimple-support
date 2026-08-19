@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .ZA Domain Names
+# .ZA Domains
 
 * TOC
 {:toc}

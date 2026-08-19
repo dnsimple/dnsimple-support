@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .BZH Domain Names
+# .BZH Domains
 
 * TOC
 {:toc}

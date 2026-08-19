@@ -7,7 +7,7 @@ categories:
 - Enterprise
 ---
 
-# .BANK Domain Names
+# .BANK Domains
 
 * TOC
 {:toc}

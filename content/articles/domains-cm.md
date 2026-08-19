@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .CM Domain Names
+# .CM Domains
 
 * TOC
 {:toc}

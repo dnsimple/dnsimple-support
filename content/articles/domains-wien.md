@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .WIEN Domain Names
+# .WIEN Domains
 
 * TOC
 {:toc}

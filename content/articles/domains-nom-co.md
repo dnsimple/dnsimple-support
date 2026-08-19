@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .NOM.CO Domain Names
+# .NOM.CO Domains
 
 * TOC
 {:toc}

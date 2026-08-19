@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .PL Domain Names
+# .PL Domains
 
 * TOC
 {:toc}

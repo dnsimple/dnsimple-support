@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .CA Domain Names
+# .CA Domains
 
 * TOC
 {:toc}

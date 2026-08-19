@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .AIRFORCE Domain Names
+# .AIRFORCE Domains
 
 * TOC
 {:toc}

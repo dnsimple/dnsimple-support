@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .JP Domain Names
+# .JP Domains
 
 * TOC
 {:toc}

@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .MX Domain Names
+# .MX Domains
 
 * TOC
 {:toc}
