@@ -73,7 +73,7 @@ function fragmentToSelectors(fragment) {
 }
 
 // True when the new capture is meaningfully different from the file on disk.
-// The threshold absorbs pngquant quantization and anti-aliasing jitter so an
+// The threshold absorbs palette quantization and anti-aliasing jitter so an
 // unchanged page doesn't churn out a weekly PR.
 function pngsDiffer(bufferA, bufferB, { threshold = 0.1, maxDiffRatio = 0.001 } = {}) {
   const a = PNG.sync.read(bufferA);

@@ -38,8 +38,6 @@ jobs:
         run: npm ci
       # No browser install: the capture drives the runner's preinstalled
       # Chrome (SCREENSHOT_BROWSER_CHANNEL below).
-      - name: Install pngquant
-        run: sudo apt-get update && sudo apt-get install -y pngquant
       - name: Capture screenshots
         working-directory: _screenshots
         env:
@@ -67,6 +65,6 @@ jobs:
             Weekly automated screenshot refresh from the app.
 
             Captured by `_screenshots/capture.js` from the `capture:` annotations
-            in `content/articles/`, compressed with pngquant. Only screenshots
+            in `content/articles/`, compressed with sharp. Only screenshots
             whose pixels meaningfully changed are included. Review each image
             before merging.

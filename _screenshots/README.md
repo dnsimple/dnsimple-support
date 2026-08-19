@@ -2,7 +2,7 @@
 
 Keeps `content/files/*.png` in sync with the live app. A weekly GitHub Action
 (`.github/workflows/screenshots.yml`) logs into the app, re-captures every
-annotated screenshot, compresses it with pngquant, and opens a PR when pixels
+annotated screenshot, compresses it (palette quantization via sharp), and opens a PR when pixels
 actually changed.
 
 ## Annotating an article

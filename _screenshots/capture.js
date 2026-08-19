@@ -19,8 +19,8 @@
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const { spawnSync } = require('node:child_process');
 const { chromium } = require('playwright');
+const sharp = require('sharp');
 const { extractSpecs, mergeSpecs, resolvePath, fragmentToSelectors, describe, accountFromHrefs } = require('./lib');
 
 const CONFIG_FILE = path.join(__dirname, 'config.json');
@@ -47,14 +47,12 @@ function loadSpecs() {
   return mergeSpecs(specs);
 }
 
-function compress(file) {
-  const result = spawnSync('pngquant', ['--force', '--skip-if-larger', '--quality', '65-90', '--ext', '.png', file]);
-  if (result.error && result.error.code === 'ENOENT') return 'pngquant not installed, skipped';
-  // 98 = --skip-if-larger declined; 99 = below quality floor. Both leave the original.
-  if (result.status !== 0 && result.status !== 98 && result.status !== 99) 
-    throw new Error(`pngquant failed (${result.status}): ${result.stderr}`);
-  
-  return null;
+// Palette quantization via sharp (libimagequant, the same engine as pngquant)
+// so CI needs no apt packages. Keeps the original when quantizing would grow it.
+async function compress(file) {
+  const original = fs.readFileSync(file);
+  const compressed = await sharp(original).png({ palette: true, quality: 90 }).toBuffer();
+  if (compressed.length < original.length) fs.writeFileSync(file, compressed);
 }
 
 async function login(page, baseUrl, email, password) {
@@ -161,11 +159,11 @@ async function main() {
     for (const spec of specs) 
       try {
         const tmpFile = await capture(page, appOrigin, spec, vars, tmpDir);
-        const note = compress(tmpFile);
+        await compress(tmpFile);
         const destFile = path.join(FILES_DIR, spec.file);
         const status = replaceIfChanged(tmpFile, destFile);
         if (status !== 'UNCHANGED') changed += 1;
-        console.log(`${status} ${spec.file}${note ? ` (${note})` : ''}`);
+        console.log(`${status} ${spec.file}`);
       } catch (error) {
         failures.push(spec);
         console.error(`FAILED ${spec.file}: ${error.message}`);
