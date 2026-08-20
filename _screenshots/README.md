@@ -29,6 +29,16 @@ HTML comment on the line after the image (or trailing on the same line):
 
 Captures are 1280x800 at 2x scale (retina), matching the existing screenshots.
 
+## On-demand capture for a pull request
+
+The Actions "Run workflow" button takes an optional **PR number**. With one,
+the run checks out that PR's branch, captures from the annotations on that
+branch, and commits any changed screenshots straight back to the PR - useful
+when a content PR adds annotations, or when an image in the weekly refresh PR
+needs a re-capture mid-review. Without a PR number, a dispatch behaves like
+the weekly run: it opens or force-updates the `refresh-app-screenshots` PR.
+Fork PRs are not supported (the workflow token cannot push to forks).
+
 ## Running locally
 
 ```bash

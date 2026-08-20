@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 9 * * 1" # Mondays 09:00 UTC
   workflow_dispatch:
+    inputs:
+      pr:
+        description: "PR number: capture into that PR's branch (commits changed screenshots to it) instead of opening the refresh PR"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -21,8 +26,18 @@ jobs:
     # a few minutes, so time-box it and let the next schedule retry.
     timeout-minutes: 15
     steps:
+      # When dispatched with a PR number, work on that PR's branch: capture
+      # from its annotations and push the refreshed images back to it.
+      - name: Resolve target branch
+        id: target
+        if: ${{ inputs.pr }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "branch=$(gh pr view '${{ inputs.pr }}' --repo '${{ github.repository }}' --json headRefName --jq .headRefName)" >> "$GITHUB_OUTPUT"
       - name: Clone repository
         uses: actions/checkout@v7.0.0
+        with:
+          ref: ${{ steps.target.outputs.branch || github.ref }}
       - name: Install Node
         uses: actions/setup-node@v7.0.0
         with:
@@ -41,10 +56,24 @@ jobs:
           SCREENSHOT_EMAIL: ${{ secrets.SCREENSHOT_EMAIL }}
           SCREENSHOT_PASSWORD: ${{ secrets.SCREENSHOT_PASSWORD }}
         run: node capture.js
+      # Dispatched for a PR: commit refreshed images straight to its branch.
+      # Fork PRs are not supported (the default token cannot push to forks).
+      - name: Commit to the pull request
+        if: ${{ inputs.pr && !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/files/*.png
+          if git diff --cached --quiet; then
+            echo "No screenshot changes to commit."
+          else
+            git commit -m "Refresh app screenshots"
+            git push
+          fi
       # Runs even when a capture spec failed, so the shots that did refresh
       # still land in a PR while the red run flags the broken spec.
       - name: Create pull request
-        if: ${{ !cancelled() }}
+        if: ${{ !inputs.pr && !cancelled() }}
         uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
         with:
           # SCREENSHOT_PR_TOKEN (a PAT with contents + pull-requests write) when
