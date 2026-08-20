@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# CNAME Records
+# What Is a CNAME Record?
 
 ### Table of Contents {#toc}
 

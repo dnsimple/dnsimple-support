@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# DKIM Records
+# What Is a DKIM Record?
 
 ### Table of Contents {#toc}
 

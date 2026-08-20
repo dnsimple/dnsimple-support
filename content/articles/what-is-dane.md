@@ -7,7 +7,7 @@ categories:
 - DNSSEC
 ---
 
-# What Is DANE?
+# What Is DANE and How Does It Work?
 
 ### Table of Contents {#toc}
 

@@ -4,20 +4,20 @@ Getting started:
 
 Explanation:
   Name server concepts:
-    - "What is a name server?"
+    - "What is a Name Server?"
     - "What Are Vanity Name Servers?"
     - "What Are Glue Records?"
     - "Domain Delegation and Name Servers Explained"
   Resolver roles:
     - "Recursive vs Authoritative DNS Resolvers"
   Delegation and caching:
-    - "How DNS Caching and TTL Affect Record Changes"
+    - "How DNS Caching and TTL Affect Delegation and Record Changes"
 
 How-to:
   Domain delegation:
     - "Pointing a Domain to DNSimple"
     - "Delegate a Domain from Another Registrar to DNSimple"
-    - "Delegating a Domain Registered with DNSimple"
+    - "Delegate a DNSimple-Registered Domain to DNSimple Name Servers"
   Delegation settings and child zones:
     - "Change delegation to another DNS provider"
     - "Adding NS Records for a Subdomain"
@@ -27,7 +27,7 @@ How-to:
 
 Troubleshooting:
   After delegation:
-    - "Email and Subdomain Issues After Delegation"
+    - "Troubleshoot Email or Subdomains After Delegation Changes"
   DNSimple name servers:
     - "Troubleshoot DNSimple Name Servers"
 

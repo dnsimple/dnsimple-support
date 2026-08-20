@@ -6,7 +6,7 @@ categories:
 - SSL Certificates
 ---
 
-# How Do I Determine the Certificate Authority That Signed My SSL Certificate?
+# How to Find Your SSL Certificate Authority
 
 You can determine which certificate authority (CA) signed your SSL certificate by checking the certificate details in your browser or using command-line tools.
 

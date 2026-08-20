@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# What are SSHFP Records?
+# What Are SSHFP Records?
 
 An SSHFP (SSH FingerPrint, record type 44) record is a type of DNS resource record that is used to securely publish SSH host key fingerprints in the [Domain Name System (DNS)](/articles/what-is-dns/). The primary purpose of an SSHFP record is to provide a way for SSH clients to automatically and securely verify the authenticity of an SSH server's public key, helping to protect against man-in-the-middle (MITM) attacks during SSH connections.
 

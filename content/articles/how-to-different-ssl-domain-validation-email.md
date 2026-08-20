@@ -6,7 +6,7 @@ categories:
 - SSL Certificates
 ---
 
-# How to Select a Different SSL Certificate Domain Validation Email
+# Change Your SSL Certificate Validation Email
 
 ### Table of Contents {#toc}
 

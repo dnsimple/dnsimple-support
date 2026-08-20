@@ -5,7 +5,7 @@ meta: Learn how reverse DNS lookups and PTR records work and why they are critic
 categories:
 - DNS
 ---
-# What are Reverse DNS Lookups and PTR Records?
+# What Are Reverse DNS Lookups and PTR Records?
 
 ### Table of Contents {#toc}
 * TOC

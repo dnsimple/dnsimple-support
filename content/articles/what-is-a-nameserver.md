@@ -1,5 +1,5 @@
 ---
-title: What is a name server?
+title: What is a Name Server?
 excerpt: What authoritative name servers are, how they fit into DNS resolution, and how delegation at your registrar relates to the hostnames you publish.
 meta: Name servers are the authoritative DNS servers for a zone. Resolvers query them to resolve hostnames. Your registrar's delegation points to them.
 categories:

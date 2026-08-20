@@ -6,7 +6,7 @@ categories:
   - Domains and Transfers
 ---
 
-# How can I issue a new transfer order when a transfer is denied?
+# How to Retry a Denied Domain Transfer
 
 If you receive a message from your current registrar that a domain transfer was denied it is likely for one of the following reasons:
 

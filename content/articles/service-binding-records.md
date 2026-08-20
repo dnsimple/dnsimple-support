@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# Service Binding Records (SVCB and HTTPS)
+# What Are Service Binding Records (SVCB and HTTPS)?
 
 ### Table of Contents {#toc}
 
