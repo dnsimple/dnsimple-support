@@ -22,11 +22,11 @@ As part of our ongoing commitment to DNS standards compliance and improved resol
 
 Following this update, DNSimple name servers will respond correctly to ENT queries, returning `NOERROR` with an empty answer section (a `NODATA` response) instead of incorrectly applying wildcard records. This change ensures full compliance with DNS standards and improves predictability for DNSSEC-compliant zones.
 
-## Who's impacted?
+## Who's impacted? {#impacted}
 
 This announcement impacts customers with zones that contain an Empty Non-Terminal (ENT) which is a descendant of a wildcard record.
 
-## What are Empty Non-Terminals?
+## What are Empty Non-Terminals? {#what-are-ents}
 
 In DNS, an *Empty Non-Terminal* is an intermediate domain name in a DNS hierarchy that exists only because it is a path to a deeper name, but has no records of its own. For example, in the following zone `b.c.example.com` is an Empty Non-Terminal. It has no records itself, but exists because of `a.b.c.example.com`.
 
@@ -38,7 +38,7 @@ a.b.c.example.com.   IN  CNAME   two.test.
 
 A typical example is represented by [DKIM records](https://support.dnsimple.com/articles/dkim-record/), that often generate an ENT due to their specific naming structure.
 
-## What's changing?
+## What's changing? {#changing}
 
 Let's take the previous zone as a reference:
 
@@ -59,7 +59,7 @@ Once the correct behavior is rolled out, DNSimple name servers will respond with
 
 According to the RFC, `b.c.example.com` exists as an ENT (because of `a.b.c.example.com`) and should return `NOERROR` with an empty answer section, not a wildcard response.
 
-## What you need to do
+## What you need to do {#what-to-do}
 
 Unless you are relying on the non-compliant behavior, you don't need to take any action. Instead, if you rely on the name servers returning the content of the wildcard for an ENT, you will need to create an explicit record to return the desired value **by November 30, 2025**.
 

@@ -123,7 +123,7 @@ If you are experiencing issues with your SPF record, [contact support](https://d
 
 The specification for the Sender Policy Framework is primarily defined in [RFC 7208](https://datatracker.ietf.org/doc/html/rfc7208), which supersedes RFC 4408.
 
-## Related topics
+## Related topics {#related}
 
 ### Email authentication
 - [What Is an SPF Record?](/articles/spf-record/) - Introduction to SPF records

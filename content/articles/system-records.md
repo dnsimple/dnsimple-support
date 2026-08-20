@@ -12,7 +12,7 @@ System records are a specific set of DNS records that DNSimple automatically cre
 
 These records are managed directly by the DNSimple system to ensure optimal performance, reliability, and adherence to DNS standards. Because of their critical nature, they cannot be directly edited or removed from the standard record editor within your DNSimple account.
 
-## What system records include and why they are necessary
+## What system records include and why they are necessary {#what-they-include}
 
 When your domain is actively resolving using DNSimple's name servers, the system records typically include:
 
@@ -32,7 +32,7 @@ You can typically view these system records in your domain's **Manage** page wit
 
 ![screenshot of managing system records](/files/manage-system-records.png)
 
-## Why system records cannot be edited
+## Why system records cannot be edited {#not-editable}
 
 System records are non-editable in the standard record editor for several key reasons:
 

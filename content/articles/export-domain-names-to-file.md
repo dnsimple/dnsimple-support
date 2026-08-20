@@ -17,7 +17,7 @@ You can export your domain names from DNSimple to a .CSV or .ZIP file for backup
 
 ---
 
-## How to export your domain names list as a .CSV file
+## How to export your domain names list as a .CSV file {#export}
 
 1. Visit the Domain Names page for your account.
 1. Click **Export** in the top right.
@@ -28,7 +28,7 @@ You can export your domain names from DNSimple to a .CSV or .ZIP file for backup
 > [!NOTE]
 > If you have more than 10k domains in your account, you'll receive the attachment as a .ZIP file.
 
-## What's in the .CSV file?
+## What's in the .CSV file? {#contents}
 
 We include domain registration and DNS zone details in the exported file:
 

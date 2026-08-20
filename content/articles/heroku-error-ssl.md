@@ -18,7 +18,7 @@ categories:
 
 SSL certificate errors on Heroku typically occur when the certificate does not match the domain or when it is not properly installed. For general SSL error guidance, see [Troubleshooting SSL Certificate Errors](/articles/troubleshooting-ssl-certificate-errors/).
 
-## Invalid Common Name (*.heroku.com or *.herokuapp.com)
+## Invalid Common Name (*.heroku.com or *.herokuapp.com) {#invalid-common-name}
 
 You pointed your domain to Heroku to use an SSL certificate but you are receiving an error such as _Troubleshooting Heroku SSL errors_, _Invalid common name_ or _The certificate for this website is invalid_.
 
