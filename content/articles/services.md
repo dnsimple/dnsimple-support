@@ -96,7 +96,7 @@ Choose the service that you want to add.
 To remove a service, navigate to your domain. On the services sidebar, click **DNS**. Scroll down to the One-click Services section, and click **Manage**.
 ![screenshot of manage a service link](/files/services-manage.png)
 
-Find the service from the list of **Applied one-click services** that you want to remove, and click **Remove**.
+Find the service from the list of **Applied one-click services** that you want to remove, click the **...** menu at the end of its row, then select **Remove**.
 ![screenshot of removing a service](/files/services-remove.png)
 
 ## Contributing a new service

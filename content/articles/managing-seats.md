@@ -62,7 +62,7 @@ Below is an example of decreasing seats when the number of account members excee
 <div class="section-steps" markdown="1">
 ##### To remove a member when decreasing seats
 
-1. Click <label>Remove</label> for the member you want to remove, and confirm the removal.
+1. Click the <label>...</label> menu at the end of the member's row, then select <label>Remove</label>, and confirm the removal.
 1. After you remove them, that user no longer appears on the <label>Members</label> card.
 
 </div>

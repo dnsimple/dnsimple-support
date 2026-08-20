@@ -43,7 +43,7 @@ When you add someone to an account, they become a [member](/articles/users-accou
 
     ![Add a new member form](/files/add-member-screen.png)
 
-1. The invitation appears in the pending invitation section until the user accepts it. Click <label>Resend</label> to send it again, or <label>Revoke</label> to cancel it immediately.
+1. The invitation appears in the pending invitation section until the user accepts it. Click the <label>...</label> menu at the end of the invitation's row, then select <label>Resend</label> to send it again, or <label>Revoke</label> to cancel it immediately.
 
 </div>
 
@@ -63,7 +63,7 @@ When you add someone to an account, they become a [member](/articles/users-accou
 
     ![Select the members tab](/files/add-member-account-link.png)
 
-1. Click <label>Remove</label> for the member you want to remove, and confirm the removal.
+1. Click the <label>...</label> menu at the end of the member's row, then select <label>Remove</label>, and confirm the removal.
 1. After you remove them, that user no longer appears on the members tab, and you have an available seat for a new member. See [Managing Seats](/articles/managing-seats/) for seat management.
 
 </div>

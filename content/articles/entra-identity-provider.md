@@ -113,12 +113,12 @@ You'll need to [link an Entra organization to your DNSimple account](#linking-en
 1. At DNSimple, use the **account switcher** at the top right of the page to select the account you want to unlink.
 1. Click the gear icon ⚙️ next to the account name to open the **account settings**.
 1. Click the **Single Sign-On** tab on the left side.
-1. Click **Revoke** next to the Entra SSO provider to remove the link from DNSimple to Entra.
+1. Click the **...** menu at the end of the Entra SSO provider's row, then select **Revoke**.
 
 ## Unlinking a DNSimple user from an Entra identity {#unlinking-entra-user}
 
 1. At DNSimple, use the **account switcher** at the top right of the page to go to your **User Settings** page.
-1. In the **Identities** card, click **Revoke** next to the linked identity.
+1. In the **Identities** card, click the **...** menu at the end of the identity's row, then select **Revoke**.
 
 ## Have more questions?
 

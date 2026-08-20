@@ -91,7 +91,7 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 
 1. Navigate to the domain's <label>Email Forwarding</label> tab.
 1. Find the email forward you want to edit in the <label>Email Forwarding</label> tab.
-1. Click <label>Edit</label> (the pencil icon).
+1. Click the <label>...</label> menu at the end of the row, then select <label>Edit</label>.
 1. Modify the <label>From</label> or <label>To</label> fields as needed.
 1. Click <label>Update forward</label> to apply the changes.
 </div>
@@ -103,7 +103,7 @@ For a visual guide to the email forwarding interface, see [Email Forwarding Mana
 
 1. Navigate to the domain's <label>Email Forwarding</label> tab.
 1. Locate the email forwarding configuration that you want to delete.
-1. Click <label>Delete</label> (the trash can icon).
+1. Click the <label>...</label> menu at the end of the row, then select <label>Delete</label>.
 1. Confirm the deletion when prompted.
 </div>
 

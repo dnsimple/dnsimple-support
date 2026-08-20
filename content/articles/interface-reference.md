@@ -17,9 +17,7 @@ The [Record Editor](/articles/record-editor/)  is where you manage your domain's
 
 1. **Add record**: Click this button to create a new DNS record.
 1. **Import/Export**: Click this button to import your zone file from another provider or to export a copy of your DNSimple zone file.
-1. **Record Note**: The note icon adds a note to an existing record.
-1. **Edit Record**: The pencil icon edits an existing record.
-1. **Delete Record**: The trash can icon deletes a record.
+1. **Record actions**: The **...** menu at the end of a record row holds the actions for that record: **Add note** (shown as **View note** if the record already has one), **Edit**, and **Delete**.
 
 ## DNS tab {#dns-tab}
 The DNS tab on your domain's management page provides an overview of your DNS zone and access to key features.
