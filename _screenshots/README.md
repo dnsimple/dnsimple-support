@@ -31,13 +31,19 @@ Captures are 1280x800 at 2x scale (retina), matching the existing screenshots.
 
 ## On-demand capture for a pull request
 
-The Actions "Run workflow" button takes an optional **PR number**. With one,
-the run checks out that PR's branch, captures from the annotations on that
-branch, and commits any changed screenshots straight back to the PR - useful
-when a content PR adds annotations, or when an image in the weekly refresh PR
-needs a re-capture mid-review. Without a PR number, a dispatch behaves like
-the weekly run: it opens or force-updates the `refresh-app-screenshots` PR.
-Fork PRs are not supported (the workflow token cannot push to forks).
+Two ways to capture into a specific PR's branch instead of the refresh PR:
+
+- Comment **`/refresh-screenshots`** on the PR (org members and collaborators
+  only), or
+- use the Actions "Run workflow" button with the optional **PR number** input.
+
+Either way, the run checks out that PR's branch, captures from the annotations
+on that branch, and commits any changed screenshots straight back to the PR -
+useful when a content PR adds annotations, or when an image in the weekly
+refresh PR needs a re-capture mid-review. A dispatch without a PR number
+behaves like the weekly run: it opens or force-updates the
+`refresh-app-screenshots` PR. Fork PRs are not supported (the workflow token
+cannot push to forks).
 
 ## Running locally
 

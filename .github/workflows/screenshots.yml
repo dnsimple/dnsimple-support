@@ -9,6 +9,10 @@ on:
         description: "PR number: capture into that PR's branch (commits changed screenshots to it) instead of opening the refresh PR"
         required: false
         type: string
+  # "/refresh-screenshots" commented on a PR captures into that PR's branch,
+  # same as dispatching with its number. Gated to org members below.
+  issue_comment:
+    types: [created]
 
 permissions:
   contents: write
@@ -25,15 +29,26 @@ jobs:
     # A hung apt mirror once held the job for 20+ minutes; a healthy run takes
     # a few minutes, so time-box it and let the next schedule retry.
     timeout-minutes: 15
+    # Comment-triggered runs only proceed for the keyword, on a PR, from
+    # someone in the org - anyone can comment on a public repo.
+    if: >-
+      github.event_name != 'issue_comment' ||
+      (github.event.issue.pull_request &&
+       contains(github.event.comment.body, '/refresh-screenshots') &&
+       contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association))
+    env:
+      # The PR to capture into: the dispatch input, or the commented-on PR.
+      # Empty means the weekly behavior (open/update the refresh PR).
+      TARGET_PR: ${{ inputs.pr || github.event.issue.number || '' }}
     steps:
-      # When dispatched with a PR number, work on that PR's branch: capture
-      # from its annotations and push the refreshed images back to it.
+      # Working on a target PR's branch: capture from its annotations and push
+      # the refreshed images back to it.
       - name: Resolve target branch
         id: target
-        if: ${{ inputs.pr }}
+        if: ${{ env.TARGET_PR != '' }}
         env:
           GH_TOKEN: ${{ github.token }}
-        run: echo "branch=$(gh pr view '${{ inputs.pr }}' --repo '${{ github.repository }}' --json headRefName --jq .headRefName)" >> "$GITHUB_OUTPUT"
+        run: echo "branch=$(gh pr view "$TARGET_PR" --repo '${{ github.repository }}' --json headRefName --jq .headRefName)" >> "$GITHUB_OUTPUT"
       - name: Clone repository
         uses: actions/checkout@v7.0.0
         with:
@@ -59,7 +74,7 @@ jobs:
       # Dispatched for a PR: commit refreshed images straight to its branch.
       # Fork PRs are not supported (the default token cannot push to forks).
       - name: Commit to the pull request
-        if: ${{ inputs.pr && !cancelled() }}
+        if: ${{ env.TARGET_PR != '' && !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -73,7 +88,7 @@ jobs:
       # Runs even when a capture spec failed, so the shots that did refresh
       # still land in a PR while the red run flags the broken spec.
       - name: Create pull request
-        if: ${{ !inputs.pr && !cancelled() }}
+        if: ${{ env.TARGET_PR == '' && !cancelled() }}
         uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
         with:
           # SCREENSHOT_PR_TOKEN (a PAT with contents + pull-requests write) when
