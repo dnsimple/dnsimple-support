@@ -21,7 +21,7 @@ If your domain is **not** registered at DNSimple, update name servers at your **
 
 If you want DNS hosted **by DNSimple**, follow [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) so you follow the right steps for your registration setup.
 
-For vocabulary (delegation versus records in your zone), see [What Is Domain Delegation?](/articles/what-is-domain-delegation/). For what authoritative name servers do, see [What is a name server?](/articles/what-is-a-nameserver/). For an overview when you are moving **to** DNSimple DNS, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+For vocabulary (delegation versus records in your zone), see [What Is Domain Delegation?](/articles/what-is-domain-delegation/). For what authoritative name servers do, see [What is a Name Server?](/articles/what-is-a-nameserver/). For an overview when you are moving **to** DNSimple DNS, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 ## Change delegation to another DNS provider {#pointing-the-name-servers-to-another-provider}
 

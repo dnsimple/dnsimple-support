@@ -67,7 +67,7 @@ Registry and ICANN requirements:
 
 ### TLDs
 
-- [Regulated Top-Level Domains](/articles/tlds-regulated/) - Information about regulated and highly-regulated TLDs.
+- [Regulated and Highly-Regulated Top-Level Domains](/articles/tlds-regulated/) - Information about regulated and highly-regulated TLDs.
 
 ## How to {#how-to}
 

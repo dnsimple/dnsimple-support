@@ -41,8 +41,8 @@ Compare results to the four DNSimple hostnames above. For delays, see [How DNS C
 
 | Scenario | Article |
 |----------|---------|
-| Domain registered at DNSimple | [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) |
-| Domain registered elsewhere | [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/) |
+| Domain registered at DNSimple | [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/) |
+| Domain registered elsewhere | [Delegate a Domain from Another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/) |
 | Mixed symptoms after a change | [Troubleshoot Email or Subdomains After Delegation Changes](/articles/troubleshoot-email-subdomains-after-delegation-changes/) |
 
 ## Have more questions?

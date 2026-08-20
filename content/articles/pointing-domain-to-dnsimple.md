@@ -21,11 +21,11 @@ For how registration, delegation, and DNS hosting fit together, read [Domain Del
 
 ## Domain registered with DNSimple {#domain-registered-with-dnsimple}
 
-Follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
+Follow [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/).
 
 ## Domain registered with another provider {#domain-registered-with-another-provider}
 
-Follow [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
+Follow [Delegate a Domain from Another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 
 For a compact reference to the DNSimple name server targets and verification commands, see the [Name Server Delegation Checklist](/articles/name-server-delegation-checklist/).
 

@@ -108,13 +108,13 @@ Step-by-step guides for managing DNS records, zones, and DNS configuration:
 - [Export Zone File](/articles/export-records-zone-file/) - Instructions for exporting your DNS zone file from DNSimple.
 - [Import Zone File](/articles/import-records-zone-file/) - Learn how to import a zone file into DNSimple.
 - [Auto-Import DNS Records](/articles/auto-import-dns/) - Guide to automatically importing DNS records when adding a domain.
-- [Zone NS Records](/articles/zone-ns-records/) - Learn how to manage name server (NS) records for your zone.
+- [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/) - Learn how to manage name server (NS) records for your zone.
 - [Set Up DKIM](/articles/set-up-dkim/) - Step-by-step guide to configuring DKIM for email authentication.
 - [Set Up DMARC](/articles/set-up-dmarc/) - Instructions for setting up DMARC to protect your email domain.
 - [Query MX Records](/articles/query-mx-records/) - Learn how to query and verify MX records using various tools.
 - [Set Up Simple Dynamic DNS](/articles/set-up-simple-dynamic-dns/) - Guide to configuring Dynamic DNS for automatic IP address updates.
 - [Manage Integrated DNS Providers](/articles/integrated-dns-providers/) - Learn how to manage integrated DNS providers in DNSimple.
-- [How to Use Route 53 as an Integrated DNS Provider](/articles/amazon-route-53-integration-demo/) - Step-by-step guide to using Amazon Route 53 as an integrated provider.
+- [How to Use Amazon Route 53 as an Integrated DNS Provider](/articles/amazon-route-53-integration-demo/) - Step-by-step guide to using Amazon Route 53 as an integrated provider.
 - [How to Use CoreDNS as an Integrated DNS Provider](/articles/core-dns-tutorial/) - Instructions for using CoreDNS as an integrated DNS provider.
 - [Manage Integrated Zones for Integrated DNS Providers](/articles/integrated-dns-provider-zones/) - Guide to managing zones when using integrated DNS providers.
 - [Manage Integrated Zone Records](/articles/record-editor-integrated-zones/) - Learn how to manage DNS records in integrated zones.

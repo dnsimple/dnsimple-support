@@ -145,14 +145,14 @@ An encoded block of text containing the public key and domain information, submi
 Rivest-Shamir-Adleman. The traditional public-key algorithm, widely compatible across platforms and software. RSA keys are larger than ECDSA keys (2048+ bits).
 
 **Learn more:**
-- [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/)
+- [Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?](/articles/can-elliptic-curve-key-ssl-certificates/)
 
 ### ECDSA {#ecdsa}
 
 Elliptic Curve Digital Signature Algorithm. A key algorithm that produces smaller, faster keys than RSA at equivalent security levels. DNSimple defaults to ECDSA (`prime256v1`) for new certificates.
 
 **Learn more:**
-- [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/)
+- [Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?](/articles/can-elliptic-curve-key-ssl-certificates/)
 - [How to Switch From an ECC-Signed Certificate to RSA](/articles/i-got-an-ecc-certificate-but-i-want-a-rsa-one/)
 
 ### SHA-2 / SHA-256 {#sha2}

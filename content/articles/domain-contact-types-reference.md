@@ -140,7 +140,7 @@ Learn more:
 
 **TLD-specific requirements:** Some TLDs may have specific requirements for contact types. For example, some ccTLDs may require contacts to be residents of the country associated with the TLD.
 
-**Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to contact types. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
+**Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to contact types. For more information, see [Regulated and Highly-Regulated Top-Level Domains](/articles/tlds-regulated/).
 
 ## WHOIS and privacy {#whois-and-privacy}
 

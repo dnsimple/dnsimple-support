@@ -37,7 +37,7 @@ The Edit Delegation page controls apex delegation for domains registered with DN
 > [!NOTE]
 > Edit Delegation is only available for domains registered with DNSimple. For domains registered elsewhere, update delegation at your external registrar.
 
-For step-by-step instructions, see [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) or [Change delegation to another DNS provider](/articles/setting-name-servers/).
+For step-by-step instructions, see [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/) or [Change delegation to another DNS provider](/articles/setting-name-servers/).
 
 ## Name Server Sets {#name-server-sets}
 
@@ -125,7 +125,7 @@ Zone NS records are the NS records published inside your DNSimple zone at the ap
 > [!NOTE]
 > Zone NS record changes only take effect if the domain is delegated to DNSimple at the registrar and has active DNS hosting. Editing these records does not change registrar-level delegation.
 
-For step-by-step instructions, see [Zone NS Records](/articles/zone-ns-records/).
+For step-by-step instructions, see [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/).
 
 ## Have more questions?
 
