@@ -3,7 +3,7 @@
         <p>
             <span>Can't find what you are looking for?</span>
             <a
-                href="https://dnsimple.com/contact"
+                :href="app.getContactUrl()"
                 class="button"
                 target="_blank"
             >

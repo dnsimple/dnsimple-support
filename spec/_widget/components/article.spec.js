@@ -9,6 +9,7 @@ describe('Article', () => {
     hasHistory: () => false,
     back: () => {},
     getArticleUrl: (article) => `${article.sourceUrl}${article.id}`,
+    getContactUrl: () => 'https://dnsimple.com/contact',
     visitArticle: jest.fn(),
   };
 

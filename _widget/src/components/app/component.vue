@@ -48,6 +48,14 @@ export default {
       type: String,
       default: 'https://support.dnsimple.com/articles/getting-started/'
     },
+    // Where "Get in touch" sends someone who could not find their answer. The
+    // host site sets it, because only the host knows which of its own hosts
+    // carries the visitor's session: sending a signed-in customer to another
+    // host drops them onto the contact form as an anonymous visitor.
+    contactUrl: {
+      type: String,
+      default: 'https://dnsimple.com/contact'
+    },
     fetch: {
       type: Function,
       default(url) {
@@ -276,6 +284,10 @@ export default {
 
     getGettingStartedUrl() {
       return this.gettingStartedUrl;
+    },
+
+    getContactUrl() {
+      return this.contactUrl;
     },
 
     hasHistory() {

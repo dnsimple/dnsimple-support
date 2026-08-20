@@ -60,6 +60,15 @@ describe('Initialize', () => {
     expect(subject.getGettingStartedUrl()).toEqual(gettingStartedUrl);
   });
 
+  it('sets the contact url', () => {
+    const contactUrl = 'https://app.dnsimple.com/contact';
+    document.body.innerHTML = `<p data-dnsimple-contact-url="${contactUrl}"></p>`;
+
+    subject = initialize(document);
+
+    expect(subject.getContactUrl()).toEqual(contactUrl);
+  });
+
   describe('when there are custom openers on the page', () => {
     beforeEach(() => {
       document.body.innerHTML = `<a data-dnsimple-open-support-widget>Opener</a>`;

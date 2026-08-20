@@ -41,11 +41,14 @@ export default (doc, options = {}) => {
   const sourcesAttr = doc.querySelector('[data-dnsimple-sources]')?.getAttribute('data-dnsimple-sources');
   const sources = sourcesAttr ? JSON.parse(sourcesAttr) : undefined;
 
+  const contactUrl = doc.querySelector('[data-dnsimple-contact-url]')?.getAttribute('data-dnsimple-contact-url');
+
   const app = createApp(App, Object.assign({
     showPrompt: $openers.length === 0,
     currentSiteUrl: doc.querySelector('[data-dnsimple-current-site-url]')?.getAttribute('data-dnsimple-current-site-url') || '',
     gettingStartedUrl: doc.querySelector('[data-dnsimple-getting-started-url]')?.getAttribute('data-dnsimple-getting-started-url') || '/articles/getting-started/',
     ...(sources && { sources }),
+    ...(contactUrl && { contactUrl }),
   }, options)).mount($mount);
 
   $openers.forEach(($el) => {

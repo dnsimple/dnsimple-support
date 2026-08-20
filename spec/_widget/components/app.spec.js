@@ -41,6 +41,18 @@ describe('App', () => {
     });
   });
 
+  describe('contactUrl prop', () => {
+    it('defaults to the marketing site contact page', () => {
+      const subject = mount(App);
+      expect(subject.vm.getContactUrl()).toEqual('https://dnsimple.com/contact');
+    });
+
+    it('can be overridden via props, so a host site keeps visitors on its own host', () => {
+      const subject = mount(App, { propsData: { contactUrl: 'https://app.dnsimple.com/contact' } });
+      expect(subject.vm.getContactUrl()).toEqual('https://app.dnsimple.com/contact');
+    });
+  });
+
   describe('init', () => {
     const subject = mount(App);
 
