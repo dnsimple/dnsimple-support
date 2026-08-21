@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .BE Domain Names
+# .BE Domains
 
 * TOC
 {:toc}

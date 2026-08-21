@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .LI Domain Names
+# .LI Domains
 
 * TOC
 {:toc}

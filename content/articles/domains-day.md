@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .DAY Domain Names
+# .DAY Domains
 
 * TOC
 {:toc}

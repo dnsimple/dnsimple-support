@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .GEN.NZ Domain Names
+# .GEN.NZ Domains
 
 * TOC
 {:toc}

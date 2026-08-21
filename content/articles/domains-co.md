@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .CO Domain Names
+# .CO Domains
 
 * TOC
 {:toc}

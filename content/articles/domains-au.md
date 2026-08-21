@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .AU Domain Names
+# .AU Domains
 
 * TOC
 {:toc}

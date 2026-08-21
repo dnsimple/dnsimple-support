@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .SE Domain Names
+# .SE Domains
 
 * TOC
 {:toc}

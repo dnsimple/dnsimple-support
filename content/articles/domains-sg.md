@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .SG Domain Names
+# .SG Domains
 
 * TOC
 {:toc}

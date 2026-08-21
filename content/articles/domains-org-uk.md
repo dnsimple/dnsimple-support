@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .ORG.UK Domain Names
+# .ORG.UK Domains
 
 * TOC
 {:toc}

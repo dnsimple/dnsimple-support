@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .PT Domain Names
+# .PT Domains
 
 ### Table of Contents {#toc}
 

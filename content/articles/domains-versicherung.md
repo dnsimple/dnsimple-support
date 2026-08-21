@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .VERSICHERUNG Domain Names
+# .VERSICHERUNG Domains
 
 * TOC
 {:toc}

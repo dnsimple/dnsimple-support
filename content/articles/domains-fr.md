@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .FR Domain Names
+# .FR Domains
 
 * TOC
 {:toc}

@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .CO.NZ Domain Names
+# .CO.NZ Domains
 
 * TOC
 {:toc}
