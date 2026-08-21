@@ -24,7 +24,7 @@ When submitting a pull request:
    - Tag a second expert with knowledge of the feature/product
    - Use AI (Cursor or Claude Code) for proofreading, clarity, and voice/tone — the project rules in `.cursor/rules/` enforce the DNSimple editorial voice automatically
    - Tag Customer Success for review (required for substantial updates, optional for minor updates)
-4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
+4. **Testing:** If reviewers need to test a process, they should use https://app.sandbox.dnsimple.com
 5. Ensure all approvals are received
 6. Verify the pipeline is green
 7. Merge the PR yourself
