@@ -29,7 +29,7 @@ Follow these rules when working on any file in `content/articles/`. They cover e
 
 ## Project Overview
 
-This is the DNSimple Help site (https://support.dnsimple.com), a static site built with [nanoc](https://nanoc.app/). See [README.md](README.md) for setup and deployment details.
+This is the DNSimple Help site (<https://support.dnsimple.com>), a static site built with [nanoc](https://nanoc.app/). See [README.md](README.md) for setup and deployment details.
 
 ## Project Structure
 
@@ -39,6 +39,7 @@ This is the DNSimple Help site (https://support.dnsimple.com), a static site bui
 - `layouts/` — HTML layout templates
 - `lib/` — Ruby libraries for nanoc processing
 - `_widget/` — Vue.js search widget components
+- `_screenshots/` — Automated screenshot refresher (see `_screenshots/README.md`)
 - `output/` — Generated static site output (gitignored)
 - `.cursor/rules/` — AI agent rules (Cursor and Claude Code)
 

@@ -1,0 +1,15 @@
+{
+  "name": "screenshot-refresh",
+  "private": true,
+  "description": "Refreshes support-article screenshots from the app, driven by capture annotations in the articles",
+  "scripts": {
+    "capture": "node capture.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "playwright": "^1.49.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.3"
+  }
+}
