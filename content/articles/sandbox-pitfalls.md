@@ -37,7 +37,7 @@ Sandbox data and systems are generally treated like production, but DNSimple may
 
 Your production account and Sandbox account are completely independent. Your production [API access token](/articles/api-access-token/) will not work in the Sandbox, and your Sandbox token will not work in production. If API calls are returning authentication errors, verify you are using the correct token for the environment.
 
-The Sandbox web interface is at `https://sandbox.dnsimple.com`, and the Sandbox API is at `https://api.sandbox.dnsimple.com`.
+The Sandbox web interface is at `https://app.sandbox.dnsimple.com`, and the Sandbox API is at `https://api.sandbox.dnsimple.com`.
 
 ## The Sandbox is a shared system {#shared-system}
 

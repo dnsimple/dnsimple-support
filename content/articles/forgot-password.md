@@ -28,7 +28,7 @@ Reset your password when you cannot sign in with your current credentials. Use t
 <div class="section-steps" markdown="1">
 ##### To request a password reset link
 
-1. Go to the [login page](https://dnsimple.com/login), and click <label>Forgot Password</label>.
+1. Go to the [login page](https://app.dnsimple.com/login), and click <label>Forgot Password</label>.
 
     ![screenshot of forgot password link](/files/forgot-password-link.png)
 

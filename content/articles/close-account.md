@@ -29,7 +29,7 @@ Deleting yourself as a user permanently removes your DNSimple user and all accou
 ##### To permanently delete yourself as a user
 
 1. [Unsubscribe your accounts from your plan at DNSimple](/articles/cancel-subscription/).
-1. Go to your [User Settings page](https://dnsimple.com/user):
+1. Go to your [User Settings page](https://app.dnsimple.com/user):
 
     ![screenshot of user settings menu link](/files/user-settings-menu.png)
 

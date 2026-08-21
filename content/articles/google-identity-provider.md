@@ -19,7 +19,7 @@ Use Google as an identity provider to streamline login for you and your team. Fo
 
 ## Registering a new DNSimple account via Google {#registering-via-google}
 
-[Signing up](https://dnsimple.com/signup) for a DNSimple account using Google as your identity provider is straightforward.
+[Signing up](https://app.dnsimple.com/signup) for a DNSimple account using Google as your identity provider is straightforward.
 
 1. Click **Sign up using Google**.
 1. Select your Google account.

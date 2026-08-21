@@ -35,7 +35,7 @@ Follow [Multiple Accounts Per User](/articles/account-multi/#creating-a-separate
 
 Your client must register with DNSimple before you add them to the new account.
 
-On [the signup page](https://dnsimple.com/signup), your client can register with their user email or via [Google as an identity provider](/articles/google-identity-provider/).
+On [the signup page](https://app.dnsimple.com/signup), your client can register with their user email or via [Google as an identity provider](/articles/google-identity-provider/).
 
 > [!NOTE]
 > Your client does not need an active subscription or a card on file. They only need a DNSimple user.

@@ -34,7 +34,7 @@ The email has these characteristics:
 
 - **From:** `DNSimple <support@dnsimple.com>`
 - **Subject:** Action Required: Verify your contact email address
-- **Link:** a `https://dnsimple.com/email_verification/...` address unique to that contact email
+- **Link:** a `https://app.dnsimple.com/email_verification/...` address unique to that contact email
 
 The link expires 7 days after the verification email is sent. The message states the exact date and time it expires, so complete the verification before then. If you cannot find the email, check your spam folder.
 

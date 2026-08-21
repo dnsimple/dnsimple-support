@@ -28,7 +28,7 @@ This tutorial walks you through setting up the DNSimple Sandbox and making your 
 
 Before you begin, ensure you have:
 
-- **A DNSimple Sandbox account.** Sign up at [sandbox.dnsimple.com](https://sandbox.dnsimple.com/signup).
+- **A DNSimple Sandbox account.** Sign up at [app.sandbox.dnsimple.com](https://app.sandbox.dnsimple.com/signup).
 - **A Sandbox API access token.** See [API Access Token](/articles/api-access-token/) for instructions on generating a token.
 - **curl** installed on your system. Most macOS and Linux systems include it by default.
 
@@ -73,7 +73,7 @@ The `account.id` value is the account ID you will use in all subsequent API call
 
 ## 3. Creating DNS records {#create-records}
 
-Add a domain to your Sandbox account through the [web interface](https://sandbox.dnsimple.com) or the API, then create DNS records for it. This example creates an A record pointing the apex domain to an IP address:
+Add a domain to your Sandbox account through the [web interface](https://app.sandbox.dnsimple.com) or the API, then create DNS records for it. This example creates an A record pointing the apex domain to an IP address:
 
 ```bash
 curl -H "Authorization: Bearer $DNSIMPLE_TOKEN" \
