@@ -44,9 +44,13 @@ For now, you can use Entra as an Identity Provider by [creating your own custom 
 ### Adding Redirect URIs
 
 After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-us/entra/identity-platform/how-to-add-redirect-uri) for your new web app using the following URIs:
-1. https://app.dnsimple.com/identity_providers/entra/callbacks/users/login
-1. https://app.dnsimple.com/identity_providers/entra/callbacks/accounts/link
-1. https://app.dnsimple.com/identity_providers/entra/callbacks/users/link
+
+1. https://dnsimple.com/identity_providers/entra/callbacks/users/login
+1. https://dnsimple.com/identity_providers/entra/callbacks/accounts/link
+1. https://dnsimple.com/identity_providers/entra/callbacks/users/link
+
+> [!NOTE]
+> Use `dnsimple.com` in these Redirect URIs, not `app.dnsimple.com`. DNSimple sends `dnsimple.com` as the redirect URI in the sign-in request, and then forwards you to `app.dnsimple.com`. Entra rejects the sign-in if the registered URI does not match the one DNSimple sends.
 
 ### Adding API permissions
 
