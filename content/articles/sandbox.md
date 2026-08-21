@@ -23,7 +23,7 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/RfQjvi75e7M" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-DNSimple maintains an isolated test environment at [sandbox.dnsimple.com](https://sandbox.dnsimple.com/) that mirrors the full production platform — web interface, domain management, DNS hosting, and API. The Sandbox provides a safe space to explore DNSimple features, test workflows, and develop integrations without risking changes to live domains, DNS records, or certificates.
+DNSimple maintains an isolated test environment at [app.sandbox.dnsimple.com](https://app.sandbox.dnsimple.com/) that mirrors the full production platform — web interface, domain management, DNS hosting, and API. The Sandbox provides a safe space to explore DNSimple features, test workflows, and develop integrations without risking changes to live domains, DNS records, or certificates.
 
 ## Why use the Sandbox? {#why}
 
@@ -43,8 +43,8 @@ The Sandbox is valuable for:
 
 The Sandbox mirrors the production environment, so workflows that succeed in the Sandbox will work in production with minimal changes. The key differences are:
 
-- **Separate accounts:** Your Sandbox account is independent of your production account. [Create a Sandbox account](https://sandbox.dnsimple.com/signup) to get started. If you are using the API, generate a separate [API access token](/articles/api-access-token/).
-- **Separate URLs:** The Sandbox web interface is at `https://sandbox.dnsimple.com`. The Sandbox API is at `https://api.sandbox.dnsimple.com`.
+- **Separate accounts:** Your Sandbox account is independent of your production account. [Create a Sandbox account](https://app.sandbox.dnsimple.com/signup) to get started. If you are using the API, generate a separate [API access token](/articles/api-access-token/).
+- **Separate URLs:** The Sandbox web interface is at `https://app.sandbox.dnsimple.com`. The Sandbox API is at `https://api.sandbox.dnsimple.com`.
 - **No real DNS resolution:** There is no public authoritative name server in the Sandbox. Zones and records you create will not resolve on the public internet.
 - **Simulated domain registrations:** Domain registrations, transfers, and renewals run against registry OT&E environments, not live production registries. Domains registered in the Sandbox do not affect real-world domain status.
 - **No certificate testing:** SSL/TLS certificate testing is not currently supported in the Sandbox because certificate validation requires actual DNS service.
@@ -58,7 +58,7 @@ The Sandbox mirrors the production environment, so workflows that succeed in the
 <div class="section-steps" markdown="1">
 ##### Setting up a Sandbox account
 
-1. Go to [sandbox.dnsimple.com/signup](https://sandbox.dnsimple.com/signup) and create an account. It does not need to match your production account.
+1. Go to [app.sandbox.dnsimple.com/signup](https://app.sandbox.dnsimple.com/signup) and create an account. It does not need to match your production account.
 1. Choose a [plan](https://sandbox.dnsimple.com/pricing) that matches the features you want to test.
 1. Subscribe using a Stripe test credit card number (e.g. `4242 4242 4242 4242` with any future expiration date and any CVC).
 1. Start adding domains, managing DNS zones, and exploring DNSimple features.

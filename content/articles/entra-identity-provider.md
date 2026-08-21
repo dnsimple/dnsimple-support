@@ -44,9 +44,9 @@ For now, you can use Entra as an Identity Provider by [creating your own custom 
 ### Adding Redirect URIs
 
 After creating your app, add the [Redirect URIs](https://learn.microsoft.com/en-us/entra/identity-platform/how-to-add-redirect-uri) for your new web app using the following URIs:
-1. https://dnsimple.com/identity_providers/entra/callbacks/users/login
-1. https://dnsimple.com/identity_providers/entra/callbacks/accounts/link
-1. https://dnsimple.com/identity_providers/entra/callbacks/users/link
+1. https://app.dnsimple.com/identity_providers/entra/callbacks/users/login
+1. https://app.dnsimple.com/identity_providers/entra/callbacks/accounts/link
+1. https://app.dnsimple.com/identity_providers/entra/callbacks/users/link
 
 ### Adding API permissions
 
@@ -98,7 +98,7 @@ To link a DNSimple user to an Entra identity:
 ## Logging in via Entra {#logging-in-via-entra}
 
 You'll need to [link an Entra organization to your DNSimple account](#linking-entra-organization) before your team members can log in via Entra SSO.
-1. To log in to DNSimple using Entra, visit [https://dnsimple.com/login](https://dnsimple.com/login).
+1. To log in to DNSimple using Entra, visit [https://app.dnsimple.com/login](https://app.dnsimple.com/login).
 1. Click **Sign in using Entra**.
 1. Enter the [organization Entra domain or tenant ID](https://learn.microsoft.com/en-us/partner-center/account-settings/find-ids-and-domain-names#find-the-microsoft-entra-tenant-id-and-primary-domain-name) and click **Sign in**. The Entra domain is the default/primary domain in the Entra account.
 1. If you are prompted for your Entra username and password, enter them.

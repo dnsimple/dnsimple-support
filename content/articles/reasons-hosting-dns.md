@@ -24,7 +24,7 @@ We also believe in choosing the best tooling to get the job done. With no vendor
 
 Explore DNSimple's variety of [services](/articles/services/), read what other companies [have to say](https://dnsimple.com/customers) about their experiences using DNSimple, and delve into our [API](https://dnsimple.com/api) with video tutorials for each supported language. If you are one of those customers, [leave a review](/articles/leave-a-review/) and help others find DNSimple.
 
-You can even try DNSimple [free for 30 days](https://dnsimple.com/signup), and explore our simple, secure DNS solutions for yourself. Whether you're registering your first domain name or you've got a business with a portfolio of domains, we've got a plan to fit your needs.
+You can even try DNSimple [free for 30 days](https://app.dnsimple.com/signup), and explore our simple, secure DNS solutions for yourself. Whether you're registering your first domain name or you've got a business with a portfolio of domains, we've got a plan to fit your needs.
 
 If you want to learn more about how we simplify your domain management, or have questions about your specific DNS and domain management needs, feel free to [contact us](https://dnsimple.com/sales).
 

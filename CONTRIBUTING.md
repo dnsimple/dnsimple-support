@@ -184,6 +184,7 @@ Every article should link to related articles. Cross-linking helps readers navig
 - Internal articles: use relative paths — `/articles/article-slug/`
 - Developer docs: `https://developer.dnsimple.com/v2/...`
 - Product/marketing pages: `https://dnsimple.com/...`
+- Application pages (anything behind login, plus `/login` and `/signup`): `https://app.dnsimple.com/...`
 - External references: include where helpful (e.g., Wikipedia, ICANN, RFC documents)
 - Use descriptive link text — `[SSL certificate types](/articles/ssl-certificates-types/)` not `[click here](/articles/ssl-certificates-types/)`
 - Ensure all links are current and functional
