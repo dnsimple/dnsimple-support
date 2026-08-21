@@ -22,7 +22,7 @@ DNSimple supports registration and transfer for many top-level domains (TLDs), i
 Understand what TLDs are and which ones have special requirements:
 
 - [What is a TLD?](/articles/what-is-tld/) - What a top-level domain is, how TLDs are grouped (gTLD, ccTLD, new gTLD), and where to see [TLDs supported by DNSimple](https://dnsimple.com/tlds).
-- [Regulated Top-Level Domains](/articles/tlds-regulated/) - Requirements for regulated and highly-regulated TLDs (e.g., .BANK, .INSURANCE) and lists of which TLDs fall into each group.
+- [Regulated and Highly-Regulated Top-Level Domains](/articles/tlds-regulated/) - Requirements for regulated and highly-regulated TLDs (e.g., .BANK, .INSURANCE) and lists of which TLDs fall into each group.
 
 ## Documentation by TLD
 

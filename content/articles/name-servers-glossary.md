@@ -26,7 +26,7 @@ A DNS server that holds the definitive records for a zone and answers queries fo
 Learn more:
 
 - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)
-- [What is a name server?](/articles/what-is-a-nameserver/)
+- [What is a Name Server?](/articles/what-is-a-nameserver/)
 - [Recursive vs Authoritative DNS Resolvers](/articles/recursive-vs-authoritative-dns-resolvers/)
 
 ### Recursive Resolver

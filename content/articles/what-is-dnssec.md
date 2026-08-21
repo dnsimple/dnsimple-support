@@ -52,7 +52,7 @@ If your domain's TLD supports DNSSEC, enabling it is a recommended security best
 
 ## Learn more about DNSSEC {#learn-more}
 
-For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/).
+For a comprehensive overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/).
 
 ## Have more questions?
 If you have any questions about DNSSEC and how it works to keep your DNS secure, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -26,7 +26,7 @@ It also connects your domain to the global [DNSSEC chain of trust](/articles/dns
 
 ## Learn more {#learn-more}
 
-To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect your KSK to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how DS records connect your KSK to the parent zone, see [What Are DS Records?](/articles/what-are-ds-records/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we'll be happy to help.

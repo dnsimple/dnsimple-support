@@ -23,7 +23,7 @@ DNSimple provides full control over name server delegation for domains registere
 
 ## Understanding name servers {#understanding-name-servers}
 
-- [What is a name server?](/articles/what-is-a-nameserver/) - What authoritative name servers are and how they fit into DNS resolution.
+- [What is a Name Server?](/articles/what-is-a-nameserver/) - What authoritative name servers are and how they fit into DNS resolution.
 - [Domain Delegation and Name Servers Explained](/articles/domain-delegation-and-name-servers/) - How delegation, name servers, and DNS hosting fit together, and which guide matches your situation.
 - [What Is Domain Delegation?](/articles/what-is-domain-delegation/) - How delegation works and what it means to point a domain at a DNS provider.
 - [Recursive vs Authoritative DNS Resolvers](/articles/recursive-vs-authoritative-dns-resolvers/) - The difference between resolvers that look up answers and servers that hold them.
@@ -34,14 +34,14 @@ DNSimple provides full control over name server delegation for domains registere
 ## Pointing a domain to DNSimple {#pointing-a-domain}
 
 - [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) - Overview of the delegation process depending on where your domain is registered.
-- [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) - How to set DNSimple as the DNS provider for a domain you registered with us.
-- [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/) - How to update delegation at an external registrar to use DNSimple name servers.
+- [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/) - How to set DNSimple as the DNS provider for a domain you registered with us.
+- [Delegate a Domain from Another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/) - How to update delegation at an external registrar to use DNSimple name servers.
 
 ## Changing delegation {#changing-delegation}
 
 - [Change delegation to another DNS provider](/articles/setting-name-servers/) - How to point a DNSimple-registered domain at a different DNS provider.
 - [Adding NS Records for a Subdomain](/articles/add-ns-records-for-subdomain/) - How to delegate a subdomain to a separate set of name servers.
-- [Zone NS Records](/articles/zone-ns-records/) - How to update the NS records published at the apex of your zone.
+- [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/) - How to update the NS records published at the apex of your zone.
 
 ## Name server sets and vanity name servers {#name-server-sets-and-vanity}
 

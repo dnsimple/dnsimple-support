@@ -38,8 +38,8 @@ That registrar-level change is separate from editing DNS records inside your zon
 
 DNSimple does not change delegation on your behalf without your action. To point a domain at DNSimple's DNS:
 
-- If the domain is registered with DNSimple, see [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/).
-- If the domain is registered elsewhere, see [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
+- If the domain is registered with DNSimple, see [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/).
+- If the domain is registered elsewhere, see [Delegate a Domain from Another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/).
 - If the domain is registered with DNSimple and you want to use another DNS provider, see [Setting the Name Servers for a Domain](/articles/setting-name-servers/).
 
 For a general overview of pointing a domain to DNSimple, see [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/). The hostnames and addresses you delegate to are listed in [DNSimple Name Servers](/articles/dnsimple-nameservers/). For the full index of name server guides, see [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/).

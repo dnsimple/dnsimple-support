@@ -11,7 +11,7 @@ categories:
 
 To enable DNSSEC in DNSimple, open the DNSSEC tab for your domain and follow the configuration wizard. DNSimple signs the zone automatically and, for domains registered with DNSimple, provisions the DS record at the registry with no additional steps required.
 
-If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
 ## Prerequisites {#prerequisites}
 

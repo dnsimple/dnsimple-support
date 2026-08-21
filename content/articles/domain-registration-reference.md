@@ -38,7 +38,7 @@ When registering a domain, you must provide accurate registrant contact informat
 - Industry classifications
 - Other TLD-specific requirements
 
-**Regulated TLDs:** Some TLDs, such as `.BANK` and `.INSURANCE`, have additional requirements and restrictions. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
+**Regulated TLDs:** Some TLDs, such as `.BANK` and `.INSURANCE`, have additional requirements and restrictions. For more information, see [Regulated and Highly-Regulated Top-Level Domains](/articles/tlds-regulated/).
 
 ## Registration restrictions {#registration-restrictions}
 

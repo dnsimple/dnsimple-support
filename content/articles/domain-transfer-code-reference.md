@@ -119,7 +119,7 @@ For step-by-step instructions, see [Transfer a Domain Away from DNSimple](/artic
 
 **Special procedures:** Some TLDs have different transfer procedures that do not require a transfer code. For example, `.UK` domains use a different transfer process.
 
-**Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to transfer codes. For more information, see [Regulated Top-Level Domains](/articles/tlds-regulated/).
+**Regulated TLDs:** Some regulated TLDs may have additional requirements or restrictions related to transfer codes. For more information, see [Regulated and Highly-Regulated Top-Level Domains](/articles/tlds-regulated/).
 
 ## Have more questions?
 
