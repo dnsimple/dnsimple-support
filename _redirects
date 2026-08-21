@@ -214,6 +214,9 @@
 /articles/reissuing-ssl-certificate/                                      /articles/reissue-ssl-certificate/
 /articles/announcement-ns2-ns4-ip-addresses                               /articles/announcement-ns1-ns3-ip-addresses/
 /articles/announcement-ns2-ns4-ip-addresses/                              /articles/announcement-ns1-ns3-ip-addresses/
+/articles/domains-pt                                                      /articles/tlds/
+/articles/domains-pt/                                                     /articles/tlds/
+/articles/domains-pt/index.html                                           /articles/tlds/
 /dnsimple.com/contact                                                     https://dnsimple.com/contact
 /articles/:slug                                                           /articles/:slug/    301
 /categories/:slug                                                         /categories/:slug/  301
