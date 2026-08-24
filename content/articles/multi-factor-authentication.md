@@ -34,7 +34,7 @@ When you enable MFA for your user profile, DNSimple logs you out of all currentl
 <div class="section-steps" markdown="1">
 ##### To enable multi-factor authentication with one-time password
 
-1. Go to your [user page](https://dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
+1. Go to your [user page](https://app.dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
     ![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1. In the **2-Step Verification** card, click **Add** next to "Connect an authenticator app that generates verification codes".
@@ -60,7 +60,7 @@ When you enable MFA for your user profile, DNSimple logs you out of all currentl
 <div class="section-steps" markdown="1">
 ##### To enable multi-factor authentication with a security key
 
-1. Go to your [user page](https://dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
+1. Go to your [user page](https://app.dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
     ![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1. In the **2-Step Verification** card, click **Add** next to "Connect a security key to your user" to connect a new security key to your user profile.
@@ -88,7 +88,7 @@ You can remove a one-time password authenticator application or any security key
 <div class="section-steps" markdown="1">
 ##### To disable a one-time password authenticator application
 
-1. Go to your [user page](https://dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
+1. Go to your [user page](https://app.dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
   ![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1. In the **2-Step Verification** card, click **Delete** next to the displayed authenticator app configuration. This will take you to the confirmation page.
@@ -101,7 +101,7 @@ You can remove a one-time password authenticator application or any security key
 <div class="section-steps" markdown="1">
 ##### To disable a security key
 
-1. Go to your [user page](https://dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
+1. Go to your [user page](https://app.dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
   ![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1. In the **2-Step Verification** card, click **Delete** next to the security key you would like to disable. This will take you to the confirmation page.
@@ -196,7 +196,7 @@ Recovery codes can be regenerated. When a recovery code is regenerated, you cann
 <div class="section-steps" markdown="1">
 ##### Regenerating a recovery code
 
-1. Go to your [user page](https://dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
+1. Go to your [user page](https://app.dnsimple.com/user) by selecting **User settings** in the account switcher at the top-right corner of the screen.
   ![screenshot: user settings menu item](/files/user-settings-menu.png)
 
 1. In the **2-Step Verification** card, click **Re-generate** next to the existing recovery code.

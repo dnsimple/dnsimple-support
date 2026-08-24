@@ -40,7 +40,7 @@ Follow these steps to create a DNSimple account. You can create an account and e
 Until your user email is verified, some sensitive actions will be unavailable, including subscribing to a plan, registering or transferring domains, and purchasing SSL certificates. Check your inbox and complete the verification to get full access to your account.
 
 > [!NOTE]
-> Verification links expire after 7 days. If yours has expired, you can request a new one from your [user settings page](https://dnsimple.com/user).
+> Verification links expire after 7 days. If yours has expired, you can request a new one from your [user settings page](https://app.dnsimple.com/user).
 
 ## Adding additional accounts {#adding-additional-accounts}
 

@@ -106,7 +106,7 @@ To link a DNSimple user to an Okta identity:
 
 You'll need to [link an Okta organization to your DNSimple account](#linking-okta-organization) before your team members can log in via Okta SSO.
 
-1. To log in to DNSimple using Okta, visit [https://dnsimple.com/login](https://dnsimple.com/login).
+1. To log in to DNSimple using Okta, visit [https://app.dnsimple.com/login](https://app.dnsimple.com/login).
 1. Click **Sign in using Okta**.
 1. Enter the company's Okta domain and click **Sign in**.
 1. If you are prompted for your Okta username and password, enter them.

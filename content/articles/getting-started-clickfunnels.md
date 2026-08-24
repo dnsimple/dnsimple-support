@@ -51,7 +51,7 @@ ClickFunnels will reply when the domain has been moved. You will also receive an
 ## Accept the domain push {#accept-push}
 
 <div class="section-steps" markdown="1">
-1. [Log in to DNSimple](https://dnsimple.com/login). You will see a notification on your dashboard about the pending push.
+1. [Log in to DNSimple](https://app.dnsimple.com/login). You will see a notification on your dashboard about the pending push.
 1. Click <label>View</label> to see the pending domain push, then click <label>Accept</label>.
 1. You will be prompted to assign a [contact](/articles/changing-domain-contact/) to the domain. This updates the registrant information from ClickFunnels to you.
 1. Click <label>Accept Push</label> to complete the transfer.

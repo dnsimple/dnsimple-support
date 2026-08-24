@@ -24,7 +24,7 @@ Your user email is tied to your personal DNSimple login. Changing it does not ch
 <div class="section-steps" markdown="1">
 ##### To change your user email
 
-1. Go to your [user page](https://dnsimple.com/user) by clicking the account switcher at the top-right corner of the screen, then select <label>User settings</label>.
+1. Go to your [user page](https://app.dnsimple.com/user) by clicking the account switcher at the top-right corner of the screen, then select <label>User settings</label>.
 
     ![Screenshot of link to user settings](/files/user-settings-menu.png)
 

@@ -38,7 +38,7 @@ For what happens when payment stops, see [What Happens If You Stop Paying for DN
 ##### To reactivate from the dashboard
 
 1. Log in to DNSimple with your user credentials.
-1. Go to [your dashboard](https://dnsimple.com/dashboard).
+1. Go to [your dashboard](https://app.dnsimple.com/dashboard).
 1. In the accounts section, find the card for the account you want to reactivate.
 1. Click <label>Unlock advanced features</label> on that card.
 
@@ -72,7 +72,7 @@ For what happens when payment stops, see [What Happens If You Stop Paying for DN
 ##### To reactivate from the alert banner
 
 1. Log in to DNSimple with your user credentials.
-1. Go to your [dashboard](https://dnsimple.com/dashboard).
+1. Go to your [dashboard](https://app.dnsimple.com/dashboard).
 1. If your account still has domains stored in it, click <label>Choose plan</label> in the alert banner at the top of the screen.
 1. Choose the plan that fits your needs, and click <label>Get started</label>.
 1. Enter your payment information and click <label>Create new subscription</label>.
