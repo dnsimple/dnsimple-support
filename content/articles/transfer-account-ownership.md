@@ -37,7 +37,7 @@ If the new owner already has a DNSimple user at the address you want to use, the
 <div class="section-steps" markdown="1">
 ##### To transfer account ownership to another person
 
-1. [Change the user email](/articles/changing-email/#changing-the-user-email) on the account owner to the new owner's user email address.
+1. [Change the user email](/articles/changing-email/#changing-the-user-email) on the account owner to the new owner's email address.
 1. Ask the new owner to [request a password reset](/articles/forgot-password/) if they need to set or update their password.
 1. Confirm the new owner can sign in and access the account from the account switcher.
 
