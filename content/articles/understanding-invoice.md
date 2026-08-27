@@ -23,13 +23,13 @@ Account owners receive invoices by email for charges throughout the billing cycl
 There are three types of invoices from DNSimple:
 
 - Subscription fee
-  - Solo - No base fee. Your hosted zones and query volume appear here.
+  - Solo - No base fee. Your hosted zones and any billable query volume appear here.
   - Teams - $29/month base fee
   - Enterprise - Custom pricing
 - Domain registration, transfer, and renewal purchases
 - Certificate purchases
 
-Solo and Teams plan subscribers see itemized billing for zones hosted on DNSimple and zone queries. Enterprise and higher plans receive custom billing rates.
+Solo and Teams plan subscribers see itemized billing for zones hosted on DNSimple and for the zone queries that exceed each zone's monthly allowance. Enterprise and higher plans receive custom billing rates.
 
 If you have multiple high-volume zones or receive a very high number of monthly queries, [contact sales](https://dnsimple.com/sales) for Enterprise pricing, and we will get you set up with what you need.
 
@@ -95,7 +95,7 @@ If you **downgrade** your plan (for example, moving from Teams to Solo), DNSimpl
 
 You are billed monthly for each [active DNS zone](/articles/activate-deactivate-dns-zone/) in your account. If you have zones you are not using, [deactivating them](/articles/activate-deactivate-dns-zone/#deactivating-a-dns-zone) stops the recurring charge for those zones. See the [pricing page](https://dnsimple.com/pricing) for current per-zone rates.
 
-[DNS query volume fees](/articles/dns-query-limits/) are also billed per active zone based on the number of queries each zone receives.
+[DNS query volume fees](/articles/dns-query-limits/) are also billed per active zone, on the queries a zone receives above its monthly allowance. Solo includes 50,000 queries per zone per month and Teams includes 500,000, so a zone that stays within its allowance produces no query charge.
 
 ## Common invoice questions {#faq}
 
@@ -103,7 +103,7 @@ You are billed monthly for each [active DNS zone](/articles/activate-deactivate-
 If the zone is still active in your account, it will appear on your invoice. [Deactivate the zone](/articles/activate-deactivate-dns-zone/#deactivating-a-dns-zone) to stop the charge.
 
 **What does my subscription fee cover?**
-Your subscription fee covers access to your [plan features](/articles/dnsimple-plans/). Zone hosting and query volume are billed separately as usage-based charges. Domain registrations, renewals, and certificates are purchases billed on separate invoices.
+Your subscription fee covers access to your [plan features](/articles/dnsimple-plans/). Zone hosting and query volume above your plan's allowance are billed separately as usage-based charges. Domain registrations, renewals, and certificates are purchases billed on separate invoices.
 
 **Where can I see current pricing?**
 Visit the [DNSimple pricing page](https://dnsimple.com/pricing) for up-to-date rates on subscriptions, zones, and queries.
