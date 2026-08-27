@@ -43,7 +43,7 @@ Let's Encrypt root certificates are trusted by all major browsers and operating 
 
 You can determine which CA signed your certificate by inspecting the certificate details in your browser or by checking the certificate page in your DNSimple account.
 
-**Learn more:** [How Do I Determine the Certificate Authority That Signed My SSL Certificate?](/articles/how-to-determine-certificate-authority/)
+**Learn more:** [How to Find Your SSL Certificate Authority](/articles/how-to-determine-certificate-authority/)
 
 ## Have more questions?
 
