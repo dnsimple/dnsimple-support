@@ -81,7 +81,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 - [Alias records](/articles/alias-record/)
 - [Zone queries](/articles/dns-query-limits/) billed monthly at $0.10 per million queries per zone per month
 - [CAA Records](/articles/caa-record/)
-- [WHOIS privacy services ](/articles/whois-privacy/)
+- [WHOIS privacy services](/articles/whois-privacy/)
 - [Activity logs](/articles/activity-tracking/) for the past 30 days
 - [Webhooks](/articles/webhooks/)
 - Standard-level [support](/articles/dnsimple-support/) with responses within 24 hours on business days
