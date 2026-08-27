@@ -46,7 +46,7 @@ This amount is broken up into:
 - Account credits (when applicable)
 
 > [!NOTE]
-> Your subscription fee covers access to your [plan features](/articles/dnsimple-plans/). Zone hosting and query volume are usage-based charges billed separately from the base subscription fee.
+> Your subscription fee covers access to your [plan features](/articles/dnsimple-plans/). Zone hosting and query volume above your plan's allowance are billed separately as usage-based charges.
 
 ![Screenshot of billing and plans settings](/files/billing-and-plans-screenshot.png)
 
