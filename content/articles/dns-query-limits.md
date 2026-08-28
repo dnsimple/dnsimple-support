@@ -28,7 +28,7 @@ Each zone on a Solo or Teams plan includes a monthly allowance of DNS queries at
 The allowance applies to each zone on its own. A zone that stays within its allowance costs nothing in query fees, no matter how many other zones you host. The allowance is not prorated, so every zone receives the full allowance in every billing cycle.
 
 > [!NOTE]
-> Query pricing is set on your subscription when the subscription is created and when you change plans. To confirm the rates on your account, open the Billing and plans page or [contact support](/articles/dnsimple-support/).
+> Query pricing is set on your subscription when the subscription is created and when you change plans, so an older subscription may still be on earlier pricing. See [when the allowance applies to your account](#when-the-allowance-applies).
 
 ## Calculating your fees {#calculating-your-fees}
 
@@ -56,9 +56,19 @@ Each zone is calculated separately, and the results are added together on your [
 
 DNSimple bills query volume on the Solo and Teams plans, and only for the volume above each zone's monthly allowance. Enterprise plans have custom contract pricing. The legacy Personal and Professional plans are not billed for query volume.
 
-### Where can I see my current query volume?
+### When does the allowance apply to my account? {#when-the-allowance-applies}
 
-To view the query volume for your zones, go to your account settings page and click the "Billing and Plans" section. There, you will see the top 100 zones by query volume for the current billing period.
+A subscription is assigned its query pricing when it is created and when it changes plan. A new Solo or Teams subscription includes the allowance from the day it starts.
+
+If you subscribed before the allowance was introduced, your subscription keeps the query pricing it was created under until DNSimple moves it to the new pricing. Account administrators receive an email notice with the date before that happens.
+
+Your [DNS query volume page](#where-can-i-see-my-current-query-volume) states which query pricing your subscription is on. If the new pricing has been announced for your plan but has not started yet, the page also shows the date it begins. If you are still unsure, [contact support](/articles/dnsimple-support/).
+
+### Where can I see my current query volume? {#where-can-i-see-my-current-query-volume}
+
+To view the query volume for your zones, open <label>account settings</label>, click the <label>Billing and plans</label> tab, then click <label>View</label> in the <label>Plan usage</label> section.
+
+The page opens with a statement of the query pricing your subscription is on, either the queries included per zone and the rate above them, or the flat per-million rate charged from the first query. Below that, you will see the top 100 zones by query volume for the current billing period. On a subscription with an allowance, each zone also shows how far it sits above its allowance and the fees it has accrued.
 
 As an Enterprise customer, you have some additional capabilities:
 
