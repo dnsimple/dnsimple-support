@@ -21,7 +21,7 @@ You'll find all [the features listed for each plan on our pricing page](https://
 |---------|:----:|:-----:|:----------:|
 | Domain registration, transfer, renewal | Yes | Yes | Yes |
 | DNS zones with Anycast, DNSSEC, DDoS defense | Yes | Yes | Yes |
-| DNS records per zone | 100 | 100 | Custom |
+| DNS records per zone | 100 | 1000 | Custom |
 | Let's Encrypt (root and www) | Yes | Yes | Yes |
 | Let's Encrypt custom hostnames | -- | Yes | Yes |
 | Let's Encrypt wildcard | -- | Yes | Yes |
@@ -96,6 +96,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 
 ### The Teams plan includes everything on the Solo plan, plus:
 
+- 1000 DNS records per zone
 - [HTTPS URL redirects](/articles/redirector/)
 - Let's Encrypt custom hostname certificates
 - Let's Encrypt [wildcard certificates](/articles/buy-wildcard-ssl-certificate/)
