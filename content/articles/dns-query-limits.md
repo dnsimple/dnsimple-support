@@ -1,6 +1,6 @@
 ---
 title: DNS Query Allowances and Volume Fees
-excerpt: Every zone includes a monthly allowance of DNS queries at no charge, and only the volume above that allowance is billed.
+excerpt: Every zone on a Solo or Teams plan includes a monthly allowance of DNS queries at no charge, and only the volume above that allowance is billed.
 meta: Solo includes 50,000 DNS queries per zone per month and Teams includes 500,000, at no charge. DNSimple bills only the query volume above your plan's allowance, at $0.80 per million on Solo and $0.60 per million on Teams.
 categories:
 - DNSimple
@@ -30,27 +30,27 @@ The allowance applies to each zone on its own. A zone that stays within its allo
 > [!NOTE]
 > Query pricing is set on your subscription when the subscription is created and when you change plans. To confirm the rates on your account, open the Billing and plans page or [contact support](/articles/dnsimple-support/).
 
-## Calculating your fees {#calculating}
+## Calculating your fees {#calculating-your-fees}
 
 Subtract the allowance from the zone's monthly query volume, round the remainder up to the next full million, and multiply by your plan's rate. DNSimple does not charge fractions of a million.
 
 On the Solo plan, with a 50,000-query allowance at $0.80 per million:
 
-* 40,000 queries is $0.00, because the zone stays within its allowance
-* 300,000 queries is $0.80, because the 250,000 queries above the allowance round up to one million
-* 1,200,000 queries is $1.60, because the 1,150,000 queries above the allowance round up to two million
+- 40,000 queries is $0.00, because the zone stays within its allowance
+- 300,000 queries is $0.80, because the 250,000 queries above the allowance round up to one million
+- 1,200,000 queries is $1.60, because the 1,150,000 queries above the allowance round up to two million
 
 On the Teams plan, with a 500,000-query allowance at $0.60 per million:
 
-* 500,000 queries is $0.00
-* 900,000 queries is $0.60, because the 400,000 queries above the allowance round up to one million
-* 3,000,000 queries is $1.80, because the 2,500,000 queries above the allowance round up to three million
+- 500,000 queries is $0.00
+- 900,000 queries is $0.60, because the 400,000 queries above the allowance round up to one million
+- 3,000,000 queries is $1.80, because the 2,500,000 queries above the allowance round up to three million
 
 Each zone is calculated separately, and the results are added together on your [invoice](/articles/understanding-invoice/).
 
 **Try our [pricing calculator](https://dnsimple.com/) to get an estimate of your zone query costs.**
 
-## Understanding your query volume
+## Understanding your query volume {#understanding-your-query-volume}
 
 ### What plans are affected by query volume fees?
 
@@ -62,8 +62,8 @@ To view the query volume for your zones, go to your account settings page and cl
 
 As an Enterprise customer, you have some additional capabilities:
 
-* You can filter by date range to understand the total query volume fees incurred during the selected period, along with a link to the corresponding invoices.
-* You can also export the query volume for all your zones, not only the top 100, in the selected period as a CSV file.
+- You can filter by date range to understand the total query volume fees incurred during the selected period, along with a link to the corresponding invoices.
+- You can also export the query volume for all your zones, not only the top 100, in the selected period as a CSV file.
 
 ![Enterprise query volume page showing top 100 zones, date filtering, and CSV export options](/files/enterprise-top-100-zones-query-volume.png)
 

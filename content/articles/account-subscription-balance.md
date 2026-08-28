@@ -38,12 +38,12 @@ The plan section shows your current plan and the total estimated due on your nex
 
 This amount is broken up into:
 
-- [DNS queries](/articles/dns-query-limits/)
-- Subscription cost (Teams base fee only; Solo has no base subscription fee)
-- Active zones
-- Extra [seats](/articles/managing-seats/) (Teams plan and higher)
-- [Email forwards](/articles/email-forwarding/)
-- Account credits (when applicable)
+* [DNS queries](/articles/dns-query-limits/)
+* Subscription cost (Teams base fee only; Solo has no base subscription fee)
+* Active zones
+* Extra [seats](/articles/managing-seats/) (Teams plan and higher)
+* [Email forwards](/articles/email-forwarding/)
+* Account credits (when applicable)
 
 > [!NOTE]
 > Your subscription fee covers access to your [plan features](/articles/dnsimple-plans/). Zone hosting and query volume above your plan's allowance are billed separately as usage-based charges.
@@ -60,8 +60,8 @@ Click **View** in the **Plan usage** section to see more details about DNS query
 
 The **Account Credit** section shows credit available on the account. If your account has credit, future payments may be deducted from that credit. Account credits fall into two categories:
 
-- **Credit for subscriptions:** This credit is **only** used to cover subscription fees.
-- **Credit for [purchases](/articles/understanding-invoice/#purchases):** This credit is used when making purchases (register, renew, and transfer domains, SSL certificates, and so on). If necessary, DNSimple will also use this credit to cover your subscription fees before charging your card on file.
+* **Credit for subscriptions:** This credit is **only** used to cover subscription fees.
+* **Credit for [purchases](/articles/understanding-invoice/#purchases):** This credit is used when making purchases (register, renew, and transfer domains, SSL certificates, and so on). If necessary, DNSimple will also use this credit to cover your subscription fees before charging your card on file.
 
 ### Credit card {#credit-card}
 
