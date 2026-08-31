@@ -22,7 +22,7 @@ For Solo and Teams plans, the amount charged depends on:
 - The base price of your subscription (Teams only; Solo has no base subscription fee)
 - The number of seats (Teams only)
 - The number of domains in your account with active zones
-- The query volume of your domains
+- The [query volume](/articles/dns-query-limits/) of your zones above their included allowance
 - The number of email forwards configured
 
 Enterprise and Reseller clients have custom contracts based on their individual needs.
