@@ -40,6 +40,7 @@ The user token gives you access to any resource associated with any account the 
 1. Click the **API & Access** tab on the left side.
 
 ![screenshot of the API & Access page](/files/access-tokens.png)
+<!-- capture: /a/{account}/account/api_tokens -->
 
 This page shows your API usage and limits at the top, followed by your access tokens, including the last used date for each. You can add new access tokens or remove existing ones from here.
 
@@ -51,8 +52,8 @@ The **API Limits & Usage** card at the top of the API & Access page summarizes h
 
 The card has two sections:
 
-- **General API** — your hourly request limit, the number of requests remaining in the current window, and when the limit resets. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
-- **Domain Research API** — your account's request count for the current month against the [Domain Research API](/articles/domain-research-api/). This section only appears when the Domain Research feature is active on your account.
+* **General API** — your hourly request limit, the number of requests remaining in the current window, and when the limit resets. See [API Rate Limit](/articles/api-rate-limit/) for details on how the limit is applied.
+* **Domain Research API** — your account's request count for the current month against the [Domain Research API](/articles/domain-research-api/). This section only appears when the Domain Research feature is active on your account.
 
 The card reflects your whole account, not a single token. Every token on the account draws from the same limit.
 
