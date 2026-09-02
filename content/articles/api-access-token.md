@@ -40,7 +40,7 @@ The user token gives you access to any resource associated with any account the 
 1. Click the **API & Access** tab on the left side.
 
 ![screenshot of the API & Access page](/files/access-tokens.png)
-<!-- capture: /a/{account}/account/api_tokens -->
+<!-- capture: /a/{account}/account/api_tokens#.container-main -->
 
 This page shows your API usage and limits at the top, followed by your access tokens, including the last used date for each. You can add new access tokens or remove existing ones from here.
 
