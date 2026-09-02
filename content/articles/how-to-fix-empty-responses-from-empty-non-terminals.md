@@ -35,14 +35,14 @@ The record `app.us.prod.example.com` creates an ENT at `us.prod.example.com`. Qu
 First, check if there are any records beneath the name that is returning empty responses. Use [`dig`](/articles/how-dig/) to query your zone:
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 (empty)
 ```
 
 If you get an empty response but the name exists (status: NOERROR), it is likely an ENT. To confirm, check if there are child records:
 
 ```
-$ dig @ns1.dnsimple.com app.us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com app.us.prod.example.com A +short
 192.168.0.41
 ```
 
@@ -51,7 +51,7 @@ If child records exist, the parent name is an ENT.
 You can also view your full zone to see the hierarchy:
 
 ```
-$ dig @ns1.dnsimple.com example.com AXFR
+$ dig @ns1.dnsimple-edge.com example.com AXFR
 ```
 
 Look for records that are deeper in the hierarchy than the name returning empty responses.
@@ -83,7 +83,7 @@ This ensures consistent behavior with other names that match the wildcard.
 After adding the explicit record, verify that the name now returns the expected response:
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 192.168.0.11
 ```
 

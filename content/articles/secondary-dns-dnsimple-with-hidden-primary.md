@@ -66,7 +66,7 @@ Verify that the records have been synchronized in your DNSimple account.
 
 Run the following `dig` command from your console:
 ```
-dig @ns1.dnsimple.com example.com
+dig @ns1.dnsimple-edge.com example.com
 ```
 ### Hidden primary is not exposed
 
@@ -74,9 +74,9 @@ Verify that the hidden primary name servers are **not** publicly exposed by runn
 ```
 > whois your-domain-name.com
 ...
-Name Server: ns1.dnsimple.com
+Name Server: ns1.dnsimple-edge.com
 Name Server: ns2.dnsimple-edge.net
-Name Server: ns3.dnsimple.com
+Name Server: ns3.dnsimple-edge.io
 Name Server: ns4.dnsimple-edge.org
 ```
 ## Have more questions?

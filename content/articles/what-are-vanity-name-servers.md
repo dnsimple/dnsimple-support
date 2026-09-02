@@ -13,7 +13,7 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/8p7GFBvTnxM" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Vanity name servers (also called private name servers or custom name servers) are authoritative name server hostnames that use your own domain instead of your DNS provider's defaults. For example, you might publish `ns1.example.com` and `ns2.example.com` at the registry instead of hostnames such as `ns1.dnsimple.com`. Public lookups still show which servers are authoritative; only the hostnames change.
+Vanity name servers (also called private name servers or custom name servers) are authoritative name server hostnames that use your own domain instead of your DNS provider's defaults. For example, you might publish `ns1.example.com` and `ns2.example.com` at the registry instead of hostnames such as `ns1.dnsimple-edge.com`. Public lookups still show which servers are authoritative; only the hostnames change.
 
 For background on what authoritative name servers do in general, see [What is a Name Server?](/articles/what-is-a-nameserver/).
 
@@ -38,7 +38,7 @@ These are presentation and operational preferences, not a change to how DNS reso
 
 When the delegated name servers are names inside the same zone being delegated (for example delegating `example.com` to `ns1.example.com`), resolvers face a circular dependency: they need an IP for `ns1.example.com` before they can query it for `example.com`. The parent zone fixes that by publishing [glue records](/articles/what-are-glue-records/) (addresses for those server names) next to the NS delegation.
 
-If your authoritative servers use provider-supplied names outside your zone (for example `ns1.dnsimple.com`), your zone does not need glue for delegation at the parent in the same way. For the step-by-step resolution story, read [What Are Glue Records?](/articles/what-are-glue-records/).
+If your authoritative servers use provider-supplied names outside your zone (for example `ns1.dnsimple-edge.com`), your zone does not need glue for delegation at the parent in the same way. For the step-by-step resolution story, read [What Are Glue Records?](/articles/what-are-glue-records/).
 
 ## Vanity name servers at DNSimple {#vanity-at-dnsimple}
 

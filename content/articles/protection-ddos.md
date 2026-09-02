@@ -19,7 +19,7 @@ DNSimple's DDoS defense system acts as a protective layer that sits in front of 
 
 Think of it like a security checkpoint:
 
-- **Initial screening:** All incoming traffic is continuously analyzed for potential malicious patterns and anomalies.
+- **Initial screening:** All incoming traffic is continuously analyzed for potential malicious patterns and anomalies, including signature detection at the cache layer.
 - **Legitimate traffic:** Legitimate requests are allowed to pass through the system. They are then served from a fast caching layer if the information is available, or forwarded to the nearest data center for a fresh response.
 - **Malicious traffic:** Malicious requests are detected and blocked at the POP level, preventing them from consuming the resources of our name servers and disrupting service for others.
 
@@ -27,7 +27,7 @@ This multilayered defense, powered by Anycast routing, ensures that your domain 
 
 ## Multi-provider protection {#multi-provider-protection}
 
-DNSimple's name servers and DDoS protection infrastructure are distributed in multiple locations around the world. We are always working to introduce additional providers for zones where complete redundancy is critical.
+DNSimple's name servers and DDoS protection infrastructure are distributed in multiple locations around the world. Our two-provider edge is live, providing complete redundancy for zones where it is critical.
 
 If you are interested in leveraging this for your domain, please [contact us](https://dnsimple.com/contact) to discuss the technical requirements and pricing.
 

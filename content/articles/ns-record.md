@@ -54,7 +54,7 @@ When it comes to managing the authoritative name servers for your domain, the pr
 ### To use DNSimple's name servers (delegate to DNSimple)
 **If DNSimple is your domain registrar:** [Update your domain's name servers](/articles/delegating-dnsimple-registered/) directly within your DNSimple account. This points your domain to DNSimple's authoritative name servers.
 
-**If another registrar holds your domain:** Log in to that registrar's control panel, and [update your domain's name servers](/articles/delegating-dnsimple-hosted/), pointing them to DNSimple's name servers (e.g., `ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.).
+**If another registrar holds your domain:** Log in to that registrar's control panel, and [update your domain's name servers](/articles/delegating-dnsimple-hosted/), pointing them to DNSimple's name servers (e.g., `ns1.dnsimple-edge.com`, `ns2.dnsimple-edge.net`, etc.).
 
 ### To delegate to another DNS provider
 **If DNSimple is your domain registrar:** Update your domain's name servers within your DNSimple account, and [enter the name servers of the other DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider/).

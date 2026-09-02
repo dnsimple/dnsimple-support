@@ -54,11 +54,11 @@ If you need to provide the IP addresses to your current registrar, use the follo
 </tr>
 </table>
 
-If you are updating delegation or glue records during the NS1/NS3 edge migration, see [Discontinuation of Legacy NS1 and NS3 IP Addresses](/articles/announcement-ns1-ns3-ip-addresses/).
+For background on the NS1/NS3 edge migration that completed on July 6, 2026, see [Discontinuation of Legacy NS1 and NS3 IP Addresses](/articles/announcement-ns1-ns3-ip-addresses/).
 
 ## Legacy Name Servers {#legacy-name-servers}
 
-We have some older name servers that we consider legacy. You can use them, but we recommend you use the more diverse names and TLDs:
+We have some older name server hostnames that we consider legacy. They still resolve, but they are now aliases onto the edge infrastructure above. For new configurations, use the `dnsimple-edge` names:
 
 - ns1.dnsimple.com
 - ns2.dnsimple.com

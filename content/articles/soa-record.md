@@ -29,12 +29,12 @@ The SOA record contains several vital pieces of information that govern how the 
 An example breakdown of the typical components in an SOA record:
 
 ```
-ns1.dnsimple.com admin.dnsimple.com 2013022001 86400 7200 604800 300
+ns1.dnsimple-edge.com admin.dnsimple.com 2013022001 86400 7200 604800 300
 ```
 
 ### Examining each element:
 **Primary name server (MNAME - master name**):
-- `ns1.dnsimple.com` (or the first name server in your vanity name server list).
+- `ns1.dnsimple-edge.com` (or the first name server in your vanity name server list).
 - This specifies the primary authoritative name server for this zone. All updates to the zone should originate here.
 
 **Responsible party (RNAME - responsible person):**

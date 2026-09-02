@@ -33,15 +33,15 @@ com.            172800  IN  NS  g.gtld-servers.net.
 ...
 ;; Received 1176 bytes from 199.9.14.201#53(b.root-servers.net) in 86 ms
 
-dnsimple.com.       172800  IN  NS  ns1.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns1.dnsimple-edge.com.
 dnsimple.com.       172800  IN  NS  ns2.dnsimple-edge.net.
-dnsimple.com.       172800  IN  NS  ns3.dnsimple.com.
+dnsimple.com.       172800  IN  NS  ns3.dnsimple-edge.io.
 dnsimple.com.       172800  IN  NS  ns4.dnsimple-edge.org.
 ...
 ;; Received 842 bytes from 192.33.14.30#53(b.gtld-servers.net) in 38 ms
 
 www.dnsimple.com.   3600    IN  CNAME   dnsimple.com.
-;; Received 59 bytes from 162.159.27.4#53(ns4.dnsimple.com) in 34 ms
+;; Received 59 bytes from 199.247.155.53#53(ns4.dnsimple-edge.org) in 34 ms
 ~~~
 
 In the resulting query chain, you can see each hop to resolve the CNAME. 
@@ -59,10 +59,10 @@ If you recently changed a record, it may take a while for the change to propagat
 
 You usually can bypass a propagation delay by passing a custom name server in the `dig` call.
 
-The following command checks the DNS record against the `ns1.dnsimple.com` name server:
+The following command checks the DNS record against the `ns1.dnsimple-edge.com` name server:
 
 ```
-$ dig www.dnsimple.com @ns1.dnsimple.com
+$ dig www.dnsimple.com @ns1.dnsimple-edge.com
 ```
 
 If you get the expected response, the record has been updated in our system, but the changes still need to propagate. They should be visible after the TTL period. To compare results globally or run checks with third-party sites, see [External DNS Diagnostic Tools](/articles/external-dns-diagnostic-tools/).
@@ -110,9 +110,9 @@ If both commands return no results, you need to add an A or AAAA record for the 
 You can also query DNSimple's name servers directly to verify the record does not exist in our system:
 
 ```
-$ dig example.com A @ns1.dnsimple.com +short
+$ dig example.com A @ns1.dnsimple-edge.com +short
 
-$ dig example.com AAAA @ns1.dnsimple.com +short
+$ dig example.com AAAA @ns1.dnsimple-edge.com +short
 ```
 
 ### How to fix

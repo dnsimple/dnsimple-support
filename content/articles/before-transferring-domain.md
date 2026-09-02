@@ -62,19 +62,19 @@ $ dig @NAME_SERVER DOMAIN_NAME [RECORD_TYPE]
 For example, the following command checks the A records associated to the root domain:
 
 ```
-$ dig @ns1.dnsimple.com example.com
+$ dig @ns1.dnsimple-edge.com example.com
 ```
 
 To look up details for a subdomain use:
 
 ```
-$ dig @ns1.dnsimple.com www.example.com
+$ dig @ns1.dnsimple-edge.com www.example.com
 ```
 
 To look up details for a specific record type use:
 
 ```
-$ dig @ns1.dnsimple.com www.example.com CNAME
+$ dig @ns1.dnsimple-edge.com www.example.com CNAME
 ```
 
 

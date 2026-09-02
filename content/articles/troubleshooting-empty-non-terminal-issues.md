@@ -30,7 +30,7 @@ ENT-related issues typically manifest as:
 Use a script or manual inspection to identify ENTs in your zone. Start by querying the problematic name:
 
 ```
-$ dig @ns1.dnsimple.com problematic-name.example.com A
+$ dig @ns1.dnsimple-edge.com problematic-name.example.com A
 ```
 
 Look for these indicators:
@@ -46,7 +46,7 @@ If you see these indicators, the name is likely an ENT.
 Query names beneath the problematic name to see if they have records:
 
 ```
-$ dig @ns1.dnsimple.com child.problematic-name.example.com A +short
+$ dig @ns1.dnsimple-edge.com child.problematic-name.example.com A +short
 ```
 
 If child records exist, the parent is an ENT.
@@ -56,7 +56,7 @@ If child records exist, the parent is an ENT.
 To see the complete hierarchy, export your zone:
 
 ```
-$ dig @ns1.dnsimple.com example.com AXFR
+$ dig @ns1.dnsimple-edge.com example.com AXFR
 ```
 
 This shows all records and helps identify where ENTs are created in the hierarchy.
@@ -81,7 +81,7 @@ The `app.us.prod.example.com` record creates an ENT at `us.prod.example.com`, bl
 **Check for this:**
 
 ```
-$ dig @ns1.dnsimple.com example.com AXFR | grep -E "^\*\.|^[^;].*\.prod\.example\.com"
+$ dig @ns1.dnsimple-edge.com example.com AXFR | grep -E "^\*\.|^[^;].*\.prod\.example\.com"
 ```
 
 ### ACME challenge records
@@ -91,7 +91,7 @@ Check for leftover or active Let's Encrypt challenge records. These often create
 **Check for this:**
 
 ```
-$ dig @ns1.dnsimple.com _acme-challenge.subdomain.example.com TXT +short
+$ dig @ns1.dnsimple-edge.com _acme-challenge.subdomain.example.com TXT +short
 ```
 
 ACME challenge records follow the pattern `_acme-challenge.<subdomain>.example.com` and create ENTs at each level in the path.
@@ -103,7 +103,7 @@ DKIM records like `selector._domainkey.example.com` create ENTs at `_domainkey.e
 **Check for this:**
 
 ```
-$ dig @ns1.dnsimple.com _domainkey.example.com TXT +short
+$ dig @ns1.dnsimple-edge.com _domainkey.example.com TXT +short
 ```
 
 If you get an empty response but DKIM records exist beneath it, `_domainkey.example.com` is an ENT.
@@ -115,7 +115,7 @@ SRV records following the pattern `_service._protocol.example.com` create ENTs a
 **Check for this:**
 
 ```
-$ dig @ns1.dnsimple.com _tcp.example.com SRV +short
+$ dig @ns1.dnsimple-edge.com _tcp.example.com SRV +short
 ```
 
 If you get an empty response but SRV records exist beneath it, the intermediate name is an ENT.
@@ -160,7 +160,7 @@ If ENTs are causing widespread issues, consider restructuring your zone to avoid
 After making changes, verify that the issue is resolved:
 
 ```
-$ dig @ns1.dnsimple.com problematic-name.example.com A +short
+$ dig @ns1.dnsimple-edge.com problematic-name.example.com A +short
 192.168.0.11
 ```
 
@@ -171,7 +171,7 @@ The name should now return the expected response instead of empty.
 If you fixed a wildcard-related ENT issue, test that wildcard matching works as expected:
 
 ```
-$ dig @ns1.dnsimple.com new-subdomain.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com new-subdomain.prod.example.com A +short
 192.168.0.11
 ```
 
