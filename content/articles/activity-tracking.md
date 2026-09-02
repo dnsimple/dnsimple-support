@@ -55,6 +55,7 @@ The **Events** filter shows event types within a chosen time frame. Filter by DN
 
 ![Screenshot of link to view activity log](/files/view-activity-log.png)
 ![Overview of users activity](/files/user-activity-log.png)
+<!-- capture: /a/{account}/account/activity#.container-main -->
 
 ## Have more questions?
 

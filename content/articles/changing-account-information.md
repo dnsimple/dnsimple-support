@@ -51,7 +51,7 @@ You can also edit your account name, country of operation, and answers to securi
 
 1. Change or set the information according to your needs.
 
-    ![Account information form](/files/account-information-form.png)
+    ![Account information form](/files/account-information-form.png) <!-- capture: /a/{account}/account/edit#.container-main -->
 
 1. Once the information has been updated, click <label>Update account</label> to save the changes. You will see the changes reflected on the <label>Account</label> card under the <label>General</label> tab on your account page.
 
