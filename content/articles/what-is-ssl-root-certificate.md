@@ -45,7 +45,7 @@ When you install a browser or operating system, it comes pre-configured with a s
 
 ## Taking action {#taking-action}
 
-- [How do I determine the Certificate Authority that signed my SSL certificate?](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
+- [How to Find Your SSL Certificate Authority](/articles/how-to-determine-certificate-authority/) - Identify which CA issued your certificate
 
 ## Related reading {#related}
 
