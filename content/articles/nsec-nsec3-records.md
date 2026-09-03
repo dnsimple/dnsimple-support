@@ -78,7 +78,7 @@ While both NSEC and NSEC3 provide authenticated denial of existence, they differ
 
 ## Learn more {#learn-more}
 
-To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how RRSIG records work with NSEC/NSEC3, see [What Are RRSETs and RRSIGs in DNSSEC?](/articles/understanding-rrsets-rrsigs/). If you are experiencing issues with NSEC/NSEC3 records, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). To understand how RRSIG records work with NSEC/NSEC3, see [What Are RRSETs and RRSIGs in DNSSEC?](/articles/understanding-rrsets-rrsigs/). If you are experiencing issues with NSEC/NSEC3 records, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/). For a complete overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

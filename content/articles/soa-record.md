@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# DNS SOA Records
+# What Is an SOA Record?
 
 ### Table of Contents {#toc}
 

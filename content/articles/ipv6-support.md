@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# IPv6 Support
+# IPv6 Domain Resolution Reference
 
 All [DNSimple name servers](/articles/dnsimple-nameservers/) have IPv6 addresses and are configured to respond to queries over the IPv6 protocol. This means a client's DNS query can be resolved natively over IPv6, helping ensure your domain is accessible to users on IPv6-only networks.
 

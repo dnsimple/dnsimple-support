@@ -25,7 +25,7 @@ This diagram shows how zone changes are propagated to both DNS service providers
 
 ## Configuring DNSimple alongside another DNS provider (hosted domain)
 
-To set up zone redundancy with another DNS provider on your zone, follow the steps detailed in [Updating NS Records for the Zone of a Hosted Domain](/articles/zone-ns-records/).
+To set up zone redundancy with another DNS provider on your zone, follow the steps detailed in [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/).
 
 
 ## Configuring DNSimple alongside another DNS provider (registered domain)

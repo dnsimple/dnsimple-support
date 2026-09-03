@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# CAA Records
+# What Is a CAA Record?
 
 ### Table of Contents {#toc}
 

@@ -6,7 +6,7 @@ categories:
 - Domains and Transfers
 ---
 
-# Redirector
+# DNSimple Redirector
 
 ### Table of Contents {#toc}
 

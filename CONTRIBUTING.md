@@ -24,7 +24,7 @@ When submitting a pull request:
    - Tag a second expert with knowledge of the feature/product
    - Use AI (Cursor or Claude Code) for proofreading, clarity, and voice/tone — the project rules in `.cursor/rules/` enforce the DNSimple editorial voice automatically
    - Tag Customer Success for review (required for substantial updates, optional for minor updates)
-4. **Testing:** If reviewers need to test a process, they should use https://sandbox.dnsimple.com
+4. **Testing:** If reviewers need to test a process, they should use https://app.sandbox.dnsimple.com
 5. Ensure all approvals are received
 6. Verify the pipeline is green
 7. Merge the PR yourself
@@ -184,6 +184,7 @@ Every article should link to related articles. Cross-linking helps readers navig
 - Internal articles: use relative paths — `/articles/article-slug/`
 - Developer docs: `https://developer.dnsimple.com/v2/...`
 - Product/marketing pages: `https://dnsimple.com/...`
+- Application pages (anything behind login, plus `/login` and `/signup`): `https://app.dnsimple.com/...`
 - External references: include where helpful (e.g., Wikipedia, ICANN, RFC documents)
 - Use descriptive link text — `[SSL certificate types](/articles/ssl-certificates-types/)` not `[click here](/articles/ssl-certificates-types/)`
 - Ensure all links are current and functional

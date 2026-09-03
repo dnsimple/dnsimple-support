@@ -1,5 +1,5 @@
 ---
-title: Regulated Top-Level Domains
+title: Regulated and Highly-Regulated Top-Level Domains
 excerpt: Information about regulated and highly-regulated TLDs.
 meta: Regulated and highly-regulated top-level domains (TLDs), their requirements, restrictions, and implications for domain registration at DNSimple.
 categories:

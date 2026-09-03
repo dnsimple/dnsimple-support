@@ -18,7 +18,7 @@ All major browsers and operating systems stopped trusting SHA-1 certificates by 
 
 ## Compatibility {#compatibility}
 
-SHA-256 certificates are supported by all modern browsers, operating systems, and server platforms. For a full comparison of DNSimple certificate features, see [SSL Certificate Product Specifications](/articles/ssl-certificate-product-specs/). If you are interested in how key algorithms (ECDSA vs RSA) complement the hash algorithm, see [Elliptic Curve Cryptography (ECC) SSL Certificates](/articles/can-elliptic-curve-key-ssl-certificates/).
+SHA-256 certificates are supported by all modern browsers, operating systems, and server platforms. For a full comparison of DNSimple certificate features, see [SSL Certificate Product Specifications](/articles/ssl-certificate-product-specs/). If you are interested in how key algorithms (ECDSA vs RSA) complement the hash algorithm, see [Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?](/articles/can-elliptic-curve-key-ssl-certificates/).
 
 Compatibility issues are limited to very old systems (pre-2006 era), such as:
 

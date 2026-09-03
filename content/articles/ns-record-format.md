@@ -43,7 +43,7 @@ In DNSimple, NS records for subdomains are represented by the following customiz
 
 ## Apex and subdomain NS records {#apex-and-subdomain}
 
-NS records at the apex of a zone in DNSimple are system-managed and cannot be edited through the standard record editor. They reflect either the DNSimple edge name servers or your configured [vanity name servers](/articles/what-are-vanity-name-servers/). For information on updating apex zone NS records, see [Zone NS Records](/articles/zone-ns-records/).
+NS records at the apex of a zone in DNSimple are system-managed and cannot be edited through the standard record editor. They reflect either the DNSimple edge name servers or your configured [vanity name servers](/articles/what-are-vanity-name-servers/). For information on updating apex zone NS records, see [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/).
 
 NS records for subdomains can be created and managed through the record editor to delegate a subdomain to a separate set of name servers. See [Adding NS Records for a Subdomain](/articles/add-ns-records-for-subdomain/) for step-by-step instructions.
 

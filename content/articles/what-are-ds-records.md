@@ -8,7 +8,7 @@ categories:
 - Enterprise
 ---
 
-# What are DS records?
+# What Are DS Records?
 
 A Delegation Signer (DS) record is a critical DNSSEC record that connects your domain's cryptographic identity to the global DNS system. It acts as a trusted reference from your parent zone (like .com or .org) to your domain's Key Signing Key (KSK) by containing a cryptographic digest (hash) of that key.
 
@@ -140,7 +140,7 @@ In this answer, we can see that the `howdnssec.works` zone has a DS record with 
 
 ## Learn more {#learn-more}
 
-To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For step-by-step instructions on managing DS records, see [Add and Remove DS Records](/articles/manage-ds-record/). For information about managing DS records when changing DNS providers, see [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+To learn more about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/). For step-by-step instructions on managing DS records, see [Add and Remove DS Records](/articles/manage-ds-record/). For information about managing DS records when changing DNS providers, see [Manage DS Records When Changing DNS](/articles/ds-records-changing-dns/). For information about DNSSEC key rotation, see [Rotate DNSSEC Keys](/articles/rotate-dnssec-key/). For a complete overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
 ## Have more questions?
 If you want to explore more DNSSEC terms, take a look at our [DNSSEC Glossary](/articles/dnssec-glossary/). Ready to get started with DNSSEC? Read [Enable DNSSEC](/articles/enabling-dnssec/). If you have further questions or need any assistance, [contact our support team](https://dnsimple.com/feedback), and we will be happy to help.

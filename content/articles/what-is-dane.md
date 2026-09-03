@@ -7,7 +7,7 @@ categories:
 - DNSSEC
 ---
 
-# What Is DANE?
+# What Is DANE and How Does It Work?
 
 ### Table of Contents {#toc}
 
@@ -84,7 +84,7 @@ DANE is particularly valuable for email security (SMTP), where it can be used to
 
 DANE is fundamentally dependent on DNSSEC. Without DNSSEC, TLSA records cannot be cryptographically verified, which means they could be spoofed or modified by attackers. DNSSEC provides the chain of trust that makes DANE records trustworthy.
 
-If you are interested in implementing DANE, you must first [enable DNSSEC](/articles/enabling-dnssec/) on your domain. For more information about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/) and [DNSSEC at DNSimple](/articles/dnssec/).
+If you are interested in implementing DANE, you must first [enable DNSSEC](/articles/enabling-dnssec/) on your domain. For more information about DNSSEC, see [What Is DNSSEC?](/articles/what-is-dnssec/) and [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
 ## Limitations and considerations {#limitations-and-considerations}
 
@@ -108,7 +108,7 @@ The TLSA record format and usage are further detailed in [RFC 7671](https://data
 - [TLSA Record Format and Components Reference](/articles/tlsa-record-format/) - Technical reference for TLSA record format
 - [What Is DNSSEC?](/articles/what-is-dnssec/) - Learn about the DNS security extensions that DANE depends on
 - [Enable DNSSEC](/articles/enabling-dnssec/) - Step-by-step guide to enabling DNSSEC on your domain
-- [DNSSEC at DNSimple](/articles/dnssec/) - Comprehensive overview of DNSSEC features
+- [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/) - Comprehensive overview of DNSSEC features
 - [SSL/TLS Certificates](/categories/ssl-certificates/) - Learn about TLS certificates and how they work
 - [DNS Glossary](/articles/dns-glossary/) - Definitions of DNS-related terms
 

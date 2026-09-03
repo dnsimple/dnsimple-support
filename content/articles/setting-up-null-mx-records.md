@@ -174,7 +174,7 @@ After removing the null MX record, you can set up email forwarding or email host
 
 **Plan for future needs:** If there is any possibility you will need email in the future, do not use null MX records.
 
-## Related topics
+## Related topics {#related}
 
 - [What Are Null MX Records?](/articles/what-are-null-mx-records/) - Explanation of null MX records and their purpose
 - [What Is an MX Record?](/articles/mx-record/) - General information about MX records

@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# SRV Records
+# What Is an SRV Record?
 
 ### Table of Contents {#toc}
 

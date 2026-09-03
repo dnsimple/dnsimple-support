@@ -140,6 +140,7 @@ The certificate covers:
 - Internal articles: `/articles/article-slug/`
 - Developer docs: `https://developer.dnsimple.com/v2/...`
 - Product pages: `https://dnsimple.com/...`
+- Application pages: `https://app.dnsimple.com/...`
 - Link text should describe the destination: `[SSL certificate types](/articles/ssl-certificates-types/)` not `[click here](/articles/ssl-certificates-types/)`
 
 ### Images

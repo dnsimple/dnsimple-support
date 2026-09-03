@@ -115,7 +115,7 @@ In DNSimple's Record Editor, you would create this as:
 
 The single dot (`.`) represents the root of the DNS hierarchy and is the standard way to represent "no mail server" in DNS.
 
-## Related topics
+## Related topics {#related}
 
 - [Set Up Null MX Records](/articles/setting-up-null-mx-records/) - Step-by-step guide to configuring null MX records
 - [What Is an MX Record?](/articles/mx-record/) - General information about MX records

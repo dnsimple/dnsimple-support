@@ -6,7 +6,7 @@ categories:
 - Name Servers
 ---
 
-# Delegating a Domain registered with another Registrar to DNSimple
+# Delegate a Domain from Another Registrar to DNSimple
 
 ### Table of Contents {#toc}
 

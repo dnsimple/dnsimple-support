@@ -25,7 +25,7 @@ categories:
 
 Glue records are the IP addresses, stored as A or AAAA records, for authoritative name servers when those name server hostnames live inside the domain being delegated. For example, if example.com uses ns1.example.com as one of its name servers, the parent zone, often the TLD, must publish the IP address for ns1.example.com together with the NS delegation.
 
-Resolvers need those IP addresses so they can reach the authoritative name servers before querying the child zone. This prevents the lookup from circling back on itself. For general context on authoritative servers, see [What is a name server?](/articles/what-is-a-nameserver/).
+Resolvers need those IP addresses so they can reach the authoritative name servers before querying the child zone. This prevents the lookup from circling back on itself. For general context on authoritative servers, see [What is a Name Server?](/articles/what-is-a-nameserver/).
 
 ## The circular dependency problem {#circular-dependency}
 

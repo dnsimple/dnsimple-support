@@ -7,7 +7,7 @@ categories:
 - Emails
 ---
 
-# DMARC Records
+# What Is a DMARC Record?
 
 ### Table of Contents {#toc}
 

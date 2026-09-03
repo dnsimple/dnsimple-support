@@ -17,6 +17,8 @@ categories:
 
 Change your DNSimple subscription when you need features from a different plan. Compare options and estimate costs on the [pricing page](https://dnsimple.com/pricing).
 
+Changing your plan also sets the [DNS query allowance and rate](/articles/dns-query-limits/) on your subscription. Each plan includes a monthly allowance of queries per zone at no charge, and moving from Solo to Teams raises that allowance from 50,000 to 500,000 queries per zone and lowers the rate above it.
+
 For how proration appears on invoices, see [Understanding Your DNSimple Invoice](/articles/understanding-invoice/#proration).
 
 > [!NOTE]
@@ -26,7 +28,7 @@ For how proration appears on invoices, see [Understanding Your DNSimple Invoice]
 
 If you **upgrade** before your monthly renewal, the changes take effect and are billed immediately.
 
-You receive a prorated discount for unused time on your current subscription plan. This credit does not include extra items like email forwards or active zones, because these are pay-per-use features. These will be billed again as part of the plan change.
+You receive a prorated discount for unused time on your current subscription plan. This credit does not include extra items like email forwards, active zones, or [query volume](/articles/dns-query-limits/), because these are pay-per-use features. These will be billed again as part of the plan change.
 
 ## Downgrading your plan {#downgrading-your-plan}
 

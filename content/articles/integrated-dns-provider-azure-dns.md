@@ -7,7 +7,7 @@ categories:
 - Integrations
 ---
 
-# Azure DNS
+# Integrated DNS Provider Azure DNS
 
 ### Table of Contents {#toc}
 

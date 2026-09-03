@@ -78,10 +78,10 @@ Reference:
   Certificate Authorities:
     - "SSL Certificate Authorities Used by DNSimple"
   Capabilities and Limits:
-    - "Elliptic Curve Cryptography (ECC) SSL Certificates"
-    - "Extended Validation (EV) SSL Certificates"
+    - "Do You Support Elliptic Curve Cryptography (ECC) SSL Certificates?"
+    - "Do You Support Extended Validation (EV) SSL Certificates?"
     - "Do you support multi-year SSL certificates?"
-    - "Can I Upgrade to a Wildcard SSL Certificate?"
+    - "Can I Upgrade a Single-Hostname SSL Certificate to a Wildcard SSL Certificate?"
     - "SHA-2 SSL Certificates"
   Frequently Asked Questions:
     - "SSL Certificates Frequently Asked Questions"

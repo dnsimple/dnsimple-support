@@ -45,7 +45,7 @@ For streamlined management, you can transfer both your domain's registration and
 ### Register a new domain with DNSimple
 If you do not yet have a domain name, you can register a new domain directly through DNSimple. When you register a domain with us, you can manage your DNS by using DNSimple's name servers from day one, giving you immediate control over your DNS records.
 
-**How to proceed**: [Sign up or log in](https://dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
+**How to proceed**: [Sign up or log in](https://app.dnsimple.com/login) to your DNSimple account and proceed with the domain registration process.
 
 **Instructions**: For detailed steps, please refer to [Register a Domain](/articles/registering-domain/)
 

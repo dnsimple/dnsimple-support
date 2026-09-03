@@ -21,7 +21,7 @@ Subdomain delegation covers standard DNS resolution only. Publishing [DS records
 
 ## Confirm the domain uses DNSimple for DNS {#confirm-the-domain-uses-dnsimple-for-dns}
 
-Before you add NS records, the parent domain must be delegated to DNSimple. If the domain is registered with DNSimple, follow [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/). If the domain is registered elsewhere but uses DNSimple for DNS, follow [Delegating a Domain registered with another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/). If you are unsure which path applies, start from [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
+Before you add NS records, the parent domain must be delegated to DNSimple. If the domain is registered with DNSimple, follow [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/). If the domain is registered elsewhere but uses DNSimple for DNS, follow [Delegate a Domain from Another Registrar to DNSimple](/articles/delegating-dnsimple-hosted/). If you are unsure which path applies, start from [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/).
 
 ## Add NS records in DNSimple {#add-ns-records-in-dnsimple}
 

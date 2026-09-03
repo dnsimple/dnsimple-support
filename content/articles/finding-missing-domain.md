@@ -39,7 +39,7 @@ If you have [multiple DNSimple accounts](/articles/account-multi/) or created a 
 To check:
 
 1. Open the **account switcher** in the top-right corner of the dashboard and look at each account listed. The domain may be in an account you are not currently viewing.
-2. If you think you may have used a different email address, try logging in at [dnsimple.com/login](https://dnsimple.com/login) with that email. Use the [password reset](/articles/forgot-password/) flow if you do not remember the password.
+2. If you think you may have used a different email address, try logging in at [app.dnsimple.com/login](https://app.dnsimple.com/login) with that email. Use the [password reset](/articles/forgot-password/) flow if you do not remember the password.
 3. If you still cannot locate the domain, [contact support](https://dnsimple.com/feedback) with the domain name, and we can help you find which account it belongs to.
 
 ## Have more questions?

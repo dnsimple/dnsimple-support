@@ -15,7 +15,7 @@ categories:
 
 Vanity name servers (also called private name servers or custom name servers) are authoritative name server hostnames that use your own domain instead of your DNS provider's defaults. For example, you might publish `ns1.example.com` and `ns2.example.com` at the registry instead of hostnames such as `ns1.dnsimple.com`. Public lookups still show which servers are authoritative; only the hostnames change.
 
-For background on what authoritative name servers do in general, see [What is a name server?](/articles/what-is-a-nameserver/).
+For background on what authoritative name servers do in general, see [What is a Name Server?](/articles/what-is-a-nameserver/).
 
 ### Table of Contents {#toc}
 

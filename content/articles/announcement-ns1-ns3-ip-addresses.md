@@ -22,7 +22,7 @@ As part of our multi-year effort to modernize our DNS infrastructure and improve
 
 Following [the expansion of our cache edge infrastructure in 2024](https://blog.dnsimple.com/2024/10/expanding-cache-edge-network/) and the discontinuation of the legacy NS2 and NS4 IP addresses in June 2025, NS1 and NS3 are the final two name servers still pointing to the older infrastructure. The legacy IPs will be fully decommissioned on **July 6, 2026**.
 
-## What's changing
+## What's changing {#changing}
 
 The table below summarizes the IP addresses that will be deprecated, along with their replacements in the cache edge layer:
 
@@ -40,7 +40,7 @@ As part of this change, the canonical name server hostnames for NS1 and NS3 are 
 
 The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to resolve after the migration, but they will point to the new edge infrastructure.
 
-## Timeline
+## Timeline {#timeline}
 
 | Date                | Milestone                                                                                     |
 |---------------------|-----------------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ The legacy `ns1.dnsimple.com` and `ns3.dnsimple.com` hostnames will continue to 
 | **June 22, 2026**   | Cloudflare brownout #2 — legacy IPs temporarily stop answering to surface remaining traffic.  |
 | **July 6, 2026**    | **Legacy Cloudflare IPs fully decommissioned.** Any configuration still pointing at the old IPs will stop resolving. |
 
-## Am I impacted?
+## Am I impacted? {#impacted}
 
 There are three groups of customers affected by this migration, each with a different level of action required.
 
@@ -74,7 +74,7 @@ If you independently maintain a copy of your zone at another DNS provider (not t
 
 **You must self-migrate before July 6, 2026.** If you use vanity name servers (for example `ns1.yourdomain.com`), the glue records at your registrar currently point at the legacy Cloudflare IPs. We cannot update glue records on your behalf — only your registrar can do that. If you take no action, your domains will stop resolving when the legacy IPs are decommissioned.
 
-## How to verify if you're impacted
+## How to verify if you're impacted {#verify}
 
 If you use a vanity name server, you can check whether your glue records are still on the legacy IPs by running:
 
@@ -87,11 +87,11 @@ If the response contains `162.159.24.4` or `162.159.26.4` (or the matching IPv6 
 
 For non-vanity setups, you can check which name servers your domain uses at its registrar — if they reference `ns1.dnsimple.com` or `ns3.dnsimple.com`, you fall under Group 1 or Group 2 and no action is strictly required.
 
-## What about the brownouts?
+## What about the brownouts? {#brownouts}
 
 On **June 15, 2026** and **June 22, 2026** we will briefly pause answering queries on the legacy Cloudflare IPs. Any traffic still landing on the old infrastructure will temporarily fail, making it easy to identify configurations that still need attention. If you notice intermittent resolution failures on those dates, treat it as a strong signal that you still have glue records or delegations pointing at the legacy IPs and should complete your migration before July 15, 2026.
 
-## What you need to do
+## What you need to do {#what-to-do}
 
 - **Group 1 — registered with DNSimple:** No action required. We'll handle the migration between May 1 and May 29, 2026.
 - **Group 2 — hosted at DNSimple, registered elsewhere:** Optional but recommended: update your delegation at your registrar to `ns1.dnsimple-edge.com` and `ns3.dnsimple-edge.io` any time after May 1, 2026. Otherwise, you will be migrated transparently on June 26, 2026.
@@ -101,7 +101,7 @@ You can always refer to the latest list of official DNSimple name servers here:
 
 👉 [DNSimple Name Server Reference](/articles/dnsimple-nameservers/)
 
-## Questions or concerns?
+## Questions or concerns? {#questions}
 
 If you have any questions or need help with the transition, don't hesitate to [reach out to our support team](https://dnsimple.com/contact).
 

@@ -6,7 +6,7 @@ categories:
   - DNS
 ---
 
-# AAAA Records
+# What Is an AAAA Record?
 
 ### Table of Contents {#toc}
 
@@ -19,25 +19,25 @@ categories:
   <iframe loading="lazy" src="https://www.youtube.com/embed/4SGgO5MSQLg?si=I5Hu7dj7-uuwA-xs" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is an AAAA record?
+## What is an AAAA record? {#definition}
 
 An AAAA record (record type 28) does the same job as an [A record](/articles/a-record/), except it points to **IPv6 addresses** instead of IPv4. It connects a domain name like `api.example.com` to the **IPv6 address** of the server that hosts it.
 
 If you know how A records work, AAAA records are pretty similar. A records point to IPv4 addresses. AAAA records point to IPv6 addresses. Same concept, different address format.
 
-## IPv6 adoption and AAAA records
+## IPv6 adoption and AAAA records {#ipv6-adoption}
 
 We've been running out of IPv4 addresses for a while now. That's why more of the internet is moving to IPv6 (Internet Protocol Version 6). IPv6 gives us way more addresses to work with, plus some improvements to how the internet works.
 
 As more networks and devices support IPv6, AAAA records are getting more common. All of DNSimple's name servers have IPv6 addresses, so they can handle queries over IPv4 or IPv6. This dual-stack setup means they work with either protocol.
 
-## How AAAA records work
+## How AAAA records work {#how-aaaa-records-work}
 
 Here's what happens when your device tries to reach a domain. If your device and network support IPv6, the DNS resolver will look for an AAAA record first. If it finds one, the connection uses IPv6. If not, it falls back to checking for an A record and uses IPv4 instead.
 
 You don't have to pick one or the other. You can set up both A and AAAA records on the same domain. That way, clients can connect using whichever protocol they support.
 
-## Common uses for AAAA records
+## Common uses for AAAA records {#common-uses}
 
 AAAA records work just like A records, but for IPv6:
 
@@ -51,7 +51,7 @@ AAAA records work just like A records, but for IPv6:
 
 The technical details are in [RFC 3596, Section 2.1](https://datatracker.ietf.org/doc/html/rfc3596#section-2.1) if you want to dig into the specification.
 
-## Managing AAAA records in DNSimple
+## Managing AAAA records in DNSimple {#managing}
 
 You can manage AAAA records using DNSimple's [record editor](/articles/record-editor/). Add new ones, remove old ones, or update IPv6 addresses as needed.
 

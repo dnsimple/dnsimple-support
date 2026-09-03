@@ -10,7 +10,7 @@ categories:
 
 This document serves as a reference for the structure and underlying technical implementation of DNSimple's proprietary [URL record type](/articles/url-record/). This record type facilitates web (HTTP/HTTPS) redirects directly through DNSimple's services.
 
-## URL record format
+## URL record format {#format}
 
 The URL record is a special record type developed by DNSimple and is **not defined by any standard RFC**. Its functionality is proprietary to DNSimple's name servers and redirector service.
 
@@ -22,7 +22,7 @@ In DNSimple's record editor, the URL record is represented by the following conf
 | TTL | The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a DNS resolver.| An unsigned 32-bit integer. Standard DNS TTL values apply. |
 | URL | The full destination URL to which the source hostname should redirect.|Must be a valid, complete URL including the scheme (e.g., `https://www.example.com/new-page`). |
 
-## Technical implementation: how DNSimple exposes URL records
+## Technical implementation: how DNSimple exposes URL records {#implementation}
 
 You configure a URL record in the DNSimple interface, and DNSimple handles its technical implementation at the DNS level. The URL record itself does not exist as a standard DNS record type that is directly served to clients.
 

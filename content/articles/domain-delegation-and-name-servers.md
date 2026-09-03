@@ -27,7 +27,7 @@ For a fuller description of the delegation chain, see [What Is Domain Delegation
 
 In everyday language, people say **name servers** when they talk about delegation because delegation lists **hostnames** (for example `ns1.dnsimple-edge.com`) that must answer DNS for your domain. Changing delegation usually means **changing which name server hostnames are listed at the registrar** for your domain.
 
-Authoritative name servers host your zone file (your A, MX, CNAME, and other records). For vocabulary and resolver basics, see [What is a name server?](/articles/what-is-a-nameserver/).
+Authoritative name servers host your zone file (your A, MX, CNAME, and other records). For vocabulary and resolver basics, see [What is a Name Server?](/articles/what-is-a-nameserver/).
 
 ## Common terms customers use {#common-terms}
 
@@ -82,7 +82,7 @@ If something still fails after delegation looks correct, propagation and caching
 | Situation | Start here |
 |-----------|------------|
 | Domain is registered **elsewhere** and you want DNS hosted **by DNSimple** | [Pointing a Domain to DNSimple](/articles/pointing-domain-to-dnsimple/) |
-| Domain is registered **with DNSimple** and you want DNS hosted **by DNSimple** | [Delegating a Domain registered with DNSimple to DNSimple](/articles/delegating-dnsimple-registered/) |
+| Domain is registered **with DNSimple** and you want DNS hosted **by DNSimple** | [Delegate a DNSimple-Registered Domain to DNSimple Name Servers](/articles/delegating-dnsimple-registered/) |
 | Domain is registered **with DNSimple** and you want DNS hosted **by another provider** | [Setting the Name Servers for a Domain](/articles/setting-name-servers/) |
 | You need to delegate **only a subdomain** (child zone) | [Adding NS Records for a Subdomain](/articles/add-ns-records-for-subdomain/) |
 | Name servers use names **under your own domain** (for example `ns1.example.com` for `example.com`) and you need glue context | [What Are Glue Records?](/articles/what-are-glue-records/) |

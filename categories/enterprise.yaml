@@ -6,8 +6,10 @@
 
 Security:
   - "Domain Access Control"
+  - "What is Domain Access Control?"
   - "Multi-Account Management for Enterprise Clients"
   - "Multi-Factor Authentication"
+  - "What is SSO at DNSimple"
   - "Enforce Account-Wide Multi-Factor Authentication"
   - "Entra as an Identity Provider"
   - "Okta as an Identity Provider"

@@ -11,15 +11,15 @@ categories:
 
 To enable DNSSEC in DNSimple, open the DNSSEC tab for your domain and follow the configuration wizard. DNSimple signs the zone automatically and, for domains registered with DNSimple, provisions the DS record at the registry with no additional steps required.
 
-If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/).
+If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/) to understand what DNSSEC is and how it works. For a comprehensive overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 - The DNS resolution service must be enabled for your zone.
 - DNSimple as Secondary DNS cannot be enabled on the zone. You can read more about it in our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 - DNSSEC is applied to the whole zone, with signing keys published at the domain apex. DS records for [subdomains delegated with NS records](/articles/add-ns-records-for-subdomain/) (zone cuts) are not supported. See [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/).
 
-## Enable DNSSEC
+## Enable DNSSEC {#enable}
 1. Use the **account switcher** at the top of the page to select the appropriate account.
   ![screenshot of switching accounts](/files/switch-account.png)
 1. In your **Domain Names** list, click the name of the domain you want to enable DNSSEC on.
@@ -33,7 +33,7 @@ If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/
 > [!NOTE]
 > To see how to enable DNSSEC with the API, check out our [developer documentation](https://developer.dnsimple.com/v2/domains/dnssec/#enableDomainDnssec).
 
-## What Happens Next?
+## What Happens Next? {#next}
 **If the domain is registered with DNSimple:**
 - The zone will be signed automatically.
 - The DS record will be provisioned directly at the registry. No additional action is needed.
@@ -42,7 +42,7 @@ If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/
 - The zone will be signed automatically.
 - You'll receive an email with instructions to provision the DS record with your domain's registrar. This information will also be available on the **DNSSEC** tab during the setup process.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If you encounter issues after enabling DNSSEC, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance on diagnosing and resolving common DNSSEC problems.
 

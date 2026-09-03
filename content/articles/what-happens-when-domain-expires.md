@@ -17,7 +17,7 @@ categories:
 
 When a domain expires it becomes inactive immediately and all the services attached to it cease to function. You can't make any updates to the domain while it is expired. The domain will remain available for reactivation at your regular domain rate under your list of Expired Domains.
 
-## Why domains expire
+## Why domains expire {#why}
 
 Domain registrations are time-limited contracts between you and the domain registry. When the registration period ends, the domain expires unless it has been renewed. This expiration mechanism ensures that abandoned or unused domains can eventually return to the available pool for others to register. The expiration process also protects registrants by providing recovery periods before a domain is permanently released.
 
@@ -26,7 +26,7 @@ To reactivate an expired domain, take a look at our [article on how to renew a d
 > [!WARNING]
 > Certain domain names are [auto-renew only](/articles/domain-auto-renewal/) and cannot be renewed manually. For these domains there is no grace period. Once they've expired it's not possible to recover them.
 
-## ICANN TLDs
+## ICANN TLDs {#icann-tlds}
 
 ### Grace period
 
@@ -65,7 +65,7 @@ To reactivate a domain in redemption status, please take a look at our [article 
 
 The deletion period is the final stage before a domain is permanently released. This period allows registries to process the deletion and update their systems. Once a domain enters this period, there is no way to recover it, even by the original registrant. After deletion, the domain becomes available for registration by anyone, and there is no guarantee that the previous owner will be able to register it again.
 
-## Non-ICANN TLDs
+## Non-ICANN TLDs {#non-icann-tlds}
 
 TLDs outside ICANN regulations, such as `.UK`, `.IO`, `.SH`, etc. may not follow the rules mentioned above. They may or may not provide a grace period and a redemption period. If they do, the length of the period may be different.
 

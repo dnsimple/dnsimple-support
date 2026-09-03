@@ -24,7 +24,7 @@ Recursive resolvers sit close to clients (for example your router, your ISP, `8.
 
 ## Authoritative name servers {#authoritative-name-servers}
 
-Authoritative servers are the ones listed in delegation for your domain (for example [DNSimple name servers](/articles/dnsimple-nameservers/) after you [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/)). They return the source-of-truth RRsets for your zone. For a fuller introduction, see [What is a name server?](/articles/what-is-a-nameserver/) and [What Is DNS?](/articles/what-is-dns/).
+Authoritative servers are the ones listed in delegation for your domain (for example [DNSimple name servers](/articles/dnsimple-nameservers/) after you [point the domain to DNSimple](/articles/pointing-domain-to-dnsimple/)). They return the source-of-truth RRsets for your zone. For a fuller introduction, see [What is a Name Server?](/articles/what-is-a-nameserver/) and [What Is DNS?](/articles/what-is-dns/).
 
 ## How they work together {#how-they-work-together}
 

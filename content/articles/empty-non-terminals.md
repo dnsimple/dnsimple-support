@@ -6,7 +6,7 @@ categories:
 - DNS
 ---
 
-# Empty Non-Terminals
+# What Are Empty Non-Terminals (ENT)?
 
 ### Table of Contents {#toc}
 

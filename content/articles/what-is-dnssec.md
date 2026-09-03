@@ -7,13 +7,13 @@ categories:
   - Enterprise
 ---
 
-# What Is DNSSEC?
+# What Is DNSSEC and How Does It Work?
 
 <div class="aspect-ratio aspect-ratio--16x9 z-0 mb4">
   <iframe loading="lazy" src="https://www.youtube.com/embed/7JWpgka8zBQ" class="aspect-ratio--object" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## The meaning of DNSSEC
+## The meaning of DNSSEC {#meaning}
 
 DNSSEC stands for Domain Name System Security Extensions. It's part of DNS security best practices, because it adds a layer of security to DNS by allowing DNS records to be digitally signed. This helps ensure that the responses users receive from a DNS lookup are authentic and haven't been tampered with along the way.
 
@@ -21,13 +21,13 @@ Without DNSSEC, attackers can exploit vulnerabilities in DNS to redirect users t
 
 Want to learn about DNSSEC from a taco? Check out our [DNSSEC comic](https://howdnssec.works) for a fun explanation, and get answers to your burning questions on what DNS security is and how DNSSEC helps ensure DNS protection. 
 
-## Why DNSSEC is a good DNS security tool
+## Why DNSSEC is a good DNS security tool {#why}
 
 Although DNS is a fundamental part of the Internet's infrastructure, it lacks built-in security to verify that the information it returns is authentic or unchanged. This makes it possible for attackers to manipulate DNS responses and redirect users without them ever knowing.
 
 DNSSEC addresses this by allowing resolvers to validate the origin of DNS data. It ensures that what you receive genuinely comes from the correct source and hasn't been altered in transit. If you want to use secure DNS, we recommend [enabling DNSSEC](/articles/enabling-dnssec/).
 
-## How does DNSSEC work?
+## How does DNSSEC work? {#how-it-works}
 
 When DNSSEC is enabled for a domain, it adds an extra layer of information to DNS responses, allowing resolvers to verify that each answer is authentic. To learn more about the concepts mentioned here, see [The DNSSEC Chain of Trust](/articles/dnssec-chain-of-trust/).
 
@@ -50,9 +50,9 @@ DNSSEC is not outdated. The protocol is actively maintained by the IETF, with [R
 
 If your domain's TLD supports DNSSEC, enabling it is a recommended security best practice. DNSSEC protects your visitors from being redirected to malicious sites through DNS tampering. At DNSimple, enabling DNSSEC is straightforward - see [Enable DNSSEC](/articles/enabling-dnssec/) for step-by-step instructions. Before enabling, review [DNSSEC Compatibility With Other DNSimple Features](/articles/dnssec-compatibility/) to confirm your setup is compatible.
 
-## Learn more about DNSSEC
+## Learn more about DNSSEC {#learn-more}
 
-For a comprehensive overview of DNSSEC at DNSimple, see [DNSSEC at DNSimple](/articles/dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/).
+For a comprehensive overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/). To explore DNSSEC terms and definitions, check out our [DNSSEC Glossary](/articles/dnssec-glossary/).
 
 ## Have more questions?
 If you have any questions about DNSSEC and how it works to keep your DNS secure, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
