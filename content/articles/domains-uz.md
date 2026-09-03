@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .UZ Domain Names
+# .UZ Domains
 
 * TOC
 {:toc}

@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .FI Domain Names
+# .FI Domains
 
 * TOC
 {:toc}

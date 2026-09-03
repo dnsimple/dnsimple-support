@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .CH Domain Names
+# .CH Domains
 
 * TOC
 {:toc}

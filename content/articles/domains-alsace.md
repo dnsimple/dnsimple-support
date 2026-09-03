@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .ALSACE Domain Names
+# .ALSACE Domains
 
 * TOC
 {:toc}

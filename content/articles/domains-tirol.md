@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .TIROL Domain Names
+# .TIROL Domains
 
 * TOC
 {:toc}

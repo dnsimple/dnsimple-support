@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .GAY Domain Names
+# .GAY Domains
 
 * TOC
 {:toc}

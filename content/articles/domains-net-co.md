@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .NET.CO Domain Names
+# .NET.CO Domains
 
 * TOC
 {:toc}

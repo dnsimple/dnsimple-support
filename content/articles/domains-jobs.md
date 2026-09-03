@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .JOBS Domain Names
+# .JOBS Domains
 
 * TOC
 {:toc}

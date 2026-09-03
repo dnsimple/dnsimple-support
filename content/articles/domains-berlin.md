@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .BERLIN Domain Names
+# .BERLIN Domains
 
 * TOC
 {:toc}

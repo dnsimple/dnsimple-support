@@ -5,7 +5,7 @@ categories:
 - TLDs
 ---
 
-# .COM.BR Domain Names
+# .COM.BR Domains
 
 * TOC
 {:toc}

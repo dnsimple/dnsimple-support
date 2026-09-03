@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .NL Domain Names
+# .NL Domains
 
 * TOC
 {:toc}

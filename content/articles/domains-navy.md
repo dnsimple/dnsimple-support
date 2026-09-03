@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .NAVY Domain Names
+# .NAVY Domains
 
 * TOC
 {:toc}

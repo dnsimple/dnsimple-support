@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .IO Domain Names
+# .IO Domains
 
 * TOC
 {:toc}

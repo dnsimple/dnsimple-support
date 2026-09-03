@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .ES Domain Names
+# .ES Domains
 
 * TOC
 {:toc} 

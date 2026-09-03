@@ -6,7 +6,7 @@ categories:
 - TLDs
 ---
 
-# .DE Domain Names
+# .DE Domains
 
 ### Table of Contents {#toc}
 
