@@ -71,7 +71,7 @@ Account name server sets are private to an account and can contain custom name s
 
     ![Name server sets on Account page](/files/name-server-sets-from-account.png)
 
-1. Search for the name server set you want to update, and click on the _pencil_ icon to update it.
+1. Search for the name server set you want to update, click the <label>...</label> menu at the end of its row, then select <label>Edit</label>.
 
     ![Editing a name server set](/files/name-server-sets-edit.png)
 
@@ -90,7 +90,7 @@ Account name server sets are private to an account and can contain custom name s
 
     ![Name server sets on Account page](/files/name-server-sets-from-account.png)
 
-1. Search for the name server set you want to delete, and click on the _trash_ icon to delete it.
+1. Search for the name server set you want to delete, click the <label>...</label> menu at the end of its row, then select <label>Delete</label>.
 
     ![Deleting a name server set](/files/name-server-sets-delete.png)
 

@@ -92,7 +92,7 @@ This retains the zone and its records at both DNSimple and at the Integrated DNS
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Inside the **DNS Zone Providers** card, click **Remove** on the relevant Integrated DNS Provider.
+1.  Inside the **DNS Zone Providers** card, click the **...** menu at the end of the relevant Integrated DNS Provider's row, then select **Remove**.
 
     ![Remove integrated zone](/files/dns-zone-providers-remove.png)
 
@@ -115,7 +115,7 @@ If you imported a zone into DNSimple from an Integrated Provider, you can use th
 
     ![Domain DNS tab link](/files/domain-tab-dns-link.png)
 
-1.  Inside the **DNS Zone Providers** card, click **Delete** on the relevant integrated DNS Provider.
+1.  Inside the **DNS Zone Providers** card, click the **...** menu at the end of the relevant Integrated DNS Provider's row, then select **Delete**.
 
     ![Deleting a Zone from the DNS Zone Providers card](/files/dns-zone-providers-delete.png)
 

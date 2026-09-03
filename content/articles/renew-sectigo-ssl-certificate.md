@@ -33,11 +33,11 @@ We encourage you to plan the renewal of your certificate to occur at least one w
 1.  Log into DNSimple with your user credentials.
 1.  If you have more than one account, select the relevant one.
 1.  On the header click the <label>Domains</label> tab, locate the relevant domain, and click on the name to access the domain page.
-1.  Scroll down to the <label>SSL certificates</label> section, and find the active SSL certificate. Click <label>Renew</label> to start the renewal.
+1.  Scroll down to the <label>SSL certificates</label> section. In the expiring certificates list, click the <label>...</label> menu at the end of the certificate's row, then select <label>Renew</label>.
 
     ![Renewing a Certificate](/files/certificates-renew-action.png)
 
-    If you do not see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
+    If you do not see <label>Renew</label> in the menu, the certificate is either expired or not in a state that allows a renewal.
 
 1.  Follow the instructions to purchase the certificate renewal.
 

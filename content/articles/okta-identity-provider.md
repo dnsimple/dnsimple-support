@@ -119,12 +119,12 @@ If you log out of Okta, you will also be logged out of DNSimple.
 ## Unlinking an Okta organization from a DNSimple account {#unlinking-okta-organization}
 
 1. Go to the **Account** page, and click the **Single Sign-On** tab.
-1. Click **Revoke** next to the SSO workspace you want to remove.
+1. Click the **...** menu at the end of the SSO workspace's row, then select **Revoke**.
 
 ## Unlinking a DNSimple user from an Okta identity {#unlinking-okta-user}
 
 1. Go to the **User Settings** page.
-1. In the Identities card, click **Remove** next to the linked identity.
+1. In the Identities card, click the **...** menu at the end of the identity's row, then select **Revoke**.
 
 ## Have more questions?
 

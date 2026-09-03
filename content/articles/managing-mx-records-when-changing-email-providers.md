@@ -61,7 +61,7 @@ Before changing email providers:
 1. Click on your domain name from the <label>Domain Names</label> list.
 1. Click the <label>DNS</label> tab.
 1. Open the <label>Record Editor</label>.
-1. Find all existing MX records and delete each one (click the delete/trash icon and confirm).
+1. Find all existing MX records and delete each one (click the <label>...</label> menu at the end of the row, select <label>Delete</label>, and confirm).
 1. Click <label>Add record</label> and select **MX**.
 1. Leave the <label>Name</label> field blank (or enter `@`) for the root domain.
 1. Enter the priority value from your new provider.

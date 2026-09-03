@@ -25,7 +25,7 @@ The instructions in this article assume you are familiar with the [A record form
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. In the record editor, click **Add record**, and select **A** from the dropdown menu to add a new A record.
     ![screenshot: select A record from record type](/files/select-a-record.png)
 
@@ -61,9 +61,9 @@ The instructions in this article assume you are familiar with the [A record form
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the A record you want to update in the list.
-1. Click the **edit icon** on the right side.
+1. Click the **...** menu at the end of the record row, then select **Edit**.
   ![screenshot: edit an A record](/files/a-record-edit.png)
 1. Update the information, and click <label>Update Record</label> to save the record.
 </div>
@@ -75,9 +75,9 @@ The instructions in this article assume you are familiar with the [A record form
 
 1. Use the **account switcher** at the top right corner of the page to select the appropriate account.
 1. From the **Domain Names** list, click the domain you want to manage.
-1. On the domain page, click **Edit DNS** at the top-right to open the **Record Editor**.
+1. On the domain page, click **Record editor** at the top-right.
 1. Locate the A record you want to remove in the list
-1. Click the **trash icon** on the right side to delete it.
+1. Click the **...** menu at the end of the record row, then select **Delete**.
   ![screenshot: delete A record](/files/a-record-delete.png)
 1. Confirm the dialog to delete the record.
 </div>

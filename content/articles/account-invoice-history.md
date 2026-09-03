@@ -80,7 +80,7 @@ While our system occasionally retries failed invoices automatically, you may wan
 
 1. Access your [account's invoice history](#viewing).
 1. Locate failed invoices in your history, highlighted in red.
-1. Click the **retry** button on your failed invoice.
+1. Click the **...** menu at the end of the invoice row, then select **Retry**.
 
     ![Retry Button](/files/account-billing-retry-button.png)
 </div>
