@@ -16,7 +16,6 @@
 - [ ] Existing articles updated to link back (if applicable)
 - [ ] No smart/curly quotes or special characters from macOS
 - [ ] Callouts use correct types: `[!NOTE]`, `[!TIP]`, or `[!WARNING]`
-- [ ] Tested locally with `rake run`
 
 ## Review
 
