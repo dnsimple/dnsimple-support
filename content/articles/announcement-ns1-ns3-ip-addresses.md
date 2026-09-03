@@ -87,7 +87,7 @@ dig +short ns1.yourdomain.com
 dig +short ns3.yourdomain.com
 ```
 
-If the response contains `162.159.24.4` or `162.159.26.4` (or the matching IPv6 addresses), the host is no longer resolving and you need to update your configuration to the replacement IPs.
+If the query returns `162.159.24.4` or `162.159.26.4` (or the matching IPv6 addresses), or fails to return an answer at all, the glue records still point at the retired IPs. Update them at your registrar to the replacement IPs listed above; `whois yourdomain.com` shows the name server addresses the registry currently publishes.
 
 For non-vanity setups, you can check which name servers your domain uses at its registrar. If they reference `ns1.dnsimple.com` or `ns3.dnsimple.com`, they now resolve to the new edge infrastructure and no action is required.
 
