@@ -32,9 +32,6 @@ When it does, DNSimple emails the account's domain notification recipients with 
 
 Reply to the notice, or [contact us](https://dnsimple.com/feedback), and we complete the verification with the registry for you.
 
-> [!NOTE]
-> Each affected domain gets its own notice, so a registrant with several .SE domains hears from us about each one.
-
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .SE domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
