@@ -1,5 +1,4 @@
 ---
-meta: Set Up Your First Zone and Delegate Zones to DNSimple
 title: Set Up Your First Zone and Delegate Zones to DNSimple
 excerpt: A guide for setting up your first zone with DNSimple
 meta: Learn how to set up your first DNS zone and delegate it to DNSimple effectively. Follow our step-by-step guide for seamless DNS management.
@@ -8,7 +7,7 @@ categories:
 - Guides
 ---
 
-# Guide: Set Up Your First Zone and Delegate Zones to DNSimple
+# Set Up Your First Zone and Delegate Zones to DNSimple
 
 ### Table of Contents {#toc}
 

@@ -7,7 +7,7 @@ categories:
 - Guides
 ---
 
-# Guide: A Quick Tour of Your Dashboard and Domain List
+# First Steps With Your DNSimple Account
 
 Your dashboard and Domain List let you manage all of your domains across your accounts.
 
