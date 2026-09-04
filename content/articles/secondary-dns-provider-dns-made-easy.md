@@ -1,6 +1,7 @@
 ---
 title: Add DNSMadeEasy as a secondary DNS server
 excerpt: Secondary DNS can be complicated to set up. We simplify it with provider specific settings for DNSMadeEasy.
+meta: Configure DNSMadeEasy as a secondary DNS provider for a DNSimple-hosted zone using the provider-specific secondary DNS settings.
 categories:
 - Secondary DNS
 - Enterprise

@@ -1,6 +1,7 @@
 ---
 title: Product Expiration Notification
 excerpt: The Product Expiration email contains a list of products expiring within two months, grouped by expiration range.
+meta: DNSimple Product Expiration emails list domains, certificates, and WHOIS privacy products expiring within two months, grouped by expiration range.
 categories:
 - DNSimple
 ---
