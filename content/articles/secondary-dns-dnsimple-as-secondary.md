@@ -88,9 +88,9 @@ Example of what the set of NS records may look like:
 - `NS example.com ns1.primary.com`
 - `NS example.com ns2.primary.com`
 - `NS example.com ns3.primary.com`
-- `NS example.com ns1.dnsimple.com`
+- `NS example.com ns1.dnsimple-edge.com`
 - `NS example.com ns2.dnsimple-edge.net`
-- `NS example.com ns3.dnsimple.com`
+- `NS example.com ns3.dnsimple-edge.io`
 
 ### 2. Delegate the domain through both DNS providers at your domain's registrar
 
@@ -102,8 +102,8 @@ Example of what the name servers may look like:
 - `ns1.primary.com`
 - `ns2.primary.com`
 - `ns3.primary.com`
-- `ns1.dnsimple.com`
+- `ns1.dnsimple-edge.com`
 - `ns2.dnsimple-edge.net`
-- `ns3.dnsimple.com`
+- `ns3.dnsimple-edge.io`
 
 

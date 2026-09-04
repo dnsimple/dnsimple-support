@@ -127,19 +127,19 @@ In this zone:
 **Query results:**
 
 ```
-$ dig @ns1.dnsimple.com network.example.com A +short
+$ dig @ns1.dnsimple-edge.com network.example.com A +short
 (empty - ENT, no records returned)
 
-$ dig @ns1.dnsimple.com retails.network.example.com A +short
+$ dig @ns1.dnsimple-edge.com retails.network.example.com A +short
 (empty - ENT, no records returned)
 
-$ dig @ns1.dnsimple.com srv1.retails.network.example.com A +short
+$ dig @ns1.dnsimple-edge.com srv1.retails.network.example.com A +short
 192.168.1.10
 
-$ dig @ns1.dnsimple.com eu.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com eu.prod.example.com A +short
 192.168.0.21
 
-$ dig @ns1.dnsimple.com app.eu.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com app.eu.prod.example.com A +short
 192.168.0.22
 ```
 
@@ -162,9 +162,9 @@ This is known as a `NODATA` response. It indicates that the domain name exists b
 Using our zone example, let us query the ENT `network.example.com`:
 
 ```
-$ dig @ns1.dnsimple.com network.example.com A
+$ dig @ns1.dnsimple-edge.com network.example.com A
 
-; <<>> DiG 9.10.6 <<>> @ns1.dnsimple.com network.example.com A
+; <<>> DiG 9.10.6 <<>> @ns1.dnsimple-edge.com network.example.com A
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12345
@@ -174,10 +174,10 @@ $ dig @ns1.dnsimple.com network.example.com A
 ;network.example.com.       IN  A
 
 ;; AUTHORITY SECTION:
-example.com.        3600    IN  SOA ns1.dnsimple.com. admin.dnsimple.com. ...
+example.com.        3600    IN  SOA ns1.dnsimple-edge.com. admin.dnsimple.com. ...
 
 ;; Query time: 45 msec
-;; SERVER: 198.241.10.53#53(198.241.10.53)
+;; SERVER: 199.247.152.53#53(199.247.152.53)
 ```
 
 Notice the key indicators:
@@ -221,7 +221,7 @@ graph TD
 With only this wildcard record, querying `us.prod.example.com` returns:
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 192.168.0.11
 ```
 
@@ -260,7 +260,7 @@ Let us compare the queries.
 **Querying `fr.prod.example.com` (non-existent name, wildcard matches):**
 
 ```
-$ dig @ns1.dnsimple.com fr.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com fr.prod.example.com A +short
 192.168.0.11
 ```
 
@@ -269,9 +269,9 @@ The wildcard `*.prod.example.com` matches because `fr.prod.example.com` does not
 **Querying `us.prod.example.com` (ENT, wildcard blocked):**
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A
 
-; <<>> DiG 9.10.6 <<>> @ns1.dnsimple.com us.prod.example.com A
+; <<>> DiG 9.10.6 <<>> @ns1.dnsimple-edge.com us.prod.example.com A
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54321
@@ -281,10 +281,10 @@ $ dig @ns1.dnsimple.com us.prod.example.com A
 ;us.prod.example.com.       IN  A
 
 ;; AUTHORITY SECTION:
-example.com.        3600    IN  SOA ns1.dnsimple.com. admin.dnsimple.com. ...
+example.com.        3600    IN  SOA ns1.dnsimple-edge.com. admin.dnsimple.com. ...
 
 ;; Query time: 42 msec
-;; SERVER: 198.241.10.53#53(198.241.10.53)
+;; SERVER: 199.247.152.53#53(199.247.152.53)
 ```
 
 Even though `us.prod.example.com` falls within the wildcard's scope, it returns empty. According to RFC 4592, the wildcard at `*.prod.example.com` does **not** apply here because the name `us.prod.example.com` now exists (as an ENT). Wildcards only match names that do not exist, not ENTs.
@@ -324,7 +324,7 @@ This single TXT record creates **multiple Empty Non-Terminals** in the path:
 Now, querying `us.prod.example.com` returns an empty response:
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 (empty)
 ```
 
@@ -333,13 +333,13 @@ The wildcard no longer matches because `us.prod.example.com` now exists as an EN
 **Before the ACME challenge record:**
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 1.2.3.4
 
-$ dig @ns1.dnsimple.com app.us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com app.us.prod.example.com A +short
 1.2.3.4
 
-$ dig @ns1.dnsimple.com anything.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com anything.prod.example.com A +short
 1.2.3.4
 ```
 
@@ -348,13 +348,13 @@ All names match the wildcard because none of them exist.
 **After the ACME challenge record:**
 
 ```
-$ dig @ns1.dnsimple.com us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com us.prod.example.com A +short
 (empty - now an ENT)
 
-$ dig @ns1.dnsimple.com app.us.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com app.us.prod.example.com A +short
 (empty - now an ENT)
 
-$ dig @ns1.dnsimple.com anything.prod.example.com A +short
+$ dig @ns1.dnsimple-edge.com anything.prod.example.com A +short
 1.2.3.4
 ```
 

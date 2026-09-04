@@ -19,7 +19,7 @@ The canonical representation is:
 AAAA <address>
 ```
 
-where `<address>` is an IPv6 address and looks like `2400:cb00:2049:1::a29f:1804`.
+where `<address>` is an IPv6 address and looks like `2001:db8::1`.
 
 For a broader explanation of what AAAA records are and how they work, see [What Is an AAAA Record](/articles/aaaa-record/)?
 

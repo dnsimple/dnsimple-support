@@ -24,7 +24,7 @@ When your domain is actively resolving using DNSimple's name servers, the system
 
 ### Four NS (Name Server) records
 
-- **Purpose:** These NS records explicitly identify DNSimple's authoritative name servers (e.g., `ns1.dnsimple.com`, `ns2.dnsimple-edge.net`, etc.) as the source of truth for your domain's DNS information. They are the records that the Top-Level Domain (TLD) registry points to, effectively delegating authority for your domain to DNSimple.
+- **Purpose:** These NS records explicitly identify DNSimple's authoritative name servers (e.g., `ns1.dnsimple-edge.com`, `ns2.dnsimple-edge.net`, etc.) as the source of truth for your domain's DNS information. They are the records that the Top-Level Domain (TLD) registry points to, effectively delegating authority for your domain to DNSimple.
 - **Why they're necessary:** These records are the backbone of DNS delegation. They tell the entire internet where to go to find all other records for your domain. If these were missing or incorrect, your domain would not resolve.
 - **Learn more:** [What Is an NS Record?](/articles/ns-record/)
 

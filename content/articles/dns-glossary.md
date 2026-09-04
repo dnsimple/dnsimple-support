@@ -187,7 +187,7 @@ Learn more:
 
 NS (Name Server) records identify the authoritative name servers for a domain or subdomain. NS records are crucial for delegating control of a DNS zone to specific servers. 
 
-*Example: `example.com. IN NS ns1.dnsimple.com.`* 
+*Example: `example.com. IN NS ns1.dnsimple-edge.com.`* 
 
 Learn more: 
 
@@ -209,7 +209,7 @@ Learn more:
 
 SOA (Start Of Authority) records provide essential administrative information about a DNS zone, including the primary name server, the email address of the domain administrator, the zone's serial number (indicating when the zone file was last updated), and various timers for refresh, retry, and expiry. Every zone file must have one SOA record. 
 
-*Example: `example.com. IN SOA ns1.dnsimple.com. hostmaster.example.com. ( 2025071101 7200 3600 1209600 3600 )`* 
+*Example: `example.com. IN SOA ns1.dnsimple-edge.com. hostmaster.example.com. ( 2025071101 7200 3600 1209600 3600 )`* 
 
 Learn more: 
 

@@ -54,9 +54,9 @@ What else can you do with `dig`? The first example uses the name servers configu
 You can also specify a name server:
 
 ```
-$ dig @ns1.dnsimple.com dnsimple.com
+$ dig @ns1.dnsimple-edge.com dnsimple.com
 
-; <<>> DiG 9.8.3-P1 <<>> @ns1.dnsimple.com dnsimple.com
+; <<>> DiG 9.8.3-P1 <<>> @ns1.dnsimple-edge.com dnsimple.com
 ; (1 server found)
 ;; global options: +cmd
 ;; Got answer:
@@ -71,7 +71,7 @@ $ dig @ns1.dnsimple.com dnsimple.com
 dnsimple.com.		60	IN	A	50.31.213.210
 
 ;; Query time: 145 msec
-;; SERVER: 198.241.10.53#53(198.241.10.53)
+;; SERVER: 199.247.152.53#53(199.247.152.53)
 ;; WHEN: Tue Feb  3 11:28:02 2015
 ;; MSG SIZE  rcvd: 46
 ```
@@ -115,21 +115,21 @@ com.			172800	IN	NS	h.gtld-servers.net.
 com.			172800	IN	NS	g.gtld-servers.net.
 ;; Received 490 bytes from 192.112.36.4#53(192.112.36.4) in 1849 ms
 
-dnsimple.com.		172800	IN	NS	ns1.dnsimple.com.
+dnsimple.com.		172800	IN	NS	ns1.dnsimple-edge.com.
 dnsimple.com.		172800	IN	NS	ns2.dnsimple-edge.net.
-dnsimple.com.		172800	IN	NS	ns3.dnsimple.com.
+dnsimple.com.		172800	IN	NS	ns3.dnsimple-edge.io.
 dnsimple.com.		172800	IN	NS	ns4.dnsimple-edge.org.
 ;; Received 278 bytes from 192.55.83.30#53(192.55.83.30) in 306 ms
 
 dnsimple.com.		60	IN	A	50.31.213.210
-;; Received 46 bytes from 50.31.242.53#53(50.31.242.53) in 55 ms
+;; Received 46 bytes from 199.247.154.53#53(199.247.154.53) in 55 ms
 ```
 
 With `+trace` enabled, you can see the entire delegation tree.
 
 - First you receive a list of NS records showing the next name server set to query from the server `8.8.8.8`. One of the NS records is chosen randomly (in this case it was `192.112.36.4`, which is `g.root-servers.net`. That server is queried and responds with a list of servers that respond for `.com.` domains.
 
-- `dig` then queries `192.55.83.30` (`m.gtld-servers.net.`), and that name server responds with the `ns1.dnsimple.com` through `ns4.dnsimple.com` name servers. One of those is selected at random (`50.31.242.53` which is `ns3.dnsimple.com`). That name server finally returns the authoritative response and the IP address for the A record.
+- `dig` then queries `192.55.83.30` (`m.gtld-servers.net.`), and that name server responds with the `ns1.dnsimple-edge.com` through `ns4.dnsimple-edge.org` name servers. One of those is selected at random (`199.247.154.53` which is `ns3.dnsimple-edge.io`). That name server finally returns the authoritative response and the IP address for the A record.
 
 ## Additional common lookups {#additional-common-lookups}
 
@@ -138,9 +138,9 @@ With `+trace` enabled, you can see the entire delegation tree.
 You can use `dig` to determine the AAAA record associated with a domain name. The result is contained in the ANSWER section. It contains the fully-qualified domain name (FQDN), the remaining time-to-live (TTL), and the IP address.
 
 ```
-$ dig AAAA ns1.dnsimple.com
+$ dig AAAA ns1.dnsimple-edge.com
 
-; <<>> DiG 9.10.6 <<>> AAAA ns1.dnsimple.com
+; <<>> DiG 9.10.6 <<>> AAAA ns1.dnsimple-edge.com
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52403
@@ -149,10 +149,10 @@ $ dig AAAA ns1.dnsimple.com
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 512
 ;; QUESTION SECTION:
-;ns1.dnsimple.com.		IN	AAAA
+;ns1.dnsimple-edge.com.		IN	AAAA
 
 ;; ANSWER SECTION:
-ns1.dnsimple.com.	1795	IN	AAAA	2400:cb00:2049:1::a29f:1804
+ns1.dnsimple-edge.com.	1795	IN	AAAA	2620:111:8004::53
 
 ;; Query time: 47 msec
 ;; SERVER: 8.8.8.8#53(8.8.8.8)

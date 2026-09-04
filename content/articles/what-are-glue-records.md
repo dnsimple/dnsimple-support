@@ -50,7 +50,7 @@ Without glue for in-zone server names, many resolvers cannot complete the chain.
 
 ## NS records, A/AAAA records, and glue {#relationship-to-other-records}
 
-NS records at the parent state which hosts are authoritative for the child zone. When those hosts are out-of-zone (for example `ns1.dnsimple.com` for `example.com`), the resolver can resolve `ns1.dnsimple.com` without glue from the `example.com` parent. When they are in-zone, glue at the parent carries the bootstrap addresses.
+NS records at the parent state which hosts are authoritative for the child zone. When those hosts are out-of-zone (for example `ns1.dnsimple-edge.com` for `example.com`), the resolver can resolve `ns1.dnsimple-edge.com` without glue from the `example.com` parent. When they are in-zone, glue at the parent carries the bootstrap addresses.
 
 The addresses in glue match what you would express as A or AAAA for those hosts, but they are served from the delegation context at the parent, not retrieved only from the child zone.
 
