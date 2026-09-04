@@ -41,7 +41,7 @@ For a guided first login, see [First Steps With Your DNSimple Account](/articles
 - [Subscription Renewals](/articles/subscription-renewals/) - Monthly renewal charges and what happens when payment fails.
 - [What Happens if I Stop Paying for My DNSimple Subscription?](/articles/what-happens-if-i-stop-paying/) - Outcomes when renewal collection fails and the subscription is canceled.
 - [Discount Codes](/articles/discount-codes/) - How promotional codes apply.
-- [Payment methods](/articles/payment-methods/) - How DNSimple accepts payment.
+- [Payment Methods](/articles/payment-methods/) - How DNSimple accepts payment.
 - [Billing Settings](/articles/billing-settings/) - Customize invoice details and billing email.
 - [Changing Payment Details](/articles/changing-payment-details/) - Update the card on file.
 - [Changing Subscription Plan](/articles/changing-plans/) - Upgrade or downgrade your plan.
