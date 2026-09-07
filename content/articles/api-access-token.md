@@ -1,6 +1,7 @@
 ---
 title: API Access Token
 excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
+meta: Create a DNSimple API access token for API v2 or the CLI, including account-scoped tokens with granular permissions.
 categories:
 - API
 - Enterprise

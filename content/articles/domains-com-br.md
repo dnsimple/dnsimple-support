@@ -1,6 +1,7 @@
 ---
 title: .COM.BR Domains
 excerpt: How .COM.BR registration works with DNSimple, including trustee service, registry DNS rules, and typical completion time.
+meta: Register .COM.BR domains with DNSimple. Covers trustee service for non-Brazilian registrants, registry DNS rules, and typical registration time.
 categories:
 - TLDs
 ---
