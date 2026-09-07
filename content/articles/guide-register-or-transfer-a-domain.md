@@ -7,7 +7,7 @@ categories:
 - Guides
 ---
 
-# Guide: Register or Transfer a Domain With DNSimple
+# Transfer or Register Domains With DNSimple
 
 ### Table of Contents {#toc}
 

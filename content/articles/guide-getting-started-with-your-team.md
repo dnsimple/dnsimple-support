@@ -7,7 +7,7 @@ categories:
 - Guides
 ---
 
-# Guide: Getting Started With Your Team
+# First Steps Guide to Setting Up Your Team
 
 ### Table of Contents {#toc}
 
