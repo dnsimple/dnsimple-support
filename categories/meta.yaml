@@ -13,7 +13,7 @@ connectors: Articles on DNSimple connectors, which link a domain to a Heroku app
 services: Explore our one-click services, designed to help you effectively utilize and manage DNSimple's powerful features and tools.
 name_servers: Articles on name server setup, management, and troubleshooting at DNSimple, including vanity name servers and delegation configuration.
 whois_privacy: Articles on DNSimple's free WHOIS Privacy service, covering setup, management, and how it protects your personal information from public view.
-secondary_dns: Explore our comprehensive guide on Secondary DNS at DNSimple. Find articles, tutorials, and resources to enhance your domain's reliability and performance.
+secondary_dns: Articles on Secondary DNS at DNSimple, covering DNS redundancy options, outbound and inbound zone transfers, provider setup, and using DNSimple alongside other DNS providers.
 integrations: Articles on DNSimple integrations, with guides and resources for connecting your domains with external DNS providers and services.
 guides: Master DNS management and domain registration with our expert guides, tips, and step-by-step instructions to enhance your online presence.
 ssl_certificates: Discover in-depth guides on SSL certificates, including installation, management, and best practices to enhance your website's security and safeguard user data.
