@@ -1,7 +1,7 @@
 ---
 title: Why DNSSEC and Secondary DNS May Not Work Together
-excerpt: A detailed explanation as to why DNSSEC and Secondary DNS may not be compatible together.
-meta: Understand why DNSSEC and secondary DNS may conflict. Learn about zone signing, key material, and compatibility issues between these DNS security features.
+excerpt: Why DNSSEC and secondary DNS can conflict, and how inbound vs outbound AXFR differ at DNSimple.
+meta: DNSSEC and secondary DNS may conflict because zone transfers do not carry private key material, and DNSimple does not transfer RRSIG records over AXFR.
 categories:
 - DNS
 - DNSSEC
@@ -10,31 +10,42 @@ categories:
 
 # Why DNSSEC and Secondary DNS May Not Work Together
 
-While both [DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/) and [secondary DNS](/articles/secondary-dns/) are used to enhance DNS resilience, they are not always compatible. This is because the standard methods used for secondary DNS may conflict with the security requirements of DNSSEC, leading to potential resolution failures.
+### Table of Contents {#toc}
 
-The core issue lies in how DNSSEC signs records and how secondary DNS servers receive them.
+* TOC
+{:toc}
 
-## The challenge: zone signing and key material {#the-challenge-zone-signing-and-key-material}
+---
 
-For DNSSEC to function correctly, DNS resolvers (the clients making the query) must be able to verify the trust-chain associated with at least one of the [DS records](/articles/what-are-ds-records/) present in the parent zone for a domain name. For this, all authoritative name servers involved in the domain's delegation must provide valid [DNSKEY](/articles/dnskey-records-explained/) and [RRSIG records](/articles/dnssec-glossary/#rrsig).
+[DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/) and [secondary DNS](/articles/secondary-dns/) both strengthen DNS, but they are not always compatible. Zone transfers used for secondary DNS can conflict with how DNSSEC signs records, which can cause resolution failures for DNSSEC-aware resolvers.
 
-## The conflict with secondary DNS {#the-conflict-with-secondary-dns}
+## The challenge: zone signing and key material {#zone-signing}
 
-DNS servers typically get their zone data from a primary server using a process called a zone transfer (**AXFR** or **IXFR**), which comes with some crucial limitations:
-- Our system does not transfer RRSIG records over AXFR zone transfers.
-- These transfer protocols **do not support transferring private key material**
+For DNSSEC to work, resolvers must verify a trust chain for at least one of the [DS records](/articles/what-are-ds-records/) in the parent zone. Every authoritative name server in the delegation must serve valid [DNSKEY](/articles/dnskey-records-explained/) and [RRSIG](/articles/dnssec-glossary/#rrsig) records.
 
-As a consequence, the primary server is always able to provide all the necessary DNSKEY and RRSIG records, but the secondary server will not be able provide RRSIG records, breaking DNSSEC.
+## The conflict with secondary DNS {#conflict}
 
-A workaround for this is to ensure all providers involved in the domain's delegation maintain their own trust chain, ensuring that DNS resolvers will always be able to verify at least one of the available trust-chains, with some caveats:
-- Our Inbound AXFR service replaces the whole zone, which means that any existing DNSKEY and RRSIG records would be lost. This is why we currently do not allow enabling DNSSEC and Inbound AXFR Secondary DNS at the same time.
-- We cannot guarantee the behavior of secondaries receiving Outbound AXFR zone transfers from us. For this workaround to work, they must not remove the DNSKEY and RRSIG records required to support their trust-chain. 
+Secondary servers usually receive zone data from a primary using a zone transfer (**AXFR** or **IXFR**). Those transfers have important limits:
 
-For a deeper dive into multi-provider DNSSEC, refer to [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
+- DNSimple does not transfer RRSIG records over AXFR zone transfers.
+- These transfer protocols do not support transferring private key material.
+
+As a result, the primary can serve DNSKEY and RRSIG records, but a secondary that only receives unsigned data cannot serve the RRSIG records needed for DNSSEC.
+
+A common workaround is for each provider in the delegation to maintain its own trust chain so resolvers can verify at least one chain. At DNSimple that has important caveats:
+
+- **Inbound AXFR** (DNSimple as secondary) replaces the whole zone. Existing DNSKEY and RRSIG records would be lost. DNSimple does not allow enabling DNSSEC and inbound AXFR secondary DNS at the same time.
+- **Outbound AXFR** (DNSimple as primary) is not hard-blocked when DNSSEC is enabled, but DNSimple cannot guarantee how third-party secondaries treat DNSKEY and RRSIG records. For multi-provider DNSSEC to work, those secondaries must keep the records required for their trust chain.
+
+For multi-provider DNSSEC design, see [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
 
 ## Learn more {#learn-more}
 
-To enable DNSSEC for your domain, see [Enable DNSSEC](/articles/enabling-dnssec/). If you encounter issues with your DNSSEC configuration, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance. For a complete overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/).
+- [Enable DNSSEC](/articles/enabling-dnssec/)
+- [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/)
+- [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/)
+- [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/)
 
 ## Have more questions?
-If you have additional questions or need any assistance with secondary DNS or DNSSEC, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+
+If you have additional questions about secondary DNS or DNSSEC, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

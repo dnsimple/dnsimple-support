@@ -1,7 +1,7 @@
 ---
 title: DNS Redundancy Options at DNSimple
-excerpt: How to add DNS redundancy to your domains using secondary DNS or multi-provider setups.
-meta: When and how to add DNS redundancy at DNSimple. Compare secondary DNS via AXFR with multi-provider DNS sync to protect your domains from outages.
+excerpt: When to add DNS redundancy and how to choose between AXFR secondary DNS and multi-provider sync at DNSimple.
+meta: Compare DNS redundancy options at DNSimple: built-in Anycast, outbound or inbound secondary DNS with AXFR, and multi-provider sync without zone transfers.
 categories:
 - Secondary DNS
 ---
@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNS redundancy means having more than one DNS provider answering queries for your domains. If one provider experiences an outage, the other continues serving DNS responses, helping keep DNS resolution available.
+DNS redundancy means having more than one DNS provider answering queries for your domains. If one provider experiences an outage, the other continues serving DNS responses. This article helps you choose an approach. For the concept of secondary DNS and how DNSimple supports outbound and inbound setups, see [What is Secondary DNS?](/articles/what-is-secondary-dns/) once published, and the how-to guides linked below.
 
 ## How DNSimple provides resilience by default {#default-resilience}
 
