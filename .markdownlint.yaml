@@ -1,0 +1,7 @@
+# Matches the conventions of this repo's support articles: long prose lines,
+# embedded HTML (video iframes, layout divs), and a TOC heading directly under
+# the H1. The pre-commit hook and markdownlint CI actions read this file.
+MD001: false
+MD013: false
+MD025: false
+MD033: false

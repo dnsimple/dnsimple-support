@@ -2,6 +2,8 @@
 /output
 /tmp
 /node_modules
+/_screenshots/node_modules
+/_screenshots/config.json
 /dist
 
 /.env
