@@ -17,17 +17,14 @@ categories:
 
 Secondary DNS lets more than one DNS provider answer for your domain. At DNSimple you can run **outbound** secondary DNS (DNSimple as primary), **inbound** secondary DNS (DNSimple as secondary), or keep multiple providers in sync **without** zone transfers. This page is the starting point for Secondary DNS documentation.
 
-## Getting started {#getting-started}
+## Understand secondary DNS {#understand}
+
+New to secondary DNS? Start with the first article below.
 
 - [What is Secondary DNS?](/articles/what-is-secondary-dns/) - Primary vs secondary roles, AXFR, and inbound vs outbound at DNSimple.
 - [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/) - When to add multi-provider DNS and which approach to choose.
-
-## Understand secondary DNS {#understand}
-
-- [What is Secondary DNS?](/articles/what-is-secondary-dns/)
-- [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/)
-- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/)
-- [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/)
+- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Compatibility considerations when combining DNSSEC with secondary DNS.
+- [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - How ALIAS records are resolved before a zone transfer.
 
 ## Set up DNSimple as primary {#outbound}
 
