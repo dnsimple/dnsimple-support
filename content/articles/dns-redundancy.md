@@ -15,7 +15,7 @@ categories:
 
 ---
 
-DNS redundancy means having more than one DNS provider answering queries for your domains. If one provider experiences an outage, the other continues serving DNS responses. This article helps you choose an approach. For the concept of secondary DNS and how DNSimple supports outbound and inbound setups, see [What is Secondary DNS?](/articles/what-is-secondary-dns/) once published, and the how-to guides linked below.
+DNS redundancy means having more than one DNS provider answering queries for your domains. If one provider experiences an outage, the other continues serving DNS responses. This article helps you choose an approach. For the concept of secondary DNS and how DNSimple supports outbound and inbound setups, see [What is Secondary DNS?](/articles/what-is-secondary-dns/).
 
 ## How DNSimple provides resilience by default {#default-resilience}
 
