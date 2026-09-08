@@ -1,7 +1,7 @@
 ---
 title: Add DNSimple as Secondary DNS with a Hidden Primary
-meta: Configure DNSimple as a secondary DNS provider keeping your primary name servers hidden to enhance security.
-excerpt: Learn how to configure a hidden primary with DNSimple as a secondary DNS provider.
+meta: Use DNSimple as secondary DNS while keeping your primary name servers off public delegation.
+excerpt: Configure a hidden primary with DNSimple as the secondary DNS provider.
 categories:
 - Secondary DNS
 - Enterprise
@@ -9,76 +9,74 @@ categories:
 
 # Add DNSimple as Secondary DNS with a Hidden Primary
 
-#### Table of Contents {#toc}
+### Table of Contents {#toc}
 
 * TOC
 {:toc}
 
-A hidden primary DNS setup allows you to keep your primary DNS server private while using DNSimple as a secondary DNS provider to handle public queries. This setup enhances security, redundancy, and performance by ensuring your primary authoritative name servers are not exposed to the internet.
+---
 
-Your primary name servers can be located behind firewalls, on internal networks, or on premises, allowing full control over zone management.
+A hidden primary setup keeps your primary DNS server off public name server lists while DNSimple answers public queries as the secondary. You still edit the zone on the primary. DNSimple pulls updates over AXFR.
 
-This guide explains how to configure a hidden primary while leveraging DNSimple as your secondary DNS provider. Your primary DNS server is hidden from public queries, while DNSimple acts as the secondary DNS provider.
+There is no separate "hidden primary" product in the DNSimple UI. You use the same inbound secondary DNS flow (Secondary Zones and Primary Servers), then publish only DNSimple name servers at the registrar.
 
-## Prerequisites
+This guide builds on [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/).
+
+## Prerequisites {#prerequisites}
 
 > [!WARNING]
-> Don't add DNSimple as a secondary DNS server to domains with DNSSEC. We do not import external RRSIG records, and this will produce resolution failures from DNSSEC-aware resolvers.
+> Do not use inbound secondary DNS with DNSSEC on the DNSimple zone. DNSimple does not import external RRSIG records. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 
-Before proceeding, follow [this guide](/articles/secondary-dns-dnsimple-as-secondary/) to familiarize yourself with setting up DNSimple as a secondary DNS provider. This article expands on that setup.
+## Requirements {#requirements}
 
-## Requirements
+1. A primary DNS system that supports AXFR.
+1. A DNSimple account on a plan that includes DNSimple as secondary DNS (typically Professional and higher).
+1. Ability to change domain delegation at your registrar.
 
-1. A primary DNS provider that supports AXFR (Authoritative Zone Transfers).
-2. A DNSimple account with a plan that supports DNSimple as secondary DNS.
-3. Ability to change domain delegation at your domain registrar.
+## Step 1: Set up DNSimple as secondary DNS {#setup-secondary}
 
-## Step 1: Set Up DNSimple as secondary DNS
+Follow [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) to create the secondary zone, add the primary server, and link them.
 
-1. Navigate to the domain you want to configure.
-2. Configure the zone to as secondary DNS [this guide](/articles/secondary-dns-dnsimple-as-secondary/).
+## Step 2: Update delegation at your registrar {#delegation}
 
-## Step 2: Update the delegation at your domain registrar
-
-1. Log in to your domain registrar.
-2. Update the delegation [using DNSimple's name servers](/articles/dnsimple-nameservers/).
+Update registrar delegation to [DNSimple's name servers](/articles/dnsimple-nameservers/) only.
 
 > [!NOTE]
-> Do not list the hidden primary DNS server to keep it private.
+> Do not list the hidden primary in public delegation if you want it to stay private.
 
-## Step 3: Configure your hidden primary DNS
+## Step 3: Configure your hidden primary {#configure-primary}
 
-1. At your primary DNS provider, add your DNS records (A, MX, CNAME, TXT, etc.).
-2. Enable AXFR (Zone Transfers), and add [DNSimple's AXFR client IP addresses to the Allow-List](https://support.dnsimple.com/articles/secondary-dns-dnsimple-as-secondary/#configuring-axfr-at-your-primary-dns-provider).
-3. Ensure your NS records do NOT include the hidden primary to keep it private.
+1. Manage DNS records on the primary.
+1. Enable AXFR and allow [DNSimple's AXFR client IPs](/articles/secondary-dns-dnsimple-as-secondary/#axfr-acl).
+1. Keep the primary out of the public NS set.
 
-## Step 4: Verify &amp; test your setup
+## Step 4: Verify the setup {#verify}
 
-The configuration can take 10 to 30 minutes to take effect.
+Allow 10 to 30 minutes for the first sync.
 
-### Records have been synchronized in DNSimple
+### Records synchronized in DNSimple {#verify-records}
 
-Verify that the records have been synchronized in your DNSimple account.
+Confirm records appear on the secondary zone in DNSimple.
 
 ![Secondary DNS zone synchronization](/files/secondary-dns-record-sync.png)
 
-### Public queries resolve through DNSimple
+### Public queries resolve through DNSimple {#verify-queries}
 
-Run the following `dig` command from your console:
 ```
 dig @ns1.dnsimple-edge.com example.com
 ```
-### Hidden primary is not exposed
 
-Verify that the hidden primary name servers are **not** publicly exposed by running:
+### Hidden primary is not exposed {#verify-hidden}
+
+Confirm WHOIS / registrar name servers list DNSimple only, for example:
+
 ```
-> whois your-domain-name.com
-...
 Name Server: ns1.dnsimple-edge.com
 Name Server: ns2.dnsimple-edge.net
 Name Server: ns3.dnsimple-edge.io
 Name Server: ns4.dnsimple-edge.org
 ```
+
 ## Have more questions?
 
-If you have questions or need any assistance with your secondary DNS configuration, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about this setup, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
