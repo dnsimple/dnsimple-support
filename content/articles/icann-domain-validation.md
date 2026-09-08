@@ -33,6 +33,9 @@ The validation requirement also protects domain owners by ensuring that any chan
 
 After you register a new domain or make a change to your registrant's email address or name, you'll be presented with a confirmation screen that tells you whether the change locks any of your domains for transfer, and that you may have to verify the change by email. Shortly after, you'll receive a verification email.
 
+> [!NOTE]
+> DNSimple also sends an account email when registrant verification is pending and a domain risks being placed on hold. That alert is separate from the registry verification message that contains the confirm link. If you use the API, the matching webhook is `domain.registration_notice`; see the [webhook events documentation](https://developer.dnsimple.com/v2/webhooks/events/) and the `EventDomainRegistrationNotice` schema in the [OpenAPI spec](https://developer.dnsimple.com/v2/openapi.yml).
+
 ![Contact change confirmation](/files/contact-change.png)
 
 ## What the verification email looks like {#email}
