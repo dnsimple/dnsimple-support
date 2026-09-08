@@ -9,14 +9,14 @@ categories:
 
 # Add DNSMadeEasy as a secondary DNS server
 
-For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns/).
+For an overview of Secondary DNS, see [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
-**Requirements**
+## Requirements {#requirements}
 
-* An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
+* An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS setup.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
-You can get started with Secondary DNS from the DNS section of the domain management page.
+You can get started with secondary DNS from the <label>DNS</label> tab on the domain page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
@@ -28,7 +28,7 @@ A confirmation message will tell you Secondary DNS has been enabled from the DNS
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log into your **DNSMadeEasy** account. The first thing you'll do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced*, then *Secondary IP Sets*.
+Log into your **DNSMadeEasy** account. The first thing you will do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced*, then *Secondary IP Sets*.
 
 ![Access the IP set menu from DNSMadeEasy](/files/dns-made-easy-ip-set-menu.png)
 
@@ -54,7 +54,7 @@ In the popup, type your domain name, and select the IP set you just created.
 
 ![DNSMadeEasy adding secondary configuration](/files/dns-made-easy-popup.png)
 
-If the configuration is correct, a success message will appear. You'll be taken to the detail page for your domain.
+If the configuration is correct, a success message will appear. You will be taken to the detail page for your domain.
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 
