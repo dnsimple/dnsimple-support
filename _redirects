@@ -218,5 +218,5 @@
 /articles/domains-pt/                                                     /articles/tlds/
 /articles/domains-pt/index.html                                           /articles/tlds/
 /dnsimple.com/contact                                                     https://dnsimple.com/contact
-/articles/:slug                                                           /articles/:slug/    301
-/categories/:slug                                                         /categories/:slug/  301
+/articles/dns-ttl                                                         /articles/what-is-ttl/
+/articles/dns-ttl/                                                        /articles/what-is-ttl/
