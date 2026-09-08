@@ -1,7 +1,7 @@
 ---
 title: DNS Redundancy Options at DNSimple
 excerpt: When to add DNS redundancy and how to choose between AXFR secondary DNS and multi-provider sync at DNSimple.
-meta: Compare DNS redundancy options at DNSimple: built-in Anycast, outbound or inbound secondary DNS with AXFR, and multi-provider sync without zone transfers.
+meta: "Compare DNS redundancy options at DNSimple: built-in Anycast, outbound or inbound secondary DNS with AXFR, and multi-provider sync without zone transfers."
 categories:
 - Secondary DNS
 ---
