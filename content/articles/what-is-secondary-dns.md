@@ -53,7 +53,7 @@ When records change, the primary usually sends a **NOTIFY** message so the secon
 
 **Inbound** (DNSimple as secondary): your external primary allows DNSimple's AXFR client IPs to pull the zone. DNSimple then answers on DNSimple name servers using the copy it transferred.
 
-Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and secondary DNS](/articles/dnssec-and-secondary-dns/) need careful planning.
+Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and secondary DNS](/articles/dnssec-and-secondary-dns/) need careful planning. Providers can also differ in how they answer for [empty non-terminals](/articles/empty-non-terminals/), so confirm both sides behave the same way.
 
 ## Outbound secondary DNS (DNSimple as primary) {#outbound}
 
@@ -62,12 +62,13 @@ With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSi
 - Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> → <label>Secondary DNS zone (with DNSimple as leader)</label>.
 - Built-in provider options are EasyDNS, DNS Made Easy, Dyn Managed, and Dyn Standard. Use Custom or Name Server Set for any other provider that supports AXFR.
 - Outbound secondary DNS is available on all DNSimple plans.
+- ALIAS is a virtual record type and cannot transfer, so DNSimple resolves it to A and AAAA addresses first. See [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/).
 
 Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
 ## Inbound secondary DNS (DNSimple as secondary) {#inbound}
 
-With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage Secondary Zones and Primary Servers in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
+With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
 - Available on the Teams plan. The Solo plan does not include it. On older plans, it is available on Professional, Business, Corporate, and the Expert and Master Reseller plans, but not on Personal.
 - Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.
@@ -80,12 +81,6 @@ API: [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/).
 
 You can also run DNSimple next to another provider **without** AXFR. You keep both zones in sync yourself with the record editor, zone import, the API, or tools such as Terraform. That is not secondary DNS via zone transfer. See [Using DNSimple alongside other DNS providers](/articles/secondary-dnsimple/).
 
-## Related topics {#related}
-
-- [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - outbound ALIAS handling
-- [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/)
-- [Empty Non-Terminals](/articles/empty-non-terminals/) - keep ENT behavior consistent across providers
-
 ## Have more questions?
 
-If you have any questions about secondary DNS, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have any questions about secondary DNS, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

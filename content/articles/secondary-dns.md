@@ -16,7 +16,7 @@ categories:
 
 ---
 
-For an overview of when and why to add DNS redundancy, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
+For what secondary DNS is and how the primary and secondary roles work, see [What is Secondary DNS?](/articles/what-is-secondary-dns/). For when and why to add DNS redundancy, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
 > [!WARNING]
 > Secondary DNS and [DNSSEC](/articles/dnssec/) requires special considerations. Please read our [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) article for more information.
@@ -141,7 +141,7 @@ Please prefer the host name whenever possible. If any of these IP addresses shou
 
     Secondary DNS is when you use a special protocol called AXFR to automatically transfer your zones to a secondary DNS provider whenever they change. This allows you to use DNSimple's name servers and another DNS provider's name servers at the same time.
 
-    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those name servers may be used at any time by resolvers – not just when an issue arises resolving names through our name servers.
+    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those name servers may be used at any time by resolvers - not just when an issue arises resolving names through our name servers.
 
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
