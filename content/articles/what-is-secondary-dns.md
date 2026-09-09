@@ -25,9 +25,11 @@ Secondary DNS means more than one DNS provider can answer queries for your domai
 
 ## Why use secondary DNS? {#why}
 
-Most people add secondary DNS for **redundancy**. If your only DNS provider has an outage, nothing that depends on the domain can resolve, even when your website or mail servers are fine. With secondary DNS, a second provider already has a copy of the zone and is already in the public name server list, so resolvers can keep getting answers from the secondary while the primary is down.
+Most people add secondary DNS so they have a backup if their primary DNS provider has an outage. If that provider cannot answer, nothing that depends on the domain can resolve, even when your website or mail servers are fine. With secondary DNS, a second provider already has a copy of the zone and is already in the public name server list, so resolvers can keep getting answers from the secondary while the primary is down.
 
-DNSimple already spreads each hosted zone across multiple name servers on independent networks with [Anycast DNS](/articles/why-anycast-dns/). That helps when a single DNSimple name server or network path has a problem. Secondary DNS covers a different risk: a wider outage or maintenance event that affects one provider as a whole. You keep serving DNS because another company is also authoritative for the zone.
+During an outage the secondary does not invent new data. It keeps serving the **last good copy** of the zone it transferred from the primary, until the zone's SOA **expire** timer runs out. A primary that is dark for an hour is usually fine. A primary that stays dark for days may pass that expire window, and the secondary can stop answering. That limit is why secondary DNS helps with short provider outages, and why you still need the primary (or another source of truth) back online for a long incident.
+
+DNSimple already spreads each hosted zone across multiple name servers on independent networks with [Anycast DNS](/articles/why-anycast-dns/). That helps when a single DNSimple name server or network path has a problem. Secondary DNS covers a different risk: a wider outage or maintenance event that affects one provider as a whole.
 
 Secondary DNS is also common when:
 
@@ -36,7 +38,7 @@ Secondary DNS is also common when:
 - You want that warm standby already delegated, so you are not rushing a registrar change during an incident.
 - You run a hidden primary (private master) and need a public provider such as DNSimple to serve the zone on the internet.
 
-Secondary DNS does not fix bad records or replace careful TTL planning. It is there so that if one provider goes down, you still have DNS. To compare secondary DNS with other multi-provider options at DNSimple, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
+Secondary DNS does not fix bad records or replace careful TTL planning. It is there so that if one provider goes down, you still have DNS for a while. To compare secondary DNS with other multi-provider options at DNSimple, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
 ## Zone transfers (AXFR and IXFR) {#zone-transfers}
 
@@ -54,8 +56,8 @@ Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and 
 With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSimple as **leader**). You manage records in DNSimple. DNSimple transfers the zone to another provider over AXFR.
 
 - Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> → <label>Secondary DNS zone (with DNSimple as leader)</label>.
-- Built-in provider options include EasyDNS, DNS Made Easy, Dyn Standard, Dyn Managed, plus Custom and Name Server Set.
-- Outbound secondary DNS is not limited to the same plan feature that gates inbound secondary DNS.
+- Built-in provider options include EasyDNS and DNS Made Easy, plus Custom and Name Server Set for any provider that supports AXFR.
+- Outbound secondary DNS is available on all DNSimple plans.
 
 Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
