@@ -1,14 +1,16 @@
-Configurations:
-- "DNS Redundancy Options at DNSimple"
-- "Add a secondary DNS server to DNSimple"
-- "Add DNSimple as a secondary DNS server"
-- "Add DNSimple as Secondary DNS with a Hidden Primary"
-- "Using DNSimple alongside other DNS providers"
-
-Integration with other DNS providers:
-- "Add DNSMadeEasy as a secondary DNS server"
-- "Adding Dyn as a Secondary DNS Server"
-- "Adding EasyDNS as a Secondary DNS Server"
-
 Explanation:
+- "DNS Redundancy Options at DNSimple"
 - "Why DNSSEC and Secondary DNS May Not Work Together"
+- "How ALIAS Records Resolve with Secondary DNS"
+
+How-to:
+  DNSimple as primary:
+    - "Add a secondary DNS server to DNSimple"
+    - "Add DNSMadeEasy as a secondary DNS server"
+    - "Adding Dyn as a Secondary DNS Server"
+    - "Adding EasyDNS as a Secondary DNS Server"
+  DNSimple as secondary:
+    - "Add DNSimple as a secondary DNS server"
+    - "Add DNSimple as Secondary DNS with a Hidden Primary"
+  Multi-provider without zone transfers:
+    - "Using DNSimple alongside other DNS providers"

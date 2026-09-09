@@ -4,6 +4,7 @@ excerpt: How DNSimple ensures ALIAS resolution on secondary servers.
 meta: Learn more about how DNSimple's special handling process to ensure your secondary servers always have the most up-to-date IP addresses.
 categories:
 - DNS
+- Secondary DNS
 ---
 
 # How ALIAS Records Resolve with Secondary DNS
