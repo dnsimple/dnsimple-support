@@ -29,6 +29,12 @@ Organizations registering a .FI domain may need to provide:
 
 Individuals can register .FI domains with standard contact information.
 
+## Changing the contact for a .FI domain {#owner-change}
+
+Changing the registrant of a .FI domain is an owner change at the registry, and it requires a holder transfer key. It is not the authorization code used to transfer a domain between registrars.
+
+Starting a contact change requests the key for you. The registry emails it to the address listed as registrant (owner) for the domain, and it is valid for 30 days. If you are taking the domain over from someone else, the key reaches them rather than you.
+
 ## Have more questions?
 
 If you have any questions about registering, transferring, or renewing your .FI domain, [contact us](https://dnsimple.com/feedback), and we'll be happy to help.
