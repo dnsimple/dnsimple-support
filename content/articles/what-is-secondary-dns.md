@@ -49,7 +49,7 @@ Most secondary DNS setups use **zone transfers**:
 
 When records change, the primary usually sends a **NOTIFY** message so the secondary knows to pull an update. The primary also limits who can transfer the zone, typically with an IP allow list, and sometimes with transfer authentication.
 
-**Outbound** (DNSimple as primary): the other provider pulls from DNSimple's transfer endpoint, `axfr.dnsimple.com`. You whitelist that provider's IPs (or use a prepared provider option) so only those secondaries can transfer the zone.
+**Outbound** (DNSimple as primary): the other provider pulls from DNSimple's transfer endpoint, `axfr.dnsimple.com`. You allow-list that provider's IPs (or use a prepared provider option) so only those secondaries can transfer the zone.
 
 **Inbound** (DNSimple as secondary): your external primary allows DNSimple's AXFR client IPs to pull the zone. DNSimple then answers on DNSimple name servers using the copy it transferred.
 
@@ -70,7 +70,7 @@ Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage Secondary Zones and Primary Servers in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
 - Available on plans that include the DNSimple as secondary DNS feature (typically Professional and higher; Solo does not include it).
-- Not compatible with enabling DNSSEC on that zone in DNSimple, because inbound transfers do not import external RRSIG records.
+- Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.
 
 Setup: [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For a primary that is not listed in public NS records, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
 
