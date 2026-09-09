@@ -69,34 +69,36 @@ From your terminal, type the following `dig` command replacing `example.com` wit
 The query should return all the DNSimple and EasyDNS name servers in the `AUTHORITY SECTION`.
 
 <pre>
-; <<>> DiG 9.8.3-P1 <<>> @xfr0.easydns.com example.com soa
-; (1 server found)
+; <<>> DiG 9.20.24 <<>> @xfr0.easydns.com example.com soa
+; (2 servers found)
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58869
-;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 1
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 2
 ;; WARNING: recursion requested but not available
 
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
 ;example.com.    IN  SOA
 
 ;; ANSWER SECTION:
-example.com. 3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1425558979 86400 7200 604800 300
+example.com. 3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1788969600 86400 7200 604800 300
 
 ;; AUTHORITY SECTION:
-example.com. 3600  IN  NS  xfr0.easydns.com.
-example.com. 3600  IN  NS  ns4.dnsimple-edge.org.
-example.com. 3600  IN  NS  ns2.dnsimple-edge.net.
 example.com. 3600  IN  NS  ns1.dnsimple-edge.com.
+example.com. 3600  IN  NS  ns2.dnsimple-edge.net.
 example.com. 3600  IN  NS  ns3.dnsimple-edge.io.
+example.com. 3600  IN  NS  ns4.dnsimple-edge.org.
+example.com. 3600  IN  NS  xfr0.easydns.com.
 
 ;; ADDITIONAL SECTION:
 xfr0.easydns.com. 300 IN  A 64.68.200.91
 
-;; Query time: 158 msec
-;; SERVER: 64.68.200.91#53(64.68.200.91)
-;; WHEN: Thu Mar  5 15:12:42 2015
-;; MSG SIZE  rcvd: 205
+;; Query time: 192 msec
+;; SERVER: 64.68.200.91#53(xfr0.easydns.com) (UDP)
+;; WHEN: Wed Sep 09 16:01:51 UTC 2026
+;; MSG SIZE  rcvd: 281
 </pre>
 
 Your secondary DNS is now working with **EasyDNS**.

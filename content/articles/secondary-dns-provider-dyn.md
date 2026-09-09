@@ -20,7 +20,7 @@ For an overview of secondary DNS, see [Add a secondary DNS server to DNSimple](/
 
 ## Requirements {#requirements}
 
-* An active account with [Dyn](http://dyn.com/). Your secondary DNS setup will vary depending on whether you use Dyn Standard or Dyn Managed DNS.
+* An active account with [Dyn](https://help.dyn.com/). Your secondary DNS setup will vary depending on whether you use Dyn Standard or Dyn Managed DNS.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
 You can get started with secondary DNS from the <label>DNS</label> tab on the domain page.
@@ -29,7 +29,7 @@ You can get started with secondary DNS from the <label>DNS</label> tab on the do
 
 ## Setting up for Dyn Standard {#dyn-standard}
 
-First, set up secondary DNS at Dyn. You will find instructions for setting up secondary DNS using Dyn Standard on the [Dyn help site](https://help.dyn.com/standard-dns/dyn-secondary-dns-information/).
+First, set up secondary DNS at Dyn. Look for the Standard DNS secondary zone instructions on the [Dyn help site](https://help.dyn.com/).
 
 During setup, use the following address as the primary server to perform AXFR transfers:
 
@@ -50,7 +50,7 @@ Your secondary DNS should now be set up with **Dyn Standard**.
 
 ## Setting up for Dyn Managed {#dyn-managed}
 
-First, set up secondary DNS at Dyn. You can find instructions on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/).
+First, set up secondary DNS at Dyn. Look for the Managed DNS secondary zone instructions on the [Dyn help site](https://help.dyn.com/).
 
 During setup, use the following address as the primary server to perform AXFR transfers:
 
@@ -69,6 +69,6 @@ A confirmation message will tell you secondary DNS has been enabled from the DNS
 
 Your secondary DNS should now be set up with **Dyn Managed**.
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions about adding Dyn as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions about adding Dyn as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
