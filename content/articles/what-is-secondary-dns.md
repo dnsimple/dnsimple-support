@@ -60,7 +60,7 @@ Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and 
 With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSimple as **leader**). You manage records in DNSimple. DNSimple transfers the zone to another provider over AXFR.
 
 - Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> → <label>Secondary DNS zone (with DNSimple as leader)</label>.
-- Built-in provider options include EasyDNS and DNS Made Easy, plus Custom and Name Server Set for any provider that supports AXFR.
+- Built-in provider options are EasyDNS, DNS Made Easy, Dyn Managed, and Dyn Standard. Use Custom or Name Server Set for any other provider that supports AXFR.
 - Outbound secondary DNS is available on all DNSimple plans.
 
 Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
@@ -69,7 +69,7 @@ Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
 With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage Secondary Zones and Primary Servers in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
-- Available on plans that include the DNSimple as secondary DNS feature (typically Professional and higher; Solo does not include it).
+- Available on the Teams plan. The Solo plan does not include it. On older plans, it is available on Professional, Business, Corporate, and the Expert and Master Reseller plans, but not on Personal.
 - Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.
 
 Setup: [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For a primary that is not listed in public NS records, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
