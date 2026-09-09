@@ -21,11 +21,11 @@ While both [DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/) and [se
 
 The core issue lies in how DNSSEC signs records and how secondary DNS servers receive them.
 
-## The challenge: zone signing and key material {#the-challenge-zone-signing-and-key-material}
+## The challenge: zone signing and key material {#zone-signing}
 
 For DNSSEC to function correctly, DNS resolvers (the clients making the query) must be able to verify the trust-chain associated with at least one of the [DS records](/articles/what-are-ds-records/) present in the parent zone for a domain name. For this, all authoritative name servers involved in the domain's delegation must provide valid [DNSKEY](/articles/dnskey-records-explained/) and [RRSIG records](/articles/dnssec-glossary/#rrsig).
 
-## The conflict with secondary DNS {#the-conflict-with-secondary-dns}
+## The conflict with secondary DNS {#conflict}
 
 DNS servers typically get their zone data from a primary server using a process called a zone transfer (**AXFR** or **IXFR**), which comes with some crucial limitations:
 
@@ -41,7 +41,7 @@ A workaround for this is to ensure all providers involved in the domain's delega
 
 For a deeper dive into multi-provider DNSSEC, refer to [RFC 8901](https://datatracker.ietf.org/doc/html/rfc8901).
 
-## Learn more {#learn-more}
+## Learn more {#learn}
 
 To enable DNSSEC for your domain, see [Enable DNSSEC](/articles/enabling-dnssec/). If you encounter issues with your DNSSEC configuration, see [Troubleshoot DNSSEC](/articles/troubleshooting-dnssec-configurations/) for comprehensive guidance. For a complete overview of DNSSEC at DNSimple, see [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/). Also see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
