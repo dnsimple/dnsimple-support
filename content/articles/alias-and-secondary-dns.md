@@ -29,7 +29,7 @@ Because ALIAS is not a transferable standard type, DNSimple cannot send the ALIA
 When you configure outbound secondary DNS (DNSimple as primary) for a zone that has ALIAS records, DNSimple:
 
 1. **Resolves ALIAS records at setup** - Writes the resulting A and AAAA records into the zone transfer data that secondaries pull.
-1. **Re-resolves on a schedule** - Runs a recurring job (on the order of every few minutes when outbound PowerDNS is enabled) so rotated target IPs stay current. The refresh cadence is tied to ALIAS TTL and the outbound refresh overlord.
+1. **Re-resolves when the TTL expires** - Checks each zone every few minutes and re-resolves its ALIAS records once the shortest ALIAS TTL in that zone has elapsed. A lower TTL on your ALIAS record means more frequent refreshes.
 1. **Updates transfer data** - Removes stale A and AAAA addresses for that ALIAS and writes the new ones.
 1. **Sends NOTIFY** - Notifies configured secondary name servers so they can start a new AXFR or IXFR and pick up the updated addresses.
 
