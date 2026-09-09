@@ -25,18 +25,18 @@ Secondary DNS means more than one DNS provider can answer queries for your domai
 
 ## Why use secondary DNS? {#why}
 
-DNS has to answer before almost anything else on the internet works. If your only DNS provider cannot answer, browsers, email, APIs, and apps that depend on that domain can fail even when your servers are healthy.
+Most people add secondary DNS for **redundancy**. If your only DNS provider has an outage, nothing that depends on the domain can resolve, even when your website or mail servers are fine. With secondary DNS, a second provider already has a copy of the zone and is already in the public name server list, so resolvers can keep getting answers from the secondary while the primary is down.
 
-DNSimple already spreads each hosted zone across multiple name servers on independent networks with [Anycast DNS](/articles/why-anycast-dns/). That protects you from many single-server and single-network failures **inside** DNSimple. Secondary DNS adds a different kind of protection: a **second provider** that can keep answering if DNSimple (or your other primary provider) has a broader outage, maintenance window, or regional problem that affects that provider as a whole.
+DNSimple already spreads each hosted zone across multiple name servers on independent networks with [Anycast DNS](/articles/why-anycast-dns/). That helps when a single DNSimple name server or network path has a problem. Secondary DNS covers a different risk: a wider outage or maintenance event that affects one provider as a whole. You keep serving DNS because another company is also authoritative for the zone.
 
-People typically add secondary DNS when:
+Secondary DNS is also common when:
 
-- The domain carries production traffic, and even a short DNS outage would hurt customers or revenue.
+- The domain carries production traffic, and a DNS outage would hurt customers or revenue.
 - A contract, security review, or compliance program requires DNS from more than one vendor.
-- They want a warm standby: another provider already has the zone and is already in the public name server list, so failover does not depend on last-minute changes at the registrar.
-- They run a hidden primary (private master) and need a public provider such as DNSimple to serve the zone on the internet.
+- You want that warm standby already delegated, so you are not rushing a registrar change during an incident.
+- You run a hidden primary (private master) and need a public provider such as DNSimple to serve the zone on the internet.
 
-Secondary DNS is not a substitute for fixing bad records or a slow TTL strategy. It is insurance against provider-level DNS failure. To compare secondary DNS with other multi-provider options at DNSimple, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
+Secondary DNS does not fix bad records or replace careful TTL planning. It is there so that if one provider goes down, you still have DNS. To compare secondary DNS with other multi-provider options at DNSimple, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
 ## Zone transfers (AXFR and IXFR) {#zone-transfers}
 
