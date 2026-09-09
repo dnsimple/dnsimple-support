@@ -17,7 +17,9 @@ categories:
 
 ---
 
-[DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/) and [secondary DNS](/articles/secondary-dns/) both strengthen DNS, but they are not always compatible. Zone transfers used for secondary DNS can conflict with how DNSSEC signs records, which can cause resolution failures for DNSSEC-aware resolvers.
+While both [DNSSEC (DNS Security Extensions)](/articles/what-is-dnssec/) and [secondary DNS](/articles/secondary-dns/) are used to enhance DNS resilience, they are not always compatible. This is because the standard methods used for secondary DNS may conflict with the security requirements of DNSSEC, leading to potential resolution failures.
+
+The core issue lies in how DNSSEC signs records and how secondary DNS servers receive them.
 
 ## The challenge: zone signing and key material {#zone-signing}
 
