@@ -17,7 +17,7 @@ categories:
 
 DNSimple provides an SSL certificate interface you can use to purchase a new [SSL certificate](/articles/what-is-ssl-certificate/). Buying a Sectigo certificate through DNSimple costs $20 for a single-name certificate or $100 for a wildcard certificate.
 
-Starting March 15, 2026, Sectigo SSL certificates sold by DNSimple are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Sixty days before the certificate expires, you will begin receiving renewal notices.
+Starting March 15, 2026, Sectigo SSL certificates sold by DNSimple are valid for a maximum of 200 days due to [CA/Browser Forum requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage. Seven days before the certificate expires, you will begin receiving renewal notices.
 
 
 ## Before You Start {#before-you-start}

@@ -30,7 +30,9 @@ All Let's Encrypt SSL certificates, including renewals, are valid for no more th
 
     ![Renewing a Certificate](/files/certificates-renew-action.png)
 
-    If you cannot see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
+    The <label>Renew</label> button only appears once the certificate is close to expiring. For Let's Encrypt certificates, it becomes available 30 days before the expiration date and remains available for 7 days after.
+
+    If the button is missing outside that period, the certificate is either not yet due for renewal, already expired for more than 7 days, or in a state that does not allow a renewal.
 
 1.  Configure the certificate renewal:
 
