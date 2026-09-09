@@ -9,13 +9,6 @@ categories:
 
 # How ALIAS Records Resolve with Secondary DNS
 
-### Table of Contents {#toc}
-
-* TOC
-{:toc}
-
----
-
 DNSimple [ALIAS records](/articles/alias-record/) provide dynamic resolution for apex domains. When secondary DNS servers pull your zone from DNSimple over AXFR, ALIAS cannot be transferred as a standard record type. DNSimple resolves each ALIAS to A and AAAA addresses, then transfers those addresses to your secondary servers.
 
 ## The challenge with secondary DNS and ALIAS records {#challenge}
@@ -37,4 +30,4 @@ This keeps secondary servers aligned with the latest ALIAS resolution while you 
 
 ## Have more questions?
 
-If you have questions about ALIAS records and secondary DNS, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
+If you have questions about ALIAS records and secondary DNS, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
