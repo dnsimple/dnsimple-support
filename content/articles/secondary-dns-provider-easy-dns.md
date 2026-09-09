@@ -9,14 +9,14 @@ categories:
 
 # Adding EasyDNS as a Secondary DNS Server
 
-For an overview of secondary DNS, have a look at [our introduction article](/articles/secondary-dns/).
+For an overview of secondary DNS, see [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
-**Requirements**
+## Requirements {#requirements}
 
-* An active account with **EasyDNS**. Every EasyDNS plan allows for secondary DNS Setup.
+* An active account with **EasyDNS**. Every EasyDNS plan allows for secondary DNS setup.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
-You can get started with secondary DNS by clicking the **DNS** tab on the left side of the domain management page.
+You can get started with secondary DNS from the <label>DNS</label> tab on the domain page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
@@ -26,7 +26,7 @@ A confirmation message will tell you that secondary DNS has been enabled from th
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log in to your **EasyDNS** account. The first thing you'll do is add the domain.
+Log in to your **EasyDNS** account. The first thing you will do is add the domain.
 
 > [!NOTE]
 > EasyDNS has both a tabbed and one-page view. Your interface may look different depending on the layout you've selected, though the instructions below are the same.
@@ -37,11 +37,11 @@ Select the option **use an existing domain** for the domain.
 
 ![DNSimple configuration is successful](/files/easy-dns-get-dns.png)
 
-Go through the payment process. All plans support secondary DNS. When you're finished, the domain is added and ready to be managed. Click on **manage**.
+Go through the payment process. All plans support secondary DNS. When you are finished, the domain is added and ready to be managed. Click on **manage**.
 
 ![DNSimple configuration is successful](/files/easy-dns-ready-to-configure.png)
 
-From the **DNS Settings** tab, you'll tell EasyDNS the primary name server. In this case, it's DNSimple. Click on **primary NS**.
+From the **DNS Settings** tab, you will tell EasyDNS the primary name server. In this case, it is DNSimple. Click on **primary NS**.
 
 ![DNSimple configuration is successful](/files/easy-dns-domain-admin.png)
 
@@ -69,34 +69,36 @@ From your terminal, type the following `dig` command replacing `example.com` wit
 The query should return all the DNSimple and EasyDNS name servers in the `AUTHORITY SECTION`.
 
 <pre>
-; <<>> DiG 9.8.3-P1 <<>> @xfr0.easydns.com example.com soa
-; (1 server found)
+; <<>> DiG 9.20.24 <<>> @xfr0.easydns.com example.com soa
+; (2 servers found)
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58869
-;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 1
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 5, ADDITIONAL: 2
 ;; WARNING: recursion requested but not available
 
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
 ;example.com.    IN  SOA
 
 ;; ANSWER SECTION:
-example.com. 3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1425558979 86400 7200 604800 300
+example.com. 3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1788969600 86400 7200 604800 300
 
 ;; AUTHORITY SECTION:
-example.com. 3600  IN  NS  xfr0.easydns.com.
-example.com. 3600  IN  NS  ns4.dnsimple-edge.org.
-example.com. 3600  IN  NS  ns2.dnsimple-edge.net.
 example.com. 3600  IN  NS  ns1.dnsimple-edge.com.
+example.com. 3600  IN  NS  ns2.dnsimple-edge.net.
 example.com. 3600  IN  NS  ns3.dnsimple-edge.io.
+example.com. 3600  IN  NS  ns4.dnsimple-edge.org.
+example.com. 3600  IN  NS  xfr0.easydns.com.
 
 ;; ADDITIONAL SECTION:
 xfr0.easydns.com. 300 IN  A 64.68.200.91
 
-;; Query time: 158 msec
-;; SERVER: 64.68.200.91#53(64.68.200.91)
-;; WHEN: Thu Mar  5 15:12:42 2015
-;; MSG SIZE  rcvd: 205
+;; Query time: 192 msec
+;; SERVER: 64.68.200.91#53(xfr0.easydns.com) (UDP)
+;; WHEN: Wed Sep 09 16:01:51 UTC 2026
+;; MSG SIZE  rcvd: 281
 </pre>
 
 Your secondary DNS is now working with **EasyDNS**.
