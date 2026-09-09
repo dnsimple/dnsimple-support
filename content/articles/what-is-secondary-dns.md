@@ -20,7 +20,7 @@ Secondary DNS means more than one DNS provider can answer queries for your domai
 ## Primary and secondary roles {#roles}
 
 - The **primary** is the source of truth for the zone. You create and update records there.
-- A **secondary** copies zone data from the primary and answers queries using its own name servers.
+- A **secondary** copies zone data from the primary and answers queries using its own name servers. You cannot edit records on the secondary; changes always go through the primary.
 - Public delegation at the registrar usually lists name servers from both providers so resolvers can use either set.
 
 ## Why use secondary DNS? {#why}
@@ -47,7 +47,11 @@ Most secondary DNS setups use **zone transfers**:
 - **AXFR** transfers the full zone.
 - **IXFR** transfers incremental changes when both sides support it.
 
-The primary allows the secondary's IP addresses (and often a hostname such as `axfr.dnsimple.com` when DNSimple is primary). When records change, the primary notifies secondaries so they can pull an update.
+When records change, the primary usually sends a **NOTIFY** message so the secondary knows to pull an update. The primary also limits who can transfer the zone, typically with an IP allow list, and sometimes with transfer authentication.
+
+**Outbound** (DNSimple as primary): the other provider pulls from DNSimple's transfer endpoint, `axfr.dnsimple.com`. You whitelist that provider's IPs (or use a prepared provider option) so only those secondaries can transfer the zone.
+
+**Inbound** (DNSimple as secondary): your external primary allows DNSimple's AXFR client IPs to pull the zone. DNSimple then answers on DNSimple name servers using the copy it transferred.
 
 Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and secondary DNS](/articles/dnssec-and-secondary-dns/) need careful planning.
 
