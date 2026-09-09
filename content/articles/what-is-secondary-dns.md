@@ -70,7 +70,7 @@ Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
 With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
-- Available on the Teams plan. The Solo plan does not include it. On older plans, it is available on Professional, Business, Corporate, and the Expert and Master Reseller plans, but not on Personal.
+- Available on the Teams plan or higher.
 - Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.
 
 Setup: [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For a primary that is not listed in public NS records, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
