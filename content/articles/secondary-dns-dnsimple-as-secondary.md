@@ -28,13 +28,13 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 
 ## Requirements {#requirements}
 
-1. A primary DNS system that supports AXFR.
+1. A primary DNS provider that supports AXFR.
 1. A DNSimple account on a plan that includes DNSimple as secondary DNS (Teams or Enterprise).
 1. Ability to allow DNSimple's AXFR client IPs on your primary provider ACL.
 1. Ability to change domain delegation at your registrar if you want both providers in the public NS set.
 
 > [!WARNING]
-> Do not add DNSimple as a secondary DNS server for zones that need DNSSEC in DNSimple. DNSimple does not import external RRSIG records, which produces resolution failures for DNSSEC aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
+> Do not add DNSimple as a secondary DNS server to domains with DNSSEC. DNSimple does not import external RRSIG records, which produces resolution failures from DNSSEC-aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 
 ## Add a secondary zone {#add-zone}
 
@@ -55,14 +55,14 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 
 ## Add a primary server {#add-primary}
 
-Primary server entries can be reused across secondary zones. Each entry needs an alias name plus the IP address and port from your primary DNS provider.
+Primary server entries can be reused across all the secondary zones you set up. If you need to add a new entry, fill in the form with an alias name, and the IP address and port number provided by your primary DNS provider.
 
 <div class="section-steps" markdown="1">
 ##### Create a primary server
 
 1. Open the secondary zone you created.
 1. Add a primary server.
-1. Enter an alias name, IP address, and port.
+1. Enter an alias name, the IP address, and the port from your primary DNS provider.
   ![Primary Server form](/files/primary-server-form.png)
 1. Save the primary server.
 </div>
@@ -83,22 +83,22 @@ API documentation: [Secondary DNS API](https://developer.dnsimple.com/v2/seconda
 
 ## Link a secondary zone to a primary server {#link}
 
-Linking enables AXFR so DNSimple stays in sync with your primary.
+Linking a secondary zone to a primary server enables zone transfers (AXFR) that keep your domain at DNSimple in sync with your primary DNS provider.
 
 <div class="section-steps" markdown="1">
 ##### Link a primary server
 
-1. Open the secondary zone.
+1. Open the secondary zone by clicking the zone name.
 1. Select <label>Link primary server</label>.
   ![Secondary Zone view](/files/secondary-zone-view.png)
-1. Choose one or more primary servers to pull from.
+1. Choose the primary server you want to pull the zone file from. You can choose more than one primary server.
   ![Link Secondary Zone to Primary Server](/files/link-secondary-zone-to-primary.png)
 </div>
 
-DNSimple attempts the first zone transfer after linking. This can take a few minutes, especially if you just updated the ACL.
+DNSimple attempts the first zone transfer after linking to sync the zone with DNS records from the primary. This can take a few minutes, especially if you just added DNSimple's AXFR client IPs to the primary ACL.
 
 > [!NOTE]
-> If you added DNSimple to the primary ACL after linking, or more than 10 minutes have passed and no records appear, confirm the AXFR client IPs are allowed, then use <label>Unlink primary server</label> and <label>Link primary server</label> again. If it still fails, [contact support](https://dnsimple.com/feedback).
+> If you added DNSimple to the primary ACL after linking, or more than 10 minutes have passed and no records appear, confirm the AXFR client IPs are on the access-control list (ACL) at your primary. This allows DNSimple to carry out zone transfer via AXFR. After confirming the IPs are present, use <label>Unlink primary server</label> and <label>Link primary server</label> again. Allow another 10 minutes for the initial zone transfer. If it still fails, [contact support](https://dnsimple.com/feedback).
 
 ## Delegate through both providers {#delegation}
 
@@ -116,7 +116,9 @@ Include some of [DNSimple's name servers](/articles/dnsimple-nameservers/) in th
 
 ### Update registrar delegation {#registrar}
 
-Update registrar delegation to a mix of primary and [DNSimple](/articles/dnsimple-nameservers/) name servers that matches the NS set. Queries are then answered by either provider.
+Update the delegation at the domain registrar with a mix of name servers from both your primary DNS provider and [DNSimple](/articles/dnsimple-nameservers/). The list of name servers should match those used for the NS record set (see previous step).
+
+Once this is in place, DNS queries for that domain will be randomly answered by either of the two providers, which provides greater redundancy.
 
 Example:
 
