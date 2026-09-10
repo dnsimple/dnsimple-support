@@ -24,16 +24,14 @@ There is no separate "hidden primary" product in the DNSimple UI. You use the sa
 
 This guide builds on [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/).
 
-## Prerequisites {#prerequisites}
-
-> [!WARNING]
-> Do not add DNSimple as a secondary DNS server to domains with DNSSEC. DNSimple does not import external RRSIG records, which produces resolution failures from DNSSEC-aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
-
 ## Requirements {#requirements}
 
 1. A primary DNS provider that supports AXFR (Authoritative Zone Transfers).
 1. A DNSimple account on a plan that includes DNSimple as secondary DNS (Teams or Enterprise).
 1. Ability to change domain delegation at your domain registrar.
+
+> [!WARNING]
+> Do not add DNSimple as a secondary DNS server to domains with DNSSEC. DNSimple does not import external RRSIG records, which produces resolution failures from DNSSEC-aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 
 ## Step 1: Set up DNSimple as secondary DNS {#setup-secondary}
 
@@ -48,9 +46,13 @@ Update the delegation at your domain registrar to [DNSimple's name servers](/art
 
 ## Step 3: Configure your hidden primary {#configure-primary}
 
+<div class="section-steps" markdown="1">
+##### Configure the hidden primary
+
 1. At your primary DNS provider, add your DNS records (A, MX, CNAME, TXT, and others as needed).
 1. Enable AXFR (zone transfers), and allow [DNSimple's AXFR client IPs](/articles/secondary-dns-dnsimple-as-secondary/#axfr-acl).
 1. Ensure your NS records do not include the hidden primary, so it stays private.
+</div>
 
 ## Step 4: Verify the setup {#verify}
 
@@ -72,7 +74,13 @@ dig @ns1.dnsimple-edge.com example.com
 
 ### Hidden primary is not exposed {#verify-hidden}
 
-Verify that the hidden primary name servers are not publicly exposed. Confirm WHOIS or registrar name servers list DNSimple only, for example:
+Verify that the hidden primary name servers are not publicly exposed. Query WHOIS for the domain:
+
+```
+whois example.com
+```
+
+The name servers listed should be DNSimple only:
 
 ```
 Name Server: ns1.dnsimple-edge.com
