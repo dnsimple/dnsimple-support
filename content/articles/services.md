@@ -105,6 +105,13 @@ Services are defined in an open-source repository on GitHub. You can fork and up
 
 Visit [our github repository](https://github.com/dnsimple/dnsimple-services) for full instructions.
 
+## Related articles {#related}
+
+- [DNS at DNSimple](/articles/dns/) - The records a service creates, and where to edit them afterward.
+- [DNS Templates at DNSimple](/articles/dns-templates-at-dnsimple/) - Your own reusable record sets, built on the same mechanism as services.
+- [Connectors at DNSimple](/articles/connectors-at-dnsimple/) - When to connect a domain to a Heroku app or Netlify site instead of applying a service.
+- [Email Services at DNSimple](/articles/emails/) - Mail provider setup, including the email services listed above.
+
 ## Have more questions?
 
 If you have additional questions or need any assistance with our One-click Services, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

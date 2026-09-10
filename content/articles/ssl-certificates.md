@@ -99,6 +99,12 @@ From the certificate section you can [purchase a new SSL certificate](/articles/
 
 The [SSL Certificate frequently asked questions](/articles/faq-ssl-certificates/) page contains the most common questions about DNSimple SSL certificates.
 
+## Related articles {#related}
+
+- [DNS at DNSimple](/articles/dns/) - CAA records control which certificate authorities may issue for your domain.
+- [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/) - DANE publishes certificate constraints in DNSSEC-signed records.
+- [Domains and Transfers at DNSimple](/articles/domains-and-transfers/) - A domain has to be in your account before you can order a certificate for it.
+
 ## Have more questions?
 
 If you have any questions or need assistance, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
