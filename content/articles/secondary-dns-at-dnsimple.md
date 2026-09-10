@@ -56,11 +56,11 @@ Inbound AXFR: an external primary holds the zone; DNSimple is the secondary. Pla
 - [Secondary DNS Glossary](/articles/secondary-dns-glossary/) - Definitions for zone transfers, AXFR, NOTIFY, SOA serials, leader and follower, and related terms.
 - [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/) - API endpoints for managing secondary DNS configuration.
 
-## Related {#related}
+## Related articles {#related}
 
-- [Empty Non-Terminals](/articles/empty-non-terminals/)
-- [DNSimple name servers](/articles/dnsimple-nameservers/)
-- [Why Anycast DNS](/articles/why-anycast-dns/)
+- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) - A difference in behavior between providers that can look like a record missing after a transfer.
+- [DNSimple Name Servers](/articles/dnsimple-nameservers/) - The name servers to include in your delegation when DNSimple is one of two providers.
+- [What Is Anycast DNS and Why Use It?](/articles/why-anycast-dns/) - Why every DNSimple zone is already served redundantly before you add a second provider.
 
 ## Have more questions?
 
