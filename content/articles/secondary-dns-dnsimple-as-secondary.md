@@ -43,9 +43,10 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 
 1. Log in to DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
-1. Open the <label>Domain Names</label> tab.
+1. In the top header, click <label>Domain Names</label>.
   ![Secondary DNS tab](/files/domain-names-tab.png)
-1. Click <label>Add</label> (or <label>Add new</label>), then choose <label>Secondary DNS zone (with DNSimple as follower)</label>.
+1. On the Domain Names page, click <label>Add new</label> (upper right, next to <label>Export</label>).
+1. Choose <label>Secondary DNS zone (with DNSimple as follower)</label>.
   ![Add new Secondary DNS Zone](/files/add-new-button-secondary-dns-with-dnsimple-as-follower.png)
 1. Enter the domain name for which you want DNSimple as the secondary DNS provider.
   ![Secondary Zone form](/files/secondary-zone-form.png)
@@ -97,7 +98,7 @@ Linking enables AXFR so DNSimple stays in sync with your primary.
 DNSimple attempts the first zone transfer after linking. This can take a few minutes, especially if you just updated the ACL.
 
 > [!NOTE]
-> If more than 10 minutes have passed and no records appear, confirm DNSimple AXFR client IPs are on the access-control list (ACL) at your primary. Then unlink and link the primary server again. If it still fails, [contact support](https://dnsimple.com/feedback).
+> If you added DNSimple to the primary ACL after linking, or more than 10 minutes have passed and no records appear, confirm the AXFR client IPs are allowed, then use <label>Unlink primary server</label> and <label>Link primary server</label> again. If it still fails, [contact support](https://dnsimple.com/feedback).
 
 ## Delegate through both providers {#delegation}
 
@@ -129,19 +130,20 @@ Example:
 
 ## Remove an inbound secondary zone {#remove}
 
-If you created a secondary zone by mistake, or you no longer want DNSimple as a secondary for that domain, remove it in two steps: unlink the primary, then delete the zone.
+If you created a secondary zone by mistake, or you no longer want DNSimple as a secondary for that domain, unlink the primary server, then delete the domain from your account.
 
 <div class="section-steps" markdown="1">
 ##### Unlink and delete a secondary zone
 
-1. Open the secondary zone from the <label>Domain Names</label> tab.
-1. Unlink any linked primary servers so DNSimple stops transferring the zone.
-1. Delete the secondary zone from your account (same flow as deleting a domain or zone you no longer need).
+1. In the top header, click <label>Domain Names</label>, then open the secondary zone.
+1. In the <label>Primary servers</label> list, click <label>Unlink primary server</label> for each linked primary (trash icon). Confirm when prompted.
+1. On the left tabs for that domain, click <label>Settings</label>.
+1. On the <label>Delete domain</label> card, click <label>Delete domain</label>, then confirm. See [Delete a Domain](/articles/deleting-domain/) for details.
 1. If your registrar delegation listed DNSimple name servers for this domain, update delegation so it no longer points at DNSimple for that zone.
-1. Optionally remove the primary server entry from your account if no other secondary zones use it.
+1. Optionally, open the primary server entry and, on the <label>Delete primary server</label> card, click <label>Delete</label> if no other secondary zones use it.
 </div>
 
-After you delete the secondary zone, DNSimple no longer answers queries for that zone. Resolution continues on whatever name servers remain in the public delegation and at your primary.
+After you delete the domain, DNSimple no longer answers queries for that zone. Resolution continues on whatever name servers remain in the public delegation and at your primary.
 
 Outbound secondary DNS (DNSimple as primary) uses a different teardown path, including a staged wait before zone transfers stop. See [Disable secondary DNS](/articles/secondary-dns/#disable) in [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
