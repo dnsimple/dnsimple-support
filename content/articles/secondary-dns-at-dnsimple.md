@@ -41,11 +41,20 @@ Inbound AXFR: an external primary holds the zone; DNSimple is the secondary. Pla
 
 - [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/)
 - [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/)
-- [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/)
 
 ## Multi-provider without zone transfers {#without-axfr}
 
 - [Using DNSimple alongside other DNS providers](/articles/secondary-dnsimple/)
+
+## Troubleshoot {#troubleshoot}
+
+- [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/) - How to find where a transfer stopped when a secondary zone is no longer updating.
+
+## Reference {#reference}
+
+- [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/) - Every configuration field in both directions, with limits and accepted formats.
+- [Secondary DNS Glossary](/articles/secondary-dns-glossary/) - Definitions for zone transfers, AXFR, NOTIFY, SOA serials, leader and follower, and related terms.
+- [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/) - API endpoints for managing secondary DNS configuration.
 
 ## Related {#related}
 
