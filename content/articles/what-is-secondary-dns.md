@@ -68,7 +68,7 @@ Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
 ## Inbound secondary DNS (DNSimple as secondary) {#inbound}
 
-With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
+With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account, reached from <label>Add</label> > <label>Secondary DNS zone (with DNSimple as follower)</label>. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
 - Inbound secondary DNS is available on the [Teams plan or higher](/articles/dnsimple-plans/#feature-comparison).
 - Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.
