@@ -16,7 +16,7 @@ categories:
 
 ---
 
-A hidden primary setup keeps your primary DNS server off public name server lists while DNSimple answers public queries as the secondary. You still edit the zone on the primary. DNSimple pulls updates over AXFR.
+A hidden primary setup keeps your primary DNS server off public name server lists while DNSimple answers public queries as the secondary. You still edit the zone on the primary. DNSimple pulls updates over AXFR. Keeping the primary off public NS records can reduce direct exposure of that server to the internet.
 
 There is no separate "hidden primary" product in the DNSimple UI. You use the same inbound secondary DNS flow (Secondary Zones and Primary Servers), then publish only DNSimple name servers at the registrar.
 
@@ -30,12 +30,12 @@ This guide builds on [Add DNSimple as a secondary DNS server](/articles/secondar
 ## Requirements {#requirements}
 
 1. A primary DNS system that supports AXFR.
-1. A DNSimple account on a plan that includes DNSimple as secondary DNS (typically Professional and higher).
+1. A DNSimple account on a plan that includes DNSimple as secondary DNS (Teams or Enterprise).
 1. Ability to change domain delegation at your registrar.
 
 ## Step 1: Set up DNSimple as secondary DNS {#setup-secondary}
 
-Follow [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) to create the secondary zone, add the primary server, and link them.
+Follow [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) to create the secondary zone, add the primary server, allow DNSimple on the primary ACL, and link them.
 
 ## Step 2: Update delegation at your registrar {#delegation}
 
@@ -79,4 +79,4 @@ Name Server: ns4.dnsimple-edge.org
 
 ## Have more questions?
 
-If you have questions about this setup, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+If you have questions about this setup, [contact support](https://dnsimple.com/feedback), and we will be happy to help.
