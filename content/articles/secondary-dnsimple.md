@@ -1,7 +1,7 @@
 ---
 title: Using DNSimple alongside other DNS providers
-excerpt: Run DNSimple next to another DNS provider without AXFR by keeping both zones in sync yourself.
-meta: Use DNSimple with another DNS provider without zone transfers. Keep zones in sync with the record editor, zone import, API, or infrastructure-as-code tools.
+excerpt: Run DNSimple next to another DNS provider without automatic zone transfers by keeping both zones in sync yourself.
+meta: Use DNSimple with another DNS provider without AXFR zone transfers. Keep zones in sync with the record editor, zone import, API, or infrastructure-as-code tools.
 categories:
 - Secondary DNS
 - Enterprise
@@ -18,8 +18,8 @@ categories:
 
 You can run DNSimple next to another DNS provider **without** automatic zone transfers. You are responsible for keeping both zones in sync. This is not inbound or outbound secondary DNS via AXFR.
 
-> [!WARNING]
-> For automatic AXFR between DNSimple and another provider, use [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) (DNSimple as primary) or [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) (DNSimple as secondary). See [What is Secondary DNS?](/articles/what-is-secondary-dns/) for the difference.
+> [!NOTE]
+> For automatic AXFR between DNSimple and another provider, use [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) (DNSimple as primary) or [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) (DNSimple as secondary). See [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/) for the difference.
 
 Ways to keep zones aligned:
 
@@ -30,13 +30,13 @@ Ways to keep zones aligned:
 
 This diagram shows how zone changes must be applied to both providers:
 
-![Externally managed Secondary DNS diagram](/files/secondary_dns_externally_managed.jpg)
+![Zone changes applied to both DNSimple and another DNS provider](/files/secondary_dns_externally_managed.jpg)
 
-## Hosted domain {#hosted}
+## Adding another provider's name servers to a hosted zone {#hosted}
 
 To publish name servers from both providers on a hosted zone, follow [Updating Zone NS Records for a Hosted Domain](/articles/zone-ns-records/).
 
-## Registered domain {#registered}
+## Adding another provider's name servers to a registered domain {#registered}
 
 To publish name servers from both providers for a domain registered with DNSimple, follow [Change delegation to another DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
