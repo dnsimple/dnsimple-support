@@ -95,3 +95,7 @@ For the full list of TLDs supported for registration and transfer, see [dnsimple
 - [Domains and Transfers at DNSimple](/articles/domains-and-transfers/) - Registering, transferring, and renewing domains under any of these TLDs.
 - [Domain Contacts at DNSimple](/articles/domain-contacts-at-dnsimple/) - The registrant details registries require, including the local presence some TLDs ask for.
 - [WHOIS Privacy at DNSimple](/articles/whois-privacy-at-dnsimple/) - Whether privacy is available at all depends on the TLD's registry.
+
+## Have more questions?
+
+If you have any questions about TLDs, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

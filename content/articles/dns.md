@@ -183,3 +183,7 @@ These live in other categories but come up often alongside DNS:
 - [Email Services at DNSimple](/articles/emails/) - The MX, SPF, DKIM, and DMARC records that carry and authenticate mail.
 - [DNS Templates at DNSimple](/articles/dns-templates-at-dnsimple/) - Reusable record sets you can apply across many zones.
 - [One-click Services](/articles/services/) - Prebuilt record sets for known providers, applied in one step.
+
+## Have more questions?
+
+If you have any questions about DNS at DNSimple, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

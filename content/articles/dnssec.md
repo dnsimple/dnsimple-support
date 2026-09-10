@@ -66,3 +66,7 @@ Dive deeper into the specifics of DNSSEC with our comprehensive reference materi
 - [DNS at DNSimple](/articles/dns/) - The zone and the records that DNSSEC signs.
 - [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/) - Moving DNS to another provider means updating the DS records at the registry.
 - [SSL/TLS Certificates](/articles/ssl-certificates/) - DANE uses DNSSEC-signed records to authenticate TLS certificates.
+
+## Have more questions?
+
+If you have any questions about DNSSEC, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
