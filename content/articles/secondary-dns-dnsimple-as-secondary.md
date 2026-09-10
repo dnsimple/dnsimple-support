@@ -44,12 +44,12 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 1. Log in to DNSimple with your user credentials.
 1. If you have more than one account, select the relevant one.
 1. In the top header, click <label>Domain Names</label>.
-  ![Secondary DNS tab](/files/domain-names-tab.png)
+    ![Secondary DNS tab](/files/domain-names-tab.png)
 1. On the Domain Names page, click <label>Add new</label> (upper right, next to <label>Export</label>).
 1. Choose <label>Secondary DNS zone (with DNSimple as follower)</label>.
-  ![Add new Secondary DNS Zone](/files/add-new-button-secondary-dns-with-dnsimple-as-follower.png)
+    ![Add new Secondary DNS Zone](/files/add-new-button-secondary-dns-with-dnsimple-as-follower.png)
 1. Enter the domain name for which you want DNSimple as the secondary DNS provider.
-  ![Secondary Zone form](/files/secondary-zone-form.png)
+    ![Secondary Zone form](/files/secondary-zone-form.png)
 1. Create the zone.
 </div>
 
@@ -63,7 +63,7 @@ Primary server entries can be reused across all the secondary zones you set up. 
 1. Open the secondary zone you created.
 1. Add a primary server.
 1. Enter an alias name, the IP address, and the port from your primary DNS provider.
-  ![Primary Server form](/files/primary-server-form.png)
+    ![Primary Server form](/files/primary-server-form.png)
 1. Save the primary server.
 </div>
 
@@ -71,7 +71,7 @@ Primary server entries can be reused across all the secondary zones you set up. 
 
 Allow DNSimple's AXFR client IPs on your primary provider ACL **before** you link the zone. Zone transfers fail until the ACL allows these clients.
 
-#### Production
+### Production {#production-ips}
 
 - `3.12.234.2`
 - `2600:1f16:ae2:e900:f05c:9438:865f:64a0`
@@ -90,9 +90,9 @@ Linking a secondary zone to a primary server enables zone transfers (AXFR) that 
 
 1. Open the secondary zone by clicking the zone name.
 1. Select <label>Link primary server</label>.
-  ![Secondary Zone view](/files/secondary-zone-view.png)
+    ![Secondary Zone view](/files/secondary-zone-view.png)
 1. Choose the primary server you want to pull the zone file from. You can choose more than one primary server.
-  ![Link Secondary Zone to Primary Server](/files/link-secondary-zone-to-primary.png)
+    ![Link Secondary Zone to Primary Server](/files/link-secondary-zone-to-primary.png)
 </div>
 
 DNSimple attempts the first zone transfer after linking to sync the zone with DNS records from the primary. This can take a few minutes, especially if you just added DNSimple's AXFR client IPs to the primary ACL.
@@ -132,16 +132,19 @@ Example:
 
 ## Remove an inbound secondary zone {#remove}
 
-If you created a secondary zone by mistake, or you no longer want DNSimple as a secondary for that domain, unlink the primary server, then delete the domain from your account.
+If you created a secondary zone by mistake, or you no longer want DNSimple as a secondary for that domain, move delegation away from DNSimple, unlink the primary server, then delete the domain from your account.
+
+> [!WARNING]
+> Deleting a domain permanently removes its records from your DNSimple account. This is irreversible. If the domain still resolves through DNSimple, resolution stops as soon as the records expire according to their TTL, so move delegation away from DNSimple first. Deleting a domain from your account does not cancel a registration held at DNSimple. See [Delete a Domain](/articles/deleting-domain/).
 
 <div class="section-steps" markdown="1">
 ##### Unlink and delete a secondary zone
 
+1. If your registrar delegation lists DNSimple name servers for this domain, update the delegation first so it no longer points at DNSimple for that zone. Wait for the old NS records to expire according to their TTL.
 1. In the top header, click <label>Domain Names</label>, then open the secondary zone.
 1. In the <label>Primary servers</label> list, click <label>Unlink primary server</label> for each linked primary (trash icon). Confirm when prompted.
 1. On the left tabs for that domain, click <label>Settings</label>.
-1. On the <label>Delete domain</label> card, click <label>Delete domain</label>, then confirm. See [Delete a Domain](/articles/deleting-domain/) for details.
-1. If your registrar delegation listed DNSimple name servers for this domain, update delegation so it no longer points at DNSimple for that zone.
+1. On the <label>Delete domain</label> card, click <label>Delete domain</label>, then confirm.
 1. Optionally, open the primary server entry and, on the <label>Delete primary server</label> card, click <label>Delete</label> if no other secondary zones use it.
 </div>
 
