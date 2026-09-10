@@ -34,7 +34,7 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 1. Ability to change domain delegation at your registrar if you want both providers in the public NS set.
 
 > [!WARNING]
-> Do not add DNSimple as a secondary DNS server for zones that need DNSSEC in DNSimple. DNSimple does not import external RRSIG records, which produces resolution failures for DNSSEC-aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
+> Do not add DNSimple as a secondary DNS server for zones that need DNSSEC in DNSimple. DNSimple does not import external RRSIG records, which produces resolution failures for DNSSEC aware resolvers. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/).
 
 ## Add a secondary zone {#add-zone}
 
