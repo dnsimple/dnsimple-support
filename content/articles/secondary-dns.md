@@ -141,13 +141,11 @@ Please prefer the host name whenever possible. If any of these IP addresses shou
 
     Secondary DNS is when you use a special protocol called AXFR to automatically transfer your zones to a secondary DNS provider whenever they change. This allows you to use DNSimple's name servers and another DNS provider's name servers at the same time.
 
-    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those name servers may be used at any time by resolvers - not just when an issue arises resolving names through our name servers.
+    This lets you have an active redundancy in your domain name resolution. If an issue came up with DNSimple, you'd still have active resolution with your other provider. This disaster prevention is very valuable to any products that need high uptime. When secondary DNS is enabled, those name servers may be used at any time by resolvers – not just when an issue arises resolving names through our name servers.
 
 1.  #### Can DNSimple serve as a secondary DNS provider?
 
-    Yes. DNSimple can pull your zone from an external primary over AXFR. See [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/), or [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/) if your primary is not publicly listed.
-
-    If you prefer not to use zone transfers, you can run both providers in parallel and keep the zones in sync yourself. See [Using DNSimple alongside other DNS providers](/articles/secondary-dnsimple/).
+    DNSimple can't synchronize zone changes from other name servers using AXFR. But you can combine our secondary DNS feature with our API or UI to have zone redundancy with other DNS providers. See [DNSimple as a Secondary DNS provider](/articles/secondary-dnsimple/).
 
 1.  #### How can I check that my secondary DNS configuration is correct?
 
