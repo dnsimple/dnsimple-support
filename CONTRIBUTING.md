@@ -249,6 +249,14 @@ After making changes:
 rake run
 ```
 
+### Pillar pages
+
+Each category's `Getting started` entry is its pillar page: the hub that orients a reader and links out to the rest of the category.
+
+When you add an article to a category, add it to that category's pillar page in the same PR, including when the article is still in an open PR of its own. An article reachable only through the category listing is easy to miss.
+
+For the required structure of a pillar page, see the `Pillar pages` section of `.cursor/rules/article-structure.mdc`.
+
 ## Git and PR Guidelines
 
 ### Branching

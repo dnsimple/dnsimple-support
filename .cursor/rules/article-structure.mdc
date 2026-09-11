@@ -183,6 +183,26 @@ Concrete, citable facts make an article more useful to a reader and more quotabl
 - Include natural-language variations of key terms — people ask AI assistants in full sentences, not keyword fragments. Think "How do I renew an SSL certificate in DNSimple?" not just "renew SSL certificate."
 - Use the `excerpt` for user-facing summaries and `meta` for search/AI-facing descriptions. Both should contain the primary keyword.
 
+## Pillar pages
+
+A **pillar page** is a category's hub: the article listed under `Getting started` in the category YAML. It orients the reader and links out to the rest of the category. A pillar does not restate what the articles it links to already say.
+
+A pillar page has:
+
+- `categories` in its frontmatter naming its own category. Without it, the `Getting started` YAML section does not render.
+- Sections that group the category's articles by what the reader is trying to do, not by Diataxis label. Concepts first, then tasks, with Reference and Troubleshooting near the end.
+- Link text that is the target article's exact frontmatter `title`, followed by ` - ` and a one-line gloss saying what the reader gets from it.
+- A `## Related articles {#related}` section, second to last. It points at articles in **other** categories that come up alongside this one, in the same title-plus-gloss format. Links within the category belong in the sections above, not here.
+- The standard `## Have more questions?` closing CTA, last.
+
+Use `content/articles/domain-contacts-at-dnsimple.md` as the reference implementation.
+
+### Keeping a pillar current
+
+When you add an article to a category, add it to that category's pillar page in the same PR. An article that is reachable only through the category listing is easy to miss, and a pillar that is missing entries stops being a reliable entry point.
+
+This applies to articles still in open PRs. If two branches each add an article to the same category, the pillar needs both, and the category YAML will conflict where both branches appended to it. Resolve by keeping both sides.
+
 ## Category YAML
 
 When creating a new article, add it to the appropriate category YAML file in `categories/`. Articles not listed in a YAML file are grouped under "Other."
