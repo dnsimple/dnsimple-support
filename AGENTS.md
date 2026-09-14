@@ -49,6 +49,6 @@ This is the DNSimple Help site (https://support.dnsimple.com), a static site bui
 
 ## Support Widget
 
-The support widget is a Vue.js component in `_widget/` that provides search across support and developer documentation. See `_widget/index.html` for local development, `npm run dev` to start, and `npm test` for specs.
+The support widget is a Vue.js component in `_widget/` that provides search across support and developer documentation. See `_widget/index.html` for local development, `npm run widget` to start, and `npm test` for specs.
 
 To pin articles to the top of search results for specific queries, edit `_widget/src/components/app/rigged-results.yml`.
