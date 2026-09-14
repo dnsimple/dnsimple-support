@@ -33,38 +33,40 @@ The SOA serial tells you whether a transfer happened at all. Every provider serv
 Query each set of name servers directly rather than through a resolver, so you see what each provider is actually serving:
 
 ```
-dig +short SOA example.com @ns1.dnsimple.com
+dig +short SOA example.com @ns1.dnsimple-edge.com
 dig +short SOA example.com @ns.your-other-provider.net
 ```
 
 Read the result as follows:
 
-- **Serials match.** The transfer is working. If a specific record is still missing, skip to [a single record is missing](#single-record).
+- **Serials match.** The transfer is working. If a specific record is still missing, skip to [find a single missing record](#single-record).
 - **Serials differ.** The secondary is behind. Continue with the section for your direction below.
 - **The secondary returns nothing, or refuses the query.** The secondary is not serving the zone at all. Check that the zone still exists at that provider before looking at transfers.
 
 > [!TIP]
 > Note the serial on each side before you make a change, then repeat the query afterwards. A secondary that never moves is a different problem from one that moves slowly.
 
-## DNSimple as primary: the secondary is behind {#outbound}
+## Fix a secondary that is behind DNSimple {#outbound}
 
-DNSimple reports what it can see from each of your secondary name servers on the <label>Secondary DNS</label> card.
+When DNSimple is the primary, DNSimple reports what it can see from each of your secondary name servers on the <label>Secondary DNS</label> card.
 
 ### Read the status DNSimple reports {#outbound-status}
 
-Each name server in the configuration is listed with its current state:
+The <label>Name servers</label> row lists each name server in the configuration with an icon next to it. A check mark means DNSimple considers that name server synchronized. A warning icon means it does not. Hover over the icon to see the details:
 
 - **`Serial: <number>; Refresh: <number>`** - DNSimple read an SOA from that name server. Compare the serial with the one DNSimple is serving.
 - **`No information yet`** - DNSimple has not been able to read an SOA from that name server at all. The name server is not serving the zone yet, or it is not reachable.
 
 DNSimple treats a secondary as synchronized only when the serial, the refresh value, **and** the SOA primary name server field all match the zone as published at `axfr.dnsimple.com`. A secondary that copied the zone but rewrites the SOA primary field will keep showing as out of sync even though the records are correct. Raise that with your secondary provider rather than changing the configuration at DNSimple.
 
-You may also see one of these messages:
+A warning above the table may also show one of these messages:
 
+- **"The domain is suspended due to registrant verification."** The domain is registered at DNSimple and suspended until the registrant contact is verified. The configuration does not take effect until that is resolved. See [Domain Validation Requirements](/articles/icann-domain-validation/).
+- **"DNS resolution is disabled for this domain."** Enable DNS resolution for the domain, then check the card again.
+- **"The domain is not resolving through one or more primary or secondary name servers."** At least one name server in the configuration is not answering for the zone.
+- **"The configuration update is propagating to the primary name server."** A change is still being applied. This clears on its own.
 - **"One or more of the secondary name servers for this configuration are serving stale data."** The secondary answered, but with an older zone. Continue with the checks below.
 - **"The registry is missing one or more name servers for this configuration."** The transfer may be fine, but the delegation is not. The message names the name servers to add. Update them at your registrar, or at DNSimple if the domain is registered here, then allow time for the change to propagate.
-- **"The domain is not resolving through one or more primary or secondary name servers."** At least one name server in the delegation is not answering for the zone.
-- **"The configuration update is propagating to the primary name server."** A change is still being applied. This clears on its own.
 
 ### Check the IP whitelist, which also controls NOTIFY {#outbound-whitelist}
 
@@ -75,9 +77,10 @@ That second job is easy to miss. If your provider transfers from one set of addr
 <div class="section-steps" markdown="1">
 
 1. Open the domain, select <label>DNS</label>, and find the <label>Secondary DNS</label> card.
-1. Select <label>Configure</label> to review the configuration.
-1. Ask your secondary provider for **every** address it uses, both to request transfers and to receive notifications, and confirm all of them are listed.
-1. Save the configuration and make a small zone change to trigger a fresh notification.
+1. Select <label>Edit</label> to open the configuration.
+1. Ask your secondary provider for **every** address it uses, both to request transfers and to receive notifications, and confirm all of them are listed under <label>IPs to whitelist</label>.
+1. Select <label>Enable</label> to save the configuration.
+1. Compare SOA serials again. If the secondary has not moved, make a small zone change to trigger a fresh notification.
 
 </div>
 
@@ -93,18 +96,20 @@ Your secondary provider pulls the zone from `axfr.dnsimple.com`. Some providers 
 
 If the provider allows outbound transfers by address, make sure both are permitted.
 
-## DNSimple as secondary: the zone is not updating at DNSimple {#inbound}
+## Fix a secondary zone that is not updating at DNSimple {#inbound}
 
-Open the secondary zone from your account to see its transfer state.
+When DNSimple is the secondary, open the domain, select <label>DNS</label>, and select <label>Configure</label> on the <label>Secondary DNS</label> card to see the zone's transfer state.
 
 ### Read the transfer state {#inbound-status}
 
+The <label>Records</label> card shows one of these:
+
 - **`Last transferred <time> ago`** - a transfer succeeded then. Compare that against when you changed the record.
-- **`No zone records have been transferred yet`** - no transfer has ever completed. This is a setup problem, not a sync problem. Recheck the primary server address and port, and confirm your primary allows transfers from DNSimple.
+- **`No zone records have been transferred yet`** - no transfer has ever completed. This is a setup problem, not a sync problem. Recheck the primary server IP address and port number, and confirm your primary allows transfers from DNSimple.
 
 ### Check the primary allows the transfer {#inbound-primary}
 
-Your primary must permit zone transfers from DNSimple and should notify DNSimple when the zone changes. The addresses to allow are listed in [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/).
+Your primary must permit zone transfers from DNSimple and should notify DNSimple when the zone changes. The DNSimple AXFR client IP addresses to allow are listed in [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/#configuring-axfr-at-your-primary-dns-provider).
 
 Confirm on your own primary that the transfer is being offered:
 
@@ -120,25 +125,27 @@ If the primary is reachable, offers transfers, and DNSimple is still showing an 
 
 <div class="section-steps" markdown="1">
 
-1. Open the secondary zone.
-1. Select <label>Unlink primary server</label> and confirm.
-1. Link the primary server again.
-1. Recheck <label>Last transferred</label> after a few minutes.
+1. Open the domain, select <label>DNS</label>, and select <label>Configure</label> on the <label>Secondary DNS</label> card.
+1. In the <label>Primary servers</label> card, open the actions menu next to the primary server and select <label>Unlink primary server</label>, then confirm.
+1. Select <label>Link primary server</label>, select the same primary server, and select <label>Link to example.com</label>.
+1. Recheck the <label>Records</label> card after a few minutes.
 
 </div>
+
+If that was the only primary server linked to the zone, the <label>Records</label> card shows "No zone records have been transferred yet" until the next transfer completes. That is expected after a relink.
 
 > [!WARNING]
 > Unlinking a primary server affects the records transferred to the zone. Do this when the zone is already stale, not as a routine check.
 
-## A single record is missing {#single-record}
+## Find a single missing record {#single-record}
 
-If the serials match and the zone transferred, but one record never appears, that record was rejected individually rather than the transfer failing.
+If the serials match and the zone transferred, but one record never appears, that record was handled individually rather than the whole transfer failing. Where to look depends on the direction.
 
-DNSimple records these per-record failures with the reason each one was rejected, but that detail is visible only to DNSimple staff. Retrying the transfer will not clear it, because the record is rejected again each time.
+**DNSimple as secondary.** DNSimple records per-record failures, both for records it could not add and for records it could not remove after they were deleted at your primary. The reason for each failure is visible only to DNSimple staff, and retrying the transfer usually does not clear it. [Contact support](https://dnsimple.com/feedback) with the zone name, the exact record name and type, and where you can see it on your primary. Support can read the failure reason and tell you what to change.
 
-[Contact support](https://dnsimple.com/feedback) with the zone name, the exact record name and type, and where you can see it on your primary. Support can read the rejection reason and tell you what to change.
+**DNSimple as primary.** If the record is at DNSimple but missing at your secondary provider, the secondary rejected or dropped it. DNSimple has no record of that, so check with your secondary provider. Records that providers answer for differently, such as [empty non-terminals](/articles/empty-non-terminals/), can also look like a missing record.
 
-## Records change when you did not change anything {#unexpected-changes}
+## Check for ALIAS records when records change on their own {#unexpected-changes}
 
 If you monitor your zone, you may see the serial increase and records change with no edit on your side. When DNSimple is the primary and the zone has an ALIAS record, this is expected: ALIAS cannot be transferred as a record type, so DNSimple resolves it to A and AAAA records and refreshes them on a schedule. Each refresh that changes an address changes the zone your secondary pulls.
 
@@ -148,7 +155,7 @@ See [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary
 
 - [What is Secondary DNS?](/articles/what-is-secondary-dns/) - primary and secondary roles, and how zone transfers work
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - resolution failures that look like transfer failures
-- [Empty Non-Terminals](/articles/empty-non-terminals/) - a difference in behavior between providers that can look like a missing record
+- [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) - a difference in behavior between providers that can look like a missing record
 
 ## Have more questions?
 
