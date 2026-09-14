@@ -85,7 +85,11 @@ For step-by-step instructions, see [Transfer a Domain to Another DNSimple Accoun
 
 ## Canceling a transfer {#canceling-a-transfer}
 
-If a domain is still in the transfer process, you can cancel the transfer, and the domain will not be moved away from your current registrar. To cancel, navigate to your domain, click "View status" under the "Transferring" card, then click "Cancel transfer".
+If a domain is still in the transfer process, you can cancel the transfer, and the domain will not be moved away from your current registrar.
+
+To cancel, open the domain in your DNSimple account. While a transfer is open, the domain's page shows a card headed "*your domain* is being transferred". The card lists the transfer status, the date the transfer started, and the expected transfer date. Click **Cancel transfer** on that card.
+
+Not every TLD allows a transfer to be cancelled once it has been submitted. When the registry for your TLD does not support cancellation, the card says so in place of the **Cancel transfer** link.
 
 ## TLD-specific considerations {#tld-specific-considerations}
 

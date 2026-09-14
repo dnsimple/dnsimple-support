@@ -32,15 +32,18 @@ This article explains the requirements and special procedures for .IS domain nam
 </div>
 
 <div class="section-steps" markdown="1">
-##### 2. Providing DNSimple's contact handle
+##### 2. Providing the .IS contact handle
 
-`.IS` domains do not use authorization codes (auth codes). Instead, the transfer process requires providing DNSimple's contact handle to your current registrar.
+`.IS` domains do not use authorization codes (auth codes). The handoff happens at the registry (ISNIC) between the two registrars. Your current registrar needs the contact handle that `.IS` transfers to DNSimple arrive under.
 
-1. After you've started the transfer, contact your current registrar and provide them with DNSimple's `.IS` contact handle:
+1. After you've started the transfer, contact your current registrar and provide them with this `.IS` contact handle:
 
    **BDB2-IS**
 
 </div>
+
+> [!NOTE]
+> If you look up `BDB2-IS` in the ISNIC WHOIS, it will not show DNSimple's name. `.IS` transfers reach the registry through a registry partner, and the handle belongs to them. This is expected, and it is still the correct handle to give your current registrar.
 
 
 ## Have more questions? 
