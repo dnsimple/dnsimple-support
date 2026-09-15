@@ -39,7 +39,7 @@ This is the standard approach. DNSimple acts as the primary DNS server and autom
 
 1. You configure a secondary DNS provider (such as Dyn, DNSMadeEasy, or EasyDNS) or any provider that supports AXFR.
 2. You [enable secondary DNS](/articles/secondary-dns/) in your DNSimple account for the domain.
-3. DNSimple sends zone transfers to the secondary provider whenever records change.
+3. DNSimple sends [zone transfers](/articles/secondary-dns-glossary/#zone-transfer) to the secondary provider whenever records change.
 4. You update your domain's delegation at the registrar to include the secondary provider's name servers alongside DNSimple's.
 
 **Considerations:**

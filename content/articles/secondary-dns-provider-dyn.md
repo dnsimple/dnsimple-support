@@ -24,7 +24,7 @@ You can get started with secondary DNS from the DNS section of the domain manage
 
 First, set up secondary DNS at Dyn. You'll find instructions for setting up secondary DNS using Dyn Standard on the [Dyn help site](https://help.dyn.com/standard-dns/dyn-secondary-dns-information/).
 
-During setup, use the following address as the primary server to perform AXFR transfers:
+During setup, use the following address as the primary server to perform [AXFR](/articles/secondary-dns-glossary/#axfr) transfers:
 
 * Name: axfr.dnsimple.com
 * IP: 18.189.127.127
