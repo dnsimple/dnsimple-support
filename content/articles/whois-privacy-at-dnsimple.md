@@ -24,7 +24,7 @@ categories:
 
 ## Check whether your TLD supports it {#tld-support}
 
-Not every TLD allows WHOIS Privacy. To check, find the TLD on the [TLD pricing page](https://dnsimple.com/tlds) and look at the WHOIS privacy column.
+Not every TLD allows WHOIS Privacy. To check, find the TLD on the [TLD pricing page](https://dnsimple.com/tlds), open that TLD's page, and look for <label>Whois Privacy</label> in the domain details.
 
 If a TLD does not support the service, the contact card on the domain's <label>Registration</label> tab reads "WHOIS Privacy is not supported" and no enable button appears. This is a registry restriction, so it applies to every domain under that TLD.
 

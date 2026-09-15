@@ -20,7 +20,7 @@ The [WHOIS Privacy protection service](/articles/what-is-whois-privacy/) keeps y
 WHOIS Privacy is included at no cost on every DNSimple plan. You can enable it for any of your domains at any time, as long as the domain is registered with us and the TLD supports the service.
 
 > [!TIP]
-> Not every TLD supports WHOIS Privacy. To check before you start, find the TLD on the [TLD pricing page](https://dnsimple.com/tlds) and look at the WHOIS privacy column.
+> Not every TLD supports WHOIS Privacy. To check before you start, find the TLD on the [TLD pricing page](https://dnsimple.com/tlds), open that TLD's page, and look for <label>Whois Privacy</label> in the domain details.
 
 ## Enabling WHOIS Privacy {#enable}
 
