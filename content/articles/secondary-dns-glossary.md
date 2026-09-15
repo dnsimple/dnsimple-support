@@ -37,11 +37,11 @@ Learn more:
 
 ### Leader
 
-The wording DNSimple uses for the primary role. The account Add menu offers "Secondary DNS zone (with DNSimple as leader)", meaning DNSimple holds the zone and another provider copies it.
+The wording DNSimple uses for the primary role. The Add new menu on the Domain Names page offers "Secondary DNS zone (with DNSimple as leader)", meaning DNSimple holds the zone and another provider copies it.
 
 ### Follower
 
-The wording DNSimple uses for the secondary role. The account Add menu offers "Secondary DNS zone (with DNSimple as follower)", meaning another provider holds the zone and DNSimple copies it.
+The wording DNSimple uses for the secondary role. The Add new menu on the Domain Names page offers "Secondary DNS zone (with DNSimple as follower)", meaning another provider holds the zone and DNSimple copies it.
 
 ### Outbound secondary DNS
 
@@ -53,7 +53,7 @@ Learn more:
 
 ### Inbound secondary DNS
 
-DNSimple as secondary. Another provider holds the zone and DNSimple transfers it in. Configured from Secondary Zones and Primary Servers in your account.
+DNSimple as secondary. Another provider holds the zone and DNSimple transfers it in. Created from Domain Names > Add new > Secondary DNS zone (with DNSimple as follower). Primary servers are added and linked from inside the secondary zone.
 
 Learn more:
 
@@ -113,7 +113,7 @@ Learn more:
 
 ### Refresh interval
 
-A value in the SOA record telling a secondary how often to check the primary for a new serial. It is the fallback that keeps a zone updating when no NOTIFY arrives. DNSimple compares the refresh value as well as the serial when deciding whether a secondary is in sync.
+A value in the SOA record telling a secondary how often to check the primary for a new serial. It is the fallback that keeps a zone updating when no NOTIFY arrives. DNSimple treats a secondary as in sync only when the serial, the refresh value, and the SOA primary name server field all match the zone as published at `axfr.dnsimple.com`.
 
 ## What you configure at DNSimple {#what-you-configure}
 
@@ -127,7 +127,7 @@ Learn more:
 
 ### Secondary zone
 
-The inbound object representing a zone DNSimple copies from somewhere else. A secondary zone answers queries only after it is linked to a primary server and a transfer has completed.
+The inbound object representing a zone DNSimple copies from somewhere else. A new secondary zone has no records until it is linked to at least one primary server and a transfer completes.
 
 ### Primary server
 
@@ -139,7 +139,11 @@ Learn more:
 
 ### Whitelisted IPs
 
-The addresses allowed to transfer your zone out of DNSimple. They serve a second purpose as well: they are the addresses DNSimple sends NOTIFY to, so a provider missing from this list may never be told the zone changed.
+The addresses allowed to transfer your zone out of DNSimple. They serve a second purpose as well: DNSimple sends NOTIFY to them, so a provider missing from this list may never be told the zone changed. NOTIFY goes to individual addresses only. A CIDR range permits transfers from the whole range but does not receive notifications.
+
+Learn more:
+
+- [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/#outbound-ips)
 
 ### Transfer endpoint
 
