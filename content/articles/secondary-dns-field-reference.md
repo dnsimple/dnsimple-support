@@ -108,6 +108,7 @@ A primary server is defined once for the account and can be linked to more than 
 - [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/) - what to check when a transfer stops working
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - constraints that are not expressed as form fields
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - why the transferred zone can differ from the zone you edit
+- [Secondary DNS Glossary](/articles/secondary-dns-glossary/) - definitions for zone transfers, NOTIFY, SOA serials, primary servers, and secondary zones
 
 ## Have more questions?
 
