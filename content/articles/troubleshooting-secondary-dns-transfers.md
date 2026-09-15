@@ -28,7 +28,7 @@ If you keep two providers in sync by hand or with the API rather than with zone 
 
 ## Start by comparing SOA serials {#compare-serials}
 
-The SOA serial tells you whether a transfer happened at all. Every provider serving the zone should converge on the same serial shortly after a change.
+The [SOA serial](/articles/secondary-dns-glossary/#soa-serial) tells you whether a transfer happened at all. Every provider serving the zone should converge on the same serial shortly after a change.
 
 Query each set of name servers directly rather than through a resolver, so you see what each provider is actually serving:
 
@@ -70,7 +70,7 @@ A warning above the table may also show one of these messages:
 
 ### Check the IP whitelist, which also controls NOTIFY {#outbound-whitelist}
 
-The whitelisted IP addresses in your configuration do two separate jobs. They permit AXFR from those addresses, and they are also the addresses DNSimple sends NOTIFY to when the zone changes.
+The whitelisted IP addresses in your configuration do two separate jobs. They permit AXFR from those addresses, and they are also the addresses DNSimple sends [NOTIFY](/articles/secondary-dns-glossary/#notify) to when the zone changes.
 
 That second job is easy to miss. If your provider transfers from one set of addresses but receives NOTIFY on another, and only the first set is whitelisted, transfers still work but nothing tells the secondary to start one. The secondary then updates only when its own refresh timer expires, which can be hours. Providers usually surface this as a message about the primary not sending NOTIFY and the serials being out of sync.
 
@@ -156,6 +156,7 @@ See [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary
 - [What is Secondary DNS?](/articles/what-is-secondary-dns/) - primary and secondary roles, and how zone transfers work
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - resolution failures that look like transfer failures
 - [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) - a difference in behavior between providers that can look like a missing record
+- [Secondary DNS Glossary](/articles/secondary-dns-glossary/) - definitions for zone transfers, AXFR, NOTIFY, and SOA serials
 
 ## Have more questions?
 

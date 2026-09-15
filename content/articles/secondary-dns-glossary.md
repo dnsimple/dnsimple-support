@@ -39,9 +39,17 @@ Learn more:
 
 The wording DNSimple uses for the primary role. The Add new menu on the Domain Names page offers "Secondary DNS zone (with DNSimple as leader)", meaning DNSimple holds the zone and another provider copies it.
 
+Learn more:
+
+- [Add a secondary DNS server to DNSimple](/articles/secondary-dns/)
+
 ### Follower
 
 The wording DNSimple uses for the secondary role. The Add new menu on the Domain Names page offers "Secondary DNS zone (with DNSimple as follower)", meaning another provider holds the zone and DNSimple copies it.
+
+Learn more:
+
+- [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/)
 
 ### Outbound secondary DNS
 
@@ -115,6 +123,11 @@ Learn more:
 
 A value in the SOA record telling a secondary how often to check the primary for a new serial. It is the fallback that keeps a zone updating when no NOTIFY arrives. DNSimple treats a secondary as in sync only when the serial, the refresh value, and the SOA primary name server field all match the zone as published at `axfr.dnsimple.com`.
 
+Learn more:
+
+- [SOA Record](/articles/soa-record/)
+- [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#outbound-status)
+
 ## What you configure at DNSimple {#what-you-configure}
 
 ### Secondary DNS configuration
@@ -128,6 +141,11 @@ Learn more:
 ### Secondary zone
 
 The inbound object representing a zone DNSimple copies from somewhere else. A new secondary zone has no records until it is linked to at least one primary server and a transfer completes.
+
+Learn more:
+
+- [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/)
+- [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/#inbound-zone)
 
 ### Primary server
 
