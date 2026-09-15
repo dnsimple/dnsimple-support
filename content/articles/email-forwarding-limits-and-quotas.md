@@ -41,7 +41,7 @@ Each plan includes two email forwarding limits per domain:
 
 | Plan | Email forwards per domain | Messages per month per domain | Price |
 |------|---------------------------|-------------------------------|-------|
-| Solo / Personal | 10 | 1,000 | $2 per domain per month |
+| Solo | 10 | 1,000 | $2 per domain per month |
 | Teams | 25 | 10,000 | $2 per domain per month |
 | Enterprise | Custom | Custom | Custom |
 
