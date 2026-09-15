@@ -21,7 +21,7 @@ Email forwarding lets you receive emails sent to addresses at your domain and au
 
 You must be [subscribed to a plan](https://dnsimple.com/pricing) to enable email forwarding. Email forwarding is enabled and billed monthly on a per-domain basis.
 
-The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
+The number of email forwards and forwarded messages allowed per domain is based on your plan. Solo includes up to 10 email forwards and 1,000 messages per month. Teams includes up to 25 email forwards and 10,000 messages per month. See [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) for details.
 
 The domain must be delegated to DNSimple's name servers, and DNS hosting must be active for email forwarding to work.
 
