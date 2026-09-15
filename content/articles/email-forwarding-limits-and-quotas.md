@@ -1,7 +1,7 @@
 ---
 title: Email Forwarding Limits and Quotas
-excerpt: Detailed explanation of email forwarding limits, quotas, and billing at DNSimple.
-meta: Email forwarding limits, message quotas, and billing details for each DNSimple plan. Understand what happens when you reach your forwarding limit.
+excerpt: Email forwarding limits by plan, including how many forwards and messages Solo and Teams include per domain.
+meta: Email forwarding limits by plan at DNSimple. Solo allows 10 email forwards and 1,000 messages per month. Teams allows 25 email forwards and 10,000 messages per month.
 categories:
 - Emails
 ---
@@ -15,10 +15,7 @@ categories:
 
 ---
 
-Email forwarding at DNSimple is subject to limits and quotas based on your subscription plan. Email forwarding is billed monthly on a per-domain basis, and the number of forwarded messages and email forwards allowed per month varies depending on your DNSimple plan.
-
-> [!NOTE]
-> For the most current information about email forwarding limits for each plan, see [DNSimple Pricing](https://dnsimple.com/pricing).
+Email forwarding at DNSimple is subject to limits and quotas based on your subscription plan. Email forwarding is billed monthly on a per-domain basis at $2 per domain. Your plan controls how many email forwards you can configure per domain and how many messages you can forward per month.
 
 ## Billing structure {#billing}
 
@@ -37,13 +34,19 @@ Email forwarding is billed on a monthly basis. Charges are prorated if you enabl
 
 ## Email forwarding limits by plan {#limits-by-plan}
 
-The specific limits for email forwarding vary by plan. Generally, plans include:
+Each plan includes two email forwarding limits per domain:
 
 - **Number of email forwards:** The maximum number of individual email forwarding rules you can create per domain
 - **Message limits:** The maximum number of emails that can be forwarded per month per domain
 
+| Plan | Email forwards per domain | Messages per month per domain | Price |
+|------|---------------------------|-------------------------------|-------|
+| Solo / Personal | 10 | 1,000 | $2 per domain per month |
+| Teams | 25 | 10,000 | $2 per domain per month |
+| Enterprise | Custom | Custom | Custom |
+
 > [!NOTE]
-> Exact limits are detailed on the [DNSimple Pricing page](https://dnsimple.com/pricing). Limits typically increase with higher-tier plans.
+> Message pricing is also listed on the [DNSimple Pricing page](https://dnsimple.com/pricing). For plan features beyond email forwarding, see [DNSimple Plans](/articles/dnsimple-plans/).
 
 ## Understanding message limits {#message-limits}
 
@@ -134,7 +137,7 @@ To monitor your email forwarding usage:
 If you need higher limits:
 
 1. **Review your needs:** Assess your current usage and future requirements.
-2. **Compare plans:** Review the [DNSimple Pricing page](https://dnsimple.com/pricing) to see which plan meets your needs.
+2. **Compare plans:** Review the limits in the table above, or compare full plan features on the [DNSimple Pricing page](https://dnsimple.com/pricing).
 3. **Upgrade:** Upgrade your plan through your DNSimple account settings.
 4. **Immediate effect:** Higher limits take effect immediately upon upgrade.
 
