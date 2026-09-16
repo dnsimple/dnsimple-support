@@ -28,7 +28,7 @@ Google has explicitly stated the following are unnecessary for appearing in AI O
 
 - **`llms.txt`: under evaluation, not currently recommended.** Google: "You don't need to create new machine readable files, AI text files, markup, or Markdown." That guidance covers Google's generative AI features. It does not decide how ChatGPT, Claude, or Perplexity read a site, and this repo writes for those engines too (see `article-structure.mdc`). This repo already ships `content/llms.txt.erb`, served at `support.dnsimple.com/llms.txt`. Do not expand it, and do not add other AI-specific files, until measurement shows whether it changes answer quality on non-Google engines.
 - **No content chunking.** There is no requirement to fragment articles into small pieces for retrieval.
-- **No synonym rewriting.** Google handles synonyms. Do not force keyword variations into the text.
+- **No synonym rewriting.** Google handles synonyms. Do not force keyword variations into the text. This does not conflict with naming an alias once on first mention, as set out in *Preferred terms* in `article-writing.mdc`.
 - **No citation or mention chasing.** Seeking mentions of DNSimple across other sites to influence AI answers does not work.
 - **Structured data is not required.** It supports rich results and is worth having for that reason, but it is not required for generative AI search.
 
