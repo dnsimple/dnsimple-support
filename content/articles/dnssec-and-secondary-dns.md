@@ -27,7 +27,7 @@ For DNSSEC to function correctly, DNS resolvers (the clients making the query) m
 
 ## The conflict with secondary DNS {#conflict}
 
-DNS servers typically get their zone data from a primary server using a process called a zone transfer (**AXFR** or **IXFR**), which comes with some crucial limitations:
+DNS servers typically get their zone data from a primary server using a process called a [zone transfer](/articles/secondary-dns-glossary/#zone-transfer) (**[AXFR](/articles/secondary-dns-glossary/#axfr)** or **[IXFR](/articles/secondary-dns-glossary/#ixfr)**), which comes with some crucial limitations:
 
 - Our system does not transfer RRSIG records over AXFR zone transfers.
 - These transfer protocols **do not support transferring private key material**.

@@ -69,6 +69,8 @@ A confirmation message will tell you secondary DNS has been enabled from the DNS
 
 Your secondary DNS should now be set up with **Dyn Managed**.
 
+If the zone at Dyn does not update after you change records at DNSimple, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#outbound).
+
 ## Have more questions?
 
 If you have any questions about adding Dyn as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

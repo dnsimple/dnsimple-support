@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Secondary DNS is a redundancy setup where two or more nameserver providers serve the same zone. A **primary** holds the zone you edit. One or more **secondaries** retrieve that data (usually with a zone transfer) and serve it on their own name servers. If one provider has an outage, resolvers can still get answers from the other.
+Secondary DNS is a redundancy setup where two or more nameserver providers serve the same zone. A **primary** holds the zone you edit. One or more **secondaries** retrieve that data (usually with a [zone transfer](/articles/secondary-dns-glossary/#zone-transfer)) and serve it on their own name servers. If one provider has an outage, resolvers can still get answers from the other.
 
 ## Primary and secondary roles {#roles}
 
@@ -36,7 +36,7 @@ Secondary DNS is also common when:
 - The domain carries production traffic, and a DNS outage would hurt customers or revenue.
 - A contract, security review, or compliance program requires DNS from more than one vendor.
 - You want that warm standby already delegated, so you are not rushing a registrar change during an incident.
-- You run a hidden primary (private master) and need a public provider such as DNSimple to serve the zone on the internet.
+- You run a [hidden primary](/articles/secondary-dns-glossary/#hidden-primary) (private master) and need a public provider such as DNSimple to serve the zone on the internet.
 
 Secondary DNS does not fix bad records or replace careful TTL planning. It is there so that if one provider goes down, you still have DNS for a while. To compare secondary DNS with other multi-provider options at DNSimple, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
@@ -44,10 +44,10 @@ Secondary DNS does not fix bad records or replace careful TTL planning. It is th
 
 Most secondary DNS setups use **zone transfers**:
 
-- **AXFR** transfers the full zone.
-- **IXFR** transfers incremental changes when both sides support it.
+- **[AXFR](/articles/secondary-dns-glossary/#axfr)** transfers the full zone.
+- **[IXFR](/articles/secondary-dns-glossary/#ixfr)** transfers incremental changes when both sides support it.
 
-When records change, the primary usually sends a **NOTIFY** message so the secondary knows to pull an update. The primary also limits who can transfer the zone, typically with an IP allow list, and sometimes with transfer authentication.
+When records change, the primary usually sends a **[NOTIFY](/articles/secondary-dns-glossary/#notify)** message so the secondary knows to pull an update. The primary also limits who can transfer the zone, typically with an IP allow list, and sometimes with transfer authentication.
 
 **Outbound** (DNSimple as primary): the other provider pulls from DNSimple's transfer endpoint, `axfr.dnsimple.com`. You allow-list that provider's IPs (or use a prepared provider option) so only those secondaries can transfer the zone.
 
@@ -55,9 +55,11 @@ When records change, the primary usually sends a **NOTIFY** message so the secon
 
 Zone transfers do not move private DNSSEC signing keys. That is why [DNSSEC and secondary DNS](/articles/dnssec-and-secondary-dns/) need careful planning. Providers can also differ in how they answer for [empty non-terminals](/articles/empty-non-terminals/), so confirm both sides behave the same way.
 
+For the limits and accepted formats of each setting in both directions, see [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/). If a transfer stops working, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/).
+
 ## Outbound secondary DNS (DNSimple as primary) {#outbound}
 
-With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSimple as **leader**). You manage records in DNSimple. DNSimple transfers the zone to another provider over AXFR.
+With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSimple as **[leader](/articles/secondary-dns-glossary/#leader)**). You manage records in DNSimple. DNSimple transfers the zone to another provider over AXFR.
 
 - Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> → <label>Secondary DNS zone (with DNSimple as leader)</label>.
 - Built-in provider options are EasyDNS, DNS Made Easy, Dyn Managed, and Dyn Standard. Use <label>Custom</label> or <label>Choose from Name Server Set</label> for any other provider that supports AXFR.
@@ -68,7 +70,7 @@ Setup: [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
 ## Inbound secondary DNS (DNSimple as secondary) {#inbound}
 
-With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **follower**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account, reached from <label>Add</label> > <label>Secondary DNS zone (with DNSimple as follower)</label>. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
+With **inbound** secondary DNS, another system is the primary and DNSimple is the secondary (the UI calls this DNSimple as **[follower](/articles/secondary-dns-glossary/#follower)**). You manage <label>Secondary zones</label> and <label>Primary servers</label> in your account, reached from <label>Add</label> > <label>Secondary DNS zone (with DNSimple as follower)</label>. DNSimple pulls the zone over AXFR and answers on DNSimple name servers.
 
 - Inbound secondary DNS is available on the [Teams plan or higher](/articles/dnsimple-plans/#feature-comparison).
 - Not compatible with enabling DNSSEC on that zone in DNSimple. See [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) for why.

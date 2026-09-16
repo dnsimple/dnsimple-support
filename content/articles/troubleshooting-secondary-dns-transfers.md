@@ -84,7 +84,7 @@ That second job is easy to miss. If your provider transfers from one set of addr
 
 </div>
 
-A configuration accepts up to 6 name servers and up to 35 whitelisted IP addresses. Both IPv4 and IPv6 addresses are accepted.
+A configuration accepts up to 6 name servers and up to 35 whitelisted IP addresses. Both IPv4 and IPv6 addresses are accepted. For every limit and accepted format, see [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/#outbound).
 
 ### Confirm the provider can reach the transfer endpoint {#outbound-endpoint}
 

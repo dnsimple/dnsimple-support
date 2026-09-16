@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This guide covers **outbound** secondary DNS: DNSimple is the primary (leader), and another provider is the secondary. For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/). For when to use secondary DNS, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
+This guide covers **outbound** secondary DNS: DNSimple is the primary ([leader](/articles/secondary-dns-glossary/#leader)), and another provider is the secondary. For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/). For when to use secondary DNS, see [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 
 To make DNSimple the secondary instead, see [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/).
 
@@ -64,7 +64,7 @@ Open the domain, then open the <label>DNS</label> tab. Use the <label>Secondary 
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-Choose your secondary provider. For Dyn, DNSMadeEasy, or EasyDNS, values are prefilled. You can also apply name servers from a [name server set](/articles/name-server-sets/). Otherwise select <label>Custom</label> and enter NS names and IPs allowed for zone transfer. Click <label>Enable</label>.
+Choose your secondary provider. For Dyn, DNSMadeEasy, or EasyDNS, values are prefilled. You can also apply name servers from a [name server set](/articles/name-server-sets/). Otherwise select <label>Custom</label> and enter NS names and IPs allowed for [zone transfer](/articles/secondary-dns-glossary/#zone-transfer). Click <label>Enable</label>. For the limits and accepted formats of each field, see [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/#outbound).
 
 ![Custom input option](/files/secondary-dns-custom.png)
 
@@ -79,10 +79,12 @@ After you submit, the DNS page shows the updated configuration.
 You may see warnings such as:
 
 - The secondary DNS configuration is still propagating to the primary name server.
-- Configured secondary name servers are not all serving the same zone data as the primary (propagation delay or an AXFR issue at the secondary provider).
+- Configured secondary name servers are not all serving the same zone data as the primary (propagation delay or an [AXFR](/articles/secondary-dns-glossary/#axfr) issue at the secondary provider).
 - Registrar delegation is missing one or more name servers from the secondary DNS configuration.
 
 ![Secondary DNS warning](/files/secondary-dns-warning.png)
+
+To work through these warnings, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#outbound).
 
 > [!WARNING]
 > If your domain is registered with DNSimple, DNSimple replaces the current registry delegation with DNSimple name servers plus the secondary name servers you configured. If you were delegating elsewhere for DNS, registry values are updated to match the NS set on the apex zone in the record editor.
