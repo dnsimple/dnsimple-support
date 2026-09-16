@@ -9,14 +9,14 @@ categories:
 
 # Add DNSMadeEasy as a secondary DNS server
 
-For an overview of SecondaryDNS, have a look at [our introduction article](/articles/secondary-dns/).
+For an overview of secondary DNS, see [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
-**Requirements**
+## Requirements {#requirements}
 
-* An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS Setup.
+* An active account with **DNSMadeEasy**. Every DNSMadeEasy plan allows for secondary DNS setup.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
-You can get started with Secondary DNS from the DNS section of the domain management page.
+You can get started with secondary DNS from the <label>DNS</label> tab on the domain page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
@@ -28,7 +28,7 @@ A confirmation message will tell you Secondary DNS has been enabled from the DNS
 
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
-Log into your **DNSMadeEasy** account. The first thing you'll do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced*, then *Secondary IP Sets*.
+Log into your **DNSMadeEasy** account. The first thing you will do is to create the IP set that enables zone communication between DNSimple and DNSMadeEasy. From the top navigation menu, select *Advanced*, then *Secondary IP Sets*.
 
 ![Access the IP set menu from DNSMadeEasy](/files/dns-made-easy-ip-set-menu.png)
 
@@ -54,7 +54,7 @@ In the popup, type your domain name, and select the IP set you just created.
 
 ![DNSMadeEasy adding secondary configuration](/files/dns-made-easy-popup.png)
 
-If the configuration is correct, a success message will appear. You'll be taken to the detail page for your domain.
+If the configuration is correct, a success message will appear. You will be taken to the detail page for your domain.
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 
@@ -75,33 +75,39 @@ From your terminal, type the following `dig` command, replacing `example.com` wi
 The query should return all the DNSimple and DNSMadeEasy name servers in the `AUTHORITY SECTION`.
 
 <pre>
-; <<>> DiG 9.8.3-P1 <<>> @ns5.dnsmadeeasy.com example.com soa
-; (1 server found)
+; <<>> DiG 9.20.24 <<>> @ns5.dnsmadeeasy.com example.com soa
+; (2 servers found)
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33777
-;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 7, ADDITIONAL: 0
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 7, ADDITIONAL: 1
 ;; WARNING: recursion requested but not available
 
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1280
 ;; QUESTION SECTION:
 ;example.com.   IN  SOA
 
 ;; ANSWER SECTION:
-example.com.  3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1425544360 86400 7200 604800 300
+example.com.  3600  IN  SOA axfr.dnsimple.com. admin.dnsimple.com. 1788969600 86400 7200 604800 300
 
 ;; AUTHORITY SECTION:
+example.com.  3600  IN  NS  ns1.dnsimple-edge.com.
 example.com.  3600  IN  NS  ns2.dnsimple-edge.net.
+example.com.  3600  IN  NS  ns3.dnsimple-edge.io.
+example.com.  3600  IN  NS  ns4.dnsimple-edge.org.
+example.com.  3600  IN  NS  ns5.dnsmadeeasy.com.
 example.com.  3600  IN  NS  ns6.dnsmadeeasy.com.
 example.com.  3600  IN  NS  ns7.dnsmadeeasy.com.
-example.com.  3600  IN  NS  ns3.dnsimple-edge.io.
-example.com.  3600  IN  NS  ns5.dnsmadeeasy.com.
-example.com.  3600  IN  NS  ns4.dnsimple-edge.org.
-example.com.  3600  IN  NS  ns1.dnsimple-edge.com.
 
-;; Query time: 55 msec
-;; SERVER: 208.94.148.13#53(208.94.148.13)
-;; WHEN: Thu Mar  5 09:40:40 2015
-;; MSG SIZE  rcvd: 228
+;; Query time: 21 msec
+;; SERVER: 208.94.148.13#53(ns5.dnsmadeeasy.com) (UDP)
+;; WHEN: Wed Sep 09 16:01:11 UTC 2026
+;; MSG SIZE  rcvd: 304
 </pre>
 
 Congratulations, your secondary DNS is now working with **DNSMadeEasy**.
+
+## Have more questions?
+
+If you have any questions about adding DNSMadeEasy as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

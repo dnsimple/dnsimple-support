@@ -32,7 +32,8 @@ You'll find all [the features listed for each plan on our pricing page](https://
 | Scoped API tokens | -- | Yes | Yes |
 | Domain Access Control | -- | Yes | Yes |
 | Regional and POOL records | -- | Yes | Yes |
-| Secondary DNS (DNSimple as secondary) | -- | Yes | Yes |
+| Secondary DNS, DNSimple as primary (outbound AXFR) | Yes | Yes | Yes |
+| Secondary DNS, DNSimple as secondary (inbound AXFR) | -- | Yes | Yes |
 | Vanity name servers | -- | -- | Yes |
 | Multi-account management | -- | -- | Yes |
 | SSO (Okta, Google, Entra) | -- | -- | Yes |
@@ -53,10 +54,10 @@ For a detailed breakdown of invoice line items, see [Understanding Your Invoice]
 
 ## Included on all plans
 
-- The ability to register, transfer, and renew domains — [see TLD prices](https://dnsimple.com/tlds).
+- The ability to register, transfer, and renew domains - [see TLD prices](https://dnsimple.com/tlds).
 - Primary or secondary DNS zones with [Anycast DNS](/articles/why-anycast-dns/), [DNSSEC](/articles/dnssec/), and multi-layer [DDoS defense](/articles/protection-ddos/), billed monthly per zone.
 - [Email forwarding](https://support.dnsimple.com/articles/email-forwarding/), billed monthly per domain.
-- DNSimple's [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) — view and manage domains and DNS across registrars and providers.
+- DNSimple's [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) - view and manage domains and DNS across registrars and providers.
 
 ## Solo
 
@@ -77,7 +78,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
-- Email forwarding, billed monthly per domain at $2 for 1,000 messages/month.
+- [Email forwarding](/articles/email-forwarding/), billed monthly per domain at $2 for up to 10 email forwards and 1,000 messages/month.
 - [One-click Services](/articles/services/)
 - [Alias records](/articles/alias-record/)
 - [Zone queries](/articles/dns-query-limits/) with 50,000 queries per zone per month included, then $0.80 per million above the allowance
@@ -93,7 +94,7 @@ DNSimple's Teams plan provides startups and small engineering teams with all the
 
 ### Cost
 
-$29 base monthly subscription fee — includes one seat with the ability to add more seats at a cost of $29/month each.
+$29 base monthly subscription fee - includes one seat with the ability to add more seats at a cost of $29/month each.
 
 ### The Teams plan includes everything on the Solo plan, plus:
 
@@ -109,7 +110,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 - Enable [DNSimple as secondary DNS](/articles/secondary-dns-dnsimple-as-secondary/)
 - Scoped [API Access Tokens](/articles/api-access-token/)
 - [Domain Access Control](/articles/domain-access-control/) - specify different roles for your team members on a per-domain basis
-- Email forwarding billed monthly per domain at $2 for 10,000 messages/month
+- [Email forwarding](/articles/email-forwarding/), billed monthly per domain at $2 for up to 25 email forwards and 10,000 messages/month
 - [Zone queries](/articles/dns-query-limits/) with 500,000 queries per zone per month included, then $0.60 per million above the allowance
 - Specify a custom [invoice](/articles/understanding-invoice/) email
 
@@ -140,4 +141,4 @@ To explore your options for our Enterprise or [Reseller](https://dnsimple.com/re
 
 ## Have more questions?
 
-If you have any questions about DNSimple's plans or want to talk more about your DNS and domain management needs, [contact us](https://dnsimple.com/feedback) — we'd love to help.
+If you have any questions about DNSimple's plans or want to talk more about your DNS and domain management needs, [contact us](https://dnsimple.com/feedback) - we'd love to help.
