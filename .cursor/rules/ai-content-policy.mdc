@@ -26,7 +26,7 @@ DNSimple does not add AI-disclosure banners to support articles. Google treats d
 
 Google has explicitly stated the following are unnecessary for appearing in AI Overviews and other generative AI features. Do not spend effort on them, and do not act on outside advice recommending them without checking here first.
 
-- **No `llms.txt` or AI-specific files.** Google: "You don't need to create new machine readable files, AI text files, markup, or Markdown." This repo has no `llms.txt` and should not gain one.
+- **`llms.txt`: under evaluation, not currently recommended.** Google: "You don't need to create new machine readable files, AI text files, markup, or Markdown." That guidance covers Google's generative AI features. It does not decide how ChatGPT, Claude, or Perplexity read a site, and this repo writes for those engines too (see `article-structure.mdc`). This repo already ships `content/llms.txt.erb`, served at `support.dnsimple.com/llms.txt`. Do not expand it, and do not add other AI-specific files, until measurement shows whether it changes answer quality on non-Google engines.
 - **No content chunking.** There is no requirement to fragment articles into small pieces for retrieval.
 - **No synonym rewriting.** Google handles synonyms. Do not force keyword variations into the text.
 - **No citation or mention chasing.** Seeking mentions of DNSimple across other sites to influence AI answers does not work.
