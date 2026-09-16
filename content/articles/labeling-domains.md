@@ -25,7 +25,7 @@ From the domain names list page, select the domain names you want to label. The 
 
 A pop-up appears where you can type a label. To add multiple labels at once, separate them with a comma.
 
-![Applying labels](/files/enter-labels.png)
+![Applying labels](/files/enter-labels.png) <!-- capture: /a/{account}/domains#domain-list-labels-modal -->
 
 The domain names list now displays the labels.
 
