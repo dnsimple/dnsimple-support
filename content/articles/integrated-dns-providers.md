@@ -23,7 +23,7 @@ categories:
 ![Connect an Integrated DNS Provider](/files/account-integrated-provider-link.png)
 1. Fill in any required parameters for the Integrated DNS Provider configuration.
 1. Fill in any necessary credentials for your account at the Integrated DNS Provider.
-![Enter Integrated DNS Provider credentials](/files/account-external-provider-link-credentials.png)
+![Enter Integrated DNS Provider credentials](/files/account-external-provider-link-credentials.png) <!-- capture: /a/{account}/account/integrated_providers#external-provider-route53-dialog -->
 1. After successfully connecting the Integrated DNS Provider, you will be able to view a list of the zones that are at that provider *(except for CoreDNS, which does not list zones)*. Select the zones you want to import into DNSimple, and click **Add zones**.
 ![Add zones after connecting an Integrated DNS Provider](/files/account-integrated-dns-provider-connect-add-zones.png)
 1. If you selected any zones to import into DNSimple, you will be redirected to the [Domain Names](/articles/managing-integrated-zones/) page where the zone import will start.
