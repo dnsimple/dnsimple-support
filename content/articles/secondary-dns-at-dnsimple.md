@@ -30,21 +30,21 @@ New to secondary DNS? Start with the first article below.
 
 Outbound AXFR: DNSimple holds the zone; another provider is secondary.
 
-- [Add a secondary DNS server to DNSimple](/articles/secondary-dns/)
-- [Adding Dyn as a Secondary DNS Server](/articles/secondary-dns-provider-dyn/)
-- [Add DNSMadeEasy as a secondary DNS server](/articles/secondary-dns-provider-dns-made-easy/)
-- [Adding EasyDNS as a Secondary DNS Server](/articles/secondary-dns-provider-easy-dns/)
+- [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) - Enable outbound secondary DNS for any provider, including custom settings and name server sets.
+- [Adding Dyn as a Secondary DNS Server](/articles/secondary-dns-provider-dyn/) - Provider-specific steps for Dyn Standard and Dyn Managed.
+- [Add DNSMadeEasy as a secondary DNS server](/articles/secondary-dns-provider-dns-made-easy/) - Provider-specific steps, including the IP set DNSMadeEasy needs.
+- [Adding EasyDNS as a Secondary DNS Server](/articles/secondary-dns-provider-easy-dns/) - Provider-specific steps for adding the domain and DNSimple as primary at EasyDNS.
 
 ## Set up DNSimple as secondary {#inbound}
 
-Inbound AXFR: an external primary holds the zone; DNSimple is the secondary. Plan-gated.
+Inbound AXFR: an external primary holds the zone; DNSimple is the secondary. Available on the [Teams plan or higher](/articles/dnsimple-plans/#feature-comparison).
 
-- [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/)
-- [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/)
+- [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) - Create a secondary zone, link a primary server, and allow DNSimple's transfer IPs at your primary.
+- [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/) - Keep your primary off public delegation while DNSimple answers queries.
 
 ## Multi-provider without zone transfers {#without-axfr}
 
-- [Using DNSimple alongside other DNS providers](/articles/secondary-dnsimple/)
+- [Using DNSimple alongside other DNS providers](/articles/secondary-dnsimple/) - Keep two providers in sync yourself with the API, zone imports, or infrastructure-as-code tools.
 
 ## Troubleshoot {#troubleshoot}
 
@@ -54,9 +54,11 @@ Inbound AXFR: an external primary holds the zone; DNSimple is the secondary. Pla
 
 - [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/) - Every configuration field in both directions, with limits and accepted formats.
 - [Secondary DNS Glossary](/articles/secondary-dns-glossary/) - Definitions for zone transfers, AXFR, NOTIFY, SOA serials, leader and follower, and related terms.
-- [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/) - API endpoints for managing secondary DNS configuration.
+- [Secondary DNS API](https://developer.dnsimple.com/v2/secondary-dns/) - API endpoints for primary servers and secondary zones when DNSimple is the secondary.
 
 ## Related articles {#related}
+
+These live in other categories but come up often alongside secondary DNS:
 
 - [What Are Empty Non-Terminals (ENT)?](/articles/empty-non-terminals/) - A difference in behavior between providers that can look like a record missing after a transfer.
 - [DNSimple Name Servers](/articles/dnsimple-nameservers/) - The name servers to include in your delegation when DNSimple is one of two providers.
