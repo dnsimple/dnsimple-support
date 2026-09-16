@@ -109,7 +109,7 @@ The <label>Records</label> card shows one of these:
 
 ### Check the primary allows the transfer {#inbound-primary}
 
-Your primary must permit zone transfers from DNSimple and should notify DNSimple when the zone changes. The DNSimple AXFR client IP addresses to allow are listed in [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/#configuring-axfr-at-your-primary-dns-provider).
+Your primary must permit zone transfers from DNSimple and should notify DNSimple when the zone changes. The DNSimple AXFR client IP addresses to allow are listed in [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/#axfr-acl).
 
 Confirm on your own primary that the transfer is being offered:
 
@@ -127,7 +127,7 @@ If the primary is reachable, offers transfers, and DNSimple is still showing an 
 
 1. Open the domain, select <label>DNS</label>, and select <label>Configure</label> on the <label>Secondary DNS</label> card.
 1. In the <label>Primary servers</label> card, open the actions menu next to the primary server and select <label>Unlink primary server</label>, then confirm.
-1. Select <label>Link primary server</label>, select the same primary server, and select <label>Link to example.com</label>.
+1. Select <label>Link primary server</label>, select the same primary server, and select the button labeled <label>Link to</label> followed by your zone name (for example, <label>Link to example.com</label>).
 1. Recheck the <label>Records</label> card after a few minutes.
 
 </div>
