@@ -9,31 +9,38 @@ categories:
 
 # Adding Dyn as a Secondary DNS Server
 
-For an overview of secondary DNS, read [our introduction article](/articles/secondary-dns/).
+For an overview of secondary DNS, see [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
-## Requirements
+### Table of Contents {#toc}
 
-* An active account with [Dyn](http://dyn.com/). Your secondary DNS Setup will vary depending on whether you use _Dyn Standard_ or _Dyn Managed DNS_ service.
+* TOC
+{:toc}
+
+---
+
+## Requirements {#requirements}
+
+* An active account with [Dyn](https://help.dyn.com/). Your secondary DNS setup will vary depending on whether you use Dyn Standard or Dyn Managed DNS.
 * Your domain [is pointing to the DNSimple name servers](/articles/pointing-domain-to-dnsimple/).
 
-You can get started with secondary DNS from the DNS section of the domain management page.
+You can get started with secondary DNS from the <label>DNS</label> tab on the domain page.
 
 ![DNS management page](/files/setup-secondary-dns.png)
 
-## Setting up for Dyn Standard
+## Setting up for Dyn Standard {#dyn-standard}
 
-First, set up secondary DNS at Dyn. You'll find instructions for setting up secondary DNS using Dyn Standard on the [Dyn help site](https://help.dyn.com/standard-dns/dyn-secondary-dns-information/).
+First, set up secondary DNS at Dyn. Look for the Standard DNS secondary zone instructions on the [Dyn help site](https://help.dyn.com/).
 
 During setup, use the following address as the primary server to perform AXFR transfers:
 
 * Name: axfr.dnsimple.com
 * IP: 18.189.127.127
 
-When you set up your secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
+When you set up your secondary DNS configuration in Dyn, they will provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
 
 We suggest waiting an hour or two before enabling your secondary DNS in DNSimple. This gives Dyn time to deploy the configuration for secondary DNS on our side.
 
-From DNSimple, select **Dyn Standard** as the provider and click *Enable* at the bottom of the form. The IP addresses Dyn is expecting are already filled in for you. You'll need to fill in the name servers using the name server names Dyn provided to you when you enabled secondary DNS on their side.
+From DNSimple, select **Dyn Standard** as the provider and click *Enable* at the bottom of the form. The IP addresses Dyn is expecting are already filled in for you. You will need to fill in the name servers using the name server names Dyn provided to you when you enabled secondary DNS on their side.
 
 A confirmation message will tell you secondary DNS has been enabled from the DNSimple side.
 
@@ -41,20 +48,20 @@ A confirmation message will tell you secondary DNS has been enabled from the DNS
 
 Your secondary DNS should now be set up with **Dyn Standard**.
 
-## Setting up for Dyn Managed
+## Setting up for Dyn Managed {#dyn-managed}
 
-First, set up secondary DNS at Dyn. You can find instructions on the [Dyn help site](https://help.dyn.com/creating-a-secondary-zone/).
+First, set up secondary DNS at Dyn. Look for the Managed DNS secondary zone instructions on the [Dyn help site](https://help.dyn.com/).
 
 During setup, use the following address as the primary server to perform AXFR transfers:
 
 * Name: axfr.dnsimple.com
 * IP: 18.189.127.127
 
-When you set up your secondary DNS configuration in Dyn, they'll provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
+When you set up your secondary DNS configuration in Dyn, they will provide you with a list of name server names in the format `nsx.mydyndns.org` or `nsxxxx.dns.dyn.com`. Enter these names when you enable your secondary DNS with us.
 
 You may also want to wait an hour or two before enabling your secondary DNS in DNSimple. This gives Dyn time to deploy the configuration for secondary DNS on our side.
 
-From DNSimple, select **Dyn Managed** as the provider and click *Enable* at the bottom of the form. The IP addresses Dyn is expecting are already filled in for you. You'll need to fill in the name servers using the name server names Dyn provided to you when you enabled secondary DNS on their side.
+From DNSimple, select **Dyn Managed** as the provider and click *Enable* at the bottom of the form. The IP addresses Dyn is expecting are already filled in for you. You will need to fill in the name servers using the name server names Dyn provided to you when you enabled secondary DNS on their side.
 
 A confirmation message will tell you secondary DNS has been enabled from the DNSimple side.
 
@@ -62,6 +69,6 @@ A confirmation message will tell you secondary DNS has been enabled from the DNS
 
 Your secondary DNS should now be set up with **Dyn Managed**.
 
-## Have more questions? 
+## Have more questions?
 
-If you have any questions about adding Dyn as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help. 
+If you have any questions about adding Dyn as a secondary DNS server, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
