@@ -22,7 +22,7 @@ ClickFunnels uses DNSimple as its domain registrar. When you purchase a domain t
 
 ## Create a DNSimple account {#create-account}
 
-If you do not already have a DNSimple account, create one before requesting the domain transfer.
+If you do not already have a DNSimple account, create one before requesting the domain move.
 
 <div class="section-steps" markdown="1">
 1. Go to [dnsimple.com](https://dnsimple.com) and click <label>Get Started</label>.
@@ -40,8 +40,8 @@ Send an email to [billing@clickfunnels.com](mailto:billing@clickfunnels.com) usi
 
 - Confirmation that you have a paid DNSimple account.
 - The email address associated with your ClickFunnels account.
-- Your DNSimple **Account Identifier**. Find it by opening the **account switcher** in the top-right corner, selecting your account, clicking <label>Account Settings</label>, and locating the identifier in the **Account** card.
-- The domain name(s) you want to transfer.
+- Your DNSimple **Account Identifier**. ClickFunnels may call it the Destination Domain Push Identifier, its previous name. Find it by opening the **account switcher** in the top-right corner, selecting your account, clicking <label>Account Settings</label>, and locating the identifier in the **Account** card.
+- The domain name(s) you want to move.
 - The last 4 digits and expiration date of the card on file with your ClickFunnels account.
 
 ClickFunnels will reply when the domain has been moved. You will also receive an email from DNSimple letting you know a [domain push](/articles/transferring-domain-between-accounts/) is pending.
@@ -54,10 +54,10 @@ ClickFunnels will reply when the domain has been moved. You will also receive an
 1. [Log in to DNSimple](https://app.dnsimple.com/login). You will see a notification on your dashboard about the pending push.
 1. Click <label>View</label> to see the pending domain push, then click <label>Accept</label>.
 1. You will be prompted to assign a [contact](/articles/changing-domain-contact/) to the domain. This updates the registrant information from ClickFunnels to you.
-1. Click <label>Accept Push</label> to complete the transfer.
+1. Click <label>Accept Push</label> to complete the move.
 </div>
 
-For more details on the push process, see [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
+For more details on the push process, see [Move a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/#accepting-a-transfer).
 
 > [!WARNING]
 > Changing the registrant information [locks the domain from external transfers for 60 days](/articles/icann-60-day-lock-registrant-change/). You will receive a verification email to confirm the contact change. Verify it promptly - ignoring it will lead to a [suspended domain](/articles/icann-domain-validation/).

@@ -24,13 +24,13 @@ If you registered a domain through [ClickFunnels](/articles/getting-started-clic
 To gain control of the domain:
 
 1. Contact the integration partner (for example, [billing@clickfunnels.com](mailto:billing@clickfunnels.com) for ClickFunnels) and request that they release the domain to your DNSimple account.
-2. The partner will initiate a [domain push](/articles/transferring-domain-between-accounts/) to transfer the domain into your account.
-3. You will receive an email from DNSimple when the domain push is pending. [Accept the transfer](/articles/transferring-domain-between-accounts/#accepting-a-transfer) from your dashboard.
+2. The partner will initiate a [domain push](/articles/transferring-domain-between-accounts/) to move the domain into your account.
+3. You will receive an email from DNSimple when the domain push is pending. [Accept the move](/articles/transferring-domain-between-accounts/#accepting-a-transfer) from your dashboard.
 
 ![Email alerting you that a domain push is pending](/files/domain-push-email.png)
 
 > [!NOTE]
-> You will need an active DNSimple account with a subscription to accept the domain push. If you do not have one, [create an account](https://dnsimple.com) and choose a plan before requesting the transfer.
+> You will need an active DNSimple account with a subscription to accept the domain push. If you do not have one, [create an account](https://dnsimple.com) and choose a plan before requesting the move.
 
 ## Domain in another account {#another-account}
 

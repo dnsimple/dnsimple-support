@@ -51,7 +51,7 @@ Explanation:
     - "Transfer a Domain to DNSimple"
     - "Transfer an Integrated Provider Domain to DNSimple"
     - "Transfer a Domain Away from DNSimple"
-    - "Transfer a Domain to Another DNSimple Account"
+    - "Move a Domain to Another DNSimple Account"
     - "Prepare a Domain Transfer to Avoid Downtime"
     - "Domain Transfer Pricing"
   "Domain Management":
@@ -80,6 +80,6 @@ Reference:
   - "Domain Contact Types Reference"
   - "Domain Expiration Reference"
   - "Domain Registration Reference"
-  - "Domain Transfer Code Reference"
+  - "Domain Authorization Code Reference"
   - "Domain Transfer Reference"
   - "Domains Glossary"
