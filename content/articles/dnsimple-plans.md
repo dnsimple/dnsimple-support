@@ -77,7 +77,7 @@ No base subscription fee. You will be charged on a pay-as-you-go basis, with fee
 - Sectigo Certificates
 - [HTTP redirects](/articles/redirector/)
 - Primary or secondary DNS zones with Anycast DNS, DNSSEC, and multi-layer DDoS defense, billed monthly at $0.50 per zone
-- Email forwarding, billed monthly per domain at $2 for 1,000 messages/month.
+- [Email forwarding](/articles/email-forwarding/), billed monthly per domain at $2 for up to 10 email forwards and 1,000 messages/month.
 - [One-click Services](/articles/services/)
 - [Alias records](/articles/alias-record/)
 - [Zone queries](/articles/dns-query-limits/) with 50,000 queries per zone per month included, then $0.80 per million above the allowance
@@ -109,7 +109,7 @@ $29 base monthly subscription fee — includes one seat with the ability to add
 - Enable [DNSimple as secondary DNS](/articles/secondary-dns-dnsimple-as-secondary/)
 - Scoped [API Access Tokens](/articles/api-access-token/)
 - [Domain Access Control](/articles/domain-access-control/) - specify different roles for your team members on a per-domain basis
-- Email forwarding billed monthly per domain at $2 for 10,000 messages/month
+- [Email forwarding](/articles/email-forwarding/), billed monthly per domain at $2 for up to 25 email forwards and 10,000 messages/month
 - [Zone queries](/articles/dns-query-limits/) with 500,000 queries per zone per month included, then $0.60 per million above the allowance
 - Specify a custom [invoice](/articles/understanding-invoice/) email
 
