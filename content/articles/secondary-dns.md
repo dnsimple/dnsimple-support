@@ -138,8 +138,6 @@ The delete confirmation dialog tells you which case applies. If it warns that th
 1. At your secondary DNS provider, remove the zone or the secondary configuration for your domain.
 </div>
 
-If zone transfers were already failing before you disabled the configuration, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/).
-
 ## AXFR name server details {#axfr-name-server-details}
 
 Give your secondary provider the host that answers AXFR queries.
