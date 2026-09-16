@@ -40,6 +40,10 @@ This article explains the requirements and special procedures for .IS domain nam
 
    **BDB2-IS**
 
+1. Set `BDB2-IS` as the admin and billing contact through the [ISNIC interface](https://www.isnic.is/en/) as well.
+
+1. Click the confirmation link in the email ISNIC sends to the registrant to complete the transfer.
+
 </div>
 
 > [!NOTE]
