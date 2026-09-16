@@ -36,9 +36,11 @@ This article explains the requirements and special procedures for .IS domain nam
 
 `.IS` domains do not use authorization codes (auth codes). The handoff happens at the registry (ISNIC) between the two registrars. Your current registrar needs the contact handle that `.IS` transfers to DNSimple arrive under.
 
-1. After you've started the transfer, contact your current registrar and provide them with this `.IS` contact handle:
+1. After you have started the transfer, ask your current registrar to set this handle as the admin and billing contact for the domain, or set it yourself through the [ISNIC interface](https://www.isnic.is/en/):
 
    **BDB2-IS**
+
+1. Click the confirmation link in the email ISNIC sends to the registrant to complete the transfer.
 
 </div>
 
