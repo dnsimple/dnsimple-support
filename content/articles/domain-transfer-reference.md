@@ -30,7 +30,7 @@ A domain transfer is the process of moving a domain name registration from one r
 
 ### Authorization code
 
-An authorization code (also called transfer code, auth code, or auth info) is required to authorize the transfer of a domain name. For detailed information about transfer codes, including format, requirements, and how to obtain them, see [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/).
+An authorization code (also called auth code, EPP code, transfer code, or auth info) is required to authorize the transfer of a domain name. For detailed information about authorization codes, including format, requirements, and how to obtain them, see [Domain Authorization Code Reference](/articles/domain-transfer-code-reference/).
 
 ## Transfer timeline {#transfer-timeline}
 
@@ -57,17 +57,17 @@ For step-by-step instructions, see [Transfer a Domain to DNSimple](/articles/dom
 
 When transferring a domain away from DNSimple, the process involves:
 
-1. Unlocking the domain and requesting the transfer code at DNSimple
+1. Unlocking the domain and requesting the authorization code at DNSimple
 2. Starting the transfer at the gaining registrar
 3. Approving the transfer request
 
 For step-by-step instructions, see [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/).
 
-### Transfer a domain between DNSimple accounts
+### Move a domain between DNSimple accounts {#transfer-a-domain-between-dnsimple-accounts}
 
-You can transfer a domain between DNSimple accounts at any time via the DNSimple interface. This process transfers all associated resources, including DNS records, SSL certificates, and email forwards.
+You can move a domain between DNSimple accounts at any time from the DNSimple interface. This is not a registrar transfer: the domain stays at DNSimple. Moving a domain moves all associated resources, including DNS records, SSL certificates, and email forwards.
 
-For step-by-step instructions, see [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/).
+For step-by-step instructions, see [Move a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/).
 
 ## Transfer pricing and expiration extension {#transfer-pricing-and-expiration-extension}
 

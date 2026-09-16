@@ -61,7 +61,7 @@ If your transfer was denied, you must wait until the current transfer request cl
 
 ## Missing or incorrect authorization code {#missing-or-incorrect-authorization-code}
 
-**Symptom**: You do not have the authorization code (also called transfer code, auth code, or EPP code) needed to complete the transfer.
+**Symptom**: You do not have the authorization code (also called auth code, EPP code, transfer code, or auth info) needed to complete the transfer.
 
 **Resolution**: 
 
@@ -69,7 +69,7 @@ If your transfer was denied, you must wait until the current transfer request cl
 2. **Check your registrar's control panel**: Many registrars provide the authorization code in their domain management interface. Look for options like "Get Authorization Code," "Transfer Code," or "EPP Code."
 3. **Contact registrar support**: If you cannot find the code, contact your current registrar's support team and request the authorization code for your domain.
 
-For more information about transfer codes, including their format and requirements, see [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/).
+For more information about authorization codes, including their format and requirements, see [Domain Authorization Code Reference](/articles/domain-transfer-code-reference/).
 
 > [!NOTE]
 > Some registrars may require you to request the authorization code through their system, and it may take a few minutes to generate.

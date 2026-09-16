@@ -176,11 +176,11 @@ Learn more:
 
 ### Authorization Code
 
-Also called transfer code, auth code, or auth info. A code required to authorize the transfer of a domain name from one registrar to another. The authorization code is typically sent by the current registrar via email to the domain registrant.
+Also called auth code, EPP code, transfer code, or auth info. A code required to authorize the transfer of a domain name from one registrar to another. The authorization code is typically sent by the current registrar via email to the domain registrant.
 
 Learn more:
 
-- [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/)
+- [Domain Authorization Code Reference](/articles/domain-transfer-code-reference/)
 - [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/)
 
 ### Gaining Registrar

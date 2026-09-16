@@ -91,8 +91,8 @@ Registry and ICANN requirements:
 ### Domain Transfers
 
 - [Transfer a Domain to DNSimple](/articles/domain-transfer/) - How to transfer your registered domain to DNSimple.
-- [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/) - How to request a transfer code and transfer a domain from DNSimple to a different registrar.
-- [Transfer a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/) - How to move a domain from one DNSimple account to another.
+- [Transfer a Domain Away from DNSimple](/articles/transferring-domain-away/) - How to request an authorization code and transfer a domain from DNSimple to a different registrar.
+- [Move a Domain to Another DNSimple Account](/articles/transferring-domain-between-accounts/) - How to move a domain from one DNSimple account to another.
 - [Prepare a Domain Transfer to Avoid Downtime](/articles/before-transferring-domain/) - Steps to avoid downtime when transferring a domain.
 - [Domain Transfer Pricing](/articles/domain-transfer-pricing/) - Domain transfer price varies depending on the TLD you want to transfer, and generally it includes 1 year of extension.
 
@@ -131,6 +131,6 @@ Technical details, policies, and reference documentation:
 - [Domain Contact Types Reference](/articles/domain-contact-types-reference/) - The formal structure, roles, and key technical details of domain contact types.
 - [Domain Expiration Reference](/articles/domain-expiration-reference/) - The formal structure, periods, and key technical details of domain expiration and recovery.
 - [Domain Registration Reference](/articles/domain-registration-reference/) - The formal requirements, restrictions, and key technical details of domain registration.
-- [Domain Transfer Code Reference](/articles/domain-transfer-code-reference/) - The formal structure, requirements, and key technical details of domain transfer codes.
+- [Domain Authorization Code Reference](/articles/domain-transfer-code-reference/) - The formal structure, requirements, and key technical details of domain authorization codes.
 - [Domain Transfer Reference](/articles/domain-transfer-reference/) - The formal process, requirements, timelines, and key technical details of domain transfers.
 - [Domains Glossary](/articles/domains-glossary/) - Defines terms related to domain names and domain management.
