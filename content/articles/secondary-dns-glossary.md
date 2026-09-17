@@ -15,7 +15,7 @@ categories:
 
 ---
 
-A reference for secondary DNS terminology. For broader DNS terms, see the [DNS Glossary](/articles/dns-glossary/), and for delegation terms see the [Name Servers Glossary](/articles/name-servers-glossary/).
+A reference for secondary DNS terminology. For the entry point to this category, see [Secondary DNS at DNSimple](/articles/secondary-dns-at-dnsimple/). For broader DNS terms, see the [DNS Glossary](/articles/dns-glossary/), and for delegation terms see the [Name Servers Glossary](/articles/name-servers-glossary/).
 
 ## Roles and directions {#roles-and-directions}
 
