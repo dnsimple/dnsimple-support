@@ -30,7 +30,7 @@ The delegated name servers should match [DNSimple name servers](/articles/dnsimp
 
 If they do not, update the name servers to [point to DNSimple](/articles/pointing-domain-to-dnsimple/). 
 
-If you recently switched, the update may be in progress. See [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) and [Check name server propagation delay](/articles/troubleshoot-dnsimple-name-servers/#name-server-propagation-delay/).
+If you recently switched, the update may be in progress. See [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) and [Check name server propagation delay](/articles/troubleshoot-dnsimple-name-servers/#name-server-propagation-delay).
 
 ## Check that the domain is using *all* DNSimple name servers {#check-that-the-domain-is-using-all-dnsimple-name-servers}
 

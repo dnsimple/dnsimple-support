@@ -42,7 +42,7 @@ Some TLDs have different transfer procedures:
 
 You can prepare your domain for transfer out in one click. This action will unlock the domain and send you the authorization code via email, if an authorization code is required.
 
-The authorization code is sent to the email listed as registrant (owner) for the domain. Before proceeding, [check the domain contact and update the email](/articles/changing-domain-contact/#updating-a-domain-contact) if it does not match an email you have access to.
+The authorization code is sent to the email listed as registrant (owner) for the domain. Before proceeding, [check the domain contact and update the email](/articles/changing-domain-contact/#updating) if it does not match an email you have access to.
 
 <div class="section-steps" markdown="1">
 ##### Preparing the domain for transfer out

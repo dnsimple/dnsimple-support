@@ -112,7 +112,7 @@ You can now decide to [point the domain to DNSimple name servers](/articles/dele
 
 ## Transferring a .UK domain away from DNSimple {#transferring-outgoing}
 
-To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [instructions to transfer in](#transfer), but you will need to get the IPS tag of the gaining registrar.
+To transfer a `.UK` domain away from DNSimple, the procedure is similar to the [instructions to transfer in](#transferring), but you will need to get the IPS tag of the gaining registrar.
 
 <div class="section-steps" markdown="1">
 #### Initiating the transfer
@@ -175,7 +175,7 @@ Here's a list of common `.UK` registration errors:
 
 1. The `.UK` domain is not reserved
 2. If the `.UK` domain is reserved, you must be the owner of the `.CO.UK` or corresponding 3rd level domain to register it.
-3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#register).
+3. If you have the right to register the associated `.UK`, you followed the instructions to [register a .UK domain](#registering).
 
 ## Have more questions?
 
