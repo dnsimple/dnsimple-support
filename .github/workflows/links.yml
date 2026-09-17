@@ -44,5 +44,8 @@ jobs:
           # resolves absolute support.dnsimple.com links to local files too.
           # \$1 must stay escaped: the action evals args, and a bare $1 would be
           # eaten by the shell, silently disabling the remap (false green).
-          args: '--offline --root-dir ${{ github.workspace }}/output --remap "https://support\.dnsimple\.com/?(.*) file://${{ github.workspace }}/output/\$1" output'
+          # --include-fragments also checks the #anchor, not only that the page
+          # exists. Without it, renaming a heading silently misdirects every
+          # link pointing at it while this check stays green.
+          args: '--offline --include-fragments --root-dir ${{ github.workspace }}/output --remap "https://support\.dnsimple\.com/?(.*) file://${{ github.workspace }}/output/\$1" output'
           fail: true
