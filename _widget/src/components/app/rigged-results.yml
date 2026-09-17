@@ -43,6 +43,62 @@ transfer:
   - /articles/guide-register-or-transfer-a-domain/
   - /articles/domain-transfer-pricing/
 
+authorization code:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+authorisation code:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+auth code:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+authcode:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+auth info:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+epp code:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+epp:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+transfer code:
+  - /articles/domain-transfer-code-reference/
+  - /articles/transferring-domain-away/
+  - /articles/troubleshooting-domain-transfer-issues/
+
+move domain:
+  - /articles/transferring-domain-between-accounts/
+  - /articles/getting-started-clickfunnels/
+
+domain push:
+  - /articles/transferring-domain-between-accounts/
+  - /articles/getting-started-clickfunnels/
+
+push identifier:
+  - /articles/transferring-domain-between-accounts/
+  - /articles/getting-started-clickfunnels/
+
+account identifier:
+  - /articles/transferring-domain-between-accounts/
+  - /articles/getting-started-clickfunnels/
+
 domain validation:
   - /articles/icann-domain-validation/
 
