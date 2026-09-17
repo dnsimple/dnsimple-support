@@ -61,7 +61,7 @@ For the limits and accepted formats of each setting in both directions, see [Sec
 
 With **outbound** secondary DNS, DNSimple is the primary (the UI calls this DNSimple as **[leader](/articles/secondary-dns-glossary/#leader)**). You manage records in DNSimple. DNSimple transfers the zone to another provider over AXFR.
 
-- Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> → <label>Secondary DNS zone (with DNSimple as leader)</label>.
+- Configure it from the domain <label>DNS</label> page in the <label>Secondary DNS</label> card, or from <label>Add</label> > <label>Secondary DNS zone (with DNSimple as leader)</label>.
 - Built-in provider options are EasyDNS, DNS Made Easy, Dyn Managed, and Dyn Standard. Use <label>Custom</label> or <label>Choose from Name Server Set</label> for any other provider that supports AXFR.
 - Outbound secondary DNS is available on all DNSimple plans.
 - ALIAS is a virtual record type and cannot transfer, so DNSimple resolves it to A and AAAA addresses first. See [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/).

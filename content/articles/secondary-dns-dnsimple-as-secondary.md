@@ -1,7 +1,7 @@
 ---
 title: Add DNSimple as a secondary DNS server
 meta: Configure inbound secondary DNS so DNSimple pulls your zone from an external primary over AXFR and answers on DNSimple name servers.
-excerpt: Set up DNSimple as a secondary DNS provider with Secondary Zones and Primary Servers.
+excerpt: Set up DNSimple as a secondary DNS provider by creating a secondary zone and linking it to your primary server.
 categories:
 - Secondary DNS
 - Enterprise

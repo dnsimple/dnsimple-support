@@ -20,13 +20,13 @@ A [hidden primary](/articles/secondary-dns-glossary/#hidden-primary) DNS setup l
 
 Your primary name servers can be located behind firewalls, on internal networks, or on premises, so you keep full control over zone management. You still edit the zone on the primary. DNSimple pulls updates over [AXFR](/articles/secondary-dns-glossary/#axfr).
 
-There is no separate "hidden primary" product in the DNSimple UI. You use the same inbound secondary DNS flow (Secondary Zones and Primary Servers), then publish only DNSimple name servers at the registrar.
+There is no separate "hidden primary" product in the DNSimple UI. You use the same inbound secondary DNS flow (a secondary zone linked to a primary server), then publish only DNSimple name servers at the registrar.
 
 This guide builds on [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/). For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/).
 
 ## Requirements {#requirements}
 
-1. A primary DNS provider that supports AXFR (Authoritative Zone Transfers).
+1. A primary DNS provider that supports AXFR (full zone transfers).
 1. A DNSimple account on a plan that includes DNSimple as secondary DNS (Teams or Enterprise).
 1. Ability to change domain delegation at your domain registrar.
 
