@@ -16,3 +16,5 @@ Domain registrars typically offer domains bundled with a hosting solution as par
 - There are myriad technologies available for creating websites. These require several pieces of software to work: database servers, web servers, caching services, load balancers, etc. Websites have heavier hardware requirements than just a few megabytes of hard disk.
 - A hosting service would only cater to a tiny fraction of our users who still make HTML static websites.
 
+## Have more questions?
+If you have any questions or need assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

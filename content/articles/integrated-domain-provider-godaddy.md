@@ -63,3 +63,6 @@ For any other value-added services that DNSimple provides, like:
 - One-click-services
 
 Your DNSimple account will be charged. Please [reach out to our customer support team](https://dnsimple.com/feedback) with any concerns regarding these services.
+
+## Have more questions?
+If you have additional questions or need any assistance with the GoDaddy integration, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

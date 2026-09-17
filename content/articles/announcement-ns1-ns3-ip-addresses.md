@@ -104,3 +104,6 @@ You can always refer to the latest list of official DNSimple name servers here: 
 If you have any questions or need help, [reach out to our support team](https://dnsimple.com/contact).
 
 Thank you for being part of DNSimple as we continue to invest in speed, resilience, and the future of DNS.
+
+## Have more questions?
+If you have additional questions or need any assistance with the name server IP address change, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

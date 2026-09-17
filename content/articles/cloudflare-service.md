@@ -48,3 +48,6 @@ However, this approach had some limitations. For instance, Cloudflare doesn't al
 
 1. Go to the DNS settings page of the domain you want to remove the service from.
 2. Under the "One-click services" section you should see the Cloudflare service. Click on the remove button for the Cloudflare service.
+
+## Have more questions?
+If you have additional questions or need any assistance setting up the Cloudflare service, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

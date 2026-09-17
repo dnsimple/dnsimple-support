@@ -64,3 +64,6 @@ We have some older name server hostnames that we consider legacy. They still res
 - ns2.dnsimple.com
 - ns3.dnsimple.com
 - ns4.dnsimple.com
+
+## Have more questions?
+If you have additional questions or need any assistance with our name servers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

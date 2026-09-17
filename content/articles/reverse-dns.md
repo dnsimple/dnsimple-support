@@ -15,3 +15,6 @@ categories:
 DNSimple supports reverse DNS entries (i.e. PTR records). This feature is available on certain plans. [See the differences between plans](/articles/dnsimple-plans/). Please ensure you can delegate the portion of the subnet you want us to respond to for reverse DNS queries.
 
 Depending on your DNS host, you may not have control over your subnet. In that case, you will need to ask your hosting company to set up the reverse DNS entries you require.
+
+## Have more questions?
+If you have additional questions or need any assistance with reverse DNS zones, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

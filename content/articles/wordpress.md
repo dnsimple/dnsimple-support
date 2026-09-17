@@ -64,3 +64,5 @@ The web hosting service will provide you the specific instructions or server acc
 
 You can use DNSimple to point your own domain to the IP address provided you by the web hosting service. You will likely need to [create an A or CNAME DNS record](/articles/differences-a-cname-records/) using your domain [DNS record editor](/articles/record-editor/) to point the domain to your web hosting space and make your WordPress instance available to your users.
 
+## Have more questions?
+If you have additional questions or need any assistance setting up WordPress with DNSimple, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

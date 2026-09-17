@@ -148,3 +148,6 @@ A DNSSEC DS Digest Algorithm is the cryptographic hash function used to generate
 **Learn more:**
 [RFC 4034 §5.1](https://datatracker.ietf.org/doc/html/rfc4034#section-5.1)
 [DS Data Format](/articles/what-are-ds-records/#ds-data-format)
+
+## Have more questions?
+If you have additional questions or need any assistance with any of these DNSSEC terms, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

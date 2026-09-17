@@ -40,4 +40,5 @@ You also have the option to keep the domain registration at your current registr
 
 Once you've started a domain transfer, you can view detailed information about the transfer request by navigating to your Domain List and clicking "transfer in process". Read more about the entire [domain transfer process](/articles/domain-transfer/).
 
+## Have more questions?
 If you have any questions about registering or transferring domains, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

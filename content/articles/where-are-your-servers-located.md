@@ -13,3 +13,6 @@ Our Anycast network consists of <%= POPS.count %> points-of-presence around the 
 
 <% POPS.each do |server| %>* <%= server %>
 <% end %>
+
+## Have more questions?
+If you have any questions or need assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -22,4 +22,5 @@ The next stop is your Domain List. Here, you'll see the domains in your account,
 
 <iframe loading="lazy" width="791" height="445" src="https://www.youtube.com/embed/PGa3Jk3nnGM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Have more questions?
 If you have any questions about your dashboard or Domain List, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

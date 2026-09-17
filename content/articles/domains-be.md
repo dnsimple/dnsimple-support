@@ -38,3 +38,6 @@ You can also request that an authorization code be sent via the [registry websit
 ## DNSSEC
 
 We do not support [DNSSEC](/articles/dnssec/) for .BE domain names at this time.
+
+## Have more questions?
+If you have additional questions or need any assistance with .BE domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

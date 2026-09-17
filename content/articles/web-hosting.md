@@ -47,3 +47,6 @@ Because we do not host your application or files directly, we cannot provide any
 ## Identifying your web host {#identifying-your-web-host}
 
 You can determine your web host by using a tool like [Hosting Checker](https://hostingchecker.com).
+
+## Have more questions?
+If you have additional questions or need any assistance with your domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -31,3 +31,6 @@ Link: https://viewdns.info/
 WhatsMyDNS is a global propagation checker, useful to compare results across locations.
 
 Link: https://www.whatsmydns.net/
+
+## Have more questions?
+If you have additional questions or need any assistance with DNS diagnostics, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -55,3 +55,6 @@ The connections between a resolver and client are recursive queries - queries th
 1. **IP address returned:** The resolver caches the record using the [TTL](/articles/what-is-ttl/) value and sends the IP address to your device.
 
 ![flow diagram of the DNS resolution process](/files/dns-resolution-steps.png)
+
+## Have more questions?
+If you have additional questions or need any assistance with DNS, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

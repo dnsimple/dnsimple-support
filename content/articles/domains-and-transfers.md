@@ -134,3 +134,6 @@ Technical details, policies, and reference documentation:
 - [Domain Authorization Code Reference](/articles/domain-transfer-code-reference/) - The formal structure, requirements, and key technical details of domain authorization codes.
 - [Domain Transfer Reference](/articles/domain-transfer-reference/) - The formal process, requirements, timelines, and key technical details of domain transfers.
 - [Domains Glossary](/articles/domains-glossary/) - Defines terms related to domain names and domain management.
+
+## Have more questions?
+If you have additional questions or need any assistance with domain registrations or transfers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
