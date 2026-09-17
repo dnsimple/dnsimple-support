@@ -92,7 +92,7 @@ A ZSK (Zone Signing Key) is a DNSSEC key pair used to sign all resource record s
 A KSK (Key Signing Key) is a DNSSEC key pair dedicated to signing the DNSKEY RRSet for a zone, rather than individual data records. Its private component creates RRSIG signatures over the entire set of DNSKEY records, while the public key is published alongside them. When a resolver validates DNSSEC, it first retrieves the KSK's public DNSKEY to verify those signatures, establishing trust before proceeding to verify zone data. KSKs typically rotate less frequently than Zone-Signing Keys (ZSKs), providing a stable trust anchor.
 
 **Learn more:**
-[Key Signing Key (KSK)](https://support.dnsimple.com/articles/types-of-dnssec-keys/#key-signing-key-ksk)
+[Key Signing Key (KSK)](/articles/types-of-dnssec-keys/#key-signing-key-ksk)
 [nist.gov: KSK](https://csrc.nist.gov/glossary/term/key_signing_key)
 [HowDNSSEC.works: Key-Signing Who?](https://howdnssec.works/key-signing-who/)
 

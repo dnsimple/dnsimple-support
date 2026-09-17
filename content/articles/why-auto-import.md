@@ -17,10 +17,10 @@ Instead of manually recreating every single record one-by-one (a process that ca
 
 ## Key Benefits of auto-importing {#key-benefits-of-auto-importing}
 
-- **Reduces downtime:** The most critical benefit of auto-importing is minimizing or eliminating [downtime](https://support.dnsimple.com/articles/before-transferring-domain/). Quickly and accurately importing all existing records ensures your domain continues to function correctly, without interruption, during the DNS hosting transition.
+- **Reduces downtime:** The most critical benefit of auto-importing is minimizing or eliminating [downtime](/articles/before-transferring-domain/). Quickly and accurately importing all existing records ensures your domain continues to function correctly, without interruption, during the DNS hosting transition.
 - **Saves time and effort:** Manually recreating a DNS zone with dozens or even hundreds of records is a monumental task. Auto-importing automates this process, letting you set up your domain in minutes rather than hours.
 - **Increases accuracy:** Manual entry is a common source of errors, like typos in IP addresses, hostnames, or text strings. The auto-import tool eliminates these risks by accurately replicating your existing records.
-- **Simplifies complex records:** Auto-importing is particularly useful for complex or long records, like [TXT](https://support.dnsimple.com/articles/txt-record/) records for [DKIM](https://support.dnsimple.com/articles/dkim-record/), [DMARC](https://support.dnsimple.com/articles/dmarc-record/), or [SPF](https://support.dnsimple.com/articles/spf-record/), which can be difficult to copy and paste without error.
+- **Simplifies complex records:** Auto-importing is particularly useful for complex or long records, like [TXT](/articles/txt-record/) records for [DKIM](/articles/dkim-record/), [DMARC](/articles/dmarc-record/), or [SPF](/articles/spf-record/), which can be difficult to copy and paste without error.
 
 ## How it works {#how-it-works}
 

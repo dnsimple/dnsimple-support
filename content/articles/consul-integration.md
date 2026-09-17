@@ -41,7 +41,7 @@ Pay special attention to the `condition` and `variable_files` fields.
 
 To ensure the task can create the records in your DNSimple account, the following variables need to be set in your `.tfvars` file:
 
-**`dnsimple_token`**:`string` - (Required) The DNSimple API v2 token. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token.
+**`dnsimple_token`**:`string` - (Required) The DNSimple API v2 token. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](/articles/api-access-token/) support article for more information on how to get a token.
 
 
 **`dnsimple_account`**:`string` - (Required) The ID of the account associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](https://developer.dnsimple.com).

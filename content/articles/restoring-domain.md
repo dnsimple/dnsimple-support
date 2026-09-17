@@ -8,7 +8,7 @@ categories:
 
 # Restore a Domain
 
-To reactivate your domain that has entered the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), it has to be restored. This process takes up to a day to complete. We will send updates to your [account email](https://support.dnsimple.com/articles/changing-email/).
+To reactivate your domain that has entered the [redemption period](/articles/what-happens-when-domain-expires/#redemption-period), it has to be restored. This process takes up to a day to complete. We will send updates to your [account email](/articles/changing-email/).
 
 Upon completion, your domain's registration will be automatically extended by the registry's minimum renewal period (usually 1 year).
 

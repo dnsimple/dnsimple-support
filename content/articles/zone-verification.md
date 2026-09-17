@@ -11,7 +11,7 @@ When adding a zone to DNSimple, you may be asked to verify ownership. This proce
 
 ## Steps to complete zone verification {#steps-to-complete-zone-verification}
 
-1. Add your zone in DNSimple following the steps in this [article](https://support.dnsimple.com/articles/adding-domain/#creating-a-dns-zone).
+1. Add your zone in DNSimple following the steps in this [article](/articles/adding-domain/#creating-a-dns-zone).
 1. We will check which name servers your domain is currently using.
 1. If verification is needed, we generate two randomized verification name servers (e.g. `ns-random123.dnsimple-verify.com`).
 1. We will ask you to add these verification name servers at your domain registrar (where you purchased your domain name).
@@ -26,7 +26,7 @@ When adding a zone to DNSimple, you may be asked to verify ownership. This proce
 
 The verification runs automatically whether you are using the app or the API. We regularly check if the domain is pointing to the verification name servers. You can also click **Verify now** on your DNSimple domain page to trigger the check manually, or resend the request through the API.
 
-Once the verification is successful, you will still need to complete the original step to add the [DNS zone](https://support.dnsimple.com/articles/adding-domain/).
+Once the verification is successful, you will still need to complete the original step to add the [DNS zone](/articles/adding-domain/).
 
 ## Have more questions?
 

@@ -39,7 +39,7 @@ provider "dnsimple" {
 
 To start using DNSimple's Terraform Provider, you'll have to configure it.
 
-The DNSimple API v2 token must be provided in the token part of the provider's configuration. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](https://support.dnsimple.com/articles/api-access-token/) support article for more information on how to get a token.
+The DNSimple API v2 token must be provided in the token part of the provider's configuration. You can use either a User or an Account Token. We recommend using the Account token. You can read our [API Access Token](/articles/api-access-token/) support article for more information on how to get a token.
 
 The **account** argument is the account ID associated with the token. For more information on obtaining your account ID, take a look at [Account scope](https://developer.dnsimple.com/v2/#account-scope) in our [developer documentation](https://developer.dnsimple.com).
 
@@ -67,7 +67,7 @@ resource "dnsimple_email_forward" "hello" {
 }
 ```
 
-To create an email forward, you'll need to provide the destination email for the domain for which you want to set up the email forward. Our [Email Forwarding](https://support.dnsimple.com/articles/email-forwarding/) support article has more information about email forwards.
+To create an email forward, you'll need to provide the destination email for the domain for which you want to set up the email forward. Our [Email Forwarding](/articles/email-forwarding/) support article has more information about email forwards.
 
 ## Setting up a Let's Encrypt Certificate
 
@@ -80,7 +80,7 @@ resource "dnsimple_lets_encrypt_certificate" "my-certificate" {
 }
 ```
 
-To add a certificate to your domain, decide which domain the certificate is going to be for, and provide a contact for the certificate. We'll take care of the rest. For more information, take a look at our [SSL Certificates Section](https://support.dnsimple.com/categories/ssl-certificates/).
+To add a certificate to your domain, decide which domain the certificate is going to be for, and provide a contact for the certificate. We'll take care of the rest. For more information, take a look at our [SSL Certificates Section](/categories/ssl-certificates/).
 
 You can also use the *dnsimple_certificate* data source to download a certificate:
 
@@ -109,7 +109,7 @@ When setting up a record (an MX (mail exchange) record in this example), provide
 - The zone name this record is for
 - A name (for your own records)
 - The value of the record (for the MX record in the example, this is the address to the mail server.)
-- The type of record (MX in the example) – see [Supported Record Types](https://support.dnsimple.com/articles/supported-dns-records/) for a comprehensive list of the records we support.
+- The type of record (MX in the example) – see [Supported Record Types](/articles/supported-dns-records/) for a comprehensive list of the records we support.
 - The time to live (TTL) of the record
 - The priority
 
