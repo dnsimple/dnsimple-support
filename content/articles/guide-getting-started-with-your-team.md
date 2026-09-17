@@ -32,4 +32,7 @@ If you're an administrator for an account, see [What is Domain Access Control?](
 
 ## 3. Learn more about managing zones, registering domains, and other DNSimple features
 
-Visit the [Getting Started](/articles/getting-started/) page on our support site for links to information and guides on everything you can do with your DNSimple account. If you have any questions, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.
+Visit the [Getting Started](/articles/getting-started/) page on our support site for links to information and guides on everything you can do with your DNSimple account.
+
+## Have more questions?
+If you have any questions about setting up your team, just [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

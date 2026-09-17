@@ -24,3 +24,6 @@ DNS-Simple is close but not correct.
 DNS-imple is right out.
 
 If you're still unsure how to pronounce it, record yourself saying it out loud and give our support a try by sending along your recording to support@dnsimple.com. We'll help you out with this and any other Domain Management Automation questions you might have.
+
+## Have more questions?
+If you have any questions or need assistance, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

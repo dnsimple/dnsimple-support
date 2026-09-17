@@ -35,3 +35,6 @@ Along with all the features above, DNSimple's API lets you automate your domain 
 When you sign up for an Enterprise plan, you'll have a dedicated account manager to help you get set up, direct access to our engineering team for fast-tracked feature requests, [multi-account management](/articles/account-multi-enterprise/), bulk pricing discounts, and many other features that provide high performance, reliability, and security for your DNS. Learn more about what the [Enterprise plan](https://dnsimple.com/enterprises) has to offer.
 
 If you're an enterprise managing a large number of domains, or [reseller](https://dnsimple.com/resellers) looking for streamlined DNS management and registration, we'd love to talk more — [get in touch](https://dnsimple.com/sales).
+
+## Have more questions?
+If you have additional questions or need any assistance with DNS hosting at DNSimple, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

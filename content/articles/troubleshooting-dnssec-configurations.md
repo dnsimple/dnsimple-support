@@ -68,3 +68,6 @@ Before contacting support, please gather the following information:
 - **Time of observation**: When did you first notice the issue?
 
 Providing this information allows our support team to diagnose and resolve your DNSSEC issue much more quickly, getting your secure DNS up and running again.
+
+## Have more questions?
+If you have additional questions or need any assistance with DNSSEC on your domain, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

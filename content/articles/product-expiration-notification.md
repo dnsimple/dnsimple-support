@@ -24,3 +24,6 @@ The notification is delivered as soon as one of your products enters the 60-day 
 > Starting March 2026, [Sectigo SSL certificates are valid for 200 days](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will receive expiration notifications for these certificates sooner than you might expect. When you receive one, you will need to purchase a new certificate to maintain uninterrupted coverage.
 
 This email is part of the [expiring product notification feature](/articles/expiring-product-email-notifications/).
+
+## Have more questions?
+If you have additional questions or need any assistance with the Product Expiration email, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -65,3 +65,6 @@ Some DNS records have their own semantics but are defined using existing record 
 - **TLSA records and integrated providers**: TLSA records are not currently transferable to integrated third-party DNS providers via the Domain Control Plane.
   
 For more information about each DNS record type, click the links above to view detailed articles and configuration instructions.
+
+## Have more questions?
+If you have additional questions or need any assistance with any of these record types, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

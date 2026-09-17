@@ -329,3 +329,6 @@ Learn more:
 
 - [RFC 8767](https://datatracker.ietf.org/doc/html/rfc8767#name-introduction)  
 - [What Is Time-to-Live?](/articles/what-is-ttl/)
+
+## Have more questions?
+If you have additional questions or need any assistance with any of these DNS terms, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

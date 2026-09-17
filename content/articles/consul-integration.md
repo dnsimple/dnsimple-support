@@ -68,3 +68,6 @@ To ensure the task can create the records in your DNSimple account, the followin
 ## Ready to go
 
 You're now ready to get started with [DNSimple's Consul NIA Integration](https://registry.terraform.io/modules/ns1-terraform/record-sync-nia/ns1/latest). As always, if you have more questions, [get in touch](https://dnsimple.com/contact) - we're always happy to help.
+
+## Have more questions?
+If you have additional questions or need any assistance with the Consul integration, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

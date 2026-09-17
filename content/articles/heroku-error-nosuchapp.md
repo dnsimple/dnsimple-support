@@ -31,3 +31,6 @@ Make sure to [add your custom domain to your Heroku application](https://devcent
 > $ heroku domains:add example.com,
 > $ heroku domains:add www.example.com
 > ```
+
+## Have more questions?
+If you have additional questions or need any assistance with the "No such app" error, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

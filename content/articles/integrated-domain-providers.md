@@ -53,3 +53,6 @@ While integrated domains can be managed through DNSimple, they remain registered
 1. Click the <label>Integrated Providers</label> tab on the left side.
 1. Under <label>Linked providers</label>, click the <label>Remove</label> button for the Integrated Domain Provider you want to unlink from your DNSimple account. This will disable the ability to refresh the state of the imported domains from the linked provider via DNSimple.
 ![Unlink an Integrated Domain Provider](/files/account-integrated-domain-provider-unlink.png)
+
+## Have more questions?
+If you have additional questions or need any assistance with integrated domain providers, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

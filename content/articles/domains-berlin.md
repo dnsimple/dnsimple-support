@@ -18,3 +18,6 @@ This article explains the requirements and special procedures for .BERLIN domain
 ### Registration requirements for .BERLIN domains
 
 To register a .BERLIN domain, the registrant's address must be located in Berlin. The city or country will be verified during the registration process to ensure compliance.
+
+## Have more questions?
+If you have additional questions or need any assistance with .BERLIN domains, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

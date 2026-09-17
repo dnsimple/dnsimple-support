@@ -37,3 +37,6 @@ Look for:
 • DNSKEY responses
 
 For usage details, reference the "How to Use dig" and "dig Reference Guide" articles.
+
+## Have more questions?
+If you have additional questions or need any assistance with DNSSEC diagnostics, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.
