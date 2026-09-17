@@ -9,7 +9,7 @@ categories:
 
 # How ALIAS Records Resolve with Secondary DNS
 
-DNSimple [ALIAS records](/articles/alias-record/) provide dynamic resolution for apex domains. When secondary DNS servers pull your zone from DNSimple over AXFR, ALIAS cannot be transferred as a standard record type. DNSimple resolves each ALIAS to A and AAAA addresses, then transfers those addresses to your secondary servers.
+DNSimple [ALIAS records](/articles/alias-record/) provide dynamic resolution for apex domains. When secondary DNS servers pull your zone from DNSimple over [AXFR](/articles/secondary-dns-glossary/#axfr), ALIAS cannot be transferred as a standard record type. DNSimple resolves each ALIAS to A and AAAA addresses, then transfers those addresses to your secondary servers.
 
 ## The challenge with secondary DNS and ALIAS records {#challenge}
 
@@ -21,10 +21,10 @@ Because ALIAS is not a transferable standard type, DNSimple cannot send the ALIA
 
 When you configure outbound secondary DNS (DNSimple as primary) for a zone that has ALIAS records, DNSimple:
 
-1. **Resolves ALIAS records at setup** - Writes the resulting A and AAAA records into the zone transfer data that secondaries pull.
+1. **Resolves ALIAS records at setup** - Writes the resulting A and AAAA records into the [zone transfer](/articles/secondary-dns-glossary/#zone-transfer) data that secondaries pull.
 1. **Re-resolves when the TTL expires** - Checks each zone every few minutes and re-resolves its ALIAS records once the shortest ALIAS TTL in that zone has elapsed. A lower TTL on your ALIAS record means more frequent refreshes.
 1. **Updates transfer data** - Removes stale A and AAAA addresses for that ALIAS and writes the new ones.
-1. **Sends NOTIFY** - Notifies configured secondary name servers so they can start a new AXFR or IXFR and pick up the updated addresses.
+1. **Sends NOTIFY** - Sends a [NOTIFY](/articles/secondary-dns-glossary/#notify) message to configured secondary name servers so they can start a new AXFR or [IXFR](/articles/secondary-dns-glossary/#ixfr) and pick up the updated addresses.
 
 This keeps secondary servers aligned with the latest ALIAS resolution while you use secondary DNS for redundancy. See [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) and [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/).
 

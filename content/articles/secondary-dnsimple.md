@@ -16,7 +16,7 @@ categories:
 
 ---
 
-You can run DNSimple next to another DNS provider **without** automatic zone transfers. You are responsible for keeping both zones in sync. This is not inbound or outbound secondary DNS via AXFR.
+You can run DNSimple next to another DNS provider **without** automatic [zone transfers](/articles/secondary-dns-glossary/#zone-transfer). You are responsible for keeping both zones in sync. This is not inbound or outbound secondary DNS via AXFR.
 
 > [!NOTE]
 > For automatic AXFR between DNSimple and another provider, use [Add a secondary DNS server to DNSimple](/articles/secondary-dns/) (DNSimple as primary) or [Add DNSimple as a secondary DNS server](/articles/secondary-dns-dnsimple-as-secondary/) (DNSimple as secondary). See [DNS Redundancy Options at DNSimple](/articles/dns-redundancy/) for the difference.

@@ -58,7 +58,7 @@ If the configuration is correct, a success message will appear. You will be take
 
 ![DNSMadeEasy configuration successful](/files/dns-made-easy-config-success.png)
 
-At the bottom of the screen, you might see an error message that the zone is out of sync. You may need to wait a few minutes for the zones to synchronize.
+At the bottom of the screen, you might see an error message that the zone is out of sync. You may need to wait a few minutes for the zones to synchronize. If the zone stays out of sync, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#outbound).
 
 ![DNSMadeEasy configuration details not in sync](/files/dns-made-easy-sync.png)
 

@@ -16,7 +16,7 @@ categories:
 
 ---
 
-This guide covers **inbound** secondary DNS: an external primary holds the zone, and DNSimple is the secondary (follower). For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/). If your primary should stay off public NS records, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
+This guide covers **inbound** secondary DNS: an external primary holds the zone, and DNSimple is the secondary ([follower](/articles/secondary-dns-glossary/#follower)). For concepts, see [What is Secondary DNS?](/articles/what-is-secondary-dns/). If your primary should stay off public NS records, see [Add DNSimple as Secondary DNS with a Hidden Primary](/articles/secondary-dns-dnsimple-with-hidden-primary/).
 
 For the opposite direction (DNSimple as primary), see [Add a secondary DNS server to DNSimple](/articles/secondary-dns/).
 
@@ -28,7 +28,7 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 
 ## Requirements {#requirements}
 
-1. A primary DNS provider that supports AXFR.
+1. A primary DNS provider that supports [AXFR](/articles/secondary-dns-glossary/#axfr).
 1. A DNSimple account on a plan that includes DNSimple as secondary DNS (Teams or Enterprise).
 1. Ability to allow DNSimple's AXFR client IPs on your primary provider ACL.
 1. Ability to change domain delegation at your registrar if you want both providers in the public NS set.
@@ -55,7 +55,7 @@ For the opposite direction (DNSimple as primary), see [Add a secondary DNS serve
 
 ## Add a primary server {#add-primary}
 
-Primary server entries can be reused across all the secondary zones you set up. If you need to add a new entry, fill in the form with an alias name, and the IP address and port number provided by your primary DNS provider.
+[Primary server](/articles/secondary-dns-glossary/#primary-server) entries can be reused across all the [secondary zones](/articles/secondary-dns-glossary/#secondary-zone) you set up. If you need to add a new entry, fill in the form with an alias name, and the IP address and port number provided by your primary DNS provider. For the limits on each field, see [Secondary DNS Field Reference](/articles/secondary-dns-field-reference/#inbound-primary-server).
 
 <div class="section-steps" markdown="1">
 ##### Create a primary server
@@ -69,7 +69,7 @@ Primary server entries can be reused across all the secondary zones you set up. 
 
 ## Configure AXFR at your primary DNS provider {#axfr-acl}
 
-Allow DNSimple's AXFR client IPs on your primary provider ACL **before** you link the zone. Zone transfers fail until the ACL allows these clients.
+Allow DNSimple's AXFR client IPs on your primary provider ACL **before** you link the zone. [Zone transfers](/articles/secondary-dns-glossary/#zone-transfer) fail until the ACL allows these clients.
 
 ### Production {#production-ips}
 
@@ -98,7 +98,7 @@ Linking a secondary zone to a primary server enables zone transfers (AXFR) that 
 DNSimple attempts the first zone transfer after linking to sync the zone with DNS records from the primary. This can take a few minutes, especially if you just added DNSimple's AXFR client IPs to the primary ACL.
 
 > [!NOTE]
-> If you added DNSimple to the primary ACL after linking, or more than 10 minutes have passed and no records appear, confirm the AXFR client IPs are on the access-control list (ACL) at your primary. This allows DNSimple to carry out zone transfer via AXFR. After confirming the IPs are present, use <label>Unlink primary server</label> and <label>Link primary server</label> again. Allow another 10 minutes for the initial zone transfer. If it still fails, [contact support](https://dnsimple.com/feedback).
+> If you added DNSimple to the primary ACL after linking, or more than 10 minutes have passed and no records appear, confirm the AXFR client IPs are on the access-control list (ACL) at your primary. This allows DNSimple to carry out zone transfer via AXFR. After confirming the IPs are present, use <label>Unlink primary server</label> and <label>Link primary server</label> again. Allow another 10 minutes for the initial zone transfer. For more checks, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#inbound). If it still fails, [contact support](https://dnsimple.com/feedback).
 
 ## Delegate through both providers {#delegation}
 

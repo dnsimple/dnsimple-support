@@ -16,9 +16,9 @@ categories:
 
 ---
 
-A hidden primary DNS setup lets you keep your primary DNS server private while using DNSimple as a secondary DNS provider to handle public queries. This setup enhances security, redundancy, and performance by keeping your primary authoritative name servers off public name server lists.
+A [hidden primary](/articles/secondary-dns-glossary/#hidden-primary) DNS setup lets you keep your primary DNS server private while using DNSimple as a secondary DNS provider to handle public queries. This setup enhances security, redundancy, and performance by keeping your primary authoritative name servers off public name server lists.
 
-Your primary name servers can be located behind firewalls, on internal networks, or on premises, so you keep full control over zone management. You still edit the zone on the primary. DNSimple pulls updates over AXFR.
+Your primary name servers can be located behind firewalls, on internal networks, or on premises, so you keep full control over zone management. You still edit the zone on the primary. DNSimple pulls updates over [AXFR](/articles/secondary-dns-glossary/#axfr).
 
 There is no separate "hidden primary" product in the DNSimple UI. You use the same inbound secondary DNS flow (Secondary Zones and Primary Servers), then publish only DNSimple name servers at the registrar.
 
@@ -56,7 +56,7 @@ Update the delegation at your domain registrar to [DNSimple's name servers](/art
 
 ## Step 4: Verify the setup {#verify}
 
-The configuration can take 10 to 30 minutes to take effect.
+The configuration can take 10 to 30 minutes to take effect. If records still do not appear after that, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#inbound).
 
 ### Records synchronized in DNSimple {#verify-records}
 

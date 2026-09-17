@@ -31,7 +31,7 @@ You can get started with secondary DNS from the <label>DNS</label> tab on the do
 
 First, set up secondary DNS at Dyn. Look for the Standard DNS secondary zone instructions on the [Dyn help site](https://help.dyn.com/).
 
-During setup, use the following address as the primary server to perform AXFR transfers:
+During setup, use the following address as the primary server to perform [AXFR](/articles/secondary-dns-glossary/#axfr) transfers:
 
 * Name: axfr.dnsimple.com
 * IP: 18.189.127.127
@@ -68,6 +68,8 @@ A confirmation message will tell you secondary DNS has been enabled from the DNS
 ![DNSimple configuration is successful](/files/secondary-dns-confirmation-message.png)
 
 Your secondary DNS should now be set up with **Dyn Managed**.
+
+If the zone at Dyn does not update after you change records at DNSimple, see [Troubleshoot Secondary DNS Zone Transfers](/articles/troubleshooting-secondary-dns-transfers/#outbound).
 
 ## Have more questions?
 
