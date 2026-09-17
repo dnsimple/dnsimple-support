@@ -186,7 +186,7 @@ You just added a DNS zone for your domain.
 
 ## What's next?
 
-Now that you have completed some tasks in DNSimple, what's next? You can [automate domain management or get analytics with our API](https://dnsimple.com/api). If you want to protect your site in the case of DNS servers going offline, [try setting up Secondary DNS](/articles/secondary-dns/). To add secure connections between your domain and a client, [learn how an SSL Certificate makes that happen](/articles/ssl-certificates/). Check out our [DNSimple Services](/articles/dnsimple-services/) page for a full overview of everything we offer. Check out [our comics](https://dnsimple.com/comics/) to see how DNS and the surrounding technologies work.
+Now that you have completed some tasks in DNSimple, what's next? You can [automate domain management or get analytics with our API](https://dnsimple.com/api). If you want to protect your site in the case of DNS servers going offline, [try setting up Secondary DNS](/articles/secondary-dns-at-dnsimple/). To add secure connections between your domain and a client, [learn how an SSL Certificate makes that happen](/articles/ssl-certificates/). Check out our [DNSimple Services](/articles/dnsimple-services/) page for a full overview of everything we offer. Check out [our comics](https://dnsimple.com/comics/) to see how DNS and the surrounding technologies work.
 
 If DNSimple is working well for you, [leave a review](/articles/leave-a-review/) - it helps others find us.
 

@@ -75,6 +75,7 @@ Learn about DNS fundamentals, DNS records, and DNS concepts:
 - [What Is EDNS Client Subnet Support?](/articles/edns-client-subnet/) - Learn about EDNS Client Subnet (ECS) and how it improves DNS resolution accuracy.
 - [Regional Records Explained](/articles/regional-records/) - Learn about regional records and how they enable location-based DNS responses.
 - [Reverse DNS Zones](/articles/reverse-dns/) - Learn about reverse DNS zones and how to configure PTR records.
+- [Secondary DNS at DNSimple](/articles/secondary-dns-at-dnsimple/) - Starting point for secondary DNS: outbound, inbound, and multi-provider setups.
 - [Why DNSSEC and Secondary DNS May Not Work Together](/articles/dnssec-and-secondary-dns/) - Understand compatibility considerations when using DNSSEC with secondary DNS.
 - [How ALIAS Records Resolve with Secondary DNS](/articles/alias-and-secondary-dns/) - Learn how ALIAS records work when using secondary DNS providers.
 - [Integrated DNS Providers at DNSimple](/articles/integrated-dns-providers/) - Overview of integrated DNS providers available in DNSimple and how they work.
