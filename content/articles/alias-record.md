@@ -48,7 +48,11 @@ We have added some features to keep things fast and reliable:
 
 **In-memory cache:** When we successfully resolve an ALIAS record, we store the result in memory. The next time someone asks for the same record, we can return the cached answer right away instead of doing another lookup.
 
-**Timeout and retries:** Sometimes the external lookup fails or takes too long (we are aiming for 500 milliseconds or less, and we are working on making it even faster). When that happens, we try to return a cached answer first if we have one. If there is no cache, we retry the lookup a few times. We only return an empty result if all those attempts fail. This keeps your domain accessible even if the target service has a temporary problem.
+**Timeout and retries:** Each lookup attempt has 500 milliseconds to complete. If an attempt times out, DNSimple checks the in-memory cache again and returns a cached answer if one is available. If there is no cached answer, DNSimple tries the lookup one more time.
+
+**When the lookup fails:** If both attempts fail, or the resolver reports an error for the target, DNSimple name servers answer with `SERVFAIL`. This status tells resolvers the answer is temporarily unavailable, so they retry the query, often against another DNSimple name server, instead of caching an empty result. Your ALIAS record resolves again as soon as the target is reachable.
+
+**When the target does not exist:** If the ALIAS target returns `NXDOMAIN` (the name does not exist), DNSimple answers with an empty response for the A or AAAA query rather than `NXDOMAIN`. Other records on the same name, such as MX or TXT records, keep working. You can check which status a query returns with [dig](/articles/what-is-dig/).
 
 ## Have more questions?
 If you have additional questions or need any assistance with your ALIAS records, just [contact support](https://dnsimple.com/feedback), and we will be happy to help.

@@ -14,7 +14,7 @@ Records you add to a domain will be available within seconds from all of DNSimpl
 
 DNS propagation is the time it takes for DNS record changes to spread across all resolvers on the internet. When a new record is added, a DNS resolver may not see it immediately if it has recently queried the domain for that same record. Resolvers store DNS information in a cache to reduce network traffic and speed up lookups.
 
-This caching behavior also applies to records that do not exist. If a DNS resolver queries for a name that is not yet in the system, it will cache that negative response. It may take up to an hour for this negative result to be cleared from a resolver's cache, causing a delay before your new record becomes publicly visible.
+This caching behavior also applies to records that do not exist. If a DNS resolver queries for a name that is not yet in the system, it will cache that negative response. The minimum TTL in your zone's [SOA record](/articles/soa-record/) sets how long this negative result is cached. DNSimple zones default to 5 minutes, so a new record is usually publicly visible within about 10 minutes. If your zone's SOA record has a higher minimum TTL, the wait is longer.
 
 To learn more about how caching works and how to control it, read our [What Is Time-to-Live?](/articles/what-is-ttl/) article. For information about DNSimple's TTL settings, see [What is the Minimum Time-To-Live Provided by DNSimple?](/articles/what-minimum-time-to-live/).
 
