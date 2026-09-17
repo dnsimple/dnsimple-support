@@ -18,12 +18,12 @@ categories:
 > [!NOTE]
 > There are a few important things you should note about [renewing an SSL certificate](/articles/renew-ssl-certificate/) before continuing with this document.
 
-Sixty days before the certificate expires, you will begin receiving renewal notices.
+Seven days before the certificate expires, you will begin receiving renewal notices. Certificates purchased before March 15, 2026 use the previous 60-day notice window.
 
 > [!NOTE]
 > Starting March 15, 2026, Sectigo certificates are valid for a maximum of 200 days due to [CA/Browser Forum lifetime reduction requirements](/articles/can-multi-year-ssl-certificates/#shorter-validity). You will need to purchase a new certificate before it expires to maintain uninterrupted coverage.
 
-We encourage you to plan the renewal of your certificate to occur at least one week before the expiration to avoid downtime or issues caused by possible renewal delays.
+Start the renewal as soon as the <label>Renew</label> button becomes available, so that email validation and issuance have time to complete before the current certificate expires. If you want a longer lead time, you can [purchase a new certificate](/articles/buy-sectigo-ssl-certificate/) at any point instead of waiting for the renewal window.
 
 ## Renewing your Sectigo certificate {#renew}
 
@@ -37,7 +37,9 @@ We encourage you to plan the renewal of your certificate to occur at least one w
 
     ![Renewing a Certificate](/files/certificates-renew-action.png)
 
-    If you do not see the <label>Renew</label> button, the certificate is either expired or not in a state that allows a renewal.
+    The <label>Renew</label> button only appears once the certificate is close to expiring. For Sectigo certificates, it becomes available 7 days before the expiration date and remains available for 7 days after. Certificates purchased before March 15, 2026 use the previous 60-day window.
+
+    If the button is missing outside that period, the certificate is either not yet due for renewal, already expired for more than 7 days, or in a state that does not allow a renewal.
 
 1.  Follow the instructions to purchase the certificate renewal.
 

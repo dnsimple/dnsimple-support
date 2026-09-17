@@ -23,7 +23,7 @@ An SSL certificate renewal in DNSimple results in a new certificate being issued
 ## Before You Start {#before-you-start}
 
 - You need an active SSL certificate in your DNSimple account that is approaching its expiration date.
-- You will begin receiving renewal notices 60 days before a Sectigo certificate expires and 30 days before a Let's Encrypt certificate expires.
+- You will begin receiving renewal notices 7 days before a Sectigo certificate expires and 30 days before a Let's Encrypt certificate expires. Sectigo certificates purchased before March 15, 2026 use the previous 60-day notice window.
 - You may have more than one certificate for a hostname at the same time, so renewing before expiration will not affect your current operations.
 
 ## Renewing Your SSL Certificate {#renew}

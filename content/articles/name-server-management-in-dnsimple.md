@@ -61,6 +61,12 @@ DNSimple provides full control over name server delegation for domains registere
 - [NS Record Format](/articles/ns-record-format/) - The RDATA structure, canonical zone file representation, and DNSimple fields for NS records.
 - [DNSimple Interface Reference for Name Server Management](/articles/name-servers-interface-reference/) - Reference for the Edit Delegation, Name Server Sets, Vanity Name Servers, and Zone NS Records interfaces.
 
+## Related articles {#related}
+
+- [DNS at DNSimple](/articles/dns/) - The records DNSimple serves once a domain is delegated here.
+- [DNS Security Extensions (DNSSEC) at DNSimple](/articles/dnssec/) - DS records have to be updated when you move DNS to another provider.
+- [Domains and Transfers at DNSimple](/articles/domains-and-transfers/) - Registration and transfer at the registrar that publishes your delegation.
+
 ## Have more questions?
 
 If you have any questions about name server management at DNSimple, [contact support](https://dnsimple.com/feedback), and we will be happy to help.

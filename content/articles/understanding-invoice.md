@@ -60,7 +60,7 @@ Here is a closer look at what your invoice shows:
 
 ## Charge types {#charge-types}
 
-DNSimple has both recurring charges and purchases. Purchases, like fees for registering a domain or buying a Standard or Wildcard SSL certificate, appear on a separate invoice from subscription fees. Purchases can also be recurring - for example, if you have enabled [auto-renewal](/articles/domain-auto-renewal/) for a domain.
+DNSimple has both recurring charges and purchases. Purchases, like fees for registering a domain or buying a Sectigo Single-name or Sectigo Wildcard SSL certificate, appear on a separate invoice from subscription fees. Purchases can also be recurring - for example, if you have enabled [auto-renewal](/articles/domain-auto-renewal/) for a domain.
 
 ### Recurring charges {#recurring-charges}
 
@@ -76,7 +76,7 @@ DNSimple has both recurring charges and purchases. Purchases, like fees for regi
 - Domain registrations
 - Domain renewals
 - Domain transfers
-- Standard or Wildcard SSL certificates
+- Sectigo Single-name or Sectigo Wildcard SSL certificates
 
 > [!NOTE]
 > Domain registration charges can be recurring if you have enabled [auto-renewal](/articles/domain-auto-renewal/).

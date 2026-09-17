@@ -30,7 +30,7 @@ Click **Register [domain name]** in the bottom right corner to register the doma
 
 ### Transferring a domain into DNSimple
 
-To complete the transfer process, enter the auth code for transfer, select a domain contact, opt into WHOIS Privacy, delegate NS if wanted, and agree to the payment.
+To complete the transfer process, enter the authorization code, select a domain contact, opt into WHOIS Privacy, delegate NS if wanted, and agree to the payment.
 
 If the transfer is successful, you will see a **Pending** notification:
 

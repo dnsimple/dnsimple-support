@@ -40,7 +40,11 @@ If you are new to DNSSEC, start with [What Is DNSSEC?](/articles/what-is-dnssec/
 
 **If the domain is registered elsewhere:**
 - The zone will be signed automatically.
-- You'll receive an email with instructions to provision the DS record with your domain's registrar. This information will also be available on the **DNSSEC** tab during the setup process.
+- You will receive an email containing the DS record in both DS-data and KEY-data format. Follow its instructions to provision the record with your domain's registrar. Keep the email until the DS record is live.
+- The **DNSSEC** tab shows a summary of your active key set: algorithm, key tag, creation date, and next scheduled rotation. It does not display the full DS record during initial setup. Use the values from the email.
+
+> [!WARNING]
+> The email includes a deadline for provisioning the DS record. If the DS record is not in place at your registrar by that date, DNSSEC is disabled on the domain.
 
 ## Troubleshooting {#troubleshooting}
 

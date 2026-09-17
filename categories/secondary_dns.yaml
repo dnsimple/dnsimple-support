@@ -18,3 +18,11 @@ How-to:
     - "Add DNSimple as Secondary DNS with a Hidden Primary"
   Multi-provider without zone transfers:
     - "Using DNSimple alongside other DNS providers"
+  Troubleshooting:
+    - "Troubleshoot Secondary DNS Zone Transfers"
+
+Reference:
+  Field reference:
+    - "Secondary DNS Field Reference"
+  Glossary:
+    - "Secondary DNS Glossary"

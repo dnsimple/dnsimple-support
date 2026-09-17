@@ -60,7 +60,7 @@ DNSimple supports catch-all email forwarding, which forwards emails sent to any 
 
 ## Email forwarding limits {#limits}
 
-Email forwarding at DNSimple is billed monthly on a per-domain basis. The number of forwarded messages and email forwards allowed per month is based on your plan. [See the differences between plans](https://dnsimple.com/pricing).
+Email forwarding at DNSimple is billed monthly on a per-domain basis. The number of email forwards and forwarded messages allowed per domain is based on your plan. Solo includes up to 10 email forwards and 1,000 messages per month. Teams includes up to 25 email forwards and 10,000 messages per month. See [Email Forwarding Limits and Quotas](/articles/email-forwarding-limits-and-quotas/) for details.
 
 ## Getting started {#getting-started}
 

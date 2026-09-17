@@ -113,6 +113,12 @@ DNSimple provides email forwarding and DNS-based email authentication (SPF, DKIM
 - [DKIM Record Reference](/articles/dkim-record-reference/) - DKIM record structure and technical details.
 - [DMARC Record Reference](/articles/dmarc-record-reference/) - DMARC record structure, tags, and technical details.
 
+## Related articles {#related}
+
+- [DNS at DNSimple](/articles/dns/) - Email authentication is published as records in your zone.
+- [One-click Services](/articles/services/) - One-step setup for Google Workspace, Fastmail, Postmark, and other mail providers.
+- [Name Server Management at DNSimple](/articles/name-server-management-in-dnsimple/) - Mail can stop arriving after a delegation change, and this covers how to check.
+
 ## Have more questions?
 
 If you have additional questions or need assistance with email services, [contact support](https://dnsimple.com/feedback), and we'll be happy to help.

@@ -102,7 +102,32 @@ Use the current preferred terms. Older articles may still use deprecated terms â
 
 - Product names: **Sectigo PositiveSSL** (single-name), **Sectigo PositiveSSL Wildcard** (wildcard)
 - When referring to Sectigo vs Let's Encrypt, use "Sectigo" and "Let's Encrypt" â€” not "paid vs free" or "standard vs automated"
-- "SSL certificate" is acceptable as the general term even though the protocol is technically TLS. The industry and customers use "SSL."
+- "SSL certificate" is the general term even though the protocol is technically TLS. The industry and customers use "SSL."
+
+### Preferred terms
+
+Customers use different words for the same thing. Use one term in the prose, and name the words customers search with once, on first mention, so those searches still find the article. Do not scatter aliases through the article, and do not find-and-replace them out.
+
+| Use | Name once on first mention (alias) | Rewrite to the preferred term | Notes |
+|---|---|---|---|
+| authorization code | auth code, EPP code, transfer code, auth info | | "authorization code (also called auth code, EPP code, transfer code, or auth info)". EPP code is not deprecated: customers and registries still use it |
+| registrant | domain owner | | "Registrant" in policy and compliance contexts, "domain owner" in explanatory prose. They are not fully synonymous |
+| transfer | | | Registrar to registrar only. Make that clear wherever it is used |
+| move | | transfer, when it means between DNSimple accounts | DNSimple account to DNSimple account. Matches the app's **Move domain** button |
+| migrate | | | Moving hosting or DNS, not the registration |
+| SSL certificate | TLS certificate | SSL/TLS certificate, TLS/SSL certificate | Name TLS once, where the article explains it. Exception: `what-is-dane`, where TLS is the correct term |
+| SAN | | | Spell out on first use: "Subject Alternative Name (SAN)", then "SAN" |
+| wildcard SSL certificate | | wildcard certificate | Product names stay as they are: Sectigo Wildcard, Sectigo PositiveSSL Wildcard |
+| propagation | | | A misnomer customers search for. Keep it, and always explain it with TTL: records do not propagate, cached copies expire |
+| name server | nameserver | | Two words, as in the RFCs and the app. Customers often type one word |
+| subdomain | | sub-domain | |
+| organization | | organisation | US spelling |
+| auto-renewal | autorenewal | automatic renewal, auto renewal | |
+| TLD | | top level domain | Spell out on first use: "top-level domain (TLD)", then "TLD" |
+
+- **TLD articles:** `.XXX Domains` in both the frontmatter `title` and the H1, never `.XXX Domain Names`
+- **App labels:** when naming a button or field, match the screen exactly, even where it differs from the preferred term. For example, **Send Auth Code** and **Regenerate Auth Code**
+- **URLs do not change.** Update titles, headings, body text, and link labels. Leave slugs as they are
 
 ## Review checklist before finishing
 
