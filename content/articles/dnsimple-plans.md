@@ -56,7 +56,7 @@ For a detailed breakdown of invoice line items, see [Understanding Your Invoice]
 
 - The ability to register, transfer, and renew domains - [see TLD prices](https://dnsimple.com/tlds).
 - Primary or secondary DNS zones with [Anycast DNS](/articles/why-anycast-dns/), [DNSSEC](/articles/dnssec/), and multi-layer [DDoS defense](/articles/protection-ddos/), billed monthly per zone.
-- [Email forwarding](https://support.dnsimple.com/articles/email-forwarding/), billed monthly per domain.
+- [Email forwarding](/articles/email-forwarding/), billed monthly per domain.
 - DNSimple's [Domain Control Plane](https://dnsimple.com/products/domain-control-plane) - view and manage domains and DNS across registrars and providers.
 
 ## Solo
@@ -129,7 +129,7 @@ Custom subscription fee with the number of seats to be determined by your needs.
 - Fast-tracked feature requests
 - A [digital wallet](/articles/wallet-replenishment/) for recurring payments
 - [Multi-account management](/articles/account-multi-enterprise/)
-- Single sign-on with [Okta](/articles/okta-identity-provider/), [Google Workspace](/articles/google-identity-provider/) or [Microsoft Entra](https://support.dnsimple.com/articles/entra-identity-provider/)
+- Single sign-on with [Okta](/articles/okta-identity-provider/), [Google Workspace](/articles/google-identity-provider/) or [Microsoft Entra](/articles/entra-identity-provider/)
 - [Vanity name servers](/articles/vanity-nameservers/)
 - Discounted domain registration, transfer, and renewal fees for high-volume TLDs
 - DNS high-volume zone discounts

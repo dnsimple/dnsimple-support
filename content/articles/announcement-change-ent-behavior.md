@@ -36,7 +36,7 @@ $ORIGIN example.com.
 a.b.c.example.com.   IN  CNAME   two.test.
 ```
 
-A typical example is represented by [DKIM records](https://support.dnsimple.com/articles/dkim-record/), that often generate an ENT due to their specific naming structure.
+A typical example is represented by [DKIM records](/articles/dkim-record/), that often generate an ENT due to their specific naming structure.
 
 ## What's changing? {#changing}
 

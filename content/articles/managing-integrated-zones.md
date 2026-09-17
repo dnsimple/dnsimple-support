@@ -20,7 +20,7 @@ From the **Domain Names** page, you can see both your DNSimple zones and zones f
     - Zones managed directly in DNSimple.
     - Zones imported from your connected Integrated DNS Providers.
     
-    Each zone is listed under the **DNS Zones** column, with labels showing which [Integrated DNS Providers](/articles/what-are-integrated-providers/) it can be managed at. Click any zone to open it in the [Record Editor](https://support.dnsimple.com/articles/record-editor-integrated-zones/) and manage its records.
+    Each zone is listed under the **DNS Zones** column, with labels showing which [Integrated DNS Providers](/articles/what-are-integrated-providers/) it can be managed at. Click any zone to open it in the [Record Editor](/articles/record-editor-integrated-zones/) and manage its records.
 
     ![Domain Names Integrated Zones Table](/files/domain-names-integrated-zones.png)
 </div>

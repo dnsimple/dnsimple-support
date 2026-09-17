@@ -19,7 +19,7 @@ categories:
 
 The Record Editor is DNSimple's DNS editor. It lets you view, add, update, and delete DNS records for your domain in DNSimple.
 
-Any supported [DNS record](/articles/supported-dns-records/) type can be managed from the Record Editor, except [system records](https://support.dnsimple.com/articles/system-records/). DNSimple provides two editor interfaces: the simple editor and the field-specific editor. To learn about the differences and when to use each, see [Understand DNSimple's Record Editors: Simple vs. Field-Specific](/articles/record-editor-simple-field/).
+Any supported [DNS record](/articles/supported-dns-records/) type can be managed from the Record Editor, except [system records](/articles/system-records/). DNSimple provides two editor interfaces: the simple editor and the field-specific editor. To learn about the differences and when to use each, see [Understand DNSimple's Record Editors: Simple vs. Field-Specific](/articles/record-editor-simple-field/).
 
 You will need access to the account or domain to make changes. Make sure the domain is delegated to DNSimple so your records propagate.
 
@@ -75,7 +75,7 @@ From the Record Editor, you can also view the Activity log to see who made chang
 - If you are on the Teams plan or higher, you will see the full activity history.
 - If you are on the Solo plan, you can view the last 30 days of activity.
 
-For step-by-step instructions and filtering options, see [How to View the Activity Log](https://support.dnsimple.com/articles/activity-tracking/).
+For step-by-step instructions and filtering options, see [How to View the Activity Log](/articles/activity-tracking/).
 
 ## Have more questions?
 If you have any questions or need assistance with the Record Editor, reach out to support, and we will be happy to help.

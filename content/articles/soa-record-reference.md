@@ -7,7 +7,7 @@ categories:
 ---
 
 # SOA Record Reference
-This article serves as a reference for the formal structure, components, and key technical details of an [SOA (Start of Authority) record](https://support.dnsimple.com/articles/soa-record/) .
+This article serves as a reference for the formal structure, components, and key technical details of an [SOA (Start of Authority) record](/articles/soa-record/) .
 
 ## SOA record format {#soa-record-format}
 An SOA record is a mandatory administrative record that must exist in every DNS zone. It is defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035) and has a type code of 6.

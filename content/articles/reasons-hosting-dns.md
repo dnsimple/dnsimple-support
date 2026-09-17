@@ -12,7 +12,7 @@ categories:
 
 DNSimple provides a clean, easy-to-use web interface and [API](https://dnsimple.com/api) for domain registration and management. We simplify domain and DNS management by focusing on DNS and domains. This lets us do everything from improving our API to allow automated domain registration and transfers, to enhancing our web interface to make it easier to use.
 
-We have expert-level [customer support](https://support.dnsimple.com/articles/dnsimple-support/) along with robust documentation for any questions you might have. When you email <support@dnsimple.com>, you'll get replies from experts at DNSimple who care about you, your business, and your DNS. We make every effort to resolve DNS issues. And we're always straightforward about what our service can and can't do.
+We have expert-level [customer support](/articles/dnsimple-support/) along with robust documentation for any questions you might have. When you email <support@dnsimple.com>, you'll get replies from experts at DNSimple who care about you, your business, and your DNS. We make every effort to resolve DNS issues. And we're always straightforward about what our service can and can't do.
 
 ## The best hosted DNS service
 
