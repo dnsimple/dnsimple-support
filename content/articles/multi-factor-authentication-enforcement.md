@@ -38,7 +38,7 @@ You can only enable MFA enforcement when **all members already have MFA enabled*
 
     ![screenshot: mfa settings for account](/files/mfa.png)
 
-1. If members do not have MFA enabled, you will see a list of non-compliant users. You can [remove those members](/articles/account-users/#removing-members-from-an-account) from the <label>Members</label> card.
+1. If members do not have MFA enabled, you will see a list of non-compliant users. You can [remove those members](/articles/account-users/#removing-members) from the <label>Members</label> card.
 
     ![screenshot: non compliant mfa users](/files/non-compliant-mfa-users.png)
 

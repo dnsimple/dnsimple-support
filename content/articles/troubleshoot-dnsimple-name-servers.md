@@ -30,7 +30,7 @@ The order of the name servers is irrelevant.
 
 If you recently pointed the domain to DNSimple, and the domain still is not resolving, remember it may take up to 24 hours for a name server change to propagate.
 
-You can check whether the update was successful by inspecting the [WHOIS](https://dnsimple.com/whois) response for the domain as described in the section [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response/).
+You can check whether the update was successful by inspecting the [WHOIS](https://dnsimple.com/whois) response for the domain as described in the section [Check name server list in the WHOIS response](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response).
 
 The WHOIS response usually updates within a few minutes.
 
