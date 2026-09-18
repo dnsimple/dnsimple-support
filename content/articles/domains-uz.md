@@ -24,7 +24,7 @@ Additional requirements:
 - Individuals must use full legal names (no abbreviations)
 - Companies must include legal suffixes such as `Ltd`, `Inc`, or `GMBH`
 - Registered associations must include the `RA` suffix
-- Nameservers are mandatory at registration
+- Name servers are mandatory at registration
 
 ## Registry validation process {#validation}
 

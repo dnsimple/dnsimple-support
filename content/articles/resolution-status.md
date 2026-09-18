@@ -18,13 +18,13 @@ The resolution status you see in DNSimple depends on where your domain is regist
 
 If you registered the domain directly with us, we will set the name servers to DNSimple by default. You can view these name servers and the delegation status by visiting the **Registration** tab for your domain and looking at the **Delegation** card.
 
-![list of nameservers for a domain](/files/nameserver-list.png)
+![list of name servers for a domain](/files/nameserver-list.png)
 
 If you update the name servers to another provider, those will be reflected here. 
 
 If you transfer a domain to us, **we do not automatically change the name servers**, so you will need to manually switch them to DNSimple if you want us to host your DNS.
 
-![list of external nameservers](/files/external-nameservers.png)
+![list of external name servers](/files/external-nameservers.png)
 
 ### Domains registered with another registrar
 

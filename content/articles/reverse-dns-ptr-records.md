@@ -70,7 +70,7 @@ DNSimple supports managing reverse DNS entries (i.e., PTR records), but it is cr
 
 **If you want DNSimple to manage your PTR records**:
 - **Subscription plan**: This feature is available on certain [DNSimple plans](https://dnsimple.com/pricing).
-- **Delegation is required**: You must be able to delegate the portion of your subnet (IP address block) that you want DNSimple to respond to for reverse DNS queries. This involves instructing your IP address provider (your Internet Service Provider, hosting company, or cloud provider) to point the reverse DNS for your IP range to DNSimple's nameservers.
+- **Delegation is required**: You must be able to delegate the portion of your subnet (IP address block) that you want DNSimple to respond to for reverse DNS queries. This involves instructing your IP address provider (your Internet Service Provider, hosting company, or cloud provider) to point the reverse DNS for your IP range to DNSimple's name servers.
 - **No direct control**: Depending on your IP address provider or hosting company, you may not have direct control over your subnet's reverse DNS delegation. In that case, you will need to ask your hosting company or IP address provider to set up the reverse DNS entries you require directly with them.
 
 > [!NOTE]

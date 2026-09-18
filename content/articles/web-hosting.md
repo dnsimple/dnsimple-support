@@ -32,7 +32,7 @@ Web hosts provide online services that let you publish your website or web appli
 
 ## What is the difference between DNS and web hosting? {#what-is-the-difference-between-dns-and-web-hosting}
 
-Web hosts sometimes offer free DNS as part of their packages, but they are two completely different services. A web host provides the online space in which your actual website is hosted. DNS hosting is a network service that provides the authoritative nameserver for your domain's queries. Even though a web host may include DNS hosting, that does not mean it is the best option. A fast and reliable DNS hosting provider is crucial in today's digital climate — that is where DNSimple comes in.
+Web hosts sometimes offer free DNS as part of their packages, but they are two completely different services. A web host provides the online space in which your actual website is hosted. DNS hosting is a network service that provides the authoritative name server for your domain's queries. Even though a web host may include DNS hosting, that does not mean it is the best option. A fast and reliable DNS hosting provider is crucial in today's digital climate — that is where DNSimple comes in.
 
 ## Why does not DNSimple provide web hosting services? {#why-does-not-dnsimple-provide-web-hosting-services}
 

@@ -15,7 +15,7 @@ categories:
 
 ## What is a POOL record? {#what-is-a-pool-record}
 
-A **POOL record** is a unique and powerful record type developed by DNSimple to provide advanced traffic management capabilities. It allows you to randomly distribute incoming requests across multiple target hostnames, essentially acting as a lightweight, DNS-based load balancer for your services.
+A **POOL record** is a unique and powerful record type developed by DNSimple to provide advanced traffic management capabilities. It allows you to randomly distribute incoming requests across multiple target hostnames, acting as a lightweight, DNS-based load balancer for your services.
 
 While standard [CNAME records](/articles/cname-record/) can alias one name to another, they lack the ability to dynamically choose between several destinations. The POOL record solves this by enabling you to define a collection (pool) of hostnames that a single CNAME-like record can point to, randomly selecting one at resolution time.
 

@@ -34,7 +34,7 @@ An authorization code (also called auth code, EPP code, transfer code, or auth i
 
 ## Transfer timeline {#transfer-timeline}
 
-**Processing time:** It can take up to seven (7) days for a transfer to complete, depending on the domain's Top Level Domain (TLD).
+**Processing time:** It can take up to seven (7) days for a transfer to complete, depending on the domain's top-level domain (TLD).
 
 **Approval process:** For most domain extensions, the current registrant will receive an email from `donotreply@name-services.com` to authorize the transfer. The transfer cannot proceed without approval of this email.
 

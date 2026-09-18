@@ -22,7 +22,7 @@ Domain registrations typically include three types of contacts. **The registrant
 
 **The technical contact** is responsible for technical aspects of the domain. This contact handles technical issues related to the domain, may receive technical notifications, is typically the person to contact for DNS or other technical problems, and may have limited administrative permissions depending on the registrar. The technical contact is often different from the registrant and administrative contacts, especially for organizations with separate technical and administrative staff.
 
-> [!INFO]
+> [!NOTE]
 > At DNSimple, domain contacts are managed using a simplified model. A single contact record represents all contact roles (registrant, administrative, and technical).
 > This means that when you update the domain registrant contact in your DNSimple account, the change is applied to all associated contact roles for that domain.
 

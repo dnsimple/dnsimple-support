@@ -20,7 +20,7 @@ categories:
 .SPORT is a restricted TLD. To register a .SPORT domain you must demonstrate a legitimate connection to the sports community and pass the registry's validation process. The registry accepts applications from a wide range of entities, including:
 
 - Individuals
-- Organisations
+- Organizations
 - Brands
 - Clubs
 - Federations

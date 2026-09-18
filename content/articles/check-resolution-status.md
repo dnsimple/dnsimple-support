@@ -18,11 +18,11 @@ If you registered the domain with us, we automatically set the name servers to D
 2. Click the **Registration** tab on the left side.  
 3. The name servers are listed in the **Delegation** card.
 
-![list of nameservers for a domain](/files/nameserver-list.png)
+![list of name servers for a domain](/files/nameserver-list.png)
 
 If you updated the name servers to another provider, those will appear as well.
 
-![list of external nameservers](/files/external-nameservers.png)
+![list of external name servers](/files/external-nameservers.png)
 
 > [!WARNING]
 > If you transferred the domain to us, we do not automatically switch your name servers, but you can [switch the name servers to DNSimple](/articles/delegating-dnsimple-registered/).
