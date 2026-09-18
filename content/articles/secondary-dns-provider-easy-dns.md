@@ -56,7 +56,7 @@ It can take up to one hour for the first [zone transfer](/articles/secondary-dns
 
 ![DNSimple configuration is successful](/files/easy-dns-tools.png)
 
-If everything is working correctly, you should see the DNSimple and EasyDNS nameservers.
+If everything is working correctly, you should see the DNSimple and EasyDNS name servers.
 
 ![DNSimple configuration is successful](/files/easy-dns-secondary-zone.png)
 

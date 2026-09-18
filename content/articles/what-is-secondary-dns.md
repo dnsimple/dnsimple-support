@@ -15,7 +15,7 @@ categories:
 
 ---
 
-Secondary DNS is a redundancy setup where two or more nameserver providers serve the same zone. A **primary** holds the zone you edit. One or more **secondaries** retrieve that data (usually with a [zone transfer](/articles/secondary-dns-glossary/#zone-transfer)) and serve it on their own name servers. If one provider has an outage, resolvers can still get answers from the other.
+Secondary DNS is a redundancy setup where two or more name server providers serve the same zone. A **primary** holds the zone you edit. One or more **secondaries** retrieve that data (usually with a [zone transfer](/articles/secondary-dns-glossary/#zone-transfer)) and serve it on their own name servers. If one provider has an outage, resolvers can still get answers from the other.
 
 ## Primary and secondary roles {#roles}
 

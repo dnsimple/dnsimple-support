@@ -64,7 +64,7 @@ A CNAME points the entire subdomain to another hostname, so it overrides any oth
 ```
 Another record already exists for example.com, cannot add a CNAME.
 ```
-You can achieve a similar behavior to CNAME records with an ALIAS record. If you want a sub-domain to always resolve to the IP address of another domain, you can use an ALIAS record pointing to that domain. You should only do this if absolutely necessary, as the ALIAS record has a small amount of additional overhead compared to [A and CNAME records](/articles/differences-between-a-cname-alias-url/).
+You can achieve a similar behavior to CNAME records with an ALIAS record. If you want a subdomain to always resolve to the IP address of another domain, you can use an ALIAS record pointing to that domain. You should only do this if absolutely necessary, as the ALIAS record has a small amount of additional overhead compared to [A and CNAME records](/articles/differences-between-a-cname-alias-url/).
 
 ## Updating a CNAME record {#updating-a-cname-record}
 

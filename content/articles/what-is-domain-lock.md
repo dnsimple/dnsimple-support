@@ -37,7 +37,7 @@ Locks focus on safeguarding ownership rather than interrupting active services.
 
 The process for removing locks depends on the type of lock. Registrar locks are usually removed through your registrar account interface when you are [ready to transfer](/articles/domain-transfer/). Registry locks may require contacting the registry or your registrar's support team. ICANN 60-day locks cannot be removed and automatically expire after 60 days. 
 
-> [!INFO]
+> [!NOTE]
 > At DNSimple, unlocking a domain is temporary. If a domain is left unlocked, it will automatically relock after 30 days. This helps reduce the risk of unintended or unauthorized transfers if a domain is left unlocked longer than intended.
 
 ## Have more questions?

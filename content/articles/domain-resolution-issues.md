@@ -97,7 +97,7 @@ If you switched DNS providers recently, please read our [Manage DS Records When 
 
 If you transferred your domain from another registrar, check our suggestions at the [Preparing DNS Before Transferring a Domain Into DNSimple > DNSSEC considerations](/articles/before-transferring-domain/#dnssec-considerations) article to pinpoint potential issues.
 
-> [!INFO]
+> [!NOTE]
 > **If your domain is properly delegated to DNSimple but specific records are not resolving**, see [Troubleshoot Record Resolution Issues](/articles/record-resolution-issues/) for information about:
 > - Querying DNSimple name servers directly to bypass caching
 > - DNS propagation delays and TTL values
