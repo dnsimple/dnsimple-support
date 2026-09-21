@@ -57,7 +57,7 @@ When it comes to managing the authoritative name servers for your domain, the pr
 **If another registrar holds your domain:** Log in to that registrar's control panel, and [update your domain's name servers](/articles/delegating-dnsimple-hosted/), pointing them to DNSimple's name servers (e.g., `ns1.dnsimple-edge.com`, `ns2.dnsimple-edge.net`, etc.).
 
 ### To delegate to another DNS provider
-**If DNSimple is your domain registrar:** Update your domain's name servers within your DNSimple account, and [enter the name servers of the other DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider/).
+**If DNSimple is your domain registrar:** Update your domain's name servers within your DNSimple account, and [enter the name servers of the other DNS provider](/articles/setting-name-servers/#pointing-the-name-servers-to-another-provider).
 
 > [!NOTE]
 > The NS records DNSimple automatically publishes within your DNSimple-hosted zone (indicating DNSimple is the authoritative source for your domain) are system-managed. 

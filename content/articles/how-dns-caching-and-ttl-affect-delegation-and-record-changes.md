@@ -24,7 +24,7 @@ When you change an A, AAAA, CNAME, MX, or other record at your DNS host, authori
 
 ## Delegation changes and caching {#delegation-changes-and-caching}
 
-Changing which servers are authoritative (for example after [pointing your domain to DNSimple](/articles/pointing-domain-to-dnsimple/)) updates delegation at the registry. Resolvers cache delegation responses too. Parents publish NS records for your zone with their own TTLs; until those caches expire, some clients may still query your previous name servers. That is why support often cites up to roughly 24 hours for broad propagation even though [WHOIS](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response/) may already list new name servers.
+Changing which servers are authoritative (for example after [pointing your domain to DNSimple](/articles/pointing-domain-to-dnsimple/)) updates delegation at the registry. Resolvers cache delegation responses too. Parents publish NS records for your zone with their own TTLs; until those caches expire, some clients may still query your previous name servers. That is why support often cites up to roughly 24 hours for broad propagation even though [WHOIS](/articles/domain-resolution-issues/#check-name-server-list-in-the-whois-response) may already list new name servers.
 
 Delegation caching and record caching are different layers. WHOIS can show updated NS data while an individual resolver still follows older delegation until its cache entry expires.
 
