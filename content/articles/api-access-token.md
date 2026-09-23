@@ -125,12 +125,12 @@ You must be an account administrator to disable or enable an account token. You 
 
 - The API rejects every request made with the token with an HTTP `401 Unauthorized` response. This is the same response as for a deleted token.
 - The last used date of the token does not change while the token is disabled.
-- The account [activity log](/articles/activity-tracking/) records the change as `Token '<name>' disabled` or `Token '<name>' enabled`.
+- For an account token, the account [activity log](/articles/activity-tracking/) records the change as `Token '<name>' disabled` or `Token '<name>' enabled`.
 - For a scoped account token, DNSimple sends an email to the account [notification recipients](/articles/account-notification-emails/#api-tokens) when you disable or enable the token.
 - The disabled token keeps its name. You cannot create another token with the same name until you delete the disabled token.
 
 > [!NOTE]
-> You cannot disable [OAuth tokens](/articles/oauth-applications/). To stop an OAuth application, revoke its tokens.
+> You cannot disable [OAuth tokens](/articles/oauth-applications/). To stop an OAuth application, [revoke its tokens](/articles/oauth-applications/#revoke).
 
 ## Deleting an access token {#delete}
 
@@ -139,6 +139,7 @@ Delete a token when you no longer need it. A deleted token cannot be recovered. 
 <div class="section-steps" markdown="1">
 ##### To delete an access token
 
+1. Go to the token list. For an account token, go to the **API & Access** page of the account. For a user token, go to your user profile page.
 1. Click the actions menu (three dots) next to the token.
 1. Click <label>Delete</label>.
 1. In the <label>Delete access token?</label> dialog, confirm the action.
