@@ -46,6 +46,17 @@ For more on securing your account, see [Account Security](/articles/account-secu
 | Account reactivation | Reactivation of a canceled account begins. | Notification recipients |
 | Activity or audit log export | You request an [activity](/articles/activity-tracking/) or audit log export. | The address that requested it |
 
+## API access token emails {#api-tokens}
+
+DNSimple sends these emails only for scoped [account access tokens](/articles/api-access-token/#scoped-access-tokens).
+
+| Email | When DNSimple sends it | Sent to |
+|---|---|---|
+| New scoped access token | A scoped access token is added to the account. | Notification recipients |
+| Scoped access token updated | The permissions of a scoped access token change. | Notification recipients |
+| Scoped access token disabled | A scoped access token is [disabled](/articles/api-access-token/#disable). | Notification recipients |
+| Scoped access token enabled | A disabled scoped access token is enabled again. | Notification recipients |
+
 ## Billing and subscription emails {#billing}
 
 These emails go to the account's billing recipients.

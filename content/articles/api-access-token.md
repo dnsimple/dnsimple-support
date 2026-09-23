@@ -1,7 +1,7 @@
 ---
 title: API Access Token
-excerpt: Explains how to create a new API access token for access to the API version 2, including how to create a scoped access token with granular permissions.
-meta: Create a DNSimple API access token for API v2 or the CLI, including account-scoped tokens with granular permissions.
+excerpt: Explains how to create an API access token for API version 2, including a scoped access token with granular permissions, and how to disable, enable, or delete a token.
+meta: Create a DNSimple API access token for API v2 or the CLI, including account-scoped tokens with granular permissions. Disable a token to block it without deleting it, then enable it again with the same value.
 categories:
 - API
 - Enterprise
@@ -42,7 +42,9 @@ The user token gives you access to any resource associated with any account the 
 
 ![screenshot of the API & Access page](/files/access-tokens.png)
 
-This page shows your API usage and limits at the top, followed by your access tokens, including the last used date for each. You can add new access tokens or remove existing ones from here.
+This page shows your API usage and limits at the top, followed by your access tokens, including the last used date for each. You can add, disable, enable, and delete access tokens from here.
+
+You manage user tokens on your [user profile page](https://app.dnsimple.com/user), in the **User access tokens** section.
 
 ## Viewing your API usage and limits {#api-usage}
 
@@ -102,9 +104,45 @@ You can then see what resources the token has access to and make changes to the 
 
 When you are done editing the token permissions, click **Update token** to save the updated permissions to the token, or click **Cancel** to exit without making changes.
 
-## Removing an account access token
+## Disabling and enabling an access token {#disable}
 
-You can remove a token by clicking the trash can **Delete** icon on the desired token.
+Disable an access token to stop it from working without deleting it. For example, disable a token when you suspect a leak, or when you pause or retire an integration. The token keeps its value, its name, and its permission scopes. When you enable it again, the same token value works again.
+
+<div class="section-steps" markdown="1">
+##### To disable an access token
+
+1. Go to the token list. For an account token, go to the **API & Access** page of the account. For a user token, go to your user profile page.
+1. Click the actions menu (three dots) next to the token.
+1. Click <label>Disable</label>.
+1. In the <label>Disable access token?</label> dialog, confirm the action.
+</div>
+
+The token list shows **Disabled** under the name of the token. To use the token again, click the actions menu next to the token, then click <label>Enable</label>.
+
+You must be an account administrator to disable or enable an account token. You can disable or enable only your own user tokens.
+
+### What happens when a token is disabled {#disabled-behavior}
+
+- The API rejects every request made with the token with an HTTP `401 Unauthorized` response. This is the same response as for a deleted token.
+- The last used date of the token does not change while the token is disabled.
+- The account [activity log](/articles/activity-tracking/) records the change as `Token '<name>' disabled` or `Token '<name>' enabled`.
+- For a scoped account token, DNSimple sends an email to the account [notification recipients](/articles/account-notification-emails/#api-tokens) when you disable or enable the token.
+- The disabled token keeps its name. You cannot create another token with the same name until you delete the disabled token.
+
+> [!NOTE]
+> You cannot disable [OAuth tokens](/articles/oauth-applications/). To stop an OAuth application, revoke its tokens.
+
+## Deleting an access token {#delete}
+
+Delete a token when you no longer need it. A deleted token cannot be recovered. To stop a token temporarily, [disable it](#disable) instead.
+
+<div class="section-steps" markdown="1">
+##### To delete an access token
+
+1. Click the actions menu (three dots) next to the token.
+1. Click <label>Delete</label>.
+1. In the <label>Delete access token?</label> dialog, confirm the action.
+</div>
 
 ## Have more questions?
 
