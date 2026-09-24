@@ -114,6 +114,9 @@ Disable an access token to stop it from working without deleting it. For example
 1. Go to the token list. For an account token, go to the **API & Access** page of the account. For a user token, go to your user profile page.
 1. Click the actions menu (three dots) next to the token.
 1. Click <label>Disable</label>.
+
+    ![Actions menu with the Disable option](/files/disable-access-token.png)
+
 1. In the <label>Disable access token?</label> dialog, confirm the action.
 </div>
 
