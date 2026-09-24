@@ -35,7 +35,7 @@ Sandbox data and systems are generally treated like production, but DNSimple may
 
 ## Separate credentials are required {#separate-credentials}
 
-Your production account and Sandbox account are completely independent. Your production [API access token](/articles/api-access-token/) will not work in the Sandbox, and your Sandbox token will not work in production. If API calls are returning authentication errors, verify you are using the correct token for the environment.
+Your production account and Sandbox account are completely independent. Your production [API access token](/articles/api-access-token/) will not work in the Sandbox, and your Sandbox token will not work in production. If API calls are returning authentication errors, verify you are using the correct token for the environment. Also check that the token is not [disabled](/articles/api-access-token/#disable).
 
 The Sandbox web interface is at `https://app.sandbox.dnsimple.com`, and the Sandbox API is at `https://api.sandbox.dnsimple.com`.
 

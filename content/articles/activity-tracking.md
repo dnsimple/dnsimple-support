@@ -40,6 +40,7 @@ Account-level activity tracking logs changes across your entire account, includi
 - Adjustments to account settings
 - Modifications affecting multiple domains
 - User actions and permission changes
+- [Account access token](/articles/api-access-token/) changes, such as creating, disabling, enabling, or deleting a token
 
 This view helps you understand changes that affect the account as a whole, not just individual domains.
 
